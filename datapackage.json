@@ -40,7 +40,15 @@
   },
   "resources": [
     {     
-      "path": "data/sources",
+      "path": "excel_sources",
+      "name": "digitalized sources in excel format",
+      "description": "digitalized data sources from Balance du commerce before tranformation into CSV. Deprecated version kept for history.",
+      "mediatype":"inode/directory",
+      "format":"xls",
+      "encoding":"UTF8"
+    },
+    {     
+      "path": "sources",
       "name": "digitalized sources",
       "description": "digitalized data sources from Balance du commerce. CSV files in folders",
       "mediatype":"inode/directory",
@@ -48,7 +56,7 @@
       "encoding":"UTF8"
     },
     {     
-      "path": "data/toflit18.csv",
+      "path": "toflit18.csv",
       "name": "the toflit18 unified database",
       "description": "all sources unified in one database ready to be analyzed",
       "mediatype":"text/csv",
