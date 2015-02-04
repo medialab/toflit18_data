@@ -1,0 +1,60 @@
+{
+  "name": "toflit18",
+  "datapackage_version": "1.0-beta",
+  "title": "toflit18 ANR project data",
+  "description": "",
+  "version": "2.0",
+  "keywords": ["history", "economy", "France", "Trade","18th century"],
+  "licenses": [{
+    "url": "http://opendatacommons.org/licenses/odbl/",
+    "name": "Attribution and Share-Alike for Data/Databases",
+    "version": "1.0",
+    "id": "odc-odbl"
+  }]
+  "sources": [{
+    "name": "World Bank and OECD",
+    "web": "http://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  }],
+  "contributors":[ {
+    "name": "Paul Girard",
+    "email": "paul.girard@sciencespo.fr",
+    "web": "http://medialab.sciences-po.fr"
+  },
+   {
+    "name": "Guillaume Daudin",
+    "email": "guillaume.daudin@dauphine.fr ",
+    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html"
+  }
+
+  ],
+  "maintainers": [
+  {
+    "name": "Paul Girard",
+    "email": "paul.girard@sciencespo.fr",
+    "web": "http://medialab.sciences-po.fr"
+  }
+  ],
+  "publishers": [],
+  "dependencies": {
+    "data-package-name": ">=1.0"
+  },
+  "resources": [
+    {     
+      "path": "data/sources",
+      "name": "digitalized sources",
+      "description": "digitalized data sources from Balance du commerce. CSV files in folders",
+      "mediatype":"inode/directory",
+      "format":"csv",
+      "encoding":"UTF8"
+    },
+    {     
+      "path": "data/toflit18.csv",
+      "name": "the toflit18 unified database",
+      "description": "all sources unified in one database ready to be analyzed",
+      "mediatype":"text/csv",
+      "format":"csv",
+      "encoding":"UTF8"
+    }
+    
+  ]
+}
