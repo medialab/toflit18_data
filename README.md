@@ -3,7 +3,7 @@ README.md
 # sources numériques
 
 - effacer les dossiers vides
-- scripter le changement de format XLS -> CSS
+- scripter le changement de format XLS -> CSV
 - vérifier l'encodage
 - créer un dépôt
 
