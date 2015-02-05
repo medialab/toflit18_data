@@ -12,8 +12,8 @@
     "id": "odc-odbl"
   }],
   "sources": [{
-    "name": "World Bank and OECD",
-    "web": "http://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+    "name": "Diverses",
+    "web": "http://toflit18.hypotheses.org"
   }],
   "contributors":[ {
     "name": "Paul Girard",
@@ -59,6 +59,15 @@
       "path": "toflit18.csv",
       "name": "the toflit18 unified database",
       "description": "all sources unified in one database ready to be analyzed",
+      "mediatype":"text/csv",
+      "format":"csv",
+      "encoding":"UTF8"
+    },
+    
+        {     
+      "path": "Traitement des marchandises",
+      "name": "Work on the name of goods",
+      "description": "Work on the name of goods",
       "mediatype":"text/csv",
       "format":"csv",
       "encoding":"UTF8"
