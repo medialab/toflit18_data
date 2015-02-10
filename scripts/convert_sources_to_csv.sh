@@ -11,7 +11,7 @@ find  ./excel_sources -type f | while read f; do
 	echo $f
 	mkdir -p "./sources/$dr"
 	case $extension in  
-		xls | xlsx) unoconv -f csv -o "./sources/$dr/" "$f";; 
+		ods | xls | xlsx) unoconv -f csv -o "./sources/$dr/" "$f";; 
 		csv | txt) iconv -f MAC -t UTF8 -o "./sources/$dr/$filename" "$f";;
 		docx | doc) unoconv -f txt -o "./sources/$dr/" "$f";;
 	esac
