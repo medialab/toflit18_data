@@ -10,7 +10,7 @@ for (dirpath,dirnames,filenames) in os.walk("sources"):
 		target_directory=dirpath
 		versions=[(f.split(".")[0].split("_v")[-1],f,f.split(".")[0].split("_v")[0]) for f in filenames]
 		versions.sort(key=lambda t:t[2])
-		print "cd %s;"%os.path.join(absolute_path,target_directory)
+		print """cd "%s";"""%os.path.join(absolute_path,target_directory)
 		#print versions
 		for file, versions in itertools.groupby(versions,lambda t:t[2]) :
 			
