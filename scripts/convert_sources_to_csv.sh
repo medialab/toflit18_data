@@ -4,8 +4,8 @@ then rm -rf ./sources;
 else mkdir sources;
 fi
 
-find  ./excel_sources -type f | while read f; do
-	dr=`echo $f | sed 's|./excel_sources/\(.*\)/[^/]\+.\w*$|\1|'`
+find  ./multipleformat_sources -type f | while read f; do
+	dr=`echo $f | sed 's|./multipleformat_sources/\(.*\)/[^/]\+.\w*$|\1|'`
 	filename=$(basename "$f")
 	extension="${filename##*.}"
 	echo $f
