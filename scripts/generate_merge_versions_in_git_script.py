@@ -6,7 +6,7 @@ absolute_path=os.getcwd()
 for (dirpath,dirnames,filenames) in os.walk("sources"):
 
 	filenames=[f for f in filenames if "_v" in f] 
-	if len(filenames)>1:
+	if len(filenames)>0:
 		target_directory=dirpath
 		versions=[(f.split(".")[0].split("_v")[-1],f,f.split(".")[0].split("_v")[0]) for f in filenames]
 		versions.sort(key=lambda t:t[2])
