@@ -5,12 +5,14 @@ import itertools
 import os 
 
 WRITE=True
+VERBOSE=True
 
 with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 	reader=csvkit.reader(bdd_centrale)
 	data=list(reader)
 	headers_bdd_centrale=data[0]
-	print headers_bdd_centrale
+	if VERBOSE:
+		print headers_bdd_centrale
 	# sort order
 	# SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
 	multiple_key_sort= lambda k:(k[4],k[5],k[7],k[6],int(k[0]) if len(k[0])>0 else "",k[10],k[11])
@@ -21,10 +23,17 @@ with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 	#remove headers
 	data=data[1:]
 	data = sorted(data, key=lambda e:e[3])
+	csvreport=[["sourcepath","nb line bdd_centrale","nb line source","columns removed"]]
 	for k,g in itertools.groupby(data, key=lambda e:e[3]):
-		print k.encode("UTF8")
+		empty_columns=[]
+		nb_lines_source=None
+		nb_lines_bdd_centrale=None
+
+		if VERBOSE:
+			print k.encode("UTF8")
 		# let's sort
 		source_data=list(g)
+		nb_lines_bdd_centrale=len(source_data)
 		if k=="National par direction/Saint-Brieuc/1750.csv":
 			source_data=sorted(source_data,key=multiple_key_sort_nationale_par_direction)
 		elif k =="Divers/AN/F_12_1834A/1671.csv":
@@ -36,14 +45,22 @@ with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 		columns_index_to_remove=[]
 		for i in range(len(source_data[0])):
 			if len([_[i] for _ in source_data if _[i]])==0:
-				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
 				columns_index_to_remove.append(i)
+		for i in columns_index_to_remove:
+			empty_columns.append(headers_bdd_centrale[i])
+			if VERBOSE:
+				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
+				
 		try :
 			with open(os.path.join("..","sources", k),"r") as s:
-				print "%s:%s/%s"%(k.encode("UTF8"),len(source_data),len(s.readlines())-1)
+				nb_lines_source=len(s.readlines())-1
+				if VERBOSE:
+					print "%s: source/bdd_centrale %s/%s"%(k.encode("UTF8"),nb_lines_source,nb_lines_bdd_centrale)
 		except IOError as e:
+			nb_lines_source=0
 			print "%s doesn't exist"%k.encode("UTF8")
 			print "%s:%s"%(k.encode("UTF8"),len(source_data))
+
 		if WRITE:
 			with open(os.path.join("..","sources", k),"w") as s:
 				writer=csvkit.writer(s)
@@ -52,7 +69,13 @@ with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 				for source_data_line in source_data:
 					source_data_line=[d for i,d in enumerate(source_data_line) if i not in columns_index_to_remove]
 					writer.writerow(source_data_line)
+		# ["sourcepath","nb line bdd_centrale","nb line source","columns removed"]
+		csvreport.append([k,nb_lines_bdd_centrale,nb_lines_source,";".join(empty_columns)])
 
+with open("desagregate_bdd_centrale.csv","w") as csvreport_f:
+	csvreport_writer=csvkit.writer(csvreport_f)
+	for l in csvreport:
+		csvreport_writer.writerow(l)
 # L’ordre de tri actuel (see commit 389c8fa) de la base de donnée centrale en croissant:
 # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
 
