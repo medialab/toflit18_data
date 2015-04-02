@@ -33,7 +33,7 @@ with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 			source_data=sorted(source_data,key=multiple_key_sort)
 
 		## let's remove empty columns
-		columns_index_to_remove=[3]
+		columns_index_to_remove=[]
 		for i in range(len(source_data[0])):
 			if len([_[i] for _ in source_data if _[i]])==0:
 				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
