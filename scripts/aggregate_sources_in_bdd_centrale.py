@@ -1,7 +1,7 @@
 import csvkit
 import os
 
-output_filename="agg_to_tableau_generale.csv"
+output_filename="../base_centrale/bdd_centrale.csv"
 directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 
@@ -19,7 +19,7 @@ for (dirpath,dirnames,filenames) in os.walk(directory):
 					r=csvkit.DictReader(source_file)
 					headers+=r.fieldnames
 					sources_aggregation+=list(r)
-sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["SourceType"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"],e["numrodeligne"],e["marchandises"],e["pays"] if "pays" in e else ""))
+sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["SourceType"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",e["numrodeligne"]  if "numrodeligne" in e else "",e["marchandises"],e["pays"] if "pays" in e else ""))
 headers=set(headers)
 headers=[h for h in  headers if h not in ordered_headers]
 headers=ordered_headers+headers
