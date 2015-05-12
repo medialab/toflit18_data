@@ -6,7 +6,7 @@ directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 
 sources_aggregation=[]
-ordered_headers=["numrodeligne","dataentryby","source","SourcePath","SourceType","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks"]
+ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks"]
 headers=[]
 
 for (dirpath,dirnames,filenames) in os.walk(directory):
@@ -19,7 +19,7 @@ for (dirpath,dirnames,filenames) in os.walk(directory):
 					r=csvkit.DictReader(source_file)
 					headers+=r.fieldnames
 					sources_aggregation+=list(r)
-sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["SourceType"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",e["numrodeligne"]  if "numrodeligne" in e else "",e["marchandises"],e["pays"] if "pays" in e else ""))
+sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["sourcetype"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",e["numrodeligne"]  if "numrodeligne" in e else "",e["marchandises"],e["pays"] if "pays" in e else ""))
 headers=set(headers)
 headers=[h for h in  headers if h not in ordered_headers]
 headers=ordered_headers+headers
