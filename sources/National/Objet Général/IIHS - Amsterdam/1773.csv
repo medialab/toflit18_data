@@ -1,4 +1,4 @@
-numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,marchandises,pays,value,quantit,total,quantity_unit,remarks,DoubleAccounts
+numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,marchandises,pays,value,quantit,total,quantity_unit,remarks,DoubleAccounts
 1,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,3,Acier,Angleterre,14355,41015.0,78999,livres,,0
 2,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,3,Acier,Espagne,15163,43325.0,78999,livres,,0
 3,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,3,Acier,Indes,5589,13953.0,78999,livres,,0
@@ -278,26 +278,26 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 277,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Cacao,Suisse,19424,27303.0,1157051,livres,,0
 278,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Cacao,Suède,1767,2719.0,1157051,livres,,0
 279,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Cacao,Venise,144908,111468.0,1157051,livres,,0
-280,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Allemagne,62259,95784.0,4.26E7,livres,,0
-281,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Angleterre,137886,272529.0,4.26E7,livres,,0
-282,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Danemark,1044791,2056551.0,4.26E7,livres,,0
-283,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Espagne,97369,152939.0,4.26E7,livres,,0
-284,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Flandre,2360555,4705107.0,4.26E7,livres,,0
-285,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Genève,259798,499895.0,4.26E7,livres,,0
-286,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Gènes,227020,302695.0,4.26E7,livres,,0
-287,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Hollande,5377190,9800906.0,4.26E7,livres,,0
-288,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Italie,2062497,3229582.0,4.26E7,livres,,0
-289,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Naples,339576,452768.0,4.26E7,livres,,0
+280,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Allemagne,62259,95784.0,42635238,livres,,0
+281,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Angleterre,137886,272529.0,42635238,livres,,0
+282,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Danemark,1044791,2056551.0,42635238,livres,,0
+283,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Espagne,97369,152939.0,42635238,livres,,0
+284,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Flandre,2360555,4705107.0,42635238,livres,,0
+285,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Genève,259798,499895.0,42635238,livres,,0
+286,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Gènes,227020,302695.0,42635238,livres,,0
+287,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Hollande,5377190,9800906.0,42635238,livres,,0
+288,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Italie,2062497,3229582.0,42635238,livres,,0
+289,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,12,Caffé ; des Isles,Naples,339576,452768.0,42635238,livres,,0
 290,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; de Levant,Genève,307108,153554.0,318936,livres,,0
 291,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; de Levant,Suisse,11828,5914.0,318936,livres,,0
-292,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Guinée,2322,3742.0,4.26E7,livres,,0
-293,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Levant,3571768,4762358.0,4.26E7,livres,,0
-294,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Nord,1.48E7,2.810029E7,4.26E7,livres,,0
-295,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Russie,6721431,1.3421359E7,4.26E7,livres,,0
-296,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Savoye,155047,208446.0,4.26E7,livres,,0
-297,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Suisse,1959823,3053069.0,4.26E7,livres,,0
-298,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Suède,2407398,4785479.0,4.26E7,livres,,0
-299,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Venise,1052052,1402736.0,4.26E7,livres,,0
+292,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Guinée,2322,3742.0,42635238,livres,,0
+293,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Levant,3571768,4762358.0,42635238,livres,,0
+294,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Nord,14796456,28100290.0,42635238,livres,,0
+295,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Russie,6721431,13421359.0,42635238,livres,,0
+296,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Savoye,155047,208446.0,42635238,livres,,0
+297,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Suisse,1959823,3053069.0,42635238,livres,,0
+298,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Suède,2407398,4785479.0,42635238,livres,,0
+299,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Caffé ; des Isles,Venise,1052052,1402736.0,42635238,livres,,0
 300,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Calmotte,Savoye,1925,275.0,1925,livres,,0
 301,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Canefice,Gènes,15408,51360.0,41462,livres,,0
 302,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,13,Canefice,Hollande,1044,4834.0,41462,livres,,0
@@ -669,12 +669,12 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 668,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Dorure ; fine,Portugal,5040,42.0,7653635,livres,,0
 669,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Dorure ; fine,Savoye,164155,1400.0,7653635,livres,,0
 670,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Dorure ; fine,Suisse,32040,267.0,7653635,livres,,0
-671,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Espagne,4980,830.0,1.65E7,livres,,0
-672,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Gènes,14400,2400.0,1.65E7,livres,,0
-673,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Indes,3300,11.0,1.65E7,pièces,,0
-674,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Italie,51270,8545.0,1.65E7,livres,,0
-675,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Levant,1.64E7,2730000.0,1.65E7,livres,,0
-676,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Naples,18732,3122.0,1.65E7,livres,,0
+671,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Espagne,4980,830.0,16472682,livres,,0
+672,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Gènes,14400,2400.0,16472682,livres,,0
+673,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Indes,3300,11.0,16472682,pièces,,0
+674,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Italie,51270,8545.0,16472682,livres,,0
+675,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Levant,16380000,2730000.0,16472682,livres,,0
+676,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; Londrin,Naples,18732,3122.0,16472682,livres,,0
 677,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; cordeillard,Espagne,14940,249.0,62440,pièces,,0
 678,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; cordeillard,Savoye,47500,950.0,62440,pièces,,0
 679,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,26,Drap ; de laine ; d'Elbeuf,Allemagne,307269,21908.0,1394650,livres,,0
@@ -894,27 +894,27 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 893,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etamine ; de laine,Suisse,86646,13441.0,677665,livres,,0
 894,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; bours,Levant,4440,111.0,4440,pièces,,0
 895,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; damas,Nord,30450,203.0,30450,pièces,,0
-896,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Allemagne,1.42E7,267497.0,2.63E7,livres,,0
-897,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Angleterre,87800,302.75,2.63E7,livres,,0
-898,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Danemark,4190,91.0,2.63E7,livres,,0
-899,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Espagne,4513755,101341.5,2.63E7,livres,,0
-900,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Flandre,781907,15417.0,2.63E7,livres,,0
-901,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Genève,360605,6646.0,2.63E7,livres,,0
-902,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Guinée,142410,2971.5,2.63E7,livres,,0
-903,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Gènes,75400,1885.0,2.63E7,livres,,0
-904,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Hollande,243680,4714.0,2.63E7,livres,,0
-905,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Indes,26000,650.0,2.63E7,livres,,0
-906,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Isles,651537,16652.0,2.63E7,livres,,0
-907,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Italie,3490845,67421.0,2.63E7,livres,,0
-908,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Levant,354440,8861.0,2.63E7,livres,,0
-909,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Naples,398120,9953.0,2.63E7,livres,,0
-910,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Nord,55230,1060.0,2.63E7,livres,,0
-911,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Portugal,72115,1346.0,2.63E7,livres,,0
-912,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Russie,29815,859.25,2.63E7,livres,,0
-913,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Savoye,265595,6191.5,2.63E7,livres,,0
-914,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Suisse,544945,10348.0,2.63E7,livres,,0
-915,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Suède,5020,125.5,2.63E7,livres,,0
-916,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Venise,20000,500.0,2.63E7,livres,,0
+896,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Allemagne,14161740,267497.0,26285149,livres,,0
+897,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Angleterre,87800,302.75,26285149,livres,,0
+898,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Danemark,4190,91.0,26285149,livres,,0
+899,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Espagne,4513755,101341.5,26285149,livres,,0
+900,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Flandre,781907,15417.0,26285149,livres,,0
+901,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Genève,360605,6646.0,26285149,livres,,0
+902,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Guinée,142410,2971.5,26285149,livres,,0
+903,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Gènes,75400,1885.0,26285149,livres,,0
+904,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Hollande,243680,4714.0,26285149,livres,,0
+905,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Indes,26000,650.0,26285149,livres,,0
+906,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Isles,651537,16652.0,26285149,livres,,0
+907,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Italie,3490845,67421.0,26285149,livres,,0
+908,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Levant,354440,8861.0,26285149,livres,,0
+909,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Naples,398120,9953.0,26285149,livres,,0
+910,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Nord,55230,1060.0,26285149,livres,,0
+911,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Portugal,72115,1346.0,26285149,livres,,0
+912,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Russie,29815,859.25,26285149,livres,,0
+913,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Savoye,265595,6191.5,26285149,livres,,0
+914,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Suisse,544945,10348.0,26285149,livres,,0
+915,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Suède,5020,125.5,26285149,livres,,0
+916,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; diverses,Venise,20000,500.0,26285149,livres,,0
 917,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; de soye ; soucy,Isles,2000,40.0,2000,pièces,,0
 918,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; dorure ; d'or,Angleterre,8500,106.25,8500,livres,,0
 919,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,34,Etoffe ; dorure ; or et argent,Allemagne,1634320,18191.0,3455940,livres 2 onces,,0
@@ -1032,7 +1032,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1031,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Guinée,422997,2123115.0,2915394,livres,,0
 1032,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Gènes,126773,507095.0,2915394,livres,,0
 1033,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Indes,120041,600205.0,2915394,livres,,0
-1034,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Isles,2235085,1.2364202E7,2915394,livres,,0
+1034,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Isles,2235085,12364202.0,2915394,livres,,0
 1035,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Levant,3486,13947.0,2915394,livres,,0
 1036,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Farine,Savoye,1950,7800.0,2915394,livres,,0
 1037,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,37,Fayance,Angleterre,1909,3708.0,381460,livres,,0
@@ -1347,22 +1347,22 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1346,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Huile ; de vitriol,Savoye,5872,1468.0,5872,livres,,0
 1347,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Huitres,Hollande,24500,1225.0,31140,barils,,0
 1348,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Huitres,Isles,6640,332.0,31140,barils,,0
-1349,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Angleterre,269730,35443.0,1.53E7,livres,,0
-1350,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Danemark,823047,126594.0,1.53E7,livres,,0
-1351,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Espagne,63128,10591.0,1.53E7,livres,,0
-1352,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Flandre,102492,9973.0,1.53E7,livres,,0
-1353,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Genève,246210,39637.0,1.53E7,livres,,0
-1354,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Gènes,22540,4508.0,1.53E7,livres,,0
-1355,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Hollande,2040307,320701.0,1.53E7,livres,,0
-1356,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Italie,2269243,377721.0,1.53E7,livres,,0
-1357,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Levant,934550,186910.0,1.53E7,livres,,0
-1358,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Naples,65645,13129.0,1.53E7,livres,,0
-1359,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Nord,3199328,491933.0,1.53E7,livres,,0
-1360,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Russie,1068822,178137.0,1.53E7,livres,,0
-1361,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Savoye,24555,4911.0,1.53E7,livres,,0
-1362,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Suisse,646578,93510.0,1.53E7,livres,,0
-1363,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Suède,3525685,585992.0,1.53E7,livres,,0
-1364,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Venise,41340,8268.0,1.53E7,livres,,0
+1349,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Angleterre,269730,35443.0,15343200,livres,,0
+1350,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Danemark,823047,126594.0,15343200,livres,,0
+1351,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Espagne,63128,10591.0,15343200,livres,,0
+1352,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Flandre,102492,9973.0,15343200,livres,,0
+1353,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Genève,246210,39637.0,15343200,livres,,0
+1354,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Gènes,22540,4508.0,15343200,livres,,0
+1355,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Hollande,2040307,320701.0,15343200,livres,,0
+1356,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Italie,2269243,377721.0,15343200,livres,,0
+1357,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Levant,934550,186910.0,15343200,livres,,0
+1358,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Naples,65645,13129.0,15343200,livres,,0
+1359,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Nord,3199328,491933.0,15343200,livres,,0
+1360,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Russie,1068822,178137.0,15343200,livres,,0
+1361,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Savoye,24555,4911.0,15343200,livres,,0
+1362,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Suisse,646578,93510.0,15343200,livres,,0
+1363,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Suède,3525685,585992.0,15343200,livres,,0
+1364,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Indigo,Venise,41340,8268.0,15343200,livres,,0
 1365,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Instruments ; de mathématique,Indes,3100,,3100,,,0
 1366,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Instruments ; de musique,Allemagne,2160,216.0,11778,livres,,0
 1367,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,47,Instruments ; de musique,Espagne,5793,3896.0,11778,livres,,0
@@ -1422,7 +1422,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1421,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Librairie,Danemark,1200,600.0,221538,livres,,0
 1422,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Librairie,Espagne,104620,52310.0,221538,livres,,0
 1423,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Espagne,72934,521184.0,4919640,livres,,0
-1424,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Guinée,4607570,4.2063379E7,4919640,livres,,0
+1424,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Guinée,4607570,42063379.0,4919640,livres,,0
 1425,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Gènes,150172,761960.0,4919640,livres,,0
 1426,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Isles,65839,364702.0,4919640,livres,,0
 1427,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,49,Légumes,Italie,11108,100607.0,4919640,livres,,0
@@ -2065,35 +2065,35 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 2064,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Soye ; aprestée,Suède,20880,1044.0,740661,livres,,0
 2065,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Soye ; crüe,Allemagne,4791,141.0,4791,livres,,0
 2066,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Soye ; platte,Flandre,1420,35.5,1420,livres,,0
-2067,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Angleterre,17420,34840.0,1.66E7,livres,,0
-2068,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Danemark,735583,1471167.0,1.66E7,livres,,0
-2069,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Espagne,445176,890353.0,1.66E7,livres,,0
-2070,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Flandre,187250,374501.0,1.66E7,livres,,0
-2071,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Genève,75253,150507.0,1.66E7,livres,,0
-2072,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Gènes,326901,653802.0,1.66E7,livres,,0
-2073,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Hollande,3097699,6195398.0,1.66E7,livres,,0
-2074,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Italie,2328661,4657322.0,1.66E7,livres,,0
-2075,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Levant,1495219,2990438.0,1.66E7,livres,,0
-2076,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Naples,4228595,8457190.0,1.66E7,livres,,0
-2077,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Nord,1418655,2837310.0,1.66E7,livres,,0
-2078,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Russie,502333,1004666.0,1.66E7,livres,,0
-2079,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Savoye,304130,608260.0,1.66E7,livres,,0
-2080,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Suisse,203633,407267.0,1.66E7,livres,,0
-2081,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Suède,922114,1844228.0,1.66E7,livres,,0
-2082,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Venise,346038,692076.0,1.66E7,livres,,0
-2083,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Angleterre,7050,28200.0,1.11E7,livres,,0
-2084,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Danemark,209674,698916.0,1.11E7,livres,,0
-2085,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Espagne,8205,30866.0,1.11E7,livres,,0
-2086,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Flandre,26117,104470.0,1.11E7,livres,,0
-2087,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Gènes,18576,74304.0,1.11E7,livres,,0
-2088,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Hollande,4283545,1.6728199E7,1.11E7,livres,,0
-2089,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Italie,105930,423722.0,1.11E7,livres,,0
-2090,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Levant,3929,15718.0,1.11E7,livres,,0
-2091,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Naples,169527,678110.0,1.11E7,livres,,0
-2092,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Nord,5843663,2.2588525E7,1.11E7,livres,,0
-2093,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Russie,13725,27450.0,1.11E7,livres,,0
-2094,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Savoye,1403,5615.0,1.11E7,livres,,0
-2095,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Suède,404439,1566484.0,1.11E7,livres,,0
+2067,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Angleterre,17420,34840.0,16634660,livres,,0
+2068,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Danemark,735583,1471167.0,16634660,livres,,0
+2069,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Espagne,445176,890353.0,16634660,livres,,0
+2070,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Flandre,187250,374501.0,16634660,livres,,0
+2071,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,75,Sucre ; blanc,Genève,75253,150507.0,16634660,livres,,0
+2072,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Gènes,326901,653802.0,16634660,livres,,0
+2073,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Hollande,3097699,6195398.0,16634660,livres,,0
+2074,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Italie,2328661,4657322.0,16634660,livres,,0
+2075,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Levant,1495219,2990438.0,16634660,livres,,0
+2076,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Naples,4228595,8457190.0,16634660,livres,,0
+2077,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Nord,1418655,2837310.0,16634660,livres,,0
+2078,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Russie,502333,1004666.0,16634660,livres,,0
+2079,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Savoye,304130,608260.0,16634660,livres,,0
+2080,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Suisse,203633,407267.0,16634660,livres,,0
+2081,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Suède,922114,1844228.0,16634660,livres,,0
+2082,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; blanc,Venise,346038,692076.0,16634660,livres,,0
+2083,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Angleterre,7050,28200.0,11095783,livres,,0
+2084,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Danemark,209674,698916.0,11095783,livres,,0
+2085,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Espagne,8205,30866.0,11095783,livres,,0
+2086,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Flandre,26117,104470.0,11095783,livres,,0
+2087,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Gènes,18576,74304.0,11095783,livres,,0
+2088,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Hollande,4283545,16728199.0,11095783,livres,,0
+2089,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Italie,105930,423722.0,11095783,livres,,0
+2090,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Levant,3929,15718.0,11095783,livres,,0
+2091,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Naples,169527,678110.0,11095783,livres,,0
+2092,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Nord,5843663,22588525.0,11095783,livres,,0
+2093,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Russie,13725,27450.0,11095783,livres,,0
+2094,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Savoye,1403,5615.0,11095783,livres,,0
+2095,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; brut,Suède,404439,1566484.0,11095783,livres,,0
 2096,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; candy,Levant,1939,1939.0,1939,livres,,0
 2097,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; cassonnade,Espagne,219162,547906.0,228122,livres,,0
 2098,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; cassonnade,Nord,8960,22400.0,228122,livres,,0
@@ -2112,7 +2112,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 2111,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Guinée,8520,16149.0,6606431,livres,,0
 2112,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Hollande,368599,702867.0,6606431,livres,,0
 2113,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Italie,157053,373937.0,6606431,livres,,0
-2114,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Nord,4871438,1.0677338E7,6606431,livres,,0
+2114,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Nord,4871438,10677338.0,6606431,livres,,0
 2115,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Russie,300396,500660.0,6606431,livres,,0
 2116,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Savoye,7136,12975.0,6606431,livres,,0
 2117,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Exports,76,Sucre ; terré,Suisse,216288,372840.0,6606431,livres,,0
@@ -2727,7 +2727,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 126,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; en vie,Savoye,76320,636.0,314200,en nombre,,0
 127,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; en vie,Suisse,98100,1088.0,314200,en nombre,,0
 128,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; fumé,Nord,2742,3822.0,2742,livres,,0
-129,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; salé,Angleterre,2895535,1.7634225E7,2898535,livres,Unités de compte : équivalent à 24828 Barrils,0
+129,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; salé,Angleterre,2895535,17634225.0,2898535,livres,Unités de compte : équivalent à 24828 Barrils,0
 130,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,7,Beufs ; salé,Italie,3000,15000.0,2898535,livres,,0
 131,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Beurre,Angleterre,2354901,4540170.0,2804551,livres,,0
 132,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Beurre,Flandre,27575,46688.0,2804551,livres,,0
@@ -2740,18 +2740,18 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 139,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Danemark,46000,460000.0,9448553,livres,,0
 140,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Espagne,187350,6245.0,9448553,charges,,0
 141,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Gènes,144048,6002.0,9448553,charges,,0
-142,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Hollande,1926283,1.9036849E7,9448553,livres,,0
+142,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Hollande,1926283,19036849.0,9448553,livres,,0
 143,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Italie,201612,1982200.0,9448553,livres,,0
 144,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Levant,3794400,158100.0,9448553,charges,,0
 145,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Naples,1061616,44234.0,9448553,charges,,0
-146,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Nord,1537100,1.5203506E7,9448553,livres,,0
+146,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Nord,1537100,15203506.0,9448553,livres,,0
 147,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Russie,403944,4039440.0,9448553,livres,,0
 148,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Savoye,108480,2712.0,9448553,charges,,0
 149,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; froment,Suède,37720,377200.0,9448553,livres,,0
 150,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Danemark,29700,396000.0,1515304,livres,,0
 151,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Hollande,238149,3953654.0,1515304,livres,,0
 152,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Italie,30800,308000.0,1515304,livres,,0
-153,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Nord,1125185,1.3210282E7,1515304,livres,,0
+153,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Nord,1125185,13210282.0,1515304,livres,,0
 154,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bled ; seigle,Russie,91470,1040946.0,1515304,livres,,0
 155,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bleu ; commun,Allemagne,24480,8160.0,24480,livres,,0
 156,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,8,Bleu ; de Prusse,Allemagne,12050,2410.0,24262,livres,,0
@@ -2869,11 +2869,11 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 268,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffetières,Levant,40716,1131.0,40716,douzaines,,0
 269,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; de Levant,Levant,509152,339435.0,509152,livres,,0
 270,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; de Moka,Indes,1147800,1913.0,1147800,balles,,0
-271,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Espagne,14763,19685.0,3.23E7,livres,,0
-272,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Gènes,3648,6080.0,3.23E7,livres,,0
-273,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Isles,3.23E7,4.9954972E7,3.23E7,livres,,0
-274,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Italie,10110,13480.0,3.23E7,livres,,0
-275,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Suisse,1045,950.0,3.23E7,livres,,0
+271,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Espagne,14763,19685.0,32316698,livres,,0
+272,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Gènes,3648,6080.0,32316698,livres,,0
+273,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Isles,32287132,49954972.0,32316698,livres,,0
+274,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Italie,10110,13480.0,32316698,livres,,0
+275,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Caffé ; des Isles,Suisse,1045,950.0,32316698,livres,,0
 276,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Camphre,Hollande,3237,1879.0,3237,livres,,0
 277,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Canefice,Isles,62311,282097.0,62311,livres,,0
 278,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,13,Canelle,Gènes,1800,180.0,402423,livres,,0
@@ -2916,7 +2916,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 315,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Gènes,11620,166000.0,833043,livres,,0
 316,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Italie,6095,87085.0,833043,livres,,0
 317,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Levant,5180,103600.0,833043,livres,,0
-318,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Naples,762006,1.08858E7,833043,livres,,0
+318,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Naples,762006,10885800.0,833043,livres,,0
 319,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; commune,Savoye,5887,58870.0,833043,livres,,0
 320,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; de plomb,Flandre,1925,7700.0,3531,livres,,0
 321,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,15,Cendre ; de plomb,Hollande,1606,6425.0,3531,livres,,0
@@ -3074,11 +3074,11 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 473,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Cornes ; à lanterne,Flandre,4086,2724.0,28245,livres,,0
 474,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Cornes ; à lanterne,Hollande,3982,2655.0,28245,livres,,0
 475,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Cornes ; à lanterne,Nord,8977,2992.0,28245,livres,,0
-476,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Allemagne,2824,1412.0,1.06E7,livres,,0
-477,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Espagne,1780,1675.0,1.06E7,livres,,0
-478,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Isles,4798035,3333867.0,1.06E7,livres,,0
-479,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Levant,5002802,5002802.0,1.06E7,livres,,0
-480,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Portugal,774412,475495.0,1.06E7,livres,,0
+476,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Allemagne,2824,1412.0,10579853,livres,,0
+477,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Espagne,1780,1675.0,10579853,livres,,0
+478,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Isles,4798035,3333867.0,10579853,livres,,0
+479,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Levant,5002802,5002802.0,10579853,livres,,0
+480,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; en laine,Portugal,774412,475495.0,10579853,livres,,0
 481,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; filé,Allemagne,4989,1281.0,1911843,livres,,0
 482,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; filé,Gènes,6963,6330.0,1911843,livres,,0
 483,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,21,Coton ; filé,Hollande,19057,12705.0,1911843,livres,,0
@@ -3402,7 +3402,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 801,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; commun,Nord,33424,111417.0,251966,livres,,0
 802,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; commun,Savoye,153056,594305.0,251966,livres,,0
 803,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; d'Hollande,Flandre,1464,4887.0,5593401,livres,,0
-804,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; d'Hollande,Hollande,5591937,1.4610687E7,5593401,livres,,0
+804,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; d'Hollande,Hollande,5591937,14610687.0,5593401,livres,,0
 805,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; de Gruyère,Genève,21779,62228.0,921532,livres,,0
 806,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fromage ; de Gruyère,Suisse,899753,2570725.0,921532,livres,,0
 807,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,41,Fruits ; crus,Allemagne,1212,202.0,46914,barils,,0
@@ -3503,17 +3503,17 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 902,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Horlogeries,Suisse,31929,,42077,,,0
 903,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Houblon,Flandre,67586,332235.0,67586,livres,,0
 904,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'amande,Gènes,1800,300.0,1800,livres,,0
-905,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Espagne,979095,2229694.0,1.22E7,livres,,0
-906,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Flandre,282957,471595.0,1.22E7,livres,,0
-907,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Gènes,387430,9686.0,1.22E7,millerolles,,0
-908,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Hollande,162996,270582.0,1.22E7,livres,,0
-909,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Italie,1680469,2965713.0,1.22E7,livres,,0
-910,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Levant,4844960,121124.0,1.22E7,millerolles,,0
-911,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Naples,2984680,7461.0,1.22E7,millerolles,,0
-912,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Nord,63184,105475.0,1.22E7,livres,,0
-913,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Portugal,280817,540209.0,1.22E7,livres,,0
-914,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Savoye,204600,5115.0,1.22E7,millerolles,,0
-915,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Venise,341280,8532.0,1.22E7,millerolles,,0
+905,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Espagne,979095,2229694.0,12212468,livres,,0
+906,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Flandre,282957,471595.0,12212468,livres,,0
+907,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Gènes,387430,9686.0,12212468,millerolles,,0
+908,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Hollande,162996,270582.0,12212468,livres,,0
+909,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Italie,1680469,2965713.0,12212468,livres,,0
+910,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Levant,4844960,121124.0,12212468,millerolles,,0
+911,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Naples,2984680,7461.0,12212468,millerolles,,0
+912,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Nord,63184,105475.0,12212468,livres,,0
+913,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Portugal,280817,540209.0,12212468,livres,,0
+914,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Savoye,204600,5115.0,12212468,millerolles,,0
+915,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; d'olive,Venise,341280,8532.0,12212468,millerolles,,0
 916,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; de geroffle,Hollande,9800,282.0,9800,livres,,0
 917,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; de graine,Flandre,72455,240100.0,243526,livres,,0
 918,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,46,Huile ; de graine,Hollande,163851,411664.0,243526,livres,,0
@@ -3541,17 +3541,17 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 940,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Huile ; de vitriol,Hollande,30194,59963.0,37234,livres,,0
 941,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Huitres,Flandre,3054,24435.0,3054,en nombre,,0
 942,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Inde ; fine,Hollande,1060,181.0,1060,livres,,0
-943,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Angleterre,141050,22865.0,1.9E7,livres,,0
-944,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Espagne,1248984,133319.0,1.9E7,livres,,0
-945,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Flandre,337950,34285.0,1.9E7,livres,,0
-946,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Gènes,9000,1800.0,1.9E7,livres,,0
-947,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Hollande,206220,21450.0,1.9E7,livres,,0
-948,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Isles,1.7E7,2691865.0,1.9E7,livres,,0
-949,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Italie,1425,285.0,1.9E7,livres,,0
-950,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Levant,1725,345.0,1.9E7,livres,,0
-951,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Nord,1800,200.0,1.9E7,livres,,0
-952,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Savoye,60500,12100.0,1.9E7,livres,,0
-953,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Venise,1000,200.0,1.9E7,livres,,0
+943,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Angleterre,141050,22865.0,19024610,livres,,0
+944,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Espagne,1248984,133319.0,19024610,livres,,0
+945,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Flandre,337950,34285.0,19024610,livres,,0
+946,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Gènes,9000,1800.0,19024610,livres,,0
+947,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Hollande,206220,21450.0,19024610,livres,,0
+948,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Isles,17014956,2691865.0,19024610,livres,,0
+949,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Italie,1425,285.0,19024610,livres,,0
+950,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Levant,1725,345.0,19024610,livres,,0
+951,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Nord,1800,200.0,19024610,livres,,0
+952,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Savoye,60500,12100.0,19024610,livres,,0
+953,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Indigo,Venise,1000,200.0,19024610,livres,,0
 954,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Instruments ; de musique,Allemagne,82455,9896.5,89875,livres,,0
 955,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Instruments ; de musique,Angleterre,5670,567.0,89875,livres,,0
 956,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,47,Instruments ; de musique,Hollande,1750,35.0,89875,epinettes,,0
@@ -3585,10 +3585,10 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 984,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; commune,Savoye,47100,47100.0,101459,livres,,0
 985,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Allemagne,Hollande,13540,13540.0,942498,livres,,0
 986,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Allemagne,Nord,928958,928958.0,942498,livres,,0
-987,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Espagne,1.15E7,3662916.0,1.2E7,livres,,0
-988,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Hollande,331002,94572.0,1.2E7,livres,,0
-989,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Portugal,15120,4320.0,1.2E7,livres,,0
-990,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Savoye,111353,101230.0,1.2E7,livres,,0
+987,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Espagne,11498811,3662916.0,11956286,livres,,0
+988,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Hollande,331002,94572.0,11956286,livres,,0
+989,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Portugal,15120,4320.0,11956286,livres,,0
+990,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'Espagne,Savoye,111353,101230.0,11956286,livres,,0
 991,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; d'agnelin,Nord,2160,1800.0,2160,livres,,0
 992,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; de chevron,Gènes,4320,2880.0,426588,livres,,0
 993,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,48,Laine ; de chevron,Levant,422268,281512.0,426588,livres,,0
@@ -3755,7 +3755,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1154,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Mortiers ; de marbre,Italie,3120,2080.0,5214,en nombre,,0
 1155,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; sèche,Espagne,2205,8822.0,4117602,livres,,0
 1156,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; sèche,Hollande,4197,22748.0,4117602,livres,,0
-1157,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; sèche,Isles,4108225,2.01385E7,4117602,livres,,0
+1157,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; sèche,Isles,4108225,20138500.0,4117602,livres,,0
 1158,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; sèche,Italie,2975,11900.0,4117602,livres,,0
 1159,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; verte,Flandre,4020,67.0,878297,tonnes,,0
 1160,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,54,Morüe ; verte,Isles,874277,8721457.0,878297,livres,,0
@@ -4135,7 +4135,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1534,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soliveaux,Nord,18456,660.0,52739,en nombre,,0
 1535,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soliveaux,Russie,1680,168.0,52739,en nombre,,0
 1536,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soliveaux,Suède,5848,236.0,52739,en nombre,,0
-1537,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soude,Espagne,1531497,1.2078859E7,1874807,livres,,0
+1537,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soude,Espagne,1531497,12078859.0,1874807,livres,,0
 1538,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soude,Italie,3254,32540.0,1874807,livres,,0
 1539,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soude,Levant,185506,1855060.0,1874807,livres,,0
 1540,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,74,Soude,Naples,154550,1545500.0,1874807,livres,,0
@@ -4147,15 +4147,15 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1546,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Souliers,Espagne,1350,,5246,,,0
 1547,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Souliers,Flandre,2600,52.0,5246,charretées,,0
 1548,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; Nankin,Indes,924560,33020.0,924560,livres,,0
-1549,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Espagne,195744,16312.0,1.21E7,livres,,0
-1550,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Gènes,198816,16568.0,1.21E7,livres,,0
-1551,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Hollande,16920,1410.0,1.21E7,livres,,0
-1552,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Italie,846172,70501.0,1.21E7,livres,,0
-1553,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Levant,1974480,164540.0,1.21E7,livres,,0
-1554,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Naples,7501416,625118.0,1.21E7,livres,,0
-1555,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Savoye,451956,37663.0,1.21E7,livres,,0
-1556,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Suisse,890300,35612.0,1.21E7,livres,,0
-1557,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Venise,16404,1367.0,1.21E7,livres,,0
+1549,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Espagne,195744,16312.0,12092208,livres,,0
+1550,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Gènes,198816,16568.0,12092208,livres,,0
+1551,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Hollande,16920,1410.0,12092208,livres,,0
+1552,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Italie,846172,70501.0,12092208,livres,,0
+1553,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Levant,1974480,164540.0,12092208,livres,,0
+1554,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Naples,7501416,625118.0,12092208,livres,,0
+1555,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Savoye,451956,37663.0,12092208,livres,,0
+1556,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Suisse,890300,35612.0,12092208,livres,,0
+1557,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; crüe,Venise,16404,1367.0,12092208,livres,,0
 1558,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; de porc,Allemagne,1107,2488.0,80890,livres,,0
 1559,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; de porc,Flandre,2084,2605.0,80890,livres,,0
 1560,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Soye ; de porc,Hollande,10439,12936.0,80890,livres,,0
@@ -4170,13 +4170,13 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1569,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Sublimé,Gènes,1850,370.0,10424,livres,,0
 1570,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Sublimé,Hollande,7074,1362.0,10424,livres,,0
 1571,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,75,Sublimé,Italie,1500,300.0,10424,livres,,0
-1572,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; blanc,Isles,1.21E7,2.6989748E7,1.21E7,livres,,0
-1573,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; brut,Isles,2.19E7,6.849532E7,2.19E7,livres,,0
+1572,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; blanc,Isles,12145386,26989748.0,12145386,livres,,0
+1573,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; brut,Isles,21868801,68495320.0,21868801,livres,,0
 1574,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; en pain,Allemagne,1701,2194.0,13800,livres,,0
 1575,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; en pain,Flandre,8148,9054.0,13800,livres,,0
 1576,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; en pain,Hollande,3951,4345.0,13800,livres,,0
-1577,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; terré,Isles,1.49E7,3.4813716E7,1.49E7,livres,,0
-1578,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; teste,Isles,3607964,1.1799404E7,3607964,livres,,0
+1577,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; terré,Isles,14882290,34813716.0,14882290,livres,,0
+1578,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,76,Sucre ; teste,Isles,3607964,11799404.0,3607964,livres,,0
 1579,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Suif,Angleterre,98033,213118.0,467197,livres,,0
 1580,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Suif,Espagne,5866,12900.0,467197,livres,,0
 1581,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Suif,Gènes,1650,5500.0,467197,livres,,0
@@ -4192,7 +4192,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,sheet,
 1591,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Sumac,Naples,20800,260000.0,49545,livres,,0
 1592,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Sumac,Portugal,17452,174525.0,49545,livres,,0
 1593,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Sumac,Venise,2880,36000.0,49545,livres,,0
-1594,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Tabac ; en feüilles,Angleterre,2285230,1.33586E7,2406004,livres,,0
+1594,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Tabac ; en feüilles,Angleterre,2285230,13358600.0,2406004,livres,,0
 1595,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Tabac ; en feüilles,Hollande,120774,450431.0,2406004,livres,,0
 1596,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Tableaux,Allemagne,2400,300.0,20750,livres,,0
 1597,David CASSAGNES,NEHA 122 F,National/Objet Général/IIHS - Amsterdam/1773.csv,Objet Général,1773,Imports,77,Tableaux,Flandre,5960,298.0,20750,livres,,0

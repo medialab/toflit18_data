@@ -1,4 +1,4 @@
-numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direction,bureaux,sheet,marchandises,pays,value,quantit,origine,total,quantity_unit,probleme,remarks,DoubleAccounts
+numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direction,bureaux,sheet,marchandises,pays,value,quantit,origine,total,quantity_unit,probleme,remarks,DoubleAccounts
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Bordeaux,Blaye,15,Eau ; de vie,etatsunisdamrique,3053,20.4,Guyanne,3053,muids,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Bordeaux,Libourne (indépendant),17,Eau ; de vie,lorient,208,1.6,Guyanne,1152,muids,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Bordeaux,Blaye,15,Eau ; de vie,lorientdunkerque,7009,12.0,Guyanne,3053,muids,,,0
@@ -70,8 +70,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,29,Amidon,dunkerque,175,256.0,Artois,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Ardoises,etatsdelempereur,180,6000.0,,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Balais,etatsdelempereur,150,,,150,,,,0
-1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Beurre,dunkerque,149801,187252.0,Flandre,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,22,Beurre,dunkerque,1135,1515.0,du Pays,,livres,,,0
+1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Beurre,dunkerque,149801,187252.0,Flandre,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Beurre,dunkerque,280,468.0,Flandre,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Beurre,etatsdelempereur,204,340.0,Flandre,,livres,,,0
 1,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Armentière,3,Bois ; en claffous ou merrain,dunkerque,3694,61580.0,Flandre,,en nombre,,,0
@@ -91,8 +91,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Bestiaux ; en porc,dunkerque,2970,99.0,Flandre,,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,29,Bois ; en battreaux,dunkerque,4700,,Flandre,,,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Bois ; ouvré,etatsdelempereur,233,,Flandre,,,,,0
-3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Bois ; à brûler,dunkerque,120,400.0,Flandre,,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,22,Bois ; à brûler,dunkerque,1300,2600.0,du Pays,,en nombre,,,0
+3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Bois ; à brûler,dunkerque,120,400.0,Flandre,,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Armentière,3,Bonneterie ; de laine ; en bas,dunkerque,3504,146.0,Flandre,,douzaines,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Bonneterie ; de soye ; en bas,etatsdelempereur,16940,308.0,Languedoc,16940,livres,,,0
 3,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Douay,34,Cordes ; de tilleul,etatsdelempereur,600,9000.0,Flandre,,livres,,,0
@@ -100,8 +100,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,5,Armes ; à feu ; en fusils ; de chasse,etatsdelempereur,240,2.0,Flandre,240,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Bestiaux ; en vaches,dunkerque,1800,18.0,Flandre,,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Bois ; d'ozier,etatsdelempereur,408,204.0,Artois,,bottes,,,0
-4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,22,Bois ; à brûler ; en fagots,dunkerque,4743,31625.0,du Pays,,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,29,Bois ; à brûler ; en fagots,dunkerque,5429,33950.0,Artois,,en nombre,,,0
+4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,22,Bois ; à brûler ; en fagots,dunkerque,4743,31625.0,du Pays,,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Bonneterie ; de soye ; en bas,etatsdelempereur,165,3.0,Isle de France,165,livres,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Bonneterie ; en bas ; de laine,etatsdelempereur,166,54.0,Flandre,,paires,,,0
 4,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Douay,34,Cartes ; géographiques et estampes,etatsdelempereur,1650,300.0,Isle de France,,livres,,,0
@@ -173,8 +173,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 10,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Douay,34,Marchandises ; à la valeur,etatsdelempereur,309,,,,,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,5,Bois ; en clafousses,etatsdelempereur,4400,28600.0,Flandre,4400,en nombre,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Bois ;à brûler ; en fagots,dunkerque,825,550.0,Artois,,en nombre,,,0
-11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,29,Bonneterie ; de coton ; en bas,dunkerque,250,10.0,Artois,,douzaines,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,22,Bonneterie ; de coton ; en bas,dunkerque,576,16.0,Champagne,,douzaines,,,0
+11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,29,Bonneterie ; de coton ; en bas,dunkerque,250,10.0,Artois,,douzaines,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Drap ; de Louvier,etatsdelempereur,1440,120.0,Louvier,5388,livres,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Drap ; de Louvier,hollande,3948,329.0,Louvier,5388,livres,,,0
 11,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Etoffe ; de poil ; en panne,etatsdelempereur,488,75.0,Flandre,,aunes,,,0
@@ -190,7 +190,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Drap ; de Louvier ; au 6è de soye,hollande,1762,117.0,Louvier,1762,livres,,,0
 12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Etoffes ; de coton ; en drap,etatsdelempereur,1360,166.0,Normandie,,aunes,,,0
 12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Steenfort,36,Fil ; de lin ; teint ; à coudre,dunkerque,1401,467.0,Flandre,,livres,,,0
-12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Armentière,3,Linge ; vieux,etatsdelempereur,200,100.0,Flandre,,livres,,,1
+12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Armentière,3,Linge ; vieux,etatsdelempereur,200,100.0,Flandre,,livres,,,2
 12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Bailleul,27,Marchandises ; à la valeur,etatsdelempereur,962,,,,,,,0
 12,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Douay,34,Pains ; de navettes,etatsdelempereur,49684,496843.0,Flandre,,en nombre,,,0
 13,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,19,Bois ; de cerisier,dunkerque,290,2900.0,,,livres,,,0
@@ -495,7 +495,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,15,Etoffes ; de laine ; en étamine,etatsdelempereur,560,171.0,Amiénois,560,aunes,,,0
 49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Etoffes ; de laine ; serge ; de Rouen,etatsdelempereur,215,43.0,Amiénois,,aunes,,,0
 49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,20,Fruits ; figues,dunkerque,168,420.0,,,livres,,,0
-49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,23,Nom flou,dunkerque,150,75.0,,,livres,,la page 23 est entièrement floue d'où l'absence des noms de marchandises,2
+49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,23,Nom flou,dunkerque,150,75.0,,,livres,,la page 23 est entièrement floue d'où l'absence des noms de marchandises,1
 49,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Graveline,28,Tabac ; en feuilles,dunkerque,840,2800.0,Flandre,,livres,,,0
 50,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,6,Crin ; de cheval ; brut,etatsdelempereur,137,260.0,Flandre,137,livres,,,0
 50,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,16,Etoffes ; de laine ; en Maroc,etatsdelempereur,2644,661.0,Champagne,2644,aunes,,,0
@@ -568,7 +568,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 60,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Etoffes ; de soye et laine ; en prunelle,etatsdelempereur,1750,372.0,Flandre,,aunes,,,0
 60,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,20,Mercerie ; mêlée,dunkerque,2748,1374.0,Flandre,50,livres,,,0
 60,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Subordonnés de Dunkerque,20,Mercerie ; mêlée,etatsdelempereur,50,25.0,Flandre,50,livres,,,0
-60,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,23,Nom flou,dunkerque,150,25.0,Amienois,,livres,,la page 23 est entièrement floue d'où l'absence des noms de marchandises,1
+60,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,23,Nom flou,dunkerque,150,25.0,Amienois,,livres,,la page 23 est entièrement floue d'où l'absence des noms de marchandises,2
 61,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,6,Dentelle ; de soye,etatsdelempereur,4813,9.0,Isle de France,4813,livres,,,0
 61,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Turcoing,32,Etoffes ; au ? de soye,etatsdelempereur,460,92.0,Normandie,,aunes,,,0
 61,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,16,Etoffes ; de laine ; en serge ; auvoile,etatsdelempereur,255,93.0,Normandie,255,aunes,,,0
@@ -782,7 +782,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 100,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,24,Plumes ; de coq,angleterre,300,,Paris,300,,,,0
 100,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,24,Plumes ; de coq,dunkerque,105,,Paris,300,,,,0
 101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,7,Etoffes ; de coton ; en moleton,etatsdelempereur,480,80.0,Lorraine,480,livres,,,0
-101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,17,Mouchoirs ; de coton,etatsdelempereur,23010,3.9330767E7,Normandie,62340,douzaines,,,0
+101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,17,Mouchoirs ; de coton,etatsdelempereur,23010,39330767.0,Normandie,62340,douzaines,,,0
 101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Baisieux,17,Mouchoirs ; de coton,hollande,39330,1311.0,Normandie,62340,douzaines,,,0
 101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,24,Porcelaine,angleterre,19230,3205.0,Paris,54000,livres,,,0
 101,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Dunkerque-Basseville,24,Porcelaine,dunkerque,150,25.0,Paris,54000,livres,,,0
@@ -1081,7 +1081,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 239,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Laine ; en côte,etatsdelempereur,9080,4540.0,Etranger,9080,livres,,,0
 240,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Liege ; en bouchons,etatsdelempereur,7261,14522.0,Guyanne,7261,livres,,,0
 241,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Lingerie ; en chemises,dunkerque,7640,3688.0,Flandre,,aunes,,,0
-242,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Lingerie ; vieille,etatsdelempereur,200,,Flandre,200,,,,2
+242,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Lingerie ; vieille,etatsdelempereur,200,,Flandre,200,,,,1
 243,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Librairie ; en almanach ; relié,etatsdelempereur,640,80.0,Flandre,640,livres,,,0
 244,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Librairie ; en almanach ; broché,dunkerque,330,150.0,Flandre,502,livres,,,0
 244,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Lille,Lille,10,Librairie ; en almanach ; broché,etatsdelempereur,502,229.0,Flandre,502,livres,,,0
@@ -1291,8 +1291,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Amandes ; cassées,etatsdelempereur,1388,2776.0,,1388,livres,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Amandes ; cassées,marseilles,330,660.0,,1388,livres,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Arbres ; en ?,etatsdelempereur,135,54000.0,,,en nombre,,,0
-1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Arbres ; en plants,etatsdelempereur,1173,1955.0,,,en nombre,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,54,Arbres ; en plants,etatsdelempereur,585,2340.0,,585,en nombre,,,0
+1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Arbres ; en plants,etatsdelempereur,1173,1955.0,,,en nombre,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Turcoing,50,Balais ; de bois,etatsdelempereur,558,5495.0,,558,en nombre,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Armentière,47,Bestiaux ; bœufs,etatsdelempereur,4200,15.0,,,en nombre,,,0
 1,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Douay,25,Bestiaux ; moutons,etatsdelempereur,227490,7582.0,,,en nombre,,,0
@@ -1319,8 +1319,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Douay,25,Bestiaux ; vaches,etatsdelempereur,1160,16.0,,,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Beurre,etatsdelempereur,24320,32427.0,,,livres,,,0
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Graveline,57,Beurre,hollande,277,370.0,,277,livres,,,0
-4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Subordonnés de Dunkerque,36,Ardoises,etatsdelempereur,429,14300.0,,429,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,27,Ardoises,etatsdelempereur,10678,492500.0,,10678,en nombre,,,0
+4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Subordonnés de Dunkerque,36,Ardoises,etatsdelempereur,429,14300.0,,429,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,2,Armes ; blanches,etatsdelempereur,2587,1725.0,,,livres,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,2,Armes ; blanches,hollande,1200,800.0,,,livres,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Balais ; de bois,etatsdelempereur,4117,31175.0,,,en nombre,,,0
@@ -1363,8 +1363,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,54,Bestiaux ; en porcs ; maigres,etatsdelempereur,6300,210.0,,6300,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,27,Bestiaux ; en vaches ; grasses,dunkerque,8820,63.0,,,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Bestiaux ; genisses,etatsdelempereur,7050,47.0,,,en nombre,,,0
-7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Bestiaux ; moutons,etatsdelempereur,66704,3031.0,,,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Bestiaux ; moutons,etatsdelempereur,35496,972.0,,35496,en nombre,,,0
+7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Bestiaux ; moutons,etatsdelempereur,66704,3031.0,,,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Turcoing,50,Bestiaux ; vaches,etatsdelempereur,382350,2549.0,,382350,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Armentière,47,Bestiaux ; veaux,etatsdelempereur,3480,58.0,,,en nombre,,,0
 7,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Douay,25,Beurreterie ; en bar ; de fil blanc,etatsdelempereur,165,5.0,,,douzaines,,,0
@@ -1436,8 +1436,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Turcoing,50,Bois ; en planches,etatsdelempereur,120,375.0,,120,livres,,,0
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Graveline,57,Bois ; en planches ; de sapin,danemarketnorvge,30958,30958.0,,30958,en nombre,,,0
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Bêtes ; de somme ; chevaux,etatsdelempereur,19200,604.5,,,en nombre,,,0
-13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Bêtes ; de somme ; en chevaux,etatsdelempereur,168000,560.0,,168000,en nombre,,,0
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,54,Bêtes ; de somme ; en chevaux,etatsdelempereur,3200,12.0,,3200,en nombre,,,0
+13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Bêtes ; de somme ; en chevaux,etatsdelempereur,168000,560.0,,168000,en nombre,,,0
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Douay,25,Charbon ; de terre,etatsdelempereur,1034,558.0,,,charretées,,,0
 13,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Armentière,47,Fil ; gris ; simple,etatsdelempereur,4286,2143.0,,,livres,,,0
 14,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Betes ; de somme ; poulains,etatsdelempereur,12000,483.75,,,en nombre,,,0
@@ -1451,8 +1451,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 14,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Bêtes ; de somme ; poulains,etatsdelempereur,243000,810.0,,,en nombre,,,0
 14,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Douay,25,Charbon ; de bois,etatsdelempereur,140,35.0,,,barils,,,0
 14,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Armentière,47,Fourage ; en foin ; à bestiaux,etatsdelempereur,920,9600.0,,,livres,,,0
-15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Beurre,etatsdelempereur,332,510.0,,,livres,,,0
 15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,54,Beurre,etatsdelempereur,1273,1699.0,,1273,livres,,,0
+15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Steenfort,52,Beurre,etatsdelempereur,332,510.0,,,livres,,,0
 15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,41,Bierre,etatsdelempereur,1480,34.03,,1480,muids,,,0
 15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,2,Bois ; de teinture ; divers,angleterre,21000,40000.0,,,livres,,,0
 15,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Bailleul,48,Bois ; en planches,etatsdelempereur,180,245.0,,,en nombre,,,0
@@ -1945,8 +1945,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 66,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,55,Longs ; vieux,etatsdelempereur,200,400.0,,200,livres,,,0
 67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,4,Chapeaux ; d'écorce ; d'arbre,angleterre,450,150.0,,,livres,,,0
 67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,28,Drogues ; gommes ; diverses,marseilles,914,,,,,,,0
-67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Subordonnés de Dunkerque,37,Farine ; de froment,etatsdelempereur,250,1000.0,,250,livres,,,0
 67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,42,Farine ; de froment,etatsdelempereur,99454,442020.0,,99454,livres,,,0
+67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Subordonnés de Dunkerque,37,Farine ; de froment,etatsdelempereur,250,1000.0,,250,livres,,,0
 67,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Baisieux,55,Lingerie ; diverse,etatsdelempereur,134,,,134,,,,0
 68,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,4,Chapeaux ; de paille,angleterre,1203,1124.0,,,en nombre,,,0
 68,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,28,Drogues ; gommes ; lacque,hollande,19736,19736.0,,19736,livres,,,0
@@ -2474,7 +2474,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 180,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,angleterre,245335,1087180.0,,,livres,,,0
 180,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Fruits ; salés ; marinés,marseilles,818,818.0,,,livres,,,0
 180,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Lille,45,Vin ; de liqueur,espagne,5133,2566.0,,5133,pots,,,0
-181,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,angleterre,96549,2.1438217E7,,,livres,,,0
+181,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,angleterre,96549,21438217.0,,,livres,,,0
 181,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,etatsdelempereur,2025,9000.0,,,livres,,,0
 181,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,etatsunisdamrique,142617,633854.0,,,livres,,,0
 181,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Farine,les4villesansatiques,3375,1500.0,,,livres,,,0
@@ -2513,7 +2513,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Fer ; en ferailles,angleterre,1125,2250.0,,,livres,,,0
 191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; froment,angleterre,1414429,9400000.0,,3328273,livres,,,0
 191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; froment,etatsdelempereur,18330,122200.0,,3328273,livres,,,0
-191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; froment,hollande,1685346,1.1E7,,3328273,livres,,,0
+191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; froment,hollande,1685346,11000000.0,,3328273,livres,,,0
 191,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; froment,les4villesansatiques,210168,1400000.0,,3328273,livres,,,0
 192,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,10,Fer ; en enclumes et etaux,hollande,1661,11075.0,,,livres,,,0
 192,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,31,Grains ; comestibles ; orge,angleterre,375647,4700000.0,,583166,livres,,,0
@@ -2657,7 +2657,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 232,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,32,Ouvrages ; de cuir,dunkerque,350,206.0,,3024,livres,,,0
 233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,angleterre,417045,2800000.0,,,livres,,,0
 233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,etatsunisdamrique,216405,1700000.0,,,livres,,,0
-233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,hollande,1751281,1.4E7,,,livres,,,0
+233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,hollande,1751281,14000000.0,,,livres,,,0
 233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,les4villesansatiques,328400,2600000.0,,,livres,,,0
 233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,12,Grains ; comestibles ; bled ; blanc,prusse,538750,4300000.0,,,livres,,,0
 233,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,32,Ouvrages ; de cuivre,dunkerque,228,,,,,,,0
@@ -2828,7 +2828,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 286,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,33,Sel ; blanc,dunkerque,46038,127887.0,,,livres,,,0
 287,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,16,Mouchoirs ; ?,angleterre,1242272,,,,,,,0
 287,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,16,Mouchoirs ; ?,etatsdelempereur,25000,,,,,,,0
-287,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,33,Sel ; gris,dunkerque,713058,2.5E7,,,livres,,,0
+287,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,33,Sel ; gris,dunkerque,713058,25000000.0,,,livres,,,0
 288,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,16,Mouchoirs ; de ?,hollande,9000,300.0,,,livres,,,0
 288,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque-Basseville,33,Soye ; de Bengale,dunkerque,83660,4183.0,,,livres,,,0
 289,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Lille,Dunkerque,16,Moutarde,angleterre,784,1307.0,,,livres,,,0
@@ -3214,8 +3214,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 15,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,14,Bonneterie ; de soye ; au 6è,portugal,120,2.0,Isle de France,2400,livres,,,0
 15,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,15,Bonneterie ; de soye ; au 6è,russie,2280,38.0,Isle de France,2400,livres,,,0
 16,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,3,Bonneterie ; de soye,espagne,12567,228.0,Isle de France,13969,livres,,,0
-16,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,3,Bonneterie ; de soye,portugal,1402,25.5,Isle de France,13969,livres,,,0
 16,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,14,Bonneterie ; de soye,portugal,4282,25.7,Languedoc,6032,livres,,,0
+16,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,3,Bonneterie ; de soye,portugal,1402,25.5,Isle de France,13969,livres,,,0
 17,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,3,Bonneterie ; de soye,espagne,42845,779.0,Forêt,42845,livres,,,0
 17,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,14,Bray ; sec,angleterre,1212,12120.0,,1212,livres,,,0
 18,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,3,Bonneterie ; en poil ; de lapin,angleterre,850,,,850,,,,0
@@ -3305,8 +3305,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,16,Drap ; de laine,espagne,100,10.0,Amiénois,29450,livres,,,0
 45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,5,Drap ; de laine,espagne,654,218.0,Champagne,9654,livres,,,0
 45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,16,Drap ; de laine,les4villesansatiques,5200,520.0,Amiénois,29450,livres,,,0
-45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,6,Drap ; de laine,russie,9000,600.0,Champagne,9654,livres,,,0
 45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,17,Drap ; de laine,russie,24150,2415.0,Amiénois,29450,livres,,,0
+45,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,6,Drap ; de laine,russie,9000,600.0,Champagne,9654,livres,,,0
 46,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,16,Drap ; de laine,angleterre,15100,1510.0,Etranger,15100,livres,,,0
 46,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Le Havre,5,Drap ; de silésie,espagne,2835,559.0,Champagne,2835,aunes,,,0
 47,Jérémy Hervelin,AN F12 1666,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Exports,Rouen,Rouen,16,Drap ; de laine,dunkerque,120,12.0,Elbeuf,13330,livres,,,0
@@ -4481,8 +4481,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 59,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,20,Colle ; de poisson,russie,960,160.0,,28614,livres,,,0
 59,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Honfleur,37,Toille ; de coton ; peinte,danemarketnorvge,41310,13770.0,,41310,aunes,,,0
 60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,19,Colle ; forte,angleterre,3888,4320.0,,64696,livres,,,0
-60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,19,Colle ; forte,hollande,60129,66810.0,,64696,livres,,,0
 60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,4,Colle ; forte,hollande,1383,1825.0,,6633,livres,,,0
+60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,19,Colle ; forte,hollande,60129,66810.0,,64696,livres,,,0
 60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,20,Colle ; forte,les4villesansatiques,679,755.0,,64696,livres,,,0
 60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,19,Colle ; forte,marseilles,1988,2210.0,,64696,livres,,,0
 60,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,5,Colle ; forte,russie,5250,7000.0,,6633,livres,,,0
@@ -4732,7 +4732,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 132,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,8,Farine ; d'orge et gruau,hollande,998,4990.0,,1624,livres,,,0
 133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,21,Drogues ; médecinales ; suc ; de réglisse,bayonne,32467,43290.0,,19181,livres,,,0
 133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,21,Drogues ; médecinales ; suc ; de réglisse,espagne,19181,25575.0,,19181,livres,,,0
-133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,8,Farine ; de froment,angleterre,2927415,1.3E7,,4005753,livres,,,0
+133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,8,Farine ; de froment,angleterre,2927415,13000000.0,,4005753,livres,,,0
 133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,8,Farine ; de froment,etatsdelempereur,2025,9000.0,,4005753,livres,,,0
 133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,9,Farine ; de froment,etatsunisdamrique,1040643,4600000.0,,4005753,livres,,,0
 133,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,8,Farine ; de froment,hollande,63,280.0,,4005753,livres,,,0
@@ -4833,11 +4833,11 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 159,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; maïs,etatsunisdamrique,8316,118800.0,,8316,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,23,Drogues ; pour la peinture et la teinture ; gris,marseilles,6488,11383.0,,,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,allemagneetpologne,270679,2000000.0,,9036041,livres,,,0
-160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,angleterre,1972476,1.4E7,,9036041,livres,,,0
+160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,angleterre,1972476,14000000.0,,9036041,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,etatsdelempereur,17475,129446.0,,9036041,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; froment,etatsunisdamrique,772064,5700000.0,,9036041,livres,,,0
-160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,hollande,2428348,1.8E7,,9036041,livres,,,0
-160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; froment,les4villesansatiques,2297002,1.7E7,,9036041,livres,,,0
+160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,10,Grains ; comestibles ; froment,hollande,2428348,18000000.0,,9036041,livres,,,0
+160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; froment,les4villesansatiques,2297002,17000000.0,,9036041,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; froment,prusse,972607,7200000.0,,9036041,livres,,,0
 160,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,11,Grains ; comestibles ; froment,sude,305390,2300000.0,,9036041,livres,,,0
 161,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,23,Drogues ; pour la peinture et la teinture ; litharge,angleterre,24344,71572.0,,25650,livres,,,0
@@ -5057,7 +5057,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 221,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,26,Grains ; comestibles ; avoine,prusse,20375,254685.0,,348133,livres,,,0
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; bled ; froment,angleterre,1430988,953917.0,,7503352,livres,,,0
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; bled ; froment,etatsunisdamrique,54711,364738.0,,7503352,livres,,,0
-222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; bled ; froment,hollande,4544864,3.0E7,,7503352,livres,,,0
+222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; bled ; froment,hollande,4544864,30000000.0,,7503352,livres,,,0
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,26,Grains ; comestibles ; bled ; froment,les4villesansatiques,1164178,7800000.0,,7503352,livres,,,0
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; bled ; froment,marseilles,117559,783730.0,,7503352,livres,,,0
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,26,Grains ; comestibles ; bled ; froment,prusse,276452,1800000.0,,7503352,livres,,,0
@@ -5066,7 +5066,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 222,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,13,Plomb ; en bloc,les4villesansatiques,14490,45150.0,,61990,livres,,,0
 223,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; orge ; ?,hollande,1164,19404.0,,1164,livres,,,0
 223,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Le Havre,12,Plomb ; brut,angleterre,7020,23390.0,,7020,livres,,,0
-224,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; orge,angleterre,838313,1.0E7,,866431,livres,,,0
+224,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; orge,angleterre,838313,10000000.0,,866431,livres,,,0
 224,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; orge,dunkerque,32239,402988.0,,866431,livres,,,0
 224,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,25,Grains ; comestibles ; orge,hollande,20845,260564.0,,866431,livres,,,0
 224,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Rouen,Rouen,26,Grains ; comestibles ; orge,les4villesansatiques,4238,52972.0,,866431,livres,,,0
@@ -6047,8 +6047,8 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Bestiaux ; bœufs,allemagne,113200,566.0,,280200,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Bestiaux ; bœufs,etatsdelempereur,167000,836.0,,280200,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Valenciennes,13,Bestiaux ; divers,etatsdelempereur,384,,,384,,,,0
-3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Condé,2,Bestiaux ; vaches,etatsdelempereur,1378,11.0,,,en nombre,,,0
 3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Saint Amant,11,Bestiaux ; vaches,etatsdelempereur,1463,18.0,,,en nombre,,,0
+3,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Condé,2,Bestiaux ; vaches,etatsdelempereur,1378,11.0,,,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Givet,7,Armes ; à feu ; pistolets,allemagne,8110,811.0,,8110,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Bestiaux ; brebis,allemagne,7512,939.0,,11152,en nombre,,,0
 4,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Bestiaux ; brebis,etatsdelempereur,3640,455.0,,11152,en nombre,,,0
@@ -6146,7 +6146,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Valenciennes,13,Cendre ; potasse,etatsdelempereur,11360,28400.0,,11735,livres,,,0
 20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Valenciennes,13,Cendre ; potasse,hollande,375,938.0,,11735,livres,,,0
 20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Givet,7,Chair ; salée ; jambon,allemagne,7460,12434.0,,7460,livres,,,0
-20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Charbons ; de terre,etatsdelempereur,99120,1.5E7,,99120,livres,,,0
+20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Maubeuge,4,Charbons ; de terre,etatsdelempereur,99120,15000000.0,,99120,livres,,,0
 20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Saint Amant,11,Graines ; comestibles ; méteil,etatsdelempereur,610,8500.0,,,livres,,,0
 20,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Condé,2,Grains ; seigle,etatsdelempereur,12272,102270.0,,,livres,,,0
 21,Jérémy Hervelin,AN F12 1667,National par direction/AN/F_12_1666 et 1667/1789.csv,National par direction,1789,Imports,Valenciennes,Valenciennes,13,Cendre ; soude,hollande,370,1369.0,,370,livres,,,0

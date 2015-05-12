@@ -1,4 +1,4 @@
-numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direction,sheet,marchandises,quantit,quantity_unit,DoubleAccounts
+numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direction,sheet,marchandises,quantit,quantity_unit,DoubleAccounts
 1,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Exports,Bayonne et Arzac,13,Eaux ; de vie,29,tonneaux,0
 2,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Exports,Convoy de Bordeaux,13,Eaux ; de vie,2301,tonneaux,0
 3,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Exports,La Rochelle,13,Eaux ; de vie,1677,tonneaux,0
@@ -512,7 +512,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 494,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Paris,8,Damas ; Cafart,47,pièces,0
 495,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Rouen,8,Damas ; Cafart,50,pièces,0
 496,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,"Lyon, Valence et Bresse",8,Damas ; de Luques,800,pièces,0
-497,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Amiens et Soissons,8,Dentelle ; d'or et d'argent,0.4375,livres,0
+497,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Amiens et Soissons,8,Dentelle ; d'or et d'argent,.4375,livres,0
 498,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Bayonne et Arzac,8,Dentelle ; d'or et d'argent,10,livres,0
 499,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Chaalons et Troyes,8,Dentelle ; d'or et d'argent,2.375,livres,0
 500,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Amiens et Soissons,8,Dentelle ; de fil,20.0625,livres,0
@@ -1319,7 +1319,7 @@ numrodeligne,dataentryby,source,SourcePath,SourceType,year,exportsimports,direct
 1301,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Mayne et Anjou,12,Ruban ; de Soye,47,livres,0
 1302,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Paris,12,Ruban ; de Soye,5.3125,livres,0
 1303,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Poitou,12,Ruban ; de Soye,49.5625,livres,0
-1304,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Rethelois,12,Ruban ; de Soye,0.125,livres,0
+1304,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Rethelois,12,Ruban ; de Soye,.125,livres,0
 1305,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Rouen,12,Ruban ; de Soye,2,livres,0
 1306,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,Tonne-Charente,12,Ruban ; de Soye,12,livres,0
 1307,Jérémy Hervelin,F12 1834A,Divers/AN/F_12_1834A/1671.csv,Divers,1671,Imports,"Lyon, Valence et Bresse",12,Satin ; de Florence et Gennes,372,livres,0
