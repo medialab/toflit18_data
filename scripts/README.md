@@ -1,5 +1,14 @@
 
+# requirements
 
+To execute those scripts you'll need python 2.7 and [csvkit](https://csvkit.readthedocs.org/en/0.9.1/).
+To install csvkit :
+
+```bash
+pip install csvkit
+```
+
+You might want to use virtualenv to install csvkit.
 
 # aggregate sources into bdd_centrale.csv
 
