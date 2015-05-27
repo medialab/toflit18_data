@@ -19,7 +19,7 @@ for (dirpath,dirnames,filenames) in os.walk(directory):
 					r=csvkit.DictReader(source_file)
 					headers+=r.fieldnames
 					sources_aggregation+=list(r)
-sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["sourcetype"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",e["numrodeligne"]  if "numrodeligne" in e else "",e["marchandises"],e["pays"] if "pays" in e else ""))
+sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["sourcetype"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",int(e["numrodeligne"])  if ("numrodeligne" in e and e["numrodeligne"]) else "",e["marchandises"],e["pays"] if "pays" in e else ""))
 headers=set(headers)
 headers=[h for h in  headers if h not in ordered_headers]
 headers=ordered_headers+headers
