@@ -47,9 +47,9 @@ Danemark,Danemark,Nord,1,3553,8750,40880
 Dannemarc,Danemark,Nord,1,88,8750,40880
 Dannemarck,Danemark,Nord,1,235,8750,40880
 Dannemark,Danemark,Nord,1,589,8750,40880
-De Levant,,,1,49,457,457
+De Levant,Levant,Levant,1,49,457,457
 Denmark,Danemark,Nord,1,1,8750,40880
-Des Indes,,,1,1,457,457
+Des Indes,Indes,Indes,1,1,457,457
 Destination Inconnue,?,?,1,28,2834,4139
 Destination inconnue,?,?,1,45,2834,4139
 Destinations inconnues,?,?,1,23,2834,4139
@@ -136,10 +136,10 @@ Etats-unis d'Amérique,États-Unis d'Amérique,États-Unis d'Amérique,1,4,4934,
 Flan,Flandre,Flandre et autres états de l'Empereur,1,1,15336,21272
 Flandre,Flandre,Flandre et autres états de l'Empereur,1,11639,15336,21272
 Flandre Autrichienne,Flandre,Flandre et autres états de l'Empereur,1,1109,15336,21272
-Flandre Impériale,,,1,12,457,457
+Flandre Impériale,Flandre,Flandre et autres états de l'Empereur,1,12,457,457
 Flandre Impérialle,Flandre,Flandre et autres états de l'Empereur,1,4,15336,21272
 Flandre autrichienne,Flandre,Flandre et autres états de l'Empereur,1,1108,15336,21272
-Flandre impériale,,,1,24,457,457
+Flandre impériale,Flandre,Flandre et autres états de l'Empereur,1,24,457,457
 Flandres,Flandre,Flandre et autres états de l'Empereur,1,1161,15336,21272
 Furde,Flandre,Flandre et autres états de l'Empereur,1,2,15336,21272
 GENES,Gênes,Italie,1,1,7146,51094
@@ -184,14 +184,14 @@ Isles  françaises de l'Amerique,Isles françaises,Colonies,1,146,13325,27503
 "Isles Françoises de l'Amerique, Canada et Terre-Neuve",Isles françaises,Colonies,1,1121,13325,27503
 "Isles Françoises de l'Amerique, le Canada et Terre-neuve",Isles françaises,Colonies,1,218,13325,27503
 "Isles Françoises de l'Amerique, le Canada et Terre-neuves",Isles françaises,Colonies,1,1,13325,27503
-Isles de l'Amérique et de Terre neuve,,,1,18,457,457
+Isles de l'Amérique et de Terre neuve,Isles françaises,Colonies,1,18,457,457
 Isles et Colonies françaises,Isles françaises,Colonies,1,16,13325,27503
 Isles et Guinee,Isles et Guinée,Colonies,1,2,2,27503
 Isles francaises de l'amerique,Isles françaises,Colonies,1,734,13325,27503
-Isles francoises de l'Amerique,,,1,40,457,457
+Isles francoises de l'Amerique,Isles françaises,Colonies,1,40,457,457
 Isles francoises de l'amerique,Isles françaises,Colonies,1,36,13325,27503
 Isles francoises de lamerique,Isles françaises,Colonies,1,17,13325,27503
-Isles françaises de l'Amérique,,,1,187,457,457
+Isles françaises de l'Amérique,Isles françaises,Colonies,1,187,457,457
 Isles françaises de l'ameriques,Isles françaises,Colonies,1,673,13325,27503
 Isles françaises de l'amérique,Isles françaises,Colonies,1,71,13325,27503
 Isles françoises,Isles françaises,Colonies,1,6,13325,27503
@@ -199,7 +199,7 @@ Isles françoises de l'Amerique,Isles françaises,Colonies,1,19,13325,27503
 Isles françoises de l'Amérique,Isles françaises,Colonies,1,435,13325,27503
 Isles françoises de l'amerique,Isles françaises,Colonies,1,149,13325,27503
 Isles françoises de l'amérique,Isles françaises,Colonies,1,669,13325,27503
-Islkes françoises de l'Amérique et du Canada,,,1,59,457,457
+Islkes françoises de l'Amérique et du Canada,Isles françaises,Colonies,1,59,457,457
 Italie,Italie,Italie,1,11809,15697,51094
 L'Allemagne,Allemagne,Allemagne et Pologne (par terre),1,121,19600,21780
 L'Angleterre,Angleterre,Angleterre,1,694,14666,14666
@@ -249,7 +249,7 @@ Les Isles françaises,Isles françaises,Colonies,1,473,13325,27503
 Les Isles françaises de l'Amérique,Isles françaises,Colonies,1,1880,13325,27503
 Levant,Levant,Levant,1,6380,10712,10986
 Loraine,Allemagne,Allemagne et Pologne (par terre),1,1,19600,21780
-Lorraine et l'Allemagne,,,1,37,457,457
+Lorraine et l'Allemagne,Allemagne,Allemagne et Pologne (par terre),1,37,457,457
 Milanais Toscane,Milanais-Toscane,Italie,1,6,799,51094
 Milane et toscane,Milanais-Toscane,Italie,1,36,799,51094
 Milanes de Toscane,Toscane,Italie,1,1,1012,51094
@@ -458,7 +458,7 @@ ilesamer,Isles françaises,Colonies,1,132,13325,27503
 indes,Indes,Indes,1,76,1653,1653
 isles,Iles,Colonies,1,48,6834,27503
 italie,Italie,Italie,1,138,15697,51094
-la Hollande,,,1,30,457,457
+la Hollande,Hollande,Hollande,1,30,457,457
 les4villesansatiques,Villes hanséatiques,Nord,1,246,4280,40880
 levant,Levant,Levant,1,155,10712,10986
 lorient,Lorient,France,1,17,17,1246
