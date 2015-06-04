@@ -1,278 +1,1146 @@
-quantity_unit,quantity_unit_ajustees,u_conv,q_conv,Remarque_unit,incertitude_unit,source_hambourg,missing,need_marchandises
-????,????,,,,1,0,,0
-???? Aunes,????,,,,1,0,,0
-???? B,????,,,,1,0,,0
-???? Bar,????,,,,1,0,,0
-???? LC dit peut être fausse valeur,????,,,,1,0,,0
-???? Rien,????,,,,1,0,,0
-???? W,????,,,,1,0,,0
-???? an,????,,,,1,0,,0
-???? aunes,????,,,,1,0,,0
-???? aunes ou livres,????,,,,1,0,,0
-???? bann,????,,,,1,0,,0
-???? boileaux,????,,,,1,0,,0
-???? boir X,????,,,,1,0,,0
-???? boisses,????,,,,1,0,,0
-???? boucoud,????,,,,1,0,,0
-???? boue(c)s,????,,,,1,0,,0
-???? boul,????,,,,1,0,,0
-???? bout s,????,,,,1,0,,0
-???? bouteilles,????,,,,1,0,,0
-???? caps,????,,,,1,0,,0
-???? cha,????,,,,1,0,,0
-???? charres,????,,,,1,0,,0
-???? cou,????,,,,1,0,,0
-???? de la bour.,????,,,,1,0,,0
-???? grosses,????,,,,1,0,,0
-???? livres,????,,,,1,0,,0
-???? livres x,????,,,,1,0,,0
-???? lotes,????,,,,1,0,,0
-???? m,????,,,,1,0,,0
-???? malls,????,,,,1,0,,0
-???? maq s,????,,,,1,0,,0
-???? mo,????,,,,1,0,,0
-???? mot,????,,,,1,0,,0
-???? mottes,????,,,,1,0,,0
-???? p,????,,,,1,0,,0
-???? paquets,????,,,,1,0,,0
-???? pièces,????,,,,1,0,,0
-???? po/ans,????,,,,1,0,,0
-???? quar,????,,,,1,0,,0
-???? scdes,????,,,,1,0,,0
-???? teinpettes,????,,,,1,0,,0
-???? tonnage,????,,,,1,0,,0
-???? tonneaux,????,,,,1,0,,0
-???? tonnes,????,,,,1,0,,0
-???? tours,????,,,,1,0,,0
-???? wades,????,,,,1,0,,0
-???? wagues,????,,,,1,0,,0
-???? weltes,????,,,,1,0,,0
-acharmiere,,,,,,0,1,0
-ancres,,,,p27 doursther : en usage en allemagne et en hollande  formant le quart de l'aime,,0,1,0
-asnées,anée pour les liquides,kg,81.959999,p43 doursther : voir anée -> P28 -> prendre mesure de lyon ,,0,,0
-aunes,aunes de paris,cm,1.8884,Wikipedia,,0,,0
-aymes,aimes,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,0,,0
-bailles,bailles,litres,14.625,p44 doursther numero du dictionnaire ,,0,,0
-balles,balles,contenant,1,p56 doursther,,0,,0
-ballots,,,,,,0,1,0
-bannes,,,,,,0,1,0
-barals,barils du midi de la France,,,,,0,1,0
-barbançons,pièces,pieces,1,,,0,,0
-bards,,,,,,0,1,0
-barils,,,,,,0,,1
-barils doubles,,,,,,0,1,0
-barils simples,,,,,,0,1,0
-barraux,barral vin de montpellier,kg,25.35,p57 doursther,,0,,0
-barreaux,,,,,,0,1,0
-barres,,,,,,0,1,0
-barriques,,,,,,0,,1
-bateaux,,,,,,0,1,0
-batons,,,,,,0,1,0
-bayonettes,pièces,pieces,1,,,0,,0
-bazannes,pièces,pieces,1,,,0,,0
-bichets,bichets de Lyon,litres,31.9,p66 doursther,,0,,0
-billets,billets,pieces,1,,,0,,0
-bines,,,,,,0,1,0
-birges,,,,,,0,1,0
-boisseaux,boisseaux,litres,12.67,Wikipedia,,0,,0
-boneauds,,,,,,0,1,0
-bonnets,pièces,pieces,1,,,0,,0
-borraux,,,,,,0,1,0
-bottes,,,,,,0,,1
-boucauds,,,,,,0,1,0
-bouteilles,,,,,,0,,1
-bouts,bouts,pieces,1,,,0,,0
-boîtes,boîtes,contenant,1,,,0,,0
-brails,,,,,,0,1,0
-brancard,,,,,,0,1,0
-brassées,,,,p83 doursther = brasses ? ,,0,1,0
-bûches,bûches,pieces,1,???,,0,,0
-bœufs,pièces,pieces,1,,,0,,0
-cabas,,,,,,0,1,0
-caisses,caisses,contenant,1,,,0,,0
-caissons,caissons,contenant,1,,,0,,0
-canavettes,,,,,,0,1,0
-cannelles,,,,p94 : certainement canettes,,0,1,0
-cannes,cannes,cm,194.89999,"p94 doursther, correspond à la toise",,0,,0
-caps,,,,,,0,1,0
-caques,caques,kg,13.6,"p100 doursther : équivalent au baril, en anglais cade/cag",,0,,0
-carpes,pièces,pieces,1,,,0,,0
-carreaux,carreaux,litres,102.832,p102 : 1 carreaux=102.832 décimètres cubes,,0,,0
-cartieres,,,,p103 voir quartière,,0,1,0
-caves,,,,,,0,1,0
-cents,cents,kg,26000,"p107 doursther, 10.2833 stères, 300 pieds cubes de paris",,0,,0
-chamois,pièces,pieces,1,,,0,,0
-chapeaux,,kg,26000,"D'après Doursther, mesure pour le sel - varie suivant le lieu entre 28 et 26 tonnes",,0,,0
-chardées,,,,,,0,1,0
-charges,charges,kg,146.85001,D'après Doursther (France). Aussi la valeure choisie par Werner,,0,,0
-chariots,,,,,,0,,1
-charretées,charretées,litres,1920,"www.genefourneau.com/mesure.html , =1,92 stères",,0,,0
-chars,chars,litres,548.44,"p111 doursther, mesure de genève",,0,,0
-chevaux,pièces,pieces,1,,,0,,0
-chopes,,,,,,0,1,0
-choux,choux,pieces,1,,,0,,0
-coffres,coffres,contenant,1,,,0,,0
-communes,en nombre,pieces,1,,,0,,0
-conques,conques,litres,41.060001,doursther : 41.06 litres p119,,0,,0
-cordes,cordes,kg,12.2375,p121 doursther et -la genealogie-entre-amis.com,,0,,0
-cordons,,,,,,0,1,0
-cotes,pièces,pieces,1,,,0,,0
-cottes,,,,,,0,1,0
-coupes,coupes,contenant,1,,,0,,0
-coupons,,,,,,0,1,0
-couvertures,pièces,pieces,1,,,0,,0
-cruches,cruches,pieces,1,,,0,,0
-cubillons,,,,,,0,1,0
-cuirs,pieces,pieces,1,,,0,,0
-de,en nombre,pieces,1,,,0,,0
-de selle,en nombre,pieces,1,,,0,,0
-demie pièces,demi pièces,pieces,.5,,,0,,0
-demycs,demi-pièces,pieces,.5,,,0,,0
-devants,,,,,,0,1,0
-doublures,doublures,pieces,1,,,0,,0
-douelles,douelles,cm,90,Wikipedia,,0,,0
-dourgs,,,,,,0,1,0
-douzaines,douzaines,pieces,12,,,0,,0
-douzaines de paires,douzaines de paires,pieces,24,,,0,,0
-duttes,,,,,,0,1,0
-en feuilles,en feuilles,pieces,1,,,0,,0
-en nombre,en nombre,pieces,1,,,0,,0
-epinettes,,,,,,0,1,0
-esturgeons,pièces,pieces,1,,,0,,0
-faix,,,,,,0,,1
-fanons,fanons,pieces,1,,,0,,0
-fartraux,,,,,,0,1,0
-feuilles,feuilles,pieces,1,,,0,,0
-feuillettes,feuillettes,kg,134.11,p161 doursther,,0,,0
-fiottes,,,,,,0,1,0
-flacons,flacons,contenant,1,,,0,,0
-fluttes,,,,,,0,1,0
-fournitures,,,,,,0,1,0
-fours,,,,,,0,1,0
-frequins,,,,,,0,1,0
-funnes,,,,,,0,1,0
-fusils,fusils,pieces,1,,,0,,0
-futailles,futailles,contenant,1,,,0,,0
-garnitures,pièces,pieces,1,,,0,,0
-gonnes,,,,,,0,1,0
-grands,grands,pieces,1,,,0,,0
-grosses,grosses,pieces,144,"p175 doursther, 12 douzaines",,0,,0
-grots,,,,,,0,1,0
-génisses,pièces,pieces,1,,,0,,0
-hambourgs,,,,,,0,1,0
-huitièmes,,,,,,0,1,0
-huitres,huitres,pieces,1,,,0,,0
-inerastée,,,,,,0,1,0
-jeux,,,,,,0,1,0
-juments,pièces,pieces,1,,,0,,0
-last,last,kg,2028,"Witthöft 1993, Ulrich",,1,,0
-lats,,,,,,0,1,0
-leths,leths de cendre,litres,2638.2,"dictionnaire du commerce p600 : un leth pour 12 barils, puis p549 -> prendre tonnes de berlin ? ",,0,,0
-livres,livres de paris,kg,.48949999,Wikipedia: poids du marc,,0,,0
-livres 10 onces,livres 10 onces,kg,.48949999,,,0,,0
-livres 14 onces,livres 10 onces,kg,.48949999,,,0,,0
-livres 2 onces,livres 14 onces,kg,.48949999,,,0,,0
-livres 3 onces,livres 2 onces,kg,.48949999,,,0,,0
-livres 6 onces,livres 6 onces,kg,.48949999,,,0,,0
-livres 9 onces,livres 6 onces,kg,.48949999,,,0,,0
-livres de bateau,livres de bateau,kg,150,"Witthöft 1993, Ulrich",,1,,0
-livres de hambourg,livres de hambourg,kg,.48453999,"Witthöft 1993, Ulrich",,1,,0
-livres de marbré,livres de marbré,kg,.48949999,,,0,,0
-livres de noir,livres de noir,kg,.48949999,,,0,,0
-livrets,,,,,,0,1,0
-madriers,madriers,pieces,1,pièces ??,,0,,0
-madures,,,,,,0,1,0
-mailles,mailles,kg,.076485001,quart de l'once,,0,,0
-malles,malles,contenant,1,,,0,,0
-mandel,,,,,,0,1,0
-mannes,mannes,contenant,1,http://books.google.fr/books?id=9HM7AQAAIAAJ&pg=PA56&lpg=PA56&dq=mannes+de+charbon&source=bl&ots=WmK7GL1a82&sig=iO8oAqn4W-S8Bhi-28ohNUZPaP8&hl=fr&sa=X&ei=ULG2U76SNaz20gWTpoCYCQ&ved=0CFIQ6AEwCQ#v=onepage&q=mannes%20de%20charbon&f=false,,0,,0
-marcs,marcs,kg,.24474999,Wikipedia: poids du marc,,0,,0
-marcs 6 onces,marcs 6 onces,kg,.24474999,,,0,,0
-maroquins,peaux,pieces,1,,,0,,0
-martes,,,,,,0,1,0
-masses,,,,,,0,1,0
-mats,mats,pieces,1,,,0,,0
-mesures,mesures,litres,14.63,doursther p279,,0,,0
-migères,,,,,,0,1,0
-millerolles,,,,,,0,,1
-milliers,milliers,pieces,1000,,,0,,0
-mines,mines,litres,76.171997,Wikipedia,,0,,0
-minots,minots,litres,38.085999,Wikipedia,,0,,0
-mollus,,,,,,0,1,0
-monades,,,,,,0,1,0
-monds,monds,kg,1250,p298 doursther,,0,,0
-morceaux,morceaux,pieces,1,,,0,,0
-mottes,,,,,,0,1,0
-moutons,pièces,pieces,1,,,0,,0
-movres,,,,,,0,1,0
-muids,,,,,,0,,1
-muids de genièvre,muids de paris,kg,268.22,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter),,0,,0
-muids ordinaires,muids de paris,kg,268.22,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter),,0,,0
-mullets,pièces,pieces,1,,,0,,0
-onces,onces,kg,.030594001,1/16 de la livre,,0,,0
-ordinaires,ordinaires,pieces,1,,,0,,0
-oxhoft,oxhoft,kg,223.158,"Witthöft 1993, explication 1 oxhoft=223.158 litres",,1,,0
-pains,pains,pieces,1,,,0,,0
-paires,paires,pieces,2,,,0,,0
-paniers,paniers pour poissons,contenant,1,,,0,,0
-paquets,paquets,contenant,1,,,0,,0
-pasqus,,,,,,0,1,0
-patz,,,,,,0,1,0
-peaux,peaux,pieces,1,,,0,,0
-petits,petits,pieces,1,,,0,,0
-pieds,pieds de roi,cm,32.484001,p426 doursther,,0,,0
-pieds cubes,pieds cubes,litres,34.277,Wikipedia,,0,,0
-pierres,pierres,pieces,1,,,0,,0
-pintes,,,,,,0,,1
-pipes,,,,,,0,,1
-pipettes,pipettes,contenant,1,,,0,,0
-pièces,,,,,,0,,1
-planches,planches,pieces,1,,,0,,0
-poignées,poignées,contenant,1,,,0,,0
-poinçons,,,,,,0,,1
-porcelets,pièces,pieces,1,,,0,,0
-porqs,pièces,pieces,1,,,0,,0
-pots,,,,,,0,,1
-poulains,pièces,pieces,1,,,0,,0
-quartiers,,,,,,0,,1
-quarts,quarts de livres,kg,.125,,,0,,0
-queues,,,,,,0,,1
-rames,rames,pieces,500,Doursther : mesure pour le papier. Entre 360 et 500 feuilles,,0,,0
-razières,,,,,,0,,1
-robes,,,,,,0,1,0
-rouleaux,,,,,,0,,1
-sabres,sabres,pieces,1,,,0,,0
-sacs,,,,,,0,,1
-saumons,pièces,pieces,1,,,0,,0
-sennes,sennes,pieces,1,,,0,,0
-septiers,,,,,,0,,1
-serges,,,,,,0,1,0
-sergiers,,,,,,0,1,0
-sixains,,,,,,0,1,0
-sizaines,,,,,,0,1,0
-sommiers,,,,,,0,1,0
-sommées,,,,,,0,1,0
-tapis,pièces,pieces,1,,,0,,0
-taureaux,pièces,pieces,1,,,0,,0
-tentures,,,,,,0,1,0
-tierce,tierce,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,1,,0
-tiers,,,,,,0,1,0
-tierçons,,,,,,0,,1
-timbres,timbres de 40 peaux,pieces,40,http://books.google.fr/books?id=nuY_AAAAcAAJ&pg=PA733&lpg=PA733&dq=peaux+d'hermine+timbre&source=bl&ots=MErsCSDehB&sig=FF2NCCXeSO90f1TcYozlqI33Y_I&hl=fr&sa=X&ei=Qau2U_SkL4Pt0gWo9YHIAQ&ved=0CCsQ6AEwAw#v=onepage&q=peaux%20d'hermine%20timbre&f=fal,,0,,0
-toises,toises,cm,194.89999,Wikipedia,,0,,0
-tonneaux,,,,,,0,,1
-tonnes,,,,,,0,,1
-traques,traques,pieces,3,Dictionnaire de la marine françois (books.google.fr),,0,,0
-treittes,,,,,,0,1,0
-têtes,pièces,pieces,1,,,0,,0
-vaches,pièces,pieces,1,,,0,,0
-vals,,,,,,0,1,0
-veaux,pièces,pieces,1,,,0,,0
-veltes,veltes,kg,7.4299998,Dourshter : mesure de Paris,,0,,0
-verges,verges,kg,7.4299998,p581 : <=> veltes,,0,,0
-violons,violons,pieces,1,,,0,,0
-voitures,,,,,,0,1,0
-vollilles,vollilles,pieces,1,loïc charles,,0,,0
-wagons,,,,,,0,,1
-yunes,imi de berne,litres,3.503,p597 doursther -> voir Imi p186,,0,,0
-à répétition,pieces,pieces,1,,,0,,0
+quantity_unit,quantity_unit_ajustees,u_conv,q_conv,remarque_unit,incertitude_unit,source_hambourg,missing,need_marchandises,source_bdc,nbr_bdc_quantity_unit,nbr_bdc_quantity_unit_ajustees
+,,,,,,,,,1,180497,224943
+#,,,,,,,,,1,4,224943
+# Valeur,,,,,,,,,1,21,224943
+(1) Milliers,,,,,,,,,1,1,224943
+(10) Milliers,,,,,,,,,1,2,224943
+(109)Milliers,,,,,,,,,1,1,224943
+(12) Milles carreaux,,,,,,,,,1,1,224943
+(12) Milliers,,,,,,,,,1,1,224943
+(128) Milliers,,,,,,,,,1,1,224943
+(15) Milliers,,,,,,,,,1,1,224943
+"(15,5) Douzaines de paires",,,,,,,,,1,2,224943
+(17941) Milliers,,,,,,,,,1,1,224943
+(18) Milliers,,,,,,,,,1,2,224943
+(2) Douzaines,,,,,,,,,1,2,224943
+(20) Milliers,,,,,,,,,1,1,224943
+(222) Milliers,,,,,,,,,1,1,224943
+(233) Milliers,,,,,,,,,1,1,224943
+(240) Milliers,,,,,,,,,1,1,224943
+(25) Douzaines,,,,,,,,,1,1,224943
+(25) Milliers,,,,,,,,,1,3,224943
+(25)Milliers,,,,,,,,,1,1,224943
+(28) Milliers,,,,,,,,,1,1,224943
+(280) Milliers,,,,,,,,,1,1,224943
+(3) Milliers,,,,,,,,,1,2,224943
+(38) Milliers,,,,,,,,,1,1,224943
+(4) Douzaines de paires,,,,,,,,,1,1,224943
+(44) Milliers,,,,,,,,,1,1,224943
+(4461) Milliers,,,,,,,,,1,1,224943
+(48) Milliers,,,,,,,,,1,1,224943
+(5) Milliers,,,,,,,,,1,2,224943
+(5) douzaines,,,,,,,,,1,1,224943
+(59) Milliers,,,,,,,,,1,1,224943
+(6) Milliers,,,,,,,,,1,1,224943
+(60) Milliers,,,,,,,,,1,1,224943
+(600) Milliers,,,,,,,,,1,1,224943
+(651) Milliers,,,,,,,,,1,1,224943
+"(685,5) Milliers",,,,,,,,,1,1,224943
+(75) Milliers,,,,,,,,,1,1,224943
+(76) Milliers,,,,,,,,,1,1,224943
+(89) Milliers,,,,,,,,,1,1,224943
+(95) Milliers,,,,,,,,,1,1,224943
+10  pieds,,,,,,,,,1,1,224943
+10 a 11 pieds,,,,,,,,,1,9,224943
+10 a 12 pieds,,,,,,,,,1,4,224943
+10 a 18 pieds,,,,,,,,,1,1,224943
+10 a11  pieds,,,,,,,,,1,1,224943
+10 a12 pieds,,,,,,,,,1,1,224943
+10 pied,,,,,,,,,1,1,224943
+10 pieds,,,,,,,,,1,6,224943
+10 à 11 pied,,,,,,,,,1,2,224943
+10 à 12 palmes,,,,,,,,,1,1,224943
+10 à 12 pied,,,,,,,,,1,1,224943
+10 à 12 pieds,,,,,,,,,1,3,224943
+"10,12 a 14 pieds",,,,,,,,,1,1,224943
+11 a 12 pieds,,,,,,,,,1,2,224943
+11 a 13 palmes,,,,,,,,,1,1,224943
+11 let=132 baril,,,,,,,,,1,1,224943
+11 pieds,,,,,,,,,1,7,224943
+12 a 13 palmes,,,,,,,,,1,1,224943
+12 flacons,,,,,,,,,1,2,224943
+12 palmes,,,,,,,,,1,1,224943
+12 paumes de grosseur,,,,,,,,,1,2,224943
+12 pied,,,,,,,,,1,1,224943
+12 pieds,,,,,,,,,1,6,224943
+12 à 14 pieds,,,,,,,,,1,1,224943
+12 à 16 pieds,,,,,,,,,1,1,224943
+12 à 18 pieds,,,,,,,,,1,1,224943
+12 à 20 pieds,,,,,,,,,1,1,224943
+13 a 20 palmes,,,,,,,,,1,1,224943
+13 a 25 palmes,,,,,,,,,1,1,224943
+13 pieds,,,,,,,,,1,1,224943
+13 à 16 pieds,,,,,,,,,1,1,224943
+130 (Millier),,,,,,,,,1,1,224943
+14 a 16 pieds,,,,,,,,,1,1,224943
+14 palmes,,,,,,,,,1,2,224943
+14 pieds,,,,,,,,,1,2,224943
+15 a 16 pieds,,,,,,,,,1,1,224943
+15 a 20 pieds,,,,,,,,,1,1,224943
+15 pieds,,,,,,,,,1,6,224943
+15 pieds de long,,,,,,,,,1,1,224943
+16 a 18 pieds,,,,,,,,,1,1,224943
+16 pieds,,,,,,,,,1,1,224943
+16 à 17 paume de grosseur,,,,,,,,,1,1,224943
+18 a 21 pieds,,,,,,,,,1,1,224943
+18 pieds,,,,,,,,,1,6,224943
+20 a 22 pieds,,,,,,,,,1,1,224943
+20 a 25 palmes,,,,,,,,,1,1,224943
+20 a 30 pieds,,,,,,,,,1,1,224943
+20 pieces,,,,,,,,,1,1,224943
+20 pieds,,,,,,,,,1,8,224943
+21  pieds,,,,,,,,,1,1,224943
+21 à 22 pieds,,,,,,,,,1,1,224943
+22 pieds,,,,,,,,,1,2,224943
+24 pieds,,,,,,,,,1,3,224943
+24 à 30 pieds,,,,,,,,,1,1,224943
+25 a 30 pieds,,,,,,,,,1,3,224943
+25 pieces,,,,,,,,,1,1,224943
+25 pieds,,,,,,,,,1,4,224943
+25 à 30 pieds,,,,,,,,,1,2,224943
+26 pieds,,,,,,,,,1,2,224943
+27 pieds,,,,,,,,,1,3,224943
+3 a 4 pieds,,,,,,,,,1,2,224943
+3 petits Barils,,,,,,,,,1,1,224943
+30 a 40 pieds,,,,,,,,,1,1,224943
+30 pied,,,,,,,,,1,1,224943
+30 pieds,,,,,,,,,1,9,224943
+30 à 35 pieds,,,,,,,,,1,1,224943
+30 à 36 pieds,,,,,,,,,1,1,224943
+31 pieds,,,,,,,,,1,1,224943
+33 pieds,,,,,,,,,1,1,224943
+36 pieds,,,,,,,,,1,1,224943
+4 (Milliers),,,,,,,,,1,1,224943
+40 pieds,,,,,,,,,1,2,224943
+42 pieds,,,,,,,,,1,1,224943
+450 Feuilles,,,,,,,,,1,1,224943
+48 pieds,,,,,,,,,1,1,224943
+48 à 50 pieds,,,,,,,,,1,2,224943
+5 a 6 pieds,,,,,,,,,1,2,224943
+5 douzaines,,,,,,,,,1,1,224943
+5 pieds,,,,,,,,,1,2,224943
+50 pieds,,,,,,,,,1,1,224943
+52 pieds,,,,,,,,,1,1,224943
+6 a 15 pieds,,,,,,,,,1,1,224943
+6 a 7 pieds,,,,,,,,,1,1,224943
+6 flacons,,,,,,,,,1,3,224943
+6 pieds,,,,,,,,,1,1,224943
+6 à 7 paume de grosseur,,,,,,,,,1,1,224943
+6 à 7 pieds,,,,,,,,,1,1,224943
+600 Feuilles,,,,,,,,,1,1,224943
+66 pieds,,,,,,,,,1,1,224943
+"7 Feuilles a 7,5 pieds de chars",,,,,,,,,1,1,224943
+7 a 11 palmes,,,,,,,,,1,1,224943
+7 a 13 palmes,,,,,,,,,1,1,224943
+7 a 8 pieds,,,,,,,,,1,3,224943
+7 a 9 palmes,,,,,,,,,1,1,224943
+7 a 9 pieds,,,,,,,,,1,2,224943
+7 pieds,,,,,,,,,1,1,224943
+8 a 12 pieds,,,,,,,,,1,1,224943
+8 a 9 pieds,,,,,,,,,1,7,224943
+8 flacons,,,,,,,,,1,1,224943
+8 pieds,,,,,,,,,1,7,224943
+8 à 12 pieds,,,,,,,,,1,1,224943
+8 à 9 pieds,,,,,,,,,1,1,224943
+9 a 10 pieds,,,,,,,,,1,12,224943
+9 a 10-11 pieds,,,,,,,,,1,1,224943
+9 a 12 palmes,,,,,,,,,1,1,224943
+9 a 18 pied,,,,,,,,,1,1,224943
+9 a10  pieds,,,,,,,,,1,1,224943
+9 flacons,,,,,,,,,1,1,224943
+9 pieds,,,,,,,,,1,2,224943
+9 à 10 pied,,,,,,,,,1,2,224943
+9 à 10 pieds,,,,,,,,,1,1,224943
+?,,,,,,,,,1,12,224943
+??,,,,,,,,,1,1,224943
+????,????,,,,1,0,,0,1,148,230
+???? Aunes,????,,,,1,0,,0,1,1,230
+???? B,????,,,,1,0,,0,1,1,230
+???? Bar,????,,,,1,0,,0,1,1,230
+???? LC dit peut être fausse valeur,????,,,,1,0,,0,1,1,230
+???? Rien,????,,,,1,0,,0,1,9,230
+???? W,????,,,,1,0,,0,1,1,230
+???? an,????,,,,1,0,,0,1,1,230
+???? aunes,????,,,,1,0,,0,1,3,230
+???? aunes ou livres,????,,,,1,0,,0,1,1,230
+???? bann,????,,,,1,0,,0,1,3,230
+???? boileaux,????,,,,1,0,,0,1,1,230
+???? boir X,????,,,,1,0,,0,1,2,230
+???? boisses,????,,,,1,0,,0,1,1,230
+???? boucoud,????,,,,1,0,,0,1,1,230
+???? boue(c)s,????,,,,1,0,,0,1,2,230
+???? boul,????,,,,1,0,,0,1,1,230
+???? bout s,????,,,,1,0,,0,1,12,230
+???? bouteilles,????,,,,1,0,,0,1,1,230
+???? caps,????,,,,1,0,,0,1,1,230
+???? cha,????,,,,1,0,,0,1,1,230
+???? charres,????,,,,1,0,,0,1,1,230
+???? cou,????,,,,1,0,,0,1,1,230
+???? de la bour.,????,,,,1,0,,0,1,2,230
+???? grosses,????,,,,1,0,,0,1,2,230
+???? livres,????,,,,1,0,,0,1,2,230
+???? livres x,????,,,,1,0,,0,1,1,230
+???? lotes,????,,,,1,0,,0,1,1,230
+???? m,????,,,,1,0,,0,1,2,230
+???? malls,????,,,,1,0,,0,1,1,230
+???? maq s,????,,,,1,0,,0,1,1,230
+???? mo,????,,,,1,0,,0,1,1,230
+???? mot,????,,,,1,0,,0,1,2,230
+???? mottes,????,,,,1,0,,0,1,1,230
+???? p,????,,,,1,0,,0,1,2,230
+???? paquets,????,,,,1,0,,0,1,1,230
+???? pièces,????,,,,1,0,,0,1,2,230
+???? po/ans,????,,,,1,0,,0,1,1,230
+???? quar,????,,,,1,0,,0,1,1,230
+???? scdes,????,,,,1,0,,0,1,1,230
+???? teinpettes,????,,,,1,0,,0,1,1,230
+???? tonnage,????,,,,1,0,,0,1,4,230
+???? tonneaux,????,,,,1,0,,0,1,1,230
+???? tonnes,????,,,,1,0,,0,1,1,230
+???? tours,????,,,,1,0,,0,1,1,230
+???? wades,????,,,,1,0,,0,1,1,230
+???? wagues,????,,,,1,0,,0,1,1,230
+???? weltes,????,,,,1,0,,0,1,1,230
+AUnes,,,,,,,,,1,1,224943
+Ancre,,,,,,,,,1,4,224943
+Ancres,,,,,,,,,1,7,224943
+Arobe,,,,,,,,,1,2,224943
+Arobes,,,,,,,,,1,5,224943
+Aroves,,,,,,,,,1,1,224943
+Arrobes,,,,,,,,,1,1,224943
+Aunes,,,,,,,,,1,440,224943
+Ayme,,,,,,,,,1,1,224943
+Bailles,,,,,,,,,1,6,224943
+Balle,,,,,,,,,1,3,224943
+Balles,,,,,,,,,1,36,224943
+Ballon,,,,,,,,,1,1,224943
+Ballot,,,,,,,,,1,2,224943
+Ballots,,,,,,,,,1,11,224943
+Bannes,,,,,,,,,1,5,224943
+Baril,,,,,,,,,1,14,224943
+Barile,,,,,,,,,1,1,224943
+Barillets,,,,,,,,,1,2,224943
+Barils,,,,,,,,,1,778,224943
+Barils de 450 Feuilles,,,,,,,,,1,2,224943
+Barils de grand modèle 330,,,,,,,,,1,1,224943
+Barils petits,,,,,,,,,1,2,224943
+Barils petits de 300,,,,,,,,,1,1,224943
+Barique,,,,,,,,,1,27,224943
+Bariqueq,,,,,,,,,1,1,224943
+Bariques,,,,,,,,,1,622,224943
+Bariquues,,,,,,,,,1,1,224943
+Barques,,,,,,,,,1,1,224943
+Barraux,,,,,,,,,1,4,224943
+Barril,,,,,,,,,1,1,224943
+Barril de 3,,,,,,,,,1,1,224943
+Barrile,,,,,,,,,1,2,224943
+Barriles,,,,,,,,,1,2,224943
+Barrillets,,,,,,,,,1,5,224943
+Barrils,,,,,,,,,1,118,224943
+Barrils de 450 feuilles,,,,,,,,,1,2,224943
+Barrils en saumure,,,,,,,,,1,1,224943
+Barrils ordinaires,,,,,,,,,1,1,224943
+Barrils petits,,,,,,,,,1,5,224943
+Barrique,,,,,,,,,1,10,224943
+Barriquels,,,,,,,,,1,1,224943
+Barriques,,,,,,,,,1,161,224943
+Barriques Grosses,,,,,,,,,1,1,224943
+Barrrils,,,,,,,,,1,1,224943
+Batteaux,,,,,,,,,1,4,224943
+Battes,,,,,,,,,1,1,224943
+Baucoud,,,,,,,,,1,1,224943
+Billes,,,,,,,,,1,1,224943
+Boiseau,,,,,,,,,1,1,224943
+Boiseaux,,,,,,,,,1,1,224943
+Boissaux,,,,,,,,,1,5,224943
+Boisseau,,,,,,,,,1,4,224943
+Boisseauc,,,,,,,,,1,1,224943
+Boisseaux,,,,,,,,,1,321,224943
+Boitte,,,,,,,,,1,1,224943
+Bolliches,,,,,,,,,1,1,224943
+Bonnets,,,,,,,,,1,1,224943
+Bordage,,,,,,,,,1,1,224943
+Bottes,,,,,,,,,1,20,224943
+Boucauts,,,,,,,,,1,1,224943
+Boucaux,,,,,,,,,1,1,224943
+Boues,,,,,,,,,1,6,224943
+Bourdillons,,,,,,,,,1,1,224943
+Bout,,,,,,,,,1,1,224943
+Boutades,,,,,,,,,1,1,224943
+Bouteille,,,,,,,,,1,11,224943
+Bouteilles,,,,,,,,,1,129,224943
+Bouteilles + Muids + Pintes,,,,,,,,,1,2,224943
+Bouts,,,,,,,,,1,4,224943
+Bouyeilles,,,,,,,,,1,1,224943
+Boëtes,,,,,,,,,1,1,224943
+Brasses,,,,,,,,,1,7,224943
+Brins,,,,,,,,,1,2,224943
+Briques,,,,,,,,,1,1,224943
+Bruis,,,,,,,,,1,1,224943
+Buches,,,,,,,,,1,3,224943
+Cabas,,,,,,,,,1,1,224943
+Caisse,,,,,,,,,1,1,224943
+Caisses,,,,,,,,,1,39,224943
+Caissons,,,,,,,,,1,1,224943
+Canastres,,,,,,,,,1,1,224943
+Canelles,,,,,,,,,1,1,224943
+Cannes,,,,,,,,,1,13,224943
+Caps,,,,,,,,,1,4,224943
+Caques,,,,,,,,,1,2,224943
+Careaux,,,,,,,,,1,2,224943
+Carraux,,,,,,,,,1,2,224943
+Carre,,,,,,,,,1,1,224943
+Carreaux,,,,,,,,,1,15,224943
+Cartieres,,,,,,,,,1,3,224943
+Cens,,,,,,,,,1,45,224943
+Cent,,,,,,,,,1,8,224943
+Cent au grand compte,,,,,,,,,1,28,224943
+Cents,,,,,,,,,1,28,224943
+Chapeaux,,,,,,,,,1,1,224943
+Char,,,,,,,,,1,2,224943
+Charettes,,,,,,,,,1,2,224943
+Charge,,,,,,,,,1,3,224943
+Charges,,,,,,,,,1,42,224943
+Chariot,,,,,,,,,1,2,224943
+Chariots,,,,,,,,,1,3,224943
+Charretées,,,,,,,,,1,2,224943
+Chars,,,,,,,,,1,19,224943
+Chartée,,,,,,,,,1,3,224943
+Chartées,,,,,,,,,1,29,224943
+Cnes,,,,,,,,,1,1,224943
+Coffre,,,,,,,,,1,1,224943
+Communes,,,,,,,,,1,1,224943
+Cordes,,,,,,,,,1,2,224943
+Costes,,,,,,,,,1,1,224943
+Costés,,,,,,,,,1,1,224943
+Cotes,,,,,,,,,1,2,224943
+Cottes,,,,,,,,,1,9,224943
+Coupon,,,,,,,,,1,1,224943
+Coupons,,,,,,,,,1,4,224943
+Croix,,,,,,,,,1,2,224943
+Cuina,,,,,,,,,1,1,224943
+Cuirs,,,,,,,,,1,12,224943
+Cuirs  entier,,,,,,,,,1,1,224943
+Cuirs  entiers,,,,,,,,,1,1,224943
+Demi pièces,,,,,,,,,1,2,224943
+Demie ancres,,,,,,,,,1,1,224943
+Demie charge,,,,,,,,,1,1,224943
+Demies,,,,,,,,,1,1,224943
+Demies bouteilles,,,,,,,,,1,1,224943
+Demy bariques,,,,,,,,,1,1,224943
+Demy cuirs,,,,,,,,,1,1,224943
+Demy pièce,,,,,,,,,1,1,224943
+Demy pièces,,,,,,,,,1,2,224943
+Douelles,,,,,,,,,1,29,224943
+Douzaine,,,,,,,,,1,40,224943
+Douzaine de paires,,,,,,,,,1,2,224943
+Douzaine de pairres,,,,,,,,,1,1,224943
+Douzaines,,,,,,,,,1,622,224943
+Douzaines bonnets,,,,,,,,,1,1,224943
+Douzaines de bas,,,,,,,,,1,2,224943
+Douzaines de fiolles,,,,,,,,,1,1,224943
+Douzaines de mouchoirs,,,,,,,,,1,1,224943
+Douzaines de paires,,,,,,,,,1,13,224943
+Douzaines de peaux,,,,,,,,,1,1,224943
+Douzaines grands,,,,,,,,,1,1,224943
+Douzaines petits,,,,,,,,,1,1,224943
+Douëlles,,,,,,,,,1,3,224943
+Doüelles,,,,,,,,,1,21,224943
+Doüelles fai 2 m 1/2,,,,,,,,,1,1,224943
+Doüelles fait 3 m 1/8,,,,,,,,,1,1,224943
+Droits,,,,,,,,,1,13,224943
+En,,,,,,,,,1,1,224943
+En nombre,,,,,,,,,1,255,224943
+Encres,,,,,,,,,1,1,224943
+Entiers,,,,,,,,,1,1,224943
+Estimez,,,,,,,,,1,1,224943
+Estimé,,,,,,,,,1,4,224943
+Estimée,,,,,,,,,1,1,224943
+Estimées,,,,,,,,,1,17,224943
+Estimés,,,,,,,,,1,5,224943
+FAUX,,,,,,,,,1,1,224943
+Faix,,,,,,,,,1,3,224943
+Fanigues,,,,,,,,,1,1,224943
+Fers,,,,,,,,,1,1,224943
+Feuille,,,,,,,,,1,2,224943
+Feuilles,,,,,,,,,1,12,224943
+Fioles,,,,,,,,,1,1,224943
+Fiolles,,,,,,,,,1,1,224943
+Flacons,,,,,,,,,1,4,224943
+Fluttes,,,,,,,,,1,3,224943
+Fourneaux,,,,,,,,,1,1,224943
+Fournitures,,,,,,,,,1,1,224943
+Fours,,,,,,,,,1,2,224943
+Fres,,,,,,,,,1,1,224943
+Fromages,,,,,,,,,1,1,224943
+Fusils,,,,,,,,,1,2,224943
+Futaille de 800 livres,,,,,,,,,1,1,224943
+Futailles,,,,,,,,,1,3,224943
+Garniture,,,,,,,,,1,1,224943
+Garnitures,,,,,,,,,1,2,224943
+Gets,,,,,,,,,1,1,224943
+Ggoblets,,,,,,,,,1,1,224943
+Girofle,,,,,,,,,1,1,224943
+Gonnes,,,,,,,,,1,2,224943
+Gosses,,,,,,,,,1,1,224943
+Gros,,,,,,,,,1,2,224943
+Grosse,,,,,,,,,1,3,224943
+Grosses,,,,,,,,,1,108,224943
+Grosses bariques,,,,,,,,,1,4,224943
+Grosses barriques,,,,,,,,,1,2,224943
+Grosses paires,,,,,,,,,1,1,224943
+Grossess,,,,,,,,,1,9,224943
+Hambourg,,,,,,,,,1,2,224943
+Hambourgs,,,,,,,,,1,2,224943
+Jets,,,,,,,,,1,1,224943
+Jeux,,,,,,,,,1,1,224943
+Jutes,,,,,,,,,1,1,224943
+Latz,,,,,,,,,1,3,224943
+Laëst,,,,,,,,,1,1,224943
+Le cent,,,,,,,,,1,1,224943
+Lets,,,,,,,,,1,1,224943
+Liens,,,,,,,,,1,2,224943
+Livre,,,,,,,,,1,6,224943
+Livres,,,,,,,,,1,19597,224943
+Livres + Onces,,,,,,,,,1,10,224943
+Livres + onces,,,,,,,,,1,7,224943
+Livres en saumure,,,,,,,,,1,1,224943
+Livrres,,,,,,,,,1,1,224943
+MIlliers,,,,,,,,,1,1,224943
+Madrier,,,,,,,,,1,2,224943
+Madriers,,,,,,,,,1,20,224943
+Malles,,,,,,,,,1,1,224943
+Manades,,,,,,,,,1,1,224943
+Mannes,,,,,,,,,1,3,224943
+Marc,,,,,,,,,1,2,224943
+Marces,,,,,,,,,1,1,224943
+Marcqs,,,,,,,,,1,1,224943
+Marcs,,,,,,,,,1,52,224943
+Marcs + Onces,,,,,,,,,1,2,224943
+Masses,,,,,,,,,1,2,224943
+Meches,,,,,,,,,1,1,224943
+Mesure,,,,,,,,,1,2,224943
+Mesures,,,,,,,,,1,6,224943
+Meules,,,,,,,,,1,2,224943
+Meulles,,,,,,,,,1,2,224943
+Migeres,,,,,,,,,1,3,224943
+Miliers,,,,,,,,,1,1,224943
+Millerolles,,,,,,,,,1,8,224943
+Milles,,,,,,,,,1,5,224943
+Millier,,,,,,,,,1,2,224943
+Milliers,,,,,,,,,1,283,224943
+Mouchoirs,,,,,,,,,1,1,224943
+Muid,,,,,,,,,1,13,224943
+Muids,,,,,,,,,1,500,224943
+Muids + Pintes,,,,,,,,,1,79,224943
+Muids + Septiers,,,,,,,,,1,1,224943
+Muids + Septiers + Minots,,,,,,,,,1,4,224943
+Muids + Septiers + Minots + boisseau,,,,,,,,,1,1,224943
+Muids + pintes,,,,,,,,,1,3,224943
+Muids + pintes et bouteilles,,,,,,,,,1,25,224943
+Muids le demy,,,,,,,,,1,1,224943
+Nomb re,,,,,,,,,1,1,224943
+Nombre,,,,,,,,,1,1176,224943
+Nombres,,,,,,,,,1,287,224943
+Onces,,,,,,,,,1,24,224943
+PAQUET,,,,,,,,,1,1,224943
+PIèces,,,,,,,,,1,23,224943
+Pains,,,,,,,,,1,1,224943
+Paire,,,,,,,,,1,2,224943
+Paires,,,,,,,,,1,233,224943
+Panier,,,,,,,,,1,4,224943
+Paniers,,,,,,,,,1,28,224943
+Panniers,,,,,,,,,1,2,224943
+Paquet,,,,,,,,,1,1,224943
+Paquets,,,,,,,,,1,34,224943
+Paquets 100 faix,,,,,,,,,1,1,224943
+Par cube,,,,,,,,,1,1,224943
+Peau,,,,,,,,,1,1,224943
+Peaux,,,,,,,,,1,91,224943
+Pelaux,,,,,,,,,1,1,224943
+Pendules,,,,,,,,,1,1,224943
+Petit baril,,,,,,,,,1,1,224943
+Petit sac,,,,,,,,,1,1,224943
+Petits barrils,,,,,,,,,1,4,224943
+Pezant,,,,,,,,,1,2,224943
+Pieces,,,,,,,,,1,46,224943
+Pieds,,,,,,,,,1,15,224943
+Pieds cubes,,,,,,,,,1,1,224943
+Pierre,,,,,,,,,1,1,224943
+Pierres,,,,,,,,,1,1,224943
+Pintes,,,,,,,,,1,28,224943
+Pipe,,,,,,,,,1,1,224943
+Pipes,,,,,,,,,1,10,224943
+Pièce,,,,,,,,,1,38,224943
+Pièces,,,,,,,,,1,1359,224943
+Pièces & Livres,,,,,,,,,1,1,224943
+Pièces ?,,,,,,,,,1,1,224943
+Pièces de judes,,,,,,,,,1,1,224943
+Pièces grosses,,,,,,,,,1,1,224943
+Pièces pour barriques,,,,,,,,,1,1,224943
+Planches,,,,,,,,,1,8,224943
+Poches,,,,,,,,,1,2,224943
+Pochées,,,,,,,,,1,11,224943
+Pognées,,,,,,,,,1,1,224943
+Poignées,,,,,,,,,1,7,224943
+Poignés,,,,,,,,,1,1,224943
+Poincons,,,,,,,,,1,2,224943
+Poinçon,,,,,,,,,1,1,224943
+Poinçons,,,,,,,,,1,22,224943
+Pors,,,,,,,,,1,1,224943
+Pots,,,,,,,,,1,137,224943
+Prises,,,,,,,,,1,1,224943
+Quart,,,,,,,,,1,3,224943
+Quartieres,,,,,,,,,1,2,224943
+Quartiers,,,,,,,,,1,4,224943
+Quartiers mesure de Blaye,,,,,,,,,1,3,224943
+Quarts,,,,,,,,,1,108,224943
+Quarts??,,,,,,,,,1,1,224943
+Queue,,,,,,,,,1,1,224943
+Queues,,,,,,,,,1,2,224943
+Quintaux,,,,,,,,,1,13,224943
+Quinteaux,,,,,,,,,1,2,224943
+Rame,,,,,,,,,1,1,224943
+Rames,,,,,,,,,1,207,224943
+Rapé,,,,,,,,,1,1,224943
+Raziere,,,,,,,,,1,2,224943
+Razieres,,,,,,,,,1,3,224943
+Razière,,,,,,,,,1,1,224943
+Razières,,,,,,,,,1,2,224943
+Retz,,,,,,,,,1,1,224943
+Rouleaux,,,,,,,,,1,2,224943
+Sac,,,,,,,,,1,1,224943
+Sacs,,,,,,,,,1,19,224943
+Sacs de 2800 boisseaux,,,,,,,,,1,1,224943
+Saur,,,,,,,,,1,1,224943
+Saus,,,,,,,,,1,4,224943
+Secheldes,,,,,,,,,1,1,224943
+Septiers,,,,,,,,,1,15,224943
+Serviettes,,,,,,,,,1,1,224943
+Setiers,,,,,,,,,1,1,224943
+Settiers,,,,,,,,,1,3,224943
+Sixains,,,,,,,,,1,5,224943
+Somme,,,,,,,,,1,1,224943
+Sommées,,,,,,,,,1,2,224943
+Sous,,,,,,,,,1,1,224943
+TIERCON,,,,,,,,,1,1,224943
+Tarsonde,,,,,,,,,1,1,224943
+Taupettes,,,,,,,,,1,1,224943
+Tenture,,,,,,,,,1,1,224943
+Thonneaux,,,,,,,,,1,22,224943
+Tiercons,,,,,,,,,1,6,224943
+Tiercours,,,,,,,,,1,2,224943
+Tiercous,,,,,,,,,1,2,224943
+Tierions,,,,,,,,,1,1,224943
+Tiersous,,,,,,,,,1,2,224943
+Tierçon,,,,,,,,,1,1,224943
+Tierçons,,,,,,,,,1,10,224943
+Timbres,,,,,,,,,1,1,224943
+Toises,,,,,,,,,1,4,224943
+Toisons,,,,,,,,,1,1,224943
+Tomes,,,,,,,,,1,1,224943
+Tommes,,,,,,,,,1,1,224943
+Tonne,,,,,,,,,1,4,224943
+Tonneau,,,,,,,,,1,13,224943
+Tonneaux,,,,,,,,,1,462,224943
+Tonneaux a 20 qu,,,,,,,,,1,1,224943
+Tonneaux de haut,,,,,,,,,1,1,224943
+Tonneaux de ville,,,,,,,,,1,1,224943
+Tonnes,,,,,,,,,1,22,224943
+Traques,,,,,,,,,1,28,224943
+Treilles,,,,,,,,,1,1,224943
+Valeur,,,,,,,,,1,637,224943
+Valeur Cy,,,,,,,,,1,15,224943
+Valeur de,,,,,,,,,1,150,224943
+Valeurs,,,,,,,,,1,1,224943
+Valleur,,,,,,,,,1,1,224943
+Veltes,,,,,,,,,1,89,224943
+Veltes le demi,,,,,,,,,1,1,224943
+Verges,,,,,,,,,1,17,224943
+Vivants,,,,,,,,,1,1,224943
+W,,,,,,,,,1,2,224943
+acharmiere,,,,,,0,1,0,1,1,224943
+aimes,,,,,,,,,1,3,224943
+alvrames,,,,,,,,,1,1,224943
+ancres,,,,p27 doursther : en usage en allemagne et en hollande  formant le quart de l'aime,,0,1,0,1,12,224943
+asnée,,,,,,,,,1,1,224943
+asnées,anée pour les liquides,kg,81.959999,p43 doursther : voir anée -> P28 -> prendre mesure de lyon ,,0,,0,1,12,12
+aumes,,,,,,,,,1,18,224943
+aunes,aunes de paris,cm,1.8884,Wikipedia,,0,,0,1,1622,1622
+autunce,,,,,,,,,1,1,224943
+aymes,aimes,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,0,,0,1,3,3
+aynes,,,,,,,,,1,1,224943
+baille du Poids,,,,,,,,,1,1,224943
+bailler,,,,,,,,,1,14,224943
+bailles,bailles,litres,14.625,p44 doursther numero du dictionnaire ,,0,,0,1,14,14
+baillet,,,,,,,,,1,1,224943
+bairque,,,,,,,,,1,1,224943
+bales d'haricots,,,,,,,,,1,1,224943
+balets,,,,,,,,,1,1,224943
+balle,,,,,,,,,1,1,224943
+balle de 900,,,,,,,,,1,1,224943
+balles,balles,contenant,1,p56 doursther,,0,,0,1,125,125
+ballles,,,,,,,,,1,1,224943
+ballon,,,,,,,,,1,1,224943
+ballot,,,,,,,,,1,1,224943
+ballots,,,,,,0,1,0,1,38,224943
+balot,,,,,,,,,1,1,224943
+balots,,,,,,,,,1,1,224943
+bannes,,,,,,0,1,0,1,19,224943
+baquet,,,,,,,,,1,1,224943
+barals,barils du midi de la France,,,,,0,1,0,1,1,1
+barbançons,pièces,pieces,1,,,0,,0,1,1,181
+bards,,,,,,0,1,0,1,1,224943
+barigaux,,,,,,,,,1,1,224943
+baril,,,,,,,,,1,30,224943
+baril à 450 Feuilles,,,,,,,,,1,1,224943
+barill,,,,,,,,,1,1,224943
+barilles,,,,,,,,,1,6,224943
+barillets,,,,,,,,,1,2,224943
+barils,,,,,,0,,1,1,1529,224943
+barils de 64 pots,,,,,,,,,1,2,224943
+barils double,,,,,,,,,1,1,224943
+barils doubler,,,,,,,,,1,1,224943
+barils doubles,,,,,,0,1,0,1,4,224943
+barils feuiller,,,,,,,,,1,1,224943
+barils petit,,,,,,,,,1,1,224943
+barils simple,,,,,,,,,1,1,224943
+barils simples,,,,,,0,1,0,1,2,224943
+barique,,,,,,,,,1,10,224943
+bariques,,,,,,,,,1,258,224943
+barraux,barral vin de montpellier,kg,25.35,p57 doursther,,0,,0,1,7,7
+barreaux,,,,,,0,1,0,1,1,224943
+barres,,,,,,0,1,0,1,17,224943
+barril,,,,,,,,,1,1,224943
+barrils,,,,,,,,,1,20,224943
+barrique,,,,,,,,,1,4,224943
+barriques,,,,,,0,,1,1,510,224943
+basin double,,,,,,,,,1,1,224943
+bassin,,,,,,,,,1,1,224943
+bassines,,,,,,,,,1,1,224943
+bateaux,,,,,,0,1,0,1,21,224943
+batons,,,,,,0,1,0,1,1,224943
+batteaux,,,,,,,,,1,3,224943
+bautes,,,,,,,,,1,1,224943
+bayonettes,pièces,pieces,1,,,0,,0,1,1,181
+bazannes,pièces,pieces,1,,,0,,0,1,7,181
+beines,,,,,,,,,1,1,224943
+bertilles,,,,,,,,,1,1,224943
+bichets,bichets de Lyon,litres,31.9,p66 doursther,,0,,0,1,1,1
+billes,,,,,,,,,1,10,224943
+billets,billets,pieces,1,,,0,,0,1,1,1
+billons,,,,,,,,,1,2,224943
+bines,,,,,,0,1,0,1,1,224943
+birges,,,,,,0,1,0,1,1,224943
+boete,,,,,,,,,1,1,224943
+boetes,,,,,,,,,1,1,224943
+boettes,,,,,,,,,1,1,224943
+boillaux,,,,,,,,,1,8,224943
+boinaux,,,,,,,,,1,1,224943
+boineaux,,,,,,,,,1,4,224943
+boinnaux,,,,,,,,,1,1,224943
+boiseaux,,,,,,,,,1,3,224943
+boissaux,,,,,,,,,1,1,224943
+boisseaux,boisseaux,litres,12.67,Wikipedia,,0,,0,1,99,99
+boitures,,,,,,,,,1,2,224943
+boneauds,,,,,,0,1,0,1,1,224943
+bonnets,pièces,pieces,1,,,0,,0,1,5,181
+borneaux,,,,,,,,,1,1,224943
+borraux,,,,,,0,1,0,1,1,224943
+botes,,,,,,,,,1,1,224943
+bottes,,,,,,0,,1,1,104,224943
+boucauds,,,,,,0,1,0,1,4,224943
+boucault,,,,,,,,,1,2,224943
+boucaults,,,,,,,,,1,1,224943
+boules,,,,,,,,,1,2,224943
+boulle,,,,,,,,,1,1,224943
+bouteilles,,,,,,0,,1,1,372,224943
+bouteilles de pinte,,,,,,,,,1,1,224943
+bouteuilles,,,,,,,,,1,17,224943
+bouteuilles ou le livres,,,,,,,,,1,1,224943
+bouts,bouts,pieces,1,,,0,,0,1,6,6
+boëtes,,,,,,,,,1,1,224943
+boîtes,boîtes,contenant,1,,,0,,0,1,3,3
+brails,,,,,,0,1,0,1,1,224943
+brancard,,,,,,0,1,0,1,1,224943
+brases,,,,,,,,,1,2,224943
+brassées,,,,p83 doursther = brasses ? ,,0,1,0,1,1,224943
+brilles,,,,,,,,,1,1,224943
+brins,,,,,,,,,1,1,224943
+briques,,,,,,,,,1,1,224943
+buche,,,,,,,,,1,2,224943
+buches,,,,,,,,,1,6,224943
+bûches,bûches,pieces,1,???,,0,,0,1,6,6
+bœufs,pièces,pieces,1,,,0,,0,1,7,181
+cHaretée,,,,,,,,,1,1,224943
+cabas,,,,,,0,1,0,1,8,224943
+cais,,,,,,,,,1,1,224943
+caise,,,,,,,,,1,1,224943
+caises,,,,,,,,,1,6,224943
+caisse,,,,,,,,,1,23,224943
+caisses,caisses,contenant,1,,,0,,0,1,194,194
+caissons,caissons,contenant,1,,,0,,0,1,14,14
+canavettes,,,,,,0,1,0,1,1,224943
+canevettes,,,,,,,,,1,1,224943
+cannavettes,,,,,,,,,1,1,224943
+cannelles,,,,p94 : certainement canettes,,0,1,0,1,2,224943
+cannes,cannes,cm,194.89999,"p94 doursther, correspond à la toise",,0,,0,1,14,14
+caps,,,,,,0,1,0,1,4,224943
+caques,caques,kg,13.6,"p100 doursther : équivalent au baril, en anglais cade/cag",,0,,0,1,3,3
+carpes,pièces,pieces,1,,,0,,0,1,8,181
+carreaux,carreaux,litres,102.832,p102 : 1 carreaux=102.832 décimètres cubes,,0,,0,1,5,5
+cartier du pied de 480 livres,,,,,,,,,1,1,224943
+cartieres,,,,p103 voir quartière,,0,1,0,1,1,224943
+cartroles,,,,,,,,,1,1,224943
+cave,,,,,,,,,1,1,224943
+caves,,,,,,0,1,0,1,1,224943
+centaine,,,,,,,,,1,2,224943
+centaines,,,,,,,,,1,3,224943
+cents,cents,kg,26000,"p107 doursther, 10.2833 stères, 300 pieds cubes de paris",,0,,0,1,26,26
+chaldes,,,,,,,,,1,4,224943
+chalons,,,,,,,,,1,1,224943
+chamois,pièces,pieces,1,,,0,,0,1,6,181
+chanterice,,,,,,,,,1,1,224943
+chapeau,,,,,,,,,1,1,224943
+chapeaux,,kg,26000,"D'après Doursther, mesure pour le sel - varie suivant le lieu entre 28 et 26 tonnes",,0,,0,1,9,224943
+chardes,,,,,,,,,1,1,224943
+chardées,,,,,,0,1,0,1,1,224943
+charetes,,,,,,,,,1,1,224943
+charetées,,,,,,,,,1,1,224943
+charge de chenal,,,,,,,,,1,1,224943
+charge de cheval,,,,,,,,,1,1,224943
+charges,charges,kg,146.85001,D'après Doursther (France). Aussi la valeure choisie par Werner,,0,,0,1,319,319
+chariot,,,,,,,,,1,1,224943
+chariots,,,,,,0,,1,1,10,224943
+charretées,charretées,litres,1920,"www.genefourneau.com/mesure.html , =1,92 stères",,0,,0,1,122,122
+charriot,,,,,,,,,1,1,224943
+chars,chars,litres,548.44,"p111 doursther, mesure de genève",,0,,0,1,108,108
+charte,,,,,,,,,1,2,224943
+charts,,,,,,,,,1,1,224943
+charté,,,,,,,,,1,1,224943
+chartée,,,,,,,,,1,1,224943
+chartées,,,,,,,,,1,6,224943
+chartéle,,,,,,,,,1,1,224943
+chartéls,,,,,,,,,1,1,224943
+chartés,,,,,,,,,1,2,224943
+cheldes,,,,,,,,,1,1,224943
+chevaux,pièces,pieces,1,,,0,,0,1,25,181
+chevrier,,,,,,,,,1,1,224943
+chevrons,,,,,,,,,1,1,224943
+chipons de 300 livres,,,,,,,,,1,1,224943
+chopes,,,,,,0,1,0,1,1,224943
+choux,choux,pieces,1,,,0,,0,1,1,1
+classer,,,,,,,,,1,1,224943
+coffre,,,,,,,,,1,1,224943
+coffres,coffres,contenant,1,,,0,,0,1,6,6
+coffrets,,,,,,,,,1,1,224943
+collé,,,,,,,,,1,1,224943
+colonne,,,,,,,,,1,1,224943
+colonnes,,,,,,,,,1,1,224943
+commune,,,,,,,,,1,1,224943
+communes,en nombre,pieces,1,,,0,,0,1,9,5304
+comune,,,,,,,,,1,1,224943
+comunes,,,,,,,,,1,1,224943
+conques,conques,litres,41.060001,doursther : 41.06 litres p119,,0,,0,1,7,7
+corde,,,,,,,,,1,2,224943
+cordes,cordes,kg,12.2375,p121 doursther et -la genealogie-entre-amis.com,,0,,0,1,12,12
+cordons,,,,,,0,1,0,1,1,224943
+cotes,pièces,pieces,1,,,0,,0,1,2,181
+cottes,,,,,,0,1,0,1,1,224943
+coupes,coupes,contenant,1,,,0,,0,1,2,2
+coupons,,,,,,0,1,0,1,3,224943
+courbes,,,,,,,,,1,1,224943
+couvertures,pièces,pieces,1,,,0,,0,1,15,181
+cruche,,,,,,,,,1,1,224943
+cruches,cruches,pieces,1,,,0,,0,1,2,2
+cubillons,,,,,,0,1,0,1,1,224943
+cuir,,,,,,,,,1,1,224943
+cuirs,pieces,pieces,1,,,0,,0,1,88,89
+de,en nombre,pieces,1,,,0,,0,1,4,5304
+de 11 pied,,,,,,,,,1,1,224943
+de 15 a 20 pieds,,,,,,,,,1,1,224943
+de 20 a 25 pieds,,,,,,,,,1,2,224943
+de 22 pieds,,,,,,,,,1,2,224943
+de 27 pieds,,,,,,,,,1,1,224943
+de 4 pieds,,,,,,,,,1,1,224943
+de 7 a 8 pied,,,,,,,,,1,1,224943
+de 8 a 9 pied,,,,,,,,,1,1,224943
+de 9 pied,,,,,,,,,1,1,224943
+de 9 pieds,,,,,,,,,1,1,224943
+de selle,en nombre,pieces,1,,,0,,0,1,1,5304
+de12 pieds,,,,,,,,,1,1,224943
+demi Cuirs,,,,,,,,,1,10,224943
+demi Planches,,,,,,,,,1,1,224943
+demi bouteilles,,,,,,,,,1,1,224943
+demi cuirs,,,,,,,,,1,1,224943
+demi pièces,,,,,,,,,1,1,224943
+demi planches,,,,,,,,,1,3,224943
+demie,,,,,,,,,1,4,224943
+demie bouteilles,,,,,,,,,1,2,224943
+demie pièces,demi pièces,pieces,.5,,,0,,0,1,2,2
+demies,,,,,,,,,1,3,224943
+demy,,,,,,,,,1,2,224943
+demy Cuirs,,,,,,,,,1,4,224943
+demy pieces,,,,,,,,,1,3,224943
+demy pieds,,,,,,,,,1,1,224943
+demy planches  Barils,,,,,,,,,1,1,224943
+demycs,demi-pièces,pieces,.5,,,0,,0,1,2,2
+devants,,,,,,0,1,0,1,1,224943
+differ ents longueurs,,,,,,,,,1,2,224943
+differentes grandeur,,,,,,,,,1,1,224943
+differentes longueur,,,,,,,,,1,2,224943
+differentes longueurs,,,,,,,,,1,1,224943
+differents gradeurs,,,,,,,,,1,1,224943
+differents grandeur,,,,,,,,,1,1,224943
+differents grandeurs,,,,,,,,,1,2,224943
+differents longueurs,,,,,,,,,1,1,224943
+dimension grands,,,,,,,,,1,1,224943
+dimension moyens,,,,,,,,,1,1,224943
+dimension petits,,,,,,,,,1,1,224943
+divers,,,,,,,,,1,1,224943
+diverses,,,,,,,,,1,12,224943
+diverses grandeurs,,,,,,,,,1,2,224943
+double,,,,,,,,,1,1,224943
+doublures,doublures,pieces,1,,,0,,0,1,1,1
+douelles,douelles,cm,90,Wikipedia,,0,,0,1,358,358
+douelless,,,,,,,,,1,2,224943
+dourgs,,,,,,0,1,0,1,1,224943
+douz,,,,,,,,,1,20,224943
+douzaine,,,,,,,,,1,7,224943
+douzaines,douzaines,pieces,12,,,0,,0,1,1829,1829
+douzaines de fiole,,,,,,,,,1,1,224943
+douzaines de paires,douzaines de paires,pieces,24,,,0,,0,1,8,8
+douzaines de pots,,,,,,,,,1,1,224943
+douëlles,,,,,,,,,1,1,224943
+duttes,,,,,,0,1,0,1,1,224943
+en Bouteille,,,,,,,,,1,2,224943
+en Centaine,,,,,,,,,1,1,224943
+en argent,,,,,,,,,1,1,224943
+en feuilles,en feuilles,pieces,1,,,0,,0,1,1,1
+en milliers,,,,,,,,,1,2,224943
+en nombre,en nombre,pieces,1,,,0,,0,1,5290,5304
+en valeur,,,,,,,,,1,39,224943
+entier,,,,,,,,,1,1,224943
+epinettes,,,,,,0,1,0,1,1,224943
+estimer,,,,,,,,,1,1,224943
+estimé,,,,,,,,,1,5,224943
+estimée,,,,,,,,,1,2,224943
+estimées,,,,,,,,,1,1,224943
+esturgeons,pièces,pieces,1,,,0,,0,1,2,181
+facon,,,,,,,,,1,1,224943
+facs,,,,,,,,,1,1,224943
+fais,,,,,,,,,1,2,224943
+faix,,,,,,0,,1,1,19,224943
+fanons,fanons,pieces,1,,,0,,0,1,6,6
+faqunir,,,,,,,,,1,1,224943
+fartraux,,,,,,0,1,0,1,1,224943
+fers,,,,,,,,,1,1,224943
+feuilles,feuilles,pieces,1,,,0,,0,1,65,65
+feuilles doubles,,,,,,,,,1,1,224943
+feuilles simples,,,,,,,,,1,1,224943
+feuillettes,feuillettes,kg,134.11,p161 doursther,,0,,0,1,7,7
+fiole,,,,,,,,,1,1,224943
+fiolles,,,,,,,,,1,3,224943
+fiottes,,,,,,0,1,0,1,3,224943
+flacon,,,,,,,,,1,3,224943
+flacons,flacons,contenant,1,,,0,,0,1,25,25
+fleau,,,,,,,,,1,1,224943
+fleuilles,,,,,,,,,1,1,224943
+fluttes,,,,,,0,1,0,1,2,224943
+fournitures,,,,,,0,1,0,1,3,224943
+fours,,,,,,0,1,0,1,3,224943
+frequier,,,,,,,,,1,1,224943
+frequiers,,,,,,,,,1,2,224943
+frequies,,,,,,,,,1,1,224943
+frequin,,,,,,,,,1,1,224943
+frequins,,,,,,0,1,0,1,13,224943
+frequiur,,,,,,,,,1,1,224943
+fréquiers,,,,,,,,,1,1,224943
+fréquins,,,,,,,,,1,1,224943
+funnes,,,,,,0,1,0,1,1,224943
+fusils,fusils,pieces,1,,,0,,0,1,12,12
+futaille,,,,,,,,,1,1,224943
+futailles,futailles,contenant,1,,,0,,0,1,20,20
+futs,,,,,,,,,1,1,224943
+garnitures,pièces,pieces,1,,,0,,0,1,1,181
+gets,,,,,,,,,1,2,224943
+gonnes,,,,,,0,1,0,1,5,224943
+grande,,,,,,,,,1,1,224943
+grander,,,,,,,,,1,1,224943
+grandes,,,,,,,,,1,9,224943
+grandeurs,,,,,,,,,1,1,224943
+grandeurs diverses,,,,,,,,,1,1,224943
+grands,grands,pieces,1,,,0,,0,1,4,4
+grands pièces,,,,,,,,,1,1,224943
+groffe,,,,,,,,,1,1,224943
+grose,,,,,,,,,1,1,224943
+groses,,,,,,,,,1,15,224943
+groses pieces,,,,,,,,,1,1,224943
+grosse,,,,,,,,,1,12,224943
+grosses,grosses,pieces,144,"p175 doursther, 12 douzaines",,0,,0,1,224,224
+grosseur,,,,,,,,,1,2,224943
+grossés,,,,,,,,,1,1,224943
+grots,,,,,,0,1,0,1,1,224943
+guindeau,,,,,,,,,1,1,224943
+génisses,pièces,pieces,1,,,0,,0,1,7,181
+halles,,,,,,,,,1,1,224943
+hambourg,,,,,,,,,1,1,224943
+hambourges,,,,,,,,,1,1,224943
+hambourgs,,,,,,0,1,0,1,4,224943
+horloges,,,,,,,,,1,1,224943
+huitièmes,,,,,,0,1,0,1,1,224943
+huitres,huitres,pieces,1,,,0,,0,1,1,1
+hume,,,,,,,,,1,1,224943
+inerastée,,,,,,0,1,0,1,1,224943
+jattes,,,,,,,,,1,1,224943
+jets,,,,,,,,,1,3,224943
+jeux,,,,,,0,1,0,1,1,224943
+juments,pièces,pieces,1,,,0,,0,1,10,181
+justes,,,,,,,,,1,2,224943
+jutes,,,,,,,,,1,3,224943
+juttes,,,,,,,,,1,3,224943
+laes,,,,,,,,,1,1,224943
+lames d'épées,,,,,,,,,1,1,224943
+lase,,,,,,,,,1,1,224943
+last,last,kg,2028,"Witthöft 1993, Ulrich",,1,,0,1,11,11
+lats,,,,,,0,1,0,1,3,224943
+leths,leths de cendre,litres,2638.2,"dictionnaire du commerce p600 : un leth pour 12 barils, puis p549 -> prendre tonnes de berlin ? ",,0,,0,1,22,22
+lets,,,,,,,,,1,1,224943
+lez,,,,,,,,,1,1,224943
+li,,,,,,,,,1,1,224943
+livre,,,,,,,,,1,2,224943
+livres,livres de paris,kg,.48949999,Wikipedia: poids du marc,,0,,0,1,59302,59302
+livres 10 onces,livres 10 onces,kg,.48949999,,,0,,0,1,3,4
+livres 14 onces,livres 10 onces,kg,.48949999,,,0,,0,1,1,4
+livres 2 onces,livres 14 onces,kg,.48949999,,,0,,0,1,1,1
+livres 3 onces,livres 2 onces,kg,.48949999,,,0,,0,1,1,1
+livres 6 onces,livres 6 onces,kg,.48949999,,,0,,0,1,4,5
+livres 9 onces,livres 6 onces,kg,.48949999,,,0,,0,1,1,5
+livres de bateau,livres de bateau,kg,150,"Witthöft 1993, Ulrich",,1,,0,0,0,0
+livres de hambourg,livres de hambourg,kg,.48453999,"Witthöft 1993, Ulrich",,1,,0,0,0,0
+livres de marbré,livres de marbré,kg,.48949999,,,0,,0,1,1,1
+livres de noir,livres de noir,kg,.48949999,,,0,,0,1,1,1
+livres evalué,,,,,,,,,1,1,224943
+livres ou pieces,,,,,,,,,1,1,224943
+livrets,,,,,,0,1,0,1,1,224943
+lmiliers,,,,,,,,,1,1,224943
+lpiè,,,,,,,,,1,1,224943
+lui,,,,,,,,,1,1,224943
+madirers,,,,,,,,,1,1,224943
+madriers,madriers,pieces,1,pièces ??,,0,,0,1,32,32
+madures,,,,,,0,1,0,1,1,224943
+mailles,mailles,kg,.076485001,quart de l'once,,0,,0,1,1,1
+main,,,,,,,,,1,1,224943
+malles,malles,contenant,1,,,0,,0,1,2,2
+mandel,,,,,,0,1,0,1,3,224943
+mane,,,,,,,,,1,1,224943
+mannes,mannes,contenant,1,http://books.google.fr/books?id=9HM7AQAAIAAJ&pg=PA56&lpg=PA56&dq=mannes+de+charbon&source=bl&ots=WmK7GL1a82&sig=iO8oAqn4W-S8Bhi-28ohNUZPaP8&hl=fr&sa=X&ei=ULG2U76SNaz20gWTpoCYCQ&ved=0CFIQ6AEwCQ#v=onepage&q=mannes%20de%20charbon&f=false,,0,,0,1,9,9
+marcs,marcs,kg,.24474999,Wikipedia: poids du marc,,0,,0,1,219,219
+marcs 6 onces,marcs 6 onces,kg,.24474999,,,0,,0,1,1,1
+maroquins,peaux,pieces,1,,,0,,0,1,14,219
+martes,,,,,,0,1,0,1,4,224943
+mases,,,,,,,,,1,1,224943
+masses,,,,,,0,1,0,1,8,224943
+matreaux,,,,,,,,,1,1,224943
+mats,mats,pieces,1,,,0,,0,1,4,4
+mesures,mesures,litres,14.63,doursther p279,,0,,0,1,9,9
+meules,,,,,,,,,1,1,224943
+migères,,,,,,0,1,0,1,3,224943
+mil,,,,,,,,,1,2,224943
+miliers,,,,,,,,,1,12,224943
+millerolles,,,,,,0,,1,1,267,224943
+millier,,,,,,,,,1,10,224943
+milliers,milliers,pieces,1000,,,0,,0,1,346,346
+milliers au grand compte,,,,,,,,,1,26,224943
+mines,mines,litres,76.171997,Wikipedia,,0,,0,1,1,1
+minots,minots,litres,38.085999,Wikipedia,,0,,0,1,3,3
+mli,,,,,,,,,1,2,224943
+mogesne,,,,,,,,,1,1,224943
+mollus,,,,,,0,1,0,1,24,224943
+monades,,,,,,0,1,0,1,1,224943
+monds,monds,kg,1250,p298 doursther,,0,,0,1,37,37
+mont,,,,,,,,,1,1,224943
+monts,,,,,,,,,1,1,224943
+morcEaux,,,,,,,,,1,1,224943
+morceaux,morceaux,pieces,1,,,0,,0,1,8,8
+mottes,,,,,,0,1,0,1,2,224943
+moutons,pièces,pieces,1,,,0,,0,1,5,181
+movres,,,,,,0,1,0,1,1,224943
+moyenes,,,,,,,,,1,1,224943
+moyenne,,,,,,,,,1,1,224943
+moyenne pièces,,,,,,,,,1,1,224943
+moyennes,,,,,,,,,1,2,224943
+muid,,,,,,,,,1,3,224943
+muids,,,,,,0,,1,1,1309,224943
+muids de genièvre,muids de paris,kg,268.22,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter),,0,,0,1,1,2
+muids ordinaires,muids de paris,kg,268.22,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter),,0,,0,1,1,2
+mullets,pièces,pieces,1,,,0,,0,1,5,181
+mur,,,,,,,,,1,1,224943
+napes,,,,,,,,,1,2,224943
+nombre,,,,,,,,,1,1826,224943
+nombres,,,,,,,,,1,13,224943
+oedinaire,,,,,,,,,1,1,224943
+onces,onces,kg,.030594001,1/16 de la livre,,0,,0,1,50,50
+ordinaire,,,,,,,,,1,1,224943
+ordinaires,ordinaires,pieces,1,,,0,,0,1,12,12
+ordinnaires,,,,,,,,,1,1,224943
+oxhoft,oxhoft,kg,223.158,"Witthöft 1993, explication 1 oxhoft=223.158 litres",,1,,0,0,0,0
+pains,pains,pieces,1,,,0,,0,1,16,16
+paire,,,,,,,,,1,15,224943
+paires,paires,pieces,2,,,0,,0,1,345,345
+palles,,,,,,,,,1,1,224943
+palme,,,,,,,,,1,2,224943
+palmes,,,,,,,,,1,2,224943
+panicons,,,,,,,,,1,1,224943
+panier,,,,,,,,,1,3,224943
+panier de pistolets,,,,,,,,,1,1,224943
+paniers,paniers pour poissons,contenant,1,,,0,,0,1,95,95
+pannier,,,,,,,,,1,1,224943
+panniers,,,,,,,,,1,3,224943
+paque,,,,,,,,,1,2,224943
+paquet,,,,,,,,,1,6,224943
+paquets,paquets,contenant,1,,,0,,0,1,97,97
+paquets estimés,,,,,,,,,1,1,224943
+paqué,,,,,,,,,1,1,224943
+pasqus,,,,,,0,1,0,1,1,224943
+patz,,,,,,0,1,0,1,1,224943
+paumes,,,,,,,,,1,3,224943
+peaux,peaux,pieces,1,,,0,,0,1,205,219
+pendules,,,,,,,,,1,3,224943
+pendules de 8 livres,,,,,,,,,1,1,224943
+pendulle,,,,,,,,,1,1,224943
+perches,,,,,,,,,1,1,224943
+petit baril,,,,,,,,,1,1,224943
+petite,,,,,,,,,1,3,224943
+petite caisse,,,,,,,,,1,1,224943
+petite pièces,,,,,,,,,1,1,224943
+petites,,,,,,,,,1,9,224943
+petites barils,,,,,,,,,1,1,224943
+petits,petits,pieces,1,,,0,,0,1,8,8
+petits barils,,,,,,,,,1,2,224943
+pezam,,,,,,,,,1,1,224943
+piece,,,,,,,,,1,25,224943
+pieces,,,,,,,,,1,498,224943
+pied,,,,,,,,,1,4,224943
+pieds,pieds de roi,cm,32.484001,p426 doursther,,0,,0,1,87,87
+pieds cubes,pieds cubes,litres,34.277,Wikipedia,,0,,0,1,4,4
+pierres,pierres,pieces,1,,,0,,0,1,4,4
+pinte,,,,,,,,,1,2,224943
+pintes,,,,,,0,,1,1,140,224943
+pipes,,,,,,0,,1,1,55,224943
+pipet,,,,,,,,,1,1,224943
+pipettes,pipettes,contenant,1,,,0,,0,1,1,1
+piè,,,,,,,,,1,2,224943
+pièce,,,,,,,,,1,22,224943
+pièce de 30 pieds,,,,,,,,,1,1,224943
+pièces,,,,,,0,,1,1,3228,224943
+pièces de 15 aunes,,,,,,,,,1,1,224943
+piècs,,,,,,,,,1,1,224943
+piéce,,,,,,,,,1,3,224943
+piéces,,,,,,,,,1,61,224943
+plamches,,,,,,,,,1,1,224943
+planches,planches,pieces,1,,,0,,0,1,29,29
+plaques,,,,,,,,,1,2,224943
+plumes,,,,,,,,,1,1,224943
+poché,,,,,,,,,1,1,224943
+poids,,,,,,,,,1,3,224943
+poignées,poignées,contenant,1,,,0,,0,1,9,9
+poinEau,,,,,,,,,1,1,224943
+poincon,,,,,,,,,1,1,224943
+poinçon,,,,,,,,,1,8,224943
+poinçons,,,,,,0,,1,1,170,224943
+pommes,,,,,,,,,1,1,224943
+porcelets,pièces,pieces,1,,,0,,0,1,7,181
+porqs,pièces,pieces,1,,,0,,0,1,6,181
+pot,,,,,,,,,1,1,224943
+potiches,,,,,,,,,1,2,224943
+pots,,,,,,0,,1,1,255,224943
+poulains,pièces,pieces,1,,,0,,0,1,16,181
+pouteries,,,,,,,,,1,1,224943
+poutre,,,,,,,,,1,1,224943
+poutres,,,,,,,,,1,1,224943
+q livre,,,,,,,,,1,3,224943
+quars de Barils,,,,,,,,,1,1,224943
+quart,,,,,,,,,1,5,224943
+quarteaux,,,,,,,,,1,2,224943
+quartiers,,,,,,0,,1,1,3,224943
+quarts,quarts de livres,kg,.125,,,0,,0,1,56,56
+queues,,,,,,0,,1,1,4,224943
+quiconir,,,,,,,,,1,1,224943
+quintaux,,,,,,,,,1,4,224943
+quints,,,,,,,,,1,7,224943
+rame,,,,,,,,,1,15,224943
+rame ou aunes,,,,,,,,,1,1,224943
+rames,rames,pieces,500,Doursther : mesure pour le papier. Entre 360 et 500 feuilles,,0,,0,1,339,339
+razières,,,,,,0,,1,1,21,224943
+robes,,,,,,0,1,0,1,3,224943
+rouleaux,,,,,,0,,1,1,8,224943
+sabres,sabres,pieces,1,,,0,,0,1,6,6
+sacs,,,,,,0,,1,1,70,224943
+sannées,,,,,,,,,1,1,224943
+saumon,,,,,,,,,1,2,224943
+saumons,pièces,pieces,1,,,0,,0,1,8,181
+sennes,sennes,pieces,1,,,0,,0,1,2,2
+septier,,,,,,,,,1,5,224943
+septiers,,,,,,0,,1,1,34,224943
+serges,,,,,,0,1,0,1,1,224943
+sergiers,,,,,,0,1,0,1,1,224943
+setiers,,,,,,,,,1,7,224943
+settier,,,,,,,,,1,1,224943
+simple,,,,,,,,,1,1,224943
+sixains,,,,,,0,1,0,1,2,224943
+sixieme de baril,,,,,,,,,1,1,224943
+sizaines,,,,,,0,1,0,1,1,224943
+sommes,,,,,,,,,1,4,224943
+sommiers,,,,,,0,1,0,1,7,224943
+sommée,,,,,,,,,1,1,224943
+sommées,,,,,,0,1,0,1,8,224943
+stoc,,,,,,,,,1,1,224943
+tables,,,,,,,,,1,2,224943
+taille petit,,,,,,,,,1,1,224943
+tapis,pièces,pieces,1,,,0,,0,1,4,181
+taureaux,pièces,pieces,1,,,0,,0,1,2,181
+tentures,,,,,,0,1,0,1,1,224943
+thonneaux,,,,,,,,,1,13,224943
+thuilles,,,,,,,,,1,1,224943
+tierce,tierce,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,1,,0,0,0,0
+tiercon,,,,,,,,,1,4,224943
+tiercons,,,,,,,,,1,11,224943
+tiers,,,,,,0,1,0,1,1,224943
+tierçon,,,,,,,,,1,12,224943
+tierçons,,,,,,0,,1,1,88,224943
+timbres,timbres de 40 peaux,pieces,40,http://books.google.fr/books?id=nuY_AAAAcAAJ&pg=PA733&lpg=PA733&dq=peaux+d'hermine+timbre&source=bl&ots=MErsCSDehB&sig=FF2NCCXeSO90f1TcYozlqI33Y_I&hl=fr&sa=X&ei=Qau2U_SkL4Pt0gWo9YHIAQ&ved=0CCsQ6AEwAw#v=onepage&q=peaux%20d'hermine%20timbre&f=fal,,0,,0,1,10,10
+tinéa,,,,,,,,,1,1,224943
+toises,toises,cm,194.89999,Wikipedia,,0,,0,1,7,7
+tomes,,,,,,,,,1,2,224943
+tommes,,,,,,,,,1,1,224943
+tonaux,,,,,,,,,1,6,224943
+tonnaux,,,,,,,,,1,1,224943
+tonne,,,,,,,,,1,4,224943
+tonneau,,,,,,,,,1,1,224943
+tonneaux,,,,,,0,,1,1,921,224943
+tonnes,,,,,,0,,1,1,62,224943
+traque,,,,,,,,,1,9,224943
+traquer,,,,,,,,,1,1,224943
+traques,traques,pieces,3,Dictionnaire de la marine françois (books.google.fr),,0,,0,1,41,41
+treittes,,,,,,0,1,0,1,1,224943
+têtes,pièces,pieces,1,,,0,,0,1,1,181
+vaches,pièces,pieces,1,,,0,,0,1,22,181
+valeur,,,,,,,,,1,410,224943
+valeurs,,,,,,,,,1,23,224943
+vals,,,,,,0,1,0,1,1,224943
+veaux,pièces,pieces,1,,,0,,0,1,8,181
+velles,,,,,,,,,1,1,224943
+veltes,veltes,kg,7.4299998,Dourshter : mesure de Paris,,0,,0,1,170,170
+veltres,,,,,,,,,1,1,224943
+verges,verges,kg,7.4299998,p581 : <=> veltes,,0,,0,1,17,17
+vie?,,,,,,,,,1,1,224943
+vieux?,,,,,,,,,1,1,224943
+violons,violons,pieces,1,,,0,,0,1,3,3
+vogues,,,,,,,,,1,1,224943
+voiture,,,,,,,,,1,1,224943
+voitures,,,,,,0,1,0,1,18,224943
+vollilles,vollilles,pieces,1,loïc charles,,0,,0,1,1,1
+wagons,,,,,,0,,1,1,8,224943
+yunes,imi de berne,litres,3.503,p597 doursther -> voir Imi p186,,0,,0,1,1,1
+à répétition,pieces,pieces,1,,,0,,0,1,1,89
