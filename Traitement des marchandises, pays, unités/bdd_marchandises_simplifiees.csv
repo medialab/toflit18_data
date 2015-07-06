@@ -12,7 +12,7 @@ acier,acier,1,797,797
 acier ; brun,acier ; brun,1,1,1
 acier ; en barre,acier ; en barre,1,3,3
 acon démonté,acon démonté,1,8,8
-acoru,acorus,1,4,4
+acorus,acorus,1,4,4
 acuirson,acuirson,1,1,1
 affût de canon,affût de canon,1,4,4
 affût de fusil,affût de fusil,1,1,1
@@ -23,9 +23,6 @@ agneau,agneau,1,51,51
 agneline et crottelin,laine,1,1,684
 agoutal,agoutal,1,1,1
 agoutal ; de bois,agoutal ; de bois,1,2,2
-agrè,,1,2,31324
-agrè ; de navire,,1,6,31324
-agrè ; de navire ; en voile,,1,1,31324
 agrès,agrès,0,0,0
 agrès ; de navire,agrès ; de navire,0,0,0
 agrès ; de navire ; en voile,agrès ; de navire ; en voile,0,0,0
@@ -54,7 +51,7 @@ aiguille ; à tabac,aiguille ; à tabac,1,1,1
 aiguille ; à toile,aiguille ; à toile,1,1,1
 aiguille ; à voile,aiguille ; à voile,1,13,13
 aiguille à boite,eguille a boite,1,3,3
-aiguille épar de sapin,aiguille epars de sapin,1,1,1
+aiguille épars de sapin,aiguille epars de sapin,1,1,1
 ail,ail,1,118,118
 ail blanc à casser,ail blanc à casser,1,1,1
 aile de fleau,aile de fleau,1,1,1
@@ -63,7 +60,7 @@ ain à pêcher,ain à pêcher,1,15,15
 airain,airain,1,8,8
 airain ; en batterie,airain ; en batterie,0,0,0
 airain ; en batterie,,1,2,31324
-ajami,ajami,1,65,95
+ajami,ajamis,1,65,95
 ajustement,ajustement,1,34,34
 ajustement ; de femme,ajustement ; de femme,1,2,2
 akia,akia,1,1,1
@@ -78,8 +75,7 @@ albâtre et marbre ouvré,ouvrage ; de marbre et albâtre,0,0,0
 albâtre et marbre ouvré,,1,29,31324
 alcanum duplicatum,alcanum duplicatum,1,1,1
 alegia,alegia,1,1,1
-alenne,alenne,1,1,1
-aliban,alibanies,1,24,24
+alibanies,alibanies,1,24,24
 alkerme,alkerme,1,1,1
 alleaux,alleaux,1,1,1
 allumette,allumette,1,34,34
@@ -98,13 +94,12 @@ almanac enjolivé,almanach,1,1,2
 alocir,alocir,1,1,1
 aloiset,aloiset,1,1,1
 alose,alose,0,0,0
-alose dite elft,alose dite elft,1,1,1
+alose dite elft,alose,1,1,1
 alose fumée,alose fumée,1,1,1
-aloses,,1,1,31324
 alouette,alouette,1,2,2
 aloès,drogue ; médicinale ; aloès,1,95,100
 aloès ; commun,aloès ; commun,0,0,0
-aloès cabalin,aloès cabalin,1,2,2
+aloès ; cabalin,aloès cabalin,1,2,2
 aloès ; commun,,1,1,31324
 alpargate,alpargate,1,7,7
 alpiste,alpiste,1,9,9
@@ -169,7 +164,7 @@ andes,andes,1,1,1
 andolium ou crockvisch,andolium ou crockvisch,1,2,2
 andouille,andouille,1,18,18
 andouillette,andouillette,1,1,1
-ane et anesse,ane et anesse,1,1,1
+âne et ânesse,âne et ânesse,1,1,1
 anguille,anguille,1,20,20
 anguille ; salée,anguille ; salée,1,3,3
 angélique,angélique,1,18,18
@@ -1851,7 +1846,6 @@ buste ; de marbre,buste ; de marbre,1,3,3
 buvie,buvie,1,1,1
 bâche,bâche,1,1,1
 bâtiment de mer,bâtiment de mer,1,18,18
-bâtiment de mer et agrè,,1,10,31324
 bâtiment de mer et agrès,bâtiment de mer et agrès,0,0,0
 bâtiment de mer et apparau,bâtiment de mer et apparau,0,0,0
 bâtiment de mer et apparaux,,1,38,31324
@@ -5155,7 +5149,6 @@ email ; brut,émail,0,0,0
 email ; brut,,1,2,31324
 embarcation ; avec agrès,embarcation ; avec agrès,0,0,0
 embarcation et autre objet de marine,embarcation et autre objet de marine,1,44,44
-embarcation ; avec agrè,,1,28,31324
 emery,emery,1,1,20
 empeigne,empeigne,1,6,6
 empeigne ; brodée pour soulier,empeigne ; brodée pour soulier,1,1,1
@@ -16425,3 +16418,25 @@ zédoaria,zédoaria,1,12,12
 œuf ; de poule,œuf ; de poule,1,1,1
 œuf et volaille,œuf et volaille,1,19,19
 œuillard ; de Brie,œuillard ; de Brie,1,1,1
+aiglefin,aiglefin,,,
+aurcsats,aurcsats,,,
+airain ; non ouvré,airain,,,
+alesne,alesne,,,
+allumette opérée et souffrée,allumette opérée et souffrée,,,
+"alquifoux, mine de plomb ou graphite","alquifoux, mine de plomb ou graphite",,,
+agaric amadouvier,,,,
+"agaric amadouvier, brut et préparé",,,,
+"agaric amadouvier, brut et préparé",,,,
+amadou et agaric amadouvier,,,,
+amande ; diverses,,,,
+"succin, ambre jaune",,,,
+anabas,,,,
+ancre ; de Chaudon,,,,
+ancre ; de fer ; de Chaudon,,,,
+anille,,,,
+arbre et arbrisseau,,,,
+arbre et arbruste,,,,
+arbre et arbruste ; divers,,,,
+arcanum ; duplicatum,,,,
+arbre et arbrisseau ; à fruit,,,,
+arbre et arbrisseau; sauvage,,,,
