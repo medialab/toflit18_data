@@ -627,8 +627,8 @@ Armes de mains,arme ; de main,0,0,0
 Armes ; diverses,arme ; diverse,1,2,100
 Armes diverses,arme ; diverse,1,98,100
 Piques (arme),arme ; pique,0,0,0
-///Objets manufacturés///Articles réunis,objet manufacturé ; article réuni,1,21,30
-1///Matières première///Articles réunis,matière première ; article réuni,1,9,30
+///Objets manufacturés///Articles réunis,objet manufacturé ; article ; réuni,1,21,30
+1///Matières première///Articles réunis,matière première ; article ; réuni,1,9,30
 Armes diverses et munitions de guerre,arme et munition ; diverse,1,9,9
 armes non reprises,arme non reprise,0,0,0
 armes remontrances,arme remontrance,0,0,0
@@ -675,11 +675,11 @@ Artichaux secs,artichaut ; sec,1,1,2
 ///Industrie Générale///Articles d'industrie réunis,article ; d'industrie ; réuni,1,21,56
 ///Industrie générale///Articles d'industrie réunis,article ; d'industrie ; réuni,1,35,56
 Divers articles,article ; divers,1,1,1
-2///Matières première///Articles réunis,article ; réuni,1,19,2747
-2///Matières premières///Articles réunis,article ; réuni,1,75,2747
-2///Suite des matières premières///Articles réunis,article ; réuni,1,1,2747
-3///Subsistances///Articles réunis,article ; réuni,1,1,2747
-Articles d'industrie réunis,article ; réuni,1,240,2747
+2///Matières première///Articles réunis,matière première ; article ; réuni,1,19,2747
+2///Matières premières///Articles réunis,matière première ; article ; réuni,1,75,2747
+2///Suite des matières premières///Articles réunis,matière première ; article ; réuni,1,1,2747
+3///Subsistances///Articles réunis,subsistance ; article ; réuni,1,1,2747
+Articles d'industrie réunis,article ; d'industrie ; réuni,1,240,2747
 Articles différents,article ; réuni,0,0,0
 Articles réunies,article ; réuni,1,25,2747
 Articles réunis,article ; réuni,1,2385,2747
@@ -689,13 +689,13 @@ Articles réunis et tissus étrangers réexportés,article ; réuni ; de tissu �
 Articles réunis d'une valeur moindre de 2 000 francs chacun,article ; réuni ; de valeur inférieur à 2000 francs chacun,1,10,10
 Artiffice,artifice,1,1,4
 Artifice,artifice,1,2,4
-artifice fusées etc,artifice,0,0,0
+artifice fusées etc,artifice ; fusée,0,0,0
 Artillerie,artillerie,0,0,0
 Artilleries,artillerie,1,6,7
-Artillerie de cuivre,artillerie ; de uivre,0,0,0
+Artillerie de cuivre,artillerie ; de cuivre,0,0,0
 Artillerie ; en boulets,artillerie ; en boulet,1,1,1
 "Artillerie en canons, bombes","artillerie ; en canon, bombe",1,3,3
-Artillerie ; en bombes et boulets,"artillerie ; en canon, boulet",1,1,1
+Artillerie ; en bombes et boulets,"artillerie ; en bombe, boulet",1,1,1
 Asperges,asperge,1,9,9
 asperges et scorsionnaires,asperge et scorsionnaire,0,0,0
 Asphallum,asphalte,1,1,11
@@ -732,16 +732,16 @@ Attelles de colier,attelle ; de collier,1,1,9
 Attelles de coliera,attelle ; de collier,1,1,9
 Attelles de coliers,attelle ; de collier,1,2,9
 Attelles de collier,attelle ; de collier,1,1,9
-Attelles ; de coliers,attelle ; de cuivre,1,5,5
+Attelles ; de coliers,attelle ; de collier,1,5,5
 Auges,auge,1,1,2
 Auges ?,auge,0,0,0
 Auges ; de carreaux,auge ; de carreau,1,1,1
 Aussières,aussière,0,0,0
 aux à fauxhes,aux à fauxhes,1,1,1
-Avelanèdes,avelanèdes,1,40,50
-Avellanèdes,avelanèdes,1,4,50
-Avélanèdes,avelanèdes,1,6,50
-Avelines,avelines,1,5,5
+Avelanèdes,avelanède,1,40,50
+Avellanèdes,avelanède,1,4,50
+Avélanèdes,avelanède,1,6,50
+Avelines,aveline,1,5,5
 Aviron,aviron,1,28,290
 Avirond,aviron,1,1,290
 Avirons,aviron,1,255,290
@@ -808,23 +808,23 @@ Pefotas,baffetas,1,1,44
 bafetar,baffetas,1,1,44
 baffetas,baffetas,1,2,44
 Baffetas blanc,baffetas ; blanc,1,1,2
-Taffetas blanc,baffetas ; blanc,1,1,2
+Taffetas blanc,taffetas ; blanc,1,1,2
 Bafetas bleu,baffetas ; bleu,1,3,11
 Baffetas Bleu,baffetas ; bleu,1,1,11
 Baffetas bleu,baffetas ; bleu,1,2,11
-Taffetars bleu,baffetas ; bleu,1,1,11
-Taffetas Bleu,baffetas ; bleu,1,1,11
-Taffetas bleu,baffetas ; bleu,1,1,11
+Taffetars bleu,taffetas ; bleu,1,1,11
+Taffetas Bleu,taffetas ; bleu,1,1,11
+Taffetas bleu,taffetas ; bleu,1,1,11
 bafetas Bleu,baffetas ; bleu,1,1,11
 baffetas Bleu,baffetas ; bleu,1,1,11
 Bagage,bagage,0,0,0
 Bagues,bague,1,3,4
-Bagues/Anneaux,bague,0,0,0
+Bagues/Anneaux,"bague, anneau",0,0,0
 Bagues ; à pierres ; fausses,bague ; à pierre ; fausse,1,1,1
 Bagues ; d'or,bague ; d'or,1,1,1
 Bagues ; de cuivre,bague ; de cuivre,1,1,1
 Bagues ; de leton,bague ; de laiton,1,1,2
-Bagues/Anneaux en laiton,bague ; de laiton,0,0,0
+Bagues/Anneaux en laiton,"bague, anneau ; de laiton",0,0,0
 Bagues ; de verre,bague ; de verre,1,1,1
 Baguettes ; à chandelle,baguette ; à chandelle,1,1,1
 Baguettes ; de bois,baguette ; de bois,1,1,1
@@ -844,7 +844,7 @@ baies ; de buis,baie ; de buis,1,1,1
 Baie de foye,baie ; de foye,1,1,1
 Baie de genièvre,baie ; de genièvre,0,0,0
 Baies de genièvre,baie ; de genièvre,0,0,0
-Bas de foye,baies ; de foye,1,1,1
+Bas de foye,baie ; de foye,1,1,1
 Baignes,baigne,1,3,5
 Baigues,baigne,1,2,5
 Beignoire,baignoire,1,1,1
@@ -860,16 +860,16 @@ Bajutapaux,bajutapeau,1,2,65
 Bajutapeau,bajutapeau,1,28,65
 Bajutapeaux,bajutapeau,1,24,65
 bajutapau,bajutapeau,1,1,65
-cajutapau,bajutapeaux,1,1,1
+cajutapau,bajutapeau,1,1,1
 Balais,balai,1,74,147
-Balais : de Iongs,balai,1,2,147
-Balais : de plume,balai,1,2,147
-Balais ; de paille de ris,balai,1,2,147
-Balais ; de palmes,balai,1,44,147
-Balais de poil,balai,1,1,147
-Balais divers,balai,1,20,147
-Ballais de brandes,balai,1,1,147
-balais ou ramons,balai,0,0,0
+Balais : de Iongs,balai ; de long,1,2,147
+Balais : de plume,balai ; de plume,1,2,147
+Balais ; de paille de ris,balai ; de paille de riz,1,2,147
+Balais ; de palmes,balai ; de palme,1,44,147
+Balais de poil,balai ; de poil,1,1,147
+Balais divers,balai ; divers,1,20,147
+Ballais de brandes,balai ; en brandes,1,1,147
+balais ou ramons,balai ou ramon,0,0,0
 Balais ; coupée,balai ; coupée,1,3,3
 Balai ; de bois,balai ; de bois,1,1,37
 Balais ; de bois,balai ; de bois,1,31,37
@@ -891,13 +891,13 @@ Balais ; de jonc,balai ; de jonc,1,1,16
 Balais ; de jonga,balai ; de jonc,1,2,16
 Balais ; de jongs,balai ; de jonc,1,12,16
 Balai ; de jongs,balai ; de jong,1,2,7
-Balais ; de palme,balai ; de jong,1,1,7
+Balais ; de palme,balai ; de palme,1,1,7
 Balais de Jong,balai ; de jong,1,1,7
 Balais de Jong s,balai ; de jong,1,1,7
 Balais; de jongs,balai ; de jong,1,1,7
 Blois de Jong,balai ; de jong,1,1,7
 Balais ; de laine ; à laver les planchéts,balai ; de laine ; à laver les planchers,1,1,1
-Balais de paille de ris,balai ; de paille de riz,1,2,2
+Balais de paille de ris,balai ; de paille de riz,1,2,2
 Balai ; de palmes,balai ; de palme,1,5,31
 Balais de Palmes,balai ; de palme,1,1,31
 Balais de palme,balai ; de palme,1,13,31
@@ -942,7 +942,7 @@ Baleine Coupée,baleine ; coupée,1,13,323
 Baleine coupe,baleine ; coupée,1,2,323
 Baleine coupé,baleine ; coupée,1,3,323
 Baleine coupée,baleine ; coupée,1,52,323
-Baleine coupée et en fanon,baleine ; coupée,1,7,323
+Baleine coupée et en fanon,baleine ; coupée et en fanon,1,7,323
 Baleine coupées,baleine ; coupée,1,2,323
 Baleine; coupée,baleine ; coupée,1,8,323
 Baleine;coupé,baleine ; coupée,1,1,323
@@ -951,17 +951,17 @@ Baleines; coupées,baleine ; coupée,1,4,323
 Baleune coupée,baleine ; coupée,1,1,323
 Baléine ; coupée,baleine ; coupée,1,4,323
 baleine coupée,baleine ; coupée,1,2,323
-baleines non sciées,baleine ; coupée,0,0,0
-baleines sciées ou coupées,baleine ; coupée,0,0,0
+baleines non sciées,baleine ; coupée ; non sciée,0,0,0
+baleines sciées ou coupées,baleine ; coupée ; sciée,0,0,0
 Baleine ; coupée et en fanon,baleine ; coupée et en fanon,1,1,1
-Baleine : de Sardes,baleine ; de sarde,1,1,16
-Baleine ; de sarde,baleine ; de sarde,1,3,16
-Baleine ; de sardes,baleine ; de sarde,1,2,16
-Baleine ; en canon,baleine ; de sarde,1,5,16
-Baleine de Sarde,baleine ; de sarde,1,1,16
-Baleine; de Sardes,baleine ; de sarde,1,1,16
-Baleines; de sardes,baleine ; de sarde,1,2,16
-Baléine ; de sardes,baleine ; de sarde,1,1,16
+Baleine : de Sardes,baleine ; de sardes,1,1,16
+Baleine ; de sarde,baleine ; de sardes,1,3,16
+Baleine ; de sardes,baleine ; de sardes,1,2,16
+Baleine ; en canon,baleine ; de sardes,1,5,16
+Baleine de Sarde,baleine ; de sardes,1,1,16
+Baleine; de Sardes,baleine ; de sardes,1,1,16
+Baleines; de sardes,baleine ; de sardes,1,2,16
+Baléine ; de sardes,baleine ; de sardes,1,1,16
 BaLaine ; en fanon,baleine ; en fanon,1,1,164
 Balaine ; en fanon,baleine ; en fanon,1,4,164
 Baleine : en fanon,baleine ; en fanon,1,3,164
@@ -993,9 +993,9 @@ Balaustre,balustre,1,1,2
 Balaustres,balustre,1,1,2
 Balzannes tannées,balzanne tannée,1,1,1
 Bamboucs,bambou,1,1,1
-Banc ; a couper ; la paille,banc ; a couper ; la paille,1,1,1
+Banc ; a couper ; la paille,banc ; à couper ; la paille,1,1,1
 Bancs ; de sapin,banc ; de sapin,1,1,1
-Bandes de chapeau,bande de chapeau,0,0,0
+Bandes de chapeau,bande de châpeau,0,0,0
 Bandeaux,bandeau,1,2,2
 banderoles,banderole,0,0,0
 Bandoulières,bandoulière,0,0,0
@@ -1003,11 +1003,11 @@ Bannettes ; d'osier,bannette ; d'osier,1,1,1
 Bannettes de cuir,bannette ; de cuir,1,1,1
 Bannière ; de Damas,bannière ; de Damas,1,1,1
 Banquette,banquette,1,1,1
-Baques ; de verre,baque ; de verre,1,1,1
+Baques ; de verre,baquet ; de verre,1,1,1
 baquets,baquet,1,1,1
 Baquets de sapin,baquet de sapin,1,1,1
 Baracan,baracan,1,119,121
-Baracan / aune,baracan,0,0,0
+Baracan / aune,baracan ou aune,0,0,0
 baracan,baracan,0,0,0
 Baracan ; de laine,baracan ; de laine,1,1,1
 Barbaçons ; de grez,barbaçon ; de grès,1,3,3
@@ -1026,9 +1026,9 @@ Barbues ; de grez,barbue ; de grès,1,3,9
 Barbues ; de grès,barbue ; de grès,1,1,9
 barbues ; de gray,barbue ; de grès,1,2,9
 Barbuës ; de terre,barbue ; de terre,1,1,1
-Barbues et grèz,barbue et grès,1,1,1
+Barbues et grèz,barbue ; de grès,1,1,1
 Baressus,baressus,1,1,1
-Barileaux,baril,1,1,5
+Barileaux,barilleau,1,1,5
 Barils,baril,1,4,5
 Barils de chesne,baril ; de chêne,1,1,1
 Barils de Sapin,baril ; de sapin,1,1,1
@@ -1043,14 +1043,14 @@ Barils vides,baril ; vide,1,2,46
 Barils vindes,baril ; vide,1,1,46
 Barils vuide,baril ; vide,1,1,46
 Barils vuides,baril ; vide,1,14,46
-Barils vuides de sardines,baril ; vide,1,2,46
+Barils vuides de sardines,baril ; de sardine ; vide,1,2,46
 Barrils ; vuides,baril ; vide,1,1,46
 Baritaux,bariteau,1,1,6
 Bariteau,bariteau,1,5,6
-Bariteaux,bariteaux,1,1,1
+Bariteaux,bariteau,1,1,1
 Baromettre,baromètre,1,1,5
 Baromètre,baromètre,1,4,5
-Baromètres et lunettes,baromètres et lunette,1,1,1
+Baromètres et lunettes,baromètre et lunette,1,1,1
 Barques démontées,barque ; démontée,1,1,1
 barquettes,barquette,0,0,0
 barquettes et nacelles,barquette et nacelle,0,0,0
@@ -1177,7 +1177,7 @@ Bas de chamoir,bas ; de chamois,1,1,5
 Bas ; de coton,bas ; de coton,1,159,196
 Bas ; de cotton,bas ; de coton,1,14,196
 Bas; de coton,bas ; de coton,1,13,196
-Bonneterie ; de coton ; en bas,bas ; de coton,1,9,196
+Bonneterie ; de coton ; en bas,bonneterie ; bas ; de coton,1,9,196
 bas de cotton,bas ; de coton,0,0,0
 Bas ; de coton fil et soye,bas ; de coton ; fil et soie,1,1,1
 Bas ; de fil,bas ; de fil,1,161,241
@@ -1222,10 +1222,10 @@ Bas ; de laine,bas ; de laine,1,336,416
 Bas de la laine,bas ; de laine,1,1,416
 Bas de laine,bas ; de laine,1,40,416
 Bas; de laine,bas ; de laine,1,15,416
-Bonneterie ; de laine ; bas,bas ; de laine,1,6,416
-Bonneterie ; de laine ; bats,bas ; de laine,1,1,416
-Bonneterie ; de laine ; en bas,bas ; de laine,1,5,416
-Bonneterie ; en bas ; de laine,bas ; de laine,1,1,416
+Bonneterie ; de laine ; bas,bonneterie ; bas ; de laine,1,6,416
+Bonneterie ; de laine ; bats,bonneterie ; bas ; de laine,1,1,416
+Bonneterie ; de laine ; en bas,bonneterie ; bas ; de laine,1,5,416
+Bonneterie ; en bas ; de laine,bonneterie ; bas ; de laine,1,1,416
 bas ; de laine,bas ; de laine,1,1,416
 bas de laine,bas ; de laine,0,0,0
 Bas ; de laine ; fins,bas ; de laine ; fin,1,1,3
@@ -1235,7 +1235,7 @@ Bas de laine fin,bas ; de laine fine,1,1,1
 Bas de Leyden,bas ; de Leyden,0,0,0
 Bas ; de peau,bas ; de peau,1,3,15
 Bas ; de peaux,bas ; de peau,1,4,15
-Bas ; de poil,bas ; de peau,1,5,15
+Bas ; de poil,bas ; de poil,1,5,15
 Bas; de peau,bas ; de peau,1,2,15
 bas de peaux,bas ; de peau,0,0,0
 Bas; de poil,bas ; de poil,1,1,1
@@ -1258,8 +1258,8 @@ bas de soye,bas ; de soie,0,0,0
 bas ; de soye ; à coins d'argent,bas ; de soie ; à coin d'argent,1,1,1
 Bas ; de soye ; à coins d'or,bas ; de soie ; à coin d'or,1,1,1
 Bas ; de soye ; à coins d'or et d'argent,bas ; de soie ; à coin d'or et d'argent,1,2,2
-Bas ; de soye ; brodés ; d'or,bas ; de soie ; brodés ; d'or,1,1,1
-Bas ; de soye ; brodés or et argent,bas ; de soie ; brodés ; or et argent,1,1,1
+Bas ; de soye ; brodés ; d'or,bas ; de soie ; brodé ; d'or,1,1,1
+Bas ; de soye ; brodés or et argent,bas ; de soie ; brodé ; or et argent,1,1,1
 Bas ; de soye ; pour femme,bas ; de soie ; pour femme,1,2,2
 Bas de soye brodé,bas ; de soie brodée,1,1,1
 Bas de toille,bas ; de toile,1,1,1
@@ -1438,7 +1438,7 @@ Baume du Perou,baume ; du Pérou,1,2,18
 Beaume ; du Perou,baume ; du Pérou,1,3,4
 Beaume ; du pérou,baume ; du Pérou,1,1,4
 Beaume du perou,baume ; du Pérou,1,2,18
-Baume ; de copaba,baume ; laque,1,4,5
+Baume ; de copaba,baume ; de copahu,1,4,5
 Baume ; lacque,baume ; laque,1,1,5
 Baume ; noir,baume ; noir,1,1,1
 Baume de Capahu,baume de copahu,1,1,1
@@ -1446,15 +1446,15 @@ Beaume de Sucrier,baume de sucrier,1,1,1
 beaume et elixir,baume et élixir,0,0,0
 Bavoirs,bavoir,1,1,1
 Bavolets ; et egrettes,bavolet ; et aigrette,1,1,1
-Bayes bleu et rouge,baye ; bleu et rouge,1,1,1
-Baies de laurier,baye ; de laurier,1,2,24
-Bate de laurier,baye ; de laurier,1,1,24
-Baye  ; de Laurier,baye ; de laurier,0,0,0
-Baye ; de Laurier,baye ; de laurier,1,2,24
-Baye ; de laurier,baye ; de laurier,1,12,24
-Baye de laurier,baye ; de laurier,1,3,24
-Boye de laurier,baye ; de laurier,1,1,24
-Drogues ; baye ; de laurier,baye ; de laurier,1,2,24
+Bayes bleu et rouge,baie ; bleu et rouge,1,1,1
+Baies de laurier,baie ; de laurier,1,2,24
+Bate de laurier,baie ; de laurier,1,1,24
+Baye  ; de Laurier,baie ; de laurier,0,0,0
+Baye ; de Laurier,baie ; de laurier,1,2,24
+Baye ; de laurier,baie ; de laurier,1,12,24
+Baye de laurier,baie ; de laurier,1,3,24
+Boye de laurier,baie ; de laurier,1,1,24
+Drogues ; baye ; de laurier,baie ; de laurier,1,2,24
 Bayette,bayette,1,29,33
 Bayettes,bayette,1,3,33
 bayette,bayette,1,1,33
@@ -1475,18 +1475,18 @@ bécasses,bécasse,0,0,0
 Beccassines,bécassine,1,1,1
 Bêches,bêche,0,0,0
 Bêches en fer,bêche ; en fer,0,0,0
-Bedelim,bedelin,1,2,5
-Bedelium,bedelin,1,3,5
-Bédélium,bédélium,1,1,1
+Bedelim,bdellium,1,2,5
+Bedelium,bdellium,1,3,5
+Bédélium,bdellium,1,1,1
 Belles ; de bois,belle ; de bois,1,2,2
-Bejouant ; de levant,benjoin,1,1,64
+Bejouant ; de levant,benjoin ; du levant,1,1,64
 Benjoin,benjoin,1,60,64
 Benjouin,benjoin,1,2,64
 Bonjoin,benjoin,1,1,64
 bennes,benne,0,0,0
 bennes vuides,benne vide,0,0,0
 berses d'ozier,berce ; d'osier,0,0,0
-berces et lits de fer,berce ; et lit d'enfant,0,0,0
+berces et lits de fer,berce et lit ; de fer,0,0,0
 Berceaux ; d'enfant,berceau ; d'enfant,1,1,2
 bercEaux denfant,berceau ; d'enfant,1,1,2
 Berceau ; d'ozier,berceau ; d'osier,1,1,1
@@ -1497,7 +1497,7 @@ Bergamottes,bergamote,1,30,35
 Bergoopsum,bergopsum,1,1,4
 Bergopsum,bergopsum,1,1,4
 Bergopzoom,bergopsum,0,0,0
-Bergopzoom / aune,bergopsum,0,0,0
+Bergopzoom / aune,bergopsum ou aune,0,0,0
 Berline,berline,1,3,6
 Berlines,berline,1,2,6
 Berlinne,berline,1,1,6
@@ -1505,7 +1505,7 @@ Berline ; garnie ; de velours,berline ; garnie ; de velours,1,1,1
 "Berline ; garnie de velours, crespine d'or et harnois riches","berline ; garnie de velours, crespine d'or et harnois riche",1,1,1
 Berline ; vieille,berline ; vieille,1,1,1
 Berline et harnois,berline et harnois,1,1,1
-Berlines et leurs harnois,berline et leurs harnois,1,1,1
+Berlines et leurs harnois,berline et harnois,1,1,1
 Bernes,berne,1,1,4
 Bernues,berne,1,1,4
 Bernus,berne,1,2,4
@@ -1517,19 +1517,19 @@ Bestiaux ; ânes,bestiau ; âne,1,1,1
 Bestiaux ; Bœufs,bestiau ; bœuf,1,12,91
 Bestiaux ; bœufs,bestiau ; bœuf,1,32,91
 Bestiaux ; en bœufs,bestiau ; bœuf,1,4,91
-Bestiaux ; en bœufs ; gras,bestiau ; bœuf,1,1,91
-Boeuf ; en vie,bestiau ; bœuf,1,8,91
+Bestiaux ; en bœufs ; gras,bestiau ; bœuf ; gras,1,1,91
+Boeuf ; en vie,bestiau ; bœuf ; en vie,1,8,91
 Boeufs,bestiau ; bœuf,1,1,91
-Bœuf ; en vie,bestiau ; bœuf,1,11,91
+Bœuf ; en vie,bestiau ; bœuf ; en vie,1,11,91
 Bœufs,bestiau ; bœuf,0,0,0
-Bœufs ; en vie,bestiau ; bœuf,1,21,91
+Bœufs ; en vie,bestiau ; bœuf ; en vie,1,21,91
 bœufs et taureaux,bestiau ; bœuf et taureau,0,0,0
 "Bestiaux en bœufs, vaches porcs, moutons","bestiau ; bœuf, vache, mouton, porc",1,6,168
 "Bestiaux en bœufs, vaches, porcs et moutons","bestiau ; bœuf, vache, mouton, porc",1,29,168
 "Bestiaux en bœufs, vaches, porcs moutons","bestiau ; bœuf, vache, mouton, porc",1,5,168
 "Bestiaux en bœufs, vaches, porcs, et moutons","bestiau ; bœuf, vache, mouton, porc",1,6,168
 "Bestiaux en bœufs, vaches, porcs, moutons","bestiau ; bœuf, vache, mouton, porc",1,60,168
-"Bestiaux en bœufs, vaches, veaux, moutons, etc","bestiau ; bœuf, vache, mouton, porc",1,7,168
+"Bestiaux en bœufs, vaches, veaux, moutons, etc","bestiau ; bœuf, vache, mouton, veau",1,7,168
 "Bestiaux en bœufs, vaches, veaux, porcs et moutons","bestiau ; bœuf, vache, mouton, porc",1,55,168
 "Bestiaux en bœufs,vaches,veaux et moutons","bestiau ; bœuf, vache, mouton, veau",0,0,0
 boeuftins et genisses,bestiau ; bœuftin et genisse,0,0,0
@@ -1540,12 +1540,12 @@ Bestiaux ; Chevres,bestiau ; chèvre,1,9,11
 Bestiaux ; chèvres,bestiau ; chèvre,1,2,11
 Bestiaux ; chevres et boucs,bestiau ; chèvre et bouc,1,7,23
 Bestiaux ; chèvres et boucs,bestiau ; chèvre et bouc,1,1,23
-Bouc,bestiau ; chèvre et bouc,1,2,23
-Boucs,bestiau ; chèvre et bouc,1,11,23
-Boucs ; en vie,bestiau ; chèvre et bouc,1,1,23
+Bouc,bestiau ; bouc,1,2,23
+Boucs,bestiau ; bouc,1,11,23
+Boucs ; en vie,bestiau ; bouc ; en vie,1,1,23
 boucs et chevres,bestiau ; chèvre et bouc,0,0,0
 Bestiaux ; divers,bestiau ; divers,1,27,27
-Beuf ; en vie,bestiau ; en bœuf,1,50,50
+Beuf ; en vie,bestiau ; en bœuf ; en vie,1,50,50
 "1///Subsistances///Bestiaux en Bœufs, vaches, porcs, moutons","bestiau ; en bœuf, vache, porc et mouton",1,6,23
 "1///Subsistances///Bestiaux en bœufs, vaches, porcs, moutons","bestiau ; en bœuf, vache, porc et mouton",1,5,23
 "1///Subsistances///Bestiaux en bœufs,vaches,porcs moutons","bestiau ; en bœuf, vache, porc et mouton",1,6,23
@@ -1563,11 +1563,11 @@ Bestiaux ; mouton,bestiau ; mouton,1,2,257
 Bestiaux ; moutons,bestiau ; mouton,1,20,257
 Moutons,bestiau ; mouton,1,221,257
 moutons,bestiau ; mouton,1,1,257
-moutons et brebis,bestiau ; mouton,0,0,0
+moutons et brebis,bestiau ; mouton et brebis,0,0,0
 Bestiaux ; moutons ; gras,bestiau ; mouton ; gras,1,1,1
 Bestiaux ; moutons et brebis,bestiau ; mouton et brebis,1,11,11
 Bestiaux ; mules et mulets,bestiau ; mule et mulet,1,3,3
-Bestiaux ; cochons,bestiau ; porc,1,3,14
+Bestiaux ; cochons,bestiau ; cochon,1,3,14
 Bestiaux ; en porc,bestiau ; porc,1,1,14
 Bestiaux ; porcs,bestiau ; porc,1,10,14
 Bestiaux ; Porcs gras,bestiau ; porc ; gras,1,11,16
@@ -1582,10 +1582,10 @@ Bestiaux ; poulins,bestiau ; poulain,1,1,1
 Bestiaux ; Taureaux,bestiau ; taureau,1,9,33
 Bestiaux ; taureaux,bestiau ; taureau,1,16,33
 Bestiaux ; toreaux,bestiau ; taureau,1,5,33
-Boeuf ; Taureaux,bestiau ; taureau,1,3,33
+Boeuf ; Taureaux,bestiau ; bœuf et taureau,1,3,33
 Bestiaux ; Vaches,bestiau ; vache,1,11,274
 Bestiaux ; en vaches,bestiau ; vache,1,2,274
-Bestiaux ; en vaches ; grasses,bestiau ; vache,1,1,274
+Bestiaux ; en vaches ; grasses,bestiau ; vache ; grasse,1,1,274
 Bestiaux ; vaches,bestiau ; vache,1,37,274
 Vaches,bestiau ; vache,1,222,274
 vaches,bestiau ; vache,1,1,274
@@ -1618,8 +1618,8 @@ Bestiaux et bêtes ; de somme ; veaux,bestiau et bête ; de somme ; veau,1,1,1
 Chevres,bétail ; chèvre,1,69,116
 Chèvres,bétail ; chèvre,1,43,116
 chevres,bétail ; chèvre,1,2,116
-chevreuil,bétail ; chèvre,0,0,0
-chevrons de bois,bétail ; chèvre,1,1,116
+chevreuil,bétail ; chevreuil,0,0,0
+chevrons de bois,chevron ; de bois,1,1,116
 Génisses,bétail ; génisse,1,1,1
 Bêtes de somme,bête de somme,1,124,124
 ///Betes de somme///Anes,bête de somme ; âne,1,1,10
@@ -1642,9 +1642,9 @@ Bêtes de somme ; chevaux,bête de somme ; cheval,1,14,536
 Cheval,bête de somme ; cheval,1,2,536
 Chevaux,bête de somme ; cheval,1,397,536
 Chevaux ; chevaux,bête de somme ; cheval,1,15,536
-Chevaux ; de bas pris,bête de somme ; cheval,1,13,536
-Chevaux ; de haut prix,bête de somme ; cheval,1,10,536
-"Chevaux,juments et poulins",bête de somme ; cheval,1,8,536
+Chevaux ; de bas pris,bête de somme ; cheval ; de bas prix,1,13,536
+Chevaux ; de haut prix,bête de somme ; cheval ; de haut prix,1,10,536
+"Chevaux,juments et poulins","bête de somme ; cheval, jument et poulain",1,8,536
 Cheveaux,bête de somme ; cheval,1,15,536
 cheval,bête de somme ; cheval,1,1,536
 chevaux,bête de somme ; cheval,1,2,536
@@ -1655,7 +1655,7 @@ Chevaux entiers,bête de somme ; cheval entier,0,0,0
 Chevaux et ânes,bête de somme ; cheval et âne,1,4,4
 Bêtes ; de somme ; chevres,bête de somme ; chèvre,1,1,1
 Chevreaux,bête de somme ; chevreau,1,3,4
-Chevreaux a moyen prix,bête de somme ; chevreau,1,1,4
+Chevreaux a moyen prix,bête de somme ; chevreau ; à moyen prix,1,1,4
 Bêtes de somme ; diverses,bête de somme ; divers,1,2,2
 Bêtes ; de somme ; diverses,bête de somme ; diverse,1,2,2
 Betes de somme ; Juments,bête de somme ; jument,1,1,3
@@ -1663,7 +1663,7 @@ Chevaux ; Jumens,bête de somme ; jument,1,2,3
 "//////Betes de somme, principalement en mules et mulets",bête de somme ; mule et mulet,1,5,22
 "//////Betes,principalement en mules et mulets",bête de somme ; mule et mulet,1,6,22
 Betes de somme ; Mules et mulets,bête de somme ; mule et mulet,1,6,22
-"Betes,principalement en mules et mulets",bête de somme ; mule et mulet,0,0,0
+"Betes,principalement en mules et mulets",bête de somme ; principalement mule et mulet,0,0,0
 Bêtes de somme ; mules et mulets,bête de somme ; mule et mulet,1,4,22
 "///Bêtes de Somme///Mules, mulets et chevaux","bête de somme ; mule, mulet et cheval",1,4,4
 ///Betes de somme///Mulets,bête de somme ; mulet,1,3,4
@@ -1675,9 +1675,9 @@ Bêtes : de somme ; poulains,bête de somme ; poulain,1,1,29
 Bêtes ; de somme ; en poulains,bête de somme ; poulain,1,2,29
 Bêtes ; de somme ; poulains,bête de somme ; poulain,1,2,29
 Bêtes de somme ; poulains,bête de somme ; poulain,1,4,29
-Chevaux ; poulains,bête de somme ; poulain,1,2,29
+Chevaux ; poulains,bête de somme ; chevaux ; poulain,1,2,29
 Poullains,bête de somme ; poulain,1,9,29
-chevaux ; poulains,bête de somme ; poulain,1,1,29
+chevaux ; poulains,bête de somme ; chevaux ; poulain,1,1,29
 agneaux et cabrits,bête de somme : agneau et cabrit,0,0,0
 Betille,bétille,1,1,14
 Betiller,bétille,1,1,14
@@ -1687,7 +1687,7 @@ Bettilles,bétille,1,2,14
 Béthille,bétille,1,1,14
 Bettraves,betterave,0,0,0
 betteraves,betterave,1,1,2
-Beufs ; en vie,beuf ; en vie,1,145,145
+Beufs ; en vie,Bestiau ; bœuf ; en vie,1,145,145
 1///Subsistances///Beurre,beurre,1,8,1170
 Beure,beurre,1,265,1170
 Beures,beurre,1,1,1170
@@ -1721,7 +1721,7 @@ Beurreterie ; en bar ; de fil blanc,beurreterie ; en bar ; de fil blanc,1,1,1
 Bezoar,bézoard,1,1,4
 Bezouard,bézoard,1,2,4
 Bézoard,bézoard,1,1,4
-Bezoüard ; du Tonent,bézoard ; ???,1,1,1
+Bezoüard ; du Tonent,bézoard ; du Tonent,1,1,1
 Biblioteque,bibliothèque,1,1,1
 Bidet ; de fayence,bidet ; de faïence,1,1,1
 Bidets ; de fayence ; avec leurs prez de bois,bidet ; de faïence ; avec leurs ??? de bois,1,1,1
@@ -1742,17 +1742,17 @@ bierre d'hougarde,bière ; d'Hougarde,0,0,0
 Bière (de Dantzig),bière ; de Dantzig,0,0,0
 Bière de Dantzig,bière ; de Dantzig,0,0,0
 bierre d'hollande,bière ; de Hollande,0,0,0
-bierre de liège,bière ; de liège,0,0,0
-"bierre de liège, d'anglettere etc","bière ; de liège, d'anglettere etc",0,0,0
-Biere de Lubec,bière ; de Lubec,1,1,1
+bierre de liège,bière ; de Liège,0,0,0
+"bierre de liège, d'anglettere etc","bière ; de Liège, d'Anglettere etc",0,0,0
+Biere de Lubec,bière ; de Lubek,1,1,1
 Bierre ; de Lubek,bière ; de Lubek,1,1,1
-Biere ; de Lubek,bière ; de Lubek ; pour médecine,1,1,2
+Biere ; de Lubek,bière ; de Lubek,1,1,2
 Biere ; de Luber ; pour médecine,bière ; de Lubek ; pour médecine,1,1,2
 bierre dite juypenbier,bière ; dite juypenbier,0,0,0
 bierre dite lumay,bière ; dite lumay,0,0,0
 Bière en fût,bière ; en fût,0,0,0
 Bierre ; fortes,bière ; forte,1,1,1
-Bierre ; médecinale ; de Lubek,bière ; médicinale ; de Lubek,1,1,1
+Bierre ; médecinale ; de Lubek,bière ; de Lubek ; pour médecine,1,1,1
 Bière nautique,bière ; nautique,0,0,0
 Bière porter,bière ; porter,0,0,0
 Bierre et cidre,bière et cidre,1,33,85
@@ -1763,24 +1763,24 @@ Cidre et bière,bière et cidre,1,13,85
 "Bierre, cidre et vinaigre","bière, cidre et vinaigre",1,5,10
 Bigarade,bigarade,0,0,0
 Bigarades,bigarade,1,1,6
-Bigons,bigarade,1,3,6
-Bigues,bigarade,1,1,6
+Bigons,bigon,1,3,6
+Bigues,bigue,1,1,6
 Feuilles de bigaradier,bigaradier ; feuille,0,0,0
 ///Industrie Générale///Bijouterie,bijouterie,1,6,665
 ///Industrie générale///Bijouterie,bijouterie,1,24,665
 Bijouterie,bijouterie,1,619,665
-Bijouterie ; divers,bijouterie,1,3,665
-Bijouterie ; diverse,bijouterie,1,1,665
+Bijouterie ; divers,bijouterie ; divers,1,3,665
+Bijouterie ; diverse,bijouterie ; divers,1,1,665
 Bijouteries,bijouterie,1,10,665
 Bijoutterie,bijouterie,1,1,665
 bijouteries,bijouterie,0,0,0
 "Bijouterie : diamans, perles et pierres fines","bijouterie ; diamant, perle et pierre fine",1,13,84
 "Bijouterie : diamants, perles et pierres fines","bijouterie ; diamant, perle et pierre fine",1,13,84
-"Bijouterie ; diamans, perles et pierres fines, montés ou non montés","bijouterie ; diamant, perle et pierre fine",1,14,84
+"Bijouterie ; diamans, perles et pierres fines, montés ou non montés","bijouterie ; diamant, perle et pierre fine ; monté ou non monté",1,14,84
 Bijouterie et perles fines,"bijouterie ; diamant, perle et pierre fine",1,17,84
-Bijouterie et perles fines montées et non montées,"bijouterie ; diamant, perle et pierre fine",1,17,84
-"Bijouterie, diamans, perles et pierres fines, montés ou non montés","bijouterie ; diamant, perle et pierre fine",1,10,84
-Bijouterie en perles et pierres fines montées et non montées,"bijouterie ; diamant, perle et pierre fine ; non montés",1,35,48
+Bijouterie et perles fines montées et non montées,"bijouterie ; diamant, perle et pierre fine ; monté ou non monté",1,17,84
+"Bijouterie, diamans, perles et pierres fines, montés ou non montés","bijouterie ; diamant, perle et pierre fine ; monté ou non monté",1,10,84
+Bijouterie en perles et pierres fines montées et non montées,"bijouterie ; diamant, perle et pierre fine ; monté ou non monté",1,35,48
 "Bijouterie, diamans, perles et pierres fines non montés","bijouterie ; diamant, perle et pierre fine ; non montés",1,13,48
 Bijouterie ; en épingles,bijouterie ; en épingle,1,1,1
 Bijouterie ; pour montre d'argent,bijouterie ; pour montre d'argent,1,1,1
@@ -1796,7 +1796,7 @@ Billes de bois,bille ; de bois,0,0,0
 Billes de Bois de Gayac,bille ; de bois ; de gaïac,1,1,1
 Billes de Bois Marbré,bille ; de bois ; marbré,1,2,2
 Billes de Bois a faire Meubles,bille ; de bois ; pour meuble,1,1,1
-Billons,bille d'ivoire,1,1,1
+Billons,billon,1,1,1
 Billets ; de parchemin,billet ; de parchemin,1,6,7
 Billets de parchemin,billet ; de parchemin,1,1,7
 Billon,billon,1,1,1
@@ -1840,10 +1840,10 @@ Blanc ; d'espagne,blanc ; d'Espagne,1,2,47
 Blanc d'Espagne,blanc ; d'Espagne,1,13,47
 Blanc d'espagne,blanc ; d'Espagne,1,2,47
 Blanc; d'espagne,blanc ; d'Espagne,1,2,47
-Blanc; de S Croyes,blanc ; d'Espagne,1,3,47
+Blanc; de S Croyes,blanc ; de Troyes,1,3,47
 blan d'Espagne,blanc ; d'Espagne,1,2,47
 blanc d'Espagne,blanc ; d'Espagne,1,2,47
-"blanc d'Espagne, craye blanche et moulue",blanc ; d'Espagne,0,0,0
+"blanc d'Espagne, craye blanche et moulue",blanc ; d'Espagne ; craie blanche et moulue,0,0,0
 Blan de baleine,blanc ; de baleine,1,1,64
 Blan;de baleine,blanc ; de baleine,1,1,64
 Blanc ; de balaine,blanc ; de baleine,1,2,64
@@ -1890,7 +1890,7 @@ Bled ; de segle,bled ; de seigle,1,2,9
 Bled ; de seigle,bled ; de seigle,1,7,9
 Bled ; de Turquie,bled ; de Turquie,1,1,1
 bled en jarbes,bled ; en gerbe,0,0,0
-Bled,bled ; et autre grain,1,5,146
+Bled,bled,1,5,146
 Blé et autres graines comestibles,bled ; et autre grain,1,11,146
 Blé et autres grains,bled ; et autre grain,0,0,0
 Blé et autres grains comestibles,bled ; et autre grain,1,4,146
@@ -1913,9 +1913,9 @@ Bléd Fromente,bled ; froment,1,1,643
 Bléd froment,bled ; froment,1,3,643
 Blés/Froments,bled ; froment,0,0,0
 bled froment,bled ; froment,1,4,643
-Bled ; d'Inde,bled ; maïs,1,5,55
-Bled ; d'Indes,bled ; maïs,1,6,55
-Bled ; d'inde,bled ; maïs,1,12,55
+Bled ; d'Inde,bled ; d'Inde,1,5,55
+Bled ; d'Indes,bled ; d'Inde,1,6,55
+Bled ; d'inde,bled ; d'Inde,1,12,55
 Bled ; de maïs,bled ; maïs,1,1,55
 Bled ; mabi,bled ; maïs,1,1,55
 Bled ; maby,bled ; maïs,1,1,55
@@ -1950,7 +1950,7 @@ Bled ;  seigle,bled ; seigle,1,1,6
 Bled ; Seigle,bled ; seigle,1,6,198
 Bled ; segle,bled ; seigle,1,3,6
 Bled ; seigle,bled ; seigle,1,142,198
-Bled ; seigle en gerbes,bled ; seigle,1,1,198
+Bled ; seigle en gerbes,bled ; seigle ; en gerbes,1,1,198
 Bled ; siegle,bled ; seigle,1,2,198
 Bled ; veigle,bled ; seigle,1,4,198
 Bled Seigle,bled ; seigle,1,10,198
@@ -1969,7 +1969,7 @@ Bleu ; commun,bleu ; commun,1,4,4
 bleu de Berlin,bleu ; de Berlin,0,0,0
 bleu de paille,bleu ; de paille,0,0,0
 Bleu ; de Prusse,bleu ; de Prusse,1,34,120
-Bleu ; de Saxe,bleu ; de Prusse,1,1,120
+Bleu ; de Saxe,bleu ; de Saxe,1,1,120
 Bleu ; de prusse,bleu ; de Prusse,1,9,120
 Bleu de Prusse,bleu ; de Prusse,1,65,120
 Bleu de prusse,bleu ; de Prusse,1,9,120
@@ -1995,7 +1995,7 @@ Blonde ; d'or,blonde ; d'or,1,1,1
 Blonde ; de fil,blonde ; de fil,1,1,1
 Blonde ; de soye,blonde ; de soie,1,63,105
 Blonde de soye,blonde ; de soie,1,40,105
-Blonde visage,blonde ; de soie,1,2,105
+Blonde visage,Blonde ; visage,1,2,105
 Blonde ; or et argent,blonde ; or et argent,1,1,1
 Bluteaux,bluteaux,1,2,2
 Bobine de Cuirs,bobine de cuir,1,1,1
@@ -2116,11 +2116,11 @@ Bois ; à f.corbin,bois ; à faire corbin,1,1,5
 Bois ; à faire ; corbin,bois ; à faire corbin,1,1,5
 Bois ; à faire corbin,bois ; à faire corbin,1,2,5
 Bois ; à fxx corbin,bois ; à faire corbin,1,1,5
-Bois ; a faire bocles,bois ; à faire des boîte,1,1,4
-Bois ; à f.boetes,bois ; à faire des boîte,1,1,4
-Bois ; à faire boëtes,bois ; à faire des boîte,1,1,4
-Bois; à faire boëtes,bois ; à faire des boîte,1,1,4
-Bois ; à f.étusjs,bois ; à faire des étui,1,1,1
+Bois ; a faire bocles,bois ; à faire des boîtes,1,1,4
+Bois ; à f.boetes,bois ; à faire des boîtes,1,1,4
+Bois ; à faire boëtes,bois ; à faire des boîtes,1,1,4
+Bois; à faire boëtes,bois ; à faire des boîtes,1,1,4
+Bois ; à f.étusjs,bois ; à faire des étuis,1,1,1
 Bois ; à f. foureaux,bois ; à faire des foureaux,1,1,1
 Bois ; à fre soureaux,bois ; à faire fourreau,1,1,1
 Bois ; à faire fourreaux ; d'épées,bois ; à faire fourreau ; d'épée,1,1,2
@@ -2130,8 +2130,8 @@ Bois ; à faire sommier,bois ; à faire sommier,1,2,5
 Bois ; à fxx sommiers,bois ; à faire sommier,1,1,5
 Bois; à faire sommiers,bois ; à faire sommier,1,1,5
 Bois ; a fre violons,bois ; à faire violon,1,1,1
-Bois ; a fonds,bois ; a fond,1,2,2
-Bois A Foureaux d'épée,bois ; à foureau d'épée,1,1,1
+Bois ; a fonds,bois ; à fond,1,2,2
+Bois A Foureaux d'épée,bois ; à fourreau d'épée,1,1,1
 Bois ; a fourreaux d'épée,bois ; à fourreau d'épée,1,1,3
 Bois ; à faureau d'Epée,bois ; à fourreau d'épée,1,1,3
 Bois ; à foureau ; d'épée,bois ; à fourreau d'épée,1,1,3
@@ -2186,7 +2186,7 @@ Bois ; bardages,bois ; bordage,1,5,40
 Bois ; bordage,bois ; bordage,1,4,40
 Bois ; bordages,bois ; bordage,1,27,40
 Bois bordages,bois ; bordage,1,1,1
-Bois ; Bordages,bois ; bordage ; de chêne,1,7,43
+Bois ; Bordages,bois ; bordage,1,7,43
 Bois ; bordages ; de chesne,bois ; bordage ; de chêne,1,3,43
 Bois ; bordages de chesne,bois ; bordage ; de chêne,1,1,43
 Bois de Bordages ; de chêne,bois ; bordage ; de chêne,1,1,43
@@ -2217,13 +2217,13 @@ Bois ; cercles,bois ; cercle,1,1,1
 Bois ; cordayer,bois ; cordayer,1,2,2
 Bois coudé,bois ; coudé,0,0,0
 Bois courbé,bois ; courbé,0,0,0
-Bois ; D'inde ; D'acajou,bois ; d'acajou,1,1,148
+Bois ; D'inde ; D'acajou,bois ; d'Inde ; d'acajou,1,1,148
 Bois ; d'Accajou,bois ; d'acajou,1,10,148
 Bois ; d'acajou,bois ; d'acajou,1,102,148
 Bois ; d'accajou,bois ; d'acajou,1,6,148
-Bois ; d'inde pour teinture et marquetrie ; d'acajou,bois ; d'acajou,1,6,148
-Bois ; d'indes pour teinture et marqueterie ; d'acajou,bois ; d'acajou,1,3,148
-Bois ; des Isles ; d'Acajou,bois ; d'acajou,1,1,148
+Bois ; d'inde pour teinture et marquetrie ; d'acajou,bois ; d'Inde pour teinture et marqueterie ; d'acajou,1,6,148
+Bois ; d'indes pour teinture et marqueterie ; d'acajou,bois ; d'Inde pour teinture et marqueterie ; d'acajou,1,3,148
+Bois ; des Isles ; d'Acajou,bois ; des îles ; d'acajou,1,1,148
 Bois d'Acajou,bois ; d'acajou,1,16,148
 Bois; d'acajou,bois ; d'acajou,1,2,148
 bois d'acajou,bois ; d'acajou,0,0,0
@@ -2241,7 +2241,7 @@ bois d'arc et de fusils,bois ; d'arc et de fusil,0,0,0
 bois d'arcs et de selles,bois ; d'arc et de selle,0,0,0
 Bois ; d'aspatton,bois ; d'aspatton,1,1,1
 Bois d’aulne,bois ; d'aulne,0,0,0
-Bois ; D'inde ; D'ebenne,bois ; d'ébène,1,3,76
+Bois ; D'inde ; D'ebenne,bois ; d'Inde ; d'ébène,1,3,76
 Bois ; d'Ebenne,bois ; d'ébène,1,7,76
 Bois ; d'Ebennes,bois ; d'ébène,1,1,76
 Bois ; d'Ebène,bois ; d'ébène,1,1,76
@@ -2250,12 +2250,12 @@ Bois ; d'ebenne,bois ; d'ébène,1,31,76
 Bois ; d'ebennes,bois ; d'ébène,1,2,76
 Bois ; d'ébenne,bois ; d'ébène,1,11,76
 Bois ; d'ébène,bois ; d'ébène,1,8,76
-Bois ; des Isles et des Indes ; d'ébenne,bois ; d'ébène,1,1,76
+Bois ; des Isles et des Indes ; d'ébenne,Bois ; des îles et des Indes ; d'ébène,1,1,76
 Bois d'ebene,bois ; d'ébène,1,2,76
 Bois d'ebenne,bois ; d'ébène,1,1,76
 Bois d'ébène,bois ; d'ébène,1,1,76
 Bois; d'ebenne,bois ; d'ébène,1,3,76
-Marchandises des Indes ; Bois d'Ebenne,bois ; d'ébène,0,0,0
+Marchandises des Indes ; Bois d'Ebenne,bois ; des Indes ; d'ébène,0,0,0
 bois d'ebenne,bois ; d'ébène,0,0,0
 Bois ; d'écarage,bois ; d'écarage,1,1,1
 Bois ; de erable,bois ; d'érable,1,1,1
@@ -2269,12 +2269,12 @@ Bois ; d'esquisse,bois ; d'esquisse,1,1,1
 Bois ; d'eventails,bois ; d'éventail,1,1,2
 Bois ; d'éventails,bois ; d'éventail,1,1,2
 Bois ; d'éventails ; de nacre ; de perles,bois ; d'éventail ; de nacre ; de perle,1,1,1
-Bois ; D'Inde divers,bois ; d'Inde,1,4,80
-Bois ; D'inde divers,bois ; d'Inde,1,7,80
+Bois ; D'Inde divers,bois ; d'Inde ; divers,1,4,80
+Bois ; D'inde divers,bois ; d'Inde ; divers,1,7,80
 Bois ; d'Inde,bois ; d'Inde,1,31,80
-Bois ; d'Inde ; divers,bois ; d'Inde,1,3,80
+Bois ; d'Inde ; divers,bois ; d'Inde ; divers,1,3,80
 Bois ; d'inde,bois ; d'Inde,1,23,80
-Bois ; d'inde pour teinture et marquetrie ; divers,bois ; d'Inde,1,5,80
+Bois ; d'inde pour teinture et marquetrie ; divers,bois ; d'Inde pour teinture et marqueterie ; divers,1,5,80
 Bois d'inde,bois ; d'Inde,1,1,80
 Bois; d'inde,bois ; d'Inde,1,5,80
 bois d'inde,bois ; d'Inde,1,1,80
@@ -2284,11 +2284,11 @@ Bois ; des îles et des Indes,bois ; d'Inde et des îles,1,16,362
 Bois des Iles et des Indes,bois ; d'Inde et des îles,1,22,362
 Bois des iles et des Indes,bois ; d'Inde et des îles,1,37,362
 Bois des lies et des Indes,bois ; d'Inde et des îles,1,13,362
-Bois des îles,bois ; d'Inde et des îles,1,187,362
+Bois des îles,bois ; des îles,1,187,362
 Bois des îles et des Indes,bois ; d'Inde et des îles,1,81,362
 Bois des îles et des indes,bois ; d'Inde et des îles,1,6,362
 "Bois des îles et des Indes, d'ébénisterie",bois ; d'Inde et des îles ; pour l'ébénisterie,1,32,42
-"Bois des îles et des Indes, pr ébénisterie et marquet.",bois ; d'Inde et des îles ; pour l'ébénisterie,1,10,42
+"Bois des îles et des Indes, pr ébénisterie et marquet.",bois ; d'Inde et des îles ; pour l'ébénisterie et marqueterie,1,10,42
 Bois des îles et des Indes de teinture,bois ; d'Inde et des îles ; pour la teinture,1,14,14
 Bois ; d'indes pour teinture et marqueterie ; divers,bois ; d'Inde pour teinture et marqueterie ; divers,1,7,7
 Bois ; d' olivier,bois ; d'olivier,1,1,10
@@ -2303,16 +2303,16 @@ Bois ; D'osier,bois ; d'osier,1,9,16
 Bois ; d'osier,bois ; d'osier,1,1,16
 Bois ; d'ozier,bois ; d'osier,1,6,16
 Bois de bateau,bois ; de bateau,0,0,0
-Bois ; de bois,bois ; de bois,1,1,1
+Bois ; de bois,bois,1,1,1
 Bois ; de bordage,bois ; de bordage,1,1,2
 Bois de Bordage,bois ; de bordage,1,1,2
 Bois ; bordages ; de sapin,bois ; de bordage ; de sapin,1,3,4
 Bois ; de bordages ; de sapin,bois ; de bordage ; de sapin,1,1,4
 Bois de bouleau,bois ; de bouleau,0,0,0
 Bois  ; du Brésil,bois ; de Brésil,0,0,0
-Bois ; D'inde ; De Bresil,bois ; de Brésil,1,7,257
-Bois ; d'inde pour teinture et marquetrie ; de brésil,bois ; de Brésil,1,1,257
-Bois ; d'indes pour teinture et marqueterie ; de brésil,bois ; de Brésil,1,5,257
+Bois ; D'inde ; De Bresil,bois ; d'Inde ; de Brésil,1,7,257
+Bois ; d'inde pour teinture et marquetrie ; de brésil,bois ; d'Inde pour teinture et marqueterie ; de Brésil,1,1,257
+Bois ; d'indes pour teinture et marqueterie ; de brésil,bois ; d'Inde pour teinture et marqueterie ; de Brésil,1,5,257
 Bois ; de Bresil,bois ; de Brésil,1,7,257
 Bois ; de Brezil,bois ; de Brésil,1,38,257
 Bois ; de Brésil,bois ; de Brésil,1,34,257
@@ -2323,7 +2323,7 @@ Bois ; de bressil,bois ; de Brésil,1,1,257
 Bois ; de brezil,bois ; de Brésil,1,93,257
 Bois ; de brésil,bois ; de Brésil,1,14,257
 Bois ; de brézil,bois ; de Brésil,1,6,257
-Bois ; des Isles et des Indes ; de Brésil,bois ; de Brésil,1,2,257
+Bois ; des Isles et des Indes ; de Brésil,bois ; des îles et des Indes ; de Brésil,1,2,257
 Bois a bresil,bois ; de Brésil,1,1,257
 Bois de BREZIL,bois ; de Brésil,1,2,257
 Bois de Brezil,bois ; de Brésil,1,2,257
@@ -2353,22 +2353,22 @@ Bois ; de buy,bois ; de buis,1,1,1
 Bois; de buis,bois ; de buis,1,6,101
 bois de buis,bois ; de buis,0,0,0
 Bois ; Caliatour,bois ; de caliatour,1,1,59
-Bois ; D'inde ; De Caliatour,bois ; de caliatour,1,1,59
-Bois ; D'inde ; De caliatour,bois ; de caliatour,1,2,59
-Bois ; de Caillatour moulu,bois ; de caliatour,1,2,59
+Bois ; D'inde ; De Caliatour,bois ; d'Inde ; de caliatour,1,1,59
+Bois ; D'inde ; De caliatour,bois ; d'Inde ; de caliatour,1,2,59
+Bois ; de Caillatour moulu,bois ; de caliatour moulu,1,2,59
 Bois ; de Caliatour,bois ; de caliatour,1,8,59
 Bois ; de caillatour,bois ; de caliatour,1,1,59
-Bois ; de caillatour moulu,bois ; de caliatour,1,4,59
-Bois ; de cailliatour moulu,bois ; de caliatour,1,3,59
+Bois ; de caillatour moulu,bois ; de caliatour moulu,1,4,59
+Bois ; de cailliatour moulu,bois ; de caliatour moulu,1,3,59
 Bois ; de caliatour,bois ; de caliatour,1,18,59
-Bois ; de caliatour ; moulu,bois ; de caliatour,1,2,59
+Bois ; de caliatour ; moulu,bois ; de caliatour moulu,1,2,59
 Bois ; de caliatours,bois ; de caliatour,1,1,59
 Bois ; de caliatous,bois ; de caliatour,1,2,59
 Bois ; de calicetoux,bois ; de caliatour,1,1,59
 Bois ; de caliettour,bois ; de caliatour,1,1,59
 Bois ; de calliatour,bois ; de caliatour,1,1,59
 Bois ; de calliatous,bois ; de caliatour,1,1,59
-Bois ; des Isles et des Indes ; de Caliatour,bois ; de caliatour,1,1,59
+Bois ; des Isles et des Indes ; de Caliatour,bois ; des îles et des Indes ; de caliatour,1,1,59
 Bois d'éCaliatour,bois ; de caliatour,1,1,59
 Bois de Caliatour,bois ; de caliatour,1,3,59
 Bois de Caliatur,bois ; de caliatour,0,0,0
@@ -2387,23 +2387,23 @@ Bois de Caliatour Rapé,bois ; de caliatour ; rapé,1,1,2
 Bois de Caliatour rapé,bois ; de caliatour ; rapé,1,1,2
 Bois ; de Camanbourg,bois ; de Camanbourg,1,1,1
 Bois  ; de campeche,bois ; de campêche,1,1,1
-Bois ; D'inde ; De Campeche,bois ; de campêche,1,10,478
-Bois ; D'inde ; De campeche,bois ; de campêche,1,6,478
-Bois ; D'inde pour peinture et marqueterie ; De compeche,bois ; de campêche,1,12,478
-Bois ; d'indes pour teinture et marqueterie ; de campêche,bois ; de campêche,1,7,478
+Bois ; D'inde ; De Campeche,bois ; d'Inde ; de campêche,1,10,478
+Bois ; D'inde ; De campeche,bois ; d'Inde ; de campêche,1,6,478
+Bois ; D'inde pour peinture et marqueterie ; De compeche,bois ; d'Inde pour peinture et marqueterie ; de campêche,1,12,478
+Bois ; d'indes pour teinture et marqueterie ; de campêche,bois ; d'Inde pour peinture et marqueterie ; de campêche,1,7,478
 Bois ; de Campeche,bois ; de campêche,1,20,478
 Bois ; de Campesch,bois ; de campêche,1,1,478
 Bois ; de Campêche,bois ; de campêche,1,10,478
 Bois ; de Champesche,bois ; de campêche,1,1,478
 Bois ; de campeche,bois ; de campêche,1,122,478
-Bois ; de campeche ; moulu,bois ; de campêche,1,2,478
+Bois ; de campeche ; moulu,bois ; de campêche ; moulu,1,2,478
 Bois ; de campesche,bois ; de campêche,1,34,478
 Bois ; de campèche,bois ; de campêche,1,21,478
 Bois ; de campéche,bois ; de campêche,1,1,478
 Bois ; de campêche,bois ; de campêche,1,166,478
 Bois ; de champeche,bois ; de campêche,1,1,478
 Bois ; de compeche,bois ; de campêche,1,7,478
-Bois ; des Isles ; de Campêche,bois ; de campêche,1,1,478
+Bois ; des Isles ; de Campêche,Bois ; des îles ; de campêche,1,1,478
 Bois Campeshe,bois ; de campêche,1,2,478
 Bois Campêche,bois ; de campêche,1,2,478
 Bois campeche,bois ; de campêche,1,1,478
@@ -2479,7 +2479,7 @@ Bois ; de chêne : pour construction,bois ; de chêne ; pour construction,1,3,4
 Bois ; de chêne ; scié,bois ; de chêne ; scié,1,2,2
 Bois de Chene de Constructions,bois ; de chêne de construction,1,1,2
 Bois de chesne a batir,bois ; de chêne de construction,1,1,2
-Bois de chesne des carisage,bois ; de chêne des carisage,1,1,1
+Bois de chesne des carisage,bois ; de chêne des carisages,1,1,1
 "bois de chène, carré","bois ; de chène, carré",0,0,0
 bois de chêne carrée,"bois ; de chène, carré",0,0,0
 "bois de chène, ronde","bois ; de chène, ronde",0,0,0
@@ -2495,7 +2495,7 @@ Bois ; de construction,bois ; de construction,1,101,209
 Bois ; de constructions,bois ; de construction,1,2,209
 Bois de Constructions,bois ; de construction,1,15,209
 Bois de construction,bois ; de construction,1,42,209
-Bois de construction et autres,bois ; de construction,1,15,209
+Bois de construction et autres,bois ; de construction et autre,1,15,209
 Bois de constructions,bois ; de construction,1,12,209
 Bois; de construction,bois ; de construction,1,2,209
 bois de construction,bois ; de construction,0,0,0
@@ -2523,10 +2523,10 @@ Bois ; de fauteuils et canapés,bois ; de fauteuil et canapé,1,1,1
 Bois ; de fayard,bois ; de fayard,1,6,6
 Bois ; de fer,bois ; de fer,1,2,3
 Bois de Fer,bois ; de fer,1,1,3
-Bois ; D'inde ; De Fernambourg,bois ; de Fernambourg,1,10,122
-Bois ; D'inde ; De fernambourg,bois ; de Fernambourg,1,2,122
-Bois ; D'inde pour peinture et marqueterie ; De Fernembourg,bois ; de Fernambourg,1,11,122
-Bois ; d'indes pour teinture et marqueterie ; de fernambourg,bois ; de Fernambourg,1,3,122
+Bois ; D'inde ; De Fernambourg,bois ; d'Inde ; de Fernambourg,1,10,122
+Bois ; D'inde ; De fernambourg,bois ; d'Inde ; de Fernambourg,1,2,122
+Bois ; D'inde pour peinture et marqueterie ; De Fernembourg,bois ; d'Inde pour peinture et marqueterie ; de Fernambourg,1,11,122
+Bois ; d'indes pour teinture et marqueterie ; de fernambourg,bois ; d'Inde pour peinture et marqueterie ; de Fernambourg,1,3,122
 Bois ; de Fermanbourg,bois ; de Fernambourg,1,2,122
 Bois ; de Fernambourg,bois ; de Fernambourg,1,7,122
 Bois ; de fermambourg,bois ; de Fernambourg,1,1,122
@@ -2538,12 +2538,12 @@ Bois ; de fernanbourg,bois ; de Fernambourg,1,6,122
 Bois ; de fernembourg,bois ; de Fernambourg,1,8,122
 Bois ; de ferrambourg,bois ; de Fernambourg,1,2,122
 Bois ; de fornambourg,bois ; de Fernambourg,1,3,122
-Bois ; fernambourg,bois ; de fernambourg,1,1,1
+Bois ; fernambourg,bois ; de Fernambourg,1,1,1
 Bois ; de fernambourg ; arbustes,bois ; de Fernambourg ; arbuste,1,2,2
 Bois ; de Fermanbourg en Buches,bois ; de Fernambourg ; en bûche,1,1,1
 Bois ; de fernambourg ; en buches,bois ; de Fernambourg ; en bûche,1,1,1
 Bois ; de Fermanbourg moulu,bois ; de Fernambourg ; moulu,1,1,4
-Bois ; de Fimanbourg,bois ; de Fernambourg ; moulu,1,1,4
+Bois ; de Fimanbourg,bois ; de Fernambourg,1,1,4
 Bois ; de fernambourg ; moulu,bois ; de Fernambourg ; moulu,1,2,4
 Bois ; de ferol,bois ; de ferol,1,1,2
 Bois ; du ferol,bois ; de ferol,1,1,2
@@ -2555,10 +2555,10 @@ Bois de frène,bois ; de frêne,0,0,0
 Bois ; fusil,bois ; de fusil,1,2,2
 "Bois , fustel",bois ; de fustel,1,4,116
 Bois ;  Fustel,bois ; de fustel,0,0,0
-Bois ; D'inde ; De fustel,bois ; de fustel,1,4,116
-Bois ; D'inde ; De futel,bois ; de fustel,1,4,116
+Bois ; D'inde ; De fustel,bois ; d'Inde ; de fustel,1,4,116
+Bois ; D'inde ; De futel,bois ; d'Inde ; de fustel,1,4,116
 Bois ; Fustel,bois ; de fustel,1,3,116
-Bois ; d'indes pour teinture et marqueterie ; de fustel,bois ; de fustel,1,7,116
+Bois ; d'indes pour teinture et marqueterie ; de fustel,bois ; d'Inde pour teinture et marqueterie ; de fustel,1,7,116
 Bois ; de fuset,bois ; de fustel,1,6,116
 Bois ; de fustel,bois ; de fustel,1,3,116
 Bois ; de fustes,bois ; de fustel,1,1,116
@@ -2573,18 +2573,18 @@ Bois; fustet,bois ; de fustel,1,6,116
 Bois ; de fussel ; haché,bois ; de fustel ; haché,1,1,1
 Bois ; fuste moulu,bois ; de fustel ; moulu,1,1,1
 Bois ; de gabarie,bois ; de gabarie,1,2,2
-Bois ; D'inde ; De gayac,bois ; de gaïac,1,2,149
-Bois ; D'inde pour peinture et marqueterie ; De Gayac,bois ; de gaïac,1,5,149
+Bois ; D'inde ; De gayac,bois ; d'Inde ; de gaïac,1,2,149
+Bois ; D'inde pour peinture et marqueterie ; De Gayac,bois ; d'Inde pour peinture et marqueterie ; de gaïac,1,5,149
 Bois ; Gayac,bois ; de gaïac,1,2,149
-Bois ; d'indes pour teinture et marqueterie ; de gayac,bois ; de gaïac,1,2,149
+Bois ; d'indes pour teinture et marqueterie ; de gayac,bois ; d'Inde pour peinture et marqueterie ; de gaïac,1,2,149
 Bois ; de Gaillac,bois ; de gaïac,1,1,149
 Bois ; de Gayac,bois ; de gaïac,1,17,149
 Bois ; de Gaïac,bois ; de gaïac,1,1,149
 Bois ; de gayac,bois ; de gaïac,1,107,149
 Bois ; de gayak,bois ; de gaïac,1,1,149
-Bois ; des Isles et des Indes ; de Gayac,bois ; de gaïac,1,1,149
+Bois ; des Isles et des Indes ; de Gayac,bois ; des îles et des Indes ; de gaïac,1,1,149
 Bois de Gayac,bois ; de gaïac,1,2,149
-Bois de Saxafras,bois ; de gaïac,1,2,149
+Bois de Saxafras,bois ; de saxafras,1,2,149
 Bois de gayac,bois ; de gaïac,1,2,149
 Bois; de gayac,bois ; de gaïac,1,4,149
 Bois ; de gayac ; en buche,bois ; de gaïac ; en bûche,1,1,1
@@ -2610,10 +2610,10 @@ Bois ; de jaraconda,bois ; de jacaranda,1,2,17
 Bois ; de jaracumba,bois ; de jacaranda,1,1,17
 Bois ; de jaracunda,bois ; de jacaranda,1,6,17
 Bois; de jaraconda,bois ; de jaraconda,1,1,1
-Bois ; D'inde ; De jayat,bois ; de jayat,1,3,3
+Bois ; D'inde ; De jayat,bois ; d'Inde ; de jayat,1,3,3
 Bois ; de la chine,bois ; de la chine,1,1,1
 Bois ; de Lettre,bois ; de lettre,1,2,6
-Bois ; de Levant,bois ; de lettre,1,1,6
+Bois ; de Levant,bois ; du Levant,1,1,6
 Bois ; de lettre,bois ; de lettre,1,3,6
 Bois ; de lin,bois ; de lin,1,2,3
 Bois; de lin,bois ; de lin,1,1,3
@@ -2626,7 +2626,7 @@ Bois ; demachemillier,bois ; de machemillier,1,1,1
 Bois; de machenette,bois ; de machenette,1,1,1
 Bois ; de marbre,bois ; de marbre,1,2,2
 Bois ;  de marquetterie,bois ; de marqueterie,0,0,0
-Bois ; D'inde ; De magueterie,bois ; de marqueterie,1,4,61
+Bois ; D'inde ; De magueterie,Bois ; d'Inde ; de marqueterie,1,4,61
 Bois ; de marqueterie,bois ; de marqueterie,1,32,61
 Bois ; de marquetterie,bois ; de marqueterie,1,21,61
 Bois de marqueterie,bois ; de marqueterie,1,13,13
@@ -2643,7 +2643,7 @@ Bois ; ; mairin; a Bariques,bois ; de merrain ; à barrique,1,2,2
 Bois ; de merrain a fond,bois ; de merrain a fond,1,1,1
 Bois ; de Nantes,bois ; de Nantes,1,1,1
 Bois ; de néphrétique,bois ; de néphrétique,1,1,1
-Bois ; des Isles et des Indes ; de Nicorago,bois ; de Nicorago,1,1,1
+Bois ; des Isles et des Indes ; de Nicorago,bois ; des îles et des Indes ; de Nicorago,1,1,1
 Bois ; De noyer,bois ; de noyer,1,1,28
 Bois ; de Noyer,bois ; de noyer,1,2,28
 Bois ; de noyer,bois ; de noyer,1,16,28
@@ -2653,11 +2653,11 @@ Bois de noyer,bois ; de noyer,1,5,28
 Bois; de noyer,bois ; de noyer,1,1,28
 bois de noyer,bois ; de noyer,0,0,0
 bois de palisante,bois ; de palisante,0,0,0
-Bois ; d'indes pour teinture et marqueterie ; de palissandre,bois ; de palissandre,1,1,40
+Bois ; d'indes pour teinture et marqueterie ; de palissandre,bois ; d'Inde pour teinture et marqueterie ; de palissandre,1,1,40
 Bois ; de Palissandre,bois ; de palissandre,1,3,40
 Bois ; de palissandre,bois ; de palissandre,1,29,40
 Bois ; de patissandre,bois ; de palissandre,1,5,40
-Bois ; de pourpre,bois ; de palissandre,1,1,40
+Bois ; de pourpre,bois ; de pourpre,1,1,40
 Bois; de palissandre,bois ; de palissandre,1,1,40
 Bois ; de passementerie ; en mats,bois ; de passementerie ; en mat,1,2,2
 Bois ; de passementerie ; en planches ; de sapin,bois ; de passementerie ; en planche ; de sapin,1,4,4
@@ -2667,10 +2667,10 @@ Bois ; de Sermambourg,bois ; de Pernambouc,1,1,23
 Bois ; de Sermanbourg,bois ; de Pernambouc,1,1,23
 Bois ; de Simanbourg,bois ; de Pernambouc,1,2,23
 Bois ; de pernambouc,bois ; de Pernambouc,1,2,23
-Bois ; des Isles ; de fernambourg,bois ; de Pernambouc,1,1,23
-Bois ; des Isles et des Indes ; de fernambourg,bois ; de Pernambouc,1,2,23
+Bois ; des Isles ; de fernambourg,bois ; des îles ; de Pernambouc,1,1,23
+Bois ; des Isles et des Indes ; de fernambourg,bois ; des îles et des Indes ; de Pernambouc,1,2,23
 Bois de Fer nambourg,bois ; de Pernambouc,1,2,23
-Bois de Fer nambourg rapé,bois ; de Pernambouc,1,1,23
+Bois de Fer nambourg rapé,bois ; de Pernambouc ; rapé,1,1,23
 Bois de Permanbouc,bois ; de Pernambouc,1,1,23
 Bois de Termanbour,bois ; de Pernambouc,1,1,23
 Bois de permanbonne,bois ; de Pernambouc,1,1,23
@@ -2684,7 +2684,7 @@ Bois ; de Provence,bois ; de Provence,1,1,1
 Bois; de raquette,bois ; de raquette,1,1,1
 Réglisse (bois de ),bois ; de réglisse,1,9,42
 Réglisse en bois,bois ; de réglisse,1,33,42
-Bois ; de Rhode,bois ; de Rhode,1,1,1
+Bois ; de Rhode,bois ; de Rhodes,1,1,1
 Bois ; D'inde ; De Rodes,bois ; de Rhodes,1,1,5
 Bois ; de Rhodes,bois ; de Rhodes,1,3,5
 Bois; de Rhodes,bois ; de Rhodes,1,1,5
@@ -2697,24 +2697,24 @@ Bois ; de roze,bois ; de rose,1,32,44
 Bois de rose,bois ; de rose,0,0,0
 Bois; de roze,bois ; de rose,1,2,44
 Bois . De roüage,bois ; de rouage,1,1,1
-Bois ; de palessandre,bois ; de rouage,1,1,12
+Bois ; de palessandre,bois ; de palisante,1,1,12
 Bois ; de rouage,bois ; de rouage,1,6,12
 Bois ; de roüage,bois ; de rouage,1,3,12
 Bois; de roüage,bois ; de rouage,1,2,12
 bois de rouage et ouvrages de charonerie,bois ; de rouage et ouvrage de charonerie,0,0,0
-Bois  ; de sainte marthe,bois ; de sainte Marthe,1,1,1
+Bois  ; de sainte marthe,bois ; de Sainte Marthe,1,1,1
 Bois ; de N marthe,bois ; de Sainte Marthe,1,1,1
 "Bois , de sandal",bois ; de santal,1,1,1
-Bois ; D'Indes pour peinture et marqueterie ; De Sandal,bois ; de santal,1,2,90
-Bois ; D'inde ; De Fondal,bois ; de santal,1,2,90
-Bois ; D'inde ; De sandal,bois ; de santal,1,4,90
-Bois ; D'inde pour peinture et marqueterie ; De Sandal,bois ; de santal,1,1,90
+Bois ; D'Indes pour peinture et marqueterie ; De Sandal,bois ; d'Inde pour peinture et marqueterie ; de santal,1,2,90
+Bois ; D'inde ; De Fondal,Bois ; d'Inde ; de santal,1,2,90
+Bois ; D'inde ; De sandal,Bois ; d'Inde ; de santal,1,4,90
+Bois ; D'inde pour peinture et marqueterie ; De Sandal,bois ; d'Inde pour peinture et marqueterie ; de santal,1,1,90
 Bois ; Sandal,bois ; de santal,1,1,90
 Bois ; de Sandal,bois ; de santal,1,3,90
 Bois ; de Santal,bois ; de santal,1,2,90
 Bois ; de sandal,bois ; de santal,1,45,90
 Bois ; de santal,bois ; de santal,1,18,90
-Bois ; des Isles et des Indes ; de santal,bois ; de santal,1,2,90
+Bois ; des Isles et des Indes ; de santal,bois ; des îles et des Indes ; de santal,1,2,90
 Bois de sandale,bois ; de santal,1,4,90
 Bois sandale,bois ; de santal,1,1,90
 Bois; de sandal,bois ; de santal,1,4,90
@@ -2735,7 +2735,7 @@ Bois ; de Sap,bois ; de sapin,1,1,103
 Bois ; de Sapin,bois ; de sapin,1,8,103
 Bois ; de sapan,bois ; de sapin,1,22,103
 Bois ; de sapin,bois ; de sapin,1,45,103
-Bois ; de sapin ; divers,bois ; de sapin,1,2,103
+Bois ; de sapin ; divers,bois ; de sapin ; divers,1,2,103
 Bois de Sapin,bois ; de sapin,1,8,103
 Bois; de sapan,bois ; de sapin,1,1,103
 Bois; de sapin,bois ; de sapin,1,1,103
@@ -2777,9 +2777,9 @@ Bois ; de sommier,bois ; de sommier,1,2,2
 Bois de Saint Martin,bois ; de St. Martin,0,0,0
 Bois de St Martin,bois ; de St. Martin,0,0,0
 Bois ; de Sainte Lucie,bois ; de Ste Lucie,1,1,1
-Bois ; D'Indes pour peinture et marqueterie ; de Sainte-Marthe,bois ; de Ste Marthe,1,6,122
-Bois ; D'inde ; De Saint Marthe,bois ; de Ste Marthe,1,1,122
-Bois ; D'inde pour peinture et marqueterie ; de Sainte-Marthe,bois ; de Ste Marthe,1,9,122
+Bois ; D'Indes pour peinture et marqueterie ; de Sainte-Marthe,bois ; d'Inde pour peinture et marqueterie ; de Ste Marthe,1,6,122
+Bois ; D'inde ; De Saint Marthe,bois ; d'Inde ; de Ste Marthe,1,1,122
+Bois ; D'inde pour peinture et marqueterie ; de Sainte-Marthe,bois ; d'Inde pour peinture et marqueterie ; de Ste Marthe,1,9,122
 Bois ; de S Marthe,bois ; de Ste Marthe,1,2,122
 Bois ; de S.Marth,bois ; de Ste Marthe,1,1,122
 Bois ; de S.marthe,bois ; de Ste Marthe,1,4,122
@@ -2794,7 +2794,7 @@ Bois ; de Ste-Marthe,bois ; de Ste Marthe,1,2,122
 Bois ; de Ste. Marthe,bois ; de Ste Marthe,1,1,122
 Bois ; de s.marthe,bois ; de Ste Marthe,1,4,122
 Bois ; de sainte marthe,bois ; de Ste Marthe,1,11,122
-Bois ; des Isles et des Indes ; de Sainte Marthe,bois ; de Ste Marthe,1,2,122
+Bois ; des Isles et des Indes ; de Sainte Marthe,bois ; des îles et des Indes ; de Ste Marthe,1,2,122
 Bois ; des marthe,bois ; de Ste Marthe,1,1,122
 Bois de Sainte-Marthe,bois ; de Ste Marthe,1,1,122
 Bois de St Marthe,bois ; de Ste Marthe,1,1,122
@@ -2811,12 +2811,12 @@ Bois de teinture,bois ; de teinture,1,50,61
 Bois; de teinture,bois ; de teinture,1,1,61
 Bois ; de teinture ; d'Hondurat,bois ; de teinture ; d'Honduras,1,1,1
 Bois ; de teinture ; de campêche,bois ; de teinture ; de campêche,1,3,5
-Bois ; des Isles et des Indes ; de campêche,bois ; de teinture ; de campêche,1,2,5
+Bois ; des Isles et des Indes ; de campêche,bois ; des îles et des Indes ; de campêche,1,2,5
 Bois ; de teinture ; de fustick,bois ; de teinture ; de fustick,1,1,1
 Bois ; de teinture ; divers,bois ; de teinture ; divers,1,1,1
 Bois ; de teinture ; en buches,bois ; de teinture ; en buche,1,2,2
 Bois ; de teinture ; moulu,bois ; de teinture ; moulu,1,4,5
-Bois ; des Isles ; de teinture ; moulu,bois ; de teinture ; moulu,1,1,5
+Bois ; des Isles ; de teinture ; moulu,bois ; des îles ; de teinture ; moulu,1,1,5
 Bois ; de teinture ; nicaragua,bois ; de teinture ; nicaragua,1,1,1
 Bois ; de teinture et Marqueterie,bois ; de teinture et marqueterie,1,1,3
 Bois ; teinture et Marqueterie,bois ; de teinture et marqueterie,1,2,3
@@ -2826,7 +2826,7 @@ Bois ; de tilleul,bois ; de tilleul,1,1,3
 Bois de Tilleul,bois ; de tilleul,0,0,0
 bois de toutes sortes,bois ; de toute sorte,0,0,0
 bois de toutes sortes declarés par valeur,bois ; de toute sorte declarés par valeur,0,0,0
-Bois ; D'inde ; De violette,bois ; de violette,1,1,13
+Bois ; D'inde ; De violette,Bois ; d'Inde ; de violette,1,1,13
 Bois ; de violette,bois ; de violette,1,12,13
 2///Matières premières///Bois de Iles,bois ; des Iles,1,8,26
 2///Matières premières///Bois des iles,bois ; des Iles,1,17,26
@@ -2836,14 +2836,14 @@ Bois ; des Isles et des Indes,bois ; des Isles et des Indes,1,2,2
 bois dit 'ricter',bois ; dit 'ricter',0,0,0
 bois dit ricter,bois ; dit 'ricter',0,0,0
 Bois ; dit a fonds,bois ; dit a fond,1,1,1
-bois dit schaelen ou rebus de bois,bois ; dit schaelen ou rebus de bois ;,0,0,0
+bois dit schaelen ou rebus de bois,bois ; dit schaelen ou rebus de bois,0,0,0
 2///Matières première///Bois divers,bois ; divers,1,17,659
 2///Matières premières///Bois divers,bois ; divers,1,77,659
 Bois ; Divers,bois ; divers,1,11,659
-Bois ; des Isles et des Indes ; divers,bois ; divers,1,2,659
+Bois ; des Isles et des Indes ; divers,bois ; des îles et des Indes ; divers,1,2,659
 Bois ; divers,bois ; divers,1,61,659
 Bois divers,bois ; divers,1,487,659
-Marchandises provenant du commerce français dans l'Inde ; bois divers,bois ; divers,1,3,659
+Marchandises provenant du commerce français dans l'Inde ; bois divers,bois ; des Indes ; divers,1,3,659
 bois dit werres,bois ; divers,0,0,0
 Bois ; divers ; en planches,bois ; divers ; en planche,1,6,6
 Bois ; divers ; de construction,bois ; divers ; pour construction,1,3,8
@@ -2877,12 +2877,12 @@ Bois ; en materiaux,bois ; en matériaux,1,1,1
 Bois ; En planches,bois ; en planche,1,24,37
 Bois ; en planches,bois ; en planche,1,12,37
 Bois en planches,bois ; en planche,1,9,9
-bois scié en planches,bois ; en planche,0,0,0
+bois scié en planches,bois ; en planche ; scié,0,0,0
 Bois ; en rames,bois ; en rame,1,1,1
 Bois ; en tailles ; à couvrir,bois ; en taille ; à couvrir,1,1,1
 Bois ; en tranches,bois ; en tranche,1,13,13
-Bois ; esparts ; de 4 à 5 pieds,bois ; épar ; de 4 à 5 pieds,1,1,1
-Bois ; espars ; de 40 à 50 pieds,bois ; épar ; de 40 à 50 pieds,1,1,1
+Bois ; esparts ; de 4 à 5 pieds,bois ; espar ; de 4 à 5 pieds,1,1,1
+Bois ; espars ; de 40 à 50 pieds,bois ; espar ; de 40 à 50 pieds,1,1,1
 Bois ; espars d; e 40 à 50 pieds,bois ; espar ; de 40 à 50 pieds,1,1,1
 Bois ; espars ; de 56 à 61 pieds,bois ; espar ; de 56 à 61 pieds,1,1,1
 bois et jus de reglisse,bois ; et jus de réglisse,0,0,0
@@ -2898,21 +2898,21 @@ Bois feuillard,bois ; feuillard,1,3,73
 Bois feuillards,bois ; feuillard,1,69,73
 Bois ; flotté ; en étançons ; ronds,bois ; flotté ; en étançon ; rond,1,1,1
 Bois ; foncaille,bois ; fonçaille,1,1,1
-Bois ; D'inde pour peinture et marqueterie ; De Fustel,bois ; fustel,1,1,3
-Bois ; des Isles et des Indes ; fustel,bois ; fustel,1,2,3
+Bois ; D'inde pour peinture et marqueterie ; De Fustel,Bois ; d'Inde pour peinture et marqueterie ; fustel,1,1,3
+Bois ; des Isles et des Indes ; fustel,Bois ; des îles et des Indes ; fustel,1,2,3
 Bois fustel,bois ; fustel,1,1,1
 Bois ; gros,bois ; gros,1,3,3
-Bois ; D'inde ; Jaune,bois ; jaune,1,3,125
-Bois ; D'inde ; June,bois ; jaune,1,1,125
-Bois ; D'inde pour peinture et marqueterie ; Jaune,bois ; jaune,1,2,125
+Bois ; D'inde ; Jaune,Bois ; d'Inde ; jaune,1,3,125
+Bois ; D'inde ; June,Bois ; d'Inde ; jaune,1,1,125
+Bois ; D'inde pour peinture et marqueterie ; Jaune,Bois ; d'Inde pour teinture et marqueterie ; jaune,1,2,125
 Bois ; Jaune,bois ; jaune,1,7,125
 Bois ; Jeaune,bois ; jaune,1,2,125
 Bois ; Jeaunes,bois ; jaune,1,1,125
-Bois ; d'indes pour teinture et marqueterie ; jaune,bois ; jaune,1,5,125
-Bois ; des Isles et des Indes ; jaune,bois ; jaune,1,2,125
+Bois ; d'indes pour teinture et marqueterie ; jaune,Bois ; d'Inde pour teinture et marqueterie ; jaune,1,5,125
+Bois ; des Isles et des Indes ; jaune,Bois ; des îles et des Indes ; jaune,1,2,125
 Bois ; jaune,bois ; jaune,1,80,125
 Bois ; jeaune,bois ; jaune,1,13,125
-Bois ; long,bois ; jaune,1,1,125
+Bois ; long,bois ; long,1,1,125
 Bois Jaune,bois ; jaune,1,4,125
 Bois; jaune,bois ; jaune,1,4,125
 Bois ; jeaune moulu,bois ; jaune ; moulu,1,1,1
@@ -2999,7 +2999,7 @@ Bois ; qxxx cribles,bois ; pour crible,1,1,20
 Bois; pour cribles,bois ; pour crible,1,1,20
 Bois pour fonds de tonneaux,bois ; pour fond de tonneau,0,0,0
 Bois pour fûts,bois ; pour fût,0,0,0
-bois pour instrumens de musique,bois ; pour instrumen de musique,0,0,0
+bois pour instrumens de musique,bois ; pour instrument de musique,0,0,0
 bois pour lattes,bois ; pour latte,0,0,0
 Bois ; pour Meubles,bois ; pour meuble,1,1,3
 Bois ; pour meuble,bois ; pour meuble,1,1,3
@@ -3016,14 +3016,14 @@ bois préparée pour charpente et autres ouvrages,bois ; préparée pour charpen
 bois préparée pour palissades,bois ; préparée pour palissade,0,0,0
 bois préparée pour palissades et terrasse,bois ; préparée pour palissade et terrasse,0,0,0
 Bois ; rosal,bois ; rosal,1,1,1
-Bois ; D'Indes pour peinture et marqueterie ; Rose,bois ; rose,1,1,6
+Bois ; D'Indes pour peinture et marqueterie ; Rose,bois ; d'Inde pour peinture et marqueterie ; rose,1,1,6
 Bois ; Rozard,bois ; rose,1,1,6
 Bois ; rose,bois ; rose,1,1,6
 Bois ; rozard,bois ; rose,1,1,6
 Bois ; roze,bois ; rose,1,2,6
-Bois ; D'Indes pour peinture et marqueterie ; Range,bois ; rouge,1,4,69
-Bois ; D'inde pour peinture et marqueterie ; Ronge,bois ; rouge,1,1,69
-Bois ; des Isles et des Indes ; rouge,bois ; rouge,1,1,69
+Bois ; D'Indes pour peinture et marqueterie ; Range,bois ; d'Inde pour teinture et marqueterie ; rouge,1,4,69
+Bois ; D'inde pour peinture et marqueterie ; Ronge,bois ; d'Inde pour teinture et marqueterie ; rouge,1,1,69
+Bois ; des Isles et des Indes ; rouge,bois ; des îles et des Indes ; rouge,1,1,69
 Bois ; rouge,bois ; rouge,1,55,69
 Bois ; roüage,bois ; rouge,1,1,69
 Bois rouge,bois ; rouge,1,2,69
@@ -3043,7 +3043,7 @@ bois scié,bois ; scié,0,0,0
 Bois ; scié ; en barreaux,bois ; scié ; en barreau,1,1,1
 bois scié de toutes sortes declarés par valeur,bois ; scié de toute sorte declaré par valeur,0,0,0
 bois scié en gites,bois ; scié en gite,0,0,0
-bois scié en pieds de gittes,bois ; scié en pied de gitte,0,0,0
+bois scié en pieds de gittes,bois ; scié en pied de gite,0,0,0
 Bois ; scié en planches,bois ; scié en planche,1,3,3
 Bois sciés en planches,bois ; scié en planche,1,61,61
 bois scié en verres,bois ; scié en verre,0,0,0
@@ -3094,7 +3094,7 @@ Boëtes de bois,boîte ; de bois,1,1,56
 Boëtes; de bois,boîte ; de bois,1,5,56
 Boëttes ; de bois,boîte ; de bois,1,2,56
 Böetes de bois,boîte ; de bois,1,1,56
-Bœuf,boîte ; de bois,1,1,56
+Bœuf,bestiau ; bœuf,1,1,56
 Boistes ; de bois ; violet,boîte ; de bois ; violet,1,1,1
 Boetes ; de cadrille,boîte ; de cadrille,1,1,1
 Boëtes ; de cadrille,boîte ; de cadrille,1,2,2
@@ -3134,8 +3134,8 @@ bombazin,bombasin,1,1,17
 Bombazin ; de Troyes,bombasin ; de Troyes,1,1,1
 Bombes,bombe,1,2,3
 Bombes ?,bombe,0,0,0
-Bolbet de coton,bombe de coton,1,1,2
-Boldes d'Espagne,bombe de coton,1,1,2
+Bolbet de coton,bolbet de coton,1,1,2
+Boldes d'Espagne,boldes ; d'Espagne,1,1,2
 Bombes et boulets,bombe et boulet,1,1,1
 bombes et grenades,bombe et grenade,0,0,0
 Bonnets,bonnet,1,5,5
@@ -3201,15 +3201,15 @@ Bonnets ; de toile cirée,bonnet ; de toile cirée,1,3,3
 Bonnet ; de velours,bonnet ; de velours,1,2,9
 Bonnets ; de velour,bonnet ; de velours,1,2,9
 Bonnets ; de velours,bonnet ; de velours,1,1,9
-Bonnets ; montés,bonnet ; de velours,1,1,9
-Bonnets ; écarlatte,bonnet ; de velours,1,1,9
+Bonnets ; montés,bonnet ; monté,1,1,9
+Bonnets ; écarlatte,bonnet ; écarlatte,1,1,9
 Bonnets; de velour,bonnet ; de velours,1,1,9
 bonnets de velours,bonnet ; de velours,0,0,0
 Bonnets ; de velours ; brodés,bonnet ; de velours ; brodé,1,1,1
 Bonnets ; fil et coton,bonnet ; fil et coton,1,1,1
 Bonnets; piquets,bonnet ; picque,1,2,3
 bonnets picques,bonnet ; picque,0,0,0
-"bonnets picques, carcasses et fers à coeffures","bonnet ; picque, carcasse et fer à coeffure",0,0,0
+"bonnets picques, carcasses et fers à coeffures","bonnet ; picque, carcasse et fer à coiffure",0,0,0
 Bonnets ; piqués,bonnet ; piqué,1,7,7
 Bonneterie,bonneterie,1,15,16
 Bonneterie ; ?,bonneterie,1,1,16
@@ -3225,7 +3225,7 @@ Boneterie ; de coton,bonneterie ; de coton,1,1,1
 Bonneterie ; De Coton,bonneterie ; de coton,1,9,55
 Bonneterie ; De coton,bonneterie ; de coton,1,25,55
 Bonneterie ; de coton,bonneterie ; de coton,1,19,55
-Bonneterie ; de coton ; tricot,bonneterie ; de coton,1,1,55
+Bonneterie ; de coton ; tricot,bonneterie ; de coton ; au tricot,1,1,55
 Bonneterie ; de cotton,bonneterie ; de coton,1,1,55
 Bonneterie ; de coton ; au tricot,bonneterie ; de coton ; au tricot,1,1,1
 Bonneterie ; de coton et laine,bonneterie ; de coton et laine,1,2,2
@@ -3252,7 +3252,7 @@ Bonneterie ; de laine,bonneterie ; de laine,1,64,138
 Bonneterie ; de layne,bonneterie ; de laine,1,1,138
 Bonneterie de laine,bonneterie ; de laine,1,22,138
 Bonneteries de laine,bonneterie ; de laine,1,1,138
-Bonneteries de laine et poil,bonneterie ; de laine,1,12,138
+Bonneteries de laine et poil,bonneterie ; de laine et poil,1,12,138
 Bonnetrie de laine,bonneterie ; de laine,1,2,138
 Bonneterie ; de laine ; ?,bonneterie ; de laine ; ?,1,1,1
 Bonneterie ; de laine ; diverse,bonneterie ; de laine ; diverse,1,1,1
@@ -3261,7 +3261,7 @@ Bonneterie ; de laine et cotton,bonneterie ; de laine et coton,1,1,1
 Bonneterie ; De Soye,bonneterie ; de soie,1,38,327
 Bonneterie ; De soye,bonneterie ; de soie,1,12,327
 Bonneterie ; de soye,bonneterie ; de soie,1,29,327
-Bonneterie ; de soye ; diverse,bonneterie ; de soie,1,1,327
+Bonneterie ; de soye ; diverse,bonneterie ; de soie ; diverse,1,1,327
 Bonneterie de soie,bonneterie ; de soie,1,27,327
 Bonneteries de soie,bonneterie ; de soie,1,172,327
 Bonneterie ; de soye ; au 6è,bonneterie ; de soie ; au 6e,1,3,3
@@ -3392,8 +3392,8 @@ Bougies,bougie,1,14,469
 bougie,bougie,1,14,469
 Bougie ; blanche,bougie ; blanche,1,2,23
 Bougie blanche,bougie ; blanche,1,2,23
-Bougie de cire blanche,bougie ; blanche,1,18,23
-Bougies de cires blanches,bougie ; blanche,1,1,23
+Bougie de cire blanche,bougie ; de cire ; blanche,1,18,23
+Bougies de cires blanches,bougie ; de cire ; blanche,1,1,23
 Bougie ; de Blanc ; de baleine,bougie ; de blanc ; de baleine,1,1,1
 Bougie ; de cire ; blanche,bougie ; de cire ; blanche,1,9,12
 Bougie de Cire blanche,bougie ; de cire ; blanche,1,2,12
@@ -3526,9 +3526,9 @@ Bourre ; de laine,bourre ; de laine,1,1,2
 bourre et bouts de laine,bourre ; de laine,0,0,0
 Bourre ; de Levant,bourre ; de Levant,1,3,27
 Bours ; de Levant,bourre ; de Levant,1,7,27
-Bours ; de laine,bourre ; de Levant,1,1,27
+Bours ; de laine,bourre ; de laine,1,1,27
 Bours ; de levant,bourre ; de Levant,1,2,27
-Bours ; en soye,bourre ; de Levant,1,1,27
+Bours ; en soye,bourre ; de soie,1,1,27
 Bours de Levant,bourre ; de Levant,1,10,27
 Bours du Levant,bourre ; de Levant,1,3,27
 Bours de mismes,bourre ; de Mismes,1,1,1
@@ -3611,7 +3611,7 @@ Bouteilles ; verre,bouteille ; de verre,1,10,463
 Bouteilles de Verre,bouteille ; de verre,1,18,463
 Bouteilles de Verre lifseen,bouteille ; de verre,1,1,463
 Bouteilles de Verre s,bouteille ; de verre,1,4,463
-Bouteilles de Verre s clisés,bouteille ; de verre,1,1,463
+Bouteilles de Verre s clisés,bouteille ; de verre ; clissée,1,1,463
 Bouteilles de Verres,bouteille ; de verre,1,3,463
 Bouteilles de verre,bouteille ; de verre,1,161,463
 Bouteilles de verres,bouteille ; de verre,1,7,463
@@ -3619,15 +3619,15 @@ Bouteilles en verre,bouteille ; de verre,1,1,463
 bouteilles ; de verre,bouteille ; de verre,1,2,463
 bouteilles de Verres,bouteille ; de verre,1,1,463
 bouteilles de verre,bouteille ; de verre,0,0,0
-bouteilles de verre avec roseaux,bouteille ; de verre,0,0,0
-Bouteilles ; de verre ; clissées,bouteille ; de verre ; clissée,1,1,1
-Bouteilles ; de verre clissées,bouteille ; de verre ; clissée,1,1,1
+bouteilles de verre avec roseaux,bouteille ; de verre ; avec roseau,0,0,0
+Bouteilles ; de verre ; clissées,bouteille ; de verre ; clissé,1,1,1
+Bouteilles ; de verre clissées,bouteille ; de verre ; clissé,1,1,1
 bouteilles de verre garnis de joncs,bouteille ; de verre ; garnie de jonc,0,0,0
 Bouteille de gros Verre,bouteille ; de verre ; gros,1,1,6
 Bouteilles de Verre gros,bouteille ; de verre ; gros,1,5,6
-Bouteilles de Verre clisé,bouteille ; de verre ; lissée,1,2,6
-Bouteilles de Verre clisée,bouteille ; de verre ; lissée,1,2,6
-Bouteilles de verres lissées,bouteille ; de verre ; lissée,1,2,6
+Bouteilles de Verre clisé,bouteille ; de verre ; clissé,1,2,6
+Bouteilles de Verre clisée,bouteille ; de verre ; clissé,1,2,6
+Bouteilles de verres lissées,bouteille ; de verre ; clissé,1,2,6
 Bouteilles ; de verre ; vuides,bouteille ; de verre ; vide,1,1,4
 Bouteilles de verre vuides,bouteille ; de verre ; vide,1,2,4
 Bouteilles de verres vuides,bouteille ; de verre ; vide,1,1,4
@@ -3635,7 +3635,7 @@ Bouteille Elisées,bouteille ; Elisées,1,1,1
 Bouteille lissées,bouteille ; lissée,1,1,2
 Bouteilles lissées,bouteille ; lissée,1,1,2
 Bouteilles vuides,bouteille ; vide,1,2,2
-Bouton ; divers,bouton,1,3,5
+Bouton ; divers,bouton ; divers,1,3,5
 Boutons,bouton,1,2,5
 Boutons ; à pierres ; fausses,bouton ; à pierre ; fausse,1,3,5
 Boutons ; à pierres fausses,bouton ; à pierre ; fausse,1,2,5
@@ -3662,7 +3662,7 @@ Bouton ; d'or,bouton ; d'or,1,5,95
 Boutons ; d'or,bouton ; d'or,1,20,95
 Boutons ; d'os,bouton ; d'or,1,2,95
 Boutons ; dorure ; d'or,bouton ; d'or,1,49,95
-Boutons ; dorure ; d'or ; fin,bouton ; d'or,1,3,95
+Boutons ; dorure ; d'or ; fin,bouton ; d'or ; fin,1,3,95
 Boutons ; dorures ; d'or,bouton ; d'or,1,3,95
 Boutons d'or,bouton ; d'or,1,2,95
 Boutons dor,bouton ; d'or,1,1,95
@@ -3704,8 +3704,8 @@ boutons de cornes,bouton ; de corne,0,0,0
 Boutons ; de coton,bouton ; de coton,1,1,1
 Bouton ; de crin,bouton ; de crin,1,2,91
 Bouton de crin,bouton ; de crin,1,1,91
-Boutons ; d'étaim,bouton ; de crin,1,1,91
-Boutons ; de composition,bouton ; de crin,1,3,91
+Boutons ; d'étaim,bouton ; d'étain,1,1,91
+Boutons ; de composition,bouton ; de composition,1,3,91
 Boutons ; de crin,bouton ; de crin,1,75,91
 Boutons ; en crin,bouton ; de crin,1,4,91
 Boutons de crin,bouton ; de crin,1,2,91
@@ -3716,8 +3716,8 @@ Boutons de crain poil et soye,"bouton ; de crin, poil de soie",1,1,2
 "Boutons de crin, poil de soye","bouton ; de crin, poil de soie",1,1,2
 Boutons ; de cristal,bouton ; de cristal,1,1,1
 Boutons ; de cuivre,bouton ; de cuivre,1,15,19
-Boutons ; de cuivre doré,bouton ; de cuivre,1,2,19
-Boutons; de cuivre doré,bouton ; de cuivre,1,1,19
+Boutons ; de cuivre doré,bouton ; de cuivre ; doré,1,2,19
+Boutons; de cuivre doré,bouton ; de cuivre ; doré,1,1,19
 boutons de cuivre,bouton ; de cuivre,0,0,0
 Bouton ; de cuivre ; doré,bouton ; de cuivre ; doré,1,1,4
 Boutons ; de cuivre ; doré,bouton ; de cuivre ; doré,1,3,4
@@ -3729,9 +3729,9 @@ boutons de cuivre sur bois,bouton ; de cuivre sur bois,0,0,0
 "boutons de cuivre sur bois, d'os de cocq et de cornes","bouton ; de cuivre sur bois, d'os de cocq et de corne",0,0,0
 Bouton ; de fil,bouton ; de fil,1,1,63
 Boutons ; de fil,bouton ; de fil,1,28,63
-Boutons ; de fil ; d'argent,bouton ; de fil,1,6,63
-Boutons ; de fil ; d'or,bouton ; de fil,1,11,63
-Boutons ; de fil ; d'or et d'argent,bouton ; de fil,1,8,63
+Boutons ; de fil ; d'argent,bouton ; de fil d'argent,1,6,63
+Boutons ; de fil ; d'or,bouton ; de fil d'or,1,11,63
+Boutons ; de fil ; d'or et d'argent,bouton ; de fil ; or et argent,1,8,63
 Boutons de Fil,bouton ; de fil,1,3,63
 Boutons de fil,bouton ; de fil,1,3,63
 Boutons; de fil,bouton ; de fil,1,2,63
@@ -3770,7 +3770,7 @@ boutons de métal doré,bouton ; de métal doré,0,0,0
 Boutons ; de nacre,bouton ; de nacre,1,2,2
 boutons de nacre de perle,bouton ; de nacre de perle,0,0,0
 boutons de nacre de perle et jayet,bouton ; de nacre de perle et jayet,0,0,0
-Bouton ; de Pinsbach,bouton ; de Pinsbach,1,1,1
+Bouton ; de Pinsbach,bouton ; de Pinsbeck,1,1,1
 boutons de Pinsbeck,bouton ; de Pinsbeck,0,0,0
 Boutons ; de poil,bouton ; de poil,1,21,28
 Boutons ; de poils,bouton ; de poil,1,2,28
@@ -3782,7 +3782,7 @@ Boutons ; de poil ; de chèvre,bouton ; de poil ; de chèvre,1,1,6
 Boutons de poil de chevre,bouton ; de poil ; de chèvre,1,1,6
 Bouton ; de soye,bouton ; de soie,1,1,9
 Boutons ; de soye,bouton ; de soie,1,5,9
-Boutons ; de soye ; en onces,bouton ; de soie,1,1,1
+Boutons ; de soye ; en onces,bouton ; de soie ; en once,1,1,1
 Boutons de soye,bouton ; de soie,1,2,9
 boutons de soye,bouton ; de soie,0,0,0
 Boutons ; de soïe à poil,bouton ; de soie à poil,1,1,3
@@ -3814,7 +3814,7 @@ Boyaux ; salés,boyau ; salé,1,12,31
 Boyaux salés,boyau ; salé,1,14,31
 Boyeaux ; salé,boyau ; salé,1,1,31
 Boyeaux salés,boyau ; salé,1,1,31
-Braccles,boyau ; salé,1,1,31
+Braccles,braccle,1,1,31
 Bozemin,bozemin,1,1,1
 Brai ; gras,brai ; gras,1,3,5
 Brais ; gras,brai ; gras,1,2,5
@@ -3848,8 +3848,8 @@ Braulé,braule,1,1,20
 Brais,bray,1,5,195
 Bray,bray,1,65,195
 Bray gras,bray,1,99,195
-"Bray, Goudron, Resine et poix ; Bray",bray,1,10,195
-"Bray, Goudron, résine et poix ; Bray",bray,1,13,195
+"Bray, Goudron, Resine et poix ; Bray","bray, goudron, résine et poix ; résine",1,10,195
+"Bray, Goudron, résine et poix ; Bray","bray, goudron, résine et poix ; résine",1,13,195
 bray,bray,1,2,195
 braye,bray,1,1,195
 bray à brasser,bray ; à brasser,0,0,0
@@ -3954,8 +3954,8 @@ broderie de toute sorte,broderie de toute sorte,0,0,0
 broderies de toute espèce,broderie de toute sorte,0,0,0
 Bronze,bronze,1,6,6
 broole,broole,1,1,1
-Brose,brose,1,2,2
-Brose a gaudroune,brose ; à goudron,1,3,3
+Brose,brosse,1,2,2
+Brose a gaudroune,brosse ; à goudron,1,3,3
 Brosses a cirer,brosse ; à cirer,1,1,1
 Brosses ; a gaudron,brosse ; à goudron,1,1,1
 Broses a Gaudronne,brosse ; à goudronner,1,1,2
@@ -3967,7 +3967,7 @@ Broserie,brosserie,1,4,146
 Brosles,brosserie,1,1,146
 Brosse,brosserie,1,5,146
 Brosserie,brosserie,1,113,146
-Brosserie commune,brosserie,1,1,146
+Brosserie commune,brosserie; commune,1,1,146
 Brosserie ou poutries,brosserie,1,1,146
 Brosseries,brosserie,1,10,146
 Brosses,brosserie,1,7,146
@@ -4116,12 +4116,12 @@ Cachou ; brut,cachou ; brut,1,2,2
 Cachou brut,cachou ; brut,1,1,1
 Cahouanne,cacouanne,1,1,1
 cadenats,cadena,1,2,2
-Cadenats,cadenas,1,19,19
-Cadenats ; de fer,cadenas ; de fer,1,1,1
-Cadenats ; petits,cadenas ; petit,1,1,1
-Cadis,cadi,1,21,23
-Cadix,cadi,1,1,23
-cadis,cadi,1,1,23
+Cadenats,cadena,1,19,19
+Cadenats ; de fer,cadena ; de fer,1,1,1
+Cadenats ; petits,cadena ; petit,1,1,1
+Cadis,cadis,1,21,23
+Cadix,cadis,1,1,23
+cadis,cadis,1,1,23
 Cadis Rouge,cadis ; rouge,1,1,1
 Cadre ; de bois,cadre ; de bois,1,2,6
 Cadre de bois,cadre ; de bois,1,1,6
@@ -4143,19 +4143,19 @@ Marchandises de Colonies françaises de l'Amérique ; Caffé,café,1,21,820
 cafas,café,1,1,820
 caffe,café,1,5,820
 caffé,café,1,9,820
-Marchandises provenant du commerce français dans l'Inde ; Caffé ; Bourbon,café ; bourbon,1,8,8
+Marchandises provenant du commerce français dans l'Inde ; Caffé ; Bourbon,café ; de bourbon,1,8,8
 Caffé ; de Bourbon,café ; de bourbon,1,57,85
 Caffé ; de bourbon,café ; de bourbon,1,14,85
 Caffé de Bourbon,café ; de bourbon,1,3,85
 Café ; de Bourbon,café ; de bourbon,1,8,85
 Marchandises des Indes ; Caffé ; de Bourbon,café ; de bourbon,0,0,0
 café ; de bourbon,café ; de bourbon,1,2,85
-Caffatinea,café ; de Levant,1,1,41
+Caffatinea,caffatinea,1,1,41
 Caffé ; de Levant,café ; de Levant,1,29,41
 Caffé ; de levant,café ; de Levant,1,1,41
 Caffé ; du Levant,café ; de Levant,1,2,41
 Caffé ; du levant,café ; de Levant,1,2,41
-Caffé ; en parchemin,café ; de Levant,1,1,41
+Caffé ; en parchemin,café ; en parchemin,1,1,41
 Café ; de Levant,café ; de Levant,1,1,41
 Café ; de levant,café ; de Levant,1,1,41
 caffé ; du Levant,café ; de Levant,1,1,41
@@ -4173,16 +4173,16 @@ Caffé moka,café ; de moka,1,3,117
 Caffée ; Moka,café ; de moka,1,3,117
 Café ; de Moka,café ; de moka,1,10,117
 Marchandises des Indes ; Caffé ; Moka,café ; de moka,0,0,0
-Caffé ; de Isles,café ; des Iles,1,14,681
-Caffé ; de isles,café ; des Iles,1,1,681
-Caffé ; des Isles,café ; des Iles,1,439,681
-Caffé ; des isles,café ; des Iles,1,38,681
-Caffé des Isles,café ; des Iles,1,124,681
-Caffé des isles,café ; des Iles,1,5,681
-Caffés des Isles,café ; des Iles,1,2,681
-Café ; des Isles,café ; des Iles,1,18,681
-Café ; des îles,café ; des Iles,1,21,681
-café ; des isles,café ; des Iles,1,19,681
+Caffé ; de Isles,café ; des îles,1,14,681
+Caffé ; de isles,café ; des îles,1,1,681
+Caffé ; des Isles,café ; des îles,1,439,681
+Caffé ; des isles,café ; des îles,1,38,681
+Caffé des Isles,café ; des îles,1,124,681
+Caffé des isles,café ; des îles,1,5,681
+Caffés des Isles,café ; des îles,1,2,681
+Café ; des Isles,café ; des îles,1,18,681
+Café ; des îles,café ; des îles,1,21,681
+café ; des isles,café ; des îles,1,19,681
 Caffé ; des Indes,café ; des Indes,1,2,2
 Caffé des L'Indes,café ; des Indes,1,1,1
 Marchandises provenant du commerce français dans l'Inde ; Caffé ; Moka,café ; moka,1,3,3
@@ -4479,7 +4479,7 @@ Canettes de Terres,cannette ; de terre,1,1,5
 Cannettes de Terre,cannette ; de terre,1,1,5
 Cannettes de Terre de Gray,cannette ; de terre et de grès,1,1,1
 Canons,canon,1,4,5
-Canons calibre de toute sorte,canon,1,1,5
+Canons calibre de toute sorte,canon ; de divers calibres,1,1,5
 Canons ; de 18 de balles,canon ; de 18 de balle,1,1,1
 Canons de carabine,canon ; de carabine,0,0,0
 Canons en cuivre,canon ; de cuivre,0,0,0
@@ -4524,9 +4524,9 @@ Canons et boulets ; de fer,canon et boulet ; de fer,1,1,2
 Canon et boullets de fert,canon et boulet de fer,1,1,1
 Canonieres de cantil,canonnière ; de cantil,1,1,2
 Canonnières ; de cantil,canonnière ; de cantil,1,1,2
-Cantaride,cantaride,1,10,150
-Cantarides,cantaride,1,89,150
-Cantharides,cantaride,1,51,150
+Cantaride,cantharide,1,10,150
+Cantarides,cantharide,1,89,150
+Cantharides,cantharide,1,51,150
 cantharides ou mouches d'Espagne,cantharide ou mouche d'Espagne,0,0,0
 cantinnes,cantine,0,0,0
 Caoutchouc,caoutchouc,0,0,0
@@ -4561,7 +4561,7 @@ Capre,câpre,1,5,352
 Capres,câpre,1,307,352
 Capris,câpre,1,4,352
 Câpres,câpre,1,35,352
-capres d'Espagne,câpre,0,0,0
+capres d'Espagne,câpre ; d'Espagne,0,0,0
 Câpres et olives,câpre et olive,0,0,0
 Olives et câpres,câpre et olive,0,0,0
 "Capres, cornichons et olives","capre, cornichon et olive",1,10,10
@@ -4595,15 +4595,15 @@ carcajou,carcajou,0,0,0
 Carcasses,carcasse,1,1,2
 carcasses,carcasse,0,0,0
 Carcasse ; à peu de soye,carcasse ; à peu de soie,1,2,2
-Cadamomum,cardamomum,1,1,1
-Cardamome,cardamone,0,0,0
-Cardamomium,cardamone,1,1,31
-Cardamomum,cardamone,1,24,31
-Cardamomun,cardamone,1,1,31
-Cardamone,cardamone,0,0,0
-Cardamum,cardamone,1,1,31
-Cardanomun,cardamone,1,1,31
-cardamonium,cardamone,1,1,31
+Cadamomum,cardamome,1,1,1
+Cardamome,cardamome,0,0,0
+Cardamomium,cardamome,1,1,31
+Cardamomum,cardamome,1,24,31
+Cardamomun,cardamome,1,1,31
+Cardamone,cardamome,0,0,0
+Cardamum,cardamome,1,1,31
+Cardanomun,cardamome,1,1,31
+cardamonium,cardamome,1,1,31
 Cardes,carde,0,0,0
 Cardes ; a carder,carde ; à carder,1,1,130
 Cardes ; à cadrer,carde ; à carder,1,1,130
@@ -4721,7 +4721,7 @@ Carreaux de pierre a paver,carreau ; de pierre à paver,1,1,2
 Carreaux de pierres de Terre,carreau ; de pierre de terre,1,1,1
 Carreaux de pierre noire,carreau ; de pierre noire,1,1,1
 Carreaux ; de sera,carreau ; de sera,1,2,2
-carreaux de sol en terre cuite (Astracan),carreau ; de sol en ter cuite,0,0,0
+carreaux de sol en terre cuite (Astracan),carreau ; de sol en terre cuite,0,0,0
 Carreau ; de terre,carreau ; de terre,1,1,199
 Carreaux ; de terre,carreau ; de terre,1,142,199
 Carreaux de Terre,carreau ; de terre,1,22,199
@@ -4784,7 +4784,7 @@ Cartes a jouer,carte ; à jouer,1,2,262
 Cartes à Jouer,carte ; à jouer,1,2,262
 Cartes à jouer,carte ; à jouer,1,142,262
 Cartes à jouers,carte ; à jouer,1,1,262
-Carts ; de nonante,carte ; à jouer,1,1,262
+Carts ; de nonante,carte ; à jouer ; de nonante,1,1,262
 cartes à jouer,carte ; à jouer,0,0,0
 Cartes ; de géografie,carte ; de géographie,1,1,7
 Cartes ; de géographie,carte ; de géographie,1,6,7
@@ -4805,14 +4805,14 @@ Cartes;  marine,carte ; marine,1,1,11
 Crates ; marines,carte ; marine,1,1,11
 Carton,carton,1,3,47
 Cartons,carton,1,43,47
-Cartons ; peints,carton,1,1,47
+Cartons ; peints,carton ; peint,1,1,47
 Carton ; à drapier,carton ; à drapier,1,1,1
 Carton ; en feuilles,carton ; en feuille,1,1,1
 Carton moulé,carton ; moulé,1,3,3
 Carton ouvré,carton ; ouvré,1,31,31
 Carton ouvré et en feuilles,carton ; ouvré et en feuille,1,31,31
 Cartouches,cartouche,1,1,1
-Carubi,carubi,1,5,5
+Carubi,carubis,1,5,5
 Carubis,carubis,1,14,14
 Carvi,carvi,1,1,1
 Carzé,carzé,1,6,6
@@ -4906,7 +4906,7 @@ Cauris ; diverses,cauri,1,1,153
 Coris,cauri,1,2,153
 cauride,cauri,1,1,153
 coris,cauri,1,1,153
-Causels de bois,cause de bois,1,1,1
+Causels de bois,causel de bois,1,1,1
 Causels ; de bars,causel de bar,1,2,3
 Causels de bar,causel de bar,1,1,3
 Caves,cave,1,7,7
@@ -9665,7 +9665,7 @@ Drogues ; médécinales ; cantharides,drogue ; médicinale ; cantharides,1,2,4
 Drogues ; Médécinales ; Capilaire,drogue ; médicinale ; capillaire,1,3,5
 Drogues ; médecinales ; capillaire,drogue ; médicinale ; capillaire,1,1,5
 Drogues ; médécinales ; capilaire,drogue ; médicinale ; capillaire,1,1,5
-Drogues ; médecinales ; cardemeum,drogue ; médicinale ; cardamone,1,1,1
+Drogues ; médecinales ; cardemeum,drogue ; médicinale ; cardamome,1,1,1
 Drogues ; médécinales ; carrouge,drogue ; médicinale ; carrouge,1,1,1
 Drogues ; médecinales ; capia liguea,drogue ; médicinale ; casa lignea,1,4,4
 Drogues ; Médécinales ; Casse,drogue ; médicinale ; casse,1,7,8
@@ -32923,7 +32923,7 @@ Moulins ; a matrys,,1,1,2352
 Objets ; divers ; dont la valeur du plus fort n'excède pas 25000 Livres,,1,2,2352
 Orcillons ; à faire  colle,,1,1,2352
 Panis ; a cachette,,1,1,2352
-Papier ; blũ,,1,1,2352
+Papier ; bl?,,1,1,2352
 Parurabruna,,1,1,2352
 Patenottes,,1,1,2352
 Peaux ; de volacres,,1,1,2352
