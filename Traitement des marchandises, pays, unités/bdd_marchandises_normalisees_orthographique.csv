@@ -6,7 +6,7 @@ marchandises,marchandises_norm_ortho,source_bdc,nbr_bdc_marchandises,nbr_bdc_mar
 ? ; blanc,???,1,2,19
 ? ; brun,???,1,2,19
 ? ; diverses,???,1,4,19
-? et lances/piquets,???,0,0,0
+? et lances/piquets,? et lances/piquets,0,0,0
 ??,???,0,0,0
 ?? (le douzaine),???,0,0,0
 ???,???,0,0,0
@@ -140,7 +140,7 @@ Aul,ail,1,1,118
 Aulx,ail,1,3,118
 Aus,ail,1,3,118
 ail blanc à casé,ail blanc à casser,1,1,1
-ailes de fleaux,aile de fleau,0,0,0
+ailes de fleaux,aile de fléau,0,0,0
 Ailes de moulin,aile de moulin,0,0,0
 Ains ; a pêcher,ain à pêcher,1,1,15
 Ains ; à pescher,ain à pêcher,1,2,15
@@ -151,7 +151,7 @@ Ains à pescher,ain à pêcher,1,4,15
 Airain,airain,1,4,8
 Airain ; en batterie,airain ; en batterie,1,2,2
 Airain ; non ouvré,airain ; non ouvré,1,4,8
-Ajamier,ajamis,1,2,65
+Ajamier,ajamier,1,2,65
 Ajamir,ajamir,1,1,65
 Ajamis,ajamis,1,60,65
 Ajamix,ajamix,1,1,30
@@ -877,11 +877,11 @@ Balais ; de jonc,balai ; de jonc,1,1,16
 Balais ; de Jong,balai ; de jonc,1,1,16
 Balais ; de jonga,balai ; de jonc,1,2,16
 Balais ; de jongs,balai ; de jonc,1,12,16
-Balai ; de jongs,balai ; de jong,1,2,7
-Balais de Jong,balai ; de jong,1,1,7
-Balais de Jong s,balai ; de jong,1,1,7
-Balais; de jongs,balai ; de jong,1,1,7
-Blois de Jong,balai ; de jong,1,1,7
+Balai ; de jongs,balai ; de jonc,1,2,7
+Balais de Jong,balai ; de jonc,1,1,7
+Balais de Jong s,balai ; de jonc,1,1,7
+Balais; de jongs,balai ; de jonc,1,1,7
+Blois de Jong,balai ; de jonc,1,1,7
 Balais ; de laine ; à laver les planchéts,balai ; de laine ; à laver les planchers,1,1,1
 Balais : de Iongs,balai ; de long,1,2,147
 Balais ; de paille de ris,balai ; de paille de riz,1,2,147
@@ -1444,9 +1444,9 @@ baye teinte / aune,baye ; teinte par aune,0,0,0
 Bayette,bayette,1,29,33
 bayette,bayette,1,1,33
 Bayettes,bayette,1,3,33
-bayonettes,bayonnette,0,0,0
-Bayonnette,bayonnette,1,1,3
-Bayonnettes,bayonnette,1,1,3
+bayonettes,baïonnette,0,0,0
+Bayonnette,baïonnette,1,1,3
+Bayonnettes,baïonnette,1,1,3
 bayoulen,bayoulen,0,0,0
 Bazzitte,bazzitte,1,1,1
 Bdellium,bdellium,1,1,3
@@ -1522,7 +1522,7 @@ bœufs et taureaux,bestiau ; bœuf et taureau,0,0,0
 "Bestiaux en bœufs, vaches, veaux, porcs et moutons","bestiau ; bœuf, vache, mouton, porc",1,55,168
 "Bestiaux en bœufs, vaches, veaux, moutons, etc","bestiau ; bœuf, vache, mouton, veau",1,7,168
 "Bestiaux en bœufs,vaches,veaux et moutons","bestiau ; bœuf, vache, mouton, veau",0,0,0
-boeuftins et genisses,bestiau ; bœuftin et genisse,0,0,0
+boeuftins et genisses,bestiau ; bœuftin et génisse,0,0,0
 Bestiaux ; Boucs,bestiau ; bouc,1,4,5
 Bestiaux ; en boucs,bestiau ; bouc,1,1,5
 Bouc,bestiau ; bouc,1,2,23
@@ -1569,23 +1569,23 @@ Bestiaux ; toreaux,bestiau ; taureau,1,5,33
 Bestiaux ; en vaches,bestiau ; vache,1,2,274
 Bestiaux ; Vaches,bestiau ; vache,1,11,274
 Bestiaux ; vaches,bestiau ; vache,1,37,274
-Vaches,bestiau ; vache,1,222,274
-vaches,bestiau ; vache,1,1,274
+Vaches,vache,1,222,274
+vaches,vache,1,1,274
 Bestiaux ; vaches ; à lait,bestiau ; vache ; à lait,1,1,1
-Vaches ; en vie,bestiau ; vache ; en vie,1,8,8
+Vaches ; en vie,vache ; en vie,1,8,8
 Bestiaux ; en vaches ; grasses,bestiau ; vache ; grasse,1,1,274
 Bestiaux ; vaches ; grasses,bestiau ; vache ; grasse,1,1,1
-Vaches ; tuées,bestiau ; vache ; tuée,1,1,1
-"Vaches , génisses et taureaux","bestiau ; vache, taureau et genisse",1,11,31
-"Vaches , taureaux et genisses","bestiau ; vache, taureau et genisse",1,4,31
-Vaches taureaux et genisses,"bestiau ; vache, taureau et genisse",1,6,31
-"Vaches, genisses et taurreaux","bestiau ; vache, taureau et genisse",1,10,31
+Vaches ; tuées,vache ; tuée,1,1,1
+"Vaches , génisses et taureaux","vache, taureau et génisse",1,11,31
+"Vaches , taureaux et genisses","vache, taureau et génisse",1,4,31
+Vaches taureaux et genisses,"vache, taureau et génisse",1,6,31
+"Vaches, genisses et taurreaux","vache, taureau et génisse",1,10,31
 Bestiaux ; en veaux,bestiau ; veau,1,1,137
 Bestiaux ; Veaux,bestiau ; veau,1,10,137
 Bestiaux ; veaux,bestiau ; veau,1,21,137
-Veau,bestiau ; veau,1,1,137
-Veaux,bestiau ; veau,1,103,137
-veaux,bestiau ; veau,0,0,0
+Veau,veau,1,1,137
+Veaux,veau,1,103,137
+veaux,veau,0,0,0
 Bestiaux ; en veaux ; gras,bestiau ; veau ; gras,1,1,3
 Bestiaux ; veaux ; gras,bestiau ; veau ; gras,1,2,3
 Bestiaux ; en veaux ; maigres,bestiau ; veau ; maigre,1,1,1
@@ -1621,29 +1621,29 @@ Bêtes ; de somme ; en chevaux,bête de somme ; cheval,1,2,536
 Betes de somme ; Chevaux,bête de somme ; cheval,1,5,536
 Bêtes de somme ; chevaux,bête de somme ; cheval,1,14,536
 Betes de somme ; Cheveaux,bête de somme ; cheval,1,10,536
-Cheval,bête de somme ; cheval,1,2,536
-cheval,bête de somme ; cheval,1,1,536
-Chevaux,bête de somme ; cheval,1,397,536
-chevaux,bête de somme ; cheval,1,2,536
-Chevaux ; chevaux,bête de somme ; cheval,1,15,536
-Cheveaux,bête de somme ; cheval,1,15,536
-Chevaux ; anglais,bête de somme ; cheval ; anglais,1,1,1
+Cheval,cheval,1,2,536
+cheval,cheval,1,1,536
+Chevaux,cheval,1,397,536
+chevaux,cheval,1,2,536
+Chevaux ; chevaux,cheval,1,15,536
+Cheveaux,cheval,1,15,536
+Chevaux ; anglais,cheval ; anglais,1,1,1
 Bêtes de somme ; chevaux ; arabes,bête de somme ; cheval ; arabe,1,1,1
-Chevaux ; de bas pris,bête de somme ; cheval ; de bas prix,1,13,536
-Chevaux ; de haut prix,bête de somme ; cheval ; de haut prix,1,10,536
-CheVeaux pour enfant,bête de somme ; cheval ; pour enfant,1,1,1
-Chevaux entiers,bête de somme ; cheval entier,0,0,0
-Chevaux et ânes,bête de somme ; cheval et âne,1,4,4
-"Chevaux,juments et poulins","bête de somme ; cheval, jument et poulain",1,8,536
-Chevaux ; poulains,bête de somme ; chevaux ; poulain,1,2,29
-chevaux ; poulains,bête de somme ; chevaux ; poulain,1,1,29
+Chevaux ; de bas pris,cheval ; de bas prix,1,13,536
+Chevaux ; de haut prix,cheval ; de haut prix,1,10,536
+CheVeaux pour enfant,cheval ; pour enfant,1,1,1
+Chevaux entiers,cheval entier,0,0,0
+Chevaux et ânes,cheval et âne,1,4,4
+"Chevaux,juments et poulins","cheval, jument et poulain",1,8,536
+Chevaux ; poulains,chevaux ; poulain,1,2,29
+chevaux ; poulains,chevaux ; poulain,1,1,29
 Bêtes ; de somme ; chevres,bête de somme ; chèvre,1,1,1
-Chevreaux,bête de somme ; chevreau,1,3,4
-Chevreaux a moyen prix,bête de somme ; chevreau ; à moyen prix,1,1,4
+Chevreaux,chevreau,1,3,4
+Chevreaux a moyen prix,chevreau ; à moyen prix,1,1,4
 Bêtes de somme ; diverses,bête de somme ; divers,1,2,2
 Bêtes ; de somme ; diverses,bête de somme ; diverse,1,2,2
 Betes de somme ; Juments,bête de somme ; jument,1,1,3
-Chevaux ; Jumens,bête de somme ; jument,1,2,3
+Chevaux ; Jumens,cheval ; jument,1,2,3
 "//////Betes de somme, principalement en mules et mulets",bête de somme ; mule et mulet,1,5,22
 "//////Betes,principalement en mules et mulets",bête de somme ; mule et mulet,1,6,22
 Betes de somme ; Mules et mulets,bête de somme ; mule et mulet,1,6,22
@@ -32849,7 +32849,7 @@ Vin daudely,vin d'Andely,1,2,7
 Vins de France ; Divers enbouteilles,vin de France ; divers ; en bouteille,1,8,8
 Vins de liqueur,vin de liqueur,1,169,260
 Vins de liqueurs,vin de liqueur,1,91,260
-Vins et autres boissons ; bierre,vin et autre boisson ; bierre,1,6,6
+Vins et autres boissons ; bierre,vin et autre boisson ; bière,1,6,6
 Vins et autres boissons ; cidre,vin et autre boisson ; cidre,1,3,3
 Vins et autres boissons ; vin ; de liqueurs ; de différentes espèces,vin et autre boisson ; vin ; de liqueur ; de différente espèce,1,6,6
 Vins et autres boissons ; vin ; divers,vin et autre boisson ; vin ; divers,1,6,6
@@ -32860,7 +32860,7 @@ Vin ; de Tokay,vin; de Tokay,0,0,0
 Vin; de Tokay,vin; de Tokay,1,1,2
 Vinaigre,vinaigre,1,853,856
 vinaigre,vinaigre,1,1,856
-Vinaigre [?],vinaigre,1,1,856
+Vinaigre [?],vinaigre ; ?,1,1,856
 Vinegre,vinaigre,1,1,856
 Vinaigre ; ?,vinaigre ; ?,1,2,2
 Vinaigre ; composé,vinaigre ; composé,1,6,6
