@@ -16,7 +16,7 @@ def clean(s):
 	s = s.strip()
 	s = re.sub(ELLIPSIS, "...", s)
 	s = re.sub(DOUBLE_QUOTES, '"', s)
-	# s = re.sub(SIMPLE_QUOTES, "'", s)
+	s = re.sub(SIMPLE_QUOTES, "'", s)
 	s = re.sub(SPACES_COMPACTING, " ", s)
 
 	return s
