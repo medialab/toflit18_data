@@ -35,8 +35,8 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ...tain vieux	étain vieux		1	2	56
 ...tains vieux	étain vieux		1	1	56
 ...tamine	étamine		1	1	4
-...toffes	étoffe	ARRET	0	0	0
-...toffes tissées	étoffe tissée	DANS ETOFFE	0	0	0
+...toffes	étoffe		0	0	0
+...toffes tissées	étoffe tissée		0	0	0
 ...toupe	étoupe		1	2	65
 ...toupe de lin	étoupe de lin		0	0	0
 //////Betes de somme, principalement en mules et mulets	bêtes de somme principalement en mules et mulets		1	5	22
@@ -56,11 +56,11 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ///Drogues Diverses///Drogues réunies	drogues diverses drogues réunies		1	17	78
 ///Drogues diverses///Drogues réunies	drogues diverses drogues réunies		1	16	78
 ///Drogues Diverses///Gommes diverses	drogues diverses gommes diverses		1	12	56
-///Drogues diverses///Gommes diverses	drogues diverses gommes diverses		1	43	56
+///Drogues diverses///Gommes diverses	drogues diverses gomme diverse		1	43	56
 ///Drogues diverses///Huile et essence de Térébenthine	drogues diverses huile et essence de térébenthine		1	6	24
 ///Drogues diverses///Huile et essence de térébenthine	drogues diverses huile et essence de térébenthine		1	18	24
-///Drogues Diverses///Sels chimiques	drogues diverses sels chimiques		1	6	17
-///Drogues diverses///Sels chimiques	drogues diverses sels chimiques		1	9	17
+///Drogues Diverses///Sels chimiques	drogues diverses sel chimique		1	6	17
+///Drogues diverses///Sels chimiques	drogues diverses sel chimique		1	9	17
 ///Drogues Médicinales///Drogues médicinales réunies	drogues médicinales drogues médicinales réunies		1	17	259
 ///Drogues médicinales///Drogues médicinales réunies	drogues médicinales drogues médicinales réunies		1	29	114
 ///Drogues Médicinales///Drogues réunies	drogues médicinales drogues réunies		1	16	259
@@ -97,8 +97,8 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ///Industrie étrangère///Colles de toute sorte	industrie étrangère colle de toute sorte		1	9	16
 ///Industrie Etrangère///Faience et poterie	industrie étrangère faïence et poterie		1	2	282
 ///Industrie étrangère///Faience et poterie	industrie étrangère faïence et poterie		1	4	282
-///Industrie Etrangère///Habillement et lingerie	industrie étrangère habillements et lingerie		1	5	588
-///Industrie étrangère///Habillement et lingerie	industrie étrangère habillements et lingerie		1	12	588
+///Industrie Etrangère///Habillement et lingerie	industrie étrangère habillement et lingerie		1	5	588
+///Industrie étrangère///Habillement et lingerie	industrie étrangère habillement et lingerie		1	12	588
 ///Industrie étrangère///Horlogerie	industrie étrangère horlogerie		1	5	698
 ///Industrie Etrangère///Horlogeries	industrie étrangère horlogerie		1	3	698
 ///Industrie Etrangère///Librairie	industrie étrangère librairie		1	6	1460
@@ -107,10 +107,10 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ///Industrie étrangère///Marbres	industrie étrangère marbre		1	10	127
 ///Industrie Etrangère///Merceries	industrie étrangère mercerie		1	8	1749
 ///Industrie étrangère///Merceries	industrie étrangère mercerie		1	18	1749
-///Industrie Etrangère///Meubles et miroirs	industrie étrangère meubles et miroirs		1	4	411
-///Industrie étrangère///Meubles et miroirs	industrie étrangère meubles et miroirs		1	9	411
-///Industrie Etrangère///Ouvrages de jonc	industrie étrangère ouvrages de jonc		1	3	103
-///Industrie étrangère///Ouvrages de jonc	industrie étrangère ouvrages de jonc		1	14	103
+///Industrie Etrangère///Meubles et miroirs	industrie étrangère meubles et miroir		1	4	411
+///Industrie étrangère///Meubles et miroirs	industrie étrangère meubles et miroir		1	9	411
+///Industrie Etrangère///Ouvrages de jonc	industrie étrangère ouvrages de joncs		1	3	103
+///Industrie étrangère///Ouvrages de jonc	industrie étrangère ouvrages de joncs		1	14	103
 ///Industrie Etrangère///Ouvrages divers	industrie étrangère ouvrages divers		1	11	287
 ///Industrie étrangère///Ouvrages divers	industrie étrangère ouvrages divers		1	26	287
 ///Industrie Etrangère///Peaux et pelleteries	industrie étrangère peaux et pelleterie		1	17	116
@@ -123,90 +123,90 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ///Industrie étrangère///Plumes de toute sorte	industrie étrangère plumes de toute sorte		1	20	23
 ///Industrie étrangère///Porcelaine, faience et poterie	industrie étrangère porcelaine faïence et poterie		1	12	12
 ///Industrie Etrangère///Quincailleries diverses	industrie étrangère quincaillerie diverse		1	9	196
-///Industrie étrangère///Quincailleries diverses ; Faulx, faucilles, fil de laiton et limes...	industrie étrangère quincaillerie diverse faux faucilles fil de laiton et limes		1	8	20
-///Industrie étrangère///Quincailleries diverses ; Faulx, faucilles,fil de laiton et limes ..	industrie étrangère quincaillerie diverse faux faucilles fil de laiton et limes		1	12	20
+///Industrie étrangère///Quincailleries diverses ; Faulx, faucilles, fil de laiton et limes...	industrie étrangère quincaillerie diverse faux faucille fil de laiton et limes		1	8	20
+///Industrie étrangère///Quincailleries diverses ; Faulx, faucilles,fil de laiton et limes ..	industrie étrangère quincaillerie diverse faux faucille fil de laiton et limes		1	12	20
 ///Industrie Etrangère///Savons	industrie étrangère savon		1	3	932
 ///Industrie étrangère///Savons	industrie étrangère savon		1	6	932
-///Industrie Etrangère///Voitures	industrie étrangère voitures		1	1	120
-///Industrie étrangère///Voitures	industrie étrangère voitures	ARRET FAIT	1	2	120
-///Industrie générale///Armes	Industrie généraleArmes		1	2	126
-///Industrie Générale///Articles d'industrie réunis	Industrie GénéraleArticles d'industrie réunis		1	21	56
-///Industrie générale///Articles d'industrie réunis	Industrie généraleArticles d'industrie réunis		1	35	56
-///Industrie Générale///Bijouterie	Industrie GénéraleBijouterie		1	6	665
-///Industrie générale///Bijouterie	Industrie généraleBijouterie		1	24	665
-///Industrie Générale///Bougie	Industrie GénéraleBougie		1	1	469
-///Industrie générale///Bougie	Industrie généraleBougie		1	1	469
-///Industrie Générale///Cauris	Industrie GénéraleCauris		1	1	153
-///Industrie générale///Cauris	Industrie généraleCauris		1	2	153
-///Industrie générale///Chandelle	Industrie généraleChandelle		1	1	787
-///Industrie Générale///Chandelles	Industrie GénéraleChandelles		1	1	787
-///Industrie Générale///Cordages	Industrie GénéraleCordages		1	1	310
-///Industrie générale///Cordages	Industrie généraleCordages		1	2	310
-///Industrie Générale///Dorures fines	Industrie GénéraleDorures fines		1	6	510
-///Industrie générale///Dorures fines	Industrie généraleDorures fines		1	17	510
-///Industrie Générale///Esprit de vin	Industrie GénéraleEsprit de vin		1	3	113
-///Industrie générale///Esprit de vin	Industrie généraleEsprit de vin		1	11	113
-///Industrie Générale///Faience et poterie	Industrie GénéraleFaience et poterie		1	5	282
-///Industrie générale///Faience et poterie	Industrie généraleFaience et poterie		1	14	282
-///Industrie Générale///Gants de peau	Industrie GénéraleGants de peau		1	8	285
-///Industrie générale///Gants de peau	Industrie généraleGants de peau		1	21	285
-///Industrie générale///Habillemens et lingerie	Industrie généraleHabillemens et lingerie		1	22	588
-///Industrie Générale///Habillements et lingeries	Industrie GénéraleHabillements et lingeries		1	7	588
-///Industrie Générale///Horlogerie	Industrie GénéraleHorlogerie		1	6	698
-///Industrie générale///Horlogerie	Industrie généraleHorlogerie		1	15	698
-///Industrie Générale///Jeux de voiles	Industrie GénéraleJeux de voiles		1	1	38
-///Industrie générale///Jeux de voiles	Industrie généraleJeux de voiles		1	2	38
-///Industrie Générale///Librairie	Industrie GénéraleLibrairie		1	14	1460
-///Industrie générale///Librairie	Industrie généraleLibrairie		1	31	1460
-///Industrie Générale///Marchandises des indes	Industrie GénéraleMarchandises des indes		1	1	5
-///Industrie Générale///Merceries	Industrie GénéraleMerceries		1	17	1749
-///Industrie générale///Merceries	Industrie généraleMerceries		1	37	1749
-///Industrie Générale///Meubles et glaces	Industrie GénéraleMeubles et glaces		1	10	411
-///Industrie générale///Meubles et glaces	Industrie généraleMeubles et glaces		1	28	411
-///Industrie Générale///Ouvrages de cruivre doré et argenté	Industrie GénéraleOuvrages de cruivre doré et argenté		1	4	207
-///Industrie Générale///Ouvrages de cuir en cordonnerie et sellerie	Industrie GénéraleOuvrages de cuir en cordonnerie et sellerie		1	2	200
-///Industrie générale///Ouvrages de cuir en cordonnerie et sellerie	Industrie généraleOuvrages de cuir en cordonnerie et sellerie		1	9	200
-///Industrie générale///Ouvrages de cuivre doré et argenté	Industrie généraleOuvrages de cuivre doré et argenté		1	13	207
-///Industrie Générale///Ouvrages de modes et fleurs artificielles	Industrie GénéraleOuvrages de modes et fleurs artificielles		1	8	391
-///Industrie générale///Ouvrages de modes et fleurs artificielles	Industrie généraleOuvrages de modes et fleurs artificielles		1	24	391
-///Industrie générale///Ouvrages de terre cuite	Industrie généraleOuvrages de terre cuite		1	1	11
-///Industrie générale///Ouvrages divers	Industrie généraleOuvrages divers		1	22	287
-///Industrie Générale///Ouvrages divers en bois et futailles vuides	Industrie GénéraleOuvrages divers en bois et futailles vuides		1	5	5
-///Industrie Générale///Ouvrages en terre cuite	Industrie GénéraleOuvrages en terre cuite		1	1	11
-///Industrie générale///Papier pour tenture	Industrie généralePapier pour tenture		1	6	29
-///Industrie Générale///Papiers à écrire	Industrie GénéralePapiers à écrire		1	15	414
-///Industrie générale///Papiers à écrire	Industrie généralePapiers à écrire		1	36	414
-///Industrie Générale///Papiers pour tenture	Industrie GénéralePapiers pour tenture		1	8	29
-///Industrie générale///Papiers pour tenture	Industrie généralePapiers pour tenture		1	14	29
-///Industrie Générale///Parasols	Industrie GénéraleParasols		1	1	129
-///Industrie Générale///Parfumerie	Industrie GénéraleParfumerie		1	15	479
-///Industrie générale///Parfumerie	Industrie généraleParfumerie		1	21	479
-///Industrie Générale///Passementerie	Industrie GénéralePassementerie		1	2	9
-///Industrie générale///Passementerie	Industrie généralePassementerie		1	6	9
-///Industrie Générale///Peaux et pelleteries	Industrie GénéralePeaux et pelleteries		1	12	116
-///Industrie générale///Peaux et pelleteries	Industrie généralePeaux et pelleteries		1	28	116
-///Industrie Générale///Porcelaine	Industrie GénéralePorcelaine		1	7	849
-///Industrie générale///Porcelaine	Industrie généralePorcelaine		1	13	849
-///Industrie Générale///Poudre à tirer	Industrie GénéralePoudre à tirer		1	2	116
-///Industrie générale///Poudre à tirer	Industrie généralePoudre à tirer		1	1	116
-///Industrie Générale///Quincaillerie	Industrie GénéraleQuincaillerie		1	14	292
-///Industrie générale///Quincaillerie	Industrie généraleQuincaillerie		1	26	292
-///Industrie Générale///Savons	Industrie GénéraleSavons		1	14	932
-///Industrie générale///Savons	Industrie généraleSavons		1	30	932
-///Industrie Générale///Tableaux et Estampes	Industrie GénéraleTableaux et Estampes		1	5	333
-///Industrie générale///Tableaux et estampes	Industrie généraleTableaux et estampes		1	12	333
-///Industrie Générale///Verrerie	Industrie GénéraleVerrerie		1	12	31
-///Industrie générale///Verrerie	Industrie généraleVerrerie		1	19	31
-///Matière d'Or et d'argent///Monnaies au type étranger	Matière d'Or et d'argentMonnaies au type étranger		1	6	103
-///Matière d'Or et d'argent///Orfévrerie	Matière d'Or et d'argentOrfévrerie		1	16	227
-///Matières d'Or et d'argent///Argenterie et orfévrerie	Matières d'Or et d'argentArgenterie et orfévrerie		1	4	121
-///Matières d'Or et d'argent///Argenteries et orfévrerie	Matières d'Or et d'argentArgenteries et orfévrerie		1	5	121
-///Matieres d'Or et d'argent///Monnaies au type étranger	Matieres d'Or et d'argentMonnaies au type étranger		1	1	103
-///Matières d'Or et d'argent///Monnaies étrangères , ou lingots	Matières d'Or et d'argentMonnaies étrangères  ou lingots		1	10	17
-///Matières d'or et d'argent///Monnaies étrangères et lingots	Matières d'or et d'argentMonnaies étrangères et lingots		1	3	17
-///Matières d'Or et d'argent///Monnaies étrangères ou lingots	Matières d'Or et d'argentMonnaies étrangères ou lingots		1	4	17
-///Matieres d'Or et d'argent///Orfévrerie	Matieres d'Or et d'argentOrfévrerie		1	7	227
-///Matières d'or et d'argent///Orfévrerie	Matières d'or et d'argentOrfévrerie		1	1	227
+///Industrie Etrangère///Voitures	industrie étrangère voiture		1	1	120
+///Industrie étrangère///Voitures	industrie étrangère voiture		1	2	120
+///Industrie générale///Armes	industrie générale armes		1	2	126
+///Industrie Générale///Articles d'industrie réunis	industrie générale articles d'industrie réunis		1	21	56
+///Industrie générale///Articles d'industrie réunis	industrie générale articles d'industrie réunis		1	35	56
+///Industrie Générale///Bijouterie	industrie générale bijouterie		1	6	665
+///Industrie générale///Bijouterie	industrie générale bijouterie		1	24	665
+///Industrie Générale///Bougie	industrie générale bougie		1	1	469
+///Industrie générale///Bougie	industrie générale bougie		1	1	469
+///Industrie Générale///Cauris	industrie générale cauris		1	1	153
+///Industrie générale///Cauris	industrie générale cauris		1	2	153
+///Industrie générale///Chandelle	industrie générale chandelle		1	1	787
+///Industrie Générale///Chandelles	industrie générale chandelle		1	1	787
+///Industrie Générale///Cordages	industrie générale cordage		1	1	310
+///Industrie générale///Cordages	industrie générale cordage		1	2	310
+///Industrie Générale///Dorures fines	industrie générale dorure fine		1	6	510
+///Industrie générale///Dorures fines	industrie générale dorure fine		1	17	510
+///Industrie Générale///Esprit de vin	industrie générale esprit de vin		1	3	113
+///Industrie générale///Esprit de vin	industrie générale esprit de vin		1	11	113
+///Industrie Générale///Faience et poterie	industrie générale faïence et poterie		1	5	282
+///Industrie générale///Faience et poterie	industrie générale faïence et poterie		1	14	282
+///Industrie Générale///Gants de peau	industrie générale gants de peau		1	8	285
+///Industrie générale///Gants de peau	industrie générale gants de peau		1	21	285
+///Industrie générale///Habillemens et lingerie	industrie générale habillement et lingerie		1	22	588
+///Industrie Générale///Habillements et lingeries	industrie générale habillement et lingerie		1	7	588
+///Industrie Générale///Horlogerie	industrie générale horlogerie		1	6	698
+///Industrie générale///Horlogerie	industrie générale horlogerie		1	15	698
+///Industrie Générale///Jeux de voiles	industrie générale jeux de voile		1	1	38
+///Industrie générale///Jeux de voiles	industrie générale jeux de voile		1	2	38
+///Industrie Générale///Librairie	industrie générale librairie		1	14	1460
+///Industrie générale///Librairie	industrie générale librairie		1	31	1460
+///Industrie Générale///Marchandises des indes	industrie générale marchandises des indes		1	1	5
+///Industrie Générale///Merceries	industrie générale mercerie		1	17	1749
+///Industrie générale///Merceries	industrie générale mercerie		1	37	1749
+///Industrie Générale///Meubles et glaces	industrie générale meubles et glace		1	10	411
+///Industrie générale///Meubles et glaces	industrie générale meubles et glace		1	28	411
+///Industrie Générale///Ouvrages de cruivre doré et argenté	industrie générale ouvrages de cuivre doré et argenté		1	4	207
+///Industrie Générale///Ouvrages de cuir en cordonnerie et sellerie	industrie générale ouvrages de cuir en cordonnerie et sellerie		1	2	200
+///Industrie générale///Ouvrages de cuir en cordonnerie et sellerie	industrie générale ouvrages de cuir en cordonnerie et sellerie		1	9	200
+///Industrie générale///Ouvrages de cuivre doré et argenté	industrie générale ouvrages de cuivre doré et argenté		1	13	207
+///Industrie Générale///Ouvrages de modes et fleurs artificielles	industrie générale ouvrages de modes et fleurs artificielles		1	8	391
+///Industrie générale///Ouvrages de modes et fleurs artificielles	industrie générale ouvrages de modes et fleurs artificielles		1	24	391
+///Industrie générale///Ouvrages de terre cuite	industrie générale ouvrages de terre cuite		1	1	11
+///Industrie générale///Ouvrages divers	industrie générale ouvrages divers		1	22	287
+///Industrie Générale///Ouvrages divers en bois et futailles vuides	industrie générale ouvrages divers en bois et futailles vides		1	5	5
+///Industrie Générale///Ouvrages en terre cuite	industrie générale ouvrages en terre cuite		1	1	11
+///Industrie générale///Papier pour tenture	industrie générale papier pour tenture		1	6	29
+///Industrie Générale///Papiers à écrire	industrie générale papier à écrire		1	15	414
+///Industrie générale///Papiers à écrire	industrie générale papier à écrire		1	36	414
+///Industrie Générale///Papiers pour tenture	industrie générale papier pour tenture		1	8	29
+///Industrie générale///Papiers pour tenture	industrie générale papier pour tenture		1	14	29
+///Industrie Générale///Parasols	industrie générale parasols		1	1	129
+///Industrie Générale///Parfumerie	industrie générale parfumerie		1	15	479
+///Industrie générale///Parfumerie	industrie générale parfumerie		1	21	479
+///Industrie Générale///Passementerie	industrie générale passementerie		1	2	9
+///Industrie générale///Passementerie	industrie générale passementerie		1	6	9
+///Industrie Générale///Peaux et pelleteries	industrie générale peaux et pelleterie		1	12	116
+///Industrie générale///Peaux et pelleteries	industrie générale peaux et pelleterie		1	28	116
+///Industrie Générale///Porcelaine	industrie générale porcelaine		1	7	849
+///Industrie générale///Porcelaine	industrie générale porcelaine		1	13	849
+///Industrie Générale///Poudre à tirer	industrie générale poudre à tirer		1	2	116
+///Industrie générale///Poudre à tirer	industrie générale poudre à tirer		1	1	116
+///Industrie Générale///Quincaillerie	industrie générale quincaillerie		1	14	292
+///Industrie générale///Quincaillerie	industrie générale quincaillerie		1	26	292
+///Industrie Générale///Savons	industrie générale savon		1	14	932
+///Industrie générale///Savons	industrie générale savon		1	30	932
+///Industrie Générale///Tableaux et Estampes	industrie générale tableau et estampes		1	5	333
+///Industrie générale///Tableaux et estampes	industrie générale tableau et estampes		1	12	333
+///Industrie Générale///Verrerie	industrie générale verrerie		1	12	31
+///Industrie générale///Verrerie	industrie générale verrerie	ARRET FAIT	1	19	31
+///Matière d'Or et d'argent///Monnaies au type étranger	Matière d'Or et d'argent Monnaies au type étranger		1	6	103
+///Matière d'Or et d'argent///Orfévrerie	Matière d'Or et d'argent Orfévrerie		1	16	227
+///Matières d'Or et d'argent///Argenterie et orfévrerie	Matières d'Or et d'argent Argenterie et orfévrerie		1	4	121
+///Matières d'Or et d'argent///Argenteries et orfévrerie	Matières d'Or et d'argent Argenteries et orfévrerie		1	5	121
+///Matieres d'Or et d'argent///Monnaies au type étranger	Matieres d'Or et d'argent Monnaies au type étranger		1	1	103
+///Matières d'Or et d'argent///Monnaies étrangères , ou lingots	Matières d'Or et d'argent Monnaies étrangères  ou lingots		1	10	17
+///Matières d'or et d'argent///Monnaies étrangères et lingots	Matières d'or et d'argent Monnaies étrangères et lingots		1	3	17
+///Matières d'Or et d'argent///Monnaies étrangères ou lingots	Matières d'Or et d'argent Monnaies étrangères ou lingots		1	4	17
+///Matieres d'Or et d'argent///Orfévrerie	Matieres d'Or et d'argent Orfévrerie		1	7	227
+///Matières d'or et d'argent///Orfévrerie	Matières d'or et d'argent Orfévrerie		1	1	227
 ///Métaux///Argent vif	MétauxArgent vif		1	7	331
 ///Métaux///Articles réunis	MétauxArticles réunis		1	5	5
 ///Métaux///Autres métaux	MétauxAutres métaux		1	29	29
@@ -14026,27 +14026,27 @@ etoffes pour talits	étoffe pour talits		1	37	68
 Etoffes riches	étoffe riches				
 Etoffes soye or et argent	étoffe soie or et argent		1	5	127
 Etoofe ; de soye ; velours	étoffe de soie velours		1	8	65
-Etoupe	Etoupe				
-etoupe	etoupe		1	6	52
-Etoupe ; de chanvre	Etoupe de chanvre		1	4	14
-Etoupe ; de lin	Etoupe de lin		1	4	19
-Etoupe ; de soye	Etoupe de soie				
-etoupe blanche	etoupe blanche		1	2	52
-Etoupe de chanvre	Etoupe de chanvre				
-Etoupe noir	Etoupe noir		1	53	65
-Etoupes	Etoupes				
-etoupes	etoupes		1	4	5
-Etoupes ; à calfater	Etoupes à calfater		1	1	5
-Etoupes ; à calsater	Etoupes à calsater		1	43	52
-Etoupes ; de chanvre	Etoupes de chanvre		1	8	14
-Etoupes ; de lin	Etoupes de lin		1	15	19
-Etoupes ; de soye	Etoupes de soie				
-etoupes de chanvre	etoupes de chanvre				
-etoupes de soye	etoupes de soie		0	0	0
-etouppe de laine	etouppe de laine		1	1	14
-Etouppe de Lin	Etouppe de Lin		0	0	0
-étouppes de chanvre	étouppes de chanvre		0	0	0
-etouppes et cordes de lin	etouppes et cordes de lin	FAIT	1	1	2
+Etoupe	étoupe	FAIT			
+etoupe	étoupe		1	6	52
+Etoupe ; de chanvre	étoupe de chanvre		1	4	14
+Etoupe ; de lin	étoupe de lin		1	4	19
+Etoupe ; de soye	étoupe de soie				
+etoupe blanche	étoupe blanche		1	2	52
+Etoupe de chanvre	étoupe de chanvre				
+Etoupe noir	étoupe noir		1	53	65
+Etoupes	étoupe				
+etoupes	étoupe		1	4	5
+Etoupes ; à calfater	étoupe à calfater		1	1	5
+Etoupes ; à calsater	étoupe à calfater		1	43	52
+Etoupes ; de chanvre	étoupe de chanvre		1	8	14
+Etoupes ; de lin	étoupe de lin		1	15	19
+Etoupes ; de soye	étoupe de soie				
+etoupes de chanvre	étoupe de chanvre				
+etoupes de soye	étoupe de soie		0	0	0
+etouppe de laine	étoupe de laine		1	1	14
+Etouppe de Lin	étoupe de lin		0	0	0
+étouppes de chanvre	étoupe de chanvre		0	0	0
+etouppes et cordes de lin	étoupe et cordes de lin		1	1	2
 Etriers	Etriers		0	0	0
 etriers	etriers		1	1	1
 Etui ; à lunettes	Etui à lunettes		1	2	11
