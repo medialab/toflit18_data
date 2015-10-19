@@ -42,8 +42,8 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 //////Betes de somme, principalement en mules et mulets	bêtes de somme principalement en mules et mulets		1	5	22
 //////Betes,principalement en mules et mulets	bêtes principalement en mules et mulets		1	6	22
 //////Passementerie	passementerie		1	1	9
-///Articles réunis///D'une valeur moindre de 2000 fr chacun	articles réunis d'une valeur moindre de 2000 francs chacun		1	63	578
-///Articles réunis///D'une valeur moindre de 2000 francs chacun	articles réunis d'une valeur moindre de 2000 francs chacun		1	42	578
+///Articles réunis///D'une valeur moindre de 2000 fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	63	578
+///Articles réunis///D'une valeur moindre de 2000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	42	578
 ///Betes de somme///Anes	bêtes de somme ânes		1	1	10
 ///Bêtes de Somme///Anes	bêtes de somme ânes		1	1	10
 ///Betes de somme///Chevaux	bêtes de somme chevaux		1	8	536
@@ -1165,7 +1165,7 @@ Articles de peu de valeur réunis	articles de peu de valeur réunis		1	19	399
 Articles différents	articles différents		0	0	0
 Articles réunies	articles réunis		1	25	2747
 Articles réunis	articles réunis		1	2385	2747
-Articles réunis d'une valeur moindre de 2 000 francs chacun	articles réunis d'une valeur moindre de 2 000 francs chacun		1	10	10
+Articles réunis d'une valeur moindre de 2 000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	10	10
 Articles réunis de peu de valeur	articles réunis de peu de valeur		1	380	399
 Articles réunis et tissus étrangers réexportés	articles réunis et tissus étrangers réexportés		1	26	26
 Artiffice	artifice		1	1	4
@@ -1226,52 +1226,52 @@ Attelles de colier	attelles de colliers		1	1	9
 Attelles de coliera	attelles de colliers		1	1	9
 Attelles de coliers	attelles de colliers		1	2	9
 Attelles de collier	attelles de colliers		1	1	9
-Aube	aube	ARRET			
-Auclimes	Auclimes		1	1	2352
+Aube	aube				
+Auclimes	auclimes		1	1	2352
 Auf	auf		1	33	118
 auf	auf				
 Auf ouvré	auf ouvré				
 auf ouvré	auf ouvré				
-Augemy	Augemy				
-Augeny	Augeny				
+Augemy	augemy				
+Augeny	augemy				
 Auges	auges		1	1	2
 Auges ; de carreaux	auges de carreaux		1	1	1
 Auges ?	auges ???		0	0	0
-Augustins	Augustins				
+Augustins	augustins				
 Aul	auf		1	1	118
 Aulx	ails		1	3	118
 aulx	ails				
-Aurcsats	Aurcsats		1	1	118
+Aurcsats	aurcsats		1	1	118
 Aus	auf		1	3	118
-Aussières	Aussières		0	0	0
-Autres métaux	Autres métaux		1	144	203
-aux à fauxhes	aux à fauxhes		1	1	1
-Avelanèdes	Avelanèdes		1	40	50
-Avélanèdes	Avélanèdes		1	6	50
-Avelines	Avelines		1	5	5
-Avellanèdes	Avellanèdes		1	4	50
+Aussières	aussières		0	0	0
+Autres métaux	autre métal		1	144	203
+aux à fauxhes	ails à fauches		1	1	1
+Avelanèdes	avelanèdes		1	40	50
+Avélanèdes	avelanèdes		1	6	50
+Avelines	avelines		1	5	5
+Avellanèdes	avelanèdes		1	4	50
 averons	avirons		1	1	290
 Aviron	avirons				
-Aviron ; de 12 pieds	avirons de 12 pieds		1	1	1
-Aviron ; de 18 pieds	avirons de 18 pieds		1	1	1
-Aviron ; de 30 pieds	avirons de 30 pieds		1	1	1
+Aviron ; de 12 pieds	avirons de douze pieds		1	1	1
+Aviron ; de 18 pieds	avirons de dix-huit pieds		1	1	1
+Aviron ; de 30 pieds	avirons de trente pieds		1	1	1
 Avirond	avirons		1	1	290
 Avirons	avirons		1	255	290
 avirons	avirons				
 Avirons ; bruts	avirons bruts		1	6	6
 Avirons ; polis	avirons polis		1	1	1
-avirons de 5 pieds	avirons de 5 pieds		1	1	1
-Avirons de 8 a 12	avirons de 8 à 12				
-Avoine	Avoine		1	205	215
+avirons de 5 pieds	avirons de cinq pieds		1	1	1
+Avirons de 8 a 12	avirons de huit à douze				
+Avoine	avoine		1	205	215
 avoine	avoine		1	4	215
-Avoine ; mondée	Avoine mondée		1	1	215
-avoine en jarbes	avoine en jarbes		0	0	0
-Avoine et haricots	Avoine et haricots		0	0	0
-Avoine moulé	Avoine moulé		1	1	1
-Avoine, orge ; etc.	Avoine orge etc.		1	1	1
-Avoines	Avoines		1	3	215
-Avoinne	Avoinne		1	2	215
-Aypio	Aypio		1	1	4
+Avoine ; mondée	avoine mondée		1	1	215
+avoine en jarbes	avoine en gerbes		0	0	0
+Avoine et haricots	avoine et haricots		0	0	0
+Avoine moulé	avoine moulée		1	1	1
+Avoine, orge ; etc.	avoine orge etc.		1	1	1
+Avoines	avoine		1	3	215
+Avoinne	avoine		1	2	215
+Aypio	apios		1	1	4
 Azur	azur				
 azur	azur		1	29	433
 Azur ; commain	azur commun		1	1	74
@@ -1292,241 +1292,241 @@ azur fin	azur fin
 Azur gros	azur gros		1	10	10
 azur ou bleu commun	azur ou bleu commun		0	0	0
 azure	azur		1	1	433
-Babouchar	Babouchar		1	1	18
-Babouches	Babouches				
+Babouchar	babouches		1	1	18
+Babouches	babouches				
 babouches	babouches				
-Babouches ; de maroquin	Babouches de maroquin		1	1	1
-Babus	Babus		1	4	4
-Bâche	Bâche		0	0	0
-bacqs de pierre bleue	bacqs de pierre bleue		0	0	0
-bacs contenant 1 aime	bacs contenant 1 aime		0	0	0
+Babouches ; de maroquin	babouches de maroquin		1	1	1
+Babus	babouches		1	4	4
+Bâche	bâche		0	0	0
+bacqs de pierre bleue	bacs de pierre bleue		0	0	0
+bacs contenant 1 aime	bacs contenant une aime		0	0	0
 bacs de pierre	bacs de pierre		0	0	0
-bacs de pierre contenant 1 aime	bacs de pierre contenant 1 aime		0	0	0
-bacs de pierre contenant 4 aimes	bacs de pierre contenant 4 aimes		0	0	0
-bacs de pierre de 1/2 d'aime	bacs de pierre de 12 d'aime		0	0	0
-bacs de pierre de 3/4 d'aime	bacs de pierre de 34 d'aime		0	0	0
+bacs de pierre contenant 1 aime	bacs de pierre contenant une aime		0	0	0
+bacs de pierre contenant 4 aimes	bacs de pierre contenant quatre aimes		0	0	0
+bacs de pierre de 1/2 d'aime	bacs de pierre de douze d'aime		0	0	0
+bacs de pierre de 3/4 d'aime	bacs de pierre de trente-quatre d'aime		0	0	0
 bacs de pierre de moindre classe	bacs de pierre de moindre classe		0	0	0
-bacs de pierre en dessous d'un ame	bacs de pierre en dessous d'un ame		0	0	0
-bacs de pierre en dessus d'un ame	bacs de pierre en dessus d'un ame		0	0	0
-Badiane	Badiane		1	2	3
+bacs de pierre en dessous d'un ame	bacs de pierre en dessous d'une aime		0	0	0
+bacs de pierre en dessus d'un ame	bacs de pierre en dessus d'une aime		0	0	0
+Badiane	badiane		1	2	3
 badiane	badiane		0	0	0
-bafetar	bafetar		1	1	44
-Bafetas	Bafetas		1	4	44
-Bafetas bleu	Bafetas bleu		1	3	11
-bafetas Bleu	bafetas Bleu		1	1	11
-Baffetas	Baffetas		1	34	44
+bafetar	baffetas		1	1	44
+Bafetas	baffetas		1	4	44
+Bafetas bleu	baffetas bleu		1	3	11
+bafetas Bleu	baffetas bleu		1	1	11
+Baffetas	baffetas		1	34	44
 baffetas	baffetas		1	2	44
-Baffetas blanc	Baffetas blanc		1	1	2
-Baffetas Bleu	Baffetas Bleu		1	1	11
-Baffetas bleu	Baffetas bleu				
-baffetas Bleu	baffetas Bleu		1	1	11
-Bafitas	Bafitas		1	1	44
-Bagage	Bagage		0	0	0
+Baffetas blanc	baffetas blanc		1	1	2
+Baffetas Bleu	baffetas bleu		1	1	11
+Baffetas bleu	baffetas bleu				
+baffetas Bleu	baffetas bleu		1	1	11
+Bafitas	baffetas		1	1	44
+Bagage	bagage		0	0	0
 bagarot	bagarot				
-Bagueres ; de fusils	Bagueres de fusils		1	1	16
-Bagues	Bagues		1	3	4
-Bagues ; à pierres ; fausses	Bagues à pierres fausses		1	1	1
-Bagues ; d'or	Bagues d'or		1	1	1
-Bagues ; de cuivre	Bagues de cuivre		1	1	1
-Bagues ; de leton	Bagues de leton		1	1	2
-Bagues ; de verre	Bagues de verre		1	1	1
-Bagues/Anneaux	BaguesAnneaux		0	0	0
-Bagues/Anneaux en laiton	BaguesAnneaux en laiton		0	0	0
-Baguette étoffe	Baguette étoffe		1	1	2
-Baguettes	Baguettes				
-Baguettes ; à chandelle	Baguettes à chandelle		1	1	1
-Baguettes ; à fusils	Baguettes à fusils		1	1	16
-Baguettes ; de bois	Baguettes de bois		1	1	1
-Baguettes ; de fusil	Baguettes de fusil		1	1	16
-Baguettes ; de fusils	Baguettes de fusils		1	5	16
-Baguettes ; étoffe	Baguettes étoffe		1	1	2
-Baguettes de cuivre	Baguettes de cuivre				
+Bagueres ; de fusils	baguettes de fusils		1	1	16
+Bagues	bagues		1	3	4
+Bagues ; à pierres ; fausses	bagues à pierres fausses		1	1	1
+Bagues ; d'or	bagues d'or		1	1	1
+Bagues ; de cuivre	bagues de cuivre		1	1	1
+Bagues ; de leton	bagues de laiton		1	1	2
+Bagues ; de verre	bagues de verre		1	1	1
+Bagues/Anneaux	bagues anneaux		0	0	0
+Bagues/Anneaux en laiton	bagues anneaux en laiton		0	0	0
+Baguette étoffe	baguettes étoffe		1	1	2
+Baguettes	baguettes				
+Baguettes ; à chandelle	baguettes à chandelle		1	1	1
+Baguettes ; à fusils	baguettes à fusils		1	1	16
+Baguettes ; de bois	baguettes de bois		1	1	1
+Baguettes ; de fusil	baguettes de fusils		1	1	16
+Baguettes ; de fusils	baguettes de fusils		1	5	16
+Baguettes ; étoffe	baguettes étoffe		1	1	2
+Baguettes de cuivre	baguettes de cuivre				
 baguettes de fer pour fusils	baguettes de fer pour fusils		0	0	0
-Baguettes de fusil	Baguettes de fusil		1	5	16
-baguettes de fusil	baguettes de fusil				
-Baguettes de fusils	Baguettes de fusils				
-baguettes de fuzils	baguettes de fuzils				
-Bahus	Bahus		1	4	6
-Bahut	Bahut		1	1	6
-Bahuts	Bahuts		1	1	6
-Baie de foye	Baie de foye		1	1	1
-Baie de genièvre	Baie de genièvre		0	0	0
-baies ; de buis	baies de buis		1	1	1
-Baies de genièvre	Baies de genièvre		0	0	0
-Baies de laurier	Baies de laurier		1	2	24
-Baignes	Baignes		1	3	5
-Baignoires	Baignoires				
-Baignoires de sapin	Baignoires de sapin				
-Baigots	Baigots		1	1	1
-Baigues	Baigues		1	2	5
-Baillarge	Baillarge		1	2	5
-baillarges	baillarges		1	1	5
-Bailles	Bailles		1	1	1
-Bailliarge	Bailliarge		1	2	5
-bajanes tannées	bajanes tannées				
-Bajannes ; tannées	Bajannes tannées		1	8	8
-bajaunes	bajaunes				
-Bajitapau	Bajitapau		1	1	65
-bajutabeau	bajutabeau				
-Bajutapau	Bajutapau				
+Baguettes de fusil	baguettes de fusils		1	5	16
+baguettes de fusil	baguettes de fusils				
+Baguettes de fusils	baguettes de fusils				
+baguettes de fuzils	baguettes de fusils				
+Bahus	bahuts		1	4	6
+Bahut	bahuts		1	1	6
+Bahuts	bahuts		1	1	6
+Baie de foye	baie de foye		1	1	1
+Baie de genièvre	baie de genièvre		0	0	0
+baies ; de buis	baie de buis		1	1	1
+Baies de genièvre	baie de genièvre		0	0	0
+Baies de laurier	baie de laurier		1	2	24
+Baignes	baignes		1	3	5
+Baignoires	baignoires				
+Baignoires de sapin	baignoires de sapin				
+Baigots	baigots		1	1	1
+Baigues	bagues		1	2	5
+Baillarge	baillarge		1	2	5
+baillarges	baillarge		1	1	5
+Bailles	bailles		1	1	1
+Bailliarge	baillarge		1	2	5
+bajanes tannées	basannes tannées				
+Bajannes ; tannées	basannes tannées		1	8	8
+bajaunes	basannes				
+Bajitapau	bajitapau		1	1	65
+bajutabeau	bajutapau				
+Bajutapau	bajutapau				
 bajutapau	bajutapau		1	1	65
-Bajutapaux	Bajutapaux				
-Bajutapeau	Bajutapeau		1	28	65
-Bajutapeaux	Bajutapeaux				
-Balai ; de bois	Balai de bois		1	1	37
-Balai ; de bruyère	Balai de bruyère		1	1	11
-Balai ; de jongs	Balai de jongs		1	2	7
-Balai ; de palmes	Balai de palmes		1	5	31
-Balai ; de ris	Balai de ris		1	2	3
-Balai ; de soye	Balai de soie		1	1	7
-Balai de Crin	Balai de Crin		1	1	7
-Balai de foyer	Balai de foyer		1	1	1
-Balai de Soye de porc	Balai de soie de porc		1	1	16
-Balaine ; coupée	Balaine coupée		1	4	323
-BaLaine ; en fanon	BaLaine en fanon		1	1	164
-Balaine ; en fanon	Balaine en fanon		1	4	164
-Balais	Balais		1	74	147
+Bajutapaux	bajutapau				
+Bajutapeau	bajutapau		1	28	65
+Bajutapeaux	bajutapau				
+Balai ; de bois	balais de bois		1	1	37
+Balai ; de bruyère	balais de bruyère		1	1	11
+Balai ; de jongs	balais de jonc		1	2	7
+Balai ; de palmes	balais de palme		1	5	31
+Balai ; de ris	balais de riz		1	2	3
+Balai ; de soye	balais de soie		1	1	7
+Balai de Crin	balais de crin		1	1	7
+Balai de foyer	balais de foyer		1	1	1
+Balai de Soye de porc	balais de soie de porc		1	1	16
+Balaine ; coupée	baleine coupée		1	4	323
+BaLaine ; en fanon	baleine en fanon		1	1	164
+Balaine ; en fanon	baleine en fanon		1	4	164
+Balais	balais		1	74	147
 balais	balais				
-Balais ; coupée	Balais coupée		1	3	3
-Balais ; de bois	Balais de bois		1	31	37
-Balais ; de brayere	Balais de brayere		1	2	11
-Balais ; de bruyere	Balais de bruyere		1	3	11
-Balais ; de bruyère	Balais de bruyère		1	2	11
-Balais ; de bruyeres	Balais de bruyeres		1	2	11
-Balais ; de chanvre	Balais de chanvre		1	1	1
-Balais ; de crin	Balais de crin		1	3	7
-Balais ; de jonc	Balais de jonc		1	1	16
-Balais ; de Jong	Balais de Jong		1	1	16
-Balais ; de jonga	Balais de jonga		1	2	16
-Balais ; de jongs	Balais de jongs		1	12	16
-Balais ; de laine ; à laver les planchéts	Balais de laine à laver les planchéts		1	1	1
-Balais ; de paille de ris	Balais de paille de ris		1	2	147
-Balais ; de palme	Balais de palme		1	1	7
-Balais ; de palmes	Balais de palmes		1	44	147
-Balais ; de ris	Balais de ris		1	1	3
-Balais ; de soye	Balais de soie		1	2	7
-Balais ; divers	Balais divers		1	1	1
-Balais ; du roi	Balais du roi		1	1	1
-Balais ; fins	Balais fins		1	1	1
-Balais : de Iongs	Balais de Iongs		1	2	147
-Balais : de plume	Balais de plume		1	2	147
-Balais de crin	Balais de crin				
-Balais de jonc	Balais de jonc				
-Balais de joncs	Balais de joncs				
-balais de joncs petits	balais de joncs petits				
-Balais de Jong	Balais de Jong		1	1	7
-Balais de jong	Balais de jong				
-Balais de Jong s	Balais de Jong s		1	1	7
-Balais de jongs	Balais de jongs				
+Balais ; coupée	balais coupés		1	3	3
+Balais ; de bois	balais de bois		1	31	37
+Balais ; de brayere	balais de bruyère		1	2	11
+Balais ; de bruyere	balais de bruyère		1	3	11
+Balais ; de bruyère	balais de bruyère		1	2	11
+Balais ; de bruyeres	balais de bruyère		1	2	11
+Balais ; de chanvre	balais de chanvre		1	1	1
+Balais ; de crin	balais de crin		1	3	7
+Balais ; de jonc	balais de jonc		1	1	16
+Balais ; de Jong	balais de jonc		1	1	16
+Balais ; de jonga	balais de jonc		1	2	16
+Balais ; de jongs	balais de jonc		1	12	16
+Balais ; de laine ; à laver les planchéts	balais de laine à laver les planchers		1	1	1
+Balais ; de paille de ris	balais de paille de riz		1	2	147
+Balais ; de palme	balais de palme		1	1	7
+Balais ; de palmes	balais de palme		1	44	147
+Balais ; de ris	balais de riz		1	1	3
+Balais ; de soye	balais de soie		1	2	7
+Balais ; divers	balais divers		1	1	1
+Balais ; du roi	balais du roi		1	1	1
+Balais ; fins	balais fins		1	1	1
+Balais : de Iongs	balais de jonc		1	2	147
+Balais : de plume	balais de plume		1	2	147
+Balais de crin	balais de crin				
+Balais de jonc	balais de jonc				
+Balais de joncs	balais de jonc				
+balais de joncs petits	balais de jonc petits				
+Balais de Jong	balais de jonc		1	1	7
+Balais de jong	balais de jonc				
+Balais de Jong s	balais de jonc		1	1	7
+Balais de jongs	balais de jonc				
 balais de paille	balais de paille				
-Balais de paille de ris	Balais de paille de ris		1	2	2
-Balais de Palme	Balais de Palme				
-Balais de palme	Balais de palme		1	13	31
+Balais de paille de ris	balais de paille de riz		1	2	2
+Balais de Palme	balais de palme				
+Balais de palme	balais de palme		1	13	31
 balais de palme	balais de palme				
-Balais de Palmes	Balais de Palmes		1	1	31
-Balais de palmes	Balais de palmes				
-balais de palmes	balais de palmes				
-Balais de poil	Balais de poil		1	1	147
-Balais de Soye	Balais de soie		1	3	7
-Balais de Soye de porc	Balais de soie de porc		1	11	16
-Balais de soye de Porc	Balais de soie de Porc		1	1	16
-Balais de Soye en porc	Balais de soie en porc		1	1	16
-Balais divers	Balais divers		1	20	147
+Balais de Palmes	balais de palme		1	1	31
+Balais de palmes	balais de palme				
+balais de palmes	balais de palme				
+Balais de poil	balais de poil		1	1	147
+Balais de Soye	balais de soie		1	3	7
+Balais de Soye de porc	balais de soie de porc		1	11	16
+Balais de soye de Porc	balais de soie de porc		1	1	16
+Balais de Soye en porc	balais de soie en porc		1	1	16
+Balais divers	balais divers		1	20	147
 balais ou ramons	balais ou ramons		0	0	0
-Balais; de bois	Balais de bois		1	5	37
-Balais; de bruyeres	Balais de bruyeres		1	1	11
-Balais; de jongs	Balais de jongs		1	1	7
-Balais; de palmes	Balais de palmes		1	4	31
-Balance	Balance		1	3	5
-Balance à la romaine	Balance à la romaine		1	1	1
-Balance de Bois	Balance de Bois		1	1	1
-Balance et ses poids	Balance et ses poids		1	1	1
-Balance petit	Balance petit		1	1	1
-Balances	Balances		0	0	0
-balances	balances		0	0	0
-Balances ; de cuivre	Balances de cuivre		1	1	2
-Balances en fer	Balances en fer		0	0	0
-balaristre	balaristre				
-Balauste	Balauste				
-Balaustre	Balaustre		1	1	2
-Balaustres	Balaustres		1	1	2
-Balays de jonc	Balays de jonc				
-balays de Soye de porc	balays de soie de porc		1	2	16
-Baleine	Baleine		1	115	117
-Baleine ; coupee	Baleine coupee		1	9	323
-Baleine ; coupée	Baleine coupée				
-Baléine ; coupée	Baléine coupée		1	4	323
-Baleine ; coupée et en fanon	Baleine coupée et en fanon		1	1	1
-Baleine ; couppée	Baleine couppée		1	1	323
-Baleine ; de fanon	Baleine de fanon		1	1	164
-Baleine ; de sarde	Baleine de sarde		1	3	16
-Baleine ; de sardes	Baleine de sardes		1	2	16
-Baléine ; de sardes	Baléine de sardes		1	1	16
-Baleine ; en canon	Baleine en canon		1	5	16
-Baleine ; en Fanon	Baleine en Fanon		1	8	164
-Baleine ; en fanon	Baleine en fanon				
-Baléine ; en fanon	Baléine en fanon		1	2	164
-Baleine ; en fanons	Baleine en fanons		1	1	1
-Baleine : coupees	Baleine coupees		1	4	323
-Baleine : de Sardes	Baleine de Sardes		1	1	16
-Baleine : en fanon	Baleine en fanon		1	3	164
-Baleine coupe	Baleine coupe		1	2	323
-Baleine coupé	Baleine coupé		1	3	323
-Baleine Coupée	Baleine Coupée		1	13	323
-Baleine coupée	Baleine coupée		1	52	323
+Balais; de bois	balais de bois		1	5	37
+Balais; de bruyeres	balais de bruyère		1	1	11
+Balais; de jongs	balais de jonc		1	1	7
+Balais; de palmes	balais de palme		1	4	31
+Balance	balance		1	3	5
+Balance à la romaine	balance à la romaine		1	1	1
+Balance de Bois	balance de bois		1	1	1
+Balance et ses poids	balance et ses poids		1	1	1
+Balance petit	balance petite		1	1	1
+Balances	balance		0	0	0
+balances	balance		0	0	0
+Balances ; de cuivre	balance de cuivre		1	1	2
+Balances en fer	balance en fer		0	0	0
+balaristre	balauste				
+Balauste	balauste				
+Balaustre	balauste		1	1	2
+Balaustres	balauste		1	1	2
+Balays de jonc	balais de jonc				
+balays de Soye de porc	balais de soie de porc		1	2	16
+Baleine	baleine		1	115	117
+Baleine ; coupee	baleine coupée		1	9	323
+Baleine ; coupée	baleine coupée				
+Baléine ; coupée	baléine coupée		1	4	323
+Baleine ; coupée et en fanon	baleine coupée et en fanon		1	1	1
+Baleine ; couppée	baleine coupée		1	1	323
+Baleine ; de fanon	baleine de fanon		1	1	164
+Baleine ; de sarde	baleine de sarde		1	3	16
+Baleine ; de sardes	baleine de sarde		1	2	16
+Baléine ; de sardes	baleine de sarde		1	1	16
+Baleine ; en canon	baleine en fanon		1	5	16
+Baleine ; en Fanon	baleine en fanon		1	8	164
+Baleine ; en fanon	baleine en fanon				
+Baléine ; en fanon	baleine en fanon		1	2	164
+Baleine ; en fanons	baleine en fanon		1	1	1
+Baleine : coupees	baleine coupée		1	4	323
+Baleine : de Sardes	baleine de sarde		1	1	16
+Baleine : en fanon	baleine en fanon		1	3	164
+Baleine coupe	baleine coupée		1	2	323
+Baleine coupé	baleine coupée		1	3	323
+Baleine Coupée	baleine coupée		1	13	323
+Baleine coupée	baleine coupée		1	52	323
 baleine coupée	baleine coupée				
-Baleine coupée et en fanon	Baleine coupée et en fanon		1	7	323
-Baleine coupées	Baleine coupées		1	2	323
-Baleine cuppée	Baleine cuppée				
-Baleine de Sarde	Baleine de Sarde		1	1	16
-Baleine en Fanon	Baleine en Fanon		1	21	164
-Baleine en fanon	Baleine en fanon		1	8	164
+Baleine coupée et en fanon	baleine coupée et en fanon		1	7	323
+Baleine coupées	baleine coupée		1	2	323
+Baleine cuppée	baleine coupée				
+Baleine de Sarde	baleine de sarde		1	1	16
+Baleine en Fanon	baleine en fanon		1	21	164
+Baleine en fanon	baleine en fanon		1	8	164
 baleine en fanon	baleine en fanon				
-Baleine en fanons	Baleine en fanons				
-Baleine; coupée	Baleine coupée		1	8	323
-Baleine; de Sardes	Baleine de Sardes		1	1	16
-Baleine; en fanon	Baleine en fanon		1	1	164
-Baleine;coupé	Baleinecoupé		1	1	323
-Baleines	Baleines		1	2	117
-Baleines ; coupée	Baleines coupée		1	2	323
-Baleines ; en froment	Baleines en froment		1	1	164
-baleines coupées	baleines coupées				
-Baleines coupées en fanon	Baleines coupées en fanon		1	11	164
-Baleines en Fanon	Baleines en Fanon		1	1	164
-baleines non sciées	baleines non sciées		0	0	0
-baleines sciées ou coupées	baleines sciées ou coupées		0	0	0
-Baleines; coupées	Baleines coupées		1	4	323
-Baleines; de sardes	Baleines de sardes		1	2	16
-Baleines; en fanon	Baleines en fanon		1	4	164
-Balence de cuivre	Balence de cuivre		1	1	2
-Baleune coupée	Baleune coupée				
-Balfas	Balfas		1	1	44
-Ballaine en fanon	Ballaine en fanon		1	1	164
-Ballais de brandes	Ballais de brandes		1	1	147
-Ballais de crin	Ballais de crin		1	1	7
-Ballais de palmes	Ballais de palmes				
-Ballais de Soye	Ballais de soie		1	1	7
-Ballais de Toile	Ballais de Toile		1	1	1
-Balles	Balles		0	0	0
-Balles ; d'ozier	Balles d'ozier		1	2	3
-Balles à jouer	Balles à jouer		1	1	2
+Baleine en fanons	baleine en fanon				
+Baleine; coupée	baleine coupée		1	8	323
+Baleine; de Sardes	baleine de sarde		1	1	16
+Baleine; en fanon	baleine en fanon		1	1	164
+Baleine;coupé	baleine coupée		1	1	323
+Baleines	baleine		1	2	117
+Baleines ; coupée	baleine coupée		1	2	323
+Baleines ; en froment	baleine en fanon		1	1	164
+baleines coupées	baleine coupée				
+Baleines coupées en fanon	baleine coupée en fanon		1	11	164
+Baleines en Fanon	baleine en fanon		1	1	164
+baleines non sciées	baleine non sciée		0	0	0
+baleines sciées ou coupées	baleine sciée ou coupée		0	0	0
+Baleines; coupées	baleine coupée		1	4	323
+Baleines; de sardes	baleine de sarde		1	2	16
+Baleines; en fanon	baleine en fanon		1	4	164
+Balence de cuivre	balance de cuivre		1	1	2
+Baleune coupée	baleine coupée				
+Balfas	balfas		1	1	44
+Ballaine en fanon	baleine en fanon		1	1	164
+Ballais de brandes	balais de brandes		1	1	147
+Ballais de crin	balais de crin		1	1	7
+Ballais de palmes	balais de palme				
+Ballais de Soye	balais de soie		1	1	7
+Ballais de Toile	balais de toile		1	1	1
+Balles	balles		0	0	0
+Balles ; d'ozier	balles d'osier		1	2	3
+Balles à jouer	balles à jouer		1	1	2
 balles à jouer	balles à jouer		0	0	0
-Balles d'ozier	Balles d'ozier		1	1	3
-Balles en fer	Balles en fer		0	0	0
-Balles vuides	Balles vuides		1	1	1
-Balzannes tannées	Balzannes tannées		1	1	1
-Bamboucs	Bamboucs		1	1	1
-Banc ; a couper ; la paille	Banc à couper la paille		1	1	1
-Bancs ; de sapin	Bancs de sapin		1	1	1
-Bandeaux	Bandeaux		1	2	2
+Balles d'ozier	balles d'osier		1	1	3
+Balles en fer	balles en fer		0	0	0
+Balles vuides	balles vides		1	1	1
+Balzannes tannées	basannes tannées		1	1	1
+Bamboucs	bambous		1	1	1
+Banc ; a couper ; la paille	banc à couper la paille		1	1	1
+Bancs ; de sapin	banc de sapin		1	1	1
+Bandeaux	bandeaux		1	2	2
 banderoles	banderoles		0	0	0
-Banderolles ; de cuir	Banderolles de cuir		1	1	1
-Bandes de chapeau	Bandes de chapeau		0	0	0
-Bandoulières	Bandoulières		0	0	0
-Bannettes ; d'osier	Bannettes d'osier		1	1	1
-Bannettes de cuir	Bannettes de cuir		1	1	1
-Bannière ; de Damas	Bannière de Damas		1	1	1
-Banquette	Banquette		1	1	1
+Banderolles ; de cuir	banderoles de cuir		1	1	1
+Bandes de chapeau	bandes de chapeau		0	0	0
+Bandoulières	bandoulières		0	0	0
+Bannettes ; d'osier	bannettes d'osier		1	1	1
+Bannettes de cuir	bannettes de cuir		1	1	1
+Bannière ; de Damas	bannière de Damas		1	1	1
+Banquette	banquette	ARRET	1	1	1
 Baquelets	Baquelets				
 Baques ; de verre	Baques de verre		1	1	1
 baquets	baquets		1	1	1
@@ -1846,12 +1846,12 @@ Bas; de peau	Bas de peau		1	2	15
 Bas; de poil	Bas de poil		1	1	1
 Bas; de soye	Bas de soie		1	17	664
 Bas; écriers	Bas écriers		1	1	1
-basanes	basanes				
-Basanes ; tannées	Basanes tannées		1	1	119
-Basanes de mouton tannées	Basanes de mouton tannées				
-Basanes de veau tannées	Basanes de veau tannées				
-Basanes tannées	Basanes tannées				
-Basannes tannées	Basannes tannées		1	1	119
+basanes	basannes				
+Basanes ; tannées	basannes tannées		1	1	119
+Basanes de mouton tannées	basannes de mouton tannées				
+Basanes de veau tannées	basannes de veau tannées				
+Basanes tannées	basannes tannées				
+Basannes tannées	basannes tannées		1	1	119
 Basin	Basin		1	4	236
 basin	basin		0	0	0
 basin blanc	basin blanc		0	0	0
