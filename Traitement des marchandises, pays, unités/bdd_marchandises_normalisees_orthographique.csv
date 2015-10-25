@@ -1,4 +1,4 @@
-marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	nbr_bdc_marchandises_norm_ortho
+marchandises	marchandises_norm_ortho		source_bdc	nbr_bdc_marchandises	nbr_bdc_marchandises_norm_ortho
 0	???		0	0	0
 ?	???		1	2	19
 ? ; blanc	??? blanc		1	2	19
@@ -9,14 +9,14 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 ?? (le douzaine)	??? la douzaine		0	0	0
 ???	???		0	0	0
 .	???		0	0	0
-...caille de Tortue	écaille de tortue		1	6	203
+...caille de Tortue	écaille de tortues		1	6	203
 ...copes	écope		1	1	1
 ...corces de citron	écorce de citron		0	0	0
 ...gouttoir à Fondre	égouttoirs à fondre		1	1	1
 …Licanes	licanias		1	1	1
-...pars	épars		1	6	30
-...pars de Sapin	épars de sapin		1	1	11
-...parts	épars		1	1	120
+...pars	espars		1	6	30
+...pars de Sapin	espars de sapin		1	1	11
+...parts	espars		1	1	120
 ...pée	épée		0	0	0
 ...pées	épée		0	0	0
 ...pées d’argent	épée d’argent		0	0	0
@@ -345,8 +345,8 @@ marchandises	marchandises_norm_ortho	remarques	source_bdc	nbr_bdc_marchandises	n
 2///Matières première///Suif	matières premières suif		1	1	1000
 2///Matières première///Tabacs	matières premières tabac		1	19	677
 2///Matières premières///Articles réunis	matières premières articles réunis		1	75	2747
-2///Matières premières///Bois de Iles	matières premières bois des Iles		1	8	26
-2///Matières premières///Bois des iles	matières premières bois des Iles		1	17	26
+2///Matières premières///Bois de Iles	matières premières bois des Îles		1	8	26
+2///Matières premières///Bois des iles	matières premières bois des Îles		1	17	26
 2///Matières premières///Bois divers	matières premières bois divers		1	77	659
 2///Matières premières///Brai, goudron et résine	matières premières brai goudron et résine		1	9	45
 2///Matières premières///Brai, Goudron, Résine	matières premières brai goudron résine		1	8	45
@@ -1580,7 +1580,7 @@ Barils vuides	barils vides		1	14	46
 barils vuides	barils vides				
 Barils vuides de sardines	barils vides de sardines		1	2	46
 bariqes vuides	barriques vides		1	1	50
-Barique muids	barriques muids		1	1	50
+Barique muids	barriques muid		1	1	50
 Barique Vieille	barriques vieilles		1	1	10
 Barique Vieille Vuides	barriques vieilles vides		1	2	35
 barique vieilles	barriques vieilles		1	2	10
@@ -1676,12 +1676,12 @@ Barriques cubottes	barriques en botte		1	1	5
 Barriques en Bottes	barriques en botte		1	7	21
 Barriques en bottes	barriques en botte		1	1	21
 barriques en Bottes	barriques en botte		1	1	21
-Barriques muides	barriques muids		1	1	50
-Barriques muids	barriques muids		1	2	50
+Barriques muides	barriques muid		1	1	50
+Barriques muids	barriques muid		1	2	50
 Barriques Neuves	barriques neuves		1	2	5
 Barriques neuves	barriques neuves		1	1	5
 Barriques vides	barriques vides		0	0	0
-Barriques Vieille muides	barriques vieille muids		1	3	35
+Barriques Vieille muides	barriques vieille muid		1	3	35
 Barriques Vieille Vuiddes	barriques vieilles vides		1	1	35
 Barriques Vieille Vuides	barriques vieilles vides		1	1	35
 Barriques Vielle	barriques vieilles		1	1	10
@@ -2080,1909 +2080,1909 @@ beaume de Perou	baume du Pérou
 Beaume de Sucrier	baume de Sucre		1	1	1
 Beaume du Perou	baume du Pérou				
 Beaume du perou	baume du Pérou		1	2	18
-beaume du perou	baume du Pérou	ARRET			
+beaume du perou	baume du Pérou				
 beaume et elixir	baume et élixir		0	0	0
-Beauprés	Beauprés		0	0	0
+Beauprés	beaupré		0	0	0
 Beauverd ; broyé	beau vert broyé		1	1	1
-Becafiques marinée	Becafiques marinée				
+Becafiques marinée	becfigues marinés				
 Becasses	bécasses		1	1	4
 bécasses	bécasses		0	0	0
-Beccasses	Beccasses		1	2	4
-Beccassines	Beccassines		1	1	1
-Bêches	Bêches		0	0	0
-Bêches en fer	Bêches en fer		0	0	0
+Beccasses	bécasses		1	2	4
+Beccassines	bécassines		1	1	1
+Bêches	bêches		0	0	0
+Bêches en fer	bêches en fer		0	0	0
 Bedelim	bdellium		1	2	5
 bedelin	bdellium				
 Bedelium	bdellium				
 bedelium	bdellium				
 Bédélium	bdellium		1	1	1
-Beignoire	Beignoire		1	1	1
-Bejouant ; de levant	Bejouant de levant		1	1	64
+Beignoire	baignoires		1	1	1
+Bejouant ; de levant	benjoin de Levant		1	1	64
 Beldelium	bdellium		1	1	3
-Belles ; de bois	Belles de bois		1	2	2
-Benblanc	Benblanc				
-Benjoin	Benjoin		1	60	64
+Belles ; de bois	billles de bois		1	2	2
+Benblanc	benblanc				
+Benjoin	benjoin		1	60	64
 benjoin	benjoin				
-Benjouin	Benjouin		1	2	64
+Benjouin	benjoin		1	2	64
 bennes	bennes		0	0	0
-bennes vuides	bennes vuides		0	0	0
-Berceau ; d'ozier	Berceau d'ozier		1	1	1
-Berceaux ; d'enfant	Berceaux d'enfant		1	1	2
-bercEaux denfant	bercEaux denfant		1	1	2
-berces et lits de fer	berces et lits de fer		0	0	0
-Bérets	Bérets		0	0	0
+bennes vuides	bennes vides		0	0	0
+Berceau ; d'ozier	berceau d'osier		1	1	1
+Berceaux ; d'enfant	berceau d'enfant		1	1	2
+bercEaux denfant	berceau d'enfant		1	1	2
+berces et lits de fer	berce et lit de fer		0	0	0
+Bérets	bérets		0	0	0
 bergamotes	bergamotes				
 Bergamotte	bergamotes		1	4	35
 Bergamotter	bergamotes		1	1	35
 Bergamottes	bergamotes		1	30	35
 bergamottes	bergamotes				
-Bergoopsum	Bergoopsum		1	1	4
-Bergopsum	Bergopsum		1	1	4
-Bergopzoom	Bergopzoom		0	0	0
-Bergopzoom / aune	Bergopzoom aune		0	0	0
-Berline	Berline		1	3	6
-Berline ; garnie ; de velours	Berline garnie de velours		1	1	1
-Berline ; garnie de velours, crespine d'or et harnois riches	Berline garnie de velours crespine d'or et harnois riches		1	1	1
-Berline ; vieille	Berline vieille		1	1	1
-Berline et harnois	Berline et harnois		1	1	1
-Berlines	Berlines		1	2	6
-Berlines et leurs harnois	Berlines et leurs harnois		1	1	1
-Berlinne	Berlinne		1	1	6
-Bernes	Bernes		1	1	4
-Bernes ou tapsel	Bernes ou tapsel				
-Bernues	Bernues		1	1	4
-Bernus	Bernus		1	2	4
-bernus	bernus				
-Bernus de laine	Bernus de laine				
-bernus de laine	bernus de laine				
-berses d'ozier	berses d'ozier		0	0	0
-Bestiaux	Bestiaux		1	163	163
-Bestiaux ; agneaux	Bestiaux agneaux		1	6	17
-Bestiaux ; ânes	Bestiaux ânes		1	1	1
-Bestiaux ; Bœufs	Bestiaux Bœufs		1	12	91
-Bestiaux ; bœufs	Bestiaux bœufs		1	32	91
-Bestiaux ; Boucs	Bestiaux Boucs		1	4	5
-Bestiaux ; brebis	Bestiaux brebis		1	2	2
-Bestiaux ; chevaux	Bestiaux chevaux		1	9	536
-Bestiaux ; Chevres	Bestiaux Chevres		1	9	11
-Bestiaux ; chèvres	Bestiaux chèvres		1	2	11
-Bestiaux ; chevres et boucs	Bestiaux chevres et boucs		1	7	23
-Bestiaux ; chèvres et boucs	Bestiaux chèvres et boucs		1	1	23
-Bestiaux ; cochons	Bestiaux cochons		1	3	14
-Bestiaux ; de somme ; chevaux	Bestiaux de somme chevaux		1	3	536
-Bestiaux ; de somme ; en chevaux	Bestiaux de somme en chevaux		1	2	536
-Bestiaux ; divers	Bestiaux divers		1	27	27
-Bestiaux ; en agneaux	Bestiaux en agneaux		1	6	17
-Bestiaux ; en bœufs	Bestiaux en bœufs		1	4	91
-Bestiaux ; en bœufs ; gras	Bestiaux en bœufs gras		1	1	91
-Bestiaux ; en boucs	Bestiaux en boucs		1	1	5
-Bestiaux ; en genisses	Bestiaux en genisses		1	2	37
-Bestiaux ; en moutons	Bestiaux en moutons		1	1	257
-Bestiaux ; en porc	Bestiaux en porc		1	1	14
-Bestiaux ; en porcelets	Bestiaux en porcelets		1	1	7
-Bestiaux ; en porcs ; gras	Bestiaux en porcs gras		1	1	16
-Bestiaux ; en porcs ; maigres	Bestiaux en porcs maigres		1	1	1
-Bestiaux ; en vaches	Bestiaux en vaches		1	2	274
-Bestiaux ; en vaches ; grasses	Bestiaux en vaches grasses		1	1	274
-Bestiaux ; en veaux	Bestiaux en veaux		1	1	137
-Bestiaux ; en veaux ; gras	Bestiaux en veaux gras		1	1	3
-Bestiaux ; en veaux ; maigres	Bestiaux en veaux maigres		1	1	1
-Bestiaux ; en veaux ; pour ?	Bestiaux en veaux pour ?		1	1	1
-Bestiaux ; Genisses	Bestiaux Genisses		1	11	37
-Bestiaux ; genisses	Bestiaux genisses		1	15	37
-Bestiaux ; génisses	Bestiaux génisses		1	2	37
-Bestiaux ; mouton	Bestiaux mouton		1	2	257
-Bestiaux ; Moutons	Bestiaux Moutons		1	11	257
-Bestiaux ; moutons	Bestiaux moutons		1	20	257
-Bestiaux ; moutons ; gras	Bestiaux moutons gras		1	1	1
-Bestiaux ; moutons et brebis	Bestiaux moutons et brebis		1	11	11
-Bestiaux ; mules et mulets	Bestiaux mules et mulets		1	3	3
-Bestiaux ; Porcelets	Bestiaux Porcelets		1	4	7
-Bestiaux ; porcelets	Bestiaux porcelets		1	2	7
-Bestiaux ; porcs	Bestiaux porcs		1	10	14
-Bestiaux ; porcs ; gras	Bestiaux porcs gras		1	4	16
-Bestiaux ; porcs et porcelets	Bestiaux porcs et porcelets		1	14	14
-Bestiaux ; Porcs gras	Bestiaux Porcs gras		1	11	16
-Bestiaux ; poulins	Bestiaux poulins		1	1	1
-Bestiaux ; Taureaux	Bestiaux Taureaux		1	9	33
-Bestiaux ; taureaux	Bestiaux taureaux		1	16	33
-Bestiaux ; toreaux	Bestiaux toreaux		1	5	33
-Bestiaux ; Vaches	Bestiaux Vaches		1	11	274
-Bestiaux ; vaches	Bestiaux vaches		1	37	274
-Bestiaux ; vaches ; à lait	Bestiaux vaches à lait		1	1	1
-Bestiaux ; vaches ; grasses	Bestiaux vaches grasses		1	1	1
-Bestiaux ; Veaux	Bestiaux Veaux		1	10	137
-Bestiaux ; veaux	Bestiaux veaux		1	21	137
-Bestiaux ; veaux ; gras	Bestiaux veaux gras		1	2	3
-Bestiaux ; veaux ; petit	Bestiaux veaux petit		1	1	1
-Bestiaux en agneaux	Bestiaux en agneaux		1	5	17
-Bestiaux en bœufs, vaches porcs, moutons	Bestiaux en bœufs vaches porcs moutons		1	6	168
-Bestiaux en bœufs, vaches, porcs et moutons	Bestiaux en bœufs vaches porcs et moutons		1	29	168
-Bestiaux en bœufs, vaches, porcs moutons	Bestiaux en bœufs vaches porcs moutons		1	5	168
-Bestiaux en bœufs, vaches, porcs, et moutons	Bestiaux en bœufs vaches porcs et moutons		1	6	168
-Bestiaux en bœufs, vaches, porcs, moutons	Bestiaux en bœufs vaches porcs moutons		1	60	168
-Bestiaux en bœufs, vaches, veaux, moutons, etc	Bestiaux en bœufs vaches veaux moutons etc		1	7	168
-Bestiaux en bœufs, vaches, veaux, porcs et moutons	Bestiaux en bœufs vaches veaux porcs et moutons		1	55	168
-Bestiaux en bœufs,vaches,veaux et moutons	Bestiaux en bœufsvachesveaux et moutons		0	0	0
-Bestiaux et bêtes ; de somme ; bœuf	Bestiaux et bêtes de somme bœuf		1	1	1
-Bestiaux et bêtes ; de somme ; chevaux	Bestiaux et bêtes de somme chevaux		1	1	1
-Bestiaux et bêtes ; de somme ; genisses	Bestiaux et bêtes de somme genisses		1	1	1
-Bestiaux et bêtes ; de somme ; juments	Bestiaux et bêtes de somme juments		1	1	1
-Bestiaux et bêtes ; de somme ; taureaux	Bestiaux et bêtes de somme taureaux		1	1	1
-Bestiaux et bêtes ; de somme ; vaches	Bestiaux et bêtes de somme vaches		1	1	1
-Bestiaux et bêtes ; de somme ; veaux	Bestiaux et bêtes de somme veaux		1	1	1
-Betes ; de somme ; chevaux	Betes de somme chevaux		1	1	536
-Bêtes ; de somme ; chevaux	Bêtes de somme chevaux		1	6	536
-Bêtes ; de somme ; chevres	Bêtes de somme chevres		1	1	1
-Bêtes ; de somme ; diverses	Bêtes de somme diverses		1	2	2
-Bêtes ; de somme ; en chevaux	Bêtes de somme en chevaux		1	2	536
-Bêtes ; de somme ; en poulains	Bêtes de somme en poulains		1	2	29
-Betes ; de somme ; poulains	Betes de somme poulains		1	1	29
-Bêtes ; de somme ; poulains	Bêtes de somme poulains		1	2	29
-Bêtes : de somme ; poulains	Bêtes de somme poulains		1	1	29
-Bêtes de somme	Bêtes de somme		1	124	124
-Bêtes de somme ; anes	Bêtes de somme anes		1	2	10
-Betes de somme ; Asnes	Betes de somme Asnes		1	4	10
-Betes de somme ; Chevaux	Betes de somme Chevaux		1	5	536
-Bêtes de somme ; chevaux	Bêtes de somme chevaux		1	14	536
-Bêtes de somme ; chevaux ; arabes	Bêtes de somme chevaux arabes		1	1	1
-Betes de somme ; Cheveaux	Betes de somme Cheveaux		1	10	536
-Bêtes de somme ; diverses	Bêtes de somme diverses		1	2	2
-Betes de somme ; Juments	Betes de somme Juments		1	1	3
-Betes de somme ; Mules et mulets	Betes de somme Mules et mulets		1	6	22
-Bêtes de somme ; mules et mulets	Bêtes de somme mules et mulets		1	4	22
-Betes de somme ; Osnes	Betes de somme Osnes		1	2	10
-Betes de somme ; Poulains	Betes de somme Poulains		1	6	29
-Bêtes de somme ; poulains	Bêtes de somme poulains		1	4	29
-Betes,principalement en mules et mulets	Betesprincipalement en mules et mulets		0	0	0
-Béthille	Béthille		1	1	14
-Betille	Betille		1	1	14
-Betiller	Betiller		1	1	14
-Betilles	Betilles		1	8	14
-Bétilles	Bétilles				
-Betittes	Betittes		1	1	14
+Bergoopsum	bergopzoom		1	1	4
+Bergopsum	bergopzoom		1	1	4
+Bergopzoom	bergopzoom		0	0	0
+Bergopzoom / aune	bergopzoom aune		0	0	0
+Berline	berline		1	3	6
+Berline ; garnie ; de velours	berline garnie de velours		1	1	1
+Berline ; garnie de velours, crespine d'or et harnois riches	berline garnie de velours crêpine d'or et harnais riche		1	1	1
+Berline ; vieille	berline vieille		1	1	1
+Berline et harnois	berline et harnais		1	1	1
+Berlines	berline		1	2	6
+Berlines et leurs harnois	berline et son harnais		1	1	1
+Berlinne	berline		1	1	6
+Bernes	bernes		1	1	4
+Bernes ou tapsel	bernes ou tapsel				
+Bernues	bernes		1	1	4
+Bernus	bernes		1	2	4
+bernus	bernes				
+Bernus de laine	bernes de laine				
+bernus de laine	bernes de laine				
+berses d'ozier	verses d'osier		0	0	0
+Bestiaux	bestiaux		1	163	163
+Bestiaux ; agneaux	bestiaux agneaux		1	6	17
+Bestiaux ; ânes	bestiaux ânes		1	1	1
+Bestiaux ; Bœufs	bestiaux bœuf		1	12	91
+Bestiaux ; bœufs	bestiaux bœuf		1	32	91
+Bestiaux ; Boucs	bestiaux boucs		1	4	5
+Bestiaux ; brebis	bestiaux brebis		1	2	2
+Bestiaux ; chevaux	bestiaux chevaux		1	9	536
+Bestiaux ; Chevres	bestiaux chèvres		1	9	11
+Bestiaux ; chèvres	bestiaux chèvres		1	2	11
+Bestiaux ; chevres et boucs	bestiaux chèvres et boucs		1	7	23
+Bestiaux ; chèvres et boucs	bestiaux chèvres et boucs		1	1	23
+Bestiaux ; cochons	bestiaux cochon		1	3	14
+Bestiaux ; de somme ; chevaux	bestiaux de somme chevaux		1	3	536
+Bestiaux ; de somme ; en chevaux	bestiaux de somme en chevaux		1	2	536
+Bestiaux ; divers	bestiaux divers		1	27	27
+Bestiaux ; en agneaux	bestiaux en agneaux		1	6	17
+Bestiaux ; en bœufs	bestiaux en bœuf		1	4	91
+Bestiaux ; en bœufs ; gras	bestiaux en bœuf gras		1	1	91
+Bestiaux ; en boucs	bestiaux en boucs		1	1	5
+Bestiaux ; en genisses	bestiaux en génisses		1	2	37
+Bestiaux ; en moutons	bestiaux en moutons		1	1	257
+Bestiaux ; en porc	bestiaux en porcs		1	1	14
+Bestiaux ; en porcelets	bestiaux en porcelets		1	1	7
+Bestiaux ; en porcs ; gras	bestiaux en porcs gras		1	1	16
+Bestiaux ; en porcs ; maigres	bestiaux en porcs maigres		1	1	1
+Bestiaux ; en vaches	bestiaux en vaches		1	2	274
+Bestiaux ; en vaches ; grasses	bestiaux en vaches grasses		1	1	274
+Bestiaux ; en veaux	bestiaux en veaux		1	1	137
+Bestiaux ; en veaux ; gras	bestiaux en veaux gras		1	1	3
+Bestiaux ; en veaux ; maigres	bestiaux en veaux maigres		1	1	1
+Bestiaux ; en veaux ; pour ?	bestiaux en veaux pour ???		1	1	1
+Bestiaux ; Genisses	bestiaux génisses		1	11	37
+Bestiaux ; genisses	bestiaux génisses		1	15	37
+Bestiaux ; génisses	bestiaux génisses		1	2	37
+Bestiaux ; mouton	bestiaux moutons		1	2	257
+Bestiaux ; Moutons	bestiaux moutons		1	11	257
+Bestiaux ; moutons	bestiaux moutons		1	20	257
+Bestiaux ; moutons ; gras	bestiaux moutons gras		1	1	1
+Bestiaux ; moutons et brebis	bestiaux moutons et brebis		1	11	11
+Bestiaux ; mules et mulets	bestiaux mules et mulets		1	3	3
+Bestiaux ; Porcelets	bestiaux porcelets		1	4	7
+Bestiaux ; porcelets	bestiaux porcelets		1	2	7
+Bestiaux ; porcs	bestiaux porcs		1	10	14
+Bestiaux ; porcs ; gras	bestiaux porcs gras		1	4	16
+Bestiaux ; porcs et porcelets	bestiaux porcs et porcelets		1	14	14
+Bestiaux ; Porcs gras	bestiaux porcs gras		1	11	16
+Bestiaux ; poulins	bestiaux poulains		1	1	1
+Bestiaux ; Taureaux	bestiaux taureaux		1	9	33
+Bestiaux ; taureaux	bestiaux taureaux		1	16	33
+Bestiaux ; toreaux	bestiaux taureaux		1	5	33
+Bestiaux ; Vaches	bestiaux vaches		1	11	274
+Bestiaux ; vaches	bestiaux vaches		1	37	274
+Bestiaux ; vaches ; à lait	bestiaux vaches à lait		1	1	1
+Bestiaux ; vaches ; grasses	bestiaux vaches grasses		1	1	1
+Bestiaux ; Veaux	bestiaux veaux		1	10	137
+Bestiaux ; veaux	bestiaux veaux		1	21	137
+Bestiaux ; veaux ; gras	bestiaux veaux gras		1	2	3
+Bestiaux ; veaux ; petit	bestiaux veaux petits		1	1	1
+Bestiaux en agneaux	bestiaux en agneaux		1	5	17
+Bestiaux en bœufs, vaches porcs, moutons	bestiaux en bœuf vaches porcs moutons		1	6	168
+Bestiaux en bœufs, vaches, porcs et moutons	bestiaux en bœuf vaches porcs et moutons		1	29	168
+Bestiaux en bœufs, vaches, porcs moutons	bestiaux en bœuf vaches porcs moutons		1	5	168
+Bestiaux en bœufs, vaches, porcs, et moutons	bestiaux en bœuf vaches porcs et moutons		1	6	168
+Bestiaux en bœufs, vaches, porcs, moutons	bestiaux en bœuf vaches porcs moutons		1	60	168
+Bestiaux en bœufs, vaches, veaux, moutons, etc	bestiaux en bœuf vaches veaux moutons etc		1	7	168
+Bestiaux en bœufs, vaches, veaux, porcs et moutons	bestiaux en bœuf vaches veaux porcs et moutons		1	55	168
+Bestiaux en bœufs,vaches,veaux et moutons	bestiaux en bœuf vaches veaux et moutons		0	0	0
+Bestiaux et bêtes ; de somme ; bœuf	bestiaux et bêtes de somme bœuf		1	1	1
+Bestiaux et bêtes ; de somme ; chevaux	bestiaux et bêtes de somme chevaux		1	1	1
+Bestiaux et bêtes ; de somme ; genisses	bestiaux et bêtes de somme génisses		1	1	1
+Bestiaux et bêtes ; de somme ; juments	bestiaux et bêtes de somme juments		1	1	1
+Bestiaux et bêtes ; de somme ; taureaux	bestiaux et bêtes de somme taureaux		1	1	1
+Bestiaux et bêtes ; de somme ; vaches	bestiaux et bêtes de somme vaches		1	1	1
+Bestiaux et bêtes ; de somme ; veaux	bestiaux et bêtes de somme veaux		1	1	1
+Betes ; de somme ; chevaux	bêtes de somme chevaux		1	1	536
+Bêtes ; de somme ; chevaux	bêtes de somme chevaux		1	6	536
+Bêtes ; de somme ; chevres	bêtes de somme chèvres		1	1	1
+Bêtes ; de somme ; diverses	bêtes de somme diverses		1	2	2
+Bêtes ; de somme ; en chevaux	bêtes de somme en chevaux		1	2	536
+Bêtes ; de somme ; en poulains	bêtes de somme en poulains		1	2	29
+Betes ; de somme ; poulains	bêtes de somme poulains		1	1	29
+Bêtes ; de somme ; poulains	bêtes de somme poulains		1	2	29
+Bêtes : de somme ; poulains	bêtes de somme poulains		1	1	29
+Bêtes de somme	bêtes de somme		1	124	124
+Bêtes de somme ; anes	bêtes de somme ânes		1	2	10
+Betes de somme ; Asnes	bêtes de somme ânes		1	4	10
+Betes de somme ; Chevaux	bêtes de somme chevaux		1	5	536
+Bêtes de somme ; chevaux	bêtes de somme chevaux		1	14	536
+Bêtes de somme ; chevaux ; arabes	bêtes de somme chevaux arabes		1	1	1
+Betes de somme ; Cheveaux	bêtes de somme chevaux		1	10	536
+Bêtes de somme ; diverses	bêtes de somme diverses		1	2	2
+Betes de somme ; Juments	bêtes de somme juments		1	1	3
+Betes de somme ; Mules et mulets	bêtes de somme mules et mulets		1	6	22
+Bêtes de somme ; mules et mulets	bêtes de somme mules et mulets		1	4	22
+Betes de somme ; Osnes	bêtes de somme ânes		1	2	10
+Betes de somme ; Poulains	bêtes de somme poulains		1	6	29
+Bêtes de somme ; poulains	bêtes de somme poulains		1	4	29
+Betes,principalement en mules et mulets	bêtes principalement en mules et mulets		0	0	0
+Béthille	bétilles		1	1	14
+Betille	bétilles		1	1	14
+Betiller	bétilles		1	1	14
+Betilles	bétilles		1	8	14
+Bétilles	bétilles				
+Betittes	bétilles		1	1	14
 betteraves	betteraves		1	1	2
-Bettilles	Bettilles		1	2	14
-Bettraves	Bettraves		0	0	0
-Beuf	Beuf		1	1	9
-Beuf ; à l'Ecarlate	Beuf à l'Ecarlate		1	1	3
-Beuf ; à la daube	Beuf à la daube		1	2	11
-Beuf ; en vie	Beuf en vie		1	50	50
-Beuf ; fumé	Beuf fumé				
-Beuf ; salé	Beuf salé				
-Beuf ; sallé	Beuf sallé		1	13	533
-Beuf ; taureau	Beuf taureau		1	2	2
-Beuf à la daube	Beuf à la daube		1	3	11
-Beuf fumé	Beuf fumé				
-beuf Fumé	beuf Fumé		1	1	74
-beuf fumé	beuf fumé				
-Beuf sale	Beuf sale				
-Beuf Salé	Beuf Salé		1	58	533
-Beuf salé	Beuf salé		1	60	533
-beuf salé	beuf salé				
-Beuf Sallé	Beuf Sallé		1	7	533
-Beuf sallé	Beuf sallé		1	18	533
-beuf sallé	beuf sallé		1	2	533
-Beuf; à la daube	Beuf à la daube		1	1	11
-Beuf; en vie	Beuf en vie		1	8	9
-Beuf; fumé	Beuf fumé		1	1	74
-Beuf; salé	Beuf salé		1	7	533
-Beuf; taureaux	Beuf taureaux		1	2	2
-Beufs	Beufs		1	8	9
-Beufs ; à l'écarlatte	Beufs à l'écarlatte		1	2	3
-Beufs ; à la daube	Beufs à la daube		1	4	11
-Beufs ; en vie	Beufs en vie		1	145	145
-Beufs ; fumé	Beufs fumé		1	21	74
-Beufs ; fumée	Beufs fumée		1	1	74
-Beufs ; fumés	Beufs fumés		1	3	74
-Beufs ; Salé	Beufs Salé		1	3	533
-Beufs ; salé	Beufs salé		1	121	533
-Beufs ; salés	Beufs salés		1	9	533
-Beure	Beure		1	265	1170
-beure	beure		1	14	1170
-Beure ; commun	Beure commun		1	4	4
-Beure ; de dixmude	Beure de dixmude		1	1	1
-Beure ; salé	Beure salé		1	9	10
-beure frais	beure frais				
-Beure Salé	Beure Salé		1	4	56
-Beure salé	Beure salé		1	9	56
-beure Salé	beure Salé		1	5	56
-beure salé	beure salé		1	8	56
-Beure sallé	Beure sallé		1	3	56
-beure sallé	beure sallé		1	1	56
-Beure; de beuf	Beure de beuf		1	1	102
-Beures	Beures				
-Beurre	Beurre				
+Bettilles	bétilles		1	2	14
+Bettraves	betteraves		0	0	0
+Beuf	bœuf		1	1	9
+Beuf ; à l'Ecarlate	bœuf à l'écarlate		1	1	3
+Beuf ; à la daube	bœuf à la daube		1	2	11
+Beuf ; en vie	bœuf en vie		1	50	50
+Beuf ; fumé	bœuf fumé				
+Beuf ; salé	bœuf salé				
+Beuf ; sallé	bœuf salé		1	13	533
+Beuf ; taureau	bœuf taureau		1	2	2
+Beuf à la daube	bœuf à la daube		1	3	11
+Beuf fumé	bœuf fumé				
+beuf Fumé	bœuf fumé		1	1	74
+beuf fumé	bœuf fumé				
+Beuf sale	bœuf salé				
+Beuf Salé	bœuf salé		1	58	533
+Beuf salé	bœuf salé		1	60	533
+beuf salé	bœuf salé				
+Beuf Sallé	bœuf salé		1	7	533
+Beuf sallé	bœuf salé		1	18	533
+beuf sallé	bœuf salé		1	2	533
+Beuf; à la daube	bœuf à la daube		1	1	11
+Beuf; en vie	bœuf en vie		1	8	9
+Beuf; fumé	bœuf fumé		1	1	74
+Beuf; salé	bœuf salé		1	7	533
+Beuf; taureaux	bœuf taureaux		1	2	2
+Beufs	bœuf		1	8	9
+Beufs ; à l'écarlatte	bœuf à l'écarlate		1	2	3
+Beufs ; à la daube	bœuf à la daube		1	4	11
+Beufs ; en vie	bœuf en vie		1	145	145
+Beufs ; fumé	bœuf fumé		1	21	74
+Beufs ; fumée	bœuf fumé		1	1	74
+Beufs ; fumés	bœuf fumé		1	3	74
+Beufs ; Salé	bœuf salé		1	3	533
+Beufs ; salé	bœuf salé		1	121	533
+Beufs ; salés	bœuf salé		1	9	533
+Beure	beurre		1	265	1170
+beure	beurre		1	14	1170
+Beure ; commun	beurre commun		1	4	4
+Beure ; de dixmude	beurre de Dixmude		1	1	1
+Beure ; salé	beurre salé		1	9	10
+beure frais	beurre frais				
+Beure Salé	beurre salé		1	4	56
+Beure salé	beurre salé		1	9	56
+beure Salé	beurre salé		1	5	56
+beure salé	beurre salé		1	8	56
+Beure sallé	beurre salé		1	3	56
+beure sallé	beurre salé		1	1	56
+Beure; de beuf	beurre de bœuf		1	1	102
+Beures	beurre				
+Beurre	beurre				
 beurre	beurre				
-Beurre ; de cacao	Beurre de cacao		1	1	1
-Beurre ; ordinaire	Beurre ordinaire		1	18	18
-Beurre ; salé	Beurre salé		1	11	56
+Beurre ; de cacao	beurre de cacao		1	1	1
+Beurre ; ordinaire	beurre ordinaire		1	18	18
+Beurre ; salé	beurre salé		1	11	56
 beurre ; salé	beurre salé		1	1	10
 beurre à bastier	beurre à bastier				
-beurre d'angleterre	beurre d'angleterre		0	0	0
+beurre d'angleterre	beurre d'Angleterre		0	0	0
 beurre d'Irlande non comestible	beurre d'Irlande non comestible		0	0	0
-Beurre de cacao	Beurre de cacao				
-Beurre frais	Beurre frais				
+Beurre de cacao	beurre de cacao				
+Beurre frais	beurre frais				
 beurre frais	beurre frais				
-Beurre Salé	Beurre Salé				
-Beurre salé	Beurre salé		1	4	56
+Beurre Salé	beurre salé				
+Beurre salé	beurre salé		1	4	56
 beurre salé	beurre salé		1	3	56
-Beurre Salle	Beurre Salle		1	1	56
-Beurre Sallé	Beurre Sallé		1	1	56
-Beurres	Beurres		1	2	1170
-Beurreterie ; en bar ; de fil blanc	Beurreterie en bar de fil blanc		1	1	1
-Beurrre	Beurrre		1	1	1170
-Bevelium	Bevelium		1	1	3
-Bezoar	Bezoar		1	1	4
-Bézoard	Bézoard		1	1	4
-Bezouard	Bezouard		1	2	4
-Bezoüard ; du Tonent	Bezoüard du Tonent		1	1	1
-Biblioteque	Biblioteque		1	1	1
-Bidet ; de fayence	Bidet de fayence		1	1	1
-Bidets ; de fayence ; avec leurs prez de bois	Bidets de fayence avec leurs prez de bois		1	1	1
-Bidets ; de fayence et leurs pieces	Bidets de fayence et leurs pieces		1	1	1
-Biere	Biere				
-biere	biere				
-Biére	Biére		1	3	651
-Bière	Bière		1	67	651
-Biere ; de Lubek	Biere de Lubek		1	1	2
-Biere ; de Luber ; pour médecine	Biere de Luber pour médecine		1	1	2
-Bière (de Dantzig)	Bière (de Dantzig)		0	0	0
-Bière anglaise	Bière anglaise		0	0	0
-Bière de Dantzig	Bière de Dantzig		0	0	0
-Biere de Lubec	Biere de Lubec		1	1	1
-Bière en fût	Bière en fût		0	0	0
-Bière et cidre	Bière et cidre		1	39	85
-Bière nautique	Bière nautique		0	0	0
-Bière porter	Bière porter		0	0	0
-Bierre	Bierre				
-bierre	bierre				
-Bierre ; aigre	Bierre aigre		1	1	1
-Bierre ; blanche	Bierre blanche		1	1	1
-Bierre ; de Lubek	Bierre de Lubek		1	1	1
-Bierre ; fortes	Bierre fortes		1	1	1
-Bierre ; médecinale ; de Lubek	Bierre médecinale de Lubek		1	1	1
-bierre commune du pays	bierre commune du pays		0	0	0
-bierre d'angleterre	bierre d'angleterre		0	0	0
-bierre d'hollande	bierre d'hollande		0	0	0
-bierre d'hougarde	bierre d'hougarde		0	0	0
-bierre de liège	bierre de liège		0	0	0
-bierre de liège, d'anglettere etc	bierre de liège d'anglettere etc		0	0	0
-bierre dite juypenbier	bierre dite juypenbier		0	0	0
-bierre dite lumay	bierre dite lumay		0	0	0
-Bierre et cidre	Bierre et cidre		1	33	85
-Bierre, cidre et vinaigne	Bierre cidre et vinaigne		1	4	10
-Bierre, cidre et vinaigre	Bierre cidre et vinaigre		1	5	10
-Bierres	Bierres				
-Bierze	Bierze		1	20	651
-Bigarade	Bigarade		0	0	0
-Bigarades	Bigarades		1	1	6
-Bigons	Bigons		1	3	6
+Beurre Salle	beurre salé		1	1	56
+Beurre Sallé	beurre salé		1	1	56
+Beurres	beurre		1	2	1170
+Beurreterie ; en bar ; de fil blanc	beurreterie en bar de fil blanc		1	1	1
+Beurrre	beurre		1	1	1170
+Bevelium	bdellium		1	1	3
+Bezoar	bezoar		1	1	4
+Bézoard	bezoar		1	1	4
+Bezouard	bezoar		1	2	4
+Bezoüard ; du Tonent	bezoar du Ponent		1	1	1
+Biblioteque	bibliothèque		1	1	1
+Bidet ; de fayence	bidet de faïence		1	1	1
+Bidets ; de fayence ; avec leurs prez de bois	bidet de faïence avec ses pieds de bois		1	1	1
+Bidets ; de fayence et leurs pieces	bidet de faïence et ses pièces		1	1	1
+Biere	bière				
+biere	bière				
+Biére	bière		1	3	651
+Bière	bière		1	67	651
+Biere ; de Lubek	biere de Lübeck		1	1	2
+Biere ; de Luber ; pour médecine	biere de Lübeck pour médecine		1	1	2
+Bière (de Dantzig)	bière de Dantzig		0	0	0
+Bière anglaise	bière anglaise		0	0	0
+Bière de Dantzig	bière de Dantzig		0	0	0
+Biere de Lubec	biere de Lübeck		1	1	1
+Bière en fût	bière en fûts		0	0	0
+Bière et cidre	bière et cidre		1	39	85
+Bière nautique	bière nautique		0	0	0
+Bière porter	bière porter		0	0	0
+Bierre	bière				
+bierre	bière				
+Bierre ; aigre	bière aigre		1	1	1
+Bierre ; blanche	bière blanche		1	1	1
+Bierre ; de Lubek	biere de Lübeck		1	1	1
+Bierre ; fortes	bière forte		1	1	1
+Bierre ; médecinale ; de Lubek	bière médecinale de Lübeck		1	1	1
+bierre commune du pays	bière commune du pays		0	0	0
+bierre d'angleterre	bière d'Angleterre		0	0	0
+bierre d'hollande	bière de Hollande		0	0	0
+bierre d'hougarde	bière d'Hoegaarden		0	0	0
+bierre de liège	bière de Liège		0	0	0
+bierre de liège, d'anglettere etc	bière de Liège d'Angleterre etc		0	0	0
+bierre dite juypenbier	bière dite juypenbier		0	0	0
+bierre dite lumay	bière dite lumay		0	0	0
+Bierre et cidre	bière et cidre		1	33	85
+Bierre, cidre et vinaigne	bière cidre et vinaigre		1	4	10
+Bierre, cidre et vinaigre	bière cidre et vinaigre		1	5	10
+Bierres	bière				
+Bierze	bierze		1	20	651
+Bigarade	bigarade		0	0	0
+Bigarades	bigarade		1	1	6
+Bigons	bigons		1	3	6
 bigons	bigons				
-Bigous	Bigous				
-Bigues	Bigues		1	1	6
-Bijouterie	Bijouterie				
-Bijouterie ; diamans, perles et pierres fines, montés ou non montés	Bijouterie diamans perles et pierres fines montés ou non montés		1	14	84
-Bijouterie ; divers	Bijouterie divers		1	3	665
-Bijouterie ; diverse	Bijouterie diverse		1	1	665
-Bijouterie ; en épingles	Bijouterie en épingles		1	1	1
-Bijouterie ; pour montre d'argent	Bijouterie pour montre d'argent		1	1	1
-Bijouterie : diamans, perles et pierres fines	Bijouterie diamans perles et pierres fines		1	13	84
-Bijouterie : diamants, perles et pierres fines	Bijouterie diamants perles et pierres fines		1	13	84
-Bijouterie en perles et pierres fines montées et non montées	Bijouterie en perles et pierres fines montées et non montées		1	35	48
-Bijouterie et perles fines	Bijouterie et perles fines		1	17	84
-Bijouterie et perles fines montées et non montées	Bijouterie et perles fines montées et non montées		1	17	84
-Bijouterie, diamans, perles et pierres fines non montés	Bijouterie diamans perles et pierres fines non montés		1	13	48
-Bijouterie, diamans, perles et pierres fines, montés ou non montés	Bijouterie diamans perles et pierres fines montés ou non montés		1	10	84
-Bijouteries	Bijouteries		1	10	665
-bijouteries	bijouteries		0	0	0
-Bijoutterie	Bijoutterie		1	1	665
+Bigous	bigous				
+Bigues	bigues		1	1	6
+Bijouterie	bijouterie				
+Bijouterie ; diamans, perles et pierres fines, montés ou non montés	bijouterie diamants perles et pierres fines montés ou non montés		1	14	84
+Bijouterie ; divers	bijouterie diverse		1	3	665
+Bijouterie ; diverse	bijouterie diverse		1	1	665
+Bijouterie ; en épingles	bijouterie en épingles		1	1	1
+Bijouterie ; pour montre d'argent	bijouterie pour montres d'argent		1	1	1
+Bijouterie : diamans, perles et pierres fines	bijouterie diamants perles et pierres fines		1	13	84
+Bijouterie : diamants, perles et pierres fines	bijouterie diamants perles et pierres fines		1	13	84
+Bijouterie en perles et pierres fines montées et non montées	bijouterie en perles et pierres fines montées et non montées		1	35	48
+Bijouterie et perles fines	bijouterie et perles fines		1	17	84
+Bijouterie et perles fines montées et non montées	bijouterie et perles fines montées et non montées		1	17	84
+Bijouterie, diamans, perles et pierres fines non montés	bijouterie diamants perles et pierres fines non montés		1	13	48
+Bijouterie, diamans, perles et pierres fines, montés ou non montés	bijouterie diamants perles et pierres fines montés ou non montés		1	10	84
+Bijouteries	bijouterie		1	10	665
+bijouteries	bijouterie		0	0	0
+Bijoutterie	bijouterie		1	1	665
 bilardeaux	bilardeaux		0	0	0
 bilardeaux, weres, etc	bilardeaux weres etc		0	0	0
-Billard	Billard		1	5	5
-Billard ; vieux	Billard vieux		1	1	1
-Billes ; d'Yvoire	Billes d'Yvoire		1	1	5
-Billes ; d'yvoire	Billes d'yvoire		1	4	5
-Billes d'yvoire	Billes d'yvoire		1	2	2
-Billes de Bois	Billes de Bois		1	2	3
-Billes de bois	Billes de bois		0	0	0
-Billes de Bois a faire Meubles	Billes de Bois à faire Meubles		1	1	1
-Billes de Bois de Gayac	Billes de Bois de Gayac		1	1	1
-Billes de Bois Marbré	Billes de Bois Marbré		1	2	2
-Billets ; de parchemin	Billets de parchemin		1	6	7
-Billets de parchemin	Billets de parchemin		1	1	7
-Billon	Billon		1	1	1
-Billons	Billons		1	1	1
+Billard	billard		1	5	5
+Billard ; vieux	billard vieux		1	1	1
+Billes ; d'Yvoire	billes d'ivoire		1	1	5
+Billes ; d'yvoire	billes d'ivoire		1	4	5
+Billes d'yvoire	billes d'ivoire		1	2	2
+Billes de Bois	billes de bois		1	2	3
+Billes de bois	billes de bois		0	0	0
+Billes de Bois a faire Meubles	billes de bois à faire meubles		1	1	1
+Billes de Bois de Gayac	billes de bois de Gayac		1	1	1
+Billes de Bois Marbré	billes de bois marbré		1	2	2
+Billets ; de parchemin	billets de parchemin		1	6	7
+Billets de parchemin	billets de parchemin		1	1	7
+Billon	billons		1	1	1
+Billons	billons		1	1	1
 billons de bois blanc	billons de bois blanc				
-Billons de bois petits	Billons de bois petits				
-billons de Sapin	billons de Sapin		1	1	13
-Billot ; de sapin	Billot de sapin		1	2	13
-Billots	Billots		1	1	1
-billots a faire Merrain	billots à faire Merrain		1	1	1
-Billots de chesne a faire merrain	Billots de chesne à faire merrain				
-Billots de Sapin	Billots de Sapin		1	6	13
-Billots de sapin	Billots de sapin		1	3	13
-billots de Sapin	billots de Sapin		1	1	13
-Bimbeloterie	Bimbeloterie		1	86	86
-Binages à pousser	Binages à pousser		0	0	0
-Birampots bleu	Birampots bleu		1	1	1
-Biscuit	Biscuit		1	28	115
-Biscuit ; de mer	Biscuit de mer		1	8	65
-Biscuit de Mer	Biscuit de Mer		1	1	65
-Biscuit de mer	Biscuit de mer		1	12	65
-Biscuits	Biscuits		1	87	115
-Biscuits ; de mer	Biscuits de mer		1	24	65
-Biscuits amer	Biscuits amer		1	2	2
-Biscuits au poivre	Biscuits au poivre		0	0	0
-Biscuits de froment	Biscuits de froment		0	0	0
-Biscuits de mer	Biscuits de mer		1	19	65
-biscuits de munition	biscuits de munition		0	0	0
-Bithume	Bithume		1	1	1
-Bithume ; de Judée	Bithume de Judée		1	1	4
-Bithume de Judée	Bithume de Judée				
-bithume; de judée	bithume de judée		1	1	4
-Bitume ; de Judée	Bitume de Judée		1	1	4
-Blagues	Blagues		1	1	1
-Blallst	Blallst		1	1	1
-Blan d'Espagne	Blan d'Espagne		1	1	47
-blan d'Espagne	blan d'Espagne		1	2	47
-Blan de baleine	Blan de baleine		1	1	64
-Blan;de baleine	Blande baleine		1	1	64
-Blanc ;	Blanc 		1	1	1
-Blanc ; d' espagne	Blanc d' espagne		1	1	47
-Blanc ; d'ecaille	Blanc d'ecaille		1	1	2
-Blanc ; d'Espagne	Blanc d'Espagne		1	18	47
-Blanc ; d'espagne	Blanc d'espagne		1	2	47
-Blanc ; de balaine	Blanc de balaine		1	2	64
-Blanc ; de baleine	Blanc de baleine		1	49	64
-Blanc ; de cerruze	Blanc de cerruze		1	1	13
-Blanc ; de cerure	Blanc de cerure		1	1	13
-Blanc ; de ceruse	Blanc de ceruse		1	3	13
-Blanc ; de ceruze	Blanc de ceruze		1	5	13
-Blanc ; de Croyes	Blanc de Croyes		1	1	20
-Blanc ; de Froyes	Blanc de Froyes		1	5	20
-Blanc ; de plomb	Blanc de plomb		0	0	0
-Blanc ; de seruze	Blanc de seruze		1	1	13
-Blanc ; de Troyes	Blanc de Troyes		1	7	20
-Blanc ; de troyes	Blanc de troyes		1	7	20
-Blanc ; en chevron	Blanc en chevron		1	1	1
-Blanc ; plomb	Blanc plomb		1	1	28
-blanc d'ecailles	blanc d'ecailles		0	0	0
-Blanc d'Espagne	Blanc d'Espagne				
-Blanc d'espagne	Blanc d'espagne		1	2	47
+Billons de bois petits	billons de bois petits				
+billons de Sapin	billons de sapin		1	1	13
+Billot ; de sapin	billot de sapin		1	2	13
+Billots	billots		1	1	1
+billots a faire Merrain	billots à faire merrain		1	1	1
+Billots de chesne a faire merrain	billots de chêne à faire merrain				
+Billots de Sapin	billots de sapin		1	6	13
+Billots de sapin	billots de sapin		1	3	13
+billots de Sapin	billots de sapin		1	1	13
+Bimbeloterie	bimbeloterie		1	86	86
+Binages à pousser	binages à pousser		0	0	0
+Birampots bleu	birampots bleu		1	1	1
+Biscuit	biscuit		1	28	115
+Biscuit ; de mer	biscuit de mer		1	8	65
+Biscuit de Mer	biscuit de mer		1	1	65
+Biscuit de mer	biscuit de mer		1	12	65
+Biscuits	biscuit		1	87	115
+Biscuits ; de mer	biscuit de mer		1	24	65
+Biscuits amer	biscuit amer		1	2	2
+Biscuits au poivre	biscuit au poivre		0	0	0
+Biscuits de froment	biscuit de froment		0	0	0
+Biscuits de mer	biscuit de mer		1	19	65
+biscuits de munition	biscuit de munition		0	0	0
+Bithume	bitume		1	1	1
+Bithume ; de Judée	bitume de Judée		1	1	4
+Bithume de Judée	bitume de Judée				
+bithume; de judée	bitume de Judée		1	1	4
+Bitume ; de Judée	bitume de Judée		1	1	4
+Blagues	blagues		1	1	1
+Blallst	blallst		1	1	1
+Blan d'Espagne	blanc d'Espagne		1	1	47
+blan d'Espagne	blanc d'Espagne		1	2	47
+Blan de baleine	blanc de baleine		1	1	64
+Blan;de baleine	blanc de baleine		1	1	64
+Blanc ;	blanc 		1	1	1
+Blanc ; d' espagne	blanc d'Espagne		1	1	47
+Blanc ; d'ecaille	blanc d'écaille		1	1	2
+Blanc ; d'Espagne	blanc d'Espagne		1	18	47
+Blanc ; d'espagne	blanc d'Espagne		1	2	47
+Blanc ; de balaine	blanc de baleine		1	2	64
+Blanc ; de baleine	blanc de baleine		1	49	64
+Blanc ; de cerruze	blanc de céruse		1	1	13
+Blanc ; de cerure	blanc de céruse		1	1	13
+Blanc ; de ceruse	blanc de céruse		1	3	13
+Blanc ; de ceruze	blanc de céruse		1	5	13
+Blanc ; de Croyes	blanc de Troyes		1	1	20
+Blanc ; de Froyes	blanc de Troyes		1	5	20
+Blanc ; de plomb	blanc de plomb		0	0	0
+Blanc ; de seruze	blanc de céruse		1	1	13
+Blanc ; de Troyes	blanc de Troyes		1	7	20
+Blanc ; de troyes	blanc de Troyes		1	7	20
+Blanc ; en chevron	blanc en chevron		1	1	1
+Blanc ; plomb	blanc plomb		1	1	28
+blanc d'ecailles	blanc d'écaille		0	0	0
+Blanc d'Espagne	blanc d'Espagne				
+Blanc d'espagne	blanc d'Espagne		1	2	47
 blanc d'Espagne	blanc d'Espagne		1	2	47
-blanc d'Espagne, craye blanche et moulue	blanc d'Espagne craye blanche et moulue		0	0	0
-blanc de balaine	blanc de balaine		1	1	64
-Blanc de Baleine	Blanc de Baleine		1	1	64
-Blanc de baleine	Blanc de baleine				
-blanc de Baleine	blanc de Baleine		1	2	64
-blanc de ceruse	blanc de ceruse		1	1	13
-Blanc de Ceruze	Blanc de Ceruze		1	1	13
-Blanc de plomb	Blanc de plomb		1	1	28
-Blanc simple	Blanc simple		1	2	2
-Blanc; d'espagne	Blanc d'espagne		1	2	47
-Blanc; de baleine	Blanc de baleine		1	1	64
-Blanc; de plomb	Blanc de plomb		1	1	28
-Blanc; de S Croyes	Blanc de S Croyes		1	3	47
-blanchisoire	blanchisoire		1	1	2
-Blanchissoires	Blanchissoires		1	1	2
-Blanquette	Blanquette		1	1	1
-Blé	Blé		1	92	263
-Blé ; froment	Blé froment		1	2	2
-Blé ; seigle	Blé seigle		1	2	198
-Blé de seigle	Blé de seigle		1	2	198
-Blé et autres graines comestibles	Blé et autres graines comestibles		1	11	146
-Blé et autres grains	Blé et autres grains		0	0	0
-Blé et autres grains comestibles	Blé et autres grains comestibles		1	4	146
-Blé et autres grains, comestibles	Blé et autres grains comestibles		1	125	146
-Blé et riz	Blé et riz		1	9	9
-Ble Froment	Ble Froment		1	4	643
-Blé Froment	Blé Froment		1	16	643
-Blé seigle	Blé seigle		1	2	6
-Bled	Bled		1	5	146
-bled	bled				
-Bled ; d'Espagne	Bled d'Espagne		1	1	7
-Bled ; d'Inde	Bled d'Inde		1	5	55
-Bled ; d'inde	Bled d'inde		1	12	55
-Bled ; d'Indes	Bled d'Indes		1	6	55
-Bled ; de froment	Bled de froment		1	10	643
-Bled ; de maïs	Bled de maïs		1	1	55
-Bled ; de prune	Bled de prune		1	2	2
-Bled ; de segle	Bled de segle		1	2	9
-Bled ; de seigle	Bled de seigle		1	7	9
-Bled ; de Turquie	Bled de Turquie		1	1	1
-Bled ; froment	Bled froment		1	1	643
-Bled ; mabi	Bled mabi		1	1	55
-Bled ; maby	Bled maby		1	1	55
-Bled ; mahi	Bled mahi		1	5	55
-Bled ; mahy	Bled mahy		1	8	55
-Bled ; matry	Bled matry		1	2	55
-Bled ; métal	Bled métal		1	1	24
-Bled ; meteil	Bled meteil		1	5	24
-Bled ; méteil	Bled méteil		1	8	24
-Bled ; metril	Bled metril		1	1	24
-Bled ; millon	Bled millon		1	1	2
-Bled ; millot	Bled millot		1	1	2
-Bled ; noir	Bled noir		1	1	1
-Bled ; sarazin	Bled sarazin		1	2	9
-Bled ; Sarrasin	Bled Sarrasin		1	2	9
-Bled ; Sarrazin	Bled Sarrazin		1	1	9
-Bled ; segle	Bled segle		1	3	6
-Bled ; Seigle	Bled Seigle		1	6	198
-Bled ; seigle	Bled seigle		1	1	6
-Bled ; seigle en gerbes	Bled seigle en gerbes		1	1	198
-Bled ; siegle	Bled siegle		1	2	198
-Bled ; veigle	Bled veigle		1	4	198
-Bled baillarge	Bled baillarge		1	1	1
-Bled d'Espagne	Bled d'Espagne		1	6	7
-Bled de froment	Bled de froment				
-Bled de méteil	Bled de méteil		1	1	24
-bled en jarbes	bled en jarbes		0	0	0
-Bled Fromant	Bled Fromant		1	1	643
-Bled fromant	Bled fromant		1	1	643
-Bled fromen	Bled fromen		1	2	643
-Bled Froment	Bled Froment		1	18	643
-Bled froment	Bled froment		1	36	643
-bled froment	bled froment		1	4	643
-Bléd froment	Bléd froment		1	3	643
-Bléd Fromente	Bléd Fromente		1	1	643
-Bled Mahy	Bled Mahy		1	1	55
-Bled mahy	Bled mahy		1	4	55
-Bled maïs	Bled maïs		1	1	55
-Bled meteil	Bled meteil		1	1	24
-Bled Méteil	Bled Méteil		1	3	24
-bled sarrazin	bled sarrazin		0	0	0
-Bled Seigle	Bled Seigle		1	10	198
-Bled seigle	Bled seigle		1	8	198
-bled Seigle	bled Seigle		1	3	198
-bled seigle	bled seigle				
-Bled; d'inde	Bled d'inde		1	2	55
-Bled; froment	Bled froment		1	15	643
-Bled; meteil	Bled meteil		1	1	24
-Bled; sarazin	Bled sarazin		1	1	9
-Bled; seigle	Bled seigle		1	6	198
-Bleds froment	Bleds froment		1	1	643
-Bleds Mahy	Bleds Mahy		1	1	55
-Blés	Blés		1	171	263
-Bles ; froment	Bles froment		1	51	643
-Bles ; mahy	Bles mahy		1	5	55
-Bles ; meteil	Bles meteil		1	3	24
-Bles ; sarazin	Bles sarazin		1	2	9
-Bles ; seigle	Bles seigle		1	12	198
-Blés/Froments	BlésFroments		0	0	0
-Bleu	Bleu		1	7	7
-Bleu ; calaminé	Bleu calaminé		1	1	1
-Bleu ; commun	Bleu commun		1	4	4
-Bleu ; de Prusse	Bleu de Prusse		1	34	120
-Bleu ; de prusse	Bleu de prusse		1	9	120
-Bleu ; de Saxe	Bleu de Saxe		1	1	120
-Bleu ; fin	Bleu fin		1	2	2
-Bleu ; foncé	Bleu foncé		1	1	1
-Bleu ; ordinaire	Bleu ordinaire		1	1	1
-Bleu colorant	Bleu colorant		0	0	0
+blanc d'Espagne, craye blanche et moulue	blanc d'Espagne craie blanche et moulue		0	0	0
+blanc de balaine	blanc de baleine		1	1	64
+Blanc de Baleine	blanc de baleine		1	1	64
+Blanc de baleine	blanc de baleine				
+blanc de Baleine	blanc de baleine		1	2	64
+blanc de ceruse	blanc de céruse		1	1	13
+Blanc de Ceruze	blanc de céruse		1	1	13
+Blanc de plomb	blanc de plomb		1	1	28
+Blanc simple	blanc simple		1	2	2
+Blanc; d'espagne	blanc d'Espagne		1	2	47
+Blanc; de baleine	blanc de baleine		1	1	64
+Blanc; de plomb	blanc de plomb		1	1	28
+Blanc; de S Croyes	blanc de Troyes		1	3	47
+blanchisoire	blanchissoire		1	1	2
+Blanchissoires	blanchissoire		1	1	2
+Blanquette	blanquette		1	1	1
+Blé	blé		1	92	263
+Blé ; froment	blé froment		1	2	2
+Blé ; seigle	blé seigle		1	2	198
+Blé de seigle	blé de seigle		1	2	198
+Blé et autres graines comestibles	blé et autres graine comestible		1	11	146
+Blé et autres grains	blé et autres grains		0	0	0
+Blé et autres grains comestibles	blé et autres grains comestibles		1	4	146
+Blé et autres grains, comestibles	blé et autres grains comestibles		1	125	146
+Blé et riz	blé et riz		1	9	9
+Ble Froment	blé froment		1	4	643
+Blé Froment	blé froment		1	16	643
+Blé seigle	blé seigle		1	2	6
+Bled	blé		1	5	146
+bled	blé				
+Bled ; d'Espagne	blé d'Espagne		1	1	7
+Bled ; d'Inde	blé d'Inde		1	5	55
+Bled ; d'inde	blé d'Inde		1	12	55
+Bled ; d'Indes	blé d'Inde		1	6	55
+Bled ; de froment	blé de froment		1	10	643
+Bled ; de maïs	blé de maïs		1	1	55
+Bled ; de prune	blé de prune		1	2	2
+Bled ; de segle	blé de seigle		1	2	9
+Bled ; de seigle	blé de seigle		1	7	9
+Bled ; de Turquie	blé de Turquie		1	1	1
+Bled ; froment	blé froment		1	1	643
+Bled ; mabi	blé maïs		1	1	55
+Bled ; maby	blé maïs		1	1	55
+Bled ; mahi	blé maïs		1	5	55
+Bled ; mahy	blé maïs		1	8	55
+Bled ; matry	blé maïs		1	2	55
+Bled ; métal	blé méteil		1	1	24
+Bled ; meteil	blé méteil		1	5	24
+Bled ; méteil	blé méteil		1	8	24
+Bled ; metril	blé méteil		1	1	24
+Bled ; millon	blé millet		1	1	2
+Bled ; millot	blé millet		1	1	2
+Bled ; noir	blé noir		1	1	1
+Bled ; sarazin	blé sarrasin		1	2	9
+Bled ; Sarrasin	blé sarrasin		1	2	9
+Bled ; Sarrazin	blé sarrasin		1	1	9
+Bled ; segle	blé seigle		1	3	6
+Bled ; Seigle	blé seigle		1	6	198
+Bled ; seigle	blé seigle		1	1	6
+Bled ; seigle en gerbes	blé seigle en gerbes		1	1	198
+Bled ; siegle	blé seigle		1	2	198
+Bled ; veigle	blé seigle		1	4	198
+Bled baillarge	blé baillarge		1	1	1
+Bled d'Espagne	blé d'Espagne		1	6	7
+Bled de froment	blé de froment				
+Bled de méteil	blé de méteil		1	1	24
+bled en jarbes	blé en gerbes		0	0	0
+Bled Fromant	blé froment		1	1	643
+Bled fromant	blé froment		1	1	643
+Bled fromen	blé froment		1	2	643
+Bled Froment	blé froment		1	18	643
+Bled froment	blé froment		1	36	643
+bled froment	blé froment		1	4	643
+Bléd froment	blé froment		1	3	643
+Bléd Fromente	blé froment		1	1	643
+Bled Mahy	blé maïs		1	1	55
+Bled mahy	blé maïs		1	4	55
+Bled maïs	blé maïs		1	1	55
+Bled meteil	blé méteil		1	1	24
+Bled Méteil	blé méteil		1	3	24
+bled sarrazin	blé sarrasin		0	0	0
+Bled Seigle	blé seigle		1	10	198
+Bled seigle	blé seigle		1	8	198
+bled Seigle	blé seigle		1	3	198
+bled seigle	blé seigle				
+Bled; d'inde	blé d'inde		1	2	55
+Bled; froment	blé froment		1	15	643
+Bled; meteil	blé meteil		1	1	24
+Bled; sarazin	blé sarrasin		1	1	9
+Bled; seigle	blé seigle		1	6	198
+Bleds froment	blé froment		1	1	643
+Bleds Mahy	blé maïs		1	1	55
+Blés	blé		1	171	263
+Bles ; froment	blé froment		1	51	643
+Bles ; mahy	blé maïs		1	5	55
+Bles ; meteil	blé méteil		1	3	24
+Bles ; sarazin	blé sarrasin		1	2	9
+Bles ; seigle	blé seigle		1	12	198
+Blés/Froments	blé froment		0	0	0
+Bleu	bleu		1	7	7
+Bleu ; calaminé	bleu calaminé		1	1	1
+Bleu ; commun	bleu commun		1	4	4
+Bleu ; de Prusse	bleu de Prusse		1	34	120
+Bleu ; de prusse	bleu de Prusse		1	9	120
+Bleu ; de Saxe	bleu de Saxe		1	1	120
+Bleu ; fin	bleu fin		1	2	2
+Bleu ; foncé	bleu foncé		1	1	1
+Bleu ; ordinaire	bleu ordinaire		1	1	1
+Bleu colorant	bleu colorant		0	0	0
 bleu de Berlin	bleu de Berlin		0	0	0
 bleu de paille	bleu de paille		0	0	0
-Bleu de Prusse	Bleu de Prusse		1	65	120
-Bleu de prusse	Bleu de prusse		1	9	120
-Bleu de Prusse et graine jaune	Bleu de Prusse et graine jaune		1	2	2
-Bleu de Prusse et lazulite	Bleu de Prusse et lazulite		1	10	15
-Bleu de Prusse et lazulize	Bleu de Prusse et lazulize		1	5	15
+Bleu de Prusse	bleu de Prusse		1	65	120
+Bleu de prusse	bleu de Prusse		1	9	120
+Bleu de Prusse et graine jaune	bleu de Prusse et graine jaune		1	2	2
+Bleu de Prusse et lazulite	bleu de Prusse et lazulite		1	10	15
+Bleu de Prusse et lazulize	bleu de Prusse et lazulite		1	5	15
 bleu de smalt	bleu de smalt		0	0	0
-Bleu ou tournesol	Bleu ou tournesol		1	1	1
-Bleu; de Prusse	Bleu de Prusse		1	1	120
-Bleue de Prusse	Bleue de Prusse		1	1	120
-Blicourt escarlate	Blicourt escarlate				
-Blocs	Blocs		1	2	3
-Blocs ; ???	Blocs ???		1	1	1
-Blocs de chênes	Blocs de chênes		0	0	0
-Blocs de pierre	Blocs de pierre		0	0	0
-Blois	Blois		1	1	3
-Blois de Jong	Blois de Jong		1	1	7
-Blonde	Blonde		1	1	2
-Blonde ; d'argent	Blonde d'argent		1	2	2
-Blonde ; d'or	Blonde d'or		1	1	1
-Blonde ; de fil	Blonde de fil		1	1	1
-Blonde ; de soye	Blonde de soie		1	63	105
-Blonde ; or et argent	Blonde or et argent		1	1	1
-Blonde de soye	Blonde de soie		1	40	105
-Blonde visage	Blonde visage		1	2	105
-Blondes	Blondes		1	1	2
-Bluteaux	Bluteaux		1	2	2
-Bobine de Cuirs	Bobine de Cuirs		1	1	1
-Bocaux	Bocaux		0	0	0
-Bodans	Bodans		1	3	3
-Boëles ; blanche	Boëles blanche		1	2	3
-Boëles ; de bois	Boëles de bois		1	1	56
-Boeste de bois	Boeste de bois		1	1	56
-Boëte ; vernie	Boëte vernie		1	1	1
-Boëtes	Boëtes		1	10	10
-Boëtes ; à cadrille	Boëtes à cadrille		1	2	2
-Boëtes ; blanches	Boëtes blanches		1	1	3
-Boetes ; de bargamotes	Boetes de bargamotes		1	3	22
-Boetes ; de bergamotes	Boetes de bergamotes		1	1	22
-Boetes ; de bergamotte	Boetes de bergamotte		1	4	22
-Boëtes ; de bergamottes	Boëtes de bergamottes		1	9	22
-Boetes ; de bois	Boetes de bois		1	15	56
-Boëtes ; de bois	Boëtes de bois		1	27	56
-Boetes ; de cadrille	Boetes de cadrille		1	1	1
-Boëtes ; de cadrille	Boëtes de cadrille		1	2	2
-Boetes ; de carton	Boetes de carton		1	1	2
-Boëtes ; de sapin	Boëtes de sapin		1	1	11
-Boetes de bergamote	Boetes de bergamote		1	1	22
-Boetes de bois	Boetes de bois		1	2	56
-Böetes de bois	Böetes de bois		1	1	56
-Boëtes de bois	Boëtes de bois		1	1	56
-boëtes de bois d'olivier	boëtes de bois d'olivier				
-boëtes de Nuremberg	boëtes de Nuremberg		0	0	0
-Boetes de sapin	Boetes de sapin		1	1	11
-Boëtes de sapin	Boëtes de sapin		1	3	11
-boëtes de sapin	boëtes de sapin				
-Boëtes peintes	Boëtes peintes		1	1	1
-Boëtes; de bergamotte	Boëtes de bergamotte		1	4	22
-Boëtes; de bois	Boëtes de bois		1	5	56
-Boëttes ; de bois	Boëttes de bois		1	2	56
-Bœuf	Bœuf		1	1	56
-Boeuf ; a la mode	Boeuf à la mode		1	1	1
-Boeuf ; en vie	Boeuf en vie		1	8	91
-Bœuf ; en vie	Bœuf en vie		1	11	91
-Boeuf ; fumé	Boeuf fumé		1	1	74
-Bœuf ; fumé	Bœuf fumé		1	20	74
-Boeuf ; salé	Boeuf salé		1	11	533
-Bœuf ; salé	Bœuf salé		1	49	533
-Bœuf ; sallé	Bœuf sallé		1	15	533
-Boeuf ; Taureaux	Boeuf Taureaux		1	3	33
-Bœuf à la daube	Bœuf à la daube		1	1	11
-Bœuf d'Irlande	Bœuf d'Irlande		1	1	1
-Bœuf Froment	Bœuf Froment		1	1	1
-Bœuf Fumé	Bœuf Fumé		1	2	74
-Bœuf fumé	Bœuf fumé		1	1	74
-bœuf Fumé	bœuf Fumé		1	1	74
-Boeuf salé	Boeuf salé				
-Bœuf Salé	Bœuf Salé		1	15	533
-Bœuf salé	Bœuf salé		1	19	533
+Bleu ou tournesol	bleu ou tournesol		1	1	1
+Bleu; de Prusse	bleu de Prusse		1	1	120
+Bleue de Prusse	bleu de Prusse		1	1	120
+Blicourt escarlate	Blicourt écarlate				
+Blocs	blocs		1	2	3
+Blocs ; ???	blocs ???		1	1	1
+Blocs de chênes	blocs de chêne		0	0	0
+Blocs de pierre	blocs de pierre		0	0	0
+Blois	blocs		1	1	3
+Blois de Jong	blocs de jonc		1	1	7
+Blonde	blonde		1	1	2
+Blonde ; d'argent	blonde d'argent		1	2	2
+Blonde ; d'or	blonde d'or		1	1	1
+Blonde ; de fil	blonde de fil		1	1	1
+Blonde ; de soye	blonde de soie		1	63	105
+Blonde ; or et argent	blonde or et argent		1	1	1
+Blonde de soye	blonde de soie		1	40	105
+Blonde visage	blonde visage		1	2	105
+Blondes	blonde		1	1	2
+Bluteaux	bluteaux		1	2	2
+Bobine de Cuirs	bobine de cuir		1	1	1
+Bocaux	bocaux		0	0	0
+Bodans	bodans		1	3	3
+Boëles ; blanche	boîtes blanches		1	2	3
+Boëles ; de bois	boîtes de bois		1	1	56
+Boeste de bois	boîtes de bois		1	1	56
+Boëte ; vernie	boîtes vernies		1	1	1
+Boëtes	boîtes		1	10	10
+Boëtes ; à cadrille	boîtes à cadrille		1	2	2
+Boëtes ; blanches	boîtes blanches		1	1	3
+Boetes ; de bargamotes	boîtes de bergamotes		1	3	22
+Boetes ; de bergamotes	boîtes de bergamotes		1	1	22
+Boetes ; de bergamotte	boîtes de bergamotes		1	4	22
+Boëtes ; de bergamottes	boîtes de bergamotes		1	9	22
+Boetes ; de bois	boîtes de bois		1	15	56
+Boëtes ; de bois	boîtes de bois		1	27	56
+Boetes ; de cadrille	boîtes de cadrille		1	1	1
+Boëtes ; de cadrille	boîtes de cadrille		1	2	2
+Boetes ; de carton	boîtes de carton		1	1	2
+Boëtes ; de sapin	boîtes de sapin		1	1	11
+Boetes de bergamote	boîtes de bergamotes		1	1	22
+Boetes de bois	boîtes de bois		1	2	56
+Böetes de bois	boîtes de bois		1	1	56
+Boëtes de bois	boîtes de bois		1	1	56
+boëtes de bois d'olivier	boîtes de bois d'olivier				
+boëtes de Nuremberg	boîtes de Nuremberg		0	0	0
+Boetes de sapin	boîtes de sapin		1	1	11
+Boëtes de sapin	boîtes de sapin		1	3	11
+boëtes de sapin	boîtes de sapin				
+Boëtes peintes	boîtes peintes		1	1	1
+Boëtes; de bergamotte	boîtes de bergamotes		1	4	22
+Boëtes; de bois	boîtes de bois		1	5	56
+Boëttes ; de bois	boîtes de bois		1	2	56
+Bœuf	bœuf		1	1	56
+Boeuf ; a la mode	bœuf à la mode		1	1	1
+Boeuf ; en vie	bœuf en vie		1	8	91
+Bœuf ; en vie	bœuf en vie		1	11	91
+Boeuf ; fumé	bœuf fumé		1	1	74
+Bœuf ; fumé	bœuf fumé		1	20	74
+Boeuf ; salé	bœuf salé		1	11	533
+Bœuf ; salé	bœuf salé		1	49	533
+Bœuf ; sallé	bœuf salé		1	15	533
+Boeuf ; Taureaux	boeuf taureaux		1	3	33
+Bœuf à la daube	bœuf à la daube		1	1	11
+Bœuf d'Irlande	bœuf d'Irlande		1	1	1
+Bœuf Froment	bœuf froment		1	1	1
+Bœuf Fumé	bœuf fumé		1	2	74
+Bœuf fumé	bœuf fumé		1	1	74
+bœuf Fumé	bœuf fumé		1	1	74
+Boeuf salé	bœuf salé				
+Bœuf Salé	bœuf salé		1	15	533
+Bœuf salé	bœuf salé		1	19	533
 bœuf salé	bœuf salé		1	1	533
-Bœuf Sallé	Bœuf Sallé		1	4	533
-Bœuf sallé	Bœuf sallé		1	17	533
-Boeufs	Boeufs		1	1	91
-Bœufs	Bœufs		0	0	0
-Bœufs ; en vie	Bœufs en vie		1	21	91
-Bœufs ; salé	Bœufs salé		1	7	533
-Bœufs en vie	Bœufs en vie		1	1	9
-Bœufs et langues salées ; de toutes sortes	Bœufs et langues salées de toutes sortes		1	6	6
-bœufs et taureaux	bœufs et taureaux		0	0	0
-Bœufs Illinois	Bœufs Illinois		1	1	1
-boeuftins et genisses	boeuftins et genisses		0	0	0
-Boeurre	Boeurre				
-Bois	Bois		1	1	1
-Bois , de sandal	Bois de sandal		1	1	1
-Bois , fustel	Bois fustel		1	4	116
-Bois , scié	Bois scié		1	2	47
-Bois ; ; mairin; a Bariques	Bois mairin à Bariques		1	2	2
-Bois ; ?	Bois ?		1	5	7
-Bois ; ? ; de chêne	Bois ? de chêne		1	2	2
-Bois ; ??	Bois ??		1	2	7
-Bois ; à balis	Bois à balis		1	1	15
-Bois ; a banquiere	Bois à banquiere		1	1	1
-Bois ; à baril	Bois à baril		1	7	15
-Bois ; à barils	Bois à barils		1	6	15
-Bois ; a bariques	Bois à bariques		1	1	2
-Bois ; a bariques douëlles	Bois à bariques douëlles				
-Bois ; à barits	Bois à barits		1	1	15
-Bois ; a barrils ; a fonds	Bois à barrils à fonds		1	1	1
-Bois ; a barrils ; long	Bois à barrils long		1	1	1
-Bois ; a barrils ; ordinaire	Bois à barrils ordinaire		1	1	1
-Bois ; a batir	Bois à batir		1	1	58
-Bois ; à batir	Bois à batir		1	27	58
-Bois ; à bâtir	Bois à bâtir		1	18	58
-Bois ; à bats	Bois à bats		1	3	58
-Bois ; à battir	Bois à battir		1	3	58
-Bois ; A bruler	Bois à bruler		1	12	321
-Bois ; a Bruler	Bois à Bruler		1	3	321
-Bois ; a bruler	Bois à bruler		1	9	321
-Bois ; à bruler	Bois à bruler		1	110	321
-Bois ; à brûler	Bois à brûler		1	100	321
-Bois ; à brûler ; d'orme	Bois à brûler d'orme		1	1	1
-Bois ; à brûler ; de chêne	Bois à brûler de chêne		1	1	1
-Bois ; à brûler ; de gite	Bois à brûler de gite		1	1	1
-Bois ; à brûler ; en ?	Bois à brûler en ?		1	2	2
-Bois ; à brûler ; en buches	Bois à brûler en buches		1	1	1
-Bois ; à brûler ; en facheaux	Bois à brûler en facheaux		1	1	1
-Bois ; à brûler ; en fagot	Bois à brûler en fagot		1	2	8
-Bois ; à brûler ; en fagots	Bois à brûler en fagots		1	3	8
-Bois ; à bruslé	Bois à bruslé		1	1	321
-Bois ; à chocolat	Bois à chocolat		1	1	1
-Bois ; a cribles	Bois à cribles		1	1	1
-Bois ; à f. foureaux	Bois à f. foureaux		1	1	1
-Bois ; à f.boetes	Bois à f.boetes		1	1	4
-Bois ; à f.corbin	Bois à f.corbin		1	1	5
-Bois ; à f.étusjs	Bois à f.étusjs		1	1	1
-Bois ; à faire ; corbin	Bois à faire corbin		1	1	5
-Bois ; a faire bocles	Bois à faire bocles		1	1	4
-Bois ; à faire boëtes	Bois à faire boëtes		1	1	4
-Bois ; à faire comble	Bois à faire comble		1	1	1
-Bois ; à faire corbin	Bois à faire corbin		1	2	5
-Bois ; à faire fourreaux ; d'épées	Bois à faire fourreaux d'épées		1	1	2
-Bois ; a faire meubles	Bois à faire meubles				
-Bois ; à faire sommier	Bois à faire sommier		1	2	5
-Bois ; à faureau d'Epée	Bois à faureau d'Epée		1	1	3
-Bois ; a fonds	Bois à fonds		1	2	2
-Bois ; à foureau ; d'épée	Bois à foureau d'épée		1	1	3
-Bois ; a fourreaux d'épée	Bois à fourreaux d'épée		1	1	3
-Bois ; a fre Sommier	Bois à fre Sommier		1	1	5
-Bois ; à fre soureaux	Bois à fre soureaux		1	1	1
-Bois ; a fre violons	Bois à fre violons		1	1	1
-Bois ; a fusiler	Bois à fusiler		1	1	2
-Bois ; à fusils	Bois à fusils		1	1	2
-Bois ; à fxx corbin	Bois à fxx corbin		1	1	5
-Bois ; à fxx fourreaux d'épées	Bois à fxx fourreaux d'épées		1	1	2
-Bois ; à fxx sommiers	Bois à fxx sommiers		1	1	5
-Bois ; a gaine	Bois à gaine				
-Bois ; à lit	Bois à lit		1	1	1
-Bois ; a meubler	Bois à meubler		1	1	13
-Bois ; à meubles	Bois à meubles		1	12	13
-Bois ; a parquet	Bois à parquet		1	1	1
-Bois ; a pipe	Bois à pipe		1	1	6
-Bois ; a pipes	Bois à pipes		1	5	6
-Bois ; a pipes douëlles	Bois à pipes douëlles				
-Bois ; a quart	Bois à quart		1	1	2
-Bois ; a quarts	Bois à quarts		1	1	2
-Bois ; à tamis	Bois à tamis		1	10	11
-Bois ; à tapis	Bois à tapis		1	1	1
-Bois ; à teinde	Bois à teinde		1	1	6
-Bois ; a Teindre	Bois à Teindre		1	3	234
-Bois ; a teindre	Bois à teindre				
-Bois ; à teindre	Bois à teindre		1	184	234
+Bœuf Sallé	bœuf salé		1	4	533
+Bœuf sallé	bœuf salé		1	17	533
+Boeufs	bœuf		1	1	91
+Bœufs	bœuf		0	0	0
+Bœufs ; en vie	bœuf en vie		1	21	91
+Bœufs ; salé	bœuf salé		1	7	533
+Bœufs en vie	bœuf en vie		1	1	9
+Bœufs et langues salées ; de toutes sortes	bœuf et langues salées de toute sorte		1	6	6
+bœufs et taureaux	bœuf et taureaux		0	0	0
+Bœufs Illinois	bœuf Illinois		1	1	1
+boeuftins et genisses	bœuftins et génisses		0	0	0
+Boeurre	beurre				
+Bois	bois		1	1	1
+Bois , de sandal	bois de santal		1	1	1
+Bois , fustel	bois fustel		1	4	116
+Bois , scié	bois scié		1	2	47
+Bois ; ; mairin; a Bariques	bois merrains à bariques		1	2	2
+Bois ; ?	bois ???		1	5	7
+Bois ; ? ; de chêne	bois ??? de chêne		1	2	2
+Bois ; ??	bois ???		1	2	7
+Bois ; à balis	bois à barils		1	1	15
+Bois ; a banquiere	bois à banquière		1	1	1
+Bois ; à baril	bois à barils		1	7	15
+Bois ; à barils	bois à barils		1	6	15
+Bois ; a bariques	bois à barriques		1	1	2
+Bois ; a bariques douëlles	bois à barriques douelles				
+Bois ; à barits	bois à barils		1	1	15
+Bois ; a barrils ; a fonds	bois à barils à fond		1	1	1
+Bois ; a barrils ; long	bois à barils long		1	1	1
+Bois ; a barrils ; ordinaire	bois à barils ordinaire		1	1	1
+Bois ; a batir	bois à bâtir		1	1	58
+Bois ; à batir	bois à bâtir		1	27	58
+Bois ; à bâtir	bois à bâtir		1	18	58
+Bois ; à bats	bois à bats		1	3	58
+Bois ; à battir	bois à bâtir		1	3	58
+Bois ; A bruler	bois à brûler		1	12	321
+Bois ; a Bruler	bois à brûler		1	3	321
+Bois ; a bruler	bois à brûler		1	9	321
+Bois ; à bruler	bois à brûler		1	110	321
+Bois ; à brûler	bois à brûler		1	100	321
+Bois ; à brûler ; d'orme	bois à brûler d'orme		1	1	1
+Bois ; à brûler ; de chêne	bois à brûler de chêne		1	1	1
+Bois ; à brûler ; de gite	bois à brûler de gite		1	1	1
+Bois ; à brûler ; en ?	bois à brûler en ???		1	2	2
+Bois ; à brûler ; en buches	bois à brûler en bûches		1	1	1
+Bois ; à brûler ; en facheaux	bois à brûler en facheaux		1	1	1
+Bois ; à brûler ; en fagot	bois à brûler en fagots		1	2	8
+Bois ; à brûler ; en fagots	bois à brûler en fagots		1	3	8
+Bois ; à bruslé	bois à brûler		1	1	321
+Bois ; à chocolat	bois à chocolat		1	1	1
+Bois ; a cribles	bois à crible		1	1	1
+Bois ; à f. foureaux	bois à faire fourreaux		1	1	1
+Bois ; à f.boetes	bois à faire boîtes		1	1	4
+Bois ; à f.corbin	bois à faire corbin		1	1	5
+Bois ; à f.étusjs	bois à faire étuis		1	1	1
+Bois ; à faire ; corbin	bois à faire corbin		1	1	5
+Bois ; a faire bocles	bois à faire boucles		1	1	4
+Bois ; à faire boëtes	bois à faire boîtes		1	1	4
+Bois ; à faire comble	bois à faire comble		1	1	1
+Bois ; à faire corbin	bois à faire corbin		1	2	5
+Bois ; à faire fourreaux ; d'épées	bois à faire fourreaux d'épée		1	1	2
+Bois ; a faire meubles	bois à faire meubles				
+Bois ; à faire sommier	bois à faire sommiers		1	2	5
+Bois ; à faureau d'Epée	bois à fourreaux d'épée		1	1	3
+Bois ; a fonds	bois à fond		1	2	2
+Bois ; à foureau ; d'épée	bois à fourreaux d'épée		1	1	3
+Bois ; a fourreaux d'épée	bois à fourreaux d'épée		1	1	3
+Bois ; a fre Sommier	bois à faire sommiers		1	1	5
+Bois ; à fre soureaux	bois à faire fourreaux		1	1	1
+Bois ; a fre violons	bois à faire violons		1	1	1
+Bois ; a fusiler	bois à fusils		1	1	2
+Bois ; à fusils	bois à fusils		1	1	2
+Bois ; à fxx corbin	bois à faire corbin		1	1	5
+Bois ; à fxx fourreaux d'épées	bois à faire fourreaux d'épée		1	1	2
+Bois ; à fxx sommiers	bois à faire sommiers		1	1	5
+Bois ; a gaine	bois à gaine				
+Bois ; à lit	bois à lit		1	1	1
+Bois ; a meubler	bois à meubles		1	1	13
+Bois ; à meubles	bois à meubles		1	12	13
+Bois ; a parquet	bois à parquet		1	1	1
+Bois ; a pipe	bois à pipes		1	1	6
+Bois ; a pipes	bois à pipes		1	5	6
+Bois ; a pipes douëlles	bois à pipes douelles				
+Bois ; a quart	bois à quart		1	1	2
+Bois ; a quarts	bois à quart		1	1	2
+Bois ; à tamis	bois à tamis		1	10	11
+Bois ; à tapis	bois à tapis		1	1	1
+Bois ; à teinde	bois à teindre		1	1	6
+Bois ; a Teindre	bois à teindre		1	3	234
+Bois ; a teindre	bois à teindre				
+Bois ; à teindre	bois à teindre		1	184	234
 bois ; à teindre	bois à teindre		1	2	234
-Bois ; à teindre ; de fernambourg	Bois à teindre de fernambourg		1	1	1
-Bois ; a teindre ; en buches	Bois à teindre en buches				
-Bois ; à teindre ; en buches	Bois à teindre en buches		1	1	2
-Bois ; a teindre ; moulu	Bois à teindre moulu				
-Bois ; à teindre ; moulu	Bois à teindre moulu		1	3	5
-Bois ; a teindre e; n buches	Bois à teindre e n buches				
-Bois ; à Teindre en buches	Bois à Teindre en buches		1	1	2
-Bois ; a teindre moulu	Bois à teindre moulu				
-Bois ; à Teindre moulu	Bois à Teindre moulu		1	1	5
-Bois ; à teindre moulu	Bois à teindre moulu		1	1	5
-Bois ; à teindre rapé	Bois à teindre rapé		1	1	1
-Bois ; a teinture	Bois à teinture		1	1	1
-Bois ; à tierçons	Bois à tierçons		1	1	1
-Bois ; à tonneaux	Bois à tonneaux		1	1	1
-Bois ; à tourner	Bois à tourner		1	1	1
-Bois ; amer	Bois amer		1	1	1
-Bois ; Anspect	Bois Anspect		1	1	10
-Bois ; anspect	Bois anspect		1	1	10
-Bois ; anspects	Bois anspects				
-Bois ; anspects barres	Bois anspects barres				
-Bois ; au daumes	Bois au daumes		1	3	3
-Bois ; auspects	Bois auspects		1	1	10
-Bois ; bardage	Bois bardage		1	4	40
-Bois ; bardages	Bois bardages		1	5	40
-Bois ; barres ; de guindeaux	Bois barres de guindeaux		1	1	1
-Bois ; Bbourdillons	Bois Bbourdillons		1	4	37
-Bois ; billots	Bois billots		1	1	1
-Bois ; blanc	Bois blanc		1	3	3
-Bois ; bordage	Bois bordage		1	4	40
-Bois ; Bordages	Bois Bordages		1	7	43
-Bois ; bordages	Bois bordages		1	27	40
-Bois ; bordages ; de chesne	Bois bordages de chesne		1	3	43
-Bois ; bordages ; de sapin	Bois bordages de sapin		1	3	4
-Bois ; bordages de chesne	Bois bordages de chesne		1	1	43
-Bois ; bourdille	Bois bourdille		1	3	37
-Bois ; bourdilles	Bois bourdilles		1	14	37
-Bois ; bourdilleu	Bois bourdilleu		1	1	37
-Bois ; bourdillon	Bois bourdillon		1	4	37
-Bois ; bourdillons	Bois bourdillons		1	7	37
-Bois ; boway ; de chesne	Bois boway de chesne		1	1	1
-Bois ; boway ; de sapin	Bois boway de sapin		1	1	1
-Bois ; brandilles	Bois brandilles		1	1	1
-Bois ; bray	Bois bray		1	1	1
-Bois ; brun	Bois brun		1	1	2
-Bois ; buis	Bois buis		1	1	2
-Bois ; Caliatour	Bois Caliatour		1	1	59
-Bois ; campeche	Bois campeche		1	1	1
-Bois ; cercles	Bois cercles		1	1	1
-Bois ; cordayer	Bois cordayer		1	2	2
-Bois ; d' olivier	Bois d' olivier		1	1	10
-Bois ; d'acajou	Bois d'acajou		1	102	148
-Bois ; d'acajou ; en chevrons	Bois d'acajou en chevrons				
-Bois ; d'acajou ; en madriers	Bois d'acajou en madriers				
-Bois ; d'acajou ; en planches	Bois d'acajou en planches				
-Bois ; d'acajou ; madriers	Bois d'acajou madriers				
-Bois ; d'acajou en madriers	Bois d'acajou en madriers				
-Bois ; d'Accajou	Bois d'Accajou		1	10	148
-Bois ; d'accajou	Bois d'accajou		1	6	148
-Bois ; d'aloes	Bois d'aloes		1	1	7
-Bois ; d'aloès	Bois d'aloès		1	1	7
-Bois ; d'aloës	Bois d'aloës		1	4	7
-Bois ; d'amarante	Bois d'amarante		1	1	2
-Bois ; d'amarente	Bois d'amarente		1	1	2
-Bois ; d'Angeole	Bois d'Angeole		1	1	3
-Bois ; d'angeot	Bois d'angeot		1	1	3
-Bois ; d'ansprete	Bois d'ansprete		1	2	2
-Bois ; d'aspatton	Bois d'aspatton		1	1	1
-Bois ; d'ebene	Bois d'ebene		1	2	76
-Bois ; d'Ebène	Bois d'Ebène		1	1	76
-Bois ; d'ébène	Bois d'ébène		1	8	76
-Bois ; d'Ebenne	Bois d'Ebenne				
-Bois ; d'ebenne	Bois d'ebenne		1	31	76
-Bois ; d'ébenne	Bois d'ébenne		1	11	76
-Bois ; d'Ebennes	Bois d'Ebennes		1	1	76
-Bois ; d'ebennes	Bois d'ebennes		1	2	76
-Bois ; d'écarage	Bois d'écarage		1	1	1
-Bois ; d'Esparts	Bois d'Esparts		1	1	6
-Bois ; d'esquine	Bois d'esquine		1	2	2
-Bois ; d'esquisse	Bois d'esquisse		1	1	1
-Bois ; d'eventails	Bois d'eventails		1	1	2
-Bois ; d'éventails	Bois d'éventails		1	1	2
-Bois ; d'éventails ; de nacre ; de perles	Bois d'éventails de nacre de perles		1	1	1
-Bois ; d'Inde	Bois d'Inde				
-Bois ; d'inde	Bois d'inde		1	23	80
-Bois ; D'inde ; D'acajou	Bois D'inde D'acajou		1	1	148
-Bois ; D'inde ; D'ebenne	Bois D'inde D'ebenne		1	3	76
-Bois ; D'inde ; De Bresil	Bois D'inde De Bresil		1	7	257
-Bois ; D'inde ; De Caliatour	Bois D'inde De Caliatour		1	1	59
-Bois ; D'inde ; De caliatour	Bois D'inde De caliatour		1	2	59
-Bois ; D'inde ; De Campeche	Bois D'inde De Campeche		1	10	478
-Bois ; D'inde ; De campeche	Bois D'inde De campeche		1	6	478
-Bois ; D'inde ; De Fernambourg	Bois D'inde De Fernambourg		1	10	122
-Bois ; D'inde ; De fernambourg	Bois D'inde De fernambourg		1	2	122
-Bois ; D'inde ; De Fondal	Bois D'inde De Fondal		1	2	90
-Bois ; D'inde ; De fustel	Bois D'inde De fustel		1	4	116
-Bois ; D'inde ; De futel	Bois D'inde De futel		1	4	116
-Bois ; D'inde ; De gayac	Bois D'inde De gayac		1	2	149
-Bois ; D'inde ; De jayat	Bois D'inde De jayat		1	3	3
-Bois ; D'inde ; De magueterie	Bois D'inde De magueterie		1	4	61
-Bois ; D'inde ; De Rodes	Bois D'inde De Rodes		1	1	5
-Bois ; D'inde ; De Saint Marthe	Bois D'inde De Saint Marthe		1	1	122
-Bois ; D'inde ; De sandal	Bois D'inde De sandal		1	4	90
-Bois ; D'inde ; De violette	Bois D'inde De violette		1	1	13
-Bois ; d'Inde ; divers	Bois d'Inde divers		1	3	80
-Bois ; D'inde ; Jaune	Bois D'inde Jaune		1	3	125
-Bois ; D'inde ; June	Bois D'inde June		1	1	125
-Bois ; D'Inde divers	Bois D'Inde divers		1	4	80
-Bois ; D'inde divers	Bois D'inde divers		1	7	80
-Bois ; d'Inde moulu	Bois d'Inde moulu				
-Bois ; D'inde pour peinture et marqueterie ; De compeche	Bois D'inde pour peinture et marqueterie De compeche		1	12	478
-Bois ; D'inde pour peinture et marqueterie ; De Fernembourg	Bois D'inde pour peinture et marqueterie De Fernembourg		1	11	122
-Bois ; D'inde pour peinture et marqueterie ; De Fustel	Bois D'inde pour peinture et marqueterie De Fustel		1	1	3
-Bois ; D'inde pour peinture et marqueterie ; De Gayac	Bois D'inde pour peinture et marqueterie De Gayac		1	5	149
-Bois ; D'inde pour peinture et marqueterie ; de Sainte-Marthe	Bois D'inde pour peinture et marqueterie de Sainte-Marthe		1	9	122
-Bois ; D'inde pour peinture et marqueterie ; De Sandal	Bois D'inde pour peinture et marqueterie De Sandal		1	1	90
-Bois ; D'inde pour peinture et marqueterie ; Jaune	Bois D'inde pour peinture et marqueterie Jaune		1	2	125
-Bois ; D'inde pour peinture et marqueterie ; Ronge	Bois D'inde pour peinture et marqueterie Ronge		1	1	69
-Bois ; d'inde pour teinture et marquetrie ; d'acajou	Bois d'inde pour teinture et marquetrie d'acajou		1	6	148
-Bois ; d'inde pour teinture et marquetrie ; de brésil	Bois d'inde pour teinture et marquetrie de brésil		1	1	257
-Bois ; d'inde pour teinture et marquetrie ; divers	Bois d'inde pour teinture et marquetrie divers		1	5	80
-Bois ; D'Indes pour peinture et marqueterie ; de Sainte-Marthe	Bois D'Indes pour peinture et marqueterie de Sainte-Marthe		1	6	122
-Bois ; D'Indes pour peinture et marqueterie ; De Sandal	Bois D'Indes pour peinture et marqueterie De Sandal		1	2	90
-Bois ; D'Indes pour peinture et marqueterie ; Range	Bois D'Indes pour peinture et marqueterie Range		1	4	69
-Bois ; D'Indes pour peinture et marqueterie ; Rose	Bois D'Indes pour peinture et marqueterie Rose		1	1	6
-Bois ; d'indes pour teinture et marqueterie ; d'acajou	Bois d'indes pour teinture et marqueterie d'acajou		1	3	148
-Bois ; d'indes pour teinture et marqueterie ; de brésil	Bois d'indes pour teinture et marqueterie de brésil		1	5	257
-Bois ; d'indes pour teinture et marqueterie ; de campêche	Bois d'indes pour teinture et marqueterie de campêche		1	7	478
-Bois ; d'indes pour teinture et marqueterie ; de coco	Bois d'indes pour teinture et marqueterie de coco		1	1	2
-Bois ; d'indes pour teinture et marqueterie ; de fernambourg	Bois d'indes pour teinture et marqueterie de fernambourg		1	3	122
-Bois ; d'indes pour teinture et marqueterie ; de fustel	Bois d'indes pour teinture et marqueterie de fustel		1	7	116
-Bois ; d'indes pour teinture et marqueterie ; de gayac	Bois d'indes pour teinture et marqueterie de gayac		1	2	149
-Bois ; d'indes pour teinture et marqueterie ; de palissandre	Bois d'indes pour teinture et marqueterie de palissandre		1	1	40
-Bois ; d'indes pour teinture et marqueterie ; divers	Bois d'indes pour teinture et marqueterie divers		1	7	7
-Bois ; d'indes pour teinture et marqueterie ; jaune	Bois d'indes pour teinture et marqueterie jaune		1	5	125
-Bois ; d'olivier	Bois d'olivier		1	7	10
-Bois ; d'olivier pelé	Bois d'olivier pelé		1	1	1
-Bois ; d'oré	Bois d'oré		1	1	1
-Bois ; d'orignelle	Bois d'orignelle		1	1	2
-Bois ; d'origouilla	Bois d'origouilla		1	1	2
-Bois ; d'orme	Bois d'orme		1	3	3
-Bois ; d'orme ; en planches	Bois d'orme en planches		1	1	1
-Bois ; D'osier	Bois D'osier		1	9	16
-Bois ; d'osier	Bois d'osier		1	1	16
-Bois ; d'ozier	Bois d'ozier		1	6	16
-Bois ; de bois	Bois de bois		1	1	1
-Bois ; de bordage	Bois de bordage		1	1	2
-Bois ; de bordages ; de sapin	Bois de bordages de sapin		1	1	4
-Bois ; de brazil	Bois de brazil		1	2	257
-Bois ; de Bresil	Bois de Bresil				
-Bois ; de bresil	Bois de bresil		1	7	257
-Bois ; de Brésil	Bois de Brésil		1	34	257
-Bois ; de brésil	Bois de brésil		1	14	257
-Bois ; de Bresil ; menu	Bois de Bresil menu		1	1	1
-Bois ; de Bresil en buches	Bois de Bresil en buches				
-Bois ; de Brésil en Buches	Bois de Brésil en Buches		1	1	4
-Bois ; de Bresilles	Bois de Bresilles				
-Bois ; de bresillet	Bois de bresillet		1	1	257
-Bois ; de bressil	Bois de bressil		1	1	257
-Bois ; de Brezil	Bois de Brezil				
-Bois ; de brezil	Bois de brezil		1	93	257
-Bois ; de brézil	Bois de brézil		1	6	257
-Bois ; de brezil en buches	Bois de brezil en buches		1	3	4
-Bois ; de Brezil moulu	Bois de Brezil moulu		1	1	1
-Bois ; de brezil rapé	Bois de brezil rapé		1	2	5
-Bois ; de bris	Bois de bris		1	1	1
-Bois ; de brochialle	Bois de brochialle		1	1	1
-Bois ; De buis	Bois De buis		1	5	101
-Bois ; de Buis	Bois de Buis		1	4	101
-Bois ; de buis	Bois de buis		1	85	101
-Bois ; de buy	Bois de buy		1	1	1
-Bois ; de caillatour	Bois de caillatour		1	1	59
-Bois ; de caillatour en buche	Bois de caillatour en buche		1	1	1
-Bois ; de Caillatour moulu	Bois de Caillatour moulu		1	2	59
-Bois ; de caillatour moulu	Bois de caillatour moulu		1	4	59
-Bois ; de cailliatour moulu	Bois de cailliatour moulu		1	3	59
-Bois ; de Caliatour	Bois de Caliatour		1	8	59
-Bois ; de caliatour	Bois de caliatour		1	18	59
-Bois ; de caliatour ; moulu	Bois de caliatour moulu		1	2	59
-Bois ; de Caliatour moulu	Bois de Caliatour moulu		1	3	11
-Bois ; de caliatour moulu	Bois de caliatour moulu		1	1	11
-Bois ; de caliatours	Bois de caliatours		1	1	59
-Bois ; de caliatous	Bois de caliatous		1	2	59
-Bois ; de calicetoux	Bois de calicetoux		1	1	59
-Bois ; de caliettour	Bois de caliettour		1	1	59
-Bois ; de calliatour	Bois de calliatour		1	1	59
-Bois ; de calliatous	Bois de calliatous		1	1	59
-Bois ; de Camanbourg	Bois de Camanbourg		1	1	1
-Bois ; de campahs	Bois de campahs				
-Bois ; de campech Rapé	Bois de campech Rapé		1	1	19
-Bois ; de Campeche	Bois de Campeche		1	20	478
-Bois ; de campeche	Bois de campeche		1	1	1
-Bois ; de campéche	Bois de campéche		1	1	478
-Bois ; de campèche	Bois de campèche		1	21	478
-Bois ; de Campêche	Bois de Campêche				
-Bois ; de campêche	Bois de campêche		1	166	478
-Bois ; de campeche ; moulu	Bois de campeche moulu		1	2	478
-Bois ; de campêche en buche	Bois de campêche en buche		1	3	10
-Bois ; de campeche en buches	Bois de campeche en buches		1	1	10
-Bois ; de campêche en Buches	Bois de campêche en Buches		1	1	10
-Bois ; de campêche en moulu	Bois de campêche en moulu		1	1	6
-Bois ; de Campeche moulu	Bois de Campeche moulu		1	1	6
-Bois ; de campêche moulu	Bois de campêche moulu		1	3	6
-Bois ; de campeche rapé	Bois de campeche rapé		1	2	19
-Bois ; de campêche rappé	Bois de campêche rappé		1	1	19
-Bois ; de Campesch	Bois de Campesch		1	1	478
-Bois ; de Campesch en Buches	Bois de Campesch en Buches		1	1	10
-Bois ; de campesche	Bois de campesche		1	34	478
-Bois ; de campesche en buches	Bois de campesche en buches		1	1	10
-Bois ; de campesche Rappé	Bois de campesche Rappé		1	1	19
-Bois ; de camphre	Bois de camphre		1	1	1
-Bois ; de canelle	Bois de canelle		1	1	1
-Bois ; de Capêche	Bois de Capêche				
-Bois ; de Cayenne	Bois de Cayenne		1	3	3
-Bois ; de Cedre	Bois de Cedre		1	1	13
-Bois ; de cedre	Bois de cedre		1	9	13
-Bois ; de cèdre	Bois de cèdre		1	2	13
-Bois ; de cerisier	Bois de cerisier		1	2	3
-Bois ; de cerizier	Bois de cerizier		1	1	3
-Bois ; de chaise	Bois de chaise		1	1	2
-Bois ; de chaises	Bois de chaises		1	1	2
-Bois ; de champeche	Bois de champeche		1	1	478
-Bois ; de Champesche	Bois de Champesche		1	1	478
-Bois ; de charbonnage	Bois de charbonnage		1	1	7
-Bois ; de charonage	Bois de charonage		1	4	7
-Bois ; De charonnage	Bois De charonnage		1	2	7
-Bois ; de charpente	Bois de charpente		1	3	7
-Bois ; de Charpentes	Bois de Charpentes		1	1	7
-Bois ; de chene	Bois de chene				
-Bois ; de Chéne	Bois de Chéne		1	1	95
-Bois ; de chêne	Bois de chêne				
-Bois ; de chêne ; à poutre	Bois de chêne à poutre		1	1	1
-Bois ; de chêne ; à somier	Bois de chêne à somier		1	2	2
-Bois ; de chêne ; bourdilles	Bois de chêne bourdilles				
-Bois ; de chêne ; en planches	Bois de chêne en planches		1	4	4
-Bois ; de chêne ; scié	Bois de chêne scié		1	2	2
-Bois ; de chêne : pour construction	Bois de chêne pour construction		0	0	0
-Bois ; de chene chevrons	Bois de chene chevrons				
-Bois ; de chêne; pour construction	Bois de chêne pour construction				
-Bois ; de Chesne	Bois de Chesne		1	8	95
-Bois ; de chesne	Bois de chesne		1	1	1
-Bois ; de chesne ; suivant la longueur	Bois de chesne suivant la longueur		1	1	95
-Bois ; de chesne morceaux	Bois de chesne morceaux				
-Bois ; de chesnes	Bois de chesnes		1	3	95
-Bois ; de chesnes 30 pieds	Bois de chesnes 30 pieds		1	1	1
-Bois ; de cleippe	Bois de cleippe		1	1	1
-Bois ; de coco	Bois de coco		1	1	2
-Bois ; de Colliatour moulu	Bois de Colliatour moulu		1	1	11
-Bois ; de compeche	Bois de compeche		1	7	478
-Bois ; de Constentines	Bois de Constentines		1	1	1
-Bois ; De construction	Bois De construction		1	16	209
-Bois ; de Construction	Bois de Construction		1	3	209
-Bois ; de construction	Bois de construction		1	101	209
-Bois ; de construction ; divers	Bois de construction divers		1	3	3
-Bois ; de construction ; en chêne et sapin	Bois de construction en chêne et sapin		1	1	1
-Bois ; de constructions	Bois de constructions		1	2	209
-Bois ; de coulette de hêtre	Bois de coulette de hêtre		1	1	1
-Bois ; de couleur	Bois de couleur		1	22	23
-Bois ; de courbary	Bois de courbary		1	1	1
-Bois ; de couteau	Bois de couteau		1	1	2
-Bois ; de Couteliers	Bois de Couteliers		1	1	2
-Bois ; de Crabe	Bois de Crabe		1	1	2
-Bois ; de crabe	Bois de crabe		1	1	2
-Bois ; de diramonbas	Bois de diramonbas		1	1	20
-Bois ; de erable	Bois de erable		1	1	1
-Bois ; de fauteuil	Bois de fauteuil		1	2	4
-Bois ; de fauteuils	Bois de fauteuils		1	1	4
-Bois ; de fauteuils et canapés	Bois de fauteuils et canapés		1	1	1
-Bois ; de fayard	Bois de fayard		1	6	6
-Bois ; de fer	Bois de fer		1	2	3
-Bois ; de fermambourg	Bois de fermambourg		1	1	122
-Bois ; de Fermanbourg	Bois de Fermanbourg		1	2	122
-Bois ; de fermanbourg	Bois de fermanbourg		1	1	122
-Bois ; de Fermanbourg en Buches	Bois de Fermanbourg en Buches		1	1	1
-Bois ; de Fermanbourg moulu	Bois de Fermanbourg moulu		1	1	4
-Bois ; de fernambour	Bois de fernambour		1	3	122
-Bois ; de Fernambourg	Bois de Fernambourg		1	7	122
-Bois ; de fernambourg	Bois de fernambourg				
-Bois ; de fernambourg ; arbustes	Bois de fernambourg arbustes		1	2	2
-Bois ; de fernambourg ; en buches	Bois de fernambourg en buches		1	1	1
-Bois ; de fernambourg ; moulu	Bois de fernambourg moulu		1	2	4
-Bois ; de fernamboury	Bois de fernamboury		1	3	122
-Bois ; de fernanbourg	Bois de fernanbourg		1	6	122
-Bois ; de fernembourg	Bois de fernembourg		1	8	122
-Bois ; de ferol	Bois de ferol		1	1	2
-Bois ; de ferrambourg	Bois de ferrambourg		1	2	122
-Bois ; de Fimanbourg	Bois de Fimanbourg		1	1	4
-Bois ; de fornambourg	Bois de fornambourg		1	3	122
-Bois ; de fuset	Bois de fuset		1	6	116
-Bois ; de fussel ; haché	Bois de fussel haché		1	1	1
-Bois ; de fustel	Bois de fustel		1	3	116
-Bois ; de fustes	Bois de fustes		1	1	116
-Bois ; de gabarie	Bois de gabarie		1	2	2
-Bois ; de Gaïac	Bois de Gaïac		1	1	149
-Bois ; de Gaillac	Bois de Gaillac		1	1	149
-Bois ; de gandal ; moulu	Bois de gandal moulu		1	1	24
-Bois ; de Gayac	Bois de Gayac				
-Bois ; de gayac	Bois de gayac		1	107	149
-Bois ; de gayac ; en buche	Bois de gayac en buche		1	1	1
-Bois ; de gayak	Bois de gayak		1	1	149
-Bois ; de genievre	Bois de genievre		1	1	1
-Bois ; de Geroffle	Bois de Geroffle		1	2	18
-Bois ; de geroffle	Bois de geroffle		1	8	18
-Bois ; de géroffle	Bois de géroffle		1	1	18
-Bois ; de gerofle	Bois de gerofle		1	1	18
-Bois ; de giroffle	Bois de giroffle		1	1	18
-Bois ; de girofle	Bois de girofle		1	3	18
-Bois ; de gitte	Bois de gitte		1	1	1
-Bois ; de goyae	Bois de goyae		1	2	2
-Bois ; de grenade	Bois de grenade		1	4	6
-Bois ; de grenadier	Bois de grenadier		1	1	6
-Bois ; de grenadille	Bois de grenadille				
-Bois ; de hambourg	Bois de hambourg				
-Bois ; de honduras	Bois de honduras		1	1	1
-Bois ; de honduras en buches	Bois de honduras en buches				
-Bois ; de jacaranda	Bois de jacaranda		1	2	17
-Bois ; de Japon	Bois de Japon		1	3	19
-Bois ; de japon	Bois de japon		1	1	19
-Bois ; de Jaraconda	Bois de Jaraconda		1	6	17
-Bois ; de jaraconda	Bois de jaraconda		1	2	17
-Bois ; de jaracumba	Bois de jaracumba		1	1	17
-Bois ; de jaracunda	Bois de jaracunda		1	6	17
-Bois ; de la chine	Bois de la chine		1	1	1
-Bois ; de Lettre	Bois de Lettre		1	2	6
-Bois ; de lettre	Bois de lettre		1	3	6
-Bois ; de Levant	Bois de Levant		1	1	6
-Bois ; de lin	Bois de lin		1	2	3
-Bois ; de lit	Bois de lit		1	7	9
-Bois ; de lits	Bois de lits		1	1	9
-Bois ; de machandie marbre	Bois de machandie marbre		1	5	5
-Bois ; de machemilliers	Bois de machemilliers		1	1	2
-Bois ; de machivilliers	Bois de machivilliers		1	1	2
-Bois ; de marbre	Bois de marbre		1	2	2
-Bois ; de marqueterie	Bois de marqueterie		1	32	61
-Bois ; de marquetterie	Bois de marquetterie		0	0	0
-Bois ; de menisier	Bois de menisier		1	1	12
-Bois ; De menuiserie	Bois De menuiserie		1	3	12
-Bois ; de menuiserie	Bois de menuiserie		1	6	12
-Bois ; de merrain	Bois de merrain		1	2	7
-Bois ; de merrain a fond	Bois de merrain à fond		1	1	1
-Bois ; De merrains	Bois De merrains		1	5	7
-Bois ; de meubles	Bois de meubles				
-Bois ; de N marthe	Bois de N marthe		1	1	1
-Bois ; de Nantes	Bois de Nantes		1	1	1
-Bois ; de néphrétique	Bois de néphrétique		1	1	1
-Bois ; De noyer	Bois De noyer		1	1	28
-Bois ; de Noyer	Bois de Noyer		1	2	28
-Bois ; de noyer	Bois de noyer		1	16	28
-Bois ; de palessandre	Bois de palessandre		1	1	12
-Bois ; de Palissandre	Bois de Palissandre		1	3	40
-Bois ; de palissandre	Bois de palissandre		1	29	40
-Bois ; de passementerie ; en mats	Bois de passementerie en mats		1	2	2
-Bois ; de passementerie ; en planches ; de sapin	Bois de passementerie en planches de sapin		1	4	4
-Bois ; de passementerie ; en planches et poutrelles	Bois de passementerie en planches et poutrelles		1	3	3
-Bois ; de patissandre	Bois de patissandre		1	5	40
-Bois ; de Pernambouc	Bois de Pernambouc		0	0	0
-Bois ; de pernambouc	Bois de pernambouc		1	2	23
-Bois ; de pin	Bois de pin		1	1	1
-Bois ; de plaphons	Bois de plaphons		1	2	2
-Bois ; de pourpre	Bois de pourpre		1	1	40
-Bois ; de Provence	Bois de Provence		1	1	1
-Bois ; de raze	Bois de raze		1	2	44
-Bois ; de Rhode	Bois de Rhode		1	1	1
-Bois ; de Rhodes	Bois de Rhodes		1	3	5
-Bois ; de rose	Bois de rose		1	4	44
-Bois ; de rouage	Bois de rouage		1	6	12
-Bois ; de roüage	Bois de roüage		1	3	12
-Bois ; de roye	Bois de roye		1	2	44
-Bois ; de rozas	Bois de rozas		1	1	44
-Bois ; de roze	Bois de roze		1	32	44
-Bois ; de S Marthe	Bois de S Marthe		1	2	122
-Bois ; de S.Marth	Bois de S.Marth		1	1	122
-Bois ; de S.marthe	Bois de S.marthe		1	4	122
-Bois ; de s.marthe	Bois de s.marthe		1	4	122
-Bois ; de Saint Marthe	Bois de Saint Marthe		1	1	122
-Bois ; de Saint Marthe ; en buches	Bois de Saint Marthe en buches		1	3	3
-Bois ; de Saint Marthe ; moulu	Bois de Saint Marthe moulu		1	1	1
-Bois ; de Sainte Lucie	Bois de Sainte Lucie		1	1	1
-Bois ; de Sainte Marthe	Bois de Sainte Marthe				
-Bois ; de sainte marthe	Bois de sainte marthe		1	1	1
-Bois ; de Sainte-Marthe	Bois de Sainte-Marthe		1	1	122
-Bois ; de Sandal	Bois de Sandal		1	3	90
-Bois ; de sandal	Bois de sandal		1	45	90
-Bois ; de sandal ; en buches	Bois de sandal en buches		1	3	3
-Bois ; de sandal ; moulu	Bois de sandal moulu		1	17	17
-Bois ; de Sandal Moulu	Bois de Sandal Moulu		1	1	24
-Bois ; de Sandal moulu	Bois de Sandal moulu		1	5	24
-Bois ; de sandal moulu	Bois de sandal moulu		1	5	24
-Bois ; de Santal	Bois de Santal		1	2	90
-Bois ; de santal	Bois de santal		1	18	90
-Bois ; de santal ; cetrin	Bois de santal cetrin		1	1	1
-Bois ; de Sap	Bois de Sap		1	1	103
-Bois ; de sapan	Bois de sapan		1	22	103
-Bois ; de Sapin	Bois de Sapin		1	8	103
-Bois ; de sapin	Bois de sapin		1	45	103
-Bois ; de sapin ; divers	Bois de sapin divers		1	2	103
-Bois ; de sapin ; en planches	Bois de sapin en planches		1	25	26
-Bois ; de sapin ; en planches ; petites	Bois de sapin en planches petites		1	1	26
-Bois ; de sapin ; mats et vergues	Bois de sapin mats et vergues		1	1	1
-Bois ; de Sapin en Soliveaux	Bois de Sapin en Soliveaux		1	1	1
-Bois ; De sapins	Bois De sapins		1	13	103
-Bois ; de Saune	Bois de Saune		1	1	1
-Bois ; de saxafra	Bois de saxafra		1	1	7
-Bois ; de saxafra ; moulu	Bois de saxafra moulu		1	1	1
-Bois ; de saxafran	Bois de saxafran		1	1	7
-Bois ; de Saxafras	Bois de Saxafras		1	2	7
-Bois ; de saxafras	Bois de saxafras		1	3	7
-Bois ; de senteur	Bois de senteur		1	1	1
-Bois ; de seramonbas	Bois de seramonbas		1	1	20
-Bois ; de Sermambourg	Bois de Sermambourg		1	1	23
-Bois ; de Sermanbourg	Bois de Sermanbourg		1	1	23
-Bois ; de serrure	Bois de serrure		1	1	1
-Bois ; de Simanbourg	Bois de Simanbourg		1	2	23
-Bois ; de Sipre	Bois de Sipre		1	1	1
-Bois ; de siramambas	Bois de siramambas		1	1	20
-Bois ; de Siraménéar	Bois de Siraménéar		1	1	20
-Bois ; de Siramombas	Bois de Siramombas				
-Bois ; de siramombas	Bois de siramombas		1	3	20
-Bois ; de Siramonba	Bois de Siramonba		1	2	20
-Bois ; de Siramonbar	Bois de Siramonbar		1	2	20
-Bois ; de Siramonbas	Bois de Siramonbas		1	2	20
-Bois ; de siramonbas	Bois de siramonbas		1	1	20
-Bois ; de Siramonbasse	Bois de Siramonbasse		1	1	20
-Bois ; de siramrubas	Bois de siramrubas		1	1	20
-Bois ; de siromombas	Bois de siromombas		1	1	20
-Bois ; de sommier	Bois de sommier		1	2	2
-Bois ; de St. Marth	Bois de St. Marth		1	3	122
-Bois ; de St. Marthe	Bois de St. Marthe		1	4	122
-Bois ; de Ste Marthe	Bois de Ste Marthe		1	33	122
-Bois ; de Ste marthe	Bois de Ste marthe		1	2	122
-Bois ; de Ste-Marthe	Bois de Ste-Marthe		1	2	122
-Bois ; de Ste. Marthe	Bois de Ste. Marthe		1	1	122
-Bois ; de Surinam	Bois de Surinam		1	1	1
-Bois ; de table ; doré	Bois de table doré		1	1	1
-Bois ; de Teck	Bois de Teck		0	0	0
-Bois ; de teinture	Bois de teinture		1	5	61
-Bois ; de teinture ; d'Hondurat	Bois de teinture d'Hondurat		1	1	1
-Bois ; de teinture ; de campêche	Bois de teinture de campêche		1	3	5
-Bois ; de teinture ; de fustick	Bois de teinture de fustick		1	1	1
-Bois ; de teinture ; divers	Bois de teinture divers		1	1	1
-Bois ; de teinture ; en buches	Bois de teinture en buches		1	2	2
-Bois ; de teinture ; moulu	Bois de teinture moulu		1	4	5
-Bois ; de teinture ; nicaragua	Bois de teinture nicaragua		1	1	1
-Bois ; de teinture et Marqueterie	Bois de teinture et Marqueterie		1	1	3
-Bois ; de teure	Bois de teure		1	1	1
-Bois ; de Tilleul	Bois de Tilleul		1	1	3
-Bois ; de tilleul	Bois de tilleul		1	1	3
-Bois ; de violette	Bois de violette		1	12	13
-Bois ; demachemillier	Bois demachemillier		1	1	1
-Bois ; des îles et des Indes	Bois des îles et des Indes		1	16	362
-Bois ; des Isles	Bois des Isles		1	4	4
-Bois ; des Isles ; d'Acajou	Bois des Isles d'Acajou		1	1	148
-Bois ; des Isles ; de Campêche	Bois des Isles de Campêche		1	1	478
-Bois ; des Isles ; de fernambourg	Bois des Isles de fernambourg		1	1	23
-Bois ; des Isles ; de teinture ; moulu	Bois des Isles de teinture moulu		1	1	5
-Bois ; des Isles et des Indes	Bois des Isles et des Indes		1	2	2
-Bois ; des Isles et des Indes ; d'ébenne	Bois des Isles et des Indes d'ébenne		1	1	76
-Bois ; des Isles et des Indes ; de Brésil	Bois des Isles et des Indes de Brésil		1	2	257
-Bois ; des Isles et des Indes ; de Caliatour	Bois des Isles et des Indes de Caliatour		1	1	59
-Bois ; des Isles et des Indes ; de campêche	Bois des Isles et des Indes de campêche		1	2	5
-Bois ; des Isles et des Indes ; de fernambourg	Bois des Isles et des Indes de fernambourg		1	2	23
-Bois ; des Isles et des Indes ; de Gayac	Bois des Isles et des Indes de Gayac		1	1	149
-Bois ; des Isles et des Indes ; de Nicorago	Bois des Isles et des Indes de Nicorago		1	1	1
-Bois ; des Isles et des Indes ; de Sainte Marthe	Bois des Isles et des Indes de Sainte Marthe		1	2	122
-Bois ; des Isles et des Indes ; de santal	Bois des Isles et des Indes de santal		1	2	90
-Bois ; des Isles et des Indes ; divers	Bois des Isles et des Indes divers		1	2	659
-Bois ; des Isles et des Indes ; fustel	Bois des Isles et des Indes fustel		1	2	3
-Bois ; des Isles et des Indes ; jaune	Bois des Isles et des Indes jaune		1	2	125
-Bois ; des Isles et des Indes ; rouge	Bois des Isles et des Indes rouge		1	1	69
-Bois ; des marthe	Bois des marthe		1	1	122
-Bois ; dinde rapé	Bois dinde rapé		1	1	2
-Bois ; dit a fonds	Bois dit à fonds		1	1	1
-Bois ; Divers	Bois Divers		1	11	659
-Bois ; divers	Bois divers		1	61	659
-Bois ; divers ; de construction	Bois divers de construction		1	3	8
-Bois ; divers ; en planches	Bois divers en planches		1	6	6
-Bois ; divers ; pour construction	Bois divers pour construction		1	5	8
-Bois ; doré	Bois doré		1	8	8
-Bois ; du Brésil	Bois du Brésil		0	0	0
-Bois ; du ferol	Bois du ferol		1	1	2
-Bois ; du Japon	Bois du Japon		1	7	19
-Bois ; du japon	Bois du japon		1	7	19
-Bois ; du Japon ; jaune	Bois du Japon jaune		1	1	1
-Bois ; durci	Bois durci		1	1	1
-Bois ; écarié	Bois écarié		1	1	1
-Bois ; en ? ; à houblon	Bois en ? à houblon		1	1	1
-Bois ; en aviron	Bois en aviron		1	2	30
-Bois ; en barre	Bois en barre		1	3	24
-Bois ; en barreaux	Bois en barreaux		1	7	7
-Bois ; en barreaux et planches	Bois en barreaux et planches		1	5	5
-Bois ; en barres	Bois en barres		1	10	24
-Bois ; en batonge	Bois en batonge		1	1	1
-Bois ; en battreaux	Bois en battreaux		1	1	1
-Bois ; en buches	Bois en buches		1	1	1
-Bois ; en cercles	Bois en cercles		1	8	218
-Bois ; en cercles ; pour la mire	Bois en cercles pour la mire		1	1	218
-Bois ; en chevilles	Bois en chevilles		1	1	7
-Bois ; en claffous ou merrain	Bois en claffous ou merrain		1	1	1
-Bois ; en clafousses	Bois en clafousses		1	1	1
-Bois ; en epriers	Bois en epriers		1	1	1
-Bois ; en fagots	Bois en fagots		1	3	23
-Bois ; En feuillard et cercles	Bois En feuillard et cercles		1	17	29
-Bois ; en lattes	Bois en lattes		1	1	1
-Bois ; en lattes ; à couvrir	Bois en lattes à couvrir		1	1	1
-Bois ; en madrier	Bois en madrier		1	1	1
-Bois ; en madrier ; de chêne	Bois en madrier de chêne		1	1	1
-Bois ; en materiaux	Bois en materiaux		1	1	1
-Bois ; en mats	Bois en mats		1	5	145
-Bois ; en merrain	Bois en merrain		1	1	19
-Bois ; en perche ; de sapin	Bois en perche de sapin		1	1	19
-Bois ; en perches	Bois en perches		1	1	3
-Bois ; en perches ; pour jardin	Bois en perches pour jardin		1	1	1
-Bois ; en petits mats	Bois en petits mats		1	2	47
-Bois ; En planches	Bois En planches		1	24	37
-Bois ; en planches	Bois en planches		1	12	37
-Bois ; en planches ; de chêne	Bois en planches de chêne		1	1	196
-Bois ; en planches ; de sapin	Bois en planches de sapin		1	4	1074
-Bois ; en poutres ; de chêne	Bois en poutres de chêne		1	1	4
-Bois ; en poutres et poutrelles	Bois en poutres et poutrelles		1	3	3
-Bois ; en rames	Bois en rames		1	1	1
-Bois ; en sommiers	Bois en sommiers		1	2	2
-Bois ; en spars	Bois en spars		1	1	56
-Bois ; en tailles ; à couvrir	Bois en tailles à couvrir		1	1	1
-Bois ; en tranches	Bois en tranches		1	13	13
-Bois ; eparts	Bois eparts		1	1	6
-Bois ; ESpars	Bois ESpars		1	1	6
-Bois ; Espars	Bois Espars		1	7	56
-Bois ; espars	Bois espars		1	28	56
-Bois ; espars ; de 40 à 50 pieds	Bois espars de 40 à 50 pieds		1	1	1
-Bois ; espars ; de 56 à 61 pieds	Bois espars de 56 à 61 pieds		1	1	1
-Bois ; espars d; e 40 à 50 pieds	Bois espars d e 40 à 50 pieds		1	1	1
-Bois ; Espart	Bois Espart		1	1	6
-Bois ; espart	Bois espart		1	4	56
-Bois ; Esparts	Bois Esparts		1	2	6
-Bois ; esparts	Bois esparts				
-Bois ; esparts ; de 4 à 5 pieds	Bois esparts de 4 à 5 pieds		1	1	1
-Bois ; fagolo	Bois fagolo		1	1	23
-Bois ; fagot	Bois fagot		1	1	23
-Bois ; fagots	Bois fagots		1	10	23
-Bois ; fauteuils	Bois fauteuils		1	1	4
-Bois ; fernambourg	Bois fernambourg		1	1	1
-Bois ; feuillard	Bois feuillard		1	16	18
-Bois ; feuillard ; en cercles	Bois feuillard en cercles		1	1	29
-Bois ; feuillard ; en cerdes	Bois feuillard en cerdes		1	1	29
-Bois ; feuillard et en cercles	Bois feuillard et en cercles		1	10	29
-Bois ; feuillards	Bois feuillards		1	1	18
-Bois ; flotté ; en étançons ; ronds	Bois flotté en étançons ronds		1	1	1
-Bois ; foncaille	Bois foncaille		1	1	1
-Bois ; fusil	Bois fusil		1	2	2
-Bois ; fuslet	Bois fuslet		1	11	116
-Bois ; fuste moulu	Bois fuste moulu		1	1	1
-Bois ; Fustel	Bois Fustel		1	3	116
-Bois ; fustel	Bois fustel		1	39	116
-Bois ; fuster	Bois fuster		1	1	116
-Bois ; fustes	Bois fustes		1	6	116
-Bois ; fustet	Bois fustet		1	14	116
-Bois ; Gayac	Bois Gayac		1	2	149
-Bois ; gro-cribles	Bois gro-cribles		1	2	20
-Bois ; gros	Bois gros		1	3	3
-Bois ; Jaune	Bois Jaune		1	7	125
-Bois ; jaune	Bois jaune				
-Bois ; jaune rapé	Bois jaune rapé		1	1	2
-Bois ; Jeaune	Bois Jeaune		1	2	125
-Bois ; jeaune	Bois jeaune		1	13	125
-Bois ; jeaune moulu	Bois jeaune moulu		1	1	1
-Bois ; Jeaunes	Bois Jeaunes		1	1	125
-Bois ; joly	Bois joly		1	1	2352
-Bois ; long	Bois long		1	1	125
-Bois ; mairin	Bois mairin		1	3	444
-Bois ; mairin a barique	Bois mairin à barique		1	1	194
-Bois ; mairin a Barrique	Bois mairin à Barrique		1	1	194
-Bois ; marbré	Bois marbré				
-Bois ; marrain	Bois marrain		1	12	444
-Bois ; matraux	Bois matraux		1	1	1
-Bois ; mats	Bois mats		1	2	2
-Bois ; mêlée	Bois mêlée		1	1	1
-Bois ; merai à pipes	Bois merai à pipes		1	1	171
-Bois ; Merain	Bois Merain		1	4	444
-Bois ; merain	Bois merain		1	6	444
-Bois ; mérain	Bois mérain		1	2	444
-Bois ; merain ; à barils	Bois merain à barils		1	1	5
-Bois ; merain ; à pipe	Bois merain à pipe		1	5	171
-Bois ; merain ; à tonneaux	Bois merain à tonneaux		1	10	86
-Bois ; mérain ; de sapin	Bois mérain de sapin		1	3	3
-Bois ; merain à barique	Bois merain à barique		1	1	194
-Bois ; Merain a bariques	Bois Merain à bariques		1	1	194
-Bois ; merain a bariques	Bois merain à bariques		1	2	194
-Bois ; Merain à Bariques	Bois Merain à Bariques		1	4	194
-Bois ; merain à bariques	Bois merain à bariques		1	1	194
-Bois ; merain a barriques	Bois merain à barriques		1	1	194
-Bois ; Merain a pipe	Bois Merain à pipe		1	1	171
-Bois ; merain a pipes	Bois merain à pipes		1	2	171
-Bois ; Merain à pipes	Bois Merain à pipes		1	3	171
-Bois ; merain à pipes	Bois merain à pipes		1	2	171
-Bois ; merain a Quarts	Bois merain à Quarts		1	1	5
-Bois ; merain a quarts	Bois merain à quarts		1	2	5
-Bois ; Merain à quarts	Bois Merain à quarts		1	1	5
-Bois ; Merain; a pipes	Bois Merain à pipes		1	1	171
-Bois ; Merain; a quart	Bois Merain à quart		1	1	5
-Bois ; merains ; à barils	Bois merains à barils		1	4	5
-Bois ; merains ; à barriques	Bois merains à barriques		1	6	194
-Bois ; merains ; à fonds	Bois merains à fonds		1	3	29
-Bois ; merains ; à muids	Bois merains à muids		1	1	1
-Bois ; meriés ; de sapin	Bois meriés de sapin		1	1	1
-Bois ; merrain	Bois merrain		1	280	444
-Bois ; merrain ; a baril douelles	Bois merrain à baril douelles				
-Bois ; merrain ; à barils	Bois merrain à barils		1	9	10
-Bois ; merrain ; à barique	Bois merrain à barique		1	5	194
-Bois ; merrain ; a bariques	Bois merrain à bariques		1	1	194
-Bois ; merrain ; à bariques	Bois merrain à bariques		1	32	194
-Bois ; merrain ; a bariques douelles	Bois merrain à bariques douelles				
-Bois ; merrain ; a barriques	Bois merrain à barriques		1	40	41
-Bois ; merrain ; à barriques	Bois merrain à barriques		1	5	194
-Bois ; merrain ; a barrriques	Bois merrain à barrriques		1	2	2
-Bois ; merrain ; a bottes	Bois merrain à bottes		1	3	7
-Bois ; merrain ; à bottes	Bois merrain à bottes		1	1	7
-Bois ; merrain ; a busses	Bois merrain à busses		1	1	2
-Bois ; merrain ; a cardine	Bois merrain à cardine		1	1	1
-Bois ; merrain ; a fond	Bois merrain à fond		1	6	38
-Bois ; merrain ; à fond	Bois merrain à fond		1	2	38
-Bois ; merrain ; a fonds	Bois merrain à fonds		1	30	38
-Bois ; merrain ; à fonds	Bois merrain à fonds		1	14	29
-Bois ; merrain ; a fonds douelles	Bois merrain à fonds douelles				
-Bois ; merrain ; a pipes	Bois merrain à pipes		1	19	171
-Bois ; merrain ; à pipes	Bois merrain à pipes		1	20	171
-Bois ; merrain ; a pipes douelles	Bois merrain à pipes douelles				
-Bois ; merrain ; a Quarts	Bois merrain à Quarts		1	1	38
-Bois ; merrain ; à quarts	Bois merrain à quarts		1	2	38
-Bois ; merrain ; a Sonds	Bois merrain à Sonds		1	4	4
-Bois ; merrain ; a tierçons	Bois merrain à tierçons		1	2	2
-Bois ; merrain ; à tierçons	Bois merrain à tierçons		1	3	6
-Bois ; merrain ; à tonnaux	Bois merrain à tonnaux		1	9	86
-Bois ; merrain ; a Tonneaux	Bois merrain à Tonneaux		1	7	86
-Bois ; merrain ; a tonneaux	Bois merrain à tonneaux		1	6	86
-Bois ; merrain ; à tonneaux	Bois merrain à tonneaux		1	45	86
-Bois ; merrain ; à tortues	Bois merrain à tortues		1	2	2
-Bois ; merrain ; bourdilles	Bois merrain bourdilles		1	2	2
-Bois ; merrain ; bourdillons	Bois merrain bourdillons		1	1	1
-Bois ; merrain ; de 4 pieds	Bois merrain de 4 pieds		1	1	1
-Bois ; merrain ; de sapin	Bois merrain de sapin		1	3	7
-Bois ; merrain ; en chêne	Bois merrain en chêne		1	3	3
-Bois ; merrain ; merrain	Bois merrain merrain		1	1	444
-Bois ; merrain ; ordinaire	Bois merrain ordinaire		1	1	1
-Bois ; merrain ; pipes douelles	Bois merrain pipes douelles				
-Bois ; merrain ; pour feraille	Bois merrain pour feraille		1	1	1
-Bois ; merrain a barils douelles	Bois merrain à barils douelles				
-Bois ; merrain a barique	Bois merrain à barique		1	1	194
-Bois ; Merrain a bariques	Bois Merrain à bariques		1	1	194
-Bois ; merrain à bariques	Bois merrain à bariques		1	2	194
-Bois ; merrain a barrique	Bois merrain à barrique		1	1	194
-Bois ; merrain a barriques	Bois merrain à barriques		1	4	4
-Bois ; merrain à barriques	Bois merrain à barriques		1	2	194
-Bois ; merrain a fond	Bois merrain à fond		1	1	2
-Bois ; merrain a fonds	Bois merrain à fonds		1	1	2
-Bois ; merrain à fonds	Bois merrain à fonds		1	1	29
-Bois ; Merrain a pipes	Bois Merrain à pipes		1	1	171
-Bois ; merrain a pipes	Bois merrain à pipes		1	4	171
-Bois ; merrain à pipes	Bois merrain à pipes		1	2	171
-Bois ; merrain a tierçpn	Bois merrain à tierçpn		1	1	171
-Bois ; merrain douelles	Bois merrain douelles				
-Bois ; merrain doüelles	Bois merrain doüelles				
-Bois ; merrain douëlles	Bois merrain douëlles				
-Bois ; Merrains	Bois Merrains		1	15	19
-Bois ; merrains ; à fonds	Bois merrains à fonds		1	5	29
-Bois ; merrains ; à pipes	Bois merrains à pipes		1	3	171
-Bois ; merrains ; à tierçons	Bois merrains à tierçons		1	1	6
-Bois ; merrein	Bois merrein		1	15	444
-Bois ; merrein ; douelle	Bois merrein douelle		1	1	1
-Bois ; merrian ; a pipes	Bois merrian à pipes		1	1	1
-Bois ; merrin a barique	Bois merrin à barique		1	1	194
-Bois ; merrin a Barrique	Bois merrin à Barrique		1	1	194
-Bois ; merrin a Fonds	Bois merrin à Fonds		1	1	29
-Bois ; merrin a Pipes	Bois merrin à Pipes		1	2	171
-Bois ; merrin a pipes	Bois merrin à pipes		1	1	171
-Bois ; moulu	Bois moulu		1	1	1
-Bois ; neffretique	Bois neffretique		1	1	5
-Bois ; nefretique	Bois nefretique		1	3	5
-Bois ; ouvre	Bois ouvre		1	4	138
-Bois ; ouvré	Bois ouvré		1	128	138
-Bois ; ouvré ; à batir	Bois ouvré à batir		1	1	1
-Bois ; ozier	Bois ozier		1	5	5
-Bois ; palissandre	Bois palissandre		1	1	1
-Bois ; perches ; à houblon	Bois perches à houblon		1	1	4
-Bois ; petit ; de roüage	Bois petit de roüage		1	2	2
-Bois ; planches	Bois planches		1	2	2
-Bois ; planches ; de sapin	Bois planches de sapin		1	1	1
-Bois ; pons cribles	Bois pons cribles		1	1	20
-Bois ; pour cribler	Bois pour cribler		1	1	20
-Bois ; pour cribles	Bois pour cribles		1	13	20
-Bois ; pour meuble	Bois pour meuble		1	1	3
-Bois ; pour Meubles	Bois pour Meubles		1	1	3
-Bois ; pous cribles	Bois pous cribles		1	1	20
-Bois ; qxxx cribles	Bois qxxx cribles		1	1	20
-Bois ; rosal	Bois rosal		1	1	1
-Bois ; rose	Bois rose		1	1	6
-Bois ; roüage	Bois roüage		1	1	69
-Bois ; rouge	Bois rouge		1	55	69
+Bois ; à teindre ; de fernambourg	bois à teindre de Pernambouc		1	1	1
+Bois ; a teindre ; en buches	bois à teindre en bûches				
+Bois ; à teindre ; en buches	bois à teindre en bûches		1	1	2
+Bois ; a teindre ; moulu	bois à teindre moulu				
+Bois ; à teindre ; moulu	bois à teindre moulu		1	3	5
+Bois ; a teindre e; n buches	bois à teindre en bûches				
+Bois ; à Teindre en buches	bois à teindre en bûches		1	1	2
+Bois ; a teindre moulu	bois à teindre moulu				
+Bois ; à Teindre moulu	bois à teindre moulu		1	1	5
+Bois ; à teindre moulu	bois à teindre moulu		1	1	5
+Bois ; à teindre rapé	bois à teindre râpé		1	1	1
+Bois ; a teinture	bois à teinture		1	1	1
+Bois ; à tierçons	bois à tierçons		1	1	1
+Bois ; à tonneaux	bois à tonneaux		1	1	1
+Bois ; à tourner	bois à tourner		1	1	1
+Bois ; amer	bois amer		1	1	1
+Bois ; Anspect	bois anspect		1	1	10
+Bois ; anspect	bois anspect		1	1	10
+Bois ; anspects	bois anspect				
+Bois ; anspects barres	bois anspect barres				
+Bois ; au daumes	bois au daumes		1	3	3
+Bois ; auspects	bois anspect		1	1	10
+Bois ; bardage	bois bardage		1	4	40
+Bois ; bardages	bois bardage		1	5	40
+Bois ; barres ; de guindeaux	bois barres de guindeau		1	1	1
+Bois ; Bbourdillons	bois bourdillons		1	4	37
+Bois ; billots	bois billots		1	1	1
+Bois ; blanc	bois blanc		1	3	3
+Bois ; bordage	bois bordage		1	4	40
+Bois ; Bordages	bois bordage		1	7	43
+Bois ; bordages	bois bordage		1	27	40
+Bois ; bordages ; de chesne	bois bordage de chêne		1	3	43
+Bois ; bordages ; de sapin	bois bordage de sapin		1	3	4
+Bois ; bordages de chesne	bois bordage de chêne		1	1	43
+Bois ; bourdille	bois bourdilles		1	3	37
+Bois ; bourdilles	bois bourdilles		1	14	37
+Bois ; bourdilleu	bois bourdillons		1	1	37
+Bois ; bourdillon	bois bourdillons		1	4	37
+Bois ; bourdillons	bois bourdillons		1	7	37
+Bois ; boway ; de chesne	bois boway de chêne		1	1	1
+Bois ; boway ; de sapin	bois boway de sapin		1	1	1
+Bois ; brandilles	bois brandilles		1	1	1
+Bois ; bray	bois brai		1	1	1
+Bois ; brun	bois brun		1	1	2
+Bois ; buis	bois buis		1	1	2
+Bois ; Caliatour	bois Caliatour		1	1	59
+Bois ; campeche	bois Campêche		1	1	1
+Bois ; cercles	bois cercles		1	1	1
+Bois ; cordayer	bois cordayer		1	2	2
+Bois ; d' olivier	bois d'olivier		1	1	10
+Bois ; d'acajou	bois d'acajou		1	102	148
+Bois ; d'acajou ; en chevrons	bois d'acajou en chevrons				
+Bois ; d'acajou ; en madriers	bois d'acajou en madriers				
+Bois ; d'acajou ; en planches	bois d'acajou en planches				
+Bois ; d'acajou ; madriers	bois d'acajou madriers				
+Bois ; d'acajou en madriers	bois d'acajou en madriers				
+Bois ; d'Accajou	bois d'acajou		1	10	148
+Bois ; d'accajou	bois d'acajou		1	6	148
+Bois ; d'aloes	bois d'aloès		1	1	7
+Bois ; d'aloès	bois d'aloès		1	1	7
+Bois ; d'aloës	bois d'aloès		1	4	7
+Bois ; d'amarante	bois d'amarante		1	1	2
+Bois ; d'amarente	bois d'amarante		1	1	2
+Bois ; d'Angeole	bois d'Angeot		1	1	3
+Bois ; d'angeot	bois d'Angeot		1	1	3
+Bois ; d'ansprete	bois d'ansprete		1	2	2
+Bois ; d'aspatton	bois d'aspatton		1	1	1
+Bois ; d'ebene	bois d'ébène		1	2	76
+Bois ; d'Ebène	bois d'ébène		1	1	76
+Bois ; d'ébène	bois d'ébène		1	8	76
+Bois ; d'Ebenne	bois d'ébène				
+Bois ; d'ebenne	bois d'ébène		1	31	76
+Bois ; d'ébenne	bois d'ébène		1	11	76
+Bois ; d'Ebennes	bois d'ébène		1	1	76
+Bois ; d'ebennes	bois d'ébène		1	2	76
+Bois ; d'écarage	bois d'écarage		1	1	1
+Bois ; d'Esparts	bois d'espars		1	1	6
+Bois ; d'esquine	bois d'esquine		1	2	2
+Bois ; d'esquisse	bois d'esquine		1	1	1
+Bois ; d'eventails	bois d'éventails		1	1	2
+Bois ; d'éventails	bois d'éventails		1	1	2
+Bois ; d'éventails ; de nacre ; de perles	bois d'éventails de nacre de perles		1	1	1
+Bois ; d'Inde	bois d'Inde				
+Bois ; d'inde	bois d'inde		1	23	80
+Bois ; D'inde ; D'acajou	bois d'Inde d'acajou		1	1	148
+Bois ; D'inde ; D'ebenne	bois d'Inde d'ébène		1	3	76
+Bois ; D'inde ; De Bresil	bois d'Inde du Brésil		1	7	257
+Bois ; D'inde ; De Caliatour	bois d'Inde de Caliatour		1	1	59
+Bois ; D'inde ; De caliatour	bois d'Inde de Caliatour		1	2	59
+Bois ; D'inde ; De Campeche	bois d'Inde de Campêche		1	10	478
+Bois ; D'inde ; De campeche	bois d'Inde de Campêche		1	6	478
+Bois ; D'inde ; De Fernambourg	bois d'Inde de Pernambouc		1	10	122
+Bois ; D'inde ; De fernambourg	bois d'Inde de Pernambouc		1	2	122
+Bois ; D'inde ; De Fondal	bois d'Inde de Fondal		1	2	90
+Bois ; D'inde ; De fustel	bois d'Inde de fustel		1	4	116
+Bois ; D'inde ; De futel	bois d'Inde de fustel		1	4	116
+Bois ; D'inde ; De gayac	bois d'Inde de gaiac		1	2	149
+Bois ; D'inde ; De jayat	bois d'Inde de gaiac		1	3	3
+Bois ; D'inde ; De magueterie	bois d'Inde de marqueterie		1	4	61
+Bois ; D'inde ; De Rodes	bois d'Inde de Rhodes		1	1	5
+Bois ; D'inde ; De Saint Marthe	bois d'Inde de Sainte-Marthe		1	1	122
+Bois ; D'inde ; De sandal	bois d'Inde de santal		1	4	90
+Bois ; D'inde ; De violette	bois d'Inde de violette		1	1	13
+Bois ; d'Inde ; divers	bois d'Inde divers		1	3	80
+Bois ; D'inde ; Jaune	bois d'Inde jaune		1	3	125
+Bois ; D'inde ; June	bois d'Inde jaune		1	1	125
+Bois ; D'Inde divers	bois d'Inde divers		1	4	80
+Bois ; D'inde divers	bois d'Inde divers		1	7	80
+Bois ; d'Inde moulu	bois d'Inde moulu				
+Bois ; D'inde pour peinture et marqueterie ; De compeche	bois d'Inde pour peintures et marqueterie de Campêche		1	12	478
+Bois ; D'inde pour peinture et marqueterie ; De Fernembourg	bois d'Inde pour peintures et marqueterie de Pernambouc		1	11	122
+Bois ; D'inde pour peinture et marqueterie ; De Fustel	bois d'Inde pour peintures et marqueterie de fustel		1	1	3
+Bois ; D'inde pour peinture et marqueterie ; De Gayac	bois d'Inde pour peintures et marqueterie de gaiac		1	5	149
+Bois ; D'inde pour peinture et marqueterie ; de Sainte-Marthe	bois d'Inde pour peintures et marqueterie de Sainte-Marthe		1	9	122
+Bois ; D'inde pour peinture et marqueterie ; De Sandal	bois d'Inde pour peintures et marqueterie de santal		1	1	90
+Bois ; D'inde pour peinture et marqueterie ; Jaune	bois d'Inde pour peintures et marqueterie jaune		1	2	125
+Bois ; D'inde pour peinture et marqueterie ; Ronge	bois d'Inde pour peintures et marqueterie rouge		1	1	69
+Bois ; d'inde pour teinture et marquetrie ; d'acajou	bois d'inde pour teinture et marqueterie d'acajou		1	6	148
+Bois ; d'inde pour teinture et marquetrie ; de brésil	bois d'inde pour teinture et marqueterie du Brésil		1	1	257
+Bois ; d'inde pour teinture et marquetrie ; divers	bois d'inde pour teinture et marqueterie divers		1	5	80
+Bois ; D'Indes pour peinture et marqueterie ; de Sainte-Marthe	bois d'Inde pour peintures et marqueterie de Sainte-Marthe		1	6	122
+Bois ; D'Indes pour peinture et marqueterie ; De Sandal	bois d'Inde pour peintures et marqueterie de santal		1	2	90
+Bois ; D'Indes pour peinture et marqueterie ; Range	bois d'Inde pour peintures et marqueterie rouge		1	4	69
+Bois ; D'Indes pour peinture et marqueterie ; Rose	bois d'Inde pour peintures et marqueterie rose		1	1	6
+Bois ; d'indes pour teinture et marqueterie ; d'acajou	bois d'Inde pour teinture et marqueterie d'acajou		1	3	148
+Bois ; d'indes pour teinture et marqueterie ; de brésil	bois d'Inde pour teinture et marqueterie du Brésil		1	5	257
+Bois ; d'indes pour teinture et marqueterie ; de campêche	bois d'Inde pour teinture et marqueterie de Campêche		1	7	478
+Bois ; d'indes pour teinture et marqueterie ; de coco	bois d'Inde pour teinture et marqueterie de coco		1	1	2
+Bois ; d'indes pour teinture et marqueterie ; de fernambourg	bois d'Inde pour teinture et marqueterie de Pernambouc		1	3	122
+Bois ; d'indes pour teinture et marqueterie ; de fustel	bois d'Inde pour teinture et marqueterie de fustel		1	7	116
+Bois ; d'indes pour teinture et marqueterie ; de gayac	bois d'Inde pour teinture et marqueterie de gaiac		1	2	149
+Bois ; d'indes pour teinture et marqueterie ; de palissandre	bois d'Inde pour teinture et marqueterie de palissandre		1	1	40
+Bois ; d'indes pour teinture et marqueterie ; divers	bois d'Inde pour teinture et marqueterie divers		1	7	7
+Bois ; d'indes pour teinture et marqueterie ; jaune	bois d'Inde pour teinture et marqueterie jaune		1	5	125
+Bois ; d'olivier	bois d'olivier		1	7	10
+Bois ; d'olivier pelé	bois d'olivier pelé		1	1	1
+Bois ; d'oré	bois doré		1	1	1
+Bois ; d'orignelle	bois d'orignal		1	1	2
+Bois ; d'origouilla	bois d'orignal		1	1	2
+Bois ; d'orme	bois d'orme		1	3	3
+Bois ; d'orme ; en planches	bois d'orme en planches		1	1	1
+Bois ; D'osier	bois d'osier		1	9	16
+Bois ; d'osier	bois d'osier		1	1	16
+Bois ; d'ozier	bois d'osier		1	6	16
+Bois ; de bois	bois de bois		1	1	1
+Bois ; de bordage	bois de bordage		1	1	2
+Bois ; de bordages ; de sapin	bois de bordage de sapin		1	1	4
+Bois ; de brazil	bois du Brésil		1	2	257
+Bois ; de Bresil	bois du Brésil				
+Bois ; de bresil	bois du Brésil		1	7	257
+Bois ; de Brésil	bois du Brésil		1	34	257
+Bois ; de brésil	bois du Brésil		1	14	257
+Bois ; de Bresil ; menu	bois du Brésil menu		1	1	1
+Bois ; de Bresil en buches	bois du Brésil en bûches				
+Bois ; de Brésil en Buches	bois du Brésil en bûches		1	1	4
+Bois ; de Bresilles	bois de brésillet				
+Bois ; de bresillet	bois de brésillet		1	1	257
+Bois ; de bressil	bois du Brésil		1	1	257
+Bois ; de Brezil	bois du Brésil				
+Bois ; de brezil	bois du Brésil		1	93	257
+Bois ; de brézil	bois du Brésil		1	6	257
+Bois ; de brezil en buches	bois du Brésil en bûches		1	3	4
+Bois ; de Brezil moulu	bois du Brésil moulu		1	1	1
+Bois ; de brezil rapé	bois du Brésil râpé		1	2	5
+Bois ; de bris	bois de buis		1	1	1
+Bois ; de brochialle	bois de brochialle		1	1	1
+Bois ; De buis	bois de buis		1	5	101
+Bois ; de Buis	bois de buis		1	4	101
+Bois ; de buis	bois de buis		1	85	101
+Bois ; de buy	bois de buis		1	1	1
+Bois ; de caillatour	bois de Caliatour		1	1	59
+Bois ; de caillatour en buche	bois de Caliatour en bûches		1	1	1
+Bois ; de Caillatour moulu	bois de Caliatour moulu		1	2	59
+Bois ; de caillatour moulu	bois de Caliatour moulu		1	4	59
+Bois ; de cailliatour moulu	bois de Caliatour moulu		1	3	59
+Bois ; de Caliatour	bois de Caliatour		1	8	59
+Bois ; de caliatour	bois de Caliatour		1	18	59
+Bois ; de caliatour ; moulu	bois de Caliatour moulu		1	2	59
+Bois ; de Caliatour moulu	bois de Caliatour moulu		1	3	11
+Bois ; de caliatour moulu	bois de Caliatour moulu		1	1	11
+Bois ; de caliatours	bois de Caliatour		1	1	59
+Bois ; de caliatous	bois de Caliatour		1	2	59
+Bois ; de calicetoux	bois de Caliatour		1	1	59
+Bois ; de caliettour	bois de Caliatour		1	1	59
+Bois ; de calliatour	bois de Caliatour		1	1	59
+Bois ; de calliatous	bois de Caliatour		1	1	59
+Bois ; de Camanbourg	bois de Pernambouc		1	1	1
+Bois ; de campahs	bois de Campêche				
+Bois ; de campech Rapé	bois de Campêche râpé		1	1	19
+Bois ; de Campeche	bois de Campêche		1	20	478
+Bois ; de campeche	bois de Campêche		1	1	1
+Bois ; de campéche	bois de Campêche		1	1	478
+Bois ; de campèche	bois de Campêche		1	21	478
+Bois ; de Campêche	bois de Campêche				
+Bois ; de campêche	bois de Campêche		1	166	478
+Bois ; de campeche ; moulu	bois de Campêche moulu		1	2	478
+Bois ; de campêche en buche	bois de Campêche en bûches		1	3	10
+Bois ; de campeche en buches	bois de Campêche en bûches		1	1	10
+Bois ; de campêche en Buches	bois de Campêche en bûches		1	1	10
+Bois ; de campêche en moulu	bois de Campêche en moulu		1	1	6
+Bois ; de Campeche moulu	bois de Campêche moulu		1	1	6
+Bois ; de campêche moulu	bois de Campêche moulu		1	3	6
+Bois ; de campeche rapé	bois de Campêche râpé		1	2	19
+Bois ; de campêche rappé	bois de Campêche râpé		1	1	19
+Bois ; de Campesch	bois de Campêche		1	1	478
+Bois ; de Campesch en Buches	bois de Campêche en bûches		1	1	10
+Bois ; de campesche	bois de Campêche		1	34	478
+Bois ; de campesche en buches	bois de Campêche en bûches		1	1	10
+Bois ; de campesche Rappé	bois de Campêche râpé		1	1	19
+Bois ; de camphre	bois de camphre		1	1	1
+Bois ; de canelle	bois de canelle		1	1	1
+Bois ; de Capêche	bois de Campêche				
+Bois ; de Cayenne	bois de Cayenne		1	3	3
+Bois ; de Cedre	bois de cèdre		1	1	13
+Bois ; de cedre	bois de cèdre		1	9	13
+Bois ; de cèdre	bois de cèdre		1	2	13
+Bois ; de cerisier	bois de cerisier		1	2	3
+Bois ; de cerizier	bois de cerisier		1	1	3
+Bois ; de chaise	bois de chaises		1	1	2
+Bois ; de chaises	bois de chaises		1	1	2
+Bois ; de champeche	bois de Campêche		1	1	478
+Bois ; de Champesche	bois de Campêche		1	1	478
+Bois ; de charbonnage	bois de charbonnage		1	1	7
+Bois ; de charonage	bois de charronnage		1	4	7
+Bois ; De charonnage	bois de charronnage		1	2	7
+Bois ; de charpente	bois de charpente		1	3	7
+Bois ; de Charpentes	bois de charpente		1	1	7
+Bois ; de chene	bois de chêne				
+Bois ; de Chéne	bois de chêne		1	1	95
+Bois ; de chêne	bois de chêne				
+Bois ; de chêne ; à poutre	bois de chêne à poutres		1	1	1
+Bois ; de chêne ; à somier	bois de chêne à sommiers		1	2	2
+Bois ; de chêne ; bourdilles	bois de chêne bourdilles				
+Bois ; de chêne ; en planches	bois de chêne en planches		1	4	4
+Bois ; de chêne ; scié	bois de chêne scié		1	2	2
+Bois ; de chêne : pour construction	bois de chêne pour construction		0	0	0
+Bois ; de chene chevrons	bois de chêne chevrons				
+Bois ; de chêne; pour construction	bois de chêne pour construction				
+Bois ; de Chesne	bois de chêne		1	8	95
+Bois ; de chesne	bois de chêne		1	1	1
+Bois ; de chesne ; suivant la longueur	bois de chêne suivant la longueur		1	1	95
+Bois ; de chesne morceaux	bois de chêne morceaux				
+Bois ; de chesnes	bois de chêne		1	3	95
+Bois ; de chesnes 30 pieds	bois de chêne 30 pieds		1	1	1
+Bois ; de cleippe	bois de cleippe		1	1	1
+Bois ; de coco	bois de coco		1	1	2
+Bois ; de Colliatour moulu	bois de Caliatour moulu		1	1	11
+Bois ; de compeche	bois de Campêche		1	7	478
+Bois ; de Constentines	bois de Constentines		1	1	1
+Bois ; De construction	bois de construction		1	16	209
+Bois ; de Construction	bois de construction		1	3	209
+Bois ; de construction	bois de construction		1	101	209
+Bois ; de construction ; divers	bois de construction divers		1	3	3
+Bois ; de construction ; en chêne et sapin	bois de construction en chêne et sapin		1	1	1
+Bois ; de constructions	bois de construction		1	2	209
+Bois ; de coulette de hêtre	bois de coulette de hêtre		1	1	1
+Bois ; de couleur	bois de couleur		1	22	23
+Bois ; de courbary	bois de courbaril		1	1	1
+Bois ; de couteau	bois de couteau		1	1	2
+Bois ; de Couteliers	bois de couteliers		1	1	2
+Bois ; de Crabe	bois de crabe		1	1	2
+Bois ; de crabe	bois de crabe		1	1	2
+Bois ; de diramonbas	bois de siramonbas		1	1	20
+Bois ; de erable	bois d'érable		1	1	1
+Bois ; de fauteuil	bois de fauteuils		1	2	4
+Bois ; de fauteuils	bois de fauteuils		1	1	4
+Bois ; de fauteuils et canapés	bois de fauteuils et canapé		1	1	1
+Bois ; de fayard	bois de fayard		1	6	6
+Bois ; de fer	bois de fer		1	2	3
+Bois ; de fermambourg	bois de Pernambouc		1	1	122
+Bois ; de Fermanbourg	bois de Pernambouc		1	2	122
+Bois ; de fermanbourg	bois de Pernambouc		1	1	122
+Bois ; de Fermanbourg en Buches	bois de Pernambouc en bûches		1	1	1
+Bois ; de Fermanbourg moulu	bois de Pernambouc moulu		1	1	4
+Bois ; de fernambour	bois de Pernambouc		1	3	122
+Bois ; de Fernambourg	bois de Pernambouc		1	7	122
+Bois ; de fernambourg	bois de Pernambouc				
+Bois ; de fernambourg ; arbustes	bois de Pernambouc arbustes		1	2	2
+Bois ; de fernambourg ; en buches	bois de Pernambouc en bûches		1	1	1
+Bois ; de fernambourg ; moulu	bois de Pernambouc moulu		1	2	4
+Bois ; de fernamboury	bois de Pernambouc		1	3	122
+Bois ; de fernanbourg	bois de Pernambouc		1	6	122
+Bois ; de fernembourg	bois de Pernambouc		1	8	122
+Bois ; de ferol	bois de férole		1	1	2
+Bois ; de ferrambourg	bois de Pernambouc		1	2	122
+Bois ; de Fimanbourg	bois de Pernambouc		1	1	4
+Bois ; de fornambourg	bois de Pernambouc		1	3	122
+Bois ; de fuset	bois de fuset		1	6	116
+Bois ; de fussel ; haché	bois de fustel haché		1	1	1
+Bois ; de fustel	bois de fustel		1	3	116
+Bois ; de fustes	bois de fustel		1	1	116
+Bois ; de gabarie	bois de gabarit		1	2	2
+Bois ; de Gaïac	bois de gaiac		1	1	149
+Bois ; de Gaillac	bois de gaiac		1	1	149
+Bois ; de gandal ; moulu	bois de santal moulu		1	1	24
+Bois ; de Gayac	bois de gaiac				
+Bois ; de gayac	bois de gaiac		1	107	149
+Bois ; de gayac ; en buche	bois de gaiac en bûches		1	1	1
+Bois ; de gayak	bois de gaiac		1	1	149
+Bois ; de genievre	bois de genièvre		1	1	1
+Bois ; de Geroffle	bois de girofle		1	2	18
+Bois ; de geroffle	bois de girofle		1	8	18
+Bois ; de géroffle	bois de girofle		1	1	18
+Bois ; de gerofle	bois de girofle		1	1	18
+Bois ; de giroffle	bois de girofle		1	1	18
+Bois ; de girofle	bois de girofle		1	3	18
+Bois ; de gitte	bois de gitte		1	1	1
+Bois ; de goyae	bois de gaiac		1	2	2
+Bois ; de grenade	bois de grenade		1	4	6
+Bois ; de grenadier	bois de grenadier		1	1	6
+Bois ; de grenadille	bois de grenadille				
+Bois ; de hambourg	bois de Hambourg				
+Bois ; de honduras	bois du Honduras		1	1	1
+Bois ; de honduras en buches	bois du Honduras en bûches				
+Bois ; de jacaranda	bois de jacaranda		1	2	17
+Bois ; de Japon	bois du Japon		1	3	19
+Bois ; de japon	bois du Japon		1	1	19
+Bois ; de Jaraconda	bois de jacaranda		1	6	17
+Bois ; de jaraconda	bois de jacaranda		1	2	17
+Bois ; de jaracumba	bois de jacaranda		1	1	17
+Bois ; de jaracunda	bois de jacaranda		1	6	17
+Bois ; de la chine	bois de Chine		1	1	1
+Bois ; de Lettre	bois de lettre		1	2	6
+Bois ; de lettre	bois de lettre		1	3	6
+Bois ; de Levant	bois du Levant		1	1	6
+Bois ; de lin	bois de lin		1	2	3
+Bois ; de lit	bois de lit		1	7	9
+Bois ; de lits	bois de lit		1	1	9
+Bois ; de machandie marbre	bois de machandises marbré		1	5	5
+Bois ; de machemilliers	bois de machemillier		1	1	2
+Bois ; de machivilliers	bois de machemillier		1	1	2
+Bois ; de marbre	bois de marbre		1	2	2
+Bois ; de marqueterie	bois de marqueterie		1	32	61
+Bois ; de marquetterie	bois de marqueterie		0	0	0
+Bois ; de menisier	bois de merisier		1	1	12
+Bois ; De menuiserie	bois de menuiserie		1	3	12
+Bois ; de menuiserie	bois de menuiserie		1	6	12
+Bois ; de merrain	bois de merrains		1	2	7
+Bois ; de merrain a fond	bois de merrains à fond		1	1	1
+Bois ; De merrains	bois de merrains		1	5	7
+Bois ; de meubles	bois de meubles				
+Bois ; de N marthe	bois de Sainte-Marthe		1	1	1
+Bois ; de Nantes	bois de Nantes		1	1	1
+Bois ; de néphrétique	bois néphrétique		1	1	1
+Bois ; De noyer	bois de noyer		1	1	28
+Bois ; de Noyer	bois de noyer		1	2	28
+Bois ; de noyer	bois de noyer		1	16	28
+Bois ; de palessandre	bois de palissandre		1	1	12
+Bois ; de Palissandre	bois de palissandre		1	3	40
+Bois ; de palissandre	bois de palissandre		1	29	40
+Bois ; de passementerie ; en mats	bois de passementerie en mâts		1	2	2
+Bois ; de passementerie ; en planches ; de sapin	bois de passementerie en planches de sapin		1	4	4
+Bois ; de passementerie ; en planches et poutrelles	bois de passementerie en planches et poutrelles		1	3	3
+Bois ; de patissandre	bois de palissandre		1	5	40
+Bois ; de Pernambouc	bois de Pernambouc		0	0	0
+Bois ; de pernambouc	bois de Pernambouc		1	2	23
+Bois ; de pin	bois de pin		1	1	1
+Bois ; de plaphons	bois de plaphon		1	2	2
+Bois ; de pourpre	bois de pourpre		1	1	40
+Bois ; de Provence	bois de Provence		1	1	1
+Bois ; de raze	bois de rose		1	2	44
+Bois ; de Rhode	bois de Rhodes		1	1	1
+Bois ; de Rhodes	bois de Rhodes		1	3	5
+Bois ; de rose	bois de rose		1	4	44
+Bois ; de rouage	bois de rouage		1	6	12
+Bois ; de roüage	bois de rouage		1	3	12
+Bois ; de roye	bois de roye		1	2	44
+Bois ; de rozas	bois de rozas		1	1	44
+Bois ; de roze	bois de rose		1	32	44
+Bois ; de S Marthe	bois de Sainte-Marthe		1	2	122
+Bois ; de S.Marth	bois de Sainte-Marthe		1	1	122
+Bois ; de S.marthe	bois de Sainte-Marthe		1	4	122
+Bois ; de s.marthe	bois de Sainte-Marthe		1	4	122
+Bois ; de Saint Marthe	bois de Sainte-Marthe		1	1	122
+Bois ; de Saint Marthe ; en buches	bois de Sainte-Marthe en bûches		1	3	3
+Bois ; de Saint Marthe ; moulu	bois de Sainte-Marthe moulu		1	1	1
+Bois ; de Sainte Lucie	bois de Sainte-Lucie		1	1	1
+Bois ; de Sainte Marthe	bois de Sainte-Marthe				
+Bois ; de sainte marthe	bois de Sainte-Marthe		1	1	1
+Bois ; de Sainte-Marthe	bois de Sainte-Marthe		1	1	122
+Bois ; de Sandal	bois de santal		1	3	90
+Bois ; de sandal	bois de santal		1	45	90
+Bois ; de sandal ; en buches	bois de santal en bûches		1	3	3
+Bois ; de sandal ; moulu	bois de santal moulu		1	17	17
+Bois ; de Sandal Moulu	bois de santal moulu		1	1	24
+Bois ; de Sandal moulu	bois de santal moulu		1	5	24
+Bois ; de sandal moulu	bois de santal moulu		1	5	24
+Bois ; de Santal	bois de santal		1	2	90
+Bois ; de santal	bois de santal		1	18	90
+Bois ; de santal ; cetrin	bois de santal cetrin		1	1	1
+Bois ; de Sap	bois de sap		1	1	103
+Bois ; de sapan	bois de sappan		1	22	103
+Bois ; de Sapin	bois de sapin		1	8	103
+Bois ; de sapin	bois de sapin		1	45	103
+Bois ; de sapin ; divers	bois de sapin divers		1	2	103
+Bois ; de sapin ; en planches	bois de sapin en planches		1	25	26
+Bois ; de sapin ; en planches ; petites	bois de sapin en planches petites		1	1	26
+Bois ; de sapin ; mats et vergues	bois de sapin mâts et vergues		1	1	1
+Bois ; de Sapin en Soliveaux	bois de sapin en soliveaux		1	1	1
+Bois ; De sapins	bois de sapin		1	13	103
+Bois ; de Saune	bois de saune		1	1	1
+Bois ; de saxafra	bois de sassafras		1	1	7
+Bois ; de saxafra ; moulu	bois de sassafras moulu		1	1	1
+Bois ; de saxafran	bois de sassafras		1	1	7
+Bois ; de Saxafras	bois de sassafras		1	2	7
+Bois ; de saxafras	bois de sassafras		1	3	7
+Bois ; de senteur	bois de senteur		1	1	1
+Bois ; de seramonbas	bois de siramonbas		1	1	20
+Bois ; de Sermambourg	bois de Pernambouc		1	1	23
+Bois ; de Sermanbourg	bois de Pernambouc		1	1	23
+Bois ; de serrure	bois de serrure		1	1	1
+Bois ; de Simanbourg	bois de Pernambouc		1	2	23
+Bois ; de Sipre	bois de sipre		1	1	1
+Bois ; de siramambas	bois de siramonbas		1	1	20
+Bois ; de Siraménéar	bois de siraménéar		1	1	20
+Bois ; de Siramombas	bois de siramonbas				
+Bois ; de siramombas	bois de siramonbas		1	3	20
+Bois ; de Siramonba	bois de siramonbas		1	2	20
+Bois ; de Siramonbar	bois de siramonbas		1	2	20
+Bois ; de Siramonbas	bois de siramonbas		1	2	20
+Bois ; de siramonbas	bois de siramonbas		1	1	20
+Bois ; de Siramonbasse	bois de siramonbas		1	1	20
+Bois ; de siramrubas	bois de siramonbas		1	1	20
+Bois ; de siromombas	bois de siramonbas		1	1	20
+Bois ; de sommier	bois de sommiers		1	2	2
+Bois ; de St. Marth	bois de Sainte-Marthe		1	3	122
+Bois ; de St. Marthe	bois de Sainte-Marthe		1	4	122
+Bois ; de Ste Marthe	bois de Sainte-Marthe		1	33	122
+Bois ; de Ste marthe	bois de Sainte-Marthe		1	2	122
+Bois ; de Ste-Marthe	bois de Sainte-Marthe		1	2	122
+Bois ; de Ste. Marthe	bois de Sainte-Marthe		1	1	122
+Bois ; de Surinam	bois du Surinam		1	1	1
+Bois ; de table ; doré	bois de table doré		1	1	1
+Bois ; de Teck	bois de teck		0	0	0
+Bois ; de teinture	bois de teinture		1	5	61
+Bois ; de teinture ; d'Hondurat	bois de teinture du Honduras		1	1	1
+Bois ; de teinture ; de campêche	bois de teinture de Campêche		1	3	5
+Bois ; de teinture ; de fustick	bois de teinture de fustel		1	1	1
+Bois ; de teinture ; divers	bois de teinture divers		1	1	1
+Bois ; de teinture ; en buches	bois de teinture en bûches		1	2	2
+Bois ; de teinture ; moulu	bois de teinture moulu		1	4	5
+Bois ; de teinture ; nicaragua	bois de teinture Nicaragua		1	1	1
+Bois ; de teinture et Marqueterie	bois de teinture et marqueterie		1	1	3
+Bois ; de teure	bois de teure		1	1	1
+Bois ; de Tilleul	bois de tilleul		1	1	3
+Bois ; de tilleul	bois de tilleul		1	1	3
+Bois ; de violette	bois de violette		1	12	13
+Bois ; demachemillier	bois de machemillier		1	1	1
+Bois ; des îles et des Indes	bois des Îles et des Indes		1	16	362
+Bois ; des Isles	bois des Îles		1	4	4
+Bois ; des Isles ; d'Acajou	bois des Îles d'acajou		1	1	148
+Bois ; des Isles ; de Campêche	bois des Îles de Campêche		1	1	478
+Bois ; des Isles ; de fernambourg	bois des Îles de Pernambouc		1	1	23
+Bois ; des Isles ; de teinture ; moulu	bois des Îles de teinture moulu		1	1	5
+Bois ; des Isles et des Indes	bois des Îles et des Indes		1	2	2
+Bois ; des Isles et des Indes ; d'ébenne	bois des Îles et des Indes d'ébène		1	1	76
+Bois ; des Isles et des Indes ; de Brésil	bois des Îles et des Indes du Brésil		1	2	257
+Bois ; des Isles et des Indes ; de Caliatour	bois des Îles et des Indes de Caliatour		1	1	59
+Bois ; des Isles et des Indes ; de campêche	bois des Îles et des Indes de Campêche		1	2	5
+Bois ; des Isles et des Indes ; de fernambourg	bois des Îles et des Indes de Pernambouc		1	2	23
+Bois ; des Isles et des Indes ; de Gayac	bois des Îles et des Indes de gaiac		1	1	149
+Bois ; des Isles et des Indes ; de Nicorago	bois des Îles et des Indes du Nicaragua		1	1	1
+Bois ; des Isles et des Indes ; de Sainte Marthe	bois des Îles et des Indes de Sainte-Marthe		1	2	122
+Bois ; des Isles et des Indes ; de santal	bois des Îles et des Indes de santal		1	2	90
+Bois ; des Isles et des Indes ; divers	bois des Îles et des Indes divers		1	2	659
+Bois ; des Isles et des Indes ; fustel	bois des Îles et des Indes fustel		1	2	3
+Bois ; des Isles et des Indes ; jaune	bois des Îles et des Indes jaune		1	2	125
+Bois ; des Isles et des Indes ; rouge	bois des Îles et des Indes rouge		1	1	69
+Bois ; des marthe	bois de Sainte-Marthe		1	1	122
+Bois ; dinde rapé	bois d'Inde râpé		1	1	2
+Bois ; dit a fonds	bois dit à fond		1	1	1
+Bois ; Divers	bois divers		1	11	659
+Bois ; divers	bois divers		1	61	659
+Bois ; divers ; de construction	bois divers de construction		1	3	8
+Bois ; divers ; en planches	bois divers en planches		1	6	6
+Bois ; divers ; pour construction	bois divers pour construction		1	5	8
+Bois ; doré	bois doré		1	8	8
+Bois ; du Brésil	bois du Brésil		0	0	0
+Bois ; du ferol	bois de férole		1	1	2
+Bois ; du Japon	bois du Japon		1	7	19
+Bois ; du japon	bois du Japon		1	7	19
+Bois ; du Japon ; jaune	bois du Japon jaune		1	1	1
+Bois ; durci	bois durci		1	1	1
+Bois ; écarié	bois écarié		1	1	1
+Bois ; en ? ; à houblon	bois en ??? à houblon		1	1	1
+Bois ; en aviron	bois en avirons		1	2	30
+Bois ; en barre	bois en barres		1	3	24
+Bois ; en barreaux	bois en barreaux		1	7	7
+Bois ; en barreaux et planches	bois en barreaux et planches		1	5	5
+Bois ; en barres	bois en barres		1	10	24
+Bois ; en batonge	bois en batonge		1	1	1
+Bois ; en battreaux	bois en battreaux		1	1	1
+Bois ; en buches	bois en bûches		1	1	1
+Bois ; en cercles	bois en cercles		1	8	218
+Bois ; en cercles ; pour la mire	bois en cercles pour la mire		1	1	218
+Bois ; en chevilles	bois en chevilles		1	1	7
+Bois ; en claffous ou merrain	bois en clafou ou merrains		1	1	1
+Bois ; en clafousses	bois en clafou		1	1	1
+Bois ; en epriers	bois en epriers		1	1	1
+Bois ; en fagots	bois en fagots		1	3	23
+Bois ; En feuillard et cercles	bois en feuillards et cercles		1	17	29
+Bois ; en lattes	bois en lattes		1	1	1
+Bois ; en lattes ; à couvrir	bois en lattes à couvrir		1	1	1
+Bois ; en madrier	bois en madriers		1	1	1
+Bois ; en madrier ; de chêne	bois en madriers de chêne		1	1	1
+Bois ; en materiaux	bois en materiaux		1	1	1
+Bois ; en mats	bois en mâts		1	5	145
+Bois ; en merrain	bois en merrains		1	1	19
+Bois ; en perche ; de sapin	bois en perches de sapin		1	1	19
+Bois ; en perches	bois en perches		1	1	3
+Bois ; en perches ; pour jardin	bois en perches pour jardin		1	1	1
+Bois ; en petits mats	bois en petits mâts		1	2	47
+Bois ; En planches	bois en planches		1	24	37
+Bois ; en planches	bois en planches		1	12	37
+Bois ; en planches ; de chêne	bois en planches de chêne		1	1	196
+Bois ; en planches ; de sapin	bois en planches de sapin		1	4	1074
+Bois ; en poutres ; de chêne	bois en poutres de chêne		1	1	4
+Bois ; en poutres et poutrelles	bois en poutres et poutrelles		1	3	3
+Bois ; en rames	bois en rames		1	1	1
+Bois ; en sommiers	bois en sommiers		1	2	2
+Bois ; en spars	bois en espars		1	1	56
+Bois ; en tailles ; à couvrir	bois en tailles à couvrir		1	1	1
+Bois ; en tranches	bois en tranches		1	13	13
+Bois ; eparts	bois espars		1	1	6
+Bois ; ESpars	bois espars		1	1	6
+Bois ; Espars	bois espars		1	7	56
+Bois ; espars	bois espars		1	28	56
+Bois ; espars ; de 40 à 50 pieds	bois espars de 40 à 50 pieds		1	1	1
+Bois ; espars ; de 56 à 61 pieds	bois espars de 56 à 61 pieds		1	1	1
+Bois ; espars d; e 40 à 50 pieds	bois espars d e 40 à 50 pieds		1	1	1
+Bois ; Espart	bois espars		1	1	6
+Bois ; espart	bois espars		1	4	56
+Bois ; Esparts	bois espars		1	2	6
+Bois ; esparts	bois espars				
+Bois ; esparts ; de 4 à 5 pieds	bois espars de 4 à 5 pieds		1	1	1
+Bois ; fagolo	bois fagots		1	1	23
+Bois ; fagot	bois fagots		1	1	23
+Bois ; fagots	bois fagots		1	10	23
+Bois ; fauteuils	bois fauteuils		1	1	4
+Bois ; fernambourg	bois Pernambouc		1	1	1
+Bois ; feuillard	bois feuillards		1	16	18
+Bois ; feuillard ; en cercles	bois feuillards en cercles		1	1	29
+Bois ; feuillard ; en cerdes	bois feuillards en cerdes		1	1	29
+Bois ; feuillard et en cercles	bois feuillards et en cercles		1	10	29
+Bois ; feuillards	bois feuillards		1	1	18
+Bois ; flotté ; en étançons ; ronds	bois flotté en étançons ronds		1	1	1
+Bois ; foncaille	bois fonçaille		1	1	1
+Bois ; fusil	bois fusils		1	2	2
+Bois ; fuslet	bois fustel		1	11	116
+Bois ; fuste moulu	bois fustel moulu		1	1	1
+Bois ; Fustel	bois fustel		1	3	116
+Bois ; fustel	bois fustel		1	39	116
+Bois ; fuster	bois fustel		1	1	116
+Bois ; fustes	bois fustel		1	6	116
+Bois ; fustet	bois fustel		1	14	116
+Bois ; Gayac	bois gaiac		1	2	149
+Bois ; gro-cribles	bois gros-crible		1	2	20
+Bois ; gros	bois gros		1	3	3
+Bois ; Jaune	bois jaune		1	7	125
+Bois ; jaune	bois jaune				
+Bois ; jaune rapé	bois jaune râpé		1	1	2
+Bois ; Jeaune	bois jaune		1	2	125
+Bois ; jeaune	bois jaune		1	13	125
+Bois ; jeaune moulu	bois jaune moulu		1	1	1
+Bois ; Jeaunes	bois jaune		1	1	125
+Bois ; joly	bois joli		1	1	2352
+Bois ; long	bois long		1	1	125
+Bois ; mairin	bois merrains		1	3	444
+Bois ; mairin a barique	bois merrains à barriques		1	1	194
+Bois ; mairin a Barrique	bois merrains à barriques		1	1	194
+Bois ; marbré	bois marbré				
+Bois ; marrain	bois merrains		1	12	444
+Bois ; matraux	bois matereaux		1	1	1
+Bois ; mats	bois mâts		1	2	2
+Bois ; mêlée	bois mêlé		1	1	1
+Bois ; merai à pipes	bois merrains à pipes		1	1	171
+Bois ; Merain	bois merrains		1	4	444
+Bois ; merain	bois merrains		1	6	444
+Bois ; mérain	bois merrains		1	2	444
+Bois ; merain ; à barils	bois merrains à barils		1	1	5
+Bois ; merain ; à pipe	bois merrains à pipes		1	5	171
+Bois ; merain ; à tonneaux	bois merrains à tonneaux		1	10	86
+Bois ; mérain ; de sapin	bois merrains de sapin		1	3	3
+Bois ; merain à barique	bois merrains à barriques		1	1	194
+Bois ; Merain a bariques	bois merrains à barriques		1	1	194
+Bois ; merain a bariques	bois merrains à barriques		1	2	194
+Bois ; Merain à Bariques	bois merrains à barriques		1	4	194
+Bois ; merain à bariques	bois merrains à barriques		1	1	194
+Bois ; merain a barriques	bois merrains à barriques		1	1	194
+Bois ; Merain a pipe	bois merrains à pipes		1	1	171
+Bois ; merain a pipes	bois merrains à pipes		1	2	171
+Bois ; Merain à pipes	bois merrains à pipes		1	3	171
+Bois ; merain à pipes	bois merrains à pipes		1	2	171
+Bois ; merain a Quarts	bois merrains à quart		1	1	5
+Bois ; merain a quarts	bois merrains à quart		1	2	5
+Bois ; Merain à quarts	bois merrains à quart		1	1	5
+Bois ; Merain; a pipes	bois merrains à pipes		1	1	171
+Bois ; Merain; a quart	bois merrains à quart		1	1	5
+Bois ; merains ; à barils	bois merrains à barils		1	4	5
+Bois ; merains ; à barriques	bois merrains à barriques		1	6	194
+Bois ; merains ; à fonds	bois merrains à fond		1	3	29
+Bois ; merains ; à muids	bois merrains à muid		1	1	1
+Bois ; meriés ; de sapin	bois merrains de sapin		1	1	1
+Bois ; merrain	bois merrains		1	280	444
+Bois ; merrain ; a baril douelles	bois merrains à barils douelles				
+Bois ; merrain ; à barils	bois merrains à barils		1	9	10
+Bois ; merrain ; à barique	bois merrains à barriques		1	5	194
+Bois ; merrain ; a bariques	bois merrains à barriques		1	1	194
+Bois ; merrain ; à bariques	bois merrains à barriques		1	32	194
+Bois ; merrain ; a bariques douelles	bois merrains à barriques douelles				
+Bois ; merrain ; a barriques	bois merrains à barriques		1	40	41
+Bois ; merrain ; à barriques	bois merrains à barriques		1	5	194
+Bois ; merrain ; a barrriques	bois merrains à barriques		1	2	2
+Bois ; merrain ; a bottes	bois merrains à botte		1	3	7
+Bois ; merrain ; à bottes	bois merrains à botte		1	1	7
+Bois ; merrain ; a busses	bois merrains à busses		1	1	2
+Bois ; merrain ; a cardine	bois merrains à cardines		1	1	1
+Bois ; merrain ; a fond	bois merrains à fond		1	6	38
+Bois ; merrain ; à fond	bois merrains à fond		1	2	38
+Bois ; merrain ; a fonds	bois merrains à fond		1	30	38
+Bois ; merrain ; à fonds	bois merrains à fond		1	14	29
+Bois ; merrain ; a fonds douelles	bois merrains à fond douelles				
+Bois ; merrain ; a pipes	bois merrains à pipes		1	19	171
+Bois ; merrain ; à pipes	bois merrains à pipes		1	20	171
+Bois ; merrain ; a pipes douelles	bois merrains à pipes douelles				
+Bois ; merrain ; a Quarts	bois merrains à quart		1	1	38
+Bois ; merrain ; à quarts	bois merrains à quart		1	2	38
+Bois ; merrain ; a Sonds	bois merrains à fond		1	4	4
+Bois ; merrain ; a tierçons	bois merrains à tierçons		1	2	2
+Bois ; merrain ; à tierçons	bois merrains à tierçons		1	3	6
+Bois ; merrain ; à tonnaux	bois merrains à tonneaux		1	9	86
+Bois ; merrain ; a Tonneaux	bois merrains à tonneaux		1	7	86
+Bois ; merrain ; a tonneaux	bois merrains à tonneaux		1	6	86
+Bois ; merrain ; à tonneaux	bois merrains à tonneaux		1	45	86
+Bois ; merrain ; à tortues	bois merrains à tortues		1	2	2
+Bois ; merrain ; bourdilles	bois merrains bourdilles		1	2	2
+Bois ; merrain ; bourdillons	bois merrains bourdillons		1	1	1
+Bois ; merrain ; de 4 pieds	bois merrains de 4 pieds		1	1	1
+Bois ; merrain ; de sapin	bois merrains de sapin		1	3	7
+Bois ; merrain ; en chêne	bois merrains en chêne		1	3	3
+Bois ; merrain ; merrain	bois merrains merrains		1	1	444
+Bois ; merrain ; ordinaire	bois merrains ordinaire		1	1	1
+Bois ; merrain ; pipes douelles	bois merrains pipes douelles				
+Bois ; merrain ; pour feraille	bois merrains pour ferraille		1	1	1
+Bois ; merrain a barils douelles	bois merrains à barils douelles				
+Bois ; merrain a barique	bois merrains à barriques		1	1	194
+Bois ; Merrain a bariques	bois merrains à barriques		1	1	194
+Bois ; merrain à bariques	bois merrains à barriques		1	2	194
+Bois ; merrain a barrique	bois merrains à barriques		1	1	194
+Bois ; merrain a barriques	bois merrains à barriques		1	4	4
+Bois ; merrain à barriques	bois merrains à barriques		1	2	194
+Bois ; merrain a fond	bois merrains à fond		1	1	2
+Bois ; merrain a fonds	bois merrains à fond		1	1	2
+Bois ; merrain à fonds	bois merrains à fond		1	1	29
+Bois ; Merrain a pipes	bois merrains à pipes		1	1	171
+Bois ; merrain a pipes	bois merrains à pipes		1	4	171
+Bois ; merrain à pipes	bois merrains à pipes		1	2	171
+Bois ; merrain a tierçpn	bois merrains à tierçons		1	1	171
+Bois ; merrain douelles	bois merrains douelles				
+Bois ; merrain doüelles	bois merrains douelles				
+Bois ; merrain douëlles	bois merrains douelles				
+Bois ; Merrains	bois merrains		1	15	19
+Bois ; merrains ; à fonds	bois merrains à fond		1	5	29
+Bois ; merrains ; à pipes	bois merrains à pipes		1	3	171
+Bois ; merrains ; à tierçons	bois merrains à tierçons		1	1	6
+Bois ; merrein	bois merrains		1	15	444
+Bois ; merrein ; douelle	bois merrains douelles		1	1	1
+Bois ; merrian ; a pipes	bois merrains à pipes		1	1	1
+Bois ; merrin a barique	bois merrains à barriques		1	1	194
+Bois ; merrin a Barrique	bois merrains à barriques		1	1	194
+Bois ; merrin a Fonds	bois merrains à fond		1	1	29
+Bois ; merrin a Pipes	bois merrains à pipes		1	2	171
+Bois ; merrin a pipes	bois merrains à pipes		1	1	171
+Bois ; moulu	bois moulu		1	1	1
+Bois ; neffretique	bois néphrétique		1	1	5
+Bois ; nefretique	bois néphrétique		1	3	5
+Bois ; ouvre	bois ouvré		1	4	138
+Bois ; ouvré	bois ouvré		1	128	138
+Bois ; ouvré ; à batir	bois ouvré à bâtir		1	1	1
+Bois ; ozier	bois osier		1	5	5
+Bois ; palissandre	bois palissandre		1	1	1
+Bois ; perches ; à houblon	bois perches à houblon		1	1	4
+Bois ; petit ; de roüage	bois petit de rouage		1	2	2
+Bois ; planches	bois planches		1	2	2
+Bois ; planches ; de sapin	bois planches de sapin		1	1	1
+Bois ; pons cribles	bois pour crible		1	1	20
+Bois ; pour cribler	bois pour crible		1	1	20
+Bois ; pour cribles	bois pour crible		1	13	20
+Bois ; pour meuble	bois pour meubles		1	1	3
+Bois ; pour Meubles	bois pour meubles		1	1	3
+Bois ; pous cribles	bois pour crible		1	1	20
+Bois ; qxxx cribles	bois pour crible		1	1	20
+Bois ; rosal	bois rosal		1	1	1
+Bois ; rose	bois rose		1	1	6
+Bois ; roüage	bois rouage		1	1	69
+Bois ; rouge	bois rouge		1	55	69
 bois ; rouge	bois rouge		1	2	69
-Bois ; royal	Bois royal		1	1	1
-Bois ; Rozard	Bois Rozard		1	1	6
-Bois ; rozard	Bois rozard		1	1	6
-Bois ; roze	Bois roze		1	2	6
-Bois ; sainte lucie	Bois sainte lucie		1	1	1
-Bois ; Sandal	Bois Sandal		1	1	90
-Bois ; Scie	Bois Scie		1	1	47
-Bois ; Scié	Bois Scié		1	2	47
-Bois ; scié	Bois scié		1	27	47
+Bois ; royal	bois royal		1	1	1
+Bois ; Rozard	bois rozard		1	1	6
+Bois ; rozard	bois rozard		1	1	6
+Bois ; roze	bois rose		1	2	6
+Bois ; sainte lucie	bois Sainte-Lucie		1	1	1
+Bois ; Sandal	bois santal		1	1	90
+Bois ; Scie	bois scié		1	1	47
+Bois ; Scié	bois scié		1	2	47
+Bois ; scié	bois scié		1	27	47
 bois ; scié	bois scié		1	1	47
-Bois ; sçié	Bois sçié		1	7	47
-Bois ; scié ; en barreaux	Bois scié en barreaux		1	1	1
-Bois ; scié en planches	Bois scié en planches		1	3	3
-Bois ; soié	Bois soié		1	2	47
-Bois ; soutreaux	Bois soutreaux		1	1	1
-Bois ; Sustek	Bois Sustek		1	9	9
-Bois ; teinture et Marqueterie	Bois teinture et Marqueterie		1	2	3
-Bois ; tord	Bois tord		1	3	7
-Bois ; tors	Bois tors		1	1	7
-Bois ; travaillé	Bois travaillé		1	4	4
-Bois ; vernis	Bois vernis		1	5	7
-Bois ; vert	Bois vert		1	1	7
-Bois ; violet	Bois violet		1	17	24
-Bois ; voilet	Bois voilet		1	1	24
-Bois ;;jaune;rapé	Bois jaunerapé		1	1	2
-Bois ;;mairin	Bois mairin		1	1	444
-Bois ;;mairin;a barique	Bois mairina barique		1	2	194
-Bois ;;mairin;a bariques	Bois mairina bariques		1	1	194
-Bois ;;mairin;à bariques	Bois mairinà bariques		1	2	194
-Bois ;;mairin;a Barrique	Bois mairina Barrique		1	1	194
-Bois ;;mairin;a pipes	Bois mairina pipes		1	3	171
-Bois ;;mairin;à pipes	Bois mairinà pipes		1	1	171
-Bois ;;merain;a barriques	Bois meraina barriques		1	1	194
-Bois ;;merain;à barriques	Bois merainà barriques		1	1	194
-Bois ;;mérain;a fonds	Bois méraina fonds		1	1	29
-Bois ;;merain;a pipes	Bois meraina pipes		1	1	171
-Bois ;.de caillatours;moulu	Bois .de caillatoursmoulu		1	1	11
-Bois ;à brûler ; en fagots	Bois à brûler en fagots		1	3	8
-Bois . De roüage	Bois . De roüage		1	1	1
-bois à baril non scié	bois à baril non scié		0	0	0
-bois à barrils	bois à barrils				
-Bois a bastir	Bois à bastir				
-Bois A bâtir	Bois à bâtir		1	2	58
-Bois à bâtir	Bois à bâtir		1	2	58
-Bois a bresil	Bois à bresil		1	1	257
-Bois A Brule	Bois à Brule		1	1	321
-Bois A brulé	Bois à brulé		1	1	321
-Bois à brulé	Bois à brulé		1	3	321
-Bois A Bruler	Bois à Bruler		1	3	321
-Bois a bruler	Bois à bruler				
-Bois à Bruler	Bois à Bruler		1	1	321
-Bois à bruler	Bois à bruler		1	1	321
-bois à bruler	bois à bruler				
-Bois a Brûler	Bois à Brûler		1	2	321
-Bois a brûler	Bois à brûler				
-Bois à brûler	Bois à brûler		1	51	321
+Bois ; sçié	bois scié		1	7	47
+Bois ; scié ; en barreaux	bois scié en barreaux		1	1	1
+Bois ; scié en planches	bois scié en planches		1	3	3
+Bois ; soié	bois scié		1	2	47
+Bois ; soutreaux	bois soutreaux		1	1	1
+Bois ; Sustek	bois sustek		1	9	9
+Bois ; teinture et Marqueterie	bois teinture et marqueterie		1	2	3
+Bois ; tord	bois tors		1	3	7
+Bois ; tors	bois tors		1	1	7
+Bois ; travaillé	bois travaillé		1	4	4
+Bois ; vernis	bois vernis		1	5	7
+Bois ; vert	bois vert		1	1	7
+Bois ; violet	bois violet		1	17	24
+Bois ; voilet	bois violet		1	1	24
+Bois ;;jaune;rapé	bois jaune râpé		1	1	2
+Bois ;;mairin	bois merrains		1	1	444
+Bois ;;mairin;a barique	bois merrains à barriques		1	2	194
+Bois ;;mairin;a bariques	bois merrains à barriques		1	1	194
+Bois ;;mairin;à bariques	bois merrains à barriques		1	2	194
+Bois ;;mairin;a Barrique	bois merrains à barriques		1	1	194
+Bois ;;mairin;a pipes	bois merrains à pipes		1	3	171
+Bois ;;mairin;à pipes	bois merrains à pipes		1	1	171
+Bois ;;merain;a barriques	bois merrains à barriques		1	1	194
+Bois ;;merain;à barriques	bois merrains à barriques		1	1	194
+Bois ;;mérain;a fonds	bois merrains à fond		1	1	29
+Bois ;;merain;a pipes	bois merrains à pipes		1	1	171
+Bois ;.de caillatours;moulu	bois de Caliatour moulu		1	1	11
+Bois ;à brûler ; en fagots	bois à brûler en fagots		1	3	8
+Bois . De roüage	bois de rouage		1	1	1
+bois à baril non scié	bois à barils non scié		0	0	0
+bois à barrils	bois à barils				
+Bois a bastir	bois à bastir				
+Bois A bâtir	bois à bâtir		1	2	58
+Bois à bâtir	bois à bâtir		1	2	58
+Bois a bresil	bois du Brésil		1	1	257
+Bois A Brule	bois à brûler		1	1	321
+Bois A brulé	bois à brûler		1	1	321
+Bois à brulé	bois à brûler		1	3	321
+Bois A Bruler	bois à brûler		1	3	321
+Bois a bruler	bois à brûler				
+Bois à Bruler	bois à brûler		1	1	321
+Bois à bruler	bois à brûler		1	1	321
+bois à bruler	bois à brûler				
+Bois a Brûler	bois à brûler		1	2	321
+Bois a brûler	bois à brûler				
+Bois à brûler	bois à brûler		1	51	321
 bois à brûler	bois à brûler				
-Bois a Brulers	Bois à Brulers		1	1	321
-Bois a brules	Bois à brules		1	2	321
-Bois A Brûles	Bois à Brûles		1	1	321
-Bois a Brusler	Bois à Brusler		1	1	321
-Bois a brusler	Bois à brusler				
-bois à brusler	bois à brusler				
+Bois a Brulers	bois à brûler		1	1	321
+Bois a brules	bois à brûler		1	2	321
+Bois A Brûles	bois à brûler		1	1	321
+Bois a Brusler	bois à brûler		1	1	321
+Bois a brusler	bois à brûler				
+bois à brusler	bois à brûler				
 bois à faire corbeilles	bois à faire corbeilles				
-bois à faire cribles	bois à faire cribles				
-Bois a faire Meuble	Bois à faire Meuble		1	1	3
+bois à faire cribles	bois à faire crible				
+Bois a faire Meuble	bois à faire meubles		1	1	3
 bois à faire paniers	bois à faire paniers				
-Bois A Foureaux d'épée	Bois à Foureaux d'épée		1	1	1
-Bois a teindre	Bois à teindre				
+Bois A Foureaux d'épée	bois à fourreaux d'épée		1	1	1
+Bois a teindre	bois à teindre				
 bois a teindre	bois à teindre				
-Bois à teindre	Bois à teindre		1	5	6
+Bois à teindre	bois à teindre		1	5	6
 bois à teindre	bois à teindre				
-Bois a teindre ; en buches	Bois à teindre en buches				
-Bois a teindre ; moulu	Bois à teindre moulu				
-bois à teindre de toutes sortes	bois à teindre de toutes sortes		0	0	0
-Bois a teinture	Bois à teinture				
-bois à tonneau	bois à tonneau				
+Bois a teindre ; en buches	bois à teindre en bûches				
+Bois a teindre ; moulu	bois à teindre moulu				
+bois à teindre de toutes sortes	bois à teindre de toute sorte		0	0	0
+Bois a teinture	bois à teinture				
+bois à tonneau	bois à tonneaux				
 bois à tonneaux	bois à tonneaux				
-Bois anspects	Bois anspects				
+Bois anspects	bois anspect				
 bois atamis	bois atamis				
 bois blanc à faire sabots	bois blanc à faire sabots		0	0	0
-Bois bordages	Bois bordages		1	1	1
-bois Brezil	bois Brezil				
-Bois campeche	Bois campeche		1	1	478
-Bois Campêche	Bois Campêche		1	2	478
-Bois Campêche râpé	Bois Campêche râpé		1	1	19
-Bois Campeshe	Bois Campeshe		1	2	478
-Bois coudé	Bois coudé		0	0	0
-Bois courbé	Bois courbé		0	0	0
-Bois d'Acajou	Bois d'Acajou		1	16	148
-Bois d'acajou	Bois d'acajou				
+Bois bordages	bois bordage		1	1	1
+bois Brezil	bois Brésil				
+Bois campeche	bois Campêche		1	1	478
+Bois Campêche	bois Campêche		1	2	478
+Bois Campêche râpé	bois Campêche râpé		1	1	19
+Bois Campeshe	bois Campêche		1	2	478
+Bois coudé	bois coudé		0	0	0
+Bois courbé	bois courbé		0	0	0
+Bois d'Acajou	bois d'acajou		1	16	148
+Bois d'acajou	bois d'acajou				
 bois d'acajou	bois d'acajou		0	0	0
-Bois d'acajou ; chevons ; de 8 pieds	Bois d'acajou chevons de 8 pieds				
-Bois d'acajou ; chevrons ; de 6 pieds	Bois d'acajou chevrons de 6 pieds				
-Bois d'acajou ; chevrons de 5 pieds	Bois d'acajou chevrons de 5 pieds				
-Bois d'acajou ; divers	Bois d'acajou divers				
-Bois d'acajou ; madriers	Bois d'acajou madriers				
-Bois d'acajou ; madriers ; de 10 a 11 pieds	Bois d'acajou madriers de 10 à 11 pieds				
-Bois d'acajou ; madriers ; de 10 pieds	Bois d'acajou madriers de 10 pieds				
-Bois d'acajou ; madriers ; de 12 pieds	Bois d'acajou madriers de 12 pieds				
-Bois d'acajou ; madriers ; de 5 pieds	Bois d'acajou madriers de 5 pieds				
-Bois d'acajou ; madriers ; de 6 pieds	Bois d'acajou madriers de 6 pieds				
-Bois d'acajou ; madriers ; de 9 pieds	Bois d'acajou madriers de 9 pieds				
-Bois d'acajou ; madriers de 11 pieds	Bois d'acajou madriers de 11 pieds				
-Bois d'acajou ; matreaux ; de 7 a 8 pieds	Bois d'acajou matreaux de 7 à 8 pieds				
-Bois d'acajou ; planches	Bois d'acajou planches				
-Bois d'acajou ; planches ; de 8 pieds	Bois d'acajou planches de 8 pieds				
-Bois d'acajou; baignoire	Bois d'acajou baignoire				
-bois d'aloües	bois d'aloües				
-Bois d'angolé	Bois d'angolé				
+Bois d'acajou ; chevons ; de 8 pieds	bois d'acajou chevrons de 8 pieds				
+Bois d'acajou ; chevrons ; de 6 pieds	bois d'acajou chevrons de 6 pieds				
+Bois d'acajou ; chevrons de 5 pieds	bois d'acajou chevrons de 5 pieds				
+Bois d'acajou ; divers	bois d'acajou divers				
+Bois d'acajou ; madriers	bois d'acajou madriers				
+Bois d'acajou ; madriers ; de 10 a 11 pieds	bois d'acajou madriers de 10 à 11 pieds				
+Bois d'acajou ; madriers ; de 10 pieds	bois d'acajou madriers de 10 pieds				
+Bois d'acajou ; madriers ; de 12 pieds	bois d'acajou madriers de 12 pieds				
+Bois d'acajou ; madriers ; de 5 pieds	bois d'acajou madriers de 5 pieds				
+Bois d'acajou ; madriers ; de 6 pieds	bois d'acajou madriers de 6 pieds				
+Bois d'acajou ; madriers ; de 9 pieds	bois d'acajou madriers de 9 pieds				
+Bois d'acajou ; madriers de 11 pieds	bois d'acajou madriers de 11 pieds				
+Bois d'acajou ; matreaux ; de 7 a 8 pieds	bois d'acajou mâtereaux de 7 à 8 pieds				
+Bois d'acajou ; planches	bois d'acajou planches				
+Bois d'acajou ; planches ; de 8 pieds	bois d'acajou planches de 8 pieds				
+Bois d'acajou; baignoire	bois d'acajou baignoires				
+bois d'aloües	bois d'aloès				
+Bois d'angolé	bois d'Angola				
 bois d'arc et de fusils	bois d'arc et de fusils		0	0	0
-bois d'arcs	bois d'arcs		0	0	0
-bois d'arcs et d'arbulettes	bois d'arcs et d'arbulettes		0	0	0
-bois d'arcs et de selles	bois d'arcs et de selles		0	0	0
-Bois d'Ebene	Bois d'Ebene				
-Bois d'ebene	Bois d'ebene		1	2	76
-Bois d'ébène	Bois d'ébène		1	1	76
-Bois d'ebenne	Bois d'ebenne		1	1	76
-bois d'ebenne	bois d'ebenne		0	0	0
-Bois d'éCaliatour	Bois d'éCaliatour		1	1	59
-Bois d'Inde	Bois d'Inde				
-Bois d'inde	Bois d'inde		1	1	80
+bois d'arcs	bois d'arc		0	0	0
+bois d'arcs et d'arbulettes	bois d'arc et d'arbalètes		0	0	0
+bois d'arcs et de selles	bois d'arc et de selles		0	0	0
+Bois d'Ebene	bois d'ébène				
+Bois d'ebene	bois d'ébène		1	2	76
+Bois d'ébène	bois d'ébène		1	1	76
+Bois d'ebenne	bois d'ébène		1	1	76
+bois d'ebenne	bois d'ébène		0	0	0
+Bois d'éCaliatour	bois de Caliatour		1	1	59
+Bois d'Inde	bois d'Inde				
+Bois d'inde	bois d'inde		1	1	80
 bois d'inde	bois d'inde				
-Bois d'Inde ; en buches	Bois d'Inde en buches				
-Bois d'Inde ; rapé	Bois d'Inde rapé				
-Bois d'Inde en buche	Bois d'Inde en buche				
-Bois d'Inde en buches	Bois d'Inde en buches				
-Bois d'inde en buches	Bois d'inde en buches				
-bois d'inde en buches	bois d'inde en buches				
-Bois d'inde moulu ; en buches	Bois d'inde moulu en buches				
-Bois d'Inde moulu ; moulu	Bois d'Inde moulu moulu				
-Bois d'Inde rapé	Bois d'Inde rapé				
-Bois d'inde rapé	Bois d'inde rapé				
-bois d'inde rapé	bois d'inde rapé				
-Bois d'olivier	Bois d'olivier				
+Bois d'Inde ; en buches	bois d'Inde en bûches				
+Bois d'Inde ; rapé	bois d'Inde râpé				
+Bois d'Inde en buche	bois d'Inde en bûches				
+Bois d'Inde en buches	bois d'Inde en bûches				
+Bois d'inde en buches	bois d'Inde en bûches				
+bois d'inde en buches	bois d'Inde en bûches				
+Bois d'inde moulu ; en buches	bois d'inde moulu en bûches				
+Bois d'Inde moulu ; moulu	bois d'Inde moulu moulu				
+Bois d'Inde rapé	bois d'Inde râpé				
+Bois d'inde rapé	bois d'Inde râpé				
+bois d'inde rapé	bois d'Inde râpé				
+Bois d'olivier	bois d'olivier				
 bois d'olivier	bois d'olivier				
-bois d'olivier à brusler	bois d'olivier à brusler				
-Bois d’aulne	Bois d’aulne		0	0	0
-Bois de ?	Bois de ?		1	1	1
-Bois de barrique	Bois de barrique		0	0	0
-Bois de bateau	Bois de bateau		0	0	0
-bois de bezil	bois de bezil				
-Bois de Bordage	Bois de Bordage		1	1	2
-Bois de Bordages ; de chêne	Bois de Bordages de chêne		1	1	43
-Bois de bouleau	Bois de bouleau		0	0	0
-Bois de Bresil	Bois de Bresil				
-Bois de bresil	Bois de bresil		1	2	257
-bois de bresil	bois de bresil				
-Bois de Brésil	Bois de Brésil				
-Bois de brésil	Bois de brésil				
-bois de Brésil	bois de Brésil				
-Bois de Bresil en buches	Bois de Bresil en buches				
-Bois de Bresillet	Bois de Bresillet				
-Bois de BREZIL	Bois de BREZIL		1	2	257
-Bois de Brezil	Bois de Brezil		1	2	257
-Bois de brezil	Bois de brezil				
-bois de brezil	bois de brezil				
-Bois de brézil	Bois de brézil		1	1	257
-bois de brézil	bois de brézil				
-Bois de Brezil rapé	Bois de Brezil rapé		1	2	5
-Bois de brezilles	Bois de brezilles		1	1	3
-Bois de buis	Bois de buis				
+bois d'olivier à brusler	bois d'olivier à brûler				
+Bois d’aulne	bois d’aulne		0	0	0
+Bois de ?	bois de ???		1	1	1
+Bois de barrique	bois de barriques		0	0	0
+Bois de bateau	bois de bateaux		0	0	0
+bois de bezil	bois du Brésil				
+Bois de Bordage	bois de bordage		1	1	2
+Bois de Bordages ; de chêne	bois de bordage de chêne		1	1	43
+Bois de bouleau	bois de bouleau		0	0	0
+Bois de Bresil	bois du Brésil				
+Bois de bresil	bois du Brésil		1	2	257
+bois de bresil	bois du Brésil				
+Bois de Brésil	bois du Brésil				
+Bois de brésil	bois du Brésil				
+bois de Brésil	bois du Brésil				
+Bois de Bresil en buches	bois de Brésil en bûches				
+Bois de Bresillet	bois de brésillet				
+Bois de BREZIL	bois du Brésil		1	2	257
+Bois de Brezil	bois du Brésil		1	2	257
+Bois de brezil	bois du Brésil				
+bois de brezil	bois du Brésil				
+Bois de brézil	bois du Brésil		1	1	257
+bois de brézil	bois du Brésil				
+Bois de Brezil rapé	bois du Brésil râpé		1	2	5
+Bois de brezilles	bois de brésillet		1	1	3
+Bois de buis	bois de buis				
 bois de buis	bois de buis				
-Bois de bujs en buches	Bois de bujs en buches				
-Bois de Buy	Bois de Buy				
-bois de buy	bois de buy				
-Bois de Caliatour	Bois de Caliatour		1	3	59
-Bois de caliatour	Bois de caliatour				
-bois de caliatour	bois de caliatour				
-Bois de Caliatour ; en buches	Bois de Caliatour en buches				
-Bois de caliatour ; en buches	Bois de caliatour en buches				
-Bois de Caliatour ; moulu	Bois de Caliatour moulu				
-Bois de caliatour ; moulu	Bois de caliatour moulu				
-Bois de Caliatour Moulu	Bois de Caliatour Moulu		1	3	11
-Bois de Caliatour Rapé	Bois de Caliatour Rapé		1	1	2
-Bois de Caliatour rapé	Bois de Caliatour rapé		1	1	2
-Bois de caliatour rapé	Bois de caliatour rapé				
-Bois de Caliatur	Bois de Caliatur		0	0	0
-Bois de Calliatour	Bois de Calliatour				
-bois de calliatour	bois de calliatour				
-Bois de calliatour Moulu	Bois de calliatour Moulu		1	1	11
-Bois de calliatour moulu	Bois de calliatour moulu				
-Bois de Campeche	Bois de Campeche				
-Bois de campeche	Bois de campeche		1	6	478
-bois de campeche	bois de campeche				
-Bois de Campèche	Bois de Campèche		0	0	0
-Bois de Campêche	Bois de Campêche				
-Bois de campêche	Bois de campêche		1	1	478
-bois de campêche	bois de campêche				
-Bois de Campêche ; en buches	Bois de Campêche en buches				
-Bois de Campêche ; moulu	Bois de Campêche moulu				
-bois de campêche en buche	bois de campêche en buche				
-Bois de Campêche en buches	Bois de Campêche en buches				
-Bois de campêche en buches	Bois de campêche en buches				
-bois de campêche mouu	bois de campêche mouu				
-Bois de campeche rapé	Bois de campeche rapé				
-Bois de Campêche rapé	Bois de Campêche rapé				
-Bois de campêche rapé	Bois de campêche rapé				
-Bois de Campêche râpé	Bois de Campêche râpé		1	3	19
-Bois de campeches	Bois de campeches				
-Bois de Campesche	Bois de Campesche		1	3	478
-Bois de campesche	Bois de campesche		1	13	478
-bois de campesche	bois de campesche				
-Bois de campesche ; en buches	Bois de campesche en buches				
-Bois de campesche ; moulu	Bois de campesche moulu				
-Bois de campesche en buches	Bois de campesche en buches		1	2	10
-Bois de campesche Moulu	Bois de campesche Moulu		1	1	6
-Bois de campesche rapé	Bois de campesche rapé				
-Bois de Campeshe	Bois de Campeshe		1	7	478
-Bois de Campeshe Rape	Bois de Campeshe Rape		1	2	19
-Bois de Campeshe Rapé	Bois de Campeshe Rapé		1	1	19
-Bois de Campeshe râpé	Bois de Campeshe râpé		1	1	19
-Bois de catiatour	Bois de catiatour		1	1	59
-Bois de cayenne	Bois de cayenne				
-bois de cedre	bois de cedre		0	0	0
+Bois de bujs en buches	bois de buis en bûches				
+Bois de Buy	bois de buis				
+bois de buy	bois de buis				
+Bois de Caliatour	bois de Caliatour		1	3	59
+Bois de caliatour	bois de Caliatour				
+bois de caliatour	bois de Caliatour				
+Bois de Caliatour ; en buches	bois de Caliatour en bûches				
+Bois de caliatour ; en buches	bois de Caliatour en bûches				
+Bois de Caliatour ; moulu	bois de Caliatour moulu				
+Bois de caliatour ; moulu	bois de Caliatour moulu				
+Bois de Caliatour Moulu	bois de Caliatour moulu		1	3	11
+Bois de Caliatour Rapé	bois de Caliatour râpé		1	1	2
+Bois de Caliatour rapé	bois de Caliatour râpé		1	1	2
+Bois de caliatour rapé	bois de Caliatour râpé				
+Bois de Caliatur	bois de Caliatour		0	0	0
+Bois de Calliatour	bois de Caliatour				
+bois de calliatour	bois de Caliatour				
+Bois de calliatour Moulu	bois de Caliatour moulu		1	1	11
+Bois de calliatour moulu	bois de Caliatour moulu				
+Bois de Campeche	bois de Campêche				
+Bois de campeche	bois de Campêche		1	6	478
+bois de campeche	bois de Campêche				
+Bois de Campèche	bois de Campêche		0	0	0
+Bois de Campêche	bois de Campêche				
+Bois de campêche	bois de Campêche		1	1	478
+bois de campêche	bois de Campêche				
+Bois de Campêche ; en buches	bois de Campêche en bûches				
+Bois de Campêche ; moulu	bois de Campêche moulu				
+bois de campêche en buche	bois de Campêche en bûches				
+Bois de Campêche en buches	bois de Campêche en bûches				
+Bois de campêche en buches	bois de Campêche en bûches				
+bois de campêche mouu	bois de Campêche moulu				
+Bois de campeche rapé	bois de Campêche râpé				
+Bois de Campêche rapé	bois de Campêche râpé				
+Bois de campêche rapé	bois de Campêche râpé				
+Bois de Campêche râpé	bois de Campêche râpé		1	3	19
+Bois de campeches	bois de Campêche				
+Bois de Campesche	bois de Campêche		1	3	478
+Bois de campesche	bois de Campêche		1	13	478
+bois de campesche	bois de Campêche				
+Bois de campesche ; en buches	bois de Campêche en bûches				
+Bois de campesche ; moulu	bois de Campêche moulu				
+Bois de campesche en buches	bois de Campêche en bûches		1	2	10
+Bois de campesche Moulu	bois de Campêche moulu		1	1	6
+Bois de campesche rapé	bois de Campêche râpé				
+Bois de Campeshe	bois de Campêche		1	7	478
+Bois de Campeshe Rape	bois de Campêche râpé		1	2	19
+Bois de Campeshe Rapé	bois de Campêche râpé		1	1	19
+Bois de Campeshe râpé	bois de Campêche râpé		1	1	19
+Bois de catiatour	bois de Caliatour		1	1	59
+Bois de cayenne	bois de Cayenne				
+bois de cedre	bois de cèdre		0	0	0
 bois de cerf	bois de cerf				
-Bois de charonages	Bois de charonages		1	1	1
-Bois de cHarpente	Bois de cHarpente		1	1	7
-Bois de charpente	Bois de charpente		0	0	0
-Bois de charpenterie	Bois de charpenterie		0	0	0
-Bois de chauffage	Bois de chauffage		0	0	0
-Bois de chêne	Bois de chêne				
-Bois de chêne ; de 30 a 40 pieds	Bois de chêne de 30 à 40 pieds				
-Bois de chêne ; de 40 pieds	Bois de chêne de 40 pieds				
-Bois de Chêne Bordage	Bois de Chêne Bordage		1	1	43
-Bois de chene bouts de 6 pieds	Bois de chene bouts de 6 pieds				
-bois de chêne carrée	bois de chêne carrée		0	0	0
-Bois de chêne courbé pour construction navale	Bois de chêne courbé pour construction navale		0	0	0
-Bois de Chene de Constructions	Bois de Chene de Constructions		1	1	2
-bois de chêne ronde	bois de chêne ronde		0	0	0
+Bois de charonages	bois de charronage		1	1	1
+Bois de cHarpente	bois de charpente		1	1	7
+Bois de charpente	bois de charpente		0	0	0
+Bois de charpenterie	bois de charpenterie		0	0	0
+Bois de chauffage	bois de chauffage		0	0	0
+Bois de chêne	bois de chêne				
+Bois de chêne ; de 30 a 40 pieds	bois de chêne de 30 à 40 pieds				
+Bois de chêne ; de 40 pieds	bois de chêne de 40 pieds				
+Bois de Chêne Bordage	bois de chêne bordage		1	1	43
+Bois de chene bouts de 6 pieds	bois de chêne bouts de 6 pieds				
+bois de chêne carrée	bois de chêne carré		0	0	0
+Bois de chêne courbé pour construction navale	bois de chêne courbé pour construction navale		0	0	0
+Bois de Chene de Constructions	bois de chêne de construction		1	1	2
+bois de chêne ronde	bois de chêne rond		0	0	0
 bois de chène, carré	bois de chène carré		0	0	0
-bois de chène, ronde	bois de chène ronde		0	0	0
-Bois de chesne	Bois de chesne		1	3	95
-Bois de chesne a batir	Bois de chesne à batir		1	1	2
-Bois de chesne de 5 pieds morceaux	Bois de chesne de 5 pieds morceaux				
-Bois de chesne des carisage	Bois de chesne des carisage		1	1	1
-bois de chesne pour construction	bois de chesne pour construction				
-Bois de clafou	Bois de clafou				
-Bois de cmapesphe en buches	Bois de cmapesphe en buches		1	1	10
-Bois de cmapesphe rapé	Bois de cmapesphe rapé		1	1	19
-Bois de Combary	Bois de Combary				
-Bois de construction	Bois de construction		1	42	209
+bois de chène, ronde	bois de chêne rond		0	0	0
+Bois de chesne	bois de chêne		1	3	95
+Bois de chesne a batir	bois de chêne à bâtir		1	1	2
+Bois de chesne de 5 pieds morceaux	bois de chêne de 5 pieds morceaux				
+Bois de chesne des carisage	bois de chêne d'équarrissage		1	1	1
+bois de chesne pour construction	bois de chêne pour construction				
+Bois de clafou	bois de clafou				
+Bois de cmapesphe en buches	bois de Campêche en bûches		1	1	10
+Bois de cmapesphe rapé	bois de Campêche râpé		1	1	19
+Bois de Combary	bois de courbaril				
+Bois de construction	bois de construction		1	42	209
 bois de construction	bois de construction				
-Bois de construction de 40 pieds	Bois de construction de 40 pieds				
-Bois de construction et autres	Bois de construction et autres		1	15	209
-Bois de Constructions	Bois de Constructions		1	15	209
-Bois de constructions	Bois de constructions		1	12	209
-Bois de corne	Bois de corne		0	0	0
-bois de coudre et panniers dudit bois	bois de coudre et panniers dudit bois		0	0	0
+Bois de construction de 40 pieds	bois de construction de 40 pieds				
+Bois de construction et autres	bois de construction et autre		1	15	209
+Bois de Constructions	bois de construction		1	15	209
+Bois de constructions	bois de construction		1	12	209
+Bois de corne	bois de corne		0	0	0
+bois de coudre et panniers dudit bois	bois de coudre et paniers dudit bois		0	0	0
 bois de courbant	bois de courbant				
-Bois de fanambourg rapé	Bois de fanambourg rapé		1	1	1
-Bois de Fayence	Bois de Fayence		1	2	2
-Bois de Fer	Bois de Fer		1	1	3
-Bois de Fer nambourg	Bois de Fer nambourg		1	2	23
-Bois de Fer nambourg rapé	Bois de Fer nambourg rapé		1	1	23
-Bois de fermanbourg	Bois de fermanbourg				
-Bois de fernambourg	Bois de fernambourg				
-bois de fernambourg	bois de fernambourg				
-Bois de Fernanbourg	Bois de Fernanbourg				
+Bois de fanambourg rapé	bois de Pernambouc rapé		1	1	1
+Bois de Fayence	bois de faïence		1	2	2
+Bois de Fer	bois de fer		1	1	3
+Bois de Fer nambourg	bois de Pernambouc		1	2	23
+Bois de Fer nambourg rapé	bois de Pernambouc râpé		1	1	23
+Bois de fermanbourg	bois de Pernambouc				
+Bois de fernambourg	bois de Pernambouc				
+bois de fernambourg	bois de Pernambouc				
+Bois de Fernanbourg	bois de Pernambouc				
 bois de flèches	bois de flèches		0	0	0
-bois de flèches, arcs etc	bois de flèches arcs etc		0	0	0
-Bois de France	Bois de France		0	0	0
-Bois de frène	Bois de frène		0	0	0
-Bois de Fustel	Bois de Fustel		1	3	116
-Bois de fustel	Bois de fustel		1	3	116
+bois de flèches, arcs etc	bois de flèches arc etc		0	0	0
+Bois de France	bois de France		0	0	0
+Bois de frène	bois de frêne		0	0	0
+Bois de Fustel	bois de fustel		1	3	116
+Bois de fustel	bois de fustel		1	3	116
 bois de fustel	bois de fustel				
-bois de gabaris	bois de gabaris				
-Bois de Gayac	Bois de Gayac				
-Bois de gayac	Bois de gayac		1	2	149
-bois de gayac	bois de gayac				
-bois de gayac rapé	bois de gayac rapé				
-Bois de gayas	Bois de gayas				
-bois de geroffle	bois de geroffle				
-Bois de gerofle	Bois de gerofle		1	1	18
-bois de gerofle	bois de gerofle				
-Bois de hêtre	Bois de hêtre		0	0	0
-Bois de Lit	Bois de Lit		1	1	9
-Bois de Mactemelle	Bois de Mactemelle				
-Bois de marqueterie	Bois de marqueterie		1	13	13
-Bois de Mathe	Bois de Mathe				
-Bois de Moyer	Bois de Moyer		1	1	28
-Bois de Noyer	Bois de Noyer		1	1	28
-Bois de noyer	Bois de noyer				
+bois de gabaris	bois de gabarit				
+Bois de Gayac	bois de gaiac				
+Bois de gayac	bois de gaiac		1	2	149
+bois de gayac	bois de gaiac				
+bois de gayac rapé	bois de gaiac râpé				
+Bois de gayas	bois de gaiac				
+bois de geroffle	bois de girofle				
+Bois de gerofle	bois de girofle		1	1	18
+bois de gerofle	bois de girofle				
+Bois de hêtre	bois de hêtre		0	0	0
+Bois de Lit	bois de lit		1	1	9
+Bois de Mactemelle	bois de machemillier				
+Bois de marqueterie	bois de marqueterie		1	13	13
+Bois de Mathe	bois de mathe				
+Bois de Moyer	bois de noyer		1	1	28
+Bois de Noyer	bois de noyer		1	1	28
+Bois de noyer	bois de noyer				
 bois de noyer	bois de noyer				
-bois de palisante	bois de palisante		0	0	0
-Bois de permanbonne	Bois de permanbonne		1	1	23
-Bois de Permanbouc	Bois de Permanbouc		1	1	23
-Bois de Pernambouc	Bois de Pernambouc				
-Bois de pernambourg	Bois de pernambourg		1	1	23
-Bois de pernanmbouc	Bois de pernanmbouc				
-Bois de pernenbour	Bois de pernenbour		1	1	23
-bois de Provence, sernambue et campeche	bois de Provence sernambue et campeche		0	0	0
-Bois de reglisse	Bois de reglisse				
-bois de reglisse	bois de reglisse				
-bois de reglissy	bois de reglissy				
+bois de palisante	bois de palissandre		0	0	0
+Bois de permanbonne	bois de Pernambouc		1	1	23
+Bois de Permanbouc	bois de Pernambouc		1	1	23
+Bois de Pernambouc	bois de Pernambouc				
+Bois de pernambourg	bois de Pernambouc		1	1	23
+Bois de pernanmbouc	bois de Pernambouc				
+Bois de pernenbour	bois de Pernambouc		1	1	23
+bois de Provence, sernambue et campeche	bois de Provence Pernambouc et Campêche		0	0	0
+Bois de reglisse	bois de réglisse				
+bois de reglisse	bois de réglisse				
+bois de reglissy	bois de réglisse				
 bois de romarin	bois de romarin		0	0	0
-Bois de rose	Bois de rose				
+Bois de rose	bois de rose				
 bois de roseau	bois de roseau				
-bois de rouage et ouvrages de charonerie	bois de rouage et ouvrages de charonerie		0	0	0
-bois de rozeau	bois de rozeau				
-Bois de Saint Martin	Bois de Saint Martin		0	0	0
-Bois de Saint-marthe	Bois de Saint-marthe				
-Bois de Sainte Marthe	Bois de Sainte Marthe				
-Bois de sainte marthe	Bois de sainte marthe				
-Bois de Sainte-Marthe	Bois de Sainte-Marthe		1	1	122
-Bois de salsafras	Bois de salsafras				
-Bois de sandal	Bois de sandal				
-bois de sandal	bois de sandal				
-Bois de sandal ; en buches	Bois de sandal en buches				
-Bois de sandal ; moulu	Bois de sandal moulu				
-Bois de sandal en buches	Bois de sandal en buches				
-Bois de Sandal Moulu	Bois de Sandal Moulu		1	7	24
-Bois de sandal moulu	Bois de sandal moulu				
-bois de sandal moulu	bois de sandal moulu				
-bois de sandal moulû	bois de sandal moulû				
-Bois de sandale	Bois de sandale		1	4	90
-Bois de sandale Moulu	Bois de sandale Moulu		1	1	24
+bois de rouage et ouvrages de charonerie	bois de rouage et ouvrages de charronnerie		0	0	0
+bois de rozeau	bois de roseau				
+Bois de Saint Martin	bois de Saint-Martin		0	0	0
+Bois de Saint-marthe	bois de Sainte-Marthe				
+Bois de Sainte Marthe	bois de Sainte-Marthe				
+Bois de sainte marthe	bois de Sainte-Marthe				
+Bois de Sainte-Marthe	bois de Sainte-Marthe		1	1	122
+Bois de salsafras	bois de sassafras				
+Bois de sandal	bois de santal				
+bois de sandal	bois de santal				
+Bois de sandal ; en buches	bois de santal en bûches				
+Bois de sandal ; moulu	bois de santal moulu				
+Bois de sandal en buches	bois de santal en bûches				
+Bois de Sandal Moulu	bois de santal moulu		1	7	24
+Bois de sandal moulu	bois de santal moulu				
+bois de sandal moulu	bois de santal moulu				
+bois de sandal moulû	bois de santal moulu				
+Bois de sandale	bois de santal		1	4	90
+Bois de sandale Moulu	bois de santal moulu		1	1	24
 bois de santal	bois de santal		0	0	0
-Bois de Sapan	Bois de Sapan				
-Bois de sapan	Bois de sapan				
-Bois de Sapan moulu a teindre	Bois de Sapan moulu à teindre				
-Bois de Sapin	Bois de Sapin		1	8	103
+Bois de Sapan	bois de sappan				
+Bois de sapan	bois de sappan				
+Bois de Sapan moulu a teindre	bois de sappan moulu à teindre				
+Bois de Sapin	bois de sapin		1	8	103
 bois de sapin	bois de sapin		0	0	0
-Bois de sapin ; de 2 a 3 pieds	Bois de sapin de 2 à 3 pieds				
-Bois de sapin ; de 22 pieds de long sur 12 pouces d'épaisseur	Bois de sapin de 22 pieds de long sur 12 pouces d'épaisseur				
-Bois de sapin ; de 6 pieds	Bois de sapin de 6 pieds				
-Bois de sapin de 20 a 30 pieds	Bois de sapin de 20 à 30 pieds				
-Bois de sapin de 40 pieds	Bois de sapin de 40 pieds				
-Bois de Sapin peinte	Bois de Sapin peinte		1	1	1
+Bois de sapin ; de 2 a 3 pieds	bois de sapin de 2 à 3 pieds				
+Bois de sapin ; de 22 pieds de long sur 12 pouces d'épaisseur	bois de sapin de 22 pieds de long sur 12 pouces d'épaisseur				
+Bois de sapin ; de 6 pieds	bois de sapin de 6 pieds				
+Bois de sapin de 20 a 30 pieds	bois de sapin de 20 à 30 pieds				
+Bois de sapin de 40 pieds	bois de sapin de 40 pieds				
+Bois de Sapin peinte	bois de sapin peint		1	1	1
 bois de sapin pour charpente	bois de sapin pour charpente		0	0	0
-Bois de saxafra	Bois de saxafra				
-bois de saxafra	bois de saxafra				
-Bois de Saxafras	Bois de Saxafras		1	2	149
+Bois de saxafra	bois de sassafras				
+bois de saxafra	bois de sassafras				
+Bois de Saxafras	bois de sassafras		1	2	149
 bois de selles	bois de selles		0	0	0
-Bois de siramobasse	Bois de siramobasse		1	1	2
-Bois de Siramonbas	Bois de Siramonbas		1	1	2
-Bois de siramonbas	Bois de siramonbas		1	1	20
-Bois de siranombas	Bois de siranombas				
-Bois de St Marthe	Bois de St Marthe		1	1	122
-Bois de St Martin	Bois de St Martin		0	0	0
-Bois de Ste marthe	Bois de Ste marthe				
-bois de Ste Marthe	bois de Ste Marthe				
-bois de Ste marthe	bois de Ste marthe				
-bois de ste marthe	bois de ste marthe				
-Bois de teindre	Bois de teindre		1	1	61
-Bois de Teinture	Bois de Teinture		1	4	61
-Bois de teinture	Bois de teinture		1	50	61
-Bois de Termanbour	Bois de Termanbour		1	1	23
-Bois de Tilleul	Bois de Tilleul		0	0	0
-bois de toutes sortes	bois de toutes sortes		0	0	0
-bois de toutes sortes declarés par valeur	bois de toutes sortes declarés par valeur		0	0	0
-Bois de violette	Bois de violette				
-Bois des iles	Bois des iles		0	0	0
-Bois des îles	Bois des îles		1	187	362
-Bois des Iles et des Indes	Bois des Iles et des Indes		1	22	362
-Bois des iles et des Indes	Bois des iles et des Indes		1	37	362
-Bois des îles et des Indes	Bois des îles et des Indes		1	81	362
-Bois des îles et des indes	Bois des îles et des indes		1	6	362
-Bois des îles et des Indes de teinture	Bois des îles et des Indes de teinture		1	14	14
-Bois des îles et des Indes, d'ébénisterie	Bois des îles et des Indes d'ébénisterie		1	32	42
-Bois des îles et des Indes, pr ébénisterie et marquet.	Bois des îles et des Indes pr ébénisterie et marquet.		1	10	42
-Bois des Indes rapé	Bois des Indes rapé				
-Bois des Isles	Bois des Isles				
-Bois des lies et des Indes	Bois des lies et des Indes		1	13	362
-Bois dinde Rapé	Bois dinde Rapé		1	1	2
-bois dit 'ricter'	bois dit 'ricter'		0	0	0
+Bois de siramobasse	bois de siramonbas		1	1	2
+Bois de Siramonbas	bois de siramonbas		1	1	2
+Bois de siramonbas	bois de siramonbas		1	1	20
+Bois de siranombas	bois de siramonbas				
+Bois de St Marthe	bois de Sainte-Marthe		1	1	122
+Bois de St Martin	bois de Saint-Martin		0	0	0
+Bois de Ste marthe	bois de Sainte-Marthe				
+bois de Ste Marthe	bois de Sainte-Marthe				
+bois de Ste marthe	bois de Sainte-Marthe				
+bois de ste marthe	bois de Sainte-Marthe				
+Bois de teindre	bois de teindre		1	1	61
+Bois de Teinture	bois de teinture		1	4	61
+Bois de teinture	bois de teinture		1	50	61
+Bois de Termanbour	bois de Pernambouc		1	1	23
+Bois de Tilleul	bois de tilleul		0	0	0
+bois de toutes sortes	bois de toute sorte		0	0	0
+bois de toutes sortes declarés par valeur	bois de toute sorte déclaré par valeur		0	0	0
+Bois de violette	bois de violette				
+Bois des iles	bois des Îles et des Indes		0	0	0
+Bois des îles	bois des Îles et des Indes		1	187	362
+Bois des Iles et des Indes	bois des Îles et des Indes		1	22	362
+Bois des iles et des Indes	bois des Îles et des Indes		1	37	362
+Bois des îles et des Indes	bois des Îles et des Indes		1	81	362
+Bois des îles et des indes	bois des Îles et des Indes		1	6	362
+Bois des îles et des Indes de teinture	bois des Îles et des Indes de teinture		1	14	14
+Bois des îles et des Indes, d'ébénisterie	bois des îles et des Indes d'ébénisterie		1	32	42
+Bois des îles et des Indes, pr ébénisterie et marquet.	bois des îles et des Indes pour ébénisterie et marqueterie		1	10	42
+Bois des Indes rapé	bois des Indes râpé				
+Bois des Isles	bois des Îles				
+Bois des lies et des Indes	bois des Îles et des Indes		1	13	362
+Bois dinde Rapé	bois d'Inde râpé		1	1	2
+bois dit 'ricter'	bois dit ricter		0	0	0
 bois dit ricter	bois dit ricter		0	0	0
-bois dit schaelen ou rebus de bois	bois dit schaelen ou rebus de bois		0	0	0
-bois dit werres	bois dit werres		0	0	0
-Bois divers	Bois divers		1	487	659
-Bois divers de construction	Bois divers de construction		1	64	129
-Bois divers de construction en planches, etc	Bois divers de construction en planches etc		1	12	129
-Bois divers et de construction	Bois divers et de construction		1	35	129
-Bois divers pour construction	Bois divers pour construction		1	18	129
-Bois du BR...SIL	Bois du BR...SIL		1	6	257
-Bois du bresil	Bois du bresil		1	1	257
-Bois du Brésil	Bois du Brésil		0	0	0
-Bois du brésil	Bois du brésil		1	1	257
-Bois du BREZIL	Bois du BREZIL		1	1	257
-bois du Brezil	bois du Brezil				
-Bois du Brezil Rapé	Bois du Brezil Rapé		1	1	5
-Bois en planches	Bois en planches		1	9	9
-Bois Espars	Bois Espars				
-Bois espars	Bois espars				
-Bois espars de 25 a 30 pieds	Bois espars de 25 à 30 pieds				
-bois et jus de reglisse	bois et jus de reglisse		0	0	0
-Bois et Merreins	Bois et Merreins		0	0	0
-bois et ouvrage de charonnerie	bois et ouvrage de charonnerie		0	0	0
-Bois et papier ; d'eventails	Bois et papier d'eventails		1	1	1
-Bois Feuillard	Bois Feuillard		1	1	73
-Bois feuillard	Bois feuillard		1	3	73
-Bois feuillards	Bois feuillards		1	69	73
-Bois Fonds a Castor	Bois Fonds à Castor		1	1	1
-Bois fustel	Bois fustel		1	1	1
+bois dit schaelen ou rebus de bois	bois dit schaelen ou rebuts de bois		0	0	0
+bois dit werres	bois dit weres		0	0	0
+Bois divers	bois divers		1	487	659
+Bois divers de construction	bois divers de construction		1	64	129
+Bois divers de construction en planches, etc	bois divers de construction en planches etc		1	12	129
+Bois divers et de construction	bois divers et de construction		1	35	129
+Bois divers pour construction	bois divers pour construction		1	18	129
+Bois du BR...SIL	bois du Brésil		1	6	257
+Bois du bresil	bois du Brésil		1	1	257
+Bois du Brésil	bois du Brésil		0	0	0
+Bois du brésil	bois du Brésil		1	1	257
+Bois du BREZIL	bois du Brésil		1	1	257
+bois du Brezil	bois du Brésil				
+Bois du Brezil Rapé	bois du Brésil râpé		1	1	5
+Bois en planches	bois en planches		1	9	9
+Bois Espars	bois espars				
+Bois espars	bois espars				
+Bois espars de 25 a 30 pieds	bois espars de 25 à 30 pieds				
+bois et jus de reglisse	bois et jus de réglisse		0	0	0
+Bois et Merreins	bois et merrains		0	0	0
+bois et ouvrage de charonnerie	bois et ouvrages de charronnerie		0	0	0
+Bois et papier ; d'eventails	bois et papier d'éventails		1	1	1
+Bois Feuillard	bois feuillards		1	1	73
+Bois feuillard	bois feuillards		1	3	73
+Bois feuillards	bois feuillards		1	69	73
+Bois Fonds a Castor	bois fond à castor		1	1	1
+Bois fustel	bois fustel		1	1	1
 bois fustel	bois fustel				
-bois fustet	bois fustet				
-Bois Jaune	Bois Jaune		1	4	125
-Bois jaune	Bois jaune				
+bois fustet	bois fustel				
+Bois Jaune	bois jaune		1	4	125
+Bois jaune	bois jaune				
 bois jaune	bois jaune				
-Bois jaune rapé	Bois jaune rapé				
-Bois lourd	Bois lourd		0	0	0
-Bois Marbre	Bois Marbre		1	3	11
-Bois Marbré	Bois Marbré		1	1	11
-Bois marbré	Bois marbré				
-Bois merain a bariques	Bois merain à bariques				
-Bois merain a pipes	Bois merain à pipes				
-Bois merain fonçailles	Bois merain fonçailles				
-Bois Merrain	Bois Merrain		1	16	444
-Bois merrain	Bois merrain		1	27	444
-Bois merrain ; a barils douelles	Bois merrain à barils douelles				
-Bois merrain ; a bariques douelles	Bois merrain à bariques douelles				
-Bois merrain ; a fonds	Bois merrain à fonds				
-Bois merrain ; a fonds douelles	Bois merrain à fonds douelles				
-Bois merrain ; a pipes douelles	Bois merrain à pipes douelles				
-Bois merrain ; à pipes douelles	Bois merrain à pipes douelles				
-Bois merrain ; a quarts douelles	Bois merrain à quarts douelles				
-Bois merrain ; divers	Bois merrain divers				
-Bois merrain a bariques	Bois merrain à bariques				
-Bois merrain a bariques ; douelles	Bois merrain à bariques douelles				
-Bois merrain a bariques douelles	Bois merrain à bariques douelles				
-Bois merrain a pipes	Bois merrain à pipes				
-Bois merrain a pipes ; douelles	Bois merrain à pipes douelles				
-Bois merrain a pipes douelles	Bois merrain à pipes douelles				
-Bois merrains	Bois merrains		1	77	444
-Bois ouvré	Bois ouvré				
-Bois ouvré commodes	Bois ouvré commodes				
-Bois ouvré tables	Bois ouvré tables				
-Bois ouvrés	Bois ouvrés		1	58	58
-Bois ouvrés divers, en perches, échalas, échasses	Bois ouvrés divers en perches échalas échasses		1	9	9
-Bois ouvrés, divers	Bois ouvrés divers		1	18	18
-bois par arbalettes	bois par arbalettes		0	0	0
-Bois perches, échalas, éclisses	Bois perches échalas éclisses		1	7	7
-Bois peribles	Bois peribles				
+Bois jaune rapé	bois jaune râpé				
+Bois lourd	bois lourd		0	0	0
+Bois Marbre	bois marbre		1	3	11
+Bois Marbré	bois marbré		1	1	11
+Bois marbré	bois marbré				
+Bois merain a bariques	bois merrains à barriques				
+Bois merain a pipes	bois merrains à pipes				
+Bois merain fonçailles	bois merrains fonçailles				
+Bois Merrain	bois merrains		1	16	444
+Bois merrain	bois merrains		1	27	444
+Bois merrain ; a barils douelles	bois merrains à barils douelles				
+Bois merrain ; a bariques douelles	bois merrains à barriques douelles				
+Bois merrain ; a fonds	bois merrains à fond				
+Bois merrain ; a fonds douelles	bois merrains à fond douelles				
+Bois merrain ; a pipes douelles	bois merrains à pipes douelles				
+Bois merrain ; à pipes douelles	bois merrains à pipes douelles				
+Bois merrain ; a quarts douelles	bois merrains à quart douelles				
+Bois merrain ; divers	bois merrains divers				
+Bois merrain a bariques	bois merrains à barriques				
+Bois merrain a bariques ; douelles	bois merrains à barriques douelles				
+Bois merrain a bariques douelles	bois merrains à barriques douelles				
+Bois merrain a pipes	bois merrains à pipes				
+Bois merrain a pipes ; douelles	bois merrains à pipes douelles				
+Bois merrain a pipes douelles	bois merrains à pipes douelles				
+Bois merrains	bois merrains		1	77	444
+Bois ouvré	bois ouvré	ARRET			
+Bois ouvré commodes	bois ouvré commodes				
+Bois ouvré tables	bois ouvré tables				
+Bois ouvrés	bois ouvrés		1	58	58
+Bois ouvrés divers, en perches, échalas, échasses	bois ouvrés divers en perches échalas échasses		1	9	9
+Bois ouvrés, divers	bois ouvrés divers		1	18	18
+bois par arbalettes	bois pour arbalètes		0	0	0
+Bois perches, échalas, éclisses	bois perches échalas éclisses		1	7	7
+Bois peribles	bois peribles				
 bois perrible	bois perrible				
 bois portatif dit Neyster	bois portatif dit Neyster		0	0	0
-Bois pour arc	Bois pour arc		0	0	0
-Bois pour Bordage	Bois pour Bordage		1	1	1
+Bois pour arc	bois pour arc		0	0	0
+Bois pour Bordage	bois pour bordage		1	1	1
 bois pour chaisses	bois pour chaisses		0	0	0
-Bois pour fonds de tonneaux	Bois pour fonds de tonneaux		0	0	0
-Bois pour fûts	Bois pour fûts		0	0	0
+Bois pour fonds de tonneaux	bois pour fonds de tonneaux		0	0	0
+Bois pour fûts	bois pour fûts		0	0	0
 bois pour instrumens de musique	bois pour instrumens de musique		0	0	0
 bois pour lattes	bois pour lattes		0	0	0
 bois pour palisades	bois pour palisades		0	0	0
-Bois pour pipes	Bois pour pipes		0	0	0
-Bois pour pompes	Bois pour pompes		0	0	0
-Bois pour quilles	Bois pour quilles		0	0	0
-Bois pour Teinture	Bois pour Teinture		1	1	1
+Bois pour pipes	bois pour pipes		0	0	0
+Bois pour pompes	bois pour pompes		0	0	0
+Bois pour quilles	bois pour quilles		0	0	0
+Bois pour Teinture	bois pour Teinture		1	1	1
 bois préparé pour fusils	bois préparé pour fusils		0	0	0
 bois préparé pour ouvrages	bois préparé pour ouvrages		0	0	0
 bois préparée pour charpente et autres ouvrages	bois préparée pour charpente et autres ouvrages		0	0	0
 bois préparée pour palissades	bois préparée pour palissades		0	0	0
 bois préparée pour palissades et terrasse	bois préparée pour palissades et terrasse		0	0	0
-Bois rouge	Bois rouge		1	2	69
-Bois rouge rapé	Bois rouge rapé				
-Bois sandale	Bois sandale		1	1	90
-Bois sandale Moulu	Bois sandale Moulu		1	1	24
+Bois rouge	bois rouge		1	2	69
+Bois rouge rapé	bois rouge rapé				
+Bois sandale	bois sandale		1	1	90
+Bois sandale Moulu	bois sandale Moulu		1	1	24
 bois scié	bois scié		0	0	0
 bois scié de toutes sortes declarés par valeur	bois scié de toutes sortes declarés par valeur		0	0	0
 bois scié en gites	bois scié en gites		0	0	0
 bois scié en pieds de gittes	bois scié en pieds de gittes		0	0	0
 bois scié en planches	bois scié en planches		0	0	0
 bois scié en verres	bois scié en verres		0	0	0
-Bois sciés en planches	Bois sciés en planches		1	61	61
-Bois tes peintes	Bois tes peintes		1	2	2
-Bois tord	Bois tord		1	3	7
-Bois travaille	Bois travaille				
-Bois travaillé	Bois travaillé				
+Bois sciés en planches	bois sciés en planches		1	61	61
+Bois tes peintes	bois tes peintes		1	2	2
+Bois tord	bois tord		1	3	7
+Bois travaille	bois travaille				
+Bois travaillé	bois travaillé				
 bois travaillé	bois travaillé				
 bois tropique	bois tropique		0	0	0
-Bois vers	Bois vers				
-Bois Violet	Bois Violet		1	4	24
-Bois violet	Bois violet		1	1	24
-Bois; à bâtir	Bois à bâtir		1	2	58
-Bois; à bats	Bois à bats		1	1	1
-Bois; à bruler	Bois à bruler		1	10	321
-Bois; à faire boëtes	Bois à faire boëtes		1	1	4
-Bois; à faire sommiers	Bois à faire sommiers		1	1	5
-Bois; à gaisne	Bois à gaisne		1	1	1
-Bois; à tamis	Bois à tamis		1	1	11
-Bois; à teindre	Bois à teindre		1	6	234
-Bois; bordages de chesne	Bois bordages de chesne		1	5	43
-Bois; bourdilles	Bois bourdilles		1	4	37
-Bois; d'acajou	Bois d'acajou		1	2	148
-Bois; d'aloës	Bois d'aloës		1	1	7
-Bois; d'angeole	Bois d'angeole		1	1	3
-Bois; d'ebenne	Bois d'ebenne		1	3	76
-Bois; d'inde	Bois d'inde		1	5	80
-Bois; d'olivier	Bois d'olivier		1	2	10
-Bois; de brésil	Bois de brésil		1	1	1
-Bois; de brezil	Bois de brezil		1	13	257
-Bois; de buis	Bois de buis		1	6	101
-Bois; de caliatour	Bois de caliatour		1	2	59
-Bois; de campesche	Bois de campesche		1	11	478
-Bois; de chataignier	Bois de chataignier		1	1	1
-Bois; de chesne	Bois de chesne		1	5	95
-Bois; de chevrons	Bois de chevrons		1	1	1
-Bois; de construction	Bois de construction		1	2	209
-Bois; de couleur	Bois de couleur		1	1	23
-Bois; de fernambourg	Bois de fernambourg		1	5	23
-Bois; de gayac	Bois de gayac		1	4	149
-Bois; de geroffle	Bois de geroffle		1	1	18
-Bois; de grenade	Bois de grenade		1	1	6
-Bois; de jaraconda	Bois de jaraconda		1	1	1
-Bois; de lin	Bois de lin		1	1	3
-Bois; de machenette	Bois de machenette		1	1	1
-Bois; de marquetrie	Bois de marquetrie		1	1	61
-Bois; de marquetterie	Bois de marquetterie		1	2	61
-Bois; de menuiserie	Bois de menuiserie		1	2	12
-Bois; de noyer	Bois de noyer		1	1	28
-Bois; de palissandre	Bois de palissandre		1	1	40
-Bois; de raquette	Bois de raquette		1	1	1
-Bois; de Rhodes	Bois de Rhodes		1	1	5
-Bois; de roüage	Bois de roüage		1	2	12
-Bois; de roze	Bois de roze		1	2	44
-Bois; de sandal	Bois de sandal		1	4	90
-Bois; de sapan	Bois de sapan		1	1	103
-Bois; de sapin	Bois de sapin		1	1	103
-Bois; de siramombas	Bois de siramombas		1	2	20
-Bois; de Ste Marthe	Bois de Ste Marthe		1	2	122
-Bois; de teinture	Bois de teinture		1	1	61
-Bois; du japon	Bois du japon		1	1	19
-Bois; espars	Bois espars		1	5	56
-Bois; fagots	Bois fagots		1	1	23
-Bois; fustet	Bois fustet		1	6	116
-Bois; jaune	Bois jaune		1	4	125
-Bois; marbré	Bois marbré				
-Bois; merrain; à bariques	Bois merrain à bariques		1	9	194
-Bois; merrain; à bottes	Bois merrain à bottes		1	1	7
-Bois; merrain; à busses	Bois merrain à busses		1	1	2
-Bois; merrain; à fondo	Bois merrain à fondo		1	4	29
-Bois; merrain; à pipes	Bois merrain à pipes		1	4	171
-Bois; merrain; à tierçons	Bois merrain à tierçons		1	1	6
-Bois; merrain; à tonneaux	Bois merrain à tonneaux		1	9	86
-Bois; merrain; de sapin	Bois merrain de sapin		1	4	7
-Bois; nefrétique	Bois nefrétique		1	1	5
-Bois; ouvré	Bois ouvré		1	6	138
-Bois; pour cribles	Bois pour cribles		1	1	20
-Bois; rouge	Bois rouge		1	3	69
-Bois; scié	Bois scié		1	4	47
-Bois; vernis	Bois vernis		1	1	7
-Bois; violet	Bois violet		1	1	24
-Boisson gazeuse à la salsepareille	Boisson gazeuse à la salsepareille		0	0	0
-Boissons	Boissons		1	1	1
-Boissons ; bierre et cidre	Boissons bierre et cidre		1	15	15
-Boissons ; eaux-de-vie	Boissons eaux-de-vie		1	20	20
-Boissons ; liqueurs	Boissons liqueurs		1	17	17
-Boissons ; vinaigre	Boissons vinaigre		1	17	17
-Boissons ; vins de Bordeaux	Boissons vins de Bordeaux		1	12	12
-Boissons ; vins de liqueurs	Boissons vins de liqueurs		1	9	9
-Boissons ; vins divers ordinaires	Boissons vins divers ordinaires		1	20	20
-Boistes ; de bois ; violet	Boistes de bois violet		1	1	1
-Boistes ; de carton	Boistes de carton		1	1	2
-Boistes de fer blanc	Boistes de fer blanc				
+Bois vers	bois vers				
+Bois Violet	bois Violet		1	4	24
+Bois violet	bois violet		1	1	24
+Bois; à bâtir	bois à bâtir		1	2	58
+Bois; à bats	bois à bats		1	1	1
+Bois; à bruler	bois à bruler		1	10	321
+Bois; à faire boëtes	bois à faire boëtes		1	1	4
+Bois; à faire sommiers	bois à faire sommiers		1	1	5
+Bois; à gaisne	bois à gaisne		1	1	1
+Bois; à tamis	bois à tamis		1	1	11
+Bois; à teindre	bois à teindre		1	6	234
+Bois; bordages de chesne	bois bordages de chesne		1	5	43
+Bois; bourdilles	bois bourdilles		1	4	37
+Bois; d'acajou	bois d'acajou		1	2	148
+Bois; d'aloës	bois d'aloës		1	1	7
+Bois; d'angeole	bois d'angeole		1	1	3
+Bois; d'ebenne	bois d'ebenne		1	3	76
+Bois; d'inde	bois d'inde		1	5	80
+Bois; d'olivier	bois d'olivier		1	2	10
+Bois; de brésil	bois de brésil		1	1	1
+Bois; de brezil	bois de brezil		1	13	257
+Bois; de buis	bois de buis		1	6	101
+Bois; de caliatour	bois de caliatour		1	2	59
+Bois; de campesche	bois de campesche		1	11	478
+Bois; de chataignier	bois de chataignier		1	1	1
+Bois; de chesne	bois de chesne		1	5	95
+Bois; de chevrons	bois de chevrons		1	1	1
+Bois; de construction	bois de construction		1	2	209
+Bois; de couleur	bois de couleur		1	1	23
+Bois; de fernambourg	bois de fernambourg		1	5	23
+Bois; de gayac	bois de gayac		1	4	149
+Bois; de geroffle	bois de geroffle		1	1	18
+Bois; de grenade	bois de grenade		1	1	6
+Bois; de jaraconda	bois de jaraconda		1	1	1
+Bois; de lin	bois de lin		1	1	3
+Bois; de machenette	bois de machenette		1	1	1
+Bois; de marquetrie	bois de marquetrie		1	1	61
+Bois; de marquetterie	bois de marquetterie		1	2	61
+Bois; de menuiserie	bois de menuiserie		1	2	12
+Bois; de noyer	bois de noyer		1	1	28
+Bois; de palissandre	bois de palissandre		1	1	40
+Bois; de raquette	bois de raquette		1	1	1
+Bois; de Rhodes	bois de Rhodes		1	1	5
+Bois; de roüage	bois de roüage		1	2	12
+Bois; de roze	bois de roze		1	2	44
+Bois; de sandal	bois de sandal		1	4	90
+Bois; de sapan	bois de sapan		1	1	103
+Bois; de sapin	bois de sapin		1	1	103
+Bois; de siramombas	bois de siramombas		1	2	20
+Bois; de Ste Marthe	bois de Ste Marthe		1	2	122
+Bois; de teinture	bois de teinture		1	1	61
+Bois; du japon	bois du japon		1	1	19
+Bois; espars	bois espars		1	5	56
+Bois; fagots	bois fagots		1	1	23
+Bois; fustet	bois fustet		1	6	116
+Bois; jaune	bois jaune		1	4	125
+Bois; marbré	bois marbré				
+Bois; merrain; à bariques	bois merrain à bariques		1	9	194
+Bois; merrain; à bottes	bois merrain à bottes		1	1	7
+Bois; merrain; à busses	bois merrain à busses		1	1	2
+Bois; merrain; à fondo	bois merrain à fondo		1	4	29
+Bois; merrain; à pipes	bois merrain à pipes		1	4	171
+Bois; merrain; à tierçons	bois merrain à tierçons		1	1	6
+Bois; merrain; à tonneaux	bois merrain à tonneaux		1	9	86
+Bois; merrain; de sapin	bois merrain de sapin		1	4	7
+Bois; nefrétique	bois nefrétique		1	1	5
+Bois; ouvré	bois ouvré		1	6	138
+Bois; pour cribles	bois pour cribles		1	1	20
+Bois; rouge	bois rouge		1	3	69
+Bois; scié	bois scié		1	4	47
+Bois; vernis	bois vernis		1	1	7
+Bois; violet	bois violet		1	1	24
+Boisson gazeuse à la salsepareille	boisson gazeuse à la salsepareille		0	0	0
+Boissons	boissons		1	1	1
+Boissons ; bierre et cidre	boissons bierre et cidre		1	15	15
+Boissons ; eaux-de-vie	boissons eaux-de-vie		1	20	20
+Boissons ; liqueurs	boissons liqueurs		1	17	17
+Boissons ; vinaigre	boissons vinaigre		1	17	17
+Boissons ; vins de Bordeaux	boissons vins de Bordeaux		1	12	12
+Boissons ; vins de liqueurs	boissons vins de liqueurs		1	9	9
+Boissons ; vins divers ordinaires	boissons vins divers ordinaires		1	20	20
+Boistes ; de bois ; violet	boistes de bois violet		1	1	1
+Boistes ; de carton	boistes de carton		1	1	2
+Boistes de fer blanc	boistes de fer blanc				
 Boites ; de fer ; blanc	Boites de fer blanc		1	2	2
 Boites ; de sapin ; blanc	Boites de sapin blanc		1	1	1
 Boites ; sapins	Boites sapins		1	1	1
@@ -8022,7 +8022,7 @@ coquilles de mer	coquilles de mer		0	0	0
 Coquilles de Mocres	Coquilles de Mocres		1	2	2
 Coquilles de nacre	Coquilles de nacre		1	1	27
 Coquilles de nacres	Coquilles de nacres		1	2	27
-coquilles, écaille de tortue et nacre de perle	coquilles écaille de tortue et nacre de perle		0	0	0
+coquilles, écaille de tortue et nacre de perle	coquilles écaille de tortues et nacre de perle		0	0	0
 Corail	Corail				
 corail	corail		1	2	45
 Corail , brut	Corail brut		1	5	79
@@ -10360,8 +10360,8 @@ Dez de fer a coudre	Dez de fer à coudre
 Dez de leton	Dez de leton				
 Diactamy ; en fleurs	Diactamy en fleurs		1	1	4
 dialbequier	dialbequier				
-Diamants fin	Diamants fin		1	1	2
-Diamants fins	Diamants fins		1	1	2
+Diamants fin	diamants fins		1	1	2
+Diamants fins	diamants fins		1	1	2
 Dictam	Dictam		1	1	2
 dictam	dictam				
 Dictamus	Dictamus		1	1	2
@@ -12584,7 +12584,7 @@ eguille a boite	aiguilles à boîte		1	1	3
 Eguilles	aiguilles		1	2	3
 Eguilles à tabac	aiguilles à tabac		1	1	1
 Eguilles d'emballage	aiguilles d'emballage		1	1	1
-eguilles Epars de Sapin	aiguilles épars de sapin		1	1	1
+eguilles Epars de Sapin	aiguilles espars de sapin		1	1	1
 El'xir ; de garus	El'xir de garus		1	1	3
 elbots	elbots		0	0	0
 elbots salés	elbots salés		0	0	0
@@ -12687,37 +12687,37 @@ Eoffe de laine	Eoffe de laine		1	1	308
 Eoffe en or	Eoffe en or		1	1	15
 Epagnolette	Epagnolette		1	1	84
 Epagnolette ; simple	Epagnolette simple		1	1	1
-Epar	épars		1	1	30
-eparde	épars		1	1	30
-Epards	épars		1	1	120
-epards	épars		1	2	120
-Epare	épars		1	1	30
-Eparn	épars		1	1	30
-Epars	épars		1	20	30
-epars	épars		1	1	120
-Epars ; de 28 a 30 piés	épars de 28 à 30 pieds				
-Epars ; de différentes longueurs	épars de différentes longueurs				
-Epars de 14 a 16 pieds	épars de 14 à 16 pieds				
-Epars de 20 a 22 pieds	épars de 20 à 22 pieds				
-Epars de 26 a 28 pieds	épars de 26 à 28 pieds				
-Epars de 26 pieds	épars de 26 pieds				
-Epars de 26 piés	épars de 26 piés				
-Epars de 27 pieds de long	épars de 27 pieds de long				
-Epars de 28 a 36 pieds	épars de 28 à 36 pieds				
-Epars de Sapin	épars de Sapin		1	8	11
-Epars de sapin	épars de sapin				
-Epars de sapin ; de 30 pieds	épars de sapin de 30 pieds				
-Epars de sapin ; de 45 pieds	épars de sapin de 45 pieds				
-Epars de sapin de 15 pieds	épars de sapin de 15 pieds				
-Epars de sapin de 18 pieds	épars de sapin de 18 pieds				
-Epars de sapin de 20 pieds	épars de sapin de 20 pieds				
-Epars de sapin de 25 pieds	épars de sapin de 25 pieds				
-Epars de Sapins	épars de Sapins		1	2	11
-Epars petit	épars petit		1	1	1
-Epars simple	épars simple		1	1	1
-Eparst de sapin	épars de sapin				
-Eparts	épars		1	2	120
-Eparts de sapin	épars de sapin				
+Epar	espars		1	1	30
+eparde	espars		1	1	30
+Epards	espars		1	1	120
+epards	espars		1	2	120
+Epare	espars		1	1	30
+Eparn	espars		1	1	30
+Epars	espars		1	20	30
+epars	espars		1	1	120
+Epars ; de 28 a 30 piés	espars de 28 à 30 pieds				
+Epars ; de différentes longueurs	espars de différentes longueurs				
+Epars de 14 a 16 pieds	espars de 14 à 16 pieds				
+Epars de 20 a 22 pieds	espars de 20 à 22 pieds				
+Epars de 26 a 28 pieds	espars de 26 à 28 pieds				
+Epars de 26 pieds	espars de 26 pieds				
+Epars de 26 piés	espars de 26 piés				
+Epars de 27 pieds de long	espars de 27 pieds de long				
+Epars de 28 a 36 pieds	espars de 28 à 36 pieds				
+Epars de Sapin	espars de Sapin		1	8	11
+Epars de sapin	espars de sapin				
+Epars de sapin ; de 30 pieds	espars de sapin de 30 pieds				
+Epars de sapin ; de 45 pieds	espars de sapin de 45 pieds				
+Epars de sapin de 15 pieds	espars de sapin de 15 pieds				
+Epars de sapin de 18 pieds	espars de sapin de 18 pieds				
+Epars de sapin de 20 pieds	espars de sapin de 20 pieds				
+Epars de sapin de 25 pieds	espars de sapin de 25 pieds				
+Epars de Sapins	espars de Sapins		1	2	11
+Epars petit	espars petit		1	1	1
+Epars simple	espars simple		1	1	1
+Eparst de sapin	espars de sapin				
+Eparts	espars		1	2	120
+Eparts de sapin	espars de sapin				
 epeautre	epeautre		0	0	0
 epeautre en jarbes	epeautre en jarbes		0	0	0
 Epée ; à garde ; cuivre doré	épée à garde cuivre doré		1	1	1
@@ -12851,7 +12851,7 @@ epousterie	epousterie		1	1	45
 épousterie	épousterie		1	1	45
 Epousteries	Epousteries		1	5	45
 Epouterie	Epouterie		1	1	45
-Eppars	épars		1	1	120
+Eppars	espars		1	1	120
 Eprouvette de Cuivre	Eprouvette de Cuivre		1	1	1
 Equeurs	Equeurs		1	1	1
 Equine	Equine		1	1	1
@@ -12909,64 +12909,64 @@ Espagnolette ; simple	Espagnolette simple		1	16	16
 Espagnolettes	Espagnolettes		1	7	84
 espagnolettes	espagnolettes		0	0	0
 Espagnolettes ; croisées	Espagnolettes croisées		1	1	17
-Espard	épars		1	2	120
+Espard	espar		1	2	120
 Espardilles	Espardilles		1	4	4
-Espares	épars		1	1	120
-Espars	épars				
-espars	épars				
-Espars ; de 10 pieds	épars de 10 pieds				
-Espars ; de 12 a 15	épars de 12 à 15				
-Espars ; de 15 a 20 pieds	épars de 15 à 20 pieds				
-Espars ; de 18 a 20 pieds	épars de 18 à 20 pieds				
-Espars ; de 18 a 36 pieds	épars de 18 à 36 pieds				
-Espars ; de 18 pieds	épars de 18 pieds				
-Espars ; de 20 a 25 pieds	épars de 20 à 25 pieds				
-Espars ; de 20 a 26 pieds	épars de 20 à 26 pieds				
-Espars ; de 20 a 30 pieds	épars de 20 à 30 pieds		1	1	1
-Espars ; de 20 pieds	épars de 20 pieds				
-Espars ; de 24 a 36 pieds	épars de 24 à 36 pieds				
-Espars ; de 25 a 30 pieds	épars de 25 à 30 pieds				
-Espars ; de 30 a 40 pieds	épars de 30 à 40 pieds		1	1	1
-Espars ; de 30 pieds	épars de 30 pieds		1	1	1
-Espars ; de 35 a 46	épars de 35 à 46				
-Espars ; de 40 a 50 pieds	épars de 40 à 50 pieds				
-Espars ; de 40 pieds	épars de 40 pieds				
-Espars ; de 55 pieds	épars de 55 pieds				
-Espars ; de différentes longueurs	épars de différentes longueurs		1	1	1
-Espars ; de sapin	épars de sapin		1	1	1
-Espars ; divers	épars divers				
-Espars 6 à 8 pouces	épars 6 à 8 pouces		0	0	0
-Espars de 10 a 15 pieds	épars de 10 à 15 pieds				
-Espars de 18 pieds	épars de 18 pieds				
-Espars de 20 a 25 pieds	épars de 20 à 25 pieds				
-Espars de 20 pieds	épars de 20 pieds				
-Espars de 25 a 26 pieds	épars de 25 à 26 pieds				
-Espars de 28 pieds	épars de 28 pieds				
-Espars de 30 pieds	épars de 30 pieds				
-Espars de 35 pieds	épars de 35 pieds				
-Espars de 40 a 45 piés	épars de 40 à 45 piés				
-Espars de 45 pieds	épars de 45 pieds				
-Espars de sapin	épars de sapin				
-Espars douBle	épars douBle		1	1	5
-Espars double	épars double		1	1	5
-Espars doubles	épars doubles		1	1	5
-Espars ordinaires	épars ordinaires		0	0	0
-Espars petits	épars petits				
-Espars Simples	épars Simples		1	1	2
-Espars simples	épars simples		1	1	2
-Esparst de nitriol	épars de nitriol		1	1	1
-Esparsts	épars		1	1	120
-Espart	épars		1	2	120
-Espart ; marmoyées ; en argent	épars marmoyées en argent		1	1	1
-Espart doubles	épars doubles		1	1	5
-Esparts	épars				
-Esparts ; de 14 pieds	épars de 14 pieds				
-Esparts ; de 15 a 20 pieds	épars de 15 à 20 pieds				
-Esparts ; de 18 a 20 pieds	épars de 18 à 20 pieds				
-Esparts ; de 30 pieds	épars de 30 pieds				
-Esparts ; de 8 a 9 pieds	épars de 8 à 9 pieds				
-Esparts ; de différentes longueurs	épars de différentes longueurs				
-Esparts Doubler	épars doubles		1	1	5
+Espares	espars		1	1	120
+Espars	espars				
+espars	espars				
+Espars ; de 10 pieds	espars de 10 pieds				
+Espars ; de 12 a 15	espars de 12 à 15				
+Espars ; de 15 a 20 pieds	espars de 15 à 20 pieds				
+Espars ; de 18 a 20 pieds	espars de 18 à 20 pieds				
+Espars ; de 18 a 36 pieds	espars de 18 à 36 pieds				
+Espars ; de 18 pieds	espars de 18 pieds				
+Espars ; de 20 a 25 pieds	espars de 20 à 25 pieds				
+Espars ; de 20 a 26 pieds	espars de 20 à 26 pieds				
+Espars ; de 20 a 30 pieds	espars de 20 à 30 pieds		1	1	1
+Espars ; de 20 pieds	espars de 20 pieds				
+Espars ; de 24 a 36 pieds	espars de 24 à 36 pieds				
+Espars ; de 25 a 30 pieds	espars de 25 à 30 pieds				
+Espars ; de 30 a 40 pieds	espars de 30 à 40 pieds		1	1	1
+Espars ; de 30 pieds	espars de 30 pieds		1	1	1
+Espars ; de 35 a 46	espars de 35 à 46				
+Espars ; de 40 a 50 pieds	espars de 40 à 50 pieds				
+Espars ; de 40 pieds	espars de 40 pieds				
+Espars ; de 55 pieds	espars de 55 pieds				
+Espars ; de différentes longueurs	espars de différentes longueurs		1	1	1
+Espars ; de sapin	espars de sapin		1	1	1
+Espars ; divers	espars divers				
+Espars 6 à 8 pouces	espars 6 à 8 pouces		0	0	0
+Espars de 10 a 15 pieds	espars de 10 à 15 pieds				
+Espars de 18 pieds	espars de 18 pieds				
+Espars de 20 a 25 pieds	espars de 20 à 25 pieds				
+Espars de 20 pieds	espars de 20 pieds				
+Espars de 25 a 26 pieds	espars de 25 à 26 pieds				
+Espars de 28 pieds	espars de 28 pieds				
+Espars de 30 pieds	espars de 30 pieds				
+Espars de 35 pieds	espars de 35 pieds				
+Espars de 40 a 45 piés	espars de 40 à 45 piés				
+Espars de 45 pieds	espars de 45 pieds				
+Espars de sapin	espars de sapin				
+Espars douBle	espars douBle		1	1	5
+Espars double	espars double		1	1	5
+Espars doubles	espars doubles		1	1	5
+Espars ordinaires	espars ordinaires		0	0	0
+Espars petits	espars petits				
+Espars Simples	espars Simples		1	1	2
+Espars simples	espars simples		1	1	2
+Esparst de nitriol	espars de nitriol		1	1	1
+Esparsts	espars		1	1	120
+Espart	espars		1	2	120
+Espart ; marmoyées ; en argent	espars marmoyées en argent		1	1	1
+Espart doubles	espars doubles		1	1	5
+Esparts	espars				
+Esparts ; de 14 pieds	espars de 14 pieds				
+Esparts ; de 15 a 20 pieds	espars de 15 à 20 pieds				
+Esparts ; de 18 a 20 pieds	espars de 18 à 20 pieds				
+Esparts ; de 30 pieds	espars de 30 pieds				
+Esparts ; de 8 a 9 pieds	espars de 8 à 9 pieds				
+Esparts ; de différentes longueurs	espars de différentes longueurs				
+Esparts Doubler	espars doubles		1	1	5
 Espayolles	Espayolles		1	3	81
 Espice de curons	Espice de curons		1	2	2
 Espicerie	Espicerie		1	1	372
@@ -21764,69 +21764,69 @@ Merluche	Merluche		1	20	28
 merluche	merluche				
 Merluches	Merluches		1	5	28
 merluches	merluches		0	0	0
-Merrain	Merrain		1	1	19
-Merrain ; a barils	Merrain à barils		1	1	16
-Merrain ; a bariques	Merrain à bariques		1	5	194
-Merrain ; à bariques	Merrain à bariques		1	1	194
-Merrain ; a barrils	Merrain à barrils		1	4	16
-Merrain ; a barriques	Merrain à barriques		1	23	23
-Merrain ; a bottes	Merrain à bottes		1	1	7
-Merrain ; a foncaille	Merrain à foncaille		1	1	4
-Merrain ; a fonçailles	Merrain à fonçailles		1	3	4
-Merrain ; a futailles	Merrain à futailles		1	2	2
-Merrain ; a pipes	Merrain à pipes		1	15	171
-Merrain ; a tierçons	Merrain à tierçons		1	5	5
-Merrain ; en foncailles	Merrain en foncailles		1	2	2
-Merrain ; foncaille	Merrain foncaille		1	8	14
-Merrain ; fonçaille	Merrain fonçaille		1	1	14
-merrain ; fonçaille	merrain fonçaille		1	1	14
-Merrain ; foncailles	Merrain foncailles		1	1	14
-Merrain ; fonsaille	Merrain fonsaille		1	1	14
-Merrain ; futaille	Merrain futaille		1	2	2
-Merrain a barils	Merrain à barils		1	4	16
-Merrain a Barique	Merrain à Barique		1	3	194
-Merrain a Bariques	Merrain à Bariques		1	5	194
-Merrain a bariques Douelle	Merrain à bariques Douelle				
-Merrain a bariques douelles	Merrain à bariques douelles				
-merrain a bariques doüelles	merrain à bariques doüelles				
-Merrain a Barrique	Merrain à Barrique		1	3	194
-Merrain a barrique	Merrain à barrique		1	3	194
-Merrain a barriques	Merrain à barriques		1	17	194
-merrain a barriques	merrain à barriques		1	1	194
-Merrain à Barriques	Merrain à Barriques		1	7	194
-Merrain à barriques	Merrain à barriques		1	1	194
-Merrain a Bœuf	Merrain à Bœuf		1	2	2
-Merrain a Foncailles	Merrain à Foncailles		1	1	22
-Merrain a pipe	Merrain à pipe		1	14	171
-merrain a Pipe	merrain à Pipe		1	1	171
-Merrain à Pipe	Merrain à Pipe		1	9	171
-Merrain a pipes	Merrain à pipes		1	5	171
-merrain a pipes	merrain à pipes		1	1	171
-Merrain à Pipes	Merrain à Pipes		1	3	171
-Merrain à pipes ; douelles	Merrain à pipes douelles		1	1	1
-Merrain a pipes Douelle	Merrain à pipes Douelle				
-Merrain a pipes douelles	Merrain à pipes douelles				
-merrain a pipes douelles	merrain à pipes douelles				
-merrain a pipes doüelles	merrain à pipes doüelles				
-Merrain A Quars	Merrain à Quars		1	1	38
-Merrain a Quart	Merrain à Quart		1	1	38
-Merrain à quart	Merrain à quart		1	1	38
-Merrain a quarts	Merrain à quarts		1	10	38
-merrain a Quarts	merrain à Quarts		1	1	38
-merrain a quarts	merrain à quarts		1	1	38
-merrain a tierson	merrain à tierson		1	1	6
-Merrain Aqua	Merrain Aqua		1	1	1
-Merrain Arabiques	Merrain Arabiques		1	1	1
-Merrain Basique	Merrain Basique		1	2	2
-Merrain de Maille	Merrain de Maille		1	1	1
-Merrain en Barriques	Merrain en Barriques		1	2	3
-Merrain en Pipe	Merrain en Pipe		1	1	171
-Merrain foncaille	Merrain foncaille		1	1	22
-Merrain Foncailles	Merrain Foncailles		1	1	22
-Merrain fonçailles	Merrain fonçailles				
-Merrain fonçailles Douelle	Merrain fonçailles Douelle				
-Merrain fonçailles douelles	Merrain fonçailles douelles				
-Merrain Fouraille	Merrain Fouraille		1	1	22
+Merrain	Merrains		1	1	19
+Merrain ; a barils	Merrains à barils		1	1	16
+Merrain ; a bariques	Merrains à bariques		1	5	194
+Merrain ; à bariques	Merrains à bariques		1	1	194
+Merrain ; a barrils	Merrains à barrils		1	4	16
+Merrain ; a barriques	Merrains à barriques		1	23	23
+Merrain ; a bottes	Merrains à bottes		1	1	7
+Merrain ; a foncaille	Merrains à foncaille		1	1	4
+Merrain ; a fonçailles	Merrains à fonçailles		1	3	4
+Merrain ; a futailles	Merrains à futailles		1	2	2
+Merrain ; a pipes	Merrains à pipes		1	15	171
+Merrain ; a tierçons	Merrains à tierçons		1	5	5
+Merrain ; en foncailles	Merrains en foncailles		1	2	2
+Merrain ; foncaille	Merrains foncaille		1	8	14
+Merrain ; fonçaille	Merrains fonçaille		1	1	14
+merrain ; fonçaille	merrains fonçaille		1	1	14
+Merrain ; foncailles	Merrains foncailles		1	1	14
+Merrain ; fonsaille	Merrains fonsaille		1	1	14
+Merrain ; futaille	Merrains futaille		1	2	2
+Merrain a barils	Merrains à barils		1	4	16
+Merrain a Barique	Merrains à Barique		1	3	194
+Merrain a Bariques	Merrains à Bariques		1	5	194
+Merrain a bariques Douelle	Merrains à bariques Douelle				
+Merrain a bariques douelles	Merrains à bariques douelles				
+merrain a bariques doüelles	merrains à bariques doüelles				
+Merrain a Barrique	Merrains à Barrique		1	3	194
+Merrain a barrique	Merrains à barrique		1	3	194
+Merrain a barriques	Merrains à barriques		1	17	194
+merrain a barriques	merrains à barriques		1	1	194
+Merrain à Barriques	Merrains à Barriques		1	7	194
+Merrain à barriques	Merrains à barriques		1	1	194
+Merrain a Bœuf	Merrains à Bœuf		1	2	2
+Merrain a Foncailles	Merrains à Foncailles		1	1	22
+Merrain a pipe	Merrains à pipe		1	14	171
+merrain a Pipe	merrains à Pipe		1	1	171
+Merrain à Pipe	Merrains à Pipe		1	9	171
+Merrain a pipes	Merrains à pipes		1	5	171
+merrain a pipes	merrains à pipes		1	1	171
+Merrain à Pipes	Merrains à Pipes		1	3	171
+Merrain à pipes ; douelles	Merrains à pipes douelles		1	1	1
+Merrain a pipes Douelle	Merrains à pipes Douelle				
+Merrain a pipes douelles	Merrains à pipes douelles				
+merrain a pipes douelles	merrains à pipes douelles				
+merrain a pipes doüelles	merrains à pipes doüelles				
+Merrain A Quars	Merrains à Quars		1	1	38
+Merrain a Quart	Merrains à Quart		1	1	38
+Merrain à quart	Merrains à quart		1	1	38
+Merrain a quarts	Merrains à quarts		1	10	38
+merrain a Quarts	merrains à Quarts		1	1	38
+merrain a quarts	merrains à quarts		1	1	38
+merrain a tierson	merrains à tierson		1	1	6
+Merrain Aqua	Merrains Aqua		1	1	1
+Merrain Arabiques	Merrains Arabiques		1	1	1
+Merrain Basique	Merrains Basique		1	2	2
+Merrain de Maille	Merrains de Maille		1	1	1
+Merrain en Barriques	Merrains en Barriques		1	2	3
+Merrain en Pipe	Merrains en Pipe		1	1	171
+Merrain foncaille	Merrains foncaille		1	1	22
+Merrain Foncailles	Merrains Foncailles		1	1	22
+Merrain fonçailles	Merrains fonçailles				
+Merrain fonçailles Douelle	Merrains fonçailles Douelle				
+Merrain fonçailles douelles	Merrains fonçailles douelles				
+Merrain Fouraille	Merrains Fouraille		1	1	22
 Merrains ; a bariques	Merrains à bariques		1	3	194
 Merrains ; a barriques	Merrains à barriques		1	5	194
 Merrains ; a bottes	Merrains à bottes		1	1	7
@@ -26704,7 +26704,7 @@ Pipe afumer	Pipe afumer		1	1	366
 Pipe Céréalier de Fer	Pipe Céréalier de Fer		1	1	1
 Pipe de side	Pipe de side		1	1	25
 Pipe en Bottes	Pipe en Bottes		1	1	4
-Pipe muides	Pipe muides		1	3	25
+Pipe muides	Pipe muid		1	3	25
 Pipe Vieilles Vuides	Pipe Vieilles Vuides		1	1	7
 Pipe vieux Vuiddes	Pipe vieux Vuiddes		1	1	7
 Pipe Vuiddes	Pipe Vuiddes		1	4	25
@@ -36433,7 +36433,7 @@ Vins ; de Bordeaux	Vins de Bordeaux		1	12	614
 Vins ; de Bourgogne	Vins de Bourgogne		1	4	350
 Vins ; de Champagne	Vins de Champagne		1	2	339
 Vins ; de Champagne ; en bouteilles	Vins de Champagne en bouteilles		1	2	14
-Vins ; de Champagne ; en muids	Vins de Champagne en muids		1	2	2
+Vins ; de Champagne ; en muids	Vins de Champagne en muid		1	2	2
 Vins ; de Flandres	Vins de Flandres		1	1	1
 Vins ; de France	Vins de France		1	1	2
 Vins ; de France ; Commun	Vins de France Commun		1	1	1
