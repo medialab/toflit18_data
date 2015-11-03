@@ -5150,15 +5150,15 @@ Cafe d'Amerique	café d'Amérique
 Café et cacao	café et cacao		1	10	10
 Café et provisions	café et provisions		0	0	0
 Cafetou Fer	cafetou fer		1	1	1
-caffar blanc	caffar blanc		0	0	0
-caffar de laine	caffar de laine		0	0	0
-caffards, carpettes et ligatures	caffar carpette et ligatures		0	0	0
-caffards, carpettes et ligatures / aune	caffar carpette et ligatures aune		0	0	0
-Caffars	caffa		1	1	5
-Caffas	caffar				
+caffar blanc	caffart blanc		0	0	0
+caffar de laine	caffart de laine		0	0	0
+caffards, carpettes et ligatures	caffart carpette et ligatures		0	0	0
+caffards, carpettes et ligatures / aune	caffart carpette et ligatures aune		0	0	0
+Caffars	caffart		1	1	5
+Caffas	caffart				
 Caffatinea	caffatines		1	1	41
-caffe	caffe		1	5	820
-Caffé	caffé		1	245	820
+caffe	café		1	5	820
+Caffé	café		1	245	820
 caffé	café				
 Caffé ; de Bourbon	café de Bourbon		1	57	85
 Caffé ; de bourbon	café de Bourbon		1	14	85
@@ -5837,7 +5837,7 @@ Carrelets séchés	carrelets séchés		0	0	0
 Carres	carres		1	2	16
 Carret	carret		1	14	16
 carret	carret				
-carrosse	carrosse		0	0	0
+carrosse	carrosses		0	0	0
 Carrosses	carrosses		1	1	33
 Carrouge	carrouges		1	13	31
 carrouge	carrouges				
@@ -9784,7 +9784,7 @@ Cuivre en Plaques	cuivre en plaques		1	2	29
 Cuivre en plaques	cuivre en plaques		1	1	29
 Cuivre en platine	cuivre en platines		1	1	68
 cuivre en plattes	cuivre en plates	x	0	0	0
-Cuivre en poil	cuirs en poil	x	1	3	5
+Cuivre en poil	cuirs en poil		1	3	5
 Cuivre en rofette	cuivre en rosette	x	1	1	185
 Cuivre en Rosette	cuivre en rosette	x	1	1	185
 Cuivre en Rozette	cuivre en rosette	x	1	16	185
@@ -9852,7 +9852,7 @@ Cuivre rouge ouvré	cuivre rouge ouvré
 cuivre rouge ouvré	cuivre rouge ouvré				
 Cuivre rouge, ouvré	cuivre rouge ouvré				
 Cuivre rozette	cuivre rosette	x	1	1	185
-Cuivre sur poil	cuivre sur poil	x	1	2	5
+Cuivre sur poil	cuivre sur poil		1	2	5
 Cuivre tangou	cuivre tangoul	x	1	5	6
 cuivre tangou	cuivre tangoul	x			
 Cuivre tangoul	cuivre tangoul	x			
@@ -9932,7 +9932,7 @@ Curlas	curlas	x	1	2	4
 curous	curous	x	1	2	2
 Curtas	curtas	x			
 Curuma	curcuma		1	2	90
-Cusco Grain	cusco grains		1	1	1
+Cusco Grain	cusco grains	x	1	1	1
 Cuscutes luzerne	cuscutes luzerne		0	0	0
 Cuslas	cuslas	x	1	1	2352
 Custar	custar	x	1	1	2352
@@ -9948,546 +9948,546 @@ Cuviers	cuviers		1	2	3
 Cuviers ; de terre	cuviers de terre		1	1	6
 Cuviers de terre	cuviers de terre		1	4	6
 Cylindre	cylindre				
-Cylindres en cuivre	cylindre en cuivre	ARRET	0	0	0
-D'antelle d'argent	D'antelle d'argent		1	1	25
-D'antelle de fil	D'antelle de fil		1	1	140
-D'entelle d'argent	D'entelle d'argent				
-D'une valeur moindre de 2 000 chacun	D'une valeur moindre de 2 000 chacun		1	11	578
-D'une valeur moindre de 2 000 Fr chacun	D'une valeur moindre de 2 000 Fr chacun		1	16	578
-D'une valeur moindre de 2 000 francs chacun	D'une valeur moindre de 2 000 francs chacun		1	18	578
-D'une valeur moindre de 2,000 fr chacun	D'une valeur moindre de 2000 fr chacun		1	19	578
-D'une valeur moindre de 2,000 fr. chacun	D'une valeur moindre de 2000 fr. chacun		1	168	578
-D'une valeur moindre de 2,000 francs chacun	D'une valeur moindre de 2000 francs chacun		1	178	578
-D'une valeur moindre de 2000 fr chacun	D'une valeur moindre de 2000 fr chacun		1	46	578
-D'une valeur moindre de 2000 francs chacun	D'une valeur moindre de 2000 francs chacun		1	17	578
-dades	dades		0	0	0
-dades et pistaches	dades et pistaches		0	0	0
-Daïs : pour Eglise	Daïs pour Eglise		0	0	0
-Dalles	Dalles		1	5	5
-Dalles en céramique dure	Dalles en céramique dure		0	0	0
-Damas	Damas		1	12	12
+Cylindres en cuivre	cylindre en cuivre		0	0	0
+D'antelle d'argent	dentelle d'argent		1	1	25
+D'antelle de fil	dentelle de fil		1	1	140
+D'entelle d'argent	dentelle d'argent				
+D'une valeur moindre de 2 000 chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	11	578
+D'une valeur moindre de 2 000 Fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	16	578
+D'une valeur moindre de 2 000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	18	578
+D'une valeur moindre de 2,000 fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	19	578
+D'une valeur moindre de 2,000 fr. chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	168	578
+D'une valeur moindre de 2,000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	178	578
+D'une valeur moindre de 2000 fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	46	578
+D'une valeur moindre de 2000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	17	578
+dades	dattes	x	0	0	0
+dades et pistaches	dattes et pistaches	x	0	0	0
+Daïs : pour Eglise	dais pour église		0	0	0
+Dalles	dalles		1	5	5
+Dalles en céramique dure	dalles en céramique dure		0	0	0
+Damas	damas		1	12	12
 damas	damas				
-Damas ; à frange d'argent	Damas à frange d'argent		1	1	1
-Damas ; Cafart	Damas Cafart		1	5	6
-Damas ; caffart	Damas caffart		1	1	6
-Damas ; de fil	Damas de fil		1	1	1
-Damas ; de lion	Damas de lion		1	1	2352
-Damas ; de Luques	Damas de Luques		1	1	1
-Damas ; de soye	Damas de soie		1	1	1
-Damas ; de Tour	Damas de Tour		1	1	1
-Damas ; fil et coton	Damas fil et coton		1	2	2
-Damas (étoffe)	Damas (étoffe)		0	0	0
+Damas ; à frange d'argent	damas à frange d'argent		1	1	1
+Damas ; Cafart	damas caffart		1	5	6
+Damas ; caffart	damas caffart		1	1	6
+Damas ; de fil	damas de fil		1	1	1
+Damas ; de lion	damas de Lyon		1	1	2352
+Damas ; de Luques	damas de Luques		1	1	1
+Damas ; de soye	damas de soie		1	1	1
+Damas ; de Tour	damas de Tours		1	1	1
+Damas ; fil et coton	damas fil et coton		1	2	2
+Damas (étoffe)	damas étoffe		0	0	0
 damas commun	damas commun				
-Damas de faux	Damas de faux		1	1	1
-damas de genes cramoisy	damas de genes cramoisy				
-Damasquette	Damasquette				
+Damas de faux	damas de faux		1	1	1
+damas de genes cramoisy	damas de Gênes cramoisi				
+Damasquette	damasquette				
 damasquette	damasquette				
-Damassé de laine	Damassé de laine		0	0	0
-Dame ; jeanne	Dame jeanne		1	4	108
-Dame janes de verre	Dame janes de verre		1	1	9
-Dame janne	Dame janne				
-Dame Janne clisées	Dame Janne clisées		1	1	14
-Dame jannes	Dame jannes		1	13	108
-Dame jaunes	Dame jaunes		1	6	108
-Dame Jeanne	Dame Jeanne		1	2	108
-Dame jeanne	Dame jeanne				
-dame jeanne clisées	dame jeanne clisées		1	2	14
-Dame Jeanne de verre	Dame Jeanne de verre		1	3	9
-Dame jeanne de verre	Dame jeanne de verre		1	1	9
-Dame jeanne et vuide	Dame jeanne et vuide				
-Dame Jeanne lissées	Dame Jeanne lissées		1	2	14
-Dame Jeannes	Dame Jeannes		1	1	108
-Dame jeannes	Dame jeannes		1	6	108
-Dame jeannes clissées	Dame jeannes clissées		1	1	14
-Dame-janes ; clissées	Dame-janes clissées		1	2	14
-Dame-jannes	Dame-jannes		1	11	108
-Dame-Jeanne	Dame-Jeanne		1	1	108
-Dame-jeanne	Dame-jeanne		1	4	108
-Dame-Jeanne lissée	Dame-Jeanne lissée		1	2	14
-Damejanes vuides	Damejanes vuides				
-Damejannes	Damejannes		1	21	108
-Damejannes vuides	Damejannes vuides				
-Damejaune	Damejaune		1	2	108
-Damejaunes	Damejaunes		1	1	108
-Damejeanne	Damejeanne		1	7	108
-Damejeannes	Damejeannes				
-Damejeannes de verre	Damejeannes de verre				
-Damejeannes vuides	Damejeannes vuides				
-Dames Jannes	Dames Jannes		1	1	108
-Dames jannes	Dames jannes		1	4	108
-Dames jannes de verre	Dames jannes de verre		1	1	9
-Dames Jannes lissées	Dames Jannes lissées		1	1	14
-Dames Jeanne	Dames Jeanne		1	2	108
-dames jeanne Clissées	dames jeanne Clissées		1	2	14
-Dames jeanne de Gray	Dames jeanne de Gray				
-Dames jeanne vides	Dames jeanne vides		1	1	1
-Dames Jeannes	Dames Jeannes		1	10	108
-Dames jeannes	Dames jeannes		1	7	108
-Dames Jeannes clisséer	Dames Jeannes clisséer		1	1	14
-dames jeannes de verre	dames jeannes de verre		1	1	9
-Dames;Jeanne	DamesJeanne		1	1	108
-Damme jeanne ; de verre	Damme jeanne de verre		1	1	9
-Damoiselle	Damoiselle		1	1	11
-damoiSelles de Bois	damoiSelles de Bois		1	1	2
-Danrées divers réunies	Danrées divers réunies		1	4	4
-Dantelle de fer	Dantelle de fer		1	1	1
-Dantelle de fil	Dantelle de fil		1	2	140
-Dantelle du Puy	Dantelle du Puy		1	2	2
-Dantelles de fil	Dantelles de fil		1	1	140
-Dap ; de laine ; fin	Dap de laine fin		1	1	35
-Daperie ; de Montauban	Daperie de Montauban		1	1	1
-Darins	Darins		1	4	4
-Dates	Dates		0	0	0
-dates	dates				
-datte	datte				
-Dattes	Dattes				
+Damassé de laine	damassé de laine		0	0	0
+Dame ; jeanne	dame-jeannes		1	4	108
+Dame janes de verre	dame-jeannes de verre		1	1	9
+Dame janne	dame-jeannes				
+Dame Janne clisées	dame-jeannes clissées		1	1	14
+Dame jannes	dame-jeannes		1	13	108
+Dame jaunes	dame-jeannes		1	6	108
+Dame Jeanne	dame-jeannes		1	2	108
+Dame jeanne	dame-jeannes				
+dame jeanne clisées	dame-jeannes clissées		1	2	14
+Dame Jeanne de verre	dame-jeannes de verre		1	3	9
+Dame jeanne de verre	dame-jeannes de verre		1	1	9
+Dame jeanne et vuide	dame-jeannes et vides				
+Dame Jeanne lissées	dame-jeannes clissées		1	2	14
+Dame Jeannes	dame-jeannes		1	1	108
+Dame jeannes	dame-jeannes		1	6	108
+Dame jeannes clissées	dame-jeannes clissées		1	1	14
+Dame-janes ; clissées	dame-jeannes clissées		1	2	14
+Dame-jannes	dame-jeannes		1	11	108
+Dame-Jeanne	dame-jeannes		1	1	108
+Dame-jeanne	dame-jeannes		1	4	108
+Dame-Jeanne lissée	dame-jeannes clissées		1	2	14
+Damejanes vuides	dame-jeannes vides				
+Damejannes	dame-jeannes		1	21	108
+Damejannes vuides	dame-jeannes vides				
+Damejaune	dame-jeannes		1	2	108
+Damejaunes	dame-jeannes		1	1	108
+Damejeanne	dame-jeannes		1	7	108
+Damejeannes	dame-jeannes				
+Damejeannes de verre	dame-jeannes de verre				
+Damejeannes vuides	dame-jeannes vides				
+Dames Jannes	dame-jeannes		1	1	108
+Dames jannes	dame-jeannes		1	4	108
+Dames jannes de verre	dame-jeannes de verre		1	1	9
+Dames Jannes lissées	dame-jeannes clissées		1	1	14
+Dames Jeanne	dame-jeannes		1	2	108
+dames jeanne Clissées	dame-jeannes clissées		1	2	14
+Dames jeanne de Gray	dame-jeannes de grès				
+Dames jeanne vides	dame-jeannes vides		1	1	1
+Dames Jeannes	dame-jeannes		1	10	108
+Dames jeannes	dame-jeannes		1	7	108
+Dames Jeannes clisséer	dame-jeannes clissées		1	1	14
+dames jeannes de verre	dame-jeannes de verre		1	1	9
+Dames;Jeanne	dame-jeannes		1	1	108
+Damme jeanne ; de verre	dame-jeannes de verre		1	1	9
+Damoiselle	damoiselle	x	1	1	11
+damoiSelles de Bois	damoiselle de bois	x	1	1	2
+Danrées divers réunies	denrées diverses réunies		1	4	4
+Dantelle de fer	dentelle de fer		1	1	1
+Dantelle de fil	dentelle de fil		1	2	140
+Dantelle du Puy	dentelle du Puy		1	2	2
+Dantelles de fil	dentelle de fil		1	1	140
+Dap ; de laine ; fin	dap de laine fin		1	1	35
+Daperie ; de Montauban	draperie de Montauban		1	1	1
+Darins	darins	x	1	4	4
+Dates	dattes		0	0	0
+dates	dattes				
+datte	dattes				
+Dattes	dattes				
 dattes	dattes		1	3	80
-Daufine	Daufine		1	20	25
-Dauphine	Dauphine		1	3	25
+Daufine	dauphine		1	20	25
+Dauphine	dauphine		1	3	25
 dauphine	dauphine		0	0	0
-Dauphiné	Dauphiné		1	1	25
-De l'or	De l'or		0	0	0
-De l’or	De l’or		0	0	0
-De peu de valeur	De peu de valeur		1	2	2
-de Tafia	de Tafia				
-debris de vaisseaux et vieux ouvrages de charpente	debris de vaisseaux et vieux ouvrages de charpente		0	0	0
-Dechet ; de pierre	Dechet de pierre		1	1	1
-Déchet de succin	Déchet de succin		0	0	0
-Déchets ; de pierre	Déchets de pierre		1	1	1
-Déchets de cuir	Déchets de cuir		0	0	0
-Dechets de pierre	Dechets de pierre		1	1	2
-Dechets de pierres	Dechets de pierres		1	1	2
-décorations pour carosses	décorations pour carosses		0	0	0
-Degra...	Degra...		1	2	2
-Degras	Degras		1	5	12
-Dégras	Dégras		1	7	12
-Degras ; de peau	Degras de peau		1	14	49
-Degras ; de peaux	Degras de peaux		1	8	49
-Degras de peau	Degras de peau		1	6	49
-Dégras de peau	Dégras de peau		1	3	49
-Degras de peaux	Degras de peaux				
-Dégras de peaux	Dégras de peaux		1	2	49
-Degrau	Degrau		1	1	3
-Dégrau	Dégrau		1	2	3
-Demelles de fil	Demelles de fil		1	1	1
-Demi bariques ; cerclées ; de fer	Demi bariques cerclées de fer		1	1	1
-Demi guinée bleue	Demi guinée bleue				
-Demille	Demille				
-Demitte	Demitte		1	28	28
+Dauphiné	dauphine		1	1	25
+De l'or	de l'or	x	0	0	0
+De l’or	de l’or	x	0	0	0
+De peu de valeur	de peu de valeur	x	1	2	2
+de Tafia	de tafia	x			
+debris de vaisseaux et vieux ouvrages de charpente	débris de vaisseaux et vieux ouvrages de charpente		0	0	0
+Dechet ; de pierre	déchet de pierre		1	1	1
+Déchet de succin	déchet de succin		0	0	0
+Déchets ; de pierre	déchet de pierre		1	1	1
+Déchets de cuir	déchet de cuir		0	0	0
+Dechets de pierre	déchet de pierre		1	1	2
+Dechets de pierres	déchet de pierre		1	1	2
+décorations pour carosses	décorations pour carrosses		0	0	0
+Degra...	dégras		1	2	2
+Degras	dégras		1	5	12
+Dégras	dégras		1	7	12
+Degras ; de peau	dégras de peaux		1	14	49
+Degras ; de peaux	dégras de peaux		1	8	49
+Degras de peau	dégras de peaux		1	6	49
+Dégras de peau	dégras de peaux		1	3	49
+Degras de peaux	dégras de peaux				
+Dégras de peaux	dégras de peaux		1	2	49
+Degrau	dégras	x	1	1	3
+Dégrau	dégras	x	1	2	3
+Demelles de fil	dentelle de fil		1	1	1
+Demi bariques ; cerclées ; de fer	demi-barriques cerclées de fer	ARRET	1	1	1
+Demi guinée bleue	demi guinée bleue				
+Demille	demille				
+Demitte	demitte		1	28	28
 demitte	demitte				
-Demittes	Demittes				
+Demittes	demittes				
 demittes	demittes				
-Demoiselle	Demoiselle		1	2	11
-Demoiselle de Sapin	Demoiselle de Sapin		1	1	2
-DemoiSellede Bois	DemoiSellede Bois		1	1	2
-Demoiselles	Demoiselles		1	7	11
+Demoiselle	demoiselle		1	2	11
+Demoiselle de Sapin	demoiselle de Sapin		1	1	2
+DemoiSellede Bois	demoiSellede Bois		1	1	2
+Demoiselles	demoiselles		1	7	11
 demoiselles	demoiselles		1	1	11
 demoisselles de sapin	demoisselles de sapin		1	1	2
-Demy Planches	Demy Planches		1	1	3
+Demy Planches	demy Planches		1	1	3
 den d'elefans	den d'elefans		1	1	246
-Denrées alimentaires	Denrées alimentaires		0	0	0
-Denrées coloniales ; Cacao	Denrées coloniales Cacao		1	14	1062
-Denrées coloniales ; Caffé	Denrées coloniales Caffé		1	20	820
-Denrées coloniales ; Canéfice	Denrées coloniales Canéfice		0	0	0
-Denrées coloniales ; diverses	Denrées coloniales diverses		1	5	5
-Denrées coloniales ; Ecaille de tortue	Denrées coloniales Ecaille de tortue		0	0	0
-Denrées coloniales ; épiceries en muscade et poivre	Denrées coloniales épiceries en muscade et poivre		1	8	8
-Denrées coloniales ; Gingembre	Denrées coloniales Gingembre		0	0	0
-Denrées coloniales ; Indigo	Denrées coloniales Indigo		0	0	0
-Denrées Coloniales ; Roscou	Denrées Coloniales Roscou		0	0	0
-Denrées coloniales ; sirop-melasse	Denrées coloniales sirop-melasse		1	11	439
-Denrées coloniales ; Sucres ; blanc terrre et tête	Denrées coloniales Sucres blanc terrre et tête		0	0	0
-Denrées coloniales ; Sucres ; brut	Denrées coloniales Sucres brut		0	0	0
-Denrées coloniales ; Sucres ; rafiné	Denrées coloniales Sucres rafiné		0	0	0
-Denrées coloniales ; sucres, cacao, café	Denrées coloniales sucres cacao café		1	12	12
-Denrées coloniales : Tabac	Denrées coloniales Tabac		1	3	677
-Denrées coloniales : Taffia	Denrées coloniales Taffia		1	3	140
-Denrées coloniales et épicerie	Denrées coloniales et épicerie		1	22	372
-Denrées coloniales réunies	Denrées coloniales réunies		1	11	11
-Denrées coloniales, telles que sucre, café, thé	Denrées coloniales telles que sucre café thé		1	10	10
-Dens de morphil	Dens de morphil		1	1	18
-Dent ; d'elephant	Dent d'elephant		1	2	2
-Dent ; de chien ; marin	Dent de chien marin		1	1	1
-Dent ; de morphil	Dent de morphil		1	1	1
+Denrées alimentaires	denrées alimentaires		0	0	0
+Denrées coloniales ; Cacao	denrées coloniales Cacao		1	14	1062
+Denrées coloniales ; Caffé	denrées coloniales Caffé		1	20	820
+Denrées coloniales ; Canéfice	denrées coloniales Canéfice		0	0	0
+Denrées coloniales ; diverses	denrées coloniales diverses		1	5	5
+Denrées coloniales ; Ecaille de tortue	denrées coloniales Ecaille de tortue		0	0	0
+Denrées coloniales ; épiceries en muscade et poivre	denrées coloniales épiceries en muscade et poivre		1	8	8
+Denrées coloniales ; Gingembre	denrées coloniales Gingembre		0	0	0
+Denrées coloniales ; Indigo	denrées coloniales Indigo		0	0	0
+Denrées Coloniales ; Roscou	denrées Coloniales Roscou		0	0	0
+Denrées coloniales ; sirop-melasse	denrées coloniales sirop-melasse		1	11	439
+Denrées coloniales ; Sucres ; blanc terrre et tête	denrées coloniales Sucres blanc terrre et tête		0	0	0
+Denrées coloniales ; Sucres ; brut	denrées coloniales Sucres brut		0	0	0
+Denrées coloniales ; Sucres ; rafiné	denrées coloniales Sucres rafiné		0	0	0
+Denrées coloniales ; sucres, cacao, café	denrées coloniales sucres cacao café		1	12	12
+Denrées coloniales : Tabac	denrées coloniales Tabac		1	3	677
+Denrées coloniales : Taffia	denrées coloniales Taffia		1	3	140
+Denrées coloniales et épicerie	denrées coloniales et épicerie		1	22	372
+Denrées coloniales réunies	denrées coloniales réunies		1	11	11
+Denrées coloniales, telles que sucre, café, thé	denrées coloniales telles que sucre café thé		1	10	10
+Dens de morphil	dens de morphil		1	1	18
+Dent ; d'elephant	dent d'elephant		1	2	2
+Dent ; de chien ; marin	dent de chien marin		1	1	1
+Dent ; de morphil	dent de morphil		1	1	1
 dent d'elefant	dent d'elefant				
-Dentelle	Dentelle		1	2	262
+Dentelle	dentelle		1	2	262
 dentelle	dentelle				
-Dentelle ; à peu de soye	Dentelle à peu de soie		1	2	2
-Dentelle ; blanc	Dentelle blanc		1	1	1
-Dentelle ; blonde ; de soie	Dentelle blonde de soie		1	1	5
-Dentelle ; Commune	Dentelle Commune		1	5	26
-Dentelle ; commune	Dentelle commune		1	14	26
+Dentelle ; à peu de soye	dentelle à peu de soie		1	2	2
+Dentelle ; blanc	dentelle blanc		1	1	1
+Dentelle ; blonde ; de soie	dentelle blonde de soie		1	1	5
+Dentelle ; Commune	dentelle Commune		1	5	26
+Dentelle ; commune	dentelle commune		1	14	26
 dentelle ; commune	dentelle commune		1	1	26
-Dentelle ; d'andely	Dentelle d'andely		1	1	1
-Dentelle ; d'argent	Dentelle d'argent		1	10	25
-Dentelle ; d'argent ; faux	Dentelle d'argent faux		1	3	3
-Dentelle ; d'argent ; fin	Dentelle d'argent fin		1	4	4
-Dentelle ; d'or	Dentelle d'or		1	1	9
-Dentelle ; d'or ; faux	Dentelle d'or faux		1	2	8
-Dentelle ; d'or ; fin	Dentelle d'or fin		1	1	8
-Dentelle ; d'or et d'argent	Dentelle d'or et d'argent		1	4	62
-Dentelle ; d'or faux	Dentelle d'or faux		1	2	8
-Dentelle ; de Caen	Dentelle de Caen		1	4	4
-Dentelle ; de caen	Dentelle de caen		1	2	12
-Dentelle ; De fil	Dentelle De fil		1	17	140
-Dentelle ; de fil	Dentelle de fil		1	49	140
-Dentelle ; de fil ; blanc	Dentelle de fil blanc		1	239	303
-Dentelle ; de fil ; blanc ; commune	Dentelle de fil blanc commune		1	1	1
-Dentelle ; de fil ; commune	Dentelle de fil commune		1	56	70
-Dentelle ; de fil ; communs	Dentelle de fil communs		1	2	70
-Dentelle ; de fil ; comune	Dentelle de fil comune		1	8	70
-Dentelle ; de fil ; d'alençon	Dentelle de fil d'alençon		1	1	1
-Dentelle ; de fil ; de bergame	Dentelle de fil de bergame		1	1	1
-Dentelle ; de fil ; de Caen	Dentelle de fil de Caen		1	6	12
-Dentelle ; de fil ; de caen	Dentelle de fil de caen		1	1	12
-Dentelle ; de fil ; de Caën	Dentelle de fil de Caën		1	2	12
-Dentelle ; de fil ; de fil	Dentelle de fil de fil		1	1	140
-Dentelle ; de fil ; de Flandre	Dentelle de fil de Flandre		1	8	9
-Dentelle ; de fil ; de flandre	Dentelle de fil de flandre		1	1	9
-Dentelle ; de fil ; de Guy	Dentelle de fil de Guy		1	2	70
-Dentelle ; de fil ; de lain	Dentelle de fil de lain		1	1	1
-Dentelle ; de fil ; de Normandie	Dentelle de fil de Normandie		1	4	4
-Dentelle ; de fil ; de Puy	Dentelle de fil de Puy		1	2	70
-Dentelle ; de fil ; de soye	Dentelle de fil de soie		1	5	6
-Dentelle ; de fil ; dorure ; d'argent	Dentelle de fil dorure d'argent		1	2	2
-Dentelle ; de fil ; dorure ; d'or ; faux	Dentelle de fil dorure d'or faux		1	1	2
-Dentelle ; de fil ; dorure ; d'or ; fin	Dentelle de fil dorure d'or fin		1	2	3
-Dentelle ; de fil ; du Buy	Dentelle de fil du Buy		1	5	70
-Dentelle ; de fil ; du Puy	Dentelle de fil du Puy		0	0	0
-Dentelle ; de fil ; du puy	Dentelle de fil du puy		1	4	70
-Dentelle ; de fil ; fin	Dentelle de fil fin		1	1	19
-Dentelle ; de fil ; fine	Dentelle de fil fine		1	16	19
-Dentelle ; de fil ; grosse	Dentelle de fil grosse		0	0	0
-Dentelle ; de fil ; puy	Dentelle de fil puy		1	1	70
-Dentelle ; de fil ;blanc	Dentelle de fil blanc		1	2	303
-Dentelle ; De fil blanc	Dentelle De fil blanc		1	7	303
-Dentelle ; de fil blanc	Dentelle de fil blanc		1	27	303
-Dentelle ; De fil et soye	Dentelle De fil et soie		1	5	14
-Dentelle ; de fils ; communs	Dentelle de fils communs		1	2	70
-Dentelle ; de Flandre	Dentelle de Flandre		1	1	1
-Dentelle ; de malines	Dentelle de malines		1	1	1
-Dentelle ; de Normandie	Dentelle de Normandie		1	1	2
-Dentelle ; de normandie	Dentelle de normandie		1	1	2
-Dentelle ; de Puy	Dentelle de Puy		1	4	70
-Dentelle ; de Roüen	Dentelle de Roüen		1	1	70
-Dentelle ; de soie	Dentelle de soie		1	3	378
-Dentelle ; De Soye	Dentelle de soie		1	14	378
-Dentelle ; De soye	Dentelle de soie		1	16	378
-Dentelle ; de soye	Dentelle de soie		1	308	378
-Dentelle ; de soye ; blanche	Dentelle de soie blanche		1	3	3
-Dentelle ; de soye ; blonde	Dentelle de soie blonde		1	3	5
-Dentelle ; de soye au quart	Dentelle de soie au quart		1	1	1
-Dentelle ; de soye et blonde	Dentelle de soie et blonde		1	1	5
-Dentelle ; de soye et fil	Dentelle de soie et fil		1	1	14
-Dentelle ; Diverses	Dentelle Diverses		1	2	3
-Dentelle ; dorure ; d'argent	Dentelle dorure d'argent		1	9	25
-Dentelle ; dorure ; d'argt	Dentelle dorure d'argt		1	1	25
-Dentelle ; dorure ; d'or	Dentelle dorure d'or		1	4	9
-Dentelle ; dorure ; d'or faux	Dentelle dorure d'or faux		1	4	8
-Dentelle ; dorure ; d'or fin	Dentelle dorure d'or fin		1	4	8
-Dentelle ; dorure ; or et arg	Dentelle dorure or et arg		1	2	62
-Dentelle ; dorure ; or et argent	Dentelle dorure or et argent		1	2	62
-Dentelle ; dorure ; or et argt	Dentelle dorure or et argt		1	1	62
-Dentelle ; dorures ; d'argent	Dentelle dorures d'argent		1	2	25
-Dentelle ; dorures ; d'or	Dentelle dorures d'or		1	3	9
-Dentelle ; dorures ; or et argent	Dentelle dorures or et argent		1	6	62
-Dentelle ; du Havre	Dentelle du Havre		1	3	3
-Dentelle ; du Puy	Dentelle du Puy		1	11	34
-Dentelle ; En dorure	Dentelle En dorure		1	2	5
-Dentelle ; en dorure	Dentelle en dorure		1	3	5
-Dentelle ; fil ; blanc	Dentelle fil blanc		1	2	303
-Dentelle ; fil ; commune	Dentelle fil commune		1	1	70
-Dentelle ; fil ; grosse	Dentelle fil grosse		1	1	29
-Dentelle ; fine	Dentelle fine		1	1	2
-Dentelle ; grosse	Dentelle grosse		1	5	8
-Dentelle ; grosse ; de fil	Dentelle grosse de fil		1	2	2
-Dentelle ; grossiere	Dentelle grossiere		1	3	8
-Dentelle ; mi soye	Dentelle mi soye		1	1	1
-Dentelle ; or et argent	Dentelle or et argent		1	38	62
-Dentelle ; or et argent ; faux	Dentelle or et argent faux		1	2	2
-Dentelle ; or et argent ; fin	Dentelle or et argent fin		1	2	5
-Dentelle ; or et argent fin	Dentelle or et argent fin		1	3	5
-Dentelle ;dorure ; d'or et argt	Dentelle dorure d'or et argt		1	2	62
-Dentelle ;dorure ; d'or fin	Dentelle dorure d'or fin		1	3	8
-Dentelle commune	Dentelle commune		1	3	26
-Dentelle d'argent	Dentelle d'argent				
-Dentelle d'or	Dentelle d'or		1	1	9
-Dentelle de Caën	Dentelle de Caën		1	1	12
-Dentelle de Fil	Dentelle de Fil		1	2	140
-Dentelle de fil	Dentelle de fil		1	22	140
+Dentelle ; d'andely	dentelle d'andely		1	1	1
+Dentelle ; d'argent	dentelle d'argent		1	10	25
+Dentelle ; d'argent ; faux	dentelle d'argent faux		1	3	3
+Dentelle ; d'argent ; fin	dentelle d'argent fin		1	4	4
+Dentelle ; d'or	dentelle d'or		1	1	9
+Dentelle ; d'or ; faux	dentelle d'or faux		1	2	8
+Dentelle ; d'or ; fin	dentelle d'or fin		1	1	8
+Dentelle ; d'or et d'argent	dentelle d'or et d'argent		1	4	62
+Dentelle ; d'or faux	dentelle d'or faux		1	2	8
+Dentelle ; de Caen	dentelle de Caen		1	4	4
+Dentelle ; de caen	dentelle de caen		1	2	12
+Dentelle ; De fil	dentelle de fil		1	17	140
+Dentelle ; de fil	dentelle de fil		1	49	140
+Dentelle ; de fil ; blanc	dentelle de fil blanc		1	239	303
+Dentelle ; de fil ; blanc ; commune	dentelle de fil blanc commune		1	1	1
+Dentelle ; de fil ; commune	dentelle de fil commune		1	56	70
+Dentelle ; de fil ; communs	dentelle de fil communs		1	2	70
+Dentelle ; de fil ; comune	dentelle de fil comune		1	8	70
+Dentelle ; de fil ; d'alençon	dentelle de fil d'alençon		1	1	1
+Dentelle ; de fil ; de bergame	dentelle de fil de bergame		1	1	1
+Dentelle ; de fil ; de Caen	dentelle de fil de Caen		1	6	12
+Dentelle ; de fil ; de caen	dentelle de fil de caen		1	1	12
+Dentelle ; de fil ; de Caën	dentelle de fil de Caën		1	2	12
+Dentelle ; de fil ; de fil	dentelle de fil de fil		1	1	140
+Dentelle ; de fil ; de Flandre	dentelle de fil de Flandre		1	8	9
+Dentelle ; de fil ; de flandre	dentelle de fil de flandre		1	1	9
+Dentelle ; de fil ; de Guy	dentelle de fil de Guy		1	2	70
+Dentelle ; de fil ; de lain	dentelle de fil de lain		1	1	1
+Dentelle ; de fil ; de Normandie	dentelle de fil de Normandie		1	4	4
+Dentelle ; de fil ; de Puy	dentelle de fil de Puy		1	2	70
+Dentelle ; de fil ; de soye	dentelle de fil de soie		1	5	6
+Dentelle ; de fil ; dorure ; d'argent	dentelle de fil dorure d'argent		1	2	2
+Dentelle ; de fil ; dorure ; d'or ; faux	dentelle de fil dorure d'or faux		1	1	2
+Dentelle ; de fil ; dorure ; d'or ; fin	dentelle de fil dorure d'or fin		1	2	3
+Dentelle ; de fil ; du Buy	dentelle de fil du Buy		1	5	70
+Dentelle ; de fil ; du Puy	dentelle de fil du Puy		0	0	0
+Dentelle ; de fil ; du puy	dentelle de fil du puy		1	4	70
+Dentelle ; de fil ; fin	dentelle de fil fin		1	1	19
+Dentelle ; de fil ; fine	dentelle de fil fine		1	16	19
+Dentelle ; de fil ; grosse	dentelle de fil grosse		0	0	0
+Dentelle ; de fil ; puy	dentelle de fil puy		1	1	70
+Dentelle ; de fil ;blanc	dentelle de fil blanc		1	2	303
+Dentelle ; De fil blanc	dentelle de fil blanc		1	7	303
+Dentelle ; de fil blanc	dentelle de fil blanc		1	27	303
+Dentelle ; De fil et soye	dentelle de fil et soie		1	5	14
+Dentelle ; de fils ; communs	dentelle de fils communs		1	2	70
+Dentelle ; de Flandre	dentelle de Flandre		1	1	1
+Dentelle ; de malines	dentelle de malines		1	1	1
+Dentelle ; de Normandie	dentelle de Normandie		1	1	2
+Dentelle ; de normandie	dentelle de normandie		1	1	2
+Dentelle ; de Puy	dentelle de Puy		1	4	70
+Dentelle ; de Roüen	dentelle de Roüen		1	1	70
+Dentelle ; de soie	dentelle de soie		1	3	378
+Dentelle ; De Soye	dentelle de soie		1	14	378
+Dentelle ; De soye	dentelle de soie		1	16	378
+Dentelle ; de soye	dentelle de soie		1	308	378
+Dentelle ; de soye ; blanche	dentelle de soie blanche		1	3	3
+Dentelle ; de soye ; blonde	dentelle de soie blonde		1	3	5
+Dentelle ; de soye au quart	dentelle de soie au quart		1	1	1
+Dentelle ; de soye et blonde	dentelle de soie et blonde		1	1	5
+Dentelle ; de soye et fil	dentelle de soie et fil		1	1	14
+Dentelle ; Diverses	dentelle diverses		1	2	3
+Dentelle ; dorure ; d'argent	dentelle dorure d'argent		1	9	25
+Dentelle ; dorure ; d'argt	dentelle dorure d'argt		1	1	25
+Dentelle ; dorure ; d'or	dentelle dorure d'or		1	4	9
+Dentelle ; dorure ; d'or faux	dentelle dorure d'or faux		1	4	8
+Dentelle ; dorure ; d'or fin	dentelle dorure d'or fin		1	4	8
+Dentelle ; dorure ; or et arg	dentelle dorure or et arg		1	2	62
+Dentelle ; dorure ; or et argent	dentelle dorure or et argent		1	2	62
+Dentelle ; dorure ; or et argt	dentelle dorure or et argt		1	1	62
+Dentelle ; dorures ; d'argent	dentelle dorures d'argent		1	2	25
+Dentelle ; dorures ; d'or	dentelle dorures d'or		1	3	9
+Dentelle ; dorures ; or et argent	dentelle dorures or et argent		1	6	62
+Dentelle ; du Havre	dentelle du Havre		1	3	3
+Dentelle ; du Puy	dentelle du Puy		1	11	34
+Dentelle ; En dorure	dentelle En dorure		1	2	5
+Dentelle ; en dorure	dentelle en dorure		1	3	5
+Dentelle ; fil ; blanc	dentelle fil blanc		1	2	303
+Dentelle ; fil ; commune	dentelle fil commune		1	1	70
+Dentelle ; fil ; grosse	dentelle fil grosse		1	1	29
+Dentelle ; fine	dentelle fine		1	1	2
+Dentelle ; grosse	dentelle grosse		1	5	8
+Dentelle ; grosse ; de fil	dentelle grosse de fil		1	2	2
+Dentelle ; grossiere	dentelle grossiere		1	3	8
+Dentelle ; mi soye	dentelle mi soye		1	1	1
+Dentelle ; or et argent	dentelle or et argent		1	38	62
+Dentelle ; or et argent ; faux	dentelle or et argent faux		1	2	2
+Dentelle ; or et argent ; fin	dentelle or et argent fin		1	2	5
+Dentelle ; or et argent fin	dentelle or et argent fin		1	3	5
+Dentelle ;dorure ; d'or et argt	dentelle dorure d'or et argt		1	2	62
+Dentelle ;dorure ; d'or fin	dentelle dorure d'or fin		1	3	8
+Dentelle commune	dentelle commune		1	3	26
+Dentelle d'argent	dentelle d'argent				
+Dentelle d'or	dentelle d'or		1	1	9
+Dentelle de Caën	dentelle de Caën		1	1	12
+Dentelle de Fil	dentelle de Fil		1	2	140
+Dentelle de fil	dentelle de fil		1	22	140
 dentelle de fil	dentelle de fil		0	0	0
-Dentelle de fil blanc	Dentelle de fil blanc		1	1	303
-Dentelle de fil blanc de Lille	Dentelle de fil blanc de Lille		1	1	1
-Dentelle de fil de laine	Dentelle de fil de laine		1	1	1
-Dentelle de fil et soie	Dentelle de fil et soie		1	27	53
-Dentelle de fil fine	Dentelle de fil fine		1	1	19
-Dentelle de flandre	Dentelle de flandre		1	1	1
-Dentelle de Lille	Dentelle de Lille		1	2	2
-Dentelle de Puy	Dentelle de Puy				
-Dentelle de puy	Dentelle de puy		1	1	34
-Dentelle de Soye	Dentelle de soie				
-Dentelle de soye	Dentelle de soie		1	2	378
-Dentelle du Havre	Dentelle du Havre				
-Dentelle du havre	Dentelle du havre				
-Dentelle Du Puy	Dentelle Du Puy		1	1	34
-Dentelle Du puy	Dentelle Du puy		1	3	34
-Dentelle du Puy	Dentelle du Puy		1	6	34
-Dentelle du puy	Dentelle du puy				
-Dentelle du puys	Dentelle du puys				
-Dentelle dupuis	Dentelle dupuis		1	1	34
-Dentelle Dupuy	Dentelle Dupuy		1	5	34
-Dentelle dupuy	Dentelle dupuy		1	2	34
-Dentelle fine	Dentelle fine		1	1	2
+Dentelle de fil blanc	dentelle de fil blanc		1	1	303
+Dentelle de fil blanc de Lille	dentelle de fil blanc de Lille		1	1	1
+Dentelle de fil de laine	dentelle de fil de laine		1	1	1
+Dentelle de fil et soie	dentelle de fil et soie		1	27	53
+Dentelle de fil fine	dentelle de fil fine		1	1	19
+Dentelle de flandre	dentelle de flandre		1	1	1
+Dentelle de Lille	dentelle de Lille		1	2	2
+Dentelle de Puy	dentelle de Puy				
+Dentelle de puy	dentelle de puy		1	1	34
+Dentelle de Soye	dentelle de soie				
+Dentelle de soye	dentelle de soie		1	2	378
+Dentelle du Havre	dentelle du Havre				
+Dentelle du havre	dentelle du havre				
+Dentelle Du Puy	dentelle du Puy		1	1	34
+Dentelle Du puy	dentelle du puy		1	3	34
+Dentelle du Puy	dentelle du Puy		1	6	34
+Dentelle du puy	dentelle du puy				
+Dentelle du puys	dentelle du puys				
+Dentelle dupuis	dentelle dupuis		1	1	34
+Dentelle Dupuy	dentelle dupuy		1	5	34
+Dentelle dupuy	dentelle dupuy		1	2	34
+Dentelle fine	dentelle fine		1	1	2
 dentelle grosse	dentelle grosse				
-Dentelle or et argent	Dentelle or et argent		1	2	62
-Dentelle or et argt	Dentelle or et argt		1	1	62
-Dentelles	Dentelles		1	220	262
-Dentelles ; commune	Dentelles commune		1	2	26
-Dentelles ; Communes	Dentelles Communes		1	1	26
-Dentelles ; d'argent	Dentelles d'argent		1	2	25
-Dentelles ; de fil	Dentelles de fil		1	2	140
-Dentelles ; de fil ; blanc	Dentelles de fil blanc		1	17	303
-Dentelles ; de fil ; commune	Dentelles de fil commune		1	1	70
-Dentelles ; de fil ; de crin	Dentelles de fil de crin		1	2	2
-Dentelles ; de fil ; de Puy	Dentelles de fil de Puy		1	1	70
-Dentelles ; de fil ; diverses	Dentelles de fil diverses		1	5	5
-Dentelles ; de fil ; fine	Dentelles de fil fine		1	1	19
-Dentelles ; de fil ; grosse	Dentelles de fil grosse		1	1	29
-Dentelles ; De fil blanc	Dentelles De fil blanc		1	5	303
-Dentelles ; De soye	Dentelles de soie		1	2	378
-Dentelles ; de soye	Dentelles de soie		1	28	378
-Dentelles ; diverses	Dentelles diverses		1	1	3
-Dentelles ; or et argent	Dentelles or et argent		1	3	62
+Dentelle or et argent	dentelle or et argent		1	2	62
+Dentelle or et argt	dentelle or et argt		1	1	62
+Dentelles	dentelles		1	220	262
+Dentelles ; commune	dentelles commune		1	2	26
+Dentelles ; Communes	dentelles Communes		1	1	26
+Dentelles ; d'argent	dentelles d'argent		1	2	25
+Dentelles ; de fil	dentelles de fil		1	2	140
+Dentelles ; de fil ; blanc	dentelles de fil blanc		1	17	303
+Dentelles ; de fil ; commune	dentelles de fil commune		1	1	70
+Dentelles ; de fil ; de crin	dentelles de fil de crin		1	2	2
+Dentelles ; de fil ; de Puy	dentelles de fil de Puy		1	1	70
+Dentelles ; de fil ; diverses	dentelles de fil diverses		1	5	5
+Dentelles ; de fil ; fine	dentelles de fil fine		1	1	19
+Dentelles ; de fil ; grosse	dentelles de fil grosse		1	1	29
+Dentelles ; De fil blanc	dentelles de fil blanc		1	5	303
+Dentelles ; De soye	dentelles de soie		1	2	378
+Dentelles ; de soye	dentelles de soie		1	28	378
+Dentelles ; diverses	dentelles diverses		1	1	3
+Dentelles ; or et argent	dentelles or et argent		1	3	62
 dentelles d'or et d'argent	dentelles d'or et d'argent		0	0	0
 dentelles d'or et d'argent faux	dentelles d'or et d'argent faux		0	0	0
-Dentelles de fil	Dentelles de fil		1	42	140
-Dentelles de fil blanc	Dentelles de fil blanc		1	2	303
-Dentelles de fil et de soie	Dentelles de fil et de soie		1	10	53
-Dentelles de fil et soie	Dentelles de fil et soie		1	16	53
-Dentelles de fil et tulles	Dentelles de fil et tulles		1	31	31
-Dentelles de soie dite blonde	Dentelles de soie dite blonde		1	32	61
-Dentelles de soie, dite blonde	Dentelles de soie dite blonde		1	29	61
-Dentelles de Soye	Dentelles de soie		1	2	378
-Dentelles de soye	Dentelles de soie		1	1	378
+Dentelles de fil	dentelles de fil		1	42	140
+Dentelles de fil blanc	dentelles de fil blanc		1	2	303
+Dentelles de fil et de soie	dentelles de fil et de soie		1	10	53
+Dentelles de fil et soie	dentelles de fil et soie		1	16	53
+Dentelles de fil et tulles	dentelles de fil et tulles		1	31	31
+Dentelles de soie dite blonde	dentelles de soie dite blonde		1	32	61
+Dentelles de soie, dite blonde	dentelles de soie dite blonde		1	29	61
+Dentelles de Soye	dentelles de soie		1	2	378
+Dentelles de soye	dentelles de soie		1	1	378
 dentelles de soye et blondes	dentelles de soie et blondes		0	0	0
-Dentelles du Puy	Dentelles du Puy				
-Dentelles dupuy	Dentelles dupuy		1	1	34
-Dentelles et blondes	Dentelles et blondes		1	19	19
-Dentlelle ; de fil blanc	Dentlelle de fil blanc		1	1	303
-Dents ; cheval marin	Dents cheval marin		1	1	4
-Dents ; d'Elephant	Dents d'Elephant		1	22	246
-Dents ; d'elephant	Dents d'elephant		1	43	246
+Dentelles du Puy	dentelles du Puy				
+Dentelles dupuy	dentelles dupuy		1	1	34
+Dentelles et blondes	dentelles et blondes		1	19	19
+Dentlelle ; de fil blanc	dentlelle de fil blanc		1	1	303
+Dents ; cheval marin	dents cheval marin		1	1	4
+Dents ; d'Elephant	dents d'Elephant		1	22	246
+Dents ; d'elephant	dents d'elephant		1	43	246
 dents ; d'elephant	dents d'elephant		1	2	246
-Dents ; d'élephant	Dents d'élephant		1	5	246
-Dents ; d'éléphant	Dents d'éléphant		1	32	246
-Dents ; d'elephants	Dents d'elephants		1	8	246
-Dents ; d'éléphants	Dents d'éléphants		1	9	246
-Dents ; de cheval ; marin	Dents de cheval marin		1	2	4
-Dents ; de chien marin	Dents de chien marin		1	1	4
-Dents ; de morphet	Dents de morphet		1	1	39
-Dents ; de morphil	Dents de morphil		1	31	39
+Dents ; d'élephant	dents d'élephant		1	5	246
+Dents ; d'éléphant	dents d'éléphant		1	32	246
+Dents ; d'elephants	dents d'elephants		1	8	246
+Dents ; d'éléphants	dents d'éléphants		1	9	246
+Dents ; de cheval ; marin	dents de cheval marin		1	2	4
+Dents ; de chien marin	dents de chien marin		1	1	4
+Dents ; de morphet	dents de morphet		1	1	39
+Dents ; de morphil	dents de morphil		1	31	39
 dents ; de morphil	dents de morphil		1	1	39
-Dents ; de morphit	Dents de morphit		1	3	39
-Dents ; de vache ; marine	Dents de vache marine		1	2	12
-Dents ; de vache marine	Dents de vache marine		0	0	0
-Dents ; demorphil	Dents demorphil		1	1	246
-Dents ; des norphil	Dents des norphil		1	1	39
-Dents ;de morphil	Dents de morphil		1	2	39
-Dents ;de vache marine	Dents de vache marine		1	1	12
-Dents a Elephant	Dents à Elephant				
+Dents ; de morphit	dents de morphit		1	3	39
+Dents ; de vache ; marine	dents de vache marine		1	2	12
+Dents ; de vache marine	dents de vache marine		0	0	0
+Dents ; demorphil	dents demorphil		1	1	246
+Dents ; des norphil	dents des norphil		1	1	39
+Dents ;de morphil	dents de morphil		1	2	39
+Dents ;de vache marine	dents de vache marine		1	1	12
+Dents a Elephant	dents à Elephant				
 dents d' Elephant	dents d' Elephant		1	1	246
 dents d'elefans	dents d'elefans		1	1	246
-Dents d'Elefant	Dents d'Elefant				
-Dents d'elefant	Dents d'elefant		1	1	246
+Dents d'Elefant	dents d'Elefant				
+Dents d'elefant	dents d'elefant		1	1	246
 dents d'elefant	dents d'elefant				
 dents d'elefents	dents d'elefents		1	1	246
 dents d'elephan	dents d'elephan		1	2	246
-Dents d'elephands	Dents d'elephands		1	2	246
-Dents d'Elephans	Dents d'Elephans				
-Dents d'éléphans	Dents d'éléphans		1	16	246
+Dents d'elephands	dents d'elephands		1	2	246
+Dents d'Elephans	dents d'Elephans				
+Dents d'éléphans	dents d'éléphans		1	16	246
 dents d'éléphans	dents d'éléphans		0	0	0
-Dents d'Elephant	Dents d'Elephant				
-Dents d'elephant	Dents d'elephant				
+Dents d'Elephant	dents d'Elephant				
+Dents d'elephant	dents d'elephant				
 dents d'Elephant	dents d'Elephant				
 dents d'elephant	dents d'elephant				
-Dents d'élephant	Dents d'élephant		1	5	246
-Dents d'éléphant	Dents d'éléphant		1	71	246
-Dents d'Elephants	Dents d'Elephants				
+Dents d'élephant	dents d'élephant		1	5	246
+Dents d'éléphant	dents d'éléphant		1	71	246
+Dents d'Elephants	dents d'Elephants				
 dents d'elephants	dents d'elephants		1	3	246
-Dents d'éléphants	Dents d'éléphants		1	11	246
+Dents d'éléphants	dents d'éléphants		1	11	246
 dents d'ellephans	dents d'ellephans		1	1	246
-Dents de Morphel	Dents de Morphel		1	2	18
-Dents de morphel	Dents de morphel		1	3	18
+Dents de Morphel	dents de Morphel		1	2	18
+Dents de morphel	dents de morphel		1	3	18
 dents de morphel	dents de morphel		1	2	18
-Dents de Morphil	Dents de Morphil		1	1	18
-Dents de morphil	Dents de morphil				
-Dents de vache marine	Dents de vache marine				
+Dents de Morphil	dents de Morphil		1	1	18
+Dents de morphil	dents de morphil				
+Dents de vache marine	dents de vache marine				
 dents de Vaches Marines	dents de Vaches Marines		1	1	12
 dents delefants	dents delefants		1	1	246
-Dents du Morphel	Dents du Morphel		1	1	18
-Dents morfil	Dents morfil		1	1	18
-Denvitte	Denvitte				
-Denvittes	Denvittes				
+Dents du Morphel	dents du Morphel		1	1	18
+Dents morfil	dents morfil		1	1	18
+Denvitte	denvitte				
+Denvittes	denvittes				
 derle	derle		0	0	0
-Des à joüer	Des à joüer		1	1	2
-Des de leton	Des de leton				
-Des miroirs	Des miroirs		0	0	0
+Des à joüer	des à joüer		1	1	2
+Des de leton	des de leton				
+Des miroirs	des miroirs		0	0	0
 desseins de papier	desseins de papier		0	0	0
-Dessus de table ; de marbre	Dessus de table de marbre		1	1	1
-Devant de veste ; de bazin	Devant de veste de basin		1	1	1
+Dessus de table ; de marbre	dessus de table de marbre		1	1	1
+Devant de veste ; de bazin	devant de veste de basin		1	1	1
 devants de vestes	devants de vestes		0	0	0
-Devidoir	Devidoir		1	1	2
-Devidoirs	Devidoirs		1	1	2
-Dey ou baldaquin	Dey ou baldaquin		1	1	1
-Dez	Dez		1	1	1
+Devidoir	devidoir		1	1	2
+Devidoirs	devidoirs		1	1	2
+Dey ou baldaquin	dey ou baldaquin		1	1	1
+Dez	dez		1	1	1
 dez ; a coudre	dez à coudre		1	1	21
-Dez ; à coudre	Dez à coudre		1	8	21
-Dez ; à coudre ; de cuivre et fer	Dez à coudre de cuivre et fer		1	1	1
-Dez ; à joüer	Dez à joüer		1	1	2
-Dez ; d'acier	Dez d'acier		1	3	3
-Dez ; de Cuivre	Dez de Cuivre		1	1	18
-Dez ; de cuivre	Dez de cuivre		1	17	18
-Dez ; de cuivre ; a coudre	Dez de cuivre à coudre		1	1	3
-Dez ; de cuivre ; à coudre	Dez de cuivre à coudre		1	2	3
-Dez ; de fer	Dez de fer		1	13	13
-Dez ; de fer ; a coudre	Dez de fer à coudre		1	1	1
-Dez ; de leton	Dez de leton		1	3	3
-Dez ; en cuivre	Dez en cuivre		1	1	1
-Dez a coudre	Dez à coudre				
-Déz a coudre	Déz à coudre		1	1	21
-Dez à coudre	Dez à coudre		1	7	21
-Dez de fer a coudre	Dez de fer à coudre				
-Dez de leton	Dez de leton				
-Diactamy ; en fleurs	Diactamy en fleurs		1	1	4
+Dez ; à coudre	dez à coudre		1	8	21
+Dez ; à coudre ; de cuivre et fer	dez à coudre de cuivre et fer		1	1	1
+Dez ; à joüer	dez à joüer		1	1	2
+Dez ; d'acier	dez d'acier		1	3	3
+Dez ; de Cuivre	dez de Cuivre		1	1	18
+Dez ; de cuivre	dez de cuivre		1	17	18
+Dez ; de cuivre ; a coudre	dez de cuivre à coudre		1	1	3
+Dez ; de cuivre ; à coudre	dez de cuivre à coudre		1	2	3
+Dez ; de fer	dez de fer		1	13	13
+Dez ; de fer ; a coudre	dez de fer à coudre		1	1	1
+Dez ; de leton	dez de leton		1	3	3
+Dez ; en cuivre	dez en cuivre		1	1	1
+Dez a coudre	dez à coudre				
+Déz a coudre	déz à coudre		1	1	21
+Dez à coudre	dez à coudre		1	7	21
+Dez de fer a coudre	dez de fer à coudre				
+Dez de leton	dez de leton				
+Diactamy ; en fleurs	diactamy en fleurs		1	1	4
 dialbequier	dialbequier				
 Diamants fin	diamants fins		1	1	2
 Diamants fins	diamants fins		1	1	2
-Dictam	Dictam		1	1	2
+Dictam	dictam		1	1	2
 dictam	dictam				
-Dictamus	Dictamus		1	1	2
-Dictionnaire ; du commerce	Dictionnaire du commerce		1	1	1
-Dictionnaire hollandais	Dictionnaire hollandais				
-Dimelle	Dimelle		1	1	1
+Dictamus	dictamus		1	1	2
+Dictionnaire ; du commerce	dictionnaire du commerce		1	1	1
+Dictionnaire hollandais	dictionnaire hollandais				
+Dimelle	dimelle		1	1	1
 dimit	dimit		0	0	0
 dindes	dindes		0	0	0
-Dindonneaux	Dindonneaux				
-Dindons	Dindons				
-Dioxide de plomb	Dioxide de plomb		0	0	0
-Disques de charrue en fer	Disques de charrue en fer		0	0	0
-Dissouchaïe	Dissouchaïe		1	3	6
-Dissouchaye	Dissouchaye		1	3	6
-Distillats	Distillats		0	0	0
-Ditors	Ditors		1	2	2
-Divers articles	Divers articles		1	1	1
+Dindonneaux	dindonneaux				
+Dindons	dindons				
+Dioxide de plomb	dioxide de plomb		0	0	0
+Disques de charrue en fer	disques de charrue en fer		0	0	0
+Dissouchaïe	dissouchaïe		1	3	6
+Dissouchaye	dissouchaye		1	3	6
+Distillats	distillats		0	0	0
+Ditors	ditors		1	2	2
+Divers articles	divers articles		1	1	1
 divers gros et menus ouvrages de bois	divers gros et menus ouvrages de bois		0	0	0
-Divers marchandises	Divers marchandises		0	0	0
-Dividivi	Dividivi				
-Domino	Domino		1	1	2
-Dominos	Dominos		1	1	2
-Dominoterie	Dominoterie		1	114	114
-Dominoterie ; en images	Dominoterie en images		1	4	6
-Dominoterie ; images	Dominoterie images		1	2	6
-Dominoterie et cartes géographiques	Dominoterie et cartes géographiques		1	2	2
-Doreas	Doreas		1	2	5
-Doréas	Doréas		1	3	5
-Dorpins en Pierre	Dorpins en Pierre		1	1	1
-Dorure	Dorure		1	4	4
-Dorure ; ? ; en faux	Dorure ? en faux		1	1	1
-Dorure ; fausse	Dorure fausse		1	27	55
-Dorure ; fine	Dorure fine		1	223	510
-Dorure ; fine ; en galon ; d'or	Dorure fine en galon d'or		1	1	1
-Dorure ;fine	Dorure fine		1	2	510
-Dorure fausse	Dorure fausse				
-Dorure fausse en or et argent	Dorure fausse en or et argent		1	5	5
-Dorure fausse en or et argent battu, tiré et laminé	Dorure fausse en or et argent battu tiré et laminé		1	5	8
-Dorure fausse, en or et argent battu, tiré et laminé	Dorure fausse en or et argent battu tiré et laminé		1	3	8
-Dorure fine	Dorure fine		1	125	510
+Divers marchandises	divers marchandises		0	0	0
+Dividivi	dividivi				
+Domino	domino		1	1	2
+Dominos	dominos		1	1	2
+Dominoterie	dominoterie		1	114	114
+Dominoterie ; en images	dominoterie en images		1	4	6
+Dominoterie ; images	dominoterie images		1	2	6
+Dominoterie et cartes géographiques	dominoterie et cartes géographiques		1	2	2
+Doreas	doreas		1	2	5
+Doréas	doréas		1	3	5
+Dorpins en Pierre	dorpins en Pierre		1	1	1
+Dorure	dorure		1	4	4
+Dorure ; ? ; en faux	dorure ? en faux		1	1	1
+Dorure ; fausse	dorure fausse		1	27	55
+Dorure ; fine	dorure fine		1	223	510
+Dorure ; fine ; en galon ; d'or	dorure fine en galon d'or		1	1	1
+Dorure ;fine	dorure fine		1	2	510
+Dorure fausse	dorure fausse				
+Dorure fausse en or et argent	dorure fausse en or et argent		1	5	5
+Dorure fausse en or et argent battu, tiré et laminé	dorure fausse en or et argent battu tiré et laminé		1	5	8
+Dorure fausse, en or et argent battu, tiré et laminé	dorure fausse en or et argent battu tiré et laminé		1	3	8
+Dorure fine	dorure fine		1	125	510
 dorure fine	dorure fine				
-Dorures ; fausses	Dorures fausses		1	2	55
-Dorures ; fines	Dorures fines		1	4	4
-Dorures fausses	Dorures fausses		1	5	55
-Dorures fines	Dorures fines		1	125	510
-Doruze fausse	Doruze fausse				
-Dos de poisson	Dos de poisson		0	0	0
-Dospin ; en pierre	Dospin en pierre		1	1	1
-Dossiers ; de chaises	Dossiers de chaises		1	2	3
-Dossiers de chaises	Dossiers de chaises		1	1	3
-Double fil	Double fil		0	0	0
+Dorures ; fausses	dorures fausses		1	2	55
+Dorures ; fines	dorures fines		1	4	4
+Dorures fausses	dorures fausses		1	5	55
+Dorures fines	dorures fines		1	125	510
+Doruze fausse	doruze fausse				
+Dos de poisson	dos de poisson		0	0	0
+Dospin ; en pierre	dospin en pierre		1	1	1
+Dossiers ; de chaises	dossiers de chaises		1	2	3
+Dossiers de chaises	dossiers de chaises		1	1	3
+Double fil	double fil		0	0	0
 doublures de martre pour habits	doublures de martre pour habits		0	0	0
-Doublures de petis gris	Doublures de petis gris				
+Doublures de petis gris	doublures de petis gris				
 douel	douel		0	0	0
-Doüeles ; à tonneaux	Doüeles à tonneaux		1	4	23
-Doüelles	Doüelles		1	4	5
-Doüelles ; à baril	Doüelles à baril		1	1	3
-Doüelles ; à barils	Doüelles à barils		1	2	3
-Doüelles ; à barique	Doüelles à barique		1	3	25
-Doüelles ; à bariques	Doüelles à bariques		1	12	25
-Douelles ; a barriques	Douelles à barriques		1	2	25
-Doüelles ; à cuves	Doüelles à cuves		1	1	1
-Douelles ; a fonds	Douelles à fonds		1	1	4
-Doüelles ; à fonds	Doüelles à fonds		1	2	4
-Douelles ; a pipes	Douelles à pipes		1	1	18
-Doüelles ; à pipes	Doüelles à pipes		1	12	18
-Doüelles ; à quarts	Doüelles à quarts		1	3	6
-Doüelles ; à quartz	Doüelles à quartz		1	1	6
-Douelles ; a tierçons	Douelles à tierçons		1	1	1
-Doüelles ; à toneaux	Doüelles à toneaux		1	1	23
-Doüelles ; à tonneaux	Doüelles à tonneaux		1	15	23
-Doüelles ; bariques	Doüelles bariques		1	4	4
-Doüelles ; de sapin	Doüelles de sapin		1	5	6
-Doüelles ; de tonneaux	Doüelles de tonneaux		1	1	1
-Doüelles ; fonçaille	Doüelles fonçaille		1	2	2
-Douelles a Barique	Douelles à Barique		1	1	25
-Douelles a bariques	Douelles à bariques				
+Doüeles ; à tonneaux	doüeles à tonneaux		1	4	23
+Doüelles	doüelles		1	4	5
+Doüelles ; à baril	doüelles à baril		1	1	3
+Doüelles ; à barils	doüelles à barils		1	2	3
+Doüelles ; à barique	doüelles à barique		1	3	25
+Doüelles ; à bariques	doüelles à bariques		1	12	25
+Douelles ; a barriques	douelles à barriques		1	2	25
+Doüelles ; à cuves	doüelles à cuves		1	1	1
+Douelles ; a fonds	douelles à fonds		1	1	4
+Doüelles ; à fonds	doüelles à fonds		1	2	4
+Douelles ; a pipes	douelles à pipes		1	1	18
+Doüelles ; à pipes	doüelles à pipes		1	12	18
+Doüelles ; à quarts	doüelles à quarts		1	3	6
+Doüelles ; à quartz	doüelles à quartz		1	1	6
+Douelles ; a tierçons	douelles à tierçons		1	1	1
+Doüelles ; à toneaux	doüelles à toneaux		1	1	23
+Doüelles ; à tonneaux	doüelles à tonneaux		1	15	23
+Doüelles ; bariques	doüelles bariques		1	4	4
+Doüelles ; de sapin	doüelles de sapin		1	5	6
+Doüelles ; de tonneaux	doüelles de tonneaux		1	1	1
+Doüelles ; fonçaille	doüelles fonçaille		1	2	2
+Douelles a Barique	douelles à Barique		1	1	25
+Douelles a bariques	douelles à bariques				
 douelles à Bariques	douelles à Bariques		1	1	25
-Douelles a barques	Douelles à barques		1	1	25
+Douelles a barques	douelles à barques		1	1	25
 douelles à barrils	douelles à barrils				
 douelles a Barrique	douelles à Barrique		1	1	25
 douelles à barrique	douelles à barrique		1	1	25
-Douelles a barriques	Douelles à barriques		1	1	25
+Douelles a barriques	douelles à barriques		1	1	25
 douelles à barriques	douelles à barriques		1	1	25
-Douelles a fonde	Douelles à fonde		1	1	4
-Douelles a pipes	Douelles à pipes		1	1	18
+Douelles a fonde	douelles à fonde		1	1	4
+Douelles a pipes	douelles à pipes		1	1	18
 douelles a pipes	douelles à pipes		1	3	18
 douelles à pipes	douelles à pipes		1	1	18
 douelles a quarts	douelles à quarts		1	1	6
 douelles à Quarts	douelles à Quarts		1	1	6
-Douelles a tonneau	Douelles à tonneau		1	2	23
+Douelles a tonneau	douelles à tonneau		1	2	23
 douelles à tonneau	douelles à tonneau				
-Douelles a tonneaux	Douelles à tonneaux				
+Douelles a tonneaux	douelles à tonneaux				
 douelles à tonneaux	douelles à tonneaux				
 doüelles à tonneaux	doüelles à tonneaux				
-Douelles de sapin	Douelles de sapin				
+Douelles de sapin	douelles de sapin				
 douelles de Sapin	douelles de Sapin		1	1	6
 doüelles de sapin	doüelles de sapin				
 douelles; a barique	douelles à barique		1	1	25
 douelles; a pieces	douelles à pieces		1	1	1
-Doure ; fine	Doure fine		1	12	510
-Douvain	Douvain		0	0	0
-Douvelles	Douvelles		1	1	1
-Douvelles ; de sapin	Douvelles de sapin		1	1	1
-Douves	Douves		0	0	0
-Douves a tonneau	Douves à tonneau		1	1	10
-Douves a tonneaux	Douves à tonneaux		1	9	10
+Doure ; fine	doure fine		1	12	510
+Douvain	douvain		0	0	0
+Douvelles	douvelles		1	1	1
+Douvelles ; de sapin	douvelles de sapin		1	1	1
+Douves	douves		0	0	0
+Douves a tonneau	douves à tonneau		1	1	10
+Douves a tonneaux	douves à tonneaux		1	9	10
 douves à tonneaux	douves à tonneaux				
 douves de deux pouces	douves de deux pouces		0	0	0
-Douves en bois pour teinture en cuve	Douves en bois pour teinture en cuve		0	0	0
-Douves pour pipe	Douves pour pipe		0	0	0
-Douzaines de ?	Douzaines de ?		0	0	0
-Drach	Drach		1	1	12
-Drache	Drache		1	4	12
+Douves en bois pour teinture en cuve	douves en bois pour teinture en cuve		0	0	0
+Douves pour pipe	douves pour pipe		0	0	0
+Douzaines de ?	douzaines de ?		0	0	0
+Drach	drach		1	1	12
+Drache	drache		1	4	12
 drache	drache		0	0	0
 drache de bierre	drache de bierre		0	0	0
-Draches	Draches		1	6	12
-Dracodium	Dracodium		1	1	1
-Dragée	Dragée		1	7	99
-Dragees	Dragees		1	9	99
-Dragées	Dragées				
-Dragés	Dragés		1	1	99
+Draches	draches		1	6	12
+Dracodium	dracodium		1	1	1
+Dragée	dragée		1	7	99
+Dragees	dragees		1	9	99
+Dragées	dragées				
+Dragés	dragés		1	1	99
 dragonnes	dragonnes		0	0	0
-Dragonnes d'epées	Dragonnes d'epées		1	1	1
-Drague ; de bierre	Drague de bierre		1	1	2
-Dragues ; de brasserie	Dragues de brasserie		1	1	2
+Dragonnes d'epées	dragonnes d'epées		1	1	1
+Drague ; de bierre	drague de bierre		1	1	2
+Dragues ; de brasserie	dragues de brasserie		1	1	2
 Drap	Drap		1	5	13
 Drap , droguet ; fil et laine	Drap droguet fil et laine		1	1	1
 Drap ; à doubler	Drap à doubler		1	4	5
