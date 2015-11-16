@@ -2,12 +2,12 @@
 # -*- coding: utf8 -*-
 import csvkit
 import itertools
-import os 
+import os
 
 WRITE=True
 VERBOSE=True
 
-with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
+with open("../Fichiers de la base avant Neo4J/base_centrale/bdd_centrale.csv") as bdd_centrale:
 	reader=csvkit.reader(bdd_centrale)
 	data=list(reader)
 	headers_bdd_centrale=data[0]
@@ -50,7 +50,7 @@ with open("../base_centrale/bdd_centrale.csv") as bdd_centrale:
 			empty_columns.append(headers_bdd_centrale[i])
 			if VERBOSE:
 				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
-				
+
 		try :
 			with open(os.path.join("..","sources", k),"r") as s:
 				nb_lines_source=len(s.readlines())-1
@@ -87,7 +87,7 @@ with open("desagregate_bdd_centrale.csv","w") as csvreport_f:
 
 # Il faut enlever les colonnes qui sont vides pour une source donnée. Ces colonnes vides sont des colonnes qui n'existent que dans d'autres sources.
 
-# Passage de base centrale à Sources : 
+# Passage de base centrale à Sources :
 # Grouper les lignes par source
 # pour chaque groupe de ligne par sourcePath
 # on trie suivant la règle établie ci-dessus
