@@ -9,7 +9,7 @@ DIRECTIONS='../Fichiers de la base avant Neo4J/bdd_directions.csv'
 
 # Helpers
 def fix_source_type(sourcetype):
-  if sourcetype == u'Tableau Général 1839' or sourcetype == u'Tableau décennal':
+  if sourcetype == u'Tableau Général 1839' or sourcetype == u'Tableau décennal' or sourcetype == u'Tableau Décennal':
     return 'Divers'
   return sourcetype
 
@@ -37,7 +37,7 @@ with open(TARGET, 'w') as of:
   di = headers.index('direction')
 
   for row in flows[1:]:
-    # row[si] = fix_source_type(row[si])
+    row[si] = fix_source_type(row[si])
     row[di] = fix_direction(directions_index, row[di])
 
     writer.writerow(row)
