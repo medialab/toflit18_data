@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import itertools
 import csvkit
 import os
 
@@ -26,11 +25,11 @@ with open(DIRECTIONS, 'r') as df:
 
 # Reading the flows
 with open(TARGET, 'r') as tf:
-  flows = list(itertools.islice(csvkit.CSVKitReader(tf, encoding='utf-8'), 50))
+  flows = list(csvkit.CSVKitReader(tf, encoding='utf-8'))
   headers = flows[0]
 
 # Fixing the flows
-with open(DUMMY, 'w') as of:
+with open(TARGET, 'w') as of:
   writer = csvkit.CSVKitWriter(of, encoding='utf-8')
   writer.writerow(headers)
 
@@ -38,7 +37,7 @@ with open(DUMMY, 'w') as of:
   di = headers.index('direction')
 
   for row in flows[1:]:
-    row[si] = fix_source_type(row[si])
+    # row[si] = fix_source_type(row[si])
     row[di] = fix_direction(directions_index, row[di])
 
     writer.writerow(row)
