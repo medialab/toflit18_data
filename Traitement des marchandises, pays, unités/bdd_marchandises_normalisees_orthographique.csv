@@ -9,7 +9,7 @@ marchandises	marchandises_norm_ortho		source_bdc	nbr_bdc_marchandises	nbr_bdc_ma
 ?? (le douzaine)	??? la douzaine		0	0	0
 ???	???		0	0	0
 .	???		0	0	0
-...caille de Tortue	écaille de tortues		1	6	203
+...caille de Tortue	écaille de tortue		1	6	203
 ...copes	écope		1	1	1
 ...corces de citron	écorce de citron		0	0	0
 ...gouttoir à Fondre	égouttoirs à fondre		1	1	1
@@ -376,7 +376,7 @@ marchandises	marchandises_norm_ortho		source_bdc	nbr_bdc_marchandises	nbr_bdc_ma
 2///Matières premières///Houblon	matières premières houblon		1	2	254
 2///Matières premières///Huile d'olive pour fabriques	matières premières huile d'olive pour fabrique		1	16	190
 2///Matières premières///Huile de graine	matières premières huile de graine		1	6	375
-2///Matières premières///Huile de grains	matières premières huile de grains		1	4	375
+2///Matières premières///Huile de grains	matières premières huile de grain		1	4	375
 2///Matières premières///Huile de poisson	matières premières huile de poisson		1	22	981
 2///Matières premières///Huile de poissons	matières premières huile de poisson		1	6	981
 2///Matières premières///Huiles d'Olive pour fabriques	matières premières huile d'olive pour fabrique		1	4	190
@@ -505,7 +505,7 @@ Agrémens	agrément		1	3	16
 Agrémens ; au quart	agrément au quart		1	1	31
 Agrémens ; auquart	agrément au quart		1	1	2
 Agrémens ; de fil	agrément de fil		1	2	8
-Agrémens ; de fleurs	agrément de fleurs		1	1	1
+Agrémens ; de fleurs	agrément de fleur		1	1	1
 Agremens ; de soye	agrément de soie		1	8	47
 Agrémens ; de soye	agrément de soie		1	9	47
 Agremens ; de soye et d'argent	agrément de soie et d'argent		1	1	1
@@ -578,7 +578,7 @@ ail blanc à casé	ails blancs à casser		1	1	1
 Ailer	ailes		1	2	118
 Ailes	ailes		1	1	118
 ailes de fleaux	ailes de fléaux		0	0	0
-Ailes de moulin	ailes de moulin		0	0	0
+Ailes de moulin	ailes de moulins		0	0	0
 ailles	ailes		0	0	0
 Ailor	ailor		1	2	118
 Ails	ails		1	71	118
@@ -1123,7 +1123,7 @@ Armoir	armoires		1	1	33
 Armoire	armoires		1	5	33
 Armoire ; ayant servi	armoires ayant servi		1	1	1
 Armoire ; de chêne ; ornée	armoires de chêne ornée		1	1	1
-Armoire ; de chesne	armoires de chesne		1	2	4
+Armoire ; de chesne	armoires de chêne		1	2	4
 Armoire de noyer	armoires de noyer		1	1	2
 Armoire de Sapin	armoires de sapin		1	1	1
 Armoires	armoires		1	27	33
@@ -3262,7 +3262,7 @@ Bois ; Espars	bois espars		1	7	56
 Bois ; espars	bois espars		1	28	56
 Bois ; espars ; de 40 à 50 pieds	bois espars de 40 à 50 pieds		1	1	1
 Bois ; espars ; de 56 à 61 pieds	bois espars de 56 à 61 pieds		1	1	1
-Bois ; espars d; e 40 à 50 pieds	bois espars d e 40 à 50 pieds		1	1	1
+Bois ; espars d; e 40 à 50 pieds	bois espars de 40 à 50 pieds		1	1	1
 Bois ; Espart	bois espars		1	1	6
 Bois ; espart	bois espars		1	4	56
 Bois ; Esparts	bois espars		1	2	6
@@ -4170,7 +4170,7 @@ Bonnets de laine	bonnets de laine
 bonnets de laine	bonnets de laine				
 Bonnets de laine fins	bonnets de laine fins		1	1	1
 bonnets de laine, fil et cotton	bonnets de laine fil et coton		0	0	0
-bonnets de peaux	bonnets de peaux		0	0	0
+bonnets de peaux	bonnets de peau		0	0	0
 bonnets de postillons	bonnets de postillons		0	0	0
 bonnets de prêtres	bonnets de prêtre		0	0	0
 Bonnets de soye	bonnets de soie				
@@ -4428,7 +4428,7 @@ Bourdillons ; a barriques	bourdillons à barriques		1	1	1
 Bourdillons ; a tierçons	bourdillons à tierçons		1	1	1
 Bourdillons a quart	bourdillons à quart		1	2	2
 Boure ; de beuf	bourre de bœuf		1	2	2
-Boure ; de beuf et vaches	bourre de bœuf et vaches		1	1	1
+Boure ; de beuf et vaches	bourre de bœuf et vache		1	1	1
 Boure ; du Levant	bourre du Levant		1	2	4
 Boure de beuf	bourre de bœuf		1	1	102
 boure de beuf	bourre de bœuf		1	2	102
@@ -5597,7 +5597,7 @@ cantinnes	cantines		0	0	0
 Caoutchouc	caoutchouc		0	0	0
 Capalme	capalme		1	1	1
 Caparaçons	caparaçons		0	0	0
-caparaçons de peaux	caparaçons de peaux		0	0	0
+caparaçons de peaux	caparaçons de peau		0	0	0
 Caparassons	caparaçons		1	4	4
 Capas	capes		1	1	1
 Cape ; de camelot	capes de camelot		1	1	3
@@ -5797,7 +5797,7 @@ Carreaux (pour le sol)	carreaux pour le sol		0	0	0
 Carreaux à dentelle	carreaux à dentelle		1	1	4
 Carreaux a pave	carreaux à paver		1	1	8
 Carreaux a paver	carreaux à paver				
-Carreaux de briques	carreaux de briques				
+Carreaux de briques	carreaux de brique				
 Carreaux de Fayance	carreaux de faïence		1	1	15
 Carreaux de fayance	carreaux de faïence		1	2	15
 Carreaux de Fayence	carreaux de faïence		1	3	15
@@ -6405,7 +6405,7 @@ Chair ; salée ; en jambon	chair salée en jambon		1	1	50
 Chair ; salée ; jambon	chair salée jambon		1	2	50
 Chair ?	chair ???		1	1	1
 Chair de boucherie	chair de boucherie		1	6	6
-Chair de porc salée	chair de porcs salée				
+Chair de porc salée	chair de porc salée				
 chair et lard fraiche	chair et lard fraîche		0	0	0
 chair et lard salé et enfumé	chair et lard salé et enfumé		0	0	0
 Chair fumée	chair fumée				
@@ -6419,9 +6419,9 @@ Chair salée ; Boyaux	chair salée boyaux		1	1	3
 Chair salée ; Boyaux salés	chair salée boyaux salés		1	2	3
 Chair salée ; Chair de porc salée	chair salée chair de porc salée		1	11	54
 Chair salée ; Chaire de porc salée	chair salée chair de porc salée		1	10	54
-Chair salée ; cuisse d'Oye	chair salée cuisses d'oies		1	4	7
-Chair salée ; Cuisses d'oye	chair salée cuisses d'oies		1	1	7
-Chair salée ; Cuisses oye	chair salée cuisses d'oies		1	2	7
+Chair salée ; cuisse d'Oye	chair salée cuisses d'oie		1	4	7
+Chair salée ; Cuisses d'oye	chair salée cuisses d'oie		1	1	7
+Chair salée ; Cuisses oye	chair salée cuisses d'oie		1	2	7
 Chair salée ; De bœuf	chair salée de bœuf		1	5	48
 Chair salée ; De porc salée diverse	chair salée de porc salée diverse		1	2	54
 Chair salée ; De porc salés diverse	chair salée de porc salés diverse		1	2	54
@@ -6518,7 +6518,7 @@ Chaises ; de maroquin	chaises de maroquin		1	1	33
 Chaises ; de paille	chaises de paille		1	92	113
 chaises ; de paille	chaises de paille		1	6	33
 Chaises ; de paille ; en fauteuils	chaises de paille en fauteuils				
-Chaises ; de pailles ; en chaises	chaises de pailles en chaises				
+Chaises ; de pailles ; en chaises	chaises de paille en chaises				
 Chaises ; de poste	chaises de poste		1	4	12
 chaises ; de poste	chaises de poste		1	1	12
 Chaises ; de Rotin	chaises de rotin		1	1	11
@@ -6553,7 +6553,7 @@ Chaises de paille	chaises de paille		1	6	113
 Chaises de paillle	chaises de paillle				
 Chaises de passerame leurs arnoies	chaises de passer avec leurs harnois	x	1	1	1
 Chaises de postes	chaises de poste		1	1	12
-Chaises de Rotin	chaises de Rotin		1	1	11
+Chaises de Rotin	chaises de rotin		1	1	11
 Chaises de rotin	chaises de rotin		1	1	11
 Chaises de Rottin	chaises de rotin		1	1	11
 Chaises de rottins	chaises de rotin		1	1	11
@@ -6653,7 +6653,7 @@ Chanvre ; crù	chanvre cru		1	1	416
 Chanvre ; crû	chanvre cru		1	29	416
 Chanvre ; crü	chanvre cru		1	15	416
 Chanvre ; crud	chanvre cru		1	9	416
-Chanvre ; De masse	chanvre de masses	x	1	9	9
+Chanvre ; De masse	chanvre de masse	x	1	9	9
 Chanvre ; dit chenevolle	chanvre dit chenevolle	x	1	1	1
 Chanvre ; Divers	chanvre divers		1	33	38
 Chanvre ; divers	chanvre divers		1	5	38
@@ -6991,7 +6991,7 @@ Charbon de bois et de terre	charbon de bois et de terre		1	34	163
 Charbon de Terre	charbon de terre		1	233	778
 Charbon de terre	charbon de terre				
 charbon de terre	charbon de terre				
-charbon de terre à cuir chaux	charbon de terre à cuire chaux		0	0	0
+charbon de terre à cuir chaux	charbon de terre à cuir chaux		0	0	0
 Charbon de terre et de bois	charbon de terre et de bois		1	120	163
 Charbons	charbon		1	195	222
 Charbons ; De bois	charbon de bois		1	4	235
@@ -7674,8 +7674,8 @@ Cochons de lait	cochon de lait		1	2	27
 cochons de lait	cochon de lait		0	0	0
 Cochons salé	cochon salé		1	1	26
 Cochons salés	cochon salé				
-Coclaria	coclaria	x			
-Coclearia	coclaria	x	1	2	27
+Coclaria	coclearia				
+Coclearia	coclearia		1	2	27
 Coco	cocos		1	4	36
 Cocoa	cocoa	x	1	1	36
 Cocon	cocons		1	2	2
@@ -7697,7 +7697,7 @@ Cocqs d'indes	coqs d'Inde		1	1	6
 Coctif	coctif	x	1	1	1
 cocullus	cocullus	x	0	0	0
 coddes blancs	coddes blancs	x	0	0	0
-Codearia	coclaria	x	1	1	1
+Codearia	coclearia		1	1	1
 Coëffe ; de chapeau	coiffes de chapeaux		1	2	13
 Coëffe ; de Gaze	coiffes de gaze		1	1	2
 Coëffes ; à perruques	coiffes à perruques		1	1	1
@@ -7954,7 +7954,7 @@ Confutions d'hyacinthé	confection d'hyacinthe
 Congre	congres		1	6	30
 Congres	congres		1	24	30
 Connoissement	connaissement		1	1	1
-Conscrues ; de fleures d'orange	conserves de fleurs d'orange		1	1	1
+Conscrues ; de fleures d'orange	conserves de fleur d'orange		1	1	1
 Conserve d'Alkerme	conserve d'alkermès		1	1	1
 conserve de rose	conserve de rose				
 Conserve de roze	conserve de rose		1	1	1
@@ -7988,8 +7988,8 @@ Contrefoyer de fer	contrefoyer de fer	x	1	1	3
 Conty	conty	x	1	1	1
 Copeaux ; pour fourreaux d'épée	copeaux pour fourreaux d'épée		1	1	1
 Copeaux de bois	copeaux de bois		0	0	0
-coperose	coperose	x	0	0	0
-coperrose	coperose	x	0	0	0
+coperose	couperose	x	0	0	0
+coperrose	couperose	x	0	0	0
 Coqs ; d'Inde	coqs d'Inde		1	2	6
 Coqs ; d'Indes	coqs d'Inde		1	3	6
 Coque ; du levant	coque du Levant		1	1	1
@@ -8149,7 +8149,7 @@ Cordcillards	cordeillat	x	1	2	37
 Corde	cordes		0	0	0
 Corde ; à boyaux	cordes à boyaux		1	1	82
 corde de chanvre	cordes de chanvre				
-Corde en fibres	cordes en fibres		0	0	0
+Corde en fibres	cordes en fibre		0	0	0
 Cordeillar	cordeillat	x	1	2	37
 Cordeillard	cordeillat	x	1	13	37
 Cordeillards	cordeillat	x	1	11	37
@@ -8160,10 +8160,10 @@ Cordeillat de provence	cordeillat de Provence	x
 Corder a corder	cordes à corder				
 Cordes ; à arçon	cordes à arçons		0	0	0
 Cordes ; à arçons	cordes à arçons		1	2	5
-Cordes ; à boyau	cordes à boyaux		1	6	82
-Cordes ; a boyaux	cordes à boyaux		1	3	82
-Cordes ; à boyaux	cordes à boyaux		1	45	82
-Cordes ; à boyaux et à violon	cordes à boyaux et à violons		1	2	2
+Cordes ; à boyau	cordes à boyau		1	6	82
+Cordes ; a boyaux	cordes à boyau		1	3	82
+Cordes ; à boyaux	cordes à boyau		1	45	82
+Cordes ; à boyaux et à violon	cordes à boyau et à violons		1	2	2
 Cordes ; à carder	cordes à carder		1	3	4
 Cordes ; à foüet	cordes à fouets		1	1	4
 Cordes ; à instruments	cordes à instruments		1	2	5
@@ -8172,7 +8172,7 @@ Cordes ; à violon	cordes à violons		1	19	91
 Cordes ; à violons	cordes à violons		1	42	91
 Cordes ; d'arçon	cordes d'arçons		1	1	5
 Cordes ; d'arçons	cordes d'arçons		1	2	91
-Cordes ; de boyaux	cordes de boyaux		1	1	1
+Cordes ; de boyaux	cordes de boyau		1	1	1
 Cordes ; de chanvre	cordes de chanvre		1	5	91
 Cordes ; de chil	cordes de thil		1	1	2352
 Cordes ; de guitarre	cordes de guitare		1	1	1
@@ -8193,15 +8193,15 @@ Cordes d'auf	cordes d'auf		1	7	7
 cordes d'auf	cordes d'auf				
 Cordes d'instrumens	cordes d'instruments		1	3	5
 Cordes d'or	cordes d'or		1	1	1
-Cordes de Boyau	cordes de boyaux				
-cordes de boyaux	cordes de boyaux		0	0	0
+Cordes de Boyau	cordes de boyau				
+cordes de boyaux	cordes de boyau		0	0	0
 Cordes de chanvre	cordes de chanvre		1	1	1
 cordes de chanvre	cordes de chanvre				
 cordes de fil de fer	cordes de fil de fer				
 Cordes de guitare	cordes de guitare				
 Cordes de joncs	cordes de jonc				
 cordes de violons	cordes de violons		0	0	0
-Cordes en boyaux	cordes en boyaux		1	3	82
+Cordes en boyaux	cordes en boyau		1	3	82
 cordes et boyau	cordes et boyaux		1	1	2
 Cordes et cordages	cordes et cordage		1	1	2
 cordes et ecorces de tilleul	cordes et écorce de tilleul		0	0	0
@@ -8263,11 +8263,11 @@ Cornatines	cornalines		1	2	2
 Corne ; a lanterne	cornes à lanternes		1	1	132
 Corne ; à lanterne	cornes à lanternes		1	9	132
 Corne ; de beuf	cornes de bœuf		1	6	125
-Corne ; de beuf et vache	cornes de bœuf et vaches		1	1	16
+Corne ; de beuf et vache	cornes de bœuf et vache		1	1	16
 Corne ; de bœuf	cornes de bœuf		1	1	125
 Corne ; de cerf	cornes de cerf		1	11	100
 Corne ; de cerf ; dupié	cornes de cerf dupié	x	1	1	2352
-Corne ; de vache	cornes de vaches		1	2	4
+Corne ; de vache	cornes de vache		1	2	4
 Corne ; plate	cornes plates		1	1	27
 Corne A Lanterne	cornes à lanternes		1	2	132
 Corne a Lanterne	cornes à lanternes		1	4	132
@@ -8278,7 +8278,7 @@ Corne à lanterne	cornes à lanternes		1	1	132
 Corne à lanternes	cornes à lanternes		1	1	132
 Corne de cerf	cornes de cerf		1	4	100
 corne de cerf	cornes de cerf				
-Corne de mouton	cornes de moutons		1	1	27
+Corne de mouton	cornes de mouton		1	1	27
 corne en feuilles	cornes en feuilles				
 Corne Platte	cornes plates		1	1	27
 corne platte	cornes plates				
@@ -8299,7 +8299,7 @@ Cornes ; bruttes	cornes brutes		1	2	2
 Cornes ; de ...	cornes de ???		1	2	3
 Cornes ; de betail	cornes de bétail		1	2	125
 Cornes ; de beuf	cornes de bœuf		1	61	125
-Cornes ; de beuf et vaches	cornes de bœuf et vaches		1	1	1
+Cornes ; de beuf et vaches	cornes de bœuf et vache		1	1	1
 Cornes ; de beufs	cornes de bœuf		1	5	125
 Cornes ; de Boeuf	cornes de bœuf		1	3	125
 Cornes ; de boeuf	cornes de bœuf		1	10	125
@@ -8311,12 +8311,12 @@ Cornes ; De cerf	cornes de cerf		1	1	100
 Cornes ; de cerf	cornes de cerf		1	76	100
 Cornes ; De cerfs	cornes de cerf		1	6	100
 Cornes ; de lanterne	cornes de lanternes		1	3	4
-Cornes ; de Mouton	cornes de moutons		1	5	149
-Cornes ; de mouton	cornes de moutons		1	119	149
-Cornes ; De moutons	cornes de moutons		1	15	149
-Cornes ; de moutons	cornes de moutons		1	8	149
+Cornes ; de Mouton	cornes de mouton		1	5	149
+Cornes ; de mouton	cornes de mouton		1	119	149
+Cornes ; De moutons	cornes de mouton		1	15	149
+Cornes ; de moutons	cornes de mouton		1	8	149
 Cornes ; de platte	cornes de plate		1	1	27
-Cornes ; De vaches	cornes de vaches		1	1	4
+Cornes ; De vaches	cornes de vache		1	1	4
 Cornes ; de verre	cornes de verre		1	2	2
 Cornes ; Diverses	cornes diverses		1	5	76
 Cornes ; diverses	cornes diverses		1	1	76
@@ -8341,17 +8341,17 @@ Cornes de Beuf	cornes de bœuf		1	1	125
 Cornes de beuf	cornes de bœuf		1	1	125
 cornes de beuf	cornes de bœuf				
 Cornes de Bœuf	cornes de bœuf		1	1	125
-Cornes de bœuf et de vache	cornes de bœuf et de vaches		1	10	16
-Cornes de bœuf et de vaches	cornes de bœuf et de vaches		1	5	16
-cornes de bœufs et vaches sans apprets	cornes de bœuf et vaches sans apprêts		0	0	0
-cornes de boucs et chèvre	cornes de boucs et chèvres		0	0	0
+Cornes de bœuf et de vache	cornes de bœuf et de vache		1	10	16
+Cornes de bœuf et de vaches	cornes de bœuf et de vache		1	5	16
+cornes de bœufs et vaches sans apprets	cornes de bœuf et vache sans apprêts		0	0	0
+cornes de boucs et chèvre	cornes de bouc et chèvre		0	0	0
 Cornes de cerf	cornes de cerf		1	1	100
 cornes de cerf	cornes de cerf		0	0	0
 Cornes de divers bestiaux	cornes de divers bestiaux		1	10	76
-Cornes de mouton	cornes de moutons		1	2	149
-cornes de mouton	cornes de moutons				
-cornes de moutons	cornes de moutons				
-cornes de vaches	cornes de vaches		0	0	0
+Cornes de mouton	cornes de mouton		1	2	149
+cornes de mouton	cornes de mouton				
+cornes de moutons	cornes de mouton				
+cornes de vaches	cornes de vache		0	0	0
 Cornes diverses	cornes diverses		1	60	76
 Cornet de soye	cornet de soie				
 Cornichons	cornichons		1	38	39
@@ -8373,14 +8373,14 @@ corous	corou	x	1	4	54
 Corps ; de jupe	corps de jupe		1	2	5
 Corps ; de jupes	corps de jupe		1	1	5
 Corps ; piqués	corps piqué		1	1	1
-corps d'arbre brut	corps d'arbres bruts		0	0	0
-corps d'arbre reduit en pieds de gittes	corps d'arbres réduits en pieds de gittes		0	0	0
-corps d'arbres	corps d'arbres		0	0	0
-corps d'arbres de 20 à 30 pieds	corps d'arbres de 20 à 30 pieds		0	0	0
-corps d'arbres de 30 à 40 pieds	corps d'arbres de 30 à 40 pieds		0	0	0
-corps d'arbres de 40 à 50 pieds	corps d'arbres de 40 à 50 pieds		0	0	0
-corps d'arbres de la longeur de 50 à 60 pieds	corps d'arbres de la longeur de 50 à 60 pieds		0	0	0
-corps d'arbres en dessous de 20 pieds	corps d'arbres en dessous de 20 pieds		0	0	0
+corps d'arbre brut	corps d'arbre bruts		0	0	0
+corps d'arbre reduit en pieds de gittes	corps d'arbre réduits en pieds de gittes		0	0	0
+corps d'arbres	corps d'arbre		0	0	0
+corps d'arbres de 20 à 30 pieds	corps d'arbre de 20 à 30 pieds		0	0	0
+corps d'arbres de 30 à 40 pieds	corps d'arbre de 30 à 40 pieds		0	0	0
+corps d'arbres de 40 à 50 pieds	corps d'arbre de 40 à 50 pieds		0	0	0
+corps d'arbres de la longeur de 50 à 60 pieds	corps d'arbre de la longeur de 50 à 60 pieds		0	0	0
+corps d'arbres en dessous de 20 pieds	corps d'arbre en dessous de 20 pieds		0	0	0
 Corps de jupes	corps de jupe		1	1	5
 corps de juppe	corps de jupe		0	0	0
 corrois de fusils	courroies de fusils		0	0	0
@@ -8634,8 +8634,8 @@ Couleurs diverses	couleurs diverses		1	9	13
 Couleurs et teintures diverses fabriquées	couleurs et teinture diverses fabriquées		1	19	97
 Couleurs et teintures diverses préparées	couleurs et teinture diverses préparées		1	64	97
 Couleurs et teintures préparées	couleurs et teinture préparées		1	14	97
-Couperode ; blanche	couperode blanche		1	2	25
-Couperode ; verte	couperode verte	x	1	10	103
+Couperode ; blanche	couperose blanche	x	1	2	25
+Couperode ; verte	couperose verte	x	1	10	103
 Couperon	couperon	x	1	5	431
 Couperons verte	couperon verte	x	1	1	103
 Couperose	couperose	x			
@@ -8771,8 +8771,8 @@ Couty d'Hollande	couty de Hollande	x	1	2	3
 Couty d'hollande	couty de Hollande	x	1	1	3
 Couvercles ; de fer	couvercles de fer		1	1	1
 Couvercles de marmittes en fer	couvercles de marmites en fer				
-couvertes d'etouppe	couvertes d'étoupes	x	0	0	0
-couvertes d'etouppe de laine	couvertes d'étoupes de laine	x	0	0	0
+couvertes d'etouppe	couvertes d'étoupe	x	0	0	0
+couvertes d'etouppe de laine	couvertes d'étoupe de laine	x	0	0	0
 couvertes de cotton	couvertes de coton	x	0	0	0
 couvertes de laine	couvertes de laine	x	0	0	0
 couvertes de lisières	couvertes de lisière	x	0	0	0
@@ -8781,9 +8781,9 @@ couvertes pour chevaux	couvertes pour chevaux	x	0	0	0
 Couverts en argent	couverts en argent		0	0	0
 Couverture	couvertures		1	1	5
 Couverture ; à negre	couvertures à nègre		1	1	15
-Couverture ; d' etoupe	couvertures d'étoupes		1	1	18
-Couverture ; d'étoupe	couvertures d'étoupes		1	1	18
-Couverture ; d'étoupes	couvertures d'étoupes		1	1	18
+Couverture ; d' etoupe	couvertures d'étoupe		1	1	18
+Couverture ; d'étoupe	couvertures d'étoupe		1	1	18
+Couverture ; d'étoupes	couvertures d'étoupe		1	1	18
 Couverture ; de coton	couvertures de coton		1	3	72
 Couverture ; de crin	couvertures de crin		1	1	1
 couverture ; de l'aine	couvertures de laine		1	1	35
@@ -8809,13 +8809,13 @@ Couvertures ; à Negres	couvertures à nègre		1	7	15
 Couvertures ; à negres	couvertures à nègre		1	1	15
 Couvertures ; à nègres	couvertures à nègre		1	3	15
 Couvertures ; à neigres	couvertures à nègre		1	1	15
-Couvertures ; d'ecoupes	couvertures d'étoupes		1	1	18
+Couvertures ; d'ecoupes	couvertures d'étoupe		1	1	18
 Couvertures ; d'Elbeuf	couvertures d'Elbeuf		1	1	1
-Couvertures ; d'Etoupe	couvertures d'étoupes		1	1	18
-Couvertures ; d'etoupe	couvertures d'étoupes		1	4	18
-Couvertures ; d'étoupe	couvertures d'étoupes		1	2	18
-Couvertures ; d'etoupes	couvertures d'étoupes		1	3	18
-Couvertures ; d'étoupes	couvertures d'étoupes		1	3	18
+Couvertures ; d'Etoupe	couvertures d'étoupe		1	1	18
+Couvertures ; d'etoupe	couvertures d'étoupe		1	4	18
+Couvertures ; d'étoupe	couvertures d'étoupe		1	2	18
+Couvertures ; d'etoupes	couvertures d'étoupe		1	3	18
+Couvertures ; d'étoupes	couvertures d'étoupe		1	3	18
 Couvertures ; d'Indienne	couvertures d'indienne		1	1	3
 Couvertures ; d'indienne	couvertures d'indienne		1	2	3
 Couvertures ; de B....	couvertures de B ???		1	1	5
@@ -9036,27 +9036,27 @@ Crin	crin		1	510	524
 crin	crin		1	1	524
 Crin ; aprêté et frisé	crin apprêté et frisé		1	5	5
 Crin ; brut	crin brut		1	5	6
-Crin ; de cheval	crin de chevaux		1	8	17
-crin ; de cheval	crin de chevaux		1	1	17
-Crin ; de cheval ; brut	crin de chevaux brut		1	1	1
-Crin ; de cheval ; griporé	crin de chevaux griporé	x	1	1	1
+Crin ; de cheval	crin de cheval		1	8	17
+crin ; de cheval	crin de cheval		1	1	17
+Crin ; de cheval ; brut	crin de cheval brut		1	1	1
+Crin ; de cheval ; griporé	crin de cheval griporé	x	1	1	1
 Crin ; frisé	crin frisé		1	13	26
 Crin ; frizé	crin frisé		1	1	26
 Crin ; plan	crin plan	x	1	1	10
 Crin ; plat	crin plat		1	9	10
 Crin ; pour habit d'homme	crin pour habit d'homme		1	1	1
 Crin brut	crin brut		1	1	6
-Crin de Cheval	crin de chevaux				
-Crin de cheval	crin de chevaux				
-crin de cheval	crin de chevaux		0	0	0
-crin de cheval ouvré	crin de chevaux ouvré		0	0	0
+Crin de Cheval	crin de cheval				
+Crin de cheval	crin de cheval				
+crin de cheval	crin de cheval		0	0	0
+crin de cheval ouvré	crin de cheval ouvré		0	0	0
 Crin filé	crin filé		1	1	1
 Crin frisé	crin frisé		1	9	26
 Crin frizé	crin frisé		1	1	26
 Crin; frisé	crin frisé		1	1	26
 crin;frisé	crin frisé		1	1	26
 Crinieres	crinières		1	1	1
-Crins ; de cheval	crin de chevaux		1	2	17
+Crins ; de cheval	crin de cheval		1	2	17
 Crins à pécher	crin à pêcher		1	1	1
 Cristal	cristal		1	20	89
 cristal	cristal				
@@ -9127,7 +9127,7 @@ Cubeber	cubeber	x
 Cubeber ; Sorte de baie de poivre utilisé à la fois comme épice et médicament	cubeber 	x	0	0	0
 Cubebes	cubeber	x	1	10	12
 Cuiabre boyé	cinabre boyé		1	1	1
-Cuids de vache tannés	cuirs de vaches tannés				
+Cuids de vache tannés	cuirs de vache tannés				
 Cuillères ; de bois	cuillères de bois		1	1	14
 Cuilleres de bois	cuillères de bois		1	2	14
 cuilleres de bois	cuillères de bois				
@@ -9150,20 +9150,20 @@ Cuir ; de beuf ; tané	cuirs de bœuf tannés		1	1	459
 Cuir ; de beuf ; tannés	cuirs de bœuf tannés		1	17	459
 Cuir ; de bœuf ; en poil	cuirs de bœuf en poil		1	1	561
 Cuir ; de bœuf ; tané	cuirs de bœuf tannés		1	1	459
-Cuir ; de cheval	cuirs de chevaux		1	3	3
-Cuir ; de cheval tannés	cuirs de chevaux tannés		1	1	50
-Cuir ; de genisse corroyés	cuirs de génisses corroyés		1	3	66
+Cuir ; de cheval	cuirs de cheval		1	3	3
+Cuir ; de cheval tannés	cuirs de cheval tannés		1	1	50
+Cuir ; de genisse corroyés	cuirs de génisse corroyés		1	3	66
 Cuir ; de Roussy	cuirs de Russie		1	8	17
 Cuir ; de roussy	cuirs de Russie		1	9	17
 Cuir ; de Russie	cuirs de Russie		1	10	212
 Cuir ; de russie	cuirs de Russie		1	4	212
-Cuir ; de vache ; corroyé	cuirs de vaches corroyés		1	2	78
-Cuir ; de vache ; corroyés	cuirs de vaches corroyés		1	2	78
-Cuir ; de vache ; de Russie	cuirs de vaches de Russie		1	2	2
-cuir ; de vache ; en grain	cuirs de vaches en grains		1	1	1
-Cuir ; de vache ; en poil	cuirs de vaches en poil		1	3	148
-Cuir ; de vache ; tanné	cuirs de vaches tannés		1	1	195
-Cuir ; de vache ; tannés	cuirs de vaches tannés		1	3	195
+Cuir ; de vache ; corroyé	cuirs de vache corroyés		1	2	78
+Cuir ; de vache ; corroyés	cuirs de vache corroyés		1	2	78
+Cuir ; de vache ; de Russie	cuirs de vache de Russie		1	2	2
+cuir ; de vache ; en grain	cuirs de vache en grains		1	1	1
+Cuir ; de vache ; en poil	cuirs de vache en poil		1	3	148
+Cuir ; de vache ; tanné	cuirs de vache tannés		1	1	195
+Cuir ; de vache ; tannés	cuirs de vache tannés		1	3	195
 Cuir ; en echantillons	cuirs en échantillons		1	1	1
 Cuir ; en poil	cuirs en poil		1	3	3
 Cuir ; ouvré	cuirs ouvrés		1	1	1
@@ -9186,14 +9186,14 @@ cuir de beuf tanné	cuirs de bœuf tannés
 Cuir de bœuf	cuirs de bœuf		0	0	0
 Cuir de bœuf en poil	cuirs de bœuf en poil		1	1	561
 Cuir De Bœuf en Poile	cuirs de bœuf en poil				
-cuir de bœuf et vache en poil	cuirs de bœuf et vaches en poil				
+cuir de bœuf et vache en poil	cuirs de bœuf et vache en poil				
 cuir de bœuf tanné	cuirs de bœuf tannés				
 Cuir de Bosan	cuirs de Bosan	x	0	0	0
-cuir de buffle	cuirs de buffles				
+cuir de buffle	cuirs de buffle				
 Cuir de cerf	cuirs de cerf		0	0	0
-Cuir de cheval tanné	cuirs de chevaux tannés		1	1	459
-Cuir de chèvre	cuirs de chèvres		0	0	0
-Cuir de porc	cuirs de porcs		0	0	0
+Cuir de cheval tanné	cuirs de cheval tannés		1	1	459
+Cuir de chèvre	cuirs de chèvre		0	0	0
+Cuir de porc	cuirs de porc		0	0	0
 Cuir de roussi	cuirs de Russie		1	1	212
 Cuir de Roussy	cuirs de Russie				
 Cuir de roussy	cuirs de Russie		1	3	212
@@ -9201,10 +9201,10 @@ cuir de Roussy	cuirs de Russie
 cuir de roussy	cuirs de Russie				
 Cuir de Russie	cuirs de Russie				
 cuir de Russie	cuirs de Russie		1	2	212
-Cuir de vache	cuirs de vaches		1	1	5
-cuir de vache de roussy	cuirs de vaches de Russie				
-cuir de vache de sardaigne	cuirs de vaches de Sardaigne				
-Cuir De Vache tannées	cuirs de vaches tannés				
+Cuir de vache	cuirs de vache		1	1	5
+cuir de vache de roussy	cuirs de vache de Russie				
+cuir de vache de sardaigne	cuirs de vache de Sardaigne				
+Cuir De Vache tannées	cuirs de vache tannés				
 Cuir doré	cuirs dorés		0	0	0
 cuir doré	cuirs dorés				
 Cuir en Bassins	cuirs en bassins		1	1	1
@@ -9229,41 +9229,41 @@ Cuirasses	cuirasses		0	0	0
 cuirasses	cuirasses		0	0	0
 Cuird fr beuf tannés	cuirs de bœuf tannés		1	1	459
 Cuire	cuirs		1	1	35
-cuire de bœuf et vaches en poil	cuirs de bœuf et vaches en poil				
+cuire de bœuf et vaches en poil	cuirs de bœuf et vache en poil				
 Cuire De Boueuf Tannées	cuirs de bœuf tannés				
 Cuire de Roussy	cuirs de Russie		1	2	212
 cuire de russy	cuirs de Russie				
-Cuire De Vache de Russie	cuirs de vaches de Russie				
+Cuire De Vache de Russie	cuirs de vache de Russie				
 Cuire Doré	cuirs dorés				
 Cuire Ouvré	cuire ouvrés		1	1	117
 Cuire rouge	cuirs rouges		1	1	1
-Cuireaux ; de mouton ; à faire colle	cuireaux de moutons à faire colle	x	1	2	2
+Cuireaux ; de mouton ; à faire colle	cuireaux de mouton à faire colle	x	1	2	2
 Cuires de beuf tannées	cuirs de bœuf tannés		1	1	459
 Cuires de roussy	cuirs de Russie		1	1	212
 Cuires de Russie	cuirs de Russie				
-Cuires de vache tannées	cuirs de vaches tannés		1	1	195
-Cuires de vache tannés	cuirs de vaches tannés		1	1	195
+Cuires de vache tannées	cuirs de vache tannés		1	1	195
+Cuires de vache tannés	cuirs de vache tannés		1	1	195
 Cuirs	cuirs		1	33	35
 Cuirs , de beuf ; tannés	cuirs de bœuf tannés		1	7	459
 Cuirs ; A prêter ; De bœufs	cuirs apprêtés de bœuf		1	1	21
 Cuirs ; appretés	cuirs apprêtés		1	1	259
 Cuirs ; Apprêtés ; De bœufs	cuirs apprêtés de bœuf		1	6	21
-Cuirs ; Apprêtés ; De vaches	cuirs apprêtés de vaches		1	6	21
-Cuirs ; Aprêtés de vaches	cuirs apprêtés de vaches		1	1	1
+Cuirs ; Apprêtés ; De vaches	cuirs apprêtés de vache		1	6	21
+Cuirs ; Aprêtés de vaches	cuirs apprêtés de vache		1	1	1
 Cuirs ; blancs	cuirs blancs		1	1	1
 Cuirs ; corroiés	cuirs corroyés		1	6	10
 Cuirs ; corroyés	cuirs corroyés		1	4	10
-Cuirs ; corroyés ; de vaches	cuirs corroyés de vaches		1	1	78
-Cuirs ; Corroyés de vaches	cuirs corroyés de vaches		1	3	78
+Cuirs ; corroyés ; de vaches	cuirs corroyés de vache		1	1	78
+Cuirs ; Corroyés de vaches	cuirs corroyés de vache		1	3	78
 Cuirs ; Corroyés divers	cuirs corroyés divers		1	3	3
-Cuirs ; d'asne	cuirs d'ânes		1	8	10
-Cuirs ; d'asne ; en poil	cuirs d'ânes en poil		1	2	2
-Cuirs ; d'asnes	cuirs d'ânes		1	2	10
-Cuirs ; d'asnes ; en poil	cuirs d'ânes en poil		1	1	1
+Cuirs ; d'asne	cuirs d'âne		1	8	10
+Cuirs ; d'asne ; en poil	cuirs d'âne en poil		1	2	2
+Cuirs ; d'asnes	cuirs d'âne		1	2	10
+Cuirs ; d'asnes ; en poil	cuirs d'âne en poil		1	1	1
 Cuirs ; d'empeigne	cuirs d'empeignes		1	1	1
 Cuirs ; d'Hongrie	cuirs de Hongrie		1	14	33
 Cuirs ; d'hongrie	cuirs de Hongrie		1	17	33
-Cuirs ; de ? ; de Naches	cuirs de ??? de vaches		1	1	1
+Cuirs ; de ? ; de Naches	cuirs de ??? de vache		1	1	1
 Cuirs ; de ? ; en poil	cuirs de ??? en poil		1	1	1
 Cuirs ; de beuf ; aprestée	cuirs de bœuf apprêtés		1	1	21
 Cuirs ; de beuf ; aprestés	cuirs de bœuf apprêtés		1	2	21
@@ -9286,78 +9286,78 @@ Cuirs ; de bœuf ; en poil	cuirs de bœuf en poil		1	99	561
 Cuirs ; de bœuf ; en poils	cuirs de bœuf en poil		1	1	561
 Cuirs ; de bœuf ; tanné	cuirs de bœuf tannés		1	1	459
 Cuirs ; de bœuf ; tannés	cuirs de bœuf tannés		1	63	459
-Cuirs ; de bœuf et vache ; aprêtés	cuirs de bœuf et vaches apprêtés		1	1	1
-Cuirs ; de bœuf ou vache	cuirs de bœuf ou vaches		1	8	14
+Cuirs ; de bœuf et vache ; aprêtés	cuirs de bœuf et vache apprêtés		1	1	1
+Cuirs ; de bœuf ou vache	cuirs de bœuf ou vache		1	8	14
 Cuirs ; de bœuf tanés	cuirs de bœuf tannés		1	1	459
 Cuirs ; de bœuf tannés	cuirs de bœuf tannés		1	2	2
 Cuirs ; de bœufs	cuirs de bœuf		1	1	14
 Cuirs ; de bœufs ; en poil	cuirs de bœuf en poil		1	12	37
 Cuirs ; de bœufs ; tannés	cuirs de bœuf tannés		1	6	459
 cuirs ; de cheval	cuirs de chevaux		1	1	1
-Cuirs ; de cheval ; en poil	cuirs de chevaux en poil		1	24	37
-Cuirs ; de cheval ; tanné	cuirs de chevaux tannés		1	1	37
-Cuirs ; de cheval ; tannés	cuirs de chevaux tannés		1	46	50
-Cuirs ; de cheval tannés	cuirs de chevaux tannés		1	2	50
-Cuirs ; de genises corroyées	cuirs de génisses corroyés		1	4	66
-Cuirs ; de Genisse	cuirs de génisses		1	1	9
-Cuirs ; de genisse	cuirs de génisses		1	2	9
-Cuirs ; de génisse	cuirs de génisses		1	2	9
-Cuirs ; de genisse ; corroiés	cuirs de génisses corroyés		1	3	66
-Cuirs ; de Genisse ; corroïés	cuirs de génisses corroyés		1	1	66
-Cuirs ; de génisse ; corroïés	cuirs de génisses corroyés		1	3	66
-Cuirs ; de genisse ; corroyés	cuirs de génisses corroyés		1	7	66
-Cuirs ; de génisse ; corroyés	cuirs de génisses corroyés		1	15	66
-Cuirs ; de genisse ; en poil	cuirs de génisses en poil		1	3	5
-Cuirs ; de génisse ; en poil	cuirs de génisses en poil		1	1	5
-Cuirs ; de genisse corroies	cuirs de génisses corroyés		1	5	66
-Cuirs ; de genisse corroïés	cuirs de génisses corroyés		1	3	66
-Cuirs ; de genisse corroyés	cuirs de génisses corroyés		1	7	66
-Cuirs ; de génisse corroyés	cuirs de génisses corroyés		1	2	66
-Cuirs ; de génisse; corroyé	cuirs de génisses corroyés		1	2	66
-Cuirs ; de genisses	cuirs de génisses		1	4	9
-Cuirs ; de genisses ; corroïés	cuirs de génisses corroyés		1	3	66
-Cuirs ; de genisses ; corroyés	cuirs de génisses corroyés		1	3	66
-Cuirs ; de genisses ; en poil	cuirs de génisses en poil		1	1	5
-Cuirs ; de genisses corroyés	cuirs de génisses corroyés		1	5	66
+Cuirs ; de cheval ; en poil	cuirs de cheval en poil		1	24	37
+Cuirs ; de cheval ; tanné	cuirs de cheval tannés		1	1	37
+Cuirs ; de cheval ; tannés	cuirs de cheval tannés		1	46	50
+Cuirs ; de cheval tannés	cuirs de cheval tannés		1	2	50
+Cuirs ; de genises corroyées	cuirs de génisse corroyés		1	4	66
+Cuirs ; de Genisse	cuirs de génisse		1	1	9
+Cuirs ; de genisse	cuirs de génisse		1	2	9
+Cuirs ; de génisse	cuirs de génisse		1	2	9
+Cuirs ; de genisse ; corroiés	cuirs de génisse corroyés		1	3	66
+Cuirs ; de Genisse ; corroïés	cuirs de génisse corroyés		1	1	66
+Cuirs ; de génisse ; corroïés	cuirs de génisse corroyés		1	3	66
+Cuirs ; de genisse ; corroyés	cuirs de génisse corroyés		1	7	66
+Cuirs ; de génisse ; corroyés	cuirs de génisse corroyés		1	15	66
+Cuirs ; de genisse ; en poil	cuirs de génisse en poil		1	3	5
+Cuirs ; de génisse ; en poil	cuirs de génisse en poil		1	1	5
+Cuirs ; de genisse corroies	cuirs de génisse corroyés		1	5	66
+Cuirs ; de genisse corroïés	cuirs de génisse corroyés		1	3	66
+Cuirs ; de genisse corroyés	cuirs de génisse corroyés		1	7	66
+Cuirs ; de génisse corroyés	cuirs de génisse corroyés		1	2	66
+Cuirs ; de génisse; corroyé	cuirs de génisse corroyés		1	2	66
+Cuirs ; de genisses	cuirs de génisse		1	4	9
+Cuirs ; de genisses ; corroïés	cuirs de génisse corroyés		1	3	66
+Cuirs ; de genisses ; corroyés	cuirs de génisse corroyés		1	3	66
+Cuirs ; de genisses ; en poil	cuirs de génisse en poil		1	1	5
+Cuirs ; de genisses corroyés	cuirs de génisse corroyés		1	5	66
 Cuirs ; de Hongrie	cuirs de Hongrie		1	2	33
-Cuirs ; de Nache coroiés	cuirs de vaches corroyés		1	3	78
+Cuirs ; de Nache coroiés	cuirs de vache corroyés		1	3	78
 Cuirs ; de Roufic	cuirs de Russie		1	2	212
 Cuirs ; de Roussy	cuirs de Russie		1	13	212
 Cuirs ; de Russie	cuirs de Russie		1	119	212
 Cuirs ; de russie	cuirs de Russie		1	8	212
 Cuirs ; de secs ; en poil	cuirs de secs en poil		1	1	1
-Cuirs ; de vache	cuirs de vaches		1	4	5
-Cuirs ; de vache ; carroiés	cuirs de vaches corroyés		1	4	78
-Cuirs ; de vache ; coroïes	cuirs de vaches corroyés		1	1	78
-Cuirs ; de vache ; coroiés	cuirs de vaches corroyés		1	2	78
-Cuirs ; de vache ; coroyés	cuirs de vaches corroyés		1	2	78
-Cuirs ; de vache ; corroïées	cuirs de vaches corroyés		1	1	78
-Cuirs ; de vache ; corroies	cuirs de vaches corroyés		1	3	78
-Cuirs ; de vache ; corroïes	cuirs de vaches corroyés		1	2	78
-Cuirs ; de vache ; corroiés	cuirs de vaches corroyés		1	4	78
-Cuirs ; de vache ; corroïés	cuirs de vaches corroyés		1	6	78
-Cuirs ; de vache ; corroyés	cuirs de vaches corroyés		1	31	78
-Cuirs ; de vache ; de Russie	cuirs de vaches de Russie		1	1	1
-Cuirs ; de vache ; de tannés	cuirs de vaches de tannés		1	4	4
-Cuirs ; de vache ; en croute	cuirs de vaches en croûte		1	1	1
-Cuirs ; de vache ; en croutte	cuirs de vaches en croûte		1	1	78
-Cuirs ; de vache ; en crouttes	cuirs de vaches en croûte		1	1	1
-Cuirs ; de vache ; en grain	cuirs de vaches en grains		1	9	11
-Cuirs ; de vache ; en grains	cuirs de vaches en grains		1	1	11
-Cuirs ; de vache ; en poil	cuirs de vaches en poil		1	111	148
-cuirs ; de vache ; en poil	cuirs de vaches en poil		1	1	148
-Cuirs ; de vache ; tannées	cuirs de vaches tannés		1	3	195
-Cuirs ; de vache ; tannes	cuirs de vaches tannés		1	6	195
-Cuirs ; de vache ; tannés	cuirs de vaches tannés		1	128	195
-Cuirs ; de vache corroyés	cuirs de vaches corroyés		1	2	78
-Cuirs ; de vache en poil	cuirs de vaches en poil		1	1	148
-Cuirs ; de vache; en poil	cuirs de vaches en poil		1	3	148
-Cuirs ; de vaches ; coroyés	cuirs de vaches corroyés		1	2	2
-Cuirs ; de vaches ; corroyés	cuirs de vaches corroyés		1	6	78
-Cuirs ; de vaches ; en poil	cuirs de vaches en poil		1	7	148
-Cuirs ; de vaches ; tannés	cuirs de vaches tannés		1	17	195
-cuirs ; de vaches ; tannés	cuirs de vaches tannés		1	1	195
-Cuirs ; de vaches ; tissés	cuirs de vaches tissés		1	4	4
+Cuirs ; de vache	cuirs de vache		1	4	5
+Cuirs ; de vache ; carroiés	cuirs de vache corroyés		1	4	78
+Cuirs ; de vache ; coroïes	cuirs de vache corroyés		1	1	78
+Cuirs ; de vache ; coroiés	cuirs de vache corroyés		1	2	78
+Cuirs ; de vache ; coroyés	cuirs de vache corroyés		1	2	78
+Cuirs ; de vache ; corroïées	cuirs de vache corroyés		1	1	78
+Cuirs ; de vache ; corroies	cuirs de vache corroyés		1	3	78
+Cuirs ; de vache ; corroïes	cuirs de vache corroyés		1	2	78
+Cuirs ; de vache ; corroiés	cuirs de vache corroyés		1	4	78
+Cuirs ; de vache ; corroïés	cuirs de vache corroyés		1	6	78
+Cuirs ; de vache ; corroyés	cuirs de vache corroyés		1	31	78
+Cuirs ; de vache ; de Russie	cuirs de vache de Russie		1	1	1
+Cuirs ; de vache ; de tannés	cuirs de vache de tannés		1	4	4
+Cuirs ; de vache ; en croute	cuirs de vache en croûte		1	1	1
+Cuirs ; de vache ; en croutte	cuirs de vache en croûte		1	1	78
+Cuirs ; de vache ; en crouttes	cuirs de vache en croûte		1	1	1
+Cuirs ; de vache ; en grain	cuirs de vache en grains		1	9	11
+Cuirs ; de vache ; en grains	cuirs de vache en grains		1	1	11
+Cuirs ; de vache ; en poil	cuirs de vache en poil		1	111	148
+cuirs ; de vache ; en poil	cuirs de vache en poil		1	1	148
+Cuirs ; de vache ; tannées	cuirs de vache tannés		1	3	195
+Cuirs ; de vache ; tannes	cuirs de vache tannés		1	6	195
+Cuirs ; de vache ; tannés	cuirs de vache tannés		1	128	195
+Cuirs ; de vache corroyés	cuirs de vache corroyés		1	2	78
+Cuirs ; de vache en poil	cuirs de vache en poil		1	1	148
+Cuirs ; de vache; en poil	cuirs de vache en poil		1	3	148
+Cuirs ; de vaches ; coroyés	cuirs de vache corroyés		1	2	2
+Cuirs ; de vaches ; corroyés	cuirs de vache corroyés		1	6	78
+Cuirs ; de vaches ; en poil	cuirs de vache en poil		1	7	148
+Cuirs ; de vaches ; tannés	cuirs de vache tannés		1	17	195
+cuirs ; de vaches ; tannés	cuirs de vache tannés		1	1	195
+Cuirs ; de vaches ; tissés	cuirs de vache tissés		1	4	4
 Cuirs ; Divers	cuirs divers		1	5	10
 Cuirs ; divers	cuirs divers		1	5	10
 Cuirs ; divers ; tannés	cuirs divers tannés		1	5	7
@@ -9365,7 +9365,7 @@ Cuirs ; doré	cuirs dorés		1	25	35
 Cuirs ; dorés	cuirs dorés		1	4	35
 Cuirs ; dorez	cuirs dorés		1	3	35
 Cuirs ; Du poil ; De bœuf	cuirs du poil de bœuf		1	9	561
-Cuirs ; Du poil ; De vaches	cuirs du poil de vaches		1	6	148
+Cuirs ; Du poil ; De vaches	cuirs du poil de vache		1	6	148
 Cuirs ; en grain	cuirs en grains		1	1	2
 Cuirs ; en grains	cuirs en grains		1	1	2
 Cuirs ; en poil	cuirs en poil		1	40	271
@@ -9373,7 +9373,7 @@ Cuirs ; En poil ; Aprêtés ; De bœuf	cuirs en poil apprêtés de bœuf		1	2	21
 Cuirs ; En poil ; De bœuf	cuirs en poil de bœuf		1	23	561
 Cuirs ; en poil ; de bœuf	cuirs en poil de bœuf		1	4	561
 Cuirs ; En poil ; De bœufs	cuirs en poil de bœuf		1	5	561
-Cuirs ; En poil ; De vaches	cuirs en poil de vaches		1	12	148
+Cuirs ; En poil ; De vaches	cuirs en poil de vache		1	12	148
 Cuirs ; En poil ; Divers	cuirs en poil divers		1	3	3
 Cuirs ; en poils	cuirs en poil		1	2	271
 Cuirs ; En retail	cuirs en retail	x	1	2	2
@@ -9392,10 +9392,10 @@ Cuirs ; tannés	cuirs tannés
 Cuirs ; Tannés ; De bœuf	cuirs tannés de bœuf		1	3	459
 Cuirs ; tannés ; de bœuf	cuirs tannés de bœuf		1	3	459
 Cuirs ; Tannés ; De bœufs	cuirs tannés de bœuf		1	20	459
-Cuirs ; tannés ; de chevaux	cuirs tannés de chevaux		1	1	50
-Cuirs ; tannés ; de vache	cuirs tannés de vaches		1	1	195
-Cuirs ; Tannés ; De vaches	cuirs tannés de vaches		1	17	195
-Cuirs ; tannés ; de vaches	cuirs tannés de vaches		1	2	195
+Cuirs ; tannés ; de chevaux	cuirs tannés de cheval		1	1	50
+Cuirs ; tannés ; de vache	cuirs tannés de vache		1	1	195
+Cuirs ; Tannés ; De vaches	cuirs tannés de vache		1	17	195
+Cuirs ; tannés ; de vaches	cuirs tannés de vache		1	2	195
 Cuirs ; Tannés ; Divers	cuirs tannés divers		1	2	7
 Cuirs ; tannés ; en poil	cuirs tannés en poil		1	5	5
 Cuirs ; tannés ; tannés	cuirs tannés tannés		1	12	108
@@ -9406,8 +9406,8 @@ Cuirs ; verts ; sales	cuirs verts salés	x	1	1	1
 Cuirs ; verts ; salés ; en poil	cuirs verts salés en poil	x	1	1	1
 Cuirs ;de beufs ;en poil	cuirs de bœuf en poil		1	1	561
 Cuirs ;de beufs ;tannés	cuirs de bœuf tannés		1	1	459
-Cuirs ;de vache ; tannés	cuirs de vaches tannés		1	4	195
-Cuirs ;de vache ;en poil	cuirs de vaches en poil		1	1	148
+Cuirs ;de vache ; tannés	cuirs de vache tannés		1	4	195
+Cuirs ;de vache ;en poil	cuirs de vache en poil		1	1	148
 Cuirs : tannés	cuirs tannés		0	0	0
 Cuirs appretés	cuirs apprêtés		0	0	0
 Cuirs apprêtés	cuirs apprêtés		1	258	259
@@ -9428,7 +9428,7 @@ Cuirs de Beuf en poil	cuirs de bœuf en poil		1	4	561
 Cuirs de beuf en poil	cuirs de bœuf en poil		1	16	561
 cuirs de Beuf en poil	cuirs de bœuf en poil		1	1	561
 cuirs de beuf en poil	cuirs de bœuf en poil				
-cuirs de beuf et vache en poil	cuirs de bœuf et vaches en poil				
+cuirs de beuf et vache en poil	cuirs de bœuf et vache en poil				
 Cuirs de Beuf Sec en poil	cuirs de bœuf secs en poil		1	1	561
 Cuirs de beuf Tanné	cuirs de bœuf tannés		1	1	459
 Cuirs de beuf tanné	cuirs de bœuf tannés		1	2	459
@@ -9442,8 +9442,8 @@ Cuirs de beufs tannés	cuirs de bœuf tannés		1	2	459
 Cuirs de Bœuf en poil	cuirs de bœuf en poil		1	13	561
 Cuirs de bœuf en poil	cuirs de bœuf en poil				
 cuirs de bœuf en poil	cuirs de bœuf en poil				
-cuirs de bœuf et vache en poil	cuirs de bœuf et vaches en poil				
-Cuirs de bœuf et vaches tannés	cuirs de bœuf et vaches tannés				
+cuirs de bœuf et vache en poil	cuirs de bœuf et vache en poil				
+Cuirs de bœuf et vaches tannés	cuirs de bœuf et vache tannés				
 Cuirs de bœuf salée	cuirs de bœuf salés		1	1	2
 Cuirs de bœuf sales	cuirs de bœuf salés				
 Cuirs de bœuf stannés	cuirs de bœuf tannés		1	1	459
@@ -9459,12 +9459,12 @@ Cuirs de Bœufs	cuirs de bœuf		1	1	14
 Cuirs de Bœufs tannés	cuirs de bœuf tannés				
 Cuirs de bœufs tannés	cuirs de bœuf tannés		1	1	459
 Cuirs de bouef tannés	cuirs de bœuf tannés		1	1	459
-Cuirs de Buffle	cuirs de buffles		1	1	1
-Cuirs de buffle en poil	cuirs de buffles en poil		1	1	2
-cuirs de buffle en poil	cuirs de buffles en poil				
-Cuirs de bufle en poil	cuirs de buffles en poil		1	1	2
+Cuirs de Buffle	cuirs de buffle		1	1	1
+Cuirs de buffle en poil	cuirs de buffle en poil		1	1	2
+cuirs de buffle en poil	cuirs de buffle en poil				
+Cuirs de bufle en poil	cuirs de buffle en poil		1	1	2
 Cuirs de cerf en poil	cuirs de cerf en poil		1	1	1
-Cuirs de cheval tannés	cuirs de chevaux tannés				
+Cuirs de cheval tannés	cuirs de cheval tannés				
 cuirs de moscovie	cuirs de Moscovie		0	0	0
 cuirs de Prusse	cuirs de Prusse		0	0	0
 cuirs de Roussi	cuirs de Russie		0	0	0
@@ -9478,26 +9478,26 @@ Cuirs de russie	cuirs de Russie		1	4	212
 cuirs de Russie	cuirs de Russie		1	1	212
 cuirs de russie	cuirs de Russie		1	1	212
 cuirs de Turqie	cuirs de Turquie		0	0	0
-Cuirs de vache	cuirs de vaches				
+Cuirs de vache	cuirs de vache				
 Cuirs de vache corroyes	cuirs de vache corroyés				
-cuirs de vache de roussy	cuirs de vaches de Russie				
-Cuirs de vache de Russie	cuirs de vaches de Russie				
-cuirs de vache de Russie	cuirs de vaches de Russie				
-cuirs de vache de russie	cuirs de vaches de Russie				
-Cuirs de Vache en poil	cuirs de vaches en poil		1	1	148
-Cuirs de vache en poil	cuirs de vaches en poil		1	1	148
-cuirs de vache en poil	cuirs de vaches en poil				
-Cuirs de vache grené	cuirs de vaches grené	x	1	1	11
-Cuirs de Vache Sec en poil	cuirs de vaches secs en poil		1	1	148
-Cuirs de vache tannées	cuirs de vaches tannés				
-Cuirs de vache tannes	cuirs de vaches tannés				
-Cuirs de Vache Tannés	cuirs de vaches tannés		1	1	195
-Cuirs de vache tannés	cuirs de vaches tannés				
-Cuirs de vaches acoutrées	cuirs de vaches accoutrées	x			
-Cuirs de vaches corroyées	cuirs de vaches corroyés		1	2	78
-Cuirs de vaches en poil	cuirs de vaches en poil				
-Cuirs de vaches tanés	cuirs de vaches tannés		1	1	195
-Cuirs de vaches tannés	cuirs de vaches tannés				
+cuirs de vache de roussy	cuirs de vache de Russie				
+Cuirs de vache de Russie	cuirs de vache de Russie				
+cuirs de vache de Russie	cuirs de vache de Russie				
+cuirs de vache de russie	cuirs de vache de Russie				
+Cuirs de Vache en poil	cuirs de vache en poil		1	1	148
+Cuirs de vache en poil	cuirs de vache en poil		1	1	148
+cuirs de vache en poil	cuirs de vache en poil				
+Cuirs de vache grené	cuirs de vache grené	x	1	1	11
+Cuirs de Vache Sec en poil	cuirs de vache secs en poil		1	1	148
+Cuirs de vache tannées	cuirs de vache tannés				
+Cuirs de vache tannes	cuirs de vache tannés				
+Cuirs de Vache Tannés	cuirs de vache tannés		1	1	195
+Cuirs de vache tannés	cuirs de vache tannés				
+Cuirs de vaches acoutrées	cuirs de vache accoutrées	x			
+Cuirs de vaches corroyées	cuirs de vache corroyés		1	2	78
+Cuirs de vaches en poil	cuirs de vache en poil				
+Cuirs de vaches tanés	cuirs de vache tannés		1	1	195
+Cuirs de vaches tannés	cuirs de vache tannés				
 Cuirs doré	cuirs dorés				
 cuirs doré	cuirs dorés				
 cuirs dorés	cuirs dorés		0	0	0
@@ -9510,12 +9510,12 @@ cuirs en poil	cuirs en poil
 Cuirs en poil de bœuf	cuirs en poil de bœuf		1	1	561
 Cuirs en Rousy	cuirs en Russie		1	1	212
 Cuirs et peaux	cuirs et peaux		0	0	0
-Cuirs et peaux de bœufs et de vaches apprêtés	cuirs et peaux de bœuf et de vaches apprêtés		1	54	54
+Cuirs et peaux de bœufs et de vaches apprêtés	cuirs et peaux de bœuf et de vache apprêtés		1	54	54
 Cuirs et peaux non apprêtés	cuirs et peaux non apprêtés		1	18	18
 Cuirs Fer ; en poil	cuirs fer en poil		1	1	271
 Cuirs fort tanné	cuirs forts tannés				
 Cuirs fort tannés	cuirs forts tannés				
-Cuirs forts tanné	cuirs forts tanné		1	1	6
+Cuirs forts tanné	cuirs forts tannés		1	1	6
 Cuirs forts tannées	cuirs forts tannés		1	2	6
 Cuirs forts tannés	cuirs forts tannés				
 Cuirs Jaune	cuirs jaunes		1	1	1
@@ -9549,7 +9549,7 @@ cuirs tannés	cuirs tannés
 Cuirs tannés forts	cuirs tannés forts		1	1	6
 cuirs tannés pour empeignes	cuirs tannés pour empeignes		0	0	0
 cuirs tannés pour semelles	cuirs tannés pour semelles		0	0	0
-cuirs tannez	cuirs tannez				
+cuirs tannez	cuirs tannés				
 Cuirs verds en poil	cuirs verts en poil				
 Cuirs vers en poil	cuirs verts en poil		1	2	3
 Cuirs verts	cuirs verts		1	2	2
@@ -9563,18 +9563,18 @@ Cuirs; de beuf; Illinois	cuirs de bœuf Illinois	x	1	1	1
 Cuirs; tannés	cuirs tannés		1	1	108
 Cuirs;de beuf;en poil	cuirs de bœuf en poil		1	1	561
 Cuirs. Du poil de bœuf	cuirs du poil de bœuf		1	5	561
-Cuisse ; d'oye	cuisses d'oies		1	3	61
-Cuisse d'Hoye	cuisses d'oies		1	1	61
-Cuisse d'oye	cuisses d'oies		1	5	61
-Cuisser d'oye	cuisses d'oies		1	1	61
+Cuisse ; d'oye	cuisses d'oie		1	3	61
+Cuisse d'Hoye	cuisses d'oie		1	1	61
+Cuisse d'oye	cuisses d'oie		1	5	61
+Cuisser d'oye	cuisses d'oie		1	1	61
 Cuisses	cuisses		1	4	4
-Cuisses ; d'oie	cuisses d'oies		1	3	61
-Cuisses ; d'oye	cuisses d'oies		1	14	61
-Cuisses d'oye	cuisses d'oies		1	24	61
-Cuisses d'oyes	cuisses d'oies		1	6	61
-Cuisses d'oys	cuisses d'oies		1	1	61
+Cuisses ; d'oie	cuisses d'oie		1	3	61
+Cuisses ; d'oye	cuisses d'oie		1	14	61
+Cuisses d'oye	cuisses d'oie		1	24	61
+Cuisses d'oyes	cuisses d'oie		1	6	61
+Cuisses d'oys	cuisses d'oie		1	1	61
 Cuisses de roussy	cuirs de Russie	x	1	1	212
-Cuisses doye	cuisses d'oies		1	3	61
+Cuisses doye	cuisses d'oie		1	3	61
 Cuiverie	cuivrerie	x			
 Cuiverie ouvrée	cuivrerie ouvrée	x			
 Cuivre	cuivre		1	542	583
@@ -9901,25 +9901,25 @@ Culliers et fourchettes ; de cuivre ; argenté	cuillères et fourchettes de cuiv
 Culotes de Bours	culottes de bouras	x			
 Culotes de chamoix	culottes de chamois				
 Culotte	culottes		1	2	55
-Culotte ; de peau	culottes de peaux		1	1	10
-culotte ; de peau	culottes de peaux		1	1	10
-Culotte ; de peau ; d'elan	culottes de peaux d'élan		1	1	1
-Culotte ; de peau ; de dain	culottes de peaux de daim		1	1	1
+Culotte ; de peau	culottes de peau		1	1	10
+culotte ; de peau	culottes de peau		1	1	10
+Culotte ; de peau ; d'elan	culottes de peau d'élan		1	1	1
+Culotte ; de peau ; de dain	culottes de peau de daim		1	1	1
 Culottes	culottes		1	53	55
 Culottes ; de chamois	culottes de chamois		1	1	1
 Culottes ; de chamois ; garnies de boutons ; d'argent	culottes de chamois garnies de boutons d'argent		1	1	1
 Culottes ; de dain	culottes de daim		1	2	2
-Culottes ; de mouton	culottes de moutons		1	1	1
+Culottes ; de mouton	culottes de mouton		1	1	1
 Culottes ; de peau	culottes de peau		1	6	10
 Culottes ; de velours	culottes de velours		1	1	1
 Culottes de chamois	culottes de chamois				
-Culottes de peaux	culottes de peaux		1	1	10
-culottes de peaux	culottes de peaux		0	0	0
+Culottes de peaux	culottes de peau		1	1	10
+culottes de peaux	culottes de peau		0	0	0
 culottes de toille	culottes de toile		0	0	0
 Culottes tricotées	culottes tricotées		0	0	0
-Culottte ; de peau ; de mouton	culottte de peaux de moutons		1	2	2
-Culs ; d'artichaux	culs d'artichauts		1	1	1
-Culs d'artichaux	culs d'artichauts				
+Culottte ; de peau ; de mouton	culottte de peau de mouton		1	2	2
+Culs ; d'artichaux	culs d'artichaut		1	1	1
+Culs d'artichaux	culs d'artichaut				
 Cumin	cumin				
 cumin	cumin				
 Cuny	cuny	x	1	1	1
@@ -9952,14 +9952,14 @@ Cylindres en cuivre	cylindre en cuivre		0	0	0
 D'antelle d'argent	dentelle d'argent		1	1	25
 D'antelle de fil	dentelle de fil		1	1	140
 D'entelle d'argent	dentelle d'argent				
-D'une valeur moindre de 2 000 chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	11	578
-D'une valeur moindre de 2 000 Fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	16	578
-D'une valeur moindre de 2 000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	18	578
-D'une valeur moindre de 2,000 fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	19	578
-D'une valeur moindre de 2,000 fr. chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	168	578
-D'une valeur moindre de 2,000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	178	578
-D'une valeur moindre de 2000 fr chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	46	578
-D'une valeur moindre de 2000 francs chacun	articles réunis d'une valeur moindre de deux mille francs chacun		1	17	578
+D'une valeur moindre de 2 000 chacun	d'une valeur moindre de deux mille francs chacun		1	11	578
+D'une valeur moindre de 2 000 Fr chacun	d'une valeur moindre de deux mille francs chacun		1	16	578
+D'une valeur moindre de 2 000 francs chacun	d'une valeur moindre de deux mille francs chacun		1	18	578
+D'une valeur moindre de 2,000 fr chacun	d'une valeur moindre de deux mille francs chacun		1	19	578
+D'une valeur moindre de 2,000 fr. chacun	d'une valeur moindre de deux mille francs chacun		1	168	578
+D'une valeur moindre de 2,000 francs chacun	d'une valeur moindre de deux mille francs chacun		1	178	578
+D'une valeur moindre de 2000 fr chacun	d'une valeur moindre de deux mille francs chacun		1	46	578
+D'une valeur moindre de 2000 francs chacun	d'une valeur moindre de deux mille francs chacun		1	17	578
 dades	dattes	x	0	0	0
 dades et pistaches	dattes et pistaches	x	0	0	0
 Daïs : pour Eglise	dais pour église		0	0	0
@@ -10061,12 +10061,12 @@ décorations pour carosses	décorations pour carrosses		0	0	0
 Degra...	dégras		1	2	2
 Degras	dégras		1	5	12
 Dégras	dégras		1	7	12
-Degras ; de peau	dégras de peaux		1	14	49
-Degras ; de peaux	dégras de peaux		1	8	49
-Degras de peau	dégras de peaux		1	6	49
-Dégras de peau	dégras de peaux		1	3	49
-Degras de peaux	dégras de peaux				
-Dégras de peaux	dégras de peaux		1	2	49
+Degras ; de peau	dégras de peau		1	14	49
+Degras ; de peaux	dégras de peau		1	8	49
+Degras de peau	dégras de peau		1	6	49
+Dégras de peau	dégras de peau		1	3	49
+Degras de peaux	dégras de peau				
+Dégras de peaux	dégras de peau		1	2	49
 Degrau	dégras	x	1	1	3
 Dégrau	dégras	x	1	2	3
 Demelles de fil	dentelle de fil		1	1	1
@@ -10091,7 +10091,7 @@ Denrées coloniales ; Caffé	denrées coloniales café		1	20	820
 Denrées coloniales ; Canéfice	denrées coloniales canefice		0	0	0
 Denrées coloniales ; diverses	denrées coloniales diverses		1	5	5
 Denrées coloniales ; Ecaille de tortue	denrées coloniales écaille de tortue		0	0	0
-Denrées coloniales ; épiceries en muscade et poivre	denrées coloniales épiceries en muscade et poivre		1	8	8
+Denrées coloniales ; épiceries en muscade et poivre	denrées coloniales épicerie en muscade et poivre		1	8	8
 Denrées coloniales ; Gingembre	denrées coloniales gingembre		0	0	0
 Denrées coloniales ; Indigo	denrées coloniales indigo		0	0	0
 Denrées Coloniales ; Roscou	denrées coloniales rocou	x	0	0	0
@@ -10288,12 +10288,12 @@ Dents ; de morphet	dents de morphil		1	1	39
 Dents ; de morphil	dents de morphil		1	31	39
 dents ; de morphil	dents de morphil		1	1	39
 Dents ; de morphit	dents de morphil		1	3	39
-Dents ; de vache ; marine	dents de vaches marines		1	2	12
-Dents ; de vache marine	dents de vaches marines		0	0	0
+Dents ; de vache ; marine	dents de vache marine		1	2	12
+Dents ; de vache marine	dents de vache marine		0	0	0
 Dents ; demorphil	dents de morphil		1	1	246
 Dents ; des norphil	dents de morphil		1	1	39
 Dents ;de morphil	dents de morphil		1	2	39
-Dents ;de vache marine	dents de vaches marines		1	1	12
+Dents ;de vache marine	dents de vache marine		1	1	12
 Dents a Elephant	dents à éléphant				
 dents d' Elephant	dents d'éléphant		1	1	246
 dents d'elefans	dents d'éléphant		1	1	246
@@ -10321,8 +10321,8 @@ Dents de morphel	dents de morphil		1	3	18
 dents de morphel	dents de morphil		1	2	18
 Dents de Morphil	dents de morphil		1	1	18
 Dents de morphil	dents de morphil				
-Dents de vache marine	dents de vaches marines				
-dents de Vaches Marines	dents de vaches marines		1	1	12
+Dents de vache marine	dents de vache marine				
+dents de Vaches Marines	dents de vache marine		1	1	12
 dents delefants	dents d'éléphant		1	1	246
 Dents du Morphel	dents de morphil		1	1	18
 Dents morfil	dents de morphil		1	1	18
@@ -10983,7 +10983,7 @@ Draps ; Divers ; Ecarlate	drap divers écarlate		1	2	4
 Draps ; Divers ; Ecarlette	drap divers écarlate		1	2	4
 Draps ; Divers ; Fins	drap divers fin		1	1	1
 Draps ; draperie ; d'Amiens	drap draperie d'Amiens		1	1	1
-Draps ; draperie ; d'aufine	drap draperie daufine		1	5	5
+Draps ; draperie ; d'aufine	drap draperie dauphine		1	5	5
 Draps ; draperie ; de Languedoc	drap draperie du Languedoc		1	1	3
 Draps ; draperie ; de Montauban	drap draperie de Montauban		1	1	2
 Draps ; draperie ; fine	drap draperie fine		1	1	3
@@ -11277,7 +11277,7 @@ Drogueries ; pour peinture et teinture ; noix ; de galle	droguerie pour peinture
 Drogueries ; pour peinture et teinture ; ocre ; en pierre	droguerie pour peintures et teinture ocre en pierres		1	1	1
 Drogueries ; pour peinture et teinture ; racine d'alizary	droguerie pour peintures et teinture racine d'alizari		1	1	4
 Drogueries ; pour peinture et teinture ; safranum	droguerie pour peintures et teinture safranum		1	4	23
-Drogueries ; pour peinture et teinture ; stil ; de grain	droguerie pour peintures et teinture stil de grains	x	1	1	3
+Drogueries ; pour peinture et teinture ; stil ; de grain	droguerie pour peintures et teinture stil de grain	x	1	1	3
 Drogueries ; pour peinture et teinture ; sumac	droguerie pour peintures et teinture sumac		1	2	19
 Drogueries ; pour peinture et teinture ; tartre	droguerie pour peintures et teinture tartre		1	1	16
 Drogueries ; pour peinture et teinture ; thérébenthine	droguerie pour peintures et teinture térébenthine		1	2	23
@@ -11321,7 +11321,7 @@ Drogues ; chimiques ; sel ; de saturne	drogues chimiques sel de Saturne	x	1	2	10
 Drogues ; Chimiques ; Sel ammoniac	drogues chimiques sel ammoniac		1	12	108
 Drogues ; Chimiques ; Sel d'epsum	drogues chimiques sel d'Epsom	x	1	1	3
 Drogues ; Chimiques ; Sel de fat***	drogues chimiques sel de fat ???		1	6	6
-Drogues ; Chimiques ; Sel de globerts	drogues chimiques sel de globerts	x	1	2	2
+Drogues ; Chimiques ; Sel de globerts	drogues chimiques sel de globert	x	1	2	2
 Drogues ; Chimiques ; Sel de paume	drogues chimiques sel de paume	x	1	2	2
 Drogues ; Chimiques ; Sel de plomb	drogues chimiques sel de plomb		1	1	1
 Drogues ; Chimiques ; Sel de potasse	drogues chimiques sel de potasse		1	4	4
@@ -11522,7 +11522,7 @@ Drogues ; Médécinales ; Précipité	drogues médicinales précipité		1	1	2
 Drogues ; médecinales ; quinquina	drogues médicinales quinquina		1	3	39
 Drogues ; Médécinales ; Quinquina	drogues médicinales quinquina		1	7	39
 Drogues ; médécinales ; quinquina	drogues médicinales quinquina		1	7	39
-Drogues ; Médécinales ; Racines diverses	drogues médicinales racines diverse		1	1	1
+Drogues ; Médécinales ; Racines diverses	drogues médicinales racine diverse		1	1	1
 Drogues ; Médécinales ; Reglisse	drogues médicinales réglisse		1	1	42
 Drogues ; Médécinales ; Réglisse	drogues médicinales réglisse		1	1	42
 Drogues ; médécinales ; réglisse	drogues médicinales réglisse		1	1	147
@@ -11616,7 +11616,7 @@ Drogues ; médicinale ; maguesie	drogues médicinales magnésie	x	1	1	2
 Drogues ; médicinale ; marue	drogues médicinales marue	x	1	2	36
 Drogues ; médicinale ; orge ; serlé	drogues médicinales orge perlé		1	1	2
 Drogues ; médicinale ; remèdes ; composés	drogues médicinales remèdes composés		1	1	114
-Drogues ; médicinale ; remèdes ; saffranon	drogues médicinales remèdes saffranon	x	1	1	15
+Drogues ; médicinale ; remèdes ; saffranon	drogues médicinales remèdes safranum	x	1	1	15
 Drogues ; médicinale ; remèdes ; sercé ; en feuilles	drogues médicinales remèdes sercé en feuilles	x	1	1	1
 Drogues ; médicinales	drogues médicinales		1	2	13
 Drogues ; médicinales ; ?	drogues médicinales ???		1	3	13
@@ -11751,7 +11751,7 @@ Drogues ; Pour la peinture ; Orpiments	drogues pour les peintures orpiment		1	4	
 Drogues ; Pour la peinture ; Pastel	drogues pour les peintures pastel		1	6	6
 Drogues ; Pour la peinture ; Sanguine	drogues pour les peintures sanguine		1	2	2
 Drogues ; Pour la peinture ; Serra merita	drogues pour les peintures serra merita		1	1	1
-Drogues ; Pour la peinture ; Stil de grain	drogues pour les peintures stil de grains		1	2	2
+Drogues ; Pour la peinture ; Stil de grain	drogues pour les peintures stil de grain		1	2	2
 Drogues ; Pour la peinture ; Térébanthine	drogues pour les peintures térébenthine		1	6	27
 Drogues ; Pour la peinture ; Terebenthine	drogues pour les peintures térébenthine		1	10	27
 Drogues ; Pour la peinture ; Verda	drogues pour les peintures verdet	x	1	2	19
@@ -11847,7 +11847,7 @@ Drogues ; pour la peinture et la teinture ; rouge ; brun	drogues pour les peintu
 Drogues ; pour la peinture et la teinture ; rouge ; minéral	drogues pour les peintures et la teinture rouge minéral		1	2	2
 Drogues ; pour la peinture et la teinture ; saffranon	drogues pour les peintures et la teinture safranum		1	1	9
 Drogues ; pour la peinture et la teinture ; saffranum	drogues pour les peintures et la teinture safranum		1	2	23
-Drogues ; pour la peinture et la teinture ; stil ; de grain	drogues pour les peintures et la teinture stil de grains	x	1	2	3
+Drogues ; pour la peinture et la teinture ; stil ; de grain	drogues pour les peintures et la teinture stil de grain	x	1	2	3
 Drogues ; pour la peinture et la teinture ; sumac	drogues pour les peintures et la teinture sumac		1	2	19
 Drogues ; pour la peinture et la teinture ; sumach	drogues pour les peintures et la teinture sumac		1	1	19
 Drogues ; pour la peinture et la teinture ; sumack	drogues pour les peintures et la teinture sumac		1	3	19
@@ -12031,7 +12031,7 @@ duvets	duvet		1	1	13
 duyvelsteen	duyvelsteen	x	0	0	0
 Duyvelsterck	duyvelsterck	x	0	0	0
 e?	???		1	1	19
-Eaau de vie	eau de vie				
+Eaau de vie	eau-de-vie				
 Eain ; des Indes	étain des Indes		1	1	2352
 Eau	eau		0	0	0
 Eau , de fleur d'orange	eau de fleurs d'orange		1	1	183
@@ -12060,29 +12060,29 @@ Eau ; de canelle	eau de cannelle		1	1	4
 Eau ; de Carme	eau de Carmes	x	1	2	3
 Eau ; de Carmes	eau de Carmes	x	1	1	3
 Eau ; de cedra	eau de cédrat		1	1	1
-Eau ; de cerise	eau de cerises		1	3	4
-Eau ; de cerises	eau de cerises		1	1	15
-Eau ; de cerize	eau de cerises		1	7	15
-Eau ; de cerizes	eau de cerises		1	7	15
-Eau ; de citron	eau de citrons		1	13	15
+Eau ; de cerise	eau de cerise		1	3	4
+Eau ; de cerises	eau de cerise		1	1	15
+Eau ; de cerize	eau de cerise		1	7	15
+Eau ; de cerizes	eau de cerise		1	7	15
+Eau ; de citron	eau de citron		1	13	15
 Eau ; de citronelle	eau de citronnelle		1	3	3
-Eau ; de Citrons	eau de citrons		1	2	15
-Eau ; de coclearia	eau de coclearia	x	1	1	1
+Eau ; de Citrons	eau de citron		1	2	15
+Eau ; de coclearia	eau de coclearia		1	1	1
 Eau ; de Cologne	eau de Cologne		1	6	10
 Eau ; de cologne	eau de Cologne		1	2	10
 Eau ; de composition	eau de composition	x	1	1	1
 Eau ; de Cordoue	eau de Cordoue		1	1	2
 Eau ; de cordoue	eau de Cordoue		1	1	2
-Eau ; de fl d'orange	eau de fleurs d'orange		1	6	183
-Eau ; de fl. D'orange	eau de fleurs d'orange		1	4	183
-Eau ; de fl.d'orange	eau de fleurs d'orange		1	4	183
-Eau ; de fleur ; d'orange	eau de fleurs d'orange		1	6	183
-Eau ; de fleur d'orange	eau de fleurs d'orange		1	116	183
-Eau ; de fleur d'oranger	eau de fleurs d'orangers		1	1	2
-Eau ; de fleur d'oranges	eau de fleurs d'orange		1	4	183
-Eau ; de fleurs ; d'orange	eau de fleurs d'orange		1	6	183
-Eau ; de Fleurs ; d'oranger	eau de fleurs d'orangers		1	1	2
-Eau ; de fleurs d'orange	eau de fleurs d'orange		1	24	183
+Eau ; de fl d'orange	eau de fleur d'orange		1	6	183
+Eau ; de fl. D'orange	eau de fleur d'orange		1	4	183
+Eau ; de fl.d'orange	eau de fleur d'orange		1	4	183
+Eau ; de fleur ; d'orange	eau de fleur d'orange		1	6	183
+Eau ; de fleur d'orange	eau de fleur d'orange		1	116	183
+Eau ; de fleur d'oranger	eau de fleur d'oranger		1	1	2
+Eau ; de fleur d'oranges	eau de fleur d'orange		1	4	183
+Eau ; de fleurs ; d'orange	eau de fleur d'orange		1	6	183
+Eau ; de Fleurs ; d'oranger	eau de fleur d'oranger		1	1	2
+Eau ; de fleurs d'orange	eau de fleur d'orange		1	24	183
 Eau ; de genievre	eau de genièvre		1	5	10
 Eau ; de genièvre	eau de genièvre		1	4	10
 Eau ; de la ?	eau de la ???		1	1	1
@@ -12137,7 +12137,7 @@ Eau ; de Senteur	eau de senteur		1	1	212
 Eau ; de senteur	eau de senteur		1	199	212
 eau ; de senteur	eau de senteur		1	1	212
 Eau ; de senteur ; de bergamotte	eau de senteur de bergamote		1	1	1
-Eau ; de senteur ; de citron	eau de senteur de citrons		1	1	1
+Eau ; de senteur ; de citron	eau de senteur de citron		1	1	1
 Eau ; de senteur ; de la Re. d'hongrie	eau de senteur de la reine de Hongrie		1	4	6
 Eau ; de senteur ; de la Re.d'hongrie	eau de senteur de la reine de Hongrie		1	1	6
 Eau ; de senteur ; de lavande	eau de senteur de lavande		1	7	7
@@ -12187,8 +12187,8 @@ Eau ; medecinalle ; cordiale	eau médicinale cordiale		1	1	1
 Eau ; medecinalle ; d'arquebusan	eau médicinale d'arquebusan	x	1	1	2
 Eau ; medecinalle ; d'arquelnisade	eau médicinale d'arquelnisade	x	1	1	2
 Eau ; medecinalle ; de canelle	eau médicinale de cannelle		1	1	1
-Eau ; medecinalle ; de coclearia	eau médicinale de coclearia	x	1	1	1
-Eau ; medecinalle ; de fleur d'oranger	eau médicinale de fleurs d'orangers		1	7	7
+Eau ; medecinalle ; de coclearia	eau médicinale de coclearia		1	1	1
+Eau ; medecinalle ; de fleur d'oranger	eau médicinale de fleur d'oranger		1	7	7
 Eau ; medecinalle ; de genievre	eau médicinale de genièvre		1	1	1
 Eau ; medecinalle ; de melice	eau médicinale de mélisse		1	6	6
 Eau ; medecinalle ; de pin	eau médicinale de pin		1	1	1
@@ -12231,7 +12231,7 @@ Eau de bronze	eau de bronze	x
 Eau de canelle	eau de cannelle				
 eau de cedre	eau de cèdre				
 Eau de charante	eau de Charente		1	2	3
-eau de citron	eau de citrons				
+eau de citron	eau de citron				
 Eau de citronelle	eau de citronnelle				
 Eau de Citronnelle	eau de citronnelle		1	4	5
 Eau de citronnelle	eau de citronnelle				
@@ -12240,11 +12240,11 @@ Eau de coclearia	eau de coclearia
 Eau de Cologne	eau de Cologne		1	1	10
 eau de Cologne	eau de Cologne		0	0	0
 Eau de cuivre	eau de cuivre		0	0	0
-Eau de Fleur d'horange	eau de fleurs d'orange				
-Eau de Fleur d'Orange	eau de fleurs d'orange		1	1	183
-Eau de fleur d'orange	eau de fleurs d'orange				
-eau de fleur d'orange	eau de fleurs d'orange				
-eau de fleurs d'orange	eau de fleurs d'orange				
+Eau de Fleur d'horange	eau de fleur d'orange				
+Eau de Fleur d'Orange	eau de fleur d'orange		1	1	183
+Eau de fleur d'orange	eau de fleur d'orange				
+eau de fleur d'orange	eau de fleur d'orange				
+eau de fleurs d'orange	eau de fleur d'orange				
 Eau de la raine d'Ongrie	eau de la reine de Hongrie		1	1	181
 Eau de la Reine d'Hongrie	eau de la reine de Hongrie		1	4	181
 Eau de la reine d'Hongrie	eau de la reine de Hongrie		1	2	181
@@ -12256,7 +12256,7 @@ Eau de la reyne d'hongrie	eau de la reine de Hongrie
 eau de la reyne d'hongrie	eau de la reine de Hongrie				
 Eau de la reyne d'ongrie	eau de la reine de Hongrie		1	1	181
 Eau de lavande	eau de lavande				
-eau de limon	eau de limons	x			
+eau de limon	eau de limon	x			
 Eau de Mélice	eau de mélisse		1	1	75
 Eau de melisse	eau de mélisse				
 Eau de Milice	eau de mélisse		1	1	75
@@ -12344,14 +12344,14 @@ Eaux ; de senteur	eau de senteur		1	4	212
 Eaux ; de senteur ; diverses	eau de senteur diverse		1	2	22
 Eaux ; de vie	eau-de-vie		1	6	1792
 Eaux ; de vie ; d'Andaye	eau-de-vie d'Hendaye		1	1	9
-Eaux ; de vie ; de genièvre et de grain	eau-de-vie de genièvre et de grains		1	1	8
-Eaux ; de vie ; de grains	eau-de-vie de grains		1	1	2
+Eaux ; de vie ; de genièvre et de grain	eau-de-vie de genièvre et de grain		1	1	8
+Eaux ; de vie ; de grains	eau-de-vie de grain		1	1	2
 Eaux ; de vie ; diverses	eau-de-vie diverse		1	2	4
 Eaux ; diverses	eau diverse		1	5	5
 Eaux ; spiritueuses	eau spiritueuse		1	6	8
-Eaux de fleur d'orange	eau de fleurs d'orange				
+Eaux de fleur d'orange	eau de fleur d'orange				
 Eaux de vie	eau-de-vie		1	50	1792
-Eaux de vie ; de grain de genièvre	eau-de-vie de grains de genièvre		1	7	8
+Eaux de vie ; de grain de genièvre	eau-de-vie de grain de genièvre		1	7	8
 Eaux de vie ; de vin	eau-de-vie de vin		1	25	29
 Eaux de vie de charante	eau-de-vie de Charente		1	1	89
 Eaux de vie de Ré	eau-de-vie de Ré		1	1	79
@@ -12377,12 +12377,12 @@ Ecaille ; de cahoüanne	écaille de cahouanne		1	6	9
 Ecaille ; de Caret	écaille de caret	x	1	1	7
 Ecaille ; de carret	écaille de caret	x	1	1	7
 Ecaille ; de poisson	écaille de poisson		1	1	1
-Ecaille ; de tortue	écaille de tortues				
-Ecaille ; de Tortüe	écaille de tortues		1	5	203
-Ecaille ; de tortüe	écaille de tortues		1	32	203
-ecaille ; de tortüe	écaille de tortues		1	1	203
-Ecaille ; de Tortuë	écaille de tortues				
-Ecaille ; de tortuë	écaille de tortues		1	1	203
+Ecaille ; de tortue	écaille de tortue				
+Ecaille ; de Tortüe	écaille de tortue		1	5	203
+Ecaille ; de tortüe	écaille de tortue		1	32	203
+ecaille ; de tortüe	écaille de tortue		1	1	203
+Ecaille ; de Tortuë	écaille de tortue				
+Ecaille ; de tortuë	écaille de tortue		1	1	203
 Ecaille ; octomïe	écaille octomie	x	1	4	4
 Ecaille de Cahouane	écaille de cahouanne				
 Ecaille de cahouane	écaille de cahouanne				
@@ -12391,33 +12391,33 @@ Ecaille de cahouanne	écaille de cahouanne
 Ecaille de caret	écaille de caret	x	1	1	7
 Ecaille de carres	écaille de carres	x	1	1	7
 Ecaille de carret	écaille de caret	x			
-Ecaille de Tortu	écaille de tortues		1	1	203
-Ecaille de Tortue	écaille de tortues				
-Ecaille de tortue	écaille de tortues				
-ecaille de tortue	écaille de tortues		1	1	203
-Ecaille de tortüe	écaille de tortues				
-Ecaille de Tortues	écaille de tortues		1	1	203
-Ecaille de tortues	écaille de tortues				
-Ecaille de torture	écaille de tortues		1	1	203
+Ecaille de Tortu	écaille de tortue		1	1	203
+Ecaille de Tortue	écaille de tortue				
+Ecaille de tortue	écaille de tortue				
+ecaille de tortue	écaille de tortue		1	1	203
+Ecaille de tortüe	écaille de tortue				
+Ecaille de Tortues	écaille de tortue		1	1	203
+Ecaille de tortues	écaille de tortue				
+Ecaille de torture	écaille de tortue		1	1	203
 Ecaille diverses	écaille diverse		1	5	20
 Ecaille ou carret	écaille ou carret		1	3	7
-Ecaille se Tortüe	écaille de tortues		1	1	203
-Ecaille tortue	écaille de tortues		1	2	203
+Ecaille se Tortüe	écaille de tortue		1	1	203
+Ecaille tortue	écaille de tortue		1	2	203
 Ecailles	écaille		1	15	15
 Ecailles ; ?	écaille ???		1	4	5
 Ecailles ; de ?	écaille de ???		1	1	5
 Ecailles ; de cahouanne	écaille de cahouanne		1	3	5
 Ecailles ; de cahoüanne	écaille de cahouanne		1	2	5
 Ecailles ; de poisson	écaille de poisson		1	3	3
-Ecailles ; de tortue	écaille de tortues		1	16	203
-Ecailles ; de tortüe	écaille de tortues		1	6	203
-Ecailles ; de torüe	écaille de tortues		1	5	203
+Ecailles ; de tortue	écaille de tortue		1	16	203
+Ecailles ; de tortüe	écaille de tortue		1	6	203
+Ecailles ; de torüe	écaille de tortue		1	5	203
 Ecailles de cahouanne	écaille de cahouanne				
-Ecailles de Tortue	écaille de tortues		1	1	203
-Ecailles de tortue	écaille de tortues				
-Ecailles de tortues	écaille de tortues		1	4	203
+Ecailles de Tortue	écaille de tortue		1	1	203
+Ecailles de tortue	écaille de tortue				
+Ecailles de tortues	écaille de tortue		1	4	203
 Ecailles diverses	écaille diverse		1	6	20
-ecailles tortues	écaille tortues		0	0	0
+ecailles tortues	écaille tortue		0	0	0
 écarlate	écarlate		1	1	1
 Ecarlatine	écarlatine		1	10	10
 Ecarlatine de bauvais	écarlatine de Beauvais		1	1	1
@@ -12446,22 +12446,22 @@ Ecorce ; d'arbre Etoffe	écorce d'arbre étoffe		1	2	4
 Ecorce ; d'arbre rayée	écorce d'arbre rayée		1	1	1
 Ecorce ; d'orange	écorce d'orange		0	0	0
 Ecorce ; d'orange ; séchée	écorce d'orange séchée		1	1	1
-Ecorce ; d'orange et citron	écorce d'orange et citrons		1	1	2
-Ecorce ; de Bergamottes	écorce de bergamotes		1	1	1
+Ecorce ; d'orange et citron	écorce d'orange et citron		1	1	2
+Ecorce ; de Bergamottes	écorce de bergamote		1	1	1
 Ecorce ; de Bois ; de fer	écorce de bois de fer		1	1	2
 Ecorce ; de bois ; de fer	écorce de bois de fer		1	1	2
 Ecorce ; de cacao	écorce de cacao		1	6	16
 Ecorce ; de cèdre	écorce de cèdre		1	1	3
-Ecorce ; de chêne	écorce de chênes		1	19	79
-Ecorce ; de chesne	écorce de chênes		1	27	79
+Ecorce ; de chêne	écorce de chêne		1	19	79
+Ecorce ; de chesne	écorce de chêne		1	27	79
 Ecorce ; de Chine	écorce de Chine	x	1	1	1
-Ecorce ; de citron	écorce de citrons		1	23	38
-ecorce ; de citron	écorce de citrons		1	1	38
-Ecorce ; de citron ; confite	écorce de citrons confite		1	2	3
-Ecorce ; de citron ; épluché	écorce de citrons épluchés		1	1	1
-Ecorce ; de citron ; non épluché	écorce de citrons non épluchés		1	1	1
-Ecorce ; de citrons	écorce de citrons		1	1	38
-Ecorce ; de citrons ; confits	écorce de citrons confits		1	2	2
+Ecorce ; de citron	écorce de citron		1	23	38
+ecorce ; de citron	écorce de citron		1	1	38
+Ecorce ; de citron ; confite	écorce de citron confite		1	2	3
+Ecorce ; de citron ; épluché	écorce de citron épluché		1	1	1
+Ecorce ; de citron ; non épluché	écorce de citron non épluché		1	1	1
+Ecorce ; de citrons	écorce de citron		1	1	38
+Ecorce ; de citrons ; confits	écorce de citron confit		1	2	2
 Ecorce ; de gayac	écorce de gaiac		1	2	2
 Ecorce ; de grenade	écorce de grenade		1	3	6
 Ecorce ; de mandragore	écorce de mandragore		1	1	1
@@ -12469,8 +12469,8 @@ Ecorce ; de tilleul	écorce de tilleul		1	4	8
 Ecorce ; en poussière ; de pin	écorce en poussière de pin		1	1	1
 Ecorce ; en tant ; à tanner	écorce en tan à tanner		1	1	82
 Ecorce ;de Bois ; ;de Fer	écorce de bois de Fer		1	1	1
-Ecorce d'arbre	écorce d'arbres				
-Ecorce d'arbre etoffe	écorce d'arbres étoffe		1	2	4
+Ecorce d'arbre	écorce d'arbre				
+Ecorce d'arbre etoffe	écorce d'arbre étoffe		1	2	4
 Ecorce d'orange	écorce d'orange				
 ecorce d'orange	écorce d'orange				
 Ecorce d'orange seches	écorce d'orange sèche				
@@ -12478,48 +12478,48 @@ ecorce d'orange seches	écorce d'orange sèche
 Ecorce d'oranges	écorce d'orange				
 Ecorce d'oranges seches	écorce d'orange sèche				
 Ecorce de bois	écorce de bois		1	5	9
-Ecorce de chene	écorce de chênes		1	2	79
-ecorce de chêne	écorce de chênes		0	0	0
-Ecorce de chesne	écorce de chênes		1	4	79
+Ecorce de chene	écorce de chêne		1	2	79
+ecorce de chêne	écorce de chêne		0	0	0
+Ecorce de chesne	écorce de chêne		1	4	79
 Ecorce de cinaroba	écorce de simaboura				
-Ecorce de citron	écorce de citrons				
-ecorce de citron	écorce de citrons				
-Ecorce de citrons	écorce de citrons				
-ecorce de Citrons	écorce de citrons		1	1	38
-Ecorce de citrons confits	écorce de citrons confits				
+Ecorce de citron	écorce de citron				
+ecorce de citron	écorce de citron				
+Ecorce de citrons	écorce de citron				
+ecorce de Citrons	écorce de citron		1	1	38
+Ecorce de citrons confits	écorce de citron confit				
 Ecorce de Gayac	écorce de gaiac				
 Ecorce de gayac	écorce de gaiac				
 ecorce de gayac	écorce de gaiac				
-ecorce de limon	écorce de limons				
-Ecorce de limon sec	écorce de limons secs		1	1	1
+ecorce de limon	écorce de limon				
+Ecorce de limon sec	écorce de limons sec		1	1	1
 Ecorce pour tan	écorce pour tan		1	9	82
-Ecorce se chesne	écorce de chênes		1	2	79
-Ecorces ; d'arbre	écorce d'arbres		1	1	4
+Ecorce se chesne	écorce de chêne		1	2	79
+Ecorces ; d'arbre	écorce d'arbre		1	1	4
 Ecorces ; d'orange	écorce d'orange		1	4	44
 Ecorces ; d'orange ; sergal	écorce d'orange sergal	x	1	3	3
 Ecorces ; d'oranges	écorce d'orange		1	11	44
-Ecorces ; d'oranges et de citrons	écorce d'orange et de citrons		1	1	2
+Ecorces ; d'oranges et de citrons	écorce d'orange et de citron		1	1	2
 Ecorces ; de bois	écorce de bois		1	4	9
 Ecorces ; de cacao	écorce de cacao		1	6	16
 Ecorces ; de caco	écorce de caco		1	1	16
 Ecorces ; de cè?	écorce de cè???		1	1	3
 Ecorces ; de cèdre	écorce de cèdre		1	1	3
 Ecorces ; de chanvre	écorce de chanvre		1	4	4
-Ecorces ; de chêne	écorce de chênes		1	3	79
-Ecorces ; de chesne	écorce de chênes		1	15	79
-Ecorces ; de citron	écorce de citrons		1	6	38
-Ecorces ; de citron ; confites	écorce de citrons confite		1	1	3
-Ecorces ; de citrons	écorce de citrons		1	4	38
+Ecorces ; de chêne	écorce de chêne		1	3	79
+Ecorces ; de chesne	écorce de chêne		1	15	79
+Ecorces ; de citron	écorce de citron		1	6	38
+Ecorces ; de citron ; confites	écorce de citron confite		1	1	3
+Ecorces ; de citrons	écorce de citron		1	4	38
 Ecorces ; de grenades	écorce de grenade		1	3	6
-Ecorces ; de hesne	écorce de chênes		1	2	79
+Ecorces ; de hesne	écorce de chêne		1	2	79
 Ecorces ; de soye	écorce de soie		1	2	2
 Ecorces ; de tilleul	écorce de tilleul		1	2	8
 Ecorces ; de titeul	écorce de tilleul		1	1	8
 Ecorces ; diverses de ....	écorce diverse de ???		1	4	4
-Ecorces d'arbres	écorce d'arbres				
-ecorces d'arbres, bast, foularde	écorce d'arbres bast foularde	x	0	0	0
-ecorces d'arbres, bast, foularde / aune	écorce d'arbres bast foularde aune	x	0	0	0
-Ecorces d'orange et citrons	écorce d'orange et citrons				
+Ecorces d'arbres	écorce d'arbre				
+ecorces d'arbres, bast, foularde	écorce d'arbre bast foularde	x	0	0	0
+ecorces d'arbres, bast, foularde / aune	écorce d'arbre bast foularde aune	x	0	0	0
+Ecorces d'orange et citrons	écorce d'orange et citron				
 ecorces d'orange seches	écorce d'orange sèche				
 Ecorces d'oranges	écorce d'orange				
 Ecorces d'oranges seches	écorce d'orange sèche				
@@ -12527,17 +12527,17 @@ ecorces d'oranges seches	écorce d'orange sèche		0	0	0
 Ecorces de bois pour les tanneries	écorce de bois pour la tannerie		1	8	82
 Ecorces de bois pour tan	écorce de bois pour tan		1	11	82
 Ecorces de bouleau	écorce de bouleau		0	0	0
-Ecorces de chene	écorce de chênes		1	1	79
-ecorces de chêne	écorce de chênes		0	0	0
-ecorces de chêne moulue	écorce de chênes moulue		0	0	0
-Ecorces de chesne	écorce de chênes		1	2	79
-ecorces de citron	écorce de citrons				
-Ecorces de citron et oranges	écorce de citrons et orange		1	5	12
-Ecorces de citron seches	écorce de citrons sèche		1	1	1
-ecorces de Citrons	écorce de citrons		1	1	38
-ecorces de Citrons Confits	écorce de citrons confits		1	1	2
-Ecorces de citrons et d'oranges	écorce de citrons et d'orange		1	2	12
-Ecorces de citrons, d'oranges, etc	écorce de citrons d'orange etc		1	5	12
+Ecorces de chene	écorce de chêne		1	1	79
+ecorces de chêne	écorce de chêne		0	0	0
+ecorces de chêne moulue	écorce de chêne moulue		0	0	0
+Ecorces de chesne	écorce de chêne		1	2	79
+ecorces de citron	écorce de citron				
+Ecorces de citron et oranges	écorce de citron et orange		1	5	12
+Ecorces de citron seches	écorce de citron sèche		1	1	1
+ecorces de Citrons	écorce de citron		1	1	38
+ecorces de Citrons Confits	écorce de citron confit		1	1	2
+Ecorces de citrons et d'oranges	écorce de citron et d'orange		1	2	12
+Ecorces de citrons, d'oranges, etc	écorce de citron d'orange etc		1	5	12
 ecorces de magellan	écorce de Magellan		0	0	0
 Ecorces de Pin	écorce de pin				
 ecorces de tilleul	écorce de tilleul		0	0	0
@@ -12546,7 +12546,7 @@ Ecorces par tannerie	écorce pour tannerie		1	4	82
 Ecorces pour les tanneries	écorce pour la tannerie		1	32	82
 Ecorces pour tan	écorce pour tan		1	12	82
 Ecorces pour tannerie	écorce pour tannerie		1	5	82
-Ecorses de Citrons Confie	écorce de citrons confite		1	1	2
+Ecorses de Citrons Confie	écorce de citron confite		1	1	2
 Ecouette	ecouette	x	1	1	1
 ecrans	écrans		0	0	0
 Ecrevisses	écrevisses		1	2	2
@@ -12556,8 +12556,8 @@ Ecritoire	écritoire		1	2	7
 Ecritoire ; de chagrin	écritoire de chagrin		1	1	1
 Ecritoire ; de maroquin	écritoire de maroquin		1	1	1
 Ecritoire ; garnie d'or	écritoire garnie d'or		1	1	1
-Ecritoires	écritoire	ARRET	1	5	7
-Ecru ; de cerises	écru de cerises		1	1	1
+Ecritoires	écritoire		1	5	7
+Ecru ; de cerises	écru de cerise	x	1	1	1
 écuelles de Terre	écuelles de terre		1	1	1
 Ecuelles de vermillon	écuelles de vermillon		1	3	3
 Ecume ; de verre	écume de verre		1	1	1
@@ -12609,84 +12609,84 @@ Email brut	émail brut		1	2	2
 Embarcations avec agrès	embarcations avec agrès		1	20	28
 Embarcations et agrés	embarcations et agrés		1	8	28
 Embarcations et autres objets de marine	embarcations et autres objets de marine		1	44	44
-Emclumes	Emclumes		0	0	0
-Emclumes en fer	Emclumes en fer		0	0	0
-emercy	emercy		1	1	19
-Emerif	Emerif		1	1	19
-emeril	emeril		0	0	0
-Emery	Emery		1	16	19
-emery	emery				
-Emery ; en pierre	Emery en pierre		1	1	1
-Emery ; en poudre	Emery en poudre		1	1	1
-Emery en pierre	Emery en pierre		1	1	1
-Emire Rouge	Emire Rouge		1	1	1
-Empeigne	Empeigne		0	0	0
-Empeigne ; de foulliers	Empeigne de foulliers		1	1	10
-Empeigne de soulliers	Empeigne de soulliers		1	1	10
-Empeignes	Empeignes		1	5	6
-Empeignes ; de soulier	Empeignes de soulier		1	1	10
-Empeignes ; de souliers	Empeignes de souliers		1	2	10
-Empeignes ; de Souliers ; brodés	Empeignes de Souliers brodés		1	1	1
+Emclumes	enclumes		0	0	0
+Emclumes en fer	enclumes en fer		0	0	0
+emercy	émeri	x	1	1	19
+Emerif	émeri		1	1	19
+emeril	émeri		0	0	0
+Emery	émeri		1	16	19
+emery	émeri				
+Emery ; en pierre	émeri en pierres		1	1	1
+Emery ; en poudre	émeri en poudre		1	1	1
+Emery en pierre	émeri en pierres		1	1	1
+Emire Rouge	encre rouge	x	1	1	1
+Empeigne	empeignes		0	0	0
+Empeigne ; de foulliers	empeignes de souliers		1	1	10
+Empeigne de soulliers	empeignes de souliers		1	1	10
+Empeignes	empeignes		1	5	6
+Empeignes ; de soulier	empeignes de souliers		1	1	10
+Empeignes ; de souliers	empeignes de souliers		1	2	10
+Empeignes ; de Souliers ; brodés	empeignes de souliers brodés		1	1	1
 empeignes brodées pour souliers	empeignes brodées pour souliers		0	0	0
-empeignes couppés pour empeignes	empeignes couppés pour empeignes		0	0	0
-Empeignes de souliers	Empeignes de souliers		1	4	10
-empeignes de souliers emprimées	empeignes de souliers emprimées		0	0	0
-empeignes de toille	empeignes de toille		0	0	0
-empeignes et talons de cuir coupé	empeignes et talons de cuir coupé		0	0	0
+empeignes couppés pour empeignes	empeignes coupées pour empeignes		0	0	0
+Empeignes de souliers	empeignes de souliers		1	4	10
+empeignes de souliers emprimées	empeignes de souliers imprimées		0	0	0
+empeignes de toille	empeignes de toile		0	0	0
+empeignes et talons de cuir coupé	empeignes et talons de cuir coupés		0	0	0
 empeignes peintes pour souliers	empeignes peintes pour souliers		0	0	0
-En bâtimens de mer	En bâtimens de mer		1	1	18
-Encens	Encens		1	160	165
+En bâtimens de mer	en bâtiments de mer		1	1	18
+Encens	encens		1	160	165
 encens	encens		1	1	165
-Encens ; commun	Encens commun		1	2	3
-Encens commun	Encens commun		1	1	3
+Encens ; commun	encens commun		1	2	3
+Encens commun	encens commun		1	1	3
 encens en grabeau	encens en grabeau				
 encens en poudre	encens en poudre				
-encens en poussiere	encens en poussiere				
+encens en poussiere	encens en poussière				
 encens en poussière	encens en poussière				
-Encense	Encense		0	0	0
-Encense et savon	Encense et savon		0	0	0
-Encent	Encent		1	1	165
-Ences	Ences		1	1	165
+Encense	encens		0	0	0
+Encense et savon	encens et savon		0	0	0
+Encent	encens		1	1	165
+Ences	encens	x	1	1	165
 Enclume de fer	enclumes de fer		1	1	10
 Enclumes	enclumes		1	1	1
 Enclumes ; de fer	enclumes de fer		1	4	10
 enclumes de Fer	enclumes de fer		1	1	10
 enclumes de fer	enclumes de fer		0	0	0
-Encoignement	Encoignement		1	1	4
-Encoignures	Encoignures		1	3	4
-Encoignures de bois vernissé	Encoignures de bois vernissé		1	1	1
-Encre	Encre		1	32	32
-Encre ; à écrire	Encre à écrire		1	7	30
-Encre ; à imprimer	Encre à imprimer		1	3	3
-Encre ; d'imprimerie	Encre d'imprimerie		1	7	8
-Encre ; de la Chine	Encre de la Chine		1	5	11
-Encre ; de la chine	Encre de la chine		1	4	11
-Encre ; rouge	Encre rouge		1	1	2
-Encre à ecrire	Encre à ecrire		1	3	30
+Encoignement	encoignement	x	1	1	4
+Encoignures	encoignures		1	3	4
+Encoignures de bois vernissé	encoignures de bois vernissé		1	1	1
+Encre	encre		1	32	32
+Encre ; à écrire	encre à écrire		1	7	30
+Encre ; à imprimer	encre à imprimer		1	3	3
+Encre ; d'imprimerie	encre d'imprimerie		1	7	8
+Encre ; de la Chine	encre de la Chine		1	5	11
+Encre ; de la chine	encre de la Chine		1	4	11
+Encre ; rouge	encre rouge		1	1	2
+Encre à ecrire	encre à ecrire		1	3	30
 encre a écrire	encre à écrire		1	1	30
-Encre à écrire	Encre à écrire		1	19	30
-Encre à écrire et à imprimer	Encre à écrire et à imprimer		1	13	13
+Encre à écrire	encre à écrire		1	19	30
+Encre à écrire et à imprimer	encre à écrire et à imprimer		1	13	13
 encre commune	encre commune		0	0	0
-Encre de la chine	Encre de la chine		1	1	11
+Encre de la chine	encre de la chine		1	1	11
 encre de la Chine	encre de la Chine		0	0	0
 encre pour imprimeur	encre pour imprimeur		0	0	0
-Encre Rouge	Encre Rouge		1	1	2
-Engrais	Engrais		1	40	40
-Engrais ; ?	Engrais ?		1	1	1
-Engrais ; divers	Engrais divers		1	1	1
-Engrais ; en colombine	Engrais en colombine		1	2	2
-Engrais ; en court ; fumier	Engrais en court fumier		1	1	1
-Engrais ; en fourelle	Engrais en fourelle		1	1	1
-Engrais ; en fumier ; de rue	Engrais en fumier de rue		1	1	1
-Engrais ; en pourette	Engrais en pourette		1	1	1
-Engrais ; gru	Engrais gru		1	1	1
-Ennery	Ennery		1	1	1
-Entennes et Mats de bateaux	Entennes et Mats de bateaux				
-Entenolles	Entenolles		1	1	1
-Eoffe de laine	Eoffe de laine		1	1	308
-Eoffe en or	Eoffe en or		1	1	15
-Epagnolette	Epagnolette		1	1	84
-Epagnolette ; simple	Epagnolette simple		1	1	1
+Encre Rouge	encre rouge		1	1	2
+Engrais	engrais		1	40	40
+Engrais ; ?	engrais ???		1	1	1
+Engrais ; divers	engrais divers		1	1	1
+Engrais ; en colombine	engrais en colombine		1	2	2
+Engrais ; en court ; fumier	engrais en court fumier		1	1	1
+Engrais ; en fourelle	engrais en fourelle	x	1	1	1
+Engrais ; en fumier ; de rue	engrais en fumier de rue		1	1	1
+Engrais ; en pourette	engrais en pourette	x	1	1	1
+Engrais ; gru	engrais gru	x	1	1	1
+Ennery	émeri	x	1	1	1
+Entennes et Mats de bateaux	antennes et mâts de bateaux				
+Entenolles	entenolles	x	1	1	1
+Eoffe de laine	étoffe de laine		1	1	308
+Eoffe en or	étoffe en or		1	1	15
+Epagnolette	épagnolette	x	1	1	84
+Epagnolette ; simple	épagnolette simple	x	1	1	1
 Epar	espars		1	1	30
 eparde	espars		1	1	30
 Epards	espars		1	1	120
@@ -12701,10 +12701,10 @@ Epars de 14 a 16 pieds	espars de 14 à 16 pieds
 Epars de 20 a 22 pieds	espars de 20 à 22 pieds				
 Epars de 26 a 28 pieds	espars de 26 à 28 pieds				
 Epars de 26 pieds	espars de 26 pieds				
-Epars de 26 piés	espars de 26 piés				
+Epars de 26 piés	espars de 26 pieds				
 Epars de 27 pieds de long	espars de 27 pieds de long				
 Epars de 28 a 36 pieds	espars de 28 à 36 pieds				
-Epars de Sapin	espars de Sapin		1	8	11
+Epars de Sapin	espars de sapin		1	8	11
 Epars de sapin	espars de sapin				
 Epars de sapin ; de 30 pieds	espars de sapin de 30 pieds				
 Epars de sapin ; de 45 pieds	espars de sapin de 45 pieds				
@@ -12712,14 +12712,14 @@ Epars de sapin de 15 pieds	espars de sapin de 15 pieds
 Epars de sapin de 18 pieds	espars de sapin de 18 pieds				
 Epars de sapin de 20 pieds	espars de sapin de 20 pieds				
 Epars de sapin de 25 pieds	espars de sapin de 25 pieds				
-Epars de Sapins	espars de Sapins		1	2	11
+Epars de Sapins	espars de sapin		1	2	11
 Epars petit	espars petit		1	1	1
 Epars simple	espars simple		1	1	1
 Eparst de sapin	espars de sapin				
 Eparts	espars		1	2	120
 Eparts de sapin	espars de sapin				
-epeautre	epeautre		0	0	0
-epeautre en jarbes	epeautre en jarbes		0	0	0
+epeautre	épeautre		0	0	0
+epeautre en jarbes	épeautre en gerbes		0	0	0
 Epée ; à garde ; cuivre doré	épée à garde cuivre doré		1	1	1
 Epée ; à garde ; d'argent	épée à garde d'argent		1	1	1
 Epée ; à garde d'argent	épée à garde d'argent		1	1	1
@@ -12728,92 +12728,92 @@ Epée ; d'argent et de cuivre doré	épée d'argent et de cuivre doré		1	1	1
 Epée ; de cuivre ; doré	épée de cuivre doré		1	2	6
 Epée d'argent	épée d'argent		1	1	7
 épées	épée		0	0	0
-Epées ; à gardes d'argent	épée à gardes d'argent		1	1	1
+Epées ; à gardes d'argent	épée à garde d'argent		1	1	1
 Epées ; d'argent	épée d'argent		1	2	7
 Epées ; d'argent et de cuivre	épée d'argent et de cuivre		1	1	1
 Epées ; de cuivre	épée de cuivre		1	1	3
 Epées d'argent	épée d'argent		1	3	7
 epées d'argent	épée d'argent				
 Epées de cuivre	épée de cuivre				
-épées masquinées	épée masquinées		0	0	0
-épées montées en acier	épée montées en acier		0	0	0
-épées montées en argent	épée montées en argent		0	0	0
-epées, sabres et couteaux de chasse	épée sabres et couteaux de chasse		0	0	0
+épées masquinées	épée masquinée		0	0	0
+épées montées en acier	épée montée en acier		0	0	0
+épées montées en argent	épée montée en argent		0	0	0
+epées, sabres et couteaux de chasse	épée sabre et couteaux de chasse		0	0	0
 Eperons	éperons				
 eperons	éperons		0	0	0
 eperons et etriers	éperons et étriers		0	0	0
-Epicerie	Epicerie		1	204	372
-epicerie	epicerie				
+Epicerie	épicerie		1	204	372
+epicerie	épicerie				
 épicerie	épicerie		1	1	372
-Epicerie ; canelle	Epicerie canelle		1	25	44
-Epicerie ; canelles	Epicerie canelles		1	1	44
-Epicerie ; clous ; de girofle	Epicerie clous de girofle		1	1	32
-Epicerie ; diverse	Epicerie diverse		1	7	372
-Epicerie ; diverses	Epicerie diverses		1	12	372
-Epicerie ; en canelle	Epicerie en canelle		1	2	44
-Epicerie ; en canelle ; commune	Epicerie en canelle commune		1	1	1
-Epicerie ; en canelle ; de fleur	Epicerie en canelle de fleur		1	1	16
-Epicerie ; en clous ; de gérofle	Epicerie en clous de gérofle		1	1	32
-Epicerie ; en fleur ; de canelle	Epicerie en fleur de canelle		1	1	16
-Epicerie ; en noix ; moutarde	Epicerie en noix moutarde		1	1	1
-Epicerie ; en noix ; muscade	Epicerie en noix muscade		1	2	23
-Epicerie ; en piment	Epicerie en piment		1	1	12
-Epicerie ; en poivre ; en grain	Epicerie en poivre en grain		1	1	2
-Epicerie ; fine	Epicerie fine		1	3	10
-Epicerie ; fines	Epicerie fines		1	1	10
-Epicerie ; fleur ; de canelle	Epicerie fleur de canelle		1	1	16
-Epicerie ; gérofle	Epicerie gérofle		1	1	32
-Epicerie ; gingembre ; cru	Epicerie gingembre cru		1	1	1
-Epicerie ; giroffle	Epicerie giroffle		1	2	32
-Epicerie ; girofle	Epicerie girofle		1	12	32
-Epicerie ; macis	Epicerie macis		1	1	1
-Epicerie ; muscade	Epicerie muscade		1	7	23
-Epicerie ; muscade.	Epicerie muscade.		1	1	23
-Epicerie ; noix ; muscade	Epicerie noix muscade		1	1	23
-Epicerie ; noix ; muscades	Epicerie noix muscades		1	2	23
-Epicerie ; piment	Epicerie piment		1	11	12
-Epicerie ; poivre	Epicerie poivre		1	12	13
-Epicerie ; poivre ; brun	Epicerie poivre brun		1	2	2
-Epicerie ; poivre ; en grains	Epicerie poivre en grains		1	1	2
-Epicerie ; poivre ; long	Epicerie poivre long		1	1	1
-Epicerie ; poivre ; ordinaire	Epicerie poivre ordinaire		1	2	39
-Epicerie ; poivre giroflé	Epicerie poivre giroflé		1	2	9
-Epicerie ; poivre ordinaire	Epicerie poivre ordinaire		1	18	39
-Epicerie ; poivre piment	Epicerie poivre piment		1	7	11
-Epicerie commune	Epicerie commune				
-Epicerie diverse	Epicerie diverse		1	43	202
-Epicerie Douce	Epicerie Douce		1	1	4
-Epicerie douce	Epicerie douce		1	2	4
-Epicerie fine	Epicerie fine		1	6	10
-epicerie fine	epicerie fine				
-Epicerie sirop mélasse	Epicerie sirop mélasse		1	11	11
-Epicerie sucre en pain sorti avec prime	Epicerie sucre en pain sorti avec prime		1	13	13
-Epiceries	Epiceries		1	87	372
-Epiceries ; Canelle	Epiceries Canelle		1	10	44
-Epiceries ; canelle	Epiceries canelle		1	3	44
-Epiceries ; chocolat	Epiceries chocolat		1	4	4
-Epiceries ; diverses	Epiceries diverses		1	6	202
-Epiceries ; Gingembre	Epiceries Gingembre		1	3	4
-Epiceries ; Giroffle	Epiceries Giroffle		1	12	32
-Epiceries ; girofle	Epiceries girofle		1	3	32
-Epiceries ; huile ; d'olives	Epiceries huile d'olives		1	6	6
-Epiceries ; huile ; de lin et de graines	Epiceries huile de lin et de graines		1	6	6
-Epiceries ; huile ; de noix	Epiceries huile de noix		1	3	3
-Epiceries ; huile ; de poisson	Epiceries huile de poisson		1	3	3
-Epiceries ; Muscade	Epiceries Muscade		1	3	23
-Epiceries ; Muscades	Epiceries Muscades		1	7	23
-Epiceries ; Poivre ; En grabeau	Epiceries Poivre En grabeau		1	2	2
-Epiceries ; Poivre ; Girofflé	Epiceries Poivre Girofflé		1	7	9
-Epiceries ; Poivre ; Ordinaire	Epiceries Poivre Ordinaire		1	19	39
-Epiceries ; Poivre ; Piment	Epiceries Poivre Piment		1	4	11
-Epiceries diverses	Epiceries diverses		1	135	202
-Epiceries mélées	Epiceries mélées		1	8	21
-Epiceries mêlées	Epiceries mêlées		1	13	21
-epiceries mellées	epiceries mellées		0	0	0
-Epiceries réunies	Epiceries réunies		1	7	7
-Epie d'Acier	Epie d'Acier		1	1	1
-Epinelle	Epinelle		1	1	236
-Epines ; à planter	Epines à planter		1	1	1
+Epicerie ; canelle	épicerie cannelle		1	25	44
+Epicerie ; canelles	épicerie cannelle		1	1	44
+Epicerie ; clous ; de girofle	épicerie clous de girofle		1	1	32
+Epicerie ; diverse	épicerie diverse		1	7	372
+Epicerie ; diverses	épicerie diverses		1	12	372
+Epicerie ; en canelle	épicerie en cannelle		1	2	44
+Epicerie ; en canelle ; commune	épicerie en cannelle commune		1	1	1
+Epicerie ; en canelle ; de fleur	épicerie en cannelle de fleurs		1	1	16
+Epicerie ; en clous ; de gérofle	épicerie en clous de girofle		1	1	32
+Epicerie ; en fleur ; de canelle	épicerie en fleurs de cannelle		1	1	16
+Epicerie ; en noix ; moutarde	épicerie en noix moutarde		1	1	1
+Epicerie ; en noix ; muscade	épicerie en noix muscade		1	2	23
+Epicerie ; en piment	épicerie en piment		1	1	12
+Epicerie ; en poivre ; en grain	épicerie en poivre en grains		1	1	2
+Epicerie ; fine	épicerie fine		1	3	10
+Epicerie ; fines	épicerie fine		1	1	10
+Epicerie ; fleur ; de canelle	épicerie fleurs de cannelle		1	1	16
+Epicerie ; gérofle	épicerie girofle		1	1	32
+Epicerie ; gingembre ; cru	épicerie gingembre cru		1	1	1
+Epicerie ; giroffle	épicerie girofle		1	2	32
+Epicerie ; girofle	épicerie girofle		1	12	32
+Epicerie ; macis	épicerie macis	x	1	1	1
+Epicerie ; muscade	épicerie muscade		1	7	23
+Epicerie ; muscade.	épicerie muscade.		1	1	23
+Epicerie ; noix ; muscade	épicerie noix muscade		1	1	23
+Epicerie ; noix ; muscades	épicerie noix muscade		1	2	23
+Epicerie ; piment	épicerie piment		1	11	12
+Epicerie ; poivre	épicerie poivre		1	12	13
+Epicerie ; poivre ; brun	épicerie poivre brun		1	2	2
+Epicerie ; poivre ; en grains	épicerie poivre en grains		1	1	2
+Epicerie ; poivre ; long	épicerie poivre long		1	1	1
+Epicerie ; poivre ; ordinaire	épicerie poivre ordinaire		1	2	39
+Epicerie ; poivre giroflé	épicerie poivre giroflé		1	2	9
+Epicerie ; poivre ordinaire	épicerie poivre ordinaire		1	18	39
+Epicerie ; poivre piment	épicerie poivre piment		1	7	11
+Epicerie commune	épicerie commune				
+Epicerie diverse	épicerie diverse		1	43	202
+Epicerie Douce	épicerie douce		1	1	4
+Epicerie douce	épicerie douce		1	2	4
+Epicerie fine	épicerie fine		1	6	10
+epicerie fine	épicerie fine				
+Epicerie sirop mélasse	épicerie sirop mélasse		1	11	11
+Epicerie sucre en pain sorti avec prime	épicerie sucre en pain sorti avec prime		1	13	13
+Epiceries	épicerie		1	87	372
+Epiceries ; Canelle	épicerie cannelle		1	10	44
+Epiceries ; canelle	épicerie cannelle		1	3	44
+Epiceries ; chocolat	épicerie chocolat		1	4	4
+Epiceries ; diverses	épicerie diverse		1	6	202
+Epiceries ; Gingembre	épicerie gingembre		1	3	4
+Epiceries ; Giroffle	épicerie girofle		1	12	32
+Epiceries ; girofle	épicerie girofle		1	3	32
+Epiceries ; huile ; d'olives	épicerie huile d'olive		1	6	6
+Epiceries ; huile ; de lin et de graines	épicerie huile de lin et de graine		1	6	6
+Epiceries ; huile ; de noix	épicerie huile de noix		1	3	3
+Epiceries ; huile ; de poisson	épicerie huile de poisson		1	3	3
+Epiceries ; Muscade	épicerie muscade		1	3	23
+Epiceries ; Muscades	épicerie muscade		1	7	23
+Epiceries ; Poivre ; En grabeau	épicerie poivre en grabeau		1	2	2
+Epiceries ; Poivre ; Girofflé	épicerie poivre giroflé		1	7	9
+Epiceries ; Poivre ; Ordinaire	épicerie poivre ordinaire		1	19	39
+Epiceries ; Poivre ; Piment	épicerie poivre piment		1	4	11
+Epiceries diverses	épicerie diverse		1	135	202
+Epiceries mélées	épicerie mêlée		1	8	21
+Epiceries mêlées	épicerie mêlée		1	13	21
+epiceries mellées	épicerie mêlée		0	0	0
+Epiceries réunies	épicerie réunie		1	7	7
+Epie d'Acier	épée d'Acier	x	1	1	1
+Epinelle	epinelle	x	1	1	236
+Epines ; à planter	épines à planter		1	1	1
 Epinette	épinettes		1	1	4
 Epinettes	épinettes		1	3	4
 Epingle	épingles		1	5	236
@@ -12824,93 +12824,93 @@ Epingles ; de laiton	épingles de laiton		1	4	4
 epingles communs	épingles communes		0	0	0
 epingles en cuivre	épingles en cuivre		0	0	0
 Epingles et eguilles	épingles et aiguilles		1	1	1
-Epiterie	Epiterie		1	7	372
-Eponge	Eponge		1	15	349
-eponge	eponge				
-éponge	éponge		1	1	349
-Eponge ; commune	Eponge commune		1	1	1
-Eponge ; fine	Eponge fine		1	1	1
-Eponges	Eponges		1	331	349
-eponges	eponges				
+Epiterie	epiterie	x	1	7	372
+Eponge	éponges		1	15	349
+eponge	éponges				
+éponge	éponges		1	1	349
+Eponge ; commune	éponges communes		1	1	1
+Eponge ; fine	éponges fines		1	1	1
+Eponges	éponges		1	331	349
+eponges	éponges				
 éponges	éponges		1	1	349
-Eponges ; communes	Eponges communes		1	5	5
-eponges communes	eponges communes				
-Eponges fines et communes	Eponges fines et communes		1	6	6
-Eposterie	Eposterie		1	1	45
-epoupetterie	epoupetterie		1	1	45
-Epouse Terre	Epouse Terre		1	1	45
-epouseterie	epouseterie		1	6	45
-epousetetrie	epousetetrie		1	1	45
-epousetrie	epousetrie		1	1	45
-epousetterie	epousetterie		1	2	45
-Epousseterie	Epousseterie		1	3	45
-Epoussèteriez	Epoussèteriez		1	1	45
-Epoustaries	Epoustaries		1	1	45
-Epousterie	Epousterie		1	19	45
-epousterie	epousterie		1	1	45
-épousterie	épousterie		1	1	45
-Epousteries	Epousteries		1	5	45
-Epouterie	Epouterie		1	1	45
-Eppars	espars		1	1	120
-Eprouvette de Cuivre	Eprouvette de Cuivre		1	1	1
-Equeurs	Equeurs		1	1	1
-Equine	Equine		1	1	1
-Equipement militaire	Equipement militaire		0	0	0
-Ergot ; de beuf	Ergot de beuf		1	3	14
-Ergot ; de caret	Ergot de caret		1	1	1
-Ergots ; d'Elbeuf	Ergots d'Elbeuf		0	0	0
-Ergots ; de beuf	Ergots de beuf		1	6	14
-Ergots ; de bœuf	Ergots de bœuf		1	1	14
-Ergots de beuf	Ergots de beuf		1	4	14
-Ernail	Ernail		1	1	43
-Eroffe or et argent	Eroffe or et argent		1	1	101
-Escabelles	Escabelles		1	1	3
-Escabilles	Escabilles		1	1	3
-Escamille	Escamille		1	1	3
-Escamite	Escamite		1	5	5
-Escamitte	Escamitte		1	17	17
+Eponges ; communes	éponges communes		1	5	5
+eponges communes	éponges communes				
+Eponges fines et communes	éponges fines et communes		1	6	6
+Eposterie	epousterie	x	1	1	45
+epoupetterie	epousterie	x	1	1	45
+Epouse Terre	epousterie	x	1	1	45
+epouseterie	epousterie	x	1	6	45
+epousetetrie	epousterie	x	1	1	45
+epousetrie	epousterie	x	1	1	45
+epousetterie	epousterie	x	1	2	45
+Epousseterie	epousterie	x	1	3	45
+Epoussèteriez	epousterie	x	1	1	45
+Epoustaries	epousterie	x	1	1	45
+Epousterie	epousterie	x	1	19	45
+epousterie	epousterie	x	1	1	45
+épousterie	epousterie	x	1	1	45
+Epousteries	epousterie	x	1	5	45
+Epouterie	epousterie	x	1	1	45
+Eppars	espars	x	1	1	120
+Eprouvette de Cuivre	éprouvette de cuivre		1	1	1
+Equeurs	equeurs	x	1	1	1
+Equine	equine	x	1	1	1
+Equipement militaire	équipement militaire		0	0	0
+Ergot ; de beuf	ergots de bœuf	x	1	3	14
+Ergot ; de caret	ergots de caret	x	1	1	1
+Ergots ; d'Elbeuf	ergots de bœuf	x	0	0	0
+Ergots ; de beuf	ergots de bœuf	x	1	6	14
+Ergots ; de bœuf	ergots de bœuf	x	1	1	14
+Ergots de beuf	ergots de bœuf	x	1	4	14
+Ernail	érnail		1	1	43
+Eroffe or et argent	étoffe or et argent		1	1	101
+Escabelles	escabelles		1	1	3
+Escabilles	escabilles	x	1	1	3
+Escamille	escamitte	x	1	1	3
+Escamite	escamitte		1	5	5
+Escamitte	escamitte		1	17	17
 escamitte	escamitte				
-Escamittes	Escamittes				
-Escamonnée	Escamonnée				
-Escarasse	Escarasse		1	9	9
-Escarasser	Escarasser				
-Escarasses	Escarasses				
-Escargots	Escargots		1	3	3
-escargots et crekels	escargots et crekels		0	0	0
-Escarpins	Escarpins		1	1	1
-escauritte	escauritte				
-Escayelles	Escayelles		1	1	81
-Escayolle	Escayolle		1	14	81
-escayolle	escayolle				
-Escayolles	Escayolles		1	47	81
-escayolles	escayolles				
-Escayotte	Escayotte		1	2	81
-Escayottes	Escayottes		1	14	81
-esclephins	esclephins		0	0	0
-esclephins salés	esclephins salés		0	0	0
-Esco	Esco		1	1	1
-Escope	Escope		1	4	9
-Escopes	Escopes		1	5	9
-Escortines	Escortines		1	2	3
-Escortins	Escortins		1	1	3
-Escosses	Escosses				
-Escots ; de fer	Escots de fer		1	2	2
-escrabille	escrabille		0	0	0
-escrevisses de mer	escrevisses de mer		0	0	0
-escrevisses de rivière	escrevisses de rivière		0	0	0
-Escurgeons	Escurgeons		1	1	25
-Espadons	Espadons		0	0	0
-Espagnolette	Espagnolette		1	75	84
-Espagnolette ; à fleurs	Espagnolette à fleurs		1	1	1
-Espagnolette ; croisé	Espagnolette croisé		1	3	3
-Espagnolette ; croisée	Espagnolette croisée		1	16	17
-Espagnolette ; de laine	Espagnolette de laine		1	2	2
-Espagnolette ; simple	Espagnolette simple		1	16	16
-Espagnolettes	Espagnolettes		1	7	84
-espagnolettes	espagnolettes		0	0	0
-Espagnolettes ; croisées	Espagnolettes croisées		1	1	17
-Espard	espar		1	2	120
-Espardilles	Espardilles		1	4	4
+Escamittes	escamitte				
+Escamonnée	scamonnée				
+Escarasse	escarasse	x	1	9	9
+Escarasser	escarasse	x			
+Escarasses	escarasse	x			
+Escargots	escargots		1	3	3
+escargots et crekels	escargots et crekels	x	0	0	0
+Escarpins	escarpins		1	1	1
+escauritte	escamitte	x			
+Escayelles	escayolles		1	1	81
+Escayolle	escayolles	x	1	14	81
+escayolle	escayolles	x			
+Escayolles	escayolles	x	1	47	81
+escayolles	escayolles	x			
+Escayotte	escayolles	x	1	2	81
+Escayottes	escayolles	x	1	14	81
+esclephins	églefins	x	0	0	0
+esclephins salés	églefins salés	x	0	0	0
+Esco	esco	x	1	1	1
+Escope	escope	x	1	4	9
+Escopes	escope	x	1	5	9
+Escortines	escortines	x	1	2	3
+Escortins	escortines	x	1	1	3
+Escosses	escosses	x			
+Escots ; de fer	escots de fer	x	1	2	2
+escrabille	escrabille	x	0	0	0
+escrevisses de mer	écrevisses de mer		0	0	0
+escrevisses de rivière	écrevisses de rivière		0	0	0
+Escurgeons	esturgeons		1	1	25
+Espadons	espadons		0	0	0
+Espagnolette	espagnolette		1	75	84
+Espagnolette ; à fleurs	espagnolette à fleurs		1	1	1
+Espagnolette ; croisé	espagnolette croisée		1	3	3
+Espagnolette ; croisée	espagnolette croisée		1	16	17
+Espagnolette ; de laine	espagnolette de laine		1	2	2
+Espagnolette ; simple	espagnolette simple		1	16	16
+Espagnolettes	espagnolette		1	7	84
+espagnolettes	espagnolette		0	0	0
+Espagnolettes ; croisées	espagnolette croisée		1	1	17
+Espard	espars		1	2	120
+Espardilles	espadrilles	x	1	4	4
 Espares	espars		1	1	120
 Espars	espars				
 espars	espars				
@@ -12947,17 +12947,17 @@ Espars de 35 pieds	espars de 35 pieds
 Espars de 40 a 45 piés	espars de 40 à 45 piés				
 Espars de 45 pieds	espars de 45 pieds				
 Espars de sapin	espars de sapin				
-Espars douBle	espars douBle		1	1	5
-Espars double	espars double		1	1	5
+Espars douBle	espars doubles		1	1	5
+Espars double	espars doubles		1	1	5
 Espars doubles	espars doubles		1	1	5
 Espars ordinaires	espars ordinaires		0	0	0
 Espars petits	espars petits				
-Espars Simples	espars Simples		1	1	2
+Espars Simples	espars simples		1	1	2
 Espars simples	espars simples		1	1	2
-Esparst de nitriol	espars de nitriol		1	1	1
+Esparst de nitriol	espars de nitriol	x	1	1	1
 Esparsts	espars		1	1	120
 Espart	espars		1	2	120
-Espart ; marmoyées ; en argent	espars marmoyées en argent		1	1	1
+Espart ; marmoyées ; en argent	espars marmoyées en argent	x	1	1	1
 Espart doubles	espars doubles		1	1	5
 Esparts	espars				
 Esparts ; de 14 pieds	espars de 14 pieds				
@@ -12967,149 +12967,149 @@ Esparts ; de 30 pieds	espars de 30 pieds
 Esparts ; de 8 a 9 pieds	espars de 8 à 9 pieds				
 Esparts ; de différentes longueurs	espars de différentes longueurs				
 Esparts Doubler	espars doubles		1	1	5
-Espayolles	Espayolles		1	3	81
-Espice de curons	Espice de curons		1	2	2
-Espicerie	Espicerie		1	1	372
-Espontona	Espontona		1	1	2
-Espontour	Espontour		1	1	2
-Esprit	Esprit		1	1	2
-Esprit ; d'absinthe	Esprit d'absinthe		1	1	1
-Esprit ; de bergamote	Esprit de bergamote		1	3	57
-Esprit ; de bergamotte	Esprit de bergamotte		1	25	57
-Esprit ; de bergamottes	Esprit de bergamottes		1	28	57
-Esprit ; de cedra	Esprit de cedra		1	1	1
-Esprit ; de citron	Esprit de citron		1	38	47
-Esprit ; de citrons	Esprit de citrons		1	4	47
-Esprit ; de Coclearia	Esprit de Coclearia		1	1	1
-Esprit ; de corne de cerf	Esprit de corne de cerf		1	1	3
-Esprit ; de cornes de cerf	Esprit de cornes de cerf		1	2	3
-Esprit ; de coton	Esprit de coton		1	1	1
-Esprit ; de fil	Esprit de fil		1	1	1
-Esprit ; de fl. D'orange	Esprit de fl. D'orange		1	1	3
-Esprit ; de fleur d'orange	Esprit de fleur d'orange		1	2	3
-Esprit ; de lavande	Esprit de lavande		1	1	1
-Esprit ; de miroly	Esprit de miroly		1	1	2
-Esprit ; de mirrhe	Esprit de mirrhe		1	1	2
-Esprit ; de Nilre	Esprit de Nilre		1	1	10
-Esprit ; de nitre	Esprit de nitre		1	5	10
-Esprit ; de romarin	Esprit de romarin		1	1	1
-Esprit ; de sel	Esprit de sel		1	8	16
-Esprit ; de sel armoniac	Esprit de sel armoniac		1	1	16
-Esprit ; de souffre	Esprit de souffre		1	6	16
-Esprit ; de vin	Esprit de vin		1	16	113
-esprit ; de vin	esprit de vin		1	1	113
-Esprit ; de Vitriol	Esprit de Vitriol		1	1	28
-Esprit ; de vitriol	Esprit de vitriol		1	22	28
-Esprit de bergamote	Esprit de bergamote		1	1	5
-esprit de bergamotte	esprit de bergamotte				
-Esprit de bergamottes	Esprit de bergamottes		1	1	5
-Esprit de citron	Esprit de citron		1	4	47
-Esprit de Coclaria	Esprit de Coclaria				
-Esprit de Coclearia	Esprit de Coclearia				
+Espayolles	escayolles	x	1	3	81
+Espice de curons	épice de Curons		1	2	2
+Espicerie	épicerie		1	1	372
+Espontona	espontona	x	1	1	2
+Espontour	espontour	x	1	1	2
+Esprit	esprit		1	1	2
+Esprit ; d'absinthe	esprit d'absinthe		1	1	1
+Esprit ; de bergamote	esprit de bergamote		1	3	57
+Esprit ; de bergamotte	esprit de bergamote		1	25	57
+Esprit ; de bergamottes	esprit de bergamote		1	28	57
+Esprit ; de cedra	esprit de cédrat		1	1	1
+Esprit ; de citron	esprit de citron		1	38	47
+Esprit ; de citrons	esprit de citron	x	1	4	47
+Esprit ; de Coclearia	esprit de coclearia		1	1	1
+Esprit ; de corne de cerf	esprit de corne de cerf		1	1	3
+Esprit ; de cornes de cerf	esprit de corne de cerf		1	2	3
+Esprit ; de coton	esprit de coton		1	1	1
+Esprit ; de fil	esprit de fil		1	1	1
+Esprit ; de fl. D'orange	esprit de fleur d'orange		1	1	3
+Esprit ; de fleur d'orange	esprit de fleur d'orange		1	2	3
+Esprit ; de lavande	esprit de lavande		1	1	1
+Esprit ; de miroly	esprit de miroly	x	1	1	2
+Esprit ; de mirrhe	esprit de myrrhe		1	1	2
+Esprit ; de Nilre	esprit de nitre		1	1	10
+Esprit ; de nitre	esprit de nitre		1	5	10
+Esprit ; de romarin	esprit de romarin		1	1	1
+Esprit ; de sel	esprit de sel		1	8	16
+Esprit ; de sel armoniac	esprit de sel ammoniac		1	1	16
+Esprit ; de souffre	esprit de soufre		1	6	16
+Esprit ; de vin	esprit-de-vin		1	16	113
+esprit ; de vin	esprit-de-vin		1	1	113
+Esprit ; de Vitriol	esprit de vitriol		1	1	28
+Esprit ; de vitriol	esprit de vitriol		1	22	28
+Esprit de bergamote	esprit de bergamote		1	1	5
+esprit de bergamotte	esprit de bergamote				
+Esprit de bergamottes	esprit de bergamote		1	1	5
+Esprit de citron	esprit de citron		1	4	47
+Esprit de Coclaria	esprit de coclearia				
+Esprit de Coclearia	esprit de coclearia				
 esprit de limon	esprit de limon				
-Esprit de Nitre	Esprit de Nitre		1	2	10
-Esprit de nitre	Esprit de nitre		1	1	10
-Esprit de Souffre	Esprit de Souffre		1	1	1
-Esprit de souffre	Esprit de souffre				
-Esprit de Vin	Esprit de Vin		1	1	113
-Esprit de vin	Esprit de vin		1	46	113
-esprit de vin	esprit de vin				
-Esprit de Vitriol	Esprit de Vitriol		1	2	28
-Esprit de vitriol	Esprit de vitriol		1	1	28
-esprit de Vitriol	esprit de Vitriol		1	1	28
+Esprit de Nitre	esprit de nitre		1	2	10
+Esprit de nitre	esprit de nitre		1	1	10
+Esprit de Souffre	esprit de soufre		1	1	1
+Esprit de souffre	esprit de soufre				
+Esprit de Vin	esprit-de-vin		1	1	113
+Esprit de vin	esprit-de-vin		1	46	113
+esprit de vin	esprit-de-vin				
+Esprit de Vitriol	esprit de vitriol		1	2	28
+Esprit de vitriol	esprit de vitriol		1	1	28
+esprit de Vitriol	esprit de vitriol		1	1	28
 esprit de vitriol	esprit de vitriol		1	1	28
-Esprit-de-vin	Esprit-de-vin		1	35	113
-Esprit; de nittre	Esprit de nittre		1	1	10
-Esprit;de sel;armoniac	Espritde selarmoniac		1	1	1
-Esprits ; de bergemottes	Esprits de bergemottes		1	1	57
-Esprits ; de citrons	Esprits de citrons		1	1	47
-Esprits ; de sel marin	Esprits de sel marin		1	1	16
-Esprot	Esprot				
-Esprots	Esprots				
-esprots fumés	esprots fumés		0	0	0
-Espuirie	Espuirie		1	1	2
-Esquine	Esquine		1	1	2
-esquine	esquine				
-esquinne	esquinne		0	0	0
-Essance de jassemin	Essance de jassemin				
-Essence	Essence		1	95	107
+Esprit-de-vin	esprit-de-vin		1	35	113
+Esprit; de nittre	esprit de nitre		1	1	10
+Esprit;de sel;armoniac	esprit de sel ammoniac		1	1	1
+Esprits ; de bergemottes	esprit de bergamote		1	1	57
+Esprits ; de citrons	esprit de citron		1	1	47
+Esprits ; de sel marin	esprit de sel marin		1	1	16
+Esprot	esprots	x			
+Esprots	esprots	x			
+esprots fumés	esprots fumés	x	0	0	0
+Espuirie	espuirie	x	1	1	2
+Esquine	esquine	x	1	1	2
+esquine	esquine	x			
+esquinne	esquine	x	0	0	0
+Essance de jassemin	essence de jasmin				
+Essence	essence		1	95	107
 essence	essence				
-Essence ; au bruit ; aromathique	Essence au bruit aromathique		1	1	1
-Essence ; d'anis	Essence d'anis		1	1	1
-Essence ; de Bergamotte	Essence de Bergamotte		1	1	5
-Essence ; de bergamotte	Essence de bergamotte		1	2	5
-Essence ; de canelle	Essence de canelle		1	2	4
-Essence ; de citron	Essence de citron		1	11	12
-Essence ; de geroffle	Essence de geroffle		1	2	2
-Essence ; de muscades	Essence de muscades		1	1	1
-Essence ; de paruce	Essence de paruce		1	1	1
-Essence ; de rose	Essence de rose		1	1	1
-Essence ; de terebenthine	Essence de terebenthine		1	2	5
-Essence ; de térébenthine	Essence de térébenthine		1	2	5
-Essence ; de vitriol	Essence de vitriol		1	3	3
-Essence ; diverse	Essence diverse		1	4	32
-Essence ; diverses	Essence diverses		1	4	32
-Essence de bergamote	Essence de bergamote		1	1	1
-Essence de canelle	Essence de canelle				
+Essence ; au bruit ; aromathique	essence au bruit aromatique		1	1	1
+Essence ; d'anis	essence d'anis		1	1	1
+Essence ; de Bergamotte	essence de bergamote		1	1	5
+Essence ; de bergamotte	essence de bergamote		1	2	5
+Essence ; de canelle	essence de cannelle		1	2	4
+Essence ; de citron	essence de citron		1	11	12
+Essence ; de geroffle	essence de girofle		1	2	2
+Essence ; de muscades	essence de muscade		1	1	1
+Essence ; de paruce	essence de paruce	x	1	1	1
+Essence ; de rose	essence de rose		1	1	1
+Essence ; de terebenthine	essence de térébenthine		1	2	5
+Essence ; de térébenthine	essence de térébenthine		1	2	5
+Essence ; de vitriol	essence de vitriol		1	3	3
+Essence ; diverse	essence diverse		1	4	32
+Essence ; diverses	essence diverse		1	4	32
+Essence de bergamote	essence de bergamote		1	1	1
+Essence de canelle	essence de cannelle				
 essence de cendre de bois	essence de cendre de bois		0	0	0
-Essence de citron	Essence de citron		1	1	12
+Essence de citron	essence de citron		1	1	12
 essence de citron	essence de citron				
-essence de citrons	essence de citrons				
-Essence de jasmin	Essence de jasmin				
+essence de citrons	essence de citron				
+Essence de jasmin	essence de jasmin				
 essence de jasmin	essence de jasmin				
-Essence de jassemin	Essence de jassemin		1	3	3
+Essence de jassemin	essence de jasmin		1	3	3
 essence de limon	essence de limon				
-Essence de terebantine	Essence de terebantine				
-Essence de térébenthine	Essence de térébenthine		0	0	0
-Essence de thin	Essence de thin		1	1	1
-Essence et huile de térébenthine	Essence et huile de térébenthine		1	64	64
-Essences	Essences		1	12	107
-Essences ; diverses	Essences diverses		1	3	32
-Essences diverses	Essences diverses		1	21	32
+Essence de terebantine	essence de térébenthine				
+Essence de térébenthine	essence de térébenthine		0	0	0
+Essence de thin	essence de thyn		1	1	1
+Essence et huile de térébenthine	essence et huile de térébenthine		1	64	64
+Essences	essence		1	12	107
+Essences ; diverses	essence diverse		1	3	32
+Essences diverses	essence diverse		1	21	32
 essieux	essieux		0	0	0
-Essieux ; de fer	Essieux de fer		1	4	7
-Essieux de fer	Essieux de fer		1	3	7
-Estagnons	Estagnons		1	1	1
+Essieux ; de fer	essieux de fer		1	4	7
+Essieux de fer	essieux de fer		1	3	7
+Estagnons	estagnons		1	1	1
 Estain ouvré	étain ouvré		1	1	400
 Estamine	étamine				
-Estamper	Estamper				
-Estampes	Estampes		1	194	213
-Estampes ; en feuilles	Estampes en feuilles		1	1	1
-Estampes ; sur papier	Estampes sur papier		1	1	1
-Estampes ; sur toile	Estampes sur toile		1	1	1
-Estampes et cartes géographiques	Estampes et cartes géographiques		1	8	10
-Estampes et gravures	Estampes et gravures		1	42	43
-Estère; de jong	Estère de jong		1	1	3
-Esteres ; de jong	Esteres de jong		1	1	43
-Estères ; de jongs	Estères de jongs		1	1	3
-Esteres de jongs	Esteres de jongs		1	1	3
+Estamper	estampes				
+Estampes	estampes		1	194	213
+Estampes ; en feuilles	estampes en feuilles		1	1	1
+Estampes ; sur papier	estampes sur papier		1	1	1
+Estampes ; sur toile	estampes sur toile		1	1	1
+Estampes et cartes géographiques	estampes et cartes géographiques		1	8	10
+Estampes et gravures	estampes et gravures		1	42	43
+Estère; de jong	estères de jonc	x	1	1	3
+Esteres ; de jong	estères de jonc	x	1	1	43
+Estères ; de jongs	estères de jonc	x	1	1	3
+Esteres de jongs	estères de jonc	x	1	1	3
 Estoffe de soye	étoffe de soie				
-Estorax	Estorax				
-Estoupe	Estoupe		1	1	65
-Estrasse ; de savoye	Estrasse de savoye		1	1	1
-Estrasse ; de soye	Estrasse de soie		1	9	24
+Estorax	storax				
+Estoupe	étoupes		1	1	65
+Estrasse ; de savoye	estrasse de Savoie		1	1	1
+Estrasse ; de soye	estrasse de soie		1	9	24
 estrasse de cocons	estrasse de cocons				
-Estrasse de soye	Estrasse de soie		1	14	24
-estrasses de soye	estrasses de soie				
-Esturgeon	Esturgeon		1	2	25
-Esturgeon ; mariné	Esturgeon mariné		1	1	3
-esturgeon en adaube	esturgeon en adaube		0	0	0
-Esturgeon Mariné	Esturgeon Mariné		1	1	3
-Esturgeon salé	Esturgeon salé				
-Esturgeons	Esturgeons				
-esturgeons	esturgeons		0	0	0
-Esturgeons ; marines	Esturgeons marines		1	1	3
-esturgeons salés	esturgeons salés		0	0	0
-Esturgons	Esturgons		1	1	25
-Estzasve de soye	Estzasve de soie		1	1	24
+Estrasse de soye	estrasse de soie		1	14	24
+estrasses de soye	estrasse de soie				
+Esturgeon	esturgeon		1	2	25
+Esturgeon ; mariné	esturgeon mariné		1	1	3
+esturgeon en adaube	esturgeon en adaube	x	0	0	0
+Esturgeon Mariné	esturgeon mariné		1	1	3
+Esturgeon salé	esturgeon salé				
+Esturgeons	esturgeon				
+esturgeons	esturgeon		0	0	0
+Esturgeons ; marines	esturgeon mariné		1	1	3
+esturgeons salés	esturgeon salé		0	0	0
+Esturgons	esturgeon		1	1	25
+Estzasve de soye	estrasse de soie		1	1	24
 Etaim	étain		1	3	324
 Etaim ; battu	étain battu		1	7	12
 Etaim ; d'angleterre	étain d'Angleterre		1	1	2
 Etaim ; de glace	étain de glaces		1	10	27
 Etaim ; de glan	étain de glaces		1	2	27
-Etaim ; de Melac	étain de Melac		1	4	10
-Etaim ; de Sleiac	étain de Melac		1	2	10
-Etaim ; demelae	étain de Melac		1	1	10
+Etaim ; de Melac	étain de Melac	x	1	4	10
+Etaim ; de Sleiac	étain de Melac	x	1	2	10
+Etaim ; demelae	étain de Melac	x	1	1	10
 Etaim ; des Indes	étain des Indes		1	12	20
 Etaim ; des indes	étain des Indes		1	1	20
 Etaim ; en baguettes	étain en baguettes		1	1	1
@@ -13144,9 +13144,9 @@ Etain ; Brut	étain brut		1	15	22
 Etain ; brut	étain brut		1	6	22
 Etain ; d'Angleterre	étain d'Angleterre		1	1	2
 Etain ; de glace	étain de glaces		1	13	27
-Etain ; de malgue	étain de malgue		1	1	1
-Etain ; de Melac	étain de Melac		1	1	10
-Etain ; de melac	étain de Melac		1	2	10
+Etain ; de malgue	étain de malgue	x	1	1	1
+Etain ; de Melac	étain de Melac	x	1	1	10
+Etain ; de melac	étain de Melac	x	1	2	10
 Etain ; des Indes	étain des Indes		1	7	20
 Etain ; divers	étain divers		1	13	13
 Etain ; en barres ou en blocs	étain en barres ou en blocs		1	2	2
@@ -13187,14 +13187,14 @@ etaing ; ouvré	étain ouvré		1	1	400
 etaing ; vieux	étain vieux		1	1	56
 Etaing ouvré	étain ouvré		1	1	400
 Etains ouvrés	étain ouvré		1	1	400
-Etais en bois	Etais en bois		0	0	0
-Etalchasse	Etalchasse		1	2	4
-Etame	Etame		1	2	4
-Etame ; des prises	Etame des prises		1	1	1
-Etamette	Etamette		1	3	31
-etamettes	etamettes		0	0	0
-etamettes dauphines casinettes	etamettes dauphines casinettes		0	0	0
-etamettes dauphines casinettes / aune	etamettes dauphines casinettes aune		0	0	0
+Etais en bois	étais en bois		0	0	0
+Etalchasse	etalchasse	x	1	2	4
+Etame	étame	x	1	2	4
+Etame ; des prises	étame des prises	x	1	1	1
+Etamette	etamette		1	3	31
+etamettes	étamette		0	0	0
+etamettes dauphines casinettes	étamette dauphine casinettes		0	0	0
+etamettes dauphines casinettes / aune	étamette dauphine casinettes aune		0	0	0
 Etamine	étamine		1	26	31
 etamine	étamine		0	0	0
 Etamine ; a bluseau	étamine à bluteau		1	1	4
@@ -13214,15 +13214,15 @@ Etamine ; d'Amiens	étamine d'Amiens		1	4	8
 Etamine ; d'amiens	étamine d'Amiens		1	3	8
 Etamine ; d'Auvergne	étamine d'Auvergne		1	4	16
 Etamine ; d'auvergne	étamine d'Auvergne		1	3	16
-Etamine ; de Acims	étamine de Acims		1	10	10
+Etamine ; de Acims	étamine de Acims	x	1	10	10
 Etamine ; de lain	étamine de laine		1	1	343
 Etamine ; de laine	étamine de laine		1	303	343
 etamine ; de laine	étamine de laine		1	1	343
 Etamine ; de Mans	étamine du Mans		1	4	55
 Etamine ; de Nogent	étamine de Nogent		1	4	4
-Etamine ; de Noyau	étamine de Noyau		1	2	2
+Etamine ; de Noyau	étamine de Noyau	x	1	2	2
 Etamine ; de Reims	étamine de Reims		1	198	209
-Etamine ; des prises	étamine des prises		1	1	1
+Etamine ; des prises	étamine des prises	x	1	1	1
 Etamine ; du Hans	étamine du Mans		1	4	55
 Etamine ; du Mans	étamine du Mans		1	33	55
 Etamine ; du mans	étamine du Mans		1	4	55
@@ -13231,7 +13231,7 @@ Etamine ; my soye	étamine mi soie		1	1	1
 Etamine ; rayee	étamine rayée		1	1	2
 Etamine ; rayée	étamine rayée		1	1	2
 Etamine ; soye et laine	étamine soie et laine		1	1	1
-Etamine ; virée	étamine virée		1	1	1
+Etamine ; virée	étamine virée	x	1	1	1
 Etamine / aune	étamine aune		0	0	0
 etamine à passer fromage	étamine à passer fromage		0	0	0
 Etamine a pavillons	étamine à pavillon				
@@ -13240,7 +13240,7 @@ Etamine avec vin brin de soye	étamine avec vingt brins de soie
 etamine d'Allemagne	étamine d'Allemagne		0	0	0
 Etamine d'Amiens	étamine d'Amiens		1	1	8
 Etamine d'Auvergne	étamine d'Auvergne		1	9	16
-etamine de belzamine	étamine de belzamine		0	0	0
+etamine de belzamine	étamine de belzamine	x	0	0	0
 etamine de dumans	étamine du Mans		0	0	0
 Etamine de laine	étamine de laine				
 Etamine de line	étamine de laine		1	1	343
@@ -13254,19 +13254,19 @@ Etamines ; à pavillon	étamine à pavillon		1	1	6
 Etamines ; buraille	étamine burail		1	6	81
 Etamines ; de laine	étamine de laine		1	13	343
 Etamines ; de Reims	étamine de Reims		1	8	209
-Etampes	Etampes		1	19	213
-Etatchas	Etatchas		1	1	2352
-Etatchasse	Etatchasse		1	2	4
-Etaux de fer	Etaux de fer		1	1	1
-etaves	etaves		1	1	1
-Etaya	Etaya		1	1	1
-Etc.	Etc.		0	0	0
-Etendards	Etendards		1	2	4
-Etendelle	Etendelle		1	1	1
-Etendelles	Etendelles		1	2	2
-Etocq	Etocq		1	1	4
-Etocs	Etocs		1	3	4
-Etocs de fer	Etocs de fer		1	1	1
+Etampes	étampes	x	1	19	213
+Etatchas	etatchasse	x	1	1	2352
+Etatchasse	etatchasse	x	1	2	4
+Etaux de fer	étaux de fer		1	1	1
+etaves	étuve	x	1	1	1
+Etaya	etaya	x	1	1	1
+Etc.	etc.	x	0	0	0
+Etendards	étendards		1	2	4
+Etendelle	etendelle	x	1	1	1
+Etendelles	etendelle	x	1	2	2
+Etocq	etocs	x	1	1	4
+Etocs	etocs	x	1	3	4
+Etocs de fer	etocs de fer	x	1	1	1
 Etofe ; de soye ; de crêpe	étoffe de soie de crêpe		1	1	1
 Etofe de soye	étoffe de soie		1	1	726
 Etoffe ; a peu	étoffe à peu		1	1	1
@@ -13286,7 +13286,7 @@ Etoffe ; au poil ; camelot	étoffe au poil camelot		1	12	148
 Etoffe ; au poil ; lampareille	étoffe au poil lampareille		1	3	30
 Etoffe ; au poil ; polini	étoffe au poil polimi		1	1	11
 Etoffe ; au poil ; prunelle	étoffe au poil prunelle		1	2	18
-Etoffe ; au poil ; sorge de rome	étoffe au poil sorge de Rome		1	1	1
+Etoffe ; au poil ; sorge de rome	étoffe au poil sorge de Rome	x	1	1	1
 Etoffe ; au quart	étoffe au quart		1	6	6
 Etoffe ; au quart de soye	étoffe au quart de soie		1	47	60
 Etoffe ; au sixième	étoffe au sixième		1	1	1
@@ -13299,12 +13299,12 @@ Etoffe ; callemande	étoffe callemande		1	2	16
 Etoffe ; camelot	étoffe camelot		1	1	1
 Etoffe ; camelot ; laine	étoffe camelot laine		1	1	6
 Etoffe ; canelle	étoffe canelle		1	1	1
-Etoffe ; cartignette	étoffe cartignette		1	1	1
+Etoffe ; cartignette	étoffe cartignette	x	1	1	1
 Etoffe ; coton et soye	étoffe coton et soie		1	1	1
 Etoffe ; crespe	étoffe crêpe		1	1	1
 Etoffe ; d'Amiens ; façonnée	étoffe d'Amiens façonnée		1	1	1
 Etoffe ; d'argent	étoffe d'argent		1	8	8
-Etoffe ; d'herbes	étoffe d'herbes		1	2	3
+Etoffe ; d'herbes	étoffe d'herbes	x	1	2	3
 Etoffe ; d'or	étoffe d'or		1	11	15
 Etoffe ; d'or et d'argent	étoffe d'or et d'argent		1	2	2
 Etoffe ; d'or et d'argent ; faux	étoffe d'or et d'argent faux		1	1	1
@@ -13320,7 +13320,7 @@ Etoffe ; de coton ; cotonné	étoffe de coton cotonné		1	31	84
 Etoffe ; de coton ; de velour	étoffe de coton de velours		1	7	118
 Etoffe ; de coton ; velour	étoffe de coton velours		1	88	118
 Etoffe ; de coton ; velours	étoffe de coton velours		1	3	118
-Etoffe ; de coton diverses	étoffe de coton diverses		1	4	4
+Etoffe ; de coton diverses	étoffe de coton diverse		1	4	4
 Etoffe ; de fil	étoffe de fil		1	4	4
 Etoffe ; de fil et laine	étoffe de fil et laine		1	8	40
 Etoffe ; de filoselle	étoffe de filoselle		1	2	40
@@ -13332,13 +13332,13 @@ Etoffe ; de fleuret et soye	étoffe de fleuret et soie		1	2	4
 Etoffe ; de laine	étoffe de laine		1	13	308
 Etoffe ; de laine ; ?	étoffe de laine ???		1	1	3
 Etoffe ; de laine ; baracan	étoffe de laine baracan		1	1	2
-Etoffe ; de laine ; barat	étoffe de laine barat		1	1	1
+Etoffe ; de laine ; barat	étoffe de laine barat	x	1	1	1
 Etoffe ; de laine ; calemande	étoffe de laine callemande		1	2	16
 Etoffe ; de laine ; callemande	étoffe de laine callemande		1	1	16
 Etoffe ; de laine ; ditte bayette	étoffe de laine dite bayette		1	1	1
 Etoffe ; de laine ; diverse	étoffe de laine diverse		1	4	37
 Etoffe ; de laine ; en molton ; imprimés	étoffe de laine en molleton imprimé		1	1	1
-Etoffe ; de laine ; en sarain	étoffe de laine en sarain		1	1	1
+Etoffe ; de laine ; en sarain	étoffe de laine en sarain	x	1	1	1
 Etoffe ; de laine ; en serge ; Blicourt	étoffe de laine en serge Blicourt		1	1	4
 Etoffe ; de laine ; Maroc	étoffe de laine Maroc		1	2	10
 Etoffe ; de laine ; panne	étoffe de laine panne		1	2	16
@@ -13368,9 +13368,9 @@ Etoffe ; de poil ; lampareille	étoffe de poil lampareille		1	26	30
 Etoffe ; de poil ; lanillas	étoffe de poil lanillas		1	10	20
 Etoffe ; de poil ; lanislas	étoffe de poil lanillas		1	2	20
 Etoffe ; de poil ; ligatures	étoffe de poil ligatures		1	1	1
-Etoffe ; de poil ; linninieuse	étoffe de poil linnieuse		1	1	1
-Etoffe ; de poil ; nina	étoffe de poil nina		1	1	1
-Etoffe ; de poil ; philipichine	étoffe de poil philipichine		1	2	2
+Etoffe ; de poil ; linninieuse	étoffe de poil linnieuse	x	1	1	1
+Etoffe ; de poil ; nina	étoffe de poil nina	x	1	1	1
+Etoffe ; de poil ; philipichine	étoffe de poil philipichine	x	1	2	2
 Etoffe ; de poil ; polimi	étoffe de poil polimi		1	3	11
 Etoffe ; de poil ; polini	étoffe de poil polimi		1	2	11
 Etoffe ; de poil ; prunelle	étoffe de poil prunelle		1	16	18
@@ -13404,7 +13404,7 @@ Etoffe ; de soye ; diverse	étoffe de soie diverse		1	98	579
 Etoffe ; de soye ; diverses	étoffe de soie diverse		1	406	579
 Etoffe ; de soye ; draguet	étoffe de soie droguet		1	1	5
 Etoffe ; de soye ; droguet	étoffe de soie droguet		1	3	5
-Etoffe ; de soye ; Morenine	étoffe de soie Morenine		1	1	1
+Etoffe ; de soye ; Morenine	étoffe de soie morenine	x	1	1	1
 Etoffe ; de soye ; panine	étoffe de soie panine		1	2	2
 Etoffe ; de soye ; pou de soye	étoffe de soie pou de soie		1	1	1
 Etoffe ; de soye ; raz de Saint Maur	étoffe de soie raz de Saint Maur		1	1	1
@@ -13412,11 +13412,11 @@ Etoffe ; de soye ; raz de St Cir	étoffe de soie raz de St Cyr		1	1	1
 Etoffe ; de soye ; raz de St Mans	étoffe de soie raz de Saint Maur		1	1	1
 Etoffe ; de soye ; raz dev fin	étoffe de soie raz ??? fin		1	2	3
 Etoffe ; de soye ; raz v.cir	étoffe de soie raz ??? cir		1	1	3
-Etoffe ; de soye ; Sainte Bours	étoffe de soie Sainte bours		1	1	1
+Etoffe ; de soye ; Sainte Bours	étoffe de soie Sainte bours	x	1	1	1
 Etoffe ; de soye ; satin	étoffe de soie satin		1	47	55
 Etoffe ; de soye ; saun	étoffe de soie satin		1	2	55
 Etoffe ; de soye ; serge	étoffe de soie serge		1	2	3
-Etoffe ; de soye ; soucy	étoffe de soie soucis		1	1	1
+Etoffe ; de soye ; soucy	étoffe de soie soucis	x	1	1	1
 Etoffe ; de soye ; tafetas	étoffe de soie taffetas		1	5	31
 Etoffe ; de soye ; taffetas	étoffe de soie taffetas		1	23	31
 Etoffe ; de soye ; velour	étoffe de soie velours		1	115	127
@@ -13430,7 +13430,7 @@ Etoffe ; de soye et dorure	étoffe de soie et dorure		1	1	6
 Etoffe ; de soye or et argent	étoffe de soie or et argent		1	1	2
 Etoffe ; de soye, or et argent	étoffe de soie or et argent		1	1	2
 Etoffe ; de soye; satin	étoffe de soie satin		1	1	55
-Etoffe ; depoil ; linnieuse	étoffe de poil linnieuse		1	1	1
+Etoffe ; depoil ; linnieuse	étoffe de poil linnieuse	x	1	1	1
 Etoffe ; des Isles	étoffe des Iles		1	4	579
 Etoffe ; dorure ; d'argent	étoffe dorure d'argent		1	14	18
 Etoffe ; dorure ; d'argt	étoffe dorure d'argent		1	2	18
@@ -13493,8 +13493,8 @@ Etoffe ; melée de soie ; ripe de velour	étoffe mêlée de soie tripe de velour
 Etoffe ; melée de soie ; velour de genes	étoffe mêlée de soie velours de Gênes		1	4	4
 Etoffe ; mêlée de soye ; à peu de soye	étoffe mêlée de soie à peu de soie		1	28	155
 Etoffe ; mêlée de soye ; au quart	étoffe mêlée de soie au quart		1	24	200
-Etoffe ; mêlée de soye ; grisette	étoffe mêlée de soie grisette		1	1	8
-Etoffe ; mêlée de soye ; herbage	étoffe mêlée de soie herbage		1	1	1
+Etoffe ; mêlée de soye ; grisette	étoffe mêlée de soie grisette	x	1	1	8
+Etoffe ; mêlée de soye ; herbage	étoffe mêlée de soie herbage	x	1	1	1
 Etoffe ; mêlée de soye ; mi soye	étoffe mêlée de soie mi soie		1	29	234
 Etoffe ; mêlée de soye ; panne	étoffe mêlée de soie panne		1	7	80
 Etoffe ; mêlée de soye ; peluche	étoffe mêlée de soie peluche		1	23	133
@@ -13528,15 +13528,15 @@ Etoffe ; meslée de soye ; greek	étoffe mêlée de soie Utrecht		1	1	1
 Etoffe ; meslée de soye ; grisette	étoffe mêlée de soie grisette		1	3	8
 Etoffe ; meslée de soye ; mi soye	étoffe mêlée de soie mi soie		1	99	234
 Etoffe ; meslée de soye ; panne	étoffe mêlée de soie panne		1	39	80
-Etoffe ; meslée de soye ; papeline	étoffe mêlée de soie papeline		1	1	1
+Etoffe ; meslée de soye ; papeline	étoffe mêlée de soie papeline	x	1	1	1
 Etoffe ; meslée de soye ; peluche	étoffe mêlée de soie peluche		1	53	133
 Etoffe ; meslée de soye ; peu	étoffe mêlée de soie peu		1	13	155
 Etoffe ; meslée de soye ; siamoise	étoffe mêlée de soie siamoise		1	9	9
 Etoffe ; meslée de soye ; tripe de velour	étoffe mêlée de soie tripe de velours		1	6	41
 Etoffe ; meslée de soye ; trippe de velour	étoffe mêlée de soie tripe de velours		1	8	41
 Etoffe ; meslée de soye ; trippe de velours	étoffe mêlée de soie tripe de velours		1	2	41
-Etoffe ; meslée de soye ; velour d'Breck	étoffe mêlée de soie velours d'Breck		1	5	16
-Etoffe ; meslée de soye ; velour d'Greek	étoffe mêlée de soie velours d'Greek		1	1	16
+Etoffe ; meslée de soye ; velour d'Breck	étoffe mêlée de soie velours d'Utrecht		1	5	16
+Etoffe ; meslée de soye ; velour d'Greek	étoffe mêlée de soie velours d'Utrecht		1	1	16
 Etoffe ; meslée de soye ; velour d'otreck	étoffe mêlée de soie velours d'Utrecht		1	2	16
 Etoffe ; meslée de soye ; velour d'Utrecht	étoffe mêlée de soie velours d'Utrecht		1	2	16
 Etoffe ; meslée de soyes ; mi soye	étoffe mêlée de soie mi soie		1	10	234
@@ -13548,14 +13548,14 @@ Etoffe ; meslées de soye ; ?	étoffe mêlée de soie ?		1	1	35
 Etoffe ; meslées de soye ; à peu de soye	étoffe mêlée de soie à peu de soie		1	10	70
 Etoffe ; meslées de soye ; àpea	étoffe mêlée de soie à peu		1	9	70
 Etoffe ; meslées de soye ; au quart	étoffe mêlée de soie au quart		1	27	200
-Etoffe ; meslées de soye ; grisette	étoffe mêlée de soie grisette		1	4	8
+Etoffe ; meslées de soye ; grisette	étoffe mêlée de soie grisette	x	1	4	8
 Etoffe ; meslées de soye ; mi soye	étoffe mêlée de soie mi soie		1	10	234
 Etoffe ; meslées de soye ; misoye	étoffe mêlée de soie mi soie		1	8	234
 Etoffe ; meslées de soye ; panne	étoffe mêlée de soie panne		1	19	80
 Etoffe ; meslées de soye ; peluche	étoffe mêlée de soie peluche		1	36	133
 Etoffe ; meslées de soye ; tripe de velour	étoffe mêlée de soie tripe de velours		1	6	41
 Etoffe ; meslées de soye ; trippe de velour	étoffe mêlée de soie tripe de velours		1	14	41
-Etoffe ; meslées de soye ; velour d'Greek	étoffe mêlée de soie velours d'Greek		1	3	16
+Etoffe ; meslées de soye ; velour d'Greek	étoffe mêlée de soie velours d'Utrecht		1	3	16
 Etoffe ; meslées de soye ; velour d'otruche?	étoffe mêlée de soie velours d'Utrecht		1	1	35
 Etoffe ; meslées de soye ; velour d'otzeck	étoffe mêlée de soie velours d'Utrecht		1	6	35
 Etoffe ; mi soye	étoffe mi soie		1	13	35
@@ -13607,10 +13607,10 @@ Etoffe ; tafetas	étoffe taffetas		1	1	5
 Etoffe ; taffetas	étoffe taffetas		1	3	5
 Etoffe ; tricot	étoffe tricot		1	1	1
 Etoffe ; velour	étoffe velours		1	2	14
-Etoffe ; velour ; d'Greek	étoffe velours d'Greek		1	1	1
+Etoffe ; velour ; d'Greek	étoffe velours d'Utrecht		1	1	1
 Etoffe ; velour ; de coton	étoffe velours de coton		1	8	118
 Etoffe ; velours	étoffe velours		1	9	14
-Etoffe ; virez	étoffe virez		1	2	2
+Etoffe ; virez	étoffe virez	x	1	2	2
 Etoffe : au quart de soye	étoffe au quart de soie		1	1	11
 Etoffe : façonnée	étoffe façonnée		0	0	0
 Etoffe argent de soye	étoffe argent de soie		1	1	3
@@ -13619,7 +13619,7 @@ Etoffe au 1/4 de soye	étoffe au quart de soie		1	1	726
 Etoffe au quars de soye	étoffe au quart de soie		1	1	11
 Etoffe au quart de soie	étoffe au quart de soie		1	1	11
 Etoffe au quart de soye	étoffe au quart de soie		1	7	11
-Etoffe auquan	étoffe auquan		1	1	1
+Etoffe auquan	étoffe auquan	x	1	1	1
 etoffe avec or et argent	étoffe avec or et argent				
 Etoffe avec un brin de soye	étoffe avec un brin de soie				
 Etoffe avec vin brin de soye	étoffe avec vin brin de soie				
@@ -13661,7 +13661,7 @@ Etoffe de soye or et argent	étoffe de soie or et argent
 etoffe de soye or et argent	étoffe de soie or et argent				
 Etoffe de soye velours	étoffe de soie velours		1	1	127
 Etoffe en laine	étoffe en laine		1	1	308
-Etoffe en laine tissée (fil grossier)	étoffe en laine tissée (fil grossier)		0	0	0
+Etoffe en laine tissée (fil grossier)	étoffe en laine tissée fil grossier		0	0	0
 Etoffe en or	étoffe en or		1	1	15
 Etoffe en quars de soye	étoffe en quart de soie		1	1	11
 Etoffe fil en Laine	étoffe fil en laine		1	3	40
@@ -13759,23 +13759,23 @@ Etoffes ; de laine ; beche	étoffe de laine beche		1	1	1
 Etoffes ; de laine ; bergop	étoffe de laine Berg-op-zoom		1	1	1
 Etoffes ; de laine ; bluteau	étoffe de laine bluteau		1	1	2
 Etoffes ; de laine ; burat	étoffe de laine burat		1	2	3
-Etoffes ; de laine ; cadeligue	étoffe de laine cadeligue		1	1	1
+Etoffes ; de laine ; cadeligue	étoffe de laine cadeligue	x	1	1	1
 Etoffes ; de laine ; calemande	étoffe de laine callemande		1	3	16
 Etoffes ; de laine ; calimande ; noire	étoffe de laine callemande noire		1	1	1
 Etoffes ; de laine ; callemande	étoffe de laine callemande		1	5	16
 Etoffes ; de laine ; callemande ; étroite	étoffe de laine callemande étroite		1	1	1
 Etoffes ; de laine ; callemande ; large	étoffe de laine callemande large		1	6	6
-Etoffes ; de laine ; calmonef	étoffe de laine calmonef		1	1	1
+Etoffes ; de laine ; calmonef	étoffe de laine calmonef	x	1	1	1
 Etoffes ; de laine ; camelot	étoffe de laine camelot		1	3	6
 Etoffes ; de laine ; camelot ; écru	étoffe de laine camelot écru		1	1	1
 Etoffes ; de laine ; camelot ; etroit	étoffe de laine camelot etroit		1	3	3
 Etoffes ; de laine ; camelot ; faille	étoffe de laine camelot faille		1	4	4
 Etoffes ; de laine ; camelot ; large	étoffe de laine camelot large		1	4	4
 Etoffes ; de laine ; catalogne	étoffe de laine Catalogne		1	1	1
-Etoffes ; de laine ; châleur	étoffe de laine châleur		1	1	1
+Etoffes ; de laine ; châleur	étoffe de laine châleur	x	1	1	1
 Etoffes ; de laine ; couteries	étoffe de laine couteries		1	1	1
 Etoffes ; de laine ; crêpe	étoffe de laine crêpe		1	2	2
-Etoffes ; de laine ; dareau	étoffe de laine dareau		1	1	1
+Etoffes ; de laine ; dareau	étoffe de laine dareau	x	1	1	1
 Etoffes ; de laine ; dauphine	étoffe de laine dauphine		1	1	1
 Etoffes ; de laine ; diverse	étoffe de laine diverse		1	1	37
 Etoffes ; de laine ; diverses	étoffe de laine diverse		1	29	37
@@ -13801,11 +13801,11 @@ Etoffes ; de laine ; en raz ; de castor	étoffe de laine en raz de castor		1	2	3
 Etoffes ; de laine ; en satin	étoffe de laine en satin		1	1	1
 Etoffes ; de laine ; en satin ; turc	étoffe de laine en satin turc		1	5	5
 Etoffes ; de laine ; en serge ; aumale	étoffe de laine en serge Aumale		1	2	5
-Etoffes ; de laine ; en serge ; auvoile	étoffe de laine en serge auvoile		1	4	9
+Etoffes ; de laine ; en serge ; auvoile	étoffe de laine en serge auvoile	x	1	4	9
 Etoffes ; de laine ; en serge ; blicourt	étoffe de laine en serge Blicourt		1	1	6
 Etoffes ; de laine ; en serge ; diverses	étoffe de laine en serge diverse		1	1	6
 Etoffes ; de laine ; en serge ; imprimé	étoffe de laine en serge imprimé		1	2	3
-Etoffes ; de laine ; en serge ; minorque	étoffe de laine en serge minorque		1	2	6
+Etoffes ; de laine ; en serge ; minorque	étoffe de laine en serge Minorque		1	2	6
 Etoffes ; de laine ; espagnolette	étoffe de laine espagnolette		1	2	3
 Etoffes ; de laine ; espagnolette ; croisée	étoffe de laine espagnolette croisée		1	1	2
 Etoffes ; de laine ; espagnolette ; lisse	étoffe de laine espagnolette lisse		1	1	1
@@ -13818,9 +13818,9 @@ Etoffes ; de laine ; frisarde	étoffe de laine frisarde		1	1	1
 Etoffes ; de laine ; frisette	étoffe de laine frisette		1	1	1
 Etoffes ; de laine ; futaine	étoffe de laine futaine		1	1	1
 Etoffes ; de laine ; imperiale	étoffe de laine impériale		1	1	1
-Etoffes ; de laine ; Itaine	étoffe de laine Itaine		1	1	1
+Etoffes ; de laine ; Itaine	étoffe de laine Itaine	x	1	1	1
 Etoffes ; de laine ; lampareille	étoffe de laine lampareille		1	2	2
-Etoffes ; de laine ; lerfage	étoffe de laine lerfage		1	1	1
+Etoffes ; de laine ; lerfage	étoffe de laine lerfage	x	1	1	1
 Etoffes ; de laine ; Maroc	étoffe de laine Maroc		1	3	10
 Etoffes ; de laine ; maroc	étoffe de laine Maroc		1	2	10
 Etoffes ; de laine ; moleton	étoffe de laine molleton		1	2	5
@@ -13830,17 +13830,17 @@ Etoffes ; de laine ; panne et peluche	étoffe de laine panne et peluche		1	1	1
 Etoffes ; de laine ; passepoil	étoffe de laine passepoil		1	1	1
 Etoffes ; de laine ; peluche	étoffe de laine peluche		1	2	3
 Etoffes ; de laine ; perpetuanne	étoffe de laine perpetuanne		1	1	4
-Etoffes ; de laine ; perpetuaux	étoffe de laine perpetuaux		1	3	4
-Etoffes ; de laine ; pinchinal	étoffe de laine pinchinal		1	1	1
+Etoffes ; de laine ; perpetuaux	étoffe de laine perpetuaux	x	1	3	4
+Etoffes ; de laine ; pinchinal	étoffe de laine pinchinal	x	1	1	1
 Etoffes ; de laine ; prunelle	étoffe de laine prunelle		1	2	6
 Etoffes ; de laine ; prunelle ; burail	étoffe de laine prunelle burail		1	1	1
 Etoffes ; de laine ; prunelle ; burain	étoffe de laine prunelle burail		1	1	1
 Etoffes ; de laine ; prunelle ; étroite	étoffe de laine prunelle étroite		1	1	1
 Etoffes ; de laine ; prunelle ; raz ; de castor	étoffe de laine prunelle raz de castor		1	2	2
 Etoffes ; de laine ; ras ; de castor	étoffe de laine raz de castor		1	1	3
-Etoffes ; de laine ; reste	étoffe de laine reste		1	1	1
-Etoffes ; de laine ; russels	étoffe de laine russels		1	1	1
-Etoffes ; de laine ; sagati	étoffe de laine sagati		1	5	5
+Etoffes ; de laine ; reste	étoffe de laine reste	x	1	1	1
+Etoffes ; de laine ; russels	étoffe de laine russels	x	1	1	1
+Etoffes ; de laine ; sagati	étoffe de laine sagati	x	1	5	5
 Etoffes ; de laine ; satin ; de Roubaix	étoffe de laine satin de Roubaix		1	2	2
 Etoffes ; de laine ; satin ; Turc	étoffe de laine satin Turc		1	2	7
 Etoffes ; de laine ; satin ; turc	étoffe de laine satin turc		1	5	7
@@ -13860,12 +13860,12 @@ Etoffes ; de laine ; serge ; imprimée	étoffe de laine serge imprimée		1	1	3
 Etoffes ; de laine ; serge ; large	étoffe de laine serge large		1	3	3
 Etoffes ; de laine ; serge ; minorque	étoffe de laine serge Minorque		1	4	6
 Etoffes ; de laine ; serge ; pour ?	étoffe de laine serge pour ???		1	1	5
-Etoffes ; de laine ; serge ; sagati	étoffe de laine serge sagati		1	1	1
-Etoffes ; de laine ; sigle ; vis	étoffe de laine sigle vis		1	1	1
-Etoffes ; de laine ; slin	étoffe de laine slin		1	1	1
-Etoffes ; de laine ; tanier	étoffe de laine tanier		1	1	1
-Etoffes ; de laine ; velverde	étoffe de laine velverde		1	1	1
-Etoffes ; de laine ; verlastine	étoffe de laine verlastine		1	1	1
+Etoffes ; de laine ; serge ; sagati	étoffe de laine serge sagati	x	1	1	1
+Etoffes ; de laine ; sigle ; vis	étoffe de laine sigle vis	x	1	1	1
+Etoffes ; de laine ; slin	étoffe de laine slin	x	1	1	1
+Etoffes ; de laine ; tanier	étoffe de laine tanier	x	1	1	1
+Etoffes ; de laine ; velverde	étoffe de laine velverde	x	1	1	1
+Etoffes ; de laine ; verlastine	étoffe de laine verlastine	x	1	1	1
 Etoffes ; De Poil	étoffe de poil		1	8	22
 Etoffes ; De poil	étoffe de poil		1	2	22
 Etoffes ; de poil	étoffe de poil		1	12	22
@@ -13911,13 +13911,13 @@ Etoffes ; diverses ; de laine	étoffe diverse de laine		1	3	37
 Etoffes ; éternelle ; au ? de soye	étoffe éternelle au ??? de soie		1	1	1
 Etoffes ; Etrangeres	étoffe étrangère		1	1	5
 Etoffes ; Etrangères	étoffe étrangère		1	4	5
-Etoffes ; étrangeres des judes	étoffe étrangère des judes		1	1	1
+Etoffes ; étrangeres des judes	étoffe étrangère des judes	x	1	1	1
 Etoffes ; fil et coton ; siamois ; brochés	étoffe fil et coton siamois broché		1	1	1
 Etoffes ; fil et laine	étoffe fil et laine		1	2	3
 Etoffes ; filozelle	étoffe filoselle		1	1	1
 Etoffes ; laine	étoffe laine		1	2	308
 Etoffes ; laine et fil	étoffe laine et fil		1	1	3
-Etoffes ; Lampas	étoffe lampas		1	1	1
+Etoffes ; Lampas	étoffe lampas	x	1	1	1
 Etoffes ; mélangées ; au ? e soye	étoffe mélangée au ??? soie		1	5	5
 Etoffes ; mélangées ; au 1/3 de soye	étoffe mélangée au tiers de soie		1	1	1
 Etoffes ; mélangées ; au 6è de soye	étoffe mélangée au sixième de soie		1	1	9
@@ -13975,7 +13975,7 @@ etoffes de fil et laine / aune	étoffe de fil et laine aune		0	0	0
 etoffes de fil et poil de chèvre	étoffe de fil et poil de chèvre		0	0	0
 etoffes de fil et poil de chèvre / aune	étoffe de fil et poil de chèvre aune		0	0	0
 Etoffes de laine	étoffe de laine		1	174	308
-etoffes de laine et poil d'animaux	étoffe de laine et poil d'animaux		0	0	0
+etoffes de laine et poil d'animaux	étoffe de laine et poil d'animal		0	0	0
 étoffes de laine fabrique de Tournai	étoffe de laine fabrique de Tournai		0	0	0
 étoffes de laine imprimées	étoffe de laine imprimée		0	0	0
 etoffes de laine pure ou mellée	étoffe de laine pure ou mêlée		0	0	0
@@ -14006,7 +14006,7 @@ etoffes de soye, fil et cotton	étoffe de soie fil et coton		0	0	0
 etoffes de soye, laine et cotton	étoffe de soie laine et coton		0	0	0
 Etoffes de soyes	étoffe de soie		1	1	726
 étoffes de toutes sortes	étoffe de toute sorte		0	0	0
-etoffes ditte pauvre madame	étoffe dite pauvre madame		0	0	0
+etoffes ditte pauvre madame	étoffe dite pauvre madame	x	0	0	0
 Etoffes diverses	étoffe diverse		1	165	318
 Etoffes diverses des Indes	étoffe diverse des Indes				
 Etoffes diverses, couverture et draperie pour le gouvernement	étoffe diverse couverture et draperie pour le gouvernement		1	5	5
@@ -14016,12 +14016,12 @@ Etoffes mélangées de ces matières	étoffe mélangée de ces matières		1	85	3
 Etoffes mélangées de soie	étoffe mélangée de soie		1	17	28
 etoffes mellées de laine, cotton, fil et de poil chameau	étoffe mêlée de laine coton fil et de poil chameau		0	0	0
 étoffes mellés	étoffe mêlée		0	0	0
-Etoffes mi Soye	étoffe mi soi		1	1	27
+Etoffes mi Soye	étoffe mi soie		1	1	27
 Etoffes or argent et soye	étoffe or argent et soie				
 Etoffes or et argent	étoffe or et argent				
 Etoffes or et argent en soye	étoffe or et argent en soie		1	1	17
 Etoffes or et soye	étoffe or et soie				
-etoffes pour talits	étoffe pour talits		0	0	0
+etoffes pour talits	étoffe pour talits	x	0	0	0
 Etoffes riches	étoffe riches		1	37	68
 Etoffes soye or et argent	étoffe soie or et argent				
 Etoofe ; de soye ; velours	étoffe de soie velours		1	5	127
@@ -14046,31 +14046,31 @@ etouppe de laine	étoupes de laine		0	0	0
 Etouppe de Lin	étoupes de lin		1	1	14
 étouppes de chanvre	étoupes de chanvre		0	0	0
 etouppes et cordes de lin	étoupes et cordes de lin		0	0	0
-Etriers	Etriers		1	1	2
-etriers	etriers		0	0	0
-Etui ; à lunettes	Etui à lunettes		1	1	1
-Etuis	Etuis		1	2	11
-Etuis ; à cachets	Etuis à cachets		1	1	1
-Etuis ; à cure dents	Etuis à cure dents		1	1	1
-Etuis ; de chirurgie	Etuis de chirurgie		1	1	1
-Etuis ; de ciseaux ; garnis d'argent	Etuis de ciseaux garnis d'argent		1	1	1
-etuis de bois, de paille et boites de papier	etuis de bois de paille et boites de papier		0	0	0
-Etuis de chapeaux	Etuis de chapeaux				
-Etuis pour plumes à écrire	Etuis pour plumes à écrire		0	0	0
-Eturgeon	Eturgeon		1	3	25
-Eturgeons	Eturgeons				
-Etuve	Etuve		1	1	2
-Etuve ; commune	Etuve commune		1	1	1
-Etuves	Etuves		1	1	2
-Etuves ; de fer	Etuves de fer		1	1	3
-Etuves de fer	Etuves de fer		1	1	3
-etuves de fer	etuves de fer		0	0	0
-Etuy ; d'or	Etuy d'or		1	1	2
-Etuy d'or	Etuy d'or		1	1	2
-Etuys	Etuys		1	9	11
-Euforbe	Euforbe		1	2	22
-euforbe	euforbe				
-Euphorbe	Euphorbe		1	20	22
+Etriers	étriers		1	1	2
+etriers	étriers	ARRET	0	0	0
+Etui ; à lunettes	étuis à lunettes		1	1	1
+Etuis	étuis		1	2	11
+Etuis ; à cachets	étuis à cachets		1	1	1
+Etuis ; à cure dents	étuis à cure-dents		1	1	1
+Etuis ; de chirurgie	étuis de chirurgie		1	1	1
+Etuis ; de ciseaux ; garnis d'argent	étuis de ciseaux garnis d'argent		1	1	1
+etuis de bois, de paille et boites de papier	étuis de bois de paille et boîtes de papier		0	0	0
+Etuis de chapeaux	étuis de chapeaux				
+Etuis pour plumes à écrire	étuis pour plumes à écrire		0	0	0
+Eturgeon	esturgeon	x	1	3	25
+Eturgeons	esturgeon	x			
+Etuve	étuve		1	1	2
+Etuve ; commune	étuve commune		1	1	1
+Etuves	étuves		1	1	2
+Etuves ; de fer	étuve de fer		1	1	3
+Etuves de fer	étuve de fer		1	1	3
+etuves de fer	étuve de fer		0	0	0
+Etuy ; d'or	étuis d'or	x	1	1	2
+Etuy d'or	étuis d'or	x	1	1	2
+Etuys	étuis	x	1	9	11
+Euforbe	euphorbe		1	2	22
+euforbe	euphorbe				
+Euphorbe	euphorbe		1	20	22
 evantail de paille	evantail de paille				
 evantail de papier	evantail de papier				
 Evantailes d'ivoire	Evantailes d'ivoire				
