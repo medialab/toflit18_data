@@ -21,7 +21,7 @@ def clean(s):
 
 	return s
 
-output_filename="../Fichiers de la base avant Neo4J/base_centrale/bdd_centrale.csv"
+output_filename="../base/base_centrale/bdd_centrale.csv"
 directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 
