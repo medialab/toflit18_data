@@ -753,7 +753,6 @@ bocal,,,,,,,,,,,,,,,,,,,,,1,1
 boclans,boclans,???,???,0,,0,,,0,0,,,1,,,,0,0,0,,1,3
 bois,bois,2,2,0,,0,,,0,0,,,117,Bois ; de Pernambouc,Bois ; de Pernambouc,,0,0,0,,1,675
 "bois , scié",bois,2,2,0,,0,,,0,0,,,,,,,0,0,0,,0,0
-bois ;  à teindre,bois,2,2,,,,,,,,,,,,,,,,,,0,0
 bois ; Sainte Lucie,bois,2,2,,,,,,,,,,,,,,,,,,1,1
 bois ; Sustek,bois,2,2,0,,0,,,0,0,,,0,,,,0,0,0,,1,9
 bois ; a fond,bois,2,2,,,,,,,,,,,,,,,,,,1,2
@@ -1006,8 +1005,7 @@ bois ; marbré,bois,2,2,0,,0,,,0,0,,,2,,,,0,0,0,,1,11
 bois ; mat,bois,2,2,0,,,,,0,0,,,,,,,0,0,0,,1,2
 bois ; matraux,bois,2,2,0,,,,,0,0,,,,,,,0,0,0,,1,1
 bois ; merrain,bois,2,2,0,,0,,,0,0,,,2,,,,0,0,0,,1,445
-bois ; merrain  ; a barrique,bois,2,2,,,,,,,,,,,,,,,,,,1,41
-bois ; merrain ; a barrique,bois,2,2,,,,,,,,,,,,,,,,,,0,0
+bois ; merrain ; a barrique,bois,2,2,,,,,,,,,,,,,,,,,,1,41
 bois ; merrain ; bourdille,bois,2,2,,,,,,,,,,,,,,,,,,1,2
 bois ; merrain ; bourdillon,bois,2,2,,,,,,,,,,,,,,,,,,1,1
 bois ; merrain ; de 4 pieds,bois,2,2,,,,,,,,,,,,,,,,,,1,1
@@ -1491,14 +1489,13 @@ brasselet,brasselet,,,,,,,,,,,,,,,,,,,,1,1
 brasselet ; de crin,brasselet,,,,,,,,,,,,,,,,,,,,1,2
 braule,braule,???,???,0,Larousse : « Mouche »,0,,,0,0,,,18,,,,0,0,0,,1,215
 bray,"brai, goudron et résine",5,5,0,"Savary, volume 1, 1748 : « Espèce de poix, ou résine, qui sert à calfater les vaisseaux. »",,,,0,0,,,,,,,0,0,0,,0,0
-bray ;  gras,"brai, goudron et résine",5,5,,,,,,,,,,,,,,,,,,1,136
+bray ; gras,"brai, goudron et résine",5,5,,,,,,,,,,,,,,,,,,1,136
 bray ; goudron,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,0,0
 bray ; goudron ; eau de raze,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,1
 bray ; goudron ; poix noire et blanche,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,1
 bray ; goudron et eau de rose,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,1
 bray ; goudron et poix,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,1
 bray ; goudron et résine,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,474
-bray ; gras,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,0,0
 bray ; gros,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,0,0
 bray ; résine,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,0,0
 bray ; sec,"brai, goudron et résine",5,5,0,,,,,0,0,,,,,,,0,0,0,,1,177
@@ -3468,7 +3465,6 @@ dragonne ; d'épée,dragonnes,9,9,0,,0,,,0,0,,,5,,,,0,0,0,,1,1
 drague ; de bière,,0,0a,0,"Savary, volume 2, 1748 : « C'est encore le nom que les brasseurs donnent en quelques lieux à l'orge »",0,,,0,0,,,31,,,,0,0,0,,1,2
 dragée,dragées,0,0a,0,,0,,,0,0,,,6,,,,0,0,0,,1,99
 drap,drap,6,6b,0,,0,,,0,0,,,84,,,,0,0,0,,1,485
-drap  ; des prise,drap,6,6b,0,,0,,,0,0,,,,,,,0,0,0,,1,5
 drap ;  de Louvres,,6,6b,0,,,,,0,0,,,,,,,0,0,0,,1,1
 drap ; Duffel,,,,,,,,,,,,,,,,,,,,,1,1
 drap ; Languedoc,,,,,,,,,,,,,,,,,,,,,1,1
@@ -3596,7 +3592,7 @@ drap ; de lit ; vieux,,6,6b,0,,,,,0,0,,,,,,,0,0,0,,0,0
 drap ; de lit vieux,,6,6b,0,,,,,0,0,,,,,,,0,0,0,,1,15
 drap ; de montagne,drap,6,6b,0,,0,,,0,0,,,1,,,,0,0,0,,1,2
 drap ; de soie,drap,6,6c,0,,0,,,0,0,,,,,,,0,0,0,,1,7
-drap ; des prise,drap,6,6b,0,,0,,,0,0,,,1,,,,0,0,0,,1,1
+drap ; des prise,drap,6,6b,0,,0,,,0,0,,,1,,,,0,0,0,,1,5
 drap ; dit packlaeken,,,,,,,,,,,,,,,,,,,,,1,2
 drap ; dit packlaeken blanc,,,,,,,,,,,,,,,,,,,,,1,1
 drap ; dit packlaeken teint,,,,,,,,,,,,,,,,,,,,,1,1
@@ -5602,7 +5598,7 @@ grain ; soucrion,grains,0,0a,0,,0,,,0,0,,,1,,,,1,1,6,,0,0
 grain ; épautre,grains,0,0a,0,,0,,,0,0,,,2,,,,1,1,2,,1,2
 grain ; épeautre,,,,,,,,,,,,,,,,,,,,,1,1
 graine,graine,2,2,0,,0,,,0,0,,,23,,,,1,1,1,,1,2
-graine ;  de millet,graine,2,2,0,,0,,,0,0,,,,,,,1,1,3,,1,78
+graine ; de millet,graine,2,2,0,,0,,,0,0,,,,,,,1,1,3,,1,78
 graine ; blanche,graine,2,2,0,pas identifie',0,,,0,0,,,1,,,,0,0,0,,1,1
 graine ; bleue,,2,2,0,,,,,0,0,,,,,,,0,0,0,,1,1
 graine ; comestible,,,,,,,,,,,,,,,,,,,,,0,0
@@ -5661,7 +5657,6 @@ graine ; de loupin,graine,2,2,1,Cf. P.H.Wallis  : usage en médecine ???,1,0,L
 graine ; de lupin,,,,,,,,,,,,,,,,,,,,,1,1
 graine ; de luzerne,graine,2,2,1,"La luzerne cultivée ou alfalfa ou alfa-alfa (Medicago sativa), aussi appelée « grand trèfle» ou « foin de Bourgogne », est une plante herbacée fourragère de la famille des fabacées, riche en vitamines et en sels minéraux et utilisée en diététiq",0,,,0,1,,,85,,,,0,0,0,,1,48
 graine ; de manne,,,,,,,,,,,,,,,,,,,,,1,1
-graine ; de millet,graine,2,2,0,,0,,,0,0,,,26,,,,1,1,3,,0,0
 graine ; de moutarde,graine,2,2,0,,0,,,0,0,,,16,,,,0,0,0,,1,32
 graine ; de métillon,graine,2,2,0,metillon=meteil,0,,,0,0,,,1,,,,1,1,2,,1,1
 graine ; de navet,,2,2,0,,,,,0,0,,,,,,,0,0,0,,0,0
@@ -5934,7 +5929,7 @@ housse et faux foureau garni d'argeant,,6,6,0,,,,,0,0,,,,,,,0,0,0,,1,1
 housse et faux foureau garni de soie,,6,6,0,,,,,0,0,,,,,,,0,0,0,,1,1
 hubalingue,,???,???,0,,,,,0,0,,,,,,,0,0,0,,1,1
 huile,,4,4,0,,,,,0,0,,,,,,,0,0,0,,1,19
-huile ;  de loup marin,,4,4,0,,,,,0,0,,,,,,,0,0,0,,1,7
+huile ; de loup marin,,4,4,0,,,,,0,0,,,,,,,0,0,0,,1,7
 huile ; d'Harlem,,,,,,,,,,,,,,,,,,,,,1,1
 huile ; d'absinthe,huile,4,4,0,,0,,,0,0,,,0,,,,0,0,0,,1,1
 huile ; d'amande,huile,4,4,1,"Savary, volume 1, 1748 : « mais l'huile d'amende douce tirée sans feu, est employée à bien des usages différents, soit dans la Médecine, soit chez les parfumeurs […] les maux d'oreilles ».",1,0,Ol Almonds,1,0,,,2,,,,0,0,0,,1,38
@@ -5993,7 +5988,6 @@ huile ; de jayet,huile,4,4,0,,0,,,0,0,,,1,,,,0,0,0,,1,1
 huile ; de laurier,huile,4,4,1,Cf. P.H.Wallis,1,0,Ol Bay,0,1,4,4,6,,,,0,0,0,,1,60
 huile ; de lavande,huile,4,4,1,Wallis List,1,0,Ol Spike,1,0,4,4,7,,,,0,0,0,,1,3
 huile ; de lin,huile,4,4,0,,0,,,0,0,,,55,,,,0,0,0,,1,90
-huile ; de loup marin,huile,4,4,0,,0,,,0,0,,,1,,,,0,0,0,,0,0
 huile ; de maïs,,4,4,0,,0,,,0,0,,,,,,,0,0,0,,1,1
 huile ; de morue,,4,4,0,,0,,,0,0,,,6,,,,0,0,0,,1,23
 huile ; de muscade,huile,4,4,1,Cf. P.H.Wallis : food,1,1,Nutmegs Condited,1,0,,,1,,,,0,0,0,,1,15
