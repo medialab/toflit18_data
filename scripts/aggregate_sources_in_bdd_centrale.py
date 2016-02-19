@@ -7,6 +7,7 @@ DOUBLE_QUOTES = ur'[«»„‟“”"]'
 SIMPLE_QUOTES = ur"[’‘`‛']"
 SPACES_COMPACTING = ur'\s+'
 ELLIPSIS = ur'…'
+HYPHEN = ur'–'
 
 # Daudin's cleaning process
 def clean(s):
@@ -15,13 +16,14 @@ def clean(s):
 
 	s = s.strip()
 	s = re.sub(ELLIPSIS, "...", s)
+	s = re.sub(HYPHEN, "-", s)
 	s = re.sub(DOUBLE_QUOTES, '"', s)
 	s = re.sub(SIMPLE_QUOTES, "'", s)
 	s = re.sub(SPACES_COMPACTING, " ", s)
 
 	return s
 
-output_filename="../Fichiers de la base avant Neo4J/base_centrale/bdd_centrale.csv"
+output_filename="../base/bdd_centrale.csv"
 directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 

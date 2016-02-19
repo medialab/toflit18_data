@@ -7,7 +7,7 @@ import os
 WRITE=True
 VERBOSE=True
 
-with open("../Fichiers de la base avant Neo4J/base_centrale/bdd_centrale.csv") as bdd_centrale:
+with open("../base/bdd_centrale.csv") as bdd_centrale:
 	reader=csvkit.reader(bdd_centrale)
 	data=list(reader)
 	headers_bdd_centrale=data[0]
