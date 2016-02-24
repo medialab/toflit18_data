@@ -27,7 +27,7 @@ no,achia espèce de salade,achia,Guillaume Daudin,akia ; espèce de salade,rewir
 no,acier,acier,Guillaume Daudin,acier,existing,,
 no,acier brun,acier brun,Guillaume Daudin,acier ; brun,rewire,,[Acier brun]
 no,acier brut,acier brut,Guillaume Daudin,,new,,
-no,acier en barres,barre de acier,Guillaume Daudin,acier ; en barre,rewire,,[Acier ; en barres] [Acier en barre]
+no,acier en barres,barres d'acier,Guillaume Daudin,acier ; en barre,rewire,,[Acier ; en barres] [Acier en barre]
 no,acier ouvré,ouvrages d'acier,Guillaume Daudin,[acier ; ouvré],ambiguous,,[Acier ouvré]
 no,acons,acons,Guillaume Daudin,arçon,rewire,,[Acon]
 no,acons démontés,acons démontés,Guillaume Daudin,,new,,
@@ -273,7 +273,7 @@ no,archiabanis,archiabanis,Guillaume Daudin,archiabanis,existing,,
 no,arçons de bas de bois,arçons de bas de bois,Guillaume Daudin,,new,,
 no,arçons de bois,arçons de bois,Guillaume Daudin,arson ; de bois,rewire,,[Arsons de bois]
 no,arçons de selles,arçons de selles,Guillaume Daudin,[arçon ; de selle] [arçon de selle],ambiguous,,[arçons de selles] [Acons ; de selle] [Arçcons de selle] [Arçons de selle] [arçons de selle]
-no,ardoise,ardoises,Guillaume Daudin,ardoise,rewire,[Ardoise] [ardoises] [ardoise] [Ardois] [Adoises] [Ardoize] [Ardoises],[Ardoise] [ardoises] [ardoise] [Ardois] [Ardoize] [Ardoises]
+no,ardoise,ardoise,Guillaume Daudin,ardoise,rewire,[Ardoise] [ardoises] [ardoise] [Ardois] [Adoises] [Ardoize] [Ardoises],[Ardoise] [ardoises] [ardoise] [Ardois] [Ardoize] [Ardoises]
 no,ardoise dite cherubin et à mortier,ardoise dite chérubin et à mortier,Guillaume Daudin,ardoise ; dite chérubin et à mortier,rewire,,[ardoises dites cherubins et à mortier]
 no,ardoise dite grande voisine,ardoise dite grande voisine,Guillaume Daudin,ardoise ; dite grande voisine,rewire,,[ardoises dites grandes voisines]
 no,ardoise dite moyenne voisine,ardoise dite moyenne voisine,Guillaume Daudin,ardoise ; dite moyenne voisine,rewire,,[ardoises dites moyennes voisines]
@@ -288,7 +288,7 @@ no,ardoise non travaillée,ardoise non travaillée,Guillaume Daudin,ardoise ; no
 no,ardoise ordinaire,ardoise commune,Elisa Tirindelli,ardoise ; ordinaire,rewire,,[ardoises ordinaires]
 no,ardoise pour fenêtre,ardoise pour fenêtre,Guillaume Daudin,,new,,
 no,ardoise verte,ardoise verte,Guillaume Daudin,ardoise ; verte,rewire,,[Ardoises ; vertes]
-no,ardoises,ardoises,Guillaume Daudin,ardoise,rewire,,[Adoises]
+no,ardoises,ardoise,Guillaume Daudin,ardoise,rewire,,[Adoises]
 no,argent argent carragoux,argent carragoux,Guillaume Daudin,argent ; carragoux,rewire,,[Argent ; argent ; carragoux]
 no,argent argent piastres,monnaie argent piastre,Guillaume Daudin,monnaie ; argent ; piastre,rewire,,[Argent ; argent ; piastres]
 no,argent argent piastres d'Espagne,monnaie argent piastresd'Espagne,Guillaume Daudin,monnaie ; argent ; piastres; d'Espagne,rewire,,[Argent ; argent ; piastres d'Espagne]
@@ -297,25 +297,25 @@ no,argent argent talaris,argent talari,Guillaume Daudin,argent ; talari,rewire,,
 no,argent battu,argent battu,Guillaume Daudin,argent ; battu,rewire,,[Argent ; battu]
 no,argent brûlé,argent brûlé,Guillaume Daudin,[argent ; brûlé],ambiguous,,[argent brulé] [Argent brulé]
 no,argent divers,argent,Guillaume Daudin,argent ; divers,rewire,,[Argent ; divers]
-no,argent en barils,barils d'argent,?,argent en baril,rewire,,[argent en barils]
-no,argent en barres,barres d'argent,?,argent ; en barre,rewire,,[argent en barres]
-no,argent en lames,lames de argent ,?,argent ; en lame,rewire,,[Argent ; en lame]
+no,argent en barils,barils d'argent,Guillaume Daudin,argent en baril,rewire,,[argent en barils]
+no,argent en barres,barres d'argent,Guillaume Daudin,argent ; en barre,rewire,,[argent en barres]
+no,argent en lames,lames de argent ,Guillaume Daudin,argent ; en lame,rewire,,[Argent ; en lame]
 no,argent en lingots,lingots d'argent,Elisa Tirindelli,argent ; en lingot,rewire,,[Argent enlingots] [Argent ; en lingots] [Argent; en lingots] [Argent ; en lingot] [Argent en lingots]
 no,argent en lingots de bas aloi,lingots d'argent,Elisa Tirindelli,,new,,
 no,argent en lingots par Calais,lingots d'argent par Calais,Elisa Tirindelli,,new,,
-no,argent en matières,argent,?,argent ; en matière,rewire,,[Argent ; en matière]
-no,argent en monnaie,monnaie argent,Guillaume Daudin,monnaie ; argent,rewire,,[Argent ; en nionnoye]
+no,argent en matières,argent,Guillaume Daudin,argent ; en matière,rewire,,[Argent ; en matière]
+no,argent en monnaie,monnaies d'argent,Guillaume Daudin,monnaie ; argent,rewire,,[Argent ; en nionnoye]
 no,argent en piastres,piastres,Guillaume Daudin,monnaie ; argent ; piastre,rewire,,[argent en piastres] [Argent en piastres]
 no,argent en piastres gourdes,piastres gourdes,Guillaume Daudin,,new,,
 no,argent et or billon,argent et or billon,Guillaume Daudin,argent et or ; billon,rewire,,[argent et or billon]
 no,argent et or monnayé argent brut,argent brut,Guillaume Daudin,,new,,
-no,argent et or monnayé argent en feuilles,feuilles d'argent,?,,new,,
+no,argent et or monnayé argent en feuilles,feuilles d'argent,Guillaume Daudin,,new,,
 no,argent et or monnayé argent monnayé,monnaies d'argent,Guillaume Daudin,,new,,
 no,argent et or monnayé or monnayé,monnaies d'or,Guillaume Daudin,,new,,
 no,argent et or monnayé piastres,piastres,Guillaume Daudin,,new,,
 no,argent et or monnayé sequins,sequins,Guillaume Daudin,monnaie ; sequin,rewire,,[Argent et or monoyé ; Sequins] [Argent et or monnoyé ; Séquins]
 no,argent faux,argent faux,Guillaume Daudin,argent ; faux,rewire,,[Argent ; faux] [Argent faux] [Argent; faux]
-no,argent faux en fil cantilles etc.,argent faux en fil cantilles etc.,?,,new,,
+no,argent faux en fil cantilles etc.,argent faux,Guillaume Daudin,,new,,
 no,argent fin,argent fin,Guillaume Daudin,argent ; fin,rewire,,[Argent ; fin]
 no,argent monnayé,monnaie argent,Guillaume Daudin,monnaie ; argent,rewire,,[argent monnoyé] [Argent monnayé] [Argent ; monnoyé] [Argent monnoyé]
 no,argent monnayé en écus à palmes,écus à palmes,Guillaume Daudin,,new,,
@@ -340,17 +340,17 @@ no,argent vif,mercure,Guillaume Daudin,argent ; vif,rewire,,[Argents vif] [Argen
 no,argent vif et mercure,mercure,Guillaume Daudin,,existing,,
 no,argent vif ou mercure,mercure,Guillaume Daudin,,existing,,
 no,argenterie,argenterie,Guillaume Daudin,argenterie,existing,,
-no,argenterie bagues,argenterie bagues,Guillaume Daudin,argenterie ; bague,rewire,,[Argenterie ; bagues]
-no,argenterie boucles,argenterie boucles,Guillaume Daudin,argenterie ; boucle,rewire,,[Argenterie ; boucles]
-no,argenterie bugues,argenterie bugues,?,argenterie ; boucle,rewire,,[Argenterie ; bugues]
-no,argenterie croix,argenterie croix,Guillaume Daudin,argenterie ; croix,rewire,,[Argenterie ; croix] [Argenterie; croix]
+no,argenterie bagues,bagues d'argent,Guillaume Daudin,argenterie ; bague,rewire,,[Argenterie ; bagues]
+no,argenterie boucles,boucles d'argent,Guillaume Daudin,argenterie ; boucle,rewire,,[Argenterie ; boucles]
+no,argenterie bugues,bugues d'argent,Guillaume Daudin,argenterie ; boucle,rewire,,[Argenterie ; bugues]
+no,argenterie croix,croix d'argent,Guillaume Daudin,argenterie ; croix,rewire,,[Argenterie ; croix] [Argenterie; croix]
 no,argenterie diverse,argenterie,Guillaume Daudin,argenterie ; diverse,rewire,,[Argenterie ; diverse] [Argenterie ; diverses] [Argenterie; diverse]
-no,argenterie en vaisselle,vaiselle d'argent,?,argenterie ; en vaisselle,rewire,,[Argenterie ; en vaisselle]
+no,argenterie en vaisselle,vaiselle d'argent,Guillaume Daudin,argenterie ; en vaisselle,rewire,,[Argenterie ; en vaisselle]
 no,argenterie épée,argenterie épée,Guillaume Daudin,argenterie ; épée,rewire,,[Argenterie ; épés] [Argenterie ; épée] [Argenterie; épées]
 no,argenterie et bijouterie,argenterie et bijouterie,Guillaume Daudin,argenterie et bijouterie,existing,,
 no,argenterie et orfévrerie,argenterie et orfèvrerie,Guillaume Daudin,argenterie et orfèvrerie,rewire,,[Argenterie et orfévrerie]
-no,argenterie et orfévrerie en vermeil,argenterie et orfèvrerie vermeil,?,argenterie et orfèvrerie ; vermeil,rewire,,[Argenterie et orfévrerie en vermeil]
-no,argenterie et orfèvrerie en vermeil,argenterie et orfèvrerie vermeil,?,argenterie et orfèvrerie ; vermeil,rewire,,[Argenterie et orfèvrerie en vermeil]
+no,argenterie et orfévrerie en vermeil,argenterie et orfévrerie en vermeil,Guillaume Daudin,argenterie et orfèvrerie ; vermeil,rewire,,[Argenterie et orfévrerie en vermeil]
+no,argenterie et orfèvrerie en vermeil,argenterie et orfèvrerie en vermeil,Guillaume Daudin,argenterie et orfèvrerie ; vermeil,rewire,,[Argenterie et orfèvrerie en vermeil]
 no,argenterie tabatières,tabatière d'argent,Elisa Tirindelli,argenterie ; tabatière,rewire,,[Argenterie; tabatières]
 no,argenterie vieille,argenterie vieille,Guillaume Daudin,argenterie ; vieille,rewire,,[Argenterie ; vieille] [Argenterie vieille]
 no,argile,argile,Guillaume Daudin,argile,existing,,
@@ -507,8 +507,8 @@ no,babouches,babouches,Guillaume Daudin,[babouche] [babus],ambiguous,,[Babouchar
 no,babouches de maroquin,babouches de maroquin,Guillaume Daudin,babouche ; de maroquin,rewire,,[Babouches ; de maroquin]
 no,bâche,bâche,Guillaume Daudin,bâche,existing,,
 no,bacs contenant une aime,bacs d'1 aime,Elisa Tirindelli,bac contenant 1 aime,rewire,,[bacs contenant 1 aime]
-no,bacs de pierre,bac de pierre,Elisa Tirindelli,bac de pierre,rewire,,[bacs de pierre]
-no,bacs de pierre bleue,bac de pierre bleu,Elisa Tirindelli,bac de pierre,rewire,,[bacqs de pierre bleue]
+no,bacs de pierre,bacs de pierre,Elisa Tirindelli,bac de pierre,rewire,,[bacs de pierre]
+no,bacs de pierre bleue,bacs de pierre bleu,Elisa Tirindelli,bac de pierre,rewire,,[bacqs de pierre bleue]
 no,bacs de pierre contenant 1 aime,bacs de pierre d'1 aime,Elisa Tirindelli,bac de pierre,rewire,,[bacs de pierre contenant 1 aime]
 no,bacs de pierre contenant 4 aimes,bacs de pierre de 4 aimes,Elisa Tirindelli,bac de pierre,rewire,,[bacs de pierre contenant 4 aimes]
 no,bacs de pierre de demi d'aime,bacs de pierre de demi d'aime,Elisa Tirindelli,bac de pierre,rewire,,[bacs de pierre de 1/2 d'aime]
@@ -536,9 +536,9 @@ no,baguettes à fusils,baguettes de fusil,Guillaume Daudin,baguette ; de fusil,r
 no,baguettes de bois,baguettes de bois,Guillaume Daudin,baguette ; de bois,rewire,,[Baguettes ; de bois]
 no,baguettes de bois doré,baguettes de bois doré,Guillaume Daudin,,new,,
 no,baguettes de cuivre,baguettes de cuivre,Guillaume Daudin,,new,,
-no,baguettes de fer pour fusils,baguettes de fusil,?,baguette ; de fusil,rewire,,[baguettes de fer pour fusils]
+no,baguettes de fer pour fusils,baguettes de fer de fusil,Guillaume Daudin,baguette ; de fusil,rewire,,[baguettes de fer pour fusils]
 no,baguettes de fusils,baguettes de fusil,Guillaume Daudin,baguette ; de fusil,rewire,,[Bagueres ; de fusils] [Baguettes ; de fusils] [Baguettes de fusil] [Baguettes ; de fusil] [Baguettes de fusils] [baguettes de fuzils] [baguettes de fusil]
-no,baguettes étoffe,baguettes étoffe,Guillaume Daudin,baguette ; étoffe,rewire,,[Baguettes ; étoffe] [Baguette étoffe]
+no,baguettes étoffe,baguettes à étoffe,Guillaume Daudin,baguette ; étoffe,rewire,,[Baguettes ; étoffe] [Baguette étoffe]
 no,bahuts,bahuts,Guillaume Daudin,bahut,rewire,,[Bahut] [Bahuts] [Bahu] [bahus] [Bahû] [Bahus]
 no,baie de buis,baie de buis,Guillaume Daudin,baie ; de buis,rewire,,[baies ; de buis]
 no,baie de genièvre,baie de genièvre,Guillaume Daudin,baie ; de genièvre,rewire,,[Baies de genièvre] [Baie de genièvre]
@@ -592,11 +592,11 @@ no,baleine coupée,baleine coupée,Guillaume Daudin,[baleine ; coupée],ambiguou
 no,baléine coupée,baleine coupée,Guillaume Daudin,[baleine ; coupée],ambiguous,,[Baléine ; coupée]
 no,baleine coupée en fanon,baleine coupée et en fanon,?,[baleine ; en fanon],ambiguous,,[Baleines coupées en fanon]
 no,baleine coupée et en fanon,baleine coupée et en fanon,?,baleine ; coupée et en fanon,rewire,,[Balaine coupée et en fanons] [Baleine ; coupée et en fanon] [Baleine coupée et en fanon] [Baleine coupée et en fanons]
-no,baleine de fanon,baleine de fanon,?,[baleine ; en fanon],ambiguous,,[Baleine ; de fanon]
-no,baleine de sarde,baleine de sarde,?,,new,,
-no,baleine en fanon,baleine de fanon,?,[baleine ; en fanon],ambiguous,,[Baleine ; en Fanon] [Baleines; en fanon] [Baleine; en fanon] [Baleine : en fanon] [Baléine ; en fanon] [Baleines ; en froment] [Baleine ; en canon] [Baleine ; en fanons] [Balaine ; en fanon] [Ballaine en fanon] [Baleine en fanons] [Baleines en Fanon] [baleine en fanon] [BaLaine ; en fanon] [Baleine en fanon] [Baleine en Fanon]
-no,baleine fanon,baleine de fanon,?,,new,,
-no,baleine non sciée,baleine non coupée,?,,new,,
+no,baleine de fanon,baleine en fanon,?,[baleine ; en fanon],ambiguous,,[Baleine ; de fanon]
+no,baleine de sarde,baleine de sarde,Guillaume Daudin,,new,,
+no,baleine en fanon,baleine en fanon,?,[baleine ; en fanon],ambiguous,,[Baleine ; en Fanon] [Baleines; en fanon] [Baleine; en fanon] [Baleine : en fanon] [Baléine ; en fanon] [Baleines ; en froment] [Baleine ; en canon] [Baleine ; en fanons] [Balaine ; en fanon] [Ballaine en fanon] [Baleine en fanons] [Baleines en Fanon] [baleine en fanon] [BaLaine ; en fanon] [Baleine en fanon] [Baleine en Fanon]
+no,baleine fanon,baleine en fanon,?,,new,,
+no,baleine non sciée,baleine non coupée,Guillaume Daudin,,new,,
 no,baleine sciée ou coupée,baleine coupée,Guillaume Daudin,,new,,
 no,balfas,taffetas,Guillaume Daudin,taffetas,rewire,,[Balfas]
 no,balles,balles,Guillaume Daudin,balle,rewire,,[Balles]
@@ -653,12 +653,12 @@ no,barois,barrois,Guillaume Daudin,barrois,rewire,,[Barrois] [Barois]
 no,baromètre,baromètre,Guillaume Daudin,[baromètre et lunette],ambiguous,[Baromettre] [Baromètre],[Baromettre] [Baromètre] [Baromètres et lunettes]
 no,barques,barques,Guillaume Daudin,,new,,
 no,barques démontées,barques démontées,Guillaume Daudin,barque ; démontée,rewire,,[Barques démontées]
-no,barques en bottes,bottes de barques,Elisa Tirindelli,[barrique ; en botte],ambiguous,,[Barques en bottes]
+no,barques en bottes,barques en bottes,?,[barrique ; en botte],ambiguous,,[Barques en bottes]
 no,barquettes,barquettes,Guillaume Daudin,barquette,rewire,,[barquettes]
 no,barquettes et nacelles,barquettes et nacelles,Guillaume Daudin,barquette et nacelle,rewire,,[barquettes et nacelles]
 no,barquettes vieilles,barquettes vieilles,Guillaume Daudin,barquette vieille,rewire,,[barquettes vieilles]
 no,barreaux,barreaux,Guillaume Daudin,[baressus],ambiguous,,[Baressus] [Barresus]
-no,barreaux de sapin,barreau de sapin,Guillaume Daudin,barreau ; de sapin,rewire,,[Barreaux ; de sapin]
+no,barreaux de sapin,barreaux de sapin,Guillaume Daudin,barreau ; de sapin,rewire,,[Barreaux ; de sapin]
 no,barreaux de sapin de 10 pieds,barreaux de sapin de 10 pieds,Guillaume Daudin,,new,,
 no,barreaux neufs,barreaux neufs,Guillaume Daudin,barreau ; neuf,rewire,,[Barreaux ; neufs]
 no,barres,barres,Guillaume Daudin,barre,rewire,,[barres] [Barres]
@@ -689,12 +689,12 @@ no,barriques muid,barriques vides,Guillaume Daudin,barrique ; vide,rewire,,[Barr
 no,barriques neuves,barriques neuves,Guillaume Daudin,[barrique ; neuve],ambiguous,,[Barriques Neuves] [Bariques neuves] [Barriques neuves]
 no,barriques vides,barriques vides,Guillaume Daudin,barrique ; vide,rewire,,[Barriques vides] [Barriques;Vuides] [Bariques vides] [Bariques wides] [bariqes vuides] [Barriques ; vuides] [Bariques Vuides] [Barique Vuides] [Bariques vuide] [Barriques Vuiddes] [Bariques vuides] [Barriques vuides] [Barriques Vuides]
 no,barriques vides vides,barriques vides,Guillaume Daudin,barrique ; vide,rewire,,[Barriques Vuiddes ; Vuiddes] [Barriques Vuiddes Vuiddes]
-no,barriques vides vieilles,barriques vieilles vides,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Bariques Vuides Vieilles] [Bariques Vuidde Vieilles] [Barriques Vuiddes Vieilles] [Barriques Vuiddes vielles]
-no,barriques vieille muid,barriques vieilles vides,Elisa Tirindelli,barrique ; vieille ; vide,rewire,,[Barriques Vieille muides]
+no,barriques vides vieilles,barriques vides vieilles,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Bariques Vuides Vieilles] [Bariques Vuidde Vieilles] [Barriques Vuiddes Vieilles] [Barriques Vuiddes vielles]
+no,barriques vieille muid,barriques vides vieilles,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Barriques Vieille muides]
 no,barriques vieilles,barriques vieilles,Guillaume Daudin,barrique ; vieille,rewire,,[Bariques vieilles] [Bariques ; vieilles] [Bariques vielles] [barique vieilles] [Barriques ; vieilles] [Barique Vieille] [Barriques vieux] [Barriques Vielle]
-no,barriques vieilles à vide,barriques vieilles vides,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[barique vieilles a vuide]
-no,barriques vieilles et vides,barriques vieilles vides,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Barriques ; vieilles et vides]
-no,barriques vieilles vides,barriques vieilles vides,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Bariques vielles vuides] [Bariques vielles vides] [Barique Vielles Vuides] [Bariques Vieilles Vuides] [Barique Vieille Vuides] [Barriques vielles vuides] [Barriques Vieille Vuides] [Bariques ; vielles ; vuides] [Barriques ; vieilles ; vuides] [Barriques; vieilles ; vuides] [Barriques Vieille Vuiddes]
+no,barriques vieilles à vide,barriques vides vieilles,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[barique vieilles a vuide]
+no,barriques vieilles et vides,barriques vides vieilles,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Barriques ; vieilles et vides]
+no,barriques vieilles vides,barriques vides vieilles,Guillaume Daudin,barrique ; vieille ; vide,rewire,,[Bariques vielles vuides] [Bariques vielles vides] [Barique Vielles Vuides] [Bariques Vieilles Vuides] [Barique Vieille Vuides] [Barriques vielles vuides] [Barriques Vieille Vuides] [Bariques ; vielles ; vuides] [Barriques ; vieilles ; vuides] [Barriques; vieilles ; vuides] [Barriques Vieille Vuiddes]
 no,bas,bas,Guillaume Daudin,bas,existing,,
 no,bas assortis,bas,Elisa Tirindelli,bas ; assorti,rewire,,[Bas ; assortis]
 no,bas communs,bas communs,Guillaume Daudin,,new,,
@@ -713,8 +713,8 @@ no,bas de coton fil et soie,bas de coton et bas de fil et bas de soie,Guillaume 
 no,bas de fil,bas de fil,Guillaume Daudin,bas ; de fil,rewire,,[Bas; de fil] [bas de fil] [Bas de fils] [bas ; de fil] [Bas ; de fil] [Bas de Fil] [Bas de fil]
 no,bas de fil à coton,bas de coton et bas de fil,Guillaume Daudin,bas ; de fil et coton,rewire,,[Bas ; de fil à coton]
 no,bas de fil commun,bas de fil commun,Guillaume Daudin,,new,,
-no,bas de fil de coton,bas de coton,Guillaume Daudin,bas ; de fil ; de coton,rewire,,[Bas ; de Fil ; de coton]
-no,bas de fil de coton par paires,bas de coton par paires,Guillaume Daudin,bas ; de fil ; de coton ; par paire,rewire,,[Bas ; de Fil ; de coton ; par paires]
+no,bas de fil de coton,bas de coton et bas de fil,Guillaume Daudin,bas ; de fil ; de coton,rewire,,[Bas ; de Fil ; de coton]
+no,bas de fil de coton par paires,bas de coton et bas de fil par paires,Guillaume Daudin,bas ; de fil ; de coton ; par paire,rewire,,[Bas ; de Fil ; de coton ; par paires]
 no,bas de fil en paires,bas de fil par paires,Guillaume Daudin,bas ; de fil ; en paire,rewire,,[Bas ; de fil ; en paires]
 no,bas de fil et coton,bas de coton et bas de fil,Guillaume Daudin,bas ; de fil et coton,rewire,,[bas de fil et cotton] [Bas; de fil et coton] [Bas ; de fil et coton] [Bas de fil et Coton] [bas de fil et coton] [Bas de fil et coton]
 no,bas de fil et laine,bas de fil et bas de laine,Guillaume Daudin,bas ; de fil et laine,rewire,,[Bas; de fil et laine]
@@ -766,12 +766,12 @@ no,bas tricotés,bas tricotés,Guillaume Daudin,bas ; tricoté,rewire,,[Bas tric
 no,bas tricotés en laine,bas tricotés de laine,Elisa Tirindelli,bas ; tricoté,rewire,,"[Bas tricotés, en laine]"
 no,bas-relief de marbre,bas relief de marbre,Guillaume Daudin,bas relief ; de marbre,rewire,,[bas relief ; de marbre]
 no,basannes,basannes,Guillaume Daudin,[basane],ambiguous,,[Basanes] [Basane] [Bazanne] [Bazanes] [bajaunes] [bazannes] [basanes] [Bazannes]
-no,basannes apprêtées,basannes apprêtées,basannes apprêtées,,new,,
-no,basannes de mouton,basannes de mouton,basannes de mouton,,new,,
-no,basannes de mouton tannées,basannes de mouton tannées,basannes de mouton tannées,,new,,
-no,basannes de veau,basannes de veau,basannes de veau,,new,,
-no,basannes de veau tannées,basannes de veau tannées,basannes de veau tannées,,new,,
-no,basannes tannées,basannes tannées,basannes tannées,[bajanne ; tannée] [basane ; tannée],ambiguous,,[Bajannes ; tannées] [Bazanne tannees] [Bazannes ; tannés] [Bazanne ; tannées] [Bazanes ; tannées] [Bazannes ; tanées] [Bazannes tannée] [Bazannes tannés] [Basannes tannées] [Balzannes tannées] [bajanes tannées] [Bazanes tanées] [Bazannes ; tannées] [Bazanes tannées] [Basanes ; tannées] [Bazannes tannées] [Basanes tannées]
+no,basannes apprêtées,basannes apprêtées,Guillaume Daudin,,new,,
+no,basannes de mouton,basannes de mouton,Guillaume Daudin,,new,,
+no,basannes de mouton tannées,basannes de mouton tannées,Guillaume Daudin,,new,,
+no,basannes de veau,basannes de veau,Guillaume Daudin,,new,,
+no,basannes de veau tannées,basannes de veau tannées,Guillaume Daudin,,new,,
+no,basannes tannées,basannes tannées,Guillaume Daudin,[bajanne ; tannée] [basane ; tannée],ambiguous,,[Bajannes ; tannées] [Bazanne tannees] [Bazannes ; tannés] [Bazanne ; tannées] [Bazanes ; tannées] [Bazannes ; tanées] [Bazannes tannée] [Bazannes tannés] [Basannes tannées] [Balzannes tannées] [bajanes tannées] [Bazanes tanées] [Bazannes ; tannées] [Bazanes tannées] [Basanes ; tannées] [Bazannes tannées] [Basanes tannées]
 no,basin,basin,Guillaume Daudin,[basin],ambiguous,[basin] [Basin] [Bazain] [Bazin] [Bazins],[basin] [Batin] [basannes tannées] [Basin] [Bazain] [Bazin] [Bazins]
 no,basin blanc,basin blanc,Guillaume Daudin,basin ; blanc,rewire,,[basin blanc] [Basin blanc] [Bazin ; blanc]
 no,basin blanc de 10 aunes,basin blanc de 10 aunes,Guillaume Daudin,basin ; blanc ; de 10 aunes,rewire,,[Bazin ; blanc ; de 10 aunes]
@@ -782,7 +782,7 @@ no,basin de soie,basin de soie,Guillaume Daudin,,new,,
 no,basin de Troyes,basin de Troyes,Guillaume Daudin,,new,,
 no,basin des Indes,basin des Indes,Guillaume Daudin,basin ; des Indes,rewire,,[Bazines des L'Indes] [Bazins des L'Indes] [Bazin des L'Indes]
 no,basin en aune,basin en aunes,Guillaume Daudin,basin ; en aunes,rewire,,[basin en aunes]
-no,basin fil et coton,basin de fil et basin de coton,Guillaume Daudin,basin ; fil et coton,rewire,,[Bazin ; fil et coton]
+no,basin fil et coton,basin de fil et de coton,Guillaume Daudin,basin ; fil et coton,rewire,,[Bazin ; fil et coton]
 no,basin peint,basin peint,Guillaume Daudin,basin ; peint,rewire,,[basin peint]
 no,basin pièces de 11 aunes,basin pièce de 11 aunes,Guillaume Daudin,basin ; pièce de 11 aunes,rewire,,[Bazin ; pièces de 11 aunes]
 no,basin pièces de 15 aunes,basin pièce de 15 aunes,Guillaume Daudin,basin ; pièce de 15 aunes,rewire,,[Bazin ; pièces de 15 aunes]
@@ -861,7 +861,7 @@ no,baumanes,baumanes,Guillaume Daudin,,new,,
 no,baume,baume,Guillaume Daudin,baume,existing,,
 no,baume benjoin,baume de benjoin,Guillaume Daudin,,new,,
 no,baume de benjoin,baume de benjoin,Guillaume Daudin,,new,,
-no,baume de Copahu,baume de copahu,Guillaume Daudin,beaume de copahu,rewire,,[Baume ; de copaba] [Baume ; de copabu] [Baume ; de Copabu] [Beaume ; de copau] [Beaume ; copahu] [Beaume Capahu] [beaume de Copahu] [Baume de Copahu] [Baume de Capahu] [Baume de copahu] [beaume de capaha] [Beaume copahu] [Beaume de Capahu] [bEaume de capahu] [Beaume ; de Copahu] [Beaume de copahu] [baume de capahû] [Baume ; de Copahu] [Beaume ; de Capahu] [beaume de copahu] [Baume ; de copahu] [Baumes ; de Copahu] [Baumes ; Copahu] [Baume ; Copahu]
+no,baume de Copahu,baume de Copahu,Guillaume Daudin,beaume de copahu,rewire,,[Baume ; de copaba] [Baume ; de copabu] [Baume ; de Copabu] [Beaume ; de copau] [Beaume ; copahu] [Beaume Capahu] [beaume de Copahu] [Baume de Copahu] [Baume de Capahu] [Baume de copahu] [beaume de capaha] [Beaume copahu] [Beaume de Capahu] [bEaume de capahu] [Beaume ; de Copahu] [Beaume de copahu] [baume de capahû] [Baume ; de Copahu] [Beaume ; de Capahu] [beaume de copahu] [Baume ; de copahu] [Baumes ; de Copahu] [Baumes ; Copahu] [Baume ; Copahu]
 no,baume de l'Amérique,baume de l'Amérique,Guillaume Daudin,baume de l'Amérique,rewire,,[Baume ; de l'amérique]
 no,baume de la Mecque,baume de la Mecque,Guillaume Daudin,baume ; de la Mecque,rewire,,[Baume ; de la meque] [baume de la mecque] [Beaume de la Meque] [beaume de la meque]
 no,baume de storax préparé liquide,baume de storax préparé liquide,Guillaume Daudin,,new,,
@@ -1094,7 +1094,7 @@ no,bigons,bigons,Guillaume Daudin,,new,,
 no,bigous,bigous,Guillaume Daudin,,new,,
 no,bigues,bigues,Guillaume Daudin,,new,,
 no,bijouterie,bijouterie,Guillaume Daudin,[bijouterie],ambiguous,[bijouteries] [Bijoutterie] [Bijouteries] [Bijouterie],[bijouteries] [Bijoutrie] [Bijoutterie] [Bijouteries] [Bijouterie]
-no,bijouterie argenterie et orfèvrerie,argenterie et  bijouterie et orfèvrerie,Elisa Tirindelli,,new,,
+no,bijouterie argenterie et orfèvrerie,argenterie et orfèvrerie,Elisa Tirindelli,,new,,
 no,bijouterie diamants perles et pierres fines,"diamant, perle et pierre fine",Guillaume Daudin,"bijouterie ; diamant, perle et pierre fine",rewire,,"[Bijouterie : diamants, perles et pierres fines] [Bijouterie : diamans, perles et pierres fines]"
 no,bijouterie diamants perles et pierres fines montés ou non montés,diamants perles et pierres fines,Guillaume Daudin,,new,,
 no,bijouterie diamants perles et pierres fines non montés,diamants perles et pierres fines non montés,Guillaume Daudin,,new,,
@@ -1842,7 +1842,7 @@ no,bois ouvré,ouvrages de bois,Guillaume Daudin,[ouvrage ; de bois],ambiguous,,
 no,bois ouvré à bâtir,ouvrages de bois pour le bâtiment,Guillaume Daudin,bois ; ouvré ; à bâtir,rewire,,[Bois ; ouvré ; à batir]
 no,bois ouvré commodes,commodes de bois,Guillaume Daudin,,new,,
 no,bois ouvré divers,ouvrages de bois,Guillaume Daudin,,new,,
-no,bois ouvré en barres de cabestan,barres de bois de cabestan,Guillaume Daudin,,new,,
+no,bois ouvré en barres de cabestan,barres de cabestan,Guillaume Daudin,,new,,
 no,bois ouvré pour charpente,ouvrages de bois pour charpente,Guillaume Daudin,,new,,
 no,bois ouvré tables,tables de bois,Guillaume Daudin,,new,,
 no,bois ouvrés,ouvrages de bois,Guillaume Daudin,[ouvrage ; de bois],ambiguous,,[Bois ouvrés]
@@ -1987,10 +1987,10 @@ no,bonneterie de coton,bonneterie de coton,Elisa Tirindelli,[bonneterie ; de cot
 no,bonneterie de coton bas,bas de coton,Elisa Tirindelli,,new,,
 no,bonneterie de coton en bas,bas de coton,Guillaume Daudin,bonneterie ; bas ; de coton,rewire,,[Bonneterie ; de coton ; en bas] [Bonneterie de coton en bas]
 no,bonneterie de coton en bonnets,bonnets de coton,Elisa Tirindelli,[bonneterie ; bonnet ; de coton],ambiguous,,[Bonneterie ; de coton ; en bonnet] [Bonneterie ; de coton ; en bonnets] [Bonneterie de coton en bonets]
-no,bonneterie de coton en tricots,bonneterie de coton tricot,Guillaume Daudin,bonneterie ; de coton ; tricot,rewire,,[Bonneterie ; de coton ; au tricot]
+no,bonneterie de coton en tricots,tricots de coton,Guillaume Daudin,bonneterie ; de coton ; tricot,rewire,,[Bonneterie ; de coton ; au tricot]
 no,bonneterie de coton et laine,bonneterie de coton et bonneterie de laine,Guillaume Daudin,bonneterie ; de coton et laine,rewire,,[Bonneterie ; de coton et laine]
 no,bonneterie de coton fil et laine,bonneterie de coton et bonneterie de fil et bonneterie de laine,Guillaume Daudin,bonneterie ; de coton ; fil et laine,rewire,,[Bonneterie ; de coton ; fil et laine]
-no,bonneterie de coton tricots,bonneterie de coton tricot,Guillaume Daudin,bonneterie ; de coton ; tricot,rewire,,[Bonneterie ; de coton ; tricot]
+no,bonneterie de coton tricots,tricots de coton,Guillaume Daudin,bonneterie ; de coton ; tricot,rewire,,[Bonneterie ; de coton ; tricot]
 no,bonneterie de fil,bonneterie de fil,Elisa Tirindelli,[bonneterie ; de fil],ambiguous,,[Bonneterie ; De fil] [Bonnetterie de fil] [Bonnetterie; De fil] [Bonneterie de fil]
 no,bonneterie de fil bas,bas de fil,Guillaume Daudin,bas ; de fil,rewire,,[Bonnetterie de fil bas] [Bonneterie ; de fil ; bats]
 no,bonneterie de fil en bas,bas de fil,Guillaume Daudin,bas ; de fil,rewire,,[Bonneterie ; de fil ; en bas] [Bonneteterie de fil en bas] [Bonneterie de fil (en bas)] [Bonneterie de fil en bas] [Bonneteries de fil en bas]
@@ -1998,16 +1998,16 @@ no,bonneterie de fil en coton,bonneterie de fil de coton,Elisa Tirindelli,,new,,
 no,bonneterie de fil en gants,gants de fil,Elisa Tirindelli,,new,,
 no,bonneterie de fil et coton,bonneterie de fil et bonneterie de coton,Elisa Tirindelli,[bonneterie ; de fil et coton],ambiguous,,[Bonneterie ; de fil et coton] [Bonneterie ; De fil et coton] [Bonnetterie ; de fil et coton] [Bonneterie ; de fil en bas]
 no,bonneterie de fil et coton en bas,bas de coton et bas de fil,Elisa Tirindelli,,new,,
-no,bonneterie de filin d'or,bonneterie de filain d'or,Guillaume Daudin,bonneterie ; de filain ; d'or,rewire,,[Bonneterie ; de filain ; d'or]
+no,bonneterie de filin d'or,bonneterie de filin d'or,Guillaume Daudin,bonneterie ; de filain ; d'or,rewire,,[Bonneterie ; de filain ; d'or]
 no,bonneterie de filoselle,bonneterie de filoselle,Guillaume Daudin,bonneterie ; de filoselle,rewire,,[Bonneterie ; de filozelle] [Bonneterie ; De filozelle] [Bonneterie ; de filoselle]
 no,bonneterie de filoselle en bas,bas de filoselle,Elisa Tirindelli,,new,,
 no,bonneterie de fleuret bas,bas de fleuret,Elisa Tirindelli,,new,,
 no,bonneterie de laine,bonneterie de laine,Elisa Tirindelli,"[bonneterie ; de laine] [bonnet ; de laine] [bonneterie ; de fil, coton et laine]",ambiguous,,[Bonneteries de line] [Bonneterie ; De laine] [Bonneterie; de laine] [Bonnetterie ; de laine] [Bonneteries ; de laine] [Boneterie ; de laine] [Boneterie de laine] [Bonneterie ; de layne] [Bonnetterie de laine] [Bonneteries de laine] [Bonnetrie de laine] [Bonneterie de laine]
-no,bonneterie de laine ???,bonneterie de laine,Elisa Tirindelli,[bonneterie ; de laine],ambiguous,,[Bonneterie ; de laine ; ?]
+no,bonneterie de laine ???,bonneterie de laine ???,Elisa Tirindelli,[bonneterie ; de laine],ambiguous,,[Bonneterie ; de laine ; ?]
 no,bonneterie de laine bas,bas de laine,Guillaume Daudin,bonneterie ; bas ; de laine,rewire,,[Bonneterie ; de laine ; bats] [Bonnetterie ; de laine ; bas] [Bonneterie ; de laine ; bas]
 no,bonneterie de laine bonnets,bonnets de laine,Elisa Tirindelli,[bonnet ; de laine],ambiguous,,[Bonneterie ; de laine ; bonnet] [Bonneterie ; de laine ; bonnets] [Bonnetterie ; de laine ; bonets] [Bonneterie ; de laine ; bonets] [Bonneterie de laine bonnets]
-no,bonneterie de laine commune,bonnets de laine commune,Elisa Tirindelli,,new,,
-no,bonneterie de laine des bonnets ???,bonnets de laine,Elisa Tirindelli,,new,,
+no,bonneterie de laine commune,bonnetterie de laine commune,Elisa Tirindelli,,new,,
+no,bonneterie de laine des bonnets ???,bonnets de laine ???,Elisa Tirindelli,,new,,
 no,bonneterie de laine diverse,bonneterie de laine,Elisa Tirindelli,[bonneterie ; de laine],ambiguous,,[Bonneterie ; de laine ; diverse]
 no,bonneterie de laine en bas,bas de laine,Guillaume Daudin,bonneterie ; bas ; de laine,rewire,,[Bonneterie ; de laine ; en bas] [Bonneterie de laine en bas] [Bonneteries de laine en bas]
 no,bonneterie de laine en bonnets,bonnets de laine,Elisa Tirindelli,[bonnet ; de laine],ambiguous,,[Bonneterie ; de laine ; en bonnets] [Bonneterie de laine en bonnets]
@@ -2021,7 +2021,7 @@ no,bonneterie de soie,bonneterie de soie,Elisa Tirindelli,[bonneterie ; de soie]
 no,bonneterie de soie au sixième,bonneterie de soie au sixième,Elisa Tirindelli,[bonneterie ; de soie],ambiguous,,[Bonneterie ; de soye ; au 6è]
 no,bonneterie de soie bas,bas de soie,Elisa Tirindelli,[bas ; de soie],ambiguous,,[Bonneterie ; de soie ; bas] [Bonnetterie ; de soye ; bas] [Bonneterie ; de soye ; bas]
 no,bonneterie de soie bourses,bourses de soie,Elisa Tirindelli,bourse ; de soie,rewire,,[Bonneterie ; de soye ; bourses]
-no,bonneterie de soie diverse,bas de soie,Elisa Tirindelli,,new,,
+no,bonneterie de soie diverse,bonneterie de soie,Elisa Tirindelli,,new,,
 no,bonneterie de soie en bas,bas de soie,Elisa Tirindelli,[bas ; de soie],ambiguous,,[Bonneterie ; de soye ; en bas] [Bonneterie de soie en bas] [Bonneterie de soye (en bas)] [Bonneterie ; de soye en bas] [Bonneteries de soye en bas]
 no,bonneterie de soie en gants,gants de soie,Elisa Tirindelli,,new,,
 no,bonneterie de soie et dorure,bonneterie de soie et dorure,Elisa Tirindelli,bonneterie ; de soie et dorure,rewire,,[Bonneterie ; De Soye et dorure]
@@ -2034,9 +2034,9 @@ no,bonneterie diverse,bonnetterie,Elisa Tirindelli,[bonneterie],ambiguous,,[Bonn
 no,bonneterie diverse de coton,bonnetterie de coton,Elisa Tirindelli,,new,,
 no,bonneterie diverse de soie,bonneterie de soie,Elisa Tirindelli,,new,,
 no,bonneterie écarlate,bonneterie écarlate,Elisa Tirindelli,bonneterie ; écarlate,rewire,,[Bonneterie ; ecarlatte]
-no,bonneterie en ???,bonnetterie,Elisa Tirindelli,[bonneterie],ambiguous,,[Bonneterie ; en ?]
+no,bonneterie en ???,bonnetterie ???,Elisa Tirindelli,[bonneterie],ambiguous,,[Bonneterie ; en ?]
 no,bonneterie en bas de laine,bas de laine,Guillaume Daudin,bonneterie ; bas ; de laine,rewire,,[Bonneterie ; en bas ; de laine]
-no,bonneterie en fil coton et laine,bonneterie de fil et bonneterie de coton et bonneterie de laine,Elisa Tirindelli,"[bonneterie ; de fil, coton et laine]",ambiguous,,"[Bonneterie en fil, coton et laine]"
+no,bonneterie en fil coton et laine,bonneterie de coton et bonneterie de fil et bonneterie de laine,Elisa Tirindelli,"[bonneterie ; de fil, coton et laine]",ambiguous,,"[Bonneterie en fil, coton et laine]"
 no,bonneterie en gants,gants,Elisa Tirindelli,,new,,
 no,bonneterie en poil de lapin,bonneterie de lapin de poil,Elisa Tirindelli,bonneterie ; en poil ; de lapin,rewire,,[Bonneterie ; en poil ; de lapin]
 no,bonneterie en tricot de laine,tricots de laine,Elisa Tirindelli,,new,,
@@ -2044,8 +2044,8 @@ no,bonneterie fil et coton,bonneterie fil et bonneterie de coton,Elisa Tirindell
 no,bonneterie fil et coton tricots,tricots de coton et tricots de fil,Elisa Tirindelli,,new,,
 no,bonneterie gants de soie,gants de soie,Elisa Tirindelli,,new,,
 no,bonnets,bonnets,Guillaume Daudin,bonneterie ; bonnet,rewire,,[Bonnets]
-no,bonnets à dentelle,bonnet à dentelle,Guillaume Daudin,bonnet ; à dentelle,rewire,,[Bonnets a dentelle]
-no,bonnets à la turc de fer-blanc,bonnet de fer blanc à la turc,Guillaume Daudin,bonnet ; à la turc ; de fer ; blanc,rewire,,[Bonnets ; à la turc ; de fer ; blanc]
+no,bonnets à dentelle,bonnets à dentelle,Guillaume Daudin,bonnet ; à dentelle,rewire,,[Bonnets a dentelle]
+no,bonnets à la turc de fer-blanc,bonnets de fer blanc à la turc,Guillaume Daudin,bonnet ; à la turc ; de fer ; blanc,rewire,,[Bonnets ; à la turc ; de fer ; blanc]
 no,bonnets brodés d'or,bonnets brodés d'or,Guillaume Daudin,bonnet ; brodé ; d'or,rewire,,[Bonnets ; brodés ; d'or]
 no,bonnets d'enfant,bonnets d'enfant,Guillaume Daudin,bonnet ; d'enfant,rewire,,[bonnets d'enfans] [Bonnet ; d'enfant] [Bonnets ; d'enfants] [Bonnets ; d'enfant] [Bonnets d'enfant]
 no,bonnets d'enfant de velours et bonnets à la postillonne,bonnets d'enfant de velours et bonnets à la postillonne,Elisa Tirindelli,,new,,
@@ -2112,7 +2112,7 @@ no,bottes pantalons,bottes et pantalons,Guillaume Daudin,botte pantalon,rewire,,
 no,bottines,bottines,Guillaume Daudin,bottine,rewire,,[Botinnes] [botines] [Botines] [Bottine] [Bottines]
 no,bottines de peau,bottines de peau,Elisa Tirindelli,,new,,
 no,boucaniers,boucaniers,Guillaume Daudin,,new,,
-no,boucans en bottes,botted de boucans,Elisa Tirindelli,,new,,
+no,boucans en bottes,bottes de boucans,Elisa Tirindelli,,new,,
 no,boucassin,boucassin,Guillaume Daudin,boucassin,existing,,
 no,boucassin rouge,boucassin rouge,Elisa Tirindelli,,new,,
 no,boucaud en bottes,bottes de boucaud,Elisa Tirindelli,,new,,
@@ -2136,7 +2136,7 @@ no,boucs,boucs,Guillaume Daudin,bétail ; chèvre et bouc,rewire,,[Bouc] [Boucs]
 no,boucs en vie,boucs en vie,Elisa Tirindelli,,new,,
 no,boucs et chèvres,boucs et chèvres,Guillaume Daudin,bétail ; chèvre et bouc,rewire,,[boucs et chevres]
 no,boudins de poisson,boudins de poisson,Guillaume Daudin,boudin de poisson,rewire,,[boudins de poisson]
-no,boue de sel,sel de boue,Guillaume Daudin,sel ; de boue,rewire,[boue de sel],[boue de sel]
+no,boue de sel,sel de boue,?,sel ; de boue,rewire,[boue de sel],[boue de sel]
 no,bouette de sapin,bouette de sapin,Guillaume Daudin,bouette ; de sapin,rewire,,[BOUETTE de Sapin]
 no,bouge,bouge,Guillaume Daudin,,existing,,
 no,bougette,bouguette,Guillaume Daudin,bouguette,rewire,,[bouguette]
@@ -2185,7 +2185,7 @@ no,bouraline,bourre-lanisse,Guillaume Daudin,bourre-lanisse,rewire,,[Bouraline]
 no,bouralisse,bourre-lanisse,Guillaume Daudin,bourre-lanisse,rewire,,[Bouralisse]
 no,bouras,bouras,Guillaume Daudin,,new,,
 no,bouras coton,bouras de coton,Elisa Tirindelli,[bourse ; de coton],ambiguous,,[Bours ; coton]
-no,bouras coton et fil,bourre de coton et bourre de fil,Guillaume Daudin,bourse ; de coton et fil,rewire,,[Bours ; coton et fil]
+no,bouras coton et fil,bouras de coton et bouras de fil,Guillaume Daudin,bourse ; de coton et fil,rewire,,[Bours ; coton et fil]
 no,bouras d'Alep,bouras d'Alep,Elisa Tirindelli,,new,,
 no,bouras de coton,bouras de coton,Elisa Tirindelli,[bourre ; de coton] [bourse ; de coton],ambiguous,,[Boura; de coton] [Bours ; de coton] [Bours de coton] [bours de coton]
 no,bouras de Damas,bouras de Damas,Guillaume Daudin,bourse ; de Damas,rewire,,[Bours ; de Damas]
@@ -2261,7 +2261,7 @@ no,bouteilles de verre clissées,bouteilles de verre clissées,Elisa Tirindelli,
 no,bouteilles de verre garnies de joncs,bouteilles de verre garnies de joncs,Guillaume Daudin,bouteille ; de verre ; garnie de jonc,rewire,,[bouteilles de verre garnis de joncs]
 no,bouteilles de verre gros,bouteilles de verre gros,Elisa Tirindelli,[bouteille ; de verre ; gros],ambiguous,,[Bouteilles de Verre gros]
 no,bouteilles de verre vides,bouteilles de verre vides,Guillaume Daudin,bouteille ; de verre vide,rewire,,[Bouteilles ; de verre ; vuides] [Bouteilles de verres vuides] [Bouteilles de verre vuides]
-no,bouteilles en dame-jeannes,bouteilles en dame-jeannes,?,,new,,
+no,bouteilles en dame-jeannes,dame-jeannes,Guillaume Daudin,,new,,
 no,bouteilles en verre,bouteilles de verre,Elisa Tirindelli,[bouteille ; de verre],ambiguous,,[Bouteille en verre] [Bouteilles en verre]
 no,bouteilles petites à virole d'étain,bouteilles petites à virole d'étain,Elisa Tirindelli,,new,,
 no,bouteilles verre,bouteilles de verre,Elisa Tirindelli,[bouteille ; de verre],ambiguous,,[Bouteilles ; verre]
