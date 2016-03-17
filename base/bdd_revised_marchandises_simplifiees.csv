@@ -290,9 +290,9 @@ ardoise pour fenêtre,ardoise pour fenêtre
 ardoise verte,ardoise verte
 ardoises,ardoises
 argent argent carragoux,argent carragoux
-argent argent piastres,monnaie argent piastre
-argent argent piastres d'Espagne,monnaie argent piastresd'Espagne
-argent argent piastres du Grand Seigneur,monnaie argent piastre du grand seigneur
+argent argent piastres,piastres
+argent argent piastres d'Espagne,piastres d'Espagne
+argent argent piastres du Grand Seigneur,piastres du grand seigneur
 argent argent talaris,argent talari
 argent battu,argent battu
 argent brûlé,argent brûlé
@@ -817,7 +817,7 @@ batiste,batiste
 batiste blanche,batiste blanche
 batiste et linon,batiste et linon
 batiste grise,batiste grise
-batiste textile,batiste blanche
+batiste textile,batiste
 bâtons,bâtons
 bâtons à chandelle,bâtons à chandelle
 bâtons à étendre le linge,bâtons à étendre le linge
@@ -886,7 +886,7 @@ baye teinte,baye teinte
 baye teinte aune,baye teinte aune
 bayette,bayette
 bayette bleue,bayette bleue
-bayette des prises,bayette des prises
+bayette des prises,bayette de prise
 bayonettes,bayonettes
 bayoulen,bayoulen
 bazzitte,bazzitte
@@ -2195,7 +2195,7 @@ bouras de Nîmes,bouras de Nîmes
 bouras de soie,bourre de soie
 bouras du Levant,bouras du Levant
 bouras en soie,bourre de soie
-bouras fil et coton,bouras de fil et bouras de coton
+bouras fil et coton,bouras de coton et bouras de fil
 bouras satiné,bouras satiné
 bourde,cendre bourde
 bourdilles,bourdilles
@@ -2506,7 +2506,7 @@ buldan,buldan
 burail,burail
 burat,burat
 burat d'Auvergne,burat d'Auvergne
-burat de laine,burat de laine
+burat de laine,burat
 burat soie et laine,étoffe de soie et laine burat
 bure,bure
 bure étoffe,bure étoffe
@@ -3681,7 +3681,7 @@ chemises de lin,chemises de lin
 chemises de nègre,chemise de nègre
 chemises de siamoise,chemises de siamoise
 chemises de toile,chemise de toile
-chemises de toile batiste,chemises de toile batiste
+chemises de toile batiste,chemises de batiste
 chemises de toile bleue,chemises de toile bleue
 chemises de toile communes,chemise de toile commune
 chemises de toile de Bretagne,chemise de toile de Bretagne
@@ -3692,7 +3692,7 @@ chemises de toile de lin,chemises de toile de lin
 chemises de toile de lin garnies,chemises de toile de lin garnies
 chemises de toile de Morlaix,chemises de toile de Morlaix
 chemises de toile de Saint-Jean,chemises de toile de Saint-Jean
-chemises de toile guingan,chemises de toile guingan
+chemises de toile guingan,chemises de guingan
 chemises diverses,chemises
 chemises écossaises,chemise écossaise
 chemises en grosse toile pour nègre,chemises de grosse toile à nègre
@@ -3704,7 +3704,7 @@ chemises garnies de paille,chemises garnies de paille
 chemises garnies en mousselines,chemises garnies de mousselines
 chemises garnies pour femme,chemise garnie pour femme
 chemises garnies pour homme,chemise garnie pour homme
-chemises guingan,chemises guingan
+chemises guingan,chemises de guingan
 chemises moins communes,chemises moins communes
 chemises neutres,chemise neutre
 chemises neuves,chemise neuve
@@ -3712,7 +3712,7 @@ chemises non garnies,chemises non garnies
 chemises pour homme,chemise pour homme
 chemises pour soldat,chemises pour soldat
 chemises toile de lin,chemises de toile de lin
-chemises toile guingan,chemises de toile guingan
+chemises toile guingan,chemises de guingan
 chemises unies,chemise unie
 chemises unies communes,chemises communes unies
 chemises vieilles,chemises vieilles
@@ -4376,7 +4376,7 @@ coton en mèches,mèches de coton
 coton en mèches pour chandelle,mèches de coton pour chandelle
 coton en ouate,coton en ouatte
 coton en poil,poil de coton
-coton en rames,coton de rame
+coton en rames,coton de rames
 coton et calicot,coton et calicot
 coton étoffe des Indes,étoffe de coton des Indes
 coton fil,fil de coton
@@ -4390,10 +4390,10 @@ coton filé des Îles,coton filé des Indes
 coton filé des Indes,coton filé des Indes
 coton filé du Levant,coton filé du Levant
 coton filé en laine,coton filé en laine
-coton filé en laine des Îles,coton filé en laine des Indea
+coton filé en laine des Îles,coton filé en laine des Indes
 coton filé en laine étranger,coton filé en laine étranger
 coton filé et en laine,coton filé de laine
-coton filé et en rames,coton filé de rame
+coton filé et en rames,coton de rames
 coton filé et non filé,coton filé et non filé
 coton filé étranger,coton filé étranger
 coton filé fin,coton filé fin
@@ -4420,8 +4420,8 @@ cotonnades chapellerie,chapellerie de coton
 cotonnades couvertures,couverture de coton
 cotonnades dentelle et blonde,dentelle de coton et blonde de coton
 cotonnades drap étoffe de toute sorte,drap de coton et étoffe de coton
-cotonnades en Nankin,nankin de coton
-cotonnades en toile et Nankin,Nankin et toile de coton
+cotonnades en Nankin,Nankin de coton
+cotonnades en toile et Nankin,toile de coton
 cotonnades étoffe,étoffe de coton
 cotonnades étoffe drap et velours,étoffe de coton et drap de coton et velours de coton
 cotonnades étoffe drap velours couvertures,étoffe de coton et drap de coton et velours de coton et couverture de coton
@@ -4433,7 +4433,7 @@ cotonnades gaze idem,gaze de coton
 cotonnades mouchoirs,mouchoir de coton
 cotonnades mouchoirs de coton et fil,mouchoir de coton et fil de coton
 cotonnades mouchoirs divers,mouchoir de coton
-cotonnades mouchoirs et schalls,mouchoir de coton et schal de coton
+cotonnades mouchoirs et schalls,mouchoirs de coton et schalls de coton
 cotonnades mouchoirs idem,mouchoir de coton
 cotonnades rubannerie diverse,rubannerie
 cotonnades schalls,schal de coton
@@ -4441,9 +4441,9 @@ cotonnades toile basin et Nankin,basin de coton et Nankin de coton
 cotonnades toile de coton étrangère diverse,toile de coton
 cotonnades toile diverse basin Nankin,basin et Nakin
 cotonnades toile diverse et Nankin,cotonnade
-cotonnades toile mousselines,toile mousseline de coton
-cotonnades toile mousselines unies et brûlées,toile mousseline de coton unie et brûlée
-cotonnades toile mousselines unies et peintes,toile mousseline de coton unie et peinte
+cotonnades toile mousselines,mousseline de coton
+cotonnades toile mousselines unies et brûlées,mousseline de coton unie et brûlée
+cotonnades toile mousselines unies et peintes,mousseline de coton unie et peinte
 cotonnades toile peinte et indienne,indienne de coton et toile de coton peinte
 cotonnades toile peinte et siamoise,siamoise de coton et toile de coton peinte
 cotonnades toile peinte indienne et siamoise,indienne de coton et siamoise de coton et toile de coton peinte
@@ -4572,7 +4572,7 @@ couvertures de capiton,couvertures de capiton
 couvertures de castalogne,couvertures de castalogne
 couvertures de coton,couvertures de coton
 couvertures de crin,couvertures de crin
-couvertures de fil et coton,couvertures de fil et de coton
+couvertures de fil et coton,couvertures de coton et de fil
 couvertures de filoselle,couvertures de filoselle
 couvertures de fleur,couvertures de fleur
 couvertures de fleuret,couvertures de fleuret
@@ -4582,9 +4582,9 @@ couvertures de laine de Montpellier,couvertures de laine de Montpellier
 couvertures de laine et coton,couvertures de laine et de coton
 couvertures de laine et de coton,couvertures de laine et de coton
 couvertures de laine fines,couvertures de laine fine
-couvertures de laine grandes,couvertures de laine grandes
-couvertures de laine grosse,couvertures de laine grosse
-couvertures de laine petites,couvertures de laine petites
+couvertures de laine grandes,couvertures grandes de laine
+couvertures de laine grosse,couvertures grosses de laine
+couvertures de laine petites,couvertures petites de laine
 couvertures de laine pour nègre,couvertures de laine à nègre
 couvertures de lit,couvertures de lit
 couvertures de lit de coton,couvertures de coton de lit
@@ -4604,7 +4604,7 @@ couvertures en laine,covertures de laine
 couvertures en plocq,couvertures de ploc
 couvertures fil à coton,couvertures de coton
 couvertures fil en coton,couvertures de coton
-couvertures fil et coton,couvertures de cotorn et de fil
+couvertures fil et coton,couvertures de coton et de fil
 couvertures filet et coton,couvertures filet et coton
 couvertures grosses de laine,couvertures grosses de laine
 couvertures indienne,couvertures d'indienne
@@ -5411,7 +5411,7 @@ drap brodé aux ciseaux en soie,drap brodé au ciseau en soie
 drap brodé en or et argent,drap brodé en or et argent
 drap brodé en soie,drap brodé en soie
 drap carisé,drap carizé
-drap casimir,drap casimir
+drap casimir,étoffe de laine casimir
 drap commun,drap commun
 drap cordeillat,drap cordeillat
 drap cosinis,drap cosinis
@@ -5442,7 +5442,7 @@ drap de billard,drap de billard
 drap de Bourbon,drap de bourbon
 drap de burs frise étoffe,drap de burs ou de frise
 drap de Carcassonne,drap de Carcassonne
-drap de casimir,drap de casimir
+drap de casimir,étoffe de laine casimir
 drap de castor,drap de castor
 drap de castor aune,drap de castor par aune
 drap de castor par aune,drap de castor par aune
@@ -5579,12 +5579,12 @@ drap drap commun,drap commun
 drap drap fin,drap fin
 drap drapée,drap drapé
 drap draperie ???,drap draperie ???
-drap draperie bay ???,drap bayette
-drap draperie bayette,drap bayette
+drap draperie bay ???,bayette
+drap draperie bayette,bayette
 drap draperie buras,draperie buras
 drap draperie bure,draperie bure
 drap draperie cad ???,draperie cad ???
-drap draperie cadis,draperie cadis
+drap draperie cadis,cadis
 drap draperie capots,capoterie
 drap draperie crêpe,crêpe
 drap draperie crêpe de Reims,crêpe de Reims
@@ -5602,7 +5602,7 @@ drap draperie fine,draperie fine
 drap draperie flanelle,flanelle
 drap draperie frac,draperie frac
 drap draperie froc,draperie frac
-drap draperie futaine,draperie futaine
+drap draperie futaine,futaine de laine
 drap draperie iadia,draperie iada
 drap draperie irtaine,irtaine
 drap draperie layette,draperie layette
@@ -5618,7 +5618,7 @@ drap draperie petite divers,draperie petite
 drap draperie petite diverse,draperie petite
 drap draperie petite du Languedoc,draperie petite de Languedoc
 drap draperie petite du Maroc,draperie petite du Maroc
-drap draperie pinchina,pinchina
+drap draperie pinchina,pinchinat de laine
 drap draperie ratine,draperie ratine
 drap draperie raz de castor,draperie raz de castor
 drap draperie raz du Maroc,draperie raz du Maroc
@@ -7270,7 +7270,7 @@ etamette,etamette
 étamine aune,étamine aune
 étamine avec soie,étamine avec soie
 étamine avec vingt brins de soie,étamine avec vingt brins de soie
-étamine burail,étamine buraite
+étamine burail,étamine burail
 étamine d'Agen,étamine d'agen
 étamine d'Allemagne,étamine d'Allemagne
 étamine d'Amiens,étamine d'Amiens
@@ -7284,11 +7284,11 @@ etamette,etamette
 étamine de Reims,étamine de Reims
 étamine des prises,étamine des prise
 étamine du Mans,étamine du Mans
-étamine laine,étamine laine
-étamine laine et soie,étamine laine et soie
+étamine laine,étamine de laine
+étamine laine et soie,étamine de laine et de soie
 étamine mi soie,étamine mi soie
 étamine rayée,étamine rayée
-étamine soie et laine,étamine soie et laine
+étamine soie et laine,étamine de laine et de soie
 étamine virée,étamine virée
 étampes,estampe
 etatchasse,etatchasse
@@ -7307,10 +7307,10 @@ etocs de fer,étau de fer
 étoffe au filoselle,étoffe au filoselle
 étoffe au poil ???,étoffe de poil
 étoffe au poil callemande,étoffe de poil callemande
-étoffe au poil camelot,étoffe de poil camelot
+étoffe au poil camelot,camelot de poil
 étoffe au poil lampareille,étoffe de poil lampareille
 étoffe au poil polimi,étoffe de poil polini
-étoffe au poil prunelle,étoffe de poil prunelle
+étoffe au poil prunelle,prunelle de poil
 étoffe au poil sorge de Rome,étoffe au poil sorge de Rome
 étoffe au quart,étoffe au quart
 étoffe au quart de soie,étoffe au quart de soie
@@ -7323,11 +7323,11 @@ etocs de fer,étau de fer
 étoffe avec or et argent,étoffe avec argent et or
 étoffe avec un brin de soie,étoffe avec un brin de soie
 étoffe avec vin brin de soie,étoffe avec vin brin de soie
-étoffe baracan,étoffe de baracan
+étoffe baracan,baracan
 étoffe barail,étoffe de barail
-étoffe bayette,étoffe de bayette
-étoffe bayette de laine,bayette de laine
-étoffe bayette grosse de laine,bayette grosse de laine
+étoffe bayette,bayette
+étoffe bayette de laine,bayette
+étoffe bayette grosse de laine,bayette grosse
 étoffe bourre de soie,bourre de soie
 étoffe brodée et brochée,brochée et brodée
 étoffe burail,burail
@@ -7356,19 +7356,19 @@ etocs de fer,étau de fer
 étoffe d'or et d'argent faux,étoffed'argent et d'or faux
 étoffe d'or et d'argent fin,étoffed'argent et d'or fin
 étoffe d'or et soie,étoffe d'or et de soie
-étoffe de bayette,étoffe de bayette
+étoffe de bayette,bayette
 étoffe de bouracan,étoffe de bouracan
 étoffe de bourre de soie,étoffe de bourre de soie
 étoffe de callemande,étoffe de callemande
-étoffe de camelot dite bayette,étoffe de camelot dite bayette
+étoffe de camelot dite bayette,bayette
 étoffe de capiton,étoffe de capiton
 étoffe de chanvre,étoffe de chanvre
 étoffe de coton,étoffe de coton
 étoffe de coton ???,étoffe de coton ???
 étoffe de coton brillant blanc,étoffe de coton brillant blanc
 étoffe de coton brodé,étoffe de coton brodé
-étoffe de coton cadis ratiné,étoffe de coton cadis ratiné
-étoffe de coton camelot,étoffe de coton camelot
+étoffe de coton cadis ratiné,cadis de coton ratiné
+étoffe de coton camelot,camelot de coton
 étoffe de coton cotonelle,étoffe de coton cotonelle
 étoffe de coton cotonné,étoffe de coton cotonné
 étoffe de coton de fil,étoffe de coton de fil
@@ -7389,22 +7389,22 @@ etocs de fer,étau de fer
 étoffe de coton en velverette,étoffe de coton en velverette
 étoffe de coton et bonneterie,étoffe de coton et bonneterie
 étoffe de coton et chapeaux,étoffe de coton et chapeaux
-étoffe de coton et de laine diverse,étoffe de coton et de laine diverse
-étoffe de coton et fil,étoffe de coton et fil
-étoffe de coton et fil diverse,étoffe de coton et fil diverse
-étoffe de coton et laine,étoffe de coton et laine
-étoffe de coton et mercerie,étoffe de coton et mercerie
-étoffe de coton et pellerie,étoffe de coton et pellerie
-étoffe de coton et soie,étoffe de coton et soie
-étoffe de coton et tapisserie,étoffe de coton et tapisserie
+étoffe de coton et de laine diverse,étoffe de coton et de laine
+étoffe de coton et fil,étoffe de coton et de fil
+étoffe de coton et fil diverse,étoffe de coton et de fil diverse
+étoffe de coton et laine,étoffe de coton et de laine
+étoffe de coton et mercerie,étoffe de coton et de mercerie
+étoffe de coton et pellerie,étoffe de coton et de pellerie
+étoffe de coton et soie,étoffe de coton et de soie
+étoffe de coton et tapisserie,étoffe de coton et de tapisserie
 étoffe de coton éternelle,étoffe de coton éternelle
-étoffe de coton futaine,étoffe de coton futaine
-étoffe de coton grannette,étoffe de coton grannette
-étoffe de coton molleton,étoffe de coton molleton
-étoffe de coton panne,étoffe de coton panne
-étoffe de coton satinette,étoffe de coton satinette
-étoffe de coton velours,étoffe de coton velours
-étoffe de coton velours imprimé,étoffe de coton velours imprimé
+étoffe de coton futaine,futaine de coton
+étoffe de coton grannette,grannette de coton
+étoffe de coton molleton,molleton de coton
+étoffe de coton panne,panne de coton
+étoffe de coton satinette,satinette de coton
+étoffe de coton velours,velours de coton
+étoffe de coton velours imprimé,velours de coton imprimé
 étoffe de drap de soie,étoffe de drap de soie
 étoffe de fil,étoffe de fil
 étoffe de fil au quart de soie,étoffe de fil au quart de soie
@@ -7412,8 +7412,8 @@ etocs de fer,étau de fer
 étoffe de fil et coton,étoffe de coton et de fil
 étoffe de fil et coton aune,étoffe de coton et de fil aune
 étoffe de fil et coton dite siamoise,étoffe de coton et de fil dite siamoise
-étoffe de fil et coton en drap,étoffe de fil et coton en drap
-étoffe de fil et coton en velours,étoffe de fil et coton en velours
+étoffe de fil et coton en drap,drap de coton et de fil
+étoffe de fil et coton en velours,velours de coton et de fil
 étoffe de fil et de poil de chèvre,étoffe de fil et de poil de chèvre
 étoffe de fil et laine,étoffe de fil et de laine
 étoffe de fil et laine aune,étoffe de fil et de laine aune
@@ -7423,9 +7423,9 @@ etocs de fer,étau de fer
 étoffe de fil et poil de chèvre aune,étoffe de fil et poil de chèvre aune
 étoffe de filoselle,étoffe de filoselle
 étoffe de filoselle et soie,étoffe de filoselle et soie
-étoffe de flanelle,étoffe de flanelle
+étoffe de flanelle,flanelle
 étoffe de fleuret,étoffe de fleuret
-étoffe de fleuret et de coton,étoffe de fleuret et de coton
+étoffe de fleuret et de coton,étoffe de coton et de fleuret
 étoffe de fleuret et de laine,étoffe de fleuret et de laine
 étoffe de fleuret et laine,étoffe de fleuret et laine
 étoffe de fleuret et soie,étoffe de fleuret et de soie
@@ -7439,39 +7439,39 @@ etocs de fer,étau de fer
 étoffe de laine amer,étoffe de laine amer
 étoffe de laine avec dorure,étoffe de laine avec dorure
 étoffe de laine avec soie,étoffe de laine avec soie
-étoffe de laine baracan,étoffe de laine baracan
+étoffe de laine baracan,baracan de laine
 étoffe de laine barat,étoffe de laine barat
 étoffe de laine barreau,étoffe de laine barreau
 étoffe de laine bay,étoffe de laine baye
 étoffe de laine beche,étoffe de laine bêche
-étoffe de laine Bergopzoom,étoffe de laine bergopsum
+étoffe de laine Bergopzoom,Bergopzoom
 étoffe de laine bluteau,étoffe de laine bluteau
 étoffe de laine burail,étoffe de laine duroil
-étoffe de laine burat,étoffe de laine burat
+étoffe de laine burat,burat
 étoffe de laine cadeligue,étoffe de laine cadeligue
-étoffe de laine cadis,étoffe de laine cadis
+étoffe de laine cadis,cadis
 étoffe de laine callemande,étoffe de laine callemande
 étoffe de laine callemande étroite,étoffe de laine callemande
 étoffe de laine callemande large,étoffe de laine callemande
 étoffe de laine callemande noire,étoffe de laine callemande noire
 étoffe de laine calmonef,étoffe de laine callemande
-étoffe de laine camelot,étoffe de laine camelot
-étoffe de laine camelot burail,étoffe de laine camelot burail
-étoffe de laine camelot écru,étoffe de laine camelot
-étoffe de laine camelot étroit,étoffe de laine camelot
-étoffe de laine camelot faille,étoffe de laine camelot
-étoffe de laine camelot large,étoffe de laine camelot
-étoffe de laine camelot panne,étoffe de laine camelot panne
+étoffe de laine camelot,camelot de laine
+étoffe de laine camelot burail,camelot et burail de laine
+étoffe de laine camelot écru,camelot de laine écru
+étoffe de laine camelot étroit,camelot de laine étroit
+étoffe de laine camelot faille,camelot de laine faille
+étoffe de laine camelot large,camelot de laine large
+étoffe de laine camelot panne,camelot et panne de laine
 étoffe de laine Catalogne,étoffe de laine catalogne
 étoffe de laine châleur,étoffe de laine chaleur
-étoffe de laine coton et fil,"étoffe de laine, coton et fil"
-étoffe de laine coton fil et poil de chèvre,"étoffe de laine, coton, fil et poil de chèvre"
+étoffe de laine coton et fil,étoffe de coton et de fil et de laine
+étoffe de laine coton fil et poil de chèvre,étoffe de coton et de fil et de laine et de poil de chèvre
 étoffe de laine coton fil et poil de chèvre aune,étoffe de coton et de fil et de laine et poil de chèvre aune
 étoffe de laine couterie,étoffe de laine couterie
 étoffe de laine crêpe,étoffe de laine crêpe
 étoffe de laine dareau,étoffe de laine dareau
 étoffe de laine dauphine,étoffe de laine dauphine
-étoffe de laine dite bayette,étoffe de laine bayette
+étoffe de laine dite bayette,bayette
 étoffe de laine diverse,étoffe de laine diverse
 étoffe de laine diverse de soie,étoffe de laine et de soie
 étoffe de laine diverse retour,étoffe de laine retour
@@ -7480,41 +7480,41 @@ etocs de fer,étau de fer
 étoffe de laine en bluteau,étoffe de laine bluteau
 étoffe de laine en cachemire,étoffe de laine en cachemire
 étoffe de laine en callemande,étoffe de laine callemande
-étoffe de laine en camelot,étoffe de laine camelot
+étoffe de laine en camelot,camelot de laine
 étoffe de laine en croisé,étoffe de laine en croisé
 étoffe de laine en espagnolette croisée,étoffe espagnolette
 étoffe de laine en espagnolette simple,étoffe espagnolette
-étoffe de laine en étamine,étoffe étamine
-étoffe de laine en étamine burette,étoffe étamine
+étoffe de laine en étamine,étamine
+étoffe de laine en étamine burette,étamine
 étoffe de laine en Maroc,étoffe Maroc
 étoffe de laine en molleton,étoffe de laine molleton
 étoffe de laine en molleton imprimé,étoffe de laine en molleton imprimé
 étoffe de laine en panne,étoffe de laine panne
-étoffe de laine en prunelle,étoffe de laine prunelle
+étoffe de laine en prunelle,prunelle de laine
 étoffe de laine en raz de castor,étoffe de laine en raz de castor
 étoffe de laine en sarain,étoffe de laine en sarain
-étoffe de laine en satin,étoffe de laine en satin
-étoffe de laine en satin turc,étoffe de laine en satin turc
+étoffe de laine en satin,satin de laine
+étoffe de laine en satin turc,satin de laine turc
 étoffe de laine en serge Aumale,étoffe de laine en serge Aumale
-étoffe de laine en serge auvoile,étoffe serge voile
-étoffe de laine en serge Blicourt,étoffe serge Bilcourt
-étoffe de laine en serge diverse,étoffe serge divers
-étoffe de laine en serge imprimé,étoffe serge imprimée
+étoffe de laine en serge auvoile,serge de laine voile
+étoffe de laine en serge Blicourt,serge de laine Blicourt
+étoffe de laine en serge diverse,serge de laine divers
+étoffe de laine en serge imprimé,serge de laine imprimée
 étoffe de laine en serge Minorque,étoffe de laine en serge Minorque
 étoffe de laine espagnolette,étoffe espagnolette
 étoffe de laine espagnolette croisée,étoffe espagnolette
 étoffe de laine espagnolette lisse,étoffe espagnolette
-étoffe de laine et coton,étoffe de coton et laine
+étoffe de laine et coton,étoffe de coton et de laine
 étoffe de laine et poil d'animal,étoffe de laine et poil d'animal
 étoffe de laine et soie,étoffe de laine et de soie
-étoffe de laine étamine,étoffe étamine
-étoffe de laine étamine burail,étoffe étamine burail
+étoffe de laine étamine,étamine
+étoffe de laine étamine burail,burail de laine et étamine de laine
 étoffe de laine fabrique de Tournai,étoffe de laine fabrique de Tournai
-étoffe de laine flanelle,étoffe de laine flanelle
+étoffe de laine flanelle,flanelle de laine
 étoffe de laine florentine,étoffe de laine florentine
 étoffe de laine frisarde,étoffe de laine frisade
 étoffe de laine frisette,étoffe de laine frisette
-étoffe de laine futaine,étoffe de laine futaine
+étoffe de laine futaine,futaine de laine
 étoffe de laine grisette,étoffe de laine grisette
 étoffe de laine impériale,étoffe de laine impériale
 étoffe de laine imprimée,étoffe de laine imprimée
@@ -7530,15 +7530,15 @@ etocs de fer,étau de fer
 étoffe de laine peluches,étoffe de laine peluche
 étoffe de laine perpetuanne,étoffe de laine perpetuanne
 étoffe de laine perpetuaux,étoffe de laine perpetuanne
-étoffe de laine pinchina,étoffe de laine pinchinal
+étoffe de laine pinchina,pinchinat de laine
 étoffe de laine poil et laine,étoffe de laine poil et laine
 étoffe de laine poil poil et laine,étoffe de laine poil poil et laine
 étoffe de laine pour nègre,étoffe de laine à nègre
-étoffe de laine prunelle,étoffe de laine prunelle
+étoffe de laine prunelle,prunelle de laine
 étoffe de laine prunelle burail,étoffe de laine prunelle
-étoffe de laine prunelle buratée,étoffe de laine prunelle buratée
-étoffe de laine prunelle étroite,étoffe de laine prunelle
-étoffe de laine prunelle raz de castor,étoffe de laine prunelle raz de castor
+étoffe de laine prunelle buratée,prunelle buratée de laine
+étoffe de laine prunelle étroite,prunelle de laine
+étoffe de laine prunelle raz de castor,prunelle de laine raz de castor
 étoffe de laine pure,étoffe de laine pure
 étoffe de laine pure aune,étoffe de laine pure aune
 étoffe de laine pure ou mêlée,étoffe de laine pure ou étoffe de laine
@@ -7548,28 +7548,28 @@ etocs de fer,étau de fer
 étoffe de laine sagati,étoffe de laine sagati
 étoffe de laine sans spécification blanche,étoffe de laine blanche
 étoffe de laine sans spécification teinte,étoffe de laine sans teinte
-étoffe de laine satin,étoffe de laine satin
-étoffe de laine satin de Roubaix,étoffe de laine satin de Roubaix
-étoffe de laine satin et serge,étoffe satin et serge
-étoffe de laine satin turc,étoffe de laine satin Turc
-étoffe de laine satinette,étoffe de lainesatinette
+étoffe de laine satin,satin de laine
+étoffe de laine satin de Roubaix,satin de laine de Roubaix
+étoffe de laine satin et serge,satin et serge
+étoffe de laine satin turc,satin de laine turc
+étoffe de laine satinette,satinette de laine
 étoffe de laine serge,étoffe de laine serge
-étoffe de laine serge ???,étoffe de laine serge ???
-étoffe de laine serge Aumale,étoffe de laine serge Aumale
-étoffe de laine serge Blicourt,étoffe serge Bilcourt
-étoffe de laine serge de Rome,étoffe serge de Rome
-étoffe de laine serge de Rouen,étoffe serge de Rouen
-étoffe de laine serge diverse,étoffe serge divers
-étoffe de laine serge drapée,étoffe serge étoffeée
-étoffe de laine serge en voile,étoffe serge voile
-étoffe de laine serge étroite,étoffe serge étroite
-étoffe de laine serge forte,étoffe serge forte
-étoffe de laine serge imprimée,étoffe serge imprimée
-étoffe de laine serge large,étoffe serge large
-étoffe de laine serge Minorque,étoffe de laine serge Minorque
-étoffe de laine serge pour ???,étoffe de laine serge pour ???
-étoffe de laine serge sagati,étoffe serge sagati
-étoffe de laine serge voile,étoffe serge voile
+étoffe de laine serge ???,serge de laine ???
+étoffe de laine serge Aumale,serge de laine Aumale
+étoffe de laine serge Blicourt,serge de laine Blicourt
+étoffe de laine serge de Rome,serge de Rome
+étoffe de laine serge de Rouen,serge de Rouen
+étoffe de laine serge diverse,serge de laine divers
+étoffe de laine serge drapée,serge de laine étoffeée
+étoffe de laine serge en voile,serge de laine voile
+étoffe de laine serge étroite,serge de laine étroite
+étoffe de laine serge forte,serge de laine forte
+étoffe de laine serge imprimée,serge de laine imprimée
+étoffe de laine serge large,serge de laine large
+étoffe de laine serge Minorque,serge de laine Minorque
+étoffe de laine serge pour ???,serge de laine pour ???
+étoffe de laine serge sagati,serge de laine sagati
+étoffe de laine serge voile,serge de laine voile
 étoffe de laine sigle vis,étoffe de laine sigle vis
 étoffe de laine slin,étoffe de laine slin
 étoffe de laine tanier,étoffe de laine tanier
@@ -7582,10 +7582,10 @@ etocs de fer,étau de fer
 étoffe de poi et laine,étoffe de laine et de poil
 étoffe de poil,étoffe de poil
 étoffe de poil allemande,étoffe de poil allemande
-étoffe de poil baracan,étoffe de poil baracan
+étoffe de poil baracan,baracan de poil
 étoffe de poil bours,étoffe de poil bouras
 étoffe de poil callemande,étoffe de poil callemande
-étoffe de poil camelot,étoffe de poil camelot
+étoffe de poil camelot,camelot de poil
 étoffe de poil Catalogne,étoffe de poil de catalogne
 étoffe de poil de chameau,étoffe de poil de chameau
 étoffe de poil en panne,étoffe de poil panne
@@ -7603,13 +7603,13 @@ etocs de fer,étau de fer
 étoffe de poil panne,étoffe de poil panne
 étoffe de poil philipichine,étoffe de poil philipichine
 étoffe de poil polimi,étoffe de poil polini
-étoffe de poil prunelle,étoffe de poil prunelle
+étoffe de poil prunelle,prunelle de poil
 étoffe de poil velours,étoffe de poil et de velours
 étoffe de poil velours d'Utrecht,étoffe de poil et de d'Utrecht
-étoffe de prunelle,étoffe de prunelle
+étoffe de prunelle,prunelle de poil
 étoffe de riche,étoffe de riche
 étoffe de Rouen,étoffe de Rouen
-étoffe de serge,étoffe de serge
+étoffe de serge,serge
 étoffe de soie,étoffe de soie
 étoffe de soie au quart,étoffe de soie au quart
 étoffe de soie aune,étoffe de soie aune
@@ -7658,7 +7658,7 @@ etocs de fer,étau de fer
 étoffe de soie et filoselle,étoffe de filoselle et de soie
 étoffe de soie et fleuret,étoffe de fleuret et de soie
 étoffe de soie et laine,étoffe de laine et de soie
-étoffe de soie et laine en prunelle,étoffe de laine en prunelle et de soie
+étoffe de soie et laine en prunelle,étoffe de soie et prunelle de laine
 étoffe de soie et soierie,étoffe de soie et soierie
 étoffe de soie fil et coton,étoffe de coton et de fil et de soie
 étoffe de soie laine et coton,étoffe de coton et de fil et de soie
@@ -7677,8 +7677,8 @@ etocs de fer,étau de fer
 étoffe de soie raz de St Cyr,étoffe de soie raz de St Cyr
 étoffe de soie riche,étoffe de soie riche
 étoffe de soie Sainte bours,étoffe de soie de Saint Bours
-étoffe de soie satin,étoffe de soie satin
-étoffe de soie serge,étoffe serge de soie
+étoffe de soie satin,satin de soie
+étoffe de soie serge,serge de soie
 étoffe de soie soucis,étoffe de soie soucy
 étoffe de soie taffetas,étoffe de soie taffetas
 étoffe de soie velours,étoffe de soie et de velours
@@ -7691,7 +7691,7 @@ etocs de fer,étau de fer
 étoffe de voile,étoffe de voile
 étoffe demi soie,étoffe demi soie
 étoffe des Iles,étoffe des Indes
-étoffe dite belinge,étoffe dite belinge
+étoffe dite belinge,belinge
 étoffe dite pauvre madame,étoffe dite pauvre madame
 étoffe dite Pékin,étoffe dite Pékin
 étoffe diverse,étoffe
@@ -7720,7 +7720,7 @@ etocs de fer,étau de fer
 étoffe en dorure or et argent,étoffe dorure d'argent et d'or
 étoffe en drap de coton,drap de coton
 étoffe en étamine,étoffe de étamine
-étoffe en flanelle,étoffe de flanelle
+étoffe en flanelle,flanelle
 étoffe en laine,étoffe de laine
 étoffe en laine tissée fil grossier,étoffe de laine tissée fil grossier
 étoffe en or,étoffe d'or
@@ -7732,9 +7732,9 @@ etocs de fer,étau de fer
 étoffe espagnolette,étoffe espagnolette
 étoffe espagnolette laine,étoffe espagnolette laine
 étoffe et galon or et argent,étoffe et galon d'argent et d'or
-étoffe étamine,étoffe étamine
-étoffe étamine fine,étoffe étamine fine
-étoffe étamine laine,étoffe étamine
+étoffe étamine,étamine
+étoffe étamine fine,étamine fine
+étoffe étamine laine,étamine de laine
 étoffe éternelle,étoffe éternelle
 étoffe éternelle au ??? de soie,étoffe mêlée éternelle au ? de soie
 étoffe éternelle laine,étoffe éternelle laine
@@ -7752,8 +7752,8 @@ etocs de fer,étau de fer
 étoffe filoselle mêlée,étoffe filoselle
 étoffe finette,étoffe finette
 étoffe flamande de mauvaise qualité,étoffe flamande de mauvaise qualité
-étoffe flanelle,étoffe flanelle
-étoffe flanelle fine,étoffe flanelle fine
+étoffe flanelle,flanelle
+étoffe flanelle fine,flanelle fine
 étoffe fleuret,étoffe fleuret
 étoffe fleuret et soie,étoffe fleuret et soie
 étoffe grosse de laine,étoffe grosse de laine
@@ -7765,7 +7765,7 @@ etocs de fer,étau de fer
 étoffe laine et coton retour,étoffe de coton et de laine retour
 étoffe laine et fil,étoffe de fil et de laine
 étoffe laine et soie,étoffe de laine et de soie
-étoffe laine flanelle,étoffe de laine flanelle
+étoffe laine flanelle,flanelle de laine
 étoffe lampas,étoffe lampas
 étoffe manchettes,étoffe manchettes
 étoffe Maroc de laine,étoffe de laine du Maroc
@@ -7786,9 +7786,9 @@ etocs de fer,étau de fer
 étoffe mélangée de soie siamoise au sixième de soie,étoffe de soie siamoise au sixième de soie
 étoffe mélangée diverse,étoffe
 étoffe mélangée fil et soie,étoffe de fil et de soie
-étoffe mélangée serge et laine en prunelle étroite,étoffe étroite de laine et serge en prunelle
+étoffe mélangée serge et laine en prunelle étroite,serge et prunelle de laine étroite
 étoffe mélangée serge et laine large,étoffe de laine large et de serge
-étoffe mélangée serge et laine satin turc,étoffe de laine satin turc et de serge
+étoffe mélangée serge et laine satin turc,satin de laine turc et serge
 étoffe mélangée soie et coton,étoffe de coton et de soie
 étoffe mélangée soie et fleuret,étoffe de fleuret et de soie
 étoffe mélangée soie et galette,étoffe de galette et de soie
@@ -7801,7 +7801,7 @@ etocs de fer,étau de fer
 étoffe mêlée burail,étoffe burail
 étoffe mêlée coton et soie,étoffe de coton et de soie
 étoffe mêlée de coton fil de soie,étoffe de coton et de fil et de soie
-étoffe mêlée de laine coton fil et de poil chameau,étoffe de cont et de fil et de laine et de poil chameau
+étoffe mêlée de laine coton fil et de poil chameau,étoffe de coton et de fil et de laine et de poil chameau
 étoffe mêlée de peu de soie,étoffe à peu de soie
 étoffe mêlée de soie,étoffe de soie
 étoffe mêlée de soie ?,étoffe de soie ?
@@ -7853,18 +7853,18 @@ etocs de fer,étau de fer
 étoffe peluches laine,étoffe peluches de laine
 étoffe peu de soie,étoffe peu de soie
 étoffe poil,étoffe de poil
-étoffe poil camelot,étoffe camelot de poil
+étoffe poil camelot,camelot de poil
 étoffe poil en panne,étoffe poil en panne
 étoffe poil en panne à long poil,étoffe poil en panne à long poil
 étoffe poil en velours,étoffe de poil et de velours
 étoffe poil et laine,étoffe poil et laine
 étoffe poil panne,étoffe poil panne
 étoffe pour talits,étoffe pour talits
-étoffe prunelle,étoffe prunelle
-étoffe prunelle de laine,étoffe prunelle de laine
-étoffe prunelle de soie,étoffe prunelle de soie
-étoffe prunelle fine,étoffe prunelle fine
-étoffe prunelle laine,étoffe prunelle laine
+étoffe prunelle,prunelle
+étoffe prunelle de laine,prunelle de laine
+étoffe prunelle de soie,prunelle de soie
+étoffe prunelle fine,prunelle fine
+étoffe prunelle laine,prunelle de laine
 étoffe raz de castor,étoffe raz de castor
 étoffe riche,étoffe riche
 étoffe riche en or,étoffe riche en or
@@ -7872,17 +7872,17 @@ etocs de fer,étau de fer
 étoffe riche or et argent,étoffe riche or et argent
 étoffe riche ou or et argent,étoffe riche ou or et argent
 étoffe sagne,étoffe sagne
-étoffe satin,étoffe satin
-étoffe satinette,étoffe satinette
+étoffe satin,satin
+étoffe satinette,satinette
 étoffe serge,étoffe serge
-étoffe serge Aumale,étoffe serge Aumale
-étoffe serge Aumale imprimée,étoffe serge Aumale imprimée
-étoffe serge Blicourt,étoffe serge Blicourt
-étoffe serge de laine,étoffe serge de laine
-étoffe serge de soie,étoffe serge de soie
-étoffe serge et laine,étoffe serge de laine
-étoffe serge laine,étoffe serge de laine
-étoffe serge laine noire,étoffe serge de laine noire
+étoffe serge Aumale,serge Aumale
+étoffe serge Aumale imprimée,serge Aumale imprimée
+étoffe serge Blicourt,serge Blicourt
+étoffe serge de laine,serge de laine
+étoffe serge de soie,serge de soie
+étoffe serge et laine,serge de laine
+étoffe serge laine,serge de laine
+étoffe serge laine noire,serge de laine noire
 étoffe siamoise au sixième de soie,étoffe siamoise au sixième de soie
 étoffe soie,étoffe de soie
 étoffe soie avec or et argent,étoffe de soie avec argent et or
@@ -8826,14 +8826,14 @@ flambeaux de cuivre argentés,flambeaux argentés de cuivre
 flambeaux de mer,flambeaux de mer
 flanelle,flanelle
 flanelle aune,flanelle aune
-flanelle blanche,étoffe de laine flanelle blanche
+flanelle blanche,flanelle blanche de laine
 flanelle de laine,flanelle de laine
 flanelle des prises,flanelle des prises
 flanelle du Béarn,flanelle du Béarn
 flanelle et Bergopzoom,flanelle et Bergopzoom
 flanelle imprimée,flanelle imprimée
-flanelle peinte,étoffe de laine flanelle peint
-flanelle rayée,étoffe de laine flanelle rayée
+flanelle peinte,flanelle de laine peint
+flanelle rayée,flanelle de laine rayée
 fléaux à poids de fer,fléaux de fer à poids
 fléaux de balance,fléaux de balance
 fléaux de fer,fléaux de fer
@@ -9319,7 +9319,7 @@ futaine de 20 aunes,futaine de 20 aunes
 futaine de coton,futaine de coton
 futaine de Tournai,futaine de Tournai
 futaine de toute sorte,futaine de toute sorte
-futaine et dimitte,futaine et dimit
+futaine et dimitte,dimitte et futaine
 futaine et dimitte aune,dimitte et futaine aune
 futaine peinte,futaine peinte
 fûts à sas,fûts à sas
@@ -9651,7 +9651,7 @@ gibier pluviers,gibier pluvier
 gibier sarcelles,gibier sarcelle
 gilets,gilet
 gilets à nègre,gilets à nègre
-gilets de coton en ffiloselle,gilets de coton en ffiloselle
+gilets de coton en ffiloselle,gilets de coton en filoselle
 gilets de laine,gilets de laine
 gilets de molleton,gilets de molleton
 gilets de soie,gilets de soie
@@ -11016,8 +11016,8 @@ lainages draperie fine,lainage draperie fine
 lainages draperie ordinaire,lainage draperie ordinaire
 lainages draperie petite et étoffe,lainage draperie petite et étoffe
 lainages étoffe,lainage étoffe
-lainages étoffe fine en casimir et mérinos,"lainage étoffe fine, en casimir et mérinos"
-lainages étoffe fine et casimir,"lainage étoffe fine, en casimir"
+lainages étoffe fine en casimir et mérinos,étoffe fine de laine en casimir et mérinos
+lainages étoffe fine et casimir,étoffe fine de laine en casimir
 lainages mouchoirs et schals,lainage schal et mouchoir
 lainages schals,lainage schal
 lainages schals de laine et poil,lainage schal de laine et poil
@@ -11445,7 +11445,7 @@ lin ceuil vieux,linceul vieux
 lin commun,lin commun
 lin cru,lin cru
 lin cru en masses,masses de lin
-lin de cru,lin de cru
+lin de cru,lin cru
 lin de Hollande,lin de Hollande
 lin de Marienbourg,lin de Marienbourg
 lin de Pologne,lin de Pologne
@@ -11479,7 +11479,7 @@ lin vert non battu,lin non battu et vert
 lin vert roui et non roui,lin vert roui et non roui
 lina,lina
 lincas,lincas
-lincas étoffe des Indes,lincas étoffe des Indes
+lincas étoffe des Indes,lincas des Indes
 lincern,lincern
 linéas,linéas
 linenas,linenas
@@ -11521,6 +11521,7 @@ linge supporté,linge supporté
 linge travaillé,linge travaillé
 linge uni,linge uni
 linge vieux,linge vieux
+linge vieux,vieux linge
 linge vieux à pansements,linge à pansements vieux
 linge vieux pour papier,linge pour papier vieux
 lingerie,lingerie
@@ -11540,7 +11541,7 @@ lingerie diverse,lingerie
 lingerie diverse pour nègre,lingerie à nègre
 lingerie drap de lit,drap de lit
 lingerie en chanvre,lingerie en chanvre
-lingerie en chemises,lingerie chemise
+lingerie en chemises,chemise
 lingerie en chemises à nègre,chemises à nègre
 lingerie en chemises de lin garnies,chemises de lin garnies
 lingerie en chemises garnies,chemises garnies
@@ -11823,8 +11824,8 @@ marchanderie,marchanderie
 marchandise de retour faute de vente contrebordée,marchandise de retour faute de vente contrebordée
 marchandise de retour faute de vente étain,marchandise de retour faute de vente étain
 marchandise de retour faute de vente hamacs,marchandise de retour faute de vente ( AMAC)
-marchandise de retour faute de vente platille,marchandise de retour faute de vente platille
-marchandise de retour faute de vente satin,marchandise de retour faute de vente satin
+marchandise de retour faute de vente platille,platille de retour
+marchandise de retour faute de vente satin,satin de retour
 marchandise estimation,marchandise
 marchandises,marchandises
 marchandises à l'estimation,marchandises à l'estimation
@@ -11860,7 +11861,7 @@ marchandises des Indes café de Bourbon,café de Bourbon
 marchandises des Indes café Moka,café de Moka
 marchandises des Indes cannelle,marchandise des Indes cannelle
 marchandises des Indes diverses,marchandise des Indes diverse
-marchandises des Indes en soieries mousselines bandanas et Nankin,bandanas et mousselines et Nankin de soei des Indes
+marchandises des Indes en soieries mousselines bandanas et Nankin,bandanas et mousselines et Nankin de soeries des Indes
 marchandises des Indes étoffes diverses des Indes,étoffes des Indes
 marchandises des Indes mouchoirs des Indes,marchandise des Indes mouchoir des Indes
 marchandises des Indes mousselines,marchandise des Indes mousseline
@@ -11870,8 +11871,8 @@ marchandises des Indes thé,marchandise des Indes thé
 marchandises des Indes toile des Indes caladarit,caladarit des Indes
 marchandises des Indes toile des Indes diverse,toile des Indes diverse
 marchandises des Indes toile des Indes Guinée,guinée des Indes
-marchandises des Indes toile des Indes guingan,toile des Indes guingamp
-marchandises des Indes toile des Indes Nankin,toile des Indes Nankin
+marchandises des Indes toile des Indes guingan,guingan des Indes
+marchandises des Indes toile des Indes Nankin,Nankin
 marchandises des Indes toile des Indes peinte de thille,toile des Indes peinte de thille
 marchandises des magasins prussiens royaux,marchandises des magasins prussiens royaux
 marchandises des prises,marchandise des prise
@@ -12520,11 +12521,11 @@ meules à faire,meules à faire
 meules à favre,meule à favre
 meules à gagne-petit,meules à gagne-petit
 meules à huile,meule à huile
-meules à moudre,meule à moulin
-meules à moulin,meule à moulin
-meules à moulins,meule à moulin
-meules à moulins de 4 pieds 1/2,meules à moulins de 4 pieds 1/2
-meules à moulins de 6 pieds de diamètre,meules à moulins de 6 pieds
+meules à moudre,meules pour moulins
+meules à moulin,meules pour moulins
+meules à moulins,meules pour moulin
+meules à moulins de 4 pieds 1/2,meules de moulins de 4 pieds 1/2
+meules à moulins de 6 pieds de diamètre,meules de moulins de 6 pieds
 meules à sabres,meules à sabres
 meules à sucre,moules à sucre
 meules à tailland ???,meules à tailland ???
@@ -12543,7 +12544,7 @@ meules au dessus de 4 pouces,meules au dessus de 4 pouces
 meules bâtardes,meules bâtardes
 meules coutier,meules coutier
 meules de coutelier,meules de coutelier
-meules de moulins,meule à moulin
+meules de moulins,meules pour moulin
 meules de moulins de 55 pieds de diamètre,meules de moulins de 55 pieds
 meules moulins,meules pour moulins
 meules petite,meules petites
@@ -12758,7 +12759,7 @@ mouchoirs coton en soie,mouchoirs de coton en soie
 mouchoirs d'Alep,mouchoir d'aleph
 mouchoirs d'indienne,mouchoirs d'indienne
 mouchoirs de ???,mouchoirs de ???
-mouchoirs de batiste,mouchoir de batiste
+mouchoirs de batiste,mouchoirs de batiste
 mouchoirs de Béarn,mouchoir de Béarn
 mouchoirs de Bengale,mouchoirs de Bengale
 mouchoirs de Betton,mouchoir de Betton
@@ -12789,7 +12790,7 @@ mouchoirs de Craité,mouchoir de Craité
 mouchoirs de différentes qualités en coton,mouchoirs de différentes qualités en coton
 mouchoirs de différentes quantités,mouchoirs de différentes quantités
 mouchoirs de fil,mouchoirs de fil
-mouchoirs de fil à coton,mouchoir de fil et coton
+mouchoirs de fil à coton,mouchoir de coton et de fil
 mouchoirs de fil commun,mouchoirs de fil commun
 mouchoirs de fil de ??? de Cholet et ???,mouchoirs de fil de ??? de Cholet et ???
 mouchoirs de fil de Cholet,mouchoirs de fil de Cholet
@@ -12799,8 +12800,8 @@ mouchoirs de fil divers,mouchoirs de fil
 mouchoirs de fil du Béarn,mouchoirs de fil du Béarn
 mouchoirs de fil en coton,mouchoirs de coton
 mouchoirs de fil et batiste,mouchoirs de fil et de batiste
-mouchoirs de fil et coton,mouchoir de fil et coton
-mouchoirs de fil et coton découpés,mouchoir de fil et coton découpé
+mouchoirs de fil et coton,mouchoir de coton et de fil
+mouchoirs de fil et coton découpés,mouchoir de coton et de fil découpé
 mouchoirs de fil organdi,mouchoirs de fil organdi
 mouchoirs de foulard,mouchoir de foulard
 mouchoirs de France,mouchoirs de France
@@ -12852,8 +12853,8 @@ mouchoirs des Indes de soie,mouchoir des Indes de soie
 mouchoirs des Indes dit bandanas,mouchoir des Indes dit bandanas
 mouchoirs des Indes dits romals,mouchoirs des Indes dits romals
 mouchoirs divers,mouchoirs
-mouchoirs divers de fil et coton,mouchoir de fil et coton
-mouchoirs divers en fil de coton,mouchoir de fil et coton
+mouchoirs divers de fil et coton,mouchoir de coton et de fil
+mouchoirs divers en fil de coton,mouchoir de coton et de fil
 mouchoirs divers en fil et coton,mouchoirs de fil et de coton
 mouchoirs divers et des Indes,mouchoirs et mouchoirs des Indes
 mouchoirs du Béarn,mouchoirs du Béarn
@@ -12893,7 +12894,7 @@ mouchoirs soie et coton,mouchoirs de coton et de soie
 mouchoirs tout coton,mouchoirs de coton
 moufles,moufle
 moules,moule
-moules à café,moulin à café
+moules à café,moulins à café
 moules de boutons,moules de boutons
 moules de chandelle en verre,moule pour chandelle
 moules de fer à galette,moules de fer à galette
@@ -12906,35 +12907,35 @@ moulinets à chocolat,moulinets à chocolat
 moulinets à faire le lin,moulinet à filer
 moulins,moulins
 moulins à blé,moulins à blé
-moulins à bras,moulin à bras
+moulins à bras,moulins à bras
 moulins à bras pour blé,moulins à blè et à bras
-moulins à café,moulin à café
-moulins à café doux,moulin à café doux
-moulins à déssécher,moulin à dessécher
-moulins à filer,moulin à filer
-moulins à grains,moulin à grain
-moulins à lapidaire,moulin à lapidaire
+moulins à café,moulins à café
+moulins à café doux,moulins à café doux
+moulins à déssécher,moulins à dessécher
+moulins à filer,moulins à filer
+moulins à grains,moulins à grain
+moulins à lapidaire,moulins à lapidaire
 moulins à maïs,moulins à maïs
-moulins à moudre grains,moulin à moudre grain
-moulins à moutarde,moulin à moutarde
-moulins à poivre,moulin à poivre
+moulins à moudre grains,moulins à moudre grain
+moulins à moutarde,moulins à moutarde
+moulins à poivre,moulins à poivre
 moulins à poivre et à café,moulins à poivre et à café
 moulins à retordre,moulins à retordre
 moulins à sarrasin,moulins à sarrasin
 moulins à sucre,moulins à sucre
 moulins à sucre complets,moulins complets à sucre
 moulins à sucre en fer,moulins de fer à sucre
-moulins à tabac,moulin à tabac
-moulins à tordre fil,moulin à tordre fil
+moulins à tabac,moulins à tabac
+moulins à tordre fil,moulins à tordre fil
 moulins à vanner le café,moulins à café
-moulins café,moulin à café
+moulins café,moulins à café
 moulins de bois,moulins de bois
-moulins de café,moulin à café
-moulins de fer,moulin de fer
+moulins de café,moulins à café
+moulins de fer,moulins de fer
 moulins de soie,moulins de soie
 moulins de sucre,moulins à sucre
 moulins et presses à tabac,moulins et presses à tabac
-moulins fer,moulin de fer
+moulins fer,moulins de fer
 moulons,moulon
 moulons à faire chaux,moulon à faire chaux
 moulons et kibbelinck,moulon et kibbelinck
@@ -13179,7 +13180,7 @@ objets manufacturés soierie en étoffe mouchoirs gaze et ruban,gaze et mouchoir
 objets manufacturés toile de coton,toile de coton
 objets manufacturés toile de coton mousseline et Nankin,mousseline et Nankin et toile de coton
 objets manufacturés toile de coton mousseline Nankin et des Indes,toile de coton mousseline Nankin et des Indes
-objets manufacturés toile de fil et coton,toile de fil et de coton
+objets manufacturés toile de fil et coton,toile de coton et de fil
 objets manufacturés toile de lin et chanvre,toile de chanvre et de lin
 objets manufacturés toile de lin et de chanvre,toiles de lin et de chanvre
 objets manufacturés toile diverse de lin et de chanvre,toile de chanvre et de lin
@@ -14976,7 +14977,7 @@ persil de macédoine,persil de macédoine
 pertiolles,pertiolles
 pertuisanes,pertuisanes
 pesetas,pesetas
-petit camelot dit Berlin,étoffe de laine camelot petit dit de Berlin
+petit camelot dit Berlin,camelot de laine petit dit de Berlin
 petit pain rond,pain petit rond
 petit poisson blanc,poisson blanc et petit
 petit salé,petit salé
@@ -15075,7 +15076,7 @@ pierres à mordre,pierres à mordre
 pierres à mordre moutarde de 1 1/2 à 3 pieds,pierres à mordre moutarde de 1 1/2 à 3 pieds
 pierres à mordre tabac,pierres à mordre tabac
 pierres à moules,pierre à moule
-pierres à moulins,pierres à moulins
+pierres à moulins,meules pour moulins
 pierres à paver,pierres à paver
 pierres à paver bleues en pièces longues,pierres bleues et à paver et en pièces longues
 pierres à paver carrées,pierres carrées et à paver
@@ -15171,16 +15172,16 @@ pierres de meules,pierres de meules
 pierres de Milan,pierre de Milan
 pierres de mine,pierre de mine
 pierres de mouches,pierre de mouche
-pierres de moulins,pierres de moulins
-pierres de moulins de haute catégorie,pierres de moulins de haute catégorie
-pierres de moulins dites grand loup d'Angleterre,pierres de moulins dites grand loup d'Angleterre
-pierres de moulins dites petit loup d'Angleterre,pierres de moulins dites petit loup d'Angleterre
-pierres de moulins du poid de 1200 à 1800 livres,pierres de moulins du poid de 1200 à 1800 livres
-pierres de moulins du poid de 2000 à 2800 livres,pierres de moulins du poid de 2000 à 2800 livres
-pierres de moulins du poid de 2000 à 3000 livres,pierres de moulins du poid de 2000 à 3000 livres
-pierres de moulins du poid de 300 à 1000 livres,pierres de moulins du poid de 300 à 1000 livres
-pierres de moulins du poid de 3000 à 4000 livres,pierres de moulins du poid de 3000 à 4000 livres
-pierres de moulins du poid de 5000 à 6000 livres pesant,pierres de moulins du poid de 5000 à 6000 livres
+pierres de moulins,meules pour moulins
+pierres de moulins de haute catégorie,meules pour moulins pour haute catégorie
+pierres de moulins dites grand loup d'Angleterre,meules pour moulins dites grand loup d'Angleterre
+pierres de moulins dites petit loup d'Angleterre,meules pour moulins dites petit loup d'Angleterre
+pierres de moulins du poid de 1200 à 1800 livres,meules pour moulins du poid pour 1200 à 1800 livres
+pierres de moulins du poid de 2000 à 2800 livres,meules pour moulins du poid pour 2000 à 2800 livres
+pierres de moulins du poid de 2000 à 3000 livres,meules pour moulins du poid pour 2000 à 3000 livres
+pierres de moulins du poid de 300 à 1000 livres,meules pour moulins du poid pour 300 à 1000 livres
+pierres de moulins du poid de 3000 à 4000 livres,meules pour moulins du poid pour 3000 à 4000 livres
+pierres de moulins du poid de 5000 à 6000 livres pesant,meules pour moulins du poid pour 5000 à 6000 livres
 pierres de Namur,pierre de Namur
 pierres de Öland,pierre
 pierres de ponce,pierre ponce
@@ -16688,13 +16689,13 @@ quincaillerie limes,quincaillerie lime
 quincaillerie limes de toute sorte,quincaillerie lime
 quincaillerie mêlée,quincaillerie mêlée
 quincaillerie moulins,moulins
-quincaillerie moulins à café,moulin à café
+quincaillerie moulins à café,moulins à café
 quincaillerie nationale,quincaillerie française
 quincaillerie poids de fer,poids de fer
 quincaillerie serans à peigner,serans à peigner
 quincaillerie serrure pour faurevette,serrure pour faurevette
 quincallerie acier,quincaillerie d'acier
-quincallerie moulins à café,moulin à café
+quincallerie moulins à café,moulins à café
 quincallerie poids de fer,poids de fer
 quincallerie serrure pour faucettes,serrure pour faurevette
 quinette,quinette
@@ -17569,7 +17570,7 @@ serge d'Angleterre,drap serge d'Angleterre
 serge d'Aumale,serge d'Aumale
 serge de Bruxelles,serge de Bruxelles
 serge de laine,serge de laine
-serge de laine croisée,serge  croisée et de laine
+serge de laine croisée,serge croisée et de laine
 serge de laine drapée,serge drapée et de laine
 serge de Lille,serge de Lille
 serge de Londres et autres,serge de Londres et serge
@@ -17578,7 +17579,7 @@ serge de Nîmes,serge de Nîmes
 serge de Nîmes aune,serge de Nîmes aune
 serge de Nîmes par aune,serge de Nîmes aune
 serge de Rome,serge de Rome
-serge de soie,étoffe serge de soie
+serge de soie,serge de soie
 serge des prises,serge des prises
 serge double,serge double
 serge doublée,serge double
@@ -17705,7 +17706,7 @@ soie de charrues,soie de charrues
 soie de Chine,soie de Chine
 soie de fleuret,soie de fleuret
 soie de la chaîne,soie de Chine
-soie de Nankin,soie de nankin
+soie de Nankin,soie de Nankin
 soie de porc,soie de porc
 soie de porc ???,soie de porc ???
 soie de porc et de sanglier,soie de porc et soie de sanglier
@@ -17749,7 +17750,7 @@ soie grèse de Provence,soie grèse de Provence
 soie grèse par Marseille,soie grèse par Marseille
 soie lorce,soie torce
 soie mauresque,soie moresque
-soie Nankin,soie nankin
+soie Nankin,soie de Nankin
 soie ordinaire,soie commune
 soie organsine,soie ouvrée
 soie ouvrée,soie ouvrée
@@ -17865,7 +17866,7 @@ sorte de poison,poisson
 sorte de poisson,poisson
 sorte de satin,satin
 sorte de toile,sorte de toile
-sorte de toile tissu,sorte de toile tissu
+sorte de toile tissu,toile
 sorte de vin,vin
 sortes,sortes
 sotas,sotas
@@ -18749,41 +18750,41 @@ tirtaine,tiretaine
 tirtaine de laine,tirtaine de laine
 tirtaine et miselaine,tirtaine et miselaine
 tirtaine et miselaine aune,tirtaine et miselaine aune
-tissus,tissu
-tissus à rayures,tissus à rayures
-tissus avec chaînes de lin et trame de laine thirumtin,tissus avec chaînes de lin et trame de laine thirumtin
-tissus d'Écosse,tissus d'Écosse
-tissus d'Osnabrück,tissus d'Osnabrück
-tissus de coton,tissu de coton
-tissus de coton gratté d'un côté,tissu de coton gratté d'un côté
-tissus de crin,tissu de crin
-tissus de fil de lin et de chanvre en toile de toute sorte,tissus de chanvre et de de lin et en toile
-tissus de fil et coton mélangés,tissus de coton et de fil
-tissus de fleuret,tissus de fleuret
+tissus,étoffe
+tissus à rayures,étoffe à rayures
+tissus avec chaînes de lin et trame de laine thirumtin,étoffe avec chaînes de lin et trame de laine thirumtin
+tissus d'Écosse,étoffe d'Écosse
+tissus d'Osnabrück,étoffe d'Osnabrück
+tissus de coton,étoffe de coton
+tissus de coton gratté d'un côté,étoffe de coton gratté d'un côté
+tissus de crin,étoffe de crin
+tissus de fil de lin et de chanvre en toile de toute sorte,étoffe de chanvre et de de lin et en toile
+tissus de fil et coton mélangés,étoffe de coton et de fil
+tissus de fleuret,étoffe de fleuret
 tissus de fleuret en étoffe et rubannerie,étoffe et rubannerie de fleuret
-tissus de Gorlitz,tissus de Gorlitz
-tissus de laine,tissus de laine
+tissus de Gorlitz,étoffe de Gorlitz
+tissus de laine,étoffe de laine
 tissus de laine en tapis,tapis de laine
-tissus de lin,tissus de lin
-tissus de lin et de chanvre en toile diverse,tissus de chanvre et de lin et en toile diverse
-tissus de soie coton et laine mélangés,tissus de coton et de laine et de soie
-tissus de toile de coutil,tissus de toile de coutil
-tissus de toile de coutil et à carreaux,tissus à carreaux et de toile de coutil
+tissus de lin,étoffe de lin
+tissus de lin et de chanvre en toile diverse,étoffe de chanvre et de lin et en toile diverse
+tissus de soie coton et laine mélangés,étoffe de coton et de laine et de soie
+tissus de toile de coutil,étoffe de toile de coutil
+tissus de toile de coutil et à carreaux,étoffe à carreaux et de toile de coutil
 tissus de toile en linge de tables,linge de tables de toile
-tissus de Windau,tissu de Windau
-tissus dentelle de fil,tissus de dentelle de fil
-tissus des Indes,tissus des Indes
-tissus écarlates,tissu écarlate
-tissus en laine à poil long,tissu de laine angora
-tissus en laine double fil,tissu de laine double fil
-tissus en laine fabriqué à Arras,tissu de laine fabriqué à Arras
-tissus en soie,tissu de soie
-tissus gris Lübeck,tissus gris Lübeck
-tissus lourds en laine,tissus de laine et lourds
-tissus pour vêtements militaires,tissu pour vêtement militaire
-tissus résistants,tissu
-tissus tissés en laine d'angora,tissus de laine d'angora
-tissus très fins,tissu fin
+tissus de Windau,étoffe de Windau
+tissus dentelle de fil,étoffe de dentelle de fil
+tissus des Indes,étoffe des Indes
+tissus écarlates,étoffe écarlate
+tissus en laine à poil long,étoffe de laine angora
+tissus en laine double fil,étoffe de laine double fil
+tissus en laine fabriqué à Arras,étoffe de laine fabriqué à Arras
+tissus en soie,étoffe de soie
+tissus gris Lübeck,étoffe gris Lübeck
+tissus lourds en laine,étoffe de laine et lourds
+tissus pour vêtements militaires,étoffe pour vêtement militaire
+tissus résistants,étoffe
+tissus tissés en laine d'angora,étoffe de laine d'angora
+tissus très fins,étoffe fin
 toile,toile
 toile ???,toile ???
 toile a ???,toile a ???
@@ -18849,13 +18850,13 @@ toile basin gros,toile de basin et gros
 toile basin national,toile de basin et national
 toile basine,toile de basine
 toile batanony,toile batanony
-toile batiste,toile de batiste
-toile batiste écrue,toile de batiste et écrue
-toile batiste et linon,toile de batiste et de linon
-toile batiste fine,toile de batiste et fine
-toile batiste ou toilettes,toile de batiste
-toile bayette,toile bayette
-toile bayette bleue,toile bayette et bleue
+toile batiste,batiste
+toile batiste écrue,batiste et écrue
+toile batiste et linon,batiste et de linon
+toile batiste fine,batiste et fine
+toile batiste ou toilettes,batiste
+toile bayette,bayette
+toile bayette bleue,bayette
 toile bem ???,toile bem ???
 toile bem à voile,toile bem à voile
 toile bem de Vimoutiers,toile bem de Vimoutiers
@@ -18891,7 +18892,7 @@ toile blanche et teinte,toile blanche et teinte
 toile blanche fine,toile blanche fine
 toile blanche fine de coton,toile blanche et de coton et fine
 toile blanche mousselines,toile blanche et mousselines
-toile blanche Nankin,toile blanche Nankin
+toile blanche Nankin,Nankin blanche
 toile blanche ordinaire,toile blanche ordinaire
 toile blanche ordre,toile blanche ordre
 toile blanche peinte,toile blanche et peinte
@@ -18969,8 +18970,8 @@ toile coton large,toile de coton large
 toile coton mousselines,toile de coton mousseline
 toile coton peinte,toile de coton peinte
 toile coton vieux,toile de coton vieux
-toile cotonade fil et coton,toile de fil et coton
-toile cotonine,toile cotonine
+toile cotonade fil et coton,toile de coton et de fil
+toile cotonine,cotonnine
 toile cotonnade,toile cotonnade
 toile cottray,toile cottray
 toile coupis,toile coupis
@@ -19211,10 +19212,10 @@ toile de coton en mousselinette,mousselinette de coton
 toile de coton en Nankin,Nankin de coton
 toile de coton en siamoise,toile de coton en siamoise
 toile de coton et mousselines,mousselines et toile de coton
-toile de coton et Nankin,Nankin et toile de coton
+toile de coton et Nankin,toile de coton
 toile de coton étrangère,toile de coton étrangère
 toile de coton façon de Nankin,toile de coton façon de Nankin
-toile de coton futaine,toile de coton futaine
+toile de coton futaine,futaine de coton
 toile de coton imprimé,toile de coton et imprimée
 toile de coton imprimée,toile de coton et imprimée
 toile de coton imprimée aune,toile de coton et imprimée aune
@@ -19260,7 +19261,7 @@ toile de fil de chanvre,toile de chanvre
 toile de fil de coton,toile de coton
 toile de fil de coton diverse,toile de coton
 toile de fil de coton siamoise,toile de coton siamoise
-toile de fil dite guingan,toile de fil dite guingan
+toile de fil dite guingan,guingan de fil
 toile de fil diverse,toile de fil
 toile de fil en coton,toile en coton et de fil
 toile de fil en coton siamoise,siamoise de coton et de fil
@@ -19268,11 +19269,11 @@ toile de fil en coutil,toile de fil en coutil
 toile de fil et coton,toile de coton et de fil
 toile de fil et coton basin,basin de coton et basin de fil
 toile de fil et coton blanche,toile blanche de coton et fil
-toile de fil et coton diverse,toile de coton et fil
+toile de fil et coton diverse,toile de coton et de fil
 toile de fil et coton en siamoise blanche,siamoise blanche et de coton et de fil
-toile de fil et coton en siamoise imprimée,siamoise imprimée et de coton et de fil
+toile de fil et coton en siamoise imprimée,siamoise de coton et de fil et imprimée
 toile de fil et coton en siamoise teinte,siamoise de coton et de fil et teinte
-toile de fil et coton et siamoise,siamoise et toile de fil et coton
+toile de fil et coton et siamoise,toile de fil et coton
 toile de fil et coton imprimée,toile de coton et de fil et imprimée
 toile de fil et coton siamoise,siamoise de coton et de fil
 toile de fil et coton teinte,toile de coton et de fil et teinte
@@ -19296,7 +19297,7 @@ toile de Grandville,toile de Grandville
 toile de Grenade,toile de Grenade
 toile de Grenoble,toile de Grenoble
 toile de gris,toile de gris
-toile de guingan,toile de guingan
+toile de guingan,guingan
 toile de halle,toile de halle
 toile de Hanovre,toile de Hanovre
 toile de Hollande,toile de Hollande
@@ -19321,9 +19322,9 @@ toile de lin à doubler,toile de lin à doubler
 toile de lin à faire drap,toile à drap et de lin
 toile de lin à matelas,toile de lin à matelas
 toile de lin au lait,toile de lin au lait
-toile de lin batiste,toile de lin batiste
-toile de lin batiste et linog,toile de batiste et de lin
-toile de lin batiste et linon,toile de batiste et de linon
+toile de lin batiste,batiste
+toile de lin batiste et linog,batiste et linog
+toile de lin batiste et linon,batiste et de linon
 toile de lin Beauvais,toile de lin de Beauvais
 toile de lin blanche,toile de lin blanche
 toile de lin blanche ??? à la frontière,toile de lin blanche ??? à la frontière
@@ -19377,13 +19378,13 @@ toile de lin de Senlis,toile de lin de Senlis
 toile de lin de Servins,toile de lin de Servins
 toile de lin de Troyes,toile de lin de Troyes
 toile de lin de Valenciennes,toile de lin de Valenciennes
-toile de lin dite platille,toile de lin dite platille
+toile de lin dite platille,platille
 toile de lin diverse,toile de lin
 toile de lin diverse batiste et linon,batiste de lin et linon de lin
 toile de lin du pays,toile de lin et du pays
 toile de lin écrue,toile écrue et de lin
 toile de lin écrue grosse et ordinaire,toile commune et écrue et grosse et de lin
-toile de lin en batiste,batiste de lin
+toile de lin en batiste,batiste
 toile de lin en batiste et linon,batiste de lin et linon de lin
 toile de lin en claire,toile en claire et de lin
 toile de lin en linge de tables,linge de tables de lin
@@ -19421,11 +19422,11 @@ toile de lin grosse,toile de lin grosse
 toile de lin grosse écrue,toile écrue et grosse et de lin
 toile de lin grosse pointe,toile de lin grosse pointe
 toile de lin grosse pour nègre,toile grosse et de lin et pour nègre
-toile de lin guingan,toile de lin gingas
+toile de lin guingan,gingas de lin
 toile de lin Hollande,toile de lin de Hollande
 toile de lin imprimée,toile de lin imprimée
 toile de lin indigo,toile de lin indigo
-toile de lin latille,toile de lin platille
+toile de lin latille,platille de lin
 toile de lin lingerie,toile de lin lingerie
 toile de lin linon,toile de lin linon
 toile de lin linon brodée,toile de lin linon brodée
@@ -19436,7 +19437,7 @@ toile de lin ouvrée,toile de lin et ouvrée
 toile de lin peinte,toile de lin et peinte
 toile de lin peinte et imprimée,toile imprimée et de lin et peinte
 toile de lin peinte et imprimée nationale,toile imprimée et de lin et nationale et peinte
-toile de lin platille,toile de lin platille
+toile de lin platille,platille de lin
 toile de lin rayée,toile de lin rayée
 toile de lin rayée en carreaux,toile  en carreaux et de lin et rayée
 toile de lin rayée et teinte,toile de lin et rayée et teinte
@@ -19470,10 +19471,10 @@ toile de ménage blanche,toile blanche et de ménage
 toile de Morlaix,toile de Morlaix
 toile de Mortagne,toile de Mortagne
 toile de Moutiers,toile de Moûtiers
-toile de Nankin,toile de Nankin
+toile de Nankin,Nankin
 toile de paille,toile de paille
 toile de peinte,toile de peinte
-toile de platille,toile de platille
+toile de platille,platille
 toile de ploc,toile de ploc
 toile de Pontivy,toile de Pontivy
 toile de Pouldavid,toile de Pouldavi
@@ -19541,7 +19542,7 @@ toile des Indes imitant celles de l'Inde,toile des Indes imitant celles de l'Ind
 toile des Indes indienne,indienne des Indes
 toile des Indes korola,korola des Indes
 toile des Indes limeneas,limeneas des Indes
-toile des Indes Nankin,Nankin des Indes
+toile des Indes Nankin,Nankin
 toile des Indes neganepeau,neganepeau des Indes
 toile des Indes niaals,niaals des Indes
 toile des Indes nicaneas,nicaneas des Indes
@@ -19560,13 +19561,13 @@ toile des Indes tepaye,tepaye des Indes
 toile dite de mousselines,mousselines
 toile dite drol et drouel,drol et drouel
 toile dite peinte et siamoise,toile peinte et siamoise
-toile dite platille,toile dite platille
+toile dite platille,platille
 toile diverse,toile
 toile diverse à matelas et à carreaux,toile à matelas et à carreaux
 toile diverse à voile,toile à voile
 toile diverse basin,toile basin
-toile diverse batiste écrue,toile batiste écrue
-toile diverse batiste fine,toile batiste fine
+toile diverse batiste écrue,batiste écrue
+toile diverse batiste fine,batiste fine
 toile diverse d'emballage,toile d'emballage
 toile diverse de Bretagne,toile de Bretagne
 toile diverse de chanvre,toile de chanvre
@@ -19575,19 +19576,19 @@ toile diverse de lin blanche,toile de lin blanche
 toile diverse de lin écrue,toile de lin écrue
 toile diverse de lin et de chanvre,toile de lin et de chanvre
 toile diverse des Indes,toile des Indes
-toile diverse en batiste,toile en batiste
+toile diverse en batiste,batiste
 toile diverse en lin et chanvre,toile en lin et chanvre
-toile diverse fil et coton,toile fil et coton
+toile diverse fil et coton,toile de coton et de fil
 toile diverse indienne,toile indienne
 toile diverse indienne française,toile indienne française
 toile diverse indiennes étrangères,toile indiennes étrangères
 toile diverse linon,toile linon
 toile diverse mêlée,toile mêlée
-toile diverse nankin,toile nankin
+toile diverse nankin,Nankin
 toile diverse peinte française,toile peinte française
-toile diverse platille,toile platille
-toile diverse siamoise,toile siamoise
-toile diverse siamoise fil coton,toile siamoise fil coton
+toile diverse platille,platille
+toile diverse siamoise,siamoise
+toile diverse siamoise fil coton,siamoise fil coton
 toile du Barrois,toile de Barrois
 toile du Barrois et Clinchamp,toile de Barrois et Clinchamp
 toile du Béarn,toile de Béarn
@@ -19605,12 +19606,12 @@ toile écrue grise et ardoisée,toile ardoisée et écrue et grise
 toile écrue pour essuie-mains,toile écrue et pour essuie-mains
 toile embabis,toile embabis
 toile emballage,toile pour emballage
-toile en chemises,toile en chemise
+toile en chemises,chemise de toile
 toile en coton mousselines et Nankin,mousselines et Nankin de coton
 toile en coutil,toile en coutil
 toile en crin,toile de crin
 toile en fair,toile en fair
-toile en guingan,toile de guingan
+toile en guingan,guingan
 toile en lin,toile de lin
 toile en lin et de chanvre,toile de chanvre et de lin
 toile en linge de tables,linge de tables
@@ -19625,7 +19626,7 @@ toile en siamoise au sixième de soie,toile de siamoise au sixième de soie
 toile en siamoise fil et coton,siamoise de coton et de fil
 toile et bonneterie,toile et bonneterie
 toile et coton en balles,coton en balles et toile
-toile et étoffe de coton,étoffe de coton et toile
+toile et étoffe de coton,étoffe de coton et de fil
 toile et fil,fil et toile
 toile et toile tissée,toile tissée
 toile et treillis lustrés,toile et treillis lustrés
@@ -19666,8 +19667,8 @@ toile fleuret blancard,toile blancard et de fleuret
 toile fleuret de Rouen,toile de fleuret et de Rouen
 toile fleuret et blancard,toile de fleuret et blancard
 toile Fougères,toile de Fougères
-toile garas,toile garas
-toile ginguan nationale,toile gingas nationale
+toile garas,garas
+toile ginguan nationale,gingas nationale
 toile glacée,toile glacée
 toile gomme,toile gommée
 toile gommée bougron,toile gommée bougron
@@ -19690,23 +19691,23 @@ toile grosse garnie ??? pour prélats,toile grosse garnie ??? pour prélats
 toile grossière,toile grosse
 toile grossière pièce de 50 aunes,toile grossière et pièce de 50 aunes
 toile grossières,toile grossière
-toile Guinée,toile Guinée
-toile Guinée blanche,toile Guinée blanche
-toile Guinée bleu,toile Guinée bleue
-toile Guinée bleue,toile Guinée bleue
-toile Guinée bleue imitant celles de l'Inde,toile Guinée bleue imitant celles de l'Inde
-toile Guinée imitant celles de l'Inde,toile Guinée imitant celles de l'Inde
-toile guingan,toile guingan
-toile guingan de fil,guingan en fil
-toile guingan de lin,toile guingan de lin
-toile guingan de Rouen,toile guingan de Rouen
-toile guingan en fil,guingan en fil
-toile guingan fil en coton,toile de coton guingan
-toile guingan lin,toile de lin guingan
+toile Guinée,Guinée
+toile Guinée blanche,Guinée blanche
+toile Guinée bleu,Guinée bleue
+toile Guinée bleue,Guinée bleue
+toile Guinée bleue imitant celles de l'Inde,Guinée bleue imitant celles de l'Inde
+toile Guinée imitant celles de l'Inde,Guinée imitant celles de l'Inde
+toile guingan,guingan
+toile guingan de fil,guingan de fil
+toile guingan de lin,guingan de lin
+toile guingan de Rouen,guingan de Rouen
+toile guingan en fil,guingan de fil
+toile guingan fil en coton,guingan de coton
+toile guingan lin,guingan de lin
 toile haut brin,toile haut brin
 toile hivre,toile hivre
 toile idem à carreaux,toile idem à carreaux
-toile idem batiste,toile idem batiste
+toile idem batiste,batiste
 toile idem blanche,toile idem blanche
 toile idem Cholet,toile de Cholet
 toile idem d'Olonne,toile d'Olonne
@@ -19763,10 +19764,10 @@ toile linge de tables serviettes,serviettes
 toile linge de tables serviettes ??? nappes,linge de tables serviettes ??? nappes
 toile linge de tables serviettes et nappes,nappes et serviettes
 toile linge de tables serviettes ouvrées,serviettes ouvrées
-toile linge de tables vieux,toile linge de table vieux
+toile linge de tables vieux,linge de table vieux
 toile linge tables divers,linge de tables
 toile linon,toile linon
-toile linon batiste,toile linon batiste
+toile linon batiste,batiste et linon
 toile linon de Saint-Quentin,toile de linon et de Saint-Quentin
 toile lizat,toile lizat
 toile locarnan,toile locarnan
@@ -19780,7 +19781,7 @@ toile mêlée ???,toile ???
 toile mêlée ...,toile ...
 toile mêlée à Bretagne,toile à Bretagne
 toile mêlée à carreaux,toile à carreaux
-toile mêlée batiste et linon,toile batiste et linon
+toile mêlée batiste et linon,batiste et linon
 toile mêlée blanche,toile blanche
 toile mêlée d'emballage,toile d'emballage
 toile mêlée d'étoupe,toile d'étoupe
@@ -19790,7 +19791,7 @@ toile mêlée de Bretagne,toile de Bretagne
 toile mêlée de Cambrai,toile de Cambrai
 toile mêlée de chanvre et de lin,toile de chanvre et de lin
 toile mêlée de coutil,toile de coutil
-toile mêlée de fil et coton,toile de fil et coton
+toile mêlée de fil et coton,toile de coton et de fil
 toile mêlée de Flandre,toile de Flandre
 toile mêlée de Laval,toile de Laval
 toile mêlée de lin et de chanvre,toile de lin et de chanvre
@@ -19802,15 +19803,15 @@ toile mêlée diverse de coton,toile diverse de coton
 toile mêlée diverse peinte,toile diverse peinte
 toile mêlée écrue,toile écrue
 toile mêlée en ???,toile en ???
-toile mêlée en linge de tables,toile en linge de tables
+toile mêlée en linge de tables,linge de lin de tables
 toile mêlée en sacs,toile en sacs
 toile mêlée fine,toile fine
-toile mêlée ganak,toile ganak
+toile mêlée ganak,ganak
 toile mêlée grosse,toile grosse
 toile mêlée grosse ???,toile grosse ???
 toile mêlée grosse en faces,toile grosse en faces
 toile mêlée grosse et sommiers,toile grosse et sommiers
-toile mêlée guingan,toile guingan
+toile mêlée guingan,guingan
 toile mêlée imprimée,toile imprimée
 toile mêlée peinte,toile peinte
 toile mêlée peinte et teinte,toile peinte et teinte
@@ -19819,7 +19820,7 @@ toile mêlée serpillière,toile serpillière
 toile mêlée teinte,toile teinte
 toile micanéas,toile micanéas
 toile Mortagne,toile montagne
-toile mousseline,toile mousseline
+toile mousseline,mousseline
 toile mousseline brodée,mousseline brodée
 toile mousseline de l'Inde,mousseline des Indes
 toile mousseline fine,mousseline fine
@@ -19827,8 +19828,8 @@ toile mousseline unie,mousseline unie
 toile mousselines,mousselines
 toile mousselinette,mousselinette
 toile moustiquaire de fil,moustiquaire de fil
-toile Nankin,toile étoffe coton nankin
-toile Nankin des Indes,Nankin des Indes
+toile Nankin,Nankin
+toile Nankin des Indes,Nankin
 toile nappes,nappes
 toile neganepeau,neganepeau
 toile neganepeau imitant celles de l'Inde,neganepeau imitant celles des Indes
@@ -19857,11 +19858,11 @@ toile piquée,toile piquée
 toile piquée de Marseille,toile piquée de Marseille
 toile piqûre de Marseille,toile piqûre de Marseille
 toile platier de Guinée,toile platier de Guinée
-toile platille,toile platille
-toile platille de lin,toile platille de lin
-toile platille de lin de Silésie,toile platille de lin de Silésie
-toile platille roussie,toile platille et de Roussie
-toile plattile,toile plattile
+toile platille,platille
+toile platille de lin,platille de lin
+toile platille de lin de Silésie,platille de lin de Silésie
+toile platille roussie,platille roussie
+toile plattile,plattile
 toile polonaise,toile polonaise
 toile poméranienne,toile de Poméranie
 toile pour ameublement,toile pour ameublement
@@ -19933,7 +19934,7 @@ toilerie nationale diverse,toilerie nationale
 toilerie toile à carreaux pour matelas,toile à carreaux et pour matelas
 toilerie toile à matelas à carreaux,toile à carreaux et pour matelas
 toilerie toile à voile,toile à voile
-toilerie toile batiste et linon,toile de batiste et linon
+toilerie toile batiste et linon,batiste et linon
 toilerie toile de chanvre,toile de chanvre
 toilerie toile de coutil,toile de coutil
 toilerie toile de coutil à carreaux,toile à carreaux et de coutil
@@ -20412,7 +20413,6 @@ viande salée,viande salée
 vieille voile de moulins et autres,vieille et voile de moulins et autres
 vieux chiffons,vieux chiffons
 vieux gouvernails,gouvernail vieux
-vieux linge,vieux linge
 vieux oint,vieux oing
 vif-argent,mercure
 vif-argent ou mercure,mercure
