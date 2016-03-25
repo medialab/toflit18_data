@@ -237,9 +237,9 @@ generate prix_calcul = value/quantit
 
 
 
-save "$dir/bdd courante", replace
+save "bdd courante", replace
 
-
+/*
 ***********************************************************************************************************************************
 *keep if quantity_unit!=""
 merge m:1 quantity_unit using "$dir/Units N1_v1.dta"
