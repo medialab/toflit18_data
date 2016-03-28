@@ -17,6 +17,9 @@ foreach file in classification_country_orthographic_normalization classification
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
 		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 		capture	replace `variable'  =ustrtrim(`variable')
@@ -34,12 +37,18 @@ foreach file in classification_country_orthographic_normalization classification
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 foreach variable of var marchandises pays quantity_unit {
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"…","...",.)
 	replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 	replace `variable'  =ustrtrim(`variable')
 }
 
 foreach variable of var quantit value prix_unitaire { 
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
+	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',",",".",.)
 	replace `variable'  =usubinstr(`variable'," ","",.)
 	replace `variable'  =usubinstr(`variable'," ","",.)
@@ -228,7 +237,7 @@ drop mériteplusdetravail-_merge
 
 merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
 drop if _merge==2
-drop source_bdc-_merge
+drop _merge
 
 
 generate value_calcul = quantit*prix_unitaire
