@@ -32,7 +32,7 @@ foreach file in classification_country_orthographic_normalization classification
 }
 
 
- /*(juste parce que c'est trop long)
+ *(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -66,7 +66,7 @@ destring quantit prix_unitaire value, replace
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
-*/
+
 
 ********* Procédure pour les nouveaux fichiers ************
 ******ATTENTION !!!! POUR GARDER LE LIEN AVEC GIT, IL FAUT ALLER DANS LIBRE OFFICE ET REFAIRE LE TRI !
