@@ -239,9 +239,16 @@ merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dt
 drop if _merge==2
 drop _merge
 
+merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
+drop if _merge==2
+drop _merge
+
+
 
 generate value_calcul = quantit*prix_unitaire
 generate prix_calcul = value/quantit
+
+
 
 
 save "bdd courante", replace
