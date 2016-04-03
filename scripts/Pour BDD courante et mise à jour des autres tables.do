@@ -29,7 +29,7 @@ foreach file in classification_country_orthographic_normalization classification
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/`file'.dta", replace
-
+ 
 }
 
 
