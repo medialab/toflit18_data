@@ -33,6 +33,25 @@ foreach file in classification_country_orthographic_normalization classification
 }
 
 
+
+
+import delimited "toflit18_data_GIT/traitements_marchandises/SITC/travail_sitcrev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+
+	foreach variable of var * {
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+		replace `variable' =usubinstr(`variable',"’","'",.)
+		capture	replace `variable'  =ustrtrim(`variable')
+	}
+
+	capture destring nbr*, replace float
+	capture drop nbr_bdc* source_bdc
+	save "Données Stata/travail_sitcrev3.dta", replace
+ 
+
  *(juste parce que c'est trop long)
 
 
@@ -190,7 +209,7 @@ use "bdd_revised_marchandises_simplifiees.dta", replace
 bys marchandises_norm_orth : drop if _n!=1
 save "bdd_revised_marchandises_simplifiees.dta", replace
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+use "bdd_revised_marchandises_normalisees_orthographique.dta", clear
 merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
 
 keep marchandises_norm_ortho marchandises_simplification _merge
@@ -205,7 +224,30 @@ generate sortkey = ustrsortkey(marchandises_norm_ortho, "fr")
 sort sortkey
 drop sortkey
 export delimited bdd_revised_marchandises_simplifiees.csv, replace
+**
 
+use "travail_sitcrev3.dta", clear
+bys marchandises_simplification : drop if _n!=1
+save "travail_sitcrev3.dta", replace
+
+use "bdd_revised_marchandises_simplifiees.dta", clear
+merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
+
+
+drop marchandises_norm_ortho 
+
+*drop if _merge==2
+replace obsolete = "oui" if _merge==2
+replace obsolete = "oui" if _merge!=2
+drop _merge
+bys marchandises_simplification : keep if _n==1
+
+
+save "travail_sitcrev3.dta", replace
+generate sortkey = ustrsortkey(marchandises_simplification, "fr")
+sort sortkey
+drop sortkey
+export delimited travail_sitcrev3.csv, replace
 
 
 ***********************************************************************************************************************************
@@ -245,7 +287,6 @@ drop _merge
 merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
 drop if _merge==2
 drop _merge
-
 
 
 generate value_calcul = quantit*prix_unitaire
