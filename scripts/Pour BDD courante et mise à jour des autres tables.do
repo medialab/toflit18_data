@@ -238,7 +238,7 @@ drop marchandises_norm_ortho
 
 *drop if _merge==2
 replace obsolete = "oui" if _merge==2
-replace obsolete = "oui" if _merge!=2
+replace obsolete = "non" if _merge!=2
 drop _merge
 bys marchandises_simplification : keep if _n==1
 
