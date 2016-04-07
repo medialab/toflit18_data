@@ -4904,6 +4904,7 @@ cordon ; de fil,6d,,existing,,,oui
 cordon ; de fleuret,6f,,existing,,,oui
 cordon ; de montre,6,,existing,,,oui
 cordon ; de soie,6f,,existing,,,oui
+cordon de fil,,,,,,non
 cordonnerie de cuir,6a,,ambiguous,,[Ouvrages de cuir cordonnerie] [Ouvrages de cuir et cordonnerie],non
 cordonnerie et sellerie de cuir,6a,,ambiguous,,[Ouvrages de cuir en cordonnerie et sellerie],non
 cordonnerie et sellerie de cuivre,6a,,new,,,non
@@ -9614,6 +9615,9 @@ galon d'argent fin,8,,ambiguous,,[Galons ; d'argent fin] [Galon d'argent fin],no
 galon d'argent vieux,8,,new,,,non
 galon d'or,8,,ambiguous,,[Gallon d'or] [Gallons d'or] [Galon d'or] [Galons ; d'or] [Galons d'or] [Galon ; d'or] [Galon dor] [Galons ; dor],non
 galon d'or en bord,8,,new,,,non
+galon d'or et d'argent,,,,,,non
+galon d'or et d'argent faux,,,,,,non
+galon d'or et d'argent fin,,,,,,non
 galon d'or faux,8,,ambiguous,,[Galon d'or faux] [Gallon d'or faux] [Galon ; d'or ; faux] [Galon or faux] [Galons ; d'or ; faux] [Galons d'or faux] [Galon ; d'or faux] [Galons ; d'or faux] [Gallons ; d'or ; faux],non
 galon d'or fin,8,,ambiguous,,[Galon ; d'or ; fin] [Galon d'or fin] [Galons ; d'or ; fin] [Gallons ; d'or ; fin] [Galon ; d'or fin] [Galons ; d'or fin],non
 galon de fil,8,,ambiguous,,[Gallon de Fil] [Gallons de fil] [Galon ; de fil] [Galon de Fil] [Galon de fil] [Galon en Fil] [Galons ; de fil] [Galons de fil] [galons de fil] [galou de Fil],non
@@ -9750,6 +9754,7 @@ gants de soie,8,,new,,,non
 gants de velours,,,,,,non
 gants dits moufles,8,,new,,,non
 gants divers,,,,,,non
+gants en soie,,,,,,non
 gants et mitaines bordés de soie par paires,8,,new,,,non
 gants et mitaines de filoselle,,,,,,non
 gants et mitaines de soie,,,,,,non
@@ -10040,14 +10045,14 @@ glace,6k,,ambiguous,[Glaces] [glacé] [Glaces ; ?] [Glaces ; au Tain] [glaces d'
 glacé,,,,,,non
 glace ; pour estampe,6k,,existing,,,oui
 glace pour estampe,6k,,ambiguous,,[Glaces ; pour estampes],oui
-glaces,,,,,,non
-glaces ???,,,,,,non
-glaces au tain,,,,,,non
+glaces,6k,,,,,non
+glaces ???,6k,,,,,non
+glaces au tain,6k,,,,,non
 glaces avec cadres dorés,6k,,new,,,non
-glaces d'1 aune et en dessus,,,,,,non
-glaces d'en dessous 1 aune,,,,,,non
-glaces d'en dessous de 1/4 aune ou petits miroirs,,,,,,non
-glaces de ??? cru ???,,,,,,non
+glaces d'1 aune et en dessus,6k,,,,,non
+glaces d'en dessous 1 aune,6k,,,,,non
+glaces d'en dessous de 1/4 aune ou petits miroirs,6k,,,,,non
+glaces de ??? cru ???,6k,,,,,non
 glaces de ??? d'œuf ???,6k,,new,,,non
 glaces de 1 1/2 aunes de hauteur,6k,,new,,,non
 glaces de 1 1/4 aunes de hauteur,6k,,new,,,non
@@ -10061,22 +10066,23 @@ glaces de 3/8 aune de hauteur,6k,,new,,,non
 glaces de 5/8 aune de hauteur,6k,,new,,,non
 glaces de 7/8 aune de hauteur,6k,,new,,,non
 glaces de carrosses,6k,,new,,,non
-glaces de miroirs,,,,,,non
-glaces de miroirs d'1 aune et en dessus,,,,,,non
+glaces de miroirs,6k,,,,,non
+glaces de miroirs d'1 aune et en dessus,6k,,,,,non
 glaces de miroirs de 13 pouces,6k,,new,,,non
 glaces de miroirs de 3 pieds,6k,,new,,,non
 glaces de miroirs grandes,6k,,new,,,non
-glaces en dessous d'1 aune,,,,,,non
-glaces en dessus d'1 aune,,,,,,non
-glaces en valeur,,,,,,non
+glaces en dessous d'1 aune,6k,,,,,non
+glaces en dessus d'1 aune,6k,,,,,non
+glaces en valeur,6k,,,,,non
 glaces encadrées,6k,,new,,,non
 glaces et meubles,6k,,ambiguous,,[Meubles et glaces] [///Industrie Générale///Meubles et glaces] [///Industrie générale///Meubles et glaces],non
 glaces et miroirs,6k,,,,,non
 glaces nues,6k,,new,,,non
+glaces petites et miroirs,6k,,,,,non
 glaces petits miroirs,6k,,new,,,non
-glaces pour carrosses,,,,,,non
-glaces pour estampe,,,,,,non
-glaces pour miroirs,,,,,,non
+glaces pour carrosses,6k,,,,,non
+glaces pour estampe,6k,,,,,non
+glaces pour miroirs,6k,,,,,non
 gland,,,existing,,,oui
 gland de chêne,,,existing,,,oui
 glands,,,,,,non
@@ -12027,6 +12033,7 @@ laine pour chapelier,2,,new,,,non
 laine tannée,2,,ambiguous,,[Laine Tanné],non
 laine teinte,2,,ambiguous,,[Laine ; teinte] [laine teinte],non
 laine toison,2,,new,,,non
+laine tressé,,,,,,non
 laine vigogne,2,,ambiguous,,[Laine ; vigogne],non
 laine vivante,2,,new,,,non
 lainerie,???,,new,,,non
@@ -13702,8 +13709,8 @@ miroirs de toilettes,,,,,,non
 miroirs de toillettes,,,,,,non
 miroirs de traite,,,new,,,non
 miroirs encadrés,,,,,,non
-miroirs et glaces,6k,,,,,non
-miroirs et petites glaces,6k,,,,,non
+miroirs et glaces,6k,,,,,oui
+miroirs et petites glaces,6k,,,,,oui
 miroirs grands,,,new,,,non
 miroirs petits,,,,,,non
 mise à feu,,,existing,,,non
@@ -15065,7 +15072,7 @@ ouvrages de métal,6k,,ambiguous,,[Ouvrages ; De métal],non
 ouvrages de mi soie,,,,,,non
 ouvrages de mode,8,,ambiguous,,[Ouvrages ; de mode] [Ouvrages ; de modes] [Ouvrages de modes] [Ouvrages ; De modes ; De modes divers] [Ouvrages ; De modes ; Divers] [Ouvrages ; De modes ; Diverses] [Ouvrages ; de modes ; divers] [Ouvrage ; de mode] [Ouvrage de mode] [Ouvrages de mode],non
 ouvrages de mode fleur artificielle,8,,ambiguous,,[Ouvrages ; De modes ; En fleurs artificielles] [Ouvrages ; De modes ; Fleurs artificielles] [Ouvrages ; de modes ; fleurs ; artificielles] [Ouvrages de modes en fleurs artificielles] [Ouvrages de modes et fleurs artificielles] [Ouvrages de modes fleurs artificielles] [Ouvrages ; de mode ; fleurs ; artificielles],oui
-ouvrages de mode fleurs artificielle,8,,,,,non
+ouvrages de mode fleurs artificielle,8,,,,,oui
 ouvrages de paille,6b,,ambiguous,,[Paille ouvrée],non
 ouvrages de palmes,6b,,new,,,non
 ouvrages de pantoufle,8,,ambiguous,,[Ouvrages ; pantoufles],non
@@ -15179,8 +15186,8 @@ ouvrages en tôle vernie,6k,,ambiguous,,[Ouvrages en tôle vernie],non
 ouvrages et ornements pour une église,8,,new,,,non
 ouvrages et outils d'horlogerie,8,,new,,,non
 ouvrages gant de peau,8,,ambiguous,,[Ouvrages de peaux gants],oui
-ouvrages gants de peau,8,,,,,non
-ouvrages mélangé étoffe de soie,6f,,ambiguous,,[Ouvrages mélangés ; Etoffes mélangées de soie],non
+ouvrages gants de peau,8,,,,,oui
+ouvrages mélangé étoffe de soie,6f,,ambiguous,,[Ouvrages mélangés ; Etoffes mélangées de soie],oui
 ouvrages mélangé étoffe mêlée,6i,,ambiguous,,[Ouvrages mélangés ; Etoffes mêlées],oui
 "ouvrages mélangé étoffe, gaze, crêpe et tuls",6i,,ambiguous,,"[Ouvrages mélangés ; Etoffes, gazes, crêpes et tuls]",oui
 "ouvrages mélangé gaze, crêpe et tuls",6i,,ambiguous,,"[Ouvrages mélangés ; Gazes, crêpes et tuls]",oui
@@ -15189,7 +15196,7 @@ ouvrages mélangé schal et mouchoir,8,,ambiguous,,[Ouvrages mélangés ; Schals
 ouvrages panneau à couvrir de terre cuite,6,,ambiguous,,[Ouvrages ; de terre cuite ; de panier ; à couvrir] [Ouvrages ; de terre cuite ; en pans ; à couvrir] [Ouvrages de terres cuite en pans à couvrir],oui
 ouvrages riche,6,,ambiguous,,[Ouvrages riches ; Ouvrages divers],non
 ouvrages tricotés pour vestes camisoles et culottes,8,,new,,,non
-ouvrages vannerie d'osier,6b,,ambiguous,,[Ouvrages vannerie d'osier],non
+ouvrages vannerie d'osier,6b,,ambiguous,,[Ouvrages vannerie d'osier],oui
 oxyde de plomb,5,,new,,,non
 padou,6i,,existing,,,oui
 padou de fil,6h,,new,,,oui
@@ -15627,23 +15634,23 @@ passementerie de soie,8,,ambiguous,,[Passement de soie] [Passementerie ; de soye
 passementerie de soie et laine,8,,new,,,non
 passementerie divers,8,,new,,,non
 passementerie en frange de fil,8,,new,,,non
-passementerie en galon de fil,8,,,,,non
+passementerie en galon de fil,8,,,,,oui
 passementerie en soie,8,,ambiguous,,[Ouvrages ; de passementerie ; en soye],non
-passementerie fil cordon,8,,ambiguous,,[Passementerie ; en fil ; cordons],non
+passementerie fil cordon,8,,ambiguous,,[Passementerie ; en fil ; cordons],oui
 passementerie fine en filet d'or,8,,ambiguous,,[Passementerie ; fine ; en filet ; d'or],non
 passementerie fine en velours,8,,ambiguous,,[Passementerie ; fine ; en velours],non
-passementerie galon d'or et d'argent,8,,new,,,non
-passementerie galon d'or et d'argent faux,8,,new,,,non
-passementerie galon d'or et d'argent fin,8,,new,,,non
-passementerie galon de soie,8,,ambiguous,,[Passementerie ; galon ; de soye],non
+passementerie galon d'or et d'argent,8,,new,,,oui
+passementerie galon d'or et d'argent faux,8,,new,,,oui
+passementerie galon d'or et d'argent fin,8,,new,,,oui
+passementerie galon de soie,8,,ambiguous,,[Passementerie ; galon ; de soye],oui
 passementerie gant en soie,8,,ambiguous,,[Passementerie ; en soie ; gans],oui
-passementerie gants en soie,8,,,,,non
-passementerie laine tressé,8,,ambiguous,,[Passementerie ; en laine ; tressés],non
+passementerie gants en soie,8,,,,,oui
+passementerie laine tressé,8,,ambiguous,,[Passementerie ; en laine ; tressés],oui
 passementerie mêlé de soie,8,,new,,,non
 passementerie ordinaire,8,,,,,non
-passementerie ruban de fil,8,,new,,,non
-passementerie ruban de filoselle,8,,new,,,non
-passementerie ruban de soie,8,,new,,,non
+passementerie ruban de fil,8,,new,,,oui
+passementerie ruban de filoselle,8,,new,,,oui
+passementerie ruban de soie,8,,new,,,oui
 passepierre,0a,,ambiguous,,[Passepierre],non
 passepoil de laine,6e,,,,,non
 passes,,,new,,,non
@@ -20387,7 +20394,6 @@ soyette de fil,,,new,,,non
 spalme,???,,ambiguous,[Spalme],[Spalme],non
 spalte,???,,ambiguous,[Spalte],[Spalte],non
 spardilles,8,,ambiguous,[Spardilles],[Spardilles],non
-sparterie,6b,,ambiguous,,[Ouvrages sparterie],non
 sparterie,6,,ambiguous,[Sparterie],[Sparterie],non
 sparterie brute en auf jonc et roseau,6b,,new,,,non
 spath zinc smithsonite,,,new,,,non
