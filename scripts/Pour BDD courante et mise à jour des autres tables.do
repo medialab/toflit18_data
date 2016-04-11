@@ -292,6 +292,21 @@ drop _merge
 generate value_calcul = quantit*prix_unitaire
 generate prix_calcul = value/quantit
 
+local j 5
+generate yearbis=year
+foreach i of num 1797(1)1805 {
+	replace yearbis = "`i'" if year =="An `j'"
+	local j =`j'+1
+}
+
+replace yearbis="1806" if yearbis== "An 14 & 1806"
+generate yearnum=real(yearbis)
+drop yearbis
+* findit labutil
+labmask yearnum, values(year)
+drop year
+rename yearnum year
+
 
 
 
