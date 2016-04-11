@@ -50,7 +50,29 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/travail_sitcre
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/travail_sitcrev3.dta", replace
- 
+
+import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+
+	foreach variable of var * {
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+		replace `variable' =usubinstr(`variable',"’","'",.)
+		capture	replace `variable'  =ustrtrim(`variable')
+	}
+
+	capture destring nbr*, replace float
+	capture drop nbr_bdc* source_bdc
+	save "Données Stata/Définitions sitc18_rev3.dta", replace
+	
+	
+	
+	
+	
+	
+	
 
  *(juste parce que c'est trop long)
 
@@ -88,6 +110,8 @@ destring quantit prix_unitaire value, replace
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
+
+
 
 
 ********* Procédure pour les nouveaux fichiers ************
@@ -311,6 +335,9 @@ rename yearnum year
 
 
 save "bdd courante", replace
+
+
+
 
 /*
 ***********************************************************************************************************************************
