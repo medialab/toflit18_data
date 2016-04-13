@@ -50,7 +50,29 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/travail_sitcre
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/travail_sitcrev3.dta", replace
- 
+
+import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+
+	foreach variable of var * {
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+		replace `variable' =usubinstr(`variable',"’","'",.)
+		capture	replace `variable'  =ustrtrim(`variable')
+	}
+
+	capture destring nbr*, replace float
+	capture drop nbr_bdc* source_bdc
+	save "Données Stata/Définitions sitc18_rev3.dta", replace
+	
+	
+	
+	
+	
+	
+	
 
  *(juste parce que c'est trop long)
 
@@ -88,6 +110,8 @@ destring quantit prix_unitaire value, replace
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
+
+
 
 
 ********* Procédure pour les nouveaux fichiers ************
@@ -292,10 +316,28 @@ drop _merge
 generate value_calcul = quantit*prix_unitaire
 generate prix_calcul = value/quantit
 
+local j 5
+generate yearbis=year
+foreach i of num 1797(1)1805 {
+	replace yearbis = "`i'" if year =="An `j'"
+	local j =`j'+1
+}
+
+replace yearbis="1806" if yearbis== "An 14 & 1806"
+generate yearnum=real(yearbis)
+drop yearbis
+* findit labutil
+labmask yearnum, values(year)
+drop year
+rename yearnum year
+
 
 
 
 save "bdd courante", replace
+
+
+
 
 /*
 ***********************************************************************************************************************************
