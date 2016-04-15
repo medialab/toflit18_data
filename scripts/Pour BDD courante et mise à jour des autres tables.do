@@ -171,7 +171,7 @@ export delimited classification_country_orthographic_normalization.csv, replace
 use "classification_country_orthographic_normalization.dta", clear
 drop note
 merge m:1 pays_norm_ortho using "classification_country_simplification.dta"
-
+drop if _merge==2
 
 
 
@@ -191,7 +191,7 @@ use "classification_country_simplification.dta", clear
 drop note
 merge m:1 pays_simplification using "classification_country_grouping.dta"
 
-
+drop if _merge==2
 drop _merge
 
 bys pays_simplification : keep if _n==1
