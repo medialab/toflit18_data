@@ -35,22 +35,26 @@ foreach file in classification_country_orthographic_normalization classification
 
 
 
-import delimited "toflit18_data_GIT/traitements_marchandises/SITC/travail_sitcrev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+foreach file in travail_sitcrev3 sitc18_simpl {
 
-	foreach variable of var * {
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
-		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-		replace `variable' =usubinstr(`variable',"’","'",.)
-		capture	replace `variable'  =ustrtrim(`variable')
-	}
+	import delimited "toflit18_data_GIT/traitements_marchandises/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
-	capture destring nbr*, replace float
-	capture drop nbr_bdc* source_bdc
-	save "Données Stata/travail_sitcrev3.dta", replace
+		foreach variable of var * {
+			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+			capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+			capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+			replace `variable' =usubinstr(`variable',"’","'",.)
+			capture	replace `variable'  =ustrtrim(`variable')
+		}
 
+		capture destring nbr*, replace float
+		capture drop nbr_bdc* source_bdc
+		save "Données Stata/`file'.dta", replace
+}
+		
+		
 import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
