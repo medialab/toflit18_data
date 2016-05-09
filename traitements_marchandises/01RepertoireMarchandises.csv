@@ -1046,7 +1046,6 @@ ARRET VERIF,antimoine,"Savary, volume 1, 1748 : « Minéral qui approche fort
 0,mâche,Le savary ne parle pas de salade mais de mache fer 
 ,mâche, 
 1,mache de fer,Peut-être « mache-fer » 
-,mache de fer, 
 ,"machemillier, machemillers, machenette (bois de)",Une seule occurrence pour chacun. Termes inconnus des dictionnaires. 
 ,madarine,"Retranscription correcte, peut être le copiste a-t-il voulu écrire « mandarine » ? Il n’y a qu’une seule occurrence dans la BDD "
 ,madarine, 
@@ -1055,13 +1054,12 @@ ARRET VERIF,antimoine,"Savary, volume 1, 1748 : « Minéral qui approche fort
 0,"mairain, merain, merrain","Bois de chêne, de châtaignier, débité en planches et utilisé surtout dans la tonnellerie, ATILF, article ""Merrain"". "
 ,malbroug, 
 ,malemole, 
-,manade, 
+0,manade,"La 9ème édition  du Dictionnaire de l'Académie française, article “Manade” : “ XIXe siècle. Emprunté du provençal manado. En Provence, et notamment en Camargue, troupeau de taureaux et de chevaux vivant en plein air et que conduisent des gardians.”"
 ,manicot, 
 0,manille,"Savary, volume 3, 1748 : « Espèce de grand anneau de cuivre jaune » "
 0,maniquette,"Savary, volume 3, 1748 : « Sorte de poivre qu'on apporte des côtes d'Afrique » "
 0,manne,"Savary, volume 3, 1748 : « C'est aussi une gomme ou drogue médicinale […] cette drogue purgative  est une liqueur blanche qui coule d'elle même ou par incision des branches et des feuilles des fresnes. » "
 0,maquet,"Le Dictionnaire du Moyen Français (DMF), article “Maquet” : “ MAQUET, subst. masc.""Meule, tas de foin""”"
-0,maquets,"Le Dictionnaire du Moyen Français (DMF), article “Maquet” : “ MAQUET, subst. masc.""Meule, tas de foin""”"
 0,marbre à jouer,merbels à jouer 
 0,marc,"Unité de mesure, poids de cuivre ou monnaie scandinave et d'hambourg "
 0,marc divers,"Unité de mesure, poids de cuivre ou monnaie scandinave et d'hambourg "
@@ -1272,8 +1270,8 @@ ARRET VERIF,antimoine,"Savary, volume 1, 1748 : « Minéral qui approche fort
 0,quadrille,Dans la source : « Toile de coton quadrillée » : mot qualifiant des « systèmes composés de pièces parallèles entre elles reliées transversalement par d'autres pièces également parallèles entre elles. » 
 ,quart à farine, 
 0,quart de nonante,"instrument qui sert à prendre les angles et les élévations, article ""Quart"", Antoine Furetière, Dictionnaire universel français & latin, Paris, Guffart, 1732. "
-,quart de nonante, 
-,quart de nonante à prendre hauteur, 
+0,quart de nonante,"Dictionnaire Universel Francois Et Latin, Tome quatrième, article “Quart de nonante' : “ Est un instrument de mathématiques qui a le plus d'usage en géométrie et en astronomie. Il sert à mesurer les angles des figures et les hauteurs des astres. C'est un quart de cercle dont les bords sont divisées à l'ordinaire en nonante degrés avec une alidade et des pinules pour faire les observations. “ (https://books.google.fr/books?id=H7dKAAAAcAAJ&pg=RA2-PT106&lpg=RA2-PT106&dq=quart+de+nonante&source=bl&ots=tJt1uacQWo&sig=-acMfwKpnspeRn5IasEq9Yz25Fw&hl=fr&sa=X&ved=0ahUKEwjw0rXEm83MAhUBSBQKHVA8CYE4ChDoAQg1MAU#v=onepage&q=quart%20de%20nonante&f=false)"
+0,quart de nonante à prendre hauteur, On dit que le quart de nonante sert à prendre hauteur acr cet instrument sert à mesurer la hauteur des astres (Voir définition ci-dessus). « Le quart de nonante sert donc à prendre hauteur  de même que l'arbalête » (https://books.google.fr/books?id=bwvWAAAAMAAJ&pg=PA10&lpg=PA10&dq=quart+de+nonante+à+prendre+hauteur&source=bl&ots=X3dnIef6yT&sig=L2chh2N45XzXLKPSQtfdCLCeP7Y&hl=fr&sa=X&ved=0ahUKEwiE-5DHnM3MAhVIF8AKHYXyDCQQ6AEIHTAA#v=onepage&q=quart%20de%20nonante%20à%20prendre%20hauteur&f=false)
 0,quartier de réduction,"Bézout, Traité de navigation, 1814 : «  Le quartier de réduction est un carré de carton partagé en plusieurs petits carrés[…] Le but de cet instrument est d'épargner la peine de tracer le triangle qui sert à résoudre les problèmes de navigation "
 0,quercitron,"Wikitionary : « Colorant jaune commerciélisé sous forme poudreuse, tiré de l'écorce de l'arbre du chêne du même nom […] introduit en Europe au XVIIIe siècle pour la teinture des cotons. » "
 0,quinette,(ou Quignette) Espèce de camelot tout de laine et quelquefois mêlé de poils de chèvre qui se fabrique en Flandres et en Picardie (Savary) 
@@ -1332,7 +1330,7 @@ ARRET VERIF,antimoine,"Savary, volume 1, 1748 : « Minéral qui approche fort
 0,saffle,Safre ou zafre (nommé saffle dans le tarif de 1664) : « Minéral de couleur d'œil de perdrix que les verriers et fayanciers employent pour donner une couleur bleue » 
 1,safranum," espèce de safran qui vient du Levant. Savary, Dictionnaire 3. "
 0,sagne,Wikipédia : «  Roseau commun très utilisé autrefois en Camarague» 
-0,sagon,??? 
+1,sagon,"Rien sur “Sagon”, mais Sagou : Dictionnaire classique des sciences naturelles  Volume 9 “Le sagou n'est autre que la partie  médullaire qui forme la presque totalité du tronc des sagouiers. (…) L'intérieur des tronc des jeunes sagouiers ou la partie même qui fournit le sagou est encore le manger le plus délicat et le plus tendre dont on peut se faire à l'idée “. (https://books.google.fr/books?id=pWecMuyzGzEC&pg=PA462&lpg=PA462&dq=sagon+définition&source=bl&ots=d8Hmo6OCUa&sig=k7TB_iMLLupYvWDnmlopIBPRzP8&hl=fr&sa=X&ved=0ahUKEwjrru-bnc3MAhVoLsAKHbflCtAQ6AEIJjAC#v=onepage&q=sagon%20définition&f=false)"
 0,sagu,"Savary, volume 3, 1748 :  « Espèce de farine faite de la moelle d'un arbre » "
 0,sain,"Savary, volume 3, 1748 : «  Monnaie qui a cours en Géorgie » "
 0,saindoux,Sorte de gras tiré du porc 
