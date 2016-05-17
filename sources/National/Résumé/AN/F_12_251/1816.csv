@@ -1,4 +1,4 @@
-numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marchandises,pays,value,,,,doubleaccounts
+numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marchandises,pays,value,prix_unitaire,quantity_unit,remarks,doubleaccounts
 655,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Alquifoux et mine de plomb,Royaume d'Espagne,98000,,,,0
 717,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Alquifoux et mine de plomb,Royaume de Sardaigne,12000,,,,0
 810,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Alquifoux et mine de plomb,Angleterre,12100,,,,0
@@ -128,17 +128,17 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1377,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Articles réunis de peu de valeur,Port de Marseille,4600,,,,0
 1381,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Articles réunis de peu de valeur,Saint-Domingue,1900,,,,0
 1387,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Articles réunis de peu de valeur,Colonies françaises,37500,,,,0
-109,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Royaume de Sardaigne,42100,,,,0
-152,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Italie,48700,,,,0
-218,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Angleterre,27000,,,,0
-392,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Suisse,900,,,,0
-603,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Port de Marseille,156900,,,,0
+109,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Royaume de Sardaigne,42100,"15,3111111111",quintaux,,0
+152,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Italie,48700,"15,3111111111",quintaux,,0
+218,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Angleterre,27000,"15,3111111111",quintaux,,0
+392,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Suisse,900,"15,3111111111",quintaux,,0
+603,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Avelanèdes,Port de Marseille,156900,"15,3111111111",quintaux,,0
 862,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Azur,Royaume des Pays-Bas,255400,,,,0
 921,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Azur,Etats de l'Allemagne,131200,,,,0
 977,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Azur,Suisse,1900,,,,0
-1029,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Azur,Royaume de Prusse,8300,,,,0
-219,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Baleine,Angleterre,679300,,,,0
-281,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Baleine,Royaume des Pays-Bas,18500,,,,0
+1029,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Azur,Royaume de Prusse,8300,"3932,2222222222",quintaux,,0
+219,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Baleine,Angleterre,679300,"3932,2222222222",quintaux,,0
+281,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Baleine,Royaume des Pays-Bas,18500,"3932,2222222222",quintaux,,0
 464,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Baleine,Villes Anséatiques,1000,,,,0
 677,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bâtiments de mer,Royaume d'Espagne,16200,,,,0
 705,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bâtiments de mer,Royaume de Portugal,7200,,,,0
@@ -215,30 +215,30 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 922,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bleu de Prusse,Etats de l'Allemagne,200600,,,,0
 978,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bleu de Prusse,Suisse,34800,,,,0
 1030,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bleu de Prusse,Royaume de Prusse,33800,,,,0
-111,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume de Sardaigne,4600,,,,0
-221,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Angleterre,2100,,,,0
-283,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume des Pays-Bas,270600,,,,0
-341,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Etats de l'Allemagne,272800,,,,0
-394,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Suisse,1400,,,,0
-433,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume de Prusse,15300,,,,0
-605,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Port de Marseille,29600,,,,0
-29,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume d'Espagne,516000,,,,0
-68,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Portugal,254500,,,,0
-113,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Sardaigne,109200,,,,0
-155,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Italie,33600,,,,0
-223,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Angleterre,885200,,,,0
-285,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume des Pays-Bas,153800,,,,0
-343,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Etats de l'Allemagne,4800,,,,0
-396,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Suisse,1600,,,,0
-435,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Prusse,2500,,,,0
-467,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Villes Anséatiques,13700,,,,0
-488,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Danemarck,181400,,,,0
-502,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Suède,5500,,,,0
-547,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Etats-Unis de l'Amérique,1451900,,,,0
-577,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Empire Ottoman,18300,,,,0
-607,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Port de Marseille,7900,,,,0
-632,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Saint-Domingue,889300,,,,0
-648,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Colonies françaises,932000,,,,0
+111,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume de Sardaigne,4600,"6,6266666667",stères,,0
+221,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Angleterre,2100,"6,6266666667",stères,,0
+283,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume des Pays-Bas,270600,"6,6266666667",stères,,0
+341,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Etats de l'Allemagne,272800,"6,6266666667",stères,,0
+394,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Suisse,1400,"6,6266666667",stères,,0
+433,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Royaume de Prusse,15300,"6,6266666667",stères,,0
+605,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois à brûler,Port de Marseille,29600,"6,6266666667",stères,,0
+29,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume d'Espagne,516000,"49,6463636364",quintaux,,0
+68,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Portugal,254500,"49,6463636364",quintaux,,0
+113,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Sardaigne,109200,"49,6463636364",quintaux,,0
+155,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Italie,33600,"49,6463636364",quintaux,,0
+223,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Angleterre,885200,"49,6463636364",quintaux,,0
+285,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume des Pays-Bas,153800,"49,6463636364",quintaux,,0
+343,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Etats de l'Allemagne,4800,"49,6463636364",quintaux,,0
+396,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Suisse,1600,"49,6463636364",quintaux,,0
+435,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Prusse,2500,"49,6463636364",quintaux,,0
+467,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Villes Anséatiques,13700,"49,6463636364",quintaux,,0
+488,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Danemarck,181400,"49,6463636364",quintaux,,0
+502,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Royaume de Suède,5500,"49,6463636364",quintaux,,0
+547,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Etats-Unis de l'Amérique,1451900,"49,6463636364",quintaux,,0
+577,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Empire Ottoman,18300,"49,6463636364",quintaux,,0
+607,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Port de Marseille,7900,"49,6463636364",quintaux,,0
+632,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Saint-Domingue,889300,"49,6463636364",quintaux,,0
+648,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois des îles et des Indes,Colonies françaises,932000,"49,6463636364",quintaux,,0
 27,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Royaume d'Espagne,25000,,,,0
 110,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Royaume de Sardaigne,135600,,,,0
 153,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Italie,24400,,,,0
@@ -257,19 +257,19 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 576,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Empire Ottoman,2700,,,,0
 604,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Port de Marseille,97700,,,,0
 647,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois divers pour construction,Colonies françaises,3800,,,,0
-28,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume d'Espagne,10800,,,,0
-112,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume de Sardaigne,398700,,,,0
-154,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Italie,5500,,,,0
-178,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Naples et Sicile,10000,,,,0
-187,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats de Rome,85500,,,,0
-222,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Angleterre,16500,,,,0
-284,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume des Pays-Bas,255100,,,,0
-342,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats de l'Allemagne,25200,,,,0
-395,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Suisse,5100,,,,0
-434,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume de Prusse,182600,,,,0
-466,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Villes Anséatiques,11400,,,,0
-546,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats-Unis de l'Amérique,53000,,,,0
-606,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Port de Marseille,129900,,,,0
+28,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume d'Espagne,10800,"99,9327731092",milliers,,0
+112,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume de Sardaigne,398700,"99,9327731092",milliers,,0
+154,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Italie,5500,"99,9327731092",milliers,,0
+178,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Naples et Sicile,10000,"99,9327731092",milliers,,0
+187,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats de Rome,85500,"99,9327731092",milliers,,0
+222,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Angleterre,16500,"99,9327731092",milliers,,0
+284,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume des Pays-Bas,255100,"99,9327731092",milliers,,0
+342,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats de l'Allemagne,25200,"99,9327731092",milliers,,0
+395,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Suisse,5100,"99,9327731092",milliers,,0
+434,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Royaume de Prusse,182600,"99,9327731092",milliers,,0
+466,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Villes Anséatiques,11400,"99,9327731092",milliers,,0
+546,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Etats-Unis de l'Amérique,53000,"99,9327731092",milliers,,0
+606,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Bois merrain,Port de Marseille,129900,"99,9327731092",milliers,,0
 1267,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Borax,Angleterre,3000,,,,0
 1287,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Borax,Royaume des Pays-Bas,82700,,,,0
 1305,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Borax,Etats de l'Allemagne,400,,,,0
@@ -286,37 +286,37 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 516,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Brai, goudron et résine",Empire de Russie,176400,,,,0
 548,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Brai, goudron et résine",Etats-Unis de l'Amérique,41900,,,,0
 608,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Brai, goudron et résine",Port de Marseille,12500,,,,0
-16,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume d'Espagne,23200,,,,0
-56,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Portugal,152200,,,,0
-95,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Sardaigne,2500,,,,0
-143,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Italie,2500,,,,0
-203,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Angleterre,29100,,,,0
-265,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume des Pays-Bas,10900,,,,0
-482,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Danemarck,6700,,,,0
-535,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Etats-Unis de l'Amérique,65600,,,,0
-637,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Colonies françaises,130700,,,,0
-17,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume d'Espagne,501200,,,,0
-57,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Portugal,700500,,,,0
-96,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Sardaigne,1900,,,,0
-144,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Italie,1800,,,,0
-204,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Angleterre,2049200,,,,0
-266,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume des Pays-Bas,831700,,,,0
-329,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Etats de l'Allemagne,4500,,,,0
-381,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Suisse,16900,,,,0
-424,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Prusse,1100,,,,0
-483,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Danemarck,144300,,,,0
-496,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Suède,23300,,,,0
-536,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Etats-Unis de l'Amérique,398300,,,,0
-568,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Empire Ottoman,5600,,,,0
-627,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Saint-Domingue,442000,,,,0
-638,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Colonies françaises,5944700,,,,0
-60,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume de Portugal,28400,,,,0
-98,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume de Sardaigne,600,,,,0
-207,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Angleterre,211700,,,,0
-269,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume des Pays-Bas,22200,,,,0
-539,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Etats-Unis de l'Amérique,31500,,,,0
-629,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Saint-Domingue,500,,,,0
-642,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Colonies françaises,99200,,,,0
+16,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume d'Espagne,23200,"201,619047619",quintaux,,0
+56,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Portugal,152200,"201,619047619",quintaux,,0
+95,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Sardaigne,2500,"201,619047619",quintaux,,0
+143,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Italie,2500,"201,619047619",quintaux,,0
+203,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Angleterre,29100,"201,619047619",quintaux,,0
+265,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume des Pays-Bas,10900,"201,619047619",quintaux,,0
+482,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Royaume de Danemarck,6700,"201,619047619",quintaux,,0
+535,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Etats-Unis de l'Amérique,65600,"201,619047619",quintaux,,0
+637,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cacao,Colonies françaises,130700,"201,619047619",quintaux,,0
+17,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume d'Espagne,501200,"200,0180733779",quintaux,,0
+57,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Portugal,700500,"200,0180733779",quintaux,,0
+96,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Sardaigne,1900,"200,0180733779",quintaux,,0
+144,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Italie,1800,"200,0180733779",quintaux,,0
+204,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Angleterre,2049200,"200,0180733779",quintaux,,0
+266,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume des Pays-Bas,831700,"200,0180733779",quintaux,,0
+329,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Etats de l'Allemagne,4500,"200,0180733779",quintaux,,0
+381,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Suisse,16900,"200,0180733779",quintaux,,0
+424,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Prusse,1100,"200,0180733779",quintaux,,0
+483,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Danemarck,144300,"200,0180733779",quintaux,,0
+496,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Royaume de Suède,23300,"200,0180733779",quintaux,,0
+536,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Etats-Unis de l'Amérique,398300,"200,0180733779",quintaux,,0
+568,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Empire Ottoman,5600,"200,0180733779",quintaux,,0
+627,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Saint-Domingue,442000,"200,0180733779",quintaux,,0
+638,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Café,Colonies françaises,5944700,"200,0180733779",quintaux,,0
+60,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume de Portugal,28400,"1970,5",quintaux,,0
+98,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume de Sardaigne,600,"1970,5",quintaux,,0
+207,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Angleterre,211700,"1970,5",quintaux,,0
+269,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Royaume des Pays-Bas,22200,"1970,5",quintaux,,0
+539,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Etats-Unis de l'Amérique,31500,"1970,5",quintaux,,0
+629,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Saint-Domingue,500,"1970,5",quintaux,,0
+642,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Cannelle,Colonies françaises,99200,"1970,5",quintaux,,0
 31,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Cendres gravelées, potasse, vedasse &c",Royaume d'Espagne,4900,,,,0
 115,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Cendres gravelées, potasse, vedasse &c",Royaume de Sardaigne,11400,,,,0
 156,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Cendres gravelées, potasse, vedasse &c",Italie,1046900,,,,0
@@ -350,19 +350,19 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 479,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chairs fraîches et salées,Royaume de Danemarck,1500,"97,3684210526",quintaux,,0
 492,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chairs fraîches et salées,Royaume de Suède,1800,"97,3684210526",quintaux,,0
 527,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chairs fraîches et salées,Etats-Unis de l'Amérique,3400,"97,3684210526",quintaux,,0
-23,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume d'Espagne,300,,,,0
-101,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Sardaigne,168700,,,,0
-146,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Italie,2500,,,,0
-211,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Angleterre,377700,,,,0
-273,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume des Pays-Bas,54700,,,,0
-334,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Etats de l'Allemagne,392400,,,,0
-384,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Suisse,400,,,,0
-426,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Prusse,111000,,,,0
-453,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Empire d'Autriche,1800,,,,0
-462,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Villes Anséatiques,25500,,,,0
-498,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Suède,3000,,,,0
-511,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Empire de Russie,757600,,,,0
-595,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Port de Marseille,783000,,,,0
+23,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume d'Espagne,300,"80,0059737157",quintaux,,0
+101,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Sardaigne,168700,"80,0059737157",quintaux,,0
+146,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Italie,2500,"80,0059737157",quintaux,,0
+211,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Angleterre,377700,"80,0059737157",quintaux,,0
+273,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume des Pays-Bas,54700,"80,0059737157",quintaux,,0
+334,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Etats de l'Allemagne,392400,"80,0059737157",quintaux,,0
+384,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Suisse,400,"80,0059737157",quintaux,,0
+426,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Prusse,111000,"80,0059737157",quintaux,,0
+453,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Empire d'Autriche,1800,"80,0059737157",quintaux,,0
+462,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Villes Anséatiques,25500,"80,0059737157",quintaux,,0
+498,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Royaume de Suède,3000,"80,0059737157",quintaux,,0
+511,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Empire de Russie,757600,"80,0059737157",quintaux,,0
+595,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chanvre,Port de Marseille,783000,"80,0059737157",quintaux,,0
 672,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chapeaux de paille et d'écorce de bois,Royaume d'Espagne,300,,,,0
 735,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chapeaux de paille et d'écorce de bois,Royaume de Sardaigne,1418600,,,,0
 775,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Chapeaux de paille et d'écorce de bois,Royaume d'Italie,362900,,,,0
@@ -407,23 +407,23 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1006,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Colles de toutes sortes,Suisse,69300,,,,0
 1048,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Colles de toutes sortes,Royaume de Prusse,24500,,,,0
 1109,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Colles de toutes sortes,Empire de Russie,71300,,,,0
-24,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume d'Espagne,333700,,,,0
-64,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Portugal,6753400,,,,0
-102,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Sardaigne,394000,,,,0
-147,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Italie,498900,,,,0
-174,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Naples et Sicile,159300,,,,0
-212,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Angleterre,5028600,,,,0
-274,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume des Pays-Bas,1044600,,,,0
-385,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Suisse,143500,,,,0
-427,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Prusse,2400,,,,0
-454,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Empire d'Autriche,6600,,,,0
-486,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Danemarck,154300,,,,0
-499,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Suède,77400,,,,0
-542,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Etats-Unis de l'Amérique,13774500,,,,0
-571,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Empire Ottoman,2952600,,,,0
-596,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Port de Marseille,39000,,,,0
-631,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Saint-Domingue,109700,,,,0
-645,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Colonies françaises,1901000,,,,0
+24,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume d'Espagne,333700,"256,1462890475",quintaux,,0
+64,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Portugal,6753400,"256,1462890475",quintaux,,0
+102,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Sardaigne,394000,"256,1462890475",quintaux,,0
+147,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Italie,498900,"256,1462890475",quintaux,,0
+174,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Naples et Sicile,159300,"256,1462890475",quintaux,,0
+212,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Angleterre,5028600,"256,1462890475",quintaux,,0
+274,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume des Pays-Bas,1044600,"256,1462890475",quintaux,,0
+385,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Suisse,143500,"256,1462890475",quintaux,,0
+427,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Prusse,2400,"256,1462890475",quintaux,,0
+454,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Empire d'Autriche,6600,"256,1462890475",quintaux,,0
+486,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Danemarck,154300,"256,1462890475",quintaux,,0
+499,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Royaume de Suède,77400,"256,1462890475",quintaux,,0
+542,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Etats-Unis de l'Amérique,13774500,"256,1462890475",quintaux,,0
+571,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Empire Ottoman,2952600,"256,1462890475",quintaux,,0
+596,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Port de Marseille,39000,"256,1462890475",quintaux,,0
+631,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Saint-Domingue,109700,"256,1462890475",quintaux,,0
+645,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Coton en laine,Colonies françaises,1901000,"256,1462890475",quintaux,,0
 658,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Crayons et pastel,Royaume d'Espagne,600,,,,0
 814,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Crayons et pastel,Angleterre,2500,,,,0
 865,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Crayons et pastel,Royaume des Pays-Bas,3300,,,,0
@@ -605,18 +605,18 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1122,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fers divers,Etats-Unis de l'Amérique,2200,,,,0
 1146,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fers divers,Empire Ottoman,5600,,,,0
 1166,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fers divers,Port de Marseille,11000,,,,0
-25,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume d'Espagne,1800,,,,0
-103,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume de Sardaigne,100100,,,,0
-213,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Angleterre,300,,,,0
-275,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume des Pays-Bas,2876600,,,,0
-335,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Etats de l'Allemagne,421000,,,,0
-386,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Suisse,7900,,,,0
-428,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume de Prusse,20600,,,,0
-597,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Port de Marseille,2000,,,,0
-104,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Royaume de Sardaigne,350100,,,,0
-214,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Angleterre,89400,,,,0
-387,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Suisse,623500,,,,0
-598,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Port de Marseille,54300,,,,0
+25,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume d'Espagne,1800,"504,4558823529",quintaux,,0
+103,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume de Sardaigne,100100,"504,4558823529",quintaux,,0
+213,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Angleterre,300,"504,4558823529",quintaux,,0
+275,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume des Pays-Bas,2876600,"504,4558823529",quintaux,,0
+335,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Etats de l'Allemagne,421000,"504,4558823529",quintaux,,0
+386,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Suisse,7900,"504,4558823529",quintaux,,0
+428,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Royaume de Prusse,20600,"504,4558823529",quintaux,,0
+597,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fil de lin et de chanvre,Port de Marseille,2000,"504,4558823529",quintaux,,0
+104,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Royaume de Sardaigne,350100,"1551,8055555556",quintaux,,0
+214,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Angleterre,89400,"1551,8055555556",quintaux,,0
+387,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Suisse,623500,"1551,8055555556",quintaux,,0
+598,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Filoselle et bourre de soie,Port de Marseille,54300,"1551,8055555556",quintaux,,0
 747,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fleurs d'oranger,Royaume de Sardaigne,144100,,,,0
 120,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fourrages,Royaume de Sardaigne,500,,,,0
 296,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Fourrages,Royaume des Pays-Bas,315900,,,,0
@@ -678,12 +678,12 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 926,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Garance et alizari,Etats de l'Allemagne,19100,,,,0
 1115,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Garance et alizari,Etats-Unis de l'Amérique,17200,,,,0
 1158,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Garance et alizari,Port de Marseille,53000,,,,0
-20,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume d'Espagne,300,,,,0
-61,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume de Portugal,1600,,,,0
-208,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Angleterre,47700,,,,0
-270,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume des Pays-Bas,500,,,,0
-540,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Etats-Unis de l'Amérique,15800,,,,0
-643,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Colonies françaises,63000,,,,0
+20,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume d'Espagne,300,"1171,8181818182",quintaux,,0
+61,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume de Portugal,1600,"1171,8181818182",quintaux,,0
+208,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Angleterre,47700,"1171,8181818182",quintaux,,0
+270,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Royaume des Pays-Bas,500,"1171,8181818182",quintaux,,0
+540,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Etats-Unis de l'Amérique,15800,"1171,8181818182",quintaux,,0
+643,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Girofle,Colonies françaises,63000,"1171,8181818182",quintaux,,0
 1230,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Gommes adragante,Royaume de Sardaigne,12300,,,,0
 1248,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Gommes adragante,Italie,29500,,,,0
 1269,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Gommes adragante,Angleterre,6600,,,,0
@@ -770,11 +770,11 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 355,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Houblon,Etats de l'Allemagne,118700,,,,0
 406,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Houblon,Suisse,21600,,,,0
 443,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Houblon,Royaume de Prusse,16900,,,,0
-9,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Royaume d'Espagne,3100,,,,0
-88,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Royaume de Sardaigne,4015600,,,,0
-137,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Italie,660700,,,,0
-375,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Suisse,600,,,,0
-590,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Port de Marseille,308000,,,,0
+9,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Royaume d'Espagne,3100,"226,7272727273",quintaux,,0
+88,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Royaume de Sardaigne,4015600,"226,7272727273",quintaux,,0
+137,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Italie,660700,"226,7272727273",quintaux,,0
+375,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Suisse,600,"226,7272727273",quintaux,,0
+590,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huile d'olive,Port de Marseille,308000,"226,7272727273",quintaux,,0
 38,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huiles d'olive pour fabrique,Royaume d'Espagne,84600,,,,0
 124,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huiles d'olive pour fabrique,Royaume de Sardaigne,1556000,,,,0
 160,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Huiles d'olive pour fabrique,Italie,361600,,,,0
@@ -834,44 +834,44 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1337,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Jus de réglisse,Royaume de Danemarck,1500,,,,0
 1357,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Jus de réglisse,Empire Ottoman,1700,,,,0
 1367,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Jus de réglisse,Port de Marseille,71000,,,,0
-66,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume de Portugal,20900,,,,0
-106,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume de Sardaigne,131100,,,,0
-149,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Italie,73800,,,,0
-277,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume des Pays-Bas,26800,,,,0
-389,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Suisse,1200,,,,0
-456,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Empire d'Autriche,9000,,,,0
-573,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Empire Ottoman,265500,,,,0
-600,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Port de Marseille,446900,,,,0
-646,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Colonies françaises,15200,,,,0
-26,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume d'Espagne,10148400,,,,0
-65,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Portugal,435000,,,,0
-105,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Sardaigne,335100,,,,0
-148,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Italie,84800,,,,0
-175,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Naples et Sicile,217200,,,,0
-215,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Angleterre,59800,,,,0
-276,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume des Pays-Bas,3790900,,,,0
-336,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Etats de l'Allemagne,2373400,,,,0
-388,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Suisse,604600,,,,0
-429,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Prusse,485000,,,,0
-455,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire d'Autriche,14900,,,,0
-463,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Villes Anséatiques,254400,,,,0
-500,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Suède,2000,,,,0
-512,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire de Russie,18700,,,,0
-543,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Etats-Unis de l'Amérique,400,,,,0
-572,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire Ottoman,357300,,,,0
-599,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Port de Marseille,4261000,,,,0
-10,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume d'Espagne,12300,,,,0
-89,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Sardaigne,53000,,,,0
-138,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Italie,500,,,,0
-197,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Angleterre,4500,,,,0
-259,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume des Pays-Bas,128000,,,,0
-324,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Etats de l'Allemagne,158400,,,,0
-376,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Suisse,11700,,,,0
-420,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Prusse,1900,,,,0
-461,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Villes Anséatiques,2900,,,,0
-480,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Danemarck,1000,,,,0
-494,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Suède,1000,,,,0
-591,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Port de Marseille,93200,,,,0
+66,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume de Portugal,20900,"1000,404040404",quintaux,,0
+106,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume de Sardaigne,131100,"1000,404040404",quintaux,,0
+149,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Italie,73800,"1000,404040404",quintaux,,0
+277,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Royaume des Pays-Bas,26800,"1000,404040404",quintaux,,0
+389,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Suisse,1200,"1000,404040404",quintaux,,0
+456,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Empire d'Autriche,9000,"1000,404040404",quintaux,,0
+573,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Empire Ottoman,265500,"1000,404040404",quintaux,,0
+600,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Port de Marseille,446900,"1000,404040404",quintaux,,0
+646,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines fines ou de chevron,Colonies françaises,15200,"1000,404040404",quintaux,,0
+26,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume d'Espagne,10148400,"437,5634612513",quintaux,,0
+65,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Portugal,435000,"437,5634612513",quintaux,,0
+105,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Sardaigne,335100,"437,5634612513",quintaux,,0
+148,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Italie,84800,"437,5634612513",quintaux,,0
+175,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Naples et Sicile,217200,"437,5634612513",quintaux,,0
+215,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Angleterre,59800,"437,5634612513",quintaux,,0
+276,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume des Pays-Bas,3790900,"437,5634612513",quintaux,,0
+336,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Etats de l'Allemagne,2373400,"437,5634612513",quintaux,,0
+388,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Suisse,604600,"437,5634612513",quintaux,,0
+429,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Prusse,485000,"437,5634612513",quintaux,,0
+455,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire d'Autriche,14900,"437,5634612513",quintaux,,0
+463,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Villes Anséatiques,254400,"437,5634612513",quintaux,,0
+500,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Royaume de Suède,2000,"437,5634612513",quintaux,,0
+512,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire de Russie,18700,"437,5634612513",quintaux,,0
+543,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Etats-Unis de l'Amérique,400,"437,5634612513",quintaux,,0
+572,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Empire Ottoman,357300,"437,5634612513",quintaux,,0
+599,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Laines ordinaires,Port de Marseille,4261000,"437,5634612513",quintaux,,0
+10,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume d'Espagne,12300,"25,0481283422",quintaux,,0
+89,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Sardaigne,53000,"25,0481283422",quintaux,,0
+138,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Italie,500,"25,0481283422",quintaux,,0
+197,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Angleterre,4500,"25,0481283422",quintaux,,0
+259,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume des Pays-Bas,128000,"25,0481283422",quintaux,,0
+324,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Etats de l'Allemagne,158400,"25,0481283422",quintaux,,0
+376,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Suisse,11700,"25,0481283422",quintaux,,0
+420,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Prusse,1900,"25,0481283422",quintaux,,0
+461,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Villes Anséatiques,2900,"25,0481283422",quintaux,,0
+480,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Danemarck,1000,"25,0481283422",quintaux,,0
+494,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Royaume de Suède,1000,"25,0481283422",quintaux,,0
+591,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Légumes,Port de Marseille,93200,"25,0481283422",quintaux,,0
 685,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Royaume d'Espagne,9000,,,,0
 711,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Royaume de Portugal,2700,,,,0
 751,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Royaume de Sardaigne,21900,,,,0
@@ -884,11 +884,11 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1076,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Villes Anséatiques,3400,,,,0
 1132,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Etats-Unis de l'Amérique,300,,,,0
 1173,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Librairie,Port de Marseille,3300,,,,0
-67,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume de Portugal,900,,,,0
-278,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume des Pays-Bas,1165300,,,,0
-337,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Etats de l'Allemagne,18100,,,,0
-430,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume de Prusse,1900,,,,0
-513,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Empire de Russie,900,,,,0
+67,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume de Portugal,900,"148,3875",quintaux,,0
+278,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume des Pays-Bas,1165300,"148,3875",quintaux,,0
+337,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Etats de l'Allemagne,18100,"148,3875",quintaux,,0
+430,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Royaume de Prusse,1900,"148,3875",quintaux,,0
+513,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Lin,Empire de Russie,900,"148,3875",quintaux,,0
 819,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Litharge,Angleterre,160200,,,,0
 870,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Litharge,Royaume des Pays-Bas,1800,,,,0
 929,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Litharge,Etats de l'Allemagne,28200,,,,0
@@ -1059,48 +1059,48 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1138,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Plumes d'autruche,Etats-Unis de l'Amérique,23700,,,,0
 1153,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Plumes d'autruche,Empire Ottoman,50000,,,,0
 1179,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Plumes d'autruche,Port de Marseille,450000,,,,0
-107,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume de Sardaigne,2800,,,,0
-150,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Italie,12600,,,,0
-216,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Angleterre,600,,,,0
-279,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume des Pays-Bas,17500,,,,0
-338,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Etats de l'Allemagne,58900,,,,0
-390,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Suisse,18600,,,,0
-431,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume de Prusse,3200,,,,0
-514,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Empire de Russie,8400,,,,0
-574,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Empire Ottoman,73500,,,,0
-601,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Port de Marseille,187300,,,,0
-11,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume d'Espagne,90000,,,,0
-52,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Portugal,15500,,,,0
-90,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Sardaigne,9200,,,,0
-139,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Italie,800,,,,0
-171,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Naples et Sicile,2000,,,,0
-198,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Angleterre,316300,,,,0
-260,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume des Pays-Bas,81000,,,,0
-325,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Etats de l'Allemagne,29400,,,,0
-377,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Suisse,3100,,,,0
-481,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Danemarck,1500,,,,0
-495,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Suède,80800,,,,0
-530,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Etats-Unis de l'Amérique,295300,,,,0
-565,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Empire Ottoman,13500,,,,0
-592,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Port de Marseille,7200,,,,0
-12,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume d'Espagne,154300,,,,0
-91,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume de Sardaigne,9000,,,,0
-199,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Angleterre,187100,,,,0
-261,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume des Pays-Bas,1400,,,,0
-531,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Etats-Unis de l'Amérique,234900,,,,0
-21,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume d'Espagne,10500,,,,0
-62,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Portugal,33700,,,,0
-99,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Sardaigne,300,,,,0
-145,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Italie,3500,,,,0
-209,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Angleterre,1215100,,,,0
-271,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume des Pays-Bas,457400,,,,0
-332,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Etats de l'Allemagne,300,,,,0
-382,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Suisse,5800,,,,0
-485,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Danemarck,15600,,,,0
-541,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Etats-Unis de l'Amérique,551600,,,,0
-570,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Empire Ottoman,9900,,,,0
-630,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Saint-Domingue,500,,,,0
-644,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Colonies françaises,323600,,,,0
+107,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume de Sardaigne,2800,"497,9220779221",quintaux,,0
+150,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Italie,12600,"497,9220779221",quintaux,,0
+216,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Angleterre,600,"497,9220779221",quintaux,,0
+279,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume des Pays-Bas,17500,"497,9220779221",quintaux,,0
+338,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Etats de l'Allemagne,58900,"497,9220779221",quintaux,,0
+390,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Suisse,18600,"497,9220779221",quintaux,,0
+431,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Royaume de Prusse,3200,"497,9220779221",quintaux,,0
+514,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Empire de Russie,8400,"497,9220779221",quintaux,,0
+574,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Empire Ottoman,73500,"497,9220779221",quintaux,,0
+601,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poils de chèvre, lièvre et lapin",Port de Marseille,187300,"497,9220779221",quintaux,,0
+11,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume d'Espagne,90000,"75,0476190476",quintaux,,0
+52,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Portugal,15500,"75,0476190476",quintaux,,0
+90,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Sardaigne,9200,"75,0476190476",quintaux,,0
+139,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Italie,800,"75,0476190476",quintaux,,0
+171,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Naples et Sicile,2000,"75,0476190476",quintaux,,0
+198,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Angleterre,316300,"75,0476190476",quintaux,,0
+260,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume des Pays-Bas,81000,"75,0476190476",quintaux,,0
+325,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Etats de l'Allemagne,29400,"75,0476190476",quintaux,,0
+377,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Suisse,3100,"75,0476190476",quintaux,,0
+481,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Danemarck,1500,"75,0476190476",quintaux,,0
+495,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Royaume de Suède,80800,"75,0476190476",quintaux,,0
+530,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Etats-Unis de l'Amérique,295300,"75,0476190476",quintaux,,0
+565,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Empire Ottoman,13500,"75,0476190476",quintaux,,0
+592,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons divers,Port de Marseille,7200,"75,0476190476",quintaux,,0
+12,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume d'Espagne,154300,"75,0255754476",quintaux,,0
+91,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume de Sardaigne,9000,"75,0255754476",quintaux,,0
+199,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Angleterre,187100,"75,0255754476",quintaux,,0
+261,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Royaume des Pays-Bas,1400,"75,0255754476",quintaux,,0
+531,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Poissons morue,Etats-Unis de l'Amérique,234900,"75,0255754476",quintaux,,0
+21,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume d'Espagne,10500,"290,8666666667",quintaux,,0
+62,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Portugal,33700,"290,8666666667",quintaux,,0
+99,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Sardaigne,300,"290,8666666667",quintaux,,0
+145,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Italie,3500,"290,8666666667",quintaux,,0
+209,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Angleterre,1215100,"290,8666666667",quintaux,,0
+271,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume des Pays-Bas,457400,"290,8666666667",quintaux,,0
+332,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Etats de l'Allemagne,300,"290,8666666667",quintaux,,0
+382,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Suisse,5800,"290,8666666667",quintaux,,0
+485,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Royaume de Danemarck,15600,"290,8666666667",quintaux,,0
+541,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Etats-Unis de l'Amérique,551600,"290,8666666667",quintaux,,0
+570,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Empire Ottoman,9900,"290,8666666667",quintaux,,0
+630,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Saint-Domingue,500,"290,8666666667",quintaux,,0
+644,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,"Poivre, piment et gingembre",Colonies françaises,323600,"290,8666666667",quintaux,,0
 15,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Provisions diverses,Royaume d'Espagne,71400,,,,0
 55,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Provisions diverses,Royaume de Portugal,72000,,,,0
 94,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Provisions diverses,Royaume de Sardaigne,38100,,,,0
@@ -1157,19 +1157,19 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1282,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Réglisse en bois,Royaume des Pays-Bas,3600,,,,0
 1345,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Réglisse en bois,Etats-Unis de l'Amérique,3100,,,,0
 1369,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Réglisse en bois,Port de Marseille,56800,,,,0
-13,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume d'Espagne,7300,,,,0
-53,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Portugal,173600,,,,0
-92,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Sardaigne,411400,,,,0
-140,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Italie,8600,,,,0
-200,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Angleterre,306500,,,,0
-262,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume des Pays-Bas,213400,,,,0
-326,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Etats de l'Allemagne,41200,,,,0
-378,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Suisse,83600,,,,0
-421,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Prusse,2900,,,,0
-532,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Etats-Unis de l'Amérique,3218700,,,,0
-566,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Empire Ottoman,304700,,,,0
-593,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Port de Marseille,474300,,,,0
-625,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Saint-Domingue,4700,,,,0
+13,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume d'Espagne,7300,"81,6625194401",quintaux,,0
+53,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Portugal,173600,"81,6625194401",quintaux,,0
+92,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Sardaigne,411400,"81,6625194401",quintaux,,0
+140,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Italie,8600,"81,6625194401",quintaux,,0
+200,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Angleterre,306500,"81,6625194401",quintaux,,0
+262,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume des Pays-Bas,213400,"81,6625194401",quintaux,,0
+326,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Etats de l'Allemagne,41200,"81,6625194401",quintaux,,0
+378,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Suisse,83600,"81,6625194401",quintaux,,0
+421,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Royaume de Prusse,2900,"81,6625194401",quintaux,,0
+532,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Etats-Unis de l'Amérique,3218700,"81,6625194401",quintaux,,0
+566,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Empire Ottoman,304700,"81,6625194401",quintaux,,0
+593,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Port de Marseille,474300,"81,6625194401",quintaux,,0
+625,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Riz,Saint-Domingue,4700,"81,6625194401",quintaux,,0
 663,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rocou,Royaume d'Espagne,2600,,,,0
 699,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rocou,Royaume de Portugal,3600,,,,0
 725,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rocou,Royaume de Sardaigne,1700,,,,0
@@ -1189,7 +1189,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 942,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rubans et passementerie de soie,Etats de l'Allemagne,246200,,,,0
 998,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rubans et passementerie de soie,Suisse,230000,,,,0
 1043,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rubans et passementerie de soie,Royaume de Prusse,176200,,,,0
-639,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rum et tafia,Colonies françaises,322300,,,,0
+639,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Rum et tafia,Colonies françaises,322300,"150,6074766355",hectolitres,,0
 664,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Safranum,Royaume d'Espagne,52900,,,,0
 726,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Safranum,Royaume de Sardaigne,13200,,,,0
 769,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Safranum,Royaume d'Italie,29700,,,,0
@@ -1232,16 +1232,16 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 1359,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Séné,Empire Ottoman,14200,,,,0
 1370,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Séné,Port de Marseille,26300,,,,0
 1383,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Séné,Colonies françaises,1000,,,,0
-108,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Royaume de Sardaigne,7205200,,,,0
-151,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Italie,158500,,,,0
-176,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Naples et Sicile,378400,,,,0
-217,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Angleterre,1890200,,,,0
-280,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Royaume des Pays-Bas,122000,,,,0
-339,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Etats de l'Allemagne,12300,,,,0
-391,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Suisse,626100,,,,0
-544,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Etats-Unis de l'Amérique,517600,,,,0
-575,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Empire Ottoman,287100,,,,0
-602,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Port de Marseille,160700,,,,0
+108,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Royaume de Sardaigne,7205200,"3999,3309859155",quintaux,,0
+151,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Italie,158500,"3999,3309859155",quintaux,,0
+176,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Naples et Sicile,378400,"3999,3309859155",quintaux,,0
+217,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Angleterre,1890200,"3999,3309859155",quintaux,,0
+280,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Royaume des Pays-Bas,122000,"3999,3309859155",quintaux,,0
+339,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Etats de l'Allemagne,12300,"3999,3309859155",quintaux,,0
+391,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Suisse,626100,"3999,3309859155",quintaux,,0
+544,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Etats-Unis de l'Amérique,517600,"3999,3309859155",quintaux,,0
+575,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Empire Ottoman,287100,"3999,3309859155",quintaux,,0
+602,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies,Port de Marseille,160700,"3999,3309859155",quintaux,,0
 243,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies de porc et de sanglier,Angleterre,200500,,,,0
 307,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies de porc et de sanglier,Royaume des Pays-Bas,131700,,,,0
 360,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soies de porc et de sanglier,Etats de l'Allemagne,339000,,,,0
@@ -1267,18 +1267,18 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 474,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soufre,Villes Anséatiques,5700,,,,0
 558,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soufre,Etats-Unis de l'Amérique,4900,,,,0
 621,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Soufre,Port de Marseille,192800,,,,0
-18,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume d'Espagne,1404300,,,,0
-58,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Portugal,1237300,,,,0
-97,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Sardaigne,9700,,,,0
-205,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Angleterre,5758500,,,,0
-267,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume des Pays-Bas,837700,,,,0
-330,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Etats de l'Allemagne,1200,,,,0
-484,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Danemarck,56000,,,,0
-497,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Suède,99000,,,,0
-537,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Etats-Unis de l'Amérique,776400,,,,0
-569,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Empire Ottoman,33000,,,,0
-628,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Saint-Domingue,92700,,,,0
-640,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Colonies françaises,29264700,,,,0
+18,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume d'Espagne,1404300,"83,9935622318",quintaux,,0
+58,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Portugal,1237300,"83,9935622318",quintaux,,0
+97,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Sardaigne,9700,"83,9935622318",quintaux,,0
+205,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Angleterre,5758500,"83,9935622318",quintaux,,0
+267,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume des Pays-Bas,837700,"83,9935622318",quintaux,,0
+330,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Etats de l'Allemagne,1200,"83,9935622318",quintaux,,0
+484,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Danemarck,56000,"83,9935622318",quintaux,,0
+497,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Royaume de Suède,99000,"83,9935622318",quintaux,,0
+537,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Etats-Unis de l'Amérique,776400,"83,9935622318",quintaux,,0
+569,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Empire Ottoman,33000,"83,9935622318",quintaux,,0
+628,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Saint-Domingue,92700,"83,9935622318",quintaux,,0
+640,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Sucres,Colonies françaises,29264700,"83,9935622318",quintaux,,0
 42,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Suif,Royaume d'Espagne,65000,,,,0
 76,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Suif,Royaume de Portugal,64200,,,,0
 131,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Suif,Royaume de Sardaigne,800,,,,0
@@ -1331,13 +1331,13 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 362,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Terre manganèse,Etats de l'Allemagne,9200,,,,0
 411,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Terre manganèse,Suisse,1000,,,,0
 448,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Terre manganèse,Royaume de Prusse,103200,,,,0
-19,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume d'Espagne,3900,,,,0
-59,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume de Portugal,311100,,,,0
-206,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Angleterre,166600,,,,0
-268,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume des Pays-Bas,60800,,,,0
-331,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Etats de l'Allemagne,1400,,,,0
-538,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Etats-Unis de l'Amérique,8100,,,,0
-641,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Colonies françaises,41700,,,,0
+19,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume d'Espagne,3900,"1006,1016949153",quintaux,,0
+59,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume de Portugal,311100,"1006,1016949153",quintaux,,0
+206,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Angleterre,166600,"1006,1016949153",quintaux,,0
+268,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Royaume des Pays-Bas,60800,"1006,1016949153",quintaux,,0
+331,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Etats de l'Allemagne,1400,"1006,1016949153",quintaux,,0
+538,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Etats-Unis de l'Amérique,8100,"1006,1016949153",quintaux,,0
+641,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Thé,Colonies françaises,41700,"1006,1016949153",quintaux,,0
 675,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Toiles de coton nankin,Royaume d'Espagne,10100,,,,0
 703,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Toiles de coton nankin,Royaume de Portugal,43500,,,,0
 739,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Toiles de coton nankin,Royaume de Sardaigne,600,,,,0
@@ -1369,18 +1369,18 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,marcha
 876,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vermillon et cinabre,Royaume des Pays-Bas,49000,,,,0
 932,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vermillon et cinabre,Etats de l'Allemagne,194700,,,,0
 988,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vermillon et cinabre,Suisse,38100,,,,0
-14,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume d'Espagne,751100,,,,0
-54,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Portugal,60400,,,,0
-93,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Sardaigne,6600,,,,0
-141,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Italie,1600,,,,0
-172,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Naples et Sicile,3300,,,,0
-201,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Angleterre,46100,,,,0
-263,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume des Pays-Bas,32400,,,,0
-327,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Etats de l'Allemagne,9900,,,,0
-379,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Suisse,1900,,,,0
-422,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Prusse,6300,,,,0
-533,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Etats-Unis de l'Amérique,700,,,,0
-567,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Empire Ottoman,8700,,,,0
+14,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume d'Espagne,751100,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+54,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Portugal,60400,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+93,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Sardaigne,6600,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+141,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Italie,1600,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+172,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Naples et Sicile,3300,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+201,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Angleterre,46100,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+263,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume des Pays-Bas,32400,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+327,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Etats de l'Allemagne,9900,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+379,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Suisse,1900,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+422,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Royaume de Prusse,6300,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+533,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Etats-Unis de l'Amérique,700,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
+567,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Vins divers,Empire Ottoman,8700,,,Pas de prix unitaire car comporte des vins ordinaires et de la liqueur,0
 702,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Zinc,Royaume de Portugal,11800,,,,0
 831,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Zinc,Angleterre,500,,,,0
 884,Isabelle Vergne,AN F12 251,National/Résumé/AN/F_12_251/1816.csv,Résumé,1816,Imports,Zinc,Royaume des Pays-Bas,333300,,,,0
