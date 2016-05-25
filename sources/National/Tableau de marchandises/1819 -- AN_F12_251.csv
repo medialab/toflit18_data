@@ -98,20 +98,21 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 97,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,"Noix, noisettes, avelines et faînes",Monde,,117376,kg,,,,"10704,6",
 98,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Amandes en coques ou cassées,Monde,,24301,kg,,,,"5579,07",
 99,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,"Graines de chanvre, colza, navette et oliette",Monde,,965993,kg,,,,"5813,25",
-100,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Graines de lin,Monde,,808585,kg,,,646042 kilogrammes sont venus des ports de la Baltique,"17114,08",
+100,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Graines de lin,Monde (Hors Ports de la Baltique),,162543,kg,,,646042 kilogrammes sont venus des ports de la Baltique,"17114,08",
+100,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Graines de lin,Ports de la Baltique,,646042,kg,,,,,
 101,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Fruits ; à distiller,Monde,,8227,kg,,,,"3096,71",
-102,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; des colonies françaises ; au-delà du Cap,Monde,,942994,kg,,,,"14975724,99",1
-103,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; des colonies françaises ; en-deça du Cap,Monde,,29415550,kg,,,,"14975724,99",2
-104,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; de l’étranger ; autre que blanc,Monde,,2980579,kg,,,,"1961420,12",
-105,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; de l’étranger ; blanc,Monde,,1128680,kg,,,,"847256,18",
-106,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; des colonies françaises ; au-delà du Cap,Monde,,2781,kg,,,,"3080646,63",1
-107,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; des colonies françaises ; en-deça du Cap,Monde,,3999250,kg,,,,"3080646,63",2
-108,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; de l’étranger ; au-delà du Cap,Monde,,447374,kg,,,,"304467,48",
-109,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; de l’étranger ; au-delà du Cap,Monde,,844192,kg,,,,"964030,49",
-110,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucreries ; Mélasses (des colonies françaises),Monde,,27876,kg,,,,"4907,34",
-111,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Bonbons,Monde,,3091,kg,,,,"4139,16",
-112,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Confitures sèches ou fluides,Monde,,20217,kg,,,,"21849,7",1
-113,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,"Sirops, sans exceptions",Monde,,4103,kg,,,,"21849,7",2
+102,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts,Colonies françaises au-delà du Cap,,942994,kg,,,,"14975724,99",1
+103,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts,Colonies françaises en-deça du Cap,,29415550,kg,,,,"14975724,99",2
+104,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; autre que blanc,Monde (Hors Colonies),,2980579,kg,,,,"1961420,12",
+105,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; bruts ; blanc,Monde (Hors Colonies),,1128680,kg,,,,"847256,18",
+106,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; des colonies françaises ; au-delà du Cap,Colonies françaises au-delà du Cap,,2781,kg,,,,"3080646,63",1
+107,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; des colonies françaises ; en-deça du Cap,Colonies françaises en-deça du Cap,,3999250,kg,,,,"3080646,63",2
+108,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; autre que blanc,Monde (Hors Colonies),,447374,kg,,,,"304467,48",
+109,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucres ; terrés; blanc,Monde (Hors Colonies),,844192,kg,,,,"964030,49",
+110,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucreries ; Mélasses,Colonies françaises,,27876,kg,,,,"4907,34",
+111,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucreries ; Bonbons,Monde,,3091,kg,,,,"4139,16",
+112,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Sucreries ; Confitures sèches ou fluides,Monde,,20217,kg,,,,"21849,7",1
+113,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,"Sucreries ; Sirops, sans exceptions",Monde,,4103,kg,,,,"21849,7",2
 114,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Cacao ; brut (fèves et coques),Monde,,467670,kg,,,,"527622,5",
 115,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Cacao ; en chocolat,Monde,,3562,kg,,,,"5821,71",
 116,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Café,Monde,,6628958,kg,,,,"4728221,52",
@@ -126,7 +127,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 125,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Tabacs ; en feuilles ou en côtes,Monde,,4197610,kg,,,,"184389,32",
 126,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Tabacs ; en feuilles ou en côtes,Monde,,2600314,kg,,,,0,
 127,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Tabacs ; fabriqués,Monde,,2001,kg,,,Admissions sur autorisations spéciales,"21462,48",
-128,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Gommes exotiques ; du Sénégal français,Monde,,318415,kg,,,,"35025,69",
+128,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Gommes exotiques,Sénégal français,,318415,kg,,,,"35025,69",
 129,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,"Gommes exotiques ; d’acacia, acajou, adragante et arabique",Monde,,81697,kg,,,,"19446,76",
 130,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Poix ou galipot,Monde,,120495,kg,,,,"71254,46",1
 131,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,6,Brai gras et goudron,Monde,,1857469,kg,,,,"71254,46",2
@@ -189,14 +190,14 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 188,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; ouvrés ; avirons ; bruts,Monde,,59806,mètre,,,,"3657,98",1
 189,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; ouvrés ; avirons ; façonnés,Monde,,8282,mètre,,,,"3657,98",2
 190,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; ouvrages divers,Monde,67411,,francs,,,,"11122,82",
-191,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; de teintures. - En morceaux ; l’ernambouc,Monde,,5254,kg,,,,"170478,25",1
+191,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; de teintures. - En morceaux ; Fernambouc,Monde,,5254,kg,,,,"170478,25",1
 192,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; de teintures. - En morceaux ; autres,Monde,,4653818,kg,,,,"170478,25",2
-193,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,bois ; d’acajou ; en bloc,Monde,,764044,kg,,,,"340807,26",1
-194,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,"bois ; d’acajou ; scié, épais de 2 à 3 décimètres",Monde,,478,kg,,,,"340807,26",2
-195,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; de buis,Monde,,62021,kg,,,,"6912,38",
-196,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; de gaïac,Monde,,158619,kg,,,,"4311,5",
-197,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,"Bois, de courbari",Monde,,11621,kg,,,,"3199,03",
-198,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,"Bois, d’ébène",Monde,,61173,kg,,,,"13088,02",
+193,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; d’acajou ; en bloc,Monde,,764044,kg,,,,"340807,26",1
+194,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,"Bois ; exotiques ; d’ébénisterie ; d’acajou ; scié, épais de 2 à 3 décimètres",Monde,,478,kg,,,,"340807,26",2
+195,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; de buis,Monde,,62021,kg,,,,"6912,38",
+196,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; de gaïac,Monde,,158619,kg,,,,"4311,5",
+197,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; de courbari,Monde,,11621,kg,,,,"3199,03",
+198,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; d’ébène,Monde,,61173,kg,,,,"13088,02",
 199,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Bois ; exotiques ; d’ébénisterie ; autres espèces,Monde,,47375,kg,,,,"5867,91",
 200,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Joncs ; à cannes,Monde,,16119,kg,,,,"33938,29",
 201,Quentin Vidal,AN_F12_251,National/Tableau de marchandises/1819 – AN_F12_251.csv,Tableau de marchandises,1819,Imports,,7,Joncs ; rottins,Monde,,16899,kg,,,,"9840,37",
