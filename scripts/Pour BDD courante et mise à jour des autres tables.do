@@ -47,6 +47,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 			capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 			replace `variable' =usubinstr(`variable',"’","'",.)
 			capture	replace `variable'  =ustrtrim(`variable')
+
 		}
 
 		capture destring nbr*, replace float
@@ -111,6 +112,20 @@ foreach variable of var quantit value prix_unitaire {
 destring numrodeligne  total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
 destring quantit prix_unitaire value, replace
 
+drop if source==""
+drop if value==0 & quantit==. & prix_unitaire==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_unitaire==0) /*idem*/
+replace value=. if (value==0 & quantit!=. & quantit!=0)
+
+gen byte computed_value = 0
+label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+replace computed_value=1 if (value==0 | value==.) & prix_unitaire!=0 & prix_unitaire!=. & quantit!=0 & quantit!=.
+replace value = quantit*prix_unitaire if computed_value==1
+
+gen byte computed_up = 0
+label var computed_up "Was the unit price computed expost based on and quantities and value ? 0 no 1 yes"
+replace computed_up=1 if (prix_unitaire==0 | prix_unitaire==.) & value!=0 & value!=. & quantit!=0 & quantit!=.
+replace prix_unitaire = value/quantit  if computed_up==1
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
