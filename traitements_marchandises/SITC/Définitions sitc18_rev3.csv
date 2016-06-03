@@ -1,8 +1,8 @@
-sitc18_rev3,labelfrançais,labelanglais,Description générale,modifs SITC21,Codes moi,sitc18_rev3
-0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,"sauf boissons; y compris céréales, poissons, fruits et légumes, épices, fourrages.","jus de fruits transférés en 1, produits laitiers transférées en 4",11,0a
-0b,Produits alimentaires des plantations coloniales,Plantation foodstuff,"sauf boissons et tabac; y compris céréales, fruits et légumes, épices, fourrages MAIS SEULEMENT SI originaires des plantations coloniales. NB: origine fonctionnelle (type d'unité de production) et non géographique, la morue de Terre-Neuve ou la fourrure de castor sont classées en 0a","jus de fruits transférés en 1, produits laitiers transférées en 4",12,0b
-1,Boissons et tabac,Beverages and tobacco,,"Seulement eau et alcools dans SITC21, inclut toutes boissons dans SITC 18",13,1
-2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","sauf cuirs et peaux brutes, combustibles (bois de chauffage, tourbe, charbon de bois); 
+sitc18_rev3,Codes moi,labelfrançais,labelanglais,Description générale,modifs SITC21,,sitc18_rev3
+0a,10,Autres produits alimentaires et animaux,Other foodstuff and live animals,"sauf boissons alcolisées et tabac; y compris céréales, poissons, fruits et légumes, jus de fruits et légumes, sirops (sauf si possible présence d'alcool), vinaigres, lait et produits laitiers, épices, fourrages.",- sirops possiblement alcoolisés reclassés en 1,,0a
+0b,20,Produits alimentaires des plantations coloniales,Plantation foodstuff,"sauf boissons alcolisées et tabac; y compris céréales, fruits et légumes, épices, fourrages MAIS SEULEMENT SI originaires des plantations coloniales. NB: origine fonctionnelle (type d'unité de production) et non géographique, la morue de Terre-Neuve ou la viande de castor sont classées en 0a",,,0b
+1,100,Boissons et tabac,Beverages and tobacco,"boissons alcolisées, eau, boissons n.d.a ou au statut alcoolisé incertain (""liqueurs en sirop"").",- sirops non lcoolisés systématiquement classés en 0a,,1
+2,200,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","sauf cuirs et peaux brutes, combustibles (bois de chauffage, tourbe, charbon de bois), en 6a; pigments et colorants naturels, en 5;
 y compris
 - bois bruts SANS MENTION DE FAÇONNAGE, uniquement présenté comme ""bois;
 - graines et fruits oleagineux avant transformation, graines semences même de produits comestibles, plantes entières ou en partie y compris fleurs, racines, feuilles A PARTIR DU MOMENT OÙ CE N'EST PAS COMESTIBLE (usage médicianl, manufactures, etc.);
@@ -10,41 +10,41 @@ y compris
 - toute fibre textile brute (soie, coton, jute, lin, chanvre, laine, toile...) qu'elle soit animale ou végétale;
 - tous déchets de matières organiques y compris tissés (chiffons, friperie);
 - toute pierre, sable ou minéral bruts (craie, soufre, bitume, pyrite de fer, etc.), tout déchet minéral (dérivés de la fabrication du fer ou de l'acier, par ex.);
-- os, corne, ivoire, écaille, ambre, coquillage, nacre non transformées en objet (cf. 8)","- cuirs et peaux brutes transférés en 6a dans SITC18
-- tous combustibles, même non carburants, transférés en 3 dans SITC18
-- bois façonnés non travaillés, type traverses ou planches épaisses, transférés en 6b dans SITC18",20,2
-3,Combustibles,Fuels,"Bois de chauffage, tourbe, charbon de bois ou de terre",,30,3
-4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Y compris produits laitiers,produits laitiers rajoutés,40,4
-5,Produits chimiques transformés n.d.a.,Processed chemical products,"Produits chimiques ou apparentés ayant subi au moins une transformation.
+- os, corne, ivoire, écaille, ambre, coquillage, nacre non transformées en objet (cf. 8)","- tous combustibles, même non carburants, transférés en 3 dans SITC18
+- bois façonnés non travaillés, type traverses ou planches épaisses, transférés en 6b dans SITC18
+- cuir au statut incertain reclassé en 6a",,2
+3,300,Combustibles,Fuels,"Bois de chauffage, tourbe, charbon de bois ou de terre",,,3
+4,400,"Huiles, graisses et cires d'origine animale et végétale",Oils,,,,4
+5,500,Produits chimiques transformés n.d.a.,Processed chemical products,"Produits chimiques ou apparentés ayant subi au moins une transformation.
 Y compris 
 - alcools (non comestibles), camphre, etc.; 
 - sels divers, composés ou raffinés; 
 - médicaments de tous type impliquant au moins une opération de transformation (dans le doute, retour en 2); 
-- encres, peintures et colorants, vernis, colles, transformés avant usage (dans le doute, retour en 2); 
+- encres, peintures et colorants, vernis, colles, transformés avant usage, y compris les colorants et pigments naturels; 
 - parfums, essences;
 - savons, produits de nettoyage;
-- poudres, explosifs.","médicaments, peinture et colorants etc., et potentiellement certains parfums, composés de produits bruts non transformés, reclassés en 2",50,5
-6a,Cuirs et produits dérivés hors sellerie,Leather products except saddlery,"peaux et pelleteries, y compris brutes; hors sellerie (tous articles utilisés pour les transports) et matériel de voyage (renvoyé en 8).",sellerie reclassée en 7,61,6a
-6b,"Produits du bois, liège, jonc","Wood, cork and cane products",hors meubles et outils en bois; tous ouvrages en bois/liège/jonc travaillé.,"- bois façonné non travaillé transféré de 2;
-- outils en bois rejetés en 6j",63,6b
-6c,Papier,Paper products,"produits du papier SAUF imprimés ou livres n'impliquant aucune intervention de l'utilisateur car entièrement finis; registres et cahiers vierges sont inclus, mais pas livres ou journaux, à rejeter en 8",,64,6c
-6d,Filés ou tissés de lin et/ou chanvre et/ou jute et/ou ramie…,Linen threads and fabrics,Filés ou tissés d'une seule fibre végétale hors coton,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",651,6d
-6e,Filés ou tissés de laine et de poil…,Wool threads and fabrics,Filés ou tissés de fibres animales hors soie,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",652,6e
-6f,Filés ou tissés de soie et soie mélangée ,Silk threads and fabrics,Filés ou tissés contenant de la soie,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",653,6f
-6g,Filés ou tissés de coton,Coton threads and fabrics,Filés ou tissés de coton,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",654,6g
-6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics ,"Filés ou tissés de plusieurs fibres végétales mêlées, y compris tout tissé décrit comme toile n.d.a.","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",655,6h
-6i,Autres filés ou tissés,Other threads and fabrics,Filés ou tissés de composition inconnue ou incertaine,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",656,6i
-6j,Produits métalliques,Metal products,"Tout objet manufacturé de fer, cuivre ou tout autre métal; 
+- poudres, explosifs.",- médicaments naturels au statut incertain reclassés en 2,,5
+6a,610,Cuirs et produits dérivés hors sellerie,Leather products except saddlery,"peaux et pelleteries; hors peaux signalées comme brutes (""en poil"", e.g.) —en cas de doute, placé en 6a; sellerie (tous articles utilisés pour les transports), renvoyés en 7; et matériel de voyage (renvoyé en 8).",- sellerie reclassée en 7,,6a
+6b,630,"Produits du bois, liège, jonc","Wood, cork and cane products",hors meubles et outils en bois; tous ouvrages en bois/liège/jonc travaillé.,"- bois façonné non travaillé transféré de 2;
+- outils en bois rejetés en 6j",,6b
+6c,640,Papier,Paper products,"produits du papier SAUF imprimés ou livres n'impliquant aucune intervention de l'utilisateur car entièrement finis; registres et cahiers vierges sont inclus, mais pas livres ou journaux, à rejeter en 8",,,6c
+6d,651,Filés ou tissés de lin et/ou chanvre et/ou jute et/ou ramie…,Linen threads and fabrics,Filés ou tissés d'une seule fibre végétale hors coton,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6d
+6e,652,Filés ou tissés de laine et de poil…,Wool threads and fabrics,Filés ou tissés de fibres animales hors soie,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6e
+6f,653,Filés ou tissés de soie et soie mélangée ,Silk threads and fabrics,Filés ou tissés contenant de la soie,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6f
+6g,654,Filés ou tissés de coton,Coton threads and fabrics,Filés ou tissés de coton,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6g
+6h,655,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics ,"Filés ou tissés de plusieurs fibres végétales mêlées, y compris tout tissé décrit comme toile n.d.a.","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6h
+6i,656,Autres filés ou tissés,Other threads and fabrics,Filés ou tissés de composition inconnue ou incertaine,"catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6i
+6j,670,Produits métalliques,Metal products,"Tout objet manufacturé de fer, cuivre ou tout autre métal; 
 Y compris: 
 - lingots, grenaille, plaques, feuilles, tôles, barres, tiges, fils, tubes, tuyaux, poudres de métal;
 - couteaux, vaiselle, récipients, cuves, clés, objets ménagers, statuettes, etc.;
-- visserie, aiguilles, épingles, et tous outils, y compris outils en bois.",Outils en bois transférés de 6b,67,6j
-6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Y compris:
+- visserie, aiguilles, épingles, et tous outils, y compris outils en bois.",Outils en bois transférés de 6b,,6j
+6k,660,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Y compris:
 - terres cuites: matériaux de construction (briques, carreaux, etc.), vaisselle, procelaine, céramique; également chaux, ciment;
 - verrerie: vaiselle, miroirs, vitres;
-- pierres précieuses et semi-précieuses.",,66,6k
-7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Machines agricoles, véhicules par terre et par eau, pièces détachées, y compris sellerie",sellerie transférée de 6a,70,7
-8,Articles manufacturés divers n.d.a,Various manufactures,"Tout ce qui reste, y compris:
+- pierres précieuses et semi-précieuses.",,,6k
+7,700,Machines et moyens de transport y compris sellerie,Machines and transportation,"Machines agricoles, véhicules par terre et par eau, pièces détachées, y compris sellerie",sellerie transférée de 6a,,7
+8,800,Articles manufacturés divers n.d.a,Various manufactures,"Tout ce qui reste, y compris:
 - chaudières, sanitaires;
 - lampes;
 - meubles de tous types;
@@ -58,9 +58,9 @@ Y compris:
 - os, corne, ivoire, écaille, ambre, coquillage, nacre transformées en objet (cf. 2);
 - varia: bougies, allumettes, pipes, parapluies, cannes, fouets;
 - balais, brosses, pinceaux, houppes
-- tamis, nattes, ouvrages de vannerie",,80,8
-9a,Monnaies et métaux précieux,Precious metals,,,91,9a
-9b,Divers mélangés,Mixed flows,Plusieurs produits de nature différente sur une seule ligne,,92,9b
-9c,Divers incertains,Various uncertain,Produits de degrés de transformation incertain ou de matière première incertaine,,93,9c
-???,Produits inconnus,Unknown products,,,99,???
-,,,,,999,error
+- tamis, nattes, ouvrages de vannerie",,,8
+9a,910,Monnaies et métaux précieux,Precious metals,,,,9a
+9b,920,Divers mélangés,Mixed flows,Plusieurs produits de nature différente sur une seule ligne,,,9b
+9c,930,Divers incertains,Various uncertain,Produits de degrés de transformation incertain ou de matière première incertaine,,,9c
+???,999,Produits inconnus,Unknown products,,,,???
+,,,,,,,error
