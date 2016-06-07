@@ -354,7 +354,7 @@ rename yearnum year
 
 
 save "bdd courante", replace
-
+export delimited "bdd courante.csv", replace
 
 
 
