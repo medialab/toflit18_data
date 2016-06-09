@@ -117,7 +117,11 @@ drop if value==0 & quantit==. & prix_unitaire==. /*Dans tous les cas regardés l
 drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_unitaire==0) /*idem*/
 replace value=. if (value==0 & quantit!=. & quantit!=0)
 
-gen byte computed_value = 0
+
+**** Ce bout de code traite des 0 dans value et unit_price. Remplace des "0" par des valeurs manquantes.
+***Puis calcule en les flaguant les values et les unit_price quand c'est possible.
+
+generate byte computed_value = 0
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
 replace computed_value=1 if (value==0 | value==.) & prix_unitaire!=0 & prix_unitaire!=. & quantit!=0 & quantit!=.
 replace value = quantit*prix_unitaire if computed_value==1
@@ -330,10 +334,6 @@ drop _merge
 merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
 drop if _merge==2
 drop _merge
-
-
-generate value_calcul = quantit*prix_unitaire
-generate prix_calcul = value/quantit
 
 local j 5
 generate yearbis=year
