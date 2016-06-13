@@ -1,6 +1,6 @@
 
 
-version 14
+version 14.1
 
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
@@ -120,7 +120,7 @@ replace value=. if (value==0 & quantit!=. & quantit!=0)
 
 **** Ce bout de code traite des 0 dans value et unit_price. Remplace des "0" par des valeurs manquantes.
 ***Puis calcule en les flaguant les values et les unit_price quand c'est possible.
-
+/*
 generate byte computed_value = 0
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
 replace computed_value=1 if (value==0 | value==.) & prix_unitaire!=0 & prix_unitaire!=. & quantit!=0 & quantit!=.
@@ -130,7 +130,7 @@ gen byte computed_up = 0
 label var computed_up "Was the unit price computed expost based on and quantities and value ? 0 no 1 yes"
 replace computed_up=1 if (prix_unitaire==0 | prix_unitaire==.) & value!=0 & value!=. & quantit!=0 & quantit!=.
 replace prix_unitaire = value/quantit  if computed_up==1
-
+*/
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
