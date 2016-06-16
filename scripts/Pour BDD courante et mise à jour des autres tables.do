@@ -238,10 +238,10 @@ save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
 use "bdd_centrale.dta", clear
 merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
 
-drop numrodeligne-sheet pays-remarkspourlesdroits
-
-
 drop _merge
+
+keep marchandises marchandises_norm_ortho mériteplusdetravail
+
 bys marchandises : keep if _n==1
 
 
