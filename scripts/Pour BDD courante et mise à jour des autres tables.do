@@ -146,6 +146,7 @@ cd "$dir/Données Stata"
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop computed_value computed_up
 
 capture drop source_bdc
 generate source_bdc=0
@@ -358,13 +359,26 @@ export delimited "bdd courante.csv", replace
 
 
 
-/*
+
 ***********************************************************************************************************************************
 *keep if quantity_unit!=""
+use "bdd courante.dta", clear 
+
 merge m:1 quantity_unit using "$dir/Units N1_v1.dta"
 * 5 _merge==2 -> viennent de Hambourg
 drop if _merge==2
 drop _merge 
+
+generate quantites_metric = q_conv * quantit
+
+save "bdd courante", replace
+export delimited "bdd courante.csv", replace
+
+
+
+
+/*
+
 merge m:1 quantity_unit marchandises_normalisees using "$dir/Units N2_v1.dta"
 drop if _merge==2
 drop _merge
@@ -382,6 +396,10 @@ replace Remarque_unit =N3_Remarque_unit if N3_Remarque_unit!=""
 drop N2_u_conv N3_u_conv N2_q_conv N3_q_conv N2_Remarque_unit N3_Remarque_unit
 *** à la fin il y a 64 635 observations -> les 64 633 de départ + les 3 issues des combinaisons nouvelles marchandises_normalisees-quantity_unit venant de Hambourg
 *********************************
+
+*/
+
+
 
 
 save "$dir/bdd courante", replace
