@@ -1,0 +1,72 @@
+﻿
+
+RULES FOR SIMPLIFICATION ACCORDING TO THE SO-CALLED "DAUDIN" CLASSIFICATION
+
+
+• Use the style sheet "definitions sitc18_rev3"
+• when in doubt,
+- first try to use the indications contained in column "E" of said sheet
+- second, use the 21st century version of SITC, contained in the sheet "SITC_Rev3_structure_French". Try to track the uncertain goods and check whether the two sheets are coherent. When there is a conflict, the sheet " definitions sitc18_rev3" is given priority.
+- if this fails, categorize as "Produits inconnus" if there is only one good of unknown nature, "Divers incertain" if the good is known but the classification is uncertain, and "Divers mélangés" if several known goods are combined in such a way as to make their categorization impossible.
+
+
+
+
+
+• FURTHER RULES, NOT APPLIED IN THE "DAUDIN" CATEGORIZATION
+
+
+RÈGLES RAPIDES DE SIMPLIFICATION
+
+0) RÈGLE N° 0, ou règle d'or: s'il y a le moindre doute sur la façon dont un produit doit être traité, NE PAS LE TRAITER! Le reporter dans la colonne "simplification" tel quel, ET SURTOUT NE PAS OUBLIER DE MARQUER "doute" dans la colonne "Imprimatur".
+
+1) Répartissez les éléments décrivant le produit en fonction de leur nature:
+
+1.a) catégorie générale: toute formule descriptive recouvrant TOUS les éléments d'un type de produit, comme suit:
+§ dans "bêtes de somme ânes", "drogues médicinales quinquina", TOUS les ânes sont forcément des bêtes de somme, TOUT le quinquina est forcément une drogue médicinale. Donc "bêtes de somme" et "drogues médicinales" sont des catégories générales du produit.
+§ ATTENTION 1: dans "bêtes de somme, principalement en ânes", le produit est "bêtes de somme", PAS ânes, puisqu'il y a autre chose que des ânes. Ce n'est PAS une catégorie générale.
+§ ATTENTION 2: dans "grains comestibles blé froment", IL N'EST PAS VRAI que TOUT blé ou froment est FORCÉMENT "grains", puisque le blé peut être transporté sous forme de farine ou de gruau. DONC "grains comestibles" est une QUALITÉ, PAS une catégorie générale.
+
+1.b) qualité: tout ce qui permet de DIFFÉRENCIER un produit d'un autre produit, c'est-à-dire une description d'une forme du produit parmi une série de n formes. "Grains"/"gruau"/"farine" est une série de qualités; "divers" est une qualité par rapport à toute description plus précise; tout ce qui est de la forme "de rose", "de poisson", "en bois" dénote une origine ou un matériau parmi plusieurs possibles.
+
+1.c) produit: la description minimale de l'objet effectivement taxé, hors qualités. Typiquement, dans "barres d'acier", le produit taxé est l'acier —pas les barres.
+
+2) Eliminer les catégories générales qui par définition n'ajoutent rien à la description du produit.
+
+4) Ordonner alphabétiquement les produits et les qualités, en regroupant les qualités par produit
+
+4.a) La forme finale doit être: produit A qualité a qualité b qualité c produit B qualité a qualité b qualité c produit C qualité a qualité b qualité c etc.
+
+4.b) en cas de doute (produit A produit B qualité a, sans que l'on sache si qualité A porte uniquement sur produit B ou sur les deux produits:  "argent et or monnayé", même en l'absence de "s", peut vouloir dire "argent" et "or monnayé" ou "argent monnayé" et "or monnayé") le qualificatif est mis après le dernier produit sur lequel il peut porter (ici on laisse "argent et or monnayé").
+
+5) supprimer les "ou et "et" inutiles
+
+5.a) "ou" inutile: offre deux versions d'un même produit. Choisir la plus commune ("mercure ou vif-argent" => "mercure »). 
+NB: Ce qui est de la forme "dite", "espèce de", et autres mentions partitives ("espèce de salade"), est aussi à ôter le plus souvent, puisqu’il s’agit de doublons ou de catégories générales.
+§ ATTENTION: veiller à vérifier qu’il s’agisse bien d’une redite! Dans almagro ou crayon rouge, en fait "almagro" est une provenance, et rajoute de l'info... => crayon, rouge, almagro.
+
+5.b) "et" inutile: relie deux produits ou deux qualificatifs, sans modifier les rapports des éléments du produits entre eux ("argent et or monnayé" => "argent or monnayé").
+
+4.c) “acier en planches” —> “planches d’acier”, the logic being that they were buying it for the planches rather than for the acier itself. (same for instance with “fer en cercles”, they were buying for the cercles and thus it becomes “cercles de fer” and so on..)
+
+PROCESSUS NON FINALISÉS à discuter
+
+5) uniformiser les copules diverses
+
+5.a)  »de", "en », « à», «pour». Si les formes ont besoin d’être unifiées, utiliser «de» pour la matière (« barre de fer »), « en » pour le contenant (« cendres en barils») et « pour» pour l’usage (?) 
+
+5.b) "avec" => "et": Bidets de fayence avec leurs prez en bois => bidets de faïence et leurs pieds en bois
+5.c) Unifier les formes adjectivales (en monnaie, monnayé), sur forme la plus simple (moins de mot)
+"argent monnayé", "argent en monnaie" => "argent monnayé"
+
+6) Singulier/pluriel (encore...): vérifier (algorithme VBA ou Stata?), si un substantif ou un qualificatif apparaît au singulier à un endroit et au pluriel à un autre (seul au singulier, en combinaison au pluriel, par exemple) => on passe tout au singulier.
+
+
+7) Unification en classes: c'est le seul niveau ou on fait du qualitatif => à discuter
+
+7.a) supprimer les doublons à contenu identique, ç c'est simple.
+
+7.b) unifier les termes identiques, en privilégiant ceux qui ont leur propre catégories?
+Arbrisseaux n'apparaît qu'en composé, contrairement à arbustes => on change en arbustes
+
+7.c) regrouper en grande catégories en laissant tomber certains aspects (très qualitatif!)?
