@@ -1,5 +1,8 @@
 
 clear all
+
+*set trace on
+
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 ** version 3 : permet d'utiliser les fichiers Units_N2 et Units_N3 avec les nouvelles classifications marchandises
@@ -7,8 +10,9 @@ clear all
 
 if "`c(username)'"=="Corentin" global dir "/Users/Corentin/Desktop/script/" 
 cd "$dir"
-capture log using "`c(current_time)' `c(current_date)'"
+*capture log using "`c(current_time)' `c(current_date)'"
 
+*log using "Version2.txt", text replace
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees bdd_eden_classification bdd_marchandises_normalisees /*
@@ -142,8 +146,10 @@ export delimited "Données Stata/bdd_centrale.csv", replace
 *******************************
 
 cd "$dir/Données Stata"
-***********Unit values
+
+*******************  Unit values
 use "bdd_centrale.dta", clear
+
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
 drop computed_value computed_up
@@ -169,8 +175,6 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_N1.csv", replace
-
-
 
 
 ****Pays*************
@@ -302,7 +306,6 @@ export delimited travail_sitcrev3.csv, replace
 ***********************************************************************************************************************************
 
 
-
 ****************************BDD courante
 
 use "bdd_centrale.dta", clear
@@ -355,12 +358,10 @@ labmask yearnum, values(year)
 drop year
 rename yearnum year
 
-
-
+keep if year > 1769 & year < 1791 /////////////////////////////RAJOUT///////////////////
 
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
-
 
 *** Pour angleterre Eden
 
@@ -368,7 +369,7 @@ export delimited "bdd courante.csv", replace
 ***********************************************************************************************************************************
 *keep if quantity_unit!=""
 
-*use "bdd courante.dta", clear 
+use "bdd courante.dta", clear 
 
 keep if pays_grouping == "Angleterre"
 keep if year > 1769 & year < 1791
@@ -381,89 +382,104 @@ drop _merge
 
 **
 destring q_conv, replace
-generate quantites_metric = q_conv * quantit
 
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
 **
 
+use "bdd_marchandises_normalisees.dta", clear
+	
+	sort marchandises_normalisees
+
+save "bdd_marchandises_normalisees.dta", replace
+
+*********************** MAJ UNITS
+
 *** MAJ fichiers N2 
 
 use "Units_N2.dta", clear
 
-	merge m:m marchandises_normalisees using "bdd_marchandises_normalisees.dta"
+	sort marchandises_normalisees
+	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
+*/	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
+*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
+
+*
+
+	merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
-save "Units_N2.dta", replace
-
 *
-
-use "Units_N2.dta", clear
-
-	merge m:m marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+	
+	merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
 	drop if _merge==2
-	drop _merge
-
-save "Units_N2.dta", replace
-
+	drop _merge	
+	
 *
+
+
+drop if marchandises_simplification==""
 
 drop marchandises_normalisees
 drop marchandises
+drop marchandises_norm_ortho
 
-sort quantity_unit marchandises_norm_ortho
-quietly by quantity_unit marchandises_norm_ortho:  gen dup = cond(_N==1,0,_n)
-drop if dup>1
-drop dup
+bys quantity_unit marchandises_simplification : keep if _n==1
 
-save "Units_N2.dta", replace
+rename quantity_unit quantity_unit_orthographe
+
+save "Units_N2_revised.dta", replace
 
 
 *** MAJ fichiers N3
 
 use "Units_N3.dta", clear
 
-	merge m:m marchandises_normalisees using "bdd_marchandises_normalisees.dta"
-	drop if _merge==2
-	drop _merge
-
-save "Units_N3.dta", replace
+	sort marchandises_normalisees
+	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
+*/	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
+*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
 
 *
 
-use "Units_N3.dta", clear
-
-	merge m:m marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+	merge m:m marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
-save "Units_N3.dta", replace
+*
+
+	merge m:m marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	drop if _merge==2
+	drop _merge	
 
 *
 
 drop marchandises_normalisees
 drop marchandises
+drop marchandises_norm_ortho
 
-sort quantity_unit marchandises_norm_ortho exportsimports pays_grouping
-quietly by quantity_unit marchandises_norm_ortho exportsimports pays_grouping:  gen dup = cond(_N==1,0,_n)
-drop if dup>1
-drop dup
+bys quantity_unit marchandises_simplification exportsimports pays_grouping : keep if _n==1
 
-save "Units_N3.dta", replace
+rename quantity_unit quantity_unit_orthographe
 
+save "Units_N3_revised.dta", replace
 
 
-**
+********************* MERGE UNITS
 use "bdd courante.dta", clear 
 
-merge m:1 quantity_unit marchandises_norm_ortho using "Units_N2.dta"
+merge m:1 quantity_unit_orthographe marchandises_simplification using "Units_N2_revised.dta"
 drop if _merge==2
 drop _merge
 * 3 _merge==2 -> combinaisons nouvelles marchandises_normalisees-quantity_unit viennent de Hambourg (tonneaux de beurre et d'huile de baleine, quartiers d'eau de vie)
 
-merge m:1 quantity_unit marchandises_norm_ortho exportsimports pays_grouping using "Units_N3.dta"
+su q_conv 
+
+merge m:1 quantity_unit_orthographe marchandises_simplification exportsimports pays_grouping using "Units_N3_revised.dta"
 drop if _merge==2
 drop _merge
 replace quantity_unit_ajustees = n2_quantity_unit_ajustees  if n2_quantity_unit_ajustees!=""
@@ -481,11 +497,10 @@ replace remarque_unit=n2_remarque_unit if n2_remarque_unit!=""
 replace remarque_unit =n3_remarque_unit if n3_remarque_unit!=""
 drop n2_u_conv n3_u_conv n2_q_conv n3_q_conv n2_remarque_unit n3_remarque_unit
 *** à la fin il y a 64 635 observations -> les 64 633 de départ + les 3 issues des combinaisons nouvelles marchandises_normalisees-quantity_unit venant de Hambourg
-*********************************
-
+*************************** ******
+su q_conv 
 *
 
-replace quantites_metric = q_conv * quantit
 
 *keep if pays_grouping == "Angleterre"
 *keep if year > 1769 & year < 1791
@@ -494,19 +509,71 @@ replace quantites_metric = q_conv * quantit
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
+generate quantites_metric = q_conv * quantit
+*drop if quantit == .
+*drop if quantity_unit == ""
+su quantites_metric
 
+*log close
 /*
-********
-use "$dir/bdd courante", replace 
+********************* Units
 
-keep if year=="1750"
-keep if direction=="Bordeaux"
-keep if exportsimports=="Imports"
-keep source sourcetype year exportsimports direction marchandises pays value quantit quantity_unit prix_unitaire probleme remarks quantit_unit pays_corriges marchandises_normalisees value_calcul prix_calcul
-sort marchandises pays
+use "bdd_centrale.dta", clear
+
+merge m:1 quantity_unit using "Units_N2_revised.dta"
+drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop computed_value computed_up
+
+capture drop source_bdc
+generate source_bdc=0
+label variable source_bdc "1 si présent dans la source française, 0 sinon"
+replace source_bdc=1 if _merge==3 | _merge==1
+replace source_bdc=0 if _merge==2
 
 
-export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Pour comparaison Bordeaux 1750.csv", replace
+foreach variable of var quantity_unit quantity_unit_ajustees  {
+	capture drop nbr_bdc_`variable'
+	generate nbr_bdc_`variable'=0
+	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
+	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+}
 
+drop _merge
+bys quantity_unit : keep if _n==1
+*save "Units_N2.dta", replace
+generate sortkey = ustrsortkey(quantity_unit, "fr")
+sort sortkey
+drop sortkey
+export delimited "Units_N2_revised.csv", replace
+
+***
+
+use "bdd_centrale.dta", clear
+
+merge m:1 quantity_unit using "Units_N3_revised.dta"
+drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop computed_value computed_up
+
+capture drop source_bdc
+generate source_bdc=0
+label variable source_bdc "1 si présent dans la source française, 0 sinon"
+replace source_bdc=1 if _merge==3 | _merge==1
+replace source_bdc=0 if _merge==2
+
+
+foreach variable of var quantity_unit quantity_unit_ajustees  {
+	capture drop nbr_bdc_`variable'
+	generate nbr_bdc_`variable'=0
+	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
+	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+}
+
+drop _merge
+bys quantity_unit : keep if _n==1
+*save "Units_N3.dta", replace
+generate sortkey = ustrsortkey(quantity_unit, "fr")
+sort sortkey
+drop sortkey
+export delimited "Units_N3_revised.csv", replace
 
 

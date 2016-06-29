@@ -4,70 +4,78 @@
 if "`c(username)'"=="Corentin" global dir "/Users/Corentin/Desktop/script/Données Stata" 
 cd "$dir"
 
+use "bdd_marchandises_normalisees.dta", clear
+	
+	sort marchandises_normalisees
+
+save "bdd_marchandises_normalisees.dta", replace
+
+*
+
 *** MAJ fichiers N2 
 
-use "/Users/Corentin/Desktop/script/Données Stata/Units_N2.dta", clear
+use "Units_N2.dta", clear
 
-	merge m:m marchandises_normalisees using "/Users/Corentin/Desktop/script/Données Stata/bdd_marchandises_normalisees.dta"
-	drop if _merge==2
-	drop _merge
-
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N2.dta", replace
+	sort marchandises_normalisees
+	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta"
+	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
 
 *
 
-use "/Users/Corentin/Desktop/script/Données Stata/Units_N2.dta", clear
-
-	merge m:m marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
+	merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N2.dta", replace
-
 *
+	
+	merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	drop if _merge==2
+	drop _merge	
+	
+*
+
+
+drop if marchandises_simplification==""
 
 drop marchandises_normalisees
 drop marchandises
+drop marchandises_norm_ortho
 
-sort quantity_unit marchandises_norm_ortho
-quietly by quantity_unit marchandises_norm_ortho:  gen dup = cond(_N==1,0,_n)
-drop if dup>1
-drop dup
+bys quantity_unit marchandises_simplification : keep if _n==1
 
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N2.dta", replace
+
+save "Units_N2_revised.dta", replace
 
 
 *** MAJ fichiers N3
 
-use "/Users/Corentin/Desktop/script/Données Stata/Units_N3.dta", clear
+use "Units_N3.dta", clear
 
-	merge m:m marchandises_normalisees using "/Users/Corentin/Desktop/script/Données Stata/bdd_marchandises_normalisees.dta"
-	drop if _merge==2
-	drop _merge
-
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N3.dta", replace
+	sort marchandises_normalisees
+	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta"
+	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
 
 *
-
-use "/Users/Corentin/Desktop/script/Données Stata/Units_N3.dta", clear
 
 	merge m:m marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N3.dta", replace
+*
+
+	merge m:m marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	drop if _merge==2
+	drop _merge	
 
 *
 
 drop marchandises_normalisees
 drop marchandises
+drop marchandises_norm_ortho
 
-sort quantity_unit marchandises_norm_ortho exportsimports pays_grouping
-quietly by quantity_unit marchandises_normalisees exportsimports pays_grouping:  gen dup = cond(_N==1,0,_n)
-drop if dup>1
-drop dup
+bys quantity_unit marchandises_simplification exportsimports pays_grouping : keep if _n==1
 
-save "/Users/Corentin/Desktop/script/Données Stata/Units_N3.dta", replace
+save "Units_N3_revised.dta", replace
 
 
 
