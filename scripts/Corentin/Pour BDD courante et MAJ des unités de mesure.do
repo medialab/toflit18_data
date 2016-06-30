@@ -402,6 +402,7 @@ use "Units_N2.dta", clear
 
 	sort marchandises_normalisees
 	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	drop _merge
 	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
 */	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
 */  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
@@ -440,6 +441,7 @@ use "Units_N3.dta", clear
 
 	sort marchandises_normalisees
 	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	drop _merge	
 	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
 */	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
 */  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
