@@ -69,57 +69,70 @@ def clean_float_string(f):
 with open(output_filename,"r") as output_file:
 	lines = csvkit.DictReader(output_file)
 	lines.next()
+	headers=lines.fieldnames
 	lines=list(lines)
-	nb_lines_before = len(lines)
-	lines = [d for d in lines if not d["source"]=="" ]
-	lines = [d for d in lines if not(d["value"]=="0" and d["quantit"]=="" and d["prix_unitaire"]=="")] #Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0
-	lines = [d for d in lines if not( (d["value"]=="0" or d["value"]=="") and (d["quantit"]=="" or d["quantit"]=="0") and (d["prix_unitaire"]=="" or d["prix_unitaire"]=="0"))]
-	print "removed %s empty or missing value lines"%(nb_lines_before - len(lines))
 
-	nb_value_set_null=0
-	for d in lines :
-		# false 0 to null
-		if d["value"]=="0" and d["quantit"]!="" and d["quantit"]!="0":
-			nb_value_set_null+=1
-			d["value"]="" 
-	#18000
-	print "removed %s false 0 values"%nb_value_set_null 
+nb_lines_before = len(lines)
 
-	nb_computed_value=0
-	for d in lines :
-		# Was the d["value"] computed expost based on unit price and quantities ? 0 no 1 yes
-		if (d["value"]=="0" or d["value"]=="") and d["prix_unitaire"]!="0" and d["prix_unitaire"]!="" and d["quantit"]!="0" and d["quantit"]!="":
-			d["computed_value"]=1
-			q=clean_float_string(d["quantit"])
-			pu=clean_float_string(d["prix_unitaire"])
-			try :
-				d["value"] = float(q)*float(pu)
-			except :
-				print "can't parse to float q: '%s' pu:'%s' "%(q,pu)
-				d["value"]=""
-			nb_computed_value+=1
-		else :
-			d["computed_value"]=0
-	print "computed %s values from quantit*prix_unitaire "%nb_computed_value
-	#10000
+empty_value = lambda v : v=="0" or v=="." or v=="" or v=="?"
+
+lines = [d for d in lines if not d["source"]=="" ]
+lines = [d for d in lines if not(d["value"]=="0" and d["quantit"]=="" and d["prix_unitaire"]=="")] #Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0
+lines = [d for d in lines if not(empty_value(d["value"]) and empty_value(d["quantit"]) and empty_value(d["prix_unitaire"]))]
+print "removed %s empty or missing value lines"%(nb_lines_before - len(lines))
+
+nb_value_set_null=0
+nb_computed_value=0
+nb_computed_value=0
+for d in lines :
+	# false 0 to null
+	if d["value"]=="0" and not empty_value(d["quantit"]):
+		nb_value_set_null+=1
+		d["value"]="" 
+
+	# Was the d["value"] computed expost based on unit price and quantities ? 0 no 1 yes
+	if empty_value(d["value"]) and not empty_value(d["prix_unitaire"]) and not empty_value(d["quantit"]):
+		d["computed_value"]=1
+		q=clean_float_string(d["quantit"])
+		pu=clean_float_string(d["prix_unitaire"])
+		try :
+			d["value"] = float(q)*float(pu)
+		except :
+			print "can't parse to float q: '%s' pu:'%s' "%(q,pu)
+			d["value"]=""
+		nb_computed_value+=1
+	else :
+		d["computed_value"]=0
 
 	# Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
-	nb_computed_value=0
-	for d in lines:
-		if (d["prix_unitaire"]=="0" or d["prix_unitaire"]=="") and d["value"]!="0" and d["value"]!="" and d["quantit"]!="0" and d["quantit"]!="" and d["quantit"]!="?":
-			d["replace computed_up"]=1
-			q=clean_float_string(d["quantit"])
-			v=clean_float_string(d["value"])
-			try:
-				d["prix_unitaire"] = float(v)/float(q)
-			except:
-				print "can't parse to float q: '%s' v:'%s' "%(q,v)
-				d["prix_unitaire"]=""
+	if empty_value(d["prix_unitaire"]) and not empty_value(d["value"]) and not empty_value(d["quantit"]):
+		d["replace_computed_up"]=1
+		q=clean_float_string(d["quantit"])
+		v=clean_float_string(d["value"])
+		try:
+			d["prix_unitaire"] = float(v)/float(q)
+		except:
+			print "can't parse to float q: '%s' v:'%s' "%(q,v)
+			d["prix_unitaire"]=""
 
-			nb_computed_value+=1
-		else :
-			d["replace computed_up"]=0
-	#82000
-	print "computed %s prix_unitaire from value/quantit"%nb_computed_value
+		nb_computed_value+=1
+	else :
+		d["replace_computed_up"]=0
 
-	#83000 // 200
+	# transform "." and "?" into ""
+	for field in ["value","quantit","prix_unitaire"]:
+		if d[field] in [".","?"]:
+			d[field]=""
+
+#18000
+print "removed %s false 0 values"%nb_value_set_null 
+#10000
+print "computed %s values from quantit*prix_unitaire "%nb_computed_value
+#82000
+print "computed %s prix_unitaire from value/quantit"%nb_computed_value
+#83000 // 200
+
+with open(output_filename,"w") as output_file:
+	writefile=csvkit.DictWriter(output_file,fieldnames=headers+["computed_value","replace_computed_up"])
+	writefile.writeheader()
+	writefile.writerows(lines)
