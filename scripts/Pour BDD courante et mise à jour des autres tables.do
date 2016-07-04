@@ -5,7 +5,7 @@ version 14.1
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
-global dir "C:\Users\federico.donofrio\Dropbox\Correnti\TOFLIT"
+global dir "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
 
@@ -14,7 +14,7 @@ foreach file in classification_country_orthographic_normalization classification
 */               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3 {
 
-	import delimited "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -37,7 +37,7 @@ foreach file in classification_country_orthographic_normalization classification
 
 foreach file in travail_sitcrev3 sitc18_simpl {
 
-	import delimited "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data/traitements_marchandises/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "toflit18_data_GIT/traitements_marchandises/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 		foreach variable of var * {
 			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -56,7 +56,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 }
 		
 		
-import delimited "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -82,7 +82,7 @@ import delimited "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data/trai
  *(juste parce que c'est trop long)
 
 
-import delimited "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
