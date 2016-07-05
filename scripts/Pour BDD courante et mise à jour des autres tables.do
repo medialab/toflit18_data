@@ -21,6 +21,7 @@ foreach file in classification_country_orthographic_normalization classification
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
 		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 		replace `variable' =usubinstr(`variable',"’","'",.)
 		capture	replace `variable'  =ustrtrim(`variable')
@@ -44,6 +45,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 			capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+			capture replace `variable'  =usubinstr(`variable',"u","œ",.)
 			capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 			replace `variable' =usubinstr(`variable',"’","'",.)
 			capture	replace `variable'  =ustrtrim(`variable')
@@ -63,6 +65,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable',"u","œ",.)
 		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 		replace `variable' =usubinstr(`variable',"’","'",.)
 		capture	replace `variable'  =ustrtrim(`variable')
@@ -88,6 +91,7 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"…","...",.)
+	replace `variable'  =usubinstr(`variable',"u","œ",.)
 	replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 	replace `variable' =usubinstr(`variable',"’","'",.)
 	replace `variable'  =ustrtrim(`variable')
@@ -101,6 +105,7 @@ foreach variable of var quantit value prix_unitaire {
 	replace `variable'  =usubinstr(`variable'," ","",.)
 	replace `variable'  =usubinstr(`variable'," ","",.)
 	replace `variable' =usubinstr(`variable',"’","'",.)
+	replace `variable'  =usubinstr(`variable',"u","œ",.)
 	capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 	replace `variable'  =usubinstr(`variable',char(202),"",.)
 	*edit  if missing(real(`variable')) & `variable' != ""
