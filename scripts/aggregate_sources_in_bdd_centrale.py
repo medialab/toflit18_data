@@ -8,6 +8,7 @@ SIMPLE_QUOTES = ur"[’‘`‛']"
 SPACES_COMPACTING = ur'\s+'
 ELLIPSIS = ur'…'
 HYPHEN = ur'–'
+OEWRONG=ur'u'
 
 # Daudin's cleaning process
 def clean(s):
@@ -20,6 +21,9 @@ def clean(s):
 	s = re.sub(DOUBLE_QUOTES, '"', s)
 	s = re.sub(SIMPLE_QUOTES, "'", s)
 	s = re.sub(SPACES_COMPACTING, " ", s)
+	s = re.sub(OEWRONG, "œ", s)
+	
+	#IL FAUDRAIT RAJOUTER ICI LE Œ FAUTIF, MAIS JE NE SAIS PAS COMMENT FAIRE
 
 	return s
 
@@ -90,8 +94,10 @@ for d in lines :
 		nb_value_set_null+=1
 		d["value"]="" 
 
+
+	#À CHANGER : IL FAUT DONNER LA PRIORITÉ AUX VALEURS CALCULÉES % AUX VALEURS 
 	# Was the d["value"] computed expost based on unit price and quantities ? 0 no 1 yes
-	if empty_value(d["value"]) and not empty_value(d["prix_unitaire"]) and not empty_value(d["quantit"]):
+	if not empty_value(d["prix_unitaire"]) and not empty_value(d["quantit"]):
 		d["computed_value"]=1
 		q=clean_float_string(d["quantit"])
 		pu=clean_float_string(d["prix_unitaire"])
