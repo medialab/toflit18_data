@@ -8,7 +8,9 @@ SIMPLE_QUOTES = ur"[’‘`‛']"
 SPACES_COMPACTING = ur'\s+'
 ELLIPSIS = ur'…'
 HYPHEN = ur'–'
-OEWRONG=ur'u'
+
+#IL FAUDRAIT RAJOUTER ICI LE Œ FAUTIF, MAIS JE NE SAIS PAS COMMENT FAIRE
+OEWRONG=ur'u'
 
 # Daudin's cleaning process
 def clean(s):
@@ -21,10 +23,7 @@ def clean(s):
 	s = re.sub(DOUBLE_QUOTES, '"', s)
 	s = re.sub(SIMPLE_QUOTES, "'", s)
 	s = re.sub(SPACES_COMPACTING, " ", s)
-	s = re.sub(OEWRONG, "œ", s)
-	
-	#IL FAUDRAIT RAJOUTER ICI LE Œ FAUTIF, MAIS JE NE SAIS PAS COMMENT FAIRE
-
+	#s = re.sub(OEWRONG, u"œ", s)
 	return s
 
 output_filename="../base/bdd_centrale.csv"
@@ -55,7 +54,7 @@ for row in sources_aggregation:
 
 headers=set(headers)
 headers=[h for h in  headers if h not in ordered_headers]
-headers=ordered_headers+headers+["computed_value","computed_up"]
+headers=ordered_headers+headers
 with open(output_filename,"w") as output_file:
 	agg_csv=csvkit.DictWriter(output_file,headers, encoding="utf-8")
 	agg_csv.writeheader()
@@ -89,6 +88,7 @@ nb_value_set_null=0
 nb_computed_value=0
 nb_computed_value=0
 for d in lines :
+	d["value_as_reported"] = d["value"]
 	# false 0 to null
 	if d["value"]=="0" and not empty_value(d["quantit"]):
 		nb_value_set_null+=1
@@ -137,8 +137,10 @@ print "computed %s values from quantit*prix_unitaire "%nb_computed_value
 #82000
 print "computed %s prix_unitaire from value/quantit"%nb_computed_value
 #83000 // 200
-
+for extra_header in ["value_as_reported","computed_value","replace_computed_up"]:
+	if extra_header not in headers:
+		headers+=[extra_header]
 with open(output_filename,"w") as output_file:
-	writefile=csvkit.DictWriter(output_file,fieldnames=headers+["computed_value","replace_computed_up"])
+	writefile=csvkit.DictWriter(output_file,fieldnames=headers)
 	writefile.writeheader()
 	writefile.writerows(lines)
