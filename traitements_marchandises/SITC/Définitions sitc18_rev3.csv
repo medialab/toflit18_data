@@ -1,14 +1,14 @@
 Codes moi,sitc18_rev3,labelfrançais,labelanglais,Description générale,modifs SITC21,,sitc18_rev3
 10,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,"sauf boissons alcolisées et tabac; y compris céréales, poissons, fruits et légumes, jus de fruits et légumes, sirops (sauf si possible présence d'alcool, en 1, ou possible utilisation médicamenteuse type extrait, esprit, en 5), vinaigres, lait et produits laitiers, épices, fourrages.",- sirops possiblement alcoolisés reclassés en 1,,0a
-20,0b,Produits alimentaires des plantations coloniales,Plantation foodstuff,"sauf boissons alcolisées et tabac; y compris céréales, fruits et légumes, épices, fourrages mais seulement si originaires des plantations coloniales. NB: origine fonctionnelle (type d'unité de production) et non géographique, la morue de Terre-Neuve ou la viande de castor sont classées en 0a",,,0b
-100,1,Boissons et tabac,Beverages and tobacco,"boissons alcolisées, eau, boissons n.d.a ou au statut alcoolisé incertain (""liqueurs en sirop"") à condition d'être clairemment comestible; en cas de statut médicinal possible, renvoi en 5.",- sirops non lcoolisés systématiquement classés en 0a,,1
+20,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,"sauf boissons alcolisées et tabac; y compris céréales, fruits et légumes, épices, fourrages mais seulement si originaires desrégions de colonisation européenne: Amériques/Indes occidentales, Inde/Indes orientales/réunion, etc.. NB: seulement produit agricole et non seule origine géographique, la morue de Terre-Neuve ou la viande de castor sont classées en 0a. Si un  produit est cultivé à la fois dans les régions de colonisation et dans d'autres régions extra-européennes (Levant, Afrique du Nord, Chine...), le produit est tout de même classé en 0b comme produit colonial. En cas de doute sur la présence ou non du produit en Europe, ou de description incertaine, en revanche, classer en 0a; également en 0a si le produit peut avoir été transformé en Europe.",,,0b
+100,1,Boissons et tabac,Beverages and tobacco,"boissons alcolisées, eau, boissons n.d.a ou au statut alcoolisé incertain (""liqueurs en sirop"") à condition d'être clairemment comestible; en cas de statut médicinal possible, renvoi en 5.",- sirops non alcoolisés systématiquement classés en 0a,,1
 200,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","sauf combustibles (bois de chauffage, tourbe, charbon de bois), en 6a; pigments et colorants y compris naturels bruts, en 5;
 y compris
-- bois bruts sciés ou non sans mention de façonnage, uniquement présentés comme ""bois"" de quelque chose ou de quelque part sciés ou en bûches, autrement classés en 6b;
+- bois bruts sciés ou non sans aucune mention de façonnage ou de calibrage, uniquement présentés comme ""bois"" de quelque chose ou de quelque part sciés ou en bûches, autrement classés en 6b;
 - bambou, rotin;
 - graines et fruits oleagineux avant transformation, graines semences même de produits comestibles, plantes entières ou en partie y compris fleurs, racines, feuilles, résines et gommes,à usage non comestible (usage médicinal, pour les manufactures, etc.); sauf produits colorants et teinturiers même naturels, classés en 5;
 - toute fibre textile brute (soie ou filoselle, coton, jute, lin, chanvre, laine...) qu'elle soit animale ou végétale;
-- cuirs et peaux explicitement bruts (""vertes"", ""crues"", ""en poil"" ou ""fourrure""); en cas de doute, classer en 6a;
+- cuirs et peaux explicitement bruts (""vertes"", ""crues"", ""en poil"" ou ""fourrure""); en cas de doute ou d'indication contradictoire, classer en 6a;
 - tous déchets de matières organiques (fumier, cendre hors cendres à teintures signalées par une couleur...); également déchets de tissus (chiffons, friperie);
 - toute pierre, sable ou minéral bruts (craie, soufre, bitume, pyrite de fer, etc.), y compris en poudre ou en solution, y compris plâtre, y compris  le sel commun NaCl (mais non raffinés:  ""sels"" autres que NaCl supposés raffinés, et donc mis en 5), sauf pierre taillée ou travaillée, classée en 6k; tout déchet minéral (dérivés de la fabrication du fer ou de l'acier, par ex.), et sauf produits colorants et teinturiers; en cas de doute sur une éventuelle nature composée ou teinturière (produit utilisé non précisé, comme dans les ""poudres"" diverses), classer en 5
 - os, corne, ivoire, écaille, ambre, coquillage, nacre non transformés en objet (si qualificatif ""monté"" ou ""travaillé"", renvoyer en 8)
@@ -28,9 +28,9 @@ Y compris
 - poudres, explosifs.","- médicaments naturels au statut incertain reclassés en 2
 - minéraux et végétaux ayant subi une première transformatiuon (extraits, broyés...) mais sans modifier leur composition initiale laissés en 2",,5
 610,6a,"Cuirs, peaux et produits dérivés hors sellerie",Leather products except saddlery,"peaux et pelleteries traitées (mais non taillées et cousues en habits et chaussures, à rejeter en 8); hors peaux signalées comme brutes (""en poil"", ""fourrure"", e.g.); hors sellerie (tous articles utilisés pour les transports), renvoyés en 7; et hors matériel de voyage (renvoyé en 8).",- sellerie reclassée en 7,,6a
-630,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","hors meubles, en 8, et outils en bois, en 6j; tous ouvrages en bois/liège/jonc travaillé; tout bois transformé sauf quand la transformation est en lien avec la teinture ou la médecine, dans ce cas en 5; toute tonnellerie et seaux, même incluant des pièces en fer; hors vannerie, rejetée en 8","- bois façonné non travaillé transféré de 2;
+630,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","hors meubles, en 8, bois de teinture et médicinaux en 5, et outils en bois, en 6j; tous ouvrages en bois/liège/jonc travaillé; tout bois transformé sauf quand la transformation est en lien avec la teinture ou la médecine, dans ce cas en 5; toute tonnellerie et seaux, même incluant des pièces en fer; hors vannerie, rejetée en 8, et cordages en 6i","- bois façonné non travaillé transféré de 2;
 - outils en bois rejetés en 6j",,6b
-640,6c,Papier,Paper products,"produits du papier sauf imprimés ou livres n'impliquant aucune intervention de l'utilisateur car entièrement finis; registres et cahiers vierges sont inclus, mais pas livres ou journaux, à rejeter en 8",,,6c
+640,6c,Papier,Paper products,"produits du papier sauf imprimés ou livres n'impliquant aucune intervention de l'utilisateur car entièrement finis, y compris papiers peints et à tapisser; registres et cahiers vierges sont inclus, mais pas livres ou journaux, à rejeter en 8",,,6c
 651,6d,Filés ou tissés de lin et/ou chanvre et/ou jute et/ou ramie,Linen threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, d'une seule fibre végétale hors coton","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6d
 652,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, de fibres animales hors soie","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6e
 653,6f,Filés ou tissés de soie et soie mélangée ,Silk threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, contenant de la soie","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6f
@@ -47,12 +47,12 @@ Y compris:
 - verrerie: vaiselle, miroirs, vitres;
 - pierres précieuses et semi-précieuses sans mention de monture;
 - pierres taillées, statues.",,,6k
-700,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Toute machine entière, tout objet utilisé pour le transport, y compris les objets en cuir urilisés en sellerie, toutes pièces détachées de moyens de transport (en cas de doute sur l'utilisation de la pièce détachée, rejeter dans une autre catégorie), hors meules, rejetées en 6k.",sellerie transférée de 6a,,7
+700,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Toute machine entière, tout objet utilisé pour le transport, y compris les objets en cuir urilisés en sellerie, toutes pièces détachées de moyens de transport ou objet dont l'usage est exclusivement lié à un moyen de transport (en cas de doute sur l'utilisation de la pièce détachée, rejeter dans une autre catégorie), hors meules, rejetées en 6k.",sellerie transférée de 6a,,7
 800,8,Articles manufacturés divers n.d.a,Various manufactures,"Tout ce qui reste ou est exclu des précédents, y compris:
 - chaudières, sanitaires;
 - lampes;
 - meubles de tous types, y compris parures de meubles, hors nappes et serviettes ;
-- tout sac de voyage, malle, nécessaire, gaine, étui, poudrier, tabatière, bourse, porte-monnaie, etc.;
+- tout sac de voyage, malle, nécessaire, gaine, étui, poudrier, tabatière ,boîtes, bourse, porte-monnaie, etc.;
 - tous vêtements et chaussures;
 - accessoires de vêtements: mouchoirs, châles, cravates, bas, chapeaux, boutons, perruques, peignes, etc., hors rubanerie et passementerie (rubans, ganses, cordons et cordonnets, tresses, lacets en tissu, galons, ""agréments"",  etc., y compris d'or et d'argent) rejetée dans les catégories en 6 et lacets en cuir, rejetés en 6a;
 - instruments scientifiques y compris médecine, balances, boussoles, horlogerie, lunettes;
@@ -63,7 +63,7 @@ Y compris:
 - os, corne, ivoire, écaille, ambre, coquillage, nacre ou parties d'animaux travaillés ou transformés;
 - varia: bougies, allumettes (et par extension mèches), pipes, parapluies, cannes, fouets;
 - balais, brosses, pinceaux, houppes
-- tamis, nattes, ouvrages de vannerie",,,8
+- tamis, nattes, ouvrages de vannerie explicitement décrits (si osier, jonc, etc., seulement signalé comme ouvré ou travaillé sans précision sur l'objet produit, rejeté en 6b)",,,8
 910,9a,Monnaies et métaux précieux,Precious metals,,,,9a
 920,9b,Divers mélangés,Mixed flows,Plusieurs produits de nature différente sur une seule ligne,,,9b
 930,9c,Divers incertains,Various uncertain,Produits de degrés de transformation incertain ou de matière première incertaine,,,9c
