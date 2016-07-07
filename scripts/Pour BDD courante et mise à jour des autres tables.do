@@ -12,7 +12,8 @@ capture log using "`c(current_time)' `c(current_date)'"
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees /*
-*/				 Units_N1 Units_N2 Units_N3 {
+*/				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
+*/				 bdd_revised_classification_medicinales bdd_revised_classification_hamburg {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -279,28 +280,35 @@ drop sortkey
 export delimited bdd_revised_marchandises_simplifiees.csv, replace
 **
 
-use "travail_sitcrev3.dta", clear
-bys marchandises_simplification : drop if _n!=1
-save "travail_sitcrev3.dta", replace
+foreach file_on_simp in travail_sitcrev3 bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_revised_classification_medicinales bdd_revised_classification_hamburg {
 
-use "bdd_revised_marchandises_simplifiees.dta", clear
-merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
+	use "`file_on_simp'.dta", clear
+	bys marchandises_simplification : drop if _n!=1
+	save "`file_on_simp'.dta", replace
 
-
-drop marchandises_norm_ortho 
-
-*drop if _merge==2
-replace obsolete = "oui" if _merge==2
-replace obsolete = "non" if _merge!=2
-drop _merge
-bys marchandises_simplification : keep if _n==1
+	use "bdd_revised_marchandises_simplifiees.dta", clear
+	merge m:1 marchandises_simplification using "`file_on_simp'.dta"
 
 
-save "travail_sitcrev3.dta", replace
-generate sortkey = ustrsortkey(marchandises_simplification, "fr")
-sort sortkey
-drop sortkey
-export delimited travail_sitcrev3.csv, replace
+	drop marchandises_norm_ortho 
+
+	*drop if _merge==2
+	capture gen obsolete=""
+	replace obsolete = "oui" if _merge==2
+	replace obsolete = "non" if _merge!=2
+	drop _merge
+	capture bys marchandises_simplification : keep if _n==1
+
+	
+	capture generate sortkey = ustrsortkey(marchandises_simplification, "fr")
+	sort sortkey
+	drop sortkey
+	
+
+	save "`file_on_simp'.dta", replace
+	export delimited `file_on_simp'.csv, replace
+
+}
 
 
 ***********************************************************************************************************************************
@@ -410,7 +418,7 @@ drop N2_u_conv N3_u_conv N2_q_conv N3_q_conv N2_Remarque_unit N3_Remarque_unit
 save "$dir/bdd courante", replace
 
 
-end
+/*
 ********
 use "$dir/bdd courante", replace 
 
