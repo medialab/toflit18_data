@@ -15,7 +15,7 @@ cd "$dir"
 *log using "Version2.txt", text replace
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
-*/               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees bdd_eden_classification bdd_marchandises_normalisees /*
+*/               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees bdd_classification_edentreaty bdd_marchandises_normalisees /*
 */				 Units_N1 Units_N2 Units_N3 {
 
 	import delimited "toflit18_data/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
@@ -335,7 +335,7 @@ merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dt
 drop if _merge==2
 drop _merge
 
-merge m:1 marchandises_simplification using "bdd_eden_classification.dta"
+merge m:1 marchandises_simplification using "bdd_classification_edentreaty.dta"
 drop if _merge==2
 drop _merge
 
@@ -439,6 +439,8 @@ save "Units_N2_revised.dta", replace
 
 use "Units_N3.dta", clear
 
+	rename pays_regroupes pays_grouping
+
 	sort marchandises_normalisees
 	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
 	drop _merge	
@@ -448,13 +450,13 @@ use "Units_N3.dta", clear
 
 *
 
-	merge m:m marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
+	merge m:1 marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
 *
 
-	merge m:m marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
 	drop if _merge==2
 	drop _merge	
 
@@ -508,10 +510,11 @@ su q_conv
 *keep if year > 1769 & year < 1791
 *drop if eden_classification == ""
 
+generate quantites_metric = q_conv * quantit
+
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
-generate quantites_metric = q_conv * quantit
 *drop if quantit == .
 *drop if quantity_unit == ""
 su quantites_metric
