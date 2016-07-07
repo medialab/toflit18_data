@@ -43,20 +43,27 @@ gen droit_eden_value = value * droit_eden_valorem if year > 1786
 	
 	
 //////// Anciens droits
-	replace droit_eden_value = (quantites_metric_eden * 9.55 * 25) / 20 if eden_classification == "Eau de vie de France" & year < 1786
-	replace droit_eden_value = (quantites_metric_eden * 67.265 * 25) if eden_classification == "Vinaigre de France" & year < 1786
-	replace droit_eden_value = (quantites_metric_eden * 96.2 * 25) if eden_classification == "Vin de France" & year < 1786
+	replace droit_eden_value = (quantites_metric_eden * 9.55 * 25) / 20 if eden_classification == "Eau de vie de France" & year < 1787
+	replace droit_eden_value = (quantites_metric_eden * 67.265 * 25) if eden_classification == "Vinaigre de France" & year < 1787
+	replace droit_eden_value = (quantites_metric_eden * 96.2 * 25) if eden_classification == "Vin de France" & year < 1787
 	
 	
-	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Eau de vie de France" & year < 1786
-	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Vinaigre de France" & year < 1786
-	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Vin de France" & year < 1786
+	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Eau de vie de France" & year < 1787
+	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Vinaigre de France" & year < 1787
+	replace droit_eden_valorem = (droit_eden_value / value) if eden_classification == "Vin de France" & year < 1787
 
 	
-		su droit_eden_valorem if eden_classification == "Vinaigre de France" & year < 1786
+		su droit_eden_valorem if eden_classification == "Vinaigre de France" & year < 1787
 		su droit_eden_valorem if eden_classification == "Vinaigre de France" & year > 1786
-		su droit_eden_valorem if eden_classification == "Eau de vie de France" & year < 1786
+		su droit_eden_valorem if eden_classification == "Eau de vie de France" & year < 1787
 		su droit_eden_valorem if eden_classification == "Eau de vie de France" & year > 1786
-		su droit_eden_valorem if eden_classification == "Vin de France" & year < 1786
+		su droit_eden_valorem if eden_classification == "Vin de France" & year < 1787
 		su droit_eden_valorem if eden_classification == "Vin de France" & year > 1786
 	
+gen prohibition = 0
+replace prohibition = 1 if eden_classification == "Soie"
+replace prohibition = 1 if eden_classification == "Prohibé"
+replace prohibition = 1 if eden_classification == "Coton de toute espèce" & year < 1787 & exportsimports == "Imports"
+replace prohibition = 1 if eden_classification == "Hardware" & year < 1787 & exportsimports == "Imports"
+replace prohibition = 1 if eden_classification == "Lainage" & year < 1787 & exportsimports == "Imports"
+
