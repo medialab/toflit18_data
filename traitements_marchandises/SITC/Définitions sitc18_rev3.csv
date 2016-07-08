@@ -7,7 +7,7 @@ y compris
 - bois bruts sciés ou non sans aucune mention de façonnage ou de calibrage, uniquement présentés comme ""bois"" de quelque chose ou de quelque part sciés ou en bûches, autrement classés en 6b;
 - bambou, rotin;
 - graines et fruits oleagineux avant transformation, graines semences même de produits comestibles, plantes entières ou en partie y compris fleurs, racines, feuilles, résines et gommes,à usage non comestible (usage médicinal, pour les manufactures, etc.); sauf produits colorants et teinturiers même naturels, classés en 5;
-- toute fibre textile brute (soie ou filoselle, coton, jute, lin, chanvre, laine...) qu'elle soit animale ou végétale;
+- toute fibre textile brute non filée ou tissée (soie ou filoselle, coton, jute, lin, chanvre, laine...) qu'elle soit animale ou végétale, même avec première transformation (cardage ou peignage, par exemple);
 - cuirs et peaux explicitement bruts (""vertes"", ""crues"", ""en poil"" ou ""fourrure""); en cas de doute ou d'indication contradictoire, classer en 6a;
 - tous déchets de matières organiques (fumier, cendre hors cendres à teintures signalées par une couleur...); également déchets de tissus (chiffons, friperie);
 - toute pierre, sable ou minéral bruts (craie, soufre, bitume, pyrite de fer, etc.), y compris en poudre ou en solution, y compris plâtre, y compris  le sel commun NaCl (mais non raffinés:  ""sels"" autres que NaCl supposés raffinés, et donc mis en 5), sauf pierre taillée ou travaillée, classée en 6k; tout déchet minéral (dérivés de la fabrication du fer ou de l'acier, par ex.), et sauf produits colorants et teinturiers; en cas de doute sur une éventuelle nature composée ou teinturière (produit utilisé non précisé, comme dans les ""poudres"" diverses), classer en 5
@@ -31,17 +31,17 @@ Y compris
 630,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","hors meubles, en 8, bois de teinture et médicinaux en 5, et outils en bois, en 6j; tous ouvrages en bois/liège/jonc travaillé; tout bois transformé sauf quand la transformation est en lien avec la teinture ou la médecine, dans ce cas en 5; toute tonnellerie et seaux, même incluant des pièces en fer; hors vannerie, rejetée en 8, et cordages en 6i","- bois façonné non travaillé transféré de 2;
 - outils en bois rejetés en 6j",,6b
 640,6c,Papier,Paper products,"produits du papier sauf imprimés ou livres n'impliquant aucune intervention de l'utilisateur car entièrement finis, y compris papiers peints et à tapisser; registres et cahiers vierges sont inclus, mais pas livres ou journaux, à rejeter en 8",,,6c
-651,6d,Filés ou tissés de lin et/ou chanvre et/ou jute et/ou ramie,Linen threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, d'une seule fibre végétale hors coton","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6d
+651,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, d'une seule fibre végétale hors coton","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6d
 652,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, de fibres animales hors soie","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6e
 653,6f,Filés ou tissés de soie et soie mélangée ,Silk threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, contenant de la soie","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6f
 654,6g,Filés ou tissés de coton,Coton threads and fabrics,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, de coton","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6g
-655,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics ,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, de plusieurs fibres végétales mêlées, y compris tout tissé décrit comme toile n.d.a.","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6h
-656,6i,Autres filés ou tissés,Other threads and fabrics,"Filés ou tissés, y compris rubannerie et passementerie sauf d'or/argent, de composition inconnue ou incertaine","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6i
+655,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics ,"Filés ou tissés, y compris rubanerie et passementerie sauf d'or/argent, de plusieurs fibres végétales mêlées ou de nature incertaine, y compris tout tissé décrit comme toile n.d.a., y compris filets de pêche ou de chasse","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6h
+656,6i,Autres filés ou tissés,Other threads and fabrics,"Filés ou tissés, y compris rubannerie et passementerie sauf d'or/argent pur, de composition inconnue, pouvant être d'origine animale ou végétale","catégorie 65, ""fils, tissus et articles textiles façonnés"", redistribuée",,6i
 670,6j,Produits métalliques et outils,Metal products,"Tout objet manufacturé de fer, cuivre ou tout autre métal; 
 Y compris: 
 - lingots, grenaille, plaques, feuilles, tôles, barres, tiges, fils, tubes, tuyaux, poudres de métal;
 - couteaux, vaiselle, récipients, cuves hors chaudières, clés, objets ménagers en métal hors meubles, hors objets d'art renvoyés en 8.;
-- visserie, aiguilles, épingles, et tous outils à main, y compris outils en bois, y compris moules et formes pour artisans (mais pas machines agricoles et autres, en 7; ni outils de pêche à la ligne, balais, brosses, pinceaux, établis et tables de travail, en 8)",Outils en bois transférés de 6b,,6j
+- visserie, aiguilles, épingles, et tous outils à main, y compris outils en bois, y compris moules et formes pour artisans (mais pas machines agricoles et autres, en 7; ni filets de pêche, en 6h; ni outils de pêche à la ligne, balais, brosses, pinceaux, établis et tables de travail, en 8)",Outils en bois transférés de 6b,,6j
 660,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Y compris:
 - terres cuites: matériaux de construction (briques, carreaux, etc.), poterie, vaisselle, porcelaine, céramique; également chaux, ciment;
 - verrerie: vaiselle, miroirs, vitres;
@@ -59,7 +59,8 @@ Y compris:
 - matériel d'écriture (hors papier et encre);
 - armes et munitions;
 - imprimés (finis et pas à remplir, cf. 6c), jeux et jouets, matériel d'écriture;
-- objets d'art et de collection, bijouterie, joaillerie (hors pierres seules, en 6k, et rubanerie/passementerie d'or et d'argent si qualificatif  ""doré"", ""mêlé"", etc., rejetés en 6i), objets précieux, instruments de musique;
+- objets d'art et de collection, bijouterie, joaillerie (hors pierres seules, en 6k, et rubanerie/passementerie d'or et d'argent si qualificatif  ""doré"", ""mêlé"", ""faux"", etc., rejetés en 6i), objets précieux, instruments de musique
+- jeux et jouets, outils de pêche à la ligne;
 - os, corne, ivoire, écaille, ambre, coquillage, nacre ou parties d'animaux travaillés ou transformés;
 - varia: bougies, allumettes (et par extension mèches), pipes, parapluies, cannes, fouets;
 - balais, brosses, pinceaux, houppes
