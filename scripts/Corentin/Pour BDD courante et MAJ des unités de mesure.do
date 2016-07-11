@@ -373,7 +373,7 @@ use "bdd courante.dta", clear
 
 keep if pays_grouping == "Angleterre"
 keep if year > 1769 & year < 1791
-drop if eden_classification == ""
+*drop if eden_classification == ""
 
 merge m:1 quantity_unit using "Units_N1.dta"
 * 5 _merge==2 -> viennent de Hambourg
@@ -519,6 +519,7 @@ export delimited "bdd courante.csv", replace
 *drop if quantity_unit == ""
 su quantites_metric
 
+save "/Users/Corentin/Desktop/script/Base_Eden_Mesure.dta", replace
 *log close
 /*
 ********************* Units

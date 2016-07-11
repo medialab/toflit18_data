@@ -67,3 +67,4 @@ replace prohibition = 1 if eden_classification == "Coton de toute espèce" & yea
 replace prohibition = 1 if eden_classification == "Hardware" & year < 1787 & exportsimports == "Imports"
 replace prohibition = 1 if eden_classification == "Lainage" & year < 1787 & exportsimports == "Imports"
 
+save "/Users/Corentin/Desktop/script/test.dta", replace
