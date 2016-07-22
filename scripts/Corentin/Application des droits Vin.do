@@ -7,7 +7,7 @@ save "/Users/Corentin/Desktop/script/conversion finale.dta", replace
 
 /// base
 //////// Nouveaux droits
-use "/Users/Corentin/Desktop/script/Base_Eden_Mesure.dta", clear
+use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
 
 keep doubleaccounts marchandises pays_grouping direction eden_classification exportsimports marchandises_norm_ortho marchandises_simplification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc18_rev3 sourcepath sourcetype u_conv  unitépourlesdroits value year
 
@@ -34,7 +34,7 @@ keep doubleaccounts marchandises pays_grouping direction eden_classification exp
 sort sourcepath-value pays_grouping-year q_conv_eden-u_conv_eden droit_eden_valorem
 collapse (sum) quantites_metric_eden, by(sourcepath-value pays_grouping-year q_conv_eden-u_conv_eden droit_eden_valorem)
 	
-	
+	/*
 
 gen droit_eden_value = value * droit_eden_valorem if year > 1786
 	destring  droit_eden_value, replace
@@ -73,5 +73,5 @@ replace prohibition = 1 if eden_classification == "Prohibé"
 replace prohibition = 1 if eden_classification == "Coton de toute espèce" & year < 1787 & exportsimports == "Imports"
 replace prohibition = 1 if eden_classification == "Hardware" & year < 1787 & exportsimports == "Imports"
 replace prohibition = 1 if eden_classification == "Lainage" & year < 1787 & exportsimports == "Imports"
-
-save "/Users/Corentin/Desktop/script/test.dta", replace
+*/
+save "/Users/Corentin/Desktop/script/testVin.dta", replace

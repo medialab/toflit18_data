@@ -371,7 +371,7 @@ export delimited "bdd courante.csv", replace
 
 use "bdd courante.dta", clear 
 
-keep if pays_grouping == "Angleterre"
+*keep if pays_grouping == "Angleterre"
 keep if year > 1769 & year < 1791
 *drop if eden_classification == ""
 
@@ -519,7 +519,9 @@ export delimited "bdd courante.csv", replace
 *drop if quantity_unit == ""
 su quantites_metric
 
-save "/Users/Corentin/Desktop/script/Base_Eden_Mesure.dta", replace
+*save "/Users/Corentin/Desktop/script/Base_Eden_Mesure.dta", replace
+save "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", replace
+
 *log close
 /*
 ********************* Units
