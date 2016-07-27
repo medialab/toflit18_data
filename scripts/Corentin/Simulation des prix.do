@@ -1,4 +1,3 @@
-
 *use "/Users/Corentin/Desktop/script/test.dta", clear
 use "/Users/Corentin/Desktop/script/testVin.dta", clear
 
@@ -25,6 +24,7 @@ drop if value == 38455
 drop if year < 1773
 replace marchandises_simplification = "vin de Bordeaux" if marchandises_norm_ortho == "vin de Bordeaux"
 keep if exportsimports == "Exports"
+
 keep if eden_classification == "Eau_de_vie_de_France"
 
 drop if value == .
@@ -33,8 +33,9 @@ drop if value == .
 *keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
 
 	gen prix_u = value / quantites_metric_eden
-
+/*
 	replace quantites_metric_eden = . if quantites_metric_eden == 0
+	
 	fillin year marchandises_simplification
 
 	gen prixinvln = ln(quantites_metric_eden / value)
@@ -48,31 +49,56 @@ drop if value == .
 	gen prix_u_predict = 1 / exp(prixinvln2)
 	sort year
 	replace prix_u = prix_u_predict if prix_u == .
+	drop if prix_u == .
+
+	
+*** simulation des value
+	reg value i.year i.marchandises_simplification_c
+	predict value2 
+	replace value = value2 if value == .
 
 	gen ln_quantites_metric_eden_predict = prixinvln2 + ln(value)
 	gen quantites_metric_eden_predict = exp(ln_quantites_metric_eden_predict)
 	replace quantites_metric_eden = quantites_metric_eden_predict if quantites_metric_eden == .
+/*
 
 ***
 
-	drop if prix_u == .
-	
+	/*
 	*keep if marchandises_simplification == "eau-de-vie de genièvre"
 	*keep if marchandises_simplification == "eau-de-vie de grain"
 	*keep if marchandises_simplification == "eau-de-vie de vin"
-	keep if marchandises_simplification == "eau-de-vie double"
+	*keep if marchandises_simplification == "eau-de-vie double"
 
 	**
 
+*
+graph twoway (connected prix_u year if marchandises_simplification == "eau et huile spiritueuse") (connected prix_u year if marchandises_simplification == "eau spiritueuse") (connected prix_u year if marchandises_simplification == "eau-de-vie") (connected prix_u year if marchandises_simplification == "eau-de-vie de genièvre") (connected prix_u year if marchandises_simplification == "eau-de-vie de grain") (connected prix_u year if marchandises_simplification == "eau-de-vie de vin") (connected prix_u year if marchandises_simplification == "eau-de-vie double") (connected prix_u year if marchandises_simplification == "eau-de-vie simple"), ylabel()
+graph rename prix_u, replace
 
+****
+*/
+*/
+*/
+/*
 gen pXq = prix_u * quantites_metric_eden
 bysort year: egen totpXq = total(pXq)
 by year: egen totq = total(quantites_metric_eden)
-
 gen wavg = totpXq / totq
 replace prix_u = wavg if wavg != .
 
 
-*
 graph twoway (connected prix_u year)
-graph rename prix_u, replace
+
+
+*/
+
+gen pXq = prix_u * quantites_metric_eden
+bysort year marchandises_simplification : egen totpXq = total(pXq)
+by year marchandises_simplification : egen totq = total(quantites_metric_eden)
+gen wavg = totpXq / totq
+replace prix_u = wavg if wavg != . 
+graph twoway (connected prix_u year if marchandises_simplification == "eau et huile spiritueuse") (connected prix_u year if marchandises_simplification == "eau spiritueuse") (connected prix_u year if marchandises_simplification == "eau-de-vie") (connected prix_u year if marchandises_simplification == "eau-de-vie de genièvre") (connected prix_u year if marchandises_simplification == "eau-de-vie de grain") (connected prix_u year if marchandises_simplification == "eau-de-vie de vin") (connected prix_u year if marchandises_simplification == "eau-de-vie double") (connected prix_u year if marchandises_simplification == "eau-de-vie simple"), ylabel()
+*keep if year == 1788
+*graph twoway (scatter quantites_metric_eden prix_u)
+*graph twoway (scatter prix_u year)
