@@ -1,17 +1,18 @@
 
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
+
 keep marchandises pays_grouping direction eden_classification exportsimports marchandises_norm_ortho marchandises_simplification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc18_rev3 sourcepath sourcetype u_conv  unitépourlesdroits value year
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" 
 
 	drop if sourcetype == "Résumé" & year == 1787 
 	drop if sourcetype == "Résumé" & year == 1788
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 	
-	keep if exportsimports == "Exports"	
-	keep if eden_classification == "Vin de France"
+	keep if exportsimports == "Imports"	
+	*keep if eden_classification == "Vin de France"
 	
 	sort year
 	collapse (sum) value, by(year)
@@ -27,7 +28,7 @@ keep marchandises pays_grouping direction eden_classification exportsimports mar
 
 
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
 
 	drop if sourcetype == "Résumé" & year == 1787 
 	drop if sourcetype == "Résumé" & year == 1788
@@ -45,7 +46,7 @@ keep marchandises pays_grouping direction eden_classification exportsimports mar
 	replace eden_classification = "Vinaigre_de_France" if eden_classification == "Vinaigre de France"
 
 ****** Balance totale
-
+/*
 collapse (sum) value, by(year  exportsimports) 
 	
 	gen exports = value if exportsimports == "Exports"
@@ -95,9 +96,9 @@ collapse (sum) value, by(year sitc18_rev3)
 
 */	
 ******** Proportion destinations dans exportations
-/*
+
 	set more off
-	keep if exportsimports == "Exports"
+	keep if exportsimports == "Imports"
 	*keep if eden_classification == "Eau_de_vie_de_France"
 	*keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
 	
@@ -126,19 +127,42 @@ collapse (sum) value, by(year sitc18_rev3)
 		replace `l' = proportion if pays_grouping == "`l'"
 		}
 	
-	bysort year : egen test = total(proportion)
-	*drop if proportion < 5 & year > 1775
+	*drop if proportion < 5 & year == 1788
 	*bysort pays_grouping : drop if _N < 7
 	sort year
 	*tab pays_grouping
+	*drop if pays_grouping == "Colonies_Françaises"
 	
-	twoway (connected Colonies_Françaises year) (connected Flandre year) (connected Levant_et_Barbarie year) (connected Angleterre year) (connected Espagne year) (connected Hollande year) (connected Italie year) (connected Nord year) , ylabel(, angle(horizontal)) 
+	keep if pays_grouping == "Colonies_Françaises"  | pays_grouping == "Flandre" | pays_grouping == "Levant_et_Barbarie" | pays_grouping == "Angleterre" | pays_grouping == "Espagne" | pays_grouping == "Hollande" | pays_grouping == "Italie" | pays_grouping == "Nord"
+	bysort year : egen test = total(proportion)
+	gen Autres = 100 - test
+	sort year proportion
+	
+	collapse (mean) Autres (sum) Colonies_Françaises Flandre Levant_et_Barbarie Angleterre Espagne Hollande Italie Nord, by(year)
+	sort year 
+	*Colonies_Françaises Flandre Levant_et_Barbarie Angleterre Espagne Hollande Italie Nord year,  cmissing(n)
+	gen ItalieG = Angleterre + Italie
+	gen Levant_et_BarbarieG = ItalieG + Levant_et_Barbarie
+	gen EspagneG = Levant_et_BarbarieG + Espagne
+	gen FlandreG = EspagneG + Flandre
+	gen HollandeG = FlandreG + Hollande
+	gen NordG = HollandeG + Nord
+	gen Colonies_FrançaisesG = NordG + Colonies_Françaises
+	gen AutresG = Colonies_FrançaisesG + Autres
+	*twoway area Colonies_Françaises FlandreG Levant_et_BarbarieG AngleterreG EspagneG HollandeG ItalieG NordG year,  cmissing(n)
+	
+	drop if year > 1781 & year < 1788
+
+	twoway area AutresG Colonies_FrançaisesG NordG HollandeG FlandreG EspagneG Levant_et_BarbarieG ItalieG Angleterre year , cmissing(n) 
+	*twoway  (connected Colonies_Françaises year) (connected Flandre year) (connected Levant_et_Barbarie year) (connected Angleterre year) (connected Espagne year) (connected Hollande year) (connected Italie year) (connected Nord year) , ylabel(, angle(horizontal)) 
 	/*
 
 twoway (connected Colonies_Françaises year) (connected Flandre year) (connected Levant_et_Barbarie year) (connected Angleterre year) (connected Espagne year) (connected Hollande year) (connected Italie year) (connected Nord year), ylabel(, angle(horizontal)) 
 */
-*/
+/*
 ****** Proportion vin vers angleterre dans total
+*/
+/*
 keep if exportsimports == "Exports"
 keep if eden_classification == "Vin_de_France"
 keep if pays_grouping == "Angleterre"
@@ -151,5 +175,5 @@ collapse (sum) value, by(year)
 	
 gen proportion = value / totalN * 100
 
-twoway (connected proportion year)
+twoway (connected proportion year), xline(1787)
 

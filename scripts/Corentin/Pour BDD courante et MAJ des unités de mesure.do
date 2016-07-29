@@ -1,6 +1,6 @@
 
 clear all
-
+set more off
 *set trace on
 
 **pour mettre les bases dans stata + mettre à jour les .csv

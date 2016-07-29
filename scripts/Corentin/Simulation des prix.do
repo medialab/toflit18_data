@@ -2,13 +2,15 @@
 use "/Users/Corentin/Desktop/script/testVin.dta", clear
 
 keep if pays_grouping == "Angleterre"
+
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"| sourcetype == "Divers - in" | sourcetype == "National par direction"
 
 	drop if sourcetype == "Résumé" & year == 1787 
 	drop if sourcetype == "Résumé" & year == 1788
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
+	drop if sourcetype == "Résumé" & year == 1789
 
 	replace eden_classification = "Coton_detoute_espèce" if eden_classification == "Coton de toute espèce"
 	replace eden_classification = "Eau_de_vie_de_France" if eden_classification == "Eau de vie de France"
@@ -26,14 +28,14 @@ replace marchandises_simplification = "vin de Bordeaux" if marchandises_norm_ort
 keep if exportsimports == "Exports"
 
 keep if eden_classification == "Eau_de_vie_de_France"
-
+replace marchandises_simplification = "eau-de-vie de grain" if marchandises_simplification == "eau de grain"
 drop if value == .
 
 *keep if marchandises_norm_ortho ==  "vin de Bourgogne"
 *keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
 
 	gen prix_u = value / quantites_metric_eden
-/*
+
 	replace quantites_metric_eden = . if quantites_metric_eden == 0
 	
 	fillin year marchandises_simplification
@@ -44,7 +46,9 @@ drop if value == .
 	
 	sort year marchandises_simplification
 	reg prixinvln i.year i.marchandises_simplification_c [iweight=value]
-	predict prixinvln2 if year ==  1771 | year == 1772 | year == 1773 | year == 1774 | year == 1775 | year == 1776 | year == 1777 | year == 1779 | year == 1780   |  year == 1782   |  year == 1787 | year == 1788
+	
+	predict prixinvln2 if year ==  1771 | year == 1772 | year == 1773 | year == 1774 | year == 1775 | year == 1776 | year == 1777 | year == 1779 | year == 1780   |  year == 1782   |  year == 1787 | year == 1788 | year == 1789
+	*predict prixinvln2 if year ==  1771 | year == 1772 | year == 1773 | year == 1774 | year == 1775 | year == 1776 | year == 1777 | year == 1779 | year == 1780   |  year == 1782 |  year == 1783 |  year == 1784   |  year == 1787 | year == 1788 | year == 1789
 	
 	gen prix_u_predict = 1 / exp(prixinvln2)
 	sort year
@@ -60,7 +64,7 @@ drop if value == .
 	gen ln_quantites_metric_eden_predict = prixinvln2 + ln(value)
 	gen quantites_metric_eden_predict = exp(ln_quantites_metric_eden_predict)
 	replace quantites_metric_eden = quantites_metric_eden_predict if quantites_metric_eden == .
-/*
+
 
 ***
 
@@ -78,9 +82,7 @@ graph rename prix_u, replace
 
 ****
 */
-*/
-*/
-/*
+
 gen pXq = prix_u * quantites_metric_eden
 bysort year: egen totpXq = total(pXq)
 by year: egen totq = total(quantites_metric_eden)
@@ -91,8 +93,8 @@ replace prix_u = wavg if wavg != .
 graph twoway (connected prix_u year)
 
 
-*/
 
+/*
 gen pXq = prix_u * quantites_metric_eden
 bysort year marchandises_simplification : egen totpXq = total(pXq)
 by year marchandises_simplification : egen totq = total(quantites_metric_eden)

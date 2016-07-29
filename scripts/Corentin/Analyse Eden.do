@@ -1,17 +1,19 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
 
 	drop if sourcetype == "Résumé" & year == 1787 
 	drop if sourcetype == "Résumé" & year == 1788
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 
-	keep if eden_classification == "Vin de France" // A ajouter pour analyse vin
+	*keep if eden_classification == "Vin de France" // A ajouter pour analyse vin
 	*keep if eden_classification == "Hardware" // A ajouter pour analyse Hardware
 	*keep if eden_classification == "Coton de toute espèce"
-	keep if exportsimports == "Exports"
+	keep if exportsimports == "Imports"
+keep if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
+
 	sort year exportsimports
 	
 	collapse (sum) value, by(year) 
@@ -28,7 +30,7 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
 
 	drop if sourcetype == "Résumé" & year == 1787 
 	drop if sourcetype == "Résumé" & year == 1788
@@ -86,18 +88,19 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	
 	
 */
-	
+	*/
 	****
-	/*
+	
 	collapse (sum) value, by(year  exportsimports eden_classification) 
 	
 	gen exports = value if exportsimports == "Exports"
 	gen imports = value if exportsimports == "Imports"
 	 
 	levelsof eden_classification, local(levels)
+			collapse (sum) exports imports, by(year eden_classification)
+
 	foreach l of local levels {
-		collapse (sum) exports imports, by(year eden_classification)
-		gen balance_`l' = exports - imports if eden_classification == "`l'"
+		gen balance_`l' = (exports - imports)/1000000 if eden_classification == "`l'"
 		twoway (connected balance_`l' year)
 		
 		cd "/Users/Corentin/Documents/STAT/EdenTreaty/Sorties Valides/EdenNational/Focus/Balance"	
@@ -105,12 +108,13 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	
 	 }
 	*/
+	*/
 ****** Balance totale
 /*
 collapse (sum) value, by(year  exportsimports) 
 	
-	gen exports = value if exportsimports == "Exports"
-	gen imports = value if exportsimports == "Imports"
+	gen exports = value/1000000 if exportsimports == "Exports"
+	gen imports = value/1000000 if exportsimports == "Imports"
 	 
 		collapse (sum) exports imports, by(year)
 		gen balance = exports - imports
@@ -124,8 +128,8 @@ collapse (sum) value, by(year  exportsimports)
 		graph rename test3, replace
 
 */		
+		/*
 		
-	*/
 	
 ******* PRIX UNITAIRE
 drop if year == 1771
@@ -225,14 +229,17 @@ graph twoway (connected prix_u year)
 ***** COMPOSITION DES ECHANGES SITC	
 /*
 set more off
-keep if exportsimports == "Exports"	
+keep if exportsimports == "Imports"	
 
+/*
 	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == ""
 	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == "???"
 	replace sitc18_rev3 = "0" if sitc18_rev3 == "0a" | sitc18_rev3 == "0b"
 	replace sitc18_rev3 = "6" if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
 	replace sitc18_rev3 = "9" if sitc18_rev3 == "9a" | sitc18_rev3 == "9b"
-	
+*/
+keep if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
+
 
 collapse (sum) value, by(year sitc18_rev3) 	
 
@@ -250,6 +257,9 @@ collapse (sum) value, by(year sitc18_rev3)
 		}
 	keep if year == 1788
 	egen test = total(proportion)
-	graph bar SITCInconnu SITC0 SITC1 SITC2 SITC4 SITC5 SITC6 SITC7 SITC8 SITC9
+	
+	graph bar SITC6a SITC6b SITC6c SITC6d SITC6e SITC6f SITC6g SITC6h SITC6i SITC6j SITC6k
+/*
+	graph bar SITCInconnu SITC0 SITC1 SITC2 SITC3 SITC4 SITC5 SITC6 SITC7 SITC8 SITC9
 
 	

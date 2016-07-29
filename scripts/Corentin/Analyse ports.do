@@ -19,7 +19,7 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	*keep if year == 1782 | year == 1789
 
 save "/Users/Corentin/Desktop/script/test2.dta", replace
-/*
+
 ***** LOCAL
 
 use "/Users/Corentin/Desktop/script/test.dta", clear
@@ -61,7 +61,7 @@ graph  bar Autres Amiens Bayonne Bordeaux Caen Charleville  Lille Lorient Marsei
 */
 */
 ********* Evolution
-
+/*
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
