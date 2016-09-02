@@ -5,15 +5,17 @@ version 14.1
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
-global dir "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
-*/               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees /*
+*/               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
-*/				 bdd_revised_classification_medicinales bdd_revised_classification_hamburg {
+*/				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
+*/ 				 bdd_marchandises_sitc  {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -35,7 +37,7 @@ foreach file in classification_country_orthographic_normalization classification
 }
 
 
-
+/*
 
 foreach file in travail_sitcrev3 sitc18_simpl {
 
@@ -57,7 +59,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 		capture drop nbr_bdc* source_bdc
 		save "Données Stata/`file'.dta", replace
 }
-		
+*/		
 		
 import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
