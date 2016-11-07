@@ -240,13 +240,13 @@ export delimited classification_country_grouping.csv, replace
 *************Marchandises
 
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+use "bdd_marchandises_normalisees_orthographique.dta", replace
 bys marchandises : drop if _n!=1
 
-save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+save "bdd_marchandises_normalisees_orthographique.dta", replace
 
 use "bdd_centrale.dta", clear
-merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 
 drop _merge
 
@@ -255,19 +255,19 @@ keep marchandises marchandises_norm_ortho mériteplusdetravail
 bys marchandises : keep if _n==1
 
 
-save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+save "bdd_marchandises_normalisees_orthographique.dta", replace
 generate sortkey = ustrsortkey(marchandises, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_revised_marchandises_normalisees_orthographique.csv, replace
+export delimited bdd_marchandises_normalisees_orthographique.csv, replace
 
 **
-use "bdd_revised_marchandises_simplifiees.dta", replace
+use "bdd_marchandises_simplifiees.dta", replace
 bys marchandises_norm_orth : drop if _n!=1
-save "bdd_revised_marchandises_simplifiees.dta", replace
+save "bdd_marchandises_simplifiees.dta", replace
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", clear
-merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+use "bdd_marchandises_normalisees_orthographique.dta", clear
+merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
 
 keep marchandises_norm_ortho marchandises_simplification _merge
 drop if _merge==2
@@ -276,20 +276,20 @@ drop _merge
 bys marchandises_norm_ortho : keep if _n==1
 
 
-save "bdd_revised_marchandises_simplifiees.dta", replace
+save "bdd_marchandises_simplifiees.dta", replace
 generate sortkey = ustrsortkey(marchandises_norm_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_revised_marchandises_simplifiees.csv, replace
+export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in travail_sitcrev3 bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_revised_classification_medicinales bdd_revised_classification_hamburg {
+foreach file_on_simp in travail_sitcrev3 bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_classification_medicinales bdd_classification_hamburg {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
 	save "`file_on_simp'.dta", replace
 
-	use "bdd_revised_marchandises_simplifiees.dta", clear
+	use "bdd_marchandises_simplifiees.dta", clear
 	merge m:1 marchandises_simplification using "`file_on_simp'.dta"
 
 
@@ -339,12 +339,12 @@ drop note-_merge
 
 ******
 
-merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 drop if _merge==2
 drop mériteplusdetravail-_merge
 
 
-merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
 drop if _merge==2
 drop _merge
 
