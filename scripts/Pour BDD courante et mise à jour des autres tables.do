@@ -1,6 +1,6 @@
 
 
-version 14.1
+version 14.2
 
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
@@ -154,7 +154,8 @@ cd "$dir/Données Stata"
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
-drop computed_value computed_up
+drop computed_value
+* drop computed_up
 
 capture drop source_bdc
 generate source_bdc=0
@@ -385,6 +386,10 @@ drop if _merge==2
 drop _merge 
 
 generate quantites_metric = q_conv * quantit
+
+
+order sourcetype year exportsimports direction marchandises_simplification pays_simplification value quantit quantity_unit quantites_metric u_conv
+
 
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
