@@ -359,12 +359,14 @@ foreach i of num 1797(1)1805 {
 	local j =`j'+1
 }
 
-replace yearbis="1806" if yearbis== "An 14 & 1806"
+replace yearbis="1805.75" if yearbis== "An 14 & 1806"
+replace yearbis="1787.20" if yearbis== "10 mars-31 décembre 1787"
+
 generate yearnum=real(yearbis)
 drop yearbis
 * findit labutil
-labmask yearnum, values(year)
-drop year
+*labmask yearnum, values(year)
+rename year yearstr
 rename yearnum year
 
 
@@ -390,6 +392,7 @@ generate quantites_metric = q_conv * quantit
 
 order sourcetype year exportsimports direction marchandises_simplification pays_simplification value quantit quantity_unit quantites_metric u_conv
 
+sort year sourcetype exportsimports direction marchandises_simplification pays_simplification
 
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
