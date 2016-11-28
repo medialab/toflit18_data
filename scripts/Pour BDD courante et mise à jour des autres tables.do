@@ -15,7 +15,7 @@ foreach file in classification_country_orthographic_normalization classification
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
 */				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
-*/ 				 bdd_marchandises_sitc  {
+*/ 				 bdd_marchandises_sitc  bdd_directions {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -150,6 +150,19 @@ export delimited "Données Stata/bdd_centrale.csv", replace
 *******************************
 
 cd "$dir/Données Stata"
+
+***********directions
+use "bdd_centrale.dta", clear
+merge m:1 direction using "bdd_directions.dta"
+rename direction direction_origine
+rename direction_simpl direction
+
+
+
+
+
+
+
 ***********Unit values
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
@@ -283,7 +296,7 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in travail_sitcrev3 bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_classification_medicinales bdd_classification_hamburg {
+foreach file_on_simp in bdd_marchandises_sitc bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_classification_medicinales bdd_classification_hamburg {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -348,7 +361,7 @@ merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 marchandises_simplification using "travail_sitcrev3.dta"
+merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
 drop if _merge==2
 drop _merge
 
