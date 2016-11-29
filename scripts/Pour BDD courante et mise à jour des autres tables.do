@@ -365,6 +365,14 @@ merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
 drop if _merge==2
 drop _merge
 
+merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_FR.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_EN.dta"
+drop if _merge==2
+drop _merge
+
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
@@ -399,6 +407,8 @@ merge m:1 quantity_unit using "$dir/Units N1.dta"
 * 5 _merge==2 -> viennent de Hambourg
 drop if _merge==2
 drop _merge 
+
+end
 
 generate quantites_metric = q_conv * quantit
 
