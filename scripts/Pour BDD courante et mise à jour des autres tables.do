@@ -168,6 +168,7 @@ use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
 drop computed_value
+drop value_as_reported	replace_computed_up
 * drop computed_up
 
 capture drop source_bdc
@@ -199,7 +200,6 @@ export delimited "Units_N1.csv", replace
 use "bdd_centrale.dta", clear
 merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop numrodeligne-marchandises value-remarkspourlesdroits
-
 
 drop _merge
 bys pays : keep if _n==1
