@@ -15,7 +15,7 @@ foreach file in classification_country_orthographic_normalization classification
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
 */				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
-*/ 				 bdd_marchandises_sitc  bdd_directions {
+*/ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -35,6 +35,10 @@ foreach file in classification_country_orthographic_normalization classification
 	save "Données Stata/`file'.dta", replace
  
 }
+
+use "Données Stata/Units_N1.dta", clear
+destring q_conv, replace
+save "Données Stata/`file'.dta", replace
 
 
 /*
@@ -96,7 +100,7 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =usubinstr(`variable',"…","...",.)
 	replace `variable'  =usubinstr(`variable',"u","œ",.)
 	replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-	replace `variable' =usubinstr(`variable',"’","'",.)
+	replace `variable'  =usubinstr(`variable',"’","'",.)
 	replace `variable'  =ustrtrim(`variable')
 }
 
@@ -107,7 +111,7 @@ foreach variable of var quantit value prix_unitaire {
 	replace `variable'  =usubinstr(`variable',",",".",.)
 	replace `variable'  =usubinstr(`variable'," ","",.)
 	replace `variable'  =usubinstr(`variable'," ","",.)
-	replace `variable' =usubinstr(`variable',"’","'",.)
+	replace `variable'  =usubinstr(`variable',"’","'",.)
 	replace `variable'  =usubinstr(`variable',"u","œ",.)
 	capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
 	replace `variable'  =usubinstr(`variable',char(202),"",.)
@@ -407,8 +411,6 @@ merge m:1 quantity_unit using "$dir/Units N1.dta"
 * 5 _merge==2 -> viennent de Hambourg
 drop if _merge==2
 drop _merge 
-
-end
 
 generate quantites_metric = q_conv * quantit
 
