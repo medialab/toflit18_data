@@ -38,7 +38,7 @@ foreach file in classification_country_orthographic_normalization classification
 
 use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
-save "Données Stata/`file'.dta", replace
+save "Données Stata/Units_N1.dta", replace
 
 
 /*
@@ -407,7 +407,7 @@ export delimited "bdd courante.csv", replace
 *keep if quantity_unit!=""
 use "bdd courante.dta", clear 
 
-merge m:1 quantity_unit using "$dir/Units N1.dta"
+merge m:1 quantity_unit using "Units_N1.dta"
 * 5 _merge==2 -> viennent de Hambourg
 drop if _merge==2
 drop _merge 
