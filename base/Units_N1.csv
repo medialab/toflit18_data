@@ -2,7 +2,7 @@ quantity_unit,quantity_unit_orthographe,quantity_unit_ajustees,u_conv,q_conv,rem
 ?,????,????,,,,,,,,1,53,284
 ??,????,????,,,,,,,,1,1,284
 ???,,,,,,,,,,1,35,236654
-??? pièces,,,,,,,,,,1,9,236654
+??? pièces,,,,,"vérification dans la source, il s’agit de « pièces »",,,,,1,9,236654
 ????,????,????,,,,1,0,,0,1,148,284
 ???? an,???? an,????,,,,1,0,,0,1,1,284
 ???? aunes,???? aunes,????,,,,1,0,,0,1,3,284
@@ -56,9 +56,9 @@ quantity_unit,quantity_unit_orthographe,quantity_unit_ajustees,u_conv,q_conv,rem
 450 Feuilles,450 feuilles,,,,,,,,,1,1,236654
 600 Feuilles,600 feuilles,,,,,,,,,1,1,236654
 à répétition,à répétition,pieces,pieces,1,,,0,,0,1,1,146
-acharmiere,acharmiere,,,,,,0,1,0,1,1,236654
+acharmiere,acharmiere,,,,"vérification dans la source, il est indiqué « à charnière d’or »",,0,1,0,1,1,236654
 aimes,aimes,,,,,,,,,1,3,236654
-alvrames,alvrames,,,,,,,,,1,1,236654
+alvrames,alvrames,,,,unité difficilement lisible dans la source,,,,,1,1,236654
 Ancre,ancre,,,,p27 doursther : en usage en allemagne et en hollande formant le quart de l'aime,,,,,1,5,236654
 ancres,ancre,,,,p27 doursther : en usage en allemagne et en hollande formant le quart de l'aime,,0,1,0,1,32,236654
 Ancres,ancre,,,,p27 doursther : en usage en allemagne et en hollande formant le quart de l'aime,,,,,1,30,236654
@@ -79,7 +79,7 @@ Aune,aunes,aunes de paris,cm,118.84,Wikipedia,,0,,0,1,11,5640
 aunes,aunes,aunes de paris,cm,118.84,Wikipedia,,0,,0,1,3516,5640
 Aunes,aunes,aunes de paris,cm,118.84,Wikipedia,,,,,1,1854,5640
 AUnes,aunes,aunes de paris,cm,118.84,Wikipedia,,,,,1,1,5640
-autunce,autunce,,,,,,,,,1,1,236654
+autunce,autunce,,,,"vérification dans la source, il s’agit d’aunes",,,,,1,1,236654
 Avirons,avirons,pièces,pieces,1,,,,,,1,2,199
 Ayme,aimes,aimes,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,,,,1,1,5
 aymes,aimes,aimes,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,0,,0,1,3,5
@@ -89,11 +89,11 @@ bailler,bailler,,,,,,,,,1,14,236654
 bailles,bailles,bailles,litres,14.625,p44 doursther numero du dictionnaire,,0,,0,1,14,20
 Bailles,bailles,bailles,litres,14.625,p44 doursther numero du dictionnaire,,,,,1,6,20
 baillet,baillet,,,,,,,,,1,1,236654
-Baines,,,,,"n’apparaît qu’une fois, source vérifiée dans le fichier d’origine il semble bel et bien qu’il soit écrit « baines »",,,,,1,1,236654
+Baines,,,,,"n’apparaît qu’une fois, source vérifiée dans le fichier d’origine il semble qu’il soit écrit « baines »",,,,,1,1,236654
 bairque,barrique,,,,,,,,,1,1,236654
 bales,,,,,,,,,,1,1,236654
 bales d'haricots,bales d'haricots,,,,,,,,,1,1,236654
-balets,balets,,,,,,,,,1,1,236654
+balets,balets,,,,"vérification dans la source, il s’agit de « balots »",,,,,1,1,236654
 balle,balle,balles,contenant,1,p56 doursther,,,,,1,2,323
 Balle,balle,balles,contenant,1,p56 doursther,,,,,1,4,323
 balle de 900,balle de 900,,,,,,,,,1,1,236654
@@ -127,7 +127,7 @@ barbues,,,,,,,,,,1,1,236654
 barbuës,,,,,,,,,,1,1,236654
 Barbus,,,,,,,,,,1,1,236654
 bards,bards,,,,,,0,1,0,1,1,236654
-barigaux,barigaux,,,,,,,,,1,1,236654
+barigaux,barigaux,,,,"vérification dans la source, il s’agit de « barriques »",,,,,1,1,236654
 baril,barils,,,,,,,,,1,49,236654
 Baril,barils,,,,,,,,,1,15,236654
 baril à 450 Feuilles,barils de 450 feuilles,,,,,,,,,1,1,236654
@@ -209,8 +209,8 @@ Batons,,,,,,,,,,1,1,236654
 batteaux,bateaux,,,,,,,,,1,3,236654
 Batteaux,bateaux,,,,,,,,,1,4,236654
 Battes,battes,,,,,,,,,1,1,236654
-Baucoud,baucoud,,,,,,,,,1,1,236654
-bautes,bautes,,,,,,,,,1,1,236654
+Baucoud,baucoud,,,,"vérification dans la source, il s’agit de « boucaud »",,,,,1,1,236654
+bautes,bautes,,,,"vérification dans la source, il s’agit de « bouts »",,,,,1,1,236654
 bayonettes,baïonnettes,pièces,pieces,1,,,0,,0,1,1,199
 bazannes,bazannes,pièces,pieces,1,,,0,,0,1,7,199
 beines,beines,,,,,,,,,1,1,236654
@@ -252,12 +252,12 @@ boîtes,boîtes,boîtes,contenant,1,,,0,,0,1,4,5
 Boîtes,,,,,,,,,,1,15,236654
 Boitte,boîtes,boîtes,contenant,1,,,,,,1,1,5
 boitures,boitures,,,,,,,,,1,2,236654
-Bolliches,bolliches,,,,,,,,,1,1,236654
-boneauds,boneauds,,,,,,0,1,0,1,1,236654
+Bolliches,bolliches,,,,vérification dans la source,,,,,1,1,236654
+boneauds,boneauds,,,,"vérification dans la source, il s’agit de « boucaud »",,0,1,0,1,1,236654
 bonnets,bonnets,pièces,pieces,1,,,0,,0,1,8,199
 Bonnets,bonnets,pièces,pieces,1,,,,,,1,1,199
 Bordage,bordage,,,,,,,,,1,1,236654
-borneaux,borneaux,,,,,,,,,1,1,236654
+borneaux,borneaux,,,,"vérification dans la source, il s’agit de « boisseau »",,,,,1,1,236654
 borraux,borraux,,,,,,0,1,0,1,1,236654
 botes,botes,,,,,,,,,1,2,236654
 botiches,,,,,"unité existante, voir Wikipédia",,,,,1,1,236654
@@ -309,7 +309,7 @@ brins,brins,,,,,,,,,1,1,236654
 Brins,brins,,,,,,,,,1,5,236654
 briques,briques,,,,,,,,,1,1,236654
 Briques,briques,,,,,,,,,1,1,236654
-Bruis,bruis,,,,,,,,,1,1,236654
+Bruis,bruis,,,,"vérification dans la source, il s’agit de « brins »",,,,,1,1,236654
 brute,,,,,plumes d’autruche brutes,,,,,1,1,236654
 buche,bûches,bûches,pieces,1,???,,,,,1,2,23
 buches,bûches,bûches,pieces,1,???,,,,,1,7,23
@@ -329,9 +329,9 @@ caisses ordinaires,,,,,,,,,,1,1,236654
 caissons,caissons,caissons,contenant,1,,,0,,0,1,34,35
 Caissons,caissons,caissons,contenant,1,,,,,,1,1,35
 Canastres,canastre,,,,,,,,,1,2,236654
-canavette,,,,,,,,,,1,2,236654
-canavettes,canavettes,,,,,,0,1,0,1,18,236654
-Canavettes,,,,,,,,,,1,4,236654
+canavette,,,,,"Canevette = petit coffre pour le vin ou les liqueurs, voir Wikipédia",,,,,1,2,236654
+canavettes,canavettes,,,,"Canevette = petit coffre pour le vin ou les liqueurs, voir Wikipédia",,0,1,0,1,18,236654
+Canavettes,,,,,"Canevette = petit coffre pour le vin ou les liqueurs, voir Wikipédia",,,,,1,4,236654
 canelle,,,,,,,,,,1,3,236654
 canelles,,,,,,,,,,1,26,236654
 Canelles,cannelles,,,,,,,,,1,1,236654
@@ -1127,11 +1127,10 @@ Piéces,,,,,,,,,,1,1,236654
 pièces,pièces,,,,,,0,,1,1,7502,236654
 Pièces,pièces,,,,,,,,,1,3306,236654
 PIèces,pièces,,,,,,,,,1,152,236654
-Pièces ?,pièces ?,,,,,,,,,1,1,236654
-Pièces & Livres,pièces & livres,,,,,,,,,1,1,236654
+Pièces ?,pièces ?,,,,"vérification dans la source, il s’agit de « pièces »",,,,,1,1,236654
 pièces de 15 aunes,pièces de 15 aunes,,,,,,,,,1,1,236654
-pièces de 25,,,,,,,,,,1,1,236654
-pièces de 30,,,,,,,,,,1,1,236654
+pièces de 25,,,,,"vérification dans la source, il s’agit de « pièces de 25 aunes »",,,,,1,1,236654
+pièces de 30,,,,,"vérification dans la source, il s’agit de « pièces de 30 aunes »",,,,,1,1,236654
 Pièces de judes,pièces de judes,,,,,,,,,1,1,236654
 Pièces estimées,,,,,,,,,,1,4,236654
 Pièces grosses,pièces grosses,,,,,,,,,1,1,236654
@@ -1148,7 +1147,7 @@ pierre,,,,,,,,,,1,3,236654
 Pierre,pierre,pierres,pieces,1,,,,,,1,2,20
 pierres,pierre,pierres,pieces,1,,,0,,0,1,15,20
 Pierres,pierre,pierres,pieces,1,,,,,,1,3,20
-Pieu,,,,,,,,,,1,1,236654
+Pieu,,,,,"vérification dans la source, il s’agit de « pièces »",,,,,1,1,236654
 pinte,pintes,,,,,,,,,1,150,236654
 Pinte,,,,,,,,,,1,4,236654
 pintes,pintes,,,,,,0,,1,1,414,236654
@@ -1160,14 +1159,14 @@ Pipes,pipe,,,,,,,,,1,42,236654
 Pipes ordinaires,,,,,,,,,,1,1,236654
 pipet,pipet,,,,,,,,,1,1,236654
 pipettes,pipettes,pipettes,contenant,1,,,0,,0,1,1,1
-pipots,,,,,,,,,,1,11,236654
-pites,,,,,,,,,,1,1,236654
+pipots,,,,,"Dourshter : 1 pipot = 1 tierçons page 444 (à vérifier car le pipot semble être utilisé pour le miel, or dans tous les cas ici cela concerne de l’eau-de-vie)",,,,,1,11,236654
+pites,,,,,"vérification dans la source, il s’agit de « pintes »",,,,,1,1,236654
 plamches,planches,planches,pieces,1,,,,,,1,1,45
 planches,planches,planches,pieces,1,,,0,,0,1,34,45
 Planches,planches,planches,pieces,1,,,,,,1,10,45
 plaques,plaques,,,,,,,,,1,4,236654
-Plateaux,,,,,,,,,,1,1,236654
-plats,,,,,,,,,,1,2,236654
+Plateaux,,,,,vérification dans la source,,,,,1,1,236654
+plats,,,,,vérification dans la source,,,,,1,2,236654
 plumes,plumes,,,,,,,,,1,1,236654
 pnier,,,,,,,,,,1,1,236654
 poché,pochées,,,,,,,,,1,1,236654
@@ -1210,7 +1209,7 @@ quars de Barils,quart de barils,,,,,,,,,1,1,236654
 quart,quart,quarts de livres,kg,.125,,,,,,1,5,290
 Quart,quart,quarts de livres,kg,.125,,,,,,1,4,290
 quart de charge,,,,,,,,,,1,1,236654
-quarteaux,quarteaux,,,,,,,,,1,2,236654
+quarteaux,quarteaux,,,,"1 quartaut correspond à environ 57 litres, source Wikipédia",,,,,1,2,236654
 Quartieres,quartiers,,,,,,,,,1,2,236654
 quartiers,quartiers,,,,,,0,,1,1,5,236654
 Quartiers,quartiers,,,,,,,,,1,7,236654
@@ -1239,11 +1238,11 @@ rame ou aunes,rame ou aunes,,,,,,,,,1,1,236654
 rames,rames,rames,pieces,500,Doursther : mesure pour le papier. Entre 360 et 500 feuilles,,0,,0,1,652,1130
 Rames,rames,rames,pieces,500,Doursther : mesure pour le papier. Entre 360 et 500 feuilles,,,,,1,372,1130
 Rapé,rapé,,,,,,,,,1,1,236654
-Raziere,razières,,,,,,,,,1,2,236654
-Razière,razières,,,,,,,,,1,1,236654
-Razieres,razières,,,,,,,,,1,4,236654
-razières,razières,,,,,,0,,1,1,42,236654
-Razières,razières,,,,,,,,,1,2,236654
+Raziere,razières,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,,,,1,2,236654
+Razière,razières,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,,,,1,1,236654
+Razieres,razières,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,,,,1,4,236654
+razières,razières,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,0,,1,1,42,236654
+Razières,razières,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,,,,1,2,236654
 rets,,,,,,,,,,1,2,236654
 retz,,,,,,,,,,1,1,236654
 Retz,retz,,,,,,,,,1,1,236654
@@ -1263,13 +1262,13 @@ Sac,sacs,,,,,,,,,1,2,236654
 sacs,sacs,,,,,,0,,1,1,93,236654
 Sacs,sacs,,,,,,,,,1,34,236654
 Sacs de 2800 boisseaux,sacs de 2800 boisseaux,,,,,,,,,1,1,236654
-saix,,,,,,,,,,1,1,236654
-sanegues,,,,,,,,,,1,2,236654
-sannées,sannées,,,,,,,,,1,1,236654
+saix,,,,,"vérification dans la source, il s’agit de « faix »",,,,,1,1,236654
+sanegues,,,,,"vérification dans la source, il semble bien s’agir de « sanegues » mais aucune info sur cette unité",,,,,1,2,236654
+sannées,sannées,,,,"n’apparaît qu’une fois, unité difficilement lisible dans la source",,,,,1,1,236654
 saumon,saumon,pièces,pieces,1,,,,,,1,2,199
 saumons,saumon,pièces,pieces,1,,,0,,0,1,10,199
 Saur,saur,,,,,,,,,1,1,236654
-Saus,saus,,,,,,,,,1,4,236654
+Saus,saus,,,,"vérification dans la source, il semble qu’il s’agisse de « sacs »",,,,,1,4,236654
 seaux,,,,,,,,,,1,1,236654
 Secheldes,secheldes,,,,,,,,,1,1,236654
 selles,,,,,,,,,,1,1,236654
@@ -1298,8 +1297,8 @@ Sixaines,,,,,,,,,,1,4,236654
 sixains,sixains,,,,,,0,1,0,1,5,236654
 Sixains,sixains,,,,,,,,,1,11,236654
 sixieme de baril,sixieme de baril,,,,,,,,,1,1,236654
-sizaines,sizaines,,,,,,0,1,0,1,1,236654
-sizains,,,,,,,,,,1,10,236654
+sizaines,sizaines,,,,"1 sizain = paquet de six jeux de cartes à jouer, source Larousse",,0,1,0,1,1,236654
+sizains,,,,,"1 sizain = paquet de six jeux de cartes à jouer, source Larousse",,,,,1,10,236654
 solives,,,,,,,,,,1,1,236654
 Somme,somme,,,,,,,,,1,1,236654
 sommée,sommées,,,,,,,,,1,1,236654
@@ -1309,9 +1308,9 @@ sommes,somme,,,,,,,,,1,4,236654
 Sommes,,,,,,,,,,1,3,236654
 sommiers,sommiers,,,,,,0,1,0,1,7,236654
 Sous,sous,,,,,,,,,1,1,236654
-stère,,,,,,,,,,1,16,236654
-stères,,,,,,,,,,1,12,236654
-stères à bruler,,,,,,,,,,1,14,236654
+stère,,,,,"1 stère = 1 mètre cube, source Wikipédia",,,,,1,16,236654
+stères,,,,,"1 stère = 1 mètre cube, source Wikipédia",,,,,1,12,236654
+stères à bruler,,,,,"1 stère = 1 mètre cube, source Wikipédia",,,,,1,14,236654
 stimées,,,,,,,,,,1,1,236654
 stoc,stoc,,,,,,,,,1,1,236654
 tables,tables,,,,,,,,,1,3,236654
@@ -1348,8 +1347,8 @@ Tiersous,tierçons,,,,,,,,,1,2,236654
 timbre,,,,,,,,,,1,1,236654
 timbres,timbres,timbres de 40 peaux,pieces,40,http://books.google.fr/books?id=nuY_AAAAcAAJ&pg=PA733&lpg=PA733&dq=peaux+d'hermine+timbre&source=bl&ots=MErsCSDehB&sig=FF2NCCXeSO90f1TcYozlqI33Y_I&hl=fr&sa=X&ei=Qau2U_SkL4Pt0gWo9YHIAQ&ved=0CCsQ6AEwAw#v=onepage&q=peaux%20d'hermine%20timbre&f=fal,,0,,0,1,19,19
 Timbres,timbres,,,,,,,,,1,3,236654
-Times,,,,,,,,,,1,1,236654
-Timpettes,,,,,,,,,,1,1,236654
+Times,,,,,"vérification dans la source, il s’agit de « tinnes »",,,,,1,1,236654
+Timpettes,,,,,"vérification dans la source, il s’agit bien de « timpettes », mais je suppose que cela correspond à topettes",,,,,1,1,236654
 tinéa,tinéa,,,,,,,,,1,1,236654
 tinettes,,,,,,,,,,1,1,236654
 tinnes,,,,,,,,,,1,1,236654
@@ -1361,7 +1360,7 @@ Tomes,tomes,,,,,,,,,1,1,236654
 tommes,tommes,,,,,,,,,1,1,236654
 Tommes,tommes,,,,,,,,,1,1,236654
 tonaux,tonneaux,,,,,,,,,1,6,236654
-Tones?,,,,,,,,,,1,1,236654
+Tones?,,,,,vérification dans la source,,,,,1,1,236654
 tonnaux,tonneaux,,,,,,,,,1,1,236654
 tonne,tonne,,,,,,,,,1,8,236654
 Tonne,tonne,,,,,,,,,1,4,236654
@@ -1377,7 +1376,7 @@ tonnes,tonne,,,,,,0,,1,1,67,236654
 Tonnes,tonne,,,,,,,,,1,23,236654
 Torches,,,,,,,,,,1,1,236654
 Touches,,,,,,,,,,1,1,236654
-Toyette?,,,,,,,,,,1,1,236654
+Toyette?,,,,,"vérification dans la source, il s’agit de « topettes »",,,,,1,1,236654
 traque,traques,traques,pieces,3,Dictionnaire de la marine françois (books.google.fr),,,,,1,9,190
 traquer,traques,traques,pieces,3,Dictionnaire de la marine françois (books.google.fr),,,,,1,1,190
 traques,traques,traques,pieces,3,Dictionnaire de la marine françois (books.google.fr),,0,,0,1,137,190
@@ -1385,7 +1384,7 @@ Traques,traques,traques,pieces,3,Dictionnaire de la marine françois (books.goog
 Treilles,treilles,,,,,,,,,1,1,236654
 treittes,treittes,,,,,,0,1,0,1,1,236654
 unité,,,,,,,,,,1,1,236654
-V,,,,,,,,,,1,1,236654
+V,,,,,"vérification dans la source, il s’agit de « valeur »",,,,,1,1,236654
 vaches,vaches,pièces,pieces,1,,,0,,0,1,23,199
 val,,,,,,,,,,1,9,236654
 valeur,valeur,,,,,,,,,1,2230,236654
@@ -1410,8 +1409,8 @@ veltres,veltes,veltes,kg,7.4299998,Dourshter : mesure de Paris,,,,,1,1,446
 verges,verges,verges,kg,7.4299998,p581 : <=> veltes,,0,,0,1,17,37
 Verges,verges,verges,kg,7.4299998,p581 : <=> veltes,,,,,1,20,37
 verres,,,,,,,,,,1,2,236654
-vie?,vie?,,,,,,,,,1,1,236654
-vieux?,vieux?,,,,,,,,,1,1,236654
+vie?,vie?,,,,"vérification dans la source, il s’agit de « pièces »",,,,,1,1,236654
+vieux?,vieux?,,,,"vérification dans la source, il s’agit de « pièces »",,,,,1,1,236654
 violons,violons,violons,pieces,1,,,0,,0,1,5,5
 Vivants,vivants,,,,,,,,,1,1,236654
 vogues,vogues,,,,,,,,,1,1,236654
