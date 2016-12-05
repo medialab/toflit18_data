@@ -15,7 +15,8 @@ foreach file in classification_country_orthographic_normalization classification
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
 */				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
-*/ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN {
+*/ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
+*/ 				 Units_Normalisation_Orthographique {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -168,6 +169,38 @@ rename direction_simpl direction
 
 
 ***********Unit values
+
+use "bdd_centrale.dta", clear
+merge m:1 quantity_unit using "Units_Normalisation_Orthographique.dta"
+keep quantity_unit quantity_unit_ortho _merge 
+
+
+capture drop source_bdc
+generate source_bdc=0
+label variable source_bdc "1 si présent dans la source française, 0 sinon"
+replace source_bdc=1 if _merge==3 | _merge==1
+replace source_bdc=0 if _merge==2
+
+
+foreach variable of var quantity_unit quantity_unit_ortho  {
+	capture drop nbr_bdc_`variable'
+	generate nbr_bdc_`variable'=0
+	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
+	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+}
+
+drop _merge
+bys quantity_unit : keep if _n==1
+save "Units_Normalisation_Orthographique.dta", replace
+generate sortkey = ustrsortkey(quantity_unit, "fr")
+sort sortkey
+drop sortkey
+export delimited "Units_Normalisation_Orthographique.csv", replace
+end
+
+
+
+
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
