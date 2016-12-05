@@ -6,7 +6,7 @@ version 14.2
 ** version 2 : pour travailler avec la nouvelle organisation
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
-
+if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
 
