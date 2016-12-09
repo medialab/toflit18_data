@@ -46,18 +46,12 @@
  tab quantity_unit_ortho
  
  * Unités métriques
- 
- use "/Users/Matthias/Données Stata/bdd courante.dta", clear
- use "/Users/Matthias/Données Stata/Units_Normalisation_Métrique.dta", clear
- drop _merge
- save "/Users/Matthias/Données Stata/Units_Normalisation_Métrique.dta", replace
- 
- 
+  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  
  merge m:1 quantity_unit using "/Users/Matthias/Données Stata/Units_Normalisation_Orthographique.dta"
  drop _merge
- merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique.dta"
+ merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta", force
  codebook quantity_unit_ajustees
  codebook u_conv
  tab u_conv, m
