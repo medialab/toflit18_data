@@ -41,6 +41,9 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
+use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+destring q_conv, replace
+save "Données Stata/Units_Normalisation_Métrique1.dta", replace
 
 /*
 
@@ -197,9 +200,6 @@ sort sortkey
 drop sortkey
 export delimited "Units_Normalisation_Orthographique.csv", replace
 
-use "Units_Normalisation_Métrique1.dta", clear
-drop _merge
-save "Units_Normalisation_Métrique1.dta", replace
 use "Units_Normalisation_Orthographique.dta", clear
 merge m:1 quantity_unit_ortho using "Units_Normalisation_Métrique1.dta"
 keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
@@ -453,7 +453,7 @@ save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
 
-
+/*
 
 ***********************************************************************************************************************************
 *keep if quantity_unit!=""
@@ -474,7 +474,7 @@ sort year sourcetype exportsimports direction marchandises_simplification pays_s
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
-
+*/
 
 
 /*

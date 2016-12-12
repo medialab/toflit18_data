@@ -199,7 +199,7 @@ charges,1,charges,kg,146.85001,D'après Doursther (France). Aussi la valeure cho
 chariots,1,chariots,litres,1028.31,"Doursther : 1 chariot = 10 carreaux = 30 pieds cubes de Paris = 30*34,277 L (voir wikipédia pied cube)",,,,,5,5
 charretées,1,charretées,litres,1920,"www.genefourneau.com/mesure.html , =1,92 stères",,,,,17,17
 charrettes,1,,,,,,,,,5,757
-chars,1,chars,litres,548.44,"p111 doursther, mesure de genève",,0,,0,4,4
+chars,1,chars,litres,548.4400000000001,"p111 doursther, mesure de genève",,0,,0,4,4
 charte,1,,,,,,,,,1,757
 chartils,1,,,,,,,,,2,757
 cheldes,1,,,,,,,,,2,757
@@ -238,24 +238,24 @@ cuirs entiers,1,pièces,pièces,1,,,,,,1,121
 dame-jeannes,1,pièces,pièces,1,,,,,,4,121
 de,1,en nombre,pièces,1,,,0,,0,1,14
 de selle,1,en nombre,pièces,1,,,0,,0,1,14
-décagramme,1,décagramme,kg,0.01,,,,,,1,1
+décagramme,1,décagramme,kg,.01,,,,,,1,1
 décimètres,1,décimètres,cm,10,,,,,,1,1
-demi,1,demi pièces,pièces,0.5,,,,,,1,16
+demi,1,demi pièces,pièces,.5,,,,,,1,16
 demi barriques,1,,,,nécessite le contenu et le lieu d'émission,,,,1,2,757
-demi bottes,1,,,,,,,,,1,757
+demi bottes,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
 demi bouteilles,1,,,,nécessite le contenu et le lieu d'émission,,,,1,5,757
-demi caisses,1,,,,,,,,,1,757
-demi charge,1,,,,,,,,,3,757
-demi cuirs,1,demi pièces,pièces,0.5,,,,,,5,16
-demi meule,1,,,,,,,,,1,757
-demi pièces,1,demi pièces,pièces,0.5,,,0,,0,7,16
+demi caisses,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
+demi charge,1,,,,nécessite le contenu et le lieu d'émission,,,,1,3,757
+demi cuirs,1,demi pièces,pièces,.5,,,,,,5,16
+demi meule,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
+demi pièces,1,demi pièces,pièces,.5,,,0,,0,7,16
 demi pieds,1,demi pieds du roy,cm,16.2420005,,,,,,1,1
-demi planches,1,demi planches,pièces,0.5,,,,,,2,2
+demi planches,1,demi planches,pièces,.5,,,,,,2,2
 demi planches en barils,1,,,,,,,,,1,757
-demie,1,demi pièces,pièces,0.5,,,,,,3,16
+demie,1,demi pièces,pièces,.5,,,,,,3,16
 demie ancres,1,demi ancre,kg,18.5,p27 doursther : en usage en Allemagne et en hollande formant le quart de l'aime,,,,,1,1
 demie charge,1,demi charge,kg,73.425005,D'après Doursther (France). Aussi la valeure choisie par Werner,,,,,2,2
-demycs,1,demi-pièces,pièces,0.5,,,0,,0,1,1
+demycs,1,demi-pièces,pièces,.5,,,0,,0,1,1
 devants,1,,,,,,0,1,0,1,757
 dindons,1,pièces,pièces,1,,,,,,1,121
 divers,1,pièces,pièces,1,,,,,,2,121
@@ -266,7 +266,7 @@ dourgs,1,,,,,,0,1,0,1,757
 douzaine,1,douzaines,pièces,12,,,,,,5,11
 douzaine bonnets,1,douzaines,pièces,12,,,,,,1,11
 douzaine de bas,1,douzaines,pièces,12,,,,,,1,11
-douzaine de fiole,1,,,,,,,,,2,757
+douzaine de fiole,1,,,,,,,,1,2,757
 douzaine de mouchoirs,1,douzaines,pièces,12,,,,,,1,11
 douzaine de pains,1,,,,,,,,,1,757
 douzaine de paires,1,douzaines de paires,pièces,24,,,,,,5,5
@@ -343,7 +343,7 @@ gobelets,1,gobelets,pièces,1,,,,,,3,3
 gommes,1,,,,,,,,,2,757
 gonnes,1,,,,"D'après le Savary, une gonne est une sorte de futaille et 1 gonne = 400 à 450 livres (quand cela concerne du saumon), ou 1 gonne = 1,25 baril (quand cela concerne de la bière ou liqueurs)",,0,1,0,5,757
 gousses,1,,,,,,,,,1,757
-gramme,1,gramme,kg,0.001,,,,,,2,2
+gramme,1,gramme,kg,.001,,,,,,2,2
 grande,1,pièces,pièces,1,,,,,,3,121
 grande caisse,1,,,,,,,,,1,757
 grande pièce,1,pièces,pièces,1,,,,,,1,121
@@ -358,22 +358,22 @@ grosses,1,grosses,pièces,144,"p175 doursther, 12 douzaines",,,,,10,11
 grosses barriques,1,,,,nécessite le contenu et le lieu d'émission,,,,1,2,757
 grosses paires,1,paires,pièces,2,,,,,,1,10
 grosses pièces,1,grosses,pièces,144,"p175 doursther, 12 douzaines",,,,,1,11
-grosses pipes,1,,,,,,,,,1,757
+grosses pipes,1,,,,,,,,1,1,757
 grosseur,1,,,,,,,,,1,757
 guindeau,1,guindeau,pièces,1,,,,,,1,1
 haches,1,,,,,,,,,1,757
 halles,1,,,,,,,,,1,757
 hambourg,1,,,,,,,,,6,757
 harpe,1,,,,,,,,,1,757
-hectogrammes,1,hectogrammes,kg,0.1,,,,,,1,1
+hectogrammes,1,hectogrammes,kg,.1,,,,,,1,1
 hectolitres,1,hectolitres,litres,100,,,,,,3,3
 horloges,1,horloges,pièces,1,,,,,,1,1
-huitièmes,1,huitième,litres,0.125,Doursther page 185,,0,1,0,1,1
+huitièmes,1,huitième,litres,.125,Doursther page 185,,0,1,0,1,1
 huitres,1,huitres,pièces,1,,,0,,0,1,1
 hume,1,,,,,,,,,1,757
 incrustée d'or,1,pièces,pièces,1,,,0,1,0,1,121
 issarions,1,,,,,,,,,2,757
-jarres,1,,,,,,,,,1,757
+jarres,1,,,,,,,,1,1,757
 jattes,1,,,,,,,,,2,757
 jets,1,jez,litres,137.11,"Doursther page 190, 1 jez = 137,11 L",,,,,4,4
 jeux,1,jeux,pièces,1,,,,,,3,3
@@ -395,32 +395,32 @@ le cent,1,cent,pièces,100,,,,,,2,2
 le mille,1,mille,pièces,1000,,,,,,1,2
 le pied cube,1,,,,,,,,,1,757
 le reste,1,,,,,,,,,1,757
-les 180 livres,1,livres,kg,88.1099982,,,,,,1,15
+les 180 livres,1,livres,kg,88.10999820000001,,,,,,1,15
 leths,1,leths de cendre,litres,2638.2,"dictionnaire du commerce p600 : un leth pour 12 barils, puis p549 -> prendre tonnes de berlin ?",,0,,0,5,5
 lets,1,,,,,,,,,2,757
 letz,1,,,,,,,,,3,757
 liens,1,,,,,,,,,1,757
 lingot,1,,,,,,,,,1,757
 litres,1,litres,litres,1,,,,,,2,2
-livres,1,livres,kg,0.48949999,,,,,,13,15
+livres,1,livres,kg,.48949999,,,,,,13,15
 livres de bateau,0,livres de bateau,kg,150,"Witthöft 1993, Ulrich",,1,,0,1,1
-livres de hambourg,0,livres de hambourg,kg,0.48453999,"Witthöft 1993, Ulrich",,1,,0,1,1
-livres en saumure,1,livres,kg,0.48949999,,,,,,1,15
+livres de hambourg,0,livres de hambourg,kg,.48453999,"Witthöft 1993, Ulrich",,1,,0,1,1
+livres en saumure,1,livres,kg,.48949999,,,,,,1,15
 livres ou pièces,1,,,,,,,,,1,757
 livrets,1,,,,,,0,1,0,1,757
 lordins,1,,,,,,,,,4,757
 madriers,1,madriers,pièces,1,pièces ??,,,,,4,4
 madures,1,,,,,,0,1,0,1,757
-mailles,1,mailles,kg,0.076485001,quart de l'once,,0,,0,1,1
+mailles,1,mailles,kg,.076485001,quart de l'once,,0,,0,1,1
 main,1,,,,,,,,,3,757
 malles,1,malles,contenant,1,,,0,,0,3,3
 manades,1,,,,,,,,,2,757
 manches,1,,,,,,,,,1,757
 mandes,1,,,,,,0,1,0,1,757
 mannes,1,mannes,contenant,1,http://books.google.fr/books?id=9HM7AQAAIAAJ&pg=PA56&lpg=PA56&dq=mannes+de+charbon&source=bl&ots=WmK7GL1a82&sig=iO8oAqn4W-S8Bhi-28ohNUZPaP8&hl=fr&sa=X&ei=ULG2U76SNaz20gWTpoCYCQ&ved=0CFIQ6AEwCQ#v=onepage&q=mannes%20de%20charbon&f=false,,,,,5,5
-marcs,1,marcs,kg,0.244749995,,,,,,8,9
+marcs,1,marcs,kg,.244749995,,,,,,8,9
 marcs 6 onces,1,,,,,,,,,1,757
-marcs de Paris,1,marcs,kg,0.244749995,,,,,,1,9
+marcs de Paris,1,marcs,kg,.244749995,,,,,,1,9
 maroquins,1,peaux,pièces,1,,,0,,0,1,5
 martes,1,,,,,,0,1,0,1,757
 masses,1,,,,,,,,,3,757
@@ -453,7 +453,7 @@ moutte,1,,,,,,,,,2,757
 moyenne,1,pièces,pièces,1,,,,,,4,121
 moyenne pièces,1,pièces,pièces,1,,,,,,1,121
 muid de 120 livres,1,muids,kg,58.7399988,,,,,,1,1
-"muid de 62,5 pintes",1,,,,,,,,,1,757
+"muid de 62,5 pintes",1,,,,,,,,1,1,757
 muids,1,,,,nécessite le contenu et le lieu d'émission,,,,1,5,757
 muids + pintes,1,,,,nécessite le contenu et le lieu d'émission,,,,1,2,757
 muids + pintes et bouteilles,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
@@ -470,8 +470,8 @@ mulets,1,pièces,pièces,1,,,0,,0,2,121
 nappes,1,,,,,,,,,1,757
 niasses,1,,,,,,,,,1,757
 nombre,1,nombre,pièces,1,,,,,,5,5
-onces,1,onces,kg,0.0305937494,,,,,,4,5
-onces estimées,1,onces,kg,0.0305937494,,,,,,1,5
+onces,1,onces,kg,.0305937494,,,,,,4,5
+onces estimées,1,onces,kg,.0305937494,,,,,,1,5
 ordinaire,1,ordinaires,pièces,1,,,,,,4,4
 outres,1,,,,,,,,,1,757
 ouvrée,1,pièces,pièces,1,,,,,,1,121
@@ -497,7 +497,7 @@ parasols en nombre,1,pièces,pièces,1,,,,,,1,121
 pasgas,1,,,,,,0,1,0,1,757
 pattes,1,,,,,,,,,1,757
 patz,1,,,,unité difficilement lisible dans la source,,0,1,0,1,757
-paumes,1,paumes,cm,8.12,Doursther page 392,,,,,1,1
+paumes,1,paumes,cm,8.119999999999999,Doursther page 392,,,,,1,1
 peaux,1,peaux,pièces,1,,,,,,4,5
 peintes,1,pièces,pièces,1,,,,,,1,121
 pelaux,1,,,,,,,,,2,757
@@ -506,10 +506,10 @@ pendules de 8 livres,1,pendules,cm,99.38493,Doursther page 393,,,,,1,4
 perches,1,,,,nécessite le lieu d'émission,,,,,2,757
 petit ballot,1,,,,,,,,,1,757
 petit sac,1,,,,,,,,,1,757
-petite caisse,1,,,,,,,,,1,757
+petite caisse,1,,,,,,,,1,1,757
 petite pièces,1,petits,pièces,1,,,,,,1,5
-petites bouteilles,1,,,,,,,,,1,757
-petites caisses,1,,,,,,,,,1,757
+petites bouteilles,1,,,,,,,,1,1,757
+petites caisses,1,,,,,,,,1,1,757
 petites cruches,1,,,,,,,,,1,757
 petits,1,petits,pièces,1,,,,,,4,5
 pezant,1,,,,,,,,,2,757
@@ -522,7 +522,7 @@ pièces pour barriques,1,,,,,,,,,1,757
 pieds,1,pieds de roi,cm,32.484001,p426 doursther,,,,,3,3
 pieds cubes,1,pieds cubes,litres,34.277,Wikipedia,,,,,2,2
 pierre,1,pierres,pièces,1,,,,,,4,4
-pintes,1,pinte,litres,0.952146,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,,,,5,5
+pintes,1,pinte,litres,.952146,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,,,,5,5
 pipe,1,pipe,litres,411.327,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,0,,1,5,6
 pipe ordinaire,1,pipe,litres,411.327,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,,,,1,6
 pipettes,1,pipettes,contenant,1,,,0,,0,1,1
@@ -543,7 +543,7 @@ poinçons,1,poinçons,litres,201.16,Doursther page 447,,,,,8,8
 pommes,1,pièces,pièces,1,,,,,,1,121
 porcelets,1,pièces,pièces,1,,,0,,0,1,121
 porcs,1,pièces,pièces,1,,,0,,0,1,121
-pot,1,,,,,,,,,1,757
+pot,1,,,,,,,,1,1,757
 potiches,1,,,,,,,,,1,757
 pots,1,,,,nécessite le contenu et le lieu d'émission,,,,1,6,757
 poulains,1,pièces,pièces,1,,,0,,0,1,121
@@ -552,23 +552,23 @@ pour cent,1,pièces,pièces,100,,,,,,1,121
 poutre,1,poutres,pièces,1,,,,,,2,2
 poutrelles,1,poutrelles,pièces,1,"vérification dans la source, il s'agit de « poutrelles »",,,,,1,1
 prises,1,,,,,,,,,2,757
-q livre,1,quarts de livres,kg,0.125,,,,,,1,6
-quart,1,quarts de livres,kg,0.125,,,,,,2,6
-quart de barils,1,,,,,,,,,1,757
-quart de charge,1,,,,,,,,,1,757
-quartaut,1,quartaut,litres,68.555,"1 quartaut correspond à environ 68 litres, source Wikipédia",,,,,1,1
+q livre,1,quarts de livres,kg,.125,,,,,,1,6
+quart,1,quarts de livres,kg,.125,,,,,,2,6
+quart de barils,1,,,,,,,,1,1,757
+quart de charge,1,,,,,,,,1,1,757
+quartaut,1,quartaut,litres,68.55500000000001,"1 quartaut correspond à environ 68 litres, source Wikipédia",,,,,1,1
 quartiers,1,,,,nécessite le contenu et le lieu d'émission,,,,1,3,757
-quartiers mesure de blaye,1,,,,,,,,,1,757
-quarts,1,quarts de livres,kg,0.125,,,,,,3,6
+quartiers mesure de blaye,1,,,,,,,,1,1,757
+quarts,1,quarts de livres,kg,.125,,,,,,3,6
 queues,1,queue,litres,411.327,"Doursther page 468, queue = pipe",,,,,3,3
 quiconir,1,,,,unité difficilement lisible dans la source,,,,,1,757
 quinquets,1,,,,,,,,,1,757
-quintal,1,,,,,,,,,3,757
+quintal,1,,,,,,,,1,3,757
 quintaux,1,,,,nécessite le contenu et le lieu d'émission,,,,1,3,757
-quintaux de Saint-Domingue,1,,,,,,,,,1,757
-quintaux des colonies françaises,1,,,,,,,,,1,757
-quintaux métriques,1,,,,,,,,,1,757
-quints,1,quint,kg,0.0038242187,Doursther page 468,,,,,1,1
+quintaux de Saint-Domingue,1,,,,,,,,1,1,757
+quintaux des colonies françaises,1,,,,,,,,1,1,757
+quintaux métriques,1,,,,,,,,1,1,757
+quints,1,quint,kg,.0038242187,Doursther page 468,,,,,1,1
 rame ou aunes,1,,,,,,,,,1,757
 rames,1,rames,pièces,500,Doursther : mesure pour le papier. Entre 360 et 500 feuilles,,,,,4,4
 râpé,1,pièces,pièces,1,,,,,,1,121
@@ -580,7 +580,7 @@ rondelles,1,,,,,,,,,1,757
 roues,1,,,,,,,,,1,757
 rouleaux,1,,,,,,,,,4,757
 sabres,1,sabres,pièces,1,,,0,,0,2,2
-sacs,1,,,,nécessite le lieu d'émission,,,,,4,757
+sacs,1,,,,nécessite le lieu d'émission,,,,1,4,757
 sacs de 2800 boisseaux,1,,,,,,,,,1,757
 sanegues,1,,,,,,,,,1,757
 sannées,1,,,,"n'apparaît qu'une fois, unité difficilement lisible dans la source",,,,,1,757
@@ -596,7 +596,7 @@ serviettes,1,serviettes,pièces,1,,,,,,1,1
 setiers,1,setier,litres,152.343,wikipédia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,,,,9,9
 simple,1,,,,,,,,,1,757
 sixains,1,jeux de cartes,pièces,6,"1 sixain ou sizain = paquet de six jeux de cartes à jouer, source Larousse",,,,,5,7
-sixième de baril,1,,,,,,,,,1,757
+sixième de baril,1,,,,,,,,1,1,757
 sizains,1,jeux de cartes,pièces,6,"1 sixain ou sizain = paquet de six jeux de cartes à jouer, source Larousse",,0,1,0,2,7
 solives,1,,,,,,,,,1,757
 somme,1,,,,,,,,,3,757
@@ -613,7 +613,7 @@ taureaux,1,pièces,pièces,1,,,0,,0,1,121
 tentures,1,pièces,pièces,1,,,,,,2,121
 têtes,1,pièces,pièces,1,,,0,,0,1,121
 tierce,0,tierce,kg,148,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,,1,,0,1,1
-tierçons,1,,,,nécessite le lieu d'émission,,,,,15,757
+tierçons,1,,,,nécessite le lieu d'émission,,,,1,15,757
 tiers,1,,,,,,0,1,0,1,757
 timbres,1,,,,,,,,,3,757
 timpettes,1,,,,,,,,,1,757
@@ -627,7 +627,7 @@ tommes,1,,,,,,,,,2,757
 tones,1,,,,,,,,,1,757
 tonne,1,,,,nécessite le contenu et le lieu d'émission,,0,,1,4,757
 tonneaux,1,,,,nécessite le contenu et le lieu d'émission,,,,1,8,757
-tonneaux a 20 quarts,1,,,,,,,,,1,757
+tonneaux a 20 quarts,1,,,,,,,,1,1,757
 tonneaux de 5250 livres,1,tonneaux,kg,2569.8749475,,,,,,1,1
 tonneaux de haut,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
 tonneaux de ville,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,757
