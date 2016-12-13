@@ -90,7 +90,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 	
 	
 
- /*(juste parce que c'est trop long)
+ *(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -147,7 +147,7 @@ replace prix_unitaire = value/quantit  if computed_up==1
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
-*/
+
 
 
 ********* Procédure pour les nouveaux fichiers ************
