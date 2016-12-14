@@ -16,7 +16,7 @@ foreach file in classification_country_orthographic_normalization classification
 */				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
 */				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique {
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -41,6 +41,9 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
+use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+destring q_conv, replace
+save "Données Stata/Units_Normalisation_Métrique1.dta", replace
 
 /*
 
@@ -90,7 +93,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 	
 	
 
- *(juste parce que c'est trop long)
+ /*(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -147,7 +150,7 @@ replace prix_unitaire = value/quantit  if computed_up==1
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
-
+*/
 
 
 ********* Procédure pour les nouveaux fichiers ************
@@ -196,9 +199,25 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_Normalisation_Orthographique.csv", replace
-end
 
+use "Units_Normalisation_Orthographique.dta", clear
+merge m:1 quantity_unit_ortho using "Units_Normalisation_Métrique1.dta"
+keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
+source_hambourg missing need_marchandises source_bdc _merge 
+foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
+	capture drop nbr_bdc_`variable'
+	generate nbr_bdc_`variable'=0
+	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
+	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+}
 
+drop _merge
+bys quantity_unit_ortho : keep if _n==1
+save "Units_Normalisation_Métrique1.dta", replace
+generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
+sort sortkey
+drop sortkey
+export delimited "Units_Normalisation_Métrique1.csv", replace
 
 
 use "bdd_centrale.dta", clear
@@ -434,7 +453,7 @@ save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
 
-
+/*
 
 ***********************************************************************************************************************************
 *keep if quantity_unit!=""
@@ -455,7 +474,7 @@ sort year sourcetype exportsimports direction marchandises_simplification pays_s
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
-
+*/
 
 
 /*
