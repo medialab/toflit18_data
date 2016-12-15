@@ -13,10 +13,10 @@ capture log using "`c(current_time)' `c(current_date)'"
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
-*/				 Units_N1 Units_N2 Units_N3  bdd_classification_edentreaty bdd_classification_NorthAmerica /*
-*/				 bdd_classification_medicinales bdd_classification_hamburg bdd_grains /*
+*/				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
+*/				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique {
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 {
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -41,6 +41,13 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
+use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+destring q_conv, replace
+save "Données Stata/Units_Normalisation_Métrique1.dta", replace
+
+use "Données Stata/Units_Normalisation_Métrique2.dta", clear
+destring q_conv, replace
+save "Données Stata/Units_Normalisation_Métrique2.dta", replace
 
 /*
 
@@ -90,7 +97,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 	
 	
 
- *(juste parce que c'est trop long)
+ /*(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -147,7 +154,7 @@ replace prix_unitaire = value/quantit  if computed_up==1
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
-
+*/
 
 
 ********* Procédure pour les nouveaux fichiers ************
@@ -196,9 +203,25 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_Normalisation_Orthographique.csv", replace
-end
 
+use "Units_Normalisation_Orthographique.dta", clear
+merge m:1 quantity_unit_ortho using "Units_Normalisation_Métrique1.dta"
+keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
+source_hambourg missing need_marchandises source_bdc _merge 
+foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
+	capture drop nbr_bdc_`variable'
+	generate nbr_bdc_`variable'=0
+	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
+	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+}
 
+drop _merge
+bys quantity_unit_ortho : keep if _n==1
+save "Units_Normalisation_Métrique1.dta", replace
+generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
+sort sortkey
+drop sortkey
+export delimited "Units_Normalisation_Métrique1.csv", replace
 
 
 use "bdd_centrale.dta", clear
@@ -333,7 +356,7 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in bdd_marchandises_sitc bdd_classification_edentreaty bdd_classification_NorthAmerica bdd_classification_medicinales bdd_classification_hamburg {
+foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -427,58 +450,30 @@ drop yearbis
 rename year yearstr
 rename yearnum year
 
+******************************************************************************************************
+* Pour les quantités
 
+use "Données Stata/bdd courante.dta", clear
+ merge m:1 quantity_unit using "Données Stata/Units_Normalisation_Orthographique.dta"
+ replace quantity_unit_ortho="unité manquante" if _merge==1
+ drop _merge
+ merge m:1 quantity_unit_ortho using "Données Stata/Units_Normalisation_Métrique1.dta"
+ replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
+ replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
+ drop _merge
+ codebook q_conv
+ merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
+		using "Données Stata/Units_Normalisation_Métrique2.dta", update
+ drop _merge
+ codebook q_conv
+ drop remarques remarque_unit
+ 
+ generate quantites_metric = q_conv * quantit
 
 
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
-
-
-
-***********************************************************************************************************************************
-*keep if quantity_unit!=""
-use "bdd courante.dta", clear 
-
-merge m:1 quantity_unit using "Units_N1.dta"
-* 5 _merge==2 -> viennent de Hambourg
-drop if _merge==2
-drop _merge 
-
-generate quantites_metric = q_conv * quantit
-
-
-order sourcetype year exportsimports direction marchandises_simplification pays_simplification value quantit quantity_unit quantites_metric u_conv
-
-sort year sourcetype exportsimports direction marchandises_simplification pays_simplification
-
-save "bdd courante", replace
-export delimited "bdd courante.csv", replace
-
-
-
-
-/*
-
-merge m:1 quantity_unit marchandises_normalisees using "$dir/Units N2_v1.dta"
-drop if _merge==2
-drop _merge
-* 3 _merge==2 -> combinaisons nouvelles marchandises_normalisees-quantity_unit viennent de Hambourg (tonneaux de beurre et d'huile de baleine, quartiers d'eau de vie)
-merge m:1 quantity_unit marchandises_normalisees exportsimports pays_corriges using "$dir/Units N3_v1.dta"
-drop _merge
-replace quantity_unit_ajustees = N2_quantity_unit_ajustees  if N2_quantity_unit_ajustees!=""
-replace quantity_unit_ajustees = N3_quantity_unit_ajustees if N3_quantity_unit_ajustees!=""
-replace u_conv=N2_u_conv if N2_u_conv!=""
-replace u_conv=N3_u_conv if N3_u_conv!=""
-replace q_conv=N2_q_conv if N2_q_conv!=.
-replace q_conv=N3_q_conv if N3_q_conv!=.
-replace Remarque_unit=N2_Remarque_unit if N2_Remarque_unit!=""
-replace Remarque_unit =N3_Remarque_unit if N3_Remarque_unit!=""
-drop N2_u_conv N3_u_conv N2_q_conv N3_q_conv N2_Remarque_unit N3_Remarque_unit
-*** à la fin il y a 64 635 observations -> les 64 633 de départ + les 3 issues des combinaisons nouvelles marchandises_normalisees-quantity_unit venant de Hambourg
-*********************************
-
-*/
 
 
 
