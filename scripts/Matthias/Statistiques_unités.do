@@ -26,8 +26,9 @@
  drop _merge
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
- codebook quantity_unit_ajustees
- tab quantity_unit_ajustees, m sort
+ replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
+ * codebook quantity_unit_ajustees
+ * tab quantity_unit_ajustees, m sort
  codebook u_conv
  tab u_conv, m sort
  
@@ -38,6 +39,7 @@
  drop _merge
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
+ replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  codebook sitc18_rev3
  tab sitc18_rev3 u_conv, m
  
@@ -48,6 +50,7 @@
  drop _merge
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
+ replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  codebook direction
  bysort direction: gen nb_occurrences_direction=_N 
  keep if nb_occurrences_direction>1000
