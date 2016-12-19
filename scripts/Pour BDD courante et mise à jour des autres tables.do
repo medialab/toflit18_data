@@ -97,7 +97,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 	
 	
 
- /*(juste parce que c'est trop long)
+ *(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -138,19 +138,11 @@ drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_u
 replace value=. if (value==0 & quantit!=. & quantit!=0)
 
 
-**** Ce bout de code traite des 0 dans value et unit_price. Remplace des "0" par des valeurs manquantes.
-***Puis calcule en les flaguant les values et les unit_price quand c'est possible.
-/*
-generate byte computed_value = 0
-label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
-replace computed_value=1 if (value==0 | value==.) & prix_unitaire!=0 & prix_unitaire!=. & quantit!=0 & quantit!=.
-replace value = quantit*prix_unitaire if computed_value==1
 
-gen byte computed_up = 0
-label var computed_up "Was the unit price computed expost based on and quantities and value ? 0 no 1 yes"
-replace computed_up=1 if (prix_unitaire==0 | prix_unitaire==.) & value!=0 & value!=. & quantit!=0 & quantit!=.
-replace prix_unitaire = value/quantit  if computed_up==1
-*/
+** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
+* Création de value_as_reported, value = unit_price*quantit...
+
+
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
