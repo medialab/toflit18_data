@@ -97,7 +97,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 	
 	
 
- /*(juste parce que c'est trop long)
+ *(juste parce que c'est trop long)
 
 
 import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
@@ -112,7 +112,7 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =ustrtrim(`variable')
 }
 
-foreach variable of var quantit value prix_unitaire { 
+foreach variable of var quantit value prix_unitaire probleme { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -453,17 +453,19 @@ rename yearnum year
 ******************************************************************************************************
 * Pour les quantités
 
-use "Données Stata/bdd courante.dta", clear
- merge m:1 quantity_unit using "Données Stata/Units_Normalisation_Orthographique.dta"
- replace quantity_unit_ortho="unité manquante" if _merge==1
+
+
+
+ merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
+ replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  drop _merge
- merge m:1 quantity_unit_ortho using "Données Stata/Units_Normalisation_Métrique1.dta"
+ merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  drop _merge
  codebook q_conv
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
-		using "Données Stata/Units_Normalisation_Métrique2.dta", update
+		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
  drop _merge
  codebook q_conv
  drop remarques remarque_unit
@@ -471,14 +473,14 @@ use "Données Stata/bdd courante.dta", clear
  generate quantites_metric = q_conv * quantit
 
 
-save "bdd courante", replace
-export delimited "bdd courante.csv", replace
+save "$dir/Données Stata/bdd courante", replace
+export delimited "$dir/Données Stata/bdd courante.csv", replace
 
 
 
 
 
-save "$dir/bdd courante", replace
+save "$dir/Données Stata/bdd courante", replace
 
 
 /*
