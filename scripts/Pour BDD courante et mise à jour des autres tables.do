@@ -16,7 +16,8 @@ foreach file in classification_country_orthographic_normalization classification
 */				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 {
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
+*/				 bdd_origine	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -154,15 +155,6 @@ export delimited "Données Stata/bdd_centrale.csv", replace
 *******************************
 
 cd "$dir/Données Stata"
-
-***********directions
-use "bdd_centrale.dta", clear
-merge m:1 direction using "bdd_directions.dta"
-rename direction direction_origine
-rename direction_simpl direction
-
-
-
 
 
 
@@ -386,6 +378,19 @@ foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_ma
 ****************************BDD courante
 
 use "bdd_centrale.dta", clear
+
+
+merge m:1 direction using "bdd_directions.dta"
+rename direction direction_origine
+rename direction_simpl direction
+
+
+merge m:1 origine using "bdd_origine.dta"
+rename origine origine_origine
+rename origine_norm_ortho origine
+
+
+
 
 merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop if _merge==2
