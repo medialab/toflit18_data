@@ -21,33 +21,21 @@
  predict lnValue_predImp if e(sample)
  gen résiduImp = lnValue_predImp - lnValue
  * histogram résiduImp
- * drop if résiduImp==.
  * count if abs(résiduImp)>8
  
  regress lnValue i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
  predict lnValue_predExp if e(sample)
  gen résiduExp = lnValue_predExp - lnValue
  * histogram résiduExp
- * drop if résiduExp==.
  * count if abs(résiduExp)>8
- 
- gen résidu=résiduExp
- replace résidu=résiduImp if exportsimports=="Imports"
- 
- gen résidu_élevé = 1 if abs(résidu)>8
  
  merge 1:m year marchandises_simplification pays_grouping exportsimports using ///
  "/Users/Matthias/Données Stata/bdd courante.dta"
- keep if résidu_élevé==1
- drop if abs(résiduImp)<=8 & exportsimports=="Imports"
- drop if abs(résiduExp)<=8 & exportsimports=="Exports"
+ drop if abs(résiduImp)<=8 & résiduExp==.
+ drop if abs(résiduExp)<=8 & résiduImp==.
  drop if résiduExp==. & résiduImp==.
  
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
- résiduImp résiduExp value quantit total
+ résiduImp résiduExp
  
  export delimited using "/Users/Matthias/Données Stata/probleme_résidu.csv", replace
- 
- * Essayer en ne gardant que les résidus négatifs <-5 par exemple
- 
- 
