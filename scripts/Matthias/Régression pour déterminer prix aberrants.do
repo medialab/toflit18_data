@@ -1,50 +1,65 @@
+ * Sans utiliser les unités métriques
+ 
  clear all
  set maxvar 32767
  set matsize 11000
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
- drop if sourcetype=="1792-both semester"
- drop if sourcetype=="1792-first semester" 
- drop if sourcetype=="Colonies"
- drop if sourcetype=="Divers"
- drop if sourcetype=="Divers - in"
- drop if sourcetype=="Local"
- drop if sourcetype=="Tableau Général"
- bysort pays_grouping exportsimports year marchandises_simplification: egen somme_directions=sum(value)
- collapse (sum) value, by(year marchandises_simplification pays_grouping exportsimports somme_directions)
- gen lnValue=ln(value)
+ drop if prix_unitaire==.
+ drop if prix_unitaire==0
+ gen lnPrix=ln(prix_unitaire)
  encode marchandises_simplification, gen(marchandises_simplification_num)
  bysort marchandises_simplification_num: drop if _N<=10
  encode pays_grouping, gen(pays_grouping_num)
  drop if year>1787 & year<1788
  drop if year==1805.75
- regress lnValue i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
- predict lnValue_predImp if e(sample)
- gen résiduImp = lnValue_predImp - lnValue
- * histogram résiduImp
- * drop if résiduImp==.
- * count if abs(résiduImp)>8
+ regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
+ predict lnPrix_predImp if e(sample)
+ gen résiduImp = lnPrix_predImp - lnPrix
  
- regress lnValue i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
- predict lnValue_predExp if e(sample)
- gen résiduExp = lnValue_predExp - lnValue
- * histogram résiduExp
- * drop if résiduExp==.
- * count if abs(résiduExp)>8
- 
- gen résidu=résiduExp
- replace résidu=résiduImp if exportsimports=="Imports"
- 
- gen résidu_élevé = 1 if résidu<-7
- 
- merge 1:m year marchandises_simplification pays_grouping exportsimports using ///
- "/Users/Matthias/Données Stata/bdd courante.dta"
- keep if résidu_élevé==1
- drop if résiduImp>=-7 & exportsimports=="Imports"
- drop if résiduExp>=-7 & exportsimports=="Exports"
+ regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
+ predict lnPrix_predExp if e(sample)
+ gen résiduExp = lnPrix_predExp - lnPrix
+
+ drop if abs(résiduImp)<10 & exportsimports=="Imports"
+ drop if abs(résiduExp)<10 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
- résiduImp résiduExp value quantit total
+ résiduImp résiduExp quantit prix_unitaire 
  
- export delimited using "/Users/Matthias/Données Stata/probleme_résidu.csv", replace
+ export delimited using "/Users/Matthias/Données Stata/probleme_prix.csv", replace
  
+ * En utilisant les unités métriques
+ 
+ clear all
+ set maxvar 32767
+ set matsize 11000
+ use "/Users/Matthias/Données Stata/bdd courante.dta", clear
+ drop if u_conv=="."
+ drop if q_conv==0
+ drop if q_conv==.
+ drop if prix_unitaire==.
+ drop if prix_unitaire==0
+ gen prix_conv=prix_unitaire/q_conv
+ gen lnPrix=ln(prix_conv)
+ encode marchandises_simplification, gen(marchandises_simplification_num)
+ bysort marchandises_simplification_num: drop if _N<=10
+ encode pays_grouping, gen(pays_grouping_num)
+ drop if year>1787 & year<1788
+ drop if year==1805.75
+ regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
+ predict lnPrix_predImp if e(sample)
+ gen résiduImp = lnPrix_predImp - lnPrix
+ 
+ regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
+ predict lnPrix_predExp if e(sample)
+ gen résiduExp = lnPrix_predExp - lnPrix
+
+ drop if abs(résiduImp)<10 & exportsimports=="Imports"
+ drop if abs(résiduExp)<10 & exportsimports=="Exports"
+ drop if résiduExp==. & résiduImp==.
+ 
+ keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
+ résiduImp résiduExp prix_unitaire quantity_unit u_conv q_conv prix_conv
+ 
+ export delimited using "/Users/Matthias/Données Stata/probleme_prix2.csv", replace
