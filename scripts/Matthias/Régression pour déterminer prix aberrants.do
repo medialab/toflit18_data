@@ -6,26 +6,38 @@
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  drop if prix_unitaire==.
  drop if prix_unitaire==0
+ keep if u_conv!=""
+ drop if quantit==.
+ drop if quantity_unit==""
  gen lnPrix=ln(prix_unitaire)
  encode marchandises_simplification, gen(marchandises_simplification_num)
  bysort marchandises_simplification_num: drop if _N<=10
- encode pays_grouping, gen(pays_grouping_num)
+ encode quantity_unit, gen(quantity_unit_num)
+ bysort quantity_unit_num: drop if _N<=10
+ gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ encode marchandises_et_quantités, gen(marchandises_et_quantités_num)
+ bysort marchandises_et_quantités_num: drop if _N<=10
  drop if year>1787 & year<1788
  drop if year==1805.75
- regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
+ regress lnPrix i.marchandises_et_quantités_num i.year if exportsimports=="Imports"
  predict lnPrix_predImp if e(sample)
  gen résiduImp = lnPrix_predImp - lnPrix
  
- regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
+ regress lnPrix i.marchandises_et_quantités_num i.year if exportsimports=="Exports"
  predict lnPrix_predExp if e(sample)
  gen résiduExp = lnPrix_predExp - lnPrix
 
- drop if abs(résiduImp)<10 & exportsimports=="Imports"
- drop if abs(résiduExp)<10 & exportsimports=="Exports"
+ drop if abs(résiduImp)<5 & exportsimports=="Imports"
+ drop if abs(résiduExp)<5 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
+ gen ln_prix_pred = lnPrix_predImp if exportsimports=="Imports"
+ replace ln_prix_pred = lnPrix_predExp if exportsimports=="Exports"
+ gen prix_predit = exp(ln_prix_pred)
+ 
+ 
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
- résiduImp résiduExp quantit prix_unitaire 
+      résiduImp résiduExp quantit prix_unitaire quantity_unit prix_predit
  
  export delimited using "/Users/Matthias/Données Stata/probleme_prix.csv", replace
  
@@ -44,22 +56,29 @@
  gen lnPrix=ln(prix_conv)
  encode marchandises_simplification, gen(marchandises_simplification_num)
  bysort marchandises_simplification_num: drop if _N<=10
- encode pays_grouping, gen(pays_grouping_num)
+ gen marchandises_et_unités = marchandises_simplification + u_conv
+ encode marchandises_et_unités, gen(marchandises_et_unités_num)
+ bysort marchandises_et_unités_num: drop if _N<=10
  drop if year>1787 & year<1788
  drop if year==1805.75
- regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
+ regress lnPrix i.marchandises_et_unités_num i.year if exportsimports=="Imports"
  predict lnPrix_predImp if e(sample)
  gen résiduImp = lnPrix_predImp - lnPrix
  
- regress lnPrix i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
+ regress lnPrix i.marchandises_et_unités_num i.year if exportsimports=="Exports"
  predict lnPrix_predExp if e(sample)
  gen résiduExp = lnPrix_predExp - lnPrix
 
- drop if abs(résiduImp)<10 & exportsimports=="Imports"
- drop if abs(résiduExp)<10 & exportsimports=="Exports"
+ drop if abs(résiduImp)<5 & exportsimports=="Imports"
+ drop if abs(résiduExp)<5 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
+ gen ln_prix_pred = lnPrix_predImp if exportsimports=="Imports"
+ replace ln_prix_pred = lnPrix_predExp if exportsimports=="Exports"
+ gen prix_conv_pred = exp(ln_prix_pred)
+ gen prix_pred = prix_conv_pred*q_conv
+ 
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
- résiduImp résiduExp prix_unitaire quantity_unit u_conv q_conv prix_conv
+	  résiduImp résiduExp prix_unitaire quantity_unit u_conv q_conv prix_conv prix_pred
  
  export delimited using "/Users/Matthias/Données Stata/probleme_prix2.csv", replace
