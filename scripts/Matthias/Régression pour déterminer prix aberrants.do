@@ -81,4 +81,8 @@
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
 	  résiduImp résiduExp prix_unitaire quantity_unit u_conv q_conv prix_conv prix_pred
  
+ sort sourcepath numrodeligne
  export delimited using "/Users/Matthias/Données Stata/probleme_prix2.csv", replace
+ 
+ 
+

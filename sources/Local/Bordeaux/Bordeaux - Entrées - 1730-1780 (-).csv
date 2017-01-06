@@ -2682,7 +2682,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2681,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,2,Borax,Hollande,87.5,25,Livres,3.5,0
 2682,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,6,Borax brut,Isles francoises de lamerique,105,70,Livres,1.5,0
 2683,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,2,Bourdillons,Hollande,750,5,Cents,150,0
-2684,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Bourdillons,Nord,19560,163,Cents,1.2,"19364,4 erreur de calcul (virgule)"
+2684,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Bourdillons,Nord,19560,163,Cents,120,
 2685,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,2,Bourre ; de beuf,Hollande,1963.4,19634,Livres,.1,0
 2686,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,2,Brosserie,Hollande,943.2,3144,Livres,.3,0
 2687,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Brosserie,Nord,213.3,711,Livres,.3,0
@@ -2819,7 +2819,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2818,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,3,Limes ; d'acier,Hollande,704.6,686,Livres,1.1,-50 erreur calcul ?
 2819,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Limes ; d'acier,Nord,313.5,285,Livres,1.1,0
 2820,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,3,Limes ; de fer,Hollande,56.25,75,Livres,.75,0
-2821,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,1,Lin ; en rames,Angleterre,240,1,Futaille de 800 livres,.3,"239,7 800 livres en une futaille"
+2821,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,1,Lin ; en rames,Angleterre,240,800,Livres,.3,800 livres en une futaille
 2822,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,3,Lin ; en rames,Hollande,3872,17600,Livres,.22,0
 2823,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,3,Lin ; peigné,Hollande,47483.05,105518,Livres,.45,"-0,05"
 2824,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Lin ; peigné,Nord,2267,4534,Livres,.5,0
@@ -2848,8 +2848,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2847,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,4,Planches ; de rebut,Hollande,37,74,En nombre,.5,0
 2848,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,1,Planches ; de sapin,Angleterre,600,400,Cens,150,-59400 erreur virgule ?
 2849,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,4,Planches ; de sapin,Hollande,2400,2,Milliers,1200,0
-2850,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,4,Planches ; de sapin,Hollande,1087.2,906,Cens,1.2,0
-2851,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Planches ; de sapin,Nord,1320,11,Cents,1.2,"1306,8 erreur de marquage"
+2850,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,4,Planches ; de sapin,Hollande,1087.2,906,Cens,120,"Erreur de calcul, 906*120 = 108720"
+2851,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Planches ; de sapin,Nord,1320,11,Cents,120,
 2852,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Planches ; de sapin ; de 10 a 12 pieds,Nord,23880,398,,60,0 unité de mesure non marquée
 2853,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,4,Planches ; de sapin ; de 25 pieds,Hollande,62,62,En nombre,1,0
 2854,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1762,Imports,Bordeaux,5,Planches ; de sapin ; de 28 a 30 pieds,Nord,1200,10,,120,0 unité de mesure non marquée
@@ -3731,7 +3731,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3730,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,2,Bois ; de sandal ; moulu,Hollande,12558.75,53025,Livres,.35,-6000 2 transformé en 1 sur la somme
 3731,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,2,Bois ; jeaune,Hollande,670.5,11175,Livres,.06,0
 3732,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,2,Bois ; merrain,Hollande,6450,21.5,Milliers,300,0
-3733,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,2,Bois ; merrain,Hollande,724,3900,Douelles,300,-1169276 problème de lecture sur unité de prix
+3733,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,2,Bois ; merrain,Hollande,724,3900,Douelles,0.1856410256,prix calculé car prix unitaire indiqué en milliers et non en douelles
 3734,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,4,Bois ; merrain,Nord,88125,293.75,Milliers,300,0
 3735,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,4,Bois ; merrain ; a pipes,Suede,148.5,240,Douelles,0,"148,5 prix unitaire non lisible"
 3736,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1767,Imports,Bordeaux,4,Bois ; merrain ; a tonneaux,Suede,22800,76,Milliers,300,0
@@ -4908,7 +4908,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 4907,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,4,Planches ; de chesne,Suede,13923,1989,En nombre,7,0
 4908,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,2,Planches ; de sapin,Danemark,365100,3651,Cents,100,0
 4909,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,3,Planches ; de sapin,Hollande,78300,522,Cents,150,0
-4910,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,4,Planches ; de sapin,Nord,1594650,10631,Livres,150,0
+4910,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,4,Planches ; de sapin,Nord,1594650,10631,Cents,150,0
 4911,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,4,Planches ; de sapin,Suede,333840,2782,Cents,120,0
 4912,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,3,Plomb ; en saumon,Hollande,15815,79075,Livres,.2,0
 4913,Pascal Fontaine,AD 33 C4390,Local/Bordeaux/Bordeaux - Entrées - 1730-1780 (-).csv,Local,1775,Imports,Bordeaux,3,Plumes ; a ecrire,Hollande,72,288,Livres,5,-1368 erreur marquage unité mesure
