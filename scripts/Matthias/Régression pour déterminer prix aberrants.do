@@ -84,5 +84,5 @@
  sort sourcepath numrodeligne
  export delimited using "/Users/Matthias/Données Stata/probleme_prix2.csv", replace
  
- 
+ list prix_unitaire quantity_unit if strmatch(marchandises_norm_ortho,"**")
 
