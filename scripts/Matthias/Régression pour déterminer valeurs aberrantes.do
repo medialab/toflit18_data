@@ -34,13 +34,13 @@
  gen résidu=résiduExp
  replace résidu=résiduImp if exportsimports=="Imports"
  
- gen résidu_élevé = 1 if abs(résidu)>8
+ gen résidu_élevé = 1 if résidu<-7
  
  merge 1:m year marchandises_simplification pays_grouping exportsimports using ///
  "/Users/Matthias/Données Stata/bdd courante.dta"
  keep if résidu_élevé==1
- drop if abs(résiduImp)<=8 & exportsimports=="Imports"
- drop if abs(résiduExp)<=8 & exportsimports=="Exports"
+ drop if résiduImp>=-7 & exportsimports=="Imports"
+ drop if résiduExp>=-7 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
