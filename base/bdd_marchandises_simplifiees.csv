@@ -21,11 +21,11 @@ abricots confits,abricots confits
 acacia,acacia
 acacia germanica,acacia germanica
 acacia vera,acacia vera
-acétates de cuivre cristallisé,acétates de cuivre cristallisé
-acétates de cuivre cristallisé (verdet),acétates de cuivre cristallisé
-acétates de cuivre non cristallisé,acétates de cuivre non cristallisé
-acétates de cuivre non cristallisé (vert de gris) sec,acétates de cuivre non cristallisé sec
-acétates de cuivre non cristallisés et cristallisés (verdet),acétates de cuivre cristallisé et non cristallisé
+acétates de cuivre cristallisé,verdet cristallisé
+acétates de cuivre cristallisé (verdet),verdet cristallisé
+acétates de cuivre non cristallisé,verdet non cristallisé
+acétates de cuivre non cristallisé (vert de gris) sec,verdet non cristallisé sec
+acétates de cuivre non cristallisés et cristallisés (verdet),verdet cristallisé et non cristallisé
 acétates de fer,acétates de fer
 acétates de plomb,acétates de plomb
 acétates de plomb sel de Saturne,acétates de plomb sel de Saturne
@@ -155,14 +155,14 @@ albâtre,albâtre
 albâtre brut,albâtre brut
 albâtre et marbre ouvrés,ouvrages de marbre et ouvrages d'albâtre
 "albâtre sculpté, moulé ou poli",albâtre moulé poli ou sculpté
-alcalis cendre de bois vive,alcalis cendre de bois vive
-alcalis natron,alcalis natron
-alcalis perlasse et cendre gravelées,alcalis perlasse et cendre gravelées
-alcalis potasse,alcalis potasse
-alcalis salin,alcalis salin
+alcalis cendre de bois vive,cendre de bois vive
+alcalis natron,natron
+alcalis perlasse et cendre gravelées,perlasse et gravelées
+alcalis potasse,potasse
+alcalis salin,salin
 alcalis soude autre que natron,alcalis autre que natron et soude
-alcalis soude de toute sorte,alcalis soude 
-alcalis soude et natron,alcalis natron et soude
+alcalis soude de toute sorte,soude de toute sorte
+alcalis soude et natron,natron et soude
 alènes,alènes
 alènes de cordonnier,alènes
 alibanies,alibanies
@@ -221,7 +221,7 @@ amandes en coque ou cassées,amandes cassées ou en coque
 amandes et pruneaux,amandes et pruneaux
 amandes et raisin sec,amandes et raisin sec
 amandes et savon,amandes et savon
-amandes et vert-de-gris,amandes et vert-de-gris
+amandes et vert-de-gris,amandes et verdet
 amandes longues,amandes longues
 amandes mondées,amandes mondées
 amandes raisin sec et savon,amandes et raisin sec et savon
@@ -3694,9 +3694,9 @@ cendre de Malte,cendre de Malte
 cendre de mer,cendre de mer
 cendre de natron,cendre de natron
 cendre de plomb,cendre de plomb
-cendre de potasse,cendre de potasse
+cendre de potasse,potasse
 cendre de Sicile,cendre de Sicile
-cendre de soude,cendre dite soude
+cendre de soude,soudes
 cendre de tabac,cendre de tabac
 cendre de tourbe,cendre de tourbe
 cendre de tourbe et de paille,cendre de paille et de tourbe
@@ -3707,42 +3707,42 @@ cendre de varet,cendre de varet
 cendre de verre,cendre de verre
 cendre de vitarch,cendre de vitarch
 cendre des rois,cendre des rois
-cendre dite potasse,cendre de potasse
-cendre dite potasse et soudes,cendre soudes et potasse
-cendre dite soudes,cendre dite soude
+cendre dite potasse,potasse
+cendre dite potasse et soudes,soudes et potasse
+cendre dite soudes,soudes
 cendre diverse,cendre
-cendre diverse potasse védasse et gravelée,cendre gravelée potasse et védasse
+cendre diverse potasse védasse et gravelée,gravelée potasse et védasse
 cendre du Levant,cendre du Levant
 cendre fonde,cendre de fonde
 cendre frène,cendre de frène
-cendre gravelée,cendre gravelée
+cendre gravelée,gravelée
 cendre gravelée dite védasse,védasse
-cendre gravelée potasse védasse etc.,cendre gravelée potasse et védasse etc. 
-cendre gravelins,cendre gravelée
-cendre gravelle,cendre gravelée
-cendre houille,cendre houille
+cendre gravelée potasse védasse etc.,cendre 
+cendre gravelins,gravelée
+cendre gravelle,gravelée
+cendre houille,houille
 cendre lessivée,cendre lessivée
 cendre menuisée,cendre menuisée
 cendre ordinaire,cendre 
 cendre poland,cendre poland
-cendre polasse,cendre potasse
+cendre polasse,potasse
 cendre poreuse,cendre poreuse
-cendre potasse,cendre de potasse
-cendre potasse et védasse,cendre potasse et védasse
-cendre potasse etc.,cendre potasse etc. 
-cendre potasse védasse et gravelée,cendre potasse et védasse et gravelée
-cendre potasse védasse etc.,cendre potasse védasse etc. 
+cendre potasse,potasse
+cendre potasse et védasse,potasse et védasse
+cendre potasse etc.,cendre
+cendre potasse védasse et gravelée,potasse et védasse et gravelée
+cendre potasse védasse etc.,cendre
 cendre pour verrerie,cendre pour verrerie
 cendre propre aux manufactures,cendre pour manufactures
 cendre salicor,cendre salicor
 cendre salins,cendre salins
-cendre soudes,cendre soudes
+cendre soudes,soudes
 cendre soudes d'Égypte ou Natrum,cendre soudes d'Égypte ou Natrum
-cendre soudes et potasse,cendre soudes et potasse
-cendre soudes natrons et salins,cendre soudes et natron et salin
-cendre tourbe,cendre tourbe
-cendre vedasse,cendre de védasse
-cendre védasse,cendre de védasse
+cendre soudes et potasse,soudes et potasse
+cendre soudes natrons et salins,soudes et natron et salin
+cendre tourbe,tourbe
+cendre vedasse,védasse
+cendre védasse,védasse
 cendre verte,cendre verte
 censes à nettoyer les pots,censes pour nettoyer les pots
 censes de bâtiments,censes de bâtiments
@@ -4718,7 +4718,7 @@ colonne,colonne
 colonne de noyer,colonne de noyer
 colophane ou spingler,colophane ou Spingler
 coloquinte,coloquinte
-colorant et vert-de-gris,colorant et vert-de-gris
+colorant et vert-de-gris,colorant et verdet
 cols,cols
 colza navettes et autres sans distinction,colza navettes et autres
 comestibles,comestibles
@@ -5205,7 +5205,7 @@ courbes de bois,courbes de bois
 courbes de chêne,courbes de chêne
 courbes de mauvais bois,courbes de mauvais bois
 courbes de sapin de 4 à 5 pieds,courbes de sapin de 4 à 5 pieds
-courgousson,
+courgousson,courgousson
 courroies,courroies
 courroies de bœuf jeux,courroies de bœuf jeux
 courroies de fusils,courroies de fusils
@@ -5234,8 +5234,8 @@ couteaux à virole d'argent,couteaux à virole d'argent
 couteaux commun,couteaux communs
 couteaux communs,couteaux communs
 couteaux de chasse,couteaux de chasse
-couteaux de communs,
-couteaux de gaïac,
+couteaux de communs,couteaux communs
+couteaux de gaïac,couteaux de gaïac
 couteaux de gazat,couteaux de gazat
 couteaux de tables,couteaux de tables
 couteaux de traite,couteaux de traite
@@ -5253,7 +5253,7 @@ coutellerie diverse,coutellerie
 coutellerie pour la traite,coutellerie de traite
 couterie,
 coutil,coutil
-coutil 2478 lignes,
+coutil 2478 lignes,coutil 2478 lignes
 coutil à lit,coutil à lit
 coutil à meubles,coutil à meubles
 coutil de fil,coutil de fil
@@ -5266,13 +5266,13 @@ couvertes de coton,couvertures de coton
 couvertes de laine,couvertes de laine
 couvertes de lisières,couvertes de lisières
 couvertes de locques,couvertes de locques
-couvertes de mulets,
+couvertes de mulets,couvertes pour mulets
 couvertes pour chevaux,couvertures pour chevaux
 couvertures,couvertures
 couvertures à nègre,couvertures à nègre
 couvertures communes,couvertures communes
 couvertures communes en laine,couvertures communes de laine
-couvertures coton,
+couvertures coton,couvertures de coton
 couvertures coton et fil,couvertures de coton et de fil
 couvertures d'Elbeuf,couvertures d'Elbeuf
 couvertures d'étoupe,couvertures d'étoupe
@@ -5285,9 +5285,9 @@ couvertures de bourre de soie,couvertures de bourre de soie
 couvertures de capiton,couvertures de capiton
 couvertures de castalogne,couvertures de castalogne
 couvertures de coton,couvertures de coton
-couvertures de coton et fil,
+couvertures de coton et fil,couvertures de coton et de fil
 couvertures de crin,couvertures de crin
-couvertures de fil,
+couvertures de fil,couverture de fil
 couvertures de fil et coton,couvertures de coton et de fil
 couvertures de filoselle,couvertures de filoselle
 couvertures de fleur,couvertures de fleur
@@ -5316,22 +5316,22 @@ couvertures diverses,couvertures
 couvertures diverses pour nègres,couvertures à nègre
 couvertures du Béarn,couvertures du Béarn
 couvertures du Languedoc,couvertures de Languedoc
-couvertures du Levant,
-couvertures en laine,covertures de laine
+couvertures du Levant,couverture du Levant
+couvertures en laine,couvertures de laine
 couvertures en plocq,couvertures de plocq
-couvertures et tapis de poil,
+couvertures et tapis de poil,couvertures et tapis de poil
 couvertures fil à coton,couvertures de coton
 couvertures fil en coton,couvertures de coton
 couvertures fil et coton,couvertures de coton et de fil
 couvertures filet et coton,couvertures filet et coton
 couvertures grosses de laine,couvertures grosses de laine
-couvertures grossières,
+couvertures grossières,couvertures grossières
 couvertures indienne,couvertures d'indienne
-couvertures laine,covertures de laine
+couvertures laine,couvertures de laine
 couvertures peintes,couvertures peintes
 couvertures pour chevaux,couvertures pour chevaux
 couvertures pour nuque,couvertures pour nuque
-couvertures soie et coton,
+couvertures soie et coton,couvertures de coton et de soie
 crabes et geernaerts,crabes et geernaerts
 crabes et limaçons,crabes et limaçons
 craie,craie
@@ -5340,8 +5340,8 @@ craie blanche,craie blanche
 craie noire,craie noire
 craie ocre brun et rouge,craie et ocre et brun et rouge
 craie rouge,craie rouge
-crane de cire,
-crane de graine,
+crane de cire,crane de cire
+crane de graine,crane de graine
 crapaudines,crapaudines
 crapaudines de cuivre,crapaudines de cuivre
 crapaudines de fer,crapaudines de fer
@@ -5355,7 +5355,7 @@ crasse d'huile d'olive,crasse d'huile d'olive
 crasse de beurre,crasse de beurre
 crasse de cire,crasse de cire
 crasse de fer,crasse de fer
-crasse de graisse,
+crasse de graisse,crasse de graisse
 crasse de plomb,crasse de plomb
 crasse de soufre,crasse de soufre
 crasse de suif,crasse de suif
@@ -5365,10 +5365,10 @@ cravates,cravates
 cravates de soie noire,cravates de soie noire
 cravates et mouchoirs de coton,cravates de coton et mouchoirs de coton
 crayons,crayons
-crayons composés et communs,
-crayons composés et communs pour métiers,
-crayons composés et fin pour les arts,
-crayons composés et fins,
+crayons composés et communs,crayons composés et communs
+crayons composés et communs pour métiers,crayons composés et communs pour métiers
+crayons composés et fin pour les arts,crayons composés et fins pour les arts
+crayons composés et fins,crayons composés et fins
 crayons d'alinagne,crayons d'Allemagne
 crayons d'Allemagne,crayons d'Allemagne
 crayons de pastel,crayons de pastel
@@ -5378,7 +5378,7 @@ crayons fins en pastel laque fine et lack-lack des Indes,crayons fins de pastel 
 crayons fins pastel,crayons fins de pastel
 crayons fins pastel laque fine lack-lack des Indes,crayons fins de pastel et laque et lack-lack des Indes
 crayons noirs,crayons noirs
-crayons simples en pierre,
+crayons simples en pierre,crayons simples de pierre
 crème,crème
 crème de tartre,crème de tartre
 crêpe,crêpe
@@ -5389,8 +5389,8 @@ crêpe de soie,crêpe de soie
 crêpe et crépon,crêpe et crépon
 crêpe noir,crêpe noir
 crêpe pour chapeaux,crêpe pour chapeaux
-crêpe pour chapeaux aune,
-crêpine de soie,
+crêpe pour chapeaux aune,crêpe pour chapeaux
+crêpine de soie,crépine de soie
 crépon,crépon
 crêpon,crépon
 crépon de laine,crépon de laine
@@ -5409,7 +5409,7 @@ cribles et bluteaux de moulins,cribles et bluteaux de moulins
 crics,crics
 crics de fer,crics de fer
 crin,crin
-crin à cordonnier,
+crin à cordonnier,crin à cordonnier
 crin à pêcher,crin à pêcher
 crin apprêté,crin apprêté
 crin apprêté et frisé,crin apprêté et frisé
@@ -5418,7 +5418,7 @@ crin de cheval,crin de cheval
 crin de cheval brut,crin brut de cheval
 crin de cheval griporé,crin de cheval griporé
 crin de cheval ouvré,ouvrages de crin de cheval
-crin de chèvre,
+crin de chèvre,crin de chèvre 
 crin filé,crin filé
 crin frisé,crin frisé
 crin plan,crin plan
@@ -5435,26 +5435,26 @@ cristal d'office,cristal d'office
 cristal de roche,cristal de roche
 cristal de roche brut,cristal de roche brut
 cristal de tartre,cristal de tartre
-cristal et verres à boire à vitre etc.,
+cristal et verres à boire à vitre etc.,cristal et verres à boire à vitre
 cristal fondu,cristal fondu
 cristal gobelets,gobelets de cristal
 cristal minéral,cristal minéral
 cristal ouvré,ouvrages de cristal
 cristal taillé,cristal taillé
-cristallin,
+cristallin,cristallin 
 croc de fer à morue,croc de fer à morue
 crochets de bois,crochets de bois
 crochets de fer,crochets de fer
 crockfish,crockfish
 crocus,crocus
-croisé (basins piqués etc.) de coton,
+croisé (basins piqués etc.) de coton,croisé de coton
 croisé noir,croisé noir
 croix à pierres fausses,croix à pierres fausses
 croix d'argent pour église,croix d'argent pour église
 croix de cuivre,croix de cuivre
 croix de cuivre argenté,croix de cuivre argenté
 croix de grenat,croix de grenat
-croix de gresse,
+croix de gresse,croix de gresse
 croix de pierres fausses,croix à pierres fausses
 crons et débris de maisons,crons et débris de maison
 cruches de Cologne,cruches de Cologne
@@ -5463,7 +5463,7 @@ cruches de grès,cruches de grès
 cruches de terre,cruches de terre
 crucifix,crucifix
 crucifix de bronze,crucifix de bronze
-crucifix de marbre,
+crucifix de marbre,crucifix de marbre
 crussets,crussets
 crustas,crustas
 cubeber,cubeber
@@ -5475,7 +5475,7 @@ cuillères de fer,cuillères de fer
 cuillères de laiton,cuillères de laiton
 cuillères et fourchettes de cuivre argenté,cuillères et fourchettes de cuivre argenté
 cuilles de bois,cuilles de bois
-cuir de cheval tanné,
+cuir de cheval tanné,cuir de cheval tanné
 cuir de chevreau,cuirs de chevreau
 cuir doré,cuirs dorés
 cuirasses,cuirasses
@@ -5493,14 +5493,14 @@ cuirs bœuf secs en poil,cuirs de bœuf en poil et secs
 cuirs bœuf tannés,cuirs de bœuf tannés
 cuirs bruts,cuirs bruts
 cuirs bruts tannés,cuirs bruts tannés
-cuirs cheval en poil,
+cuirs cheval en poil,cuirs de cheval en poil
 cuirs corroyés,cuirs corroyés
 cuirs corroyés de vache,cuirs corroyés de vache
 cuirs corroyés divers,cuirs corroyés
 cuirs crus et à poil,cuirs crus et à poil
 cuirs d'âne,cuirs d'âne
 cuirs d'âne en poil,cuirs d'âne en poil
-cuirs d'âne tannés,
+cuirs d'âne tannés,cuirs d’âne tannés
 cuirs d'empeignes,cuirs d'empeignes
 cuirs d'Espagne,cuirs d'Espagne
 cuirs d'Espagne dit maroquins,cuirs d'Espagne dit maroquins
@@ -5513,16 +5513,16 @@ cuirs de bœuf apprêtés demi pièce,cuirs de bœuf apprêtés demi pièce
 cuirs de bœuf au poil,cuirs de bœuf au poil
 cuirs de bœuf corroyés,cuirs de bœuf corroyés
 cuirs de bœuf en poil,cuirs de bœuf en poil
-cuirs de bœuf en poil testes,
+cuirs de bœuf en poil testes,cuirs de bœuf en poil testes
 cuirs de bœuf et vache apprêtés,cuirs de bœuf et vache apprêtés
 cuirs de bœuf et vache en poil,cuirs de bœuf en poil et cuir de vache en poil
 cuirs de bœuf et vache tannés,cuirs de bœuf tannés et cuir de vache tannés
 cuirs de bœuf Illinois,cuirs de bœuf d'Illinois
 cuirs de bœuf ou vache,cuirs de bœuf ou vache
-cuirs de bœuf passés en Hongrie,
+cuirs de bœuf passés en Hongrie,cuirs de bœuf passés en Hongrie
 cuirs de bœuf salé,cuirs de bœuf salé
 cuirs de bœuf salés,cuirs de bœuf salé
-cuirs de bœuf secs,
+cuirs de bœuf secs,cuirs de bœuf secs
 cuirs de bœuf secs en poil,cuirs de bœuf en poil et secs
 cuirs de bœuf tannés,cuirs de bœuf tannés
 cuirs de bœuf tannés en poil,cuirs de bœuf en poil tannés
@@ -5559,7 +5559,7 @@ cuirs de vache en poil,cuirs en poil de vache
 cuirs de vache grené,cuirs en grains de vache
 cuirs de vache lissés,cuirs de vache lissés
 cuirs de vache passés,cuirs de vache passés
-cuirs de vache petits,
+cuirs de vache petits,cuirs de vache petits
 cuirs de vache secs en poil,cuirs secs en poil de vache
 cuirs de vache tannés,cuirs tannés de vache
 cuirs de vache tissés,cuirs tissés de vache
@@ -5597,20 +5597,20 @@ cuirs non apprêtés,cuirs non apprêtés
 cuirs ouvrés,ouvrages de cuir
 cuirs passés en blanc,cuirs passés en blanc
 cuirs petits des Indes en poil,cuirs petits des Indes en poil
-cuirs petits en poil,
+cuirs petits en poil,cuirs petits en poil
 cuirs poil et salés,cuirs de poil et salés
 cuirs pour bottes,cuirs pour bottes
 cuirs pour semelles,cuirs pour semelles
 cuirs pour soufflets,cuirs pour soufflets
-cuirs restants,
+cuirs restants,cuirs restants
 cuirs rouges,cuirs rouges
-cuirs Russie,
+cuirs Russie,cuirs de Russie
 cuirs salés,cuirs salés
 cuirs salés à poil,cuirs salés en poil
 cuirs salés divers,cuirs salés
 cuirs secs,cuirs secs
 cuirs secs à poil,cuirs secs en poil
-cuirs secs bannettes en poil,
+cuirs secs bannettes en poil,cuirs bannettes secs en poil
 cuirs secs en poil,cuirs secs en poil
 cuirs secs et en poil,cuirs secs en poil
 cuirs secs et salés,cuirs secs et salés
@@ -5627,8 +5627,8 @@ cuirs tannés forts,cuirs forts tannés
 cuirs tannés pour empeignes,cuirs tannés pour empeignes
 cuirs tannés pour semelles,cuirs tannés pour semelles
 cuirs tannés tannés,cuirs tannés
-cuirs testaux,
-cuirs vache tannés,
+cuirs testaux,cuirs testaux
+cuirs vache tannés,cuirs de vache tannés
 cuirs verts,cuirs verts
 cuirs verts en poil,cuirs en poil verts
 cuirs verts salés,cuirs salés verts
@@ -5636,8 +5636,8 @@ cuirs verts salés en poil,cuirs en poil salés verts
 cuirs vieux,cuirs vieux
 cuisses,cuisses
 cuisses d'oie,cuisses d'oie
-cuisses d'oie à la daube,
-cuisses d'oie en adobe,
+cuisses d'oie à la daube,cuisses d’oie à la daube
+cuisses d'oie en adobe,cuisses d'oie en adobe
 cuisses d'oie et autre chair salée diverse,chair salée
 cuisses ouvrées,ouvrages de cuisse
 cuivre,cuivre
@@ -5645,50 +5645,50 @@ cuivre ???,cuivre
 cuivre à mitraille,cuivre à mitraille
 cuivre à monnaies,monnaie de cuivre
 cuivre à monnaies ouvré,monnaies de cuivre ouvré
-cuivre allié argenté battu tiré ou laminé,
-cuivre allié argenté filé sur fil,
-cuivre allié bronze en masse,
-cuivre allié cuivre ouvré (estagnons contenant des liquides),
-cuivre allié d'argent (monnaies de billon),
-cuivre allié d'étain,
-cuivre allié d'étain (bronze airain etc.) brut,
-cuivre allié d'étain (bronze airain),
-cuivre allié de zinc (laiton) battu ou laminé,
-cuivre allié de zinc (laiton) battu ou laminé ou coulé,
-cuivre allié de zinc (laiton) coulé battu ou limé,
-cuivre allié de zinc (laiton) coulé en masses brutes,
-cuivre allié de zinc (laiton) coulé en plaques ou barres,
-cuivre allié de zinc (laiton) coulé en plaques ou barres régulières,
-cuivre allié de zinc (laiton) en barres ou plaques régulières,
-cuivre allié de zinc (laiton) en masses brutes,
-cuivre allié de zinc (laiton) en planches pour les fabriques,
-cuivre allié de zinc (laiton) filé et poli,
-cuivre allié de zinc (laiton) filé et poli pour cordes d'instruments,
-cuivre allié de zinc (laiton) filé et poli pour instrument,
-cuivre allié de zinc (laiton) filé et poli sauf ceux ci-après,
-cuivre allié de zinc (laiton) filé non poli,
-cuivre allié de zinc (laiton) filé non poli ou poli cordes d'inst.,
-cuivre allié doré battu tiré et laminé,
-cuivre allié doré battu tiré ou laminé,
-cuivre allié doré filé sur fil,
-cuivre allié doré filé sur soie,
-cuivre allié estagnons,
-cuivre allié laiton battu ou laminé,
-cuivre allié laiton en masses brutes,
-cuivre allié laiton en plaques ou barres régulières,
-cuivre allié laiton filé et poli,
-cuivre allié laiton filé et poli pour cordes d'instruments,
-cuivre allié laiton vieux et ouvrages brisés,
-cuivre allié limaille,
-cuivre allié limaille et vieux cuivre brisé,
-cuivre allié ouvré (autrement qu'il n'est ci-dessus),
-cuivre allié ouvré (autrement que battu tiré laminé ou filé),
+cuivre allié argenté battu tiré ou laminé,cuivre allié argenté battu laminé ou tiré
+cuivre allié argenté filé sur fil,cuivre allié argenté filé sur fil
+cuivre allié bronze en masse,cuivre allié bronze en masse
+cuivre allié cuivre ouvré (estagnons contenant des liquides),cuivre allié et ouvré dont estagnons contenant des liquides
+cuivre allié d'argent (monnaies de billon),monnaie de billon
+cuivre allié d'étain,cuivre allié d’étain
+cuivre allié d'étain (bronze airain etc.) brut,cuivre allié d’étain brut
+cuivre allié d'étain (bronze airain),bronze airain
+cuivre allié de zinc (laiton) battu ou laminé,laiton battu ou laminé
+cuivre allié de zinc (laiton) battu ou laminé ou coulé,laiton battu ou coulé ou laminé
+cuivre allié de zinc (laiton) coulé battu ou limé,laiton battu ou coulé ou laminé
+cuivre allié de zinc (laiton) coulé en masses brutes,laiton coulé en masses brutes
+cuivre allié de zinc (laiton) coulé en plaques ou barres,laiton coulé en barres ou plaques
+cuivre allié de zinc (laiton) coulé en plaques ou barres régulières,laiton coulé en barres ou plaques régulières
+cuivre allié de zinc (laiton) en barres ou plaques régulières,laiton en barres ou plaques régulières
+cuivre allié de zinc (laiton) en masses brutes,laiton en masses brutes
+cuivre allié de zinc (laiton) en planches pour les fabriques,laiton en planches pour les fabriques
+cuivre allié de zinc (laiton) filé et poli,laiton filé et poli
+cuivre allié de zinc (laiton) filé et poli pour cordes d'instruments,laiton filé et poli pour cordes d’instrument
+cuivre allié de zinc (laiton) filé et poli pour instrument,laiton filé et poli pour instrument 
+cuivre allié de zinc (laiton) filé et poli sauf ceux ci-après,laiton filé et poli
+cuivre allié de zinc (laiton) filé non poli,laiton filé non poli
+cuivre allié de zinc (laiton) filé non poli ou poli cordes d'inst.,laiton filé non poli ou poli pour cordes d’instrument
+cuivre allié doré battu tiré et laminé,cuivre allié battu doré laminé et tiré
+cuivre allié doré battu tiré ou laminé,cuivre allié battu doré laminé ou tiré
+cuivre allié doré filé sur fil,cuivre allié doré filé sur fil
+cuivre allié doré filé sur soie,cuivre allié doré filé sur soie
+cuivre allié estagnons,estagnons de cuivre allié 
+cuivre allié laiton battu ou laminé,laiton battu ou laminé
+cuivre allié laiton en masses brutes,laiton en masses brutes
+cuivre allié laiton en plaques ou barres régulières,laiton en barres ou plaques régulières
+cuivre allié laiton filé et poli,laiton filé et poli
+cuivre allié laiton filé et poli pour cordes d'instruments,laiton filé et poli pour cordes d’instrument
+cuivre allié laiton vieux et ouvrages brisés,ouvrages brisés et vieux ouvrages de laiton
+cuivre allié limaille,limaille de cuivre
+cuivre allié limaille et vieux cuivre brisé,limaille de cuivre et vieux cuivre brisé
+cuivre allié ouvré (autrement qu'il n'est ci-dessus),cuivre allié ouvré
+cuivre allié ouvré (autrement que battu tiré laminé ou filé),cuivre allié ouvré autrement que battu filé laminé ou tiré
 cuivre argenté,cuivre argenté
-cuivre argenté battu tiré ou laminé,
-cuivre argenté filé sur fil,
+cuivre argenté battu tiré ou laminé,cuivre argenté battu laminé ou tiré
+cuivre argenté filé sur fil,cuivre argenté filé sur fil
 cuivre argenté flambeaux,cuivre argenté flambeaux
 cuivre battu,cuivre battu
-cuivre battu ou laminé à toutes destinations,
+cuivre battu ou laminé à toutes destinations,cuivre battu ou laminé à toutes destinations
 cuivre bronzé,cuivre bronzé
 cuivre bronze et laiton,cuivre et bronze et laiton
 cuivre brun,cuivre brun
@@ -5697,7 +5697,7 @@ cuivre brut rouge,cuivre rouge brut
 cuivre cercle en poil,cercles de cuivre de poil
 cuivre chaudons,chaudron de cuivre
 cuivre clous,cuivre clous
-cuivre coulé en barres ou plaques régulières,
+cuivre coulé en barres ou plaques régulières,cuivre coulé en barres ou plaques régulières
 cuivre cru,cuivre cru
 cuivre cru en blocs,cuivre cru en blocs
 cuivre cru en masses,cuivre cru en masses
@@ -5712,9 +5712,9 @@ cuivre dit laiton en feuilles,feuilles de laiton
 cuivre dit potin,potin
 cuivre divers,cuivre
 cuivre doré,cuivre doré
-cuivre doré battu tiré laminé et filé,
-cuivre doré battu tiré ou laminé,
-cuivre doré filé sur fil,
+cuivre doré battu tiré laminé et filé,cuivre doré battu filé laminé ou tiré
+cuivre doré battu tiré ou laminé,cuivre doré battu laminé ou tiré
+cuivre doré filé sur fil,cuivre doré filé sur fil
 cuivre en acume,acume de cuivre
 cuivre en baguettes,baguettes de cuivre
 cuivre en balance,balance de cuivre
@@ -5728,13 +5728,13 @@ cuivre en batterie de fuine,batterie de cuivre de fuine
 cuivre en bombes,bombes de cuivre
 cuivre en bouillotte,bouillotte de cuivre
 cuivre en cachets,cachets de cuivre
-cuivre en cendre,
+cuivre en cendre,cendre de cuivre
 cuivre en chandeliers,chandeliers de cuivre
 cuivre en chandriers,chandriers de cuivre
 cuivre en chanvrier,chanvrier de cuivre
 cuivre en chaudière,chaudière de cuivre
-cuivre en chaudron,cuivre en chaudron
-cuivre en chaudrons,
+cuivre en chaudron,chaudron de cuivre
+cuivre en chaudrons,chaudron de cuivre
 cuivre en cloches,cloches de cuivre
 cuivre en clochettes,clochettes de cuivre
 cuivre en clous,clous de cuivre
@@ -5746,8 +5746,8 @@ cuivre en feuilles et en planches,feuilles de cuivre et planches de cuivre
 cuivre en feuilles et planches,feuilles de cuivre et planches de cuivre
 cuivre en feuilles et planches et ???,feuilles de cuivre et planches de cuivre et ???
 cuivre en fonds,fonds de cuivre
-cuivre en fonds et en fourrure,
-cuivre en fonte,
+cuivre en fonds et en fourrure,fonds et fourrure de cuivre
+cuivre en fonte,cuivre en fonte
 cuivre en fourrure,fourrure de cuivre
 cuivre en fourrure et mozette,fourrure de cuivre et mozette de cuivre
 cuivre en fourrure et rosette,fourrure de cuivre et mozette de cuivre
@@ -5758,8 +5758,8 @@ cuivre en lancher,cuivre en lancher
 cuivre en limaille,limaille de cuivre
 cuivre en lingots,lingots de cuivre
 cuivre en marmites,marmites de cuivre
-cuivre en masse brut et rouge,
-cuivre en masse brut vieux et mitraille,
+cuivre en masse brut et rouge,cuivre en masse brut ou rouge
+cuivre en masse brut vieux et mitraille,cuivre en masse brut mitraille et vieux
 cuivre en masses,masses de cuivre
 cuivre en mitraille,mitrailles de cuivre
 cuivre en monnaie,monnaies de cuivre
@@ -5787,15 +5787,15 @@ cuivre en rosette,rosette de cuivre
 cuivre en rosette et mitraille,rosette de cuivre et mitraille de cuivre
 cuivre en rouleau,cuivre en rouleau
 cuivre en sablières,sablières de cuivre
-cuivre en saumons,
+cuivre en saumons,cuivre en saumons
 cuivre en serrure,serrures de cuivre
 cuivre en toupe,cuivre en toupe
 cuivre et en mitraille,mitrailles de cuivre
 cuivre et pièces de cuivre,cuivre et pièces de cuivre
 cuivre fer en poids,cuivre de fer en poids
-cuivre feuilles,
-cuivre filé à toutes destinations,
-cuivre filé en barreaux ronds,
+cuivre feuilles,feuilles de cuivre
+cuivre filé à toutes destinations,cuivre filé à toutes destinations
+cuivre filé en barreaux ronds,cuivre filé en barreaux ronds
 cuivre fonds,fonds de cuivre
 cuivre forgé,cuivre forgé
 cuivre jaune,cuivre jaune
@@ -5811,7 +5811,7 @@ cuivre jaune en planches,planches de cuivre jaune
 cuivre jaune en plates,plates de cuivre jaune
 cuivre jaune et rouge,cuivre jaune et rouge
 cuivre jaune fondu,cuivre jaune fondu
-cuivre jaune monnayé,
+cuivre jaune monnayé,monnaies de cuivre jaune
 cuivre jaune non ouvré,cuivre jaune non ouvré
 cuivre jaune ouvré,ouvrages de cuivre jaune
 cuivre laminé,cuivre laminé
@@ -5824,7 +5824,7 @@ cuivre non ouvré en rosette ou plaques,rosette ou plaques de cuivres non ouvré
 cuivre ordinaire,cuivre commun
 cuivre ouvré,ouvrages de cuivre
 cuivré ouvré,ouvrages de cuivre
-cuivre ouvré (autrement qu'il n'est ci-dessus),
+cuivre ouvré (autrement qu'il n'est ci-dessus),ouvrages de cuivre
 cuivre ouvré en baignoires,baignoires de cuivre
 cuivre ouvré en bassin,bassin de cuivre
 cuivre ouvré réchauds,réchauds de cuivre ouvré
@@ -5833,17 +5833,17 @@ cuivre potin,potin
 cuivre potin en chaudière,chaudière de potin
 cuivre potin gris,cuivre et potin gris
 cuivre potin ouvré,ouvrages de cuivre potin
-cuivre pur battu ou laminé,
-cuivre pur coulé en masses brutes,
-cuivre pur coulé en plaques ou barres,
-cuivre pur coulé en plaques ou barres régulières,
-cuivre pur en masses brutes,
-cuivre pur en plaques ou barres régulières,
-cuivre pur filé,
-cuivre pur filé non-teint,
-cuivre pur filé teint,
-cuivre pur monnaies,
-cuivre pur vieux en mitraille,
+cuivre pur battu ou laminé,cuivre pur battu ou laminé
+cuivre pur coulé en masses brutes,cuivre pur coulé en masses brutes
+cuivre pur coulé en plaques ou barres,cuivre pur coulé en barres et plaques
+cuivre pur coulé en plaques ou barres régulières,cuivre pur coulé en barres et plaques régulières
+cuivre pur en masses brutes,cuivre pur en masses brutes
+cuivre pur en plaques ou barres régulières,cuivre pur en barres et plaques régulières
+cuivre pur filé,cuivre pur filé
+cuivre pur filé non-teint,cuivre pur filé non-teint
+cuivre pur filé teint,cuivre filé teint
+cuivre pur monnaies,monnaies de cuivre pur
+cuivre pur vieux en mitraille,mitrailles de cuivre pur vieux
 cuivre rompu,cuivre rompu
 cuivre rosette,cuivre rosette
 cuivre rouge,cuivre rouge
@@ -5869,7 +5869,7 @@ cuivre vieux,cuivre vieux
 cuivre vieux et en mitraille,cuivre en mitraille et vieux
 cuivrerie,cuivrerie
 cuivrerie ouvrée,ouvrages de cuivre
-cuivres filé pour fabrication d'épingles,
+cuivres filé pour fabrication d'épingles,cuivre filé pour fabrication d’épingles
 culottes,culottes
 culottes à nègre,culottes à nègre
 culottes de bouras,culottes de bouras
@@ -5886,17 +5886,17 @@ culottes de mouton,culottes de mouton
 culottes de peau,culottes de peau
 culottes de peau d'élan,culottes de peau d'élan
 culottes de peau de daim,culottes de peau de daim
-culottes de peau de mouton,
+culottes de peau de mouton,culottes de peau de mouton
 culottes de siamoise,culottes de siamoise
 culottes de toile,culottes de toile
 culottes de velours,culottes de velours
 culs d'artichaut,culs d'artichaut
 cumin,cumin
-cuny,cuny
+cuny,curry
 curcuma,curcuma
-curcuma en poudre,
-curcuma en racine,
-curcuma en racine des entrepôts,
+curcuma en poudre,curcuma en poudre
+curcuma en racine,curcuma en racine
+curcuma en racine des entrepôts,curcuma en racine des entrepôts
 curcuma ou terra merita,curcuma
 curiosité naturelle,curiosité naturelle
 curlas,curlas
@@ -5919,22 +5919,22 @@ dai ou baldaquin,dais
 dais,dais
 dais pour église,dais pour église
 dalles,dalles
-damas,
-damas à frange d'argent,
-damas caffart,
-damas commun,
-damas cramoisi,
-damas de deux couleurs,
-damas de faux,
-damas de fil,
-damas de Gênes cramoisi,
-damas de Luques,
-damas de Lyon,
-damas de soie,
-damas de Tours,
-damas des deux couleurs,
-damas divers,
-damas fil et coton,
+damas,damas
+damas à frange d'argent,damas à frange d’argent
+damas caffart,caffart de damas
+damas commun,damas commun
+damas cramoisi,damas cramoisi
+damas de deux couleurs,damas de deux couleurs
+damas de faux,damas faux
+damas de fil,damas de fil 
+damas de Gênes cramoisi,damas cramoisi de Gênes
+damas de Luques,damas de Lucques
+damas de Lyon,damas de Lyon
+damas de soie,damas de soie
+damas de Tours,damas de Tours
+damas des deux couleurs,damas de deux couleurs
+damas divers,damas 
+damas fil et coton,damas de coton et fil
 damasquette,damasquette
 dame-jeannes,dame-jeannes
 dame-jeannes clissées,dame-jeannes clissées
@@ -5946,12 +5946,12 @@ dame-jeannes non clissées,dame-jeannes non clissées
 dame-jeannes vides,dame-jeannes vides
 damoiselle,demoiselle
 damoiselle de bois,damoiselle de bois
-dariabadis,
+dariabadis,dariabadis
 darins,darins
 dattes,dattes
 dattes et pistaches,dattes et pistaches
 dauphine,dauphine
-dauphine aune,
+dauphine aune,dauphine
 de haut,de haut
 de liqueurs,liqueurs
 de peu de valeur,de peu de valeur
@@ -5959,20 +5959,20 @@ de tafia,de tafia
 de ville,de ville
 débris de vaisseaux et vieux ouvrages de charpente,débris de vaisseaux et vieux ouvrages de charpente
 déchet de pierre,déchet de pierre
-déchets et débris bourres de laine entières lanice et tontice,
-déchets et débris tourteaux de graines oléagineuses,
+déchets et débris bourres de laine entières lanice et tontice,bourres de laine entière lanice et tontice
+déchets et débris tourteaux de graines oléagineuses,tourteaux de graines oléagineuses
 décorations pour carrosses,décorations pour carrosses
 dégras,dégras
 dégras d'huile,dégras d'huile
 dégras de peau,dégras de peau
-delimineas,
+delimineas,delimineas
 demi Guinée bleue,demi Guinée bleue
 demi-barriques cerclées de fer,demi-barriques cerclées de fer
 demi-cuirs de bœuf tannés,demi-cuirs de bœuf tannés
-demi-planchs,demi-planchs
-demille,demille
+demi-planchs,Demi-planchs
+demille,demitte
 demitte,demitte
-demitte aune,
+demitte aune,demitte
 demoiselle,demoiselle
 demoiselle de bois,damoiselle de bois
 demoiselle de sapin,demoiselle de sapin
@@ -6033,7 +6033,7 @@ dentelle d'or fin,dentelle d'or fin
 dentelle de Caen,dentelle de Caen
 dentelle de fer,dentelle de fer
 dentelle de fil,dentelle de fil
-dentelle de fil 2 lignes,
+dentelle de fil 2 lignes,dentelle de fil 2 lignes
 dentelle de fil blanc,dentelle de fil blanc
 dentelle de fil blanc commune,dentelle de fil blanc commune
 dentelle de fil blanc de Lille,dentelle de fil blanc de Lille
@@ -6065,7 +6065,7 @@ dentelle de fil fine,dentelle de fil fine
 dentelle de fil grosse,dentelle de fil grosse
 dentelle de Flandre,dentelle de Flandre
 dentelle de Lille,dentelle de Lille
-dentelle de lin et de chanvre,
+dentelle de lin et de chanvre,dentelle de chanvre et de lin
 dentelle de Malines,dentelle de Malines
 dentelle de Normandie,dentelle de Normandie
 dentelle de Rouen,dentelle de Rouen
@@ -6077,7 +6077,7 @@ dentelle de soie de Rouen,dentelle de soie de Rouen
 dentelle de soie dite blonde,dentelle de soie blonde
 dentelle de soie et blonde,dentelle de soie blonde
 dentelle de soie et fil,dentelle de soie et de fil
-dentelle de toute autre sorte que soie,
+dentelle de toute autre sorte que soie,dentelle de toute autre sorte que soie
 dentelle diverse,dentelle
 dentelle dorure d'argent,dentelle dorure d'argent
 dentelle dorure d'or,dentelle dorure d'or
@@ -6104,15 +6104,15 @@ dentelle or et argent fin,dentelle d'or et d'argent fin
 dents à éléphant,dents d'éléphant
 dents cheval marin,dents de cheval marin
 dents d'éléphant,dents d'éléphant
-dents d'éléphant entières,
-dents d'éléphant entières des entrepôts,
-dents d'éléphant sciées,
+dents d'éléphant entières,dents d'éléphant entières
+dents d'éléphant entières des entrepôts,dents d'éléphant entières des entrepôts
+dents d'éléphant sciées,dents d'éléphant sciées
 dents de cheval marin,dents de cheval marin
 dents de chien marin,dents de chien marin
 dents de morphil,dents de morphil
 dents de vache marine,dents de vache marine
 derle,derle
-derle ou terre à porcelaine,
+derle ou terre à porcelaine,derle
 dés,dés
 dés à coudre,dés à coudre
 dés à coudre de cuivre et fer,dés à coudre de cuivre et fer
@@ -6124,7 +6124,7 @@ dés de fer,dés de fer
 dés de fer à coudre,dés à coudre de fer
 dés de laiton,dés de laiton
 dés en cuivre,dés de cuivre
-despeigne,
+despeigne,despeigne
 dessins de papier,dessins de papier
 dessus de souliers brodés,dessus de souliers brodés
 dessus de table de marbre,dessus de table de marbre
@@ -6132,12 +6132,12 @@ devant de vestes,devant de vestes
 devant de vestes de basin,devant de vestes de basin
 dévidoir,dévidoir
 diactamy en fleurs,diactamy en fleurs
-diagrede,
+diagrede,diagrede
 dialbequier,dialbequier
 diamants,diamants
-diamants bruts,
+diamants bruts,diamants bruts
 diamants fins,diamants fins
-diamants taillés,
+diamants taillés,diamants taillés
 dictame,dictame
 dictionnaire du commerce,dictionnaire du commerce
 dictionnaire hollandais,dictionnaire hollandais
@@ -6148,10 +6148,10 @@ dindons,dindons
 dissouchaie,dissouchaie
 distillats,distillats
 ditors,ditors
-divers,
+divers,divers
 divers articles,divers
-divers en mercerie etc.,
-divers fruits sec tels que figues et pruneaux etc.,
+divers en mercerie etc.,mercerie
+divers fruits sec tels que figues et pruneaux etc.,fruits secs 
 divers gros et menus ouvrages de bois,ouvrages de bois
 divers marchandises,marchandises
 dividivi,dividivi
@@ -6162,7 +6162,7 @@ dominoterie en images,dominoterie en images
 dominoterie et cartes géographiques,dominoterie et cartes géographiques
 dominoterie images,dominoterie en images
 doreas,doreas
-doreas de Zurich,
+doreas de Zurich,doreas de Zurich
 dorpins en pierre,dorpins en pierre
 dorure,dorure
 dorure ??? en faux,dorure fausse
@@ -6173,10 +6173,10 @@ dorure filée,dorure filée
 dorure fine,dorure fine
 dorure fine en galon,dorure en galon fine
 dorure fine en galon d'or,dorure fine en galon d'or
-dorure fine et fausse,
-dorure fine sur soie,
-dos ventres et gorges de petit-gris,
-dos ventres et gorges de renards martes et fouines,
+dorure fine et fausse,dorure fausse et fine
+dorure fine sur soie,dorure fine sur soie
+dos ventres et gorges de petit-gris,dos gorges et ventres de petit-gris
+dos ventres et gorges de renards martes et fouines,dos gorges et ventres de fouines martes et renard
 dospin en pierre,dospin en pierre
 dossiers de chaises,dossiers de chaises
 doublure de petis gris,doublures de petis gris
@@ -6191,14 +6191,14 @@ douelles à pipes,douelles à pipe
 douelles à quart,douelles à quart
 douelles à tierçons,douelles à tierçons
 douelles à tonneaux,douelles à tonneau
-douelles à tonneaux vieilles,
+douelles à tonneaux vieilles,douelles à tonneau vieilles
 douelles barriques,douelles à barrique
-douelles de chêne,
+douelles de chêne,douelles de chêne
 douelles de sapin,douelles de sapin
 douelles de tonneaux,douelles à tonneau
 douelles fonçaille,douelles fonçaille
 douelles vieilles,douelles vieilles
-doutis,
+doutis,doutis
 douvain,douvain
 douvelles,douvelles
 douvelles de sapin,douvelles de sapin
@@ -6223,7 +6223,7 @@ drap au sixième de soie,drap au sixième de soie
 drap blanc,drap blanc
 drap blanc d'Espagne,drap blanc d'Espagne
 drap blanc de Bremer,drap blanc de Bremer
-drap blanc de Bremer aune,
+drap blanc de Bremer aune,drap blanc de Bremer
 drap blanc de douzaine,drap blanc de douzaine
 drap blanc de douzaine aune,drap blanc de douzaine aune
 drap blanc de Hollande,drap blanc de Hollande
@@ -6233,13 +6233,13 @@ drap blanc par aune,drap blanc par aune
 drap brodé aux ciseaux en soie,drap brodé au ciseau en soie
 drap brodé en or et argent,drap brodé en or et argent
 drap brodé en soie,drap brodé en soie
-drap calimouk de Sedan 20 lignes,
-drap calimouk de Sedan 350 lignes,
+drap calimouk de Sedan 20 lignes,drap calimouk de Sedan 20 lignes
+drap calimouk de Sedan 350 lignes,drap calimouk de Sedan 350 lignes
 drap carisé,carisé
 drap casimir,casimir de laine
 drap commun,drap commun
 drap cordeillat,drap cordeillat
-drap cordeillat de Colmar,
+drap cordeillat de Colmar,drap cordeillat de Colmar
 drap cosinis,drap cosinis
 drap crêpe,drap crêpe
 drap crêpe de Reims,drap crêpe de Reims
@@ -6278,7 +6278,7 @@ drap de cordeillat,drap de cordeillat
 drap de coton,drap de coton
 drap de Dauphiné,drap de castor
 drap de douzaine,drap de douzaine
-drap de douzaine aune,
+drap de douzaine aune,drap de douzaine
 drap de Falaise,drap de Falaise
 drap de fil vieux,drap de fil vieux
 drap de France,drap de France
@@ -6289,7 +6289,7 @@ drap de glastes,drap de glastes
 drap de Glates,drap de Glates
 drap de Glouster,drap de Glouster
 drap de Hollande,drap de Hollande
-drap de julienne,
+drap de julienne,drap de julienne
 drap de Korook,drap de Korook
 drap de la Bouille,drap de la Bouille
 drap de lain,drap de laine
@@ -6297,9 +6297,9 @@ drap de laine,drap de laine
 drap de laine au ??? de soie,drap de laine au ??? de soie
 drap de laine au quart de soie,drap de laine au quart de soie
 drap de laine avarié,drap de laine avarié
-drap de laine blanc,
+drap de laine blanc,drap blanc de laine 
 drap de laine bleu,drap bleu
-drap de laine brodé en soie,
+drap de laine brodé en soie,drap de laine brodé de soie
 drap de laine commun,drap de laine commun
 drap de laine cordeillat,drap de laine cordeillat
 drap de laine d'Abbeville,drap d'Abbeville
@@ -6350,7 +6350,7 @@ drap de laine londrin,drap de laine londrin
 drap de Latte,drap de Latte
 drap de Lille,drap de Lille
 drap de Limbourg,drap de Limbourg
-drap de Limbourg aune,
+drap de Limbourg aune,drap de Limbourg
 drap de Limoux,drap de Limoux
 drap de lin,drap de lin
 drap de lin ayant servi,drap de lin ayant servi
@@ -6376,37 +6376,37 @@ drap de Panguede,drap de Panguede
 drap de Picardie,drap de Picardie
 drap de Pie,drap de Pie
 drap de Pie aune,drap de Pie aune
-drap de Reims fil ???,
+drap de Reims fil ???,drap de Reims fil ???
 drap de Romorntin,drap de Romorntin
 drap de Rouen,drap de Rouen
 drap de Saint-Lô,drap de Saint-Lô
 drap de Sedan,drap de Sedan
-drap de Sedan 220 lignes,
-drap de Sedan 25 lignes,
-drap de Sedan 78 lignes,
+drap de Sedan 220 lignes,drap de Sedan 220 lignes
+drap de Sedan 25 lignes,drap de Sedan 25 lignes
+drap de Sedan 78 lignes,drap de Sedan 78 lignes
 drap de Sedan de retour,drap de Sedan de retour
 drap de Ségovie,drap de Ségovie
 drap de Silésie,drap de Silésie
 drap de soie,drap de soie
 drap de Soudrain,drap de Soudrain
 drap de Souvier,drap de Souvier
-drap de Tours,
+drap de Tours,drap de Tours
 drap de toute espèce,drap
 drap de Van Robais,drap de Van Robais
 drap de vere,drap de vere
 drap de Vir,drap de Vir
 drap de Vire,drap de Vir
 drap des prises,drap des prise
-drap dit packlaeken,drap dit packlaeken
-drap dit packlaeken aune,drap dit packlaeken aune
-drap dit packlaeken blanc,drap dit packlaeken blanc
-drap dit packlaeken blanc aune,
-drap dit packlaeken teint,drap dit packlaeken teint
-drap dit packlaeken teint aune,
-drap dit plawens,drap dit plawens
-drap dit plawens aune,
-drap dit plawens ou codde,drap dit plawens ou codde
-drap dit plawens ou codde aune,drap dit plawens ou codde aune
+drap dit packlaeken,packlaeken
+drap dit packlaeken aune,packlaeken 
+drap dit packlaeken blanc,packlaeken blanc
+drap dit packlaeken blanc aune,packlaeken blanc
+drap dit packlaeken teint,packlaeken teint
+drap dit packlaeken teint aune,packlaeken teint
+drap dit plawens,plawens
+drap dit plawens aune,plawens
+drap dit plawens ou codde,plawens ou codde
+drap dit plawens ou codde aune,plawens ou codde
 drap divers,drap
 drap divers ???,drap divers ???
 drap divers anglais,drap anglais
@@ -6489,9 +6489,9 @@ drap du Maroc teint de douzaine,drap de Maroc teint de douzaine
 drap du Nord,drap du Nord
 drap du Nord blanc,drap blanc du Nord
 drap du Nord mêlé,drap du Nord
-drap du Nord mêlé aune,
+drap du Nord mêlé aune,drap du Nord
 drap du Nord teint,drap du Nord teint
-drap du Nord teint aune,
+drap du Nord teint aune,drap du Nord teint
 drap du Poitou,drap du Poitou
 drap écarlate,drap écarlate
 drap écarlatine,drap écarlate
@@ -6500,8 +6500,8 @@ drap et draperie casinier,drap et draperie casinier
 drap et draperie de toute sorte,drap et draperie
 drap et draperie divers de laine,drap et draperie de laine
 drap et draperie raffiné,drap fin
-drap et étoffe de laine,
-drap et velours de coton,
+drap et étoffe de laine,drap et étoffe de laine
+drap et velours de coton,drap et velours de coton
 drap fin,drap fin
 drap fin blanc,drap fin blanc
 drap fin du Languedoc,drap fin du Languedoc
@@ -6526,11 +6526,11 @@ drap non indiqué,drap
 drap ordinaire,drap ordinaire
 drap palencourt,drap palencourt
 drap petit,drap petit
-drap petit dit raz Maroc,drap petit dit raz Maroc
+drap petit dit raz Maroc,raz Maroc
 drap petit divers,drap petit
-drap petit raz de castor,
-drap petit raz refoulé,
-drap petite ratine,
+drap petit raz de castor,petit raz de castor
+drap petit raz refoulé,petit raz refoulé
+drap petite ratine,petite ratine
 drap pour nègre,drap à nègre
 drap ratine,ratine
 drap ratine diverse,ratine
@@ -6558,7 +6558,7 @@ drap serge imprimée,serge imprimée
 drap serge sergette,serge sergette
 drap Silésie,drap de Silésie
 drap teint,drap teint
-drap teint aune,
+drap teint aune,drap teint
 drap teint d'Espagne,drap d'Espagne teint
 drap teint d'Espagne et de Hollande,drap teint d'Espagne et de Hollande
 drap teint d'Espagne et de Hollande aune,drap teint d'Espagne et de Hollande aune
@@ -6568,39 +6568,39 @@ drap teint de Hollande,drap de Hollande teint
 drap teint et mêlé,drap teint
 drap teint et mêlé aune,drap teint
 drap teint et mêlé de douzaine,drap de douzaine et teint
-drap teint et mêlé de douzaine aune,
+drap teint et mêlé de douzaine aune,drap teint et mêlé de douzaine
 drap vert,drap vert
-drap vieux,
+drap vieux,drap vieux
 drape commune,drap commun
 drape draperie ratine,ratine
 drape petite,drape petite
 drapeaux,drapeaux
 drapeaux vieux,drapeaux vieux
-drapeaux vieux pour papeterie,
+drapeaux vieux pour papeterie,drapeaux vieux pour papeterie
 draperie,drap
 draperie ??? du Languedoc,drap de Languedoc
-draperie 20 lignes,
+draperie 20 lignes,drap 20 lignes
 draperie à la valeur,drap à la valeur
-draperie au 6ème de soie,
+draperie au 6ème de soie,drap au 6ème de soie
 draperie callemande,drap callemande
-draperie calmande,
-draperie cammise,
-draperie casimir,
+draperie calmande,drap callemande
+draperie cammise,drap cammise
+draperie casimir,drap casimir
 draperie commune,drap commun
-draperie cordeillat,
+draperie cordeillat,drap cordeillat
 draperie d'Amiens,drap d'Amiens
 draperie d'Angleterre,drap d'Angleterre
-draperie de Beauvais,
+draperie de Beauvais,drap de Beauvais
 draperie de Carcassonne,drap de Carcassonne
 draperie de Champagne,drap de Champagne
 draperie de dauphine,drap de dauphine
 draperie de laine,drap de laine
 draperie de laine de Sedan,drap de laine de Sedan
 draperie de laine diverse,drap de laine diverse
-draperie de laine drap,
+draperie de laine drap,drap de laine
 draperie de laine londrin,drap de laine londrin
-draperie de laine pour les troupes,
-draperie de Lyon,
+draperie de laine pour les troupes,drap de laine pour les troupes
+draperie de Lyon,drap de Lyon
 draperie de Montauban,drap de Montauban
 draperie de toute espèce,drap
 draperie de toute sorte,drap
@@ -6608,18 +6608,18 @@ draperie des prises,drap des prises
 draperie diverse,drap
 draperie diverse de laine,drap de laine
 draperie drap,drap
-draperie drap au 6ème de soie,
-draperie drap brodé de soie,
-draperie drap de vigogne,
+draperie drap au 6ème de soie,drap au 6ème de soie
+draperie drap brodé de soie,drap brodé de soie
+draperie drap de vigogne,drap de vigogne
 draperie drap divers,drap
 draperie drap divers d'Elbeuf velours,drap d'Elbeuf de velours
 draperie drap divers de Sedan velours,drap de Sedan de velours
 draperie drap divers du Languedoc velours,drap du Languedoc de velours
 draperie drap écarlate,drap écarlate
-draperie drap en soie et dorure,
-draperie drap julienne,
+draperie drap en soie et dorure,drap de dorure et soie
+draperie drap julienne,drap julienne
 draperie drap pour billau,drap pour billau
-draperie drap sedan,
+draperie drap sedan,drap de Sedan
 draperie du Languedoc,drap de Languedoc
 draperie du Poitou,drap de Poitou
 draperie écarlate,drap écarlate
@@ -6630,41 +6630,41 @@ draperie fine diverse,drap fin
 draperie fine diverse dite londrin du Languedoc de Carcassonne et Lodève,drap fin divers dit londrin du Languedoc de Carcassonne et Lodève
 draperie fine diverse ordinaire et petite,drap fin ordinaire et petite
 draperie fine du Languedoc,drap fin du Languedoc
-draperie grosse,
+draperie grosse,drap gros
 draperie grossière,drap grossier
 draperie Languedoc,drap du Languedoc
 draperie or argent et soie,drap d'argent et d'or et de soie
 draperie ordinaire,drap commun
 draperie ordinaire du Languedoc,drap de Languedoc ordinaire
-draperie peinte,
+draperie peinte,drap peint
 draperie petite,drap petit
 draperie petite de Montauban,drap de Montauban petite
 draperie petite de Silésie,drap petit de Silésie
-draperie petite diverse,
+draperie petite diverse,drap petit
 draperie petite londrin,drap londrin petit
-draperie petite Maroc,
-draperie petite matine,drap matine petit
-draperie petite ratine,
+draperie petite Maroc,drap Maroc petit
+draperie petite matine,drap petit ratine
+draperie petite ratine,drap petit ratine
 draperie petite Silésie,drap petit de Silésie
 draperie platine,drap platine
 draperie pour doublures,drap pour doublures
-draperie ratine,
+draperie ratine,drap ratine
 draperie Silésie,drap de Silésie
-drèche,
-drilles,
-drilles et charpie en feuilles,
-drogue médicinale ellébore,
+drèche,drèche
+drilles,drilles
+drilles et charpie en feuilles,charpie et drilles en feuille
+drogue médicinale ellébore,hellébore
 droguerie,drogues
 droguerie à peindre,drogues pour peintures
 droguerie à teindre,drogues à teindre
 droguerie alun,alun
-droguerie au bois de réglisse,
-droguerie azur,
-droguerie blanc de Troyes et craie,
-droguerie borax,
+droguerie au bois de réglisse,bois de réglisse
+droguerie azur,azur
+droguerie blanc de Troyes et craie,blanc de Troyes et craie
+droguerie borax,borax
 droguerie canefice,canefice
 droguerie chimique diverse,drogues chimiques
-droguerie chimique eau-forte,
+droguerie chimique eau-forte,eau-forte
 droguerie chimique et métallique,drogues chimiques et métalliques
 droguerie chimique et métallique argent vif,mercure
 droguerie chimique et métallique arsenic,arsenic
@@ -6672,23 +6672,23 @@ droguerie chimique et métallique diverse,drogue chimique et métallique diverse
 droguerie chimiques sel ammoniac,sel d'ammoniac
 droguerie cochenille,cochenille
 droguerie commune,drogues communes
-droguerie composée,
-droguerie coriandre,
-droguerie couleur composée,
-droguerie craie,
-droguerie crème de tartre,
+droguerie composée,drogues composées
+droguerie coriandre,coriandre
+droguerie couleur composée,couleurs composées
+droguerie craie,craie
+droguerie crème de tartre,crème de tartre
 droguerie d'apothicaire,drogues d'apothicaire
 droguerie diverse,drogues
-droguerie diverse gomme du Sénégal,
+droguerie diverse gomme du Sénégal,gomme du Sénégal
 droguerie diverse médicinale,drogues médicinales
 droguerie diverse pour les peintures et la teinture,drogues pour peintures et teinture
 droguerie du Languedoc,drogues du Languedoc
 droguerie en épicerie,drogues et épicerie
-droguerie épicerie,
+droguerie épicerie,drogues et épicerie
 droguerie et épicerie,drogues et épicerie
 droguerie fine,drogues fines
 droguerie galle,drogues galle
-droguerie gaude,
+droguerie gaude,gaude
 droguerie gomme adragant,gomme adragant
 droguerie gomme arabique,gomme arabique
 droguerie gomme commune,gomme commune
@@ -6699,13 +6699,13 @@ droguerie gomme galle,gomme galle
 droguerie gomme gutte,gomme gutte
 droguerie gomme laque,gomme laque
 droguerie gomme sandarak,gomme sandaraque
-droguerie gomme Sénégal,
-droguerie huile d'absinthe,
+droguerie gomme Sénégal,gomme du Sénégal
+droguerie huile d'absinthe,huile d’absinthe
 droguerie huile de térébenthine,huile de térébenthine
 droguerie huile de vitriol,huile de vitriol
 droguerie indigo,indigo
-droguerie jus de réglisse,
-droguerie manne,
+droguerie jus de réglisse,jus de réglisse
+droguerie manne,manne
 droguerie médicaments,médicaments
 droguerie médicinale,drogues médicinales
 droguerie médicinale arsenic,arsenic
@@ -6732,7 +6732,7 @@ droguerie médicinale oignons de squille,oignons de squille
 droguerie médicinale peury,peury
 droguerie médicinale poudre d'ailhaud,poudre d'Ailhaud
 droguerie médicinale pour peintures et teinture diverse,drogues
-droguerie médicinale pour peintures et teinture noix de galle,noix de galle
+droguerie médicinale pour peintures et teinture noix de galle,noix de Galle
 droguerie médicinale quinquina,quinquina
 droguerie médicinale réglisse,réglisse
 droguerie médicinale réglisse en bois,réglisse en bois
@@ -6800,7 +6800,7 @@ droguerie pour peintures et teinture indigo,indigo
 droguerie pour peintures et teinture iris,iris
 droguerie pour peintures et teinture lakmoës,lakmoes
 droguerie pour peintures et teinture mine de plomb,mine de plomb
-droguerie pour peintures et teinture noix de galle,noix de galle
+droguerie pour peintures et teinture noix de galle,noix de Galle
 droguerie pour peintures et teinture ocre en pierres,ocre en pierre
 droguerie pour peintures et teinture racines d'alizari,racines d'alizari
 droguerie pour peintures et teinture safranum,safranum
@@ -6823,16 +6823,16 @@ droguerie pour teinture et peintures noir de fumée,noir de fumée
 droguerie pour teinture et peintures ocre,ocre
 droguerie pour teinture et peintures verdet,verdet
 droguerie quinquina,quinquina
-droguerie rhubarbe,
+droguerie rhubarbe,rhubarbe
 droguerie safran,safran
 droguerie safranum,safran
-droguerie sel ammoniac,
-droguerie sel chimique,
+droguerie sel ammoniac,sel d’ammoniac
+droguerie sel chimique,sel chimique
 droguerie sel de nitre,sel de nitre
 droguerie sel de Saturne,sel de Saturne
 droguerie séné,séné
 droguerie verdet,verdet
-droguerie vitriol,
+droguerie vitriol,vitriol
 drogues,drogues
 drogues ???,drogues ???
 drogues à peindre,drogues à peindre
@@ -6842,7 +6842,7 @@ drogues alun,alun
 drogues azur,azur
 drogues baie de laurier,baie de laurier
 drogues benjoin,benjoin
-drogues blanc de plomb,
+drogues blanc de plomb,blanc de plomb
 drogues bois de réglisse,bois de réglisse
 drogues borax,borax
 drogues camphre,camphre
@@ -6857,8 +6857,8 @@ drogues chimiques diverses,drogues chimiques
 drogues chimiques eau-forte,eau-forte
 drogues chimiques esprit de sel,esprit de sel
 drogues chimiques esprit de vin,esprit-de-vin
-drogues chimiques et métaliques,drogues chimiques et métaliques
-drogues chimiques et métalliques,drogues chimiques et métaliques
+drogues chimiques et métaliques,drogues chimiques et métalliques
+drogues chimiques et métalliques,drogues chimiques et métalliques
 drogues chimiques et métalliques ammoniac,ammoniac
 drogues chimiques et métalliques antimoine,antimoine
 drogues chimiques et métalliques antimoine cru,antimoine cru
@@ -6868,10 +6868,10 @@ drogues chimiques et métalliques diverses,drogues chimiques et métalliques
 drogues chimiques et métalliques eau-forte,eau-forte
 drogues chimiques et métalliques esprit de sel,esprit de sel
 drogues chimiques et métalliques mercure,mercure
-drogues chimiques et métalliques odorantes encres,
+drogues chimiques et métalliques odorantes encres,encres odorantes
 drogues chimiques et métalliques régule d'antimoine,régule d'antimoine
 drogues chimiques et métalliques sel ammoniac,sel d'ammoniac
-drogues chimiques et métalliques sel d'antimoine,
+drogues chimiques et métalliques sel d'antimoine,sel d’antimoine
 drogues chimiques et métalliques sel d'Epsom,sel d'Epsom
 drogues chimiques et métalliques sel de Glauber,sel de Glauber
 drogues chimiques et métalliques sel de Saturne,sel de Saturne
@@ -6884,7 +6884,7 @@ drogues chimiques et métalliques zinc,zinc
 drogues chimiques huile de vitriol,huile de vitriol
 drogues chimiques sel,sel
 drogues chimiques sel ammoniac,ammoniac et sel
-drogues chimiques sel ammoniaque,
+drogues chimiques sel ammoniaque,ammoniac et sel
 drogues chimiques sel d'Epsom,sel d'Epsom
 drogues chimiques sel d'opium,sel d'opium
 drogues chimiques sel de fat ???,sel de fat ???
@@ -6892,7 +6892,7 @@ drogues chimiques sel de Glauber,sel de Glauber
 drogues chimiques sel de paume,sel de paume
 drogues chimiques sel de plomb,sel de plomb
 drogues chimiques sel de potasse,sel de potasse
-drogues chimiques sel de prunelle,
+drogues chimiques sel de prunelle,sel de prunelle
 drogues chimiques sel de Prusse,sel de Prusse
 drogues chimiques sel de Saturne,sel de Saturne
 drogues chimiques sel de tamarin,sel de tamarin
@@ -6938,9 +6938,9 @@ drogues composées pour médecine sang dragon,sang dragon
 drogues composées pour médecine scammonée,scammonée
 drogues composées pour médecine storax,storax
 drogues composées pour médecine sublimé,sublimé
-drogues composées pour médecine thériaque,
+drogues composées pour médecine thériaque,thériaque
 drogues couperose,couperose
-drogues couperose verte,
+drogues couperose verte,couperose verte
 drogues crème de tartre,crème de tartre
 drogues d'apothicaire,drogues d'apothicaire
 drogues d'apothicaire commune,drogues d'apothicaire commune
@@ -6948,10 +6948,10 @@ drogues de castor,drogues de castor
 drogues de laine,droguet de laine
 drogues de laine et fil,droguet de laine et fil
 drogues de misme,drogues de misme
-drogues de peinture en ocre rouge,drogues de peinture en ocre rouge
-drogues de réglisse,
+drogues de peinture en ocre rouge,ocre rouge
+drogues de réglisse,réglisse
 drogues de soie,drogues de soie
-drogues de toutes espèces diverses pour les peintures et teinture,drogues pour la peinture et la teinture
+drogues de toutes espèces diverses pour les peintures et teinture,drogues pour peintures et la teinture
 drogues de toutes espèces rhubarbe,rhubarbe
 drogues de toutes espèces salsepareille,salsepareille
 drogues de toutes espèces sel médicinal divers,sel médicinal divers
@@ -6966,25 +6966,25 @@ drogues diverses gomme adragant,gomme adragant
 drogues diverses gomme arabique,gomme arabique
 drogues diverses gomme d'Arabie,gomme d'Arabie
 drogues diverses gomme diverse,gomme
-drogues diverses gomme du Sénégal,
+drogues diverses gomme du Sénégal,gomme du Sénégal
 drogues diverses gommes diverses,gomme
 drogues diverses huile et essence de térébenthine,huile et essence de térébenthine
-drogues diverses médicinales,
+drogues diverses médicinales,drogues diverses médicinales
 drogues diverses mêlées,drogues
-drogues diverses pour la médecine,
-drogues diverses pour la peinture et teinture,
+drogues diverses pour la médecine,drogues diverses médicinales
+drogues diverses pour la peinture et teinture,drogues diverses pour peintures et teinture
 drogues diverses réunies,drogues
 drogues diverses sagon,sagon
 drogues diverses sel chimique,sel chimique
-drogues érneri,drogue émeri
-drogues et épiceries diverses pour la peinture et teinture,
+drogues érneri,drogues émeri
+drogues et épiceries diverses pour la peinture et teinture,drogues et épiceries diverses pour peintures et teinture
 drogues fines,drogues fines
 drogues fleurs d'aspic,fleurs d'aspic
-drogues garance,
-drogues gaude,
+drogues garance,garance
+drogues gaude,gaude
 drogues gomme,gomme
 drogues gomme adragant,gomme adragant
-drogues gomme ammoniac,
+drogues gomme ammoniac,gomme ammoniac
 drogues gomme arabique,gomme arabique
 drogues gomme commune,gomme commune
 drogues gomme copale,gomme copale
@@ -6994,7 +6994,7 @@ drogues gomme diverse,gomme
 drogues gomme du Sénégal,gomme du Sénégal
 drogues gomme élastique,gomme élastique
 drogues gomme galle,gomme galle
-drogues gomme gedda,
+drogues gomme gedda,gomme gedda
 drogues gomme herbes grandes,gomme herbes grandes
 drogues gomme laque,gomme laque
 drogues gomme médicinales diverses,drogues gomme médicinales diverses
@@ -7021,7 +7021,7 @@ drogues médicinales agaric gros,agaric gros
 drogues médicinales aloès,aloès
 drogues médicinales aloès cabalin,aloès cabalin
 drogues médicinales alquifoux,alquifoux
-drogues médicinales antimoine,
+drogues médicinales antimoine,antimoine
 drogues médicinales asa fœtida,asa fœtida
 drogues médicinales baume,baume
 drogues médicinales baume de Copahu,baume de Copahu
@@ -7029,11 +7029,11 @@ drogues médicinales baume du Pérou,baume du Pérou
 drogues médicinales baurne divers,baume
 drogues médicinales benjoin,benjoin
 drogues médicinales beunne,beunne
-drogues médicinales bière vétérinaire,
+drogues médicinales bière vétérinaire,bière vétérinaire
 drogues médicinales bois de réglisse,bois de réglisse
 drogues médicinales bol d'Arménie,bol d'Arménie
 drogues médicinales borax,borax
-drogues médicinales boules d'acier,
+drogues médicinales boules d'acier,boules d’acier
 drogues médicinales cachou,cachou
 drogues médicinales calaurure,calaurure
 drogues médicinales camphre,camphre
@@ -7057,7 +7057,7 @@ drogues médicinales coque du Levant,coque du Levant
 drogues médicinales coque Levant,coque du Levant
 drogues médicinales coraline,coraline
 drogues médicinales cordial,cordial
-drogues médicinales coriandre,
+drogues médicinales coriandre,coriandre
 drogues médicinales corne fine,corne fine
 drogues médicinales crème de tartre,crème de tartre
 drogues médicinales cristal de tartre,cristal de tartre
@@ -7072,7 +7072,7 @@ drogues médicinales eau sederale,eau sederale
 drogues médicinales eau vulnéraire,eau vulnéraire
 drogues médicinales en camomille,camomille
 drogues médicinales en plantes ???,drogues en plantes
-drogues médicinales en plantes agaric,
+drogues médicinales en plantes agaric,agaric
 drogues médicinales en plantes aristoloche,aristoloche
 drogues médicinales en plantes carrue,carrue
 drogues médicinales en plantes casse en baton,casse en baton
@@ -7099,7 +7099,7 @@ drogues médicinales en plantes séné,séné
 drogues médicinales en plantes simarouba,simarouba
 drogues médicinales en plantes tamarin,tamarin
 drogues médicinales en plantes tournesol,tournesol
-drogues médicinales en quinquina,
+drogues médicinales en quinquina,quinquina
 drogues médicinales en rhubarbe composée,drogues médicinales en rhubarbe composée
 drogues médicinales extrait ???,extrait ???
 drogues médicinales fleurs de violette,fleurs de violette
@@ -7110,13 +7110,13 @@ drogues médicinales huile d'amande douce,huile d'amande douce
 drogues médicinales huile de térébenthine,huile de térébenthine
 drogues médicinales ipécacuanha,ipécacuanha
 drogues médicinales jalap,jalap
-drogues médicinales jujubes,
+drogues médicinales jujubes,jujubes
 drogues médicinales jus de réglisse,jus de réglisse
 drogues médicinales liqueurs,liqueurs
 drogues médicinales magnésie,magnésie
 drogues médicinales manne,manne
 drogues médicinales marue,marue
-drogues médicinales mêlée,
+drogues médicinales mêlée,drogues médicinales
 drogues médicinales mousse,mousse
 drogues médicinales mousse de mer,mousse de mer
 drogues médicinales opium,opium
@@ -7126,11 +7126,11 @@ drogues médicinales pignons d'Inde,pignons d'Inde
 drogues médicinales précipité,précipité
 drogues médicinales quinoa,quinoa
 drogues médicinales quinquina,quinquina
-drogues médicinales racinages,
-drogues médicinales racine de fouchet,
+drogues médicinales racinages,racinages
+drogues médicinales racine de fouchet,racines de fouchet
 drogues médicinales racines diverses,racines
 drogues médicinales réglisse,réglisse
-drogues médicinales réglisse de bois,
+drogues médicinales réglisse de bois,réglisse de bois
 drogues médicinales réglisse en bois,réglisse en bois
 drogues médicinales réglisse en jus,réglisse en jus
 drogues médicinales réglisse sur bâne,réglisse sur bâne
@@ -7157,8 +7157,8 @@ drogues médicinales suc de réglisse,suc de réglisse
 drogues médicinales sucre de réglisse,sucre de réglisse
 drogues médicinales sucre réglisse,sucre de réglisse
 drogues médicinales tamarin,tamarin
-drogues médicinales tartre,
-drogues médicinales tartre crème,
+drogues médicinales tartre,tartre
+drogues médicinales tartre crème,crème de tartre
 drogues médicinales thériaque,thériaque
 drogues médicinales vanille,vanille
 drogues médicinales zedonire,zédoaire
@@ -7166,7 +7166,7 @@ drogues mêlées,drogues
 drogues mêlées asa fœtida,asa fœtida
 drogues mêlées benjoin,benjoin
 drogues mêlées blanc de baleine,blanc de baleine
-drogues mêlées bongras amoniac,
+drogues mêlées bongras amoniac,bongras ammoniac
 drogues mêlées bongras animal,bongras animal
 drogues mêlées borax,borax
 drogues mêlées diverses,drogues
@@ -7233,10 +7233,10 @@ drogues métalliques vitriol,vitriol
 drogues mine de plomb,mine de plomb
 drogues minium,minium
 drogues musc,musc
-drogues noix de galle,noix de galle
-drogues noix de Galles,
-drogues ocre,
-drogues ocre jaune et rouge,
+drogues noix de galle,noix de Galle
+drogues noix de Galles,noix de Galle
+drogues ocre,ocre
+drogues ocre jaune et rouge,ocre jaune et rouge
 drogues odorantes ambre,ambre
 drogues odorantes ambre gris,ambre gris
 drogues odorantes ambre jaune,ambre jaune
@@ -7246,18 +7246,18 @@ drogues odorantes encrin,encrin
 drogues odorantes musc,musc
 drogues odorantes myrrhe,myrrhe
 drogues orge perlé,orge perlé
-drogues orpin rouge,
-drogues orseille,
-drogues pastel,
+drogues orpin rouge,orpin rouge
+drogues orseille,orseille
+drogues pastel,pastel
 drogues peintures,peintures
 drogues peintures et teinture,drogues pour peintures et teinture
 drogues peintures et teinture cochenille,cochenille
 drogues peintures et teinture diverses,divers
 drogues peintures et teinture galle,galle
 drogues peintures et teinture racines d'alizari,racines d'alizari
-drogues poudre d'Ailhaud,
+drogues poudre d'Ailhaud,poudre d’Ailhaud
 drogues pour la médecine,drogues pour la médecine
-drogues pour la médecine safran,
+drogues pour la médecine safran,safran
 drogues pour la teinture alizari,alizari
 drogues pour la teinture alun,alun
 drogues pour la teinture arsenic,arsenic
@@ -7293,15 +7293,15 @@ drogues pour les peintures blanc de ferax,blanc de ferax
 drogues pour les peintures blanc de ferux,blanc de ferux
 drogues pour les peintures blanc de Herps,blanc de Herps
 drogues pour les peintures blanc de plomb,blanc de plomb
-drogues pour les peintures bleu d'Allemagne,
+drogues pour les peintures bleu d'Allemagne,bleu d’Allemagne
 drogues pour les peintures brun rouge,brun rouge
 drogues pour les peintures cendre bleue,cendre bleue
 drogues pour les peintures céruse,céruse
 drogues pour les peintures cinabre,cinabre
-drogues pour les peintures couleur rouge,
-drogues pour les peintures couleurs préparées,
-drogues pour les peintures couperose,
-drogues pour les peintures craie blanche,
+drogues pour les peintures couleur rouge,couleur rouge
+drogues pour les peintures couleurs préparées,couleurs préparées
+drogues pour les peintures couperose,couperose
+drogues pour les peintures craie blanche,craie blanche
 drogues pour les peintures croix d'ivoire,croix d'ivoire
 drogues pour les peintures diverses,drogues pour peintures
 drogues pour les peintures et la teinture,drogues pour peintures et teinture
@@ -7343,7 +7343,7 @@ drogues pour les peintures et la teinture fris,fris
 drogues pour les peintures et la teinture galle en sorte,galle en sorte
 drogues pour les peintures et la teinture garance,garance
 drogues pour les peintures et la teinture gatte noire,gatte noire
-drogues pour les peintures et la teinture gomme arabique,
+drogues pour les peintures et la teinture gomme arabique,gomme arabique
 drogues pour les peintures et la teinture graine d'Avignon,graine d'Avignon
 drogues pour les peintures et la teinture graine d'écarlate,graine d'écarlate
 drogues pour les peintures et la teinture graine jaune,graine jaune
@@ -7369,7 +7369,7 @@ drogues pour les peintures et la teinture minium,minium
 drogues pour les peintures et la teinture miny,miny
 drogues pour les peintures et la teinture noir d'ivoire,noir d'ivoire
 drogues pour les peintures et la teinture noir de fumée,noir de fumée
-drogues pour les peintures et la teinture noix de galle,noix de galle
+drogues pour les peintures et la teinture noix de galle,noix de Galle
 drogues pour les peintures et la teinture ocre,ocre
 drogues pour les peintures et la teinture orpiment,orpiment
 drogues pour les peintures et la teinture orpin,orpin
@@ -7412,65 +7412,65 @@ drogues pour les peintures et teinture tartre,tartre
 drogues pour les peintures et teinture tartre blanc,tartre blanc
 drogues pour les peintures et teinture tartre rouge,tartre rouge
 drogues pour les peintures et teinture tartre térébenthine,tartre térébenthine
-drogues pour les peintures et teinture vert-de-gris,vert-de-gris
-drogues pour les peintures Galles,
+drogues pour les peintures et teinture vert-de-gris,verdet
+drogues pour les peintures Galles,galle
 drogues pour les peintures huile de térébenthine,huile de térébenthine
-drogues pour les peintures indigo,
+drogues pour les peintures indigo,indigo
 drogues pour les peintures jas,jas
 drogues pour les peintures jaune de Naples,jaune de Naples
 drogues pour les peintures minium,minium
 drogues pour les peintures muce de plomb,muce de plomb
-drogues pour les peintures noix de Galles,
+drogues pour les peintures noix de Galles,noix de Galle
 drogues pour les peintures ocre,ocre
 drogues pour les peintures orpiment,orpiment
 drogues pour les peintures pastel,pastel
 drogues pour les peintures sanguine,sanguine
 drogues pour les peintures serra merita,serra merita
 drogues pour les peintures stil de grain,stil de grain
-drogues pour les peintures sumac,
+drogues pour les peintures sumac,sumac
 drogues pour les peintures térébenthine,térébenthine
 drogues pour les peintures verdet,verdet
 drogues pour les peintures vermillion,vermillon
 drogues pour les peintures vermillon,vermillon
 drogues pour les peintures vernis,vernis
-drogues pour les peintures vert-de-gris,vert-de-gris
-drogues pour peinture et teinture,
-drogues pour peinture et teinture alizari,
-drogues pour peinture et teinture alun,
-drogues pour peinture et teinture blanc de Marne,
-drogues pour peinture et teinture bol,
-drogues pour peinture et teinture cochenille,
-drogues pour peinture et teinture couperose,
-drogues pour peinture et teinture craie,
-drogues pour peinture et teinture diverses,
-drogues pour peinture et teinture en noir à noircir,
-drogues pour peinture et teinture Galles,
-drogues pour peinture et teinture garance,
-drogues pour peinture et teinture gaude,
-drogues pour peinture et teinture gaude herbe,
-drogues pour peinture et teinture graine jaune,
-drogues pour peinture et teinture huile de Garonne,
-drogues pour peinture et teinture indigo,
-drogues pour peinture et teinture iris,
-drogues pour peinture et teinture noix de Galles,
-drogues pour peinture et teinture orseille,
-drogues pour peinture et teinture pastel,
-drogues pour peinture et teinture peinture,
-drogues pour peinture et teinture racine d'alizari,
-drogues pour peinture et teinture safran,
-drogues pour peinture et teinture safranum,
-drogues pour peinture et teinture tarta,
-drogues pour peinture et teinture tartre,
-drogues pour peinture et teinture tournesol,
-drogues pour peinture et teinture verdet,
-drogues pour peinture et teinture vermillon,
-drogues pour peinture et teinture vert-de-gris,
-drogues pour peinture et teinture vert-de-gris cristallisée,
-drogues pour peintures,drogues pour la peinture
+drogues pour les peintures vert-de-gris,verdet
+drogues pour peinture et teinture,drogues pour peintures et teinture
+drogues pour peinture et teinture alizari,alizari
+drogues pour peinture et teinture alun,alun
+drogues pour peinture et teinture blanc de Marne,blanc de Marne
+drogues pour peinture et teinture bol,bol
+drogues pour peinture et teinture cochenille,cochenille
+drogues pour peinture et teinture couperose,couperose
+drogues pour peinture et teinture craie,craie
+drogues pour peinture et teinture diverses,drogues pour peintures et teinture diverses
+drogues pour peinture et teinture en noir à noircir,noir à noircir
+drogues pour peinture et teinture Galles,galle
+drogues pour peinture et teinture garance,garance
+drogues pour peinture et teinture gaude,gaude
+drogues pour peinture et teinture gaude herbe,gaude herbe
+drogues pour peinture et teinture graine jaune,graine jaune
+drogues pour peinture et teinture huile de Garonne,huile de Garonne
+drogues pour peinture et teinture indigo,indigo
+drogues pour peinture et teinture iris,iris
+drogues pour peinture et teinture noix de Galles,noix de Galle
+drogues pour peinture et teinture orseille,orseille
+drogues pour peinture et teinture pastel,pastel
+drogues pour peinture et teinture peinture,peintures
+drogues pour peinture et teinture racine d'alizari,racines d’alizari
+drogues pour peinture et teinture safran,safran
+drogues pour peinture et teinture safranum,safranum
+drogues pour peinture et teinture tarta,tartre
+drogues pour peinture et teinture tartre,tartre
+drogues pour peinture et teinture tournesol,tournesol
+drogues pour peinture et teinture verdet,verdet
+drogues pour peinture et teinture vermillon,vermillon
+drogues pour peinture et teinture vert-de-gris,verdet
+drogues pour peinture et teinture vert-de-gris cristallisée,verdet cristallisé
+drogues pour peintures,drogues pour peintures
 drogues pour peintures azur commun,azur commun
-drogues pour peintures blanc de plomb,
+drogues pour peintures blanc de plomb,blanc de plomb
 drogues pour peintures céruse,céruse
-drogues pour peintures cochenille,
+drogues pour peintures cochenille,cochenille
 drogues pour peintures et teinture,drogues pour peintures et teinture
 drogues pour peintures et teinture ???,drogues pour peintures et teinture ???
 drogues pour peintures et teinture alquifoux,alquifoux
@@ -7500,9 +7500,9 @@ drogues pour peintures et teinture craie blanche,craie blanche
 drogues pour peintures et teinture crayons,crayons
 drogues pour peintures et teinture diverse,drogues pour peintures et teinture
 drogues pour peintures et teinture diverses,drogues pour peintures et teinture
-drogues pour peintures et teinture en alun,
-drogues pour peintures et teinture en garance,
-drogues pour peintures et teinture en noir à noircir,
+drogues pour peintures et teinture en alun,alun
+drogues pour peintures et teinture en garance,garance
+drogues pour peintures et teinture en noir à noircir,noir à noircir
 drogues pour peintures et teinture fleurs d'iris,fleurs d'iris
 drogues pour peintures et teinture galle,galle
 drogues pour peintures et teinture garance,garance
@@ -7532,7 +7532,7 @@ drogues pour peintures et teinture minium,minium
 drogues pour peintures et teinture noir,noir
 drogues pour peintures et teinture noir à noircir,noir à noircir
 drogues pour peintures et teinture noir de fumée,noir de fumée
-drogues pour peintures et teinture noix de galle,noix de galle
+drogues pour peintures et teinture noix de galle,noix de Galle
 drogues pour peintures et teinture ocre jaune,ocre jaune
 drogues pour peintures et teinture ocre rouge,ocre rouge
 drogues pour peintures et teinture orbe,orbe
@@ -7547,18 +7547,18 @@ drogues pour peintures et teinture semence,drogues pour peintures et teinture se
 drogues pour peintures et teinture sumac,sumac
 drogues pour peintures et teinture tartre,tartre
 drogues pour peintures et teinture teinture,teinture
-drogues pour peintures et teinture térébenthine,
+drogues pour peintures et teinture térébenthine,térébenthine
 drogues pour peintures et teinture tournesol,tournesol
 drogues pour peintures et teinture tournesol et d'acmail,tournesol et d'acmail
 drogues pour peintures et teinture verdet,verdet
 drogues pour peintures et teinture vermillon,vermillon
 drogues pour peintures et teinture vernis,vernis
 drogues pour peintures et teinture vert,vert
-drogues pour peintures et teinture vert-de-gris,vert-de-gris
+drogues pour peintures et teinture vert-de-gris,verdet
 drogues pour peintures et teinture vitriol bleu,vitriol bleu
 drogues pour peintures et teinture vitriol de Chypre,vitriol de Chypre
-drogues pour peintures garance,
-drogues pour peintures indigo,
+drogues pour peintures garance,garance
+drogues pour peintures indigo,indigo
 drogues pour peintures ocre,ocre
 drogues pour peintures ocre rouge,ocre rouge
 drogues pour teinture azur,azur
@@ -7584,7 +7584,7 @@ drogues térébenthine,térébenthine
 drogues tripoli,tripoli
 drogues verdet,verdet
 droguet,étoffe droguet
-droguet aune,
+droguet aune,droguet
 droguet d'Angleterre,droguet d'Angleterre
 droguet de laine,droguet de laine
 droguet de laine aune,droguet de laine
@@ -7601,14 +7601,14 @@ duc dalles,duc-d'Albe
 duc dalles de grès,duc-d'Albe de grés
 duc dalles de terre,duc-d'Albe de terre
 duffel,duffel
-duffel aune,
+duffel aune,duffel 
 duffel teint,duffel teint
-duffel teint aune,duffel teint aune
+duffel teint aune,duffel teint 
 duves,duves
 duvet,duvet
 duyvelsteen,duyvelsteen
 duyvelsterck,duyvelsterck
-duyvelsterck aune,
+duyvelsterck aune,duyvelsterck
 e ???,e ???
 eau,eau
 eau ???,eau
@@ -7625,12 +7625,12 @@ eau d'odeur diverse,eau de senteur
 eau d'odeur et essence diverse d'odeur diverse,eau de senteur
 eau d'odeur et essence diverse essence de rose,essence de rose
 eau d'odeur et essence diverse quintessence de rose,essence de rose
-eau de balaruc,
+eau de balaruc,eau de balaruc
 eau de Barbade,eau de Barbade
 eau de bergamote,eau de bergamote
 eau de Bristol,eau de Bristol
 eau de bronze,eau de bronze
-eau de Bussang,
+eau de Bussang,eau de Bussang
 eau de Bussingue,eau de Bussingue
 eau de cannelle,eau de cannelle
 eau de Carmes,eau de Carmes
@@ -7639,7 +7639,7 @@ eau de cèdre,eau de cèdre
 eau de cerise,eau de cerise
 eau de Charente,eau de Charente
 eau de citron,eau de citron
-eau de citron distillée,
+eau de citron distillée,eau de citron distillée
 eau de citronnelle,eau de citronnelle
 eau de coclearia,eau de coclearia
 eau de Cologne,eau de Cologne
@@ -7649,12 +7649,12 @@ eau de feuilles d'orange,eau de feuilles d'orange
 eau de feuilles d'oranger,eau de feuilles d'orange
 eau de fleurs d'orange,eau de fleurs d'orange
 eau de fleurs d'oranger,eau de fleurs d'orange
-eau de fleurs de senteur,
-eau de fleurs fortes,
-eau de garance,
+eau de fleurs de senteur,eau de fleurs de senteur
+eau de fleurs fortes,eau de fleurs fortes
+eau de garance,eau de garance
 eau de genièvre,eau de genièvre
 eau de grain,eau de grain
-eau de jasmin,
+eau de jasmin,eau de jasmin
 eau de la ???,eau de senteur de la reine de Hongrie
 eau de la Côte,eau de la Côte
 eau de la reine de Hongrie,eau de senteur de la reine de Hongrie
@@ -7662,24 +7662,24 @@ eau de la Reine de Hongrie,eau de senteur de la reine de Hongrie
 eau de larmes,eau de lavande
 eau de lavande,eau de lavande
 eau de limon,eau de limon
-eau de Marquette,
+eau de Marquette,eau de Marquette
 eau de mélisse,eau de mélisse
 eau de mer,eau de mer
 eau de métier,eau de mélisse
 eau de miel,eau de miel
 eau de myrrhe,eau de myrrhe
 eau de naffle,eau de naffle
-eau de Naples,
+eau de Naples,eau de Naples
 eau de nard,eau de nard
-eau de Philipine,eau de Philipine
+eau de Philipine,eau de Philippine
 eau de pin,eau de pin
 eau de Plombières,eau de Plombières
 eau de poix,eau de poix
 eau de poix raze,eau de poix raze
 eau de raisin,eau de raisin
-eau de raisine,
+eau de raisine,eau de balaruc
 eau de raison,eau de raison
-eau de rave,
+eau de rave,eau de rave
 eau de raze,eau de raze
 eau de reine de Hongrie,eau de senteur de la reine de Hongrie
 eau de Rochefort,eau de Rochefort
@@ -7691,12 +7691,12 @@ eau de senlaw,eau de senlaw
 eau de senseo,eau de senteur
 eau de senten,eau de senteur
 eau de senteur,eau de senteur
-eau de senteur alcoolique,
-eau de senteur alcoolique autre que de Cologne et de lavande,
-eau de senteur alcoolique de Cologne,
+eau de senteur alcoolique,eau de senteur alcoolique
+eau de senteur alcoolique autre que de Cologne et de lavande,eau de senteur alcoolique autre que Cologne et lavande
+eau de senteur alcoolique de Cologne,eau de Cologne
 eau de senteur de bergamote,eau de senteur de bergamote
 eau de senteur de citron,eau de senteur de citron
-eau de senteur de Cologne d'oranger etc,
+eau de senteur de Cologne d'oranger etc,eau de senteur 
 eau de senteur de la reine de Hongrie,eau de senteur de la reine de Hongrie
 eau de senteur de lavande,eau de senteur de lavande
 eau de senteur de nard,eau de senteur de nard
@@ -7705,29 +7705,29 @@ eau de senteur diverse,eau de senteur
 eau de senteur en flacons,eau de senteur en flacons
 eau de senteur et quintessence,eau de senteur et quintessence
 eau de senteur rose,eau de senteur rose
-eau de senteur sans alcool,
-eau de senteur sans alcool autres que de fleurs d'oranger,
-eau de senteur sans alcool de fleurs d'oranger,
+eau de senteur sans alcool,eau de senteur sans alcool
+eau de senteur sans alcool autres que de fleurs d'oranger,eau de senteur sans alcool autre que fleurs d’oranger
+eau de senteur sans alcool de fleurs d'oranger,eau de senteur sans alcool de fleurs d’oranger
 eau de senteur sans pareille,eau de senteur sans pareille
 eau de Spa,eau de Spa
 eau de tartre,eau de tartre
 eau de térébenthine,eau de térébenthine
 eau de toilette,eau de toilette
-eau de vertu,
+eau de vertu,eau de vertu
 eau des Carmes,eau des Carmes
 eau des cavernes,eau des cavernes
-eau des farmes,eau des farmes
+eau des farmes,eau des Carmes
 eau distillée,eau distillée
 eau diverse,eau diverse
 eau divine,eau divine
 eau du Rhône,eau du Rhône
-eau essence de lavande,
+eau essence de lavande,essence de lavande
 eau et essence spiritueuse,eau et essence spiritueuse
 eau et huile spiritueuse,eau et huile spiritueuse
 eau ferrée,eau ferrée
-eau fleurs d'orange,
+eau fleurs d'orange,eau de fleurs d'orange
 eau genièvre,eau de genièvre
-eau lavande,
+eau lavande,eau de lavande
 eau medicinale,eau médicinale
 eau médicinale,eau médicinale
 eau médicinale composée,eau médicinale
@@ -7757,13 +7757,13 @@ eau Plombières,eau Plombières
 eau pour la goutte,eau pour la goutte
 eau pour remède,eau pour remède
 eau raze,eau de rose
-eau reine d'Hongrie,
+eau reine d'Hongrie,eau de la reine de Hongrie
 eau reine de la Hongrie,eau de senteur de la reine de Hongrie
 eau rose,eau de rose
 eau royale,eau royale
 eau roze,eau de rose
 eau sans pareille,eau sans pareille
-eau senteur,
+eau senteur,eau de senteur
 eau Spa,eau Spa
 eau spiritueuse,eau spiritueuse
 eau spiritueuse et essence,eau spiritueuse et essence
@@ -7785,21 +7785,21 @@ eau-de-vie de grain,eau-de-vie de grain
 eau-de-vie de grain de genièvre,eau-de-vie de genièvre
 eau-de-vie de graine,eau-de-vie de grain
 eau-de-vie de grains,eau-de-vie de grain
-eau-de-vie de grains autres que de genièvre (pommes de terre etc),
-eau-de-vie de grains de genièvre,
+eau-de-vie de grains autres que de genièvre (pommes de terre etc),eau-de-vie de grain autre que genièvre
+eau-de-vie de grains de genièvre,eau-de-vie de grain de genièvre
 eau-de-vie de grains et de genièvre,eau-de-vie de genièvre et de grains
 eau-de-vie de la Charente,eau-de-vie de Charente
 eau-de-vie de Marennes,eau-de-vie de Marennes
-eau-de-vie de mélasse rhum et tafia,
+eau-de-vie de mélasse rhum et tafia,Eau-de-vie de mélasse rhum et tafia
 eau-de-vie de Ré,eau-de-vie de Ré
 eau-de-vie de Reine de Hongrie,eau de senteur de la reine de Hongrie
 eau-de-vie de Rochefort,eau-de-vie de Rochefort
 eau-de-vie de vin,eau-de-vie de vin
-eau-de-vie de vin au-dessus de 32 degrés,
-eau-de-vie de vin de 22 degrés à 32,
-eau-de-vie de vin de 22 degrés ou moins,
+eau-de-vie de vin au-dessus de 32 degrés,Eau-de-vie de vin au-dessus de 32 degrés
+eau-de-vie de vin de 22 degrés à 32,Eau-de-vie de vin de 22 degrés à 32
+eau-de-vie de vin de 22 degrés ou moins,Eau-de-vie de vin de 22 degrés ou moins
 eau-de-vie de vin par Marseille,eau-de-vie de vin par Marseille
-eau-de-vie de vin sans indication de degré,
+eau-de-vie de vin sans indication de degré,Eau-de-vie de vin 
 eau-de-vie des prises,eau-de-vie des prises
 eau-de-vie diverse,eau-de-vie diverse
 eau-de-vie double,eau-de-vie double
@@ -7821,7 +7821,7 @@ eau-de-vie simple de genièvre,eau-de-vie de genièvre simple
 eau-de-vie simple de grains,eau-de-vie de grains et simple
 eau-de-vie simple de lavande,eau-de-vie de lavande et simple
 eau-de-vie simple de vin,eau-de-vie simple de vin
-eau-de-vie simple en bouteilles,
+eau-de-vie simple en bouteilles,eau-de-vie en bouteille simple
 eau-de-vie spiritueuse,eau-de-vie spiritueuse
 eau-de-vie triple,eau-de-vie triple
 eau-forte,eau-forte
@@ -7830,7 +7830,7 @@ eau-forte,eau-forte
 écaille ???,écaille ???
 écaille au caret,écaille au caret
 écaille cahouanne,écaille cahouanne
-écaille d'ablette,
+écaille d'ablette,écaille d’ablette 
 écaille de ???,écaille de ???
 écaille de cahouanne,écaille de cahouanne
 écaille de caret,écaille de caret
@@ -7838,11 +7838,11 @@ eau-forte,eau-forte
 écaille de poisson,écaille de poisson
 écaille de tortue,écaille de tortue
 écaille de tortue carapaces,écaille de tortue en carapace
-écaille de tortue carapaces de l'étranger,
-écaille de tortue caret,écaille caret de tortue
-écaille de tortue onglons,
-écaille de tortue onglons et rognures,
-écaille de tortue rognures,
+écaille de tortue carapaces de l'étranger,écaille de tortue en carapace de l’étranger
+écaille de tortue caret,écaille de tortue caret
+écaille de tortue onglons,écaille de tortue onglons
+écaille de tortue onglons et rognures,écaille de tortue onglons et rognures
+écaille de tortue rognures,écaille de tortue rognures
 écaille diverse,écaille
 écaille octomie,écaille octomie
 écaille ou caret,écaille ou caret
@@ -7850,24 +7850,24 @@ eau-forte,eau-forte
 écarlate,écarlate
 écarlatine,écarlatine
 écarlatine de Beauvais,écarlatine de Beauvais
-écarts de bœuf,
+écarts de bœuf,écarts de bœuf
 échalas,échalas
-échalotes,echalote
+échalotes,échalote
 échantillons et morceaux de soie,échantillons et morceaux de soie
 écharpe de soie,écharpe de soie
 écharpe de taffetas,écharpe de taffetas
 écharpe et gaze,écharpe et gaze
 échaussillons,échaussillons
 échelles,échelles
-échelotte,échelotte
+échelotte,échalote
 écope,écope
 écopes,écopes
 écopes de sapin,écopes de sapin
 écorce,écorce
-écorce à tan moulue,
-écorce à tan non moulue,
+écorce à tan moulue,écorce à tan moulue
+écorce à tan non moulue,écorce à tan non moulue
 écorce autre,écorce
-écorce autre que citron orange et leurs variétés et quinquina,
+écorce autre que citron orange et leurs variétés et quinquina,écorce autre que citron orange et leurs variété et quinquina
 écorce d'arbre,écorce d'arbre
 écorce d'arbre bast foularde,bast et écorce d'arbre et foularde
 écorce d'arbre bast foularde aune,bast et écorce d'arbre et foularde
@@ -7898,16 +7898,16 @@ eau-forte,eau-forte
 écorce de citron confit,écorce de citron confite
 écorce de citron confite,écorce de citron confite
 écorce de citron d'orange et de leurs variétés,écorce de citron et d'orange et de leurs variétés
-écorce de citron d'orange et leurs variétés,
+écorce de citron d'orange et leurs variétés,écorce de citron et d'orange et de leurs variétés
 écorce de citron d'orange etc.,écorce de citron et d'orange
 écorce de citron épluché,écorce de citron
 écorce de citron et d'orange,écorce de citron et d'orange
 écorce de citron et orange,écorce de citron et d'orange
 écorce de citron non épluché,écorce de citron non épluché
 écorce de citron sèche,écorce de citron sèche
-écorce de gaiac,écorce de gaiac
-écorce de grande d'aulne de bourdaine,
-écorce de grande d'aulne et de bourdaine,
+écorce de gaiac,écorce de gaïac
+écorce de grande d'aulne de bourdaine,écorce de grande d’aulne et de bourdaine
+écorce de grande d'aulne et de bourdaine,écorce de grande d’aulne et de bourdaine
 écorce de grenade,écorce de grenade
 écorce de limon,écorce de limon
 écorce de limons sec,écorce de limons sec
@@ -7915,46 +7915,46 @@ eau-forte,eau-forte
 écorce de mandragore,écorce de mandragore
 écorce de melis,écorce de melis
 écorce de pin,écorce de pin
-écorce de pin moulue,
+écorce de pin moulue,écorce de pin moulue
 écorce de quinquina,écorce de quinquina
 écorce de simaboura,écorce de simaboura
 écorce de soie,écorce de soie
 écorce de tilleul,écorce de tilleul
-écorce de tilleul pour cordages,
+écorce de tilleul pour cordages,écorce de tilleul pour cordages
 écorce diverse,écorce
 écorce diverse de ???,écorce
 écorce en poussière de pin,écorce de pin en poussière
 écorce en tan à tanner,écorce à tanner
-écorce lichens,
+écorce lichens,lichens 
 écorce pour la tannerie,écorce à tanner
 écorce pour tan,écorce à tanner
 écorce pour tannerie,écorce à tanner
-écorce quinquina,
-écorce sans désignation,
+écorce quinquina,quinquina
+écorce sans désignation,écorce
 ecouette,ecouette
 écrans,écrans
-écrelet,
+écrelet,écrelet
 écrevisses,écrevisses
 écrevisses de mer,écrevisses de mer
 écrevisses de rivière,écrevisses de rivière
 écritoire,écritoire
 écritoire de chagrin,écritoire de chagrin
 écritoire de maroquin,écritoire de maroquin
-écritoire garni d'or,
+écritoire garni d'or,écritoire garni d’or
 écru de cerise,écru de cerise
 écuelles de terre,écuelles de terre
 écuelles de vermillon,écuelles de vermillon
 écume de verre,écume de verre
 écumoires à sucre,écumoires à sucre
-effets à usage habillements,
-effets à usage habillements neufs,
-effets à usage habillements supportés,
-effets à usage habillements supportés à la valeur,
-effets à usage habillements supportés au kilogramme,
-effets à usage linge,
-effets à usage linge damassé ouvragé et uni,
-effets à usage linge neuf,
-effets à usage linge supporté,
+effets à usage habillements,habillements
+effets à usage habillements neufs,habillements neufs
+effets à usage habillements supportés,habillements supportés
+effets à usage habillements supportés à la valeur,habillements supportés à la valeur
+effets à usage habillements supportés au kilogramme,habillements supportés au kilogramme
+effets à usage linge,linge
+effets à usage linge damassé ouvragé et uni,linge damassé ouvragé et uni
+effets à usage linge neuf,linge neuf
+effets à usage linge supporté,linge supporté
 effilé de fil,effilé de fil
 effilé de soie,effilé de soie
 effilé or fil,effilé or fil
@@ -7968,8 +7968,8 @@ egoutals de bois,egoutals de bois
 égouttoirs,égouttoirs
 égouttoirs à fondre,égouttoirs à fondre
 égouttoirs de bois,égouttoirs de bois
-egrat,
-elatchas,
+egrat,egrat
+elatchas,elatchas
 elbots,elbots
 elbots salés,elbots salés
 elegias,elegias
@@ -7980,19 +7980,19 @@ ellébore,ellébore
 ellébore blanc,ellébore blanc
 émail,émail
 émail brut,émail brut
-embarcations à dépecer,
-embarcations à dépecer (celles à la sortie en bon état),
-embarcations agrès et apparaux,
-embarcations agrès et apparaux de navire,
-embarcations ancres,
-embarcations ancres de fer,
-embarcations autres agrès et apparaux de navires,
+embarcations à dépecer,embarcations à dépecer
+embarcations à dépecer (celles à la sortie en bon état),embarcations à dépecer
+embarcations agrès et apparaux,agrès apparaux et embarcations 
+embarcations agrès et apparaux de navire,agrès apparaux de navire et embarcations 
+embarcations ancres,ancres et embarcations
+embarcations ancres de fer,ancres de fer et embarcations
+embarcations autres agrès et apparaux de navires,agrès apparaux de navire et embarcations 
 embarcations avec agrès,embarcations avec agrès
-embarcations en état de servir,
-embarcations et agrès,
+embarcations en état de servir,embarcations en état de servir
+embarcations et agrès,agrès et embarcations 
 embarcations et autres objets de marine,embarcations et autres objets de marine
-embarcations navires marchands,
-embarcations voiles de navires,
+embarcations navires marchands,embarcations et navires marchands
+embarcations voiles de navires,embarcations et voiles de navires
 émeri,émeri
 émeri en pierres,émeri en pierres
 émeri en poudre,émeri en poudre
@@ -8018,7 +8018,7 @@ encoignement,encoignement
 encoignures,encoignures
 encoignures de bois vernissé,encoignures de bois vernissé
 encre,encre
-encre à dessiner en tablettes,
+encre à dessiner en tablettes,encre à dessiner en tablettes
 encre à ecrire,encre à écrire
 encre à écrire,encre à écrire
 encre à écrire et à imprimer,encre à écrire et à imprimer
@@ -8027,8 +8027,8 @@ encre commune,encre commune
 encre d'imprimerie,encre d'imprimerie
 encre de la Chine,encre de la Chine
 encre de la petite vertu,encre de la petite vertu
-encre de nankin,
-encre liquide à écrire ou à imprimer,
+encre de nankin,encre de nankin
+encre liquide à écrire ou à imprimer,encre liquide à écrire ou à imprimer
 encre pour imprimeur,encre d'imprimerie
 encre rouge,encre rouge
 endives,endives
@@ -8041,10 +8041,10 @@ engrais en court fumier,engrais en court fumier
 engrais en fourelle,engrais en fournelle
 engrais en fumier de rue,engrais en fumier de rue
 engrais en pourette,engrais en pourette
-engrais fumier colombine poudrette etc,
+engrais fumier colombine poudrette etc,engrais
 engrais gru,engrais gru
-engrais raclures de pieds de mouton,
-engrais sans indication d'espèce,
+engrais raclures de pieds de mouton,raclures de pieds de mouton
+engrais sans indication d'espèce,engrais
 entenolles,entenolles
 épagnolette,espagnolette
 épagnolette simple,épagnolette simple
@@ -8074,13 +8074,13 @@ entenolles,entenolles
 épice douce,épicerie douce
 épicerie,épicerie
 épicerie cannelle,cannelle
-épicerie cannelle commune,
-épicerie cannelle de Chine,
+épicerie cannelle commune,cannelle commune
+épicerie cannelle de Chine,cannelle de Chine
 épicerie cassonade,cassonade
 épicerie chocolat,chocolat
 épicerie clous de girofle,clous de girofle
 épicerie commune,épicerie commune
-épicerie corail de jardin,
+épicerie corail de jardin,corail de jardin
 épicerie diverse,épicerie
 épicerie diverses,épicerie
 épicerie douce,épicerie douce
@@ -8125,11 +8125,11 @@ entenolles,entenolles
 épicerie réunie,épicerie
 épicerie sirop mélasse,sirop mélasse
 épicerie sucre en pain sorti avec prime,sucre en pain sorti avec prime
-épices,
-épices préparées,
-épices préparées autres que moutarde sauces épicées,
-épices préparées autres que moutardes poudre de kari,
-épices préparées moutarde (farine ou confection de),
+épices,épices
+épices préparées,épices préparées
+épices préparées autres que moutarde sauces épicées,épices préparées autres que moutarde et sauces épicées
+épices préparées autres que moutardes poudre de kari,épices préparées autres que moutarde et poudre de kari
+épices préparées moutarde (farine ou confection de),moutarde
 epinelle,epinelle
 épines à planter,épines à planter
 épinettes,épinettes
@@ -8145,7 +8145,7 @@ epiterie,epiterie
 éponges et tournesol,éponges et tournesol
 éponges fines,éponges fines
 éponges fines et communes,éponges communes et fines
-éponges grosses,
+éponges grosses,éponges grosses
 epousterie,épousterie
 éprouvette de cuivre,éprouvette de cuivre
 equeurs,equeurs
@@ -8156,29 +8156,29 @@ ergots de caret,ergots de caret
 escabelles,escabelles
 escabilles,escabilles
 escamitte,escamitte
-escamotte,
-escaralles,
+escamotte,escamotte
+escaralles,escaralles
 escarasse,escarasse
 escargots,escargots
 escargots et crekels,escargots et crekels
 escarpins,escarpins
 escarpins de chambre,escarpins de chambre
 escayolles,escayolles
-esclapes,
-esclapes de bois,
+esclapes,esclapes
+esclapes de bois,esclapes de bois
 esco,esco
 escope,escope
-escopes,
+escopes,escope
 escortines,escortines
-escortines d'espars,
+escortines d'espars,escortines d’espars
 escosses,escosses
-escots,
+escots,escots
 escots de fer,escots de fer
 escrabille,escarbille
 espadrilles,espadrilles
 espagnolette,espagnolette
 espagnolette à fleurs,espagnolette à fleurs
-espagnolette aune,
+espagnolette aune,espagnolette
 espagnolette croisée,espagnolette croisée
 espagnolette de laine,espagnolette de laine
 espagnolette des prises,espagnolette des prises
@@ -8197,12 +8197,12 @@ espars de 20 à 22 pieds,espars de 20 à 22 pieds
 espars de 20 à 25 pieds,espars de 20 à 25 pieds
 espars de 20 à 26 pieds,espars de 20 à 26 pieds
 espars de 20 à 30 pieds,espars de 20 à 30 pieds
-espars de 20 pièces,
+espars de 20 pièces,espars de 20 pieds
 espars de 20 pieds,espars de 20 pieds
 espars de 24 à 36 pieds,espars de 24 à 36 pieds
 espars de 25 à 26 pieds,espars de 25 à 26 pieds
 espars de 25 à 30 pieds,espars de 25 à 30 pieds
-espars de 25 pieds,
+espars de 25 pieds,espars de 25 à 30 pieds 
 espars de 26 à 28 pieds,espars de 26 à 28 pieds
 espars de 26 pieds,espars de 26 pieds
 espars de 27 pieds de long,espars de 27 pieds
@@ -8217,7 +8217,7 @@ espars de 40 à 45 piés,espars de 40 à 45 pieds
 espars de 40 à 50 pieds,espars de 40 à 50 pieds
 espars de 40 pieds,espars de 40 pieds
 espars de 45 pieds,espars de 45 pieds
-espars de 5 à 6 pieds,
+espars de 5 à 6 pieds,espars de 5 à 6 pieds 
 espars de 55 pieds,espars de 55 pieds
 espars de 8 à 9 pieds,espars de 8 à 9 pieds
 espars de différente longueur,espars de différente longueur
@@ -8226,7 +8226,7 @@ espars de sapin,espars de sapin
 espars de sapin de 15 pieds,espars de sapin de 15 pieds
 espars de sapin de 18 pieds,espars de sapin de 18 pieds
 espars de sapin de 20 pieds,espars de sapin de 20 pieds
-espars de sapin de 24 pieds,
+espars de sapin de 24 pieds,espars de sapin de 24 pieds
 espars de sapin de 25 pieds,espars de sapin de 25 pieds
 espars de sapin de 30 pieds,espars de sapin de 30 pieds
 espars de sapin de 45 pieds,espars de sapin de 45 pieds
@@ -8238,8 +8238,8 @@ espars petits,espars petits
 espars simple,espars simple
 espars simples,espars simples
 espèce monnayée ???,espèce monnayée ???
-espèces médicinales fruits à dénommer,
-espèces médicinales fruits divers et graines,
+espèces médicinales fruits à dénommer,fruits à dénommer
+espèces médicinales fruits divers et graines,fruits divers et graines
 espingole,espingole
 esponton,esponton
 esprit,esprit
@@ -8250,7 +8250,7 @@ esprit de citron,esprit de citron
 esprit de coclearia,esprit de coclearia
 esprit de corne de cerf,esprit de corne de cerf
 esprit de coton,esprit de coton
-esprit de feuilles d'orange,
+esprit de feuilles d'orange,esprit de feuilles d’orange
 esprit de fil,esprit de fil
 esprit de fleurs d'orange,esprit de fleurs d'orange
 esprit de lavande,esprit de lavande
@@ -8269,31 +8269,31 @@ esprots,esprots
 esprots fumés,esprots fumés
 espuirie,espuirie
 esquine,esquine
-essandoles,
+essandoles,essandoles
 essence,essence
-essence aromatique,
+essence aromatique,essence aromatique
 essence au bruit aromatique,essence au bruit aromatique
 essence d'anis,essence d'anis
 essence de bergamote,essence de bergamote
 essence de cannelle,essence de cannelle
 essence de cendre de bois,essence de cendre de bois
 essence de citron,essence de citron
-essence de fleur d'orange,
+essence de fleur d'orange,essence de fleur d’orange
 essence de girofle,essence de girofle
 essence de jasmin,essence de jasmin
 essence de limon,essence de limon
 essence de muscade,essence de muscade
 essence de paruce,essence de paruce
-essence de pommade,
+essence de pommade,essence de pommade
 essence de rose,essence de rose
 essence de térébenthine,essence de térébenthine
 essence de thyn,essence de thym
 essence de vitriol,essence de vitriol
 essence diverse,essence
-essence et huile de térébenthine,essence et huile de thérébenthine
+essence et huile de térébenthine,essence et huile de térébenthine
 essence et pommade,essence et pommade
 essence odoriférante,essence odoriférante
-essence ou esprit de citron,
+essence ou esprit de citron,essence ou esprit de citron
 essieux,essieux
 essieux à cabrouets,essieux à cabrouets
 essieux de fer,essieux de fer
@@ -8317,11 +8317,11 @@ esturgeon salé,esturgeon salé
 esturgeons,esturgeons
 étain,étain
 étain battu,étain battu
-étain battu ou laminé,
+étain battu ou laminé,étain battu ou limé
 étain brut,étain brut
-étain brut de l'Inde,
-étain brut de l'Inde des entrepôts,
-étain brut en masses saumons et ouvrages brisés,
+étain brut de l'Inde,étain brut d’Inde
+étain brut de l'Inde des entrepôts,étain brut d’Inde des entrepôts 
+étain brut en masses saumons et ouvrages brisés,étain brut en masses ouvrages brisés et saumons
 étain d'Angleterre,étain d'Angleterre
 étain de glaces,étain de glaces
 étain de j ???,étain de j ???
@@ -8348,7 +8348,7 @@ esturgeons,esturgeons
 étain ouvré,ouvrages d'étain
 étain pour glaces,étain pour glaces
 étain pour soudure,étain pour soudure
-étain rouge,
+étain rouge,étain rouge
 étain seringues,étain seringues
 étain vieux,étain vieux
 étais en bois,étais en bois
@@ -8356,7 +8356,7 @@ etalchasse,etalchasse
 étame,étame
 étame des prises,étame des prises
 étamette,étamette
-étamette aune,
+étamette aune,étamette
 étamette dauphine casinettes,étamette dauphine casinettes
 étamette dauphine casinettes aune,étamette dauphine casinettes aune
 étamine,étamine
@@ -8371,7 +8371,7 @@ etalchasse,etalchasse
 étamine burail,étamine burail
 étamine d'Agen,étamine d'Agen
 étamine d'Allemagne,étamine d'Allemagne
-étamine d'Allemagne aune,
+étamine d'Allemagne aune,étamine d’Allemagne 
 étamine d'Amiens,étamine d'Amiens
 étamine d'Auvergne,étamine d'Auvergne
 étamine de Acims,étamine de Acims
@@ -8384,19 +8384,19 @@ etalchasse,etalchasse
 étamine de Rouen,étamine de Rouen
 étamine des prises,étamine des prises
 étamine du Mans,étamine du Mans
-étamine du Mans aune,
+étamine du Mans aune,étamine du Mans
 étamine du pays,étamine du pays
 étamine laine,étamine de laine
 étamine laine et soie,étamine de laine et de soie
 étamine Maine,étamine Maine
 étamine mi soie,étamine mi soie
 étamine ouvrée,étamine ouvrée
-étamine piquée de soie,
+étamine piquée de soie,étamine piquée de soie
 étamine rayée,étamine rayée
 étamine soie et laine,étamine de laine et de soie
 étamine virée,étamine virée
 étampes,étampes
-étampes de chanvre,
+étampes de chanvre,étampes de chanvre
 etatchasse,etatchasse
 étaux de fer,étaux de fer
 etaya,etaya
@@ -8404,7 +8404,7 @@ etaya,etaya
 etendelle,etendelle
 etocs,etocs
 etocs de fer,etocs de fer
-étoffe,
+étoffe,étoffe
 étoffe à peu,étoffe à peu
 étoffe à peu de soie,étoffe à peu de soie
 étoffe argent de soie,étoffe d'argent et de soie
@@ -8430,7 +8430,7 @@ etocs de fer,etocs de fer
 étoffe avec un brin de soie,étoffe avec un brin de soie
 étoffe avec vin brin de soie,étoffe avec vin brin de soie
 étoffe baracan,baracan
-étoffe barail,barail
+étoffe barail,burail
 étoffe bayette,bayette
 étoffe bayette de laine,bayette
 étoffe bayette grosse de laine,bayette grosse
@@ -8438,11 +8438,11 @@ etocs de fer,etocs de fer
 étoffe brodée et brochée,étoffe brochée et brodée
 étoffe burail,burail
 étoffe burat,burat
-étoffe cadis,
-étoffe cadot,
+étoffe cadis,cadis
+étoffe cadot,cadot
 étoffe callemande,callemande
-étoffe calmande,
-étoffe calmande de laine,
+étoffe calmande,callemande
+étoffe calmande de laine,callemande de laine
 étoffe camelot,camelot
 étoffe camelot fin,camelot fin
 étoffe camelot laine,camelot de laine
@@ -8451,17 +8451,17 @@ etocs de fer,etocs de fer
 étoffe cartignette,cartignette
 étoffe cirsaka,cirsaka
 étoffe cirsaka soie en coton,cirsaka de coton et de soie
-étoffe cordeillat,
+étoffe cordeillat,cordeillat
 étoffe coton,étoffe de coton
 étoffe coton drap,drap de coton
 étoffe coton et fil,étoffe de coton et de fil
-étoffe coton et fleuret,
-étoffe coton et laine,
+étoffe coton et fleuret,étoffe de coton et de fleuret
+étoffe coton et laine,étoffe de coton et de laine
 étoffe coton et soie,étoffe de coton et de soie
-étoffe coton velours commun,
-étoffe cotonne,
+étoffe coton velours commun,étoffe de coton et velours commun
+étoffe cotonne,étoffe cotonne
 étoffe crêpe,étoffe crêpe
-étoffe croisée,
+étoffe croisée,étoffe croisée
 étoffe d'Amiens façonnée,étoffe d'Amiens façonnée
 étoffe d'argent,étoffe d'argent
 étoffe d'étamine,étamine
@@ -8474,14 +8474,14 @@ etocs de fer,etocs de fer
 étoffe de bayette,bayette
 étoffe de bouracan,bouracan
 étoffe de bourre de soie,étoffe de bourre de soie
-étoffe de bourse de molleton,
+étoffe de bourse de molleton,bourse de molleton
 étoffe de callemande,callemande
 étoffe de camelot dite bayette,bayette
 étoffe de capiton,étoffe de capiton
 étoffe de chanvre,étoffe de chanvre
 étoffe de coton,étoffe de coton
 étoffe de coton ???,étoffe de coton ???
-étoffe de coton au quart de soie,
+étoffe de coton au quart de soie,étoffe de coton au quart de soie
 étoffe de coton brillant blanc,étoffe de coton brillant blanc
 étoffe de coton brodé,étoffe de coton brodé
 étoffe de coton cadis ratiné,cadis de coton ratiné
@@ -8492,9 +8492,9 @@ etocs de fer,etocs de fer
 étoffe de coton de laine,étoffe de coton de laine
 étoffe de coton de quart de soie,étoffe de coton de quart de soie
 étoffe de coton de velours,étoffe de coton de velours
-étoffe de coton dite printanière nankinet etc,
+étoffe de coton dite printanière nankinet etc,étoffe de coton printanière
 étoffe de coton diverse,étoffe de coton
-étoffe de coton drap,
+étoffe de coton drap,drap de coton
 étoffe de coton drap de bourbon peint,drap de bourbon peint
 étoffe de coton drap de coton,drap de coton
 étoffe de coton drap imprimé,drap de coton imprimé
@@ -8503,8 +8503,8 @@ etocs de fer,etocs de fer
 étoffe de coton en drap imprimé,drap de coton imprimé
 étoffe de coton en drap teint,drap de coton et teint
 étoffe de coton en molleton,molleton de coton
-étoffe de coton en siamoise au quart de soie,
-étoffe de coton en siamoise au sixième de soie,
+étoffe de coton en siamoise au quart de soie,siamoise de coton au quart de soie
+étoffe de coton en siamoise au sixième de soie,siamoise de coton au sixième de soie
 étoffe de coton en soie,étoffe de coton en soie
 étoffe de coton en velours,velours de coton
 étoffe de coton en velverette,velverette de coton
@@ -8517,56 +8517,56 @@ etocs de fer,etocs de fer
 étoffe de coton et mercerie,étoffe de coton et mercerie
 étoffe de coton et pellerie,étoffe de coton et pellerie
 étoffe de coton et soie,étoffe de coton et de soie
-étoffe de coton et soie éternelle,
-étoffe de coton et tapisserie,étoffe de coton tapisserie
-étoffe de coton éternelle,étoffe de coton éternelle
+étoffe de coton et soie éternelle,étoffe de coton et de soie éternelle
+étoffe de coton et tapisserie,tapisserie de coton
+étoffe de coton éternelle,éternelle de coton
 étoffe de coton futaine,futaine de coton
 étoffe de coton grannette,grannette de coton
-étoffe de coton imprimé,
-étoffe de coton mélangée,
-étoffe de coton mêlée de soie,
-étoffe de coton mi soie,
+étoffe de coton imprimé,étoffe de coton imprimé
+étoffe de coton mélangée,étoffe de coton mélangée
+étoffe de coton mêlée de soie,étoffe de coton mêlée de soie
+étoffe de coton mi soie,étoffe de coton mi soie
 étoffe de coton molleton,molleton de coton
 étoffe de coton panne,panne de coton
-étoffe de coton peint,
+étoffe de coton peint,étoffe de coton peint
 étoffe de coton satinette,satinette de coton
-étoffe de coton valvorette,
+étoffe de coton valvorette,valvorette de coton
 étoffe de coton velours,velours de coton
 étoffe de coton velours imprimé,velours de coton imprimé
-étoffe de drap de coton,
+étoffe de drap de coton,drap de coton
 étoffe de drap de soie,drap de soie
-étoffe de drap imprimé,
-étoffe de drap unie,
+étoffe de drap imprimé,drap imprimé
+étoffe de drap unie,drap uni
 étoffe de fil,étoffe de fil
 étoffe de fil au quart de soie,étoffe de fil au quart de soie
 étoffe de fil de laine,étoffe de fil de laine
 étoffe de fil et coton,étoffe de coton et de fil
 étoffe de fil et coton aune,étoffe de coton et de fil
 étoffe de fil et coton dite siamoise,siamoise de coton et de fil
-étoffe de fil et coton dite siamoise aune,
+étoffe de fil et coton dite siamoise aune,siamoise de coton et de fil
 étoffe de fil et coton en drap,drap de coton et de fil
 étoffe de fil et coton en velours,velours de coton et de fil
 étoffe de fil et de poil de chèvre,étoffe de fil et de poil de chèvre
-étoffe de fil et de poil de chèvre aune,
+étoffe de fil et de poil de chèvre aune,étoffe de fil et de poil de chèvre
 étoffe de fil et laine,étoffe de fil et de laine
 étoffe de fil et laine aune,étoffe de fil et de laine
 étoffe de fil et laine en molleton,molleton de laine
 étoffe de fil et laine en tripe,tripe de laine et de fil
 étoffe de fil et poil de chèvre,étoffe de fil et poil de chèvre
 étoffe de fil et poil de chèvre aune,étoffe de fil et poil de chèvre aune
-étoffe de fil et soie,
+étoffe de fil et soie,étoffe de fil et de soie
 étoffe de filoselle,étoffe de filoselle
-étoffe de filoselle et laine,
-étoffe de filoselle et soie,étoffe de filoselle et soie
-étoffe de filoselle popeline,
+étoffe de filoselle et laine,étoffe de filoselle et de laine
+étoffe de filoselle et soie,étoffe de filoselle et de soie
+étoffe de filoselle popeline,popeline de filoselle
 étoffe de flanelle,flanelle
 étoffe de fleuret,étoffe de fleuret
-étoffe de fleuret au brin de soie,
+étoffe de fleuret au brin de soie,étoffe de fleuret au brin de soie
 étoffe de fleuret et de coton,étoffe de coton et de fleuret
 étoffe de fleuret et de laine,étoffe de fleuret et de laine
 étoffe de fleuret et laine,étoffe de fleuret et laine
 étoffe de fleuret et soie,étoffe de fleuret et de soie
-étoffe de fleuret pure,
+étoffe de fleuret pure,étoffe de fleuret pure
 étoffe de fleurs,étoffe de fleuret
 étoffe de laine,étoffe de laine
 étoffe de laine ???,étoffe de laine ???
@@ -8574,20 +8574,20 @@ etocs de fer,etocs de fer
 étoffe de laine à fil,étoffe de laine à fil
 étoffe de laine à la valeur,étoffe de laine à la valeur
 étoffe de laine amer,amer de laine
-étoffe de laine au quart de soie,
-étoffe de laine aune,
+étoffe de laine au quart de soie,étoffe de laine au quart de soie
+étoffe de laine aune,étoffe de laine
 étoffe de laine avec dorure,étoffe de laine avec dorure
 étoffe de laine avec soie,étoffe de laine avec soie
 étoffe de laine baracan,baracan de laine
 étoffe de laine barat,barat de laine
-étoffe de laine barilleau,
+étoffe de laine barilleau,barilleau de laine
 étoffe de laine barreau,barreau de laine
 étoffe de laine bay,bayette
 étoffe de laine beche,étoffe de laine bêche
-étoffe de laine beige 309 lignes,
+étoffe de laine beige 309 lignes,étoffe de laine beige 309 lignes
 étoffe de laine Bergopzoom,Bergopzoom
 étoffe de laine bluteau,bluteau de laine
-étoffe de laine brodée en soie et dorure,
+étoffe de laine brodée en soie et dorure,étoffe de laine brodée de dorure et de soie
 étoffe de laine burail,burail de laine
 étoffe de laine burat,burat
 étoffe de laine cadeligue,cadeligue de laine
@@ -8596,8 +8596,8 @@ etocs de fer,etocs de fer
 étoffe de laine callemande étroite,callemande de laine
 étoffe de laine callemande large,callemande de laine
 étoffe de laine callemande noire,callemande de laine noire
-étoffe de laine calmande,
-étoffe de laine calmande étroite,
+étoffe de laine calmande,callemande de laine
+étoffe de laine calmande étroite,callemande étroite de laine
 étoffe de laine calmonef,callemande de laine
 étoffe de laine camelot,camelot de laine
 étoffe de laine camelot burail,camelot et burail de laine
@@ -8606,29 +8606,29 @@ etocs de fer,etocs de fer
 étoffe de laine camelot faille,camelot de laine faille
 étoffe de laine camelot large,camelot de laine large
 étoffe de laine camelot panne,camelot et panne de laine
-étoffe de laine cannelée,
-étoffe de laine casimir,
+étoffe de laine cannelée,étoffe de laine cannelée
+étoffe de laine casimir,étoffe de laine casimir
 étoffe de laine Catalogne,Catalogne de laine
 étoffe de laine châleur,étoffe de laine chaleur
-étoffe de laine chaussetterie,
-étoffe de laine cordeillat,
-étoffe de laine coton et fil,étoffe de coton et de fil et de laine
-étoffe de laine coton et fil aune,
-étoffe de laine coton et soie,
+étoffe de laine chaussetterie,chaussetterie de laine
+étoffe de laine cordeillat,cordeillat de laine
+étoffe de laine coton et fil,étoffe de coton de fil et de laine
+étoffe de laine coton et fil aune,étoffe de coton de fil et de laine
+étoffe de laine coton et soie,étoffe de coton de laine et de soie
 étoffe de laine coton fil et poil de chèvre,étoffe de coton et de fil et de laine et de poil de chèvre
 étoffe de laine coton fil et poil de chèvre aune,étoffe de coton et de fil et de laine et de poil de chèvre
 étoffe de laine couterie,étoffe de laine couterie
 étoffe de laine crêpe,étoffe de laine crêpe
-étoffe de laine crépon,
+étoffe de laine crépon,crépon de laine
 étoffe de laine dareau,dareau de laine
 étoffe de laine dauphine,dauphine
-étoffe de laine de Rome,
-étoffe de laine de soie,
-étoffe de laine de soie brodée,
-étoffe de laine de soie diverse,
-étoffe de laine de soie drap,
+étoffe de laine de Rome,étoffe de laine de Rome
+étoffe de laine de soie,étoffe de laine et de soie
+étoffe de laine de soie brodée,étoffe de laine et de soie brodée
+étoffe de laine de soie diverse,étoffe de laine et de soie diverse
+étoffe de laine de soie drap,drap de laine et de soie
 étoffe de laine dite bayette,bayette
-étoffe de laine dite burat,
+étoffe de laine dite burat,burat de laine
 étoffe de laine diverse,étoffe de laine
 étoffe de laine diverse de soie,étoffe de laine et de soie
 étoffe de laine diverse retour,étoffe de laine retour
@@ -8637,7 +8637,7 @@ etocs de fer,etocs de fer
 étoffe de laine en bluteau,bluteau de laine
 étoffe de laine en cachemire,étoffe de laine en cachemire
 étoffe de laine en callemande,callemande de laine
-étoffe de laine en calmande,
+étoffe de laine en calmande,callemande de laine
 étoffe de laine en camelot,camelot de laine
 étoffe de laine en croisé,étoffe de laine en croisé
 étoffe de laine en espagnolette croisée,espagnolette de laine croisée
@@ -8649,7 +8649,7 @@ etocs de fer,etocs de fer
 étoffe de laine en molleton imprimé,molleton de laine imprimé
 étoffe de laine en panne,panne de laine
 étoffe de laine en prunelle,prunelle de laine
-étoffe de laine en quart de soie,
+étoffe de laine en quart de soie,étoffe de laine en quart de soie
 étoffe de laine en raz de castor,étoffe de laine en raz de castor
 étoffe de laine en sarain,étoffe de laine en sarain
 étoffe de laine en satin,satin de laine
@@ -8660,121 +8660,121 @@ etocs de fer,etocs de fer
 étoffe de laine en serge diverse,serge de laine diverse
 étoffe de laine en serge imprimé,serge de laine imprimée
 étoffe de laine en serge Minorque,serge de laine Minorque
-étoffe de laine escot,
+étoffe de laine escot,escot de laine
 étoffe de laine espagnolette,espagnolette de laine
 étoffe de laine espagnolette croisée,espagnolette de laine croisée
 étoffe de laine espagnolette lisse,espagnolette de laine lisse
 étoffe de laine et coton,étoffe de coton et de laine
-étoffe de laine et fil droguet,
+étoffe de laine et fil droguet,droguet de fil et de laine 
 étoffe de laine et poil d'animal,étoffe de laine et poil
-étoffe de laine et poil d'animaux aune,
+étoffe de laine et poil d'animaux aune,étoffe de laine et poil
 étoffe de laine et soie,étoffe de laine et de soie
 étoffe de laine étamine,étamine
 étoffe de laine étamine burail,burail de laine et étamine de laine
-étoffe de laine étamine buratée,
+étoffe de laine étamine buratée,étamine buratée de laine
 étoffe de laine fabrique de Tournai,étoffe de laine fabrique de Tournai
-étoffe de laine finette,
+étoffe de laine finette,finette de laine
 étoffe de laine flanelle,flanelle de laine
-étoffe de laine flanelle 900 lignes,
-étoffe de laine flanelle imprimée,
-étoffe de laine fleuret au quart,
-étoffe de laine fleuret et soie,
+étoffe de laine flanelle 900 lignes,flanelle de laine 900 lignes
+étoffe de laine flanelle imprimée,flanelle de laine imprimée
+étoffe de laine fleuret au quart,étoffe de laine fleuret au quart
+étoffe de laine fleuret et soie,étoffe de laine fleuret et de soie
 étoffe de laine florentine,étoffe de laine florentine
 étoffe de laine frisarde,frisade de laine
 étoffe de laine frisette,frisette de laine
 étoffe de laine futaine,futaine de laine
-étoffe de laine grain d'orge,
+étoffe de laine grain d'orge,étoffe de laine grain d’orge
 étoffe de laine grisette,grisette de laine
-étoffe de laine grosse,
+étoffe de laine grosse,étoffe de laine grosse
 étoffe de laine impériale,impériale de laine
 étoffe de laine imprimée,étoffe de laine imprimée
-étoffe de laine imprimée aune,
+étoffe de laine imprimée aune,étoffe de laine imprimée
 étoffe de laine Itaine,Itaine de laine
 étoffe de laine lampareille,lampareille de laine
-étoffe de laine lanillas,
+étoffe de laine lanillas,lanillas de laine
 étoffe de laine lerfage,lerfage de laine
 étoffe de laine Maroc,étoffe de laine Maroc
-étoffe de laine mélangée de soie,
-étoffe de laine mêlée de soie,
-étoffe de laine mi-soie,
-étoffe de laine Minorque,
+étoffe de laine mélangée de soie,étoffe de laine mêlée de soie
+étoffe de laine mêlée de soie,étoffe de laine mêlée de soie
+étoffe de laine mi-soie,étoffe de laine mêlée de soie
+étoffe de laine Minorque,étoffe de laine Minorque
 étoffe de laine molleton,molleton de laine
 étoffe de laine molleton imprimé,molleton de laine imprimé
-étoffe de laine molleton taffetas,
-étoffe de laine moquette,
+étoffe de laine molleton taffetas,molleton et taffetas de laine
+étoffe de laine moquette,moquette de laine
 étoffe de laine panne,panne de laine
 étoffe de laine panne et peluches,panne de laine et peluche de laine
-étoffe de laine panne ficelée,
+étoffe de laine panne ficelée,panne de laine ficelée
 étoffe de laine passepoil,passepoil de laine
-étoffe de laine peluche,
+étoffe de laine peluche,laine en peluches
 étoffe de laine peluches,laine en peluches
 étoffe de laine perpetuanne,perpétuane de laine
 étoffe de laine perpetuaux,perpétuane de laine
 étoffe de laine pinchina,pinchinat de laine
-étoffe de laine poil camelot,
+étoffe de laine poil camelot,camelot de laine et de poil
 étoffe de laine poil et laine,étoffe de laine poil et laine
-étoffe de laine poil et laine velours,
+étoffe de laine poil et laine velours,étoffe de laine poil et laine velours
 étoffe de laine poil poil et laine,étoffe de laine poil poil et laine
 étoffe de laine pour nègre,étoffe de laine pour nègre
 étoffe de laine prunelle,prunelle de laine
-étoffe de laine prunelle burail,prunelle de laine
-étoffe de laine prunelle burat,
+étoffe de laine prunelle burail,prunelle de laine burail
+étoffe de laine prunelle burat,prunelle de laine burat
 étoffe de laine prunelle buratée,prunelle buratée de laine
 étoffe de laine prunelle étroite,prunelle de laine
 étoffe de laine prunelle raz de castor,prunelle de laine raz de castor
 étoffe de laine pure,étoffe de laine pure
 étoffe de laine pure aune,étoffe de laine pure aune
 étoffe de laine pure ou mêlée,étoffe de laine mêlée ou pure
-étoffe de laine ratine,
+étoffe de laine ratine,ratine de laine
 étoffe de laine raz de castor,étoffe de laine en raz de castor
 étoffe de laine reste,étoffe de laine reste
-étoffe de laine royale,
+étoffe de laine royale,étoffe de laine royale
 étoffe de laine russels,russel de laine
 étoffe de laine sagati,sagati de laine
 étoffe de laine sans spécification blanche,étoffe de laine blanche
 étoffe de laine sans spécification teinte,étoffe de laine teinte
-étoffe de laine sans spécification teinte aune,
-étoffe de laine sardi,
+étoffe de laine sans spécification teinte aune,étoffe de laine teinte
+étoffe de laine sardi,sardi de laine
 étoffe de laine satin,satin de laine
 étoffe de laine satin de Roubaix,satin de laine de Roubaix
 étoffe de laine satin et serge,satin de laine et serge
 étoffe de laine satin turc,satin de laine turc
-étoffe de laine satinée,
+étoffe de laine satinée,étoffe de laine satinée
 étoffe de laine satinette,satinette de laine
 étoffe de laine serge,serge de laine
 étoffe de laine serge ???,serge de laine ???
-étoffe de laine serge à doublure,
-étoffe de laine serge Aumale,serge de laine Aumale
-étoffe de laine serge Blicourt,serge de laine Blicourt
-étoffe de laine serge d'Aumale,
+étoffe de laine serge à doublure,étoffe de laine serge à doublure
+étoffe de laine serge Aumale,serge de laine d’Aumale
+étoffe de laine serge Blicourt,serge de laine de Blicourt
+étoffe de laine serge d'Aumale,serge de laine d’Aumale
 étoffe de laine serge de Rome,serge de laine de Rome
 étoffe de laine serge de Rouen,serge de laine de Rouen
 étoffe de laine serge diverse,serge de laine diverse
 étoffe de laine serge drapée,serge de laine drapée
-étoffe de laine serge en voile,serge de laine voile
+étoffe de laine serge en voile,voile de serge de laine 
 étoffe de laine serge étroite,serge de laine étroite
 étoffe de laine serge forte,serge de laine forte
 étoffe de laine serge imprimée,serge de laine imprimée
 étoffe de laine serge large,serge de laine large
 étoffe de laine serge Minorque,serge de laine Minorque
-étoffe de laine serge pour ???,serge de laine pour ???
+étoffe de laine serge pour ???,serge de laine sagati
 étoffe de laine serge sagati,serge de laine sagati
 étoffe de laine serge voile,serge de laine voile
-étoffe de laine sergette,
+étoffe de laine sergette,sergette de laine
 étoffe de laine sigle vis,sigle vis de laine
 étoffe de laine slin,slin de laine
-étoffe de laine soie et coton,
-étoffe de laine soie et dorure,
+étoffe de laine soie et coton,étoffe de coton de laine et de soie
+étoffe de laine soie et dorure,étoffe de dorure de laine et de soie
 étoffe de laine tanier,tanier de laine
 étoffe de laine teinte,étoffe de laine teinte
-étoffe de laine tirtaine,
+étoffe de laine tirtaine,tirtaine de laine
 étoffe de laine turque,étoffe de laine turque
 étoffe de laine velours d'Utrecht,étoffe de laine et de velours d'Utrecht
 étoffe de laine velverde,étoffe de laine velverde
 étoffe de laine verlastine,étoffe de laine verlastine
-étoffe de Maroc,
+étoffe de Maroc,étoffe du Maroc
 étoffe de molleton de laine,molleton de laine
-étoffe de panne,
+étoffe de panne,étoffe de panne
 étoffe de poi et laine,étoffe de laine et de poil
 étoffe de poil,étoffe de poil
 étoffe de poil allemande,allemande de poil
@@ -8784,11 +8784,11 @@ etocs de fer,etocs de fer
 étoffe de poil camelot,camelot de poil
 étoffe de poil Catalogne,Catalogne de poil
 étoffe de poil de chameau,étoffe de poil de chameau
-étoffe de poil de chameaux aune,
-étoffe de poil diverse,
+étoffe de poil de chameaux aune,étoffe de poil de chameau
+étoffe de poil diverse,étoffe de poil
 étoffe de poil en panne,panne de poil
-étoffe de poil en panne longue,panne de poil
-étoffe de poil en velours d'Utrecht,
+étoffe de poil en panne longue,panne de poil longue
+étoffe de poil en velours d'Utrecht,velours de poil d’Utrecht 
 étoffe de poil et fil,étoffe de poil et fil
 étoffe de poil et laine,étoffe de laine et poil
 étoffe de poil et laine en ???,étoffe de laine et poil
@@ -8805,21 +8805,21 @@ etocs de fer,etocs de fer
 étoffe de poil prunelle,prunelle de poil
 étoffe de poil velours,étoffe de poil et de velours
 étoffe de poil velours d'Utrecht,étoffe de poil et de velour d'Utrecht
-étoffe de prunelle,prunelle de poil
-étoffe de refoulé,
+étoffe de prunelle,étoffe de prunelle
+étoffe de refoulé,étoffe refoulée
 étoffe de riche,étoffe de riche
 étoffe de Rouen,étoffe de Rouen
 étoffe de serge,serge
-étoffe de sergette,
+étoffe de sergette,sergette
 étoffe de soie,étoffe de soie
 étoffe de soie au quart,étoffe de soie au quart
 étoffe de soie aune,étoffe de soie aune
 étoffe de soie basin brodé,basin brodé de soie
 étoffe de soie bours,bours de soie
 étoffe de soie bours du Levant,bours du Levant de soie
-étoffe de soie brochée d'or et d'argent faux,
-étoffe de soie brochée d'or et d'argent fin,
-étoffe de soie brochée de soie,
+étoffe de soie brochée d'or et d'argent faux,étoffe de soie brochée d’argent et d’or faux
+étoffe de soie brochée d'or et d'argent fin,étoffe de soie brochée d’argent et d’or fin
+étoffe de soie brochée de soie,étoffe de soie brochée de soie
 étoffe de soie brodée,étoffe de soie brodée
 étoffe de soie brodée en dorure,étoffe de soie brodée en dorure
 étoffe de soie brodée en or,étoffe de soie brodée d'or
@@ -8828,12 +8828,12 @@ etocs de fer,etocs de fer
 étoffe de soie crue,étoffe de soie crue
 étoffe de soie d'armoisin,étoffe de soie d'armoisin
 étoffe de soie d'or et d'argent faux,étoffe de soie d'or et d'argent faux
-étoffe de soie d'or et d'argent faux aune,
+étoffe de soie d'or et d'argent faux aune,étoffe de soie d'or et d'argent faux
 étoffe de soie Damas,Damas de soie
 étoffe de soie de crêpe,étoffe de soie de crêpe
 étoffe de soie de laine,étoffe de soie de laine
 étoffe de soie de lin,étoffe de soie de lin
-étoffe de soie de renvoi,
+étoffe de soie de renvoi,étoffe de soie de renvoi
 étoffe de soie de soie,étoffe de soie
 étoffe de soie de soie à fil,étoffe de soie à fil
 étoffe de soie de toute sorte,étoffe de soie
@@ -8866,24 +8866,24 @@ etocs de fer,etocs de fer
 étoffe de soie et fleuret,étoffe de fleuret et de soie
 étoffe de soie et laine,étoffe de laine et de soie
 étoffe de soie et laine en prunelle,étoffe de soie et prunelle de laine
-étoffe de soie et laine Joséphine,
-étoffe de soie et laine prunelle,
-étoffe de soie et laine serge,
+étoffe de soie et laine Joséphine,Joséphine de laine et de soie
+étoffe de soie et laine prunelle,prunelle de laine et de soie
+étoffe de soie et laine serge,serge de laine et de soie
 étoffe de soie et soierie,étoffe de soie et soierie
-étoffe de soie façonnée,
-étoffe de soie fil et coton,étoffe de coton et de fil et de soie
-étoffe de soie fil et coton aune,
-étoffe de soie laine et coton,étoffe de coton et de fil et de soie
-étoffe de soie laine et coton aune,
+étoffe de soie façonnée,étoffe de soie façonnée
+étoffe de soie fil et coton,étoffe de coton de fil et de soie
+étoffe de soie fil et coton aune,étoffe de coton de fil et de soie
+étoffe de soie laine et coton,étoffe de coton de fil et de soie
+étoffe de soie laine et coton aune,étoffe de coton de fil et de soie
 étoffe de soie lampas,lampas de soie
-étoffe de soie mêlée d'or et d'argent faux,
-étoffe de soie mêlée d'or et d'argent fin,
-étoffe de soie mêlée de coton ou de laine,
-étoffe de soie mêlée de fil,
-étoffe de soie morenine,étoffe de soie morenine
-étoffe de soie mouchoirs de soie,
+étoffe de soie mêlée d'or et d'argent faux,étoffe de soie mêlée d’argent et d’or faux 
+étoffe de soie mêlée d'or et d'argent fin,étoffe de soie mêlée d’argent et d’or fin 
+étoffe de soie mêlée de coton ou de laine,étoffe de soie mêlée de laine ou de coton 
+étoffe de soie mêlée de fil,étoffe de soie mêlée de fil
+étoffe de soie morenine,morenine de soie
+étoffe de soie mouchoirs de soie,mouchoirs de soie
 étoffe de soie or et argent,étoffe de d'argent et d'or et de soie
-étoffe de soie panine,panine de soie
+étoffe de soie panine,panne de soie
 étoffe de soie panne,panne de soie
 étoffe de soie pays étrangers,étoffe de soie pays étrangers
 étoffe de soie pièce,étoffe de soie pièce
@@ -8899,7 +8899,7 @@ etocs de fer,etocs de fer
 étoffe de soie serge,serge de soie
 étoffe de soie soucis,soucis de soie
 étoffe de soie taffetas,taffetas de soie
-étoffe de soie unie,
+étoffe de soie unie,étoffe de soie unie
 étoffe de soie velours,étoffe de velours de soie
 étoffe de soie voile,voile de soie
 étoffe de toute espèce,étoffe
@@ -8914,11 +8914,11 @@ etocs de fer,etocs de fer
 étoffe dite pauvre madame,étoffe dite pauvre madame
 étoffe dite Pékin,Pékin
 étoffe diverse,étoffe
-étoffe diverse à la valeur,
+étoffe diverse à la valeur,étoffe à la valeur
 étoffe diverse couverture et draperie pour le gouvernement,étoffe diverse couverture et draperie pour le gouvernement
 étoffe diverse de coton,étoffe de coton
 étoffe diverse de laine,étoffe de laine
-étoffe diverse de laine serge escot panne etc,
+étoffe diverse de laine serge escot panne etc,étoffe de laine
 étoffe diverse de soie,étoffe de soie
 étoffe diverse des Indes,étoffe des Indes
 étoffe diverse mêlée de soie,étoffe de soie
@@ -8930,7 +8930,7 @@ etocs de fer,etocs de fer
 étoffe dorure or et argent,étoffe dorure d'argent et d'or
 étoffe dorure or et argent faux,étoffe dorure d'argent et d'or faux
 étoffe dorure or et argent fin,étoffe dorure d'argent fin et d'or
-étoffe drap,
+étoffe drap,drap
 étoffe droguet,étoffe droguet
 étoffe droguet de soie,droguet de soie
 étoffe en bours du Levant,étoffe en bours du Levant
@@ -8943,22 +8943,22 @@ etocs de fer,etocs de fer
 étoffe en étamine,étamine
 étoffe en flanelle,flanelle
 étoffe en laine,étoffe de laine
-étoffe en laine mélangée,
+étoffe en laine mélangée,étoffe de laine mélangée
 étoffe en or,étoffe d'or
 étoffe en peluches pour nègre,étoffe de peluches pour nègre
-étoffe en quart de soie,étoffe en quart de soie
-étoffe en soie,
-étoffe en soie et rubans,
+étoffe en quart de soie,étoffe soie au quart
+étoffe en soie,étoffe de soie
+étoffe en soie et rubans,étoffe et rubans de soie
 étoffe en taffetas,étoffe de taffetas
 étoffe en velours,étoffe de velours
 étoffe en velours d'Utrecht,étoffe de velours d'Utrecht
-étoffe escot,
+étoffe escot,escot
 étoffe espagnolette,espagnolette
 étoffe espagnolette laine,espagnolette de laine
 étoffe et galon or et argent,étoffe et galon d'argent et d'or
-étoffe et ruban de soie,
+étoffe et ruban de soie,étoffe et rubans de soie
 étoffe étamine,étamine
-étoffe étamine burail,
+étoffe étamine burail,étamine burail
 étoffe étamine fine,Étoffe étamine fine
 étoffe étamine laine,étamine de laine
 étoffe éternelle,étoffe éternelle
@@ -8967,23 +8967,23 @@ etocs de fer,etocs de fer
 étoffe étrangère,étoffe étrangère
 étoffe étrangère de jude,étoffe étrangère de jude
 étoffe façonnée,étoffe façonnée
-étoffe fer en barres,
+étoffe fer en barres,étoffes et fer en barres
 étoffe fil en coton,étoffe de coton
 étoffe fil en laine,étoffe de laine
-étoffe fil et bourre de chèvre,
+étoffe fil et bourre de chèvre,étoffe de fil et bourre de chèvre
 étoffe fil et coton,étoffe de coton et de fil
 étoffe fil et coton siamois broché,étoffe brochée de coton et de fil siamois
 étoffe fil et laine,étoffe de fil et de laine
-étoffe fil et laine droguet,
-étoffe fil et laine moquette,
-étoffe fil et laine tripe,
-étoffe fil et moquette,
-étoffe fil et poil,
-étoffe fil et poil velours,
+étoffe fil et laine droguet,droguet de fil et de laine
+étoffe fil et laine moquette,moquette de fil et de laine
+étoffe fil et laine tripe,tripe de fil et de laine
+étoffe fil et moquette,étoffe de fil et moquette
+étoffe fil et poil,étoffe de fil et de poil
+étoffe fil et poil velours,velours de fil et de poil
 étoffe fil et soie,étoffe de fil et de soie
 étoffe filoselle,étoffe filoselle
 étoffe filoselle de soie,étoffe filoselle de soie
-étoffe filoselle et laine,
+étoffe filoselle et laine,étoffe filoselle et laine
 étoffe filoselle mêlée,étoffe filoselle
 étoffe finette,étoffe finette
 étoffe flamande de mauvaise qualité,étoffe flamande de mauvaise qualité
@@ -8991,25 +8991,25 @@ etocs de fer,etocs de fer
 étoffe flanelle fine,flanelle fine
 étoffe fleuret,étoffe fleuret
 étoffe fleuret et soie,étoffe fleuret et soie
-étoffe futaine,
-étoffe gants de peaux,
+étoffe futaine,futaine
+étoffe gants de peaux,gants de peau
 étoffe grosse de laine,étoffe grosse de laine
 étoffe herbes,étoffe herbes
 étoffe impériale,étoffe impériale
-étoffe kalmouk,
+étoffe kalmouk,kalmouk
 étoffe laine,étoffe de laine
-étoffe laine calmande,
+étoffe laine calmande,callemande de laine
 étoffe laine casimir,casimir de laine
 étoffe laine de soie,étoffe laine de soie
 étoffe laine en fil,étoffe de laine et de fil
 étoffe laine et coton retour,étoffe de coton et de laine retour
 étoffe laine et fil,étoffe de fil et de laine
-étoffe laine et fleuret,
+étoffe laine et fleuret,étoffe de fleuret et de laine
 étoffe laine et soie,étoffe de laine et de soie
 étoffe laine flanelle,flanelle de laine
 étoffe lampas,lampas
 étoffe manchettes,étoffe manchettes
-étoffe Maroc,
+étoffe Maroc,Maroc
 étoffe Maroc de laine,Maroc de laine
 étoffe mélangée,étoffe
 étoffe mélangée au ??? soie,étoffe mélangée au ??? soie
@@ -9044,7 +9044,7 @@ etocs de fer,etocs de fer
 étoffe mêlée coton et soie,étoffe mêlée de coton et de soie
 étoffe mêlée de coton fil de soie,étoffe de coton et de fil de soie
 étoffe mêlée de laine coton fil et de poil chameau,étoffe de coton et de fil et de laine et de poil chameau
-étoffe mêlée de laine coton fil et de poil de chameau aune,
+étoffe mêlée de laine coton fil et de poil de chameau aune,étoffe de coton et de fil et de laine et de poil chameau
 étoffe mêlée de peu de soie,étoffe à peu de soie
 étoffe mêlée de soie,étoffe de soie
 étoffe mêlée de soie ?,étoffe mêlée de soie ?
@@ -9059,7 +9059,7 @@ etocs de fer,etocs de fer
 étoffe mêlée de soie herbage,étoffe de soie herbage
 étoffe mêlée de soie mi soie,étoffe de soie mi soie
 étoffe mêlée de soie panne,panne de soie
-étoffe mêlée de soie papeline,papeline de soie
+étoffe mêlée de soie papeline,popeline de soie
 étoffe mêlée de soie peluches,étoffe mêlée de soie peluches
 étoffe mêlée de soie peu,étoffe mêlée de soie peu
 étoffe mêlée de soie siamoise,siamoise de soie
@@ -9073,7 +9073,7 @@ etocs de fer,etocs de fer
 étoffe mêlée soie et fil,étoffe mêlée de fil et de soie
 étoffe mi soie,étoffe mi soie
 étoffe mitée mi soie,étoffe mi soie
-étoffe molleton,
+étoffe molleton,molleton
 étoffe molleton capiton,molleton de capiton
 étoffe molleton de laine,molleton de laine
 étoffe moquette,moquette
@@ -9085,14 +9085,14 @@ etocs de fer,etocs de fer
 étoffe or et argent,étoffe d'argent et d'or
 étoffe or et argent en soie,étoffe d'argent d'or et de soie
 étoffe or et argent et soie,étoffe d'argent d'or et de soie
-étoffe or et argent faux,
-étoffe or et argent fin,
+étoffe or et argent faux,étoffe d’argent et d’or faux
+étoffe or et argent fin,étoffe d’argent et d’or fin
 étoffe or et soie,étoffe d'or et de soie
 étoffe or soie,étoffe d'or et de soie
 étoffe panne,panne
-étoffe panne ciselée,
-étoffe panne en poil,panne de poil
-étoffe panne imprimée,
+étoffe panne ciselée,panne ciselée
+étoffe panne en poil,panne en poil
+étoffe panne imprimée,panne imprimée
 étoffe panne laine,panne de laine
 étoffe panne poil,panne de poil
 étoffe panne poil et laine,panne de laine et de poil
@@ -9105,11 +9105,11 @@ etocs de fer,etocs de fer
 étoffe poil en panne,panne de poil
 étoffe poil en panne à long poil,étoffe poil en panne à long poil
 étoffe poil en velours,étoffe de poil et de velours
-étoffe poil et laine,étoffe poil et laine
-étoffe poil et laine baracan,
-étoffe poil et laine panne,
-étoffe poil et laine panne long poil,
-étoffe poil et laine velours d'Utrecht,
+étoffe poil et laine,étoffe de laine et de poil
+étoffe poil et laine baracan,baracan de laine et de poil
+étoffe poil et laine panne,panne de laine et de poil
+étoffe poil et laine panne long poil,panne de laine et de long poil
+étoffe poil et laine velours d'Utrecht,étoffe de poil de laine et de velours d’Utrecht
 étoffe poil panne,panne de poil
 étoffe pour talits,étoffe pour talits
 étoffe prunelle,prunelle
@@ -9117,28 +9117,28 @@ etocs de fer,etocs de fer
 étoffe prunelle de soie,prunelle de soie
 étoffe prunelle fine,prunelle fine
 étoffe prunelle laine,prunelle de laine
-étoffe prunelle mêlée de soie,
-étoffe pure brochée d'or fin,
-étoffe pure brochée de soie,
-étoffe pure façonnée,
-étoffe pure mouchoirs,
-étoffe pure unie,
-étoffe ratine,
+étoffe prunelle mêlée de soie,prunelle mêlée de soie
+étoffe pure brochée d'or fin,étoffe pure brochée d’or fin
+étoffe pure brochée de soie,étoffe pure brochée de soie
+étoffe pure façonnée,étoffe pure façonnée
+étoffe pure mouchoirs,mouchoirs 
+étoffe pure unie,étoffe pure unie
+étoffe ratine,ratine
 étoffe raz de castor,raz de castor
 étoffe riche,étoffe riche
 étoffe riche en or,étoffe riche en or
 étoffe riche en or et argent,étoffe riche en or et argent
 étoffe riche or et argent,étoffe riche or et argent
 étoffe riche ou or et argent,étoffe riche ou or et argent
-étoffe royale,
-étoffe sagati,
+étoffe royale,étoffe royale
+étoffe sagati,sagati
 étoffe sagne,sagne
 étoffe satin,satin
-étoffe satin turc,
+étoffe satin turc,satin turc
 étoffe satinette,satinette
 étoffe serge,serge
-étoffe serge ???,
-étoffe serge 1/2 Londres,
+étoffe serge ???,serge ???
+étoffe serge 1/2 Londres,serge 1/2 Londres
 étoffe serge Aumale,serge d'Aumale
 étoffe serge Aumale imprimée,serge d'Aumale imprimée
 étoffe serge Blicourt,serge Blicourt
@@ -9147,11 +9147,11 @@ etocs de fer,etocs de fer
 étoffe serge et laine,serge de laine
 étoffe serge laine,serge de laine
 étoffe serge laine noire,serge de laine noire
-étoffe serge Minorque,
+étoffe serge Minorque,serge Minorque
 étoffe siamoise au sixième de soie,siamoise au sixième de soie
 étoffe soie,étoffe de soie
 étoffe soie avec or et argent,étoffe de soie avec argent et or
-étoffe soie coton et fleuret,
+étoffe soie coton et fleuret,étoffe de coton de fleuret et de soie
 étoffe soie crêpe,étoffe soie crêpe
 étoffe soie des Indes,étoffe soie des Indes
 étoffe soie en coton dite calutras,étoffe dite calutras de coton et de soie
@@ -9165,7 +9165,7 @@ etocs de fer,etocs de fer
 étoffe soie et laine,étoffe de laine et de soie
 étoffe soie et or,étoffe d'or et de soie
 étoffe soie et or faux,étoffe d'or faux et de soie
-étoffe soie fil et coton,
+étoffe soie fil et coton,étoffe de coton et de fil
 étoffe soie or et argent,étoffe d'argent d'or et de soie
 étoffe soie soie et coton,étoffe de coton et de soie
 étoffe soie soie et or,étoffe d'or et de soie
@@ -9173,8 +9173,8 @@ etocs de fer,etocs de fer
 étoffe soierie diverses,étoffe soierie
 étoffe sur coton,étoffe de coton
 étoffe taffetas,étoffe taffetas
-étoffe tirtaine,
-étoffe tricot,étoffe tricot
+étoffe tirtaine,tirtaine
+étoffe tricot,tricot
 étoffe velours,étoffe de velours
 étoffe velours d'Utrecht,étoffe de velours d'Utrecht
 étoffe velours de coton,étoffe de velours de coton
@@ -9184,27 +9184,27 @@ etocs de fer,etocs de fer
 étoffe voile noir de laine,étoffe de laine voile noir
 étoupes,étoupes
 étoupes à calfater,étoupes à calfater
-étoupes à calfeutrer,
+étoupes à calfeutrer,étoupes à calfater
 étoupes blanches,étoupes blanches
 étoupes de chanvre,étoupes de chanvre
-étoupes de filoselle,
+étoupes de filoselle,étoupes de filoselle
 étoupes de laine,étoupes de laine
 étoupes de lin,étoupes de lin
 étoupes de soie,étoupes de soie
-étoupes de vieux cordages,
+étoupes de vieux cordages,étoupes de vieux cordages
 étoupes et cordes de lin,étoupes et cordes de lin
 étoupes noires,étoupes noires
 étriers,étriers
-étui d'or garni en burgos,
+étui d'or garni en burgos,étuis d’or en burgos
 étui de mathématique,étuis de mathématique
 étuis,étuis
 étuis à cachets,étuis à cachets
 étuis à cure-dents,étuis à cure-dents
 étuis à lunettes,étuis à lunettes
 étuis d'or,étuis d'or
-étuis de bergamote,
+étuis de bergamote,étuis de bergamote
 étuis de bois de paille et boîtes de papier,étuis de bois et étuis de paille et boîtes de papier
-étuis de carton,
+étuis de carton,étuis de carton
 étuis de chapeaux,étuis de chapeaux
 étuis de chirurgie,étuis de chirurgie
 étuis de ciseaux garnis d'argent,étuis de ciseaux garnis d'argent
@@ -9217,8 +9217,8 @@ euphorbe,euphorbe
 éventails à bâtons d'ivoire,éventails d'ivoire
 éventails à brin d'os avec écaille,éventails à brin d'os et écaille
 éventails à brins d'ivoire et écaille,éventails à brin d'ivoire et écaille
-éventails à feuilles communes,
-éventails à feuilles de soie,
+éventails à feuilles communes,éventails à feuilles communes
+éventails à feuilles de soie,éventails à feuille de soie
 éventails communs,éventails communs
 éventails d'écaille ivore et nacre,éventails d'écaille et d'ivoire et de nacre
 éventails d'ivoire,éventails d'ivoire
@@ -9231,7 +9231,7 @@ euphorbe,euphorbe
 éventails de paille,éventails de paille
 éventails de palmes,éventails de palmes
 éventails de papier,éventails de papier
-éventails de plumes,
+éventails de plumes,éventails de plume
 éventails de porcelaine,éventails de porcelaine
 éventails de taffetas,éventails de taffetas
 éventails en ivoire nacre et écaille,éventails d'écaille et d'ivoire et de nacre
@@ -9253,7 +9253,7 @@ extrait de quinquina,quinquina en extrait
 facon de crème,flacon de crème
 fagots,fagots
 faïence,faïence
-faïence assiettes assorties,
+faïence assiettes assorties,assiette de faïence assorties
 faïence commune,faïence commune
 faïence de Rouen,faïence de Rouen
 faïence de vaisselle,vaisselle de faïence
@@ -9287,9 +9287,9 @@ fanal de verre,fanal de verre
 fange de soie,fange de soie
 fanon,fanon
 fanon de baleine,fanon de baleine
-fanon de baleine apprêté,
-fanon de baleine brut,
-fanon de baleine brut de pêche étrangère,
+fanon de baleine apprêté,fanon de baleine apprêté
+fanon de baleine brut,fanon de baleine brut
+fanon de baleine brut de pêche étrangère,fanon de baleine brut de pêche étrangère
 fanon de baleine brut de pêche française,
 farces à drapier,farces à drapier
 fard rouge,
@@ -14055,10 +14055,10 @@ matières premières huile de poisson,huile de poisson
 matières premières indigo,indigo
 matières premières laine,laine
 matières premières lin,lin
-matières premières noix de galle,noix de galle
+matières premières noix de galle,noix de Galle
 matières premières pain de navettes,pain de navettes
 matières premières poil de chèvre lièvre et lapin,poil de chèvre et de lapin et de lièvre
-matières premières potasse vedasse et gravelée,potasse et gravelée et védasse
+matières premières potasse vedasse et gravelée,potasse gravelée et védasse
 matières premières rocou,rocou
 matières premières safranum,safran
 matières premières soie,soie
@@ -15222,8 +15222,8 @@ noix,noix
 noix amandes noisettes arachis olives noyaux,
 noix d'acajou,noix d'acajou
 noix de coco,noix de coco
-noix de galle,noix de galle
-noix de galle et galle légère,noix de galle
+noix de galle,noix de Galle
+noix de galle et galle légère,noix de Galle
 noix de galle légère,
 noix de galle pesante,
 noix de galle pesante des entrepôts,
@@ -15257,15 +15257,15 @@ numéraire en assignats par la Cure,numéraire en assignats par la Cure
 objets à la valeur,objets à la valeur
 objets d'arts,objets d'art
 objets d'arts et d'histoire naturelle,objets d'art et d'histoire naturelle
-objets d'arts histoire naturelle peintures et gravures,objets d'arts histoire naturelle peintures et gravures
-objets d'arts histoire naturelle tableaux et gravures,objets d'arts histoire naturelle peintures et gravures
+objets d'arts histoire naturelle peintures et gravures,peintures et gravures
+objets d'arts histoire naturelle tableaux et gravures,peintures et gravures
 objets d'histoire naturelle,
 objets d'industrie,ouvrages d'industrie
 objets d'industrie divers,ouvrages d'industrie
 objets de collection,
-objets de collection en peintures sculpture gravures et histoire naturelle,objets de collection sculpture et d'histoire naturelle et peinture et gravure
+objets de collection en peintures sculpture gravures et histoire naturelle,gravures peintures et sculptures
 objets de collection hors de commerce,
-objets de collection peintures sculpture gravures et histoire naturelle,objets de collection sculpture et d'histoire naturelle et peinture et gravure
+objets de collection peintures sculpture gravures et histoire naturelle,gravures peintures et sculptures
 objets de moindre valeur,objets de peu de valeur
 objets de peu d'importance,objets de peu d'importance
 objets de peu de valeur,objets de peu de valeur
@@ -17293,7 +17293,7 @@ peignes de coton,peignes de coton
 peignes de griffons,peignes de griffon
 peignes de tisserand,peignes de tisserand
 peignes étoffe,peignes d'étoffe
-peinture,peinture
+peinture,peintures
 peintures,peintures
 peintures à l'huile,peintures à l'huile
 peintures broyées,peintures broyées
@@ -18922,7 +18922,7 @@ pot à peinture,pots à peinture
 pot grès,pots de grès
 potache,potache
 potasse,potasse
-potasse vedasse et gravelée,gravelée et potasse et védasse
+potasse vedasse et gravelée,gravelée potasse et védasse
 poterie,poterie
 poterie à feu,poterie à feu
 poterie brique carreaux et tuiles,brique et carreaux et tuiles
@@ -19158,7 +19158,7 @@ pruneaux communs,pruneaux communs
 pruneaux d'Amont,pruneaux d'Amont
 pruneaux de Sainte-Catherine,pruneaux de Sainte-Catherine
 pruneaux et raisin sec,pruneaux et raisin sec
-pruneaux et vert-de-gris,pruneaux et vert-de-gris
+pruneaux et vert-de-gris,pruneaux et verdet
 pruneaux noirs,pruneaux noirs
 pruneaux pruneaux,pruneaux
 pruneaux prunes,pruneaux et prunes
@@ -20323,8 +20323,8 @@ sellet et télescope,sellet et télescope
 selleterie commune,selleterie commune
 sels,sels
 sels acétates d'étain,
-sels acétates de cuivre cristallisé,
-sels acétates de cuivre non cristallisé,
+sels acétates de cuivre cristallisé,verdet cristallisé
+sels acétates de cuivre non cristallisé,verdet non cristallisé
 sels acétates de fer,
 sels acétates de plomb (sel de Saturne),
 sels chromate de plomb (jaune de chrome),
@@ -21016,7 +21016,7 @@ sucre et savon,savon et sucre
 sucre et sirop,sirop et sucre
 sucre et sirop fins,sirop fins et sucre
 sucre et tabac,sucre et tabac
-sucre et vert-de-gris,sucre et vert-de-gris
+sucre et vert-de-gris,sucre et verdet
 sucre ferré,sucre ferré
 sucre fin,sucre fin
 sucre mélasse,sucre mélasse
@@ -21105,7 +21105,7 @@ suite des matières premières cochenille,cochenille
 suite des matières premières drogues diverses réunies,drogues
 suite des matières premières garance,garance
 suite des matières premières indigo,indigo
-suite des matières premières noix de galle,noix de galle
+suite des matières premières noix de galle,noix de Galle
 suite des matières premières rocou,rocou
 sulfate alun brûlé,
 sulfate d'alumine (alun autre que brûlé ou calciné),
@@ -23626,9 +23626,9 @@ verdasse,verdasse
 verde,verde
 verdes,verdes
 verdet,verdet
-verdet et vert-de-gris,verdet et vert-de-gris
-verdet gris,vert-de-gris
-verdet ou vert-de-gris,vert-de-gris
+verdet et vert-de-gris,verdet 
+verdet gris,verdet
+verdet ou vert-de-gris,verdet
 verges de cuivres,verges de cuivres
 verges de fer,verges de fer
 vergnes,vergnes
@@ -23826,8 +23826,8 @@ vert distillé,vert distillé
 vert et bleu de montagne ou minéral,
 vert moulu,vert moulu
 vert rouge,vert rouge
-vert-de-gris,vert-de-gris
-vert-de-gris et savon,savon et vert-de-gris
+vert-de-gris,verdet
+vert-de-gris et savon,savon et verdet
 vertes,vertes
 vertes et bordures,vertes et bordures
 verunes,
