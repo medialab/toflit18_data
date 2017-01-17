@@ -69,8 +69,10 @@
  predict lnPrix_predExp if e(sample)
  gen résiduExp = lnPrix_predExp - lnPrix
 
- drop if abs(résiduImp)<5 & exportsimports=="Imports"
- drop if abs(résiduExp)<5 & exportsimports=="Exports"
+ drop if abs(résiduImp)<4 & exportsimports=="Imports"
+ drop if abs(résiduImp)>5 & exportsimports=="Imports" 
+ drop if abs(résiduExp)<4 & exportsimports=="Exports"
+ drop if abs(résiduExp)>5 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
  gen ln_prix_pred = lnPrix_predImp if exportsimports=="Imports"

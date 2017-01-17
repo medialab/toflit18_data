@@ -615,7 +615,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 614,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,4,Fayance,Hollande,6058,36348,en nombre,"0,1666667",0,
 615,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,4,Fer blanc en feuilles,Hollande,1800,20,barils,90,0,
 616,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fer de fonte,Hollande,118,1180,livres,"0,1",0,
-617,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fer ouvré,Hollande,6800,400,livres,17,0,
+617,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fer ouvré,Hollande,68,400,livres,"0,17",0,
 618,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fer en plaques,Hollande,"1118,75",8950,livres,"0,125",0,
 619,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fil de fer,Hollande,"3750,5",11540,livres,"0,325",0,
 620,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1752,Imports,Bayonne,5,Fil de leton,Hollande,"2818,75",2255,livres,"1,25",0,
@@ -1905,7 +1905,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1904,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Peaux de renard,Espagne,36,24,en nombre,"1,5",0,
 1905,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Peaux de veau en poil,Espagne,2092,523,pièces,4,0,
 1906,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Peaux de veau tannées,Espagne,1520,304,pièces,5,0,
-1907,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Pierres à fusil,Espagne,690,115000,milliers,"0,006",0,
+1907,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Pierres à fusil,Espagne,690,115,milliers,"1,2",0,"Incohérence prix unitaire et coût total (prix unitaire indiqué 1,2 et prix unitaire calculé 6)"
 1908,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Pipes à fumer,Espagne,105,70,grosses,"1,5",0,
 1909,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Planches de sapin,Espagne,40,100,pièces,"0,4",0,
 1910,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-entrées.csv,Local,1758,Imports,Bayonne,3,Plomb en saumon,Espagne,"1755,6",7980,livres,"0,22",0,
@@ -3903,7 +3903,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3902,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Savon,Espagne,"3841,25",10975,livres,"0,35",0,
 3903,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Suif,Espagne,1620,4050,livres,"0,4",0,
 3904,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Tabac ; en poudre,Espagne,145,"36,25",livres,4,0,
-3905,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Tabac ; en feuille,Espagne,510,17,livres,30,0,
+3905,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Tabac ; en feuille,Espagne,510,17,,30,0,"Absence d’unité, pourrait être en quintaux"
 3906,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Toilles ; a carreau,Espagne,160,4,pièces,40,0,
 3907,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Toille ; de coton,Espagne,4590,1020,livres,"4,5",0,
 3908,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-entrées.csv,Local,1768,Imports,Bayonne,3,Toile ; de coton,Espagne,800,10,pièces,80,0,
