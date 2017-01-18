@@ -284,7 +284,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 283,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,vin tinto,Espagne,200,400,bouteilles,0.5,0,
 284,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,vermichel,Espagne,1088,5443,livres,0.2,-0.600000000000136,arrondi
 285,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,vanille,Espagne,900,50,livres,18,0,
-286,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,vermillon,Espagne,222,4444,livres,0.05,-0.200000000000017,en quintal
+286,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,vermillon,Espagne,222,4444,livres,0.05,0,"Doute sur le prix, il apparaît trop bas"
 287,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,canelle,Portugal,18000,3000,livres,6,0,
 288,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,tabac,Portugal,1207,8050,livres,0.15,-0.5,en quintal
 289,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,8,thonnine,Portugal,13,150,livres,0.09,-0.5,en quintal
@@ -452,7 +452,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 451,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,11,bois à brusler,Italie,280,,livres,0,0,marchandises en estimation
 452,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,11,cheveaux,Italie,840,7,pièces,120,0,
 453,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,citrons,Italie,31851,2123450,pièces,0.015,-0.75,en pourcentage
-454,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,citrons,Italie,42900,10725,livres,,-85800,"erreur de calcul, problème d’unité (prix en charges, quantités en livres)"
+454,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,citrons,Italie,42900,,charges,12,-85800,"erreur de calcul, problème d’unité (prix en charges, quantités en livres)"
 455,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,cedra,Italie,390,3250,livres,0.006,370.5,erreur de calcul (prix unitaire en quintal)
 456,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,chataignes seches,Italie,4280,107000,livres,0.04,0,en quintal
 457,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1739.csv,Local,1739,Imports,Marseille,12,chataignes fraiches,Italie,3360,67200,livres,0.05,0,en quintal
