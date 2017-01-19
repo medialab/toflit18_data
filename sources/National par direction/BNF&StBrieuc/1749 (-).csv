@@ -70,7 +70,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 69,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,3,Bray,Danemark,51,3,Barils,17,
 70,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,4,Canons ; de fer,Danemark,249,1660,Livres,.15,
 71,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,7,Fer ; en barres,Danemark,11743.75,93950,Livres,.13,%
-72,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,8,Gaudron,Danemark,1107,61.5,Livres,18,
+72,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,8,Gaudron,Danemark,1107,61.5,Barils,18,
 73,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,10,Manches ; de pioche,Danemark,23.7,237,Pièces,.1,
 74,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,10,Marchandises ; meslées,Danemark,5600,1,Valeur,5600,
 75,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Amiens,11,Planches ; de sapin,Danemark,139300,111440,Livres,1.25,
@@ -432,8 +432,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 431,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,7,Fer ; en léton,Suède,7392,5280,Livres,1.4,
 432,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,7,Fromage,Suède,193.5,645,Livres,.3,
 433,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,8,Gaudron,Suède,2250,90,Barils,25,
-434,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,12,Planches ; de sapin,Suède,7450,74.5,Cents,100,
-435,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,12,Planches ; de sapin,Suède,12,1,Valeur,12,
+434,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,12,Planches ; de sapin,Suède,7450,7450,Nombre,1,
+435,Laura Moutou,BNF N. Acq. 20541,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Bordeaux,12,Planches ; de sapin,Suède,12,,Valeur,,
 436,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Bourgogne,3,Anchois,Allemagne,37,37,Livres,1,
 437,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Bourgogne,4,Bas ; de soye,Allemagne,240,6,Livres,40,
 438,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Bourgogne,7,Bouchons ; de liege,Allemagne,1250,25,Milles,50,
@@ -1914,7 +1914,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1913,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,22,Fer ; en platines,Allemagne,9302.5,93025,Livres,.1,
 1914,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,22,Fer ; spaté,Allemagne,1150,10000,Livres,.12,
 1915,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,22,Fer ; en verges,Allemagne,35585,355850,Livres,.1,
-1916,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,31,Marbre ; brut,Allemagne,2160,540,Livres,4,
+1916,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,31,Marbre ; brut,Allemagne,21.60,540,Livres,0.04,"erreur dans la source, oubli de la division par 100"
 1917,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,32,Meubles ; à taillandier,Allemagne,6,1,Nombre,6,
 1918,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,34,Napes,Allemagne,320,4,Pièces,80,
 1919,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Flandre,34,Napes,Allemagne,392,98,Pièces,4,
@@ -2358,7 +2358,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2357,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,25,Futaillerie ; de Saint-Claude,Allemagne,1900,950,Livres,2,
 2358,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,26,Glüe,Allemagne,200,1,Valeur,200,
 2359,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,26,Graine ; de navette,Allemagne,255,17,Septiers,15,
-2360,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,27,Harangs ; blancs,Allemagne,5215,130.38,Livres,40,
+2360,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,27,Harangs ; blancs,Allemagne,5215,130.375,Barils,40,
 2361,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,27,Harangs ; blancs,Allemagne,3,1,Valeur,3,
 2362,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,28,Huile ; de navette,Allemagne,600,2000,Livres,.3,
 2363,Laura Moutou,Fonds Gournay - M87,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Langres,28,Huile ; d'olive,Allemagne,2132.9,3878,Livres,.55,
@@ -4112,7 +4112,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 4111,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,61,Vin ; blanc,Espagne,4.2,42,Pots,.1,
 4112,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,61,Vin ; blanc,Espagne,15,400,Livres,.0375,
 4113,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,62,Vin ; muscat,Espagne,6,1.25,Charge,0,
-4114,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,62,Vin ; rouge,Espagne,3733.1,373.31,Livres,10,arrondi
+4114,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,62,Vin ; rouge,Espagne,3733.1,373.31,Charge,10,arrondi
 4115,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,62,Vin ; rouge,Espagne,564,141,Migeres,4,
 4116,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Exports,Narbonne,62,Vin ; rouge,Espagne,21,840,Livres,.025,
 4117,Laura Moutou,Fonds Gournay - M85,National par direction/BNF&StBrieuc/1749 (-).csv,National par direction (-),1749,Imports,Narbonne,2,Ails,Espagne,4095,273,Charges,15,

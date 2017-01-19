@@ -509,7 +509,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 508,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,9,Acier,Suede,0,1131,barils,25,0,0,0
 509,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,9,Boissons,Suede,0,134,pièces,10,0,0 doute nom du produit,0
 510,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,9,Bourdilles,Suede,0,346,pièces,1.6,0,0,0
-511,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,10,Bourdillons,Suede,0,3573,livres,0.9,0,0,0
+511,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,10,Bourdillons,Suede,0,3573,en nombre,0.9,0,0,0
 512,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,10,Bray ; gras,Suede,0,2605,barils,23,0,0,0
 513,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,10,Chanvre ; crû,Suede,0,220,balles,,0,"Problème d’unité (prix en livres 0.2 la livre pesant, quantité en balles)",0
 514,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1750,Imports,Rennes,10,Clous ; de fer,Suede,0,91800,livres,0.25,0,0,0
@@ -1036,7 +1036,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1035,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,3,Acier,Danemark,0,152,barils,27,0,0,0
 1036,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Cabillauds,Danemark,0,39.5,quarts,20,0,0,0
 1037,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Cabillauds,Danemark,0,800,poignées,1,0,0,0
-1038,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Chanvre ; cru,Danemark,0,3000,livres,25,0,0,0
+1038,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Chanvre ; cru,Danemark,0,3000,livres,0.25,0,"erreur dans la source, oubli de la division par 100",0
 1039,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Huile ; de poisson,Danemark,0,8,barrils,120,0,0,0
 1040,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Matures,Danemark,0,39,pièces,100,0,0,0
 1041,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1762,Imports,Rennes,4,Morue ; seche,Danemark,0,2100,livres,0.3,0,0,0
@@ -1153,7 +1153,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1152,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Canons ; de fer ; de 3 livres,Angleterre,0,28,pièces,130,0,0,0
 1153,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Canons ; en fer ; de 2 livres,Angleterre,0,20,pièces,80,0,0,0
 1154,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Chandelle,Angleterre,0,50,caisses,10,0,0,0
-1155,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Chanvre ; crû,Angleterre,0,22000,livres,25,0,0,0
+1155,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Chanvre ; crû,Angleterre,0,22000,livres,0.25,0,"erreur dans la source, oubli de la division par 100",0
 1156,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Charbon de terre,Angleterre,0,224.75,barils,5,0,0,0
 1157,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Charbon de terre,Angleterre,0,2591,bariques,10,0,0,0
 1158,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1763,Imports,Rennes,1,Charbon de terre,Angleterre,0,1445,jutes,3,0,0,0
@@ -1584,7 +1584,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1583,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Acier,Suede,0,500,barils,25,0,0,0
 1584,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Biere,Suede,0,4,bariques,20,0,0,0
 1585,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Bray ; gras,Suede,0,43,barils,20,0,0,0
-1586,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Clous ; de fer,Suede,0,457,livres,27,0,0,0
+1586,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Clous ; de fer,Suede,0,457,livres,0.27,0,0,0
 1587,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Espars,Suede,0,59,pièces,1.5,0,0,0
 1588,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Fer ; en barres,Suede,0,326326,livres,0.15,0,0,0
 1589,Pascal Fontaine,AD 44 C716,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1764,Imports,Rennes,9,Gaudron,Suede,0,904,barils,20,0,0,0
@@ -1951,7 +1951,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1950,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en enclume,La Hollande,0,1080,livres,0.5,0,0,0
 1951,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en etaux,La Hollande,0,388,livres,0.6,0,0,0
 1952,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en fleaux,La Hollande,0,777,livres,0.5,0,0,0
-1953,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en plaques,La Hollande,0,2448,livres,9,0,0,0
+1953,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en plaques,La Hollande,0,2448,livres,0.09,0,0,0
 1954,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en poeles ; à frire,La Hollande,0,300,livres,0.35,0,0,0
 1955,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en poids,La Hollande,0,1399,livres,0.1,0,0,0
 1956,Laura Moutou,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1766,Imports,Rennes,3,Fer ; en taule,La Hollande,0,290,Feuilles,2,0,0,0
@@ -2155,7 +2155,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2154,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,3,Couvertures ; de laine,Hollande,0,15,pièces,8,0,0,0
 2155,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,3,Couvertures ; de laine ; petites,Hollande,0,128,paires,5.275,0,0,0
 2156,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Creusets,Hollande,0,128,paires,0,0,0,0
-2157,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Epicerie,Hollande,0,260,livres,0.025,0,0,0
+2157,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Epicerie,Hollande,0,260,livres,2.6,0,0,0
 2158,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Fer ; en ancres,Hollande,0,3278,livres,0.4,0,0,0
 2159,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Fer ; en barres,Hollande,0,67432,livres,2.6,0,0,0
 2160,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,4,Fer ; blanc,Hollande,0,44,barils,125.3,0,0,0
@@ -2224,7 +2224,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2223,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Amandes,Portugal,0,500,livres,0,0,0,0
 2224,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Balais,Portugal,0,44,douzaines,0.025,0,0,0
 2225,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Baume,Portugal,0,28,livres,0.3,0,0,0
-2226,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Citrons,Portugal,0,11300,pièces,1.51,0,0,0
+2226,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Citrons,Portugal,0,11300,pièces,0.01,0,0,0
 2227,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Figues,Portugal,0,10,paquets,5.5,0,0,0
 2228,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Figues,Portugal,0,194280,livres,0,0,0,0
 2229,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1767,Imports,Rennes,6,Jambon,Portugal,0,100,livres,0.0125,0,0,0
@@ -2699,7 +2699,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2698,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Beuf ; salé,Angleterre,0,27,barils,40,0,0,0
 2699,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Bois ; de campeche,Angleterre,0,42420,livres,0.09,0,0,0
 2700,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Charbon de terre,Angleterre,0,650,tonaux,30,0,0,0
-2701,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Etain ; en bloc,Angleterre,0,630,livres,0.006,0,0,0
+2701,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Etain ; en bloc,Angleterre,0,630,livres,0.9,0,0,0
 2702,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Lard,Angleterre,0,42,barils,35,0,0,0
 2703,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Plomb,Angleterre,0,288,saumons,7.9,0,0,0
 2704,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1774,Imports,Rennes,1,Plomb,Angleterre,0,680270,livres,0,0,0,0
@@ -2940,7 +2940,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2939,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Fruits ; secs,Espagne,0,620,barils,0.3,0,0,0
 2940,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Fruits ; secs,Espagne,0,1000,livres,0.3,0,0,0
 2941,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Jambon,Espagne,0,162,livres,0,0,0,0
-2942,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Laine ; d'Espagne,Espagne,0,60,livres,0.025,0,0,0
+2942,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Laine ; d'Espagne,Espagne,0,60,livres,2,0,0,0
 2943,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Lampions ; de fer,Espagne,0,262,livres,0.5,0,0,0
 2944,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Marchandises ; mêlées,Espagne,0,1,valeur,244,0,0,0
 2945,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,2,Olives,Espagne,0,20,potiches,0.25,0,0,0
@@ -3213,431 +3213,431 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3212,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1776,Imports,Rennes,10,Vin,Indes orientales,0,8,alvrames,100,0,0,0
 3213,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Bled ; seigle,Allemagne,0,58,last,250,0,0,0
 3214,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Planches ; de sapin,Allemagne,0,30,pièces,2.6666667,0,0 prix indiqué comme valant 80 pour les 30 planches,0
-3215,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Lin,Angleterre,0,35,livres,0,0,0,0
-3216,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Poil ; de beuf,Angleterre,0,2200,livres,0,0,0,0
-3217,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Tabac,Angleterre,0,174969,livres,1.5,0,0,0
-3218,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Beuf ; salé,Dannemarck,0,87250,livres,0.05,0,0,0
+3215,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Lin,Angleterre,0,35,livres,0.6,0,0,0
+3216,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Poil ; de beuf,Angleterre,0,2200,livres,0.05,0,0,0
+3217,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Tabac,Angleterre,0,174969,livres,0.9,0,0,0
+3218,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Beuf ; salé,Dannemarck,0,87250,livres,0.3,0,0,0
 3219,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Bois ; espars,Dannemarck,0,464,pièces,4,0,0,0
-3220,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Brai ; gras,Dannemarck,0,73,barils,28.3,0,0,0
+3220,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Brai ; gras,Dannemarck,0,73,barils,28,0,0,0
 3221,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Gaudron,Dannemarck,0,266,barils,33,0,0,0
-3222,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Lard ; salé,Dannemarck,0,24750,livres,0,0,0,0
+3222,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Lard ; salé,Dannemarck,0,24750,livres,0.35,0,0,0
 3223,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Materaux ; de sapin,Dannemarck,0,317,pièces,25,0,0,0
-3224,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Planches ; de sapin ; de 10 pieds,Dannemarck,0,24040,pièces,1.55,0,0,0
+3224,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,1,Planches ; de sapin ; de 10 pieds,Dannemarck,0,24040,pièces,1.2,0,0,0
 3225,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Rogues ; de stocfiche,Dannemarck,0,4686,barils,35,0,0,0
 3226,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Soliveaux,Dannemarck,0,600,pièces,8,0,0,0
-3227,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Amandes,Espagne,0,410,livres,0.0125,0,0,0
-3228,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Avirons,Espagne,0,838,pièces,0.0166667,0,0,0
-3229,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Balais ; de jonc,Espagne,0,24,douzaines,0.325,0,0,0
-3230,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Beurre,Espagne,0,250,livres,2.5,0,0,0
-3231,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Bois ; feuillard,Espagne,0,3000,pièces,1,0,0,0
-3232,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Cercles ; de bois,Espagne,0,2000,pièces,0.525,0,0,0
-3233,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Citrons,Espagne,0,36600,pièces,0,0,0,0
+3227,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Amandes,Espagne,0,410,livres,0.3,0,0,0
+3228,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Avirons,Espagne,0,838,pièces,2.5,0,0,0
+3229,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Balais ; de jonc,Espagne,0,24,douzaines,1,0,0,0
+3230,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Beurre,Espagne,0,250,livres,0.5,0,0,0
+3231,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Bois ; feuillard,Espagne,0,3000,pièces,3,0,0,0
+3232,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Cercles ; de bois,Espagne,0,2000,pièces,0.016667,0,0,0
+3233,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Citrons,Espagne,0,36600,pièces,0.025,0,0,0
 3234,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Eau de vie,Espagne,0,18,bariques,90,0,0,0
-3235,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Eau de vie,Espagne,0,12,pots,0,0,0,0
-3236,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fer ; en ancres,Espagne,0,139288,livres,0,0,0,0
-3237,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fer ; en barre,Espagne,0,964327,livres,0.9,0,0,0
-3238,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Figues,Espagne,0,60000,livres,0.25,0,0,0
-3239,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Figues,Espagne,0,100,barils,7.2,0,0,0
-3240,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fruits ; cruds,Espagne,0,1,valeur,1300.15,0,0,0
-3241,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fruits ; secs,Espagne,0,173200,livres,0.67,0,0,0
-3242,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Huile ; d'olive,Espagne,0,28,livres,0,0,0,0
-3243,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Jambon,Espagne,0,50,livres,0,0,0,0
-3244,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Laine ; d'Espagne,Espagne,0,100,livres,0.7,0,0,0
-3245,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Meules ; a taillandier,Espagne,0,1567,pièces,3.6,0,0,0
-3246,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Mines ; de plomb,Espagne,0,50,livres,2.275,0,0,0
-3247,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Nattes,Espagne,0,18,pièces,0,0,0,0
-3248,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Noisettes,Espagne,0,110,livres,0.2,0,0,0
-3249,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Olives,Espagne,0,410,livres,1.5,0,0,0
-3250,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Oranges,Espagne,0,16400,pièces,0.05,0,0,0
-3251,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Patates,Espagne,0,1273,livres,0.6,0,0,0
-3252,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Piastres,Espagne,0,3100,livres,48,0,0 48 livres le marc,0
-3253,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Pierres ; a filtrer,Espagne,0,3,pièces,24.3,0,0,0
-3254,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Raisins ; secs,Espagne,0,86240,livres,0,0,0,0
+3235,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Eau de vie,Espagne,0,12,pots,0.9,0,0,0
+3236,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fer ; en ancres,Espagne,0,139288,livres,0.275,0,0,0
+3237,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fer ; en barre,Espagne,0,964327,livres,0.2,0,0,0
+3238,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Figues,Espagne,0,60000,livres,0.15,0,0,0
+3239,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Figues,Espagne,0,100,barils,7.5,0,0,0
+3240,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fruits ; cruds,Espagne,0,1,valeur,1300,0,0,0
+3241,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Fruits ; secs,Espagne,0,173200,livres,0.17,0,0,0
+3242,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Huile ; d'olive,Espagne,0,28,livres,0.7,0,0,0
+3243,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Jambon,Espagne,0,50,livres,0.6,0,0,0
+3244,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Laine ; d'Espagne,Espagne,0,100,livres,2.25,0,0,0
+3245,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Meules ; a taillandier,Espagne,0,1567,pièces,3,0,0,0
+3246,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Mines ; de plomb,Espagne,0,50,livres,0.2,0,0,0
+3247,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Nattes,Espagne,0,18,pièces,1.5,0,0,0
+3248,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Noisettes,Espagne,0,110,livres,0.05,0,0,0
+3249,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Olives,Espagne,0,410,livres,0.6,0,0,0
+3250,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Oranges,Espagne,0,16400,pièces,0.025,0,0,0
+3251,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Patates,Espagne,0,1273,livres,0.025,0,0,0
+3252,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,2,Piastres,Espagne,0,6200,marcs,48,0,,0
+3253,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Pierres ; a filtrer,Espagne,0,3,pièces,24,0,0,0
+3254,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Raisins ; secs,Espagne,0,86240,livres,0.3,0,0,0
 3255,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Raisins ; secs,Espagne,0,200,barils,18,0,0,0
-3256,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Roseaux,Espagne,0,30925,pièces,0.312,0,0,0
+3256,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Roseaux,Espagne,0,30925,pièces,0.012,0,0,0
 3257,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Tabac ; en feuilles,Espagne,0,376286,livres,0.9,0,0,0
 3258,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Vin ; d'Espagne,Espagne,0,78.5,bariques,50,0,0,0
 3259,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Vin ; d'Espagne,Espagne,0,30,bottes,100,0,0,0
 3260,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Vin ; d'Espagne,Espagne,0,1,tierçon,36,0,0,0
 3261,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Vin ; de Rancio,Espagne,0,300,pots,3,0,0,0
 3262,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Corne ; a lanterne,Flandre Autrichienne,0,90,livres,3,0,0,0
-3263,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Fer ; blanc,Flandre Autrichienne,0,3000,livres,0,0,0,0
+3263,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Fer ; blanc,Flandre Autrichienne,0,3000,livres,0.75,0,0,0
 3264,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Instruments ; de mer,Flandre Autrichienne,0,200,livres,24,0,0,0
-3265,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Fromage,Flandre Autrichienne,0,83,livres,0.75,0,0,0
-3266,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Plomb,Flandre Autrichienne,0,71450,livres,0,0,0,0
-3267,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Quincaille,Flandre Autrichienne,0,980,livres,0.35,0,0,0
-3268,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Zinseing,Flandre Autrichienne,0,1800,livres,4.2,0,0,0
-3269,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Acier,Hollande,0,2608,livres,1,0,0,0
-3270,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Acier,Hollande,0,10,barils,52,0,0,0
-3271,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Azur,Hollande,0,3540,livres,0.35,0,0,0
-3272,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Baleine ; coupée,Hollande,0,277,livres,3.5,0,0,0
-3273,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Baume ; de copahu,Hollande,0,20,livres,2.75,0,0,0
-3274,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Beurre,Hollande,0,120,livres,0.0375,0,0,0
+3265,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Fromage,Flandre Autrichienne,0,83,livres,0.35,0,0,0
+3266,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Plomb,Flandre Autrichienne,0,71450,livres,0.2,0,0,0
+3267,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Quincaille,Flandre Autrichienne,0,980,livres,1,0,0,0
+3268,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Zinseing,Flandre Autrichienne,0,1800,livres,4,0,0,0
+3269,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Acier,Hollande,0,2608,livres,0.35,0,0,0
+3270,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Acier,Hollande,0,10,barils,52.5,0,0,0
+3271,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Azur,Hollande,0,3540,livres,0.75,0,0,0
+3272,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Baleine ; coupée,Hollande,0,277,livres,3,0,0,0
+3273,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Baume ; de copahu,Hollande,0,20,livres,2,0,0,0
+3274,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Beurre,Hollande,0,120,livres,0.5,0,0,0
 3275,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Bierre,Hollande,0,746,bariques,28,0,0,0
-3276,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Bierre,Hollande,0,56,tierçons,18.5,0,0,0
+3276,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Bierre,Hollande,0,56,tierçons,18,0,0,0
 3277,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Blanc ; de baleine,Hollande,0,20,livres,3,0,0,0
 3278,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Bled ; froment,Hollande,0,720000,livres,0.0875,0,0,0
 3279,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,3,Bled ; froment,Hollande,0,1315,last,380,0,0,0
 3280,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bled ; froment,Hollande,0,1434,sacs,19,0,0,0
 3281,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bled ; froment,Hollande,0,100,boisseaux,1.2,0,0,0
 3282,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bled ; seigle,Hollande,0,58,last,250,0,0,0
-3283,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Borax ; raffiné,Hollande,0,25,livres,4.2,0,0,0
-3284,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bois ; de fernambourg,Hollande,0,200,livres,0,0,0,0
-3285,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bois ; de sandal,Hollande,0,150,livres,0.5,0,0,0
-3286,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bouteilles ; de verre,Hollande,0,1120,livres,0.4,0,0,0
-3287,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Boutons ; de coco,Hollande,0,645,livres,0.3,0,0,0
-3288,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Camphre,Hollande,0,20,livres,4.1,0,0,0
-3289,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ceruse,Hollande,0,18,futailles,0.9,0,0,0
-3290,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Chanvre ; cru,Hollande,0,582116,livres,0.88,0,0,0
-3291,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Clous ; de geroffle,Hollande,0,738,livres,10.25,0,0,0
-3292,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Couperose,Hollande,0,13969,livres,0,0,0,0
-3293,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Creusets,Hollande,0,1,futailles,0,0,0 6 sous la pièce,0
-3294,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuirs,Hollande,0,1316,pièces,25.1,0,0,0
-3295,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuivre ; brut,Hollande,0,4672,livres,0.3,0,0,0
-3296,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuivre ; ouvré,Hollande,0,25,livres,0,0,0,0
-3297,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Eau ; de cologne,Hollande,0,12,rouleaux,5.25,0,0,0
-3298,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Epicerie,Hollande,0,544,livres,1.75,0,0,0
+3283,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Borax ; raffiné,Hollande,0,25,livres,3.5,0,0,0
+3284,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bois ; de fernambourg,Hollande,0,200,livres,0.4,0,0,0
+3285,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bois ; de sandal,Hollande,0,150,livres,0.3,0,0,0
+3286,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Bouteilles ; de verre,Hollande,0,1120,livres,0.10416667,0,0,0
+3287,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Boutons ; de coco,Hollande,0,645,livres,0.9,0,0,0
+3288,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Camphre,Hollande,0,20,livres,4.5,0,0,0
+3289,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ceruse,Hollande,0,18,futailles,0.25,0,0,0
+3290,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Chanvre ; cru,Hollande,0,582116,livres,0.38,0,0,0
+3291,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Clous ; de geroffle,Hollande,0,738,livres,10,0,0,0
+3292,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Couperose,Hollande,0,13969,livres,0.1,0,0,0
+3293,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Creusets,Hollande,0,1,futailles,60.3,0,0 6 sous la pièce,0
+3294,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuirs,Hollande,0,1316,pièces,25,0,0,0
+3295,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuivre ; brut,Hollande,0,4672,livres,1.25,0,0,0
+3296,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Cuivre ; ouvré,Hollande,0,25,livres,1.75,0,0,0
+3297,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Eau ; de cologne,Hollande,0,12,rouleaux,4,0,0,0
+3298,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Epicerie,Hollande,0,544,livres,2,0,0,0
 3299,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Epicerie,Hollande,0,1,barils,200,0,0,0
-3300,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en barres,Hollande,0,401537,livres,2,0,0,0
-3301,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; blanc,Hollande,0,1692,livres,0,0,0,0
-3302,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; blanc,Hollande,0,318,barils,120.225,0,0,0
-3303,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en enclume,Hollande,0,335,livres,0.7625,0,0,0
-3304,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; feuillard,Hollande,0,8800,livres,0,0,0,0
-3305,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; ouvré,Hollande,0,160,livres,0.25,0,0,0
-3306,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; rond,Hollande,0,12664,livres,0.275,0,0,0
-3307,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,4885,livres,0.425,0,0,0
-3308,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,90,feuilles,0.175,0,0,0
-3309,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,2,caisses,125.4,0,0,0
-3310,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en verge,Hollande,0,3070,livres,1.2625,0,0,0
+3300,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en barres,Hollande,0,401537,livres,0.2,0,0,0
+3301,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; blanc,Hollande,0,1692,livres,0.75,0,0,0
+3302,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; blanc,Hollande,0,318,barils,120,0,0,0
+3303,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en enclume,Hollande,0,335,livres,0.25,0,0,0
+3304,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; feuillard,Hollande,0,8800,livres,0.25,0,0,0
+3305,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; ouvré,Hollande,0,160,livres,0.4,0,0,0
+3306,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; rond,Hollande,0,12664,livres,0.175,0,0,0
+3307,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,4885,livres,0.4125,0,0,0
+3308,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,90,feuilles,1.25,0,0,0
+3309,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en taule,Hollande,0,2,caisses,125,0,0,0
+3310,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Fer ; en verge,Hollande,0,3070,livres,0.125,0,0,0
 3311,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ferailles,Hollande,0,9,barils,,0,"Problème d’unité (prix en livres 1 sous 6 deniers la livre pesant, quantité en barils)",0
-3312,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ferailles,Hollande,0,2,tonneaux,30.75,0,0 tonneaux de 410 livres à 1 sous 6 deniers la livre,0
-3313,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ferailles,Hollande,0,2,caisses,1.5,0,0 caisses de 200(?) à 1 sous 6 deniers la livre,0
-3314,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Feves,Hollande,0,1200,livres,0.05,0,0,0
-3315,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de fer,Hollande,0,9720,livres,0,0,0,0
-3316,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de fer,Hollande,0,1,futaille,0.05,0,0 1 futaille de 300 livres,0
-3317,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de leton,Hollande,0,2,paquets,16.6,0,0,0
-3318,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fleau ; de balance,Hollande,0,1,fleau,60.6,0,0,0
-3319,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fromage,Hollande,0,381307,livres,0,0,0,0
-3320,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fromage,Hollande,0,995,pains,0,0,0,0
+3312,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ferailles,Hollande,0,2,tonneaux,410,0,0 tonneaux de 410 livres à 1 sous 6 deniers la livre,0
+3313,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,4,Ferailles,Hollande,0,2,caisses,20,0,0 caisses de 200(?) à 1 sous 6 deniers la livre,0
+3314,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Feves,Hollande,0,1200,livres,0.0625,0,0,0
+3315,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de fer,Hollande,0,9720,livres,0.6,0,0,0
+3316,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de fer,Hollande,0,1,futaille,300,0,0 1 futaille de 300 livres à 12 sous la livre,0
+3317,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fil ; de leton,Hollande,0,2,paquets,15,0,0,0
+3318,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fleau ; de balance,Hollande,0,1,fleau,60,0,0,0
+3319,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fromage,Hollande,0,381307,livres,0.35,0,0,0
+3320,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Fromage,Hollande,0,995,pains,1.5,0,0,0
 3321,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Gaudron,Hollande,0,13,bariques,0.35,0,0 7 sous la livre,0
-3322,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Graine ; de lin,Hollande,0,104602,livres,1.65,0,0,0
-3323,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Graine ; de lin,Hollande,0,78,barils,30.35,0,0,0
+3322,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Graine ; de lin,Hollande,0,104602,livres,0.15,0,0,0
+3323,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Graine ; de lin,Hollande,0,78,barils,30,0,0,0
 3324,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Graine ; de lin,Hollande,0,182,sacs,15,0,0,0
 3325,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Harangs,Hollande,0,12,petits barils,20,0,0,0
 3326,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Horlogerie,Hollande,0,3,pendules,30,0,0,0
 3327,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de graine,Hollande,0,55,pièces,300,0,0,0
-3328,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de lin,Hollande,0,14690,livres,0,0,0,0
+3328,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de lin,Hollande,0,14690,livres,0.35,0,0,0
 3329,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de lin,Hollande,0,76,futailles,300,0,0,0
-3330,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de poisson,Hollande,0,60,futailles,315.35,0,0,0
-3331,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de vitriol,Hollande,0,100,livres,0,0,0,0
+3330,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de poisson,Hollande,0,60,futailles,315,0,0,0
+3331,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Huile ; de vitriol,Hollande,0,100,livres,0.75,0,0,0
 3332,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Jambon,Hollande,0,486,pièces,7,0,0,0
-3333,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Jambon,Hollande,0,1164,livres,0.75,0,0,0
-3334,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Indigo,Hollande,0,10,livres,7,0,0,0
-3335,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Legumes,Hollande,0,216,bales d'haricots,18.7,0,0,0
-3336,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Liqueurs,Hollande,0,125,bouteilles,3.5,0,0,0
+3333,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Jambon,Hollande,0,1164,livres,0.7,0,0,0
+3334,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Indigo,Hollande,0,10,livres,7.5,0,0,0
+3335,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Legumes,Hollande,0,216,bales d'haricots,18,0,0,0
+3336,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Liqueurs,Hollande,0,125,bouteilles,3,0,0,0
 3337,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Marchandises ; meslées,Hollande,0,1,valeur,11480,0,0,0
 3338,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Mats,Hollande,0,14,pièces,300,0,0,0
-3339,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Mercerie,Hollande,0,383,livres,0,0,0,0
+3339,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Mercerie,Hollande,0,383,livres,2,0,0,0
 3340,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Morue ; verte,Hollande,0,8,barils,40,0,0,0
-3341,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Muscade,Hollande,0,31,livres,10,0,0,0
-3342,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Nattes,Hollande,0,1408,pièces,0,0,0,0
-3343,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Noir ; de fumée,Hollande,0,15,futailles,0,0,0,0
-3344,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Orge ; mondée,Hollande,0,100,livres,0.5,0,0,0
-3345,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Papier ; blanc,Hollande,0,248,livres,0.15,0,0,0
-3346,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Papier ; blanc,Hollande,0,212,rames,6.3,0,0,0
-3347,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Papier ; gris,Hollande,0,42,rames,1.75,0,0,0
+3341,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Muscade,Hollande,0,31,livres,8,0,0,0
+3342,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Nattes,Hollande,0,1408,pièces,0.5,0,0,0
+3343,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Noir ; de fumée,Hollande,0,15,futailles,0.15,0,0,0
+3344,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Orge ; mondée,Hollande,0,100,livres,0.3,0,0,0
+3345,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Papier ; blanc,Hollande,0,248,livres,1.75,0,0,0
+3346,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,5,Papier ; blanc,Hollande,0,212,rames,6,0,0,0
+3347,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Papier ; gris,Hollande,0,42,rames,1.5,0,0,0
 3348,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Papier ; gris,Hollande,0,7,caisses,25,0,0,0
-3349,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Pates ; d'asperges,Hollande,0,4,livres,2.5,0,0,0
+3349,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Pates ; d'asperges,Hollande,0,4,livres,1.5,0,0,0
 3350,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Pierres ; a faire chaux,Hollande,0,148,tonneaux,10,0,0,0
-3351,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Piment,Hollande,0,418,livres,1.5,0,0,0
+3351,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Piment,Hollande,0,418,livres,0.5,0,0,0
 3352,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Pipes ; a fumer,Hollande,0,146,grosses,3,0,0,0
-3353,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Planches ; de sapin,Hollande,0,12069,pièces,0.5,0,0,0
-3354,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plomb ; en saumon,Hollande,0,2040,livres,0,0,0,0
-3355,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plumes,Hollande,0,1,bariques,6.2,0,0 5 livres la livre,0
-3356,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plumes,Hollande,0,1,caisses,5.2,0,0 5 livres la livre,0
-3357,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poids ; a peser,Hollande,0,19,livres,0,0,0,0
-3358,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poivre,Hollande,0,33640,livres,0,0,0,0
-3359,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poutreaux,Hollande,0,86,pièces,10.125,0,0,0
-3360,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Précipité ; rouge,Hollande,0,6,livres,11.325,0,0,0
+3353,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Planches ; de sapin,Hollande,0,12069,pièces,1.2,0,0,0
+3354,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plomb ; en saumon,Hollande,0,2040,livres,0.2,0,0,0
+3355,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plumes,Hollande,0,1,bariques,5,0,0 5 livres la livre,0
+3356,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Plumes,Hollande,0,1,caisses,5,0,0 5 livres la livre,0
+3357,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poids ; a peser,Hollande,0,19,livres,0.125,0,0,0
+3358,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poivre,Hollande,0,33640,livres,1.3,0,0,0
+3359,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Poutreaux,Hollande,0,86,pièces,10,0,0,0
+3360,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Précipité ; rouge,Hollande,0,6,livres,10,0,0,0
 3361,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Quincaille ; d'acier,Hollande,0,2525,livres,3,0,0,0
-3362,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Saucissons,Hollande,0,250,livres,0,0,0,0
-3363,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Saumon ; salé,Hollande,0,951,livres,0,0,0,0
-3364,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Sumac,Hollande,0,450,livres,0.75,0,0,0
-3365,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Tabac ; en feuilles,Hollande,0,1706037,livres,1.2,0,0,0
-3366,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Verroterie,Hollande,0,450,livres,0.15,0,0,0
-3367,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Billon,Nord,0,10,,0.9,0,0,0
+3362,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Saucissons,Hollande,0,250,livres,0.75,0,0,0
+3363,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Saumon ; salé,Hollande,0,951,livres,1.2,0,0,0
+3364,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Sumac,Hollande,0,450,livres,0.175,0,0,0
+3365,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Tabac ; en feuilles,Hollande,0,1706037,livres,0.9,0,0,0
+3366,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Verroterie,Hollande,0,450,livres,1,0,0,0
+3367,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Billon,Nord,0,10,,1.5,0,0,0
 3368,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; espars,Nord,0,240,pièces,1,0,0,0
 3369,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; de construction,Nord,0,7623,pieds,1.5,0,0 30 sous le pied cube,0
-3370,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; de construction,Nord,0,1045,pièces,31,0,,0
-3371,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; merrain,Nord,0,38300,pièces,1.5,0,,0
+3370,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; de construction,Nord,0,1045,pièces,30,0,,0
+3371,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bois ; merrain,Nord,0,38300,pièces,0.4,0,,0
 3372,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Bordage ; de sapin,Nord,0,4885,pièces,3,0,,0
-3373,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Ceruse,Nord,0,2,livres,0.4,0,,0
+3373,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Ceruse,Nord,0,2,livres,0.25,0,,0
 3374,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Chanvre ; cru,Nord,0,134,balles,250,0,,0
-3375,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Chanvre ; cru,Nord,0,121110,livres,0.25,0,,0
-3376,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Cire,Nord,0,631,livres,0,0,,0
-3377,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; jaune,Nord,0,1950,livres,0.375,0,,0
-3378,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; en planche,Nord,0,82787,livres,2,0,,0
-3379,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; rouge,Nord,0,13750,livres,1.25,0,,0
-3380,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Ecaille,Nord,0,50,livres,13.4,0,,0
-3381,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Etain,Nord,0,1069,livres,1.5,0,,0
-3382,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; blanc,Nord,0,4633,livres,0,0,,0
-3383,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; en poeles ; a frire,Nord,0,80,livres,0.9,0,,0
-3384,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fromage,Nord,0,4140,livres,0.75,0,,0
-3385,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Laine,Nord,0,13880,livres,0.35,0,,0
-3386,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Mats ; de 70 pieds,Nord,0,38,pièces,400.35,0,,0
-3387,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Matreaux,Nord,0,20,pièces,26.25,0,,0
-3388,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Noix ; vomiques,Nord,0,3087,livres,0,0,,0
+3375,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Chanvre ; cru,Nord,0,121110,livres,0.375,0,,0
+3376,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,6,Cire,Nord,0,631,livres,2,0,,0
+3377,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; jaune,Nord,0,1950,livres,1.25,0,,0
+3378,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; en planche,Nord,0,82787,livres,1.4,0,,0
+3379,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Cuivre ; rouge,Nord,0,13750,livres,1.5,0,,0
+3380,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Ecaille,Nord,0,50,livres,12,0,,0
+3381,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Etain,Nord,0,1069,livres,0.9,0,,0
+3382,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; blanc,Nord,0,4633,livres,0.75,0,,0
+3383,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; en poeles ; a frire,Nord,0,80,livres,0.35,0,,0
+3384,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fromage,Nord,0,4140,livres,0.35,0,,0
+3385,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Laine,Nord,0,13880,livres,1.25,0,,0
+3386,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Mats ; de 70 pieds,Nord,0,38,pièces,400,0,,0
+3387,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Matreaux,Nord,0,20,pièces,25,0,,0
+3388,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Noix ; vomiques,Nord,0,3087,livres,1.25,0,,0
 3389,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Peaux ; de cerf,Nord,0,31,peaux,18,0,,0
-3390,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Peaux ; de loutre,Nord,0,39,peaux,1.25,0,,0
-3391,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Peaux ; de fouines,Nord,0,51,peaux,0,0,,0
-3392,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Planches ; de sapin,Nord,0,2375,pièces,2,0,,0
-3393,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Plançons ; courbes,Nord,0,120,pièces,32,0,,0
-3394,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Plomb,Nord,0,33600,livres,1.2,0,,0
+3390,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Peaux ; de loutre,Nord,0,39,peaux,2,0,,0
+3391,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Peaux ; de fouines,Nord,0,51,peaux,2,0,,0
+3392,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Planches ; de sapin,Nord,0,2375,pièces,1.2,0,,0
+3393,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Plançons ; courbes,Nord,0,120,pièces,30,0,,0
+3394,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Plomb,Nord,0,33600,livres,0.2,0,,0
 3395,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Poutres ; de chêne ; de 30 pieds,Nord,0,12,pièces,42,0,,0
-3396,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Poutres ; de sapin ; de 30 pieds,Nord,0,10995,pièces,30.2,0,,0
+3396,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Poutres ; de sapin ; de 30 pieds,Nord,0,10995,pièces,30,0,,0
 3397,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Soliveaux,Nord,0,3656,pièces,8,0,,0
-3398,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Tabac,Nord,0,121437,livres,0.025,0,,0
-3399,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Therebentine,Nord,0,17038,livres,0,0,,0
-3400,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Ris,Nord,0,7316,livres,0.9,0,,0
-3401,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Chanvre ; cru,Russie,0,939563,livres,0.25,0,,0
-3402,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; en barres,Russie,0,231964,livres,0.2,0,,0
-3403,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; quarré,Russie,0,20,paquets,9.375,0,,0
-3404,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Nattes,Russie,0,250,pièces,0.15,0,,0
-3405,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Planches ; de sapin,Russie,0,36,pièces,0,0,,0
-3406,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Acier,Suede,0,5856,livres,0.5,0,,0
-3407,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Espars,Suede,0,304,pièces,1.225,0,,0
-3408,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bray,Suede,0,239,barils,35.35,0,,0
-3409,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cuivre ; brut,Suede,0,478,livres,1,0,,0
-3410,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cuivre ; en monnoye,Suede,0,150,livres,0,0,0 prix suivant la valeur,0
-3411,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en barre,Suede,0,790700,livres,1.25,0,,0
-3412,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en taule,Suede,0,4300,livres,0,0,,0
-3413,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Gaudron,Suede,0,1458,barils,33.15,0,,0
-3414,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Mats ; grands,Suede,0,252,pièces,400.4,0,,0
+3398,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Tabac,Nord,0,121437,livres,0.9,0,,0
+3399,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Therebentine,Nord,0,17038,livres,0.25,0,,0
+3400,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Ris,Nord,0,7316,livres,0.2,0,,0
+3401,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Chanvre ; cru,Russie,0,939563,livres,0.375,0,,0
+3402,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; en barres,Russie,0,231964,livres,0.175,0,,0
+3403,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Fer ; quarré,Russie,0,20,paquets,9,0,,0
+3404,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Nattes,Russie,0,250,pièces,0.5,0,,0
+3405,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,7,Planches ; de sapin,Russie,0,36,pièces,1.2,0,,0
+3406,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Acier,Suede,0,5856,livres,0.35,0,,0
+3407,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Espars,Suede,0,304,pièces,1,0,,0
+3408,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bray,Suede,0,239,barils,35,0,,0
+3409,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cuivre ; brut,Suede,0,478,livres,1.25,0,,0
+3410,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cuivre ; en monnoye,Suede,0,150,livres,,0,0 prix suivant la valeur,0
+3411,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en barre,Suede,0,790700,livres,0.175,0,,0
+3412,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en taule,Suede,0,4300,livres,0.4,0,,0
+3413,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Gaudron,Suede,0,1458,barils,33,0,,0
+3414,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Mats ; grands,Suede,0,252,pièces,400,0,,0
 3415,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Mats ; de chaloupe,Suede,0,17,pièces,15,0,,0
-3416,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Matreaux,Suede,0,140,pièces,25.025,0,,0
-3417,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Planches ; de sapin,Suede,0,38824,pièces,0,0,,0
-3418,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Planches ; de pin,Suede,0,4069,pièces,0,0,,0
-3419,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; de campêche,Etats unis de l'amerique,0,77158,livres,1.3,0,,0
-3420,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; merain,Etats unis de l'amerique,0,7300,livres,0.8,0,,0
-3421,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; rouge,Etats unis de l'amerique,0,17600,livres,0,0,,0
-3422,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cire ; jaune,Etats unis de l'amerique,0,30,livres,0.05,0,,0
-3423,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en potin,Etats unis de l'amerique,0,12,tonneaux,200.2,0,,0
-3424,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Indigo,Etats unis de l'amerique,0,96785,livres,6,0,,0
-3425,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Morue ; seche,Etats unis de l'amerique,0,13000,livres,0,0,,0
+3416,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Matreaux,Suede,0,140,pièces,25,0,,0
+3417,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Planches ; de sapin,Suede,0,38824,pièces,1.2,0,,0
+3418,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Planches ; de pin,Suede,0,4069,pièces,0.8,0,,0
+3419,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; de campêche,Etats unis de l'amerique,0,77158,livres,0.1,0,,0
+3420,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; merain,Etats unis de l'amerique,0,7300,livres,0.075,0,,0
+3421,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Bois ; rouge,Etats unis de l'amerique,0,17600,livres,0.2,0,,0
+3422,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Cire ; jaune,Etats unis de l'amerique,0,30,livres,2,0,,0
+3423,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Fer ; en potin,Etats unis de l'amerique,0,12,tonneaux,200,0,,0
+3424,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Indigo,Etats unis de l'amerique,0,96785,livres,4,0,,0
+3425,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Morue ; seche,Etats unis de l'amerique,0,13000,livres,0.3,0,,0
 3426,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Peaux ; de cerf,Etats unis de l'amerique,0,183,peaux,18,0,,0
-3427,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Pelleterie,Etats unis de l'amerique,0,5,futailles,0.3,0,0 prix indiqué comme inappréciable,0
-3428,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Ris,Etats unis de l'amerique,0,134248,livres,0,0,,0
+3427,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Pelleterie,Etats unis de l'amerique,0,5,futailles,,0,0 prix indiqué comme inappréciable,0
+3428,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Ris,Etats unis de l'amerique,0,134248,livres,0.2,0,,0
 3429,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Soye ; cruë,Etats unis de l'amerique,0,66,livres,12,0,,0
-3430,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Tabac ; en feuilles,Etats unis de l'amerique,0,140,boucauds,700.2,0,,0
-3431,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Tabac ; en feuilles,Etats unis de l'amerique,0,880903,livres,0,0,,0
-3432,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Terebentine,Etats unis de l'amerique,0,17038,livres,0,0,,0
-3433,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Cacao,Isles françoises de l'Amérique,0,1678,livres,0.9,0,,0
-3434,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Caffé,Isles françoises de l'Amérique,0,802449,livres,0.25,0,,0
-3435,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Confiture,Isles françoises de l'Amérique,0,3260,livres,0.45,0,,0
-3436,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Coton ; en laine,Isles françoises de l'Amérique,0,92825,livres,0.5,0,,0
-3437,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Indigo,Isles françoises de l'Amérique,0,4531,livres,8,0,,0
-3438,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; en saumure,Isles françoises de l'Amérique,0,8,bariques,82,0,,0
-3439,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; seche,Isles françoises de l'Amérique,0,2000,livres,0.86,0,,0
-3440,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; verte,Isles françoises de l'Amérique,0,24500,pièces,0,0,,0
-3441,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Rocou,Isles françoises de l'Amérique,0,79412,livres,0,0,,0
-3442,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Sucre ; brut,Isles françoises de l'Amérique,0,39930,livres,1.61,0,,0
-3443,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Sucre ; terré,Isles françoises de l'Amérique,0,1732978,livres,1.3,0,,0
-3444,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Bois ; merrain,Allemagne,0,2060,pièces,0,0,,0
-3445,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Gournabe ; de chesne,Allemagne,0,5220,pièces,0,0,,0
-3446,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Planches ; de sapin,Allemagne,0,12241,pièces,0.25,0,,0
-3447,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Harangs ; sors,Angleterre,0,55500,livres,0.25,0,,0
-3448,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Moruë ; seche,Angleterre,0,150000,livres,1.25,0,,0
-3449,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Avirons,Danemark,0,120,paires,0.15,0,,0
-3450,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Beuf ; salé,Danemark,0,1163,barils,60.4,0,,0
-3451,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Beurre,Danemark,0,488,barils,52.5,0,,0
+3430,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Tabac ; en feuilles,Etats unis de l'amerique,0,140,boucauds,700,0,,0
+3431,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,8,Tabac ; en feuilles,Etats unis de l'amerique,0,880903,livres,0.9,0,,0
+3432,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Terebentine,Etats unis de l'amerique,0,17038,livres,0.25,0,,0
+3433,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Cacao,Isles françoises de l'Amérique,0,1678,livres,0.45,0,,0
+3434,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Caffé,Isles françoises de l'Amérique,0,802449,livres,0.5,0,,0
+3435,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Confiture,Isles françoises de l'Amérique,0,3260,livres,1,0,,0
+3436,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Coton ; en laine,Isles françoises de l'Amérique,0,92825,livres,2,0,,0
+3437,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Indigo,Isles françoises de l'Amérique,0,4531,livres,7.5,0,,0
+3438,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; en saumure,Isles françoises de l'Amérique,0,8,bariques,80,0,,0
+3439,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; seche,Isles françoises de l'Amérique,0,2000,livres,0.36,0,,0
+3440,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Moruë ; verte,Isles françoises de l'Amérique,0,24500,pièces,1.25,0,,0
+3441,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Rocou,Isles françoises de l'Amérique,0,79412,livres,0.75,0,,0
+3442,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Sucre ; brut,Isles françoises de l'Amérique,0,39930,livres,0.36,0,,0
+3443,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1778,Imports,Rennes,9,Sucre ; terré,Isles françoises de l'Amérique,0,1732978,livres,0.55,0,,0
+3444,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Bois ; merrain,Allemagne,0,2060,pièces,0.25,0,,0
+3445,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Gournabe ; de chesne,Allemagne,0,5220,pièces,0.25,0,,0
+3446,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Planches ; de sapin,Allemagne,0,12241,pièces,1.5,0,,0
+3447,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Harangs ; sors,Angleterre,0,55500,livres,0.15,0,,0
+3448,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Moruë ; seche,Angleterre,0,150000,livres,0.4,0,,0
+3449,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Avirons,Danemark,0,120,paires,2.5,0,,0
+3450,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Beuf ; salé,Danemark,0,1163,barils,60,0,,0
+3451,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Beurre,Danemark,0,488,barils,50,0,,0
 3452,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,1,Bougie,Danemark,0,50,caisses,60,0,,0
-3453,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bois ; anspects,Danemark,0,208,pièces,0,0,,0
+3453,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bois ; anspects,Danemark,0,208,pièces,0.6,0,,0
 3454,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bois ; bordages,Danemark,0,200,pièces,7,0,,0
-3455,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bois ; esparts,Danemark,0,194,pièces,0.6,0,,0
+3455,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bois ; esparts,Danemark,0,194,pièces,1,0,,0
 3456,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bray et gaudron,Danemark,0,780,barils,30,0,,0
-3457,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bray et gaudron,Danemark,0,2000,livres,1,0,,0
+3457,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Bray et gaudron,Danemark,0,2000,livres,0.2,0,,0
 3458,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Cabillauds,Danemark,0,219,barils,60,0,,0
-3459,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Chandelle,Danemark,0,400,caisses,50.2,0,,0
-3460,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Cordages,Danemark,0,22080,livres,0,0,,0
-3461,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en barres,Danemark,0,47290,livres,0,0,,0
-3462,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Harangs ; blancs,Danemark,0,84,barils,25.4,0,,0
-3463,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Huile ; de poisson,Danemark,0,35,barils,60.2,0,,0
+3459,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Chandelle,Danemark,0,400,caisses,50,0,,0
+3460,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Cordages,Danemark,0,22080,livres,0.4,0,,0
+3461,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en barres,Danemark,0,47290,livres,0.2,0,,0
+3462,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Harangs ; blancs,Danemark,0,84,barils,25,0,,0
+3463,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Huile ; de poisson,Danemark,0,35,barils,60,0,,0
 3464,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Jambon,Danemark,0,4,bariques,200,0,0 doute nom du produit,0
 3465,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Lard,Danemark,0,302,barils,36,0,,0
 3466,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Matreaux,Danemark,0,360,pièces,30,0,,0
-3467,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Manches ; de gaffe,Danemark,0,192,pièces,0,0,,0
-3468,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Morue ; seche,Danemark,0,44100,livres,0,0,,0
-3469,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Planches ; de sapin,Danemark,0,141077,pièces,0.75,0,,0
-3470,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Pelles ; de bois,Danemark,0,168,pièces,0.4,0,,0
-3471,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Poix,Danemark,0,200,barils,21.25,0,,0
-3472,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Rogues ; de stocfiche,Danemark,0,3473,barils,50.6,0,,0
+3467,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Manches ; de gaffe,Danemark,0,192,pièces,0.75,0,,0
+3468,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Morue ; seche,Danemark,0,44100,livres,0.4,0,,0
+3469,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Planches ; de sapin,Danemark,0,141077,pièces,1.25,0,,0
+3470,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Pelles ; de bois,Danemark,0,168,pièces,0.6,0,,0
+3471,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Poix,Danemark,0,200,barils,20,0,,0
+3472,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Rogues ; de stocfiche,Danemark,0,3473,barils,50,0,,0
 3473,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Soliveaux,Danemark,0,36,pièces,15,0,,0
-3474,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Stocfiche,Danemark,0,8300,livres,0.025,0,,0
+3474,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Stocfiche,Danemark,0,8300,livres,0.3,0,,0
 3475,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Suif,Danemark,0,50,barils,40,0,,0
-3476,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Toile,Danemark,0,727,pièces,12.3,0,,0
-3477,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Avirons,Espagne,0,4000,pièces,0,0,,0
-3478,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Citrons,Espagne,0,18200,pièces,0.0041667,0,,0
-3479,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en ancres,Espagne,0,21530,livres,1.25,0,,0
-3480,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en barres,Espagne,0,429650,livres,0,0,,0
-3481,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Figues,Espagne,0,28300,livres,0.3,0,,0
-3482,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Patates,Espagne,0,100,pièces,0.2,0,,0
-3483,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Raisins ; secs,Espagne,0,92100,livres,0.2,0,,0
-3484,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Vin ; de Malaga,Espagne,0,4839,pots,0,0,,0
-3485,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Charbon de terre,Flandre Autrichienne,0,20,tonneaux,36.3,0,,0
-3486,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Fer ; blanc,Flandre Autrichienne,0,6600,livres,2,0,,0
-3487,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Planches ; de sapin,Flandre Autrichienne,0,2317,pièces,0,0,,0
-3488,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Poissons ; secs,Flandre Autrichienne,0,80,tonneaux,400.7,0,,0
-3489,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Tabac ; en feuilles,Flandre Autrichienne,0,916770,livres,1.25,0,,0
+3476,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Toile,Danemark,0,727,pièces,12,0,,0
+3477,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Avirons,Espagne,0,4000,pièces,1.25,0,,0
+3478,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Citrons,Espagne,0,18200,pièces,0.025,0,,0
+3479,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en ancres,Espagne,0,21530,livres,0.3,0,,0
+3480,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Fer ; en barres,Espagne,0,429650,livres,0.2,0,,0
+3481,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Figues,Espagne,0,28300,livres,0.2,0,,0
+3482,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,2,Patates,Espagne,0,100,pièces,0.00416667,0,,0
+3483,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Raisins ; secs,Espagne,0,92100,livres,0.3,0,,0
+3484,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Vin ; de Malaga,Espagne,0,4839,pots,2,0,,0
+3485,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Charbon de terre,Flandre Autrichienne,0,20,tonneaux,36,0,,0
+3486,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Fer ; blanc,Flandre Autrichienne,0,6600,livres,0.7,0,,0
+3487,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Planches ; de sapin,Flandre Autrichienne,0,2317,pièces,1.25,0,,0
+3488,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Poissons ; secs,Flandre Autrichienne,0,80,tonneaux,400,0,,0
+3489,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Tabac ; en feuilles,Flandre Autrichienne,0,916770,livres,1,0,,0
 3490,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Acier,Hollande,0,113,barils,50,0,,0
-3491,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Acier,Hollande,0,7135,livres,1,0,,0
-3492,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Alun,Hollande,0,4475,livres,0,0,,0
-3493,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Azur,Hollande,0,679,livres,0.5,0,,0
+3491,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Acier,Hollande,0,7135,livres,0.5,0,,0
+3492,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Alun,Hollande,0,4475,livres,0.25,0,,0
+3493,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Azur,Hollande,0,679,livres,0.8,0,,0
 3494,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Baleine ; coupée,Hollande,0,54,livres,3.25,0,,0
-3495,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bœuf ; salé,Hollande,0,1300,livres,0.8,0,,0
-3496,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bierre,Hollande,0,44,barils,14.25,0,,0
-3497,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bierre,Hollande,0,231,bariques,28.6,0,,0
-3498,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bithume ; de Judée,Hollande,0,461,livres,0,0,,0
-3499,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; billots,Hollande,0,50,pièces,0,0,,0
-3500,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; bordages,Hollande,0,7338,pièces,9,0,,0
-3501,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; esparts,Hollande,0,1239,pièces,1.5,0,,0
-3502,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; merrain,Hollande,0,33700,douelles,0,0,,0
+3495,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bœuf ; salé,Hollande,0,1300,livres,0.6,0,,0
+3496,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bierre,Hollande,0,44,barils,14,0,,0
+3497,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bierre,Hollande,0,231,bariques,28,0,,0
+3498,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bithume ; de Judée,Hollande,0,461,livres,2,0,,0
+3499,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; billots,Hollande,0,50,pièces,1.5,0,,0
+3500,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; bordages,Hollande,0,7338,pièces,7,0,,0
+3501,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; esparts,Hollande,0,1239,pièces,1,0,,0
+3502,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bois ; merrain,Hollande,0,33700,douelles,0.25,0,,0
 3503,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Boutons ; de coco,Hollande,0,165,livres,1,0,,0
-3504,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bray et gaudron,Hollande,0,1824,barils,30.25,0,,0
-3505,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bray et gaudron,Hollande,0,48000,livres,1,0,,0
-3506,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Cadenats,Hollande,0,1450,livres,0,0,,0
-3507,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Ceruze,Hollande,0,3420,livres,0.2,0,,0
-3508,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Chanvre ; cru,Hollande,0,6800,livres,2.4,0,,0
-3509,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Charbon de terre,Hollande,0,20,tonneaux,36.3,0,,0
+3504,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bray et gaudron,Hollande,0,1824,barils,30,0,,0
+3505,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Bray et gaudron,Hollande,0,48000,livres,0.2,0,,0
+3506,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Cadenats,Hollande,0,1450,livres,2,0,,0
+3507,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Ceruze,Hollande,0,3420,livres,0.3,0,,0
+3508,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Chanvre ; cru,Hollande,0,6800,livres,0.4,0,,0
+3509,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,3,Charbon de terre,Hollande,0,20,tonneaux,36,0,,0
 3510,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Chemises,Hollande,0,36,pièces,12,0,,0
-3511,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Clous ; de fer,Hollande,0,2700,livres,0,0,,0
+3511,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Clous ; de fer,Hollande,0,2700,livres,0.35,0,,0
 3512,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Cornes ; a lanterne,Hollande,0,2,bariques,500,0,,0
-3513,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Couperose,Hollande,0,9270,livres,0.35,0,,0
-3514,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Creusets,Hollande,0,1996,livres,0,0,,0
-3515,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Crin,Hollande,0,10000,livres,0.2,0,,0
-3516,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Cuivre ; en planche,Hollande,0,6012,livres,0.35,0,,0
-3517,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Drogueries,Hollande,0,1,valeur,4001.2,0,0 doute nom du produit,0
-3518,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Epicerie,Hollande,0,177,livres,3.5,0,,0
-3519,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en ancres,Hollande,0,8500,livres,0,0,,0
-3520,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en barres,Hollande,0,438393,livres,0,0,,0
-3521,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; blanc,Hollande,0,140,barils,130.3,0,,0
-3522,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; blanc,Hollande,0,15196,livres,0.2,0,,0
+3513,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Couperose,Hollande,0,9270,livres,0.2,0,,0
+3514,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Creusets,Hollande,0,1996,livres,0.35,0,,0
+3515,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Crin,Hollande,0,10000,livres,1.2,0,,0
+3516,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Cuivre ; en planche,Hollande,0,6012,livres,1.5,0,,0
+3517,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Drogueries,Hollande,0,1,valeur,4000,0,0 doute nom du produit,0
+3518,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Epicerie,Hollande,0,177,livres,2,0,,0
+3519,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en ancres,Hollande,0,8500,livres,0.3,0,,0
+3520,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en barres,Hollande,0,438393,livres,0.2,0,,0
+3521,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; blanc,Hollande,0,140,barils,130,0,,0
+3522,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; blanc,Hollande,0,15196,livres,0.8,0,,0
 3523,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en bottes,Hollande,0,670,bottes,25,0,,0
-3524,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en cercles,Hollande,0,75050,livres,0.8,0,,0
-3525,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en étocs,Hollande,0,545,livres,0,0,,0
-3526,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en fleaux,Hollande,0,410,livres,0.35,0,0 doute nom du produit,0
-3527,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; ouvré,Hollande,0,484,livres,0.5,0,,0
-3528,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en pelles,Hollande,0,11980,livres,0.6,0,,0
-3529,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en taule,Hollande,0,4830,livres,0.4,0,,0
-3530,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fromage,Hollande,0,837146,livres,0.3,0,,0
-3531,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Geroffle,Hollande,0,41,livres,10.45,0,,0
-3532,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Gournable,Hollande,0,6884,pièces,0.45,0,,0
+3524,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en cercles,Hollande,0,75050,livres,0.35,0,,0
+3525,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en étocs,Hollande,0,545,livres,0.5,0,,0
+3526,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en fleaux,Hollande,0,410,livres,0.6,0,0 doute nom du produit,0
+3527,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; ouvré,Hollande,0,484,livres,0.4,0,,0
+3528,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en pelles,Hollande,0,11980,livres,0.3,0,,0
+3529,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fer ; en taule,Hollande,0,4830,livres,0.45,0,,0
+3530,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Fromage,Hollande,0,837146,livres,0.45,0,,0
+3531,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Geroffle,Hollande,0,41,livres,10,0,,0
+3532,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Gournable,Hollande,0,6884,pièces,0.1,0,,0
 3533,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Graine ; de lin,Hollande,0,2967,sacs,15,0,,0
-3534,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Graine ; de lin,Hollande,0,105580,livres,0.1,0,,0
+3534,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Graine ; de lin,Hollande,0,105580,livres,0.15,0,,0
 3535,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Graine ; de lin,Hollande,0,74,barils,15,0,,0
-3536,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Harangs ; blancs,Hollande,0,48,barils,25.15,0,,0
+3536,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Harangs ; blancs,Hollande,0,48,barils,25,0,,0
 3537,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Huile ; de graine,Hollande,0,176,futailles,300,0,,0
-3538,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Huile ; de lin,Hollande,0,11023,livres,0,0,,0
-3539,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Jambon,Hollande,0,158,livres,0,0,,0
-3540,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Limes,Hollande,0,2223,livres,0.35,0,,0
-3541,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Marchandises ; meslées,Hollande,0,1,valeur,565.7,0,,0
-3542,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Mats ; grands,Hollande,0,274,pièces,600.7,0,0 valeur de 100 à 600 livres,0
+3538,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Huile ; de lin,Hollande,0,11023,livres,0.35,0,,0
+3539,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Jambon,Hollande,0,158,livres,0.7,0,,0
+3540,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Limes,Hollande,0,2223,livres,0.7,0,,0
+3541,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Marchandises ; meslées,Hollande,0,1,valeur,565,0,,0
+3542,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Mats ; grands,Hollande,0,274,pièces,600,0,0 valeur de 100 à 600 livres,0
 3543,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,4,Mats ; petits,Hollande,0,535,pièces,30,0,,0
-3544,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Mercerie,Hollande,0,834,livres,0,0,,0
+3544,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Mercerie,Hollande,0,834,livres,2.5,0,,0
 3545,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Mercerie,Hollande,0,1,valeur,14500,0,,0
-3546,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Mine ; de plomb,Hollande,0,3300,livres,2.5,0,,0
+3546,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Mine ; de plomb,Hollande,0,3300,livres,0.3,0,,0
 3547,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Moruë ; verte,Hollande,0,164,barils,35,0,,0
-3548,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Moulins ; a caffé,Hollande,0,612,livres,0.3,0,,0
+3548,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Moulins ; a caffé,Hollande,0,612,livres,1.5,0,,0
 3549,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Noir ; de fumée,Hollande,0,15,bariques,60,0,,0
 3550,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Papier ; blanc,Hollande,0,3213,livres,1.5,0,,0
-3551,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Piment,Hollande,0,8952,livres,0,0,,0
-3552,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Planches ; de sapin,Hollande,0,18666,pièces,1.5,0,,0
-3553,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Plumes ; a ecrire,Hollande,0,366,livres,6.5,0,,0
-3554,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poivre,Hollande,0,37223,livres,1.25,0,,0
-3555,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poix,Hollande,0,715,livres,0,0,,0
-3556,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Pommes ; de terre,Hollande,0,780,livres,1.5,0,,0
-3557,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poutres,Hollande,0,35,pièces,60.2,0,,0
-3558,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Quincaille ; de fer et acier,Hollande,0,9468,livres,0.1,0,,0
+3551,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Piment,Hollande,0,8952,livres,0.5,0,,0
+3552,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Planches ; de sapin,Hollande,0,18666,pièces,1.25,0,,0
+3553,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Plumes ; a ecrire,Hollande,0,366,livres,6,0,,0
+3554,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poivre,Hollande,0,37223,livres,1.5,0,,0
+3555,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poix,Hollande,0,715,livres,0.2,0,,0
+3556,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Pommes ; de terre,Hollande,0,780,livres,0.1,0,,0
+3557,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Poutres,Hollande,0,35,pièces,60,0,,0
+3558,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Quincaille ; de fer et acier,Hollande,0,9468,livres,1,0,,0
 3559,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Quincaille ; de fer et acier,Hollande,0,1,valeur,22200,0,,0
-3560,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Saffran,Hollande,0,6,livres,31,0,,0
+3560,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Saffran,Hollande,0,6,livres,30,0,,0
 3561,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Saumon ; salé,Hollande,0,8,tommes,120,0,,0
-3562,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Stocfiche,Hollande,0,6000,livres,0,0,,0
-3563,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Tabac ; en feuilles,Hollande,0,4047315,livres,0,0,,0
-3564,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Acier,Nord,0,1700,livres,0.3,0,,0
-3565,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; bordages,Nord,0,13326,pièces,8,0,,0
-3566,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; de chesne,Nord,0,54,courbes,12.5,0,,0
-3567,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; esparts,Nord,0,120,pièces,0,0,,0
+3562,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Stocfiche,Hollande,0,6000,livres,0.3,0,,0
+3563,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Tabac ; en feuilles,Hollande,0,4047315,livres,1,0,,0
+3564,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Acier,Nord,0,1700,livres,0.5,0,,0
+3565,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; bordages,Nord,0,13326,pièces,7,0,,0
+3566,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; de chesne,Nord,0,54,courbes,12,0,,0
+3567,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; esparts,Nord,0,120,pièces,1,0,,0
 3568,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; de construction,Nord,0,1240,pièces,12,0,,0
-3569,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; merrain,Nord,0,94585,douelles,1,0,,0
+3569,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bois ; merrain,Nord,0,94585,douelles,0.2,0,,0
 3570,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Bray et gaudron,Nord,0,40,barils,30,0,,0
-3571,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Chanvre ; cru,Nord,0,9,balles,260.2,0,,0
-3572,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Chanvre ; cru,Nord,0,175400,livres,0,0,,0
+3571,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Chanvre ; cru,Nord,0,9,balles,260,0,,0
+3572,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Chanvre ; cru,Nord,0,175400,livres,0.4,0,,0
 3573,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Chevrons,Nord,0,300,pièces,6,0,,0
-3574,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Cuivre ; en planche,Nord,0,133061,livres,0.4,0,,0
-3575,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Fer ; en barres,Nord,0,9000,livres,0,0,,0
-3576,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Gournable,Nord,0,17065,pièces,1.5,0,0 pas de prix indiqué,0
-3577,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Graine ; de lin,Nord,0,84560,livres,0.2,0,0,0
+3574,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,5,Cuivre ; en planche,Nord,0,133061,livres,1.5,0,,0
+3575,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Fer ; en barres,Nord,0,9000,livres,0.2,0,,0
+3576,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Gournable,Nord,0,17065,pièces,,0,0 pas de prix indiqué,0
+3577,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Graine ; de lin,Nord,0,84560,livres,0.15,0,0,0
 3578,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Matreaux,Nord,0,279,pièces,30,0,0,0
-3579,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de prusse,Nord,0,10660,pièces,6.15,0,0,0
-3580,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de sapin ; ordinaires,Nord,0,23280,pièces,25.025,0,"0 erreur prix, il devrait s'agir vraisemblablement de 25 livres",0
+3579,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de prusse,Nord,0,10660,pièces,6,0,0,0
+3580,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de sapin ; ordinaires,Nord,0,23280,pièces,25,0,"0 erreur prix, il devrait s'agir vraisemblablement de 25 livres",0
 3581,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de sapin ; petites,Nord,0,1425,douzaines,6,0,0,0
 3582,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Poutres,Nord,0,406,pièces,60,0,0,0
-3583,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Soliveaux,Nord,0,248,pièces,0,0,0,0
-3584,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Citrons et oranges,Portugal,0,15400,pièces,0,0,0,0
-3585,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Figues,Portugal,0,137600,livres,0.75,0,0,0
+3583,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Soliveaux,Nord,0,248,pièces,0.75,0,0,0
+3584,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Citrons et oranges,Portugal,0,15400,pièces,0.025,0,0,0
+3585,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Figues,Portugal,0,137600,livres,0.2,0,0,0
 3586,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Rozeaux,Portugal,0,3600,pièces,0.014,0,0,0
-3587,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; esparts,Russie,0,3600,pièces,0.2,0,0,0
+3587,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; esparts,Russie,0,3600,pièces,1,0,0,0
 3588,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bray et gaudron,Russie,0,2682,barils,30,0,0,0
-3589,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Chanvre ; cru,Russie,0,1460987,livres,1,0,0,0
-3590,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Fer ; en barres,Russie,0,82200,livres,0,0,0,0
-3591,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Matreaux,Russie,0,478,pièces,30.4,0,0,0
-3592,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de sapin,Russie,0,9130,pièces,0.2,0,0,0
-3593,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Toile ; a voile,Russie,0,6300,aunes,0,0,0,0
-3594,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Acier,Suede,0,746,barils,51.25,0,0,0
-3595,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Acier,Suede,0,78040,livres,1.5,0,0,0
-3596,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Alun,Suede,0,1800,livres,0,0,0,0
-3597,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; bordages,Suede,0,9170,pièces,7.5,0,0,0
-3598,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; merrain,Suede,0,1720,pièces,0.25,0,0,0
+3589,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Chanvre ; cru,Russie,0,1460987,livres,0.4,0,0,0
+3590,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Fer ; en barres,Russie,0,82200,livres,0.2,0,0,0
+3591,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Matreaux,Russie,0,478,pièces,30,0,0,0
+3592,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Planches ; de sapin,Russie,0,9130,pièces,1.25,0,0,0
+3593,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Toile ; a voile,Russie,0,6300,aunes,1.5,0,0,0
+3594,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Acier,Suede,0,746,barils,50,0,0,0
+3595,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Acier,Suede,0,78040,livres,0.5,0,0,0
+3596,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Alun,Suede,0,1800,livres,0.25,0,0,0
+3597,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; bordages,Suede,0,9170,pièces,7,0,0,0
+3598,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bois ; merrain,Suede,0,1720,pièces,0.2,0,0,0
 3599,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Bray et gaudron,Suede,0,7559,barils,30,0,0,0
-3600,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Chanvre ; cru,Suede,0,295534,livres,0.2,0,0,0
-3601,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cire ; jaune,Suede,0,164,livres,0,0,0,0
-3602,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Clous ; de fer,Suede,0,250,livres,0.4,0,0,0
-3603,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cuivre ; en feuille,Suede,0,31000,livres,2,0,0,0
-3604,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cuivre ; en planche,Suede,0,3900,livres,0.35,0,0,0
-3605,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; en barres,Suede,0,4844930,livres,1.5,0,0,0
-3606,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; blanc,Suede,0,20,barils,131.5,0,0,0
-3607,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; blanc,Suede,0,10000,livres,0.2,0,0,0
+3600,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,6,Chanvre ; cru,Suede,0,295534,livres,0.4,0,0,0
+3601,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cire ; jaune,Suede,0,164,livres,2,0,0,0
+3602,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Clous ; de fer,Suede,0,250,livres,0.35,0,0,0
+3603,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cuivre ; en feuille,Suede,0,31000,livres,1.5,0,0,0
+3604,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cuivre ; en planche,Suede,0,3900,livres,1.5,0,0,0
+3605,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; en barres,Suede,0,4844930,livres,0.05,0,0,0
+3606,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; blanc,Suede,0,20,barils,130,0,0,0
+3607,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; blanc,Suede,0,10000,livres,0.8,0,0,0
 3608,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; en taules,Suede,0,4,caisses,160,0,0,0
-3609,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; en taules,Suede,0,21407,livres,0.8,0,0,0
+3609,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; en taules,Suede,0,21407,livres,0.45,0,0,0
 3610,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Harangs ; salés,Suede,0,271,barils,25,0,0,0
-3611,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Laine,Suede,0,510,livres,0.35,0,0,0
+3611,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Laine,Suede,0,510,livres,1.5,0,0,0
 3612,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,matreaux,Suede,0,5,pièces,30,0,0,0
-3613,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Planches ; de prusse,Suede,0,1600,douzaines,73.5,0,0,0
+3613,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Planches ; de prusse,Suede,0,1600,douzaines,72,0,0,0
 3614,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Planches ; de chesne ; de sapin,Suede,0,184264,pièces,6,0,0,0
 3615,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Planches ; de sapin ; petites,Suede,0,5441,douzaines,6,0,0,0
 3616,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Poissons ; salés,Suede,0,10,douzaines,12,0,0 douzaines de petits barils,0
 3617,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Poutres,Suede,0,100,pièces,60,0,0,0
 3618,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Rogues,Suede,0,3,bariques,50,0,0,0
 3619,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Soude,Suede,0,2,barils,10,0,0,0
-3620,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; anspects,Etats unis de l'amerique,0,200,barres,0,0,0,0
+3620,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; anspects,Etats unis de l'amerique,0,200,barres,0.6,0,0,0
 3621,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; de campêche,Etats unis de l'amerique,0,9,tonneaux,200,0,0,0
-3622,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; de campêche,Etats unis de l'amerique,0,1500,livres,0.7,0,0,0
-3623,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; merrain,Etats unis de l'amerique,0,10500,douelles,0,0,0,0
-3624,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cire ; jaune,Etats unis de l'amerique,0,1190,livres,0,0,0,0
-3625,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; coulé,Etats unis de l'amerique,0,8000,livres,0.2,0,0,0
-3626,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Graine ; de lin,Etats unis de l'amerique,0,9400,livres,2.2,0,0,0
-3627,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Indigo,Etats unis de l'amerique,0,2397,livres,6.1,0,0,0
+3622,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; de campêche,Etats unis de l'amerique,0,1500,livres,0.1,0,0,0
+3623,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Bois ; merrain,Etats unis de l'amerique,0,10500,douelles,0.2,0,0,0
+3624,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Cire ; jaune,Etats unis de l'amerique,0,1190,livres,2,0,0,0
+3625,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Fer ; coulé,Etats unis de l'amerique,0,8000,livres,0.1,0,0,0
+3626,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Graine ; de lin,Etats unis de l'amerique,0,9400,livres,0.2,0,0,0
+3627,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Indigo,Etats unis de l'amerique,0,2397,livres,6,0,0,0
 3628,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,7,Pelleterie,Etats unis de l'amerique,0,4,caisses,600,0,0 prix de 5 à 600 livres,0
-3629,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Saxafras,Etats unis de l'amerique,0,710,livres,0,0,0,0
+3629,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Saxafras,Etats unis de l'amerique,0,710,livres,0.5,0,0,0
 3630,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Tabac ; en feuilles,Etats unis de l'amerique,0,1026698,livres,0.90,0,"Il est bien indiqué 90 livres la livre dans la source, mais il semble que ce soit pour 90 livres les 100 livres pesant en regardant les prix du tabac en feuilles dans les autres sources",0
-3631,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Teinture,Etats unis de l'amerique,0,2000,livres,0.5,0,0,0
+3631,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Teinture,Etats unis de l'amerique,0,2000,livres,0.3,0,0,0
 3632,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Betilles,Indes Orientales,0,1759,pièces,40,0,0,0
-3633,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Bois ; rouge,Indes Orientales,0,88070,livres,0.3,0,0,0
-3634,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Borax,Indes Orientales,0,256,livres,3,0,0,0
-3635,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Caffé ; de Bourbon,Indes Orientales,0,97576,livres,0.25,0,0,0
-3636,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Caffé ; de Moka,Indes Orientales,0,574,livres,0.5,0,0,0
-3637,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Cauris,Indes Orientales,0,23250,livres,0.9,0,0,0
-3638,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Canelle,Indes Orientales,0,7777,livres,10.8,0,0,0
-3639,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Cirsaca,Indes Orientales,0,2,pièces,51,0,0,0
+3633,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Bois ; rouge,Indes Orientales,0,88070,livres,0.25,0,0,0
+3634,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Borax,Indes Orientales,0,256,livres,3.5,0,0,0
+3635,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Caffé ; de Bourbon,Indes Orientales,0,97576,livres,0.9,0,0,0
+3636,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Caffé ; de Moka,Indes Orientales,0,574,livres,1.8,0,0,0
+3637,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Cauris,Indes Orientales,0,23250,livres,1,0,0,0
+3638,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Canelle,Indes Orientales,0,7777,livres,9,0,0,0
+3639,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Cirsaca,Indes Orientales,0,2,pièces,50,0,0,0
 3640,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Chittes,Indes Orientales,0,187,pièces,60,0,0,0
 3641,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Coton ; filé,Indes Orientales,0,58,livres,5,0,0,0
 3642,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Coton ; en laine,Indes Orientales,0,10679,livres,2,0,0,0
@@ -3645,12 +3645,12 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3644,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Doreas,Indes Orientales,0,142,pièces,80,0,0,0
 3645,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Ecaille ; de tortue,Indes Orientales,0,700,livres,8,0,0,0
 3646,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Etoffe ; de soye,Indes Orientales,0,2,pièces,150,0,0,0
-3647,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Eventail,Indes Orientales,0,2456,pièces,0,0,0,0
+3647,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Eventail,Indes Orientales,0,2456,pièces,0.75,0,0,0
 3648,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Dents de morphil,Indes Orientales,0,2015,livres,5,0,0,0
-3649,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Guinée,Indes Orientales,0,603,pièces,24.75,0,0,0
-3650,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Indigo,Indes Orientales,0,5600,livres,7,0,0,0
+3649,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Guinée,Indes Orientales,0,603,pièces,24,0,0,0
+3650,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Indigo,Indes Orientales,0,5600,livres,7.5,0,0,0
 3651,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Jonc,Indes Orientales,0,5257,pièces,3,0,0,0
-3652,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Lustrine,Indes Orientales,0,5,pièces,120.5,0,0,0
+3652,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Lustrine,Indes Orientales,0,5,pièces,120,0,0,0
 3653,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Mouchoirs ; des Indes,Indes Orientales,0,2575,pièces,40,0,0,0
 3654,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Mousseline,Indes Orientales,0,273,pièces,140,0,0,0
 3655,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,8,Nankin,Indes Orientales,0,2843,pièces,10,0,0,0
@@ -3661,7 +3661,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3660,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Soye ; Nankin,Indes Orientales,0,674,livres,35,0,0,0
 3661,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Stinkerque,Indes Orientales,0,1570,pièces,40,0,0,0
 3662,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Tarnatanes,Indes Orientales,0,600,pièces,50,0,0,0
-3663,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Thé,Indes Orientales,0,375365,livres,0,0,0,0
+3663,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Thé,Indes Orientales,0,375365,livres,1.5,0,0,0
 3664,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Toile ; de coton,Indes Orientales,0,29,pièces,26,0,0,0
-3665,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Vin ; du Cap,Indes Orientales,0,500,bouteilles,9.5,0,0,0
+3665,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Vin ; du Cap,Indes Orientales,0,500,bouteilles,8,0,0,0
 3666,Pascal Fontaine,AD 44 C717,Local/Rennes/Rennes - Entrées - 1747-1780 (-).csv,Local,1780,Imports,Rennes,9,Bamboucs,Indes Orientales,0,99,pièces,1,0,0 batons,0
