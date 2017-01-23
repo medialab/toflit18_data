@@ -52,7 +52,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 51,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Pots ; de terre,Angleterre,0,670,douzaines,1.8,-1206
 52,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Pierres ; à faulx,Angleterre,0,100,livres,0.15,-15 estimation globale de 15 livres
 53,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Pierres ; à bâtir,Angleterre,0,112,quintaux,6,-672
-54,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Pelles ; de bois,Angleterre,0,1225,livres,0.25,"-306,25"
+54,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Pelles ; de bois,Angleterre,0,1225,en nombre,0.25,"-306,25 erreur d'unité dans la source"
 55,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Ris,Angleterre,0,30,livres,0.175,"-5,25"
 56,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Raisine,Angleterre,0,100,livres,0.09,-9
 57,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,6,Rais ; à charue,Angleterre,0,3050,pièces,0.1,-305
@@ -86,9 +86,9 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 85,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Mercerie,la Hollande,0,40,livres,6,-240
 86,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Marchandises ; à l'estimation,la Hollande,0,1,valeur,781,-781
 87,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Noix,la Hollande,0,0.5,poinçons,15,"-7,5"
-88,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Œufs,la Hollande,0,13800,en nombre,1.25,-17250
+88,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Œufs,la Hollande,0,13800,en nombre,0.0125,-172.50
 89,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Pelleterie ; crue,la Hollande,0,1250,livres,1,-1250
-90,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Peaux ; de veau ; en poil,la Hollande,0,2.5,douzaines,0.75,"-1,875"
+90,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Peaux ; de veau ; en poil,la Hollande,0,30,en nombre,0.75,-15
 91,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,7,Peaux ; de parchemin,la Hollande,0,21,grosses,150,-3150
 92,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,8,Siamoise,la Hollande,0,30,livres,4,-120
 93,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Exports,Caen,8,Toile ; de lin,la Hollande,0,100,livres,12,-1200
@@ -214,7 +214,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 108,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Salpestre,Hollande,,70,livres,0.3,-21
 109,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Sumac,Hollande,,4850,livres,0.11,"-533,5"
 110,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Thé,Hollande,,52.5,livres,8,-420
-111,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Tutie,Hollande,,5,livres,0.04,"-0,2"
+111,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Tutie,Hollande,,5,livres,4,-20
 112,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Tournesol ; apresté,Hollande,,155,livres,0.9,"-139,5"
 113,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Tournesol ; en herbe,Hollande,,450,livres,0.7,-315
 114,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1730,Imports,Caen,4,Toile ; d'hollande de 15 aunes,Hollande,,22,pièces,6,-132
@@ -287,7 +287,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 163,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Plumes ; à lit,Angleterre,0,2330,livres,1.3,-3029
 164,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Papier ; à écrire,Angleterre,0,80,livres,0.35,-28
 165,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Paniers ; d'osier,Angleterre,0,55,douzaines,8,-440
-166,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Pelles ; de bois,Angleterre,0,4,cents,30,-120 il est indiqué 6 sols pièce
+166,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Pelles ; de bois,Angleterre,0,400,en nombre,0.3,-120 il est indiqué 6 sols pièce
 167,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Poix ; raisine,Angleterre,0,350,livres,0.125,"-43,75"
 168,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Poudre ; à poudrer,Angleterre,0,175,livres,0.35,"-61,25"
 169,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,8,Pots ; de terre,Angleterre,0,1220,douzaines,2,-2440
@@ -339,7 +339,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 215,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,9,Oignon ; de fleur,Portugal,0,1,valeur,600,-600
 216,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,9,Peaux ; de veau ; corroyées,Portugal,0,546,douzaines,30,-16380
 217,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,9,Toile ; de lin,Portugal,0,400,livres,12,-4800
-218,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,9,Toile ; de chanvre,Portugal,0,50,livres,60,-3000
+218,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,9,Toile ; de chanvre,Portugal,0,50,livres,60,"-3000, le prix paraît excessif"
 219,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Exports,Caen,10,Toile ; de crin,Portugal,0,120,livres,2,-240
 124,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Imports,Caen,1,Acier,Angleterre,,75,livres,0.27,"-20,25"
 125,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1732,Imports,Caen,1,Ardoises,Angleterre,,95,miliers,38,-3610
@@ -596,7 +596,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 271,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,1,Monnoye ; de cuivre,Angleterre,,300,livres,1.3,-390
 272,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,1,Minutier,Angleterre,,1,valeur,72,-72
 273,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,1,Meulles ; à taillandiers,Angleterre,,43,en nombre,6,-258 il est indiqué 6 pièces l'un dans l'autre
-274,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,2,Pipes ; à fumer,Angleterre,,69,grosses,54,-3726
+274,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,2,Pipes ; à fumer,Angleterre,,69,grosses,2.7,-186.3
 275,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,2,Plomb ; en saumons,Angleterre,,74085,livres,0.225,"-16669,125"
 276,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,2,Planches ; de sapin,Angleterre,,37,en nombre,1,-37
 277,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1738,Imports,Caen,2,Rognures ; de peau,Angleterre,,180,livres,0.125,"-22,5"
@@ -731,7 +731,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 351,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Retz ; de charue,Angleterre,912,1824,en nombre,0.5,0
 352,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Ruban ; de soye,Angleterre,100,1,valeur,100,0
 353,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Suif,Angleterre,227.5,455,livres,0.5,0
-354,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Toie ; de coton,Angleterre,6.8,34,livres,0.2,0
+354,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Toile ; de coton,Angleterre,136,34,livres,4,montant difficile à lire et total erroné
 355,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Toile ; coutil,Angleterre,676,338,livres,2,0
 356,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Toile ; de crin,Angleterre,300,60,livres,5,0
 357,Pascal Fontaine,Archives CCI Rouen Carton VIII,Local/Caen/Caen - 1730-1776 (-).csv,Local,1771,Exports,Caen,7,Toile ; d'étoupes ; de chanvre,Angleterre,11672.5,9338,livres,1.25,0

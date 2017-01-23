@@ -2,7 +2,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Amandes cassées,Espagne,0,7000,livres,"0,35",-2450,
 2,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Bas de fil,Espagne,0,48,paires,"1,5",-72,
 3,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Bas de laine,Espagne,0,132,paires,2,-264,36lt dans un 1er temps
-4,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Bas de soye,Espagne,0,855,livres,"1,75","-1496,25",40lt dans un 1er temps
+4,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Bas de soye,Espagne,0,855,livres,35,-29925,40lt dans un 1er temps
 5,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Basin,Espagne,0,1962,pièces,20,-39240,35lt dans un 1er temps
 6,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Biere,Espagne,0,10,bariques,30,-300,
 7,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,3,Bœuf en vie,Espagne,0,466,pièces,80,-37280,150 livres dans un 1er temps
@@ -52,7 +52,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 51,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,4,Draperie petite,Espagne,0,100,livres,3,-300,3 livres
 52,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,4,Droguerie,Espagne,0,320,livres,1,-320,20 sols
 53,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Eau de vie,Espagne,0,669,pipes,250,-167250,
-54,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Eau de vie,Espagne,0,100,pintes,14,-1400,
+54,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Eau de vie,Espagne,0,100,pintes,"0,7",-70,"Absence d’unité de prix, il apparaît logique que ce soit des sous"
 55,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Etoffe de soye,Espagne,0,5408,livres,40,-216320,
 56,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Etoffe et galon or et argent,Espagne,0,5024,livres,100,-502400,
 57,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1746,Exports,Bayonne,5,Etoffe or et argent,Espagne,0,7400,livres,80,-592000,
@@ -380,7 +380,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 379,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Papier à écrire,Espagne,11480,57400,livres,"0,2",0,
 380,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peaux de chamois,Espagne,"26937,5","5387,5",livres,5,0,
 381,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peaux de mouton,Espagne,4860,3240,en nombre,"1,5",0,
-382,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peaux de veau corroyées,Espagne,24060,401,en nombre,60,0,
+382,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peaux de veau corroyées,Espagne,24060,401,en nombre,60,0,prix paraissant excessif (prix à la douzaine peut-être)
 383,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peignes de buis,Espagne,2150,43,caissons,50,0,
 384,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Peignes de buis,Espagne,600,2400,livres,"0,25",0,
 385,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1747,Exports,Bayonne,4,Planches de sapin,Espagne,175,350,pièces,"0,5",0,
@@ -2677,7 +2677,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2676,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Plomb en grenaille,Isles françoises de l'Amerique,990,4500,livres,"0,22",0,
 2677,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Plume d'oye,Isles françoises de l'Amerique,"942,5",1450,livres,"0,65",0,
 2678,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Porc salé,Isles françoises de l'Amerique,75,1,barils,75,0,
-2679,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Porc salé,Isles françoises de l'Amerique,19600,2800,livres,7,0,
+2679,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Porc salé,Isles françoises de l'Amerique,980,2800,livres,"0,35",0,
 2680,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,16,Poudre à poudrer,Isles françoises de l'Amerique,125,500,livres,"0,25",0,
 2681,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,17,Quincaille,Isles françoises de l'Amerique,456,570,livres,"0,8",0,
 2682,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1754,Exports,Bayonne,17,Sardines salées,Isles françoises de l'Amerique,18,1,bariques,18,0,
@@ -4314,7 +4314,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 4313,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Vin de France,Danemark,31200,130,tonneaux,240,0,
 4314,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Agneaux,Espagne,3,2,pièces,"1,5",0,
 4315,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Amidon,Espagne,"823,75",2942,livres,"0,28","-0,01",
-4316,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Arbres à planter,Espagne,60,1,pièces,60,0,
+4316,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Arbres à planter,Espagne,60,,valeur,,0,
 4317,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Argenterie,Espagne,247950,4350,marcs,57,0,2175 livres et 1 livre poid = 2 marcs
 4318,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Asnes,Espagne,630,42,pièces,15,0,
 4319,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1759,Exports,Bayonne,1,Avirons,Espagne,1132,283,traques,4,0,
@@ -6646,7 +6646,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6645,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Chataignes,Hollande,120,40,conques,3,0,
 6646,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Eau de vie,Hollande,3520,16,pipes,220,0,
 6647,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Galipot,Hollande,2250,50000,livres,"0,045",0,
-6648,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Graine de lin,Hollande,62564,15641,livres,4,0,
+6648,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Graine de lin,Hollande,62564,15641,,4,0,Absence d’unité de quantité
 6649,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Huile terebentine,Hollande,"10897,5",108975,livres,"0,1",0,
 6650,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Jambon,Hollande,"481,25",1375,livres,"0,35",0,
 6651,Pascal Fontaine,AD 64 2 ETP 104,Local/Bayonne/Bayonne-sorties.csv,Local,1764,Exports,Bayonne,10,Laine d'Espagne,Hollande,806150,350500,livres,"2,3",0,
@@ -7007,7 +7007,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 7006,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Pelleterie apretée,Espagne,150,1,valeur,150,0,
 7007,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Pierres de taille,Espagne,0,2000,livres,0,0,il y en a de tout prix
 7008,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Planches de sapin,Espagne,632,2528,en nombre,"0,25",0,
-7009,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Plomb en grenaille,Espagne,858,143,livres,6,0,
+7009,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Plomb en grenaille,Espagne,"42,9",143,livres,"0,3",0,
 7010,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Pluches de laine,Espagne,26160,436,pièces,60,0,
 7011,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Plumes d'autruche apretées,Espagne,9600,120,livres,80,0,
 7012,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1765,Exports,Bayonne,8,Plumes d'oye,Espagne,8600,8600,livres,1,0,
@@ -9060,7 +9060,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 9059,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Poudre a poudrer,Espagne,"196,8",492,livres,"0,4",0,
 9060,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Presure,Espagne,"20,55",137,livres,"0,15",0,
 9061,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Quincaille,Espagne,51924,51924,livres,1,0,
-9062,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Raisin sec,Espagne,5200,650,livres,8,0,
+9062,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Raisin sec,Espagne,260,650,livres,"0,4",0,
 9063,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Raves de morue,Espagne,480,2400,livres,"0,2",0,
 9064,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Raves de morue,Espagne,7650,102,bariques,75,0,
 9065,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1772,Exports,Bayonne,6,Ris,Espagne,"26,75",107,livres,"0,25",0,
@@ -9253,7 +9253,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 9252,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Bazin,Espagne,28858,5247,livres,"5,5","-0,5",
 9253,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Bled ; maïs,Espagne,"3145,1",35944,livres,"0,0875",0,
 9254,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Bled ; meteil,Espagne,17385,139080,livres,"0,125",0,
-9255,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Blonde de soye,Espagne,875,70,livres,"12,5",0,
+9255,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Blonde de soye,Espagne,17500,70,livres,250,0,
 9256,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Bœufs en vie,Espagne,90900,606,en nombre,150,0,
 9257,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Boeurre,Espagne,"632,25",1405,livres,"0,45",0,
 9258,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1773,Exports,Bayonne,2,Bois de campeche,Espagne,"187,5",1500,livres,"0,125",0,
@@ -10816,7 +10816,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 10815,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Caffé,Espagne,825,1270,livres,"0,65","-0,5",
 10816,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Canelle,Espagne,28658,2047,livres,14,0,
 10817,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,cardes à carder,Espagne,150,10,paires,15,0,
-10818,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Cercles de bois,Espagne,"9,5",9500,en nombre,"0,001",0,
+10818,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Cercles de bois,Espagne,"9,5","9,5",milliers,1,0,
 10819,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Ceruze,Espagne,9778,39112,livres,"0,25",0,
 10820,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Chaises de paille,Espagne,335,402,en nombre,"0,8333333",0,
 10821,Pascal Fontaine,AD 64 2 ETP 105,Local/Bayonne/Bayonne-sorties.csv,Local,1780,Exports,Bayonne,2,Chandelles,Espagne,2830,3774,livres,"0,75","-0,5",
