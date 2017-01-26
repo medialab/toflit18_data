@@ -34,7 +34,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 33,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Cotton en laine,Hollande,0,25332,Livres,,"1,5"
 34,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Cuirs secs en poils,Hollande,0,8124,En nombre,,"5,5"
 35,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Damas divers,Hollande,0,275,PIèces,il est indiqué 8 Livres l'aune,0
-36,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Eau de vie,Hollande,0,105642,Veltes,,70
+36,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Eau de vie,Hollande,0,105642,Veltes,80 livres les 27 veltes,"2,963"
 37,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Fruits cuits,Hollande,0,935,Livres,,"0,25"
 38,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Garas blanc,Hollande,0,1280,Pièces,,14
 39,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,2,Garas bleu,Hollande,0,254,Pièces,,13
@@ -136,7 +136,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 135,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Drap fin,Nord qui comprend les villes anseatiques et la moscovie,0,3,PIèces,,400
 136,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Drogué de soye,Nord qui comprend les villes anseatiques et la moscovie,0,2,PIèces,,200
 137,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Eau de la Reine d'ongrie,Nord qui comprend les villes anseatiques et la moscovie,0,4104,fioles,,"0,15"
-138,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Eau de vie,Nord qui comprend les villes anseatiques et la moscovie,0,9269,Veltes,,80
+138,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Eau de vie,Nord qui comprend les villes anseatiques et la moscovie,0,9269,Veltes,80 livres les 27 veltes,"2,963"
 139,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Eguieres d'etain,Nord qui comprend les villes anseatiques et la moscovie,0,20,Livres,,"1,5"
 140,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Eperon,Nord qui comprend les villes anseatiques et la moscovie,0,10,Livres,,"0,5"
 141,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,5,Etuy de mathematiques,Nord qui comprend les villes anseatiques et la moscovie,0,1,PIèces,,20
@@ -233,7 +233,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 232,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,9,Caffé des Isles,Dannemark,0,929,Livres,,"0,75"
 233,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,9,Cottonade,Dannemark,0,10,pieces,"7/8 de large, 46 sous l'aune",0
 234,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,9,Damas,Dannemark,0,5,Aunes,,8
-235,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,9,Eau de vie,Dannemark,0,18704,Veltes,,70
+235,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,9,Eau de vie,Dannemark,0,18704,Veltes,80 livres les 27 veltes,"2,963"
 236,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,10,Epingles,Dannemark,0,1,Valeur,,10
 237,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,10,Noix,Dannemark,0,90000,En nombre,Pas de prix unitaire indiqué,0
 238,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,10,Pierres de meulles,Dannemark,0,3,En nombre,,2
@@ -315,7 +315,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 314,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Cuir de vache tanné,Espagne,0,2475,Livres,,"0,55"
 315,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Dentelle commune,Espagne,0,17,Livres,il est indiqué 20 sous (une erreur c'est lt qu'il faut lire selon l'autre manuscrit) l'aune,0
 316,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Drap de laine 1/2 fin,Espagne,0,3,Pièces,il est indiqué 15 Livres l'aune,0
-317,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Eau de vie,Espagne,0,891,veltes,,70
+317,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Eau de vie,Espagne,0,891,veltes,80 livres les 27 veltes,"2,963"
 318,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Farine,Espagne,0,25,Barils,,20
 319,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Fayance,Espagne,0,1056,pièces,,"3,15"
 320,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,12,Fer en barres,Espagne,0,231675,Livres,,"0,125"
@@ -397,7 +397,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 396,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Toille platille,Portugal,0,1000,Pièces,,5
 397,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Vin de Bourdeaux,Portugal,0,1,Tonneaux,,240
 398,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Bled froment,Italie,0,490,Tonneaux,,100
-399,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Eau de vie,Italie,0,66,Veltes,,70
+399,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Eau de vie,Italie,0,66,Veltes,80 livres les 27 veltes,"2,963"
 400,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Fer en barres,Italie,0,1725,Livres,,"0,125"
 401,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Indigo,Italie,0,4330,Livres,,"3,5"
 402,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Sucre brut,Italie,0,182400,Livres,,"0,3"
@@ -409,7 +409,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 408,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Caffé des Isles,Guinée,0,190,Livres,,"0,75"
 409,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Cauris,Guinée,0,3560,Livres,,"0,65"
 410,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Cordages,Guinée,0,10000,Livres,,"0,36"
-411,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Eau de vie,Guinée,0,4501,Veltes,,70
+411,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Eau de vie,Guinée,0,4501,Veltes,80 livres les 27 veltes,"2,963"
 412,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Farrine,Guinée,0,8,Barils,,20
 413,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Fusils de traite,Guinée,0,50,Pièces,,9
 414,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,15,Guingas de pontichry,Guinée,0,100,Pièces,,9
@@ -464,7 +464,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 463,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Drap d'elbeuf,Isles françaises de l'Amérique et pour Terre neuve,0,150,Livres,15 livres l'aune,0
 464,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Drap a passer sucre,Isles françaises de l'Amérique et pour Terre neuve,0,100,Livres,4 livres l'aune,0
 465,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Draperie de Languedonc,Isles françaises de l'Amérique et pour Terre neuve,0,1091,Livres,8 lt et 10s l'aune,0
-466,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Eau de vie,Isles françaises de l'Amérique et pour Terre neuve,0,9132,Veltes,,70
+466,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Eau de vie,Isles françaises de l'Amérique et pour Terre neuve,0,9132,Veltes,80 livres les 27 veltes,"2,963"
 467,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Etamine de laine,Isles françaises de l'Amérique et pour Terre neuve,0,880,Aunes,,"1,75"
 468,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Farine,Isles françaises de l'Amérique et pour Terre neuve,0,5800,Barils,,20
 469,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-exports.csv,Local,1745,Exports,Nantes,17,Fauteuils de canne,Isles françaises de l'Amérique et pour Terre neuve,0,50,En nombre,,10
@@ -714,7 +714,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 713,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Vinaigre,Suede,0,28,Quarts,,10
 714,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Beure,Espagne,0,1800,Livres,,"0,3"
 715,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bled froment,Espagne,0,"229,5",Tonneaux,,130
-716,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bled froment,Espagne,0,1400,Livres,,"4,25"
+716,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bled froment,Espagne,0,1400,Livres,,"0,4"
 717,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bonnets de coton,Espagne,0,168,Pièces,,"1,6666667"
 718,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bonneterie de laine,Espagne,0,50,Livres,,6
 719,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,7,Bougie de table,Espagne,0,200,Livres,,2
@@ -920,9 +920,9 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 919,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Lattes,Isles françoises de l'amerique et pour terre neuve,0,210000,En nombre,,"0,016"
 920,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Marmites de fer,Isles françoises de l'amerique et pour terre neuve,0,2000,Livres,il est aussi indiqué 15 Livres le 100,"0,15"
 921,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Mercerie,Isles françoises de l'amerique et pour terre neuve,0,24866,Livres,,"3,5"
-922,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a buses doüelles,Isles françoises de l'amerique et pour terre neuve,0,13000,En nombre,il semble manquer un pourcentage,12
-923,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a pipes doüelles,Isles françoises de l'amerique et pour terre neuve,0,4900,En nombre,il semble manquer un pourcentage,15
-924,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a tierçon doüelles,Isles françoises de l'amerique et pour terre neuve,0,4000,En nombre,il semble manquer un pourcentage,9
+922,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a buses doüelles,Isles françoises de l'amerique et pour terre neuve,0,13000,En nombre,il semble manquer un pourcentage,"0,12"
+923,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a pipes doüelles,Isles françoises de l'amerique et pour terre neuve,0,4900,En nombre,il semble manquer un pourcentage,"0,15"
+924,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Merrain a tierçon doüelles,Isles françoises de l'amerique et pour terre neuve,0,4000,En nombre,il semble manquer un pourcentage,"0,09"
 925,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Meubles et ornements,Isles françoises de l'amerique et pour terre neuve,0,1,Valeur,,24971
 926,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Meules a eguiser,Isles françoises de l'amerique et pour terre neuve,0,199,En nombre,,"1,5"
 927,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1746,Exports,Nantes,13,Morue sechées,Isles françoises de l'amerique et pour terre neuve,0,32300,Livres,,"0,25"
@@ -1249,7 +1249,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1248,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sel de Bourgneuf,Holande,0,215,Charges,,29
 1249,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sel de Bourgneuf,Holande,0,141,Charges,,27
 1250,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sel de Bourgneuf,Holande,0,231,Charges,,26
-1251,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sirop de capilaire,Holande,0,112,Livres,pas de prix unitaire indiqué; prix pris sur l'objet de 1750,20
+1251,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sirop de capilaire,Holande,0,112,Livres,pas de prix unitaire indiqué,
 1252,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sirop melasse,Holande,0,53300,Livres,,"0,1"
 1253,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Souliers,Holande,0,3,Paires,,"3,5"
 1254,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1750,Exports,Nantes,10,Sucre brut,Holande,0,7531371,Livres,,"0,2"
@@ -1839,8 +1839,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1838,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Chapeaux communs,Suede,0,,Pièces,pas de quantité indiquée,3
 1839,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Chataignes,Suede,0,12,Boisseaux,Par erreur le prix étéait indiqué en livres.,"0,9"
 1840,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Citrons confits,Suede,0,340,Livres,,1
-1841,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Confitures,Suede,0,4,Boites,,1
-1842,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Confitures,Suede,0,11,Pots,,1
+1841,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Confitures,Suede,0,4,Boites,"problème d’unité, prix à 20 sous la livre",
+1842,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Confitures,Suede,0,11,Pots,"problème d’unité, prix à 20 sous la livre",
 1843,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Confitures,Suede,0,147,Livres,,1
 1844,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Coton en laine,Suede,0,88,Livres,,"1,1"
 1845,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,11,Drap commun,Suede,0,30,Aunes,,14
@@ -2112,7 +2112,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2111,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,20,Pierres a fusils,Isles françoises de l'Amérique,0,121000,En nombre,,"0,002"
 2112,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,20,Pierres de grison,Isles françoises de l'Amérique,0,520,nombre,,1
 2113,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,20,Pipes a fumer,Isles françoises de l'Amérique,0,30,Grosses,,"2,25"
-2114,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,20,Planches de sapin,Isles françoises de l'Amérique,0,11918,Livres,,1
+2114,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,20,Planches de sapin,Isles françoises de l'Amérique,0,11918,En nombre,,1
 2115,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,21,Plomb en grenaille,Isles françoises de l'Amérique,0,25920,Livres,,"0,35"
 2116,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,21,Plomb en saumon,Isles françoises de l'Amérique,0,15775,Livres,,"0,2"
 2117,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1755,Exports,Nantes,21,Poivre,Isles françoises de l'Amérique,0,2580,Livres,,"1,2"
@@ -2180,7 +2180,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2179,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Lamproyes,Espagne,0,111,Boîtes,,4
 2180,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Librairie,Espagne,0,2842,Livres,,2
 2181,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Moutarde,Espagne,0,200,Bouteilles,unité de mesure à vérifier,"0,25"
-2182,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Peaux de mouton aprêtées,Espagne,0,2000,nombre,,25
+2182,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Peaux de mouton aprêtées,Espagne,0,2000,nombre,,"1,25"
 2183,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Peaux de veau corroyées,Espagne,0,12288,nombre,,2
 2184,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Pierres a fusils,Espagne,0,370000,nombre,,"0,002"
 2185,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1760,Exports,Nantes,2,Quincaillerie,Espagne,0,41272,Livres,,2
@@ -2976,7 +2976,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 2975,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Farine,Guinée,0,175,Barils,,22
 2976,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fayance,Guinée,0,37,Douzaines,,"3,5"
 2977,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fayance,Guinée,0,122,Pots,,"0,2"
-2978,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fer en ancres,Guinée,0,950,En nombre,,"0,3"
+2978,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fer en ancres,Guinée,0,950,En nombre,"problème d’unité, prix à 0,3 livre la livre pesant",
 2979,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fer en barres,Guinée,0,283925,Livres,,"0,15"
 2980,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fer blanc,Guinée,0,1,Barils,,120
 2981,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,14,Fer blanc ouvré,Guinée,0,25,Livres,,1
@@ -3428,7 +3428,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3427,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Parasols,Isles françoises de l'Amérique,0,1,Valeur,,1010
 3428,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de maroquin,Isles françoises de l'Amérique,0,72,En nombre,50 livres la douzaine,"4,1666667"
 3429,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de mouton blanchies,Isles françoises de l'Amérique,0,156,En nombre,,"1,25"
-3430,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de mouton en mégie,Isles françoises de l'Amérique,0,104,En nombre,,25
+3430,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de mouton en mégie,Isles françoises de l'Amérique,0,104,En nombre,,"1,25"
 3431,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de veau corroyées,Isles françoises de l'Amérique,0,403,En nombre,,"2,3333333"
 3432,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peaux de veau en mégie,Isles françoises de l'Amérique,0,3168,En nombre,,"2,3333333"
 3433,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1763,Exports,Nantes,27,Peignes de corne,Isles françoises de l'Amérique,0,60,En nombre,,"0,25"
@@ -3920,7 +3920,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 3919,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Coclaria,Guinée,0,6,Flacons,,3
 3920,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Coliers de grenat faux,Guinée,0,50,En nombre,,2
 3921,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Confitures,Guinée,0,20,Livres,,1
-3922,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Corail ouvré,Guinée,0,189,Livres,,4
+3922,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Corail ouvré,Guinée,0,189,Livres,il est aussi indiqué 160 livres la livre pesant,80
 3923,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Cordages de chanvre,Guinée,0,58690,Livres,,"0,34"
 3924,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Cornes de bœuf,Guinée,0,378,En nombre,,"0,05"
 3925,Pascal Fontaine,AD 44 C716,Local/Nantes/Nantes-exports.csv,Local,1764,Exports,Nantes,14,Cocos,Guinée,0,1776,Pièces,,12
@@ -5951,7 +5951,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 5950,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Farine,Guinée,0,5580,Livres,,"0,125"
 5951,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fayance,Guinée,0,150,Douzaines,,"4,25"
 5952,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en ancre,Guinée,0,712,Livres,,"0,3"
-5953,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en barres,Guinée,0,394875,Livres,,"3,3"
+5953,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en barres,Guinée,0,394875,Livres,,"0,175"
 5954,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en cercles,Guinée,0,10600,Livres,,"0,225"
 5955,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en chaudiere,Guinée,0,830,Livres,,"0,125"
 5956,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,12,Fer ; en marmites,Guinée,0,10750,Livres,,"0,125"
@@ -6144,7 +6144,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6143,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en enclumes,Isles françoises de l'Amerique,0,200,Livres,,"0,5"
 6144,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en essieux,Isles françoises de l'Amerique,0,24360,Livres,,"0,3"
 6145,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en etuves,Isles françoises de l'Amerique,0,3400,Livres,,"0,1"
-6146,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en fleaux,Isles françoises de l'Amerique,0,10,En nombre,,1
+6146,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en fleaux,Isles françoises de l'Amerique,0,10,En nombre,,20
 6147,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en grilles,Isles françoises de l'Amerique,0,22800,Livres,,"0,15"
 6148,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en marmittes,Isles françoises de l'Amerique,0,12440,Livres,,"0,125"
 6149,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1767,Exports,Nantes,17,Fer ; en pivots,Isles françoises de l'Amerique,0,1200,Livres,,"0,3"
@@ -6380,7 +6380,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6379,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Miel,Flandre autrichienne,0,4700,Livres,,"0,175"
 6380,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Peaux de veau corroyées,Flandre autrichienne,0,204,En nombre,,3
 6381,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Prunes,Flandre autrichienne,0,260,Livres,,"0,45"
-6382,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Rhubarbe,Flandre autrichienne,0,60,Livres,,"0,2"
+6382,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Rhubarbe,Flandre autrichienne,0,60,Livres,,4
 6383,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Sirop melasse,Flandre autrichienne,0,166060,Livres,,"0,0958333"
 6384,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Sucre ; brut,Flandre autrichienne,0,522600,Livres,,"0,2416667"
 6385,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,3,Sucre ; terré,Flandre autrichienne,0,393280,Livres,,"0,3958333"
@@ -6536,7 +6536,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6535,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Armes ; blanches,Isles françoises de l'Amerique,0,180,Livres,,"1,5"
 6536,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Armes ; a feu,Isles françoises de l'Amerique,0,3768,Livres,,1
 6537,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Armoires d'acajou,Isles françoises de l'Amerique,0,20,En nombre,,170
-6538,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Armoires,Isles françoises de l'Amerique,0,132,En nombre,,"1,2"
+6538,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Arrosoirs,Isles françoises de l'Amerique,0,132,En nombre,,"1,2"
 6539,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Avoine,Isles françoises de l'Amerique,0,56,Bariques,,8
 6540,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Bas ; de coton,Isles françoises de l'Amerique,0,300,paires,,2
 6541,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Bas ; de fil,Isles françoises de l'Amerique,0,1459,Livres,,"4,75"
@@ -6825,7 +6825,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6824,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Culottes a negre,Guinée,0,56,En nombre,,"1,5"
 6825,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Custars,Guinée,0,814,Pièces,,25
 6826,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Dorure fine,Guinée,0,3,Livres,,160
-6827,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Drap de Carcassonne,Guinée,0,1413,Livres,,"0,2"
+6827,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Drap de Carcassonne,Guinée,0,1413,Livres,,4
 6828,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Draperie,Guinée,0,891,Livres,,3
 6829,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Eau de vie,Guinée,0,42540,Veltes,,"5,5"
 6830,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Epicerie,Guinée,0,200,Livres,,"2,1"
@@ -6958,7 +6958,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6957,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Bougie,Hollande,0,650,Livres,,"2,5"
 6958,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Cacao,Hollande,0,630,Livres,,"0,55"
 6959,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Caffé des Isles,Hollande,0,3177675,Livres,,"0,45"
-6960,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Chemises bretonnes,Hollande,0,386,En nombre,,"0,1"
+6960,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Chemises bretonnes,Hollande,0,386,En nombre,,2
 6961,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Confitures,Hollande,0,138,Livres,,"1,1"
 6962,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Coton en laine,Hollande,0,520,Livres,,"1,3"
 6963,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Drogueries,Hollande,0,933,Livres,,2
@@ -6968,7 +6968,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6967,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Graine de lin,Hollande,0,4200,Livres,,"0,15"
 6968,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Huile d'olive,Hollande,0,960,Livres,,"0,85"
 6969,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Indigo,Hollande,0,29006,Livres,,7
-6970,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,3,Manchettes brodées,Hollande,0,156,Paires,,"0,3"
+6970,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,3,Manchettes brodées,Hollande,0,156,Paires,,6
 6971,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,3,Marchandises mêlées,Hollande,0,1,Valeur,,445
 6972,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,3,Mercerie,Hollande,0,498,Livres,,2
 6973,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,3,Miel,Hollande,0,99036,Livres,,"0,175"
@@ -8205,7 +8205,6 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 8204,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Bas de soye,Espagne,0,123,Paires,,10
 8205,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Beuf salé,Espagne,0,20,Tonneaux,90 lt le tierçon de 6 au tonneau. C'est confirmé par les unités/prix qui figurent pour les autres régions en 1778.,480
 8206,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Beuf salé,Espagne,0,18,Barils,,60
-8207,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Beuf salé,Espagne,0,48,Livres,,10
 8208,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Beurre,Espagne,0,48,Livres,,"0,5"
 8209,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Bois merrain douelle,Espagne,0,12000,En nombre,,"0,2"
 8210,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,4,Bougie,Espagne,0,538,Livres,,"2,7"
@@ -8771,7 +8770,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 8770,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,21,Huile ; de poisson,Isles françoises de l'amerique,0,6653,Livres,,"0,35"
 8771,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,21,Huile ; de rabette,Isles françoises de l'amerique,0,113,Livres,,"0,35"
 8772,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Jambons,Isles françoises de l'amerique,0,7728,Livres,,"0,7"
-8773,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Jeux de moulin,Isles françoises de l'amerique,0,5200,Livres,,30
+8773,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Jeux de moulin,Isles françoises de l'amerique,0,5200,Livres,,"0,3"
 8774,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Indienne,Isles françoises de l'amerique,0,2700,Livres,,10
 8775,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Indienne,Isles françoises de l'amerique,0,7,Pièces,,45
 8776,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,22,Jougs de bœuf,Isles françoises de l'amerique,0,6,En nombre,,4
@@ -8838,7 +8837,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 8837,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,23,Peaux de mouton,Isles françoises de l'amerique,0,168,En nombre,,3
 8838,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,23,Peaux de veau,Isles françoises de l'amerique,0,2076,En nombre,,"3,3333333"
 8839,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,23,Peinture,Isles françoises de l'amerique,0,5260,Livres,,"0,5"
-8840,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,23,Peluche,Isles françoises de l'amerique,0,810,Livres,,"0,15"
+8840,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,23,Peluche,Isles françoises de l'amerique,0,810,Livres,,3
 8841,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,24,Pierres a meules,Isles françoises de l'amerique,0,50,En nombre,,3
 8842,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,24,Pierriers,Isles françoises de l'amerique,0,14,En nombre,,50
 8843,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,24,Planches,Isles françoises de l'amerique,0,19612,En nombre,,"1,5"
