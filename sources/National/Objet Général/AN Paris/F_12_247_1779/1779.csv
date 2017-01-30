@@ -658,7 +658,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 657,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Indes,38692,9673,5711531,veltes,,0
 658,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Isles,163280,1560,5711531,barriques,,0
 659,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Italie,179703,599020,5711531,livres,,0
-660,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Nord,476450,4133,5711531,veltes,,0
+660,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Nord,476450,4133,5711531,pièces,,0
 661,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Russie,20626,172,5711531,barriques,,0
 662,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Savoye,53271,150892,5711531,livres,,0
 663,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Exports,44,Eau ; de vie,Suisse,19415,54165,5711531,livres,,0
@@ -3208,7 +3208,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 1085,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Planches ; de sapin,Nord,4535985,2268669,8126366,en nombre,,0
 1086,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Planches ; de sapin,Russie,135425,133441,8126366,en nombre,,0
 1087,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Planches ; de sapin,Savoye,9702,1078,8126366,douzaines,,0
-1088,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Planches ; de sapin,Suède,1515975,7579.75,8126366,cents,,0
+1088,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Planches ; de sapin,Suède,1515975,757975,8126366,en nombre,,0
 1089,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Plants ; d'arbres,Gènes,3960,39600,7960,livres,,0
 1090,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Plants ; d'arbres,Italie,4000,2000,7960,livres,,0
 1091,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,96,Plocq,Flandre,1120,5600,1120,livres,,0
@@ -3455,7 +3455,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 1332,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Tableaux,Suisse,1098,366,95407,livres,,0
 1333,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Tables ; de marbre,Hollande,1533,3067,1533,livres,,0
 1334,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Taffia,Isles,3469,1156,3469,veltes,,0
-1335,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Tamarin,Levant,36000,1200,36000,livres,,0
+1335,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Tamarin,Levant,36000,1200,36000,livres,erreur d’unité ou de prix,0
 1336,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,116,Tapis,Allemagne,1106,,1106,,,0
 1337,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,118,Tartre,Allemagne,1651,8255,36868,livres,,0
 1338,David Cassagnes,AN F12 247,National/Objet Général/AN Paris/F_12_247_1779/1779.csv,Objet Général,1779,Imports,118,Tartre,Gènes,5935,24730,36868,livres,,0
