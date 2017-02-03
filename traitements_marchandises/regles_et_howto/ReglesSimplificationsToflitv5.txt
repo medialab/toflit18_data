@@ -32,44 +32,54 @@ RÈGLES RAPIDES DE SIMPLIFICATION
 
 1.b) qualité: tout ce qui permet de DIFFÉRENCIER un produit d'un autre produit, c'est-à-dire une description d'une forme du produit parmi une série de n formes. "Grains"/"gruau"/"farine" est une série de qualités; "divers" est une qualité par rapport à toute description plus précise; tout ce qui est de la forme "de rose", "de poisson", "en bois" dénote une origine ou un matériau parmi plusieurs possibles.
 
-1.c) produit: la description minimale de l'objet effectivement taxé, hors qualités. Typiquement, dans "barres d'acier", le produit taxé est l'acier —pas les barres.
+1.c) produit: la description minimale de l'objet effectivement taxé, hors qualités.
 
 2) Eliminer les catégories générales qui par définition n'ajoutent rien à la description du produit.
+
+3) Identifier le substantif à utiliser comme produit, en cas de concurrence possible, à partir de la règle: le substantif qui définit le plus précisément un usage est celui qui domine. Par ex. “acier en planches” —> “planches d’acier”, parce que "planches" implique un certain type d'usage défini, alors que "acier", matière première, peut rentrer dans une infinité d'usages.
 
 4) Ordonner alphabétiquement les produits et les qualités, en regroupant les qualités par produit
 
 4.a) La forme finale doit être: produit A qualité a qualité b qualité c produit B qualité a qualité b qualité c produit C qualité a qualité b qualité c etc.
 
-4.b) en cas de doute (produit A produit B qualité a, sans que l'on sache si qualité A porte uniquement sur produit B ou sur les deux produits:  "argent et or monnayé", même en l'absence de "s", peut vouloir dire "argent" et "or monnayé" ou "argent monnayé" et "or monnayé") le qualificatif est mis après le dernier produit sur lequel il peut porter (ici on laisse "argent et or monnayé").
+4.b) Attention à respecter les arborescences de qualité, Produit A qualité a sous-qualité a' sou-qualité a", e.g. "ruban de fil de lin et de chanvre" Ici "de chanvre" est une sous-qualité de la qualité "de fil", et on ordonne alphabétiquement au niveau des sous-qualités seulement ("ruban de fil de chanvre et de lin")
+NB 1: en cas de doute sur une hiérarchie de qualités ("ruban de laine mélangée de fil de laine et poils") on GARDE l'ordre d'origine, sans classement alphabétique
+NB 2: en cas de doute sur une qualité portant sur plusieurs produits (produit A produit B qualité a, sans que l'on sache si qualité A porte uniquement sur produit B ou sur les deux produits:  "argent et or monnayé", même en l'absence de "s", peut vouloir dire "argent" et "or monnayé" ou "argent monnayé" et "or monnayé") le qualificatif est mis après le dernier produit sur lequel il peut porter (ici on laisse "argent et or monnayé").
 
-5) supprimer les "ou et "et" inutiles
+4.c) Lorsque la description d'un produit contient deux éléments (ou plus) et que plusieurs produits de ce type sont regroupés dans une ligne avec le même élément présent comme point de départ de la définition dans chacun d'eux, on "factorise" cette "racine" commune ("acide muriatique et acide phosphorique" => "acide muriatique et phosphorique")
 
-5.a) "ou" inutile: offre deux versions d'un même produit. Choisir la plus commune ("mercure ou vif-argent" => "mercure »). 
-NB: Ce qui est de la forme "dite", "espèce de", et autres mentions partitives ("espèce de salade"), est aussi à ôter le plus souvent, puisqu’il s’agit de doublons ou de catégories générales.
-§ ATTENTION: veiller à vérifier qu’il s’agisse bien d’une redite! Dans almagro ou crayon rouge, en fait "almagro" est une provenance, et rajoute de l'info... => crayon, rouge, almagro.
-
-5.b) "et" inutile: relie deux produits ou deux qualificatifs, sans modifier les rapports des éléments du produits entre eux ("argent et or monnayé" => "argent or monnayé").
-
-4.c) “acier en planches” —> “planches d’acier”, the logic being that they were buying it for the planches rather than for the acier itself. (same for instance with “fer en cercles”, they were buying for the cercles and thus it becomes “cercles de fer” and so on..)
 
 PROCESSUS NON FINALISÉS à discuter
 
-5) uniformiser les copules diverses
+5) supprimer les "ou et "et" inutiles
 
-5.a)  »de", "en », « à», «pour». Si les formes ont besoin d’être unifiées, utiliser «de» pour la matière (« barre de fer »), « en » pour le contenant (« cendres en barils») et « pour» pour l’usage (?) 
+5.a) "ou" inutile: offre deux versions d'un même produit. Choisir la plus ancienne dans la base XXX ("mercure ou vif-argent" => "vif-argent"). 
+NB 1: Ce qui est de la forme "dite", "espèce de", et autres mentions partitives ("espèce de salade"), est aussi à ôter le plus souvent, puisqu’il s’agit de doublons ou de catégories générales.
+NB 2: veiller à vérifier qu’il s’agisse bien d’une redite! Dans almagro ou crayon rouge, en fait "almagro" est une provenance, et rajoute de l'info... => crayon, rouge, almagro.
 
-5.b) "avec" => "et": Bidets de fayence avec leurs prez en bois => bidets de faïence et leurs pieds en bois
-5.c) Unifier les formes adjectivales (en monnaie, monnayé), sur forme la plus simple (moins de mot)
+5.b) "et" inutile: relie deux produits ou deux qualificatifs, sans modifier les rapports des éléments du produits entre eux ("argent et or monnayé" => "argent or monnayé").
+
+5.c) règle d'utilisation des et et des ou
+
+6) Eliminer les descriptions doublon ("mercure" = "vif-argent"), en privilégiant la forme la plus ancienne dans la base.
+
+7) uniformiser les copules diverses
+
+7.a)  »de", "en », « à», «pour». Si les formes ont besoin d’être unifiées, utiliser «de» pour la matière (« barre de fer »), « en » pour le contenant (« cendres en barils») et « pour» pour l’usage (?) 
+
+7.b) "avec" => "et": Bidets de fayence avec leurs prez en bois => bidets de faïence et leurs pieds en bois
+
+7.c) Unifier les formes adjectivales (en monnaie, monnayé), sur forme la plus simple (moins de mot)
 "argent monnayé", "argent en monnaie" => "argent monnayé"
 
-6) Singulier/pluriel (encore...): vérifier (algorithme VBA ou Stata?), si un substantif ou un qualificatif apparaît au singulier à un endroit et au pluriel à un autre (seul au singulier, en combinaison au pluriel, par exemple) => on passe tout au singulier.
+8) Singulier/pluriel (encore...): vérifier (algorithme VBA ou Stata?), si un substantif ou un qualificatif apparaît au singulier à un endroit et au pluriel à un autre (seul au singulier, en combinaison au pluriel, par exemple) => on passe tout au singulier.
 
 
-7) Unification en classes: c'est le seul niveau ou on fait du qualitatif => à discuter
+9) Unification en classes: c'est le seul niveau ou on fait du qualitatif => à discuter
 
-7.a) supprimer les doublons à contenu identique, ça c'est simple; supprimer aussi quand on les repère les descriptions différentes du même produit, par exemple un terme ancien XVIIIe s. et un teme nouveau XIXe s; pour le même produit => on garde le terme utilisé en premier chronologiquement dans la base. Par ex. "acétate de cuivre" = "verdet" => on remplace acétate de cuivre par verdet
+9.a) supprimer les doublons à contenu identique, ça c'est simple; supprimer aussi quand on les repère les descriptions différentes du même produit, par exemple un terme ancien XVIIIe s. et un teme nouveau XIXe s; pour le même produit => on garde le terme utilisé en premier chronologiquement dans la base. Par ex. "acétate de cuivre" = "verdet" => on remplace acétate de cuivre par verdet
 
-7.b) unifier les termes identiques, en privilégiant ceux qui ont leur propre catégories?
+9.b) unifier les termes identiques, en privilégiant ceux qui ont leur propre catégories?
 Arbrisseaux n'apparaît qu'en composé, contrairement à arbustes => on change en arbustes
 
-7.c) regrouper en grande catégories en laissant tomber certains aspects (très qualitatif!)?
+9.c) regrouper en grande catégories en laissant tomber certains aspects (très qualitatif!)?

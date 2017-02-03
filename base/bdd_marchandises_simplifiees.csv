@@ -49,8 +49,8 @@ acide oxalique,acide oxalique
 acide phosphorique,acide phosphorique
 acide phosphorique et benzoïque,acide benzoïque et phosphorique
 acide succinique,acide succinique
-acide sulfurique,acide sulfurique
-"acide sulfurique (acide vitriolique, esprit ou huile de vitriol)",acide sulfurique
+acide sulfurique,acide vitriolique
+"acide sulfurique (acide vitriolique, esprit ou huile de vitriol)",acide vitriolique et huile de vitriol
 acide tartrique,acide tartrique 
 acier,acier
 acier brun,acier brun
@@ -68,12 +68,12 @@ affûts de canons,affûts de canons
 affûts de fusils,affûts de fusils
 affûts de fûts à canons,affûts de fûts à canons
 agaric,agaric
-agaric amadouvier,agaric et amadouvier
-agaric amadouvier brut,agaric et amadouvier brut
-agaric amadouvier brut et préparé,agaric et amadouvier
-agaric amadouvier préparé,agaric et amadouvier préparé
-agaric amadouvier préparé (amadou),agaric et amadouvier préparé
-agaric brut et préparé,agaric
+agaric amadouvier,agaric amadouvier
+agaric amadouvier brut,agaric amadouvier brut
+agaric amadouvier brut et préparé,agaric amadouvier brut et préparé
+agaric amadouvier préparé,agaric amadouvier préparé
+agaric amadouvier préparé (amadou),agaric amadouvier préparé
+agaric brut et préparé,agaric brut et préparé
 agaric de mélèze,agaric de mélèze
 agate,agate
 agate brute,agate brute
@@ -397,7 +397,7 @@ argent et or monnayé or monnayé,monnaies d'or
 argent et or monnayé piastres,piastres
 argent et or monnayé sequins,sequins
 argent faux,argent faux
-argent faux en fil cantilles etc.,argent faux
+argent faux en fil cantilles etc.,argent faux en fil cantilles etc.
 argent fin,argent fin
 argent monnayé,monnaie d'argent
 argent monnayé en écus à palmes,écus à palmes
@@ -12377,8 +12377,8 @@ huile en crasse,huile en crasse
 huile en crasse ou degnes ???,huile en crasse ou degnes ???
 huile en dignar,huile en dignar
 huile essentielle ou volatile de rose de citron de girofle de menthe etc,huile essentielle ou volatile de citron girofle menthe rose etc. 
-huile et acide vitriolique,huile et acide vitriolique
-huile et essence de térébenthine,huile et essence de térébenthine
+huile et acide vitriolique,acide vitriolique et huile de vitriol
+huile et essence de térébenthine,essence et huile de térébenthine
 huile et provisions,huile et provisions
 huile et sirop,huile et sirop
 huile fine,huile fine
@@ -16120,7 +16120,7 @@ ouvrages sparterie,ouvrages de sparterie
 ouvrages tricotés pour vestes camisoles et culottes,ouvrages tricotés pour vestes camisoles et culottes
 ouvrages tuiles,tuiles
 ouvrages vannerie d'osier,vannerie d'osier
-"oxalate, acide de potasse (sel d'oseille)",acide de potasse
+"oxalate, acide de potasse (sel d'oseille)",sel d'oseille
 oxyde de cuivre,oxyde de cuivre
 oxyde de fer d'étain,oxyde d’étain et de fer
 oxyde de fer et d'étain,oxyde d’étain et de fer
@@ -19545,7 +19545,7 @@ reliquaires,reliquaire
 remèdes,remèdes
 représentation des Tuileries,représentation des Tuileries
 représentation du Saint Sépulcre,représentation du Saint Sépulcre
-résidu d'acide sulfurique,résidu d’acide sulfurique
+résidu d'acide sulfurique,résidu d’acide vitriolique
 résine,résines
 résine de Gaillac,résine de gaïac
 résine du pin et du sapin poix ou galipot,galipot ou poix 
@@ -19707,12 +19707,12 @@ roses de dictam,roses de dictam
 roses de province,roses de province
 roses de Provins,roses de Provins
 roses sèches,roses sèches
-rossely,
-rossoli,
-rossols,
-rossoly,rossoly
-rotins,rotin
-rotins de petit calibre,
+rossely,rossoli
+rossoli,rossoli
+rossols,rossoli
+rossoly,rossoli
+rotins,rotins
+rotins de petit calibre,rotins de petit calibre
 rouane,rouane
 rouault,rouault
 roudon,roudon
@@ -19758,22 +19758,22 @@ rouge fin,rouge fin
 rouge gras,rouge gras
 rouge grode,rouge grode
 rouge gros,rouge gros
-rouge muscat,
-rouge ou rouge végétal,
+rouge muscat,rouge muscat
+rouge ou rouge végétal,rouge végétal
 rouge perse et de rosse,rouge perse et de rosse
-rouge rouge,
+rouge rouge,rouge
 rouleau rôles,rouleau rôles
 roulette de bois commun à trois rouets,roulette de bois commun à trois rouets
 rousols,rousols
 roussettes,roussettes
 ruban,ruban
 ruban à fil,ruban de fil
-ruban à jour,
+ruban à jour,ruban à jour
 ruban à perruques,ruban à perruques
 ruban argent et soie,ruban d'argent et de soie
 ruban au quart,ruban au quart
 ruban au quart de soie,ruban au quart de soie
-ruban blanc ou mélangé de blanc,
+ruban blanc ou mélangé de blanc,ruban blanc ou mélangé de blanc
 ruban d'argent,ruban d'argent
 ruban d'étoupes de chanvre,ruban d'étoupes de chanvre
 ruban d'étoupes de lin,ruban d'étoupes de lin
@@ -19783,12 +19783,12 @@ ruban de coutil,ruban de coutil
 ruban de crin,ruban de crin
 ruban de diverses matières,ruban
 ruban de fil,ruban de fil
-ruban de fil à jour,
+ruban de fil à jour,rubn à jour de fil
 ruban de fil blanc,ruban de fil blanc
-ruban de fil blanc mêlé d'argent faux,ruban d'argent faux et de fil blanc
-ruban de fil de lin et de chanvre blanc ou mélange de blanc,
-ruban de fil de lin et de chanvre écru bis ou herbé,
-ruban de fil de lin et de chanvre teint en tout ou partie,
+ruban de fil blanc mêlé d'argent faux,ruban de fil blanc mêlé d'argent faux 
+ruban de fil de lin et de chanvre blanc ou mélange de blanc,ruban blanc ou mélange de blanc de fil de lin et de chanvre
+ruban de fil de lin et de chanvre écru bis ou herbé,ruban bis de fil de lin et de chanvre écru ou herbé
+ruban de fil de lin et de chanvre teint en tout ou partie,ruban à jour
 ruban de fil en laine,ruban de fil en laine
 ruban de fil et fleuret,ruban de fil et fleuret
 ruban de fil et laine,ruban de fil et de laine
@@ -19797,21 +19797,21 @@ ruban de fil or et argent,ruban de fil d'argent et d'or
 ruban de fil teint,ruban de fil teint
 ruban de filoselle,ruban de filoselle
 ruban de fleuret,ruban de fleuret
-ruban de fleuret de soie,ruban de fleuret de soie
+ruban de fleuret de soie,ruban de fleuret et de soie
 ruban de fleurs,ruban de fleurs
 ruban de laine,ruban de laine
-ruban de laine de laine pure écrue et blanche,
-ruban de laine de laine pure teinte,
-ruban de laine mélangée de fil laine et poils,
+ruban de laine de laine pure écrue et blanche,ruban de laine pure écrue et blanche
+ruban de laine de laine pure teinte,ruban de laine de laine pure teinte
+ruban de laine mélangée de fil laine et poils,ruban de laine mélangée de fil de laine et de poils
 ruban de lin,ruban de lin
-ruban de mercerie,
+ruban de mercerie,ruban
 ruban de Padoue,ruban de Padoue
 ruban de soie,ruban de soie
-ruban de soie de toute sorte,
+ruban de soie de toute sorte,ruban de soie
 ruban de soie et argent,ruban d'argent et de soie
 ruban de soie et de laine,ruban de laine et de soie
-ruban de soie et dorure,
-ruban de soie et fleuret,ruban fleuret et de soie
+ruban de soie et dorure,ruban de dorure et soie
+ruban de soie et fleuret,ruban de fleuret et de soie
 ruban de soie or et argent,ruban d'argent et d'or et de soie
 ruban de soie or et argent faux,ruban d'argent faux et d'or faux et de soie
 ruban de velours,ruban de velours
@@ -19821,15 +19821,15 @@ ruban dorure d'or,ruban dorure d'or
 ruban dorure or et argent,ruban dorure d'argent et d'or
 ruban dorure or et argent faux,ruban dorure d'argent faux et d'or faux
 ruban dorure or et argent fin,ruban dorure d'argent fin et d'or fin
-ruban du Levant,
-ruban écru,
+ruban du Levant,ruban du Levant
+ruban écru,ruban écru
 ruban en argent,ruban d'argent
 ruban en dorure,ruban en dorure
 ruban en dorure d'argent,ruban dorure d'argent
 ruban en dorure d'or,ruban dorure d'or
 ruban en dorure or et argent,ruban dorure d'argent et d'or
 ruban en or,ruban d'or
-ruban en or et argent,
+ruban en or et argent,ruban d'argent et d'or
 ruban et passementerie de diverses matières,ruban et passementerie diverse
 ruban et passementerie de soie,ruban et passementerie de soie
 ruban fil de laine,ruban de fil de laine
@@ -19846,7 +19846,7 @@ ruban soie et fil,ruban de fil et de soie
 ruban soie et flearn,ruban de flearn et de soie
 ruban soie et or,ruban d'or et de soie
 ruban soie or et argent,ruban d'argent et d'or et de soie
-ruban teint,
+ruban teint,ruban teint
 ruban tresse et agrément or et argent,ruban et tresses et agrément d'argent et d'or
 ruban velouté,ruban velouté
 rubanerie de soie,rubanerie de soie
@@ -19861,32 +19861,32 @@ rubea major,rubea major
 rubia tinctorum,rubia tinctorum
 ruches,ruches
 ruches à miel,ruches
-ruches à miel (renfermant des essaims vivants),
+ruches à miel (renfermant des essaims vivants),ruches à miel renfermant des essaims vivants
 ruches à mouches,ruches
 ruches de pin,ruches de pin
 rudon,rudon
 rusque,rusque
 rusque de chêne,rusque de chêne
 rusque de pin,rusque de pin
-rusque de sapin,
+rusque de sapin,rusque de sapin
 sabatines,sabatines
 sable,sable
 sable à fondeur,sable à fondeur
 sable à mouler,sable à mouler
 sable blanc,sable blanc
-sable commun,
+sable commun,sable commun
 sable de mer,sable de mer
 sable de verre,sable de verre
 sablerie,sablerie
 sabliers en compas,sabliers en compas
-sablon,
+sablon,sablon
 sabots,sabots
-sabots de bétail râpures de cornes de bétail etc,
+sabots de bétail râpures de cornes de bétail etc,râpures de cornes de bétail sabots de bétail etc.
 sabres,sabres
 sabres de traite,sabres de traite
 sabres de traite et autres,sabres de traite et autres
 sabres divers,sabres
-sabres et poignards de traite,poignards de traite et sabres
+sabres et poignards de traite,poignards et sabres de traite
 sabres garnis en argent,sabres garnis d'argent
 sabres montés en cuivre doré,sabres montés en cuivre doré
 sachets,sachets
@@ -19905,7 +19905,7 @@ sacs de toile ayant servi,sacs ayant servi et de toile
 sacs de toile vides,sacs de toile vides
 sacs de toille,sacs de toile
 sacs divers,sacs
-sacs en toile de chanvre,
+sacs en toile de chanvre,sacs en toile de chanvre
 sacs neufs à café,sacs à café neufs
 sacs vides,sacs
 sacs vides à café,sacs à café vides
@@ -19926,10 +19926,10 @@ safranum,safranum
 safranum et tournesol,safranum et tournesol
 sagapemun,sagapemun
 sagapenum,sagapenum
-sagapin,
+sagapin,sagapin
 sagne,sagne
 sagou,sagou
-saigne,
+saigne,saigne
 sailphre,sailphre
 sain,sain
 saindoux,saindoux
@@ -19943,19 +19943,19 @@ salemporis bleu,salemporis bleu
 salemporis bleu et blanc,salemporis blanc et bleu
 salemporis bleu et rouge,salemporis bleu et rouge
 salemporis ordinaire,salemporis commun
-salep,
+salep,salep
 salicore,salicore
 salière de cristal,salière de cristal
-salins,salin
-salins pour verrerie,
+salins,salins
+salins pour verrerie,salins pour verrerie
 saloir,saloir
 saloirs de bois,saloirs de bois
 salpêtre,salpêtre
-salpêtre brut,
-salpêtre cru,salpêtre crû
+salpêtre brut,salpêtre brut
+salpêtre cru,salpêtre cru
 salpêtre raffiné,salpêtre raffiné
 salsafras,salsafras
-salsaula,
+salsaula,salsaula
 salsepareille,salsepareille
 sanas,sanas
 sanctuaire,sanctuaire
@@ -19964,25 +19964,25 @@ sandance,sandance
 sandarac,sandarac
 sang,sang
 sang bouquetin,sang de bouquetin
-sang de bétail,
-sang de bétail et autres déchets d'animaux,
-sang de bétail et pieds de bœuf,
-sang de bouc,
-sang de bouc desséché,
+sang de bétail,sang de bétail
+sang de bétail et autres déchets d'animaux,déchets d'animaux et sang de bétail
+sang de bétail et pieds de bœuf,pieds de bœuf et sang de bétail
+sang de bouc,sang de bouc
+sang de bouc desséché,sang de bouc desséché
 sang de bouquetin,sang de bouquetin
 sang de dragon,sang de dragon
 sang de dragon commun,sang de dragon commun
-sang dragon,sang dragon
-sang dragon fin,sang dragon fin
-sangalette,
+sang dragon,sang de dragon
+sang dragon fin,sang de dragon fin
+sangalette,sangalette
 sangles,sangles
 sangles de chanvre,sangles de chanvre
 sangles et licols,licols et sangles
 sangles pour malets,sangles pour malets
 sangliers,sanglier
 sangsues,sangsues
-sangsues et vipères,
-sangsues vipères et limaces,
+sangsues et vipères,sangsues et vipères
+sangsues vipères et limaces,limaces et sangsues et vipères
 sanguine,sanguine
 sangunie,sanguine
 santal,santal
@@ -19993,7 +19993,7 @@ santal moulu,santal moulu
 santal rouge,santal rouge
 santal sitrin,santal citrin
 santnaires,santnaires
-santuaire,
+santuaire,santuaire
 sapeline,sapeline
 sapien violet,sapien violet
 sapin,sapin
@@ -20013,7 +20013,7 @@ sapin petit,sapin petit
 sapin pioche,sapin à pioches
 sapin planches,planches de sapin
 saquins,saquins
-sarcelé,
+sarcelé,sarcelé
 sardes et anchois,anchois et sardes
 sardinals,sardinals
 sardines,sardines
@@ -20022,7 +20022,7 @@ sardines apprêtées,sardines apprêtées
 sardines confites,sardines confites
 sardines confites au vinaigre,sardines confites au vinaigre
 sardines confites dans l'huile,sardines confites dans l'huile
-sardines en saumure,
+sardines en saumure,sardines en saumure
 sardines fraîches,sardines fraîches
 sardines pressées,sardines pressées
 sardines salées,sardines salées
@@ -20032,7 +20032,7 @@ sarge de Poitou,sarge de Poitou
 sarge de Saint-Maixant,sarge de Saint-Maixant
 sarge de soie,sarge de soie
 sarge du Languedoc,sarge du Languedoc
-sargette,
+sargette,sargette
 sargette fine,sargette fine
 sargue,sargue
 sargue fil et laine,sargue de fil et de laine
@@ -20041,10 +20041,10 @@ sarrasin,grain sarrasin
 sassafras,sassafras
 sasses,sasses
 satin,satin
-satin broché,
-satin broché en or,
+satin broché,satin broché
+satin broché en or,satin broché en or
 satin brodé en or,satin brodé en or
-satin de Florence,
+satin de Florence,satin de Florence
 satin de Florence et Gênes,satin de Florence et de Gênes
 satin de la Chine,satin de Chine
 satin gris,satin gris
@@ -20190,8 +20190,8 @@ sel d'Oléron,sel d'Oléron
 sel d'Oléron de Ré,sel d'Oléron de Ré
 sel d'Olonne,sel d'Olonne
 sel d'opium,sel d'opium
-sel d'orseille,acide de potasse
-sel d'oseille,acide de potasse
+sel d'orseille,sel d'oseille
+sel d'oseille,sel d'oseille
 sel de,sel de
 sel de baryte,
 sel de boue,sel de boue
@@ -20318,7 +20318,7 @@ selles et harnais de chevaux,harnais et selles
 selles garnies de velours,selles garnies de velours
 selles neuves,selles neuves
 selles pour chevaux,selles
-selles vieilles,
+selles vieilles,selles vieilles
 sellet et télescope,sellet et télescope
 selleterie commune,selleterie commune
 sels,sels
@@ -20328,23 +20328,23 @@ sels acétates de cuivre non cristallisé,verdet non cristallisé
 sels acétates de fer,
 sels acétates de plomb (sel de Saturne),
 sels chromate de plomb (jaune de chrome),
-sels oxalate aide de potasse (sel d'oseille),acide de potasse oxalate
+sels oxalate aide de potasse (sel d'oseille),sel d'oseille
 semé,semé
-semelles et talons,
+semelles et talons,semelles et talons
 semen contra,semen contra
 semen dacy,semen dacy
 semence d'anis,graine d'anis
 semence d'anis carvi coriandre etc.,graine d'anis carvi coriandre etc.
-semence d'encens,
+semence d'encens,graine d'encens
 semence d'oliette,graine d'oliette
 semence d'oliette et de sénegré,graine d'oliette et de sénegré
 semence de brion,graine de brion
 semence de canaris,graine de canaris
 semence de chanvre,graine de chanvre
 semence de colza et ???,graine de colza et ?
-semence de coton,
+semence de coton,graine de coton
 semence de cumin,graine de cumin
-semence de fenouil,
+semence de fenouil,graine de fenouil
 semence de jardin,graine de jardin
 semence de lin à battre huile,graine de lin à battre huile
 semence de lin à semer,graine de lin et à semer
@@ -22634,7 +22634,7 @@ toile de lin de Lille,toile de lin de Lille
 toile de lin de linge de tables,toile de lin de linge de tables
 toile de lin de linon,toile de lin de linon
 toile de lin de Marigny,toile de lin de Marigny
-toile de lin de ménage,
+toile de lin de ménage,toile de lin de ménage
 toile de lin de Rouen,toile de lin de Rouen
 toile de lin de Russie,toile de lin de Russie
 toile de lin de Saint Quentin,toile de lin de Saint-Quentin
@@ -22644,9 +22644,9 @@ toile de lin de Senlis,toile de lin de Senlis
 toile de lin de Servins,toile de lin de Servins
 toile de lin de Troyes,toile de lin de Troyes
 toile de lin de Valenciennes,toile de lin de Valenciennes
-toile de lin dite batiste,
+toile de lin dite batiste,batiste de lin
 toile de lin dite d'Anvers,toile de lin d'Anvers
-toile de lin dite linon,
+toile de lin dite linon,linon de lin
 toile de lin dite platille,platille
 toile de lin diverse,toile de lin
 toile de lin diverse batiste et linon,batiste de lin et linon de lin
