@@ -374,8 +374,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 373,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Sirop de limon,Des Isles françoises de l'amerique et de terre neuve,0,84,Bouteilles de pinte,0,0,
 374,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Sirop de limon,Des Isles françoises de l'amerique et de terre neuve,634.5,846,Livres,0.75,0,
 375,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Tabac en poudre,Des Isles françoises de l'amerique et de terre neuve,129037.6,322594,Livres,0.4,0,
-376,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Toille peinte,Des Isles françoises de l'amerique et de terre neuve,166,166,Pièces,1,0,
-377,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Toille commune,Des Isles françoises de l'amerique et de terre neuve,712,712,Livres,1,0,
+376,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Toille peinte,Des Isles françoises de l'amerique et de terre neuve,3320,166,Pièces,20,0,"erreur dans la source, confusion entre livres et sous"
+377,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1730,Imports,Nantes,12,Toille commune,Des Isles françoises de l'amerique et de terre neuve,,712,Livres,,0,
 378,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1732,Imports,Nantes,1,Avoine,Angleterre,1400,20,Thonneaux,70,0,
 379,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1732,Imports,Nantes,1,Ancres vielles vuides,Angleterre,115,230,En nombre,0.5,0,
 380,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1732,Imports,Nantes,1,Barriques vielles vuides,Angleterre,106.25,85,En nombre,1.25,0,
@@ -942,7 +942,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 941,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,7,Planches de sapin ; de 6 pieds,Suède,217.5,870,nombre,0.25,0,
 942,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,7,Soliveaux de sapin de 34 pieds,Suède,324,36,nombre,9,0,
 943,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Souffre,Suède,112,800,Livres,0.14,0,
-944,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Vitriol,Suède,7687.5,1025,Livres,7.5,0,
+944,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Vitriol,Suède,7687.5,1025,Livres,7.5,0,doute sur le prix
 945,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Cauris,Flandre imperiale,28264.8,35331,Livres,0.8,0,
 946,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Amandes en coques,Espagne,1950,6500,Livres,0.3,0,
 947,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1735,Imports,Nantes,8,Anis vert,Espagne,530,2650,Livres,0.2,0,
@@ -1067,7 +1067,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1066,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,1,Biere,Hollande,29520,1230,Bariques,24,0,
 1067,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,1,Bray gras,Hollande,684,57,Barils,12,0,
 1068,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Braule,Hollande,2000,500,Pièces,4,0,
-1069,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Boulange,Hollande,330,660,Pièces,0.5,0,
+1069,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Boulange,Hollande,330,660,Pièces,0.5,0,doute sur le prix
 1070,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Bajutapaux,Hollande,6844.5,507,Pièces,13.5,0,
 1071,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Bayette,Hollande,6750,2700,Aunes,2.5,0,
 1072,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,2,Brosserie,Hollande,1154,1154,Livres,1,0,
@@ -1305,7 +1305,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 1304,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Caves garnies de 12 flacons,Nord qui comprend les villes ansceatiques et la Moscovie,350,35,nombre,10,0,
 1305,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Caves garnies de 9 flacons,Nord qui comprend les villes ansceatiques et la Moscovie,320,40,nombre,8,0,
 1306,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Caves garnies de 6 flacons,Nord qui comprend les villes ansceatiques et la Moscovie,550,110,nombre,5,0,
-1307,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Espars,Nord qui comprend les villes ansceatiques et la Moscovie,32,4,En nombre,8,0,
+1307,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Espars,Nord qui comprend les villes ansceatiques et la Moscovie,32,4,En nombre,8,0,doute sur le prix
 1308,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Fromage,Nord qui comprend les villes ansceatiques et la Moscovie,91.98,511,Livres,0.18,0,
 1309,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Fil,Nord qui comprend les villes ansceatiques et la Moscovie,0,60,Livres,0,0,
 1310,Pascal Fontaine,AD 44 C706,Local/Nantes/Nantes-imports-1730-1776.csv,Local,1738,Imports,Nantes,6,Fil de laton,Nord qui comprend les villes ansceatiques et la Moscovie,2137.5,1425,Livres,1.5,0,
