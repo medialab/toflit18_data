@@ -69,16 +69,20 @@
  predict lnPrix_predExp if e(sample)
  gen résiduExp = lnPrix_predExp - lnPrix
 
- drop if abs(résiduImp)<3 & exportsimports=="Imports"
- drop if abs(résiduImp)>4 & exportsimports=="Imports" 
- drop if abs(résiduExp)<3 & exportsimports=="Exports"
- drop if abs(résiduExp)>4 & exportsimports=="Exports"
+ drop if abs(résiduImp)<2.5 & exportsimports=="Imports"
+ drop if abs(résiduImp)>3 & exportsimports=="Imports" 
+ drop if abs(résiduExp)<2.5 & exportsimports=="Exports"
+ drop if abs(résiduExp)>3 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
  gen ln_prix_pred = lnPrix_predImp if exportsimports=="Imports"
  replace ln_prix_pred = lnPrix_predExp if exportsimports=="Exports"
  gen prix_conv_pred = exp(ln_prix_pred)
  gen prix_pred = prix_conv_pred*q_conv
+ 
+ drop if doubleaccounts=="1"
+ drop if doubleaccounts=="2"
+ drop if doubleaccounts=="3"
  
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
 	  résiduImp résiduExp prix_unitaire quantity_unit u_conv q_conv prix_conv prix_pred
