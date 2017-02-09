@@ -43,7 +43,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 42,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Arbres à planter,Portugal,61434,20478,,en nombre,,,,0
 43,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Ardoises,Allemagne,2687,27500,58378,en nombre,,,,0
 44,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Ardoises,Espagne,2766,197600,58378,en nombre,,,,0
-45,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Ardoises,Flandre,26287,105500,58378,en nombre,,,,0
+45,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Ardoises,Flandre,26287,105500,58378,en nombre,,,erreur de prix,0
 46,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Ardoises,Isles,26638,1902750,58378,en nombre,,,,0
 47,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Argent vif,Levant,30775,6155,,livres,,,,0
 48,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,5,Argenterie,Allemagne,60769,1066.5,464855,marcs,,,,0
@@ -120,16 +120,16 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 119,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Savoye,4270,106.75,3915092,livres,3270244,,,0
 120,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Suede,1025,20.5,3915092,livres,3270244,,,0
 121,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Suisse,51430,1285.75,3915092,livres,3270244,,,0
-122,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Isles,,317,3915092,douzaines,3270244,,,0
-123,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Isles,46220,361.75,3915092,livres,3270244,,2 qtités pour Isles,0
+122,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Isles,46220,317,3915092,douzaines,3270244,,,1
+123,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Bas ; de soye,Isles,46220,361.75,3915092,livres,3270244,,2 qtités pour Isles,2
 124,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Batteaux neufs,Flandre,4510,11,,en nombre,,,,0
 125,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Espagne,80847,2695,2067664,barils,1119794,,,0
 126,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Suisse,2360,5245,2067664,livres,1119794,,,0
-127,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Isles,,18778,2067664,barils,1119794,,,0
-128,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Isles,952167,261627,2067664,livres,1119794,,2 qtités pour Isles,0
+127,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Isles,952167,18778,2067664,barils,1119794,,,1
+128,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Isles,952167,261627,2067664,livres,1119794,,2 qtités pour Isles,2
 129,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Guinée,67205,1708,2067664,barils,1119794,,,0
-130,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Indes,,377.5,2067664,barils,1119794,,,0
-131,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Indes,17215,13050,2067664,livres,1119794,,2 qtités pour Inde,0
+130,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Indes,17215,377.5,2067664,barils,1119794,,,1
+131,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; salé,Indes,17215,13050,2067664,livres,1119794,,2 qtités pour Inde,2
 132,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; en vie,Allemagne,678880,7207,2067664,en nombre,947870,,,0
 133,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; en vie,Angleterre,2000,10,2067664,en nombre,947870,,,0
 134,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,11,Beufs ; en vie,Espagne,44870,371,2067664,en nombre,947870,,,0
@@ -1078,7 +1078,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 1077,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Flandre,73700,737,31752531,pièces,451380,1772624,,0
 1078,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Geneve,3000,30,31752531,pièces,451380,1772624,,0
 1079,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Italie,11300,113,31752531,pièces,451380,1772624,,0
-1080,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Genes,1500,300,31752531,pièces,451380,1772624,,0
+1080,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Genes,1500,300,31752531,livres,451380,1772624,,0
 1081,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Levant,227900,2279,31752531,pièces,451380,1772624,,0
 1082,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Savoye,7400,74,31752531,pièces,451380,1772624,,0
 1083,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,46,Etoffe ; de poil ; callemande,Suisse,29300,293,31752531,pièces,451380,1772624,,0
@@ -1810,8 +1810,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 1809,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Espagne,35065,7741,2501456,livres,152895,171685,2 qtités pour Espagne,0
 1810,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Hollande,1440,80,2501456,douzaines,152895,171685,,0
 1811,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Italie,5508,5508,2501456,livres,152895,171685,,0
-1812,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Naples,2657,2657,2501456,douzaines,152895,171685,,0
-1813,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Genes,3642,3642,2501456,douzaines,152895,171685,,0
+1812,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Naples,2657,2657,2501456,livres,152895,171685,,0
+1813,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Genes,3642,3642,2501456,livres,152895,171685,,0
 1814,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Levant,9259,9259,2501456,livres,152895,171685,,0
 1815,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Portugal,43927,3870,2501456,douzaines,152895,171685,,0
 1816,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,70,Peaux ; de moutons ; aprestées,Savoye,48608,48608,2501456,livres,152895,171685,,0
@@ -2355,20 +2355,20 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 2354,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; commune,Isles,190560,2382,32711006,pièces,876072,,,0
 2355,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Allemagne,59668,14917,32711006,pièces,348655,,,0
 2356,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Geneve,1040,260,32711006,pièces,348655,,,0
-2357,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Hollande,,436,32711006,pièces,348655,,,0
-2358,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Hollande,130936,29028,32711006,livres,348655,,2 qtités pour Hollande,0
+2357,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Hollande,,436,32711006,pièces,348655,,,1
+2358,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Hollande,130936,29028,32711006,livres,348655,,2 qtités pour Hollande,2
 2359,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Nord,5727,1460,32711006,livres,348655,,,0
 2360,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Savoye,1072,268,32711006,livres,348655,,,0
-2361,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Isles,,89,32711006,paquets,348655,,,0
-2362,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Isles,27400,10690,32711006,livres,348655,,2 qtités pour Isles,0
+2361,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Isles,,89,32711006,paquets,348655,,,1
+2362,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Isles,27400,10690,32711006,livres,348655,,2 qtités pour Isles,2
 2363,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de coton,Guinee,122812,31250,32711006,livres,348655,,,0
 2364,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Espagne,5480,137,32711006,pièces,85346,,,0
 2365,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Hollande,,,32711006,,85346,,No data for Hollande,0
 2366,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Flandre,13370,334.25,32711006,pièces,85346,,,0
 2367,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Levant,18560,464,32711006,pièces,85346,,,0
 2368,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Portugal,1400,700,32711006,livres,85346,,,0
-2369,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Isles,,280,32711006,pièces,85346,,,0
-2370,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Isles,46536,17747,32711006,pièces,85346,,2 qtités pour Isles,0
+2369,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Isles,,280,32711006,pièces,85346,,,1
+2370,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; coutil,Isles,46536,17747,32711006,pièces,85346,,2 qtités pour Isles,2
 2371,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de crin,Allemagne,2460,492,32711006,livres,3710,,,0
 2372,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; de crin,Portugal,1250,500,32711006,livres,3710,,,0
 2373,Saadia Mai,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Exports,88,Toile ; diverse,Isles,61860,30930,32711006,livres,68727,,,0
@@ -2897,14 +2897,14 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 144,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Espagne,29175,1216,41561396,charges,40424404,,,0
 145,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Flandre,1772,17725,41561396,livres,40424404,,,0
 146,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Hollande,17004446,160115492,41561396,livres,40424404,,,0
-147,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Italie,,110596,41561396,charges,40424404,,,0
-148,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Italie,2920430,1774174,41561396,livres,40424404,,2 qtités pour Italie,0
+147,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Italie,,110596,41561396,charges,40424404,,,1
+148,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Italie,2920430,1774174,41561396,livres,40424404,,2 qtités pour Italie,2
 149,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Naples,6170160,257090,41561396,charges,40424404,,,0
 150,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Genes,312456,13019,41561396,charges,40424404,,,0
 151,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Venise,3405840,141910,41561396,charges,40424404,,,0
 152,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Levant,2388360,99515,41561396,charges,40424404,,,0
-153,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Nord,,193017,41561396,barriques,40424404,,,0
-154,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Nord,3456664,8387558,41561396,livres,40424404,,2 qtités pour Nord,0
+153,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Nord,,193017,41561396,barriques,40424404,,,1
+154,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Nord,3456664,8387558,41561396,livres,40424404,,2 qtités pour Nord,2
 155,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Russie,21132,167900,41561396,livres,40424404,,,0
 156,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Savoye,3580774,147901,41561396,charges,40424404,,,1
 157,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; froment,Savoye,3580774,311500,41561396,livres,40424404,,2 qtités pour Savoye,2
@@ -2917,8 +2917,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 164,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Nord,484791,6341296,41561396,livres,1092624,,,0
 165,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Russie,29032,268000,41561396,livres,1092624,,,0
 166,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Savoye,23125,462500,41561396,livres,1092624,,,0
-167,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Suede,,12210,41561396,barriques,1092624,,,0
-168,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Suede,165960,560700,41561396,livres,1092624,,2 qtités pour Suède,0
+167,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Suede,,12210,41561396,barriques,1092624,,,1
+168,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bled ; seigle,Suede,165960,560700,41561396,livres,1092624,,2 qtités pour Suède,2
 169,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bleu de Prusse,Allemagne,5040,630,66613,livres,,,,0
 170,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bleu de Prusse,Angleterre,8400,560,66613,livres,,,,0
 171,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,12,Bleu de Prusse,Hollande,47173,3333,66613,livres,,,,0
@@ -3357,12 +3357,12 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,sheet,
 604,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,37,Eau ; forte,Angleterre,3200,3200,29343,livres,,,,0
 605,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,39,Eau ; de la R. d'Hongrie,Hollande,1495,598,29343,livres,,,,0
 606,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Allemagne,10678,42.33,6019568,muids,,,,0
-607,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,,1138,6019568,pipes,,,,0
-608,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,,408,6019568,barriques,,,,0
-609,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,,29650,6019568,muids,,,,0
-610,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,5984397,1645228,6019568,livres,,,4 qtités pour Espagne,0
-611,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Hollande,,68.66,6019568,muids,,,,0
-612,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Hollande,16870,7200,6019568,livres,,,2 qtités pour hollande,0
+607,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,5984397,1138,6019568,pipes,,,,1
+608,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,5984397,408,6019568,barriques,,,,2
+609,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,5984397,29650,6019568,muids,,,,3
+610,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Espagne,5984397,1645228,6019568,livres,,,4 qtités pour Espagne,4
+611,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Hollande,16870,68.66,6019568,muids,,,,1
+612,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Hollande,16870,7200,6019568,livres,,,2 qtités pour hollande,2
 613,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Venise,5000,20000,6019568,livres,,,,0
 614,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Eau de vie,Savoye,2623,10495,6019568,livres,,,,0
 615,Milewski,IIHS-122E,National/Objet Général/IIHS - Amsterdam/1771.csv,Objet Général,1771,Imports,40,Ecaille ; de cahouanne,Flandre,1925,275,193480,livres,5521,,,0
