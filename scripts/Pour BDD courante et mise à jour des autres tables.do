@@ -470,11 +470,9 @@ rename yearnum year
  generate quantites_metric = q_conv * quantit
 
 
-save "$dir/Données Stata/bdd courante", replace
+
 export delimited "$dir/Données Stata/bdd courante.csv", replace
-
-
-
+export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 
 
 save "$dir/Données Stata/bdd courante", replace
