@@ -472,7 +472,8 @@ rename yearnum year
 
 
 export delimited "$dir/Données Stata/bdd courante.csv", replace
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+*export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+*Il est trop gros pour être envoyé dans le GIT
 
 
 save "$dir/Données Stata/bdd courante", replace
