@@ -5022,7 +5022,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 5021,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Sucre brut,Suede,0,267150,Livres,,"0,2"
 5022,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Sucre terré,Suede,0,167300,Livres,,"0,35"
 5023,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Verre a vitres,Suede,0,60,Livres,,1
-5024,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Vin d'amont,Suede,0,2,Bariques,erreur unité de mesure ?,2
+5024,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Vin d'amont,Suede,0,2,Bariques,"erreur dans la source, confusion entre livres et sous",40
 5025,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Vin de Bordeaux,Suede,0,"14,5",Tonneaux,,320
 5026,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,11,Vin de Champagne,Suede,0,75,Bouteilles,,"2,5"
 5027,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1765,Exports,Nantes,12,Vin hors,Suede,0,2,Bariques,,90
@@ -6544,7 +6544,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6543,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Bas ; de soye,Isles françoises de l'Amerique,0,"356,75",Livres,,40
 6544,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Bandages,Isles françoises de l'Amerique,0,20,Livres,,15
 6545,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Beuf ; a la mode,Isles françoises de l'Amerique,0,1247,Livres,,"0,75"
-6546,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Beuf ; salé,Isles françoises de l'Amerique,0,3221,barils,,"0,225"
+6546,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Beuf ; salé,Isles françoises de l'Amerique,0,3221,barils,"erreur dans la source, confusion entre livres et sous",46
 6547,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Beurre,Isles françoises de l'Amerique,0,66028,Livres,,"0,55"
 6548,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Bierre,Isles françoises de l'Amerique,0,564,Bariques,,28
 6549,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,8,Billard,Isles françoises de l'Amerique,0,2,En nombre,,400
@@ -6847,7 +6847,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6846,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Indienne,Guinée,0,1544,Pièces,,28
 6847,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Langues,Guinée,0,3,Barils,,38
 6848,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Limeneas,Guinée,0,1195,Pièces,,26
-6849,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Liqueurs,Guinée,0,284,Bouteilles,,"0,1"
+6849,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Liqueurs,Guinée,0,284,Bouteilles,,2
 6850,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Manteau,Guinée,0,1,nombre,,28
 6851,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Marchandises mêlées,Guinée,0,1,Valeur,,886
 6852,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1771,Exports,Nantes,15,Meches a canon,Guinée,0,180,Livres,,"0,4"
@@ -6948,7 +6948,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 6947,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Sirop melasse,Espagne,0,216490,Livres,,"0,1"
 6948,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Sucre ; brut,Espagne,0,906560,Livres,,"0,25"
 6949,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Sucre ; terré,Espagne,0,463300,Livres,,"0,4"
-6950,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Terre a sucre,Espagne,0,13,Bariques,,"0,6"
+6950,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Terre a sucre,Espagne,0,13,Bariques,"erreur dans la source, confusion entre livres et sous",12
 6951,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Thé,Espagne,0,730,Livres,,"1,4"
 6952,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Vin ; d'amont,Espagne,0,"419,25",Tonneaux,,300
 6953,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1774,Exports,Nantes,2,Vin ; Nantois,Espagne,0,"669,5",Tonneaux,,120
@@ -8411,7 +8411,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 8411,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Raz de Maroc,Portugal,0,4060,Livres,,4
 8412,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Ris,Portugal,0,200,Livres,,"0,2"
 8413,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Sirop d'amour,Portugal,0,47090,Livres,,"0,15"
-8414,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Terre a sucre,Portugal,0,12,Bariques,,"0,55"
+8414,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Terre a sucre,Portugal,0,12,Bariques,"le prix semble beaucoup trop bas (0,55 livres), il semble qu’il y ait une erreur de dizaine","5,5"
 8415,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Toile ; blanche,Portugal,0,4890,Livres,,9
 8416,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Toile ; Cholet,Portugal,0,8933,Livres,,"3,75"
 8417,Pascal Fontaine,AD 44 C717,Local/Nantes/Nantes-exports.csv,Local,1778,Exports,Nantes,11,Vin ; de Bordeaux,Portugal,0,6,Bariques,,100

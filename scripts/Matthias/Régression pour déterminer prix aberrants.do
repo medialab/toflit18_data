@@ -6,7 +6,7 @@
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  drop if prix_unitaire==.
  drop if prix_unitaire==0
- keep if u_conv!=""
+ keep if u_conv==""
  drop if quantit==.
  drop if quantity_unit==""
  gen lnPrix=ln(prix_unitaire)
@@ -27,18 +27,24 @@
  predict lnPrix_predExp if e(sample)
  gen résiduExp = lnPrix_predExp - lnPrix
 
- drop if abs(résiduImp)<5 & exportsimports=="Imports"
- drop if abs(résiduExp)<5 & exportsimports=="Exports"
+ drop if abs(résiduImp)<1.5 & exportsimports=="Imports"
+ drop if abs(résiduImp)>2 & exportsimports=="Imports" 
+ drop if abs(résiduExp)<1.5 & exportsimports=="Exports"
+ drop if abs(résiduExp)>2 & exportsimports=="Exports"
  drop if résiduExp==. & résiduImp==.
  
  gen ln_prix_pred = lnPrix_predImp if exportsimports=="Imports"
  replace ln_prix_pred = lnPrix_predExp if exportsimports=="Exports"
  gen prix_predit = exp(ln_prix_pred)
  
+ drop if doubleaccounts=="1"
+ drop if doubleaccounts=="2"
+ drop if doubleaccounts=="3"
  
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
       résiduImp résiduExp quantit prix_unitaire quantity_unit prix_predit
  
+ sort sourcepath numrodeligne
  export delimited using "/Users/Matthias/Données Stata/probleme_prix.csv", replace
  
  * En utilisant les unités métriques
