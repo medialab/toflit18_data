@@ -25,16 +25,25 @@
  gen marchandises_et_quantités = marchandises_simplification + quantity_unit
  sort marchandises_et_quantités
  merge m:1 marchandises_et_quantités using "/Users/Matthias/Données Stata/prix de 1789.dta"
- keep marchandises_et_quantités marchandises_simplification quantity_unit prix_predit
+ keep marchandises_et_quantités marchandises_simplification quantity_unit prix_predit u_conv q_conv
  export delimited using "/Users/Matthias/Données Stata/prix_1792.csv", replace	
  
- /*
+ * Je complète à la main les données pouvant être complétées grâce aux unités conventionnelles 
+ * -> je les mets dans la colonne prix_calculé
+ * Par exemple, pour une même marchandise s'il y a les prix en livres je peux les avoir en quintaux
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  keep if year==1792
- sort marchandises quantity_unit
- merge 1:1 marchandises quantity_unit using "/Users/Matthias/Données Stata/prix de 1789.dta"
- sort sourcepath numrodeligne
+ keep if value==.
+ gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ sort marchandises_et_quantités
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
-      quantit prix_unitaire quantity_unit prix_predit
+      marchandises_simplification quantit prix_unitaire quantity_unit u_conv q_conv ///
+	  marchandises_et_quantités
  export delimited using "/Users/Matthias/Données Stata/1792.csv", replace
+ 
+ * J'organise le fichier de la même manière que celui des prix (ordre alphabétique marchandises_et_quantités)
+ * Je copie colle les colonnes prix_prédit et prix_calculé
+ * Une fois cela effectué, j'ai donc un fichier avec les prix pour tous les flux sans valeur totale
+ * Si ces estimations conviennent, je pourrai donc copier coller ces prix dans le fichier initial 1792 
+
