@@ -44,6 +44,6 @@
  
  * J'organise le fichier de la même manière que celui des prix (ordre alphabétique marchandises_et_quantités)
  * Je copie colle les colonnes prix_prédit et prix_calculé
- * Une fois cela effectué, j'ai donc un fichier avec les prix pour tous les flux sans valeur totale
+ * Une fois cela effectué, j'ai donc obtenu un fichier avec les prix pour tous les flux sans valeur totale
  * Si ces estimations conviennent, je pourrai donc copier coller ces prix dans le fichier initial 1792 
 
