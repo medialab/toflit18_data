@@ -12,6 +12,7 @@ capture log using "`c(current_time)' `c(current_date)'"
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
+*/				 classification_country_obrien /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
 */				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
@@ -292,6 +293,21 @@ sort sortkey
 drop sortkey
 export delimited classification_country_grouping.csv, replace
 
+** 
+use "classification_country_simplification.dta", clear
+drop note
+merge m:1 pays_simplification using "classification_country_obrien.dta"
+
+drop if _merge==2
+drop _merge
+
+bys pays_simplification : keep if _n==1
+keep pays_simplification pays_obrien note
+save "classification_country_obrien.dta", replace
+generate sortkey = ustrsortkey(pays_simplification, "fr")
+sort sortkey
+drop sortkey
+export delimited classification_country_obrien.csv, replace
 
 
 *************Marchandises
@@ -403,6 +419,12 @@ drop if _merge==2
 drop note-_merge
 
 merge m:1 pays_simplification using "classification_country_grouping.dta"
+drop if _merge==2
+drop note-_merge
+
+
+
+merge m:1 pays_simplification using "classification_country_obrien.dta"
 drop if _merge==2
 drop note-_merge
 
