@@ -399,7 +399,7 @@ use "bdd_centrale.dta", clear
 merge m:1 direction using "bdd_directions.dta"
 rename direction direction_origine
 rename direction_simpl direction
-drop _merge
+drop _merge nbr_occurence
 
 merge m:1 origine using "bdd_origine.dta"
 rename origine origine_origine
