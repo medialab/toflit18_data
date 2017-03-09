@@ -144,7 +144,7 @@ replace value=. if (value==0 & quantit!=. & quantit!=0)
 ** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
 * Création de value_as_reported, value = unit_price*quantit...
 
-
+capture drop v24
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
@@ -477,26 +477,32 @@ rename yearnum year
 
  merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
- drop _merge
+ drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
+ 
  merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- drop _merge
+ drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
+ 
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
- drop _merge
+ drop drop remarque_unit-_merge
  codebook q_conv
- drop remarques remarque_unit
  
  generate quantites_metric = q_conv * quantit
 
+ 
+ *******************************************************************
 
 
 export delimited "$dir/Données Stata/bdd courante.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
+sort sourcetype direction year exportsimports numrodeligne 
+order numrodeligne sourcetype year direction pays pays_norm_ortho exportsimports marchandises marchandises_norm_ortho value quantit quantity_unit quantity_unit_ortho prix_unitaire
+drop if year==.
 
 save "$dir/Données Stata/bdd courante", replace
 
