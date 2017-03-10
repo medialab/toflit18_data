@@ -487,7 +487,7 @@ rename yearnum year
  
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
- drop drop remarque_unit-_merge
+ drop  remarque_unit-_merge
  codebook q_conv
  
  generate quantites_metric = q_conv * quantit
