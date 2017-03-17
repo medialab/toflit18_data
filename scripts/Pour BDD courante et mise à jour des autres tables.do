@@ -356,7 +356,8 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg {
+foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg /*
+		*/ bdd_marchandises_grains {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -441,6 +442,11 @@ drop if _merge==2
 drop _merge
 
 merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
+drop if _merge==2
+drop _merge
+
+
+merge m:1 marchandises_simplification using "bdd_marchandises_grains.dta"
 drop if _merge==2
 drop _merge
 
