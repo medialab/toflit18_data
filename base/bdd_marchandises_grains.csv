@@ -62,10 +62,12 @@ acier commun,,non
 acier en barres,,non
 acier et clous,Pas grain (0),non
 acier et fer,Pas grain (0),non
-acier filé et fer carburé,,non
-acier fondu en carreaux ou en tôle et fer carburé,,non
+acier filé et fer carburé,,oui
+acier fondu en carreaux ou en tôle,,non
+acier fondu en carreaux ou en tôle et fer carburé,,oui
 acier fondu forgé et fer carbonaté,,non
-acier forgé et fer carburé,,non
+acier forgé,,non
+acier forgé et fer carburé,,oui
 acons,Pas grain (0),non
 acons démontés,Pas grain (0),non
 acons démontés en gabare,Pas grain (0),non
@@ -408,6 +410,7 @@ arçons de bas de bois,Pas grain (0),non
 arçons de bois,Pas grain (0),non
 arçons de selles,Pas grain (0),non
 ardoise,Pas grain (0),non
+ardoise à piler,,non
 ardoise commune,Pas grain (0),non
 ardoise dite chérubin et à mortier,Pas grain (0),non
 ardoise dite grande voisine,Pas grain (0),non
@@ -426,7 +429,7 @@ ardoise pour toiture,,non
 ardoise pour toiture au kilogramme,,non
 ardoise pour toiture au nombre,,non
 ardoise verte,Pas grain (0),non
-ardoises,Pas grain (0),non
+ardoises,Pas grain (0),oui
 ardoises et ciment et chaux et pierres et plâtre et pouzzolane et sable et terre,Pas grain (0),non
 argent,Pas grain (0),non
 argent battu,Pas grain (0),non
@@ -532,7 +535,7 @@ assiette,Pas grain (0),non
 assiette de Biarritz,Pas grain (0),non
 assiette de bois,Pas grain (0),non
 assiette de faïence,Pas grain (0),non
-assiette de faïence assorties,,non
+assiette de faïence assorties,,oui
 assiette de porcelaine,Pas grain (0),non
 assiette de terre,Pas grain (0),non
 assiette et plats de terre,Pas grain (0),non
@@ -651,6 +654,7 @@ balais de foyer,Pas grain (0),non
 balais de jonc,Pas grain (0),non
 balais de jonc petits,Pas grain (0),non
 balais de laine à laver les planchers,Pas grain (0),non
+balais de millet,,non
 balais de paille,Pas grain (0),non
 balais de paille de riz,Pas grain (0),non
 balais de palme,Pas grain (0),non
@@ -695,6 +699,7 @@ balles de fer uni,Pas grain (0),non
 balles de plomb,Pas grain (0),non
 balles et dragées de plomb,Pas grain (0),non
 balles vides,Pas grain (0),non
+balustres,,non
 bambous,Pas grain (0),non
 banastron,,non
 banc à couper la paille,Pas grain (0),non
@@ -792,6 +797,7 @@ barres de cabestan,Pas grain (0),non
 barres de chêne petites,Pas grain (0),non
 barres de cuivre,Pas grain (0),non
 barres de fer,Pas grain (0),non
+barres de fer à frire,,non
 barres de fer blanc,Pas grain (0),non
 barres de fer étiré,,non
 barres de futel,Pas grain (0),non
@@ -926,11 +932,13 @@ basin de Troyes,Pas grain (0),non
 basin des Indes,Pas grain (0),non
 basin en aunes,Pas grain (0),non
 basin et Nakin,Pas grain (0),oui
+basin et Nankin,,non
 basin peint,Pas grain (0),non
 basin pièces de 11 aunes,Pas grain (0),non
 basin pièces de 15 aunes,Pas grain (0),non
 basin rayé,Pas grain (0),non
 basin tout coton,Pas grain (0),non
+basin uni et Nankin uni,,non
 basse,Pas grain (0),non
 basse de viole,Pas grain (0),non
 basse et bassons,Pas grain (0),non
@@ -1390,6 +1398,7 @@ bois de brochialle,Pas grain (0),non
 bois de bruyère,Pas grain (0),non
 bois de buis,Pas grain (0),non
 bois de buis boule,,non
+bois de buis ouvré,,non
 bois de cabestan,,non
 bois de cail-cédra,,non
 bois de Caliatour,Pas grain (0),non
@@ -1556,6 +1565,7 @@ bois de sappan moulu pour teindre,,non
 bois de sappan pour teindre,,non
 bois de sassafras,Pas grain (0),non
 bois de sassafras moulu,Pas grain (0),non
+bois de saule,,non
 bois de saune,Pas grain (0),non
 bois de selles,Pas grain (0),non
 bois de senteur,Pas grain (0),non
@@ -2012,6 +2022,7 @@ bouras,Pas grain (0),non
 bouras de coton,Pas grain (0),non
 bouras de soie,Pas grain (0),non
 bouras du Levant,Pas grain (0),non
+bourde à bâtier,,non
 bourde à cheveux,Pas grain (0),non
 bourdilles,Pas grain (0),non
 bourdilles à barriques,Pas grain (0),non
@@ -2332,6 +2343,7 @@ brouettes outillées,Pas grain (0),non
 broulas,Pas grain (0),non
 broule,,non
 brousse fraîche,Pas grain (0),non
+brousse salée,,non
 broutes chaderdoral,Pas grain (0),non
 brugnoles,,non
 bruimes d'espars,Pas grain (0),non
@@ -2409,6 +2421,7 @@ câble assorti,Pas grain (0),non
 câble de chanvre,,non
 câble de navire,Pas grain (0),non
 câble de navire moyen,Pas grain (0),non
+câble vieux,,non
 câbleaux,Pas grain (0),non
 caboches,Pas grain (0),non
 caboches de fer,Pas grain (0),non
@@ -2480,6 +2493,7 @@ café et provisions,Pas grain (0),non
 café et sucre et thé,Pas grain (0),non
 café ordinaire,Pas grain (0),non
 café pour Genève,,non
+café pur,,non
 café trié,,non
 cafetière de fer-blanc,,non
 cafetières,Pas grain (0),non
@@ -2666,6 +2680,7 @@ cannelle et poivre,Pas grain (0),non
 cannelle fine,,non
 cannelle fine des entrepôts,,non
 cannelle giroflée,Pas grain (0),non
+cannelle malte,,non
 cannelle ocyrez,,non
 cannelle ordinaire,,non
 cannelle sauvage,Pas grain (0),non
@@ -2700,6 +2715,7 @@ canons,Pas grain (0),non
 canons de 18 livres,Pas grain (0),non
 canons de 2 livres,Pas grain (0),non
 canons de 4 livres,Pas grain (0),non
+canons de bronze,,non
 canons de différents calibres,Pas grain (0),non
 canons de fer,Pas grain (0),non
 canons de fer avec leurs affûts,Pas grain (0),non
@@ -2926,6 +2942,7 @@ casaques à nègre,Pas grain (0),non
 casaques de froc,Pas grain (0),non
 casaques de peau,Pas grain (0),non
 casaques et camisoles,,non
+casaques pour matelot,,non
 cascarilles,Pas grain (0),non
 casimir de laine,Pas grain (0),non
 casimir de laine et mérinos,,non
@@ -3113,6 +3130,7 @@ cendre soudes et potasse,Pas grain (0),oui
 cendre tourbe,Pas grain (0),oui
 cendre verte,Pas grain (0),non
 censes de bâtiments,Pas grain (0),non
+censes de bois,,non
 censes pour nettoyer les pots,,non
 cercles,Pas grain (0),non
 cercles à barils,Pas grain (0),non
@@ -3134,10 +3152,14 @@ cercles de 9 à 12 pieds,Pas grain (0),non
 cercles de bois,Pas grain (0),non
 cercles de bois à quarts,Pas grain (0),non
 cercles de bois à tonneaux,Pas grain (0),non
-cercles de bois de barrique,Pas grain (0),non
+cercles de bois de barrique,Pas grain (0),oui
 cercles de bois et feuillard de bois,Pas grain (0),non
+cercles de bois pour barils,,non
+cercles de bois pour barriques,,non
+cercles de bois pour bobillons,,non
 cercles de bois pour la mire,Pas grain (0),non
 cercles de bois pour pipes,Pas grain (0),non
+cercles de bois pour tamis,,non
 cercles de bois pour tanier,Pas grain (0),non
 cercles de cuivre de poil,Pas grain (0),non
 cercles de demitte,Pas grain (0),non
@@ -3149,7 +3171,7 @@ cercles de jonc,Pas grain (0),non
 cercles de tamis,,non
 cercles ocloir,Pas grain (0),non
 cercles pour barriques de bois,Pas grain (0),non
-cercles pour bobillons de bois,Pas grain (0),non
+cercles pour bobillons de bois,Pas grain (0),oui
 cercocole,Pas grain (0),non
 cerises,Pas grain (0),non
 cerneaux,Pas grain (0),non
@@ -3280,6 +3302,7 @@ chanvre,Pas grain (0),non
 chanvre apprêté,Pas grain (0),non
 chanvre battu,Pas grain (0),non
 chanvre brut,Pas grain (0),non
+chanvre commun,,non
 chanvre cru,Pas grain (0),non
 chanvre de masse,Pas grain (0),non
 chanvre deuxième qualité,Pas grain (0),non
@@ -3748,6 +3771,7 @@ cire blanche et jaune,Pas grain (0),non
 cire blanche et jaune non ouvrée,Pas grain (0),non
 cire blanche non ouvrée,Pas grain (0),non
 cire blanche ouvrée,Pas grain (0),non
+cire brune,,non
 cire brune non clarifiée,,non
 cire brune non clarifiée du Sénégal,,non
 cire brute blanche,,non
@@ -3876,6 +3900,7 @@ cochon salé,Pas grain (0),non
 cochon salé et petit salé,Pas grain (0),non
 cochons de lait,,non
 coclearia,Pas grain (0),non
+coco des Indes,,non
 cocoa,Pas grain (0),non
 cocons,Pas grain (0),non
 cocons de soie,Pas grain (0),non
@@ -4013,7 +4038,7 @@ conserve d'alkermès,Pas grain (0),non
 conserve de rose,Pas grain (0),non
 conserves de fleurs d'orange,Pas grain (0),non
 conterie,Pas grain (0),non
-conton filé,Pas grain (0),non
+conton filé,Pas grain (0),oui
 contra yerba,Pas grain (0),non
 contrabierre,Pas grain (0),non
 contrebordé,Pas grain (0),non
@@ -4025,10 +4050,13 @@ copeaux pour fourreaux d'épée,Pas grain (0),non
 coqs,Pas grain (0),non
 coqs d'Inde,Pas grain (0),non
 coqs du Levant,,non
+coque,,non
+coque de coco,,non
+coque de mouche à miel,,non
 coque du Levant,Pas grain (0),non
 coquenard de cuivre,Pas grain (0),non
-coques de coco,,non
-coques de mouche à miel,,non
+coques de coco,,oui
+coques de mouche à miel,,oui
 coquillage,Pas grain (0),non
 coquillage de mer,Pas grain (0),non
 coquillages homards moules,,non
@@ -4178,6 +4206,7 @@ coriandre et riz,Pas grain (0),non
 Corinthe,,non
 cornalines,Pas grain (0),non
 cornalines fines,Pas grain (0),non
+cornalines montées en or,,non
 corne fine,Pas grain (0),non
 cornes,Pas grain (0),non
 cornes à faire peigner,Pas grain (0),non
@@ -4203,6 +4232,7 @@ cornes de cerf et de snack en râpure,Pas grain (0),non
 cornes de cerf râpées,,non
 cornes de cerf râpure,Pas grain (0),non
 cornes de lanternes,Pas grain (0),non
+cornes de licorne,,non
 cornes de mouton,Pas grain (0),non
 cornes de plate,Pas grain (0),non
 cornes de rhinocéros,,non
@@ -4244,6 +4274,7 @@ corset brodés de soie,,non
 corset de demitte,,non
 corset de toile,,non
 corsets,Pas grain (0),oui
+corsets baleinés,,non
 corsets de demitte,Pas grain (0),oui
 corsets de toile,Pas grain (0),oui
 corty,Pas grain (0),non
@@ -4262,12 +4293,16 @@ coton autres de Méditerranée,,non
 coton autres de Turquie,,non
 coton autres longue soie,,non
 coton bleu,Pas grain (0),non
+coton brut et fil de coton,,non
+coton brut et fil de coton des Îles,,non
+coton brut et fil de coton étranger,,non
 coton cardé,Pas grain (0),non
 coton courte soie,,non
 coton courte soie des entrepôts,,non
 coton de laine,Pas grain (0),non
 coton de Malte,Pas grain (0),non
 coton des colonies françaises,,non
+coton des Îles et des Indes,,non
 coton des Indes,Pas grain (0),non
 coton en balles et toile,Pas grain (0),non
 coton en feuilles cardées et gommées ouates,,non
@@ -4276,29 +4311,30 @@ coton en laine de retour,Pas grain (0),non
 coton en laine des Indes,Pas grain (0),non
 coton en laine du Brésil,Pas grain (0),non
 coton en laine du Levant,Pas grain (0),non
-coton en laine et filé,Pas grain (0),non
+coton en laine et filé,Pas grain (0),oui
 coton en ouate,,non
 coton en ouatte,Pas grain (0),oui
 coton en rames,Pas grain (0),non
-coton en rames et filé,Pas grain (0),non
+coton en rames et fil de coton,,non
+coton en rames et filé,Pas grain (0),oui
 coton et sits et mousseline,Pas grain (0),oui
-coton filé,Pas grain (0),non
-coton filé blanc,Pas grain (0),non
-coton filé bleu,Pas grain (0),non
-coton filé commun,Pas grain (0),non
-coton filé de Boza,Pas grain (0),non
-coton filé de retour,Pas grain (0),non
-coton filé des Indes,Pas grain (0),non
-coton filé du Levant,Pas grain (0),non
-coton filé en laine,Pas grain (0),non
-coton filé en laine des Indes,Pas grain (0),non
-coton filé en laine étranger,Pas grain (0),non
-coton filé et non filé,Pas grain (0),non
-coton filé étranger,Pas grain (0),non
-coton filé fin,Pas grain (0),non
-coton filé fin d'once,Pas grain (0),non
-coton filé rouge,Pas grain (0),non
-coton filé teint,Pas grain (0),non
+coton filé,Pas grain (0),oui
+coton filé blanc,Pas grain (0),oui
+coton filé bleu,Pas grain (0),oui
+coton filé commun,Pas grain (0),oui
+coton filé de Boza,Pas grain (0),oui
+coton filé de retour,Pas grain (0),oui
+coton filé des Indes,Pas grain (0),oui
+coton filé du Levant,Pas grain (0),oui
+coton filé en laine,Pas grain (0),oui
+coton filé en laine des Indes,Pas grain (0),oui
+coton filé en laine étranger,Pas grain (0),oui
+coton filé et non filé,Pas grain (0),oui
+coton filé étranger,Pas grain (0),oui
+coton filé fin,Pas grain (0),oui
+coton filé fin d'once,Pas grain (0),oui
+coton filé rouge,Pas grain (0),oui
+coton filé teint,Pas grain (0),oui
 coton imprimé,,non
 coton longue soie,,non
 coton longue soie des entrepôts,,non
@@ -4480,6 +4516,7 @@ crabes et geernaerts,Pas grain (0),non
 crabes et limaçons,Pas grain (0),non
 craie,Pas grain (0),non
 craie blanche,Pas grain (0),non
+craie de Besançon,,non
 craie et blanc d'Espagne et ocre jaune et rouge,Pas grain (0),non
 craie et ocre et brun et rouge,Pas grain (0),non
 craie noire,Pas grain (0),non
@@ -4552,6 +4589,7 @@ cribles de bois,Pas grain (0),non
 cribles de fil de laiton,Pas grain (0),non
 cribles de laiton à café,Pas grain (0),non
 cribles et bluteaux de moulins,Pas grain (0),non
+cribles petits,,non
 crics,Pas grain (0),non
 crics de fer,Pas grain (0),non
 crin,Pas grain (0),non
@@ -4564,7 +4602,7 @@ crin brut de cheval,Pas grain (0),non
 crin de cheval,Pas grain (0),non
 crin de cheval griporé,Pas grain (0),non
 crin de chèvre,,non
-crin filé,Pas grain (0),non
+crin filé,Pas grain (0),oui
 crin frisé,Pas grain (0),non
 crin plan,Pas grain (0),non
 crin plat,Pas grain (0),non
@@ -4603,6 +4641,7 @@ croix de cuivre argenté,Pas grain (0),non
 croix de grenat,Pas grain (0),non
 croix de gresse,,non
 crons et débris de maison,Pas grain (0),non
+cruches,,non
 cruches de Cologne,Pas grain (0),non
 cruches de fer,Pas grain (0),non
 cruches de grès,Pas grain (0),non
@@ -4654,11 +4693,13 @@ cuirs de bœuf apprêtés et tannés,,non
 cuirs de bœuf au poil,Pas grain (0),non
 cuirs de bœuf corroyés,Pas grain (0),non
 cuirs de bœuf d'Illinois,Pas grain (0),non
+cuirs de bœuf de Russie,,non
 cuirs de bœuf en poil,Pas grain (0),non
 cuirs de bœuf en poil et cuir de vache en poil,Pas grain (0),non
 cuirs de bœuf en poil et secs,Pas grain (0),non
 cuirs de bœuf en poil tannés,Pas grain (0),non
-cuirs de bœuf en poil testes,,non
+cuirs de bœuf en poil testes,,oui
+cuirs de bœuf en poil têtes,,non
 cuirs de bœuf et vache apprêtés,Pas grain (0),non
 cuirs de bœuf ou vache,Pas grain (0),non
 cuirs de bœuf passés en Hongrie,,non
@@ -4669,6 +4710,7 @@ cuirs de bœuf tannés et cuir de vache tannés,Pas grain (0),non
 cuirs de bœufs en poil,Pas grain (0),non
 cuirs de buffle,Pas grain (0),non
 cuirs de buffle en poil,Pas grain (0),non
+cuirs de buffletin,,non
 cuirs de cerf en poil,Pas grain (0),non
 cuirs de cheval,Pas grain (0),non
 cuirs de cheval en poil,Pas grain (0),non
@@ -4715,6 +4757,7 @@ cuirs en poil tannés,Pas grain (0),non
 cuirs en poil verts,Pas grain (0),non
 cuirs en retail,Pas grain (0),non
 cuirs en rognures,Pas grain (0),non
+cuirs en têtes,,non
 cuirs et peaux de bœuf et de vache apprêté,Pas grain (0),non
 cuirs et peaux non apprêtés,Pas grain (0),non
 cuirs forts,Pas grain (0),non
@@ -4770,7 +4813,7 @@ cuivre argenté,Pas grain (0),non
 cuivre argenté battu laminé ou tiré,,non
 cuivre argenté et doré,Pas grain (0),non
 cuivre argenté et doré et plaqué,Pas grain (0),non
-cuivre argenté filé sur fil,,non
+cuivre argenté filé sur fil,,oui
 cuivre argenté flambeaux,Pas grain (0),non
 cuivre battu,Pas grain (0),non
 cuivre battu ou laminé à toutes destinations,,non
@@ -4797,7 +4840,7 @@ cuivre de Russie,Pas grain (0),non
 cuivre doré,Pas grain (0),non
 cuivre doré battu filé laminé ou tiré,,non
 cuivre doré battu laminé ou tiré,,non
-cuivre doré filé sur fil,,non
+cuivre doré filé sur fil,,oui
 cuivre en chaudron,Pas grain (0),oui
 cuivre en coupe,Pas grain (0),non
 cuivre en lancher,Pas grain (0),non
@@ -4814,10 +4857,10 @@ cuivre en toupe,Pas grain (0),non
 cuivre et bronze et laiton,Pas grain (0),non
 cuivre et pièces de cuivre,Pas grain (0),non
 cuivre et potin gris,Pas grain (0),non
-cuivre filé à toutes destinations,,non
-cuivre filé en barreaux ronds,,non
-cuivre filé pour fabrication d'épingles,,non
-cuivre filé teint,,non
+cuivre filé à toutes destinations,,oui
+cuivre filé en barreaux ronds,,oui
+cuivre filé pour fabrication d'épingles,,oui
+cuivre filé teint,,oui
 cuivre forgé,Pas grain (0),non
 cuivre jaune,Pas grain (0),non
 cuivre jaune avec calamine,Pas grain (0),non
@@ -4836,8 +4879,8 @@ cuivre pur coulé en barres et plaques régulières,,non
 cuivre pur coulé en masses brutes,,non
 cuivre pur en barres et plaques régulières,,non
 cuivre pur en masses brutes,,non
-cuivre pur filé,,non
-cuivre pur filé non-teint,,non
+cuivre pur filé,,oui
+cuivre pur filé non-teint,,oui
 cuivre rompu,Pas grain (0),non
 cuivre rosette,Pas grain (0),non
 cuivre rouge,Pas grain (0),non
@@ -4928,6 +4971,8 @@ Damas de Tours,Pas grain (0),oui
 Damas des deux couleurs,Pas grain (0),oui
 damas faux,,non
 Damas fil et coton,Pas grain (0),oui
+damas noir,,non
+damas violet,,non
 damasquette,Pas grain (0),non
 dame-jeannes,Pas grain (0),non
 dame-jeannes clissées,Pas grain (0),non
@@ -5118,7 +5163,7 @@ dorure fausse,Pas grain (0),non
 dorure fausse en or et argent,Pas grain (0),non
 dorure fausse en or et argent battu tiré et laminé,Pas grain (0),non
 dorure fausse et fine,,non
-dorure filée,Pas grain (0),non
+dorure filée,Pas grain (0),oui
 dorure fine,Pas grain (0),non
 dorure fine en galon d'or,Pas grain (0),non
 dorure fine sur soie,,non
@@ -5179,6 +5224,7 @@ drap à sucre,Pas grain (0),non
 drap anglais,Pas grain (0),non
 drap au 6ème de soie,,non
 drap au sixième de soie,Pas grain (0),non
+drap avarié,,non
 drap blanc,Pas grain (0),non
 drap blanc d'Espagne,Pas grain (0),non
 drap blanc de Bremer,Pas grain (0),non
@@ -5585,12 +5631,14 @@ eau de Cologne,Pas grain (0),non
 eau de composition,Pas grain (0),non
 eau de Cordoue,Pas grain (0),non
 eau de feuilles d'orange,Pas grain (0),non
+eau de fleurs,,non
 eau de fleurs d'orange,Pas grain (0),non
 eau de fleurs de senteur,,non
 eau de fleurs fortes,,non
 eau de garance,,non
 eau de genièvre,Pas grain (0),non
 eau de grain,,non
+eau de hongrie,,non
 eau de jasmin,,non
 eau de la Côte,Pas grain (0),non
 eau de la reine de Hongrie,,non
@@ -5615,6 +5663,7 @@ eau de raison,Pas grain (0),non
 eau de rave,,non
 eau de raze,Pas grain (0),non
 eau de Rochefort,Pas grain (0),non
+eau de romarin,,non
 eau de rose,Pas grain (0),non
 eau de rose essence de térébenthine,,non
 eau de Seltzer,Pas grain (0),non
@@ -5698,7 +5747,7 @@ eau-de-vie de genièvre et de grains,Pas grain (0),non
 eau-de-vie de genièvre simple,Pas grain (0),non
 eau-de-vie de grain,Pas grain (0),non
 eau-de-vie de grains autre que genièvre,,non
-eau-de-vie de grains de genièvre,,non
+eau-de-vie de grains de genièvre,,oui
 eau-de-vie de grains et simple,Pas grain (0),non
 eau-de-vie de lavande et simple,Pas grain (0),non
 eau-de-vie de Marennes,Pas grain (0),non
@@ -5728,6 +5777,7 @@ eau-de-vie simple de vin,Pas grain (0),non
 eau-de-vie spiritueuse,Pas grain (0),non
 eau-de-vie triple,Pas grain (0),non
 eau-forte,Pas grain (0),non
+eaux de vie anisette,,non
 ébénisterie,Pas grain (0),non
 écaille,Pas grain (0),non
 écaille ???,Pas grain (0),non
@@ -5786,6 +5836,7 @@ echalote,Pas grain (0),oui
 écorce de bois de fer,Pas grain (0),non
 écorce de cacao,Pas grain (0),non
 écorce de câpres,Pas grain (0),non
+écorce de cédrat,,non
 écorce de cèdre,Pas grain (0),non
 écorce de chanvre,Pas grain (0),non
 écorce de chêne,Pas grain (0),non
@@ -5810,6 +5861,7 @@ echalote,Pas grain (0),oui
 écorce de pin moulue,,non
 écorce de quinquina,Pas grain (0),non
 écorce de simaboura,Pas grain (0),oui
+écorce de simarouba,,non
 écorce de soie,Pas grain (0),non
 écorce de tilleul,Pas grain (0),non
 écorce de tilleul pour cordages,,non
@@ -5903,6 +5955,7 @@ encre commune,Pas grain (0),non
 encre d'imprimerie,Pas grain (0),non
 encre de la Chine,Pas grain (0),non
 encre de la petite vertu,Pas grain (0),non
+encre de nankin,,non
 encre liquide à écrire ou à imprimer,,non
 encre rouge,Pas grain (0),non
 encres odorantes,,non
@@ -5994,7 +6047,9 @@ escortines d'espars,,non
 escosses,Pas grain (0),non
 escot,,non
 escot de laine,,non
+escotins de bois,,non
 escots,,non
+escots de bois,,non
 escots de fer,Pas grain (0),non
 espadrilles,Pas grain (0),non
 espagnolette,Pas grain (0),non
@@ -6112,13 +6167,14 @@ essence de pommade,,non
 essence de rose,Pas grain (0),non
 essence de térébenthine,Pas grain (0),non
 essence de térébenthine et huile de térébenthine,Pas grain (0),non
-essence de thym,Pas grain (0),oui
+essence de thym,Pas grain (0),non
 essence de vitriol,Pas grain (0),non
 essence et huile de térébenthine,,non
 essence et huile de thérébenthine,Pas grain (0),oui
 essence et pommade,Pas grain (0),non
 essence odoriférante,Pas grain (0),non
 essence ou esprit de citron,,non
+essence vitriolique et vitriol huile,,non
 essence vitrioliques et huile de vitriol,Pas grain (0),oui
 essieux,Pas grain (0),non
 essieux à cabrouets,Pas grain (0),non
@@ -6143,7 +6199,7 @@ esturgeon,Pas grain (0),non
 esturgeon en adaube,Pas grain (0),non
 esturgeon mariné,Pas grain (0),non
 esturgeon salé,Pas grain (0),non
-esturgeons,Pas grain (0),non
+esturgeons,Pas grain (0),oui
 étain,Pas grain (0),non
 étain battu,Pas grain (0),non
 étain battu ou limé,,non
@@ -6163,6 +6219,7 @@ esturgeons,Pas grain (0),non
 étain en feuilles,Pas grain (0),non
 étain en lingots,Pas grain (0),non
 étain en plats,Pas grain (0),non
+étain en plomb,,non
 étain en saumon,Pas grain (0),non
 étain et plomb,Pas grain (0),non
 étain fin,Pas grain (0),non
@@ -6193,6 +6250,7 @@ etamette,Pas grain (0),oui
 étamine avec vingt brins de soie,Pas grain (0),non
 étamine burail,Pas grain (0),non
 étamine buratée de laine,,non
+étamine burette,,non
 étamine d'Agen,Pas grain (0),non
 étamine d'Allemagne,Pas grain (0),non
 étamine d'Amiens,Pas grain (0),non
@@ -6378,7 +6436,7 @@ etocs de fer,Pas grain (0),non
 étoffe de laine fleuret au quart,,non
 étoffe de laine fleuret et de soie,,non
 étoffe de laine florentine,Pas grain (0),non
-étoffe de laine grains d'orge,,non
+étoffe de laine grains d'orge,,oui
 étoffe de laine grosse,,non
 étoffe de laine imprimée,Pas grain (0),non
 étoffe de laine large et serge,Pas grain (0),non
@@ -6704,6 +6762,7 @@ farine de grains froment,Grains transformés (5),oui
 farine de grains froment fleur,Grains transformés (5),oui
 farine de maïs menus grains et seigle,,non
 farine de Mayoc,Grains transformés (5),non
+farine de pois sec et fève,,non
 farine de sarrasin,Grains transformés (5),non
 farine de seigle,Grains transformés (5),non
 farine diverse,Grains transformés (5),oui
@@ -6856,6 +6915,7 @@ fer en verges et lattes,Pas grain (0),non
 fer et canons de fer,Pas grain (0),non
 fer et étain,Pas grain (0),non
 fer et ferrements à nègre,Pas grain (0),non
+fer et ferrures,,non
 fer figuré,Pas grain (0),non
 fer floud,,non
 fer fondu,Pas grain (0),non
@@ -6918,6 +6978,7 @@ ferrements de menuisier,Pas grain (0),non
 ferrés,Pas grain (0),non
 ferrières,Pas grain (0),non
 ferrure,Pas grain (0),non
+ferrures,,non
 feu,Pas grain (0),non
 feu argenté,Pas grain (0),non
 feuillard,Pas grain (0),non
@@ -7004,6 +7065,7 @@ figue,Pas grain (0),non
 figue et raisin,Pas grain (0),non
 figue et sumac,Pas grain (0),non
 figue fraîche et fruits verts,Pas grain (0),non
+figue prune et raisin,,non
 figue sèche,Pas grain (0),non
 figues et raisins secs pruneaux et poires tapées,,non
 figues sèches,Pas grain (0),non
@@ -7054,7 +7116,7 @@ fil à dentelle fin,Pas grain (0),non
 fil à dentelle mi fin,Pas grain (0),non
 fil à dentelle moyen,Pas grain (0),non
 fil à dentelle sain,Pas grain (0),non
-fil à esturgeons,Pas grain (0),non
+fil à esturgeons,Pas grain (0),oui
 fil à flotte,,non
 fil à folle,Pas grain (0),non
 fil à fondre,Pas grain (0),non
@@ -7069,6 +7131,7 @@ fil à papillon,Pas grain (0),non
 fil à ralingue,Pas grain (0),non
 fil à rets,Pas grain (0),non
 fil à sapillon,Pas grain (0),non
+fil à sardineaux,,non
 fil à sennes,Pas grain (0),non
 fil à tisserand,Pas grain (0),non
 fil à tisserand de chenette,Pas grain (0),non
@@ -7080,6 +7143,7 @@ fil à voiler,Pas grain (0),non
 fil auville,Pas grain (0),non
 fil blanc,Pas grain (0),non
 fil blanc à coudre,Pas grain (0),non
+fil blanc bas prix,,non
 fil blanc commun,,non
 fil blanc d'Épinal,Pas grain (0),non
 fil blanc de chanvre,Pas grain (0),non
@@ -7087,6 +7151,7 @@ fil blanc de lin,,non
 fil blanc de lin d'Épinal,Pas grain (0),non
 fil blanc et couleur,Pas grain (0),non
 fil blanc fin,,non
+fil blanc haut prix,,non
 fil blanc retors,Pas grain (0),non
 fil cardé,Pas grain (0),non
 fil chèvre,,non
@@ -7120,6 +7185,7 @@ fil d'étoupes de lin,Pas grain (0),non
 fil d'or,Pas grain (0),non
 fil d'or faux,Pas grain (0),non
 fil d'or fin,Pas grain (0),non
+fil d'or sur soie,,non
 fil d'or surdoré,,non
 fil d'or vrai,Pas grain (0),non
 fil de Bergagne,,non
@@ -7170,17 +7236,37 @@ fil de corailleur,Pas grain (0),non
 fil de cordonnier,Pas grain (0),non
 fil de coton,Pas grain (0),non
 fil de coton blanc,Pas grain (0),non
+fil de coton bleu,,non
+fil de coton commun,,non
+fil de coton de Boza,,non
+fil de coton de retour,,non
+fil de coton des Indes,,non
+fil de coton du Levant,,non
+fil de coton étranger,,non
+fil de coton fin,,non
+fil de coton fin d'once,,non
 fil de coton pur ou mélangé,,non
+fil de coton rouge,,non
 fil de coton teint,Pas grain (0),non
 fil de couleurs,Pas grain (0),non
 fil de crin,Pas grain (0),non
 fil de cuivre,,non
+Fil de cuivre argenté,,non
+fil de cuivre doré,,non
+fil de cuivre en barreaux ronds,,non
+fil de cuivre pour fabrication d'épingles,,non
+fil de cuivre pur,,non
+fil de cuivre pur non-teint,,non
+fil de cuivre pur teint,,non
+fil de de soie,,non
+fil de dorure,,non
 fil de fer,Pas grain (0),non
 fil de fer à carder,Pas grain (0),non
 fil de fer gros,Pas grain (0),non
 fil de fer ordinaire,Pas grain (0),non
 fil de fer passe perles,Pas grain (0),non
 fil de fer passepoil,Pas grain (0),non
+fil de filoselle,,non
 fil de Flandre,Pas grain (0),non
 fil de Flandre fin,Pas grain (0),non
 fil de fleuret,Pas grain (0),non
@@ -7188,11 +7274,27 @@ fil de laine,Pas grain (0),non
 fil de laine à broder,,non
 fil de laine à coudre,Pas grain (0),non
 fil de laine blanc,Pas grain (0),non
+fil de laine commune,,non
+fil de laine fine,,non
+fil de laine fine et teinte,,non
+fil de laine grasse,,non
+fil de laine ou sayette blanche,,non
+fil de laine ou sayette teinte,,non
+fil de laine pour tenture,,non
 fil de laine teint,Pas grain (0),non
+fil de laine teinte,,non
+fil de laine teinte pour broder,,non
 fil de laiton,Pas grain (0),non
 fil de laiton argenté,Pas grain (0),non
 fil de laiton et laiton,Pas grain (0),non
 fil de laiton jaune,Pas grain (0),non
+fil de laiton jaune et noir,,non
+fil de laiton jaune et noir pour épingle,,non
+fil de laiton non poli,,non
+fil de laiton poli,,non
+fil de laiton poli pour cordes d'instrument,,non
+fil de laiton poli pour instrument,,non
+fil de laiton pour cordes d'instrument,,non
 fil de latez,Pas grain (0),non
 fil de layette,Pas grain (0),non
 fil de lin,Pas grain (0),non
@@ -7202,9 +7304,19 @@ fil de lin bis blanc,Pas grain (0),non
 fil de lin bis retors,Pas grain (0),non
 fil de lin bis simple,Pas grain (0),non
 fil de lin blanc,Pas grain (0),non
+fil de lin blanc de 10 à 12 florins la livre,,non
+fil de lin blanc de 5 à 8 florins la livre,,non
+fil de lin blanc et cru pour dentelle,,non
+fil de lin blanc non tordu,,non
+fil de lin blanc pour dentelle,,non
 fil de lin blanc retors,Pas grain (0),non
 fil de lin blanc simple,Pas grain (0),non
 fil de lin cru,Pas grain (0),non
+fil de lin cru à toile,,non
+fil de lin cru de 10 à 12 florins la livre,,non
+fil de lin cru de bas prix,,non
+fil de lin cru haut prix,,non
+fil de lin cru pour dentelle,,non
 fil de lin cru simple,Pas grain (0),non
 fil de lin d'Épinal,Pas grain (0),non
 fil de lin de couleur,Pas grain (0),non
@@ -7224,6 +7336,7 @@ fil de lin simple commun,Pas grain (0),non
 fil de lin teint,Pas grain (0),non
 fil de lin teint à coudre,Pas grain (0),non
 fil de lin teint retors,Pas grain (0),non
+fil de lin tors cru et simple cru,,non
 fil de loupe,Pas grain (0),non
 fil de ménages,Pas grain (0),non
 fil de Morlaix,Pas grain (0),non
@@ -7232,9 +7345,12 @@ fil de Niort,Pas grain (0),non
 fil de palamard,,non
 fil de palangre,Pas grain (0),non
 fil de palmes,,non
+fil de ploc,,non
 fil de plocq,,non
+fil de poil de bœufs,,non
 fil de poil de cheval,,non
 fil de poil de chèvre,Pas grain (0),non
+Fil de poil de chèvre,,non
 fil de poils autres que chèvre laine et plocq,,non
 fil de poils divers,,non
 fil de remsal,Pas grain (0),non
@@ -7248,6 +7364,10 @@ fil de soie,Pas grain (0),non
 fil de téton,Pas grain (0),non
 fil de tisserand,Pas grain (0),non
 fil de toile,Pas grain (0),non
+fil de Turquie blanc,,non
+fil de Turquie cru,,non
+fil de Turquie teint,,non
+fil de verre,,non
 fil de ville,Pas grain (0),non
 fil de voile,Pas grain (0),non
 fil divers,Pas grain (0),non
@@ -7264,6 +7384,7 @@ fil en laiton,Pas grain (0),non
 fil en lin,Pas grain (0),non
 fil en masse,Pas grain (0),non
 fil en poignée,Pas grain (0),non
+fil et planches de laiton,,non
 fil et soie,,non
 fil et toile,Pas grain (0),non
 fil everda,Pas grain (0),non
@@ -7281,6 +7402,7 @@ fil plat,Pas grain (0),non
 fil retors,Pas grain (0),non
 fil retors à coudre,Pas grain (0),non
 fil rets,Pas grain (0),non
+fil roux,,non
 fil simple,Pas grain (0),non
 fil superfin,Pas grain (0),non
 fil teint,Pas grain (0),non
@@ -7289,31 +7411,31 @@ filasse,Pas grain (0),non
 filasse apprêtée,,non
 filasse aprêtée,Pas grain (0),oui
 filasse d'aloès,,non
-filé blanc bas prix,Pas grain (0),non
-filé blanc haut prix,Pas grain (0),non
-filé cru à toile,Pas grain (0),non
-filé de filoselle,Pas grain (0),non
-filé de laine ou sayette blanche,Pas grain (0),non
-filé de laine ou sayette teinte,Pas grain (0),non
-filé de laine pour tenture,Pas grain (0),non
-filé de lin blanc de 10 à 12 florins la livre,Pas grain (0),non
-filé de lin blanc de 5 à 8 florins la livre,Pas grain (0),non
-filé de lin blanc et cru pour dentelle,Pas grain (0),non
-filé de lin blanc non tordu,Pas grain (0),non
-filé de lin blanc pour dentelle,Pas grain (0),non
-filé de lin cru à toile,Pas grain (0),non
-filé de lin cru de 10 à 12 florins la livre,Pas grain (0),non
-filé de lin cru de bas prix,Pas grain (0),non
-filé de lin cru haut prix,Pas grain (0),non
-filé de lin cru pour dentelle,Pas grain (0),non
-filé de lin écru,Pas grain (0),non
-filé de lin tors cru et simple cru,Pas grain (0),non
-filé de Turquie blanc,Pas grain (0),non
-filé de Turquie cru,Pas grain (0),non
-filé de Turquie teint,Pas grain (0),non
-filé de verre,Pas grain (0),non
+filé blanc bas prix,Pas grain (0),oui
+filé blanc haut prix,Pas grain (0),oui
+filé cru à toile,Pas grain (0),oui
+filé de filoselle,Pas grain (0),oui
+filé de laine ou sayette blanche,Pas grain (0),oui
+filé de laine ou sayette teinte,Pas grain (0),oui
+filé de laine pour tenture,Pas grain (0),oui
+filé de lin blanc de 10 à 12 florins la livre,Pas grain (0),oui
+filé de lin blanc de 5 à 8 florins la livre,Pas grain (0),oui
+filé de lin blanc et cru pour dentelle,Pas grain (0),oui
+filé de lin blanc non tordu,Pas grain (0),oui
+filé de lin blanc pour dentelle,Pas grain (0),oui
+filé de lin cru à toile,Pas grain (0),oui
+filé de lin cru de 10 à 12 florins la livre,Pas grain (0),oui
+filé de lin cru de bas prix,Pas grain (0),oui
+filé de lin cru haut prix,Pas grain (0),oui
+filé de lin cru pour dentelle,Pas grain (0),oui
+filé de lin écru,Pas grain (0),oui
+filé de lin tors cru et simple cru,Pas grain (0),oui
+filé de Turquie blanc,Pas grain (0),oui
+filé de Turquie cru,Pas grain (0),oui
+filé de Turquie teint,Pas grain (0),oui
+filé de verre,Pas grain (0),oui
 filet à pêcher vieux,,non
-filet à sardine,Pas grain (0),non
+filet à sardine,Pas grain (0),oui
 filets,Pas grain (0),non
 filets à pêcher,Pas grain (0),non
 filets à pêcher éperviers,Pas grain (0),non
@@ -7323,6 +7445,7 @@ filets à pêcher sardineaux,,non
 filets à pêcher sennes,Pas grain (0),non
 filets à pêcher vieux,,non
 filets à petit poisson,Pas grain (0),non
+filets à sardineaux,,non
 filets à sardines,Pas grain (0),non
 filets à sennes,Pas grain (0),non
 filets d'auf,Pas grain (0),non
@@ -7418,6 +7541,7 @@ fleuret et soie,Pas grain (0),non
 fleurs,Pas grain (0),non
 fleurs aromatiques,Pas grain (0),non
 fleurs artificielles,Pas grain (0),non
+fleurs artificielles de jasmin,,non
 fleurs artificielles et aigrettes,Pas grain (0),non
 fleurs artificielles et ouvrages de modes,Pas grain (0),non
 fleurs artificiels,,non
@@ -7523,6 +7647,7 @@ forme de cordonnier,,non
 forme de terre,Pas grain (0),non
 forme de terre à sucre,Pas grain (0),non
 forme de terre et fabrique de fer,Pas grain (0),non
+formes de cuivre,,non
 fort en diable,Pas grain (0),non
 Forte-piano,,non
 forte-piano à la valeur,,non
@@ -7756,6 +7881,7 @@ futaine de coton,Pas grain (0),non
 futaine de laine,Pas grain (0),non
 futaine de Tournai,Pas grain (0),non
 futaine de toute sorte,Pas grain (0),non
+futaine et velours,,non
 futaine peinte,Pas grain (0),non
 fûts à sas,Pas grain (0),non
 futte,Pas grain (0),non
@@ -7982,6 +8108,7 @@ garou et quercitron,,non
 garras,Pas grain (0),non
 garres,Pas grain (0),non
 garres de terre,Pas grain (0),non
+gâteaux de fleur d'oranger,,non
 gâteaux de miel,Pas grain (0),non
 gatte noire,Pas grain (0),non
 gaude,Pas grain (0),non
@@ -8008,6 +8135,7 @@ gaze au bas de soie,Pas grain (0),non
 gaze au quart,Pas grain (0),non
 gaze au quart de soie,Pas grain (0),non
 gaze au sixième de soie,Pas grain (0),oui
+gaze blanche,,non
 gaze crêpe et mouchoirs de soie,Pas grain (0),non
 gaze crêpe et ruban de soie,Pas grain (0),non
 gaze crêpe et tulle de soie,Pas grain (0),non
@@ -8068,11 +8196,12 @@ gaze tricot de Berling et tulle de coton,,non
 geernaerts,Pas grain (0),non
 gélatine,Pas grain (0),non
 gélinottes,Pas grain (0),non
+gemmes,,non
 gemmes autres que diamants opales et rubis,,non
 gemmes brutes,,non
-gemmes brutes autres,,non
+gemmes brutes autres,,oui
 gemmes taillées,,non
-gemmes taillées autres,,non
+gemmes taillées autres,,oui
 gemmes taillées autres que diamants émeraudes et rubis,,non
 genaux de chêne,Pas grain (0),non
 genestrole,,non
@@ -8110,12 +8239,13 @@ gibier perdrix,Pas grain (0),oui
 gilets,Pas grain (0),non
 gilets à nègre,Pas grain (0),non
 gilets de coton,Pas grain (0),non
-gilets de coton en filoselle,Pas grain (0),oui
+gilets de coton en filoselle,Pas grain (0),non
 gilets de coton et de fil,Pas grain (0),non
 gilets de coton et filoselle,Pas grain (0),non
 gilets de laine,Pas grain (0),non
 gilets de molleton,Pas grain (0),non
 gilets de soie,Pas grain (0),non
+gilets de soie en dorure,,non
 gilets de soie et coton,Pas grain (0),non
 gilets de toile,Pas grain (0),non
 gilets dorure de soie,Pas grain (0),oui
@@ -8233,6 +8363,7 @@ gomme de caragne,Pas grain (0),non
 gomme de cèdre,Pas grain (0),non
 gomme de Cenzier,Pas grain (0),non
 gomme de cerisier,,non
+gomme de cochenille,,non
 gomme de Copahu,,non
 gomme de gaiac,Pas grain (0),non
 gomme de gaïac,Pas grain (0),non
@@ -8333,66 +8464,6 @@ grabeau de vermillon,Pas grain (0),non
 grabeau manelle,Pas grain (0),non
 grai gras,Pas grain (0),non
 grain,,non
-grains ails,,non
-grains autre que céréales,,non
-grains avoine,Menus grains (3),non
-grains avoine et froment,Menus grains (3),non
-grains baillarge,Céréales inférieures (2),non
-grains blé,Froment (1),non
-grains blé de Turquie,Menus grains (3),non
-grains blé et autre grain,Froment (1),non
-grains blé et autres,Froment (1),non
-grains blé et froment,,non
-grains blé et riz,Froment (1),non
-grains cuscute,Menus grains (3),non
-grains d'Espagne,Menus grains (3),non
-grains d'Inde,,non
-grains de jardin,Pas grain (0),non
-grains de prune,Pas grain (0),non
-grains de Riga,Froment (1),non
-grains de séné,,non
-grains de trèfle,,non
-grains de verre,Pas grain (0),non
-grains divers,Céréales inférieures (2),non
-grains dur à tailler,,non
-grains en advestures de toute espèce,Menus grains (3),non
-grains épeautre,Céréales inférieures (2),non
-grains farine fromage etc.,,non
-grains froment,Froment (1),non
-grains froment de la Corse,,non
-grains froment en gerbe,Froment (1),non
-grains froment et méteil,,non
-grains froment par Bayonne et Marseille,Froment (1),non
-grains froment par Marseille,Froment (1),non
-grains froment seigle,,non
-grains grenaille,Céréales inférieures (2),non
-grains maïs,Menus grains (3),non
-grains maïs par Marseille,Menus grains (3),non
-grains maïs seigle,,non
-grains menu,,non
-grains méteil,Céréales inférieures (2),non
-grains métillon,Céréales inférieures (2),non
-grains métillon en gerbe,Céréales inférieures (2),non
-grains millet,Menus grains (3),non
-grains millet gros,,non
-grains mondé et perlé,,non
-grains orge,Céréales inférieures (2),non
-grains orge en gerbe,Céréales inférieures (2),non
-grains orge et soucrion,Céréales inférieures (2),non
-grains orge et soucrion en gerbe,Céréales inférieures (2),non
-grains orge germé,Céréales inférieures (2),non
-grains orge paillarge,Céréales inférieures (2),non
-grains orge par Marseilles,Céréales inférieures (2),non
-grains orge perlé et mondé,Céréales inférieures (2),non
-grains riz,Menus grains (3),non
-grains sarrasin,Menus grains (3),non
-grains seigle,Céréales inférieures (2),non
-grains seigle avarié,Céréales inférieures (2),non
-grains seigle en gerbe,Céréales inférieures (2),non
-grains seigle en gerbes,,non
-grains seigle et blé,Céréales inférieures (2),non
-grains seigle par Marseille,Céréales inférieures (2),non
-grains soucrillon,Céréales inférieures (2),non
 graine,Froment (1),non
 graine ???,Froment (1),non
 graine à chapelets,Pas grain (0),non
@@ -8402,6 +8473,8 @@ graine arabique,,non
 graine blanche,Pas grain (0),non
 graine commune,,non
 graine d'abrus,,non
+graine d'absinthe,,non
+graine d'alipiste,,non
 graine d'alizari,Pas grain (0),non
 graine d'alkermès,Pas grain (0),non
 graine d'alpiste,Pas grain (0),non
@@ -8431,12 +8504,14 @@ graine d'oiseau,Pas grain (0),non
 graine d'oliette,Pas grain (0),non
 graine d'oliette et de sénegré,Pas grain (0),non
 graine de,Pas grain (0),non
+graine de bois d'Inde,,non
 graine de bois de hêtre,Pas grain (0),non
 graine de bois des Indes,Pas grain (0),non
 graine de bois du Brésil,Pas grain (0),non
 graine de bouquette,Pas grain (0),non
 graine de brim,Pas grain (0),non
 graine de brion,Pas grain (0),non
+graine de brocoli,,non
 graine de buisson,Pas grain (0),non
 graine de caillou,Pas grain (0),non
 graine de campêche,Pas grain (0),non
@@ -8462,7 +8537,7 @@ graine de coriandre,,non
 graine de coton,Pas grain (0),non
 graine de coton et de garance,,non
 graine de cumin,Pas grain (0),non
-graine de d'Alma Christi,Pas grain (0),non
+graine de d'Alma Christi,Pas grain (0),oui
 graine de diverse,Pas grain (0),non
 graine de fenouil,Pas grain (0),non
 graine de fenugrec,,non
@@ -8493,6 +8568,7 @@ graine de luzerne et de trèfle,Pas grain (0),non
 graine de melon,Pas grain (0),non
 graine de moutarde,Pas grain (0),non
 graine de mûrier,Menus grains (3),non
+graine de musc,,non
 graine de muscade,Pas grain (0),non
 graine de navette,Pas grain (0),non
 graine de paradis,Pas grain (0),non
@@ -8561,17 +8637,75 @@ grainette,Pas grain (0),non
 grainette jaune,Pas grain (0),non
 grains,,non
 grains à chapelets,Pas grain (0),non
-grains ails,Pas grain (0),oui
+grains ails,,non
+grains autre que céréales,,non
+grains avoine,Menus grains (3),non
+grains avoine et froment,Menus grains (3),non
+grains baillarge,Céréales inférieures (2),non
+grains blé,Froment (1),non
+grains blé de Turquie,Menus grains (3),non
+grains blé et autre grain,Froment (1),non
+grains blé et autres,Froment (1),non
+grains blé et froment,,non
+grains blé et riz,Froment (1),non
+grains cuscute,Menus grains (3),non
+grains d'Espagne,Menus grains (3),non
+grains d'Inde,,non
 grains de cire,Pas grain (0),non
 grains de cire blanche,Pas grain (0),non
 grains de coton,Pas grain (0),non
-grains de genièvre,Pas grain (0),non
+grains de genièvre,Pas grain (0),oui
+grains de jardin,Pas grain (0),oui
 grains de la Corse,,non
 grains de lin,Pas grain (0),non
+grains de millet gros,,non
 grains de plomb,Pas grain (0),non
-grains de séné,Pas grain (0),oui
-grains de trèfle,Pas grain (0),oui
+grains de prune,Pas grain (0),non
+grains de Riga,Froment (1),non
+grains de séné,,non
+grains de trèfle,,non
+grains de verre,Pas grain (0),non
+grains divers,Céréales inférieures (2),non
+grains dur à tailler,,non
+grains en advestures de toute espèce,Menus grains (3),non
+grains épeautre,Céréales inférieures (2),non
+grains farine fromage etc.,,non
+grains froment,Froment (1),non
+grains froment de la Corse,,non
+grains froment en gerbe,Froment (1),non
+grains froment et méteil,,non
+grains froment par Bayonne et Marseille,Froment (1),non
+grains froment par Marseille,Froment (1),non
+grains froment seigle,,non
+grains grenaille,Céréales inférieures (2),non
+grains maïs,Menus grains (3),non
+grains maïs par Marseille,Menus grains (3),non
+grains maïs seigle,,non
+grains menu,,non
+grains méteil,Céréales inférieures (2),non
+grains métillon,Céréales inférieures (2),non
+grains métillon en gerbe,Céréales inférieures (2),non
+grains millet,Menus grains (3),non
+grains millet gros,,non
+grains mondé et perlé,,non
+grains orge,Céréales inférieures (2),non
+grains orge en gerbe,Céréales inférieures (2),non
+grains orge et soucrion,Céréales inférieures (2),non
+grains orge et soucrion en gerbe,Céréales inférieures (2),non
+grains orge germé,Céréales inférieures (2),non
+grains orge paillarge,Céréales inférieures (2),non
+grains orge par Marseilles,Céréales inférieures (2),non
+grains orge perlé et mondé,Céréales inférieures (2),non
 grains petits,Céréales inférieures (2),non
+grains riz,Menus grains (3),non
+grains sarrasin,Menus grains (3),non
+grains seigle,Céréales inférieures (2),non
+grains seigle avarié,Céréales inférieures (2),non
+grains seigle en gerbe,Céréales inférieures (2),non
+grains seigle en gerbes,,non
+grains seigle et blé,Céréales inférieures (2),non
+grains seigle par Marseille,Céréales inférieures (2),non
+grains soucrillon,Céréales inférieures (2),non
 graisse,Pas grain (0),non
 graisse blanche,,non
 graisse d'autruche,,non
@@ -8917,6 +9051,7 @@ hermodatte,Pas grain (0),non
 herse,Pas grain (0),non
 hesses et hirondelles,Pas grain (0),non
 hêtre en blocs,,non
+hipouditte,,non
 histoire naturelle,Pas grain (0),non
 Hondschoote blanche,Pas grain (0),non
 Hondschoote peinte,Pas grain (0),non
@@ -9013,7 +9148,7 @@ huile commune d'olive,Pas grain (0),non
 huile concrète de cacao et de laurier,,non
 huile d'absinthe,Pas grain (0),non
 huile d'Aix,Pas grain (0),non
-huile d'Alma Christi,Pas grain (0),non
+huile d'Alma Christi,Pas grain (0),oui
 huile d'amande,Pas grain (0),non
 huile d'amande douce,Pas grain (0),non
 huile d'ambre,Pas grain (0),non
@@ -9074,7 +9209,6 @@ huile de girofle,Pas grain (0),non
 huile de girofle et sassafras,,non
 huile de girofle et spirituelle,Pas grain (0),non
 huile de grain,Pas grain (0),non
-huile de grains à peintures,Pas grain (0),non
 huile de graine,Pas grain (0),non
 huile de graine d'anis,Pas grain (0),non
 huile de graine d'olive,Pas grain (0),non
@@ -9092,11 +9226,14 @@ huile de graine de térébenthine,Pas grain (0),non
 huile de graine et de lin,Pas grain (0),non
 huile de graine et de noix,Pas grain (0),non
 huile de graine grasse,,non
+huile de grains à peintures,Pas grain (0),oui
 huile de graisse,Pas grain (0),non
 huile de graisse de poisson,Pas grain (0),non
 huile de gras,,non
 huile de gras et de traen pour tanneur,Pas grain (0),oui
+huile de gras et de traens pour tanneurs,,non
 huile de gras pour tanneur,Pas grain (0),oui
+huile de gras pour tanneurs,,non
 huile de Haarlem,Pas grain (0),non
 huile de hareng,Pas grain (0),non
 huile de jasmin,Pas grain (0),non
@@ -9216,6 +9353,7 @@ hypochetia,Pas grain (0),non
 hypocristis,Pas grain (0),non
 igname,Pas grain (0),non
 images,Pas grain (0),non
+images de cire,,non
 images de corne,Pas grain (0),non
 images de papier,Pas grain (0),non
 images de papier et estampes et cartes géographiques,Pas grain (0),non
@@ -9346,6 +9484,7 @@ jardinage divers,Pas grain (0),non
 jardinage jasmin,Pas grain (0),non
 jarres,Pas grain (0),non
 jarres de terre,Pas grain (0),non
+jarres vides,,non
 jarretières,Pas grain (0),non
 jarretières d'argent,Pas grain (0),non
 jarretières d'argent et d'or,Pas grain (0),non
@@ -9402,6 +9541,7 @@ joncs à voile,Pas grain (0),non
 joncs communs,Pas grain (0),non
 joncs de cannes,,non
 joncs des Indes,Pas grain (0),non
+joncs en herbe,,non
 joncs entes,Pas grain (0),oui
 joncs entés,,non
 joncs esté,Pas grain (0),oui
@@ -9501,6 +9641,7 @@ lain,Pas grain (0),non
 lainage couvertures,Pas grain (0),non
 laine,Pas grain (0),non
 laine à broder,Pas grain (0),non
+laine à laver,,non
 laine à lisières,Pas grain (0),non
 laine à matelas,Pas grain (0),non
 laine à tapisserie,Pas grain (0),non
@@ -9508,7 +9649,7 @@ laine à tricoter,Pas grain (0),non
 laine apprêtée pour perruques,Pas grain (0),non
 laine bâtarde,Pas grain (0),non
 laine blanche,Pas grain (0),non
-laine blanche et filée et teinte,Pas grain (0),non
+laine blanche et filée et teinte,Pas grain (0),oui
 laine blanche et fine et filée et teinte,,non
 laine blanche non filée,Pas grain (0),non
 laine bourre et déchets de laine,,non
@@ -9522,7 +9663,7 @@ laine commune brute,,non
 laine commune d'Espagne,Pas grain (0),non
 laine commune épurée,,non
 laine commune et lavée et en suint,Pas grain (0),non
-laine commune filée,Pas grain (0),non
+laine commune filée,Pas grain (0),oui
 laine commune lavée à chaud,,non
 laine commune lavée à froid,,non
 laine commune sans distinction,,non
@@ -9600,9 +9741,9 @@ laine en suint,Pas grain (0),non
 laine en toison,Pas grain (0),non
 laine épurée surfine,,non
 laine et filoselle,,non
-laine filée,Pas grain (0),non
-laine filée et fine,Pas grain (0),non
-laine filée teinte,Pas grain (0),non
+laine filée,Pas grain (0),oui
+laine filée et fine,Pas grain (0),oui
+laine filée teinte,Pas grain (0),oui
 laine fine,Pas grain (0),non
 laine fine de Rome,,non
 laine fine en rames,,non
@@ -9612,14 +9753,14 @@ laine fine et blanche et filée et teinte,Pas grain (0),oui
 laine fine et de chevron,Pas grain (0),non
 laine fine et filée,Pas grain (0),oui
 laine fine et filée et teinte,Pas grain (0),oui
-laine fine filée,,non
-laine fine filée et teinte,,non
+laine fine filée,,oui
+laine fine filée et teinte,,oui
 laine fine lavée,,non
 laine fine lavée à chaud,,non
 laine fine lavée à froid,,non
 laine fine mérinos en suint,Pas grain (0),non
 laine fine mérinos lavée,Pas grain (0),non
-laine grasse et filée,Pas grain (0),non
+laine grasse et filée,Pas grain (0),oui
 laine gromures,Pas grain (0),non
 laine grosse,Pas grain (0),non
 laine l'ance,Pas grain (0),non
@@ -9650,7 +9791,7 @@ laine pelade et surge,Pas grain (0),oui
 laine peluches ???,Pas grain (0),non
 laine petite,Pas grain (0),non
 laine place,Pas grain (0),non
-laine pour broder filée teinte,Pas grain (0),non
+laine pour broder filée teinte,Pas grain (0),oui
 laine pour chapeliers,Pas grain (0),non
 laine rousse,,non
 laine tannée,Pas grain (0),non
@@ -9678,12 +9819,12 @@ laiton en masses brutes,,non
 laiton en planches pour les fabriques,,non
 laiton en rouleau,Pas grain (0),non
 laiton et cuivre,Pas grain (0),non
-laiton filé,Pas grain (0),non
-laiton filé et poli,,non
-laiton filé et poli pour cordes d'instrument,,non
-laiton filé et poli pour instrument,,non
-laiton filé non poli,,non
-laiton filé non poli ou poli pour cordes d'instrument,,non
+laiton filé,Pas grain (0),oui
+laiton filé et poli,,oui
+laiton filé et poli pour cordes d'instrument,,oui
+laiton filé et poli pour instrument,,oui
+laiton filé non poli,,oui
+laiton filé non poli ou poli pour cordes d'instrument,,oui
 laiton gratté,Pas grain (0),non
 laiton gravé ou gratté,Pas grain (0),non
 laiton neuf,Pas grain (0),non
@@ -10158,6 +10299,7 @@ maïs et seigle grain,,non
 malbroug,Pas grain (0),non
 malemole,Pas grain (0),non
 malles,Pas grain (0),non
+malles ???,,non
 malles de cuir,Pas grain (0),non
 malles et valises et coffres,Pas grain (0),non
 malles travaillées,Pas grain (0),non
@@ -10360,6 +10502,7 @@ masques communs,Pas grain (0),non
 masques de cire,,non
 masques de Venise,Pas grain (0),non
 masques fins,Pas grain (0),non
+massepain,,non
 masses,Pas grain (0),non
 masses de bois,Pas grain (0),non
 masses de coton,Pas grain (0),non
@@ -10741,6 +10884,7 @@ merrains à pipes,Pas grain (0),non
 merrains à poinçon,Pas grain (0),non
 merrains à quart,Pas grain (0),non
 merrains à tierçons,Pas grain (0),non
+merrains à tonneau,,non
 merrains à tonneaux,Pas grain (0),non
 merrains à tortue,Pas grain (0),non
 merrains au-dessous de 974 millimètres,,non
@@ -10867,8 +11011,12 @@ meules de différents modules à moudre,,non
 meules de moulins de 4 pieds 1/2,Pas grain (0),non
 meules de moulins de 55 pieds,Pas grain (0),non
 meules de moulins de 6 pieds,Pas grain (0),non
+meules en têtes de renne,,non
 meules ordinaires et à taillandier,Pas grain (0),non
 meules petites,Pas grain (0),non
+meules pour moulin,,non
+meules pour moulin grosses,,non
+meules pour moulin petites,,non
 meules pour moulins,Pas grain (0),non
 meules pour moulins de haute catégorie,Pas grain (0),non
 meules pour moulins dites grand loup d'Angleterre,Pas grain (0),non
@@ -11307,8 +11455,11 @@ mousse de roche,Pas grain (0),non
 mousseline brochée de coton,,non
 mousseline brodée de coton,,non
 mousseline de coton,,non
+mousseline de coton et nankin,,non
+mousseline de coton et nankin des Indes,,non
 mousselines,Pas grain (0),non
 mousselines aune,Pas grain (0),non
+mousselines blanche,,non
 mousselines bordée,,non
 mousselines brodées,Pas grain (0),non
 mousselines de coton,Pas grain (0),non
@@ -11409,9 +11560,13 @@ nacre de perles ouvrée,Pas grain (0),non
 nacre en coquille,,non
 nacre en coquilles,Pas grain (0),oui
 nacre et perles,Pas grain (0),non
-Nankin,Pas grain (0),oui
+nankin,,non
+Nankin,Pas grain (0),non
+Nankin à l'aune,,non
+nankin blanche,,non
 Nankin blanche,Pas grain (0),oui
 Nankin de coton,Pas grain (0),oui
+nankin des Indes,,non
 naphte,,non
 nappes,Pas grain (0),non
 nappes de tables,Pas grain (0),non
@@ -11479,6 +11634,7 @@ nid d'oiseau,Pas grain (0),non
 nina,Pas grain (0),non
 nina de poil,Pas grain (0),non
 nippes,Pas grain (0),non
+nippes de femme,,non
 nippes et atours,Pas grain (0),non
 nœuds d'épée,Pas grain (0),non
 nœuds d'épée avec or,Pas grain (0),non
@@ -11670,9 +11826,9 @@ or et argent paillette,Pas grain (0),non
 or et argent trait,Pas grain (0),non
 or faux,Pas grain (0),non
 or faux battu,Pas grain (0),non
-or filé,Pas grain (0),non
-or filé et vrai,Pas grain (0),non
-or filé sur soie,,non
+or filé,Pas grain (0),oui
+or filé et vrai,Pas grain (0),oui
+or filé sur soie,,oui
 or laminé ou tiré,,non
 or massif,Pas grain (0),non
 or travaillé,Pas grain (0),non
@@ -11824,7 +11980,7 @@ ouvrage de coton,,non
 ouvrage de toile,,non
 ouvrage de toile pour linge de table,,non
 ouvrage de tourneur,,non
-ouvrage de vannier 9050 lignes,,non
+ouvrage de vannier 9050 lignes,,oui
 ouvrage en argenture et dorure,,non
 ouvrages,Pas grain (0),non
 ouvrages ???,Pas grain (0),non
@@ -11832,7 +11988,7 @@ ouvrages ??? à couvrir,Pas grain (0),non
 ouvrages brisés et vieux ouvrages de laiton,,non
 ouvrages corbeille d'osier,Pas grain (0),oui
 ouvrages d'acier,Pas grain (0),non
-ouvrages d'acier et fer carburé,,non
+ouvrages d'acier et fer carburé,,oui
 ouvrages d'airain,Pas grain (0),non
 ouvrages d'albâtre,Pas grain (0),non
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,Pas grain (0),non
@@ -11866,7 +12022,9 @@ ouvrages d'orfèvrerie,Pas grain (0),non
 ouvrages d'orfèvrerie d'argent,Pas grain (0),oui
 ouvrages d'osier,Pas grain (0),non
 ouvrages de bois,Pas grain (0),non
+ouvrages de bois de noyer,,non
 ouvrages de bois de Saint-Claude,,non
+ouvrages de bois de sapin,,non
 ouvrages de bois doré,Pas grain (0),non
 ouvrages de bois en atelier de coluses,,non
 ouvrages de bois en plaqué,Pas grain (0),non
@@ -12132,7 +12290,7 @@ palatine de peau de grèbe,Pas grain (0),non
 palatine de soie,Pas grain (0),non
 palatine et coiffures de gaze,Pas grain (0),non
 palins,Pas grain (0),non
-palma christi,Pas grain (0),non
+palma christi,Pas grain (0),oui
 palme,Pas grain (0),non
 palme en feuilles,Pas grain (0),non
 palme pour balais,,non
@@ -12829,6 +12987,7 @@ peaux de martre commune et en pointe,Pas grain (0),non
 peaux de martre du Canada,Pas grain (0),non
 peaux de martre en queues,Pas grain (0),non
 peaux de martre passées,Pas grain (0),non
+peaux de martre queues,,non
 peaux de martre zibeline,Pas grain (0),non
 peaux de moke,Pas grain (0),non
 peaux de mouton,Pas grain (0),non
@@ -13340,6 +13499,7 @@ pierres d'asphalte,Pas grain (0),non
 pierres d'autel,Pas grain (0),non
 pierres d'écrevisses,Pas grain (0),non
 pierres d'élan,Pas grain (0),non
+pierres d'émeraude,,non
 pierres d'émeri,Pas grain (0),non
 pierres d'émeri en poudre,Pas grain (0),non
 pierres d'éponges,Pas grain (0),non
@@ -13351,6 +13511,7 @@ pierres de Bentem,Pas grain (0),non
 pierres de Bidache,Pas grain (0),non
 pierres de Bidache en carreaux,Pas grain (0),non
 pierres de bleu,Pas grain (0),non
+pierres de Briançon,,non
 pierres de chaussée ou de grès,Pas grain (0),non
 pierres de chaux,Pas grain (0),non
 pierres de composition,Pas grain (0),non
@@ -13390,6 +13551,7 @@ pierres de tombe de 7 à 9 pieds,Pas grain (0),non
 pierres de tombe de haute catégorie,Pas grain (0),non
 pierres de tombe de moindre classe,Pas grain (0),non
 pierres de touche,Pas grain (0),non
+pierres de tuiles,,non
 pierres de verre,Pas grain (0),non
 pierres de vin,Pas grain (0),non
 pierres des Indes,Pas grain (0),non
@@ -13430,6 +13592,7 @@ pierres fausses non montées,,non
 pierres ferrugineuses,,non
 pierres fines,Pas grain (0),non
 pierres fusil,,non
+pierres jaunes,,non
 pierres lithographiques,,non
 pierres lithographiques et autres,,non
 pierres maguisses minérales pour la fabrique de Tournai,Pas grain (0),non
@@ -13465,6 +13628,7 @@ pignons,Pas grain (0),non
 pignons cassés,Pas grain (0),non
 pignons d'épine,Pas grain (0),non
 pignons d'Inde,Pas grain (0),non
+pignons de pin,,non
 pigouilles,,non
 pigouilles de 11 à 15,,non
 piharge,Pas grain (0),non
@@ -13487,6 +13651,7 @@ pinceaux à goudronnier,Pas grain (0),oui
 pinceaux à peindre,,non
 pinceaux de fer,,non
 pincettes de fer,Pas grain (0),non
+pinche,,non
 pinchinat,Pas grain (0),non
 pinchinat de laine,Pas grain (0),non
 pinen,Pas grain (0),non
@@ -13536,7 +13701,7 @@ plaids ou châles,Pas grain (0),non
 plaire,Pas grain (0),non
 plaisses et solles sec et fumés,Pas grain (0),non
 plan d'habitation,Pas grain (0),non
-plan de rouge d'Espagne,,non
+plan de rouge d'Espagne,,oui
 plancards,Pas grain (0),non
 planchenier,Pas grain (0),non
 planches,Pas grain (0),non
@@ -13639,7 +13804,7 @@ planches de futeau,Pas grain (0),non
 planches de hêtre,Pas grain (0),non
 planches de jacaranda,Pas grain (0),non
 planches de laiton,Pas grain (0),non
-planches de laiton filé,Pas grain (0),non
+planches de laiton filé,Pas grain (0),oui
 planches de lard,Pas grain (0),non
 planches de liège,Pas grain (0),non
 planches de Liège,,non
@@ -13908,6 +14073,7 @@ plantes herbes racines etc.,Pas grain (0),non
 plants d'arbres,Pas grain (0),non
 plants d'arbres à fruits,,non
 plants d'argent,,non
+plants d'artichauts,,non
 plants d'asperge,Pas grain (0),non
 plants d'oignon,Pas grain (0),non
 plants d'oignons,Pas grain (0),non
@@ -13922,6 +14088,8 @@ plants de fleurs,Pas grain (0),non
 plants de jardin,Pas grain (0),non
 plants de jasmin,Pas grain (0),non
 plants de mûrier,Pas grain (0),non
+plants de mûriers,,non
+plants de rouge d'Espagne,,non
 plants de tabac,Pas grain (0),non
 plants de vigne,Pas grain (0),non
 plaques,Pas grain (0),non
@@ -13993,7 +14161,7 @@ pleviers,Pas grain (0),non
 plies sèches,Pas grain (0),non
 ploc,Pas grain (0),non
 ploc de 30 pieds,Pas grain (0),non
-ploc filé,Pas grain (0),non
+ploc filé,Pas grain (0),oui
 ploc non filé,Pas grain (0),non
 ploc salé,Pas grain (0),non
 plomb,Pas grain (0),non
@@ -14025,6 +14193,7 @@ plomb thé,Pas grain (0),non
 plomb tuyaux d'orgues,Pas grain (0),non
 plomb vieux,Pas grain (0),non
 plombagine,,non
+plomp de mer,,non
 plumes,Pas grain (0),non
 plumes à cure-dents,Pas grain (0),non
 plumes à écrire,Pas grain (0),non
@@ -14131,7 +14300,7 @@ poil de ???,Pas grain (0),non
 poil de bœuf,Pas grain (0),non
 poil de bœuf c'est de la laine,Pas grain (0),non
 poil de bœuf et de vache,Pas grain (0),non
-poil de bœuf filé,,non
+poil de bœuf filé,,oui
 poil de bouc,Pas grain (0),non
 poil de carton,Pas grain (0),non
 poil de castor,Pas grain (0),non
@@ -14143,7 +14312,7 @@ poil de chameau et de lièvre,Pas grain (0),non
 poil de cheval,Pas grain (0),non
 poil de chèvre,Pas grain (0),non
 poil de chèvre et de lapin et de lièvre,Pas grain (0),non
-poil de chèvre filé,Pas grain (0),non
+poil de chèvre filé,Pas grain (0),oui
 poil de chèvre non filé,Pas grain (0),non
 poil de chèvre simple,Pas grain (0),non
 poil de chevreau,Pas grain (0),non
@@ -14432,6 +14601,7 @@ pots à raffinerie,Pas grain (0),non
 pots à rouler du tabac,Pas grain (0),non
 pots à sucre de terre,Pas grain (0),non
 pots d'étain,Pas grain (0),non
+pots de brai en fer,,non
 pots de cervier,Pas grain (0),non
 pots de chaises de commodité,Pas grain (0),non
 pots de chambre de faïence,Pas grain (0),non
@@ -14509,6 +14679,7 @@ poules en vie,,non
 poules et poulets,,non
 poulets,Pas grain (0),non
 poulets d'Inde,Pas grain (0),non
+poulets de cane,,non
 poulies,Pas grain (0),non
 poulies de bois,Pas grain (0),non
 poulies de gaïac,,non
@@ -14558,6 +14729,7 @@ poutres de sapin de 32 pieds,Pas grain (0),non
 poutres de sapin de 35 pieds,Pas grain (0),non
 poutres de sapin de 36 pieds,Pas grain (0),non
 poutres de sapin de 40 pieds,Pas grain (0),non
+poutres demies poutres,,non
 poutres et poutrelles,Pas grain (0),non
 poutres et solives de sapin,,non
 pouzzolane,,non
@@ -14653,8 +14825,8 @@ quikous chaus,Pas grain (0),non
 quilles de hêtre,Pas grain (0),non
 quilles de navire,Pas grain (0),non
 quilles de vaisseaux,Pas grain (0),non
-quincaille,Pas grain (0),non
-quincaille commune,,non
+quincaille,Pas grain (0),oui
+quincaille commune,,oui
 quincaille de fer ???,,non
 quincaille de fonte acier,Pas grain (0),oui
 quincaille sèche,,non
@@ -14692,10 +14864,10 @@ quincaillerie de fer pigne à corde,Pas grain (0),non
 quincaillerie de fer scie,Pas grain (0),non
 quincaillerie de fil de fer,Pas grain (0),non
 quincaillerie de fumée,Pas grain (0),non
-quincaillerie de laiton filé,Pas grain (0),non
-quincaillerie de laiton filé et jaune,Pas grain (0),non
-quincaillerie de laiton filé et jaune et noir,Pas grain (0),non
-quincaillerie de laiton filé noir pour épingle,Pas grain (0),non
+quincaillerie de laiton filé,Pas grain (0),oui
+quincaillerie de laiton filé et jaune,Pas grain (0),oui
+quincaillerie de laiton filé et jaune et noir,Pas grain (0),oui
+quincaillerie de laiton filé noir pour épingle,Pas grain (0),oui
 quincaillerie de menu fer,Pas grain (0),non
 quincaillerie de platine,Pas grain (0),non
 quincaillerie de soie,Pas grain (0),non
@@ -14708,7 +14880,7 @@ quincaillerie fine,Pas grain (0),non
 quincaillerie fine d'acier,Pas grain (0),oui
 quincaillerie française,Pas grain (0),non
 quincaillerie grosse,Pas grain (0),non
-quincaillerie pour épingles de laiton filé jaune et noir,Pas grain (0),non
+quincaillerie pour épingles de laiton filé jaune et noir,Pas grain (0),oui
 quincaillerie y compris les armes et ferrailles,,non
 quinette,Pas grain (0),non
 quinoa,Pas grain (0),non
@@ -14832,6 +15004,8 @@ raquette et volants,Pas grain (0),non
 ras et revêche de ???,Pas grain (0),non
 rasade,Pas grain (0),non
 rase,,non
+rase blanche,,non
+rase pour peinture,,non
 rasoirs,Pas grain (0),non
 rasoirs communs,Pas grain (0),non
 rasoirs de fer-blanc,Pas grain (0),non
@@ -15168,6 +15342,7 @@ ruban de laine pure écrue et blanche,,non
 ruban de lin,Pas grain (0),non
 ruban de Padoue,Pas grain (0),non
 ruban de soie,Pas grain (0),non
+ruban de sois,,non
 ruban de velours,Pas grain (0),non
 ruban dorure d'argent,Pas grain (0),non
 ruban dorure d'argent et d'or,Pas grain (0),non
@@ -15196,7 +15371,7 @@ rubans blancs de chanvre et de lin,,non
 rubans de chanvre et de lin,,non
 rubans de chanvre et de lin écrus,,non
 rubans de chanvre et de lin teints,,non
-rubans de fleuret,,non
+rubans de fleuret,,oui
 rubans de laine écrue pure,,non
 rubans de laine mêlée de fil,,non
 rubans de laine mêlée de fil teint,,non
@@ -15919,7 +16094,7 @@ soie de Chypre,,non
 soie de fleuret,Pas grain (0),non
 soie de la chaîne,Pas grain (0),non
 soie de Liège,,non
-soie de Nankin,Pas grain (0),oui
+soie de Nankin,Pas grain (0),non
 soie de porc,Pas grain (0),non
 soie de porc ???,Pas grain (0),non
 soie de porc et soie de sanglier,Pas grain (0),non
@@ -15948,7 +16123,7 @@ soie en strasse,,non
 soie en suaze,Pas grain (0),non
 soie étoupe,Pas grain (0),non
 soie exportée de Marseille,Pas grain (0),non
-soie filée,Pas grain (0),non
+soie filée,Pas grain (0),oui
 soie fleuret ???,Pas grain (0),non
 soie floche,Pas grain (0),non
 soie galette,,non
@@ -15957,10 +16132,10 @@ soie grège autre que doupion,,non
 soie grège doupion,,non
 soie grège écrue,,non
 soie grège écrue doupion,,non
-soie grèse,Pas grain (0),non
-soie grèse ???,Pas grain (0),non
-soie grèse de Provence,Pas grain (0),non
-soie grèse par Marseille,Pas grain (0),non
+soie grèse,Pas grain (0),oui
+soie grèse ???,Pas grain (0),oui
+soie grèse de Provence,Pas grain (0),oui
+soie grèse par Marseille,Pas grain (0),oui
 soie lorce,Pas grain (0),non
 soie mauresque,Pas grain (0),non
 soie mêlée,,non
@@ -16173,10 +16348,11 @@ statue de plomb,Pas grain (0),non
 stechas arabique,Pas grain (0),non
 stil de grain,Pas grain (0),non
 stil de grains et vermillon,Pas grain (0),non
-stinkerque,Pas grain (0),oui
+stinkerque,Pas grain (0),non
 stinkerque brodée,,non
 stira liquide,Pas grain (0),non
 stockfisch,Pas grain (0),non
+stockfisch et morue,,non
 stockfisch mariné et salé,Pas grain (0),non
 stockfisch salé,Pas grain (0),non
 stopilles,,non
@@ -16205,6 +16381,7 @@ sucre blanc et sucre terré,Pas grain (0),non
 sucre blanc et sucre terré des Îles françaises de l'Amérique,Pas grain (0),non
 sucre blanc et sucre terré et sucre têtes,Pas grain (0),non
 sucre blanc et tabatière de bergamote,,non
+sucre blanc terré et têtes,,non
 sucre brun,Pas grain (0),non
 sucre brun brut,,non
 sucre brun prix bas,Pas grain (0),non
@@ -16270,6 +16447,7 @@ sucre mélasse,Pas grain (0),non
 sucre mélisse,Pas grain (0),non
 sucre mes ???,Pas grain (0),non
 sucre moscovade,Pas grain (0),non
+sucre orianne,,non
 sucre raffiné,Pas grain (0),non
 sucre terré,Pas grain (0),non
 sucre terré autre que blanc,,non
@@ -16285,6 +16463,7 @@ sucre terré et sucre têtes,Pas grain (0),non
 sucre terré et sucre têtes d'Amérique,Pas grain (0),oui
 sucre terré par Bayonne Marseille et Nantes,Pas grain (0),non
 sucre terré par Chapareillan,Pas grain (0),non
+sucre terré têtes,,non
 sucre têtes,Pas grain (0),non
 sucre têtes forme,Pas grain (0),non
 sucre vergeoise,Pas grain (0),non
@@ -16332,6 +16511,7 @@ sumeuille de cuivre,,non
 surge de laine,Pas grain (0),non
 surons,Pas grain (0),non
 sutoze,Pas grain (0),non
+tababères en bergamote,,non
 tabac,Pas grain (0),non
 tabac à fumer,Pas grain (0),non
 tabac à mâcher,Pas grain (0),non
@@ -16416,7 +16596,7 @@ tabagies,Pas grain (0),non
 tabatière d'écaille à charnière d'or,,non
 tabatière d'écaille incrustées d'or,,non
 tabatiere de bois blanc,Pas grain (0),oui
-tabatière de bois blanc,,non
+tabatière de bois blanc,,oui
 tabatière de bois d'olivier,,non
 tabatière de buis,,non
 tabatière de carton,,non
@@ -16446,6 +16626,7 @@ tabatières d'or,Pas grain (0),non
 tabatières d'os,Pas grain (0),non
 tabatières de bergamote,Pas grain (0),non
 tabatières de bois,Pas grain (0),non
+tabatières de bois blanc,,non
 tabatières de bois verni,Pas grain (0),non
 tabatières de carton,Pas grain (0),non
 tabatières de composition,Pas grain (0),non
@@ -16743,11 +16924,13 @@ tentes canonnières,Pas grain (0),non
 tentes et voile,Pas grain (0),non
 tentes et voile en rolles ou pièces,Pas grain (0),non
 tepaye des Indes,Pas grain (0),non
+teraille ed terre,,non
 terc,Pas grain (0),non
 térébenthine,Pas grain (0),non
 térébenthine commune,Pas grain (0),non
 térébenthine compacte,Pas grain (0),non
 térébenthine d' ???,Pas grain (0),non
+térébenthine de bergamote,,non
 térébenthine de Venise,Pas grain (0),non
 térébenthine en essence et en huile et en pâte,Pas grain (0),non
 térébenthine en pâte,Pas grain (0),non
@@ -16908,6 +17091,7 @@ thon mariné,Pas grain (0),non
 thon mariné au vinaigre,,non
 thon mariné et salé,Pas grain (0),non
 thon salé,Pas grain (0),non
+thon sec,,non
 thon thonine,Pas grain (0),non
 thonine,Pas grain (0),non
 thonine salée,Pas grain (0),non
@@ -17000,6 +17184,7 @@ toile abas,Pas grain (0),non
 toile abat,Pas grain (0),non
 toile ajamis,,non
 toile alanea,Pas grain (0),non
+toile amant,,non
 toile apprêtée de chanvre et de lin écrue de 13 à 20 fils,,non
 toile apprêtée de chanvre et de lin écrue de 20 fils et au-dessus,,non
 toile apprêtée de chanvre et de lin écrue de 8 à 13 fils,,non
@@ -17092,7 +17277,7 @@ toile blanche et teinte,Pas grain (0),non
 toile blanche étrangère,Pas grain (0),non
 toile blanche fine,Pas grain (0),non
 toile blanche fine et de lin,Pas grain (0),non
-toile blanche mousselines,Pas grain (0),non
+toile blanche mousselines,Pas grain (0),oui
 toile blanche ordinaire,Pas grain (0),non
 toile blanche ordre,Pas grain (0),non
 toile blanche peinte,Pas grain (0),non
@@ -17133,6 +17318,7 @@ toile casse,Pas grain (0),non
 toile casselis,Pas grain (0),non
 toile cassie,Pas grain (0),non
 toile ce chasse,Pas grain (0),non
+toile cerda,,non
 toile céruse,Pas grain (0),non
 toile chapelur,Pas grain (0),non
 toile chapilas,Pas grain (0),non
@@ -17394,6 +17580,7 @@ toile de Combourg,Pas grain (0),non
 toile de Comté,Pas grain (0),non
 toile de cordat,Pas grain (0),non
 toile de coton,Pas grain (0),non
+Toile de coton,,non
 toile de coton ???,Pas grain (0),non
 toile de coton à bas,Pas grain (0),non
 toile de coton à fleurs,Pas grain (0),non
@@ -17674,6 +17861,7 @@ toile de Vimoutiers,Pas grain (0),non
 toile de Vitré,Pas grain (0),non
 toile de voile,Pas grain (0),non
 toile découpée,Pas grain (0),non
+toile demitte,,non
 toile des Indes,Pas grain (0),non
 toile des Indes ???,Pas grain (0),non
 toile des Indes ??? ??? ??? Indes,Pas grain (0),non
@@ -17707,6 +17895,7 @@ toile en basin de coton brodé en soie,Pas grain (0),non
 toile en claire et de lin,Pas grain (0),non
 toile en fair,Pas grain (0),non
 toile en sacs,Pas grain (0),non
+toile escamite,,non
 toile et bonneterie,Pas grain (0),non
 toile et laine à bouquets de laine,,non
 toile et treillis lustrés,Pas grain (0),non
@@ -17732,6 +17921,7 @@ toile gommée et treillis,Pas grain (0),non
 toile gracienne,Pas grain (0),non
 toile grasse,Pas grain (0),non
 toile grise,Pas grain (0),non
+toile grise de laine,,non
 toile grise de lin,Pas grain (0),non
 toile grise de lin à 10 sols et en dessous,,non
 toile grise de lin à 10 sols et en dessus,,non
@@ -17796,8 +17986,10 @@ toile killis,Pas grain (0),non
 toile kircochaye,Pas grain (0),non
 toile lagias,Pas grain (0),non
 toile laistoufaire,,non
+toile large,,non
 toile large de lin,,non
 toile lavée,Pas grain (0),non
+toile lesat,,non
 toile linon,Pas grain (0),non
 toile lizat,Pas grain (0),non
 toile lustrée,Pas grain (0),non
@@ -18067,6 +18259,7 @@ trot de vin,Pas grain (0),non
 trousse de fleures,Pas grain (0),non
 truelles,Pas grain (0),non
 truelles de fer,Pas grain (0),non
+truffe noire,,non
 truffes,Pas grain (0),non
 truffes ??? et culs d'artichauts,Pas grain (0),non
 truffes à l'huile,Pas grain (0),non
@@ -18232,7 +18425,7 @@ verges de fer,Pas grain (0),non
 verges de fer et barres de fer et battu de fer,Pas grain (0),non
 vergnes,Pas grain (0),non
 vergues,Pas grain (0),non
-vergues à mature,,non
+vergues à mature,,oui
 vergues de 25 pieds,Pas grain (0),non
 vergues de 44 à 50 pieds,Pas grain (0),non
 vergues de 44 pieds,Pas grain (0),non
@@ -18240,6 +18433,7 @@ vergues de 53 à 57 pieds,Pas grain (0),non
 vergues de fer,Pas grain (0),non
 vergues de navire,Pas grain (0),non
 vergues de sapin de 44 pieds,Pas grain (0),non
+vergues pour mature,,non
 vergues pour navire,,non
 vergues pour vaisseau,,non
 verjus,Pas grain (0),non
@@ -18485,6 +18679,7 @@ vin de Calabre,,non
 vin de Castillon,Pas grain (0),non
 vin de Catalogne,Pas grain (0),non
 vin de Cauret,,non
+vin de cédrat,,non
 vin de Chablis,Pas grain (0),non
 vin de Chagny,Pas grain (0),non
 vin de Châlon,Pas grain (0),non
