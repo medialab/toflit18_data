@@ -27,7 +27,7 @@ acétate de fer,,non
 acétates de fer,,non
 acétates de plomb,,non
 acétates de plomb sel de Saturne,,non
-acétates de potasse et de soude,,non
+acétates de potasse et de soude,Potasse,non
 acétates de sel d'étain,,non
 achia,,non
 acide arsénieux,,non
@@ -38,11 +38,11 @@ acide borique et benzoïque,,non
 acide citrique,,non
 acide citrique et muriatique et phosphorique,,non
 acide citrique et oxalique et tartrique,,non
-acide de potasse crème de tartre et tartrate,,non
-acide de potasse lie de vin desséché et liquide et tartrate,,non
-acide de potasse lie de vin desséchée et tartrate,,non
-acide de potasse lie de vin liquide et tartrate,,non
-acide de potasse tartre brut impur et tartrate,,non
+acide de potasse crème de tartre et tartrate,Tartre,non
+acide de potasse lie de vin desséché et liquide et tartrate,Potasse,non
+acide de potasse lie de vin desséchée et tartrate,Potasse,non
+acide de potasse lie de vin liquide et tartrate,Potasse,non
+acide de potasse tartre brut impur et tartrate,Potasse,non
 acide muriatique,,non
 acide muriatique et nitrique et phosphorique,,non
 acide muriatique et nitro-muriatique,,non
@@ -51,8 +51,8 @@ acide oxalique,,non
 acide phosphorique,,non
 acide succinique,,non
 acide tartrique,,non
-acide vitriolique,,non
-acide vitriolique et huile de vitriol,,non
+acide vitriolique,Vitriol ; blanc,non
+acide vitriolique et huile de vitriol,Vitriol ; blanc,non
 acide vitrioliques et huile de vitriol,Vitriol ; blanc,oui
 acier,,non
 acier battu forgé ou laminé et fer carbonaté,Fer,non
@@ -247,10 +247,10 @@ amadou et agaric amadouvier,,non
 amandes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes à la praline,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes amères,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-amandes arachis noisettes noix noyaux,,non
+amandes arachis noisettes noix noyaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes cassée,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes cassées,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-amandes cassées ou en coque,,non
+amandes cassées ou en coque,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes courtes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes douces,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes en coque,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -261,15 +261,15 @@ amandes et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes et raisin sec et savon,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes et savon,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes et sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-amandes et verdet,,non
+amandes et verdet,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes et vert-de-gris,"Fruits ; divers ; amandes, pelures, raisins, prunes",oui
-amandes fraîches,,non
+amandes fraîches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes longues,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-amandes mondées,,non
+amandes mondées,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes sèches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes sèches et figue sèche et ???,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 amandes sèches et figue sèche et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-amaril,,non
+amaril,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 ambrain à grande barrique,,non
 ambre,,non
 ambre brut,,non
@@ -346,7 +346,7 @@ anille,,non
 animaux,,non
 anis,,non
 anis et rac et rhum etc.,,non
-anis et sucre,,non
+anis et sucre,Sucre ; cru blanc ; du Brésil,non
 anis étoilé,,oui
 anis vert,,non
 anis vert à distiller,,non
@@ -515,7 +515,7 @@ arrosoirs de cuivre,,non
 arrosoirs de fer-blanc,Fer,non
 arrosoirs de sapin,,non
 arrowroot,,non
-arséniate de potasse,,non
+arséniate de potasse,Potasse,non
 arsenic,,non
 arsenic métallique,,non
 artichauts,,non
@@ -991,7 +991,7 @@ bâtons d'éventails d'ivoire,,non
 bâtons de bois,,non
 bâtons de bois peints,,non
 bâtons de bois vernis,,non
-bâtons de brosses à goudronner,Goudron ; de Suède,non
+bâtons de brosses à goudronner,,non
 bâtons de cap,,non
 bâtons de colliers,,non
 bâtons de fer,Fer,non
@@ -1140,7 +1140,7 @@ bidets de faïence et leurs pièces,,non
 bière,,non
 bière aigre,,non
 bière blanche,,non
-bière cidre et vinaigre,,non
+bière cidre et vinaigre,Vinaigre,non
 bière commune du pays,,non
 bière d'Angleterre,,non
 bière d'Hoegaarden,,non
@@ -1154,7 +1154,7 @@ bière dite lumay,,non
 bière en bouteille,,non
 bière en muid,,non
 bière et cidre,,non
-bière et cidre et vinaigre,,non
+bière et cidre et vinaigre,Vinaigre,non
 bière forte,,non
 bière médicinale de Lübeck,,non
 bière vétérinaire,,non
@@ -1239,8 +1239,8 @@ blanc de Herps,,non
 blanc de Hollande,,non
 blanc de Marne,,non
 blanc de Naples,,non
-blanc de plomb,Plomb,non
-blanc de plomb et térébenthine,Plomb,non
+blanc de plomb,,non
+blanc de plomb et térébenthine,,non
 blanc de Troyes,,non
 blanc de Troyes et craie,,non
 blanc en chevron,,non
@@ -1790,7 +1790,7 @@ boîtes de coupure,,non
 boîtes de fer,Fer,non
 boîtes de fer-blanc,Fer,non
 boîtes de Nuremberg,,non
-boîtes de plomb,Plomb,non
+boîtes de plomb,,non
 boîtes de quadrilles,,non
 boites de sapin,,non
 boîtes de sapin,,non
@@ -2800,7 +2800,7 @@ carabé,,non
 carabé jaune,,non
 carabine à air comprimé,,non
 caractères à imprimerie,,non
-caractères à imprimerie de plomb,Plomb,non
+caractères à imprimerie de plomb,,non
 caractères à imprimerie en langue allemande,,non
 caractères à imprimerie en langue française,,non
 caractères à imprimerie hors d'usage,,non
@@ -2812,8 +2812,8 @@ carants et lanjents,,non
 caraterie,,non
 carbonate d'ammoniaque,,non
 carbonate de magnésie,,non
-carbonate de plomb mélangé ou pur,,non
-carbonate de plomb très pur,,non
+carbonate de plomb mélangé ou pur,Plomb,non
+carbonate de plomb très pur,Plomb,non
 carcajou,,non
 carcasse,,non
 carcasse à peu de soie,,non
@@ -3739,7 +3739,7 @@ choux-fleurs et cabus et artichauts,,non
 christ d'ivoire,,non
 christ d'ivoire monté sur velours,,non
 chromate de plomb,,non
-chromate de potasse,,non
+chromate de potasse,Potasse,non
 chuquelas,,non
 cidre,,non
 cidre jaune,,non
@@ -3818,7 +3818,7 @@ citrons et orange,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons et orange frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons frais et orange fraîche et amande sèches et figues sèches et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-citrons orange et leurs variétés,,non
+citrons orange et leurs variétés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons vert,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrouilles,,non
 civadille,,non
@@ -3956,7 +3956,7 @@ coiffures et palatines,,non
 coiffures pour chapeaux et coiffes de perruques,,non
 coiffures pour femme,,non
 coignées de bois,,non
-coins fruit,,non
+coins fruit,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 coïtif,,non
 colins,,non
 colle,,non
@@ -4041,7 +4041,7 @@ congres,,non
 connaissement,,non
 conserve d'alkermès,,non
 conserve de rose,,non
-conserves de fleurs d'orange,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+conserves de fleurs d'orange,,non
 conterie,,non
 conton filé,,oui
 contra yerba,,non
@@ -4284,7 +4284,7 @@ corsets de demitte,,oui
 corsets de toile,,oui
 corty,,non
 corvos,,non
-cosmétiques divers pâtes poudres et savons parfumés etc.,,non
+cosmétiques divers pâtes poudres et savons parfumés etc.,Savon,non
 costus,,non
 costus doux,,non
 costus verus,,non
@@ -4543,9 +4543,9 @@ crasse de beurre,,non
 crasse de cire,,non
 crasse de fer,,non
 crasse de graisse,,non
-crasse de plomb,Plomb,non
+crasse de plomb,,non
 crasse de soufre,,non
-crasse de suif,Suif ; pour faire du savon,non
+crasse de suif,,non
 crasse de tan,,non
 cravates,,non
 cravates de coton et mouchoirs de coton,,non
@@ -4564,7 +4564,7 @@ crayons noirs,,non
 crayons simples de pierre,,non
 crème,,non
 crème de tartre,Tartre,non
-crême de tartre,,non
+crême de tartre,Tartre,non
 crêpe,,non
 crêpe de laine,,non
 crêpe de laine aune,,non
@@ -4993,10 +4993,10 @@ damoiselle de bois,,non
 dareau de laine,,non
 dariabadis,,non
 darins,,non
-dattes,,non
-dattes et pistaches,,non
-dattes sèches,,non
-dattes secs et prunes sèches,,non
+dattes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+dattes et pistaches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+dattes sèches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+dattes secs et prunes sèches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 dauphine,,non
 de haut,,non
 de peu de valeur,,non
@@ -6177,7 +6177,7 @@ essence de paruce,,non
 essence de pommade,,non
 essence de rose,,non
 essence de térébenthine,,non
-essence de térébenthine et huile de térébenthine,,non
+essence de térébenthine et huile de térébenthine,Thérébenthine,non
 essence de thym,,non
 essence de vitriol,Vitriol ; blanc,non
 essence et huile de térébenthine,,non
@@ -6185,7 +6185,7 @@ essence et huile de thérébenthine,Thérébenthine,oui
 essence et pommade,,non
 essence odoriférante,,non
 essence ou esprit de citron,,non
-essence vitriolique et vitriol huile,,non
+essence vitriolique et vitriol huile,Vitriol ; blanc,non
 essence vitrioliques et huile de vitriol,Vitriol ; blanc,oui
 essieux,,non
 essieux à cabrouets,,non
@@ -6231,9 +6231,9 @@ esturgeons,,oui
 étain en feuilles,,non
 étain en lingots,,non
 étain en plats,,non
-étain en plomb,,non
+étain en plomb,Plomb,non
 étain en saumon,,non
-étain et plomb,,non
+étain et plomb,Plomb,non
 étain fin,,non
 étain fin en bloc,,non
 étain neuf,,non
@@ -7050,7 +7050,7 @@ feuilles de séné,,non
 feuilles de séné entières ou en grabeau,,non
 feuilles de séné et séné,,non
 feuilles de tabac,Tabac ; de Virginie,non
-feuilles des prises de tabac,,non
+feuilles des prises de tabac,Tabac ; de Virginie,non
 feuilles et herbes à teindre,,non
 feuilles médicinales,,oui
 feutres pour doublage,,non
@@ -7084,9 +7084,9 @@ figue,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue et raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue et sumac,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue fraîche et fruits verts,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-figue prune et raisin,,non
+figue prune et raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue sèche,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-figues et raisins secs pruneaux et poires tapées,,non
+figues et raisins secs pruneaux et poires tapées,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figues sèches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figuier,,non
 figures,,non
@@ -7809,8 +7809,8 @@ fromage fin,,non
 fromage Hollande,,non
 fromage moutarde etc.,,non
 fruits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits à dénommer,,non
-fruits à distiller,,non
+fruits à dénommer,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits à distiller,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits apprêtés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits au vinaigre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits au vinaigre et cornichons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -7821,39 +7821,39 @@ fruits confits à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, pru
 fruits confits à l'eau-de-vie et au sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits confits au sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits confits divers,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits confits en confitures des Îles,,non
+fruits confits en confitures des Îles,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits confits en vinaigre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits confits fins,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits crus secs et à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits cuits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits de Corinthe,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits de table confits,,non
-fruits de table conflits à l'eau-de-vie,,non
-fruits de table exotiques frais,,non
-fruits de table frais autres que citrons oranges et leurs variétés,,non
-fruits de table frais indigènes,,non
-fruits de table secs et tapés,,non
-fruits de table secs et tapés autres que pistache,,non
+fruits de table confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table conflits à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table exotiques frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table frais autres que citrons oranges et leurs variétés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table frais indigènes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table secs et tapés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+fruits de table secs et tapés autres que pistache,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits des Îles et des Indes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits divers et graines,,non
+fruits divers et graines,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits en confitures,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits et frais à l'eau-de-vie,,non
+fruits et frais à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits et légumes confits au vinaigre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits et légumes confits et marinés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits frais de table,,non
+fruits frais de table,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits frais vendangés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits médicinaux,,non
+fruits médicinaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits médicinaux et herbes médicinaux et plantes médicinaux et racines médicinaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits mirobolants confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits moulus divers,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits oléagineux,,non
+fruits oléagineux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits prunes et pruneaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits rudes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits salés,,non
+fruits salés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits salés marinés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits secs,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits secs confits,,non
+fruits secs confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits secs et à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits secs et à l'eau-de-vie amandes cassées et en corps et prunes ???,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits secs et confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -7948,7 +7948,7 @@ galle alepine,Galle,non
 galle d'Alep,Galle,non
 galle du Levant,Galle,non
 galle en sorte,Galle,non
-galle entière légère pulvérisée,,non
+galle entière légère pulvérisée,Galle,non
 galle légère,Galle,non
 galle romaine,Galle,non
 galoches,,non
@@ -8387,8 +8387,8 @@ gomme commune,Gomme,non
 gomme conviola,Gomme,non
 gomme copale,Gomme,non
 gomme couperose,Gomme,non
-gomme d'acacia,,non
-gomme d'acacia acajou adragante et arabique,,non
+gomme d'acacia,Gomme,non
+gomme d'acacia acajou adragante et arabique,Gomme,non
 gomme d'acajou,Gomme,non
 gomme d'adragant,Gomme,non
 gomme d'amandier,Gomme,non
@@ -8396,25 +8396,25 @@ gomme d'ambrette,Gomme,non
 gomme d'Amérique,Gomme,non
 gomme d'ammoniac,Gomme,non
 gomme d'Arabie,Gomme,non
-gomme d'élémi,,non
+gomme d'élémi,Gomme,non
 gomme de Barbarie,Gomme,non
 gomme de caragne,Gomme,non
 gomme de cèdre,Gomme,non
 gomme de Cenzier,Gomme,non
-gomme de cerisier,,non
-gomme de cochenille,,non
-gomme de Copahu,,non
+gomme de cerisier,Gomme,non
+gomme de cochenille,Gomme,non
+gomme de Copahu,Gomme,non
 gomme de gaiac,Gomme,non
 gomme de gaïac,Gomme,non
 gomme de galbanum,Gomme,non
 gomme de geda,Gomme,non
 gomme de gutte,Gomme,non
 gomme de palme,Gomme,non
-gomme de pays,,non
+gomme de pays,Gomme,non
 gomme de sandarac,Gomme,non
 gomme de seraza,Gomme,non
 gomme de toute espèce,Gomme,non
-gomme demi,,non
+gomme demi,Gomme,non
 gomme des Indes,Gomme,non
 gomme dite laque,Gomme,non
 gomme du Levant,Gomme,non
@@ -8429,11 +8429,11 @@ gomme emery,Gomme,non
 gomme en feuilles,Gomme,non
 gomme en grabeau,Gomme,non
 gomme en pâte,Gomme,non
-gomme esquinante,,non
+gomme esquinante,Gomme,non
 gomme euphorbe,Gomme,non
-gomme exotique,,non
+gomme exotique,Gomme,non
 gomme galanga,Gomme,non
-gomme galle,Galle,non
+gomme galle,Gomme,non
 gomme gedda,Gomme,non
 gomme gutte,Gomme,non
 gomme herbes grandes,Gomme,non
@@ -8443,15 +8443,15 @@ gomme myrrhe,Gomme,non
 gomme odorie,Gomme,non
 gomme opoponax,Gomme,non
 gomme pour peintures et teinture,Gomme,non
-gomme pure d'amandier et de cerisier,,non
-gomme pure exotique,,non
-gomme pure exotique des entrepôts,,non
+gomme pure d'amandier et de cerisier,Gomme,non
+gomme pure exotique,Gomme,non
+gomme pure exotique des entrepôts,Gomme,non
 gomme quile,Gomme,non
 gomme racines d'alizari,Gomme,non
 gomme rouge,Gomme,non
 gomme sagapenum,Gomme,non
 gomme sandaraque,Gomme,non
-gomme Sénégal,,non
+gomme Sénégal,Gomme,non
 gomme séraphine,Gomme,non
 gomme séraphique,Gomme,non
 gomme tacamaca,Gomme,non
@@ -8536,7 +8536,7 @@ graine d'escayolle,,non
 graine d'esparceil,,non
 graine d'étain,,non
 graine d'Inde,,non
-graine d'indigo,,non
+graine d'indigo,Indigo,non
 graine d'ivoire,,non
 graine d'oignon,,non
 graine d'oiseau,,non
@@ -8623,7 +8623,7 @@ graine de prairie et de trèfle et luzerne,,non
 graine de pré,,non
 graine de rabette,,non
 graine de rosette,,non
-graine de safranum,,non
+graine de safranum,Safran ; orange,non
 graine de sagou,,non
 graine de sainfoin,,non
 graine de Saint-Domingue,,non
@@ -8700,7 +8700,7 @@ grains de jardin,,oui
 grains de la Corse,,non
 grains de lin,,non
 grains de millet gros,,non
-grains de plomb,,non
+grains de plomb,Plomb,non
 grains de prune,,non
 grains de Riga,,non
 grains de séné,,non
@@ -8791,7 +8791,7 @@ grattes en fer,,non
 grattoirs,,non
 gravelée,,non
 gravelée et potasse et védasse,Potasse,oui
-gravelée potasse et védasse,,non
+gravelée potasse et védasse,Potasse,non
 gravelle,,non
 gravures,,non
 gravures encadrées,,non
@@ -9177,7 +9177,7 @@ housses galonnées,,non
 housses galonnées d'or,,non
 housses garnies et d'or,,non
 hubalingue,,non
-huile,Huile ; d'olive ; blanc ; de Gènes,non
+huile,,non
 huile à ???,,non
 huile à brûler,,non
 huile à brûler et de poisson,,non
@@ -9206,18 +9206,18 @@ huile d'œillette,,non
 huile d'olive,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive à manger,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive blanche de Gênes,Huile ; d'olive ; blanc ; de Gènes,non
-huile d'olive comestible,,non
+huile d'olive comestible,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive commune,Huile ; d'olive ; blanc ; de Gènes,non
-huile d'olive Corse pour la France,,non
-huile d'olive de fèce ou fie d'huile,,non
-huile d'olive et autres pour fabrique,,non
+huile d'olive Corse pour la France,Huile ; d'olive ; blanc ; de Gènes,non
+huile d'olive de fèce ou fie d'huile,Huile ; d'olive ; blanc ; de Gènes,non
+huile d'olive et autres pour fabrique,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive fine,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive importée en grande partie à Marseille,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive pour fabrique,Huile ; d'olive ; blanc ; de Gènes,non
-huile d'olive pour fabrique de la Corse,,non
+huile d'olive pour fabrique de la Corse,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'ours,,non
-huile de baleine,Huile ; de baleine,non
-huile de baleine et spirituelle,Huile ; de baleine,non
+huile de baleine,,non
+huile de baleine et spirituelle,,non
 huile de baume,,non
 huile de benedie,,non
 huile de benjoin,,non
@@ -9374,7 +9374,7 @@ huile succin,,non
 huile superfine,,non
 huile térébenthine,,non
 huile vierge,,non
-huile vitriol,,non
+huile vitriol,Vitriol ; blanc,non
 huile volatile,,non
 huile volatile d'anis fenouil marjolaine romarin et sauge,,non
 huile volatile de cade cèdre ou oxycèdre et gaïac,,non
@@ -10092,10 +10092,10 @@ limes et râpes communes,,non
 limes et râpes empaillées,,non
 limes et râpes fines,,non
 limes petites,,non
-limons,,non
-limons frais,,non
+limons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+limons frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 limons ou citrons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-limons salés,,non
+limons salés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 lin,,non
 lin ???,,non
 lin à filer,,non
@@ -11579,7 +11579,7 @@ mulets vieux,,non
 mungistere,,non
 munitions de guerre,,non
 munitions de guerre et projectiles,,non
-muriate d'étain et de potasse,,non
+muriate d'étain et de potasse,Potasse,non
 musc,,non
 muscades,,non
 muscades confites,,non
@@ -11726,10 +11726,10 @@ noix,,non
 noix d'acajou,,non
 noix de coco,,non
 noix de galle,Galle,oui
-noix de Galle,,non
-noix de Galle légère,,non
-noix de Galle pesante,,non
-noix de Galle pesante des entrepôts,,non
+noix de Galle,Galle,non
+noix de Galle légère,Galle,non
+noix de Galle pesante,Galle,non
+noix de Galle pesante des entrepôts,Galle,non
 noix de marrons,,non
 noix de muscade,,non
 noix de pipes,,non
@@ -11888,18 +11888,18 @@ or massif,,non
 or travaillé,,non
 orange,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange aigre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orange chinoise,,non
+orange chinoise,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange de Malte,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange douce,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orange du Portugal,,non
+orange du Portugal,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange en caisses,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange et citrons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange fraîche,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orange ordinaire,,non
-orange petite,,non
+orange ordinaire,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+orange petite,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange sèche,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orange séchée à faire chapelets,,non
-orangelets,,non
+orange séchée à faire chapelets,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
+orangelets,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orangelets secs,,non
 orangers,,non
 orangers à planter,,non
@@ -12218,7 +12218,7 @@ ouvrages de pierre autre que chiques,,non
 ouvrages de pierres de jayet,,non
 ouvrages de plâtre,,non
 ouvrages de plâtre en figure,,non
-ouvrages de plomb,Plomb,non
+ouvrages de plomb,,non
 ouvrages de plumes,,non
 ouvrages de poterie,,non
 ouvrages de sapementier,,non
@@ -12282,7 +12282,7 @@ ouvrages en nattes de bois,,non
 ouvrages en nattes de Moscovie,,non
 ouvrages en passementerie ordinaire,,non
 ouvrages en pierres,,non
-ouvrages en plomb,Plomb,oui
+ouvrages en plomb,,oui
 ouvrages en poil autres que le tissu,,non
 ouvrages en terre cuite,,non
 ouvrages en tôle vernie,,non
@@ -12701,7 +12701,7 @@ pâte de guimauve,,non
 pâte de pastel,,non
 pâte de térébenthine,,non
 pâté de viande,,non
-pâte et savon liquide,,non
+pâte et savon liquide,Savon,non
 pâte et tablette de guimauve,,non
 pâte granulée,,non
 pâte macaroni,,non
@@ -14225,7 +14225,7 @@ ploc salé,,non
 plomb,Plomb,non
 plomb à gibier,Plomb,non
 plomb argenté,Plomb,non
-plomb battu ou laminé,,non
+plomb battu ou laminé,Plomb,non
 plomb brut,Plomb,non
 plomb brut en pain,Plomb,non
 plomb de caisses de thé,Plomb,non
@@ -14473,13 +14473,13 @@ poisson salé et mariné,,non
 poisson salé morue accompagnée de ???,,non
 poisson sec,,non
 poivre,Poivre ; blanc-noir,non
-poivre à meules,,non
+poivre à meules,Poivre ; blanc-noir,non
 poivre blanc,Poivre ; blanc-noir,non
 poivre blanc-noir,Poivre ; blanc-noir,non
 poivre brun,Poivre ; blanc-noir,non
 poivre commun,Poivre ; blanc-noir,non
 poivre concassé,Poivre ; blanc-noir,non
-poivre des entrepôts,,non
+poivre des entrepôts,Poivre ; blanc-noir,non
 poivre des Indes,Poivre ; blanc-noir,non
 poivre dit maniquette,Poivre ; blanc-noir,non
 poivre doux,Poivre ; blanc-noir,non
@@ -14604,9 +14604,9 @@ portrait et ses bordures dorées et en pastel,,non
 potache,,non
 potasse,Potasse,non
 potasse et gravelée et védasse,Potasse,oui
-potasse et védasse,,non
-potasse et védasse et gravelée,,non
-potasse gravelée et védasse,,non
+potasse et védasse,Potasse,non
+potasse et védasse et gravelée,Potasse,non
+potasse gravelée et védasse,Potasse,non
 poterie,,non
 poterie à feu,,non
 poterie commune,,non
@@ -14819,7 +14819,7 @@ pruneaux de Sainte-Catherine,"Fruits ; divers ; amandes, pelures, raisins, prune
 pruneaux et prunes,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 pruneaux et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 pruneaux et sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-pruneaux et verdet,,non
+pruneaux et verdet,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 pruneaux et vert-de-gris,"Fruits ; divers ; amandes, pelures, raisins, prunes",oui
 pruneaux noirs,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunelle,,non
@@ -14841,14 +14841,14 @@ prunes d'ente,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes de Bordeaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes de Sainte-Catherine,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes et pruneaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-prunes fraîches,,non
+prunes fraîches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes fraîches de ???,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-prunes noires,,non
+prunes noires,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes pêches cerises nèfles etc.,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prunes sèches,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 prusses,,non
-prussiate de potasse,,non
-prussiate de potasse cristallisée,,non
+prussiate de potasse,Potasse,non
+prussiate de potasse cristallisée,Potasse,non
 prusus,,non
 psalterion,,non
 pumes,,non
@@ -15017,7 +15017,7 @@ raiseau d'argent et d'or,,non
 raiseau d'argent ou d'or,,non
 raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Corinthe,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-raisin de Corinthe et autre,,non
+raisin de Corinthe et autre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Damas,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Galop,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Provence,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -15033,7 +15033,7 @@ raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin sec d'époque,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin sec d'Espagne,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin sec de Corinthe,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-raisiné en pot,,non
+raisiné en pot,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisins frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 rame,,non
 rames à ramer,,non
@@ -15150,7 +15150,7 @@ représentation des Tuileries,,non
 représentation du Saint Sépulcre,,non
 réseau d'argent,,non
 réseau d'or,,non
-résidu d'acide vitriolique,,non
+résidu d'acide vitriolique,Vitriol ; blanc,non
 résidus d'acide nitrique,,non
 résidus d'acide sulfuriques,,non
 résine de gaïac,,non
@@ -15195,8 +15195,8 @@ ricanias des Indes,,non
 rideaux de soie vieux,,non
 rite de chanvre,,non
 rivets,,non
-riz,,non
-riz des entrepôts,,non
+riz,Riz,non
+riz des entrepôts,Riz,non
 riz du Levant,Riz,non
 robes,,non
 robes brodées,,non
@@ -15689,18 +15689,18 @@ savine,,non
 savon,Savon,non
 savon blanc,Savon,non
 savon blanc et marbré,Savon,non
-savon blanc noir rouge marbré,,non
+savon blanc noir rouge marbré,Savon,non
 savon d'Alicante,Savon,non
-savon d'Espagne,,non
+savon d'Espagne,Savon,non
 savon de Gênes,Savon,non
 savon de Marseille,Savon,non
 savon de retour,Savon,non
-savon de terre,,non
+savon de terre,Savon,non
 savon et pruneaux,Savon,non
 savon et sucre,Savon,non
-savon et verdet,,non
+savon et verdet,Savon,non
 savon et vert-de-gris,Savon,oui
-savon gras,,non
+savon gras,Savon,non
 savon madré,Savon,non
 savon marbré,Savon,non
 savon mol,Savon,non
@@ -16307,8 +16307,8 @@ soude de toute sorte,,non
 soude soufre,,non
 soudes,,non
 soudes et natron et salin,,non
-soudes et potasse,,non
-soudes et tartre,,non
+soudes et potasse,Potasse,non
+soudes et tartre,Tartre,non
 soudure,,non
 soudure de cuivre,,non
 soufflets,,non
@@ -16411,7 +16411,7 @@ stafisagre,,non
 stafisaigre,,non
 stagnon,,non
 statue de pierre,,non
-statue de plomb,Plomb,non
+statue de plomb,,non
 stechas arabique,,non
 stil de grain,,non
 stil de grains et vermillon,,non
@@ -16441,32 +16441,32 @@ sucre,Sucre ; cru blanc ; du Brésil,non
 sucre à devises et à casser,Sucre ; cru blanc ; du Brésil,non
 sucre bâtard,Sucre ; cru blanc ; du Brésil,non
 sucre blanc,Sucre ; cru blanc ; du Brésil,non
-sucre blanc brut des entrepôts étranger,,non
-sucre blanc brut étranger,,non
+sucre blanc brut des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
+sucre blanc brut étranger,Sucre ; cru blanc ; du Brésil,non
 sucre blanc en pain,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et sucre terré,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et sucre terré des Îles françaises de l'Amérique,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et sucre terré et sucre têtes,Sucre ; cru blanc ; du Brésil,non
-sucre blanc et tabatière de bergamote,,non
-sucre blanc terré et têtes,,non
+sucre blanc et tabatière de bergamote,Sucre ; cru blanc ; du Brésil,non
+sucre blanc terré et têtes,Sucre ; cru blanc ; du Brésil,non
 sucre brun,Sucre ; cru blanc ; du Brésil,non
-sucre brun brut,,non
+sucre brun brut,Sucre ; cru blanc ; du Brésil,non
 sucre brun prix bas,Sucre ; cru blanc ; du Brésil,non
 sucre brut,Sucre ; cru blanc ; du Brésil,non
-sucre brut autre que blanc,,non
-sucre brut autre que blanc des entrepôts étranger,,non
-sucre brut autre que blanc étranger,,non
-sucre brut blanc,,non
-sucre brut blanc ou terré,,non
-sucre brut des colonies françaises au-delà du Cap,,non
+sucre brut autre que blanc,Sucre ; cru blanc ; du Brésil,non
+sucre brut autre que blanc des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
+sucre brut autre que blanc étranger,Sucre ; cru blanc ; du Brésil,non
+sucre brut blanc,Sucre ; cru blanc ; du Brésil,non
+sucre brut blanc ou terré,Sucre ; cru blanc ; du Brésil,non
+sucre brut des colonies françaises au-delà du Cap,Sucre ; cru blanc ; du Brésil,non
 sucre brut en forme,Sucre ; cru blanc ; du Brésil,non
 sucre brut et sucre terré,Sucre ; cru blanc ; du Brésil,non
 sucre brut par Nantes,Sucre ; cru blanc ; du Brésil,non
 sucre candi,Sucre ; cru blanc ; du Brésil,non
-sucre candi en pain et en poudre raffiné,,non
+sucre candi en pain et en poudre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre candi et en pain,Sucre ; cru blanc ; du Brésil,non
 sucre candi et sucre en pain par Bayonne Bordeaux Le Havre et Dunkerque,Sucre ; cru blanc ; du Brésil,non
-sucre candi raffiné,,non
+sucre candi raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre carré,Sucre ; cru blanc ; du Brésil,non
 sucre cassonade,Sucre ; cru blanc ; du Brésil,non
 sucre cassonade des Indes,Sucre ; cru blanc ; du Brésil,oui
@@ -16474,11 +16474,11 @@ sucre commun,Sucre ; cru blanc ; du Brésil,non
 sucre d'érable,Sucre ; cru blanc ; du Brésil,non
 sucre d'orge,Sucre ; cru blanc ; du Brésil,non
 sucre de Brésil et sucre blanc et sucre cru,Sucre ; cru blanc ; du Brésil,non
-sucre de canne,,non
-sucre de Cayenne,,non
+sucre de canne,Sucre ; cru blanc ; du Brésil,non
+sucre de Cayenne,Sucre ; cru blanc ; du Brésil,non
 sucre de Cayenne terré,Sucre ; cru blanc ; du Brésil,non
 sucre de forme,Sucre ; cru blanc ; du Brésil,non
-sucre de lait,,non
+sucre de lait,Sucre ; cru blanc ; du Brésil,non
 sucre de réglisse,Sucre ; cru blanc ; du Brésil,non
 sucre de têtes,Sucre ; cru blanc ; du Brésil,non
 sucre des Indes brut,Sucre ; cru blanc ; du Brésil,non
@@ -16486,12 +16486,12 @@ sucre des Indes terré,Sucre ; cru blanc ; du Brésil,non
 sucre des Indes têtes,Sucre ; cru blanc ; du Brésil,non
 sucre des prises terré,Sucre ; cru blanc ; du Brésil,non
 sucre dit lompen,Sucre ; cru blanc ; du Brésil,non
-sucre en blanc,,non
+sucre en blanc,Sucre ; cru blanc ; du Brésil,non
 sucre en dragées,Sucre ; cru blanc ; du Brésil,non
 sucre en forme terré,Sucre ; cru blanc ; du Brésil,non
 sucre en lait,Sucre ; cru blanc ; du Brésil,non
 sucre en pain,Sucre ; cru blanc ; du Brésil,non
-sucre en pain et en poudre raffiné,,non
+sucre en pain et en poudre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et sucre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et sucre raffiné et sucre têtes etc.,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et sucre terré,Sucre ; cru blanc ; du Brésil,non
@@ -16507,7 +16507,7 @@ sucre en poudre brun,Sucre ; cru blanc ; du Brésil,non
 sucre et raisin sec,Sucre ; cru blanc ; du Brésil,non
 sucre et rocou,Sucre ; cru blanc ; du Brésil,non
 sucre et tabac,Sucre ; cru blanc ; du Brésil,non
-sucre et verdet,,non
+sucre et verdet,Sucre ; cru blanc ; du Brésil,non
 sucre et vert-de-gris,Sucre ; cru blanc ; du Brésil,oui
 sucre ferré,Sucre ; cru blanc ; du Brésil,non
 sucre fin,Sucre ; cru blanc ; du Brésil,non
@@ -16515,41 +16515,41 @@ sucre mélasse,Sucre ; cru blanc ; du Brésil,non
 sucre mélisse,Sucre ; cru blanc ; du Brésil,non
 sucre mes ???,Sucre ; cru blanc ; du Brésil,non
 sucre moscovade,Sucre ; cru blanc ; du Brésil,non
-sucre orianne,,non
+sucre orianne,Sucre ; cru blanc ; du Brésil,non
 sucre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre terré,Sucre ; cru blanc ; du Brésil,non
-sucre terré autre que blanc,,non
-sucre terré autre que blanc des entrepôts étranger,,non
-sucre terré autre que blanc étranger,,non
-sucre terré blanc,,non
-sucre terré blanc des entrepôts étranger,,non
-sucre terré blanc étranger,,non
-sucre terré brun étranger,,non
-sucre terré des colonies françaises au-delà du Cap,,non
+sucre terré autre que blanc,Sucre ; cru blanc ; du Brésil,non
+sucre terré autre que blanc des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
+sucre terré autre que blanc étranger,Sucre ; cru blanc ; du Brésil,non
+sucre terré blanc,Sucre ; cru blanc ; du Brésil,non
+sucre terré blanc des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
+sucre terré blanc étranger,Sucre ; cru blanc ; du Brésil,non
+sucre terré brun étranger,Sucre ; cru blanc ; du Brésil,non
+sucre terré des colonies françaises au-delà du Cap,Sucre ; cru blanc ; du Brésil,non
 sucre terré des Indes,Sucre ; cru blanc ; du Brésil,non
 sucre terré et sucre têtes,Sucre ; cru blanc ; du Brésil,non
 sucre terré et sucre têtes d'Amérique,Sucre ; cru blanc ; du Brésil,oui
 sucre terré par Bayonne Marseille et Nantes,Sucre ; cru blanc ; du Brésil,non
 sucre terré par Chapareillan,Sucre ; cru blanc ; du Brésil,non
-sucre terré têtes,,non
+sucre terré têtes,Sucre ; cru blanc ; du Brésil,non
 sucre têtes,Sucre ; cru blanc ; du Brésil,non
 sucre têtes forme,Sucre ; cru blanc ; du Brésil,non
 sucre vergeoise,Sucre ; cru blanc ; du Brésil,non
-sucrerie,Sucre ; cru blanc ; du Brésil,non
-sucrerie dragées,Sucre ; cru blanc ; du Brésil,oui
+sucrerie,,non
+sucrerie dragées,,oui
 sucrerie drapée,,non
-sucreterie,Sucre ; cru blanc ; du Brésil,non
+sucreterie,,non
 sucrier,,non
 sucrier de faïence,,non
 sucrillon,,non
 sucs d'espèces particulières,,non
 suie de cheminée,,non
 suif,Suif ; pour faire du savon,non
-suif à chandelle,Suif ; pour faire du savon,non
+suif à chandelle,Bougie ; de suif,non
 suif brut,,non
 suif de mouton,Suif ; pour faire du savon,non
 suif en branche,Suif ; pour faire du savon,non
-suif en chandelle et en rames,,non
+suif en chandelle et en rames,Bougie ; de suif,non
 suif en masse,Suif ; pour faire du savon,non
 suif en pain,Suif ; pour faire du savon,non
 suif en poil,Suif ; pour faire du savon,non
@@ -16566,7 +16566,7 @@ sulfate de cuivre,,non
 sulfate de cuivre de fer et de zinc,,non
 sulfate de cuivre et de fer,,non
 sulfate de fer,,non
-sulfate de magnésie de potasse et de soude,,non
+sulfate de magnésie de potasse et de soude,Potasse,non
 sulfate de plomb,,non
 sulfate de quinine,,non
 sulfate de zinc,,non
@@ -16574,7 +16574,7 @@ sulfure d'arsenic jaune et rouge,,non
 sulfure de mercure en pierres,,non
 sumac,Sumac,non
 sumac des corroyeurs,Sumac,non
-sumac et autres feuilles tinctoriales,,non
+sumac et autres feuilles tinctoriales,Sumac,non
 sumeuille de cuivre,,non
 surge de laine,,non
 surons,,non
@@ -16589,7 +16589,7 @@ tabac avarié,Tabac ; de Virginie,non
 tabac briquet,Tabac ; de Virginie,non
 tabac commun,Tabac ; de Virginie,non
 tabac commun en feuilles,Tabac ; de Virginie,non
-tabac côte de ???,,non
+tabac côte de ???,Tabac ; de Virginie,non
 tabac d'Espagne,Tabac ; de Virginie,non
 tabac d'Espagne en feuilles,Tabac ; de Virginie,non
 tabac de ???,Tabac ; de Virginie,non
@@ -16648,7 +16648,7 @@ tabac en rouleau,Tabac ; de Virginie,non
 tabac et savon,Tabac ; de Virginie,non
 tabac et son d'Espagne,Tabac ; de Virginie,non
 tabac fabriqué,Tabac ; de Virginie,non
-tabac fabriqué et préparé,,non
+tabac fabriqué et préparé,Tabac ; de Virginie,non
 tabac ficelé,Tabac ; de Virginie,non
 tabac filé,Tabac ; de Virginie,non
 tabac fin,Tabac ; de Virginie,non
@@ -16713,7 +16713,7 @@ tabatières vernies,,non
 tabernacle,,non
 tabernacle de marbre,,non
 tabernacle doré,,non
-table en plomb,Plomb,non
+table en plomb,,non
 tableaux,,non
 tableaux à bordures dorées,,non
 tableaux à cadres dorés,,non
@@ -16933,15 +16933,15 @@ tarnatanes,,non
 tars,,non
 tartagogne,,non
 tartarre,,non
-tartrate de potasse de soude et de potasse,,non
+tartrate de potasse de soude et de potasse,Tartre,non
 tartre,Tartre,non
 tartre blanc,Tartre,non
-tartre brut,,non
-tartre de lie de vin désséchée,,non
-tartre de lie de vin liquide,,non
+tartre brut,Tartre,non
+tartre de lie de vin désséchée,Tartre,non
+tartre de lie de vin liquide,Tartre,non
 tartre émétique,Tartre,non
-tartre en pierre,,non
-tartre en poussière,,non
+tartre en pierre,Tartre,non
+tartre en poussière,Tartre,non
 tartre et harpoix,Tartre,non
 tartre et lie de vin,Tartre,non
 tartre et térébenthine,Tartre,non
@@ -16998,7 +16998,7 @@ térébenthine,Thérébenthine,non
 térébenthine commune,Thérébenthine,non
 térébenthine compacte,Thérébenthine,non
 térébenthine d' ???,Thérébenthine,non
-térébenthine de bergamote,,non
+térébenthine de bergamote,Thérébenthine,non
 térébenthine de Venise,Thérébenthine,non
 térébenthine en essence et en huile et en pâte,Thérébenthine,non
 térébenthine en pâte,Thérébenthine,non
@@ -17122,17 +17122,17 @@ têtes de morue des Indes,,non
 têtes de pavot,,non
 thé,Thé ; boue,non
 thé ???,Thé ; boue,non
-the bou,,non
+the bou,Thé ; boue,non
 thé bou,Thé ; boue,non
 thé camphon,Thé ; boue,non
-thé des entrepôts,,non
+thé des entrepôts,Thé ; boue,non
 thé des Indes,Thé ; boue,non
 thé et porcelaine,Thé ; boue,non
 thé étranger,Thé ; boue,non
 thé étranger par Strasbourg,Thé ; boue,non
 thé filé,Thé ; boue,non
 thé hayssuen,Thé ; boue,non
-thé ordinaire,,non
+thé ordinaire,Thé ; boue,non
 thé par Dunkerque,Thé ; boue,non
 thé par Pontarlier et Saint-Louis,Thé ; boue,non
 thé saotchaon,Thé ; boue,non
@@ -17147,7 +17147,7 @@ théières de métal,,non
 théières de terre noire,,non
 theloc,,non
 thepaïs,,non
-thepaya,Thé ; boue,non
+thepaya,,non
 theriaque,,non
 thériaque,,non
 thériaque de Venise,,non
@@ -18267,7 +18267,7 @@ train de carrosses,,non
 trait d'argent et d'or,,non
 trait d'or,,non
 tramail,,non
-tratrate de soude et de potasse,,non
+tratrate de soude et de potasse,Tartre,non
 travettes,,non
 travettes de bois,,non
 travons,,non
@@ -18370,7 +18370,7 @@ turquoise des prises,,non
 tutic,,non
 tutilly,,non
 tuttie,,non
-tuyau en plomb,Plomb,non
+tuyau en plomb,,non
 tuyaux d'orgue,,non
 tuyaux de fer,Fer,non
 tuyaux de fer de fonte,Fer,non
@@ -18495,8 +18495,8 @@ verge de fer blanc,,non
 verge en fer blanc,,oui
 verges d'étain,,non
 verges de cuivres,,non
-verges de fer,Fer,non
-verges de fer et barres de fer et battu de fer,Fer,non
+verges de fer,,non
+verges de fer et barres de fer et battu de fer,,non
 vergnes,,non
 vergues,,non
 vergues à mature,,oui
@@ -18504,7 +18504,7 @@ vergues de 25 pieds,,non
 vergues de 44 à 50 pieds,,non
 vergues de 44 pieds,,non
 vergues de 53 à 57 pieds,,non
-vergues de fer,Fer,non
+vergues de fer,,non
 vergues de navire,,non
 vergues de sapin de 44 pieds,,non
 vergues pour mature,,non
@@ -18678,7 +18678,7 @@ vilebrequin,,non
 villes,,non
 vin,Vin ; de France,non
 vin anti-scorbutique,Vin ; de France,non
-vin au muid,,non
+vin au muid,Vin ; de France,non
 vin blanc,Vin ; de France,non
 vin blanc de France,Vin ; de France,non
 vin blanc en bouteilles,Vin ; de France,non
@@ -18709,7 +18709,7 @@ vin d'Épernay,Vin ; de France,non
 vin d'Espagne,Vin ; de France,non
 vin d'Espagne et de liqueur,Vin ; de France,non
 vin d'Espagne tisse,Vin ; de France,non
-vin d'Inde,,non
+vin d'Inde,Vin ; de France,non
 vin d'Oléron,Vin ; de France,non
 vin d'Oléron rouge,Vin ; de France,non
 vin d'orange,Vin ; de France,non
@@ -18723,7 +18723,7 @@ vin de Bar-sur-Aube,Vin ; de France,non
 vin de Barcelone,Vin ; de France,non
 vin de Bayonne,Vin ; de France,non
 vin de Beaune,Vin ; de France,non
-vin de Benicarlo dernière récolte,,non
+vin de Benicarlo dernière récolte,Vin ; de France,non
 vin de Bergerac,Vin ; de France,non
 vin de Béziers,Vin ; de France,non
 vin de Blaye,Vin ; de France,non
@@ -18741,7 +18741,7 @@ vin de Bourbonne,Vin ; de France,non
 vin de Bourg,Vin ; de France,non
 vin de Bourgogne,Vin ; de France,non
 vin de Bourgogne de grand,Vin ; de France,non
-vin de Bourgogne de Pommard,,non
+vin de Bourgogne de Pommard,Vin ; de France,non
 vin de Bourgogne en bouteilles,Vin ; de France,non
 vin de Bourgogne en muid,Vin ; de France,non
 vin de Bourgogne et vin de Champagne,Vin ; de France,non
@@ -18749,11 +18749,11 @@ vin de Bourgogne Mâcon,Vin ; de France,non
 vin de Bretagne,Vin ; de France,non
 vin de Cabreton,Vin ; de France,non
 vin de Cahors,Vin ; de France,non
-vin de Calabre,,non
+vin de Calabre,Vin ; de France,non
 vin de Castillon,Vin ; de France,non
 vin de Catalogne,Vin ; de France,non
-vin de Cauret,,non
-vin de cédrat,,non
+vin de Cauret,Vin ; de France,non
+vin de cédrat,Vin ; de France,non
 vin de Chablis,Vin ; de France,non
 vin de Chagny,Vin ; de France,non
 vin de Châlon,Vin ; de France,non
@@ -18766,7 +18766,7 @@ vin de Chaumont,Vin ; de France,non
 vin de Chenôve,Vin ; de France,non
 vin de Chypre,Vin ; de France,non
 vin de Chypre en bouteilles,Vin ; de France,non
-vin de Ciola,,non
+vin de Ciola,Vin ; de France,non
 vin de Cioutan,Vin ; de France,non
 vin de Clérac,Vin ; de France,non
 vin de Clermontois,Vin ; de France,non
@@ -18775,10 +18775,10 @@ vin de Comté,Vin ; de France,non
 vin de Condrieux,Vin ; de France,non
 vin de Constance,Vin ; de France,non
 vin de Côte,Vin ; de France,non
-vin de Côte du Rhône,,non
+vin de Côte du Rhône,Vin ; de France,non
 vin de Côte-Rotie,Vin ; de France,non
 vin de Coulanges,Vin ; de France,non
-vin de Dauphiné,,non
+vin de Dauphiné,Vin ; de France,non
 vin de deviet,Vin ; de France,non
 vin de Dijon,Vin ; de France,non
 vin de Domé,Vin ; de France,non
@@ -18789,14 +18789,14 @@ vin de fap,Vin ; de France,non
 vin de Flacres,Vin ; de France,non
 vin de Flandre,Vin ; de France,non
 vin de Florence,Vin ; de France,non
-vin de forêt,,non
+vin de forêt,Vin ; de France,non
 vin de France,Vin ; de France,non
 vin de France bouteilles,Vin ; de France,non
 vin de France de Champagne,Vin ; de France,non
 vin de France de santé en bouteilles,Vin ; de France,non
 vin de France de santé en muid,Vin ; de France,non
 vin de France en bouteilles,Vin ; de France,non
-vin de France-Comté,,non
+vin de France-Comté,Vin ; de France,non
 vin de Frontignan,Vin ; de France,non
 vin de Gaillac,Vin ; de France,non
 vin de Garonne,Vin ; de France,non
@@ -18840,7 +18840,7 @@ vin de Madère,Vin ; de France,non
 vin de Malaga,Vin ; de France,non
 vin de Malaga de Rancio,Vin ; de France,non
 vin de Malaga en bouteilles,Vin ; de France,oui
-vin de Malaga en muid,,non
+vin de Malaga en muid,Vin ; de France,non
 vin de Malvoisie,Vin ; de France,non
 vin de Manheim,Vin ; de France,non
 vin de Marennes,Vin ; de France,non
@@ -18879,7 +18879,7 @@ vin de Rancio,Vin ; de France,non
 vin de Ré,Vin ; de France,non
 vin de Reims,Vin ; de France,non
 vin de Rezac,Vin ; de France,non
-vin de Rianco et de Xérès,,non
+vin de Rianco et de Xérès,Vin ; de France,non
 vin de Ricey,Vin ; de France,non
 vin de Rivesac,Vin ; de France,non
 vin de Rivesaltes,Vin ; de France,non
@@ -18889,14 +18889,14 @@ vin de Rolas,Vin ; de France,non
 vin de Rome,Vin ; de France,non
 vin de Rota,Vin ; de France,non
 vin de Rots,Vin ; de France,non
-vin de Roussillon,,non
+vin de Roussillon,Vin ; de France,non
 vin de Rouys,Vin ; de France,non
 vin de Rully,Vin ; de France,non
 vin de Ruys,Vin ; de France,non
 vin de Saint-Jean,Vin ; de France,non
 vin de Saint-Jean d'Angély,Vin ; de France,non
-vin de Saint-Laurent,,non
-vin de Saint-Laurent du Var,,non
+vin de Saint-Laurent,Vin ; de France,non
+vin de Saint-Laurent du Var,Vin ; de France,non
 vin de Saintonge,Vin ; de France,non
 vin de Savigny,Vin ; de France,non
 vin de Savoie,Vin ; de France,non
@@ -18951,36 +18951,36 @@ vin du Rhin en cercles,Vin ; de France,non
 vin du Rhin et de Moselle,Vin ; de France,non
 vin du Rhône,Vin ; de France,non
 vin du Roussillon,Vin ; de France,non
-vin en bouteille,,non
-vin en bouteille commun,,non
-vin en bouteille de Franche-Comté,,non
+vin en bouteille,Vin ; de France,non
+vin en bouteille commun,Vin ; de France,non
+vin en bouteille de Franche-Comté,Vin ; de France,non
 vin en bouteilles,Vin ; de France,non
-vin en bouteilles autre que de la Gironde ordinaire,,non
-vin en bouteilles d'Orléans,,non
-vin en bouteilles de Bordeaux,,non
-vin en bouteilles de Bordeaux fin,,non
-vin en bouteilles de la Gironde,,non
-vin en bouteilles de liqueurs,,non
-vin en bouteilles de Malaga,,non
-vin en bouteilles du Lyonnais,,non
-vin en bouteilles muscat,,non
-vin en cercles,,non
-vin en cercles de liqueurs,,non
-vin en futailles,,non
-vin en futailles autre que de la Gironde ordinaire,,non
-vin en futailles de la Gironde ordinaire,,non
-vin en futailles de liqueurs,,non
+vin en bouteilles autre que de la Gironde ordinaire,Vin ; de France,non
+vin en bouteilles d'Orléans,Vin ; de France,non
+vin en bouteilles de Bordeaux,Vin ; de France,non
+vin en bouteilles de Bordeaux fin,Vin ; de France,non
+vin en bouteilles de la Gironde,Vin ; de France,non
+vin en bouteilles de liqueurs,Vin ; de France,non
+vin en bouteilles de Malaga,Vin ; de France,non
+vin en bouteilles du Lyonnais,Vin ; de France,non
+vin en bouteilles muscat,Vin ; de France,non
+vin en cercles,Vin ; de France,non
+vin en cercles de liqueurs,Vin ; de France,non
+vin en futailles,Vin ; de France,non
+vin en futailles autre que de la Gironde ordinaire,Vin ; de France,non
+vin en futailles de la Gironde ordinaire,Vin ; de France,non
+vin en futailles de liqueurs,Vin ; de France,non
 vin en muid,Vin ; de France,non
-vin en muid muscat,,non
-vin et autres boissons bière,,non
-vin et autres boissons cidre,,non
+vin en muid muscat,Vin ; de France,non
+vin et autres boissons bière,Vin ; de France,non
+vin et autres boissons cidre,Vin ; de France,non
 vin et autres boissons vin de liqueurs de différente espèce,Vin ; de France,non
 vin et autres boissons vin divers,Vin ; de France,non
 vin et autres boissons vin divers de Bordeaux,Vin ; de France,non
 vin et eau-de-vie,Vin ; de France,non
 vin et eau-de-vie de vin,Vin ; de France,non
 vin et fer,Vin ; de France,non
-vin et vin de liqueurs divers,,non
+vin et vin de liqueurs divers,Vin ; de France,non
 vin étranger,Vin ; de France,non
 vin étranger au ???,Vin ; de France,non
 vin étranger blanc,Vin ; de France,non
@@ -18994,7 +18994,7 @@ vin fin,Vin ; de France,non
 vin fin en bouteilles,Vin ; de France,non
 vin français,Vin ; de France,non
 vin gâté,Vin ; de France,non
-vin gru,,non
+vin gru,Vin ; de France,non
 vin hors,Vin ; de France,non
 vin jauge ??? Paris,Vin ; de France,non
 vin jauge de Soissons,Vin ; de France,non
@@ -19004,7 +19004,7 @@ vin mousseux,Vin ; de France,non
 vin muscat,Vin ; de France,non
 vin muscat ordinaire,Vin ; de France,non
 vin Nantes,Vin ; de France,non
-vin noir,,non
+vin noir,Vin ; de France,non
 vin ordinaire,Vin ; de France,non
 vin ordinaire divers,Vin ; de France,non
 vin ordinaire en bouteilles,Vin ; de France,non
@@ -19021,19 +19021,19 @@ vin rouge gros bard,Vin ; de France,non
 vin rouge très gras,Vin ; de France,non
 vin Saint-Ange,Vin ; de France,non
 vin Tinto,Vin ; de France,non
-vin vendange,,non
+vin vendange,Vin ; de France,non
 vin verdé de Florence,Vin ; de France,non
 vinaigre,Vinaigre,non
 vinaigre ???,Vinaigre,non
 vinaigre de bière,Vinaigre,non
-vinaigre de bière cidre et poiré,,non
+vinaigre de bière cidre et poiré,Vinaigre,non
 vinaigre de composition,Vinaigre,non
 vinaigre de fruits,Vinaigre,non
 vinaigre de vin,Vinaigre,non
-vinaigre de vin en bouteille,,non
-vinaigre de vin en futaille,,non
+vinaigre de vin en bouteille,Vinaigre,non
+vinaigre de vin en futaille,Vinaigre,non
 vinaigre ordinaire,Vinaigre,non
-vinaigre parfumé,,non
+vinaigre parfumé,Vinaigre,non
 viole,,non
 violende,,non
 violon,,non
