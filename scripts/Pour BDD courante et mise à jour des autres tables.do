@@ -7,6 +7,7 @@ version 14.2
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
+if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
 
@@ -455,6 +456,10 @@ drop if _merge==2
 drop _merge
 
 merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_EN.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 marchandises_simplification using "bdd_marchandises_hamburg"
 drop if _merge==2
 drop _merge
 
