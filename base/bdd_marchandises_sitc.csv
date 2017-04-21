@@ -105,6 +105,8 @@ agrément de fleur,9c,x,non
 agrément de soie,6f,x,non
 agrément de soie et d'argent,6f,x,non
 agrément de soie or et argent faux,6f,x,non
+agréments de soie et milleret,6f,,non
+agréments et milleret,6i,,non
 agrès,7,x,non
 agrès apparaux de navire et embarcations,7,x,non
 agrès apparaux et embarcations,7,x,non
@@ -6371,8 +6373,8 @@ etocs de fer,???,x,non
 étoffe et galon d'argent et d'or,6i,x,non
 étoffe et gaze et toile des Indes,6i,x,non
 étoffe et lainages,6i,,non
+étoffe et ruban de soie,6f,,non
 étoffe et rubanerie de fleuret,6f,,non
-étoffe et rubans de soie,6f,,non
 Étoffe étamine fine,6i,,non
 étoffe éternelle,6i,,non
 étoffe éternelle de laine,6e,,non
@@ -9563,6 +9565,7 @@ langues de mouton,0a,x,non
 langues de porc,0a,x,non
 langues de porc salées,0a,x,non
 langues et noix de morue,0a,x,non
+langues et noves de morue,0a,,
 langues et yeux de cerf,0a,,non
 langues fumées,0a,x,non
 langues salées,0a,x,non
@@ -10740,8 +10743,6 @@ migon,???,x,non
 mil,0a,,non
 mille gants,???,x,non
 milleret,6i,,non
-agréments et milleret,6i,,non
-agréments de soie et milleret,6f,,non
 millet,0a,x,non
 mimy,???,,non
 mine d'alquifoux,2,,non
@@ -10884,6 +10885,7 @@ morceaux cousus de hamsters,6a,,non
 morceaux cousus de lapins et lièvres,6a,,non
 morceaux cousus dos et ventre de petits-gris,6a,,non
 morceaux d'espars,6b,,non
+morceaux de bois,6b,,non
 morceaux de planches,6b,,non
 morenine de soie,6f,,non
 morilles,0a,x,non
@@ -11143,7 +11145,6 @@ moulons et kibbelinck,???,,non
 moulures dorées,8,,non
 mouquette,???,x,non
 moureaux,6d,x,non
-morceaux de bois,6b,,non
 moureaux de mules,7,,non
 moureaux de mulets,7,,non
 mousquetons,8,,non
@@ -11416,6 +11417,8 @@ noronges,???,,non
 nougat,0a,,non
 nousouque,???,,non
 noves de morue,0a,,non
+noves de morue,0a,,non
+noves et langues de morue des Îles,0a,,
 noyaux,2,,non
 noyaux d'olives,2,,non
 noyaux de pêche,2,,non
@@ -11585,6 +11588,7 @@ orangers à planter,2,,non
 orangers petits,2,,non
 orbe,???,x,non
 orcanette,2,x,non
+orcanette,2,,non
 orcillons à faire colle,2,x,non
 oreilles et oreillons à faire colle,2,x,non
 oreillons,2,x,non
@@ -11598,7 +11602,6 @@ orfèvrerie d'or ou de vermeil,8,,non
 orfèvrerie de platine,8,,non
 organdis,6g,x,non
 organeaux,7,,non
-orcanette,2,,non
 orge jaune,0a,x,non
 orge mondé,0a,x,non
 orge moulu,0a,x,non
@@ -11682,6 +11685,7 @@ outils de boulanger,6j,x,oui
 outils de cuisine,6j,x,non
 outils de cuivre ou de laiton,6j,,non
 outils de fer,6j,x,non
+outils de fer,6j,,non
 outils de fer de forgeron,6j,x,non
 outils de fer pur,6j,,non
 outils de fer rechargé d'acier,6j,,non
@@ -11699,7 +11703,6 @@ outils de pêche,6j,x,non
 outils de pêche par Marseille,6j,x,non
 outils de pêcheur,6j,x,oui
 outils de sécheurs,6j,x,oui
-outils de fer,6j,,non
 outils menuisier,6j,,non
 outils pour boulanger,6j,,non
 outils pour charpentier,6j,,non
@@ -11963,16 +11966,16 @@ ouvrages dorés,8,x,non
 ouvrages dorés argentés et plaqués,8,x,non
 ouvrages dorure fausse,9c,x,non
 ouvrages en brique vernissée,6k,,non
-ouvrages en cheveux,,,non
+ouvrages en cheveux,6k,,non
 ouvrages en cuivre plaqué doré et argenté,8,,non
 ouvrages en cuivre plaqué et dorés et argentés,8,x,oui
 ouvrages en dorure,8,x,non
 ouvrages en dorure argent faux,9c,x,non
 ouvrages en dorure fil d'argent,8,x,non
 ouvrages en dorure fine,8,x,non
-ouvrages en dorure sur soie,,,non
+ouvrages en dorure sur soie,8,,non
 ouvrages en esparballe,???,,non
-ouvrages en fleurs artificielles,,,non
+ouvrages en fleurs artificielles,8,,non
 ouvrages en futaillerie et de Saint-Claude,6b,x,non
 ouvrages en harnais et sellerie,7,,non
 ouvrages en harnois et sellerie,7,x,oui
@@ -11982,14 +11985,14 @@ ouvrages en lames à couvrir,9c,,non
 ouvrages en marbre,8,x,non
 ouvrages en métal,6j,x,non
 ouvrages en métal et fer,6j,x,non
-ouvrages en métaux communs argentés dorés plaqués vernissés,,,non
-ouvrages en métaux communs plaqués,,,non
+ouvrages en métaux communs argentés dorés plaqués vernissés,6j,,non
+ouvrages en métaux communs plaqués,6j,,non
 ouvrages en nacre de perle,8,x,non
-ouvrages en nattes de bois,,,non
-ouvrages en nattes de Moscovie,,,non
+ouvrages en nattes de bois,6b,,non
+ouvrages en nattes de Moscovie,6b,,non
 ouvrages en passementerie ordinaire,6i,x,non
-ouvrages en pierres,,,non
-ouvrages en poil autres que le tissu,,,non
+ouvrages en pierres,6k,,non
+ouvrages en poil autres que le tissu,8,,non
 ouvrages en terre cuite,6k,x,non
 ouvrages en tôle vernie,6j,x,non
 ouvrages et ornements pour une église,9c,x,non
@@ -11999,34 +12002,34 @@ ouvrages pantoufles,8,,non
 ouvrages riche,9c,x,oui
 ouvrages riches et divers,9c,,non
 ouvrages tricotés pour vestes camisoles et culottes,8,x,non
-oxyde d'étain et de fer,,,non
-oxyde de cuivre,,,non
-oxyde de manganèse,,,non
+oxyde d'étain et de fer,5,,non
+oxyde de cuivre,5,,non
+oxyde de manganèse,5,,non
 oxyde de plomb,5,x,non
-oxyde de zinc blanc,,,non
-oxyde de zinc blanc ou gris,,,non
-oxyde de zinc gris cendré,,,non
-packlaeken,,,non
-packlaeken blanc,,,non
-packlaeken teint,,,non
-padoux,,,non
-padoux de fil,,,non
-padoux de fleuret et soie,,,non
-padoux de laine,???,x,non
-paesures,,,non
-pagas,,,non
+oxyde de zinc blanc,5,,non
+oxyde de zinc blanc ou gris,5,,non
+oxyde de zinc gris cendré,5,,non
+packlaeken,6e,,non
+packlaeken blanc,6e,,non
+packlaeken teint,6e,,non
+padoux,6i,,non
+padoux de fil,6h,,non
+padoux de fleuret et soie,6f,,non
+padoux de laine,6e,x,non
+paesures,???,,non
+pagas,???,,non
 pagne,8,x,non
-paillasses,,,non
-paillassons et tapis de sol,,,non
+paillasses,6i,,non
+paillassons et tapis de sol,6i,,non
 paille,2,x,non
 paille d'herbe,2,x,non
-paille de foin,,,non
+paille de foin,2,,non
 paille de lin,2,x,non
-paille dite chaume à couvrir toits,,,non
-paille et herbes de pâturage,,,non
-paille hachée,,,non
-paillers d'espars,,,non
-pailles de bois,,,non
+paille dite chaume à couvrir toits,2,,non
+paille et herbes de pâturage,2,,non
+paille hachée,2,,non
+paillers d'espars,2,,non
+pailles de bois,2,,non
 paillettes d' ???,9a,,non
 paillettes d'argent,9a,x,non
 paillettes d'or,9a,,non
@@ -12035,7 +12038,7 @@ paillettes d'or fin et paollous d'or fin,9a,x,oui
 pain,0a,x,non
 pain à cacheter,8,x,non
 pain d'épice,0a,x,non
-pain d'épice et pâtisserie,,,non
+pain d'épice et pâtisserie,0a,,non
 pain de cire blanche,4,x,non
 pain de colza et de lin et de navette,0a,x,non
 pain de graine de lin,0a,x,non
@@ -12052,63 +12055,61 @@ palatine de peau de grèbe,8,x,non
 palatine de soie,8,x,non
 palatine et coiffures de gaze,8,x,non
 palins,???,,non
-Palma Christi,,,non
+Palma Christi,2,,non
 palme,2,x,non
-palme en feuilles,,,non
-palme pour balais,,,non
+palme en feuilles,2,,non
+palme pour balais,2,,non
 palun,???,,non
 paneston,???,,oui
 panetons,???,,non
 panier,8,x,non
 panier à couvrir de terre cuite,6k,,non
-panier à ouvrages,,,non
-panier d'espars,,,non
+panier à ouvrages,8,,non
+panier d'espars,8,,non
 panier d'habit,8,x,non
-panier d'orseille,,,non
+panier d'orseille,8,,non
 panier d'oseille,8,x,non
 panier d'osier,8,x,non
-panier d'osier petit,,,non
+panier d'osier petit,8,,non
 panier de caudré,???,x,non
 panier de coudre,???,x,non
 panier de cuivre,6j,x,non
 panier de femme,8,x,non
-panier de fer,,,non
-panier de foudre,,,non
+panier de fer,6j,,non
+panier de foudre,6j,,non
 panier de jonc,8,x,non
-paniers à couvrir de terre cuite,6k,x,oui
-paniers d'osier,,,non
-panine,,,non
-panine de soie,,,non
-panis à cachette,,,non
+panine,6i,,non
+panine de soie,6f,,non
+panis à cachette,???,,non
 panne,6i,x,non
 panne à couvrir,6i,x,non
-panne ciselée,,,non
+panne ciselée,6i,,non
 panne d'Amiens,6i,x,non
 panne de coton,6g,x,non
 panne de laine,6e,x,non
-panne de laine et de long poil,,,non
+panne de laine et de long poil,6e,,non
 panne de laine et de poil,6e,x,non
 panne de laine et peluche de laine,6e,x,non
-panne de laine ficelée,,,non
+panne de laine ficelée,6e,,non
 panne de poil,6e,x,non
-panne de poil longue,,,non
+panne de poil longue,6e,,non
 panne de soie,6f,x,non
 panne des prises,6i,x,non
 panne écarlate,6i,,non
 panne écarlatte,6i,x,oui
 Panne en peluches et tripe aune,6i,,non
-panne en poil,,,non
-panne imprimée,,,non
-panne laine et poil,,,non
+panne en poil,6e,,non
+panne imprimée,6i,,non
+panne laine et poil,6e,,non
 panne ordinaire,6i,x,non
-panne peluches et tripe,,,non
+panne peluches et tripe,6f,,non
 panne poil,6e,x,non
-panneaux,,,non
+panneaux,9c,,non
 pans à couvrir de terre cuite,6k,x,non
-pantalons,,,non
+pantalons,8,,non
 pantalons de soie,8,x,non
 pantoufles,8,x,non
-pantoufles brodées,,,non
+pantoufles brodées,8,,non
 pantoufles de cuir,8,x,non
 pantoufles de cuir et de maroquin,8,x,non
 paon,0a,x,oui
@@ -12120,15 +12121,15 @@ papier ???,6c,x,non
 papier à bulle,6c,x,non
 papier à bulle blanc,6c,x,non
 papier à bulle gros,6c,x,non
-papier à cartes,,,non
+papier à cartes,6c,,non
 papier à cartouche,6c,x,non
 papier à connaissements,6c,x,non
 papier à doublage,6c,x,non
-papier à doublage et peint,,,non
+papier à doublage et peint,6c,,non
 papier à écrire,6c,x,non
 papier à écrire de différentes quaités,6c,x,oui
 papier à écrire de différentes qualités,6c,,non
-papier à écrire toute espèce,,,non
+papier à écrire toute espèce,6c,,non
 papier à enveloppe,6c,,oui
 papier à envelopper,6c,x,non
 papier à états,6c,x,non
@@ -12165,9 +12166,9 @@ papier à musique,6c,x,non
 papier à paqueter grand format,6c,x,non
 papier à paqueter petit format,6c,x,non
 papier à plan,6c,x,non
-papier à pliage,,,non
+papier à pliage,6c,,non
 papier à sucre,6c,x,non
-papier à tapisserie,,,non
+papier à tapisserie,6c,,non
 papier argenté et doré,6c,x,non
 papier aux armes,6c,x,non
 papier bâtard,6c,x,non
@@ -12175,42 +12176,42 @@ papier bâtard fin,6c,x,non
 papier blanc,6c,x,non
 papier blanc à écrire,6c,x,non
 papier blanc à enveloppe,6c,x,non
-papier blanc Galmes,,,non
-papier blanc ou rayé pour musique,,,non
+papier blanc Galmes,6c,,non
+papier blanc ou rayé pour musique,6c,,non
 papier blanc petit,6c,x,oui
 papier blanc petit format,6c,,non
 papier bleu,6c,x,non
 papier bleu à couvrir,6c,x,non
 papier bleu de Hollande,6c,x,non
-papier bleu et gris,,,non
-papier bleu petit format,,,non
+papier bleu et gris,6c,,non
+papier bleu petit format,6c,,non
 papier bouet,6c,x,non
 papier brouillard,6c,x,non
 papier brun,6c,x,non
-papier bulle blanche,,,non
+papier bulle blanche,6c,,non
 papier buvard,6c,x,non
 papier buvard fin,6c,x,non
 papier carré,6c,x,non
 papier cartier,6c,x,non
 papier collé,6c,x,non
 papier colombier,6c,x,non
-papier colorié en rames,,,non
-papier colorié en rames pour reliures,,,non
+papier colorié en rames,6c,,non
+papier colorié en rames pour reliures,6c,,non
 papier commun,6c,x,non
-papier commun et à enveloppe,,,non
+papier commun et à enveloppe,6c,,non
 papier commun et à l'eau,6c,x,oui
 papier cornet,6c,x,non
 papier cornet et petit,6c,x,non
 papier corue,6c,x,non
 papier couronne,6c,x,non
-papier cru fin,,,non
+papier cru fin,6c,,non
 papier d'emballage,6c,x,non
-papier d'emballage gris,,,non
+papier d'emballage gris,6c,,non
 papier d'envelope,6c,x,oui
-papier d'enveloppe,,,non
-papier d'enveloppe à pâte de couleur,,,non
+papier d'enveloppe,6c,,non
+papier d'enveloppe à pâte de couleur,6c,,non
 papier d'estrasse,6c,x,non
-papier d'estrasse gris,,,non
+papier d'estrasse gris,6c,,non
 papier d'éventail,6c,x,oui
 papier de Charente,6c,x,non
 papier de Chine,6c,x,non
@@ -12220,7 +12221,7 @@ papier de couleurs et peint,6c,x,oui
 papier de Gênes commun,6c,x,non
 papier de Gênes fin,6c,x,non
 papier de Gênes peint,6c,x,non
-papier de Gênes petit,,,non
+papier de Gênes petit,6c,,non
 papier de Hollande,6c,x,non
 papier de Lamballe,6c,x,non
 papier de marquis,6c,x,non
@@ -12229,32 +12230,32 @@ papier de musique,6c,x,non
 papier de pliage,6c,x,non
 papier de poste,6c,x,non
 papier de raisin,6c,x,non
-papier de soie,,,non
+papier de soie,6c,,non
 papier de tapisserie,6c,x,non
 papier des Indes,6c,x,non
 papier dessiné,6c,x,non
 papier doré,6c,x,non
-papier doré et fleuragé et marbré,,,non
+papier doré et fleuragé et marbré,6c,,non
 papier double lys,6c,x,non
 papier drapé,6c,x,non
 papier en balle,6c,x,non
 papier estrasse,6c,x,non
 papier et bois d'éventail,6c,x,non
-papier étoile fin,,,non
+papier étoile fin,6c,,non
 papier fin,6c,x,non
 papier fin et à l'eau fin,6c,x,oui
 papier fleuragé et doré,6c,x,non
 papier gaufré,6c,x,non
-papier grand carnet,,,non
+papier grand carnet,6c,,non
 papier grand compte,6c,x,non
 papier grand cornet,6c,x,non
 papier grand éléphant,6c,x,non
-papier grand format,,,non
-papier grand raisin,,,non
+papier grand format,6c,,non
+papier grand raisin,6c,,non
 papier grande rame,6c,x,oui
 papier grandes rames,6c,,non
 papier gris,6c,x,non
-papier gris cassé,,,non
+papier gris cassé,6c,,non
 papier gros dit carton,6c,x,oui
 papier grossier,6c,x,non
 papier impérial,6c,x,non
@@ -12271,21 +12272,21 @@ papier musique gravée,6c,x,oui
 papier noir,6c,x,non
 papier peint,6c,x,non
 papier peint à tapisserie,6c,x,non
-papier peint en rouleaux,,,non
-papier peint en rouleaux pour teinture,,,non
+papier peint en rouleaux,6c,,non
+papier peint en rouleaux pour teinture,6c,,non
 papier peint et à meubler,6c,x,non
-papier peint et à tapisserie,,,non
+papier peint et à tapisserie,6c,,non
 papier peint et de foulards,6c,x,non
-papier peint pour teinture,,,non
+papier peint pour teinture,6c,,non
 papier petit fin,6c,x,non
 papier pliage,6c,x,non
 papier point,6c,x,non
-papier pot,,,non
+papier pot,6c,,non
 papier pot fin,6c,x,non
 papier pour eventails,6c,x,oui
 papier pour éventails,6c,,non
-papier pour polir le bois et les métaux,,,non
-papier pour tapisserie,,,non
+papier pour polir le bois et les métaux,6c,,non
+papier pour tapisserie,6c,,non
 papier pour teinture,6c,x,oui
 papier pour tenture,6c,x,non
 papier raisin,6c,x,non
@@ -12297,36 +12298,31 @@ papier tontisse,6c,x,non
 papier violet,6c,x,non
 papillon sec,9c,x,oui
 papillons secs,2,,non
-parapluie,8,x,oui
-parapluie commun,8,x,oui
-parapluie de taffetas,8,x,oui
-parapluie de toile,8,x,oui
-parapluie et parasol,8,x,oui
 parapluies,8,,non
 parapluies communs,8,,non
 parapluies de soie,8,x,non
 parapluies de taffetas,8,,non
 parapluies de toile,8,,non
-parapluies de toile cirée,,,non
+parapluies de toile cirée,8,,non
 parapluies et parasols,8,,non
 parasols,8,x,non
-parasols de peau,,,non
-parasols de soie,,,non
+parasols de peau,8,,non
+parasols de soie,8,,non
 parasols de taffetas,8,x,non
 paravent,8,x,non
 paravent de la Chine,8,x,non
-parchemin achevé,,,non
-parchemin et vélin achevés,,,non
-parchemin et vélin bruts,,,non
-parchemins,,,non
-parchemins caficule,,,non
-parchemins en feuilles,,,non
-parchemins neufs,,,non
-parchemins vieux,,,non
+parchemin achevé,6a,,non
+parchemin et vélin achevés,6a,,non
+parchemin et vélin bruts,6a,,non
+parchemins,6a,,non
+parchemins caficule,6a,,non
+parchemins en feuilles,6a,,non
+parchemins neufs,6a,,non
+parchemins vieux,6a,,non
 pareira brava,5,,non
 parfum,5,x,non
 parfumerie,5,x,non
-parfumerie à la valeur,,,non
+parfumerie à la valeur,5,,non
 parfumerie eau de senteur,5,x,non
 parfumerie eau spiritueuse,5,x,oui
 parfumerie et eau spiritueuse,5,,non
@@ -12335,85 +12331,85 @@ parfumerie mêlée de bois odorant ambre gris musc eau de senteur essence et hui
 parfumerie musc,5,x,non
 parfumerie pommade,5,x,non
 parfumerie poudre à poudrer,5,x,non
-parfumerie rouge,,,non
+parfumerie poudre d'odeur,5,,non
+parfumerie rouge,5,,non
 parfumerie savonnette,5,x,oui
 parfumerie savonnettes,5,,oui
 pariera,5,,non
-parmerie poudre d'odeur,,,non
 parun,6a,,non
-passementerie,6i,x,non
-passementerie argent faux,6i,x,non
-passementerie bise écrue ou herbée,,,non
-passementerie blanche ou mélangée de blanc,,,non
+passementerie,8,x,non
+passementerie argent faux,8,x,non
+passementerie bise écrue ou herbée,6i,,non
+passementerie blanche ou mélangée de blanc,6i,,non
 passementerie d'argent,8,x,non
-passementerie d'argent et d'or faux et de soie,,,non
-passementerie d'argent et de soie,,,non
+passementerie d'argent et d'or faux et de soie,9b,,non
+passementerie d'argent et de soie,9b,,non
 passementerie d'or,8,x,non
 passementerie d'or et d'argent,8,x,non
 passementerie d'or et de soie,9b,x,non
-passementerie de chanvre de fil bis écru herbé et de lin,,,non
-passementerie de chanvre de fil blanc et mélangé de blanc et de lin,,,non
-passementerie de chanvre de fil teint en tout et en partie et de lin,,,non
-passementerie de chanvre de laine blanche et de lin,,,non
-passementerie de chanvre de laine écrue et de lin,,,non
-passementerie de chanvre de laine teinte et de lin,,,non
+passementerie de chanvre de fil bis écru herbé et de lin,6h,,non
+passementerie de chanvre de fil blanc et mélangé de blanc et de lin,6h,,non
+passementerie de chanvre de fil teint en tout et en partie et de lin,6h,,non
+passementerie de chanvre de laine blanche et de lin,6i,,non
+passementerie de chanvre de laine écrue et de lin,6i,,non
+passementerie de chanvre de laine teinte et de lin,6i,,non
 passementerie de coton,6g,x,non
-passementerie de crin,,,non
-passementerie de fil,,,non
-passementerie de fil de chanvre et de lin bis écru herbé ou mélangé,,,non
-passementerie de fil de chanvre et de lin bis écru ou herbé,,,non
-passementerie de fil de chanvre et de lin teint en tout ou partie,,,non
-passementerie de fil de soie et galon,6i,x,non
+passementerie de crin,6e,,non
+passementerie de fil,6h,,non
+passementerie de fil de chanvre et de lin bis écru herbé ou mélangé,6h,,non
+passementerie de fil de chanvre et de lin bis écru ou herbé,6h,,non
+passementerie de fil de chanvre et de lin teint en tout ou partie,6h,,non
+passementerie de fil de soie et galon,6h,x,non
 passementerie de fil en filoselle,6i,x,non
 passementerie de fil et coton,6i,x,non
 passementerie de fil et laine,6i,x,non
 passementerie de fil et soie,6f,x,non
-passementerie de fil laine et poil,,,non
-passementerie de filoselle,,,non
+passementerie de fil laine et poil,6i,,non
+passementerie de filoselle,6f,,non
 passementerie de laine,6e,x,non
-passementerie de laine blanche écrue pure,,,non
-passementerie de laine écrue pure,,,non
-passementerie de laine mélangée de fil laine et poil,,,non
-passementerie de laine mêlée de fil,,,non
-passementerie de laine ou sayette,8,x,non
-passementerie de laine pure teinte,,,non
+passementerie de laine blanche écrue pure,6e,,non
+passementerie de laine écrue pure,6e,,non
+passementerie de laine mélangée de fil laine et poil,6i,,non
+passementerie de laine mêlée de fil,6i,,non
+passementerie de laine ou sayette,6e,x,non
+passementerie de laine pure teinte,6e,,non
 passementerie de poil de chèvre,6e,x,non
 passementerie de soie,6f,x,non
-passementerie de soie d'argent ou d'or faux,,,non
-passementerie de soie d'argent ou d'or fin,,,non
+passementerie de soie d'argent ou d'or faux,6f,,non
+passementerie de soie d'argent ou d'or fin,6f,,non
 passementerie de soie et laine,6f,x,non
-passementerie de soie mêlée,,,non
-passementerie de soie pure,,,non
+passementerie de soie mêlée,6f,,non
+passementerie de soie pure,6f,,non
 passementerie divers,6i,x,non
 passementerie en frange de fil,6i,x,non
 passementerie en soie,6f,x,non
-passementerie et ruban de fleuret,,,non
-passementerie et rubans de coton,,,non
-passementerie et rubans de fleuret,,,non
-passementerie et rubans de laine mêlée de fil,,,non
-passementerie et rubans de laine teinte,,,non
-passementerie et rubans de soie pure,,,non
+passementerie et ruban de coton,6g,,non
+passementerie et ruban de fleuret,6f,,non
+passementerie et ruban de fleuret,6f,,non
+passementerie et ruban de laine mêlée de fil,6i,,non
+passementerie et ruban de laine teinte,6e,,non
+passementerie et ruban de soie pure,6f,,non
 passementerie fine en filet d'or,8,x,non
 passementerie fine en velours,6i,x,non
 passementerie mêlé de soie,6f,x,non
-passementerie mêlée d'argent d'or et de soie,,,non
-passementerie mêlée d'argent d'or faux et fin et de soie,,,non
-passementerie mêlée d'argent ou d'or faux ou fin,,,non
-passementerie mêlées d'autres matières que d'argent ou d'or,,,non
+passementerie mêlée d'argent d'or et de soie,9b,,non
+passementerie mêlée d'argent d'or faux et fin et de soie,6f,,non
+passementerie mêlée d'argent ou d'or faux ou fin,9c,,non
+passementerie mêlées d'autres matières que d'argent ou d'or,6i,,non
 passementerie ordinaire,6i,x,non
-passementerie teinte en tout ou partie,,,non
+passementerie teinte en tout ou partie,6i,,non
 passepierre,0a,x,non
 passepoil de laine,6e,x,non
-passes,,,non
-passetatons de cordonnier,,,non
+passes,???,,non
+passetatons de cordonnier,???,,non
 pastel,5,x,non
 pastel à teindre,5,x,non
 pastel romain,5,x,non
-pastèques,,,non
+pastèques,0a,,non
 pastille,9c,x,oui
 pastilles,9c,,non
-pastilles odoriférantes à brûler,,,non
-pastilles odoriférantes du sérail,,,non
+pastilles odoriférantes à brûler,5,,non
+pastilles odoriférantes du sérail,5,,non
 pataques,9a,x,non
 patate,0a,x,oui
 patates,0a,,non
@@ -12424,81 +12420,75 @@ pâte à papier,2,x,non
 pâte d'amande,0a,x,non
 pâte d'asperge,0a,x,non
 pâte d'Italie,0a,x,non
-pâte d'Italie et autres granulés,,,non
+pâte d'Italie et autres granulés,0a,,non
 pâte d'Italie et vermicelle,0a,x,non
-pâte d'Italie macaroni et vermicelle,,,non
+pâte d'Italie macaroni et vermicelle,0a,,non
 pâte d'Italie sagou,0a,x,non
 pâte d'Italie semoule,0a,x,non
 pâte d'Italie vermicelle macaroni,0a,x,non
 pâte d'orgeat,0a,x,non
 pâte d'orgeat et sirop d'orgeat,0a,x,non
 pâte de cacao,0a,x,non
-pâté de canard,0a,x,oui
-pâté de chèvre et autre,0a,x,oui
 pâte de guimauve,0a,x,non
-pâte de pastel,,,non
-pâte de térébenthine,,,non
+pâte de pastel,2,,non
+pâte de térébenthine,5,,non
 pâté de viande,0a,x,non
-pâte et savon liquide,,,non
+pâte et savon liquide,5,,non
 pâte et tablette de guimauve,0a,x,non
-pâte granulée,,,non
+pâte granulée,0a,,non
 pâte macaroni,0a,x,non
 pâte ou vieux chiffons,2,x,non
 pâte sagou,0a,,non
 pâte semoule,0a,x,non
-patenas,,,non
+patenas,???,,non
 patenottes,???,,non
 pâtés,0a,,non
 pâtés de canard,0a,,non
 pâtés de chèvre et autre,0a,,non
-patine,,,non
-patins,,,non
+patine,5,,non
+patins,8,,non
 patins à glisser,8,x,non
-patins de bois,,,non
-patins pour femme,,,non
+patins de bois,8,,non
+patins pour femme,8,,non
 pâtisserie,0a,x,non
-patissoye broché,,,non
-patissoye uni,,,non
-patte d'oie,,,non
+patissoye broché,0i,,non
+patissoye uni,0i,,non
+patte d'oie,0a,,non
 patterie,???,,non
-pattes aux vieux chiffons,,,non
-pattes d'ancre,,,non
-pattes ou vieux chiffons,,,non
+pattes d'ancre,6k,,non
+pattes ou vieux chiffons,2,,non
 paumelle,6j,x,non
 paumelle germée,2,x,non
-pause de Russie,,,non
 pauvre noir,???,x,non
-pavés,,,non
-pavés de morue,,,non
-pavillon de toile,,,non
-pavots,,,non
-peau de Martre,,,non
-peau de poisson,,,non
+pavés,6k,,non
+pavés de morue,0a,,non
+pavillon de toile,6h,,non
+pavots,2,,non
 peaux,6a,x,non
 peaux ???,6a,x,non
 peaux à apprêtées et de mouton,6a,x,oui
 peaux à faire tambours,6a,x,non
-peaux à fleurs et de mouton,,,non
-peaux à l'exergue de veaux,,,non
-peaux à la valeur,,,non
+peaux à fleurs et de mouton,6a,,non
+peaux à l'exergue de veaux,6a,,non
+peaux à la valeur,6a,,non
 peaux à panche,6a,x,oui
 peaux à panches,6a,,non
 peaux à paqueter de veau,6a,x,oui
 peaux à poil de veau,2,x,non
 peaux à poil de veau sec,2,,non
 peaux à poil et sec de veau,2,x,oui
-peaux apprêtée d'orignal,,,non
-peaux apprêtée de buffle,,,non
+peaux apprêtée d'orignal,6a,,non
+peaux apprêtée de buffle,6a,,non
 peaux apprêtées,6a,x,non
 peaux apprêtées d'agneau,6a,x,non
 peaux apprêtées d'agneau en mesquis,6a,x,oui
 peaux apprêtées d'élan,6a,x,non
-peaux apprêtées d'hermine et de martre,,,non
+peaux apprêtées d'hermine et de martre,6a,,non
 peaux apprêtées d'ours,6a,x,non
 peaux apprêtées de ???,6a,,non
 peaux apprêtées de basannes,6a,x,non
 peaux apprêtées de bouc,6a,x,non
-peaux apprêtées de bouc et de chèvre,,,non
+peaux apprêtées de bouc et de chèvre,6a,,non
 peaux apprêtées de buffle,6a,x,non
 peaux apprêtées de castor,6a,x,non
 peaux apprêtées de cerf,6a,,non
@@ -12510,16 +12500,16 @@ peaux apprêtées de chèvre,6a,x,non
 peaux apprêtées de chèvre et chevreau,6a,x,non
 peaux apprêtées de chevreau,6a,,non
 peaux apprêtées de chevreuil,6a,x,non
-peaux apprêtées de chien de mer,,,non
+peaux apprêtées de chien de mer,6a,,non
 peaux apprêtées de daim,6a,x,non
 peaux apprêtées de lapin,6a,x,non
-peaux apprêtées de lapin et de lièvre,,,non
+peaux apprêtées de lapin et de lièvre,6a,,non
 peaux apprêtées de lièvre,6a,x,non
-peaux apprêtées de lièvre et lapin,,,non
+peaux apprêtées de lièvre et lapin,6a,,non
 peaux apprêtées de loup,6a,x,non
 peaux apprêtées de loup cervier,6a,x,non
-peaux apprêtées de loup et d'ours et de tigre,,,non
-peaux apprêtées de marmotte,,,non
+peaux apprêtées de loup et d'ours et de tigre,6a,,non
+peaux apprêtées de marmotte,6a,,non
 peaux apprêtées de maroquins,6a,x,non
 peaux apprêtées de mouton,6a,x,non
 peaux apprêtées de mouton en couleur,6a,,non
@@ -12529,25 +12519,25 @@ peaux apprêtées de renard,6a,x,non
 peaux apprêtées de roussette,6a,x,non
 peaux apprêtées de vache,6a,x,non
 peaux apprêtées de veau,6a,x,non
-peaux apprêtées de veau en buffle,,,non
-peaux apprêtées de veau en chamois,,,non
+peaux apprêtées de veau en buffle,6a,,non
+peaux apprêtées de veau en chamois,6a,,non
 peaux apprêtées de veau marin,6a,,non
 peaux apprêtées de veau pour cuir doré,6a,,non
-peaux apprêtées en couleurs et de veau,,,non
-peaux apprêtées en maroquins et de veau,,,non
-peaux apprêtées et brutes,9b,,non
+peaux apprêtées en couleurs et de veau,6a,,non
+peaux apprêtées en maroquins et de veau,6a,,non
+peaux apprêtées et brutes,6a,,non
 peaux apprêtées et de cerf,6a,x,oui
 peaux apprêtées et de veau marin,6a,x,oui
 peaux apprêtées passées en maroquins,6a,x,non
 peaux apprêtées pour cuir doré et de veau,6a,x,oui
 peaux basane de veau,6a,x,oui
-peaux basanées de mouton,,,non
+peaux basanées de mouton,6a,,non
 peaux blanche,6a,x,oui
 peaux blanche apprêtée,6a,x,oui
 peaux blanches,6a,,non
 peaux blanches apprêtées,6a,,non
-peaux blanches de mouton,,,non
-peaux blanches de veaux,,,non
+peaux blanches de mouton,6a,,non
+peaux blanches de veaux,6a,,non
 peaux blanches ou grise et de mouton,6a,x,oui
 peaux blanches ou grises de mouton,6a,,non
 peaux blanchies de mouton,6a,,non
@@ -12558,43 +12548,27 @@ peaux bronzées de veau,6a,,non
 peaux bronzées et de veau,6a,x,oui
 peaux brourées de veau,6a,x,non
 peaux brute et apprêtée,9b,x,oui
-peaux brutes d'agneau ordinaires,,,non
-peaux brutes de chèvre et de mouton et de veau,2,x,non
-peaux brutes de chevreuil,,,non
-peaux brutes de lapin et de lièvre,,,non
-peaux brutes de loup marin,,,non
-peaux brutes de phoque,,,non
-peaux brutes et de chèvre et de mouton et de veau,2,x,oui
-peaux brutes fraîches de chien de mer,,,non
-peaux brutes fraîches grandes,,,non
-peaux brutes fraîches petites,,,non
-peaux brutes grandes fraîches,,,non
-peaux brutes grandes sèches,,,non
-peaux brutes petites d'agneaux et de chevreaux,,,non
-peaux brutes petites de chien de mer et requin,,,non
-peaux brutes petites sèches,,,non
-peaux brutes sèches de chien de mer,,,non
 peaux chamois,6a,x,non
-peaux chamoisées de daim,,,non
-peaux chamoisées ou mégies,,,non
-peaux chamoisées ou mégissées,,,non
+peaux chamoisées de daim,6a,,non
+peaux chamoisées ou mégies,6a,,non
+peaux chamoisées ou mégissées,6a,,non
 peaux communes de mouton,6a,,non
 peaux communes et de mouton,6a,x,oui
 peaux corroyées,6a,x,non
 peaux corroyées de chèvre,6a,x,non
 peaux corroyées de daim,6a,,non
-peaux corroyées de maroquin,,,non
+peaux corroyées de maroquin,6a,,non
 peaux corroyées de mouton,6a,,non
-peaux corroyées de vache,,,non
+peaux corroyées de vache,6a,,non
 peaux corroyées de veau,6a,x,non
-peaux corroyées en noir de veau,,,non
+peaux corroyées en noir de veau,6a,,non
 peaux corroyées en poil et de veau,6a,,non
 peaux corroyées et de daim,6a,x,oui
 peaux corroyées et de mouton,6a,x,oui
 peaux corroyées et en poil et de veau,6a,x,oui
 peaux corroyées et tannées,6a,x,non
 peaux corroyées et tannées de veau,6a,x,non
-peaux corroyées ou tannées,,,non
+peaux corroyées ou tannées,6a,,non
 peaux couleurs et de veau,6a,x,oui
 peaux crue,2,x,oui
 peaux crue d'ours,2,,non
@@ -12606,7 +12580,7 @@ peaux crues d'élan,2,,non
 peaux crues d'ours,2,,non
 peaux crues de bouc,2,x,non
 peaux crues de bouc et de chèvre,2,,non
-peaux crues de brebis,,,non
+peaux crues de brebis,2,,non
 peaux crues de brebis et de mouton,2,,non
 peaux crues de castor,2,,non
 peaux crues de cerf,2,,non
@@ -12618,7 +12592,7 @@ peaux crues de chevreau,2,,non
 peaux crues de daim,2,x,oui
 peaux crues de daim en poil,2,,non
 peaux crues de daim en vert,2,,non
-peaux crues de lapin,,,non
+peaux crues de lapin,2,,non
 peaux crues de lièvre,2,,non
 peaux crues de lièvre et lapin,2,x,non
 peaux crues de lièvres,2,,non
@@ -12635,10 +12609,10 @@ peaux crues et de lièvre,9b,x,oui
 peaux crues et de mouton,9b,x,oui
 peaux d'agneau,6a,x,non
 peaux d'agneau crues,2,x,oui
-peaux d'agneau en chamois,,,non
-peaux d'agneau en couleur,,,non
+peaux d'agneau en chamois,6a,,non
+peaux d'agneau en couleur,6a,,non
 peaux d'agneau en laine,2,x,non
-peaux d'agneau en mégie,,,non
+peaux d'agneau en mégie,6a,,non
 peaux d'agneau en mesquis,6a,,non
 peaux d'agneau en poil,2,x,non
 peaux d'agneau en tripe,6a,x,non
@@ -12647,9 +12621,9 @@ peaux d'agneau et de chevreau et en poil,2,x,oui
 peaux d'agneau et de mouton et passées,6a,x,oui
 peaux d'agneau et de mouton passées,6a,,non
 peaux d'agneau lavées,6a,x,non
-peaux d'agneau ou chevreau apprêtées,,,non
+peaux d'agneau ou chevreau apprêtées,6a,,non
 peaux d'agneau passées,6a,x,non
-peaux d'agneau tannées,,,non
+peaux d'agneau tannées,6a,,non
 peaux d'agneau tournées,6a,x,non
 peaux d'Alexandrie,6a,x,non
 peaux d'âne,6a,x,non
@@ -12678,16 +12652,16 @@ peaux d'ours et teinte,6a,x,oui
 peaux d'ours l'ourson,6a,x,oui
 peaux d'ours teintes,6a,,non
 peaux d'ourse,6a,x,oui
-peaux d'outres,,,non
-peaux de barbarie,,,non
+peaux d'outres,6a,,non
+peaux de barbarie,6b,,non
 peaux de Barbarie et petites,6a,x,oui
 peaux de Barbarie et petites en poil,2,x,oui
 peaux de Barbarie petites,6a,,non
 peaux de Barbarie petites en poil,2,,non
-peaux de barbe en poil,,,non
-peaux de barbe et petites,???,x,oui
-peaux de barbe petites,???,,non
-peaux de basannes,,,non
+peaux de barbe en poil,2,,non
+peaux de barbe et petites,6a,x,oui
+peaux de barbe petites,6a,,non
+peaux de basannes,6a,,non
 peaux de biche,6a,x,non
 peaux de blaireau,6a,x,non
 peaux de bœuf,6a,x,non
@@ -12699,9 +12673,9 @@ peaux de bouc crues,2,x,non
 peaux de bouc et chèvre,6a,x,non
 peaux de bouc et de chèvre en poil,2,,non
 peaux de bouc et de chèvre et en poil,2,x,oui
-peaux de bourrique,,,non
+peaux de bourrique,6a,,non
 peaux de brebis,6a,x,non
-peaux de brebis en laine,,,non
+peaux de brebis en laine,2,,non
 peaux de brebis et de mouton,6a,x,non
 peaux de brebis et de mouton crues,2,x,oui
 peaux de Buenos-Aires en poil,2,,non
@@ -12710,14 +12684,14 @@ peaux de buffle,6a,x,non
 peaux de buffle chamoisée,6a,x,oui
 peaux de buffle chamoisées,6a,,non
 peaux de buffle et de vache passées,6a,,non
-peaux de buffle passées,,,non
+peaux de buffle passées,6a,,non
 peaux de C apprêtée,6a,x,oui
 peaux de cabri,6a,x,non
 peaux de carcajou,6a,x,non
 peaux de carcasson,???,x,non
 peaux de caribou,6a,x,non
 peaux de castor,6a,x,non
-peaux de castor en poil,,,non
+peaux de castor en poil,2,,non
 peaux de castor et crues,9b,x,oui
 peaux de castor et sauvages,9b,x,oui
 peaux de castor gras,6a,x,non
@@ -12744,14 +12718,14 @@ peaux de chameau en poil,2,,non
 peaux de chameau et en poil,9b,x,oui
 peaux de chameau et noires,6a,x,oui
 peaux de chameau noires,6a,,non
-peaux de chameau passées,,,non
+peaux de chameau passées,6a,,non
 peaux de chamois,6a,x,non
-peaux de chamois en poil,,,non
+peaux de chamois en poil,2,,non
 peaux de chamois ou de mouton,6a,x,non
-peaux de chamois passées,,,non
+peaux de chamois passées,6a,,non
 peaux de chat,6a,x,non
 peaux de chat cervier,6a,x,non
-peaux de chat de mer,,,non
+peaux de chat de mer,6a,,non
 peaux de chat et crues,9b,x,oui
 peaux de chat putois,6a,x,non
 peaux de chat sauvage,6a,x,non
@@ -12794,8 +12768,8 @@ peaux de chevreau en poil,2,x,non
 peaux de chevreau et crues,9b,x,oui
 peaux de chevreau et mégissées,6a,x,oui
 peaux de chevreau mégissées,6a,,non
-peaux de chevreau passées,,,non
-peaux de chevreau tannées,,,non
+peaux de chevreau passées,6a,,non
+peaux de chevreau tannées,6a,,non
 peaux de chevreuil,6a,x,non
 peaux de chevreuil apprêtée,6a,x,oui
 peaux de chevreuil demie,6a,x,oui
@@ -12813,11 +12787,11 @@ peaux de chevrotin,6a,x,non
 peaux de chien,6a,x,non
 peaux de chien de mer,6a,x,non
 peaux de chien de mer passées en noir pour bottines,6a,,non
-peaux de chinchilla et de fouine,,,non
+peaux de chinchilla et de fouine,6a,,non
 peaux de crible,6a,x,non
-peaux de cuir rouge,,,non
+peaux de cuir rouge,6a,,non
 peaux de cygne,6a,x,non
-peaux de cygne et d'oie pour éventails,,,non
+peaux de cygne et d'oie pour éventails,6a,,non
 peaux de daim,6a,x,non
 peaux de daim chamoisée,6a,x,non
 peaux de daim et passées,6a,x,oui
@@ -12827,7 +12801,7 @@ peaux de figue écrues,2,,non
 peaux de fouine,6a,x,non
 peaux de fourrure,6a,x,oui
 peaux de grèbe,6a,x,non
-peaux de Guinée,,,non
+peaux de Guinée,6a,,non
 peaux de hamster,6a,x,non
 peaux de la Louisiane,6a,x,non
 peaux de laine,6a,x,oui
@@ -12835,7 +12809,7 @@ peaux de lapin,6a,x,non
 peaux de lapin en poil,2,x,non
 peaux de lapin et de lièvre,6a,x,non
 peaux de léopard,6a,x,non
-peaux de liège,,,non
+peaux de liège,6a,,non
 peaux de liévre,6a,x,non
 peaux de lièvre,6a,x,non
 peaux de lièvre crues,2,x,non
@@ -12859,9 +12833,9 @@ peaux de loutre,6a,x,non
 peaux de loutre et de renard,6a,x,non
 peaux de marmotte,6a,x,non
 peaux de marmotte et crues,2,x,oui
-peaux de marmotte et renard,,,non
+peaux de marmotte et renard,6a,,non
 peaux de maroquins,6a,x,non
-peaux de maroquins du Levant,,,non
+peaux de maroquins du Levant,6a,,non
 peaux de martre,6a,x,non
 peaux de martre commune et en pointe,6a,x,non
 peaux de martre du Canada,6a,x,non
@@ -12870,13 +12844,13 @@ peaux de martre et de zibeline,6a,x,oui
 peaux de martre et en queues,9b,x,oui
 peaux de martre passée,6a,x,oui
 peaux de martre passées,6a,,non
-peaux de martre queues,,,non
+peaux de martre queues,6a,,non
 peaux de martre zibeline,6a,,non
 peaux de moke,???,x,non
 peaux de mouton,6a,x,non
 peaux de mouton apprêtée et en couleur,6a,x,oui
 peaux de mouton basane,6a,x,non
-peaux de mouton basane chamois mégie,,,non
+peaux de mouton basane chamois mégie,6a,,non
 peaux de mouton blanc,6a,x,non
 peaux de mouton chamoisée,6a,x,oui
 peaux de mouton chamoisées,6a,,non
@@ -12887,11 +12861,11 @@ peaux de mouton en couleur et passées,6a,,non
 peaux de mouton en gris,6a,x,non
 peaux de mouton en laine,6a,x,non
 peaux de mouton en mégie,6a,,non
-peaux de mouton en noir,,,non
+peaux de mouton en noir,6a,,non
 peaux de mouton en poil,2,,non
 peaux de mouton en toison,2,,non
-peaux de mouton en tripe,,,non
-peaux de mouton en vert,,,non
+peaux de mouton en tripe,6a,,non
+peaux de mouton en vert,6a,,non
 peaux de mouton et de passées,6a,x,oui
 peaux de mouton et en poil,9b,x,oui
 peaux de mouton et en toison,9b,x,oui
@@ -12899,7 +12873,7 @@ peaux de mouton et prêtées,6a,x,oui
 peaux de mouton et rases,6a,x,oui
 peaux de mouton et tannées,6a,x,oui
 peaux de mouton et teintes,6a,x,oui
-peaux de mouton mégie,,,non
+peaux de mouton mégie,6a,,non
 peaux de mouton passée en blanc,6a,x,oui
 peaux de mouton passées,6a,x,non
 peaux de mouton passées en blanc,6a,,non
@@ -12913,34 +12887,6 @@ peaux de parchemin,6a,x,oui
 peaux de pecan,???,x,non
 peaux de pécaude,???,x,non
 peaux de pelisse,6a,x,non
-peaux de pelleterie,,,non
-peaux de pelleterie apprêtées d'agneau et de chevreau,,,non
-peaux de pelleterie apprêtées de lapin et de lièvre,,,non
-peaux de pelleterie apprêtées de phoque éjarrées,,,non
-peaux de pelleterie brutes d'agneau et de chevreau,,,non
-peaux de pelleterie brutes de lapin et de lièvre,,,non
-peaux de pelleterie d'astrakan,,,non
-peaux de pelleterie d'hermine et kulonok,,,non
-peaux de pelleterie de bervesky chiens écureuils mulots taupes,,,non
-peaux de pelleterie de bois cerviers et loups,,,non
-peaux de pelleterie de carcajoux,,,non
-peaux de pelleterie de castor,,,non
-peaux de pelleterie de castorins genette et putois,,,non
-peaux de pelleterie de chameau,,,non
-peaux de pelleterie de chat domestique et sauvage,,,non
-peaux de pelleterie de chinchilla,,,non
-peaux de pelleterie de cygnes lamas martes pékans et vigognes,,,non
-peaux de pelleterie de fouine,,,non
-peaux de pelleterie de grèbes marmottes oies et visons,,,non
-peaux de pelleterie de lion once ours ourson,,,non
-peaux de pelleterie de loutre,,,non
-peaux de pelleterie de panthère,,,non
-peaux de pelleterie de petit-gris,,,non
-peaux de pelleterie de phoque,,,non
-peaux de pelleterie de rat musque,,,non
-peaux de pelleterie de raton,,,non
-peaux de pelleterie de renard,,,non
-peaux de pelleterie de tigre,,,non
 peaux de petit daim,6a,x,non
 peaux de petit gris,6a,x,non
 peaux de plongeon,6a,x,non
@@ -12952,11 +12898,11 @@ peaux de rat,6a,x,non
 peaux de renard,6a,x,non
 peaux de renne,6a,x,non
 peaux de requin,6a,x,non
-peaux de rose blanche,,,non
+peaux de rose blanche,6a,,non
 peaux de roussette,6a,x,non
 peaux de Russie,6a,x,non
 peaux de sanglier,6a,x,non
-peaux de sapin,,,non
+peaux de sapin,6b,,non
 peaux de satois,6a,x,non
 peaux de sauvagine,6a,x,non
 peaux de tambour,6a,x,oui
@@ -12966,7 +12912,7 @@ peaux de vache,6a,x,non
 peaux de vache de Russie,6a,x,non
 peaux de vache marine,6a,x,non
 peaux de vaches de Russie,6a,x,oui
-peaux de vachette,,,non
+peaux de vachette,6a,,non
 peaux de vautour,6a,x,non
 peaux de veau,6a,x,non
 peaux de veau à paqueter,6a,,non
@@ -12980,8 +12926,8 @@ peaux de veau en croûte,6a,,non
 peaux de veau en grain,6a,,non
 peaux de veau en magie,6a,,non
 peaux de veau en mégie,6a,,non
-peaux de veau en parchemin,,,non
-peaux de veau en peigne,,,non
+peaux de veau en parchemin,6a,,non
+peaux de veau en peigne,6a,,non
 peaux de veau en pieds,6a,,non
 peaux de veau en poil,2,x,non
 peaux de veau en vert,2,x,non
@@ -12999,7 +12945,7 @@ peaux doublures de petit gris,6a,,non
 peaux doublures et de petit gris,6a,x,oui
 peaux du harnois,7,x,non
 peaux en ???,6a,x,non
-peaux en basanes,,,non
+peaux en basanes,6a,,non
 peaux en basannes,6a,x,oui
 peaux en baudriers et de chèvre,6a,x,oui
 peaux en blanc de veau,6a,x,oui
@@ -13017,7 +12963,7 @@ peaux en laine,6a,,non
 peaux en laine et d'orignal,9b,x,oui
 peaux en magie de veau,6a,x,oui
 peaux en maroquin,6a,x,non
-peaux en maroquin ou vernissées,,,non
+peaux en maroquin ou vernissées,6a,,non
 peaux en mégie de veau,6a,x,oui
 peaux en mégie et de mouton,6a,x,oui
 peaux en parchemin,6a,x,oui
@@ -13053,7 +12999,7 @@ peaux marinées de chat,6a,,non
 peaux marinées et de chat,6a,x,oui
 peaux maroquinées de mouton,6a,,non
 peaux maroquinées et de mouton,6a,x,oui
-peaux maroquinées ou vernissées,,,non
+peaux maroquinées ou vernissées,6a,,non
 peaux mégissées,6a,x,non
 peaux musqué de rat,6a,,non
 peaux musqué et de rat,6a,x,oui
@@ -13069,16 +13015,16 @@ peaux pour caisses et secs et de veaux,6a,x,oui
 peaux pour cordonnier de veau,6a,x,oui
 peaux pour emballage,6a,x,non
 peaux pour éventail,6a,,non
-peaux pour éventails,,,non
-peaux pour gants,,,non
+peaux pour éventails,6a,,non
+peaux pour gants,6a,,non
 peaux pour tambour,6a,,non
-peaux préparées d'agneau et chevreau en confit en poil et en mégie,,,non
-peaux préparées de veaux,,,non
-peaux rases,,,non
+peaux préparées d'agneau et chevreau en confit en poil et en mégie,9c,,non
+peaux préparées de veaux,6a,,non
+peaux rases,6a,,non
 peaux Russie,6a,x,non
 peaux sauvages de castor,2,,non
 peaux sauvagines,6a,x,non
-peaux sèches,,,non
+peaux sèches,6a,,non
 peaux tannées,6a,x,non
 peaux tannées de vache,6a,,non
 peaux tannées de veau,6a,x,non
@@ -13090,103 +13036,103 @@ peaux teintes,6a,x,non
 peaux teintes de veau,6a,,non
 pêche sèche,0a,x,oui
 pêche sèches,0a,,non
-pêches,,,non
+pêches,0a,,non
 pêches fraiches,0a,x,oui
 pêches fraîches,0a,,non
-peignes,,,non
+peignes,6j,,non
 peignes à chanvre,6j,x,non
-peignes à tisserand,,,non
-peignes d'écaille,,,non
-peignes d'étoffe,,,non
-peignes d'herbe,,,non
-peignes d'ivoire,8,x,non
-peignes d'os,8,x,non
-peignes de bois,8,x,non
-peignes de buis,8,x,non
-peignes de corne,8,x,non
-peignes de coton,,,non
-peignes de griffon,,,non
+peignes à tisserand,6j,,non
+peignes d'écaille,6j,,non
+peignes d'étoffe,6j,,non
+peignes d'herbe,6j,,non
+peignes d'ivoire,6j,x,non
+peignes d'os,6j,x,non
+peignes de bois,6j,x,non
+peignes de buis,6j,x,non
+peignes de corne,6j,x,non
+peignes de coton,6j,,non
+peignes de griffon,6j,,non
 peignes de tisserand,6j,x,non
-peignes des dieux,???,x,non
-peignes pour travailler la laine,,,non
+peignes des dieux,6j,x,non
+peignes pour travailler la laine,6j,,non
 peinture,5,x,oui
 peintures,5,x,non
 peintures à l'huile,5,x,non
 peintures broyées,5,x,non
-peintures communes,,,non
-peintures et gravures,,,non
-peintures et tableaux,,,non
-peintures grossières,,,non
-peintures jaunes,,,non
-peintures préparées,,,non
+peintures communes,9c,,non
+peintures et gravures,8,,non
+peintures et tableaux,8,,non
+peintures grossières,9c,,non
+peintures jaunes,8,,non
+peintures préparées,8,,non
 peitures,???,x,oui
 Pékin,6f,x,non
 Pékin broché et rayé,6f,x,non
 Pékin peint et rayé,6f,x,non
 Pékin uni,6f,x,non
 pelicules d'alkermès,5,x,oui
-pelincuche,,,non
+pelincuche,???,,non
 pelisse,8,x,non
 pelisse commune,8,x,non
 pellerie de fer,6j,,non
-pelles à main de bois,,,non
-pelles commune,,,non
-pelles de bois,,,non
-pelles de bois ailes de fléaux brosses etc,,,non
-pelles de bois et ailes de fléaux,,,non
-pelles de bois ferrées,,,non
+pelles à main de bois,6j,,non
+pelles commune,6j,,non
+pelles de bois,6j,,non
+pelles de bois ailes de fléaux brosses etc,6j,,non
+pelles de bois et ailes de fléaux,6j,,non
+pelles de bois ferrées,6j,,non
 pelles de fer,6j,x,non
-pelles de sapin,,,non
-pelles et pinces,,,non
+pelles de sapin,6j,,non
+pelles et pinces,6j,,non
 pelles ferrées,6j,x,non
 pelles non ferrées,6j,x,non
 pelleterie,6a,x,non
-pelleterie ???,,,non
+pelleterie ???,6a,,non
 pelleterie à apprêtée et commune,6a,x,oui
 pelleterie apprêtée,6a,x,non
 pelleterie apprêtée commune,6a,x,non
-pelleterie apprêtée de lapin et de lièvre,,,non
-pelleterie apprêtée de phoque éjarré,,,non
-pelleterie apprêtée en blanc,,,non
+pelleterie apprêtée de lapin et de lièvre,6a,,non
+pelleterie apprêtée de phoque éjarré,6a,,non
+pelleterie apprêtée en blanc,6a,,non
 pelleterie apprêtée et commune,6a,x,oui
 pelleterie apprêtée fine,6a,x,non
 pelleterie apprêtées de sauvagines,6a,,non
 pelleterie apprêtées et de sauvagines,6a,x,oui
-pelleterie blanche,,,non
-pelleterie blanche et teinte,,,non
-pelleterie brute d'agneau et de chevreau,,,non
-pelleterie brute de lapin et de lièvre,,,non
+pelleterie blanche,6a,,non
+pelleterie blanche et teinte,6a,,non
+pelleterie brute d'agneau et de chevreau,2,,non
+pelleterie brute de lapin et de lièvre,2,,non
 pelleterie commune,6a,x,non
 pelleterie commune crue,2,x,non
 pelleterie commune du Canada,6a,x,non
-pelleterie commune en poil,,,non
+pelleterie commune en poil,2,,non
 pelleterie crue,2,x,non
-pelleterie crue en poil,,,non
-pelleterie cuir,,,non
-pelleterie d'ours,,,non
-pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,,,non
+pelleterie crue en poil,2,,non
+pelleterie cuir,6a,,non
+pelleterie d'ours,6a,,non
+pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,6a,,non
 pelleterie de castor,6a,x,non
-pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,,,non
-pelleterie de chat,,,non
-pelleterie de Gray,,,non
-pelleterie de lapin et de lièvre,,,non
-pelleterie de sauvagines,,,non
+pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,6a,,non
+pelleterie de chat,6a,,non
+pelleterie de Gray,6a,,non
+pelleterie de lapin et de lièvre,6a,,non
+pelleterie de sauvagines,6a,,non
 pelleterie diverse apprêtée,6a,x,non
 pelleterie du Canada,6a,x,non
-pelleterie du Canada à passée,,,non
+pelleterie du Canada à passée,6a,,non
 pelleterie en parchemins,6a,,non
 pelleterie et peaux,6a,x,non
 pelleterie et peaux apprêtées,6a,,non
 pelleterie et pelleterie apprêtées,6a,x,oui
 pelleterie fine,6a,x,non
-pelleterie morceaux cousus de marte et petit gris,,,non
-pelleterie non apprêtée de lièvre,,,non
+pelleterie morceaux cousus de marte et petit gris,6a,,non
+pelleterie non apprêtée de lièvre,6a,,non
 pelleterie ouvrée,6a,x,non
-pelleterie sans apprêt,,,non
-pelleterie sauvaigne,,,non
+pelleterie sans apprêt,6a,,non
+pelleterie sauvaigne,6a,,non
 pelletrie en parchemin,6a,x,oui
-pellicules d'alkermès,,,non
-pelong,,,non
+pellicules d'alkermès,6a,,non
+pelong,???,,non
 pelote de lin,2,x,non
 peluche de laine,6e,x,oui
 peluches,6e,x,non
@@ -13196,64 +13142,63 @@ peluches de laine,6e,x,non
 peluches de soie,6f,x,oui
 peluches et panne,6i,x,non
 peluches et panne et tripe aune,6i,x,oui
-pelure de cacao,,,non
+pelure de cacao,0b,,non
 pendant d'oreille,8,x,non
-pendant d'oreille de grena,,,non
-pendants d'oreilles à perles fausses,,,non
+pendant d'oreille de grena,8,,non
+pendants d'oreilles à perles fausses,8,,non
 penderie,8,x,non
-pendules,,,non
+pendules,8,,non
 pendules communes,8,x,non
 pendules de bois,8,x,non
 penne,2,x,non
 penne aguipon,???,,non
 pentures de fer,6j,,non
-pépins d'orange,,,non
+pépins d'orange,0a,,non
 percale,6g,x,non
 percale bleue,6g,x,non
 percale de,6g,x,non
-percale ou coutil pour couette,,,non
-perceintes,,,non
-percepierre,,,non
+percale ou coutil pour couette,6i,,non
+perceintes,7,,non
+percepierre,2,,non
 percerette,6j,x,oui
 percerettes,6j,,non
 percerettes de fer,6j,x,non
-perche et avirons de bois,,,non
-perches,,,non
-perches à houblon,,,non
-perches communes,,,non
+perches,6b,,non
+perches à houblon,6b,,non
+perches communes,6b,,non
 perches communes ou petites de sapin,6b,x,non
 perches de 20 à 25 pieds,6b,x,non
-perches de 25 pieds,,,non
-perches de bois,,,non
-perches de bois à houblon,,,non
+perches de 25 pieds,6b,,non
+perches de bois,6b,,non
+perches de bois à houblon,6b,,non
 perches de bois échalas de bois éclisses de bois,6b,x,oui
 perches de bois et échalas de bois et échasses de bois,6b,,non
 perches de bois et échalas de bois et éclisses de bois,6b,,non
 perches de bois et échalas e bois et échasses de bois,6b,x,oui
-perches de bois pour jardin,,,non
-perches de lawaire,,,non
+perches de bois pour jardin,6b,,non
+perches de lawaire,6b,,non
 perches de sapin,6b,x,non
-perches de sapin de 15 à 16 pieds,,,non
-perches de sapin de 15 pieds de long,,,non
-perches dites boomse capravens,,,non
-perches dites waerettes,,,non
-perches dites waires,,,non
-perches du warette,,,non
-perches et plantes et vignes,9b,x,non
-perches ferrées,,,non
-perches grande,,,non
-perches grandes dit juffers,,,non
-perches moyennes dites capravens,,,non
+perches de sapin de 15 à 16 pieds,6b,,non
+perches de sapin de 15 pieds de long,6b,,non
+perches dites boomse capravens,6b,,non
+perches dites waerettes,6b,,non
+perches dites waires,6b,,non
+perches du warette,6b,,non
+perches et plantes et vignes,6b,x,non
+perches ferrées,6b,,non
+perches grande,6b,,non
+perches grandes dit juffers,6b,,non
+perches moyennes dites capravens,6b,,non
 perches petites et échalas petites et étançons petites,6b,x,oui
 perches petites et échalas petits et étançons petits,6b,,non
 perdreau,0a,x,oui
 perdreaux,0a,,non
 perdrix,0a,x,non
 perdrix en plumes,0a,x,non
-pereintes en chesne,,,non
+pereintes en chêne,6b,,non
 pérelle,???,x,non
-perlasse ???,,,non
-perlasse et gravelées,,,non
+perlasse ???,2,,non
+perlasse et gravelées,2,,non
 perles,6k,x,non
 perles bleues,6k,x,non
 perles de verre,6k,x,non
@@ -13264,8 +13209,8 @@ perles et pierres fines montées et non montées,9b,x,non
 perles fausses,6k,x,non
 perles fausses montées,6k,x,non
 perles fines,6k,x,non
-perles fines de toute pêche,,,non
-Pernambouc,,,non
+perles fines de toute pêche,6k,,non
+pernambouc,2,,non
 perpétuane,6e,x,non
 perpétuane apprêtée et peinte,6e,x,non
 perpétuane aune,6e,x,non
@@ -13273,7 +13218,7 @@ perpétuane blanche,6e,x,non
 perpétuane de laine,6e,,non
 perpétuane peinte,6e,x,non
 perpetuanne de laine,6e,x,oui
-perroquets,,,non
+perroquets,0a,,non
 perruques,8,,non
 perruques à bourses,8,,non
 perruques communes,8,,non
@@ -13287,37 +13232,36 @@ perruques neuves,8,,non
 perruques vieille,8,x,oui
 perruques vieilles,8,,non
 persienne,6b,x,non
-persil de macédoine,,,non
+persil de macédoine,0a,,non
 pertiolles,???,,non
-pertuisanes,,,non
-pesetas,,,non
-petit carré de fer,,,non
-petit raz de castor,,,non
-petit raz refoulé,,,non
+pertuisanes,8,,non
+pesetas,9a,,non
+petit carré de fer,6i,,non
+petit raz de castor,6e,,non
+petit raz refoulé,6i,,non
 petit salé,0a,x,non
 petit salé et porc salé,0a,,non
-petit son,,,non
-petite ratine,,,non
-petite Venise,,,non
-petites pièces de pin,,,non
-petits chênes dits chêneaux,,,non
-pétrification,,,non
-pétrole,,,non
-petum,,,non
-peury,,,non
+petit son,0a,,non
+petite ratine,6i,,non
+petite Venise,9c,,non
+petites pièces de pin,6b,,non
+petits chênes dits chêneaux,2,,non
+pétrification,8,,non
+pétrole,5,,non
+petum,2,,non
+peury,???,,non
 pevine,???,,non
-phaéton,,,non
-phaëton,7,,non
+phaéton,7,,non
 phiass,???,,non
-philas,,,non
+philas,???,,non
 philipichine,6e,x,non
 philipichine de poil,6e,x,non
 phillipichine,6e,x,non
-photade,,,non
+photade,2,,non
 photas,6g,x,non
 photas des Indes,6g,x,non
 piano,8,x,non
-piano forte,,,non
+piano forte,8,,non
 piastres,9a,x,non
 piastres d'Espagne,9a,x,non
 piastres du grand seigneur,9a,x,non
@@ -13331,31 +13275,31 @@ piastres par le Havre,9a,x,non
 piastres par le Pont de Beauvoisin,9a,x,non
 picotte,6e,x,non
 picotte de laine,6e,x,non
-picotte de soie,,,non
-pièces à eau,,,non
-pièces couvertures de laine,,,non
-pièces d'argent et d'or d'Espagne,,,non
-pièces d'or d'Espagne,,,non
+picotte de soie,6e,,non
+pièces à eau,6f,,non
+pièces couvertures de laine,6e,,non
+pièces d'argent et d'or d'Espagne,9a,,non
+pièces d'or d'Espagne,9a,,non
 pied d'huile,4,x,non
 pied d'huile de poisson,4,x,non
-piedmento,,,non
-pieds d'élan,,,non
-pieds de bœuf,,,non
-pieds de bœuf et sang de bétail,,,non
-pieds de gite de bois scié,,,non
-pieds de vide,,,non
-pieds doré,,,non
-pieds et têtes,,,non
+piedmento,???,,non
+pieds d'élan,2,,non
+pieds de bœuf,2,,non
+pieds de bœuf et sang de bétail,2,,non
+pieds de gite de bois scié,6b,,non
+pieds de vide,???,,non
+pieds doré,6i,,non
+pieds et têtes,9c,,non
 pienne de fil,2,,non
-pierre à plâtre ou plâtre brut,,,non
-pierre d'ailx,,,non
-pierre d'algazon,,,non
-pierre de molasse,,,non
-pierrerie,,,non
-pierrerie fausse,,,non
-pierrerie fausse et fine,,,non
+pierre à plâtre ou plâtre brut,2,,non
+pierre d'ailx,2,,non
+pierre d'algazon,2,,non
+pierre de molasse,2,,non
+pierrerie,6k,,non
+pierrerie fausse,6k,,non
+pierrerie fausse et fine,6k,,non
 pierres,2,x,non
-pierres ???,,,non
+pierres ???,2,,non
 pierres à,2,x,non
 pierres à affiler de 1 à 2 1/2 pieds,2,x,non
 pierres à affiler de 3 à 4 pieds,2,x,non
@@ -13363,7 +13307,7 @@ pierres à affiler de 5 à 6 pieds,2,x,non
 pierres à affiler milanaises ou fiquets,2,x,non
 pierres à aiguiser,2,x,non
 pierres à aiguiser et en meules et à taillandier,6k,x,non
-pierres à aiguiser et tendres,2,x,non
+pierres à aiguiser et tendres,9c,x,non
 pierres à aiguiser milanaise ou fiquets,2,x,non
 pierres à aiguiser ou fiquets,2,x,non
 pierres à aiguser,2,x,oui
@@ -13389,10 +13333,10 @@ pierres à faire chaux,2,x,non
 pierres à faux,2,x,non
 pierres à faux et à polir,2,x,non
 pierres à feu,2,x,non
-pierres à feu autres qu'agates,,,non
+pierres à feu autres qu'agates,2,,non
 pierres à filtrer,2,x,non
 pierres à filtrer l'eau,2,x,non
-pierres à fouler le blé,,,non
+pierres à fouler le blé,2,,non
 pierres à four,2,x,non
 pierres à foyer,2,x,non
 pierres à fusils,2,x,non
@@ -13421,8 +13365,8 @@ pierres à paver non poli,6k,x,oui
 pierres à paver non polies,6k,,non
 pierres à paver poli,6k,x,oui
 pierres à paver polies,6k,,non
-pierres à plaque,,,non
-pierres à plâtre ou plâtre brut,,,non
+pierres à plaque,6k,,non
+pierres à plâtre ou plâtre brut,2,,non
 pierres à polir,2,x,non
 pierres à polir et ponce,2,x,non
 pierres à rasoir,2,x,non
@@ -13430,7 +13374,6 @@ pierres à repasser,2,x,non
 pierres à taillandier,2,,non
 pierres à tallandier,2,x,oui
 pierres à tombe,6k,x,non
-pierres affiloires,,,non
 pierres antiques,6k,x,non
 pierres bant et de jais,[???],x,non
 pierres blanches,2,x,non
@@ -13442,7 +13385,7 @@ pierres blanches et en longues pièces et à paver,9c,x,oui
 pierres bleues,2,x,non
 pierres bleues brûlées,2,x,non
 pierres bleues en blocs,6k,,non
-pierres bleues en carreaux,,,non
+pierres bleues en carreaux,6k,,non
 pierres bleues et à paver et en pièces longues,9c,x,oui
 pierres bleues et en blocs,9c,x,oui
 pierres bleues et en longues pièces et à paver,9c,x,oui
@@ -13450,14 +13393,14 @@ pierres bleues travaillées,6k,x,non
 pierres calamines,2,x,non
 pierres caprades blanches,2,,non
 pierres caprades et blanches,2,x,oui
-pierres carrées à bâtir,,,non
+pierres carrées à bâtir,6k,,non
 pierres carrées à paver,6k,,non
 pierres carrées à paver de 8 à 9 pouces,6k,,non
 pierres carrées et à paver,6k,x,oui
 pierres carrées et à paver de 8 à 9 pouces,6k,x,oui
 pierres chaux et plâtre,9b,x,non
-pierres codes,,,non
-pierres cornaline,,,non
+pierres codes,???,,non
+pierres cornaline,6k,,non
 pierres d'absinthe,2,x,non
 pierres d'agate,6k,,non
 pierres d'agate travaillée,6k,x,oui
@@ -13472,7 +13415,7 @@ pierres d'autel,6k,x,non
 pierres d'écrevisse,2,x,oui
 pierres d'écrevisses,2,,non
 pierres d'élan,2,x,non
-pierres d'émeraude,,,non
+pierres d'émeraude,6k,,non
 pierres d'émeri,2,x,non
 pierres d'émeri en poudre,2,x,non
 pierres d'éponge,2,x,oui
@@ -13480,25 +13423,25 @@ pierres d'éponges,2,,non
 pierres d'hyacinthe,2,x,non
 pierres d'Inde,2,x,oui
 pierres de ??? à paver,6k,x,non
-pierres de barriques,,,non
-pierres de bas de meule,2,x,non
+pierres de barriques,2,,non
+pierres de bas de meule,6k,x,non
 pierres de Bentem,2,x,non
 pierres de Bidache,2,x,non
 pierres de Bidache en carreaux,6k,x,non
 pierres de bleu,2,x,non
-pierres de Briançon,,,non
+pierres de Briançon,2,,non
 pierres de chaussée ou de grès,6k,x,non
 pierres de chaux,2,x,non
 pierres de composition,2,x,non
 pierres de coument,2,,non
 pierres de Coument,2,x,oui
-pierres de faux,,,non
-pierres de fer,,,non
+pierres de faux,2,,non
+pierres de fer,2,,non
 pierres de fil,2,x,oui
 pierres de four,2,x,non
 pierres de fusils,2,x,non
 pierres de grès,2,x,non
-pierres de grés à paver,,,non
+pierres de grés à paver,6k,,non
 pierres de grison,2,x,non
 pierres de jais,6k,x,non
 pierres de jais brut,6k,x,non
@@ -13508,7 +13451,7 @@ pierres de jaspe,6k,x,non
 pierres de laine,2,x,non
 pierres de Malte,2,x,non
 pierres de marbre,2,x,non
-pierres de marbre brut,,,non
+pierres de marbre brut,2,,non
 pierres de marbre ouvré,6k,x,non
 pierres de matte,2,x,non
 pierres de meuble,2,x,oui
@@ -13530,12 +13473,12 @@ pierres de tombe de 7 à 9 pieds,6k,x,non
 pierres de tombe de haute catégorie,6k,x,non
 pierres de tombe de moindre classe,6k,x,non
 pierres de touche,2,x,non
-pierres de tuiles,,,non
+pierres de tuiles,2,,non
 pierres de verre,2,x,non
 pierres de vin,2,x,non
 pierres des Indes,2,,non
 pierres éclatante,2,x,oui
-pierres éclatantes,2,,non
+pierres éclatantes,6k,,non
 pierres éclatantes et de verre,6k,x,non
 pierres éclatantes et fausses,6k,x,non
 pierres éclatantes ou de verre,6k,x,non
@@ -13555,149 +13498,146 @@ pierres en cippes,6k,,non
 pierres en grès taillés meules,6k,x,non
 pierres en longues pièces à paver,6k,,non
 pierres en longues pièces et à paver,6k,x,oui
-pierres en masses et en blocs,,,non
+pierres en masses et en blocs,2,,non
 pierres en meules,6k,x,non
 pierres en mortier,6k,x,non
 pierres en pièces grandes,6k,x,non
 pierres en quartier,6k,x,oui
 pierres en quartiers,6k,,non
-pierres en quartiers à bâtir,,,non
+pierres en quartiers à bâtir,6k,,non
 pierres en statue,6k,x,oui
 pierres et chanvre,2,x,non
 pierres et grès taillé à meule,2,,non
 pierres et grès taillés meules etc.,6k,x,non
 pierres et meules à aiguiser,6k,x,non
 pierres et plâtre,2,,non
-pierres et terres à bâtir,,,non
-pierres et terres servant aux arts et métiers,,,non
-pierres façonnées d'architecte,,,non
+pierres et terres à bâtir,2,,non
+pierres et terres servant aux arts et métiers,2,,non
+pierres façonnées d'architecte,6k,,non
 pierres fausses,6k,x,non
 pierres fausses et fines,6k,x,non
 pierres fausses et montées,8,x,non
 pierres fausses et pur métal,9b,x,non
-pierres fausses non montées,,,non
-pierres ferrugineuses,,,non
+pierres fausses non montées,9b,,non
+pierres ferrugineuses,2,,non
 pierres fines,6k,x,non
-pierres fusil,,,non
-pierres jaunes,,,non
-pierres lithographiques,,,non
-pierres lithographiques et autres,,,non
+pierres fusil,6k,,non
+pierres jaunes,2,,non
+pierres lithographiques,6k,,non
+pierres lithographiques et autres,6k,,non
 pierres maguisses minérales pour la fabrique de Tournai,2,x,non
 pierres manganèse,2,x,non
 pierres marcassite,2,x,non
-pierres meules,,,non
+pierres meules,6k,,non
 pierres minérales,2,x,non
-pierres noires,,,non
+pierres noires,2,,non
 pierres plâtre,2,x,oui
-pierres ponces,,,non
+pierres ponces,2,,non
 pierres pour faire sucre,2,x,non
 pierres pour la bâtisse,6k,x,non
 pierres pour piliers,6k,x,non
-pierres pourries,,,non
+pierres pourries,2,,non
 pierres serpentine,2,x,non
 pierres taillées,6k,x,non
 pierres taillées à bâtir,6k,,non
 pierres taillées en auge,6k,,non
 pierres tailler à bâtir,6k,x,oui
-pierres tendres,,,non
-pierres toilées,,,non
+pierres tendres,2,,non
 pierres travaillées,6k,x,non
 pierres travaillées en banc balcon goulots etc.,6k,x,non
-pierrestre,,,non
-pierrette,,,non
-pierreuve,,,non
-pierrier,8,x,non
-pierrier de fer,8,x,non
-pierriers,,,non
-pierriers de fer,6j,,non
-pierriers de fonte,,,non
+pierrestre,???,,non
+pierrette,0a,,non
+pierreuve,????,,non
+pierriers,8,,non
+pierriers de fer,8,,non
+pierriers de fonte,8,,non
 pigeons,0a,x,non
 pigeons sauvages,0a,x,non
 pignons,0a,x,non
-pignons cassés,,,non
-pignons d'épine,[???],x,non
+pignons cassés,0a,,non
+pignons d'épine,???,x,non
 pignons d'épines,???,x,oui
 pignons d'Inde,2,x,non
-pignons de pin,,,non
-pigouilles,,,non
-pigouilles de 11 à 15,,,non
-piharge,[???],x,non
+pignons de pin,0a,,non
+pigouilles,6b,,non
+pigouilles de 11 à 15,6b,,non
+piharge,???,x,non
 piles de bois,6b,x,non
-pilotis,,,non
+pilotis,6b,,non
 pilule de Belloste,5,x,oui
-pilules,,,non
+pilules,5,,non
 pilules de Belloste,5,,non
 piment,0a,x,non
-piment des entrepôts,,,non
+piment des entrepôts,0a,,non
 piment et poivre,9b,x,non
 pinasse,7,x,non
 pince de fer,6j,x,non
-pinceaux,,,non
-pinceaux ???,,,non
-pinceaux à blanchir,,,non
-pinceaux à dorer,,,non
-pinceaux à goudron,,,non
-pinceaux à goudronner,,,non
-pinceaux à peindre,,,non
-pinceaux de fer,,,non
+pinceaux,8,,non
+pinceaux ???,8,,non
+pinceaux à blanchir,8,,non
+pinceaux à dorer,8,,non
+pinceaux à goudron,8,,non
+pinceaux à goudronner,8,,non
+pinceaux à peindre,8,,non
+pinceaux de fer,6j,,non
 pincettes de fer,6j,x,non
-pinche,,,non
+pinche,???,,non
 pinchinat,6e,x,non
 pinchinat de laine,6e,x,non
-pinen,[???],x,non
-pinques,,,non
-pioches de fer,,,non
-pipes,8,,non
-pipes à cordée,,,non
-pipes à cuivre,,,non
+pinen,???,x,non
+pinques,7,,non
+pioches de fer,6j,,non
+pipes,9c,,non
+pipes à cordée,???,,non
+pipes à cuivre,8,,non
 pipes à fumer,8,x,non
-pipes à fumer ???? pour la Hollande,,,non
-pipes à fumer de terre,,,non
-pipes à fumer de terre cuite,,,non
-pipes à fumer grosses,,,non
+pipes à fumer ???? pour la Hollande,8,,non
+pipes à fumer de terre,8,,non
+pipes à fumer de terre cuite,8,,non
+pipes à fumer grosses,8,,non
 pipes à tabac,8,x,non
-pipes cerclées de fer,,,non
-pipes céréalier de fer,,,non
-pipes céréalier et de fer,???,,oui
-pipes de side,,,non
-pipes de terre,,,non
-pipes de terre cuite,,,non
-pipes de vide,,,non
-pipes en bottes,,,non
-pipes muid,,,non
-pipes sans émail à fumer de terre,,,non
-pipes vides,,,non
-pipes vieilles,,,non
-pipes vieilles et vides,,,non
-piphout en blocs,,,non
-piques,,,non
-pissuron,,,non
-pistache,,,non
+pipes cerclées de fer,6b,,non
+pipes céréalier de fer,6b,,non
+pipes céréalier et de fer,6b,,oui
+pipes de side,???,,non
+pipes de terre,8,,non
+pipes de terre cuite,8,,non
+pipes de vide,6a,,non
+pipes en bottes,8,,non
+pipes muid,6b,,non
+pipes sans émail à fumer de terre,8,,non
+pipes vides,6b,,non
+pipes vieilles,6b,,non
+pipes vieilles et vides,6b,,non
+piphout en blocs,???,,non
+piques,8,,non
+pissuron,???,,non
+pistache,0a,,non
 pistaches,0a,x,non
-pistaches cassées,,,non
-pistaches en coques,,,non
-pistaches non cassées,,,non
+pistaches cassées,0a,,non
+pistaches en coques,0a,,non
+pistaches non cassées,0a,,non
 pistaches sèches,0a,x,non
 pistolets,8,x,non
-pistolets d'arçon,,,non
-pistolets de maître,,,non
-pistolets de traite,,,non
+pistolets d'arçon,8,,non
+pistolets de maître,8,,non
+pistolets de traite,8,,non
 pistolets démontées,8,x,oui
 pistolets démontés,8,,non
-pistolets montés,,,non
-pistolets par paire,,,non
-pistolets vieux,,,non
+pistolets montés,8,,non
+pistolets par paire,8,,non
+pistolets vieux,8,,non
 pivots de fer,6j,x,non
-plaids,,,non
-plaids ou châles,,,non
+plaids,8,,non
+plaids ou châles,8,,non
 plaire,???,,non
-plaisses et solles sec et fumés,,,non
-plan d'habitation,,,non
-plancards,,,non
-planchenier,[???],x,non
+plaisses et solles sec et fumés,0a,,non
+plan d'habitation,8,,non
+plancards,???,,non
+planchenier,???,x,non
 planches,6b,x,non
-planches à bâtir,,,non
-planches alcalines,,,non
+planches à bâtir,6b,,non
+planches alcalines,6b,,non
 planches communes,6b,x,non
 planches communes de chêne et hêtre,6b,x,non
 planches communes de hêtre,6b,x,non
@@ -13726,11 +13666,11 @@ planches de bois de passementerie et poutrelles de bois de passementerie,9c,x,ou
 planches de bois des Indes,6b,x,non
 planches de bois du Nord,6b,x,non
 planches de bois et à barils,6b,x,non
-planches de bois falquettes,,,non
-planches de bois fortes,,,non
-planches de bois melliaises,,,non
-planches de bois minces,,,non
-planches de bois pour bordage,,,non
+planches de bois falquettes,6b,,non
+planches de bois fortes,6b,,non
+planches de bois melliaises,6b,,non
+planches de bois minces,6b,,non
+planches de bois pour bordage,7,,non
 planches de bois pour construction,6b,x,non
 planches de bois verni,6b,x,oui
 planches de bois vernies,6b,,non
@@ -13741,14 +13681,14 @@ planches de chêne 26 pieds,6b,x,non
 planches de chêne 6 pieds,6b,x,non
 planches de chêne à 6,6b,x,non
 planches de chêne à 9,6b,x,non
-planches de chêne bouts,,,non
+planches de chêne bouts,6b,,non
 planches de chêne commune,6b,x,non
 planches de chêne d'un pouce et en dessous,6b,x,non
 planches de chêne de 1 1/2 pouces,6b,x,non
 planches de chêne de 1 1/4 pouces,6b,x,non
 planches de chêne de 1/2 pouce,6b,x,non
 planches de chêne de 1/4 pouce,6b,x,non
-planches de chêne de 10 12 à 14 pieds,,,non
+planches de chêne de 10 12 à 14 pieds,6b,,non
 planches de chêne de 10 à 11 pieds,6b,x,non
 planches de chêne de 10 à 12 pieds,6b,x,non
 planches de chêne de 10 pieds,6b,x,non
@@ -13804,7 +13744,7 @@ planches de laiton,6j,x,non
 planches de laiton filé,6j,x,oui
 planches de lard,0a,x,non
 planches de liège,6b,x,non
-planches de Liège,,,non
+planches de Liège,6b,,non
 planches de lin,9c,x,non
 planches de Lorient,6b,x,non
 planches de merisier,6b,x,non
@@ -13823,11 +13763,11 @@ planches de pont de barque,7,x,non
 planches de Prusse,6b,x,non
 planches de Prusse 28 pieds,6b,x,non
 planches de Prusse communes,6b,x,non
-planches de Prusse de 10 à 12 pieds,,,non
+planches de Prusse de 10 à 12 pieds,6b,,non
 planches de Prusse de 10 pieds,6b,x,non
 planches de Prusse de 11 à 12 pieds,6b,x,non
 planches de Prusse de 12 pieds,6b,x,non
-planches de Prusse de 13 à 16 pieds,,,non
+planches de Prusse de 13 à 16 pieds,6b,,non
 planches de Prusse de 13 pieds,6b,x,non
 planches de Prusse de 15 pieds,6b,x,non
 planches de Prusse de 18 pieds,6b,x,non
@@ -13846,13 +13786,13 @@ planches de Prusse de 33 à 35 pieds,6b,x,non
 planches de Prusse de 33 pieds,6b,x,non
 planches de Prusse de 35 pieds,6b,x,non
 planches de Prusse de 36 pieds,6b,x,non
-planches de Prusse de 40 pieds,,,non
-planches de Prusse de 7 à 9 pieds,,,non
-planches de Prusse de 8 à 12 pieds,,,non
+planches de Prusse de 40 pieds,6b,,non
+planches de Prusse de 7 à 9 pieds,6b,,non
+planches de Prusse de 8 à 12 pieds,6b,,non
 planches de Prusse de 8 à 9 pieds,6b,x,non
-planches de Prusse de 9 à 10 pieds,,,non
+planches de Prusse de 9 à 10 pieds,6b,,non
 planches de Prusse de 9 pieds,6b,x,non
-planches de Prusse de différents grandeurs,,,non
+planches de Prusse de différents grandeurs,6b,,non
 planches de Prusse demie,6b,x,non
 planches de Prusse ordinaires,6b,x,non
 planches de Prusse petites,6b,x,non
@@ -13901,7 +13841,7 @@ planches de sapin de 10 à 12 pieds à 30 sous,6b,x,non
 planches de sapin de 10 à 13 pieds,6b,x,non
 planches de sapin de 10 à 14 pieds,6b,x,non
 planches de sapin de 10 à 15 pieds,6b,x,non
-planches de sapin de 10 à 18 pieds,,,non
+planches de sapin de 10 à 18 pieds,6b,,non
 planches de sapin de 10 à 20 pieds,6b,x,non
 planches de sapin de 10 pieds,6b,x,non
 planches de sapin de 10 pieds à 20 sous,6b,x,non
@@ -13921,7 +13861,7 @@ planches de sapin de 13 à 14 pieds,6b,x,non
 planches de sapin de 13 pieds,6b,x,non
 planches de sapin de 14 à 15 pieds,6b,x,non
 planches de sapin de 14 à 16 pieds,6b,x,non
-planches de sapin de 14 pieds,,,non
+planches de sapin de 14 pieds,6b,,non
 planches de sapin de 15 à 16 pieds,6b,x,non
 planches de sapin de 15 à 20 pieds,6b,x,non
 planches de sapin de 15 à 30 pieds,6b,x,non
@@ -13933,7 +13873,7 @@ planches de sapin de 17 à 18 pieds,6b,x,non
 planches de sapin de 17 à 20 pieds,6b,x,non
 planches de sapin de 17 pieds,6b,x,non
 planches de sapin de 18 à 20 pieds,6b,x,non
-planches de sapin de 18 à 21 pieds,,,non
+planches de sapin de 18 à 21 pieds,6b,,non
 planches de sapin de 18 à 22 pieds,6b,x,non
 planches de sapin de 18 pieds,6b,x,non
 planches de sapin de 20 à 22 pieds,6b,x,non
@@ -13945,7 +13885,7 @@ planches de sapin de 20 à 30 pieds,6b,x,non
 planches de sapin de 20 pieds,6b,x,non
 planches de sapin de 21 à 22 pieds,6b,x,non
 planches de sapin de 21 à 24 pieds,6b,x,non
-planches de sapin de 21 pieds,,,non
+planches de sapin de 21 pieds,6b,,non
 planches de sapin de 22 à 23 pieds,6b,x,non
 planches de sapin de 22 pieds,6b,x,non
 planches de sapin de 23 pieds,6b,x,non
@@ -13974,7 +13914,7 @@ planches de sapin de 30 à 33 pieds,6b,x,non
 planches de sapin de 30 à 34 pieds,6b,x,non
 planches de sapin de 30 à 36 pieds,6b,x,non
 planches de sapin de 30 à 38 pieds,6b,x,non
-planches de sapin de 30 à 40 pieds,,,non
+planches de sapin de 30 à 40 pieds,6b,,non
 planches de sapin de 30 pieds,6b,x,non
 planches de sapin de 31 pieds,6b,x,non
 planches de sapin de 32 à 33 pieds,6b,x,non
@@ -13989,13 +13929,13 @@ planches de sapin de 4 à 5 pieds à 4 sous,6b,x,non
 planches de sapin de 4 pieds,6b,x,non
 planches de sapin de 40 pieds,6b,x,non
 planches de sapin de 45 pieds,6b,x,non
-planches de sapin de 48 pieds,,,non
+planches de sapin de 48 pieds,6b,,non
 planches de sapin de 5 à 6 pieds,6b,x,non
 planches de sapin de 5 à 6 pieds à 4 sous,6b,x,non
 planches de sapin de 5 à 7 pieds,6b,x,non
 planches de sapin de 5 pieds,6b,x,non
 planches de sapin de 50 pieds,6b,x,non
-planches de sapin de 6 à 15 pieds,,,non
+planches de sapin de 6 à 15 pieds,6b,,non
 planches de sapin de 6 à 7 pieds,6b,x,non
 planches de sapin de 6 à 8 pieds,6b,x,non
 planches de sapin de 6 pieds,6b,x,non
@@ -14007,7 +13947,7 @@ planches de sapin de 7 pieds,6b,x,non
 planches de sapin de 75 pieds,6b,x,non
 planches de sapin de 8 à 10 pieds,6b,x,non
 planches de sapin de 8 à 10 pieds à 10 sous,6b,x,non
-planches de sapin de 8 à 12 pieds,,,non
+planches de sapin de 8 à 12 pieds,6b,,non
 planches de sapin de 8 à 13 pieds,6b,x,non
 planches de sapin de 8 à 7 pieds,6b,x,non
 planches de sapin de 8 à 9 pieds,6b,x,non
@@ -14019,7 +13959,7 @@ planches de sapin de 85 pieds,6b,x,non
 planches de sapin de 9 à 10,6b,x,non
 planches de sapin de 9 à 10 pieds,6b,x,non
 planches de sapin de 9 à 10 pieds à 15 sous,6b,x,non
-planches de sapin de 9 à 10-11 pieds,,,non
+planches de sapin de 9 à 10-11 pieds,6b,,non
 planches de sapin de 9 à 11 pieds,6b,x,non
 planches de sapin de 9 à 12 pieds,6b,x,non
 planches de sapin de 9 à 13 pieds,6b,x,non
@@ -14045,7 +13985,7 @@ planches de wagheschot,???,,non
 planches de wagheschot scié,???,x,oui
 planches demie,6b,x,oui
 planches demies,6b,x,non
-planches dites feuillet,,,non
+planches dites feuillet,6b,,non
 planches dites feuillet et quartiers,6b,x,non
 planches dites genoux de bateaux,6b,x,non
 planches dites Noordschedelen de 11 à 12 pieds,6b,x,non
@@ -14063,20 +14003,20 @@ planches pour grenier,6b,x,non
 planches refendues,6b,x,non
 planches sciées,6b,x,non
 planches sciées de long,6b,x,non
-plançons,,,non
+plançons,9c,,non
 plançons courbes,9c,x,non
 plançons de chêne,6b,x,non
 plannes de cuivre,6j,x,oui
 plante diverse,2,x,oui
 plantes d'asperge et jets de houblon,2,x,non
-plantes de jasmin,,,non
+plantes de jasmin,2,,non
 plantes de romarin,2,x,non
 plantes diverses,2,,non
 plantes herbes racines etc.,2,x,non
 plants d'arbres,2,x,non
-plants d'arbres à fruits,,,non
-plants d'argent,,,non
-plants d'artichauts,,,non
+plants d'arbres à fruits,2,,non
+plants d'argent,2,,non
+plants d'artichauts,2,,non
 plants d'asperge,2,x,non
 plants d'oignon,2,x,non
 plants d'oignons,2,x,non
@@ -14084,35 +14024,34 @@ plants d'oranger,2,x,non
 plants de bois,2,x,non
 plants de bois sauvages,2,,non
 plants de cédrat,2,x,non
-plants de chinois et fleurs,,,non
-plants de choux,,,non
+plants de chinois et fleurs,2,,non
+plants de choux,2,,non
 plants de citronnier,2,x,non
 plants de fleur,2,x,oui
 plants de fleurs,2,,non
 plants de jardin,2,x,non
 plants de jasmin,2,x,non
 plants de mûrier,2,x,non
-plants de mûriers,,,non
-plants de rouge d'Espagne,,,non
+plants de mûriers,2,,non
+plants de rouge d'Espagne,2,,non
 plants de tabac,2,x,non
 plants de vigne,2,x,non
 plants des bois sauvages,2,x,oui
 plaqué de bois,6b,x,oui
-plaques,,,non
-plaques de bois,,,non
+plaques,9c,,non
+plaques de bois,6b,,non
 plaques de cheminée,6j,x,non
 plaques de cornes,6k,x,non
 plaques de cuivre,6j,x,non
 plaques de cuivre rouge,6j,x,non
-plaques de fer,,,non
-plaques de fer battu,,,non
-plaques de fer de fonte,,,non
-plaques de four,,,non
-plaques en tôle,,,non
-plastres,,,non
+plaques de fer,6j,,non
+plaques de fer battu,6j,,non
+plaques de fer de fonte,6j,,non
+plaques de four,6j,,non
+plaques en tôle,6j,,non
 plat de boire,6b,,non
 plat de bois,6b,x,oui
-plat de grès,,,non
+plat de grès,6k,,non
 plateau,9c,x,oui
 plateaux,8,,non
 plateaux argentés,8,x,non
@@ -14120,7 +14059,7 @@ plateaux de bois,6b,x,non
 plateaux de cuivre,6j,x,non
 plateaux de fer et vernis,6j,x,oui
 plateaux de fer vernis,6j,x,non
-plateaux de noyer,,,non
+plateaux de noyer,6b,,non
 plateaux pour fléaux,8,x,non
 plateaux vernis,8,x,non
 plateaux vernis et de cote,8,x,non
@@ -14134,44 +14073,42 @@ platille,6d,x,non
 platille de lin,6d,x,non
 platille de lin de Silésie,6d,x,non
 platille de retour,6d,x,oui
-platille de retour faute de vente,,,non
+platille de retour faute de vente,6d,,non
 platille des Indes,6d,x,non
-platille pour Guinée,,,non
+platille pour Guinée,6d,,non
 platille roussie,6d,x,non
-platines,,,non
+platines,6j,,non
 platines à cassave,6j,x,non
 platines de cuivre,6j,x,non
 platines de cuivre et plaques de cuivre,6j,x,non
 platines de fer,6j,x,non
 platines de fer coulé de fonte,6j,x,non
-platines de fusils,,,non
-platines de serrure,,,non
-platines en lingots,,,non
-platines minerai,,,non
+platines de fusils,6j,,non
+platines de serrure,6j,,non
+platines en lingots,6j,,non
+platines minerai,2,,non
 plâtre,2,x,non
-plâtre brut,,,non
-plâtre calciné ou brut,,,non
-plâtre calciné ou moulé préparé,,,non
-plâtre calciné ou moulé soit préparé,,,non
+plâtre brut,2,,non
+plâtre calciné ou brut,2,,non
+plâtre calciné ou moulé préparé,9b,,non
+plâtre calciné ou moulé soit préparé,9b,,non
 plâtre de pierres,2,x,non
 plâtre et pierres ditto,2,x,non
 plâtre et pierres ditto par livre,2,x,non
 plâtre gris,2,x,non
 plâtre moulu,2,x,non
-plâtre moulu soit préparé,,,non
+plâtre moulu soit préparé,9b,,non
 plats de bois,6b,x,non
 plats de fer,6j,x,non
 plats de sapin,6b,x,non
 plattes de cuivre,6j,x,oui
 plattes de cuivre jaune,6j,x,oui
 plattes de cuivre rouge,6j,x,oui
-plattile,,,non
-plawens,,,non
-plawens ou codde,,,non
-pléd,,,non
-plesny,,,non
-pleviers,,,non
-plies sèches,,,non
+plawens,???,,non
+plawens ou codde,???,,non
+plesny,???,,non
+pleviers,???,,non
+plies sèches,0a,,non
 ploc,2,x,non
 ploc de 30 pieds,2,x,non
 ploc filé,6e,x,oui
@@ -14180,7 +14117,7 @@ ploc salé,2,x,non
 plomb,6j,x,non
 plomb à gibier,8,x,non
 plomb argenté,6j,x,non
-plomb battu ou laminé,,,non
+plomb battu ou laminé,6j,,non
 plomb brut,6j,x,non
 plomb brut en pain,6j,x,non
 plomb de caisse de thé,6j,x,oui
@@ -14193,7 +14130,7 @@ plomb en balle,9c,x,oui
 plomb en balles et en dragées,9c,x,oui
 plomb en barre,6j,x,non
 plomb en bloc,6j,x,non
-plomb en feuilles,,,non
+plomb en feuilles,6j,,non
 plomb en grenaille,6j,x,non
 plomb en lingot,6j,x,non
 plomb en masse,6j,x,non
@@ -14211,8 +14148,7 @@ plomb laminé,6j,x,non
 plomb thé,9b,x,non
 plomb tuyaux d'orgues,6j,x,non
 plomb vieux,6j,x,non
-plombagine,,,non
-plomp de mer,,,non
+plombagine,2,,non
 pluche de coton,6g,x,oui
 plumes,2,x,non
 plumes à cure-dents,2,x,non
@@ -14235,25 +14171,25 @@ plumes apprêtée à écrire,8,x,oui
 plumes apprêtée d'autruche,8,x,oui
 plumes apprêtées,8,,non
 plumes apprêtées à écrire,8,,non
-plumes apprêtées blanches de parure,,,non
-plumes apprêtées blanches grandes de parure,,,non
+plumes apprêtées blanches de parure,8,,non
+plumes apprêtées blanches grandes de parure,8,,non
 plumes apprêtées d'autruche,8,,non
-plumes apprêtées de coq,,,non
-plumes apprêtées de parure,,,non
-plumes apprêtées grandes de parure,,,non
-plumes apprêtées noires de parure,,,non
-plumes apprêtées petites de parure,,,non
-plumes blanches brutes de parure,,,non
-plumes blanches brutes grandes de parure,,,non
+plumes apprêtées de coq,8,,non
+plumes apprêtées de parure,8,,non
+plumes apprêtées grandes de parure,8,,non
+plumes apprêtées noires de parure,8,,non
+plumes apprêtées petites de parure,8,,non
+plumes blanches brutes de parure,2,,non
+plumes blanches brutes grandes de parure,2,,non
 plumes brute à écrire,2,x,oui
 plumes brutes,2,x,non
 plumes brutes à écrire,2,,non
-plumes brutes de parure,,,non
+plumes brutes de parure,2,,non
 plumes brutes et à écrire,9b,x,oui
 plumes brutes et de parure,2,x,oui
-plumes brutes grandes de parure,,,non
-plumes brutes noires de parure,,,non
-plumes brutes petites de parure,,,non
+plumes brutes grandes de parure,2,,non
+plumes brutes noires de parure,2,,non
+plumes brutes petites de parure,2,,non
 plumes communes à lit,2,,non
 plumes communes et à lit,2,x,oui
 plumes cordons gris et jaunes et rouges et à écrire,9b,x,non
@@ -14269,7 +14205,7 @@ plumes d'autruche blanches,2,,non
 plumes d'autruche brutes,2,,non
 plumes d'autruche crues,2,,non
 plumes d'autruche crues et noires,2,,non
-plumes d'autruche et à écrire,9c,x,oui
+plumes d'autruche et à écrire,8,x,oui
 plumes d'autruche et autres de parure,2,x,non
 plumes d'autruche et blanches,2,x,oui
 plumes d'autruche et brutes,2,x,oui
@@ -14286,25 +14222,25 @@ plumes d'oie à lit,2,x,non
 plumes d'oiseaux,2,x,non
 plumes de coq,2,x,non
 plumes de lin,2,x,non
-plumes de poule,,,non
+plumes de poule,2,,non
 plumes de soie,2,x,non
 plumes duvet,2,x,non
 plumes en ???,2,x,non
 plumes idem,2,x,non
-plumes mortes,,,non
-plumes mortes à lit,,,non
+plumes mortes,2,,non
+plumes mortes à lit,2,,non
 plumes noire,2,x,non
 plumes ouvrées,8,x,non
 plumes pour dévidoir,2,x,non
-plumes pour duvet,,,non
+plumes pour duvet,2,,non
 plumes teinte,2,x,oui
 plumes teintes,2,,non
-plumes vives,,,non
-plumes vives à lit,,,non
+plumes vives,2,,non
+plumes vives à lit,2,,non
 plumets,8,x,non
 plumets pour chapeau,8,x,oui
 plumets pour chapeaux,8,,non
-pluviers,,,non
+pluviers,0a,,non
 poche de peau,8,x,oui
 poches de peau,8,,non
 pocle de fer,???,x,oui
@@ -14327,19 +14263,19 @@ poêles de feu à frire,6j,x,non
 poêles de terre,8,x,non
 poêlons de cuivre,6j,x,non
 poêlons de fer,6j,x,non
-poids,,,non
-poids à peser,,,non
+poids,6j,,non
+poids à peser,6j,,non
 poids de fer,6j,x,non
-poids de fonde,,,non
-poids de plomb,,,non
-poignards et sabres de traite,,,non
-poignées pour sabres,,,non
+poids de fonde,6j,,non
+poids de plomb,6j,,non
+poignards et sabres de traite,8,,non
+poignées pour sabres,8,,non
 poignet de chemise,8,x,oui
 poignets de chemise,8,,non
-poil,,,non
+poil,2,,non
 poil blanc,2,x,non
-poil brossiers et rognures,,,non
-poil d'autruche en laine pour faire lisière,,,non
+poil brossiers et rognures,2,,non
+poil d'autruche en laine pour faire lisière,2,,non
 poil d'élan er de lièvre,2,x,oui
 poil d'élan et de lièvre,2,,non
 poil d'Espagne d'argent,2,x,non
@@ -14376,15 +14312,14 @@ poil de porc,2,x,non
 poil de porc et poil de sanglier,2,x,non
 poil de sanglier,2,x,non
 poil de vache,2,x,non
-poil de vache et autres plocqs,,,non
 poil et cheveu,2,x,oui
 poil et cheveux,2,,non
 poil pour doublage,2,x,non
-poil propre à la chapellerie et à la filature,,,non
-poinade,,,non
-poinçon neuf et vide,,,non
+poil propre à la chapellerie et à la filature,2,,non
+poinade,???,,non
+poinçon neuf et vide,8,,non
 point d'argent et d'Espagne,6i,x,oui
-point d'argent et d'or,8,x,non
+point d'argent et d'or,6i,x,non
 point d'argent et d'or et d'Espagne,6i,x,oui
 point d'Espagne d'argent,6i,,non
 point d'Espagne d'argent et d'or,6i,,non
@@ -14396,13 +14331,13 @@ point de Hongrie,6i,x,non
 pointes de bat,7,x,oui
 pointes de bâts,7,,non
 pointes de bois,6b,x,non
-pointes de bois pour bâts,,,non
+pointes de bois pour bâts,7,,non
 pointes de corne,9c,x,non
-pointes de Hongrie,,,non
+pointes de Hongrie,9c,,non
 pointes de queue de martre,6a,x,oui
 pointes de queues de martre,6a,,non
 pointes pour bâtir de bois,6b,x,non
-poireaux,,,non
+poireaux,0a,,non
 poires,0a,x,non
 poires de bon chrétien,0a,x,oui
 poires de coing,0a,x,non
@@ -14429,7 +14364,7 @@ pois en gerbe,0a,x,non
 pois et fève et haricot,0a,x,non
 pois et fèves,0a,x,non
 pois fayolles,0a,x,non
-pois résine,,,non
+pois résine,2,,non
 pois secs,0a,x,non
 pois vert,0a,x,oui
 pois verts,0a,,non
@@ -14440,16 +14375,16 @@ poisson blanc,0a,x,non
 poisson blanc et petit,0a,x,non
 poisson d'eau douce,0a,x,non
 poisson d'eau douce frais,0a,x,non
-poisson d'eau douce frais préparé,,,non
+poisson d'eau douce frais préparé,0a,,non
 poisson de mer,0a,x,non
-poisson de mer 196 lignes,,,non
-poisson de mer de pêche française,,,non
+poisson de mer 196 lignes,0a,,non
+poisson de mer de pêche française,0a,,non
 poisson de mer divers,0a,x,non
 poisson de mer frais,0a,x,non
-poisson de mer frais fumé salé ou sec,,,non
+poisson de mer frais fumé salé ou sec,0a,,non
 poisson de mer frais hareng,0a,x,oui
-poisson de mer frais salé et sec,,,non
-poisson de mer mariné à l'huile,,,non
+poisson de mer frais salé et sec,0a,,non
+poisson de mer mariné à l'huile,0a,,non
 poisson de mer morue tête,0a,x,oui
 poisson de mer morue verte,0a,x,oui
 poisson de mer salé,0a,x,non
@@ -14485,10 +14420,10 @@ poisson frais et gros,0a,x,non
 poisson frais et mariné et salé,0a,x,non
 poisson frais et petit,0a,x,non
 poisson frais et salé,0a,x,non
-poisson frais menu,,,non
+poisson frais menu,0a,,non
 poisson frit,0a,x,non
 poisson frit et gros,0a,x,non
-poisson frit salé,,,non
+poisson frit salé,0a,,non
 poisson huître,0a,x,oui
 poisson mariné,0a,x,non
 poisson morue,0a,x,oui
@@ -14513,13 +14448,13 @@ poisson sole,0a,x,oui
 poisson stockfish,0a,x,oui
 poisson thon mariné,0a,x,oui
 poivre,0b,x,non
-poivre à meules,,,non
+poivre à meules,0b,,non
 poivre blanc,0b,x,non
 poivre blanc-noir,0b,x,non
 poivre brun,0b,x,non
 poivre commun,0b,x,non
 poivre concassé,0b,x,non
-poivre des entrepôts,,,non
+poivre des entrepôts,0b,,non
 poivre des Indes,0b,x,non
 poivre dit maniquette,0b,x,non
 poivre doux,0b,x,non
@@ -14544,7 +14479,7 @@ poix grasse,2,x,non
 poix molle,2,x,non
 poix noire,2,x,non
 poix noire et poix blanche,2,x,non
-poix ou galipot,,,non
+poix ou galipot,2,,non
 poix résines,2,x,non
 poix terck daguet goudron,2,x,non
 polimi,6e,x,non
@@ -14552,112 +14487,112 @@ polimi de poil,6e,,non
 polimi gris,6e,,non
 polin gris,6e,x,oui
 polini de poil,6e,x,oui
-polipode,,,non
-polonaises,,,non
-pomargues,,,non
-pomelles à voiliers,,,non
+polonaises,???,,non
+polypode,2,,non
+pomargues,???,,non
+pomelles à voiliers,???,,non
 pommade,5,x,non
 pommade commune,5,x,non
 pommade de senteur,5,x,non
-pommade et poudre,,,non
+pommade et poudre,5,,non
 pommade et savonnettes,5,x,non
 pommeaux de cuivre doré,6j,x,non
-pommes,,,non
-pommes d'api,,,non
-pommes de cannes,,,non
-pommes de grenade,,,non
-pommes de paradis,,,non
-pommes de rainettes,,,non
-pommes de terre,,,non
-pommes elemy,,,non
-pommes et poires,,,non
-pommes fraîches,,,non
-pommes sèches,,,non
+pommes,0a,,non
+pommes d'api,0a,,non
+pommes de cannes,0a,,non
+pommes de grenade,0a,,non
+pommes de paradis,0a,,non
+pommes de rainettes,0a,,non
+pommes de terre,0a,,non
+pommes elemy,0a,,non
+pommes et poires,0a,,non
+pommes fraîches,0a,,non
+pommes sèches,0a,,non
 pompes,7,x,non
-pompes à éteindre le feu,,,non
-pompes à feu,,,non
-pompes à Hollande,,,non
-pompes à incendie,,,non
-pompes à main et petites,,,non
+pompes à éteindre le feu,7,,non
+pompes à feu,7,,non
+pompes à Hollande,7,,non
+pompes à incendie,7,,non
+pompes à main et petites,7,,non
 pompes de bois,7,x,non
-pompes de cuivre,,,non
-pompes de fer,6j,x,non
-pompes de Hollande,,,non
-pompes de plomb,,,non
-pompes pour pompiers,,,non
-pompons,,,non
-pompons d'argent et de soie,,,non
+pompes de cuivre,7,,non
+pompes de fer,7,x,non
+pompes de Hollande,7,,non
+pompes de plomb,7,,non
+pompes pour pompiers,7,,non
+pompons,8,,non
+pompons d'argent et de soie,8,,non
 poncire,0a,x,non
-pondre à tirer,,,non
-popeline,,,non
-popeline de coton et soie,,,non
-popeline de filoselle,,,non
-popeline de soie,,,non
+pondre à tirer,8,,non
+popeline,6f,,non
+popeline de coton et soie,6f,,non
+popeline de filoselle,6f,,non
+popeline de soie,6f,,non
 populeum,5,x,non
 porcelaine,6k,x,non
-porcelaine à la valeur,,,non
+porcelaine à la valeur,6k,,non
 porcelaine commune,6k,x,non
-porcelaine commune et fine,,,non
+porcelaine commune et fine,6k,,non
 porcelaine contrefaite,6k,x,non
 porcelaine de Hollande,6k,x,non
 porcelaine de Saint-Cloud,6k,x,non
 porcelaine de Saxe,6k,x,non
 porcelaine de Tournai,6k,x,non
 porcelaine des Indes,6k,x,non
-porcelaine diverse,,,non
+porcelaine diverse,6k,,non
 porcelaine du Faubourg Saint-Antoine,6k,x,non
 porcelaine du Japon,6k,x,non
-porcelaine et faïence,,,non
+porcelaine et faïence,6k,,non
 porcelaine fine,6k,x,non
-porcelaine fine à la valeur,,,non
-porcelaine fine au kilogramme,,,non
+porcelaine fine à la valeur,6k,,non
+porcelaine fine au kilogramme,6k,,non
 porcelaine Hollande,6k,x,non
 porcelaine ordinaire,6k,x,non
 porcelets,0a,x,non
 porcelets et porcs,0a,x,non
 porcs,0a,x,non
-porcs au-dessous de 6 mois,,,non
-porcs au-dessus de 6 mois,,,non
-porcs de 6 mois et au-dessus,,,non
+porcs au-dessous de 6 mois,0a,,non
+porcs au-dessus de 6 mois,0a,,non
+porcs de 6 mois et au-dessus,0a,,non
 porcs de lait,0a,x,non
 porcs et porcelets,0a,x,non
-porcs frais,,,non
+porcs frais,0a,,non
 porcs gras,0a,x,non
-porcs gras en vie,,,non
+porcs gras en vie,0a,,non
 porcs gras et maigres,0a,x,non
 porcs maigres,0a,x,non
-porcs maigres salés,,,non
+porcs maigres salés,0a,,non
 porcs poulets,0a,x,non
-porcs salés,,,non
-porcs salés jambon,,,non
-porcs tués,,,non
+porcs salés,0a,,non
+porcs salés jambon,0a,,non
+porcs tués,0a,,non
 porte de verre,6k,x,non
-portefeuilles,,,non
-portemanteaux,,,non
-portemanteaux de cuir,,,non
-portemanteaux de cuir de Russie,,,non
-portemanteaux de peau de Russie,,,non
-portemanteaux de Russie,,,non
-portevoix,,,non
+portefeuilles,8,,non
+portemanteaux,8,,non
+portemanteaux de cuir,8,,non
+portemanteaux de cuir de Russie,8,,non
+portemanteaux de peau de Russie,8,,non
+portemanteaux de Russie,8,,non
+portevoix,6j,,non
 portevue,???,,non
 portrait,8,x,non
 portrait de cour,8,x,non
 portrait de famille,8,x,non
-portrait et ses bordures,,,non
-portrait et ses bordures dorées,,,non
-portrait et ses bordures dorées et en pastel,,,non
+portrait et ses bordures,8,,non
+portrait et ses bordures dorées,8,,non
+portrait et ses bordures dorées et en pastel,8,,non
 potache,5,x,non
 potasse,2,x,non
 potasse de cuivre,2,x,oui
 potasse et gravelée et védasse,2,,oui
-potasse et védasse,,,non
-potasse et védasse et gravelée,,,non
+potasse et védasse,2,,non
+potasse et védasse et gravelée,2,,non
 potasse gravelée et vedasse,2,x,oui
-potasse gravelée et védasse,,,non
+potasse gravelée et védasse,2,,non
 poterie,6k,x,non
 poterie à feu,6k,x,non
 poterie commune,6k,x,non
-poterie crue,,,non
+poterie crue,6k,,non
 poterie de cuivre,6j,x,non
 poterie de faïence,6k,x,non
 poterie de faïence et verrerie,6k,x,non
@@ -14667,16 +14602,16 @@ poterie de grès barbançons,6k,x,non
 poterie de grès barbue,6k,x,oui
 poterie de grès barbues,6k,,non
 poterie de grès cavelle,6k,x,non
-poterie de grès commune,,,non
-poterie de grès commune et fine,,,non
+poterie de grès commune,6k,,non
+poterie de grès commune et fine,6k,,non
 poterie de grès divers,6k,x,oui
 poterie de grès diverse,6k,,non
-poterie de grès fine,,,non
+poterie de grès fine,6k,,non
 poterie de grès moque,6k,x,oui
 poterie de grès moques,6k,,non
 poterie de livre,6k,x,non
 poterie de pierre,6k,x,non
-poterie de pierre et de terre,,,non
+poterie de pierre et de terre,6k,,non
 poterie de raffinerie,6k,x,non
 poterie de terre,6k,x,non
 poterie de terre barbançons,6k,x,non
@@ -14684,7 +14619,7 @@ poterie de terre cannette,6k,x,non
 poterie de terre cruche,6k,x,non
 poterie de terre cuite,6k,x,non
 poterie de terre diverse,6k,x,non
-poterie de terre grossière,,,non
+poterie de terre grossière,6k,,non
 poterie de terre terraille,6k,x,non
 poterie des Indes,6k,x,non
 poterie diverse,6k,x,non
@@ -14885,20 +14820,20 @@ pruneaux de Sainte-Catherine,0a,x,non
 pruneaux et prunes,0a,x,non
 pruneaux et raisin sec,0a,x,non
 pruneaux et sucre,0a,x,non
-pruneaux et verdet,,,non
+pruneaux et verdet,9b,,non
 pruneaux et vert-de-gris,9b,x,oui
-pruneaux noirs,,,non
-prunelle,6f,x,non
+pruneaux noirs,0a,,non
+prunelle,6i,x,non
 prunelle buratée de laine,6e,x,non
 prunelle de laine,6e,x,non
-prunelle de laine burail,,,non
-prunelle de laine burat,,,non
-prunelle de laine et de soie,,,non
+prunelle de laine burail,6e,,non
+prunelle de laine burat,6e,,non
+prunelle de laine et de soie,6f,,non
 prunelle de laine raz de castor,6e,x,non
 prunelle de poil,6e,x,non
 prunelle de soie,6f,x,non
-prunelle fine,6f,x,non
-prunelle mêlée de soie,,,non
+prunelle fine,6i,x,non
+prunelle mêlée de soie,6f,,non
 prunes,0a,x,non
 prunes Brignoles,0a,x,non
 prunes communes,0a,x,non
@@ -14907,55 +14842,54 @@ prunes d'ente,0a,x,non
 prunes de Bordeaux,0a,x,non
 prunes de Sainte-Catherine,0a,x,non
 prunes et pruneaux,0a,x,non
-prunes fraîches,,,non
-prunes fraîches de ???,,,non
-prunes noires,,,non
+prunes fraîches,0a,,non
+prunes fraîches de ???,0a,,non
+prunes noires,0a,,non
 prunes pêches cerises nèfles etc.,0a,x,non
 prunes sèches,0a,x,non
-prusses,,,non
-prussiate de potasse,,,non
-prussiate de potasse cristallisée,,,non
+prusses,???,,non
+prussiate de potasse,5,,non
+prussiate de potasse cristallisée,5,,non
 prusus,???,,non
 psalterion,8,x,non
-pumes,,,non
 pupitre,8,x,non
-pyrèthre,,,non
-pyrèthre racine,,,non
+pyrèthre,2,,non
+pyrèthre racine,2,,non
 quadrilles,???,,non
-quadruple ou pièce d'or d'Espagne,,,non
-quarlais bottes etc.,,,non
+quadruple ou pièce d'or d'Espagne,9a,,non
+quarlais bottes etc.,0a,,non
 quart à farine,???,,non
 quart de nonante,8,x,non
 quart de nonante à prendre hauteur,8,x,non
 quarteaux cerclés de fer,6b,x,non
 quartier de réduction,8,x,oui
 quartiers de réduction,8,,non
-quenouilles,,,non
-quenouilles de cannes,,,non
-quenouilles de cannes de peinte,,,non
-quenouilles de roseau au peinte,,,non
-quercas,,,non
+quenouilles,6b,,non
+quenouilles de cannes,6b,,non
+quenouilles de cannes de peinte,6b,,non
+quenouilles de roseau au peinte,6b,,non
+quercas,???,,non
 quercitron,5,x,non
-quercitron des entrepôts,,,non
-queues de fouine et de martre,,,non
-queues de koquiky et de putois,,,non
+quercitron des entrepôts,5,,non
+queues de fouine et de martre,2,,non
+queues de koquiky et de putois,2,,non
 queues de martre,2,,non
 queues de martres,2,x,oui
-queues de petit gris,,,non
+queues de petit gris,2,,non
 queues de rat musqué,2,x,non
-queues de renard,,,non
+queues de renard,2,,non
 queues de renard et ecureuil,2,x,oui
 queues de renard et écureuil,2,x,non
 queues penne et noppes,2,x,non
-quicaille de fer,6j,x,non
-quikous chaus,,,non
-quilles de hêtre,,,non
-quilles de navire,,,non
-quilles de vaisseaux,,,non
+quikous chaus,???,,non
+quilles de hêtre,7,,non
+quilles de navire,7,,non
+quilles de vaisseaux,7,,non
 quincaille,6j,x,oui
-quincaille de fer ???,,,non
+quincaille de fer,6j,x,non
+quincaille de fer ???,6j,,non
 quincaille de fonte acier,6j,x,oui
-quincaille sèche,,,non
+quincaille sèche,6j,,non
 quincaillerie,6j,x,non
 quincaillerie carde,6j,x,non
 quincaillerie clou,6j,x,non
@@ -14969,7 +14903,7 @@ quincaillerie d'acier et de cuivre,6j,x,non
 quincaillerie d'acier et de cuivre et de fer,6j,x,non
 quincaillerie d'acier et de fer,6j,x,non
 quincaillerie d'acier et de fer en fauty,6j,x,non
-quincaillerie d'acier et de fonte,,,non
+quincaillerie d'acier et de fonte,6j,,non
 quincaillerie d'acier et fine,6j,x,non
 quincaillerie d'acier ou de fer,6j,x,non
 quincaillerie de bois,6j,x,non
@@ -14989,7 +14923,7 @@ quincaillerie de fer faux,6j,x,non
 quincaillerie de fer faux et ferraille,6j,x,non
 quincaillerie de fer fil,6j,x,oui
 quincaillerie de fer grosse,6j,x,non
-quincaillerie de fer ordinaire,,,non
+quincaillerie de fer ordinaire,6j,,non
 quincaillerie de fer pigne à corde,6j,x,non
 quincaillerie de fer scie,6j,x,non
 quincaillerie de fil de fer,6j,x,non
@@ -15013,22 +14947,22 @@ quincaillerie grosse,6j,x,non
 quincaillerie platine,6j,x,oui
 quincaillerie pour épingles de laiton filé jaune et noir,6j,,oui
 quincaillerie pour épingles et de laiton filé et jaune et noir,6j,x,oui
-quincaillerie y compris les armes et ferrailles,,,non
+quincaillerie y compris les armes et ferrailles,6j,,non
 quinette,6e,x,non
 quinoa,0b,x,non
 quinquina,2,x,non
 quinquina des Indes,2,x,non
-quinquina en extrait,,,non
+quinquina en extrait,2,,non
 quinquina en grabeau,2,x,non
 quintessence,5,x,non
 quintessence de bergamote,5,x,non
-quintessence de citron,,,non
+quintessence de citron,5,,non
 quintessence de rose,5,x,non
 quire,???,,non
-rabots,,,non
-racinages,,,non
+rabots,6j,,non
+racinages,0a,,non
 racines,2,x,non
-racines à barreau,,,non
+racines à barreau,2,,non
 racines d' ???,2,x,non
 racines d'alizari,5,x,non
 racines d'angélique,2,x,non
@@ -15036,68 +14970,68 @@ racines d'Angleterre,2,x,non
 racines d'arcanette,2,x,non
 racines d'Espagne,2,x,non
 racines d'esquine,2,,non
-racines d'ipécacuanha,,,non
+racines d'ipécacuanha,2,,non
 racines d'iris de Florence,2,,non
-racines d'orcanette,,,non
+racines d'orcanette,2,,non
 racines d'ortie,2,x,non
 racines de ???,2,x,non
 racines de brionc,2,x,non
 racines de calamus,2,x,non
-racines de chicorée sèche non torréfiées,,,non
+racines de chicorée sèche non torréfiées,2,,non
 racines de dictame,2,x,non
 racines de Florence et d'iris,2,x,oui
-racines de fouchet,,,non
+racines de fouchet,2,,non
 racines de galanga,2,x,non
 racines de garance,5,x,non
-racines de garou,,,non
+racines de garou,2,,non
 racines de ginseng,2,,non
 racines de ginsin,2,x,oui
 racines de guimauve,2,x,non
 racines de jalap,2,x,non
-racines de jardin,,,non
+racines de jardin,2,,non
 racines de la Chine,2,x,non
 racines de lin,2,,non
-racines de mechoacam,,,non
+racines de mechoacam,2,,non
 racines de persil,2,x,non
 racines de pierrestre,2,x,non
 racines de rhubea,2,x,non
 racines de riz,2,x,non
-racines de rubea,,,non
+racines de rubea,2,,non
 racines de rutum,2,x,non
 racines de salsepareille,2,x,non
-racines de sassafras,,,non
-racines de sequin,,,non
+racines de sassafras,2,,non
+racines de sequin,2,,non
 racines de squine,2,x,oui
 racines de turbit,2,x,non
 racines de violette,2,x,non
 racines de zedoar,2,x,non
 racines du pays,2,x,non
 racines jalap,2,x,non
-racines médicinales,,,non
+racines médicinales,2,,non
 racines rhubarbe,2,x,non
-raclure de bois de cerf,,,non
+raclure de bois de cerf,2,,non
 raclure de carnet,2,x,non
-raclure de chamois,,,non
+raclure de chamois,2,,non
 raclure de corne,2,x,non
-raclure de corne de cerf,,,non
-raclure de fer,9b,x,non
-raclures de pieds de mouton,,,non
+raclure de corne de cerf,2,,non
+raclure de fer,2,x,non
+raclures de pieds de mouton,2,,non
 radeau,7,x,non
-radis chins,,,non
+radis chins,2,,non
 radis dictame,2,x,non
-raie,,,non
+raie,0a,,non
 raince de lin,???,,oui
-rais,,,non
-rais à charrettes,,,non
-rais à charrue,,,non
+rais,7,,non
+rais à charrettes,7,,non
+rais à charrue,7,,non
 rais à charrues,7,x,non
 raiseau d'argent et d'or,8,x,non
 raiseau d'argent ou d'or,8,x,non
 raisin,0a,x,non
 raisin de Corinthe,0a,x,non
-raisin de Corinthe et autre,,,non
+raisin de Corinthe et autre,0a,,non
 raisin de Damas,0a,x,non
-raisin de Galop,[???],x,non
+raisin de Galop,0a,x,non
 raisin de Provence,0a,x,non
 raisin de Provence et sec,0a,x,oui
 raisin de Provence sec,0a,,non
@@ -15107,166 +15041,164 @@ raisin en grappes,0a,,non
 raisin frais,0a,x,non
 raisin frais de Corinthe,0a,x,non
 raisin frais muscat,0a,x,non
-raisin muscat à l'eau-de-vie,,,non
+raisin muscat à l'eau-de-vie,0a,,non
 raisin sec,0a,x,non
 raisin sec d'époque,0a,x,non
 raisin sec d'Espagne,0a,x,non
 raisin sec de Corinthe,0a,x,non
 raisin sec en grappes,0a,x,oui
-raisiné en pot,,,non
-raisins frais,,,non
+raisiné en pot,0a,,non
+raisins frais,0a,,non
 rame,9c,x,non
 rame de bateau,7,x,oui
 rames à ramer,7,x,non
 rames de bateau,7,,non
 rames de bois,6b,x,non
 rames de fer,6j,,non
-rames de frêne,,,non
+rames de frêne,6b,,non
 rames de lin,2,x,non
-ramolaches,,,non
+ramolaches,0a,,non
 rampe de fer,6j,,non
 ramure,2,x,non
 ramure de sapin,2,x,non
-rapatelle,,,non
-râpes,,,non
-râpes à tabac,,,non
-râpes d'ivoire à tabac,,,non
+rapatelle,6e,,non
+râpes,6j,,non
+râpes à tabac,6j,,non
+râpes d'ivoire à tabac,6j,,non
 raponty,???,,non
 rapsel,???,,non
-râpure d'ivoire,,,non
-râpure de bois de cerf,,,non
-râpure de cerf,,,non
-râpure de cerf et d'ivoire,,,non
-râpure de forme,,,non
-râpures de cornes de bétail sabots de bétail etc.,,,non
+râpure d'ivoire,2,,non
+râpure de bois de cerf,2,,non
+râpure de cerf,2,,non
+râpure de cerf et d'ivoire,2,,non
+râpure de forme,2,,non
+râpures de cornes de bétail sabots de bétail etc.,2,,non
 raquette,8,x,non
-raquette et volants,,,non
-ras et revêche de ???,,,non
+raquette et volants,8,,non
+ras et revêche de ???,???,,non
 rasade,9c,x,non
-rase,,,non
-rase blanche,,,non
-rase pour peinture,,,non
-rasoirs,,,non
-rasoirs communs,,,non
+rase,???,,non
+rase blanche,???,,non
+rase pour peinture,???,,non
+rasoirs,6j,,non
+rasoirs communs,6j,,non
 rasoirs de fer-blanc,6j,x,non
-rasorde,,,non
-rassade,,,non
-rassade et verroterie,6k,x,non
+rasorde,???,,non
 rassades,6k,x,non
-rassades de retour faute de vente,,,non
+rassades de retour faute de vente,6k,,non
+rassades et verroterie,6k,x,non
 rassades et vitrifications,6k,x,non
 ratafia,1,x,non
-ratafia de cerise,,,non
-ratafia de citron,,,non
+ratafia de cerise,1,,non
+ratafia de citron,1,,non
 râteaux,6j,x,non
 râteaux de fer,6j,x,non
-ratières,,,non
+ratières,6j,,non
 ratine,6e,x,non
 ratine aune,6e,x,non
 ratine commune,6e,x,non
 ratine croisée,6e,x,non
 ratine de Beauvais,6e,x,non
 ratine de Hollande,6e,x,non
-ratine de laine,,,non
+ratine de laine,6e,,non
 ratine fine,6e,x,non
 ratine frisée,6e,x,non
 ratine teint,6e,x,oui
 ratine teinte,6e,,non
-rats de canons,,,non
+rats de canons,???,,non
 rave,???,x,non
 rave à filer,???,x,non
-rave à pêche,,,non
-rave à pêcher,,,non
-rave à sèches,,,non
+rave à pêcher,???,,non
+rave à sèches,???,,non
 rave de morue,0a,x,non
 raveaux,???,,non
 rayon,9c,x,non
-rayon de mouches à miel,,,non
-raz d'Angleterre,,,non
+rayon de mouches à miel,2,,non
+raz d'Angleterre,6i,,non
 raz de castor,6e,x,non
 raz de Fleury,6i,x,non
 raz de laine,6e,x,non
 raz de Maroc,6e,x,oui
 raz de morue,6i,x,non
 raz de Reims,6i,x,non
-raz de Saint-Lô,,,non
-raz de Saint-Maur,6f,,non
+raz de Saint-Lô,6i,,non
+raz de Saint-Maur,6i,,non
 raz de Saint-Maur de soie,6f,x,oui
 raz de soie de Saint-Maur,6f,,non
 raz de soie de St Cyr,6f,x,non
 raz du Maroc,6e,x,non
-raz Maroc,,,non
-raze blanche,,,non
+raz Maroc,6e,,non
+raze blanche,???,,non
 reagal,5,x,non
-rebuts de corail,,,non
-rechanges à nègre,,,non
+rebuts de corail,2,,non
+rechanges à nègre,8,,non
 réchaud de fer,7,x,non
 réchaud de terre,7,x,non
 réchaud en fer,6j,,non
-réchauds à café de fer,,,non
+réchauds à café de fer,7,,non
 rechauds de cuivre ouvré,7,x,oui
 réchauds de cuivre ouvré,7,,non
-rediné,,,non
+rediné,???,,non
 redingotes,8,x,non
 redingotes d'Angleterre et de drap,8,x,non
 redingotes de drap,8,x,non
 redon,2,x,non
-redou,,,non
+redou,2,,non
 registre,6c,x,oui
 registres,6c,,non
 registres blancs,6c,x,non
 registres en blanc,6c,x,oui
-réglisse,2,x,non
-réglisse de bois,,,non
-réglisse en bois,2,x,non
+réglisse,0a,x,non
+réglisse de bois,0a,,non
+réglisse en bois,0a,x,non
 réglisse en jus,0a,x,non
-réglisse en poudre,2,x,non
-réglisse et autre,,,non
-réglisse moulu,2,x,non
-réglisse par balles de 150 livres,2,x,non
-réglisse sur bâne,2,x,non
-regrets d'orfèvre,,,non
+réglisse en poudre,0a,x,non
+réglisse et autre,0a,,non
+réglisse moulu,0a,x,non
+réglisse par balles de 150 livres,0a,x,non
+réglisse sur bâne,0a,x,non
+regrets d'orfèvre,2,,non
 régule d'antimoine,5,x,non
 reliquaire,8,x,non
 remèdes,5,x,non
 remèdes composés,5,x,non
 remèdes sercé en feuilles,2,x,non
-représentation des Tuileries,,,non
-représentation du Saint Sépulcre,,,non
+représentation des Tuileries,8,,non
+représentation du Saint Sépulcre,8,,non
 réseau d'argent,8,x,non
 réseau d'or,8,x,non
-résidu d'acide vitriolique,,,non
-résidus d'acide nitrique,,,non
-résidus d'acide sulfuriques,,,non
-résine de gaïac,,,non
+résidu d'acide vitriolique,2,,non
+résidus d'acide nitrique,2,,non
+résidus d'acide sulfuriques,2,,non
+résine de gaïac,2,,non
 résines,2,x,non
 résines de jalap,2,x,non
 résines de scammonée,2,x,non
 résines et poix de goudron,2,x,oui
 résines et térébenthine,2,x,non
-résines exotiques,,,non
-résines exotiques autres que assa foetida copal jalap et scammonée,,,non
-résines exotiques des entrepôts,,,non
+résines exotiques,2,,non
+résines exotiques autres que assa foetida copal jalap et scammonée,2,,non
+résines exotiques des entrepôts,2,,non
 résines exotiques scammonée,2,x,non
-résines ou harpoix,,,non
+résines ou harpoix,2,,non
 résines scammonée,2,x,non
 ressorts,6j,x,non
 ressorts de carrosses,7,x,non
 ressorts de voiture,7,x,non
-retaille de carte,,,non
-retaille de cuir,,,non
+retaille de carte,???,,non
+retaille de cuir,6a,,non
 retaille de peau,6a,x,non
 retaillons de drap,6i,x,non
-rets,,,non
+rets,6h,,non
 rets à pêcher,6h,x,non
 rets ou filets,6h,x,non
 rets pour la chasse et la pêche,6h,x,non
 rets pour tisseurs,???,x,non
 reuche,???,,non
 réunies,???,x,oui
-revêche,,,non
-réveil,,,non
-réverbères,,,non
+revêche,???,,non
+réveil,8,,non
+réverbères,8,,non
 rhubarbe,0a,x,non
 rhubarbe de Moscovie,0a,x,non
 rhubarbe des Indes,0b,x,non
@@ -15275,31 +15207,31 @@ rhubarbe du levant,9c,x,oui
 rhubarbe et mechoacam,9b,x,non
 rhubarbe fil,9c,x,non
 rhum,1,x,non
-rhum de prise,,,non
+rhum de prise,1,,non
 rhum et sirop fin,9b,x,non
 rhum et tafia,1,x,non
 rhum et tafia étranger,1,x,non
-ricanias des Indes,,,non
-rideaux de soie vieux,,,non
+ricanias des Indes,???,,non
+rideaux de soie vieux,8,,non
 rite de chanvre,2,x,non
 rivets,6j,x,non
-riz,,,non
-riz des entrepôts,,,non
+riz,0a,,non
+riz des entrepôts,0a,,non
 riz du Levant,0a,x,non
 robes,8,x,non
-robes brodées,,,non
+robes brodées,8,,non
 robes brodées en laine et de femme,8,x,non
-robes d'étoffe d'argent et de soie,6f,,non
+robes d'étoffe d'argent et de soie,8,,non
 robes d'indienne,8,x,non
-robes de basin brodées,,,non
+robes de basin brodées,8,,non
 robes de chambre,8,x,non
-robes de chambre d'étoffe de soie,,,non
+robes de chambre d'étoffe de soie,8,,non
 robes de femme,8,x,non
 robes de taffetas,8,x,non
 robes de toile peinte,8,,non
 robes fourrées,8,x,non
 robes peinte et de toile,8,x,oui
-robine,,,non
+robine,8,,non
 robinet de bronze,8,x,oui
 robinet de cuivre,8,x,oui
 robinets,8,x,non
@@ -15308,119 +15240,119 @@ robinets de bronze,8,,non
 robinets de cuivre,8,,non
 rocaille,2,x,non
 rocaille de corail,2,x,non
-rocaille de cristal,,,non
+rocaille de cristal,2,,non
 rocaille de verre,2,x,non
 rocaille de verres,2,x,oui
 roche de corne,2,x,non
 roche de diable,2,x,non
 rocou,2,x,non
-rocou de Cayenne,,,non
+rocou de Cayenne,2,,non
 rocou des Îles,2,x,non
 rodon,2,x,non
-rognons de castor,,,non
-rognons de cerf,,,non
+rognons de castor,2,,non
+rognons de cerf,2,,non
 rognons de peau,2,x,non
-rognons de rat musqué,,,non
-rognons de stockfish,,,non
+rognons de rat musqué,2,,non
+rognons de stockfish,2,,non
 rognure d'écaille,2,x,oui
 rognure d'ivoire,2,x,oui
 rognures,2,x,non
 rognures d'écaille,2,,non
 rognures d'ivoire,2,,non
 rognures de ???,2,x,non
-rognures de baleine,,,non
-rognures de carte,,,non
+rognures de baleine,2,,non
+rognures de carte,2,,non
 rognures de carterie,2,x,non
 rognures de cartes et de papier,2,x,non
-rognures de carton,,,non
-rognures de castor,,,non
-rognures de chapeau,,,non
-rognures de corne,,,non
-rognures de corne de cerf,,,non
+rognures de carton,2,,non
+rognures de castor,2,,non
+rognures de chapeau,2,,non
+rognures de corne,2,,non
+rognures de corne de cerf,2,,non
 rognures de corne et de parchemin,2,x,non
-rognures de cuir,,,non
+rognures de cuir,2,,non
 rognures de cuir et de peau,2,x,non
-rognures de dent d'éléphant,,,non
-rognures de drap,,,non
+rognures de dent d'éléphant,2,,non
+rognures de drap,2,,non
 rognures de fer-blanc,2,x,non
-rognures de gaïac,,,non
+rognures de gaïac,2,,non
 rognures de gants,2,x,non
-rognures de mis,,,non
-rognures de papier,,,non
-rognures de parchemin,,,non
+rognures de mis,2,,non
+rognures de papier,2,,non
+rognures de parchemin,2,,non
 rognures de parchemin en valeur,2,x,non
 rognures de peau,2,x,non
 rogues,2,x,non
-rogues de macy,,,non
-rogues de maquereau,,,non
+rogues de macy,2,,non
+rogues de maquereau,2,,non
 rogues de maquereaux,2,x,non
-rogues de maquereaux salées et stockfisch salé,0a,,non
+rogues de maquereaux salées et stockfisch salé,2,,non
 rogues de morue,2,x,non
-rogues de morue salées,0a,,non
+rogues de morue salées,2,,non
 rogues de poisson,2,x,non
 rogues de stockfisch,2,,non
 rogues de stockfish,2,x,oui
-rogues pour la pêche,,,non
-rogues salées,,,non
-roizette,,,non
+rogues pour la pêche,2,,non
+rogues salées,2,,non
+roizette,???,,non
 roldor,???,,non
-rollet,,,non
-rollet aune,,,non
-rollet et batiste,,,non
+rollet,6i,,non
+rollet aune,6i,,non
+rollet et batiste,6i,,non
 romaine,8,x,non
-romals,8,x,non
-romals des Indes,,,non
-romals pour mouchoirs,8,x,non
-romals pour mouchoirs aune,8,x,non
-romals rouges,,,non
+romals,6f,x,non
+romals des Indes,6f,,non
+romals pour mouchoirs,6f,x,non
+romals pour mouchoirs aune,6f,x,non
+romals rouges,6f,,non
 roquelance écarlate,8,,non
-roquette,,,non
+roquette,0a,,non
 rosaire,8,x,non
-rosarde,,,non
-roseaux,,,non
-roseaux champêtres,,,non
-roseaux coupés,,,non
-roseaux d'Espagne,,,non
-roseaux des Indes,,,non
-roseaux en canon,,,non
-roseaux pour cannes,,,non
+rosarde,???,,non
+roseaux,2,,non
+roseaux champêtres,2,,non
+roseaux coupés,2,,non
+roseaux d'Espagne,2,,non
+roseaux des Indes,2,,non
+roseaux en canon,2,,non
+roseaux pour cannes,2,,non
 rosée de vie,???,x,non
-roses,,,non
-roses de dictam,,,non
-roses de province,,,non
-roses de Provins,,,non
-roses sèches,,,non
+roses,2,,non
+roses de dictam,2,,non
+roses de province,2,,non
+roses de Provins,2,,non
+roses sèches,2,,non
 rosette de cuivre,6j,x,non
 rosette de cuivre et mitraille de cuivre,6j,x,non
 rosette ou plaques de cuivres non ouvré,6j,x,non
-rossière de toile,,,non
-rossoli,,,non
+rossière de toile,6h,,non
+rossoli,1,,non
 rotin,2,x,oui
 rotin des Indes,2,x,non
-rotins,,,non
-rotins de petit calibre,,,non
-rouane,,,non
-rouault,,,non
-roudon,,,non
+rotins,2,,non
+rotins de petit calibre,2,,non
+rouane,???,,non
+rouault,???,,non
+roudon,???,,non
 rouergue,???,,non
-roues,,,non
-roues à cabrouets,,,non
+roues,7,,non
+roues à cabrouets,7,,non
 roues de bois,7,x,non
-roues de brouette,,,non
-roues de cabriolet,,,non
-roues de carrosse,,,non
-roues de chaise,,,non
+roues de brouette,7,,non
+roues de cabriolet,7,,non
+roues de carrosse,7,,non
+roues de chaise,7,,non
 roues de chaise ferrées,7,,non
 roues de chaises ferrées,7,x,oui
-roues de charrette,,,non
-roues ferrées,,,non
-roues neuves,,,non
+roues de charrette,7,,non
+roues ferrées,7,,non
+roues neuves,7,,non
 roues non ferrées,7,x,non
-rouets,,,non
-rouets à filer,,,non
-rouets à filer de bois,,,non
+rouets,7,,non
+rouets à filer,7,,non
+rouets à filer de bois,7,,non
 rouets de moulins,7,x,non
-rouets petits,,,non
+rouets petits,7,,non
 rouge,5,x,non
 rouge à peindre,5,x,non
 rouge annatto colorant,5,,non
@@ -15444,23 +15376,25 @@ rouge gras,5,x,non
 rouge grode,5,x,non
 rouge gros,5,x,non
 rouge minéral,5,x,non
-rouge muscat,,,non
+rouge muscat,5,,non
 rouge perse et de rosse,5,x,non
-rouge végétal,,,non
+rouge végétal,5,,non
 rouleau de cuivre,6j,x,oui
-rouleau rôles,,,non
-rouleaux de plomb,,,non
-roulette de bois commun à trois rouets,,,non
-rousols,,,non
-roussettes,,,non
+rouleau rôles,6j,,non
+rouleaux de plomb,6j,,non
+roulette de bois commun à trois rouets,6b,,non
+rousols,???,,non
+roussettes,0a,,non
 ruban,6i,x,non
-ruban à jour,,,non
+ruban à jour,6i,,non
+ruban à jour de fil,6h,,non
 ruban à perruques,6i,x,non
 ruban au quart,6i,x,non
 ruban au quart de soie,6f,x,non
-ruban bis de fil de lin et de chanvre écru ou herbé,,,non
-ruban blanc ou mélangé de blanc,,,non
-ruban blanc ou mélange de blanc de fil de lin et de chanvre,,,non
+ruban bis de fil de lin et de chanvre écru ou herbé,6h,,non
+ruban blanc ou mélangé de blanc,6i,,non
+ruban blanc ou mélange de blanc de fil de lin et de chanvre,6h,,non
+ruban blancs de chanvre et de lin,6h,,non
 ruban d'argent,6i,x,non
 ruban d'argent et d'or,8,x,non
 ruban d'argent et d'or et de soie,6f,x,non
@@ -15471,13 +15405,16 @@ ruban d'étoupes de chanvre,6d,x,non
 ruban d'étoupes de lin,6d,x,non
 ruban d'or,8,x,non
 ruban d'or et de soie,6f,x,non
+ruban de chanvre et de lin,6h,,non
+ruban de chanvre et de lin écrus,6h,,non
+ruban de chanvre et de lin teints,6h,,non
 ruban de coutil,6d,x,non
 ruban de crin,6e,x,non
-ruban de dorure et soie,,,non
+ruban de dorure et soie,6f,,non
 ruban de fil,6i,x,non
 ruban de fil blanc,6i,x,non
-ruban de fil blanc mêlé d'argent faux,,,non
-ruban de fil d'argent et d'or,6i,x,non
+ruban de fil blanc mêlé d'argent faux,6i,,non
+ruban de fil d'argent et d'or,8,x,non
 ruban de fil de laine,6e,x,non
 ruban de fil en laine,6e,x,non
 ruban de fil et de laine,6i,x,non
@@ -15489,34 +15426,39 @@ ruban de filoselle,6f,x,non
 ruban de flearn et de soie,6f,x,non
 ruban de fleuret,6f,x,non
 ruban de fleuret de soie,6f,x,oui
-ruban de fleuret et de soie,,,non
+ruban de fleuret et de soie,6f,,non
 ruban de fleurs,9c,x,non
 ruban de laine,6e,x,non
-ruban de laine de laine pure teinte,,,non
+ruban de laine de laine pure teinte,6e,,non
+ruban de laine écrue pure,6e,,non
 ruban de laine et de soie,6f,x,non
-ruban de laine mélangée de fil de laine et de poils,,,non
-ruban de laine pure écrue et blanche,,,non
+ruban de laine mélangée de fil de laine et de poils,6i,,non
+ruban de laine mêlée de fil,6i,,non
+ruban de laine mêlée de fil teint,6i,,non
+ruban de laine pure écrue et blanche,6e,,non
+ruban de laine pure teinte,6e,,non
 ruban de lin,6d,x,non
 ruban de Padoue,6i,x,non
 ruban de soie,6f,x,non
-ruban de sois,,,non
+ruban de soie unis et veloutés,6f,,non
+ruban de sois,6f,,non
 ruban de velours,6f,x,non
 ruban dorure d'argent,6i,x,non
 ruban dorure d'argent et d'or,6i,x,non
 ruban dorure d'argent faux et d'or faux,6i,x,non
 ruban dorure d'argent fin et d'or fin,6i,x,non
 ruban dorure d'or,6i,x,non
-ruban du Levant,,,non
-ruban écru,,,non
+ruban du Levant,6i,,non
+ruban écru,6i,,non
 ruban en dorure,6i,x,non
 ruban et passementerie de soie,6f,x,non
 ruban et passementerie divers,6i,x,oui
 ruban et passementerie diverse,6i,,non
-ruban et tresses et agrément d'argent et d'or,,,non
+ruban et tresses et agrément d'argent et d'or,6i,,non
 ruban fleuret et de soie,6f,x,oui
 ruban mi soie,6f,x,non
-ruban or charger,8,x,non
-ruban teint,,,non
+ruban or charger,6i,x,non
+ruban teint,6i,,non
 ruban velouté,6i,x,non
 rubanerie de soie,6f,x,non
 rubanerie et passementerie diverses celles de soie et dorure exceptées,6i,x,non
@@ -15525,48 +15467,36 @@ rubannerie,6i,x,non
 rubannerie commune,6i,x,non
 rubannerie de coton,6i,,non
 rubannerie de soie,6f,x,non
-rubans blancs de chanvre et de lin,,,non
-rubans de chanvre et de lin,,,non
-rubans de chanvre et de lin écrus,,,non
-rubans de chanvre et de lin teints,,,non
-rubans de laine écrue pure,,,non
-rubans de laine mêlée de fil,,,non
-rubans de laine mêlée de fil teint,,,non
-rubans de laine pure teinte,,,non
-rubans de soie,,,non
-rubans de soie unis et veloutés,,,non
 rubea major,5,x,non
 rubia tinctorum,5,x,non
-rubis brutes,,,non
-rubis bruts,,,non
-rubis taillés,,,non
-rubn à jour de fil,,,non
-ruches,,,non
-ruches à miel renfermant des essaims vivants,,,non
+rubis bruts,6k,,non
+rubis taillés,6k,,non
+ruches,8,,non
+ruches à miel renfermant des essaims vivants,8,,non
 ruches de pin,6b,x,non
-rudon,,,non
-rusque,,,non
-rusque de chêne,???,x,non
-rusque de pin,???,x,non
-rusque de sapin,,,non
-russel de laine,,,non
-sabatines,,,non
+rudon,???,,non
+rusque,2,,non
+rusque de chêne,2,x,non
+rusque de pin,2,x,non
+rusque de sapin,2,,non
+russel de laine,6e,,non
+sabatines,???,,non
 sable,2,x,non
 sable à fondeur,2,x,non
 sable à mouler,2,x,non
 sable blanc,2,x,non
-sable commun,,,non
+sable commun,2,,non
 sable de mer,2,x,non
 sable de verre,2,x,non
 sablerie,2,x,non
 sableuée,5,x,non
-sablière de fer de fonte,,,non
+sablière de fer de fonte,6j,,non
 sablières de cuivre,6j,x,non
-sabliers en compas,,,non
-sablon,,,non
+sabliers en compas,6j,,non
+sablon,2,,non
 sabots,8,x,non
-sabots de bœuf,,,non
-sabots de bois,,,non
+sabots de bœuf,2,,non
+sabots de bois,6b,,non
 sabres,8,x,non
 sabres de traite,8,x,non
 sabres de traite et autres,8,,non
@@ -15574,9 +15504,9 @@ sabres de traite et sabres,8,x,oui
 sabres garnis d'argent,8,x,non
 sabres montés en cuivre doré,8,x,non
 sabres ordinaires,8,x,non
-sachets,,,non
+sachets,8,,non
 sachets d'odeur,5,x,non
-sacquin,,,non
+sacquin,???,,non
 sacs,8,x,non
 sacs à à tabac de cuir,6h,,non
 sacs à café,6h,x,non
@@ -15587,20 +15517,20 @@ sacs à poudre neufs,6h,,non
 sacs ayant servi et de toile,6h,x,non
 sacs de lin,6d,x,non
 sacs de peau d'ours,6h,,non
-sacs de poluard,,,non
+sacs de poluard,6h,,non
 sacs de toile,6h,x,non
 sacs de toile et vides,6h,x,oui
 sacs de toile et vieux,6h,x,oui
 sacs de toile vides,6h,,non
 sacs de toile vieux,6h,x,non
-sacs en toile de chanvre,,,non
-sacs gros,,,non
-sacs vides,,,non
-sacs vieux,,,non
+sacs en toile de chanvre,6h,,non
+sacs gros,6h,,non
+sacs vides,6h,,non
+sacs vieux,6h,,non
 saffle,5,x,non
 saffranum,0a,x,oui
-saffreau,,,non
-safisaigne,,,non
+saffreau,???,,non
+safisaigne,???,,non
 safran,0a,x,non
 safran d'Espagne,0a,,non
 safran d'Espgne,0a,x,oui
@@ -15609,70 +15539,66 @@ safran du Gâtinais,0a,x,non
 safran orange,0a,x,non
 safranum,0a,x,non
 safranum et tournesol,0a,x,non
-sagapemun,,,non
-sagapenum,,,non
-sagapin,,,non
-sagati,,,non
+sagapenum,5,,non
+sagati,6e,,non
 sagati de laine,6e,x,non
 sagne,2,x,non
 sagon,???,x,non
 sagou,2,x,non
 sagou des Indes,2,x,non
-saigne,,,non
-sailphre,,,non
+saigne,???,,non
+sailphre,???,,non
 sain,9a,x,non
 saindoux,4,x,non
 saisie de fer,???,x,non
 salage,???,,non
-salaisons,,,non
-salamouris,???,x,non
+salaisons,0a,,non
+salamouris,8,x,non
 salemporis,6g,x,non
-salemporis blanc,,,non
-salemporis blanc et bleu,,,non
-salemporis bleu,,,non
-salemporis bleu et rouge,,,non
-salemporis commun,,,non
-salep,,,non
-salicore,,,non
-salière de cristal,,,non
-salin,6b,x,non
-salins,,,non
-salins pour verrerie,,,non
+salemporis blanc,6g,,non
+salemporis blanc et bleu,6g,,non
+salemporis bleu,6g,,non
+salemporis bleu et rouge,6g,,non
+salemporis commun,6g,,non
+salep,0a,,non
+salicore,0a,,non
+salière de cristal,8,,non
+salins,6b,,non
+salins pour verrerie,2,,non
 saloir,8,x,non
 saloirs de bois,8,x,non
 salpêtre,2,x,non
-salpêtre brut,,,non
-salpêtre cru,,,non
+salpêtre brut,2,,non
+salpêtre cru,2,,non
 salpêtre des Indes,2,x,non
 salpêtre et soufre,2,x,non
-salpêtre raffiné,,,non
-salsafras,,,non
-salsaula,,,non
+salpêtre raffiné,2,,non
+salsaula,2,,non
 salsepareille,0a,x,non
 sanas,6g,x,non
-sanctuaire,,,non
+sanctuaire,8,,non
 sandale,8,x,non
-sandance,,,non
+sandance,???,,non
 sandarac,5,x,non
 sang,2,x,non
-sang de bétail,,,non
-sang de bouc,,,non
-sang de bouc desséché,,,non
+sang de bétail,2,,non
+sang de bouc,2,,non
+sang de bouc desséché,2,,non
 sang de bouquetin,2,x,non
 sang de dragon,2,x,non
 sang de dragon commun,2,x,non
-sang de dragon fin,,,non
+sang de dragon fin,2,,non
 sang dragon,2,x,non
 sang dragon fin,2,x,oui
-sangalette,,,non
+singalette,6g,,non
 sangle,9c,x,oui
 sangles,9c,,non
-sangles de chanvre,,,non
-sangles de corde,,,non
-sangles pour malets,,,non
-sanglier,,,non
+sangles de chanvre,8,,non
+sangles de corde,8,,non
+sangles pour malets,8,,non
+sanglier,0a,,non
 sangsues,0a,x,non
-sangsues et vipères,,,non
+sangsues et vipères,0a,,non
 sanguine,6k,x,non
 sanitaire,8,x,oui
 santal,2,x,non
@@ -15680,12 +15606,12 @@ santal blanc,2,x,non
 santal Blanc,2,x,non
 santal citrin,2,x,non
 santal moulu,2,x,non
-santal rouge,,,non
+santal rouge,2,,non
 santnaires,8,,non
-santuaire,,,non
+santuaire,???,,non
 sapan,2,x,non
 sapeline,???,,non
-saphirs taillés,,,non
+saphirs taillés,6k,,non
 sapien violet,???,,non
 sapin,2,x,non
 sapin à bâtir,6b,x,non
@@ -15700,11 +15626,11 @@ sapin anspects,6b,x,non
 sapin comble,6b,x,non
 sapin en bloc,6b,x,non
 sapin petit,2,x,non
-saquins,,,non
-sarcelé,,,non
-sarcelles,,,non
-sardi de laine,,,non
-sardinals,,,non
+saquins,???,,non
+sarcelé,???,,non
+sarcelles,0a,,non
+sardi de laine,6e,,non
+sardinals,???,,non
 sardine,0a,,non
 sardines,0a,x,non
 sardines à l'huile,0a,x,non
@@ -15712,64 +15638,64 @@ sardines apprêtées,0a,x,non
 sardines confites,0a,x,non
 sardines confites au vinaigre,0a,x,non
 sardines confites dans l'huile,0a,x,non
-sardines en saumure,,,non
+sardines en saumure,0a,,non
 sardines fraîches,0a,x,non
 sardines marinées et salées,0a,x,non
 sardines pressées,0a,x,non
 sardines pressées et salé,0a,x,oui
 sardines pressées et salées,0a,,non
 sardines salées,0a,x,non
-sareaux de toile,,,non
-sarge,6i,x,non
-sarge de Poitou,6i,,non
-sarge de poitou,6i,x,oui
-sarge de Saint-Maixant,6i,,non
-sarge de Saint-Mexant,6i,x,oui
-sarge de soie,6f,x,non
-sarge du Languedoc,,,non
-sargette,,,non
-sargette fine,,,non
-sargue,,,non
-sargue de fil et de laine,6i,x,non
+sareaux de toile,8,,non
+serge,6i,x,non
+serge de Poitou,6i,,non
+serge de Poitou,6i,x,oui
+serge de Saint-Maixant,6i,,non
+serge de Saint-Mexant,6i,x,oui
+serge de soie,6f,x,non
+serge du Languedoc,6i,,non
+sergette,6i,,non
+sergette fine,6i,,non
+serge,6i,,non
+serge de fil et de laine,6i,x,non
 sarions d'Eparts,???,x,non
-sarrions d'espars,,,non
+sarrions d'espars,7,,non
 sassafras,2,x,non
 sasses,6j,,non
-satin,6f,x,non
-satin broché,,,non
-satin broché en or,,,non
-satin brodé en or,6f,x,non
-satin de Chine,6f,x,non
-satin de Florence,,,non
-satin de Florence et de Gênes,6f,x,non
+satin,6i,x,non
+satin broché,6i,,non
+satin broché en or,6i,,non
+satin brodé en or,6i,x,non
+satin de Chine,6i,x,non
+satin de Florence,6i,,non
+satin de Florence et de Gênes,6i,x,non
 satin de laine,6e,x,non
 satin de laine de Roubaix,6e,x,non
 satin de laine et serge,6i,,non
 satin de laine turc,6e,x,non
 satin de laine turc et serge,6e,x,non
-satin de retour,6f,x,oui
-satin de retour faute de vente,,,non
+satin de retour,6i,x,oui
+satin de retour faute de vente,6i,,non
 satin de soie,6f,x,non
 satin et serge,6i,x,oui
-satin gris,6f,x,non
-satin soie en fil,,,non
-satin soie et coton,,,non
-satin soie et fil,,,non
-satin turc,,,non
-satin uni,,,non
-satin uni et rayé,6f,x,non
+satin gris,6i,x,non
+satin soie en fil,6f,,non
+satin soie et coton,6f,,non
+satin soie et fil,6f,,non
+satin turc,6i,,non
+satin uni,6i,,non
+satin uni et rayé,6i,x,non
 satinade,6f,x,non
 satinette,6i,x,non
 satinette de coton,6g,x,non
 satinette de laine,6e,x,non
-satissoie,,,non
-Saturne,,,non
-saucisses,,,non
-saucisses de Boulogne,,,non
+satissoie,???,,non
+Saturne,???,,non
+saucisses,0a,,non
+saucisses de Boulogne,0a,,non
 saucissons,0a,x,non
 saucissons salées,0a,x,oui
 saucissons salés,0a,,non
-saude,,,non
+saude,???,,non
 sauge,2,x,non
 saule de fer,???,x,non
 saulx,9b,x,non
@@ -15787,28 +15713,28 @@ saumon salé,0a,x,non
 saumon salé et mariné,0a,,non
 saumon salé et séché,0a,,non
 saumon séché,0a,x,oui
-saumonée,,,non
+saumonée,0a,,non
 saumure,2,x,non
 saumure salée,0a,x,non
-sauphas,,,non
-saur,,,non
-sauvagines,,,non
-savine,,,non
+sauphas,???,,non
+saur,???,,non
+sauvagines,0a,,non
+savine,???,,non
 savon,5,x,non
 savon blanc,5,x,non
 savon blanc et marbré,5,x,non
-savon blanc noir rouge marbré,,,non
+savon blanc noir rouge marbré,5,,non
 savon d'Alicante,5,x,non
-savon d'Espagne,,,non
+savon d'Espagne,5,,non
 savon de Gênes,5,x,non
 savon de Marseille,5,x,non
 savon de retour,5,x,non
-savon de terre,,,non
+savon de terre,5,,non
 savon et pruneaux,9b,x,non
 savon et sucre,9b,x,non
-savon et verdet,,,non
+savon et verdet,9b,,non
 savon et vert-de-gris,5,x,oui
-savon gras,,,non
+savon gras,5,,non
 savon madré,5,x,non
 savon marbré,5,x,non
 savon mol,5,x,non
@@ -19502,6 +19428,3 @@ zinc laminé,6j,,non
 zinc pour fabriquer le laiton,6j,x,non
 zing,???,,non
 zingar,0a,,non
-noves de morue,0a,,non
-langues et noves de morue,0a,,
-noves et langues de morue des Îles,0a,,
