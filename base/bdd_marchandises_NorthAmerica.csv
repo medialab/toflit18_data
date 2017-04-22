@@ -14,6 +14,7 @@ marchandises_simplification,provenance_nord_américaine,details_provenance,obsol
 ??? fer,,,non
 ??? particulièrement en chevaux,,,non
 ???sse,,,non
+?ufs,,,non
 abassis,,,non
 abats,,,non
 abattis de morue,,,non
@@ -22,8 +23,9 @@ absinthe,,,non
 acacia,,,non
 acacia germanica,,,non
 acacia vera,,,non
-acétate d'étain,,,non
-acétate de fer,,,non
+acétate d'étain,,,oui
+acétate de fer,,,oui
+acétates d'étain,,,non
 acétates de fer,,,non
 acétates de plomb,,,non
 acétates de plomb sel de Saturne,,,non
@@ -38,11 +40,16 @@ acide borique et benzoïque,,,non
 acide citrique,,,non
 acide citrique et muriatique et phosphorique,,,non
 acide citrique et oxalique et tartrique,,,non
-acide de potasse crème de tartre et tartrate,,,non
-acide de potasse lie de vin desséché et liquide et tartrate,,,non
-acide de potasse lie de vin desséchée et tartrate,,,non
-acide de potasse lie de vin liquide et tartrate,,,non
-acide de potasse tartre brut impur et tartrate,,,non
+acide de potasse crème de tartre,,,non
+acide de potasse crème de tartre et tartrate,,,oui
+acide de potasse lie de vin desséché et liquide,,,non
+acide de potasse lie de vin desséché et liquide et tartrate,,,oui
+acide de potasse lie de vin desséchée,,,non
+acide de potasse lie de vin desséchée et tartrate,,,oui
+acide de potasse lie de vin liquide,,,non
+acide de potasse lie de vin liquide et tartrate,,,oui
+acide de potasse tartre brut impur,,,non
+acide de potasse tartre brut impur et tartrate,,,oui
 acide muriatique,,,non
 acide muriatique et nitrique et phosphorique,,,non
 acide muriatique et nitro-muriatique,,,non
@@ -55,7 +62,8 @@ acide vitriolique,,,non
 acide vitriolique et huile de vitriol,,,non
 acide vitrioliques et huile de vitriol,,,oui
 acier,,,non
-acier battu forgé ou laminé et fer carbonaté,,,non
+acier battu forgé ou laminé,,,non
+acier battu forgé ou laminé et fer carbonaté,,,oui
 acier brun,,,non
 acier brut,,,non
 acier commun,,,non
@@ -63,7 +71,8 @@ acier en barres,,,non
 acier et clous,,,non
 acier et fer,,,non
 acier fondu en carreaux ou en tôle,,,non
-acier fondu forgé et fer carbonaté,,,non
+acier fondu forgé,,,non
+acier fondu forgé et fer carbonaté,,,oui
 acier forgé,,,non
 acons,,,non
 acons démontés,,,non
@@ -111,6 +120,8 @@ agrément de soie,,,non
 agrément de soie et d'argent,,,non
 agrément de soie et fil,,,oui
 agrément de soie or et argent faux,,,non
+agréments de soie et milleret,,,non
+agréments et milleret,,,non
 agrès,,,non
 agrès apparaux de navire et embarcations,,,non
 agrès apparaux et embarcations,,,non
@@ -173,6 +184,7 @@ albâtre brut,,,non
 albâtre et marbre brut et poli,,,non
 albâtre moulé poli ou sculpté,,,non
 alcalis autre que natron et soude,,,non
+alcalis salin,,,non
 alènes,,,non
 alibanies,,,non
 alizari,,,non
@@ -220,9 +232,12 @@ alquifoux mine de plomb ou graphite,,,non
 alquifoux ou mine de plomb,,,non
 alquifoux sable plombifère,,,non
 alquitra,,,non
-alto basses chapeaux chinois clarinettes cors cymbales fifres et flageolets flûtes guitares haut-bois serinettes serpent tambours trompettes et violons basses,,,non
-alto basses contrebasses guitares lyres violes violons,,,non
-alto bassons guitares violons,,,non
+alto basses chapeaux chinois clarinettes cors cymbales fifres et flageolets flûtes guitare haut-bois serinettes serpent tambours trompettes et violons basses,,,non
+alto basses chapeaux chinois clarinettes cors cymbales fifres et flageolets flûtes guitares haut-bois serinettes serpent tambours trompettes et violons basses,,,oui
+alto basses contrebasses guitare lyres violes violons,,,non
+alto basses contrebasses guitares lyres violes violons,,,oui
+alto bassons guitare violons,,,non
+alto bassons guitares violons,,,oui
 aluchiabanis,,,non
 alun,Hors Amérique du Nord,,non
 alun autre que brûlé ou calciné,,,non
@@ -274,7 +289,7 @@ ambre carabé,,,non
 ambre carabé jaune,,,non
 ambre et corail,,,non
 ambre gris,,,non
-ambre gris castoréum civette musc,,,non
+ambre gris castoréum civette musc,,,oui
 ambre jaune,Hors Amérique du Nord,,non
 ambre moulu,,,non
 amer,,,non
@@ -552,6 +567,7 @@ auges de carreaux,,,non
 augustins,,,non
 aurcsats,,,non
 aurcsats étoile,,,non
+aussière,,,non
 autel de marbre,,,non
 avelanèdes,,,non
 avelines,,,non
@@ -567,6 +583,7 @@ avirons de 5 pieds,,,non
 avirons de 8 à 12 pieds,,,non
 avirons de bois,,,non
 avirons de bois façonné,,,non
+avirons et perches de bois,,,non
 avirons et rames bruts,,,non
 avirons et rames de bois,,,non
 avirons et rames de bois façonné,,,non
@@ -740,7 +757,7 @@ barbançons de grès,,,non
 barbançons de terre,,,non
 barbe de baleine,Hors Amérique du Nord,,non
 barbotine,,,non
-barbotines,,,non
+barbotines,,,oui
 barbues,,,non
 barbues couvertes d'étamine,,,non
 barbues de grès,,,non
@@ -1218,10 +1235,11 @@ biseaux,,,non
 bismuth,,,non
 bitume,,,non
 bitume de Judée,,,non
+bitume et ambre jaune,,,non
 bitume et bitume de Judée,,,non
 bitume et houille brute,,,non
 bitume et houille coak,,,non
-bitume et succin,,,non
+bitume et succin,,,oui
 blagues,,,non
 blagues de cuir,,,non
 blallst,,,non
@@ -1274,6 +1292,7 @@ bleu foncé,,,non
 bleu ordinaire,,,non
 bleu ou tournesol,,,non
 Blicourt écarlate,,,non
+bloc de 30 pieds,,,non
 blocs,,,non
 blocs de cuivre jaune,,,non
 blocs de jonc,,,oui
@@ -1483,7 +1502,7 @@ bois de fustet,,,non
 bois de fustet moulu,,,non
 bois de fustet pour teinture,,,non
 bois de gabarit,,,non
-bois de gaiac,Hors Amérique du Nord,tropiques,non
+bois de gaiac,Hors Amérique du Nord,tropiques,oui
 bois de gaïac,,,non
 bois de gaïac des entrepôts,,,non
 bois de gaiac en bûches,,,oui
@@ -1547,11 +1566,14 @@ bois de Sainte-Marthe moulu,,,non
 bois de Sainte-Marthe pour teinture,,,non
 bois de santal,Hors Amérique du Nord,Indes et îles du pacifiques,non
 bois de santal ???,,,non
+bois de santal blanc,,,non
 bois de santal cetrin,,,non
+bois de santal citrin,,,non
 bois de santal en bûches,,,non
 bois de santal moulu,,,non
 bois de santal mouton,,,non
 bois de santal pour teinture,,,non
+bois de santal rouge,,,non
 bois de sap,Peut être Amérique du Nord,,non
 bois de sapin,,,non
 bois de sapin de 2 à 3 pieds,,,non
@@ -1949,9 +1971,9 @@ boucaud en bottes,,,non
 boucaud vide,,,non
 bouchie,,,non
 bouchons,,,non
-bouchons de liège,,,non
-bouchons de liège et planches de liège,,,non
-bouchons de Liège etc.,,,non
+bouchons de liège,,,oui
+bouchons de liège et planches de liège,,,oui
+bouchons de Liège etc.,,,oui
 boucles,,,non
 boucles d'acier,,,non
 boucles d'argent,,,non
@@ -1992,7 +2014,7 @@ boulange,,,non
 boulans,,,non
 boules,,,non
 boules d'acier,,,non
-boules de bleu inde-plate indique,,,non
+boules de bleu inde-plate indique,,,oui
 boules de bois,,,non
 boules de buis,,,non
 boules de canons,,,non
@@ -2027,8 +2049,8 @@ bouras,,,non
 bouras de coton,,,non
 bouras de soie,,,non
 bouras du Levant,,,non
-bourde à bâtier,,,non
-bourde à cheveux,,,non
+bourde à bâtier,,,oui
+bourde à cheveux,,,oui
 bourdilles,Hors Amérique du Nord,,non
 bourdilles à barriques,,,non
 bourdillons,,,non
@@ -2044,7 +2066,8 @@ bourre à bourrer,,,non
 bourre à cheveux,,,non
 bourre chiquette,,,non
 bourre d'Alep,,,non
-bourre d'étoupe,,,non
+bourre d'étoupe,,,oui
+bourre d'étoupes,,,non
 bourre de bœuf,,,non
 bourre de bœuf et bourre de vache,,,non
 bourre de cerf,,,non
@@ -2058,6 +2081,7 @@ bourre de drap,,,non
 bourre de fil,,,non
 bourre de filoselle,,,non
 bourre de laine,,,non
+bourre de laine entière lanice et tontice,,,non
 bourre de Marseille,,,non
 bourre de Nîmes,,,non
 bourre de soie,,,non
@@ -2066,7 +2090,7 @@ bourre de vache,,,non
 bourre du Levant,,,non
 bourre rouge,,,non
 bourre satiné,,,non
-bourres de laine entière lanice et tontice,,,non
+bourres de laine entière lanice et tontice,,,oui
 bourriques,,,non
 bours de poil,,,non
 bours de soie,,,non
@@ -2235,13 +2259,14 @@ brai ??? goudron résines,,,non
 brai ??? pox noire,,,non
 brai à brasser,,,non
 brai arcanson,,,non
-brai colophane et sec et résine d'huile,,,non
+brai colophane et sec et résine d'huile,,,oui
+brai colophane et sec et résines d'huile,,,non
 brai de goudron,,,non
 brai de poix,,,non
 brai de poix blanche et noire,,,non
 brai de poix noire,,,non
-brai de poix résine,,,non
-brai de poix résines,,,oui
+brai de poix résine,,,oui
+brai de poix résines,,,non
 brai eau de raze,,,non
 brai et eau de rose,,,non
 brai et goudron,,,non
@@ -2255,8 +2280,9 @@ brai et poix,,,non
 brai et poix blanche,,,non
 brai et poix blanche et poix noire,,,non
 brai et poix noire,,,non
-brai et poix résine,,,non
-brai et résine,,,non
+brai et poix résine,,,oui
+brai et poix résines,,,non
+brai et résine,,,oui
 brai et résines,,,non
 brai et térébenthine,,,non
 brai galipot,,,non
@@ -2272,10 +2298,12 @@ brai poix noire,,,non
 brai raffiné,,,non
 brai raze,,,non
 brai sec,Hors Amérique du Nord,,non
-brai sec colophane résine d'huile,,,non
+brai sec colophane résine d'huile,,,oui
+brai sec colophane résines d'huile,,,non
 brai sec en galipot,,,non
 brai sec et résines,,,non
-brai sec résine d'huile,,,non
+brai sec résine d'huile,,,oui
+brai sec résines d'huile,,,non
 brancards,,,non
 brancards de balance de fer,,,non
 brancards de chaises,,,non
@@ -2551,7 +2579,7 @@ calebasses vides,,,non
 calèches,,,non
 caleçons,,,non
 calenderis,,,non
-caliatour moulu,,,non
+caliatour moulu,,,oui
 calice d'argent,,,non
 calicot,,,non
 calicot et toile de coton blancs et écrus,,,non
@@ -2576,7 +2604,7 @@ calotte hollandaise,,,non
 calpo baljainum,,,non
 cambaye,,,non
 cambouis,,,non
-Cambrai,,,non
+Cambrai,,,oui
 camelot,,,non
 camelot à mi-soie,,,non
 camelot à peu de soie,,,non
@@ -2624,7 +2652,8 @@ camion à garnir voiture,,,non
 camisoles,,,non
 camisoles de laine,,,non
 camisoles et redingotes,,,non
-camisoles pour nègres,,,non
+camisoles pour nègre,,,non
+camisoles pour nègres,,,oui
 camomille,,,non
 Campêche,,,non
 camphre,Hors Amérique du Nord,,non
@@ -2818,7 +2847,7 @@ carbonate de plomb très pur,,,non
 carcajou,,,non
 carcasse,,,non
 carcasse à peu de soie,,,non
-carcasses et parapluies,,,non
+carcasses et parapluies,,,oui
 cardamome,,,non
 cardes,,,non
 cardes à carder,,,non
@@ -2950,8 +2979,12 @@ casaques de peau,,,non
 casaques et camisoles,,,non
 casaques pour matelot,,,non
 cascarilles,,,non
+casimir,,,non
 casimir de laine,,,non
 casimir de laine et mérinos,,,non
+casimir et mérinos fin de laine,,,non
+casimir fin de laine,,,non
+casimirs et mérinos de laine,,,non
 casques,,,non
 casques à nègre,,,non
 casques et cuirasses,,,non
@@ -2979,8 +3012,9 @@ castor blanc,,,non
 castor gras,Exclusivement Amérique du Nord,,non
 castor sec,Exclusivement Amérique du Nord,,non
 castoreum,,,non
-castoréum civette musc,,,non
-castoreune du ???,,,non
+castoréum civette musc,,,oui
+castoreum du ???,,,non
+castoreune du ???,,,oui
 castus doux,,,non
 catadarits,,,non
 Catalogne de laine,,,non
@@ -3126,9 +3160,11 @@ cendre polasse,,,oui
 cendre poreuse,,,non
 cendre potasse et védasse et gravelée,,,oui
 cendre pour manufactures,,,non
+cendre pour nettoyer les pots,,,non
 cendre pour verrerie,,,non
 cendre salicor,,,non
-cendre salins,,,non
+cendre saline,,,non
+cendre salins,,,oui
 cendre soudes,,,oui
 cendre soudes d'Égypte ou Natrum,,,non
 cendre soudes et natron et salin,,,oui
@@ -3136,8 +3172,8 @@ cendre soudes et potasse,,,oui
 cendre tourbe,,,oui
 cendre verte,,,non
 censes de bâtiments,,,non
-censes de bois,,,non
-censes pour nettoyer les pots,,,non
+censes de bois,,,oui
+censes pour nettoyer les pots,,,oui
 cercles,,,non
 cercles à barils,,,non
 cercles à barriques,,,non
@@ -3174,7 +3210,7 @@ cercles de fer et feuillardes de fer,,,non
 cercles de fers,,,non
 cercles de feuillards,,,non
 cercles de jonc,,,non
-cercles de tamis,,,non
+cercles de tamis,,,oui
 cercles ocloir,,,non
 cercles pour barriques de bois,,,non
 cercles pour bobillons de bois,,,oui
@@ -3185,7 +3221,8 @@ céruse,,,non
 céruse et blanc de plomb,,,non
 cervelas,,,non
 cervelas salées et cuisses d'oie salées et langues salèes,,,non
-cevadille,,,non
+cevadille,,,oui
+cévadille,,,non
 chaconas,,,non
 chades,,,non
 chafarcany,,,non
@@ -3258,12 +3295,13 @@ châles de laine,,,non
 châles de laine brochés et façonnés,,,non
 châles de laine et de poil,,,non
 châles de percale de coton imprimée,,,non
+châles des Indes,,,non
 châles et mouchoirs,,,non
 châles et mouchoirs de coton,,,non
 châles et mouchoirs de laine,,,non
 châles et mouchoirs de soie,,,non
 châles et mouchoirs de soie façonnée pure et unie,,,non
-challe des Indes,,,non
+challe des Indes,,,oui
 Châlons,,,non
 Châlons aune,,,oui
 Châlons blancs,,,non
@@ -3655,8 +3693,8 @@ chevillères de fil,,,non
 chevreaux,,,non
 chevreaux à moyen prix,,,non
 chèvres,,,non
-chèvres boucs,,,non
-chèvres et boucs,,,non
+chèvres boucs,,,oui
+chèvres et boucs,,,oui
 chevreuil,,,non
 chevreuil en chamois et peaux de cerf,,,non
 chevrons,,,non
@@ -3706,6 +3744,7 @@ chiens,,,non
 chiens courants de chasse,,,non
 chiens de chasse,,,non
 chiffons,,,non
+chiffons vieux,,,non
 chilas,,,non
 chima calin,,,non
 chine,,,non
@@ -3746,7 +3785,7 @@ chuquelas,,,non
 cidre,,,non
 cidre jaune,,,non
 cidre poiré et verjus,,,non
-cierge,,,non
+cierge,,,oui
 cierges,,,non
 cierges de cire blanche,,,non
 cierges de cire et bougie de cire,,,non
@@ -3820,18 +3859,21 @@ citrons et orange,Hors Amérique du Nord,,non
 citrons et orange frais,Hors Amérique du Nord,,non
 citrons et oranges frais,,,oui
 citrons frais,,,non
-citrons frais et orange fraîche et amande sèches et figues sèches et raisin sec,,,non
+citrons frais et orange fraîche et amande sèches et figue sèches et raisin sec,,,non
+citrons frais et orange fraîche et amande sèches et figues sèches et raisin sec,,,oui
 citrons orange et leurs variétés,,,non
 citrons vert,,,non
 citrouilles,,,non
 civadille,,,non
 civette,,,non
+clafou,,,non
 clafou de bois,,,non
 clafou de bois ou merrains de bois,,,non
+clafou en blocs,,,non
 clairons,,,non
 clairons etc.,,,non
-claphout,,,non
-claphout en blocs,,,non
+claphout,,,oui
+claphout en blocs,,,oui
 clappes ou douves à barils,,,non
 clappes ou douves à barils de sapin,,,non
 clarifiant,,,non
@@ -3906,15 +3948,16 @@ cochon de lait au-dessous de 3 mois,,,non
 cochon petit,,,non
 cochon salé,,,non
 cochon salé et petit salé,,,non
-cochons de lait,,,non
+cochons de lait,,,oui
 coclearia,,,non
-coco des Indes,,,non
+coco des Indes,,,oui
 cocoa,,,non
 cocons,,,non
 cocons de soie,,,non
 cocons de vers à soie,,,non
 cocos,Hors Amérique du Nord,antilles,non
 cocos caroubes frais,,,non
+cocos des Indes,,,non
 cocos du Levant,,,non
 cocos petits,,,non
 cocos verts,Hors Amérique du Nord,antilles,non
@@ -3961,6 +4004,7 @@ coiffures pour femme,,,non
 coignées de bois,,,non
 coins fruit,,,non
 coïtif,,,non
+çoka,,,non
 colins,,,non
 colle,Hors Amérique du Nord,,non
 colle à papetier,,,non
@@ -4045,7 +4089,8 @@ congres,,,non
 connaissement,,,non
 conserve d'alkermès,,,non
 conserve de rose,,,non
-conserves de fleurs d'orange,,,non
+conserves de fleurs d'orange,,,oui
+conserves de fleurs d'oranger,,,non
 conterie,,,non
 conton filé,,,oui
 contra yerba,Hors Amérique du Nord,,non
@@ -4055,7 +4100,8 @@ contrebordé,,,non
 contrebrodé,,,non
 contrefoyer de fer,,,non
 conty,,,non
-copal,,,non
+copal,,,oui
+copale,,,non
 copeaux pour fourreaux d'épée,,,non
 coqs,,,non
 coqs d'Inde,,,non
@@ -4211,7 +4257,8 @@ cordouans en bazans,,,oui
 coriandre,,,non
 coriandre et noix,,,non
 coriandre et riz,,,non
-Corinthe,,,non
+Corinthe,,,oui
+corinthes,,,non
 cornalines,,,non
 cornalines fines,,,non
 cornalines montées en or,,,non
@@ -4236,9 +4283,9 @@ cornes de cerf dupié,,,non
 cornes de cerf en morceaux,,,non
 cornes de cerf et de snack,,,non
 cornes de cerf et de snack en morceaux,,,non
-cornes de cerf et de snack en râpure,,,non
-cornes de cerf râpées,,,non
-cornes de cerf râpure,,,non
+cornes de cerf et de snack en râpure,,,oui
+cornes de cerf râpées,,,oui
+cornes de cerf râpure,,,oui
 cornes de lanternes,,,non
 cornes de licorne,,,non
 cornes de mouton,,,non
@@ -4255,12 +4302,12 @@ cornichons confits,,,non
 cornichons confits au vinaigre,,,non
 coroas,,,non
 corode,,,non
-coroos,,,non
-coroot,,,non
-coroots,,,non
-coros,,,non
-corots,,,non
-corou,,,non
+coroos,,,oui
+coroot,,,oui
+coroots,,,oui
+coros,,,oui
+corots,,,oui
+corou,,,oui
 corps d'arbre,,,non
 corps d'arbre bruts,,,non
 corps d'arbre de 20 à 30 pieds,,,non
@@ -4278,11 +4325,12 @@ cors serinettes serpent trompettes,,,non
 cors serinettes trombones trompettes,,,non
 corsane,,,non
 corset,,,non
-corset brodés de soie,,,non
+corset brodés de soie,,,oui
 corset de demitte,,,non
 corset de toile,,,non
 corsets,,,oui
 corsets baleinés,,,non
+corsets brodés en soie,,,non
 corsets de demitte,,,oui
 corsets de toile,,,oui
 corty,,,non
@@ -4349,8 +4397,10 @@ coton longue soie,,,non
 coton longue soie des entrepôts,,,non
 coton par Dunkerque,,,non
 coton rouge,,,non
-coton sitz et mousseline,,,non
-coton sitz et mousseline en balles,,,non
+coton sitz et mousseline,,,oui
+coton sitz et mousseline en balles,,,oui
+coton sitz et mousselines,,,non
+coton sitz et mousselines en balles,,,non
 coton soufré,,,non
 coton teint,,,non
 cotonelle de coton,,,non
@@ -4382,7 +4432,7 @@ couffins de palme petits,,,non
 couffins petits,,,non
 coulements de terre,,,non
 coules de fer,,,non
-couleur rouge,,,non
+couleur rouge,,,oui
 couleurs,,,non
 couleurs à peindre,,,non
 couleurs autrement préparées,,,non
@@ -4392,6 +4442,7 @@ couleurs et teinture fabriquées,,,non
 couleurs et teinture préparées,,,non
 couleurs préparées,,,non
 couleurs préparées à l'huile,,,non
+couleurs rouges,,,non
 couperon,,,non
 couperon verte,,,non
 couperose,,,non
@@ -4433,7 +4484,8 @@ couteaux à hacher la paille,,,non
 couteaux à indigo,,,non
 couteaux à manches de bois,,,non
 couteaux à manches de faïence,,,non
-couteaux à manches de gaiac,,,non
+couteaux à manches de gaiac,,,oui
+couteaux à manches de gaïac,,,non
 couteaux à manches de porcelaine,,,non
 couteaux à nègre,,,non
 couteaux à tanneurs,,,non
@@ -4461,20 +4513,24 @@ coutil de fil,,,non
 coutil de Hollande,,,non
 couvercles de fer,,,non
 couvercles de fer de marmites,,,non
-couvertes d'étoupe,,,non
+couvertes d'étoupe,,,oui
+couvertes d'étoupes,,,non
+couvertes d'étoupes de laine,,,non
 couvertes de laine,,,non
 couvertes de lisières,,,non
-couvertes de locques,,,non
+couvertes de locques,,,oui
+couvertes de loques,,,non
 couvertes pour mulets,,,non
-couverture de fil,,,non
-couverture du Levant,,,non
+couverture de fil,,,oui
+couverture du Levant,,,oui
 couvertures,,,non
 couvertures à nègre,,,non
 couvertures communes,,,non
 couvertures communes de laine,,,non
 couvertures d'Elbeuf,,,non
-couvertures d'étoupe,,,non
-couvertures d'étoupe de laine,,,non
+couvertures d'étoupe,,,oui
+couvertures d'étoupe de laine,,,oui
+couvertures d'étoupes,,,non
 couvertures d'indienne,,,non
 couvertures de B ???,,,non
 couvertures de Bazal,,,non
@@ -4487,6 +4543,7 @@ couvertures de coton de lit,,,non
 couvertures de coton et de fil,,,non
 couvertures de coton et de soie,,,non
 couvertures de crin,,,non
+couvertures de fil,,,non
 couvertures de filoselle,,,non
 couvertures de fleur,,,non
 couvertures de fleuret,,,non
@@ -4507,6 +4564,7 @@ couvertures de soie,,,non
 couvertures dites pagnes,,,non
 couvertures draps et étoffe de laine,,,non
 couvertures du Béarn,,,non
+couvertures du Levant,,,non
 couvertures et tapis de coton,,,non
 couvertures et tapis de fleuret,,,non
 couvertures et tapis de poil,,,non
@@ -4568,7 +4626,7 @@ crayons noirs,,,non
 crayons simples de pierre,,,non
 crème,,,non
 crème de tartre,,,non
-crême de tartre,,,non
+crême de tartre,,,oui
 crêpe,,,non
 crêpe de laine,,,non
 crêpe de laine aune,,,non
@@ -4582,7 +4640,7 @@ crêpe et étoffe et passementerie et ruban de soie,Hors Amérique du Nord,,non
 crêpe et gaze et mouchoirs,,,non
 crêpe et gaze et tulle,,,non
 crêpe et gaze et tulle de soie,,,non
-crêpe gaze et tulle de soie,,,non
+crêpe gaze et tulle de soie,,,oui
 crêpe noir,,,non
 crêpe pour chapeaux,,,non
 crépine de soie,,,non
@@ -4673,7 +4731,7 @@ cuillères de laiton,,,non
 cuillères et fourchettes de cuivre argenté,,,non
 cuilles de bois,,,non
 cuir de bœufs en poil,,,oui
-cuir de cheval tanné,,,non
+cuir de cheval tanné,,,oui
 cuirasses,,,non
 cuireaux de mouton à faire colle,,,non
 cuirs,,,non
@@ -4708,7 +4766,8 @@ cuirs de bœuf corroyés,,,non
 cuirs de bœuf d'Illinois,,,non
 cuirs de bœuf de Russie,,,non
 cuirs de bœuf en poil,,,non
-cuirs de bœuf en poil et cuir de vache en poil,,,non
+cuirs de bœuf en poil et cuir de vache en poil,,,oui
+cuirs de bœuf en poil et cuirs de vache en poil,,,non
 cuirs de bœuf en poil et secs,,,non
 cuirs de bœuf en poil tannés,,,non
 cuirs de bœuf en poil têtes,,,non
@@ -4727,6 +4786,7 @@ cuirs de buffletin,,,non
 cuirs de cerf en poil,,,non
 cuirs de cheval,,,non
 cuirs de cheval en poil,,,non
+cuirs de cheval tanné,,,non
 cuirs de cheval tannés,,,non
 cuirs de chevreau,,,non
 cuirs de fer et en poil,Hors Amérique du Nord,,non
@@ -4931,6 +4991,7 @@ curiosité naturelle,,,non
 curlas,,,non
 curous,,,non
 curtas,,,non
+curucma moulu,,,non
 cuscutes luzerne,,,non
 custar,,,non
 custas,,,non
@@ -5017,11 +5078,12 @@ degras de peau,,,oui
 dégras de peau,Hors Amérique du Nord,,non
 déjeuner de vermeil,,,non
 delimineas,,,non
-demi Guinée bleue,,,non
+demi guinée bleue,,,non
+demi Guinée bleue,,,oui
 demi-barriques cerclées de fer,,,non
 demi-cuirs de bœuf tannés,,,non
 demi-planchs,,,oui
-Demi-planchs,,,non
+Demi-planchs,,,oui
 demitte,,,non
 demoiselle,,,non
 demoiselle de sapin,,,non
@@ -5163,8 +5225,10 @@ dominoterie,,,non
 dominoterie en images,,,non
 dominoterie et cartes géographiques,,,non
 doraze,,,non
-doreas,,,non
-doreas de Zurich,,,non
+doreas,,,oui
+doréas,,,non
+doreas de Zurich,,,oui
+doréas de Zurich,,,non
 dorpins en pierre,,,non
 dorure,,,non
 dorure en galon fine,,,non
@@ -5178,7 +5242,8 @@ dorure fine,,,non
 dorure fine en galon d'or,,,non
 dorure fine sur soie,,,non
 dos gorges et ventres de fouines martes et renard,,,non
-dos gorges et ventres de petit-gris,,,non
+dos gorges et ventres de petit gris,,,non
+dos gorges et ventres de petit-gris,,,oui
 dospin en pierre,,,non
 dossiers de chaises,,,non
 doublage de bois de pin,,,non
@@ -5215,8 +5280,8 @@ douvelles de sapin,,,non
 douves,,,non
 douves à tonneaux,,,non
 douves de deux pouces,,,non
-drache,Hors Amérique du Nord,,non
-drache de bière,,,non
+drache,Hors Amérique du Nord,,oui
+drache de bière,,,oui
 dracodium,,,non
 dragée,,,non
 dragée de Keyser,,,non
@@ -5256,9 +5321,9 @@ drap bure,,,non
 drap cad ???,,,non
 drap calimouk de Sedan 20 lignes,,,non
 drap calimouk de Sedan 350 lignes,,,non
-drap callemande,,,non
+drap callemande,,,oui
 drap cammise,,,non
-drap casimir,,,non
+drap casimir,,,oui
 drap commun,,,non
 drap cordeillat,,,non
 drap cordeillat de Colmar,,,non
@@ -5380,8 +5445,8 @@ drap de Louviers,,,non
 drap de Louviers au sixième de soie,,,non
 drap de Louvres,,,non
 drap de Lyon,,,non
-drap de Maroc,,,non
-drap de Maroc teint de douzaine,,,non
+drap de Maroc,,,oui
+drap de Maroc teint de douzaine,,,oui
 drap de montagne,,,non
 drap de Montauban,,,non
 drap de Montauban petite,,,non
@@ -5435,7 +5500,7 @@ drap du Berry,,,non
 drap du Dauphiné,,,non
 drap du Languedoc,,,non
 drap du Languedoc de velours,,,non
-drap du Maroc aune,,,non
+drap du Maroc aune,,,oui
 drap du Nord,,,non
 drap du Nord teint,,,non
 drap du Poitou,,,non
@@ -5464,12 +5529,12 @@ drap gros de laine,,,non
 drap grossier,,,non
 drap iada,,,non
 drap imprimé,,,non
-drap julienne,,,non
+drap julienne,,,oui
 drap kalmouk,,,non
 drap layette,,,non
 drap londrin,,,non
 drap londrin petit,,,non
-drap Maroc petit,,,non
+drap Maroc petit,,,oui
 drap matine petit,,,oui
 drap molleton,,,non
 drap motton,,,non
@@ -5490,12 +5555,12 @@ drap petit de mains,,,non
 drap petit de Sedan,,,non
 drap petit de Silésie,,,non
 drap petit dit raz Maroc,,,oui
-drap petit du Maroc,,,non
-drap petit ratine,,,non
+drap petit du Maroc,,,oui
+drap petit ratine,,,oui
 drap platine,,,non
 drap pour billau,,,non
 drap pour doublures,,,non
-drap ratine,,,non
+drap ratine,,,oui
 drap rouge bariolé,,,non
 drap teint,,,non
 drap teint d'Espagne et de Hollande,,,non
@@ -5513,7 +5578,9 @@ draperie et futaine,,,non
 draps de coton,,,non
 draps de coton et velours,,,non
 draps de laine,,,non
-drèche,,,non
+drèche,,,oui
+drêche,,,non
+drêche de bière,,,non
 drilles,,,non
 drogue chimique et métallique diverse,,,non
 drogue émeri,,,oui
@@ -5644,7 +5711,8 @@ eau de composition,,,non
 eau de Cordoue,,,non
 eau de feuilles d'orange,,,non
 eau de fleurs,,,non
-eau de fleurs d'orange,Hors Amérique du Nord,,non
+eau de fleurs d'orange,Hors Amérique du Nord,,oui
+eau de fleurs d'oranger,,,non
 eau de fleurs de senteur,,,non
 eau de fleurs fortes,,,non
 eau de garance,,,non
@@ -5693,7 +5761,7 @@ eau de senteur et quintessence,,,non
 eau de senteur rose,,,non
 eau de senteur sans alcool,,,non
 eau de senteur sans alcool autre que fleurs d'oranger,,,non
-eau de senteur sans alcool de fleurs d'oranger,,,non
+eau de senteur sans alcool de fleurs d'oranger,,,oui
 eau de senteur sans pareille,,,non
 eau de Spa,,,non
 eau de tartre,,,non
@@ -5708,7 +5776,7 @@ eau distillée,,,non
 eau distillée alcoolique,,,non
 eau distillée sans alcool,,,non
 eau distillée sans alcool autres que fleurs d'oranger,,,non
-eau distillée sans alcool fleurs d'oranger,,,non
+eau distillée sans alcool fleurs d'oranger,,,oui
 eau diverse,,,non
 eau divine,,,non
 eau du Rhône,,,non
@@ -5723,7 +5791,7 @@ eau médicinale d'arquebusan,,,non
 eau médicinale de cannelle,,,non
 eau médicinale de Chypre,,,non
 eau médicinale de coclearia,,,non
-eau médicinale de fleurs d'oranger,,,non
+eau médicinale de fleurs d'oranger,,,oui
 eau médicinale de genièvre,,,non
 eau médicinale de marquette,,,non
 eau médicinale de mélisse,,,non
@@ -5741,11 +5809,12 @@ eau pour remède,,,non
 eau royale,,,non
 eau sans pareille,,,non
 eau sederale,,,non
-eau Spa,,,non
+eau Spa,,,oui
 eau spiritueuse,,,non
 eau spiritueuse et essence,,,non
 eau vulnéraire,Hors Amérique du Nord,,non
 eau-de-vie,,,non
+eau-de-vie anisette,,,non
 eau-de-vie commune,,,non
 eau-de-vie d'Espagne,,,non
 eau-de-vie d'Hendaye,,,non
@@ -5764,14 +5833,18 @@ eau-de-vie de grains autre que genièvre,,,non
 eau-de-vie de grains et simple,,,non
 eau-de-vie de lavande et simple,,,non
 eau-de-vie de Marennes,,,non
-Eau-de-vie de mélasse rhum et tafia,,,non
+eau-de-vie de mélasse rhum et tafia,,,non
+Eau-de-vie de mélasse rhum et tafia,,,oui
 eau-de-vie de Ré,,,non
 eau-de-vie de Rochefort,,,non
 eau-de-vie de vin,,,non
-Eau-de-vie de vin,,,non
-Eau-de-vie de vin au-dessus de 32 degrés,,,non
-Eau-de-vie de vin de 22 degrés à 32,,,non
-Eau-de-vie de vin de 22 degrés ou moins,,,non
+Eau-de-vie de vin,,,oui
+eau-de-vie de vin au-dessus de 32 degrés,,,non
+Eau-de-vie de vin au-dessus de 32 degrés,,,oui
+eau-de-vie de vin de 22 degrés à 32,,,non
+Eau-de-vie de vin de 22 degrés à 32,,,oui
+eau-de-vie de vin de 22 degrés ou moins,,,non
+Eau-de-vie de vin de 22 degrés ou moins,,,oui
 eau-de-vie de vin par Marseille,,,non
 eau-de-vie des prises,,,non
 eau-de-vie diverse,,,non
@@ -5791,7 +5864,7 @@ eau-de-vie simple de vin,,,non
 eau-de-vie spiritueuse,,,non
 eau-de-vie triple,,,non
 eau-forte,,,non
-eaux de vie anisette,,,non
+eaux de vie anisette,,,oui
 ébénisterie,,,non
 écaille,Hors Amérique du Nord,,non
 écaille ???,,,non
@@ -5935,10 +6008,11 @@ embarcations et voiles de navires,,,non
 émeraudes et opales taillées,,,non
 émeraudes taillés,,,non
 émeri,,,non
+émeri en pierre,,,non
 émeri en pierres,,,non
 émeri en poudre,,,non
-Émeril en pierre,,,non
-Émeril en poudre,,,non
+Émeril en pierre,,,oui
+Émeril en poudre,,,oui
 empeignes,,,non
 empeignes brodées pour souliers,,,non
 empeignes coupées pour empeignes,,,non
@@ -5973,8 +6047,9 @@ encre de la Chine,,,non
 encre de la petite vertu,,,non
 encre de nankin,,,non
 encre liquide à écrire ou à imprimer,,,non
+encre odorante,,,non
 encre rouge,,,non
-encres odorantes,,,non
+encres odorantes,,,oui
 encrin,,,non
 endives,,,non
 engrais,,,non
@@ -6012,9 +6087,9 @@ entenolles,,,non
 épicerie,Hors Amérique du Nord,,non
 épicerie commune,,,non
 épicerie douce,,,non
-épicerie feuilles et noix muscades,,,non
+épicerie feuilles et noix muscades,,,oui
 épicerie fine,,,non
-épicerie poivre en grabeau,,,non
+épicerie poivre en grabeau,,,oui
 épices,,,non
 épices préparées,,,non
 épices préparées autres que moutarde et poudre de kari,,,non
@@ -6063,11 +6138,13 @@ escortines à huile,,,non
 escortines d'espars,,,non
 escosses,,,non
 escot,,,non
+escot de bois,,,non
+escot de fer,,,non
 escot de laine,,,non
 escotins de bois,,,non
-escots,,,non
-escots de bois,,,non
-escots de fer,,,non
+escots,,,oui
+escots de bois,,,oui
+escots de fer,,,oui
 espadrilles,,,non
 espagnolette,,,non
 espagnolette à fleurs,,,non
@@ -6148,10 +6225,13 @@ esprit de corne de cerf,,,non
 esprit de coton,,,non
 esprit de feuilles d'orange,,,non
 esprit de fil,,,non
-esprit de fleurs d'orange,,,non
+esprit de fleurs d'orange,,,oui
+esprit de fleurs d'oranger,,,non
 esprit de lavande,,,non
 esprit de limon,,,non
+esprit de miroly,,,non
 esprit de myrrhe,,,non
+esprit de myrthe,,,non
 esprit de nitre,,,non
 esprit de romarin,,,non
 esprit de sel,,,non
@@ -6251,8 +6331,8 @@ esturgeons,,,oui
 étain vieux,Hors Amérique du Nord,,non
 étais en bois,,,non
 etalchasse,,,non
-étame,,,non
-étame des prises,,,non
+étame,,,oui
+étame des prises,,,oui
 etamette,,,oui
 étamette,,,non
 étamette dauphine casinettes,,,non
@@ -6381,7 +6461,8 @@ etocs de fer,,,non
 étoffe de coton et de soie éternelle,,,non
 étoffe de coton et de toile,,,non
 étoffe de coton et drap de coton et velours de coton,,,non
-étoffe de coton et drap de coton et velours de coton et couverture de coton,,,non
+étoffe de coton et drap de coton et velours de coton et couverture de coton,,,oui
+étoffe de coton et drap de coton et velours de coton et couvertures de coton,,,non
 étoffe de coton et mercerie,,,non
 étoffe de coton et pellerie,,,non
 étoffe de coton et velours commun,,,non
@@ -6431,7 +6512,7 @@ etocs de fer,,,non
 étoffe de laine blanche,,,non
 étoffe de laine brodée de dorure et de soie,,,non
 étoffe de laine cannelée,,,non
-étoffe de laine casimir,,,non
+étoffe de laine casimir,,,oui
 étoffe de laine chaleur,,,non
 étoffe de laine couterie,,,non
 étoffe de laine crêpe,,,non
@@ -6458,7 +6539,7 @@ etocs de fer,,,non
 étoffe de laine grosse,,,non
 étoffe de laine imprimée,,,non
 étoffe de laine large et serge,,,non
-étoffe de laine Maroc,,,non
+étoffe de laine Maroc,,,oui
 étoffe de laine mélangée,,,non
 étoffe de laine mêlée de soie,,,non
 étoffe de laine mêlée ou pure,,,non
@@ -6480,7 +6561,7 @@ etocs de fer,,,non
 étoffe de laine velverde,,,non
 étoffe de laine verlastine,,,non
 étoffe de laine voile noir,,,non
-étoffe de panne,,,non
+étoffe de panne,,,oui
 étoffe de peluches pour nègre,,,non
 étoffe de poil,,,non
 étoffe de poil de chameau,,,non
@@ -6490,7 +6571,7 @@ etocs de fer,,,non
 étoffe de poil et fil,,,non
 étoffe de poil et laine velours,,,non
 étoffe de poil et laine velours d'Utrecht,,,non
-étoffe de prunelle,,,non
+étoffe de prunelle,,,oui
 étoffe de riche,,,non
 étoffe de Rouen,,,non
 étoffe de soie,,,non
@@ -6562,7 +6643,8 @@ etocs de fer,,,non
 étoffe des Indes,,,non
 étoffe dite calutras de coton et de soie,,,non
 étoffe dite pauvre madame,,,non
-étoffe diverse couverture et draperie pour le gouvernement,,,non
+étoffe diverse couverture et draperie pour le gouvernement,,,oui
+étoffe diverse couvertures et draperie pour le gouvernement,,,non
 étoffe dorure,,,non
 étoffe dorure d'argent,,,non
 étoffe dorure d'argent et d'or,,,non
@@ -6574,7 +6656,7 @@ etocs de fer,,,non
 étoffe dorure fausse,,,non
 étoffe dorure fine et de soie,,,non
 étoffe droguet,,,non
-étoffe du Maroc,,,non
+étoffe du Maroc,,,oui
 étoffe en bours du Levant,,,non
 étoffe en dorure et galon et passementerie,,,non
 étoffe en or mêlée de soie,,,non
@@ -6582,9 +6664,10 @@ etocs de fer,,,non
 étoffe et galon d'argent et d'or,,,non
 étoffe et gaze et toile des Indes,,,non
 étoffe et lainages,,,non
+étoffe et ruban de soie,,,non
 étoffe et rubanerie de fleuret,,,non
 étoffe et rubannerie de fleuret,,,oui
-étoffe et rubans de soie,,,non
+étoffe et rubans de soie,,,oui
 Étoffe étamine fine,,,non
 étoffe éternelle,,,non
 étoffe éternelle de laine,,,non
@@ -6596,8 +6679,8 @@ etocs de fer,,,non
 étoffe filoselle,,,non
 étoffe filoselle de soie,,,non
 étoffe filoselle et laine,,,non
-étoffe fine de laine en casimir,,,non
-étoffe fine de laine en casimir et mérinos,,,non
+étoffe fine de laine en casimir,,,oui
+étoffe fine de laine en casimir et mérinos,,,oui
 étoffe finette,,,non
 étoffe flamande de mauvaise qualité,,,non
 étoffe fleuret,,,non
@@ -6654,13 +6737,36 @@ etocs de fer,,,non
 étoffe soierie,,,non
 étoffe taffetas,,,non
 étoffe tricot,,,oui
+étoffes brochées d'argent et d'or faux de soie,,,non
+étoffes brochées d'argent et d'or fin de soie,,,non
 étoffes brochées de pure soie et unies,,,non
+étoffes brochées de soie de soie,,,non
 étoffes brochées de soie et unies,,,non
+étoffes d'écorce,,,non
+étoffes de bourre de soie façon cachemire,,,non
 étoffes de cachemire de poil,,,non
+étoffes de chanvre ou de lin,,,non
+étoffes de chanvre ou de lin mêlés,,,non
+étoffes de coton,,,non
+étoffes de coton basin piqués mousselinettes,,,non
+étoffes de coton brochées et brodées et imprimées,,,non
+étoffes de coton simples,,,non
+étoffes de crin,,,non
+étoffes de crin et de poils,,,non
+étoffes de fil,,,non
+étoffes de laine,,,non
+étoffes de lin et de chanvre mêlés,,,non
+étoffes de plocq,,,non
+étoffes de poil,,,non
+étoffes de soie blonde,,,non
+étoffes de soie mêlée,,,non
+étoffes de soie unis,,,non
+étoffes en feuilles,,,non
 étoffes et fer en barres,,,non
 étoffes et gaze et crêpe et tulle,,,non
-étoupe de chanvre,,,non
-étoupe de chanvre grise,,,non
+étoffes façonnés de soie,,,non
+étoupe de chanvre,,,oui
+étoupe de chanvre grise,,,oui
 étoupes,,,non
 étoupes à calfater,,,non
 étoupes blanches,,,non
@@ -6828,7 +6934,7 @@ fauteuils et chaises de canne,,,non
 fauteuils et chaises de poste,,,non
 fauteuils et chaises de rotin,,,non
 faux,,,non
-FAUX,,,non
+FAUX,,,oui
 faux à faucher,,,non
 faux d'acier et de fer,,,non
 faux de fer,,,non
@@ -6877,6 +6983,7 @@ fer de fonte,,,non
 fer de fonte en gueuse,,,non
 fer de fonte ouvert,,,non
 fer de lin cierge,,,non
+fer de mulets,,,non
 fer de Sibérie,,,non
 fer de tôle,,,non
 fer de toute sorte,,,non
@@ -6934,7 +7041,8 @@ fer en verges et lattes,,,non
 fer et canons de fer,,,non
 fer et étain,,,non
 fer et ferrements à nègre,,,non
-fer et ferrures,,,non
+fer et ferrure,,,non
+fer et ferrures,,,oui
 fer figuré,,,non
 fer floud,,,non
 fer fondu,,,non
@@ -6997,7 +7105,7 @@ ferrements de menuisier,,,non
 ferrés,,,non
 ferrières,,,non
 ferrure,,,non
-ferrures,,,non
+ferrures,,,oui
 feu,,,non
 feu argenté,,,non
 feuillard,,,non
@@ -7047,7 +7155,7 @@ feuilles de fer feuillard de fer et tôle de fer,,,non
 feuilles de fer-blanc,,,non
 feuilles de laiton,,,non
 feuilles de laurier,,,non
-feuilles de liège,,,non
+feuilles de liège,,,oui
 feuilles de séné,,,non
 feuilles de séné entières ou en grabeau,,,non
 feuilles de séné et séné,,,non
@@ -7057,7 +7165,7 @@ feuilles et herbes à teindre,,,non
 feutres pour doublage,,,non
 feutres pour filtrer semelles et autres ouvrages,,,non
 feuves,,,non
-féveroles,,,non
+féveroles,,,oui
 fèverolles,,,non
 fèves,,,non
 fèves de marais,,,non
@@ -7082,12 +7190,13 @@ fifres et flageolets,,,non
 fifres flageolets et flûtes,,,non
 figue,,,non
 figue et raisin,,,non
+figue et raisins secs pruneaux et poires tapées,,,non
 figue et sumac,,,non
 figue fraîche et fruits verts,,,non
 figue prune et raisin,,,non
 figue sèche,,,non
-figues et raisins secs pruneaux et poires tapées,,,non
-figues sèches,,,non
+figues et raisins secs pruneaux et poires tapées,,,oui
+figues sèches,,,oui
 figuier,,,non
 figures,,,non
 figures d'albâtre,,,non
@@ -7218,16 +7327,18 @@ fil de caret ou de voile,,,non
 fil de chanvre,Hors Amérique du Nord,,non
 fil de chanvre cru,,,non
 fil de chanvre écru,,,non
-fil de chanvre et de lin,,,non
-fil de chanvre et de lin à coudre retors et teint,,,non
-fil de chanvre et de lin blanchi retors,,,non
-fil de chanvre et de lin blanchi simple,,,non
-fil de chanvre et de lin écru d'étoupe simple,,,non
-fil de chanvre et de lin écru retors,,,non
-fil de chanvre et de lin écru simple pour voile,,,non
-fil de chanvre et de lin retors teint,,,non
-fil de chanvre et de lin simple teint,,,non
-fil de chanvre et lin,,,non
+fil de chanvre et de lin,,,oui
+fil de chanvre et de lin à coudre retors et teint,,,oui
+fil de chanvre et de lin blanchi retors,,,oui
+fil de chanvre et de lin blanchi simple,,,oui
+fil de chanvre et de lin écru d'étoupe simple,,,oui
+fil de chanvre et de lin écru retors,,,oui
+fil de chanvre et de lin écru simple pour voile,,,oui
+fil de chanvre et de lin retors teint,,,oui
+fil de chanvre et de lin simple teint,,,oui
+fil de chanvre et lin,,,oui
+fil de chanvre ou de lin,,,non
+fil de chanvre ou de lin à coudre retors et teint,,,non
 fil de chanvre ou de lin bis ou herbé écru d'étoupes simple,,,non
 fil de chanvre ou de lin bis ou herbé écru de mulquinerie simple,,,non
 fil de chanvre ou de lin bis ou herbé écru simple autre que pour voile,,,non
@@ -7271,7 +7382,8 @@ fil de coton teint,,,non
 fil de couleurs,,,non
 fil de crin,,,non
 fil de cuivre,,,non
-Fil de cuivre argenté,,,non
+fil de cuivre argenté,,,non
+Fil de cuivre argenté,,,oui
 fil de cuivre doré,,,non
 fil de cuivre en barreaux ronds,,,non
 fil de cuivre pour fabrication d'épingles,,,non
@@ -7283,6 +7395,7 @@ fil de dorure,,,non
 fil de fer,,,non
 fil de fer à carder,,,non
 fil de fer gros,,,non
+fil de fer même étamé,,,non
 fil de fer ordinaire,,,non
 fil de fer passe perles,,,non
 fil de fer passepoil,,,non
@@ -7365,17 +7478,17 @@ fil de Niort,,,non
 fil de palamard,,,non
 fil de palangre,,,non
 fil de palmes,,,non
-fil de ploc,,,non
+fil de ploc,,,oui
 fil de plocq,,,non
 fil de poil de bœufs,,,non
 fil de poil de cheval,,,non
 fil de poil de chèvre,,,non
-Fil de poil de chèvre,,,non
+Fil de poil de chèvre,,,oui
 fil de poils autres que chèvre laine et plocq,,,non
 fil de poils divers,,,non
 fil de remsal,,,non
 fil de Rennes,,,non
-fil de rets,,,non
+fil de rets,,,oui
 fil de ritte,,,non
 fil de sayette,,,non
 fil de sennes,,,non
@@ -7421,7 +7534,7 @@ fil passe perle,,,non
 fil plat,,,non
 fil retors,,,non
 fil retors à coudre,,,non
-fil rets,,,non
+fil rets,,,oui
 fil roux,,,non
 fil simple,,,non
 fil superfin,,,non
@@ -7462,7 +7575,7 @@ filets à pêcher éperviers,,,non
 filets à pêcher par Marseille,,,non
 filets à pêcher petit poisson,,,non
 filets à pêcher sardineaux,,,non
-filets à pêcher sennes,,,non
+filets à pêcher sennes,,,oui
 filets à pêcher vieux,,,non
 filets à petit poisson,,,non
 filets à sardineaux,,,non
@@ -7474,6 +7587,7 @@ filets d'espars à pêcher,,,non
 filets de palmes,,,non
 filets de patines,,,non
 filets et ustensiles de pêche,,,non
+filets pour la chasse et la pêche,,,non
 filets vieux,,,non
 filières,,,non
 filières d'agate,,,non
@@ -7487,7 +7601,7 @@ filoselle et fleuret,,,non
 filoselle et fleuret et bourre de soie,,,non
 filoselle et gilets de coton,,,non
 filoselle et soie,Hors Amérique du Nord,,non
-fils,,,non
+fils,,,oui
 finette,,,non
 finette de laine,,,non
 finette des prises,,,non
@@ -7497,10 +7611,11 @@ fioles de verre,,,non
 fioles de verre blanc,,,non
 fioles pour apothicaire,,,non
 fioles vides,,,non
-flacon de crème,,,non
+flacon de crème,,,oui
 flacons,,,non
 flacons à virole d'étain,,,non
 flacons d'osier,,,non
+flacons de crème,,,non
 flacons de cristal,,,non
 flacons de rechange,,,non
 flacons de terre,,,non
@@ -7564,7 +7679,7 @@ fleurs artificielles,,,non
 fleurs artificielles de jasmin,,,non
 fleurs artificielles et aigrettes,,,non
 fleurs artificielles et ouvrages de modes,,,non
-fleurs artificiels,,,non
+fleurs artificiels,,,oui
 fleurs autres que de lavande et d'oranger,,,non
 fleurs autres que médicinales,,,non
 fleurs d'aspic,,,non
@@ -7652,9 +7767,11 @@ fonte moulée pour projectiles de guerre,,,non
 fonte pour cloches,,,non
 fontevielle,Hors Amérique du Nord,,non
 forces à drapier,,,non
+forces à drapiers,,,non
 forces à tondre,,,non
-forces de drapiers,,,non
+forces de drapiers,,,oui
 forme,,,non
+forme à chapeaux,,,non
 forme à cordonnier,,,non
 forme à soulier,,,non
 forme à sucre,,,non
@@ -7662,14 +7779,16 @@ forme à sucre de terre,,,non
 forme à sucre et pots,,,non
 forme à sucre et pots de terre,,,non
 forme de bois,,,non
-forme de chapeaux,,,non
-forme de cordonnier,,,non
+forme de chapeaux,,,oui
+forme de cordonnier,,,oui
+forme de cuivre,,,non
 forme de terre,,,non
 forme de terre à sucre,,,non
 forme de terre et fabrique de fer,,,non
-formes de cuivre,,,non
+formes de cuivre,,,oui
 fort en diable,,,non
-Forte-piano,,,non
+forte-piano,,,non
+Forte-piano,,,oui
 forte-piano à la valeur,,,non
 forte-piano à queue,,,non
 forte-piano au nombre,,,non
@@ -7750,7 +7869,7 @@ frisade teinte aune,,,non
 frise,,,non
 frise à la gode,,,non
 frise des prises,,,non
-frise étoffe,,,non
+frise étoffe,,,oui
 frise sèche,,,non
 frisette de laine,,,non
 frisons d'Angleterre,,,non
@@ -7828,7 +7947,8 @@ fruits frais de table,,,non
 fruits frais vendangés,,,non
 fruits médicinaux,,,non
 fruits médicinaux et herbes médicinaux et plantes médicinaux et racines médicinaux,,,non
-fruits mirobolants confits,,,non
+fruits mirobolant confit,,,non
+fruits mirobolants confits,,,oui
 fruits moulus divers,,,non
 fruits oléagineux,,,non
 fruits prunes et pruneaux,,,non
@@ -7909,12 +8029,13 @@ futte,,,non
 g ???,,,non
 gaffes,,,non
 gaffes de sapin,,,non
+gaïac,,,non
 gaine bleue,,,non
 gaine de couteau,,,non
 gaine de couteau de papier,,,non
 gaine de limons,,,non
 gaine jaune,,,non
-gajac,,,non
+gajac,,,oui
 galanga,,,non
 galanterie,,,non
 galbanum,,,non
@@ -8089,7 +8210,8 @@ garas blanc,,,non
 garas bleu,,,non
 garde d'épée de cuivre doré,,,non
 garde-feu,,,non
-Garde-meuble,,,non
+garde-meuble,,,non
+Garde-meuble,,,oui
 garde-robe,,,non
 garde-robe de noyer,,,non
 gardes d'épée,,,non
@@ -8141,8 +8263,9 @@ gaude pastel et sarette,,,non
 gaude pour teinture,,,non
 gaufres,,,non
 gaufriers,,,non
-gaule de 30 pieds,,,non
+gaule de 30 pieds,,,oui
 gaules,,,non
+gaules de 30 pieds,,,non
 gaules de bois,,,non
 gaules de sapin,,,non
 gaules moyennes de sapin,,,non
@@ -8215,7 +8338,8 @@ gaze mi soie,,,non
 gaze or et argent,,,non
 gaze peinte,,,non
 gaze pour mouchoirs,,,non
-gaze tricot de Berling et tulle de coton,,,non
+gaze tricot de Berling et tulle de coton,,,oui
+gaze tricots de Berling et tulle de coton,,,non
 geernaerts,,,non
 gélatine,,,non
 gélinottes,,,non
@@ -8237,7 +8361,7 @@ genina,,,non
 génisses,,,non
 génisses et taureaux et vaches,,,non
 génisses et vaches,,,non
-génisses taureaux et vaches,,,non
+génisses taureaux et vaches,,,oui
 gensive,,,non
 gentes,,,non
 gentes de bois,,,non
@@ -8287,12 +8411,13 @@ girofle confite,,,non
 girofle et muscade,Hors Amérique du Nord,,non
 girofle griffes et pédicules,,,non
 girouettes,,,non
-gite de bois,,,non
+gite de bois,,,oui
 gites de 4 pouces carrés,,,non
 gites de 4 pouces sur 14 pieds de longueur,,,non
 gites de 4 pouces sur 33 pieds de longueur,,,non
 gites de 4 pouces sur 7 pieds de longueur,,,non
 gites de 5 à 7 pouces sur 56 pieds de longueur,,,non
+gites de bois,,,non
 gites de sapin,,,non
 gites ou côtes de sommier,,,non
 gites ou côtes de sommier de 1 pouce,,,non
@@ -8378,7 +8503,7 @@ gomme d'amandier,,,non
 gomme d'ambrette,,,non
 gomme d'Amérique,,,non
 gomme d'ammoniac,,,non
-gomme d'Arabie,,,non
+gomme d'Arabie,,,oui
 gomme d'élémi,,,non
 gomme de Barbarie,,,non
 gomme de caragne,,,non
@@ -8387,7 +8512,7 @@ gomme de Cenzier,,,non
 gomme de cerisier,,,non
 gomme de cochenille,,,non
 gomme de Copahu,,,non
-gomme de gaiac,,,non
+gomme de gaiac,,,oui
 gomme de gaïac,Hors Amérique du Nord,tropiques,non
 gomme de galbanum,,,non
 gomme de geda,,,non
@@ -8474,8 +8599,8 @@ grabeau de corail,,,non
 grabeau de galipot,,,non
 grabeau de gomme,,,non
 grabeau de mine,,,non
-grabeau de mirthre,,,non
-grabeau de myrrhe,,,non
+grabeau de mirthre,,,oui
+grabeau de myrrhe,,,oui
 grabeau de myrthe,,,non
 grabeau de quinquina,,,non
 grabeau de rhubarbe,,,non
@@ -8485,7 +8610,7 @@ grabeau de tartre,,,non
 grabeau de vermillon,,,non
 grabeau manelle,,,non
 grai gras,,,non
-grain,,,non
+grain,,,oui
 graine,,,non
 graine ???,,,non
 graine à chapelets,Hors Amérique du Nord,,non
@@ -8613,7 +8738,7 @@ graine de Saint-Domingue,Hors Amérique du Nord,antilles,non
 graine de sapin,,,non
 graine de sapotille,Hors Amérique du Nord,tropiques,non
 graine de semaille,,,non
-graine de senegré,,,non
+graine de senegré,,,oui
 graine de sénegré,,,non
 graine de silvestre,,,non
 graine de soude,,,non
@@ -8650,6 +8775,7 @@ graine jaune d'Avignon ou nerprun,,,non
 graine jaune de laitue,,,non
 graine jaune dit wauwe,,,non
 graine longue,,,non
+graine menue,,,non
 graine metillon,,,non
 graine pour teinture,,,non
 graine rouge,Hors Amérique du Nord,,non
@@ -8757,7 +8883,7 @@ graisse de toute sorte sauf gras de peau et suif brut,,,non
 graisse douce,,,non
 graisse et chair salée de porc,,,non
 graisse fondue,,,non
-graisse ou vieux-oint,,,non
+graisse ou vieux-oint,,,oui
 graisse salée,,,non
 granille de cochenille,,,non
 granit,,,non
@@ -8829,9 +8955,10 @@ grives,,,non
 groisil,,,non
 groisil de verre,,,non
 groison,,,non
-gros de Mours,,,non
+gros de Mours,,,oui
 gros de Naples,,,non
-gros détours,,,non
+gros de Tours,,,non
+gros détours,,,oui
 gros rouge,,,non
 gros tors,,,non
 groseille,,,non
@@ -8858,21 +8985,29 @@ guildive,Hors Amérique du Nord,antilles,non
 guin ???,,,non
 guina,,,non
 guinée,,,non
-Guinée,,,non
+Guinée,,,oui
 guinée blanche,,,non
-Guinée blanche,,,non
-Guinée blanche des Indes,,,non
+Guinée blanche,,,oui
+guinée blanche des Indes,,,non
+Guinée blanche des Indes,,,oui
 guinée blanche et bleue,,,non
 Guinée blanche et bleue,,,oui
-Guinée blanche et bleue des Indes,,,non
+guinée blanche et bleue des Indes,,,non
+Guinée blanche et bleue des Indes,,,oui
 guinée blanche ordinaire,,,non
 guinée bleue,,,non
-Guinée bleue,,,non
-Guinée bleue de coton,,,non
-Guinée bleue des Indes,,,non
-Guinée bleue imitant celle des Indes,,,non
-Guinée des Indes,,,non
-Guinée imitant celle des Indes,,,non
+Guinée bleue,,,oui
+guinée bleue de coton,,,non
+Guinée bleue de coton,,,oui
+guinée bleue des Indes,,,non
+Guinée bleue des Indes,,,oui
+guinée bleue imitant celle des Indes,,,non
+Guinée bleue imitant celle des Indes,,,oui
+guinée de coton,,,non
+guinée des Indes,,,non
+Guinée des Indes,,,oui
+guinée imitant celle des Indes,,,non
+Guinée imitant celle des Indes,,,oui
 guinée masulipatan,,,non
 guinée Sénégal,,,non
 Guinée Sénégal,,,oui
@@ -8894,38 +9029,42 @@ guipon,,,non
 guisine,,,non
 guitare,,,non
 guitare de fer,,,non
-guitares,,,non
+guitares,,,oui
 habassis,,,non
-habillement,,,non
-habillement brodé d'argent et d'or,,,non
-habillement brodé d'or,,,non
-habillement brodé de soie,,,non
-habillement d'argent et d'or,,,non
-habillement d'or,,,non
-habillement de nègre,,,non
-habillement de nègre en étoffe,,,non
-habillement de soie,,,non
-habillement de toile de chanvre,,,non
-habillement de troupes,,,non
-habillement et lingerie,Intraitable,,non
-habillement et lingerie et effets militaires,,,non
-habillement pour nègres,,,non
-habillement riche,,,non
-habillement supporté,,,non
-habillements,,,non
-habillements neufs,,,non
-habillements supportés,,,non
-habillements supportés à la valeur,,,non
-habillements supportés au kilogramme,,,non
+habillement,,,oui
+habillement brodé d'argent et d'or,,,oui
+habillement brodé d'or,,,oui
+habillement brodé de soie,,,oui
+habillement d'argent et d'or,,,oui
+habillement d'or,,,oui
+habillement de nègre,,,oui
+habillement de nègre en étoffe,,,oui
+habillement de soie,,,oui
+habillement de toile de chanvre,,,oui
+habillement de troupes,,,oui
+habillement et lingerie,Intraitable,,oui
+habillement et lingerie et effets militaires,,,oui
+habillement pour nègres,,,oui
+habillement riche,,,oui
+habillement supporté,,,oui
+habillements,,,oui
+habillements neufs,,,oui
+habillements supportés,,,oui
+habillements supportés à la valeur,,,oui
+habillements supportés au kilogramme,,,oui
 habillés,,,non
 habits,,,non
 habits à nègre,,,non
+habits brodés d'argent et d'or,,,non
 habits brodés d'or,,,non
+habits brodés de soie,,,non
 habits complets,,,non
 habits complets et neufs,,,non
+habits d'argent et d'or,,,non
 habits d'étamine,,,non
 habits d'homme,,,non
 habits d'homme avec argent et or,,,non
+habits d'or,,,non
 habits de camelot,,,non
 habits de cour,,,non
 habits de drap,,,non
@@ -8939,23 +9078,32 @@ habits de laine,,,non
 habits de laine pour nègre,,,non
 habits de livrée,,,non
 habits de livrée et ornements d'église,,,non
+habits de nègre,,,non
+habits de nègre en étoffe,,,non
 habits de peau,,,non
 habits de peau complets,,,non
 habits de pelleterie,,,non
 habits de pinchina,,,non
 habits de soie,,,non
 habits de soldat,,,non
+habits de toile de chanvre,,,non
+habits de troupes,,,non
 habits de velours,,,non
 habits divers,,,non
 habits enrichis,,,non
 habits et lingerie,,,non
+habits et lingerie et effets militaires,,,non
 habits et taffetas,,,non
 habits et vestes vieux,,,non
+habits neufs,,,non
 habits pour homme,,,non
 habits pour homme complets,,,non
 habits pour homme et pour femme,,,non
 habits pour nègre,,,non
+habits riches,,,non
 habits supportés,,,non
+habits supportés à la valeur,,,non
+habits supportés au kilogramme,,,non
 habits uniformes,,,non
 habits unis,,,non
 habits vieux,,,non
@@ -8984,7 +9132,8 @@ harancades,,,non
 haras,,,non
 hardes,,,non
 hardes capillaire,,,non
-hardes et habillement,,,non
+hardes et habillement,,,oui
+hardes et habits,,,non
 hardes neuves,,,non
 hardes perelle,,,non
 hardes pour nègre,,,non
@@ -9036,11 +9185,11 @@ harpes et guitare,,,non
 harpes et guitare et psalterions,,,non
 harpes et orgues d'église,,,non
 harpins,,,non
-harpoix,,,non
-harpoix et tartre,,,non
-harpoix et térébenthine,,,non
+harpoix,,,oui
+harpoix et tartre,,,oui
+harpoix et térébenthine,,,oui
 hartreuse,,,non
-haussière,,,non
+haussière,,,oui
 hautbois,,,non
 hebichets de fil de fer,,,non
 hellébore,,,non
@@ -9055,7 +9204,7 @@ herbes d'absinthe,,,non
 herbes d'acacia,,,non
 herbes d'orseille,,,non
 herbes d'oseille,,,non
-herbes de capillaire,Hors Amérique du Nord,,non
+herbes de capillaire,Hors Amérique du Nord,,oui
 herbes de violette,,,non
 herbes et plantes et racines,,,non
 herbes et racines,,,non
@@ -9162,7 +9311,7 @@ huile,Hors Amérique du Nord,,non
 huile à ???,,,non
 huile à brûler,,,non
 huile à brûler et de poisson,,,non
-huile à lin,,,non
+huile à lin,,,oui
 huile ambrée,,,non
 huile antique et huile volatile ambrée,,,non
 huile chimique,,,non
@@ -9391,14 +9540,21 @@ images et cartes géographiques,,,non
 images peintes,,,non
 impériale,,,non
 impériale de laine,,,non
-Inde,,,non
-Inde de Java,,,non
-Inde fine,,,non
-Inde florée,,,non
-Inde flottante,,,non
-Inde Java,,,non
-Inde plante,,,non
-Inde plate,,,non
+inde,,,non
+Inde,,,oui
+inde de Java,,,non
+Inde de Java,,,oui
+inde fine,,,non
+Inde fine,,,oui
+inde florée,,,non
+Inde florée,,,oui
+inde flottante,,,non
+Inde flottante,,,oui
+inde Java,,,non
+Inde Java,,,oui
+Inde plante,,,oui
+inde plate,,,non
+Inde plate,,,oui
 indienne,Hors Amérique du Nord,Indes,non
 indienne ???,,,non
 indienne commune,,,non
@@ -9429,6 +9585,7 @@ indigo du Guatemala,,,oui
 indigo en gr ???,,,non
 indigo floré,,,non
 indigo guatimalo,,,non
+indigo inde-plate boules de bleu,,,non
 indigo par Bordeaux Nantes Le Havre et Dunkerque,,,non
 injubes,,,non
 insectes,,,non
@@ -9500,9 +9657,11 @@ jambon du pays,,,non
 jambon et lard salé,,,non
 jambon et saucisson,,,non
 jambon fumé,,,non
+jambon lard et saucissons,,,non
 jambon non fumé,,,non
+jambon salé,,,non
 jambons,,,non
-jambons salés,,,non
+jambons salés,,,oui
 jamis,,,non
 jantes,,,non
 jantes et rais,,,non
@@ -9521,7 +9680,8 @@ jarretières de fleuret,,,non
 jarretières de laine,,,non
 jarretières de soie,,,non
 jarretières et ruban de laine,,,non
-jarretières et tresses de laine,,,non
+jarretières et tresse de laine,,,non
+jarretières et tresses de laine,,,oui
 jas,,,non
 jaspe,,,non
 jatape,,,non
@@ -9552,7 +9712,7 @@ joaillerie,,,non
 jolités de cristal garnis de cuivre,,,non
 jolités en pinsbeck,,,non
 jolités mêlées,,,non
-jonc en blocs,,,non
+jonc en blocs,,,oui
 joncs,,,non
 joncs à couvrir,,,oui
 joncs à couvrir bottes,,,oui
@@ -9567,6 +9727,7 @@ joncs à voile,,,non
 joncs communs,,,non
 joncs de cannes,,,non
 joncs des Indes,,,non
+joncs en blocs,,,non
 joncs en herbe,,,non
 joncs entes,,,oui
 joncs entés,,,non
@@ -9604,7 +9765,7 @@ jouets d'enfance,,,non
 jouets d'enfant,,,non
 jougs de bœuf,,,non
 joujoux d'enfants,,,non
-jude plate,,,non
+jude plate,,,oui
 juifs qui payent le droit corporel à la sortie,,,non
 jujubes,,,non
 julaux,,,non
@@ -9636,16 +9797,16 @@ jus de limon,,,non
 jus de réglisse,,,non
 jus et sirop de cerise et de grenade,,,non
 jus et sirop de cerise et de grenade avec nourritures,,,non
-jussienne,,,non
+jussienne,,,oui
 kalmouk,,,non
 kichorchais,,,non
 kicoutis,,,non
 killis,,,non
 kirschwasser,,,non
 korola des Indes,,,non
-korots,,,non
-korotte,,,non
-koruoté,,,non
+korots,,,oui
+korotte,,,oui
+koruoté,,,oui
 labdanum,,,non
 lac commun,,,non
 lacets,,,non
@@ -9824,7 +9985,7 @@ laine tannée,,,non
 laine teinte,,,non
 laine toison,,,non
 laine tressée,,,non
-laine vigogne,,,non
+laine vigogne,,,oui
 laine vivante,,,non
 lainerie,,,non
 lait battu,,,non
@@ -9911,6 +10072,7 @@ langues de mouton,,,non
 langues de porc,,,non
 langues de porc salées,,,non
 langues et noix de morue,Exclusivement Amérique du Nord,,non
+langues et noves de morue,,,non
 langues et yeux de cerf,,,non
 langues fumées,,,non
 langues salées,,,non
@@ -9973,7 +10135,7 @@ lavande et hysope,,,non
 lave-place,,,non
 lèchefrite,,,non
 lèchefrite de fer,,,non
-lèchefrite en fer,,,non
+lèchefrite en fer,,,oui
 legatine sur coton,,,non
 legatine sur laine,,,non
 légumes,,,non
@@ -10006,7 +10168,7 @@ librairie en blanc,,,non
 librairie en brochures,,,non
 librairie reliée,,,non
 lic,,,non
-licanes,,,non
+licanes,,,oui
 licanias,,,non
 lichens,,,non
 lichens autres que pour la teinture,,,non
@@ -10023,11 +10185,16 @@ liège,,,non
 liège commun,,,non
 liège d'Espagne et du Portugal,,,non
 liège en bois,,,non
+liège en bouchons,,,non
+liège en bouchons et en planches,,,non
 liège en catalant,,,non
+liège en feuilles,,,non
+liège en manches,,,non
+liège en planches,,,non
 liège et provisions,,,non
 liège fin,,,non
 liège grossier,,,non
-liège ouvré en bouchons etc.,,,non
+liège ouvré en bouchons etc.,,,oui
 liens de chanvre,,,non
 liens de fil,,,non
 liens et fil,,,non
@@ -10086,7 +10253,8 @@ lin en car,,,non
 lin en pierre,,,non
 lin en tiges roulées sèches et vertes,,,non
 lin et pierres,,,non
-lin et son étoupe,,,non
+lin et son étoupe,,,oui
+lin et son étoupes,,,non
 lin non battu et vert,,,non
 lin peigné,Hors Amérique du Nord,,non
 lin prêt à filer,,,non
@@ -10098,7 +10266,7 @@ lina,,,non
 lincas,,,non
 lincas des Indes,,,non
 lincern,,,non
-linceul vieux,,,non
+linceul vieux,,,oui
 linceuls,,,non
 linceuls vieux,,,non
 linéas,,,non
@@ -10233,10 +10401,13 @@ livres imprimés,,,non
 livres imprimés en France,,,non
 livres non reliés,,,non
 livres reliés,,,non
-locques,,,non
-Locronan,,,non
-Locronan pièce de 50 aunes,,,non
+locques,,,oui
+locronan,,,non
+Locronan,,,oui
+locronan pièce de 50 aunes,,,non
+Locronan pièce de 50 aunes,,,oui
 longs vieux,,,non
+loques,,,non
 loriaque,,,non
 loup marin,,,non
 loupine,,,non
@@ -10245,12 +10416,13 @@ louveas,,,non
 lozes,,,non
 luge,,,non
 luge en planches,,,non
-lunette et microscope,,,non
+lunette et microscope,,,oui
 lunettes,,,non
 lunettes à charnière d'argent,,,non
 lunettes d'approche,,,non
 lunettes d'écaille,,,non
 lunettes de corne,,,non
+lunettes et microscope,,,non
 lunettes garnies de corne,,,non
 luspeck,,,non
 lustres,,,non
@@ -10354,7 +10526,7 @@ manches de gaffes de 11 à 15 centimètres,,,non
 manches de gaffes de 12 pieds,,,non
 manches de gaffes de 18 pieds,,,non
 manches de gaffes et livardes,,,non
-manches de liège,,,non
+manches de liège,,,oui
 manches de mail,,,non
 manches pour fourches et pour balais,,,non
 manches pour pioches,,,non
@@ -10382,7 +10554,7 @@ manchons et platines,,,non
 manchons fins,,,non
 manchons pour femme,,,non
 mandarine,,,non
-mandarins,,,non
+mandarins,,,oui
 mandes et berces d'osier,,,non
 mandragore,,,non
 manganèse,,,non
@@ -10505,8 +10677,10 @@ marmites de fonte,,,non
 marmites en fer,,,non
 marne,,,non
 Maroc,,,non
+Maroc aune,,,non
 Maroc de laine,,,non
 Maroc raz de marron,,,non
+Maroc teint de douzaine,,,non
 maronic,,,non
 maroquins,,,non
 marquise,,,non
@@ -10637,8 +10811,8 @@ matériaux de bois,,,non
 matériaux de construction,,,non
 matériaux de sapin,,,non
 matériaux moellons sable etc.,,,non
-mâtes de 13 à 20 palmes,,,non
-mâtes de 13 à 25 palmes,,,non
+mâtes de 13 à 20 palmes,,,oui
+mâtes de 13 à 25 palmes,,,oui
 matières de verre composées,,,non
 matières minérales,,,non
 matières premières,Hors Amérique du Nord,,non
@@ -10650,6 +10824,8 @@ mâts au dessous de 6 paumes,,,non
 mâts bouts de 3 à 4 pieds,,,non
 mâts communs,,,non
 mâts de 12 à 13 palmes,,,non
+mâts de 13 à 20 palmes,,,non
+mâts de 13 à 25 palmes,,,non
 mâts de 14 palmes,,,non
 mâts de 16 à 18 pieds,,,non
 mâts de 18 pieds,,,non
@@ -10802,17 +10978,20 @@ mautes à mulets,,,non
 Mazamet,,,non
 mazon,,,non
 mecerie de bois,,,oui
-mèche à mousquet,,,non
-mèche de chandelles flambeaux et lampes,,,non
-mèche de lampe,,,non
+mèche à mousquet,,,oui
+mèche de chandelles flambeaux et lampes,,,oui
+mèche de lampe,,,oui
 mèches,,,non
 mèches à canons,,,non
 mèches à chandelle,,,non
 mèches à flambeau,,,non
+mèches à mousquet,,,non
 mèches d'étoupes de chanvre ou de lin,,,non
 mèches d'étoupes de fil de chanvre ou en lin,,,non
+mèches de chandelles flambeaux et lampes,,,non
 mèches de coton,,,non
 mèches de coton pour chandelle,,,non
+mèches de lampe,,,non
 mèches et soufre,,,non
 mèches flambeaux et chandelles et lampes,,,oui
 mèches soufrées,,,non
@@ -10844,7 +11023,7 @@ mentes à moulir,,,non
 mentes à taillandier,,,non
 menu charbon de terre,,,non
 menu charbon de terre dit sméegruys,,,non
-menue graine,,,non
+menue graine,,,oui
 menuiserie,,,non
 menus sommiers,,,non
 menutés,,,non
@@ -10910,7 +11089,7 @@ merrains à pipes,Hors Amérique du Nord,,non
 merrains à poinçon,,,non
 merrains à quart,Hors Amérique du Nord,,non
 merrains à tierçons,,,non
-merrains à tonneau,,,non
+merrains à tonneau,,,oui
 merrains à tonneaux,,,non
 merrains à tortue,,,non
 merrains au-dessous de 974 millimètres,,,non
@@ -11077,10 +11256,10 @@ migon,,,non
 mil,,,non
 mille gants,,,non
 milleret,,,non
-milleret et agréments,,,non
-milleret et agréments de soie,,,non
+milleret et agréments,,,oui
+milleret et agréments de soie,,,oui
 millet,,,non
-mimy,,,non
+mimy,,,oui
 mine d'alquifoux,,,non
 mine d'asphalte,,,non
 mine de cuivre,,,non
@@ -11097,7 +11276,7 @@ minerai de fer chromaté,,,non
 minerai de fer sulfuré,,,non
 minerai de plomb,,,non
 minéraux,,,non
-mini,,,non
+mini,,,oui
 minium,,,non
 minium et mine orange,,,non
 minium rouge divisé,,,non
@@ -11145,24 +11324,27 @@ mittes de soie,,,non
 mittières de fer,,,non
 mobilier,Hors Amérique du Nord,,non
 mobilier vieux,,,non
-mocade,,,non
+mocade,,,oui
 mode de bœuf,,,non
 modèle de château de carton,,,non
 modèle de plâtre,,,non
 modèle de sculpture,,,non
-modes,,,non
+modes,,,oui
 modes de Montauban,,,non
 moelle,,,non
 moëlle,,,oui
 moelle de bœuf,,,non
 moëlle de bœuf,,,oui
+moellons,,,non
+moellons à faire chaux,,,non
+moellons à faire des bâtiments,,,non
 moellons argile ciment gypse sable stuc tuf pavés pierres à chaux pierres meulières pouzzolane,,,non
 moellons de brique,,,non
-moellons de briques,,,non
+moellons de briques,,,oui
 moellons pierres meulières etc.,,,non
 moines garnis de fer-blanc,,,non
 moire blanche,,,non
-Moka,,,non
+Moka,,,oui
 molenaers,,,non
 molleton,,,non
 molleton aune,,,non
@@ -11178,9 +11360,9 @@ momie,,,non
 moncayard,,,non
 mongette,,,non
 mongistere,,,non
-monnaie d'argent,,,non
-monnaie de billon,,,non
-monnaie de cuivre,,,non
+monnaie d'argent,,,oui
+monnaie de billon,,,oui
+monnaie de cuivre,,,oui
 monnaies au type étranger,,,non
 monnaies d'argent,,,non
 monnaies d'argent en espèces coursables,,,non
@@ -11191,6 +11373,7 @@ monnaies d'argent par Valenciennes,,,non
 monnaies d'or,,,non
 monnaies d'or par Calais,,,non
 monnaies d'or quadruple,,,non
+monnaies de billon,,,non
 monnaies de cuivre,,,non
 monnaies de cuivre de Suède,,,non
 monnaies de cuivre jaune,,,non
@@ -11222,6 +11405,7 @@ morceaux cousus de hamsters,,,non
 morceaux cousus de lapins et lièvres,,,non
 morceaux cousus dos et ventre de petits-gris,,,non
 morceaux d'espars,,,non
+morceaux de bois,,,non
 morceaux de planches,,,non
 morenine de soie,,,non
 morilles,,,non
@@ -11289,7 +11473,8 @@ mouchoirs au brin de soie,,,non
 mouchoirs baffetas,,,non
 mouchoirs bandanas,,,non
 mouchoirs blancs,,,non
-mouchoirs blancs brodés en fil de chanvre et de lin,,,non
+mouchoirs blancs brodés en fil de chanvre et de lin,,,oui
+mouchoirs blancs brodés en fil de chanvre ou de lin,,,non
 mouchoirs blancs de chanvre et de lin,,,non
 mouchoirs blancs et teints,,,non
 mouchoirs bleus,,,non
@@ -11465,14 +11650,14 @@ moulins de fer,,,non
 moulins de fer à sucre,,,non
 moulins de soie,,,non
 moulins et presses à tabac,,,non
-moulons,,,non
-moulons à faire chaux,,,non
-moulons à faire des bâtiments,,,non
+moulons,,,oui
+moulons à faire chaux,,,oui
+moulons à faire des bâtiments,,,oui
 moulons et kibbelinck,,,non
 moulures dorées,,,non
 mouquette,,,non
 moureaux,,,non
-moureaux de bois,,,non
+moureaux de bois,,,oui
 moureaux de mules,,,non
 moureaux de mulets,,,non
 mousquetons,,,non
@@ -11483,18 +11668,22 @@ mousse de lin,Hors Amérique du Nord,,non
 mousse de mer,,,non
 mousse de mer et herbes à teindre,,,non
 mousse de roche,,,non
-mousseline brochée de coton,,,non
-mousseline brodée de coton,,,non
-mousseline de coton,,,non
-mousseline de coton et nankin,,,non
-mousseline de coton et nankin des Indes,,,non
+mousseline brochée de coton,,,oui
+mousseline brodée de coton,,,oui
+mousseline de coton,,,oui
+mousseline de coton et nankin,,,oui
+mousseline de coton et nankin des Indes,,,oui
 mousselines,,,non
 mousselines aune,,,non
 mousselines blanche,,,non
 mousselines bordée,,,non
+mousselines brochée de coton,,,non
+mousselines brodée de coton,,,non
 mousselines brodées,,,non
 mousselines de coton,,,non
 mousselines de coton et des Indes,,,non
+mousselines de coton et nankin,,,non
+mousselines de coton et nankin des Indes,,,non
 mousselines de coton unies et brûlées,,,non
 mousselines de coton unies et peintes,,,non
 mousselines de France,,,non
@@ -11548,7 +11737,7 @@ mules et mulets n'ayant pas encore de dents adultes,,,non
 mules ou mulets,,,non
 mulets,,,non
 mulets à moyen prix,,,non
-mulets de fer,,,non
+mulets de fer,,,oui
 mulets de moyenne taille,,,non
 mulets jeunes,,,non
 mulets mulets,,,non
@@ -11560,6 +11749,8 @@ munitions de guerre,,,non
 munitions de guerre et projectiles,,,non
 muriate d'étain et de potasse,,,non
 musc,,,non
+musc castoreum et civette,,,non
+musc civette castoreum et ambre gris,,,non
 muscades,Hors Amérique du Nord,,non
 muscades confites,,,non
 muscades d'Inde,,,non
@@ -11568,12 +11759,13 @@ muscades des entrepôts,,,non
 muscades en noix,,,non
 muscades et macis,Hors Amérique du Nord,,non
 muscades et poivre,,,non
+muscades feuilles et noix,,,non
 muscades longues,,,non
 muscades rondes,,,non
 muse,,,non
 musique,,,non
 musique gravée,,,non
-myrobolans confits,,,non
+myrobolans confits,,,oui
 myrrhe,,,non
 myrrhe en grabeau,,,non
 myrthe,,,non
@@ -11611,7 +11803,7 @@ nappes ouvrées,,,non
 nappes unies,,,non
 natron,,,non
 natron et soude,,,non
-natrons,,,non
+natrons,,,oui
 nattes,,,non
 nattes communes à paqueter,,,non
 nattes d'emballage,,,non
@@ -11626,10 +11818,14 @@ nattes de moscovie,,,non
 nattes de paille,Hors Amérique du Nord,,non
 nattes de paille et de jonc,,,non
 nattes de Russie,,,non
-nattes et tresses de paille d'écorce et de sparte fines,,,non
-nattes et tresses de paille d'écorce et de sparte grossières,,,non
-nattes et tresses fines,,,non
-nattes et tresses grossières,,,non
+nattes et tresse de paille d'écorce et de sparte fines,,,non
+nattes et tresse de paille d'écorce et de sparte grossières,,,non
+nattes et tresse fines,,,non
+nattes et tresse grossières,,,non
+nattes et tresses de paille d'écorce et de sparte fines,,,oui
+nattes et tresses de paille d'écorce et de sparte grossières,,,oui
+nattes et tresses fines,,,oui
+nattes et tresses grossières,,,oui
 nattes moyennes,,,non
 nattes pour grenier,,,non
 nattes rondes,,,non
@@ -11715,7 +11911,7 @@ noix de muscade,,,non
 noix de pipes,,,non
 noix de ravensara,,,non
 noix épillées,,,non
-noix et noisettes,,,non
+noix et noisettes,,,oui
 noix et riz,,,non
 noix grosses,,,non
 noix moutarde,,,non
@@ -11724,12 +11920,13 @@ noix sèches,,,non
 noix venimeuses,,,non
 noix vomiques,,,non
 noronges,,,non
-nots de morue,,,non
-nots et langues de morue,Exclusivement Amérique du Nord,,non
-nots et langues de morue des Îles,,,non
+nots de morue,,,oui
+nots et langues de morue,Exclusivement Amérique du Nord,,oui
+nots et langues de morue des Îles,,,oui
 nougat,,,non
 nousouque,,,non
 noves de morue,,,non
+noves et langues de morue des Îles,,,non
 noyaux,,,non
 noyaux d'olives,,,non
 noyaux de pêche,,,non
@@ -11768,7 +11965,8 @@ ocre jaune,,,non
 ocre jaune et rouge,,,non
 ocre noir,,,non
 ocre rouge,,,non
-octante,,,non
+octant,,,non
+octante,,,oui
 odautes,,,non
 odeure,,,non
 œil de bœuf,,,non
@@ -11888,7 +12086,7 @@ orangers petits,,,non
 orbe,,,non
 orcanette,,,non
 orcillons à faire colle,,,non
-orcre,,,non
+orcre,,,oui
 oreilles et oreillons à faire colle,,,non
 oreillons,,,non
 orfèvrerie,,,non
@@ -11900,7 +12098,7 @@ orfèvrerie d'or ou de vermeil,,,non
 orfèvrerie de platine,,,non
 organdis,,,non
 organeaux,Hors Amérique du Nord,,non
-organette,,,non
+organette,,,oui
 orge jaune,,,non
 orge mondé,,,non
 orge moulu,,,non
@@ -11911,7 +12109,7 @@ orgues d'église,,,non
 orgues de bois,,,non
 orgues de savoyard,,,non
 orgues portatives,,,non
-orgueur de bois,,,non
+orgueur de bois,,,oui
 origan,,,non
 ormeaux à planter,,,non
 ornements d'église,,,non
@@ -11960,11 +12158,12 @@ osier fendu ou pelé,,,non
 osier torches,,,non
 osserie de Dieppe,,,non
 ouate,,,non
-ouate d'étoupe,,,non
+ouate d'étoupe,,,oui
+ouate d'étoupes,,,non
 ouate de coton,,,non
 ouate de laine,,,non
 ouate de soie,,,non
-ouseaux,,,non
+ouseaux,,,oui
 outil d'acier pur,,,non
 outils,,,non
 outils à battre l'or,,,non
@@ -11994,7 +12193,7 @@ outils de moulins,,,non
 outils de moulins de fer,,,non
 outils de pêche,,,non
 outils de pêche par Marseille,,,non
-outils en fer,,,non
+outils en fer,,,oui
 outils en fer et acier,,,oui
 outils menuisier,,,non
 outils pour boulanger,,,non
@@ -12081,7 +12280,7 @@ ouvrages de bois simple,,,non
 ouvrages de bois simple et doré,,,non
 ouvrages de bois simples en grilles de sapin,,,non
 ouvrages de bois verni,,,non
-ouvrages de bois verni de Spa,,,non
+ouvrages de bois verni de Spa,,,oui
 ouvrages de bronze,,,non
 ouvrages de buis,,,non
 ouvrages de carreaux et tuiles,,,non
@@ -12182,7 +12381,7 @@ ouvrages de mi soie,,,non
 ouvrages de mode,,,non
 ouvrages de paille,,,non
 ouvrages de paille pour chapeaux,,,non
-ouvrages de palme,,,non
+ouvrages de palme,,,oui
 ouvrages de palmes,,,non
 ouvrages de papeterie,,,non
 ouvrages de pâte,,,non
@@ -12201,7 +12400,7 @@ ouvrages de plâtre en figure,,,non
 ouvrages de plomb,,,non
 ouvrages de plumes,,,non
 ouvrages de poterie,,,non
-ouvrages de sapementier,,,non
+ouvrages de sapementier,,,oui
 ouvrages de sapin,,,non
 ouvrages de sellier de toute sorte,,,non
 ouvrages de serrurerie,,,non
@@ -12211,6 +12410,7 @@ ouvrages de soie,,,non
 ouvrages de soie et dorure,,,non
 ouvrages de soulier couverts en étoffe de soie pour femme,,,non
 ouvrages de Spa,,,non
+ouvrages de Spa en bois verni,,,non
 ouvrages de sparterie,,,non
 ouvrages de sparterie commune cordage de jonc paille roseaux et écorce de bois,,,non
 ouvrages de sparterie commune et cordage de jonc ...,Hors Amérique du Nord,,non
@@ -12229,7 +12429,8 @@ ouvrages de vannerie de bois et d'osier,,,non
 ouvrages de verre,,,non
 ouvrages de verre en ???,,,non
 ouvrages de verre en bossage,,,non
-ouvrages de verre en rasade,,,non
+ouvrages de verre en rasade,,,oui
+ouvrages de verre en rassades,,,non
 ouvrages de verres,,,non
 ouvrages de zinc,,,non
 ouvrages devant,,,non
@@ -12346,7 +12547,7 @@ panier de femme,,,non
 panier de fer,,,non
 panier de foudre,,,non
 panier de jonc,,,non
-paniers d'osier,,,non
+paniers d'osier,,,oui
 panine,,,non
 panine de soie,,,non
 panis à cachette,,,non
@@ -12365,7 +12566,8 @@ panne de poil longue,,,non
 panne de soie,,,non
 panne des prises,,,non
 panne écarlate,,,non
-Panne en peluches et tripe aune,,,non
+panne en peluches et tripe aune,,,non
+Panne en peluches et tripe aune,,,oui
 panne en poil,,,non
 panne imprimée,,,non
 panne laine et poil,,,non
@@ -12552,6 +12754,8 @@ papier tontisse,,,non
 papier violet,,,non
 papillons secs,,,non
 parapluies,,,non
+parapluies autres et caracasse,,,non
+parapluies caracasse de,,,non
 parapluies communs,,,non
 parapluies de soie,,,non
 parapluies de taffetas,,,non
@@ -12583,10 +12787,11 @@ parfumerie mêlée de bois odorant ambre gris musc eau de senteur essence et hui
 parfumerie musc,,,non
 parfumerie pommade,,,non
 parfumerie poudre à poudrer,,,non
+parfumerie poudre d'odeur,,,non
 parfumerie rouge,,,non
 parfumerie savonnettes,,,oui
 pariera,,,non
-parmerie poudre d'odeur,,,non
+parmerie poudre d'odeur,,,oui
 parun,,,non
 passementerie,,,non
 passementerie argent faux,,,non
@@ -12607,9 +12812,12 @@ passementerie de chanvre de laine teinte et de lin,,,non
 passementerie de coton,,,non
 passementerie de crin,,,non
 passementerie de fil,,,non
-passementerie de fil de chanvre et de lin bis écru herbé ou mélangé,,,non
-passementerie de fil de chanvre et de lin bis écru ou herbé,,,non
-passementerie de fil de chanvre et de lin teint en tout ou partie,,,non
+passementerie de fil de chanvre et de lin bis écru herbé ou mélangé,,,oui
+passementerie de fil de chanvre et de lin bis écru ou herbé,,,oui
+passementerie de fil de chanvre et de lin teint en tout ou partie,,,oui
+passementerie de fil de chanvre ou de lin bis écru herbé ou mélangé,,,non
+passementerie de fil de chanvre ou de lin bis écru ou herbé,,,non
+passementerie de fil de chanvre ou de lin teint en tout ou partie,,,non
 passementerie de fil de soie et galon,,,non
 passementerie de fil en filoselle,,,non
 passementerie de fil et coton,,,non
@@ -12634,12 +12842,16 @@ passementerie de soie pure,,,non
 passementerie divers,,,non
 passementerie en frange de fil,,,non
 passementerie en soie,,,non
+passementerie et ruban de coton,,,non
 passementerie et ruban de fleuret,,,non
-passementerie et rubans de coton,,,non
-passementerie et rubans de fleuret,,,non
-passementerie et rubans de laine mêlée de fil,,,non
-passementerie et rubans de laine teinte,,,non
-passementerie et rubans de soie pure,,,non
+passementerie et ruban de laine mêlée de fil,,,non
+passementerie et ruban de laine teinte,,,non
+passementerie et ruban de soie pure,,,non
+passementerie et rubans de coton,,,oui
+passementerie et rubans de fleuret,,,oui
+passementerie et rubans de laine mêlée de fil,,,oui
+passementerie et rubans de laine teinte,,,oui
+passementerie et rubans de soie pure,,,oui
 passementerie fine en filet d'or,,,non
 passementerie fine en velours,,,non
 passementerie mêlé de soie,,,non
@@ -12703,19 +12915,19 @@ patissoye broché,,,non
 patissoye uni,,,non
 patte d'oie,,,non
 patterie,,,non
-pattes aux vieux chiffons,,,non
+pattes aux vieux chiffons,,,oui
 pattes d'ancre,,,non
 pattes ou vieux chiffons,,,non
 paumelle,,,non
 paumelle germée,,,non
-pause de Russie,,,non
+pause de Russie,,,oui
 pauvre noir,,,non
 pavés,,,non
 pavés de morue,,,non
 pavillon de toile,,,non
 pavots,,,non
-peau de Martre,,,non
-peau de poisson,,,non
+peau de Martre,,,oui
+peau de poisson,,,oui
 peaux,Hors Amérique du Nord,,non
 peaux ???,,,non
 peaux à faire tambours,,,non
@@ -12729,6 +12941,7 @@ peaux apprêtée d'orignal,,,non
 peaux apprêtée de buffle,,,non
 peaux apprêtées,,,non
 peaux apprêtées d'agneau,,,non
+peaux apprêtées d'agneau et de chevreau,,,non
 peaux apprêtées d'élan,,,non
 peaux apprêtées d'hermine et de martre,,,non
 peaux apprêtées d'ours,,,non
@@ -12762,6 +12975,7 @@ peaux apprêtées de mouton,,,non
 peaux apprêtées de mouton en couleur,,,non
 peaux apprêtées de mouton en mesquis,,,non
 peaux apprêtées de petit gris,,,non
+peaux apprêtées de phoque éjarrées,,,non
 peaux apprêtées de renard,,,non
 peaux apprêtées de roussette,,,non
 peaux apprêtées de vache,,,non
@@ -12780,25 +12994,25 @@ peaux blanches apprêtées,,,non
 peaux blanches de mouton,,,non
 peaux blanches de veaux,,,non
 peaux blanches ou grises de mouton,,,non
-peaux blanchies de mouton,,,non
+peaux blanchies de mouton,,,oui
 peaux bronzées,,,non
 peaux bronzées de veau,,,non
 peaux brourées de veau,,,non
-peaux brutes d'agneau ordinaires,,,non
-peaux brutes de chèvre et de mouton et de veau,,,non
-peaux brutes de chevreuil,,,non
-peaux brutes de lapin et de lièvre,,,non
-peaux brutes de loup marin,,,non
-peaux brutes de phoque,,,non
-peaux brutes fraîches de chien de mer,,,non
-peaux brutes fraîches grandes,,,non
-peaux brutes fraîches petites,,,non
-peaux brutes grandes fraîches,,,non
-peaux brutes grandes sèches,,,non
-peaux brutes petites d'agneaux et de chevreaux,,,non
-peaux brutes petites de chien de mer et requin,,,non
-peaux brutes petites sèches,,,non
-peaux brutes sèches de chien de mer,,,non
+peaux brutes d'agneau ordinaires,,,oui
+peaux brutes de chèvre et de mouton et de veau,,,oui
+peaux brutes de chevreuil,,,oui
+peaux brutes de lapin et de lièvre,,,oui
+peaux brutes de loup marin,,,oui
+peaux brutes de phoque,,,oui
+peaux brutes fraîches de chien de mer,,,oui
+peaux brutes fraîches grandes,,,oui
+peaux brutes fraîches petites,,,oui
+peaux brutes grandes fraîches,,,oui
+peaux brutes grandes sèches,,,oui
+peaux brutes petites d'agneaux et de chevreaux,,,oui
+peaux brutes petites de chien de mer et requin,,,oui
+peaux brutes petites sèches,,,oui
+peaux brutes sèches de chien de mer,,,oui
 peaux chamois,,,non
 peaux chamoisées de daim,,,non
 peaux chamoisées ou mégies,,,non
@@ -12819,6 +13033,8 @@ peaux corroyées ou tannées,,,non
 peaux crue d'ours,,,non
 peaux crues,,,non
 peaux crues d'agneau,,,non
+peaux crues d'agneau et de chevreau,,,non
+peaux crues d'agneau ordinaires,,,non
 peaux crues d'âne,,,non
 peaux crues d'élan,,,non
 peaux crues d'ours,,,non
@@ -12832,10 +13048,13 @@ peaux crues de cerf et de daim,,,non
 peaux crues de chat,,,non
 peaux crues de chèvre,,,non
 peaux crues de chèvre en poil,,,non
+peaux crues de chèvre et de mouton et de veau,,,non
 peaux crues de chevreau,,,non
+peaux crues de chevreuil,,,non
 peaux crues de daim en poil,,,non
 peaux crues de daim en vert,,,non
 peaux crues de lapin,,,non
+peaux crues de lapin et de lièvre,,,non
 peaux crues de lièvre,,,non
 peaux crues de lièvre et lapin,,,non
 peaux crues de lièvres,,,non
@@ -12843,10 +13062,20 @@ peaux crues de loup cervier,,,non
 peaux crues de loup marin,,,non
 peaux crues de marmotte,,,non
 peaux crues de mouton,,,non
+peaux crues de phoque,,,non
 peaux crues de porc,,,non
 peaux crues de renard de loutre de fouine etc.,,,non
 peaux crues de tigre,,,non
 peaux crues de veau,,,non
+peaux crues fraîches de chien de mer,,,non
+peaux crues fraîches grandes,,,non
+peaux crues fraîches petites,,,non
+peaux crues grandes fraîches,,,non
+peaux crues grandes sèches,,,non
+peaux crues petites d'agneaux et de chevreaux,,,non
+peaux crues petites de chien de mer et requin,,,non
+peaux crues petites sèches,,,non
+peaux crues sèches de chien de mer,,,non
 peaux d'agneau,Hors Amérique du Nord,,non
 peaux d'agneau en chamois,,,non
 peaux d'agneau en couleur,,,non
@@ -12867,12 +13096,14 @@ peaux d'âne,,,non
 peaux d'angora,,,non
 peaux d'anguille,,,non
 peaux d'anguillerie,,,non
+peaux d'astrakan,,,non
 peaux d'écureuil,Exclusivement Amérique du Nord,,non
 peaux d'élan,,,non
 peaux d'élan en parchemin,,,non
 peaux d'hayes,,,non
 peaux d'hermine,,,non
 peaux d'hermine et de martre,,,non
+peaux d'hermine et kulonok,,,non
 peaux d'orignal,Exclusivement Amérique du Nord,Québec,non
 peaux d'orignal en croûte,,,non
 peaux d'orignal en laine,,,non
@@ -12890,12 +13121,14 @@ peaux de Barbarie petites en poil,,,non
 peaux de barbe en poil,,,non
 peaux de barbe petites,,,non
 peaux de basannes,,,non
+peaux de bervesky chiens écureuils mulots taupes,,,non
 peaux de biche,Exclusivement Amérique du Nord,,non
 peaux de blaireau,,,non
 peaux de bœuf,,,non
 peaux de bœuf à faire du poil,,,non
 peaux de bœuf en poil,,,non
 peaux de bœuf tannées,,,non
+peaux de bois cerviers et loups,,,non
 peaux de bouc,,,non
 peaux de bouc crues,,,non
 peaux de bouc et chèvre,,,non
@@ -12918,6 +13151,7 @@ peaux de castor en poil,,,non
 peaux de castor gras,Exclusivement Amérique du Nord,,non
 peaux de castor gras et sec,Exclusivement Amérique du Nord,,non
 peaux de castor sec,Exclusivement Amérique du Nord,,non
+peaux de castorins genette et putois,,,non
 peaux de cazeau,,,non
 peaux de cerf,Exclusivement Amérique du Nord,,non
 peaux de cerf en croûte,,,non
@@ -12939,6 +13173,7 @@ peaux de chamois passées,,,non
 peaux de chat,Hors Amérique du Nord,,non
 peaux de chat cervier,,,non
 peaux de chat de mer,,,non
+peaux de chat domestique et sauvage,,,non
 peaux de chat putois,,,non
 peaux de chat sauvage,Hors Amérique du Nord,,non
 peaux de cheval,,,non
@@ -12980,11 +13215,13 @@ peaux de chevrotin,,,non
 peaux de chien,,,non
 peaux de chien de mer,,,non
 peaux de chien de mer passées en noir pour bottines,,,non
+peaux de chinchilla,,,non
 peaux de chinchilla et de fouine,,,non
 peaux de crible,,,non
 peaux de cuir rouge,,,non
 peaux de cygne,,,non
 peaux de cygne et d'oie pour éventails,,,non
+peaux de cygnes lamas martes pékans et vigognes,,,non
 peaux de daim,,,non
 peaux de daim chamoisée,,,non
 peaux de daim passées,,,non
@@ -12992,6 +13229,7 @@ peaux de fauve,,,non
 peaux de figue écrues,,,non
 peaux de fouine,Hors Amérique du Nord,,non
 peaux de grèbe,,,non
+peaux de grèbes marmottes oies et visons,,,non
 peaux de Guinée,,,non
 peaux de hamster,,,non
 peaux de la Louisiane,Exclusivement Amérique du Nord,Louisiane,non
@@ -13007,6 +13245,7 @@ peaux de lièvre en poil,,,non
 peaux de lièvre et de lapin,,,non
 peaux de lièvre et lapin,,,non
 peaux de lièvre sans poil,,,non
+peaux de lion once ours ourson,,,non
 peaux de loup,Exclusivement Amérique du Nord,,non
 peaux de loup cervier,Exclusivement Amérique du Nord,,non
 peaux de loup d'ours de tigre de chien de mer etc.,,,non
@@ -13057,42 +13296,45 @@ peaux de panthère,,,non
 peaux de pecan,,,non
 peaux de pécaude,,,non
 peaux de pelisse,,,non
-peaux de pelleterie,,,non
-peaux de pelleterie apprêtées d'agneau et de chevreau,,,non
-peaux de pelleterie apprêtées de lapin et de lièvre,,,non
-peaux de pelleterie apprêtées de phoque éjarrées,,,non
-peaux de pelleterie brutes d'agneau et de chevreau,,,non
-peaux de pelleterie brutes de lapin et de lièvre,,,non
-peaux de pelleterie d'astrakan,,,non
-peaux de pelleterie d'hermine et kulonok,,,non
-peaux de pelleterie de bervesky chiens écureuils mulots taupes,,,non
-peaux de pelleterie de bois cerviers et loups,,,non
-peaux de pelleterie de carcajoux,,,non
-peaux de pelleterie de castor,,,non
-peaux de pelleterie de castorins genette et putois,,,non
-peaux de pelleterie de chameau,,,non
-peaux de pelleterie de chat domestique et sauvage,,,non
-peaux de pelleterie de chinchilla,,,non
-peaux de pelleterie de cygnes lamas martes pékans et vigognes,,,non
-peaux de pelleterie de fouine,,,non
-peaux de pelleterie de grèbes marmottes oies et visons,,,non
-peaux de pelleterie de lion once ours ourson,,,non
-peaux de pelleterie de loutre,,,non
-peaux de pelleterie de panthère,,,non
-peaux de pelleterie de petit-gris,,,non
-peaux de pelleterie de phoque,,,non
-peaux de pelleterie de rat musque,,,non
-peaux de pelleterie de raton,,,non
-peaux de pelleterie de renard,,,non
-peaux de pelleterie de tigre,,,non
+peaux de pelleterie,,,oui
+peaux de pelleterie apprêtées d'agneau et de chevreau,,,oui
+peaux de pelleterie apprêtées de lapin et de lièvre,,,oui
+peaux de pelleterie apprêtées de phoque éjarrées,,,oui
+peaux de pelleterie brutes d'agneau et de chevreau,,,oui
+peaux de pelleterie brutes de lapin et de lièvre,,,oui
+peaux de pelleterie d'astrakan,,,oui
+peaux de pelleterie d'hermine et kulonok,,,oui
+peaux de pelleterie de bervesky chiens écureuils mulots taupes,,,oui
+peaux de pelleterie de bois cerviers et loups,,,oui
+peaux de pelleterie de carcajoux,,,oui
+peaux de pelleterie de castor,,,oui
+peaux de pelleterie de castorins genette et putois,,,oui
+peaux de pelleterie de chameau,,,oui
+peaux de pelleterie de chat domestique et sauvage,,,oui
+peaux de pelleterie de chinchilla,,,oui
+peaux de pelleterie de cygnes lamas martes pékans et vigognes,,,oui
+peaux de pelleterie de fouine,,,oui
+peaux de pelleterie de grèbes marmottes oies et visons,,,oui
+peaux de pelleterie de lion once ours ourson,,,oui
+peaux de pelleterie de loutre,,,oui
+peaux de pelleterie de panthère,,,oui
+peaux de pelleterie de petit-gris,,,oui
+peaux de pelleterie de phoque,,,oui
+peaux de pelleterie de rat musque,,,oui
+peaux de pelleterie de raton,,,oui
+peaux de pelleterie de renard,,,oui
+peaux de pelleterie de tigre,,,oui
 peaux de petit daim,,,non
 peaux de petit gris,,,non
+peaux de phoque,,,non
 peaux de plongeon,,,non
 peaux de poisson,,,non
 peaux de putois,,,non
 peaux de queues de martre,,,non
 peaux de raffinerie,,,non
 peaux de rat,Hors Amérique du Nord,,non
+peaux de rat musque,,,non
+peaux de raton,,,non
 peaux de renard,Hors Amérique du Nord,,non
 peaux de renne,,,non
 peaux de requin,,,non
@@ -13315,7 +13557,7 @@ perceintes,,,non
 percepierre,,,non
 percerettes,,,non
 percerettes de fer,,,non
-perche et avirons de bois,,,non
+perche et avirons de bois,,,oui
 perches,,,non
 perches à houblon,,,non
 perches commune,,,oui
@@ -13345,7 +13587,8 @@ perches petites et échalas petits et étançons petits,,,non
 perdreaux,,,non
 perdrix,,,non
 perdrix en plumes,,,non
-pereintes en chesne,,,non
+pereintes en chêne,,,non
+pereintes en chesne,,,oui
 pérelle,,,non
 perlasse ???,,,non
 perlasse et gravelées,,,non
@@ -13359,7 +13602,8 @@ perles fausses,,,non
 perles fausses montées,,,non
 perles fines,,,non
 perles fines de toute pêche,,,non
-Pernambouc,,,non
+pernambouc,,,non
+Pernambouc,,,oui
 perpétuane,,,non
 perpétuane apprêtée et peinte,,,non
 perpétuane aune,,,non
@@ -13388,7 +13632,7 @@ petit raz refoulé,,,non
 petit salé,,,non
 petit salé et porc salé,,,non
 petit son,,,non
-petite ratine,,,non
+petite ratine,,,oui
 petite Venise,,,non
 petites pièces de pin,,,non
 petits chênes dits chêneaux,,,non
@@ -13398,7 +13642,7 @@ petum,,,non
 peury,,,non
 pevine,,,non
 phaéton,,,non
-phaëton,,,non
+phaëton,,,oui
 phiass,,,non
 philas,,,non
 philipichine,,,non
@@ -13448,6 +13692,7 @@ pierrerie fausse et fine,,,non
 pierres,,,non
 pierres ???,,,non
 pierres à,,,non
+pierres à affiler,,,non
 pierres à affiler de 1 à 2 1/2 pieds,,,non
 pierres à affiler de 3 à 4 pieds,,,non
 pierres à affiler de 5 à 6 pieds,,,non
@@ -13511,7 +13756,7 @@ pierres à rasoir,,,non
 pierres à repasser,,,non
 pierres à taillandier,,,non
 pierres à tombe,,,non
-pierres affiloires,,,non
+pierres affiloires,,,oui
 pierres antiques,,,non
 pierres bant et de jais,,,non
 pierres blanches,,,non
@@ -13654,14 +13899,14 @@ pierres taillées,,,non
 pierres taillées à bâtir,,,non
 pierres taillées en auge,,,non
 pierres tendres,,,non
-pierres toilées,,,non
+pierres toilées,,,oui
 pierres travaillées,,,non
 pierres travaillées en banc balcon goulots etc.,,,non
 pierrestre,,,non
 pierrette,,,non
 pierreuve,,,non
-pierrier,,,non
-pierrier de fer,,,non
+pierrier,,,oui
+pierrier de fer,,,oui
 pierriers,,,non
 pierriers de fer,,,non
 pierriers de fonte,,,non
@@ -13850,8 +14095,8 @@ planches de jacaranda,,,non
 planches de laiton,,,non
 planches de laiton filé,,,oui
 planches de lard,,,non
-planches de liège,,,non
-planches de Liège,,,non
+planches de liège,,,oui
+planches de Liège,,,oui
 planches de lin,,,non
 planches de Lorient,,,non
 planches de merisier,Hors Amérique du Nord,,non
@@ -13899,9 +14144,9 @@ planches de Prusse de 8 à 12 pieds,,,non
 planches de Prusse de 8 à 9 pieds,,,non
 planches de Prusse de 9 à 10 pieds,,,non
 planches de Prusse de 9 pieds,,,non
-planches de Prusse de différents grandeurs,,,non
+planches de Prusse de différents grandeurs,,,oui
 planches de Prusse demie,,,non
-planches de Prusse ordinaires,,,non
+planches de Prusse ordinaires,,,oui
 planches de Prusse petites,,,non
 planches de Pui,,,non
 planches de rebut,,,non
@@ -14148,7 +14393,7 @@ plaques de fer battu,,,non
 plaques de fer de fonte,,,non
 plaques de four,,,non
 plaques en tôle,,,non
-plastres,,,non
+plastres,,,oui
 plat de boire,,,non
 plat de grès,,,non
 plateaux,,,non
@@ -14179,8 +14424,9 @@ platines de cuivre,,,non
 platines de cuivre et plaques de cuivre,,,non
 platines de fer,,,non
 platines de fer coulé de fonte,,,non
+platines de ferrure,,,non
 platines de fusils,,,non
-platines de serrure,,,non
+platines de serrure,,,oui
 platines en lingots,,,non
 platines minerai,,,non
 plâtre,,,non
@@ -14197,18 +14443,19 @@ plâtre moulu soit préparé,,,non
 plats de bois,,,non
 plats de fer,,,non
 plats de sapin,,,non
-plattile,,,non
+plattile,,,oui
 plawens,,,non
 plawens ou codde,,,non
-pléd,,,non
+pléd,,,oui
 plesny,,,non
 pleviers,,,non
 plies sèches,,,non
-ploc,,,non
-ploc de 30 pieds,,,non
+ploc,,,oui
+ploc de 30 pieds,,,oui
 ploc filé,,,oui
-ploc non filé,,,non
-ploc salé,,,non
+ploc non filé,,,oui
+ploc salé,,,oui
+plocq,,,non
 plomb,Hors Amérique du Nord,,non
 plomb à gibier,,,non
 plomb argenté,,,non
@@ -14238,7 +14485,7 @@ plomb thé,,,non
 plomb tuyaux d'orgues,,,non
 plomb vieux,Hors Amérique du Nord,,non
 plombagine,,,non
-plomp de mer,,,non
+plomp de mer,,,oui
 plumes,,,non
 plumes à cure-dents,,,non
 plumes à écrire,,,non
@@ -14372,7 +14619,7 @@ poil de porc,,,non
 poil de porc et poil de sanglier,,,non
 poil de sanglier,,,non
 poil de vache,,,non
-poil de vache et autres plocqs,,,non
+poil de vache et autres plocqs,,,oui
 poil et cheveux,,,non
 poil pour doublage,,,non
 poil propre à la chapellerie et à la filature,,,non
@@ -14414,7 +14661,7 @@ pois en gerbe,,,non
 pois et fève et haricot,,,non
 pois et fèves,,,non
 pois fayolles,,,non
-pois résine,,,non
+pois résine,,,oui
 pois secs,Hors Amérique du Nord,,non
 pois vert,,,oui
 pois verts,Hors Amérique du Nord,,non
@@ -14487,6 +14734,8 @@ poix,,,non
 poix blanche,,,non
 poix blanche et noire et résines,,,non
 poix blanche et résines,,,non
+poix et tartre,,,non
+poix et térébenthine,,,non
 poix grasse,,,non
 poix molle,,,non
 poix noire,,,non
@@ -14497,8 +14746,9 @@ poix terck daguet goudron,,,non
 polimi,,,non
 polimi de poil,,,non
 polimi gris,,,non
-polipode,,,non
+polipode,,,oui
 polonaises,,,non
+polypode,,,non
 pomargues,,,non
 pomelles à voiliers,,,non
 pommade,,,non
@@ -14533,12 +14783,13 @@ pompes pour pompiers,,,non
 pompons,,,non
 pompons d'argent et de soie,,,non
 poncire,,,non
-pondre à tirer,,,non
+pondre à tirer,,,oui
 popeline,,,non
 popeline de coton et soie,,,non
 popeline de filoselle,,,non
 popeline de soie,,,non
 populeum,,,non
+porc salé,,,non
 porcelaine,Hors Amérique du Nord,,non
 porcelaine à la valeur,,,non
 porcelaine commune,,,non
@@ -14751,7 +15002,8 @@ poussière de martre,,,non
 poussière de mûrier,,,non
 poussière de pin,,,non
 poussière de raisin,,,non
-poussière de résine,,,non
+poussière de résine,,,oui
+poussière de résines,,,non
 poussière de soude,,,non
 poussière de tartre,,,non
 poussière de terre,,,non
@@ -14777,7 +15029,8 @@ poutres de sapin de 32 pieds,,,non
 poutres de sapin de 35 pieds,,,non
 poutres de sapin de 36 pieds,,,non
 poutres de sapin de 40 pieds,,,non
-poutres demies poutres,,,non
+poutres demies,,,non
+poutres demies poutres,,,oui
 poutres et poutrelles,,,non
 poutres et solives de sapin,,,non
 pouzzolane,,,non
@@ -14841,7 +15094,7 @@ prussiate de potasse,,,non
 prussiate de potasse cristallisée,,,non
 prusus,,,non
 psalterion,,,non
-pumes,,,non
+pumes,,,oui
 pupitre,,,non
 pyrèthre,,,non
 pyrèthre racine,,,non
@@ -14868,15 +15121,15 @@ queues de rat musqué,,,non
 queues de renard,,,non
 queues de renard et écureuil,,,non
 queues penne et noppes,,,non
-quicaille de fer,,,non
+quicaille de fer,,,oui
 quikous chaus,,,non
 quilles de hêtre,,,non
 quilles de navire,,,non
 quilles de vaisseaux,,,non
 quincaille,Hors Amérique du Nord,,oui
-quincaille de fer ???,,,non
+quincaille de fer ???,,,oui
 quincaille de fonte acier,,,oui
-quincaille sèche,,,non
+quincaille sèche,,,oui
 quincaillerie,Hors Amérique du Nord,,non
 quincaillerie carde,,,non
 quincaillerie clou,,,non
@@ -14897,6 +15150,7 @@ quincaillerie de cuivre clou,,,non
 quincaillerie de cuivre colorié,,,non
 quincaillerie de cuivre fil de laiton,,,non
 quincaillerie de fer,,,non
+quincaillerie de fer ???,,,non
 quincaillerie de fer clou,,,non
 quincaillerie de fer en fil,,,non
 quincaillerie de fer et acier ???,,,non
@@ -14928,6 +15182,7 @@ quincaillerie fine d'acier,,,oui
 quincaillerie française,,,non
 quincaillerie grosse,,,non
 quincaillerie pour épingles de laiton filé jaune et noir,,,oui
+quincaillerie sèche,,,non
 quincaillerie y compris les armes et ferrailles,,,non
 quinette,,,non
 quinoa,,,non
@@ -15001,7 +15256,7 @@ radis dictame,,,non
 raie,,,non
 rais,,,non
 rais à charrettes,,,non
-rais à charrue,,,non
+rais à charrue,,,oui
 rais à charrues,,,non
 raiseau d'argent et d'or,,,non
 raiseau d'argent ou d'or,,,non
@@ -15047,11 +15302,11 @@ râpure de bois de cerf,,,non
 râpure de cerf,,,non
 râpure de cerf et d'ivoire,,,non
 râpure de forme,,,non
-râpures de cornes de bétail sabots de bétail etc.,,,non
+râpures de cornes de bétail sabots de bétail etc.,,,oui
 raquette,,,non
 raquette et volants,,,non
 ras et revêche de ???,,,non
-rasade,Hors Amérique du Nord,Afrique,non
+rasade,Hors Amérique du Nord,Afrique,oui
 rase,,,non
 rase blanche,,,non
 rase pour peinture,,,non
@@ -15059,12 +15314,13 @@ rasoirs,,,non
 rasoirs communs,,,non
 rasoirs de fer-blanc,,,non
 rasorde,,,non
-rassade,,,non
-rassade et verroterie,,,non
+rassade,,,oui
+rassade et verroterie,,,oui
 rassade ou verroterie,,,oui
 rassades,Hors Amérique du Nord,Afrique,non
 rassades de retour faute de vente,,,non
 rassades et vitrifications,,,non
+rassades ou verroterie,,,non
 ratafia,,,non
 ratafia de cerise,,,non
 ratafia de citron,,,non
@@ -15080,6 +15336,7 @@ ratine de Hollande,,,non
 ratine de laine,,,non
 ratine fine,,,non
 ratine frisée,,,non
+ratine petite,,,non
 ratine teinte,,,non
 rats de canons,,,non
 rave,,,non
@@ -15103,7 +15360,7 @@ raz de Saint-Maur,,,non
 raz de soie de Saint-Maur,,,non
 raz de soie de St Cyr,,,non
 raz du Maroc,,,non
-raz Maroc,,,non
+raz Maroc,,,oui
 raze blanche,,,non
 reagal,,,non
 rebuts de corail,,,non
@@ -15118,7 +15375,7 @@ redingotes,,,non
 redingotes d'Angleterre et de drap,,,non
 redingotes de drap,,,non
 redon,,,non
-redou,,,non
+redou,,,oui
 registres,,,non
 registres blancs,,,non
 réglisse,,,non
@@ -15143,16 +15400,19 @@ réseau d'or,,,non
 résidu d'acide vitriolique,,,non
 résidus d'acide nitrique,,,non
 résidus d'acide sulfuriques,,,non
-résine de gaïac,,,non
+résine de gaïac,,,oui
 résines,,,non
+résines de gaïac,,,non
 résines de jalap,,,non
 résines de scammonée,,,non
 résines et térébenthine,,,non
 résines exotiques,Hors Amérique du Nord,,non
-résines exotiques autres que assa foetida copal jalap et scammonée,,,non
+résines exotiques autres que assa foetida copal jalap et scammonée,,,oui
+résines exotiques autres que assa foetida copale jalap et scammonée,,,non
 résines exotiques des entrepôts,,,non
 résines exotiques scammonée,,,non
-résines ou harpoix,,,non
+résines ou harpoix,,,oui
+résines ou poix,,,non
 résines scammonée,,,non
 ressorts,,,non
 ressorts de carrosses,,,non
@@ -15162,9 +15422,9 @@ retaille de cuir,,,non
 retaille de peau,,,non
 retaillons de drap,,,non
 rets,,,non
-rets à pêcher,,,non
-rets ou filets,,,non
-rets pour la chasse et la pêche,,,non
+rets à pêcher,,,oui
+rets ou filets,,,oui
+rets pour la chasse et la pêche,,,oui
 rets pour tisseurs,,,non
 reuche,,,non
 réunies,,,oui
@@ -15201,7 +15461,7 @@ robes de femme,,,non
 robes de taffetas,,,non
 robes de toile peinte,,,non
 robes fourrées,,,non
-robine,,,non
+robine,,,oui
 robinets,,,non
 robinets à tirer le vin,,,non
 robinets de bronze,,,non
@@ -15235,6 +15495,9 @@ rognures de chapeau,,,non
 rognures de corne,,,non
 rognures de corne de cerf,,,non
 rognures de corne et de parchemin,,,non
+rognures de cornes de bétail sabots de bétail etc.,,,non
+rognures de cornes de cerf,,,non
+rognures de cornes de cerf et de snack,,,non
 rognures de cuir,,,non
 rognures de cuir et de peau,,,non
 rognures de dent d'éléphant,,,non
@@ -15283,7 +15546,7 @@ roseaux pour cannes,,,non
 rosée de vie,,,non
 roses,,,non
 roses de dictam,,,non
-roses de province,,,non
+roses de province,,,oui
 roses de Provins,,,non
 roses sèches,,,non
 rosette de cuivre,,,non
@@ -15348,12 +15611,14 @@ rousols,,,non
 roussettes,,,non
 ruban,,,non
 ruban à jour,,,non
+ruban à jour de fil,,,non
 ruban à perruques,,,non
 ruban au quart,,,non
 ruban au quart de soie,,,non
 ruban bis de fil de lin et de chanvre écru ou herbé,,,non
 ruban blanc ou mélangé de blanc,,,non
 ruban blanc ou mélange de blanc de fil de lin et de chanvre,,,non
+ruban blancs de chanvre et de lin,,,non
 ruban d'argent,,,non
 ruban d'argent et d'or,,,non
 ruban d'argent et d'or et de soie,,,non
@@ -15364,6 +15629,9 @@ ruban d'étoupes de chanvre,,,non
 ruban d'étoupes de lin,,,non
 ruban d'or,,,non
 ruban d'or et de soie,,,non
+ruban de chanvre et de lin,,,non
+ruban de chanvre et de lin écrus,,,non
+ruban de chanvre et de lin teints,,,non
 ruban de coutil,,,non
 ruban de crin,,,non
 ruban de dorure et soie,,,non
@@ -15386,13 +15654,18 @@ ruban de fleuret et de soie,,,non
 ruban de fleurs,,,non
 ruban de laine,,,non
 ruban de laine de laine pure teinte,,,non
+ruban de laine écrue pure,,,non
 ruban de laine et de soie,,,non
 ruban de laine mélangée de fil de laine et de poils,,,non
+ruban de laine mêlée de fil,,,non
+ruban de laine mêlée de fil teint,,,non
 ruban de laine pure écrue et blanche,,,non
+ruban de laine pure teinte,,,non
 ruban de lin,,,non
 ruban de Padoue,,,non
 ruban de soie,,,non
-ruban de sois,,,non
+ruban de soie unis et veloutés,,,non
+ruban de sois,,,oui
 ruban de velours,,,non
 ruban dorure d'argent,,,non
 ruban dorure d'argent et d'or,,,non
@@ -15404,35 +15677,39 @@ ruban écru,,,non
 ruban en dorure,,,non
 ruban et passementerie de soie,,,non
 ruban et passementerie diverse,,,non
-ruban et tresses et agrément d'argent et d'or,,,non
+ruban et tresse et agrément d'argent et d'or,,,non
+ruban et tresses et agrément d'argent et d'or,,,oui
 ruban fleuret et de soie,,,oui
 ruban mi soie,,,non
 ruban or charger,,,non
 ruban teint,,,non
 ruban velouté,,,non
+rubanerie,,,non
+rubanerie commune,,,non
+rubanerie de coton,,,non
 rubanerie de soie,,,non
 rubanerie et passementerie diverses celles de soie et dorure exceptées,,,non
 rubanerie ordinaire,,,non
-rubannerie,,,non
-rubannerie commune,,,non
-rubannerie de coton,,,non
-rubannerie de soie,,,non
-rubans blancs de chanvre et de lin,,,non
-rubans de chanvre et de lin,,,non
-rubans de chanvre et de lin écrus,,,non
-rubans de chanvre et de lin teints,,,non
-rubans de laine écrue pure,,,non
-rubans de laine mêlée de fil,,,non
-rubans de laine mêlée de fil teint,,,non
-rubans de laine pure teinte,,,non
-rubans de soie,,,non
-rubans de soie unis et veloutés,,,non
+rubannerie,,,oui
+rubannerie commune,,,oui
+rubannerie de coton,,,oui
+rubannerie de soie,,,oui
+rubans blancs de chanvre et de lin,,,oui
+rubans de chanvre et de lin,,,oui
+rubans de chanvre et de lin écrus,,,oui
+rubans de chanvre et de lin teints,,,oui
+rubans de laine écrue pure,,,oui
+rubans de laine mêlée de fil,,,oui
+rubans de laine mêlée de fil teint,,,oui
+rubans de laine pure teinte,,,oui
+rubans de soie,,,oui
+rubans de soie unis et veloutés,,,oui
 rubea major,,,non
 rubia tinctorum,,,non
-rubis brutes,,,non
+rubis brutes,,,oui
 rubis bruts,,,non
 rubis taillés,,,non
-rubn à jour de fil,,,non
+rubn à jour de fil,,,oui
 ruches,,,non
 ruches à miel renfermant des essaims vivants,,,non
 ruches de pin,,,non
@@ -15497,9 +15774,9 @@ safran du Gâtinais,,,non
 safran orange,,,non
 safranum,Hors Amérique du Nord,,non
 safranum et tournesol,,,non
-sagapemun,,,non
+sagapemun,,,oui
 sagapenum,,,non
-sagapin,,,non
+sagapin,,,oui
 sagati,,,non
 sagati de laine,,,non
 sagne,,,non
@@ -15523,7 +15800,7 @@ salemporis commun,,,non
 salep,,,non
 salicore,,,non
 salière de cristal,,,non
-salin,,,non
+salin,,,oui
 salins,,,non
 salins pour verrerie,,,non
 saloir,,,non
@@ -15535,9 +15812,10 @@ salpêtre crû,,,oui
 salpêtre des Indes,,,non
 salpêtre et soufre,Hors Amérique du Nord,,non
 salpêtre raffiné,,,non
-salsafras,,,non
-salsaula,,,non
+salsafras,,,oui
+salsaula,,,oui
 salsepareille,Hors Amérique du Nord,,non
+salsola,,,non
 sanas,,,non
 sanctuaire,,,non
 sandale,,,non
@@ -15551,9 +15829,9 @@ sang de bouquetin,,,non
 sang de dragon,Hors Amérique du Nord,,non
 sang de dragon commun,,,non
 sang de dragon fin,,,non
-sang dragon,,,non
+sang dragon,,,oui
 sang dragon fin,,,oui
-sangalette,,,non
+sangalette,,,oui
 sangles,,,non
 sangles de chanvre,,,non
 sangles de corde,,,non
@@ -15562,12 +15840,12 @@ sanglier,,,non
 sangsues,,,non
 sangsues et vipères,,,non
 sanguine,,,non
-santal,,,non
-santal blanc,,,non
-santal Blanc,,,non
-santal citrin,,,non
-santal moulu,,,non
-santal rouge,,,non
+santal,,,oui
+santal blanc,,,oui
+santal Blanc,,,oui
+santal citrin,,,oui
+santal moulu,,,oui
+santal rouge,,,oui
 santnaires,,,non
 santuaire,,,non
 sapan,,,non
@@ -15592,7 +15870,7 @@ sarcelé,,,non
 sarcelles,,,non
 sardi de laine,,,non
 sardinals,,,non
-sardine,,,non
+sardine,,,oui
 sardines,,,non
 sardines à l'huile,,,non
 sardines apprêtées,,,non
@@ -15606,16 +15884,16 @@ sardines pressées,,,non
 sardines pressées et salées,,,non
 sardines salées,,,non
 sareaux de toile,,,non
-sarge,,,non
-sarge de Poitou,,,non
-sarge de Saint-Maixant,,,non
-sarge de soie,,,non
-sarge du Languedoc,,,non
-sargette,,,non
-sargette fine,,,non
-sargue,,,non
-sargue de fil et de laine,,,non
-sarions d'Eparts,,,non
+sarge,,,oui
+sarge de Poitou,,,oui
+sarge de Saint-Maixant,,,oui
+sarge de soie,,,oui
+sarge du Languedoc,,,oui
+sargette,,,oui
+sargette fine,,,oui
+sargue,,,oui
+sargue de fil et de laine,,,oui
+sarions d'Eparts,,,oui
 sarrions d'espars,,,non
 sassafras,,,non
 sasses,,,non
@@ -15646,7 +15924,7 @@ satinette,,,non
 satinette de coton,,,non
 satinette de laine,,,non
 satissoie,,,non
-Saturne,,,non
+Saturne,,,oui
 saucisses,,,non
 saucisses de Boulogne,,,non
 saucissons,,,non
@@ -15707,10 +15985,10 @@ sayessa,,,non
 sayne,,,non
 sayns,,,non
 scammonée,,,non
-scammonnée,,,non
+scammonnée,,,oui
 scapa,,,non
 scaps,,,non
-sceaux de sapin,,,non
+sceaux de sapin,,,oui
 schakos,,,non
 schakos garnis,,,non
 schakos sans garniture,,,non
@@ -15723,11 +16001,12 @@ scies fines,,,non
 scille maritime,,,non
 scinque,,,non
 sculptures,,,non
-seamonnée,,,non
-seau à l'eau de sapin,,,non
+seamonnée,,,oui
+seau à l'eau de sapin,,,oui
 seau de Martre,Exclusivement Amérique du Nord,,oui
 seaux,,,non
 seaux à l'eau,,,non
+seaux à l'eau de sapin,,,non
 seaux cerclés de fer,,,non
 seaux de bois,,,non
 seaux de cuir,,,non
@@ -15747,12 +16026,12 @@ segrin,,,non
 seil de grain,,,non
 seil de grains,,,oui
 seilles de bois,,,non
-seivadille,,,non
+seivadille,,,oui
 sel,,,non
 sel ammonisé,,,non
 sel antarctique,,,non
 sel arctique,,,non
-sel artique,,,non
+sel artique,,,oui
 sel blanc,,,non
 sel blanc pour la pêche,,,non
 sel chimique,,,non
@@ -15788,7 +16067,7 @@ sel de Bretagne,,,non
 sel de carabé,,,non
 sel de chimie,,,non
 sel de corne de cerf,,,non
-sel de duobus,,,non
+sel de duobus,,,oui
 sel de fat ???,,,non
 sel de Franche-Comté,,,non
 sel de gemme,,,oui
@@ -15815,9 +16094,10 @@ sel de samoine,,,non
 sel de Saturne,,,non
 sel de Saturne et autres,,,non
 sel de sauvene,,,non
-sel de seignette,,,non
+sel de seignette,,,oui
 sel de Seignette,,,non
-sel de seignette policreste et Glauber,,,non
+sel de seignette policreste et Glauber,,,oui
+sel de Seignette policreste et Glauber,,,non
 sel de tamarin,,,non
 sel de tartaric,,,non
 sel de tartre,,,non
@@ -15828,7 +16108,7 @@ sel des sables d'Olonne,,,non
 sel dit beggere,,,non
 sel du Croisic,,,non
 sel du Poulinguen,,,non
-sel duobus,,,non
+sel duobus,,,oui
 sel émétique,,,non
 sel en boue,,,non
 sel en gemme,,,oui
@@ -15847,12 +16127,13 @@ sel minéral,,,non
 sel misay,,,non
 sel mistry,,,non
 sel ordinaire,,,non
+sel oxalate aide de potasse (sel d'oseille),,,non
 sel peccain,,,non
 sel policreste et d'Epsom,,,non
 sel pour la pêche libre,,,non
 sel purgatif,,,non
 sel regerat,,,non
-sel Saturne,,,non
+sel Saturne,,,oui
 sel sublimé,,,non
 sel sucsin,,,non
 sel sulfates de magnésie,,,oui
@@ -15863,6 +16144,7 @@ sel végétal,,,non
 sel vieux,,,non
 sel volatil,,,non
 sellerie,,,non
+sellerie commune,,,non
 sellerie de cuir,,,non
 sellerie en harnais,,,non
 selles,,,non
@@ -15876,9 +16158,9 @@ selles garnies de velours,,,non
 selles neuves,,,non
 selles vieilles,,,non
 sellet et télescope,,,non
-selleterie commune,,,non
+selleterie commune,,,oui
 selliers,,,non
-sels,,,non
+sels,,,oui
 semé,Hors Amérique du Nord,,non
 semelles et talons,,,non
 semen contra,,,non
@@ -15896,8 +16178,9 @@ séné,Hors Amérique du Nord,,non
 séné en follicule,,,non
 séné en grabeau,,,non
 sénegré,,,non
-senes,,,non
-sennes à pêcher,,,non
+senes,,,oui
+sennes,,,non
+sennes à pêcher,,,oui
 senobre,,,non
 sequins,,,non
 sequins par Marseille,,,non
@@ -15957,14 +16240,17 @@ serge de Londres et autres,,,non
 serge de Montauban,,,non
 serge de Nîmes,,,non
 serge de Nîmes aune,,,non
+serge de Poitou,,,non
 serge de Rome,,,non
+serge de Saint-Maixant,,,non
 serge de soie,,,non
-serge des prise,,,non
+serge des prise,,,oui
 serge des prises,,,non
 serge double,,,non
 serge drap,,,non
 serge drapée,,,non
 serge drapée et de laine,,,non
+serge du Languedoc,,,non
 serge écarlatine,,,non
 serge et prunelle de laine étroite,,,non
 serge fil et laine,,,non
@@ -15978,12 +16264,13 @@ sergette,,,non
 sergette de laine,,,non
 sergette de Montauban,,,non
 sergette des prises,,,non
+sergette fine,,,non
 sergette Maine,,,non
 serinettes,,,non
 serinettes ouvrées,,,non
 seringues,,,non
 seringues d'étain,,,non
-serizes,,,non
+serizes,,,oui
 serpentera virgina,,,non
 serpentin à distiller,,,non
 serpentine,,,non
@@ -16057,9 +16344,10 @@ simaboura,Hors Amérique du Nord,tropiques,oui
 simarouba,,,non
 sinabre,,,non
 siné,,,non
+singalette,,,non
 singe,,,non
 siragondis,,,non
-siraménéas,,,non
+siraménéas,,,oui
 sirop,Hors Amérique du Nord,,non
 sirop à boire,,,non
 sirop brut,,,non
@@ -16097,7 +16385,7 @@ sirop mélasse,,,non
 sirop ou jus de cerise et de grenade avec nourritures,,,oui
 sirop ou jus de cerise et de grenades,,,oui
 sirop terré,,,non
-sirops,,,non
+sirops,,,oui
 sistes condales,,,non
 sistresaye,,,non
 sivadille,,,non
@@ -16172,7 +16460,8 @@ soie en peluches,,,non
 soie en rames,,,non
 soie en strasse,,,non
 soie en suaze,,,non
-soie étoupe,,,non
+soie étoupe,,,oui
+soie étoupes,,,non
 soie exportée de Marseille,,,non
 soie filée,,,oui
 soie fleuret ???,,,non
@@ -16284,12 +16573,14 @@ sorbet,,,non
 sortes,,,non
 sotas,,,non
 soucade,,,non
-souci,,,non
-souci pour mouchoirs,,,non
+souci,,,oui
+souci pour mouchoirs,,,oui
 soucis,,,non
 soucis de soie,,,non
+soucis pour mouchoirs,,,non
 soucoupes et tasses de faïence,,,non
 soucoupes vernies,,,non
+soucrillon,,,non
 soucrillon en gerbes,,,non
 soude de toute sorte,,,non
 soude soufre,,,non
@@ -16331,7 +16622,7 @@ souliers brodés d'argent,,,non
 souliers brodés d'argent et d'or,,,non
 souliers brodés d'argent et de soie,,,non
 souliers brodés et pour femme,,,non
-souliers commun,,,non
+souliers commun,,,oui
 souliers communs,,,non
 souliers couverts en callemande et pour femme,,,non
 souliers couverts en étoffe,,,non
@@ -16388,15 +16679,15 @@ spiante,,,non
 spicaceltica,,,non
 spicajudica,,,non
 spicanardi,,,non
-spicaseltica,,,non
+spicaseltica,,,oui
 spinenardi,,,non
 spirinck,,,non
 spode,,,non
 sprottes,,,non
-squille de grain,,,non
+squille de grain,,,oui
 squine,,,non
 stafisagre,,,non
-stafisaigre,,,non
+stafisaigre,,,oui
 stagnon,,,non
 statue de pierre,,,non
 statue de plomb,,,non
@@ -16405,7 +16696,8 @@ stil de grain,,,non
 stil de grains et vermillon,,,non
 stinkerque,,,non
 stinkerque brodée,,,non
-stira liquide,,,non
+stira liquide,,,oui
+stirax liquide,,,non
 stockfisch,,,non
 stockfisch et morue,,,non
 stockfisch mariné et salé,,,non
@@ -16424,7 +16716,7 @@ substances et produits chimiques principalement eau-forte et couperose,,,non
 substances et produits chimiques principalement en eau-forte et couperose bleue et blanche,,,non
 suc de réglisse,,,non
 succade,,,non
-succin,,,non
+succin,,,oui
 sucre,Hors Amérique du Nord,antilles,non
 sucre à devises et à casser,,,non
 sucre bâtard,,,non
@@ -16435,7 +16727,8 @@ sucre blanc en pain,,,non
 sucre blanc et sucre terré,,,non
 sucre blanc et sucre terré des Îles françaises de l'Amérique,,,non
 sucre blanc et sucre terré et sucre têtes,,,non
-sucre blanc et tabatière de bergamote,,,non
+sucre blanc et tabatière de bergamote,,,oui
+sucre blanc et tabatières de bergamote,,,non
 sucre blanc terré et têtes,,,non
 sucre brun,Hors Amérique du Nord,antilles,non
 sucre brun brut,,,non
@@ -16527,10 +16820,10 @@ sucre vergeoise,,,non
 sucrerie,,,non
 sucrerie dragées,,,oui
 sucrerie drapée,,,non
-sucreterie,,,non
+sucreterie,,,oui
 sucrier,,,non
 sucrier de faïence,,,non
-sucrillon,,,non
+sucrillon,,,oui
 sucs d'espèces particulières,,,non
 suie de cheminée,,,non
 suif,Hors Amérique du Nord,,non
@@ -16558,6 +16851,7 @@ sulfate de cuivre et de fer,,,non
 sulfate de fer,,,non
 sulfate de magnésie de potasse et de soude,,,non
 sulfate de plomb,,,non
+sulfate de potasse,,,non
 sulfate de quinine,,,non
 sulfate de zinc,,,non
 sulfure d'arsenic jaune et rouge,,,non
@@ -16569,7 +16863,7 @@ sumeuille de cuivre,,,non
 surge de laine,,,non
 surons,,,non
 sutoze,,,non
-tababères en bergamote,,,non
+tababères en bergamote,,,oui
 tabac,Hors Amérique du Nord,,non
 tabac à fumer,,,non
 tabac à mâcher,,,non
@@ -16654,14 +16948,15 @@ tabac râpé de la Ferme,,,non
 tabac râpé par Dunkerque,,,non
 tabac viedé,,,non
 tabagies,,,non
-tabatière d'écaille à charnière d'or,,,non
-tabatière d'écaille incrustées d'or,,,non
+tabatière d'écaille à charnière d'or,,,oui
+tabatière d'écaille incrustées d'or,,,oui
 tabatiere de bois blanc,,,oui
-tabatière de bois d'olivier,,,non
-tabatière de buis,,,non
-tabatière de carton,,,non
-tabatière de cuivre,,,non
+tabatière de bois d'olivier,,,oui
+tabatière de buis,,,oui
+tabatière de carton,,,oui
+tabatière de cuivre,,,oui
 tabatières,,,non
+tabatières à bergamote,,,non
 tabatières aux bergarnotes,,,oui
 tabatières communes,,,non
 tabatières corne,,,non
@@ -16671,6 +16966,7 @@ tabatières d'argent et d'or,,,non
 tabatières d'argent et dorées,,,non
 tabatières d'argent et petites,,,non
 tabatières d'écaille,,,non
+tabatières d'écaille à charnière d'or,,,non
 tabatières d'écaille à pitons d'argent,,,non
 tabatières d'écaille et à pitons d'argent,,,oui
 tabatières d'écaille et garnies d'argent,,,oui
@@ -16679,6 +16975,7 @@ tabatières d'écaille et incrustées d'argent et d'or,,,oui
 tabatières d'écaille garnies d'argent,,,non
 tabatières d'écaille incrustées d'argent,,,non
 tabatières d'écaille incrustées d'argent et d'or,,,non
+tabatières d'écaille incrustées d'or,,,non
 tabatières d'écaille unie,,,non
 tabatières d'émail,,,non
 tabatières d'olivier,,,non
@@ -16687,11 +16984,14 @@ tabatières d'os,,,non
 tabatières de bergamote,,,non
 tabatières de bois,,,non
 tabatières de bois blanc,,,non
+tabatières de bois d'olivier,,,non
 tabatières de bois verni,,,non
+tabatières de buis,,,non
 tabatières de carton,,,non
 tabatières de composition,,,non
 tabatières de corne,,,non
 tabatières de cuir,,,non
+tabatières de cuivre,,,non
 tabatières de fer-blanc,,,non
 tabatières de forme,,,non
 tabatières de nacre,,,non
@@ -16763,8 +17063,8 @@ tablier peint,,,non
 tabourets,,,non
 tabourets d'enfant,,,non
 tacelle de fer,,,non
-tacques de cheminée,,,non
-taffes,,,non
+tacques de cheminée,,,oui
+taffes,,,oui
 taffetas,,,non
 taffetas blanc,,,non
 taffetas bleu,,,non
@@ -16920,21 +17220,24 @@ tapsel,,,non
 tapsel des Indes,,,non
 tapsel grand,,,non
 tapsel large,,,non
-tarnatane,,,non
+taques de cheminée,,,non
+tarnatane,,,oui
 tarnatanes,,,non
 tars,,,non
 tartagogne,,,non
-tartarre,,,non
-tartrate de potasse de soude et de potasse,,,non
+tartarre,,,oui
+tartrate de potasse de soude et de potasse,,,oui
 tartre,,,non
 tartre blanc,,,non
 tartre brut,,,non
 tartre de lie de vin désséchée,,,non
 tartre de lie de vin liquide,,,non
+tartre de potasse de soude et de potasse,,,non
+tartre de soude et de potasse,,,non
 tartre émétique,,,non
 tartre en pierre,,,non
 tartre en poussière,,,non
-tartre et harpoix,,,non
+tartre et harpoix,,,oui
 tartre et lie de vin,,,non
 tartre et térébenthine,,,non
 tartre glan,,,non
@@ -16976,7 +17279,7 @@ télescope de cuivre poli,,,non
 tenaille,,,non
 tenaille de fer,,,non
 tenaille grossière,,,non
-tendeurs de voile,,,non
+tendeurs de voile,,,oui
 tendeurs pour voile,,,non
 tenelle d'espars,,,non
 tentes,,,non
@@ -16984,7 +17287,7 @@ tentes canonnières,,,non
 tentes et voile,,,non
 tentes et voile en rolles ou pièces,,,non
 tepaye des Indes,,,non
-teraille ed terre,,,non
+teraille ed terre,,,oui
 terc,,,non
 térébenthine,Hors Amérique du Nord,,non
 térébenthine commune,Hors Amérique du Nord,,non
@@ -16999,7 +17302,7 @@ térébenthine liquide,,,non
 terendine,,,non
 terixe,,,non
 ternilles,,,non
-terra merita,,,non
+terra merita,,,oui
 terraille,,,non
 terraille blanche,,,non
 terraille commune,,,non
@@ -17007,14 +17310,15 @@ terraille de brin ???,,,non
 terraille de Gênes,,,non
 terraille de Gênes noire,,,non
 terraille de grès,,,non
+terraille de terre,,,non
 terraille grise,,,non
 terraille grosse,,,non
 terraille grossière,,,non
 terraille noire,,,non
 terraille noire de Gênes,,,oui
 terraillon de grès,,,non
-terramenta,,,non
-terramerita,,,non
+terramenta,,,oui
+terramerita,,,oui
 terraque,,,non
 terrasse,,,non
 terre,,,non
@@ -17101,7 +17405,8 @@ terrier de fer,,,non
 terrine de grès,,,non
 têtes à perruques,,,non
 têtes brodées et de basin,,,non
-tetes de cabillaud,,,non
+tetes de cabillaud,,,oui
+têtes de cabillaud,,,non
 têtes de carabé,,,non
 têtes de chou,,,non
 têtes de clou de girofle,,,non
@@ -17138,9 +17443,10 @@ théières de fer-blanc,,,non
 théières de métal,,,non
 théières de terre noire,,,non
 theloc,,,non
-thepaïs,,,non
-thepaya,,,non
-theriaque,,,non
+thepaïs,,,oui
+thepaya,,,oui
+thepays,,,non
+theriaque,,,oui
 thériaque,,,non
 thériaque de Venise,,,non
 thermomètre,,,non
@@ -17169,29 +17475,29 @@ tiretaine et miselaine,,,non
 tiretaine et miselaine aune,,,non
 tirtaine,,,non
 tirtaine de laine,,,non
-tissus brochés d'argent et d'or faux de soie,,,non
-tissus brochés d'argent et d'or fin de soie,,,non
-tissus brochés de soie de soie,,,non
-tissus d'écorce,,,non
-tissus de bourre de soie façon cachemire,,,non
-tissus de chanvre ou de lin,,,non
-tissus de chanvre ou de lin mêlés,,,non
-tissus de coton,,,non
-tissus de coton basin piqués mousselinettes,,,non
-tissus de coton simples,,,non
-tissus de crin,,,non
-tissus de crin et de poils,,,non
-tissus de fil,,,non
-tissus de laine,,,non
-tissus de laine casimirs et mérinos,,,non
-tissus de lin et de chanvre mêlés,,,non
-tissus de plocq,,,non
-tissus de poil,,,non
-tissus de soie blonde,,,non
-tissus de soie mêlée,,,non
-tissus de soie unis,,,non
-tissus en feuilles,,,non
-tissus façonnés de soie,,,non
+tissus brochés d'argent et d'or faux de soie,,,oui
+tissus brochés d'argent et d'or fin de soie,,,oui
+tissus brochés de soie de soie,,,oui
+tissus d'écorce,,,oui
+tissus de bourre de soie façon cachemire,,,oui
+tissus de chanvre ou de lin,,,oui
+tissus de chanvre ou de lin mêlés,,,oui
+tissus de coton,,,oui
+tissus de coton basin piqués mousselinettes,,,oui
+tissus de coton simples,,,oui
+tissus de crin,,,oui
+tissus de crin et de poils,,,oui
+tissus de fil,,,oui
+tissus de laine,,,oui
+tissus de laine casimirs et mérinos,,,oui
+tissus de lin et de chanvre mêlés,,,oui
+tissus de plocq,,,oui
+tissus de poil,,,oui
+tissus de soie blonde,,,oui
+tissus de soie mêlée,,,oui
+tissus de soie unis,,,oui
+tissus en feuilles,,,oui
+tissus façonnés de soie,,,oui
 toile,,,non
 toile ???,,,non
 toile ...,,,non
@@ -17263,7 +17569,7 @@ toile au lain,,,non
 toile au lait,,,non
 toile au lait lin,,,non
 toile bajas,,,non
-toile bajutapaux,,,non
+toile bajutapaux,,,oui
 toile barrière,,,non
 toile Barrois,,,non
 toile bas brin,,,non
@@ -17276,6 +17582,8 @@ toile blancard de Rouen,,,non
 toile blancard et fleuret,,,non
 toile blanche,Hors Amérique du Nord,,non
 toile blanche à imprimer,,,non
+toile blanche abati,,,non
+toile blanche aman,,,non
 toile blanche bleue et de lin,,,non
 toile blanche commune,,,non
 toile blanche damassée de lin pour nappes et serviettes,,,non
@@ -17324,20 +17632,24 @@ toile blanche de lin pour nappes et serviettes,,,non
 toile blanche de ménages,,,non
 toile blanche de Saint Quentin et Valenciennes,,,non
 toile blanche de Saint-Quentin,,,non
-toile blanche dite abati,,,non
-toile blanche dite aman,,,non
-toile blanche dite demitte,,,non
-toile blanche dite escanite,,,non
-toile blanche dite Guinée,,,non
-toile blanche dite large,,,non
+toile blanche demitte,,,non
+toile blanche dite abati,,,oui
+toile blanche dite aman,,,oui
+toile blanche dite demitte,,,oui
+toile blanche dite escanite,,,oui
+toile blanche dite Guinée,,,oui
+toile blanche dite large,,,oui
 toile blanche en epièces de 20 aunes,,,oui
 toile blanche en pièces de 20 aunes,,,non
+toile blanche escanite,,,non
 toile blanche et rouge,,,non
 toile blanche et rousse,,,non
 toile blanche et teinte,,,non
 toile blanche étrangère,,,non
 toile blanche fine,,,non
 toile blanche fine et de lin,,,non
+toile blanche guinée,,,non
+toile blanche large,,,non
 toile blanche mousselines,,,oui
 toile blanche ordinaire,,,non
 toile blanche ordre,,,non
@@ -17356,7 +17668,7 @@ toile brantes des Indes,,,non
 toile brauls,,,non
 toile brauls des Indes,,,non
 toile brauls imitant celles des Indes,,,non
-toile Bretagne Locronan,,,non
+toile Bretagne Locronan,,,oui
 toile brin,,,non
 toile brochée,,,non
 toile brodée,,,non
@@ -17370,7 +17682,7 @@ toile cadéas,,,non
 toile caissie,,,non
 toile caladaris,,,non
 toile calanea,,,non
-toile Cambrai,,,non
+toile Cambrai,,,oui
 toile canevas,,,non
 toile carotte,,,non
 toile carotte double,,,non
@@ -17418,23 +17730,27 @@ toile commune écrue et grosse et de lin,,,non
 toile commune et fine,,,non
 toile cordat,,,non
 toile cordeillat,,,non
-toile coros,,,non
-toile coros imitant celle des Indes,,,non
-toile corots,,,non
-toile corots double,,,non
-toile corots simple,,,non
+toile coros,,,oui
+toile coros imitant celle des Indes,,,oui
+toile corot,,,non
+toile corot double,,,non
+toile corot imitant celle des Indes,,,non
+toile corot simple,,,non
+toile corots,,,oui
+toile corots double,,,oui
+toile corots simple,,,oui
 toile cotonnade,,,non
 toile cottray,,,non
 toile coupis,,,non
 toile coupis imitant celle des Indes,,,non
-toile couray,,,non
-toile Courtray,,,non
+toile couray,,,oui
+toile Courtray,,,oui
 toile coutil,,,non
 toile coutil commune,,,non
 toile coutil croisée,,,non
 toile coutil de fil,,,non
 toile coutil de fil et de laine,,,non
-toile coutray,,,non
+toile coutray,,,oui
 toile crée,,,non
 toile crée large,,,non
 toile créé large,,,non
@@ -17449,6 +17765,8 @@ toile crue de ménage,,,non
 toile crue et teinte,,,non
 toile crue grise et ardoisée,,,non
 toile crue pièces de 20 aunes,,,non
+toile custas,,,non
+toile custas imitant celle des Indes,,,non
 toile d'abas,,,non
 toile d'Agen,,,non
 toile d'Alep,,,non
@@ -17539,7 +17857,7 @@ toile de Bretagne de couleur,,,non
 toile de Bretagne de fil,,,non
 toile de Bretagne de halle,,,non
 toile de Bretagne de haut brin,,,non
-toile de Bretagne de Locronan,,,non
+toile de Bretagne de Locronan,,,oui
 toile de Bretagne de ménages,,,non
 toile de Bretagne de quatre fils,,,non
 toile de Bretagne de rondelette,,,non
@@ -17556,7 +17874,7 @@ toile de Bretagne gracienne,,,non
 toile de Bretagne grise,,,non
 toile de Bretagne gros brin,,,non
 toile de Bretagne large,,,non
-toile de Bretagne Locronan,,,non
+toile de Bretagne Locronan,,,oui
 toile de Bretagne ouvrée,,,non
 toile de Bretagne peinte,,,non
 toile de Bretagne rayée,,,non
@@ -17570,6 +17888,7 @@ toile de brin,,,non
 toile de Bruges,,,non
 toile de caladaris,,,non
 toile de Cambrai,,,non
+toile de Cambrai aune,,,non
 toile de Cambrai et de lin,,,non
 toile de Cambrai et de lin fin,,,non
 toile de capiton,,,non
@@ -17600,8 +17919,10 @@ toile de chanvre et de lin apprêtée écrue de 13 à 20 fils,,,non
 toile de chanvre et de lin apprêtée écrue de 8 à 13 fils,,,non
 toile de chanvre et de lin apprêtée écrue de fils,,,non
 toile de chanvre et de lin apprêtée écrue de moins de 8 fils,,,non
-toile de chanvre et de lin écrue,,,non
+toile de chanvre et de lin blanches,,,non
+toile de chanvre et de lin écrue,,,oui
 toile de chanvre et de lin écrue pour voile,,,non
+toile de chanvre et de lin écrues,,,non
 toile de chanvre et de lin imprimée de 13 à 20 fils,,,non
 toile de chanvre et de lin imprimée mi-blanche unie de moins de 8 fils,,,non
 toile de chanvre et de lin imprimée unie,,,non
@@ -17624,6 +17945,9 @@ toile de chanvre et de lin unie teinte de 13 fils inclusivement à 20 fils exclu
 toile de chanvre et de lin unie teinte de 8 fils inclusivement à 13 fils exclusivement,,,non
 toile de chanvre et de lin unie teinte de moins de 8 fils,,,non
 toile de chanvre et écrue et de lin,,,non
+toile de chanvre étoupes,,,non
+toile de chanvre étoupes grise,,,non
+toile de chanvre étoupes grises aune,,,non
 toile de chanvre fine,,,non
 toile de chanvre grise,,,non
 toile de chanvre grosse,,,non
@@ -17664,7 +17988,7 @@ toile de coton de ???,,,non
 toile de coton de coton français,,,non
 toile de coton de duvet,,,non
 toile de coton de France,,,non
-toile de coton de Guinée,,,non
+toile de coton de Guinée,,,oui
 toile de coton de juve,,,non
 toile de coton de la Compagnie,,,non
 toile de coton de Rouen,,,non
@@ -17672,7 +17996,7 @@ toile de coton demitte,,,non
 toile de coton des Indes,,,non
 toile de coton des Indes brodée,,,non
 toile de coton dite armanie,,,non
-toile de coton dite Guinée,,,non
+toile de coton dite Guinée,,,oui
 toile de coton du Levant,,,non
 toile de coton du Piémont,,,non
 toile de coton en siamoise,,,non
@@ -17727,6 +18051,7 @@ toile de coton teinte et bas prix,,,non
 toile de coton vieux,,,non
 toile de cottray,,,non
 toile de couleur,,,non
+toile de Courtrai,,,non
 toile de coutil,,,non
 toile de coutil rayée,,,non
 toile de crin,,,non
@@ -17765,7 +18090,7 @@ toile de Grenade,,,non
 toile de Grenade de lin,,,non
 toile de Grenoble,,,non
 toile de gris,,,non
-toile de Guinée,,,non
+toile de Guinée,,,oui
 toile de halle,,,non
 toile de Hanovre,,,non
 toile de Hollande,,,non
@@ -17775,10 +18100,10 @@ toile de killis,,,non
 toile de laine dite herbage,,,non
 toile de laine pour blutoir,,,non
 toile de Landerneau,,,non
-toile de Langenau,,,non
+toile de Langenau,,,oui
 toile de Languenan,,,non
-toile de Languenaud,,,non
-toile de Lauderne,,,non
+toile de Languenaud,,,oui
+toile de Lauderne,,,oui
 toile de Laval,,,non
 toile de Laval de renvoi,,,non
 toile de Léon,,,non
@@ -17870,9 +18195,9 @@ toile de lingerie,,,non
 toile de linon,,,non
 toile de linon de Saint-Quentin,,,non
 toile de lisson,,,non
-toile de Locronan,,,non
+toile de Locronan,,,oui
 toile de Lombourg,,,non
-toile de Lucarnon,,,non
+toile de Lucarnon,,,oui
 toile de Lyon,,,non
 toile de Lyon teinte,,,non
 toile de Marigny,,,non
@@ -17884,12 +18209,13 @@ toile de montagne,,,non
 toile de Morlaix,,,non
 toile de Mortagne,,,non
 toile de Mortagne ???,,,non
-toile de mousseline,,,non
+toile de mousseline,,,oui
 toile de Moutiers,,,non
 toile de paille,Hors Amérique du Nord,,non
 toile de peinte,,,non
 toile de Piémont,,,non
-toile de ploc,,,non
+toile de ploc,,,oui
+toile de plocq,,,non
 toile de poil de chèvre,,,non
 toile de Pontigny,,,non
 toile de Pontivy,,,non
@@ -17903,7 +18229,7 @@ toile de Russie,,,non
 toile de Saint-Gail,,,non
 toile de Saint-Georges,,,non
 toile de Saint-Jean,,,non
-toile de Saint-Quentin,,,non
+toile de Saint-Quentin,,,oui
 toile de Saintonge,,,non
 toile de serpillière,,,non
 toile de serviette,,,non
@@ -17917,7 +18243,7 @@ toile de soie,,,non
 toile de Suisse,,,non
 toile de treillis,,,non
 toile de Troyes,,,non
-toile de valenciennes,,,non
+toile de valenciennes,,,oui
 toile de Valenciennes,,,non
 toile de Vimoutiers,,,non
 toile de Vitré,,,non
@@ -17929,6 +18255,8 @@ toile des Indes ???,,,non
 toile des Indes ??? ??? ??? Indes,,,non
 toile des Indes commerce français,,,non
 toile des Indes diverse,,,oui
+toile des Indes du commerce étranger,,,non
+toile des Indes du commerce français,,,non
 toile des Indes en ??? français,,,non
 toile des Indes et perles,,,non
 toile des Indes gastas,,,non
@@ -17941,6 +18269,7 @@ toile du Brabant,,,non
 toile du cerf,,,non
 toile du commerce de France et des Indes,,,non
 toile du commerce étranger et des Indes,,,non
+toile du Levant,,,non
 toile du Lyonnais,,,non
 toile du pays,,,non
 toile du Piémont,,,non
@@ -17958,7 +18287,7 @@ toile en basin de coton brodé en soie,,,non
 toile en claire et de lin,,,non
 toile en fair,,,non
 toile en sacs,,,non
-toile escamite,,,non
+toile escamite,,,oui
 toile et bonneterie,,,non
 toile et laine à bouquets de laine,,,non
 toile et treillis lustrés,,,non
@@ -18010,19 +18339,19 @@ toile grosse garnie ??? pour prélat,,,non
 toile grossière en pièce de 50 aunes,,,non
 toile haut brin,,,non
 toile hivre,,,non
-toile idem à carreaux,,,non
-toile idem blanche,,,non
-toile idem de halle,,,non
-toile idem de ménages,,,non
-toile idem diverse,,,non
-toile idem entre large,,,non
-toile idem étroite,,,non
-toile idem gracienne,,,non
-toile idem imprimée,,,non
-toile idem large,,,non
-toile idem ordinaire,,,non
-toile idem rosconne,,,non
-toile idem royale,,,non
+toile idem à carreaux,,,oui
+toile idem blanche,,,oui
+toile idem de halle,,,oui
+toile idem de ménages,,,oui
+toile idem diverse,,,oui
+toile idem entre large,,,oui
+toile idem étroite,,,oui
+toile idem gracienne,,,oui
+toile idem imprimée,,,oui
+toile idem large,,,oui
+toile idem ordinaire,,,oui
+toile idem rosconne,,,oui
+toile idem royale,,,oui
 toile imitant celle des Indes,,,non
 toile imitant celle des Indes et de Rouen,,,non
 toile imitant celle des Indes et nationale,,,non
@@ -18108,7 +18437,8 @@ toile pour emballage grise et de lin,,,oui
 toile pour essuie-mains,,,non
 toile pour essuie-mains grise de lin,,,non
 toile pour essuie-mains grise et de lin,,,oui
-toile pour faire chemise à nègres,,,non
+toile pour faire chemise à nègre,,,non
+toile pour faire chemise à nègres,,,oui
 toile pour faire linge,,,non
 toile pour la Hollande,,,non
 toile pour matelas,,,non
@@ -18177,17 +18507,17 @@ toile teinte de moins de 8 fils,,,non
 toile tissée,,,non
 toile tissée très fin,,,non
 toile treillis,,,non
-toile Valenciennes,,,non
+toile Valenciennes,,,oui
 toile vernante,,,non
 toile vitrée,,,non
-toilerie,,,non
-toilerie des Indes du commerce étranger,,,non
-toilerie des Indes du commerce français,,,non
-toilerie du Levant,,,non
-toilerie nationale,,,non
-toiles custas,,,non
-toiles custas imitant celles des Indes,,,non
-toiles de coton brodées brochées imprimées et unies,,,non
+toilerie,,,oui
+toilerie des Indes du commerce étranger,,,oui
+toilerie des Indes du commerce français,,,oui
+toilerie du Levant,,,oui
+toilerie nationale,,,oui
+toiles custas,,,oui
+toiles custas imitant celles des Indes,,,oui
+toiles de coton brodées brochées imprimées et unies,,,oui
 toilettes,,,non
 toilettes blanches de lin,,,non
 toilettes brodées de soie,,,non
@@ -18206,7 +18536,7 @@ tôle de fer-blanc,,,non
 tôle double de fer,,,non
 tôle en platines vernies,,,non
 tombas,,,non
-tombe de marbre,,,non
+tombe de marbre,,,oui
 tombeaux,,,non
 tombeaux de marbre,,,non
 tombereaux,,,non
@@ -18230,9 +18560,9 @@ tortue marinée et salée,,,non
 tortues vivantes et volailles,,,non
 touques de grès,,,non
 touques petites,,,non
-tour à filer,,,non
-tour de pin,,,non
-tour pour tourneur,,,non
+tour à filer,,,oui
+tour de pin,,,oui
+tour pour tourneur,,,oui
 tourbe,,,non
 tournebres,,,non
 tournebroche,,,non
@@ -18251,6 +18581,8 @@ tours à filer,,,non
 tours à filer de bois,,,non
 tours à guillocher,,,non
 tours de lit de bourre,,,non
+tours de pin,,,non
+tours pour tourneur,,,non
 tourteaux de graines grasses,,,non
 tourteaux de graines oléagineuses,,,non
 toutenague,,,non
@@ -18259,13 +18591,13 @@ train de carrosses,,,non
 trait d'argent et d'or,,,non
 trait d'or,,,non
 tramail,,,non
-tratrate de soude et de potasse,,,non
+tratrate de soude et de potasse,,,oui
 travettes,,,non
 travettes de bois,,,non
 travons,,,non
 travons de sapin,,,non
 travout,,,non
-tréfilerie de fer même étamé,,,non
+tréfilerie de fer même étamé,,,oui
 trèfle,,,non
 treillis,,,non
 treillis bougrand et canevas,,,non
@@ -18281,6 +18613,7 @@ trenelle de jonc,,,non
 trépieds,,,non
 trépieds de fer,,,non
 tresse d'argent,,,non
+tresse d'argent et d'or,,,non
 tresse d'or,,,non
 tresse de fil,,,non
 tresse de fleures,,,non
@@ -18288,17 +18621,20 @@ tresse de fleuret,,,non
 tresse de jonc,,,non
 tresse de laine,,,non
 tresse de laine 30 lignes,,,non
+tresse de lin,,,non
 tresse de soie,,,non
-tresses d'argent et d'or,,,non
-tresses d'or,,,non
-tresses de lin,,,non
+tresses d'argent et d'or,,,oui
+tresses d'or,,,oui
+tresses de lin,,,oui
 tréteaux de chêne de 6 pouces,,,non
-tricot,,,non
-tricot de laine en bonneterie,,,non
+tricot,,,oui
+tricot de laine en bonneterie,,,oui
+tricots,,,non
 tricots de coton,,,non
 tricots de coton et tricots de fil,,,non
 tricots de fil,,,non
 tricots de laine,,,non
+tricots de laine en bonneterie,,,non
 tricots de soie,,,non
 trictrac,,,non
 tripe,,,non
@@ -18362,7 +18698,7 @@ turquoise des prises,,,non
 tutic,,,non
 tutilly,,,non
 tuttie,,,non
-tuyau en plomb,,,non
+tuyau en plomb,,,oui
 tuyaux d'orgue,,,non
 tuyaux de fer,,,non
 tuyaux de fer de fonte,,,non
@@ -18385,7 +18721,7 @@ vaches grasses et en chair,,,non
 vaches maigres,,,non
 vaches tuées,,,non
 vacquette,,,non
-vaincs à vanner,,,non
+vaincs à vanner,,,oui
 vaiselle d'argent,,,oui
 vaisseaux montés,,,non
 vaisselle,,,non
@@ -18406,7 +18742,7 @@ valises,,,non
 valises petites,,,non
 valtones,,,non
 valvorette de coton,,,non
-van à vanner,,,non
+van à vanner,,,oui
 vandes,,,non
 vanille,Hors Amérique du Nord,,non
 vanille botte,,,non
@@ -18421,6 +18757,7 @@ vannerie d'espèce pelée,,,non
 vannerie d'osier,,,non
 vannerie pelée,,,non
 vannes de coton blanches,,,non
+vans à vanner,,,non
 vans à vanner de bois,,,non
 varlopes,,,non
 vas du Rhin,,,non
@@ -18442,8 +18779,8 @@ veaux gras,,,non
 veaux maigres,,,non
 veaux petits,,,non
 veaux pour ???,,,non
-veaux-oing,,,non
-veches,,,non
+veaux-oing,,,oui
+veches,,,oui
 védasse,,,non
 végétal,,,non
 veiles,,,non
@@ -18475,7 +18812,7 @@ velverette de coton,,,non
 vendange,,,non
 ver ???,,,non
 verdasse,,,non
-verde,,,non
+verde,,,oui
 verdes,,,non
 verdet,,,non
 verdet cristallisé,,,non
@@ -18533,7 +18870,8 @@ verres à boire cristallins,,,non
 verres à boire de cristal,,,non
 verres à boire de Venise,,,non
 verres à boire moutardiers etc.,,,non
-verres à cadran et à lunette polis et taillés,,,non
+verres à cadran et à lunette polis et taillés,,,oui
+verres à cadran et à lunettes polis et taillés,,,non
 verres à carreaux,,,non
 verres à carreaux et vitre,,,non
 verres à cristal,,,non
@@ -18593,10 +18931,12 @@ verres taillés à cadran et à lunettes,,,non
 verres verroterie,,,non
 verroterie,,,non
 verroterie en rassade,,,oui
+verroterie en rassades,,,non
+verroterie et rassades,,,non
 verrunes,,,non
 vers à soie,,,non
 verses d'osier,,,non
-verstes brodées de soie,,,non
+verstes brodées de soie,,,oui
 vert,,,non
 vert d'ambre,,,non
 vert d'eau,,,non
@@ -18609,10 +18949,11 @@ vert distillé,,,non
 vert moulu,,,non
 vert rouge,,,non
 vert-de-gris,,,oui
-vertes,,,non
-vertes et bordures,,,non
+vertes,,,oui
+vertes et bordures,,,oui
 verunes,,,non
-vesce,,,non
+vesce,,,oui
+vesces,,,non
 vesces en gerbes,,,non
 vessie,,,non
 vessie de cerf et autres,,,non
@@ -18621,6 +18962,7 @@ vestes brodées,,,non
 vestes brodées d'argent et d'or,,,non
 vestes brodées d'argent et or et de soie,,,non
 vestes brodées d'or et de soie,,,non
+vestes brodées de soie,,,non
 vestes brodées et de satin,,,non
 vestes d'argent d'étoffe et de soie,,,non
 vestes de basin,,,non
@@ -18640,6 +18982,7 @@ vestes de toile guingan,,,non
 vestes de velours,,,non
 vestes en dorure de soie,,,non
 vestes en droguet de soie,,,non
+vestes et bordures,,,non
 vestes et gilets de soie,,,non
 vestes galonnées d'argent,,,non
 vestes vieilles,,,non
@@ -18658,12 +19001,13 @@ viande fumée,,,non
 viande salée,,,non
 vieille voile de moulins et autres,,,non
 vièle,,,non
-vielles,,,non
-vieux chiffons,,,non
+vielles,,,oui
+vieux chiffons,,,oui
 vieux clavecin,,,non
-vieux linge,,,non
-vieux oing,,,non
-Vieux-oint,,,non
+vieux linge,,,oui
+vieux oing,,,oui
+vieux-oint,,,non
+Vieux-oint,,,oui
 vilebrequin,,,non
 villes,,,non
 vin,Hors Amérique du Nord,,non
@@ -19047,7 +19391,8 @@ vitrifications en grains percés à broder ou à tricoter,,,non
 vitrifications en grains percés pour chapelets et colliers,,,non
 vitrifications en masses à tailler,,,non
 vitrifications en masses ou en tubes à tailler,,,non
-vitrifications taillées en grands ou rasade percés,,,non
+vitrifications taillées en grands ou rasade percés,,,oui
+vitrifications taillées en grands ou rassades percés,,,non
 vitrifications taillées en pierres à bijoux,,,non
 vitriol,,,non
 vitriol blanc,,,non
@@ -19108,3 +19453,4 @@ zinc laminé,,,non
 zinc pour fabriquer le laiton,,,non
 zing,,,non
 zingar,,,non
+zurich,,,non
