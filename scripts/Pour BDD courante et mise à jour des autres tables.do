@@ -530,6 +530,47 @@ sort marchandises pays
 
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Pour comparaison Bordeaux 1750.csv", replace
+*/
+
+*****************************Pour marchandises_sourcees.csv
+
+
+use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
+keep marchandises
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
+bys marchandises : keep if _n==1
+generate sourceBEL=0
+replace sourceBEL=1 if _merge==3
+keep marchandises sourceBEL
+
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_1774.dta"
+bys marchandises : keep if _n==1
+replace sourceBEL=1 if _merge==3
+keep marchandises sourceBEL
+
+merge 1:m marchandises using "$dir/Données Stata/bdd_centrale.dta"
+bys marchandises : keep if _n==1
+generate sourceFR=0
+replace sourceFR=1 if _merge==3
+keep marchandises sourceBEL sourceFR
+
+merge 1:m marchandises using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
+bys marchandises : keep if _n==1
+generate sourceSUND=0
+replace sourceSUND=1 if _merge==3
+keep marchandises sourceBEL sourceFR sourceSUND
+
+sort marchandises
+gen nbr_source=sourceBEL+sourceFR+sourceSUND
+
+drop if nbr_source==0
+
+save "$dir/Données Stata/marchandises_sourcees", replace
+export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
+
+
+
+
 
 
 
