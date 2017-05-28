@@ -1,15 +1,21 @@
 
 
-version 14.2
+ version 14.0
 
+ 
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
+
 if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
+
+if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
+
 cd "$dir"
-capture log using "`c(current_time)' `c(current_date)'"
+
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
@@ -18,7 +24,7 @@ foreach file in classification_country_orthographic_normalization classification
 */				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
 */				 bdd_origine	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
@@ -44,13 +50,13 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+use "Données Stata/Units_Normalisation_Métrique1.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique1.dta", replace
+save "Données Stata/Units_Normalisation_Métrique1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique2.dta", clear
+use "Données Stata/Units_Normalisation_Métrique2.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique2.dta", replace
+save "Données Stata/Units_Normalisation_Métrique2.dta", replace
 
 /*
 
@@ -486,18 +492,18 @@ rename yearnum year
 
 
 
- merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
+ merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
  
- merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
+ merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
  
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
-		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
+		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
  drop  remarque_unit-_merge
  codebook q_conv
  
@@ -507,7 +513,7 @@ rename yearnum year
  *******************************************************************
 
 
-export delimited "$dir/Données Stata/bdd courante.csv", replace
+export delimited "$dir/Données Stata/bdd courante.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
@@ -515,7 +521,7 @@ sort sourcetype direction year exportsimports numrodeligne
 order numrodeligne sourcetype year direction pays pays_norm_ortho exportsimports marchandises marchandises_norm_ortho value quantit quantity_unit quantity_unit_ortho prix_unitaire
 drop if year==.
 
-save "$dir/Données Stata/bdd courante", replace
+save "$dir/Données Stata/bdd courante", replace
 
 
 /*
@@ -565,8 +571,8 @@ gen nbr_source=sourceBEL+sourceFR+sourceSUND
 
 drop if nbr_source==0
 
-save "$dir/Données Stata/marchandises_sourcees", replace
-export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
+save "$dir/Données Stata/marchandises_sourcees", replace
+export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
 
 
 
