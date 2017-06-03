@@ -1,0 +1,28 @@
+*** compute average price per kg in 1787, 1788 and 1789 - compare with Labrousse's prices
+
+use "C:\Users\federico.donofrio\Documents\GitHub\Données Stata\bdd courante.dta", clear
+
+keep if grains!="Pas grain (0)"
+keep if grains!="Substituts (4)"
+
+
+keep if year==1787 | year==1788 | year ==1789
+
+tab sourcetype year
+
+
+keep if sourcetype=="National par direction" | sourcetype=="Objet Général"
+
+drop if u_conv=="pièces" | u_conv=="unité manquante"
+gen unit_price_kg=0
+replace unit_price_kg=value/quantites_metric
+drop if  unit_price_kg==.
+
+**** CHECK FOR OUTLIERS
+twoway (scatter unit_price_kg quantites_metric if grains=="Froment (1)"), by (year)
+
+***compute average price
+bys year grains: egen totalq=sum(quantites_metric)
+bys year grains: egen totalp=sum(value)
+bys year grains : gen averagep=totalp/totalq
+
