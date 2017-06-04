@@ -26,3 +26,33 @@ bys year grains: egen totalq=sum(quantites_metric)
 bys year grains: egen totalp=sum(value)
 bys year grains : gen averagep=totalp/totalq
 
+
+*** compute q net export
+collapse(sum)quantites_metric, by (year grains exportsimports)
+reshape wide quantites_metric, i(year grains) j(exportsimports)string
+bys year grains : gen qnetexport=quantites_metricExports-quantites_metricImports
+
+*** compute q in 1787, 1788 and 1789
+
+use "C:\Users\federico.donofrio\Documents\GitHub\Données Stata\bdd courante.dta", clear
+
+keep if grains!="Pas grain (0)"
+keep if grains!="Substituts (4)"
+
+
+keep if year==1787 | year==1788 | year ==1789
+
+tab sourcetype year
+
+
+keep if sourcetype=="Résumé"
+summarize value
+collapse(sum)value, by (year grains exportsimports)
+reshape wide value, i(year grains) j(exportsimports)string
+replace valueExports=0 if valueExports==.
+replace valueImports=0 if valueImports==.
+
+bys year grains : gen pnetexport=valueExports-valueImports
+
+
+
