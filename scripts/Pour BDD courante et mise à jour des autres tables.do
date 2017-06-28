@@ -21,7 +21,7 @@ cd "$dir"
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
-*/				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
+*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
