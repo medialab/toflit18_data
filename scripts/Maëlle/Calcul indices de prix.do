@@ -6,32 +6,56 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd courante.dta", clear
 
 * Sélectionner les variables que l'on veut garder (keep)
 
-keep year direction exportsimports quantit prix_unitaire marchandises_simplification quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
+keep year direction exportsimports quantit prix_unitaire marchandises_simplification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
 sort marchandises_simplification year
-order marchandises_simplification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv direction exportsimports
+order marchandises_simplification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
 
-* On supprime les marchandises qui n'ont pas de prix ou qui apparaissent moins de 1000 fois dans la base
+* On supprime les marchandises qui n'ont pas de prix ou qui apparaissent moins de 1000 fois dans la base /
+* ou bien on supprime les marchandises dont la valeur totale échangée sur la période est inférieure à 100 000
 
  drop if prix_unitaire==.
  drop if prix_unitaire==0
  drop if marchandises_simplification==""
- encode marchandises_simplification, gen(marchandises_simplification_num)
- bysort marchandises_simplification_num: drop if _N<=1000 
- sort marchandises_simplification year
+ 
+ * encode marchandises_simplification, gen(marchandises_simplification_num)
+ * bysort marchandises_simplification_num: drop if _N<=1000 
+ * sort marchandises_simplification year
+	
+* On créé une variable "valeur"
+
+gen valeur=0 
+
+if value==. replace valeur=quantit*prix_unitaire
+
+if prix_unitaire==. | quantit==. replace valeur=value
+
+codebook valeur 
+
+* Supprimer les valeur manquantes
+
+drop if valeur==. 
+drop if valeur==0
+
+* Calculer la valeur totale échangée par marchandise sur la période
+
+by marchandises_simplification direction exportsimports, sort: egen valeur_totale_par_marchandise=total(valeur)		
+drop if valeur_totale_par_marchandise<=100000
+sort marchandises_simplification year
 	
 * On convertit les prix dans leur unité conventionnelle
 	
 generate prix_unitaire_converti=prix_unitaire/q_conv 
 drop if prix_unitaire_converti==.
 
-	
-* Calcul de la moyenne des prix par ann√©e en pond√©rant en fonction des quantités échangées
+* Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées
 
+drop if quantites_metric==.
 by year direction exportsimports u_conv marchandises_simplification, sort: egen quantité_échangée=total(quantites_metric)
 generate prix_unitaire_pondéré=(quantites_metric/quantité_échangée)*prix_unitaire_converti
 by year direction exportsimports u_conv marchandises_simplification, sort: egen prix_pondéré_annuel=total(prix_unitaire_pondéré)
+sort marchandises_simplification year
 
-* On sauvegarde la base de donnée désormais réduite
+* On sauvegarde la base de donnée désormais réduite (A REMPLACER SI ON PREND FINALEMENT LES MARCHANDISES DONT VALEUR > 100 000)
  
 save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", replace
 
@@ -107,7 +131,9 @@ bys marchandises_simplification exportsimports direction: replace fisher=sqrt(la
 	twoway (line fisher year if direction=="La Rochelle" & marchandises_simplification =="acier" & exportsimports=="Exports")
 
 
-	
+* Pour étudier seulement les indices des exportations ou importations 
+
+keep if exportsimports=="Exports" 
 	
 	
 	

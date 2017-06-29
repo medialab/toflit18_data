@@ -20,11 +20,11 @@ drop if valeur==.
 * Calculer la valeur annuelle totale échangée par année par marchandise
 
 sort year marchandises_simplification
-by year marchandises_simplification exports_imports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
+by year marchandises_simplification exportsimports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
 
 * Calculer la valeur annuelle totale échangée pour toutes les marchandises
 
-by year exports_imports, sort: egen valeur_annuelle_totale=total(valeur)
+by year exportsimports, sort: egen valeur_annuelle_totale=total(valeur)
 
 * Calculer le ratio 
 
