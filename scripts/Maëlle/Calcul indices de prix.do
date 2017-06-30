@@ -124,11 +124,15 @@ bys marchandises_simplification exportsimports direction: replace paasche=sum(pn
 gen fisher=.
 bys marchandises_simplification exportsimports direction: replace fisher=sqrt(laspeyres*paasche) 
 
+* Ordonner 
+
+tsset panvar_num year
+
 * Comparaisons graphiques, exemple : 
 
-	twoway (line laspeyres year if direction=="La Rochelle" & marchandises_simplification =="acier" & exportsimports=="Exports")
-	twoway (line paasche year if direction=="La Rochelle" & marchandises_simplification =="acier" & exportsimports=="Exports")
-	twoway (line fisher year if direction=="La Rochelle" & marchandises_simplification =="acier" & exportsimports=="Exports")
+	twoway (line laspeyres year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
+	twoway (line paasche year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
+	twoway (line fisher year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
 
 
 * Pour Žtudier seulement les indices des exportations ou importations 
