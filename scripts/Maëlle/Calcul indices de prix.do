@@ -81,17 +81,13 @@ tsset panvar_num year
 replace inflation=100*prix_pondéré_annuel/L.prix_pondéré_annuel
 
 * Graphique juste IPC
-
 twoway (line IPC year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports")
 
 * Graphique avec inflation
-
 twoway (line IPC year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports") (line inflation year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports")
 
 
-
 * En cas de valeur aberrante, supprimer la ligne posant problème, exemple : 
-
  drop if marchandises_simplification=="acier" & year==1724 & direction=="Bordeaux" & exportsimports=="Imports"
 
 
@@ -136,8 +132,9 @@ tsset panvar_num year
 
 
 * Pour étudier seulement les indices des exportations ou importations 
-
 keep if exportsimports=="Exports" 
+	
+	
 	
 	
 ***********************************************************************************************************************************
@@ -147,8 +144,10 @@ keep if year==1754 | year==1764
 keep if direction=="La Rochelle"
 keep if exportsimports=="Imports"
 
-sort year marchandises_simplification 
 * trouver une commande pour garder les marchandises qui apparaissent les deux années, et supprimer les marchandises qui ne sont présentes qu'une seule année
+encode marchandises_simplification, gen(marchandises_simplification_num)
+bysort marchandises_simplification_num: drop if _N<2
+sort year marchandises_simplification 
 
 gen p0=. 
 replace p0=prix_unitaire_pondéré if year==1754
@@ -161,15 +160,30 @@ replace q0=quantité_échangée if year==1754
 
 gen q1=.
 replace q1=quantité_échangée if year==1764
-	
+
+
+* Faire fusionner les colonnes p0 et p1, q0 et q1 pour ne pas avoir de trous	
 drop year 
+
+use "/Users/maellestricot/Documents/STATA MAC/bdd prix quantités 1754.dta", clear
+append using "/Users/maellestricot/Documents/STATA MAC/bdd prix quantités 1764.dta"
+
+
 	
 gen laspeyres=. 
 replace laspeyres=sum(p1*q0)/sum(p0*q0)
 
+gen paasche=.
+replace paasche=sum(pn*qn)/sum(p0*qn)
+	
+gen fisher=.
+replace fisher=sqrt(laspeyres*paasche) 
 	
 	
-
+	
+	
+	
+	
 ***********************************************************************************************************************************
 * METHODE PRECEDENTE (A CONSERVER SI PROBLEME) 
 
