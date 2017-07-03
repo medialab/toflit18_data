@@ -140,8 +140,33 @@ tsset panvar_num year
 keep if exportsimports=="Exports" 
 	
 	
+***********************************************************************************************************************************
+* TEST POUR DEUX ANNES SEULEMENT
+
+keep if year==1754 | year==1764
+keep if direction=="La Rochelle"
+keep if exportsimports=="Imports"
+
+sort year marchandises_simplification 
+* trouver une commande pour garder les marchandises qui apparaissent les deux années, et supprimer les marchandises qui ne sont présentes qu'une seule année
+
+gen p0=. 
+replace p0=prix_unitaire_pondéré if year==1754
+
+gen p1=.
+replace p1=prix_unitaire_pondéré if year==1764
+
+gen q0=.
+replace q0=quantité_échangée if year==1754
+
+gen q1=.
+replace q1=quantité_échangée if year==1764
 	
+drop year 
 	
+gen laspeyres=. 
+replace laspeyres=sum(p1*q0)/sum(p0*q0)
+
 	
 	
 
