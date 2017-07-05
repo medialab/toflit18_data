@@ -1,9 +1,9 @@
 
-* On sauvegarde la base de donnée désormais réduite
+* On sauvegarde la base de donn√©e d√©sormais r√©duite
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante.dta", clear
 
-* On créé une variable "valeur"
+* On cr√©√© une variable "valeur"
 
 gen valeur=0 
 
@@ -17,12 +17,12 @@ codebook valeur
 
 drop if valeur==. 
 
-* Calculer la valeur annuelle totale échangée par année par marchandise
+* Calculer la valeur annuelle totale √©chang√©e par ann√©e par marchandise
 
 sort year marchandises_simplification
 by year marchandises_simplification exportsimports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
 
-* Calculer la valeur annuelle totale échangée pour toutes les marchandises
+* Calculer la valeur annuelle totale √©chang√©e pour toutes les marchandises
 
 by year exportsimports, sort: egen valeur_annuelle_totale=total(valeur)
 
@@ -42,7 +42,7 @@ keep if exportsimports=="Imports"
 
 **********************************************************************************************************
 
-* Composition des parts du commerce pour une année donnée (ne fonctionne pas)
+* Composition des parts du commerce pour une ann√©e donn√©e (ne fonctionne pas)
 
 keep if year==1800
 if part_marchandise_dans_commerce<0.01 replace marchandises_simplification="Autres"

@@ -103,7 +103,7 @@ keep if exportsimports=="Imports"
 * encode marchandises_simplification, gen(marchandises_simplification_num)
 * bysort marchandises_simplification_num: drop if _N<2
 
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_pondere) 
+bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
 egen nbr_annees_max=max(nbr_annees) 
 bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
 sort year marchandises_simplification 
@@ -111,17 +111,17 @@ sort year marchandises_simplification
 tsset panvar_num year
 
 gen p1q0=.
-replace p1q0=prix_unitaire_pondere*L10.quantite_echangee
+replace p1q0=prix_unitaire_converti*L10.quantite_echangee
 
 gen  p0q1=.
-replace p0q1=quantite_echangee*L10.prix_unitaire_pondere
+replace p0q1=quantite_echangee*L10.prix_unitaire_converti
 
 gen p1q1=.
-replace p1q1=prix_unitaire_pondere*quantite_echangee if year==1764
+replace p1q1=prix_unitaire_converti*quantite_echangee if year==1764
 * replace p1q1=pq
 
 gen p0q0=.
-replace p0q0=L10.prix_unitaire_pondere*L10.quantite_echangee
+replace p0q0=L10.prix_unitaire_converti*L10.quantite_echangee
 * replace p0q0=L10.pq
 
 egen sommep1q0=total(p1q0)
@@ -157,7 +157,7 @@ replace fisher=1 if year==1754
 
 ***********************************************************************************************************************************	
 
-* CALCUL INDICES CHAINES 
+* CALCUL INDICES 
 
 * REPRISE DU PROGRAMME PRECEDENT
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
@@ -183,12 +183,55 @@ keep if direction=="Marseille"
 keep if exportsimports=="Imports"
 drop if year<1754
 
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_pondere) 
+bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
 egen nbr_annees_max=max(nbr_annees) 
 bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
 sort year marchandises_simplification 
 
 tsset panvar_num year
+
+sort marchandises_simplification year 
+by marchandises_simplification : gen prix1754=prix_unitaire_converti[1]
+by marchandises_simplification : gen quantite1754=quantite_echangee[1]
+
+gen pnq0=.
+replace pnq0=prix_unitaire_converti*quantite1754
+
+gen p0qn=.
+replace p0qn=prix1754*quantite_echangee
+
+gen p0q0=.
+replace p0q0=prix1754*quantite1754
+
+gen pnqn=.
+replace pnqn=prix_unitaire_converti*quantite_echangee if year!=1754
+
+sort year marchandises_simplification 
+by year : egen sommepnq0=total(pnq0)
+
+by year : egen sommep0qn=total(p0qn)
+
+by year : egen sommepnqn=total(pnqn)
+
+by year : egen sommep0q0=total(p0q0)
+
+
+by year : gen laspeyres=sommepnq0/sommep0q0
+
+by year : gen paasche=sommepnqn/sommep0qn
+
+by year : gen fisher=sqrt(laspeyres*paasche) 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -199,7 +242,7 @@ tsset panvar_num year
 
 	
 ***********************************************************************************************************************************	
-* CALCUL INDICES
+* CALCUL INDICES (FAUX !!!!)
 
 * Calcul des produits prix*quantité (je ne suis pas certaine des prix et quantité que je dois prendre) 
 
