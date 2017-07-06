@@ -132,10 +132,119 @@ by year : gen paasche=sommepnqn/sommep0qn
 by year : gen fisher=sqrt(laspeyres*paasche) 
 
 
+***********************************************************************************************************************************
+
+* CALCUL INDICES CHAINES
+
+* REPRISE DE LA NOUVELLE BASE
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
+
+* On garde une observation par marchandise, année, direction et exports ou imports
+bysort year marchandises_simplification exportsimports direction: keep if _n==1
+
+gen inflation=.
+sort marchandises_simplification exportsimports direction year
+bys marchandises_simplification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
+
+gen IPC=.
+bys marchandises_simplification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
+gen panvar = marchandises_simplification + exportsimports + direction
+encode panvar, gen(panvar_num)
+drop if year>1787 & year<1788
+tsset panvar_num year
+replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
+
+* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
+
+keep if direction=="Marseille"
+keep if exportsimports=="Imports"
+drop if year<1754
+
+* Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
+bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
+egen nbr_annees_max=max(nbr_annees) 
+bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
+sort year marchandises_simplification 
+
+tsset panvar_num year
+
+
+sort marchandises_simplification year 
+by marchandises_simplification : gen p0=prix_unitaire_converti[_n-1]
+by marchandises_simplification : gen q0=quantite_echangee[_n-1]
+
+
+gen pnq0=.
+replace pnq0=prix_unitaire_converti*q0
+
+gen p0qn=.
+replace p0qn=p0*quantite_echangee
+
+gen p0q0=.
+replace p0q0=p0*q0
+
+gen pnqn=.
+replace pnqn=prix_unitaire_converti*quantite_echangee
+
+
+* Calcul sommes
+sort year marchandises_simplification 
+by year : egen sommepnq0=total(pnq0)
+
+by year : egen sommep0qn=total(p0qn)
+
+by year : egen sommepnqn=total(pnqn)
+
+by year : egen sommep0q0=total(p0q0)
+
+* Calcul indices 
+by year : gen laspeyres=sommepnq0/sommep0q0
+
+by year : gen paasche=sommepnqn/sommep0qn
+
+by year : gen fisher=sqrt(laspeyres*paasche) 
+
+* On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
+bys year: keep if _n==1
+
+replace laspeyres=1 if year==1754
+replace paasche=1 if year==1754
+replace fisher=1 if year==1754
+
+
+
+* Calcul indices chaînés (tests qui n'ont pas marché)
+
+gen loglaspeyres=log(laspeyres) 
+sort year 
+gen sum_loglaspeyres=sum(loglaspeyres) 
+gen indice_laspeyres_chaine=exp(sum_loglaspeyres) 
+
+gen logpaasche=log(paasche) 
+sort year 
+gen sum_logpaasche=sum(logpaasche) 
+gen indice_paasche_chaine=exp(sum_logpaasche) 
+
+gen logfisher=log(fisher) 
+sort year 
+gen sum_logfisher=sum(logfisher) 
+gen indice_fisher_chaine=exp(sum_logfisher) 
+
+drop loglaspeyres
+drop logpaasche
+drop logfisher
+
+drop sum_loglaspeyres
+drop sum_logpaasche
+drop sum_logfisher
+
+
+twoway line indice_laspeyres_chaine year, lpattern(l) xtitle() ytitle() || line indice_paasche_chaine year, lpattern(_) || line indice_fisher_chaine year, lpattern(_)
+
 
 ***********************************************************************************************************************************
 
-* CALCUL INDICES POUR DEUX ANNES SEULEMENT
+* CALCUL INDICES POUR DEUX ANNEES SEULEMENT
 
 keep if year==1754 | year==1764
 keep if direction=="La Rochelle"
