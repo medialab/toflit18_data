@@ -138,7 +138,7 @@ foreach variable of var quantit value prix_unitaire probleme {
 }
 
 
-destring numrodeligne  total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
+destring total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
 destring quantit prix_unitaire value, replace
 
 drop if source==""
@@ -244,6 +244,31 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_N1.csv", replace
+
+******* Direction et origine
+use "bdd_centrale.dta", clear
+merge m:1 direction using "bdd_directions.dta"
+keep direction direction_simpl
+bys direction : gen nbr_occurence=_N
+bys direction : keep if _n==1
+save "bdd_directions.dta", replace
+generate sortkey = ustrsortkey(direction, "fr")
+sort sortkey
+drop sortkey
+export delimited bdd_directions.csv, replace
+
+
+use "bdd_centrale.dta", clear
+merge m:1 origine using "bdd_origine.dta"
+keep origine origine_norm_ortho
+bys origine : gen nbr_occurence=_N
+bys origine : keep if _n==1
+save "bdd_origine.dta", replace
+generate sortkey = ustrsortkey(origine, "fr")
+sort sortkey
+drop sortkey
+export delimited bdd_origine.csv, replace
+
 
 
 
@@ -412,7 +437,7 @@ drop _merge nbr_occurence
 merge m:1 origine using "bdd_origine.dta"
 rename origine origine_origine
 rename origine_norm_ortho origine
-drop _merge
+drop _merge nbr_occurence
 
 
 
