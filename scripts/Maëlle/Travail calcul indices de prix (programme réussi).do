@@ -70,6 +70,11 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", replac
 
 
 * REPRISE DE LA NOUVELLE BASE
+
+capture program drop Indice_chaine_v1
+program  Indice_chaine_v1
+args direction X_ou_I year_debut
+
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
@@ -85,9 +90,13 @@ sort marchandises_simplification year
 
 * NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
 
-keep if direction=="Marseille"
-keep if exportsimports=="Imports"
-drop if year<1754
+*local direction La Rochelle
+*local X_ou_I Imports 
+*local year_debut 1760
+
+keep if direction=="`direction'"
+keep if exportsimports=="`X_ou_I'"
+drop if year<`year_debut'
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
@@ -144,9 +153,9 @@ by year : gen fisher=sqrt(laspeyres*paasche)
 bys year: keep if _n==1
 sort year marchandises_simplification
 
-replace laspeyres=1 if year==1754
-replace paasche=1 if year==1754
-replace fisher=1 if year==1754
+replace laspeyres=1 if year==1760
+replace paasche=1 if year==1760
+replace fisher=1 if year==1760
 
 * Calcul indices chaînés 
 
@@ -176,7 +185,12 @@ drop sum_logfisher
 
 twoway connected indice_laspeyres_chaine year, lpattern(l) xtitle() ytitle() ///
  || connected indice_paasche_chaine year, lpattern(_) ///
- || connected indice_fisher_chaine year, lpattern(_)
+ || connected indice_fisher_chaine year, lpattern(_) ///
+ , title("`direction'--`X_ou_I' à partir `year_debut'")	
+ 
+ end
+ 
+ Indice_chaine_v1 "La Rochelle" Imports 1760
 
 
 ***********************************************************************************************************************************
