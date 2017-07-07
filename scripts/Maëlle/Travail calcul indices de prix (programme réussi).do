@@ -52,6 +52,11 @@ sort marchandises_simplification year
 
 drop prix_unitaire_pondere
 
+* Encode panvar (sinon prend trop de temps) 
+gen panvar = marchandises_simplification + exportsimports + direction + u_conv
+encode panvar, gen(panvar_num)
+drop if year>1787 & year<1788
+
 * On sauvegarde la base de donnée désormais réduite (A REMPLACER SI ON PREND FINALEMENT LES MARCHANDISES DONT VALEUR > 100 000)
  
 save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", replace
@@ -73,9 +78,6 @@ sort year marchandises_simplification
 
 gen IPC=.
 bys marchandises_simplification exportsimports direction u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-gen panvar = marchandises_simplification + exportsimports + direction + u_conv
-encode panvar, gen(panvar_num)
-drop if year>1787 & year<1788
 tsset panvar_num year
 gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
@@ -187,29 +189,25 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
 bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-
-gen inflation=.
-sort marchandises_simplification exportsimports direction year
-bys marchandises_simplification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
+sort year marchandises_simplification
 
 gen IPC=.
-bys marchandises_simplification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-gen panvar = marchandises_simplification + exportsimports + direction
-encode panvar, gen(panvar_num)
-drop if year>1787 & year<1788
+bys marchandises_simplification exportsimports direction u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 tsset panvar_num year
+gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
+sort marchandises_simplification year
 
 * NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
 
 keep if direction=="Marseille"
-keep if exportsimports=="Imports"
+keep if exportsimports=="Imports "
 drop if year<1754
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_pondere_annuel) 
+bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
+bys marchandises_simplification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
 sort year marchandises_simplification 
 
 tsset panvar_num year
@@ -261,9 +259,9 @@ keep if exportsimports=="Imports"
 * encode marchandises_simplification, gen(marchandises_simplification_num)
 * bysort marchandises_simplification_num: drop if _N<2
 
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
+bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
+bys marchandises_simplification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
 sort year marchandises_simplification 
 
 tsset panvar_num year
