@@ -94,7 +94,7 @@ sort marchandises_simplification year
 *local X_ou_I Imports 
 *local year_debut 1760
 
-keep if direction=="`direction'"
+if "`direction'" !="France" keep if direction=="`direction'" 
 keep if exportsimports=="`X_ou_I'"
 drop if year<`year_debut'
 
@@ -103,6 +103,9 @@ bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees
 egen nbr_annees_max=max(nbr_annees) 
 bys marchandises_simplification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
 sort year marchandises_simplification 
+
+capture tabulate marchandises_simplification
+local nbr_de_marchandises=r(r)
 
 tsset panvar_num year
 
@@ -117,7 +120,6 @@ foreach lag of num 1(1)100 {
 }
 
 *sort marchandises_simplification year
-
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
@@ -142,55 +144,106 @@ by year : egen sommepnqn=total(pnqn)
 
 by year : egen sommep0q0=total(p0q0)
 
-* Calcul indices 
-by year : gen laspeyres=sommepnq0/sommep0q0
+* Calcul indices de prix 
+by year : gen laspeyresP=sommepnq0/sommep0q0
 
-by year : gen paasche=sommepnqn/sommep0qn
+by year : gen paascheP=sommepnqn/sommep0qn
 
-by year : gen fisher=sqrt(laspeyres*paasche) 
+by year : gen fisherP=sqrt(laspeyresP*paascheP) 
+
+* Calcul indices de volume
+by year : gen laspeyresQ=sommep0qn/sommep0q0
+
+by year : gen paascheQ=sommepnqn/sommepnq0
+
+by year : gen fisherQ=sqrt(laspeyresQ*paascheQ) 
+
+* Calcul indice de valeur
+by year : gen valeur=sommepnqn/sommep0q0
+
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
 sort year marchandises_simplification
 
-replace laspeyres=1 if year==1760
-replace paasche=1 if year==1760
-replace fisher=1 if year==1760
+replace laspeyresP=1 if year==1760
+replace paascheP=1 if year==1760
+replace fisherP=1 if year==1760
 
-* Calcul indices chaînés 
+replace laspeyresQ=1 if year==1760
+replace paascheQ=1 if year==1760
+replace fisherQ=1 if year==1760
 
-gen loglaspeyres=log(laspeyres) 
+* Calcul indices chaînés de prix 
+
+gen loglaspeyresP=log(laspeyresP) 
 sort year 
-gen sum_loglaspeyres=sum(loglaspeyres) 
-gen indice_laspeyres_chaine=exp(sum_loglaspeyres) 
+gen sum_loglaspeyresP=sum(loglaspeyresP) 
+gen indice_laspeyresP_chaine=exp(sum_loglaspeyresP) 
 
-gen logpaasche=log(paasche) 
+gen logpaascheP=log(paascheP) 
 sort year 
-gen sum_logpaasche=sum(logpaasche) 
-gen indice_paasche_chaine=exp(sum_logpaasche) 
+gen sum_logpaascheP=sum(logpaascheP) 
+gen indice_paascheP_chaine=exp(sum_logpaascheP) 
 
-gen logfisher=log(fisher) 
+gen logfisherP=log(fisherP) 
 sort year 
-gen sum_logfisher=sum(logfisher) 
-gen indice_fisher_chaine=exp(sum_logfisher) 
+gen sum_logfisherP=sum(logfisherP) 
+gen indice_fisherP_chaine=exp(sum_logfisherP) 
 
-drop loglaspeyres
-drop logpaasche
-drop logfisher
+drop loglaspeyresP
+drop logpaascheP
+drop logfisherP
 
-drop sum_loglaspeyres
-drop sum_logpaasche
-drop sum_logfisher
+drop sum_loglaspeyresP
+drop sum_logpaascheP
+drop sum_logfisherP
 
+* Calcul indices chaînés de volume 
 
-twoway connected indice_laspeyres_chaine year, lpattern(l) xtitle() ytitle() ///
- || connected indice_paasche_chaine year, lpattern(_) ///
- || connected indice_fisher_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir `year_debut'")	
+gen loglaspeyresQ=log(laspeyresQ) 
+sort year 
+gen sum_loglaspeyresQ=sum(loglaspeyresQ) 
+gen indice_laspeyresQ_chaine=exp(sum_loglaspeyresQ) 
+
+gen logpaascheQ=log(paascheQ) 
+sort year 
+gen sum_logpaascheQ=sum(logpaascheQ) 
+gen indice_paascheQ_chaine=exp(sum_logpaascheQ) 
+
+gen logfisherQ=log(fisherQ) 
+sort year 
+gen sum_logfisherQ=sum(logfisherQ) 
+gen indice_fisherQ_chaine=exp(sum_logfisherQ) 
+
+drop loglaspeyresQ
+drop logpaascheQ
+drop logfisherQ
+
+drop sum_loglaspeyresQ
+drop sum_logpaascheQ
+drop sum_logfisherQ
+
+* Calcul indice chaine de valeur
+gen logvaleur=log(valeur)
+sort year
+gen sum_logvaleur=sum(logvaleur)
+gen indice_valeur_chaine=exp(sum_logvaleur) 
+
+drop logvaleur
+drop sum_logvaleur
+
+* Graphique
+
+twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
+ || connected indice_fisherQ_chaine year, lpattern(_) ///
+ || connected indice_valeur_chaine year, lpattern(_) ///
+ , title("`direction'--`X_ou_I' à partir `year_debut' (`nbr_de_marchandises')")	
  
  end
  
- Indice_chaine_v1 "La Rochelle" Imports 1760
+ Indice_chaine_v1 "Marseille" Imports 1754
+ Indice_chaine_v1 France Imports 1754
 
 
 ***********************************************************************************************************************************
