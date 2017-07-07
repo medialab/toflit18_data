@@ -24,7 +24,6 @@ label var quantites_metric "Quantités en kg (q_conv)"
  * sort marchandises_simplification year
 	
 
-
 * Calculer la valeur totale échangée par marchandise sur la période
 
 by marchandises_simplification direction exportsimports, sort: egen valeur_totale_par_marchandise=total(value)	
@@ -36,7 +35,7 @@ sort marchandises_simplification year
 	
 generate prix_unitaire_converti=prix_unitaire/q_conv 
 drop if prix_unitaire_converti==.
-label var prix_unitaire_converti "Prix unitaire par marchandise en unité métrique" 
+label var prix_unitaire_converti "Prix unitaire par marchandise en unité métrique p_conv" 
 
 * Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées pour un produit.unitée métrique
 
@@ -57,11 +56,6 @@ drop prix_unitaire_pondere
  
 save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", replace
 
-
-
-
-
-***********************************************************************************************************************************	
 
 
 
@@ -100,13 +94,19 @@ bys marchandises_simplification direction exportsimports u_conv : drop if nbr_an
 sort year marchandises_simplification 
 
 tsset panvar_num year
-*gen p0=L1.prix_pondere_annuel 
-*gen q0=L1.quantite_echangee
+
+gen p0=.
+gen q0=.
+
+foreach lag of num 1(1)100 {
+
+	replace p0=L`lag'.prix_pondere_annuel if p0==.
+	replace q0=L`lag'.quantite_echangee if q0==.
+	
+}
+
 *sort marchandises_simplification year
 
-sort year
-bys panvar_num : gen p0=prix_pondere_annuel[_n-1]
-bys panvar_num : gen q0=quantite_echangee[_n-1]
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
@@ -172,7 +172,9 @@ drop sum_logpaasche
 drop sum_logfisher
 
 
-twoway line indice_laspeyres_chaine year, lpattern(l) xtitle() ytitle() || line indice_paasche_chaine year, lpattern(_) || line indice_fisher_chaine year, lpattern(_)
+twoway connected indice_laspeyres_chaine year, lpattern(l) xtitle() ytitle() ///
+ || connected indice_paasche_chaine year, lpattern(_) ///
+ || connected indice_fisher_chaine year, lpattern(_)
 
 
 ***********************************************************************************************************************************
