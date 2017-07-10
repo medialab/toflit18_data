@@ -2,7 +2,7 @@
 
 * Ne pas oublier de mettre la base de données utilisée 
 
-use "/Users/maellestricot/Documents/STATA MAC/bdd courante.dta", clear
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante2.dta", clear
 
 * Sélectionner les variables que l'on veut garder (keep)
 
@@ -59,7 +59,7 @@ drop if year>1787 & year<1788
 
 * On sauvegarde la base de donnée désormais réduite (A REMPLACER SI ON PREND FINALEMENT LES MARCHANDISES DONT VALEUR > 100 000)
  
-save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", replace
+save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", replace
 
 
 
@@ -75,7 +75,7 @@ capture program drop Indice_chaine_v1
 program  Indice_chaine_v1
 args direction X_ou_I year_debut
 
-use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
 bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
@@ -238,7 +238,7 @@ drop sum_logvaleur
 twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir `year_debut' (`nbr_de_marchandises')")	
+ , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
  
  end
  
