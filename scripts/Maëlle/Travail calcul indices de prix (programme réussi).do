@@ -72,7 +72,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", repla
 * REPRISE DE LA NOUVELLE BASE
 
 capture program drop Indice_chaine_v1
-program  Indice_chaine_v1
+program  Indice_chaine_v1 
 args direction X_ou_I year_debut
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
@@ -166,13 +166,13 @@ by year : gen valeur=sommepnqn/sommep0q0
 bys year: keep if _n==1
 sort year marchandises_simplification
 
-replace laspeyresP=1 if year==1760
-replace paascheP=1 if year==1760
-replace fisherP=1 if year==1760
+* replace laspeyresP=1 if year==1760
+* replace paascheP=1 if year==1760
+* replace fisherP=1 if year==1760
 
-replace laspeyresQ=1 if year==1760
-replace paascheQ=1 if year==1760
-replace fisherQ=1 if year==1760
+* replace laspeyresQ=1 if year==1760
+* replace paascheQ=1 if year==1760
+* replace fisherQ=1 if year==1760
 
 * Calcul indices chaînés de prix 
 
