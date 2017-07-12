@@ -31,6 +31,7 @@ label var valeur_totale_par_marchandise "Somme variable valeur par march_simpli,
 *drop if valeur_totale_par_marchandise<=100000
 sort marchandises_simplification year
 	
+
 * On convertit les prix dans leur unité conventionnelle
 	
 generate prix_unitaire_converti=prix_unitaire/q_conv 
@@ -244,6 +245,29 @@ twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
  
  Indice_chaine_v1 "Marseille" Imports 1754
  Indice_chaine_v1 France Imports 1754
+
+
+*****************************************************************************************
+
+* CALCUL PART MARCHANDISES DANS LE COMMERCE
+
+* Calculer la valeur annuelle totale échangée par année par marchandise (déjà fait dans la base) 
+* sort year marchandises_simplification
+* by year marchandises_simplification exportsimports, sort: egen valeur_totale_par_marchandise=total(value)
+
+* Calculer la valeur annuelle totale échangée pour toutes les marchandises
+
+by year exportsimports, sort: egen valeur_annuelle_totale=total(value)
+
+* Calculer le ratio 
+
+gen part_marchandise_dans_commerce=valeur_totale_par_marchandise/valeur_annuelle_totale
+
+
+
+
+
+
 
 
 ***********************************************************************************************************************************
