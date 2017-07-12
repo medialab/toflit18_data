@@ -43,7 +43,7 @@ drop if year<`year_debut'
 
 * Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
 generate presence_annee=0
-bys year: egen somme_annee=total(presence_annee)
+bys year: gen somme_annee=. 
 gen p0=.
 gen q0=.
 
@@ -51,6 +51,7 @@ foreach lag of num 1(1)70 {
 
 tsset panvar_num year
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
+replace somme_annee=total(presence_annee)
 * donne le nb de marchandises présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
