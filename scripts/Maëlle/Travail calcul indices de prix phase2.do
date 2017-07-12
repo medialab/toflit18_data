@@ -51,7 +51,7 @@ foreach lag of num 1(1)70 {
 
 tsset panvar_num year
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
-replace somme_annee=total(presence_annee)
+bys year: replace somme_annee=total(presence_annee) 
 * donne le nb de marchandises présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
