@@ -221,5 +221,5 @@ graph combine graphindices graphmarchandises, cols(1)
 
  end
  
- Indice_chaine_v2 "Marseille" Imports 1760
+ Indice_chaine_v2 "Marseille" Imports 1716
  Indice_chaine_v2 France Imports 1754
