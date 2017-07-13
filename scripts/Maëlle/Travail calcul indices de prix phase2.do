@@ -210,6 +210,8 @@ twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
  || connected indice_valeur_chaine year, lpattern(_) ///
  , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
  
+ twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle()
+
  end
  
  Indice_chaine_v2 "Marseille" Imports 1760

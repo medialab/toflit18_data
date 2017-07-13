@@ -243,7 +243,7 @@ twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
  
  end
  
- Indice_chaine_v1 "Marseille" Imports 1754
+ Indice_chaine_v1 "Marseille" Imports 1760
  Indice_chaine_v1 France Imports 1754
 
 
