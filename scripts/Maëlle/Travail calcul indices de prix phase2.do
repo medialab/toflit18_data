@@ -205,12 +205,15 @@ drop sum_logvaleur
 
 * Graphique
 
-twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
+twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
- 
- twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle()
+ , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')") name(graphindices, replace)
+
+twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle() title(Nombre de produits par année) name(graphmarchandises, replace)
+* || bar somme_annee year scale (0.2) ///
+
+graph combine graphindices graphmarchandises, cols(1)
 
  end
  
