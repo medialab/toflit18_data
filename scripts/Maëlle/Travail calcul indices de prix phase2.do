@@ -1,8 +1,8 @@
 
 * REPRISE DE LA NOUVELLE BASE
 
-capture program drop Indice_chaine_v1
-program  Indice_chaine_v1
+capture program drop Indice_chaine_v2
+program  Indice_chaine_v2
 args direction X_ou_I year_debut
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
@@ -43,8 +43,7 @@ drop if year<`year_debut'
 
 * Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
 generate presence_annee=0
-bys year: egen somme_annee=total(presence_annee) 
-gen somme_annee_bis=.
+gen somme_annee=.
 gen p0=.
 gen q0=.
 
@@ -52,7 +51,9 @@ foreach lag of num 1(1)70 {
 
 tsset panvar_num year
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
-replace somme_annee_bis=somme_annee
+bys year: egen blink=total(presence_annee)
+replace somme_annee=blink if somme_annee==.
+drop blink 
 * donne le nb de marchandises présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
@@ -211,5 +212,5 @@ twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
  
  end
  
- Indice_chaine_v1 "Marseille" Imports 1760
- Indice_chaine_v1 France Imports 1754
+ Indice_chaine_v2 "Marseille" Imports 1760
+ Indice_chaine_v2 France Imports 1754

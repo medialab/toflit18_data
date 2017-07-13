@@ -9,7 +9,7 @@ sort year marchandises_simplification
 
 * Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
 generate presence_annee=0
-bys year: gen somme_annee=0
+bys year: egen somme_annee=total(presence_annee) 
 gen p0=.
 gen q0=.
 
@@ -19,7 +19,6 @@ foreach lag of num 1(1)70 {
 
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
 * donne le nb de marchandises présentes d'une année sur l'autre
-replace somme_annee=total(presence_annee) 
 if somme_annee!=0 by (year)
 
 	replace p0=L`lag'.prix_pondere_annuel if p0==.
@@ -91,12 +90,31 @@ drop sum_loglaspeyresP
 drop sum_logpaascheP
 drop sum_logfisherP
 
+save "/Users/maellestricot/Documents/STATA MAC/bdd courante indices.dta", replace 
+
+
 * Calcul termes de l'échange
 
-gen termes_de_l'echange=.
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante indices.dta", replace 
+
+
+keep if direction=="La Rochelle"
+
+tsset panvar_num year
+
+gen Pe=.
+gen Pi=.
+
+foreach lag of num 1(1)1 {
+
+	replace Pe=L`lag'.indice_fisherP_chaine if exportsimports=="Exports"
+	replace Pi=L`lag'.indice_fisherP_chaine if exportsimports=="Imports"
+	
+}
+
 gen Pe=indice_fisherP_chaine if exportsimports=="Exports"
 gen Pi=indice_fisherP_chaine if exportsimports=="Imports"
-replace termes_de_l'echange=(Pe/Pi)*100
+bys year: gen termes_echange=(Pe/Pi)*100
 
 
 
