@@ -30,7 +30,7 @@ drop if year<`year_debut'
 
 * keep if direction=="Marseille"
 * keep if exportsimports=="Imports"
-
+* drop if year<1760
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 * bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
@@ -47,12 +47,12 @@ gen somme_annee=.
 gen p0=.
 gen q0=.
 
-foreach lag of num 1(1)70 {
+foreach lag of num 1(1)80 {
 
 tsset panvar_num year
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
 bys year: egen blink=total(presence_annee)
-replace somme_annee=blink if somme_annee==.
+replace somme_annee=blink if somme_annee==. | somme_annee==0
 drop blink 
 * donne le nb de marchandises présentes d'une année sur l'autre
 
@@ -64,6 +64,18 @@ tsset panvar_num year
 	
 }
 
+* gen p0=.
+* gen q0=.
+
+* generate presence_annee1=0
+* tsset panvar_num year
+* replace presence_annee1=1 if L1.panvar_num==panvar_num
+* bys year: egen somme_annee1=total(presence_annee1) 
+
+* if somme_annee1!=0 by (year)
+* tsset panvar_num year
+	* replace p0=L1.prix_pondere_annuel if p0==.
+	* replace q0=L1.quantite_echangee if q0==.
 
 * if somme_annee1==0 by (year)
 * gen presence_annee2=0
@@ -135,14 +147,6 @@ by year : gen valeur=sommepnqn/sommep0q0
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
 sort year marchandises_simplification
-
-replace laspeyresP=1 if year==1760
-replace paascheP=1 if year==1760
-replace fisherP=1 if year==1760
-
-replace laspeyresQ=1 if year==1760
-replace paascheQ=1 if year==1760
-replace fisherQ=1 if year==1760
 
 * Calcul indices chaînés de prix 
 
