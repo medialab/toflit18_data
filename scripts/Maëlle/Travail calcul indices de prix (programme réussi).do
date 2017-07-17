@@ -31,6 +31,7 @@ label var valeur_totale_par_marchandise "Somme variable valeur par march_simpli,
 *drop if valeur_totale_par_marchandise<=100000
 sort marchandises_simplification year
 	
+
 * On convertit les prix dans leur unité conventionnelle
 	
 generate prix_unitaire_converti=prix_unitaire/q_conv 
@@ -235,15 +236,46 @@ drop sum_logvaleur
 
 * Graphique
 
-twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
+twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
  , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
  
  end
  
- Indice_chaine_v1 "Marseille" Imports 1754
+ Indice_chaine_v1 "Marseille" Imports 1760
  Indice_chaine_v1 France Imports 1754
+
+
+*****************************************************************************************
+
+* CALCUL PART MARCHANDISES DANS LE COMMERCE
+
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
+
+* On garde une observation par marchandise, année, direction et exports ou imports
+bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
+sort year marchandises_simplification
+
+keep if direction=="Marseille"
+
+* Calculer la valeur annuelle totale échangée par année par marchandise (déjà fait dans la base) 
+* sort year marchandises_simplification
+* by year marchandises_simplification exportsimports, sort: egen valeur_totale_par_marchandise=total(value)
+
+* Calculer la valeur annuelle totale échangée pour toutes les marchandises
+
+by year exportsimports, sort: egen valeur_annuelle_totale=total(value)
+
+* Calculer le ratio 
+
+bys year marchandises_simplification:gen part_marchandise_dans_commerce=valeur_totale_par_marchandise/valeur_annuelle_totale
+
+encode marchandises_simplification, gen(marchandises_simplification_num) 
+
+
+
+
 
 
 ***********************************************************************************************************************************
@@ -268,8 +300,8 @@ sort marchandises_simplification year
 * NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
 
 keep if direction=="Marseille"
-keep if exportsimports=="Imports "
-drop if year<1754
+keep if exportsimports=="Imports"
+drop if year<1730
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
@@ -318,7 +350,10 @@ by year : gen fisher=sqrt(laspeyres*paasche)
 
 * CALCUL INDICES POUR DEUX ANNEES SEULEMENT
 
-keep if year==1754 | year==1764
+* REPRISE DE LA NOUVELLE BASE
+use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
+
+keep if year==1754 | year==1774
 keep if direction=="La Rochelle"
 keep if exportsimports=="Imports"
 
@@ -332,6 +367,8 @@ bys marchandises_simplification direction exportsimports u_conv : drop if nbr_an
 sort year marchandises_simplification 
 
 tsset panvar_num year
+
+sort year marchandises_simplification
 
 gen p1q0=.
 replace p1q0=prix_unitaire_converti*L10.quantite_echangee

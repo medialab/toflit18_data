@@ -1,8 +1,8 @@
 
 * REPRISE DE LA NOUVELLE BASE
 
-capture program drop Indice_chaine_v1
-program  Indice_chaine_v1
+capture program drop Indice_chaine_v2
+program  Indice_chaine_v2
 args direction X_ou_I year_debut
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
@@ -30,7 +30,7 @@ drop if year<`year_debut'
 
 * keep if direction=="Marseille"
 * keep if exportsimports=="Imports"
-
+* drop if year<1760
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 * bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
@@ -43,14 +43,17 @@ drop if year<`year_debut'
 
 * Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
 generate presence_annee=0
-bys year: egen somme_annee=total(presence_annee)
+gen somme_annee=.
 gen p0=.
 gen q0=.
 
-foreach lag of num 1(1)70 {
+foreach lag of num 1(1)80 {
 
 tsset panvar_num year
 replace presence_annee=1 if L`lag'.panvar_num==panvar_num
+bys year: egen blink=total(presence_annee)
+replace somme_annee=blink if somme_annee==. | somme_annee==0
+drop blink 
 * donne le nb de marchandises présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
@@ -61,6 +64,18 @@ tsset panvar_num year
 	
 }
 
+* gen p0=.
+* gen q0=.
+
+* generate presence_annee1=0
+* tsset panvar_num year
+* replace presence_annee1=1 if L1.panvar_num==panvar_num
+* bys year: egen somme_annee1=total(presence_annee1) 
+
+* if somme_annee1!=0 by (year)
+* tsset panvar_num year
+	* replace p0=L1.prix_pondere_annuel if p0==.
+	* replace q0=L1.quantite_echangee if q0==.
 
 * if somme_annee1==0 by (year)
 * gen presence_annee2=0
@@ -133,14 +148,6 @@ by year : gen valeur=sommepnqn/sommep0q0
 bys year: keep if _n==1
 sort year marchandises_simplification
 
-replace laspeyresP=1 if year==1760
-replace paascheP=1 if year==1760
-replace fisherP=1 if year==1760
-
-replace laspeyresQ=1 if year==1760
-replace paascheQ=1 if year==1760
-replace fisherQ=1 if year==1760
-
 * Calcul indices chaînés de prix 
 
 gen loglaspeyresP=log(laspeyresP) 
@@ -202,12 +209,17 @@ drop sum_logvaleur
 
 * Graphique
 
-twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() ///
+twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
- 
+ , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')") name(graphindices, replace)
+
+twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle() title(Nombre de produits par année) name(graphmarchandises, replace)
+* || bar somme_annee year scale (0.2) ///
+
+graph combine graphindices graphmarchandises, cols(1)
+
  end
  
- Indice_chaine_v1 "Marseille" Imports 1760
- Indice_chaine_v1 France Imports 1754
+ Indice_chaine_v2 "Marseille" Imports 1716
+ Indice_chaine_v2 France Imports 1754
