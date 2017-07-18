@@ -254,7 +254,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction merge.dta", replace
 
 bys year: gen termes_echange=indice_prix_exports/indice_prix_imports
 
-twoway line termes_echange year, yscale(range (0 2)), title(" Evolution des termes de l'échange à La Rochelle")
+twoway line termes_echange year, yscale(range (0 2)) title("Evolution des termes de l'échange à La Rochelle")
 
 
 
