@@ -23,10 +23,6 @@ bys panvar_num : drop if _N==1
 gen part_valeur_integer=round(part_valeur*10000)
 regress lnPrix i.year i.panvar_num [fweight=part_valeur_integer]
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
-drop if year<`year_debut'
-
 * Enregistrer les effets fixes temps
 
 su year, meanonly    
@@ -44,6 +40,13 @@ capture matrix V=e(V)
 
 capture generate effet_fixe=.
 capture generate ecart_type=.
+
+* Calcul indice de valeur 
+
+by year, sort: egen valeur_totale_annuelle=total(value) 
+gen indice_valeur=.
+gen v0=valeur_totale_annuelle[1]
+replace indice_valeur=valeur_totale_annuelle/v0
 
 * keep year effet_fixe ecart_type 
  bys year : keep if _n==1
@@ -63,19 +66,17 @@ local  n=`n'+1
 * on lui dit d'aller chercher à la valeur du n (c'est pour ca qu'il faut mettre entre guillemets)
 
 
-* Graphiques
+* Effet fixe 
 
 gen exp_effet_fixe=exp(effet_fixe)
 gen borne_inf=exp_effet_fixe-1.96*ecart_type
 gen borne_sup=exp_effet_fixe+1.96*ecart_type
 
-twoway line exp_effet_fixe year, yaxis(1) ///
-	|| line borne_inf year, yaxis(1) ///
-	|| line borne_sup year, yaxis(1) ///
-, title(Evolution des effets fixes dans le temps)
-
+twoway line exp_effet_fixe year, yaxis(2) ///
+	|| line indice_valeur year, yaxis(1) ///
+, title(" Evolution des indices de prix et de valeur à `direction'--`X_ou_I'")
 
 end
 
- Indice_v3 "Marseille" Imports 1730
+ Indice_v3 "Marseille" Exports 1716
  Indice_v3 France Imports 1754
