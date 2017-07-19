@@ -74,7 +74,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", repla
 
 capture program drop Indice_chaine_v1
 program  Indice_chaine_v1 
-args direction X_ou_I year_debut
+args direction X_ou_I year_debut year_fin
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
@@ -98,6 +98,7 @@ sort marchandises_simplification year
 if "`direction'" !="France" keep if direction=="`direction'" 
 keep if exportsimports=="`X_ou_I'"
 drop if year<`year_debut'
+drop if year>`year_fin'
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
@@ -239,11 +240,11 @@ drop sum_logvaleur
 twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir de `year_debut' (`nbr_de_marchandises')")	
+ , title("`direction'--`X_ou_I' sur la période `year_debut'-`year_fin' (`nbr_de_marchandises')")	
  
  end
  
- Indice_chaine_v1 "Marseille" Imports 1730
+ Indice_chaine_v1 "La Rochelle" Imports 1716 1780
  Indice_chaine_v1 France Imports 1754
 
 
