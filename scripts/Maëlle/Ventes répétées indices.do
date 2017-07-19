@@ -69,8 +69,8 @@ local  n=`n'+1
 * Effet fixe 
 
 gen exp_effet_fixe=exp(effet_fixe)
-gen borne_inf=exp_effet_fixe-1.96*ecart_type
-gen borne_sup=exp_effet_fixe+1.96*ecart_type
+gen borne_inf=exp(effet_fixe-1.96*ecart_type)
+gen borne_sup=exp(effet_fixe+1.96*ecart_type)
 
 twoway line exp_effet_fixe year, yaxis(2) ///
 	|| line indice_valeur year, yaxis(1) ///
