@@ -3,7 +3,7 @@
 
 ***********************************************************************************************************************************
 
-* CALCUL INDICES CHAINES
+* CALCUL INDICES CHAINES AVEC PRODUITS PRÉSENTS SUR TOUTE LA PÉRIODE
 
 
 * REPRISE DE LA NOUVELLE BASE
@@ -45,11 +45,10 @@ sort marchandises_simplification year
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 bys panvar_num : egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys panvan_num : drop if nbr_annees < nbr_annees_max
-sort year panvar_num 
+bys panvar_num : drop if nbr_annees < nbr_annees_max
 
 capture tabulate panvar_num
-local panvar_num=r(r)
+local nbr_de_marchandises=r(r)
 
 gen p0=.
 gen q0=.
@@ -58,6 +57,7 @@ gen q0=.
 **Je pense que dans tout cela, il faut utiliser quantité métrique plutôt que quantité échangée
 * Sinon l'unité du prix n'est pas la même que l'unité de la quantité !!
 
+tsset panvar_num year
 foreach lag of num 1(1)100 {
 
 	replace p0=L`lag'.prix_pondere_annuel if p0==.
@@ -109,16 +109,16 @@ by year : gen valeur=sommepnqn/sommep0q0
 
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
-bys year: keep if _n==1
-sort year marchandises_simplification
+*bys year: keep if _n==1
+*sort year marchandises_simplification
 
-* replace laspeyresP=1 if year==1760
-* replace paascheP=1 if year==1760
-* replace fisherP=1 if year==1760
+*replace laspeyresP=1 if year==`year_debut'
+*replace paascheP=1 if year==`year_debut'
+*replace fisherP=1 if year==`year_debut'
 
-* replace laspeyresQ=1 if year==1760
-* replace paascheQ=1 if year==1760
-* replace fisherQ=1 if year==1760
+*replace laspeyresQ=1 if year==`year_debut'
+*replace paascheQ=1 if year==`year_debut'
+*replace fisherQ=1 if year==`year_debut'
 
 * Calcul indices chaînés de prix 
 
