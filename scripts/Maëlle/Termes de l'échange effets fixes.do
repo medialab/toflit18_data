@@ -79,7 +79,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Imports2.dta", repl
 
 end
 
- Termes_echange_v3 "La Rochelle" Imports 
+ Termes_echange_v3 "Bayonne" Imports 
 
 
 *******************************************************************************************
@@ -163,7 +163,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Exports2.dta", repl
 
 end
 
- Termes_echange_v4 "La Rochelle" Exports 
+ Termes_echange_v4 "Bayonne" Exports 
 
 
 **************************************************************************************************
@@ -189,7 +189,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction merge2.dta", replac
 
 bys year: gen termes_echange=indice_prix_exports/indice_prix_imports
 
-twoway line termes_echange year, title("Evolution des termes de l'échange à La Rochelle")
+twoway line termes_echange year, title("Evolution des termes de l'échange à Bayonne (2)")
 
 
 

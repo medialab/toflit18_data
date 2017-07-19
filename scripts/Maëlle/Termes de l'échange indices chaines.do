@@ -107,14 +107,14 @@ drop sum_logpaascheP
 drop sum_logfisherP
 
 * Graphique
-twoway (line indice_fisherP_chaine year)
+* twoway (line indice_fisherP_chaine year)
 
 save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Imports.dta", replace 
 
 
  end
  
- Termes_echange_v1 "La Rochelle" Imports
+ Termes_echange_v1 "Bayonne" Imports
 
 *****************************************************************************************************
 
@@ -223,7 +223,7 @@ drop sum_logpaascheP
 drop sum_logfisherP
 
 * Graphique
-twoway (line indice_fisherP_chaine year)
+* twoway (line indice_fisherP_chaine year)
 
 
 save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Exports.dta", replace 
@@ -231,7 +231,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Exports.dta", repla
 
  end
  
- Termes_echange_v2 "La Rochelle" Exports
+ Termes_echange_v2 "Bayonne" Exports
 
 ************************************************************************************************************
 
@@ -254,7 +254,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction merge.dta", replace
 
 bys year: gen termes_echange=indice_prix_exports/indice_prix_imports
 
-twoway line termes_echange year, yscale(range (0 2)) title("Evolution des termes de l'échange à La Rochelle")
+twoway line termes_echange year, yscale(range (0 2)) title("Evolution des termes de l'échange à Bayonne (1)")
 
 
 
