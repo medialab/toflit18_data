@@ -109,7 +109,8 @@ by year : gen valeur=sommepnqn/sommep0q0
 
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
-*bys year: keep if _n==1
+bys year: keep if _n==1
+drop marchandises_simplification
 *sort year marchandises_simplification
 
 *replace laspeyresP=1 if year==`year_debut'
@@ -170,7 +171,8 @@ drop sum_loglaspeyresQ
 drop sum_logpaascheQ
 drop sum_logfisherQ
 
-* Calcul indice chaine de valeur
+* Calcul indice chaine de valeur (Calcul très bizarre)
+/*
 gen logvaleur=log(valeur)
 sort year
 gen sum_logvaleur=sum(logvaleur)
@@ -178,6 +180,13 @@ gen indice_valeur_chaine=exp(sum_logvaleur)
 
 drop logvaleur
 drop sum_logvaleur
+*/
+
+
+sort year
+gen valeur_debut=sommepnqn[1]
+gen indice_valeur_chaine = sommepnqn/valeur_debut
+
 
 * Graphique
 
