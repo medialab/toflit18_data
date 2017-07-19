@@ -1,19 +1,30 @@
 
 * REPRISE DE LA NOUVELLE BASE
+**Ici, on fait un indice chaîné en changeant l'échantillon à chaque paire d'année
 
 capture program drop Indice_chaine_v2
 program  Indice_chaine_v2
-args direction X_ou_I year_debut
+args direction X_ou_I year_debut year_fin
 
-use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-sort year marchandises_simplification
+if "`c(username)'"=="maellestricot"  use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
+if "`c(username)'"=="guillaumedaudin" use "~/Documents/Recherche/TOFLIT18/Indices de prix - travail Maëlle Stricot/bdd courante reduite2.dta", clear
+
+
+if "`direction'" !="France" keep if direction=="`direction'" 
+keep if exportsimports=="`X_ou_I'"
+drop if year<`year_debut'
+drop if year>`year_fin'
+
+* CADUC On garde une observation par marchandise, année, direction et exports ou imports
+*bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
+*sort year marchandises_simplification
+
+
+*On calcul des indices de prix / inflation par marchandise
 
 gen IPC=.
-bys marchandises_simplification exportsimports direction u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-tsset panvar_num year
+bys panvar_num: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 sort marchandises_simplification year
@@ -24,19 +35,6 @@ sort marchandises_simplification year
 *local X_ou_I Imports 
 *local year_debut 1760
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
-drop if year<`year_debut'
-
-* keep if direction=="Marseille"
-* keep if exportsimports=="Imports"
-* drop if year<1760
-
-* Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
-* bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
-* egen nbr_annees_max=max(nbr_annees) 
-* bys marchandises_simplification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
-* sort year marchandises_simplification 
 
 * capture tabulate marchandises_simplification
 * local nbr_de_marchandises=r(r)
@@ -60,7 +58,7 @@ if somme_annee!=0 by (year)
 tsset panvar_num year
 
 	replace p0=L`lag'.prix_pondere_annuel if p0==.
-	replace q0=L`lag'.quantite_echangee if q0==.
+	replace q0=L`lag'.quantites_metric if q0==.
 	
 }
 
@@ -75,7 +73,7 @@ tsset panvar_num year
 * if somme_annee1!=0 by (year)
 * tsset panvar_num year
 	* replace p0=L1.prix_pondere_annuel if p0==.
-	* replace q0=L1.quantite_echangee if q0==.
+	* replace q0=L1.quantites_metric if q0==.
 
 * if somme_annee1==0 by (year)
 * gen presence_annee2=0
@@ -86,7 +84,7 @@ tsset panvar_num year
 * if somme_annee2!=0 by (year)
 * tsset panvar_num year
 	* replace p0=L2.prix_pondere_annuel if p0==.
-	* replace q0=L2.quantite_echangee if q0==.
+	* replace q0=L2.quantites_metric if q0==.
 	
 * if somme_annee2==0 by (year)
 * gen presence_annee3=0
@@ -97,7 +95,7 @@ tsset panvar_num year
 * if somme_annee3!=0 by (year)
 * tsset panvar_num year
 	* replace p0=L3.prix_pondere_annuel if p0==.
-	* replace q0=L3.quantite_echangee if q0==.
+	* replace q0=L3.quantites_metric if q0==.
 
 
 
@@ -107,13 +105,13 @@ gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
 
 gen p0qn=.
-replace p0qn=p0*quantite_echangee
+replace p0qn=p0*quantites_metric
 
 gen p0q0=.
 replace p0q0=p0*q0
 
 gen pnqn=.
-replace pnqn=prix_pondere_annuel*quantite_echangee
+replace pnqn=prix_pondere_annuel*quantites_metric
 
 
 * Calcul sommes
@@ -221,5 +219,5 @@ graph combine graphindices graphmarchandises, cols(1)
 
  end
  
- Indice_chaine_v2 "Marseille" Imports 1716
+ Indice_chaine_v2 "La Rochelle" Imports 1760 1780
  Indice_chaine_v2 France Imports 1754
