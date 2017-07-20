@@ -1,73 +1,9 @@
-* CREATION D'UNE BASE REDUITE (NE PAS RELANCER (SAUF EN CAS DE PROBLEME AVEC BDD COURANTE REDUITE))
-
-* Ne pas oublier de mettre la base de données utilisée 
-
-use "/Users/maellestricot/Documents/STATA MAC/bdd courante2.dta", clear
-
-* Sélectionner les variables que l'on veut garder (keep)
-
-keep year direction exportsimports quantit prix_unitaire marchandises_simplification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
-sort marchandises_simplification year
-order marchandises_simplification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
-label var quantites_metric "Quantités en kg (q_conv)" 
-
-* On supprime les marchandises qui n'ont pas de prix ou qui apparaissent moins de 1000 fois dans la base /
-* ou bien on supprime les marchandises dont la valeur totale échangée sur la période est inférieure à 100 000
-
- drop if prix_unitaire==.
- drop if prix_unitaire==0
- drop if marchandises_simplification=="" | marchandises_simplification=="???"
- drop if value==.
- 
- * encode marchandises_simplification, gen(marchandises_simplification_num)
- * bysort marchandises_simplification_num: drop if _N<=1000 
- * sort marchandises_simplification year
-	
-
-* Calculer la valeur totale échangée par marchandise sur la période
-
-by marchandises_simplification direction exportsimports, sort: egen valeur_totale_par_marchandise=total(value)	
-label var valeur_totale_par_marchandise "Somme variable valeur par march_simpli, dir, expimp" 	
-*drop if valeur_totale_par_marchandise<=100000
-sort marchandises_simplification year
-	
-
-* On convertit les prix dans leur unité conventionnelle
-	
-generate prix_unitaire_converti=prix_unitaire/q_conv 
-drop if prix_unitaire_converti==.
-label var prix_unitaire_converti "Prix unitaire par marchandise en unité métrique p_conv" 
-
-* Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées pour un produit.unitée métrique
-
-drop if quantites_metric==.
-by year direction exportsimports u_conv marchandises_simplification, sort: egen quantite_echangee=total(quantites_metric)
-label var quantite_echangee "Quantités métric par dir expimp u_conv march_simpli"
-
-generate prix_unitaire_pondere=(quantites_metric/quantite_echangee)*prix_unitaire_converti
-label var prix_unitaire_pondere "Prix de chaque observation en u métrique en % de la quantit échangée totale" 
-
-by year direction exportsimports u_conv marchandises_simplification, sort: egen prix_pondere_annuel=total(prix_unitaire_pondere)
-label var prix_pondere_annuel "Prix moyen d'une mrchd pour une année, march, dir, expimp, u_conv"
-sort marchandises_simplification year
-
-drop prix_unitaire_pondere
-
-* Encode panvar (sinon prend trop de temps) 
-gen panvar = marchandises_simplification + exportsimports + direction + u_conv
-encode panvar, gen(panvar_num)
-drop if year>1787 & year<1788
-
-* On sauvegarde la base de donnée désormais réduite (A REMPLACER SI ON PREND FINALEMENT LES MARCHANDISES DONT VALEUR > 100 000)
- 
-save "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", replace
-
 
 
 
 ***********************************************************************************************************************************
 
-* CALCUL INDICES CHAINES
+* CALCUL INDICES CHAINES AVEC PRODUITS PRÉSENTS SUR TOUTE LA PÉRIODE
 
 
 * REPRISE DE LA NOUVELLE BASE
@@ -76,15 +12,25 @@ capture program drop Indice_chaine_v1
 program  Indice_chaine_v1 
 args direction X_ou_I year_debut year_fin
 
-use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-sort year marchandises_simplification
+if "`c(username)'"=="maellestricot"  use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
+if "`c(username)'"=="guillaumedaudin" use "~/Documents/Recherche/TOFLIT18/Indices de prix - travail Maëlle Stricot/bdd courante reduite2.dta", clear
+
+
+if "`direction'" !="France" keep if direction=="`direction'" 
+keep if exportsimports=="`X_ou_I'"
+drop if year<`year_debut'
+drop if year>`year_fin'
+
+* CADUC On garde une observation par marchandise, année, direction et exports ou imports
+*bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
+*sort year marchandises_simplification
+
+
+*On calcul des indices de prix / inflation par marchandise
 
 gen IPC=.
-bys marchandises_simplification exportsimports direction u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-tsset panvar_num year
+bys panvar_num: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 sort marchandises_simplification year
@@ -95,29 +41,27 @@ sort marchandises_simplification year
 *local X_ou_I Imports 
 *local year_debut 1760
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
-drop if year<`year_debut'
-drop if year>`year_fin'
 
 * Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
-bys marchandises_simplification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
+bys panvar_num : egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys marchandises_simplification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
-sort year marchandises_simplification 
+bys panvar_num : drop if nbr_annees < nbr_annees_max
 
-capture tabulate marchandises_simplification
+capture tabulate panvar_num
 local nbr_de_marchandises=r(r)
-
-tsset panvar_num year
 
 gen p0=.
 gen q0=.
 
+
+**Je pense que dans tout cela, il faut utiliser quantité métrique plutôt que quantité échangée
+* Sinon l'unité du prix n'est pas la même que l'unité de la quantité !!
+
+tsset panvar_num year
 foreach lag of num 1(1)100 {
 
 	replace p0=L`lag'.prix_pondere_annuel if p0==.
-	replace q0=L`lag'.quantite_echangee if q0==.
+	replace q0=L`lag'.quantites_metric if q0==.
 	
 }
 
@@ -127,13 +71,13 @@ gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
 
 gen p0qn=.
-replace p0qn=p0*quantite_echangee
+replace p0qn=p0*quantites_metric
 
 gen p0q0=.
 replace p0q0=p0*q0
 
 gen pnqn=.
-replace pnqn=prix_pondere_annuel*quantite_echangee
+replace pnqn=value
 
 
 * Calcul sommes
@@ -166,15 +110,16 @@ by year : gen valeur=sommepnqn/sommep0q0
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
-sort year marchandises_simplification
+drop marchandises_simplification
+*sort year marchandises_simplification
 
-* replace laspeyresP=1 if year==1760
-* replace paascheP=1 if year==1760
-* replace fisherP=1 if year==1760
+*replace laspeyresP=1 if year==`year_debut'
+*replace paascheP=1 if year==`year_debut'
+*replace fisherP=1 if year==`year_debut'
 
-* replace laspeyresQ=1 if year==1760
-* replace paascheQ=1 if year==1760
-* replace fisherQ=1 if year==1760
+*replace laspeyresQ=1 if year==`year_debut'
+*replace paascheQ=1 if year==`year_debut'
+*replace fisherQ=1 if year==`year_debut'
 
 * Calcul indices chaînés de prix 
 
@@ -226,7 +171,8 @@ drop sum_loglaspeyresQ
 drop sum_logpaascheQ
 drop sum_logfisherQ
 
-* Calcul indice chaine de valeur
+* Calcul indice chaine de valeur (Calcul très bizarre)
+/*
 gen logvaleur=log(valeur)
 sort year
 gen sum_logvaleur=sum(logvaleur)
@@ -234,6 +180,13 @@ gen indice_valeur_chaine=exp(sum_logvaleur)
 
 drop logvaleur
 drop sum_logvaleur
+*/
+
+
+sort year
+gen valeur_debut=sommepnqn[1]
+gen indice_valeur_chaine = sommepnqn/valeur_debut
+
 
 * Graphique
 
@@ -315,19 +268,19 @@ tsset panvar_num year
 * Générer prix de base et quantité de base
 sort marchandises_simplification year 
 by marchandises_simplification : gen prix1754=prix_pondere_annuel[1]
-by marchandises_simplification : gen quantite1754=quantite_echangee[1]
+by marchandises_simplification : gen quantite1754=quantitities_metric[1]
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*quantite1754
 
 gen p0qn=.
-replace p0qn=prix1754*quantite_echangee
+replace p0qn=prix1754*quantitities_metric
 
 gen p0q0=.
 replace p0q0=prix1754*quantite1754
 
 gen pnqn=.
-replace pnqn=prix_pondere_annuel*quantite_echangee if year!=1754
+replace pnqn=prix_pondere_annuel*quantitities_metric if year!=1754
 
 * Calcul sommes
 sort year marchandises_simplification 
@@ -372,17 +325,17 @@ tsset panvar_num year
 sort year marchandises_simplification
 
 gen p1q0=.
-replace p1q0=prix_unitaire_converti*L10.quantite_echangee
+replace p1q0=prix_unitaire_converti*L10.quantitities_metric
 
 gen  p0q1=.
-replace p0q1=quantite_echangee*L10.prix_unitaire_converti
+replace p0q1=quantitities_metric*L10.prix_unitaire_converti
 
 gen p1q1=.
-replace p1q1=prix_unitaire_converti*quantite_echangee if year==1764
+replace p1q1=prix_unitaire_converti*quantitities_metric if year==1764
 * replace p1q1=pq
 
 gen p0q0=.
-replace p0q0=L10.prix_unitaire_converti*L10.quantite_echangee
+replace p0q0=L10.prix_unitaire_converti*L10.quantitities_metric
 * replace p0q0=L10.pq
 
 egen sommep1q0=total(p1q0)
