@@ -216,6 +216,7 @@ drop sortkey
 export delimited "Units_Normalisation_Métrique1.csv", replace
 
 
+/*
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
@@ -244,6 +245,7 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_N1.csv", replace
+*/
 
 ******* Direction et origine
 use "bdd_centrale.dta", clear
