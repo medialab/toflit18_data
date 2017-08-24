@@ -110,7 +110,7 @@ Inconnu,marchandises,definition
 0,baille,"Savary, volume 1, 1748 : «  Baille : Moitié de tonneau en forme de bacquet» "
 0,bailliarge,Espèce d'orge qui vient de l'Angoumois ou du Poitou 
 0,"bajanes, bajannes, bajaunes, basane, bazane","Basannes ""Peau de bélier, mouton, de brebis, passée en tan"", Savary, Dictionnaire 1. Écrit parfois ""Basane"" dans l'Encyclopédie. "
-0,"bajutapau, bajutabeau, bajutapeau","Bajutapaux, ""espèces de toile de coton, rayées de blanc"", Almanach général des marchands, négocians et armateurs de la France, de l'Europe et des autres parties du Monde, Paris "
+0,"bajutapau, bajutabeau, bajutapeau, majutapau, rajutapau","Bajutapaux, ""espèces de toile de coton, rayées de blanc"", Almanach général des marchands, négocians et armateurs de la France, de l'Europe et des autres parties du Monde, Paris "
 0,balaustes,"Fleurs de grenadire sauvage, Encyclopédie, article ""Balaustes"". "
 1,balfas,L’écriture paraît pourtant lisible (La Rochelle - 41 ETP 271 – 1729 – page 3) 1
 0,bambouc,"bambou, ""bois extrêmement noueux qui croît dans plusieurs endroits des Indes Orientales"", article ""Bambouc"", Encyclopédie. "
@@ -513,7 +513,7 @@ suron"
 0,cévadille,"« Plante bulbeuse de la famille des liliacées ou des mélanthiacées [1], originaire du Mexique, contenant de la vératrine, de la sabadine et de la sabadinine qui sont trois alcaloïdes. » (Wiki)"
 0,cévadille,"E. SoubeiranTraité de pharmacie théorique et pratique, volume 2 : « La cévadille contient : vératine,matière grasse, acide cévadique...» "
 0,cévadille,"www.cnrtl.fr (Centre National de Ressources Textuelles et Lexicales) : OU SABADILLA,  Plante bulbeuse originaire du Mexique dont les graines ont été utilisées comme parasiticide en raison de leur toxicité pour les animaux à sang froid. La cévad "
-1,"chaconas, chaconis","""chavonis"", ""toile de coton des Indes qui se fabriquent à la côte de Coromandel et au Bengale"", Vocabulaire des termes de commerce, banque, manufactures, navigation marchande, finance mercantile et statistique, J. Peuchet, 1801, article ""chavonis"" p. 45"
+1,"chaconas, chaconi, charanis","""chavonis"", ""toile de coton des Indes qui se fabriquent à la côte de Coromandel et au Bengale"", Vocabulaire des termes de commerce, banque, manufactures, navigation marchande, finance mercantile et statistique, J. Peuchet, 1801, article ""chavonis"" p. 45"
 1,chades,"La retranscription paraît correcte (Source : http://charente-maritime.fr/archinoe/visu_affiche.php?PHPSID=k2i67avr4lq83ek156hogie4l6&param=visu&page=1, page 3), mais le terme est inconnu des dictionnaires. "
 1,chafarcany,"La retranscription est douteuse (Source : Marseille -- 1739 -- Imports – CCI_Marseille_I_29.pdf, page 20) mais la graphie de cette marchandise ne ressemble à aucune autre présente dans la BDD ; en l’état, elle est absente des dictionnaires. "
 1,chalbafs,"Marchandise inconnue, probablement écrite dans une langue étrangère (issue du commerce avec la Hollande en l’occurrence) ; la retranscription paraît correcte (Source : Objet Général -- 1757 – BMRouen_Ms_Montbret_155-1b.pdf, page 28) "
@@ -527,7 +527,7 @@ suron"
 1,chanote,"La retranscription semble correcte (Source : Marseille -- 1739 -- Imports – CCI_Marseille_I_29.pdf), mais le terme est inconnu des dictionnaires et n’apparaît qu’une fois dans laBDD. "
 1,chaplas,"La retranscription est sans aucun doute correcte, il s’agit peut être d’une erreur du copiste (Source : Objet Général -- 1754 – BMRouen_Ms_Montbret_155-1.pdf, page 30) ou bien d’un mot en langue étrangère dont la définition nous échappe. "
 0,chardon,"Savary, volume 2, 1748 : Plusieurs types de chardons, pour décoction, différents usages en médecine "
-1,charonie,"Retranscription douteuse (Source : http://charente-maritime.fr/archinoe/visu_affiche.php?PHPSID=k2i67avr4lq83ek156hogie4l6&param=visu&page=1, page 5) ; une seule occurrence. Peut être charon ? ou Charogne ? "
+1,charonie,cf. chaconas
 1,charrée,
 0,charriot à feu,"Wikipédia : fardier de Cugnot, le premier véhicule automobile "
 0,chaudons de cuivre,"chaudons de cuivre = cuivre en chaudon, marchandise présente à plusieurs reprises dans la BDD. (Normalisation orthographique effectuée)  "
@@ -556,7 +556,7 @@ suron"
 1,cholas,"la transcription semble correcte, une seule occurrence (Nantes, sorties vers la Guinée, 1740, C706)"
 1,chomettes de terre,
 1,chourales,"Peut être une erreur de retranscription (Source : Nantes -- 1765 -- Exports -- AD44_C717 (B&W).pdf, page 13). En effet, les dictionnaires ne mentionnent pas cette marchandise, qui n’apparait qu’une seule fois dans la BDD par ailleurs.  "
-0,chuquelas,Chuquelas ou Chercolées ou cherconnées : toile des Indes de soie et coton. 
+0,"choquelas, chuquelas",Chuquelas ou Chercolées ou cherconnées : toile des Indes de soie et coton. 
 0,ciere,"variante de chiere, ancien français pour cire"
 1,cikous,"Retranscription correcte, mais signification inconnue. Une seule occurrence, à destination du Danemark depuis Nantes en 1778. (C717)"
 1,cime,"Simplement définissable comme le sommet d’un arbre, ou d’une montage, mais jamais comme une marchandise (Littré, Savary, …) Une seule occurrence, en provenance de Hollande (Source : http://charente-maritime.fr/archinoe/visu_affiche.php?PHPSID=k2i67avr4lq83ek156hogie4l6&param=visu&page=1). "
@@ -740,8 +740,7 @@ suron"
 0,dictame,"Plante aromatique de la famille des Labiées, dans laquelle les Grecs voyaient un puissant vulnéraire, CNRTL. "
 0,dictamus,"Nicolas Lémery, Nouveau dictionnaire général des drogues simples et composées, Volume 1, 1807 : « On nous les apporte sèche de l'Italie et de nos départements méridionaux elles sont nervales, anthelmintique, ménagogues » "
 1,dimelle,"A priori pas d’erreur de retranscription, mais ce terme n’apparait qu’une seule fois et est absent des différents dictionnaires. (Source : Objet -- 1750 -- Flandres – SB_8MS86.pdf, page 16) "
-1,dissouchaie,
-0,dissouchaye,"Marchandise indienne, pas de définition trouvée "
+0,"dissouchaie, dissouchaye, dissoucbaye, dissouchaïe, dissouchaïs","Dissouchaye, Mousseline importée d'Inde; cf. chap. Les mousselines, ESTABLET, Colette. Répertoire des tissus indiens importés en France entre 1687 et 1769‎ [en ligne]. Aix-en-Provence : Institut de recherches et d'études sur le monde arabe et musulman, 2017 "
 1,ditors,"A priori ce n’est pas une erreur de retranscription (Source : http://charente-maritime.fr/archinoe/visu_affiche.php?PHPSID=unb38jj23aotq5rtd9cfd84h91&param=visu&page=1, page 3). La marchandise n’apparaît que deux fois dans la BDD, importée de Hollande jusqu’à La Rochelle. "
 0,dividivi,"Fait référence à un arbre, le Caesalpinia coriaria (Wikipédia) "
 0,doloirs,"D’après le Littré, c’est une « sorte de couteau de gantier pour doler les peaux. » "
@@ -886,6 +885,7 @@ suron"
 1,fais vieux,Difficile de conclure sans plus de détails. Est-ce une marchandise ou une manière de qualifier une marchandise ? 
 0,faîteaux,"D’après le Wiktionnaire : « Ornement qu’on place aux extrémités d’un faîtage (ensemble du comble d’un bâtiment, la charpente, la couverture, etc.). » "
 0,faitiers,"D’après le Wiktionnaire : « Qui appartient au faîte (comble, la partie la plus élevée d’un bâtiment, d’un édifice). » "
+1,falbas,peut-être calbas
 0,falquiere de mulet,Falquière : forme ancienne de Fougère issu de l'occitan. 
 1,faltranck suisse,"Marchandise absente de la BDD centrale, car elle provient d’une source belge. Après quelques recherches sur Internet, il semble que ce soit une boisson, voire une drogue médicinale (Source : http://portail.atilf.fr/cgi-bin/getobject_?a.43:73./var/artfla/encyclopedie/textdata/image/) "
 1,fanaile,
@@ -1164,16 +1164,16 @@ suron"
 1,jaillet,
 0,jalap,"plante à fleur, Encyclopédie, article ""Jalap"". "
 0,jalap,"Savary, volume 2, 1748 : « ou SOLANUM MEXICAMON. Racine très purgative qu'on apporte des Indes Occidentales & de l'Ile de Madère. […]  On tire du Jalap […] une résine liquide qu'on estime plus que le Jalap même » "
-1,jamard,
-1,jamavar,
+1,jamard,probablement jamavar
+1,"jamavar, jamarard, jamassar, jamavart, janamar","Jamavar or Jamawar, a special type of shawl made in Kashmir (Wikipedia engl.)"
 0,jarbes (en),gerbes (en). 
 0,jarosse,"« Fabacée (légumineuse) fourragère, gesse chiche, gesse vulgaire ou vesce craque qu'on sème pour la couper en vert » (wiki)"
 0,jaspé (camelot),"Un camelot jaspé est un camelot « qui imite par ses nuances le jaspe » (Littré), le jaspe étant une pierre aux couleurs très particulières.  "
 1,jatape,
 0,"jayet, joyet","Jais, article ""Jayet"", Encyclopédie [N.B. "
-1,"jeanne, jeanne gros",
-,jet de pierre,substitut du levain pour la bierre
-1,jets de canne (jeux?),
+,,
+,,
+,,
 1,jets de terre,
 1,jets de voile,
 0,jonquette,apparemment synonyme de jonc
@@ -1368,6 +1368,7 @@ suron"
 0,moncayard,"Encyclopédie de Diderot et d'Alembert : « Moncahcar ou Moncayard : étoffe noire, d'une grande finesse, à châine de soie et trame de fil de laine de sayette. » "
 0,mongette,Mongette : nom donné aux haricots (blancs) dans le midi de la France. 
 1,mongistere," 4 occurrences dans la BDD. Définition introuvable, mais ce bien est toujours associé à un commerce avec les Indes Orientales (produit importé)"
+0,montichon,"tissu de coton et de soie, Inventaire après décès de Louise Marie Laperroy, fille majeure, 14 septembre 1731 – MC/ET/XXX/251; accessible à https://identitesvestimentaires.wordpress.com/dans-les-actes-notaries-de-paris-archives-nationales/annee-1731/inventaire-apres-deces-de-louise-marie-laperroy-fille-majeure-14-septembre-1731-mcetxxx251/"
 0,moque de gréz,Introuvable dans la BDD
 1,morenine de soie,
 0,morphil (dents de),"Morfil, dents déléphant. ""On les nomme marfil ou morfil"", Savary, Dictionnaire 2, article ""Dent d'éléphant"". "
@@ -1395,7 +1396,7 @@ suron"
 ,naveaux,navets ?
 ,naves de porte,Objet décoratif en forme de navire ?
 0,"necanias, nekanias, nicaneas, nicanes","tissu de coton rayé de l'ouest de l'Inde, listé sous ""nicannee [..] ou niquanias"" dans le glossaire de G. Riello et T. Roy, How India clothed the world, p. 439. Graphie utilisée Nicaneas. "
-0,neganepeau,Tissu de coton des Indes (destiné au commerce de Guinée) 
+0,"neganepeau, maganipau, neganipau, neganipou, neganitapau, negatupaux, negnepaux",Tissu de coton des Indes (destiné au commerce de Guinée) 
 ,nelis,toile de coton des indes
 0,néphrétique (bois de),"Article ""Bois néphrétique"", Encyclopédie. "
 1,nepres,"1 occurrence dans la BDD, bonne retranscription. Mais aucune définition trouvée. ( Voir Objet Ge?ne?ral -- 1752 – BMRouen_Ms_Montbret_849-3.pdf Page 78)"
@@ -1473,7 +1474,7 @@ suron"
 1,passetatons de cordonnier,
 0,pataque,"Ancienne monnaie d'Italie, du Brésil et autre (http://dictionnaire.reverso.net/francais-definition/pataque) "
 0,pâte sagou,"Le Trésor de la Langue Française informatisé, article “Sagou”: « A. ? ALIM. Fécule amylacée de couleur jaunâtre tirant parfois sur le rouge ou le brun, extraite de la moelle de diverses espèces de palmiers (notamment du sagoutier), utilisée en cuisine et en pâtisserie comme élément de liaison, ainsi que pour préparer des potages et des entremets. Sagou perlé; gelée, soupe de sagou; manger du sagou. Ces rhizomes étaient d'un excellent goût, très-nutritifs, à peu près semblables à cette substance qui se débite en Angleterre sous le nom de « sagou de Portland », et ils pouvaient, dans une certaine mesure, remplacer le pain (Verne, Île myst., 1874, p. 121). »"
-,patenas,???
+,patenas,"""indiennes supérieures"", Schoeser, Mary & Dejardin, Kathleen. 1991 French Textiles from 1760 to the Present. p. 30"
 1,patenottes,"1 occurrence dans la BDD, la retranscription semble correcte (Voir Objet -- 1751 -- Flandres – SB_8MS86.pdf Page 37). Rien dans els disctionnaires sur le terme « Pattenottes », mais pour Patenostre oui : Savary, Dictionnaire 3, 1748, article « Patenostre » Page 734 : « Chapelets ou grains enfilés sur lesquels on dit diverses prières, parriculiérement le Pater nofìer, ou Prière Dominicale ,d'où vienc le mot de Parenostres. »"
 ,patissoye uni,Toile des Indes
 0,paumelle,"Savary, volume 3, 1748 : « Cet instrument sert aux courroyeurs à tirer leur cuir sur la table pour les rendre plus maniables » ; mais l'article ""paumelle"" de l'Encyclopédie signale 4 usages différents; et ""paumelle"" est également utilisé pour un type d'orge."
