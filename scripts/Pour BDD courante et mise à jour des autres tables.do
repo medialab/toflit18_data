@@ -24,7 +24,7 @@ foreach file in classification_country_orthographic_normalization classification
 */				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
@@ -50,13 +50,13 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+use "Données Stata/Units_Normalisation_Metrique1.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique1.dta", replace
+save "Données Stata/Units_Normalisation_Metrique1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique2.dta", clear
+use "Données Stata/Units_Normalisation_Metrique2.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique2.dta", replace
+save "Données Stata/Units_Normalisation_Metrique2.dta", replace
 
 /*
 
@@ -197,7 +197,7 @@ drop sortkey
 export delimited "Units_Normalisation_Orthographique.csv", replace
 
 use "Units_Normalisation_Orthographique.dta", clear
-merge m:1 quantity_unit_ortho using "Units_Normalisation_Métrique1.dta"
+merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
 keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
 source_hambourg missing need_marchandises source_bdc _merge 
 foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
@@ -209,11 +209,11 @@ foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
 
 drop _merge
 bys quantity_unit_ortho : keep if _n==1
-save "Units_Normalisation_Métrique1.dta", replace
+save "Units_Normalisation_Metrique1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited "Units_Normalisation_Métrique1.csv", replace
+export delimited "Units_Normalisation_Metrique1.csv", replace
 
 
 /*
@@ -523,14 +523,14 @@ rename yearnum year
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
  
- merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
+ merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Metrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
  
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
-		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
+		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
  drop  remarque_unit-_merge
  codebook q_conv
  
