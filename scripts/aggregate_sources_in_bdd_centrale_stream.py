@@ -84,10 +84,10 @@ def add_fields_to_line(d):
         else :
             d["replace_computed_up"]=0
 
-        # transform "." and "?" into ""
-        for field in ["value","quantit","prix_unitaire"]:
-            if d[field] in [".","?"]:
-                d[field]=""
+    # transform "." and "?" into ""
+    for field in ["value","quantit","prix_unitaire"]:
+        if d[field] in [".","?"]:
+            d[field]=""
 
 output_filename="../base/bdd_centrale.csv"
 directory="../sources"
@@ -134,7 +134,7 @@ with open(output_filename,"w") as output_file:
                             for k in line:
                                 line[k] = clean(line[k])
 
-                            # add_fields_to_line(line)
+                            add_fields_to_line(line)
 
                             writer.writerow(line)
 
