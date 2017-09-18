@@ -496,6 +496,11 @@ merge m:1 marchandises_simplification using "bdd_marchandises_hamburg"
 drop if _merge==2
 drop _merge
 
+merge m:1 marchandises_simplification using "bdd_marchandises_medicinales"
+drop if _merge==2
+drop _merge
+
+
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
