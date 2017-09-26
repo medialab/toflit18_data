@@ -127,12 +127,19 @@ with open(output_filename,"w") as output_file:
                 ext = csv_file_name.split(".")[-1] if "." in csv_file_name else None
                 if ext == "csv":
                     print "%s in %s"%(csv_file_name,dirpath)
-                    with open(os.path.join(dirpath,csv_file_name),"r") as source_file:
+
+                    filepath = os.path.join(dirpath, csv_file_name)
+
+                    with open(filepath,"r") as source_file:
                         r=csvkit.DictReader(source_file)
 
                         for line in r:
                             for k in line:
                                 line[k] = clean(line[k])
+
+                            # if not filepath.decode('utf-8').endswith(line['sourcepath']):
+                            #     print 'WARNING: incorrect sourcepath!'
+                            #     raise Exception('incorrect sourcepath')
 
                             add_fields_to_line(line)
 
