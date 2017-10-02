@@ -822,8 +822,9 @@ barres carrées de fer étiré de 15 inclusivement à 22 millimètres exclusivem
 barres carrées de fer étiré de 22 millimètres et plus sur chaque face,2,,non
 barres carrées de fer étiré de moins de 15 millimètres,2,,non
 barres carrées de fer étiré de moins de 15 millimètres sur chaque face,2,,non
+barres d'anspect en bois,7,,non
 barres d'anspects,7,x,non
-barres d'anspects et barres de cabestan,2,,non
+barres d'anspects et barres de cabestan,7,,non
 barres d'étain,6j,x,non
 barres d'étain ou blocs d'étain,6j,x,non
 barres de barrique,6b,x,non
@@ -1017,6 +1018,7 @@ bateaux à pêcher,7,x,non
 bateaux neufs,7,x,non
 bâtiments de mer,7,x,non
 bâtiments de mer vieux,7,,non
+bâtiments naufragés,7,,non
 batiste,6d,x,non
 batiste blanche,6d,x,non
 batiste brochée,6d,,non
@@ -1709,6 +1711,7 @@ bois en bûches pour brûler,6b,,non
 bois en epriers,6b,,non
 bois en tranches,6b,,non
 bois équarri,6b,,non
+bois et écorces de chêne et de frêne,2,,non
 bois et merrains,9b,x,non
 bois et ouvrages de charronerie,9b,x,non
 bois et paniers de coudre,9b,x,non
@@ -1768,6 +1771,7 @@ bois pour brûler de chêne,3,x,non
 bois pour brûler de gite,3,x,non
 bois pour brûler en ???,3,x,non
 bois pour brûler et autres,3,x,non
+bois pour brûler et fagots,3,,non
 bois pour cabanière,6b,,non
 bois pour cercle,6b,,non
 bois pour chaise,6b,x,non
@@ -2241,6 +2245,7 @@ boutons d'acier,8,x,non
 boutons d'acier argenté,8,,non
 boutons d'argent,8,x,non
 boutons d'argent et boutons d'or,8,x,non
+boutons d'argent faux,8,,non
 boutons d'argent sur bois,8,x,non
 boutons d'argent trait,8,x,non
 boutons d'étain,8,x,non
@@ -2370,6 +2375,7 @@ brai galipot,5,,non
 brai goudron ???,5,x,non
 brai gras,5,x,non
 brai gras et goudron,5,,non
+brai gras et sec,5,,non
 brai gras goudron,5,,non
 brai gras ou goudron,5,,non
 brai gros,5,x,non
@@ -4967,6 +4973,7 @@ cuirs de bœuf salé,6a,x,non
 cuirs de bœuf secs,6a,,non
 cuirs de bœuf tannés,6a,x,non
 cuirs de bœuf tannés et cuir de vache tannés,6a,x,non
+cuirs de bœuf verts,6a,,non
 cuirs de bœufs en poil,6a,,non
 cuirs de buffle,6a,x,non
 cuirs de buffle en poil,6a,x,non
@@ -5063,6 +5070,7 @@ cuisses d'oie à la daube,0a,,non
 cuisses d'oie en adobe,0a,,non
 cuisses d'oie salées,0a,,non
 cuivre,6j,x,non
+cuivre à lessive,6j,,non
 cuivre à mitraille,6j,x,non
 cuivre à monnayer rouge,9a,x,non
 cuivre allié argenté battu laminé ou tiré,6j,,non
@@ -5531,6 +5539,7 @@ drap brodé en soie,6f,x,non
 drap buras,6i,x,non
 drap bure,6i,x,non
 drap cad ???,6i,x,non
+drap calimouk,6i,,non
 drap calimouk de Sedan 20 lignes,6i,,non
 drap calimouk de Sedan 350 lignes,6i,,non
 drap cammise,6i,,non
@@ -7848,6 +7857,7 @@ flanelle de santé autorisation spéciales,6e,,non
 flanelle des prises,6e,x,non
 flanelle du Béarn,6e,x,non
 flanelle et Bergopzoom,6e,x,non
+flanelle fil et laine,6i,,non
 flanelle fine,6e,x,non
 flanelle imprimée,6e,x,non
 flanelle peinte,6e,,non
@@ -8235,6 +8245,7 @@ futailles démontées vides,6b,,non
 futailles diverses,6b,x,non
 futailles en barriques vieilles ???,6b,x,non
 futailles en petits barils,6b,,non
+futailles petites,6b,,non
 futailles vides,6b,x,non
 futailles vides de tonnelier,6b,x,non
 futailles vieilles,6b,,non
@@ -10511,6 +10522,7 @@ lin non apprêté,2,,non
 lin non battu et vert,2,x,non
 lin peigné,2,x,non
 lin peigné en laine,2,,non
+lin préparé,2,,non
 lin prêt à filer,2,,non
 lin sans paille et en potasse,2,x,non
 lin sec non roui,2,x,non
@@ -11526,6 +11538,7 @@ merrains ganivelles,6b,x,non
 merrains petits,6b,x,non
 merrains pour faire des douves de fûts,6b,x,non
 merrains pour ferraille,6b,x,non
+merrains pour tonnellerie,6b,,non
 merrains quartage douelles,6b,,non
 merrains Scott,6b,,non
 mervillon,???,,non
@@ -11802,6 +11815,7 @@ morceaux de bois,6b,,non
 morceaux de bois ordinaire de 6 à 7 pieds,6b,,non
 morceaux de bois puant de 6 pieds,6b,,non
 morceaux de planches,6b,,non
+morceaux de sapin,6b,,non
 morenine de soie,6f,,non
 morilles,0a,x,non
 morilles et mousserons et truffes,0a,x,non
@@ -14855,6 +14869,7 @@ plants de vigne,2,x,non
 plaques,9c,,non
 plaques de bois,6b,,non
 plaques de cheminée,6j,x,non
+plaques de cheminées en fer,6j,,non
 plaques de cornes,6k,x,non
 plaques de cuivre,6j,x,non
 plaques de cuivre rouge,6j,x,non
@@ -16260,6 +16275,7 @@ sablon,2,,non
 sabots,8,x,non
 sabots de bœuf,2,,non
 sabots de bois,6b,,non
+sabots et selles de bois,7,,non
 sabres,8,x,non
 sabres de traite,8,x,non
 sabres de traite et autres,8,,non
@@ -16652,6 +16668,7 @@ sellerie de cuir,7,x,non
 sellerie en harnais,7,,non
 selles,7,x,non
 selles communes,7,x,non
+selles de bois,7,,non
 selles de cuir,7,x,non
 selles de femme,7,x,non
 selles de fer,7,x,non
@@ -17042,6 +17059,7 @@ soliveaux de 50 pieds et de sapin,6b,x,non
 soliveaux de 6 à 7 pieds et de sapin,6b,x,non
 soliveaux de 9 à 18 pieds et de sapin,6b,,non
 soliveaux de 9 pieds et de sapin,6b,,non
+soliveaux de bois,6b,,non
 soliveaux de bois de nache,6b,,non
 soliveaux de châtaigner,6b,,non
 soliveaux de chêne,6b,x,non
@@ -18345,6 +18363,7 @@ toile de Barrois et Clinchamp,6h,x,non
 toile de basin,6g,x,non
 toile de basin brodé et de coton et de fil,6i,,non
 toile de basin clair et uni,6g,,non
+toile de basin coton et fil,6h,,non
 toile de basin de coton,6g,,non
 toile de basin de coton commune,6g,,non
 toile de basin de coton et de fil,6h,,non
@@ -18470,6 +18489,7 @@ toile de chanvre 1400 lignes,6d,,non
 toile de chanvre 1500 lignes,6d,,non
 toile de chanvre 1700 lignes,6d,,non
 toile de chanvre 450 lignes,6d,,non
+toile de chanvre à carreaux,6d,,non
 toile de chanvre à voile,7,,non
 toile de chanvre blanche,6d,x,non
 toile de chanvre commune et de fil,6d,,non
@@ -19391,6 +19411,7 @@ verdet cristallisé et non cristallisé,5,,non
 verdet non cristallisé,5,,non
 verdet non cristallisé sec,5,,non
 verge de fer blanc,6j,,non
+verges à moulins,6j,,non
 verges d'étain,6j,x,non
 verges de cuivres,6j,x,non
 verges de fer,6j,x,non
