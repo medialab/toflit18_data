@@ -21,8 +21,8 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 20,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,chair salée,Hollande,445,2787,livres,0.16,-0.920000000000016,en quintal
 21,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,ceruze,Hollande,2652,18943,livres,0.14,-0.0200000000004366,en quintal
 22,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,canelle,Hollande,18106,3017.75,livres,6,-0.5,3017 livres et 12 onces
-23,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,camfre,Hollande,257,1028,livres,0.25,0,
-24,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,cinabre,Hollande,274,784,livres,0.35,-0.400000000000034,arrondi
+23,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,camfre,Hollande,5014,1028,livres,5,0,"erreur dans la source, confusion entre livres et sous"
+24,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,cinabre,Hollande,5488,784,livres,7,0,"erreur dans la source, confusion entre livres et sous"
 25,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,couperose verte,Hollande,17,293,livres,0.06,-0.579999999999998,en quintal
 26,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,colle de poisson,Hollande,434,96.5,livres,4.5,-0.25,96 livres et 1/2
 27,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,2,colle forte,Hollande,693,1387,livres,0.5,-0.5,arrondi
@@ -172,7 +172,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 171,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,liqueurs à boire,Piemont,25,126,livres,0.2,-0.200000000000003,arrondi
 172,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,liqueurs à boire,Piemont,591,1182,bouteilles,0.5,0,
 173,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,laine pelade,Piemont,1628,6786,livres,0.24,-0.639999999999873,en quintal
-174,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,linge vieux,Piemont,30,1,valeur,30,0,marchandises en estimation
+174,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,linge vieux,Piemont,30,,,,0,marchandises en estimation
 175,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,maquet,Piemont,180,240,barils,0.75,0,
 176,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,mercerie,Piemont,225,75,livres,3,0,
 177,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,5,moquette verte,Piemont,51,34,livres,1.5,0,
@@ -291,7 +291,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 290,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,fer en barres,Italie,350,2503,livres,0.14,-0.420000000000016,en quintal
 291,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,fer vieux,Italie,45,452,livres,0.1,-0.200000000000003,en quintal
 292,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,flacons de verre,Italie,6,48,pièces,0.125,0,marchandises en estimation
-293,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,grenades,Italie,400,800,pièces,0.5,0,
+293,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,grenades,Italie,4,800,pièces,0.005,0,
 294,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,graisse de boucherie,Italie,98,430,livres,0.23,-0.900000000000006,en quintal
 295,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,graine de jardin,Italie,21,7,livres,3,0,
 296,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,graine de chanvre,Italie,1659,33197,livres,0.05,-0.850000000000136,en pourcentage
@@ -333,7 +333,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direct
 332,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,parapluies,Italie,837,1116,pièces,0.75,0,
 333,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,potterie de gray,Italie,204,2915,livres,0.07,-0.0500000000000114,en quintal
 334,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,pelles de bois,Italie,8,48,pièces,0.166666666666667,0,
-335,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,planches de sapin,Italie,6622,946,pièces,7,0,
+335,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,planches de sapin,Italie,546,946,pièces,0.5833333,0,
 336,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,poutres,Italie,360,15,pièces,24,0,
 337,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,8,quenouilles de canne de peinte,Italie,6,7,pièces,0.9,-0.3,arrondi
 338,Ahmed,CCI Marseille - I 29,Local/Marseille/Archives_de_la_CCI_de_Marseille-I29/Marseille-1737.csv,Local,1737,Imports,Marseille,9,ris,Italie,65627.37,729193,livres,0.09,0,

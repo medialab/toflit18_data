@@ -1,22 +1,30 @@
 
 
-version 14.2
+ version 14.0
 
+ 
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
+
+if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
+
+if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
+
 cd "$dir"
-capture log using "`c(current_time)' `c(current_date)'"
+
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
+*/				 classification_country_obrien /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
-*/				 Units_N1 Units_N2 Units_N3  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
+*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
-*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Métrique1 Units_Normalisation_Métrique2 /*
+*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
@@ -42,13 +50,13 @@ use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique1.dta", clear
+use "Données Stata/Units_Normalisation_Metrique1.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique1.dta", replace
+save "Données Stata/Units_Normalisation_Metrique1.dta", replace
 
-use "Données Stata/Units_Normalisation_Métrique2.dta", clear
+use "Données Stata/Units_Normalisation_Metrique2.dta", clear
 destring q_conv, replace
-save "Données Stata/Units_Normalisation_Métrique2.dta", replace
+save "Données Stata/Units_Normalisation_Metrique2.dta", replace
 
 /*
 
@@ -130,7 +138,7 @@ foreach variable of var quantit value prix_unitaire probleme {
 }
 
 
-destring numrodeligne  total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
+destring total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
 destring quantit prix_unitaire value, replace
 
 drop if source==""
@@ -143,7 +151,7 @@ replace value=. if (value==0 & quantit!=. & quantit!=0)
 ** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
 * Création de value_as_reported, value = unit_price*quantit...
 
-
+capture drop v24
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
 
@@ -189,7 +197,7 @@ drop sortkey
 export delimited "Units_Normalisation_Orthographique.csv", replace
 
 use "Units_Normalisation_Orthographique.dta", clear
-merge m:1 quantity_unit_ortho using "Units_Normalisation_Métrique1.dta"
+merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
 keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
 source_hambourg missing need_marchandises source_bdc _merge 
 foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
@@ -201,13 +209,14 @@ foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
 
 drop _merge
 bys quantity_unit_ortho : keep if _n==1
-save "Units_Normalisation_Métrique1.dta", replace
+save "Units_Normalisation_Metrique1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited "Units_Normalisation_Métrique1.csv", replace
+export delimited "Units_Normalisation_Metrique1.csv", replace
 
 
+/*
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
 drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
@@ -236,6 +245,32 @@ generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_N1.csv", replace
+*/
+
+******* Direction et origine
+use "bdd_centrale.dta", clear
+merge m:1 direction using "bdd_directions.dta"
+keep direction direction_simpl
+bys direction : gen nbr_occurence=_N
+bys direction : keep if _n==1
+save "bdd_directions.dta", replace
+generate sortkey = ustrsortkey(direction, "fr")
+sort sortkey
+drop sortkey
+export delimited bdd_directions.csv, replace
+
+
+use "bdd_centrale.dta", clear
+merge m:1 origine using "bdd_origine.dta"
+keep origine origine_norm_ortho
+bys origine : gen nbr_occurence=_N
+bys origine : keep if _n==1
+save "bdd_origine.dta", replace
+generate sortkey = ustrsortkey(origine, "fr")
+sort sortkey
+drop sortkey
+export delimited bdd_origine.csv, replace
+
 
 
 
@@ -292,6 +327,21 @@ sort sortkey
 drop sortkey
 export delimited classification_country_grouping.csv, replace
 
+** 
+use "classification_country_simplification.dta", clear
+drop note
+merge m:1 pays_simplification using "classification_country_obrien.dta"
+
+drop if _merge==2
+drop _merge
+
+bys pays_simplification : keep if _n==1
+keep pays_simplification pays_obrien note
+save "classification_country_obrien.dta", replace
+generate sortkey = ustrsortkey(pays_simplification, "fr")
+sort sortkey
+drop sortkey
+export delimited classification_country_obrien.csv, replace
 
 
 *************Marchandises
@@ -340,7 +390,8 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg {
+foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg /*
+		*/ bdd_marchandises_grains {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -383,12 +434,12 @@ use "bdd_centrale.dta", clear
 merge m:1 direction using "bdd_directions.dta"
 rename direction direction_origine
 rename direction_simpl direction
-drop _merge
+drop _merge nbr_occurence
 
 merge m:1 origine using "bdd_origine.dta"
 rename origine origine_origine
 rename origine_norm_ortho origine
-drop _merge
+drop _merge nbr_occurence
 
 
 
@@ -403,6 +454,12 @@ drop if _merge==2
 drop note-_merge
 
 merge m:1 pays_simplification using "classification_country_grouping.dta"
+drop if _merge==2
+drop note-_merge
+
+
+
+merge m:1 pays_simplification using "classification_country_obrien.dta"
 drop if _merge==2
 drop note-_merge
 
@@ -422,6 +479,11 @@ merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
 drop if _merge==2
 drop _merge
 
+
+merge m:1 marchandises_simplification using "bdd_marchandises_grains.dta"
+drop if _merge==2
+drop _merge
+
 merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_FR.dta"
 drop if _merge==2
 drop _merge
@@ -429,6 +491,15 @@ drop _merge
 merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_EN.dta"
 drop if _merge==2
 drop _merge
+
+merge m:1 marchandises_simplification using "bdd_marchandises_hamburg"
+drop if _merge==2
+drop _merge
+
+merge m:1 marchandises_simplification using "bdd_marchandises_medicinales"
+drop if _merge==2
+drop _merge
+
 
 local j 5
 generate yearbis=year
@@ -453,31 +524,36 @@ rename yearnum year
 
 
 
- merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
+ merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
- drop _merge
- merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Métrique1.dta"
+ drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
+ 
+ merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Metrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- drop _merge
+ drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
+ 
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
-		using "$dir/Données Stata/Units_Normalisation_Métrique2.dta", update
- drop _merge
+		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+ drop  remarque_unit-_merge
  codebook q_conv
- drop remarques remarque_unit
  
  generate quantites_metric = q_conv * quantit
 
-
-save "$dir/Données Stata/bdd courante", replace
-export delimited "$dir/Données Stata/bdd courante.csv", replace
-
+ 
+ *******************************************************************
 
 
+export delimited "$dir/Données Stata/bdd courante.csv", replace
+*export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+*Il est trop gros pour être envoyé dans le GIT
 
+sort sourcetype direction year exportsimports numrodeligne 
+order numrodeligne sourcetype year direction pays pays_norm_ortho exportsimports marchandises marchandises_norm_ortho value quantit quantity_unit quantity_unit_ortho prix_unitaire
+drop if year==.
 
-save "$dir/Données Stata/bdd courante", replace
+save "$dir/Données Stata/bdd courante", replace
 
 
 /*
@@ -492,6 +568,57 @@ sort marchandises pays
 
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Pour comparaison Bordeaux 1750.csv", replace
+*/
+
+*****************************Pour marchandises_sourcees.csv
+
+
+use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
+keep marchandises
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
+generate sourceBEL=0
+generate sourceBEL_nbr1=0
+bys marchandises : replace sourceBEL_nbr1=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceBEL=1 if _merge==3
+keep marchandises sourceBEL sourceBEL_nbr1
+
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_1774.dta"
+generate sourceBEL_nbr2=0
+bys marchandises : replace sourceBEL_nbr2=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceBEL=1 if _merge==3
+generate sourceBEL_nbr=sourceBEL_nbr1+sourceBEL_nbr2
+keep marchandises sourceBEL  sourceBEL_nbr
+
+merge 1:m marchandises using "$dir/Données Stata/bdd_centrale.dta"
+generate sourceFR=0
+generate sourceFR_nbr=0
+bys marchandises : replace sourceFR_nbr=_N if _merge==3
+bys marchandises : keep if _n==1
+
+replace sourceFR=1 if _merge==3
+keep marchandises sourceBEL sourceFR sourceBEL_nbr sourceFR_nbr
+
+merge 1:m marchandises using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
+generate sourceSUND=0
+generate sourceSUND_nbr=0
+bys marchandises : replace sourceSUND_nbr=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceSUND=1 if _merge==3
+keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr
+
+sort marchandises
+gen nbr_source=sourceBEL+sourceFR+sourceSUND
+
+drop if nbr_source==0
+
+save "$dir/Données Stata/marchandises_sourcees", replace
+export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
+
+
+
+
 
 
 

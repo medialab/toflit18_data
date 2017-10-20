@@ -1,7 +1,7 @@
 numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,marchandises,direction,pays,quantit,quantity_unit,prix_unitaire,value,probleme,remarks
 1,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,barils vides,Rennes,d'Angleterre,1000,en nombre,"0,75",,,15 à 20 sous
 2,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,boeuf salé,Rennes,d'Angleterre,1727,barils,25,,,
-3,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,boeuf salé,Rennes,d'Angleterre,200,tierçons,"1,25",,,
+3,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,boeuf salé,Rennes,d'Angleterre,200,tierçons,"1,25",,,le prix semble beaucoup trop bas
 4,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,beurre salé,Rennes,d'Angleterre,3060,Livres,"0,25",,,
 5,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,blé froment,Rennes,d'Angleterre,26728,boisseaux,5,,,
 6,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,1,1752,blé froment,Rennes,d'Angleterre,1939,tierçons,13,,,
@@ -48,14 +48,14 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 47,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,2,1752,telescopes,Rennes,d'Angleterre,2,en nombre,,,,cela dépend de la fabrique
 48,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,acier,Rennes,De Danemark,40,barils,25,,,
 49,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,blé seigle,Rennes,De Danemark,15,tonneaux,80,,,
-50,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,fer en barres,Rennes,De Danemark,80,barres,"0,14",,,
+50,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,fer en barres,Rennes,De Danemark,965800,barres,"0,13",,,
 51,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,gaudron,Rennes,De Danemark,300,barils,22,,,
 52,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,planches de sapin,Rennes,De Danemark,32610,en nombre,1,,,
 53,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,rogue de stocfiches,Rennes,De Danemark,1228,barils,50,,,
 54,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,rogue de stocfiches,Rennes,De Danemark,2018,livres,"0,4",,,
 55,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,saumon salé,Rennes,De Danemark,3,barils,30,,,
 56,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,ancres de fer,Rennes,d'Espagne,10658,Livres,"0,28",,,
-57,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,ancres de fer,Rennes,d'Espagne,1,valeur de,1750,,,valeur de 1750 cy
+57,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,ancres de fer,Rennes,d'Espagne,,,,1750,,valeur de 1750 cy
 58,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,anspects,Rennes,d'Espagne,20,traques,3,,,"""3 Lt pièce"" combien de pièces par traque ?"
 59,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,avirons,Rennes,d'Espagne,728,traques,2,,,
 60,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,3,1752,bray,Rennes,d'Espagne,20,barils,22,,,
@@ -77,7 +77,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 76,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,oranges,Rennes,d'Espagne,64,caisses,5,,,
 77,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,oranges,Rennes,d'Espagne,3500,,"0,15",,,
 78,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,patates,Rennes,d'Espagne,50,barils,10,,,
-79,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,patates,Rennes,d'Espagne,1,valeur de,400,,,valeur de 400 Lt cy
+79,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,patates,Rennes,d'Espagne,,,,400,,valeur de 400 Lt cy
 80,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,piastres,Rennes,d'Espagne,77770,marcs,"46,9",,,"""77770 marcs à proportion 5Lt4S pièce"" C'est le même prix qu'en 1749"
 81,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,piastres,Rennes,d'Espagne,450000,pièces,"5,2",,,
 82,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,4,1752,raisins secs,Rennes,d'Espagne,1133,barils,20,,,
@@ -126,7 +126,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 125,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,5,1752,ceruse,Rennes,d'Hollande,10,barils,,,,baril de 100 livres
 126,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,5,1752,chanvre en masse,Rennes,d'Hollande,465,balles,,,,5 sous la livre mais pas de prix à la balle
 127,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,5,1752,chasselas,Rennes,d'Hollande,110,pièces,25,,,
-128,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,cire jaune,Rennes,d'Hollande,1,valeur de,2500,,,valeur de 2500 Lt cy
+128,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,cire jaune,Rennes,d'Hollande,,,,2500,,valeur de 2500 Lt cy
 129,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,cloux de gerofle,Rennes,d'Hollande,249,Livres,8,,,
 130,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,corail,Rennes,d'Hollande,500,Livres,150,,,
 131,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,corail faux,Rennes,d'Hollande,4568,Livres,10,,,
@@ -156,7 +156,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 155,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,fer en feuillard,Rennes,d'Hollande,37330,Livres,"0,2",,,
 156,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,??? fer...,Rennes,d'Hollande,68,letz,21,,,marchandise non identifiée
 157,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,fil de fer,Rennes,d'Hollande,1000,Livres,"0,3",,,
-158,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,fil de fer,Rennes,d'Hollande,1,valeur de,290,,,valeur de 290 Lt
+158,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,6,1752,fil de fer,Rennes,d'Hollande,,,,290,,valeur de 290 Lt
 159,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,fil de leton,Rennes,d'Hollande,25,Livres,"1,5",,,
 160,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,fil à voile,Rennes,d'Hollande,24,barils,70,,,
 161,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,flacons,Rennes,d'Hollande,66,pièces,"0,5",,,
@@ -164,10 +164,10 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 163,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,fromages,Rennes,d'Hollande,7000,pains,"0,3",,,
 164,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,fromages,Rennes,d'Hollande,55968,Livres,"0,3",,,
 165,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,goblets en verre,Rennes,d'Hollande,200,,"0,125",,,
-166,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,goblets en verre,Rennes,d'Hollande,1,valeur de,50,,,valeur de 50 Lt cy
+166,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,goblets en verre,Rennes,d'Hollande,,,,50,,valeur de 50 Lt cy
 167,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,graine de lin,Rennes,d'Hollande,762,sacs,12,,,
 168,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,graine de lin,Rennes,d'Hollande,645,barils,6,,,
-169,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,grellots,Rennes,d'Hollande,1,valeur de,200,,,valeur de 200 livres cy
+169,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,grellots,Rennes,d'Hollande,,,,200,,valeur de 200 livres cy
 170,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,guinée bleue,Rennes,d'Hollande,870,pièces,33,,,
 171,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,horloge de sables,Rennes,d'Hollande,3,caisses,60,,,
 172,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,huille de graine,Rennes,d'Hollande,1584,Livres,"0,32",,,
@@ -179,7 +179,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 178,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,lignes à pecher,Rennes,d'Hollande,4,barils,,,,"se vendent au nombre, pas de prix"
 179,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,limes à fer,Rennes,d'Hollande,1,baril,,,,"se vendent au nombre, pas de prix"
 180,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,Limeneas,Rennes,d'Hollande,365,pièces,25,,,marchandise non identifiée
-181,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,mercerie,Rennes,d'Hollande,1,valeur de,3100,,,valeur de 3100 livres cy
+181,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,mercerie,Rennes,d'Hollande,,,,3100,,valeur de 3100 livres cy
 182,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,moulins à caffé,Rennes,d'Hollande,173,pièces,12,,,
 183,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,nattes,Rennes,d'Hollande,180,en nombre,"0,33333",,,À 40 S le paquet de 6
 184,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,7,1752,Nicaneas larges,Rennes,d'Hollande,810,pièces,20,,,
@@ -191,7 +191,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 190,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pinceaux à peindre,Rennes,d'Hollande,301,Livres,"1,5",,,
 191,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,photas,Rennes,d'Hollande,320,paires,12,,,12 à 15lt
 192,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pierres à fusils,Rennes,d'Hollande,15,milliers,"1,5",,,
-193,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pierres à fusils,Rennes,d'Hollande,1,valeur de,300,,,valeur de 300L cy
+193,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pierres à fusils,Rennes,d'Hollande,,,,300,,valeur de 300L cy
 194,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pipes à fumer,Rennes,d'Hollande,16,coffres,,,,"Pas de prix ""16 coffres à proportion de ce qu'il contient de grosses"""
 195,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,pipes à fumer,Rennes,d'Hollande,334,grosses,"2,25",,,
 196,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,planches de sapin,Rennes,d'Hollande,13110,,1,,,
@@ -203,7 +203,7 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 202,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,poudre à tirer,Rennes,d'Hollande,33100,Livres,"1,5",,,
 203,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,poutreaux de sapin,Rennes,d'Hollande,83,en nombre,3,,,
 204,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,quinquaillerie,Rennes,d'Hollande,5,barils,18,,,
-205,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,quinquaillerie,Rennes,d'Hollande,1,valeur de,47000,,,valeur de 17000 livres cy
+205,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,quinquaillerie,Rennes,d'Hollande,,,,47000,,valeur de 17000 livres cy
 206,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,Rasade,Rennes,d'Hollande,670,Livres,"0,75",,,
 207,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,Ris,Rennes,d'Hollande,400,Livres,"0,4",,,
 208,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,8,1752,Romals,Rennes,d'Hollande,50,pièces,18,,,
@@ -285,4 +285,4 @@ numrodeligne,dataentryby,source,sourcepath,sourcetype,exportsimports,sheet,year,
 284,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,11,1752,huille de poisson,Rennes,des Isles fraçaises de l'Amerique,1887,barriques,200,,,
 285,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,12,1752,morues seiches,Rennes,des Isles fraçaises de l'Amerique,2295000,Livres,"0,3",,,
 286,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,12,1752,morues vertes,Rennes,des Isles fraçaises de l'Amerique,4950,pièces,"2,5",,,
-287,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,12,1752,Pelleterie,Rennes,des Isles fraçaises de l'Amerique,1,valeur de,4000,,,"Nom de marchandise incertain. ""valeur de 1000 livres cy"""
+287,Cyril CANET,AD 44 C716,Local/Rennes/Rennes – Entrées – 1752.csv,Local,Imports,12,1752,Pelleterie,Rennes,des Isles fraçaises de l'Amerique,,,,4000,,"Nom de marchandise incertain. ""valeur de 1000 livres cy"""
