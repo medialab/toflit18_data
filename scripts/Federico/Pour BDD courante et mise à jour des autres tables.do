@@ -573,6 +573,8 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 *****************************Pour marchandises_sourcees.csv
 
 
+capture 
+{
 use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
@@ -615,6 +617,7 @@ drop if nbr_source==0
 
 save "$dir/Données Stata/marchandises_sourcees", replace
 export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
+}
 
 
 
