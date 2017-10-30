@@ -7,6 +7,15 @@ import os
 WRITE=True
 VERBOSE=True
 
+def cast_numrodeligne(value):
+	if not len(value):
+		return ''
+
+	try:
+		return int(value)
+	except:
+		return value
+
 with open("../base/bdd_centrale.csv") as bdd_centrale:
 	reader=csvkit.reader(bdd_centrale)
 	data=list(reader)
@@ -15,11 +24,11 @@ with open("../base/bdd_centrale.csv") as bdd_centrale:
 		print headers_bdd_centrale
 	# sort order
 	# SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
-	multiple_key_sort= lambda k:(k[4],k[5],k[7],k[6],int(k[0]) if len(k[0])>0 else "",k[10],k[11])
+	multiple_key_sort= lambda k:(k[4],k[5],k[7],k[6],cast_numrodeligne(k[0]),k[10],k[11])
 	# year / partenaire / exportsimports / numéro de ligne
-	multiple_key_sort_nationale_par_direction=lambda k:(k[5],k[11],k[6],int(k[0])  if len(k[0])>0 else "")
+	multiple_key_sort_nationale_par_direction=lambda k:(k[5],k[11],k[6],cast_numrodeligne(k[0]))
 	# year / exportsimports / numéro de ligne
-	multiple_key_sort_1671=lambda k:(k[5],k[6],int(k[0])  if len(k[0])>0 else "")
+	multiple_key_sort_1671=lambda k:(k[5],k[6],cast_numrodeligne(k[0]))
 	#remove headers
 	data=data[1:]
 	data = sorted(data, key=lambda e:e[3])

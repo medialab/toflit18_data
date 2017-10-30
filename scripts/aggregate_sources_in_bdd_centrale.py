@@ -45,7 +45,7 @@ for (dirpath,dirnames,filenames) in os.walk(directory):
 					headers+=r.fieldnames
 					lines = list(r)
 					sources_aggregation+=lines
-sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["sourcetype"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",int(e["numrodeligne"])  if ("numrodeligne" in e and e["numrodeligne"]) else "",e["marchandises"],e["pays"] if "pays" in e else ""))
+sources_aggregation = sorted(sources_aggregation, key=lambda e:(e["sourcetype"],e["year"],e["direction"] if "direction" in e else "",e["exportsimports"] if "exportsimports" in e else "",e["numrodeligne"]  if ("numrodeligne" in e and e["numrodeligne"]) else "",e["marchandises"],e["pays"] if "pays" in e else ""))
 
 # Cleaning sources
 for row in sources_aggregation:
