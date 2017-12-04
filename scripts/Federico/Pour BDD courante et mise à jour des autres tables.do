@@ -14,8 +14,6 @@ if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/
 
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
 
-if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
-
 cd "$dir"
 
 
@@ -48,11 +46,9 @@ foreach file in classification_country_orthographic_normalization classification
  
 }
 
-/* 
 use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
-*/
 
 use "Données Stata/Units_Normalisation_Metrique1.dta", clear
 destring q_conv, replace
@@ -576,8 +572,9 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 *****************************Pour marchandises_sourcees.csv
 
-if "`c(username)'"=="GuillaumeDaudin" {
 
+capture 
+{
 use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
@@ -621,6 +618,7 @@ drop if nbr_source==0
 save "$dir/Données Stata/marchandises_sourcees", replace
 export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
 }
+
 
 
 
