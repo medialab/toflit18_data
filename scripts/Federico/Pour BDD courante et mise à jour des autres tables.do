@@ -14,8 +14,6 @@ if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/
 
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
 
-if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
-
 cd "$dir"
 
 
@@ -23,7 +21,7 @@ cd "$dir"
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
-*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_Canada /*
+*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
@@ -48,11 +46,9 @@ foreach file in classification_country_orthographic_normalization classification
  
 }
 
-/* 
 use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
-*/
 
 use "Données Stata/Units_Normalisation_Metrique1.dta", clear
 destring q_conv, replace
@@ -394,7 +390,7 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg /*
+foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg /*
 		*/ bdd_marchandises_grains {
 
 	use "`file_on_simp'.dta", clear
@@ -505,12 +501,6 @@ drop if _merge==2
 drop _merge
 
 
-merge m:1 marchandises_simplification using "bdd_marchandises_Canada"
-drop if _merge==2
-drop _merge
-
-
-
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
@@ -582,8 +572,9 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 *****************************Pour marchandises_sourcees.csv
 
-if "`c(username)'"=="GuillaumeDaudin" {
 
+capture 
+{
 use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
@@ -627,6 +618,7 @@ drop if nbr_source==0
 save "$dir/Données Stata/marchandises_sourcees", replace
 export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
 }
+
 
 
 
