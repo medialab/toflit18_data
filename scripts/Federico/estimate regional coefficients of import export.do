@@ -2,7 +2,7 @@
 
 
 
-global dir "C:\Users\federico.donofrio\Documents\GitHub\"
+global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
 
