@@ -582,7 +582,7 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 *****************************Pour marchandises_sourcees.csv
 
-if "`c(username)'"=="GuillaumeDaudin" {
+
 
 use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
 keep marchandises
@@ -626,8 +626,36 @@ drop if nbr_source==0
 
 save "$dir/Données Stata/marchandises_sourcees", replace
 export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
-}
 
+
+
+***Pour commencer une nouvelle classification
+
+
+
+use "$dir/Données Stata/bdd_marchandises_simplifiees.dta", replace
+
+
+bys marchandises_simplification : keep if _n==1
+keep marchandises_simplification
+
+merge m:1 marchandises_simplification using "$dir/Données Stata/bdd_marchandises_sitc.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 sitc18_rev3 using "$dir/Données Stata/bdd_marchandises_sitc_FR.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 sitc18_rev3 using "$dir/Données Stata/bdd_marchandises_sitc_EN.dta"
+drop if _merge==2
+drop _merge
+
+drop imprimatur obsolete
+
+
+save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
+export delimited "$dir/Données Stata/marchandises_pour_nouvelle_classification.csv", replace
 
 
 
