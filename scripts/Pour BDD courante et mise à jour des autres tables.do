@@ -27,7 +27,7 @@ foreach file in classification_country_orthographic_normalization classification
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
-*/				 bdd_origine	{
+*/				 bdd_origine bdd_marchandises_coton	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -395,7 +395,7 @@ export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
 foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg /*
-		*/ bdd_marchandises_grains {
+		*/ bdd_marchandises_grains  bdd_marchandises_coton {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -506,6 +506,11 @@ drop _merge
 
 
 merge m:1 marchandises_simplification using "bdd_marchandises_Canada"
+drop if _merge==2
+drop _merge
+
+
+ merge m:1 marchandises_simplification using "bdd_marchandises_coton"
 drop if _merge==2
 drop _merge
 
@@ -636,7 +641,7 @@ export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
 use "$dir/Données Stata/bdd_marchandises_simplifiees.dta", replace
 
 
-bys marchandises_simplification : keep if _n==1
+ bys marchandises_simplification : keep if _n==1
 keep marchandises_simplification
 
 merge m:1 marchandises_simplification using "$dir/Données Stata/bdd_marchandises_sitc.dta"
@@ -652,6 +657,8 @@ drop if _merge==2
 drop _merge
 
 drop imprimatur obsolete
+
+sort marchandises_simplification
 
 
 save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
