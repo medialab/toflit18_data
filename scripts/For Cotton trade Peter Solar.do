@@ -5,7 +5,7 @@ use "/Users/guillaumedaudin/Documents/Recherche/Commerce International Françai
 keep if year == 1787 | year==1788 | year==1789 
 
 
-drop if sourcetype=="Résumé" & (year == 1788 | year == 1787)
+*drop if sourcetype=="Résumé" & (year == 1788 | year == 1787)
 drop if sourcetype=="Local"
 drop if sourcetype=="National toutes directions partenaires manquants"
 drop if sourcetype=="National toutes directions tous partenaires"
@@ -20,8 +20,9 @@ sort year exportsimports
 
 export excel using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/Cotton trade for Peter Solar_long.xls", firstrow(variables) replace
 
-preserve
-collapse (sum) quantites_metric value, by (u_conv raw_cotton_classification exportsimports year)
+
+collapse (sum) quantites_metric value, by (u_conv raw_cotton_classification exportsimports year sourcetype)
 
 sort year exportsimports
 export excel using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/Cotton trade for Peter Solar.xls", firstrow(variables) replace
+
