@@ -23,11 +23,11 @@ cd "$dir"
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien /*
 */               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
-*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
+*/				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_Canada /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
-*/				 bdd_origine	{
+*/				 bdd_origine bdd_marchandises_coton	{
 
 	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -394,8 +394,8 @@ drop sortkey
 export delimited bdd_marchandises_simplifiees.csv, replace
 **
 
-foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg /*
-		*/ bdd_marchandises_grains {
+foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg /*
+		*/ bdd_marchandises_grains  bdd_marchandises_coton {
 
 	use "`file_on_simp'.dta", clear
 	bys marchandises_simplification : drop if _n!=1
@@ -505,6 +505,17 @@ drop if _merge==2
 drop _merge
 
 
+merge m:1 marchandises_simplification using "bdd_marchandises_Canada"
+drop if _merge==2
+drop _merge
+
+
+ merge m:1 marchandises_simplification using "bdd_marchandises_coton"
+drop if _merge==2
+drop _merge
+
+
+
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
@@ -530,16 +541,19 @@ rename yearnum year
 
  merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
+ drop if _merge==2
  drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
  
  merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Metrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
+ drop if _merge==2
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
  
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+ drop if _merge==2
  drop  remarque_unit-_merge
  codebook q_conv
  
@@ -576,7 +590,7 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 *****************************Pour marchandises_sourcees.csv
 
-if "`c(username)'"=="GuillaumeDaudin" {
+
 
 use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
 keep marchandises
@@ -620,8 +634,38 @@ drop if nbr_source==0
 
 save "$dir/Données Stata/marchandises_sourcees", replace
 export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
-}
 
+
+
+***Pour commencer une nouvelle classification
+
+
+
+use "$dir/Données Stata/bdd_marchandises_simplifiees.dta", replace
+
+
+ bys marchandises_simplification : keep if _n==1
+keep marchandises_simplification
+
+merge m:1 marchandises_simplification using "$dir/Données Stata/bdd_marchandises_sitc.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 sitc18_rev3 using "$dir/Données Stata/bdd_marchandises_sitc_FR.dta"
+drop if _merge==2
+drop _merge
+
+merge m:1 sitc18_rev3 using "$dir/Données Stata/bdd_marchandises_sitc_EN.dta"
+drop if _merge==2
+drop _merge
+
+drop imprimatur obsolete
+
+sort marchandises_simplification
+
+
+save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
+export delimited "$dir/Données Stata/marchandises_pour_nouvelle_classification.csv", replace
 
 
 

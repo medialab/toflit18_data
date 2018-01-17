@@ -27,9 +27,9 @@ acajou,,non
 acétate d'étain,,oui
 acétate de fer,,oui
 acétates d'étain,,non
-acétates de fer,,non
-acétates de plomb,,non
-acétates de plomb sel de Saturne,,non
+acétates de fer,Fer,non
+acétates de plomb,Plomb,non
+acétates de plomb sel de Saturne,Plomb,non
 acétates de potasse et de soude,Potasse,non
 acétates de sel d'étain,,non
 achia,,non
@@ -41,15 +41,15 @@ acide borique et benzoïque,,non
 acide citrique,,non
 acide citrique et muriatique et phosphorique,,non
 acide citrique et oxalique et tartrique,,non
-acide de potasse crème de tartre,,non
+acide de potasse crème de tartre,Tartre,non
 acide de potasse crème de tartre et tartrate,Tartre,oui
-acide de potasse lie de vin desséché et liquide,,non
+acide de potasse lie de vin desséché et liquide,Potasse,non
 acide de potasse lie de vin desséché et liquide et tartrate,Potasse,oui
-acide de potasse lie de vin desséchée,,non
+acide de potasse lie de vin desséchée,Potasse,non
 acide de potasse lie de vin desséchée et tartrate,Potasse,oui
-acide de potasse lie de vin liquide,,non
+acide de potasse lie de vin liquide,Potasse,non
 acide de potasse lie de vin liquide et tartrate,Potasse,oui
-acide de potasse tartre brut impur,,non
+acide de potasse tartre brut impur,Tartre,non
 acide de potasse tartre brut impur et tartrate,Potasse,oui
 acide muriatique,,non
 acide muriatique et nitrique et phosphorique,,non
@@ -240,7 +240,7 @@ alquifoux en galène,,non
 alquifoux et mine de plomb,Plomb,non
 alquifoux mine de plomb ou graphite,Plomb,non
 alquifoux ou mine de plomb,Plomb,non
-alquifoux sable plombifère,,non
+alquifoux sable plombifère,Plomb,non
 alquitra,,non
 alto basses chapeaux chinois clarinettes cors cymbales fifres et flageolets flûtes guitare haut-bois serinettes serpent tambours trompettes et violons basses,,non
 alto basses chapeaux chinois clarinettes cors cymbales fifres et flageolets flûtes guitares haut-bois serinettes serpent tambours trompettes et violons basses,,oui
@@ -250,12 +250,12 @@ alto bassons guitare violons,,non
 alto bassons guitares violons,,oui
 aluchiabanis,,non
 alun,Alun,non
-alun à cordonnier,,non
+alun à cordonnier,Alun,non
 alun autre que brûlé ou calciné,Alun,non
 alun bon,Alun,non
 alun brûlé,Alun,non
 alun commun,Alun,non
-alun de glace,,non
+alun de glace,Alun,non
 alun de roche,Alun,non
 alun de Rome,Alun,non
 alun de Rome fin rosé,Alun,non
@@ -347,13 +347,13 @@ anchois salés,,non
 anchois salés et marinés,,non
 ancres,,non
 ancres de chaudon,,non
-ancres de fer,Fer,non
-ancres de fer à chaudrons,Fer,non
-ancres de fer au-dessus de 250 kilogrammes,Fer,non
-ancres de fer de 250 kilogrammes et au-dessous,Fer,non
-ancres de fer et embarcations,Fer,non
-ancres et embarcations,Fer,non
-ancres et grappins de fer,Fer,non
+ancres de fer,,non
+ancres de fer à chaudrons,,non
+ancres de fer au-dessus de 250 kilogrammes,,non
+ancres de fer de 250 kilogrammes et au-dessous,,non
+ancres de fer et embarcations,,non
+ancres et embarcations,,non
+ancres et grappins de fer,,non
 ancres gravelées,,non
 ancres neuves,,non
 ancres vides,,non
@@ -383,7 +383,7 @@ anis vert à distiller,,non
 anisette,,non
 anisette au fiasque,,non
 anisette de Bordeaux,,non
-anneau de fer,Fer,non
+anneau de fer,,non
 anneaux de cuivre,,non
 ânon,,non
 anspects,,non
@@ -544,7 +544,7 @@ armoires de sapin,,non
 armoires et commodes,,non
 armoires vieilles,,non
 armoisin,,non
-armure de fer,Fer,non
+armure de fer,,non
 armure vieille,,non
 arnas,,non
 arpois,,non
@@ -553,7 +553,7 @@ arrangas,,non
 arrosoirs,,non
 arrosoirs de bois,,non
 arrosoirs de cuivre,,non
-arrosoirs de fer-blanc,Fer,non
+arrosoirs de fer-blanc,,non
 arrosoirs de sapin,,non
 arrosoirs de terre,,non
 arrowroot,,non
@@ -672,7 +672,7 @@ baguettes d'étain,,non
 baguettes de bois,,non
 baguettes de bois doré,,non
 baguettes de cuivre,,non
-baguettes de fer à fusil,Fer,non
+baguettes de fer à fusil,,non
 baguettes de fusil,,non
 bahuts,,non
 baie de laurier,,non
@@ -728,15 +728,15 @@ balance complète,,non
 balance de bois,,non
 balance de cuivre,,non
 balance de cuivre jaune,,non
-balance de fer,Fer,non
+balance de fer,,non
 balance et poids de cuivre,,non
 balance et romaine,,non
 balance et ses poids,,non
-balance ou fléaux en fer,Fer,non
+balance ou fléaux en fer,,non
 balance petite,,non
 balance romaine,,non
 balauste,,non
-balcon de fer,Fer,non
+balcon de fer,,non
 baleine,,non
 baleine apprêtée,,non
 baleine coupée,,non
@@ -750,8 +750,8 @@ baleine taillée,,non
 balles,,non
 balles à jouer,,non
 balles d'osier,,non
-balles de fer et canons de fer,Fer,non
-balles de fer uni,Fer,non
+balles de fer et canons de fer,,non
+balles de fer uni,,non
 balles de jonc,,non
 balles de palme,,non
 balles de plomb,Plomb,non
@@ -770,10 +770,10 @@ bandanas et mousselines et Nankin de soieries des Indes,,oui
 bandeaux,,non
 banderoles,,non
 banderoles de cuir,,non
-bandes de cabrouets de fer,Fer,non
-bandes de fer,Fer,non
-bandes de fer à tombereaux,Fer,non
-bandes de roues de fer,Fer,non
+bandes de cabrouets de fer,,non
+bandes de fer,,non
+bandes de fer à tombereaux,,non
+bandes de roues de fer,,non
 bandes de tulles brodées,,non
 bandes et barres de fer,,non
 bandoulières garnies d'argent,,non
@@ -787,7 +787,7 @@ baquelets,,non
 baquets,,non
 baquets à jeter l'eau,,non
 baquets de cuivre,,non
-baquets de fer,Fer,non
+baquets de fer,,non
 baquets de rechange,,non
 baquets de sapin,,non
 baracan,,non
@@ -824,7 +824,7 @@ barils de fer-blanc,,non
 barils de fer-blanc simples,,non
 barils de sapin,,non
 barils de tonnelier,,non
-barils de vin de ???,,non
+barils de vin de ???,Vin ; de France,non
 barils doubles de fer-blanc,,non
 barils neufs,,non
 barils petits,,non
@@ -868,28 +868,28 @@ barres de chêne,,non
 barres de chêne petites,,non
 barres de cuivre,,non
 barres de fer,Fer,non
-barres de fer à frire,,non
+barres de fer à frire,Fer,non
 barres de fer blanc,Fer,non
-barres de fer d'Espagne,,non
-barres de fer de Suède,,non
-barres de fer étiré,,non
+barres de fer d'Espagne,Fer,non
+barres de fer de Suède,Fer,non
+barres de fer étiré,Fer,non
 barres de futel,,non
 barres de guindeau,,non
 barres de sapin,,non
 barres de sapin de 3 à 4 pieds,,non
 barres de sapin pour fonçaille,,non
 barres et verges de fer,Fer,non
-barres fines de fer,,non
-barres maître-fond,,non
-barres plates de fer étiré,,non
+barres fines de fer,Fer,non
+barres maître-fond,Fer,non
+barres plates de fer étiré,Fer,non
 barres plates de fer étiré de 113 à 366 millimètres ou 42 à 72 lignes inclusivement,Fer,non
 barres plates de fer étiré de 213 à 366 millimètres de largueur multipliée par l'épaisseur,Fer,non
 barres plates de fer étiré de moins de 113 millimètres ou 42 lignes,Fer,non
 barres plates de fer étiré de moins de 213 millimètres de largueur multipliée par l'épaisseur,Fer,non
 barres plates de fer étiré de plus de 366 millimètres de largeur multipliée par l'épaisseur,Fer,non
 barres plates de fer étiré de plus de 366 millimètres ou 72 lignes,Fer,non
-barres pour édifices,,non
-barres pour édifiées,,non
+barres pour édifices,Fer,non
+barres pour édifiées,Fer,non
 barres rondes de fer étiré,Fer,non
 barres rondes de fer étiré de 15 millimètres et plus de diamètres,Fer,non
 barres rondes de fer étiré de 15 millimètres ou 7 lignes et plus de diamètres,Fer,non
@@ -897,7 +897,7 @@ barres rondes de fer étiré de moins de 15 millimètres de diamètres,Fer,non
 barres rondes de fer étiré de moins de 15 millimètres ou 7 lignes diamètres,Fer,non
 barrettes,,non
 barrettes de cuivre,,non
-barrettes de fer,Fer,non
+barrettes de fer,,non
 barriques,,non
 barriques à eau,,non
 barriques cerclées de fer,,non
@@ -1045,7 +1045,7 @@ bassin de cuivre jaune et chaudron de cuivre jaune,,non
 bassin de cuivre jaune pour l'entrepôt à la destination de la Compagnie des Indes,,non
 bassin de cuivre petit,,non
 bassin de cuivre pour l'entrepôt pour Guinée,,non
-bassin de fer,Fer,non
+bassin de fer,,non
 bassin de marbre,,non
 bassines de cuivre,,non
 bassons,,non
@@ -1095,7 +1095,7 @@ bâtons de bois vernis,,non
 bâtons de brosses à goudronner,,non
 bâtons de cap,,non
 bâtons de colliers,,non
-bâtons de fer,Fer,non
+bâtons de fer,,non
 bâtons de gabares,,non
 bâtons de gabares de 14 à 16 pieds,,non
 bâtons de gaffe,,non
@@ -1115,12 +1115,12 @@ batterie de cuisine,,non
 batterie de cuivre,,non
 batterie de cuivre à cuisine,,non
 batterie de cuivre de fuine,,non
-batterie de fer,Fer,non
-batterie de fer à cuisine,Fer,non
+batterie de fer,,non
+batterie de fer à cuisine,,non
 batterie de fer coulé,,non
-batterie de fer-blanc,Fer,non
+batterie de fer-blanc,,non
 batterie en plaque,,non
-battes à fer,Fer,non
+battes à fer,,non
 battoirs,,non
 battoirs à lessive,,non
 baudeaux,,oui
@@ -1193,7 +1193,7 @@ benjoin,,non
 benjoin du Levant,,non
 bennes,,non
 bennes vides,,non
-berce de fer et lit de fer,Fer,non
+berce de fer et lit de fer,,non
 berceau d'enfant,,non
 berceau d'osier,,non
 bergamote,,non
@@ -1227,18 +1227,18 @@ beurre d'Angleterre,Beurre,non
 beurre d'Irlande,Beurre,non
 beurre d'Irlande non comestible,Beurre,non
 beurre d'Irlande salé,Beurre,non
-beurre de Bretagne,,non
-beurre de cacao,,non
+beurre de Bretagne,Beurre,non
+beurre de cacao,Beurre,non
 beurre de Dixmude,Beurre,non
 beurre du pays,Beurre,non
 beurre du pays salé,Beurre,non
-beurre et fromage,,non
+beurre et fromage,Beurre,non
 beurre fondu,Beurre,non
 beurre frais,Beurre,non
 beurre frais ou fondu,Beurre,non
 beurre frais ou fondu ou salé,Beurre,non
-beurre pour Genève par transit,,non
-beurre pour l'entrepôt des Îles,,non
+beurre pour Genève par transit,Beurre,non
+beurre pour l'entrepôt des Îles,Beurre,non
 beurre salé,Beurre,non
 beurreterie en bar de fil blanc,,non
 beurrière,,non
@@ -1414,8 +1414,8 @@ blues d'étain,,non
 bluteau de laine,,non
 bluteaux,,non
 bobine de cuir,,non
-bocage en fer,Fer,oui
-bocages en fer,Fer,oui
+bocage en fer,,oui
+bocages en fer,,oui
 bocau soie,,non
 bodans,,non
 boëland,,non
@@ -1522,12 +1522,12 @@ bois de 5 pieds,,non
 bois de bordage,,non
 bois de bordage de chêne,,non
 bois de bordage de sapin,,non
-bois de Brésil,,non
-bois de Brésil en bûche,,non
-bois de Brésil menu,,non
-bois de Brésil moulu,,non
-bois de Brésil râpé,,non
-bois de Brésil Sainte-Marthe,,non
+bois de Brésil,Bois ; de Pernambouc,non
+bois de Brésil en bûche,Bois ; de Pernambouc,non
+bois de Brésil menu,Bois ; de Pernambouc,non
+bois de Brésil moulu,Bois ; de Pernambouc,non
+bois de Brésil râpé,Bois ; de Pernambouc,non
+bois de Brésil Sainte-Marthe,Bois ; de Pernambouc,non
 bois de brésillet,,non
 bois de brochialle,,non
 bois de bruyère,,non
@@ -1540,11 +1540,11 @@ bois de Caliatour,,non
 bois de Caliatour en bûche,,non
 bois de Caliatour moulu,,non
 bois de Caliatour râpé,,non
-bois de Campêche,,non
-bois de Campêche en bûches,,non
+bois de Campêche,Bois ; de teinture,non
+bois de Campêche en bûches,Bois ; de teinture,non
 bois de Campêche en bûches pour teinture,Bois ; de teinture,non
-bois de Campêche moulu,,non
-bois de Campêche pour teinture,,non
+bois de Campêche moulu,Bois ; de teinture,non
+bois de Campêche pour teinture,Bois ; de teinture,non
 bois de Campêche râpé,Bois ; de teinture,non
 bois de camphre,,non
 bois de canet,,non
@@ -1609,8 +1609,8 @@ bois de fauteuils,,non
 bois de fauteuils et canapé,,non
 bois de faux,,non
 bois de fayard,,non
-bois de fer,Fer,non
-bois de férole,Fer,non
+bois de fer,,non
+bois de férole,,non
 bois de figuier,,non
 bois de flèches,,non
 bois de Fondal,,non
@@ -1732,28 +1732,28 @@ bois de teinture et marqueterie,Bois ; de teinture,non
 bois de teinture moulu,Bois ; de teinture,non
 bois de teinture moulu Pernambouc,Bois ; de Pernambouc,non
 bois de teinture Nicaragua,Bois ; de teinture,non
-bois de teinture Pernambouc,Bois ; de teinture,non
-bois de teure,Bois ; de Pernambouc,non
+bois de teinture Pernambouc,Bois ; de Pernambouc,non
+bois de teure,,non
 bois de tilleul,,non
 bois de toctacanot,,non
 bois de violette,,non
-bois des Îles et des Indes,,non
-bois des Îles et des Indes moulu,,non
+bois des Îles et des Indes,Bois ; de teinture,non
+bois des Îles et des Indes moulu,Bois ; de teinture,non
 bois des Îles et des Indes pour teinture et marqueterie,Bois ; de teinture,non
-bois des Indes,,non
+bois des Indes,Bois ; de teinture,non
 bois des Indes de teinture,Bois ; de teinture,non
 bois des Indes de teinture moulu,Bois ; de teinture,non
-bois des Indes de violette,,non
-bois des Indes en bûches,,non
-bois des Indes et d'ébénisterie et de marqueterie,,non
+bois des Indes de violette,Bois ; de teinture,non
+bois des Indes en bûches,Bois ; de teinture,non
+bois des Indes et d'ébénisterie et de marqueterie,Bois ; de teinture,non
 bois des Indes jaune,Bois ; de teinture,non
-bois des Indes moulu,,non
-bois des Indes moulu en bûches,,non
-bois des Indes pour marqueterie,,non
+bois des Indes moulu,Bois ; de teinture,non
+bois des Indes moulu en bûches,Bois ; de teinture,non
+bois des Indes pour marqueterie,Bois ; de teinture,non
 bois des Indes pour teinture,Bois ; de teinture,non
 bois des Indes pour teinture et marqueterie,Bois ; de teinture,non
-bois des Indes râpé,,non
-bois des Indes rose,,non
+bois des Indes râpé,Bois ; de teinture,non
+bois des Indes rose,Bois ; de teinture,non
 bois des Indes rouge,Bois ; de teinture,non
 bois dit à fond,,non
 bois dit ricter,,non
@@ -1947,8 +1947,8 @@ boîtes de bois musqué,,non
 boîtes de bois violet,,non
 boîtes de carton,,non
 boîtes de coupure,,non
-boîtes de fer,Fer,non
-boîtes de fer-blanc,Fer,non
+boîtes de fer,,non
+boîtes de fer-blanc,,non
 boîtes de fontes,,non
 boîtes de Nuremberg,,non
 boîtes de plomb,,non
@@ -1975,14 +1975,14 @@ boldes d'Espagne,,non
 bolsas,,non
 bombardes,,non
 bombardes de cuivre,,non
-bombardes de fer,Fer,non
+bombardes de fer,,non
 bombasin,,non
 bombasin de Troyes,,non
 Bombay,,non
 bombes,,non
 bombes de cuivre,,non
 bombes de cuivre à thé,,non
-bombes de fer,Fer,non
+bombes de fer,,non
 bombes et boulets,,non
 bombes et canons,,non
 bombes et grenade,,non
@@ -2134,7 +2134,7 @@ boucles d'acier,,non
 boucles d'argent,,non
 boucles d'oreilles,,non
 boucles de cuivre,,non
-boucles de fer,Fer,non
+boucles de fer,,non
 boucles de pinsbeck,,non
 boucles de sapin,,non
 boucles de souliers à pierres fausses,,non
@@ -2146,7 +2146,7 @@ boudins de poisson,,non
 bouette de sapin,,non
 bouge,,non
 bougie,Bougie ; de suif,non
-bougie blanche,,non
+bougie blanche,Bougie ; de suif,non
 bougie de blanc de baleine,Blanc ; de baleine,non
 bougie de cire,,non
 bougie de cire blanche,,non
@@ -2174,7 +2174,7 @@ boules de bleu inde-plate indique,,oui
 boules de bois,,non
 boules de buis,,non
 boules de canons,,non
-boules de fer,Fer,non
+boules de fer,,non
 boules de mail,,non
 boules de mais,,non
 boules de marbre,,non
@@ -2190,14 +2190,14 @@ boulets de canon de 4 livre,,oui
 boulets de canon de fer,,non
 boulets de canons,,non
 boulets de canons de 4 livre,,non
-boulets de canons de fer,Fer,non
+boulets de canons de fer,,non
 boulets de canons et mitraille,,non
-boulets de fer,Fer,non
-boulets de fer et canons de fer,Fer,non
+boulets de fer,,non
+boulets de fer et canons de fer,,non
 boulets de marbre,,non
 boulets de terre,,non
 boulets et canons,,non
-boulets et canons de fer de fonte,Fer,non
+boulets et canons de fer de fonte,,non
 boulettes de marbre,,non
 bouquets de fleurs artificielles,,non
 bouquets de papier,,non
@@ -2235,9 +2235,9 @@ bourre de bœuf et bourre de vache,,non
 bourre de cerf,,non
 bourre de chèvre,,non
 bourre de chureaux,,oui
-bourre de coton,,non
-bourre de coton et fil,,non
-bourre de coton et soie,,non
+bourre de coton,Coton,non
+bourre de coton et fil,Coton,non
+bourre de coton et soie,Coton,non
 bourre de Damas,,non
 bourre de drap,,non
 bourre de fil,,non
@@ -2481,9 +2481,9 @@ brai sec et résines,,non
 brai sec résine d'huile,,oui
 brai sec résines d'huile,,non
 brancards,,non
-brancards de balance de fer,Fer,non
+brancards de balance de fer,,non
 brancards de chaises,,non
-brancards de fer,Fer,non
+brancards de fer,,non
 brancards et leurs escales,,non
 branches de buis,,non
 brandans,,non
@@ -2562,7 +2562,7 @@ brousse salée,,non
 broutes chaderdoral,,non
 brugnoles,,non
 bruimes d'espars,,non
-brûle-café de fer,Fer,non
+brûle-café de fer,,non
 brulis,,non
 brun,,non
 brun rouge,,non
@@ -2661,8 +2661,8 @@ câble neuf,,non
 câble vieux,,non
 câbleaux,,non
 caboches,,non
-caboches de fer,Fer,non
-caboches de fer et clous,Fer,non
+caboches de fer,,non
+caboches de fer et clous,,non
 caboches de marbre,,non
 cabochon,,non
 cabosse,,non
@@ -2671,7 +2671,7 @@ cabriolets de velours de Prusse,,non
 cabrions,,non
 cabrouets,,non
 cacao,Cacao,non
-cacao avarié,,non
+cacao avarié,Cacao,non
 cacao broyé,Cacao,non
 cacao brut,Cacao,non
 cacao brut des entrepôts,Cacao,non
@@ -2721,7 +2721,7 @@ café avarié,Café,non
 café commun,Café,non
 café commun du Levant,Café,non
 café de Bourbon,Café,non
-café de la Dominique,,non
+café de la Dominique,Café,non
 café de la Martinique,Café,non
 café de Moka,Café,non
 café des entrepôts,Café,non
@@ -2734,7 +2734,7 @@ café et provisions,Café,non
 café et sucre et thé,Café,non
 café ordinaire,Café,non
 café pour Genève,Café,non
-café pur,,non
+café pur,Café,non
 café trié,Café,non
 cafetière de fer-blanc,,non
 cafetières,,non
@@ -3148,7 +3148,7 @@ carpes et brochets,,non
 carpette,,non
 carrabe,,non
 carré,,non
-carré de fer plat,Fer,non
+carré de fer plat,,non
 carreaux,,non
 carreaux ???,,non
 carreaux à dentelle,,non
@@ -3497,9 +3497,9 @@ cercles de bois pour tanier,,non
 cercles de cuivre de poil,,non
 cercles de demitte,,non
 cercles de faux,,non
-cercles de fer,Fer,non
-cercles de fer et feuillardes de fer,Fer,non
-cercles de fers,Fer,non
+cercles de fer,,non
+cercles de fer et feuillardes de fer,,non
+cercles de fers,,non
 cercles de feuillards,,non
 cercles de jonc,,non
 cercles de tamis,,oui
@@ -3641,7 +3641,7 @@ chandelle de jonc,,non
 chandelle de paille,,non
 chandelle de résines,,non
 chandelle de rotin,,non
-chandelle de sperme de baleine,,non
+chandelle de sperme de baleine,Blanc ; de baleine,non
 chandelle de suif,Bougie ; de suif,non
 chandelle de suif et suif,Bougie ; de suif,non
 chandelle de suif et suif fondu,Bougie ; de suif,non
@@ -3831,7 +3831,7 @@ chardons cardère,,non
 chardons cardiers,,non
 chardons de drapier,,oui
 charfarcani,,non
-charge en fer-blanc,Fer,non
+charge en fer-blanc,,non
 chari salée,,oui
 chariots,,non
 chariots à feu,,non
@@ -4249,14 +4249,14 @@ citrate de chaux,,non
 citronniers,,non
 citrons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons aigres,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-citrons avariés,,non
+citrons avariés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons et limons,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons et orange,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons et orange frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-citrons étrangers,,non
+citrons étrangers,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons frais,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-citrons frais et orange fraîche et amande sèches et figue sèches et raisin sec,,non
+citrons frais et orange fraîche et amande sèches et figue sèches et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons frais et orange fraîche et amande sèches et figues sèches et raisin sec,"Fruits ; divers ; amandes, pelures, raisins, prunes",oui
 citrons orange et leurs variétés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 citrons vert,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -4305,12 +4305,12 @@ clous de caboche,,non
 clous de cuivre,,non
 clous de cuivre doré,,non
 clous de cuivre jaune,,non
-clous de fer,Fer,non
-clous de fer à charrettes,Fer,non
-clous de fer gonds,Fer,non
-clous de fer neufs,Fer,non
-clous de fer ordinaires,Fer,non
-clous de fer vieux,Fer,non
+clous de fer,,non
+clous de fer à charrettes,,non
+clous de fer gonds,,non
+clous de fer neufs,,non
+clous de fer ordinaires,,non
+clous de fer vieux,,non
 clous de girofle,,non
 clous de girofle et griffes,,non
 clous de girofle fleurs,,non
@@ -4337,7 +4337,7 @@ cochenille,Cochenille,non
 cochenille Campêchane,Cochenille,non
 cochenille Campêche,Cochenille,non
 cochenille et indigo,Indigo,non
-cochenille fil verte,,non
+cochenille fil verte,Cochenille,non
 cochenille fine,Cochenille,non
 cochenille mesteque,Cochenille,oui
 cochenille mestèque,Cochenille,non
@@ -4493,7 +4493,7 @@ confitures de sèche,,oui
 confitures et fruit confit au sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 confitures et fruits confits au sucre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 confitures et succade,,non
-confitures et sucre,,non
+confitures et sucre,Sucre ; cru blanc ; du Brésil,non
 confitures fines,,non
 confitures fluides et sèches,,non
 confitures fromage moutarde etc.,,non
@@ -4626,7 +4626,7 @@ cordes de bois à brûler,,non
 cordes de boyau et pour violons,,non
 cordes de boyaux,,non
 cordes de chanvre,,non
-cordes de fil de fer,Fer,non
+cordes de fil de fer,,non
 cordes de guitare,,oui
 cordes de jonc,,non
 cordes de roseaux,,non
@@ -4784,22 +4784,22 @@ coton autres de Méditerranée,Coton,non
 coton autres de Turquie,Coton,non
 coton autres longue soie,Coton,non
 coton bleu,Coton,non
-coton brut et fil de coton,,non
-coton brut et fil de coton des Îles,,non
-coton brut et fil de coton étranger,,non
+coton brut et fil de coton,Coton,non
+coton brut et fil de coton des Îles,Coton,non
+coton brut et fil de coton étranger,Coton,non
 coton cardé,Coton,non
 coton courte soie,Coton,non
 coton courte soie des entrepôts,Coton,non
 coton de laine,Coton,non
 coton de Malte,Coton,non
-coton de Senirre,,non
-coton de Smyrne,,non
+coton de Senirre,Coton,non
+coton de Smyrne,Coton,non
 coton des colonies françaises,Coton,non
-coton des Îles et des Indes,,non
+coton des Îles et des Indes,Coton,non
 coton des Indes,Coton,non
 coton en balles et toile,Coton,non
 coton en feuilles cardées et gommées ouates,Coton,non
-coton en fil,,non
+coton en fil,Coton,non
 coton en laine,Coton,non
 coton en laine de retour,Coton,non
 coton en laine des Indes,Coton,non
@@ -4809,7 +4809,7 @@ coton en laine et filé,Coton,oui
 coton en ouate,Coton,non
 coton en ouatte,Coton,oui
 coton en rames,Coton,non
-coton en rames et fil de coton,,non
+coton en rames et fil de coton,Coton,non
 coton en rames et filé,Coton,oui
 coton et sits et mousseline,Coton,oui
 coton filé,Coton,oui
@@ -4836,17 +4836,17 @@ coton par Dunkerque,Coton,non
 coton rouge,Coton,non
 coton sitz et mousseline,Coton,oui
 coton sitz et mousseline en balles,Coton,oui
-coton sitz et mousselines,,non
-coton sitz et mousselines en balles,,non
+coton sitz et mousselines,Coton,non
+coton sitz et mousselines en balles,Coton,non
 coton soufré,Coton,non
 coton teint,Coton,non
 cotonelle de coton,Coton,non
-cotonette,,oui
+cotonette,Coton,oui
 cotonettes,Coton,oui
 cotonille,Coton,non
-cotonille bleue,,non
-cotonis,,non
-cotonis rayé,,non
+cotonille bleue,Coton,non
+cotonis,Coton,non
+cotonis rayé,Coton,non
 cotonnade,Coton,oui
 cotonnades,Coton,non
 cotonnades à peu de soie,Coton,non
@@ -4855,8 +4855,8 @@ cotonné de coton,Coton,non
 cotonnée,Coton,non
 cotonnette,Coton,non
 cotonnine,Coton,non
-cotonnine anglaise,,non
-cotonnine bleue,,non
+cotonnine anglaise,Coton,non
+cotonnine bleue,Coton,non
 cotons autres courte soie,Coton,non
 cotte,,non
 cou salé,,non
@@ -4876,7 +4876,7 @@ couffins de palme,,non
 couffins de palme petits,,non
 couffins petits,,non
 coulements de terre,,non
-coules de fer,Fer,non
+coules de fer,,non
 couleur rouge,,oui
 couleurs,,non
 couleurs à peindre,,non
@@ -4972,8 +4972,8 @@ coutil à meubles,,non
 coutil chiné,,non
 coutil de fil,,non
 coutil de Hollande,,non
-couvercles de fer,Fer,non
-couvercles de fer de marmites,Fer,non
+couvercles de fer,,non
+couvercles de fer de marmites,,non
 couvertes d'étoupe,,oui
 couvertes d'étoupes,,non
 couvertes d'étoupes de laine,,non
@@ -5133,7 +5133,7 @@ cribles de laiton à café,,non
 cribles et bluteaux de moulins,,non
 cribles petits,,non
 crics,,non
-crics de fer,Fer,non
+crics de fer,,non
 crin,,non
 crin à cordonnier,,non
 crin à pêcher,,non
@@ -5393,8 +5393,8 @@ cuivre cru en blocs,,non
 cuivre cru en masses,,non
 cuivre cru ou en plates,,non
 cuivre d'argent et doré,,non
-cuivre de fer,Fer,non
-cuivre de fer en poids,Fer,non
+cuivre de fer,,non
+cuivre de fer en poids,,non
 cuivre de fourrure,,non
 cuivre de Namur,,non
 cuivre de pompe,,non
@@ -5512,14 +5512,14 @@ cuve,,non
 cuve à vin,,non
 cuveaux,,non
 cuvette de faïence,,non
-cuvette de fer-blanc,Fer,non
+cuvette de fer-blanc,,non
 cuvettes de marbre ouvré,,non
 cuviers,,non
 cuviers de terre,,non
 cygnes,,non
 cygnes en vie,,non
 cylindre,,non
-cylindre de fer,Fer,non
+cylindre de fer,,non
 cymbales,,non
 dais,,non
 dais ou faux,,non
@@ -5612,7 +5612,7 @@ delimineas,,non
 demi guinée,,non
 demi guinée bleue,,non
 demi Guinée bleue,,oui
-demi-barriques cerclées de fer,Fer,non
+demi-barriques cerclées de fer,,non
 demi-cuirs de bœuf tannés,,non
 demi-cuirs tannés de vache,,non
 demi-planchs,,oui
@@ -5643,7 +5643,7 @@ dentelle d'or fin,,non
 dentelle de Caen,,non
 dentelle de chanvre et de lin,,non
 dentelle de coton et blonde de coton,,non
-dentelle de fer,Fer,non
+dentelle de fer,,non
 dentelle de fil,,non
 dentelle de fil 2 lignes,,non
 dentelle de fil blanc,,non
@@ -5715,12 +5715,12 @@ derle,,non
 dés,,non
 dés à coudre,,non
 dés à coudre de cuivre,,non
-dés à coudre de cuivre et fer,Fer,non
-dés à coudre de fer,Fer,non
+dés à coudre de cuivre et fer,,non
+dés à coudre de fer,,non
 dés à jouer,,non
 dés d'acier,,non
 dés de cuivre,,non
-dés de fer,Fer,non
+dés de fer,,non
 dés de laiton,,non
 déshabillé,,non
 despeigne,,non
@@ -6386,9 +6386,9 @@ eau spiritueuse,,non
 eau spiritueuse et essence,,non
 eau vulnéraire,,non
 eau-de-vie,Eau ; de vie,non
-eau-de-vie anisette,,non
+eau-de-vie anisette,Eau ; de vie,non
 eau-de-vie commune,Eau ; de vie,non
-eau-de-vie composée,,non
+eau-de-vie composée,Eau ; de vie,non
 eau-de-vie d'Espagne,Eau ; de vie,non
 eau-de-vie d'Hendaye,Eau ; de vie,non
 eau-de-vie d'Hendaye et simple,Eau ; de vie,non
@@ -6400,24 +6400,24 @@ eau-de-vie de Dantzig,Eau ; de vie,non
 eau-de-vie de genièvre,Eau ; de vie,non
 eau-de-vie de genièvre et de grains,Eau ; de vie,non
 eau-de-vie de genièvre simple,Eau ; de vie,non
-eau-de-vie de grain,,oui
+eau-de-vie de grain,Eau ; de vie,oui
 eau-de-vie de grains,Eau ; de vie,non
 eau-de-vie de grains autre que genièvre,Eau ; de vie,non
 eau-de-vie de grains de genièvre,Eau ; de vie,oui
 eau-de-vie de grains et simple,Eau ; de vie,non
 eau-de-vie de lavande et simple,Eau ; de vie,non
 eau-de-vie de Marennes,Eau ; de vie,non
-eau-de-vie de mélasse rhum et tafia,,non
+eau-de-vie de mélasse rhum et tafia,Eau ; de vie,non
 Eau-de-vie de mélasse rhum et tafia,Eau ; de vie,oui
 eau-de-vie de Ré,Eau ; de vie,non
 eau-de-vie de Rochefort,Eau ; de vie,non
 eau-de-vie de vin,Eau ; de vie,non
 Eau-de-vie de vin,Eau ; de vie,oui
-eau-de-vie de vin au-dessus de 32 degrés,,non
+eau-de-vie de vin au-dessus de 32 degrés,Eau ; de vie,non
 Eau-de-vie de vin au-dessus de 32 degrés,Eau ; de vie,oui
-eau-de-vie de vin de 22 degrés à 32,,non
+eau-de-vie de vin de 22 degrés à 32,Eau ; de vie,non
 Eau-de-vie de vin de 22 degrés à 32,Eau ; de vie,oui
-eau-de-vie de vin de 22 degrés ou moins,,non
+eau-de-vie de vin de 22 degrés ou moins,Eau ; de vie,non
 Eau-de-vie de vin de 22 degrés ou moins,Eau ; de vie,oui
 eau-de-vie de vin par Marseille,Eau ; de vie,non
 eau-de-vie des prises,Eau ; de vie,non
@@ -6437,7 +6437,7 @@ eau-de-vie simple de vin,Eau ; de vie,non
 eau-de-vie spiritueuse,Eau ; de vie,non
 eau-de-vie triple,Eau ; de vie,non
 eau-forte,Eau ; de vie,non
-eau-forte huile de vitriol le dania,,non
+eau-forte huile de vitriol le dania,Eau ; de vie,non
 eaux de vie anisette,,oui
 ébénisterie,,non
 écaille,,non
@@ -6581,7 +6581,7 @@ elegias,,non
 élixir purgatif,,non
 ellébore,,non
 ellébore blanc,,non
-élocs de fer,Fer,non
+élocs de fer,,non
 émail,,non
 émail brut,,non
 embarcations à dépecer,,non
@@ -6737,7 +6737,7 @@ escot de laine,,non
 escotins de bois,,non
 escots,,oui
 escots de bois,,oui
-escots de fer,Fer,oui
+escots de fer,,oui
 espadrilles,,non
 espagnolette,,non
 espagnolette à fleurs,,non
@@ -6860,11 +6860,11 @@ essence de muscade,,non
 essence de paruce,,non
 essence de pommade,,non
 essence de rose,,non
-essence de térébenthine,,non
+essence de térébenthine,Thérébenthine,non
 essence de térébenthine et huile de térébenthine,Thérébenthine,non
 essence de thym,,non
 essence de vitriol,Vitriol ; blanc,non
-essence et huile de térébenthine,,non
+essence et huile de térébenthine,Thérébenthine,non
 essence et huile de thérébenthine,Thérébenthine,oui
 essence et pommade,,non
 essence odoriférante,,non
@@ -6873,7 +6873,7 @@ essence vitriolique et vitriol huile,Vitriol ; blanc,non
 essence vitrioliques et huile de vitriol,Vitriol ; blanc,oui
 essieux,,non
 essieux à cabrouets,,non
-essieux de fer,Fer,non
+essieux de fer,,non
 estagnons,,non
 estagnons de cuivre allié,,non
 estampes,,non
@@ -6981,7 +6981,7 @@ etamette,,oui
 étampes,,non
 étampes de chanvre,,non
 etatchasse,,non
-étaux de fer,Fer,non
+étaux de fer,,non
 étaux en bâtit pour serruriers,,non
 étaux ouvragés,,non
 etaya,,non
@@ -6989,8 +6989,8 @@ etaya,,non
 etendelle,,non
 éternelle de coton,,non
 etocs,,non
-etocs de fer,Fer,non
-étocs de fer,Fer,non
+etocs de fer,,non
+étocs de fer,,non
 étoffe,,non
 étoffe à carreaux,,non
 étoffe à carreaux et de toile de coutil,,non
@@ -7402,7 +7402,7 @@ etocs de fer,Fer,non
 étoupes et cordes de lin,,non
 étoupes noires,,non
 étriers,,non
-étrille de fer,Fer,non
+étrille de fer,,non
 étuis,,non
 étuis à cachets,,non
 étuis à cure-dents,,non
@@ -7425,8 +7425,8 @@ etocs de fer,Fer,non
 étuve,,non
 étuve commune,,non
 étuve de cuivre,,non
-étuve de fer,Fer,non
-étuve de fer à sucre,Fer,non
+étuve de fer,,non
+étuve de fer à sucre,,non
 euphorbe,,non
 éventails,,non
 éventails à brin d'ivoire et écaille,,non
@@ -7491,7 +7491,7 @@ fanailes,,non
 fanal de navire,,non
 fanal de vaisseaux,,non
 fanal de verre,,non
-faneaux de fer-blanc,Fer,non
+faneaux de fer-blanc,,non
 fange de soie,,oui
 fanon,,non
 fanon de baleine,,non
@@ -7571,8 +7571,8 @@ fauteuils et chaises de rotin,,non
 faux,,non
 FAUX,,oui
 faux à faucher,,non
-faux d'acier et de fer,Fer,non
-faux de fer,Fer,non
+faux d'acier et de fer,,non
+faux de fer,,non
 faux et faucilles,,non
 favelottes,,non
 favelottes en gerbe,,non
@@ -7606,20 +7606,20 @@ fer carré,Fer,non
 fer caverges,Fer,non
 fer coudé,Fer,non
 fer coulé,Fer,non
-fer coulé en fonte,,non
-fer coulé en gueuse,,non
+fer coulé en fonte,Fer,non
+fer coulé en gueuse,Fer,non
 fer coulé et de fonte,Fer,non
 fer coulé figuré,Fer,non
 fer coulé ou de fonte,Fer,non
 fer courbe,Fer,non
 fer cullière,Fer,oui
-fer d'Espagne,,non
+fer d'Espagne,Fer,non
 fer de charrues,Fer,non
 fer de fonte,Fer,non
-fer de fonte en gueuse,,non
+fer de fonte en gueuse,Fer,non
 fer de fonte ouvert,Fer,non
 fer de lin cierge,Fer,non
-fer de mulets,,non
+fer de mulets,Fer,non
 fer de Sibérie,Fer,non
 fer de tôle,Fer,non
 fer de toute sorte,Fer,non
@@ -7627,7 +7627,7 @@ fer de traite,Fer,non
 fer de voyage,Fer,non
 fer dhipsium,Fer,non
 fer en ?,Fer,non
-fer en balle,,non
+fer en balle,Fer,non
 fer en ballon,Fer,non
 fer en bandes,Fer,non
 fer en barils,Fer,non
@@ -7644,55 +7644,55 @@ fer en culture,Fer,non
 fer en écopes,Fer,non
 fer en fafion,Fer,non
 fer en feuilles doubles,Fer,non
-fer en fichu,,non
+fer en fichu,Fer,non
 fer en fonte,Fer,non
 fer en fourrure,Fer,non
-fer en grappes,,non
-fer en grenades,,non
+fer en grappes,Fer,non
+fer en grenades,Fer,non
 fer en grenaille,Fer,non
 fer en grenailles,Fer,non
 fer en grillons,Fer,non
-fer en grosses,,non
+fer en grosses,Fer,non
 fer en guéné,Fer,non
 fer en gueuse,Fer,non
-fer en haches,,non
+fer en haches,Fer,non
 fer en laine,Fer,non
 fer en laiton,Fer,non
-fer en lamelles,,non
-fer en liens,,non
+fer en lamelles,Fer,non
+fer en liens,Fer,non
 fer en limaille,Fer,non
 fer en metumes,Fer,non
 fer en mine,Fer,non
 fer en mitraille,Fer,non
 fer en palmes,Fer,non
 fer en paquet,Fer,non
-fer en planches,,non
+fer en planches,Fer,non
 fer en plançons,Fer,non
-fer en plane,,non
+fer en plane,Fer,non
 fer en plaques,Fer,non
 fer en platines,Fer,non
 fer en platures,Fer,non
 fer en pocle,Fer,non
 fer en potin,Fer,non
-fer en quincaille,,non
-fer en sablerie,,non
-fer en sol,,non
+fer en quincaille,Fer,non
+fer en sablerie,Fer,non
+fer en sol,Fer,non
 fer en suc,Fer,non
 fer en taillanderie,Fer,non
 fer en tôle et en feuilles,Fer,non
 fer en truffe,Fer,non
 fer en verges et lattes,Fer,non
-fer en vrilles,,non
+fer en vrilles,Fer,non
 fer et canons de fer,Fer,non
 fer et étain,Fer,non
 fer et ferrements à nègre,Fer,non
-fer et ferrure,,non
-fer et ferrures,,oui
+fer et ferrure,Fer,non
+fer et ferrures,Fer,oui
 fer figuré,Fer,non
 fer floud,Fer,non
 fer fondu,Fer,non
 fer fondu en grillons,Fer,non
-"fer fondu en Hambourg et planques, poêles et chaudières",,non
+"fer fondu en Hambourg et planques, poêles et chaudières",Fer,non
 fer fondu et coulé,Fer,non
 fer forgé en massiaux ou prismes,Fer,non
 fer laminé,Fer,non
@@ -7712,11 +7712,11 @@ fer noir et simple de 450 feuilles,Fer,non
 fer noir simple,Fer,non
 fer noirci,Fer,non
 fer ou fer fondu,Fer,non
-fer ouvré grossier,,non
+fer ouvré grossier,Fer,non
 fer plat,Fer,non
 fer pour foyer,Fer,non
-fer pour liquarer et en verge,,non
-fer pour moulins à sucre,,non
+fer pour liquarer et en verge,Fer,non
+fer pour moulins à sucre,Fer,non
 fer préparé pour canons de fusils et pistolets,Fer,non
 fer préparé pour forces à tondre les draps,Fer,non
 fer rond,Fer,non
@@ -7724,16 +7724,16 @@ fer roue,Fer,non
 fer spaté,Fer,non
 fer tôle,Fer,non
 fer vieux,Fer,non
-fer vieux ouvré,,non
+fer vieux ouvré,Fer,non
 fer-blanc,Fer,non
 fer-blanc brut,Fer,non
 fer-blanc de 450 feuilles,Fer,non
 Fer-blanc de 600 feuilles,Fer,non
 fer-blanc double,Fer,non
 fer-blanc double de 450 feuilles,Fer,non
-fer-blanc en bottes,,non
+fer-blanc en bottes,Fer,non
 fer-blanc en feuilles,Fer,non
-fer-blanc en quart,,non
+fer-blanc en quart,Fer,non
 fer-blanc en tôle,Fer,non
 fer-blanc et de 600 feuilles,Fer,non
 fer-blanc étamé laminé ou platiné,Fer,non
@@ -7742,7 +7742,7 @@ fer-blanc par barils de 450 feuilles,Fer,non
 fer-blanc par barils de 600 feuilles,Fer,non
 fer-blanc simple,Fer,non
 fer-blanc simple de 450 feuilles,Fer,non
-fer-blanc simple pour la Compagnie des Indes,,non
+fer-blanc simple pour la Compagnie des Indes,Fer,non
 fer-blanc vieux,Fer,non
 ferblanterie,Fer,non
 ferrachon,Fer,non
@@ -7814,8 +7814,8 @@ feuilles de cuivre planches de cuivre et ouvrage de cuivre,,non
 feuilles de cuivre rouge,,non
 feuilles de fer,Fer,non
 feuilles de fer feuillard de fer et tôle de fer,Fer,non
-feuilles de fer pour cercles,,non
-feuilles de fer simples et doubles,,non
+feuilles de fer pour cercles,Fer,non
+feuilles de fer simples et doubles,Fer,non
 feuilles de fer-blanc,Fer,non
 feuilles de laiton,,non
 feuilles de laurier,,non
@@ -7859,7 +7859,7 @@ fifres et flageolets,,non
 fifres flageolets et flûtes,,non
 figue,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue et raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-figue et raisins secs pruneaux et poires tapées,,non
+figue et raisins secs pruneaux et poires tapées,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue et sumac,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue fraîche et fruits verts,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 figue prune et raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -8061,8 +8061,8 @@ fil de chèvre,,non
 fil de chevrette,,non
 fil de corailleur,,non
 fil de cordonnier,,non
-fil de coton,Coton,non
-fil de coton blanc,Coton,non
+fil de coton,,non
+fil de coton blanc,,non
 fil de coton bleu,,non
 fil de coton commun,,non
 fil de coton de Boza,,non
@@ -8094,13 +8094,13 @@ fil de de soie,,non
 fil de dorure,,non
 fil de fer,Fer,non
 fil de fer à carder,Fer,non
-fil de fer de Couty,,non
+fil de fer de Couty,Fer,non
 fil de fer gros,Fer,non
-fil de fer même étamé,,non
+fil de fer même étamé,Fer,non
 fil de fer ordinaire,Fer,non
 fil de fer passe perles,Fer,non
 fil de fer passepoil,Fer,non
-fil de fer pour la Compagnie des Indes,,non
+fil de fer pour la Compagnie des Indes,Fer,non
 fil de filoselle,,non
 fil de Flandre,,non
 fil de Flandre fin,,non
@@ -8374,11 +8374,11 @@ flanelle peinte,,non
 flanelle rayée,,non
 flanelle simple,,non
 fléau et poids en fer,,oui
-fléaux à poids de fer,Fer,non
+fléaux à poids de fer,,non
 fléaux de balance,,non
-fléaux de balance de fer,Fer,non
-fléaux de fer,Fer,non
-fléaux de fer et leurs bassins,Fer,non
+fléaux de balance de fer,,non
+fléaux de fer,,non
+fléaux de fer et leurs bassins,,non
 fléaux de souffre,,non
 fléaux et balance,,non
 fléaux et poids en fer,,non
@@ -8676,7 +8676,7 @@ fruits confits en vinaigre,"Fruits ; divers ; amandes, pelures, raisins, prunes"
 fruits confits fins,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits crus secs et à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits cuits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits cuits secs,,non
+fruits cuits secs,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits de Corinthe,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits de table confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits de table conflits à l'eau-de-vie,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -8696,7 +8696,7 @@ fruits frais de table,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits frais vendangés,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits médicinaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits médicinaux et herbes médicinaux et plantes médicinaux et racines médicinaux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-fruits mirobolant confit,,non
+fruits mirobolant confit,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits mirobolants confits,"Fruits ; divers ; amandes, pelures, raisins, prunes",oui
 fruits moulus divers,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 fruits oléagineux,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -9280,11 +9280,11 @@ gomme animée,Gomme,non
 gomme animée ou courbaril,Gomme,non
 gomme arabique,Gomme,non
 gomme arabique par Marseille,Gomme,non
-gomme atimaix,,non
+gomme atimaix,Gomme,non
 gomme brique,Gomme,non
 gomme carans,Gomme,non
 gomme chimique,Gomme,non
-gomme clinique,,non
+gomme clinique,Gomme,non
 gomme commune,Gomme,non
 gomme conviola,Gomme,non
 gomme copale,Gomme,non
@@ -9306,15 +9306,15 @@ gomme de Cenzier,Gomme,non
 gomme de cerisier,Gomme,non
 gomme de cochenille,Gomme,non
 gomme de Copahu,Gomme,non
-gomme de dragon,,non
+gomme de dragon,Gomme,non
 gomme de gaiac,Gomme,oui
 gomme de gaïac,Gomme,non
 gomme de galbanum,Gomme,non
 gomme de geda,Gomme,non
-gomme de giette,,non
+gomme de giette,Gomme,non
 gomme de gutte,Gomme,non
 gomme de palme,Gomme,non
-gomme de palmier,,non
+gomme de palmier,Gomme,non
 gomme de pays,Gomme,non
 gomme de sandarac,Gomme,non
 gomme de seraza,Gomme,non
@@ -9344,9 +9344,9 @@ gomme gutte,Gomme,non
 gomme herbes grandes,Gomme,non
 gomme keraque,Gomme,non
 gomme laque,Gomme,non
-gomme laque en bois,,non
-gomme laque en feuilles,,non
-gomme laque plate,,non
+gomme laque en bois,Gomme,non
+gomme laque en feuilles,Gomme,non
+gomme laque plate,Gomme,non
 gomme myrrhe,Gomme,non
 gomme odorie,Gomme,non
 gomme opoponax,Gomme,non
@@ -9399,7 +9399,7 @@ grabeau de cire,,non
 grabeau de cochenille,Cochenille,non
 grabeau de corail,,non
 grabeau de galipot,,non
-grabeau de gomme,,non
+grabeau de gomme,Gomme,non
 grabeau de mine,,non
 grabeau de mirthre,,oui
 grabeau de myrrhe,,oui
@@ -9558,7 +9558,7 @@ graine de senegré,,oui
 graine de sénegré,,non
 graine de silvestre,,non
 graine de soude,,non
-graine de tabac,,oui
+graine de tabac,Tabac ; de Virginie,oui
 graine de tasse,,non
 graine de trèfle,,non
 graine de trèfle et de luzerne,,non
@@ -9714,7 +9714,7 @@ graisse de toute sorte sauf graisse de cheval d'ours de gras de peau et suif bru
 graisse de toute sorte sauf gras de peau et suif brut,,non
 graisse douce,,non
 graisse et chair salée de porc,,non
-graisse et suif,,non
+graisse et suif,Suif ; pour faire du savon,non
 graisse fine,,non
 graisse fondue,,non
 graisse ou vieux-oint,,oui
@@ -9773,13 +9773,13 @@ grès en pavé,,non
 grès rouge,,non
 grignons,,non
 grillages,,non
-grillages de fer,Fer,non
-grillages en fer,Fer,non
+grillages de fer,,non
+grillages en fer,,non
 grilles,,non
-grilles de fer,Fer,non
-grilles de fer de fonte,Fer,non
-grilles de fer pour moulins à sucre,Fer,non
-grilles et tambours de fer,Fer,non
+grilles de fer,,non
+grilles de fer de fonte,,non
+grilles de fer pour moulins à sucre,,non
+grilles et tambours de fer,,non
 grillons,,non
 grillons de fonte,,non
 grinza,,non
@@ -9819,7 +9819,7 @@ guêtres de coton,,non
 guêtres de cuir,,non
 guêtres de toile,,non
 gueuse de fer,,non
-gueuse en fer coulé,Fer,oui
+gueuse en fer coulé,,oui
 gueuse en fer en fonte,,oui
 guftas,,non
 guignolet en ratafia,,non
@@ -9972,12 +9972,12 @@ habits unis,,non
 habits vieux,,non
 haches,,non
 haches d'armes,,non
-haches de fer,Fer,non
-haches de fer et d'acier,Fer,non
-haches de fer et houes de fer et serpes de fer,Fer,non
+haches de fer,,non
+haches de fer et d'acier,,non
+haches de fer et houes de fer et serpes de fer,,non
 haches et houes,,non
-haches et houes de fer,Fer,non
-haches et houes et serpes,Fer,non
+haches et houes de fer,,non
+haches et houes et serpes,,non
 haches et serpes,,non
 haches paille,,non
 haillons de laine,,non
@@ -10225,8 +10225,8 @@ huile d'olive importée en grande partie à Marseille,Huile ; d'olive ; blanc ; 
 huile d'olive pour fabrique,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'olive pour fabrique de la Corse,Huile ; d'olive ; blanc ; de Gènes,non
 huile d'ours,,non
-huile de baleine,,non
-huile de baleine et spirituelle,,non
+huile de baleine,Huile ; de baleine,non
+huile de baleine et spirituelle,Huile ; de baleine,non
 huile de baume,,non
 huile de benedie,,non
 huile de benjoin,,non
@@ -10343,7 +10343,7 @@ huile de semence,,non
 huile de senteur,,non
 huile de soldat,,non
 huile de soufre,,non
-huile de spermaceti,,non
+huile de spermaceti,Blanc ; de baleine,non
 huile de storax,,non
 huile de tamarin,,non
 huile de tartre,Tartre,non
@@ -10476,7 +10476,7 @@ indigo du Guatemala,Indigo,oui
 indigo en gr ???,Indigo,non
 indigo floré,Indigo,non
 indigo guatimalo,Indigo,non
-indigo inde-plate boules de bleu,,non
+indigo inde-plate boules de bleu,Indigo,non
 indigo par Bordeaux Nantes Le Havre et Dunkerque,Indigo,non
 injubes,,non
 insectes,,non
@@ -11708,17 +11708,17 @@ marmelade,,non
 marmites,,non
 marmites de composition,,non
 marmites de cuivre,,non
-marmites de fer,Fer,non
+marmites de fer,,non
 marmites de fer coulé,,non
-marmites de fer de fonte,Fer,non
-marmites de fer grandes,Fer,non
-marmites de fer moyennes,Fer,non
+marmites de fer de fonte,,non
+marmites de fer grandes,,non
+marmites de fer moyennes,,non
 marmites de fer petites,,non
 marmites de feu,,non
 marmites de fonte,,non
 marmites de potier,,non
-marmites en fer,Fer,non
-marmites en fer coulé,Fer,oui
+marmites en fer,,non
+marmites en fer coulé,,oui
 marne,,non
 Maroc,,non
 Maroc aune,,non
@@ -11752,7 +11752,7 @@ masses de bois,,non
 masses de coton,Coton,non
 masses de cuivre,,non
 masses de cuivre rouge pour être raffiné,,non
-masses de fer,Fer,non
+masses de fer,,non
 masses de lin,,non
 masses de mail,,non
 massicot,,non
@@ -12158,7 +12158,7 @@ ménage,,non
 ménages,,oui
 menie,,non
 menottes de cuivre,,non
-menottes de fer,Fer,non
+menottes de fer,,non
 mentes à moulir,,non
 mentes à taillandier,,non
 menu charbon de terre,,non
@@ -12437,10 +12437,10 @@ mine de plomb rouge,Plomb,non
 mine de Prusse,,non
 mine de roche,,non
 mine lavée,,non
-minerai de fer brut ou lavé,,non
-minerai de fer chromaté,,non
-minerai de fer sulfuré,,non
-minerai de plomb,,non
+minerai de fer brut ou lavé,Fer,non
+minerai de fer chromaté,Fer,non
+minerai de fer sulfuré,Fer,non
+minerai de plomb,Plomb,non
 minéraux,,non
 mini,,oui
 minium,Minum,non
@@ -12596,7 +12596,7 @@ mors et brides,,non
 mortiers,,non
 mortiers de bois,,non
 mortiers de bronze,,non
-mortiers de fer,Fer,non
+mortiers de fer,,non
 mortiers de fonte,,non
 mortiers de marbre,,non
 mortiers de métal,,non
@@ -12811,7 +12811,7 @@ moules à chandelle,,non
 moules à faire,,non
 moules de boutons,,non
 moules de boutons de bois,,non
-moules de fer à galette,Fer,non
+moules de fer à galette,,non
 moules de pierre pour sucre,,non
 moules de plâtre,,non
 moules de plâtre à faire figures,,non
@@ -13291,7 +13291,7 @@ or travaillé,,non
 orange,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange aigre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange chinoise,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orange confite,,non
+orange confite,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange de Malte,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange douce,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange du Portugal,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -13303,7 +13303,7 @@ orange petite,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange sèche,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orange séchée à faire chapelets,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orangelets,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-orangelets secs,,non
+orangelets secs,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 orangers,,non
 orangers à planter,,non
 orangers petits,,non
@@ -14948,7 +14948,7 @@ perles fausses,,non
 perles fausses montées,,non
 perles fines,,non
 perles fines de toute pêche,,non
-pernambouc,,non
+pernambouc,Bois ; de Pernambouc,non
 Pernambouc,Bois ; de Pernambouc,oui
 perpétuane,,non
 perpétuane apprêtée et peinte,,non
@@ -15808,7 +15808,7 @@ plants de jasmin,,non
 plants de mûrier,,non
 plants de mûriers,,non
 plants de rouge d'Espagne,,non
-plants de tabac,,non
+plants de tabac,Tabac ; de Virginie,non
 plants de vigne,,non
 plaques,,non
 plaques de bois,,non
@@ -15819,7 +15819,7 @@ plaques de cuivre,,non
 plaques de cuivre rouge,,non
 plaques de fer,Fer,non
 plaques de fer battu,Fer,non
-plaques de fer de fonte,,non
+plaques de fer de fonte,Fer,non
 plaques de four,,non
 plaques en fer battu,Fer,oui
 plaques en fer en fonte,Fer,oui
@@ -15833,7 +15833,7 @@ plateaux de bois,,non
 plateaux de bois pour peser,,non
 plateaux de bordure de cuivre,,non
 plateaux de cuivre,,non
-plateaux de fer vernis,Fer,non
+plateaux de fer vernis,,non
 plateaux de noyer,,non
 plateaux pour fléaux,,non
 plateaux vernis,,non
@@ -15842,7 +15842,7 @@ plates de cuivre,,non
 plates de cuivre ciselées et gravées,,non
 plates de cuivre jaune,,non
 plates de cuivre rouge,,non
-plates de fer,Fer,non
+plates de fer,,non
 platies,,non
 platille,,non
 platille de lin,,non
@@ -15857,12 +15857,12 @@ platines à cassave,,non
 platines à verdet,,non
 platines de cuivre,,non
 platines de cuivre et plaques de cuivre,,non
-platines de fer,Fer,non
-platines de fer coulé de fonte,Fer,non
+platines de fer,,non
+platines de fer coulé de fonte,,non
 platines de fer-blanc,,non
 platines de ferrure,,non
 platines de fusils,,non
-platines de serrure,Fer,oui
+platines de serrure,,oui
 platines en lingots,,non
 platines minerai,,non
 plâtre,,non
@@ -15877,7 +15877,7 @@ plâtre gris,,non
 plâtre moulu,,non
 plâtre moulu soit préparé,,non
 plats de bois,,non
-plats de fer,Fer,non
+plats de fer,,non
 plats de sapin,,non
 plattile,,oui
 plawens,,non
@@ -15895,7 +15895,7 @@ ploc salé,,oui
 plocq,,non
 plomb,Plomb,non
 plomb à gibier,Plomb,non
-plomb à tirer,,non
+plomb à tirer,Plomb,non
 plomb argenté,Plomb,non
 plomb battu ou laminé,Plomb,non
 plomb brut,Plomb,non
@@ -15916,11 +15916,11 @@ plomb en plaque,Plomb,non
 plomb en rolles et travaillé,Plomb,non
 plomb en rouleau,Plomb,non
 plomb en saumon,Plomb,non
-plomb en saumon d'Allemagne,,non
+plomb en saumon d'Allemagne,Plomb,non
 plomb et toutenague,Plomb,non
 plomb giboyer,Plomb,non
 plomb laminé,Plomb,non
-plomb pour filet à pêcher,,non
+plomb pour filet à pêcher,Plomb,non
 plomb thé,Plomb,non
 plomb tuyaux d'orgues,Plomb,non
 plomb vieux,Plomb,non
@@ -16019,7 +16019,7 @@ poêlons de cuivre,,non
 poêlons de fer,,non
 poids,,non
 poids à peser,,non
-poids de fer,Fer,non
+poids de fer,,non
 poids de fer de fonte,,non
 poids de fonde,,non
 poids de plomb,,non
@@ -16165,10 +16165,10 @@ poivre blanc-noir,Poivre ; blanc-noir,non
 poivre brun,Poivre ; blanc-noir,non
 poivre commun,Poivre ; blanc-noir,non
 poivre concassé,Poivre ; blanc-noir,non
-poivre de Bourgogne,,non
-poivre de girofle,,non
-poivre de Jamaïque,,non
-poivre de roussi,,non
+poivre de Bourgogne,Poivre ; blanc-noir,non
+poivre de girofle,Poivre ; blanc-noir,non
+poivre de Jamaïque,Poivre ; blanc-noir,non
+poivre de roussi,Poivre ; blanc-noir,non
 poivre des entrepôts,Poivre ; blanc-noir,non
 poivre des Indes,Poivre ; blanc-noir,non
 poivre dit maniquette,Poivre ; blanc-noir,non
@@ -16177,13 +16177,13 @@ poivre en grabeau,Poivre ; blanc-noir,non
 poivre en grains,Poivre ; blanc-noir,non
 poivre en poussière,Poivre ; blanc-noir,non
 poivre giroflé,Poivre ; blanc-noir,non
-poivre léger,,non
+poivre léger,Poivre ; blanc-noir,non
 poivre long,Poivre ; blanc-noir,non
 poivre noir,Poivre ; blanc-noir,non
 poivre ordinaire,Poivre ; blanc-noir,non
 poivre piment,Poivre ; blanc-noir,non
 poivre rond,Poivre ; blanc-noir,non
-poivre sec,,non
+poivre sec,Poivre ; blanc-noir,non
 poivre vert,Poivre ; blanc-noir,non
 poix,,non
 poix blanche,,non
@@ -16432,7 +16432,7 @@ poudre de gouaxaca,,non
 poudre de guerre,,non
 poudre de marbre,,non
 poudre de mine,,non
-poudre de plomb,,non
+poudre de plomb,Plomb,non
 poudre de riz,,non
 poudre de sapin,,non
 poudre de terre,,non
@@ -16769,7 +16769,7 @@ raclure de carnet,,non
 raclure de chamois,,non
 raclure de corne,,non
 raclure de corne de cerf,,non
-raclure de fer,Fer,non
+raclure de fer,,non
 raclures de pieds de mouton,,non
 radeau,,non
 radis chins,,non
@@ -16783,7 +16783,7 @@ rais à pêcher,,oui
 raiseau d'argent et d'or,,non
 raiseau d'argent ou d'or,,non
 raisin,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
-raisin de Calabre,,non
+raisin de Calabre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Corinthe,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Corinthe et autre,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
 raisin de Damas,"Fruits ; divers ; amandes, pelures, raisins, prunes",non
@@ -16815,7 +16815,7 @@ rames de frêne,,non
 rames de lin,,non
 rames de morue,,non
 ramolaches,,non
-rampe de fer,Fer,non
+rampe de fer,,non
 ramure,,non
 ramure de sapin,,non
 rapatelle,,non
@@ -17368,7 +17368,7 @@ saigne,,non
 sailphre,,non
 sain,,non
 saindoux,,non
-saisie de fer,Fer,non
+saisie de fer,,non
 salage,,non
 salaisons,,non
 salamouris,,non
@@ -17536,7 +17536,7 @@ saucissons,,non
 saucissons salés,,non
 saude,,non
 sauge,,non
-saule de fer,Fer,non
+saule de fer,,non
 saulx,,non
 saumon,,non
 saumon d'Écosse,,non
@@ -17603,7 +17603,7 @@ scielle,,non
 scies,,non
 scies à moulu,,non
 scies communes,,non
-scies de fer,Fer,non
+scies de fer,,non
 scies fines,,non
 scies pour la Compagnie des Indes,,non
 scille maritime,,non
@@ -17621,12 +17621,12 @@ seaux de bois,,non
 seaux de bois ferré,,non
 seaux de cuir,,non
 seaux de faïence,,non
-seaux de fer-blanc,Fer,non
+seaux de fer-blanc,,non
 seaux de sapin,,non
 seaux de veau,,non
 seaux de verre,,non
 seaux de vin,,non
-seaux ferrés,Fer,non
+seaux ferrés,,non
 sébeste,,non
 secrétaire,,non
 secrétaire d'acajou,,non
@@ -17768,7 +17768,7 @@ selles communes,,non
 selles de bois,,non
 selles de cuir,,non
 selles de femme,,non
-selles de fer,Fer,non
+selles de fer,,non
 selles de maître,,non
 selles de poste,,non
 selles de sapin,,non
@@ -17901,7 +17901,7 @@ serpentine,,non
 serpentine à distiller l'eau-de-vie,,non
 serpents,,non
 serpes,,non
-serpes de fer,Fer,non
+serpes de fer,,non
 serra merita,,non
 serratille,,non
 serrure de bois,,non
@@ -18028,12 +18028,12 @@ slatille des Indes,,non
 slin de laine,,non
 smalte,,non
 soberton,,non
-socle de fer,Fer,non
+socle de fer,,non
 socreton,,non
 socrotour,,non
 socs,,non
 socs de charrues,,non
-socs de fer,Fer,non
+socs de fer,,non
 soie,,non
 soie à broder,,non
 soie à coudre,,non
@@ -18338,9 +18338,9 @@ sparterie,,non
 sparterie brute en auf jonc et roseau,,non
 spath,,non
 spéculation,,non
-spermaceti,,non
+spermaceti,Blanc ; de baleine,non
 sperme,,non
-sperme de baleine,,non
+sperme de baleine,Blanc ; de baleine,non
 spermecely,,non
 spiante,,non
 spicaceltica,,non
@@ -18401,7 +18401,7 @@ sucre blanc et sucre terré,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et sucre terré des Îles françaises de l'Amérique,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et sucre terré et sucre têtes,Sucre ; cru blanc ; du Brésil,non
 sucre blanc et tabatière de bergamote,Sucre ; cru blanc ; du Brésil,oui
-sucre blanc et tabatières de bergamote,,non
+sucre blanc et tabatières de bergamote,Sucre ; cru blanc ; du Brésil,non
 sucre blanc terré et têtes,Sucre ; cru blanc ; du Brésil,non
 sucre brun,Sucre ; cru blanc ; du Brésil,non
 sucre brun brut,Sucre ; cru blanc ; du Brésil,non
@@ -18445,7 +18445,7 @@ sucre en dragées,Sucre ; cru blanc ; du Brésil,non
 sucre en forme terré,Sucre ; cru blanc ; du Brésil,non
 sucre en lait,Sucre ; cru blanc ; du Brésil,non
 sucre en pain,Sucre ; cru blanc ; du Brésil,non
-sucre en pain blanc,,non
+sucre en pain blanc,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et en poudre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et sucre raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre en pain et sucre raffiné et sucre têtes etc.,Sucre ; cru blanc ; du Brésil,non
@@ -18453,7 +18453,7 @@ sucre en pain et sucre terré,Sucre ; cru blanc ; du Brésil,non
 sucre en pain par Le Havre,Sucre ; cru blanc ; du Brésil,non
 sucre en pain par Strasbourg,Sucre ; cru blanc ; du Brésil,non
 sucre en pain par Strasbourg Metz et Riltzeim,Sucre ; cru blanc ; du Brésil,non
-sucre en pain pour la Compagnie des Indes,,non
+sucre en pain pour la Compagnie des Indes,Sucre ; cru blanc ; du Brésil,non
 sucre en pain raffiné,Sucre ; cru blanc ; du Brésil,non
 sucre en pain sorti avec prime,Sucre ; cru blanc ; du Brésil,non
 sucre en poudre,Sucre ; cru blanc ; du Brésil,non
@@ -18471,10 +18471,10 @@ sucre mélasse,Sucre ; cru blanc ; du Brésil,non
 sucre mélisse,Sucre ; cru blanc ; du Brésil,non
 sucre mes ???,Sucre ; cru blanc ; du Brésil,non
 sucre moscovade,Sucre ; cru blanc ; du Brésil,non
-sucre noix,,non
+sucre noix,Sucre ; cru blanc ; du Brésil,non
 sucre orianne,Sucre ; cru blanc ; du Brésil,non
 sucre raffiné,Sucre ; cru blanc ; du Brésil,non
-sucre roulé,,non
+sucre roulé,Sucre ; cru blanc ; du Brésil,non
 sucre terré,Sucre ; cru blanc ; du Brésil,non
 sucre terré autre que blanc,Sucre ; cru blanc ; du Brésil,non
 sucre terré autre que blanc des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
@@ -18482,9 +18482,9 @@ sucre terré autre que blanc étranger,Sucre ; cru blanc ; du Brésil,non
 sucre terré blanc,Sucre ; cru blanc ; du Brésil,non
 sucre terré blanc des entrepôts étranger,Sucre ; cru blanc ; du Brésil,non
 sucre terré blanc étranger,Sucre ; cru blanc ; du Brésil,non
-sucre terré blanc ordinaire et tête de forme,,non
+sucre terré blanc ordinaire et tête de forme,Sucre ; cru blanc ; du Brésil,non
 sucre terré brun étranger,Sucre ; cru blanc ; du Brésil,non
-sucre terré commun,,non
+sucre terré commun,Sucre ; cru blanc ; du Brésil,non
 sucre terré des colonies françaises au-delà du Cap,Sucre ; cru blanc ; du Brésil,non
 sucre terré des Indes,Sucre ; cru blanc ; du Brésil,non
 sucre terré et sucre têtes,Sucre ; cru blanc ; du Brésil,non
@@ -18506,7 +18506,7 @@ sucs d'espèces particulières,,non
 suie de cheminée,,non
 suif,Suif ; pour faire du savon,non
 suif à chandelle,Bougie ; de suif,non
-suif brut,,non
+suif brut,Suif ; pour faire du savon,non
 suif de mouton,Suif ; pour faire du savon,non
 suif en branche,Suif ; pour faire du savon,non
 suif en chandelle et en rames,Bougie ; de suif,non
@@ -18527,8 +18527,8 @@ sulfate de cuivre de fer et de zinc,,non
 sulfate de cuivre et de fer,,non
 sulfate de fer,,non
 sulfate de magnésie de potasse et de soude,Potasse,non
-sulfate de plomb,,non
-sulfate de potasse,,non
+sulfate de plomb,Plomb,non
+sulfate de potasse,Potasse,non
 sulfate de quinine,,non
 sulfate de zinc,,non
 sulfure d'arsenic jaune et rouge,,non
@@ -18549,7 +18549,7 @@ tabac à râper,Tabac ; de Virginie,non
 tabac à varié,Tabac ; de Virginie,non
 tabac avarié,Tabac ; de Virginie,non
 tabac briquet,Tabac ; de Virginie,non
-tabac brut,,non
+tabac brut,Tabac ; de Virginie,non
 tabac commun,Tabac ; de Virginie,non
 tabac commun en feuilles,Tabac ; de Virginie,non
 tabac côte de ???,Tabac ; de Virginie,non
@@ -18559,7 +18559,7 @@ tabac de ???,Tabac ; de Virginie,non
 tabac de caisse,Tabac ; de Virginie,non
 tabac de cantine,Tabac ; de Virginie,non
 tabac de carottes,Tabac ; de Virginie,non
-tabac de coco,,non
+tabac de coco,Tabac ; de Virginie,non
 tabac de Hollande,Tabac ; de Virginie,non
 tabac de la Ferme,Tabac ; de Virginie,non
 tabac de la Havane,Tabac ; de Virginie,non
@@ -18587,15 +18587,15 @@ tabac en carotte et en feuilles,Tabac ; de Virginie,non
 tabac en carotte et en feuilles et en côtes,Tabac ; de Virginie,non
 tabac en carotte et en feuilles et râpé,Tabac ; de Virginie,non
 tabac en carotte et fabriqué,Tabac ; de Virginie,non
-tabac en carotte et feuilles côtes,,non
+tabac en carotte et feuilles côtes,Tabac ; de Virginie,non
 tabac en carotte et rolles,Tabac ; de Virginie,non
 tabac en carotte par Bayonne,Tabac ; de Virginie,non
 tabac en cordes,Tabac ; de Virginie,non
 tabac en coren ???,Tabac ; de Virginie,non
 tabac en côtes,Tabac ; de Virginie,non
 tabac en côtes et en feuilles,Tabac ; de Virginie,non
-tabac en côtes et en feuilles des entrepôts pour la régie,,non
-tabac en côtes et en feuilles pour la régie,,non
+tabac en côtes et en feuilles des entrepôts pour la régie,Tabac ; de Virginie,non
+tabac en côtes et en feuilles pour la régie,Tabac ; de Virginie,non
 tabac en feuilles,Tabac ; de Virginie,non
 tabac en feuilles de la Louisiane,Tabac ; de Virginie,non
 tabac en feuilles de Virginie,Tabac ; de Virginie,non
@@ -18604,12 +18604,12 @@ tabac en feuilles et en poudre,Tabac ; de Virginie,non
 tabac en feuilles par Bayonne,Tabac ; de Virginie,non
 tabac en feuilles par Dunkerque,Tabac ; de Virginie,non
 tabac en filé,Tabac ; de Virginie,non
-tabac en graine,,non
+tabac en graine,Tabac ; de Virginie,non
 tabac en manoque,Tabac ; de Virginie,non
 tabac en poudre,Tabac ; de Virginie,non
-tabac en poudre commun,,non
+tabac en poudre commun,Tabac ; de Virginie,non
 tabac en poudre commun supérieur,Tabac ; de Virginie,non
-tabac en poudre de la Havane,,non
+tabac en poudre de la Havane,Tabac ; de Virginie,non
 tabac en rolle,Tabac ; de Virginie,non
 tabac en rouleau,Tabac ; de Virginie,non
 tabac et savon,Tabac ; de Virginie,non
@@ -18619,7 +18619,7 @@ tabac fabriqué et préparé,Tabac ; de Virginie,non
 tabac ficelé,Tabac ; de Virginie,non
 tabac filé,Tabac ; de Virginie,non
 tabac fin,Tabac ; de Virginie,non
-tabac frisé,,non
+tabac frisé,Tabac ; de Virginie,non
 tabac haché,Tabac ; de Virginie,non
 tabac haché et à fumer,Tabac ; de Virginie,non
 tabac pour échantillon,Tabac ; de Virginie,non
@@ -18949,8 +18949,8 @@ tartre blanc,Tartre,non
 tartre brut,Tartre,non
 tartre de lie de vin désséchée,Tartre,non
 tartre de lie de vin liquide,Tartre,non
-tartre de potasse de soude et de potasse,,non
-tartre de soude et de potasse,,non
+tartre de potasse de soude et de potasse,Tartre,non
+tartre de soude et de potasse,Tartre,non
 tartre émétique,Tartre,non
 tartre en pierre,Tartre,non
 tartre en poussière,Tartre,non
@@ -19023,7 +19023,7 @@ térébenthine de Venise,Thérébenthine,non
 térébenthine en essence et en huile et en pâte,Thérébenthine,non
 térébenthine en pâte,Thérébenthine,non
 térébenthine essence,Thérébenthine,non
-térébenthine grosse,,non
+térébenthine grosse,Thérébenthine,non
 térébenthine liquide,Thérébenthine,non
 terendine,,non
 terixe,,non
@@ -19150,30 +19150,30 @@ thé,Thé ; boue,non
 thé ???,Thé ; boue,non
 the bou,Thé ; boue,non
 thé bou,Thé ; boue,non
-thé cambou,,non
+thé cambou,Thé ; boue,non
 thé camphon,Thé ; boue,oui
 thé des entrepôts,Thé ; boue,non
 thé des Indes,Thé ; boue,non
-thé en fleurs blanc,,non
+thé en fleurs blanc,Thé ; boue,non
 thé et porcelaine,Thé ; boue,non
 thé étranger,Thé ; boue,non
 thé étranger par Strasbourg,Thé ; boue,non
 thé filé,Thé ; boue,non
 thé hayssuen,Thé ; boue,oui
-thé haysswen,,non
-thé impérial,,non
+thé haysswen,Thé ; boue,non
+thé impérial,Thé ; boue,non
 thé ordinaire,Thé ; boue,non
 thé par Dunkerque,Thé ; boue,non
 thé par Pontarlier et Saint-Louis,Thé ; boue,non
-thé pékan,,non
-thé roux,,non
+thé pékan,Thé ; boue,non
+thé roux,Thé ; boue,non
 thé saotchaon,Thé ; boue,non
-thé saoul,,non
-thé souchon,,non
+thé saoul,Thé ; boue,non
+thé souchon,Thé ; boue,non
 thé tonkay,Thé ; boue,non
 thé vert,Thé ; boue,non
 thé vert commun,Thé ; boue,non
-thé vert saoul,,non
+thé vert saoul,Thé ; boue,non
 théières,,non
 théières d'étain,,non
 théières de cuivre,,non
@@ -20615,9 +20615,9 @@ tuyau en plomb,,oui
 tuyaux d'orgue,,non
 tuyaux de cuir pour les pompes,,non
 tuyaux de fer,Fer,non
-tuyaux de fer à vernir,,non
+tuyaux de fer à vernir,Fer,non
 tuyaux de fer de fonte,Fer,non
-tuyaux de fonte,,non
+tuyaux de fonte,Fer,non
 tuyaux de grenade,,non
 tuyaux de pipes,,non
 tuyaux de plomb,,non
@@ -20959,7 +20959,7 @@ vin,Vin ; de France,non
 vin anti-scorbutique,Vin ; de France,non
 vin au muid,Vin ; de France,non
 vin blanc,Vin ; de France,non
-vin blanc d'Espagne,,non
+vin blanc d'Espagne,Vin ; de France,non
 vin blanc de France,Vin ; de France,non
 vin blanc en bouteilles,Vin ; de France,non
 vin Champagne,Vin ; de France,non
@@ -20987,14 +20987,14 @@ vin d'Auxonne,Vin ; de France,non
 vin d'Égypte,Vin ; de France,non
 vin d'Épernay,Vin ; de France,non
 vin d'Espagne,Vin ; de France,non
-vin d'Espagne de Malvoisie,,non
+vin d'Espagne de Malvoisie,Vin ; de France,non
 vin d'Espagne et de liqueur,Vin ; de France,non
-vin d'Espagne ordinaire,,non
+vin d'Espagne ordinaire,Vin ; de France,non
 vin d'Espagne tisse,Vin ; de France,non
 vin d'Inde,Vin ; de France,non
 vin d'Oléron,Vin ; de France,non
 vin d'Oléron rouge,Vin ; de France,non
-vin d'Operto,,non
+vin d'Operto,Vin ; de France,non
 vin d'orange,Vin ; de France,non
 vin d'Orléans,Vin ; de France,non
 vin de ???,Vin ; de France,non
@@ -21010,7 +21010,7 @@ vin de Benicarlo dernière récolte,Vin ; de France,non
 vin de Bergerac,Vin ; de France,non
 vin de Béziers,Vin ; de France,non
 vin de Blaye,Vin ; de France,non
-vin de Blois,,non
+vin de Blois,Vin ; de France,non
 vin de Bordeaux,Vin ; de France,non
 vin de Bordeaux au muid,Vin ; de France,non
 vin de Bordeaux de Blaye,Vin ; de France,non
@@ -21020,7 +21020,7 @@ vin de Bordeaux de ville,Vin ; de France,non
 vin de Bordeaux en bouteilles,Vin ; de France,non
 vin de Bordeaux fin,Vin ; de France,non
 vin de Bordeaux fin en bouteilles,Vin ; de France,oui
-vin de Bordeaux médiocre,,non
+vin de Bordeaux médiocre,Vin ; de France,non
 vin de Bordeaux ordinaire,Vin ; de France,non
 vin de Bourbonne,Vin ; de France,non
 vin de Bourg,Vin ; de France,non
@@ -21039,7 +21039,7 @@ vin de Castillon,Vin ; de France,non
 vin de Catalogne,Vin ; de France,non
 vin de Cauret,Vin ; de France,non
 vin de cédrat,Vin ; de France,non
-vin de Cette,,non
+vin de Cette,Vin ; de France,non
 vin de Chablis,Vin ; de France,non
 vin de Chagny,Vin ; de France,non
 vin de Châlon,Vin ; de France,non
@@ -21072,10 +21072,10 @@ vin de Domme,Vin ; de France,non
 vin de Doures,Vin ; de France,non
 vin de Faial,Vin ; de France,non
 vin de fap,Vin ; de France,non
-vin de ferme,,non
+vin de ferme,Vin ; de France,non
 vin de Flacres,Vin ; de France,non
 vin de Flandre,Vin ; de France,non
-vin de Fleurance,,non
+vin de Fleurance,Vin ; de France,non
 vin de Florence,Vin ; de France,non
 vin de forêt,Vin ; de France,non
 vin de France,Vin ; de France,non
@@ -21086,8 +21086,8 @@ vin de France de santé en muid,Vin ; de France,non
 vin de France en bouteilles,Vin ; de France,non
 vin de France-Comté,Vin ; de France,non
 vin de Frontignan,Vin ; de France,non
-vin de fronton,,oui
-vin de Fronton,,non
+vin de fronton,Vin ; de France,oui
+vin de Fronton,Vin ; de France,non
 vin de Gaillac,Vin ; de France,non
 vin de Garonne,Vin ; de France,non
 vin de Gascogne,Vin ; de France,non
@@ -21101,7 +21101,7 @@ vin de Guacy,Vin ; de France,non
 vin de Guyenne,Vin ; de France,non
 vin de haule,Vin ; de France,non
 vin de haut,Vin ; de France,non
-vin de haut renvoyé,,non
+vin de haut renvoyé,Vin ; de France,non
 vin de Hongrie,Vin ; de France,non
 vin de hors,Vin ; de France,non
 vin de jauge gros bard,Vin ; de France,non
@@ -21124,7 +21124,7 @@ vin de liqueurs de muscat,Vin ; de France,non
 vin de liqueurs en bouteilles,Vin ; de France,oui
 vin de liqueurs en cercles,Vin ; de France,oui
 vin de liqueurs étranger,Vin ; de France,non
-vin de Lires,,non
+vin de Lires,Vin ; de France,non
 vin de Lorraine,Vin ; de France,non
 vin de Lyon,Vin ; de France,non
 vin de Mâcon,Vin ; de France,non
@@ -21155,11 +21155,11 @@ vin de Naples,Vin ; de France,non
 vin de Navarre,Vin ; de France,non
 vin de Nuits,Vin ; de France,non
 vin de Pacaret,Vin ; de France,non
-vin de Paiaret,,non
+vin de Paiaret,Vin ; de France,non
 vin de palme,Vin ; de France,non
 vin de Paquarat,Vin ; de France,non
 vin de pays,Vin ; de France,non
-vin de Peralte,,non
+vin de Peralte,Vin ; de France,non
 vin de Picardan,Vin ; de France,non
 vin de poisson,Vin ; de France,non
 vin de Porto,Vin ; de France,non
@@ -21202,7 +21202,7 @@ vin de Syracuse,Vin ; de France,non
 vin de Tavel,Vin ; de France,non
 vin de teinte,Vin ; de France,non
 vin de Ténérife,Vin ; de France,non
-vin de terre,,non
+vin de terre,Vin ; de France,non
 vin de Tezac,Vin ; de France,non
 vin de Thiaucourt,Vin ; de France,non
 vin de Tinto,Vin ; de France,non
@@ -21213,7 +21213,7 @@ vin de velle,Vin ; de France,oui
 vin de Vienne,Vin ; de France,non
 vin de ville,Vin ; de France,non
 vin de ville de Bordeaux,Vin ; de France,non
-vin de ville de renvoi,,non
+vin de ville de renvoi,Vin ; de France,non
 vin de ville et de haut,Vin ; de France,non
 vin de Vougeot,Vin ; de France,non
 vin de Wermut,Vin ; de France,non
@@ -21229,7 +21229,7 @@ vin du Béarn et Gascogne,Vin ; de France,non
 vin du Bugey,Vin ; de France,non
 vin du Cap,Vin ; de France,non
 vin du Cap Breton,Vin ; de France,non
-vin du cap de Bonne Espérance,,non
+vin du cap de Bonne Espérance,Vin ; de France,non
 vin du Cap des Indes,Vin ; de France,non
 vin du Croisic,Vin ; de France,non
 vin du Dauphiné,Vin ; de France,non
@@ -21240,7 +21240,7 @@ vin du mont Vésuve,Vin ; de France,non
 vin du Nantais,Vin ; de France,non
 vin du Périgord,Vin ; de France,non
 vin du Portugal,Vin ; de France,non
-vin du Quercy,,non
+vin du Quercy,Vin ; de France,non
 vin Du Quercy,Vin ; de France,oui
 vin du Rhin,Vin ; de France,non
 vin du Rhin de retour,Vin ; de France,non
@@ -21279,7 +21279,7 @@ vin et eau-de-vie,Vin ; de France,non
 vin et eau-de-vie de vin,Vin ; de France,non
 vin et fer,Vin ; de France,non
 vin et vin de liqueurs divers,Vin ; de France,non
-vin et vinaigre,,non
+vin et vinaigre,Vin ; de France,non
 vin étranger,Vin ; de France,non
 vin étranger au ???,Vin ; de France,non
 vin étranger blanc,Vin ; de France,non
@@ -21293,7 +21293,7 @@ vin fin,Vin ; de France,non
 vin fin en bouteilles,Vin ; de France,non
 vin français,Vin ; de France,non
 vin gâté,Vin ; de France,non
-vin gris,,non
+vin gris,Vin ; de France,non
 vin gru,Vin ; de France,oui
 vin hors,Vin ; de France,non
 vin jauge ??? Paris,Vin ; de France,non
@@ -21310,7 +21310,7 @@ vin ordinaire divers,Vin ; de France,non
 vin ordinaire en bouteilles,Vin ; de France,non
 vin ordinaire en miel,Vin ; de France,non
 vin Rancio,Vin ; de France,non
-vin Rota,,non
+vin Rota,Vin ; de France,non
 vin rouge,Vin ; de France,non
 vin rouge commun,Vin ; de France,non
 vin rouge d'Espagne,Vin ; de France,non
@@ -21319,7 +21319,7 @@ vin rouge de renvoi,Vin ; de France,non
 vin rouge en bouteilles,Vin ; de France,non
 vin rouge et blanc,Vin ; de France,non
 vin rouge gros bard,Vin ; de France,non
-vin rouge ordinaire,,non
+vin rouge ordinaire,Vin ; de France,non
 vin rouge très gras,Vin ; de France,non
 vin Saint-Ange,Vin ; de France,non
 vin Tinto,Vin ; de France,non
