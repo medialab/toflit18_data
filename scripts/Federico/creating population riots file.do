@@ -56,3 +56,15 @@ save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\emotion
 *merge the two into 
 merge m:m  year generalites_encode using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\population_generalites.dta"
 save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\population_riots.dta"
+
+gen coastaldummy=1
+replace coastaldummy=0 if generalites=="ALENCON"| generalites=="AUCH"|generalites=="BESANCON"|generalites=="BOURGES"|generalites=="CHALONS"|generalites=="DIJON"|generalites=="GRENOBLE"|generalites=="LILLE"|generalites=="LIMOGES"|generalites=="LYON"|generalites=="METZ"|generalites=="MOULINS" |generalites=="NANCY" |generalites=="Montauban" |generalites=="ORLEANS"|generalites=="PARIS" |generalites=="PERPIGNAN" |generalites=="RIOM" |generalites=="SOISSONS"|generalites=="TOURS" |generalites=="VALENCIENNES"
+
+*calculate index riots/pop
+gen riot_index=riots/population_ipo
+
+save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\population_riots.dta"
+xtset generalites_encode year
+collapse (mean) riot_index,  by (year coastaldummy)
+reshape wide riot_index, i(year) j(coastaldummy)
+line riot_index0 riot_index1 year
