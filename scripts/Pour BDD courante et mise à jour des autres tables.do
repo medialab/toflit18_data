@@ -541,16 +541,19 @@ rename yearnum year
 
  merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
+ drop if _merge==2
  drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
  
  merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Metrique1.dta"
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
+ drop if _merge==2
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
  
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+ drop if _merge==2
  drop  remarque_unit-_merge
  codebook q_conv
  

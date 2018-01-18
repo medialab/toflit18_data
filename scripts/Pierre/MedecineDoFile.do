@@ -80,6 +80,26 @@ use "Données Stata/bdd courante with medecine.dta", clear
 			use "Données Stata/bdd_Import_Export.dta", clear
 			set more off
 			regress ln_ImpTotal_Med i.year i.direction_enc
+			predict predicted_lnImpTotal_Med
+			reg predicted_lnImpTotal_Med year i.direction_enc
+			
+			
+			
+			/*margins, dydx(year) post
+			estimates save mymodel, replace
+			estimates use mymodel
+			matrix coeff_year = r(b)
+			ereturn post coeff_year 
+			matrix coeff_stdyear = r(c)
+			ereturn post coeff_stdyear
+			ereturn display
+
+			parmest, saving("Données Stata/Excel/ImpTotal_Med.dta", replace)
+			use "Données Stata/Excel/ImpTotal_Med.dta", clear
+
+			
+			*** RE, à voir dans la formule de regress --> rechercher
+			*** predict pour prédire le commerce français.
 			outreg2 using Import.xls, replace ctitle(Import)
 			outreg2 using EF.doc, replace ctitle(Import)
 			parmest, saving("Données Stata/Excel/ImpTotal_Med.dta", replace)
@@ -91,7 +111,7 @@ use "Données Stata/bdd courante with medecine.dta", clear
 			export excel using "Données Stata/Excel/annee.xls", firstrow(variables) replace
 
 			*supprimer dans le excel
-			
+			*/
 import excel "Données Stata/Excel/annee.xls", sheet("Sheet1") firstrow clear
 sort year
 destring Import, replace
