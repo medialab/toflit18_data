@@ -308,6 +308,7 @@ amer,,,non,0
 amer de laine,,,non,0
 amertis,,,non,0
 ameublement,,,non,0
+ameublement de chitte,,,non,
 ami de toilé,,,non,0
 amidon,,,non,1
 amidon en grains,,,non,0
@@ -512,6 +513,7 @@ armes à feu de traite,,,non,0
 armes à feu et artillerie,,,non,0
 armes à feu et de traite,,,non,0
 armes à feu et fusils,,,non,0
+armes armureries,,,non,
 armes autres que de guerre à feu,,,non,0
 armes autres que de guerre blanches,,,non,0
 armes blanches,,,non,0
@@ -768,6 +770,7 @@ bandeaux,,,non,0
 banderoles,,,non,0
 banderoles de cuir,,,non,0
 bandes de cabrouets de fer,,,non,0
+bandes de charrettes,,,non,
 bandes de fer,,,non,0
 bandes de fer à tombereaux,,,non,0
 bandes de roues de fer,,,non,0
@@ -1876,7 +1879,8 @@ bois pour instruments de musique,,,non,0
 bois pour lattes,,,non,0
 bois pour lit,,,non,0
 bois pour mâts,,,non,0
-bois pour mature,,,non,0
+bois pour mature,,,oui,0
+bois pour mâtures,,,non,
 bois pour meuble,Hors Canada,,non,1
 bois pour meubles,Hors Canada,,non,1
 bois pour palissade,,,non,0
@@ -1918,6 +1922,7 @@ bois sustek,,,non,0
 bois tes peintes,,,non,0
 bois tors,,,non,0
 bois travaillé,,,non,0
+bois travaillé pour construire une barrique,,,non,
 bois tropique,,,non,0
 bois verni,,,non,0
 bois vert,Peut être Canada,,non,1
@@ -2011,6 +2016,7 @@ bonneterie de coton et bonneterie de soie,,,non,0
 bonneterie de fil,,,non,0
 bonneterie de fil de coton,,,non,0
 bonneterie de fil et bonneterie de coton,,,non,0
+bonneterie de fil et coton en laine,,,non,
 bonneterie de filin d'or,,,non,0
 bonneterie de filoselle,,,non,0
 bonneterie de fleuret,,,non,0
@@ -2067,13 +2073,14 @@ bonnets de paille,,,non,0
 bonnets de peau,,,non,0
 bonnets de postillons,,,non,0
 bonnets de prêtre,,,non,0
-bonnets de prise,,,non,0
+bonnets de prise,,,oui,0
 bonnets de soie,,,non,0
 bonnets de taffetas,,,non,0
 bonnets de toile,,,non,0
 bonnets de toile cirée,,,non,0
 bonnets de velours,,,non,0
 bonnets de velours brodés,,,non,0
+bonnets des prises,,,non,
 bonnets écarlates,,,non,0
 bonnets et chaussettes de coton,,,non,0
 bonnets grossiers de laine,,,non,0
@@ -2089,6 +2096,7 @@ borax raffiné,,,non,0
 bordage,,,non,0
 bordage de chêne,Hors Canada,,non,1
 bordage de chêne de 15 pieds,,,non,0
+bordage de chêne de 24 pieds,,,non,
 bordage de chêne de 27 pieds,,,non,0
 bordage de chêne de 30 à 40 pieds,,,non,0
 bordage de chêne de 30 à 40 pieds à 3 et 4 pouces d'épaisseur,,,non,0
@@ -2318,6 +2326,7 @@ boutons à pierres fausses par douzaines,,,non,0
 boutons anglais,,,non,0
 boutons avec dorure et nacre,,,non,0
 boutons blanc étamés,,,non,0
+boutons blanchis,,,non,
 boutons bloc,,,non,0
 boutons brodés d'or et d'argent,,,non,0
 boutons brodés de nacre de perles et d'acier,,,non,0
@@ -2510,6 +2519,7 @@ brian,,,non,0
 brides,,,non,0
 brides argentées,,,non,0
 bridons,,,non,0
+bridons de cuir,,,non,
 brigadis,,,non,0
 brignoles,,,non,0
 brins à tours,,,non,0
@@ -2805,6 +2815,8 @@ callemande de Lille,,,non,0
 callemande de poil,,,non,0
 callemande des prises,,,non,0
 callemande étroite de laine,,,non,0
+callemande noire,,,non,
+callemande ordinaire,,,non,
 callemande pièces de 30 aunes,,,non,0
 calmotte,,,non,0
 calotte,,,non,0
@@ -2970,6 +2982,7 @@ cannetilles d'argent et d'or,,,non,0
 cannetilles d'or faux,,,non,0
 cannette de grès et de terre,,,non,0
 cannettes,,,non,0
+cannettes à faïence,,,non,
 cannettes d'étain,,,non,0
 cannettes de ???,,,non,0
 cannettes de faïence,,,non,0
@@ -3001,6 +3014,7 @@ canons de fer de 18 livres,,,non,0
 canons de fer de 2 livres,,,non,0
 canons de fer de 3 à 4 livres,,,non,0
 canons de fer de 3 livres,,,non,0
+canons de fer de 3 livres de balle,,,non,
 canons de fer de 4 livres,,,non,0
 canons de fer de 6 livres,,,non,0
 canons de fer de 8 livres,,,non,0
@@ -3052,6 +3066,7 @@ capotes de marrègue,,,non,0
 capotes et chemises casaques,,,non,0
 capots,,,non,0
 capots (draps),,,non,0
+capots à nègres,,,non,
 capots de laine,,,non,0
 câpres,,,non,0
 câpres au vinaigre,,,non,0
@@ -3543,6 +3558,7 @@ chair fraîche et salée,,,non,0
 chair fumée,,,non,0
 chair salée,,,non,1
 chair salée et chair fraîche,,,non,0
+chair salée ou lard,,,non,
 chaise garnie de cannes,,,non,0
 chaise garnie de maroquin,,,non,0
 chaises,,,non,0
@@ -3669,6 +3685,7 @@ chanvre en liens,,,non,0
 chanvre en masses,,,non,0
 chanvre en ramade,,,non,0
 chanvre en rames,,,non,0
+chanvre en rames (c'est à dire du Nord),,,non,
 chanvre en tiges brutes choisie sèches ou vertes,,,non,0
 chanvre en tiges brutes sèches roules ou vertes,,,non,0
 chanvre et lin,,,non,0
@@ -3951,6 +3968,7 @@ chemises bleues,,,non,0
 chemises bretonnes,,,non,0
 chemises bretonnes garnies,,,non,0
 chemises bretonnes unies,,,non,0
+chemises brodées,,,non,
 chemises communes,,,non,0
 chemises communes non garnies,,,non,0
 chemises communes unies,,,non,0
@@ -4452,6 +4470,7 @@ colorant et verdet,,,non,0
 colorant et vert-de-gris,,,oui,0
 cols,,,non,0
 colza navettes et autres,,,non,0
+combustible,,,non,
 comestibles,,,non,0
 comestibles saindoux,,,non,0
 commode,,,non,0
@@ -4490,6 +4509,7 @@ confitures,Hors Canada,,non,1
 confitures à l'eau-de-vie,,,non,0
 confitures de cerise,,,non,0
 confitures de Chine,,,non,1
+confitures de France,,,non,
 confitures de l'étranger,,,non,0
 confitures de miel,,,non,0
 confitures de sèche,Hors Canada,,oui,0
@@ -4752,9 +4772,11 @@ corps d'arbre en dessous de 20 pieds,,,non,0
 corps d'arbre réduits en pieds de gittes,,,non,0
 corps de femme,,,non,0
 corps de fille,,,non,0
-corps de jupe,,,non,0
+corps de jupe,,,oui,0
+corps de jupes,,,non,
 corps piqué,,,non,0
-corps piqué de jupe,,,non,0
+corps piqué de jupe,,,oui,0
+corps piqué de jupes,,,non,
 cors de chasse,,,non,0
 cors de chasse et trompettes,,,non,0
 cors serinettes serpent trompettes,,,non,0
@@ -4854,6 +4876,7 @@ cotonis rayé,,,non,0
 cotonnade,,,oui,0
 cotonnades,,,non,0
 cotonnades à peu de soie,,,non,0
+cotonnades bleues,,,non,
 cotonnades châles,,,non,0
 cotonné de coton,,,non,0
 cotonnée,,,non,0
@@ -4928,6 +4951,7 @@ courtepointe d'indienne,,,non,0
 courtepointe de coton,,,non,0
 courtepointe de coton d'Angleterre,,,non,0
 courtepointe de toile,,,non,0
+courtepointe de toile peinte,,,non,
 courtepointes jupes et vestes de toile peinte,,,non,0
 coussin à faire dentelle,,,non,0
 coussin d'espars,,,non,0
@@ -5305,7 +5329,8 @@ cuirs dorés,,,non,0
 cuirs dorés vieux,,,non,0
 cuirs en basanes,,,non,0
 cuirs en basannes,,,oui,0
-cuirs en bassins,,,non,0
+cuirs en bassin,,,non,
+cuirs en bassins,,,oui,0
 cuirs en blanc,,,non,0
 cuirs en bœuf verts,,,non,1
 cuirs en croûte,,,non,0
@@ -5428,6 +5453,7 @@ cuivre et airain ouvré,,,non,0
 cuivre et bronze et laiton,,,non,0
 cuivre et pièces de cuivre,,,non,0
 cuivre et potin gris,,,non,0
+cuivre fer plomb,,,non,
 cuivre forgé,,,non,0
 cuivre jaune,,,non,1
 cuivre jaune avec calamine,,,non,0
@@ -5526,6 +5552,7 @@ dais pour église,,,non,0
 dalles,,,non,0
 damas,,,non,1
 Damas,,,oui,0
+damas à carreaux mandarine,,,non,
 damas à frange d'argent,,,non,0
 Damas à frange d'argent,,,oui,0
 damas broché et rayé,,,non,0
@@ -5641,9 +5668,11 @@ dentelle d'or et d'argent faux,,,non,0
 dentelle d'or et d'argent fin,,,non,0
 dentelle d'or faux,,,non,0
 dentelle d'or fin,,,non,0
+dentelle de Bretagne,,,non,
 dentelle de Caen,,,non,0
 dentelle de chanvre et de lin,,,non,0
 dentelle de coton et blonde de coton,,,non,0
+dentelle de Dieppe,,,non,
 dentelle de fer,,,non,0
 dentelle de fil,,,non,0
 dentelle de fil 2 lignes,,,non,0
@@ -5798,7 +5827,8 @@ douelles à barriques,,,non,0
 douelles à barriques 3m 1/8,,,non,0
 douelles à barriques vieilles,,,non,0
 douelles à bottes,,,non,0
-douelles à busses,,,non,0
+douelles à buses,,,non,
+douelles à busses,,,oui,0
 douelles à cave,,,non,0
 douelles à cuve,,,non,0
 douelles à fond,,,non,0
@@ -5818,6 +5848,7 @@ douelles ganivelles,,,non,0
 douelles pour barrique,,,non,0
 douelles pour fonds,,,non,0
 douelles vieilles,,,non,0
+douelles vieilles à barriques,,,non,
 doutis,,,non,0
 doutis blancs,,,non,0
 doutis bleus,,,non,0
@@ -6480,6 +6511,7 @@ echalote,,,oui,0
 écharpe et gaze,,,non,0
 échaussillons,,,non,0
 échelles,,,non,0
+échelles anglaises,,,non,
 échelles de 8 pieds,,,non,0
 échelles de bois de 10 pieds,,,non,0
 échelles de route,,,non,0
@@ -6677,6 +6709,7 @@ entenolles,,,non,0
 épée montée en argent,,,non,0
 éperons,,,non,0
 éperons et étriers,,,non,0
+éperviers,,,non,
 épice,,,non,0
 épice de Curons,,,non,0
 épicerie,Hors Canada,,non,1
@@ -6816,6 +6849,7 @@ espars pour construction,,,non,0
 espars simple,,,non,0
 espars simples,,,non,0
 espèce monnayée ???,,,non,0
+espèces,,,non,
 espingole,,,non,0
 esponton,,,non,0
 esprit,,,non,0
@@ -7004,6 +7038,7 @@ etocs de fer,,,non,0
 étoffe à peu,,,non,0
 étoffe à peu de soie,,,non,0
 étoffe au ??? de soie,,,non,0
+étoffe au dessus du sixième de soie,,,non,
 étoffe au filoselle,,,non,0
 étoffe au poil sorge de Rome,,,non,0
 étoffe au quart,,,non,0
@@ -7229,6 +7264,7 @@ etocs de fer,,,non,0
 étoffe de soie en drap,,,non,0
 étoffe de soie en fleurs,,,non,0
 étoffe de soie en laine,,,non,0
+étoffe de soie en or et argent,,,non,
 étoffe de soie en velours,,,non,0
 étoffe de soie et ???,,,non,0
 étoffe de soie et de poil,,,non,0
@@ -7236,6 +7272,7 @@ etocs de fer,,,non,0
 étoffe de soie et de velours de Gênes,,,non,0
 étoffe de soie et galets,,,non,0
 étoffe de soie et prunelle de laine,,,non,0
+étoffe de soie et ruban,,,non,
 étoffe de soie et soierie,,,non,0
 étoffe de soie fabriquée,,,non,0
 étoffe de soie façonnée,,,non,0
@@ -7567,6 +7604,7 @@ fauteuils de cuir de Russie,,,non,0
 fauteuils de jonc,,,non,0
 fauteuils de paille,,,non,0
 fauteuils de passerame avec leurs harnais,,,non,0
+fauteuils de rotin,,,non,
 fauteuils de tapisserie,,,non,0
 fauteuils de tapisserie petit point,,,non,0
 fauteuils et chaises de canne,,,non,0
@@ -7618,6 +7656,7 @@ fer coulé ou de fonte,,,non,0
 fer courbe,,,non,0
 fer cullière,,,oui,0
 fer d'Espagne,,,non,0
+fer de captifs,,,non,
 fer de charrues,,,non,0
 fer de fonte,,,non,1
 fer de fonte en gueuse,,,non,0
@@ -7853,6 +7892,7 @@ fichus brodés de soie en couleur,,,non,0
 fichus de gaze de soie,,,non,0
 fichus de soie,,,non,0
 fichus de soie des Indes,,,non,0
+fichus divers,,,non,
 fichus rayés,,,non,0
 fideau,,,non,0
 fifres et flageolets,,,non,0
@@ -8120,6 +8160,7 @@ fil de laiton poli pour instrument,,,non,0
 fil de laiton pour cordes d'instrument,,,non,0
 fil de latez,,,non,0
 fil de layette,,,non,0
+fil de lignes,,,non,
 fil de lin,,,non,0
 fil de lin à coudre,,,non,0
 fil de lin bis,,,non,0
@@ -8362,7 +8403,8 @@ fléaux à poids de fer,,,non,0
 fléaux de balance,,,non,0
 fléaux de balance de fer,,,non,0
 fléaux de fer,,,non,0
-fléaux de fer et leurs bassins,,,non,0
+fléaux de fer et leur bassin,,,non,
+fléaux de fer et leurs bassins,,,oui,0
 fléaux de souffre,,,non,0
 fléaux et balance,,,non,0
 fléaux et poids en fer,,,non,0
@@ -8614,6 +8656,7 @@ fromage d'Auvergne,,,non,0
 fromage d'herbes,,,non,0
 fromage d'Irlande,,,non,0
 fromage de Brie,,,non,0
+fromage de Chassenay,,,non,
 fromage de Chester,,,non,0
 fromage de chèvre,,,non,0
 fromage de Comté,,,non,0
@@ -9802,10 +9845,12 @@ guêtres de cuir,,,non,0
 guêtres de toile,,,non,0
 gueuse de fer,,,non,0
 guftas,,,non,0
+guidive des prises,,,non,
+guigan de Bengale,,,non,
 guignolet en ratafia,,,non,0
 guignolet en ratafia de cerise,,,non,0
 guildive,Hors Canada,antilles,non,1
-guildive de prise,,,non,0
+guildive de prise,,,oui,0
 guin ???,,,non,0
 guina,,,non,0
 guincastafs,,,non,0
@@ -9849,11 +9894,13 @@ guingan de Madras,,,non,0
 guingan de Masulipatan,,,non,0
 guingan de Pondichéry,,,non,0
 guingan de Pondichéry et de Madras,,,non,0
-guingan de prises,,,non,0
+guingan de prises,,,oui,0
 guingan de Rouen,,,non,0
 guingan des Indes,,,non,0
+guingan des prises,,,non,
 guingan du Bengale,,,non,0
 guingan en Madras,,,non,0
+guingan peint,,,non,
 guingan pièces,,,non,0
 guinimos,,,non,0
 guipon,,,non,0
@@ -9869,6 +9916,7 @@ habillement brodé d'or,,,oui,0
 habillement brodé de soie,,,oui,0
 habillement d'argent et d'or,,,oui,0
 habillement d'or,,,oui,0
+habillement de drap noir,,,non,
 habillement de nègre,,,oui,0
 habillement de nègre en étoffe,,,oui,0
 habillement de soie,,,oui,0
@@ -10001,7 +10049,7 @@ harengs frais et merlan frais,,,non,0
 harengs fumés,,,non,0
 harengs marinés et salés,,,non,0
 harengs marinés et salés et saurs,,,non,0
-harengs pecks,,,non,0
+harengs pecks,,,oui,0
 harengs pecs,,,non,0
 harengs salés,,,non,1
 harengs salés et sardines salées,,,non,0
@@ -10136,6 +10184,7 @@ houblon,,,non,0
 houes,,,non,0
 houes de fer,,,non,0
 houes et serpes,,,non,0
+houes haches et serpes,,,non,
 houille,,,non,0
 houille frontières,,,non,0
 houille par Ardennes et Meuse,,,non,0
@@ -10455,6 +10504,7 @@ indigo des Îles françaises,,,non,0
 indigo des Indes,,,non,0
 indigo du Guatemala,,,oui,0
 indigo en gr ???,,,non,0
+indigo et sucre,,,non,
 indigo floré,,,non,0
 indigo guatimalo,,,non,0
 indigo inde-plate boules de bleu,,,non,0
@@ -10668,6 +10718,7 @@ jupes piquées,,,non,0
 jupons,,,non,0
 jupons brodés,,,non,0
 jupons de basin brodés,,,non,0
+jupons de Pékin brodé en soie or et argent,,,non,
 jupons de satin,,,non,0
 jupons de taffetas,,,non,0
 jupons de toile,,,non,0
@@ -11567,6 +11618,7 @@ manne d'osier,,,non,0
 manne de Calabre,,,non,0
 manne fine,,,non,0
 manne vide,,,non,0
+mannequins,,,non,
 manœuvre en grelin,,,non,0
 manoudis,,,non,0
 manouf,,,non,0
@@ -11576,6 +11628,7 @@ manteaux à nègres,,,non,0
 manteaux courts,,,non,0
 manteaux d'écarlate,,,non,0
 manteaux d'écarlate brodés d'or et d'argent,,,non,0
+manteaux de drap,,,non,
 manteaux galonnés,,,non,0
 manteaux vieux,,,non,0
 mantelet,,,non,0
@@ -11649,12 +11702,15 @@ marchandises de Paris,,,non,0
 marchandises de retour,,,non,1
 marchandises de retour faute de vente contrebordée,Intraitable,,oui,0
 marchandises des Indes,,,non,0
+marchandises des Indes en petits articles,,,non,
 marchandises des prises,,,non,0
 marchandises diverses venant de l'étranger pour être réexportées aux colonies françaises principalement en toile Guinée viande salée barres de fers armes etc.,,,oui,0
 marchandises dont le plus fort article n'excède pas 10000 livres,,,non,0
 marchandises en articles de moindre importance,,,non,1
 marchandises exportées par les port et pays du royaume traités comme étrangers,,,non,0
-marchandises mêlées de prises anglaises,,,non,0
+marchandises hors espèces,,,non,
+marchandises mêlées de prises anglaises,,,oui,0
+marchandises mêlées des prises anglaises,,,non,
 marchandises non classifiées,,,non,0
 marchandises prohibées,,,non,1
 marchandises sèches,,,non,0
@@ -11753,7 +11809,7 @@ matelas de lit,,,non,0
 matelas de toile de coton et de fil,,,non,0
 matelas vieux,,,non,0
 mâtereaux,,,non,0
-mâtereaux 30 pieds,,,non,0
+mâtereaux 30 pieds,,,oui,0
 mâtereaux à barques,,,non,0
 mâtereaux communs de 30 pieds,,,non,0
 mâtereaux d'acajou de 7 à 8 pieds,Hors Canada,tropiques,non,1
@@ -11763,6 +11819,7 @@ mâtereaux de 12 pieds,,,non,0
 mâtereaux de 14 palmes,,,non,0
 mâtereaux de 14 pieds,,,non,0
 mâtereaux de 15 à 20 pieds,,,non,0
+mâtereaux de 16 à 18 pieds,,,non,
 mâtereaux de 16 pieds,,,non,0
 mâtereaux de 18 à 19 pieds,,,non,0
 mâtereaux de 19 pieds,,,non,0
@@ -11784,6 +11841,7 @@ mâtereaux de 26 à 30 pieds,,,non,0
 mâtereaux de 27 pieds,,,non,0
 mâtereaux de 28 à 30 pieds,,,non,0
 mâtereaux de 28 pieds,,,non,0
+mâtereaux de 30 à 32 pieds,,,non,
 mâtereaux de 30 à 34 pieds,,,non,0
 mâtereaux de 30 à 35 pieds,,,non,0
 mâtereaux de 30 à 36 pieds,,,non,0
@@ -11794,8 +11852,10 @@ mâtereaux de 32 à 34 pieds,,,non,0
 mâtereaux de 32 pieds,,,non,0
 mâtereaux de 33 pieds,,,non,0
 mâtereaux de 34 à 36 pieds,,,non,0
+mâtereaux de 34 pieds,,,non,
 mâtereaux de 35 à 37 pieds,,,non,0
 mâtereaux de 35 à 40 pieds,,,non,0
+mâtereaux de 35 à 45 pieds,,,non,
 mâtereaux de 35 pieds,,,non,0
 mâtereaux de 36 à 38 pieds,,,non,0
 mâtereaux de 36 à 45 pieds,,,non,0
@@ -11871,6 +11931,7 @@ mâts de 33 à 43 pieds,,,non,0
 mâts de 35 à 40 pieds,,,non,0
 mâts de 35 à 45 pieds,,,non,0
 mâts de 36 à 38 pieds,,,non,0
+mâts de 38 à 40 pieds à barque,,,non,
 mâts de 39 à 40 pieds,,,non,0
 mâts de 4 paumes,,,non,0
 mâts de 40 à 45 pieds,,,non,0
@@ -11929,10 +11990,12 @@ mâts de navire de 12 palmes,,,non,0
 mâts de navire de 12 paumes de diamètre,,,non,0
 mâts de navire de 12 paumes de grosseur,,,oui,0
 mâts de navire de 18 pieds,,,non,0
+mâts de navire de 22 pieds,,,non,
 mâts de navire de 24 pieds,,,non,0
 mâts de navire de 25 pieds,,,non,0
 mâts de navire de 27 à 30 pieds,,,non,0
 mâts de navire de 27 pieds,,,non,0
+mâts de navire de 28 à 31 pieds,,,non,
 mâts de navire de 30 pieds,,,non,0
 mâts de navire de 34 pieds,,,non,0
 mâts de navire de 35 pieds,,,non,0
@@ -12067,6 +12130,7 @@ mâts en dessous de 8 paumes,,,non,0
 mâts espars,,,non,0
 mâts et espars de bois,,,non,0
 mâts et matériaux de bois,,,non,0
+mats et planches de bois,,,non,
 mâts façonnés,,,non,0
 mâts grands,,,non,0
 mâts gros,,,non,0
@@ -12078,6 +12142,10 @@ mâts petits,,,non,0
 mâts pour galère,,,non,0
 mâts verts de 45 pieds,,,non,0
 matu,,,non,0
+mâtures complète d'un vaisseau,,,non,
+mâtures d'un vaisseau consistante en 56 pièces,,,non,
+mâtures de vaisseau,,,non,
+mâtures de vaisseau complète de 21 pièces chaque,,,non,
 maugrebine,,,non,0
 maune,,,non,0
 maurelle,,,non,0
@@ -12154,6 +12222,7 @@ mercerie de bois,,,non,0
 mercerie de cordonnier à laine,,,non,0
 mercerie de cuivre,,,non,0
 mercerie de Nuremberg,,,non,0
+mercerie de quincaille,,,non,
 mercerie de renvoi,,,non,1
 mercerie en lignets et hameçons,,,non,0
 mercerie en peigne d'ivoire,,,non,0
@@ -12204,7 +12273,9 @@ merrains à barriques et fonçaille,,,non,0
 merrains à bœuf,,,non,0
 merrains à bottes,,,non,0
 merrains à boucaud,,,non,0
-merrains à busses,,,non,0
+merrains à buses,,,non,
+merrains à buses douelles,,,non,
+merrains à busses,,,oui,0
 merrains à fonçaille,,,non,0
 merrains à fond,,,non,0
 merrains à fonds,,,non,0
@@ -12225,6 +12296,7 @@ merrains autres que de chêne,,,non,0
 merrains autres que de chêne de toutes dimensions à la valeur,,,non,0
 merrains autres que de chêne de toutes dimensions au nombre,,,non,0
 merrains barillage,,,non,0
+merrains barriques douelles,,,non,
 merrains basique,,,oui,0
 merrains bourdilles,,,non,0
 merrains bourdillons,,,non,0
@@ -12474,6 +12546,7 @@ mobilier,Hors Canada,,non,1
 mobilier vieux,,,non,0
 mocade,,,oui,0
 mode de bœuf,,,non,0
+"mode, peaux, porcelaine, ruban 16 onces",,,non,
 modèle de château de carton,,,non,0
 modèle de plâtre,,,non,0
 modèle de sculpture,,,non,0
@@ -12530,6 +12603,7 @@ monnaies de cuivre de Suède,,,non,0
 monnaies de cuivre jaune,,,non,0
 monnaies de cuivre ouvré,,,non,0
 monnaies de cuivre pur,,,non,0
+monnaies du Portugal,,,non,
 montichon,,,non,0
 montres,,,non,0
 montres d'argent,,,non,0
@@ -12640,7 +12714,9 @@ mouchoirs blancs et bleus,,,non,0
 mouchoirs blancs et teints,,,non,0
 mouchoirs bleus,,,non,0
 mouchoirs brodés,,,non,0
+mouchoirs brodés de soie,,,non,
 mouchoirs communs,,,non,0
+mouchoirs coupés,,,non,
 mouchoirs d'Alep,,,non,0
 mouchoirs d'indienne,,,non,0
 mouchoirs d'organdis,,,non,0
@@ -12838,6 +12914,7 @@ moureaux,,,non,0
 moureaux de bois,,,oui,0
 moureaux de mules,,,non,0
 moureaux de mulets,,,non,0
+mousquetaire,,,non,
 mousquetons,,,non,0
 mousquets,,,non,0
 mousse,,,non,0
@@ -12858,6 +12935,7 @@ mousselines bordée,,,oui,0
 mousselines brochée de coton,,,non,0
 mousselines brodée de coton,,,non,0
 mousselines brodées,,,non,0
+mousselines brodées en soie de couleur,,,non,
 mousselines de coton,,,non,0
 mousselines de coton et des Indes,,,non,0
 mousselines de coton et nankin,,,non,1
@@ -12870,6 +12948,7 @@ mousselines de la Compagnie,,,non,0
 mousselines de Suisse et siamoise à ligne de soie,,,non,0
 mousselines de Zurich,,,non,0
 mousselines des Indes,,,non,1
+mousselines et mouchoirs,,,non,
 mousselines et mousselinette de coton,,,non,0
 mousselines et Nankin et toile de coton,Hors Canada,Asie,oui,0
 mousselines et toile de coton,,,non,1
@@ -13019,6 +13098,7 @@ nattes et tresses fines,,,oui,0
 nattes et tresses grossières,,,oui,0
 nattes fines,,,non,0
 nattes moyennes,,,non,0
+nattes petites,,,non,
 nattes pour grenier,,,non,0
 nattes rondes,,,non,0
 nature de baleine,,,non,0
@@ -13592,6 +13672,7 @@ ouvrages de métal,,,non,0
 ouvrages de métal frappé et moulu,,,non,0
 ouvrages de mi soie,,,non,0
 ouvrages de mode,,,oui,0
+ouvrages de mode et porcelaine,,,non,
 ouvrages de modes,,,non,0
 ouvrages de paille,,,non,0
 ouvrages de paille pour chapeaux,,,non,0
@@ -14082,6 +14163,7 @@ passementerie de chanvre de laine blanche et de lin,,,non,0
 passementerie de chanvre de laine écrue et de lin,,,non,0
 passementerie de chanvre de laine teinte et de lin,,,non,0
 passementerie de coton,,,non,0
+passementerie de coton et ruban de coton,,,non,
 passementerie de crin,,,non,0
 passementerie de fil,,,non,0
 passementerie de fil de chanvre et de lin bis écru herbé ou mélangé,,,oui,0
@@ -14097,6 +14179,7 @@ passementerie de fil et laine,,,non,0
 passementerie de fil et soie,,,non,0
 passementerie de fil laine et poil,,,non,0
 passementerie de filoselle,,,non,0
+passementerie de fleuret et ruban de fleuret,,,non,
 passementerie de laine,,,non,0
 passementerie de laine blanche écrue pure,,,non,0
 passementerie de laine écrue pure,,,non,0
@@ -14114,7 +14197,7 @@ passementerie de soie pure,,,non,0
 passementerie divers,,,non,0
 passementerie en frange de fil,,,non,0
 passementerie en soie,,,non,0
-passementerie et ruban de coton,,,non,0
+passementerie et ruban de coton,,,oui,0
 passementerie et ruban de fleuret,,,non,0
 passementerie et ruban de laine mêlée de fil,,,non,0
 passementerie et ruban de laine teinte,,,non,0
@@ -14789,6 +14872,8 @@ Pékin à grande fleur,,,non,0
 Pékin broché,,,non,0
 Pékin broché et rayé,,,non,0
 Pékin brodé,,,non,0
+Pékin mi-soie,,,non,
+Pékin non peint,,,non,
 Pékin peint,,,non,0
 Pékin peint et rayé,,,non,0
 Pékin petit,,,non,1
@@ -14834,9 +14919,11 @@ pelleterie crue,,,non,1
 pelleterie crue en poil,,,non,0
 pelleterie cuir,,,non,0
 pelleterie d'ours,,,non,0
-pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,,,non,0
+pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,,,oui,0
+pelleterie de blaireaux onces léopards panthères tigres lions loups ordinaires zèbres cougars,,,non,
 pelleterie de castor,,,non,0
-pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,,,non,0
+pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,,,oui,0
+pelleterie de castors castorins chameaux chèvres vigognes lamas loutres,,,non,
 pelleterie de chat,,,non,0
 pelleterie de Gray,,,non,0
 pelleterie de lapin et de lièvre,,,non,0
@@ -14863,7 +14950,8 @@ peluches de bois,,,non,0
 peluches de coton,,,non,0
 peluches de laine,,,non,0
 peluches et panne,,,non,0
-peluchon des prises,,,non,0
+peluchon de prises,,,non,
+peluchon des prises,,,oui,0
 pelure de cacao,,,non,0
 pendant d'oreille,,,non,0
 pendant d'oreille de grena,,,non,0
@@ -15360,6 +15448,7 @@ planches d'aunis,Hors Canada,,non,1
 planches d'orme,,,non,0
 planches d'orme de 80 pieds de longueur sur 3 pouces d'épaisseur,,,non,0
 planches de 12 à 18 pieds,,,non,0
+planches de 15 à 16 pieds,,,non,
 planches de 18 pieds,,,non,0
 planches de 20 pied sur 1 pouce,,,non,0
 planches de 24 à 30 pieds,,,non,0
@@ -15405,10 +15494,13 @@ planches de chêne de 10 à 11 pieds,,,non,0
 planches de chêne de 10 à 12 pieds,,,non,0
 planches de chêne de 10 à 12 pieds et de 1 pouce d'épaisseur,,,non,0
 planches de chêne de 10 pieds,,,non,0
+"planches de chêne de 10 pieds de long et de 0,75 pouce d'épaisseur",,,non,
 "planches de chêne de 10 pieds et de 0,5 pouces d'épaisseur",,,non,0
-"planches de chêne de 10 pieds et de 0,75 pouces d'épaisseur",,,non,0
+"planches de chêne de 10 pieds et de 0,75 pouces d'épaisseur",,,oui,0
+planches de chêne de 11 à 12 pieds,,,non,
 planches de chêne de 11 pieds,,,non,0
-planches de chêne de 11 pieds et de 2 pouces d'épaisseur,,,non,0
+planches de chêne de 11 pieds de long et de 2 pouces d'épaisseur,,,non,
+planches de chêne de 11 pieds et de 2 pouces d'épaisseur,,,oui,0
 planches de chêne de 12 pieds,,,non,0
 planches de chêne de 13 pieds,,,non,0
 planches de chêne de 14 pieds,,,non,0
@@ -15416,8 +15508,10 @@ planches de chêne de 15 à 20 pieds,,,non,0
 planches de chêne de 15 pieds,,,non,0
 planches de chêne de 16 pieds,,,non,0
 planches de chêne de 18 pieds,,,non,0
-Planches de chêne de 18 pieds et de 1 pouce d'épaisseur,,,non,0
-"Planches de chêne de 19,5 pieds et de 2 pouces d'épaisseur",,,non,0
+planches de chêne de 18 pieds de long et de 1 pouce d'épaisseur,,,non,
+Planches de chêne de 18 pieds et de 1 pouce d'épaisseur,,,oui,0
+"planches de chêne de 19,5 pieds de long et de 2 pouces d'épaisseur",,,non,
+"Planches de chêne de 19,5 pieds et de 2 pouces d'épaisseur",,,oui,0
 planches de chêne de 2 pouces et en dessus,,,non,0
 "planches de chêne de 2,5 pouces",,,non,0
 planches de chêne de 20 pieds,,,non,0
@@ -15440,11 +15534,13 @@ planches de chêne de 5 pouces,,,non,0
 planches de chêne de 6 pieds,,,non,0
 planches de chêne de 7 à 8 pieds,,,non,0
 planches de chêne de 7 pieds,,,non,0
+planches de chêne de 8 à 9 pieds,,,non,
 planches de chêne de 8 pieds,,,non,0
 planches de chêne de 8 pieds et demi,,,non,0
 planches de chêne de 9 à 10 pieds,,,non,0
 planches de chêne de 9 à 12 pieds,,,non,0
 planches de chêne de 9 pieds,,,non,0
+planches de chêne de 9 pieds et demi,,,non,
 planches de chêne de bordage,,,oui,0
 planches de chêne et planches de sapin,,,non,0
 planches de chêne pour bordage,Hors Canada,,non,1
@@ -15479,6 +15575,7 @@ planches de noyer d'un pouce de 1/2,,,non,0
 planches de noyer de 12 pieds,,,non,0
 planches de noyer de 3 pieds,,,non,0
 planches de noyer de 6 pieds,,,non,0
+planches de papier communes,,,non,
 planches de peuplier,,,non,0
 planches de pin,,,non,0
 planches de piphout,,,non,0
@@ -15558,6 +15655,7 @@ planches de sapin 32 à 34 pieds,,,non,0
 planches de sapin 35 pieds,,,non,0
 planches de sapin 36 pieds,,,non,0
 planches de sapin 4 pieds,,,non,0
+planches de sapin 6 à 7 pieds,,,non,
 planches de sapin 6 pieds,,,non,0
 planches de sapin 7 à 11 pieds,,,non,0
 planches de sapin 7 à 8 pieds,,,non,0
@@ -15565,6 +15663,7 @@ planches de sapin 8 à 12 pieds,,,non,0
 planches de sapin 8 pieds,,,non,0
 planches de sapin 9 à 10 pieds,,,non,0
 planches de sapin 9 à 10 pieds à 15 sous,,,non,0
+planches de sapin 9 pieds,,,non,
 planches de sapin au grand compte,,,non,0
 planches de sapin boîtes,,,non,0
 planches de sapin commun,Hors Canada,,non,1
@@ -15864,6 +15963,7 @@ plâtre gris,,,non,0
 plâtre moulu,,,non,0
 plâtre moulu soit préparé,,,non,0
 plats de bois,,,non,0
+plats de faïence,,,non,
 plats de fer,,,non,0
 plats de sapin,,,non,0
 plattile,,,oui,0
@@ -15871,7 +15971,7 @@ plawens,,,non,0
 plawens ou codde,,,non,0
 pléd,,,oui,0
 plesny,,,non,0
-plètes de 21 pièces chaque,,,non,0
+plètes de 21 pièces chaque,,,oui,0
 pleviers,,,non,0
 plies sèches,,,non,0
 ploc,,,oui,0
@@ -16165,6 +16265,7 @@ poivre dit maniquette,,,non,0
 poivre doux,,,non,0
 poivre en grabeau,,,non,0
 poivre en grains,,,non,0
+poivre en poudre,,,non,
 poivre en poussière,,,non,0
 poivre giroflé,Hors Canada,,non,1
 poivre léger,,,non,0
@@ -16235,6 +16336,7 @@ pompons,,,non,0
 pompons d'argent et de soie,,,non,0
 poncire,,,non,0
 ponçure de pin,,,non,0
+Pondichery,,,non,
 pondre à tirer,,,oui,0
 popeline,,,non,0
 popeline de coton et soie,,,non,0
@@ -16248,6 +16350,7 @@ porcelaine à la valeur,,,non,0
 porcelaine commune,,,non,0
 porcelaine commune et fine,,,non,0
 porcelaine contrefaite,,,non,0
+porcelaine de Chine,,,non,
 porcelaine de Hollande,,,non,0
 porcelaine de Saint-Cloud,,,non,0
 porcelaine de Saxe,,,non,0
@@ -16903,8 +17006,9 @@ rediné,,,non,0
 redingotes,,,non,0
 redingotes d'Angleterre et de drap,,,non,0
 redingotes de drap,,,non,0
-redingotes de prise,,,non,0
+redingotes de prise,,,oui,0
 redingotes de ratine,,,non,0
+redingotes des prises,,,non,
 redon,,,non,0
 redou,,,oui,0
 registres,,,non,0
@@ -16973,7 +17077,8 @@ rhubarbe du Levant,,,non,0
 rhubarbe et mechoacam,,,non,1
 rhubarbe fil,,,non,0
 rhum,,,non,1
-rhum de prise,,,non,0
+rhum de prise,,,oui,0
+rhum des prises,,,non,
 rhum et sirop fin,,,non,0
 rhum et tafia,Hors Canada,antilles,non,1
 rhum et tafia étranger,,,non,0
@@ -16999,8 +17104,10 @@ robes de chambre de la Chine,,,non,0
 robes de chambre de Pékin brodé de soie,,,non,0
 robes de chambre de soie,,,non,1
 robes de femme,,,non,0
+robes de satin brodée,,,non,
 robes de taffetas,,,non,0
 robes de toile peinte,,,non,0
+robes et jupes de satin,,,non,
 robes fourrées,,,non,0
 robine,,,oui,0
 robinets,,,non,0
@@ -17320,6 +17427,7 @@ sacs à café vides,,,non,0
 sacs à café vieux,,,non,0
 sacs à poudre neufs,,,non,0
 sacs ayant servi et de toile,,,non,0
+sacs de bois et cuir,,,non,
 sacs de lin,,,non,0
 sacs de peau d'ours,,,non,0
 sacs de poluard,,,non,0
@@ -17327,6 +17435,7 @@ sacs de toile,,,non,0
 sacs de toile de halle,,,non,0
 sacs de toile vides,,,non,0
 sacs de toile vieux,,,non,0
+sacs en paquets,,,non,
 sacs en toile de chanvre,,,non,0
 sacs gros,,,non,0
 sacs vides,,,non,0
@@ -17483,6 +17592,8 @@ satin brodé,,,non,0
 satin brodé couleur de paille,,,non,1
 satin brodé de la Chine,,,non,0
 satin brodé en or,,,non,0
+satin brodé en soie de couleur,,,non,
+satin brodé en soie et or,,,non,
 satin brodé lit complet,,,non,0
 satin brodé morceaux,,,non,0
 satin brodé tapis,,,non,0
@@ -17621,6 +17732,7 @@ secrétaire d'acajou,,,non,0
 secrétaire de noyer,,,non,0
 sege de Saint-Louis,,,non,0
 segrin,,,non,0
+seigle,,,non,
 seil de bois,,,non,0
 seil de grain,,,non,0
 seil de grains,,,oui,0
@@ -17872,6 +17984,7 @@ serge imprimée aune,,,non,0
 serge Minorque,,,non,0
 serge sergette,,,non,0
 serge teinte,,,non,0
+serge verte,,,non,
 sergette,,,non,0
 sergette de laine,,,non,0
 sergette de Montauban,,,non,0
@@ -18116,6 +18229,7 @@ soie par Collonges et Strasbourg,,,non,0
 soie par Marseille,,,non,0
 soie plate,,,non,0
 soie siamoise,,,non,0
+soie tamis,,,non,
 soie tanier,,,non,1
 soie tapis,,,non,0
 soie teinte,,,non,0
@@ -18588,6 +18702,7 @@ tabac en côtes,,,non,0
 tabac en côtes et en feuilles,,,non,1
 tabac en côtes et en feuilles des entrepôts pour la régie,,,non,0
 tabac en côtes et en feuilles pour la régie,,,non,0
+tabac en feuille,,,non,
 tabac en feuilles,,,non,0
 tabac en feuilles de la Louisiane,Exclusivement Canada,,non,1
 tabac en feuilles de Virginie,,,non,0
@@ -18737,6 +18852,7 @@ tables jacinthes,,,non,0
 tables peintes,,,non,0
 tables vernies,,,non,0
 tabletterie,,,non,0
+tabletterie et porcelaine,,,non,
 tablettes anisées,,,non,0
 tablettes d'ardoise,,,non,0
 tablier,,,non,0
@@ -18765,6 +18881,7 @@ taffetas de Léon,,,non,0
 taffetas de Lyon,,,non,0
 taffetas de Pékin,,,non,0
 taffetas de soie,,,non,1
+taffetas foulard,,,non,
 taffetas foulas,,,non,0
 taffetas foutas,,,oui,0
 taffetas lustré,,,non,0
@@ -18841,7 +18958,9 @@ tapis de palampoux,,,non,0
 tapis de Perse,,,non,0
 tapis de pieds,,,non,0
 tapis de pure laine,,,non,0
+tapis de Rouen,,,non,
 tapis de satin,,,non,0
+tapis de satin blanc brodé,,,non,
 tapis de satin brodé,,,non,0
 tapis de soie,,,non,1
 tapis de table,,,non,0
@@ -18860,6 +18979,7 @@ tapis fabrique de Tournai,,,non,0
 tapis fil teint,,,non,0
 tapis indienne,,,non,0
 tapis peints,,,non,0
+tapis peints brodés,,,non,
 tapis vieux de renvoi,,,non,0
 tapisserie,,,non,0
 tapisserie à l'Aubusson,,,non,0
@@ -18912,6 +19032,7 @@ tapisserie hachée et de laine,,,non,0
 tapisserie peinte,,,non,0
 tapisserie peinte ??? toile,,,non,0
 tapisserie peinte de Hongrie,,,non,0
+tapisserie peinte sur coutil,,,non,
 tapisserie peinte tentures,,,non,0
 tapisserie pièce,,,non,0
 tapisserie point de Hongrie,,,non,0
@@ -18969,6 +19090,7 @@ taureaux et vaches,,,non,0
 tavelle,,,non,0
 tavelle de fil et de laine,,,non,0
 tavelle de laine,,,non,0
+tavelle passement,,,non,
 tayolles,,,non,0
 tayolles de coton,,,non,0
 tayolles de coton et de fil,,,non,0
@@ -19124,6 +19246,7 @@ terrerie,,,non,0
 terrerie blanche,,,non,0
 terrier de fer,,,non,0
 terrine de grès,,,non,0
+tête de girofle,,,oui,
 têtes à perruques,,,non,0
 têtes brodées et de basin,,,non,0
 tetes de cabillaud,,,oui,0
@@ -19290,6 +19413,7 @@ toile à tapisser,,,non,0
 toile à voile,,,non,0
 toile à voile commune,,,non,0
 toile à voile de 24 aunes,,,non,0
+toile à voile étrangère,,,non,
 toile abas,,,non,0
 toile abat,,,non,0
 toile ajamis,,,non,0
@@ -19297,7 +19421,8 @@ toile alanea,,,non,0
 toile amant,,,non,0
 toile anascotes,,,non,0
 toile anglaise,,,non,0
-toile anglaise de prise,,,non,0
+toile anglaise de prise,,,oui,0
+toile anglaise des prises,,,non,
 toile Antioche,,,non,0
 toile apprêtée de chanvre et de lin écrue de 13 à 20 fils,,,non,0
 toile apprêtée de chanvre et de lin écrue de 20 fils et au-dessus,,,non,0
@@ -20018,6 +20143,7 @@ toile de lin toilette,,,non,0
 toile de linet,,,non,0
 toile de linge de tables,,,non,0
 toile de linge de tables et à serviettes,,,non,0
+toile de linge vieux,,,non,
 toile de lingerie,,,non,0
 toile de linon,,,non,0
 toile de linon de Saint-Quentin,,,non,0
@@ -20054,7 +20180,7 @@ toile de Pontigny,,,non,0
 toile de Pontivy,,,non,0
 toile de Pontorson,,,non,0
 toile de Pouldavid,,,non,0
-toile de prises,,,non,0
+toile de prises,,,oui,0
 toile de Quintin,,,non,0
 toile de réforme,,,non,0
 toile de retour,,,non,0
@@ -20108,6 +20234,7 @@ toile des Indes imitant celles des Indes,,,non,0
 toile des Indes peinte,,,non,0
 toile des Indes peinte de thille,,,non,0
 toile des Indes Perse du commerce étranger,,,non,0
+toile des prises,,,non,
 toile du Béarn,,,non,0
 toile du Brabant,,,non,0
 toile du cerf,,,non,0
@@ -20343,6 +20470,7 @@ toile Rajutapau,,,oui,0
 toile ralette de Hambourg,,,non,0
 toile ramoise,,,non,0
 toile rayée,,,non,0
+toile rayée coton et soie,,,non,
 toile rayée de couleur,,,non,0
 toile réforme,,,non,0
 toile reploc,,,non,0
@@ -20620,6 +20748,7 @@ urnes de terre,,,non,0
 ustensiles d'imprimerie,,,non,0
 ustensiles de marine,,,non,0
 ustensiles de pêcheur,,,non,0
+ustensiles militaires,,,non,
 vaches,,,non,0
 vaches en vie,,,non,0
 vaches et veaux,,,non,0
@@ -20743,6 +20872,7 @@ verges de fer,,,non,0
 verges de fer et barres de fer et battu de fer,,,non,0
 vergnes,,,non,0
 vergues,,,non,0
+vergues à mâture,,,non,
 vergues de 25 pieds,,,non,0
 vergues de 35 pieds sur 8 pouces de diamètre,,,non,0
 vergues de 40 pieds sur 10 pouces de diamètre,,,non,0
@@ -20754,9 +20884,9 @@ vergues de 53 à 57 pieds,,,non,0
 vergues de fer,,,non,0
 vergues de navire,,,non,0
 vergues de sapin de 44 pieds,,,non,0
-vergues pour mature,,,non,0
+vergues pour mature,,,oui,0
 vergues pour navire,,,non,0
-vergues pour vaisseau,,,non,0
+vergues pour vaisseau,,,oui,0
 verjus,,,non,0
 vermeil et vernis,,,non,0
 vermeille,,,non,0
@@ -20835,6 +20965,7 @@ verres de lanternes,,,non,0
 verres de Lorraine,,,non,0
 verres de mer,,,non,0
 verres de Saint Louis,,,non,0
+verres de toute sorte,,,non,
 verres du Barrois,,,non,0
 verres en ???,,,non,0
 verres en carreaux et à vitre,,,non,0
@@ -21054,6 +21185,7 @@ vin de Côte,,,non,0
 vin de Côte du Rhône,,,non,0
 vin de Côte-Rotie,,,non,0
 vin de Coulanges,,,non,0
+vin de Damazan,,,non,
 vin de Dauphiné,,,non,0
 vin de deviet,,,non,0
 vin de Dijon,,,non,0
