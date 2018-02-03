@@ -288,6 +288,7 @@ amer,not a medical product,non,3,0a
 amer de laine,not a medical product,non,1,6e
 amertis,not a medical product,non,1,6g
 ameublement,not a medical product,non,,
+ameublement de chitte,,non,,
 ami de toilé,not a medical product,non,1,???
 amidon,not a medical product,non,1007,5
 amidon en grains,not a medical product,non,1,2
@@ -488,6 +489,7 @@ armes à feu de traite,not a medical product,non,1,8
 armes à feu et artillerie,not a medical product,non,1,8
 armes à feu et de traite,not a medical product,non,1,8
 armes à feu et fusils,not a medical product,non,,
+armes armureries,,non,,
 armes autres que de guerre à feu,not a medical product,non,1,8
 armes autres que de guerre blanches,not a medical product,non,1,8
 armes blanches,not a medical product,non,187,8
@@ -741,6 +743,7 @@ bandeaux,not a medical product,non,3,9c
 banderoles,not a medical product,non,1,9c
 banderoles de cuir,not a medical product,non,1,6a
 bandes de cabrouets de fer,not a medical product,non,3,7
+bandes de charrettes,,non,,
 bandes de fer,not a medical product,non,1,6j
 bandes de fer à tombereaux,not a medical product,non,1,7
 bandes de roues de fer,not a medical product,non,1,7
@@ -1812,7 +1815,8 @@ bois pour instruments de musique,not a medical product,non,1,6b
 bois pour lattes,not a medical product,non,1,6b
 bois pour lit,not a medical product,non,1,6b
 bois pour mâts,not a medical product,non,1,7
-bois pour mature,not a medical product,non,6,6b
+bois pour mature,not a medical product,oui,6,6b
+bois pour mâtures,,non,,
 bois pour meuble,not a medical product,non,14,6b
 bois pour meubles,not a medical product,non,7,6b
 bois pour palissade,not a medical product,non,1,6b
@@ -1853,6 +1857,7 @@ bois sustek,not a medical product,non,10,2
 bois tes peintes,not a medical product,non,2,6b
 bois tors,not a medical product,non,7,6b
 bois travaillé,not a medical product,non,12,6b
+bois travaillé pour construire une barrique,,non,,
 bois tropique,not a medical product,non,1,2
 bois verni,not a medical product,non,6,6b
 bois vert,not a medical product,non,2,2
@@ -1945,6 +1950,7 @@ bonneterie de coton et bonneterie de soie,not a medical product,non,1,8
 bonneterie de fil,not a medical product,non,86,8
 bonneterie de fil de coton,not a medical product,non,1,8
 bonneterie de fil et bonneterie de coton,not a medical product,non,15,8
+bonneterie de fil et coton en laine,,non,,
 bonneterie de filin d'or,not a medical product,non,3,8
 bonneterie de filoselle,not a medical product,non,23,8
 bonneterie de fleuret,not a medical product,non,11,8
@@ -2001,13 +2007,14 @@ bonnets de paille,not a medical product,non,,
 bonnets de peau,not a medical product,non,1,8
 bonnets de postillons,not a medical product,non,1,8
 bonnets de prêtre,not a medical product,non,1,8
-bonnets de prise,not a medical product,non,,
+bonnets de prise,not a medical product,oui,,
 bonnets de soie,not a medical product,non,14,8
 bonnets de taffetas,not a medical product,non,3,8
 bonnets de toile,not a medical product,non,7,8
 bonnets de toile cirée,not a medical product,non,3,8
 bonnets de velours,not a medical product,non,6,8
 bonnets de velours brodés,not a medical product,non,1,8
+bonnets des prises,,non,,
 bonnets écarlates,not a medical product,non,1,8
 bonnets et chaussettes de coton,not a medical product,non,1,8
 bonnets grossiers de laine,not a medical product,non,1,8
@@ -2021,6 +2028,7 @@ borax raffiné,narrow medical product,non,24,5
 bordage,not a medical product,non,9,7
 bordage de chêne,not a medical product,non,81,7
 bordage de chêne de 15 pieds,not a medical product,non,,
+bordage de chêne de 24 pieds,,non,,
 bordage de chêne de 27 pieds,not a medical product,non,1,7
 bordage de chêne de 30 à 40 pieds,not a medical product,non,,
 bordage de chêne de 30 à 40 pieds à 3 et 4 pouces d'épaisseur,not a medical product,non,,
@@ -2237,6 +2245,7 @@ boutons à pierres fausses par douzaines,not a medical product,non,1,8
 boutons anglais,not a medical product,non,,
 boutons avec dorure et nacre,not a medical product,non,,
 boutons blanc étamés,not a medical product,non,1,8
+boutons blanchis,,non,,
 boutons bloc,not a medical product,non,,
 boutons brodés d'or et d'argent,not a medical product,non,2,8
 boutons brodés de nacre de perles et d'acier,not a medical product,non,1,8
@@ -2419,6 +2428,7 @@ brian,not a medical product,non,1,???
 brides,not a medical product,non,1,7
 brides argentées,not a medical product,non,1,7
 bridons,not a medical product,non,,
+bridons de cuir,,non,,
 brigadis,not a medical product,non,1,???
 brignoles,not a medical product,non,1,0a
 brins à tours,not a medical product,non,1,???
@@ -2703,6 +2713,8 @@ callemande de Lille,not a medical product,non,2,6e
 callemande de poil,not a medical product,non,130,6e
 callemande des prises,not a medical product,non,1,6e
 callemande étroite de laine,not a medical product,non,1,6e
+callemande noire,,non,,
+callemande ordinaire,,non,,
 callemande pièces de 30 aunes,not a medical product,non,,
 calmotte,not a medical product,non,1,???
 calotte,not a medical product,non,1,8
@@ -2862,6 +2874,7 @@ cannetilles d'argent et d'or,not a medical product,non,,
 cannetilles d'or faux,not a medical product,non,,
 cannette de grès et de terre,not a medical product,non,1,6k
 cannettes,not a medical product,non,7,6k
+cannettes à faïence,,non,,
 cannettes d'étain,not a medical product,non,12,6j
 cannettes de ???,not a medical product,non,1,9c
 cannettes de faïence,not a medical product,non,2,6k
@@ -2892,6 +2905,7 @@ canons de fer de 18 livres,not a medical product,non,,
 canons de fer de 2 livres,not a medical product,non,1,8
 canons de fer de 3 à 4 livres,not a medical product,non,1,8
 canons de fer de 3 livres,not a medical product,non,1,8
+canons de fer de 3 livres de balle,,non,,
 canons de fer de 4 livres,not a medical product,non,4,8
 canons de fer de 6 livres,not a medical product,non,3,8
 canons de fer de 8 livres,not a medical product,non,1,8
@@ -2942,6 +2956,7 @@ capotes de marrègue,not a medical product,non,1,8
 capotes et chemises casaques,not a medical product,non,1,8
 capots,not a medical product,non,116,8
 capots (draps),not a medical product,non,1,8
+capots à nègres,,non,,
 capots de laine,not a medical product,non,1,8
 câpres,not a medical product,non,735,0a
 câpres au vinaigre,not a medical product,non,4,0a
@@ -3389,6 +3404,7 @@ chair fraîche et salée,not a medical product,non,15,0a
 chair fumée,not a medical product,non,25,0a
 chair salée,not a medical product,non,857,0a
 chair salée et chair fraîche,not a medical product,non,198,0a
+chair salée ou lard,,non,,
 chaise garnie de cannes,not a medical product,non,,
 chaise garnie de maroquin,not a medical product,non,,
 chaises,not a medical product,non,5,8
@@ -3504,6 +3520,7 @@ chanvre en liens,not a medical product,non,2,2
 chanvre en masses,not a medical product,non,41,2
 chanvre en ramade,not a medical product,non,1,2
 chanvre en rames,not a medical product,non,147,2
+chanvre en rames (c'est à dire du Nord),,non,,
 chanvre en tiges brutes choisie sèches ou vertes,not a medical product,non,2,2
 chanvre en tiges brutes sèches roules ou vertes,not a medical product,non,3,2
 chanvre et lin,not a medical product,non,8,2
@@ -3777,6 +3794,7 @@ chemises bleues,not a medical product,non,2,8
 chemises bretonnes,not a medical product,non,34,8
 chemises bretonnes garnies,not a medical product,non,,
 chemises bretonnes unies,not a medical product,non,,
+chemises brodées,,non,,
 chemises communes,not a medical product,non,61,8
 chemises communes non garnies,not a medical product,non,1,8
 chemises communes unies,not a medical product,non,1,8
@@ -4247,6 +4265,7 @@ coloquinte,narrow medical product,non,137,2
 colorant et verdet,not a medical product,non,1,5
 cols,not a medical product,non,1,8
 colza navettes et autres,not a medical product,non,1,9b
+combustible,,non,,
 comestibles,not a medical product,non,65,0a
 comestibles saindoux,not a medical product,non,3,0a
 commode,not a medical product,non,21,8
@@ -4283,6 +4302,7 @@ confitures,not a medical product,non,1557,0a
 confitures à l'eau-de-vie,not a medical product,non,5,0a
 confitures de cerise,not a medical product,non,1,0a
 confitures de Chine,not a medical product,non,,
+confitures de France,,non,,
 confitures de l'étranger,not a medical product,non,1,0a
 confitures de miel,not a medical product,non,,
 confitures et fruit confit au sucre,not a medical product,non,16,0a
@@ -4514,9 +4534,11 @@ corps d'arbre en dessous de 20 pieds,not a medical product,non,1,2
 corps d'arbre réduits en pieds de gittes,not a medical product,non,1,2
 corps de femme,not a medical product,non,1,9c
 corps de fille,not a medical product,non,,
-corps de jupe,not a medical product,non,4,8
+corps de jupe,not a medical product,oui,4,8
+corps de jupes,,non,,
 corps piqué,not a medical product,non,1,???
-corps piqué de jupe,not a medical product,non,,
+corps piqué de jupe,not a medical product,oui,,
+corps piqué de jupes,,non,,
 cors de chasse,not a medical product,non,4,8
 cors de chasse et trompettes,not a medical product,non,1,8
 cors serinettes serpent trompettes,not a medical product,non,3,8
@@ -4585,6 +4607,7 @@ cotonis,not a medical product,non,,
 cotonis rayé,not a medical product,non,,
 cotonnades,not a medical product,non,42,6g
 cotonnades à peu de soie,not a medical product,non,1,6f
+cotonnades bleues,,non,,
 cotonnades châles,not a medical product,non,11,6g
 cotonné de coton,not a medical product,non,84,6g
 cotonnée,not a medical product,non,102,6g
@@ -4657,6 +4680,7 @@ courtepointe d'indienne,not a medical product,non,1,6g
 courtepointe de coton,not a medical product,non,1,6g
 courtepointe de coton d'Angleterre,not a medical product,non,1,6g
 courtepointe de toile,not a medical product,non,,
+courtepointe de toile peinte,,non,,
 courtepointes jupes et vestes de toile peinte,not a medical product,non,2,9b
 coussin à faire dentelle,not a medical product,non,1,8
 coussin d'espars,not a medical product,non,5,8
@@ -5012,7 +5036,8 @@ cuirs de vache tannés,not a medical product,non,3,6a
 cuirs dorés,not a medical product,non,58,6a
 cuirs dorés vieux,not a medical product,non,1,6a
 cuirs en basanes,not a medical product,non,,
-cuirs en bassins,not a medical product,non,1,6a
+cuirs en bassin,,non,,
+cuirs en bassins,not a medical product,oui,1,6a
 cuirs en blanc,not a medical product,non,2,6a
 cuirs en bœuf verts,not a medical product,non,1,2
 cuirs en croûte,not a medical product,non,,
@@ -5132,6 +5157,7 @@ cuivre et airain ouvré,not a medical product,non,,
 cuivre et bronze et laiton,not a medical product,non,160,6j
 cuivre et pièces de cuivre,not a medical product,non,1,6j
 cuivre et potin gris,not a medical product,non,3,6j
+cuivre fer plomb,,non,,
 cuivre forgé,not a medical product,non,2,6j
 cuivre jaune,not a medical product,non,81,6j
 cuivre jaune avec calamine,not a medical product,non,1,6j
@@ -5227,6 +5253,7 @@ dais ou faux,not a medical product,non,,
 dais pour église,not a medical product,non,1,8
 dalles,not a medical product,non,5,9c
 damas,not a medical product,non,23,6f
+damas à carreaux mandarine,,non,,
 damas à frange d'argent,not a medical product,non,1,6f
 damas broché et rayé,not a medical product,non,,
 damas brodé,not a medical product,non,,
@@ -5324,9 +5351,11 @@ dentelle d'or et d'argent faux,not a medical product,non,1,6i
 dentelle d'or et d'argent fin,not a medical product,non,5,8
 dentelle d'or faux,not a medical product,non,4,6i
 dentelle d'or fin,not a medical product,non,8,8
+dentelle de Bretagne,,non,,
 dentelle de Caen,not a medical product,non,11,6i
 dentelle de chanvre et de lin,not a medical product,non,8,6i
 dentelle de coton et blonde de coton,not a medical product,non,18,6g
+dentelle de Dieppe,,non,,
 dentelle de fer,not a medical product,non,1,6j
 dentelle de fil,not a medical product,non,290,6i
 dentelle de fil 2 lignes,not a medical product,non,1,6i
@@ -5474,7 +5503,8 @@ douelles à barriques,not a medical product,non,11,6b
 douelles à barriques 3m 1/8,not a medical product,non,1,6b
 douelles à barriques vieilles,not a medical product,non,1,6b
 douelles à bottes,not a medical product,non,1,6b
-douelles à busses,not a medical product,non,2,6b
+douelles à buses,,non,,
+douelles à busses,not a medical product,oui,2,6b
 douelles à cave,not a medical product,non,,
 douelles à cuve,not a medical product,non,1,6b
 douelles à fond,not a medical product,non,7,6b
@@ -5493,6 +5523,7 @@ douelles ganivelles,not a medical product,non,3,6b
 douelles pour barrique,not a medical product,non,1,6b
 douelles pour fonds,not a medical product,non,,
 douelles vieilles,not a medical product,non,2,6b
+douelles vieilles à barriques,,non,,
 doutis,not a medical product,non,1,???
 doutis blancs,not a medical product,non,,
 doutis bleus,not a medical product,non,,
@@ -6104,6 +6135,7 @@ eau-forte huile de vitriol le dania,not a medical product,non,,
 écharpe et gaze,not a medical product,non,1,9b
 échaussillons,not a medical product,non,1,???
 échelles,not a medical product,non,1,6b
+échelles anglaises,,non,,
 échelles de 8 pieds,not a medical product,non,,
 échelles de bois de 10 pieds,not a medical product,non,,
 échelles de route,not a medical product,non,,
@@ -6291,6 +6323,7 @@ entenolles,not a medical product,non,1,???
 épée montée en argent,not a medical product,non,1,8
 éperons,not a medical product,non,3,7
 éperons et étriers,not a medical product,non,1,7
+éperviers,,non,,
 épice,not a medical product,non,1,0a
 épice de Curons,not a medical product,non,3,???
 épicerie,not a medical product,non,786,9b
@@ -6423,6 +6456,7 @@ espars pour construction,not a medical product,non,2,6b
 espars simple,not a medical product,non,1,6b
 espars simples,not a medical product,non,3,6b
 espèce monnayée ???,not a medical product,non,1,9a
+espèces,,non,,
 espingole,not a medical product,non,1,???
 esponton,not a medical product,non,3,8
 esprit,not a medical product,non,1,5
@@ -6602,6 +6636,7 @@ etocs de fer,not a medical product,non,11,???
 étoffe à peu,not a medical product,non,20,6i
 étoffe à peu de soie,not a medical product,non,123,6f
 étoffe au ??? de soie,not a medical product,non,4,6h
+étoffe au dessus du sixième de soie,,non,,
 étoffe au filoselle,not a medical product,non,2,6f
 étoffe au poil sorge de Rome,not a medical product,non,1,???
 étoffe au quart,not a medical product,non,53,6i
@@ -6817,6 +6852,7 @@ etocs de fer,not a medical product,non,11,???
 étoffe de soie en drap,not a medical product,non,1,6f
 étoffe de soie en fleurs,not a medical product,non,,
 étoffe de soie en laine,not a medical product,non,1,6f
+étoffe de soie en or et argent,,non,,
 étoffe de soie en velours,not a medical product,non,1,6f
 étoffe de soie et ???,not a medical product,non,2,6h
 étoffe de soie et de poil,not a medical product,non,1,6f
@@ -6824,6 +6860,7 @@ etocs de fer,not a medical product,non,11,???
 étoffe de soie et de velours de Gênes,not a medical product,non,4,6f
 étoffe de soie et galets,not a medical product,non,1,???
 étoffe de soie et prunelle de laine,not a medical product,non,1,6i
+étoffe de soie et ruban,,non,,
 étoffe de soie et soierie,not a medical product,non,6,6f
 étoffe de soie fabriquée,not a medical product,non,,
 étoffe de soie façonnée,not a medical product,non,2,6f
@@ -7136,6 +7173,7 @@ fauteuils de cuir de Russie,not a medical product,non,1,8
 fauteuils de jonc,not a medical product,non,2,8
 fauteuils de paille,not a medical product,non,9,8
 fauteuils de passerame avec leurs harnais,not a medical product,non,,
+fauteuils de rotin,,non,,
 fauteuils de tapisserie,not a medical product,non,2,8
 fauteuils de tapisserie petit point,not a medical product,non,1,8
 fauteuils et chaises de canne,not a medical product,non,1,8
@@ -7184,6 +7222,7 @@ fer coulé figuré,not a medical product,non,1,6j
 fer coulé ou de fonte,not a medical product,non,15,6j
 fer courbe,not a medical product,non,1,6j
 fer d'Espagne,not a medical product,non,,
+fer de captifs,,non,,
 fer de charrues,not a medical product,non,1,6j
 fer de fonte,not a medical product,non,63,6j
 fer de fonte en gueuse,not a medical product,non,3,6j
@@ -7413,6 +7452,7 @@ fichus brodés de soie en couleur,not a medical product,non,1,8
 fichus de gaze de soie,not a medical product,non,4,8
 fichus de soie,not a medical product,non,1,8
 fichus de soie des Indes,not a medical product,non,,
+fichus divers,,non,,
 fichus rayés,not a medical product,non,1,8
 fideau,not a medical product,non,21,???
 fifres et flageolets,not a medical product,non,2,8
@@ -7664,6 +7704,7 @@ fil de laiton poli pour instrument,not a medical product,non,1,6j
 fil de laiton pour cordes d'instrument,not a medical product,non,3,8
 fil de latez,not a medical product,non,1,6i
 fil de layette,not a medical product,non,1,6i
+fil de lignes,,non,,
 fil de lin,not a medical product,non,79,6d
 fil de lin à coudre,not a medical product,non,7,6d
 fil de lin bis,not a medical product,non,15,6d
@@ -7867,7 +7908,8 @@ fléaux à poids de fer,not a medical product,non,1,8
 fléaux de balance,not a medical product,non,1,8
 fléaux de balance de fer,not a medical product,non,74,8
 fléaux de fer,not a medical product,non,77,8
-fléaux de fer et leurs bassins,not a medical product,non,1,8
+fléaux de fer et leur bassin,,non,,
+fléaux de fer et leurs bassins,not a medical product,oui,1,8
 fléaux de souffre,not a medical product,non,,
 fléaux et balance,not a medical product,non,1,8
 fléaux et poids en fer,not a medical product,non,,
@@ -8111,6 +8153,7 @@ fromage d'Auvergne,not a medical product,non,43,0a
 fromage d'herbes,not a medical product,non,1,0a
 fromage d'Irlande,not a medical product,non,1,0a
 fromage de Brie,not a medical product,non,26,0a
+fromage de Chassenay,,non,,
 fromage de Chester,not a medical product,non,8,0a
 fromage de chèvre,not a medical product,non,15,0a
 fromage de Comté,not a medical product,non,17,0a
@@ -9253,10 +9296,12 @@ guêtres de cuir,not a medical product,non,2,8
 guêtres de toile,not a medical product,non,2,8
 gueuse de fer,not a medical product,non,,
 guftas,not a medical product,non,1,???
+guidive des prises,,non,,
+guigan de Bengale,,non,,
 guignolet en ratafia,not a medical product,non,4,1
 guignolet en ratafia de cerise,not a medical product,non,3,1
 guildive,not a medical product,non,5,1
-guildive de prise,not a medical product,non,,
+guildive de prise,not a medical product,oui,,
 guin ???,not a medical product,non,1,???
 guina,not a medical product,non,1,???
 guincastafs,not a medical product,non,,
@@ -9287,11 +9332,13 @@ guingan de Madras,not a medical product,non,9,6g
 guingan de Masulipatan,not a medical product,non,1,6g
 guingan de Pondichéry,not a medical product,non,11,6g
 guingan de Pondichéry et de Madras,not a medical product,non,1,6g
-guingan de prises,not a medical product,non,,
+guingan de prises,not a medical product,oui,,
 guingan de Rouen,not a medical product,non,3,6h
 guingan des Indes,not a medical product,non,3,6g
+guingan des prises,,non,,
 guingan du Bengale,not a medical product,non,2,6g
 guingan en Madras,not a medical product,non,,
+guingan peint,,non,,
 guingan pièces,not a medical product,non,,
 guinimos,not a medical product,non,1,???
 guipon,not a medical product,non,4,???
@@ -9300,6 +9347,7 @@ guitare,not a medical product,non,7,8
 guitare de fer,not a medical product,non,2,8
 gullots,not a medical product,non,,
 habassis,not a medical product,non,1,???
+habillement de drap noir,,non,,
 habillés,not a medical product,non,1,???
 habits,not a medical product,non,416,8
 habits à nègre,not a medical product,non,1,8
@@ -9410,7 +9458,7 @@ harengs frais et merlan frais,not a medical product,non,1,0a
 harengs fumés,not a medical product,non,58,0a
 harengs marinés et salés,not a medical product,non,3,0a
 harengs marinés et salés et saurs,not a medical product,non,8,0a
-harengs pecks,not a medical product,non,,
+harengs pecks,not a medical product,oui,,
 harengs pecs,not a medical product,non,1,0a
 harengs salés,not a medical product,non,27,0a
 harengs salés et sardines salées,not a medical product,non,4,0a
@@ -9540,6 +9588,7 @@ houblon,not a medical product,non,286,0a
 houes,not a medical product,non,7,6j
 houes de fer,not a medical product,non,4,6j
 houes et serpes,not a medical product,non,16,6j
+houes haches et serpes,,non,,
 houille,not a medical product,non,4,3
 houille frontières,not a medical product,non,2,3
 houille par Ardennes et Meuse,not a medical product,non,2,3
@@ -9842,6 +9891,7 @@ indigo de retour,not a medical product,non,1,5
 indigo des Îles françaises,not a medical product,non,1,5
 indigo des Indes,not a medical product,non,1,5
 indigo en gr ???,not a medical product,non,1,5
+indigo et sucre,,non,,
 indigo floré,not a medical product,non,3,5
 indigo guatimalo,not a medical product,non,8,5
 indigo inde-plate boules de bleu,not a medical product,non,1,5
@@ -10036,6 +10086,7 @@ jupes piquées,not a medical product,non,1,8
 jupons,not a medical product,non,23,8
 jupons brodés,not a medical product,non,,
 jupons de basin brodés,not a medical product,non,,
+jupons de Pékin brodé en soie or et argent,,non,,
 jupons de satin,not a medical product,non,1,8
 jupons de taffetas,not a medical product,non,3,8
 jupons de toile,not a medical product,non,,
@@ -10879,6 +10930,7 @@ manne d'osier,narrow medical product,non,,
 manne de Calabre,narrow medical product,non,88,2
 manne fine,narrow medical product,non,1,2
 manne vide,narrow medical product,non,1,2
+mannequins,,non,,
 manœuvre en grelin,not a medical product,non,,
 manoudis,not a medical product,non,1,???
 manouf,not a medical product,non,1,???
@@ -10888,6 +10940,7 @@ manteaux à nègres,not a medical product,non,,
 manteaux courts,not a medical product,non,1,8
 manteaux d'écarlate,not a medical product,non,,
 manteaux d'écarlate brodés d'or et d'argent,not a medical product,non,,
+manteaux de drap,,non,,
 manteaux galonnés,not a medical product,non,,
 manteaux vieux,not a medical product,non,2,8
 mantelet,not a medical product,non,1,8
@@ -10955,11 +11008,14 @@ marchandises de Montauban,not a medical product,non,27,9b
 marchandises de Paris,not a medical product,non,1,8
 marchandises de retour,not a medical product,non,,
 marchandises des Indes,not a medical product,non,7,9b
+marchandises des Indes en petits articles,,non,,
 marchandises des prises,not a medical product,non,1,9b
 marchandises dont le plus fort article n'excède pas 10000 livres,not a medical product,non,15,9b
 marchandises en articles de moindre importance,not a medical product,non,14,9b
 marchandises exportées par les port et pays du royaume traités comme étrangers,not a medical product,non,8,9b
-marchandises mêlées de prises anglaises,not a medical product,non,1,9b
+marchandises hors espèces,,non,,
+marchandises mêlées de prises anglaises,not a medical product,oui,1,9b
+marchandises mêlées des prises anglaises,,non,,
 marchandises non classifiées,not a medical product,non,1,9b
 marchandises prohibées,not a medical product,non,7,9b
 marchandises sèches,not a medical product,non,15,9b
@@ -11057,7 +11113,7 @@ matelas de lit,not a medical product,non,1,8
 matelas de toile de coton et de fil,not a medical product,non,1,8
 matelas vieux,not a medical product,non,1,8
 mâtereaux,not a medical product,non,140,7
-mâtereaux 30 pieds,not a medical product,non,1,7
+mâtereaux 30 pieds,not a medical product,oui,1,7
 mâtereaux à barques,not a medical product,non,1,7
 mâtereaux communs de 30 pieds,not a medical product,non,1,7
 mâtereaux d'acajou de 7 à 8 pieds,not a medical product,non,1,7
@@ -11067,6 +11123,7 @@ mâtereaux de 12 pieds,not a medical product,non,1,7
 mâtereaux de 14 palmes,not a medical product,non,1,7
 mâtereaux de 14 pieds,not a medical product,non,1,7
 mâtereaux de 15 à 20 pieds,not a medical product,non,1,7
+mâtereaux de 16 à 18 pieds,,non,,
 mâtereaux de 16 pieds,not a medical product,non,1,7
 mâtereaux de 18 à 19 pieds,not a medical product,non,1,7
 mâtereaux de 19 pieds,not a medical product,non,1,7
@@ -11088,6 +11145,7 @@ mâtereaux de 26 à 30 pieds,not a medical product,non,1,7
 mâtereaux de 27 pieds,not a medical product,non,1,7
 mâtereaux de 28 à 30 pieds,not a medical product,non,1,7
 mâtereaux de 28 pieds,not a medical product,non,1,7
+mâtereaux de 30 à 32 pieds,,non,,
 mâtereaux de 30 à 34 pieds,not a medical product,non,1,7
 mâtereaux de 30 à 35 pieds,not a medical product,non,1,7
 mâtereaux de 30 à 36 pieds,not a medical product,non,3,7
@@ -11098,8 +11156,10 @@ mâtereaux de 32 à 34 pieds,not a medical product,non,1,7
 mâtereaux de 32 pieds,not a medical product,non,2,7
 mâtereaux de 33 pieds,not a medical product,non,2,7
 mâtereaux de 34 à 36 pieds,not a medical product,non,1,7
+mâtereaux de 34 pieds,,non,,
 mâtereaux de 35 à 37 pieds,not a medical product,non,1,7
 mâtereaux de 35 à 40 pieds,not a medical product,non,,
+mâtereaux de 35 à 45 pieds,,non,,
 mâtereaux de 35 pieds,not a medical product,non,4,7
 mâtereaux de 36 à 38 pieds,not a medical product,non,2,7
 mâtereaux de 36 à 45 pieds,not a medical product,non,1,7
@@ -11173,6 +11233,7 @@ mâts de 33 à 43 pieds,not a medical product,non,1,7
 mâts de 35 à 40 pieds,not a medical product,non,1,7
 mâts de 35 à 45 pieds,not a medical product,non,1,7
 mâts de 36 à 38 pieds,not a medical product,non,1,7
+mâts de 38 à 40 pieds à barque,,non,,
 mâts de 39 à 40 pieds,not a medical product,non,1,7
 mâts de 4 paumes,not a medical product,non,1,7
 mâts de 40 à 45 pieds,not a medical product,non,4,7
@@ -11230,10 +11291,12 @@ mâts de navire de 11 à 18 palmes,not a medical product,non,,
 mâts de navire de 12 palmes,not a medical product,non,2,7
 mâts de navire de 12 paumes de diamètre,not a medical product,non,,
 mâts de navire de 18 pieds,not a medical product,non,1,7
+mâts de navire de 22 pieds,,non,,
 mâts de navire de 24 pieds,not a medical product,non,,
 mâts de navire de 25 pieds,not a medical product,non,,
 mâts de navire de 27 à 30 pieds,not a medical product,non,1,7
 mâts de navire de 27 pieds,not a medical product,non,1,7
+mâts de navire de 28 à 31 pieds,,non,,
 mâts de navire de 30 pieds,not a medical product,non,7,7
 mâts de navire de 34 pieds,not a medical product,non,2,7
 mâts de navire de 35 pieds,not a medical product,non,1,7
@@ -11365,6 +11428,7 @@ mâts en dessous de 8 paumes,not a medical product,non,1,7
 mâts espars,not a medical product,non,,
 mâts et espars de bois,not a medical product,non,2,9c
 mâts et matériaux de bois,not a medical product,non,2,9c
+mats et planches de bois,,non,,
 mâts façonnés,not a medical product,non,1,7
 mâts grands,not a medical product,non,5,7
 mâts gros,not a medical product,non,,
@@ -11376,6 +11440,10 @@ mâts petits,not a medical product,non,49,7
 mâts pour galère,not a medical product,non,1,7
 mâts verts de 45 pieds,not a medical product,non,,
 matu,not a medical product,non,6,???
+mâtures complète d'un vaisseau,,non,,
+mâtures d'un vaisseau consistante en 56 pièces,,non,,
+mâtures de vaisseau,,non,,
+mâtures de vaisseau complète de 21 pièces chaque,,non,,
 maugrebine,not a medical product,non,40,???
 maune,not a medical product,non,,
 maurelle,not a medical product,non,3,2
@@ -11445,6 +11513,7 @@ mercerie de bois,not a medical product,non,5,6j
 mercerie de cordonnier à laine,not a medical product,non,1,8
 mercerie de cuivre,not a medical product,non,7,6j
 mercerie de Nuremberg,not a medical product,non,1,9c
+mercerie de quincaille,,non,,
 mercerie de renvoi,not a medical product,non,,
 mercerie en lignets et hameçons,not a medical product,non,1,8
 mercerie en peigne d'ivoire,not a medical product,non,2,8
@@ -11490,7 +11559,9 @@ merrains à barriques et fonçaille,not a medical product,non,,
 merrains à bœuf,not a medical product,non,2,6b
 merrains à bottes,not a medical product,non,7,6b
 merrains à boucaud,not a medical product,non,1,6b
-merrains à busses,not a medical product,non,2,6b
+merrains à buses,,non,,
+merrains à buses douelles,,non,,
+merrains à busses,not a medical product,oui,2,6b
 merrains à fonçaille,not a medical product,non,6,6b
 merrains à fond,not a medical product,non,78,6b
 merrains à fonds,not a medical product,non,,
@@ -11510,6 +11581,7 @@ merrains autres que de chêne,not a medical product,non,2,6b
 merrains autres que de chêne de toutes dimensions à la valeur,not a medical product,non,1,6b
 merrains autres que de chêne de toutes dimensions au nombre,not a medical product,non,1,6b
 merrains barillage,not a medical product,non,,
+merrains barriques douelles,,non,,
 merrains bourdilles,not a medical product,non,2,6b
 merrains bourdillons,not a medical product,non,1,6b
 merrains cartage,not a medical product,non,,
@@ -11738,6 +11810,7 @@ mittières de fer,not a medical product,non,1,6j
 mobilier,not a medical product,non,777,8
 mobilier vieux,not a medical product,non,13,8
 mode de bœuf,not a medical product,non,1,0a
+"mode, peaux, porcelaine, ruban 16 onces",,non,,
 modèle de château de carton,not a medical product,non,1,8
 modèle de plâtre,not a medical product,non,1,8
 modèle de sculpture,not a medical product,non,1,8
@@ -11785,6 +11858,7 @@ monnaies de cuivre de Suède,not a medical product,non,2,9a
 monnaies de cuivre jaune,not a medical product,non,1,9a
 monnaies de cuivre ouvré,not a medical product,non,1,9a
 monnaies de cuivre pur,not a medical product,non,4,9a
+monnaies du Portugal,,non,,
 montichon,not a medical product,non,,
 montres,not a medical product,non,1,8
 montres d'argent,not a medical product,non,7,8
@@ -11891,7 +11965,9 @@ mouchoirs blancs et bleus,not a medical product,non,,
 mouchoirs blancs et teints,not a medical product,non,27,8
 mouchoirs bleus,not a medical product,non,1,8
 mouchoirs brodés,not a medical product,non,4,8
+mouchoirs brodés de soie,,non,,
 mouchoirs communs,not a medical product,non,3,8
+mouchoirs coupés,,non,,
 mouchoirs d'Alep,not a medical product,non,2,8
 mouchoirs d'indienne,not a medical product,non,62,8
 mouchoirs d'organdis,not a medical product,non,3,8
@@ -12084,6 +12160,7 @@ mouquette,not a medical product,non,1,???
 moureaux,not a medical product,non,14,6d
 moureaux de mules,not a medical product,non,1,7
 moureaux de mulets,not a medical product,non,3,7
+mousquetaire,,non,,
 mousquetons,not a medical product,non,1,8
 mousquets,not a medical product,non,1,8
 mousse,not a medical product,non,13,2
@@ -12098,6 +12175,7 @@ mousselines blanche,not a medical product,non,1,6g
 mousselines brochée de coton,not a medical product,non,1,6g
 mousselines brodée de coton,not a medical product,non,1,6g
 mousselines brodées,not a medical product,non,3,6g
+mousselines brodées en soie de couleur,,non,,
 mousselines de coton,not a medical product,non,99,6g
 mousselines de coton et des Indes,not a medical product,non,3,6g
 mousselines de coton et nankin,not a medical product,non,11,6g
@@ -12110,6 +12188,7 @@ mousselines de la Compagnie,not a medical product,non,2,6g
 mousselines de Suisse et siamoise à ligne de soie,not a medical product,non,1,6f
 mousselines de Zurich,not a medical product,non,,
 mousselines des Indes,not a medical product,non,23,6g
+mousselines et mouchoirs,,non,,
 mousselines et mousselinette de coton,not a medical product,non,1,6g
 mousselines et toile de coton,not a medical product,non,1,6g
 mousselines et toile de coton blanc,not a medical product,non,1,6g
@@ -12245,6 +12324,7 @@ nattes et tresse fines,not a medical product,non,3,6b
 nattes et tresse grossières,not a medical product,non,3,6b
 nattes fines,not a medical product,non,,
 nattes moyennes,not a medical product,non,1,6b
+nattes petites,,non,,
 nattes pour grenier,not a medical product,non,2,6b
 nattes rondes,not a medical product,non,1,6b
 nature de baleine,not a medical product,non,5,2
@@ -12791,6 +12871,7 @@ ouvrages de métal,not a medical product,non,2,6j
 ouvrages de métal frappé et moulu,not a medical product,non,1,6j
 ouvrages de mi soie,not a medical product,non,1,6f
 ouvrages de mode,not a medical product,oui,347,9c
+ouvrages de mode et porcelaine,,non,,
 ouvrages de modes,not a medical product,non,,
 ouvrages de paille,not a medical product,non,2,6b
 ouvrages de paille pour chapeaux,not a medical product,non,3,6d
@@ -13250,6 +13331,7 @@ passementerie de chanvre de laine blanche et de lin,not a medical product,non,2,
 passementerie de chanvre de laine écrue et de lin,not a medical product,non,2,6i
 passementerie de chanvre de laine teinte et de lin,not a medical product,non,2,6i
 passementerie de coton,not a medical product,non,2,6g
+passementerie de coton et ruban de coton,,non,,
 passementerie de crin,not a medical product,non,5,6e
 passementerie de fil,not a medical product,non,1,6h
 passementerie de fil de chanvre ou de lin bis écru herbé ou mélangé,not a medical product,non,2,6h
@@ -13262,6 +13344,7 @@ passementerie de fil et laine,not a medical product,non,1,6i
 passementerie de fil et soie,not a medical product,non,1,6f
 passementerie de fil laine et poil,not a medical product,non,1,6i
 passementerie de filoselle,not a medical product,non,1,6f
+passementerie de fleuret et ruban de fleuret,,non,,
 passementerie de laine,not a medical product,non,3,6e
 passementerie de laine blanche écrue pure,not a medical product,non,2,6e
 passementerie de laine écrue pure,not a medical product,non,2,6e
@@ -13279,7 +13362,7 @@ passementerie de soie pure,not a medical product,non,7,6f
 passementerie divers,not a medical product,non,1,6i
 passementerie en frange de fil,not a medical product,non,3,6i
 passementerie en soie,not a medical product,non,1,6f
-passementerie et ruban de coton,not a medical product,non,2,6g
+passementerie et ruban de coton,not a medical product,oui,2,6g
 passementerie et ruban de fleuret,not a medical product,non,6,6f
 passementerie et ruban de laine mêlée de fil,not a medical product,non,1,6i
 passementerie et ruban de laine teinte,not a medical product,non,2,6e
@@ -13885,6 +13968,8 @@ Pékin à grande fleur,not a medical product,non,,
 Pékin broché,not a medical product,non,,
 Pékin broché et rayé,not a medical product,non,1,6f
 Pékin brodé,not a medical product,non,,
+Pékin mi-soie,,non,,
+Pékin non peint,,non,,
 Pékin peint,not a medical product,non,,
 Pékin peint et rayé,not a medical product,non,1,6f
 Pékin petit,not a medical product,non,,
@@ -13929,9 +14014,11 @@ pelleterie crue,not a medical product,non,272,2
 pelleterie crue en poil,not a medical product,non,2,2
 pelleterie cuir,not a medical product,non,2,6a
 pelleterie d'ours,not a medical product,non,2,6a
-pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,not a medical product,non,2,6a
+pelleterie de blaireaux cougars léopards lions loups once panthères zèbres,not a medical product,oui,2,6a
+pelleterie de blaireaux onces léopards panthères tigres lions loups ordinaires zèbres cougars,,non,,
 pelleterie de castor,not a medical product,non,2,6a
-pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,not a medical product,non,2,6a
+pelleterie de castor castorins chameaux chèvres lamas loutres vigognes,not a medical product,oui,2,6a
+pelleterie de castors castorins chameaux chèvres vigognes lamas loutres,,non,,
 pelleterie de chat,not a medical product,non,2,6a
 pelleterie de Gray,not a medical product,non,2,6a
 pelleterie de lapin et de lièvre,not a medical product,non,2,6a
@@ -13957,7 +14044,8 @@ peluches de bois,not a medical product,non,1,???
 peluches de coton,not a medical product,non,1,6g
 peluches de laine,not a medical product,non,1,6e
 peluches et panne,not a medical product,non,1,6i
-peluchon des prises,not a medical product,non,,
+peluchon de prises,,non,,
+peluchon des prises,not a medical product,oui,,
 pelure de cacao,not a medical product,non,1,0b
 pendant d'oreille,not a medical product,non,4,8
 pendant d'oreille de grena,not a medical product,non,1,8
@@ -14439,6 +14527,7 @@ planches d'aunis,not a medical product,non,1,6b
 planches d'orme,not a medical product,non,1,6b
 planches d'orme de 80 pieds de longueur sur 3 pouces d'épaisseur,not a medical product,non,1,6b
 planches de 12 à 18 pieds,not a medical product,non,1,6b
+planches de 15 à 16 pieds,,non,,
 planches de 18 pieds,not a medical product,non,1,6b
 planches de 20 pied sur 1 pouce,not a medical product,non,1,6b
 planches de 24 à 30 pieds,not a medical product,non,1,6b
@@ -14484,10 +14573,13 @@ planches de chêne de 10 à 11 pieds,not a medical product,non,1,6b
 planches de chêne de 10 à 12 pieds,not a medical product,non,1,6b
 planches de chêne de 10 à 12 pieds et de 1 pouce d'épaisseur,not a medical product,non,,
 planches de chêne de 10 pieds,not a medical product,non,5,6b
+"planches de chêne de 10 pieds de long et de 0,75 pouce d'épaisseur",,non,,
 "planches de chêne de 10 pieds et de 0,5 pouces d'épaisseur",not a medical product,non,,
-"planches de chêne de 10 pieds et de 0,75 pouces d'épaisseur",not a medical product,non,,
+"planches de chêne de 10 pieds et de 0,75 pouces d'épaisseur",not a medical product,oui,,
+planches de chêne de 11 à 12 pieds,,non,,
 planches de chêne de 11 pieds,not a medical product,non,1,6b
-planches de chêne de 11 pieds et de 2 pouces d'épaisseur,not a medical product,non,,
+planches de chêne de 11 pieds de long et de 2 pouces d'épaisseur,,non,,
+planches de chêne de 11 pieds et de 2 pouces d'épaisseur,not a medical product,oui,,
 planches de chêne de 12 pieds,not a medical product,non,8,6b
 planches de chêne de 13 pieds,not a medical product,non,1,6b
 planches de chêne de 14 pieds,not a medical product,non,2,6b
@@ -14495,8 +14587,10 @@ planches de chêne de 15 à 20 pieds,not a medical product,non,1,6b
 planches de chêne de 15 pieds,not a medical product,non,2,6b
 planches de chêne de 16 pieds,not a medical product,non,,
 planches de chêne de 18 pieds,not a medical product,non,2,6b
-Planches de chêne de 18 pieds et de 1 pouce d'épaisseur,not a medical product,non,,
-"Planches de chêne de 19,5 pieds et de 2 pouces d'épaisseur",not a medical product,non,,
+planches de chêne de 18 pieds de long et de 1 pouce d'épaisseur,,non,,
+Planches de chêne de 18 pieds et de 1 pouce d'épaisseur,not a medical product,oui,,
+"planches de chêne de 19,5 pieds de long et de 2 pouces d'épaisseur",,non,,
+"Planches de chêne de 19,5 pieds et de 2 pouces d'épaisseur",not a medical product,oui,,
 planches de chêne de 2 pouces et en dessus,not a medical product,non,1,6b
 "planches de chêne de 2,5 pouces",not a medical product,non,1,6b
 planches de chêne de 20 pieds,not a medical product,non,1,6b
@@ -14519,11 +14613,13 @@ planches de chêne de 5 pouces,not a medical product,non,1,6b
 planches de chêne de 6 pieds,not a medical product,non,1,6b
 planches de chêne de 7 à 8 pieds,not a medical product,non,1,6b
 planches de chêne de 7 pieds,not a medical product,non,1,6b
+planches de chêne de 8 à 9 pieds,,non,,
 planches de chêne de 8 pieds,not a medical product,non,1,6b
 planches de chêne de 8 pieds et demi,not a medical product,non,1,6b
 planches de chêne de 9 à 10 pieds,not a medical product,non,4,6b
 planches de chêne de 9 à 12 pieds,not a medical product,non,1,6b
 planches de chêne de 9 pieds,not a medical product,non,1,6b
+planches de chêne de 9 pieds et demi,,non,,
 planches de chêne et planches de sapin,not a medical product,non,1,6b
 planches de chêne pour bordage,not a medical product,non,6,7
 planches de chêne pour bordage de 21 pieds,not a medical product,non,,
@@ -14552,6 +14648,7 @@ planches de noyer d'un pouce de 1/2,not a medical product,non,1,6b
 planches de noyer de 12 pieds,not a medical product,non,,
 planches de noyer de 3 pieds,not a medical product,non,,
 planches de noyer de 6 pieds,not a medical product,non,1,6b
+planches de papier communes,,non,,
 planches de peuplier,not a medical product,non,1,6b
 planches de pin,not a medical product,non,22,6b
 planches de piphout,not a medical product,non,1,6b
@@ -14629,6 +14726,7 @@ planches de sapin 32 à 34 pieds,not a medical product,non,1,6b
 planches de sapin 35 pieds,not a medical product,non,1,6b
 planches de sapin 36 pieds,not a medical product,non,1,6b
 planches de sapin 4 pieds,not a medical product,non,1,6b
+planches de sapin 6 à 7 pieds,,non,,
 planches de sapin 6 pieds,not a medical product,non,1,6b
 planches de sapin 7 à 11 pieds,not a medical product,non,1,6b
 planches de sapin 7 à 8 pieds,not a medical product,non,1,6b
@@ -14636,6 +14734,7 @@ planches de sapin 8 à 12 pieds,not a medical product,non,1,6b
 planches de sapin 8 pieds,not a medical product,non,1,6b
 planches de sapin 9 à 10 pieds,not a medical product,non,2,6b
 planches de sapin 9 à 10 pieds à 15 sous,not a medical product,non,1,6b
+planches de sapin 9 pieds,,non,,
 planches de sapin au grand compte,not a medical product,non,,
 planches de sapin boîtes,not a medical product,non,1,9b
 planches de sapin commun,not a medical product,non,102,6b
@@ -14930,12 +15029,13 @@ plâtre gris,not a medical product,non,1,2
 plâtre moulu,not a medical product,non,2,2
 plâtre moulu soit préparé,not a medical product,non,1,9b
 plats de bois,not a medical product,non,4,6b
+plats de faïence,,non,,
 plats de fer,not a medical product,non,14,6j
 plats de sapin,not a medical product,non,1,6b
 plawens,not a medical product,non,1,???
 plawens ou codde,not a medical product,non,1,???
 plesny,not a medical product,non,1,???
-plètes de 21 pièces chaque,not a medical product,non,,
+plètes de 21 pièces chaque,not a medical product,oui,,
 pleviers,not a medical product,non,1,???
 plies sèches,not a medical product,non,4,0a
 plocq,not a medical product,non,99,2
@@ -15214,6 +15314,7 @@ poivre dit maniquette,not a medical product,non,2,0b
 poivre doux,not a medical product,non,1,0b
 poivre en grabeau,not a medical product,non,41,0b
 poivre en grains,not a medical product,non,9,0b
+poivre en poudre,,non,,
 poivre en poussière,not a medical product,non,1,0b
 poivre giroflé,not a medical product,non,187,0b
 poivre léger,not a medical product,non,,
@@ -15283,6 +15384,7 @@ pompons,not a medical product,non,1,8
 pompons d'argent et de soie,not a medical product,non,1,8
 poncire,not a medical product,non,54,0a
 ponçure de pin,not a medical product,non,,
+Pondichery,,non,,
 popeline,not a medical product,non,1,6f
 popeline de coton et soie,not a medical product,non,1,6f
 popeline de filoselle,not a medical product,non,1,6f
@@ -15295,6 +15397,7 @@ porcelaine à la valeur,not a medical product,non,1,6k
 porcelaine commune,not a medical product,non,6,6k
 porcelaine commune et fine,not a medical product,non,2,6k
 porcelaine contrefaite,not a medical product,non,5,6k
+porcelaine de Chine,,non,,
 porcelaine de Hollande,not a medical product,non,7,6k
 porcelaine de Saint-Cloud,not a medical product,non,5,6k
 porcelaine de Saxe,not a medical product,non,10,6k
@@ -15914,8 +16017,9 @@ rediné,not a medical product,non,1,???
 redingotes,not a medical product,non,23,8
 redingotes d'Angleterre et de drap,not a medical product,non,1,8
 redingotes de drap,not a medical product,non,1,8
-redingotes de prise,not a medical product,non,,
+redingotes de prise,not a medical product,oui,,
 redingotes de ratine,not a medical product,non,,
+redingotes des prises,,non,,
 redon,not a medical product,non,3,2
 registres,not a medical product,non,8,6c
 registres blancs,not a medical product,non,26,6c
@@ -15976,7 +16080,8 @@ rhubarbe du Levant,narrow medical product,non,15,0b
 rhubarbe et mechoacam,narrow medical product,non,28,9b
 rhubarbe fil,narrow medical product,non,1,9c
 rhum,not a medical product,non,32,1
-rhum de prise,not a medical product,non,1,1
+rhum de prise,not a medical product,oui,1,1
+rhum des prises,,non,,
 rhum et sirop fin,not a medical product,non,22,9b
 rhum et tafia,not a medical product,non,41,1
 rhum et tafia étranger,not a medical product,non,1,1
@@ -16002,8 +16107,10 @@ robes de chambre de la Chine,not a medical product,non,,
 robes de chambre de Pékin brodé de soie,not a medical product,non,,
 robes de chambre de soie,not a medical product,non,,
 robes de femme,not a medical product,non,1,8
+robes de satin brodée,,non,,
 robes de taffetas,not a medical product,non,1,8
 robes de toile peinte,not a medical product,non,1,8
+robes et jupes de satin,,non,,
 robes fourrées,not a medical product,non,1,8
 robinets,not a medical product,non,3,8
 robinets à tirer le vin,not a medical product,non,1,8
@@ -16297,6 +16404,7 @@ sacs à café vides,not a medical product,non,1,6h
 sacs à café vieux,not a medical product,non,3,6h
 sacs à poudre neufs,not a medical product,non,1,6h
 sacs ayant servi et de toile,not a medical product,non,1,6h
+sacs de bois et cuir,,non,,
 sacs de lin,not a medical product,non,1,6d
 sacs de peau d'ours,not a medical product,non,1,6h
 sacs de poluard,not a medical product,non,1,6h
@@ -16304,6 +16412,7 @@ sacs de toile,not a medical product,non,41,6h
 sacs de toile de halle,not a medical product,non,,
 sacs de toile vides,not a medical product,non,3,6h
 sacs de toile vieux,not a medical product,non,2,6h
+sacs en paquets,,non,,
 sacs en toile de chanvre,not a medical product,non,2,6h
 sacs gros,not a medical product,non,1,6h
 sacs vides,not a medical product,non,1,6h
@@ -16431,6 +16540,8 @@ satin brodé,not a medical product,non,,
 satin brodé couleur de paille,not a medical product,non,,
 satin brodé de la Chine,not a medical product,non,,
 satin brodé en or,not a medical product,non,1,6i
+satin brodé en soie de couleur,,non,,
+satin brodé en soie et or,,non,,
 satin brodé lit complet,not a medical product,non,,
 satin brodé morceaux,not a medical product,non,,
 satin brodé tapis,not a medical product,non,,
@@ -16552,6 +16663,7 @@ secrétaire d'acajou,not a medical product,non,2,8
 secrétaire de noyer,not a medical product,non,2,8
 sege de Saint-Louis,not a medical product,non,2,???
 segrin,not a medical product,non,1,0a
+seigle,,non,,
 seil de bois,not a medical product,non,,
 seil de grain,not a medical product,non,3,0a
 seilles de bois,not a medical product,oui,3,6b
@@ -16779,6 +16891,7 @@ serge imprimée aune,not a medical product,non,1,6e
 serge Minorque,not a medical product,non,3,6e
 serge sergette,not a medical product,non,1,6e
 serge teinte,not a medical product,non,1,6e
+serge verte,,non,,
 sergette,not a medical product,non,10,6e
 sergette de laine,not a medical product,non,3,6e
 sergette de Montauban,not a medical product,non,7,6e
@@ -17006,6 +17119,7 @@ soie par Collonges et Strasbourg,not a medical product,non,1,6f
 soie par Marseille,not a medical product,non,3,6f
 soie plate,not a medical product,non,3,6f
 soie siamoise,not a medical product,non,,
+soie tamis,,non,,
 soie tanier,not a medical product,non,1,6f
 soie tapis,not a medical product,non,3,6f
 soie teinte,not a medical product,non,20,6f
@@ -17454,6 +17568,7 @@ tabac en côtes,not a medical product,non,15,1
 tabac en côtes et en feuilles,not a medical product,non,27,1
 tabac en côtes et en feuilles des entrepôts pour la régie,not a medical product,non,1,1
 tabac en côtes et en feuilles pour la régie,not a medical product,non,6,1
+tabac en feuille,,non,,
 tabac en feuilles,not a medical product,non,2,1
 tabac en feuilles de la Louisiane,not a medical product,non,1,1
 tabac en feuilles de Virginie,not a medical product,non,3,1
@@ -17590,6 +17705,7 @@ tables jacinthes,not a medical product,non,1,9b
 tables peintes,not a medical product,non,2,8
 tables vernies,not a medical product,non,12,8
 tabletterie,not a medical product,non,7,8
+tabletterie et porcelaine,,non,,
 tablettes anisées,not a medical product,non,1,5
 tablettes d'ardoise,not a medical product,non,1,6k
 tablier,not a medical product,non,2,8
@@ -17616,6 +17732,7 @@ taffetas de Léon,not a medical product,non,,
 taffetas de Lyon,not a medical product,non,1,6f
 taffetas de Pékin,not a medical product,non,,
 taffetas de soie,not a medical product,non,34,6f
+taffetas foulard,,non,,
 taffetas foulas,not a medical product,non,2,6g
 taffetas lustré,not a medical product,non,,
 taffetas noir,not a medical product,non,1,6f
@@ -17690,7 +17807,9 @@ tapis de palampoux,not a medical product,non,,
 tapis de Perse,not a medical product,non,1,6e
 tapis de pieds,not a medical product,non,4,6i
 tapis de pure laine,not a medical product,non,3,6e
+tapis de Rouen,,non,,
 tapis de satin,not a medical product,non,,
+tapis de satin blanc brodé,,non,,
 tapis de satin brodé,not a medical product,non,,
 tapis de soie,not a medical product,non,,
 tapis de table,not a medical product,non,1,6i
@@ -17709,6 +17828,7 @@ tapis fabrique de Tournai,not a medical product,non,1,6i
 tapis fil teint,not a medical product,non,1,6i
 tapis indienne,not a medical product,non,1,6i
 tapis peints,not a medical product,non,1,6i
+tapis peints brodés,,non,,
 tapis vieux de renvoi,not a medical product,non,1,6i
 tapisserie,not a medical product,non,91,6i
 tapisserie à l'Aubusson,not a medical product,non,4,6i
@@ -17761,6 +17881,7 @@ tapisserie hachée et de laine,not a medical product,non,2,6e
 tapisserie peinte,not a medical product,non,11,6i
 tapisserie peinte ??? toile,not a medical product,non,1,6i
 tapisserie peinte de Hongrie,not a medical product,non,4,6i
+tapisserie peinte sur coutil,,non,,
 tapisserie peinte tentures,not a medical product,non,1,6i
 tapisserie pièce,not a medical product,non,1,6i
 tapisserie point de Hongrie,not a medical product,non,3,6i
@@ -17813,6 +17934,7 @@ taureaux et vaches,not a medical product,non,1,0a
 tavelle,not a medical product,non,30,6i
 tavelle de fil et de laine,not a medical product,non,1,6i
 tavelle de laine,not a medical product,non,1,9c
+tavelle passement,,non,,
 tayolles,not a medical product,non,62,8
 tayolles de coton,not a medical product,non,8,8
 tayolles de coton et de fil,not a medical product,non,1,6h
@@ -17961,6 +18083,7 @@ terrerie,not a medical product,non,15,???
 terrerie blanche,not a medical product,non,1,???
 terrier de fer,not a medical product,non,2,6j
 terrine de grès,not a medical product,non,1,6k
+tête de girofle,,oui,,
 têtes à perruques,not a medical product,non,4,8
 têtes brodées et de basin,not a medical product,non,1,8
 têtes de cabillaud,not a medical product,non,1,0a
@@ -18092,6 +18215,7 @@ toile à tapisser,not a medical product,non,1,6h
 toile à voile,not a medical product,non,801,7
 toile à voile commune,not a medical product,non,,
 toile à voile de 24 aunes,not a medical product,non,1,7
+toile à voile étrangère,,non,,
 toile abas,not a medical product,non,1,6h
 toile abat,not a medical product,non,15,6h
 toile ajamis,not a medical product,non,10,6g
@@ -18099,7 +18223,8 @@ toile alanea,not a medical product,non,1,6h
 toile amant,not a medical product,non,1,6h
 toile anascotes,not a medical product,non,,
 toile anglaise,not a medical product,non,,
-toile anglaise de prise,not a medical product,non,,
+toile anglaise de prise,not a medical product,oui,,
+toile anglaise des prises,,non,,
 toile Antioche,not a medical product,non,,
 toile apprêtée de chanvre et de lin écrue de 13 à 20 fils,not a medical product,non,2,6h
 toile apprêtée de chanvre et de lin écrue de 20 fils et au-dessus,not a medical product,non,2,6h
@@ -18769,6 +18894,7 @@ toile de lin toilette,not a medical product,non,3,6d
 toile de linet,not a medical product,non,2,6d
 toile de linge de tables,not a medical product,non,29,6d
 toile de linge de tables et à serviettes,not a medical product,non,2,6d
+toile de linge vieux,,non,,
 toile de lingerie,not a medical product,non,1,6h
 toile de linon,not a medical product,non,8,6d
 toile de linon de Saint-Quentin,not a medical product,non,1,6h
@@ -18799,7 +18925,7 @@ toile de Pontigny,not a medical product,non,1,6h
 toile de Pontivy,not a medical product,non,10,6h
 toile de Pontorson,not a medical product,non,,
 toile de Pouldavid,not a medical product,non,20,6h
-toile de prises,not a medical product,non,,
+toile de prises,not a medical product,oui,,
 toile de Quintin,not a medical product,non,11,6h
 toile de réforme,not a medical product,non,,
 toile de retour,not a medical product,non,1,6h
@@ -18849,6 +18975,7 @@ toile des Indes imitant celles des Indes,not a medical product,non,1,6h
 toile des Indes peinte,not a medical product,non,2,6h
 toile des Indes peinte de thille,not a medical product,non,1,6h
 toile des Indes Perse du commerce étranger,not a medical product,non,1,6h
+toile des prises,,non,,
 toile du Béarn,not a medical product,non,10,6h
 toile du Brabant,not a medical product,non,3,6h
 toile du cerf,not a medical product,non,1,6h
@@ -19050,6 +19177,7 @@ toile quilly,not a medical product,non,1,6h
 toile ralette de Hambourg,not a medical product,non,1,6h
 toile ramoise,not a medical product,non,14,6h
 toile rayée,not a medical product,non,41,6h
+toile rayée coton et soie,,non,,
 toile rayée de couleur,not a medical product,non,,
 toile réforme,not a medical product,non,,
 toile reploc,not a medical product,non,1,6h
@@ -19304,6 +19432,7 @@ urnes de terre,not a medical product,non,1,6k
 ustensiles d'imprimerie,not a medical product,non,1,8
 ustensiles de marine,not a medical product,non,1,8
 ustensiles de pêcheur,not a medical product,non,2,8
+ustensiles militaires,,non,,
 vaches,not a medical product,non,388,0a
 vaches en vie,not a medical product,non,16,0a
 vaches et veaux,not a medical product,non,1,0a
@@ -19419,6 +19548,7 @@ verges de fer,not a medical product,non,109,6j
 verges de fer et barres de fer et battu de fer,not a medical product,non,17,6j
 vergnes,not a medical product,non,2,2
 vergues,not a medical product,non,25,7
+vergues à mâture,,non,,
 vergues de 25 pieds,not a medical product,non,1,7
 vergues de 35 pieds sur 8 pouces de diamètre,not a medical product,non,,
 vergues de 40 pieds sur 10 pouces de diamètre,not a medical product,non,,
@@ -19430,9 +19560,9 @@ vergues de 53 à 57 pieds,not a medical product,non,1,7
 vergues de fer,not a medical product,non,1,7
 vergues de navire,not a medical product,non,2,7
 vergues de sapin de 44 pieds,not a medical product,non,1,7
-vergues pour mature,not a medical product,non,2,7
+vergues pour mature,not a medical product,oui,2,7
 vergues pour navire,not a medical product,non,1,7
-vergues pour vaisseau,not a medical product,non,1,7
+vergues pour vaisseau,not a medical product,oui,1,7
 verjus,not a medical product,non,7,0a
 vermeil et vernis,not a medical product,non,2,5
 vermeille,not a medical product,non,1,9a
@@ -19508,6 +19638,7 @@ verres de lanternes,not a medical product,non,1,6k
 verres de Lorraine,not a medical product,non,6,6k
 verres de mer,not a medical product,non,1,6k
 verres de Saint Louis,not a medical product,non,1,6k
+verres de toute sorte,,non,,
 verres du Barrois,not a medical product,non,1,6k
 verres en ???,not a medical product,non,1,9c
 verres en carreaux et à vitre,not a medical product,non,2,6k
@@ -19715,6 +19846,7 @@ vin de Côte,not a medical product,non,10,1
 vin de Côte du Rhône,not a medical product,non,1,1
 vin de Côte-Rotie,not a medical product,non,23,1
 vin de Coulanges,not a medical product,non,1,1
+vin de Damazan,,non,,
 vin de Dauphiné,not a medical product,non,1,1
 vin de deviet,not a medical product,non,1,1
 vin de Dijon,not a medical product,non,118,1
