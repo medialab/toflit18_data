@@ -46,3 +46,9 @@ xtset geography year
 
 xtreg riots mean_netimport variation_percent, be
 
+*Marseille
+drop if geography!=20
+save "importandexport_Marseille.dta", replace
+*Bordeaux
+drop if geography!=20
+save "importandexport_Bordeaux.dta", replace
