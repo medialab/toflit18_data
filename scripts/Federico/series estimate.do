@@ -33,8 +33,7 @@ replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=
 
 encode grains, generate(grains_num) 
 keep if grains!="Pas grain (0)"
-keep if grains!="Substituts (4)"
-keep if grains!="Grains transformés (5)"
+
 
 ***SOURCETYPE
 encode sourcetype, generate(sourcetype_encode) label(sourcetype)
@@ -77,14 +76,24 @@ replace sourcetype_merged=8 if sourcetype=="Résumé"
 replace sourcetype_merged=8 if sourcetype=="Tableau de marchandises"
 replace sourcetype_merged=8 if sourcetype=="Tableau des quantités"
 
-*drop local without direction (mainly colonies for 1789)
+*drop local without direction and strange things from the 1780s (mainly colonies for 1789)
+***NATIONAL PARTNAIRES MANQUANTS IS IMPORTANT, IT S ALL WE HAVE FOR the 1780s. 
 drop if  sourcetype_merged!=8 & geography==.
 *force Objet général entries with a geography into Objet Général, assuming they are simply late coming data (CHECK THIS WITH GUILLAUME!)
 replace geography=0 if sourcetype_merged==8
 
 drop if year==.
 
+** to reconstruct the series of values, I need to EGEN TOTAL of all different reported values by year, geography, type of grain and importexport dummy. 
 
+bys year geography grains importexport : egen totalv=total(value_inclusive)
+
+collapse(mean) totalv, by (year geography grains importexport)
+***gen total of local series
+bys year grains importexport: egen localtotal=total(totalv) if geography!=0
+*** how much do the local series capture of the national one?
+gen 
+  
 
 
 
