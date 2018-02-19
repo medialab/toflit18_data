@@ -84,32 +84,57 @@ replace geography=0 if sourcetype_merged==8
 
 drop if year==.
 
+* gen quantit_inclusive
+gen quantit_inclusive=value_inclusive/prix_unitaire
+replace quantit_inclusive=quantit if quantit!=. & prix_unitaire!=.
+browse if quantit_inclusive!=quantit & quantit!=.
+drop quantit
+rename quantit_inclusive quantit
+drop if quantit==.
+
+** for each year geography marchandises simplifiees compute average prix unitaire of a given measuring units and collapse
+bys year geography marchandises_simplification quantity_unit_ortho: egen num= total(quantit*prix_unitaire*!missing(quantit, prix_unitaire)) 
 
 
-***generate panelid var
-egen panelid=group(sourcetype_merged grains_num geography quantity_unit_ortho marchandises_simplification), label
-
-***compute average price as yearly weighted average of unit_price_kg for each type of grain and each geography and each etc
-bys year panelid: egen num= total(quantit*prix_unitaire*!missing(quantit, prix_unitaire)) 
-
-
-bys year panelid: egen den= total(quantit*!missing(quantit, prix_unitaire)) 
-
-
+bys year geography marchandises_simplification quantity_unit_ortho: egen den= total(quantit*!missing(quantit, prix_unitaire)) 
 
 gen avprix=num/den
 
-collapse (mean) avprix, by (panelid year num den grains_num geography quantity_unit_ortho marchandises_simplification)
+collapse (mean) avprix, by (year geography marchandises_simplification quantity_unit_ortho)
 
-bys year grains_num geography marchandises_simplification quantity_unit_ortho: egen genavprix=mean(avprix)
-xtset panelid year
+replace quantity_unit_ortho="quartmesuredeblaye" if quantity_unit_ortho=="quartiers mesure de blaye"
+replace quantity_unit_ortho="sacsde2800boi" if quantity_unit_ortho=="sacs de 2800 boisseaux"
+replace quantity_unit_ortho="cartdupiedde480l" if quantity_unit_ortho=="cartier du pied de 480 livres"
+replace quantity_unit_ortho="charge300l" if quantity_unit_ortho=="charge de 300 livres"
+***reshape?
+reshape wide @avprix , i(year geography marchandises_simplification) j(quantity_unit_ortho) string
+*** for every year geography etc. compute ratio between different measuring units: how to? result is a matrix.
+**generate ratios by line 
+gen boisseauxtonneaux=tonneauxavprix/boisseauavprix
+gen chargelivre=chargesavprix/livresavprix
+gen cartdupiedl=cartdupiedde480lavprix/livresavprix
+gen charge300livres=charge300lavprix/livresavprix
+gen boisseaubarrique=barriquesavprix/boisseauavprix
+gen sacsboisseau=sacsavprix/boisseauavprix
+gen sacslivre=sacsavprix/livresavprix
+gen laestlivres= laestavprix/livresavprix
+gen lastlivres= lastavprix/livresavprix
+gen lethslivres= lethsavprix/livresavprix
+gen letslivres= letsavprix/livresavprix
+gen letzlivres= letzavprix/livresavprix
+gen laestboisseau= laestavprix/boisseauavprix
+gen lastboisseau= lastavprix/boisseauavprix
+gen lethsboisseau= lethsavprix/boisseauavprix
+gen letsboisseau= letsavprix/boisseauavprix
+gen letzboisseau= letzavprix/boisseauavprix
+gen conqueslivres=conquesavprix/livresavprix
+gen conquesboisseau=conquesavprix/boisseauavprix
+gen quartierboisseau= quartiersavprix/boisseauavprix
+gen quartiertonneau= tonneauxavprix/quartiersavprix
+gen quartierlivres= quartiersavprix/livresavprix
+gen septierlivre=setiersavprix/livresavprix
+gen setierboisseau=setiersavprix/boisseauavprix
+gen tonneausetier= tonneauxavprix/setiersavprix
+gen boisseaulivre=boisseauavprix/livresavprix
+gen tonneaulivre=tonneauxavprix/livresavprix
 
-
-gen prixvar=avprix/L.avprix
-gen poqo=avprix*num
-gen ptqo=F.avprix*num
-
-bys year grains_num geography marchandises_simplification: egen sigmaptqo=total(ptqo)
-bys year grains_num geography marchandises_simplification: egen sigmapoqo=total(poqo)
-xtset panelid year
-gen pindex=sigmaptqo/L.sigmapoqo
