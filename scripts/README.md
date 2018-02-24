@@ -1,3 +1,5 @@
+This readme explains how to aggregate the individual csv sources into bdd_centrale.csv and vice-versa.
+
 
 # requirements
 
