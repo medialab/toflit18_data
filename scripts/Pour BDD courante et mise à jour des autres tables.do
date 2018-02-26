@@ -550,15 +550,18 @@ rename yearnum year
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing needs_more_details
+ drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing
  codebook q_conv
  
  save "$dir/Données Stata/bdd courante_temp.dta", replace
- keep if needs_more_details==1
+ keep if needs_more_details=="1"
  keep exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho
- bys exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho, keep if _n==1
+ bys exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho: keep if _n==1
  merge 1:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
 	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
+
+ drop _merge
+ sort quantity_unit_ortho marchandises_simplification exportsimports direction pays_grouping
  save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
  export delimited "Units_Normalisation_Metrique2.csv", replace
  
