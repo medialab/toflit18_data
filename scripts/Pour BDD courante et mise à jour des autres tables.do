@@ -203,7 +203,7 @@ export delimited "Units_Normalisation_Orthographique.csv", replace
 use "Units_Normalisation_Orthographique.dta", clear
 merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
 keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
-source_hambourg missing need_marchandises source_bdc _merge 
+source_hambourg missing needs_more_details source_bdc _merge 
 foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
 	capture drop nbr_bdc_`variable'
 	generate nbr_bdc_`variable'=0
@@ -218,6 +218,8 @@ generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
 sort sortkey
 drop sortkey
 export delimited "Units_Normalisation_Metrique1.csv", replace
+
+/*See below for "Units_Normalisation_Metrique2.dta"*/
 
 
 /*
@@ -548,11 +550,27 @@ rename yearnum year
  replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
  drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
+ drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing
  codebook q_conv
  
+ save "$dir/Données Stata/bdd courante_temp.dta", replace
+ keep if needs_more_details=="1"
+ keep exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho
+ bys exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho: keep if _n==1
+ merge 1:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
+	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
+
+ drop _merge
+ sort quantity_unit_ortho marchandises_simplification exportsimports direction pays_grouping
+ save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
+ export delimited "Units_Normalisation_Metrique2.csv", replace
+ 
+ use "$dir/Données Stata/bdd courante_temp.dta", clear
+ erase "$dir/Données Stata/bdd courante_temp.dta"
+ 
  merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
-		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+ 
  drop if _merge==2
  drop  remarque_unit-_merge
  codebook q_conv

@@ -1,4 +1,4 @@
-quantity_unit_ortho,source_bdc,quantity_unit_ajustees,u_conv,q_conv,remarque_unit,incertitude_unit,source_hambourg,missing,need_marchandises,nbr_bdc_quantity_unit_ortho,nbr_bdc_quantity_unit_ajustees
+quantity_unit_ortho,source_bdc,quantity_unit_ajustees,u_conv,q_conv,remarque_unit,incertitude_unit,source_hambourg,missing,needs_more_details,nbr_bdc_quantity_unit_ortho,nbr_bdc_quantity_unit_ajustees
 ,1,,,,,,,,,20,718
 ????,1,????,,,,1,0,,0,4,51
 ???? an,1,????,,,,1,0,,0,1,51
@@ -631,7 +631,7 @@ rames,1,rames,pièces,500,Doursther : mesure pour le papier. Entre 360 et 500 fe
 râpé,1,pièces,pièces,1,,,,,,1,127
 razières,1,,,,Cnrtl : 1 rasière correspond à 50 litres environ,,,,,7,718
 réchauds,1,,,,,,,,,1,718
-rets,0,retz,litres,30.5,Doursther page 477,,,,,3,3
+rets,1,retz,litres,30.5,Doursther page 477,,,,,3,3
 rideaux,1,,,,,,,,,1,718
 robes,1,robes,pièces,1,,,0,1,0,1,1
 rodes,1,,,,,,,,,4,718
@@ -700,13 +700,13 @@ tonneaux de ville,1,,,,nécessite le contenu et le lieu d'émission,,,,1,1,718
 tonneaux fonds,1,,,,,,,,,1,718
 topettes,1,topettes,contenant,1,,,,,,2,2
 torches,1,,,,,,,,,3,718
-traques,1,traques,pièces,3,Dictionnaire de la marine françois (books.google.fr),,,,,6,6
+traques,0,traques,pièces,3,Dictionnaire de la marine françois (books.google.fr),,,,,6,6
 treilles,1,,,,,,,,,2,718
 tuiles,1,tuiles,pièces,1,,,,,,2,2
 unité,1,pièces,pièces,1,,,,,,1,127
 urnes,1,,,,,,,,,1,718
 vaches,1,pièces,pièces,1,,,0,,0,1,127
-valeur,0,,,,,,,,,9,718
+valeur,1,,,,,,,,,9,718
 valeur cy,0,,,,,,,,,1,718
 vals,1,,,,,,0,1,0,1,718
 varres,1,,,,,,,,,1,718
