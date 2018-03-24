@@ -31,6 +31,7 @@ replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=
 **destring somehow
 
 encode grains, generate(grains_num) 
+drop if grains=="Pas grain (0)"
  
 *** corrections
 *replace year=1741 if year==3
@@ -58,148 +59,106 @@ drop if sourcetype=="Résumé"  & year==1788
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
 sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
 quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
-drop if dup>1 
-clonevar sourcetype_grains=sourcetype
-replace sourcetype_grains="National" if sourcetype=="Résumé"
-replace sourcetype_grains="National" if sourcetype=="Tableau des quantités"
-replace sourcetype_grains="National" if sourcetype=="Objet Général"
-replace sourcetype_grains="National" if sourcetype=="National toutes directions tous partenaires"
-
-**merge local and national par directions series (Guillaume please check these lines!!!)
-clonevar sourcetype_merged=sourcetype 
-replace sourcetype_merged=3 if sourcetype_merged==5
-replace sourcetype_merged=3 if sourcetype_merged==6
-
-*combine Resumé and Objet Général
-replace sourcetype_merged=8 if sourcetype=="Résumé"
-replace sourcetype_merged=8 if sourcetype=="Tableau de marchandises"
-replace sourcetype_merged=8 if sourcetype=="Tableau des quantités"
-
-*drop local without direction and strange things from the 1780s (mainly colonies for 1789)
-***NATIONAL PARTNAIRES MANQUANTS IS IMPORTANT, IT S ALL WE HAVE FOR the 1780s. 
-drop if  sourcetype_merged!=8 & geography==.
-*force Objet général entries with a geography into Objet Général, assuming they are simply late coming data (CHECK THIS WITH GUILLAUME!)
-replace geography=0 if sourcetype_merged==8
+*drop if dup>1 
 
 drop if year==.
+drop if geography==.
+***** examine by series Bayonne, Bordeaux, La Rochelle, Marseille, Nantes, Rennes
+keep if sourcetype=="Local"
 
-** to reconstruct the series of values, I need to EGEN TOTAL of all different reported values by year, geography, type of grain and importexport dummy. 
+bys grains year geography importexport : egen eachgrain=total(value_inclusive)
+twoway (line eachgrain year if geography==19 & grains_num==2 & importexport==0) (line eachgrain year if geography==19 & grains_num==2 & importexport==1)
+egen partners = nvals(pays_simplification), by(year importexport geography grains) 
+gen period="empty"
+replace period="Aearly" if year<1756 
+replace period="Bsevenywar" if year>1755 & year<1764
+replace period="Cliberalization" if year>1763 & year<1776
+replace period="Damericanwar" if year>1775 & year<1784
+replace period="Ecrisis" if year>1783 & year<1790
+bys period grains  geography importexport : egen avpartners=mean(partners)
 
-bys year geography grains importexport : egen totalv=total(value_inclusive)
+*Bordeaux
+twoway (line eachgrain year if geography==4 & grains_num==2 & importexport==0 & year!=1770 & year!=1771) (line eachgrain year if geography==4 & grains_num==3 & importexport==1)
+*Bayonne
+twoway (line eachgrain year if geography==2 & grains_num==2 & importexport==0) (line eachgrain year if geography==2 & grains_num==2 & importexport==1)
+*La Rochelle 14
+twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==2 & importexport==1)
+twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==3 & importexport==1)
+twoway (line eachgrain year if geography==14 & grains_num==1 & importexport==0) (line eachgrain year if geography==14 & grains_num==1 & importexport==1)
+bys year marchandises_simplification importexport geography : egen marchsimp=total(value_inclusive)
+bys year grains_num  importexport geography: egen countryshareden=total(value_inclusive)
+bys year grains_num  importexport geography pays_grouping: egen countrysharenum=total(value_inclusive)
+bys year grains_num importexport geography pays_grouping: gen countryshare=countrysharenum/countryshareden*100
+bys period grains_num  importexport geography: egen countrysharedenp=total(value_inclusive)
+bys period grains_num  importexport geography pays_grouping: egen countrysharenump=total(value_inclusive)
+bys period grains_num importexport geography pays_grouping: gen countrysharep=countrysharenump/countrysharedenp*100
 
-collapse(mean) totalv, by (year geography grains importexport)
-***gen total of local series
-bys year grains importexport: egen localtotal=total(totalv) if geography!=0
+* Nantes 21
+twoway (line eachgrain year if geography==21 & grains_num==2 & importexport==0) (line eachgrain year if geography==21 & grains_num==3 & importexport==1)
+
+* Rennes 23
+twoway (line eachgrain year if geography==23 & grains_num==2 & importexport==1) (line eachgrain year if geography==21 & grains_num==3 & importexport==1)
+
+*Rouen 24
+twoway (line eachgrain year if geography==24 & grains_num==2 & importexport==0) (line eachgrain year if geography==24 & grains_num==2 & importexport==1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**merge local and national par directions series (Guillaume please check these lines!!!)
+
+
+clonevar sourcetype_merged=sourcetype 
+replace sourcetype_merged="National" if sourcetype=="National toutes directions tous partenaires"
+replace sourcetype_merged="Local" if sourcetype=="National toutes directions partenaires manquants"
+replace sourcetype_merged="Local" if geography!=.
+keep if sourcetype_merged=="Local"
+
+
+drop if year==.
+drop if geography==.
+
+
+
+bys year geography importexport : egen allgrains=total(value_inclusive)
+
+ 
+***
+collapse (mean)  allgrains, by(year geography importexport)
+***reshape import export
+reshape wide allgrains, i(year geography) j(importexport)
 *** how much do the local series capture of the national one?
-gen 
-  
+merge m:1 year using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\belfast_natgtrade_corrected.dta"
+gen portshareimport=allgrains0/newimp*100
+gen portshareexport=allgrains1/newexp*100
+bys year : egen controltotexp=total(portshareexport)
+bys year : egen controltotimp=total(portshareimport)
 
+gen period="empty"
+replace period="Aearly" if year<1756 & year>1751
+replace period="Bsevenywar" if year>1755 & year<1764
+replace period="Cliberalization" if year>1763 & year<1776
+replace period="Damericanwar" if year>1775 & year<1784
+replace period="Ecrisis" if year>1783 & year<1790
+replace period="Frevolutionnapoleon" if year>1789 & year<1814
+replace period="Grestoration" if year>1813 & year<1823
+drop if year==1823
 
-
-*charges et sacs
-replace u_conv="kg" if quantity_unit_ortho=="charges"
-replace q_conv=0.4895*243 if quantity_unit_ortho=="charges"
-replace quantites_metric=quantit*q_conv if quantites_metric==.
-
-gen unit_price_kg=0
-replace unit_price_kg=value_inclusive/quantites_metric if u_conv=="kg"
-replace unit_price_kg=. if unit_price_kg==0
-
-
-
-**** CHECK FOR OUTLIERS
-twoway (scatter unit_price_kg quantites_metric if grains=="Froment (1)"), by (geography)
-twoway (line unit_price_kg quantites_metric year if grains=="Froment (1)"), by (geography)
-
-***compute average price as yearly weighted average of unit_price_kg for each type of grain and each geography and each
-bys year grains geography: egen num= total(quantites_metric*unit_price_kg*!missing(quantites_metric, unit_price_kg)) 
-bys year grains geography: egen den= total(quantites_metric*!missing(quantites_metric, unit_price_kg)) 
-gen wtpricekg=num/den
-
-twoway (scatter unit_price_kg year if grains=="Froment (1)" & geography==20)(line wtpricekg year if grains=="Froment (1)"& geography==20)
-bys year grains geography importexport: egen totalpkg=sum(value_inclusive)
-
-*study quantities
-bys year grains geography importexport: egen totalq=sum(quantites_metric) if  unit_price_kg!=.
-gen quantitkg=totalpkg/wtpricekg
-twoway (scatter totalq year if grains=="Froment (1)" & geography==20 & importexport==1)(line quantitkg year if grains=="Froment (1)"& geography==20 & importexport==1)(scatter totalq year if grains=="Froment (1)" & geography==20 & importexport==0)(line quantitkg year if grains=="Froment (1)"& geography==20 & importexport==0)
-
-*** compute average price by q_unit
-gen priceu=value_inclusive/quantit
-bys year grains geography quantity_unit_ortho : egen numu= total(quantit*priceu*!missing(quantit, priceu))
-bys year grains geography quantity_unit_ortho : egen demu= total(quantit*!missing(quantit, priceu))
-gen avpriceu=numu/demu
-twoway (scatter priceu year if grains=="Froment (1)" & geography==15 & quantity_unit_ortho=="tonneaux")(line avpriceu year if grains=="Froment (1)" & geography==15 & quantity_unit_ortho=="tonneaux")
-twoway (scatter priceu year if grains=="Froment (1)" & geography==4 & quantity_unit_ortho=="boisseau")(line avpriceu year if grains=="Froment (1)" & geography==4 & quantity_unit_ortho=="boisseau")
-***study local quantities
-*Marseille based on kg is ok!!!
-**Bordeaux based on the boisseau until 1773 and on the livre starting from 1765
-gen qpriceu=totalpkg/avpriceu
-browse qpriceu if geography==4 & grains_num==1 & quantity_unit_ortho=="boisseau" 
-*this is the q of boisseaux in Bordeaux
-twoway (line qpriceu year if grains=="Froment (1)" & geography==4 & quantity_unit_ortho=="boisseau" & importexport==0 & year!=1770)(line qpriceu year if grains=="Froment (1)" & geography==4 & quantity_unit_ortho=="livres" & importexport==0& year!=1770)
-bys grains geography quantity_unit_ortho importexport: egen avqpriceu=mean(qpriceu)
-bys grains geography quantity_unit_ortho importexport: egen sdpriceu=sd(qpriceu)
-gen pcdevpriceu=sdpriceu/avqpriceu*100
-collapse (mean) pcdevpriceu, by(grains geography quantity_unit_ortho importexport)
-
-***total trade
-bys year grains geography: egen totaltrade=sum(value_inclusive)
-gen qtotaltrade=totaltrade/avpriceu
-bys grains geography quantity_unit_ortho : egen avqu=mean(qtotaltrade)
-bys grains geography quantity_unit_ortho : egen sdqu=sd(qtotaltrade)
-gen pcdevu= sdqu/avqu*100
-collapse (mean) pcdevu , by(grains geography quantity_unit_ortho)
-
-
-*** compute local price indexes by year and then divide year variation by index for each locality
-* generate ln_priceu
-*gen lnpriceu=ln(priceu)
-
-* regression to compute price index
-** Bayonne
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==2 & grains=="Froment (1)"
-
-
-** Bordeaux
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==4 & grains=="Froment (1)"
-
-**La Rochelle
-
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==15 & grains=="Froment (1)"
-**Marseille
-
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==20 & grains=="Froment (1)"
-**Nantes
-
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==22 & grains=="Froment (1)"
-**Rennes
-
-*xi: regress lnpriceu i.year i.quantity_unit_ortho i.importexport [iweight=value_inclusive] if geography==24 & grains=="Froment (1)"
-
-*save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\average_prices.dta"
-*merge m:1 year geography using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\priceindex_variousdirection.dta"
-
-*compute BE coefficients of E(q) on var(prindex)
-**gen var
-*bys year grains geography : egen sdprindex=sd(prindex)
-*gen varprindex=sdprindex^2
-
-***gen E(q)
-*bys year grains geography : egen totaltrade=sum(value_inclusive)
-****ETC INCOMPLETE HERE: I should have calculated totaltrade/L.totaltrade and then divided it by prindex/L.prindex and the average the result...
-
-*** compute q net export
-*collapse(sum)quantites_metric, by (year grains geography importexport)
-*reshape wide quantites_metric, i(year grains geography) j(importexport)
-*replace quantites_metric0=0 if quantites_metric0==. & quantites_metric1!=.
-*replace quantites_metric1=0 if quantites_metric1==. & quantites_metric0!=.
-
-*bys year grains geography : gen qnetexport=quantites_metric0-quantites_metric1
-**bys year grains geography: gen totexport=quantites_metric0+quantites_metric1
-**bysort grains geography : egen sdprice = sd(price)
-**gen price_var=sdprice^2
-**twoway (line quantites_metric0 quantites_metric1 year if grains=="Froment (1)"  & geography== 4 | geography==20), by (geography)
-
-
-
+bys period geography : egen numimp=total(allgrains0)
+bys period geography : egen denimp=total(newimp)
+gen shareimp=numimp/denimp*100
+bys period geography : egen numexp=total(allgrains1)
+bys period geography : egen denexp=total(newexp)
+gen shareexp=numexp/denexp*100
+collapse (mean) shareimp shareexp, by(geography period)
