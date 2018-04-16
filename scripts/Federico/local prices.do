@@ -91,6 +91,7 @@ drop if year==.
 *charges et sacs
 replace u_conv="kg" if quantity_unit_ortho=="charges"
 replace q_conv=0.4895*243 if quantity_unit_ortho=="charges"
+replace q_conv=0.4895*300 if quantity_unit_ortho=="charges" & prix_unitaire>=28
 replace quantites_metric=quantit*q_conv if quantites_metric==.
 
 gen unit_price_kg=0
@@ -108,9 +109,11 @@ bys year grains geography: egen num= total(quantites_metric*unit_price_kg*!missi
 bys year grains geography: egen den= total(quantites_metric*!missing(quantites_metric, unit_price_kg)) 
 gen wtpricekg=num/den
 
-twoway (scatter unit_price_kg year if grains=="Froment (1)" & geography==20)(line wtpricekg year if grains=="Froment (1)"& geography==20)
+twoway (scatter unit_price_kg year if grains=="Froment (1)" & geography==19)(line wtpricekg year if grains=="Froment (1)"& geography==19)
 bys year grains geography importexport: egen totalpkg=sum(value_inclusive)
 
+***Effect of udm on price
+gen ln
 *study quantities
 bys year grains geography importexport: egen totalq=sum(quantites_metric) if  unit_price_kg!=.
 gen quantitkg=totalpkg/wtpricekg
