@@ -2728,23 +2728,24 @@ cadres pour tableaux,,,non,0
 cafas,,,non,0
 café,Hors Canada,,non,1
 café avarié,Hors Canada,,non,1
-café commun,,,non,0
-café commun du Levant,,,non,0
-café de Bourbon,,,non,1
-café de la Dominique,,,non,0
-café de la Martinique,,,non,0
-café de Moka,,,non,1
-café des entrepôts,,,non,0
+café commun,Hors Canada,,non,0
+café commun du Levant,Hors Canada,,non,0
+café d'Amérique,Hors Canada,,non,
+café de Bourbon,Hors Canada,,non,1
+café de la Dominique,Hors Canada,,non,0
+café de la Martinique,Hors Canada,,non,0
+café de Moka,Hors Canada,,non,1
+café des entrepôts,Hors Canada,,non,0
 café des Indes,Hors Canada,Indes,non,1
 café du Levant,Hors Canada,Levant,non,1
 café en parchemin,Hors Canada,,non,1
-café entré par Bordeaux et Le Havre,,,non,0
-café et cacao,,,non,0
-café et provisions,,,non,0
-café et sucre et thé,,,non,0
-café ordinaire,,,non,0
-café pour Genève,,,non,0
-café pur,,,non,1
+café entré par Bordeaux et Le Havre,Hors Canada,,non,0
+café et cacao,Hors Canada,,non,0
+café et provisions,Hors Canada,,non,0
+café et sucre et thé,Hors Canada,,non,0
+café ordinaire,Hors Canada,,non,0
+café pour Genève,Hors Canada,,non,0
+café pur,Hors Canada,,non,1
 café trié,Hors Canada,,non,1
 cafetière de fer-blanc,,,non,0
 cafetières,,,non,0
@@ -6954,6 +6955,7 @@ esturgeons,,,oui,0
 étain du Pérou,,,non,1
 étain en bloc,,,non,0
 étain en enclumes de fer,,,non,0
+étain en faux,,,non,
 étain en feuilles,,,non,0
 étain en lingots,,,non,0
 étain en plats,,,non,0
@@ -7616,6 +7618,7 @@ faux à faucher,,,non,0
 faux d'acier et de fer,,,non,0
 faux de fer,,,non,0
 faux et faucilles,,,non,0
+faux et ferailles,,,non,
 favelottes,,,non,0
 favelottes en gerbe,,,non,0
 fayaux,,,oui,0
@@ -9846,7 +9849,7 @@ guêtres de toile,,,non,0
 gueuse de fer,,,non,0
 guftas,,,non,0
 guidive des prises,,,non,
-guigan de Bengale,,,non,
+guigan de Bengale,,,oui,
 guignolet en ratafia,,,non,0
 guignolet en ratafia de cerise,,,non,0
 guildive,Hors Canada,antilles,non,1
@@ -9887,6 +9890,7 @@ Guinée tachée,,,oui,0
 guingan,Hors Canada,France,non,1
 guingan blanc,,,non,0
 guingan bleu,,,non,0
+guingan de Bengale,,,non,
 guingan de coton,,,non,0
 guingan de fil,,,non,0
 guingan de lin,,,non,0
@@ -15347,6 +15351,7 @@ pierriers garnis de leurs boites,,,non,0
 pigaras,,,non,0
 pigeons,,,non,0
 pigeons sauvages,,,non,0
+pignes de fer à corde,,,non,
 pignons,,,non,0
 pignons cassés,,,non,0
 pignons d'épine,,,non,0
@@ -16762,16 +16767,16 @@ quincaillerie de fer ???,,,non,0
 quincaillerie de fer clou,,,non,0
 quincaillerie de fer en fil,,,non,0
 quincaillerie de fer et acier ???,,,non,0
-quincaillerie de fer et d'acier et moulins à café,,,non,0
-quincaillerie de fer et étain en faux,,,non,0
+quincaillerie de fer et d'acier et moulins à café,,,oui,0
+quincaillerie de fer et étain en faux,,,oui,0
 quincaillerie de fer et grosse,,,non,0
-quincaillerie de fer faux,,,non,0
-quincaillerie de fer faux et ferraille,,,non,0
+quincaillerie de fer faux,,,oui,0
+quincaillerie de fer faux et ferraille,,,oui,0
 quincaillerie de fer grosse,,,non,0
 quincaillerie de fer ordinaire,,,non,0
-quincaillerie de fer pigne à corde,,,non,0
-quincaillerie de fer scie,,,non,0
-quincaillerie de fil de fer,,,non,0
+quincaillerie de fer pigne à corde,,,oui,0
+quincaillerie de fer scie,,,oui,0
+quincaillerie de fil de fer,,,oui,0
 quincaillerie de fumée,,,non,0
 quincaillerie de laiton filé,,,oui,0
 quincaillerie de laiton filé et jaune,,,oui,0
@@ -16780,7 +16785,7 @@ quincaillerie de laiton filé noir pour épingle,,,oui,0
 quincaillerie de menu fer,,,non,0
 quincaillerie de platine,,,non,0
 quincaillerie de soie,,,non,0
-quincaillerie diverse,,,non,0
+quincaillerie diverse,,,oui,0
 quincaillerie en ???,,,non,0
 quincaillerie et mercerie,,,non,0
 quincaillerie étrangère,,,non,0

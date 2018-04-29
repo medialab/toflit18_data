@@ -2631,6 +2631,7 @@ café,0b,x,non
 café avarié,0b,,non
 café commun,0b,x,non
 café commun du Levant,0b,x,non
+café d'Amérique,0b,,non
 café de Bourbon,0b,x,non
 café de la Dominique,0b,,non
 café de la Martinique,0b,,non
@@ -6556,6 +6557,7 @@ esturgeon salé,0a,x,non
 étain du Pérou,6j,,non
 étain en bloc,6j,x,non
 étain en enclumes de fer,6j,,non
+étain en faux,6j,,non
 étain en feuilles,6j,x,non
 étain en lingots,6j,x,non
 étain en plats,6j,x,non
@@ -7184,6 +7186,7 @@ faux à faucher,6j,x,non
 faux d'acier et de fer,6j,,non
 faux de fer,6j,,non
 faux et faucilles,6j,x,non
+faux et ferailles,6j,,non
 favelottes,???,,non
 favelottes en gerbe,???,,non
 fayoles,???,,non
@@ -9297,7 +9300,7 @@ guêtres de toile,8,x,non
 gueuse de fer,6j,,non
 guftas,???,,non
 guidive des prises,???,,non
-guigan de Bengale,6g,,non
+guigan de Bengale,6g,,oui
 guignolet en ratafia,1,x,non
 guignolet en ratafia de cerise,1,,non
 guildive,1,x,non
@@ -9325,6 +9328,7 @@ guinée tachée,6g,,non
 guingan,6i,x,non
 guingan blanc,6i,,non
 guingan bleu,6i,,non
+guingan de Bengale,,,non
 guingan de coton,6g,,non
 guingan de fil,6i,,non
 guingan de lin,6d,,non
@@ -14427,6 +14431,7 @@ pierriers garnis de leurs boites,8,,non
 pigaras,2,,non
 pigeons,0a,x,non
 pigeons sauvages,0a,x,non
+pignes de fer à corde,6j,,non
 pignons,0a,x,non
 pignons cassés,0a,,non
 pignons d'épine,???,x,non
@@ -15796,21 +15801,21 @@ quincaillerie de fer ???,6j,,non
 quincaillerie de fer clou,6j,x,non
 quincaillerie de fer en fil,6j,x,non
 quincaillerie de fer et acier ???,6j,x,non
-quincaillerie de fer et d'acier et moulins à café,9b,x,non
-quincaillerie de fer et étain en faux,6j,,non
+quincaillerie de fer et d'acier et moulins à café,9b,x,oui
+quincaillerie de fer et étain en faux,6j,,oui
 quincaillerie de fer et grosse,6j,x,non
-quincaillerie de fer faux,6j,x,non
-quincaillerie de fer faux et ferraille,6j,x,non
+quincaillerie de fer faux,6j,x,oui
+quincaillerie de fer faux et ferraille,6j,x,oui
 quincaillerie de fer grosse,6j,x,non
 quincaillerie de fer ordinaire,6j,,non
-quincaillerie de fer pigne à corde,6j,x,non
-quincaillerie de fer scie,6j,x,non
-quincaillerie de fil de fer,6j,x,non
+quincaillerie de fer pigne à corde,6j,x,oui
+quincaillerie de fer scie,6j,x,oui
+quincaillerie de fil de fer,6j,x,oui
 quincaillerie de fumée,???,x,non
 quincaillerie de menu fer,6j,x,non
 quincaillerie de platine,6j,,non
 quincaillerie de soie,9c,x,non
-quincaillerie diverse,6j,x,non
+quincaillerie diverse,6j,x,oui
 quincaillerie en ???,9c,x,non
 quincaillerie et mercerie,9b,x,non
 quincaillerie étrangère,6j,x,non
