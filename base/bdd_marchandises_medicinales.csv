@@ -15,6 +15,7 @@ marchandises_simplification,medical_classification,obsolete,nbr_obs,sitc18_rev3
 ??? particulièrement en chevaux,not a medical product,non,6,???
 ???sse,not a medical product,non,1,???
 ?ufs,not a medical product,non,,???
+à jamis,not a medical product,non,207,6g
 abassis,not a medical product,non,3,9a
 abats,not a medical product,non,1,0a
 abattis de morue,not a medical product,non,1,0a
@@ -708,7 +709,7 @@ balance et ses poids,not a medical product,non,1,8
 balance ou fléaux en fer,not a medical product,non,1,8
 balance petite,not a medical product,non,1,8
 balance romaine,not a medical product,non,3,8
-balauste,not a medical product,non,9,2
+balauste,not a medical product,oui,9,2
 balcon de fer,not a medical product,non,1,6j
 baleine,not a medical product,non,121,2
 baleine apprêtée,not a medical product,non,1,2
@@ -3017,7 +3018,7 @@ cardines,not a medical product,non,8,0a
 cardines de bois,not a medical product,non,5,???
 cardines de sapin,not a medical product,non,1,???
 cardon,not a medical product,non,7,0a
-cards à carder,not a medical product,non,1,???
+cards à carder,not a medical product,oui,1,???
 caret,not a medical product,non,34,7
 cargaison,not a medical product,non,1,9c
 caril,not a medical product,non,1,???
@@ -6244,7 +6245,7 @@ embarcations à dépecer,not a medical product,non,5,7
 embarcations avec agrès,not a medical product,non,20,7
 embarcations en état de servir,not a medical product,non,2,7
 embarcations et autres objets de marine,not a medical product,non,44,7
-embarcations et navire marchand,not a medical product,non,1,7
+embarcations et navire marchand,not a medical product,oui,1,7
 embarcations et voiles de navire,not a medical product,non,3,7
 émeraudes brutes,not a medical product,non,1,6k
 émeraudes et opales taillées,not a medical product,non,1,6k
@@ -7261,7 +7262,6 @@ fer en fonte,not a medical product,non,7,6j
 fer en fourrure,not a medical product,non,1,6j
 fer en grappes,not a medical product,non,1,6j
 fer en grenades,not a medical product,non,,
-fer en grenaille,not a medical product,non,16,6j
 fer en grenaille,not a medical product,non,2,6j
 fer en grillons,not a medical product,non,3,6j
 fer en grosses,not a medical product,non,,
@@ -7926,7 +7926,7 @@ flèches marines,not a medical product,non,19,6j
 fleur de balauste,not a medical product,non,3,???
 fleur de souffle,not a medical product,non,1,???
 fleur de verre,not a medical product,non,1,6k
-fleures,not a medical product,non,1,???
+fleures,not a medical product,oui,1,???
 fleuret,not a medical product,non,70,8
 fleuret à faire des armes,not a medical product,non,1,8
 fleuret et filoselle,not a medical product,non,1,2
@@ -8214,7 +8214,7 @@ fruits de table secs et tapés autres que pistache,not a medical product,non,2,0
 fruits des Îles et des Indes,not a medical product,non,3,0b
 fruits divers et graines,not a medical product,non,1,0a
 fruits en confitures,not a medical product,non,7,0a
-fruits et frais à l'eau-de-vie,not a medical product,non,5,0a
+fruits et frais à l'eau-de-vie,not a medical product,oui,5,0a
 fruits et légumes confits au vinaigre,not a medical product,non,33,0a
 fruits et légumes confits et marinés,not a medical product,non,67,0a
 fruits frais,not a medical product,non,546,0a
@@ -8975,9 +8975,8 @@ graine de chanvre,not a medical product,non,223,2
 graine de chanvre colza navette et oliette,not a medical product,non,1,2
 graine de chanvre et de trèfle,not a medical product,non,1,2
 graine de chapelets,not a medical product,non,17,2
-graine de choux,not a medical product,non,87,2
-graine de choux-fleurs,not a medical product,non,7,2
 graine de choux,not a medical product,non,,
+graine de choux-fleurs,not a medical product,oui,7,2
 graine de citron,not a medical product,non,1,2
 graine de clave,not a medical product,non,1,2
 graine de cochenille,not a medical product,non,6,2
@@ -9974,7 +9973,6 @@ jambon non fumé,not a medical product,non,2,0a
 jambon pour l'entrepôt de la Compagnie,not a medical product,non,,
 jambon salé,not a medical product,non,87,0a
 jambons,not a medical product,non,7,0a
-à jamis,not a medical product,non,207,6g
 jantes,not a medical product,non,1,7
 jantes et rais,not a medical product,non,1,7
 jardinage divers,not a medical product,non,1,2
@@ -12178,8 +12176,8 @@ mousseline,not a medical product,non,611,6g
 mousseline aune,not a medical product,non,1,6g
 mousseline blanche,not a medical product,non,1,6g
 mousseline brochée de coton,not a medical product,non,1,6g
-mousseline brodée de coton,not a medical product,non,1,6g
 mousseline brodée,not a medical product,non,3,6g
+mousseline brodée de coton,not a medical product,non,1,6g
 mousseline brodée en soie de couleur,not a medical product,non,,
 mousseline de coton,not a medical product,non,99,6g
 mousseline de coton et des Indes,not a medical product,non,3,6g
@@ -12204,7 +12202,7 @@ mousseline nationale,not a medical product,non,4,6g
 mousseline rayées,not a medical product,non,,
 mousseline rayées à fleurs,not a medical product,non,,
 mousseline siamoise et de Suisse à la ligne de soie,not a medical product,non,1,6f
-mousseline unies,not a medical product,non,3,6g
+mousseline unies,not a medical product,oui,3,6g
 mousselinette,not a medical product,non,1,6g
 mousselinette de coton,not a medical product,non,1,6g
 mousserons,not a medical product,non,41,0a
@@ -14968,7 +14966,6 @@ plants de citronnier,not a medical product,non,7,2
 plants de fleurs,not a medical product,non,23,2
 plants de jardin,not a medical product,non,1,2
 plants de jasmin,not a medical product,non,7,2
-plants de mûriers,not a medical product,non,14,2
 plants de mûriers,not a medical product,non,2,2
 plants de rouge d'Espagne,not a medical product,non,1,2
 plants de tabac,not a medical product,non,1,2
@@ -15390,7 +15387,7 @@ pompons,not a medical product,non,1,8
 pompons d'argent et de soie,not a medical product,non,1,8
 poncire,not a medical product,non,54,0a
 ponçure de pin,not a medical product,non,,
-Pondichery,not a medical product,non,,
+Pondichery,not a medical product,oui,,
 popeline,not a medical product,non,1,6f
 popeline de coton et soie,not a medical product,non,1,6f
 popeline de filoselle,not a medical product,non,1,6f
@@ -15617,7 +15614,7 @@ poupée,not a medical product,non,4,8
 poupée d'enfant,not a medical product,non,1,8
 pour les peintures et la teinture,not a medical product,non,1,5
 pourette,not a medical product,non,1,0a
-pourette de mûriers,not a medical product,non,1,2
+pourette de mûriers,not a medical product,oui,1,2
 pousses de houblon et vignes,not a medical product,non,1,0a
 poussière,not a medical product,non,2,9c
 poussière d'écorce de pin,not a medical product,non,1,2
@@ -16202,6 +16199,10 @@ roquelance écarlate,not a medical product,non,1,8
 roquette,not a medical product,non,1,0a
 rosaire,not a medical product,non,2,8
 rosarde,not a medical product,non,1,???
+rose,not a medical product,non,1,2
+rose de dictam,narrow medical product,non,1,2
+rose de Provins,not a medical product,non,2,2
+rose sèche,not a medical product,non,1,2
 roseaux,not a medical product,non,86,2
 roseaux champêtres,not a medical product,non,1,2
 roseaux coupés,not a medical product,non,8,2
@@ -16211,10 +16212,6 @@ roseaux en canon,not a medical product,non,1,2
 roseaux petits,not a medical product,non,,
 roseaux pour cannes,not a medical product,non,3,2
 rosée de vie,not a medical product,non,1,???
-rose,not a medical product,non,1,2
-rose de dictam,narrow medical product,non,1,2
-rose de Provins,not a medical product,non,2,2
-rose sèche,not a medical product,non,1,2
 rosette de cuivre,not a medical product,non,253,6j
 rosette de cuivre et mitraille de cuivre,not a medical product,non,1,6j
 rosette ou plaques de cuivres non ouvré,not a medical product,non,11,6j
@@ -17116,7 +17113,7 @@ soie grège écrue doupion,not a medical product,non,1,6f
 soie grège par Marseille,not a medical product,non,1,6f
 soie lorce,not a medical product,non,1,6f
 soie mauresque,not a medical product,non,4,2
-soie mêlée,not a medical product,non,1,2
+soie mêlée,not a medical product,oui,1,2
 soie moulinée,not a medical product,non,3,6f
 soie moulinée autre que doupion,not a medical product,non,1,6f
 soie moulinée doupion,not a medical product,non,3,6f
@@ -17363,7 +17360,7 @@ stockfisch,not a medical product,non,401,0a
 stockfisch et morue,not a medical product,non,,0a
 stockfisch mariné et salé,not a medical product,non,15,0a
 stockfisch salé,not a medical product,non,4,0a
-stopilles,not a medical product,non,1,6h
+stopilles,not a medical product,oui,1,6h
 storax,narrow medical product,non,180,2
 storax calames,narrow medical product,non,2,5
 storax calamin,narrow medical product,non,1,5
@@ -17973,7 +17970,7 @@ tentes et voile,not a medical product,non,1,9b
 tentes et voile en rolles ou pièces,not a medical product,non,1,9b
 tepaye des Indes,not a medical product,non,1,???
 tepays,not a medical product,non,,
-tepis,not a medical product,non,,
+tepis,not a medical product,oui,,
 terc,not a medical product,non,4,???
 térébenthine,not a medical product,non,479,5
 térébenthine commune,not a medical product,non,2,5
@@ -18006,7 +18003,7 @@ terraque,not a medical product,non,1,???
 terrasse,not a medical product,non,1,9c
 terre,not a medical product,non,64,2
 terre ?,not a medical product,non,1,2
-terre à baril,not a medical product,non,1,2
+terre à baril,not a medical product,oui,1,2
 terre à bâtir,not a medical product,non,4,2
 terre à brûler,not a medical product,non,1,2
 terre à ciment,not a medical product,non,13,2
@@ -18202,6 +18199,7 @@ toile à carreaux pour matelas,not a medical product,non,8,6h
 toile à cottray,not a medical product,non,1,6h
 toile à doubler,not a medical product,non,1,6h
 toile à faire drap de lin,not a medical product,non,1,6h
+toile à jamis,not a medical product,non,10,6g
 toile à matelas,not a medical product,non,68,6h
 toile à matelas et à carreaux,not a medical product,non,3,6h
 toile à matelot,not a medical product,non,5,6h
@@ -18224,7 +18222,6 @@ toile à voile de 24 aunes,not a medical product,non,1,7
 toile à voile étrangère,not a medical product,non,,
 toile abas,not a medical product,non,1,6h
 toile abat,not a medical product,non,15,6h
-toile à jamis,not a medical product,non,10,6g
 toile alanea,not a medical product,non,1,6h
 toile amant,not a medical product,non,1,6h
 toile anascotes,not a medical product,non,,
@@ -18288,7 +18285,7 @@ toile blanche de coton et fil,not a medical product,non,1,6h
 toile blanche de coton et fine,not a medical product,non,2,6g
 toile blanche de coton et nationale,not a medical product,non,6,6g
 toile blanche de coton et rayée,not a medical product,non,1,6g
-toile blanche de coton fine,not a medical product,non,1,6g
+toile blanche de coton fine,not a medical product,oui,1,6g
 toile blanche de coton pour mouchoirs,not a medical product,non,1,6g
 toile blanche de France,not a medical product,non,2,6h
 toile blanche de Hollande,not a medical product,non,1,6h
@@ -19012,7 +19009,7 @@ toile en fair,not a medical product,non,2,6h
 toile en sacs,not a medical product,non,3,6h
 toile en serviettes,not a medical product,non,,
 toile entre large,not a medical product,non,,
-toile escamite,not a medical product,non,,
+toile escamite,not a medical product,oui,,
 toile et bonneterie,not a medical product,non,1,9b
 toile et laine à bouquets de laine,not a medical product,non,1,6e
 toile et treillis lustrés,not a medical product,non,1,6i

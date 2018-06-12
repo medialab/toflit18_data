@@ -15,6 +15,7 @@ marchandises_simplification,provenance_canada,details_provenance,obsolete,import
 ??? particulièrement en chevaux,,,non,0
 ???sse,,,non,0
 ?ufs,,,non,0
+à jamis,,,non,0
 abassis,,,non,0
 abats,,,non,0
 abattis de morue,,,non,0
@@ -734,7 +735,7 @@ balance et ses poids,,,non,0
 balance ou fléaux en fer,,,non,0
 balance petite,,,non,0
 balance romaine,,,non,0
-balauste,,,non,0
+balauste,,,oui,0
 balcon de fer,,,non,0
 baleine,Hors Canada,,non,1
 baleine apprêtée,,,non,0
@@ -3128,7 +3129,7 @@ cardines de bois,,,non,0
 cardines de sapin,,,non,0
 cardon,,,non,0
 cardons,,,oui,0
-cards à carder,,,non,0
+cards à carder,,,oui,0
 caret,Hors Canada,,non,1
 cargaison,,,non,0
 caril,Peut être Canada,,non,1
@@ -4860,8 +4861,6 @@ coton longue soie,,,non,1
 coton longue soie des entrepôts,,,non,0
 coton par Dunkerque,,,non,0
 coton rouge,,,non,0
-coton sitz et mousseline,,,oui,0
-coton sitz et mousseline en balles,,,oui,0
 coton sitz et mousseline,,,non,0
 coton sitz et mousseline en balles,,,non,0
 coton soufré,,,non,0
@@ -6626,7 +6625,7 @@ embarcations à dépecer,,,non,0
 embarcations avec agrès,,,non,0
 embarcations en état de servir,,,non,0
 embarcations et autres objets de marine,,,non,0
-embarcations et navire marchand,,,non,0
+embarcations et navire marchand,,,oui,0
 embarcations et voiles de navire,,,non,0
 émeraudes brutes,,,non,0
 émeraudes et opales taillées,,,non,0
@@ -7695,7 +7694,6 @@ fer en fourrure,,,non,0
 fer en grappes,,,non,0
 fer en grenades,,,non,0
 fer en grenaille,,,non,0
-fer en grenaille,,,non,0
 fer en grillons,,,non,0
 fer en grosses,,,non,0
 fer en guéné,,,non,0
@@ -8420,7 +8418,7 @@ flèches marines,,,non,0
 fleur de balauste,,,non,0
 fleur de souffle,,,non,0
 fleur de verre,,,non,0
-fleures,,,non,0
+fleures,,,oui,0
 fleuret,,,non,0
 fleuret à faire des armes,,,non,0
 fleuret et filoselle,,,non,0
@@ -8716,7 +8714,7 @@ fruits de table secs et tapés autres que pistache,,,non,0
 fruits des Îles et des Indes,,,non,0
 fruits divers et graines,,,non,0
 fruits en confitures,,,non,0
-fruits et frais à l'eau-de-vie,,,non,0
+fruits et frais à l'eau-de-vie,,,oui,0
 fruits et légumes confits au vinaigre,,,non,0
 fruits et légumes confits et marinés,,,non,0
 fruits frais,Hors Canada,,non,1
@@ -9512,8 +9510,7 @@ graine de chanvre colza navette et oliette,,,non,0
 graine de chanvre et de trèfle,,,non,0
 graine de chapelets,Hors Canada,,non,1
 graine de choux,,,non,0
-graine de choux-fleurs,,,non,0
-graine de choux,,,non,0
+graine de choux-fleurs,,,oui,0
 graine de citron,,,non,0
 graine de clave,,,non,0
 graine de cochenille,,,non,0
@@ -10590,7 +10587,6 @@ jambon pour l'entrepôt de la Compagnie,,,non,0
 jambon salé,,,non,0
 jambons,,,non,0
 jambons salés,,,oui,0
-à jamis,,,non,0
 jantes,,,non,0
 jantes et rais,,,non,0
 jardinage divers,,,non,0
@@ -12927,23 +12923,18 @@ mousse de lin,Hors Canada,,non,1
 mousse de mer,,,non,0
 mousse de mer et herbes à teindre,,,non,0
 mousse de roche,,,non,0
-mousseline brochée de coton,,,oui,0
-mousseline brodée de coton,,,oui,0
-mousseline de coton,,,oui,0
-mousseline de coton et nankin,,,oui,0
-mousseline de coton et nankin des Indes,,,oui,0
 mousseline,,,non,1
 mousseline aune,,,non,0
 mousseline blanche,,,non,0
 mousseline bordée,,,oui,0
 mousseline brochée de coton,,,non,0
-mousseline brodée de coton,,,non,0
 mousseline brodée,,,non,0
+mousseline brodée de coton,,,non,0
 mousseline brodée en soie de couleur,,,non,
 mousseline de coton,,,non,0
 mousseline de coton et des Indes,,,non,0
-mousseline de coton et nankin,,,non,1
-mousseline de coton et nankin des Indes,,,non,1
+mousseline de coton et nankin,,,non,0
+mousseline de coton et nankin des Indes,,,non,0
 mousseline de coton unies et brûlées,,,non,0
 mousseline de coton unies et peintes,,,non,0
 mousseline de France,,,non,0
@@ -12964,7 +12955,7 @@ mousseline nationale,,,non,0
 mousseline rayées,,,non,0
 mousseline rayées à fleurs,,,non,0
 mousseline siamoise et de Suisse à la ligne de soie,,,non,0
-mousseline unies,,,non,0
+mousseline unies,,,oui,0
 mousselinette,,,non,0
 mousselinette de coton,,,non,0
 mousserons,,,non,0
@@ -15899,7 +15890,6 @@ plants de fleurs,,,non,0
 plants de jardin,,,non,0
 plants de jasmin,,,non,0
 plants de mûriers,,,non,0
-plants de mûriers,,,non,0
 plants de rouge d'Espagne,,,non,0
 plants de tabac,,,non,0
 plants de vigne,,,non,0
@@ -16341,7 +16331,7 @@ pompons,,,non,0
 pompons d'argent et de soie,,,non,0
 poncire,,,non,0
 ponçure de pin,,,non,0
-Pondichery,,,non,
+Pondichery,,,oui,
 pondre à tirer,,,oui,0
 popeline,,,non,0
 popeline de coton et soie,,,non,0
@@ -16573,7 +16563,7 @@ poupée,,,non,0
 poupée d'enfant,,,non,0
 pour les peintures et la teinture,,,non,0
 pourette,,,non,0
-pourette de mûriers,,,non,0
+pourette de mûriers,,,oui,0
 pousses de houblon et vignes,,,non,0
 poussière,,,non,0
 poussière d'écorce de pin,,,non,0
@@ -17200,6 +17190,11 @@ roquelance écarlate,,,non,0
 roquette,,,non,0
 rosaire,,,non,0
 rosarde,,,non,0
+rose,,,non,0
+rose de dictam,,,non,0
+rose de province,,,oui,0
+rose de Provins,,,non,0
+rose sèche,,,non,0
 roseaux,,,non,0
 roseaux champêtres,,,non,0
 roseaux coupés,,,non,0
@@ -17209,11 +17204,6 @@ roseaux en canon,,,non,0
 roseaux petits,,,non,0
 roseaux pour cannes,,,non,0
 rosée de vie,,,non,0
-rose,,,non,0
-rose de dictam,,,non,0
-rose de province,,,oui,0
-rose de Provins,,,non,0
-rose sèche,,,non,0
 rosette de cuivre,,,non,0
 rosette de cuivre et mitraille de cuivre,,,non,0
 rosette ou plaques de cuivres non ouvré,,,non,0
@@ -18225,7 +18215,7 @@ soie grèse de Provence,,,oui,0
 soie grèse par Marseille,,,oui,0
 soie lorce,,,non,0
 soie mauresque,,,non,0
-soie mêlée,,,non,0
+soie mêlée,,,oui,0
 soie moulinée,,,non,0
 soie moulinée autre que doupion,,,non,0
 soie moulinée doupion,,,non,0
@@ -18482,7 +18472,7 @@ stockfisch,,,non,0
 stockfisch et morue,,,non,0
 stockfisch mariné et salé,,,non,0
 stockfisch salé,,,non,0
-stopilles,,,non,0
+stopilles,,,oui,0
 storax,,,non,0
 storax calames,,,non,0
 storax calamin,,,non,0
@@ -19130,7 +19120,7 @@ tentes et voile en rolles ou pièces,,,non,0
 tepaye des Indes,,,non,0
 tepays,,,non,0
 tepayx,,,oui,0
-tepis,,,non,0
+tepis,,,oui,0
 teraille ed terre,,,oui,0
 terc,,,non,0
 térébenthine,Hors Canada,,non,1
@@ -19168,7 +19158,7 @@ terraque,,,non,0
 terrasse,,,non,0
 terre,,,non,0
 terre ?,,,non,0
-terre à baril,,,non,0
+terre à baril,,,oui,0
 terre à bâtir,,,non,0
 terre à brûler,,,non,0
 terre à ciment,,,non,0
@@ -19398,6 +19388,7 @@ toile à cottray,,,non,0
 toile à doubler,,,non,0
 toile à faire drap de lin,,,non,0
 toile à faire linge,,,oui,0
+toile à jamis,,,non,0
 toile à matelas,,,non,0
 toile à matelas et à carreaux,,,non,0
 toile à matelot,,,non,0
@@ -19421,7 +19412,6 @@ toile à voile de 24 aunes,,,non,0
 toile à voile étrangère,,,non,
 toile abas,,,non,0
 toile abat,,,non,0
-toile à jamis,,,non,0
 toile alanea,,,non,0
 toile amant,,,non,0
 toile anascotes,,,non,0
@@ -19488,7 +19478,7 @@ toile blanche de coton et fil,,,non,0
 toile blanche de coton et fine,,,non,0
 toile blanche de coton et nationale,,,non,0
 toile blanche de coton et rayée,,,non,0
-toile blanche de coton fine,,,non,0
+toile blanche de coton fine,,,oui,0
 toile blanche de coton pour mouchoirs,,,non,0
 toile blanche de France,,,non,0
 toile blanche de Hollande,,,non,0
@@ -19922,7 +19912,7 @@ toile de coton ???,,,non,0
 toile de coton à bas,,,non,0
 toile de coton à fleurs,,,non,0
 toile de coton à imprimer,,,non,0
-toile de coton à jamis,,non,0
+toile de coton à jamis,,non,non,
 toile de coton aman,,,non,0
 toile de coton antoine,,,non,0
 toile de coton basin,,,non,0
@@ -20270,7 +20260,7 @@ toile en fair,,,non,0
 toile en sacs,,,non,0
 toile en serviettes,,,non,0
 toile entre large,,,non,0
-toile escamite,,,non,0
+toile escamite,,,oui,0
 toile et bonneterie,,,non,0
 toile et laine à bouquets de laine,,,non,0
 toile et treillis lustrés,,,non,0

@@ -15,6 +15,7 @@ marchandises_simplification,raw_cotton_classification,obsolete
 ??? particulièrement en chevaux,not raw cotton,non
 ???sse,not raw cotton,non
 ?ufs,not raw cotton,non
+à jamis,not raw cotton,non
 abassis,not raw cotton,non
 abats,not raw cotton,non
 abattis de morue,not raw cotton,non
@@ -708,7 +709,7 @@ balance et ses poids,not raw cotton,non
 balance ou fléaux en fer,not raw cotton,non
 balance petite,not raw cotton,non
 balance romaine,not raw cotton,non
-balauste,not raw cotton,non
+balauste,not raw cotton,oui
 balcon de fer,not raw cotton,non
 baleine,not raw cotton,non
 baleine apprêtée,not raw cotton,non
@@ -3017,7 +3018,7 @@ cardines,not raw cotton,non
 cardines de bois,not raw cotton,non
 cardines de sapin,not raw cotton,non
 cardon,not raw cotton,non
-cards à carder,not raw cotton,non
+cards à carder,not raw cotton,oui
 caret,not raw cotton,non
 cargaison,not raw cotton,non
 caril,not raw cotton,non
@@ -6243,7 +6244,7 @@ embarcations à dépecer,not raw cotton,non
 embarcations avec agrès,not raw cotton,non
 embarcations en état de servir,not raw cotton,non
 embarcations et autres objets de marine,not raw cotton,non
-embarcations et navire marchand,not raw cotton,non
+embarcations et navire marchand,not raw cotton,oui
 embarcations et voiles de navire,not raw cotton,non
 émeraudes brutes,not raw cotton,non
 émeraudes et opales taillées,not raw cotton,non
@@ -7261,7 +7262,6 @@ fer en fourrure,not raw cotton,non
 fer en grappes,not raw cotton,non
 fer en grenades,not raw cotton,non
 fer en grenaille,not raw cotton,non
-fer en grenaille,not raw cotton,non
 fer en grillons,not raw cotton,non
 fer en grosses,not raw cotton,non
 fer en guéné,not raw cotton,non
@@ -7925,7 +7925,7 @@ flèches marines,not raw cotton,non
 fleur de balauste,not raw cotton,non
 fleur de souffle,not raw cotton,non
 fleur de verre,not raw cotton,non
-fleures,not raw cotton,non
+fleures,not raw cotton,oui
 fleuret,not raw cotton,non
 fleuret à faire des armes,not raw cotton,non
 fleuret et filoselle,not raw cotton,non
@@ -8212,7 +8212,7 @@ fruits de table secs et tapés autres que pistache,not raw cotton,non
 fruits des Îles et des Indes,not raw cotton,non
 fruits divers et graines,not raw cotton,non
 fruits en confitures,not raw cotton,non
-fruits et frais à l'eau-de-vie,not raw cotton,non
+fruits et frais à l'eau-de-vie,not raw cotton,oui
 fruits et légumes confits au vinaigre,not raw cotton,non
 fruits et légumes confits et marinés,not raw cotton,non
 fruits frais,not raw cotton,non
@@ -8974,8 +8974,7 @@ graine de chanvre colza navette et oliette,not raw cotton,non
 graine de chanvre et de trèfle,not raw cotton,non
 graine de chapelets,not raw cotton,non
 graine de choux,not raw cotton,non
-graine de choux-fleurs,not raw cotton,non
-graine de choux,not raw cotton,non
+graine de choux-fleurs,not raw cotton,oui
 graine de citron,not raw cotton,non
 graine de clave,not raw cotton,non
 graine de cochenille,not raw cotton,non
@@ -9972,7 +9971,6 @@ jambon non fumé,not raw cotton,non
 jambon pour l'entrepôt de la Compagnie,not raw cotton,non
 jambon salé,not raw cotton,non
 jambons,not raw cotton,non
-à jamis,not raw cotton,non
 jantes,not raw cotton,non
 jantes et rais,not raw cotton,non
 jardinage divers,not raw cotton,non
@@ -12175,8 +12173,8 @@ mousseline,not raw cotton,non
 mousseline aune,not raw cotton,non
 mousseline blanche,not raw cotton,non
 mousseline brochée de coton,not raw cotton,non
-mousseline brodée de coton,not raw cotton,non
 mousseline brodée,not raw cotton,non
+mousseline brodée de coton,not raw cotton,non
 mousseline brodée en soie de couleur,not raw cotton,non
 mousseline de coton,not raw cotton,non
 mousseline de coton et des Indes,not raw cotton,non
@@ -12201,7 +12199,7 @@ mousseline nationale,not raw cotton,non
 mousseline rayées,not raw cotton,non
 mousseline rayées à fleurs,not raw cotton,non
 mousseline siamoise et de Suisse à la ligne de soie,not raw cotton,non
-mousseline unies,not raw cotton,non
+mousseline unies,not raw cotton,oui
 mousselinette,not raw cotton,non
 mousselinette de coton,not raw cotton,non
 mousserons,not raw cotton,non
@@ -14965,7 +14963,6 @@ plants de fleurs,not raw cotton,non
 plants de jardin,not raw cotton,non
 plants de jasmin,not raw cotton,non
 plants de mûriers,not raw cotton,non
-plants de mûriers,not raw cotton,non
 plants de rouge d'Espagne,not raw cotton,non
 plants de tabac,not raw cotton,non
 plants de vigne,not raw cotton,non
@@ -15386,7 +15383,7 @@ pompons,not raw cotton,non
 pompons d'argent et de soie,not raw cotton,non
 poncire,not raw cotton,non
 ponçure de pin,not raw cotton,non
-Pondichery,not raw cotton,non
+Pondichery,not raw cotton,oui
 popeline,not raw cotton,non
 popeline de coton et soie,not raw cotton,non
 popeline de filoselle,not raw cotton,non
@@ -15613,7 +15610,7 @@ poupée,not raw cotton,non
 poupée d'enfant,not raw cotton,non
 pour les peintures et la teinture,not raw cotton,non
 pourette,not raw cotton,non
-pourette de mûriers,not raw cotton,non
+pourette de mûriers,not raw cotton,oui
 pousses de houblon et vignes,not raw cotton,non
 poussière,not raw cotton,non
 poussière d'écorce de pin,not raw cotton,non
@@ -16198,6 +16195,10 @@ roquelance écarlate,not raw cotton,non
 roquette,not raw cotton,non
 rosaire,not raw cotton,non
 rosarde,not raw cotton,non
+rose,not raw cotton,non
+rose de dictam,not raw cotton,non
+rose de Provins,not raw cotton,non
+rose sèche,not raw cotton,non
 roseaux,not raw cotton,non
 roseaux champêtres,not raw cotton,non
 roseaux coupés,not raw cotton,non
@@ -16207,10 +16208,6 @@ roseaux en canon,not raw cotton,non
 roseaux petits,not raw cotton,non
 roseaux pour cannes,not raw cotton,non
 rosée de vie,not raw cotton,non
-rose,not raw cotton,non
-rose de dictam,not raw cotton,non
-rose de Provins,not raw cotton,non
-rose sèche,not raw cotton,non
 rosette de cuivre,not raw cotton,non
 rosette de cuivre et mitraille de cuivre,not raw cotton,non
 rosette ou plaques de cuivres non ouvré,not raw cotton,non
@@ -17111,7 +17108,7 @@ soie grège écrue doupion,not raw cotton,non
 soie grège par Marseille,not raw cotton,non
 soie lorce,not raw cotton,non
 soie mauresque,not raw cotton,non
-soie mêlée,not raw cotton,non
+soie mêlée,not raw cotton,oui
 soie moulinée,not raw cotton,non
 soie moulinée autre que doupion,not raw cotton,non
 soie moulinée doupion,not raw cotton,non
@@ -17358,7 +17355,7 @@ stockfisch,not raw cotton,non
 stockfisch et morue,not raw cotton,non
 stockfisch mariné et salé,not raw cotton,non
 stockfisch salé,not raw cotton,non
-stopilles,not raw cotton,non
+stopilles,not raw cotton,oui
 storax,not raw cotton,non
 storax calames,not raw cotton,non
 storax calamin,not raw cotton,non
@@ -17968,7 +17965,7 @@ tentes et voile,not raw cotton,non
 tentes et voile en rolles ou pièces,not raw cotton,non
 tepaye des Indes,not raw cotton,non
 tepays,not raw cotton,non
-tepis,not raw cotton,non
+tepis,not raw cotton,oui
 terc,not raw cotton,non
 térébenthine,not raw cotton,non
 térébenthine commune,not raw cotton,non
@@ -18001,7 +17998,7 @@ terraque,not raw cotton,non
 terrasse,not raw cotton,non
 terre,not raw cotton,non
 terre ?,not raw cotton,non
-terre à baril,not raw cotton,non
+terre à baril,not raw cotton,oui
 terre à bâtir,not raw cotton,non
 terre à brûler,not raw cotton,non
 terre à ciment,not raw cotton,non
@@ -18197,6 +18194,7 @@ toile à carreaux pour matelas,not raw cotton,non
 toile à cottray,not raw cotton,non
 toile à doubler,not raw cotton,non
 toile à faire drap de lin,not raw cotton,non
+toile à jamis,not raw cotton,non
 toile à matelas,not raw cotton,non
 toile à matelas et à carreaux,not raw cotton,non
 toile à matelot,not raw cotton,non
@@ -18219,7 +18217,6 @@ toile à voile de 24 aunes,not raw cotton,non
 toile à voile étrangère,not raw cotton,non
 toile abas,not raw cotton,non
 toile abat,not raw cotton,non
-toile à jamis,not raw cotton,non
 toile alanea,not raw cotton,non
 toile amant,not raw cotton,non
 toile anascotes,not raw cotton,non
@@ -18283,7 +18280,7 @@ toile blanche de coton et fil,not raw cotton,non
 toile blanche de coton et fine,not raw cotton,non
 toile blanche de coton et nationale,not raw cotton,non
 toile blanche de coton et rayée,not raw cotton,non
-toile blanche de coton fine,not raw cotton,non
+toile blanche de coton fine,not raw cotton,oui
 toile blanche de coton pour mouchoirs,not raw cotton,non
 toile blanche de France,not raw cotton,non
 toile blanche de Hollande,not raw cotton,non
@@ -19007,7 +19004,7 @@ toile en fair,not raw cotton,non
 toile en sacs,not raw cotton,non
 toile en serviettes,not raw cotton,non
 toile entre large,not raw cotton,non
-toile escamite,not raw cotton,non
+toile escamite,not raw cotton,oui
 toile et bonneterie,not raw cotton,non
 toile et laine à bouquets de laine,not raw cotton,non
 toile et treillis lustrés,not raw cotton,non

@@ -15,6 +15,7 @@ marchandises_simplification,sitc18_rev3,imprimatur,obsolete
 ??? particulièrement en chevaux,???,x,non
 ???sse,???,,non
 ?ufs,???,,non
+à jamis,6g,,non
 abassis,9a,x,non
 abats,0a,x,non
 abattis de morue,0a,x,non
@@ -708,7 +709,7 @@ balance et ses poids,8,x,non
 balance ou fléaux en fer,8,x,non
 balance petite,8,,non
 balance romaine,8,x,non
-balauste,2,x,non
+balauste,2,x,oui
 balcon de fer,6j,x,non
 baleine,2,x,non
 baleine apprêtée,2,x,non
@@ -3017,7 +3018,7 @@ cardines,0a,x,non
 cardines de bois,???,,non
 cardines de sapin,???,,non
 cardon,0a,,non
-cards à carder,???,,non
+cards à carder,???,,oui
 caret,7,x,non
 cargaison,9c,x,non
 caril,???,,non
@@ -6244,7 +6245,7 @@ embarcations à dépecer,7,,non
 embarcations avec agrès,7,x,non
 embarcations en état de servir,7,,non
 embarcations et autres objets de marine,7,x,non
-embarcations et navire marchand,7,,non
+embarcations et navire marchand,7,,oui
 embarcations et voiles de navire,7,,non
 émeraudes brutes,6k,,non
 émeraudes et opales taillées,6k,,non
@@ -7262,7 +7263,6 @@ fer en fourrure,6j,x,non
 fer en grappes,6j,,non
 fer en grenades,6j,,non
 fer en grenaille,6j,x,non
-fer en grenaille,6j,,non
 fer en grillons,6j,,non
 fer en grosses,6j,,non
 fer en guéné,6j,,non
@@ -7926,7 +7926,7 @@ flèches marines,9c,,non
 fleur de balauste,???,,non
 fleur de souffle,???,,non
 fleur de verre,6k,,non
-fleures,???,,non
+fleures,???,,oui
 fleuret,8,x,non
 fleuret à faire des armes,8,x,non
 fleuret et filoselle,2,x,non
@@ -8214,7 +8214,7 @@ fruits de table secs et tapés autres que pistache,0a,,non
 fruits des Îles et des Indes,0b,,non
 fruits divers et graines,0a,,non
 fruits en confitures,0a,,non
-fruits et frais à l'eau-de-vie,0a,,non
+fruits et frais à l'eau-de-vie,0a,,oui
 fruits et légumes confits au vinaigre,0a,,non
 fruits et légumes confits et marinés,0a,x,non
 fruits frais,0a,x,non
@@ -8975,9 +8975,8 @@ graine de chanvre,2,x,non
 graine de chanvre colza navette et oliette,2,,non
 graine de chanvre et de trèfle,2,x,non
 graine de chapelets,2,x,non
-graine de choux,2,x,non
-graine de choux-fleurs,2,x,non
 graine de choux,2,,non
+graine de choux-fleurs,2,x,oui
 graine de citron,2,,non
 graine de clave,2,x,non
 graine de cochenille,2,x,non
@@ -9974,7 +9973,6 @@ jambon non fumé,0a,x,non
 jambon pour l'entrepôt de la Compagnie,0a,,non
 jambon salé,0a,x,non
 jambons,0a,,non
-à jamis,6g,,non
 jantes,7,,non
 jantes et rais,7,,non
 jardinage divers,2,x,non
@@ -12178,8 +12176,8 @@ mousseline,6g,x,non
 mousseline aune,6g,x,non
 mousseline blanche,6g,,non
 mousseline brochée de coton,6g,,non
-mousseline brodée de coton,6g,,non
 mousseline brodée,6g,x,non
+mousseline brodée de coton,6g,,non
 mousseline brodée en soie de couleur,6g,,non
 mousseline de coton,6g,,non
 mousseline de coton et des Indes,6g,x,non
@@ -12204,7 +12202,7 @@ mousseline nationale,6g,,non
 mousseline rayées,6g,,non
 mousseline rayées à fleurs,6g,,non
 mousseline siamoise et de Suisse à la ligne de soie,6f,,non
-mousseline unies,6g,x,non
+mousseline unies,6g,x,oui
 mousselinette,6g,x,non
 mousselinette de coton,6g,x,non
 mousserons,0a,,non
@@ -14969,7 +14967,6 @@ plants de fleurs,2,,non
 plants de jardin,2,x,non
 plants de jasmin,2,x,non
 plants de mûriers,2,x,non
-plants de mûriers,2,,non
 plants de rouge d'Espagne,2,,non
 plants de tabac,2,x,non
 plants de vigne,2,x,non
@@ -15390,7 +15387,7 @@ pompons,8,,non
 pompons d'argent et de soie,8,,non
 poncire,0a,x,non
 ponçure de pin,2,,non
-Pondichery,6g,,non
+Pondichery,6g,,oui
 popeline,6f,,non
 popeline de coton et soie,6f,,non
 popeline de filoselle,6f,,non
@@ -15617,7 +15614,7 @@ poupée,8,x,non
 poupée d'enfant,8,x,non
 pour les peintures et la teinture,5,,non
 pourette,0a,x,non
-pourette de mûriers,2,x,non
+pourette de mûriers,2,x,oui
 pousses de houblon et vignes,0a,,non
 poussière,9c,x,non
 poussière d'écorce de pin,2,x,non
@@ -16202,6 +16199,10 @@ roquelance écarlate,8,,non
 roquette,0a,,non
 rosaire,8,x,non
 rosarde,???,,non
+rose,2,,non
+rose de dictam,2,,non
+rose de Provins,2,,non
+rose sèche,2,,non
 roseaux,2,,non
 roseaux champêtres,2,,non
 roseaux coupés,2,,non
@@ -16211,10 +16212,6 @@ roseaux en canon,2,,non
 roseaux petits,2,,non
 roseaux pour cannes,2,,non
 rosée de vie,???,x,non
-rose,2,,non
-rose de dictam,2,,non
-rose de Provins,2,,non
-rose sèche,2,,non
 rosette de cuivre,6j,x,non
 rosette de cuivre et mitraille de cuivre,6j,x,non
 rosette ou plaques de cuivres non ouvré,6j,x,non
@@ -17116,7 +17113,7 @@ soie grège écrue doupion,6f,,non
 soie grège par Marseille,6f,,non
 soie lorce,6f,,non
 soie mauresque,2,,non
-soie mêlée,2,,non
+soie mêlée,2,,oui
 soie moulinée,6f,,non
 soie moulinée autre que doupion,6f,,non
 soie moulinée doupion,6f,,non
@@ -17363,7 +17360,7 @@ stockfisch,0a,,non
 stockfisch et morue,0a,,non
 stockfisch mariné et salé,0a,,non
 stockfisch salé,0a,,non
-stopilles,6h,,non
+stopilles,6h,,oui
 storax,2,x,non
 storax calames,5,x,non
 storax calamin,5,x,non
@@ -17973,7 +17970,7 @@ tentes et voile,9b,x,non
 tentes et voile en rolles ou pièces,9b,x,non
 tepaye des Indes,6f,,non
 tepays,6f,,non
-tepis,???,,non
+tepis,???,,oui
 terc,???,,non
 térébenthine,5,x,non
 térébenthine commune,5,x,non
@@ -18006,7 +18003,7 @@ terraque,???,,non
 terrasse,9c,x,non
 terre,2,x,non
 terre ?,2,x,non
-terre à baril,2,x,non
+terre à baril,2,x,oui
 terre à bâtir,2,x,non
 terre à brûler,2,,non
 terre à ciment,2,x,non
@@ -18202,6 +18199,7 @@ toile à carreaux pour matelas,6h,,non
 toile à cottray,6h,x,non
 toile à doubler,6h,x,non
 toile à faire drap de lin,6h,,non
+toile à jamis,6g,,non
 toile à matelas,6h,x,non
 toile à matelas et à carreaux,6h,x,non
 toile à matelot,6h,,non
@@ -18224,7 +18222,6 @@ toile à voile de 24 aunes,7,x,non
 toile à voile étrangère,7,,non
 toile abas,6h,x,non
 toile abat,6h,x,non
-toile à jamis,6g,,non
 toile alanea,6h,x,non
 toile amant,6h,,non
 toile anascotes,6h,,non
@@ -18288,7 +18285,7 @@ toile blanche de coton et fil,6h,x,non
 toile blanche de coton et fine,6g,,non
 toile blanche de coton et nationale,6g,,non
 toile blanche de coton et rayée,6g,,non
-toile blanche de coton fine,6g,x,non
+toile blanche de coton fine,6g,x,oui
 toile blanche de coton pour mouchoirs,6g,,non
 toile blanche de France,6h,,non
 toile blanche de Hollande,6h,,non
@@ -19013,7 +19010,7 @@ toile en fair,6h,x,non
 toile en sacs,6h,,non
 toile en serviettes,6h,,non
 toile entre large,6h,,non
-toile escamite,6h,,non
+toile escamite,6h,,oui
 toile et bonneterie,9b,x,non
 toile et laine à bouquets de laine,6e,,non
 toile et treillis lustrés,6i,,non
