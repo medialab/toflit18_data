@@ -287,7 +287,7 @@ merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop numrodeligne-marchandises value-remarkspourlesdroits
 
 drop _merge
-bys pays : gen nbr_occurences_pays=_N
+bys pays : replace nbr_occurences_pays=_N
 bys pays : keep if _n==1
 keep pays pays_norm_ortho note nbr_occurences
 save "classification_country_orthographic_normalization.dta", replace
@@ -355,7 +355,7 @@ export delimited classification_country_obrien.csv, replace
 
 
 use "bdd_marchandises_normalisees_orthographique.dta", replace
-bys marchandises : gen nbr_occurences_marchandises=_N
+bys marchandises : replace nbr_occurences_marchandises=_N
 bys marchandises : drop if _n!=1
 
 save "bdd_marchandises_normalisees_orthographique.dta", replace
