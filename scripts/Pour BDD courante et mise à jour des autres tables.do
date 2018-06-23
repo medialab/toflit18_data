@@ -287,8 +287,9 @@ merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop numrodeligne-marchandises value-remarkspourlesdroits
 
 drop _merge
+bys pays : gen nbr_occurences_pays=_N
 bys pays : keep if _n==1
-keep pays pays_norm_ortho note
+keep pays pays_norm_ortho note nbr_occurences
 save "classification_country_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(pays, "fr")
 sort sortkey
@@ -354,6 +355,7 @@ export delimited classification_country_obrien.csv, replace
 
 
 use "bdd_marchandises_normalisees_orthographique.dta", replace
+bys marchandises : gen nbr_occurences_marchandises=_N
 bys marchandises : drop if _n!=1
 
 save "bdd_marchandises_normalisees_orthographique.dta", replace
@@ -363,7 +365,7 @@ merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 
 drop _merge
 
-keep marchandises marchandises_norm_ortho mériteplusdetravail
+keep marchandises marchandises_norm_ortho état_du_travail nbr_occurences
 
 bys marchandises : keep if _n==1
 
@@ -474,7 +476,7 @@ drop note-_merge
 
 merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 drop if _merge==2
-drop mériteplusdetravail-_merge
+drop état_du_travail-_merge
 
 
 merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
