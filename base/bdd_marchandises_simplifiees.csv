@@ -98,10 +98,10 @@ agate,agate
 agate brute,agate brute
 agate fine,agate fine
 agate montée,agate montée
-agate ouvrée,agate ouvrée
-agate ouvrée et autre que chique,agate autre que chique et ouvrée
-agate ouvrée et chique,agate chique et ouvrée
-agate pierre,pierres d'agate
+agate ouvrée,ouvrages d’agate
+agate ouvrée et autre que chique,agate autre que chique et ouvrages
+agate ouvrée et chique,ouvrages d’agate et agate chique
+agate pierre,agate en pierres
 agneaux,agneaux
 agneaux en vie,agneaux en vie
 agneaux et cabris,agneaux et cabris
@@ -656,9 +656,9 @@ attelles de colliers,attelles de colliers
 aube,aube
 auclimes,auclimes
 auf,auf
-auf ouvré,auf ouvré
-auf travaillé,auf travaillé
-auf travaillé en cordes,auf travaillé en cordes
+auf ouvré,ouvrages d’auf
+auf travaillé,ouvrages d’auf
+auf travaillé en cordes,cordes d’auf
 augemy,augemy
 auges,auges
 auges de carreaux,auges de carreaux
@@ -1205,7 +1205,7 @@ berce et lit de fer,berce de fer et lit de fer
 berceau d'enfant,berceau d'enfant
 berceau d'osier,berceau d'osier
 bergamote,bergamotes
-bergamote ouvrée,bergamotes ouvrées
+bergamote ouvrée,ouvrages de bergamotes
 bergamotes,bergamotes
 Bergopzoom,Bergopzoom
 Bergopzoom aune,Bergopzoom aune
@@ -1841,7 +1841,7 @@ bois de brochialle,bois de brochialle
 bois de buis,bois de buis
 bois de buis boule,bois de buis boule
 bois de buis en bûches,bois de Brésil en bûche
-bois de buis ouvré,bois de buis ouvré
+bois de buis ouvré,ouvrages de bois de buis
 bois de cabanière,bois pour cabanière
 bois de cabestan,bois de cabestan
 bois de Caliatour,bois de Caliatour
@@ -2081,7 +2081,7 @@ bois de serrure,bois de serrure
 bois de serva en planches,planches de serva
 bois de simarouba,bois de simarouba
 bois de siramouba,bois de simarouba
-bois de soie,bois de soie
+bois de soie,bas de soie
 bois de sommiers,bois de sommiers
 bois de tables doré,bois de tables doré
 bois de tamis,bois de tamis
@@ -2410,11 +2410,11 @@ bois ouvré et futailles vides montées et cerclées en fer,futailles de bois ce
 bois ouvré futailles vides démontées,futailles de bois démontées vides
 bois ouvré futailles vides montées,futailles de bois montées vides
 bois ouvré moules de boutons,moules de boutons de bois
-bois ouvré pour bâtir,bois ouvré pour bâtir
-bois ouvré pour bats,bois ouvré pour bats
+bois ouvré pour bâtir,ouvrages de bois pour bâtir
+bois ouvré pour bats,bats de bois
 bois ouvré pour charpente,ouvrages de bois pour charpente
-bois ouvré sans désignation,bois ouvré
-bois ouvré sans distinction,bois ouvré
+bois ouvré sans désignation,ouvrages de bois
+bois ouvré sans distinction,ouvrages de bois
 bois ouvré tables,tables de bois
 bois ouvrés,ouvrages de bois
 bois ouvrés divers,ouvrages de bois
@@ -4240,7 +4240,7 @@ cercles de feuillards,cercles de feuillards
 cercles de tamis,cercles à tamis
 cercles de tonneaux,cercles à tonneaux
 cercles en bois,cercles de bois
-cercles en feuillards,cercles de feullards
+cercles en feuillards,cercles de feuillards
 cercles en osier,cercles d'osier
 cercles et feuillards,cercles et feuillards
 cercles rouelles,rouelles
@@ -4757,7 +4757,7 @@ chaudron de potin,chaudron de potin
 chaudron en cuivre,chaudron de cuivre
 chaudrons de cuivre,chaudron de cuivre
 chauffe-pieds,chauffe-pieds
-chauffe-pieds garnis,chauffe-pieds ganis
+chauffe-pieds garnis,chauffe-pieds garnis
 chaufferettes,chaufferettes
 chaufferettes de bois,chaufferettes de bois
 chausse-pieds,chausse-pieds
@@ -5035,7 +5035,7 @@ cidre et bière,bière et cidre
 cidre jaune,cidre jaune
 cidre poiré et verjus,cidre poiré et verjus
 cierges,cierges
-cierges bougies,bougies
+cierges bougie,bougie
 cierges de cire blanche,cierges de cire blanche
 cierges et bougies,cierges et bougies
 cierges et flambeaux,cierges et flambeau
@@ -5065,7 +5065,7 @@ cire blanche en pain,pain de cire blanche
 cire blanche et jaune,cire blanche et jaune
 cire blanche et jaune non ouvrée,cire blanche et jaune non ouvrée
 cire blanche non ouvrée,cire blanche non ouvrée
-cire blanche ouvrée,cire blanche ouvrée
+cire blanche ouvrée,ouvrages de cire blanche
 cire blanches en graines,grains de cire blanche
 cire brune ???,cire brune
 cire brune non clarifiée,cire brune non clarifiée
@@ -5105,16 +5105,16 @@ cire jaune en cierges et flambeaux,cire jaune en cierges et flambeaux
 cire jaune en pain,cire jaune en pain
 cire jaune et blanche,cire blanche et jaune
 cire jaune non ouvrée,cire brute jaune
-cire jaune ouvrée,cire jaune ouvrée
+cire jaune ouvrée,ouvrages de cire jaune
 cire moitié suif et moitié cire,cire moitié cire et moitié suif
 cire non ouvrée blanche,cire brute blanche
 cire non ouvrée brune ou jaune,cire brute brune ou jaune
 cire non ouvrée crasse de cire,crasse de cire
 cire non ouvrée jaune,cire brute jaune
 cire non ouvrée jaune des entrepôts,cire brute jaune des entrepôts
-cire ouvrée,cire ouvrée
-cire ouvrée blanche,cire ouvrée blanche
-cire ouvrée jaune,cire ouvrée jaune
+cire ouvrée,ouvrages de cire
+cire ouvrée blanche,ouvrages de cire blanche
+cire ouvrée jaune,ouvrages de cire jaune
 cire rouge en flambeaux,flambeaux de cire rouge
 cire verte,cire verte
 cire vierge,cire vierge
@@ -6564,8 +6564,8 @@ cuivre ordinaire,cuivre commun
 cuivre ouvré,ouvrages de cuivre
 cuivré ouvré,ouvrages de cuivre
 cuivre ouvré (autrement qu'il n'est ci-dessus),ouvrages de cuivre
-cuivre ouvré bouilloires,cuivre ouvré bouilloire
-cuivre ouvré cafetière,cuivre ouvré cafetière
+cuivre ouvré bouilloires,bouilloire de cuivre
+cuivre ouvré cafetière,cafetière de cuivre
 cuivre ouvré en baignoires,baignoires de cuivre
 cuivre ouvré en bassin,bassin de cuivre
 cuivre ouvré réchauds,réchauds de cuivre ouvré
@@ -19694,7 +19694,7 @@ pierres de jais,pierres de jais
 pierres de jais brut,pierres de jais brut
 pierres de jais et ???,pierres de jais et ???
 pierres de jais et bant,pierres bant et de jais
-pierres de jais et ouvrées,pierres de jais et ouvrées
+pierres de jais et ouvrées,ouvrages de pierres de jais
 pierres de jaspe,pierres de jaspe
 pierres de jayet ouvré,ouvrages de pierres de jayet
 pierres de laine,pierres de laine
@@ -20607,7 +20607,7 @@ plumes d'autruche mélangées,plumes d'autruche
 plumes d'autruche noires,plumes d'autruche noires
 plumes d'autruche noires crues,plumes d'autruche crues et noires
 plumes d'autruche non apprêtées,plumes d'autruche crues
-plumes d'autruche ouvrées,plumes d'autruche ouvrées
+plumes d'autruche ouvrées,ouvrages de plumes d'autruche
 plumes d'édredon,plumes d'édredon
 plumes d'oie,plumes d'oie
 plumes d'oie à lit,plumes d'oie à lit
@@ -20647,7 +20647,7 @@ plumes mortes,plumes mortes
 plumes mortes à lit,plumes mortes à lit
 plumes noires,plumes noire
 plumes non apprêtées,plumes brutes
-plumes ouvrées,plumes ouvrées
+plumes ouvrées,ouvrages de plumes
 plumes pour dévidoirs,plumes pour dévidoir
 plumes pour écrire,plumes à écrire
 plumes pour plumes à écrire,plumes à écrire
