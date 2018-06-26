@@ -355,13 +355,14 @@ export delimited classification_country_obrien.csv, replace
 
 
 use "bdd_marchandises_normalisees_orthographique.dta", replace
-bys marchandises : replace nbr_occurences_marchandises=_N
+
 bys marchandises : drop if _n!=1
 
 save "bdd_marchandises_normalisees_orthographique.dta", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
+bys marchandises : replace nbr_occurences_marchandises=_N
 
 drop _merge
 

@@ -100,12 +100,14 @@ agaric de mélèze,2,x,non
 agaric fin,2,,non
 agaric gros,2,x,non
 agate,6k,x,non
-agate autre que chique et ouvrée,6k,x,non
+agate autre que chique et ouvrages,,,non
+agate autre que chique et ouvrée,6k,x,oui
 agate brute,6k,x,non
-agate chique et ouvrée,6k,x,non
+agate chique et ouvrée,6k,x,oui
+agate en pierres,,,non
 agate fine,6k,x,non
 agate montée,8,x,non
-agate ouvrée,6k,x,non
+agate ouvrée,6k,x,oui
 agneaux,0a,x,non
 agneaux communs,0a,x,non
 agneaux en vie,0a,x,non
@@ -595,9 +597,9 @@ aube,8,x,non
 auchinoise,???,x,non
 auclimes,???,,non
 auf,2,x,non
-auf ouvré,6h,x,non
-auf travaillé,6h,x,non
-auf travaillé en cordes,6h,,non
+auf ouvré,6h,x,oui
+auf travaillé,6h,x,oui
+auf travaillé en cordes,6h,,oui
 augemy,???,,non
 auges,9c,x,non
 auges de carreaux,6k,x,non
@@ -1110,6 +1112,7 @@ bâtons vernis,6b,x,non
 bâts,6k,x,non
 bâts à matelas,7,x,non
 bâts d'ânes,7,,non
+bats de bois,,,non
 bâts de chevaux,7,,non
 bâts de mulets,7,x,non
 batterie d'airain,6j,x,non
@@ -1202,7 +1205,7 @@ berceau d'osier,8,x,non
 bergamote,0b,,non
 bergamotes,0a,x,non
 bergamotes fraîches,0a,x,non
-bergamotes ouvrées,0b,,non
+bergamotes ouvrées,0b,,oui
 Bergopzoom,6i,x,non
 Bergopzoom aune,6i,x,non
 berline,7,x,non
@@ -1535,7 +1538,7 @@ bois de brochialle,2,x,non
 bois de bruyère,2,x,non
 bois de buis,2,x,non
 bois de buis boule,6b,,non
-bois de buis ouvré,6b,,non
+bois de buis ouvré,6b,,oui
 bois de cabestan,6b,,non
 bois de cail-cédra,6b,,non
 bois de Caliatour,2,x,non
@@ -1714,7 +1717,7 @@ bois de selles,6b,x,non
 bois de senteur,2,x,non
 bois de serrure,6b,x,non
 bois de simarouba,2,,non
-bois de soie,8,,non
+bois de soie,8,,oui
 bois de sommiers,6b,,non
 bois de tables doré,6b,,non
 bois de tamis,6b,,non
@@ -1800,9 +1803,9 @@ bois moulu,5,x,non
 bois néphrétique,2,x,non
 bois odorants,6b,,non
 bois osier,2,x,non
-bois ouvré,6b,,non
-bois ouvré pour bâtir,6b,,non
-bois ouvré pour bats,6b,,non
+bois ouvré,6b,,oui
+bois ouvré pour bâtir,6b,,oui
+bois ouvré pour bats,6b,,oui
 bois palissandre,2,x,non
 bois perible,2,x,non
 bois petit de rouage,6b,x,non
@@ -2166,6 +2169,7 @@ bougie jaune,8,x,non
 bougie verte,8,x,non
 bougran,6d,x,non
 bouguette,???,,non
+bouilloire de cuivre,,,non
 bouilloires de cuivre,8,,non
 bouillotte de cuivre,8,x,non
 boulange,0a,x,non
@@ -2733,6 +2737,7 @@ café ordinaire,0b,x,non
 café pour Genève,0b,,non
 café pur,0b,,non
 café trié,0b,,non
+cafetière de cuivre,,,non
 cafetière de fer-blanc,6k,,non
 cafetières,6k,x,non
 cafetières d'étain,6j,x,non
@@ -4148,7 +4153,7 @@ cierges,8,,non
 cierges de cire blanche,8,x,non
 cierges de cire et bougie de cire,8,x,non
 cierges de fer,6j,,non
-cierges et bougies,8,,non
+cierges et bougies,8,,oui
 cierges et flambeau,8,,non
 cigares,1,,non
 cigares par autorisation,1,,non
@@ -4174,7 +4179,7 @@ cire blanche de bougie,4,,non
 cire blanche et jaune,4,x,non
 cire blanche et jaune non ouvrée,4,x,non
 cire blanche non ouvrée,4,x,non
-cire blanche ouvrée,4,,non
+cire blanche ouvrée,4,,oui
 cire brune,4,,non
 cire brune non clarifiée,4,,non
 cire brune non clarifiée du Sénégal,4,,non
@@ -4197,11 +4202,11 @@ cire jaune du levant,4,x,non
 cire jaune en bougie et chandelle,8,x,non
 cire jaune en cierges et flambeaux,8,,non
 cire jaune en pain,4,x,non
-cire jaune ouvrée,4,,non
+cire jaune ouvrée,4,,oui
 cire moitié cire et moitié suif,4,,non
-cire ouvrée,4,,non
-cire ouvrée blanche,4,,non
-cire ouvrée jaune,4,,non
+cire ouvrée,4,,oui
+cire ouvrée blanche,4,,oui
+cire ouvrée jaune,4,,oui
 cire verte,4,x,non
 cire vierge,4,x,non
 cirsaca,6f,,non
@@ -4832,11 +4837,12 @@ courtepointe de coton d'Angleterre,6g,x,non
 courtepointe de toile,6h,,non
 courtepointe de toile peinte,6h,,non
 courtepointe jupes et vestes de toile peinte,9b,,non
+coussin,8,,oui
 coussin à faire dentelle,8,x,non
 coussin d'espars,8,x,non
 coussin de palme,8,x,non
 coussin de serge,8,x,non
-coussin,8,,non
+coussins,,,non
 cousus,???,,non
 couteaux,6j,x,non
 couteaux à couper paille et pour tanneurs,6j,,non
@@ -5346,8 +5352,8 @@ cuivre laminé,6j,x,non
 cuivre neuf,6j,x,non
 cuivre non ouvré,6j,,non
 cuivre non ouvré rouge,6j,x,non
-cuivre ouvré bouilloire,6j,,non
-cuivre ouvré cafetière,6j,,non
+cuivre ouvré bouilloire,6j,,oui
+cuivre ouvré cafetière,6j,,oui
 cuivre potier,6j,x,non
 cuivre pur battu ou laminé,6j,,non
 cuivre pur coulé en barres et plaques,6j,,non
@@ -7554,6 +7560,7 @@ fer pour foyer,6j,x,non
 fer pour liquarer et en verge,6j,,non
 fer pour moulins à sucre,6j,,non
 fer préparé pour canons de fusils et pistolets,6j,,non
+fer préparé pour forces à tondre le drap,,,non
 fer préparé pour forces à tondre les draps,6j,,oui
 fer rond,6j,x,non
 fer roue,9b,x,non
@@ -8174,6 +8181,7 @@ flèches et compas,8,,non
 flèches marines,9c,,non
 fleures,???,,oui
 fleuret,8,x,non
+fleuret à coudre,,,non
 fleuret à faire des armes,8,x,non
 fleuret et filoselle,2,x,non
 fleuret et lames de fleuret,8,,non
@@ -8840,7 +8848,7 @@ gayet,???,,non
 gayet brut,???,,non
 gaze,6i,x,non
 gaze à fleurs,6f,,non
-gaze à peu,6f,x,non
+gaze à peu,6f,x,oui
 gaze à peu de soie,6f,x,non
 gaze au 6e de soie,6f,x,non
 gaze au bas de soie,6f,x,non
@@ -9102,7 +9110,7 @@ gomme élastique,2,x,non
 gomme élémi,2,x,non
 gomme elemy,2,x,non
 gomme émeri,,,non
-gomme emery,2,x,non
+gomme emery,2,x,oui
 gomme en feuilles,2,,non
 gomme en grabeau,2,x,non
 gomme en pâte,2,x,non
@@ -13103,6 +13111,8 @@ ouvrages ???,???,,non
 ouvrages ??? à couvrir,???,,non
 ouvrages brisés et vieux ouvrages de laiton,2,,non
 ouvrages d'acier,6j,x,non
+ouvrages d'agate,,,non
+ouvrages d'agate et agate chique,,,non
 ouvrages d'airain,6j,x,non
 ouvrages d'albâtre,8,x,non
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,9b,x,non
@@ -13135,7 +13145,9 @@ ouvrages d'or,8,x,non
 ouvrages d'or faux,6j,x,non
 ouvrages d'orfèvrerie,8,x,non
 ouvrages d'osier,6b,x,non
+ouvrages de bergamotes,,,non
 ouvrages de bois,6b,x,non
+ouvrages de bois de buis,,,non
 ouvrages de bois de noyer,6b,,non
 ouvrages de bois de Saint-Claude,6b,,non
 ouvrages de bois de sapin,6b,,non
@@ -13155,6 +13167,7 @@ ouvrages de bois gros,6b,x,non
 ouvrages de bois menus,6b,x,non
 ouvrages de bois non doré,6b,x,non
 ouvrages de bois peint,6b,x,non
+ouvrages de bois pour bâtir,,,non
 ouvrages de bois pour charpente,6b,x,non
 ouvrages de bois pour le bâtiment,6b,x,non
 ouvrages de bois sculpté et doré,6b,x,non
@@ -13175,6 +13188,8 @@ ouvrages de charron,7,x,non
 ouvrages de charronnage,7,,non
 ouvrages de chêne,6b,,non
 ouvrages de cire,4,x,non
+ouvrages de cire blanche,,,non
+ouvrages de cire jaune,,,non
 ouvrages de corail,8,x,non
 ouvrages de corail brut,6k,x,non
 ouvrages de corail fin,8,x,non
@@ -13278,11 +13293,13 @@ ouvrages de peaux outres pleines,6a,,non
 ouvrages de physique,8,,non
 ouvrages de pierre,6k,x,non
 ouvrages de pierre autre que chiques,6k,,non
+ouvrages de pierres de jais,,,non
 ouvrages de pierres de jayet,6k,,non
 ouvrages de plâtre,6k,x,non
 ouvrages de plâtre en figure,6k,x,non
 ouvrages de plomb,6j,x,non
 ouvrages de plumes,8,,non
+ouvrages de plumes d'autruche,,,non
 ouvrages de poterie,6k,x,non
 ouvrages de potin,,,non
 ouvrages de sapin,6b,x,non
@@ -14744,7 +14761,7 @@ pierres de grison,???,x,non
 pierres de jais,6k,x,non
 pierres de jais brut,6k,x,non
 pierres de jais et ???,6k,x,non
-pierres de jais et ouvrées,9b,x,non
+pierres de jais et ouvrées,9b,x,oui
 pierres de jaspe,6k,x,non
 pierres de laine,???,x,non
 pierres de Malte,2,x,non
@@ -15560,7 +15577,7 @@ plumes d'autruche crues et noires,2,,non
 plumes d'autruche et autres de parure,2,x,non
 plumes d'autruche et de vautour,2,x,non
 plumes d'autruche noires,2,,non
-plumes d'autruche ouvrées,8,,non
+plumes d'autruche ouvrées,8,,oui
 plumes d'édredon,2,x,non
 plumes d'oie,2,x,non
 plumes d'oie à lit,2,x,non
@@ -15575,7 +15592,7 @@ plumes idem,2,x,non
 plumes mortes,2,,non
 plumes mortes à lit,2,,non
 plumes noire,2,x,non
-plumes ouvrées,8,x,non
+plumes ouvrées,8,x,oui
 plumes pour dévidoir,2,x,non
 plumes pour duvet,2,,non
 plumes teintes,2,,non
@@ -17747,8 +17764,8 @@ soudes et potasse,5,,non
 soudes et tartre,5,,non
 soudure,2,x,non
 soudure de cuivre,6j,x,non
-soufflet à feu,,,non
-soufflet à tirer vin au clair,,,non
+soufflets à feu,,,non
+soufflets à tirer vin au clair,,,non
 soufflets,6j,x,non
 soufflets à bouche,6j,x,non
 soufflets à feu,6j,x,non

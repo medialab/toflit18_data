@@ -100,12 +100,14 @@ agaric de mélèze,not raw cotton,non
 agaric fin,not raw cotton,non
 agaric gros,not raw cotton,non
 agate,not raw cotton,non
-agate autre que chique et ouvrée,not raw cotton,non
+agate autre que chique et ouvrages,,non
+agate autre que chique et ouvrée,not raw cotton,oui
 agate brute,not raw cotton,non
-agate chique et ouvrée,not raw cotton,non
+agate chique et ouvrée,not raw cotton,oui
+agate en pierres,,non
 agate fine,not raw cotton,non
 agate montée,not raw cotton,non
-agate ouvrée,not raw cotton,non
+agate ouvrée,not raw cotton,oui
 agneaux,not raw cotton,non
 agneaux communs,not raw cotton,non
 agneaux en vie,not raw cotton,non
@@ -595,9 +597,9 @@ aube,not raw cotton,non
 auchinoise,not raw cotton,non
 auclimes,not raw cotton,non
 auf,not raw cotton,non
-auf ouvré,not raw cotton,non
-auf travaillé,not raw cotton,non
-auf travaillé en cordes,not raw cotton,non
+auf ouvré,not raw cotton,oui
+auf travaillé,not raw cotton,oui
+auf travaillé en cordes,not raw cotton,oui
 augemy,not raw cotton,non
 auges,not raw cotton,non
 auges de carreaux,not raw cotton,non
@@ -1111,6 +1113,7 @@ bâtons vernis,not raw cotton,non
 bâts,not raw cotton,non
 bâts à matelas,not raw cotton,non
 bâts d'ânes,not raw cotton,non
+bats de bois,,non
 bâts de chevaux,not raw cotton,non
 bâts de mulets,not raw cotton,non
 batterie d'airain,not raw cotton,non
@@ -1203,7 +1206,7 @@ berceau d'osier,not raw cotton,non
 bergamote,not raw cotton,non
 bergamotes,not raw cotton,non
 bergamotes fraîches,not raw cotton,non
-bergamotes ouvrées,not raw cotton,non
+bergamotes ouvrées,not raw cotton,oui
 Bergopzoom,not raw cotton,non
 Bergopzoom aune,not raw cotton,non
 berline,not raw cotton,non
@@ -1536,7 +1539,7 @@ bois de brochialle,not raw cotton,non
 bois de bruyère,not raw cotton,non
 bois de buis,not raw cotton,non
 bois de buis boule,not raw cotton,non
-bois de buis ouvré,not raw cotton,non
+bois de buis ouvré,not raw cotton,oui
 bois de cabestan,not raw cotton,non
 bois de cail-cédra,not raw cotton,non
 bois de Caliatour,not raw cotton,non
@@ -1715,7 +1718,7 @@ bois de selles,not raw cotton,non
 bois de senteur,not raw cotton,non
 bois de serrure,not raw cotton,non
 bois de simarouba,not raw cotton,non
-bois de soie,,non
+bois de soie,,oui
 bois de sommiers,not raw cotton,non
 bois de tables doré,not raw cotton,non
 bois de tamis,not raw cotton,non
@@ -1801,9 +1804,9 @@ bois moulu,not raw cotton,non
 bois néphrétique,not raw cotton,non
 bois odorants,not raw cotton,non
 bois osier,not raw cotton,non
-bois ouvré,not raw cotton,non
-bois ouvré pour bâtir,not raw cotton,non
-bois ouvré pour bats,not raw cotton,non
+bois ouvré,not raw cotton,oui
+bois ouvré pour bâtir,not raw cotton,oui
+bois ouvré pour bats,not raw cotton,oui
 bois palissandre,not raw cotton,non
 bois perible,not raw cotton,non
 bois petit de rouage,not raw cotton,non
@@ -2165,9 +2168,10 @@ bougie en suif et suif,not raw cotton,non
 bougie et cierges,not raw cotton,non
 bougie jaune,not raw cotton,non
 bougie verte,not raw cotton,non
-bougies,,non
+bougies,,oui
 bougran,not raw cotton,non
 bouguette,not raw cotton,non
+bouilloire de cuivre,,non
 bouilloires de cuivre,not raw cotton,non
 bouillotte de cuivre,not raw cotton,non
 boulange,not raw cotton,non
@@ -2735,6 +2739,7 @@ café ordinaire,not raw cotton,non
 café pour Genève,not raw cotton,non
 café pur,not raw cotton,non
 café trié,not raw cotton,non
+cafetière de cuivre,,non
 cafetière de fer-blanc,not raw cotton,non
 cafetières,not raw cotton,non
 cafetières d'étain,not raw cotton,non
@@ -3479,7 +3484,7 @@ cercles de fer,not raw cotton,non
 cercles de fer et feuillardes de fer,not raw cotton,non
 cercles de fers,not raw cotton,non
 cercles de feuillards,not raw cotton,non
-cercles de feullards,,non
+cercles de feullards,,oui
 cercles de jonc,not raw cotton,non
 cercles et feuillards,,non
 cercles pour barriques de bois,not raw cotton,non
@@ -3881,7 +3886,8 @@ chaudron de cuivre rouge,not raw cotton,non
 chaudron de fer,not raw cotton,non
 chaudron de potin,not raw cotton,non
 chauffe-pieds,not raw cotton,non
-chauffe-pieds ganis,,non
+chauffe-pieds ganis,,oui
+chauffe-pieds garnis,,non
 chaufferettes,not raw cotton,non
 chaufferettes de bois,not raw cotton,non
 chausse-pieds,not raw cotton,non
@@ -4151,7 +4157,7 @@ cierges,not raw cotton,non
 cierges de cire blanche,not raw cotton,non
 cierges de cire et bougie de cire,not raw cotton,non
 cierges de fer,not raw cotton,non
-cierges et bougies,not raw cotton,non
+cierges et bougies,not raw cotton,oui
 cierges et flambeau,not raw cotton,non
 cigares,,non
 cigares par autorisation,not raw cotton,non
@@ -4177,7 +4183,7 @@ cire blanche de bougie,not raw cotton,non
 cire blanche et jaune,not raw cotton,non
 cire blanche et jaune non ouvrée,not raw cotton,non
 cire blanche non ouvrée,not raw cotton,non
-cire blanche ouvrée,not raw cotton,non
+cire blanche ouvrée,not raw cotton,oui
 cire brune,not raw cotton,non
 cire brune non clarifiée,not raw cotton,non
 cire brune non clarifiée du Sénégal,not raw cotton,non
@@ -4201,11 +4207,11 @@ cire jaune en bougie et chandelle,not raw cotton,non
 cire jaune en cierge et flambeaux,not raw cotton,oui
 cire jaune en cierges et flambeaux,,non
 cire jaune en pain,not raw cotton,non
-cire jaune ouvrée,,non
+cire jaune ouvrée,,oui
 cire moitié cire et moitié suif,not raw cotton,non
-cire ouvrée,not raw cotton,non
-cire ouvrée blanche,not raw cotton,non
-cire ouvrée jaune,not raw cotton,non
+cire ouvrée,not raw cotton,oui
+cire ouvrée blanche,not raw cotton,oui
+cire ouvrée jaune,not raw cotton,oui
 cire verte,not raw cotton,non
 cire vierge,not raw cotton,non
 cirsaca,not raw cotton,non
@@ -5359,8 +5365,8 @@ cuivre laminé,not raw cotton,non
 cuivre neuf,not raw cotton,non
 cuivre non ouvré,not raw cotton,non
 cuivre non ouvré rouge,not raw cotton,non
-cuivre ouvré bouilloire,not raw cotton,non
-cuivre ouvré cafetière,not raw cotton,non
+cuivre ouvré bouilloire,not raw cotton,oui
+cuivre ouvré cafetière,not raw cotton,oui
 cuivre potier,not raw cotton,non
 cuivre pur battu ou laminé,not raw cotton,non
 cuivre pur coulé en barres et plaques,not raw cotton,non
@@ -5380,7 +5386,7 @@ cuivre sur poil,not raw cotton,non
 cuivre tangoul,not raw cotton,non
 cuivre vieux,not raw cotton,non
 cuivrerie,not raw cotton,non
-cullottes,,non
+cullottes,,oui
 culottes,not raw cotton,non
 culottes à nègre,not raw cotton,non
 culottes d'étamine,not raw cotton,non
@@ -5695,9 +5701,9 @@ doublures de martre pour habits,not raw cotton,non
 doublures de petis gris,not raw cotton,non
 douelles,not raw cotton,non
 douelles à barils,not raw cotton,non
-douelles à barricage,,non
+douelles à barricage,,oui
 douelles à barricages,,non
-douelles à barrique,not raw cotton,non
+douelles à barrique,not raw cotton,oui
 douelles à barriques,not raw cotton,non
 douelles à barriques 3m 1/8,not raw cotton,non
 douelles à barriques neuves,,non
@@ -6144,7 +6150,8 @@ eau cordiale,not raw cotton,non
 eau d'anis,not raw cotton,non
 eau d'arc,not raw cotton,non
 eau d'arquebusade,not raw cotton,non
-eau d'aspci,,non
+eau d'aspci,,oui
+eau d'aspic,,non
 eau d'Esquebat,not raw cotton,non
 eau d'odeur,not raw cotton,non
 eau d'orange,not raw cotton,non
@@ -7570,6 +7577,7 @@ fer pour foyer,not raw cotton,non
 fer pour liquarer et en verge,not raw cotton,non
 fer pour moulins à sucre,not raw cotton,non
 fer préparé pour canons de fusils et pistolets,not raw cotton,non
+fer préparé pour forces à tondre le drap,,non
 fer préparé pour forces à tondre les draps,not raw cotton,oui
 fer rond,not raw cotton,non
 fer roue,not raw cotton,non
@@ -7675,7 +7683,7 @@ feuilles de séné et séné,not raw cotton,non
 feuilles de tabac,not raw cotton,non
 feuilles des prises de tabac,not raw cotton,non
 feuilles et herbes à teindre,not raw cotton,non
-feuret à coudre,,non
+feuret à coudre,,oui
 feutres pour doublage,not raw cotton,non
 feutres pour filtrer semelles et autres ouvrages,not raw cotton,non
 feuves,not raw cotton,non
@@ -8191,6 +8199,7 @@ flèches et compas,,non
 flèches marines,not raw cotton,non
 fleures,not raw cotton,oui
 fleuret,not raw cotton,non
+fleuret à coudre,,non
 fleuret à faire des armes,not raw cotton,non
 fleuret et filoselle,not raw cotton,non
 fleuret et lames de fleuret,not raw cotton,non
@@ -8379,7 +8388,8 @@ fourrure de petit gris,not raw cotton,non
 fourrure de soie,not raw cotton,non
 fourrure dos gorge nappe queue ventre,not raw cotton,non
 fourrure peaux entières,not raw cotton,non
-fraises à l'eau-de-vier,,non
+fraises à l'eau-de-vie,,non
+fraises à l'eau-de-vier,,oui
 fraises de Chypre,not raw cotton,non
 fraisset de vermillon,not raw cotton,non
 frange d'argent,not raw cotton,non
@@ -8856,7 +8866,7 @@ gayet,not raw cotton,non
 gayet brut,not raw cotton,non
 gaze,not raw cotton,non
 gaze à fleurs,,non
-gaze à peu,not raw cotton,non
+gaze à peu,not raw cotton,oui
 gaze à peu de soie,not raw cotton,non
 gaze au 6e de soie,not raw cotton,non
 gaze au bas de soie,not raw cotton,non
@@ -9118,7 +9128,7 @@ gomme élastique,not raw cotton,non
 gomme élémi,not raw cotton,non
 gomme elemy,not raw cotton,non
 gomme émeri,,non
-gomme emery,not raw cotton,non
+gomme emery,not raw cotton,oui
 gomme en feuilles,not raw cotton,non
 gomme en grabeau,not raw cotton,non
 gomme en pâte,not raw cotton,non
@@ -13118,6 +13128,8 @@ ouvrages ???,not raw cotton,non
 ouvrages ??? à couvrir,not raw cotton,non
 ouvrages brisés et vieux ouvrages de laiton,not raw cotton,non
 ouvrages d'acier,not raw cotton,non
+ouvrages d'agate,,non
+ouvrages d'agate et agate chique,,non
 ouvrages d'airain,not raw cotton,non
 ouvrages d'albâtre,not raw cotton,non
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,not raw cotton,non
@@ -13150,7 +13162,9 @@ ouvrages d'or,not raw cotton,non
 ouvrages d'or faux,not raw cotton,non
 ouvrages d'orfèvrerie,not raw cotton,non
 ouvrages d'osier,not raw cotton,non
+ouvrages de bergamotes,,non
 ouvrages de bois,not raw cotton,non
+ouvrages de bois de buis,,non
 ouvrages de bois de noyer,not raw cotton,non
 ouvrages de bois de Saint-Claude,not raw cotton,non
 ouvrages de bois de sapin,not raw cotton,non
@@ -13170,6 +13184,7 @@ ouvrages de bois gros,not raw cotton,non
 ouvrages de bois menus,not raw cotton,non
 ouvrages de bois non doré,not raw cotton,non
 ouvrages de bois peint,not raw cotton,non
+ouvrages de bois pour bâtir,,non
 ouvrages de bois pour charpente,not raw cotton,non
 ouvrages de bois pour le bâtiment,not raw cotton,non
 ouvrages de bois sculpté et doré,not raw cotton,non
@@ -13190,6 +13205,8 @@ ouvrages de charron,not raw cotton,non
 ouvrages de charronnage,not raw cotton,non
 ouvrages de chêne,not raw cotton,non
 ouvrages de cire,not raw cotton,non
+ouvrages de cire blanche,,non
+ouvrages de cire jaune,,non
 ouvrages de corail,not raw cotton,non
 ouvrages de corail brut,not raw cotton,non
 ouvrages de corail fin,not raw cotton,non
@@ -13292,11 +13309,13 @@ ouvrages de peaux outres pleines,not raw cotton,non
 ouvrages de physique,not raw cotton,non
 ouvrages de pierre,not raw cotton,non
 ouvrages de pierre autre que chiques,not raw cotton,non
+ouvrages de pierres de jais,,non
 ouvrages de pierres de jayet,not raw cotton,non
 ouvrages de plâtre,not raw cotton,non
 ouvrages de plâtre en figure,not raw cotton,non
 ouvrages de plomb,not raw cotton,non
 ouvrages de plumes,not raw cotton,non
+ouvrages de plumes d'autruche,,non
 ouvrages de poterie,not raw cotton,non
 ouvrages de potin,,non
 ouvrages de sapin,not raw cotton,non
@@ -14758,7 +14777,7 @@ pierres de grison,not raw cotton,non
 pierres de jais,not raw cotton,non
 pierres de jais brut,not raw cotton,non
 pierres de jais et ???,not raw cotton,non
-pierres de jais et ouvrées,not raw cotton,non
+pierres de jais et ouvrées,not raw cotton,oui
 pierres de jaspe,not raw cotton,non
 pierres de laine,not raw cotton,non
 pierres de Malte,not raw cotton,non
@@ -15574,7 +15593,7 @@ plumes d'autruche crues et noires,not raw cotton,non
 plumes d'autruche et autres de parure,not raw cotton,non
 plumes d'autruche et de vautour,not raw cotton,non
 plumes d'autruche noires,not raw cotton,non
-plumes d'autruche ouvrées,not raw cotton,non
+plumes d'autruche ouvrées,not raw cotton,oui
 plumes d'édredon,not raw cotton,non
 plumes d'oie,not raw cotton,non
 plumes d'oie à lit,not raw cotton,non
@@ -15589,7 +15608,7 @@ plumes idem,not raw cotton,non
 plumes mortes,not raw cotton,non
 plumes mortes à lit,not raw cotton,non
 plumes noire,not raw cotton,non
-plumes ouvrées,not raw cotton,non
+plumes ouvrées,not raw cotton,oui
 plumes pour dévidoir,not raw cotton,non
 plumes pour duvet,not raw cotton,non
 plumes teintes,not raw cotton,non
@@ -17760,8 +17779,8 @@ soudes et potasse,not raw cotton,non
 soudes et tartre,not raw cotton,non
 soudure,not raw cotton,non
 soudure de cuivre,not raw cotton,non
-soufflet à feu,,non
-soufflet à tirer vin au clair,,non
+soufflets à feu,,non
+soufflets à tirer vin au clair,,non
 soufflets,not raw cotton,non
 soufflets à bouche,not raw cotton,non
 soufflets à feu,not raw cotton,non

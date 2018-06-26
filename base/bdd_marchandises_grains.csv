@@ -114,12 +114,14 @@ agaric et amadouvier,Pas grain (0),oui
 agaric fin,Pas grain (0),non
 agaric gros,Pas grain (0),non
 agate,Pas grain (0),non
-agate autre que chique et ouvrée,Pas grain (0),non
+agate autre que chique et ouvrages,,non
+agate autre que chique et ouvrée,Pas grain (0),oui
 agate brute,Pas grain (0),non
-agate chique et ouvrée,Pas grain (0),non
+agate chique et ouvrée,Pas grain (0),oui
+agate en pierres,,non
 agate fine,Pas grain (0),non
 agate montée,Pas grain (0),non
-agate ouvrée,Pas grain (0),non
+agate ouvrée,Pas grain (0),oui
 agneaux,Pas grain (0),non
 agneaux communs,Pas grain (0),non
 agneaux en vie,Pas grain (0),non
@@ -622,9 +624,9 @@ aube,Pas grain (0),non
 auchinoise,Pas grain (0),non
 auclimes,Pas grain (0),non
 auf,Pas grain (0),non
-auf ouvré,Pas grain (0),non
-auf travaillé,Pas grain (0),non
-auf travaillé en cordes,Pas grain (0),non
+auf ouvré,Pas grain (0),oui
+auf travaillé,Pas grain (0),oui
+auf travaillé en cordes,Pas grain (0),oui
 augemy,Pas grain (0),non
 auges,Pas grain (0),non
 auges de carreaux,Pas grain (0),non
@@ -1156,6 +1158,7 @@ bâtons vernis,Pas grain (0),non
 bâts,Pas grain (0),non
 bâts à matelas,Pas grain (0),non
 bâts d'ânes,Pas grain (0),non
+bats de bois,,non
 bâts de chevaux,Pas grain (0),non
 bâts de mulets,Pas grain (0),non
 batterie d'airain,Pas grain (0),non
@@ -1250,7 +1253,7 @@ berceau d'osier,Pas grain (0),non
 bergamote,Pas grain (0),non
 bergamotes,Pas grain (0),non
 bergamotes fraîches,Pas grain (0),non
-bergamotes ouvrées,Pas grain (0),non
+bergamotes ouvrées,Pas grain (0),oui
 Bergopzoom,Pas grain (0),non
 Bergopzoom aune,Pas grain (0),non
 berline,Pas grain (0),non
@@ -1587,7 +1590,7 @@ bois de brochialle,Pas grain (0),non
 bois de bruyère,Pas grain (0),non
 bois de buis,Pas grain (0),non
 bois de buis boule,Pas grain (0),non
-bois de buis ouvré,Pas grain (0),non
+bois de buis ouvré,Pas grain (0),oui
 bois de cabestan,Pas grain (0),non
 bois de cail-cédra,Pas grain (0),non
 bois de Caliatour,Pas grain (0),non
@@ -1775,7 +1778,7 @@ bois de selles,Pas grain (0),non
 bois de senteur,Pas grain (0),non
 bois de serrure,Pas grain (0),non
 bois de simarouba,Pas grain (0),non
-bois de soie,,non
+bois de soie,,oui
 bois de sommiers,Pas grain (0),non
 bois de tables doré,Pas grain (0),non
 bois de tamis,Pas grain (0),non
@@ -1863,9 +1866,9 @@ bois moulu,Pas grain (0),non
 bois néphrétique,Pas grain (0),non
 bois odorants,Pas grain (0),non
 bois osier,Pas grain (0),non
-bois ouvré,Pas grain (0),non
-bois ouvré pour bâtir,Pas grain (0),non
-bois ouvré pour bats,Pas grain (0),non
+bois ouvré,Pas grain (0),oui
+bois ouvré pour bâtir,Pas grain (0),oui
+bois ouvré pour bats,Pas grain (0),oui
 bois palissandre,Pas grain (0),non
 bois perible,Pas grain (0),non
 bois petit de rouage,Pas grain (0),non
@@ -2235,9 +2238,10 @@ bougie en suif et suif,Pas grain (0),non
 bougie et cierges,Pas grain (0),non
 bougie jaune,Pas grain (0),non
 bougie verte,Pas grain (0),non
-bougies,,non
+bougies,,oui
 bougran,Pas grain (0),non
 bouguette,Pas grain (0),non
+bouilloire de cuivre,,non
 bouilloires de cuivre,Pas grain (0),non
 bouillotte de cuivre,Pas grain (0),non
 boulange,Pas grain (0),non
@@ -2831,6 +2835,7 @@ café ordinaire,Pas grain (0),non
 café pour Genève,Pas grain (0),non
 café pur,Pas grain (0),non
 café trié,Pas grain (0),non
+cafetière de cuivre,,non
 cafetière de fer-blanc,Pas grain (0),non
 cafetières,Pas grain (0),non
 cafetières d'étain,Pas grain (0),non
@@ -3623,7 +3628,7 @@ cercles de fer,Pas grain (0),non
 cercles de fer et feuillardes de fer,Pas grain (0),non
 cercles de fers,Pas grain (0),non
 cercles de feuillards,Pas grain (0),non
-cercles de feullards,,non
+cercles de feullards,,oui
 cercles de jonc,Pas grain (0),non
 cercles de tamis,Pas grain (0),oui
 cercles et feuillards,,non
@@ -4047,7 +4052,8 @@ chaudron de fer,Pas grain (0),non
 chaudron de potin,Pas grain (0),non
 chaudron en cuivre,Pas grain (0),oui
 chauffe-pieds,Pas grain (0),non
-chauffe-pieds ganis,,non
+chauffe-pieds ganis,,oui
+chauffe-pieds garnis,,non
 chaufferettes,Pas grain (0),non
 chaufferettes de bois,Pas grain (0),non
 chauffete,Pas grain (0),oui
@@ -4333,7 +4339,7 @@ cierges,Pas grain (0),non
 cierges de cire blanche,Pas grain (0),non
 cierges de cire et bougie de cire,Pas grain (0),non
 cierges de fer,Pas grain (0),non
-cierges et bougies,Pas grain (0),non
+cierges et bougies,Pas grain (0),oui
 cierges et flambeau,Pas grain (0),non
 cigares,,non
 cigares par autorisation,Pas grain (0),non
@@ -4361,7 +4367,7 @@ cire blanche de bougie,Pas grain (0),non
 cire blanche et jaune,Pas grain (0),non
 cire blanche et jaune non ouvrée,Pas grain (0),non
 cire blanche non ouvrée,Pas grain (0),non
-cire blanche ouvrée,Pas grain (0),non
+cire blanche ouvrée,Pas grain (0),oui
 cire brune,Pas grain (0),non
 cire brune non clarifiée,Pas grain (0),non
 cire brune non clarifiée du Sénégal,Pas grain (0),non
@@ -4387,11 +4393,11 @@ cire jaune en bougie et chandelle,Pas grain (0),non
 cire jaune en cierge et flambeaux,Pas grain (0),oui
 cire jaune en cierges et flambeaux,,non
 cire jaune en pain,Pas grain (0),non
-cire jaune ouvrée,,non
+cire jaune ouvrée,,oui
 cire moitié cire et moitié suif,Pas grain (0),non
-cire ouvrée,Pas grain (0),non
-cire ouvrée blanche,Pas grain (0),non
-cire ouvrée jaune,Pas grain (0),non
+cire ouvrée,Pas grain (0),oui
+cire ouvrée blanche,Pas grain (0),oui
+cire ouvrée jaune,Pas grain (0),oui
 cire verte,Pas grain (0),non
 cire vierge,Pas grain (0),non
 cirsaca,Pas grain (0),non
@@ -5645,8 +5651,8 @@ cuivre laminé,Pas grain (0),non
 cuivre neuf,Pas grain (0),non
 cuivre non ouvré,Pas grain (0),non
 cuivre non ouvré rouge,Pas grain (0),non
-cuivre ouvré bouilloire,Pas grain (0),non
-cuivre ouvré cafetière,Pas grain (0),non
+cuivre ouvré bouilloire,Pas grain (0),oui
+cuivre ouvré cafetière,Pas grain (0),oui
 cuivre potier,Pas grain (0),non
 cuivre pur battu ou laminé,Pas grain (0),non
 cuivre pur coulé en barres et plaques,Pas grain (0),non
@@ -5668,7 +5674,7 @@ cuivre sur poil,Pas grain (0),non
 cuivre tangoul,Pas grain (0),non
 cuivre vieux,Pas grain (0),non
 cuivrerie,Pas grain (0),non
-cullottes,,non
+cullottes,,oui
 culotte de peau de mouton,Pas grain (0),oui
 culottes,Pas grain (0),non
 culottes à nègre,Pas grain (0),non
@@ -6007,9 +6013,9 @@ doublures de martre pour habits,Pas grain (0),non
 doublures de petis gris,Pas grain (0),non
 douelles,Pas grain (0),non
 douelles à barils,Pas grain (0),non
-douelles à barricage,,non
+douelles à barricage,,oui
 douelles à barricages,,non
-douelles à barrique,Pas grain (0),non
+douelles à barrique,Pas grain (0),oui
 douelles à barriques,Pas grain (0),non
 douelles à barriques 3m 1/8,Pas grain (0),non
 douelles à barriques neuves,,non
@@ -6488,7 +6494,8 @@ eau cordiale,Pas grain (0),non
 eau d'anis,Pas grain (0),non
 eau d'arc,Pas grain (0),non
 eau d'arquebusade,Pas grain (0),non
-eau d'aspci,,non
+eau d'aspci,,oui
+eau d'aspic,,non
 eau d'Esquebat,Pas grain (0),non
 eau d'odeur,Pas grain (0),non
 eau d'orange,Pas grain (0),non
@@ -7989,6 +7996,7 @@ fer pour foyer,Pas grain (0),non
 fer pour liquarer et en verge,Pas grain (0),non
 fer pour moulins à sucre,Pas grain (0),non
 fer préparé pour canons de fusils et pistolets,Pas grain (0),non
+fer préparé pour forces à tondre le drap,,non
 fer préparé pour forces à tondre les draps,Pas grain (0),oui
 fer rond,Pas grain (0),non
 fer roue,Pas grain (0),non
@@ -8097,7 +8105,7 @@ feuilles de séné et séné,Pas grain (0),non
 feuilles de tabac,Pas grain (0),non
 feuilles des prises de tabac,Pas grain (0),non
 feuilles et herbes à teindre,Pas grain (0),non
-feuret à coudre,,non
+feuret à coudre,,oui
 feutres pour doublage,Pas grain (0),non
 feutres pour filtrer semelles et autres ouvrages,Pas grain (0),non
 feuves,Pas grain (0),non
@@ -8670,6 +8678,7 @@ flèches et compas,,non
 flèches marines,Pas grain (0),non
 fleures,Pas grain (0),oui
 fleuret,Pas grain (0),non
+fleuret à coudre,,non
 fleuret à faire des armes,Pas grain (0),non
 fleuret et filoselle,Pas grain (0),non
 fleuret et lames de fleuret,Pas grain (0),non
@@ -8866,7 +8875,8 @@ fourrure de petit gris,Pas grain (0),non
 fourrure de soie,Pas grain (0),non
 fourrure dos gorge nappe queue ventre,Pas grain (0),non
 fourrure peaux entières,Pas grain (0),non
-fraises à l'eau-de-vier,,non
+fraises à l'eau-de-vie,,non
+fraises à l'eau-de-vier,,oui
 fraises de Chypre,Pas grain (0),non
 fraisset de vermillon,Pas grain (0),non
 frange d'argent,Pas grain (0),non
@@ -9352,7 +9362,7 @@ gayet,Pas grain (0),non
 gayet brut,Pas grain (0),non
 gaze,Pas grain (0),non
 gaze à fleurs,,non
-gaze à peu,Pas grain (0),non
+gaze à peu,Pas grain (0),oui
 gaze à peu de soie,Pas grain (0),non
 gaze au 6e de soie,Pas grain (0),non
 gaze au bas de soie,Pas grain (0),non
@@ -9636,7 +9646,7 @@ gomme élastique,Pas grain (0),non
 gomme élémi,Pas grain (0),non
 gomme elemy,Pas grain (0),non
 gomme émeri,,non
-gomme emery,Pas grain (0),non
+gomme emery,Pas grain (0),oui
 gomme en feuilles,Pas grain (0),non
 gomme en grabeau,Pas grain (0),non
 gomme en pâte,Pas grain (0),non
@@ -13893,6 +13903,8 @@ ouvrages brisés et vieux ouvrages de laiton,Pas grain (0),non
 ouvrages corbeille d'osier,Pas grain (0),oui
 ouvrages d'acier,Pas grain (0),non
 ouvrages d'acier et fer carburé,Pas grain (0),oui
+ouvrages d'agate,,non
+ouvrages d'agate et agate chique,,non
 ouvrages d'airain,Pas grain (0),non
 ouvrages d'albâtre,Pas grain (0),non
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,Pas grain (0),non
@@ -13926,7 +13938,9 @@ ouvrages d'or faux,Pas grain (0),non
 ouvrages d'orfèvrerie,Pas grain (0),non
 ouvrages d'orfèvrerie d'argent,Pas grain (0),oui
 ouvrages d'osier,Pas grain (0),non
+ouvrages de bergamotes,,non
 ouvrages de bois,Pas grain (0),non
+ouvrages de bois de buis,,non
 ouvrages de bois de noyer,Pas grain (0),non
 ouvrages de bois de Saint-Claude,Pas grain (0),non
 ouvrages de bois de sapin,Pas grain (0),non
@@ -13946,6 +13960,7 @@ ouvrages de bois gros,Pas grain (0),non
 ouvrages de bois menus,Pas grain (0),non
 ouvrages de bois non doré,Pas grain (0),non
 ouvrages de bois peint,Pas grain (0),non
+ouvrages de bois pour bâtir,,non
 ouvrages de bois pour charpente,Pas grain (0),non
 ouvrages de bois pour le bâtiment,Pas grain (0),non
 ouvrages de bois sculpté et doré,Pas grain (0),non
@@ -13967,6 +13982,8 @@ ouvrages de charron,Pas grain (0),non
 ouvrages de charronnage,Pas grain (0),non
 ouvrages de chêne,Pas grain (0),non
 ouvrages de cire,Pas grain (0),non
+ouvrages de cire blanche,,non
+ouvrages de cire jaune,,non
 ouvrages de corail,Pas grain (0),non
 ouvrages de corail brut,Pas grain (0),non
 ouvrages de corail fin,Pas grain (0),non
@@ -14071,11 +14088,13 @@ ouvrages de peaux outres pleines,Pas grain (0),non
 ouvrages de physique,Pas grain (0),non
 ouvrages de pierre,Pas grain (0),non
 ouvrages de pierre autre que chiques,Pas grain (0),non
+ouvrages de pierres de jais,,non
 ouvrages de pierres de jayet,Pas grain (0),non
 ouvrages de plâtre,Pas grain (0),non
 ouvrages de plâtre en figure,Pas grain (0),non
 ouvrages de plomb,Pas grain (0),non
 ouvrages de plumes,Pas grain (0),non
+ouvrages de plumes d'autruche,,non
 ouvrages de poterie,Pas grain (0),non
 ouvrages de potin,,non
 ouvrages de sapementier,Pas grain (0),oui
@@ -15644,7 +15663,7 @@ pierres de grison,Pas grain (0),non
 pierres de jais,Pas grain (0),non
 pierres de jais brut,Pas grain (0),non
 pierres de jais et ???,Pas grain (0),non
-pierres de jais et ouvrées,Pas grain (0),non
+pierres de jais et ouvrées,Pas grain (0),oui
 pierres de jaspe,Pas grain (0),non
 pierres de laine,Pas grain (0),non
 pierres de Malte,Pas grain (0),non
@@ -16486,7 +16505,7 @@ plumes d'autruche crues et noires,Pas grain (0),non
 plumes d'autruche et autres de parure,Pas grain (0),non
 plumes d'autruche et de vautour,Pas grain (0),non
 plumes d'autruche noires,Pas grain (0),non
-plumes d'autruche ouvrées,Pas grain (0),non
+plumes d'autruche ouvrées,Pas grain (0),oui
 plumes d'édredon,Pas grain (0),non
 plumes d'oie,Pas grain (0),non
 plumes d'oie à lit,Pas grain (0),non
@@ -16501,7 +16520,7 @@ plumes idem,Pas grain (0),non
 plumes mortes,Pas grain (0),non
 plumes mortes à lit,Pas grain (0),non
 plumes noire,Pas grain (0),non
-plumes ouvrées,Pas grain (0),non
+plumes ouvrées,Pas grain (0),oui
 plumes pour dévidoir,Pas grain (0),non
 plumes pour duvet,Pas grain (0),non
 plumes teintes,Pas grain (0),non
@@ -18842,8 +18861,8 @@ soudes et potasse,Pas grain (0),non
 soudes et tartre,Pas grain (0),non
 soudure,Pas grain (0),non
 soudure de cuivre,Pas grain (0),non
-soufflet à feu,,non
-soufflet à tirer vin au clair,,non
+soufflets à feu,,non
+soufflets à tirer vin au clair,,non
 soufflets,Pas grain (0),non
 soufflets à bouche,Pas grain (0),non
 soufflets à feu,Pas grain (0),non

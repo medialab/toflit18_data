@@ -111,12 +111,14 @@ agaric et amadouvier,,,oui,0
 agaric fin,,,non,0
 agaric gros,,,non,0
 agate,,,non,0
-agate autre que chique et ouvrée,,,non,0
+agate autre que chique et ouvrages,,,non,
+agate autre que chique et ouvrée,,,oui,0
 agate brute,,,non,0
-agate chique et ouvrée,,,non,0
+agate chique et ouvrée,,,oui,0
+agate en pierres,,,non,
 agate fine,,,non,0
 agate montée,,,non,0
-agate ouvrée,,,non,0
+agate ouvrée,,,oui,0
 agneaux,,,non,0
 agneaux communs,,,non,0
 agneaux en vie,,,non,0
@@ -619,9 +621,9 @@ aube,,,non,0
 auchinoise,,,non,0
 auclimes,,,non,0
 auf,,,non,0
-auf ouvré,,,non,0
-auf travaillé,,,non,0
-auf travaillé en cordes,,,non,0
+auf ouvré,,,oui,0
+auf travaillé,,,oui,0
+auf travaillé en cordes,,,oui,0
 augemy,,,non,0
 auges,,,non,0
 auges de carreaux,,,non,0
@@ -1153,6 +1155,7 @@ bâtons vernis,,,non,0
 bâts,,,non,0
 bâts à matelas,,,non,0
 bâts d'ânes,,,non,0
+bats de bois,,,non,
 bâts de chevaux,,,non,0
 bâts de mulets,,,non,0
 batterie d'airain,,,non,0
@@ -1248,7 +1251,7 @@ berceau d'osier,,,non,0
 bergamote,,,non,0
 bergamotes,,,non,0
 bergamotes fraîches,,,non,0
-bergamotes ouvrées,,,non,0
+bergamotes ouvrées,,,oui,0
 Bergopzoom,,,non,0
 Bergopzoom aune,,,non,0
 berline,,,non,0
@@ -1586,7 +1589,7 @@ bois de brochialle,,,non,0
 bois de bruyère,,,non,0
 bois de buis,,,non,1
 bois de buis boule,,,non,0
-bois de buis ouvré,,,non,0
+bois de buis ouvré,,,oui,0
 bois de cabestan,,,non,0
 bois de cail-cédra,,,non,1
 bois de Caliatour,,,non,0
@@ -1776,7 +1779,7 @@ bois de senteur,,,non,0
 bois de serrure,,,non,0
 bois de simarouba,Peut être Canada,,non,1
 bois de Siramonbas,,,oui,0
-bois de soie,,,non,
+bois de soie,,,oui,
 bois de sommiers,,,non,0
 bois de tables doré,,,non,0
 bois de tamis,,,non,0
@@ -1865,9 +1868,9 @@ bois moulu,,,non,0
 bois néphrétique,,,non,0
 bois odorants,,,non,0
 bois osier,,,non,0
-bois ouvré,,,non,0
-bois ouvré pour bâtir,,,non,0
-bois ouvré pour bats,,,non,0
+bois ouvré,,,oui,0
+bois ouvré pour bâtir,,,oui,0
+bois ouvré pour bats,,,oui,0
 bois palissandre,,,non,0
 bois perible,,,non,0
 bois petit de rouage,,,non,0
@@ -2238,9 +2241,10 @@ bougie en suif et suif,,,non,0
 bougie et cierges,,,non,0
 bougie jaune,,,non,0
 bougie verte,Hors Canada,,non,1
-bougies,,,non,
+bougies,,,oui,
 bougran,,,non,0
 bouguette,,,non,0
+bouilloire de cuivre,,,non,
 bouilloires de cuivre,,,non,0
 bouillotte de cuivre,,,non,0
 boulange,,,non,0
@@ -2834,6 +2838,7 @@ café ordinaire,Hors Canada,,non,0
 café pour Genève,Hors Canada,,non,0
 café pur,Hors Canada,,non,1
 café trié,Hors Canada,,non,1
+cafetière de cuivre,,,non,
 cafetière de fer-blanc,,,non,0
 cafetières,,,non,0
 cafetières d'étain,,,non,0
@@ -3627,7 +3632,7 @@ cercles de fer,,,non,0
 cercles de fer et feuillardes de fer,,,non,0
 cercles de fers,,,non,0
 cercles de feuillards,,,non,0
-cercles de feullards,,,non,
+cercles de feullards,,,oui,
 cercles de jonc,,,non,0
 cercles de tamis,,,oui,0
 cercles et feuillards,,,non,
@@ -4051,7 +4056,8 @@ chaudron de fer,,,non,0
 chaudron de potin,,,non,0
 chaudron en cuivre,,,oui,0
 chauffe-pieds,,,non,0
-chauffe-pieds ganis,,,non,
+chauffe-pieds ganis,,,oui,
+chauffe-pieds garnis,,,non,
 chaufferettes,,,non,0
 chaufferettes de bois,,,non,0
 chauffete,,,oui,0
@@ -4338,7 +4344,7 @@ cierges,,,non,0
 cierges de cire blanche,,,non,0
 cierges de cire et bougie de cire,,,non,0
 cierges de fer,,,non,0
-cierges et bougies,,,non,0
+cierges et bougies,,,oui,0
 cierges et flambeau,,,non,0
 cigares,,,non,
 cigares par autorisation,,,non,0
@@ -4366,7 +4372,7 @@ cire blanche de bougie,,,non,0
 cire blanche et jaune,Hors Canada,,non,1
 cire blanche et jaune non ouvrée,,,non,0
 cire blanche non ouvrée,,,non,0
-cire blanche ouvrée,,,non,0
+cire blanche ouvrée,,,oui,0
 cire brune,,,non,0
 cire brune non clarifiée,,,non,1
 cire brune non clarifiée du Sénégal,,,non,0
@@ -4392,11 +4398,11 @@ cire jaune en bougie et chandelle,,,non,0
 cire jaune en cierge et flambeaux,,,oui,0
 cire jaune en cierges et flambeaux,,,non,
 cire jaune en pain,,,non,0
-cire jaune ouvrée,,,non,
+cire jaune ouvrée,,,oui,
 cire moitié cire et moitié suif,,,non,0
-cire ouvrée,,,non,0
-cire ouvrée blanche,,,non,0
-cire ouvrée jaune,,,non,0
+cire ouvrée,,,oui,0
+cire ouvrée blanche,,,oui,0
+cire ouvrée jaune,,,oui,0
 cire verte,Hors Canada,,non,1
 cire vierge,,,non,0
 cirsaca,,,non,1
@@ -5650,8 +5656,8 @@ cuivre laminé,Hors Canada,,non,1
 cuivre neuf,,,non,0
 cuivre non ouvré,,,non,0
 cuivre non ouvré rouge,,,non,0
-cuivre ouvré bouilloire,,,non,0
-cuivre ouvré cafetière,,,non,0
+cuivre ouvré bouilloire,,,oui,0
+cuivre ouvré cafetière,,,oui,0
 cuivre potier,,,non,0
 cuivre pur battu ou laminé,,,non,0
 cuivre pur coulé en barres et plaques,,,non,0
@@ -5671,7 +5677,7 @@ cuivre sur poil,Hors Canada,,non,0
 cuivre tangoul,,,non,0
 cuivre vieux,Hors Canada,,non,1
 cuivrerie,,,non,0
-cullottes,,,non,
+cullottes,,,oui,
 culotte de peau de mouton,,,oui,0
 culottes,,,non,0
 culottes à nègre,,,non,0
@@ -6014,9 +6020,9 @@ doublures de martre pour habits,,,non,0
 doublures de petis gris,,,non,0
 douelles,Hors Canada,,non,1
 douelles à barils,Hors Canada,,non,1
-douelles à barricage,,,non,
+douelles à barricage,,,oui,
 douelles à barricages,,,non,
-douelles à barrique,,,non,0
+douelles à barrique,,,oui,0
 douelles à barriques,,,non,0
 douelles à barriques 3m 1/8,,,non,0
 douelles à barriques neuves,,,non,
@@ -6497,7 +6503,8 @@ eau cordiale,,,non,0
 eau d'anis,,,non,0
 eau d'arc,,,non,0
 eau d'arquebusade,,,non,0
-eau d'aspci,,,non,
+eau d'aspci,,,oui,
+eau d'aspic,,,non,
 eau d'Esquebat,,,non,0
 eau d'odeur,,,non,0
 eau d'orange,,,non,0
@@ -8000,6 +8007,7 @@ fer pour foyer,,,non,0
 fer pour liquarer et en verge,,,non,0
 fer pour moulins à sucre,,,non,0
 fer préparé pour canons de fusils et pistolets,,,non,0
+fer préparé pour forces à tondre le drap,,,non,
 fer préparé pour forces à tondre les draps,,,oui,0
 fer rond,,,non,0
 fer roue,,,non,0
@@ -8108,7 +8116,7 @@ feuilles de séné et séné,,,non,0
 feuilles de tabac,Hors Canada,,non,1
 feuilles des prises de tabac,,,non,0
 feuilles et herbes à teindre,,,non,0
-feuret à coudre,,,non,
+feuret à coudre,,,oui,
 feutres pour doublage,,,non,0
 feutres pour filtrer semelles et autres ouvrages,,,non,0
 feuves,,,non,0
@@ -8681,6 +8689,7 @@ flèches et compas,,,non,
 flèches marines,,,non,0
 fleures,,,oui,0
 fleuret,,,non,0
+fleuret à coudre,,,non,
 fleuret à faire des armes,,,non,0
 fleuret et filoselle,,,non,0
 fleuret et lames de fleuret,,,non,0
@@ -8877,7 +8886,8 @@ fourrure de petit gris,,,non,0
 fourrure de soie,,,non,0
 fourrure dos gorge nappe queue ventre,,,non,0
 fourrure peaux entières,,,non,0
-fraises à l'eau-de-vier,,,non,
+fraises à l'eau-de-vie,,,non,
+fraises à l'eau-de-vier,,,oui,
 fraises de Chypre,,,non,0
 fraisset de vermillon,,,non,0
 frange d'argent,,,non,0
@@ -9364,7 +9374,7 @@ gayet,,,non,0
 gayet brut,,,non,0
 gaze,,,non,1
 gaze à fleurs,,,non,
-gaze à peu,,,non,0
+gaze à peu,,,oui,0
 gaze à peu de soie,,,non,0
 gaze au 6e de soie,,,non,0
 gaze au bas de soie,,,non,0
@@ -9647,7 +9657,7 @@ gomme élastique,Hors Canada,,non,1
 gomme élémi,Hors Canada,Asie,non,1
 gomme elemy,,,non,0
 gomme émeri,,,non,
-gomme emery,,,non,0
+gomme emery,,,oui,0
 gomme en feuilles,,,non,0
 gomme en grabeau,,,non,0
 gomme en pâte,,,non,0
@@ -13909,6 +13919,8 @@ ouvrages ??? à couvrir,,,non,0
 ouvrages brisés et vieux ouvrages de laiton,,,non,0
 ouvrages corbeille d'osier,,,oui,0
 ouvrages d'acier,,,non,0
+ouvrages d'agate,,,non,
+ouvrages d'agate et agate chique,,,non,
 ouvrages d'airain,,,non,0
 ouvrages d'albâtre,,,non,0
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,,,non,0
@@ -13942,7 +13954,9 @@ ouvrages d'or faux,,,non,0
 ouvrages d'orfèvrerie,,,non,0
 ouvrages d'orfèvrerie d'argent,,,oui,0
 ouvrages d'osier,,,non,0
+ouvrages de bergamotes,,,non,
 ouvrages de bois,Hors Canada,,non,1
+ouvrages de bois de buis,,,non,
 ouvrages de bois de noyer,,,non,0
 ouvrages de bois de Saint-Claude,,,non,0
 ouvrages de bois de sapin,,,non,0
@@ -13962,6 +13976,7 @@ ouvrages de bois gros,,,non,0
 ouvrages de bois menus,,,non,0
 ouvrages de bois non doré,,,non,0
 ouvrages de bois peint,,,non,0
+ouvrages de bois pour bâtir,,,non,
 ouvrages de bois pour charpente,,,non,0
 ouvrages de bois pour le bâtiment,,,non,0
 ouvrages de bois sculpté et doré,,,non,0
@@ -13983,6 +13998,8 @@ ouvrages de charron,,,non,0
 ouvrages de charronnage,,,non,0
 ouvrages de chêne,,,non,0
 ouvrages de cire,,,non,0
+ouvrages de cire blanche,,,non,
+ouvrages de cire jaune,,,non,
 ouvrages de corail,,,non,0
 ouvrages de corail brut,,,non,0
 ouvrages de corail fin,,,non,0
@@ -14087,11 +14104,13 @@ ouvrages de peaux outres pleines,,,non,0
 ouvrages de physique,,,non,0
 ouvrages de pierre,,,non,0
 ouvrages de pierre autre que chiques,,,non,0
+ouvrages de pierres de jais,,,non,
 ouvrages de pierres de jayet,,,non,0
 ouvrages de plâtre,,,non,0
 ouvrages de plâtre en figure,,,non,0
 ouvrages de plomb,,,non,0
 ouvrages de plumes,,,non,0
+ouvrages de plumes d'autruche,,,non,
 ouvrages de poterie,,,non,0
 ouvrages de potin,,,non,
 ouvrages de sapementier,,,oui,0
@@ -15666,7 +15685,7 @@ pierres de grison,,,non,0
 pierres de jais,,,non,0
 pierres de jais brut,,,non,0
 pierres de jais et ???,,,non,0
-pierres de jais et ouvrées,,,non,0
+pierres de jais et ouvrées,,,oui,0
 pierres de jaspe,,,non,0
 pierres de laine,,,non,0
 pierres de Malte,,,non,0
@@ -16511,7 +16530,7 @@ plumes d'autruche et autres de parure,,,non,0
 plumes d'autruche et brutes,,,oui,0
 plumes d'autruche et de vautour,,,non,0
 plumes d'autruche noires,,,non,0
-plumes d'autruche ouvrées,,,non,0
+plumes d'autruche ouvrées,,,oui,0
 plumes d'édredon,,,non,0
 plumes d'oie,,,non,0
 plumes d'oie à lit,,,non,0
@@ -16526,7 +16545,7 @@ plumes idem,,,non,0
 plumes mortes,,,non,0
 plumes mortes à lit,,,non,0
 plumes noire,,,non,0
-plumes ouvrées,,,non,0
+plumes ouvrées,,,oui,0
 plumes pour dévidoir,,,non,0
 plumes pour duvet,,,non,0
 plumes teintes,,,non,0
@@ -18869,8 +18888,8 @@ soudes et potasse,,,non,0
 soudes et tartre,,,non,0
 soudure,,,non,0
 soudure de cuivre,,,non,0
-soufflet à feu,,,non,
-soufflet à tirer vin au clair,,,non,
+soufflets à feu,,,non,
+soufflets à tirer vin au clair,,,non,
 soufflets,,,non,0
 soufflets à bouche,,,non,0
 soufflets à feu,,,non,0

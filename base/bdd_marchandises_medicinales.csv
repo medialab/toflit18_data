@@ -100,12 +100,14 @@ agaric de mélèze,narrow medical product,non,4,2
 agaric fin,narrow medical product,non,,
 agaric gros,narrow medical product,non,1,2
 agate,not a medical product,non,9,6k
-agate autre que chique et ouvrée,not a medical product,non,2,6k
+agate autre que chique et ouvrages,,non,,
+agate autre que chique et ouvrée,not a medical product,oui,2,6k
 agate brute,not a medical product,non,4,6k
-agate chique et ouvrée,not a medical product,non,1,6k
+agate chique et ouvrée,not a medical product,oui,1,6k
+agate en pierres,,non,,
 agate fine,not a medical product,non,1,6k
 agate montée,not a medical product,non,1,8
-agate ouvrée,not a medical product,non,4,6k
+agate ouvrée,not a medical product,oui,4,6k
 agneaux,not a medical product,non,108,0a
 agneaux communs,not a medical product,non,8,0a
 agneaux en vie,not a medical product,non,3,0a
@@ -595,9 +597,9 @@ aube,not a medical product,non,1,8
 auchinoise,not a medical product,non,2,???
 auclimes,not a medical product,non,1,???
 auf,not a medical product,non,105,2
-auf ouvré,not a medical product,non,20,6h
-auf travaillé,not a medical product,non,3,6h
-auf travaillé en cordes,not a medical product,non,1,6h
+auf ouvré,not a medical product,oui,20,6h
+auf travaillé,not a medical product,oui,3,6h
+auf travaillé en cordes,not a medical product,oui,1,6h
 augemy,not a medical product,non,2,???
 auges,not a medical product,non,3,9c
 auges de carreaux,not a medical product,non,2,6k
@@ -1111,6 +1113,7 @@ bâtons vernis,not a medical product,non,17,6b
 bâts,not a medical product,non,1,6k
 bâts à matelas,not a medical product,non,1,7
 bâts d'ânes,not a medical product,non,2,7
+bats de bois,,non,,
 bâts de chevaux,not a medical product,non,2,7
 bâts de mulets,not a medical product,non,5,7
 batterie d'airain,not a medical product,non,3,6j
@@ -1203,7 +1206,7 @@ berceau d'osier,not a medical product,non,1,8
 bergamote,not a medical product,non,2,0b
 bergamotes,not a medical product,non,89,0a
 bergamotes fraîches,not a medical product,non,1,0a
-bergamotes ouvrées,not a medical product,non,1,0b
+bergamotes ouvrées,not a medical product,oui,1,0b
 Bergopzoom,not a medical product,non,3,6i
 Bergopzoom aune,not a medical product,non,1,6i
 berline,not a medical product,non,6,7
@@ -1536,7 +1539,7 @@ bois de brochialle,not a medical product,non,1,2
 bois de bruyère,not a medical product,non,1,2
 bois de buis,not a medical product,non,213,2
 bois de buis boule,not a medical product,non,1,6b
-bois de buis ouvré,not a medical product,non,1,6b
+bois de buis ouvré,not a medical product,oui,1,6b
 bois de cabestan,not a medical product,non,1,6b
 bois de cail-cédra,not a medical product,non,3,6b
 bois de Caliatour,not a medical product,non,71,2
@@ -1715,7 +1718,7 @@ bois de selles,not a medical product,non,1,6b
 bois de senteur,not a medical product,non,1,2
 bois de serrure,not a medical product,non,1,6b
 bois de simarouba,not a medical product,non,29,2
-bois de soie,,non,,
+bois de soie,,oui,,
 bois de sommiers,not a medical product,non,2,6b
 bois de tables doré,not a medical product,non,1,6b
 bois de tamis,not a medical product,non,1,6b
@@ -1801,9 +1804,9 @@ bois moulu,not a medical product,non,2,5
 bois néphrétique,narrow medical product,non,7,2
 bois odorants,not a medical product,non,4,6b
 bois osier,not a medical product,non,33,2
-bois ouvré,not a medical product,non,5,6b
-bois ouvré pour bâtir,not a medical product,non,1,6b
-bois ouvré pour bats,not a medical product,non,1,6b
+bois ouvré,not a medical product,oui,5,6b
+bois ouvré pour bâtir,not a medical product,oui,1,6b
+bois ouvré pour bats,not a medical product,oui,1,6b
 bois palissandre,not a medical product,non,1,2
 bois perible,not a medical product,non,2,2
 bois petit de rouage,not a medical product,non,2,6b
@@ -2165,9 +2168,10 @@ bougie en suif et suif,not a medical product,non,1,8
 bougie et cierges,not a medical product,non,7,8
 bougie jaune,not a medical product,non,8,8
 bougie verte,not a medical product,non,1,8
-bougies,,non,,
+bougies,,oui,,
 bougran,not a medical product,non,84,6d
 bouguette,not a medical product,non,1,???
+bouilloire de cuivre,,non,,
 bouilloires de cuivre,not a medical product,non,,
 bouillotte de cuivre,not a medical product,non,1,6j
 boulange,not a medical product,non,31,0a
@@ -2735,6 +2739,7 @@ café ordinaire,not a medical product,non,1,0b
 café pour Genève,not a medical product,non,1,0b
 café pur,not a medical product,non,1,0b
 café trié,not a medical product,non,2,0b
+cafetière de cuivre,,non,,
 cafetière de fer-blanc,not a medical product,non,1,6k
 cafetières,not a medical product,non,44,6k
 cafetières d'étain,not a medical product,non,1,6j
@@ -3479,7 +3484,7 @@ cercles de fer,not a medical product,non,363,6j
 cercles de fer et feuillardes de fer,not a medical product,non,3,6j
 cercles de fers,not a medical product,non,3,6j
 cercles de feuillards,not a medical product,non,1,6b
-cercles de feullards,,non,,
+cercles de feullards,,oui,,
 cercles de jonc,not a medical product,non,7,6b
 cercles et feuillards,,non,,
 cercles pour barriques de bois,not a medical product,non,1,6b
@@ -3881,7 +3886,8 @@ chaudron de cuivre rouge,not a medical product,non,1,6j
 chaudron de fer,not a medical product,non,3,6j
 chaudron de potin,not a medical product,non,1,6j
 chauffe-pieds,not a medical product,non,21,8
-chauffe-pieds ganis,,non,,
+chauffe-pieds ganis,,oui,,
+chauffe-pieds garnis,,non,,
 chaufferettes,not a medical product,non,,
 chaufferettes de bois,not a medical product,non,1,8
 chausse-pieds,not a medical product,non,33,8
@@ -4151,7 +4157,7 @@ cierges,not a medical product,non,5,8
 cierges de cire blanche,not a medical product,non,6,8
 cierges de cire et bougie de cire,not a medical product,non,4,8
 cierges de fer,not a medical product,non,2,6j
-cierges et bougies,not a medical product,non,7,8
+cierges et bougies,not a medical product,oui,7,8
 cierges et flambeau,not a medical product,non,1,8
 cigares,,non,,
 cigares par autorisation,not a medical product,non,1,1
@@ -4177,7 +4183,7 @@ cire blanche de bougie,not a medical product,non,1,4
 cire blanche et jaune,not a medical product,non,501,4
 cire blanche et jaune non ouvrée,not a medical product,non,23,4
 cire blanche non ouvrée,not a medical product,non,1,4
-cire blanche ouvrée,not a medical product,non,50,4
+cire blanche ouvrée,not a medical product,oui,50,4
 cire brune,not a medical product,non,1,4
 cire brune non clarifiée,not a medical product,non,1,4
 cire brune non clarifiée du Sénégal,not a medical product,non,1,4
@@ -4201,11 +4207,11 @@ cire jaune en bougie et chandelle,not a medical product,non,1,8
 cire jaune en cierge et flambeaux,not a medical product,oui,1,8
 cire jaune en cierges et flambeaux,,non,,
 cire jaune en pain,not a medical product,non,2,4
-cire jaune ouvrée,,non,,
+cire jaune ouvrée,,oui,,
 cire moitié cire et moitié suif,not a medical product,non,,
-cire ouvrée,not a medical product,non,2,4
-cire ouvrée blanche,not a medical product,non,2,4
-cire ouvrée jaune,not a medical product,non,2,4
+cire ouvrée,not a medical product,oui,2,4
+cire ouvrée blanche,not a medical product,oui,2,4
+cire ouvrée jaune,not a medical product,oui,2,4
 cire verte,not a medical product,non,9,4
 cire vierge,not a medical product,non,6,4
 cirsaca,not a medical product,non,,
@@ -5360,8 +5366,8 @@ cuivre laminé,not a medical product,non,2,6j
 cuivre neuf,not a medical product,non,39,6j
 cuivre non ouvré,not a medical product,non,,
 cuivre non ouvré rouge,not a medical product,non,1,6j
-cuivre ouvré bouilloire,not a medical product,non,,
-cuivre ouvré cafetière,not a medical product,non,,
+cuivre ouvré bouilloire,not a medical product,oui,,
+cuivre ouvré cafetière,not a medical product,oui,,
 cuivre potier,not a medical product,non,1,6j
 cuivre pur battu ou laminé,not a medical product,non,7,6j
 cuivre pur coulé en barres et plaques,not a medical product,non,2,6j
@@ -5381,7 +5387,7 @@ cuivre sur poil,not a medical product,non,1,9c
 cuivre tangoul,not a medical product,non,319,???
 cuivre vieux,not a medical product,non,453,6j
 cuivrerie,not a medical product,non,22,6j
-cullottes,,non,,
+cullottes,,oui,,
 culottes,not a medical product,non,59,8
 culottes à nègre,not a medical product,non,1,8
 culottes d'étamine,not a medical product,non,,
@@ -5696,9 +5702,9 @@ doublures de martre pour habits,not a medical product,non,1,8
 doublures de petis gris,not a medical product,non,1,8
 douelles,not a medical product,non,60,6b
 douelles à barils,not a medical product,non,14,6b
-douelles à barricage,,non,,
+douelles à barricage,,oui,,
 douelles à barricages,,non,,
-douelles à barrique,not a medical product,non,23,6b
+douelles à barrique,not a medical product,oui,23,6b
 douelles à barriques,not a medical product,non,11,6b
 douelles à barriques 3m 1/8,not a medical product,non,1,6b
 douelles à barriques neuves,,non,,
@@ -6145,7 +6151,8 @@ eau cordiale,narrow medical product,non,6,5
 eau d'anis,not a medical product,non,9,5
 eau d'arc,not a medical product,non,1,5
 eau d'arquebusade,narrow medical product,non,2,5
-eau d'aspci,,non,,
+eau d'aspci,,oui,,
+eau d'aspic,,non,,
 eau d'Esquebat,not a medical product,non,2,5
 eau d'odeur,not a medical product,non,2,5
 eau d'orange,not a medical product,non,,
@@ -7571,6 +7578,7 @@ fer pour foyer,not a medical product,non,1,6j
 fer pour liquarer et en verge,not a medical product,non,,
 fer pour moulins à sucre,not a medical product,non,,
 fer préparé pour canons de fusils et pistolets,not a medical product,non,1,6j
+fer préparé pour forces à tondre le drap,,non,,
 fer préparé pour forces à tondre les draps,not a medical product,oui,1,6j
 fer rond,not a medical product,non,41,6j
 fer roue,not a medical product,non,1,7
@@ -7676,7 +7684,7 @@ feuilles de séné et séné,not a medical product,non,1,2
 feuilles de tabac,not a medical product,non,609,1
 feuilles des prises de tabac,not a medical product,non,1,1
 feuilles et herbes à teindre,not a medical product,non,19,2
-feuret à coudre,,non,,
+feuret à coudre,,oui,,
 feutres pour doublage,not a medical product,non,1,6i
 feutres pour filtrer semelles et autres ouvrages,not a medical product,non,2,6i
 feuves,not a medical product,non,1,???
@@ -8192,6 +8200,7 @@ flèches et compas,,non,,
 flèches marines,not a medical product,non,19,6j
 fleures,not a medical product,oui,1,???
 fleuret,not a medical product,non,70,8
+fleuret à coudre,,non,,
 fleuret à faire des armes,not a medical product,non,1,8
 fleuret et filoselle,not a medical product,non,1,2
 fleuret et lames de fleuret,not a medical product,non,1,8
@@ -8381,7 +8390,8 @@ fourrure de petit gris,not a medical product,non,5,2
 fourrure de soie,not a medical product,non,88,6f
 fourrure dos gorge nappe queue ventre,not a medical product,non,2,2
 fourrure peaux entières,not a medical product,non,2,2
-fraises à l'eau-de-vier,,non,,
+fraises à l'eau-de-vie,,non,,
+fraises à l'eau-de-vier,,oui,,
 fraises de Chypre,not a medical product,non,1,0a
 fraisset de vermillon,not a medical product,non,10,5
 frange d'argent,not a medical product,non,2,8
@@ -8858,7 +8868,7 @@ gayet,not a medical product,non,1,???
 gayet brut,not a medical product,non,3,???
 gaze,not a medical product,non,37,6i
 gaze à fleurs,,non,,
-gaze à peu,not a medical product,non,3,6f
+gaze à peu,not a medical product,oui,3,6f
 gaze à peu de soie,not a medical product,non,25,6f
 gaze au 6e de soie,not a medical product,non,13,6f
 gaze au bas de soie,not a medical product,non,1,6f
@@ -9120,7 +9130,7 @@ gomme élastique,not a medical product,non,11,2
 gomme élémi,not a medical product,non,86,2
 gomme elemy,not a medical product,non,1,2
 gomme émeri,,non,,
-gomme emery,not a medical product,non,1,2
+gomme emery,not a medical product,oui,1,2
 gomme en feuilles,not a medical product,non,1,2
 gomme en grabeau,not a medical product,non,1,2
 gomme en pâte,not a medical product,non,2,2
@@ -13121,6 +13131,8 @@ ouvrages ???,not a medical product,non,2,???
 ouvrages ??? à couvrir,not a medical product,non,1,???
 ouvrages brisés et vieux ouvrages de laiton,not a medical product,non,1,2
 ouvrages d'acier,not a medical product,non,13,6j
+ouvrages d'agate,,non,,
+ouvrages d'agate et agate chique,,non,,
 ouvrages d'airain,not a medical product,non,16,6j
 ouvrages d'albâtre,not a medical product,non,2,8
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,not a medical product,non,8,9b
@@ -13153,7 +13165,9 @@ ouvrages d'or,not a medical product,non,1,8
 ouvrages d'or faux,not a medical product,non,3,6j
 ouvrages d'orfèvrerie,not a medical product,non,6,8
 ouvrages d'osier,not a medical product,non,13,6b
+ouvrages de bergamotes,,non,,
 ouvrages de bois,not a medical product,non,2,6b
+ouvrages de bois de buis,,non,,
 ouvrages de bois de noyer,not a medical product,non,1,6b
 ouvrages de bois de Saint-Claude,not a medical product,non,1,6b
 ouvrages de bois de sapin,not a medical product,non,1,6b
@@ -13173,6 +13187,7 @@ ouvrages de bois gros,not a medical product,non,1,6b
 ouvrages de bois menus,not a medical product,non,1,6b
 ouvrages de bois non doré,not a medical product,non,4,6b
 ouvrages de bois peint,not a medical product,non,1,6b
+ouvrages de bois pour bâtir,,non,,
 ouvrages de bois pour charpente,not a medical product,non,1,6b
 ouvrages de bois pour le bâtiment,not a medical product,non,1,6b
 ouvrages de bois sculpté et doré,not a medical product,non,1,6b
@@ -13193,6 +13208,8 @@ ouvrages de charron,not a medical product,non,9,7
 ouvrages de charronnage,not a medical product,non,17,7
 ouvrages de chêne,not a medical product,non,1,6b
 ouvrages de cire,not a medical product,non,1,4
+ouvrages de cire blanche,,non,,
+ouvrages de cire jaune,,non,,
 ouvrages de corail,not a medical product,non,285,8
 ouvrages de corail brut,not a medical product,non,1,6k
 ouvrages de corail fin,not a medical product,non,2,8
@@ -13296,11 +13313,13 @@ ouvrages de peaux outres pleines,not a medical product,non,2,6a
 ouvrages de physique,not a medical product,non,1,8
 ouvrages de pierre,not a medical product,non,9,6k
 ouvrages de pierre autre que chiques,not a medical product,non,2,6k
+ouvrages de pierres de jais,,non,,
 ouvrages de pierres de jayet,not a medical product,non,1,6k
 ouvrages de plâtre,not a medical product,non,8,6k
 ouvrages de plâtre en figure,not a medical product,non,1,6k
 ouvrages de plomb,not a medical product,non,41,6j
 ouvrages de plumes,not a medical product,non,7,8
+ouvrages de plumes d'autruche,,non,,
 ouvrages de poterie,not a medical product,non,2,6k
 ouvrages de potin,,non,,
 ouvrages de sapin,not a medical product,non,1,6b
@@ -14762,7 +14781,7 @@ pierres de grison,not a medical product,non,20,2
 pierres de jais,not a medical product,non,4,6k
 pierres de jais brut,not a medical product,non,1,6k
 pierres de jais et ???,not a medical product,non,5,6k
-pierres de jais et ouvrées,not a medical product,non,1,6k
+pierres de jais et ouvrées,not a medical product,oui,1,6k
 pierres de jaspe,not a medical product,non,2,6k
 pierres de laine,not a medical product,non,4,2
 pierres de Malte,not a medical product,non,45,2
@@ -15578,7 +15597,7 @@ plumes d'autruche crues et noires,not a medical product,non,1,2
 plumes d'autruche et autres de parure,not a medical product,non,66,2
 plumes d'autruche et de vautour,not a medical product,non,11,2
 plumes d'autruche noires,not a medical product,non,2,2
-plumes d'autruche ouvrées,not a medical product,non,12,8
+plumes d'autruche ouvrées,not a medical product,oui,12,8
 plumes d'édredon,not a medical product,non,25,2
 plumes d'oie,not a medical product,non,132,2
 plumes d'oie à lit,not a medical product,non,2,2
@@ -15593,7 +15612,7 @@ plumes idem,not a medical product,non,1,2
 plumes mortes,not a medical product,non,1,2
 plumes mortes à lit,not a medical product,non,2,2
 plumes noire,not a medical product,non,3,2
-plumes ouvrées,not a medical product,non,7,8
+plumes ouvrées,not a medical product,oui,7,8
 plumes pour dévidoir,not a medical product,non,1,2
 plumes pour duvet,not a medical product,non,1,2
 plumes teintes,not a medical product,non,2,2
@@ -17765,8 +17784,8 @@ soudes et potasse,not a medical product,non,23,5
 soudes et tartre,not a medical product,non,1,5
 soudure,not a medical product,non,9,2
 soudure de cuivre,not a medical product,non,1,6j
-soufflet à feu,,non,,
-soufflet à tirer vin au clair,,non,,
+soufflets à feu,,non,,
+soufflets à tirer vin au clair,,non,,
 soufflets,not a medical product,non,40,8
 soufflets à bouche,not a medical product,non,1,8
 soufflets à feu,not a medical product,non,3,8
