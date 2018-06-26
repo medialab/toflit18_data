@@ -29,7 +29,7 @@ foreach file in classification_country_orthographic_normalization classification
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine bdd_marchandises_coton	{
 
-	import delimited "toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -86,7 +86,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 }
 */		
 		
-import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "$dir/toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -361,11 +361,14 @@ save "bdd_marchandises_normalisees_orthographique.dta", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
-bys marchandises : replace nbr_occurences_source=_N
+capture drop nbr_occurences_source
+capture drop nbr_occurences_ortho
+bys marchandises : gen nbr_occurences_source=_N
+bys marchandises_norm_ortho : gen nbr_occurences_ortho=_N
 
 drop _merge
 
-keep marchandises marchandises_norm_ortho état_du_travail nbr_occurences_source
+keep marchandises marchandises_norm_ortho état_du_travail nbr_occurences_source  nbr_occurences_ortho
 
 bys marchandises : keep if _n==1
 
@@ -383,10 +386,12 @@ save "bdd_marchandises_simplifiees.dta", replace
 
 use "bdd_marchandises_normalisees_orthographique.dta", clear
 merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
-capture gen nbr_occurences_ortho =.
+capture drop nbr_occurences_ortho
+capture drop nbr_occurences_simpl
 bys marchandises_norm_ortho : egen nbr_occurences_ortho=total(nbr_occurences_source)
+bys marchandises_simplification : egen nbr_occurences_simpl=total(nbr_occurences_source)
 
-keep marchandises_norm_ortho marchandises_simplification nbr_occurences_ortho _merge
+keep marchandises_norm_ortho marchandises_simplification nbr_occurences_ortho nbr_occurences_simpl _merge
 drop if _merge==2
 
 drop _merge
@@ -409,8 +414,8 @@ foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_ma
 
 	use "bdd_marchandises_simplifiees.dta", clear
 	merge m:1 marchandises_simplification using "`file_on_simp'.dta"
-	capture gen nbr_occurences_simpl=.
-	bys marchandises_norm_simpl : egen nbr_occurences_simpl=total(nbr_occurences_ortho)
+	capture drop nbr_occurences_simpl nbr_occurences_simpl
+	bys marchandises_simplification : egen nbr_occurences_simpl=total(nbr_occurences_ortho)
 
 
 	drop marchandises_norm_ortho nbr_occurences_ortho
@@ -482,11 +487,15 @@ merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 drop if _merge==2
 drop état_du_travail-_merge
 
-foreach file in bdd_marchandises_simplifiees bdd_marchandises_sitc bdd_marchandises_edentreaty ///
+merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees"
+drop if _merge==2
+drop nbr_occure* _merge
+
+foreach file in bdd_marchandises_sitc bdd_marchandises_edentreaty ///
 			bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg ///
 			bdd_marchandises_grains  bdd_marchandises_coton {
 
-	merge m:1 marchandises_norm_ortho using "`file'.dta"
+	merge m:1 marchandises_simplification using "`file'.dta"
 	drop if _merge==2
 	drop nbr_occure* _merge
 }
@@ -554,7 +563,7 @@ rename yearnum year
  *******************************************************************
 
 
-export delimited "$dir/toflit18_data_GIT/base/$dir/Données Stata/bdd courante.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
