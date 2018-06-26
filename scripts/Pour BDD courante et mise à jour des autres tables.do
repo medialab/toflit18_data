@@ -157,13 +157,12 @@ replace value=. if (value==0 & quantit!=. & quantit!=0)
 
 capture drop v24
 save "Données Stata/bdd_centrale.dta", replace
-export delimited "Données Stata/bdd_centrale.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
 
 */
 
 
 ********* Procédure pour les nouveaux fichiers ************
-******ATTENTION !!!! POUR GARDER LE LIEN AVEC GIT, IL FAUT ALLER DANS LIBRE OFFICE ET REFAIRE LE TRI !
 *******************************
 
 cd "$dir/Données Stata"
@@ -198,7 +197,7 @@ save "Units_Normalisation_Orthographique.dta", replace
 generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
-export delimited "Units_Normalisation_Orthographique.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Orthographique.csv", replace
 
 use "Units_Normalisation_Orthographique.dta", clear
 merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
@@ -217,7 +216,7 @@ save "Units_Normalisation_Metrique1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited "Units_Normalisation_Metrique1.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique1.csv", replace
 
 /*See below for "Units_Normalisation_Metrique2.dta"*/
 
@@ -250,7 +249,7 @@ save "Units_N1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
-export delimited "Units_N1.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/Units_N1.csv", replace
 */
 
 ******* Direction et origine
@@ -263,7 +262,7 @@ save "bdd_directions.dta", replace
 generate sortkey = ustrsortkey(direction, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_directions.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_directions.csv", replace
 
 
 use "bdd_centrale.dta", clear
@@ -275,7 +274,7 @@ save "bdd_origine.dta", replace
 generate sortkey = ustrsortkey(origine, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_origine.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_origine.csv", replace
 
 
 
@@ -294,7 +293,7 @@ save "classification_country_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(pays, "fr")
 sort sortkey
 drop sortkey
-export delimited classification_country_orthographic_normalization.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_orthographic_normalization.csv", replace
 
 
 
@@ -315,7 +314,7 @@ save "classification_country_simplification.dta", replace
 generate sortkey = ustrsortkey(pays_norm_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited classification_country_simplification.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_simplification.csv", replace
 
 **
 
@@ -332,7 +331,7 @@ save "classification_country_grouping.dta", replace
 generate sortkey = ustrsortkey(pays_simplification, "fr")
 sort sortkey
 drop sortkey
-export delimited classification_country_grouping.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_grouping.csv", replace
 
 ** 
 use "classification_country_simplification.dta", clear
@@ -348,7 +347,7 @@ save "classification_country_obrien.dta", replace
 generate sortkey = ustrsortkey(pays_simplification, "fr")
 sort sortkey
 drop sortkey
-export delimited classification_country_obrien.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_obrien.csv", replace
 
 
 *************Marchandises
@@ -362,11 +361,11 @@ save "bdd_marchandises_normalisees_orthographique.dta", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
-bys marchandises : replace nbr_occurences_marchandises=_N
+bys marchandises : replace nbr_occurences_source=_N
 
 drop _merge
 
-keep marchandises marchandises_norm_ortho état_du_travail nbr_occurences
+keep marchandises marchandises_norm_ortho état_du_travail nbr_occurences_source
 
 bys marchandises : keep if _n==1
 
@@ -375,7 +374,7 @@ save "bdd_marchandises_normalisees_orthographique.dta", replace
 generate sortkey = ustrsortkey(marchandises, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_marchandises_normalisees_orthographique.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_marchandises_normalisees_orthographique.csv", replace
 
 **
 use "bdd_marchandises_simplifiees.dta", replace
@@ -384,8 +383,10 @@ save "bdd_marchandises_simplifiees.dta", replace
 
 use "bdd_marchandises_normalisees_orthographique.dta", clear
 merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
+capture gen nbr_occurences_ortho =.
+bys marchandises_norm_ortho : egen nbr_occurences_ortho=total(nbr_occurences_source)
 
-keep marchandises_norm_ortho marchandises_simplification _merge
+keep marchandises_norm_ortho marchandises_simplification nbr_occurences_ortho _merge
 drop if _merge==2
 
 drop _merge
@@ -396,7 +397,7 @@ save "bdd_marchandises_simplifiees.dta", replace
 generate sortkey = ustrsortkey(marchandises_norm_ortho, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_marchandises_simplifiees.csv, replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_marchandises_simplifiees.csv", replace
 **
 
 foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg /*
@@ -408,9 +409,11 @@ foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_ma
 
 	use "bdd_marchandises_simplifiees.dta", clear
 	merge m:1 marchandises_simplification using "`file_on_simp'.dta"
+	capture gen nbr_occurences_simpl=.
+	bys marchandises_norm_simpl : egen nbr_occurences_simpl=total(nbr_occurences_ortho)
 
 
-	drop marchandises_norm_ortho 
+	drop marchandises_norm_ortho nbr_occurences_ortho
 
 	*drop if _merge==2
 	capture gen obsolete=""
@@ -426,7 +429,7 @@ foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_ma
 	
 
 	save "`file_on_simp'.dta", replace
-	export delimited `file_on_simp'.csv, replace
+	export delimited "$dir/toflit18_data_GIT/base/`file_on_simp'.csv", replace
 
 }
 
@@ -479,47 +482,14 @@ merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
 drop if _merge==2
 drop état_du_travail-_merge
 
+foreach file in bdd_marchandises_simplifiees bdd_marchandises_sitc bdd_marchandises_edentreaty ///
+			bdd_marchandises_Canada bdd_marchandises_medicinales bdd_marchandises_hamburg ///
+			bdd_marchandises_grains  bdd_marchandises_coton {
 
-merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
-drop if _merge==2
-drop _merge
-
-merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
-drop if _merge==2
-drop _merge
-
-
-merge m:1 marchandises_simplification using "bdd_marchandises_grains.dta"
-drop if _merge==2
-drop _merge
-
-merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_FR.dta"
-drop if _merge==2
-drop _merge
-
-merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_EN.dta"
-drop if _merge==2
-drop _merge
-
-merge m:1 marchandises_simplification using "bdd_marchandises_hamburg"
-drop if _merge==2
-drop _merge
-
-merge m:1 marchandises_simplification using "bdd_marchandises_medicinales"
-drop if _merge==2
-drop _merge
-
-
-merge m:1 marchandises_simplification using "bdd_marchandises_Canada"
-drop if _merge==2
-drop _merge
-
-
- merge m:1 marchandises_simplification using "bdd_marchandises_coton"
-drop if _merge==2
-drop _merge
-
-
+	merge m:1 marchandises_norm_ortho using "`file'.dta"
+	drop if _merge==2
+	drop nbr_occure* _merge
+}
 
 local j 5
 generate yearbis=year
@@ -566,7 +536,7 @@ rename yearnum year
  drop _merge
  sort quantity_unit_ortho marchandises_simplification exportsimports direction pays_grouping
  save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
- export delimited "Units_Normalisation_Metrique2.csv", replace
+ export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
@@ -584,8 +554,8 @@ rename yearnum year
  *******************************************************************
 
 
-export delimited "$dir/Données Stata/bdd courante.csv", replace
-*export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/$dir/Données Stata/bdd courante.csv", replace
+*export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
 sort sourcetype direction year exportsimports numrodeligne 
@@ -654,7 +624,7 @@ gen nbr_source=sourceBEL+sourceFR+sourceSUND
 drop if nbr_source==0
 
 save "$dir/Données Stata/marchandises_sourcees", replace
-export delimited "$dir/Données Stata/marchandises_sourcees.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replace
 
 
 
@@ -686,7 +656,7 @@ sort marchandises_simplification
 
 
 save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
-export delimited "$dir/Données Stata/marchandises_pour_nouvelle_classification.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/marchandises_pour_nouvelle_classification.csv", replace
 
 
 
