@@ -347,13 +347,13 @@ export delimited classification_country_obrien.csv, replace
 *************Marchandises
 
 
-use "orthographic_normalization_classification.dta", replace
+use "bdd_marchandises_orthographic_normalization.dta", replace
 bys marchandises : drop if _n!=1
 
-save "orthographic_normalization_classification.dta", replace
+save "bdd_marchandises_orthographic_normalization.dta", replace
 
 use "bdd_centrale.dta", clear
-merge m:1 marchandises using "orthographic_normalization_classification.dta"
+merge m:1 marchandises using "bdd_marchandises_orthographic_normalization.dta"
 
 drop _merge
 
@@ -362,7 +362,7 @@ keep marchandises orthographic_normalization_classification mériteplusdetravail
 bys marchandises : keep if _n==1
 
 
-save "orthographic_normalization_classification.dta", replace
+save "bdd_marchandises_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(marchandises, "fr")
 sort sortkey
 drop sortkey
@@ -373,7 +373,7 @@ use "bdd_marchandises_simplification.dta", replace
 bys marchandises_norm_orth : drop if _n!=1
 save "bdd_marchandises_simplification.dta", replace
 
-use "orthographic_normalization_classification.dta", clear
+use "bdd_marchandises_orthographic_normalization.dta", clear
 merge m:1 orthographic_normalization_classification using "bdd_marchandises_simplification.dta"
 
 keep orthographic_normalization_classification simplification_classification _merge
@@ -466,7 +466,7 @@ drop note-_merge
 
 ******
 
-merge m:1 marchandises using "orthographic_normalization_classification.dta"
+merge m:1 marchandises using "bdd_marchandises_orthographic_normalization.dta"
 drop if _merge==2
 drop mériteplusdetravail-_merge
 
@@ -575,7 +575,7 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 capture 
 {
-use "$dir/Données Stata/orthographic_normalization_classification.dta", replace
+use "$dir/Données Stata/bdd_marchandises_orthographic_normalization.dta", replace
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
 generate sourceBEL=0
