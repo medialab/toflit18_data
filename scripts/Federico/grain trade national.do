@@ -60,8 +60,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
 **exclude incomplete series
@@ -156,8 +156,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"

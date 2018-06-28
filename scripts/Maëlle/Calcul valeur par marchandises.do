@@ -19,8 +19,8 @@ drop if valeur==.
 
 * Calculer la valeur annuelle totale échangée par année par marchandise
 
-sort year marchandises_simplification
-by year marchandises_simplification exportsimports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
+sort year simplification_classification
+by year simplification_classification exportsimports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
 
 * Calculer la valeur annuelle totale échangée pour toutes les marchandises
 
@@ -36,7 +36,7 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd part du commerce.dta", replac
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd part du commerce.dta", clear
 
-keep if marchandises_simplification=="cacao" 
+keep if simplification_classification=="cacao" 
 
 keep if exportsimports=="Imports" 
 
@@ -45,9 +45,9 @@ keep if exportsimports=="Imports"
 * Composition des parts du commerce pour une année donnée (ne fonctionne pas)
 
 keep if year==1800
-if part_marchandise_dans_commerce<0.01 replace marchandises_simplification="Autres"
-by marchandises_simplification, sort: egen valeur_marchandises_autres=total(valeur)
-if marchandises_simplification=="Autres" replace part_marchandises_dans_commerce=valeur_marchandises_autres/valeur_annuelle_totale
+if part_marchandise_dans_commerce<0.01 replace simplification_classification="Autres"
+by simplification_classification, sort: egen valeur_marchandises_autres=total(valeur)
+if simplification_classification=="Autres" replace part_marchandises_dans_commerce=valeur_marchandises_autres/valeur_annuelle_totale
 
 
 

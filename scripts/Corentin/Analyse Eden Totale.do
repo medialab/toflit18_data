@@ -2,7 +2,7 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
 
-keep marchandises pays_grouping direction eden_classification exportsimports marchandises_norm_ortho marchandises_simplification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc18_rev3 sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
 
 	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" 
 
@@ -12,7 +12,7 @@ keep marchandises pays_grouping direction eden_classification exportsimports mar
 	drop if sourcetype == "Résumé" & year < 1787
 	
 	keep if exportsimports == "Imports"	
-	*keep if eden_classification == "Vin de France"
+	*keep if edentreaty_classification == "Vin de France"
 	
 	sort year
 	collapse (sum) value, by(year)
@@ -24,7 +24,7 @@ save "/Users/Corentin/Desktop/script/test2Totale.dta", replace
 **********
 
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
-keep marchandises pays_grouping direction eden_classification exportsimports marchandises_norm_ortho marchandises_simplification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc18_rev3 sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
 
 
 ***** NATIONAL
@@ -35,15 +35,15 @@ keep marchandises pays_grouping direction eden_classification exportsimports mar
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 
-	replace eden_classification = "Coton_detoute_espèce" if eden_classification == "Coton de toute espèce"
-	replace eden_classification = "Eau_de_vie_de_France" if eden_classification == "Eau de vie de France"
-	replace eden_classification = "Glaces_et_verrerie" if eden_classification == "Glaces et Verrerie"
-	replace eden_classification = "Huile_olive_de_France" if eden_classification == "Huile d'olive de France"
-	replace eden_classification = "Porcelaine" if eden_classification == "Porcelaine, Fayance, Poterie"
-	replace eden_classification = "batistes_et_linons" if eden_classification == "Toiles de batistes et linons"
-	replace eden_classification = "lin_et_de_chanvre" if eden_classification == "Toiles de lin et de chanvre"
-	replace eden_classification = "Vin_de_France" if eden_classification == "Vin de France"
-	replace eden_classification = "Vinaigre_de_France" if eden_classification == "Vinaigre de France"
+	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
+	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
+	replace edentreaty_classification = "Glaces_et_verrerie" if edentreaty_classification == "Glaces et Verrerie"
+	replace edentreaty_classification = "Huile_olive_de_France" if edentreaty_classification == "Huile d'olive de France"
+	replace edentreaty_classification = "Porcelaine" if edentreaty_classification == "Porcelaine, Fayance, Poterie"
+	replace edentreaty_classification = "batistes_et_linons" if edentreaty_classification == "Toiles de batistes et linons"
+	replace edentreaty_classification = "lin_et_de_chanvre" if edentreaty_classification == "Toiles de lin et de chanvre"
+	replace edentreaty_classification = "Vin_de_France" if edentreaty_classification == "Vin de France"
+	replace edentreaty_classification = "Vinaigre_de_France" if edentreaty_classification == "Vinaigre de France"
 
 ****** Balance totale
 /*
@@ -69,14 +69,14 @@ collapse (sum) value, by(year  exportsimports)
 set more off
 keep if exportsimports == "Exports"	
 
-	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == ""
-	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == "???"
-	replace sitc18_rev3 = "0" if sitc18_rev3 == "0a" | sitc18_rev3 == "0b"
-	replace sitc18_rev3 = "6" if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
-	replace sitc18_rev3 = "9" if sitc18_rev3 == "9a" | sitc18_rev3 == "9b"
+	replace sitc_classification = "Inconnu" if sitc_classification == ""
+	replace sitc_classification = "Inconnu" if sitc_classification == "???"
+	replace sitc_classification = "0" if sitc_classification == "0a" | sitc_classification == "0b"
+	replace sitc_classification = "6" if sitc_classification == "6a" | sitc_classification == "6b" | sitc_classification == "6c"| sitc_classification == "6d"| sitc_classification == "6e"| sitc_classification == "6f" | sitc_classification == "6g"| sitc_classification == "6h" | sitc_classification == "6i"| sitc_classification == "6j"| sitc_classification == "6k"
+	replace sitc_classification = "9" if sitc_classification == "9a" | sitc_classification == "9b"
 	
 
-collapse (sum) value, by(year sitc18_rev3) 	
+collapse (sum) value, by(year sitc_classification) 	
 
 	merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
 	drop if _merge == 2
@@ -85,10 +85,10 @@ collapse (sum) value, by(year sitc18_rev3)
 	gen proportion = value / totalN * 100
 
 	
-	levelsof sitc18_rev3, local(levels)
+	levelsof sitc_classification, local(levels)
 		foreach l of local levels {
 		gen SITC`l' = .
-		replace SITC`l' = proportion if sitc18_rev3 == "`l'"
+		replace SITC`l' = proportion if sitc_classification == "`l'"
 		}
 	keep if year == 1778
 	egen test = total(proportion)
@@ -99,21 +99,21 @@ collapse (sum) value, by(year sitc18_rev3)
 
 	set more off
 	keep if exportsimports == "Imports"
-	*keep if eden_classification == "Eau_de_vie_de_France"
-	*keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
+	*keep if edentreaty_classification == "Eau_de_vie_de_France"
+	*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 	
-	collapse (sum) value, by(year pays_grouping) 	
+	collapse (sum) value, by(year grouping_classification) 	
 
-	replace pays_grouping = "Inconnu" if pays_grouping == "?"
-	replace pays_grouping = "Inconnu" if pays_grouping == "????"
-	replace pays_grouping = "Allemagne_et_Pologne" if pays_grouping == "Allemagne et Pologne (par terre)"
-	replace pays_grouping = "Colonies_Françaises" if pays_grouping == "Colonies françaises"
-	replace pays_grouping = "Colonies_Etrangères" if pays_grouping == "Colonies étrangères"
-	replace pays_grouping = "Duché_de_Bouillon" if pays_grouping == "Duché de Bouillon"
-	replace pays_grouping = "Flandre" if pays_grouping == "Flandre et autres états de l'Empereur"
-	replace pays_grouping = "Levant_et_Barbarie" if pays_grouping == "Levant et Barbarie"
-	replace pays_grouping = "Etats_Unis" if pays_grouping == "États-Unis d'Amérique"
-	replace pays_grouping = "Expagne_Portugal" if pays_grouping == "Espagne-Portugal"
+	replace grouping_classification = "Inconnu" if grouping_classification == "?"
+	replace grouping_classification = "Inconnu" if grouping_classification == "????"
+	replace grouping_classification = "Allemagne_et_Pologne" if grouping_classification == "Allemagne et Pologne (par terre)"
+	replace grouping_classification = "Colonies_Françaises" if grouping_classification == "Colonies françaises"
+	replace grouping_classification = "Colonies_Etrangères" if grouping_classification == "Colonies étrangères"
+	replace grouping_classification = "Duché_de_Bouillon" if grouping_classification == "Duché de Bouillon"
+	replace grouping_classification = "Flandre" if grouping_classification == "Flandre et autres états de l'Empereur"
+	replace grouping_classification = "Levant_et_Barbarie" if grouping_classification == "Levant et Barbarie"
+	replace grouping_classification = "Etats_Unis" if grouping_classification == "États-Unis d'Amérique"
+	replace grouping_classification = "Expagne_Portugal" if grouping_classification == "Espagne-Portugal"
 
 	merge m:1 year using "/Users/Corentin/Desktop/script/test2Totale.dta"
 	drop if _merge == 2
@@ -121,19 +121,19 @@ collapse (sum) value, by(year sitc18_rev3)
 	
 	gen proportion = value / totalN * 100
 
-	levelsof pays_grouping, local(levels)
+	levelsof grouping_classification, local(levels)
 	foreach l of local levels {
 		gen `l' = .
-		replace `l' = proportion if pays_grouping == "`l'"
+		replace `l' = proportion if grouping_classification == "`l'"
 		}
 	
 	*drop if proportion < 5 & year == 1788
-	*bysort pays_grouping : drop if _N < 7
+	*bysort grouping_classification : drop if _N < 7
 	sort year
-	*tab pays_grouping
-	*drop if pays_grouping == "Colonies_Françaises"
+	*tab grouping_classification
+	*drop if grouping_classification == "Colonies_Françaises"
 	
-	keep if pays_grouping == "Colonies_Françaises"  | pays_grouping == "Flandre" | pays_grouping == "Levant_et_Barbarie" | pays_grouping == "Angleterre" | pays_grouping == "Espagne" | pays_grouping == "Hollande" | pays_grouping == "Italie" | pays_grouping == "Nord"
+	keep if grouping_classification == "Colonies_Françaises"  | grouping_classification == "Flandre" | grouping_classification == "Levant_et_Barbarie" | grouping_classification == "Angleterre" | grouping_classification == "Espagne" | grouping_classification == "Hollande" | grouping_classification == "Italie" | grouping_classification == "Nord"
 	bysort year : egen test = total(proportion)
 	gen Autres = 100 - test
 	sort year proportion
@@ -164,8 +164,8 @@ twoway (connected Colonies_Françaises year) (connected Flandre year) (connected
 */
 /*
 keep if exportsimports == "Exports"
-keep if eden_classification == "Vin_de_France"
-keep if pays_grouping == "Angleterre"
+keep if edentreaty_classification == "Vin_de_France"
+keep if grouping_classification == "Angleterre"
 
 collapse (sum) value, by(year) 	
 

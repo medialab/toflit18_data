@@ -8,9 +8,9 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 
-	*keep if eden_classification == "Vin de France" // A ajouter pour analyse vin
-	*keep if eden_classification == "Hardware" // A ajouter pour analyse Hardware
-	*keep if eden_classification == "Coton de toute espèce"
+	*keep if edentreaty_classification == "Vin de France" // A ajouter pour analyse vin
+	*keep if edentreaty_classification == "Hardware" // A ajouter pour analyse Hardware
+	*keep if edentreaty_classification == "Coton de toute espèce"
 	*keep if exportsimports == "Exports"
 	sort year exportsimports
 	
@@ -172,7 +172,7 @@ graph twoway (connected Proportion Year if direction == "Bordeaux"  ) (connected
 ********* Vin
 /*
 use "/Users/Corentin/Desktop/script/test.dta", clear
-keep if eden_classification == "Vin de France"
+keep if edentreaty_classification == "Vin de France"
 
 
 set more off
@@ -215,7 +215,7 @@ graph twoway (connected totalN year)
 ********* Hardware
 /*
 use "/Users/Corentin/Desktop/script/test.dta", clear
-keep if eden_classification == "Hardware"
+keep if edentreaty_classification == "Hardware"
 
 
 set more off
@@ -258,7 +258,7 @@ graph twoway (connected totalN year)
 ********* Coton
 /*
 use "/Users/Corentin/Desktop/script/test.dta", clear
-keep if eden_classification == "Coton de toute espèce"
+keep if edentreaty_classification == "Coton de toute espèce"
 
 
 set more off
@@ -311,37 +311,37 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	drop if sourcetype == "Résumé" & year < 1787
 
 	sort year
-	collapse (sum) value, by(year eden_classification)
-	replace eden_classification = "Autres" if eden_classification == ""
+	collapse (sum) value, by(year edentreaty_classification)
+	replace edentreaty_classification = "Autres" if edentreaty_classification == ""
 	
 	merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
 	drop if _merge == 2
 	drop _merge
 	
 	set more off
-	replace eden_classification = "Coton_detoute_espèce" if eden_classification == "Coton de toute espèce"
-	replace eden_classification = "Eau_de_vie_de_France" if eden_classification == "Eau de vie de France"
-	replace eden_classification = "Glaces_et_verrerie" if eden_classification == "Glaces et Verrerie"
-	replace eden_classification = "Huile_olive_de_France" if eden_classification == "Huile d'olive de France"
-	replace eden_classification = "Porcelaine" if eden_classification == "Porcelaine, Fayance, Poterie"
-	replace eden_classification = "batistes_et_linons" if eden_classification == "Toiles de batistes et linons"
-	replace eden_classification = "lin_et_de_chanvre" if eden_classification == "Toiles de lin et de chanvre"
-	replace eden_classification = "Vin_de_France" if eden_classification == "Vin de France"
-	replace eden_classification = "Vinaigre_de_France" if eden_classification == "Vinaigre de France"
+	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
+	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
+	replace edentreaty_classification = "Glaces_et_verrerie" if edentreaty_classification == "Glaces et Verrerie"
+	replace edentreaty_classification = "Huile_olive_de_France" if edentreaty_classification == "Huile d'olive de France"
+	replace edentreaty_classification = "Porcelaine" if edentreaty_classification == "Porcelaine, Fayance, Poterie"
+	replace edentreaty_classification = "batistes_et_linons" if edentreaty_classification == "Toiles de batistes et linons"
+	replace edentreaty_classification = "lin_et_de_chanvre" if edentreaty_classification == "Toiles de lin et de chanvre"
+	replace edentreaty_classification = "Vin_de_France" if edentreaty_classification == "Vin de France"
+	replace edentreaty_classification = "Vinaigre_de_France" if edentreaty_classification == "Vinaigre de France"
 
 
 	gen proportiondir = value / totalN * 100
 
-	levelsof eden_classification, local(levels)
+	levelsof edentreaty_classification, local(levels)
 		foreach l of local levels {
 		gen `l' = .
-		replace `l' = proportiondir if eden_classification == "`l'"
+		replace `l' = proportiondir if edentreaty_classification == "`l'"
 		}
 	keep if year == 1778
 
 	graph bar Autres Bière Gazes Hardware Lainage Modes Prohibé Sellerie Soie Vinaigre_de_France Vin_de_France lin_et_de_chanvre batistes_et_linons Porcelaine Huile_olive_de_France Glaces_et_verrerie Eau_de_vie_de_France Coton_detoute_espèce 
 	*keep if year == 1782 | year == 1789
-	*graph twoway (connected proportiondir year if eden_classification == "Soie"  ) (connected proportiondir year if eden_classification == "Sellerie"  ) (connected proportiondir year if eden_classification == "Prohibé"  ) (connected proportiondir year if eden_classification == "Modes"  ) (connected proportiondir year if eden_classification == "Lainage"  ) (connected proportiondir year if eden_classification == "Hardware"  ) (connected proportiondir year if eden_classification == "Gazes"  ) (connected proportiondir year if eden_classification == "Bière"  ) (connected proportiondir year if eden_classification == "Autres"  ) (connected proportiondir year if eden_classification == "Coton_detoute_espèce"  )  (connected proportiondir year if eden_classification == "Eau_de_vie_de_France"  ) (connected proportiondir year if eden_classification == "Glaces_et_verrerie"  ) (connected proportiondir year if eden_classification == "Huile_olive_de_France"  ) (connected proportiondir year if eden_classification == "Porcelaine"  ) (connected proportiondir year if eden_classification == "batistes_et_linons"  ) (connected proportiondir year if eden_classification == "lin_et_de_chanvre"  ) (connected proportiondir year if eden_classification == "Vin_de_France"  ) (connected proportiondir year if eden_classification == "Vinaigre_de_France"  ),/*
+	*graph twoway (connected proportiondir year if edentreaty_classification == "Soie"  ) (connected proportiondir year if edentreaty_classification == "Sellerie"  ) (connected proportiondir year if edentreaty_classification == "Prohibé"  ) (connected proportiondir year if edentreaty_classification == "Modes"  ) (connected proportiondir year if edentreaty_classification == "Lainage"  ) (connected proportiondir year if edentreaty_classification == "Hardware"  ) (connected proportiondir year if edentreaty_classification == "Gazes"  ) (connected proportiondir year if edentreaty_classification == "Bière"  ) (connected proportiondir year if edentreaty_classification == "Autres"  ) (connected proportiondir year if edentreaty_classification == "Coton_detoute_espèce"  )  (connected proportiondir year if edentreaty_classification == "Eau_de_vie_de_France"  ) (connected proportiondir year if edentreaty_classification == "Glaces_et_verrerie"  ) (connected proportiondir year if edentreaty_classification == "Huile_olive_de_France"  ) (connected proportiondir year if edentreaty_classification == "Porcelaine"  ) (connected proportiondir year if edentreaty_classification == "batistes_et_linons"  ) (connected proportiondir year if edentreaty_classification == "lin_et_de_chanvre"  ) (connected proportiondir year if edentreaty_classification == "Vin_de_France"  ) (connected proportiondir year if edentreaty_classification == "Vinaigre_de_France"  ),/*
 	**/legend(label(1 "Soie") label(2 "Sellerie") label(3 "Prohibé") label(4 "Modes") label(5 "Lainage") label(6 "Hardware") label(7 "Gazes") label(8 "Bière") label(9 "Autres") label(10 "Coton_detoute_espèce") label(11 "Eau_de_vie_de_France") label(12 "Glaces_et_verrerie") label(13 "Huile_olive_de_France") label(14 "Porcelaine") label(15 "batistes_et_linons") label(16 "lin_et_de_chanvre") label(17 "Vin_de_France") label(18 "Vinaigre_de_France"))
 	*/
 	

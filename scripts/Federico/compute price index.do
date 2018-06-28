@@ -63,8 +63,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
 **merge local and national par directions series (Guillaume please check these lines!!!)
@@ -87,7 +87,7 @@ drop if year==.
 
 
 ***generate panelid var
-egen panelid=group(sourcetype_merged grains_num geography quantity_unit_ortho marchandises_simplification), label
+egen panelid=group(sourcetype_merged grains_num geography quantity_unit_ortho simplification_classification), label
 
 ***compute average price as yearly weighted average of unit_price_kg for each type of grain and each geography and each etc
 bys year panelid: egen num= total(quantit*prix_unitaire*!missing(quantit, prix_unitaire)) 
@@ -99,9 +99,9 @@ bys year panelid: egen den= total(quantit*!missing(quantit, prix_unitaire))
 
 gen avprix=num/den
 
-collapse (mean) avprix, by (panelid year num den grains_num geography quantity_unit_ortho marchandises_simplification)
+collapse (mean) avprix, by (panelid year num den grains_num geography quantity_unit_ortho simplification_classification)
 
-bys year grains_num geography marchandises_simplification quantity_unit_ortho: egen genavprix=mean(avprix)
+bys year grains_num geography simplification_classification quantity_unit_ortho: egen genavprix=mean(avprix)
 xtset panelid year
 
 
@@ -109,7 +109,7 @@ gen prixvar=avprix/L.avprix
 gen poqo=avprix*num
 gen ptqo=F.avprix*num
 
-bys year grains_num geography marchandises_simplification: egen sigmaptqo=total(ptqo)
-bys year grains_num geography marchandises_simplification: egen sigmapoqo=total(poqo)
+bys year grains_num geography simplification_classification: egen sigmaptqo=total(ptqo)
+bys year grains_num geography simplification_classification: egen sigmapoqo=total(poqo)
 xtset panelid year
 gen pindex=sigmaptqo/L.sigmapoqo

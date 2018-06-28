@@ -11,8 +11,8 @@ args direction X_ou_I
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
-bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-sort year marchandises_simplification
+bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+sort year simplification_classification
 
 * Choix d'un port 
 * keep if direction=="La Rochelle"
@@ -43,7 +43,7 @@ tsset panvar_num year
 	
 }
 
-*sort marchandises_simplification year
+*sort simplification_classification year
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
@@ -59,7 +59,7 @@ replace pnqn=prix_pondere_annuel*quantite_echangee
 
 
 * Calcul sommes
-sort year marchandises_simplification 
+sort year simplification_classification 
 by year : egen sommepnq0=total(pnq0)
 
 by year : egen sommep0qn=total(p0qn)
@@ -79,7 +79,7 @@ by year : gen fisherP=sqrt(laspeyresP*paascheP)
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
-sort year marchandises_simplification
+sort year simplification_classification
 
 * Calcul indices chaînés de prix 
 
@@ -127,8 +127,8 @@ args direction X_ou_I
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
-bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-sort year marchandises_simplification
+bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+sort year simplification_classification
 
 * Choix d'un port 
 * keep if direction=="La Rochelle"
@@ -159,7 +159,7 @@ tsset panvar_num year
 	
 }
 
-*sort marchandises_simplification year
+*sort simplification_classification year
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
@@ -175,7 +175,7 @@ replace pnqn=prix_pondere_annuel*quantite_echangee
 
 
 * Calcul sommes
-sort year marchandises_simplification 
+sort year simplification_classification 
 by year : egen sommepnq0=total(pnq0)
 
 by year : egen sommep0qn=total(p0qn)
@@ -195,7 +195,7 @@ by year : gen fisherP=sqrt(laspeyresP*paascheP)
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
-sort year marchandises_simplification
+sort year simplification_classification
 
 * Calcul indices chaînés de prix 
 

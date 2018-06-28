@@ -8,7 +8,7 @@
  drop if quantity_unit==""
  drop if marchandises=="Nom flou"
  gen lnPrix=ln(prix_unitaire)
- gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ gen marchandises_et_quantités = simplification_classification + quantity_unit
  encode marchandises_et_quantités, gen(marchandises_et_quantités_num)
  bysort marchandises_et_quantités_num: drop if _N<=1
  regress lnPrix i.marchandises_et_quantités_num
@@ -16,16 +16,16 @@
  gen prix_predit = exp(lnPrix_pred)
  sort marchandises_et_quantités
  bysort marchandises_et_quantités: drop if _n>1
- keep marchandises_et_quantités marchandises_simplification quantity_unit prix_predit
+ keep marchandises_et_quantités simplification_classification quantity_unit prix_predit
  save "/Users/Matthias/Données Stata/prix de 1789.dta", replace
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  keep if year==1792
  keep if value==.
- gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ gen marchandises_et_quantités = simplification_classification + quantity_unit
  sort marchandises_et_quantités
  merge m:1 marchandises_et_quantités using "/Users/Matthias/Données Stata/prix de 1789.dta"
- keep marchandises_et_quantités marchandises_simplification quantity_unit prix_predit u_conv q_conv
+ keep marchandises_et_quantités simplification_classification quantity_unit prix_predit u_conv q_conv
  export delimited using "/Users/Matthias/Données Stata/prix_1792.csv", replace	
  
  * Je complète à la main les données pouvant être complétées grâce aux unités conventionnelles 
@@ -35,10 +35,10 @@
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  keep if year==1792
  keep if value==.
- gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ gen marchandises_et_quantités = simplification_classification + quantity_unit
  sort marchandises_et_quantités
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
-      marchandises_simplification quantit prix_unitaire quantity_unit u_conv q_conv ///
+      simplification_classification quantit prix_unitaire quantity_unit u_conv q_conv ///
 	  marchandises_et_quantités
  export delimited using "/Users/Matthias/Données Stata/1792.csv", replace
  

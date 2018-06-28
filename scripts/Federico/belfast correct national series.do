@@ -61,8 +61,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -86,7 +86,7 @@ drop if missing(grains)
 
 
 ****resonable method
-egen panelid=group(pays_grouping grains year importexport), label
+egen panelid=group(grouping_classification grains year importexport), label
 bys panelid sourcetype_grains: egen totalv=total(value_inclusive)
 collapse (mean) totalv, by (panelid sourcetype_grains year importexport)
 reshape wide totalv, i(sourcetype_grains year panelid) j(importexport)

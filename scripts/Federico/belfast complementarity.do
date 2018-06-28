@@ -57,8 +57,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 
 
 drop if year==.
@@ -67,8 +67,8 @@ drop if geography==.
 keep if sourcetype=="Local"
 keep if direction=="La Rochelle"
 **grains
-bys grains year geography importexport pays_norm_ortho : egen eachgrain=total(value_inclusive)
-collapse (mean) eachgrain, by(year geography importexport pays_norm_ortho grains grains_num)
+bys grains year geography importexport orthographic_normalization_classification : egen eachgrain=total(value_inclusive)
+collapse (mean) eachgrain, by(year geography importexport orthographic_normalization_classification grains grains_num)
 gen grainshort="nograin"
 replace grainshort="wheat" if grains_num==2
 replace grainshort="other" if grains_num==1
@@ -76,7 +76,7 @@ replace grainshort="flour" if grains_num==3
 replace grainshort="lesser" if grains_num==4
 replace grainshort="beans" if grains_num==6
 drop grains grains_num
-reshape wide eachgrain, i(year geography importexport pays_norm_ortho) j(grainshort) string
+reshape wide eachgrain, i(year geography importexport orthographic_normalization_classification) j(grainshort) string
 save "Données Stata/eachgrain.dta", replace
 
 *****PART TWO SITC
@@ -136,8 +136,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 
 
 drop if year==.
@@ -146,19 +146,19 @@ drop if geography==.
 keep if sourcetype=="Local"
 
 **SITC
-bys year geography importexport pays_norm_ortho sitc18_rev3 : egen eachsitc=total(value_inclusive)
+bys year geography importexport orthographic_normalization_classification sitc_classification : egen eachsitc=total(value_inclusive)
 
 ***collapse
-collapse (mean) eachsitc, by(year geography sitc18_en importexport pays_norm_ortho sitc18_rev3)
+collapse (mean) eachsitc, by(year geography sitc18_en importexport orthographic_normalization_classification sitc_classification)
 encode sitc18_en, generate (sitc) label(sitc18_en)
-drop sitc18_rev3
+drop sitc_classification
 drop sitc18_en
 drop if sitc==.
-reshape wide eachsitc, i(year geography importexport pays_norm_ortho) j(sitc)
+reshape wide eachsitc, i(year geography importexport orthographic_normalization_classification) j(sitc)
 save "Données Stata/eachsitc.dta", replace 
 *****Part 3
 use "Données Stata/eachsitc.dta", clear
-merge 1:1 year geography importexport pays_norm_ortho using "Données Stata/eachgrain.dta"
+merge 1:1 year geography importexport orthographic_normalization_classification using "Données Stata/eachgrain.dta"
 foreach v of varlist eachgrainwheat eachsitc1 eachsitc2 eachsitc3 eachsitc4 eachsitc5 eachsitc6 eachsitc7 eachsitc8 eachsitc9 eachsitc10 eachsitc11 eachsitc12 eachsitc13 eachsitc14 eachsitc15 eachsitc16 eachsitc17 eachsitc18 eachsitc19 eachsitc20 eachsitc21 eachsitc22 eachsitc23 eachsitc24 {
 gen dup`v'=`v'
 replace dup`v'=`v'*(-1) if importexport==0
@@ -171,7 +171,7 @@ gen l`v'=ln(`v')
 ***QUESTION: For each pays, GIVEN SITC 0a, grains!=0, what's the probability that SITC X!=0?
 
 twoway (line eachgrain year if geography==19 & grains_num==2 & importexport==0) (line eachgrain year if geography==19 & grains_num==2 & importexport==1)
-egen partners = nvals(pays_simplification), by(year importexport geography grains) 
+egen partners = nvals(simplification_classification), by(year importexport geography grains) 
 gen period="empty"
 replace period="Aearly" if year<1756 
 replace period="Bsevenywar" if year>1755 & year<1764
@@ -188,13 +188,13 @@ twoway (line eachgrain year if geography==2 & grains_num==2 & importexport==0) (
 twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==2 & importexport==1)
 twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==3 & importexport==1)
 twoway (line eachgrain year if geography==14 & grains_num==1 & importexport==0) (line eachgrain year if geography==14 & grains_num==1 & importexport==1)
-bys year marchandises_simplification importexport geography : egen marchsimp=total(value_inclusive)
+bys year simplification_classification importexport geography : egen marchsimp=total(value_inclusive)
 bys year grains_num  importexport geography: egen countryshareden=total(value_inclusive)
-bys year grains_num  importexport geography pays_grouping: egen countrysharenum=total(value_inclusive)
-bys year grains_num importexport geography pays_grouping: gen countryshare=countrysharenum/countryshareden*100
+bys year grains_num  importexport geography grouping_classification: egen countrysharenum=total(value_inclusive)
+bys year grains_num importexport geography grouping_classification: gen countryshare=countrysharenum/countryshareden*100
 bys period grains_num  importexport geography: egen countrysharedenp=total(value_inclusive)
-bys period grains_num  importexport geography pays_grouping: egen countrysharenump=total(value_inclusive)
-bys period grains_num importexport geography pays_grouping: gen countrysharep=countrysharenump/countrysharedenp*100
+bys period grains_num  importexport geography grouping_classification: egen countrysharenump=total(value_inclusive)
+bys period grains_num importexport geography grouping_classification: gen countrysharep=countrysharenump/countrysharedenp*100
 
 * Nantes 21
 twoway (line eachgrain year if geography==21 & grains_num==2 & importexport==0) (line eachgrain year if geography==21 & grains_num==3 & importexport==1)

@@ -10,9 +10,9 @@ if "`c(username)'"=="guillaumedaudin" ///
 
 * Sélectionner les variables que l'on veut garder (keep)
 
-keep year direction exportsimports quantit prix_unitaire marchandises_simplification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
-sort marchandises_simplification year
-order marchandises_simplification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
+keep year direction exportsimports quantit prix_unitaire simplification_classification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
+sort simplification_classification year
+order simplification_classification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
 label var quantites_metric "Quantités en kg (q_conv)" 
 
 * On supprime les marchandises qui n'ont pas de prix 
@@ -20,23 +20,23 @@ label var quantites_metric "Quantités en kg (q_conv)"
 
  drop if prix_unitaire==.
  drop if prix_unitaire==0
- drop if marchandises_simplification=="" | marchandises_simplification=="???"
+ drop if simplification_classification=="" | simplification_classification=="???"
  drop if value==.
  
  
  * Essai : ou qui apparaissent moins de 1000 fois dans la base /
  * ou bien on supprime les marchandises dont la valeur totale échangée sur la période est inférieure à 100 000
- * encode marchandises_simplification, gen(marchandises_simplification_num)
- * bysort marchandises_simplification_num: drop if _N<=1000 
- * sort marchandises_simplification year
+ * encode simplification_classification, gen(simplification_classification_num)
+ * bysort simplification_classification_num: drop if _N<=1000 
+ * sort simplification_classification year
 	
 
 * Calculer la valeur totale échangée par marchandise sur la période
 
-*by marchandises_simplification direction exportsimports u_conv, sort: egen valeur_totale_par_marchandise=total(value)	
+*by simplification_classification direction exportsimports u_conv, sort: egen valeur_totale_par_marchandise=total(value)	
 *label var valeur_totale_par_marchandise "Somme variable valeur par march_simpli, dir, expimp, u_conv" 	
 *drop if valeur_totale_par_marchandise<=100000
-*sort marchandises_simplification year
+*sort simplification_classification year
 	
 
 * On convertit les prix dans leur unité conventionnelle
@@ -48,26 +48,26 @@ label var prix_unitaire_converti "Prix unitaire par marchandise en unité métri
 * Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées pour un produit.unitée métrique
 
 *drop if quantites_metric==.
-*by year direction exportsimports u_conv marchandises_simplification, sort: egen quantite_echangee=total(quantites_metric)
+*by year direction exportsimports u_conv simplification_classification, sort: egen quantite_echangee=total(quantites_metric)
 *label var quantite_echangee "Quantités métric par dir expimp u_conv march_simpli"
 
 *generate prix_unitaire_pondere=(quantites_metric/quantite_echangee)*prix_unitaire_converti
 *label var prix_unitaire_pondere "Prix de chaque observation en u métrique en % de la quantit échangée totale" 
 
 
-collapse (sum) value quantites_metric,by(year direction exportsimports u_conv marchandises_simplification)
+collapse (sum) value quantites_metric,by(year direction exportsimports u_conv simplification_classification)
 
-* by year direction exportsimports u_conv marchandises_simplification, sort: egen prix_pondere_annuel=total(prix_unitaire_pondere)
+* by year direction exportsimports u_conv simplification_classification, sort: egen prix_pondere_annuel=total(prix_unitaire_pondere)
 
 
 gen prix_pondere_annuel = value/quantites_metric
 label var prix_pondere_annuel "Prix moyen d'une mrchd pour une année, march, dir, expimp, u_conv"
-sort marchandises_simplification year
+sort simplification_classification year
 
 *drop prix_unitaire_pondere
 
 * Encode panvar (sinon prend trop de temps) 
-gen panvar = marchandises_simplification + exportsimports + direction + u_conv
+gen panvar = simplification_classification + exportsimports + direction + u_conv
 encode panvar, gen(panvar_num)
 drop if year>1787 & year<1788
 tsset panvar_num year

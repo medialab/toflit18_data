@@ -17,8 +17,8 @@ drop if year<`year_debut'
 drop if year>`year_fin'
 
 * CADUC On garde une observation par marchandise, année, direction et exports ou imports
-*bysort year marchandises_simplification exportsimports direction u_conv: keep if _n==1
-*sort year marchandises_simplification
+*bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+*sort year simplification_classification
 
 
 *On calcul des indices de prix / inflation par marchandise
@@ -27,7 +27,7 @@ gen IPC=.
 bys panvar_num: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
-sort marchandises_simplification year
+sort simplification_classification year
 
 * NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
 
@@ -36,7 +36,7 @@ sort marchandises_simplification year
 *local year_debut 1760
 
 
-* capture tabulate marchandises_simplification
+* capture tabulate simplification_classification
 * local nbr_de_marchandises=r(r)
 
 * Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
@@ -99,7 +99,7 @@ tsset panvar_num year
 
 
 
-*sort marchandises_simplification year
+*sort simplification_classification year
 
 gen pnq0=.
 replace pnq0=prix_pondere_annuel*q0
@@ -115,7 +115,7 @@ replace pnqn=prix_pondere_annuel*quantites_metric
 
 
 * Calcul sommes
-sort year marchandises_simplification 
+sort year simplification_classification 
 by year : egen sommepnq0=total(pnq0)
 
 by year : egen sommep0qn=total(p0qn)
@@ -144,7 +144,7 @@ by year : gen valeur=sommepnqn/sommep0q0
 
 * On garde une ligne par année pour avoir un indice par année et faire les indices chaînés
 bys year: keep if _n==1
-sort year marchandises_simplification
+sort year simplification_classification
 
 * Calcul indices chaînés de prix 
 

@@ -56,8 +56,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -78,11 +78,11 @@ replace geography=0 if sourcetype_grains=="National"
 drop if year==.
 keep if sourcetype_grains=="National"
 
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 *** compute total value_inclusive by year
 bys year importexport : egen total_trade = total(value_inclusive)
@@ -93,7 +93,7 @@ collapse (sum) value_inclusive, by (year total_trade importexport grains)
 bys importexport grains year: generate g_ratio = (value_inclusive/total_trade)*100
 drop total_trade value_inclusive
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
 reshape wide g_ratio, i(year grains) j(importexport)
 rename g_ratio0 import
 rename g_ratio1 export
@@ -137,11 +137,11 @@ replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direct
 replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
 replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
 replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 
 *** isolate grains
@@ -173,8 +173,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -204,29 +204,29 @@ replace period="Frevolutionnapoleon" if year>1789 & year<1814
 replace period="Grestoration" if year>1813 & year<1823
 drop if year==1823
 
-*Pays_grouping
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+*grouping_classification
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 *** compute total value_inclusive by period
-bys period importexport pays_grouping : egen total_trade = total(value_inclusive)
+bys period importexport grouping_classification : egen total_trade = total(value_inclusive)
 
 *** aggregate by: country, importexport, period
-collapse (sum) value_inclusive, by (period total_trade importexport grains pays_grouping)
+collapse (sum) value_inclusive, by (period total_trade importexport grains grouping_classification)
 *** ratio of grains on total import or export
-bys importexport period grains pays_grouping: generate g_ratio = (value_inclusive/total_trade)*100
+bys importexport period grains grouping_classification: generate g_ratio = (value_inclusive/total_trade)*100
 drop total_trade value_inclusive
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
-reshape wide g_ratio, i(period grains pays_grouping) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
+reshape wide g_ratio, i(period grains grouping_classification) j(importexport)
 rename g_ratio0 import
 rename g_ratio1 export
 
 
-reshape wide import  export, i(period grains) j(pays_grouping) string
+reshape wide import  export, i(period grains) j(grouping_classification) string
 
 bys period  grains: gen importContinentalEurope=importAllemagne+importSuisse+importFlandre
 bys period grains : gen exportContinentalEurope=exportAllemagne+exportSuisse+exportFlandre
@@ -264,11 +264,11 @@ replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direct
 replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
 replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
 replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 
 *** isolate grains
@@ -300,8 +300,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -331,12 +331,12 @@ replace period="Frevolutionnapoleon" if year>1789 & year<1814
 replace period="Grestoration" if year>1813 & year<1823
 drop if year==1823
 
-*Pays_grouping
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+*grouping_classification
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 *** compute total value_inclusive by period
 bys period importexport  : egen total_trade = total(value_inclusive)
@@ -347,7 +347,7 @@ collapse (sum) value_inclusive, by (period total_trade importexport grains )
 bys importexport period grains : generate g_ratio = (value_inclusive/total_trade)*100
 drop total_trade value_inclusive
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
 reshape wide g_ratio, i(period grains ) j(importexport)
 rename g_ratio0 import
 rename g_ratio1 export
@@ -426,8 +426,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -448,11 +448,11 @@ replace geography=0 if sourcetype_grains=="National"
 drop if year==.
 keep if sourcetype_grains=="National"
 
-replace pays_grouping="unknown" if pays_grouping=="????"
-replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
-replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
-replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
-replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+replace grouping_classification="unknown" if grouping_classification=="????"
+replace grouping_classification="Flandre" if grouping_classification=="Flandre et autres états de l'Empereur"
+replace grouping_classification="Levant" if grouping_classification=="Levant et Barbarie"
+replace grouping_classification="USA" if grouping_classification=="États-Unis d'Amérique"
+replace grouping_classification="Outremers" if grouping_classification=="Outre-mers"
 
 *** compute total value_inclusive by year
 bys grains importexport : egen total_trade = total(value_inclusive)
@@ -460,11 +460,11 @@ bys grains importexport : egen total_trade = total(value_inclusive)
 *** aggregate by: country, importexport, year
 collapse (sum) value_inclusive, by (pays_group total_trade importexport grains)
 *** ratio of grains on total import or export
-bys importexport grains pays_grouping: generate g_ratio = (value_inclusive/total_trade)*100
+bys importexport grains grouping_classification: generate g_ratio = (value_inclusive/total_trade)*100
 drop total_trade value_inclusive
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
-reshape wide g_ratio, i(grains pays_grouping) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
+reshape wide g_ratio, i(grains grouping_classification) j(importexport)
 rename g_ratio0 import
 rename g_ratio1 export
 encode grains, generate(grains_num) label(grains)

@@ -57,8 +57,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 
 
 drop if year==.
@@ -68,7 +68,7 @@ keep if sourcetype=="Local"
 
 bys grains year geography importexport : egen eachgrain=total(value_inclusive)
 twoway (line eachgrain year if geography==19 & grains_num==2 & importexport==0) (line eachgrain year if geography==19 & grains_num==2 & importexport==1)
-egen partners = nvals(pays_simplification), by(year importexport geography grains) 
+egen partners = nvals(simplification_classification), by(year importexport geography grains) 
 gen period="empty"
 replace period="Aearly" if year<1756 
 replace period="Bsevenywar" if year>1755 & year<1764
@@ -85,13 +85,13 @@ twoway (line eachgrain year if geography==2 & grains_num==2 & importexport==0) (
 twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==2 & importexport==1)
 twoway (line eachgrain year if geography==14 & grains_num==2 & importexport==0) (line eachgrain year if geography==14 & grains_num==3 & importexport==1)
 twoway (line eachgrain year if geography==14 & grains_num==1 & importexport==0) (line eachgrain year if geography==14 & grains_num==1 & importexport==1)
-bys year marchandises_simplification importexport geography : egen marchsimp=total(value_inclusive)
+bys year simplification_classification importexport geography : egen marchsimp=total(value_inclusive)
 bys year grains_num  importexport geography: egen countryshareden=total(value_inclusive)
-bys year grains_num  importexport geography pays_grouping: egen countrysharenum=total(value_inclusive)
-bys year grains_num importexport geography pays_grouping: gen countryshare=countrysharenum/countryshareden*100
+bys year grains_num  importexport geography grouping_classification: egen countrysharenum=total(value_inclusive)
+bys year grains_num importexport geography grouping_classification: gen countryshare=countrysharenum/countryshareden*100
 bys period grains_num  importexport geography: egen countrysharedenp=total(value_inclusive)
-bys period grains_num  importexport geography pays_grouping: egen countrysharenump=total(value_inclusive)
-bys period grains_num importexport geography pays_grouping: gen countrysharep=countrysharenump/countrysharedenp*100
+bys period grains_num  importexport geography grouping_classification: egen countrysharenump=total(value_inclusive)
+bys period grains_num importexport geography grouping_classification: gen countrysharep=countrysharenump/countrysharedenp*100
 
 * Nantes 21
 twoway (line eachgrain year if geography==21 & grains_num==2 & importexport==0) (line eachgrain year if geography==21 & grains_num==3 & importexport==1)

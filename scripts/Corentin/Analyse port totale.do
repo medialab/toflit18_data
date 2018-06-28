@@ -2,7 +2,7 @@
 
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
-keep marchandises pays_grouping direction eden_classification exportsimports marchandises_norm_ortho marchandises_simplification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc18_rev3 sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
 
 	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
 

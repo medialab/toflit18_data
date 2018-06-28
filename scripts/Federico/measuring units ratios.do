@@ -63,8 +63,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
 **merge local and national par directions series (Guillaume please check these lines!!!)
@@ -93,21 +93,21 @@ rename quantit_inclusive quantit
 drop if quantit==.
 
 ** for each year geography marchandises simplifiees compute average prix unitaire of a given measuring units and collapse
-bys year geography marchandises_simplification quantity_unit_ortho: egen num= total(quantit*prix_unitaire*!missing(quantit, prix_unitaire)) 
+bys year geography simplification_classification quantity_unit_ortho: egen num= total(quantit*prix_unitaire*!missing(quantit, prix_unitaire)) 
 
 
-bys year geography marchandises_simplification quantity_unit_ortho: egen den= total(quantit*!missing(quantit, prix_unitaire)) 
+bys year geography simplification_classification quantity_unit_ortho: egen den= total(quantit*!missing(quantit, prix_unitaire)) 
 
 gen avprix=num/den
 
-collapse (mean) avprix, by (year geography marchandises_simplification quantity_unit_ortho)
+collapse (mean) avprix, by (year geography simplification_classification quantity_unit_ortho)
 
 replace quantity_unit_ortho="quartmesuredeblaye" if quantity_unit_ortho=="quartiers mesure de blaye"
 replace quantity_unit_ortho="sacsde2800boi" if quantity_unit_ortho=="sacs de 2800 boisseaux"
 replace quantity_unit_ortho="cartdupiedde480l" if quantity_unit_ortho=="cartier du pied de 480 livres"
 replace quantity_unit_ortho="charge300l" if quantity_unit_ortho=="charge de 300 livres"
 ***reshape?
-reshape wide @avprix , i(year geography marchandises_simplification) j(quantity_unit_ortho) string
+reshape wide @avprix , i(year geography simplification_classification) j(quantity_unit_ortho) string
 *** for every year geography etc. compute ratio between different measuring units: how to? result is a matrix.
 **generate ratios by line 
 gen boisseauxtonneaux=tonneauxavprix/boisseauavprix

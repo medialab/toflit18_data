@@ -8,11 +8,11 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 
-	*keep if eden_classification == "Vin de France" // A ajouter pour analyse vin
-	*keep if eden_classification == "Hardware" // A ajouter pour analyse Hardware
-	*keep if eden_classification == "Coton de toute espèce"
+	*keep if edentreaty_classification == "Vin de France" // A ajouter pour analyse vin
+	*keep if edentreaty_classification == "Hardware" // A ajouter pour analyse Hardware
+	*keep if edentreaty_classification == "Coton de toute espèce"
 	keep if exportsimports == "Imports"
-keep if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
+keep if sitc_classification == "6a" | sitc_classification == "6b" | sitc_classification == "6c"| sitc_classification == "6d"| sitc_classification == "6e"| sitc_classification == "6f" | sitc_classification == "6g"| sitc_classification == "6h" | sitc_classification == "6i"| sitc_classification == "6j"| sitc_classification == "6k"
 
 	sort year exportsimports
 	
@@ -37,21 +37,21 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	drop if sourcetype == "Objet Général" & year > 1788
 	drop if sourcetype == "Résumé" & year < 1787
 
-	replace eden_classification = "Coton_detoute_espèce" if eden_classification == "Coton de toute espèce"
-	replace eden_classification = "Eau_de_vie_de_France" if eden_classification == "Eau de vie de France"
-	replace eden_classification = "Glaces_et_verrerie" if eden_classification == "Glaces et Verrerie"
-	replace eden_classification = "Huile_olive_de_France" if eden_classification == "Huile d'olive de France"
-	replace eden_classification = "Porcelaine" if eden_classification == "Porcelaine, Fayance, Poterie"
-	replace eden_classification = "batistes_et_linons" if eden_classification == "Toiles de batistes et linons"
-	replace eden_classification = "lin_et_de_chanvre" if eden_classification == "Toiles de lin et de chanvre"
-	replace eden_classification = "Vin_de_France" if eden_classification == "Vin de France"
-	replace eden_classification = "Vinaigre_de_France" if eden_classification == "Vinaigre de France"
+	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
+	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
+	replace edentreaty_classification = "Glaces_et_verrerie" if edentreaty_classification == "Glaces et Verrerie"
+	replace edentreaty_classification = "Huile_olive_de_France" if edentreaty_classification == "Huile d'olive de France"
+	replace edentreaty_classification = "Porcelaine" if edentreaty_classification == "Porcelaine, Fayance, Poterie"
+	replace edentreaty_classification = "batistes_et_linons" if edentreaty_classification == "Toiles de batistes et linons"
+	replace edentreaty_classification = "lin_et_de_chanvre" if edentreaty_classification == "Toiles de lin et de chanvre"
+	replace edentreaty_classification = "Vin_de_France" if edentreaty_classification == "Vin de France"
+	replace edentreaty_classification = "Vinaigre_de_France" if edentreaty_classification == "Vinaigre de France"
 
 	/*
 	****
 	keep if exportsimports == "Imports"	
-	*keep if eden_classification == "Eau_de_vie_de_France"
-	*keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
+	*keep if edentreaty_classification == "Eau_de_vie_de_France"
+	*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 
 	collapse (sum) value, by(year) 	
 	
@@ -73,15 +73,15 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	
 	*****
 	keep if exportsimports == "Exports"	
-	collapse (sum) value, by(year eden_classification) 	
+	collapse (sum) value, by(year edentreaty_classification) 	
 	
-	levelsof eden_classification, local(levels)
+	levelsof edentreaty_classification, local(levels)
 	foreach l of local levels {
-		gen Exports_`l' = value if eden_classification == "`l'"
+		gen Exports_`l' = value if edentreaty_classification == "`l'"
 		twoway (connected Exports_`l' year)
 		
 		cd "/Users/Corentin/Documents/STAT/EdenTreaty/Sorties Valides/EdenNational/Focus/Exports"	
-		*graph export  Evolution_Balance_FocusPeriode_eden_classification_`l'.png, replace
+		*graph export  Evolution_Balance_FocusPeriode_edentreaty_classification_`l'.png, replace
 	
 	 }
 	tab year
@@ -91,16 +91,16 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	*/
 	****
 	
-	collapse (sum) value, by(year  exportsimports eden_classification) 
+	collapse (sum) value, by(year  exportsimports edentreaty_classification) 
 	
 	gen exports = value if exportsimports == "Exports"
 	gen imports = value if exportsimports == "Imports"
 	 
-	levelsof eden_classification, local(levels)
-			collapse (sum) exports imports, by(year eden_classification)
+	levelsof edentreaty_classification, local(levels)
+			collapse (sum) exports imports, by(year edentreaty_classification)
 
 	foreach l of local levels {
-		gen balance_`l' = (exports - imports)/1000000 if eden_classification == "`l'"
+		gen balance_`l' = (exports - imports)/1000000 if edentreaty_classification == "`l'"
 		twoway (connected balance_`l' year)
 		
 		cd "/Users/Corentin/Documents/STAT/EdenTreaty/Sorties Valides/EdenNational/Focus/Balance"	
@@ -133,24 +133,24 @@ collapse (sum) value, by(year  exportsimports)
 	
 ******* PRIX UNITAIRE
 drop if year == 1771
-replace marchandises_simplification = "vin de Bordeaux" if marchandises_norm_ortho == "vin de Bordeaux"
+replace simplification_classification = "vin de Bordeaux" if orthographic_normalization_classification == "vin de Bordeaux"
 keep if exportsimports == "Exports"
-keep if eden_classification == "Vin_de_France"
+keep if edentreaty_classification == "Vin_de_France"
 
 drop if value == .
-*keep if marchandises_norm_ortho ==  "vin de Bourgogne"
-*keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
+*keep if orthographic_normalization_classification ==  "vin de Bourgogne"
+*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 gen prix_u = value / quantites_metric_eden
 
 	replace quantites_metric_eden = . if quantites_metric_eden == 0
-		fillin year marchandises_simplification
+		fillin year simplification_classification
 
 	gen prixinvln = ln(quantites_metric_eden / value)
-	encode marchandises_simplification, gen(marchandises_simplification_c)
+	encode simplification_classification, gen(simplification_classification_c)
 	set more off
 	
-	sort year marchandises_simplification
-	reg prixinvln i.year i.marchandises_simplification_c [iweight=value]
+	sort year simplification_classification
+	reg prixinvln i.year i.simplification_classification_c [iweight=value]
 	predict prixinvln2 if year ==  1771 | year == 1772 | year == 1773 | year == 1774 | year == 1775 | year == 1776 | year == 1777 | year == 1779 | year == 1780   |  year == 1782   |  year == 1787 | year == 1788
 	gen prix_u_predict = 1 / exp(prixinvln2)
 	sort year
@@ -163,9 +163,9 @@ gen prix_u = value / quantites_metric_eden
 
 	drop if prix_u == .
 
-	keep if marchandises_simplification == "vin de Bordeaux de ville"
+	keep if simplification_classification == "vin de Bordeaux de ville"
 
-*keep if marchandises_norm_ortho == "vin de France de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux de haut"  | marchandises_norm_ortho == "vin de Bordeaux au muid" | marchandises_norm_ortho == "vin de Bordeaux" | marchandises_norm_ortho == "vin de Bordeaux de ville"
+*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 
 ***************Evolution ad valorem fabriqué
 /*
@@ -180,7 +180,7 @@ graph twoway (connected wava year)
 graph rename adval, replace
 */
 ****************Evolution Prix Unitaire pour non ad valorem
-*	keep if marchandises_simplification == "vin de Bordeaux"
+*	keep if simplification_classification == "vin de Bordeaux"
 
 *drop if year == 1771
 
@@ -211,16 +211,16 @@ gen prix_u = value / quantites_metric_eden
 drop if prix_u == .
 
 
-collapse (mean) prix_u, by(year  exportsimports eden_classification) 
+collapse (mean) prix_u, by(year  exportsimports edentreaty_classification) 
 keep if exportsimports == "Exports"
 keep if year > 1772
 
-*keep if eden_classification == "Eau_de_vie_de_France"
-keep if eden_classification == "Vinaigre_de_France"
+*keep if edentreaty_classification == "Eau_de_vie_de_France"
+keep if edentreaty_classification == "Vinaigre_de_France"
 graph twoway (connected prix_u year)
 
 
-*graph twoway (connected prix_u year if eden_classification == "Vin_de_France"  ) (connected prix_u year if eden_classification == "Eau_de_vie_de_France"  ) (connected prix_u year if eden_classification == "Vinaigre_de_France"  ) ,/*
+*graph twoway (connected prix_u year if edentreaty_classification == "Vin_de_France"  ) (connected prix_u year if edentreaty_classification == "Eau_de_vie_de_France"  ) (connected prix_u year if edentreaty_classification == "Vinaigre_de_France"  ) ,/*
 	**/legend(label(1 "Vin de France") label(2 "Eau de vie de France") label(3 "Vinaigre de France") )
 
 */
@@ -232,16 +232,16 @@ set more off
 keep if exportsimports == "Imports"	
 
 /*
-	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == ""
-	replace sitc18_rev3 = "Inconnu" if sitc18_rev3 == "???"
-	replace sitc18_rev3 = "0" if sitc18_rev3 == "0a" | sitc18_rev3 == "0b"
-	replace sitc18_rev3 = "6" if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
-	replace sitc18_rev3 = "9" if sitc18_rev3 == "9a" | sitc18_rev3 == "9b"
+	replace sitc_classification = "Inconnu" if sitc_classification == ""
+	replace sitc_classification = "Inconnu" if sitc_classification == "???"
+	replace sitc_classification = "0" if sitc_classification == "0a" | sitc_classification == "0b"
+	replace sitc_classification = "6" if sitc_classification == "6a" | sitc_classification == "6b" | sitc_classification == "6c"| sitc_classification == "6d"| sitc_classification == "6e"| sitc_classification == "6f" | sitc_classification == "6g"| sitc_classification == "6h" | sitc_classification == "6i"| sitc_classification == "6j"| sitc_classification == "6k"
+	replace sitc_classification = "9" if sitc_classification == "9a" | sitc_classification == "9b"
 */
-keep if sitc18_rev3 == "6a" | sitc18_rev3 == "6b" | sitc18_rev3 == "6c"| sitc18_rev3 == "6d"| sitc18_rev3 == "6e"| sitc18_rev3 == "6f" | sitc18_rev3 == "6g"| sitc18_rev3 == "6h" | sitc18_rev3 == "6i"| sitc18_rev3 == "6j"| sitc18_rev3 == "6k"
+keep if sitc_classification == "6a" | sitc_classification == "6b" | sitc_classification == "6c"| sitc_classification == "6d"| sitc_classification == "6e"| sitc_classification == "6f" | sitc_classification == "6g"| sitc_classification == "6h" | sitc_classification == "6i"| sitc_classification == "6j"| sitc_classification == "6k"
 
 
-collapse (sum) value, by(year sitc18_rev3) 	
+collapse (sum) value, by(year sitc_classification) 	
 
 	merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
 	drop if _merge == 2
@@ -250,10 +250,10 @@ collapse (sum) value, by(year sitc18_rev3)
 	gen proportion = value / totalN * 100
 
 	
-	levelsof sitc18_rev3, local(levels)
+	levelsof sitc_classification, local(levels)
 		foreach l of local levels {
 		gen SITC`l' = .
-		replace SITC`l' = proportion if sitc18_rev3 == "`l'"
+		replace SITC`l' = proportion if sitc_classification == "`l'"
 		}
 	keep if year == 1788
 	egen test = total(proportion)

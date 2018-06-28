@@ -9,27 +9,27 @@
  drop if sourcetype=="Divers - in"
  drop if sourcetype=="Local"
  drop if sourcetype=="Tableau Général"
- bysort pays_grouping exportsimports year marchandises_simplification: egen somme_directions=sum(value)
- collapse (sum) value, by(year marchandises_simplification pays_grouping exportsimports somme_directions)
+ bysort grouping_classification exportsimports year simplification_classification: egen somme_directions=sum(value)
+ collapse (sum) value, by(year simplification_classification grouping_classification exportsimports somme_directions)
  gen lnValue=ln(value)
- encode marchandises_simplification, gen(marchandises_simplification_num)
- bysort marchandises_simplification_num: drop if _N<=10
- encode pays_grouping, gen(pays_grouping_num)
+ encode simplification_classification, gen(simplification_classification_num)
+ bysort simplification_classification_num: drop if _N<=10
+ encode grouping_classification, gen(grouping_classification_num)
  drop if year>1787 & year<1788
  drop if year==1805.75
- regress lnValue i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Imports"
+ regress lnValue i.simplification_classification_num i.year i.grouping_classification_num if exportsimports=="Imports"
  predict lnValue_predImp if e(sample)
  gen résiduImp = lnValue_predImp - lnValue
  * histogram résiduImp
  * count if abs(résiduImp)>8
  
- regress lnValue i.marchandises_simplification_num i.year i.pays_grouping_num if exportsimports=="Exports"
+ regress lnValue i.simplification_classification_num i.year i.grouping_classification_num if exportsimports=="Exports"
  predict lnValue_predExp if e(sample)
  gen résiduExp = lnValue_predExp - lnValue
  * histogram résiduExp
  * count if abs(résiduExp)>8
  
- merge 1:m year marchandises_simplification pays_grouping exportsimports using ///
+ merge 1:m year simplification_classification grouping_classification exportsimports using ///
  "/Users/Matthias/Données Stata/bdd courante.dta"
  drop if abs(résiduImp)<=8 & résiduExp==.
  drop if abs(résiduExp)<=8 & résiduImp==.

@@ -17,15 +17,15 @@ cd "C:\Users\pierr\Documents\Toflit"
 
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
-	sort marchandises_simplification
-	drop sitc18_rev3 obsolete nbr_obs
+	sort simplification_classification
+	drop sitc_classification obsolete nbr_obs
 	save "Données Stata/bdd_marchandises_medicinales.dta", replace
 	
 	
 * 2/ On merge avec bdd centrale
 use "Données Stata/bdd courante.dta", clear
-sort marchandises_simplification
-merge m:1 marchandises_simplification using "Données Stata/bdd_marchandises_medicinales.dta"
+sort simplification_classification
+merge m:1 simplification_classification using "Données Stata/bdd_marchandises_medicinales.dta"
 drop if _merge==2
 drop _merge
 replace value_as_reported = subinstr(value_as_reported, ",", ".",.) 
@@ -43,7 +43,7 @@ use "Données Stata/bdd courante with medecine.dta", clear
 
 	set more off
 	keep if(exportsimports=="Imports"|exportsimports=="Importations")
-	keep if(medical_classification=="narrow medical product")
+	keep if(medicinales_classification=="narrow medical product")
 	*drop if(sourcetype=="Divers"|sourcetype=="1792-both semester"|sourcetype=="1792-first semestre"|sourcetype=="National partenaires manquants")
 	drop if(year==1787&sourcetype=="Résumé")
 	drop if(year==1788&sourcetype=="Résumé")
@@ -56,7 +56,7 @@ use "Données Stata/bdd courante with medecine.dta", clear
 	
 	use "Données Stata/bdd courante with medecine.dta", clear
 	keep if(exportsimports=="Exports"|exportsimports=="Exportations")
-	keep if(medical_classification=="narrow medical product")
+	keep if(medicinales_classification=="narrow medical product")
 	*drop if(sourcetype=="Divers"|sourcetype=="1792-both semester"|sourcetype=="1792-first semestre"|sourcetype=="National partenaires manquants")
 	drop if(year==1787&sourcetype=="Résumé")
 	drop if(year==1788&sourcetype=="Résumé")

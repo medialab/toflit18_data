@@ -54,7 +54,7 @@ drop if sourcetype_encode==6  & year==1750
 collapse (sum) value_inclusive, by (year importexport sourcetype_encode)
 
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
 reshape wide value_inclusive, i(year sourcetype_encode) j(importexport)
 rename value_inclusive0 import
 rename value_inclusive1 export

@@ -49,7 +49,7 @@ foreach file in bdd_centrale Hambourg/BDD_Hambourg_21_juillet_2014 Sound/BDD_SUN
 	replace keep = 1 if _merge==3
 	drop _merge
 	bys marchandises : drop if _n!=1
-	keep keep marchandises marchandises_norm_ortho mériteplusdetravail
+	keep keep marchandises orthographic_normalization_classification mériteplusdetravail
 }
 
 drop if keep==0

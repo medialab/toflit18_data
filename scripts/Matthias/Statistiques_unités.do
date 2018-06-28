@@ -40,8 +40,8 @@
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- codebook sitc18_rev3
- tab sitc18_rev3 u_conv, m
+ codebook sitc_classification
+ tab sitc_classification u_conv, m
  
 * 6/ Principales unités utilisées selon les différents ports
  

@@ -2,14 +2,14 @@
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
 
- codebook pays_grouping
- tab pays_grouping
- keep if pays_grouping!=""
- bysort pays_grouping: gen nb_occurrences_pays=_N
- gen pays_grouping2=pays_grouping
- replace pays_grouping2="Autres" if nb_occurrences_pays<25000
+ codebook grouping_classification
+ tab grouping_classification
+ keep if grouping_classification!=""
+ bysort grouping_classification: gen nb_occurrences_pays=_N
+ gen grouping_classification2=grouping_classification
+ replace grouping_classification2="Autres" if nb_occurrences_pays<25000
  
- graph pie, over (pays_grouping2) ///
+ graph pie, over (grouping_classification2) ///
  plabel (_all percent, color(white) size (medlarge)) ///
  title (Partenaires commerciaux de la France)
  
@@ -17,21 +17,21 @@
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  
- codebook marchandises_norm_ortho
- keep if marchandises_norm_ortho!=""
- bysort marchandises_norm_ortho: gen nb_occurrences_marchandises=_N 
+ codebook orthographic_normalization_classification
+ keep if orthographic_normalization_classification!=""
+ bysort orthographic_normalization_classification: gen nb_occurrences_marchandises=_N 
  keep if nb_occurrences_marchandises>2000
  gsort +nb_occurrences_marchandises 
- tab marchandises_norm_ortho 
+ tab orthographic_normalization_classification 
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  
- codebook marchandises_simplification
- keep if marchandises_simplification!=""
- bysort marchandises_simplification: gen nb_occurrences_marchandises_S=_N 
+ codebook simplification_classification
+ keep if simplification_classification!=""
+ bysort simplification_classification: gen nb_occurrences_marchandises_S=_N 
  keep if nb_occurrences_marchandises_S>2200
  gsort +nb_occurrences_marchandises_S 
- tab marchandises_simplification
+ tab simplification_classification
  
  
  * Principales unités utilisées
@@ -59,12 +59,12 @@
  * Principaux échanges avec l'Italie
  
   use "/Users/Matthias/Données Stata/bdd courante.dta", clear
-  keep if pays_grouping=="Italie"
-  keep if marchandises_norm_ortho!=""
-  codebook marchandises_norm_ortho
-  bysort marchandises_norm_ortho: gen nb_occurrences_marchandises_I=_N 
+  keep if grouping_classification=="Italie"
+  keep if orthographic_normalization_classification!=""
+  codebook orthographic_normalization_classification
+  bysort orthographic_normalization_classification: gen nb_occurrences_marchandises_I=_N 
   keep if nb_occurrences_marchandises_I>400
-  tab marchandises_norm_ortho
+  tab orthographic_normalization_classification
 
  * Année où les échanges sont les plus importants
  
@@ -82,10 +82,10 @@
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  keep if exportsimports=="Exports"
- bysort marchandises_simplification: gen nb_occurrences_marchandises_Exp=_N 
+ bysort simplification_classification: gen nb_occurrences_marchandises_Exp=_N 
  keep if nb_occurrences_marchandises_Exp>2200
  gsort +nb_occurrences_marchandises_Exp 
- tab marchandises_simplification
+ tab simplification_classification
   
   
   

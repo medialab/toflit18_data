@@ -6,20 +6,20 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd courante.dta", clear
 
 * Sélectionner les variables que l'on veut garder (keep)
 
-keep year direction exportsimports quantit prix_unitaire marchandises_simplification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
-sort marchandises_simplification year
-order marchandises_simplification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
+keep year direction exportsimports quantit prix_unitaire simplification_classification value quantites_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
+sort simplification_classification year
+order simplification_classification year prix_unitaire quantit quantity_unit_ajustees u_conv q_conv value direction exportsimports
 
 * On supprime les marchandises qui n'ont pas de prix ou qui apparaissent moins de 1000 fois dans la base /
 * ou bien on supprime les marchandises dont la valeur totale échangée sur la période est inférieure à 100 000
 
  drop if prix_unitaire==.
  drop if prix_unitaire==0
- drop if marchandises_simplification==""
+ drop if simplification_classification==""
  
- * encode marchandises_simplification, gen(marchandises_simplification_num)
- * bysort marchandises_simplification_num: drop if _N<=1000 
- * sort marchandises_simplification year
+ * encode simplification_classification, gen(simplification_classification_num)
+ * bysort simplification_classification_num: drop if _N<=1000 
+ * sort simplification_classification year
 	
 * On créé une variable "valeur"
 
@@ -38,9 +38,9 @@ drop if valeur==0
 
 * Calculer la valeur totale échangée par marchandise sur la période
 
-by marchandises_simplification direction exportsimports, sort: egen valeur_totale_par_marchandise=total(valeur)		
+by simplification_classification direction exportsimports, sort: egen valeur_totale_par_marchandise=total(valeur)		
 drop if valeur_totale_par_marchandise<=100000
-sort marchandises_simplification year
+sort simplification_classification year
 	
 * On convertit les prix dans leur unité conventionnelle
 	
@@ -50,10 +50,10 @@ drop if prix_unitaire_converti==.
 * Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées
 
 drop if quantites_metric==.
-by year direction exportsimports u_conv marchandises_simplification, sort: egen quantite_echangee=total(quantites_metric)
+by year direction exportsimports u_conv simplification_classification, sort: egen quantite_echangee=total(quantites_metric)
 generate prix_unitaire_pondere=(quantites_metric/quantite_echangee)*prix_unitaire_converti
-by year direction exportsimports u_conv marchandises_simplification, sort: egen prix_pondere_annuel=total(prix_unitaire_pondere)
-sort marchandises_simplification year
+by year direction exportsimports u_conv simplification_classification, sort: egen prix_pondere_annuel=total(prix_unitaire_pondere)
+sort simplification_classification year
 
 * On sauvegarde la base de donnée désormais réduite (A REMPLACER SI ON PREND FINALEMENT LES MARCHANDISES DONT VALEUR > 100 000)
  
@@ -66,29 +66,29 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
 
-bysort year marchandises_simplification exportsimports direction: keep if _n==1
+bysort year simplification_classification exportsimports direction: keep if _n==1
 
 gen inflation=.
-sort marchandises_simplification exportsimports direction year
-bys marchandises_simplification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
+sort simplification_classification exportsimports direction year
+bys simplification_classification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
 
 gen IPC=.
-bys marchandises_simplification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-gen panvar = marchandises_simplification + exportsimports + direction
+bys simplification_classification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
+gen panvar = simplification_classification + exportsimports + direction
 encode panvar, gen(panvar_num)
 drop if year>1787 & year<1788
 tsset panvar_num year
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 
 * Graphique juste IPC
-twoway (line IPC year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports")
+twoway (line IPC year if direction=="Bordeaux" & simplification_classification =="acier" & exportsimports=="Exports")
 
 * Graphique avec inflation
-twoway (line IPC year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports") (line inflation year if direction=="Bordeaux" & marchandises_simplification =="acier" & exportsimports=="Exports")
+twoway (line IPC year if direction=="Bordeaux" & simplification_classification =="acier" & exportsimports=="Exports") (line inflation year if direction=="Bordeaux" & simplification_classification =="acier" & exportsimports=="Exports")
 
 
 * En cas de valeur aberrante, supprimer la ligne posant problème, exemple : 
- drop if marchandises_simplification=="acier" & year==1724 & direction=="Bordeaux" & exportsimports=="Imports"
+ drop if simplification_classification=="acier" & year==1724 & direction=="Bordeaux" & exportsimports=="Imports"
 
 
 ***********************************************************************************************************************************
@@ -100,13 +100,13 @@ keep if direction=="La Rochelle"
 keep if exportsimports=="Imports"
 
 * trouver une commande pour garder les marchandises qui apparaissent les deux années, et supprimer les marchandises qui ne sont présentes qu'une seule année
-* encode marchandises_simplification, gen(marchandises_simplification_num)
-* bysort marchandises_simplification_num: drop if _N<2
+* encode simplification_classification, gen(simplification_classification_num)
+* bysort simplification_classification_num: drop if _N<2
 
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
+bys simplification_classification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
 egen nbr_annees_max=max(nbr_annees) 
-bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
-sort year marchandises_simplification 
+bys simplification_classification direction exportsimports : drop if nbr_annees < nbr_annees_max
+sort year simplification_classification 
 
 tsset panvar_num year
 
@@ -163,15 +163,15 @@ replace fisher=1 if year==1754
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 * On garde une observation par marchandise, année, direction et exports ou imports
-bysort year marchandises_simplification exportsimports direction: keep if _n==1
+bysort year simplification_classification exportsimports direction: keep if _n==1
 
 gen inflation=.
-sort marchandises_simplification exportsimports direction year
-bys marchandises_simplification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
+sort simplification_classification exportsimports direction year
+bys simplification_classification exportsimports direction: replace inflation=100*prix_pondere_annuel[_n]/prix_pondere_annuel[_n-1]
 
 gen IPC=.
-bys marchandises_simplification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
-gen panvar = marchandises_simplification + exportsimports + direction
+bys simplification_classification exportsimports direction: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
+gen panvar = simplification_classification + exportsimports + direction
 encode panvar, gen(panvar_num)
 drop if year>1787 & year<1788
 tsset panvar_num year
@@ -183,16 +183,16 @@ keep if direction=="Marseille"
 keep if exportsimports=="Imports"
 drop if year<1754
 
-bys marchandises_simplification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
+bys simplification_classification direction exportsimports : egen nbr_annees=count(prix_unitaire_converti) 
 egen nbr_annees_max=max(nbr_annees) 
-bys marchandises_simplification direction exportsimports : drop if nbr_annees < nbr_annees_max
-sort year marchandises_simplification 
+bys simplification_classification direction exportsimports : drop if nbr_annees < nbr_annees_max
+sort year simplification_classification 
 
 tsset panvar_num year
 
-sort marchandises_simplification year 
-by marchandises_simplification : gen prix1754=prix_unitaire_converti[1]
-by marchandises_simplification : gen quantite1754=quantite_echangee[1]
+sort simplification_classification year 
+by simplification_classification : gen prix1754=prix_unitaire_converti[1]
+by simplification_classification : gen quantite1754=quantite_echangee[1]
 
 gen pnq0=.
 replace pnq0=prix_unitaire_converti*quantite1754
@@ -206,7 +206,7 @@ replace p0q0=prix1754*quantite1754
 gen pnqn=.
 replace pnqn=prix_unitaire_converti*quantite_echangee if year!=1754
 
-sort year marchandises_simplification 
+sort year simplification_classification 
 by year : egen sommepnq0=total(pnq0)
 
 by year : egen sommep0qn=total(p0qn)
@@ -247,27 +247,27 @@ by year : gen fisher=sqrt(laspeyres*paasche)
 * Calcul des produits prix*quantité (je ne suis pas certaine des prix et quantité que je dois prendre) 
 
 gen p0q0=.
-bys marchandises_simplification exportsimports direction: replace p0q0=prix_unitaire_pondere[1]*quantite_echangee[1] 
+bys simplification_classification exportsimports direction: replace p0q0=prix_unitaire_pondere[1]*quantite_echangee[1] 
 
 gen pnqn=.
-bys marchandises_simplification exportsimports direction: replace pnqn=prix_unitaire_pondere[_n]*quantite_echangee[_n] 
+bys simplification_classification exportsimports direction: replace pnqn=prix_unitaire_pondere[_n]*quantite_echangee[_n] 
  
 gen p0qn=.
-bys marchandises_simplification exportsimports direction: replace p0qn=prix_unitaire_pondere[1]*quantite_echangee[_n] 
+bys simplification_classification exportsimports direction: replace p0qn=prix_unitaire_pondere[1]*quantite_echangee[_n] 
  
 gen pnq0=.
-bys marchandises_simplification exportsimports direction: replace pnq0=prix_unitaire_pondere[_n]*quantite_echangee[1] 
+bys simplification_classification exportsimports direction: replace pnq0=prix_unitaire_pondere[_n]*quantite_echangee[1] 
 
 * Calcul indices de Laspeyres, Paasche et Fisher
 
 gen laspeyres=. 
-bys marchandises_simplification exportsimports direction: replace laspeyres=sum(pnq0)/sum(p0q0)
+bys simplification_classification exportsimports direction: replace laspeyres=sum(pnq0)/sum(p0q0)
 
 gen paasche=.
-bys marchandises_simplification exportsimports direction: replace paasche=sum(pnqn)/sum(p0qn)
+bys simplification_classification exportsimports direction: replace paasche=sum(pnqn)/sum(p0qn)
 
 gen fisher=.
-bys marchandises_simplification exportsimports direction: replace fisher=sqrt(laspeyres*paasche) 
+bys simplification_classification exportsimports direction: replace fisher=sqrt(laspeyres*paasche) 
 
 * Ordonner 
 
@@ -275,9 +275,9 @@ tsset panvar_num year
 
 * Comparaisons graphiques, exemple : 
 
-	twoway (line laspeyres year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
-	twoway (line paasche year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
-	twoway (line fisher year if direction=="La Rochelle" & marchandises_simplification =="sel" & exportsimports=="Exports")
+	twoway (line laspeyres year if direction=="La Rochelle" & simplification_classification =="sel" & exportsimports=="Exports")
+	twoway (line paasche year if direction=="La Rochelle" & simplification_classification =="sel" & exportsimports=="Exports")
+	twoway (line fisher year if direction=="La Rochelle" & simplification_classification =="sel" & exportsimports=="Exports")
 
 
 * Pour étudier seulement les indices des exportations ou importations 
@@ -291,7 +291,7 @@ keep if exportsimports=="Exports"
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 * Choisir une marchandise
-keep if marchandises_simplification=="nom de la marchandise"
+keep if simplification_classification=="nom de la marchandise"
 sort year 
 
 * Choisir une direction

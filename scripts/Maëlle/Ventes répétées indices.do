@@ -17,7 +17,7 @@ drop if year<`year_debut'
 * keep if direction=="La Rochelle"
 * tsset panvar_num year 
 gen lnPrix=ln(prix_unitaire_converti)
-* encode marchandises_simplification, gen(marchandises_simplification_num)
+* encode simplification_classification, gen(simplification_classification_num)
 generate part_valeur=value/valeur_totale_par_marchandise
 bys panvar_num : drop if _N==1
 gen part_valeur_integer=round(part_valeur*10000)

@@ -10,11 +10,11 @@
  drop if quantit==.
  drop if quantity_unit==""
  gen lnPrix=ln(prix_unitaire)
- encode marchandises_simplification, gen(marchandises_simplification_num)
- bysort marchandises_simplification_num: drop if _N<=10
+ encode simplification_classification, gen(simplification_classification_num)
+ bysort simplification_classification_num: drop if _N<=10
  encode quantity_unit, gen(quantity_unit_num)
  bysort quantity_unit_num: drop if _N<=10
- gen marchandises_et_quantités = marchandises_simplification + quantity_unit
+ gen marchandises_et_quantités = simplification_classification + quantity_unit
  encode marchandises_et_quantités, gen(marchandises_et_quantités_num)
  bysort marchandises_et_quantités_num: drop if _N<=10
  drop if year>1787 & year<1788
@@ -61,9 +61,9 @@
  drop if prix_unitaire==0
  gen prix_conv=prix_unitaire/q_conv
  gen lnPrix=ln(prix_conv)
- encode marchandises_simplification, gen(marchandises_simplification_num)
- bysort marchandises_simplification_num: drop if _N<=10
- gen marchandises_et_unités = marchandises_simplification + u_conv
+ encode simplification_classification, gen(simplification_classification_num)
+ bysort simplification_classification_num: drop if _N<=10
+ gen marchandises_et_unités = simplification_classification + u_conv
  encode marchandises_et_unités, gen(marchandises_et_unités_num)
  bysort marchandises_et_unités_num: drop if _N<=10
  drop if year>1787 & year<1788
@@ -105,5 +105,5 @@
  sort exportsimports year numrodeligne
  export delimited using "/Users/Matthias/Données Stata/probleme_prix3.csv", replace
  
- list prix_unitaire quantity_unit if strmatch(marchandises_norm_ortho,"**")
+ list prix_unitaire quantity_unit if strmatch(orthographic_normalization_classification,"**")
 

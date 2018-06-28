@@ -28,20 +28,20 @@ use "Units_N2.dta", clear
 
 *
 	
-	merge m:1 marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	merge m:1 orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
 	drop if _merge==2
 	drop _merge	
 	
 *
 
 
-drop if marchandises_simplification==""
+drop if simplification_classification==""
 
 drop marchandises_normalisees
 drop marchandises
-drop marchandises_norm_ortho
+drop orthographic_normalization_classification
 
-bys quantity_unit marchandises_simplification : keep if _n==1
+bys quantity_unit simplification_classification : keep if _n==1
 
 
 save "Units_N2_revised.dta", replace
@@ -63,7 +63,7 @@ use "Units_N3.dta", clear
 
 *
 
-	merge m:m marchandises_norm_ortho using "bdd_revised_marchandises_simplifiees.dta"
+	merge m:m orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
 	drop if _merge==2
 	drop _merge	
 
@@ -71,9 +71,9 @@ use "Units_N3.dta", clear
 
 drop marchandises_normalisees
 drop marchandises
-drop marchandises_norm_ortho
+drop orthographic_normalization_classification
 
-bys quantity_unit marchandises_simplification exportsimports pays_grouping : keep if _n==1
+bys quantity_unit simplification_classification exportsimports grouping_classification : keep if _n==1
 
 save "Units_N3_revised.dta", replace
 

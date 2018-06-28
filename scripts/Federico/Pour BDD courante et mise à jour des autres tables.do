@@ -20,7 +20,7 @@ cd "$dir"
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien /*
-*/               bdd_marchandises_normalisees_orthographique bdd_marchandises_simplifiees /*
+*/               orthographic_normalization_classification bdd_marchandises_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
@@ -82,7 +82,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 }
 */		
 		
-import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc18_rev3.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -97,7 +97,7 @@ import delimited "toflit18_data_GIT/traitements_marchandises/SITC/Définitions s
 
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
-	save "Données Stata/Définitions sitc18_rev3.dta", replace
+	save "Données Stata/Définitions sitc_classification.dta", replace
 	
 	
 	
@@ -282,7 +282,7 @@ drop numrodeligne-marchandises value-remarkspourlesdroits
 
 drop _merge
 bys pays : keep if _n==1
-keep pays pays_norm_ortho note
+keep pays orthographic_normalization_classification note
 save "classification_country_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(pays, "fr")
 sort sortkey
@@ -295,17 +295,17 @@ export delimited classification_country_orthographic_normalization.csv, replace
 **
 use "classification_country_orthographic_normalization.dta", clear
 drop note
-merge m:1 pays_norm_ortho using "classification_country_simplification.dta"
+merge m:1 orthographic_normalization_classification using "classification_country_simplification.dta"
 drop if _merge==2
 
 
 
 drop _merge
 
-bys pays_norm_ortho : keep if _n==1
-keep pays_norm_ortho pays_simplification note
+bys orthographic_normalization_classification : keep if _n==1
+keep orthographic_normalization_classification simplification_classification note
 save "classification_country_simplification.dta", replace
-generate sortkey = ustrsortkey(pays_norm_ortho, "fr")
+generate sortkey = ustrsortkey(orthographic_normalization_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited classification_country_simplification.csv, replace
@@ -314,15 +314,15 @@ export delimited classification_country_simplification.csv, replace
 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 pays_simplification using "classification_country_grouping.dta"
+merge m:1 simplification_classification using "classification_country_grouping.dta"
 
 drop if _merge==2
 drop _merge
 
-bys pays_simplification : keep if _n==1
-keep pays_simplification pays_grouping note
+bys simplification_classification : keep if _n==1
+keep simplification_classification grouping_classification note
 save "classification_country_grouping.dta", replace
-generate sortkey = ustrsortkey(pays_simplification, "fr")
+generate sortkey = ustrsortkey(simplification_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited classification_country_grouping.csv, replace
@@ -330,15 +330,15 @@ export delimited classification_country_grouping.csv, replace
 ** 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 pays_simplification using "classification_country_obrien.dta"
+merge m:1 simplification_classification using "classification_country_obrien.dta"
 
 drop if _merge==2
 drop _merge
 
-bys pays_simplification : keep if _n==1
-keep pays_simplification pays_obrien note
+bys simplification_classification : keep if _n==1
+keep simplification_classification obrien_classification note
 save "classification_country_obrien.dta", replace
-generate sortkey = ustrsortkey(pays_simplification, "fr")
+generate sortkey = ustrsortkey(simplification_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited classification_country_obrien.csv, replace
@@ -347,71 +347,71 @@ export delimited classification_country_obrien.csv, replace
 *************Marchandises
 
 
-use "bdd_marchandises_normalisees_orthographique.dta", replace
+use "orthographic_normalization_classification.dta", replace
 bys marchandises : drop if _n!=1
 
-save "bdd_marchandises_normalisees_orthographique.dta", replace
+save "orthographic_normalization_classification.dta", replace
 
 use "bdd_centrale.dta", clear
-merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
+merge m:1 marchandises using "orthographic_normalization_classification.dta"
 
 drop _merge
 
-keep marchandises marchandises_norm_ortho mériteplusdetravail
+keep marchandises orthographic_normalization_classification mériteplusdetravail
 
 bys marchandises : keep if _n==1
 
 
-save "bdd_marchandises_normalisees_orthographique.dta", replace
+save "orthographic_normalization_classification.dta", replace
 generate sortkey = ustrsortkey(marchandises, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_marchandises_normalisees_orthographique.csv, replace
+export delimited orthographic_normalization_classification.csv, replace
 
 **
-use "bdd_marchandises_simplifiees.dta", replace
+use "bdd_marchandises_simplification.dta", replace
 bys marchandises_norm_orth : drop if _n!=1
-save "bdd_marchandises_simplifiees.dta", replace
+save "bdd_marchandises_simplification.dta", replace
 
-use "bdd_marchandises_normalisees_orthographique.dta", clear
-merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
+use "orthographic_normalization_classification.dta", clear
+merge m:1 orthographic_normalization_classification using "bdd_marchandises_simplification.dta"
 
-keep marchandises_norm_ortho marchandises_simplification _merge
+keep orthographic_normalization_classification simplification_classification _merge
 drop if _merge==2
 
 drop _merge
-bys marchandises_norm_ortho : keep if _n==1
+bys orthographic_normalization_classification : keep if _n==1
 
 
-save "bdd_marchandises_simplifiees.dta", replace
-generate sortkey = ustrsortkey(marchandises_norm_ortho, "fr")
+save "bdd_marchandises_simplification.dta", replace
+generate sortkey = ustrsortkey(orthographic_normalization_classification, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_marchandises_simplifiees.csv, replace
+export delimited bdd_marchandises_simplification.csv, replace
 **
 
 foreach file_on_simp in bdd_marchandises_sitc bdd_marchandises_edentreaty bdd_marchandises_NorthAmerica bdd_marchandises_medicinales bdd_marchandises_hamburg /*
 		*/ bdd_marchandises_grains {
 
 	use "`file_on_simp'.dta", clear
-	bys marchandises_simplification : drop if _n!=1
+	bys simplification_classification : drop if _n!=1
 	save "`file_on_simp'.dta", replace
 
-	use "bdd_marchandises_simplifiees.dta", clear
-	merge m:1 marchandises_simplification using "`file_on_simp'.dta"
+	use "bdd_marchandises_simplification.dta", clear
+	merge m:1 simplification_classification using "`file_on_simp'.dta"
 
 
-	drop marchandises_norm_ortho 
+	drop orthographic_normalization_classification 
 
 	*drop if _merge==2
 	capture gen obsolete=""
 	replace obsolete = "oui" if _merge==2
 	replace obsolete = "non" if _merge!=2
 	drop _merge
-	capture bys marchandises_simplification : keep if _n==1
+	capture bys simplification_classification : keep if _n==1
 
 	
-	capture generate sortkey = ustrsortkey(marchandises_simplification, "fr")
+	capture generate sortkey = ustrsortkey(simplification_classification, "fr")
 	sort sortkey
 	drop sortkey
 	
@@ -447,56 +447,56 @@ merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop if _merge==2
 drop note-_merge
 
-merge m:1 pays_norm_ortho using "classification_country_simplification.dta"
+merge m:1 orthographic_normalization_classification using "classification_country_simplification.dta"
 drop if _merge==2
 
 
 drop note-_merge
 
-merge m:1 pays_simplification using "classification_country_grouping.dta"
+merge m:1 simplification_classification using "classification_country_grouping.dta"
 drop if _merge==2
 drop note-_merge
 
 
 
-merge m:1 pays_simplification using "classification_country_obrien.dta"
+merge m:1 simplification_classification using "classification_country_obrien.dta"
 drop if _merge==2
 drop note-_merge
 
 
 ******
 
-merge m:1 marchandises using "bdd_marchandises_normalisees_orthographique.dta"
+merge m:1 marchandises using "orthographic_normalization_classification.dta"
 drop if _merge==2
 drop mériteplusdetravail-_merge
 
 
-merge m:1 marchandises_norm_ortho using "bdd_marchandises_simplifiees.dta"
+merge m:1 orthographic_normalization_classification using "bdd_marchandises_simplification.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 marchandises_simplification using "bdd_marchandises_sitc.dta"
+merge m:1 simplification_classification using "bdd_marchandises_sitc.dta"
 drop if _merge==2
 drop _merge
 
 
-merge m:1 marchandises_simplification using "bdd_marchandises_grains.dta"
+merge m:1 simplification_classification using "bdd_marchandises_grains.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_FR.dta"
+merge m:1 sitc_classification using "bdd_marchandises_sitc_FR.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 sitc18_rev3 using "bdd_marchandises_sitc_EN.dta"
+merge m:1 sitc_classification using "bdd_marchandises_sitc_EN.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 marchandises_simplification using "bdd_marchandises_hamburg"
+merge m:1 simplification_classification using "bdd_marchandises_hamburg"
 drop if _merge==2
 drop _merge
 
-merge m:1 marchandises_simplification using "bdd_marchandises_medicinales"
+merge m:1 simplification_classification using "bdd_marchandises_medicinales"
 drop if _merge==2
 drop _merge
 
@@ -534,7 +534,7 @@ rename yearnum year
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_marchandises
  codebook q_conv
  
- merge m:1 exportsimports pays_grouping direction marchandises_simplification quantity_unit_ortho ///
+ merge m:1 exportsimports grouping_classification direction simplification_classification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
  drop  remarque_unit-_merge
  codebook q_conv
@@ -550,7 +550,7 @@ export delimited "$dir/Données Stata/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
 sort sourcetype direction year exportsimports numrodeligne 
-order numrodeligne sourcetype year direction pays pays_norm_ortho exportsimports marchandises marchandises_norm_ortho value quantit quantity_unit quantity_unit_ortho prix_unitaire
+order numrodeligne sourcetype year direction pays orthographic_normalization_classification exportsimports marchandises orthographic_normalization_classification value quantit quantity_unit quantity_unit_ortho prix_unitaire
 drop if year==.
 
 save "$dir/Données Stata/bdd courante", replace
@@ -575,7 +575,7 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 capture 
 {
-use "$dir/Données Stata/bdd_marchandises_normalisees_orthographique.dta", replace
+use "$dir/Données Stata/orthographic_normalization_classification.dta", replace
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
 generate sourceBEL=0

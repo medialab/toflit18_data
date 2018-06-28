@@ -63,8 +63,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
-quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
 **merge local and national par directions series (Guillaume please check these lines!!!)
@@ -115,7 +115,7 @@ bys year grains geography importexport: egen totalpkg=sum(value_inclusive)
 
 ***Effect of udm on price
 gen lnprice=ln(unit_price_kg)
-encode pays_simplification, generate(pays_encode) label(pays_simplification)
+encode simplification_classification, generate(pays_encode) label(simplification_classification)
 encode quantity_unit_ortho, generate(udm_encode) label(quantity_unit_ortho)
 xi i.year i.pays_encode 
 xi i.udm_encode
