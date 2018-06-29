@@ -504,15 +504,13 @@ drop if _merge==2
 
 drop note-_merge
 
-merge m:1 simplification_classification using "classification_country_grouping.dta"
-drop if _merge==2
-drop note-_merge
+foreach file in classification_country_grouping classification_country_obrien ///
+			classification_country_very_simplified {
 
-
-
-merge m:1 simplification_classification using "classification_country_obrien.dta"
-drop if _merge==2
-drop note-_merge
+	merge m:1 simplification_classification using "`file'.dta"
+	drop if _merge==2
+	drop note-_merge
+}
 
 
 ******
