@@ -21,7 +21,7 @@ cd "$dir"
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
-*/				 classification_country_obrien classification_country_very_simplified /*
+*/				 classification_country_obrien classification_country_wars /*
 */               bdd_marchandises_orthographic_normalization bdd_marchandises_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_canada /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
@@ -366,21 +366,21 @@ export delimited "$dir/toflit18_data_GIT/base/classification_country_obrien.csv"
 ** 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 simplification_classification using "classification_country_very_simplified.dta"
+merge m:1 simplification_classification using "classification_country_wars.dta"
 
 drop if _merge==2
 drop _merge
 
-capture drop nbr_occurences_very_simplified
-bys very_simplified_classification : egen nbr_occurences_very_simplified=total(nbr_occurences_ortho)
+capture drop nbr_occurences_country_wars
+bys classification_country_wars : egen nbr_occurences_country_wars=total(nbr_occurences_ortho)
 
 bys simplification_classification : keep if _n==1
-keep simplification_classification very_simplified_classification nbr_occurences_simpl nbr_occurences_very_simplified note
-save "classification_country_very_simplified.dta", replace
+keep simplification_classification classification_country_wars nbr_occurences_simpl nbr_occurences_country_wars note
+save "classification_country_wars.dta", replace
 generate sortkey = ustrsortkey(simplification_classification, "fr")
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_very_simplified.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_wars.csv", replace
 
 
 
@@ -505,7 +505,7 @@ drop if _merge==2
 drop note-_merge
 
 foreach file in classification_country_grouping classification_country_obrien ///
-			classification_country_very_simplified {
+			classification_country_wars {
 
 	merge m:1 simplification_classification using "`file'.dta"
 	drop if _merge==2
