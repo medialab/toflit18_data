@@ -1,5 +1,5 @@
 quantity_unit_ortho,source_bdc,quantity_unit_ajustees,u_conv,q_conv,remarque_unit,incertitude_unit,source_hambourg,missing,needs_more_details,nbr_bdc_quantity_unit_ortho,nbr_bdc_quantity_unit_ajustees
-,0,,,,,,,,,322,1020
+,1,,,,,,,,,322,1020
 ????,1,????,,,,1,0,,0,4,51
 ???? an,1,????,,,,1,0,,0,1,51
 ???? aunes,1,????,,,,1,0,,0,2,51
@@ -131,7 +131,7 @@ bichets,1,bichets de Lyon,litres,31.9,p66 doursther,,0,,0,1,1
 billes,1,billes,pièces,1,,,,,,2,2
 billets,1,billets,pièces,1,,,0,,0,1,1
 billons,1,billons,pièces,1,,,,,,1,1
-billots,1,,,,,,,,,1,1020
+billots,0,,,,,,,,,1,1020
 bines,1,,,,,,0,1,0,1,1020
 birges,1,,,,,,0,1,0,1,1020
 boëtes,1,boîtes,contenant,1,,,,,,8,16
@@ -337,7 +337,7 @@ fanons,1,fanons,pièces,1,,,0,,0,1,1
 fardeaux,1,,,,,,,,,1,1020
 fartraux,1,,,,,,0,1,0,1,1020
 fau,1,,,,,,,,,1,1020
-fauteuils,0,pièces,pièces,1,,,,,,1,127
+fauteuils,1,pièces,pièces,1,,,,,,1,127
 feittots,1,,,,,,,,,1,1020
 ferquins,1,,,,,,,,,1,1020
 fers,1,,,,,,,,,2,1020
@@ -520,8 +520,8 @@ ordinaire,1,ordinaires,pièces,1,,,,,,4,4
 outres,1,,,,,,,,,1,1020
 ouvrée,1,pièces,pièces,1,,,,,,1,127
 oxhoft,0,oxhoft,kg,223.158,"Witthöft 1993, explication 1 oxhoft=223.158 litres",,1,,0,1,1
-pagats,1,,,,,,,,,1,1020
-paguas,1,,,,,,,,,1,1020
+pagats,0,,,,,,,,,1,1020
+paguas,0,,,,,,,,,1,1020
 pains,1,pains,pièces,1,,,,,,2,3
 pains par 100,0,pains,pièces,100,,,,,,1,3
 paires,1,paires,pièces,2,,,,,,9,10
@@ -547,7 +547,7 @@ pattes,1,,,,,,,,,1,1020
 patz,1,,,,unité difficilement lisible dans la source,,0,1,0,1,1020
 paumes,1,paumes,cm,8.119999999999999,Doursther page 392,,,,,1,1
 peaux,1,peaux,pièces,1,,,,,,4,5
-peintes,0,pièces,pièces,1,,,,,,1,127
+peintes,1,pièces,pièces,1,,,,,,1,127
 pelaux,1,,,,,,,,,2,1020
 pendules,1,pendules,cm,99.38493,Doursther page 393,,,,,4,5
 pendules de 8 livres,1,pendules,cm,99.38493,Doursther page 393,,,,,1,5
@@ -586,7 +586,7 @@ plaques,1,,,,,,,,,1,1020
 plateaux,1,,,,,,,,,1,1020
 plats,1,,,,,,,,,1,1020
 plumes,1,pièces,pièces,1,,,,,,1,127
-pochées,1,,,,,,,,,2,1020
+pochées,0,,,,,,,,,2,1020
 poches,1,,,,,,,,,2,1020
 poële,1,pièces,pièces,1,,,,,,1,127
 poêles,1,pièces,pièces,1,,,,,,1,127
@@ -653,7 +653,7 @@ selles,1,,,,,,,,,1,1020
 sennes,1,sennes,pièces,1,,,0,,0,1,1
 serges,1,serges,pièces,1,,,0,1,0,1,1
 serrures,1,,,,,,,,,1,1020
-services,0,services,pièces,1,,,0,1,0,7,7
+services,1,services,pièces,1,,,0,1,0,7,7
 serviettes,1,serviettes,pièces,1,,,,,,1,1
 setiers,1,setier,litres,152.343,wikipédia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,,,,,11,11
 simple,1,,,,,,,,,1,1020
@@ -706,7 +706,7 @@ tuiles,1,tuiles,pièces,1,,,,,,2,2
 unité,1,pièces,pièces,1,,,,,,1,127
 urnes,1,,,,,,,,,1,1020
 vaches,1,pièces,pièces,1,,,0,,0,1,127
-valeur,0,,,,,,,,,9,1020
+valeur,1,,,,,,,,,9,1020
 valeur cy,0,,,,,,,,,1,1020
 vals,1,,,,,,0,1,0,1,1020
 varres,1,,,,,,,,,1,1020
