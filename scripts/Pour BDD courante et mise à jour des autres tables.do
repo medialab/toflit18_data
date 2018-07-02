@@ -21,7 +21,7 @@ cd "$dir"
 
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
-*/				 classification_country_obrien classification_country_very_simplified /*
+*/				 classification_country_obrien classification_country_wars /*
 */               bdd_marchandises_orthographic_normalization bdd_marchandises_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  bdd_marchandises_edentreaty bdd_marchandises_canada /*
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
@@ -292,9 +292,9 @@ capture drop nbr_occurences_ortho
 
 drop _merge
 bys pays : gen nbr_occurences_source=_N
-bys orthographic_normalization_class : gen nbr_occurences_ortho=_N 
+bys partners_ortho_classification : gen nbr_occurences_ortho=_N 
 bys pays : keep if _n==1
-keep pays orthographic_normalization_class note nbr_occurences_source nbr_occurences_ortho
+keep pays partners_ortho_classification note nbr_occurences_source nbr_occurences_ortho
 save "classification_country_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(pays, "fr")
 sort sortkey
@@ -307,18 +307,18 @@ export delimited "$dir/toflit18_data_GIT/base/classification_country_orthographi
 **
 use "classification_country_orthographic_normalization.dta", clear
 drop note
-merge m:1 orthographic_normalization_class using "classification_country_simplification.dta"
+merge m:1 partners_ortho_classification using "classification_country_simplification.dta"
 drop if _merge==2
 drop _merge
 
 capture drop nbr_occurences_simpl
 
-bys simplification_classification : egen nbr_occurences_simpl=total(nbr_occurences_source) 
+bys partners_simpl_classification : egen nbr_occurences_simpl=total(nbr_occurences_source) 
 
-bys orthographic_normalization_class : keep if _n==1
-keep orthographic_normalization_class simplification_classification nbr_occurences_ortho nbr_occurences_simpl note
+bys partners_ortho_classification : keep if _n==1
+keep partners_ortho_classification partners_simpl_classification nbr_occurences_ortho nbr_occurences_simpl note
 save "classification_country_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic_normalization_class, "fr")
+generate sortkey = ustrsortkey(partners_ortho_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_country_simplification.csv", replace
@@ -327,7 +327,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_country_simplificat
 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 simplification_classification using "classification_country_grouping.dta"
+merge m:1 partners_simpl_classification using "classification_country_grouping.dta"
 
 drop if _merge==2
 drop _merge
@@ -335,10 +335,10 @@ drop _merge
 capture drop nbr_occurences_grouping
 bys grouping_classification : egen nbr_occurences_grouping=total(nbr_occurences_ortho)
 
-bys simplification_classification : keep if _n==1
-keep simplification_classification grouping_classification nbr_occurences_simpl nbr_occurences_grouping note
+bys partners_simpl_classification : keep if _n==1
+keep partners_simpl_classification grouping_classification nbr_occurences_simpl nbr_occurences_grouping note
 save "classification_country_grouping.dta", replace
-generate sortkey = ustrsortkey(simplification_classification, "fr")
+generate sortkey = ustrsortkey(partners_simpl_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_country_grouping.csv", replace
@@ -346,7 +346,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_country_grouping.cs
 ** 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 simplification_classification using "classification_country_obrien.dta"
+merge m:1 partners_simpl_classification using "classification_country_obrien.dta"
 
 drop if _merge==2
 drop _merge
@@ -354,10 +354,10 @@ drop _merge
 capture drop nbr_occurences_obrien
 bys obrien_classification : egen nbr_occurences_obrien=total(nbr_occurences_ortho)
 
-bys simplification_classification : keep if _n==1
-keep simplification_classification obrien_classification nbr_occurences_simpl nbr_occurences_obrien note
+bys partners_simpl_classification : keep if _n==1
+keep partners_simpl_classification obrien_classification nbr_occurences_simpl nbr_occurences_obrien note
 save "classification_country_obrien.dta", replace
-generate sortkey = ustrsortkey(simplification_classification, "fr")
+generate sortkey = ustrsortkey(partners_simpl_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_country_obrien.csv", replace
@@ -366,21 +366,21 @@ export delimited "$dir/toflit18_data_GIT/base/classification_country_obrien.csv"
 ** 
 use "classification_country_simplification.dta", clear
 drop note
-merge m:1 simplification_classification using "classification_country_very_simplified.dta"
+merge m:1 partners_simpl_classification using "classification_country_wars.dta"
 
 drop if _merge==2
 drop _merge
 
-capture drop nbr_occurences_very_simplified
-bys very_simplified_classification : egen nbr_occurences_very_simplified=total(nbr_occurences_ortho)
+capture drop nbr_occurences_wars
+bys wars_classification : egen nbr_occurences_wars=total(nbr_occurences_ortho)
 
-bys simplification_classification : keep if _n==1
-keep simplification_classification very_simplified_classification nbr_occurences_simpl nbr_occurences_very_simplified note
-save "classification_country_very_simplified.dta", replace
-generate sortkey = ustrsortkey(simplification_classification, "fr")
+bys partners_simpl_classification : keep if _n==1
+keep partners_simpl_classification wars_classification nbr_occurences_simpl nbr_occurences_wars note
+save "classification_country_wars.dta", replace
+generate sortkey = ustrsortkey(partners_simpl_classification, "fr")
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_very_simplified.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_country_wars.csv", replace
 
 
 
@@ -399,11 +399,11 @@ merge m:1 marchandises using "bdd_marchandises_orthographic_normalization.dta"
 capture drop nbr_occurences_source
 capture drop nbr_occurences_ortho
 bys marchandises : gen nbr_occurences_source=_N
-bys orthographic_normalization_class : gen nbr_occurences_ortho=_N
+bys goods_ortho_classification : gen nbr_occurences_ortho=_N
 
 drop _merge
 
-keep marchandises orthographic_normalization_class état_du_travail nbr_occurences_source  nbr_occurences_ortho
+keep marchandises goods_ortho_classification état_du_travail nbr_occurences_source  nbr_occurences_ortho
 
 bys marchandises : keep if _n==1
 
@@ -416,24 +416,24 @@ export delimited "$dir/toflit18_data_GIT/base/bdd_marchandises_orthographic_norm
 
 **
 use "bdd_marchandises_simplification.dta", replace
-bys orthographic_normalization_class : drop if _n!=1
+bys goods_ortho_classification : drop if _n!=1
 save "bdd_marchandises_simplification.dta", replace
 
 use "bdd_marchandises_orthographic_normalization.dta", clear
-merge m:1 orthographic_normalization_class using "bdd_marchandises_simplification.dta"
+merge m:1 goods_ortho_classification using "bdd_marchandises_simplification.dta"
 
 capture drop nbr_occurences_simpl
-bys simplification_classification : egen nbr_occurences_simpl=total(nbr_occurences_source)
+bys goods_simpl_classification : egen nbr_occurences_simpl=total(nbr_occurences_source)
 
-keep orthographic_normalization_class simplification_classification nbr_occurences_ortho nbr_occurences_simpl _merge
+keep goods_ortho_classification goods_simpl_classification nbr_occurences_ortho nbr_occurences_simpl _merge
 drop if _merge==2
 
 drop _merge
-bys orthographic_normalization_class : keep if _n==1
+bys goods_ortho_classification : keep if _n==1
 
 
 save "bdd_marchandises_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic_normalization_class, "fr")
+generate sortkey = ustrsortkey(goods_ortho_classification, "fr")
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/bdd_marchandises_simplification.csv", replace
@@ -443,26 +443,26 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 		*/ grains  coton {
 
 	use "bdd_marchandises_`file_on_simp'.dta", clear
-	bys simplification_classification : drop if _n!=1
+	bys goods_simpl_classification : drop if _n!=1
 	save "bdd_marchandises_`file_on_simp'.dta", replace
 
 	use "bdd_marchandises_simplification.dta", clear
-	merge m:1 simplification_classification using "bdd_marchandises_`file_on_simp'.dta"
+	merge m:1 goods_simpl_classification using "bdd_marchandises_`file_on_simp'.dta"
 	capture drop nbr_occurences_`file_on_simp' 
 	bys `file_on_simp'_classification : egen nbr_occurences_`file_on_simp'=total(nbr_occurences_ortho)
 
 
-	drop orthographic_normalization_class nbr_occurences_ortho
+	drop goods_ortho_classification nbr_occurences_ortho
 
 	*drop if _merge==2
 	capture gen obsolete=""
 	replace obsolete = "oui" if _merge==2
 	replace obsolete = "non" if _merge!=2
 	drop _merge
-	capture bys simplification_classification : keep if _n==1
+	capture bys goods_simpl_classification : keep if _n==1
 
 	
-	capture generate sortkey = ustrsortkey(simplification_classification, "fr")
+	capture generate sortkey = ustrsortkey(goods_simpl_classification, "fr")
 	sort sortkey
 	drop sortkey
 	
@@ -498,16 +498,16 @@ merge m:1 pays using "classification_country_orthographic_normalization.dta"
 drop if _merge==2
 drop note-_merge
 
-merge m:1 orthographic_normalization_class using "classification_country_simplification.dta"
+merge m:1 partners_ortho_classification using "classification_country_simplification.dta"
 drop if _merge==2
 
 
 drop note-_merge
 
 foreach file in classification_country_grouping classification_country_obrien ///
-			classification_country_very_simplified {
+			classification_country_wars {
 
-	merge m:1 simplification_classification using "`file'.dta"
+	merge m:1 partners_simpl_classification using "`file'.dta"
 	drop if _merge==2
 	drop note-_merge
 }
@@ -519,7 +519,7 @@ merge m:1 marchandises using "bdd_marchandises_orthographic_normalization.dta"
 drop if _merge==2
 drop état_du_travail-_merge
 
-merge m:1 orthographic_normalization_class using "bdd_marchandises_simplification"
+merge m:1 goods_ortho_classification using "bdd_marchandises_simplification"
 drop if _merge==2
 drop nbr_occure* _merge
 
@@ -527,7 +527,7 @@ foreach file in bdd_marchandises_sitc bdd_marchandises_edentreaty ///
 			bdd_marchandises_canada bdd_marchandises_medicinales bdd_marchandises_hamburg ///
 			bdd_marchandises_grains  bdd_marchandises_coton {
 
-	merge m:1 simplification_classification using "`file'.dta"
+	merge m:1 goods_simpl_classification using "`file'.dta"
 	drop if _merge==2
 	drop nbr_occure* _merge
 }
@@ -569,20 +569,20 @@ rename yearnum year
  
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  keep if needs_more_details=="1"
- keep exportsimports grouping_classification direction simplification_classification quantity_unit_ortho
- bys exportsimports grouping_classification direction simplification_classification quantity_unit_ortho: keep if _n==1
- merge 1:1 exportsimports grouping_classification direction simplification_classification quantity_unit_ortho ///
+ keep exportsimports grouping_classification direction goods_simpl_classification quantity_unit_ortho
+ bys exportsimports grouping_classification direction goods_simpl_classification quantity_unit_ortho: keep if _n==1
+ merge 1:1 exportsimports grouping_classification direction goods_simpl_classification quantity_unit_ortho ///
 	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
 
  drop _merge
- sort quantity_unit_ortho simplification_classification exportsimports direction grouping_classification
+ sort quantity_unit_ortho goods_simpl_classification exportsimports direction grouping_classification
  save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
  
- merge m:1 exportsimports grouping_classification direction simplification_classification quantity_unit_ortho ///
+ merge m:1 exportsimports grouping_classification direction goods_simpl_classification quantity_unit_ortho ///
 	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
  
  drop if _merge==2
@@ -600,7 +600,7 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
 sort sourcetype direction year exportsimports numrodeligne 
-order numrodeligne sourcetype year direction pays orthographic_normalization_class exportsimports marchandises orthographic_normalization_class value quantit quantity_unit quantity_unit_ortho prix_unitaire
+order numrodeligne sourcetype year direction pays goods_ortho_classification exportsimports marchandises partners_ortho_classification value quantit quantity_unit quantity_unit_ortho prix_unitaire
 drop if year==.
 
 save "$dir/Données Stata/bdd courante", replace
@@ -676,10 +676,10 @@ export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replac
 use "$dir/Données Stata/bdd_marchandises_simplification.dta", replace
 
 
- bys simplification_classification : keep if _n==1
-keep simplification_classification
+ bys goods_simpl_classification	: keep if _n==1
+keep goods_simpl_classification
 
-merge m:1 simplification_classification using "$dir/Données Stata/bdd_marchandises_sitc.dta"
+merge m:1 goods_simpl_classification using "$dir/Données Stata/bdd_marchandises_sitc.dta"
 drop if _merge==2
 drop _merge
 
@@ -693,7 +693,7 @@ drop _merge
 
 drop imprimatur obsolete
 
-sort simplification_classification
+sort goods_simpl_classification
 
 
 save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
