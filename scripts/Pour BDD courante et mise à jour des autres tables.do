@@ -295,6 +295,7 @@ bys pays : gen nbr_occurences_source=_N
 bys partners_ortho_classification : gen nbr_occurences_ortho=_N 
 bys pays : keep if _n==1
 keep pays partners_ortho_classification note nbr_occurences_source nbr_occurences_ortho
+order pays nbr_occurences_source partners_ortho_classification nbr_occurences_ortho note
 save "classification_country_orthographic_normalization.dta", replace
 generate sortkey = ustrsortkey(pays, "fr")
 sort sortkey
@@ -317,6 +318,7 @@ bys partners_simpl_classification : egen nbr_occurences_simpl=total(nbr_occurenc
 
 bys partners_ortho_classification : keep if _n==1
 keep partners_ortho_classification partners_simpl_classification nbr_occurences_ortho nbr_occurences_simpl note
+
 save "classification_country_simplification.dta", replace
 generate sortkey = ustrsortkey(partners_ortho_classification, "fr")
 sort sortkey
@@ -404,6 +406,7 @@ bys goods_ortho_classification : gen nbr_occurences_ortho=_N
 drop _merge
 
 keep marchandises goods_ortho_classification état_du_travail nbr_occurences_source  nbr_occurences_ortho
+order marchandises nbr_occurences_source goods_ortho_classification nbr_occurences_ortho note
 
 bys marchandises : keep if _n==1
 
