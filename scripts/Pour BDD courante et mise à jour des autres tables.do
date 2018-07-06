@@ -27,7 +27,7 @@ foreach file in classification_country_orthographic_normalization classification
 */				 bdd_marchandises_medicinales bdd_marchandises_hamburg bdd_marchandises_grains /*
 */ 				 bdd_marchandises_sitc  bdd_directions bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
-*/				 bdd_origine bdd_marchandises_coton	{
+*/				 bdd_origine bdd_marchandises_coton	bdd_marchandises_ulrich {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
@@ -406,7 +406,7 @@ bys goods_ortho_classification : gen nbr_occurences_ortho=_N
 drop _merge
 
 keep marchandises goods_ortho_classification état_du_travail nbr_occurences_source  nbr_occurences_ortho
-order marchandises nbr_occurences_source goods_ortho_classification nbr_occurences_ortho note
+order marchandises nbr_occurences_source goods_ortho_classification nbr_occurences_ortho
 
 bys marchandises : keep if _n==1
 
@@ -443,7 +443,7 @@ export delimited "$dir/toflit18_data_GIT/base/bdd_marchandises_simplification.cs
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton {
+		*/ grains  coton ulrich {
 
 	use "bdd_marchandises_`file_on_simp'.dta", clear
 	bys goods_simpl_classification : drop if _n!=1
@@ -528,7 +528,7 @@ drop nbr_occure* _merge
 
 foreach file in bdd_marchandises_sitc bdd_marchandises_edentreaty ///
 			bdd_marchandises_canada bdd_marchandises_medicinales bdd_marchandises_hamburg ///
-			bdd_marchandises_grains  bdd_marchandises_coton {
+			bdd_marchandises_grains  bdd_marchandises_coton bdd_marchandises_ulrich {
 
 	merge m:1 goods_simpl_classification using "`file'.dta"
 	drop if _merge==2
