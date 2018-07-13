@@ -593,9 +593,15 @@ rename yearnum year
  codebook q_conv
  
  generate quantites_metric = q_conv * quantit
+ 
+ save "$dir/Données Stata/bdd courante", replace
 
  
  *******************************************************************
+ do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
+ 
+ 
+ ********************************************************************
 
 
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
