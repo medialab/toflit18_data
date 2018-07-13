@@ -10,11 +10,16 @@ args classification hapax
 
 use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
 
+egen absurd_out=max(absurd_value), by(sourcetype year direction exportsimports)
+drop if absurd_out==1
+
 collapse (sum) value, by(sourcetype year direction exportsimports `classification') 
 bys `classification': drop if _N <=`hapax'
 sort year
 egen prop = pc(value), by(sourcetype year direction exportsimports) prop
 egen HHI = total(prop^2), by(sourcetype year direction exportsimports)
+
+
 
 if "`classification'"=="goods_simpl_classification" local title = "Simplification" 
 if "`classification'"=="sitc18_rev3" local title = "SITC18"
@@ -29,8 +34,8 @@ foreach dir in "La Rochelle" Bordeaux Nantes Marseille Rouen Bayonne Rennes  {
 						1 "`dir' - Imports" 2 "`dir' - Exports" ///
 			)) ///
 			name("`graph_name'", replace) ///
-			yscale(range(0 1)) ///
-			ylabel(0 (0.1) 1)  ///
+			yscale(range(0 0.6)) ///
+			ylabel(0 (0.1) 0.6)  ///
 			title(`"`title'"') ///
 			saving("~/Dropbox/2018 Boston - présentation Charles, Daudin, Girard/graphiques/`graph_name'_`classification'_Hapax`hapax'.gph", replace)
 			
@@ -50,8 +55,8 @@ twoway  (connected  HHI year if (sourcetype=="National toutes directions tous pa
 		1 "National - Imports" 2 "National - Exports" ///
 		)) ///
 		name("National", replace) ///
-		yscale(range(0 1)) ///
-		ylabel(0 (0.1) 1)  ///
+		yscale(range(0 0.6)) ///
+		ylabel(0 (0.1) 0.6)  ///
 		title(`"`title'"') ///
 		saving("~/Dropbox/2018 Boston - présentation Charles, Daudin, Girard/graphiques/National_`classification'_Hapax`hapax'.gph", replace)
 		graph export "~/Dropbox/2018 Boston - présentation Charles, Daudin, Girard/graphiques/National_`classification'_Hapax`hapax'.pdf", replace
