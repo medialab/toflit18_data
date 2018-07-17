@@ -1,7 +1,22 @@
+ 
+ global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+ global dirgit "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT"
+ 
+
+
+
+
+
+
+
+
+
+
+
  clear all
  set maxvar 32767
  set matsize 11000
- use "/Users/Matthias/Données Stata/bdd courante.dta", clear
+ use "$dir/Données Stata/bdd courante.dta", clear
  drop if sourcetype=="1792-both semester"
  drop if sourcetype=="1792-first semester" 
  drop if sourcetype=="Colonies"
@@ -37,7 +52,7 @@
  gen résidu_élevé = 1 if résidu<-7
  
  merge 1:m year simplification_classification grouping_classification exportsimports using ///
- "/Users/Matthias/Données Stata/bdd courante.dta"
+					"$dir/Données Stata/bdd courante.dta"
  keep if résidu_élevé==1
  drop if résiduImp>=-7 & exportsimports=="Imports"
  drop if résiduExp>=-7 & exportsimports=="Exports"
@@ -46,7 +61,7 @@
  keep numrodeligne sourcepath exportsimports year sheet marchandises pays ///
  résiduImp résiduExp value quantit total
  
- export delimited using "/Users/Matthias/Données Stata/probleme_résidu.csv", replace
+ export delimited using "$dir/Travail sur les points aberrants/probleme_valeurs.csv", replace
  
  * Essayer en ne gardant que les résidus négatifs <-5 par exemple
  
