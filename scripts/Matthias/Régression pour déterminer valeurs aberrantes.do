@@ -1,3 +1,10 @@
+
+**Ne marche pas bien. Les classifications sont trop étroite (le sucre vers le Nord n'existe qu'à partir de 1785
+**Il faut mieux choisir les sources
+**Et ne pas partir de goods_simpl_classification (ou alors mettre barre pour éliminer les noms simplifiés plus haute qu'à 10
+
+
+
  
  global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
  global dirgit "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT"
@@ -30,6 +37,8 @@
  drop if year>1787 & year<1788
  drop if year==1805.75
  
+ *keep if grouping_classification=="Nord" & goods_simpl_classification=="sucre"
+ *tab year
  
  regress ln_somme_value i.goods_simpl_classification_num i.year i.grouping_classification_num if exportsimports=="Imports"
  predict ln_somme_value_predImp if e(sample)
@@ -46,6 +55,8 @@
  * drop if résiduExp==.
  * count if abs(résiduExp)>8
  gen somme_value_predExp=exp(ln_somme_value_predExp)
+ 
+*blif
  
  gen résidu=résiduExp
  replace résidu=résiduImp if exportsimports=="Imports"
