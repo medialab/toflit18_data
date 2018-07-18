@@ -1,5 +1,6 @@
 
-**Ne marche pas bien. Les classifications sont trop étroite (le sucre vers le Nord n'existe qu'à partir de 1785
+**Ne marche pas bien. Les classifications sont trop étroite (le sucre vers le Nord n'existe qu'à partir de 1785 et les faibles flux de la révolution et de l'empire flaguent
+**les hauts flus de 1788
 **Il faut mieux choisir les sources
 **Et ne pas partir de goods_simpl_classification (ou alors mettre barre pour éliminer les noms simplifiés plus haute qu'à 10
 
