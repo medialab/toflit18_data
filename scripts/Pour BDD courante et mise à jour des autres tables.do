@@ -1,6 +1,6 @@
 
 
- version 14.0
+ version 15.1
 
  
 **pour mettre les bases dans stata + mettre à jour les .csv
@@ -552,6 +552,7 @@ foreach i of num 1797(1)1805 {
 
 replace yearbis="1805.75" if yearbis== "An 14 & 1806"
 replace yearbis="1787.20" if yearbis== "10 mars-31 décembre 1787"
+replace yearbis="1714" if strmatch(yearbis,"*1714")==1
 
 generate yearnum=real(yearbis)
 drop yearbis
@@ -618,7 +619,6 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 
 sort sourcetype direction year exportsimports numrodeligne 
 order numrodeligne sourcetype year direction pays goods_ortho_classification exportsimports marchandises partners_ortho_classification value quantit quantity_unit quantity_unit_ortho prix_unitaire
-drop if year==.
 
 save "$dir/Données Stata/bdd courante", replace
 
