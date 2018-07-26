@@ -535,6 +535,14 @@ foreach file in bdd_marchandises_sitc bdd_marchandises_edentreaty ///
 	drop nbr_occure* _merge
 }
 
+
+foreach file in bdd_marchandises_sitc_FR bdd_marchandises_sitc_EN {
+
+	merge m:1 sitc_classification using "`file'.dta"
+	drop if _merge==2
+	drop _merge
+}
+
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
