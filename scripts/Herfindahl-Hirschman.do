@@ -118,15 +118,15 @@ if "`type'"=="cross" {
 
 end
 
-graph_HHI goods_simpl_classification 0 cross
-graph_HHI sitc_classification 0 cross
+*graph_HHI goods_simpl_classification 0 cross
+*graph_HHI sitc_classification 0 cross
 
-/*
-graph_HHI marchandises 0 temp
-graph_HHI goods_simpl_classification 0 temp
-graph_HHI goods_ortho_classification 0 temp
+
+*graph_HHI marchandises 0 temp
+*graph_HHI goods_simpl_classification 0 temp
+*graph_HHI goods_ortho_classification 0 temp
 graph_HHI sitc_classification 0 temp
 
-graph_HHI goods_simpl_classification 1 temp
-graph_HHI goods_simpl_classification 2 temp
+*graph_HHI goods_simpl_classification 1 temp
+*graph_HHI goods_simpl_classification 2 temp
 
