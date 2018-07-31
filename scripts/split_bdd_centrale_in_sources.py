@@ -34,6 +34,11 @@ with open("../base/bdd_centrale.csv") as bdd_centrale:
 	data = sorted(data, key=lambda e:e[3])
 	csvreport=[["sourcepath","nb line bdd_centrale","nb line source","columns removed"]]
 	for k,g in itertools.groupby(data, key=lambda e:e[3]):
+		if k=="":
+			print "sourcefilename IS empty ARRRG"
+			for l in g:
+				print l
+		print "source filename: %s"%(k)
 		empty_columns=[]
 		nb_lines_source=None
 		nb_lines_bdd_centrale=None
