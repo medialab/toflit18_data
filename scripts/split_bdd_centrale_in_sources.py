@@ -56,7 +56,7 @@ with open("../base/bdd_centrale.csv") as bdd_centrale:
 			source_data=sorted(source_data,key=multiple_key_sort)
 
 		## let's remove empty columns
-		columns_index_to_remove=headers_bdd_centrale.index(h) for h in ['computed_value','replace_computed_up','value_as_reported' ]
+		columns_index_to_remove= [headers_bdd_centrale.index(h) for h in ['computed_value','replace_computed_up','value_as_reported']]
 		for i in range(len(source_data[0])):
 			if len([_[i] for _ in source_data if _[i]])==0:
 				columns_index_to_remove.append(i)
