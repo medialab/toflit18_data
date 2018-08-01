@@ -64,6 +64,9 @@ with open("../base/bdd_centrale.csv") as bdd_centrale:
 			empty_columns.append(headers_bdd_centrale[i])
 			if VERBOSE:
 				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
+#Pour garder toutes les colonnes ?
+		columns_index_to_remove= []
+
 
 		try :
 			with open(os.path.join("..","sources", k),"r") as s:
