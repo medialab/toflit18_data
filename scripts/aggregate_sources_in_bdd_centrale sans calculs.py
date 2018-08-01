@@ -94,7 +94,7 @@ directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 
 sources_aggregation=[]
-ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks","unverified"]
+ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","prix_unitaire","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","probleme","remarks","unverified","doubleaccount"]
 headers=[]
 
 # First we need to read the headers
@@ -112,9 +112,9 @@ headers=set(headers)
 headers=[h for h in  headers if h not in ordered_headers]
 headers=ordered_headers+headers
 
-for extra_header in ["value_as_reported","computed_value","replace_computed_up"]:
-    if extra_header not in headers:
-        headers+=[extra_header]
+#for extra_header in ["value_as_reported","computed_value","replace_computed_up"]:
+#    if extra_header not in headers:
+#        headers+=[extra_header]
 
 # Then we actually read and write the lines
 with open(output_filename,"w") as output_file:
