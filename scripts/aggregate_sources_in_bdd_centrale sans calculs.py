@@ -94,7 +94,7 @@ directory="../sources"
 black_list=["Divers/AN/F_12_1835"]
 
 sources_aggregation=[]
-ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","quantit","origine","quantity_unit","prix_unitaire","value","total","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","probleme","remarks","unverified","doubleaccount","Droits totaux indiqués","Droits unitaires","remarks pour les droits"]
+ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","quantit","origine","quantity_unit","prix_unitaire","value","total","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","probleme","remarks","unverified","doubleaccount"]
 headers=[]
 
 # First we need to read the headers
