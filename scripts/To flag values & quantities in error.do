@@ -1,8 +1,12 @@
 
 use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
 
-capture gen absurd_value=0
-capture gen absurd_quantity=0
+
+capture drop absurd_value
+capture drop absurd_quantity
+
+gen absurd_value=0
+gen absurd_quantity=0
 
 
 *egen prop = pc(value), by(sourcetype year direction exportsimports) prop
@@ -29,11 +33,23 @@ replace absurd_value=1 if direction=="Bordeaux" & year==1766 & exportsimports=="
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
 			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (goods_simpl_classification == "café")
+			& (hamburg_classification == "Café")
 			
 replace absurd_quantity=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
 			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (goods_simpl_classification == "café")
+			& (hamburg_classification == "Café")
+
+
+replace absurd_value=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
+			& (partners_simpl_classification =="Îles") ///
+			& (hamburg_classification == "Café")
+			
+replace absurd_quantity=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
+			& (partners_simpl_classification =="Îles") ///
+			& (hamburg_classification == "Café")
+
+			
+blif		
 			
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
