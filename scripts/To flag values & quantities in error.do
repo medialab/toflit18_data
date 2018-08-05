@@ -47,9 +47,7 @@ replace absurd_value=1 if direction=="" & year==1771 & exportsimports=="Imports"
 replace absurd_quantity=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
 			& (partners_simpl_classification =="Îles") ///
 			& (hamburg_classification == "Café")
-
-			
-blif		
+		
 			
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
