@@ -25,7 +25,7 @@ foreach file in classification_countries_orthographic_normalization classificati
 */               classification_marchandises_orthographic_normalization classification_marchandises_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_marchandises_edentreaty classification_marchandises_canada /*
 */				 classification_marchandises_medicinales classification_marchandises_hamburg classification_marchandises_grains /*
-*/ 				 classification_marchandises_sitc  classification_marchandises_coffee /*
+*/ 				 classification_marchandises_sitc  classification_marchandises_coffee classification_marchandises_porcelaine /*
 */				 bdd_directions classification_marchandises_sitc_FR classification_marchandises_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_marchandises_coton	classification_marchandises_ulrich {
@@ -444,7 +444,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_marchandises_simpli
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton ulrich coffee {
+		*/ grains  coton ulrich coffee porcelaine {
 
 	use "classification_marchandises_`file_on_simp'.dta", clear
 	bys goods_simpl_classification : drop if _n!=1
@@ -528,9 +528,9 @@ drop if _merge==2
 drop nbr_occure* _merge
 
 foreach file in classification_marchandises_sitc classification_marchandises_edentreaty ///
-			classification_marchandises_canada classification_marchandises_medicinales classification_marchandises_hamburg ///
-			classification_marchandises_grains  classification_marchandises_coton classification_marchandises_ulrich ///
-			 classification_marchandises_coffee {
+				classification_marchandises_canada classification_marchandises_medicinales classification_marchandises_hamburg ///
+				classification_marchandises_grains  classification_marchandises_coton classification_marchandises_ulrich ///
+				classification_marchandises_coffee classification_marchandises_porcelaine {
 
 	merge m:1 goods_simpl_classification using "`file'.dta"
 	drop if _merge==2
