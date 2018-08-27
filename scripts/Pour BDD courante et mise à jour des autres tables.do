@@ -153,12 +153,18 @@ drop if value==0 & quantit==. & prix_unitaire==. /*Dans tous les cas regardés l
 drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_unitaire==0) /*idem*/
 replace value=. if (value==0 & quantit!=. & quantit!=0)
 
+**Je mets des majuscules à toutes les "marchandises" de la source
+replace marchandises = upper(substr(marchandises,1,1))+substr(marchandises,2,.)
 
 
 ** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
 * Création de value_as_reported, value = unit_price*quantit...
 
 capture drop v24
+
+
+
+
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
 
