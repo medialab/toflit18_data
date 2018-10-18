@@ -91,7 +91,7 @@ def add_fields_to_line(d):
 
 output_filename="../base/bdd_centrale.csv"
 directory="../sources"
-black_list=["Divers/AN/F_12_1835"]
+black_list=["Divers/AN/F_12_1835", "Local - out"]
 
 sources_aggregation=[]
 ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks","unverified"]
