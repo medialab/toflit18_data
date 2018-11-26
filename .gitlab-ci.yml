@@ -1,0 +1,82 @@
+image: docker:stable
+
+stages:
+  - build_bdd_centrale
+  - build_neo4j_CSV
+  - build_neo4j_database
+  - build_docker_image
+  - prepare_neo4j_database
+
+variables:
+  GIT_DEPTH: "1"
+  DOCKER_IMAGE_NAME: "$CI_REGISTRY_IMAGE/neo4j_toflit18:$CI_COMMIT_REF_SLUG"
+
+build_bdd_centrale:
+  stage: build_bdd_centrale
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  image: python:2.7-alpine3.7
+  script:
+    - pip install --quiet csvkit
+    - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
+  only:
+    - staging
+    - prod
+
+neo4j_CSV:
+  stage: build_neo4j_CSV
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  dependencies:
+    - build_bdd_centrale
+  image: scpomedialab/toflit18-api:staging 
+  script:
+    - mkdir -p neo4j_import
+    - npm --prefix /toflit18 run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
+  only:
+    - staging
+    - prod
+
+neo4j_database:
+  stage: build_neo4j_database
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  dependencies:
+    - neo4j_CSV
+  image: neo4j:3.1.4 
+  script:
+    - mkdir -p neo4j_database
+    - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
+    - mv /var/lib/neo4j/data/databases/graph.db $CI_PROJECT_DIR/neo4j_database/
+  only:
+    - staging
+    - prod
+
+build_docker_image:
+  services:
+    - name: docker:dind
+      command:
+        - /bin/sh
+        - -c
+        - |
+          echo "$CI_SERVER_TLS_CA_FILE" > /etc/ssl/certs/ca-cert-gitlab.sciences-po.fr.crt || exit
+          dockerd-entrypoint.sh || exit    
+  stage: build_docker_image
+  dependencies:
+    - neo4j_database
+  before_script:
+    - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=4096M" --env "NEO4J_dbms_memory_pagecache_size=4096M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.1.4
+  script:
+    - docker run --volume=${CI_PROJECT_DIR}:/toflit18/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:staging -c "npm run quantities -- -- --path /toflit18/toflit18_data"
+    - docker run --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:staging -c "npm run indices"
+    - docker build -t $DOCKER_IMAGE_NAME -f Dockerfile .
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker push $DOCKER_IMAGE_NAME
+  after_script:
+    - docker stop neo4j && docker rm neo4j
+  only:
+    - staging
+    - prod
