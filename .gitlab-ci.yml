@@ -5,7 +5,7 @@ stages:
   - build_neo4j_CSV
   - build_neo4j_database
   - build_docker_image
-  - prepare_neo4j_database
+  - deploy_neo4j_image
 
 variables:
   GIT_DEPTH: "1"
@@ -68,15 +68,27 @@ build_docker_image:
   dependencies:
     - neo4j_database
   before_script:
-    - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=4096M" --env "NEO4J_dbms_memory_pagecache_size=4096M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.1.4
+    - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.1.4
   script:
     - docker run --volume=${CI_PROJECT_DIR}:/toflit18/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:staging -c "npm run quantities -- -- --path /toflit18/toflit18_data"
     - docker run --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:staging -c "npm run indices"
+    - docker stop neo4j
     - docker build -t $DOCKER_IMAGE_NAME -f Dockerfile .
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker push $DOCKER_IMAGE_NAME
   after_script:
-    - docker stop neo4j && docker rm neo4j
+    - docker rm neo4j
   only:
     - staging
     - prod
+
+deploy_staging:
+  stage: deploy_neo4j_image
+  image: cdrx/rancher-gitlab-deploy
+  script:
+    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_STAGING_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
+  environment:
+    name: staging
+    url: $STAGING_BASEURL
+  only:
+    - staging
