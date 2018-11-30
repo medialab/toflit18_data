@@ -84,6 +84,9 @@ build_docker_image:
     - prod
 
 deploy_staging:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
   stage: deploy_neo4j_image
   image: cdrx/rancher-gitlab-deploy
   script:
@@ -95,6 +98,9 @@ deploy_staging:
     - staging
 
 deploy_production:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
   stage: deploy_neo4j_image
   image: cdrx/rancher-gitlab-deploy
   script:
