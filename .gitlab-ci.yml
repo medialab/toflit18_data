@@ -102,4 +102,4 @@ deploy_production:
     name: production
     url: $PRODUCTION_BASEURL
   only:
-    - production
+    - prod
