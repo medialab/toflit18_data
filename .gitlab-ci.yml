@@ -58,12 +58,6 @@ neo4j_database:
 build_docker_image:
   services:
     - name: docker:dind
-      command:
-        - /bin/sh
-        - -c
-        - |
-          echo "$CI_SERVER_TLS_CA_FILE" > /etc/ssl/certs/ca-cert-gitlab.sciences-po.fr.crt || exit
-          dockerd-entrypoint.sh || exit    
   stage: build_docker_image
   dependencies:
     - neo4j_database
