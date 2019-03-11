@@ -22,6 +22,7 @@ cd "$dir"
 
 foreach file in classification_countries_orthographic_normalization classification_countries_simplification classification_countries_grouping /*
 */				 classification_countries_obrien classification_countries_wars /*
+*/				 classification_countries_sourcename /*
 */               classification_marchandises_orthographic_normalization classification_marchandises_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_marchandises_edentreaty classification_marchandises_canada /*
 */				 classification_marchandises_medicinales classification_marchandises_hamburg classification_marchandises_grains /*
@@ -393,6 +394,25 @@ sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_countries_wars.csv", replace
 
+** 
+use "classification_countries_simplification.dta", clear
+drop note
+merge m:1 partners_simpl_classification using "classification_countries_sourcename.dta"
+
+drop if _merge==2
+drop _merge
+
+capture drop nbr_occurences_sourcename
+bys sourcename_classification : egen nbr_occurences_sourcename=total(nbr_occurences_ortho)
+
+bys partners_simpl_classification : keep if _n==1
+keep partners_simpl_classification sourcename_classification nbr_occurences_simpl nbr_occurences_sourcename note
+save "classification_countries_sourcename.dta", replace
+generate sortkey = ustrsortkey(partners_simpl_classification, "fr")
+sort sortkey
+drop sortkey
+export delimited "$dir/toflit18_data_GIT/base/classification_countries_sourcename.csv", replace
+
 
 
 
@@ -517,7 +537,7 @@ drop if _merge==2
 drop note-_merge
 
 foreach file in classification_countries_grouping classification_countries_obrien ///
-			classification_countries_wars {
+			classification_countries_sourcename classification_countries_wars {
 
 	merge m:1 partners_simpl_classification using "`file'.dta"
 	drop if _merge==2
