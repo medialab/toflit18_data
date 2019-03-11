@@ -26,7 +26,8 @@ foreach file in classification_countries_orthographic_normalization classificati
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_marchandises_edentreaty classification_marchandises_canada /*
 */				 classification_marchandises_medicinales classification_marchandises_hamburg classification_marchandises_grains /*
 */ 				 classification_marchandises_sitc  classification_marchandises_coffee classification_marchandises_porcelaine /*
-*/				 bdd_directions classification_marchandises_sitc_FR classification_marchandises_sitc_EN /* 
+*/				 bdd_directions classification_marchandises_sitc_FR classification_marchandises_sitc_EN /*
+*/				 classification_marchandises_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_marchandises_coton	classification_marchandises_ulrich /*
 */ 				 classification_marchandises_v_glass_beads	{
@@ -546,7 +547,7 @@ foreach file in classification_marchandises_sitc classification_marchandises_ede
 }
 
 
-foreach file in classification_marchandises_sitc_FR classification_marchandises_sitc_EN {
+foreach file in classification_marchandises_sitc_FR classification_marchandises_sitc_EN classification_marchandises_sitc_simplEN {
 
 	merge m:1 sitc_classification using "`file'.dta"
 	drop if _merge==2
