@@ -22,6 +22,26 @@ year_re = re.compile('.*?(\d{4}).*')
 
 slugify = lambda s : s.strip().replace(' ','_').replace('/','_').replace('+','_')
 
+# load country classification made for generate source name
+COUNTRIES_CLASSIF = {}
+
+sourceclassif = {}
+with open('../base/classification_countries_sourcename.csv', 'r', encoding='utf8') as f:
+    ccs = DictReader(f)
+    for l in ccs :
+        sourceclassif[l['partners_simpl_classificationifi']]= l['sourcename_classification']
+simpl = {}
+with open('../base/classification_countries_simplification.csv', 'r', encoding='utf8') as f:
+    ccs = DictReader(f)
+    for l in ccs :
+        simpl[l['partners_ortho_classification']] = sourceclassif[l['partners_simpl_classificationifi']]
+
+with open('../base/classification_countries_orthographic_normalization.csv', 'r', encoding='utf8') as orthof:
+    orthoc = DictReader(orthof)
+    for ortho in orthoc:
+        COUNTRIES_CLASSIF[ortho['pays']]=simpl[ortho['partners_ortho_classification']] 
+
+
 def new_source_name(flow):
     new_name = []
     source = correct_source(flow)
@@ -35,7 +55,7 @@ def new_source_name(flow):
                 flow['source'] != 'AN F12 250' and \
                 'AN F12 1667' not in flow['source']) or \
                 'Fonds Gournay' in flow['source']:
-            new_name.append(slugify(flow['pays']))
+            new_name.append(slugify(COUNTRIES_CLASSIF[flow['pays']]))
         elif 'direction' in flow and flow['direction'].strip() != '':
             new_name.append(slugify(flow['direction']))
     
