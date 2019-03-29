@@ -22,6 +22,11 @@ year_re = re.compile('.*?(\d{4}).*')
 
 slugify = lambda s : s.strip().replace(' ','_').replace('/','_').replace('+','_')
 
+### virer des noms des pays accent et apostrophe
+### virer les virgules et accents des noms de sources
+### réécriture : numéro de lignes
+### 
+
 # load country classification made for generate source name
 COUNTRIES_CLASSIF = {}
 
@@ -60,7 +65,7 @@ def new_source_name(flow):
             new_name.append(slugify(flow['direction']))
     
     new_name.append(flow['exportsimports'])
-    if flow['sourcetype'] != "Résumé Général" and flow['source'] != "WEBER Commerce de la compagnie des Indes 1904" :
+    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "Romano1957+Velde+IIHS-128"]:
         try:
             # todo calendrier républicain
             new_name.append(year_re.match(flow['year']).group(1))
@@ -113,7 +118,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
         print(headers_bdd_centrale)
     # sort order
     # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
-    multiple_key_sort = lambda k:(k['sourcetype'],k['year'],k['direction'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']),k['marchandises'],k['pays'])
+    multiple_key_sort = lambda k:(k['sourcetype'],k['year'],k['direction'],k['exportsimports'],cast_deligne(k['numrodeligne']),k['marchandises'],k['pays'])
     # year / partenaire / exportsimports / numéro de ligne
     multiple_key_sort_nationale_par_direction = lambda k:(k['year'],k['pays'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']))
     # year / exportsimports / numéro de ligne
