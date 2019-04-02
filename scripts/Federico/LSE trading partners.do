@@ -193,13 +193,13 @@ replace geography=0 if sourcetype_grains=="National"
 drop if year==.
 keep if sourcetype_grains=="National"
 gen period="empty"
-replace period="early" if year<1756
-replace period="sevenywar" if year>1755 & year<1764
-replace period="liberalization" if year>1763 & year<1776
-replace period="americanwar" if year>1775 & year<1784
-replace period="crisis" if year>1783 & year<1790
-replace period="revolutionnapoleon" if year>1789 & year<1814
-replace period="restoration" if year>1813 & year<1823
+replace period="1early" if year<1756
+replace period="2sevenywar" if year>1755 & year<1764
+replace period="3liberalization" if year>1763 & year<1776
+replace period="4americanwar" if year>1775 & year<1784
+replace period="5crisis" if year>1783 & year<1790
+replace period="6revolutionnapoleon" if year>1789 & year<1814
+replace period="7restoration" if year>1813 & year<1823
 drop if year==1823
 
 
