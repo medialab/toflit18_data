@@ -1,11 +1,6 @@
 global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
 cd "$dir"
 capture log using "`c(current_time)' `c(current_date)'"
-
-
- 
-
-***GRAIN TRADE******************************************************************
 use "Données Stata/bdd courante.dta", clear
 
 *** dummy importexport
@@ -61,85 +56,84 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping	 pays_simplification	
-quietly by year importexport value_inclusive geography grains_num pays_grouping	 pays_simplification	:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification
+quietly by year importexport value_inclusive geography grains_num pays_grouping marchandises_simplification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
 replace sourcetype_grains="National" if sourcetype=="Tableau des quantités"
 replace sourcetype_grains="National" if sourcetype=="Objet Général"
 replace sourcetype_grains="National" if sourcetype=="National toutes directions tous partenaires"
-replace sourcetype_grains="National" if sourcetype=="National toutes directions partenaires manquants"
-replace sourcetype_grains="National" if sourcetype=="National toutes directions partenaires manquants"
-replace sourcetype_grains="National" if sourcetype=="National partenaires manquants"
-replace sourcetype_grains="National" if sourcetype=="National partenaires Manquants"
-
-
-
-drop if year==.
-
-drop if sourcetype_grains!="Local" & sourcetype_grains!="National"
 
 drop if grains=="Pas grain (0)"
 drop if missing(grains)
 
 
+*drop local without direction and strange things from the 1780s (mainly colonies for 1789)
+keep if  sourcetype_grains=="National" | sourcetype_grains=="Local" 
+*force Objet général entries with a geography into Objet Général, assuming they are simply late coming data (CHECK THIS WITH GUILLAUME!)
+replace geography=0 if sourcetype_grains=="National"
 
-****resonable method
-egen panelid=group(pays_grouping	 grains year importexport), label
-bys panelid sourcetype_grains: egen totalv=total(value_inclusive)
-collapse (mean) totalv, by (panelid sourcetype_grains year importexport)
-reshape wide totalv, i(sourcetype_grains year panelid) j(importexport)
-
-reshape wide totalv0 totalv1, i(year panelid) j(sourcetype_grains) string
-gen deltaimp= totalv0Local-totalv0National
-gen deltaexp= totalv1Local-totalv1National
-replace deltaexp=0 if deltaexp==.
-replace deltaimp=0 if deltaimp==.
-gen correctionimp=0
-replace correctionimp=deltaimp if deltaimp>0
-gen correctionexp=0
-replace correctionexp=deltaexp if deltaexp>0
-
-gen newimp=correctionimp+totalv0National
-gen newexp=correctionexp+totalv1National
-
-replace newimp=0 if newimp==. & newexp!=.
-replace newexp=0 if newexp==. & newimp!=.
-
-collapse (sum) newimp newexp, by(year)
-replace newimp=. if newimp==0 & newexp==0
-replace newexp=. if newexp==0 & newimp==.
-
-tsset year
-tsfill, full
-
-twoway (line newimp year) (line newexp year)
+drop if year==.
+drop if geography==0 & year==1750
 
 
-save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\belfast_natgtrade_corrected.dta", replace
+
+*** aggregate by: country, importexport, year
+collapse (sum) value_inclusive, by (year geography importexport pays_grouping sourcetype_grains)
+
+*** reshape
+*reshape wide value_inclusive total_trade country_ratio, i(year pays_grouping sourcetype_encode) j(importexport)
+reshape wide value_inclusive, i(year pays_grouping geography sourcetype_grains) j(importexport)
+rename value_inclusive0 import
+rename value_inclusive1 export
+replace pays_grouping="unknown" if pays_grouping=="????"
+replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
+replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
+replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
+replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+
+***calculate nxport
+replace export=0 if export==. & import!=.
+replace import=0 if import==. & export!=.
+gen nxport=export-import
+
+******************************************AVERAGES********************
+
+gen period="empty"
+replace period="early" if year<1756
+replace period="sevenywar" if year>1755 & year<1764
+replace period="liberalization" if year>1763 & year<1776
+replace period="americanwar" if year>1775 & year<1784
+replace period="crisis" if year>1783 & year<1790
+replace period="revolutionnapoleon" if year>1789 & year<1814
+replace period="restoration" if year>1813 & year<1823
+drop if year==1823
 
 
-***brutal method
-*collapse (sum) value_inclusive, by(importexport sourcetype_grains year)
 
-*reshape wide value_inclusive, i(sourcetype_grains year) j(importexport)
+*** compute average nxport by period
+bys period geography sourcetype_grains pays_grouping : egen avnxport = mean(nxport)
+*** difference from average as % of average (SO MANY DOUBTS, given the period is so short, the mean could be very close to it's extreme values!)
+generate diff=nxport-avnxport
+generate diff_percent=diff*100/abs(avnxport)
 
-*reshape wide value_inclusive0 value_inclusive1, i(year) j(sourcetype_grains) string
 
-*gen deltaimp= value_inclusive0Local-value_inclusive0National
-*gen deltaexp= value_inclusive1Local-value_inclusive1National
-*replace deltaexp=0 if deltaexp==.
-*replace deltaimp=0 if deltaimp==.
-*gen correctionimp=0
-*replace correctionimp=deltaimp if deltaimp>0
-*gen correctionexp=0
-*replace correctionexp=deltaexp if deltaexp>0
+****************************************ALFANI O'GRADA DB**************
+merge m:1 year pays_grouping using "Données Stata/alfaniograda.dta"
 
-*gen newimp=correctionimp+value_inclusive0National
-*gen newexp=correctionexp+value_inclusive1National
+gen differential=famine-france
 
-*replace newimp=0 if newimp==. & newexp!=.
-*replace newexp=0 if newexp==. & newimp!=.
+
+encode pays_grouping, generate(partner) label(pays_grouping)
+
+
+
+anova nxport famine#france#geography#partner
+
+                        
+estimates table, star(.05 .01 .001)
+
+
 
 

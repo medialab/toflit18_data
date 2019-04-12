@@ -31,7 +31,7 @@ replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=
 **destring somehow
 
 encode grains, generate(grains_num) 
-*drop if grains=="Pas grain (0)"
+drop if grains=="Pas grain (0)"
  
 *** corrections
 *replace year=1741 if year==3
@@ -63,43 +63,52 @@ quietly by year importexport value_inclusive geography grains_num pays_grouping 
 
 drop if year==.
 drop if geography==.
-***** compute share of grains on total
+***** examine by series Bayonne, Bordeaux, La Rochelle, Marseille, Nantes, Rennes
 keep if sourcetype=="Local"
 
-bys year geography importexport : egen totaltrade=total(value_inclusive)
-
-generate totgrain1=0
-replace totgrain1=value_inclusive if grains_num!=5
-bys year geography importexport : egen totgrains=total(totgrain1)
-bys year geography importexport : gen share=totgrains/totaltrade*100
+bys grains year geography importexport : egen eachgrain=total(value_inclusive)
+bys year geography importexport : egen totgrain=total(value_inclusive)
 sort year geography importexport
-collapse (mean) share, by (year geography importexport totgrains totaltrade region)
+collapse (mean) totgrain, by (year geography importexport)
 
-
-bys geography importexport : egen gvar=sd(share)
-replace gvar=gvar^2
-collapse (mean) totgrains totaltrade share gvar, by (geography importexport region)
 *create TS
-*reshape wide share totgrains totaltrade gvar, i(geography year) j(importexport) 
-*rename share0 import
-*rename share1 export
-*rename totgrains0 gimport_abs
-*rename totgrains1 gexport_abs
-*rename totaltrade0 timport_abs
-*rename totaltrade1 texport_abs
-*rename gvar0 varimport
-*rename gvar1 varexport
-*xtset geography year
-*tsfill, full
-drop if geography==6
-drop if geography==19
+reshape wide totgrain, i(geography year) j(importexport) 
+rename totgrain0 import
+rename totgrain1 export
+xtset geography year
+tsfill, full
 
+*create variable markets for merge
+decode geography , generate(market)
+*merge with insee codes
+merge n:n market using "Données Stata\insee_codes.dta"
+drop if _merge!=3
 
+drop _merge
+xtset insee year
+tsfill, full
 
+* merge with distances and create port-market couples
+merge m:m insee using "Données Stata\distances_localseries.dta"
+drop if _merge!=3
+drop _merge
+xtset newid year
+tsfill, full
+bysort newid (geography) : replace geography = geography[_n-1] if missing(geography) 
+bysort newid (insee) : replace insee = insee[_n-1] if missing(insee) 
+bysort newid (inseecon) : replace inseecon = inseecon[_n-1] if missing(inseecon) 
+bysort inseecon (nomCon) : replace nomCon = nomCon[_n-1] if nomCon=="" 
+bysort insee (nomSup) : replace nomSup = nomSup[_n-1] if nomSup=="" 
+bysort newid (popCon) : replace popCon = popCon[_n-1] if missing(popCon) 
+bysort newid (popSup) : replace popSup = popSup[_n-1] if missing(popSup)  
+bysort newid (transport) : replace transport=transport[_n-1] if missing(transport) 
+bysort newid (market) : replace market=market[_n-1] if market==""
+bysort year geography (import): replace import=import[_n-1] if missing(import)
+bysort year geography (export): replace export=export[_n-1] if missing(export)
+**merge with prices using price insee through inseecon
+merge m:m inseecon using "Données Stata\french_prices_insee.dta"
+drop if _merge!=3
+drop _merge
 
+sort year geography inseecon
 
-
-
-
-
- 

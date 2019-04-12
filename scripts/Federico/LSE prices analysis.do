@@ -63,7 +63,7 @@ quietly by year importexport value_inclusive geography grains_num pays_grouping 
 
 drop if year==.
 drop if geography==.
-***** compute share of grains on total
+***** compute share of frains on total
 keep if sourcetype=="Local"
 
 bys year geography importexport : egen totaltrade=total(value_inclusive)
@@ -73,33 +73,61 @@ replace totgrain1=value_inclusive if grains_num!=5
 bys year geography importexport : egen totgrains=total(totgrain1)
 bys year geography importexport : gen share=totgrains/totaltrade*100
 sort year geography importexport
-collapse (mean) share, by (year geography importexport totgrains totaltrade region)
+collapse (mean) share, by (year geography importexport totgrains totaltrade)
 
 
-bys geography importexport : egen gvar=sd(share)
-replace gvar=gvar^2
-collapse (mean) totgrains totaltrade share gvar, by (geography importexport region)
 *create TS
-*reshape wide share totgrains totaltrade gvar, i(geography year) j(importexport) 
-*rename share0 import
-*rename share1 export
-*rename totgrains0 gimport_abs
-*rename totgrains1 gexport_abs
-*rename totaltrade0 timport_abs
-*rename totaltrade1 texport_abs
-*rename gvar0 varimport
-*rename gvar1 varexport
-*xtset geography year
-*tsfill, full
-drop if geography==6
-drop if geography==19
+reshape wide share totgrains totaltrade, i(geography year) j(importexport) 
+rename share0 import
+rename share1 export
+rename totgrains0 gimport_abs
+rename totgrains1 gexport_abs
+rename totaltrade0 timport_abs
+rename totaltrade1 texport_abs
+xtset geography year
+tsfill, full
+
+*experimenting with cross-sectional dependence
+reshape wide import export gimport_abs gexport_abs timport_abs texport_abs, i(year) j(geography)
+
+rename import2 import_bayonne
+rename export2 export_bayonne
+rename import4 import_bordeaux
+rename export4 export_bordeaux
+rename import6 import_caen
+rename export6 export_caen
+rename import15 import_larochelle
+rename export15 export_larochelle
+rename import19 import_lyon
+rename export19 export_lyon
+rename import20 import_marseille
+rename export20 export_marseille
+rename import21 import_montpellier
+rename export21 export_montpellier
+rename import22 import_nantes
+rename export22 export_nantes
+rename import24 import_rennes
+rename export24 export_rennes
+rename import25 import_rouen
+rename export25 export_rouen
 
 
+tsset year
+gen period="empty"
+replace period="1early" if year<1756
+replace period="2sevenywar" if year>1755 & year<1764
+replace period="3liberalization" if year>1763 & year<1776
+replace period="4americanwar" if year>1775 & year<1784
+replace period="5crisis" if year>1783 & year<1790
+replace period="6revolutionnapoleon" if year>1789 & year<1814
+replace period="7restoration" if year>1813 & year<1823
+drop if year==1823
 
+twoway (tsline import_bayonne, lwidth(medthick) cmissing(n)) (tsline import_bordeaux, lwidth(medthick) cmissing(n)) (tsline import_larochelle, lwidth(medthick) cmissing(n)) (tsline import_marseille, lwidth(medthick) cmissing(n)) (tsline import_nantes, lwidth(medthick) cmissing(n)) (tsline import_rennes, lwidth(medthick) cmissing(n)), ttitle(year) tlabel(#15, grid) title("share of grains in total imports")
 
+bys period : pwcorr import_bordeaux import_marseille import_larochelle import_nantes import_rennes, obs star(.01)
 
-
-
+merge 1:1 year using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\french_prices_wide.dta"
 
 
  

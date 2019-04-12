@@ -61,8 +61,8 @@ drop if sourcetype=="Résumé"  & year==1788
 
 
 *adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num pays_grouping	 pays_simplification	
-quietly by year importexport value_inclusive geography grains_num pays_grouping	 pays_simplification	:  gen dup = cond(_N==1,0,_n)
+sort year importexport value_inclusive geography grains_num pays_grouping pays_simplification
+quietly by year importexport value_inclusive geography grains_num pays_grouping pays_simplification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 clonevar sourcetype_grains=sourcetype
 replace sourcetype_grains="National" if sourcetype=="Résumé"
@@ -86,7 +86,7 @@ drop if missing(grains)
 
 
 ****resonable method
-egen panelid=group(pays_grouping	 grains year importexport), label
+egen panelid=group(pays_grouping grains year importexport), label
 bys panelid sourcetype_grains: egen totalv=total(value_inclusive)
 collapse (mean) totalv, by (panelid sourcetype_grains year importexport)
 reshape wide totalv, i(sourcetype_grains year panelid) j(importexport)
@@ -108,38 +108,32 @@ replace newimp=0 if newimp==. & newexp!=.
 replace newexp=0 if newexp==. & newimp!=.
 
 collapse (sum) newimp newexp, by(year)
-replace newimp=. if newimp==0 & newexp==0
-replace newexp=. if newexp==0 & newimp==.
-
-tsset year
-tsfill, full
 
 twoway (line newimp year) (line newexp year)
-
 
 save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\belfast_natgtrade_corrected.dta", replace
 
 
 ***brutal method
-*collapse (sum) value_inclusive, by(importexport sourcetype_grains year)
+collapse (sum) value_inclusive, by(importexport sourcetype_grains year)
 
-*reshape wide value_inclusive, i(sourcetype_grains year) j(importexport)
+reshape wide value_inclusive, i(sourcetype_grains year) j(importexport)
 
-*reshape wide value_inclusive0 value_inclusive1, i(year) j(sourcetype_grains) string
+reshape wide value_inclusive0 value_inclusive1, i(year) j(sourcetype_grains) string
 
-*gen deltaimp= value_inclusive0Local-value_inclusive0National
-*gen deltaexp= value_inclusive1Local-value_inclusive1National
-*replace deltaexp=0 if deltaexp==.
-*replace deltaimp=0 if deltaimp==.
-*gen correctionimp=0
-*replace correctionimp=deltaimp if deltaimp>0
-*gen correctionexp=0
-*replace correctionexp=deltaexp if deltaexp>0
+gen deltaimp= value_inclusive0Local-value_inclusive0National
+gen deltaexp= value_inclusive1Local-value_inclusive1National
+replace deltaexp=0 if deltaexp==.
+replace deltaimp=0 if deltaimp==.
+gen correctionimp=0
+replace correctionimp=deltaimp if deltaimp>0
+gen correctionexp=0
+replace correctionexp=deltaexp if deltaexp>0
 
-*gen newimp=correctionimp+value_inclusive0National
-*gen newexp=correctionexp+value_inclusive1National
+gen newimp=correctionimp+value_inclusive0National
+gen newexp=correctionexp+value_inclusive1National
 
-*replace newimp=0 if newimp==. & newexp!=.
-*replace newexp=0 if newexp==. & newimp!=.
+replace newimp=0 if newimp==. & newexp!=.
+replace newexp=0 if newexp==. & newimp!=.
 
 
