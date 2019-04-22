@@ -8,8 +8,6 @@ args threshold fform
 
 use "$dir/Papier Federico Grains/LSE 2019/local series and distances.dta", clear
 
-drop if transport>=`threshold'
-drop if import==. | export==. | price==.
 
 
 if "`fform'"=="linear" {
@@ -35,8 +33,7 @@ gen ln_import=ln(import)
 gen ln_export=ln(export)
 gen ln_mean_price=ln(mean_price)
 
-reg ln_import ln_mean_price i.geography
-reg ln_export ln_mean_price i.geography
+
 
 reg import ln_mean_price i.geography
 reg export ln_mean_price i.geography
@@ -44,6 +41,16 @@ reg export ln_mean_price i.geography
 bys geography : reg ln_import ln_mean_price
 bys geography : reg ln_export ln_mean_price
 
+reg ln_import ln_mean_price i.geography
+reg ln_export ln_mean_price i.geography
+
+tsset geography year
+
+reg ln_import L.ln_mean_price i.geography
+reg ln_export L.ln_mean_price i.geography
+
+bys geography : reg ln_import L.ln_mean_price
+bys geography : reg ln_export L.ln_mean_price
 
 end
 
