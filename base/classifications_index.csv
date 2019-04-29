@@ -1,0 +1,6 @@
+slug,model,parentSlug,name,author,description
+source,product,,Source,TOFLIT 18,the product names as transcribed from archive volumes
+orthographic,product,source,Orthographic normalization,Pierre Gervais,The orthographic variations of product names are merged
+simplification,product,orthographic,Simplification,Pierre Gervais,Different product names designating the same good are merged
+source,country,,Source,TOFLIT 18,the country names as transcribed from archive volumes
+orthographic,country,source,Orthographic normalization,Pierre Gervais,The orthographic variations of country names are merged
