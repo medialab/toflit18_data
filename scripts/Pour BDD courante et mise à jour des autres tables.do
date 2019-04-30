@@ -33,7 +33,8 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
 */ 				 classification_product_venitian_glass_beads	{
 
-	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
+			clear varname(1) stringcols(_all) case(preserve) 
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -638,20 +639,20 @@ rename yearnum year
  
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  keep if needs_more_details=="1"
- keep exportsimports country_classification direction product_simplification quantity_unit_ortho
- bys exportsimports country_classification direction product_simplification quantity_unit_ortho: keep if _n==1
- merge 1:1 exportsimports country_classification direction product_simplification quantity_unit_ortho ///
+ keep exportsimports country_grouping direction product_simplification quantity_unit_ortho
+ bys exportsimports country_grouping direction product_simplification quantity_unit_ortho: keep if _n==1
+ merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
 	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
 
  drop _merge
- sort quantity_unit_ortho product_simplification exportsimports direction country_classification
+ sort quantity_unit_ortho product_simplification exportsimports direction country_grouping
  save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
  
- merge m:1 exportsimports country_classification direction product_simplification quantity_unit_ortho ///
+ merge m:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
 	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
  
  drop if _merge==2
@@ -675,8 +676,8 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
 sort sourcetype direction year exportsimports numrodeligne 
-order numrodeligne sourcetype year direction pays product_orthographic exportsimports ///
-		marchandises country_orthographic  value quantit quantity_unit quantity_unit_ortho prix_unitaire
+order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
+		marchandises product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
 
 save "$dir/Données Stata/bdd courante", replace
 
