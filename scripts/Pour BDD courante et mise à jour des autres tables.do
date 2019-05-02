@@ -735,8 +735,15 @@ bys marchandises : keep if _n==1
 replace sourceSUND=1 if _merge==3
 keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr
 
+merge 1:m marchandises using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
+bys marchandises : keep if _n==1
+generate sourceNAVIGO=0
+generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5
+replace sourceNAVIGO=1 if _merge==3
+keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr
+
 sort marchandises
-gen nbr_source=sourceBEL+sourceFR+sourceSUND
+gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
 
 drop if nbr_source==0
 
