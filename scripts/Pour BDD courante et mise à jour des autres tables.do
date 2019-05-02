@@ -197,6 +197,7 @@ replace source_bdc=1 if _merge==3 | _merge==1
 replace source_bdc=0 if _merge==2
 
 
+
 foreach variable of var quantity_unit quantity_unit_ortho  {
 	capture drop nbr_bdc_`variable'
 	generate nbr_bdc_`variable'=0
@@ -215,7 +216,8 @@ export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Orthographique
 use "Units_Normalisation_Orthographique.dta", clear
 merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
 keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
-source_hambourg missing needs_more_details source_bdc _merge 
+source_hambourg missing needs_more_details source_bdc _merge
+
 foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
 	capture drop nbr_bdc_`variable'
 	generate nbr_bdc_`variable'=0
@@ -224,6 +226,13 @@ foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
 }
 
 drop _merge
+
+egen source_bdc_new = max(source_bdc), by(quantity_unit_ortho)
+drop source_bdc
+rename source_bdc_new source_bdc
+order quantity_unit_ortho source_bdc nbr_bdc_quantity_unit_ortho quantity_unit_ajustees nbr_bdc_quantity_unit_ajustees ///
+	u_conv q_conv incertitude_unit source_hambourg missing needs_more_details  remarque_unit
+
 bys quantity_unit_ortho : keep if _n==1
 save "Units_Normalisation_Metrique1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
