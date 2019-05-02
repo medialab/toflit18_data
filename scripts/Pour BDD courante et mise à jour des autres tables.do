@@ -31,7 +31,7 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 classification_product_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
-*/ 				 classification_product_venitian_glass_beads	{
+*/ 				 classification_product_v_glass_beads	{
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -476,24 +476,18 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_simplificat
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton ulrich coffee porcelaine venitian_glass_beads {
+		*/ grains  coton ulrich coffee porcelaine v_glass_beads {
 
 	use "classification_product_`file_on_simp'.dta", clear
 	bys simplification : drop if _n!=1
 	save "classification_product_`file_on_simp'.dta", replace
 
 	use "classification_product_simplification.dta", clear
-	merge m:1 simplification using "classification_product_`file_on_simp'.dta"
+	merge m:1 simplification using "classification_product_`file_on_simp'.dta", force
 	
-	
-	if "`file_on_simp'" != "venitian_glass_beads" {
-		capture drop nbr_occurences_`file_on_simp'
-		bys `file_on_simp' : egen nbr_occurences_`file_on_simp'=total(nbr_occurences_ortho)
-	}
-	if "`file_on_simp'" == "venitian_glass_beads" {
-		capture drop nbr_occurences_v_glass_beads
-		bys venitian_glass_beads : egen nbr_occurences_v_glass_beads=total(nbr_occurences_ortho)
-	}
+
+	capture drop nbr_occurences_`file_on_simp'
+	bys `file_on_simp' : egen nbr_occurences_`file_on_simp'=total(nbr_occurences_ortho)
 
 
 	drop orthographic nbr_occurences_ortho
@@ -580,7 +574,7 @@ foreach class_name in sitc edentreaty ///
 				canada medicinales hamburg ///
 				grains  coton ulrich ///
 				coffee porcelaine ///
-				venitian_glass_beads {
+				v_glass_beads {
 
 	merge m:1 simplification using "classification_product_`class_name'.dta"
 	drop if _merge==2
@@ -677,7 +671,7 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 
 sort sourcetype direction year exportsimports numrodeligne 
 order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
-		marchandises product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
+		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
 
 save "$dir/Données Stata/bdd courante", replace
 
@@ -701,6 +695,7 @@ export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce Inte
 
 
 use "$dir/Données Stata/classification_product_orthographic.dta", replace
+rename source marchandises
 keep marchandises
 merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
 generate sourceBEL=0
@@ -738,7 +733,7 @@ keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourc
 merge 1:m marchandises using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
 bys marchandises : keep if _n==1
 generate sourceNAVIGO=0
-generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5
+generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
 replace sourceNAVIGO=1 if _merge==3
 keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr
 
@@ -766,11 +761,11 @@ merge m:1 simplification using "$dir/Données Stata/classification_product_sitc.
 drop if _merge==2
 drop _merge
 
-merge m:1 sitc_classification using "$dir/Données Stata/classification_product_sitc_FR.dta"
+merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 drop if _merge==2
 drop _merge
 
-merge m:1 sitc_classification using "$dir/Données Stata/classification_product_sitc_EN.dta"
+merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_EN.dta"
 drop if _merge==2
 drop _merge
 
