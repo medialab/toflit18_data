@@ -107,6 +107,9 @@ deploy_production:
     - prod
 
 restart_api_staging:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
   services:
     - name: docker:dind
   stage: restart_api
@@ -116,6 +119,9 @@ restart_api_staging:
     - staging
 
 restart_api_production:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
   services:
     - name: docker:dind
   stage: restart_api
