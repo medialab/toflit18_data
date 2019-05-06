@@ -6,6 +6,7 @@ stages:
   - build_neo4j_database
   - build_docker_image
   - deploy_neo4j_image
+  - restart_api
 
 variables:
   GIT_DEPTH: "1"
@@ -104,3 +105,22 @@ deploy_production:
     url: $PRODUCTION_BASEURL
   only:
     - prod
+
+restart_api_staging:
+  services:
+    - name: docker:dind
+  stage: restart_api
+  script:
+    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_STAGING_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
+  only:
+    - staging
+
+restart_api_production:
+  services:
+    - name: docker:dind
+  stage: restart_api
+  script:
+    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_PRODUCTION_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
+  only:
+    - production 
+ 
