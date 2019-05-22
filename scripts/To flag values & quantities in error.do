@@ -14,49 +14,49 @@ gen absurd_quantity=0
 ****D'après Torsten, email juin 2018
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (partners_simpl_classification =="Nord" | partners_simpl_classification =="Italie" | partners_simpl_classification =="Hollande") ///
-			& (goods_simpl_classification == "sucre blanc")
+			& (country_simplification =="Nord" | country_simplification =="Italie" | country_simplification =="Hollande") ///
+			& (product_simplification == "sucre blanc")
 			
 replace absurd_quantity=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (partners_simpl_classification =="Nord" | partners_simpl_classification =="Italie" | partners_simpl_classification =="Hollande") ///
-			& (goods_simpl_classification == "sucre blanc")
+			& (country_simplification =="Nord" | country_simplification =="Italie" | country_simplification =="Hollande") ///
+			& (product_simplification == "sucre blanc")
 
 replace absurd_quantity=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (partners_simpl_classification =="Hollande") ///
-			& (goods_simpl_classification == "sucre brut")	
+			& (country_simplification =="Hollande") ///
+			& (product_simplification == "sucre brut")	
 			
 replace absurd_value=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (partners_simpl_classification =="Hollande") ///
-			& (goods_simpl_classification == "sucre brut")	
+			& (country_simplification =="Hollande") ///
+			& (product_simplification == "sucre brut")	
 			
 ***Nous l'avons remarqué il y a longtemps...
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (hamburg_classification == "Café")
+			& (country_simplification =="Îles françaises de l'Amérique") ///
+			& (product_hamburg == "Café")
 			
 replace absurd_quantity=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (hamburg_classification == "Café")
+			& (country_simplification =="Îles françaises de l'Amérique") ///
+			& (product_hamburg == "Café")
 
 
 replace absurd_value=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles") ///
-			& (hamburg_classification == "Café")
+			& (country_simplification =="Îles") ///
+			& (product_hamburg == "Café")
 			
 replace absurd_quantity=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles") ///
-			& (hamburg_classification == "Café")
+			& (country_simplification =="Îles") ///
+			& (product_hamburg == "Café")
 		
 			
 
 replace absurd_value=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (goods_simpl_classification == "sucre blanc")
+			& (country_simplification =="Îles françaises de l'Amérique") ///
+			& (product_simplification == "sucre blanc")
 			
 replace absurd_quantity=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
-			& (partners_simpl_classification =="Îles françaises de l'Amérique") ///
-			& (goods_simpl_classification == "sucre blanc")
+			& (country_simplification =="Îles françaises de l'Amérique") ///
+			& (product_simplification == "sucre blanc")
 			
 			
 *save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace
