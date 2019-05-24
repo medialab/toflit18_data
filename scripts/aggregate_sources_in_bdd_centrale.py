@@ -1,17 +1,18 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
+# This is just a variant of the other script that streams the data not to
+# overload the RAM. Note that the resulting lines are not ordered.
+import csvkit
 import os
 import re
-from csv import DictReader, DictWriter
 
-DOUBLE_QUOTES = r'[«»„‟“”"]'
-SIMPLE_QUOTES = r"[’‘`‛']"
-SPACES_COMPACTING = r'\s+'
-ELLIPSIS = r'…'
-HYPHEN = r'–'
+DOUBLE_QUOTES = ur'[«»„‟“”"]'
+SIMPLE_QUOTES = ur"[’‘`‛']"
+SPACES_COMPACTING = ur'\s+'
+ELLIPSIS = ur'…'
+HYPHEN = ur'–'
 
 #IL FAUDRAIT RAJOUTER ICI LE Œ FAUTIF, MAIS JE NE SAIS PAS COMMENT FAIRE
-OEWRONG=r'u'
+OEWRONG=ur'u'
 
 # Daudin's cleaning process
 def clean(s):
@@ -62,7 +63,7 @@ def add_fields_to_line(d):
             try :
                 d["value"] = float(q)*float(pu)
             except :
-                print("can't parse to float q: '%s' pu:'%s' "%(q,pu))
+                print "can't parse to float q: '%s' pu:'%s' "%(q,pu)
                 d["value"]=""
             # nb_computed_value+=1
         else :
@@ -76,7 +77,7 @@ def add_fields_to_line(d):
             try:
                 d["prix_unitaire"] = float(v)/float(q)
             except:
-                print("can't parse to float q: '%s' v:'%s' "%(q,v))
+                print "can't parse to float q: '%s' v:'%s' "%(q,v)
                 d["prix_unitaire"]=""
 
             # nb_computed_value+=1
@@ -103,8 +104,8 @@ for (dirpath,dirnames,filenames) in os.walk(directory):
             ext = csv_file_name.split(".")[-1] if "." in csv_file_name else None
             if ext == "csv":
                 # print "%s in %s"%(csv_file_name,dirpath)
-                with open(os.path.join(dirpath,csv_file_name),"r",  encoding="utf-8") as source_file:
-                    r=DictReader(source_file)
+                with open(os.path.join(dirpath,csv_file_name),"r") as source_file:
+                    r=csvkit.DictReader(source_file)
                     headers+=r.fieldnames
 
 headers=set(headers)
@@ -116,8 +117,8 @@ for extra_header in ["value_as_reported","computed_value","replace_computed_up"]
         headers+=[extra_header]
 
 # Then we actually read and write the lines
-with open(output_filename,"w", encoding="utf-8") as output_file:
-    writer = DictWriter(output_file, headers)
+with open(output_filename,"w") as output_file:
+    writer = csvkit.DictWriter(output_file, headers, encoding="utf-8")
     writer.writeheader()
 
     for (dirpath,dirnames,filenames) in os.walk(directory):
@@ -125,12 +126,12 @@ with open(output_filename,"w", encoding="utf-8") as output_file:
             for csv_file_name in filenames :
                 ext = csv_file_name.split(".")[-1] if "." in csv_file_name else None
                 if ext == "csv":
-                    print("%s in %s"%(csv_file_name,dirpath))
+                    print "%s in %s"%(csv_file_name,dirpath)
 
                     filepath = os.path.join(dirpath, csv_file_name)
 
-                    with open(filepath,"r", encoding="utf-8") as source_file:
-                        r=DictReader(source_file)
+                    with open(filepath,"r") as source_file:
+                        r=csvkit.DictReader(source_file)
 
                         for line in r:
                             for k in line:

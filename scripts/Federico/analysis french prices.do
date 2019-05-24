@@ -1,4 +1,4 @@
-import excel "C:\Users\federico.donofrio\Documents\wheat_prices_FRANCE(dbversion ).xlsx", sheet("Foglio1") firstrow, clear
+import excel "C:\Users\federico.donofrio\Documents\wheat_prices_FRANCE(dbversion ).xlsx", sheet("Foglio1") firstrow
 encode market, generate(market_encode) label(market)
 xtset market_encode year
 gen structural_break=0

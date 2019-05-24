@@ -1,0 +1,132 @@
+image: docker:stable
+
+stages:
+  - build_bdd_centrale
+  - build_neo4j_CSV
+  - build_neo4j_database
+  - build_docker_image
+  - deploy_neo4j_image
+  - restart_api
+
+variables:
+  GIT_DEPTH: "1"
+  DOCKER_IMAGE_NAME: "$CI_REGISTRY_IMAGE/neo4j_toflit18:$CI_COMMIT_REF_SLUG"
+
+build_bdd_centrale:
+  stage: build_bdd_centrale
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  image: python:2.7-alpine3.7
+  script:
+    - pip install --quiet csvkit
+    - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
+  only:
+    - staging
+    - prod
+
+neo4j_CSV:
+  stage: build_neo4j_CSV
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  dependencies:
+    - build_bdd_centrale
+  image: scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG
+  script:
+    - mkdir -p neo4j_import
+    - npm --prefix /toflit18 run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
+  only:
+    - staging
+    - prod
+
+neo4j_database:
+  stage: build_neo4j_database
+  artifacts:
+    untracked: true
+    expire_in: "1 day"
+  dependencies:
+    - neo4j_CSV
+  image: neo4j:3.1.4 
+  script:
+    - mkdir -p neo4j_database
+    - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
+    - mv /var/lib/neo4j/data/databases/graph.db $CI_PROJECT_DIR/neo4j_database/
+  only:
+    - staging
+    - prod
+
+build_docker_image:
+  services:
+    - name: docker:dind
+  stage: build_docker_image
+  dependencies:
+    - neo4j_database
+  before_script:
+    - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.1.4
+  script:
+    - docker run --volume=${CI_PROJECT_DIR}:/toflit18/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG -c "npm run quantities -- -- --path /toflit18/toflit18_data"
+    - docker run --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG -c "npm run indices"
+    - docker stop neo4j
+    - docker build -t $DOCKER_IMAGE_NAME -f Dockerfile .
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker push $DOCKER_IMAGE_NAME
+  after_script:
+    - docker logs neo4j
+    - docker rm neo4j
+  only:
+    - staging
+    - prod
+
+deploy_staging:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
+  stage: deploy_neo4j_image
+  image: cdrx/rancher-gitlab-deploy
+  script:
+    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_STAGING_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
+  environment:
+    name: staging
+    url: $STAGING_BASEURL
+  only:
+    - staging
+
+deploy_production:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
+  stage: deploy_neo4j_image
+  image: cdrx/rancher-gitlab-deploy
+  script:
+    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_PRODUCTION_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
+  environment:
+    name: production
+    url: $PRODUCTION_BASEURL
+  only:
+    - prod
+
+restart_api_staging:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
+  services:
+    - name: docker:dind
+  stage: restart_api
+  script:
+    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_STAGING_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
+  only:
+    - staging
+
+restart_api_production:
+  variables:
+    GIT_STRATEGY: none
+  dependencies: []
+  services:
+    - name: docker:dind
+  stage: restart_api
+  script:
+    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_PRODUCTION_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
+  only:
+    - production 
+ 
