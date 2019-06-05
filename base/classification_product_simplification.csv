@@ -1791,19 +1791,19 @@ bois d'acajou chevrons de 6 pieds,1,chevrons de 6 pieds en acajou,1
 bois d'acajou chevrons de 8 pieds,1,chevrons de 8 pieds en acajou,1
 bois d'acajou divers,2,bois d'acajou divers,2
 bois d'acajou en chevrons,3,chevrons d'acajou,11
-bois d'acajou en madriers,6,madriers de acajou,15
+bois d'acajou en madriers,6,madriers d'acajou,39
 bois d'acajou en planches,4,planches d'acajou,31
-bois d'acajou madriers,9,madriers de acajou,15
-bois d'acajou madriers de 10 à 11 pieds,1,madriers de acajou de 10 à 11 pieds,1
-bois d'acajou madriers de 10 pieds,1,madriers de acajou de 10 pieds,1
-bois d'acajou madriers de 11 pieds,1,madriers de acajou de 11 pieds,1
-bois d'acajou madriers de 12 pieds,1,madriers de acajou de 12 pieds,1
-bois d'acajou madriers de 5 pieds,1,madriers de acajou de 5 pieds,1
-bois d'acajou madriers de 6 pieds,1,madriers de acajou de 6 pieds,1
-bois d'acajou madriers de 9 pieds,1,madriers de acajou de 9 pieds,1
+bois d'acajou madriers,9,madriers d'acajou,39
+bois d'acajou madriers de 10 à 11 pieds,1,madriers d'acajou de 10 à 11 pieds,2
+bois d'acajou madriers de 10 pieds,1,madriers d'acajou de 10 pieds,2
+bois d'acajou madriers de 11 pieds,1,madriers d'acajou de 11 pieds,2
+bois d'acajou madriers de 12 pieds,1,madriers d'acajou de 12 pieds,3
+bois d'acajou madriers de 5 pieds,1,madriers d'acajou de 5 pieds,1
+bois d'acajou madriers de 6 pieds,1,madriers d'acajou de 6 pieds,3
+bois d'acajou madriers de 9 pieds,1,madriers d'acajou de 9 pieds,3
 bois d'acajou mâtereaux de 7 à 8 pieds,1,mâtereaux d'acajou de 7 à 8 pieds,1
 bois d'acajou planches,4,planches d'acajou,31
-bois d'acajou planches de 8 pieds,1,planches d'acajou de 8 pieds,3
+bois d'acajou planches de 8 pieds,1,planches d'acajou de 8 pieds,4
 bois d'aloès,10,bois d'aloès,13
 bois d'alois,1,bois d'aloès,13
 bois d'amarante,3,bois d'amarante,3
@@ -5800,7 +5800,7 @@ cotonnades couvertures,32,couvertures de coton,212
 cotonnades dentelle et blonde,18,dentelle de coton et blonde de coton,18
 cotonnades drap étoffe de toute sorte,25,drap de coton et étoffe de coton,25
 cotonnades en Nankin,11,Nankin,11
-cotonnades en toile et Nankin,8,Toile de coton,8
+cotonnades en toile et Nankin,8,toile de coton,1254
 cotonnades étoffe,57,étoffe de coton,388
 cotonnades étoffe drap et velours,15,étoffe de coton et drap de coton et velours de coton,15
 cotonnades étoffe drap velours couvertures,13,étoffe de coton et drap de coton et velours de coton et couvertures de coton,13
@@ -5816,7 +5816,7 @@ cotonnades mouchoirs et châles,78,châles et mouchoirs de coton,81
 cotonnades mouchoirs idem,15,mouchoirs de coton,794
 cotonnades rubannerie diverse,9,rubanerie de coton,9
 cotonnades toile basin et Nankin,43,basin et Nankin,99
-cotonnades toile de coton étrangère diverse,1,toile de coton,1246
+cotonnades toile de coton étrangère diverse,1,toile de coton,1254
 cotonnades toile diverse basin Nankin,56,basin et Nankin,99
 cotonnades toile diverse et Nankin,20,toile,752
 cotonnades toile mousseline,65,mousseline de coton,98
@@ -7039,8 +7039,8 @@ douvelles,1,douvelles,1
 douvelles de sapin,1,douvelles de sapin,1
 douves à tonneaux,32,douves à tonneaux,32
 douves de deux pouces,1,douves de deux pouces,1
-drache,14,drêche,17
-drache de bière,1,drêche de bière,1
+drache,14,drêche de bière,15
+drache de bière,1,drêche de bière,15
 dracodium,1,dracodium,1
 dragée,130,dragée,130
 dragée de Keyser,3,dragée de Keyser,3
@@ -7521,7 +7521,7 @@ draperie platine,2,drap platine,2
 draperie pour doublures,3,drap pour doublures,3
 draperie ratine,10,ratine,176
 draperie Silésie,13,drap de Silésie,199
-drèche,2,drêche,17
+drèche,2,drêche,3
 drilles,3,drilles,3
 drilles et charpie en feuilles,2,charpie et drilles en feuille,2
 drogue médicinale ellébore,1,hellébore,1
@@ -11640,7 +11640,7 @@ fourniments,1,fourniments,1
 fourrages,47,fourrages,57
 fourrages d'horlogerie,1,fourrages d'horlogerie,1
 fourrages divers,3,fourrages,57
-fourrages drèche,1,drêche,17
+fourrages drèche,1,drêche,3
 fourrages en foin,3,foin,179
 fourrages en foin à bestiaux,1,foin,179
 fourrages en foin paille son etc.,7,fourrages,57
@@ -11856,7 +11856,7 @@ fruits cuits,95,fruits cuits,95
 fruits cuits secs,3,fruits cuits secs,3
 fruits d'eau-de-vie,1,fruits à l'eau-de-vie,1
 fruits de Corinthe,1,fruits de Corinthe,1
-fruits de table confit mirobolant,2,fruits mirobolant confit,4
+fruits de table confit myrobolan,2,fruits myrobolan confit,4
 fruits de table confits,5,fruits de table confits,7
 fruits de table confits à l'eau-de-vie,2,fruits de table conflits à l'eau-de-vie,2
 fruits de table confits cornichons câpres etc,2,fruits de table confits,7
@@ -11917,8 +11917,8 @@ fruits fruits secs raisin,10,raisin sec,1029
 fruits graine de moutarde,50,graine de moutarde,267
 fruits marrons,1,marrons,141
 fruits mêlés,1,fruits,521
-fruits mirobolant confit,2,fruits mirobolant confit,4
 fruits moulus divers,7,fruits moulus divers,7
+fruits myrobolan confit,2,fruits myrobolan confit,4
 fruits noisetier,1,noisettes,426
 fruits noisettes,1,noisettes,426
 fruits noix et noisettes,5,noisettes et noix,11
@@ -12887,7 +12887,7 @@ graine de muscade,1,graine de muscade,1
 graine de navet,3,graine de navette,60
 graine de navette,56,graine de navette,60
 graine de pain,1,graine de pain,1
-graine de Palma Christi,1,graine de Palma Christi,1
+graine de Palma Christi,1,graine de ricin,1
 graine de paradis,8,graine de paradis,8
 graine de pécan,1,graine de pécan,1
 graine de perroquet,14,graine de perroquet,14
@@ -13750,7 +13750,7 @@ huile de navette,179,huile de navette,179
 huile de noisettes,2,huile de noisettes,2
 huile de noix,245,huile de noix,249
 huile de noix et de faîne,1,huile de faine et de noix,5
-huile de Palma Christi,9,huile de Palma Christi,9
+huile de Palma Christi,9,huile de ricin,9
 huile de palme,32,huile de palme,32
 huile de palme et de cacao,1,huile de cacao et palme,1
 huile de palmier,1,huile de palmier,1
@@ -15139,15 +15139,15 @@ Madères,2,Madères,2
 Madras,3,Madras,3
 Madras mouchoirs,1,Madras mouchoirs,1
 madriers,4,madriers,4
-madriers à bois d'acajou,1,madriers d'acajou,24
-madriers d'acajou,12,madriers d'acajou,24
-madriers d'acajou de 10 à 11 pieds,1,madriers d'acajou de 10 à 11 pieds,1
-madriers d'acajou de 10 pieds,1,madriers d'acajou de 10 pieds,1
-madriers d'acajou de 11 pieds,1,madriers d'acajou de 11 pieds,1
-madriers d'acajou de 12 pieds,1,madriers d'acajou de 12 pieds,2
+madriers à bois d'acajou,1,madriers d'acajou,39
+madriers d'acajou,12,madriers d'acajou,39
+madriers d'acajou de 10 à 11 pieds,1,madriers d'acajou de 10 à 11 pieds,2
+madriers d'acajou de 10 pieds,1,madriers d'acajou de 10 pieds,2
+madriers d'acajou de 11 pieds,1,madriers d'acajou de 11 pieds,2
+madriers d'acajou de 12 pieds,1,madriers d'acajou de 12 pieds,3
 madriers d'acajou de 17 pieds,1,madriers d'acajou de 17 pieds,1
 madriers d'acajou de 6 à 8 pieds,1,madriers d'acajou de 6 à 8 pieds,1
-madriers d'acajou de 6 pieds,2,madriers d'acajou de 6 pieds,2
+madriers d'acajou de 6 pieds,2,madriers d'acajou de 6 pieds,3
 madriers d'acajou de 7 à 6 pieds,1,madriers d'acajou de 7 à 6 pieds,1
 madriers d'acajou de 7 à 8 pieds,1,madriers d'acajou de 7 à 8 pieds,1
 madriers d'acajou de 7 pieds,2,madriers d'acajou de 7 pieds,2
@@ -15156,11 +15156,11 @@ madriers d'acajou de 8 à 9 pieds,1,madriers d'acajou de 8 à 9 pieds,1
 madriers d'acajou de 8 pieds,2,madriers d'acajou de 8 pieds,2
 madriers d'acajou de 9 à 10 pieds,1,madriers d'acajou de 9 à 10 pieds,1
 madriers d'acajou de 9 à 8 pieds,1,madriers d'acajou de 9 à 8 pieds,1
-madriers d'acajou de 9 pieds,1,madriers d'acajou de 9 pieds,2
-madriers de bois d'acajou,11,madriers d'acajou,24
-madriers de bois d'acajou de 12 pieds,1,madriers d'acajou de 12 pieds,2
+madriers d'acajou de 9 pieds,1,madriers d'acajou de 9 pieds,3
+madriers de bois d'acajou,11,madriers d'acajou,39
+madriers de bois d'acajou de 12 pieds,1,madriers d'acajou de 12 pieds,3
 madriers de bois d'acajou de 9 à 19 pieds,1,madriers de bois d'acajou de 9 à 19 pieds,1
-madriers de bois d'acajou de 9 pieds,1,madriers d'acajou de 9 pieds,2
+madriers de bois d'acajou de 9 pieds,1,madriers d'acajou de 9 pieds,3
 madriers de bois de cayenne,1,madriers de bois de cayenne,1
 madriers de bois de couleurs,1,madriers de bois de couleur,1
 madriers de bois de sapin,1,madriers de sapin,4
@@ -16521,11 +16521,9 @@ minium,78,minium,99
 minium et mine orange,4,minium et mine orange,4
 minutier,3,minutier,3
 miny,257,miny,259
-mirabolan,3,mirobolant,47
 mirche,6,myrrhe,115
 mireau,2,mireau,2
 mirke,1,mirke,1
-mirobolant,44,mirobolant,47
 miroirs,191,miroirs,206
 miroirs à bordures dorées,6,miroirs à bordures dorées,6
 miroirs à bordures dorées grands,1,miroirs à bordures dorées et grands,1
@@ -17079,6 +17077,7 @@ muse en grain ?,1,muse en grain ?,1
 musettes organisées,1,musettes organisées,1
 musique,19,musique,19
 musique gravée,8,musique gravée,8
+myrobolan,47,myrobolan,47
 myrrhe,81,myrrhe,115
 myrrhe en grabeau,1,myrrhe en grabeau,21
 myrrhe en larmes,1,myrrhe en larmes,1
@@ -17320,7 +17319,7 @@ objets manufacturés rubannerie de soie,39,rubanerie de soie,214
 objets manufacturés rubannerie diverse,3,rubanerie,3
 objets manufacturés rubannerie ordinaire,16,rubanerie commune,16
 objets manufacturés soierie en étoffe mouchoirs gaze et ruban,40,gaze et mouchoirs et ruban de soie,40
-objets manufacturés toile de coton,41,toile de coton,1246
+objets manufacturés toile de coton,41,toile de coton,1254
 objets manufacturés toile de coton mousseline et Nankin,11,mousseline de coton et nankin,11
 objets manufacturés toile de coton mousseline Nankin et des Indes,10,mousseline de coton et nankin des Indes,21
 objets manufacturés toile de fil et coton,38,toile de coton et de fil,531
@@ -18224,7 +18223,7 @@ palatine et coiffures de gaze,1,palatine et coiffures de gaze,1
 palenas,1,palenas,1
 paliacates,3,paliacates,3
 palins,1,palins,1
-Palma Christi,1,Palma Christi,1
+Palma Christi,1,ricin,1
 palmes,12,palme,12
 palmes à faire balais,1,palme pour balais,1
 palmes en feuilles,78,palme en feuilles,78
@@ -20136,11 +20135,11 @@ planches communes de hêtre,1,planches communes de hêtre,1
 planches communes de hêtre et chêne,1,planches communes de chêne et hêtre,1
 planches communes et bois,1,planches communes et bois,1
 planches d'acajou,13,planches d'acajou,31
-planches d'acajou de 10 pieds,2,planches d'acajou de 10 pieds,2
+planches d'acajou de 10 pieds,2,planches d'acajou de 10 pieds,3
 planches d'acajou de 12 pieds,1,planches d'acajou de 12 pieds,1
 planches d'acajou de 5 pieds,1,planches d'acajou de 5 pieds,1
 planches d'acajou de 6 pieds,1,planches d'acajou de 6 pieds,1
-planches d'acajou de 8 pieds,2,planches d'acajou de 8 pieds,3
+planches d'acajou de 8 pieds,2,planches d'acajou de 8 pieds,4
 planches d'acajou de 9 pieds,1,planches d'acajou de 9 pieds,1
 planches d'arbres,3,planches d'arbres,4
 planches d'ardoises,1,planches d'ardoise,1
@@ -20159,10 +20158,10 @@ planches de 9 à 10 pieds,1,planches de 9 à 10 pieds,1
 planches de 9 pieds,1,planches de 9 pieds,1
 planches de bois blanc,1,planches de bois blanc,1
 planches de bois d'acajou,9,planches d'acajou,31
-planches de bois d'acajou de 10 pieds,1,planches de bois d'acajou de 10 pieds,1
-planches de bois d'acajou de 4 pieds,1,planches de bois d'acajou de 4 pieds,1
-planches de bois d'acajou de 5 à 10 pieds,1,planches de bois d'acajou de 5 à 10 pieds,1
-planches de bois d'acajou de 8 pieds,1,planches de bois d'acajou de 8 pieds,1
+planches de bois d'acajou de 10 pieds,1,planches d'acajou de 10 pieds,3
+planches de bois d'acajou de 4 pieds,1,planches d'acajou de 4 pieds,1
+planches de bois d'acajou de 5 à 10 pieds,1,planches d'acajou de 5 à 10 pieds,1
+planches de bois d'acajou de 8 pieds,1,planches d'acajou de 8 pieds,4
 planches de bois dacajou,1,planches d'acajou,31
 planches de bois de 10 à 15 pieds,1,planches de bois de 10 à 15 pieds,1
 planches de bois de futeau,1,planches de futeau,2
@@ -25146,7 +25145,7 @@ toile corot,5,toile corot,165
 toile corot double,2,toile corot double,2
 toile corot imitant celle des Indes,1,toile corot imitant celle des Indes,1
 toile corot simple,1,toile corot simple,1
-toile coton,17,toile de coton,1246
+toile coton,17,toile de coton,1254
 toile coton à bas,1,toile de coton à bas,1
 toile coton à fleurs,5,toile de coton à fleurs,13
 toile coton à jamis,1,toile de coton à jamis,1
@@ -25519,7 +25518,7 @@ toile de Clisson,1,toile de Clisson,1
 toile de Combourg,11,toile de Combourg,42
 toile de Comté,6,toile de Comté,6
 toile de cordat,2,toile de cordat,2
-toile de coton,930,toile de coton,1246
+toile de coton,930,toile de coton,1254
 toile de coton ???,17,toile de coton ???,17
 toile de coton à bouquets de laine,2,toile à bouquets de laine de coton,2
 toile de coton à carreaux,5,toile à carreaux et de coton,5
@@ -25562,7 +25561,7 @@ toile de coton des Indes,87,toile de coton des Indes,93
 toile de coton des Indes brodée,1,toile de coton des Indes brodée,1
 toile de coton dite armanie,2,toile de coton dite armanie,2
 toile de coton dite Guinée,1,guinée de coton,2
-toile de coton diverse,96,toile de coton,1246
+toile de coton diverse,96,toile de coton,1254
 toile de coton du Levant,8,toile de coton du Levant,8
 toile de coton du Piémont,1,toile de coton du Piémont,1
 toile de coton en basin,6,toile en basin de coton,6
@@ -25578,7 +25577,7 @@ toile de coton et fil peinte,2,toile de coton et de fil peinte,2
 toile de coton et laine,1,toile de coton et de laine,1
 toile de coton et lin,1,toile de coton et de lin,6
 toile de coton et mousseline,1,mousseline et toile de coton,1
-toile de coton et Nankin,157,toile de coton,1246
+toile de coton et Nankin,157,toile de coton,1254
 toile de coton étrangère,4,toile de coton étrangère,4
 toile de coton façon de Nankin,1,nankin,193
 toile de coton fine,1,toile de coton fine,8
@@ -26072,7 +26071,7 @@ toile diverse d'emballage,3,toile d'emballage,718
 toile diverse de Bretagne,3,toile de Bretagne,598
 toile diverse de chanvre,2,toile de chanvre,642
 toile diverse de chanvre écrue,3,toile de chanvre écrue,21
-toile diverse de coton,2,toile de coton,1246
+toile diverse de coton,2,toile de coton,1254
 toile diverse de crin,2,toile de crin,278
 toile diverse de Laval,2,toile de Laval,322
 toile diverse de lin blanche,5,toile de lin blanche,600
@@ -26357,7 +26356,7 @@ toile mêlée de linge de tables,6,toile de linge de tables,30
 toile mêlée de Rouen,1,toile de Rouen,64
 toile mêlée de Russie,1,toile de Russie,5
 toile mêlée diverse,54,toile,752
-toile mêlée diverse de coton,1,toile de coton,1246
+toile mêlée diverse de coton,1,toile de coton,1254
 toile mêlée diverse peinte,1,toile peinte,968
 toile mêlée écrue,10,toile écrue,65
 toile mêlée en ???,1,toile en ???,1
@@ -26553,7 +26552,7 @@ toile tissée très fin,1,toile tissée très fin,1
 toile toilerie,6,toile,752
 toile toillerie,4,toile,752
 toile toillerie diverse,3,toile,752
-toile tout coton,1,toile de coton,1246
+toile tout coton,1,toile de coton,1254
 toile treillis,25,toile treillis,25
 toile treillis et gommée,3,toile gommée et treillis,3
 toile treillis peinte,1,treillis peint,1
