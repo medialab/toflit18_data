@@ -664,6 +664,7 @@ rename yearnum year
  codebook q_conv
  
  generate quantites_metric = q_conv * quantit
+ generate unit_price_metric=value/quantities_metric
  
  save "$dir/Données Stata/bdd courante", replace
 
