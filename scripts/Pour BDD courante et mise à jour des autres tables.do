@@ -663,7 +663,7 @@ rename yearnum year
  drop  remarque_unit-_merge
  codebook q_conv
  
- generate quantites_metric = q_conv * quantit
+ generate quantities_metric = q_conv * quantit
  generate unit_price_metric=value/quantities_metric
  
  save "$dir/Données Stata/bdd courante", replace
@@ -807,9 +807,10 @@ rename value observations_total_bis
 collapse (count) year (sum) observations_total , by( product_revolutionempire)
 rename year années_observées_bis
 
-merge 1:m product_revolutionempire using "blif.dta
+merge 1:m product_revolutionempire using "blif.dta"
 drop _merge
 order product_simplification product_sitc_FR observations_total années_observées product_revolutionempire
+rename product_* *
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
