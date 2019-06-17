@@ -22,7 +22,7 @@ cd "$dir"
 
 foreach file in classification_country_orthographic classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien classification_country_wars /*
-*/				 classification_country_sourcename /*
+*/				 classification_country_sourcename classification_country_africa /*
 */               classification_product_orthographic classification_product_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_product_edentreaty classification_product_canada /*
 */				 classification_product_medicinales classification_product_hamburg classification_product_grains /*
@@ -425,6 +425,26 @@ sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_country_sourcename.csv", replace
 
+*******************************
+
+use "classification_country_simplification.dta", clear
+drop note
+merge m:1 simplification using "classification_country_africa.dta"
+
+drop if _merge==2
+drop _merge
+
+capture drop nbr_occurences_africa
+bys africa : egen nbr_occurences_africa=total(nbr_occurences_ortho)
+
+bys simplification : keep if _n==1
+keep simplification africa nbr_occurences_simpl nbr_occurences_africa note
+save "classification_country_africa.dta", replace
+generate sortkey = ustrsortkey(simplification, "fr")
+sort sortkey
+drop sortkey
+export delimited "$dir/toflit18_data_GIT/base/classification_country_africa.csv", replace
+
 
 
 
@@ -555,7 +575,7 @@ drop if _merge==2
 drop note-_merge
 
 foreach class_name in grouping obrien ///
-			sourcename wars {
+			sourcename wars africa {
 
 	merge m:1 simplification using "classification_country_`class_name'.dta"
 	drop if _merge==2
