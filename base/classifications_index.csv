@@ -17,9 +17,11 @@ grains,product,simplification,Grains,Federico D’Onofrio,Identification of grai
 hamburg,product,simplification,Hamburg,Alexandre Aubourg,Classification of goods to compare with Hamburg trade 
 medicinales,product,simplification,Medicinal products,Pierre Hollegien,Identification of medical goods
 porcelaine,product,simplification,China,Nicholas O’Neill,Identification of china goods
-sitc,product,simplification,SITC18,Pierre Gervais,24 category classification inspired by modern SITC (codes)
-sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24 category classification inspired by modern SITC (English names)
-sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24 category classification inspired by modern SITC (French names)
-sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14 category classification inspired by modern SITC (English names)
+sitc,product,simplification,SITC18,Pierre Gervais,24-category classification inspired by modern SITC (codes)
+sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24-category classification inspired by modern SITC (English names)
+sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24-category classification inspired by modern SITC (French names)
+sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14-category classification inspired by modern SITC (English names)
 ulrich,product,simplification,Ulrich,Ulrich Pfister,Classification of goods requested by Ulrich Pfister. For comparison with Hamburg trade 
 v_glass_beads,product,simplification,Venitian Glass Beads,Pierre Niccolò Sofia,Identification of venitian glass beads goods
+revolutionempire,product,simplification,Revolution and Empire,Stephen Jackson,200-category classification inspired by Résumé (post 1787)
+africa,country,simplification,Africa,Guillaume Daudin,Identification of African trade partners
