@@ -1,8 +1,8 @@
 simplification,sitc_FR,observations_total,années_observées,revolutionempire,années_observées_bis,observations_total_bis
-??? d'une valeur moindre de deux mille francs chacun,Produits inconnus,473,15,Produits inconnus,16,499
-??? particulièrement en chevaux,Produits inconnus,6,1,Produits inconnus,16,499
+??? d'une valeur moindre de deux mille francs chacun,Produits inconnus,473,15,Divers incertains,16,499
+??? particulièrement en chevaux,Produits inconnus,6,1,Divers incertains,16,499
 Nankin,Filés ou tissés de coton,11,2,"Mousseline, basin et nankin",28,496
-[vide],,17,1,Produits inconnus,16,499
+[vide],,17,1,,16,499
 acide vitriolique et huile de vitriol,Produits chimiques transformés n.d.a.,106,9,Drogues diverses,28,1891
 acier,"Métaux, produits métalliques et outils",22,3,Acier et fer,28,369
 acier et fer,"Métaux, produits métalliques et outils",347,28,Acier et fer,28,369
@@ -41,7 +41,7 @@ argent et or,Monnaies et métaux précieux,237,7,Monnaies et métaux précieux,2
 argenterie,Articles manufacturés divers n.d.a,85,6,Argenterie et orfèvrerie,28,472
 argenterie et orfèvrerie,Articles manufacturés divers n.d.a,121,11,Argenterie et orfèvrerie,28,472
 argenterie et orfèvrerie vermeil,Articles manufacturés divers n.d.a,37,2,Argenterie et orfèvrerie,28,472
-argile et terre pour engrais,Matières brutes non-comestibles non transformées n.d.a.,15,2,"Engrais, terre de marne et argile",9,68
+argile et terre pour engrais,Matières brutes non-comestibles non transformées n.d.a.,15,2,Matières premières diverses,9,68
 armes,Articles manufacturés divers n.d.a,214,18,"Armes, munitions, poudre et pierres à fusil",19,348
 armes de guerre,Articles manufacturés divers n.d.a,2,1,"Armes, munitions, poudre et pierres à fusil",19,348
 armes et munitions,Articles manufacturés divers n.d.a,9,2,"Armes, munitions, poudre et pierres à fusil",19,348
@@ -84,12 +84,12 @@ bois,Matières brutes non-comestibles non transformées n.d.a.,631,26,Bois diver
 bois d'ébénisterie et des Indes,"Produits du bois, liège, jonc",32,3,Bois divers hors combustible,28,1460
 bois de marqueterie,"Produits du bois, liège, jonc",13,1,Bois divers hors combustible,28,1460
 bois de réglisse,Matières brutes non-comestibles non transformées n.d.a.,41,10,Jus et bois de réglisse,28,235
-bois de teinture,Produits chimiques transformés n.d.a.,50,4,Bois divers hors combustible,28,1460
+bois de teinture,Produits chimiques transformés n.d.a.,50,4,Matières brutes et pigments pour teinture,28,1460
 bois des Indes,Matières brutes non-comestibles non transformées n.d.a.,387,28,Bois des Indes,28,387
-bois des Indes de teinture,Produits chimiques transformés n.d.a.,14,1,Bois divers hors combustible,28,1460
+bois des Indes de teinture,Produits chimiques transformés n.d.a.,14,1,Matières brutes et pigments pour teinture,28,1460
 bois des Indes et d'ébénisterie et de marqueterie,"Produits du bois, liège, jonc",10,1,Bois divers hors combustible,28,1460
 bois pour brûler,Combustibles,57,9,Combustibles dont charbons et bois,28,487
-bois pour construction,"Produits du bois, liège, jonc",147,9,Bois divers hors combustible,28,1460
+bois pour construction,"Produits du bois, liège, jonc",147,9,Matériaux de construction,28,1460
 boisselerie et futailles,"Produits du bois, liège, jonc",12,1,"Ouvrages de bois, liège et jonc",28,844
 boissellerie,"Produits du bois, liège, jonc",50,4,"Ouvrages de bois, liège et jonc",28,844
 bonneterie,Articles manufacturés divers n.d.a,252,21,Bonneterie de coton et de laine,28,560
@@ -206,20 +206,20 @@ colle forte,Produits chimiques transformés n.d.a.,15,2,Colles diverses,28,244
 confitures,Autres produits alimentaires et animaux,17,1,Subsistances diverses et mélangées,17,535
 confitures et fruit confit au sucre,Autres produits alimentaires et animaux,16,1,Subsistances diverses et mélangées,17,535
 confitures et fruits confits au sucre,Autres produits alimentaires et animaux,17,1,Subsistances diverses et mélangées,17,535
-corail,Matières brutes non-comestibles non transformées n.d.a.,14,2,"Corail brut, nacre et écaille",12,217
-corail brut,Matières brutes non-comestibles non transformées n.d.a.,13,3,"Corail brut, nacre et écaille",12,217
-corail brut et non monté et taillé,Matières brutes non-comestibles non transformées n.d.a.,22,2,"Corail brut, nacre et écaille",12,217
-corail brut et taillé,Matières brutes non-comestibles non transformées n.d.a.,23,2,"Corail brut, nacre et écaille",12,217
-corail et non monté et taillé,Matières brutes non-comestibles non transformées n.d.a.,3,1,"Corail brut, nacre et écaille",12,217
+corail,Matières brutes non-comestibles non transformées n.d.a.,14,2,"Cornes, corail, écailles, ivoire et nacre",12,217
+corail brut,Matières brutes non-comestibles non transformées n.d.a.,13,3,"Cornes, corail, écailles, ivoire et nacre",12,217
+corail brut et non monté et taillé,Matières brutes non-comestibles non transformées n.d.a.,22,2,"Cornes, corail, écailles, ivoire et nacre",12,217
+corail brut et taillé,Matières brutes non-comestibles non transformées n.d.a.,23,2,"Cornes, corail, écailles, ivoire et nacre",12,217
+corail et non monté et taillé,Matières brutes non-comestibles non transformées n.d.a.,3,1,"Cornes, corail, écailles, ivoire et nacre",12,217
 cordage,Autres filés ou tissés,208,14,Cordage,16,273
 cordage de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",58,3,Cordage,16,273
 cordage de jonc,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",7,1,Cordage,16,273
-cordes pour instruments,Articles manufacturés divers n.d.a,3,1,Instruments pour les arts et les sciences,8,316
+cordes pour instruments,Articles manufacturés divers n.d.a,3,1,Ouvrages d'industrie divers,8,316
 cordonnerie de cuir,"Cuirs, peaux et produits dérivés hors sellerie",34,4,Cordonnerie et sellerie de cuir,21,315
 cordonnerie et sellerie de cuir,Divers mélangés,200,16,Cordonnerie et sellerie de cuir,21,315
-cornes,Matières brutes non-comestibles non transformées n.d.a.,70,6,Cornes et dents d'éléphant,15,190
-cornes de bétail,Matières brutes non-comestibles non transformées n.d.a.,11,1,Cornes et dents d'éléphant,15,190
-cornes de bœuf et de vache,Matières brutes non-comestibles non transformées n.d.a.,15,2,Cornes et dents d'éléphant,15,190
+cornes,Matières brutes non-comestibles non transformées n.d.a.,70,6,"Cornes, corail, écailles, ivoire et nacre",15,190
+cornes de bétail,Matières brutes non-comestibles non transformées n.d.a.,11,1,"Cornes, corail, écailles, ivoire et nacre",15,190
+cornes de bœuf et de vache,Matières brutes non-comestibles non transformées n.d.a.,15,2,"Cornes, corail, écailles, ivoire et nacre",15,190
 coton,Matières brutes non-comestibles non transformées n.d.a.,506,24,Coton non transformé,28,632
 coton brut et fil de coton,Divers mélangés,12,1,Coton non transformé,28,632
 coton en laine,Matières brutes non-comestibles non transformées n.d.a.,60,4,Coton non transformé,28,632
@@ -232,19 +232,19 @@ couleurs et teinture préparées,Produits chimiques transformés n.d.a.,78,5,Mat
 couperose,Produits chimiques transformés n.d.a.,43,5,Matières brutes et pigments pour teinture,16,1203
 couperose et vermillon,Produits chimiques transformés n.d.a.,6,1,Matières brutes et pigments pour teinture,16,1203
 couperose verte,Produits chimiques transformés n.d.a.,31,4,Drogues diverses,28,1891
-coutellerie de bois,"Produits du bois, liège, jonc",12,1,Ouvrages divers et mélangés,28,763
+coutellerie de bois,"Produits du bois, liège, jonc",12,1,"Ouvrages de bois, liège et jonc",28,763
 couvertures de coton,Filés ou tissés de coton,32,3,Cotonnades diverses,7,114
 couvertures de laine,,53,6,Étoffes de laine,10,147
 couvertures et tapis et tapisserie de laine,Filés ou tissés de laine et de poil,27,2,Étoffes de laine,10,147
 couvertures et tapisseries de laine,Filés ou tissés de laine et de poil,27,2,Étoffes de laine,10,147
-craie,Matières brutes non-comestibles non transformées n.d.a.,18,2,"Crayons, craie et ocre",2,18
+craie,Matières brutes non-comestibles non transformées n.d.a.,18,2,Matières brutes et pigments pour teinture,2,18
 craie et blanc d'Espagne et ocre jaune et rouge,Matières brutes non-comestibles non transformées n.d.a.,34,2,Matières brutes et pigments pour teinture,16,1203
 craie et ocre et brun et rouge,Matières brutes non-comestibles non transformées n.d.a.,31,2,Matières brutes et pigments pour teinture,16,1203
 crayons,Articles manufacturés divers n.d.a,17,4,Matières brutes et pigments pour teinture,16,1203
 crayons de pastel,Articles manufacturés divers n.d.a,20,3,Matières brutes et pigments pour teinture,16,1203
 crayons et craie,Divers mélangés,16,3,Matières brutes et pigments pour teinture,16,1203
 crayons fins de pastel et laque et lack-lack des Indes,Divers mélangés,21,3,Matières brutes et pigments pour teinture,16,1203
-crin,Matières brutes non-comestibles non transformées n.d.a.,95,11,Matières premières diverses,18,601
+crin,Matières brutes non-comestibles non transformées n.d.a.,95,11,Crin et poil de porcs et de sangliers,18,601
 cristal,Matières brutes non-comestibles non transformées n.d.a.,84,5,Verrerie,28,661
 crème de tartre,Produits chimiques transformés n.d.a.,137,13,Drogues médicinales diverses,27,1137
 crêpe et gaze et mouchoirs,Autres filés ou tissés,6,1,Produits filés ou tissés divers,12,252
@@ -267,7 +267,7 @@ câpres cornichons et olives,Autres produits alimentaires et animaux,10,1,Subsis
 céruse,Produits chimiques transformés n.d.a.,178,28,Céruse et blanc de plomb,28,188
 céruse et blanc de plomb,Produits chimiques transformés n.d.a.,10,2,Céruse et blanc de plomb,28,188
 cévadille,Matières brutes non-comestibles non transformées n.d.a.,3,1,Drogues médicinales diverses,27,1137
-de peu de valeur,Produits inconnus,2,1,Produits inconnus,16,499
+de peu de valeur,Produits inconnus,2,1,Divers incertains,16,499
 denrées coloniales,Produits agricoles alimentaires des régions de colonisation européenne,11,1,Denrées coloniales et épiceries diverses,28,446
 denrées coloniales et épicerie,Divers mélangés,22,2,Denrées coloniales et épiceries diverses,28,446
 dentelle,Autres filés ou tissés,258,19,Dentelles,28,500
@@ -280,7 +280,7 @@ dentelle de soie blonde,Filés ou tissés de soie et soie mélangée,61,4,Dentel
 dentelle et blonde,Autres filés ou tissés,19,1,Dentelles,28,500
 dentelle et galon et passementerie,Autres filés ou tissés,54,4,Produits filés ou tissés divers,12,252
 dentelle et galon et passementerie et ruban,Autres filés ou tissés,28,2,Produits filés ou tissés divers,12,252
-dents d'éléphant,Matières brutes non-comestibles non transformées n.d.a.,94,15,Cornes et dents d'éléphant,15,190
+dents d'éléphant,Matières brutes non-comestibles non transformées n.d.a.,94,15,"Cornes, corail, écailles, ivoire et nacre",15,190
 diamants perles et pierres fines,"Articles minéraux non métalliques manufacturés, n.d.a.",50,4,Bijouterie,28,523
 diamants perles et pierres fines non montés,"Articles minéraux non métalliques manufacturés, n.d.a.",13,1,Bijouterie,28,523
 divers,Divers incertains,2974,28,Divers incertains,28,3085
@@ -288,14 +288,14 @@ dorure fausse,Articles manufacturés divers n.d.a,23,10,Dorure,28,195
 dorure fausse en or et argent,Articles manufacturés divers n.d.a,5,2,Dorure,28,195
 dorure fausse en or et argent battu tiré et laminé,Articles manufacturés divers n.d.a,8,3,Dorure,28,195
 dorure fine,Articles manufacturés divers n.d.a,159,18,Dorure,28,195
-drap,Autres filés ou tissés,283,18,Draperies diverses,28,599
+drap,Autres filés ou tissés,283,18,Draps divers,28,599
 drap de coton et étoffe de coton,Filés ou tissés de coton,25,2,Cotonnades diverses,7,114
-drap de laine,Filés ou tissés de laine et de poil,110,6,Draperies diverses,28,599
-drap de laine et petits et étoffes,Filés ou tissés de laine et de poil,66,5,Draperies diverses,28,599
-drap et étoffe,Autres filés ou tissés,3,1,Draperies diverses,28,599
-drap et étoffe de laine,Filés ou tissés de laine et de poil,5,1,Draperies diverses,28,599
-drap fins de laine,Filés ou tissés de laine et de poil,62,4,Draperies diverses,28,599
-drap ordinaires de laine,Filés ou tissés de laine et de poil,70,5,Draperies diverses,28,599
+drap de laine,Filés ou tissés de laine et de poil,110,6,Draps divers,28,599
+drap de laine et petits et étoffes,Filés ou tissés de laine et de poil,66,5,Draps divers,28,599
+drap et étoffe,Autres filés ou tissés,3,1,Draps divers,28,599
+drap et étoffe de laine,Filés ou tissés de laine et de poil,5,1,Étoffes de laine,28,599
+drap fins de laine,Filés ou tissés de laine et de poil,62,4,Draps divers,28,599
+drap ordinaires de laine,Filés ou tissés de laine et de poil,70,5,Draps divers,28,599
 drogues,Produits chimiques transformés n.d.a.,781,27,Drogues diverses,28,1891
 drogues diverses réunies,Divers mélangés,635,22,Drogues diverses,28,1891
 drogues médicales naturelles,Matières brutes non-comestibles non transformées n.d.a.,15,1,Drogues médicinales diverses,27,1137
@@ -305,7 +305,7 @@ déchets de laine bourre lanice tontisse,,5,2,Laines non transformées diverses,
 dégras,"Huiles, graisses et cires d'origine animale et végétale",2,1,Huile de poisson,28,340
 eau minérale,Produits chimiques transformés n.d.a.,20,3,Drogues médicinales diverses,27,1137
 eau médicinale et minérale,Produits chimiques transformés n.d.a.,24,5,Drogues médicinales diverses,27,1137
-eau-de-vie,Boissons et tabac,619,28,Eaux-de-vie,28,619
+eau-de-vie,Boissons et tabac,619,28,Eaux-de-vie et liqueurs,28,619
 eau-de-vie et liqueurs,Boissons et tabac,35,3,Eaux-de-vie et liqueurs,28,464
 eau-de-vie et rhum,Boissons et tabac,6,1,Eaux-de-vie et liqueurs,28,464
 eau-de-vie et rhum et tafia,Boissons et tabac,13,1,Eaux-de-vie et liqueurs,28,464
@@ -316,7 +316,7 @@ en bâtiments de mer,Machines et moyens de transport y compris sellerie,1,1,Bât
 encre,Produits chimiques transformés n.d.a.,28,2,Matières brutes et pigments pour teinture,16,1203
 encre à écrire,Produits chimiques transformés n.d.a.,12,1,Matières brutes et pigments pour teinture,16,1203
 encre à écrire et à imprimer,Produits chimiques transformés n.d.a.,13,1,Matières brutes et pigments pour teinture,16,1203
-engrais,Matières brutes non-comestibles non transformées n.d.a.,23,6,"Engrais, terre de marne et argile",9,68
+engrais,Matières brutes non-comestibles non transformées n.d.a.,23,6,Matières premières diverses,9,68
 esprit-de-vin,Produits chimiques transformés n.d.a.,82,20,Drogues diverses,28,1891
 essence,Produits chimiques transformés n.d.a.,4,1,Parfumerie,28,733
 essence de térébenthine et huile de térébenthine,Produits chimiques transformés n.d.a.,269,24,"Essence, huile et pâte de térébenthine",28,323
@@ -430,7 +430,7 @@ goudron,Matières brutes non-comestibles non transformées n.d.a.,6,1,"Brai, gou
 goudron et poix et résines,Matières brutes non-comestibles non transformées n.d.a.,6,1,"Brai, goudron et résines",28,613
 graine,Matières brutes non-comestibles non transformées n.d.a.,27,3,Graines diverses et mélangées,25,402
 graine d'anis,Matières brutes non-comestibles non transformées n.d.a.,26,3,Graines diverses et mélangées,25,402
-graine de cumin,Matières brutes non-comestibles non transformées n.d.a.,11,2,Denrées coloniales et épiceries diverses,28,446
+graine de cumin,Matières brutes non-comestibles non transformées n.d.a.,11,2,Graines diverses et mélangées,28,446
 graine de diverse,Matières brutes non-comestibles non transformées n.d.a.,4,1,Graines diverses et mélangées,25,402
 graine de genièvre,Autres produits alimentaires et animaux,14,3,Graines diverses et mélangées,25,402
 graine de jardin,Matières brutes non-comestibles non transformées n.d.a.,339,28,Graines de jardin,28,339
@@ -470,7 +470,7 @@ herbes à teindre,Produits chimiques transformés n.d.a.,59,6,Matières brutes e
 horloge de bois,Articles manufacturés divers n.d.a,9,3,Horlogerie,28,512
 horlogerie,Articles manufacturés divers n.d.a,499,28,Horlogerie,28,512
 horlogerie et carillon,Articles manufacturés divers n.d.a,4,1,Horlogerie,28,512
-houblon,Autres produits alimentaires et animaux,90,16,Houblon,16,90
+houblon,Autres produits alimentaires et animaux,90,16,Matières premières diverses,16,90
 huile d'olive,"Huiles, graisses et cires d'origine animale et végétale",563,25,Huile d'olive à manger,28,631
 huile d'olive commune,"Huiles, graisses et cires d'origine animale et végétale",2,1,Huile d'olive pour fabrique,28,267
 huile d'olive et autres pour fabrique,"Huiles, graisses et cires d'origine animale et végétale",21,2,Huile d'olive pour fabrique,28,267
@@ -497,11 +497,11 @@ indienne de coton et toile de coton peinte,Filés ou tissés de coton,65,5,Toile
 indienne peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,20,2,Toile de coton,28,708
 indigo,Produits chimiques transformés n.d.a.,503,28,Indigo,28,503
 instruments,Divers incertains,88,4,Divers incertains,28,3085
-instruments de musique,Articles manufacturés divers n.d.a,110,7,Instruments pour les arts et les sciences,8,316
-instruments de musique et autres,Articles manufacturés divers n.d.a,11,1,Instruments pour les arts et les sciences,8,316
-instruments machine et mécanique propres aux arts et aux sciences,Articles manufacturés divers n.d.a,11,1,Instruments pour les arts et les sciences,8,316
-instruments pour les arts et les sciences,Articles manufacturés divers n.d.a,179,7,Instruments pour les arts et les sciences,8,316
-instruments propres aux science,Articles manufacturés divers n.d.a,2,1,Instruments pour les arts et les sciences,8,316
+instruments de musique,Articles manufacturés divers n.d.a,110,7,Ouvrages d'industrie divers,8,316
+instruments de musique et autres,Articles manufacturés divers n.d.a,11,1,Ouvrages d'industrie divers,8,316
+instruments machine et mécanique propres aux arts et aux sciences,Articles manufacturés divers n.d.a,11,1,Ouvrages d'industrie divers,8,316
+instruments pour les arts et les sciences,Articles manufacturés divers n.d.a,179,7,Ouvrages d'industrie divers,8,316
+instruments propres aux science,Articles manufacturés divers n.d.a,2,1,Ouvrages d'industrie divers,8,316
 ipécacuanha,Matières brutes non-comestibles non transformées n.d.a.,74,15,Drogues médicinales diverses,27,1137
 iris,Matières brutes non-comestibles non transformées n.d.a.,5,1,Drogues diverses,28,1891
 iris de Florence,Matières brutes non-comestibles non transformées n.d.a.,7,3,Drogues diverses,28,1891
@@ -533,7 +533,7 @@ librairie,Articles manufacturés divers n.d.a,785,28,Librairie,28,841
 limes,"Métaux, produits métalliques et outils",48,12,"Faucilles, faux et limes",27,252
 lin,Matières brutes non-comestibles non transformées n.d.a.,214,28,Lin,28,214
 linge de table,Autres filés ou tissés,35,6,Produits filés ou tissés divers,12,252
-linge de table de toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,12,3,Toileries diverses,12,320
+linge de table de toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,12,3,Toiles diverses,12,320
 lingerie,Articles manufacturés divers n.d.a,9,1,Habits et lingerie,28,665
 lingots et monnaies étrangères,Monnaies et métaux précieux,150,14,Monnaies et métaux précieux,24,513
 lingots et monnaies étrangères d'argent et d'or,Monnaies et métaux précieux,3,1,Monnaies et métaux précieux,24,513
@@ -615,8 +615,8 @@ médicaments,Produits chimiques transformés n.d.a.,85,3,Manne et médicaments,2
 mélasse et sirop,Autres produits alimentaires et animaux,1,1,Sirop et mélasse,27,293
 métal,"Métaux, produits métalliques et outils",80,8,Métaux divers et mélangés,27,376
 métaux,"Métaux, produits métalliques et outils",144,12,Métaux divers et mélangés,27,376
-nacre,Matières brutes non-comestibles non transformées n.d.a.,9,2,"Corail brut, nacre et écaille",12,217
-nacre de perles,Matières brutes non-comestibles non transformées n.d.a.,43,7,"Corail brut, nacre et écaille",12,217
+nacre,Matières brutes non-comestibles non transformées n.d.a.,9,2,"Cornes, corail, écailles, ivoire et nacre",12,217
+nacre de perles,Matières brutes non-comestibles non transformées n.d.a.,43,7,"Cornes, corail, écailles, ivoire et nacre",12,217
 nankin,Filés ou tissés de coton,45,6,"Mousseline, basin et nankin",28,496
 nattes de paille et de jonc,"Produits du bois, liège, jonc",13,2,"Ouvrages de bois, liège et jonc",28,844
 noir commun de fumée et autres,Produits chimiques transformés n.d.a.,13,3,Matières brutes et pigments pour teinture,16,1203
@@ -637,7 +637,7 @@ or et argent monnayés,Monnaies et métaux précieux,6,1,Monnaies et métaux pr�
 oreillons,Matières brutes non-comestibles non transformées n.d.a.,32,4,"Cuirs, peaux et pelleterie",28,1953
 orfèvrerie,Articles manufacturés divers n.d.a,195,14,Argenterie et orfèvrerie,28,472
 orfèvrerie d'argent et d'or,Articles manufacturés divers n.d.a,34,3,Argenterie et orfèvrerie,28,472
-origine inconnue,Produits inconnus,1,1,Produits inconnus,16,499
+origine inconnue,Produits inconnus,1,1,Divers incertains,16,499
 orseille ou tournesol préparé,Matières brutes non-comestibles non transformées n.d.a.,11,3,Matières brutes et pigments pour teinture,16,1203
 ouvrages,Divers incertains,73,4,Ouvrages divers et mélangés,28,763
 ouvrages d'albâtre et ouvrages de bois et ouvrages de marbre,Divers mélangés,8,1,Ouvrages divers et mélangés,28,763
@@ -693,8 +693,8 @@ papier musique gravé,Papier,12,1,Librairie,28,841
 papier peint,Papier,90,5,Papier,27,828
 papier pour tenture,Papier,192,15,Papier,27,828
 papier à écrire,Papier,288,18,Papier,27,828
-parapluies et parasols,Articles manufacturés divers n.d.a,143,10,Parapluies et parasols,13,177
-parasols,Articles manufacturés divers n.d.a,34,4,Parapluies et parasols,13,177
+parapluies et parasols,Articles manufacturés divers n.d.a,143,10,Ouvrages d'industrie divers,13,177
+parasols,Articles manufacturés divers n.d.a,34,4,Ouvrages d'industrie divers,13,177
 parfumerie,Produits chimiques transformés n.d.a.,560,27,Parfumerie,28,733
 parfumerie eau de senteur,Produits chimiques transformés n.d.a.,68,5,Parfumerie,28,733
 parfumerie et eau spiritueuse,Produits chimiques transformés n.d.a.,16,1,Parfumerie,28,733
@@ -749,7 +749,7 @@ plumes à écrire,Articles manufacturés divers n.d.a,76,14,Plumes transformées
 plumes à écrire et à lit,Divers mélangés,164,12,Plumes transformées,26,262
 plumes à écrire et à lit duvet et édredon,Divers mélangés,15,2,Plumes transformées,26,262
 poil de chèvre et de lapin et de lièvre,Matières brutes non-comestibles non transformées n.d.a.,193,27,"Poil de chèvre, de lapin et de lièvre",27,193
-poil de porcs et poil de sanglier,Matières brutes non-comestibles non transformées n.d.a.,61,11,Poil de porcs et de sangliers,24,151
+poil de porcs et poil de sanglier,Matières brutes non-comestibles non transformées n.d.a.,61,11,Crin et poil de porcs et de sangliers,24,151
 poisson,Autres produits alimentaires et animaux,585,27,Poissons et mollusques,28,851
 poisson anchois,Autres produits alimentaires et animaux,16,3,Poissons et mollusques,28,851
 poisson frais et mariné et salé,Autres produits alimentaires et animaux,11,1,Poissons et mollusques,28,851
@@ -803,7 +803,7 @@ rubanerie et passementerie diverses celles de soie et dorure exceptées,Autres f
 rubanerie ordinaire,Autres filés ou tissés,103,14,Rubanerie et passementerie diverse,28,647
 réglisse,Autres produits alimentaires et animaux,2,1,Jus et bois de réglisse,28,235
 régule d'antimoine,Produits chimiques transformés n.d.a.,7,1,Drogues médicinales diverses,27,1137
-sacs,Articles manufacturés divers n.d.a,9,1,Ouvrages divers et mélangés,28,763
+sacs,Articles manufacturés divers n.d.a,9,1,Ouvrages d'industrie divers,28,763
 safran,Autres produits alimentaires et animaux,390,28,Safran,28,390
 safranum,Autres produits alimentaires et animaux,97,12,Matières brutes et pigments pour teinture,16,1203
 safranum et tournesol,Autres produits alimentaires et animaux,7,1,Matières brutes et pigments pour teinture,16,1203
@@ -840,7 +840,7 @@ sirop fin et mélasse,Produits agricoles alimentaires des régions de colonisati
 sirop fins et sucre,Produits agricoles alimentaires des régions de colonisation européenne,9,1,Denrées coloniales et épiceries diverses,28,446
 sirop mélasse,Produits agricoles alimentaires des régions de colonisation européenne,22,2,Sirop et mélasse,27,293
 soie,Matières brutes non-comestibles non transformées n.d.a.,406,28,Soie,28,406
-soie de porcs et soie de sanglier,Matières brutes non-comestibles non transformées n.d.a.,90,13,Poil de porcs et de sangliers,24,151
+soie de porcs et soie de sanglier,Matières brutes non-comestibles non transformées n.d.a.,90,13,Crin et poil de porcs et de sangliers,24,151
 soierie,Filés ou tissés de soie et soie mélangée,10,1,Soieries diverses,28,524
 soierie et dorure,Divers mélangés,12,1,Produits filés ou tissés divers,12,252
 soierie et dorure fine,Divers mélangés,13,1,Produits filés ou tissés divers,12,252
@@ -870,45 +870,45 @@ tableaux,Articles manufacturés divers n.d.a,34,2,Objets d'art et d'histoire nat
 tamarin,Autres produits alimentaires et animaux,34,5,Drogues médicinales diverses,27,1137
 tapis de laine,Filés ou tissés de laine et de poil,7,2,Étoffes de laine,10,147
 tapisserie,Autres filés ou tissés,3,1,Produits filés ou tissés divers,12,252
-tartre,Matières brutes non-comestibles non transformées n.d.a.,33,4,Drogues diverses,28,1891
+tartre,Matières brutes non-comestibles non transformées n.d.a.,33,4,Matières brutes et pigments pour teinture,28,1891
 tartre et lie de vin,Matières brutes non-comestibles non transformées n.d.a.,21,2,Drogues diverses,28,1891
 terre,Matières brutes non-comestibles non transformées n.d.a.,18,2,Matières premières diverses,18,601
 terre d'ombre et terre pour la peinture,Matières brutes non-comestibles non transformées n.d.a.,4,1,Matières brutes et pigments pour teinture,16,1203
-terre de marne,Matières brutes non-comestibles non transformées n.d.a.,6,1,"Engrais, terre de marne et argile",9,68
-terre de marne et argile,Matières brutes non-comestibles non transformées n.d.a.,7,1,"Engrais, terre de marne et argile",9,68
-terre de marne et engrais,Matières brutes non-comestibles non transformées n.d.a.,17,3,"Engrais, terre de marne et argile",9,68
+terre de marne,Matières brutes non-comestibles non transformées n.d.a.,6,1,Matières premières diverses,9,68
+terre de marne et argile,Matières brutes non-comestibles non transformées n.d.a.,7,1,Matières premières diverses,9,68
+terre de marne et engrais,Matières brutes non-comestibles non transformées n.d.a.,17,3,Matières premières diverses,9,68
 terre de pipes,Matières brutes non-comestibles non transformées n.d.a.,19,6,Matières premières diverses,18,601
 terre manganèse,Matières brutes non-comestibles non transformées n.d.a.,5,1,Matières premières diverses,18,601
 thon mariné,Autres produits alimentaires et animaux,4,3,Poissons et mollusques,28,851
 thé,Produits agricoles alimentaires des régions de colonisation européenne,339,27,Thé,27,339
-toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,87,7,Toileries diverses,12,320
-toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,5,1,Toileries diverses,12,320
-toile cirée et de crin et gommée,Filés ou tissés de laine et de poil,30,3,Toileries diverses,12,320
-toile cirée et gommée,Autres filés ou tissés mélangés de fibres végétales dont toiles,11,1,Toileries diverses,12,320
+toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,87,7,Toiles diverses,12,320
+toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,5,1,Toiles diverses,12,320
+toile cirée et de crin et gommée,Filés ou tissés de laine et de poil,30,3,Toiles diverses,12,320
+toile cirée et gommée,Autres filés ou tissés mélangés de fibres végétales dont toiles,11,1,Toiles diverses,12,320
 toile commune de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",12,1,Toile de chanvre et de lin,28,1112
-toile coutil,Autres filés ou tissés,12,4,Toileries diverses,12,320
-toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,8,2,Toileries diverses,12,320
+toile coutil,Autres filés ou tissés,12,4,Toiles diverses,12,320
+toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,8,2,Toiles diverses,12,320
 toile de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",93,10,Toile de chanvre et de lin,28,1112
 toile de chanvre et de lin,Autres filés ou tissés mélangés de fibres végétales dont toiles,650,28,Toile de chanvre et de lin,28,1112
 toile de chanvre et écrue et de lin,Autres filés ou tissés mélangés de fibres végétales dont toiles,7,1,Toile de chanvre et de lin,28,1112
 toile de coton,Filés ou tissés de coton,394,20,Toile de coton,28,708
-toile de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,172,23,Toile de coton,28,708
-toile de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",13,4,Toileries diverses,12,320
-toile de crin cirée,Filés ou tissés de laine et de poil,7,1,Toileries diverses,12,320
-toile de fil peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,27,3,Toileries diverses,12,320
+toile de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,172,23,Toiles diverses,28,708
+toile de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",13,4,Toiles diverses,12,320
+toile de crin cirée,Filés ou tissés de laine et de poil,7,1,Toiles diverses,12,320
+toile de fil peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,27,3,Toiles diverses,12,320
 toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",138,11,Toile de chanvre et de lin,28,1112
 toile de lin blanche,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",27,3,Toile de chanvre et de lin,28,1112
 toile de lin et de batiste et linon,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",72,4,Toile de chanvre et de lin,28,1112
-toile gommée et treillis,Autres filés ou tissés mélangés de fibres végétales dont toiles,3,1,Toileries diverses,12,320
-toile imprimée et de fil et peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,4,1,Toileries diverses,12,320
+toile gommée et treillis,Autres filés ou tissés mélangés de fibres végétales dont toiles,3,1,Toiles diverses,12,320
+toile imprimée et de fil et peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,4,1,Toiles diverses,12,320
 toile mouchoirs,Divers mélangés,4,1,Produits filés ou tissés divers,12,252
-toile peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,6,1,Toileries diverses,12,320
+toile peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,6,1,Toiles diverses,12,320
 toile pour voile,Machines et moyens de transport y compris sellerie,44,5,Bâtiments de mer et apparaux,17,186
-toile treillis,Autres filés ou tissés mélangés de fibres végétales dont toiles,14,4,Toileries diverses,12,320
-toile à carreaux,Autres filés ou tissés mélangés de fibres végétales dont toiles,7,2,Toileries diverses,12,320
-toile à carreaux et de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",56,6,Toileries diverses,12,320
-toile à carreaux pour matelas,Autres filés ou tissés mélangés de fibres végétales dont toiles,8,3,Toileries diverses,12,320
-toile écrue,Autres filés ou tissés mélangés de fibres végétales dont toiles,10,2,Toileries diverses,12,320
+toile treillis,Autres filés ou tissés mélangés de fibres végétales dont toiles,14,4,Toiles diverses,12,320
+toile à carreaux,Autres filés ou tissés mélangés de fibres végétales dont toiles,7,2,Toiles diverses,12,320
+toile à carreaux et de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",56,6,Toiles diverses,12,320
+toile à carreaux pour matelas,Autres filés ou tissés mélangés de fibres végétales dont toiles,8,3,Toiles diverses,12,320
+toile écrue,Autres filés ou tissés mélangés de fibres végétales dont toiles,10,2,Toiles diverses,12,320
 tournesol,Autres produits alimentaires et animaux,36,11,Matières brutes et pigments pour teinture,16,1203
 térébenthine,Produits chimiques transformés n.d.a.,2,1,"Essence, huile et pâte de térébenthine",28,323
 térébenthine en essence et térébenthine en huile et térébenthine en pâte,,19,1,"Essence, huile et pâte de térébenthine",28,323
@@ -922,7 +922,7 @@ vernis préparés,Produits chimiques transformés n.d.a.,21,2,Matières brutes e
 verrerie,"Articles minéraux non métalliques manufacturés, n.d.a.",358,23,Verrerie,28,661
 verrerie bouteilles,"Articles minéraux non métalliques manufacturés, n.d.a.",59,3,Verrerie,28,661
 verrerie diverse,"Articles minéraux non métalliques manufacturés, n.d.a.",95,5,Verrerie,28,661
-verres cassés,Matières brutes non-comestibles non transformées n.d.a.,1,1,Divers incertains,28,3085
+verres cassés,Matières brutes non-comestibles non transformées n.d.a.,1,1,Verrerie,28,3085
 vin,Boissons et tabac,226,20,Vins divers,28,871
 vin commun,Boissons et tabac,20,1,Vins divers,28,871
 vin de Bordeaux,Boissons et tabac,214,25,Vins de Bordeaux,28,268
@@ -930,8 +930,8 @@ vin de Bordeaux fin,Boissons et tabac,13,1,Vins de Bordeaux,28,268
 vin de Bordeaux ordinaire,Boissons et tabac,41,3,Vins de Bordeaux,28,268
 vin de liqueurs,Boissons et tabac,337,28,Vin de liqueurs,28,337
 vin divers,Boissons et tabac,467,26,Vins divers,28,871
-vin en bouteilles de Bordeaux fin,Boissons et tabac,25,2,Vins divers,28,871
-vin et eau-de-vie,Boissons et tabac,9,1,Subsistances diverses et mélangées,17,535
+vin en bouteilles de Bordeaux fin,Boissons et tabac,25,2,Vins de Bordeaux,28,871
+vin et eau-de-vie,Boissons et tabac,9,1,Eaux-de-vie et liqueurs,17,535
 vin fin,Boissons et tabac,39,2,Vins divers,28,871
 vin fin en bouteilles,Boissons et tabac,20,1,Vins divers,28,871
 vin ordinaire,Boissons et tabac,62,3,Vins divers,28,871
@@ -944,27 +944,27 @@ zinc,"Métaux, produits métalliques et outils",30,5,Métaux divers et mélangé
 zinc pour fabriquer le laiton,"Métaux, produits métalliques et outils",11,2,Métaux divers et mélangés,27,376
 ânes,Autres produits alimentaires et animaux,42,13,Bêtes de somme,28,417
 ânes et mulets,Autres produits alimentaires et animaux,11,4,Bêtes de somme,28,417
-écaille,Matières brutes non-comestibles non transformées n.d.a.,90,10,"Corail brut, nacre et écaille",12,217
+écaille,Matières brutes non-comestibles non transformées n.d.a.,90,10,"Cornes, corail, écailles, ivoire et nacre",12,217
 échouements et prises,Divers incertains,2,1,Divers incertains,28,3085
-écorce de bois,Matières brutes non-comestibles non transformées n.d.a.,5,1,Écorce,11,98
-écorce de citron et d'orange,Autres produits alimentaires et animaux,12,3,Écorce,11,98
-écorce pour tanner,Matières brutes non-comestibles non transformées n.d.a.,19,4,Écorce,11,98
-écorce à tanner,Matières brutes non-comestibles non transformées n.d.a.,62,9,Écorce,11,98
+écorce de bois,Matières brutes non-comestibles non transformées n.d.a.,5,1,Matières premières diverses,11,98
+écorce de citron et d'orange,Autres produits alimentaires et animaux,12,3,Matières premières diverses,11,98
+écorce pour tanner,Matières brutes non-comestibles non transformées n.d.a.,19,4,Matières premières diverses,11,98
+écorce à tanner,Matières brutes non-comestibles non transformées n.d.a.,62,9,Matières premières diverses,11,98
 émail brut,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1,Matières premières diverses,18,601
 émeri,Matières brutes non-comestibles non transformées n.d.a.,1,1,Matières premières diverses,18,601
 épicerie,Divers mélangés,331,25,Denrées coloniales et épiceries diverses,28,446
 épingles,"Métaux, produits métalliques et outils",39,4,Quincaillerie,28,740
-éponges,Matières brutes non-comestibles non transformées n.d.a.,104,12,Éponges,13,110
-éponges communes et fines,Matières brutes non-comestibles non transformées n.d.a.,6,1,Éponges,13,110
+éponges,Matières brutes non-comestibles non transformées n.d.a.,104,12,Ouvrages d'industrie divers,13,110
+éponges communes et fines,Matières brutes non-comestibles non transformées n.d.a.,6,1,Ouvrages d'industrie divers,13,110
 étain,"Métaux, produits métalliques et outils",307,28,Étain,28,307
 étain et plomb,"Métaux, produits métalliques et outils",18,1,Métaux divers et mélangés,27,376
 étampes,Autres filés ou tissés mélangés de fibres végétales dont toiles,17,1,Produits filés ou tissés divers,12,252
 étoffe,Autres filés ou tissés,296,23,Étoffes diverses,28,570
 étoffe de chanvre et de fil de lin en toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,12,1,Étoffes diverses,28,570
 étoffe de chanvre et de lin en toile diverse,Autres filés ou tissés mélangés de fibres végétales dont toiles,26,2,Étoffes diverses,28,570
-étoffe de coton,Filés ou tissés de coton,239,24,Étoffe de coton,27,261
-étoffe de coton et de fil,Filés ou tissés de coton,12,3,Étoffe de coton,27,261
-étoffe de coton et de fil mélangés,Filés ou tissés de coton,10,3,Étoffe de coton,27,261
+étoffe de coton,Filés ou tissés de coton,239,24,Étoffes de coton,27,261
+étoffe de coton et de fil,Filés ou tissés de coton,12,3,Étoffes diverses,27,261
+étoffe de coton et de fil mélangés,Filés ou tissés de coton,10,3,Étoffes diverses,27,261
 étoffe de coton et de laine,Autres filés ou tissés,16,3,Étoffes diverses,28,570
 étoffe de coton et de laine et de filoselle,Autres filés ou tissés,7,1,Étoffes diverses,28,570
 étoffe de coton et de laine et de soie mélangés,Filés ou tissés de soie et soie mélangée,26,3,Étoffes diverses,28,570
@@ -972,17 +972,17 @@ zinc pour fabriquer le laiton,"Métaux, produits métalliques et outils",11,2,M�
 étoffe de coton et drap de coton et velours de coton et couvertures de coton,Filés ou tissés de coton,13,1,Cotonnades diverses,7,114
 étoffe de crin,Filés ou tissés de laine et de poil,29,3,Étoffes diverses,28,570
 étoffe de fleuret,Filés ou tissés de soie et soie mélangée,19,3,Étoffes diverses,28,570
-étoffe de laine,Filés ou tissés de laine et de poil,223,19,Étoffe de laine,20,240
-étoffe de laine et de poil,Filés ou tissés de laine et de poil,17,1,Étoffe de laine,20,240
-étoffe de soie,Filés ou tissés de soie et soie mélangée,505,25,Étoffe de soie,28,614
+étoffe de laine,Filés ou tissés de laine et de poil,223,19,Étoffes de laine,20,240
+étoffe de laine et de poil,Filés ou tissés de laine et de poil,17,1,Étoffes de laine,20,240
+étoffe de soie,Filés ou tissés de soie et soie mélangée,505,25,Étoffes de soie,28,614
 étoffe diverse couvertures et draperie pour le gouvernement,Autres filés ou tissés,5,1,Produits filés ou tissés divers,12,252
 étoffe en dorure et galon et passementerie,Autres filés ou tissés,24,2,Produits filés ou tissés divers,12,252
 étoffe en or mêlée de soie,Filés ou tissés de soie et soie mélangée,27,5,Étoffes diverses,28,570
 étoffe et rubanerie de fleuret,Filés ou tissés de soie et soie mélangée,10,3,Soieries diverses,28,524
 étoffe riche,Autres filés ou tissés,111,18,Étoffes diverses,28,570
 étoffe à carreaux et de toile de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",1,1,Étoffes diverses,28,570
-étoffes brochées de pure soie et unies,Filés ou tissés de soie et soie mélangée,39,2,Étoffe de soie,28,614
-étoffes brochées de soie et unies,Filés ou tissés de soie et soie mélangée,70,4,Étoffe de soie,28,614
+étoffes brochées de pure soie et unies,Filés ou tissés de soie et soie mélangée,39,2,Étoffes de soie,28,614
+étoffes brochées de soie et unies,Filés ou tissés de soie et soie mélangée,70,4,Étoffes de soie,28,614
 étoffes et gaze et crêpe et tulle,Autres filés ou tissés,10,1,Produits filés ou tissés divers,12,252
 œufs,Autres produits alimentaires et animaux,53,10,Chairs et œufs,28,801
 œufs et volaille,Autres produits alimentaires et animaux,19,4,Chairs et œufs,28,801
