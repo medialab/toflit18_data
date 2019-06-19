@@ -831,6 +831,7 @@ merge 1:m product_revolutionempire using "blif.dta"
 drop _merge
 order product_simplification product_sitc_FR observations_total années_observées product_revolutionempire
 rename product_* *
+sort product_simplification
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
