@@ -6,6 +6,7 @@ grouping,country,simplification,Grouping,Guillaume Daudin,Country classification
 obrien,country,simplification,O’Brien,Guillaume Daudin,Country classification to compare 1789 and 1815 trade
 sourcename,country,simplification,Source Names,Guillaume Daudin,Country classification to unify source names
 wars,country,simplification,War,Guillaume Daudin,Country classification to identify war status (allies and foes)
+africa,country,simplification,Africa,Guillaume Daudin,Identification of African trade partners
 source,product,,Source,TOFLIT 18,the product names as transcribed from archive volumes
 orthographic,product,source,Orthographic normalization,Pierre Gervais,The orthographic variations of product names are merged
 simplification,product,orthographic,Simplification,Pierre Gervais,Different product names designating the same good are merged
@@ -17,9 +18,10 @@ grains,product,simplification,Grains,Federico D’Onofrio,Identification of grai
 hamburg,product,simplification,Hamburg,Alexandre Aubourg,Classification of goods to compare with Hamburg trade 
 medicinales,product,simplification,Medicinal products,Pierre Hollegien,Identification of medical goods
 porcelaine,product,simplification,China,Nicholas O’Neill,Identification of china goods
-sitc,product,simplification,SITC18,Pierre Gervais,24 category classification inspired by modern SITC (codes)
-sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24 category classification inspired by modern SITC (English names)
-sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24 category classification inspired by modern SITC (French names)
-sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14 category classification inspired by modern SITC (English names)
+sitc,product,simplification,SITC18,Pierre Gervais,24-category classification inspired by modern SITC (codes)
+sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24-category classification inspired by modern SITC (English names)
+sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24-category classification inspired by modern SITC (French names)
+sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14-category classification inspired by modern SITC (English names)
 ulrich,product,simplification,Ulrich,Ulrich Pfister,Classification of goods requested by Ulrich Pfister. For comparison with Hamburg trade 
 v_glass_beads,product,simplification,Venitian Glass Beads,Pierre Niccolò Sofia,Identification of venitian glass beads goods
+revolutionempire,product,simplification,Revolution and Empire,Stephen Jackson,200-category classification inspired by Résumé (post 1787)

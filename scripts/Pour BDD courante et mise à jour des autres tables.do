@@ -22,7 +22,7 @@ cd "$dir"
 
 foreach file in classification_country_orthographic classification_country_simplification classification_country_grouping /*
 */				 classification_country_obrien classification_country_wars /*
-*/				 classification_country_sourcename /*
+*/				 classification_country_sourcename classification_country_africa /*
 */               classification_product_orthographic classification_product_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_product_edentreaty classification_product_canada /*
 */				 classification_product_medicinales classification_product_hamburg classification_product_grains /*
@@ -31,7 +31,7 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 classification_product_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
-*/ 				 classification_product_v_glass_beads	{
+*/ 				 classification_product_v_glass_beads classification_product_revolutionempire {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -425,6 +425,26 @@ sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_country_sourcename.csv", replace
 
+*******************************
+
+use "classification_country_simplification.dta", clear
+drop note
+merge m:1 simplification using "classification_country_africa.dta"
+
+drop if _merge==2
+drop _merge
+
+capture drop nbr_occurences_africa
+bys africa : egen nbr_occurences_africa=total(nbr_occurences_ortho)
+
+bys simplification : keep if _n==1
+keep simplification africa nbr_occurences_simpl nbr_occurences_africa note
+save "classification_country_africa.dta", replace
+generate sortkey = ustrsortkey(simplification, "fr")
+sort sortkey
+drop sortkey
+export delimited "$dir/toflit18_data_GIT/base/classification_country_africa.csv", replace
+
 
 
 
@@ -485,7 +505,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_simplificat
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton ulrich coffee porcelaine v_glass_beads {
+		*/ grains  coton ulrich coffee porcelaine v_glass_beads revolutionempire {
 
 	use "classification_product_`file_on_simp'.dta", clear
 	bys simplification : drop if _n!=1
@@ -555,7 +575,7 @@ drop if _merge==2
 drop note-_merge
 
 foreach class_name in grouping obrien ///
-			sourcename wars {
+			sourcename wars africa {
 
 	merge m:1 simplification using "classification_country_`class_name'.dta"
 	drop if _merge==2
@@ -583,7 +603,7 @@ foreach class_name in sitc edentreaty ///
 				canada medicinales hamburg ///
 				grains  coton ulrich ///
 				coffee porcelaine ///
-				v_glass_beads {
+				v_glass_beads revolutionempire {
 
 	merge m:1 simplification using "classification_product_`class_name'.dta"
 	drop if _merge==2
@@ -596,6 +616,7 @@ rename orthographi product_orthographic
 
 foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 
+	capture drop product_`class_name'
 	rename product_sitc sitc
 	merge m:1 sitc using "classification_product_`class_name'.dta"
 	rename sitc product_sitc
@@ -662,7 +683,8 @@ rename yearnum year
  drop  remarque_unit-_merge
  codebook q_conv
  
- generate quantites_metric = q_conv * quantit
+ generate quantities_metric = q_conv * quantit
+ generate unit_price_metric=value/quantities_metric
  
  save "$dir/Données Stata/bdd courante", replace
 
@@ -787,6 +809,31 @@ save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replac
 export delimited "$dir/toflit18_data_GIT/base/marchandises_pour_nouvelle_classification.csv", replace
 
 
+*****Pour travail de Stephen Jackson sur la classification impériale
+
+use "$dir/Données Stata/bdd courante", clear
+keep if sourcetype=="Résumé"
+collapse (count) value, by(year product_simplification product_sitc_FR product_revolutionempire)
+rename value observations_total
+collapse (count) year (sum) observations_total , by( product_simplification product_sitc_FR product_revolutionempire)
+rename year années_observées
+
+save blif.dta, replace
+
+use "$dir/Données Stata/bdd courante", clear
+keep if sourcetype=="Résumé"
+collapse (count) value, by(year product_revolutionempire)
+rename value observations_total_bis
+collapse (count) year (sum) observations_total , by( product_revolutionempire)
+rename year années_observées_bis
+
+merge 1:m product_revolutionempire using "blif.dta"
+drop _merge
+order product_simplification product_sitc_FR observations_total années_observées product_revolutionempire
+rename product_* *
+sort product_simplification
+export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
+erase blif.dta
 
 
 
