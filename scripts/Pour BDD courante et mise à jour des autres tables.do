@@ -849,9 +849,13 @@ erase blif.dta
 */
 
 insheet using "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", clear
-merge 1:1 simplification using "$dir/toflit18_data_GIT/base/classification_product_sitc.csv"
+keep simplification	nbr_occurences_simpl revolutionempire nbr_occurences_revolutionempire
+merge 1:1 simplification using "$dir/Données Stata/classification_product_sitc.dta"
+drop imprimatur obsolete nbr_occurences_sitc
 drop _merge
-merge m:1 sitc using "$dir/toflit18_data_GIT/base/classification_product_sitc_EN.csv"
+merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
+sort simplification
+drop _merge
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 
 
