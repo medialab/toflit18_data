@@ -31,7 +31,8 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 classification_product_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
-*/ 				 classification_product_v_glass_beads classification_product_revolutionempire {
+*/ 				 classification_product_v_glass_beads /*
+*/				 classification_product_RE_aggregate {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -625,6 +626,15 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 	rename `class_name' product_`class_name'
 }
 
+
+capture drop product_RE_aggregate
+rename product_revolutionempire revolutionempire
+merge m:1 revolutionempire using "classification_product_RE_aggregate.dta"
+rename revolutionempire product_revolutionempire
+drop if _merge==2
+drop _merge
+rename RE_aggregate product_RE_aggregate
+
 local j 5
 generate yearbis=year
 foreach i of num 1797(1)1805 {
@@ -809,8 +819,9 @@ save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replac
 export delimited "$dir/toflit18_data_GIT/base/marchandises_pour_nouvelle_classification.csv", replace
 
 
-*****Pour travail de Stephen Jackson sur la classification impériale
 
+*****Pour travail de Stephen Jackson sur la classification impériale
+/*
 use "$dir/Données Stata/bdd courante", clear
 keep if sourcetype=="Résumé"
 collapse (count) value, by(year product_simplification product_sitc_FR product_revolutionempire)
@@ -835,5 +846,12 @@ sort simplification
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
+*/
+
+insheet using "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", clear
+merge 1:1 simplification using "$dir/toflit18_data_GIT/base/classification_product_sitc.csv"
+drop _merge
+merge m:1 sitc using "$dir/toflit18_data_GIT/base/classification_product_sitc_EN.csv"
+export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 
 
