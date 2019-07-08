@@ -1,4 +1,5 @@
 orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
+,507,[non traité],507
 ???,91,???,93
 ??? blanc,2,??? blanc,2
 ??? brun,2,??? brun,2
@@ -24,7 +25,7 @@ orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
 ?ufs,1,?ufs,1
 ... d'argent,1,??? d'argent,1
 [vide],2417,[vide],2417
-à jamis,276,toile à jamis,276
+à jamis,276,toile à jamis,290
 à l'aventure,1,à l'aventure,1
 à son lest,1,lest,6
 à vide,2,à vide,2
@@ -657,6 +658,7 @@ atlas et instruments de marine,1,atlas et instruments de marine,1
 atlas jaspé,1,atlas jaspé,1
 attaches de cuivre,1,attaches de cuivre,1
 attelles de colliers,14,attelles de colliers,14
+au lest,1,,27
 aube,1,aube,1
 auclimes,2,auclimes,2
 auf,117,auf,117
@@ -671,17 +673,29 @@ aurcsats,1,aurcsats,1
 aurcsats étoile,1,aurcsats étoile,1
 aussière,2,aussière,2
 autel de marbre,2,autel de marbre,2
-autre outil de pur acier,1,outil d'acier pur,1
+autres,3,,27
 autres céréales farine,4,farine,1570
 autres céréales grains,5,grains,6
 autres céréales grains de la Corse,1,grains de la Corse,1
+autres comestibles,1,,27
 autres couleurs autrement préparées,2,couleurs autrement préparées,2
 autres couleurs préparées à l'huile,2,couleurs préparées à l'huile,2
+autres denrées,1,,27
+autres drogueries,1,,27
+autres marchandises,1,,27
+autres marchandises anglaises,1,,27
+autres marchandises permises,1,,27
 autres matériaux de construction,2,matériaux de construction,101
 autres matières minérales de toute sorte,2,matières minérales,2
 autres métaux,144,métaux,145
+autres outil de pur acier,1,,27
 autres outils de fer rechargé d'acier,1,outils de fer rechargé d'acier,8
 autres outils de pur fer,1,outils de fer pur,8
+autres pour la pêche à la morue,1,,27
+autres pour la pêche au poisson frais,1,,27
+autres pour la pêche aux moules,1,,27
+aux sables et aux goëmon,2,,27
+aux travaux du Roi,2,,27
 avelanèdes,53,avelanèdes,58
 "avelanèdes, valonèdes ou vallonées",5,avelanèdes,58
 avelines,8,avelines,8
@@ -728,6 +742,7 @@ baffetas,105,taffetas,216
 baffetas blanc,19,baffetas blanc,19
 baffetas bleu,26,baffetas bleu,26
 bafs ?,1,bafs ?,1
+bagages,1,,27
 bagarot,1,bagarot,1
 bagues,5,bagues,5
 bagues à pierres fausses,1,bagues à pierres fausses,1
@@ -818,7 +833,9 @@ balles à jouer,2,balles à jouer,2
 balles d'osier,3,balles d'osier,3
 balles de fer uni,1,balles de fer uni,1
 balles de jonc,1,balles de jonc,1
+balles de laine,1,,27
 balles de palme,1,balles de palme,1
+balles de plumes,1,,27
 balles vides,1,balles vides,1
 ballons de sapin,1,ballons de sapin,1
 balustres,12,balustres,12
@@ -1804,8 +1821,8 @@ bois d'acajou planches de 8 pieds,1,planches d'acajou de 8 pieds,4
 bois d'aloès,10,bois d'aloès,13
 bois d'alois,1,bois d'aloès,13
 bois d'amarante,3,bois d'amarante,3
-bois d'Angeot,2,bois d'Angeot,3
 bois d'angeot,1,bois d'Angeot,3
+bois d'Angeot,2,bois d'Angeot,3
 bois d'Angola,1,bois d'Angola,1
 bois d'ansprete,2,bois d'ansprete,2
 bois d'arc,1,bois d'arc,1
@@ -3015,6 +3032,7 @@ boutons d'or,56,boutons d'or,57
 boutons d'or et d'argent,29,boutons d'or et boutons d'argent,29
 boutons d'or faux,2,boutons d'or faux,2
 boutons d'or filé,2,boutons d'or filé,2
+boutons d'or trait,2,,27
 boutons d'or vrai,1,boutons d'or vrai,2
 boutons d'os,5,boutons d'os,5
 boutons d'os et de corne,1,boutons d'os et de corne,1
@@ -3080,11 +3098,10 @@ boutons dorés,1,boutons d'or,57
 boutons dorure argentés,1,boutons de dorure d'argent,18
 boutons dorure d'argent,17,boutons de dorure d'argent,18
 boutons dorure d'or,59,boutons de dorure d'or,59
-boutons dorure d'or et argent,2,boutons de dorure d'or et d'argent,68
+boutons dorure d'or et argent,4,boutons de dorure d'or et d'argent,68
 boutons dorure d'or faux,4,boutons de dorure d'or faux,4
 boutons dorure d'or fin,13,boutons de dorure d'or fin,13
 boutons dorure or et argent,64,boutons de dorure d'or et d'argent,68
-boutons dorure or et argt,2,boutons de dorure d'or et d'argent,68
 boutons en crin,4,boutons de crin,99
 boutons en médailles,1,boutons en médailles,1
 boutons et galon or et argent,1,boutons et galons d'argent et d'or,1
@@ -3529,6 +3546,7 @@ cambaye à grands carreaux,1,cambaye à grands carreaux,1
 cambouis,1,cambouis,1
 Cambrai,1,toile de Cambrai,72
 Cambrai aune,1,toile de Cambrai aune,1
+camelles,2,,27
 camelot,211,camelot,229
 camelot à peu de soie,15,camelot à peu de soie,15
 camelot au quart,1,camelot au quart,3
@@ -11580,10 +11598,10 @@ formage de Chassenay,1,fromage de Chassenay,1
 forme,2,forme,2
 forme à cendre,1,forme à cendre,1
 forme à cordonnier,2,forme à cordonnier,4
-forme à faire sucre,1,forme à sucre,25
+forme à faire sucre,1,forme à sucre,26
 forme à pot à fleurs,1,forme à pot à fleur,1
 forme à souliers,6,forme à soulier,12
-forme à sucre,14,forme à sucre,25
+forme à sucre,15,forme à sucre,26
 forme à sucre de terre,1,forme à sucre de terre,58
 forme de bois,1,forme de bois,1
 forme de chapeaux,3,forme à chapeaux,3
@@ -12627,8 +12645,8 @@ gomme d'ambrette,2,gomme d'ambrette,2
 gomme d'ammoniac,1,gomme d'ammoniac,1
 gomme d'arabique,1,gomme arabique,609
 gomme d'élémi,2,gomme d'élémi,2
-gomme de Barbarie,39,gomme de Barbarie,82
 gomme de barbarie,30,gomme de Barbarie,82
+gomme de Barbarie,39,gomme de Barbarie,82
 gomme de cèdre,27,gomme de cèdre,27
 gomme de cerisier,1,gomme de cerisier,1
 gomme de Copahu,1,gomme de Copahu,1
@@ -12914,8 +12932,8 @@ graine de toute sorte,1,graine diverse,415
 graine de trèfle,312,graine de trèfle,326
 graine de trèfle et de luzerne,1,graine de luzerne et de trèfle,130
 graine de trèfle et luzerne,128,graine de luzerne et de trèfle,130
-graine de tremaille,4,graine de tremaine,10
-graine de tremaine,5,graine de tremaine,10
+graine de tremaille,4,graine de tremaine,11
+graine de tremaine,6,graine de tremaine,11
 graine de triotet,1,graine de trioter,1
 graine de truelle,1,graine de truelle,1
 graine de truffe,5,graine de truffe,5
@@ -12934,7 +12952,7 @@ graine diverse,410,graine diverse,415
 graine diverse blé,1,grains froment,1795
 graine diverse de chanvre,1,graine de chanvre,256
 graine diverse de trèfle,1,graine de trèfle,326
-graine diverse de tremaine,1,graine de tremaine,10
+graine diverse de tremaine,1,graine de tremaine,11
 graine diverse et de jardin,1,graine diverse et de jardin,25
 graine diverse riz,2,grains riz,2058
 graine douce,2,graine douce,2
@@ -19862,8 +19880,8 @@ pierres de barre,1,pierres de barre,1
 pierres de barriques,1,pierres de barriques,1
 pierres de bas de meule,1,pierres de bas de meule,1
 pierres de Bentem,1,pierres de Bentem,1
-pierres de Bidache,6,pierres de Bidache,8
 pierres de bidache,2,pierres de Bidache,8
+pierres de Bidache,6,pierres de Bidache,8
 pierres de Bidache en carreaux,1,pierres de Bidache en carreaux,1
 pierres de bleu,1,pierres de bleu,1
 pierres de Briançon,1,pierres de Briançon,1
@@ -20697,7 +20715,7 @@ platies,2,platies,2
 platille,53,platille,341
 platille pour Guinée,1,platille pour Guinée,1
 platines,4,platines,4
-platines à cassave,11,platines à cassave,11
+platines à cassave,13,platines à cassave,13
 platines à verdet,1,platines à verdet,1
 platines de cuivre,1,platines de cuivre,106
 platines de fer,11,platines de fer,11
@@ -21028,8 +21046,8 @@ pois communs,1,pois communs,1
 pois confits,1,pois confits,1
 pois crus,2,pois crus,2
 pois d'Espagne ou Garavance,1,pois d'Espagne,1
-pois de Bourgogne,95,pois de Bourgogne,104
 pois de bourgogne,8,pois de Bourgogne,104
+pois de Bourgogne,95,pois de Bourgogne,104
 pois de Bourgonne,1,pois de Bourgogne,104
 pois de Grasse,1,pois de Grasse,1
 pois en gerbes,1,pois en gerbe,1
@@ -21409,7 +21427,7 @@ poterie commune,3,poterie commune,3
 poterie crue,1,poterie crue,1
 poterie d'orient,1,poterie d'orient,1
 poterie de fer,1,poterie de fer,31
-poterie de forme à sucre,2,forme à sucre,25
+poterie de forme à sucre,2,forme à sucre,26
 poterie de grès,242,poterie de grès,244
 poterie de grès barbançons,23,poterie de grès barbançons,24
 poterie de grès barbues,1,poterie de grès barbues,1
@@ -21446,10 +21464,10 @@ poterie en cruches de grès,5,cruches de grès,29
 poterie en cruches de terre,2,cruches de terre,12
 poterie en jarres,7,poterie jarre,9
 poterie en terre,2,poterie de terre,432
-poterie et forme à sucre,5,forme à sucre,25
+poterie et forme à sucre,5,forme à sucre,26
 poterie et terre,3,poterie et terre,3
 poterie faïence et verrerie,53,poterie de faïence et verrerie,53
-poterie forme à sucre,3,forme à sucre,25
+poterie forme à sucre,3,forme à sucre,26
 poterie grès,1,poterie grès,1
 poterie jarres,2,poterie jarre,9
 poterie ordinaire,1,poterie ordinaire,1
@@ -23292,7 +23310,7 @@ soie bourre en masse teinte,1,soie bourre en masse teinte,1
 soie bourre filée (fleuret écru),1,soie bourre filée fleuret écru,1
 soie bourre filée (fleuret teint),1,soie bourre filée fleuret teint,1
 soie bourre fleuret écru et teint,1,soie bourre fleuret écru et teint,1
-soie brousse,1,soie brousse,1
+soie brousse,3,soie brousse,3
 soie Canton,1,soie Canton,1
 soie cendre,1,soie cendre,1
 soie cocons,1,soie cocon,1
@@ -23318,8 +23336,8 @@ soie de sanglier,6,soie de sanglier,6
 soie de toile,4,soie de toile,4
 soie de toile vieille,2,soie de toile vieille,2
 soie de Zagora,1,soie de Zagora,1
-soie des Indes,3,soie des Indes,6
 soie des indes,2,soie des Indes,6
+soie des Indes,3,soie des Indes,6
 soie des pays étrangers,1,soie des pays étrangers,1
 soie dite filoselle,1,soie dite filoselle,1
 soie dite fleuret,1,soie dite fleuret,1
@@ -24044,6 +24062,7 @@ tabac en rolles,4,tabac en rolle,4
 tabac en rouleau,12,tabac en rouleau,12
 tabac et savon,1,tabac et savon,1
 tabac et son d'Espagne,1,tabac et son d'Espagne,1
+tabac et sucre,2,,27
 tabac fabriqué,47,tabac fabriqué,47
 tabac fabriqué cigares par autorisation,1,cigares par autorisation,1
 tabac fabriqué ou seulement préparé,4,tabac fabriqué et préparé,4
@@ -24905,7 +24924,7 @@ toile à faire linge,1,toile pour faire linge,1
 toile à fleurs,4,toile à fleurs,4
 toile à halle,1,toile à halle,1
 toile à image,1,toile à image,1
-toile à jamis,13,toile à jamis,13
+toile à jamis,13,toile à jamis,290
 toile à killis,1,toile de killis,4
 toile à matelas,69,toile à matelas,73
 toile à matelot,5,toile à matelot,5
@@ -25100,8 +25119,8 @@ toile chapelur,1,toile chapelur,1
 toile chapilas,3,toile chapilas,3
 toile chasselas,28,toile chasselas,28
 toile chebine,2,toile chebiny,5
-Toile chebiny,2,toile chebiny,5
 toile chebiny,1,toile chebiny,5
+Toile chebiny,2,toile chebiny,5
 toile chille,1,toile chille,1
 toile chitte,3,toile chitte,3
 toile choilette,1,toile choilette,1
@@ -25140,7 +25159,7 @@ toile corot simple,1,toile corot simple,1
 toile coton,17,toile de coton,1254
 toile coton à bas,1,toile de coton à bas,1
 toile coton à fleurs,5,toile de coton à fleurs,13
-toile coton à jamis,1,toile à jamis,1
+toile coton à jamis,1,toile à jamis,290
 toile coton aman,1,toile de coton aman,1
 toile coton Antioche,1,toile de coton d'Antioche,1
 toile coton blanche,4,toile de coton blanche,4
@@ -25343,8 +25362,8 @@ toile de Bretagne de Moutier,1,toile de Moutier,1
 toile de Bretagne de Noirmoutier,1,toile de Noirmoutier,1
 toile de Bretagne de Poldavie,12,toile de Poldavie,38
 toile de Bretagne de Pontigny,1,toile de Pontigny,1
-toile de Bretagne de Pontivy,17,toile de Pontivy,32
 toile de Bretagne de pontivy,1,toile de Pontivy,32
+toile de Bretagne de Pontivy,17,toile de Pontivy,32
 toile de Bretagne de Pouldavid,17,toile de Pouldavid,21
 toile de Bretagne de quatre fils,1,toile de Bretagne de quatre fils,1
 toile de Bretagne de Quintin,6,toile de Quintin,22
@@ -25587,8 +25606,8 @@ toile de coton mousseline,30,mousseline de coton,98
 toile de coton mousseline broché,1,mousseline brochée de coton,1
 toile de coton mousseline brodée,1,mousseline brodée de coton,1
 toile de coton mousseline et mousselinette,1,mousseline et mousselinette de coton,1
-toile de coton Nankin,42,nankin,193
 toile de coton nankin,1,nankin,193
+toile de coton Nankin,42,nankin,193
 toile de coton nationale,5,toile de coton nationale,5
 toile de coton non ???,1,toile de coton non ???,1
 toile de coton peinte,72,toile de coton peinte,73
@@ -26218,8 +26237,8 @@ toile gommée treillis,4,treillis gommé,5
 toile grasse,8,toile grasse,8
 toile gratienne,26,toile gratienne,26
 toile gratienne rayée,1,toile gratienne rayée,1
-toile Grenade,25,toile de Grenade,45
 toile grenade,2,toile de Grenade,45
+toile Grenade,25,toile de Grenade,45
 toile Grenade de lin,3,toile de Grenade de lin,5
 toile Grenade lin,2,toile de Grenade de lin,5
 toile grise,107,toile grise,107
@@ -27047,8 +27066,8 @@ verres de cristal,224,verres de cristal,368
 verres de cristallin,2,verres de cristal,368
 verres de lampes,2,verres de lampes,2
 verres de lanternes,1,verres de lanternes,1
-verres de Lorraine,5,verres de Lorraine,6
 verres de lorraine,1,verres de Lorraine,6
+verres de Lorraine,5,verres de Lorraine,6
 verres de mer,2,verres de mer,2
 verres de montres,54,verres pour montre,55
 verres de pour estampes,1,verres pour estampes,4
@@ -27324,8 +27343,8 @@ vin de Blois,2,vin de Blois,2
 vin de Bordeaux,1072,vin de Bordeaux,1156
 vin de Bordeaux de Blaye,49,vin de Bordeaux de Blaye,49
 vin de Bordeaux de Bourg,13,vin de Bourg,53
-vin de Bordeaux de Castillon,1,vin de Castillon,28
-vin de Bordeaux de Catillon,2,vin de Castillon,28
+vin de Bordeaux de Castillon,1,vin de Castillon,30
+vin de Bordeaux de Catillon,2,vin de Castillon,30
 vin de Bordeaux de haut,236,vin de Bordeaux de haut,252
 vin de Bordeaux de Médoc,2,vin de Médoc,8
 vin de Bordeaux de ville,291,vin de Bordeaux de ville,291
@@ -27372,7 +27391,7 @@ vin de Bretagne,1,vin de Bretagne,1
 vin de Cabreton,5,vin de Cabreton,5
 vin de Cahors,20,vin de Cahors,20
 vin de Calabre,1,vin de Calabre,1
-vin de Castillon,25,vin de Castillon,28
+vin de Castillon,27,vin de Castillon,30
 vin de Catalogne,6,vin de Catalogne,8
 vin de Cauret,1,vin de Cauret,1
 vin de cédrat,1,vin de cédrat,1
@@ -27380,8 +27399,8 @@ vin de Cette,7,vin de Cette,7
 vin de Chablis,1,vin de Chablis,2
 vin de Chagny,3,vin de Chagny,10
 vin de Chalosse,3,vin de Chalosse,3
-vin de Champagne,590,vin de Champagne,663
 vin de champagne,1,vin de Champagne,663
+vin de Champagne,590,vin de Champagne,663
 vin de Champagne de Bar-sur-Aube,1,vin de Bar-sur-Aube,1
 vin de Champagne de Châlon,27,vin de Châlon,31
 vin de Champagne de Chaumont,2,vin de Chaumont,2
@@ -27430,8 +27449,8 @@ vin de France de Bordeaux au muid,20,vin de Bordeaux au muid,20
 vin de France de Bordeaux de retour,2,vin de Bordeaux de retour,2
 vin de France de Bordeaux en bouteilles,4,vin de Bordeaux en bouteilles,4
 vin de France de Bourgogne,6,vin de Bourgogne,655
-vin de France de Bourgogne en Bouteilles,6,vin de Bourgogne en bouteilles,19
 vin de France de Bourgogne en bouteilles,2,vin de Bourgogne en bouteilles,19
+vin de France de Bourgogne en Bouteilles,6,vin de Bourgogne en bouteilles,19
 vin de France de Bourgogne en muid,14,vin de Bourgogne en muid,14
 vin de France de Champagne,4,vin de France de Champagne,4
 vin de France de Champagne en bouteilles,13,vin de Champagne en bouteilles,13
@@ -27737,8 +27756,8 @@ vin rouge très gras,1,vin rouge très gras,1
 vin Saint-Ange,1,vin Saint-Ange,1
 vin Saint-Laurent,1,vin Saint-Laurent,1
 vin Syracuse,1,vin de Syracuse,11
-vin Tinto,18,vin Tinto,19
 vin tinto,1,vin Tinto,19
+vin Tinto,18,vin Tinto,19
 vin vendange,2,vin vendange,2
 vin verdé de Florence,1,vin verdé de Florence,1
 vin ville,7,vin de ville,738
@@ -27876,4 +27895,3 @@ zinc ouvré,2,ouvrages de zinc,2
 zinc pour fabriquer le laiton,11,zinc pour fabriquer le laiton,11
 zingar,6,zingar,6
 zurich,3,zurich,3
-,541,[non traité],541
