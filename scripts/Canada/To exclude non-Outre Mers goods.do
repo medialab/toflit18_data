@@ -7,6 +7,7 @@ format value %-15.2fc
 format quantities_metric %-15.2fc
 
 **Ici je ne prends que parmi les partenaires présents avant 1765
+drop surement_pas_canada
 gen surement_pas_canada=1
 
 tab country_simplification if year <=1765
@@ -23,7 +24,7 @@ replace surement_pas_canada=0 if exportsimports == "Imports"  &  ( ///
 collapse (min) surement_pas_canada, by(product_simplification)
 
 rename product_simplification simplification
-merge 1:1 simplification using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/classification_product_canada.dta"
+merge 1:1 simplification using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/classification_product_canada.dta", force
 
 replace canada = "Pas importé en France depuis l'Atlantique avant 1765" if _merge==2
 drop _merge
