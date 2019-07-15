@@ -31,8 +31,8 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 classification_product_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
-*/ 				 classification_product_v_glass_beads /*
-*/				 classification_product_RE_aggregate {
+*/ 				 classification_product_v_glass_beads classification_product_beaver/*
+*/				 classification_product_RE_aggregate classification_product_revolutionempire {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -506,7 +506,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_simplificat
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton ulrich coffee porcelaine v_glass_beads revolutionempire {
+		*/ grains  coton ulrich coffee porcelaine v_glass_beads revolutionempire beaver {
 
 	use "classification_product_`file_on_simp'.dta", clear
 	bys simplification : drop if _n!=1
@@ -604,7 +604,7 @@ foreach class_name in sitc edentreaty ///
 				canada medicinales hamburg ///
 				grains  coton ulrich ///
 				coffee porcelaine ///
-				v_glass_beads revolutionempire {
+				v_glass_beads revolutionempire beaver {
 
 	merge m:1 simplification using "classification_product_`class_name'.dta"
 	drop if _merge==2
