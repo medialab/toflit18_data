@@ -615,9 +615,11 @@ rename simplification product_simplification
 rename orthographi product_orthographic
 
 
+
 foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 
 	capture drop product_`class_name'
+	capture drop sitc
 	rename product_sitc sitc
 	merge m:1 sitc using "classification_product_`class_name'.dta"
 	rename sitc product_sitc
