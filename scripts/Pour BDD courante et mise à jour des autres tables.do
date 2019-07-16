@@ -707,6 +707,9 @@ rename yearnum year
  
  ********************************************************************
 
+ missings dropbos, force
+ missings dropvar, force
+ 
 
 export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
