@@ -708,15 +708,21 @@ rename yearnum year
  ********************************************************************
 
 
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
+preserve
+drop if sourcetype=="Out"
+export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+restore
 
 sort sourcetype direction year exportsimports numrodeligne 
 order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
 		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
 
-save "$dir/Données Stata/bdd courante", replace
+save "$dir/Données Stata/bdd courante_avec_out.dta", replace
+drop if sourcetype=="Out"
+save "$dir/Données Stata/bdd courante.dta", replace
 
 
 /*
