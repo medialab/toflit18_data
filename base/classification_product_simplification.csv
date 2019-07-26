@@ -11307,7 +11307,7 @@ fil de laine blanche,1,fil de laine blanc,3
 fil de laine blanche de toute sorte,1,fil de laine blanc,3
 fil de laine teint,1,fil de laine teint,3
 fil de laine teinte,2,fil de laine teint,3
-fil de laiton,719,fil de laiton,739
+fil de laiton,719,fil de laiton,742
 fil de laiton argenté,1,fil de laiton argenté,1
 fil de laiton jaune,1,fil de laiton jaune,8
 fil de latez,1,fil de latez,1
@@ -11414,7 +11414,7 @@ fil en dorure or et argent,3,fil dorure d'argent et d'or,20
 fil en fer,2,fil de fer,889
 fil en gros,1,fil gros,5
 fil en gueule,1,fil en gueule,1
-fil en laiton,2,fil en laiton,2
+fil en laiton,2,fil de laiton,742
 fil en lin,1,fil en lin,1
 fil en masses,72,fil en masse,73
 fil en peignée,1,fil en peignée,1
@@ -11425,7 +11425,7 @@ fil Épinal,2,fil d'Épinal,2
 fil Épinal blanc,6,fil blanc d'Épinal,7
 fil Épinal simple,1,fil d'Épinal simple,1
 fil Epinay,1,fil d'Epinay,1
-fil et laiton,1,fil et laiton,1
+fil et laiton,1,fil de laiton,742
 fil everda,1,fil everda,1
 fil fin,1,fil fin,1
 fil gris,6,fil gris,6
@@ -11433,7 +11433,7 @@ fil gris simple,4,fil gris simple,4
 fil gris simple de lin,1,fil de lin gris simple,3
 fil gros,4,fil gros,5
 fil grossier,1,fil grossier,1
-fil laiton,2,fil de laiton,739
+fil laiton,2,fil de laiton,742
 fil lessivé,1,fil lessivé,1
 fil masse,1,fil en masse,73
 fil my,1,fil,343
@@ -14683,7 +14683,7 @@ laiton en rouleau,1,laiton en rouleau,1
 laiton et cuivre,1,laiton et cuivre,1
 laiton et fil de laiton,10,fil de laiton et laiton,23
 laiton fil de laiton,13,fil de laiton et laiton,23
-laiton filé,11,fil de laiton,739
+laiton filé,11,fil de laiton,742
 laiton gratté,64,laiton gratté,66
 laiton gratté en feuille,2,laiton gratté,66
 laiton gravé,2,laiton gravé,2
@@ -16829,11 +16829,11 @@ morue par Bayonne,1,morue par Bayonne,1
 morue salée,19,morue salée,62
 morue salée d'Islande,1,morue salée d'Islande,1
 morue salée sèche,1,morue salée sèche,1
-morue salée verte,1,morue salée verte,1
-morue sèche,1037,morue séchée,1050
-morue séchée,12,morue séchée,1050
-morue seiche en baril,2,morue sèche,67
-morue seiche en nombre,2,morue sèche,67
+morue salée verte,1,morue salée et verte,2
+morue sèche,1037,morue sèche,1117
+morue séchée,12,morue sèche,1117
+morue seiche en baril,2,morue sèche,1117
+morue seiche en nombre,2,morue sèche,1117
 morue têtes,1,morue têtes,1
 morue verte,559,morue verte,590
 moruë verte,2,morue verte,590
@@ -21270,11 +21270,11 @@ poisson de mer maquereaux,1,maquereaux,54
 poisson de mer mariné ou à l'huile,7,poisson de mer mariné à l'huile,7
 poisson de mer merluche,1,merluche,92
 poisson de mer morue,8,morue,194
-poisson de mer morue sèche,2,morue sèche,67
+poisson de mer morue sèche,2,morue sèche,1117
 poisson de mer salé,2,poisson de mer salé,2
 poisson de mer salé anchois,1,anchois salés,5
 poisson de mer salé divers,1,poisson de mer salé divers,1
-poisson de mer salé en morue sèche,1,morue sèche,67
+poisson de mer salé en morue sèche,1,morue sèche,1117
 poisson de mer salé en morue verte,1,morue verte,590
 poisson de mer salé et mariné ??? blanc,3,poisson de mer salé et mariné ??? blanc,3
 poisson de mer salé et mariné anchois,26,anchois mariné et salé,39
@@ -21285,7 +21285,7 @@ poisson de mer salé et mariné harengs blancs,15,harengs blancs marinés et sal
 poisson de mer salé et mariné harengs saurs,8,harengs marinés et salés et saurs,8
 poisson de mer salé et mariné morue,4,morue marinée et salée,4
 poisson de mer salé et mariné morue salée,24,morue salée,62
-poisson de mer salé et mariné morue sèche,15,morue sèche,67
+poisson de mer salé et mariné morue sèche,15,morue sèche,1117
 poisson de mer salé et mariné sardines,3,sardines marinées et salées,3
 poisson de mer salé et mariné saumon,18,saumon mariné et salé,18
 poisson de mer salé et mariné stockfish,15,stockfisch mariné et salé,15
@@ -21295,8 +21295,8 @@ poisson de mer salé et mariné tortue,1,tortue marinée et salée,1
 poisson de mer salé harengs blancs,1,harengs blancs salés,1
 poisson de mer salé harengs saurs,1,harengs saurs,415
 poisson de mer salé merluche,1,merluche salée,1
-poisson de mer salé morue sèche,1,morue séchée,1050
-poisson de mer salé morue verte,1,morue verte salée,1
+poisson de mer salé morue sèche,1,morue sèche,1117
+poisson de mer salé morue verte,1,morue salée et verte,2
 poisson de mer salé œufs de thon,1,œufs de thon,2
 poisson de mer salé ou mariné anchois,9,anchois mariné et salé,39
 poisson de mer salé ou mariné congres,1,congres,52
@@ -21305,7 +21305,7 @@ poisson de mer salé ou mariné harengs blancs,1,harengs blancs,674
 poisson de mer salé ou mariné harengs saurs,1,harengs saurs,415
 poisson de mer salé ou mariné marsouin,1,marsouin,2
 poisson de mer salé ou mariné morue salée,7,morue salée,62
-poisson de mer salé ou mariné morue sèche,3,morue sèche,67
+poisson de mer salé ou mariné morue sèche,3,morue sèche,1117
 poisson de mer salé ou mariné sardines,1,sardines,233
 poisson de mer salé ou mariné stockfish,1,stockfisch,498
 poisson de mer salé rogues de morue,1,rogues de morue salées,1
@@ -21366,11 +21366,11 @@ poisson mariné en anchois,6,anchois mariné,6
 poisson merluche,3,merluche,92
 poisson morue,19,morue,194
 poisson morue de pêche française,5,morue de pêche française,10
-poisson morue et stockfish,26,morue et stockfisch,41
-poisson morue et stokfisch,15,morue et stockfisch,41
+poisson morue et stockfish,26,morue et stockfisch,51
+poisson morue et stokfisch,15,morue et stockfisch,51
 poisson morue salée,5,morue salée,62
-poisson morue sèche,26,morue sèche,67
-poisson morue stockfish,9,morue stockfisch,9
+poisson morue sèche,26,morue sèche,1117
+poisson morue stockfish,9,morue et stockfisch,51
 poisson morue stockfish etc.,6,poisson,634
 poisson morue verte,1,morue verte,590
 poisson œufs de thon,1,œufs de thon,2
@@ -21385,7 +21385,7 @@ poisson salé en harengs,2,harengs salés,28
 poisson salé en harengs et saumons,1,harengs et saumons salés,1
 poisson salé en harengs saurs,1,harengs salés,28
 poisson salé en morue,3,morue salée,62
-poisson salé en morue sèche,2,morue sèche,67
+poisson salé en morue sèche,2,morue sèche,1117
 poisson salé en rogues,2,rogues salées,2
 poisson salé en saumon,1,saumon salé,948
 poisson salé et frais de toute sorte,9,poisson salé et frais,9
@@ -21409,7 +21409,7 @@ poisson salé morue,4,morue salée,62
 poisson salé morue accompagnée de ???,3,poisson salé morue accompagnée de ???,3
 poisson salé morue avec harengs des prises,1,morue avec harengs des prises,1
 poisson salé morue blanche,1,morue blanche,1
-poisson salé morue sèche,14,morue sèche,67
+poisson salé morue sèche,14,morue sèche,1117
 poisson salé morue sèche et stockfish suivant l'état des primes,6,morue sèche et salée et stockfisch salé suivant l'état des primes,6
 poisson salé morue verte,3,morue verte et salée,3
 poisson salé rogues de maquereaux et stockfish,2,rogues de maquereaux salées et stockfisch salé,2
@@ -22089,7 +22089,7 @@ quincaillerie faux faucilles fil de laiton et limes,9,faucilles et faux et fil d
 quincaillerie fer et acier,1,quincaillerie d'acier et de fer,863
 quincaillerie fil,2,fil,343
 quincaillerie fil de fer,80,fil de fer,889
-quincaillerie fil de laiton,7,fil de laiton,739
+quincaillerie fil de laiton,7,fil de laiton,742
 quincaillerie fine,4,quincaillerie fine,24
 quincaillerie fine d'acier,4,quincaillerie d'acier et fine,9
 quincaillerie fine en acier,5,quincaillerie d'acier et fine,9
@@ -23869,7 +23869,7 @@ stinkerque brodées en couleur,1,stinkerque brodées de couleur,1
 stinkerque de fil organdis,1,stinkerque de fil organdis,1
 stira liquide,1,stirax liquide,1
 stockfish,480,stockfisch,498
-stockfish et bakeliau,1,stockfisch et morue,1
+stockfish et bakeliau,1,morue et stockfisch,51
 storax,186,storax,203
 storax calames,2,storax calames,2
 storax calamin,1,storax calamin,1
