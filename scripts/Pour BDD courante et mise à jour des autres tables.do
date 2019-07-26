@@ -551,11 +551,13 @@ use "bdd_centrale.dta", clear
 
 
 merge m:1 direction using "bdd_directions.dta"
+drop if _merge==2
 rename direction direction_origine
 rename direction_simpl direction
 drop _merge nbr_occurence
 
 merge m:1 origine using "bdd_origine.dta"
+drop if _merge==2
 rename origine origine_origine
 rename origine_norm_ortho origine
 drop _merge nbr_occurence
@@ -596,9 +598,11 @@ rename source_doc source
 drop if _merge==2
 drop note-_merge
 
+
 merge m:1 orthographic using "classification_product_simplification"
 drop if _merge==2
 drop nbr_occure* _merge
+rename orthographic  product_orthographic
 
 foreach class_name in sitc edentreaty ///
 				canada medicinales hamburg ///
@@ -609,10 +613,11 @@ foreach class_name in sitc edentreaty ///
 	merge m:1 simplification using "classification_product_`class_name'.dta"
 	drop if _merge==2
 	drop nbr_occure* _merge
+	capture drop obsolete
 	rename `class_name' product_`class_name'
 }
 rename simplification product_simplification
-rename orthographi product_orthographic
+
 
 
 
