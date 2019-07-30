@@ -58,7 +58,12 @@ replace absurd_quantity=1 if direction=="Bordeaux" & year==1768 & exportsimports
 			& (country_simplification =="Îles françaises de l'Amérique") ///
 			& (product_simplification == "sucre blanc")
 			
-			
+******* Fèves et Légumes : 1773 La Rochelle Exports vers la Guinée. Erreur reprise dans l'Objet Général pour les légumes. Nous avons corrigé un problème de zéros
+/*
+replace absurd_quantity=1 if direction=="La Rochelle" & year==1773 & exportsimports=="Exports" ////
+			& (country_simplification =="Guinée") ///
+			& (product_simplification == "fèves")
+*/			
 *save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace
 *export delimited  "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.csv", replace
 
