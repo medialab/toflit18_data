@@ -800,10 +800,10 @@ banderoles de cuir,2,6a,x,non,20885
 bandes de cabrouets de fer,3,7,x,non,9124
 bandes de charrettes,1,7,,non,9124
 bandes de fer,4,6j,x,non,39740
-bandes de fer à tombereaux,1,7,x,non,9124
-bandes de roues de fer,1,7,x,non,9124
+bandes de fer à tombereaux,1,6j,x,non,9124
+bandes de roues de fer,1,6j,x,non,9124
 bandes de tulles brodées,1,6j,,non,39740
-bandes et barres de fer,4,7,,non,9124
+bandes et barres de fer,4,6j,,non,9124
 bandoulières garnies d'argent,1,9a,,non,1083
 bannes et bannettes d'osier,1,6b,,non,18564
 bannettes d'osier,1,8,x,non,60253
@@ -846,12 +846,12 @@ barils,11,6b,x,non,18564
 barils à poudre,5,6b,x,non,18564
 barils ancres,1,9b,x,non,6412
 barils de chêne,1,6b,x,non,18564
-barils de fer-blanc,1,6b,,non,18564
-barils de fer-blanc simples,1,6b,,non,18564
+barils de fer-blanc,1,6j,,non,18564
+barils de fer-blanc simples,1,6j,,non,18564
 barils de sapin,1,6b,x,non,18564
 barils de tonnelier,2,6b,x,non,18564
 barils de vin de ???,4,1,x,non,30352
-barils doubles de fer-blanc,1,6b,,non,18564
+barils doubles de fer-blanc,1,6j,,non,18564
 barils neufs,1,6b,x,non,18564
 barils petits,2,6b,,non,18564
 barils pour saler sardines,1,6b,,non,18564
@@ -2053,9 +2053,9 @@ bombes de fer,1,8,,non,60253
 bombes et boulets,3,8,x,non,60253
 bombes et canons,3,8,x,non,60253
 bombes et grenade,1,8,x,non,60253
-bombets,1,???,,non,5095
-bombets de demitte,2,???,,non,5095
-bombets de demitte et corsets de demitte,1,???,,non,5095
+bombets,1,8,,non,5095
+bombets de demitte,2,8,,non,5095
+bombets de demitte et corsets de demitte,1,8,,non,5095
 bonbons,5,0a,,non,82088
 bonbons et sorbets,2,0a,,non,82088
 bondes de bois,1,8,,non,60253
@@ -3194,7 +3194,7 @@ cardines de bois,5,???,,non,5095
 cardines de sapin,1,???,,non,5095
 cardon,7,0a,,non,82088
 cards à carder,0,???,,oui,5095
-caret,35,7,x,non,9124
+caret,35,0a,x,non,9124
 cargaison,2,9c,x,non,10544
 caril,2,???,,non,5095
 carillon de fer,4,6j,x,non,39740
@@ -3554,7 +3554,7 @@ cercles de bois pour pipes,2,6b,x,non,18564
 cercles de bois pour tamis,1,6b,,non,18564
 cercles de bois pour tanier,2,6b,x,non,18564
 cercles de cuivre de poil,1,6j,x,non,39740
-cercles de demitte,1,???,x,non,5095
+cercles de demitte,1,8,x,non,5095
 cercles de douves,1,6j,,non,39740
 cercles de faux,1,9c,,non,10544
 cercles de fer,434,6j,x,non,39740
@@ -4595,7 +4595,7 @@ corail brun,4,2,x,non,78425
 corail brut,212,2,x,non,78425
 corail brut et non monté et taillé,22,2,x,non,78425
 corail brut et taillé,23,2,x,non,78425
-corail de demitte,1,9b,,non,6412
+corail de demitte,1,8,,non,6412
 corail de jardin,54,2,x,non,78425
 corail de terraille,1,2,,non,78425
 corail en filières,2,8,x,non,60253
@@ -5621,8 +5621,8 @@ demi-barriques cerclées de fer,1,6b,x,non,18564
 demi-cuirs de bœuf tannés,1,6a,x,non,20885
 demi-cuirs tannés de vache,1,6a,,non,20885
 demi-soucis,1,???,,non,5095
-demitte,172,???,,non,5095
-demoiselle,12,6j,x,non,39740
+demitte,172,6h,,non,5095
+demoiselle,12,6b,x,non,39740
 demoiselle de 25 pieds,1,6b,,non,18564
 demoiselle de bois,1,6b,,non,18564
 demoiselle de sapin,2,6b,x,non,18564
@@ -5764,7 +5764,7 @@ dimitte et futaine,2,6i,,non,21761
 dindes,5,0a,,non,82088
 dindonneaux,10,0a,x,non,82088
 dindons,37,0a,x,non,82088
-dissouchaye,35,???,,non,5095
+dissouchaye,35,6g,,non,5095
 distillats,1,5,,non,49672
 ditors,2,???,,non,5095
 divers,3007,9c,x,non,10544
@@ -6716,16 +6716,16 @@ escot de fer,6,6j,,non,39740
 escot de laine,3,6e,,non,11436
 escotins de bois,1,???,,non,5095
 espadrilles,4,8,,non,60253
-espagnolette,260,6i,x,non,21761
-espagnolette à fleurs,1,6i,x,non,21761
+espagnolette,260,6e,x,non,21761
+espagnolette à fleurs,1,6e,x,non,21761
 espagnolette croisée,118,6e,x,non,11436
 espagnolette croisée et simple,3,6e,,non,11436
 espagnolette de laine,18,6e,x,non,11436
 espagnolette de laine croisée,4,6e,x,non,11436
 espagnolette de laine lisse,2,6e,x,non,11436
 espagnolette de laine simple,1,6e,x,non,11436
-espagnolette des prises,2,6i,x,non,21761
-espagnolette simple,83,6i,x,non,21761
+espagnolette des prises,2,6e,x,non,21761
+espagnolette simple,83,6e,x,non,21761
 espars,386,7,x,non,9124
 espars de 10 à 15 pieds,2,7,x,non,9124
 espars de 10 pieds,1,7,x,non,9124
@@ -7613,7 +7613,7 @@ fer en choux,6,6j,,non,39740
 fer en crapaudines,5,6j,,non,39740
 fer en culture,1,6j,x,non,39740
 fer en écopes,9,6j,,non,39740
-fer en fafion,1,???,x,non,5095
+fer en fafion,1,6j,x,non,5095
 fer en feuilles doubles,1,6j,,non,39740
 fer en fichu,1,6j,,non,39740
 fer en fonte,11,6j,x,non,39740
@@ -12949,7 +12949,7 @@ nacre de perles noire,1,2,,non,78425
 nacre de perles ouvrée,1,8,x,non,60253
 nacre de Perse,1,2,,non,78425
 nacre en coquille,12,2,,non,78425
-nacre et perles,1,6g,x,non,11453
+nacre et perles,1,2,x,non,11453
 namouques,2,???,,non,5095
 nankin,193,6g,,non,11453
 Nankin,11,6g,x,non,11453
@@ -14932,8 +14932,8 @@ piastres par le Pont de Beauvoisin,2,9a,x,non,1083
 picotte,21,6e,x,non,11436
 picotte de laine,2,6e,x,non,11436
 picotte de Lille,4,6e,,non,11436
-picotte de soie,1,6e,,non,11436
-pièces à eau,4,6f,,non,12229
+picotte de soie,1,6f,,non,11436
+pièces à eau,4,???,,non,12229
 pièces couvertures de laine,3,6e,,non,11436
 pièces d'argent et d'or d'Espagne,1,9a,,non,1083
 pièces d'or d'Espagne,1,9a,,non,1083
@@ -15420,13 +15420,13 @@ planches de chêne pour bordage de 21 pieds,1,6b,,non,18564
 planches de chênes de 20 pieds,1,6b,x,non,18564
 planches de chênes pour bordage,1,6b,,non,18564
 planches de citronnier,1,6b,x,non,18564
-planches de Coperwick,5,6b,,non,18564
-planches de cuivre,417,6b,x,non,18564
-planches de cuivre battu,1,6b,,non,18564
-planches de cuivre gravées,1,6b,x,non,18564
-planches de cuivre jaune,4,6b,x,non,18564
-planches de cuivre neuf,1,6b,x,non,18564
-planches de cuivre rouge,20,6b,x,non,18564
+planches de Coperwick,5,???,,non,18564
+planches de cuivre,417,6j,x,non,18564
+planches de cuivre battu,1,6j,,non,18564
+planches de cuivre gravées,1,6j,x,non,18564
+planches de cuivre jaune,4,6j,x,non,18564
+planches de cuivre neuf,1,6j,x,non,18564
+planches de cuivre rouge,20,6j,x,non,18564
 planches de cyprès,2,6b,x,non,18564
 planches de Danemark Prusse et Poméranie,2,6b,x,non,18564
 planches de futeau,2,6b,x,non,18564
@@ -15456,10 +15456,10 @@ planches de papier communes,1,6b,,non,18564
 planches de peuplier,1,6b,x,non,18564
 planches de pin,23,6b,x,non,18564
 planches de piphout,1,6b,x,non,18564
-planches de plomb,87,6b,x,non,18564
-planches de plomb et grains de plomb,5,6b,x,non,18564
-planches de plomb et plomb en saumon et plomb en rouleau,6,6b,x,non,18564
-planches de plomb gravées,1,6b,x,non,18564
+planches de plomb,87,6j,x,non,18564
+planches de plomb et grains de plomb,5,6j,x,non,18564
+planches de plomb et plomb en saumon et plomb en rouleau,6,6j,x,non,18564
+planches de plomb gravées,1,6j,x,non,18564
 planches de poirier cerisier etc,2,6b,x,non,18564
 planches de pont de barque,1,6b,x,non,18564
 planches de Prusse,179,6b,x,non,18564
