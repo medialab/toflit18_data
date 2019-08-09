@@ -818,6 +818,11 @@ merge m:1 simplification using "$dir/Données Stata/classification_product_sitc.
 drop if _merge==2
 drop _merge
 
+merge m:1 simplification using "$dir/Données Stata/classification_product_revolutionempire.dta"
+drop if _merge==2
+drop _merge
+
+
 merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 drop if _merge==2
 drop _merge
@@ -826,7 +831,7 @@ merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_EN.dta"
 drop if _merge==2
 drop _merge
 
-drop imprimatur obsolete
+drop imprimatur obsolete nbr_occurences_revolutionempire nbr_occurences_sitc
 
 sort simplification
 
