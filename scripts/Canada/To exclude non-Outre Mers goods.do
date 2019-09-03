@@ -29,6 +29,7 @@ merge 1:1 simplification using "/Users/guillaumedaudin/Documents/Recherche/Comme
 replace canada = "Pas importé en France depuis l'Atlantique avant 1765" if _merge==2
 drop _merge
 replace canada = "Pas importé en France depuis l'Atlantique avant 1765" if surement_pas_canada==1
+replace canada = "" if canada == "Pas importé en France depuis l'Atlantique avant 1765" & surement_pas_canada==0
 
 replace canada="Peut-être Canada" if canada=="Peut être Canada"
 

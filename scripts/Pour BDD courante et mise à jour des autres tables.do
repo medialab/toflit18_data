@@ -31,8 +31,8 @@ foreach file in classification_country_orthographic classification_country_simpl
 */				 classification_product_sitc_simplEN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
-*/ 				 classification_product_v_glass_beads /*
-*/				 classification_product_RE_aggregate {
+*/ 				 classification_product_v_glass_beads classification_product_beaver/*
+*/				 classification_product_RE_aggregate classification_product_revolutionempire {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -506,7 +506,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_simplificat
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
-		*/ grains  coton ulrich coffee porcelaine v_glass_beads revolutionempire {
+		*/ grains  coton ulrich coffee porcelaine v_glass_beads revolutionempire beaver {
 
 	use "classification_product_`file_on_simp'.dta", clear
 	bys simplification : drop if _n!=1
@@ -551,11 +551,13 @@ use "bdd_centrale.dta", clear
 
 
 merge m:1 direction using "bdd_directions.dta"
+drop if _merge==2
 rename direction direction_origine
 rename direction_simpl direction
 drop _merge nbr_occurence
 
 merge m:1 origine using "bdd_origine.dta"
+drop if _merge==2
 rename origine origine_origine
 rename origine_norm_ortho origine
 drop _merge nbr_occurence
@@ -596,28 +598,33 @@ rename source_doc source
 drop if _merge==2
 drop note-_merge
 
+
 merge m:1 orthographic using "classification_product_simplification"
 drop if _merge==2
 drop nbr_occure* _merge
+rename orthographic  product_orthographic
 
 foreach class_name in sitc edentreaty ///
 				canada medicinales hamburg ///
 				grains  coton ulrich ///
 				coffee porcelaine ///
-				v_glass_beads revolutionempire {
+				v_glass_beads revolutionempire beaver {
 
 	merge m:1 simplification using "classification_product_`class_name'.dta"
 	drop if _merge==2
 	drop nbr_occure* _merge
+	capture drop obsolete
 	rename `class_name' product_`class_name'
 }
 rename simplification product_simplification
-rename orthographi product_orthographic
+
+
 
 
 foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 
 	capture drop product_`class_name'
+	capture drop sitc
 	rename product_sitc sitc
 	merge m:1 sitc using "classification_product_`class_name'.dta"
 	rename sitc product_sitc
@@ -705,16 +712,25 @@ rename yearnum year
  
  ********************************************************************
 
+ missings dropobs, force
+ missings dropvars, force
+ 
 
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
+preserve
+drop if sourcetype=="Out"
+export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+restore
 
 sort sourcetype direction year exportsimports numrodeligne 
 order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
 		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
 
-save "$dir/Données Stata/bdd courante", replace
+save "$dir/Données Stata/bdd courante_avec_out.dta", replace
+drop if sourcetype=="Out"
+save "$dir/Données Stata/bdd courante.dta", replace
 
 
 /*
@@ -802,6 +818,11 @@ merge m:1 simplification using "$dir/Données Stata/classification_product_sitc.
 drop if _merge==2
 drop _merge
 
+merge m:1 simplification using "$dir/Données Stata/classification_product_revolutionempire.dta"
+drop if _merge==2
+drop _merge
+
+
 merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 drop if _merge==2
 drop _merge
@@ -810,7 +831,7 @@ merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_EN.dta"
 drop if _merge==2
 drop _merge
 
-drop imprimatur obsolete
+drop imprimatur obsolete nbr_occurences_revolutionempire nbr_occurences_sitc
 
 sort simplification
 
@@ -846,7 +867,7 @@ sort simplification
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
-*/
+
 
 insheet using "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", clear
 keep simplification	nbr_occurences_simpl revolutionempire nbr_occurences_revolutionempire
@@ -857,5 +878,46 @@ merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 sort simplification
 drop _merge
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
+
+*/
+
+****Pour classification luxe / bas de gamme
+**Pour colloque 2019
+
+global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
+
+import delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv",  encoding(UTF-8) /// 
+			clear varname(1) stringcols(_all) case(preserve)
+sort product_simplification product_sitc_FR u_conv
+			
+save "$dir/Données Stata/classification_autre_luxe.dta", replace
+
+use "$dir/Données Stata/bdd courante.dta", clear
+keep if u_conv=="kg" | u_conv=="pièces" | u_conv=="cm"
+keep if product_sitc=="6d" | product_sitc=="6e" | product_sitc=="6f" | product_sitc=="6g" | product_sitc=="6h" | product_sitc=="6i"
+*generate unit_price_metric=value/quantites_metric
+drop if unit_price_metric==.
+collapse (mean) mean_price=unit_price_metric (median)  median_price=unit_price_metric (sd) sd_price=unit_price_metric (count) value, by(product_simplification product_sitc_FR u_conv)
+gsort product_simplification - value
+rename value nbobs
+
+gen positiondansSITC=""
+gen type=""
+gen position_type=""
+
+sort product_simplification product_sitc_FR u_conv
+
+
+merge 1:1 product_simplification product_sitc_FR u_conv using "$dir/Données Stata/classification_autre_luxe.dta", update force
+drop obsolete
+gen obsolete="non"
+replace obsolete ="oui" if _merge==2
+drop _merge
+
+gsort product_sitc_FR u_conv - nbobs product_simplification
+
+export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
+
 
 
