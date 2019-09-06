@@ -140,7 +140,7 @@ with open(output_filename,"w") as output_file:
                             # if not filepath.decode('utf-8').endswith(line['sourcepath']):
                             #     print 'WARNING: incorrect sourcepath!'
 							#     raise Exception('incorrect sourcepath')
-                            if (line['sourcetype'] != "" or line['sourcepath'] != "") and line['sourcetype'] !="Out":
+                            if line['sourcetype'] != "" or line['sourcepath'] != "":
                                add_fields_to_line(line)
                                writer.writerow(line)
 
