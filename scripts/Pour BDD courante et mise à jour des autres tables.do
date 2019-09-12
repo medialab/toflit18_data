@@ -818,6 +818,11 @@ merge m:1 simplification using "$dir/Données Stata/classification_product_sitc.
 drop if _merge==2
 drop _merge
 
+merge m:1 simplification using "$dir/Données Stata/classification_product_revolutionempire.dta"
+drop if _merge==2
+drop _merge
+
+
 merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 drop if _merge==2
 drop _merge
@@ -826,7 +831,7 @@ merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_EN.dta"
 drop if _merge==2
 drop _merge
 
-drop imprimatur obsolete
+drop imprimatur obsolete nbr_occurences_revolutionempire nbr_occurences_sitc
 
 sort simplification
 
@@ -862,7 +867,7 @@ sort simplification
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
-*/
+
 
 insheet using "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", clear
 keep simplification	nbr_occurences_simpl revolutionempire nbr_occurences_revolutionempire
@@ -873,5 +878,46 @@ merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 sort simplification
 drop _merge
 export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
+
+*/
+
+****Pour classification luxe / bas de gamme
+**Pour colloque 2019
+
+global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
+
+import delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv",  encoding(UTF-8) /// 
+			clear varname(1) stringcols(_all) case(preserve)
+sort product_simplification product_sitc_FR u_conv
+			
+save "$dir/Données Stata/classification_autre_luxe.dta", replace
+
+use "$dir/Données Stata/bdd courante.dta", clear
+keep if u_conv=="kg" | u_conv=="pièces" | u_conv=="cm"
+keep if product_sitc=="6d" | product_sitc=="6e" | product_sitc=="6f" | product_sitc=="6g" | product_sitc=="6h" | product_sitc=="6i"
+*generate unit_price_metric=value/quantites_metric
+drop if unit_price_metric==.
+collapse (mean) mean_price=unit_price_metric (median)  median_price=unit_price_metric (sd) sd_price=unit_price_metric (count) value, by(product_simplification product_sitc_FR u_conv)
+gsort product_simplification - value
+rename value nbobs
+
+gen positiondansSITC=""
+gen type=""
+gen position_type=""
+
+sort product_simplification product_sitc_FR u_conv
+
+
+merge 1:1 product_simplification product_sitc_FR u_conv using "$dir/Données Stata/classification_autre_luxe.dta", update force
+drop obsolete
+gen obsolete="non"
+replace obsolete ="oui" if _merge==2
+drop _merge
+
+gsort product_sitc_FR u_conv - nbobs product_simplification
+
+export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
+
 
 
