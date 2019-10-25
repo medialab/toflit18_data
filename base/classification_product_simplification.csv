@@ -4550,7 +4550,7 @@ chanvre deuxième qualité,1,chanvre deuxième qualité,1
 chanvre dit chenevolle,1,chanvre dit chenevolle,1
 chanvre divers,45,chanvre divers,45
 chanvre écru,8,chanvre écru,8
-chanvre en liens,4,liens de chanvre,4
+chanvre en liens,4,liens de chanvre,5
 chanvre en masses,44,chanvre en masses,44
 chanvre en ramade,1,chanvre en ramade,1
 chanvre en rames,150,chanvre en rames,150
@@ -4890,7 +4890,7 @@ chemises communes non garnies,1,chemises communes non garnies,1
 chemises d'homme,2,chemises d'homme,2
 chemises de Bretagne,5,chemises de Bretagne,5
 chemises de coton,1,chemises de coton,1
-chemises de guingan,13,chemises de guingan,20
+chemises de guingans,13,,420
 chemises de Laval,3,chemises de Laval,3
 chemises de lin,15,chemises de lin,18
 chemises de lin garnies,2,chemises de lin garnies,4
@@ -4917,7 +4917,7 @@ chemises de toile de lin garnies,6,chemises de toile de lin garnies,6
 chemises de toile de Morlaix,1,chemises de toile de Morlaix,1
 chemises de toile de Saint-Jean,1,chemises de toile de Saint-Jean,1
 chemises de toile garnies,1,chemises de toile garnies,1
-chemises de toile guingan,4,chemises de guingan,20
+chemises de toile guingans,4,,420
 chemises de toile rayée,2,chemises de toile rayée,2
 chemises diverses,4,chemises,212
 chemises diverses garnies,1,chemises garnies,239
@@ -4932,7 +4932,7 @@ chemises garnies en mousseline,4,chemises garnies de mousseline,4
 chemises garnies pour femme,1,chemises garnies pour femme,1
 chemises garnies pour homme,1,chemises garnies pour homme,1
 chemises grosses,1,chemises grosses,1
-chemises guingan,2,chemises de guingan,20
+chemises guingans,2,,420
 chemises moins communes,2,chemises moins communes,2
 chemises neutres,1,chemises neutres,1
 chemises neuves,1,chemises neuves,1
@@ -4943,7 +4943,7 @@ chemises pour homme communes,1,chemises pour homme communes,1
 chemises pour soldat,1,chemises pour soldat,1
 chemises royales,1,chemises royales,1
 chemises toile de lin,4,chemises de toile de lin,17
-chemises toile guingan,1,chemises de guingan,20
+chemises toile guingans,1,,420
 chemises unies,86,chemises unies,90
 chemises unies communes,1,chemises communes unies,1
 chemises vieilles,8,chemises vieilles,8
@@ -9504,8 +9504,8 @@ etocs,4,etocs,4
 etocs de fer,4,etocs de fer,13
 étoffe,3,étoffe,386
 étoffe à carreaux,1,étoffe à carreaux,1
-étoffe à peu,20,étoffe à peu de soie,20
-étoffe à peu de soie,96,étoffe à peu de soie,135
+étoffe à peu,20,étoffe à peu de soie,155
+étoffe à peu de soie,96,étoffe à peu de soie,155
 étoffe argent,1,étoffe d'argent,10
 étoffe argent de soie,1,étoffe d'argent et de soie,9
 étoffe argent et soie,5,étoffe d'argent et de soie,9
@@ -9520,8 +9520,8 @@ etocs de fer,4,etocs de fer,13
 étoffe au poil polimi,1,polimi de poil,11
 étoffe au poil prunelle,2,prunelle de poil,18
 étoffe au poil sorge de Rome,1,étoffe au poil sorge de Rome,1
-étoffe au quart,33,étoffe au quart de soie,53
-étoffe au quart de soie,146,étoffe au quart de soie,307
+étoffe au quart,33,étoffe au quart de soie,340
+étoffe au quart de soie,146,étoffe au quart de soie,340
 étoffe au sixième,1,étoffe au sixième,1
 étoffe au sixième de soie,21,étoffe au sixième de soie,22
 étoffe au sixième de soie siamoise,1,étoffe au sixième de soie siamoise,1
@@ -9919,11 +9919,11 @@ etocs de fer,4,etocs de fer,13
 étoffe de sergette,3,sergette,10
 étoffe de soie,1766,étoffe de soie,2631
 étoffe de soie au peu de soie,4,étoffe au peu de soie,4
-étoffe de soie au quart,8,étoffe au quart de soie,307
-étoffe de soie au quart à peu de soie,22,étoffe au quart de soie,307
-étoffe de soie au quart de soie,115,étoffe au quart de soie,307
-étoffe de soie au quart peu de soie,1,étoffe au quart de soie,307
-"étoffe de soie au quart, etc.",1,étoffe au quart de soie,307
+étoffe de soie au quart,8,étoffe au quart de soie,340
+étoffe de soie au quart à peu de soie,22,étoffe au quart de soie,340
+étoffe de soie au quart de soie,115,étoffe au quart de soie,340
+étoffe de soie au quart peu de soie,1,étoffe au quart de soie,340
+"étoffe de soie au quart, etc.",1,étoffe au quart de soie,340
 étoffe de soie aune,1,étoffe de soie,2631
 étoffe de soie basin brodé,1,basin brodé de soie,1
 étoffe de soie bours,16,bours de soie,16
@@ -10164,17 +10164,17 @@ etocs de fer,4,etocs de fer,13
 étoffe mélangée soie et fleuret,1,étoffe mélangée de fleuret et de soie,1
 étoffe mélangée soie et galette,1,étoffe de galette et de soie,1
 étoffe mêlée,14,étoffe,386
-étoffe melée à peu de soie,10,étoffe à peu de soie,135
-étoffe mêlée à peu de soie,28,étoffe à peu de soie,135
+étoffe melée à peu de soie,10,étoffe à peu de soie,155
+étoffe mêlée à peu de soie,28,étoffe à peu de soie,155
 étoffe mêlée au fil de soie,8,étoffe mêlée de fil de soie,8
-étoffe mêlée au quart,20,étoffe au quart,53
-étoffe melée au quart de soie,14,étoffe au quart de soie,307
+étoffe mêlée au quart,20,étoffe au quart,20
+étoffe melée au quart de soie,14,étoffe au quart de soie,340
 étoffe mêlée burail,2,burail,10
 étoffe mêlée coton et soie,1,étoffe mêlée de coton et de soie,3
 étoffe mêlée de coton fil de soie,2,étoffe de coton et de fil de soie,2
 étoffe mêlée de laine coton fil et de poil chameau,2,étoffe de coton et de fil et de laine et de poil chameau,3
 étoffe mêlée de laine coton fil et de poil de chameau aune,1,étoffe de coton et de fil et de laine et de poil chameau,3
-étoffe mêlée de peu de soie,1,étoffe à peu de soie,135
+étoffe mêlée de peu de soie,1,étoffe à peu de soie,155
 étoffe mêlée de soie,7,étoffe de soie,2631
 étoffe mêlée de soie ?,1,étoffe mêlée de soie ?,1
 étoffe mêlée de soie ???,1,étoffe mêlée de soie ???,1
@@ -13398,21 +13398,21 @@ Guinée étoffe,1,guinée,181
 Guinée masulipatan,1,guinée masulipatan,1
 Guinée Sénégal,1,guinée Sénégal,1
 Guinée tachée,1,guinée tachée,1
-guingan,254,guingan,586
-guingan blanc,1,guingan blanc,1
-guingan bleu,1,guingan bleu,1
-guingan de Bengale,2,guingan de Bengale,2
-guingan de fil,4,guingan de fil,25
-guingan de Madras,23,guingan de Madras,23
-guingan de Masulipatan,1,guingan de Masulipatan,1
-guingan de Pondichéry,26,guingan de Pondichéry,26
-guingan de Pondichéry et de Madras,1,guingan de Pondichéry et de Madras,1
-guingan des prises,1,guingan des prises,1
-guingan divers,11,guingan,586
-guingan du Bengale,8,guingan du Bengale,8
-guingan en Madras,1,guingan en Madras,1
-guingan peint,2,guingan peint,2
-guingan pièces,1,guingan pièces,1
+guingans,254,,420
+guingans blanc,1,,420
+guingans bleu,1,,420
+guingans de Bengale,2,,420
+guingans de fil,4,,420
+guingans de Madras,23,,420
+guingans de Masulipatan,1,,420
+guingans de Pondichéry,26,,420
+guingans de Pondichéry et de Madras,1,,420
+guingans des prises,1,,420
+guingans divers,11,,420
+guingans du Bengale,8,,420
+guingans en Madras,1,,420
+guingans peint,2,,420
+guingans pièces,1,,420
 guinimos,1,guinimos,1
 guipons,6,guipon,6
 guisine,1,guisine,1
@@ -14958,7 +14958,7 @@ liège fin,6,liège fin,6
 liège grossier,1,liège grossier,1
 liège ouvré,8,ouvrages de liège,11
 liège ouvré en bouchons etc,2,ouvrages de liège,11
-liens de chanvre,1,liens de chanvre,1
+liens de chanvre,1,liens de chanvre,5
 liens de fer,1,liens de fer,2
 liens de fil,24,liens de fil,24
 liens et fil,1,liens et fil,1
@@ -15120,7 +15120,7 @@ lingerie de lin,26,lingerie de lin,26
 lingerie de tables,2,lingerie de tables,2
 lingerie de tables et de lit,4,lingerie de lit et de tables,4
 lingerie de toile de lin,9,lingerie de toile de lin,9
-lingerie de toile guingan de lin,1,lingerie de lin et de toile guingan,1
+lingerie de toile guingans de lin,1,,420
 lingerie diverse,12,lingerie,162
 lingerie diverse pour nègre,1,lingerie pour nègre,1
 lingerie drap de lit,5,drap de lit,55
@@ -15596,7 +15596,7 @@ marchandises des Indes thé,6,thé,1773
 marchandises des Indes toile des Indes caladarit,1,caladaris des Indes,3
 marchandises des Indes toile des Indes diverse,1,toile des Indes,175
 marchandises des Indes toile des Indes Guinée,1,guinée des Indes,1
-marchandises des Indes toile des Indes guingan,2,guingan des Indes,3
+marchandises des Indes toile des Indes guingans,2,,420
 marchandises des Indes toile des Indes Nankin,1,nankin des Indes,10
 marchandises des Indes toile des Indes peinte de thille,1,toile des Indes peinte de thille,1
 marchandises des prises,2,marchandises des prises,2
@@ -16968,7 +16968,7 @@ mouchoirs de France,1,mouchoirs de France,1
 mouchoirs de gaze,57,mouchoirs de gaze,66
 mouchoirs de gaze divers,3,mouchoirs de gaze divers,3
 mouchoirs de gaze grands,1,mouchoirs de gaze grands,1
-mouchoirs de guingan,3,mouchoirs de guingan,3
+mouchoirs de guingans,3,,420
 mouchoirs de Hollande,1,mouchoirs de Hollande,1
 mouchoirs de kinfin,1,mouchoirs de kinfin,1
 mouchoirs de l'hotes,2,mouchoirs de l'hotes,2
@@ -17061,7 +17061,8 @@ mouchoirs fil et lin,1,mouchoirs de fil et de lin,1
 mouchoirs fins,2,mouchoirs fins,2
 mouchoirs foulards,3,mouchoirs foulards,3
 mouchoirs gros en fil,1,mouchoirs gros en fil,1
-mouchoirs guingan,2,mouchoirs guingan,2
+mouchoirs guingan,1,mouchoirs guingan,1
+mouchoirs guingans,1,,420
 mouchoirs imprimés,3,mouchoirs imprimés,3
 mouchoirs indienne,5,mouchoirs indienne,5
 mouchoirs Komel et Renis,1,mouchoirs Komel et Renis,1
@@ -22668,9 +22669,9 @@ ruban de fil fleuret et laine de soie,1,ruban de fil fleuret et laine de soie,1
 ruban de fil or et argent,8,ruban de fil d'argent et d'or,8
 ruban de fil teint,2,ruban de fil teint,2
 ruban de filoselle,22,ruban de filoselle,24
-ruban de fleuret,40,ruban de fleuret,41
-ruban de fleuret de soie,1,ruban de fleuret et de soie,2
-ruban de fleurs,2,ruban de fleuret,2
+ruban de fleuret,40,ruban de fleuret,43
+ruban de fleuret de soie,1,ruban de fleuret et de soie,3
+ruban de fleurs,2,ruban de fleuret,43
 ruban de laine,39,ruban de laine,39
 ruban de laine de laine pure écrue et blanche,1,ruban de laine pure écrue et blanche,1
 ruban de laine de laine pure teinte,1,ruban de laine de laine pure teinte,1
@@ -22684,7 +22685,7 @@ ruban de soie et argent,2,ruban d'argent et de soie,5
 ruban de soie et d'argent,1,ruban d'argent et de soie,5
 ruban de soie et de laine,1,ruban de laine et de soie,1
 ruban de soie et dorure,2,ruban de dorure et soie,2
-ruban de soie et fleuret,1,ruban de fleuret et de soie,2
+ruban de soie et fleuret,1,ruban de fleuret et de soie,3
 ruban de soie or et argent,6,ruban d'argent et d'or et de soie,14
 ruban de soie or et argent faux,1,ruban d'argent faux et d'or faux et de soie,1
 ruban de velours,4,ruban de velours,4
@@ -22723,7 +22724,7 @@ ruban ou listonnerie,1,ruban et listonnerie,2
 ruban picard,1,ruban picard,1
 ruban soie,1,ruban de soie,1279
 ruban soie et fil,3,ruban de fil et de soie,3
-ruban soie et flearn,1,ruban de fleuret et de soie,1
+ruban soie et flearn,1,ruban de fleuret et de soie,3
 ruban soie et or,1,ruban d'or et de soie,2
 ruban soie or et argent,2,ruban d'argent et d'or et de soie,14
 ruban teint,1,ruban teint,1
@@ -24974,7 +24975,7 @@ tissus de fleuret en étoffe et rubannerie,10,étoffe et rubanerie de fleuret,10
 tissus de fleuret étoffes,4,étoffe de fleuret,73
 tissus de fleuret étoffes pures et mouchoirs,1,étoffe pures et mouchoirs de fleuret,1
 tissus de fleuret passementerie et ruban,4,passementerie de fleuret et ruban de fleuret,4
-tissus de fleuret ruban,1,ruban de fleuret,41
+tissus de fleuret ruban,1,ruban de fleuret,43
 tissus de laine bonneterie,3,bonneterie de fleuret,11
 tissus de laine casimirs et mérinos,1,casimirs et mérinos de laine,1
 tissus de laine châles brochés et façonnés,2,châles brochés et façonnés de laine,2
@@ -25877,7 +25878,7 @@ toile de fil de chanvre,1,toile de chanvre,635
 toile de fil de coton,7,toile de fil de coton,28
 toile de fil de coton diverse,12,toile de fil de coton,28
 toile de fil de coton siamoise,14,toile de fil de coton siamoise,14
-toile de fil dite guingan,8,guingan de fil,25
+toile de fil dite guingan,8,guingan de fil,8
 toile de fil diverse,3,toile de fil,17
 toile de fil en coton,3,toile de coton et de fil,532
 toile de fil en coton siamoise,1,siamoise de coton et de fil,95
@@ -25920,7 +25921,7 @@ toile de Grenade,18,toile de Grenade,45
 toile de Grenoble,3,toile de Grenoble,3
 toile de gris,1,toile de gris,1
 toile de Guinée,2,guinée,181
-toile de guingan,8,guingan,586
+toile de guingan,8,guingan,291
 toile de halle,105,toile de halle,105
 toile de Hanovre,1,toile de Hanovre,1
 toile de haut brin,8,toile de haut brin,8
@@ -26098,7 +26099,7 @@ toile de lin grosse,32,toile grosse de lin,32
 toile de lin grosse écrue,1,toile écrue et grosse de lin,1
 toile de lin grosse pointe,1,toile de lin grosse pointe,1
 toile de lin grosse pour nègre,4,toile grosse de lin et pour nègre,4
-toile de lin guingan,13,guingan de lin,19
+toile de lin guingan,13,guingan de lin,13
 toile de lin Hollande,1,toile de lin de Hollande,40
 toile de lin imprimée,3,toile de lin imprimée,3
 toile de lin indigo,1,toile de lin indigo,1
@@ -26258,7 +26259,7 @@ toile des Indes guildochées,1,toile des Indes guildochées,1
 toile des Indes Guinée blanche,4,guinée blanche des Indes,4
 toile des Indes Guinée blanche et bleue,4,guinée blanche et bleue des Indes,4
 toile des Indes Guinée bleue,1,guinée bleue des Indes,1
-toile des Indes guingan,1,guingan des Indes,3
+toile des Indes guingan,1,guingan des Indes,1
 toile des Indes imitant celles des Indes,1,toile des Indes imitant celles des Indes,1
 toile des Indes indienne,1,indienne des Indes,2
 toile des Indes k...chaya illisible,1,toile des Indes,175
@@ -26309,7 +26310,8 @@ toile diverse des Indes,4,toile des Indes,175
 toile diverse en batiste,1,batiste,559
 toile diverse en lin et de chanvre,1,toile de chanvre et de lin,664
 toile diverse fil et coton,5,toile de coton et de fil,532
-toile diverse guingan,6,guingan,586
+toile diverse guingan,5,guingan,291
+toile diverse guingans,1,,420
 toile diverse indienne,3,toile indienne,9
 toile diverse indienne étrangère,6,toile indienne,9
 toile diverse indienne française,6,toile indienne française,6
@@ -26356,7 +26358,7 @@ toile en chemises,2,chemises de toile,7
 toile en coutil,5,toile de coutil,51
 toile en crin,1,toile de crin,278
 toile en fair,2,toile en fair,2
-toile en guingan,1,guingan,586
+toile en guingans,1,,420
 toile en lin,1,toile de lin,697
 toile en lin et de chanvre,1,toile de chanvre et de lin,664
 toile en linge de tables,11,linge de table,521
@@ -26477,14 +26479,15 @@ toile Guinée bleu,3,guinée bleue,187
 toile Guinée bleue,22,guinée bleue,187
 toile Guinée bleue imitant celle des Indes,1,guinée bleue imitant celle des Indes,1
 toile Guinée imitant celle des Indes,2,guinée imitant celle des Indes,2
-toile guingan,295,guingan,586
-toile guingan de fil,8,guingan de fil,25
-toile guingan de Grenade,2,guingan de Grenade,2
-toile guingan de lin,4,guingan de lin,19
-toile guingan de Rouen,3,guingan de Rouen,3
-toile guingan en fil,5,guingan de fil,25
-toile guingan fil en coton,1,guingan de coton,1
-toile guingan lin,2,guingan de lin,19
+toile guingan,271,guingan,291
+toile guingans,24,,420
+toile guingans de fil,8,,420
+toile guingans de Grenade,2,,420
+toile guingans de lin,4,,420
+toile guingans de Rouen,3,,420
+toile guingans en fil,5,,420
+toile guingans fil en coton,1,,420
+toile guingans lin,2,,420
 toile haut brin,4,toile haut brin,4
 toile haut brin de Dinant,3,toile haut brin de Dinant,3
 toile hivre,1,toile hivre,1
@@ -26596,7 +26599,8 @@ toile mêlée grosse,12,toile grosse,209
 toile mêlée grosse ???,1,toile grosse ???,1
 toile mêlée grosse en faces,12,toile grosse en faces,12
 toile mêlée grosse et sommiers,6,toile grosse et sommiers,6
-toile mêlée guingan,11,guingan,586
+toile mêlée guingan,7,guingan,291
+toile mêlée guingans,4,,420
 toile mêlée imprimée,2,toile imprimée,12
 toile mêlée peinte,49,toile peinte,982
 toile mêlée peinte et teinte,1,toile peinte et teinte,7
@@ -27420,7 +27424,7 @@ vestes de soie unies,1,vestes de soie unies,1
 vestes de toile,7,vestes de toile,7
 vestes de toile brodées,3,vestes de toile brodées,3
 vestes de toile grise,1,vestes de toile grise,1
-vestes de toile guingan,1,vestes de toile guingan,1
+vestes de toile guingans,1,,420
 vestes de velours,3,vestes de velours,3
 vestes droguet de soie,1,vestes en droguet de soie,1
 vestes et bordures,1,vestes et bordures,1
