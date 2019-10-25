@@ -1116,7 +1116,7 @@ batiste,559,6d,x,non,9676
 batiste blanche,1,6d,x,non,9676
 batiste brochée,1,6d,,non,9676
 batiste de 12 aunes,1,6d,,non,9676
-batiste de fil,12,6i,,non,14559
+batiste de fil,12,6d,,non,14559
 batiste de lin,15,6d,,non,9676
 batiste de lin et linon de lin,14,6d,x,non,9676
 batiste écrue,2,6d,x,non,9676
@@ -1125,7 +1125,7 @@ batiste et linon de chanvre,2,6d,,non,9676
 batiste et linon de chanvre et de lin,7,6d,,non,9676
 batiste fine,8,6d,x,non,9676
 batiste grise,1,6d,x,non,9676
-batiste Lorient,1,6i,,non,14559
+batiste Lorient,1,6d,,non,14559
 batonge de bois,1,???,x,oui,4686
 bâtons,5,9c,x,non,10408
 bâtons à chandelle,2,9c,x,non,10408
@@ -3722,7 +3722,7 @@ chanvre deuxième qualité,1,2,,non,76994
 chanvre dit chenevolle,1,2,x,non,76994
 chanvre divers,45,2,x,non,76994
 chanvre écru,8,2,x,non,76994
-chanvre en liens,4,2,,non,76994
+chanvre en liens,4,6d,,non,76994
 chanvre en masses,44,2,,non,76994
 chanvre en ramade,1,2,x,non,76994
 chanvre en rames,150,2,,non,76994
@@ -4622,37 +4622,37 @@ corbeilles d'auf,1,8,,non,62774
 corbeilles d'osier,118,8,x,non,62774
 corbeilles d'osier petites,1,8,x,non,62774
 corbeilles garnies,1,9c,x,non,10408
-cordage,749,6i,x,non,14559
+cordage,749,6d,x,non,14559
 cordage ???,3,6i,x,non,14559
-cordage à boyaux,1,???,x,non,4686
+cordage à boyaux,1,6i,x,non,4686
 cordage blanc,3,6i,x,non,14559
 cordage d'auf,43,6d,x,non,9676
 cordage d'autre végétaux,6,6d,,non,9676
 cordage d'autre végétaux jonc sparte et tilleul,1,6d,,non,9676
-cordage d'emballage,8,6i,x,non,14559
-cordage d'espars,229,7,,non,8928
-cordage de câbles neufs,1,6i,,non,14559
-cordage de caret,1,6i,,non,14559
+cordage d'emballage,8,6d,x,non,14559
+cordage d'espars,229,6d,,non,8928
+cordage de câbles neufs,1,6d,,non,14559
+cordage de caret,1,6d,,non,14559
 cordage de chanvre,763,6d,x,non,9676
 cordage de chanvre neuf,4,6d,x,non,9676
 cordage de chanvre vieux,6,6d,,non,9676
-cordage de filin,1,6i,,non,14559
+cordage de filin,1,6d,,non,14559
 cordage de jonc,15,6d,x,non,9676
 cordage de satangres,1,6d,,non,9676
 cordage de thil,2,6d,x,non,9676
 cordage de tilleul,11,6d,x,non,9676
-cordage de vieux,1,6i,x,non,14559
+cordage de vieux,1,6d,x,non,14559
 cordage dit filin,1,6d,x,non,9676
 cordage en morceaux,1,6d,x,non,9676
-cordage et cordes,2,6i,,non,14559
-cordage et ficelle,4,6i,x,non,14559
-cordage filets neuf,1,6h,,non,16308
-cordage filets neuf ou en état de servir,4,6h,,non,16308
+cordage et cordes,2,6d,,non,14559
+cordage et ficelle,4,6d,x,non,14559
+cordage filets neuf,1,6d,,non,16308
+cordage filets neuf ou en état de servir,4,6d,,non,16308
 cordage goudronné,8,6i,x,non,14559
-cordage gros,1,6i,,non,14559
+cordage gros,1,6d,,non,14559
 cordage herbe,1,6d,x,non,9676
-cordage menu,1,6i,,non,14559
-cordage neuf,6,6i,x,non,14559
+cordage menu,1,6d,,non,14559
+cordage neuf,6,6d,x,non,14559
 cordage noir,4,6d,x,non,9676
 cordage pourri,1,6d,,non,9676
 cordage refait,1,6d,,non,9676
@@ -4837,7 +4837,7 @@ coton des colonies françaises,1,2,,non,76994
 coton des Îles et des Indes,2,2,,non,76994
 coton des Indes,10,2,x,non,76994
 coton en balles et toile,1,9b,x,non,6358
-coton en feuilles cardées et gommées ouates,2,6g,,non,12363
+coton en feuilles cardées et gommées ouates,2,2,,non,12363
 coton en fil,1,6g,,non,12363
 coton en laine,1522,2,x,non,76994
 coton en laine de retour,1,2,,non,76994
@@ -4868,9 +4868,9 @@ cotonnades châles,11,6g,x,non,12363
 cotonné de coton,84,6g,x,non,12363
 cotonnée,159,6g,x,non,12363
 cotonnette,3,6g,,non,12363
-cotonnine,52,6i,x,non,14559
-cotonnine anglaise,1,6g,,non,12363
-cotonnine bleue,1,6g,,non,12363
+cotonnine,52,6h,x,non,14559
+cotonnine anglaise,1,6h,,non,12363
+cotonnine bleue,1,6h,,non,12363
 cotons autres courte soie,1,6h,,non,16308
 cotte,1,8,,non,62774
 cou salé,2,0a,,non,80812
@@ -5125,10 +5125,10 @@ crêpe de laine aune,1,6e,x,oui,13225
 crêpe de Reims,14,6i,x,non,14559
 crêpe de soie,22,6f,x,non,11411
 crêpe et crépon,1,6i,x,non,14559
-crêpe et étoffe et gaze et passementerie et ruban de soie,23,6i,,non,14559
-crêpe et étoffe et passementerie et ruban de soie,11,6i,,non,14559
-crêpe et gaze et mouchoirs,6,6i,,non,14559
-crêpe et gaze et tulle,29,6i,x,non,14559
+crêpe et étoffe et gaze et passementerie et ruban de soie,23,6f,,non,14559
+crêpe et étoffe et passementerie et ruban de soie,11,6f,,non,14559
+crêpe et gaze et mouchoirs,6,6f,,non,14559
+crêpe et gaze et tulle,29,6f,x,non,14559
 crêpe et gaze et tulle de soie,146,6f,x,non,11411
 crêpe noir,1,6i,x,non,14559
 crêpe pour chapeaux,2,6i,x,non,14559
@@ -5638,91 +5638,91 @@ demoiselle de bois,1,6b,,non,17810
 demoiselle de sapin,2,6b,x,non,17810
 denrées coloniales,17,0b,x,non,25230
 denrées coloniales et épicerie,22,9b,x,non,6358
-dentelle,313,8,x,non,62774
-dentelle à peu de soie,3,8,x,non,62774
-dentelle blanche,2,8,x,non,62774
-dentelle blonde de soie,1,8,x,non,62774
-dentelle commune,62,8,x,non,62774
-dentelle d'Alençon,1,8,x,non,62774
-dentelle d'Andelys,1,8,x,non,62774
-dentelle d'argent,22,8,x,non,62774
-dentelle d'argent et d'or,62,8,x,non,62774
-dentelle d'argent et d'or faux,2,8,x,non,62774
-dentelle d'argent faux,5,8,x,non,62774
-dentelle d'argent fin,6,8,x,non,62774
-dentelle d'or,8,8,x,non,62774
-dentelle d'or et d'argent,3,8,x,non,62774
-dentelle d'or et d'argent faux,2,8,x,non,62774
-dentelle d'or et d'argent fin,5,8,x,non,62774
-dentelle d'or faux,4,8,x,non,62774
-dentelle d'or fin,8,8,x,non,62774
-dentelle de Bretagne,2,8,,non,62774
-dentelle de Caen,18,8,x,non,62774
-dentelle de chanvre et de lin,8,8,,non,62774
-dentelle de coton et blonde de coton,18,8,x,non,62774
-dentelle de Dieppe,1,8,,non,62774
-dentelle de fer,1,8,x,non,62774
-dentelle de fil,310,8,x,non,62774
-dentelle de fil 2 lignes,1,8,,non,62774
-dentelle de fil blanc,318,8,x,non,62774
-dentelle de fil blanc commune,1,8,x,non,62774
-dentelle de fil blanc de Lille,1,8,x,non,62774
-dentelle de fil commune,71,8,x,non,62774
-dentelle de fil d'Alençon,1,8,x,non,62774
-dentelle de fil d'or faux,1,8,x,non,62774
-dentelle de fil d'or fin,2,8,x,non,62774
-dentelle de fil de ??? et Reims,2,8,x,non,62774
-dentelle de fil de Bergame,1,8,x,non,62774
-dentelle de fil de Caen,9,8,x,non,62774
-dentelle de fil de crin,2,8,x,non,62774
-dentelle de fil de Flandre,10,8,x,non,62774
-dentelle de fil de laine,1,8,x,non,62774
-dentelle de fil de lin,1,8,x,non,62774
-dentelle de fil de Normandie,4,8,x,non,62774
-dentelle de fil de soie,5,8,x,non,62774
-dentelle de fil dorure d'argent,2,8,x,non,62774
-dentelle de fil du Puy,68,8,x,non,62774
-dentelle de fil du Puy et ???,2,8,x,non,62774
-dentelle de fil et de soie,10,8,x,non,62774
-dentelle de fil et soie,49,8,x,non,62774
-dentelle de fil et tulle,31,8,,non,62774
-dentelle de fil et Valenciennes,3,8,x,non,62774
-dentelle de fil fine,23,8,x,non,62774
-dentelle de fil grosse,32,8,x,non,62774
-dentelle de Flandre,7,8,x,non,62774
-dentelle de France,1,8,,non,62774
-dentelle de gaze,1,8,,non,62774
-dentelle de Gisors,1,8,,non,62774
-dentelle de Lille,2,8,,non,62774
-dentelle de Malines,3,8,,non,62774
-dentelle de Normandie,2,8,,non,62774
-dentelle de pays,2,8,,non,62774
-dentelle de Rouen,1,8,x,non,62774
-dentelle de soie,505,8,x,non,62774
-dentelle de soie au quart,1,8,x,non,62774
-dentelle de soie blanche,3,8,x,non,62774
-dentelle de soie blonde,70,8,x,non,62774
-dentelle de soie de Rouen,3,8,x,non,62774
-dentelle de soie et de fil,1,8,x,non,62774
-dentelle de soie noire,1,8,,non,62774
-dentelle de toute autre sorte que soie,1,8,,non,62774
-dentelle dorure d'argent,12,8,x,non,62774
-dentelle dorure d'argent et d'or,13,8,x,non,62774
-dentelle dorure d'or,7,8,x,non,62774
-dentelle dorure d'or faux,4,8,x,non,62774
-dentelle du Havre,14,8,x,non,62774
-dentelle du pays,2,8,,non,62774
-dentelle du Puy,185,8,x,non,62774
-dentelle du Puy en soie,1,8,,non,62774
+dentelle,313,6d,x,non,62774
+dentelle à peu de soie,3,6h,x,non,62774
+dentelle blanche,2,6d,x,non,62774
+dentelle blonde de soie,1,6h,x,non,62774
+dentelle commune,62,6d,x,non,62774
+dentelle d'Alençon,1,6d,x,non,62774
+dentelle d'Andelys,1,6d,x,non,62774
+dentelle d'argent,22,6i,x,non,62774
+dentelle d'argent et d'or,62,6i,x,non,62774
+dentelle d'argent et d'or faux,2,6i,x,non,62774
+dentelle d'argent faux,5,6i,x,non,62774
+dentelle d'argent fin,6,6i,x,non,62774
+dentelle d'or,8,6i,x,non,62774
+dentelle d'or et d'argent,3,6i,x,non,62774
+dentelle d'or et d'argent faux,2,6i,x,non,62774
+dentelle d'or et d'argent fin,5,6i,x,non,62774
+dentelle d'or faux,4,6i,x,non,62774
+dentelle d'or fin,8,6i,x,non,62774
+dentelle de Bretagne,2,6d,,non,62774
+dentelle de Caen,18,6d,x,non,62774
+dentelle de chanvre et de lin,8,6d,,non,62774
+dentelle de coton et blonde de coton,18,6g,x,non,62774
+dentelle de Dieppe,1,6d,,non,62774
+dentelle de fer,1,6i,x,non,62774
+dentelle de fil,310,6d,x,non,62774
+dentelle de fil 2 lignes,1,6d,,non,62774
+dentelle de fil blanc,318,6d,x,non,62774
+dentelle de fil blanc commune,1,6d,x,non,62774
+dentelle de fil blanc de Lille,1,6d,x,non,62774
+dentelle de fil commune,71,6d,x,non,62774
+dentelle de fil d'Alençon,1,6d,x,non,62774
+dentelle de fil d'or faux,1,6i,x,non,62774
+dentelle de fil d'or fin,2,6i,x,non,62774
+dentelle de fil de ??? et Reims,2,6d,x,non,62774
+dentelle de fil de Bergame,1,6d,x,non,62774
+dentelle de fil de Caen,9,6d,x,non,62774
+dentelle de fil de crin,2,6d,x,non,62774
+dentelle de fil de Flandre,10,6d,x,non,62774
+dentelle de fil de laine,1,6e,x,non,62774
+dentelle de fil de lin,1,6d,x,non,62774
+dentelle de fil de Normandie,4,6d,x,non,62774
+dentelle de fil de soie,5,6f,x,non,62774
+dentelle de fil dorure d'argent,2,6h,x,non,62774
+dentelle de fil du Puy,68,6d,x,non,62774
+dentelle de fil du Puy et ???,2,6d,x,non,62774
+dentelle de fil et de soie,10,6h,x,non,62774
+dentelle de fil et soie,49,6h,x,non,62774
+dentelle de fil et tulle,31,6d,,non,62774
+dentelle de fil et Valenciennes,3,6d,x,non,62774
+dentelle de fil fine,23,6d,x,non,62774
+dentelle de fil grosse,32,6d,x,non,62774
+dentelle de Flandre,7,6d,x,non,62774
+dentelle de France,1,6d,,non,62774
+dentelle de gaze,1,6i,,non,62774
+dentelle de Gisors,1,6d,,non,62774
+dentelle de Lille,2,6d,,non,62774
+dentelle de Malines,3,6d,,non,62774
+dentelle de Normandie,2,6d,,non,62774
+dentelle de pays,2,6d,,non,62774
+dentelle de Rouen,1,6d,x,non,62774
+dentelle de soie,505,6f,x,non,62774
+dentelle de soie au quart,1,6h,x,non,62774
+dentelle de soie blanche,3,6f,x,non,62774
+dentelle de soie blonde,70,6f,x,non,62774
+dentelle de soie de Rouen,3,6f,x,non,62774
+dentelle de soie et de fil,1,6h,x,non,62774
+dentelle de soie noire,1,6f,,non,62774
+dentelle de toute autre sorte que soie,1,6i,,non,62774
+dentelle dorure d'argent,12,6h,x,non,62774
+dentelle dorure d'argent et d'or,13,6h,x,non,62774
+dentelle dorure d'or,7,6h,x,non,62774
+dentelle dorure d'or faux,4,6h,x,non,62774
+dentelle du Havre,14,6d,x,non,62774
+dentelle du pays,2,6d,,non,62774
+dentelle du Puy,185,6d,x,non,62774
+dentelle du Puy en soie,1,6f,,non,62774
 dentelle en coiffures et manchettes,1,8,x,non,62774
-dentelle en dorure,5,8,x,non,62774
-dentelle et blonde,19,8,x,non,62774
-dentelle et galon et passementerie,54,8,x,non,62774
-dentelle et galon et passementerie et ruban,28,8,x,non,62774
-dentelle fine,30,8,x,non,62774
-dentelle grosse,14,8,x,non,62774
-dentelle mi soie,3,8,x,non,62774
-dentelle moyenne,1,8,,non,62774
+dentelle en dorure,5,6i,x,non,62774
+dentelle et blonde,19,6f,x,non,62774
+dentelle et galon et passementerie,54,6i,x,non,62774
+dentelle et galon et passementerie et ruban,28,6i,x,non,62774
+dentelle fine,30,6d,x,non,62774
+dentelle grosse,14,6d,x,non,62774
+dentelle mi soie,3,6f,x,non,62774
+dentelle moyenne,1,6d,,non,62774
 dents d'éléphant,474,2,x,non,76994
 dents d'éléphant d'hippopotame et autres,2,2,,oui,76994
 dents d'éléphant entières,4,2,,non,76994
@@ -6102,13 +6102,13 @@ drap et mouchoir de soie,1,6f,,non,11411
 drap et tricots,2,6i,,non,14559
 drap et velours de coton,1,6g,,non,12363
 drap étranger,3,6i,x,non,14559
-drap fin,90,6i,x,non,14559
-drap fin blanc,1,6i,x,non,14559
-drap fin de la manufacture de France,2,6i,,non,14559
+drap fin,90,6e,x,non,14559
+drap fin blanc,1,6e,x,non,14559
+drap fin de la manufacture de France,2,6e,,non,14559
 drap fin divers dit londrin du Languedoc de Carcassonne et Lodève,1,6e,,non,13225
 drap fin du Languedoc,23,6e,x,non,13225
-drap fin et draperie,1,6i,x,non,14559
-drap fin ordinaire et petite,1,6i,x,non,14559
+drap fin et draperie,1,6e,x,non,14559
+drap fin ordinaire et petite,1,6e,x,non,14559
 drap fins de laine,62,6e,,non,13225
 drap frac,2,6i,x,non,14559
 drap gaufré,2,6i,x,non,14559
@@ -6119,9 +6119,9 @@ drap iada,1,6i,x,non,14559
 drap imprimé,6,6i,x,non,14559
 drap kalmouk,4,6i,x,non,14559
 drap layette,5,6i,x,non,14559
-drap londrin,222,6i,,non,14559
+drap londrin,222,6e,,non,14559
 drap londrin ?,1,6e,,non,13225
-drap londrin petit,1,6i,,non,14559
+drap londrin petit,1,6e,,non,14559
 drap molleton,47,6i,x,non,14559
 drap motton,8,6i,x,non,14559
 drap moutade,1,6i,x,non,14559
@@ -6130,16 +6130,16 @@ drap naturel commun,3,6e,,non,13225
 drap naturel de Sedan,1,6e,x,non,13225
 drap naturel diverses,2,6i,,non,14559
 drap naturel Sirre,2,6i,x,non,14559
-drap noir,5,6i,x,non,14559
-drap noir de Sedan,1,6i,,non,14559
-drap ordinaire,324,6i,x,non,14559
+drap noir,5,6e,x,non,14559
+drap noir de Sedan,1,6e,,non,14559
+drap ordinaire,324,6e,x,non,14559
 drap ordinaires de laine,70,6e,,non,13225
 drap palencourt,1,6i,x,non,14559
 drap peint,2,6i,,non,14559
 drap petit,712,6i,x,non,14559
-drap petit de Languedoc,1,6i,x,non,14559
+drap petit de Languedoc,1,6e,x,non,14559
 drap petit de mains,1,6i,,non,14559
-drap petit de Sedan,1,6i,x,non,14559
+drap petit de Sedan,1,6e,x,non,14559
 drap petit de Silésie,33,6d,x,non,14559
 drap platine,2,6d,x,non,9676
 drap pour billau,1,6i,x,non,14559
@@ -6153,11 +6153,11 @@ drap teint et mêlé de douzaine,1,6i,,oui,14559
 drap terlaine,1,6i,x,non,14559
 drap uni,1,6i,,non,14559
 drap vert,2,6i,x,non,14559
-drap vieux,2,6i,,non,14559
-drap vieux pour l'entrepôt pour la Guinée,1,6i,,non,14559
+drap vieux,2,6d,,non,14559
+drap vieux pour l'entrepôt pour la Guinée,1,6d,,non,14559
 drape petite,2,6i,x,non,14559
 drapeaux,2,6d,,non,9676
-drapeaux vieux,112,6i,x,non,14559
+drapeaux vieux,112,6d,x,non,14559
 drapeaux vieux pour papeterie,1,2,,non,76994
 draperie et futaine,8,6e,,non,13225
 draps de coton,0,6g,,oui,12363
@@ -7258,9 +7258,9 @@ etocs de fer,13,???,x,non,4686
 étoffe de velours de coton,13,6g,,non,12363
 étoffe de velours de soie,157,6f,,non,11411
 étoffe de voile,2,7,x,non,8928
-étoffe demi soie,5,6f,x,non,11411
+étoffe demi soie,5,6h,x,non,11411
 étoffe des Iles,4,6i,,non,14559
-étoffe des Indes,19,6i,x,non,14559
+étoffe des Indes,19,6g,x,non,14559
 étoffe des Indes vestes brodées,1,9b,,non,6358
 étoffe des prises,2,6i,,non,14559
 étoffe dite calutras de coton et de soie,1,6f,,non,11411
@@ -7282,7 +7282,7 @@ etocs de fer,13,???,x,non,4686
 étoffe en dorure et galon et passementerie,24,6i,x,non,14559
 étoffe en or mêlée de soie,27,6f,x,non,11411
 étoffe et galon d'argent et d'or,1,6i,x,non,14559
-étoffe et gaze et toile des Indes,1,6i,x,non,14559
+étoffe et gaze et toile des Indes,1,6g,x,non,14559
 étoffe et lainages,1,6i,,non,14559
 étoffe et ouvrage de soie,0,6f,,oui,11411
 étoffe et ouvrages de soie,1,6f,,non,11411
@@ -7310,30 +7310,30 @@ etocs de fer,13,???,x,non,4686
 étoffe herbage,2,6i,,non,14559
 étoffe herbes,1,6d,x,non,9676
 étoffe impériale,2,6i,x,non,14559
-étoffe laine de soie,1,6f,x,non,11411
+étoffe laine de soie,1,6h,x,non,11411
 étoffe manchettes,1,9b,x,non,6358
 étoffe mélangée au ??? soie,5,6h,x,non,16308
-étoffe mélangée de bourre en molleton,1,6i,,non,14559
-étoffe mélangée de coton et de soie,12,6f,,non,11411
-étoffe mélangée de fil et de soie,1,6f,,non,11411
-étoffe mélangée de fleuret et de soie,1,6f,,non,11411
-étoffe mêlée de coton et de soie,3,6f,,non,11411
-étoffe mêlée de fil de soie,8,6f,,non,11411
-étoffe mêlée de fil et de soie,3,6f,,non,11411
+étoffe mélangée de bourre en molleton,1,6h,,non,14559
+étoffe mélangée de coton et de soie,12,6h,,non,11411
+étoffe mélangée de fil et de soie,1,6h,,non,11411
+étoffe mélangée de fleuret et de soie,1,6h,,non,11411
+étoffe mêlée de coton et de soie,3,6h,,non,11411
+étoffe mêlée de fil de soie,8,6h,,non,11411
+étoffe mêlée de fil et de soie,3,6h,,non,11411
 étoffe mêlée de soie ?,1,6h,,non,16308
 étoffe mêlée de soie ???,1,6h,,non,16308
-étoffe mêlée de soie à peu,63,6f,,non,11411
-étoffe mêlée de soie à peu de soie,111,6f,,non,11411
-étoffe mêlée de soie au 4/5e,4,6f,x,non,11411
-étoffe mêlée de soie peluches,133,6i,,non,14559
-étoffe mêlée de soie peu,13,6f,,non,11411
-étoffe mêlée éternelle au ? de soie,1,6f,x,non,11411
-étoffe mi soie,138,6f,x,non,11411
+étoffe mêlée de soie à peu,63,6h,,non,11411
+étoffe mêlée de soie à peu de soie,111,6h,,non,11411
+étoffe mêlée de soie au 4/5e,4,6h,x,non,11411
+étoffe mêlée de soie peluches,133,6h,,non,14559
+étoffe mêlée de soie peu,13,6h,,non,11411
+étoffe mêlée éternelle au ? de soie,1,6h,x,non,11411
+étoffe mi soie,138,6h,x,non,11411
 étoffe noire,1,6i,x,non,14559
 étoffe peinte,1,6i,x,non,14559
 étoffe peluches communes,1,6e,x,non,13225
 étoffe peluches de laine,1,6e,x,non,13225
-étoffe peu de soie,1,6f,x,non,11411
+étoffe peu de soie,1,6h,x,non,11411
 étoffe poil en panne à long poil,1,6e,x,non,13225
 étoffe pour talits,1,6i,x,non,14559
 étoffe pure brochée d'or fin,1,6i,,non,14559
@@ -7348,16 +7348,16 @@ etocs de fer,13,???,x,non,4686
 étoffe riche or et argent,1,6i,x,non,14559
 étoffe riche ou or et argent,1,6i,x,non,14559
 étoffe royale,1,6i,,non,14559
-étoffe soie au quart,2,6f,,non,11411
+étoffe soie au quart,2,6h,,non,11411
 étoffe soie crêpe,2,6f,x,non,11411
 étoffe soie des Indes,1,6f,x,non,11411
 étoffe soierie,2,6f,x,non,11411
 étoffe taffetas,5,6f,x,non,11411
-étoffes brochées d'argent et d'or faux de soie,1,6f,,non,11411
-étoffes brochées d'argent et d'or fin de soie,2,6f,,non,11411
-étoffes brochées de pure soie et unies,39,6f,,non,11411
-étoffes brochées de soie de soie,2,6f,,non,11411
-étoffes brochées de soie et unies,70,6f,,non,11411
+étoffes brochées d'argent et d'or faux de soie,1,6h,,non,11411
+étoffes brochées d'argent et d'or fin de soie,2,6h,,non,11411
+étoffes brochées de pure soie et unies,39,6h,,non,11411
+étoffes brochées de soie de soie,2,6h,,non,11411
+étoffes brochées de soie et unies,70,6h,,non,11411
 étoffes d'écorce,2,6b,,non,17810
 étoffes de bourre de soie façon cachemire,1,6f,,non,11411
 étoffes de cachemire de poil,1,6e,,non,13225
@@ -7369,18 +7369,18 @@ etocs de fer,13,???,x,non,4686
 étoffes de coton simples,2,6g,,non,12363
 étoffes de crin,1,6e,,non,13225
 étoffes de crin et de poils,2,6e,,non,13225
-étoffes de fil,1,6i,x,non,14559
+étoffes de fil,1,6d,x,non,14559
 étoffes de laine,2,6e,,non,13225
-étoffes de lin et de chanvre mêlés,1,6i,,non,14559
+étoffes de lin et de chanvre mêlés,1,6d,,non,14559
 étoffes de plocq,2,6e,x,non,13225
 étoffes de poil,1,6e,,non,13225
 étoffes de soie blonde,5,6f,,non,11411
-étoffes de soie mêlée,2,6f,,non,11411
+étoffes de soie mêlée,2,6h,,non,11411
 étoffes de soie unis,2,6f,,non,11411
 étoffes des Indes,6,6i,,non,14559
 étoffes en feuilles,8,6i,,non,14559
 étoffes et fer en barres,1,9b,,non,6358
-étoffes et gaze et crêpe et tulle,10,6i,x,non,14559
+étoffes et gaze et crêpe et tulle,10,6g,x,non,14559
 étoffes façonnés de soie,2,6f,,non,11411
 étoupes,208,2,x,non,76994
 étoupes à calfater,9,2,,non,76994
@@ -7874,32 +7874,32 @@ figures de plâtre,9,8,x,non,62774
 figures de terre,2,8,x,non,62774
 figures en plâtre,1,8,,non,62774
 figures sur bois,2,8,x,non,62774
-fil,340,6i,x,non,14559
-fil à brin marin,1,6i,,non,14559
-fil à brocher,1,6i,x,non,14559
-fil à broder,10,6i,x,non,14559
-fil à câble,1,6i,,non,14559
-fil à carder,15,6i,x,non,14559
-fil à corder,1,6i,,non,14559
-fil à cordonnier,15,6i,x,non,14559
-fil à coudre,426,6i,x,non,14559
-fil à coudre bis,1,6i,x,non,14559
-fil à coudre commun,12,6i,x,non,14559
-fil à coudre d'Épinal,34,6i,x,non,14559
-fil à coudre d'épreuve,1,6i,x,non,14559
-fil à coudre de Bretagne,8,6i,x,non,14559
+fil,340,6d,x,non,14559
+fil à brin marin,1,6d,,non,14559
+fil à brocher,1,6d,x,non,14559
+fil à broder,10,6d,x,non,14559
+fil à câble,1,6d,,non,14559
+fil à carder,15,6d,x,non,14559
+fil à corder,1,6d,,non,14559
+fil à cordonnier,15,6d,x,non,14559
+fil à coudre,426,6d,x,non,14559
+fil à coudre bis,1,6d,x,non,14559
+fil à coudre commun,12,6d,x,non,14559
+fil à coudre d'Épinal,34,6d,x,non,14559
+fil à coudre d'épreuve,1,6d,x,non,14559
+fil à coudre de Bretagne,8,6d,x,non,14559
 fil à coudre de chanvre,18,6d,x,non,9676
 fil à coudre de coton,1,6g,,non,12363
-fil à coudre de couleur,96,6i,x,non,14559
-fil à coudre de couteau,1,6i,x,non,14559
-fil à coudre de ménage,1,6i,,non,14559
-fil à coudre de Rennes,32,6i,x,non,14559
-fil à coudre de ritte,1,6i,x,non,14559
-fil à coudre divers,70,6i,x,non,14559
-fil à coudre du fin,10,6i,x,non,14559
-fil à coudre du Piémont,1,6i,,non,14559
-fil à coudre en masses,1,6i,,non,14559
-fil à coudre en poignées,1,6i,,non,14559
+fil à coudre de couleur,96,6d,x,non,14559
+fil à coudre de couteau,1,6d,x,non,14559
+fil à coudre de ménage,1,6d,,non,14559
+fil à coudre de Rennes,32,6d,x,non,14559
+fil à coudre de ritte,1,6d,x,non,14559
+fil à coudre divers,70,6d,x,non,14559
+fil à coudre du fin,10,6d,x,non,14559
+fil à coudre du Piémont,1,6d,,non,14559
+fil à coudre en masses,1,6d,,non,14559
+fil à coudre en poignées,1,6d,,non,14559
 fil à coudre gris,1,6i,x,non,14559
 fil à coudre moyen,1,6i,x,non,14559
 fil à coudre pour voile,8,7,x,non,8928
@@ -7924,22 +7924,22 @@ fil à laine,3,6e,,non,13225
 fil à ligne,1,6h,x,non,16308
 fil à loup marin,1,6i,x,non,14559
 fil à marquer,9,6i,x,non,14559
-fil à mèche,1,6i,,non,14559
+fil à mèche,1,6d,,non,14559
 fil à papillon,22,6i,x,non,14559
 fil à pêche,1,6i,,non,14559
 fil à ralingue,4,6i,x,non,14559
 fil à reine,1,6i,,non,14559
-fil à rets,38,6h,x,non,16308
-fil à rouet,1,6i,,non,14559
-fil à sapillon,1,6i,x,non,14559
-fil à sardineaux,2,6i,,non,14559
-fil à selle,1,6i,,non,14559
-fil à sennes,1,6i,x,non,14559
-fil à sol,5,6i,,non,14559
-fil à table,1,6i,,non,14559
-fil à tisserand,7,6i,x,non,14559
-fil à tisserand de chenette,1,6i,x,non,14559
-fil à tisserand divers,2,6i,x,non,14559
+fil à rets,38,6d,x,non,16308
+fil à rouet,1,6d,,non,14559
+fil à sapillon,1,6d,x,non,14559
+fil à sardineaux,2,6d,,non,14559
+fil à selle,1,6d,,non,14559
+fil à sennes,1,6d,x,non,14559
+fil à sol,5,6d,,non,14559
+fil à table,1,6d,,non,14559
+fil à tisserand,7,6d,x,non,14559
+fil à tisserand de chenette,1,6d,x,non,14559
+fil à tisserand divers,2,6d,x,non,14559
 fil à toile,8,6d,x,non,9676
 fil à tricoter,2,6i,x,non,14559
 fil auville,1,6i,x,non,14559
@@ -7957,12 +7957,12 @@ fil blanc et couleur,1,6d,x,non,9676
 fil blanc fin,5,6d,,non,9676
 fil blanc haut prix,1,6d,,non,9676
 fil blanc retors,8,6d,x,non,9676
-fil cardé,1,6i,x,non,14559
+fil cardé,1,6d,x,non,14559
 fil chèvre,1,6d,,non,9676
-fil commun,6,6i,x,non,14559
+fil commun,6,6d,x,non,14559
 fil corailleur,2,6i,,non,14559
 fil crin,2,6e,x,non,13225
-fil cru,152,6i,x,non,14559
+fil cru,152,6d,x,non,14559
 fil cru à toile,5,6d,x,non,9676
 fil cru simple,1,6d,x,non,9676
 fil d'acier,5,6j,x,non,39872
@@ -7983,9 +7983,9 @@ fil d'Épinal simple,1,6d,x,non,9676
 fil d'Epinay,1,6i,,non,14559
 fil d'épreuve,9,6i,x,non,14559
 fil d'Espagne,1,6i,,non,14559
-fil d'espars,2,6i,,non,14559
-fil d'Espinay,2,6i,x,non,14559
-fil d'estame,5,6e,x,non,13225
+fil d'espars,2,6d,,non,14559
+fil d'Espinay,2,6d,x,non,14559
+fil d'estame,5,6d,x,non,13225
 fil d'étoupes,46,6d,x,non,9676
 fil d'étoupes de chanvre,1,6d,,non,9676
 fil d'étoupes de lin,1,6d,x,non,9676
@@ -7995,11 +7995,11 @@ fil d'or fin,9,6j,x,non,39872
 fil d'or sur soie,3,6j,,non,39872
 fil d'or surdoré,1,6j,,non,39872
 fil d'or vrai,2,6j,x,non,39872
-fil de Bergagne,1,6i,,non,14559
-fil de Bieustons,2,6i,x,non,14559
-fil de Bourgogne,28,6i,x,non,14559
-fil de Bretagne,29,6i,x,non,14559
-fil de canette,1,6i,x,non,14559
+fil de Bergagne,1,6d,,non,14559
+fil de Bieustons,2,6d,x,non,14559
+fil de Bourgogne,28,6d,x,non,14559
+fil de Bretagne,29,6d,x,non,14559
+fil de canette,1,6d,x,non,14559
 fil de caret,31,7,x,non,8928
 fil de caret ou de voile,1,7,x,non,8928
 fil de chanvre,116,6d,x,non,9676
@@ -8196,8 +8196,8 @@ fil en peignée,1,6i,,non,14559
 fil en poignée,8,6i,x,non,14559
 fil et laiton,1,9c,,oui,10408
 fil et planches de laiton,13,6j,,non,39872
-fil et soie,1,6f,,non,11411
-fil et toile,1,6i,x,non,14559
+fil et soie,1,6h,,non,11411
+fil et toile,1,6d,x,non,14559
 fil everda,1,6i,x,non,14559
 fil fin,1,6d,,non,9676
 fil gris,6,6d,x,non,9676
@@ -8207,53 +8207,53 @@ fil grossier,1,6d,,non,9676
 fil lessivé,1,6d,,non,9676
 fil neuf,1,6d,,non,9676
 fil noir,1,6d,x,non,9676
-fil non retors,1,6i,,non,14559
+fil non retors,1,6d,,non,14559
 fil or et rang fin,5,6i,x,non,14559
-fil ordinaire,2,6i,x,non,14559
-fil ouvré,1,6i,x,non,14559
-fil passe perle,2,6i,x,non,14559
-fil plat,5,6i,x,non,14559
+fil ordinaire,2,6d,x,non,14559
+fil ouvré,1,6d,x,non,14559
+fil passe perle,2,6d,x,non,14559
+fil plat,5,6d,x,non,14559
 fil pour voile,384,7,x,non,8928
 fil pour voile pour la Compagnie des Indes,1,7,,non,8928
-fil retors,20,6i,,non,14559
+fil retors,20,6d,,non,14559
 fil retors à coudre,6,6d,x,non,9676
-fil roux,1,6i,,non,14559
+fil roux,1,6d,,non,14559
 fil simple,7,6d,x,non,9676
 fil superfin,2,6d,,non,9676
 fil teint,12,6d,x,non,9676
-fil teuil,1,???,,non,4686
-fil tors,8,6i,,non,14559
+fil teuil,1,6d,,non,4686
+fil tors,8,6d,,non,14559
 filasse,11,6d,x,non,9676
 filasse apprêtée,1,6d,,non,9676
 filasse d'aloès,1,6d,,non,9676
-filet à pêcher vieux,1,6h,,non,16308
-filets,7,6h,,non,16308
-filets à pêcher,194,6h,x,non,16308
-filets à pêcher éperviers,1,6h,x,non,16308
-filets à pêcher le poisson frai,1,6h,,non,16308
-filets à pêcher par Marseille,1,6h,,non,16308
-filets à pêcher petit poisson,2,6h,x,non,16308
-filets à pêcher sardineaux,1,6h,,non,16308
-filets à pêcher vieux,1,6h,,non,16308
-filets à petit poisson,1,6h,x,non,16308
-filets à sardineaux,34,6h,,non,16308
-filets à sardines,1,6h,x,non,16308
-filets à sennes,3,6h,,non,16308
-filets d'auf,5,6h,,non,16308
-filets d'espars,181,6h,x,non,16308
-filets d'espars à pêcher,1,6h,x,non,16308
+filet à pêcher vieux,1,6d,,non,16308
+filets,7,6d,,non,16308
+filets à pêcher,194,6d,x,non,16308
+filets à pêcher éperviers,1,6d,x,non,16308
+filets à pêcher le poisson frai,1,6d,,non,16308
+filets à pêcher par Marseille,1,6d,,non,16308
+filets à pêcher petit poisson,2,6d,x,non,16308
+filets à pêcher sardineaux,1,6d,,non,16308
+filets à pêcher vieux,1,6d,,non,16308
+filets à petit poisson,1,6d,x,non,16308
+filets à sardineaux,34,6d,,non,16308
+filets à sardines,1,6d,x,non,16308
+filets à sennes,3,6d,,non,16308
+filets d'auf,5,6d,,non,16308
+filets d'espars,181,6d,x,non,16308
+filets d'espars à pêcher,1,6d,x,non,16308
 filets de chanvre,1,6d,,non,9676
-filets de palmes,6,6h,,non,16308
-filets de patines,1,6h,,non,16308
-filets de sardineaux,1,6h,,non,16308
-filets et ustensiles de pêche,11,9b,x,non,6358
-filets pour la chasse et la pêche,1,6h,,non,16308
-filets vieux,4,6i,x,non,14559
+filets de palmes,6,6d,,non,16308
+filets de patines,1,6d,,non,16308
+filets de sardineaux,1,6d,,non,16308
+filets et ustensiles de pêche,11,6d,x,non,6358
+filets pour la chasse et la pêche,1,6d,,non,16308
+filets vieux,4,6d,x,non,14559
 filières,3,8,,non,62774
 filières d'agate,2,8,,non,62774
 filières de corail,1,8,,non,62774
-filin,99,6i,x,non,14559
-filin à cordage,2,7,,non,8928
+filin,99,7,x,non,14559
+filin à cordage,6d,7,,non,8928
 filoers ou safran sauvage,1,0a,x,non,80812
 filoselle,163,2,x,non,76994
 filoselle et bourre de soie,4,2,x,non,76994
@@ -8820,16 +8820,16 @@ galon dorure d'or faux,11,6i,x,non,14559
 galon dorure d'or fin,18,6i,x,non,14559
 galon dorure de fil,1,6i,,non,14559
 galon dorure fausse,7,6i,x,non,14559
-galon en ruban de fil,1,6i,x,non,14559
+galon en ruban de fil,1,6d,x,non,14559
 galon en ruban de laine,1,6e,x,non,13225
-galon et fil d'or,1,8,,non,62774
+galon et fil d'or,1,6i,,non,62774
 galon et fleuret et frange,1,6i,x,non,14559
-galon et point d'Espagne d'argent et d'or,1,8,x,non,62774
+galon et point d'Espagne d'argent et d'or,1,6i,x,non,62774
 galon fin,2,6i,x,non,14559
 galon pilé,3,6i,x,non,14559
 galon soie et fil,2,6f,x,non,11411
 galon vieux,1,6i,x,non,14559
-galons d'argent,0,8,,oui,62774
+galons d'argent,0,6i,,oui,62774
 galop,1,???,,non,4686
 galots de cuivre,1,???,,non,4686
 galou pilé,1,???,,non,4686
@@ -9010,28 +9010,28 @@ gayet,1,???,,non,4686
 gayet brut,3,???,,non,4686
 gaze,56,6i,x,non,14559
 gaze à fleurs,1,6f,,non,11411
-gaze à peu,0,6f,x,oui,11411
-gaze à peu de soie,28,6f,x,non,11411
-gaze au 6e de soie,13,6f,x,non,11411
-gaze au bas de soie,1,6f,x,non,11411
-gaze au quart,22,6f,x,non,11411
-gaze au quart de soie,15,6f,x,non,11411
-gaze blanche,1,6i,,non,14559
-gaze crêpe et mouchoirs de soie,142,9b,x,non,6358
-gaze crêpe et ruban de soie,57,6f,,non,11411
-gaze crêpe et tulle de soie,12,6f,,non,11411
-gaze crêpe mouchoirs et ruban de soie,7,9b,x,non,6358
-gaze d'argent,5,8,x,non,62774
+gaze à peu,0,6h,x,oui,11411
+gaze à peu de soie,28,6h,x,non,11411
+gaze au 6e de soie,13,6h,x,non,11411
+gaze au bas de soie,1,6h,x,non,11411
+gaze au quart,22,6h,x,non,11411
+gaze au quart de soie,15,6h,x,non,11411
+gaze blanche,1,6f,,non,14559
+gaze crêpe et mouchoirs de soie,142,6h,x,non,6358
+gaze crêpe et ruban de soie,57,6h,,non,11411
+gaze crêpe et tulle de soie,12,6h,,non,11411
+gaze crêpe mouchoirs et ruban de soie,7,6h,x,non,6358
+gaze d'argent,5,6i,x,non,62774
 gaze d'argent et d'or faux,2,6i,x,non,14559
 gaze d'argent et d'or fin,1,6i,,non,14559
 gaze d'argent et de soie,1,6f,x,non,11411
 gaze d'argent faux,3,6i,x,non,14559
-gaze d'argent faux et de soie,1,6f,,non,11411
-gaze d'argent fin or fin et soie,1,6f,,non,11411
-gaze d'argent or et soie,1,6f,,non,11411
-gaze d'or et d'argent faux et de soie,1,6f,,non,11411
+gaze d'argent faux et de soie,1,6h,,non,11411
+gaze d'argent fin or fin et soie,1,6h,,non,11411
+gaze d'argent or et soie,1,6h,,non,11411
+gaze d'or et d'argent faux et de soie,1,6h,,non,11411
 gaze d'or faux,1,6i,x,non,14559
-gaze d'or fin et de soie,1,6f,x,non,11411
+gaze d'or fin et de soie,1,6h,x,non,11411
 gaze de coton,10,6g,x,non,12363
 gaze de coton et crêpe de coton et tulle de coton,16,6g,,non,12363
 gaze de coton et fil,2,6h,,non,16308
@@ -9044,31 +9044,31 @@ gaze de fleuret,1,6f,,non,11411
 gaze de soie,517,6f,x,non,11411
 gaze de soie brodée,4,6f,x,non,11411
 gaze de soie de renvoi,1,6f,,non,11411
-gaze de soie et crêpe de soie et mouchoirs de soie,58,9b,x,non,6358
-gaze de soie et dorure,1,6f,,non,11411
-gaze de soie et fil,9,6f,x,non,11411
+gaze de soie et crêpe de soie et mouchoirs de soie,58,6f,x,non,6358
+gaze de soie et dorure,1,6h,,non,11411
+gaze de soie et fil,9,6h,x,non,11411
 gaze de soie plâtrée,3,6f,,non,11411
 gaze de soie pure,3,6f,,non,11411
 gaze de toute autre sorte que soie pure,2,6i,,non,14559
-gaze dorure de soie,2,6f,,non,11411
-gaze dorure et soie,1,6f,,non,11411
-gaze en crêpe,10,6i,x,non,14559
+gaze dorure de soie,2,6h,,non,11411
+gaze dorure et soie,1,6h,,non,11411
+gaze en crêpe,10,6f,x,non,14559
 gaze en crêpe de soie,5,6f,x,non,11411
 gaze et Marly,1,6i,,non,14559
 gaze et Marly de fil,2,6h,,non,16308
 gaze et Marly de soie,1,6f,,non,11411
-gaze et Marly de soie mêlée de fil d'or faux,1,6f,,non,11411
-gaze et mouchoir de soie,7,9b,,non,6358
-gaze et mouchoirs et ruban de soie,40,9b,,non,6358
+gaze et Marly de soie mêlée de fil d'or faux,1,6h,,non,11411
+gaze et mouchoir de soie,7,6f,,non,6358
+gaze et mouchoirs et ruban de soie,40,6f,,non,6358
 gaze et tulle de coton,2,6g,,non,12363
 gaze fond argent,1,6i,,non,14559
-gaze mélangée de soie,1,6f,,non,11411
-gaze mi soie,24,6f,x,non,11411
-gaze or et argent,11,8,x,non,62774
-gaze paille,1,9c,,non,10408
+gaze mélangée de soie,1,6h,,non,11411
+gaze mi soie,24,6h,x,non,11411
+gaze or et argent,11,6i,x,non,62774
+gaze paille,1,6i,,non,10408
 gaze peinte,5,6i,x,non,14559
-gaze pour mouchoirs,2,6i,,non,14559
-gaze tricots de Berling et tulle de coton,1,9b,,non,6358
+gaze pour mouchoirs,2,6f,,non,14559
+gaze tricots de Berling et tulle de coton,1,6i,,non,6358
 geernaerts,1,0a,,oui,80812
 gélatine,1,0a,,non,80812
 gelée de ???,1,0a,,non,80812
@@ -11019,8 +11019,8 @@ liège grossier,1,2,,non,76994
 lien de fer,0,6j,,oui,39872
 liens de chanvre,1,6d,x,non,9676
 liens de fer,2,6j,,non,39872
-liens de fil,24,6i,x,non,14559
-liens et fil,1,6i,x,non,14559
+liens de fil,24,6d,x,non,14559
+liens et fil,1,6d,x,non,14559
 liettus,1,???,,non,4686
 lièvres,9,0a,,non,80812
 ligature,25,6i,x,non,14559
@@ -12616,29 +12616,29 @@ mouches à miel,3,0a,,non,80812
 mouches cantharides,15,2,,non,76994
 mouches de soie,110,8,,non,62774
 mouches de taffetas,5,8,,non,62774
-mouchoirs,214,8,x,non,62774
-mouchoirs ??? de fil de France,5,8,x,non,62774
+mouchoirs,214,6i,x,non,62774
+mouchoirs ??? de fil de France,5,6d,x,non,62774
 mouchoirs à carreaux,1,6d,,non,9676
-mouchoirs à la valeur,1,6d,,non,9676
-mouchoirs à peu de soie,1,6f,,non,11411
+mouchoirs à la valeur,1,6i,,non,9676
+mouchoirs à peu de soie,1,6h,,non,11411
 mouchoirs à toile peinte,1,6g,x,non,12363
 mouchoirs à vignettes,1,6d,,non,9676
-mouchoirs au brin de soie,1,8,x,non,62774
+mouchoirs au brin de soie,1,6h,x,non,62774
 mouchoirs baffetas,1,6g,x,non,12363
 mouchoirs bandanas,1,6g,,non,12363
-mouchoirs batiste peint,1,8,,non,62774
-mouchoirs blancs,2,8,,non,62774
-mouchoirs blancs brodés en fil de chanvre ou de lin,3,8,,non,62774
-mouchoirs blancs de chanvre et de lin,2,8,,non,62774
-mouchoirs blancs et bleus,1,8,,non,62774
-mouchoirs blancs et teints,27,6g,x,non,12363
-mouchoirs bleus,3,6g,x,non,12363
-mouchoirs brodés,9,6i,,non,14559
-mouchoirs brodés de soie,1,8,,non,62774
-mouchoirs communs,4,8,,non,62774
-mouchoirs coupés,3,6d,,non,9676
-mouchoirs d'Alep,2,8,,non,62774
-mouchoirs d'indienne,72,8,x,non,62774
+mouchoirs batiste peint,1,6d,,non,62774
+mouchoirs blancs,2,6i,,non,62774
+mouchoirs blancs brodés en fil de chanvre ou de lin,3,6d,,non,62774
+mouchoirs blancs de chanvre et de lin,2,6d,,non,62774
+mouchoirs blancs et bleus,1,6i,,non,62774
+mouchoirs blancs et teints,27,6i,x,non,12363
+mouchoirs bleus,3,6i,x,non,12363
+mouchoirs brodés,9,6h,,non,14559
+mouchoirs brodés de soie,1,6h,,non,62774
+mouchoirs communs,4,6i,,non,62774
+mouchoirs coupés,3,6i,,non,9676
+mouchoirs d'Alep,2,6g,,non,62774
+mouchoirs d'indienne,72,6g,x,non,62774
 mouchoirs d'organdis,3,8,,non,62774
 mouchoirs de ???,2,8,x,non,62774
 mouchoirs de batiste,28,6d,x,non,9676
@@ -12697,10 +12697,10 @@ mouchoirs de filoselle,1,6f,,non,11411
 mouchoirs de fleuret,3,8,,non,62774
 mouchoirs de foulard,3,8,,non,62774
 mouchoirs de France,1,8,x,non,62774
-mouchoirs de gaze,66,6i,,non,14559
-mouchoirs de gaze de soie,2,8,,non,62774
-mouchoirs de gaze divers,3,6i,,non,14559
-mouchoirs de gaze grands,1,6i,x,non,14559
+mouchoirs de gaze,66,6f,,non,14559
+mouchoirs de gaze de soie,2,6f,,non,62774
+mouchoirs de gaze divers,3,6f,,non,14559
+mouchoirs de gaze grands,1,6f,x,non,14559
 mouchoirs de guingan,3,8,x,non,62774
 mouchoirs de Hollande,1,8,,non,62774
 mouchoirs de kinfin,1,8,x,non,62774
@@ -13361,11 +13361,11 @@ osier en dessous de 10 paumes,1,2,x,non,76994
 osier fendu ou pelé,3,2,,non,76994
 osier torches,8,2,x,non,76994
 osserie de Dieppe,19,???,x,non,4686
-ouate,90,6i,x,non,14559
-ouate d'étoupes,1,6d,x,non,9676
+ouate,90,2,x,non,14559
+ouate d'étoupes,1,2,x,non,9676
 ouate de coton,6,2,x,non,76994
-ouate de laine,1,6e,x,non,13225
-ouate de soie,3,6f,x,non,11411
+ouate de laine,1,2,x,non,13225
+ouate de soie,3,2,x,non,11411
 outil d'acier pur,1,6j,,oui,39872
 outils,66,6j,x,non,39872
 outils à battre l'or,1,6j,,non,39872
@@ -17254,9 +17254,9 @@ ruban de crin,1,6e,x,non,13225
 ruban de dorure et soie,2,6f,,non,11411
 ruban de fil,401,6d,x,non,14559
 ruban de fil blanc,2,6d,x,non,14559
-ruban de fil blanc mêlé d'argent faux,1,6i,,non,14559
-ruban de fil d'argent et d'or,8,6i,x,non,62774
-ruban de fil de laine,6,6i,x,non,14559
+ruban de fil blanc mêlé d'argent faux,1,6h,,non,14559
+ruban de fil d'argent et d'or,8,6h,x,non,62774
+ruban de fil de laine,6,6e,x,non,14559
 ruban de fil en laine,2,6e,x,non,13225
 ruban de fil et de laine,71,6h,x,non,14559
 ruban de fil et de soie,3,6h,x,non,11411
@@ -19931,7 +19931,7 @@ toile de lin brochée,4,6d,x,non,9676
 toile de lin Cambrai,1,6d,x,non,9676
 toile de lin cirée,1,6d,x,non,9676
 toile de lin claire,3,6d,x,non,9676
-toile de lin claire et gaze,2,6i,x,non,14559
+toile de lin claire et gaze,2,6d,x,non,14559
 toile de lin coutel,1,6d,x,non,9676
 toile de lin coutil,6,6d,x,non,9676
 toile de lin crue,3,6d,x,non,9676
