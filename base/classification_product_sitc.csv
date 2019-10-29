@@ -783,7 +783,7 @@ balles vides,1,9c,x,non,10407
 ballons de sapin,,9c,,oui,10407
 ballons en sapin,1,9c,,non,10407
 ballots,3,9c,,non,10407
-ballots d'étoffes,1,6i,,non,9132
+ballots d'étoffe,1,6i,,non,9132
 balustres,12,9c,,non,10407
 bamboches,1,8,,non,59896
 bambous,8,2,x,non,77087
@@ -1035,8 +1035,8 @@ basin blanc de 10 aunes,1,6g,x,non,12042
 basin blanc de 11 aunes,1,6g,x,non,12042
 basin blanc de fil,1,6i,,non,9132
 basin brodé,7,6i,,non,9132
-basin brodé de soie,1,6i,x,non,9132
-basin brodé de soie et d'or,1,6i,x,non,9132
+basin brodé de soie,1,6f,x,non,9132
+basin brodé de soie et d'or,1,6f,x,non,9132
 basin brodé en soie,,6i,,oui,9132
 basin brodé et de coton et de fil,,6i,,oui,9132
 basin clair et uni,,6h,,oui,18650
@@ -2097,7 +2097,7 @@ bonneterie de soie,555,8,x,non,59896
 bonneterie de soie au sixième,3,8,x,non,59896
 bonneterie de soie et dorure,3,8,x,non,59896
 bonneterie écarlate,1,8,x,non,59896
-bonneterie étoffes et tapis de poil,3,8,,non,59896
+bonneterie étoffe et tapis de poil,3,8,,non,59896
 bonneterie fil et bonneterie de coton,1,8,x,non,59896
 bonnets,13,8,x,non,59896
 bonnets à cheveux,1,8,,non,59896
@@ -2602,7 +2602,7 @@ briquettes,3,3,x,non,3066
 bris d'espars,4,2,x,non,77087
 brises,1,???,,non,5103
 brocante,1,8,,non,59896
-brocard de soie,1,9b,,non,6090
+brocart de soie,1,6f,,non,6090
 brocatelle,1,6g,x,non,12042
 brocatelle de Venise,1,6g,x,non,12042
 brochets,20,0a,x,non,80812
@@ -2925,7 +2925,7 @@ camelot de laine faille,4,6e,x,non,14091
 camelot de laine large,8,6e,x,non,14091
 camelot de laine petit dit de Berlin,1,6e,,non,14091
 camelot de Lille,12,6i,x,non,9132
-camelot de Lille de soie,1,6i,,non,9132
+camelot de Lille de soie,1,6f,,non,9132
 camelot de Lille et autres,1,6i,x,non,9132
 camelot de poil,185,6e,x,non,14091
 camelot de poil de chèvre,2,6e,,non,14091
@@ -4030,7 +4030,7 @@ chemises de chanvre de Riello,1,8,,non,59896
 chemises de coton,1,8,x,non,59896
 chemises de fil de coton,1,8,x,non,59896
 chemises de grosse toile à nègre,3,8,x,non,59896
-chemises de guingan,,8,x,oui,59896
+chemises de guingans,,8,x,oui,59896
 chemises de Laval,3,8,x,non,59896
 chemises de lin,18,8,x,non,59896
 chemises de lin garnies,4,8,x,non,59896
@@ -4087,7 +4087,7 @@ chenille au quart,1,9c,x,non,10407
 chenille de bois,3,9c,,non,10407
 chenille de chêne,3,9c,x,non,10407
 chenille de flavret,1,9c,x,non,10407
-chenille de soie,18,6f,x,non,11023
+chenille de soie,18,6f,,non,11023
 cheval de bois,1,8,,non,59896
 chévaque,1,???,x,non,5103
 chevaux,538,0a,x,non,80812
@@ -4707,11 +4707,11 @@ cordonnet de poil de chèvre,1,6e,,non,14091
 cordonnet de soie,1,6f,,non,11023
 cordonnet pour cannes,1,6i,,non,9132
 cordons,9,9c,x,non,10407
-cordons d'argent,3,8,x,non,59896
-cordons d'argent et d'or,3,8,x,non,59896
-cordons d'or,8,8,x,non,59896
-cordons d'or et d'argent,1,8,x,non,59896
-cordons d'or et de soie,1,9b,x,non,6090
+cordons d'argent,3,6i,x,non,59896
+cordons d'argent et d'or,3,6i,x,non,59896
+cordons d'or,8,6i,x,non,59896
+cordons d'or et d'argent,1,6i,x,non,59896
+cordons d'or et de soie,1,6f,x,non,6090
 cordons de fil,7,6i,x,non,9132
 cordons de fil de lin,1,6d,x,non,15368
 cordons de filoselle,3,6f,x,non,11023
@@ -4801,7 +4801,7 @@ cors serinettes trombones trompettes,2,8,,non,59896
 corsane,2,???,,non,5103
 corsets,1,8,,non,59896
 corsets baleinés,3,8,,non,59896
-corsets brodés en soie,1,???,,non,5103
+corsets brodés en soie,1,8,,non,5103
 corsets de demitte,8,8,,non,59896
 corsets de toile,2,8,,non,59896
 cortillaterie,4,???,,non,5103
@@ -5639,9 +5639,9 @@ demoiselle de sapin,2,6b,x,non,17810
 denrées coloniales,17,0b,x,non,25230
 denrées coloniales et épicerie,22,9b,x,non,6090
 dentelle,313,6d,x,non,15368
-dentelle à peu de soie,3,6h,x,non,18650
+dentelle à peu de soie,3,6f,x,non,18650
 dentelle blanche,2,6d,x,non,15368
-dentelle blonde de soie,1,6h,x,non,18650
+dentelle blonde de soie,1,6f,x,non,18650
 dentelle commune,62,6d,x,non,15368
 dentelle d'Alençon,1,6d,x,non,15368
 dentelle d'Andelys,1,6d,x,non,15368
@@ -5684,8 +5684,8 @@ dentelle de fil de Valenciennes,3,,,non,4
 dentelle de fil dorure d'argent,2,6h,x,non,18650
 dentelle de fil du Puy,68,6d,x,non,15368
 dentelle de fil du Puy et ???,2,6d,x,non,15368
-dentelle de fil et de soie,10,6h,x,non,18650
-dentelle de fil et soie,49,6h,x,non,18650
+dentelle de fil et de soie,10,6f,x,non,18650
+dentelle de fil et soie,49,6f,x,non,18650
 dentelle de fil et tulle,31,6d,,non,15368
 dentelle de fil et Valenciennes,,6d,x,oui,15368
 dentelle de fil fine,23,6d,x,non,15368
@@ -5700,11 +5700,11 @@ dentelle de Normandie,2,6d,,non,15368
 dentelle de pays,2,6d,,non,15368
 dentelle de Rouen,1,6d,x,non,15368
 dentelle de soie,505,6f,x,non,11023
-dentelle de soie au quart,1,6h,x,non,18650
+dentelle de soie au quart,1,6f,x,non,18650
 dentelle de soie blanche,3,6f,x,non,11023
 dentelle de soie blonde,70,6f,x,non,11023
 dentelle de soie de Rouen,3,6f,x,non,11023
-dentelle de soie et de fil,1,6h,x,non,18650
+dentelle de soie et de fil,1,6f,x,non,18650
 dentelle de soie noire,1,6f,,non,11023
 dentelle de toute autre sorte que soie,1,6i,,non,9132
 dentelle dorure d'argent,12,6h,x,non,18650
@@ -5861,7 +5861,7 @@ dragées,11,0a,,non,80812
 dragonnes,1,8,,non,59896
 dragonnes d'épée,1,8,,non,59896
 drague de bière,2,0a,x,non,80812
-drague de soie,1,6i,,non,9132
+drague de soie,1,6f,,non,9132
 drap,857,6i,x,non,9132
 drap 20 lignes,1,6i,,non,9132
 drap à doubler,4,6i,x,non,9132
@@ -6005,7 +6005,7 @@ drap de laine de Vir,1,6e,x,non,14091
 drap de laine diverse,1,6e,x,non,14091
 drap de laine draperie diverse,1,6i,x,non,9132
 drap de laine et de soie,1,6f,,non,11023
-drap de laine et petits et étoffes,66,6e,,non,14091
+drap de laine et petits et étoffe,66,6e,,non,14091
 drap de laine fin,56,6e,x,non,14091
 drap de laine gros,2,6e,x,non,14091
 drap de laine londrin,79,6e,,non,14091
@@ -7002,20 +7002,20 @@ etocs de fer,13,???,x,non,5103
 étoffe à galon d'or,1,6i,,non,9132
 étoffe à la valeur,2,6i,,non,9132
 étoffe à peu,,6h,x,oui,18650
-étoffe à peu de soie,155,6h,x,non,18650
-étoffe au ??? de soie,4,6h,x,non,18650
-étoffe au dessus du sixième de soie,1,6h,,non,18650
+étoffe à peu de soie,155,6f,x,non,18650
+étoffe au ??? de soie,4,6f,x,non,18650
+étoffe au-dessus du sixième de soie,1,6f,,non,18650
 étoffe au filoselle,2,6h,x,non,18650
-étoffe au peu de soie,4,6e,,non,14091
+étoffe au peu de soie,4,6f,,non,14091
 étoffe au poil sorge de Rome,1,6h,x,non,18650
 étoffe au quart,20,6h,x,non,18650
-étoffe au quart de soie,340,6h,x,non,18650
+étoffe au quart de soie,340,6f,x,non,18650
 étoffe au sixième,1,6h,x,non,18650
-étoffe au sixième de soie,22,6h,x,non,18650
-étoffe au sixième de soie en siamoise,2,6h,x,non,18650
-étoffe au sixième de soie siamoise,1,6h,x,non,18650
-étoffe au tiers de soie,1,6h,x,non,18650
-étoffe au-dessus du sixième de soie,1,6h,x,non,18650
+étoffe au sixième de soie,22,6f,x,non,18650
+étoffe au sixième de soie en siamoise,2,6f,x,non,18650
+étoffe au sixième de soie siamoise,1,6f,x,non,18650
+étoffe au tiers de soie,1,6f,x,non,18650
+étoffe au-dessus du sixième de soie,1,6f,x,non,18650
 étoffe avec argent et or,2,6i,x,non,9132
 étoffe avec un brin de soie,2,6f,x,non,11023
 étoffe avec vin brin de soie,1,6f,x,non,11023
@@ -7052,7 +7052,7 @@ etocs de fer,13,???,x,non,5103
 étoffe de coton brodé,1,6g,x,non,12042
 étoffe de coton de fil,6,6g,x,non,12042
 étoffe de coton de fil et de laine,3,6f,,non,11023
-étoffe de coton de fil et de soie,7,6i,,non,9132
+étoffe de coton de fil et de soie,7,6f,,non,9132
 étoffe de coton de fleuret et de soie,1,6f,,non,11023
 étoffe de coton de laine,3,6i,x,non,9132
 étoffe de coton de laine et de soie,3,6f,,non,11023
@@ -7064,7 +7064,7 @@ etocs de fer,13,???,x,non,5103
 étoffe de coton et bonneterie,1,9b,x,non,6090
 étoffe de coton et chapeaux,1,9b,x,non,6090
 étoffe de coton et de fil,42,6g,x,non,12042
-étoffe de coton et de fil de soie,2,6i,,non,9132
+étoffe de coton et de fil de soie,2,6f,,non,9132
 étoffe de coton et de fil et de laine et de poil chameau,3,6i,,non,9132
 étoffe de coton et de fil et de laine et de poil de chèvre,4,6i,,non,9132
 étoffe de coton et de fil mélangés,10,6g,,non,12042
@@ -7226,7 +7226,7 @@ etocs de fer,13,???,x,non,5103
 étoffe de soie en laine,1,6f,x,non,11023
 étoffe de soie en or et argent,1,6f,,non,11023
 étoffe de soie en velours,1,6f,x,non,11023
-étoffe de soie et ???,2,6h,x,non,18650
+étoffe de soie et ???,2,6f,x,non,18650
 étoffe de soie et d'argent,1,6f,,non,11023
 étoffe de soie et de poil,1,6f,x,non,11023
 étoffe de soie et de velours d'Utrecht,23,6f,x,non,11023
@@ -7238,7 +7238,7 @@ etocs de fer,13,???,x,non,5103
 étoffe de soie fabriquée,1,6f,,non,11023
 étoffe de soie façonnée,2,6f,,non,11023
 étoffe de soie fleuret et soie,1,6f,x,non,11023
-étoffe de soie herbage,1,6i,x,non,9132
+étoffe de soie herbage,1,6f,x,non,9132
 étoffe de soie mêlée d'argent et d'or faux,1,6f,,non,11023
 étoffe de soie mêlée d'argent et d'or fin,1,6f,,non,11023
 étoffe de soie mêlée de fil,3,6f,,non,11023
@@ -7311,30 +7311,30 @@ etocs de fer,13,???,x,non,5103
 étoffe herbage,2,6i,,non,9132
 étoffe herbes,1,6d,x,non,15368
 étoffe impériale,2,6i,x,non,9132
-étoffe laine de soie,1,6h,x,non,18650
+étoffe laine de soie,1,6i,x,non,18650
 étoffe manchettes,1,9b,x,non,6090
-étoffe mélangée au ??? soie,5,6h,x,non,18650
+étoffe mêlée au ??? soie,5,6f,x,non,18650
 étoffe mélangée de bourre en molleton,1,6h,,non,18650
-étoffe mélangée de coton et de soie,12,6h,,non,18650
-étoffe mélangée de fil et de soie,1,6h,,non,18650
-étoffe mélangée de fleuret et de soie,1,6h,,non,18650
-étoffe mêlée de coton et de soie,3,6h,,non,18650
-étoffe mêlée de fil de soie,8,6h,,non,18650
-étoffe mêlée de fil et de soie,3,6h,,non,18650
-étoffe mêlée de soie ?,1,6h,,non,18650
-étoffe mêlée de soie ???,1,6h,,non,18650
-étoffe mêlée de soie à peu,63,6h,,non,18650
-étoffe mêlée de soie à peu de soie,111,6h,,non,18650
-étoffe mêlée de soie au 4/5e,4,6h,x,non,18650
-étoffe mêlée de soie peluches,133,6h,,non,18650
-étoffe mêlée de soie peu,13,6h,,non,18650
-étoffe mêlée éternelle au ? de soie,1,6h,x,non,18650
-étoffe mi soie,138,6h,x,non,18650
+étoffe de coton et de soie,12,6f,,non,18650
+étoffe de fil et de soie,1,6f,,non,18650
+étoffe de fleuret et de soie,1,6f,,non,18650
+étoffe de coton et de soie,3,6f,,non,18650
+étoffe de fil et de soie,8,6f,,non,18650
+étoffe de fil et de soie,3,6f,,non,18650
+étoffe mêlée de soie ?,1,6f,,non,18650
+étoffe mêlée de soie ???,1,6f,,non,18650
+étoffe mêlée de soie à peu,63,6f,,non,18650
+étoffe à peu de soie,111,6f,,non,18650
+étoffe au 4/5e de soie,4,6f,x,non,18650
+étoffe peluches mêlée de soie,133,6f,,non,18650
+étoffe mêlée de soie peu,13,6f,,non,18650
+étoffe mêlée éternelle au ? de soie,1,6f,x,non,18650
+étoffe mi soie,138,6f,x,non,18650
 étoffe noire,1,6i,x,non,9132
 étoffe peinte,1,6i,x,non,9132
 étoffe peluches communes,1,6e,x,non,14091
 étoffe peluches de laine,1,6e,x,non,14091
-étoffe peu de soie,1,6h,x,non,18650
+étoffe peu de soie,1,6f,x,non,18650
 étoffe poil en panne à long poil,1,6e,x,non,14091
 étoffe pour talits,1,6i,x,non,9132
 étoffe pure brochée d'or fin,1,6i,,non,9132
@@ -7354,35 +7354,35 @@ etocs de fer,13,???,x,non,5103
 étoffe soie des Indes,1,6f,x,non,11023
 étoffe soierie,2,6f,x,non,11023
 étoffe taffetas,5,6f,x,non,11023
-étoffes brochées d'argent et d'or faux de soie,1,6h,,non,18650
-étoffes brochées d'argent et d'or fin de soie,2,6h,,non,18650
-étoffes brochées de pure soie et unies,39,6h,,non,18650
-étoffes brochées de soie de soie,2,6h,,non,18650
-étoffes brochées de soie et unies,70,6h,,non,18650
-étoffes d'écorce,2,6b,,non,17810
-étoffes de bourre de soie façon cachemire,1,6f,,non,11023
-étoffes de cachemire de poil,1,6e,,non,14091
-étoffes de chanvre ou de lin,2,6h,,non,18650
-étoffes de chanvre ou de lin mêlés,1,6h,,non,18650
-étoffes de coton,3,6g,,non,12042
-étoffes de coton basin piqués mousselinettes,2,6g,,non,12042
-étoffes de coton brochées et brodées et imprimées,2,6g,,non,12042
-étoffes de coton simples,2,6g,,non,12042
-étoffes de crin,1,6e,,non,14091
-étoffes de crin et de poils,2,6e,,non,14091
-étoffes de fil,1,6d,x,non,15368
-étoffes de laine,2,6e,,non,14091
-étoffes de lin et de chanvre mêlés,1,6d,,non,15368
-étoffes de plocq,2,6e,x,non,14091
-étoffes de poil,1,6e,,non,14091
-étoffes de soie blonde,5,6f,,non,11023
-étoffes de soie mêlée,2,6h,,non,18650
-étoffes de soie unis,2,6f,,non,11023
-étoffes des Indes,6,6i,,non,9132
-étoffes en feuilles,8,6i,,non,9132
-étoffes et fer en barres,1,9b,,non,6090
-étoffes et gaze et crêpe et tulle,10,6g,x,non,12042
-étoffes façonnés de soie,2,6f,,non,11023
+étoffe brochées d'argent et d'or faux de soie,1,6f,,non,18650
+étoffe brochées d'argent et d'or fin de soie,2,6f,,non,18650
+étoffe brochées de pure soie et unies,39,6f,,non,18650
+étoffe de soie brochées de soie,2,6f,,non,18650
+étoffe brochées de soie et unies,70,6f,,non,18650
+étoffe d'écorce,2,6b,,non,17810
+étoffe de bourre de soie façon cachemire,1,6f,,non,11023
+étoffe de cachemire de poil,1,6e,,non,14091
+étoffe de chanvre ou de lin,2,6h,,non,18650
+étoffe de chanvre ou de lin mêlés,1,6h,,non,18650
+étoffe de coton,3,6g,,non,12042
+étoffe de coton basin piqués mousselinettes,2,6g,,non,12042
+étoffe de coton brochées et brodées et imprimées,2,6g,,non,12042
+étoffe de coton simples,2,6g,,non,12042
+étoffe de crin,1,6e,,non,14091
+étoffe de crin et de poils,2,6e,,non,14091
+étoffe de fil,1,6d,x,non,15368
+étoffe de laine,2,6e,,non,14091
+étoffe de lin et de chanvre mêlés,1,6d,,non,15368
+étoffe de plocq,2,6e,x,non,14091
+étoffe de poil,1,6e,,non,14091
+étoffe de soie blonde,5,6f,,non,11023
+étoffe de soie mêlée,2,6h,,non,18650
+étoffe de soie unis,2,6f,,non,11023
+étoffe des Indes,6,6i,,non,9132
+étoffe en feuilles,8,6i,,non,9132
+étoffe et fer en barres,1,9b,,non,6090
+étoffe et gaze et crêpe et tulle,10,6g,x,non,12042
+étoffe façonnés de soie,2,6f,,non,11023
 étoupes,208,2,x,non,77087
 étoupes à calfater,9,2,,non,77087
 étoupes blanches,2,2,x,non,77087
@@ -8197,7 +8197,7 @@ fil en peignée,1,6i,,non,9132
 fil en poignée,8,6i,x,non,9132
 fil et laiton,,9c,,oui,10407
 fil et planches de laiton,13,6j,,non,39872
-fil et soie,1,6h,,non,18650
+fil et soie,1,6f,,non,18650
 fil et toile,1,6d,x,non,15368
 fil everda,1,6i,x,non,9132
 fil fin,1,6d,,non,15368
@@ -9012,12 +9012,12 @@ gayet brut,3,???,,non,5103
 gaze,56,6i,x,non,9132
 gaze à fleurs,1,6f,,non,11023
 gaze à peu,,6h,x,oui,18650
-gaze à peu de soie,28,6h,x,non,18650
-gaze au 6e de soie,13,6h,x,non,18650
-gaze au bas de soie,1,6h,x,non,18650
-gaze au quart,22,6h,x,non,18650
-gaze au quart de soie,15,6h,x,non,18650
-gaze blanche,1,6f,,non,11023
+gaze à peu de soie,28,6f,x,non,18650
+gaze au 6e de soie,13,6f,x,non,18650
+gaze au bas de soie,1,6f,x,non,18650
+gaze au quart,22,6f,x,non,18650
+gaze au quart de soie,15,6f,x,non,18650
+gaze blanche,1,6h,,non,11023
 gaze crêpe et mouchoirs de soie,142,6h,x,non,18650
 gaze crêpe et ruban de soie,57,6h,,non,18650
 gaze crêpe et tulle de soie,12,6h,,non,18650
@@ -9027,12 +9027,12 @@ gaze d'argent et d'or faux,2,6i,x,non,9132
 gaze d'argent et d'or fin,1,6i,,non,9132
 gaze d'argent et de soie,1,6f,x,non,11023
 gaze d'argent faux,3,6i,x,non,9132
-gaze d'argent faux et de soie,1,6h,,non,18650
-gaze d'argent fin or fin et soie,1,6h,,non,18650
-gaze d'argent or et soie,1,6h,,non,18650
-gaze d'or et d'argent faux et de soie,1,6h,,non,18650
+gaze d'argent faux et de soie,1,6f,,non,18650
+gaze d'argent fin or fin et soie,1,6f,,non,18650
+gaze d'argent or et soie,1,6f,,non,18650
+gaze d'or et d'argent faux et de soie,1,6f,,non,18650
 gaze d'or faux,1,6i,x,non,9132
-gaze d'or fin et de soie,1,6h,x,non,18650
+gaze d'or fin et de soie,1,6f,x,non,18650
 gaze de coton,10,6g,x,non,12042
 gaze de coton et crêpe de coton et tulle de coton,16,6g,,non,12042
 gaze de coton et fil,2,6h,,non,18650
@@ -9046,25 +9046,25 @@ gaze de soie,517,6f,x,non,11023
 gaze de soie brodée,4,6f,x,non,11023
 gaze de soie de renvoi,1,6f,,non,11023
 gaze de soie et crêpe de soie et mouchoirs de soie,58,6f,x,non,11023
-gaze de soie et dorure,1,6h,,non,18650
-gaze de soie et fil,9,6h,x,non,18650
+gaze de soie et dorure,1,6f,,non,18650
+gaze de soie et fil,9,6f,x,non,18650
 gaze de soie plâtrée,3,6f,,non,11023
 gaze de soie pure,3,6f,,non,11023
-gaze de toute autre sorte que soie pure,2,6i,,non,9132
-gaze dorure de soie,2,6h,,non,18650
-gaze dorure et soie,1,6h,,non,18650
+gaze de toute autre sorte que soie pure,2,6f,,non,9132
+gaze dorure de soie,2,6f,,non,18650
+gaze dorure et soie,1,6f,,non,18650
 gaze en crêpe,10,6f,x,non,11023
 gaze en crêpe de soie,5,6f,x,non,11023
 gaze et Marly,1,6i,,non,9132
 gaze et Marly de fil,2,6h,,non,18650
 gaze et Marly de soie,1,6f,,non,11023
-gaze et Marly de soie mêlée de fil d'or faux,1,6h,,non,18650
+gaze et Marly de soie mêlée de fil d'or faux,1,6f,,non,18650
 gaze et mouchoir de soie,7,6f,,non,11023
 gaze et mouchoirs et ruban de soie,40,6f,,non,11023
 gaze et tulle de coton,2,6g,,non,12042
 gaze fond argent,1,6i,,non,9132
-gaze mélangée de soie,1,6h,,non,18650
-gaze mi soie,24,6h,x,non,18650
+gaze mélangée de soie,1,6f,,non,18650
+gaze mi soie,24,6f,x,non,18650
 gaze or et argent,11,6i,x,non,9132
 gaze paille,1,6i,,non,9132
 gaze peinte,5,6i,x,non,9132
@@ -9790,26 +9790,26 @@ guinée imitant celle des Indes,2,6g,,non,12042
 guinée masulipatan,1,6g,,non,12042
 guinée Sénégal,1,6g,,non,12042
 guinée tachée,1,6g,,non,12042
-guingan,291,6h,x,non,18650
-guingan blanc,,6h,,oui,18650
-guingan bleu,,6h,,oui,18650
-guingan de Bengale,,6h,,oui,18650
-guingan de coton,,6h,,oui,18650
-guingan de fil,8,6h,,non,18650
-guingan de Grenade,,6h,,oui,18650
-guingan de lin,13,6h,,non,18650
-guingan de Madras,,6h,,oui,18650
-guingan de Masulipatan,,6h,,oui,18650
-guingan de Pondichéry,,6h,,oui,18650
-guingan de Pondichéry et de Madras,,6h,,oui,18650
-guingan de prises,,6h,,oui,18650
-guingan de Rouen,,6h,,oui,18650
-guingan des Indes,1,6h,,non,18650
-guingan des prises,,6h,,oui,18650
-guingan du Bengale,,6h,,oui,18650
-guingan en Madras,,6h,,oui,18650
-guingan peint,,6h,,oui,18650
-guingan pièces,,6h,,oui,18650
+guingans,291,6h,x,non,18650
+guingans blanc,,6h,,oui,18650
+guingans bleu,,6h,,oui,18650
+guingans de Bengale,,6h,,oui,18650
+guingans de coton,,6h,,oui,18650
+guingans de fil,8,6h,,non,18650
+guingans de Grenade,,6h,,oui,18650
+guingans de lin,13,6h,,non,18650
+guingans de Madras,,6h,,oui,18650
+guingans de Masulipatan,,6h,,oui,18650
+guingans de Pondichéry,,6h,,oui,18650
+guingans de Pondichéry et de Madras,,6h,,oui,18650
+guingans de prises,,6h,,oui,18650
+guingans de Rouen,,6h,,oui,18650
+guingans des Indes,1,6h,,non,18650
+guingans des prises,,6h,,oui,18650
+guingans du Bengale,,6h,,oui,18650
+guingans en Madras,,6h,,oui,18650
+guingans peint,,6h,,oui,18650
+guingans pièces,,6h,,oui,18650
 guinimos,1,???,,non,5103
 guipon,6,???,,non,5103
 guisine,1,???,,non,5103
@@ -11148,7 +11148,7 @@ lingerie commune,2,8,x,non,59896
 lingerie de chanvre,1,8,x,non,59896
 lingerie de coton,1,8,x,non,59896
 lingerie de lin,26,8,x,non,59896
-lingerie de lin et de toile guingan,,8,,oui,59896
+lingerie de lin et de toile guingans,,8,,oui,59896
 lingerie de lit et de tables,4,8,x,non,59896
 lingerie de tables,2,8,x,non,59896
 lingerie de toile d'étoupes,1,8,,non,59896
@@ -11393,7 +11393,7 @@ malemole de 12 aunes,1,6g,,non,12042
 malemole dome,1,6g,,non,12042
 malles,14,8,,non,59896
 malles ???,1,8,,non,59896
-malles d'étoffes d'or,1,8,,non,59896
+malles d'étoffe d'or,1,8,,non,59896
 malles de cuir,3,8,x,non,59896
 malles et valises et coffres,2,8,,non,59896
 malles travaillées,1,8,,non,59896
@@ -11798,7 +11798,7 @@ mâts,360,7,x,non,8798
 mâts à bateau,1,7,,non,8798
 mâts à chaloupe,1,7,,non,8798
 mâts assortis,17,7,,non,8798
-mâts au dessous de 6 paumes,1,7,x,non,8798
+mâts au-dessous de 6 paumes,1,7,x,non,8798
 mâts bouts de 3 à 4 pieds,1,7,x,non,8798
 mâts communs,5,7,x,non,8798
 mâts communs de 50 pieds,1,7,,non,8798
@@ -12344,8 +12344,8 @@ meules à Talandier,2,6k,x,non,17035
 meules acoustiques,1,6k,,non,17035
 meules affiloires,7,6k,,non,17035
 meules assorties,1,6k,,non,17035
-meules au dessous de 4 pouces,1,6k,x,non,17035
-meules au dessus de 4 pouces,1,6k,x,non,17035
+meules au-dessous de 4 pouces,1,6k,x,non,17035
+meules au-dessus de 4 pouces,1,6k,x,non,17035
 meules bâtardes,33,6k,x,non,17035
 meules brodées,1,???,,non,5103
 meules coutier,1,6k,x,non,17035
@@ -12621,10 +12621,10 @@ mouchoirs,214,6i,x,non,9132
 mouchoirs ??? de fil de France,5,6d,x,non,15368
 mouchoirs à carreaux,1,6d,,non,15368
 mouchoirs à la valeur,1,6i,,non,9132
-mouchoirs à peu de soie,1,6h,,non,18650
-mouchoirs à toile peinte,1,6g,x,non,12042
+mouchoirs à peu de soie,1,6f,,non,18650
+mouchoirs à toile peinte,1,6f,x,non,12042
 mouchoirs à vignettes,1,6d,,non,15368
-mouchoirs au brin de soie,1,6h,x,non,18650
+mouchoirs au brin de soie,1,6f,x,non,18650
 mouchoirs baffetas,1,6g,x,non,12042
 mouchoirs bandanas,1,6g,,non,12042
 mouchoirs batiste peint,1,6d,,non,15368
@@ -12635,48 +12635,48 @@ mouchoirs blancs et bleus,1,6i,,non,9132
 mouchoirs blancs et teints,27,6i,x,non,9132
 mouchoirs bleus,3,6i,x,non,9132
 mouchoirs brodés,9,6h,,non,18650
-mouchoirs brodés de soie,1,6h,,non,18650
+mouchoirs brodés de soie,1,6f,,non,18650
 mouchoirs communs,4,6i,,non,9132
 mouchoirs coupés,3,6i,,non,9132
 mouchoirs d'Alep,2,6g,,non,12042
 mouchoirs d'indienne,72,6g,x,non,12042
-mouchoirs d'organdis,3,8,,non,59896
-mouchoirs de ???,2,8,x,non,59896
+mouchoirs d'organdis,3,6g,,non,59896
+mouchoirs de ???,2,6h,x,non,59896
 mouchoirs de batiste,28,6d,x,non,15368
 mouchoirs de batiste de Saint-Quentin,2,6d,x,non,15368
 mouchoirs de Bengale,106,6g,x,non,12042
 mouchoirs de Betton,1,6i,,non,9132
 mouchoirs de Champafaris,2,6g,,non,12042
-mouchoirs de chanvre et de lin blancs,2,8,,non,59896
-mouchoirs de chanvre et de lin imprimés teints rayés par le tissage,3,8,,non,59896
-mouchoirs de chanvre et de lin rayés teints ou imprimés,2,8,,non,59896
-mouchoirs de chasse,1,8,,non,59896
-mouchoirs de chocolat,2,8,x,non,59896
+mouchoirs de chanvre et de lin blancs,2,6h,,non,59896
+mouchoirs de chanvre et de lin imprimés teints rayés par le tissage,3,6h,,non,59896
+mouchoirs de chanvre et de lin rayés teints ou imprimés,2,6h,,non,59896
+mouchoirs de chasse,1,6h,,non,59896
+mouchoirs de chocolat,2,6i,x,non,59896
 mouchoirs de Cholet,144,6d,x,non,15368
 mouchoirs de coton,791,6g,x,non,12042
-mouchoirs de coton blanc,1,8,x,non,59896
+mouchoirs de coton blanc,1,6g,x,non,59896
 mouchoirs de coton blancs,1,6g,x,non,12042
 mouchoirs de coton brin de soie,2,6f,x,non,11023
-mouchoirs de coton communs,5,8,x,non,59896
-mouchoirs de coton de France,15,8,x,non,59896
+mouchoirs de coton communs,5,6g,x,non,59896
+mouchoirs de coton de France,15,6g,x,non,59896
 mouchoirs de coton de l'étranger,2,6g,x,non,12042
 mouchoirs de coton découpés,1,6g,,non,12042
-mouchoirs de coton des Indes,14,8,,non,59896
+mouchoirs de coton des Indes,14,6g,,non,59896
 mouchoirs de coton en soie,,6f,x,oui,11023
-mouchoirs de coton et de fil,482,8,x,non,59896
+mouchoirs de coton et de fil,482,6h,x,non,59896
 mouchoirs de coton et de fil découpés,1,6h,,non,18650
 mouchoirs de coton et de soie,1,6f,x,non,11023
 mouchoirs de coton et fil,25,6h,x,non,18650
 mouchoirs de coton et fil de coton,16,6g,,non,12042
 mouchoirs de coton et soie,16,6f,,non,11023
-mouchoirs de coton et soie de France,1,8,x,non,59896
-mouchoirs de coton étrangers,3,8,,non,59896
-mouchoirs de coton fins,5,8,x,non,59896
+mouchoirs de coton et soie de France,1,6f,x,non,59896
+mouchoirs de coton étrangers,3,6g,,non,59896
+mouchoirs de coton fins,5,6h,x,non,59896
 mouchoirs de coton gros,1,6g,,non,12042
-mouchoirs de coton grossiers,1,8,x,non,59896
+mouchoirs de coton grossiers,1,6g,x,non,59896
 mouchoirs de coton peints,7,6g,x,non,12042
 mouchoirs de Craité,1,6i,,non,9132
-mouchoirs de demi soie,1,8,x,non,59896
+mouchoirs de demi soie,1,6f,x,non,59896
 mouchoirs de différentes qualités en coton,3,6g,x,non,12042
 mouchoirs de différentes quantités,6,6i,x,non,9132
 mouchoirs de fil,375,6d,x,non,15368
@@ -12686,106 +12686,106 @@ mouchoirs de fil de Cholet,2,6d,x,non,15368
 mouchoirs de fil de lin,1,6d,,non,15368
 mouchoirs de fil de lin imprimé,1,6d,,non,15368
 mouchoirs de fil de Rouen,2,6d,,non,15368
-mouchoirs de fil du Béarn,3,8,x,non,59896
+mouchoirs de fil du Béarn,3,6d,x,non,59896
 mouchoirs de fil et de batiste,1,6d,x,non,15368
-mouchoirs de fil et de coton,89,8,x,non,59896
+mouchoirs de fil et de coton,89,6h,x,non,59896
 mouchoirs de fil et de lin,1,6d,,non,15368
 mouchoirs de fil et de pitre,1,6i,x,non,9132
-mouchoirs de fil fin,1,8,,non,59896
+mouchoirs de fil fin,1,6d,,non,59896
 mouchoirs de fil organdi,15,6d,x,non,15368
 mouchoirs de fil peint,1,6d,,non,15368
 mouchoirs de filoselle,1,6f,,non,11023
-mouchoirs de fleuret,3,8,,non,59896
-mouchoirs de foulard,3,8,,non,59896
-mouchoirs de France,1,8,x,non,59896
+mouchoirs de fleuret,3,6f,,non,59896
+mouchoirs de foulard,3,6h,,non,59896
+mouchoirs de France,1,6h,x,non,59896
 mouchoirs de gaze,66,6f,,non,11023
 mouchoirs de gaze de soie,2,6f,,non,11023
 mouchoirs de gaze divers,3,6f,,non,11023
 mouchoirs de gaze grands,1,6f,x,non,11023
-mouchoirs de guingan,,8,x,oui,59896
-mouchoirs de Hollande,1,8,,non,59896
-mouchoirs de kinfin,1,8,x,non,59896
-mouchoirs de l'hotes,2,8,,non,59896
+mouchoirs de guingans,,6h,x,oui,59896
+mouchoirs de Hollande,1,6h,,non,59896
+mouchoirs de kinfin,1,6h,x,non,59896
+mouchoirs de l'hotes,2,6h,,non,59896
 mouchoirs de la Compagnie des Indes,3,6g,x,non,12042
 mouchoirs de laine,2,6e,,non,14091
-mouchoirs de laiton,1,8,,non,59896
-mouchoirs de Laval,1,8,,non,59896
+mouchoirs de laiton,1,???,,non,59896
+mouchoirs de Laval,1,6h,,non,59896
 mouchoirs de lin,4,6e,,non,14091
 mouchoirs de linon,3,6e,,non,14091
 mouchoirs de Madras,8,6g,,non,12042
 mouchoirs de Masulipatan,17,6g,,non,12042
-mouchoirs de mousseline,25,8,,non,59896
-mouchoirs de mousseline brodée,1,8,,non,59896
-mouchoirs de Paliacate,10,8,,non,59896
+mouchoirs de mousseline,25,6g,,non,59896
+mouchoirs de mousseline brodée,1,6g,,non,59896
+mouchoirs de Paliacate,10,6g,,non,59896
 mouchoirs de Patras,1,6g,,non,12042
-mouchoirs de pitre,1,8,x,non,59896
+mouchoirs de pitre,1,6h,x,non,59896
 mouchoirs de Pondichéry,162,6g,,non,12042
-mouchoirs de romals,55,8,x,non,59896
+mouchoirs de romals,55,6g,x,non,59896
 mouchoirs de romals et de la Côte,1,6g,x,non,12042
-mouchoirs de Rouen,97,8,,non,59896
-mouchoirs de Saumur,1,8,,non,59896
-mouchoirs de Sénégal,3,8,,non,59896
-mouchoirs de siamoise,1,8,,non,59896
-mouchoirs de soie,627,8,x,non,59896
-mouchoirs de soie de la Chine,2,8,,non,59896
-mouchoirs de soie de renvoi,1,8,,non,59896
-mouchoirs de soie de Rouen,1,8,x,non,59896
-mouchoirs de soie des Indes,1,8,,non,59896
-mouchoirs de soie en coton,1,8,x,non,59896
-mouchoirs de soucis,1,8,,non,59896
-mouchoirs de taffetas,1,8,x,non,59896
-mouchoirs de toile,10,8,x,non,59896
-mouchoirs de toile ???,,8,x,oui,59896
-mouchoirs de toile aune,,8,x,oui,59896
-mouchoirs de toile blanche,1,8,,non,59896
-mouchoirs de toile de Bretagne,1,8,,non,59896
-mouchoirs de toile de Cholet,52,8,x,non,59896
-mouchoirs de toile de Hin,1,8,,non,59896
-mouchoirs de toile découpés,1,8,x,non,59896
-mouchoirs de toile fine,1,8,,non,59896
-mouchoirs de toile peinte,11,8,x,non,59896
-mouchoirs de toile rayée,2,8,,non,59896
-mouchoirs de traite,2,8,,non,59896
-mouchoirs de Zurich,1,8,,non,59896
-mouchoirs demi soie,2,8,,non,59896
-mouchoirs des Îles,1,8,,non,59896
-mouchoirs des Indes,214,8,x,non,59896
-mouchoirs des Indes communs,1,8,,non,59896
-mouchoirs des Indes de coton,2,8,,non,59896
-mouchoirs des Indes de soie,3,8,,non,59896
-mouchoirs des Indes dit bandanas,1,8,,non,59896
-mouchoirs des Indes dits romals,1,8,x,non,59896
-mouchoirs du Béarn,17,8,x,non,59896
-mouchoirs du Levant,2,8,,non,59896
-mouchoirs du pays,1,8,x,non,59896
-mouchoirs du Sénégal,1,8,,non,59896
-mouchoirs écorce d'arbre,1,8,,non,59896
-mouchoirs en soie,1,8,,non,59896
-mouchoirs et ???,1,8,,non,59896
-mouchoirs et cravates de mousseline,1,8,,non,59896
-mouchoirs et cravates de soie mêlée,2,8,,non,59896
-mouchoirs et fichus de toile peinte,2,8,,non,59896
-mouchoirs et mouchoirs des Indes,17,8,x,non,59896
-mouchoirs et mousseline,3,8,,non,59896
-mouchoirs et ornements,1,8,,non,59896
-mouchoirs fabriqués en France,2,8,x,non,59896
-mouchoirs fins,2,8,,non,59896
-mouchoirs foulards,3,8,x,non,59896
-mouchoirs gros en fil,1,8,x,non,59896
-mouchoirs guingan,1,8,,non,59896
-mouchoirs imprimés,3,8,,non,59896
-mouchoirs imprimés et teints de chanvre et de lin,2,8,,non,59896
-mouchoirs indienne,5,8,x,non,59896
-mouchoirs Komel et Renis,1,8,,non,59896
-mouchoirs linon,2,8,x,non,59896
-mouchoirs Masulipatan,33,8,,non,59896
-mouchoirs peints,87,8,,non,59896
-mouchoirs peints de France,1,8,x,non,59896
-mouchoirs peints de Hollande,2,8,,non,59896
-mouchoirs rayés,2,8,x,non,59896
-mouchoirs romals,9,8,x,non,59896
-mouchoirs saserpatis,1,8,,non,59896
-mouchoirs Tranquebar,2,8,,non,59896
+mouchoirs de Rouen,97,6h,,non,59896
+mouchoirs de Saumur,1,6h,,non,59896
+mouchoirs de Sénégal,3,6h,,non,59896
+mouchoirs de siamoise,1,6h,,non,59896
+mouchoirs de soie,627,6f,x,non,59896
+mouchoirs de soie de la Chine,2,6f,,non,59896
+mouchoirs de soie de renvoi,1,6f,,non,59896
+mouchoirs de soie de Rouen,1,6f,x,non,59896
+mouchoirs de soie des Indes,1,6f,,non,59896
+mouchoirs de soie en coton,1,6f,x,non,59896
+mouchoirs de soucis,1,6h,,non,59896
+mouchoirs de taffetas,1,6h,x,non,59896
+mouchoirs de toile,10,6d,x,non,59896
+mouchoirs de toile ???,,6d,x,oui,59896
+mouchoirs de toile aune,,6d,x,oui,59896
+mouchoirs de toile blanche,1,6d,,non,59896
+mouchoirs de toile de Bretagne,1,6d,,non,59896
+mouchoirs de toile de Cholet,52,6d,x,non,59896
+mouchoirs de toile de Hin,1,6d,,non,59896
+mouchoirs de toile découpés,1,6d,x,non,59896
+mouchoirs de toile fine,1,6d,,non,59896
+mouchoirs de toile peinte,11,6d,x,non,59896
+mouchoirs de toile rayée,2,6d,,non,59896
+mouchoirs de traite,2,6h,,non,59896
+mouchoirs de Zurich,1,6h,,non,59896
+mouchoirs demi soie,2,6f,,non,59896
+mouchoirs des Îles,1,6h,,non,59896
+mouchoirs des Indes,214,6g,x,non,59896
+mouchoirs des Indes communs,1,6g,,non,59896
+mouchoirs des Indes de coton,2,6g,,non,59896
+mouchoirs des Indes de soie,3,6f,,non,59896
+mouchoirs des Indes dit bandanas,1,6g,,non,59896
+mouchoirs des Indes dits romals,1,6g,x,non,59896
+mouchoirs du Béarn,17,6h,x,non,59896
+mouchoirs du Levant,2,6g,,non,59896
+mouchoirs du pays,1,6h,x,non,59896
+mouchoirs du Sénégal,1,6h,,non,59896
+mouchoirs écorce d'arbre,1,6h,,non,59896
+mouchoirs en soie,1,6f,,non,59896
+mouchoirs et ???,1,6i,,non,59896
+mouchoirs et cravates de mousseline,1,9b,,non,59896
+mouchoirs et cravates de soie mêlée,2,9b,,non,59896
+mouchoirs et fichus de toile peinte,2,6i,,non,59896
+mouchoirs et mouchoirs des Indes,17,6i,x,non,59896
+mouchoirs et mousseline,3,6i,,non,59896
+mouchoirs et ornements,1,9b,,non,59896
+mouchoirs fabriqués en France,2,6h,x,non,59896
+mouchoirs fins,2,6i,,non,59896
+mouchoirs foulards,3,6f,x,non,59896
+mouchoirs gros en fil,1,6d,x,non,59896
+mouchoirs guingans,1,6h,,non,59896
+mouchoirs imprimés,3,6h,,non,59896
+mouchoirs imprimés et teints de chanvre et de lin,2,6h,,non,59896
+mouchoirs indienne,5,6g,x,non,59896
+mouchoirs Komel et Renis,1,6h,,non,59896
+mouchoirs linon,2,6d,x,non,59896
+mouchoirs Masulipatan,33,6g,,non,59896
+mouchoirs peints,87,6h,,non,59896
+mouchoirs peints de France,1,6h,x,non,59896
+mouchoirs peints de Hollande,2,6h,,non,59896
+mouchoirs rayés,2,6h,x,non,59896
+mouchoirs romals,9,6g,x,non,59896
+mouchoirs saserpatis,1,6g,,non,59896
+mouchoirs Tranquebar,2,6g,,non,59896
 moufles,1,8,,non,59896
 moulage,2,8,,non,59896
 moulages de fer de fonte,2,6j,,non,39872
@@ -12858,7 +12858,7 @@ mousseline brochée de coton,1,6g,,non,12042
 mousseline brodée,9,6g,x,non,12042
 mousseline brodée de coton,1,6g,,non,12042
 mousseline brodée en couleur,1,6g,,non,12042
-mousseline brodée en soie de couleur,1,6g,,non,12042
+mousseline brodée en soie de couleur,1,6f,,non,12042
 mousseline de coton,106,6g,,non,12042
 mousseline de coton et des Indes,3,6g,x,non,12042
 mousseline de coton et nankin,11,6g,,non,12042
@@ -12868,7 +12868,7 @@ mousseline de coton unies et peintes,17,6g,x,non,12042
 mousseline de France,3,6g,x,non,12042
 mousseline de l'étranger,1,6g,x,non,12042
 mousseline de la Compagnie,2,6g,,non,12042
-mousseline de Suisse et siamoise à ligne de soie,1,6h,x,non,18650
+mousseline de Suisse et siamoise à ligne de soie,1,6f,x,non,18650
 mousseline de Zurich,5,6g,,non,12042
 mousseline des Indes,24,6g,x,non,12042
 mousseline et mouchoirs,1,9b,,non,6090
@@ -12881,7 +12881,7 @@ mousseline imprimées,1,6g,x,non,12042
 mousseline nationale,4,6g,,non,12042
 mousseline rayées,1,6g,,non,12042
 mousseline rayées à fleurs,1,6g,,non,12042
-mousseline siamoise et de Suisse à la ligne de soie,1,6h,,non,18650
+mousseline siamoise et de Suisse à la ligne de soie,1,6f,,non,18650
 mousseline unie,4,6g,,non,12042
 mousseline unies,,6g,x,oui,12042
 mousselinette,1,6g,x,non,12042
@@ -13572,7 +13572,7 @@ ouvrages de jonc et de paille,2,6b,x,non,17810
 ouvrages de jonc et sparterie,2,9b,x,non,6090
 ouvrages de jouets en malles,1,8,x,non,59896
 ouvrages de laine,3,9c,x,non,10407
-ouvrages de laine et soie,1,6i,,non,9132
+ouvrages de laine et soie,1,6f,,non,9132
 ouvrages de laiton,123,6j,x,non,39872
 ouvrages de liège,11,6b,x,non,17810
 ouvrages de linge,5,6i,,non,9132
@@ -14052,16 +14052,16 @@ particuliers français,1,9c,,non,10407
 parun,3,6a,,non,20568
 passagers,4,???,,non,5103
 passagers algériens,1,???,,non,5103
-passementerie,293,8,x,non,59896
-passementerie argent faux,1,8,x,non,59896
+passementerie,293,6i,x,non,59896
+passementerie argent faux,1,6i,x,non,59896
 passementerie bise écrue ou herbée,1,6i,,non,9132
 passementerie blanche ou mélangée de blanc,1,6i,,non,9132
-passementerie d'argent,1,8,x,non,59896
-passementerie d'argent et d'or faux et de soie,1,9b,,non,6090
-passementerie d'argent et de soie,1,9b,,non,6090
-passementerie d'or,1,8,x,non,59896
-passementerie d'or et d'argent,2,8,x,non,59896
-passementerie d'or et de soie,1,9b,x,non,6090
+passementerie d'argent,1,6i,x,non,59896
+passementerie d'argent et d'or faux et de soie,1,6f,,non,6090
+passementerie d'argent et de soie,1,6f,,non,6090
+passementerie d'or,1,6i,x,non,59896
+passementerie d'or et d'argent,2,6i,x,non,59896
+passementerie d'or et de soie,1,6f,x,non,6090
 passementerie de chanvre de fil bis écru herbé et de lin,3,6h,,non,18650
 passementerie de chanvre de fil blanc et mélangé de blanc et de lin,3,6h,,non,18650
 passementerie de chanvre de fil teint en tout et en partie et de lin,2,6h,,non,18650
@@ -14075,7 +14075,7 @@ passementerie de fil,1,6h,,non,18650
 passementerie de fil de chanvre ou de lin bis écru herbé ou mélangé,2,6h,,non,18650
 passementerie de fil de chanvre ou de lin bis écru ou herbé,2,6h,,non,18650
 passementerie de fil de chanvre ou de lin teint en tout ou partie,2,6h,,non,18650
-passementerie de fil de soie et galon,1,6h,x,non,18650
+passementerie de fil de soie et galon,1,6f,x,non,18650
 passementerie de fil en filoselle,3,6i,x,non,9132
 passementerie de fil et coton,1,6i,x,non,9132
 passementerie de fil et laine,1,6i,x,non,9132
@@ -14105,12 +14105,12 @@ passementerie et ruban de fleuret,2,6f,,non,11023
 passementerie et ruban de laine mêlée de fil,1,6i,,non,9132
 passementerie et ruban de laine teinte,2,6e,,non,14091
 passementerie et ruban de soie pure,2,6f,,non,11023
-passementerie fine en filet d'or,1,8,x,non,59896
+passementerie fine en filet d'or,1,6i,x,non,59896
 passementerie fine en velours,2,6i,x,non,9132
 passementerie mêlé de soie,1,6f,x,non,11023
-passementerie mêlée d'argent d'or et de soie,3,9b,,non,6090
+passementerie mêlée d'argent d'or et de soie,3,6f,,non,6090
 passementerie mêlée d'argent d'or faux et fin et de soie,2,6f,,non,11023
-passementerie mêlée d'argent ou d'or faux ou fin,1,9c,,non,10407
+passementerie mêlée d'argent ou d'or faux ou fin,1,6i,,non,10407
 passementerie mêlées d'autres matières que d'argent ou d'or,2,6i,,non,9132
 passementerie ordinaire,42,6i,x,non,9132
 passementerie teinte en tout ou partie,1,6i,,non,9132
@@ -14815,11 +14815,11 @@ pellicules d'alkermès,1,6a,,non,20568
 pelong,1,???,,non,5103
 pelote de laine,,2,,oui,77087
 pelote de lin,8,2,x,non,77087
-peluches,227,6e,x,non,14091
-peluches d'Amiens,1,6e,,non,14091
+étoffe peluches,227,6e,x,non,14091
+étoffe peluches d'Amiens,1,6e,,non,14091
 peluches de bois,1,???,x,non,5103
-peluches de coton,2,6g,,non,12042
-peluches de laine,1,6e,x,non,14091
+étoffe peluches de coton,2,6g,,non,12042
+étoffe peluches de laine,1,6e,x,non,14091
 peluches et panne,1,6i,x,non,9132
 peluchon de prises,1,0b,,non,25230
 peluchon des prises,,0b,,oui,25230
@@ -17260,9 +17260,9 @@ ruban de fil d'argent et d'or,8,6h,x,non,18650
 ruban de fil de laine,6,6e,x,non,14091
 ruban de fil en laine,2,6e,x,non,14091
 ruban de fil et de laine,71,6h,x,non,18650
-ruban de fil et de soie,3,6h,x,non,18650
-ruban de fil et fleuret,1,6h,x,non,18650
-ruban de fil fleuret et laine de soie,1,6h,x,non,18650
+ruban de fil et de soie,3,6f,x,non,18650
+ruban de fil et fleuret,1,6f,x,non,18650
+ruban de fil fleuret et laine de soie,1,6f,x,non,18650
 ruban de fil teint,2,6d,x,non,15368
 ruban de filoselle,24,6f,x,non,11023
 ruban de flearn et de soie,,6f,x,oui,11023
@@ -17935,18 +17935,18 @@ siamoise à bouquet de coton,1,6h,,non,18650
 siamoise à bouquets de laine de coton et de fil,4,6h,,non,18650
 siamoise à bouquets de laine de fil,1,6h,,non,18650
 siamoise à fleurs,41,6h,x,non,18650
-siamoise à fleurs de soie,3,6h,,non,18650
+siamoise à fleurs de soie,3,6f,,non,18650
 siamoise à peu,,6h,x,oui,18650
-siamoise à peu de soie,70,6h,x,non,18650
-siamoise au quart de soie,2,6h,,non,18650
-siamoise au sixième de soie,9,6h,x,non,18650
+siamoise à peu de soie,70,6f,x,non,18650
+siamoise au quart de soie,2,6f,,non,18650
+siamoise au sixième de soie,9,6f,x,non,18650
 siamoise blanche de coton,1,6h,,non,18650
 siamoise blanche de coton et de fil,2,6h,,non,18650
 siamoise brochée de coton et de fil,2,6h,,non,18650
 siamoise commune,18,6h,x,non,18650
 siamoise de coton,5,6g,x,non,12042
-siamoise de coton au quart de soie,1,6h,,non,18650
-siamoise de coton au sixième de soie,1,6h,,non,18650
+siamoise de coton au quart de soie,1,6f,,non,18650
+siamoise de coton au sixième de soie,1,6f,,non,18650
 siamoise de coton et de fil,95,6h,x,non,18650
 siamoise de coton et de fil et imprimée,2,6h,x,non,18650
 siamoise de coton et de fil et teinte,2,6h,x,non,18650
@@ -17961,7 +17961,7 @@ siamoise de fil rayée,1,6h,,non,18650
 siamoise de fil simple,1,6h,x,non,18650
 siamoise de fil teinte,2,6h,,non,18650
 siamoise de Rouen,8,6h,x,non,18650
-siamoise de soie,9,6h,x,non,18650
+siamoise de soie,9,6f,x,non,18650
 siamoise en crin,1,6h,,non,18650
 siamoise fil coton,1,6h,x,non,18650
 siamoise fil de coton,1,6h,,non,18650
@@ -18034,22 +18034,22 @@ soie à tricoter,1,6f,,non,11023
 soie apprêtée,391,6f,,non,11023
 soie ardasse,2,6f,,non,11023
 soie ardassine,1,6f,,non,11023
-soie blanche,4,6f,,non,11023
+soie blanche,4,2,,non,11023
 soie blanche à l'aune,,2,,oui,77087
 soie blanche sans apprêt,2,2,,non,77087
 soie blanche sans apprêt à l'aune,,2,,oui,77087
 soie bourre cardée en feuilles et ouates,1,2,,non,77087
-soie bourre écrue,1,6f,,non,11023
-soie bourre écrue en masse,2,6f,,non,11023
+soie bourre écrue,1,2,,non,11023
+soie bourre écrue en masse,2,2,,non,11023
 soie bourre écrue et teinte,1,2,,non,77087
-soie bourre écrue filée moulinée,1,6f,,non,11023
-soie bourre écrue filée non moulinée,1,6f,,non,11023
+soie bourre écrue filée moulinée,1,2,,non,11023
+soie bourre écrue filée non moulinée,1,2,,non,11023
 soie bourre en masse teinte,1,2,,non,77087
 soie bourre filée fleuret écru,1,6f,,non,11023
 soie bourre filée fleuret teint,1,6f,,non,11023
 soie bourre filée-fleuret en masse,1,6f,,non,11023
 soie bourre fleuret écru et teint,1,6f,,non,11023
-soie brousse,3,6f,,non,11023
+soie brousse,3,2,,non,11023
 soie Canton,1,2,,non,77087
 soie cendre,1,2,,non,77087
 soie cocon,1,2,x,non,77087
@@ -18059,9 +18059,9 @@ soie crue,444,2,x,non,77087
 soie crue organsine,1,2,,non,77087
 soie de ???,1,2,,non,77087
 soie de Bruges,1,2,,non,77087
-soie de charrues,1,6j,,non,39872
+soie de charrues,1,9c,,non,39872
 soie de Chypre,1,2,,non,77087
-soie de fleuret,1,6f,,non,11023
+soie de fleuret,1,2,,non,11023
 soie de la chaîne,1,2,,non,77087
 soie de laine,1,2,,non,77087
 soie de Liège,1,2,,non,77087
@@ -18078,8 +18078,8 @@ soie de toile vieille,2,6f,,non,11023
 soie de Zagora,1,2,,non,77087
 soie des Indes,6,2,,non,77087
 soie des pays étrangers,1,2,,non,77087
-soie dite filoselle,1,6f,,non,11023
-soie dite fleuret,1,6f,,non,11023
+soie dite filoselle,1,2,,non,11023
+soie dite fleuret,1,2,,non,11023
 soie du Bengale,2,2,,non,77087
 soie écrue,11,2,x,non,77087
 soie écrue moulinée,1,2,,non,77087
@@ -18088,17 +18088,17 @@ soie en bourre,1,2,x,non,77087
 soie en cocon,6,2,x,non,77087
 soie en cocons et en estrasse,1,2,x,non,77087
 soie en estrasse,6,2,x,non,77087
-soie en étoupes,4,6f,,non,11023
-soie en fleuret,5,6f,,non,11023
+soie en étoupes,4,2,,non,11023
+soie en fleuret,5,2,,non,11023
 soie en laine,1,2,,non,77087
 soie en masses,1,2,x,non,77087
-soie en peluches,6,6f,,non,11023
+étoffe peluches de soie,6,6f,,non,11023
 soie en rames,15,6f,,non,11023
 soie en strasse,1,2,,non,77087
 soie en suaze,1,???,,non,5103
 soie étoupes,6,6f,,non,11023
 soie exportée de Marseille,1,2,,non,77087
-soie fleuret ???,1,6f,,non,11023
+soie fleuret ???,1,2,,non,11023
 soie floche,1,6f,,non,11023
 soie galette,1,2,,non,77087
 soie grège,32,6f,,non,11023
@@ -18140,9 +18140,9 @@ soierie de Lyon,4,6f,,non,11023
 soierie de toile,1,6f,x,non,11023
 soierie de Tours,1,6f,,non,11023
 soierie des Indes,1,6f,,non,11023
-soierie et coton des Indes,1,9b,x,non,6090
-soierie et dorure,12,9b,x,non,6090
-soierie et dorure fine,13,9b,x,non,6090
+soierie et coton des Indes,1,6i,x,non,6090
+soierie et dorure,12,6f,x,non,6090
+soierie et dorure fine,13,6f,x,non,6090
 soierie fleuret,1,6f,,non,11023
 soins,1,5,,non,48915
 solas,1,???,,non,5103
@@ -18297,7 +18297,7 @@ souliers brodés et pour femme,11,8,x,non,59896
 souliers communs,23,8,,non,59896
 souliers couverts en callemande et pour femme,1,8,x,non,59896
 souliers couverts en étoffe,3,8,x,non,59896
-souliers couverts en étoffes et pour femme,5,8,x,non,59896
+souliers couverts en étoffe et pour femme,5,8,x,non,59896
 souliers couverts en soie et pour femme,8,8,x,non,59896
 souliers d'enfant,6,8,x,non,59896
 souliers d'étoffe de soie,7,8,x,non,59896
@@ -18772,7 +18772,7 @@ taffetas de Lyon,1,6f,x,non,11023
 taffetas de Pékin,2,6f,,non,11023
 taffetas de soie,34,6f,x,non,11023
 taffetas foulard,1,6f,,non,11023
-taffetas foulas,7,6g,x,non,12042
+taffetas foulas,7,6f,x,non,12042
 taffetas lustré,1,6f,,non,11023
 taffetas noir,3,6f,x,non,11023
 taffetas petit,2,6f,,non,11023
@@ -20877,7 +20877,7 @@ vestes de soie unies,1,8,,non,59896
 vestes de toile,7,8,x,non,59896
 vestes de toile brodées,3,8,x,non,59896
 vestes de toile grise,1,8,,non,59896
-vestes de toile guingan,,8,x,oui,59896
+vestes de toile guingans,,8,x,oui,59896
 vestes de velours,3,8,x,non,59896
 vestes en dorure de soie,1,8,x,non,59896
 vestes en droguet de soie,1,8,,non,59896
