@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,hamburg,obsolete,nbr_occurences_hamburg
-,420,,non,444241
+,54,,non,444241
 ???,93,,non,444241
 ??? blanc,2,,non,444241
 ??? brun,2,,non,444241
@@ -26,7 +26,6 @@ simplification,nbr_occurences_simpl,hamburg,obsolete,nbr_occurences_hamburg
 ?ufs,1,,non,444241
 [non traité],217,,non,444241
 [vide],6072,,non,444241
-ajamis,276,,non,444241
 à l'aventure,1,,non,444241
 à son lest,1,,non,444241
 à vide,2,,non,444241
@@ -202,6 +201,7 @@ ains à pêcher,43,,non,444241
 ains et lignes à pêcher,2,,non,444241
 airain,6,,non,444241
 airain non ouvré,1,,non,444241
+ajamis,276,,non,444241
 ajustements,37,,non,444241
 ajustements de femme,5,,non,444241
 ajustements de soie,2,,non,444241
@@ -737,9 +737,9 @@ baillarge,5,,non,444241
 bailles,1,,non,444241
 baïonnettes,13,,non,444241
 bais de bois de chêne,1,,non,444241
-bajutapau,231,,non,444241
+bajutapau,237,,non,444241
 bajutapau commun,1,,non,444241
-bajutapau des Indes,3,,non,444241
+bajutapau des Indes,3,,oui,444241
 "bajutapau, canelis, etc.",3,,non,444241
 bakeliau et stockfis,0,,oui,444241
 balais,123,,non,444241
@@ -815,7 +815,7 @@ balles vides,1,,non,444241
 ballons de sapin,1,,oui,444241
 ballons en sapin,1,,non,444241
 ballots,3,,non,444241
-ballots d'étoffes,1,,non,444241
+ballots d'étoffes,1,,oui,444241
 balustres,12,,non,444241
 bamboches,1,,non,444241
 bambous,8,,non,444241
@@ -1170,6 +1170,7 @@ batiste de 12 aunes,1,,non,444241
 batiste de fil,12,,non,444241
 batiste de lin,15,,non,444241
 batiste de lin et linon de lin,14,,non,444241
+batiste de Lorient,1,,non,444241
 batiste écrue,2,,non,444241
 batiste et fine,0,,oui,444241
 batiste et linog,0,,oui,444241
@@ -1178,7 +1179,7 @@ batiste et linon de chanvre,2,,non,444241
 batiste et linon de chanvre et de lin,7,,non,444241
 batiste fine,8,,non,444241
 batiste grise,1,,non,444241
-batiste Lorient,1,,non,444241
+batiste Lorient,1,,oui,444241
 batonge de bois,1,,oui,444241
 bâtons,5,,non,444241
 bâtons à chandelle,2,,non,444241
@@ -1287,9 +1288,9 @@ béliers brebis et moutons communs,7,,non,444241
 béliers mérinos,2,,non,444241
 béliers mérinos et métis,7,,non,444241
 belinge,1,,non,444241
-bem ???,1,,non,444241
-bem de Vimoutiers,1,,non,444241
-bem pour voile,3,,non,444241
+bem ???,1,,oui,444241
+bem de Vimoutiers,1,,oui,444241
+bem pour voile,3,,oui,444241
 benblanc,1,,non,444241
 benfletins,1,,non,444241
 Bengale,1,,non,444241
@@ -2173,7 +2174,7 @@ bonneterie de soie,555,,non,444241
 bonneterie de soie au sixième,3,,non,444241
 bonneterie de soie et dorure,3,,non,444241
 bonneterie écarlate,1,,non,444241
-bonneterie étoffes et tapis de poil,3,,non,444241
+bonneterie étoffes et tapis de poil,3,,oui,444241
 bonneterie fil et bonneterie de coton,1,,non,444241
 bonnets,13,,non,444241
 bonnets à cheveux,1,,non,444241
@@ -2273,10 +2274,10 @@ bottines,63,,non,444241
 bottines de cuir,4,,non,444241
 bottines de peau,1,,non,444241
 boucaniers,11,,non,444241
-boucans en bottes,1,,non,444241
+boucans en bottes,1,,oui,444241
 boucassin,61,,non,444241
 boucassin rouge,2,,non,444241
-boucaud en bottes,1,,non,444241
+boucaud en bottes,2,,non,444241
 boucaud vide,3,,non,444241
 bouchie,1,,non,444241
 bouchons,12,,non,444241
@@ -2319,7 +2320,7 @@ bougie et cierges,22,,non,444241
 bougie jaune,9,,non,444241
 bougie verte,1,,non,444241
 bougies,0,,oui,444241
-bougran,98,,non,444241
+bougran,98,,oui,444241
 bouguette,1,,non,444241
 bouilloire de cuivre,0,,oui,444241
 bouilloires de cuivre,2,,non,444241
@@ -2704,7 +2705,7 @@ briquettes,3,,non,444241
 bris d'espars,4,,non,444241
 brises,1,,non,444241
 brocante,1,,non,444241
-brocard de soie,1,,non,444241
+brocard de soie,1,,oui,444241
 brocatelle,1,,non,444241
 brocatelle de Venise,1,,non,444241
 brochets,20,,non,444241
@@ -2962,8 +2963,8 @@ caisse vide,2,,non,444241
 caisses,1,,oui,444241
 caissettes pour balz,1,,non,444241
 cal d'artichaut,1,,non,444241
-caladaris,67,,non,444241
-caladaris des Indes,3,,non,444241
+caladaris,97,,non,444241
+caladaris des Indes,3,,oui,444241
 calames,1,,non,444241
 calamine,23,,non,444241
 calamine grillée,1,,non,444241
@@ -3016,7 +3017,7 @@ camelot à mi-soie,6,,non,444241
 camelot à peu de soie,15,,non,444241
 camelot au quart,3,,non,444241
 camelot au sixième de soie,3,,non,444241
-camelot au-dessous du sixième de soie,1,,non,444241
+camelot au-dessous du sixième de soie,1,,oui,444241
 camelot aune,1,,oui,444241
 camelot avec soie,4,,non,444241
 camelot burail,6,,non,444241
@@ -3104,11 +3105,11 @@ canepre,1,,non,444241
 canerelles,1,,non,444241
 canetilles d'or faux,0,,oui,444241
 canettes des Indes,1,,non,444241
-canevas,74,,non,444241
+canevas,74,,oui,444241
 canevas à 15 sols l'aune,1,,oui,444241
-canevas de fil,2,,non,444241
-canevas gommée,3,,non,444241
-canevas tracé,7,,non,444241
+canevas de fil,2,,oui,444241
+canevas gommée,3,,oui,444241
+canevas tracé,7,,oui,444241
 canevettes,43,,non,444241
 canevettes à flacons,1,,non,444241
 canevettes de grès,15,,non,444241
@@ -3834,7 +3835,7 @@ châles et mouchoirs,15,,non,444241
 châles et mouchoirs de coton,81,,non,444241
 châles et mouchoirs de laine,48,,non,444241
 châles et mouchoirs de soie,156,,non,444241
-châles et mouchoirs de soie façonnée pure et unie,2,,non,444241
+châles et mouchoirs de soie façonnée pure et unie,2,,oui,444241
 challe des Indes,0,,oui,444241
 chalons,5,,non,444241
 Châlons,0,,oui,444241
@@ -4100,9 +4101,9 @@ charrettes vieilles,1,,non,444241
 charrues,16,,non,444241
 charrues de fer,1,Fer,non,9951
 chaselade,0,,oui,444241
-chaselas des Indes,3,,non,444241
+chaselas des Indes,3,,oui,444241
 chasse-mouches,1,,non,444241
-chasselas,179,,non,444241
+chasselas,179,,oui,444241
 châssis de bois,1,,non,444241
 chasuble,8,,non,444241
 châtaignes,704,,non,444241
@@ -4200,6 +4201,7 @@ cheminée de marbre,5,,non,444241
 cheminée de pierre de liere,0,,oui,444241
 cheminée de pierre de lierre,1,,non,444241
 cheminée statues etc.,1,,non,444241
+chemise de toile,2,,non,444241
 chemises,212,,non,444241
 chemises à fumer,1,,non,444241
 chemises à nègre,81,,non,444241
@@ -4229,7 +4231,7 @@ chemises de lin garnies unies,3,,non,444241
 chemises de nègre,1,,non,444241
 chemises de siamoise,1,,non,444241
 chemises de soldat,1,,non,444241
-chemises de toile,7,,non,444241
+chemises de toile,5,,non,444241
 chemises de toile bleue,1,,non,444241
 chemises de toile bretonne,4,,non,444241
 chemises de toile communes,2,,non,444241
@@ -4245,6 +4247,7 @@ chemises de toile de lin garnies,6,,non,444241
 chemises de toile de Morlaix,1,,non,444241
 chemises de toile de Saint-Jean,1,,non,444241
 chemises de toile garnies,1,,non,444241
+chemises de toile guingans,20,,non,444241
 chemises de toile rayée,2,,non,444241
 chemises fines,36,,non,444241
 chemises garnies,239,,non,444241
@@ -4900,13 +4903,13 @@ cordage refait,1,,non,444241
 cordage vieux,41,,non,444241
 cordagnes,0,,oui,444241
 corde du Levant,1,,non,444241
-cordeillat,109,,non,444241
+cordeillat,229,,non,444241
 cordeillat d'Oléron,2,,non,444241
-cordeillat de Colmar,13,,non,444241
-cordeillat de laine,5,,non,444241
+cordeillat de Colmar,15,,non,444241
+cordeillat de laine,4,,non,444241
 cordeillat de Piémont,1,,non,444241
 cordeillat de Provence,2,,non,444241
-cordelats,1,,non,444241
+cordelats,1,,oui,444241
 cordellerie,3,,non,444241
 cordes,3,,non,444241
 cordes à arçons,9,,non,444241
@@ -4950,7 +4953,7 @@ cordes pour violons,167,,non,444241
 cordes pour violons ???,1,,non,444241
 cordes vieilles,5,,non,444241
 cordial,1,,non,444241
-cordillaterie,43,,non,444241
+cordillaterie,43,,oui,444241
 cordonnerie de cuir,34,,non,444241
 cordonnerie et sellerie de cuir,200,,non,444241
 cordonnet,2,,non,444241
@@ -5347,7 +5350,7 @@ couvertures de soie,5,,non,444241
 couvertures de toile peinte,1,,non,444241
 couvertures de ville,1,,non,444241
 couvertures dites pagnes,1,,non,444241
-couvertures drap et étoffe de laine,3,,non,444241
+couvertures drap et étoffe de laine,3,,oui,444241
 couvertures draps et étoffe de laine,0,,oui,444241
 couvertures du Béarn,4,,non,444241
 couvertures du Levant,1,,non,444241
@@ -6222,7 +6225,7 @@ drap à matelot,1,,non,444241
 drap à nègre,2,,non,444241
 drap à sucre,6,,non,444241
 drap anglais,1,,non,444241
-drap au 6ème de soie,4,,non,444241
+drap au 6ème de soie,4,,oui,444241
 drap au sixième de soie,3,,non,444241
 drap avarié,5,,non,444241
 drap blanc,5,,non,444241
@@ -6253,8 +6256,8 @@ drap cammise,2,,non,444241
 drap casimir,0,,oui,444241
 drap commun,309,,non,444241
 drap commun d'Angleterre,1,,non,444241
-drap cordeillat,41,,non,444241
-drap cordeillat de Colmar,2,,non,444241
+drap cordeillat,41,,oui,444241
+drap cordeillat de Colmar,2,,oui,444241
 drap cosinis,1,,non,444241
 drap crêpe,2,,non,444241
 drap crêpe de Reims,4,,non,444241
@@ -6304,7 +6307,7 @@ drap de Champagne,1,,non,444241
 drap de Cherbourg,1,,non,444241
 drap de Cobras gros,1,,non,444241
 drap de Colmar,6,,non,444241
-drap de cordeillat,3,,non,444241
+drap de cordeillat,3,,oui,444241
 drap de coton,19,,non,444241
 drap de coton de Rouen,1,,non,444241
 drap de coton et de fil,2,,non,444241
@@ -6342,12 +6345,12 @@ drap de laine au quart de soie,3,,non,444241
 drap de laine avarié,1,,non,444241
 drap de laine brodé de soie,1,,non,444241
 drap de laine commun,10,,non,444241
-drap de laine cordeillat,25,,non,444241
+drap de laine cordeillat,25,,oui,444241
 drap de laine d'Amiens,2,,non,444241
 drap de laine d'Andelys,9,,non,444241
 drap de laine d'Elbeuf,212,,non,444241
 drap de laine de Beauvais,1,,non,444241
-drap de laine de cordeillat,5,,non,444241
+drap de laine de cordeillat,5,,oui,444241
 drap de laine de Cours,1,,non,444241
 drap de laine de Lille,15,,non,444241
 drap de laine de Louviers,123,,non,444241
@@ -6390,11 +6393,11 @@ drap de Louviers,271,,non,444241
 drap de Louviers au sixième de soie,1,,non,444241
 drap de Louvres,0,,oui,444241
 drap de Lyon,3,,non,444241
-drap de Maroc,0,,oui,444241
+drap de Maroc,1,,non,444241
 drap de Maroc teint de douzaine,0,,oui,444241
 drap de montagne,6,,non,444241
 drap de Montauban,36,,non,444241
-drap de Montauban petite,1,,non,444241
+drap de Montauban petite,1,,oui,444241
 drap de Moucu,3,,non,444241
 drap de Nîmes,1,,non,444241
 drap de Nison,1,,non,444241
@@ -6471,8 +6474,9 @@ drap étranger,3,,non,444241
 drap fin,90,,non,444241
 drap fin blanc,1,,non,444241
 drap fin de la manufacture de France,2,,non,444241
-drap fin divers dit londrin du Languedoc de Carcassonne et Lodève,1,,non,444241
+drap fin divers dit londrin du Languedoc de Carcassonne et Lodève,1,,oui,444241
 drap fin du Languedoc,23,,non,444241
+drap fin du Languedoc londrin de Carcassonne et Lodève,1,,non,444241
 drap fin et draperie,1,,non,444241
 drap fin ordinaire et petite,1,,non,444241
 drap fins de laine,62,,non,444241
@@ -6488,7 +6492,7 @@ drap kalmouk,4,,non,444241
 drap layette,5,,non,444241
 drap londrin,222,,non,444241
 drap londrin ?,1,,non,444241
-drap londrin petit,1,,non,444241
+drap londrin petit,1,,oui,444241
 drap Maroc petit,0,,oui,444241
 drap matine petit,0,,oui,444241
 drap molleton,47,,non,444241
@@ -6508,11 +6512,14 @@ drap peint,2,,non,444241
 drap petit,712,,non,444241
 drap petit de Languedoc,1,,non,444241
 drap petit de mains,1,,non,444241
+drap petit de Montauban,1,,non,444241
 drap petit de Sedan,1,,non,444241
 drap petit de Silésie,33,,non,444241
 drap petit dit raz Maroc,0,,oui,444241
 drap petit du Maroc,0,,oui,444241
+drap petit londrin,1,,non,444241
 drap petit ratine,0,,oui,444241
+drap petit raze de Maroc,12,,non,444241
 drap platine,2,,non,444241
 drap pour billau,1,,non,444241
 drap pour doublures,3,,non,444241
@@ -6624,7 +6631,8 @@ droguet de soie,23,,non,444241
 droguet des prises,1,,non,444241
 droguet en fil,1,,non,444241
 droguet en laine,1,,non,444241
-droguet et Maroc,2,,non,444241
+droguet et Maroc,2,,oui,444241
+droguet et raze de Maroc,2,,non,444241
 droit sur vin de Blaye,1,,non,444241
 droit sur vinaigre,2,,non,444241
 drol et drouel,1,,non,444241
@@ -7429,7 +7437,7 @@ etocs de fer,13,,non,444241
 étoffe à peu,20,,oui,444241
 étoffe à peu de soie,155,,non,444241
 étoffe au ??? de soie,4,,non,444241
-étoffe au dessus du sixième de soie,1,,non,444241
+étoffe au dessus du sixième de soie,1,,oui,444241
 étoffe au filoselle,2,,non,444241
 étoffe au peu de soie,4,,non,444241
 étoffe au poil sorge de Rome,1,,non,444241
@@ -7440,14 +7448,14 @@ etocs de fer,13,,non,444241
 étoffe au sixième de soie en siamoise,2,,non,444241
 étoffe au sixième de soie siamoise,1,,non,444241
 étoffe au tiers de soie,1,,non,444241
-étoffe au-dessus du sixième de soie,1,,non,444241
+étoffe au-dessus du sixième de soie,2,,non,444241
 étoffe avec argent et or,2,,non,444241
 étoffe avec un brin de soie,2,,non,444241
 étoffe avec vin brin de soie,1,,non,444241
-étoffe brochée d'argent et d'or faux de soie pure,2,,non,444241
-étoffe brochée d'argent et d'or fin de soie pure,2,,non,444241
+étoffe brochée d'argent et d'or faux de soie pure,2,,oui,444241
+étoffe brochée d'argent et d'or fin de soie pure,2,,oui,444241
 étoffe brochée de coton et de fil siamois,1,,non,444241
-étoffe brochée de soie de soie pure,2,,non,444241
+étoffe brochée de soie de soie pure,2,,oui,444241
 étoffe brochée et brodée,2,,non,444241
 étoffe cotonne,1,,non,444241
 étoffe crêpe,1,,non,444241
@@ -7470,7 +7478,7 @@ etocs de fer,13,,non,444241
 étoffe de chanvre,4,,non,444241
 étoffe de chanvre et de fil de lin en toile,12,,non,444241
 étoffe de chanvre et de lin en toile diverse,26,,non,444241
-étoffe de coton,388,,non,444241
+étoffe de coton,386,,non,444241
 étoffe de coton ???,2,,non,444241
 étoffe de coton au quart de soie,3,,non,444241
 étoffe de coton brillant blanc,1,,non,444241
@@ -7519,7 +7527,7 @@ etocs de fer,13,,non,444241
 étoffe de coton peint,1,,non,444241
 étoffe de coton piqué,1,,non,444241
 étoffe de coton tapisserie,0,,oui,444241
-étoffe de crin,32,,non,444241
+étoffe de crin,29,,non,444241
 étoffe de d'argent et d'or et de soie,23,,non,444241
 étoffe de dorure de laine et de soie,2,,non,444241
 étoffe de fil,7,,non,444241
@@ -7538,14 +7546,14 @@ etocs de fer,13,,non,444241
 étoffe de filoselle et de soie,6,,non,444241
 étoffe de filoselle et soie,0,,oui,444241
 étoffe de Flandre et de poil,2,,non,444241
-étoffe de fleuret,73,,non,444241
+étoffe de fleuret,69,,non,444241
 étoffe de fleuret au brin de soie,1,,non,444241
 étoffe de fleuret et de laine,5,,non,444241
 étoffe de fleuret et de soie,7,,non,444241
 étoffe de fleuret et laine,2,,non,444241
 étoffe de fleuret pure,2,,non,444241
 étoffe de galette et de soie,1,,non,444241
-étoffe de laine,545,,non,444241
+étoffe de laine,542,,non,444241
 étoffe de laine ???,5,,non,444241
 étoffe de laine à faire moufles,1,,non,444241
 étoffe de laine à fil,1,,non,444241
@@ -7567,7 +7575,8 @@ etocs de fer,13,,non,444241
 étoffe de laine en cachemire,2,,non,444241
 étoffe de laine en croisé,1,,non,444241
 étoffe de laine en quart de soie,1,,non,444241
-étoffe de laine en raz de castor,5,,non,444241
+étoffe de laine en raz de castor,5,,oui,444241
+étoffe de laine en raze de castor,5,,non,444241
 étoffe de laine en sarain,1,,non,444241
 étoffe de laine et de fil,1,,non,444241
 étoffe de laine et de poil,33,,non,444241
@@ -7676,7 +7685,7 @@ etocs de fer,13,,non,444241
 étoffe de soie herbage,1,,non,444241
 étoffe de soie mêlée d'argent et d'or faux,1,,non,444241
 étoffe de soie mêlée d'argent et d'or fin,1,,non,444241
-étoffe de soie mêlée de fil,3,,non,444241
+étoffe de soie mêlée de fil,1,,non,444241
 étoffe de soie mêlée de laine ou de coton,1,,non,444241
 étoffe de soie mi soie,191,,non,444241
 étoffe de soie morenine,0,,oui,444241
@@ -7684,9 +7693,11 @@ etocs de fer,13,,non,444241
 étoffe de soie pièce,1,,non,444241
 étoffe de soie pou de soie,1,,non,444241
 étoffe de soie pure,2,,non,444241
-étoffe de soie pure unie,3,,non,444241
-étoffe de soie raz ??? cir,1,,non,444241
-étoffe de soie raz ??? fin,2,,non,444241
+étoffe de soie pure unie,3,,oui,444241
+étoffe de soie raz ??? cir,1,,oui,444241
+étoffe de soie raz ??? fin,2,,oui,444241
+étoffe de soie raze ??? cir,1,,non,444241
+étoffe de soie raze ??? fin,2,,non,444241
 étoffe de soie riche,4,,non,444241
 étoffe de soie unie,2,,non,444241
 étoffe de taffetas,1,,non,444241
@@ -7697,7 +7708,7 @@ etocs de fer,13,,non,444241
 étoffe de voile,2,,non,444241
 étoffe demi soie,5,,non,444241
 étoffe des Iles,4,,non,444241
-étoffe des Indes,19,,non,444241
+étoffe des Indes,18,,non,444241
 étoffe des Indes vestes brodées,1,,non,444241
 étoffe des prises,2,,non,444241
 étoffe dite calutras de coton et de soie,1,,non,444241
@@ -7737,7 +7748,7 @@ etocs de fer,13,,non,444241
 étoffe étrangère,5,,non,444241
 étoffe étrangère de jude,1,,non,444241
 étoffe façonnée,100,,non,444241
-étoffe façonnée de soie pure,2,,non,444241
+étoffe façonnée de soie pure,2,,oui,444241
 étoffe filoselle,4,,non,444241
 étoffe filoselle de soie,1,,non,444241
 étoffe filoselle et laine,3,,non,444241
@@ -7764,8 +7775,8 @@ etocs de fer,13,,non,444241
 étoffe mêlée de coton et de soie,3,,non,444241
 étoffe mêlée de fil de soie,8,,non,444241
 étoffe mêlée de fil et de soie,3,,non,444241
-étoffe mêlée de soie ?,1,,non,444241
-étoffe mêlée de soie ???,1,,non,444241
+étoffe mêlée de soie ?,1,,oui,444241
+étoffe mêlée de soie ???,2,,non,444241
 étoffe mêlée de soie à peu,63,,non,444241
 étoffe mêlée de soie à peu de soie,111,,non,444241
 étoffe mêlée de soie au 4/5e,4,,non,444241
@@ -7785,7 +7796,7 @@ etocs de fer,13,,non,444241
 étoffe pure brochée de soie,1,,non,444241
 étoffe pure façonnée,1,,non,444241
 étoffe pure unie,1,,non,444241
-étoffe pures et mouchoirs de fleuret,1,,non,444241
+étoffe pures et mouchoirs de fleuret,1,,oui,444241
 étoffe refoulée,1,,non,444241
 étoffe riche,116,,non,444241
 étoffe riche en or,1,,non,444241
@@ -7806,10 +7817,10 @@ etocs de fer,13,,non,444241
 étoffes brochées de soie et unies,70,,non,444241
 étoffes d'écorce,2,,non,444241
 étoffes de bourre de soie façon cachemire,1,,non,444241
-étoffes de cachemire de poil,1,,non,444241
+étoffes de cachemire de poil,1,,oui,444241
 étoffes de chanvre ou de lin,2,,non,444241
 étoffes de chanvre ou de lin mêlés,1,,non,444241
-étoffes de coton,3,,non,444241
+étoffes de coton,1,,non,444241
 étoffes de coton basin piqués mousselinettes,2,,non,444241
 étoffes de coton brochées et brodées et imprimées,2,,non,444241
 étoffes de coton simples,2,,non,444241
@@ -10404,21 +10415,21 @@ guinée Sénégal,1,,non,444241
 Guinée Sénégal,0,,oui,444241
 guinée tachée,1,,non,444241
 Guinée tachée,0,,oui,444241
-guingan,291,,non,444241
+guingan,291,,oui,444241
 guingan blanc,1,,oui,444241
 guingan bleu,1,,oui,444241
 guingan de Bengale,2,,oui,444241
 guingan de coton,1,,oui,444241
-guingan de fil,8,,non,444241
+guingan de fil,8,,oui,444241
 guingan de Grenade,2,,oui,444241
-guingan de lin,13,,non,444241
+guingan de lin,13,,oui,444241
 guingan de Madras,23,,oui,444241
 guingan de Masulipatan,1,,oui,444241
 guingan de Pondichéry,26,,oui,444241
 guingan de Pondichéry et de Madras,1,,oui,444241
 guingan de prises,0,,oui,444241
 guingan de Rouen,3,,oui,444241
-guingan des Indes,1,,non,444241
+guingan des Indes,1,,oui,444241
 guingan des prises,1,,oui,444241
 guingan du Bengale,8,,oui,444241
 guingan en Madras,1,,oui,444241
@@ -11294,7 +11305,7 @@ jussienne,0,,oui,444241
 kalmouk,1,,non,444241
 kichorchais,8,,non,444241
 kicoutis,2,,non,444241
-killis,1,,non,444241
+killis,1,,oui,444241
 kirschwasser,3,,non,444241
 korola des Indes,2,,non,444241
 korots,0,,oui,444241
@@ -11888,6 +11899,7 @@ lingerie de lit et de tables,4,,non,444241
 lingerie de tables,2,,non,444241
 lingerie de toile d'étoupes,1,,non,444241
 lingerie de toile de lin,9,,non,444241
+lingerie de toile de lin guingans,1,,non,444241
 lingerie des Indes,1,,non,444241
 lingerie en chanvre,1,,non,444241
 lingerie ouvrée,2,,non,444241
@@ -12136,7 +12148,7 @@ malemole de 12 aunes,1,,non,444241
 malemole dome,1,,non,444241
 malles,14,,non,444241
 malles ???,1,,non,444241
-malles d'étoffes d'or,1,,non,444241
+malles d'étoffes d'or,1,,oui,444241
 malles de cuir,3,,non,444241
 malles et valises et coffres,2,,non,444241
 malles travaillées,1,,non,444241
@@ -12366,11 +12378,11 @@ marmites de potier,1,,non,444241
 marmites en fer,282,,non,444241
 marmites en fer coulé,0,,oui,444241
 marne,7,,non,444241
-Maroc,54,,non,444241
+Maroc,54,,oui,444241
 Maroc aune,1,,oui,444241
-Maroc de laine,2,,non,444241
-Maroc raz de marron,1,,non,444241
-Maroc teint de douzaine,2,,non,444241
+Maroc de laine,2,,oui,444241
+Maroc raz de marron,1,,oui,444241
+Maroc teint de douzaine,2,,oui,444241
 maronic,1,,non,444241
 maroquins,5,,non,444241
 marquise,1,,non,444241
@@ -12555,7 +12567,7 @@ mâts,360,,non,444241
 mâts à bateau,1,,non,444241
 mâts à chaloupe,1,,non,444241
 mâts assortis,17,,non,444241
-mâts au dessous de 6 paumes,1,,non,444241
+mâts au dessous de 6 paumes,1,,oui,444241
 mâts bouts de 3 à 4 pieds,1,,non,444241
 mâts communs,5,,non,444241
 mâts communs de 50 pieds,1,,non,444241
@@ -13126,8 +13138,8 @@ meules à tannerie,0,,oui,444241
 meules acoustiques,1,,non,444241
 meules affiloires,7,,non,444241
 meules assorties,1,,non,444241
-meules au dessous de 4 pouces,1,,non,444241
-meules au dessus de 4 pouces,1,,non,444241
+meules au dessous de 4 pouces,1,,oui,444241
+meules au dessus de 4 pouces,1,,oui,444241
 meules bâtardes,33,,non,444241
 meules brodées,1,,non,444241
 meules coutier,1,,non,444241
@@ -13524,8 +13536,8 @@ mouchoirs de Paliacate,10,,non,444241
 mouchoirs de Patras,1,,non,444241
 mouchoirs de pitre,1,,non,444241
 mouchoirs de Pondichéry,162,,non,444241
-mouchoirs de romals,55,,non,444241
-mouchoirs de romals et de la Côte,1,,non,444241
+mouchoirs de romals,55,,oui,444241
+mouchoirs de romals et de la Côte,1,,oui,444241
 mouchoirs de Rouen,97,,non,444241
 mouchoirs de Saumur,1,,non,444241
 mouchoirs de Sénégal,3,,non,444241
@@ -13547,6 +13559,7 @@ mouchoirs de toile de Cholet,52,,non,444241
 mouchoirs de toile de Hin,1,,non,444241
 mouchoirs de toile découpés,1,,non,444241
 mouchoirs de toile fine,1,,non,444241
+mouchoirs de toile guingans,5,,non,444241
 mouchoirs de toile peinte,11,,non,444241
 mouchoirs de toile rayée,2,,non,444241
 mouchoirs de traite,2,,non,444241
@@ -13558,7 +13571,7 @@ mouchoirs des Indes communs,1,,non,444241
 mouchoirs des Indes de coton,2,,non,444241
 mouchoirs des Indes de soie,3,,non,444241
 mouchoirs des Indes dit bandanas,1,,non,444241
-mouchoirs des Indes dits romals,1,,non,444241
+mouchoirs des Indes dits romals,1,,oui,444241
 mouchoirs du Béarn,17,,non,444241
 mouchoirs du Levant,2,,non,444241
 mouchoirs du pays,1,,non,444241
@@ -13576,7 +13589,7 @@ mouchoirs fabriqués en France,2,,non,444241
 mouchoirs fins,2,,non,444241
 mouchoirs foulards,3,,non,444241
 mouchoirs gros en fil,1,,non,444241
-mouchoirs guingan,1,,non,444241
+mouchoirs guingan,1,,oui,444241
 mouchoirs imprimés,3,,non,444241
 mouchoirs imprimés et teints de chanvre et de lin,2,,non,444241
 mouchoirs indienne,5,,non,444241
@@ -13587,7 +13600,8 @@ mouchoirs peints,87,,non,444241
 mouchoirs peints de France,1,,non,444241
 mouchoirs peints de Hollande,2,,non,444241
 mouchoirs rayés,2,,non,444241
-mouchoirs romals,9,,non,444241
+mouchoirs romals,65,,non,444241
+mouchoirs romals et de la Côte,1,,non,444241
 mouchoirs saserpatis,1,,non,444241
 mouchoirs Tranquebar,2,,non,444241
 moufles,1,,non,444241
@@ -14674,16 +14688,17 @@ panne de velours,1,,non,444241
 panne de velours sur soie,1,,non,444241
 panne des prises,2,,non,444241
 panne écarlate,5,,non,444241
-panne en peluches et tripe,2,,non,444241
+panne en peluches et tripe,2,,oui,444241
 panne en peluches et tripe aune,2,,oui,444241
 Panne en peluches et tripe aune,0,,oui,444241
 panne en poil,5,,non,444241
 panne imprimée,2,,non,444241
 panne laine et poil,2,,non,444241
 panne ordinaire,7,,non,444241
-panne peluches et tripe,2,,non,444241
+panne peluches et tripe,2,,oui,444241
 panne poil,1,,non,444241
 panne rouge,1,,non,444241
+"panne, peluches et tripe",4,,non,444241
 panneaux,14,,non,444241
 panneaux de bois,1,,non,444241
 pans à couvrir de terre cuite,3,,non,444241
@@ -15883,8 +15898,10 @@ pertiolles,5,,non,444241
 pertuisanes,1,,non,444241
 pesetas,1,,non,444241
 petit carré de fer,1,Fer,non,9951
-petit raz de castor,2,,non,444241
-petit raz refoulé,1,,non,444241
+petit raz de castor,2,,oui,444241
+petit raz refoulé,1,,oui,444241
+petit raze de castor,2,,non,444241
+petit raze refoulé,1,,non,444241
 petit salé,34,,non,444241
 petit salé et porcs salés,1,,non,444241
 petit son,1,,non,444241
@@ -17647,7 +17664,8 @@ prunelle de laine,18,,non,444241
 prunelle de laine burail,4,,non,444241
 prunelle de laine burat,2,,non,444241
 prunelle de laine et de soie,1,,non,444241
-prunelle de laine raz de castor,2,,non,444241
+prunelle de laine raz de castor,2,,oui,444241
+prunelle de laine raze de castor,2,,non,444241
 prunelle de poil,18,,non,444241
 prunelle de soie,2,,non,444241
 prunelle fine,3,,non,444241
@@ -17955,24 +17973,39 @@ rave de stockfish,1,,non,444241
 raveaux,1,,non,444241
 rayon,1,,non,444241
 rayon de mouches à miel,1,,non,444241
-raz anglais,1,,non,444241
-raz croisé,1,,non,444241
-raz d'Angleterre,1,,non,444241
-raz de castor,45,,non,444241
-raz de Fleury,2,,non,444241
-raz de laine,6,,non,444241
+raz anglais,1,,oui,444241
+raz croisé,1,,oui,444241
+raz d'Angleterre,1,,oui,444241
+raz de castor,45,,oui,444241
+raz de Fleury,2,,oui,444241
+raz de laine,6,,oui,444241
 raz de morue,1,,oui,444241
-raz de Reims,2,,non,444241
+raz de Reims,2,,oui,444241
 raz de Saint-Lo,0,,oui,444241
-raz de Saint-Lô,2,,non,444241
-raz de Saint-Maur,13,,non,444241
-raz de soie de Saint-Cyr,4,,non,444241
-raz de soie de Saint-Maur,2,,non,444241
-raz de soie de St Cyr,1,,non,444241
-raz des prises,1,,non,444241
-raz du Maroc,288,,non,444241
+raz de Saint-Lô,2,,oui,444241
+raz de Saint-Maur,13,,oui,444241
+raz de soie de Saint-Cyr,4,,oui,444241
+raz de soie de Saint-Maur,2,,oui,444241
+raz de soie de St Cyr,1,,oui,444241
+raz des prises,1,,oui,444241
+raz du Maroc,288,,oui,444241
 raz Maroc,0,,oui,444241
+raze anglais,1,,non,444241
 raze blanche,1,,non,444241
+raze croisé,1,,non,444241
+raze d'Angleterre,1,,non,444241
+raze de castor,45,,non,444241
+raze de Fleury,2,,non,444241
+raze de laine,6,,non,444241
+raze de Maroc,332,,non,444241
+raze de Maroc teint,2,,non,444241
+raze de Reims,2,,non,444241
+raze de Saint-Lô,2,,non,444241
+raze de Saint-Maur,13,,non,444241
+raze de soie de Saint-Cyr,4,,non,444241
+raze de soie de Saint-Maur,2,,non,444241
+raze de soie de St Cyr,1,,non,444241
+raze des prises,1,,non,444241
 reagal,19,,non,444241
 rebuts de corail,1,,non,444241
 rechanges à nègre,1,,non,444241
@@ -18183,8 +18216,8 @@ rollet aune,1,,oui,444241
 rollet et batiste,1,,non,444241
 rollins,1,,non,444241
 romaine,4,,non,444241
-romals,10,,non,444241
-romals des Indes,3,,non,444241
+romals,27,,non,444241
+romals des Indes,3,,oui,444241
 romals pour mouchoirs,2,,non,444241
 romals pour mouchoirs aune,1,,oui,444241
 romals rouges,1,,non,444241
@@ -19081,7 +19114,7 @@ Sèvres,1,,non,444241
 shetas des Indes,1,,non,444241
 siagne,2,,non,444241
 siague,1,,non,444241
-siamoise,541,,non,444241
+siamoise,851,,non,444241
 siamoise à bouquet de coton,1,,non,444241
 siamoise à bouquets de laine de coton et de fil,4,,non,444241
 siamoise à bouquets de laine de fil,1,,non,444241
@@ -19472,7 +19505,7 @@ souliers commun,0,,oui,444241
 souliers communs,23,,non,444241
 souliers couverts en callemande et pour femme,1,,non,444241
 souliers couverts en étoffe,3,,non,444241
-souliers couverts en étoffes et pour femme,5,,non,444241
+souliers couverts en étoffes et pour femme,5,,oui,444241
 souliers couverts en soie et pour femme,8,,non,444241
 souliers d'enfant,6,,non,444241
 souliers d'étoffe de soie,7,,non,444241
@@ -20498,7 +20531,7 @@ toile à bâts,13,,non,444241
 toile à bluteaux,2,,non,444241
 toile à bouquets de laine de coton,2,,non,444241
 toile à Bretagne,1,,oui,444241
-toile à canevas,4,,non,444241
+toile à canevas,4,,oui,444241
 toile à carreaux,260,,non,444241
 toile à carreaux de fil et de laine,1,,non,444241
 toile à carreaux de Rouen,2,,non,444241
@@ -20520,7 +20553,6 @@ toile à faire linge,0,,oui,444241
 toile à fleurs,4,,non,444241
 toile à halle,1,,non,444241
 toile à image,1,,non,444241
-toile ajamis,13,,non,444241
 toile à matelas,73,,non,444241
 toile à matelas et à carreaux,3,,non,444241
 toile à matelot,5,,non,444241
@@ -20543,6 +20575,7 @@ toile à voile,1,,non,444241
 toile à voile de 24 aunes,1,,non,444241
 toile abas,1,,non,444241
 toile abat,31,,non,444241
+toile ajamis,13,,non,444241
 toile alanea,1,,non,444241
 toile amant,3,,non,444241
 toile anascotes,1,,non,444241
@@ -20571,7 +20604,7 @@ toile bajouge,1,,non,444241
 toile bajutapaux,0,,oui,444241
 toile barrière,2,,non,444241
 toile Barrois,1,,non,444241
-toile bas brin,3,,non,444241
+toile bas brin,3,,oui,444241
 toile basin coutil croisée et autre de chanvre et de lin,2,,non,444241
 toile basin coutil croisée et autres,2,,non,444241
 toile basin coutil croisée et autres de chanvre et de lin,3,,non,444241
@@ -20660,19 +20693,20 @@ toile blanche large,1,,non,444241
 toile blanche mousseline,0,,oui,444241
 toile blanche ordinaire,18,,non,444241
 toile blanche ordre,1,,non,444241
-toile blanche peinte,18,,non,444241
+toile blanche peinte,18,,oui,444241
 toile blanche pour essuie-mains,1,,non,444241
 toile blanchie,2,,non,444241
 toile bleue,33,,non,444241
 toile bleue de coton,8,,non,444241
 toile bleue des Indes,1,,non,444241
 toile bleue et rouge,1,,non,444241
-toile bleue peinte,1,,non,444241
+toile bleue peinte,1,,oui,444241
 toile bocadillo,2,,non,444241
 toile boelans,1,,non,444241
 toile bonnets,1,,non,444241
 toile boucassine,21,,non,444241
-toile bougran,7,,non,444241
+toile bougran,105,,non,444241
+toile bougran gommée,3,,non,444241
 toile boulange,1,,non,444241
 toile bourlegambis,1,,non,444241
 toile brantes des Indes,1,,non,444241
@@ -20690,15 +20724,19 @@ toile brodée en soie et de coton,1,,non,444241
 toile brodée et de coton,5,,non,444241
 toile bueadille,1,,non,444241
 toile cacanava,1,,non,444241
-toile cachelas des Indes,3,,non,444241
+toile cachelas des Indes,3,,oui,444241
 toile cadéas,1,,non,444241
 toile caissie,72,,non,444241
 toile caissière,1,,non,444241
-toile caladaris,26,,non,444241
+toile caladaris,26,,oui,444241
 toile calanea,1,,non,444241
 toile calias,1,,non,444241
 toile Cambrai,0,,oui,444241
-toile canevas,35,,non,444241
+toile canevas,113,,non,444241
+toile canevas de chanvre,1,,non,444241
+toile canevas de fil,2,,non,444241
+toile canevas gommée,3,,non,444241
+toile canevas tracé,7,,non,444241
 toile carotte,1,,non,444241
 toile carotte double,1,,non,444241
 toile carotte simple,1,,non,444241
@@ -20711,14 +20749,14 @@ toile cerda,1,,non,444241
 toile céruse,2,,non,444241
 toile chapelur,1,,non,444241
 toile chapilas,3,,non,444241
-toile chasselas,28,,non,444241
+toile chasselas,213,,non,444241
 toile chebiny,5,,non,444241
 toile chille,1,,non,444241
 toile chitte,3,,non,444241
 toile choilette,1,,non,444241
-toile Cholet,132,,non,444241
-toile Cholet à carreaux,1,,non,444241
-toile cholette,11,,non,444241
+toile Cholet,132,,oui,444241
+toile Cholet à carreaux,1,,oui,444241
+toile cholette,11,,oui,444241
 toile circaca,0,,oui,444241
 toile cirée,524,,non,444241
 toile cirée commune,1,,non,444241
@@ -20752,7 +20790,7 @@ toile commune de lin,41,,non,444241
 toile commune écrue et grosse et de lin,6,,non,444241
 toile commune et fine,4,,non,444241
 toile cordat,38,,non,444241
-toile cordeillat,1,,non,444241
+toile cordeillat,1,,oui,444241
 toile coros,0,,oui,444241
 toile coros imitant celle des Indes,0,,oui,444241
 toile corot,165,,non,444241
@@ -20805,8 +20843,8 @@ toile d'Alençon,1,,non,444241
 toile d'Alep,11,,non,444241
 toile d'Allemagne,50,,non,444241
 toile d'Allemagne et toile de Silésie,1,,non,444241
-toile d'aman,153,,non,444241
-toile d'amat,1,,non,444241
+toile d'aman,154,,non,444241
+toile d'amat,1,,oui,444241
 toile d'Angers,1,,non,444241
 toile d'anne,1,,non,444241
 toile d'antal,0,,oui,444241
@@ -20882,14 +20920,15 @@ toile de Bernay,1,,non,444241
 toile de Bézier,1,,non,444241
 toile de bleue,1,,non,444241
 toile de Bonbourg,1,,non,444241
-toile de Bretagne,603,,non,444241
+toile de Bretagne,604,,non,444241
 toile de Bretagne ??? brin,1,,non,444241
 toile de Bretagne 3/4,1,,non,444241
 toile de Bretagne 7/8,1,,non,444241
 toile de Bretagne à 4 fils,1,,oui,444241
 toile de Bretagne à carreaux,69,,non,444241
 toile de Bretagne à nègre,1,,non,444241
-toile de Bretagne bas brin,2,,non,444241
+toile de Bretagne bas brin,2,,oui,444241
+toile de Bretagne bas brins,11,,non,444241
 toile de Bretagne beurrière,1,,non,444241
 toile de Bretagne blancard,1,,non,444241
 toile de Bretagne blanche,33,,non,444241
@@ -20914,7 +20953,7 @@ toile de Bretagne de 3 aunes,1,,non,444241
 toile de Bretagne de 4 fils,20,,non,444241
 toile de Bretagne de 6 fils,2,,non,444241
 toile de Bretagne de balles,5,,non,444241
-toile de Bretagne de bas brin,6,,non,444241
+toile de Bretagne de bas brin,6,,oui,444241
 toile de Bretagne de bazot,1,,non,444241
 toile de Bretagne de brin,28,,non,444241
 toile de Bretagne de challe,3,,non,444241
@@ -20923,8 +20962,8 @@ toile de Bretagne de coton,3,,non,444241
 toile de Bretagne de couleur,15,,non,444241
 toile de Bretagne de couture,1,,non,444241
 toile de Bretagne de fil,2,,non,444241
-toile de Bretagne de halle,164,,non,444241
-toile de Bretagne de haut brin,19,,non,444241
+toile de Bretagne de halle,9,,non,444241
+toile de Bretagne de haut brin,19,,oui,444241
 toile de Bretagne de Locronan,0,,oui,444241
 toile de Bretagne de ménage,46,,non,444241
 toile de Bretagne de ménages,0,,oui,444241
@@ -20932,11 +20971,11 @@ toile de Bretagne de quatre fils,1,,oui,444241
 toile de Bretagne de réforme,1,,non,444241
 toile de Bretagne de rondelette,1,,non,444241
 toile de Bretagne de rosconne,11,,non,444241
-toile de Bretagne de Saint-???,1,,non,444241
+toile de Bretagne de Saint-???,1,,oui,444241
 toile de Bretagne de Savigny,2,,non,444241
 toile de Bretagne de sept huit,1,,non,444241
 toile de Bretagne de serpillère,1,,non,444241
-toile de Bretagne de St. Georges,15,,non,444241
+toile de Bretagne de St. Georges,16,,non,444241
 toile de Bretagne diverse,40,,non,444241
 toile de Bretagne écrue,6,,non,444241
 toile de Bretagne écrue large,1,,non,444241
@@ -20951,9 +20990,12 @@ toile de Bretagne gratienne,104,,non,444241
 toile de Bretagne grenade,1,,non,444241
 toile de Bretagne grise,6,,non,444241
 toile de Bretagne gros brin,2,,non,444241
-toile de Bretagne guingan,2,,non,444241
-toile de Bretagne haut brin,1,,non,444241
+toile de Bretagne guingan,2,,oui,444241
+toile de Bretagne guingans,2,,non,444241
+toile de Bretagne haut brin,1,,oui,444241
 toile de Bretagne haute louise,1,,non,444241
+toile de Bretagne hauts brins,32,,non,444241
+toile de Bretagne hauts brins de Dinan,3,,non,444241
 toile de Bretagne jaune,2,,non,444241
 toile de Bretagne lacormen,1,,non,444241
 toile de Bretagne large,171,,non,444241
@@ -20961,7 +21003,7 @@ toile de Bretagne Locronan,0,,oui,444241
 toile de Bretagne ouvrée,3,,non,444241
 toile de Bretagne peinte,1,,non,444241
 toile de Bretagne platille,3,,non,444241
-toile de Bretagne pour voile,94,,non,444241
+toile de Bretagne pour voile,97,,non,444241
 toile de Bretagne quatre fils,3,,oui,444241
 toile de Bretagne rayée,13,,non,444241
 toile de Bretagne rayée à carreaux,1,,non,444241
@@ -20980,7 +21022,7 @@ toile de brin,20,,non,444241
 toile de brin fine,2,,non,444241
 toile de Bruges,2,,non,444241
 toile de caisse,1,,non,444241
-toile de caladaris,2,,non,444241
+toile de caladaris,1,,non,444241
 toile de Cambrai,74,,non,444241
 toile de Cambrai aune,1,,oui,444241
 toile de Cambrai et de lin,10,,non,444241
@@ -21007,7 +21049,7 @@ toile de chanvre de coutil,10,,non,444241
 toile de chanvre de Halle,2,,non,444241
 toile de chanvre dite coutil,3,,non,444241
 toile de chanvre écrue,21,,non,444241
-toile de chanvre en canevas,1,,non,444241
+toile de chanvre en canevas,1,,oui,444241
 toile de chanvre et de fil d'épreuve,1,,non,444241
 toile de chanvre et de lin,664,,non,444241
 toile de chanvre et de lin apprêtée écrue de 13 à 20 fils,1,,non,444241
@@ -21057,7 +21099,8 @@ toile de chanvre trillin,1,,non,444241
 toile de chasse,23,,non,444241
 toile de Château-Gontier,2,,non,444241
 toile de Chauvreau,1,,non,444241
-toile de Cholet,53,,non,444241
+toile de Cholet,196,,non,444241
+toile de Cholet à carreaux,1,,non,444241
 toile de Clisson,1,,non,444241
 toile de Combourg,42,,non,444241
 toile de Comté,6,,non,444241
@@ -21082,7 +21125,7 @@ toile de coton cotonnette,0,,oui,444241
 toile de coton d'Angleterre,2,,non,444241
 toile de coton d'Antioche,1,,non,444241
 toile de coton de ???,3,,non,444241
-toile de coton de coton français,4,,non,444241
+toile de coton de coton français,4,,oui,444241
 toile de coton de duvet,1,,non,444241
 toile de coton de France,2,,non,444241
 toile de coton de Guinée,0,,oui,444241
@@ -21116,6 +21159,7 @@ toile de coton étrangère,4,,non,444241
 toile de coton façon de Nankin,0,,oui,444241
 toile de coton fine,8,,non,444241
 toile de coton forte,1,,non,444241
+toile de coton français,4,,non,444241
 toile de coton haut prix et teinte,1,,non,444241
 toile de coton imprimée,21,,non,444241
 toile de coton imprimée aune,1,,oui,444241
@@ -21176,6 +21220,7 @@ toile de fil et de laine,3,,non,444241
 toile de fil et de laine de Lille,2,,non,444241
 toile de fil et de laine et de Lille,0,,oui,444241
 toile de fil et de soie,1,,non,444241
+toile de fil guingans,8,,non,444241
 toile de fil peinte,2,,non,444241
 toile de fil peinte et teinte,27,,non,444241
 toile de fil teinte,5,,non,444241
@@ -21184,8 +21229,8 @@ toile de Flandre,36,,non,444241
 toile de fleuret de Rouen,2,,non,444241
 toile de fleuret et blancard,2,,non,444241
 toile de Fougères,53,,non,444241
-toile de frame,1,,non,444241
-toile de France,3,,non,444241
+toile de frame,1,,oui,444241
+toile de France,4,,non,444241
 toile de Frise,12,,non,444241
 toile de Galle,1,,non,444241
 toile de Gand,1,,non,444241
@@ -21195,9 +21240,11 @@ toile de Grenade de lin,5,,non,444241
 toile de Grenoble,3,,non,444241
 toile de gris,1,,non,444241
 toile de Guinée,0,,oui,444241
-toile de halle,105,,non,444241
+toile de guingans,8,,non,444241
+toile de halle,105,,oui,444241
+toile de Halle,260,,non,444241
 toile de Hanovre,1,,non,444241
-toile de haut brin,8,,non,444241
+toile de haut brin,8,,oui,444241
 toile de Hollande,49,,non,444241
 toile de Hollande blanche,1,,non,444241
 toile de Hollande de 15 aunes,4,,oui,444241
@@ -21206,7 +21253,8 @@ toile de Hollande fine,1,,non,444241
 toile de Hollande fine de 36 aunes,1,,oui,444241
 toile de Hollande pièces de 15 aunes,1,,oui,444241
 toile de Hollande pièces de 30 aunes,1,,oui,444241
-toile de killis,4,,non,444241
+toile de killis,4,,oui,444241
+toile de Killis,45,,non,444241
 toile de laine,1,,non,444241
 toile de laine dite herbage,1,,non,444241
 toile de laine pour blutoir,2,,non,444241
@@ -21288,6 +21336,7 @@ toile de lin fine de Hollande,1,,non,444241
 toile de lin fine de Saint-Quentin,7,,non,444241
 toile de lin grosse,2,,non,444241
 toile de lin grosse pointe,1,,non,444241
+toile de lin guingans,13,,non,444241
 toile de lin haut prix et teinte,1,,non,444241
 toile de lin imprimée,3,,non,444241
 toile de lin indigo,1,,non,444241
@@ -21305,7 +21354,7 @@ toile de lin rayée,3,,non,444241
 toile de lin rayée en carreaux,1,,non,444241
 toile de lin rayée et teinte,1,,non,444241
 toile de lin rousse,4,,non,444241
-toile de lin royale,56,,non,444241
+toile de lin royale,38,,non,444241
 toile de lin teinte,15,,non,444241
 toile de lin toilette,3,,non,444241
 toile de linet,2,,non,444241
@@ -21330,10 +21379,10 @@ toile de ménage,158,,non,444241
 toile de ménages,0,,oui,444241
 toile de ménages blanche,0,,oui,444241
 toile de Moncontour,1,,non,444241
-toile de montagne,1,,oui,444241
-toile de Morlaix,138,,non,444241
-toile de Mortagne,137,,non,444241
-toile de Mortagne ???,1,,non,444241
+toile de montagne,15,,non,444241
+toile de Morlaix,143,,non,444241
+toile de Mortagne,142,,non,444241
+toile de Mortagne ???,1,,oui,444241
 toile de mousseline,0,,oui,444241
 toile de Moutier,1,,non,444241
 toile de Moutiers,1,,non,444241
@@ -21373,7 +21422,7 @@ toile de serviette,3,,non,444241
 toile de serviette vieille,1,,non,444241
 toile de serviettes,0,,oui,444241
 toile de Sevigneau,1,,non,444241
-toile de siamoise,313,,non,444241
+toile de siamoise,3,,non,444241
 toile de siamoise au sixième de soie,2,,non,444241
 toile de Silésie,6,,non,444241
 toile de soie,1,,non,444241
@@ -21387,7 +21436,7 @@ toile de valenciennes,0,,oui,444241
 toile de Valenciennes,43,,non,444241
 toile de Vigery,1,,non,444241
 toile de ville,1,,non,444241
-toile de Vimoutiers,29,,non,444241
+toile de Vimoutiers,30,,non,444241
 toile de Vitré,15,,non,444241
 toile de Vitrée,3,,non,444241
 toile de voile,15,,non,444241
@@ -21468,7 +21517,7 @@ toile futaine,3,,non,444241
 toile galcienne de lin,1,,non,444241
 toile glacée,2,,non,444241
 toile gommée,4,,non,444241
-toile gommée bougron,3,,non,444241
+toile gommée bougron,3,,oui,444241
 toile gommée et de lin,1,,non,444241
 toile gommée et treillis,3,,non,444241
 toile gracienne,0,,oui,444241
@@ -21507,8 +21556,25 @@ toile grosse et sommiers,6,,non,444241
 toile grosse garnie ??? pour prélat,1,,non,444241
 toile grossière,1,,oui,444241
 toile grossière en pièce de 50 aunes,1,,oui,444241
-toile haut brin,4,,non,444241
-toile haut brin de Dinant,3,,non,444241
+toile guingans,579,,non,444241
+toile guingans blanc,1,,non,444241
+toile guingans bleu,1,,non,444241
+toile guingans de Bengale,2,,non,444241
+toile guingans de fil,17,,non,444241
+toile guingans de fil de coton,1,,non,444241
+toile guingans de Grenade,2,,non,444241
+toile guingans de lin,6,,non,444241
+toile guingans de Madras,24,,non,444241
+toile guingans de Masulipatan,1,,non,444241
+toile guingans de Pondichéry,26,,non,444241
+toile guingans de Pondichéry et de Madras,1,,non,444241
+toile guingans de Rouen,3,,non,444241
+toile guingans des indes,2,,non,444241
+toile guingans des Indes,1,,non,444241
+toile guingans des prises,1,,non,444241
+toile guingans du Bengale,8,,non,444241
+toile haut brin,4,,oui,444241
+toile haut brin de Dinant,3,,oui,444241
 toile hivre,1,,non,444241
 toile hollande,1,,non,444241
 toile Hollande de Paris,1,,non,444241
@@ -21549,15 +21615,15 @@ toile indienne fine,2,,non,444241
 toile indienne française,6,,non,444241
 toile indienne grosse,1,,non,444241
 toile indienne nationale,5,,non,444241
-toile judieau,3,,non,444241
+toile judieau,3,,oui,444241
 toile kettroy,1,,non,444241
-toile killis,40,,non,444241
+toile killis,40,,oui,444241
 toile kircochaye,2,,non,444241
 toile lagias,1,,non,444241
 toile laistoufaire,1,,non,444241
 toile Languenan,11,,non,444241
-toile large,35,,non,444241
-toile large de lin,2,,non,444241
+toile large,37,,non,444241
+toile large de lin,2,,oui,444241
 toile lavée,3,,non,444241
 toile lesat,1,,non,444241
 toile linon,41,,non,444241
@@ -21572,9 +21638,9 @@ toile merdin,0,,oui,444241
 toile mesdin,8,,non,444241
 toile mi-blanche de moins de 8 fils,1,,non,444241
 toile miennel,1,,non,444241
-toile montagne,15,,non,444241
-toile Morlaix,5,,non,444241
-toile Mortagne,4,,non,444241
+toile montagne,15,,oui,444241
+toile Morlaix,5,,oui,444241
+toile Mortagne,4,,oui,444241
 toile mouchoirs,4,,non,444241
 toile nationale,5,,non,444241
 toile navale,8,,non,444241
@@ -21593,7 +21659,7 @@ toile ouvrée serviettes,1,,non,444241
 toile palmite,1,,non,444241
 toile pécate,1,,non,444241
 toile peignée,1,,non,444241
-toile peinte,982,,non,444241
+toile peinte,1001,,non,444241
 toile peinte de Hollande,1,,non,444241
 toile peinte en camaïeu,1,,non,444241
 toile peinte et siamoise,1,,non,444241
@@ -21603,6 +21669,7 @@ toile peinte imprimée,1,,non,444241
 toile peinte indienne,6,,non,444241
 toile peinte pour paravent,1,,non,444241
 toile peinte sur enduit pour tapisserie,2,,non,444241
+toile peintes guingans,2,,non,444241
 toile petite,5,,non,444241
 toile photas,9,,non,444241
 toile photas imitant celle des Indes,1,,non,444241
@@ -21665,14 +21732,14 @@ toile rayée coton et soie,1,,non,444241
 toile rayée de couleur,1,,non,444241
 toile réforme,1,,non,444241
 toile reploc,1,,non,444241
-toile romals,14,,non,444241
+toile romals,14,,oui,444241
 toile rondelette,4,,non,444241
 toile rondelle,1,,non,444241
 toile rosconne,38,,non,444241
 toile rouge,3,,non,444241
 toile rousse,52,,non,444241
-toile royale,118,,non,444241
-toile royalle,1,,non,444241
+toile royale,137,,non,444241
+toile royalle,1,,oui,444241
 toile sacs à boîtes,1,,non,444241
 toile Saint-Gal ???,1,,oui,444241
 toile Saintonge,0,,oui,444241
@@ -21717,7 +21784,13 @@ toile teinte de 8 à 13 fils,2,,non,444241
 toile teinte de moins de 8 fils,2,,non,444241
 toile tissée,1,,non,444241
 toile tissée très fin,1,,non,444241
-toile treillis,25,,non,444241
+toile treillis,120,,non,444241
+toile treillis bougrans et canevas,4,,non,444241
+toile treillis d'Allemagne,1,,non,444241
+toile treillis gommé,4,,non,444241
+toile treillis gommée,1,,non,444241
+toile treillis non lustré,1,,non,444241
+toile treillis peint,1,,non,444241
 toile Valenciennes,0,,oui,444241
 toile vernante,13,,non,444241
 toile vernie,1,,non,444241
@@ -21824,12 +21897,12 @@ travons de sapin,6,,non,444241
 travout,1,,non,444241
 tréfilerie de fer même étamé,0,,oui,444241
 trèfle,1,,non,444241
-treillis,95,,non,444241
-treillis bougrand et canevas,4,,non,444241
-treillis d'Allemagne,1,,non,444241
-treillis gommé,5,,non,444241
-treillis non lustré,1,,non,444241
-treillis peint,1,,non,444241
+treillis,95,,oui,444241
+treillis bougrand et canevas,4,,oui,444241
+treillis d'Allemagne,1,,oui,444241
+treillis gommé,5,,oui,444241
+treillis non lustré,1,,oui,444241
+treillis peint,1,,oui,444241
 tremille,1,,non,444241
 trenelle,1,,non,444241
 trenelle d'Espagne,2,,non,444241
@@ -22272,6 +22345,7 @@ vestes de toile,7,,non,444241
 vestes de toile brodées,3,,non,444241
 vestes de toile grise,1,,non,444241
 vestes de toile guingan,1,,oui,444241
+vestes de toile guinguans,1,,non,444241
 vestes de velours,3,,non,444241
 vestes en dorure de soie,1,,non,444241
 vestes en droguet de soie,1,,non,444241

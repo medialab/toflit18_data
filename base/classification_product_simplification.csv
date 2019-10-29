@@ -25,7 +25,6 @@ orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
 ?ufs,1,?ufs,1
 ... d'argent,1,??? d'argent,1
 [vide],6072,[vide],6072
-ajamis,276,ajamis,276
 à l'aventure,1,à l'aventure,1
 à son lest,1,à son lest,1
 à vide,2,à vide,2
@@ -172,6 +171,7 @@ airain,6,airain,6
 airain en batterie,4,batterie d'airain,5
 airain non ouvré,1,airain non ouvré,1
 airain ouvré,4,ouvrages d'airain,5
+ajamis,276,ajamis,276
 ajustements,37,ajustements,37
 ajustements de femme,4,ajustements de femme,5
 ajustements de soie,2,ajustements de soie,2
@@ -773,7 +773,7 @@ baillarge,5,baillarge,5
 bailles,1,bailles,1
 baïonnettes,10,baïonnettes,13
 bais de bois de chêne,1,bais de bois de chêne,1
-bajutapau,200,bajutapau,231
+bajutapau,200,bajutapau,237
 "bajutapau, canelis, etc.",3,"bajutapau, canelis, etc.",3
 balais,101,balais,123
 balais communs,5,balais communs,5
@@ -840,7 +840,7 @@ balles vides,1,balles vides,1
 ballons de sapin,1,ballons en sapin,1
 balloterie,2,ballots,3
 ballots,1,ballots,3
-ballots d'étoffes,1,ballots d'étoffes,1
+ballots d'étoffe,1,,54
 balustres,12,balustres,12
 bamboches,1,bamboches,1
 bambous,8,bambous,8
@@ -2828,10 +2828,10 @@ bottines,63,bottines,63
 bottines de cuir,4,bottines de cuir,4
 bottines de peau,1,bottines de peau,1
 boucaniers,5,boucaniers,11
-boucans en bottes,1,boucaud en bottes,1
+boucans en bottes,1,boucaud en bottes,2
 boucassin,61,boucassin,61
 boucassin rouge,2,boucassin rouge,2
-boucaud en bottes,1,boucaud en bottes,1
+boucaud en bottes,1,boucaud en bottes,2
 boucaud vide,3,boucaud vide,3
 bouchie,1,bouchie,1
 bouchons,12,bouchons,12
@@ -2875,7 +2875,7 @@ bougie et cierges,8,bougie et cierges,22
 bougie et cierges de cire blanche,4,bougie de cire blanche et cierges de cire blanche,4
 bougie jaune,9,bougie jaune,9
 bougie verte,1,bougie verte,1
-bougran,98,toile bougran,98
+bougran,98,toile bougran,105
 bouilloires de cuivre,1,bouilloires de cuivre,2
 boulande,1,boulange,57
 boulanes,1,boulange,57
@@ -3275,7 +3275,7 @@ briquettes,3,briquettes,3
 bris d'espars,4,bris d'espars,4
 brises,1,brises,1
 brocante,1,brocante,1
-brocard de soie,1,brocard de soie,1
+brocart de soie,1,,54
 brocatelle,1,brocatelle,1
 brocatelle de Venise,1,brocatelle de Venise,1
 brochets,17,brochets,20
@@ -3449,7 +3449,7 @@ cacao fèves,1,fèves de cacao,1
 cacao pâte,1,pâte de cacao,6
 cache,1,cache,1
 cachemire de poil châles (autorisations spéciales),1,châles de cachemire de poil,1
-cachemires de poil étoffes,1,étoffes de cachemire de poil,1
+cachemires de poil étoffe,1,,54
 cachets d'argent,1,cachets d'argent,1
 cachets dorés,2,cachets dorés,2
 cachou,39,cachou,42
@@ -3539,7 +3539,7 @@ caisse et têtes de carton,1,caisse et têtes de carton,1
 caisse vide,2,caisse vide,2
 caissettes pour balz,1,caissettes pour balz,1
 cal d'artichaut,1,cal d'artichaut,1
-caladaris,67,caladaris,67
+caladaris,67,caladaris,97
 calames,1,calames,1
 calamine,23,calamine,23
 calamine grillée,1,calamine grillée,1
@@ -3582,6 +3582,7 @@ camelot au quart,1,camelot au quart,3
 camelot au quart de soie,2,camelot au quart,3
 camelot au six de soie,1,camelot au sixième de soie,3
 camelot au sixième de soie,2,camelot au sixième de soie,3
+camelot au-dessous du sixième de soie,1,,54
 camelot aune,1,camelot,231
 camelot avec soie,4,camelot avec soie,4
 camelot burail,6,camelot burail,6
@@ -3665,8 +3666,8 @@ canena,1,canena,1
 canepre,1,canepre,1
 canerelles,1,canerelles,1
 canettes des Indes,1,canettes des Indes,1
-canevas,73,toile canevas,74
-canevas à 15 sols l'aune,1,toile canevas,74
+canevas,73,toile canevas,113
+canevas à 15 sols l'aune,1,toile canevas,113
 canevas de fil,2,toile canevas de fil,2
 canevas tracé,7,toile canevas tracé,7
 canevettes,41,canevettes,43
@@ -4790,7 +4791,7 @@ charrettes neuvres,1,charrettes neuves,1
 charrettes vieilles,1,charrettes vieilles,1
 charrues,16,charrues,16
 chasse-mouches,1,chasse-mouches,1
-chasselas,179,toile chasselas,179
+chasselas,179,toile chasselas,213
 châssis de bois,1,châssis de bois,1
 chasuble,8,chasuble,8
 châtaigners,1,châtaigniers,1
@@ -4890,7 +4891,7 @@ chemises communes non garnies,1,chemises communes non garnies,1
 chemises d'homme,2,chemises d'homme,2
 chemises de Bretagne,5,chemises de Bretagne,5
 chemises de coton,1,chemises de coton,1
-chemises de guingans,13,chemises de toile guingans,420
+chemises de guingans,13,chemises de toile guingans,20
 chemises de Laval,3,chemises de Laval,3
 chemises de lin,15,chemises de lin,18
 chemises de lin garnies,2,chemises de lin garnies,4
@@ -4900,7 +4901,7 @@ chemises de nègre,1,chemises de nègre,1
 chemises de Riello de chanvre,1,chemises de chanvre de Riello,1
 chemises de siamoise,1,chemises de siamoise,1
 chemises de soldat,1,chemises de soldat,1
-chemises de toile,5,chemises de toile,7
+chemises de toile,5,chemises de toile,5
 chemises de toile batiste,1,chemises de batiste,1
 chemises de toile bleue,1,chemises de toile bleue,1
 chemises de toile bretonne,4,chemises de toile bretonne,4
@@ -4917,7 +4918,7 @@ chemises de toile de lin garnies,6,chemises de toile de lin garnies,6
 chemises de toile de Morlaix,1,chemises de toile de Morlaix,1
 chemises de toile de Saint-Jean,1,chemises de toile de Saint-Jean,1
 chemises de toile garnies,1,chemises de toile garnies,1
-chemises de toile guingans,4,chemises de toile guingans,420
+chemises de toile guingans,4,chemises de toile guingans,20
 chemises de toile rayée,2,chemises de toile rayée,2
 chemises diverses,4,chemises,212
 chemises diverses garnies,1,chemises garnies,239
@@ -4932,7 +4933,7 @@ chemises garnies en mousseline,4,chemises garnies de mousseline,4
 chemises garnies pour femme,1,chemises garnies pour femme,1
 chemises garnies pour homme,1,chemises garnies pour homme,1
 chemises grosses,1,chemises grosses,1
-chemises guingans,2,chemises de toile guingans,420
+chemises guingans,2,chemises de toile guingans,20
 chemises moins communes,2,chemises moins communes,2
 chemises neutres,1,chemises neutres,1
 chemises neuves,1,chemises neuves,1
@@ -4943,7 +4944,7 @@ chemises pour homme communes,1,chemises pour homme communes,1
 chemises pour soldat,1,chemises pour soldat,1
 chemises royales,1,chemises royales,1
 chemises toile de lin,4,chemises de toile de lin,17
-chemises toile guingans,1,chemises de toile guingans,420
+chemises toile guingans,1,chemises de toile guingans,20
 chemises unies,86,chemises unies,90
 chemises unies communes,1,chemises communes unies,1
 chemises vieilles,8,chemises vieilles,8
@@ -5278,7 +5279,6 @@ clous petits à têtes de cuivre doré,1,clous à têtes de cuivre doré petits,
 clous vieux,2,clous vieux,2
 cloutaille,1,cloutaille,1
 cloutiers,1,cloutiers,1
-cmelot au-dessous du sixième de soie,1,camelot au-dessous du sixième de soie,1
 coak (houille carbonisée),1,coak,1
 coas de soie,1,coas de soie,1
 coati,1,coati,1
@@ -5594,14 +5594,14 @@ cordage vieux,41,cordage vieux,41
 cordagnes,1,cordage,749
 corde d'emballage,2,cordage d'emballage,8
 corde Levant,1,corde du Levant,1
-cordeillat,107,cordeillat,109
+cordeillat,107,cordeillat,229
 cordeillat d'Oléron,2,cordeillat d'Oléron,2
-cordeillat de Colmar,13,cordeillat de Colmar,13
-cordeillat de laine,1,cordeillat,5
+cordeillat de Colmar,13,cordeillat de Colmar,15
+cordeillat de laine,1,cordeillat,229
 cordeillat de Piemont,1,cordeillat de Piémont,1
 cordeillat de Provence,2,cordeillat de Provence,2
-cordeillaterie,43,cordeillat,43
-cordelats,1,cordeillat,1
+cordeillaterie,43,cordeillat,229
+cordelats,1,cordeillat,229
 cordellerie,3,cordellerie,3
 cordes,2,cordes,3
 cordes à arçons,3,cordes à arçons,9
@@ -5870,10 +5870,10 @@ cotonnades dentelle et blonde,18,dentelle de coton et blonde de coton,18
 cotonnades drap étoffe de toute sorte,25,drap de coton et étoffe de coton,25
 cotonnades en Nankin,11,Nankin,12
 cotonnades en toile et Nankin,8,toile de coton,1243
-cotonnades étoffe,57,étoffe de coton,388
+cotonnades étoffe,57,étoffe de coton,386
 cotonnades étoffe drap et velours,15,étoffe de coton et drap de coton et velours de coton,15
 cotonnades étoffe drap velours couvertures,13,étoffe de coton et drap de coton et velours de coton et couvertures de coton,13
-cotonnades étoffe idem,14,étoffe de coton,388
+cotonnades étoffe idem,14,étoffe de coton,386
 cotonnades gaze,6,gaze de coton,10
 cotonnades gaze crêpe et tulle,16,gaze de coton et crêpe de coton et tulle de coton,16
 cotonnades gaze et tulle,3,gaze de coton et tulle de coton,3
@@ -7186,8 +7186,8 @@ drap carisé des prises,1,carisé des prises,1
 drap casimir,6,casimir de laine,9
 drap commun,19,drap commun,309
 drap commun d'Angleterre,1,drap commun d'Angleterre,1
-drap cordeillat,40,cordeillat,41
-drap cordeillat de Colmar,2,cordeillat de Colmar,2
+drap cordeillat,40,cordeillat,229
+drap cordeillat de Colmar,2,cordeillat de Colmar,15
 drap cosinis,1,drap cosinis,1
 drap crêpe,2,drap crêpe,2
 drap crêpe de Reims,4,drap crêpe de Reims,4
@@ -7228,7 +7228,7 @@ drap de castor,10,drap de castor,14
 drap de castor aune,1,drap de castor,14
 drap de castor par aune,1,drap de castor,14
 drap de Colmar,6,drap de Colmar,6
-drap de cordeillat,3,cordeillat,3
+drap de cordeillat,3,cordeillat,229
 drap de coton,2,drap de coton,19
 drap de coton de Rouen,1,drap de coton de Rouen,1
 drap de Darnétal,15,drap de Darnétal,26
@@ -7259,7 +7259,7 @@ drap de laine blanc,1,drap blanc de laine,1
 drap de laine bleu,1,drap bleu,2
 drap de laine brodé en soie,1,drap de laine brodé de soie,1
 drap de laine commun,10,drap de laine commun,10
-drap de laine cordeillat,25,cordeillat,25
+drap de laine cordeillat,25,cordeillat,229
 drap de laine d'Abbeville,7,drap d'Abbeville,116
 drap de laine d'Amiens,2,drap de laine d'Amiens,2
 drap de laine d'Andelys,9,drap de laine d'Andelys,9
@@ -7272,7 +7272,7 @@ drap de laine de Carcassonne,28,drap de Carcassonne,211
 drap de laine de castor,1,drap de castor,14
 drap de laine de cérémonie,2,drap de cérémonie,2
 drap de laine de Cherbourg,1,drap de Cherbourg,1
-drap de laine de cordeillat,5,cordeillat,5
+drap de laine de cordeillat,5,cordeillat,229
 drap de laine de Cours,1,drap de laine de Cours,1
 drap de laine de France,13,drap de France,90
 drap de laine de Hollande,8,drap de Hollande,12
@@ -7328,7 +7328,7 @@ drap de Londrin,3,drap de Londrin,3
 drap de Louviers,239,drap de Louviers,271
 drap de Louviers au sixième de soie,1,drap de Louviers au sixième de soie,1
 drap de Lyon,1,drap de Lyon,3
-drap de Maroc,1,drap de Maroc,54
+drap de Maroc,1,drap de Maroc,1
 drap de montagne,6,drap de montagne,6
 drap de Montauban,12,drap de Montauban,36
 drap de Moucu,3,drap de Moucu,3
@@ -7424,11 +7424,11 @@ drap draperie petite de Silésie,21,drap petit de Silésie,33
 drap draperie petite divers,3,drap petit,712
 drap draperie petite diverse,7,drap petit,712
 drap draperie petite du Languedoc,1,drap petit de Languedoc,1
-drap draperie petite du Maroc,12,drap petit raze de Maroc,54
+drap draperie petite du Maroc,12,drap petit raze de Maroc,12
 drap draperie pinchina,13,pinchinat de laine,16
 drap draperie ratine,58,ratine,176
 drap draperie raz de castor,2,raze de castor,45
-drap draperie raz du Maroc,128,raze de Maroc,288
+drap draperie raz du Maroc,128,raze de Maroc,332
 drap draperie serge,45,serge de laine,775
 drap draperie serge de laine,68,serge de laine,775
 drap draperie serge de Rome,1,serge de Rome,4
@@ -7448,8 +7448,8 @@ drap du Château du Parc,1,drap écarlate,177
 drap du Dauphiné,1,drap du Dauphiné,1
 drap du Languedoc,92,drap de Languedoc,150
 drap du Languedoc écarlate,1,drap écarlate et du Languedoc,1
-drap du Maroc,3,raze de Maroc,54
-drap du Maroc aune,1,raze de Maroc,54
+drap du Maroc,3,raze de Maroc,332
+drap du Maroc aune,1,raze de Maroc,332
 drap du Maroc teint de douzaine,2,raze de Maroc teint,2
 drap du Nord,1,drap du Nord,4
 drap du Nord blanc,1,drap blanc du Nord,1
@@ -7501,7 +7501,7 @@ drap non indiqué,5,drap,857
 drap ordinaire,7,drap ordinaire,324
 drap palencourt,1,drap palencourt,1
 drap petit,6,drap petit,712
-drap petit dit raz Maroc,1,raze de Maroc,288
+drap petit dit raz Maroc,1,raze de Maroc,332
 drap petit divers,1,drap petit,712
 drap petit raz de castor,2,petit raze de castor,2
 drap petit raz refoulé,1,petit raze refoulé,1
@@ -7512,7 +7512,7 @@ drap ratine diverse,7,ratine,176
 drap raz d'Angleterre,1,raze d'Angleterre,1
 drap raz de castor,13,raze de castor,45
 drap raz de Saint-Lô,1,raze de Saint-Lô,2
-drap raz du Maroc,69,raze de Maroc,288
+drap raz du Maroc,69,raze de Maroc,332
 drap raze blanche,1,raze blanche,1
 drap Reims,1,drap de Reims,1
 drap rouge,1,drap rouge,1
@@ -7559,13 +7559,13 @@ draperie ??? du Languedoc,1,drap de Languedoc,150
 draperie 20 lignes,1,drap 20 lignes,1
 draperie à la valeur,1,drap à la valeur,1
 draperie assortie,1,drap,857
-draperie au 6ème de soie,3,drap au 6ème de soie,4
+draperie au sixième de soie,3,,54
 draperie callemande,2,callemande,385
 draperie calmande,7,callemande,385
 draperie cammise,2,drap cammise,2
 draperie casimir,2,casimir,6
 draperie commune,20,drap commun,309
-draperie cordeillat,1,cordeillat,41
+draperie cordeillat,1,cordeillat,229
 draperie d'Amiens,8,drap d'Amiens,36
 draperie d'Angleterre,2,drap d'Angleterre,25
 draperie d'Auvergne,1,drap d'Auvergne,1
@@ -7588,7 +7588,7 @@ draperie des prises,1,drap des prises,1
 draperie diverse,23,drap,857
 draperie diverse de laine,1,drap de laine,440
 draperie drap,56,drap,857
-draperie drap au 6ème de soie,1,drap au 6ème de soie,4
+draperie drap au sixième de soie,1,,54
 draperie drap brodé de soie,16,drap brodé de soie,16
 draperie drap de vigogne,1,drap de vigogne,1
 draperie drap divers,1,drap,857
@@ -7623,7 +7623,7 @@ draperie petite de Montauban,1,drap petit de Montauban,1
 draperie petite de Silésie,1,drap petit de Silésie,33
 draperie petite diverse,1,drap petit,712
 draperie petite londrin,1,drap petit londrin,1
-draperie petite Maroc,4,raze de Maroc,54
+draperie petite Maroc,4,raze de Maroc,332
 draperie petite matine,1,ratine petite,3
 draperie petite ratine,1,ratine petite,3
 draperie petite Silésie,11,drap petit de Silésie,33
@@ -9510,7 +9510,6 @@ etocs de fer,4,etocs de fer,13
 étoffe argent de soie,1,étoffe d'argent et de soie,9
 étoffe argent et soie,5,étoffe d'argent et de soie,9
 étoffe au ??? de soie,4,étoffe au ??? de soie,4
-étoffe au dessus du sixième de soie,1,étoffe au dessus du sixième de soie,1
 étoffe au fil et laine,1,étoffe de fil et de laine,46
 étoffe au filoselle,2,étoffe au filoselle,2
 étoffe au poil ???,6,étoffe de poil,36
@@ -9525,7 +9524,7 @@ etocs de fer,4,etocs de fer,13
 étoffe au sixième,1,étoffe au sixième,1
 étoffe au sixième de soie,21,étoffe au sixième de soie,22
 étoffe au sixième de soie siamoise,1,étoffe au sixième de soie siamoise,1
-étoffe au-dessus du sixième de soie,1,étoffe au-dessus du sixième de soie,1
+étoffe au-dessus du sixième de soie,2,étoffe au-dessus du sixième de soie,2
 étoffe aux quatre cinquièmes de soie,4,étoffe mêlée de soie au 4/5e,4
 étoffe avec or et argent,2,étoffe avec argent et or,2
 étoffe avec un brin de soie,2,étoffe avec un brin de soie,2
@@ -9552,8 +9551,8 @@ etocs de fer,4,etocs de fer,13
 étoffe cartignette,1,cartignette,1
 étoffe cirsaka,2,cirsaka,2
 étoffe cirsaka soie en coton,2,cirsaka de coton et de soie,2
-étoffe cordeillat,2,cordeillat,109
-étoffe coton,2,étoffe de coton,388
+étoffe cordeillat,2,cordeillat,229
+étoffe coton,2,étoffe de coton,386
 étoffe coton drap,1,drap de coton,19
 étoffe coton et fil,1,étoffe de coton et de fil,42
 étoffe coton et fleuret,2,étoffe de coton et de fleuret,3
@@ -9582,7 +9581,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de camelot dite bayette,1,bayette,128
 étoffe de capiton,4,étoffe de capiton,4
 étoffe de chanvre,4,étoffe de chanvre,4
-étoffe de coton,247,étoffe de coton,388
+étoffe de coton,247,étoffe de coton,386
 étoffe de coton ???,2,étoffe de coton ???,2
 étoffe de coton au quart de soie,3,étoffe de coton au quart de soie,3
 étoffe de coton brillant blanc,1,étoffe de coton brillant blanc,1
@@ -9595,8 +9594,8 @@ etocs de fer,4,etocs de fer,13
 étoffe de coton de laine,3,étoffe de coton de laine,3
 étoffe de coton de quart de soie,1,étoffe de coton de quart de soie,1
 étoffe de coton de velours,7,étoffe de coton de velours,7
-étoffe de coton dite printanière nankinet etc,1,étoffe de coton,388
-étoffe de coton diverse,26,étoffe de coton,388
+étoffe de coton dite printanière nankinet etc,1,étoffe de coton,386
+étoffe de coton diverse,26,étoffe de coton,386
 étoffe de coton drap,11,drap de coton,19
 étoffe de coton drap de bourbon peint,1,drap de bourbon peint,1
 étoffe de coton drap de coton,1,drap de coton,19
@@ -9664,22 +9663,22 @@ etocs de fer,4,etocs de fer,13
 étoffe de filoselle et soie,1,étoffe de filoselle et de soie,6
 étoffe de filoselle popeline,1,popeline de filoselle,1
 étoffe de flanelle,2,flanelle,294
-étoffe de fleuret,46,étoffe de fleuret,73
+étoffe de fleuret,46,étoffe de fleuret,69
 étoffe de fleuret au brin de soie,1,étoffe de fleuret au brin de soie,1
 étoffe de fleuret et de coton,1,étoffe de coton et de fleuret,3
 étoffe de fleuret et de laine,3,étoffe de fleuret et de laine,5
 étoffe de fleuret et laine,2,étoffe de fleuret et laine,2
 étoffe de fleuret et soie,5,étoffe de fleuret et de soie,7
 étoffe de fleuret pure,2,étoffe de fleuret pure,2
-étoffe de fleurs,4,étoffe de fleuret,73
-étoffe de laine,392,étoffe de laine,545
+étoffe de fleurs,4,étoffe de fleuret,69
+étoffe de laine,392,étoffe de laine,542
 étoffe de laine ???,5,étoffe de laine ???,5
 étoffe de laine à faire moufles,1,étoffe de laine à faire moufles,1
 étoffe de laine à fil,1,étoffe de laine à fil,1
 étoffe de laine à la valeur,1,étoffe de laine à la valeur,1
 étoffe de laine amer,1,amer de laine,1
 étoffe de laine au quart de soie,1,étoffe de laine au quart de soie,1
-étoffe de laine aune,1,étoffe de laine,545
+étoffe de laine aune,1,étoffe de laine,542
 étoffe de laine avec dorure,1,étoffe de laine avec dorure,1
 étoffe de laine avec soie,1,étoffe de laine avec soie,1
 étoffe de laine baracan,11,baracan de laine,14
@@ -9715,7 +9714,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine Catalogne,1,Catalogne de laine,1
 étoffe de laine châleur,1,étoffe de laine chaleur,1
 étoffe de laine chaussetterie,1,chaussetterie de laine,1
-étoffe de laine cordeillat,4,cordeillat de laine,5
+étoffe de laine cordeillat,4,cordeillat de laine,4
 étoffe de laine coton et fil,2,étoffe de coton de fil et de laine,3
 étoffe de laine coton et fil aune,1,étoffe de coton de fil et de laine,3
 étoffe de laine coton et soie,2,étoffe de coton de laine et de soie,3
@@ -9733,7 +9732,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine de soie drap,1,drap de laine et de soie,1
 étoffe de laine dite bayette,1,bayette,128
 étoffe de laine dite burat,1,burat de laine,1
-étoffe de laine diverse,79,étoffe de laine,545
+étoffe de laine diverse,79,étoffe de laine,542
 étoffe de laine diverse de soie,1,étoffe de laine et de soie,58
 étoffe de laine diverse retour,1,étoffe de laine retour,1
 étoffe de laine diverse riche,1,étoffe de laine riche,1
@@ -9748,7 +9747,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine en espagnolette simple,1,espagnolette de laine simple,1
 étoffe de laine en étamine,4,étamine,218
 étoffe de laine en étamine burette,1,étamine burette,2
-étoffe de laine en Maroc,1,raze de Maroc,54
+étoffe de laine en Maroc,1,raze de Maroc,332
 étoffe de laine en molleton,1,molleton de laine,28
 étoffe de laine en molleton imprimé,1,molleton de laine imprimé,2
 étoffe de laine en panne,2,panne de laine,31
@@ -9797,7 +9796,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine lampareille,3,lampareille de laine,3
 étoffe de laine lanillas,1,lanillas de laine,1
 étoffe de laine lerfage,1,lerfage de laine,1
-étoffe de laine Maroc,21,raze de Maroc,54
+étoffe de laine Maroc,21,raze de Maroc,332
 étoffe de laine mélangée de soie,1,étoffe de laine mêlée de soie,3
 étoffe de laine mêlée de soie,1,étoffe de laine mêlée de soie,3
 étoffe de laine mi-soie,1,étoffe de laine mêlée de soie,3
@@ -9876,7 +9875,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine velours d'Utrecht,1,étoffe de laine et de velours d'Utrecht,1
 étoffe de laine velverde,1,étoffe de laine velverde,1
 étoffe de laine verlastine,1,étoffe de laine verlastine,1
-étoffe de Maroc,1,raze de Maroc,54
+étoffe de Maroc,1,raze de Maroc,332
 étoffe de molleton de laine,1,molleton de laine,28
 étoffe de panne,1,panne,116
 étoffe de poi et laine,12,étoffe de laine et de poil,33
@@ -9996,7 +9995,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de soie mêlée d'or et d'argent faux,1,étoffe de soie mêlée d'argent et d'or faux,1
 étoffe de soie mêlée d'or et d'argent fin,1,étoffe de soie mêlée d'argent et d'or fin,1
 étoffe de soie mêlée de coton ou de laine,1,étoffe de soie mêlée de laine ou de coton,1
-étoffe de soie mêlée de fil,1,étoffe de soie mêlée de fil,3
+étoffe de soie mêlée de fil,1,étoffe de soie mêlée de fil,1
 étoffe de soie morenine,1,morenine de soie,1
 étoffe de soie mouchoirs de soie,2,mouchoirs de soie,627
 étoffe de soie or et argent,23,étoffe de d'argent et d'or et de soie,23
@@ -10027,7 +10026,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de voile,2,étoffe de voile,2
 étoffe demi soie,5,étoffe demi soie,5
 étoffe des Iles,4,étoffe des Iles,4
-étoffe des Indes,7,étoffe des Indes,19
+étoffe des Indes,7,étoffe des Indes,18
 étoffe des Indes vestes brodées,1,étoffe des Indes vestes brodées,1
 étoffe des prises,2,étoffe des prises,2
 étoffe dite belinge,1,belinge,1
@@ -10036,12 +10035,12 @@ etocs de fer,4,etocs de fer,13
 étoffe diverse,223,étoffe,386
 étoffe diverse à la valeur,2,étoffe à la valeur,2
 étoffe diverse couverture et draperie pour le gouvernement,5,étoffe diverse couvertures et draperie pour le gouvernement,5
-étoffe diverse de coton,12,étoffe de coton,388
-étoffe diverse de laine,10,étoffe de laine,545
-étoffe diverse de laine serge escot panne etc,1,étoffe de laine,545
+étoffe diverse de coton,12,étoffe de coton,386
+étoffe diverse de laine,10,étoffe de laine,542
+étoffe diverse de laine serge escot panne etc,1,étoffe de laine,542
 étoffe diverse de soie,6,étoffe de soie,2631
-étoffe diverse des Indes,7,étoffe des Indes,19
-étoffe diverse en laine,1,étoffe de laine,545
+étoffe diverse des Indes,7,étoffe des Indes,18
+étoffe diverse en laine,1,étoffe de laine,542
 étoffe diverse mêlée de soie,5,étoffe de soie,2631
 étoffe diverse peinte,1,étoffe peinte,1
 étoffe diverses des Indes,6,étoffes des Indes,6
@@ -10066,7 +10065,7 @@ etocs de fer,4,etocs de fer,13
 étoffe en étamine,1,étamine,218
 étoffe en flanelle,1,flanelle,294
 étoffe en flanelle fil et laine,1,flanelle fil et laine,1
-étoffe en laine,2,étoffe de laine,545
+étoffe en laine,2,étoffe de laine,542
 étoffe en laine mélangée,1,étoffe de laine mélangée,1
 étoffe en or,2,étoffe d'or,28
 étoffe en peluches pour nègre,1,étoffe de peluches pour nègre,1
@@ -10126,7 +10125,7 @@ etocs de fer,4,etocs de fer,13
 étoffe herbes,1,étoffe herbes,1
 étoffe impériale,2,étoffe impériale,2
 étoffe kalmouk,1,kalmouk,1
-étoffe laine,5,étoffe de laine,545
+étoffe laine,5,étoffe de laine,542
 étoffe laine calmande,2,callemande de laine,45
 étoffe laine casimir,1,casimir de laine,9
 étoffe laine de soie,1,étoffe laine de soie,1
@@ -10138,8 +10137,8 @@ etocs de fer,4,etocs de fer,13
 étoffe laine flanelle,1,flanelle de laine,16
 étoffe lampas,1,lampas,1
 étoffe manchettes,1,étoffe manchettes,1
-étoffe Maroc,7,raze de Maroc,54
-étoffe Maroc de laine,2,raze de Maroc,2
+étoffe Maroc,7,raze de Maroc,332
+étoffe Maroc de laine,2,raze de Maroc,332
 étoffe mélangée,1,étoffe,386
 étoffe mélangée au ??? soie,5,étoffe mélangée au ??? soie,5
 étoffe mélangée au sixième de soie,1,étoffe au sixième de soie,22
@@ -10176,8 +10175,7 @@ etocs de fer,4,etocs de fer,13
 étoffe mêlée de laine coton fil et de poil de chameau aune,1,étoffe de coton et de fil et de laine et de poil chameau,3
 étoffe mêlée de peu de soie,1,étoffe à peu de soie,155
 étoffe mêlée de soie,7,étoffe de soie,2631
-étoffe mêlée de soie ?,1,étoffe mêlée de soie ?,1
-étoffe mêlée de soie ???,1,étoffe mêlée de soie ???,1
+étoffe mêlée de soie ???,2,étoffe mêlée de soie ???,2
 étoffe mêlée de soie à peu,63,étoffe mêlée de soie à peu,63
 étoffe mêlée de soie à peu de soie,111,étoffe mêlée de soie à peu de soie,111
 étoffe mêlée de soie au quart,133,étoffe de soie au quart,168
@@ -10304,7 +10302,7 @@ etocs de fer,4,etocs de fer,13
 étoffe soie soie et or,1,étoffe d'or et de soie,9
 étoffe soierie,1,étoffe soierie,2
 étoffe soierie diverses,1,étoffe soierie,2
-étoffe sur coton,1,étoffe de coton,388
+étoffe sur coton,1,étoffe de coton,386
 étoffe taffetas,5,étoffe taffetas,5
 étoffe tiretaine,1,tiretaine,11
 étoffe tricots,1,tricots,3
@@ -13398,21 +13396,21 @@ Guinée étoffe,1,guinée,181
 Guinée masulipatan,1,guinée masulipatan,1
 Guinée Sénégal,1,guinée Sénégal,1
 Guinée tachée,1,guinée tachée,1
-guingans,254,toile guingans,420
-guingans blanc,1,toile guingans blanc,420
-guingans bleu,1,toile guingans bleu,420
-guingans de Bengale,2,toile guingans de Bengale,420
-guingans de fil,4,toile guingans de fil,420
-guingans de Madras,23,toile guingans de Madras,420
-guingans de Masulipatan,1,toile guingans de Masulipatan,420
-guingans de Pondichéry,26,toile guingans de Pondichéry,420
-guingans de Pondichéry et de Madras,1,toile guingans de Pondichéry et de Madras,420
-guingans des prises,1,toile guingans des prises,420
-guingans divers,11,toile guingans,420
-guingans du Bengale,8,toile guingans du Bengale,420
-guingans en Madras,1,toile guingans de Madras,420
-guingans peint,2,toile peintes guingans,420
-guingans pièces,1,toile guingans,420
+guingans,254,toile guingans,579
+guingans blanc,1,toile guingans blanc,1
+guingans bleu,1,toile guingans bleu,1
+guingans de Bengale,2,toile guingans de Bengale,2
+guingans de fil,4,toile guingans de fil,17
+guingans de Madras,23,toile guingans de Madras,24
+guingans de Masulipatan,1,toile guingans de Masulipatan,1
+guingans de Pondichéry,26,toile guingans de Pondichéry,26
+guingans de Pondichéry et de Madras,1,toile guingans de Pondichéry et de Madras,1
+guingans des prises,1,toile guingans des prises,1
+guingans divers,11,toile guingans,579
+guingans du Bengale,8,toile guingans du Bengale,8
+guingans en Madras,1,toile guingans de Madras,24
+guingans peint,2,toile peintes guingans,2
+guingans pièces,1,toile guingans,579
 guinimos,1,guinimos,1
 guipons,6,guipon,6
 guisine,1,guisine,1
@@ -14443,7 +14441,7 @@ jus de réglisse etc.,8,jus de réglisse,757
 kermès en grains,4,alkermès en grains,23
 kichorchais,8,kichorchais,8
 kicoutis,2,kicoutis,2
-killis,1,toile de Killis,1
+killis,1,toile de Killis,45
 kirschwasser,2,kirschwasser,3
 labdanum,3,labdanum,3
 lac commun,1,lac commun,1
@@ -14475,7 +14473,7 @@ lainages draperie diverse,39,drap de laine,440
 lainages draperie fine,62,drap fins de laine,62
 lainages draperie ordinaire,70,drap ordinaires de laine,70
 lainages draperie petite et étoffe,66,drap de laine et petits et étoffes,66
-lainages étoffe,19,étoffe de laine,545
+lainages étoffe,19,étoffe de laine,542
 lainages étoffe fine en casimir et mérinos,23,casimir et mérinos fin de laine,23
 lainages étoffe fine et casimir,10,casimir fin de laine,10
 lainages mouchoirs et châles,30,châles et mouchoirs de laine,48
@@ -15120,7 +15118,7 @@ lingerie de lin,26,lingerie de lin,26
 lingerie de tables,2,lingerie de tables,2
 lingerie de tables et de lit,4,lingerie de lit et de tables,4
 lingerie de toile de lin,9,lingerie de toile de lin,9
-lingerie de toile guingans de lin,1,lingerie de toile de lin guingans,420
+lingerie de toile guingans de lin,1,lingerie de toile de lin guingans,1
 lingerie diverse,12,lingerie,162
 lingerie diverse pour nègre,1,lingerie pour nègre,1
 lingerie drap de lit,5,drap de lit,55
@@ -15372,7 +15370,7 @@ malemole dome,1,malemole dome,1
 malicot,1,manicot,4
 malles,14,malles,14
 malles ???,1,malles ???,1
-malles d'étoffes d'or,1,malles d'étoffes d'or,1
+malles d'étoffe d'or,1,,54
 malles de cuir,3,malles de cuir,3
 malles travaillées,1,malles travaillées,1
 malles valises et coffres,2,malles et valises et coffres,2
@@ -15583,9 +15581,9 @@ marchandises des Indes café de Bourbon,4,café de Bourbon,219
 marchandises des Indes café Moka,2,café de Moka,236
 marchandises des Indes cannelle,3,cannelle,1329
 marchandises des Indes diverses,1,marchandises des Indes,8
-marchandises des Indes en soieries mousseline bandanas et Nankin,1,étoffe des Indes,19
+marchandises des Indes en soieries mousseline bandanas et Nankin,1,étoffe des Indes,18
 marchandises des Indes et café de Moka,41,café de Moka et marchandises des Indes,41
-marchandises des Indes étoffes diverses des Indes,1,étoffe des Indes,19
+marchandises des Indes étoffe diverses des Indes,1,,54
 marchandises des Indes mouchoirs des Indes,1,mouchoirs des Indes,214
 marchandises des Indes mousseline,1,mousseline,731
 marchandises des Indes objets divers,1,marchandises des Indes,8
@@ -15593,10 +15591,10 @@ marchandises des Indes objets divers en petits articles,1,marchandises des Indes
 marchandises des Indes poivre,1,poivre,1549
 marchandises des Indes porcelaine,1,porcelaine,1461
 marchandises des Indes thé,6,thé,1773
-marchandises des Indes toile des Indes caladarit,1,caladaris,3
+marchandises des Indes toile des Indes caladarit,1,caladaris,97
 marchandises des Indes toile des Indes diverse,1,toile des Indes,175
 marchandises des Indes toile des Indes Guinée,1,guinée des Indes,1
-marchandises des Indes toile des Indes guingans,2,toile guingans des indes,420
+marchandises des Indes toile des Indes guingans,2,toile guingans des indes,2
 marchandises des Indes toile des Indes Nankin,1,nankin des Indes,10
 marchandises des Indes toile des Indes peinte de thille,1,toile des Indes peinte de thille,1
 marchandises des prises,2,marchandises des prises,2
@@ -15643,7 +15641,7 @@ marchandises provenant du commerce français dans les Indes diverses,1,marchandi
 marchandises provenant du commerce français dans les Indes drogues,4,drogues des Indes,4
 marchandises provenant du commerce français dans les Indes en étoffe gaze et toile,1,étoffe et gaze et toile des Indes,1
 marchandises provenant du commerce français dans les Indes encens,1,encens des Indes,1
-marchandises provenant du commerce français dans les Indes étoffe,3,étoffe des Indes,19
+marchandises provenant du commerce français dans les Indes étoffe,3,étoffe des Indes,18
 marchandises provenant du commerce français dans les Indes éventails,1,éventails des Indes,1
 marchandises provenant du commerce français dans les Indes gomme,2,gomme des Indes,2
 marchandises provenant du commerce français dans les Indes indigo,1,indigo des Indes,1
@@ -15700,8 +15698,8 @@ marmites de fonte,2,marmites de fonte,4
 marmites de potier,1,marmites de potier,1
 marmites en fer,4,marmites de fer,139
 marne,7,marne,7
-Maroc,3,raze de Maroc,54
-Maroc raz de marron,1,raze de Maroc,1
+Maroc,3,raze de Maroc,332
+Maroc raz de marron,1,raze de Maroc,332
 maronic,1,maronic,1
 maroquins,5,maroquins,5
 marquise,1,marquise,1
@@ -15949,7 +15947,7 @@ mâts à barque de 38 à 40 pieds,1,mâts de 38 à 40 pieds à barque,1
 mâts à bateau,1,mâts à bateau,1
 mâts à chaloupe,1,mâts à chaloupe,1
 mâts assortis,13,mâts assortis,17
-mâts au dessous de 6 paumes,1,mâts au dessous de 6 paumes,1
+mâts au-dessous de 6 paumes,1,,54
 mâts bouts de 3 à 4 pieds,1,mâts bouts de 3 à 4 pieds,1
 mâts de 12 à 13 palmes,1,mâts de 12 à 13 palmes,1
 mâts de 13 à 20 palmes,1,mâts de 13 à 20 palmes,1
@@ -16623,8 +16621,8 @@ meules affiloires,7,meules affiloires,7
 meules aiguisées,1,meules à aiguiser,224
 meules aiguiser,2,meules à aiguiser,224
 meules assorties,1,meules assorties,1
-meules au dessous de 4 pouces,1,meules au dessous de 4 pouces,1
-meules au dessus de 4 pouces,1,meules au dessus de 4 pouces,1
+meules au-dessous de 4 pouces,1,,54
+meules au-dessus de 4 pouces,1,,54
 meules bâtardes,33,meules bâtardes,33
 meules brodées,1,meules brodées,1
 meules coutier,1,meules coutier,1
@@ -16968,7 +16966,7 @@ mouchoirs de France,1,mouchoirs de France,1
 mouchoirs de gaze,57,mouchoirs de gaze,66
 mouchoirs de gaze divers,3,mouchoirs de gaze divers,3
 mouchoirs de gaze grands,1,mouchoirs de gaze grands,1
-mouchoirs de guingans,3,mouchoirs de toile guingans,420
+mouchoirs de guingans,3,mouchoirs de toile guingans,5
 mouchoirs de Hollande,1,mouchoirs de Hollande,1
 mouchoirs de kinfin,1,mouchoirs de kinfin,1
 mouchoirs de l'hotes,2,mouchoirs de l'hotes,2
@@ -16991,7 +16989,7 @@ mouchoirs de paliacatte,1,mouchoirs de Paliacate,10
 mouchoirs de Patras,1,mouchoirs de Patras,1
 mouchoirs de pitre,1,mouchoirs de pitre,1
 mouchoirs de Pondichéry,156,mouchoirs de Pondichéry,162
-mouchoirs de romals,55,mouchoirs romals,55
+mouchoirs de romals,55,mouchoirs romals,65
 mouchoirs de romals et de la Côte,1,mouchoirs romals et de la Côte,1
 mouchoirs de Rouen,96,mouchoirs de Rouen,97
 mouchoirs de Saumur,1,mouchoirs de Saumur,1
@@ -17030,7 +17028,7 @@ mouchoirs des Indes communs,1,mouchoirs des Indes communs,1
 mouchoirs des Indes de coton,2,mouchoirs des Indes de coton,2
 mouchoirs des Indes de soie,3,mouchoirs des Indes de soie,3
 mouchoirs des Indes dit bandanas,1,mouchoirs des Indes dit bandanas,1
-mouchoirs des Indes dits romals,1,mouchoirs romals,1
+mouchoirs des Indes dits romals,1,mouchoirs romals,65
 mouchoirs divers,107,mouchoirs,214
 mouchoirs divers de fil et coton,16,mouchoirs de coton et de fil,482
 mouchoirs divers en fil de coton,2,mouchoirs de coton et de fil,482
@@ -17061,8 +17059,8 @@ mouchoirs fil et lin,1,mouchoirs de fil et de lin,1
 mouchoirs fins,2,mouchoirs fins,2
 mouchoirs foulards,3,mouchoirs foulards,3
 mouchoirs gros en fil,1,mouchoirs gros en fil,1
-mouchoirs guingan,1,mouchoirs de toile guingans,1
-mouchoirs guingans,1,mouchoirs de toile guingans,420
+mouchoirs guingan,1,mouchoirs de toile guingans,5
+mouchoirs guingans,1,mouchoirs de toile guingans,5
 mouchoirs imprimés,3,mouchoirs imprimés,3
 mouchoirs indienne,5,mouchoirs indienne,5
 mouchoirs Komel et Renis,1,mouchoirs Komel et Renis,1
@@ -17079,7 +17077,7 @@ mouchoirs peints de Hollande,2,mouchoirs peints de Hollande,2
 mouchoirs pitre et fil,1,mouchoirs de fil et de pitre,1
 mouchoirs Pondichéry,6,mouchoirs de Pondichéry,162
 mouchoirs rayés,2,mouchoirs rayés,2
-mouchoirs romals,9,mouchoirs romals,9
+mouchoirs romals,9,mouchoirs romals,65
 mouchoirs Rouen,1,mouchoirs de Rouen,97
 mouchoirs saserpatis,1,mouchoirs saserpatis,1
 mouchoirs soie et coton,1,mouchoirs de coton et de soie,1
@@ -17489,8 +17487,8 @@ objets manufacturés chapellerie,45,chapeaux,517
 objets manufacturés dentelle,40,dentelle,313
 objets manufacturés dentelle de fil,8,dentelle de fil,310
 objets manufacturés draperie,69,drap,857
-objets manufacturés étoffe de coton,26,étoffe de coton,388
-objets manufacturés étoffe de laine,32,étoffe de laine,545
+objets manufacturés étoffe de coton,26,étoffe de coton,386
+objets manufacturés étoffe de laine,32,étoffe de laine,542
 objets manufacturés étoffe de laine et de poil,17,étoffe de laine et de poil,33
 objets manufacturés étoffe de soie,57,étoffe de soie,2631
 objets manufacturés étoffe diverse,34,étoffe de soie,2631
@@ -18462,8 +18460,8 @@ panne écarlate,5,panne écarlate,5
 panne en soie,3,panne de soie,94
 panne et peluches,1,peluches et panne,1
 panne ordinaire,7,panne ordinaire,7
-panne peluches et tripe,2,"panne, peluches et tripe",2
-panne peluches et tripe aune,2,"panne, peluches et tripe",2
+panne peluches et tripe,2,"panne, peluches et tripe",4
+panne peluches et tripe aune,2,"panne, peluches et tripe",4
 panne poil,1,panne poil,1
 panne poil et laine,2,panne laine et poil,2
 panne rouge,1,panne rouge,1
@@ -22326,8 +22324,8 @@ raz de Saint-Cyr,4,raze de soie de Saint-Cyr,4
 raz de Saint-Lô,1,raze de Saint-Lô,2
 raz de Saint-Maur,13,raze de Saint-Maur,13
 raz des prises,1,raze des prises,1
-raz du Maroc,89,raze de Maroc,288
-raz Maroc,1,raze de Maroc,288
+raz du Maroc,89,raze de Maroc,332
+raz Maroc,1,raze de Maroc,332
 reagal,19,reagal,19
 rebuts de corail,1,rebuts de corail,1
 rechange de toile de halle,1,rechanges de toile de halle,1
@@ -22542,7 +22540,7 @@ rollet aune,1,rollet,2
 rollet et batiste,1,rollet et batiste,1
 rollins,1,rollins,1
 romaine,4,romaine,4
-romals,10,romals,10
+romals,10,romals,27
 romals pour mouchoirs,1,romals pour mouchoirs,2
 romals pour mouchoirs aune,1,romals pour mouchoirs,2
 romals rouges,1,romals rouges,1
@@ -23424,7 +23422,7 @@ sevan de cuir de Russie,1,sevan de cuir de Russie,1
 Sèvres,1,Sèvres,1
 siagne,2,siagne,2
 siague,1,siague,1
-siamoise,537,siamoise,541
+siamoise,537,siamoise,851
 siamoise à fleurs,41,siamoise à fleurs,41
 siamoise à fleurs de soie,3,siamoise à fleurs de soie,3
 siamoise à peu,10,siamoise à peu de soie,70
@@ -23805,7 +23803,7 @@ souliers brodés or et argent,6,souliers brodés d'argent et d'or,8
 souliers brodés pour femme,4,souliers brodés et pour femme,11
 souliers communs,2,souliers communs,23
 souliers couverts en callemande pour femme,1,souliers couverts en callemande et pour femme,1
-souliers couverts en étoffes pour femme,5,souliers couverts en étoffes et pour femme,5
+souliers couverts en étoffe pour femme,5,,54
 souliers couverts en soie pour femme,8,souliers couverts en soie et pour femme,8
 souliers d'enfant,6,souliers d'enfant,6
 souliers d'étoffe de soie,5,souliers d'étoffe de soie,7
@@ -24939,16 +24937,16 @@ tissus de coton bonneterie,3,bonneterie de coton,164
 tissus de coton châles et mouchoirs,2,châles et mouchoirs de coton,81
 tissus de coton couvertures,1,couvertures de coton,215
 tissus de coton couvertures et tapis,2,couvertures et tapis de coton,2
-tissus de coton croisés basins piqués etc,1,étoffes de coton,3
+tissus de coton croisés basins piqués etc,1,étoffes de coton,1
 tissus de coton drap,2,drap de coton,19
 tissus de coton drap et velours,1,drap de coton et velours,1
-tissus de coton étoffes mousseline etc,2,étoffes de coton,3
+tissus de coton étoffe mousseline etc,2,,54
 tissus de coton mousseline de toute sorte,1,mousseline de coton,106
 tissus de coton mousseline et tous tissus simples,2,étoffes de coton simples,2
 tissus de coton nankin,2,nankin,200
 tissus de coton nankin apporté en droiture des Indes,3,nankin des Indes,10
 tissus de coton nankin des Indes,1,nankin des Indes,10
-tissus de coton nankinet et autres étoffes de goût,2,étoffe de coton,388
+tissus de coton nankinet et autres étoffe de goût,2,,54
 tissus de coton passementerie,1,passementerie de coton,3
 tissus de coton passementerie et ruban,2,passementerie de coton et ruban de coton,2
 tissus de coton percale imprimée en châles,2,châles de percale de coton imprimée,2
@@ -24959,21 +24957,21 @@ tissus de coton tulle et gaze,1,gaze et tulle de coton,2
 tissus de coton tulle gaze et tricots de Berling,1,gaze tricots de Berling et tulle de coton,1
 tissus de coton unies brochées brodées imprimées,2,étoffes de coton brochées et brodées et imprimées,2
 tissus de coton velours,2,velours de coton,346
-tissus de crin,29,étoffe de crin,32
-tissus de crin étoffes,3,étoffe de crin,32
+tissus de crin,29,étoffe de crin,29
+tissus de crin étoffe,3,,54
 tissus de crin passementerie,3,passementerie de crin,5
 tissus de crin tissus de poils,2,étoffes de crin et de poils,2
 tissus de crin toile à tamis,2,toile de crin à tamis,4
 tissus de fil,1,étoffes de fil,1
 tissus de fil de lin et de chanvre en toile de toute sorte,12,étoffe de chanvre et de fil de lin en toile,12
 tissus de fil et coton mélangés,10,étoffe de coton et de fil mélangés,10
-tissus de fleuret,19,étoffe de fleuret,73
+tissus de fleuret,19,étoffe de fleuret,69
 tissus de fleuret bonneterie,5,bonneterie de fleuret,11
 tissus de fleuret couvertures et tapis,1,couvertures et tapis de fleuret,1
 tissus de fleuret couvertures tapis et châles,1,châles couvertures et tapis de fleuret,1
 tissus de fleuret en étoffe et rubannerie,10,étoffe et rubanerie de fleuret,10
-tissus de fleuret étoffes,4,étoffe de fleuret,73
-tissus de fleuret étoffes pures et mouchoirs,1,étoffe pures et mouchoirs de fleuret,1
+tissus de fleuret étoffe,4,,54
+tissus de fleuret étoffe pures et mouchoirs,1,,54
 tissus de fleuret passementerie et ruban,4,passementerie de fleuret et ruban de fleuret,4
 tissus de fleuret ruban,1,ruban de fleuret,43
 tissus de laine bonneterie,3,bonneterie de fleuret,11
@@ -24983,8 +24981,8 @@ tissus de laine couvertures,2,couvertures de laine,969
 tissus de laine drap de toute sorte,1,drap de laine,440
 tissus de laine en bonneterie,2,bonneterie de laine,341
 tissus de laine en pièces couvertures,3,pièces couvertures de laine,3
-tissus de laine en pièces drap couvertures et étoffes,3,couvertures drap et étoffe de laine,3
-tissus de laine en pièces étoffes diverses,3,étoffe de laine,545
+tissus de laine en pièces drap couvertures et étoffe,3,,54
+tissus de laine en pièces étoffe diverses,3,,54
 tissus de laine en pièces tapis à nœuds ou à côtes,1,tapis à côtes et à nœuds de laine,2
 tissus de laine en pièces tapis autres à nœuds ou à côtes,1,tapis autres qu'à côtes et à nœuds de laine,1
 tissus de laine en pièces tapis autres simples,1,tapis de laine simples,4
@@ -25071,7 +25069,7 @@ tissus de lin ou de chanvre toile unie teinte de 8 fils inclusivement à 13 fils
 tissus de lin ou de chanvre toile unie teinte de moins de 8 fils,1,toile de chanvre et de lin unie teinte de moins de 8 fils,1
 tissus de lin ou de chanvre tulle,2,tulle de chanvre et de lin,4
 tissus de plocq,2,étoffes de plocq,2
-tissus de poil tapis bonneterie et étoffes,3,bonneterie étoffes et tapis de poil,3
+tissus de poil tapis bonneterie et étoffe,3,,54
 tissus de soie blonde,5,étoffes de soie blonde,5
 tissus de soie bonneterie,4,bonneterie de soie,555
 tissus de soie brochés d'or et d'argent faux,1,étoffes brochées d'argent et d'or faux de soie,1
@@ -25080,13 +25078,13 @@ tissus de soie brochés de soie,2,étoffes brochées de soie de soie,2
 tissus de soie coton et laine mélangés,26,étoffe de coton et de laine et de soie mélangés,26
 tissus de soie crêpe,5,crêpe de soie,22
 tissus de soie dentelles de soie dites blondes,1,dentelle de soie blonde,70
-tissus de soie étoffes mêlées de fil,2,étoffe de soie mêlée de fil,3
-tissus de soie étoffes pures brochées d'or ou d'argent faux,2,étoffe brochée d'argent et d'or faux de soie pure,2
-tissus de soie étoffes pures brochées d'or ou d'argent fin,2,étoffe brochée d'argent et d'or fin de soie pure,2
-tissus de soie étoffes pures brochées de soie,2,étoffe brochée de soie de soie pure,2
-tissus de soie étoffes pures façonnées,2,étoffe façonnée de soie pure,2
-tissus de soie étoffes pures unies,3,étoffe de soie pure unie,3
-tissus de soie étoffes pures unies et façonnées mouchoirs et châles,2,châles et mouchoirs de soie façonnée pure et unie,2
+tissus de soie étoffe mêlées de fil,2,,54
+tissus de soie étoffe pures brochées d'or ou d'argent faux,2,,54
+tissus de soie étoffe pures brochées d'or ou d'argent fin,2,,54
+tissus de soie étoffe pures brochées de soie,2,,54
+tissus de soie étoffe pures façonnées,2,,54
+tissus de soie étoffe pures unies,3,,54
+tissus de soie étoffe pures unies et façonnées mouchoirs et châles,2,,54
 tissus de soie façonnés,2,étoffes façonnés de soie,2
 tissus de soie gaze de toute espèce,5,gaze de soie,517
 tissus de soie gazes crêpes et tulles,2,crêpe et gaze et tulle de soie,146
@@ -25123,7 +25121,7 @@ toile à bas,7,toile à bas,7
 toile à bât,4,ruban de laine mêlée de fil,4
 toile à bâts,13,toile à bâts,13
 toile à bluteaux,2,toile à bluteaux,2
-toile à canevas,4,toile canevas,4
+toile à canevas,4,toile canevas,113
 toile à carreaux,248,toile à carreaux,260
 toile à carreaux et à matelas,4,toile à carreaux et à matelas,4
 toile à carreaux pièces de 50 aunes,1,toile à carreaux pièces de 50 aunes,1
@@ -25135,8 +25133,7 @@ toile à faire linge,1,toile pour faire linge,1
 toile à fleurs,4,toile à fleurs,4
 toile à halle,1,toile à halle,1
 toile à image,1,toile à image,1
-toile ajamis,13,toile ajamis,13
-toile à killis,1,toile de Killis,4
+toile à killis,1,toile de Killis,45
 toile à matelas,69,toile à matelas,73
 toile à matelot,5,toile à matelot,5
 toile à ménage,1,toile de ménage,158
@@ -25161,6 +25158,7 @@ toile à voile,984,toile pour voile,1001
 toile à voile de 24 aunes,1,toile à voile de 24 aunes,1
 toile abas,1,toile abas,1
 toile abat,31,toile abat,31
+toile ajamis,13,toile ajamis,13
 toile alanea,1,toile alanea,1
 toile Alep,1,toile d'Alep,11
 toile aleph,1,toile d'Alep,11
@@ -25173,7 +25171,7 @@ toile antioche,3,toile Antioche,6
 toile Antioche,3,toile Antioche,6
 toile ardoisée et rayonnée,1,toile ardoisée et rayonnée,1
 toile assortie,9,toile,744
-toile au killis,1,toile de Killis,4
+toile au killis,1,toile de Killis,45
 toile au lain,1,toile au lain,1
 toile au lait,8,toile au lait,8
 toile au lait lin,1,toile au lait lin,1
@@ -25182,13 +25180,13 @@ toile babassis,1,babassis,1
 toile baffetas,10,baffetas,10
 toile bajas,1,toile bajas,1
 toile bajouge,1,toile bajouge,1
-toile bajutapau,30,bajutapau,231
+toile bajutapau,30,bajutapau,237
 toile bajutapau commun,1,bajutapau commun,1
-toile bajutapaux,1,bajutapau,231
+toile bajutapaux,1,bajutapau,237
 toile baras,1,baras,1
 toile barrière,2,toile barrière,2
 toile Barrois,1,toile Barrois,1
-toile bas brin,3,toile de Bretagne bas brins,3
+toile bas brin,3,toile de Bretagne bas brins,11
 toile basin,238,toile de basin,238
 toile basin blanc de fil,1,basin blanc de fil,1
 toile basin brodé en soie et or,1,basin brodé de soie et d'or,1
@@ -25218,9 +25216,9 @@ toile bayette,9,bayette,128
 toile bayette bleue,4,bayette bleue,7
 toile beaugrain,3,toile beaugrain,3
 toile Beauvais,6,toile de Beauvais,29
-toile bem ???,1,toile de Bretagne,1
-toile bem à voile,3,toile de Bretagne pour voile,3
-toile bem de Vimoutiers,1,toile de Vimoutiers,1
+toile bem ???,1,toile de Bretagne,604
+toile bem à voile,3,toile de Bretagne pour voile,97
+toile bem de Vimoutiers,1,toile de Vimoutiers,30
 toile bétilles,3,bétilles,30
 toile beurrière,63,beurrière,63
 toile birampots,2,birampots,3
@@ -25262,34 +25260,34 @@ toile blanche mousseline,1,mousseline blanche,1
 toile blanche Nankin,1,nankin blanche,1
 toile blanche ordinaire,18,toile blanche ordinaire,18
 toile blanche ordre,1,toile blanche ordre,1
-toile blanche peinte,18,toile peinte,18
+toile blanche peinte,18,toile peinte,1001
 toile blanche pièces de 20 aunes,1,toile blanche de 20 aunes,1
 toile blanche pour essuie-mains,1,toile blanche pour essuie-mains,1
 toile blanchie,2,toile blanchie,2
 toile bleue,32,toile bleue,33
 toile bleue diverse,1,toile bleue,33
-toile bleue peinte,1,toile peinte,1
+toile bleue peinte,1,toile peinte,1001
 toile bocadille,1,toile bocadillo,2
 toile bocadillo,1,toile bocadillo,2
 toile boelans,1,toile boelans,1
 toile bonnets,1,toile bonnets,1
 toile boucassin,9,toile boucassine,21
 toile boucassine,12,toile boucassine,21
-toile bougran,7,toile bougran,7
+toile bougran,7,toile bougran,105
 toile boulange,1,toile boulange,1
 toile bourlegambis,1,toile bourlegambis,1
 toile brauls,4,toile brauls,4
 toile brauls imitant celles des Indes,1,toile brauls imitant celles des Indes,1
-toile Bretagne,24,toile de Bretagne,603
+toile Bretagne,24,toile de Bretagne,604
 toile Bretagne à carreaux,1,toile de Bretagne à carreaux,69
-toile Bretagne à voile,1,toile de Bretagne pour voile,94
+toile Bretagne à voile,1,toile de Bretagne pour voile,97
 toile Bretagne crée,1,toile de Bretagne crée,39
 toile Bretagne d'Olonne,1,toile d'Olonne,20
 toile Bretagne de brin,1,toile de Bretagne de brin,28
-toile Bretagne de halle,1,toile de Bretagne de halle,164
+toile Bretagne de halle,1,toile de Bretagne de halle,9
 toile Bretagne de ménage,1,toile de Bretagne de ménage,46
-toile Bretagne diverse,1,toile de Bretagne,603
-toile Bretagne diverses,11,toile de Bretagne,603
+toile Bretagne diverse,1,toile de Bretagne,604
+toile Bretagne diverses,11,toile de Bretagne,604
 toile Bretagne entre large,1,toile de Bretagne entre large,48
 toile Bretagne étroite,6,toile de Bretagne étroite,195
 toile Bretagne gratienne,1,toile de Bretagne gratienne,104
@@ -25307,11 +25305,11 @@ toile cacanava,1,toile cacanava,1
 toile cadéas,1,toile cadéas,1
 toile caissie,72,toile caissie,72
 toile caissière,1,toile caissière,1
-toile caladaris,26,caladaris,26
+toile caladaris,26,caladaris,97
 toile calanea,1,toile calanea,1
 toile calias,1,toile calias,1
 toile Cambrai,3,toile de Cambrai,74
-toile canevas,35,toile canevas,35
+toile canevas,35,toile canevas,113
 toile carotte,1,toile carotte,1
 toile carotte double,1,toile carotte double,1
 toile carotte simple,1,toile carotte simple,1
@@ -25328,16 +25326,16 @@ toile chanvre,2,toile de chanvre,635
 toile chanvre blanche,1,toile de chanvre blanche,77
 toile chapelur,1,toile chapelur,1
 toile chapilas,3,toile chapilas,3
-toile chasselas,28,toile chasselas,28
+toile chasselas,28,toile chasselas,213
 toile chebine,2,toile chebiny,5
 toile chebiny,1,toile chebiny,5
 Toile chebiny,2,toile chebiny,5
 toile chille,1,toile chille,1
 toile chitte,3,toile chitte,3
 toile choilette,1,toile choilette,1
-toile Cholet,132,toile de Cholet,132
+toile Cholet,132,toile de Cholet,196
 toile Cholet à carreaux,1,toile de Cholet à carreaux,1
-toile cholette,11,toile de Cholet,11
+toile cholette,11,toile de Cholet,196
 toile cirée,521,toile cirée,524
 toile cirée 3/4,1,toile cirée trois-quart,1
 toile cirée aune,1,toile cirée,524
@@ -25362,7 +25360,7 @@ toile commune de 25 aunes,1,toile commune de 25 aunes,1
 toile commune de Lille,1,toile commune de Lille,1
 toile cordas,3,toile cordat,38
 toile cordat,35,toile cordat,38
-toile cordeillat,1,cordeillat,1
+toile cordeillat,1,cordeillat,229
 toile corot,5,toile corot,165
 toile corot double,2,toile corot double,2
 toile corot imitant celle des Indes,1,toile corot imitant celle des Indes,1
@@ -25435,8 +25433,8 @@ toile d'Alep,9,toile d'Alep,11
 toile d'Allemagne,49,toile d'Allemagne,50
 toile d'Allemagne aune,1,toile d'Allemagne,50
 toile d'Allemagne et Silésie,1,toile d'Allemagne et toile de Silésie,1
-toile d'aman,153,toile d'aman,153
-toile d'amat,1,toile d'aman,1
+toile d'aman,153,toile d'aman,154
+toile d'amat,1,toile d'aman,154
 toile d'Angers,1,toile d'Angers,1
 toile d'anne,1,toile d'anne,1
 toile d'antal,13,toile d'antale,27
@@ -25503,7 +25501,7 @@ toile de Bernay,1,toile de Bernay,1
 toile de Bézier,1,toile de Bézier,1
 toile de blancard,1,toile blancard,125
 toile de bleue,1,toile de bleue,1
-toile de Bretagne,553,toile de Bretagne,603
+toile de Bretagne,553,toile de Bretagne,604
 toile de Bretagne ??? brin,1,toile de Bretagne ??? brin,1
 toile de Bretagne 3 aunes,1,toile de Bretagne de 3 aunes,1
 toile de Bretagne 3/4,1,toile de Bretagne 3/4,1
@@ -25511,8 +25509,8 @@ toile de Bretagne 7/8,1,toile de Bretagne 7/8,1
 toile de Bretagne à 4 fils,1,toile de Bretagne de 4 fils,20
 toile de Bretagne à carreaux,63,toile de Bretagne à carreaux,69
 toile de Bretagne à nègre,1,toile de Bretagne à nègre,1
-toile de Bretagne à voile,88,toile de Bretagne pour voile,94
-toile de Bretagne bas brin,1,toile de Bretagne bas brins,2
+toile de Bretagne à voile,88,toile de Bretagne pour voile,97
+toile de Bretagne bas brin,1,toile de Bretagne bas brins,11
 toile de Bretagne beurrière,1,toile de Bretagne beurrière,1
 toile de Bretagne blancard,1,toile de Bretagne blancard,1
 toile de Bretagne blanche,30,toile de Bretagne blanche,33
@@ -25529,7 +25527,7 @@ toile de Bretagne crée large,86,toile de Bretagne crée large,96
 toile de Bretagne crée large de 40 aunes,1,toile de Bretagne crée large de 40 aunes,1
 toile de Bretagne crée-large,1,toile de Bretagne crée large,96
 toile de Bretagne crue,20,toile de Bretagne crue,21
-toile de Bretagne d'aune,5,toile de Bretagne,603
+toile de Bretagne d'aune,5,toile de Bretagne,604
 toile de Bretagne d'emballage,3,toile de Bretagne d'emballage,3
 toile de Bretagne d'Ernée,1,toile d'Ernée,1
 toile de Bretagne d'étoupe,1,toile de Bretagne d'étoupe,1
@@ -25539,7 +25537,7 @@ toile de Bretagne de ??? fil,6,toile de Bretagne de ??? fil,6
 toile de Bretagne de 4 fils,15,toile de Bretagne de 4 fils,20
 toile de Bretagne de 6 fils,2,toile de Bretagne de 6 fils,2
 toile de Bretagne de balles,5,toile de Bretagne de balles,5
-toile de Bretagne de bas brin,6,toile de Bretagne bas brins,6
+toile de Bretagne de bas brin,6,toile de Bretagne bas brins,11
 toile de Bretagne de bazot,1,toile de Bretagne de bazot,1
 toile de Bretagne de Brieu,1,toile de Brieu,1
 toile de Bretagne de brin,27,toile de Bretagne de brin,28
@@ -25555,8 +25553,8 @@ toile de Bretagne de Dinant,3,toile de Dinan,6
 toile de Bretagne de fil,2,toile de Bretagne de fil,2
 toile de Bretagne de Fougères,28,toile de Fougères,53
 toile de Bretagne de gratienne,3,toile de Bretagne gratienne,104
-toile de Bretagne de halle,155,toile de Halle,164
-toile de Bretagne de haut brin,17,toile de Bretagne hauts brins,19
+toile de Bretagne de halle,155,toile de Halle,260
+toile de Bretagne de haut brin,17,toile de Bretagne hauts brins,32
 toile de Bretagne de Hollande,1,toile de Hollande,49
 toile de Bretagne de Landerneau,20,toile de Landerneau,28
 toile de Bretagne de Languenan,25,toile de Languenan,56
@@ -25567,9 +25565,9 @@ toile de Bretagne de Lombourg,3,toile de Lombourg,3
 toile de Bretagne de Mayenne,1,toile de Mayenne,1
 toile de Bretagne de ménage,38,toile de Bretagne de ménage,46
 toile de Bretagne de Moncontour,1,toile de Moncontour,1
-toile de Bretagne de Morlaix,64,toile de Morlaix,138
-toile de Bretagne de Mortagne,17,toile de Mortagne,137
-toile de Bretagne de Mortagne ???,1,toile de Mortagne,1
+toile de Bretagne de Morlaix,64,toile de Morlaix,143
+toile de Bretagne de Mortagne,17,toile de Mortagne,142
+toile de Bretagne de Mortagne ???,1,toile de Mortagne,142
 toile de Bretagne de Moutier,1,toile de Moutier,1
 toile de Bretagne de Noirmoutier,1,toile de Noirmoutier,1
 toile de Bretagne de Poldavie,12,toile de Poldavie,38
@@ -25583,20 +25581,20 @@ toile de Bretagne de réforme,1,toile de Bretagne de réforme,1
 toile de Bretagne de rondelette,1,toile de Bretagne de rondelette,1
 toile de Bretagne de rosconne,10,toile de Bretagne de rosconne,11
 toile de Bretagne de rousse,1,toile de Bretagne rousse,20
-toile de Bretagne de Saint-???,1,toile de Bretagne de St. Georges,1
-toile de Bretagne de Saint-Georges,15,toile de Bretagne de St. Georges,15
+toile de Bretagne de Saint-???,1,toile de Bretagne de St. Georges,16
+toile de Bretagne de Saint-Georges,15,toile de Bretagne de St. Georges,16
 toile de Bretagne de Savigny,2,toile de Bretagne de Savigny,2
 toile de Bretagne de sept huit,1,toile de Bretagne de sept huit,1
 toile de Bretagne de serpillère,1,toile de Bretagne de serpillère,1
 toile de Bretagne de Suvignan,1,toile de Suvignan,1
-toile de Bretagne de Vimoutier,3,toile de Vimoutiers,29
-toile de Bretagne de Vimoutiers,14,toile de Vimoutiers,29
+toile de Bretagne de Vimoutier,3,toile de Vimoutiers,30
+toile de Bretagne de Vimoutiers,14,toile de Vimoutiers,30
 toile de Bretagne de Vitré,6,toile de Vitré,15
 toile de Bretagne de Vitrée,1,toile de Vitré,15
 toile de Bretagne diverse,40,toile de Bretagne diverse,40
 toile de Bretagne diverse à carreaux,5,toile de Bretagne à carreaux,69
-toile de Bretagne diverse à voile,5,toile de Bretagne pour voile,94
-toile de Bretagne diverse bas brin,1,toile de Bretagne bas brins,2
+toile de Bretagne diverse à voile,5,toile de Bretagne pour voile,97
+toile de Bretagne diverse bas brin,1,toile de Bretagne bas brins,11
 toile de Bretagne diverse blanche,2,toile de Bretagne blanche,33
 toile de Bretagne diverse blanche large,1,toile de Bretagne blanche large,1
 toile de Bretagne diverse chanvre,2,toile de Bretagne de chanvre,12
@@ -25606,11 +25604,11 @@ toile de Bretagne diverse d'Olonne,5,toile d'Olonne,20
 toile de Bretagne diverse de Bonbourg,1,toile de Bonbourg,1
 toile de Bretagne diverse de chanvre,2,toile de Bretagne de chanvre,12
 toile de Bretagne diverse de Fougères,1,toile de Fougères,53
-toile de Bretagne diverse de halle,8,toile de Bretagne de halle,164
-toile de Bretagne diverse de haut brin,1,toile de Bretagne hauts brins,19
+toile de Bretagne diverse de halle,8,toile de Bretagne de halle,9
+toile de Bretagne diverse de haut brin,1,toile de Bretagne hauts brins,32
 toile de Bretagne diverse de Languenan,2,toile de Languenan,56
 toile de Bretagne diverse de ménage,6,toile de Bretagne de ménage,46
-toile de Bretagne diverse de Morlaix,4,toile de Morlaix,138
+toile de Bretagne diverse de Morlaix,4,toile de Morlaix,143
 toile de Bretagne diverse de Poldavie,4,toile de Poldavie,38
 toile de Bretagne diverse de Pontivy,3,toile de Pontivy,31
 toile de Bretagne diverse de rosconne,1,toile de Bretagne de rosconne,11
@@ -25622,12 +25620,12 @@ toile de Bretagne diverse entre large,1,toile de Bretagne entre large,48
 toile de Bretagne diverse étroite,15,toile de Bretagne étroite,195
 toile de Bretagne diverse gratienne,9,toile de Bretagne gratienne,104
 toile de Bretagne diverse grenade,1,toile de Bretagne grenade,1
-toile de Bretagne diverse haut brin,1,toile de Bretagne hauts brins,19
+toile de Bretagne diverse haut brin,1,toile de Bretagne hauts brins,32
 toile de Bretagne diverse lacormen,1,toile de Bretagne lacormen,1
 toile de Bretagne diverse Languenan,3,toile de Languenan,56
 toile de Bretagne diverse large,10,toile de Bretagne large,171
 toile de Bretagne diverse ménage,1,toile de Bretagne de ménage,46
-toile de Bretagne diverse Morlaix,2,toile de Morlaix,138
+toile de Bretagne diverse Morlaix,2,toile de Morlaix,143
 toile de Bretagne diverse ouvrée,1,toile de Bretagne ouvrée,3
 toile de Bretagne diverse pièces larges,2,toile de Bretagne large,171
 toile de Bretagne diverse Poldavie,6,toile de Poldavie,38
@@ -25652,7 +25650,7 @@ toile de Bretagne gratienne,91,toile de Bretagne gratienne,104
 toile de Bretagne grise,6,toile de Bretagne grise,6
 toile de Bretagne gros brin,2,toile de Bretagne gros brin,2
 toile de Bretagne guingan,2,toile de Bretagne guingans,2
-toile de Bretagne haut brin,1,toile de Bretagne hauts brins,1
+toile de Bretagne haut brin,1,toile de Bretagne hauts brins,32
 toile de Bretagne haute louise,1,toile de Bretagne haute louise,1
 toile de Bretagne jaune,2,toile de Bretagne jaune,2
 toile de Bretagne Landerneau,6,toile de Landerneau,28
@@ -25660,7 +25658,7 @@ toile de Bretagne Languenan,13,toile de Languenan,56
 toile de Bretagne large,154,toile de Bretagne large,171
 toile de Bretagne Locronan,1,locronan,13
 toile de Bretagne ménage,1,toile de ménage,158
-toile de Bretagne Morlaix,5,toile de Morlaix,138
+toile de Bretagne Morlaix,5,toile de Morlaix,143
 toile de Bretagne ouvrée,2,toile de Bretagne ouvrée,3
 toile de Bretagne peinte,1,toile de Bretagne peinte,1
 toile de Bretagne platille,3,toile de Bretagne platille,3
@@ -25688,8 +25686,8 @@ toile de brin fine,2,toile de brin fine,2
 toile de Bruges,1,toile de Bruges,2
 toile de Bruges aune,1,toile de Bruges,2
 toile de caisse,1,toile de caisse,1
-toile de caladaris,1,caladaris,2
-toile de Caladric,1,toile de caladaris,2
+toile de caladaris,1,caladaris,97
+toile de Caladric,1,toile de caladaris,1
 toile de Cambrai,66,toile de Cambrai,74
 toile de canevas,1,toile de canevas,1
 toile de capiton,1,toile de capiton,1
@@ -25736,7 +25734,7 @@ toile de chanvre trillin,1,toile de chanvre trillin,1
 toile de chasse,23,toile de chasse,23
 toile de Château-Gontier,2,toile de Château-Gontier,2
 toile de Chauvreau,1,toile de Chauvreau,1
-toile de Cholet,53,toile de Cholet,53
+toile de Cholet,53,toile de Cholet,196
 toile de Clisson,1,toile de Clisson,1
 toile de Combourg,11,toile de Combourg,42
 toile de Comté,6,toile de Comté,6
@@ -25911,8 +25909,8 @@ toile de Flandre fine,1,toile fine de Flandre,1
 toile de fleuret de Rouen,1,toile de fleuret de Rouen,2
 toile de Fougère,1,toile de Fougères,53
 toile de Fougères,13,toile de Fougères,53
-toile de frame,1,toile de France,1
-toile de France,3,toile de France,3
+toile de frame,1,toile de France,4
+toile de France,3,toile de France,4
 toile de Frise,12,toile de Frise,12
 toile de Galle,1,toile de Galle,1
 toile de Gand,1,toile de Gand,1
@@ -25921,10 +25919,10 @@ toile de Grenade,18,toile de Grenade,45
 toile de Grenoble,3,toile de Grenoble,3
 toile de gris,1,toile de gris,1
 toile de Guinée,2,guinée,181
-toile de guingan,8,toile de guingans,291
-toile de halle,105,toile de Halle,105
+toile de guingan,8,toile de guingans,8
+toile de halle,105,toile de Halle,260
 toile de Hanovre,1,toile de Hanovre,1
-toile de haut brin,8,toile de Bretagne hauts brins,8
+toile de haut brin,8,toile de Bretagne hauts brins,32
 toile de Hollande,48,toile de Hollande,49
 toile de Hollande 15 aunes,4,toile de 15 aunes de Hollande,8
 toile de Hollande 30 aunes,4,toile de 30 aunes de Hollande,8
@@ -25936,7 +25934,7 @@ toile de Hollande de façon de Hambourg,1,toile de façon de Hambourg et de Holl
 toile de Hollande fine de 36 aunes,1,toile de Hollande fine,1
 toile de Hollande pièces de 15 aunes,1,toile de 15 aunes de Hollande,8
 toile de Hollande pièces de 30 aunes,1,toile de 30 aunes de Hollande,8
-toile de killis,2,toile de Killis,4
+toile de killis,2,toile de Killis,45
 toile de laine à blutoir,2,toile de laine pour blutoir,2
 toile de laine dite herbage,1,toile de laine dite herbage,1
 toile de laiton,1,toile de laiton,1
@@ -26125,7 +26123,7 @@ toile de lin rayée et teinte,1,toile de lin rayée et teinte,1
 toile de lin rayée pour robes,5,toile de lin pour robes et rayée,5
 toile de lin Rouen,1,toile de lin de Rouen,172
 toile de lin rousse,4,toile de lin rousse,4
-toile de lin royale,38,toile de lin royale,56
+toile de lin royale,38,toile de lin royale,38
 toile de lin Saint-Quentin,17,toile de lin de Saint-Quentin,456
 toile de lin teinte,11,toile de lin teinte,15
 toile de lin teinté,1,toile de lin teinte,15
@@ -26159,8 +26157,8 @@ toile de Marigny écrue,1,toile de Marigny écrue,1
 toile de ménage,154,toile de ménage,158
 toile de ménage blanche,1,toile blanche de ménage,3
 toile de ménage serviettes,1,serviettes de toile de ménage,1
-toile de Morlaix,63,toile de Morlaix,138
-toile de Mortagne,120,toile de Mortagne,137
+toile de Morlaix,63,toile de Morlaix,143
+toile de Mortagne,120,toile de Mortagne,142
 toile de mousseline,3,mousseline,731
 toile de mousseline rayée,1,mousseline rayées,1
 toile de Moutiers,1,toile de Moutiers,1
@@ -26169,7 +26167,7 @@ toile de Nankin aune,1,Nankin,12
 toile de navale,3,toile navale,8
 toile de paille,4,toile de paille,4
 toile de pays,1,toile de pays,1
-toile de peinte,2,toile peinte,982
+toile de peinte,2,toile peinte,1001
 toile de Piémont,1,toile du Piémont,2
 toile de platille,6,platille,339
 toile de ploc,12,toile de plocq,12
@@ -26215,7 +26213,7 @@ toile de Troyes,11,toile de Troyes,12
 toile de Valenciennes,41,toile de Valenciennes,43
 toile de Vigery,1,toile de Vigery,1
 toile de ville,1,toile de ville,1
-toile de Vimoutiers,12,toile de Vimoutiers,29
+toile de Vimoutiers,12,toile de Vimoutiers,30
 toile de Vitrée,1,toile de Vitrée,3
 toile de voile,12,toile de voile,15
 toile découpée,1,toile découpée,1
@@ -26225,7 +26223,7 @@ toile des Indes,143,toile des Indes,175
 toile des Indes ???,2,toile des Indes ???,2
 toile des Indes ??? ??? ??? Indes,1,toile des Indes ??? ??? ??? Indes,1
 toile des Indes baffetas,2,baffetas des Indes,2
-toile des Indes bajutapau,3,bajutapau,3
+toile des Indes bajutapau,3,bajutapau,237
 toile des Indes bala ? hala ? illisible,1,toile des Indes,175
 toile des Indes bandanas,1,bandanas des Indes,1
 toile des Indes basin,1,basin des Indes,47
@@ -26235,10 +26233,10 @@ toile des Indes birampots,2,birampots des Indes,2
 toile des Indes bleue,1,toile bleue des Indes,1
 toile des Indes brantes,1,toile brantes des Indes,1
 toile des Indes brauls,2,toile brauls des Indes,2
-toile des Indes cachelas,3,toile chasselas,3
-toile des Indes caladaris,2,caladaris,3
+toile des Indes cachelas,3,toile chasselas,213
+toile des Indes caladaris,2,caladaris,97
 toile des Indes challe,1,châles des Indes,1
-toile des Indes chaselas,2,toile chasselas,3
+toile des Indes chaselas,2,toile chasselas,213
 toile des Indes chouclas,2,chouclas des Indes,2
 toile des Indes commerce français,3,toile des Indes commerce français,3
 toile des Indes coton blanche,1,toile blanche de coton et des Indes,7
@@ -26246,7 +26244,7 @@ toile des Indes coupis,1,coupis des Indes,1
 toile des Indes de coton dite mousseline,3,mousseline de coton et des Indes,3
 toile des Indes de coton étranger,1,toile de coton étranger et des Indes,1
 toile des Indes de mousseline dite bétilles,1,bétilles des Indes,2
-toile des Indes de mousseline dite chaselas,1,toile chasselas,3
+toile des Indes de mousseline dite chaselas,1,toile chasselas,213
 toile des Indes de toute sorte,1,toile des Indes,175
 toile des Indes diverse,13,toile des Indes,175
 toile des Indes diverse du commerce étranger,1,toile du commerce étranger et des Indes,10
@@ -26276,7 +26274,7 @@ toile des Indes platille,2,platille des Indes,6
 toile des Indes provenant du commerce étranger,2,toile du commerce étranger et des Indes,10
 toile des Indes provenant du commerce français,5,toile du commerce de France et des Indes,18
 toile des Indes ricanias,1,ricanias des Indes,1
-toile des Indes romals,3,romals,3
+toile des Indes romals,3,romals,27
 toile des Indes shetas,1,shetas des Indes,1
 toile des Indes slatille,4,platille des Indes,6
 toile des Indes tapsel,3,tapsel des Indes,3
@@ -26296,7 +26294,7 @@ toile diverse batiste fine,5,batiste fine,8
 toile diverse cirée,2,toile cirée,524
 toile diverse coutil,5,coutil,503
 toile diverse d'emballage,3,toile d'emballage,718
-toile diverse de Bretagne,3,toile de Bretagne,603
+toile diverse de Bretagne,3,toile de Bretagne,604
 toile diverse de chanvre,2,toile de chanvre,635
 toile diverse de chanvre écrue,3,toile de chanvre écrue,21
 toile diverse de coton,2,toile de coton,1243
@@ -26310,8 +26308,8 @@ toile diverse des Indes,4,toile des Indes,175
 toile diverse en batiste,1,batiste,559
 toile diverse en lin et de chanvre,1,toile de chanvre et de lin,664
 toile diverse fil et coton,5,toile de coton et de fil,532
-toile diverse guingan,5,toile guingans,291
-toile diverse guingans,1,toile guingans,420
+toile diverse guingan,5,toile guingans,579
+toile diverse guingans,1,toile guingans,579
 toile diverse indienne,3,toile indienne,9
 toile diverse indienne étrangère,6,toile indienne,9
 toile diverse indienne française,6,toile indienne française,6
@@ -26321,8 +26319,8 @@ toile diverse mêlée,7,toile mêlée,7
 toile diverse Nankin,3,nankin,200
 toile diverse peinte française,1,toile peinte française,1
 toile diverse platille,1,platille,339
-toile diverse royale,1,toile royale,118
-toile diverse siamoise,4,siamoise,541
+toile diverse royale,1,toile royale,137
+toile diverse siamoise,4,siamoise,851
 toile diverse siamoise fil coton,1,siamoise fil coton,1
 toile du ???,1,toile du ???,1
 toile du Barrois,3,toile de Barrois,4
@@ -26354,11 +26352,11 @@ toile emballage,9,toile pour emballage,9
 toile emballée,1,toile emballée,1
 toile en chanvre,1,toile de chanvre,635
 toile en chanvre blanche,3,toile blanche de chanvre,3
-toile en chemises,2,chemise de toile,7
+toile en chemises,2,chemise de toile,2
 toile en coutil,5,toile de coutil,51
 toile en crin,1,toile de crin,278
 toile en fair,2,toile en fair,2
-toile en guingans,1,toile guingans,420
+toile en guingans,1,toile guingans,579
 toile en lin,1,toile de lin,697
 toile en lin et de chanvre,1,toile de chanvre et de lin,664
 toile en linge de tables,11,linge de table,521
@@ -26366,7 +26364,7 @@ toile en rossière,1,rossière de toile,1
 toile en sacs,11,sacs de toile,51
 toile en sacs vieux,1,sacs de toile vieux,4
 toile en serviettes,2,serviettes de toile,2
-toile en siamoise,3,toile de siamoise,313
+toile en siamoise,3,toile de siamoise,3
 toile en siamoise à peu de soie,1,siamoise à peu de soie,70
 toile en siamoise au sixième de soie,2,toile de siamoise au sixième de soie,2
 toile en siamoise fil et coton,1,siamoise de coton et de fil,95
@@ -26447,11 +26445,11 @@ toile ginguan nationale,5,gingan nationale,5
 toile glacée,1,toile glacée,2
 toile glacée aune,1,toile glacée,2
 toile gomme,1,toile gommée,4
-toile gommée bougron,3,toile bougran gommée ,3
+toile gommée bougron,3,toile bougran gommée,3
 toile gommée canevas,3,toile canevas gommée,3
-toile gommée dite treillis,1,toile treillis gommée,5
+toile gommée dite treillis,1,toile treillis gommée,1
 toile gommée diverse,3,toile gommée,4
-toile gommée treillis,4,toile treillis gommé,5
+toile gommée treillis,4,toile treillis gommé,4
 toile grasse,8,toile grasse,8
 toile gratienne,26,toile gratienne,26
 toile gratienne rayée,1,toile gratienne rayée,1
@@ -26479,16 +26477,16 @@ toile Guinée bleu,3,guinée bleue,187
 toile Guinée bleue,22,guinée bleue,187
 toile Guinée bleue imitant celle des Indes,1,guinée bleue imitant celle des Indes,1
 toile Guinée imitant celle des Indes,2,guinée imitant celle des Indes,2
-toile guingan,271,toile guingans,291
-toile guingans,24,toile guingans,420
-toile guingans de fil,8,toile guingans de fil,420
-toile guingans de Grenade,2,toile guingans de Grenade,420
-toile guingans de lin,4,toile guingans de lin,420
-toile guingans de Rouen,3,toile guingans de Rouen,420
-toile guingans en fil,5,toile guingans de fil,420
-toile guingans fil en coton,1,toile guingans de fil de coton,420
-toile guingans lin,2,toile guingans de lin,420
-toile haut brin,4,toile de Bretagne hauts brins,4
+toile guingan,271,toile guingans,579
+toile guingans,24,toile guingans,579
+toile guingans de fil,8,toile guingans de fil,17
+toile guingans de Grenade,2,toile guingans de Grenade,2
+toile guingans de lin,4,toile guingans de lin,6
+toile guingans de Rouen,3,toile guingans de Rouen,3
+toile guingans en fil,5,toile guingans de fil,17
+toile guingans fil en coton,1,toile guingans de fil de coton,1
+toile guingans lin,2,toile guingans de lin,6
+toile haut brin,4,toile de Bretagne hauts brins,32
 toile haut brin de Dinant,3,toile de Bretagne hauts brins de Dinan,3
 toile hivre,1,toile hivre,1
 toile hollande,1,toile hollande,1
@@ -26512,15 +26510,15 @@ toile indienne fil et coton,1,indienne de coton et de fil,1
 toile indienne fine,2,toile indienne fine,2
 toile indienne grosse,1,toile indienne grosse,1
 toile indienne nationale,5,toile indienne nationale,5
-toile judieau,3,bajutapau,3
+toile judieau,3,bajutapau,237
 toile kettroy,1,toile kettroy,1
-toile killis,40,toile de Killis,40
+toile killis,40,toile de Killis,45
 toile kircochaye,2,toile kircochaye,2
 toile lagias,1,toile lagias,1
 toile laistoufaire,1,toile laistoufaire,1
 toile Languenan,11,toile Languenan,11
-toile large,35,toile large,35
-toile large de lin,2,toile large,2
+toile large,35,toile large,37
+toile large de lin,2,toile large,37
 toile Laval,16,toile de Laval,317
 toile lavée,3,toile lavée,3
 toile lesat,1,toile lesat,1
@@ -26567,14 +26565,14 @@ toile mélangée de couleur,1,toile de couleur,13
 toile mêlée,34,toile,744
 toile mêlée ???,1,toile ???,22
 toile mêlée ...,1,toile ...,1
-toile mêlée à Bretagne,1,toile de Bretagne,603
+toile mêlée à Bretagne,1,toile de Bretagne,604
 toile mêlée à carreaux,10,toile à carreaux,260
 toile mêlée batiste et linon,17,batiste et linon,135
 toile mêlée blanche,21,toile blanche,900
 toile mêlée d'emballage,24,toile d'emballage,718
 toile mêlée d'étoupes,6,toile d'étoupes,96
 toile mêlée d'Irlande,1,toile d'Irlande,2
-toile mêlée de Bretagne,5,toile de Bretagne,603
+toile mêlée de Bretagne,5,toile de Bretagne,604
 toile mêlée de Cambrai,2,toile de Cambrai,74
 toile mêlée de chanvre et de lin,8,toile de chanvre et de lin,664
 toile mêlée de coutil,1,toile de coutil,51
@@ -26587,7 +26585,7 @@ toile mêlée de Rouen,1,toile de Rouen,62
 toile mêlée de Russie,1,toile de Russie,5
 toile mêlée diverse,54,toile,744
 toile mêlée diverse de coton,1,toile de coton,1243
-toile mêlée diverse peinte,1,toile peinte,982
+toile mêlée diverse peinte,1,toile peinte,1001
 toile mêlée écrue,10,toile écrue,64
 toile mêlée en ???,1,toile en ???,1
 toile mêlée en linge de tables,6,linge de table,521
@@ -26599,10 +26597,10 @@ toile mêlée grosse,12,toile grosse,209
 toile mêlée grosse ???,1,toile grosse ???,1
 toile mêlée grosse en faces,12,toile grosse en faces,12
 toile mêlée grosse et sommiers,6,toile grosse et sommiers,6
-toile mêlée guingan,7,toile guingans,291
-toile mêlée guingans,4,toile guingans,420
+toile mêlée guingan,7,toile guingans,579
+toile mêlée guingans,4,toile guingans,579
 toile mêlée imprimée,2,toile imprimée,12
-toile mêlée peinte,49,toile peinte,982
+toile mêlée peinte,49,toile peinte,1001
 toile mêlée peinte et teinte,1,toile peinte et teinte,7
 toile mêlée rayée,1,toile rayée,51
 toile mêlée serpillière,4,toile serpillière,98
@@ -26614,8 +26612,8 @@ toile mesdin,1,toile mesdin,8
 toile mi-blanche de moins de 8 fils,1,toile mi-blanche de moins de 8 fils,1
 toile miennel,1,toile miennel,1
 toile montagne,15,toile de montagne,15
-toile Morlaix,5,toile de Morlaix,5
-toile Mortagne,4,toile de Mortagne,4
+toile Morlaix,5,toile de Morlaix,143
+toile Mortagne,4,toile de Mortagne,142
 toile mousseline,53,mousseline,731
 toile mousseline brodée,1,mousseline brodée,9
 toile mousseline des Indes,1,mousseline des Indes,24
@@ -26655,11 +26653,11 @@ toile ouvrée serviettes,1,toile ouvrée serviettes,1
 toile palmite,1,toile palmite,1
 toile pécate,1,toile pécate,1
 toile peignée,1,toile peignée,1
-toile peinte,929,toile peinte,982
+toile peinte,929,toile peinte,1001
 toile peinte de Hollande,1,toile peinte de Hollande,1
 toile peinte des Indes,7,toile des Indes peinte,7
 toile peinte dite indienne,1,indienne peinte,30
-toile peinte diverse,1,toile peinte,982
+toile peinte diverse,1,toile peinte,1001
 toile peinte en camaïeu,1,toile peinte en camaïeu,1
 toile peinte et indienne,29,indienne peinte,30
 toile peinte et indienne des Indes,5,indienne des Indes et toile peinte,5
@@ -26730,7 +26728,7 @@ toile rayée pour mouchoirs aune,1,toile pour mouchoirs rayée,2
 toile rayée soie et coton,1,toile rayée coton et soie,1
 toile réforme,1,toile réforme,1
 toile reploc,1,toile reploc,1
-toile romals,14,romals,14
+toile romals,14,romals,27
 toile rondelette,4,toile rondelette,4
 toile rondelle,1,toile rondelle,1
 toile rosconne,31,toile rosconne,38
@@ -26740,10 +26738,10 @@ toile rouge et bleue,1,toile bleue et rouge,1
 toile rousse,52,toile rousse,52
 toile rousse fine,1,toile fine rousse,1
 toile rousse ordre,1,toile ordre et rousse,1
-toile royale,117,toile royale,118
-toile royale de lin,10,toile royale,56
-toile royale lin,8,toile royale,56
-toile royalle,1,toile royale,1
+toile royale,117,toile royale,137
+toile royale de lin,10,toile royale,137
+toile royale lin,8,toile royale,137
+toile royalle,1,toile royale,137
 toile sacs à boîtes,1,toile sacs à boîtes,1
 toile Saint-Gal ???,1,toile de Saint-Gail ???,1
 toile Saint-Quentin,4,toile de Saint-Quentin,4
@@ -26757,7 +26755,7 @@ toile sempiterne,1,toile sempiterne,1
 toile serpillère,3,toile serpillère,3
 toile serpillière,94,toile serpillière,98
 toile serviettes,3,toile serviettes,3
-toile siamoise,310,siamoise,313
+toile siamoise,310,siamoise,851
 toile siamoise commune,1,siamoise commune,18
 toile siamoise fil en coton,6,siamoise de coton et de fil,95
 toile siamoise fil et coton,38,siamoise de coton et de fil,95
@@ -26785,7 +26783,7 @@ toile toilerie,6,toile,744
 toile toillerie,4,toile,744
 toile toillerie diverse,3,toile,744
 toile tout coton,1,toile de coton,1243
-toile treillis,25,toile treillis,25
+toile treillis,25,toile treillis,120
 toile treillis et gommée,3,toile gommée et treillis,3
 toile treillis peinte,1,toile treillis peint,1
 toile Troyes,1,toile de Troyes,12
@@ -26911,7 +26909,7 @@ travettes de bois,1,travettes de bois,1
 travons,8,travons,8
 travons de sapin,6,travons de sapin,6
 travout,1,travout,1
-treillis,95,toile treillis,95
+treillis,95,toile treillis,120
 treillis bougrand et canevas,2,toile treillis bougrans et canevas,4
 treillis bougrand et canevas aune,2,toile treillis bougrans et canevas,4
 treillis d'Allemagne,1,toile treillis d'Allemagne,1
@@ -27424,7 +27422,7 @@ vestes de soie unies,1,vestes de soie unies,1
 vestes de toile,7,vestes de toile,7
 vestes de toile brodées,3,vestes de toile brodées,3
 vestes de toile grise,1,vestes de toile grise,1
-vestes de toile guingans,1,vestes de toile guinguans,420
+vestes de toile guingans,1,vestes de toile guinguans,1
 vestes de velours,3,vestes de velours,3
 vestes droguet de soie,1,vestes en droguet de soie,1
 vestes et bordures,1,vestes et bordures,1
