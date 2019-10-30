@@ -3919,7 +3919,7 @@ charrues,16,7,,non,8800
 charrues de fer,1,7,,non,8800
 chaselas des Indes,3,???,x,oui,4728
 chasse-mouches,1,8,,non,59817
-chasselas,179,6g,x,oui,13184
+toile chasselas,179,6g,x,oui,13184
 châssis de bois,1,6b,,non,17810
 chasuble,8,8,x,non,59817
 châtaignes,704,0a,x,non,80633
@@ -5873,7 +5873,7 @@ drap à matelot,1,6i,x,non,8996
 drap à nègre,2,6i,x,non,8996
 drap à sucre,6,6i,x,non,8996
 drap anglais,1,6i,x,non,8996
-drap au 6ème de soie,4,6f,,oui,10981
+drap au sixième de soie,4,6f,,oui,10981
 drap au sixième de soie,3,6f,,non,10981
 drap avarié,5,6e,,non,14169
 drap blanc,5,6i,x,non,8996
@@ -7013,7 +7013,7 @@ etocs de fer,13,???,x,non,4728
 étoffe à peu,,6h,x,oui,13391
 étoffe à peu de soie,155,6h,x,non,13391
 étoffe au ??? de soie,4,6h,x,non,13391
-étoffe au dessus du sixième de soie,1,6h,,oui,13391
+étoffe au-dessus du sixième de soie,1,6h,,oui,13391
 étoffe au filoselle,2,6h,x,non,13391
 étoffe au peu de soie,4,6e,,non,14169
 étoffe au poil sorge de Rome,1,6h,x,non,13391
@@ -7268,7 +7268,7 @@ etocs de fer,13,???,x,non,4728
 étoffe de velours de coton,13,6g,,non,13184
 étoffe de velours de soie,157,6f,,non,10981
 étoffe de voile,2,7,x,non,8800
-étoffe demi soie,5,6h,x,non,13391
+étoffe mi soie,5,6h,x,non,13391
 étoffe des Iles,4,6i,,non,8996
 étoffe des Indes,18,6g,x,non,13184
 étoffe des Indes vestes brodées,1,9b,,non,6087
@@ -7334,7 +7334,7 @@ etocs de fer,13,???,x,non,4728
 étoffe mêlée de soie ???,2,6h,,non,13391
 étoffe mêlée de soie à peu,63,6h,,non,13391
 étoffe mêlée de soie à peu de soie,111,6h,,non,13391
-étoffe mêlée de soie au 4/5e,4,6h,x,non,13391
+étoffe au 4/5e de soie,4,6h,x,non,13391
 étoffe mêlée de soie peluches,133,6h,,non,13391
 étoffe mêlée de soie peu,13,6h,,non,13391
 étoffe mêlée éternelle au ? de soie,1,6h,x,non,13391
@@ -7386,7 +7386,7 @@ etocs de fer,13,???,x,non,4728
 étoffe de poil,1,6e,,non,14169
 étoffe de soie blonde,5,6f,,non,10981
 étoffe de soie mêlée,2,6h,,non,13391
-étoffe de soie unis,2,6f,,non,10981
+étoffe de soie unie,2,6f,,non,10981
 étoffe des Indes,6,6i,,non,8996
 étoffe en feuilles,8,6i,,non,8996
 étoffe et fer en barres,1,9b,,non,6087
@@ -9022,7 +9022,7 @@ gaze,56,6i,x,non,8996
 gaze à fleurs,1,6f,,non,10981
 gaze à peu,,6h,x,oui,13391
 gaze à peu de soie,28,6h,x,non,13391
-gaze au 6e de soie,13,6h,x,non,13391
+gaze au sixième de soie,13,6h,x,non,13391
 gaze au bas de soie,1,6h,x,non,13391
 gaze au quart,22,6h,x,non,13391
 gaze au quart de soie,15,6h,x,non,13391
@@ -10737,7 +10737,7 @@ laine en flotte,1,2,x,non,77087
 laine en lain,2,2,,non,77087
 laine en masses,4,2,x,non,77087
 laine en pelote,1,2,,non,77087
-laine en peluches,18,2,,non,77087
+étoffe peluches de laines,18,2,,non,77087
 laine en poil de chameau,8,2,x,non,77087
 laine en rames,37,2,,non,77087
 laine en Renne,1,2,x,non,77087
@@ -11808,7 +11808,7 @@ mâts,360,7,x,non,8800
 mâts à bateau,1,7,,non,8800
 mâts à chaloupe,1,7,,non,8800
 mâts assortis,17,7,,non,8800
-mâts au dessous de 6 paumes,1,7,x,oui,8800
+mâts au-dessous de 6 paumes,1,7,x,oui,8800
 mâts bouts de 3 à 4 pieds,1,7,x,non,8800
 mâts communs,5,7,x,non,8800
 mâts communs de 50 pieds,1,7,,non,8800
@@ -12354,8 +12354,8 @@ meules à Talandier,2,6k,x,non,17033
 meules acoustiques,1,6k,,non,17033
 meules affiloires,7,6k,,non,17033
 meules assorties,1,6k,,non,17033
-meules au dessous de 4 pouces,1,6k,x,oui,17033
-meules au dessus de 4 pouces,1,6k,x,oui,17033
+meules au-dessous de 4 pouces,1,6k,x,oui,17033
+meules au-dessus de 4 pouces,1,6k,x,oui,17033
 meules bâtardes,33,6k,x,non,17033
 meules brodées,1,???,,non,4728
 meules coutier,1,6k,x,non,17033
@@ -13795,7 +13795,7 @@ panne de coton,1,6g,x,non,13184
 panne de laine,31,6e,x,non,14169
 panne de laine et de long poil,1,6e,,non,14169
 panne de laine et de poil,4,6e,x,non,14169
-panne de laine et peluche de laine,1,6e,x,non,14169
+panne de laine et peluches de laine,1,6e,x,non,14169
 panne de laine ficelée,1,6e,,non,14169
 panne de poil,38,6e,x,non,14169
 panne de poil longue,1,6e,,non,14169
@@ -16944,7 +16944,7 @@ raze de Saint-Lô,2,6i,,non,8996
 raze de Saint-Maur,13,6i,,non,8996
 raze de soie de Saint-Cyr,4,6f,,non,10981
 raze de soie de Saint-Maur,2,6f,,non,10981
-raze de soie de St Cyr,1,6f,x,non,10981
+raze de soie de Saint-Cyr,1,6f,x,non,10981
 raze des prises,1,6i,,non,8996
 reagal,19,5,x,non,48915
 rebuts de corail,1,2,,non,77087
@@ -19435,7 +19435,7 @@ toile cachelas des Indes,3,6h,,oui,13391
 toile cadéas,1,6h,,non,13391
 toile caissie,72,6h,x,non,13391
 toile caissière,1,6h,,non,13391
-toile caladaris,26,6h,,oui,13391
+caladaris,26,6h,,oui,13391
 toile calanea,1,6h,,non,13391
 toile calias,1,6h,,non,13391
 toile canevas,113,6d,x,non,19073
@@ -19495,7 +19495,7 @@ toile commune de lin,41,6d,,non,19073
 toile commune écrue et grosse et de lin,6,6d,,non,19073
 toile commune et fine,4,6h,x,non,13391
 toile cordat,38,6e,x,non,14169
-toile cordeillat,1,6e,,oui,14169
+cordeillat,1,6e,,oui,14169
 toile corot,165,6g,,non,13184
 toile corot double,2,6g,,non,13184
 toile corot imitant celle des Indes,1,6g,,non,13184
