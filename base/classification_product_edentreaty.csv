@@ -7498,7 +7498,7 @@ etocs de fer,13,,non,486168
 étoffe de coton et de laine et de filoselle,7,,non,486168
 étoffe de coton et de laine et de soie mélangés,26,,non,486168
 étoffe de coton et de laine retour,1,,non,486168
-étoffe de coton et de soie,72,Prohibé,non,92
+étoffe de coton et de soie,73,Prohibé,non,92
 étoffe de coton et de soie des Indes,1,Prohibé,non,92
 étoffe de coton et de soie éternelle,1,,non,486168
 étoffe de coton et de toile,1,Coton de toute espèce,non,8422
@@ -7530,7 +7530,7 @@ etocs de fer,13,,non,486168
 étoffe de fil et de laine,46,,non,486168
 étoffe de fil et de poil,1,,non,486168
 étoffe de fil et de poil de chèvre,2,,non,486168
-étoffe de fil et de soie,25,,non,486168
+étoffe de fil et de soie,26,,non,486168
 étoffe de fil et moquette,1,,non,486168
 étoffe de fil et poil de chèvre,2,,non,486168
 étoffe de fil et poil de chèvre aune,1,,oui,486168
@@ -7777,9 +7777,9 @@ etocs de fer,13,,non,486168
 étoffe mélangée de fleuret et de soie,1,,oui,486168
 étoffe mêlée au ??? soie,5,,non,486168
 étoffe mêlée de bourre en molleton,1,,non,486168
-étoffe mêlée de coton et de soie,1,Prohibé,non,92
+étoffe mêlée de coton et de soie,1,Prohibé,oui,92
 étoffe mêlée de fil de soie,8,,non,486168
-étoffe mêlée de fil et de soie,1,,non,486168
+étoffe mêlée de fil et de soie,1,,oui,486168
 étoffe mêlée de soie ?,1,,oui,486168
 étoffe mêlée de soie ???,2,,non,486168
 étoffe mêlée de soie à peu,63,,oui,486168
@@ -7791,9 +7791,12 @@ etocs de fer,13,,non,486168
 étoffe noire,1,,non,486168
 étoffe peinte,1,,non,486168
 étoffe peluches communes,1,,non,486168
-étoffe peluches de laine,1,,non,486168
+étoffe peluches de laine,21,,non,486168
 étoffe peluches de laines,18,Lainage,oui,9492
-étoffe peluchesde laines,18,,non,486168
+étoffe peluches de prise,1,,non,486168
+étoffe peluches de soie,6,,non,486168
+étoffe peluches de soies,6,,oui,486168
+étoffe peluchesde laines,18,,oui,486168
 étoffe peu de soie,1,,oui,486168
 étoffe poil en panne à long poil,1,,non,486168
 étoffe poil et laine,0,,oui,486168
@@ -9557,6 +9560,7 @@ gaze d'argent fin et d'or fin et de soie,0,,oui,486168
 gaze d'argent fin or fin et soie,1,,non,486168
 gaze d'argent or et soie,1,,non,486168
 gaze d'or et d'argent faux et de soie,1,,non,486168
+gaze d'or et de soie,3,,non,486168
 gaze d'or faux,1,,non,486168
 gaze d'or fin et de soie,1,,non,486168
 gaze de coton,10,,non,486168
@@ -9582,8 +9586,8 @@ gaze de soie et fil,9,,non,486168
 gaze de soie plâtrée,3,,non,486168
 gaze de soie pure,3,,non,486168
 gaze de toute autre sorte que soie pure,2,,non,486168
-gaze dorure de soie,2,,non,486168
-gaze dorure et soie,1,,non,486168
+gaze dorure de soie,2,,oui,486168
+gaze dorure et soie,1,,oui,486168
 gaze en crêpe,10,Gazes,non,162
 gaze en crêpe de soie,5,,non,486168
 gaze et Marly,1,,non,486168
@@ -11440,7 +11444,7 @@ laine pelade,127,,non,486168
 laine pelade et serge,1,,non,486168
 laine pelade et surge,0,,oui,486168
 laine pelleterie,1,,non,486168
-laine peluches ???,2,,non,486168
+laine peluches ???,2,,oui,486168
 laine petite,1,,non,486168
 laine place,2,,non,486168
 laine pour broder filée teinte,0,,oui,486168
@@ -15731,7 +15735,7 @@ peluches de bois,1,,non,486168
 peluches de coton,2,,non,486168
 peluches de laine,1,,non,486168
 peluches et panne,1,,non,486168
-peluchon de prises,1,,non,486168
+peluchon de prises,1,,oui,486168
 peluchon des prises,0,,oui,486168
 pelure de cacao,1,,non,486168
 pendant d'oreille,5,,non,486168
@@ -19213,7 +19217,6 @@ soie en étoupes,4,,non,486168
 soie en fleuret,5,,non,486168
 soie en laine,1,,non,486168
 soie en masses,1,,non,486168
-étoffe peluches de soies,6,,non,486168
 soie en rames,15,,non,486168
 soie en strasse,1,,non,486168
 soie en suaze,1,,non,486168
@@ -22268,7 +22271,6 @@ vestes de soie unies,1,,non,486168
 vestes de toile,7,,non,486168
 vestes de toile brodées,3,,non,486168
 vestes de toile grise,1,,non,486168
-vestes de toile guingans,1,,oui,486168
 vestes de toile guingans,1,,non,486168
 vestes de velours,3,,non,486168
 vestes en dorure de soie,1,,non,486168
