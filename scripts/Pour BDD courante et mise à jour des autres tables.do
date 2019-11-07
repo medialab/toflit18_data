@@ -121,7 +121,7 @@ import delimited "$dir/toflit18_data_GIT/traitements_marchandises/SITC/Définiti
  *(juste parce que c'est trop long)
 
 
-import delimited "toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -132,6 +132,9 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =usubinstr(`variable',"’","'",.)
 	replace `variable'  =ustrtrim(`variable')
 }
+
+
+zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.zip", replace)
 
 foreach variable of var quantit value prix_unitaire probleme { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -615,24 +618,23 @@ foreach class_name in sitc edentreaty ///
 	drop nbr_occure* _merge
 	capture drop obsolete
 	rename `class_name' product_`class_name'
+	if "`class_name'"=="revolutionempire" capture drop sitc sitc_FR
+	
 }
 rename simplification product_simplification
 
 
 
 
-foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 
-	capture drop product_`class_name'
-	capture drop sitc
-	rename product_sitc sitc
+rename product_sitc sitc
+foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 	merge m:1 sitc using "classification_product_`class_name'.dta"
-	rename sitc product_sitc
 	drop if _merge==2
 	drop _merge
 	rename `class_name' product_`class_name'
 }
-
+rename sitc product_sitc
 
 capture drop product_RE_aggregate
 rename product_revolutionempire revolutionempire
@@ -722,6 +724,8 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replac
 preserve
 drop if sourcetype=="Out"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
+		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.zip", replace)
 restore
 
 sort sourcetype direction year exportsimports numrodeligne 
@@ -881,8 +885,12 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutione
 
 */
 
+
+
+
+
 ****Pour classification luxe / bas de gamme
-**Pour colloque 2019
+/***Pour colloque 2019 (Renvoyé dans un .do différent)
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 

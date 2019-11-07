@@ -27,11 +27,15 @@ sort product_simplification product_sitc_FR u_conv
 
 
 merge 1:1 product_simplification product_sitc_FR u_conv using "$dir/Données Stata/classification_autre_luxe.dta", update force
+drop obsolete
 gen obsolete="non"
 replace obsolete ="oui" if _merge==2
 drop _merge
 
 gsort product_sitc_FR u_conv - nbobs product_simplification
+
+drop if obsolete=="oui"
+drop if nbobs<=9
 
 export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
 
