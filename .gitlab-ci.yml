@@ -17,9 +17,8 @@ build_bdd_centrale:
   artifacts:
     untracked: true
     expire_in: "1 day"
-  image: python:2.7-alpine3.7
+  image: python:3.5-alpine3.9
   script:
-    - pip install --quiet csvkit
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
   only:
     - staging
