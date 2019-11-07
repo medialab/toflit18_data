@@ -133,6 +133,9 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =ustrtrim(`variable')
 }
 
+
+zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.zip", replace)
+
 foreach variable of var quantit value prix_unitaire probleme { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -721,6 +724,8 @@ export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replac
 preserve
 drop if sourcetype=="Out"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
+		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.zip", replace)
 restore
 
 sort sourcetype direction year exportsimports numrodeligne 
