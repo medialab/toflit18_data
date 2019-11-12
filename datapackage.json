@@ -3,7 +3,7 @@
   "datapackage_version": "1.0-beta",
   "title": "toflit18 ANR project data",
   "description": "",
-  "version": "2.0",
+  "version": "1.0",
   "keywords": ["history", "economy", "France", "Trade","18th century"],
   "licenses": [{
     "url": "http://opendatacommons.org/licenses/odbl/",
@@ -12,20 +12,27 @@
     "id": "odc-odbl"
   }],
   "sources": [{
-    "name": "Diverses",
-    "web": "http://toflit18.hypotheses.org"
+    "name": "The archives of French eighteenth century trade",
+    "web": "http://toflit18.medialab.sciences-po.fr/#/exploration/sources"
   }],
   "contributors":[ {
     "name": "Paul Girard",
     "email": "paul.girard@sciencespo.fr",
-    "web": "http://medialab.sciences-po.fr"
+    "web": "http://medialab.sciences-po.fr",
+    "role": "author"
   },
    {
     "name": "Guillaume Daudin",
-    "email": "guillaume.daudin@dauphine.fr ",
-    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html"
+    "email": "guillaume.daudin@dauphine.psl.eu ",
+    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html",
+    "role": "author"
+  },
+  {
+    "name": "Guillaume Daudin",
+    "email": "guillaume.daudin@dauphine.psl.eu ",
+    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html",
+    "role": "author"
   }
-
   ],
   "maintainers": [
   {
@@ -48,14 +55,6 @@
       "encoding":"UTF8"
     },
     {     
-      "path": "sources",
-      "name": "digitalized sources",
-      "description": "digitalized data sources from Balance du commerce. CSV files in folders",
-      "mediatype":"inode/directory",
-      "format":"csv",
-      "encoding":"UTF8"
-    },
-    {     
       "path": "toflit18.csv",
       "name": "the toflit18 unified database",
       "description": "all sources unified in one database ready to be analyzed",
@@ -63,14 +62,22 @@
       "format":"csv",
       "encoding":"UTF8"
     },
-    
-        {     
+    {     
       "path": "Traitement des marchandises",
       "name": "Work on the name of goods",
       "description": "Work on the name of goods",
       "mediatype":"text/csv",
       "format":"csv",
       "encoding":"UTF8"
+    },
+    {     
+      "group": "flows",
+      "path": "sources/National/${filename}.csv",
+      "name": "${filename}",
+      "mediatype":"text/csv",
+      "format":"csv",
+      "encoding":"UTF8", 
+      "schema": "csv_sources_schema.json"
     }
     
   ]
