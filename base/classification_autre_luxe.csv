@@ -1,6 +1,6 @@
 product_simplification,product_sitc_FR,u_conv,mean_price,median_price,sd_price,nbobs,type,position_type,PositiondansSITC,obsolete
-drap,Autres filés ou tissés,cm,.22230694,.13463479,.78201109,139,tissés,milieu de gamme,,non
-drap de France,Autres filés ou tissés,cm,.15899463,.12622012,.21265921,34,tissés,milieu de gamme,,non
+drap,Autres filés ou tissés,cm,.22230694,.13463479,.78201109,139,tissés,milieu de gamme,milieu de gamme,non
+drap de France,Autres filés ou tissés,cm,.15899463,.12622012,.21265921,34,tissés,milieu de gamme,milieu de gamme,non
 panne,Autres filés ou tissés,cm,.051161226,.050488051,.015491156,25,tissés,bas de gamme,,non
 drap écarlate,Autres filés ou tissés,cm,.20573881,.21457422,.050152931,20,tissés,milieu de gamme,,non
 drap petit,Autres filés ou tissés,cm,.044288743,.048402999,.027307129,19,tissés,bas de gamme,,non
@@ -342,13 +342,13 @@ cordage de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, c
 cordage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,2.3669262,.61287028,30.014677,498,filés,,,non
 fil à coudre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,5.6636467,4.0858021,3.1568825,408,filés,,,non
 toile de Bretagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,7.7538571,8.1716032,2.9564502,305,tissés,bas de gamme,bas de gamme,non
-ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.9546385,6.1287026,17.608137,278,filés,bas de gamme,milieu de gamme,non
+ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.9546385,6.1287026,17.608137,278,passementerie,bas de gamme,milieu de gamme,non
 toile de lin de Saint-Quentin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,57.171341,57.201225,9.1403809,246,tissés,bas de gamme,bas de gamme,non
 toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,16.272121,12.257406,11.773283,246,tissés,bas de gamme,bas de gamme,non
 fil blanc,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.8669395,4.0858021,2.9102201,245,filés,,,non
 toile de lin blanche,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,15.507504,10.677942,16.016621,236,tissés,bas de gamme,,non
 toile de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,5.1272912,4.0858021,7.9661107,234,tissés,bas de gamme,,non
-dentelle de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,918.67352,593.71808,870.9397,201,filés,haut de gamme,,non
+dentelle de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,918.67352,593.71808,870.9397,201,passementerie,haut de gamme,,non
 toile de Laval,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.3294592,8.1716032,5.5759897,177,tissés,bas de gamme,,non
 fil blanc à coudre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,5.3838034,5.1068244,2.1110473,159,filés,,,non
 dentelle du Puy,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,99.721367,102.14505,47.9729,159,filés,haut de gamme,,non
@@ -410,7 +410,7 @@ toile rousse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre
 toile écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.0081744,3.3206015,2.3764746,14,tissés,bas de gamme,,non
 toile de Vimoutiers,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.1202703,4.0858021,.12892027,14,tissés,bas de gamme,,non
 toile de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,5.2166934,4.0858021,3.3230584,14,tissés,bas de gamme,milieu de gamme,non
-filets d'espars,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.2069607,.20429011,28.226227,13,tissés,,,non
+filets d'espars,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.2069607,.20429011,28.226227,13,filés,,,non
 toile gros fort,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.1250887,4.0858021,.14164968,13,tissés,bas de gamme,,non
 toile fine de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,32.092804,40.858017,16.629692,13,tissés,milieu de gamme,,non
 fil à coudre de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,5.1524138,6.1287026,1.7975472,12,filés,,,non
