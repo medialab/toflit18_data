@@ -37,7 +37,7 @@ gsort product_sitc_FR u_conv - nbobs product_simplification
 drop if obsolete=="oui"
 drop if nbobs<=9
 
-gsort + product_sitc_FR + u_conv - nbobs
+gsort + product_sitc_FR + u_conv - nbobs + product_simplification
 
 order product_simplification product_sitc_FR u_conv mean_price median_price sd_price nbobs type position_type PositiondansSITC obsolete
 
