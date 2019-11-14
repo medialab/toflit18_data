@@ -19,7 +19,7 @@ collapse (mean) mean_price=unit_price_metric (median)  median_price=unit_price_m
 gsort product_simplification - value
 rename value nbobs
 
-gen positiondansSITC=""
+gen PositiondansSITC=""
 gen type=""
 gen position_type=""
 
