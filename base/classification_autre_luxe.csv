@@ -12,12 +12,12 @@ drap,Autres filés ou tissés,kg,18.551474,20.429008,8.8265352,204,tissés,milie
 étoffe d'argent et d'or,Autres filés ou tissés,kg,164.43518,163.43208,20.492985,136,tissés,haut de gamme,,non
 étoffe dorure d'argent et d'or,Autres filés ou tissés,kg,179.85153,183.86108,17.064119,93,tissés,haut de gamme,,non
 drap écarlate,Autres filés ou tissés,kg,30.36808,30.643515,6.2701478,79,tissés,milieu de gamme,,non
-tapisserie,Autres filés ou tissés,kg,25.233328,12.257405,119.32246,72,tissés,haut de gamme,,non
-tapisserie d'Auvergne,Autres filés ou tissés,kg,9.2241898,10.214505,3.3410494,55,tissés,haut de gamme,,non
-tapisserie d'Aubusson,Autres filés ou tissés,kg,10.766959,12.257405,3.4406443,55,tissés,haut de gamme,,non
+tapisserie,Autres filés ou tissés,kg,25.233328,12.257405,119.32246,72,tissés,milieu de gamme,,non
+tapisserie d'Auvergne,Autres filés ou tissés,kg,9.2241898,10.214505,3.3410494,55,tissés,milieu de gamme,,non
+tapisserie d'Aubusson,Autres filés ou tissés,kg,10.766959,12.257405,3.4406443,55,tissés,milieu de gamme,,non
 fil en masse,Autres filés ou tissés,kg,2.8757558,3.0643513,.88913953,47,filés,,,non
 tapisserie de Rouen,Autres filés ou tissés,kg,4.207932,4.0858021,1.4004793,46,tissés,bas de gamme,,non
-molleton,Autres filés ou tissés,kg,8.4553404,8.1716042,3.188652,45,tissés,bas de gamme,,non
+molleton,Autres filés ou tissés,kg,8.4553404,8.1716042,3.188652,45,tissés,milieu de gamme,,non
 dentelle d'argent et d'or,Autres filés ou tissés,kg,354.19394,306.43515,184.89058,45,passementerie,haut de gamme,,non
 galon de fil,Autres filés ou tissés,kg,7.521193,6.1287031,3.0920699,39,passementerie,bas de gamme,,non
 galon d'or faux,Autres filés ou tissés,kg,54.818085,40.858017,69.444054,36,passementerie,milieu de gamme,,non
@@ -25,11 +25,11 @@ panne,Autres filés ou tissés,kg,17.785255,14.300307,11.305015,34,tissés,bas d
 fil du Piémont,Autres filés ou tissés,kg,1.9902807,2.0429008,.6942488,33,filés,,,non
 cordage vieux,Autres filés ou tissés,kg,.20583776,.20429009,.083847694,33,filés,,,non
 fil de corailleur,Autres filés ou tissés,kg,2.5888486,2.042901,1.265314,29,filés,,,non
-galon dorure d'argent et d'or,Autres filés ou tissés,kg,275.13544,268.29837,31.210346,28,passementerie,haut de gamme,,non
-mouchoirs des Indes,Autres filés ou tissés,kg,34.336159,16.343208,32.875328,27,tissés,milieu de gamme,,non
-drap molleton,Autres filés ou tissés,kg,9.6574259,8.1716042,3.4572854,25,tissés,,,non
-tapis,Autres filés ou tissés,kg,10.646977,10.214505,5.4299083,24,tissés,,,non
-étoffe riche en or et argent,Autres filés ou tissés,kg,198.56525,192.55914,48.475529,23,tissés,haut de gamme,,non
+galon dorure d'argent et d'or,Autres filés ou tissés,kg,275.13544,268.29837,31.210346,28,passementerie,haut de gamme,haut de gamme,non
+mouchoirs des Indes,Autres filés ou tissés,kg,34.336159,16.343208,32.875328,27,tissés,milieu de gamme,haut de gamme,non
+drap molleton,Autres filés ou tissés,kg,9.6574259,8.1716042,3.4572854,25,tissés,milieu de gamme,milieu de gamme,non
+tapis,Autres filés ou tissés,kg,10.646977,10.214505,5.4299083,24,tissés,bas de gamme,milieu de gamme,non
+étoffe riche en or et argent,Autres filés ou tissés,kg,198.56525,192.55914,48.475529,23,tissés,haut de gamme,haut de gamme,non
 étoffe de fil et de laine,Autres filés ou tissés,kg,10.253424,8.9409409,4.8269148,23,tissés,,,non
 étoffe d'or,Autres filés ou tissés,kg,188.4599,183.86108,22.245819,23,tissés,haut de gamme,,non
 drap de julienne,Autres filés ou tissés,kg,26.451273,18.386108,15.60886,22,tissés,milieu de gamme,,non
@@ -37,7 +37,7 @@ galon d'argent et d'or faux,Autres filés ou tissés,kg,47.915314,40.858021,40.9
 fil de couleur,Autres filés ou tissés,kg,4.7229924,4.5965271,1.5362238,21,filés,,,non
 galon dorure d'or,Autres filés ou tissés,kg,312.28125,325.39728,67.776146,20,passementerie,haut de gamme,,non
 étoffe dorure,Autres filés ou tissés,kg,198.16139,204.2901,46.443638,20,tissés,haut de gamme,,non
-mouchoirs,Autres filés ou tissés,kg,21.155525,12.257405,15.993011,19,tissés,milieu de gamme,,non
+mouchoirs,Autres filés ou tissés,kg,21.155525,12.257405,15.993011,19,tissés,milieu de gamme,milieu de gamme,non
 dentelle d'argent,Autres filés ou tissés,kg,222.20804,245.14812,65.430672,18,passementerie,haut de gamme,,non
 passementerie,Autres filés ou tissés,kg,41.068665,18.948467,50.446938,17,passementerie,milieu de gamme,,non
 gaze,Autres filés ou tissés,kg,114.26768,102.14505,45.039398,17,tissés,haut de gamme,haut de gamme,non
@@ -59,7 +59,7 @@ fil à folle,Autres filés ou tissés,kg,1.4504597,1.2257407,.68232763,10,filés
 carisé,Autres filés ou tissés,kg,2.4209194,1.8386108,1.5279452,10,tissés,bas de gamme,,non
 velours cramoisi,Autres filés ou tissés,kg,294.17773,112.35955,586.34698,10,tissés,haut de gamme,,non
 étamine de Acims,Autres filés ou tissés,kg,16.343258,16.343208,.00015568257,10,tissés,bas de gamme,,non
-mouchoirs des Indes,Autres filés ou tissés,pièces,21.851032,24,11.568439,146,tissés,milieu de gamme,,non
+mouchoirs des Indes,Autres filés ou tissés,pièces,21.851032,24,11.568439,146,tissés,milieu de gamme,haut de gamme,non
 mouchoirs,Autres filés ou tissés,pièces,17.858744,5,67.004074,114,tissés,milieu de gamme,,non
 serviettes,Autres filés ou tissés,pièces,1.8719264,1.6666666,1.8644048,107,tissés,bas de gamme,,non
 chitte,Autres filés ou tissés,pièces,45.415386,40,30.165115,65,tissés,milieu de gamme,haut de gamme,non
@@ -80,37 +80,37 @@ toile coutil,Autres filés ou tissés mélangés de fibres végétales dont toil
 toile de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.027847297,.025244026,.012951067,53,tissés,milieu de gamme,milieu de gamme,non
 siamoise de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.027158897,.021036688,.017117092,49,tissés,milieu de gamme,milieu de gamme,non
 toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0070437868,.0050488049,.0096242363,49,tissés,bas de gamme,bas de gamme,non
-toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.015672166,.014725682,.0082104206,43,tissés,milieu de gamme,,non
-toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.025083236,.025244026,.011138984,43,tissés,milieu de gamme,,non
+toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.015672166,.014725682,.0082104206,43,tissés,bas de gamme,milieu de gamme,non
+toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.025083236,.025244026,.011138984,43,tissés,milieu de gamme,milieu de gamme,non
 toile de Poldavie,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0099305548,.01009761,.0037580864,34,tissés,bas de gamme,bas de gamme,non
-cotonnine,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.021099221,.018933019,.0071707494,32,tissés,milieu de gamme,,non
-toile étroite,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.010545488,.012622012,.0027330113,31,tissés,bas de gamme,,non
+cotonnine,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.021099221,.018933019,.0071707494,32,tissés,milieu de gamme,milieu de gamme,non
+toile étroite,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.010545488,.012622012,.0027330113,31,tissés,bas de gamme,bas de gamme,non
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.012237081,.010518344,.0046791085,27,tissés,bas de gamme,bas de gamme,non
-toile linon,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.059045531,.059206348,.012142995,27,tissés,milieu de gamme,,non
-toile de Hollande,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.03985377,.037866037,.0087535428,27,tissés,milieu de gamme,,non
-toile de Flandre,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.021522149,.021036688,.0068801921,26,tissés,milieu de gamme,,non
-toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0096147778,.0084146755,.0039007002,25,tissés,bas de gamme,,non
-toile rosconne,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0082043083,.0075732078,.0013071334,24,tissés,bas de gamme,,non
-toile gratienne,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.011432983,.011780545,.0011808663,23,tissés,bas de gamme,,non
-toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0044748941,.0042073377,.0012821888,22,tissés,bas de gamme,,non
-toile de Combourg,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0085315453,.0079939412,.0031412172,18,tissés,bas de gamme,,non
-toile de Pontivy,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.016209938,.01314793,.0061482331,18,tissés,bas de gamme,,non
-toile de Fougères,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0073503274,.0071524736,.0017668027,17,tissés,bas de gamme,,non
-toile de Léon,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.010320351,.010518344,.00026264921,17,tissés,bas de gamme,,non
-toile ???,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.060394865,.050488051,.049804006,15,tissés,bas de gamme,,non
+toile linon,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.059045531,.059206348,.012142995,27,tissés,milieu de gamme,milieu de gamme,non
+toile de Hollande,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.03985377,.037866037,.0087535428,27,tissés,bas de gamme,milieu de gamme,non
+toile de Flandre,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.021522149,.021036688,.0068801921,26,tissés,bas de gamme,milieu de gamme,non
+toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0096147778,.0084146755,.0039007002,25,tissés,bas de gamme,bas de gamme,non
+toile rosconne,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0082043083,.0075732078,.0013071334,24,tissés,bas de gamme,bas de gamme,non
+toile gratienne,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.011432983,.011780545,.0011808663,23,tissés,bas de gamme,bas de gamme,non
+toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0044748941,.0042073377,.0012821888,22,tissés,bas de gamme,bas de gamme,non
+toile de Combourg,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0085315453,.0079939412,.0031412172,18,tissés,bas de gamme,bas de gamme,non
+toile de Pontivy,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.016209938,.01314793,.0061482331,18,tissés,bas de gamme,bas de gamme,non
+toile de Fougères,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0073503274,.0071524736,.0017668027,17,tissés,bas de gamme,bas de gamme,non
+toile de Léon,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.010320351,.010518344,.00026264921,17,tissés,bas de gamme,bas de gamme,non
+toile ???,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.060394865,.050488051,.049804006,15,tissés,bas de gamme,bas de gamme,non
 toile d'Olonne,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0091914143,.010518344,.0022053178,13,tissés,bas de gamme,bas de gamme,non
-toile grise,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.01171222,.010518344,.0034626084,13,tissés,bas de gamme,,non
+toile grise,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.01171222,.010518344,.0034626084,13,tissés,bas de gamme,bas de gamme,non
 toile coutil commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.01486285,.014304948,.001961055,12,tissés,bas de gamme,bas de gamme,non
 toile coutil de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.021427596,.021036688,.0027849262,11,tissés,bas de gamme,milieu de gamme,non
-toile de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.016955571,.016829351,.0041794297,10,tissés,milieu de gamme,,non
+toile de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.016955571,.016829351,.0041794297,10,tissés,bas de gamme,milieu de gamme,non
 toile blanche peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.030082464,.025244026,.017517947,10,tissés,milieu de gamme,milieu de gamme,non
-toile blanche,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,9.2758551,10.214504,2.8152313,592,tissés,milieu de gamme,milieu de gamme,non
+toile blanche,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,9.2758551,10.214504,2.8152313,592,tissés,bas de gamme,milieu de gamme,non
 toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,12.498677,10.214505,12.678682,529,tissés,milieu de gamme,milieu de gamme,non
 toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,1.6475112,2.0429008,.56411356,332,tissés,bas de gamme,bas de gamme,non
-siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,8.7086401,8.1716042,2.6806748,328,tissés,milieu de gamme,,non
+siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,8.7086401,8.1716042,2.6806748,328,tissés,milieu de gamme,milieu de gamme,non
 toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,6.704381,6.1287031,8.4116659,282,tissés,bas de gamme,milieu de gamme,non
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,3.8297052,2.5536261,5.7165208,214,tissés,bas de gamme,bas de gamme,non
-mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,11.693056,10.214504,11.921925,163,tissés,milieu de gamme,,non
+mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,11.693056,10.214504,11.921925,163,tissés,milieu de gamme,milieu de gamme,non
 toile de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,10.438751,10.214504,4.2604361,141,tissés,milieu de gamme,milieu de gamme,non
 toile coutil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,5.7719002,4.4441195,5.6174998,120,tissés,bas de gamme,milieu de gamme,non
 toile blanche et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,7.0604215,7.1501513,.41677904,76,tissés,milieu de gamme,,non
@@ -150,27 +150,27 @@ batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,
 padoux de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,6.332993,5.6179781,2.1960523,10,passementerie,bas de gamme,bas de gamme,non
 toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,27.139095,24.500225,18.589655,250,tissés,milieu de gamme,haut de gamme,non
 toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,13.957636,10,6.8299427,177,tissés,bas de gamme,bas de gamme,non
-demitte,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.6708002,3,1.1024657,126,tissés,bas de gamme,,non
+demitte,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.6708002,3,1.1024657,126,tissés,bas de gamme,milieu de gamme,non
 batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.8022728,4,.73579472,110,tissés,bas de gamme,bas de gamme,non
 toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,69.492531,80,20.866493,107,tissés,bas de gamme,bas de gamme,non
 mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,11.170583,2.3809524,62.078514,105,tissés,milieu de gamme,milieu de gamme,non
 toile d'Antioche,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,11.069307,12,2.0988445,101,tissés,milieu de gamme,milieu de gamme,non
-toile manouf,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,7.3564358,7,1.0916424,101,tissés,bas de gamme,,non
+toile manouf,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,7.3564358,7,1.0916424,101,tissés,bas de gamme,milieu de gamme,non
 toile blanche,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,53.894756,50,31.213091,100,tissés,bas de gamme,milieu de gamme,non
-toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,45.569603,49.988739,42.53289,68,tissés,bas de gamme,,non
+toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,45.569603,49.988739,42.53289,68,tissés,bas de gamme,milieu de gamme,non
 mouchoirs peints,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,25.034754,24,17.885069,65,tissés,milieu de gamme,haut de gamme,non
 toile coutil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,35.952847,40,14.027217,56,tissés,bas de gamme,milieu de gamme,non
-mouchoirs de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.770514,1.0833334,5.1873355,55,tissés,bas de gamme,milieu de gamme,non
-toile caissie,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,5.181818,5,.72241646,55,tissés,bas de gamme,,non
+mouchoirs de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.770514,1.0833334,5.1873355,55,tissés,milieu de gamme,milieu de gamme,non
+toile caissie,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,5.181818,5,.72241646,55,tissés,bas de gamme,bas de gamme,non
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,9.1497564,5,12.386665,44,tissés,bas de gamme,bas de gamme,non
-toile de Levant,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,8.3505621,8.333333,3.4407237,37,tissés,milieu de gamme,,non
-siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,40.978638,36,27.39888,33,tissés,milieu de gamme,,non
-toile cottray,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,37.78788,40,4.0984569,33,tissés,,,non
+toile de Levant,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,8.3505621,8.333333,3.4407237,37,tissés,milieu de gamme,milieu de gamme,non
+siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,40.978638,36,27.39888,33,tissés,milieu de gamme,milieu de gamme,non
+toile cottray,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,37.78788,40,4.0984569,33,tissés,bas de gamme,milieu de gamme,non
 toile crue,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,38.724136,35,24.989851,29,tissés,bas de gamme,bas de gamme,non
-toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,9.2410717,8,5.5358605,28,tissés,bas de gamme,,non
+toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,9.2410717,8,5.5358605,28,tissés,bas de gamme,bas de gamme,non
 sennes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,56.370369,60,24.836617,27,filés,,,non
-toile abat,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,5.0869565,5,1.6212522,23,tissés,bas de gamme,,non
-toile étrangère,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,34.5,30,12.381823,22,tissés,bas de gamme,,non
+toile abat,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,5.0869565,5,1.6212522,23,tissés,bas de gamme,bas de gamme,non
+toile étrangère,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,34.5,30,12.381823,22,tissés,bas de gamme,milieu de gamme,non
 toile d'antale,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,10.454545,9,2.1542268,22,tissés,bas de gamme,,non
 toile à serviettes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,34.523632,40,29.255978,21,tissés,bas de gamme,,non
 toile d'étoupes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,13.588235,10,7.2375655,17,tissés,bas de gamme,,non
@@ -234,7 +234,7 @@ limeneas,Filés ou tissés de coton,kg,27.579163,20.42901,21.283995,12,tissés,h
 indienne,Filés ou tissés de coton,pièces,20.289211,18,10.752488,492,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs de coton,Filés ou tissés de coton,pièces,9.2679558,8,8.0543137,457,tissés,milieu de gamme,milieu de gamme,non
 limeneas,Filés ou tissés de coton,pièces,23.891756,24,8.5660629,259,tissés,milieu de gamme,haut de gamme,non
-mousseline,Filés ou tissés de coton,pièces,74.653076,75,31.835838,245,tissés,haut de gamme,milieu de gamme,non
+mousseline,Filés ou tissés de coton,pièces,74.653076,75,31.835838,245,tissés,haut de gamme,haut de gamme,non
 bajutapau,Filés ou tissés de coton,pièces,24.031574,24,5.3043952,219,tissés,milieu de gamme,milieu de gamme,non
 ajamis,Filés ou tissés de coton,pièces,9.0367651,9,2.0914726,204,tissés,haut de gamme,milieu de gamme,non
 nicanéas,Filés ou tissés de coton,pièces,18.488716,20,6.5859404,201,tissés,haut de gamme,milieu de gamme,non
@@ -243,7 +243,7 @@ guinée bleue,Filés ou tissés de coton,pièces,26.669664,26,8.6429844,171,tiss
 salemporis,Filés ou tissés de coton,pièces,21.461006,20,6.6661873,169,tissés,milieu de gamme,haut de gamme,non
 basin,Filés ou tissés de coton,pièces,25.041265,22,15.601571,167,tissés,milieu de gamme,milieu de gamme,non
 neganepeau,Filés ou tissés de coton,pièces,22.810726,24,6.6971679,158,tissés,milieu de gamme,milieu de gamme,non
-tapsel,Filés ou tissés de coton,pièces,19.98064,20,5.9285464,151,tissés,,,non
+tapsel,Filés ou tissés de coton,pièces,19.98064,20,5.9285464,151,tissés,milieu de gamme,milieu de gamme,non
 toile corot,Filés ou tissés de coton,pièces,6.8797297,5.5,4.9823527,148,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs de Pondichéry,Filés ou tissés de coton,pièces,20.190771,20,5.5873241,141,tissés,milieu de gamme,milieu de gamme,non
 guinée,Filés ou tissés de coton,pièces,28.39151,25,9.983037,132,tissés,milieu de gamme,milieu de gamme,non
@@ -265,7 +265,7 @@ cotonnée,Filés ou tissés de coton,pièces,36.828571,40,20.551922,35,tissés,m
 basin des Indes,Filés ou tissés de coton,pièces,33.083332,30,12.718507,33,tissés,milieu de gamme,milieu de gamme,non
 nelis,Filés ou tissés de coton,pièces,19.557812,20,4.9171047,32,tissés,haut de gamme,milieu de gamme,non
 garas blanc,Filés ou tissés de coton,pièces,16.898438,16,3.8635285,32,tissés,bas de gamme,bas de gamme,non
-mouchoirs Masulipatan,Filés ou tissés de coton,pièces,27.971874,28,8.3715715,32,tissés,,,non
+mouchoirs Masulipatan,Filés ou tissés de coton,pièces,27.971874,28,8.3715715,32,tissés,haut de gamme,haut de gamme,non
 garas bleu,Filés ou tissés de coton,pièces,19.581814,18,6.0186906,29,tissés,bas de gamme,bas de gamme,non
 bétilles,Filés ou tissés de coton,pièces,35.824001,35,11.927883,25,tissés,haut de gamme,haut de gamme,non
 toile de basin,Filés ou tissés de coton,pièces,26.135183,26,11.59957,25,tissés,milieu de gamme,milieu de gamme,non
@@ -439,17 +439,17 @@ toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, ch
 coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,31.246988,30,17.105906,83,tissés,milieu de gamme,milieu de gamme,non
 batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,86.121948,50.305248,190.78725,79,tissés,,,non
 filets à pêcher,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,42.635715,45,19.714249,70,filés,,,non
-mouchoirs de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,5.6823063,1.5,6.8971567,60,tissés,bas de gamme,,non
-toile de Mortagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,6.9499998,5,8.4062958,50,tissés,bas de gamme,,non
-toile crée,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,64.577774,60,19.370184,45,tissés,bas de gamme,,non
-toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,38.67963,30,27.004477,45,tissés,bas de gamme,,non
-toile de Bretagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,18.926828,7.5,19.041176,41,tissés,bas de gamme,,non
-toile grosse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,31.081467,20,26.597359,40,tissés,bas de gamme,,non
-toile de Bretagne étroite,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,13.713236,9.0000019,7.8898988,34,tissés,bas de gamme,,non
-toile de Bretagne large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,34.074074,12,44.52494,27,tissés,bas de gamme,,non
-toile écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,36.851852,36,10.260843,27,tissés,bas de gamme,,non
+mouchoirs de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,5.6823063,1.5,6.8971567,60,tissés,bas de gamme,milieu de gamme,non
+toile de Mortagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,6.9499998,5,8.4062958,50,tissés,bas de gamme,bas de gamme,non
+toile crée,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,64.577774,60,19.370184,45,tissés,bas de gamme,bas de gamme,non
+toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,38.67963,30,27.004477,45,tissés,bas de gamme,bas de gamme,non
+toile de Bretagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,18.926828,7.5,19.041176,41,tissés,bas de gamme,bas de gamme,non
+toile grosse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,31.081467,20,26.597359,40,tissés,bas de gamme,bas de gamme,non
+toile de Bretagne étroite,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,13.713236,9.0000019,7.8898988,34,tissés,bas de gamme,bas de gamme,non
+toile de Bretagne large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,34.074074,12,44.52494,27,tissés,bas de gamme,bas de gamme,non
+toile écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,36.851852,36,10.260843,27,tissés,bas de gamme,bas de gamme,non
 filets à sardineaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,42.39801,40,12.000419,25,filés,,,non
-mouchoirs de batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,14.683393,11,12.590899,24,tissés,,,non
+mouchoirs de batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,14.683393,11,12.590899,24,tissés,bas de gamme,milieu de gamme,non
 toile de Saintonge,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,39,40,7.3824115,21,tissés,bas de gamme,,non
 mouchoirs de fil organdi,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,41.442856,32,13.210251,14,tissés,milieu de gamme,,non
 toile canevas,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,23.538462,10,31.611219,13,tissés,bas de gamme,,non
