@@ -45,3 +45,64 @@ export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", re
 
 
 
+**********Puis test et création des classifications "sandards"
+
+*****D'abord, je fais de la classification de luxe une triple classification "comme les autres"
+
+
+use "$dir/Données Stata/classification_autre_luxe.dta", clear
+gen test=.
+bys product_simplification  (type): replace test= type[1]== type[_N]
+codebook test
+br if test==0 
+assert test==1
+
+
+rename type type_textile
+bys product_simplification : keep if _n==1
+rename product_simplification simplification
+
+keep simplification type_textile
+
+save "$dir/Données Stata/classification_product_type_textile.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_type_textile.csv", replace
+***
+
+use "$dir/Données Stata/classification_autre_luxe.dta", clear
+gen test=.
+bys product_simplification  (position_type): replace test= position_type[1]== position_type[_N]
+codebook test
+gsort + product_sitc_FR + product_simplification
+br if test==0
+assert test==1
+
+bys product_simplification : keep if _n==1
+
+rename position_type luxe_dans_type
+rename product_simplification simplification
+
+keep simplification luxe_dans_type
+save "$dir/Données Stata/classification_product_luxe_dans_type.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_luxe_dans_type.csv", replace
+***
+
+
+use "$dir/Données Stata/classification_autre_luxe.dta", clear
+gen test=.
+bys product_simplification  (PositiondansSITC): replace test= PositiondansSITC[1]== PositiondansSITC[_N]
+codebook test
+br if test==0
+assert test==1
+
+bys product_simplification : keep if _n==1
+
+rename PositiondansSITC luxe_dans_SITC
+rename product_simplification simplification
+
+keep simplification luxe_dans_SITC
+save "$dir/Données Stata/classification_product_luxe_dans_SITC.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_luxe_dans_SITC.csv", replace
+
+
+
+
