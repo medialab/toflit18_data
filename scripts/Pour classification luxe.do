@@ -37,6 +37,8 @@ gsort product_sitc_FR u_conv - nbobs product_simplification
 drop if obsolete=="oui"
 drop if nbobs<=9
 
+gsort + product_sitc_FR + u_conv - nbobs
+
 export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
 
 
