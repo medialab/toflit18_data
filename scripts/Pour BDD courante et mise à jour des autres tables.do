@@ -839,7 +839,7 @@ merge m:1 simplification using "$dir/Données Stata/classification_product_revol
 drop if _merge==2
 drop _merge
 
-merge m:1 simplification using "$dir/Données Stata/classification_product_RE_aggregate.dta"
+merge m:1 revolutionempire using "$dir/Données Stata/classification_product_RE_aggregate.dta"
 drop if _merge==2
 drop _merge
 
