@@ -709,34 +709,48 @@ rename yearnum year
  generate quantities_metric = q_conv * quantit
  generate unit_price_metric=value/quantities_metric
  
- save "$dir/Données Stata/bdd courante", replace
-
+ 
+ 
+ 
+ *************Pour les best guess
+ gen NationalBestGuess=0
+ replace NationalBestGuess=1 if (sourcetype=="National toutes directions tous partenaires" & year==1750) /*
+		*/ | (sourcetype=="Objet Général" & year >=1754 & year <=1782) /*
+		*/ | (sourcetype=="Résumé")
+		
+ gen LocalBestGuess=0
+ replace LocalBestGuess=1 if (sourcetype=="Local" & year!=1750) /*
+		*/ | (sourcetype=="National toutes directions tous partenaires" & year==1750)
+		
+save "$dir/Données Stata/bdd courante", replace
  
  *******************************************************************
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
  
  
  ********************************************************************
+use "$dir/Données Stata/bdd courante.dta", clear
 
  missings dropobs, force
  missings dropvars, force
  
-
+sort sourcetype direction year exportsimports numrodeligne 
+order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
+		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
+ 
+ 
 export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
-preserve
+save "$dir/Données Stata/bdd courante_avec_out.dta", replace
+
+
+
+
 drop if sourcetype=="Out"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
 		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
-restore
-
-sort sourcetype direction year exportsimports numrodeligne 
-order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
-		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
-
-save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 drop if sourcetype=="Out"
 save "$dir/Données Stata/bdd courante.dta", replace
 
