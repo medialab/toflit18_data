@@ -708,6 +708,7 @@ rename yearnum year
  
  generate quantities_metric = q_conv * quantit
  generate unit_price_metric=value/quantities_metric
+ replace  unit_price_metric=prix_unitaire if q_conv==1 & unit_price_metric==.
  
  
  
