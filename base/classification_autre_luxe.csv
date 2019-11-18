@@ -1,5 +1,5 @@
 product_simplification,product_sitc_FR,u_conv,mean_price,median_price,sd_price,nbobs,type,position_type,PositiondansSITC,obsolete
-Nankin,Filés ou tissés de coton,kg,48.718258,23.401894,43.35928,11,,,,non
+Nankin,Filés ou tissés de coton,kg,48.718258,23.401894,43.35928,11,tissés,milieu de gamme,haut de gamme,non
 Pékin,Filés ou tissés de soie et soie mélangée,pièces,80.142021,80,39.594849,58,tissés,haut de gamme,haut de gamme,non
 Pékin uni,Filés ou tissés de soie et soie mélangée,pièces,83.183334,72.099998,29.327642,12,tissés,haut de gamme,haut de gamme,non
 agrément de soie,Filés ou tissés de soie et soie mélangée,kg,78.855843,81.716042,37.030464,19,passementerie,haut de gamme,haut de gamme,non
@@ -19,8 +19,8 @@ basin,Filés ou tissés de coton,cm,.023376755,.025244026,.010074412,74,tissés,
 basin,Filés ou tissés de coton,kg,11.34711,12.257405,6.85357,292,tissés,milieu de gamme,milieu de gamme,non
 basin,Filés ou tissés de coton,pièces,24.866423,22,15.580455,167,tissés,milieu de gamme,milieu de gamme,non
 basin des Indes,Filés ou tissés de coton,pièces,33.083332,30,12.718507,33,tissés,milieu de gamme,milieu de gamme,non
-basin et Nankin,Autres filés ou tissés,kg,33.342968,32.407555,2.574784,56,,,,non
-basin uni et Nankin uni,Autres filés ou tissés,kg,17.190201,17.190201,.71826071,38,,,,non
+basin et Nankin,Autres filés ou tissés,kg,33.342968,32.407555,2.574784,56,tissés,milieu de gamme,haut de gamme,non
+basin uni et Nankin uni,Autres filés ou tissés,kg,17.190201,17.190201,.71826071,38,tissés,milieu de gamme,haut de gamme,non
 batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,4.8379612,5.1072526,3.2680902,11,tissés,bas de gamme,milieu de gamme,non
 batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.8022728,4,.73579472,110,tissés,bas de gamme,milieu de gamme,non
 batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,80.042747,50,185.18147,79,tissés,milieu de gamme,haut de gamme,non
@@ -28,7 +28,7 @@ batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jut
 batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.062907174,.050758854,.035348665,209,tissés,milieu de gamme,haut de gamme,non
 batiste de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.048785079,.050488051,.0058992608,12,tissés,milieu de gamme,haut de gamme,non
 batiste de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.041652642,.050488051,.01297276,15,tissés,milieu de gamme,haut de gamme,non
-batiste de lin et linon de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,10,,,,non
+batiste de lin et linon de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,10,tissés,milieu de gamme,haut de gamme,non
 batiste et linon,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,103.53594,76.500725,65.071198,64,tissés,milieu de gamme,haut de gamme,non
 bayette,Filés ou tissés de laine et de poil,kg,14.597445,6.1287026,32.86388,14,tissés,bas de gamme,bas de gamme,non
 bayette,Filés ou tissés de laine et de poil,cm,.034489267,.025244026,.038562205,34,tissés,bas de gamme,bas de gamme,non
@@ -63,10 +63,10 @@ camelot de soie,Filés ou tissés de soie et soie mélangée,kg,20.243292,20.429
 camelot de soie,Filés ou tissés de soie et soie mélangée,pièces,170.90909,200,53.750263,11,tissés,haut de gamme,milieu de gamme,non
 camelot à peu de soie,Filés ou tissés de soie et soie mélangée,kg,13.278856,11.235955,4.7667689,10,tissés,milieu de gamme,bas de gamme,non
 carisel,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,2.3749404,1.8386108,1.5144266,12,tissés,bas de gamme,bas de gamme,non
-casimir et mérinos fin de laine,Filés ou tissés de laine et de poil,kg,13.873179,13.804515,.073329888,23,,,,non
-casimir fin de laine,Filés ou tissés de laine et de poil,kg,21.534958,21.534958,0,10,,,,non
+casimir et mérinos fin de laine,Filés ou tissés de laine et de poil,kg,13.873179,13.804515,.073329888,23,tissés,milieu de gamme,haut de gamme,non
+casimir fin de laine,Filés ou tissés de laine et de poil,kg,21.534958,21.534958,0,10,tissés,milieu de gamme,haut de gamme,non
 chillas,Filés ou tissés de coton,pièces,18.170732,12,22.784756,41,tissés,milieu de gamme,milieu de gamme,non
-chitte,Filés ou tissés de coton,pièces,45.415386,40,30.165115,65,,,,non
+chitte,Filés ou tissés de coton,pièces,45.415386,40,30.165115,65,tissés,milieu de gamme,haut de gamme,non
 chuquelas,Filés ou tissés de soie et soie mélangée,pièces,25.536423,23.5,8.2570038,35,tissés,haut de gamme,milieu de gamme,non
 cirsaca,Filés ou tissés de soie et soie mélangée,pièces,47.957291,50,17.880457,48,tissés,milieu de gamme,milieu de gamme,non
 cordage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,2.2416689,.67415732,27.411043,592,filés,,,non
@@ -81,7 +81,7 @@ cordeillat,Filés ou tissés de laine et de poil,cm,.014296822,.012622013,.00713
 cordes d'auf,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,.18432538,.20429011,.077133194,11,filés,,,non
 cordes de chanvre,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,.66053796,.61287028,.33501056,30,filés,,,non
 cordes et ficelles,Autres filés ou tissés,kg,1.5890485,1.6842583,.70231503,10,filés,,,non
-cordons de soie,Filés ou tissés de soie et soie mélangée,kg,59.952049,61.287029,17.223528,12,passementerie,haut de gamme,haut de gamme,non
+cordons de soie,Filés ou tissés de soie et soie mélangée,kg,59.952049,61.287029,17.223528,12,passementerie,haut de gamme,milieu de gamme,non
 cotonille,Filés ou tissés de coton,cm,.019248569,.016829351,.0064126044,20,tissés,milieu de gamme,milieu de gamme,non
 cotonnades,Filés ou tissés de coton,pièces,33.125,35,15.658331,15,tissés,milieu de gamme,bas de gamme,non
 cotonnades,Filés ou tissés de coton,kg,5.9375925,6.1287026,2.0420055,31,tissés,milieu de gamme,bas de gamme,non
@@ -97,10 +97,10 @@ coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute
 coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.020830862,.016829351,.01128042,137,tissés,bas de gamme,milieu de gamme,non
 crêpe de Reims,Autres filés ou tissés,pièces,48.082329,50,4.2651601,10,tissés,milieu de gamme,milieu de gamme,non
 crêpe de soie,Filés ou tissés de soie et soie mélangée,kg,81.571175,80,52.302097,11,tissés,haut de gamme,haut de gamme,non
-crêpe et gaze et tulle,Filés ou tissés de soie et soie mélangée,unité manquante,,,,24,,,,non
-crêpe et gaze et tulle de soie,Filés ou tissés de soie et soie mélangée,kg,134.82846,82.442398,81.654205,76,,,,non
-crêpe et étoffe et gaze et passementerie et ruban de soie,Filés ou tissés de soie et soie mélangée,kg,73.284737,74.06427,.83249629,23,,,,non
-crêpe et étoffe et passementerie et ruban de soie,Filés ou tissés de soie et soie mélangée,kg,73.74778,73.74778,0,11,,,,non
+crêpe et gaze et tulle,Filés ou tissés de soie et soie mélangée,unité manquante,,,,24,tissés,haut de gamme,milieu de gamme,non
+crêpe et gaze et tulle de soie,Filés ou tissés de soie et soie mélangée,kg,134.82846,82.442398,81.654205,76,tissés,haut de gamme,milieu de gamme,non
+crêpe et étoffe et gaze et passementerie et ruban de soie,Filés ou tissés de soie et soie mélangée,kg,73.284737,74.06427,.83249629,23,passementerie,haut de gamme,milieu de gamme,non
+crêpe et étoffe et passementerie et ruban de soie,Filés ou tissés de soie et soie mélangée,kg,73.74778,73.74778,0,11,tissés,haut de gamme,milieu de gamme,non
 câble,Autres filés ou tissés,kg,.67766756,.61287028,.13904837,11,filés,,,non
 damas,Filés ou tissés de soie et soie mélangée,cm,.08616627,.1009761,.031181516,10,tissés,haut de gamme,bas de gamme,non
 damas,Filés ou tissés de soie et soie mélangée,pièces,115.91022,110,78.287888,44,tissés,haut de gamme,bas de gamme,non
@@ -114,20 +114,20 @@ dentelle commune,"Filés ou tissés de fibre végétale non mélangée (lin, cha
 dentelle d'argent,Autres filés ou tissés,kg,222.20804,245.14812,65.430672,18,passementerie,haut de gamme,haut de gamme,non
 dentelle d'argent et d'or,Autres filés ou tissés,kg,354.19394,306.43515,184.89058,45,passementerie,haut de gamme,haut de gamme,non
 dentelle de Caen,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,208.00447,204.2901,183.81982,10,passementerie,haut de gamme,milieu de gamme,non
-dentelle de coton et blonde de coton,Filés ou tissés de coton,unité manquante,,,,18,,,,non
+dentelle de coton et blonde de coton,Filés ou tissés de coton,unité manquante,,,,18,passementerie,haut de gamme,milieu de gamme,non
 dentelle de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.73537415,.050488051,1.818626,23,passementerie,haut de gamme,haut de gamme,non
 dentelle de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,918.67352,593.71808,870.9397,208,passementerie,haut de gamme,haut de gamme,non
 dentelle de fil blanc,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,702.03973,524.72272,721.95569,156,passementerie,haut de gamme,haut de gamme,non
 dentelle de fil commune,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,147.08368,81.716034,190.54643,17,passementerie,haut de gamme,milieu de gamme,non
 dentelle de fil du Puy,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,123.64784,102.14504,120.75891,18,passementerie,haut de gamme,haut de gamme,non
-dentelle de fil et soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,53,,,,non
-dentelle de fil et tulle,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,31,,,,non
+dentelle de fil et soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,53,passementerie,haut de gamme,haut de gamme,non
+dentelle de fil et tulle,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,31,passementerie,haut de gamme,haut de gamme,non
 dentelle de soie,Filés ou tissés de soie et soie mélangée,kg,663.66565,715.01532,252.34521,334,passementerie,haut de gamme,haut de gamme,non
-dentelle de soie blonde,Filés ou tissés de soie et soie mélangée,unité manquante,,,,61,,,,non
+dentelle de soie blonde,Filés ou tissés de soie et soie mélangée,unité manquante,,,,61,passementerie,haut de gamme,haut de gamme,non
 dentelle du Puy,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,98.48259,102.14505,48.942741,159,passementerie,haut de gamme,haut de gamme,non
-dentelle et blonde,Filés ou tissés de soie et soie mélangée,unité manquante,,,,19,,,,non
-dentelle et galon et passementerie,Autres filés ou tissés,kg,211.24304,204.65068,142.11696,54,,,,non
-dentelle et galon et passementerie et ruban,Autres filés ou tissés,kg,235.52245,149.72501,100.88831,28,,,,non
+dentelle et blonde,Filés ou tissés de soie et soie mélangée,unité manquante,,,,19,passementerie,haut de gamme,haut de gamme,non
+dentelle et galon et passementerie,Autres filés ou tissés,kg,211.24304,204.65068,142.11696,54,passementerie,haut de gamme,haut de gamme,non
+dentelle et galon et passementerie et ruban,Autres filés ou tissés,kg,235.52245,149.72501,100.88831,28,passementerie,haut de gamme,haut de gamme,non
 dissouchaye,Filés ou tissés de soie et soie mélangée,pièces,22.807407,24,8.4713964,25,tissés,haut de gamme,milieu de gamme,non
 drap,Autres filés ou tissés,cm,.20114608,.12622012,.69768536,139,tissés,milieu de gamme,milieu de gamme,non
 drap,Autres filés ou tissés,kg,16.164282,13.278856,8.4364386,204,tissés,milieu de gamme,milieu de gamme,non
@@ -159,7 +159,7 @@ drap de Sedan,Filés ou tissés de laine et de poil,cm,.16554348,.16829351,.0337
 drap de Silésie,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,17.265974,18.386108,3.7353091,96,tissés,bas de gamme,milieu de gamme,non
 drap de Silésie,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.059335925,.05469539,.017925346,13,tissés,bas de gamme,milieu de gamme,non
 drap de coton,Filés ou tissés de coton,cm,.047428168,.050488051,.010658924,11,tissés,milieu de gamme,milieu de gamme,non
-drap de coton et étoffe de coton,Filés ou tissés de coton,kg,13.232519,11.51976,1.8194565,25,,,,non
+drap de coton et étoffe de coton,Filés ou tissés de coton,kg,13.232519,11.51976,1.8194565,25,tissés,milieu de gamme,milieu de gamme,non
 drap de julienne,Autres filés ou tissés,kg,26.451273,18.386108,15.60886,22,tissés,milieu de gamme,milieu de gamme,non
 drap de laine,Filés ou tissés de laine et de poil,pièces,181.89999,200,67.830978,19,tissés,milieu de gamme,milieu de gamme,non
 drap de laine,Filés ou tissés de laine et de poil,cm,.11212653,.1009761,.058668606,59,tissés,milieu de gamme,milieu de gamme,non
@@ -169,19 +169,19 @@ drap de laine d'Elbeuf,Filés ou tissés de laine et de poil,cm,.25790817,.12623
 drap de laine de Louviers,Filés ou tissés de laine et de poil,cm,.16927864,.16829351,.0055937227,80,tissés,haut de gamme,haut de gamme,non
 drap de laine de Saint-Robert,Filés ou tissés de laine et de poil,kg,36.775875,36.772217,.01213089,11,tissés,haut de gamme,haut de gamme,non
 drap de laine de Van Robais,Filés ou tissés de laine et de poil,kg,35.543774,36.772217,5.0333924,27,tissés,haut de gamme,haut de gamme,non
-drap de laine et petits et étoffe,Filés ou tissés de laine et de poil,kg,38.432533,47.790756,14.104589,34,,,,non
+drap de laine et petits et étoffe,Filés ou tissés de laine et de poil,kg,38.432533,47.790756,14.104589,34,tissés,bas de gamme,milieu de gamme,non
 drap de laine fin,Filés ou tissés de laine et de poil,kg,27.454596,30.643513,6.4123788,41,tissés,haut de gamme,haut de gamme,non
 drap de laine londrin,Filés ou tissés de laine et de poil,cm,.12043597,.16829349,.056129314,16,tissés,milieu de gamme,milieu de gamme,non
 drap de laine londrin,Filés ou tissés de laine et de poil,kg,13.590228,12.257406,5.959374,23,tissés,milieu de gamme,milieu de gamme,non
 drap fin,Filés ou tissés de laine et de poil,kg,17.308775,16.343208,6.1780343,47,tissés,milieu de gamme,haut de gamme,non
 drap fin,Filés ou tissés de laine et de poil,cm,.16217375,.16829351,.056845076,22,tissés,milieu de gamme,haut de gamme,non
 drap fin du Languedoc,Filés ou tissés de laine et de poil,kg,14.393167,16.343208,2.8529143,22,tissés,milieu de gamme,milieu de gamme,non
-drap fins de laine,Filés ou tissés de laine et de poil,kg,40.729832,40.729832,0,18,,,,non
+drap fins de laine,Filés ou tissés de laine et de poil,kg,40.729832,40.729832,0,18,tissés,milieu de gamme,haut de gamme,non
 drap londrin,Filés ou tissés de laine et de poil,kg,13.757214,14.300306,2.5140152,171,tissés,milieu de gamme,milieu de gamme,non
 drap londrin,Filés ou tissés de laine et de poil,cm,.071073942,.075732075,.01395851,14,tissés,milieu de gamme,milieu de gamme,non
 drap molleton,Autres filés ou tissés,kg,9.6574259,8.1716042,3.4572854,25,tissés,bas de gamme,milieu de gamme,non
 drap ordinaire,Filés ou tissés de laine et de poil,kg,12.285872,12.257405,3.0942228,149,tissés,bas de gamme,milieu de gamme,non
-drap ordinaires de laine,Filés ou tissés de laine et de poil,kg,40.87624,40.87624,0,17,,,,non
+drap ordinaires de laine,Filés ou tissés de laine et de poil,kg,40.87624,40.87624,0,17,tissés,bas de gamme,milieu de gamme,non
 drap petit,Autres filés ou tissés,kg,7.1002555,6.1287031,5.1995978,511,tissés,bas de gamme,milieu de gamme,non
 drap petit,Autres filés ou tissés,cm,.040070768,.042073376,.029130392,19,tissés,bas de gamme,milieu de gamme,non
 drap petit de Silésie,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.053078637,.050488051,.013802713,10,tissés,bas de gamme,milieu de gamme,non
@@ -270,20 +270,20 @@ galon dorure d'argent et d'or,Autres filés ou tissés,kg,275.13544,268.29837,31
 galon dorure d'or,Autres filés ou tissés,kg,312.28125,325.39728,67.776146,20,passementerie,haut de gamme,haut de gamme,non
 garas blanc,Filés ou tissés de coton,pièces,16.898438,16,3.8635285,32,tissés,bas de gamme,bas de gamme,non
 garas bleu,Filés ou tissés de coton,pièces,19.581814,18,6.0186906,29,tissés,bas de gamme,bas de gamme,non
-gaze,Autres filés ou tissés,kg,114.26768,102.14505,45.039398,17,tissés,haut de gamme,haut de gamme,non
-gaze,Autres filés ou tissés,pièces,2646.8909,60,9976.7871,14,tissés,haut de gamme,haut de gamme,non
-gaze au quart de soie,Filés ou tissés de soie et soie mélangée,kg,34.192547,30.643515,14.313736,19,tissés,milieu de gamme,bas de gamme,non
+gaze,Autres filés ou tissés,kg,114.26768,102.14505,45.039398,17,tissés,haut de gamme,milieu de gamme,non
+gaze,Autres filés ou tissés,pièces,2646.8909,60,9976.7871,14,tissés,haut de gamme,milieu de gamme,non
+gaze au quart de soie,Filés ou tissés de soie et soie mélangée,kg,34.192547,30.643515,14.313736,19,tissés,haut de gamme,milieu de gamme,non
 gaze au sixième de soie,Filés ou tissés de soie et soie mélangée,kg,66.580734,81.716034,26.147692,11,tissés,haut de gamme,milieu de gamme,non
-gaze crêpe et mouchoirs de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,142,,,,non
-gaze crêpe et ruban de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,57,,,,non
-gaze crêpe et tulle de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,12,,,,non
-gaze de coton et crêpe de coton et tulle de coton,Filés ou tissés de coton,kg,32.294552,20.413343,26.88011,16,,,,non
+gaze crêpe et mouchoirs de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,142,tissés,haut de gamme,haut de gamme,non
+gaze crêpe et ruban de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,57,tissés,haut de gamme,haut de gamme,non
+gaze crêpe et tulle de soie,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,12,tissés,haut de gamme,haut de gamme,non
+gaze de coton et crêpe de coton et tulle de coton,Filés ou tissés de coton,kg,32.294552,20.413343,26.88011,16,tissés,haut de gamme,milieu de gamme,non
 gaze de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,81.325554,81.716034,25.172089,36,tissés,milieu de gamme,haut de gamme,non
 gaze de soie,Filés ou tissés de soie et soie mélangée,kg,142.25392,162.73801,69.310699,321,tissés,haut de gamme,haut de gamme,non
 gaze de soie,Filés ou tissés de soie et soie mélangée,pièces,51.95826,50,18.781336,11,tissés,haut de gamme,haut de gamme,non
 gaze de soie,Filés ou tissés de soie et soie mélangée,cm,.021676308,.01893248,.011755886,31,tissés,haut de gamme,haut de gamme,non
-gaze de soie et crêpe de soie et mouchoirs de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,58,,,,non
-gaze et mouchoirs et ruban de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,40,,,,non
+gaze de soie et crêpe de soie et mouchoirs de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,58,tissés,haut de gamme,milieu de gamme,non
+gaze et mouchoirs et ruban de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,40,tissés,haut de gamme,milieu de gamme,non
 gaze mi soie,Filés ou tissés de soie et soie mélangée,kg,80.427429,81.716042,6.4148326,23,tissés,haut de gamme,milieu de gamme,non
 gaze or et argent,Autres filés ou tissés,kg,262.97708,224.7191,124.26848,11,passementerie,haut de gamme,haut de gamme,non
 gaze à peu de soie,Filés ou tissés de soie et soie mélangée,kg,46.043846,30.643515,33.418922,13,tissés,haut de gamme,bas de gamme,non
@@ -295,12 +295,12 @@ indienne,Filés ou tissés de coton,cm,.032103382,.029451363,.02220756,86,tissé
 indienne,Filés ou tissés de coton,kg,12.024515,8.1716042,10.384875,73,tissés,milieu de gamme,milieu de gamme,non
 indienne,Filés ou tissés de coton,pièces,21.261871,18,12.279402,492,tissés,milieu de gamme,milieu de gamme,non
 indienne de coton,Filés ou tissés de coton,cm,.033527222,.033658702,.007544667,16,tissés,milieu de gamme,haut de gamme,non
-indienne de coton et siamoise de coton et toile de coton imprimée et toile de coton peinte et toile de coton teinte,Filés ou tissés de coton,kg,19.675583,20.707382,1.0960751,25,,,,non
-indienne de coton et siamoise de coton et toile de coton peinte,Filés ou tissés de coton,kg,16.710117,4.106534,16.804779,16,,,,non
-indienne de coton et toile de coton peinte,Filés ou tissés de coton,kg,21.578354,21.578354,0,12,,,,non
-indienne peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,20,,,,non
-lainage couvertures,Filés ou tissés de laine et de poil,kg,20.208515,19.216888,1.0657097,21,,,,non
-laine blanche et fine et filée et teinte,Filés ou tissés de laine et de poil,kg,21.21109,21.21109,0,13,,,,non
+indienne de coton et siamoise de coton et toile de coton imprimée et toile de coton peinte et toile de coton teinte,Filés ou tissés de coton,kg,19.675583,20.707382,1.0960751,25,tissés,milieu de gamme,haut de gamme,non
+indienne de coton et siamoise de coton et toile de coton peinte,Filés ou tissés de coton,kg,16.710117,4.106534,16.804779,16,tissés,milieu de gamme,haut de gamme,non
+indienne de coton et toile de coton peinte,Filés ou tissés de coton,kg,21.578354,21.578354,0,12,tissés,milieu de gamme,milieu de gamme,non
+indienne peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,20,tissés,milieu de gamme,milieu de gamme,non
+lainage couvertures,Filés ou tissés de laine et de poil,kg,20.208515,19.216888,1.0657097,21,tissés,bas de gamme,milieu de gamme,non
+laine blanche et fine et filée et teinte,Filés ou tissés de laine et de poil,kg,21.21109,21.21109,0,13,tissés,milieu de gamme,milieu de gamme,non
 lampareille de poil,Filés ou tissés de laine et de poil,pièces,36.866665,40,4.868855,30,tissés,bas de gamme,milieu de gamme,non
 liens de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.1675181,4.0858021,1.3146274,20,filés,,,non
 limeneas,Filés ou tissés de coton,kg,23.639282,9.7037792,21.991249,12,tissés,milieu de gamme,haut de gamme,non
@@ -318,7 +318,7 @@ moquette,Filés ou tissés de laine et de poil,kg,9.0825748,8.1716042,4.193891,3
 mouchoirs,Autres filés ou tissés,pièces,17.569395,7,65.04335,114,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs,Autres filés ou tissés,kg,20.09775,12.257405,16.269367,20,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs Masulipatan,Filés ou tissés de coton,pièces,27.971874,28,8.3715715,32,tissés,haut de gamme,haut de gamme,non
-mouchoirs blancs et teints,Autres filés ou tissés,kg,12.968797,12.214129,1.3490831,27,,,,non
+mouchoirs blancs et teints,Autres filés ou tissés,kg,12.968797,12.214129,1.3490831,27,tissés,milieu de gamme,bas de gamme,non
 mouchoirs d'indienne,Filés ou tissés de coton,pièces,15.25,15.5,8.843132,52,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs de Bengale,Filés ou tissés de coton,pièces,17.158428,14,8.3578148,86,tissés,milieu de gamme,haut de gamme,non
 mouchoirs de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,9.7395639,8.1716042,4.0563903,66,tissés,bas de gamme,milieu de gamme,non
@@ -335,10 +335,10 @@ mouchoirs de coton des Indes,Filés ou tissés de coton,pièces,58.882233,5,170.
 mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,11.311069,10.214504,9.8186054,163,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,11.073936,2.5,61.494106,105,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de coton et fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,3.458303,2.25,3.6832573,12,tissés,bas de gamme,milieu de gamme,non
-mouchoirs de coton et fil de coton,Filés ou tissés de coton,unité manquante,,,,16,,,,non
+mouchoirs de coton et fil de coton,Filés ou tissés de coton,unité manquante,,,,16,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,11.579281,8.1716042,9.4281416,79,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,3.2467678,2,4.3465362,179,tissés,bas de gamme,milieu de gamme,non
-mouchoirs de fil et de coton,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,82,,,,non
+mouchoirs de fil et de coton,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,82,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de fil organdi,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,41.442856,32,13.210251,14,tissés,bas de gamme,milieu de gamme,non
 mouchoirs de gaze,Filés ou tissés de soie et soie mélangée,kg,100.13995,112.35955,66.857681,14,tissés,haut de gamme,haut de gamme,non
 mouchoirs de gaze,Filés ou tissés de soie et soie mélangée,pièces,4.8472571,1.5,11.866387,40,tissés,haut de gamme,haut de gamme,non
@@ -350,29 +350,29 @@ mouchoirs de toile de Cholet,"Filés ou tissés de fibre végétale non mélang�
 mouchoirs des Indes,Filés ou tissés de coton,pièces,21.851032,24,11.568439,146,tissés,milieu de gamme,haut de gamme,non
 mouchoirs des Indes,Filés ou tissés de coton,kg,33.109867,16.343208,32.906898,27,tissés,milieu de gamme,haut de gamme,non
 mouchoirs du Béarn,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,7.5520816,3.7573099,10.579415,12,tissés,bas de gamme,bas de gamme,non
-mouchoirs et mouchoirs des Indes,Autres filés ou tissés,unité manquante,,,,17,,,,non
+mouchoirs et mouchoirs des Indes,Autres filés ou tissés,unité manquante,,,,17,tissés,milieu de gamme,milieu de gamme,non
 mouchoirs peints,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,24.655439,24,18.012512,65,tissés,milieu de gamme,haut de gamme,non
 mouchoirs romals,Filés ou tissés de coton,pièces,14.847149,14,12.795838,49,tissés,milieu de gamme,milieu de gamme,non
-mousseline,Filés ou tissés de coton,kg,93.794899,102.1312,73.697769,115,tissés,haut de gamme,haut de gamme,non
-mousseline,Filés ou tissés de coton,cm,.096792877,.075732075,.095211692,65,tissés,haut de gamme,haut de gamme,non
-mousseline,Filés ou tissés de coton,pièces,73.750015,75,32.681507,245,tissés,haut de gamme,haut de gamme,non
-mousseline de coton,Filés ou tissés de coton,kg,81.099236,101.84462,35.889824,48,tissés,haut de gamme,haut de gamme,non
-mousseline de coton,Filés ou tissés de coton,cm,.078498855,.088354088,.025765633,10,tissés,haut de gamme,haut de gamme,non
-mousseline de coton et nankin,Filés ou tissés de coton,unité manquante,,,,11,,,,non
-mousseline de coton et nankin des Indes,Filés ou tissés de coton,unité manquante,,,,21,,,,non
-mousseline de coton unies et brûlées,Filés ou tissés de coton,kg,203.03996,203.03996,0,14,,,,non
-mousseline de coton unies et peintes,Filés ou tissés de coton,kg,26.204401,25.183168,1.2581726,17,,,,non
-mousseline des Indes,Filés ou tissés de coton,cm,.10802414,.088583946,.044743076,12,tissés,haut de gamme,haut de gamme,non
-nankin,Filés ou tissés de coton,kg,12.939576,11.920333,8.3563328,67,tissés,milieu de gamme,milieu de gamme,non
-nankin,Filés ou tissés de coton,cm,.016497349,.016361734,.0034246435,24,,,,non
-nankin,Filés ou tissés de coton,pièces,7.7535543,7,5.9305611,78,tissés,milieu de gamme,milieu de gamme,non
+mousseline,Filés ou tissés de coton,kg,93.794899,102.1312,73.697769,115,tissés,milieu de gamme,haut de gamme,non
+mousseline,Filés ou tissés de coton,cm,.096792877,.075732075,.095211692,65,tissés,milieu de gamme,haut de gamme,non
+mousseline,Filés ou tissés de coton,pièces,73.750015,75,32.681507,245,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton,Filés ou tissés de coton,kg,81.099236,101.84462,35.889824,48,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton,Filés ou tissés de coton,cm,.078498855,.088354088,.025765633,10,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton et Nankin,Filés ou tissés de coton,unité manquante,,,,11,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton et Nankin des Indes,Filés ou tissés de coton,unité manquante,,,,21,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton unies et brûlées,Filés ou tissés de coton,kg,203.03996,203.03996,0,14,tissés,milieu de gamme,haut de gamme,non
+mousseline de coton unies et peintes,Filés ou tissés de coton,kg,26.204401,25.183168,1.2581726,17,tissés,milieu de gamme,haut de gamme,non
+mousseline des Indes,Filés ou tissés de coton,cm,.10802414,.088583946,.044743076,12,tissés,milieu de gamme,haut de gamme,non
+Nankin,Filés ou tissés de coton,kg,12.939576,11.920333,8.3563328,67,tissés,milieu de gamme,haut de gamme,non
+Nankin,Filés ou tissés de coton,cm,.016497349,.016361734,.0034246435,24,tissés,milieu de gamme,haut de gamme,non
+Nankin,Filés ou tissés de coton,pièces,7.7535543,7,5.9305611,78,tissés,milieu de gamme,haut de gamme,non
 neganepeau,Filés ou tissés de coton,pièces,22.525591,24,7.12398,158,tissés,milieu de gamme,milieu de gamme,non
 nelis,Filés ou tissés de soie et soie mélangée,pièces,19.557812,20,4.9171047,32,tissés,haut de gamme,milieu de gamme,non
 nicanéas,Filés ou tissés de coton,pièces,18.306561,20,6.8041377,201,tissés,milieu de gamme,milieu de gamme,non
 nicanéas grands,Filés ou tissés de coton,pièces,23.947369,24,6.576251,19,tissés,milieu de gamme,milieu de gamme,non
 nicanéas petits,Filés ou tissés de coton,pièces,11.184211,10,4.0550399,19,tissés,milieu de gamme,milieu de gamme,non
-ouvrages en passementerie ordinaire,Autres filés ou tissés,kg,24.126661,24.126661,0,13,,,,non
-padoux de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,6.332993,5.6179781,2.1960523,10,passementerie,bas de gamme,bas de gamme,non
+ouvrages en passementerie ordinaire,Autres filés ou tissés,kg,24.126661,24.126661,0,13,passementerie,bas de gamme,milieu de gamme,non
+padoux de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,6.332993,5.6179781,2.1960523,10,passementerie,bas de gamme,milieu de gamme,non
 panine de soie,Filés ou tissés de soie et soie mélangée,kg,37.63652,40.858017,16.242521,26,tissés,milieu de gamme,milieu de gamme,non
 panne,Autres filés ou tissés,cm,.051161226,.050488051,.015491156,25,tissés,bas de gamme,milieu de gamme,non
 panne,Autres filés ou tissés,kg,17.785255,14.300307,11.305015,34,tissés,bas de gamme,milieu de gamme,non
@@ -382,8 +382,8 @@ panne de poil,Filés ou tissés de laine et de poil,cm,.049877118,.050488047,.01
 panne de poil,Filés ou tissés de laine et de poil,kg,16.990463,18.386108,5.9931803,14,tissés,bas de gamme,milieu de gamme,non
 panne de soie,Filés ou tissés de soie et soie mélangée,kg,16.138691,12.78082,12.806555,69,tissés,milieu de gamme,bas de gamme,non
 passementerie,Autres filés ou tissés,kg,24.069426,12.285358,33.308846,45,passementerie,milieu de gamme,milieu de gamme,non
-passementerie de soie,Filés ou tissés de soie et soie mélangée,kg,90.05072,40.571846,59.206959,92,,,,non
-passementerie ordinaire,Autres filés ou tissés,kg,18.361189,17.400709,7.3982568,42,,,,non
+passementerie de soie,Filés ou tissés de soie et soie mélangée,kg,90.05072,40.571846,59.206959,92,passementerie,haut de gamme,milieu de gamme,non
+passementerie ordinaire,Autres filés ou tissés,kg,18.361189,17.400709,7.3982568,42,passementerie,bas de gamme,milieu de gamme,non
 peluches,Filés ou tissés de laine et de poil,kg,12.488281,12.257405,7.1628299,73,tissés,bas de gamme,bas de gamme,non
 peluches,Filés ou tissés de laine et de poil,pièces,100.3,110,75.970284,18,tissés,bas de gamme,bas de gamme,non
 percale,Filés ou tissés de coton,pièces,29.1,26,16.709612,10,tissés,milieu de gamme,milieu de gamme,non
@@ -393,7 +393,7 @@ pinchinat de laine,Filés ou tissés de laine et de poil,pièces,213,250,68.4835
 platille,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,6.1573982,5,3.6814265,281,tissés,bas de gamme,milieu de gamme,non
 platille,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,7.3447151,8.1716042,3.4240546,20,tissés,bas de gamme,milieu de gamme,non
 polimi,Filés ou tissés de laine et de poil,pièces,34.637825,40,9.927145,17,tissés,bas de gamme,milieu de gamme,non
-prunelle,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.053012453,.050488051,.011254574,10,,,,non
+prunelle,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.053012453,.050488051,.011254574,10,tissés,bas de gamme,milieu de gamme,non
 prunelle de laine,Filés ou tissés de laine et de poil,cm,.038318656,.042073376,.013804024,11,tissés,bas de gamme,milieu de gamme,non
 prunelle de poil,Filés ou tissés de laine et de poil,pièces,99.949814,100,26.140783,18,passementerie,bas de gamme,milieu de gamme,non
 ratine,Filés ou tissés de laine et de poil,kg,14.897571,14.300306,5.7256436,59,tissés,bas de gamme,milieu de gamme,non
@@ -404,8 +404,8 @@ raze de Maroc,Filés ou tissés de laine et de poil,kg,16.300917,20.429008,5.776
 raze de castor,Filés ou tissés de laine et de poil,cm,.02826805,.025244026,.0076803123,16,tissés,bas de gamme,bas de gamme,non
 raze de castor,Filés ou tissés de laine et de poil,kg,21.59638,15.321758,19.062731,14,tissés,bas de gamme,bas de gamme,non
 romals,Filés ou tissés de coton,pièces,18.818863,18,7.9250121,23,tissés,milieu de gamme,milieu de gamme,non
-ruban,Autres filés ou tissés,kg,36.351658,18.621643,37.768921,29,,,,non
-ruban commune,Autres filés ou tissés,unité manquante,,,,16,,,,non
+ruban,Autres filés ou tissés,kg,36.351658,18.621643,37.768921,29,passementerie,bas de gamme,milieu de gamme,non
+ruban commune,Autres filés ou tissés,unité manquante,,,,16,passementerie,bas de gamme,milieu de gamme,non
 ruban d'argent et d'or et de soie,Filés ou tissés de soie et soie mélangée,kg,245.61955,245.14812,29.4177,13,passementerie,haut de gamme,haut de gamme,non
 ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,8.8553724,5.8653822,17.435827,278,passementerie,bas de gamme,milieu de gamme,non
 ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,1.5763888,1.25,1.4042553,10,passementerie,bas de gamme,milieu de gamme,non
@@ -416,8 +416,8 @@ ruban de laine,Filés ou tissés de laine et de poil,kg,6.8158116,5.8906293,2.91
 ruban de soie,Filés ou tissés de soie et soie mélangée,cm,.066791125,.0038729885,.19816156,10,passementerie,haut de gamme,milieu de gamme,non
 ruban de soie,Filés ou tissés de soie et soie mélangée,pièces,87.762627,22,287.18491,22,passementerie,haut de gamme,milieu de gamme,non
 ruban de soie,Filés ou tissés de soie et soie mélangée,kg,114.35524,122.57405,27.85371,854,passementerie,haut de gamme,milieu de gamme,non
-ruban et passementerie diverses celles de soie et dorure exceptées,Autres filés ou tissés,kg,6.7005978,6.9029126,1.4294577,35,,,,non
-ruban ordinaire,Autres filés ou tissés,unité manquante,,,,96,,,,non
+ruban et passementerie diverses celles de soie et dorure exceptées,Autres filés ou tissés,kg,6.7005978,6.9029126,1.4294577,35,passementerie,bas de gamme,milieu de gamme,non
+ruban ordinaire,Autres filés ou tissés,unité manquante,,,,96,passementerie,bas de gamme,milieu de gamme,non
 salemporis,Filés ou tissés de coton,kg,31.965391,12.257406,32.31879,16,tissés,milieu de gamme,haut de gamme,non
 salemporis,Filés ou tissés de coton,pièces,21.334764,20,6.8472161,169,tissés,milieu de gamme,haut de gamme,non
 salemporis blanc,Filés ou tissés de coton,pièces,21.653126,20.075001,6.7519989,16,tissés,milieu de gamme,milieu de gamme,non
@@ -444,7 +444,7 @@ siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,c
 siamoise commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,8.1716042,8.1716042,4.8379866e-07,17,tissés,bas de gamme,milieu de gamme,non
 siamoise de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,11.241605,9.7037792,9.050602,30,tissés,bas de gamme,milieu de gamme,non
 siamoise de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.027158897,.021036688,.017117092,49,tissés,bas de gamme,milieu de gamme,non
-siamoise de coton et toile de coton peinte,Filés ou tissés de coton,kg,34.001865,34.001865,0,16,,,,non
+siamoise de coton et toile de coton peinte,Filés ou tissés de coton,kg,34.001865,34.001865,0,16,tissés,milieu de gamme,bas de gamme,non
 siamoise à peu de soie,Filés ou tissés de soie et soie mélangée,kg,19.728586,20.42901,2.8656752,27,tissés,milieu de gamme,bas de gamme,non
 soie apprêtée,Filés ou tissés de soie et soie mélangée,kg,42.452221,40.858021,7.5670295,303,tissés,milieu de gamme,milieu de gamme,non
 soie en rames,Filés ou tissés de soie et soie mélangée,kg,30.643515,30.643515,7.3875446,14,tissés,milieu de gamme,bas de gamme,non
@@ -453,8 +453,8 @@ soie ouvrée,Filés ou tissés de soie et soie mélangée,kg,51.885204,49.029621
 soie teinte,Filés ou tissés de soie et soie mélangée,kg,54.424583,55,14.160011,12,tissés,haut de gamme,haut de gamme,non
 soie à coudre,Filés ou tissés de soie et soie mélangée,kg,56.73785,51.072525,19.431999,187,filés,,,non
 soierie,Filés ou tissés de soie et soie mélangée,kg,77.179695,81.716034,17.756983,165,tissés,haut de gamme,milieu de gamme,non
-soierie et dorure,Filés ou tissés de soie et soie mélangée,unité manquante,,,,12,,,,non
-soierie et dorure fine,Filés ou tissés de soie et soie mélangée,unité manquante,,,,13,,,,non
+soierie et dorure,Filés ou tissés de soie et soie mélangée,unité manquante,,,,12,tissés,haut de gamme,haut de gamme,non
+soierie et dorure fine,Filés ou tissés de soie et soie mélangée,unité manquante,,,,13,tissés,haut de gamme,haut de gamme,non
 taffetas,Filés ou tissés de soie et soie mélangée,kg,82.013016,81.716042,19.484503,53,tissés,haut de gamme,milieu de gamme,non
 taffetas,Filés ou tissés de soie et soie mélangée,pièces,38.258198,19,61.676773,108,tissés,haut de gamme,milieu de gamme,non
 taffetas,Filés ou tissés de soie et soie mélangée,cm,.039792996,.037866037,.0071954192,32,tissés,haut de gamme,milieu de gamme,non
@@ -494,8 +494,8 @@ toile chasselas,Filés ou tissés de coton,pièces,23.213551,25,5.6353908,185,ti
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,9.1497564,5,12.386665,44,tissés,bas de gamme,bas de gamme,non
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,3.7167807,2.5536263,5.5186253,214,tissés,bas de gamme,bas de gamme,non
 toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.012237081,.010518344,.0046791085,27,tissés,bas de gamme,bas de gamme,non
-toile cirée et de crin et gommée,Filés ou tissés de laine et de poil,kg,8.2311888,8.2311888,0,12,,,,non
-toile cirée et gommée,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,11,,,,non
+toile cirée et de crin et gommée,Filés ou tissés de laine et de poil,kg,8.2311888,8.2311888,0,12,tissés,bas de gamme,milieu de gamme,non
+toile cirée et gommée,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,11,tissés,bas de gamme,bas de gamme,non
 toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,69.492531,80,20.866493,107,tissés,bas de gamme,bas de gamme,non
 toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,cm,.0096147778,.0084146755,.0039007002,25,tissés,bas de gamme,bas de gamme,non
 toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,5.0850759,4.3411298,2.8797874,46,tissés,bas de gamme,bas de gamme,non
@@ -596,7 +596,7 @@ toile de chanvre blanche,"Filés ou tissés de fibre végétale non mélangée (
 toile de chanvre d'emballage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.0093807951,.010699994,.0034715254,12,tissés,bas de gamme,bas de gamme,non
 toile de chanvre d'étoupes,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,2.2291656,2.0429008,.90012002,17,tissés,bas de gamme,bas de gamme,non
 toile de chanvre de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,9.9918242,10.23343,2.3483207,10,tissés,bas de gamme,milieu de gamme,non
-toile de chanvre et de lin,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,10.4877,12.371673,4.7793593,146,,,,non
+toile de chanvre et de lin,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,10.4877,12.371673,4.7793593,146,tissés,bas de gamme,milieu de gamme,non
 toile de chanvre rousse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.013251121,.012622013,.0026276619,24,tissés,bas de gamme,bas de gamme,non
 toile de chanvre écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,4.2124505,4.0858021,.83008516,10,tissés,bas de gamme,bas de gamme,non
 toile de coton,Filés ou tissés de coton,kg,11.414215,10.214505,6.1676798,378,tissés,milieu de gamme,milieu de gamme,non
@@ -614,7 +614,7 @@ toile de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chan
 toile de crin,Filés ou tissés de laine et de poil,kg,6.3111186,5.2911134,3.5369723,159,tissés,bas de gamme,bas de gamme,non
 toile de fil de coton,Filés ou tissés de coton,kg,9.2987738,10.214505,2.7991376,20,tissés,milieu de gamme,bas de gamme,non
 toile de fil de coton siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,9.235383,10.131064,3.5475907,14,tissés,bas de gamme,milieu de gamme,non
-toile de fil peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,7.1130848,7.4139953,.63145208,27,,,,non
+toile de fil peinte et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,7.1130848,7.4139953,.63145208,27,tissés,bas de gamme,milieu de gamme,non
 toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,141.78572,125,113.06239,12,tissés,bas de gamme,milieu de gamme,non
 toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,16.686478,17.629736,10.329086,334,tissés,bas de gamme,milieu de gamme,non
 toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.026686464,.023891952,.016686682,115,tissés,bas de gamme,milieu de gamme,non
@@ -627,10 +627,10 @@ toile de lin de Laval,"Filés ou tissés de fibre végétale non mélangée (lin
 toile de lin de Rouen,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,20.027905,20.42901,2.5745888,26,tissés,bas de gamme,milieu de gamme,non
 toile de lin de Saint-Quentin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,57.628517,57.201225,8.8684464,246,tissés,milieu de gamme,haut de gamme,non
 toile de lin de Valenciennes,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.033658188,.033658702,.000081978469,65,tissés,bas de gamme,milieu de gamme,non
-toile de lin et de batiste et linon,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,171.17125,196.78439,50.370064,72,,,,non
+toile de lin et de batiste et linon,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,171.17125,196.78439,50.370064,72,tissés,milieu de gamme,haut de gamme,non
 toile de lin linon,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.047276944,.050488051,.010220736,19,tissés,milieu de gamme,haut de gamme,non
 toile de lin ouvrée,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,17.247896,14.300307,5.1323886,11,tissés,milieu de gamme,milieu de gamme,non
-toile de lin peinte,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.025820106,.025244026,.0034874147,13,tissés,milieu de gamme,milieu de gamme,non
+toile de lin peinte,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.025820106,.025244026,.0034874147,13,tissés,bas de gamme,milieu de gamme,non
 toile de lin royale,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,20.029366,20.42901,1.5516567,11,tissés,milieu de gamme,haut de gamme,non
 toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,37.838768,30,27.304956,45,tissés,bas de gamme,bas de gamme,non
 toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.012580924,.010518344,.0046805348,43,tissés,bas de gamme,bas de gamme,non
@@ -682,7 +682,7 @@ toile à bâts,Autres filés ou tissés mélangés de fibres végétales dont to
 toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,6.98001,5.7979083,4.2493553,43,tissés,bas de gamme,milieu de gamme,non
 toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.016530901,.010725748,.031729065,36,tissés,bas de gamme,milieu de gamme,non
 toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,46.049137,45,21.31295,102,tissés,bas de gamme,milieu de gamme,non
-toile à carreaux et de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,14.537,15.481636,1.9528576,29,,,,non
+toile à carreaux et de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,14.537,15.481636,1.9528576,29,tissés,bas de gamme,milieu de gamme,non
 toile à carreaux et de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",cm,.012610236,.012622014,.0023905351,11,tissés,bas de gamme,milieu de gamme,non
 toile à matelas,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,7.3330989,7.1501532,2.4413815,11,tissés,bas de gamme,bas de gamme,non
 toile à serviettes,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,4.2055583,4.0858016,1.208001,29,tissés,bas de gamme,bas de gamme,non
@@ -716,28 +716,28 @@ velours de soie,Filés ou tissés de soie et soie mélangée,kg,100.79673,102.14
 étamine de laine,Filés ou tissés de laine et de poil,pièces,45.494728,50,32.395721,27,tissés,bas de gamme,bas de gamme,non
 étamine du Mans,Filés ou tissés de laine et de poil,kg,12.363073,12.257405,2.7209837,29,tissés,bas de gamme,milieu de gamme,non
 étamine du Mans,Filés ou tissés de laine et de poil,cm,.030327892,.031555034,.0072017084,12,tissés,bas de gamme,milieu de gamme,non
-étoffe,Autres filés ou tissés,kg,72.038727,101.14851,38.792252,13,,,,non
+étoffe,Autres filés ou tissés,kg,72.038727,101.14851,38.792252,13,tissés,bas de gamme,milieu de gamme,non
 étoffe au quart de soie,Filés ou tissés de soie et soie mélangée,cm,.034531422,.033658702,.0068869577,22,tissés,milieu de gamme,bas de gamme,non
 étoffe au quart de soie,Filés ou tissés de soie et soie mélangée,kg,33.925327,40.858017,8.6462097,163,tissés,milieu de gamme,bas de gamme,non
 étoffe au sixième de soie,Filés ou tissés de soie et soie mélangée,kg,20.694025,20.429008,2.0930009,15,tissés,milieu de gamme,bas de gamme,non
-étoffe brochées de pure soie et unies,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,62.200653,69.312386,7.3918648,39,,,,non
-étoffe brochées de soie et unies,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,197.0771,197.0771,0,20,,,,non
+étoffe brochées de pure soie et unies,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,62.200653,69.312386,7.3918648,39,tissés,haut de gamme,milieu de gamme,non
+étoffe brochées de soie et unies,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,197.0771,197.0771,0,20,tissés,haut de gamme,milieu de gamme,non
 étoffe d'argent d'or et de soie,Filés ou tissés de soie et soie mélangée,kg,168.27052,163.43208,17.491369,57,tissés,haut de gamme,haut de gamme,non
 étoffe d'argent et d'or,Autres filés ou tissés,kg,164.43518,163.43208,20.492985,136,tissés,haut de gamme,haut de gamme,non
 étoffe d'or,Autres filés ou tissés,kg,188.4599,183.86108,22.245819,23,tissés,haut de gamme,haut de gamme,non
-étoffe de chanvre et de fil de lin en toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,5.2725315,5.2725315,0,12,,,,non
-étoffe de chanvre et de lin en toile diverse,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,4.6319265,4.6319265,.15881553,26,,,,non
+étoffe de chanvre et de fil de lin en toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,5.2725315,5.2725315,0,12,tissés,bas de gamme,milieu de gamme,non
+étoffe de chanvre et de lin en toile diverse,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,4.6319265,4.6319265,.15881553,26,tissés,bas de gamme,milieu de gamme,non
 étoffe de coton,Filés ou tissés de coton,kg,21.150764,20.502127,7.5077691,86,tissés,milieu de gamme,milieu de gamme,non
 étoffe de coton,Filés ou tissés de coton,cm,.034658462,.029994246,.012590588,14,tissés,milieu de gamme,milieu de gamme,non
 étoffe de coton et de fil,Filés ou tissés de coton,kg,12.857038,12.257406,4.8343678,15,tissés,milieu de gamme,milieu de gamme,non
-étoffe de coton et de fil mélangés,Filés ou tissés de coton,kg,13.831125,13.271549,3.7346535,10,,,,non
-étoffe de coton et de laine,Autres filés ou tissés,unité manquante,,,,16,,,,non
-étoffe de coton et de laine et de soie mélangés,Filés ou tissés de soie et soie mélangée,kg,56.817329,60.034981,9.8156023,26,,,,non
-étoffe de coton et de soie,Filés ou tissés de soie et soie mélangée,kg,44.914413,40.858017,56.929749,54,tissés,milieu de gamme,bas de gamme,non
-étoffe de coton et de soie,Filés ou tissés de soie et soie mélangée,cm,.08311148,.039582558,.14963686,12,tissés,milieu de gamme,bas de gamme,non
-étoffe de coton et drap de coton et velours de coton,Filés ou tissés de coton,kg,15.06245,15.06245,0,15,,,,non
-étoffe de coton et drap de coton et velours de coton et couvertures de coton,Filés ou tissés de coton,kg,23.574162,23.574162,0,13,,,,non
-étoffe de crin,Filés ou tissés de laine et de poil,kg,10.107095,10.064102,1.6597123,30,,,,non
+étoffe de coton et de fil mélangés,Filés ou tissés de coton,kg,13.831125,13.271549,3.7346535,10,tissés,milieu de gamme,bas de gamme,non
+étoffe de coton et de laine,Autres filés ou tissés,unité manquante,,,,16,tissés,bas de gamme,milieu de gamme,non
+étoffe de coton et de laine et de soie mélangés,Filés ou tissés de soie et soie mélangée,kg,56.817329,60.034981,9.8156023,26,tissés,milieu de gamme,bas de gamme,non
+étoffe de coton et de soie,Filés ou tissés de soie et soie mélangée,kg,44.914413,40.858017,56.929749,54,tissés,haut de gamme,bas de gamme,non
+étoffe de coton et de soie,Filés ou tissés de soie et soie mélangée,cm,.08311148,.039582558,.14963686,12,tissés,haut de gamme,bas de gamme,non
+étoffe de coton et drap de coton et velours de coton,Filés ou tissés de coton,kg,15.06245,15.06245,0,15,tissés,milieu de gamme,milieu de gamme,non
+étoffe de coton et drap de coton et velours de coton et couvertures de coton,Filés ou tissés de coton,kg,23.574162,23.574162,0,13,tissés,milieu de gamme,milieu de gamme,non
+étoffe de crin,Filés ou tissés de laine et de poil,kg,10.107095,10.064102,1.6597123,30,tissés,bas de gamme,milieu de gamme,non
 étoffe de d'argent et d'or et de soie,Filés ou tissés de soie et soie mélangée,kg,160.7916,163.43207,21.118925,21,tissés,haut de gamme,haut de gamme,non
 étoffe de fil et de laine,Autres filés ou tissés,kg,10.253424,8.9409409,4.8269148,23,tissés,bas de gamme,milieu de gamme,non
 étoffe de fil et de soie,Filés ou tissés de soie et soie mélangée,kg,34.320736,34.729317,8.1068344,20,tissés,milieu de gamme,bas de gamme,non
@@ -765,15 +765,15 @@ velours de soie,Filés ou tissés de soie et soie mélangée,kg,100.79673,102.14
 étoffe dorure d'argent et d'or,Autres filés ou tissés,kg,179.85153,183.86108,17.064119,93,tissés,haut de gamme,haut de gamme,non
 étoffe dorure d'or,Autres filés ou tissés,kg,187.00574,183.84384,28.69957,13,tissés,haut de gamme,haut de gamme,non
 étoffe dorure et de soie,Filés ou tissés de soie et soie mélangée,kg,189.34525,183.86108,15.937869,27,tissés,haut de gamme,haut de gamme,non
-étoffe en dorure et galon et passementerie,Autres filés ou tissés,unité manquante,,,,24,,,,non
-étoffe en or mêlée de soie,Filés ou tissés de soie et soie mélangée,kg,260.05475,259.90909,84.305458,15,,,,non
-étoffe et gaze et crêpe et tulle,Filés ou tissés de coton,unité manquante,,,,10,,,,non
-étoffe et ruban de fleuret,Filés ou tissés de soie et soie mélangée,kg,28.707005,20.585464,17.790802,10,,,,non
+étoffe en dorure et galon et passementerie,Autres filés ou tissés,unité manquante,,,,24,tissés,haut de gamme,haut de gamme,non
+étoffe en or mêlée de soie,Filés ou tissés de soie et soie mélangée,kg,260.05475,259.90909,84.305458,15,tissés,haut de gamme,haut de gamme,non
+étoffe et gaze et crêpe et tulle,Filés ou tissés de coton,unité manquante,,,,10,tissés,milieu de gamme,milieu de gamme,non
+étoffe et ruban de fleuret,Filés ou tissés de soie et soie mélangée,kg,28.707005,20.585464,17.790802,10,tissés,milieu de gamme,milieu de gamme,non
 étoffe façonnée,Autres filés ou tissés,kg,11.965547,10.214505,8.5782204,14,tissés,milieu de gamme,milieu de gamme,non
 étoffe mi soie,Filés ou tissés de soie et soie mélangée,kg,38.031013,40.858017,10.332155,104,tissés,milieu de gamme,bas de gamme,non
 étoffe mêlée de soie peluches,Filés ou tissés de soie et soie mélangée,pièces,175.06172,195,38.878853,15,tissés,milieu de gamme,bas de gamme,non
 étoffe mêlée de soie peluches,Filés ou tissés de soie et soie mélangée,kg,12.623705,12.257406,1.6546082,68,tissés,milieu de gamme,bas de gamme,non
 étoffe peluches de laine,Filés ou tissés de laine et de poil,kg,11.901445,14.300306,4.6138053,10,tissés,bas de gamme,bas de gamme,non
-étoffe riche,Autres filés ou tissés,kg,215.56195,195.57579,60.033112,25,,,,non
+étoffe riche,Autres filés ou tissés,kg,215.56195,195.57579,60.033112,25,tissés,haut de gamme,milieu de gamme,non
 étoffe riche en or et argent,Autres filés ou tissés,kg,198.56525,192.55914,48.475529,23,tissés,haut de gamme,haut de gamme,non
 étoffe à peu de soie,Filés ou tissés de soie et soie mélangée,kg,21.543371,20.42901,8.3394518,194,tissés,milieu de gamme,bas de gamme,non
