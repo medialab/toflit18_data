@@ -88,10 +88,11 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_type_textil
 use "$dir/Données Stata/classification_autre_luxe.dta", clear
 gen test=.
 bys product_simplification  (position_type): replace test= position_type[1]== position_type[_N]
-replace test=0 if Positiondans_type==0
+replace test=0 if position_type==""
 codebook test
 gsort + product_sitc_FR + product_simplification
 br if test==0
+replace test=1 if type=="filés"
 assert test==1
 
 bys product_simplification : keep if _n==1
@@ -108,11 +109,11 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_luxe_dans_t
 use "$dir/Données Stata/classification_autre_luxe.dta", clear
 gen test=.
 bys product_simplification  (PositiondansSITC): replace test= PositiondansSITC[1]== PositiondansSITC[_N]
-replace test=0 if PositiondansdansSITC==0
+replace test=0 if PositiondansSITC==""
+replace test=1 if type=="filés"
 codebook test
 br if test==0
 assert test==1
-
 bys product_simplification : keep if _n==1
 
 rename PositiondansSITC luxe_dans_SITC
