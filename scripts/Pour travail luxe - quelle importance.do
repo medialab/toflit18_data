@@ -4,7 +4,7 @@
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 
 
-
+capture erase  "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"
 **************************************
 *
 **************************************
@@ -57,6 +57,19 @@ graph twoway (connected share_textile year) (connected share_luxe year), /*
 	
 graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'.pdf", replace
 
+gen keep_for_luxe=0
+replace keep_for_luxe=1 if share_textile>=0.025 & share_luxe>=0.8*share_textile
+gen geographie="`geographie'" 
+gen exportsimports="`exportsimports'"
+
+
+capture append using  "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"
+save  "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta", replace
+
+
+
+
+
 end
 /*
 
@@ -89,6 +102,10 @@ quelle_importance Nantes Exports
 quelle_importance Rouen Imports
 quelle_importance Rouen Exports
 
+quelle_importance Rennes Imports
+quelle_importance Rennes Exports
+
+
 quelle_importance Bordeaux Imports
 quelle_importance Bordeaux Exports
 
@@ -101,8 +118,5 @@ quelle_importance Bayonne Exports
 
 quelle_importance Rochelle Imports
 quelle_importance Rochelle Exports
-
-
-
 
 
