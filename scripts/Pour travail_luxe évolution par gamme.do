@@ -59,20 +59,24 @@ tsfill
 local reference = substr("`reference'",-4,4)
 display "`reference'"
 
-graph twoway (connected share_haut year, cmissing(n)) (connected share_milieu year, cmissing(n)) /*
-	*/ (connected share_bas year, cmissing(n)) /*
-	*/ (connected total year, yaxis(2) cmissing(n) lpattern(dash) msymbol(diamond) msize(small)), /*
+replace share_milieu=share_bas+share_milieu
+replace share_haut=share_milieu+share_haut
+
+graph twoway (bar share_haut year, cmissing(n) color(dknavy)) (bar share_milieu year, cmissing(n) color(blue)) /*
+	*/ (bar share_bas year, cmissing(n) color(ltblue)) /*
+	*/ (connected total year, yaxis(2) cmissing(n) msymbol(diamond) msize(small) lcolor(red) mcolor(red)), /*
 	*/ name(`geographie'_`exportsimports'_`reference', replace) /*
 	*/ title (`geographie'--`exportsimports'--`reference') /*
 	*/ legend (label(1 "Haut de gamme") label(2 "Milieu de gamme") label(3 "Bas de gamme") label(4 "Valeur totale du commerce")) /*
 	*/ ytitle("Millions de livres ou de francs", axis(2))
-	
+		
 	
 graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'_`reference'.pdf", replace
 
-
 end
 
+
+evolution_gamme France Exports product_luxe_dans_type
 
 foreach z in France Nantes Marseille Rennes Bordeaux Bayonne Rochelle Rouen {
 
