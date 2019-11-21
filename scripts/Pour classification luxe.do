@@ -55,7 +55,7 @@ drop if u_conv=="unité manquante" & garder_um!=1
 drop garder_um
 
 
-
+gsort + product_sitc_FR + u_conv - nbobs + product_simplification
 export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
 save "$dir/Données Stata/classification_autre_luxe.dta", replace
 

@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,sitc,sitc_FR,sitc_EN,revolutionempire,RE_aggregate
-,396,???,Produits inconnus,Unknown products,[vide],
+,37,???,Produits inconnus,Unknown products,[vide],
 ???,99,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? blanc,2,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? brun,2,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -38,6 +38,7 @@ Hondschoote blanche,1,6i,Autres filés ou tissés,Other threads and fabrics,Drap
 Hondschoote peinte,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 Itaine de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 Joséphine de laine et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
+Li ???,1,???,Produits inconnus,Unknown products,,
 Madras,3,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe diverses,Objets manufacturés
 Madras mouchoirs,1,8,Articles manufacturés divers n.d.a,Various manufactures,Châles et mouchoirs de soie,Objets manufacturés
 Madères,2,1,Boissons et tabac,Beverages and tobacco,Vins divers,Subsistances
@@ -49,8 +50,8 @@ Marly plâtrée,1,???,Produits inconnus,Unknown products,Produits inconnus,
 Mazamet,4,???,Produits inconnus,Unknown products,Produits inconnus,
 Mi ???,1,???,Produits inconnus,Unknown products,Produits inconnus,
 Nankin,212,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
-Nankin blanche,1,,,,,
-Nankin des Indes,10,,,,,
+Nankin blanche,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+Nankin des Indes,10,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 O ???,1,???,Produits inconnus,Unknown products,Produits inconnus,
 P ???,1,???,Produits inconnus,Unknown products,Produits inconnus,
 Pondichéry,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -69,7 +70,7 @@ Pékin à fleur,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads a
 Pékin à grande fleur,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 Saturne en extrait,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Sels chimiques,Drogues
 Sèvres,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
-[non traité],153,???,Produits inconnus,Unknown products,[non traité],
+[non traité],152,???,Produits inconnus,Unknown products,[non traité],
 [vide],6072,[vide],,,[vide],
 abassis,4,9a,Monnaies et métaux précieux,Precious metals,Monnaies et métaux précieux,Matières d'or et d'argent
 abats,2,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Chairs et œufs,Subsistances
@@ -237,10 +238,9 @@ albâtre et marbre brut et poli,21,9b,Divers mélangés,Mixed flows,Marbre brut 
 albâtre moulé poli ou sculpté,6,8,Articles manufacturés divers n.d.a,Various manufactures,Marbre brut et ouvré,
 alcalis autre que natron et soudes,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,Alcalis,
 alcalis salin,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Alcalis,
-alibanies,97,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles de coton,Objets manufacturés
-alibanis,14,,,,,
+alibanies,111,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles de coton,Objets manufacturés
 alicot,1,???,Produits inconnus,Unknown products,Subsistances diverses et mélangées,Subsistances
-alizari,15,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Garance,
+alizari,18,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Garance,
 alizari et garance,165,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Garance,
 alizari sèche,7,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Garance,
 alkermès en grains,23,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues médicinales diverses,Drogues médicinales
@@ -798,6 +798,7 @@ balles vides,1,9c,Divers incertains,Various uncertain,Divers incertains,Divers i
 balles à jouer,2,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 ballons en sapin,1,9c,Divers incertains,Various uncertain,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 ballots,3,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
+ballots d'étoffe,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 balustres,12,9c,Divers incertains,Various uncertain,Ouvrages divers et mélangés,Industrie française et étrangère
 bamboches,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 bambous,8,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Bois divers hors combustible,Matières premières
@@ -1108,7 +1109,7 @@ batiste,559,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanv
 batiste blanche,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 batiste brochée,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 batiste de 12 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-batiste de Lorient,1,,,,,
+batiste de Lorient,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 batiste de fil,12,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 batiste de lin,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 batiste de lin et linon de lin,14,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -2482,6 +2483,7 @@ briquettes,3,3,Combustibles,Fuels,Combustibles dont charbons et bois,Matières p
 bris d'espars,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 brises,1,???,Produits inconnus,Unknown products,Produits inconnus,
 brocante,1,8,Articles manufacturés divers n.d.a,Various manufactures,Divers incertains,Divers incertains
+brocart de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Divers mélangés,
 brocatelle,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 brocatelle de Venise,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 brochets,20,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Pêche et fruits de mer,
@@ -2554,6 +2556,7 @@ bureau de sapin,9,8,Articles manufacturés divers n.d.a,Various manufactures,"Me
 bureau garni de cuivre doré,1,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
 bureau verni,4,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
 bures de sanglier,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Chairs et œufs,Subsistances
+burette,1,???,Produits inconnus,Unknown products,,
 burmards et leurs poids,1,???,Produits inconnus,Unknown products,Produits inconnus,
 buses pour raffiner le sucre,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 busquière d'argent,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -2712,6 +2715,7 @@ cacao et café et sucre,12,0b,Produits agricoles alimentaires des régions de co
 cacao et chocolat,8,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Cacao et chocolat,Subsistances
 cacao étranger,4,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Cacao et chocolat,Subsistances
 cache,1,???,Produits inconnus,Unknown products,Produits inconnus,
+cachemire de poil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 cachets d'argent,1,8,Articles manufacturés divers n.d.a,Various manufactures,Librairie,Industrie française et étrangère
 cachets de cuivre,1,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 cachets dorés,2,8,Articles manufacturés divers n.d.a,Various manufactures,Librairie,Industrie française et étrangère
@@ -2847,6 +2851,7 @@ cambouis,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw mate
 camelot,231,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 camelot au quart,3,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 camelot au sixième de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
+camelot au-dessous du sixième de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 camelot avec soie,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 camelot burail,6,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 camelot d'Amiens,24,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
@@ -3123,8 +3128,8 @@ cargaison,2,9c,Divers incertains,Various uncertain,Divers incertains,Divers ince
 caril,2,???,Produits inconnus,Unknown products,Produits inconnus,
 carillon de fer,4,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 carisel,19,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-carisel blanc,2,,,,,
-carisel teint,2,,,,,
+carisel blanc,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+carisel teint,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 carisé,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 carisé des prises,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 carives vieilles,2,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -3882,7 +3887,6 @@ chelöes,2,???,Produits inconnus,Unknown products,Produits inconnus,
 cheminée de marbre,5,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Marbre brut et ouvré,
 cheminée de pierre de lierre,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 cheminée statues etc.,1,9b,Divers mélangés,Mixed flows,Divers mélangés,
-chemise de toile,2,,,,,
 chemises,212,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises assorties,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises blanches ouvrées,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -3909,7 +3913,7 @@ chemises de lin garnies unies,3,8,Articles manufacturés divers n.d.a,Various ma
 chemises de nègre,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de siamoise,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de soldat,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
-chemises de toile,5,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
+chemises de toile,7,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de toile bleue,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de toile bretonne,4,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de toile communes,2,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -3925,7 +3929,7 @@ chemises de toile de coton,4,8,Articles manufacturés divers n.d.a,Various manuf
 chemises de toile de lin,17,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de toile de lin garnies,6,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises de toile garnies,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
-chemises de toile guingans,20,,,,,
+chemises de toile guingans,20,8,Articles manufacturés divers n.d.a,Various manufactures,,
 chemises de toile rayée,2,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises fines,36,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 chemises garnies,239,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -4169,6 +4173,7 @@ ciradille,1,???,Produits inconnus,Unknown products,Produits inconnus,
 cirage pour chaussures,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Cire,Matières premières
 circks,1,???,Produits inconnus,Unknown products,Produits inconnus,
 cire,32,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
+cire ???,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,,
 cire blanche,582,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
 cire blanche de bougie,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
 cire blanche et jaune,501,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
@@ -4798,6 +4803,7 @@ coups,1,???,Produits inconnus,Unknown products,Produits inconnus,
 courbes,6,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 courbes de bois,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 courbes de chêne,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
+courbes de chêne de 9 pieds,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products",,
 courbes de chêne pour bâtir,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 courbes de fer,1,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 courbes de mauvais bois,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
@@ -5353,7 +5359,7 @@ cuivre à lessive,1,6j,"Métaux, produits métalliques et outils",Metal products
 cuivre à mitraille,1,6j,"Métaux, produits métalliques et outils",Metal products,Cuivre,Métaux
 cuivre à monnayer rouge,2,9a,Monnaies et métaux précieux,Precious metals,Monnaies et métaux précieux,Matières d'or et d'argent
 cuivrerie,34,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
-culotte en chemise de toile à nègre,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
+culotte en chemises de toile à nègre,1,,,,,
 culottes,70,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 culottes d'étamine,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 culottes de bouras,2,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -5443,7 +5449,7 @@ cédrat,108,0a,Autres produits alimentaires et animaux,Other foodstuff and live 
 cédrat frais,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Fruits frais,Subsistances
 cédrat zestes confits,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
 céleris,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
-céruse,891,5,Produits chimiques transformés n.d.a.,Processed chemical products,Céruse et blanc de plomb,Matières premières
+céruse,892,5,Produits chimiques transformés n.d.a.,Processed chemical products,Céruse et blanc de plomb,Matières premières
 céruse et blanc de plomb,12,5,Produits chimiques transformés n.d.a.,Processed chemical products,Céruse et blanc de plomb,Matières premières
 céréales,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
 cévadille,9,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues médicinales diverses,Drogues médicinales
@@ -5569,7 +5575,7 @@ dentelle de fil de Bergame,1,6d,"Filés ou tissés de fibre végétale non méla
 dentelle de fil de Caen,9,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Dentelles,Objets manufacturés
 dentelle de fil de Flandre,10,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Dentelles,Objets manufacturés
 dentelle de fil de Normandie,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Dentelles,Objets manufacturés
-dentelle de fil de Valenciennes,3,,,,,
+dentelle de fil de Valenciennes,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 dentelle de fil de crin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Dentelles,Objets manufacturés
 dentelle de fil de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Dentelles,Objets manufacturés
 dentelle de fil de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Dentelles,Objets manufacturés
@@ -5671,6 +5677,7 @@ dorure fine sur soie,1,8,Articles manufacturés divers n.d.a,Various manufacture
 doréas,9,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 doréas brodées en couleur,1,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 doréas de Zurich,3,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
+doréas mega,1,???,Produits inconnus,Unknown products,,
 dos gorges et ventres de fouines martes et renard,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Cuirs, peaux et pelleterie",Industrie française et étrangère
 dos gorges et ventres de petit gris,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Cuirs, peaux et pelleterie",Industrie française et étrangère
 dospin en pierre,2,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -5732,7 +5739,7 @@ drap,858,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Obje
 drap 20 lignes,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap Damas,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Draps divers,Objets manufacturés
 drap anglais,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap au sixième de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Draps divers,Objets manufacturés
+drap au sixième de soie,7,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Draps divers,Objets manufacturés
 drap avarié,5,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap blanc,5,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap blanc d'Espagne,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -5814,11 +5821,10 @@ drap de Lille,19,6e,Filés ou tissés de laine et de poil,Wool threads and fabri
 drap de Limbourg,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de Limoux,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de Lodève,23,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap de Londrin,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de Louviers,271,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de Louviers au sixième de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Draps divers,Objets manufacturés
 drap de Lyon,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap de Maroc,1,,,,,
+drap de Maroc,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 drap de Montauban,36,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de Moucu,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de Nison,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -5894,7 +5900,6 @@ drap de laine et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk 
 drap de laine et petits et étoffe,66,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 drap de laine fin,56,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de laine gros,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap de laine londrin,79,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de laine pour les troupes,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de lin,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
 drap de lin ayant servi,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
@@ -5943,7 +5948,6 @@ drap fin,90,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Dr
 drap fin blanc,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap fin de la manufacture de France,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap fin du Languedoc,23,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap fin du Languedoc londrin de Carcassonne et Lodève,1,,,,,
 drap fin et draperie,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap fin ordinaire et petite,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap fins de laine,62,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
@@ -5956,8 +5960,7 @@ drap iada,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,O
 drap imprimé,6,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap kalmouk,4,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap layette,5,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap londrin,222,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap londrin ?,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
+drap londrin,306,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap molleton,47,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap motton,8,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap moutade,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -5974,12 +5977,12 @@ drap palencourt,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps di
 drap peint,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap petit,712,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap petit de Languedoc,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap petit de Montauban,1,,,,,
+drap petit de Montauban,1,6i,Autres filés ou tissés,Other threads and fabrics,,
 drap petit de Sedan,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap petit de Silésie,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
 drap petit de mains,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap petit londrin,1,,,,,
-drap petit raze de Maroc,12,,,,,
+drap petit londrin,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
+drap petit raze de Maroc,12,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 drap platine,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
 drap pour billau,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap pour doublures,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -6031,7 +6034,7 @@ drogues diverses pour peintures et teinture,4,5,Produits chimiques transformés 
 drogues diverses réunies,635,9b,Divers mélangés,Mixed flows,Drogues diverses,Drogues
 drogues du Languedoc,1,???,Produits inconnus,Unknown products,Drogues diverses,Drogues
 drogues en plantes,6,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues diverses,Drogues
-drogues et graines diverses,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
+drogues et graine diverses,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 drogues et jus et sirop de cerise et de grenade,1,9b,Divers mélangés,Mixed flows,Divers mélangés,
 drogues et soie et laine,1,9b,Divers mélangés,Mixed flows,Divers mélangés,
 drogues et épicerie,5,9b,Divers mélangés,Mixed flows,Divers mélangés,
@@ -6081,7 +6084,7 @@ droguet de soie,23,6f,Filés ou tissés de soie et soie mélangée,Silk threads 
 droguet des prises,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 droguet en fil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 droguet en laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
-droguet et raze de Maroc,2,,,,,
+droguet et raze de Maroc,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 droit sur vin de Blaye,1,???,Produits inconnus,Unknown products,Produits inconnus,
 droit sur vinaigre,2,???,Produits inconnus,Unknown products,Produits inconnus,
 drol et drouel,1,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -6359,7 +6362,7 @@ encoignures de bois vernissé,1,6b,"Produits du bois, liège, jonc","Wood, cork 
 encre,37,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 encre commune,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 encre d'imprimerie,9,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
-encre de Nankin,2,,,,,
+encre de Nankin,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,,
 encre de la Chine,15,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 encre de la petite vertu,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 encre glassine,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
@@ -7490,6 +7493,7 @@ flèches à prendre des huîtres,1,9c,Divers incertains,Various uncertain,Divers
 fléaux de balance,2,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages métalliques,
 fléaux de balance de fer,85,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages métalliques,
 fléaux de fer,100,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages métalliques,
+fléaux de fer avec garniture,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 fléaux de fer et leur bassin,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages métalliques,
 fléaux de fer et poids,2,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages métalliques,
 fléaux de souffre,1,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -7737,7 +7741,7 @@ fruits de table frais indigènes,2,0a,Autres produits alimentaires et animaux,Ot
 fruits de table secs et tapés,5,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Fruits secs et noix,Subsistances
 fruits de table secs et tapés autres que pistache,2,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Fruits secs et noix,Subsistances
 fruits des Îles et des Indes,3,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Denrées coloniales et épiceries diverses,Subsistances
-fruits divers et graines,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
+fruits divers et graine,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,,
 fruits en confitures,7,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
 fruits et légumes confits au vinaigre,33,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
 fruits et légumes confits et marinés,67,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
@@ -7950,6 +7954,7 @@ galou pilé,1,???,Produits inconnus,Unknown products,Produits inconnus,
 gamelles de bois,4,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 gamelles à jeter l'eau,1,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
 gan ??? commune,7,???,Produits inconnus,Unknown products,Produits inconnus,
+ganaga,1,???,Produits inconnus,Unknown products,,
 ganepot,1,???,Produits inconnus,Unknown products,Produits inconnus,
 ganses,1,8,Articles manufacturés divers n.d.a,Various manufactures,Rubanerie et passementerie diverse,Objets manufacturés
 ganses d'or,3,8,Articles manufacturés divers n.d.a,Various manufactures,Rubanerie et passementerie diverse,Objets manufacturés
@@ -8138,7 +8143,7 @@ gaze d'argent faux et de soie,1,6f,Filés ou tissés de soie et soie mélangée,
 gaze d'argent fin or fin et soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze d'argent or et soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze d'or et d'argent faux et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
-gaze d'or et de soie,3,,,,,
+gaze d'or et de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 gaze d'or faux,1,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze d'or fin et de soie,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze de coton,10,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
@@ -8170,7 +8175,7 @@ gaze et mouchoirs et ruban de soie,40,6f,Filés ou tissés de soie et soie méla
 gaze et tulle de coton,2,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 gaze fond argent,1,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze mi soie,24,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
-gaze mêlée de soie,1,,,,,
+gaze mêlée de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 gaze or et argent,11,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 gaze paille,1,6i,Autres filés ou tissés,Other threads and fabrics,Divers incertains,Divers incertains
 gaze peinte,5,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
@@ -8208,6 +8213,7 @@ gerles de chêne,2,2,Matières brutes non-comestibles non transformées n.d.a.,"
 gerles de terre,52,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Porcelaine, poterie, faïence et ouvrages de terre",
 gibecières,3,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 gibecières par douzaines,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
+gibernes,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 gibernes avec les baudriers,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 gibernes et ceinturons,3,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 gibernes et havresacs,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
@@ -8551,17 +8557,19 @@ graine de houx,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Ra
 graine de jardin,1043,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines de jardin,Matières premières
 graine de jardin et de fleurs,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines de jardin,Matières premières
 graine de kin,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
+graine de l ???,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 graine de laitue,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine de lapin,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine de laurier,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine de laurier dite bekelaers,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
-graine de lin,708,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
-graine de lin et grasse,25,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
+graine de lin,709,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
+graine de lin et grasse,18,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
 graine de lin et à semer,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
 graine de lin vieille,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
 graine de lin à battre huile,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
 graine de longue,13,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine de lupin,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
+graine de lupin et légumes secs,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 graine de luzerne,98,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Graines de trèfle, de luzerne et de prairie",Matières premières
 graine de luzerne et de trèfle,130,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Graines de trèfle, de luzerne et de prairie",Matières premières
 graine de léen,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
@@ -8622,7 +8630,7 @@ graine fermentale,1,2,Matières brutes non-comestibles non transformées n.d.a.,
 graine forestale,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine forestale et de pastel et de garance,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 graine grainette,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
-graine grasse,66,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
+graine grasse,73,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines grasses,
 graine huile d'olive,1,9b,Divers mélangés,Mixed flows,Graines diverses et mélangées,Matières premières
 graine jaune,226,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
 graine jaune d'Avignon,68,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
@@ -8646,7 +8654,6 @@ graine à chapelier,1,???,Produits inconnus,Unknown products,Produits inconnus,
 graine à chapelles,2,???,Produits inconnus,Unknown products,Produits inconnus,
 graine à couteaux,1,???,Produits inconnus,Unknown products,Produits inconnus,
 graine écarlate,7,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
-graines de lupin et légumes secs,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Subsistances diverses et mélangées,Subsistances
 grainette,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 grainette d'Avignon,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 grainette jaune,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
@@ -8681,7 +8688,7 @@ grains de séné,1,2,Matières brutes non-comestibles non transformées n.d.a.,"
 grains de trèfle,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Graines de trèfle, de luzerne et de prairie",Matières premières
 grains de verre,29,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Verrerie,Industrie française et étrangère
 grains de verre à chapelet,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Verrerie,Industrie française et étrangère
-grains divers,57,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
+grains divers,56,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
 grains dur à tailler,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 grains en advestures de toute espèce,1,???,Produits inconnus,Unknown products,Produits inconnus,
 grains farine fromage etc.,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
@@ -8763,8 +8770,9 @@ granille de cochenille,44,2,Matières brutes non-comestibles non transformées n
 granit,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 grannette de coton,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Coton non transformé,Matières premières
 graphite,7,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Alquifoux, mine de plomb et graphite",Matières premières
-grappins,4,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
+grappins,5,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 grappins de fer,56,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
+gras,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,,
 gras de tours,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Graisses diverses,
 gras rouge,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Graisses diverses,
 gras-double,7,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Chairs et œufs,Subsistances
@@ -8797,7 +8805,7 @@ grenades de fonte,1,8,Articles manufacturés divers n.d.a,Various manufactures,"
 grenadier et laurier et jasmin etc,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 grenaille,7,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Graines diverses et mélangées,Matières premières
 grenaille d'acier et de fer,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Métaux divers et mélangés,Métaux
-grenaille de C ?,1,???,Produits inconnus,Unknown products,Produits inconnus,
+grenaille de C ?,2,???,Produits inconnus,Unknown products,Produits inconnus,
 grenaille de cochenille,3,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
 grenat,15,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Bijouterie et pierres fines,
 grenat et rubis,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Bijouterie et pierres fines,
@@ -8861,6 +8869,7 @@ guin ???,1,???,Produits inconnus,Unknown products,Produits inconnus,
 guina,1,???,Produits inconnus,Unknown products,Produits inconnus,
 guincastafs,1,???,Produits inconnus,Unknown products,Produits inconnus,
 guindeaux,2,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Bâtiments de mer et apparaux,Industrie française et étrangère
+guingans,10,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
 guinimos,1,???,Produits inconnus,Unknown products,Produits inconnus,
 guinée,181,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 guinée Sénégal,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -9357,17 +9366,6 @@ huile et rabete,1,9b,Divers mélangés,Mixed flows,Divers mélangés,
 huile et sirop,2,9b,Divers mélangés,Mixed flows,Divers mélangés,
 huile fine,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile grap indigo,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
-huile grasse d'amandes,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse d'olive comestible,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
-huile grasse d'olive pour fabrique,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
-huile grasse de faine et noix,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de graines autres que lin œillette et pavot,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de graines d'œillette ou pavot,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de graines de lin,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de graines grasses,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de palme,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de palme et pignon,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile grasse de ricin,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile marc d'olive ou amurca,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile médicinale,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues médicinales diverses,Drogues médicinales
 huile pour France de poisson,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile de poisson,Matières premières
@@ -9972,7 +9970,7 @@ laque de Florence,1,5,Produits chimiques transformés n.d.a.,Processed chemical 
 laque de Venise,10,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 laque en bois,3,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 laque en feuilles,4,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
-laque en graines,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
+laque en graine,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,,
 laque en poudre,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 laque fausse,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 laque fine,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
@@ -10438,6 +10436,7 @@ malemole de 12 aunes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,"
 malemole dome,1,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 malles,14,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
 malles ???,1,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
+malles d'étoffe or,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 malles de cuir,3,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
 malles et valises et coffres,2,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
 malles travaillées,1,8,Articles manufacturés divers n.d.a,Various manufactures,"Meubles, glaces et miroirs",Industrie française et étrangère
@@ -10881,6 +10880,8 @@ meules,35,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other i
 meules acoustiques,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 meules affiloires,7,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 meules assorties,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
+meules au-dessous de 4 pouces,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
+meules au-dessus de 4 pouces,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 meules brodées,1,???,Produits inconnus,Unknown products,Produits inconnus,
 meules bâtardes,33,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 meules coutier,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
@@ -11049,7 +11050,7 @@ moellons de brique,2,6k,"Articles minéraux non métalliques manufacturés, n.d.
 moellons pierres meulières etc.,2,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
 moellons à faire chaux,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 moellons à faire des bâtiments,1,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Matières premières diverses,Matières premières
-moines ???,1,???,Produits inconnus,Unknown products,Produits inconnus,
+moines ???,2,???,Produits inconnus,Unknown products,Produits inconnus,
 moines garnis de fer-blanc,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 moire,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 moire blanche,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -11291,7 +11292,7 @@ mouchoirs de toile de Cholet,52,6d,"Filés ou tissés de fibre végétale non m�
 mouchoirs de toile de Hin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
 mouchoirs de toile découpés,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
 mouchoirs de toile fine,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
-mouchoirs de toile guingans,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
+mouchoirs de toile guingans,5,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 mouchoirs de toile peinte,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
 mouchoirs de toile rayée,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
 mouchoirs de traite,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Châles et mouchoirs hors soie,Objets manufacturés
@@ -11410,8 +11411,8 @@ mousseline de France,3,6g,Filés ou tissés de coton,Coton threads and fabrics,"
 mousseline de Suisse et siamoise à ligne de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 mousseline de Zurich,5,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 mousseline de coton,106,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
-mousseline de coton et Nankin,11,,,,,
-mousseline de coton et Nankin des Indes,21,,,,,
+mousseline de coton et Nankin,11,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+mousseline de coton et Nankin des Indes,21,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 mousseline de coton et des Indes,3,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 mousseline de coton unies et brûlées,14,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 mousseline de coton unies et peintes,17,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
@@ -11505,8 +11506,8 @@ myrobolan,47,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 myrrhe,115,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Gommes diverses,Drogues
 myrrhe en grabeau,21,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Gommes diverses,Drogues
 myrrhe en larmes,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Gommes diverses,Drogues
-mâche,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
 mâchefer,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
+mâches,1,???,Produits inconnus,Unknown products,,
 mâtereaux,163,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâtereaux communs de 30 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâtereaux d'acajou de 7 à 8 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
@@ -11619,6 +11620,7 @@ mâtereaux petits,3,7,Machines et moyens de transport y compris sellerie,Machine
 mâtereaux à barques,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâts,360,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâts assortis,17,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
+mâts au-dessous de 6 paumes,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâts bouts de 3 à 4 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâts communs,5,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâts communs de 50 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
@@ -11954,7 +11956,7 @@ métiers presse et bluteaux et cribles de moulin,2,7,Machines et moyens de trans
 métiers à faire bas,16,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 métiers à faire tapisserie,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 métiers à filer,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
-mêlées,2,,,,,
+mêlées,2,???,Produits inconnus,Unknown products,,
 mûriers,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 nacelles,2,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Bâtiments de mer et apparaux,Industrie française et étrangère
 nacre,11,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Cornes, corail, écailles, ivoire et nacre",Matières premières
@@ -12745,7 +12747,7 @@ panne de coton,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe
 panne de laine,31,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 panne de laine et de long poil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 panne de laine et de poil,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
-panne de laine et peluchesde laine,1,,,,,
+panne de laine et peluches de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 panne de laine ficelée,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 panne de poil,38,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 panne de poil longue,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
@@ -12761,7 +12763,7 @@ panne poil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,�
 panne rouge,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 panne à couvrir,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 panne écarlate,5,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-"panne, peluches et tripe",4,,,,,
+"panne, peluches et tripe",4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 panneaux,14,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
 panneaux de bois,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 pans à couvrir de terre cuite,3,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Ouvrages divers et mélangés,Industrie française et étrangère
@@ -13047,7 +13049,7 @@ passementerie de fleuret et ruban de fleuret,4,6f,Filés ou tissés de soie et s
 passementerie de laine,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 passementerie de laine blanche écrue pure,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 passementerie de laine mêlée de fil,1,6i,Autres filés ou tissés,Other threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
-passementerie de laine mêlée de fil laine et poil,2,,,,,
+passementerie de laine mêlée de fil laine et poil,2,6i,Autres filés ou tissés,Other threads and fabrics,,
 passementerie de laine ou sayette,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 passementerie de laine pure teinte,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 passementerie de laine écrue pure,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
@@ -14882,6 +14884,7 @@ plâtre moulu,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw
 plâtre moulu soit préparé,1,9b,Divers mélangés,Mixed flows,Matières premières diverses,Matières premières
 poches de peau,1,8,Articles manufacturés divers n.d.a,Various manufactures,"Cuirs, peaux et pelleterie",Industrie française et étrangère
 poids,7,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
+poids de 28 ??? de Hollande,1,???,Produits inconnus,Unknown products,,
 poids de fer,163,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 poids de fer de fonte,1,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
 poids de fonde,1,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
@@ -15706,6 +15709,7 @@ racines médicinales,3,2,Matières brutes non-comestibles non transformées n.d.
 racines rhubarbe,12,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues médicinales diverses,Drogues médicinales
 racines à barreau,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 racines à teindre,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
+raclure d'alizari,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 raclure de bois de cerf,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 raclure de carnet,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 raclure de chamois,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
@@ -15812,10 +15816,11 @@ raze croisé,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics
 raze d'Angleterre,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de Fleury,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de Maroc,332,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
-raze de Maroc teint,2,,,,,
+raze de Maroc teint,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de Reims,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de Saint-Lô,2,6i,Autres filés ou tissés,Other threads and fabrics,,
 raze de Saint-Maur,13,6i,Autres filés ou tissés,Other threads and fabrics,,
+raze de Sel,1,???,Produits inconnus,Unknown products,,
 raze de castor,45,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de laine,6,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 raze de soie de Saint-Cyr,5,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
@@ -16118,7 +16123,7 @@ ruban de laine,39,6e,Filés ou tissés de laine et de poil,Wool threads and fabr
 ruban de laine de laine pure teinte,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 ruban de laine et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 ruban de laine mêlée de fil,4,6i,Autres filés ou tissés,Other threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
-ruban de laine mêlée de fil de laine et de poils,1,,,,,
+ruban de laine mêlée de fil de laine et de poils,1,6i,Autres filés ou tissés,Other threads and fabrics,,
 ruban de laine mêlée de fil teint,1,6i,Autres filés ou tissés,Other threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 ruban de laine pure teinte,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 ruban de laine pure écrue et blanche,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
@@ -17136,6 +17141,7 @@ souliers communs,23,8,Articles manufacturés divers n.d.a,Various manufactures,O
 souliers couverts en callemande et pour femme,1,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 souliers couverts en soie et pour femme,8,8,Articles manufacturés divers n.d.a,Various manufactures,Soieries diverses,Objets manufacturés
 souliers couverts en étoffe,3,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
+souliers couverts en étoffe pour femme,5,8,Articles manufacturés divers n.d.a,Various manufactures,,
 souliers d'enfant,6,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 souliers d'homme,20,8,Articles manufacturés divers n.d.a,Various manufactures,Ouvrages divers et mélangés,Industrie française et étrangère
 souliers d'étoffe de soie,7,8,Articles manufacturés divers n.d.a,Various manufactures,Soieries diverses,Objets manufacturés
@@ -17857,7 +17863,7 @@ terendine,5,???,Produits inconnus,Unknown products,Produits inconnus,
 terixe,1,???,Produits inconnus,Unknown products,Produits inconnus,
 ternilles,1,???,Produits inconnus,Unknown products,Produits inconnus,
 terra merita,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
-terraille,258,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
+terraille,259,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
 terraille blanche,18,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
 terraille commune,46,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
 terraille de Gênes,4,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,"Porcelaine, poterie, faïence et ouvrages de terre",
@@ -17924,6 +17930,7 @@ terre maganaise,3,2,Matières brutes non-comestibles non transformées n.d.a.,"R
 terre maganaize,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 terre manganèse,13,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 terre noire,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
+terre orianne ???,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 terre pour le goudron,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 terre pour pipes et à potier,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 terre pour teinture,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
@@ -18026,6 +18033,8 @@ tires-bouchons d'acier,1,6j,"Métaux, produits métalliques et outils",Metal pro
 tiretaine,11,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 tiretaine de laine,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 tiretaine et miselaine,2,???,Produits inconnus,Unknown products,Produits inconnus,
+tissus de laine,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
+tissus de poils,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 tobines,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 tobines de Hollande,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 toile,744,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18147,7 +18156,7 @@ toile boelans,1,6h,Autres filés ou tissés mélangés de fibres végétales don
 toile bonnets,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile boucassine,21,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile bougran,105,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile bougran gommée,3,,,,,
+toile bougran gommée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 toile boulange,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile bourlegambis,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile brantes des Indes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18163,17 +18172,17 @@ toile brodée en laine et de coton,1,6i,Autres filés ou tissés,Other threads a
 toile brodée en soie et de coton,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
 toile brodée et de coton,5,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
 toile bueadille,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile cacanava,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile cacanava,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile cadéas,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile caissie,72,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile caissière,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile calanea,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile calias,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile canevas,113,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile canevas de chanvre,1,,,,,
-toile canevas de fil,2,,,,,
-toile canevas gommée,3,,,,,
-toile canevas tracé,7,,,,,
+toile canevas de chanvre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
+toile canevas de fil,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
+toile canevas gommée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
+toile canevas tracé,7,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 toile carotte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile carotte double,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile carotte simple,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18284,7 +18293,7 @@ toile d'azar,11,6h,Autres filés ou tissés mélangés de fibres végétales don
 toile d'azur,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'azur bleue,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'ecripe,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'emballage,718,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile d'emballage,719,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'emballage 2270 lignes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'emballage de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile d'emballage neuve,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18324,7 +18333,7 @@ toile de Bretagne 3/4,1,6d,"Filés ou tissés de fibre végétale non mélangée
 toile de Bretagne 7/8,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne ??? brin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne Fougères,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne bas brins,11,,,,,
+toile de Bretagne bas brins,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 toile de Bretagne beurrière,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne blancard,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne blanche,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18375,8 +18384,8 @@ toile de Bretagne grenade,1,6d,"Filés ou tissés de fibre végétale non mélan
 toile de Bretagne grise,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne gros brin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne haute louise,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne hauts brins,32,,,,,
-toile de Bretagne hauts brins de Dinan,3,,,,,
+toile de Bretagne hauts brins,32,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
+toile de Bretagne hauts brins de Dinan,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 toile de Bretagne jaune,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne lacormen,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne large,171,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18409,7 +18418,7 @@ toile de Cambrai et de lin,10,6d,"Filés ou tissés de fibre végétale non mél
 toile de Cambrai et de lin fin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Chauvreau,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Cholet,196,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Cholet à carreaux,1,,,,,
+toile de Cholet à carreaux,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,,
 toile de Château-Gontier,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Clisson,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Combourg,42,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18418,6 +18427,7 @@ toile de Courtrai,3,6h,Autres filés ou tissés mélangés de fibres végétales
 toile de Dinan,6,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Dinant,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Flandre,36,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Fontenoy,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile de Fougères,53,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de France,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Frise,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18427,12 +18437,12 @@ toile de Grandville,1,6h,Autres filés ou tissés mélangés de fibres végétal
 toile de Grenade,45,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Grenade de lin,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Grenoble,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Halle,260,,,,,
+toile de Halle,260,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile de Hanovre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Hollande,49,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Hollande blanche,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Hollande fine,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
-toile de Killis,45,,,,,
+toile de Killis,45,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile de Landerneau,28,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Languenan,56,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Laval,317,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18616,7 +18626,7 @@ toile de coton et de lin,6,6h,Autres filés ou tissés mélangés de fibres vég
 toile de coton et soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
 toile de coton fine,8,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton forte,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
-toile de coton français,4,,,,,
+toile de coton français,4,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 toile de coton haut prix et teinte,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton imprimée,21,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton imprimée et peigne et peinte,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -18676,7 +18686,7 @@ toile de fil peinte et teinte,27,6h,Autres filés ou tissés mélangés de fibre
 toile de fil teinte,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fil à carreaux,7,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de filezie,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de fleuret de Rouen,2,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
+toile de fleuret de Rouen,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fleuret et blancard,2,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
 toile de gris,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18733,7 +18743,7 @@ toile de lin de ménage,3,6d,"Filés ou tissés de fibre végétale non mélang�
 toile de lin du pays,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de lin entre large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de lin et de batiste et linon,72,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de lin et mêlée et de couleur,2,,,,,
+toile de lin et mêlée et de couleur,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile de lin façon de Hollande,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de lin fil d'épreuve,6,6i,Autres filés ou tissés,Other threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de lin fine de ???,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18880,22 +18890,20 @@ toile grosse en faces,12,6d,"Filés ou tissés de fibre végétale non mélangé
 toile grosse et commune,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile grosse et sommiers,6,9b,Divers mélangés,Mixed flows,Divers mélangés,
 toile grosse garnie ??? pour prélat,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile guingans,296,,,,,
-toile guingans blanc,1,,,,,
-toile guingans bleu,1,,,,,
-toile guingans de Bengale,2,,,,,
-toile guingans de Grenade,2,,,,,
-toile guingans de Madras,24,,,,,
-toile guingans de Masulipatan,1,,,,,
-toile guingans de Pondichéry,26,,,,,
-toile guingans de Pondichéry et de Madras,1,,,,,
-toile guingans de Rouen,3,,,,,
-toile guingans de fil,17,,,,,
-toile guingans de fil de coton,1,,,,,
-toile guingans de lin,6,,,,,
-toile guingans des indes,2,,,,,
-toile guingans des prises,1,,,,,
-toile guingans du Bengale,8,,,,,
+toile guingans,618,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans blanc,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans bleu,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Bengale,2,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Grenade,2,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Madras,24,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Masulipatan,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Pondichéry,26,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Pondichéry et de Madras,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de Rouen,3,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans de lin,6,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans des Indes,3,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans des prises,1,6g,Filés ou tissés de coton,Coton threads and fabrics,,
+toile guingans du Bengale,8,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 toile hivre,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile hollande,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile hollandille,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18925,7 +18933,7 @@ toile linon,41,6h,Autres filés ou tissés mélangés de fibres végétales dont
 toile lizat,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile lustrée,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile manche,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile manouf,145,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile manouf,146,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile mesdin,8,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile mi-blanche de moins de 8 fils,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile miennel,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18956,10 +18964,10 @@ toile peinte et teinte,7,6h,Autres filés ou tissés mélangés de fibres végé
 toile peinte française,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte imprimée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte indienne,6,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
-toile peinte peinte,1,,,,,
+toile peinte peinte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile peinte pour paravent,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte sur enduit pour tapisserie,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile peintes guingans,2,,,,,
+toile peintes guingans,2,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 toile petite,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile photas,9,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile photas imitant celle des Indes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19062,12 +19070,12 @@ toile teinte de moins de 8 fils,2,6h,Autres filés ou tissés mélangés de fibr
 toile tissée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile tissée très fin,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile treillis,120,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile treillis bougrans et canevas,4,,,,,
-toile treillis d'Allemagne,1,,,,,
-toile treillis gommé,4,,,,,
-toile treillis gommée,1,,,,,
-toile treillis non lustré,1,,,,,
-toile treillis peint,1,,,,,
+toile treillis bougrans et canevas,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+toile treillis d'Allemagne,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+toile treillis gommé,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+toile treillis gommée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+toile treillis non lustré,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
+toile treillis peint,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,,
 toile vernante,13,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile vernie,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile verte ???,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19080,6 +19088,7 @@ toile à bas prix de coton et imprimée,2,6g,Filés ou tissés de coton,Coton th
 toile à bluteaux,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bouquets de laine de coton,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bâts,13,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile à camis ???,1,???,Produits inconnus,Unknown products,,
 toile à carreaux,260,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile à carreaux de Rouen,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile à carreaux de fil et de laine,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19101,6 +19110,7 @@ toile à image,1,6h,Autres filés ou tissés mélangés de fibres végétales do
 toile à matelas,73,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à matelas et à carreaux,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à matelot,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
+toile à napon ???,1,???,Produits inconnus,Unknown products,,
 toile à nappes,7,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à nappes et serviettes,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à nègre,6,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19192,8 +19202,7 @@ tours à barriques,1,7,Machines et moyens de transport y compris sellerie,Machin
 tours à filer,15,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 tours à filer de bois,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 tours à guillocher,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
-tourteaux de graines grasses,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
-tourteaux de graines oléagineuses,3,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
+tourteaux de graine oléagineuse,6,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",,
 toutenague,40,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Métaux divers et mélangés,Métaux
 trafiquer,1,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
 train de cabriolet,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
@@ -19225,7 +19234,7 @@ tresse de laine 30 lignes,1,6e,Filés ou tissés de laine et de poil,Wool thread
 tresse de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Rubanerie et passementerie diverse,Objets manufacturés
 tresse de soie,15,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 tricots,3,8,Articles manufacturés divers n.d.a,Various manufactures,Textiles manufacturés divers et mélangés,Objets manufacturés
-tricots chinés 6 aunes,1,,,,,
+tricots chinés 6 aunes,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 tricots de coton,2,8,Articles manufacturés divers n.d.a,Various manufactures,Textiles manufacturés divers et mélangés,Objets manufacturés
 tricots de coton et tricots de fil,1,8,Articles manufacturés divers n.d.a,Various manufactures,Textiles manufacturés divers et mélangés,Objets manufacturés
 tricots de fil,2,8,Articles manufacturés divers n.d.a,Various manufactures,Textiles manufacturés divers et mélangés,Objets manufacturés
@@ -19367,6 +19376,7 @@ vaches maigres,2,0a,Autres produits alimentaires et animaux,Other foodstuff and 
 vaches tuées,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Animaux,
 vaches vivantes,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Animaux,
 vacquette,29,???,Produits inconnus,Unknown products,Produits inconnus,
+vague ???,1,???,Produits inconnus,Unknown products,,
 vairon,1,???,Produits inconnus,Unknown products,Produits inconnus,
 vaisseaux montés,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 vaisselle,5,9c,Divers incertains,Various uncertain,Ouvrages divers et mélangés,Industrie française et étrangère
@@ -20453,13 +20463,16 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe au-dessus du sixième de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe avec argent et or,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe avec un brin de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe brochée d'argent et d'or faux de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée d'argent et d'or fin de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée d'or ou d'argent faux de soie pure,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée d'or ou d'argent fin de soie pure,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe brochée de coton et de fil siamois,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe brochée de pure soie et unies,39,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée de soie et unies,70,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe brochée de soie pure,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe brochée et brodée,2,???,Produits inconnus,Unknown products,étoffe diverses,Objets manufacturés
-étoffe brochées d'argent et d'or faux de soie,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe brochées d'argent et d'or fin de soie,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe brochées de pure soie et unies,39,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe brochées de soie de soie,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe brochées de soie et unies,70,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe cotonne,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 étoffe croisée,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe crêpe,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20493,7 +20506,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de coton au quart de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de coton basin piqués mousselinettes,2,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 étoffe de coton brillant blanc,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe de coton brochées et brodées et imprimées,2,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
+étoffe de coton brochée et brodée et imprimée,2,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 étoffe de coton brodé,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de coton de fil,6,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de coton de fil et de laine,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20530,11 +20543,11 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de coton et velours commun,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe de coton,Objets manufacturés
 étoffe de coton imprimé,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe de coton,Objets manufacturés
 étoffe de coton mi soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe de coton mêlée,1,,,,,
+étoffe de coton mêlée,1,6i,Autres filés ou tissés,Other threads and fabrics,,
 étoffe de coton mêlée de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de coton peint,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
 étoffe de coton piqué,1,6g,Filés ou tissés de coton,Coton threads and fabrics,étoffe de coton,Objets manufacturés
-étoffe de coton simple,2,,,,,
+étoffe de coton simple,2,6g,Filés ou tissés de coton,Coton threads and fabrics,,
 étoffe de crin,33,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de crin et de poils,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de d'argent et d'or et de soie,23,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20552,14 +20565,14 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de filoselle,48,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de filoselle et de laine,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de filoselle et de soie,6,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe de fleuret,69,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe de fleuret,73,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de fleuret au brin de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de fleuret et de laine,5,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de fleuret et de soie,8,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de fleuret et laine,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de fleuret pure,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de galette et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe de laine,544,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
+étoffe de laine,547,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe de laine ???,5,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe de laine Minorque,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe de laine angora,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
@@ -20596,7 +20609,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de laine grosse,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe de laine imprimée,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe de laine large et serge,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
-étoffe de laine mêlée,1,,,,,
+étoffe de laine mêlée,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,,
 étoffe de laine mêlée de soie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de laine mêlée ou pure,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de laine poil et laine,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20629,6 +20642,9 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de poil et fil,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de poil et laine velours,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de poil et laine velours d'Utrecht,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe de pure soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de pure soie et unie,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de pure soie façonnée,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe de riche,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie,2631,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie au quart,168,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20675,14 +20691,14 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de soie et ruban,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 étoffe de soie et soierie,6,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 étoffe de soie fabriquée,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe de soie façonnée,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
+étoffe de soie façonnée,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie fleuret et soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie herbage,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie mi soie,191,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie mêlée,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie mêlée d'argent et d'or faux,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie mêlée d'argent et d'or fin,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe de soie mêlée de fil,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe de soie mêlée de fil,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie mêlée de laine ou de coton,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie pays étrangers,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie pièce,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
@@ -20700,7 +20716,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de velours de soie,157,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de voile,2,7,Machines et moyens de transport y compris sellerie,Machines and transportation,étoffe diverses,Objets manufacturés
 étoffe des Iles,4,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe des Indes,24,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe des Indes,25,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe des Indes vestes brodées,1,9b,Divers mélangés,Mixed flows,étoffe diverses,Objets manufacturés
 étoffe des prises,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe dite calutras de coton et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20731,7 +20747,6 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe et ruban de fleuret,10,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 étoffe et ruban de soie,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Soieries diverses,Objets manufacturés
 étoffe façonnée,100,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe façonnés de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe filoselle,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe filoselle de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe filoselle et laine,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20751,14 +20766,14 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe mi soie,143,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe mêlée au ??? soie,5,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe mêlée de bourre en molleton,1,6i,Autres filés ou tissés,Other threads and fabrics,,
-étoffe mêlée de fil de soie,8,,,,étoffe diverses,Objets manufacturés
+étoffe mêlée de fil de soie,8,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe mêlée de soie ???,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe mêlée de soie peluches,133,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe noire,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe peinte,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe peluches communes,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
 étoffe peluches de laine,21,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
-étoffe peluches de prise,1,,,,,
+étoffe peluches de prise,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe peluches de soie,6,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe poil en panne à long poil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe pour talits,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20766,6 +20781,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe pure brochée de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe pure façonnée,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe pure unie,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe pures de fleuret et mouchoirs,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe refoulée,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe riche,116,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe riche en or,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20783,9 +20799,9 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe à la valeur,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe à peu de soie,343,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe éternelle,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe éternelle au ? de soie,1,,,,,
+étoffe éternelle au ? de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe éternelle de laine,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe de laine,Objets manufacturés
-étoffe éternelle mêlée de soie,1,,,,,
+étoffe éternelle mêlée de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe étrangère,5,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe étrangère de jude,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoupes,208,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières

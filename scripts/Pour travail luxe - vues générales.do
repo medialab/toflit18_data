@@ -44,6 +44,7 @@ tab product_luxe_dans_type product_sitc [aweight=value], row column  nofreq cols
 collapse (sum) value, by(product_simplification product_luxe_dans_type product_luxe_dans_SITC product_sitc product_type_textile)
 gsort - value
 list if product_luxe_dans_type=="Haut de gamme" in 1/15
+list if product_luxe_dans_type=="Haut de gamme" & product_sitc!="Soie" in 1/100
 list if product_luxe_dans_type=="Milieu de gamme" in 1/15
 list if product_luxe_dans_type=="bas de gamme" in 1/15
 
