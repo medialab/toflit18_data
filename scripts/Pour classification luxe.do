@@ -40,7 +40,7 @@ drop _merge
 
 gsort product_sitc_FR u_conv - nbobs product_simplification
 
-drop if obsolete=="oui"
+*drop if obsolete=="oui"
 drop if nbobs<=9
 
 gsort + product_sitc_FR + u_conv - nbobs + product_simplification
@@ -55,7 +55,7 @@ drop if u_conv=="unité manquante" & garder_um!=1
 drop garder_um
 
 
-gsort + product_sitc_FR + u_conv - nbobs + product_simplification
+gsort + type + product_sitc_FR + u_conv - median_price
 export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
 save "$dir/Données Stata/classification_autre_luxe.dta", replace
 
@@ -71,7 +71,7 @@ gen test=.
 bys product_simplification  (type): replace test= type[1]== type[_N]
 replace test=0 if type==""
 codebook test
-br if test==0 
+*br if test==0 
 assert test==1
 
 
@@ -91,8 +91,8 @@ bys product_simplification  (position_type): replace test= position_type[1]== po
 replace test=0 if position_type==""
 codebook test
 gsort + product_sitc_FR + product_simplification
-br if test==0
 replace test=1 if type=="filés"
+*br if test==0
 assert test==1
 
 bys product_simplification : keep if _n==1
@@ -112,7 +112,7 @@ bys product_simplification  (PositiondansSITC): replace test= PositiondansSITC[1
 replace test=0 if PositiondansSITC==""
 replace test=1 if type=="filés"
 codebook test
-br if test==0
+*br if test==0
 assert test==1
 bys product_simplification : keep if _n==1
 
