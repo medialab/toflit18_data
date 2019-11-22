@@ -1,5 +1,4 @@
 simplification,nbr_occurences_simpl,sitc,sitc_FR,sitc_EN,revolutionempire,RE_aggregate
-,37,???,Produits inconnus,Unknown products,[vide],
 ???,99,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? blanc,2,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? brun,2,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -4174,6 +4173,7 @@ cirage pour chaussures,1,5,Produits chimiques transformés n.d.a.,Processed chem
 circks,1,???,Produits inconnus,Unknown products,Produits inconnus,
 cire,32,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
 cire ???,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,,
+cire alizari,1,,,,,
 cire blanche,582,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
 cire blanche de bougie,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
 cire blanche et jaune,501,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Cire,Matières premières
@@ -5359,7 +5359,7 @@ cuivre à lessive,1,6j,"Métaux, produits métalliques et outils",Metal products
 cuivre à mitraille,1,6j,"Métaux, produits métalliques et outils",Metal products,Cuivre,Métaux
 cuivre à monnayer rouge,2,9a,Monnaies et métaux précieux,Precious metals,Monnaies et métaux précieux,Matières d'or et d'argent
 cuivrerie,34,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
-culotte en chemises de toile à nègre,1,,,,,
+culotte en chemises de toile à nègre,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 culottes,70,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 culottes d'étamine,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 culottes de bouras,2,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -6109,6 +6109,7 @@ déchets de laine tontisse,1,2,Matières brutes non-comestibles non transformée
 déchets de laine tontisse et peine,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Laines non transformées diverses,Matières premières
 déchets de pierre,4,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 déchets de poil (rognures et broissiers),1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Poils et crin,
+déchets et débris tourteaux de graine oléagineuse,1,,,,,
 décorations pour carrosses,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Ouvrages divers et mélangés,Industrie française et étrangère
 dégras,23,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Graisses diverses,
 dégras d'huile,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Graisses diverses,
@@ -8670,6 +8671,7 @@ grains blé et froment,2,0a,Autres produits alimentaires et animaux,Other foodst
 grains blé et riz,9,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
 grains blé mercit,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
 grains blé mescli,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
+grains comestibles,1,,,,,
 grains cuscute,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 grains d'Avignon,1,9c,Divers incertains,Various uncertain,Matières brutes et transformées pour teinture,Matières premières
 grains d'Espagne,34,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Blé et autres grains comestibles,Subsistances
@@ -9194,6 +9196,7 @@ huile commune d'olive,1,4,"Huiles, graisses et cires d'origine animale et végé
 huile concrète de cacao et de laurier,2,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
 huile d'Aix,2,???,Produits inconnus,Unknown products,Huiles diverses,
 huile d'absinthe,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
+huile d'amande,4,,,,,
 huile d'amandes,77,5,Produits chimiques transformés n.d.a.,Processed chemical products,Huiles diverses,
 huile d'amandes douces,14,5,Produits chimiques transformés n.d.a.,Processed chemical products,Huiles diverses,
 huile d'ambre,12,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
@@ -9205,13 +9208,13 @@ huile d'enc,1,???,Produits inconnus,Unknown products,Huiles diverses,
 huile d'olive,3310,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
 huile d'olive Corse pour la France,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive blanche de Gênes,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
-huile d'olive comestible,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
+huile d'olive comestible,7,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
 huile d'olive commune,18,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive de fèce ou fie d'huile,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive et autres pour fabrique,21,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive fine,123,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
 huile d'olive importée en grande partie à Marseille,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
-huile d'olive pour fabrique,245,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
+huile d'olive pour fabrique,249,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive pour fabrique de la Corse,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive pour fabrique,Matières premières
 huile d'olive à manger,11,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huile d'olive à manger,Subsistances
 huile d'ours,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Huiles diverses,
@@ -9256,7 +9259,7 @@ huile de crabette,1,???,Produits inconnus,Unknown products,Huiles diverses,
 huile de crème,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de cumin,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de dégras,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile de faine et de noix,5,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de faine et de noix,9,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de farde,1,???,Produits inconnus,Unknown products,Huiles diverses,
 huile de flanelle,1,???,Produits inconnus,Unknown products,Huiles diverses,
 huile de gaïac,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Drogues médicinales diverses,Drogues médicinales
@@ -9266,13 +9269,15 @@ huile de girofle et sassafras,1,4,"Huiles, graisses et cires d'origine animale e
 huile de girofle et spirituelle,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de grain,4,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine,626,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de graine autres que de lin d'oeillettes ou de pavots,2,,,,,
 huile de graine d'anis,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de graine d'oeillettes ou de pavots,2,,,,,
 huile de graine d'olive,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de Rhodes,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de cannelle,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Parfumerie et toilette,
 huile de graine de colza lin navette etc. et de noix,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de girofle,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Parfumerie et toilette,
-huile de graine de lin,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de graine de lin,5,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de macis,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de moutarde,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine de navette,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
@@ -9282,6 +9287,7 @@ huile de graine de térébenthine,1,4,"Huiles, graisses et cires d'origine anima
 huile de graine et de lin,6,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine et de noix,38,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graine grasse,3,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de graine oléagineuse,2,,,,,
 huile de grains,5,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de grains à peinures,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de graisse,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
@@ -9310,11 +9316,12 @@ huile de muscade,25,4,"Huiles, graisses et cires d'origine animale et végétale
 huile de navette,179,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de noisettes,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de noix,244,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
-huile de palme,34,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de palme,36,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de palmier,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de parfum,4,5,Produits chimiques transformés n.d.a.,Processed chemical products,Parfumerie et toilette,
 huile de peinture,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Matières brutes et transformées pour teinture,Matières premières
 huile de pierre,1,3,Combustibles,Fuels,Combustibles dont charbons et bois,Matières premières
+huile de pignon de palme,2,,,,,
 huile de pignon et ricin,2,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de pin,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de plantes,1,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
@@ -9326,7 +9333,7 @@ huile de poix,9,4,"Huiles, graisses et cires d'origine animale et végétale",Oi
 huile de rabette,108,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de rave,2,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
 huile de rhue,1,5,Produits chimiques transformés n.d.a.,Processed chemical products,Huiles diverses,
-huile de ricin,9,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
+huile de ricin,13,4,"Huiles, graisses et cires d'origine animale et végétale",Oils,Huiles diverses,
 huile de romarin,4,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues médicinales diverses,Drogues médicinales
 huile de rose,4,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
 huile de salmus,1,???,Produits inconnus,Unknown products,Huiles diverses,
@@ -11505,7 +11512,7 @@ myrrhe,115,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw mate
 myrrhe en grabeau,21,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Gommes diverses,Drogues
 myrrhe en larmes,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Gommes diverses,Drogues
 mâchefer,5,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
-mâches,1,???,Produits inconnus,Unknown products,,
+mâches,2,???,Produits inconnus,Unknown products,,
 mâtereaux,163,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâtereaux communs de 30 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
 mâtereaux d'acajou de 7 à 8 pieds,1,7,Machines et moyens de transport y compris sellerie,Machines and transportation,"Ouvrages de bois, liège et jonc",Industrie française et étrangère
@@ -15896,7 +15903,7 @@ robes brodées,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habi
 robes brodées en laine et de femme,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 robes d'indienne,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 robes d'indienne des prises,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
-robes d'étoffe d'argent et de soie,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
+robes d'étoffe de soie dorure d'argent,1,8,Articles manufacturés divers n.d.a,Various manufactures,,
 robes de basin brodées,1,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 robes de chambre,7,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 robes de chambre d'indienne,3,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
@@ -18485,7 +18492,7 @@ toile de Savigny,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin
 toile de Sevigneau,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Silésie,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Suisse,41,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Surate,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile de Surate,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de Suvignan,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Troyes,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Valenciennes,43,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -20475,10 +20482,6 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe croisée,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe crêpe,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe d'Amiens façonnée,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe d'argent,10,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe d'argent et de soie,9,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe d'argent et soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe d'argent fil et soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe d'herbes,5,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe d'écorce,2,6b,"Produits du bois, liège, jonc","Wood, cork and cane products",étoffe diverses,Objets manufacturés
 étoffe de Flandre et de poil,2,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
@@ -20640,7 +20643,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de soie au quart,168,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie avec argent et or,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie blonde,5,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe de soie brochée,1,,,,,
+étoffe de soie brochée,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe de soie brochée d'argent et d'or faux,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie brochée d'argent et d'or fin,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie brochée de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
@@ -20663,15 +20666,16 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de soie des Indes,41,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie dite Florence,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie dite milleret,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe de soie dorure,1,,,,,
-étoffe de soie dorure d'argent et d'or,39,,,,,
-étoffe de soie dorure d'argent et d'or faux,1,,,,,
-étoffe de soie dorure d'argent et d'or fin,1,,,,,
-étoffe de soie dorure d'or,37,,,,,
-étoffe de soie dorure d'or et d'argent faux,3,,,,,
-étoffe de soie dorure d'or faux,1,,,,,
+étoffe de soie dorure,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'argent,10,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'argent d'or,9,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'argent et d'or,65,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'argent et d'or faux,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'argent et d'or fin,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'or,42,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'or et d'argent faux,3,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
+étoffe de soie dorure d'or faux,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe de soie du Levant,12,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
-étoffe de soie durure d'argent d'or,9,,,,,
 étoffe de soie en coton,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe de soie en dorure,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie en drap,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
@@ -20681,6 +20685,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de soie en velours,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie et ???,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie et d'argent,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
+étoffe de soie et de fil dorure d'argent,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,,
 étoffe de soie et de poil,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie et de velours d'Utrecht,23,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
 étoffe de soie et de velours de Gênes,4,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe de soie,Objets manufacturés
@@ -20719,15 +20724,13 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe dite pauvre madame,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe diverse couvertures et draperie pour le gouvernement,5,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 étoffe dorure,24,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe dorure d'argent,18,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe dorure d'argent,28,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe dorure d'argent et d'or,339,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe dorure d'argent et d'or faux,12,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe dorure d'argent et d'or fin,45,,,,,
+étoffe dorure d'argent et d'or fin,45,6i,Autres filés ou tissés,Other threads and fabrics,,
 étoffe dorure d'or,76,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe dorure d'or et de soie,5,,,,,
 étoffe dorure d'or faux,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe dorure et de soie,31,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
-étoffe dorure fine et de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
+étoffe dorure et de soie,5,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe droguet,11,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe en bours du Levant,1,6i,Autres filés ou tissés,Other threads and fabrics,étoffe diverses,Objets manufacturés
 étoffe en dorure et galon et passementerie,24,6i,Autres filés ou tissés,Other threads and fabrics,Mercerie,Industrie française et étrangère

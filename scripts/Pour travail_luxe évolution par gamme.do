@@ -85,10 +85,6 @@ graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geograp
 end
 
 
-evolution_gamme France Exports product_luxe_dans_SITC 6g
-evolution_gamme France Exports product_luxe_dans_type 6g
-aienu
-
 foreach z in France Nantes Marseille Rennes Bordeaux Bayonne Rochelle Rouen {
 
 capture evolution_gamme `z' Exports product_luxe_dans_type tous
@@ -98,3 +94,6 @@ capture evolution_gamme `z' Exports product_luxe_dans_SITC tous
 capture evolution_gamme `z' Imports product_luxe_dans_SITC tous
 
 }
+
+evolution_gamme France Exports product_luxe_dans_SITC 6g
+evolution_gamme France Exports product_luxe_dans_type 6g
