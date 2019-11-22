@@ -47,6 +47,10 @@ replace `reference'=word(`reference',1)
 collapse (sum) _, by(`reference' year )
 reshape wide _, i(year) j(`reference') string
 
+replace _haut=0 if _haut==.
+replace _milieu=0 if _milieu==.
+replace _bas=0 if _bas==.
+
 gen total = (_bas+_milieu+_haut)
 gen share_haut=_haut/(total)
 gen share_milieu=_milieu/(total)
@@ -55,6 +59,9 @@ gen share_bas=_bas/(total)
 replace year=1806 if year==1805.75
 tsset year
 tsfill
+
+
+
 
 local reference = substr("`reference'",-4,4)
 display "`reference'"
@@ -68,7 +75,8 @@ graph twoway (bar share_haut year, cmissing(n) color(dknavy)) (bar share_milieu 
 	*/ name(`geographie'_`exportsimports'_`reference', replace) /*
 	*/ title (`geographie'--`exportsimports'--`reference') /*
 	*/ legend (label(1 "Haut de gamme") label(2 "Milieu de gamme") label(3 "Bas de gamme") label(4 "Valeur totale du commerce")) /*
-	*/ ytitle("Millions de livres ou de francs", axis(2))
+	*/ ytitle("Millions de livres ou de francs", axis(2)) /*
+	*/ yscale(range(0) axis(2)) yscale(range(0) axis(1))
 		
 	
 graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'_`reference'.pdf", replace
@@ -76,7 +84,8 @@ graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geograp
 end
 
 
-evolution_gamme France Exports product_luxe_dans_type
+*evolution_gamme France Exports product_luxe_dans_type
+*aienu
 
 foreach z in France Nantes Marseille Rennes Bordeaux Bayonne Rochelle Rouen {
 

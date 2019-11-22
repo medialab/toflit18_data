@@ -38,15 +38,19 @@ replace product_luxe_dans_type="Milieu de gamme" if product_luxe_dans_type=="mil
 
 tab product_luxe_dans_type product_sitc [aweight=value], row column  nofreq colsort
 
+rename product_luxe_dans_type luxe_dans_typetype
+rename product_luxe_dans_SITC luxe_dans_SITC
+rename product_type_textile type
+rename product_sitc SITC18
 
 
 
-collapse (sum) value, by(product_simplification product_luxe_dans_type product_luxe_dans_SITC product_sitc product_type_textile)
+collapse (sum) value, by(product_simplification luxe_dans_type luxe_dans_SITC SITC18 type)
 gsort - value
-list if product_luxe_dans_type=="Haut de gamme" in 1/15
-list if product_luxe_dans_type=="Haut de gamme" & product_sitc!="Soie" in 1/100
-list if product_luxe_dans_type=="Milieu de gamme" in 1/15
-list if product_luxe_dans_type=="bas de gamme" in 1/15
+list if luxe_dans_type=="Haut de gamme" in 1/15
+list if luxe_dans_type=="Haut de gamme" & SITC18!="Soie" in 1/100
+list if luxe_dans_type=="Milieu de gamme" in 1/15
+list if luxe_dans_type=="bas de gamme" in 1/15
 
 *collapse (sum) value,by(product_type_textile product_sitc product_luxe_dans_type product_luxe_dans_SITC)
 

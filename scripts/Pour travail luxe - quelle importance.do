@@ -53,7 +53,8 @@ replace share_textile=share_textile+share_luxe
 
 graph twoway (connected share_textile year) (connected share_luxe year), /*
 	*/ name(`geographie'_`exportsimports', replace) /*
-	*/ title (`geographie'_`exportsimports')
+	*/ title (`geographie'_`exportsimports') /*
+	*/ ytitle("Part dans les flux totaux")
 	
 graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'.pdf", replace
 
