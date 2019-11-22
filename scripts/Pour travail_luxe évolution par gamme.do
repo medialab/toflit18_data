@@ -6,12 +6,13 @@ global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/B
 ***Evolution de chaque gamme
 capture program drop evolution_gamme
 program evolution_gamme
-args geographie exportsimports reference
-** reference peut être product_luxe_dans_type product_luxe_dans_type product_sitc_FR
+args geographie exportsimports reference sitc
+** reference peut être product_luxe_dans_type product_luxe_dans_type product_sitc_FR tous
 
 use "$dir/Données Stata/bdd courante.dta", clear
 
 keep if exportsimports=="`exportsimports'"
+if "`sitc'"!="tous" keep if product_sitc=="`sitc'"
 
 if "`geographie'"=="France" {
 	keep if NationalBestGuess==1
@@ -72,8 +73,8 @@ replace share_haut=share_milieu+share_haut
 graph twoway (bar share_haut year, cmissing(n) color(dknavy)) (bar share_milieu year, cmissing(n) color(blue)) /*
 	*/ (bar share_bas year, cmissing(n) color(ltblue)) /*
 	*/ (connected total year, yaxis(2) cmissing(n) msymbol(diamond) msize(small) lcolor(red) mcolor(red)), /*
-	*/ name(`geographie'_`exportsimports'_`reference', replace) /*
-	*/ title (`geographie'--`exportsimports'--`reference') /*
+	*/ name(`geographie'_`exportsimports'_`reference'_`sitc', replace) /*
+	*/ title (`geographie'--`exportsimports'--`reference' -- `sitc' SITC18) /*
 	*/ legend (label(1 "Haut de gamme") label(2 "Milieu de gamme") label(3 "Bas de gamme") label(4 "Valeur totale du commerce")) /*
 	*/ ytitle("Millions de livres ou de francs", axis(2)) /*
 	*/ yscale(range(0) axis(2)) yscale(range(0) axis(1))
@@ -84,15 +85,16 @@ graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geograp
 end
 
 
-*evolution_gamme France Exports product_luxe_dans_type
-*aienu
+evolution_gamme France Exports product_luxe_dans_SITC 6g
+evolution_gamme France Exports product_luxe_dans_type 6g
+aienu
 
 foreach z in France Nantes Marseille Rennes Bordeaux Bayonne Rochelle Rouen {
 
-capture evolution_gamme `z' Exports product_luxe_dans_type
-capture evolution_gamme `z' Imports product_luxe_dans_type
+capture evolution_gamme `z' Exports product_luxe_dans_type tous
+capture evolution_gamme `z' Imports product_luxe_dans_type tous
 
-capture evolution_gamme `z' Exports product_luxe_dans_SITC
-capture evolution_gamme `z' Imports product_luxe_dans_SITC
+capture evolution_gamme `z' Exports product_luxe_dans_SITC tous
+capture evolution_gamme `z' Imports product_luxe_dans_SITC tous
 
 }

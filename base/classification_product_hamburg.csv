@@ -6286,7 +6286,7 @@ drap d'Arnetal,40,,non,445105
 drap d'aucrin,1,,non,445105
 drap d'Aumale,2,,non,445105
 drap d'Auvergne,1,,non,445105
-drap d'Elbeuf,394,,non,445105
+drap d'Elbeuf,606,,non,445105
 drap d'Elbeuf de retour,1,,non,445105
 drap d'Elbeuf de velours,1,,non,445105
 drap d'Espagne,4,,non,445105
@@ -6355,7 +6355,7 @@ drap de laine commun,10,,non,445105
 drap de laine cordeillat,25,,oui,445105
 drap de laine d'Amiens,2,,non,445105
 drap de laine d'Andelys,9,,non,445105
-drap de laine d'Elbeuf,212,,non,445105
+drap de laine d'Elbeuf,212,,oui,445105
 drap de laine de Beauvais,1,,non,445105
 drap de laine de cordeillat,5,,oui,445105
 drap de laine de Cours,1,,non,445105
@@ -7484,18 +7484,18 @@ etocs de fer,13,,non,445105
 étoffe croisée,1,,non,445105
 étoffe d'Amiens façonnée,1,,non,445105
 étoffe d'argent,10,,non,445105
-étoffe d'argent d'or et de soie,58,,non,445105
-étoffe d'argent et d'or,192,,non,445105
-étoffe d'argent et d'or faux,3,,non,445105
-étoffe d'argent et d'or fin,4,,non,445105
+étoffe d'argent d'or et de soie,58,,oui,445105
+étoffe d'argent et d'or,192,,oui,445105
+étoffe d'argent et d'or faux,3,,oui,445105
+étoffe d'argent et d'or fin,4,,oui,445105
 étoffe d'argent et de soie,9,,non,445105
 étoffe d'argent et soie,1,,non,445105
 étoffe d'argent fil et soie,1,,non,445105
 étoffe d'écorce,2,,non,445105
 étoffe d'herbes,5,,non,445105
-étoffe d'or,28,,non,445105
-étoffe d'or et de soie,9,,non,445105
-étoffe d'or faux et de soie,1,,non,445105
+étoffe d'or,28,,oui,445105
+étoffe d'or et de soie,9,,oui,445105
+étoffe d'or faux et de soie,1,,oui,445105
 étoffe de bourre de soie,7,,non,445105
 étoffe de bourre de soie façon cachemire,1,,non,445105
 étoffe de cachemire de poil,1,,oui,445105
@@ -7562,7 +7562,7 @@ etocs de fer,13,,non,445105
 étoffe de coton tapisserie,0,,oui,445105
 étoffe de crin,33,,non,445105
 étoffe de crin et de poils,2,,non,445105
-étoffe de d'argent et d'or et de soie,23,,non,445105
+étoffe de d'argent et d'or et de soie,23,,oui,445105
 étoffe de dorure de laine et de soie,2,,non,445105
 étoffe de fil,8,,non,445105
 étoffe de fil au quart de soie,1,,non,445105
@@ -7678,6 +7678,7 @@ etocs de fer,13,,non,445105
 étoffe de soie aune,1,,oui,445105
 étoffe de soie avec argent et or,1,,non,445105
 étoffe de soie blonde,5,,non,445105
+étoffe de soie brochée,1,,non,445105
 étoffe de soie brochée d'argent et d'or faux,1,,non,445105
 étoffe de soie brochée d'argent et d'or fin,1,,non,445105
 étoffe de soie brochée de soie,2,,non,445105
@@ -7689,7 +7690,7 @@ etocs de fer,13,,non,445105
 étoffe de soie croisée,1,,non,445105
 étoffe de soie crue,1,,non,445105
 étoffe de soie d'armoisin,1,,non,445105
-étoffe de soie d'or et d'argent faux,3,,non,445105
+étoffe de soie d'or et d'argent faux,3,,oui,445105
 étoffe de soie d'Utrecht,1,,non,445105
 étoffe de soie de crêpe,2,,non,445105
 étoffe de soie de fleuret et soie,4,,non,445105
@@ -7701,8 +7702,16 @@ etocs de fer,13,,non,445105
 étoffe de soie des Indes,41,,non,445105
 étoffe de soie dite Florence,1,,non,445105
 étoffe de soie dite milleret,1,,non,445105
+étoffe de soie dorure,1,,non,445105
+étoffe de soie dorure d'argent et d'or,39,,non,445105
+étoffe de soie dorure d'argent et d'or faux,1,,non,445105
+étoffe de soie dorure d'argent et d'or fin,1,,non,445105
+étoffe de soie dorure d'or,37,,non,445105
+étoffe de soie dorure d'or et d'argent faux,3,,non,445105
+étoffe de soie dorure d'or faux,1,,non,445105
 étoffe de soie draps,0,,oui,445105
 étoffe de soie du Levant,12,,non,445105
+étoffe de soie durure d'argent d'or,9,,non,445105
 étoffe de soie en coton,1,,non,445105
 étoffe de soie en dorure,4,,non,445105
 étoffe de soie en dorure aune,1,,oui,445105
@@ -7725,8 +7734,8 @@ etocs de fer,13,,non,445105
 étoffe de soie fleuret et soie,1,,non,445105
 étoffe de soie herbage,1,,non,445105
 étoffe de soie mêlée,2,,non,445105
-étoffe de soie mêlée d'argent et d'or faux,1,,non,445105
-étoffe de soie mêlée d'argent et d'or fin,1,,non,445105
+étoffe de soie mêlée d'argent et d'or faux,1,,oui,445105
+étoffe de soie mêlée d'argent et d'or fin,1,,oui,445105
 étoffe de soie mêlée de fil,3,,non,445105
 étoffe de soie mêlée de laine ou de coton,1,,non,445105
 étoffe de soie mi soie,191,,non,445105
@@ -7758,14 +7767,16 @@ etocs de fer,13,,non,445105
 étoffe diverse couvertures et draperie pour le gouvernement,5,,non,445105
 étoffe dorure,24,,non,445105
 étoffe dorure d'argent,18,,non,445105
-étoffe dorure d'argent et d'or,147,,non,445105
-étoffe dorure d'argent et d'or faux,8,,non,445105
-étoffe dorure d'argent fin et d'or,41,,non,445105
-étoffe dorure d'or,48,,non,445105
+étoffe dorure d'argent et d'or,339,,non,445105
+étoffe dorure d'argent et d'or faux,12,,non,445105
+étoffe dorure d'argent et d'or fin,45,,non,445105
+étoffe dorure d'argent fin et d'or,41,,oui,445105
+étoffe dorure d'or,76,,non,445105
+étoffe dorure d'or et de soie,5,,non,445105
 étoffe dorure d'or faux,1,,non,445105
-étoffe dorure de soie,1,,non,445105
+étoffe dorure de soie,1,,oui,445105
 étoffe dorure et de soie,31,,non,445105
-étoffe dorure fausse,1,,non,445105
+étoffe dorure fausse,1,,oui,445105
 étoffe dorure fine et de soie,1,,non,445105
 étoffe droguet,11,,non,445105
 étoffe du Maroc,0,,oui,445105
@@ -7846,7 +7857,7 @@ etocs de fer,13,,non,445105
 étoffe poil et laine,0,,oui,445105
 étoffe pour talits,1,,non,445105
 étoffe pure brochée d'or fin,1,,non,445105
-étoffe pure brochée de soie,1,,non,445105
+étoffe pure brochée de soie,1,,oui,445105
 étoffe pure façonnée,1,,non,445105
 étoffe pure unie,1,,non,445105
 étoffe pures de fleuret et mouchoirs,1,,non,445105
@@ -10448,7 +10459,7 @@ guinée Sénégal,1,,non,445105
 Guinée Sénégal,0,,oui,445105
 guinée tachée,1,,non,445105
 Guinée tachée,0,,oui,445105
-guingans,10,,non,445105
+guingans,10,,oui,445105
 guingans blanc,1,,oui,445105
 guingans bleu,1,,oui,445105
 guingans de Bengale,2,,oui,445105
@@ -21604,7 +21615,7 @@ toile grosse et sommiers,6,,non,445105
 toile grosse garnie ??? pour prélat,1,,non,445105
 toile grossière,1,,oui,445105
 toile grossière en pièce de 50 aunes,1,,oui,445105
-toile guingans,618,,non,445105
+toile guingans,628,,non,445105
 toile guingans blanc,1,,non,445105
 toile guingans bleu,1,,non,445105
 toile guingans de Bengale,2,,non,445105

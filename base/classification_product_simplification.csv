@@ -7211,7 +7211,7 @@ drap d'Angleterre noir,1,drap d'Angleterre noir,1
 drap d'Arnetal,40,drap d'Arnetal,40
 drap d'aucrin,1,drap d'aucrin,1
 drap d'Aumale,2,drap d'Aumale,2
-drap d'Elbeuf,393,drap d'Elbeuf,394
+drap d'Elbeuf,393,drap d'Elbeuf,606
 drap d'Elbeuf de retour,1,drap d'Elbeuf de retour,1
 drap d'Espagne,2,drap d'Espagne,4
 drap d'Espagne aune,1,drap d'Espagne,4
@@ -7271,7 +7271,7 @@ drap de laine d'Amiens,2,drap de laine d'Amiens,2
 drap de laine d'Andelys,9,drap de laine d'Andelys,9
 drap de laine d'Angleterre,4,drap d'Angleterre,25
 drap de laine d'Arnetal,6,serge d'Arnetal,6
-drap de laine d'Elbeuf,212,drap d'Elbeuf,212
+drap de laine d'Elbeuf,212,drap d'Elbeuf,606
 drap de laine de ???,1,drap de ?,1
 drap de laine de Beauvais,1,drap de laine de Beauvais,1
 drap de laine de Carcassonne,28,drap de Carcassonne,211
@@ -7469,7 +7469,7 @@ drap écarlate,95,drap écarlate,177
 drap écarlate de France,1,drap écarlate de France,1
 drap écarlate des prises,1,drap écarlate des prises,1
 drap écarlatine,2,drap écarlate,177
-drap Elbeuf,1,drap d'Elbeuf,394
+drap Elbeuf,1,drap d'Elbeuf,606
 drap et draperie,1,drap et draperie,6
 drap et draperie casinier,1,drap et draperie casinier,1
 drap et draperie de toute sorte,5,drap et draperie,6
@@ -9573,11 +9573,11 @@ etocs de fer,4,etocs de fer,13
 étoffe d'argent fil et soie,1,étoffe d'argent fil et soie,1
 étoffe d'étamine,7,étamine,218
 étoffe d'herbes,5,étoffe d'herbes,5
-étoffe d'or,26,étoffe d'or,28
-étoffe d'or et d'argent,9,étoffe d'argent et d'or,192
-étoffe d'or et d'argent faux,1,étoffe d'argent et d'or faux,3
-étoffe d'or et d'argent fin,2,étoffe d'argent et d'or fin,4
-étoffe d'or et soie,1,étoffe d'or et de soie,9
+étoffe d'or,26,étoffe dorure d'or,76
+étoffe d'or et d'argent,9,étoffe dorure d'argent et d'or,339
+étoffe d'or et d'argent faux,1,étoffe dorure d'argent et d'or faux,12
+étoffe d'or et d'argent fin,2,étoffe dorure d'argent et d'or fin,45
+étoffe d'or et soie,1,étoffe de soie dorure d'or,37
 étoffe de bayette,2,bayette,128
 étoffe de bouracan,1,bouracan,1
 étoffe de bourre de soie,6,étoffe de bourre de soie,7
@@ -9943,8 +9943,8 @@ etocs de fer,4,etocs de fer,13
 étoffe de soie croisée,1,étoffe de soie croisée,1
 étoffe de soie crue,1,étoffe de soie crue,1
 étoffe de soie d'armoisin,1,étoffe de soie d'armoisin,1
-étoffe de soie d'or et d'argent faux,2,étoffe de soie d'or et d'argent faux,3
-étoffe de soie d'or et d'argent faux aune,1,étoffe de soie d'or et d'argent faux,3
+étoffe de soie d'or et d'argent faux,2,étoffe de soie dorure d'or et d'argent faux,3
+étoffe de soie d'or et d'argent faux aune,1,étoffe de soie dorure d'or et d'argent faux,3
 étoffe de soie Damas,9,damas de soie,10
 étoffe de soie de crêpe,2,étoffe de soie de crêpe,2
 étoffe de soie de laine,1,étoffe de soie de laine,1
@@ -9997,13 +9997,13 @@ etocs de fer,4,etocs de fer,13
 étoffe de soie laine et coton,2,étoffe de coton de fil et de soie,7
 étoffe de soie laine et coton aune,1,étoffe de coton de fil et de soie,7
 étoffe de soie lampas,1,lampas de soie,1
-étoffe de soie mêlée d'or et d'argent faux,1,étoffe de soie mêlée d'argent et d'or faux,1
-étoffe de soie mêlée d'or et d'argent fin,1,étoffe de soie mêlée d'argent et d'or fin,1
+étoffe de soie mêlée d'or et d'argent faux,1,étoffe de soie dorure d'argent et d'or faux,1
+étoffe de soie mêlée d'or et d'argent fin,1,étoffe de soie dorure d'argent et d'or fin,1
 étoffe de soie mêlée de coton ou de laine,1,étoffe de soie mêlée de laine ou de coton,1
 étoffe de soie mêlée de fil,1,étoffe de soie mêlée de fil,3
 étoffe de soie morenine,1,morenine de soie,1
 étoffe de soie mouchoirs de soie,2,mouchoirs de soie,628
-étoffe de soie or et argent,23,étoffe de d'argent et d'or et de soie,23
+étoffe de soie or et argent,23,étoffe de soie dorure d'argent et d'or,39
 étoffe de soie panine,2,panne de soie,94
 étoffe de soie panne,1,panne de soie,94
 étoffe de soie pays étrangers,1,étoffe de soie pays étrangers,1
@@ -10051,28 +10051,28 @@ etocs de fer,4,etocs de fer,13
 étoffe diverses des Indes,6,étoffe des Indes,25
 étoffe dorure,12,étoffe dorure,24
 étoffe dorure d'argent,16,étoffe dorure d'argent,18
-étoffe dorure d'or,43,étoffe dorure d'or,48
+étoffe dorure d'or,43,étoffe dorure d'or,76
 étoffe dorure d'or faux,1,étoffe dorure d'or faux,1
-étoffe dorure de soie,1,étoffe dorure de soie,1
-étoffe dorure or et argent,138,étoffe dorure d'argent et d'or,147
-étoffe dorure or et argent faux,8,étoffe dorure d'argent et d'or faux,8
-étoffe dorure or et argent fin,41,étoffe dorure d'argent fin et d'or,41
+étoffe dorure de soie,1,étoffe de soie dorure,1
+étoffe dorure or et argent,138,étoffe dorure d'argent et d'or,339
+étoffe dorure or et argent faux,8,étoffe dorure d'argent et d'or faux,12
+étoffe dorure or et argent fin,41,étoffe dorure d'argent et d'or fin,45
 étoffe drap,10,drap,858
 étoffe droguet,1,étoffe droguet,11
 étoffe droguet de soie,1,droguet de soie,23
 étoffe en bours du Levant,1,étoffe en bours du Levant,1
 étoffe en dorure,12,étoffe dorure,24
 étoffe en dorure d'argent,2,étoffe dorure d'argent,18
-étoffe en dorure d'or,5,étoffe dorure d'or,48
-étoffe en dorure fausse,1,étoffe dorure fausse,1
-étoffe en dorure or et argent,9,étoffe dorure d'argent et d'or,147
+étoffe en dorure d'or,5,étoffe dorure d'or,76
+étoffe en dorure fausse,1,étoffe dorure d'argent et d'or faux,12
+étoffe en dorure or et argent,9,étoffe dorure d'argent et d'or,339
 étoffe en drap de coton,1,drap de coton,19
 étoffe en étamine,1,étamine,218
 étoffe en flanelle,1,flanelle,294
 étoffe en flanelle fil et laine,1,flanelle fil et laine,1
 étoffe en laine,2,étoffe de laine,547
 étoffe en laine mélangée,1,étoffe de laine mêlée,1
-étoffe en or,2,étoffe d'or,28
+étoffe en or,2,étoffe dorure d'or,76
 étoffe en peluches pour nègre,1,étoffe de peluches pour nègre,1
 étoffe en quart de soie,2,étoffe au quart de soie,362
 étoffe en soie,2,étoffe de soie,2631
@@ -10212,17 +10212,17 @@ etocs de fer,4,etocs de fer,13
 étoffe moquette fil et laine,1,moquette de laine et de fil,1
 étoffe moquette grasse de laine et fil,1,moquette grasse de laine et fil,1
 étoffe noire,1,étoffe noire,1
-étoffe or argent en soie,9,étoffe d'argent d'or et de soie,58
-étoffe or argent et soie,33,étoffe d'argent d'or et de soie,58
-étoffe or et argent,183,étoffe d'argent et d'or,192
-étoffe or et argent en soie,1,étoffe d'argent d'or et de soie,58
-étoffe or et argent et soie,4,étoffe d'argent d'or et de soie,58
-étoffe or et argent faux,2,étoffe d'argent et d'or faux,3
-étoffe or et argent fin,2,étoffe d'argent et d'or fin,4
-étoffe or et soie,4,étoffe d'or et de soie,9
-étoffe or soie,1,étoffe d'or et de soie,9
-"étoffe or, argent de soie",1,étoffe d'argent d'or et de soie,58
-"étoffe or, argent et soie",1,étoffe d'argent d'or et de soie,58
+étoffe or argent en soie,9,étoffe de soie dorure d'argent et d'or,39
+étoffe or argent et soie,33,étoffe de soie dorure d'or,37
+étoffe or et argent,183,étoffe dorure d'argent et d'or,339
+étoffe or et argent en soie,1,étoffe de soie dorure d'argent et d'or,39
+étoffe or et argent et soie,4,étoffe de soie dorure d'argent et d'or,39
+étoffe or et argent faux,2,étoffe dorure d'argent et d'or faux,12
+étoffe or et argent fin,2,étoffe dorure d'argent et d'or fin,45
+étoffe or et soie,4,étoffe dorure d'or et de soie,5
+étoffe or soie,1,étoffe dorure d'or et de soie,5
+"étoffe or, argent de soie",1,étoffe de soie dorure d'argent et d'or,39
+"étoffe or, argent et soie",1,étoffe de soie dorure d'argent et d'or,39
 étoffe panne,16,panne,116
 étoffe panne ciselée,2,panne ciselée,2
 étoffe panne en poil,5,panne en poil,5
@@ -10253,7 +10253,7 @@ etocs de fer,4,etocs de fer,13
 étoffe prunelle laine,5,prunelle de laine,18
 étoffe prunelle mêlée de soie,1,prunelle mêlée de soie,1
 étoffe pure brochée d'or fin,1,étoffe pure brochée d'or fin,1
-étoffe pure brochée de soie,1,étoffe pure brochée de soie,1
+étoffe pure brochée de soie,1,étoffe de soie brochée,1
 étoffe pure façonnée,1,étoffe pure façonnée,1
 étoffe pure mouchoirs,1,mouchoirs,214
 étoffe pure unie,1,étoffe pure unie,1
@@ -10299,12 +10299,12 @@ etocs de fer,4,etocs de fer,13
 étoffe soie et filoselle,3,étoffe de filoselle et de soie,6
 étoffe soie et fleuret,3,étoffe fleuret et de soie,3
 étoffe soie et laine,28,étoffe de laine et de soie,58
-étoffe soie et or,2,étoffe d'or et de soie,9
-étoffe soie et or faux,1,étoffe d'or faux et de soie,1
+étoffe soie et or,2,étoffe de soie dorure d'or,37
+étoffe soie et or faux,1,étoffe de soie dorure d'or faux,1
 étoffe soie fil et coton,2,étoffe de coton et de fil,42
-étoffe soie or et argent,9,étoffe d'argent d'or et de soie,58
+étoffe soie or et argent,9,étoffe de soie durure d'argent d'or,9
 étoffe soie soie et coton,1,étoffe de coton et de soie,73
-étoffe soie soie et or,1,étoffe d'or et de soie,9
+étoffe soie soie et or,1,étoffe de soie dorure d'or,37
 étoffe soierie,1,étoffe soierie,2
 étoffe soierie diverses,1,étoffe soierie,2
 étoffe sur coton,1,étoffe de coton,391
@@ -13407,21 +13407,21 @@ Guinée étoffe,1,guinée,181
 Guinée masulipatan,1,guinée masulipatan,1
 Guinée Sénégal,1,guinée Sénégal,1
 Guinée tachée,1,guinée tachée,1
-guingans,254,toile guingans,600
+guingans,254,toile guingans,628
 guingans blanc,1,toile guingans blanc,1
 guingans bleu,1,toile guingans bleu,1
 guingans de Bengale,2,toile guingans de Bengale,2
-guingans de fil,4,toile guingans,17
+guingans de fil,4,toile guingans,628
 guingans de Madras,23,toile guingans de Madras,24
 guingans de Masulipatan,1,toile guingans de Masulipatan,1
 guingans de Pondichéry,26,toile guingans de Pondichéry,26
 guingans de Pondichéry et de Madras,1,toile guingans de Pondichéry et de Madras,1
 guingans des prises,1,toile guingans des prises,1
-guingans divers,11,toile guingans,600
+guingans divers,11,toile guingans,628
 guingans du Bengale,8,toile guingans du Bengale,8
 guingans en Madras,1,toile guingans de Madras,24
 guingans peint,2,toile peintes guingans,2
-guingans pièces,1,toile guingans,600
+guingans pièces,1,toile guingans,628
 guinimos,1,guinimos,1
 guipons,6,guipon,6
 guisine,1,guisine,1
@@ -25667,7 +25667,7 @@ toile de Bretagne Fougères,1,toile de Bretagne Fougères,1
 toile de Bretagne gratienne,91,toile de Bretagne gratienne,104
 toile de Bretagne grise,6,toile de Bretagne grise,6
 toile de Bretagne gros brin,2,toile de Bretagne gros brin,2
-toile de Bretagne guingans,2,toile guingans,10
+toile de Bretagne guingans,2,toile guingans,628
 toile de Bretagne haut brin,1,toile de Bretagne hauts brins,32
 toile de Bretagne haute louise,1,toile de Bretagne haute louise,1
 toile de Bretagne jaune,2,toile de Bretagne jaune,2
@@ -25893,7 +25893,7 @@ toile de fil de chanvre,1,toile de chanvre,635
 toile de fil de coton,7,toile de fil de coton,28
 toile de fil de coton diverse,12,toile de fil de coton,28
 toile de fil de coton siamoise,14,toile de fil de coton siamoise,14
-toile de fil dite guingans,8,toile guingans,10
+toile de fil dite guingans,8,toile guingans,628
 toile de fil diverse,3,toile de fil,17
 toile de fil en coton,3,toile de coton et de fil,532
 toile de fil en coton siamoise,1,siamoise de coton et de fil,95
@@ -25937,7 +25937,7 @@ toile de Grenade,18,toile de Grenade,45
 toile de Grenoble,3,toile de Grenoble,3
 toile de gris,1,toile de gris,1
 toile de Guinée,2,guinée,181
-toile de guingans,8,toile guingans,600
+toile de guingans,8,toile guingans,628
 toile de halle,105,toile de Halle,260
 toile de Hanovre,1,toile de Hanovre,1
 toile de haut brin,8,toile de Bretagne hauts brins,32
@@ -26115,7 +26115,7 @@ toile de lin grosse,32,toile grosse de lin,32
 toile de lin grosse écrue,1,toile écrue et grosse de lin,1
 toile de lin grosse pointe,1,toile de lin grosse pointe,1
 toile de lin grosse pour nègre,4,toile grosse de lin et pour nègre,4
-toile de lin guingans,13,toile guingans,600
+toile de lin guingans,13,toile guingans,628
 toile de lin Hollande,1,toile de lin de Hollande,40
 toile de lin imprimée,3,toile de lin imprimée,3
 toile de lin indigo,1,toile de lin indigo,1
@@ -26326,7 +26326,7 @@ toile diverse des Indes,4,toile des Indes,175
 toile diverse en batiste,1,batiste,559
 toile diverse en lin et de chanvre,1,toile de chanvre et de lin,664
 toile diverse fil et coton,5,toile de coton et de fil,532
-toile diverse guingans,6,toile guingans,600
+toile diverse guingans,6,toile guingans,628
 toile diverse indienne,3,toile indienne,9
 toile diverse indienne étrangère,6,toile indienne,9
 toile diverse indienne française,6,toile indienne française,6
@@ -26373,7 +26373,7 @@ toile en chemises,2,chemises de toile,7
 toile en coutil,5,toile de coutil,51
 toile en crin,1,toile de crin,278
 toile en fair,2,toile en fair,2
-toile en guingans,1,toile guingans,600
+toile en guingans,1,toile guingans,628
 toile en lin,1,toile de lin,697
 toile en lin et de chanvre,1,toile de chanvre et de lin,664
 toile en linge de tables,11,linge de table,521
@@ -26494,13 +26494,13 @@ toile Guinée bleu,3,guinée bleue,187
 toile Guinée bleue,22,guinée bleue,187
 toile Guinée bleue imitant celle des Indes,1,guinée bleue imitant celle des Indes,1
 toile Guinée imitant celle des Indes,2,guinée imitant celle des Indes,2
-toile guingans,295,toile guingans,600
-toile guingans de fil,8,toile guingans,17
+toile guingans,295,toile guingans,628
+toile guingans de fil,8,toile guingans,628
 toile guingans de Grenade,2,toile guingans de Grenade,2
 toile guingans de lin,4,toile guingans de lin,6
 toile guingans de Rouen,3,toile guingans de Rouen,3
-toile guingans en fil,5,toile guingans,17
-toile guingans fil en coton,1,toile guingans,1
+toile guingans en fil,5,toile guingans,628
+toile guingans fil en coton,1,toile guingans,628
 toile guingans lin,2,toile guingans de lin,6
 toile haut brin,4,toile de Bretagne hauts brins,32
 toile haut brin de Dinant,3,toile de Bretagne hauts brins de Dinan,3
@@ -26614,7 +26614,7 @@ toile mêlée grosse,12,toile grosse,209
 toile mêlée grosse ???,1,toile grosse ???,1
 toile mêlée grosse en faces,12,toile grosse en faces,12
 toile mêlée grosse et sommiers,6,toile grosse et sommiers,6
-toile mêlée guingans,11,toile guingans,600
+toile mêlée guingans,11,toile guingans,628
 toile mêlée imprimée,2,toile imprimée,12
 toile mêlée peinte,49,toile peinte,982
 toile mêlée peinte et teinte,1,toile peinte et teinte,7
