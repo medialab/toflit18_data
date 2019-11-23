@@ -80,7 +80,7 @@ graph twoway (bar share_haut year, cmissing(n) color(dknavy)) (bar share_milieu 
 	*/ yscale(range(0) axis(2)) yscale(range(0) axis(1))
 		
 	
-graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'_`reference'.pdf", replace
+graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'_`reference'_`sitc'.pdf", replace
 
 end
 
