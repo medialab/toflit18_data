@@ -1,98 +1,200 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf8 -*-
-import csvkit
 import itertools
 import os
+from csv import DictReader, writer
+import re
 
-WRITE=True
+WRITE=False
 VERBOSE=True
+REMOVE_COLUMN=False
 
 def cast_numrodeligne(value):
-	if not len(value):
-		return ''
+    if not len(value):
+        return ''
 
-	try:
-		return int(value)
-	except:
-		return value
+    try:
+        return int(value)
+    except:
+        return value
 
-with open("../base/bdd_centrale.csv") as bdd_centrale:
-	reader=csvkit.reader(bdd_centrale)
-	data=list(reader)
-	headers_bdd_centrale=data[0]
-	if VERBOSE:
-		print headers_bdd_centrale
-	# sort order
-	# SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
-	multiple_key_sort= lambda k:(k[4],k[5],k[7],k[6],cast_numrodeligne(k[0]),k[10],k[11])
-	# year / partenaire / exportsimports / numéro de ligne
-	multiple_key_sort_nationale_par_direction=lambda k:(k[5],k[11],k[6],cast_numrodeligne(k[0]))
-	# year / exportsimports / numéro de ligne
-	multiple_key_sort_1671=lambda k:(k[5],k[6],cast_numrodeligne(k[0]))
-	#remove headers
-	data=data[1:]
-	data = sorted(data, key=lambda e:e[3])
-	csvreport=[["sourcepath","nb line bdd_centrale","nb line source","columns removed"]]
-	for k,g in itertools.groupby(data, key=lambda e:e[3]):
-		if k=="":
-			print "sourcefilename IS empty ARRRG"
-			for l in g:
-				print l
-		print "source filename: %s"%(k)
-		empty_columns=[]
-		nb_lines_source=None
-		nb_lines_bdd_centrale=None
+year_re = re.compile('.*?(\d{4}).*')
 
-		if VERBOSE:
-			print k.encode("UTF8")
-		# let's sort
-		source_data=list(g)
-		nb_lines_bdd_centrale=len(source_data)
-		if k=="National par direction/Saint-Brieuc/1750.csv":
-			source_data=sorted(source_data,key=multiple_key_sort_nationale_par_direction)
-		elif k =="Divers/AN/F_12_1834A/1671.csv":
-			source_data=sorted(source_data,key=multiple_key_sort_1671)
-		else:
-			source_data=sorted(source_data,key=multiple_key_sort)
+slugify = lambda s : s.strip().replace(' ','_').replace('/','_').replace('+','_')
 
-		## let's remove empty columns
-		columns_index_to_remove= [headers_bdd_centrale.index(h) for h in []]
-		for i in range(len(source_data[0])):
-			if len([_[i] for _ in source_data if _[i]])==0:
-				columns_index_to_remove.append(i)
-		for i in columns_index_to_remove:
-			empty_columns.append(headers_bdd_centrale[i])
-			if VERBOSE:
-				print "column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8"))
-#Pour garder toutes les colonnes ?
-		columns_index_to_remove= []
+### virer des noms des pays accent et apostrophe
+### virer les virgules et accents des noms de sources
+### réécriture : numéro de lignes
+### 
+
+# load country classification made for generate source name
+COUNTRIES_CLASSIF = {}
+
+sourceclassif = {}
+with open('../base/classification_countries_sourcename.csv', 'r', encoding='utf8') as f:
+    ccs = DictReader(f)
+    for l in ccs :
+        sourceclassif[l['partners_simpl_classificationifi']]= l['sourcename_classification']
+simpl = {}
+with open('../base/classification_countries_simplification.csv', 'r', encoding='utf8') as f:
+    ccs = DictReader(f)
+    for l in ccs :
+        simpl[l['partners_ortho_classification']] = sourceclassif[l['partners_simpl_classificationifi']]
+
+with open('../base/classification_countries_orthographic_normalization.csv', 'r', encoding='utf8') as orthof:
+    orthoc = DictReader(orthof)
+    for ortho in orthoc:
+        COUNTRIES_CLASSIF[ortho['pays']]=simpl[ortho['partners_ortho_classification']] 
 
 
-		try :
-			with open(os.path.join("..","sources", k),"r") as s:
-				nb_lines_source=len(s.readlines())-1
-				if VERBOSE:
-					print "%s: source/bdd_centrale %s/%s"%(k.encode("UTF8"),nb_lines_source,nb_lines_bdd_centrale)
-		except IOError as e:
-			nb_lines_source=0
-			print "%s doesn't exist"%k.encode("UTF8")
-			print "%s:%s"%(k.encode("UTF8"),len(source_data))
+def new_source_name(flow):
+    new_name = []
+    source = correct_source(flow)
+    new_name.append(slugify(source))
+    
+    if 'Colonies' not in source:
+        if ('AN F12 1835' in flow['source'] and flow['year'] == '1788' and 'direction' in flow and flow['direction'].strip() != ''):
+            new_name.append('Colonies') 
+        elif ("partenaires manquants" in flow['sourcetype'] and \
+                flow['source'] != 'AN F12 1666' and \
+                flow['source'] != 'AN F12 250' and \
+                'AN F12 1667' not in flow['source']) or \
+                'Fonds Gournay' in flow['source']:
+            new_name.append(slugify(COUNTRIES_CLASSIF[flow['pays']]))
+        elif 'direction' in flow and flow['direction'].strip() != '':
+            new_name.append(slugify(flow['direction']))
+    
+    new_name.append(flow['exportsimports'])
+    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "Romano1957+Velde+IIHS-128"]:
+        try:
+            # todo calendrier républicain
+            new_name.append(year_re.match(flow['year']).group(1))
+        except : 
+            new_name.append(slugify(flow['year']))
 
-		if WRITE:
-			with open(os.path.join("..","sources", k),"w") as s:
-				writer=csvkit.writer(s)
-				source_headers=[h for i,h in enumerate(headers_bdd_centrale) if i not in columns_index_to_remove]
-				writer.writerow(source_headers)
-				for source_data_line in source_data:
-					source_data_line=[d for i,d in enumerate(source_data_line) if i not in columns_index_to_remove]
-					writer.writerow(source_data_line)
-		# ["sourcepath","nb line bdd_centrale","nb line source","columns removed"]
-		csvreport.append([k,nb_lines_bdd_centrale,nb_lines_source,";".join(empty_columns)])
+    return '_'.join(new_name)
 
-with open("desagregate_bdd_centrale.csv","w") as csvreport_f:
-	csvreport_writer=csvkit.writer(csvreport_f)
-	for l in csvreport:
-		csvreport_writer.writerow(l)
+ANOM_source = re.compile(r'.*ANOM[ _]Col[ _]F[ _]2B[ _]1[34]')
+AD17_missing = re.compile(r'^41 ETP 270/(\d{4})')
+
+
+def correct_source(flow):
+    new_source = flow['source']
+    # correct mistakes in source value
+    new_source = new_source.replace(' - ', ' ')
+    new_source = new_source.replace('AD 44', 'AD44')
+    new_source = new_source.replace('NEHA', 'IIHS')
+    new_source = new_source.replace('Montbret', 'BMRouen Montbret')
+    new_source = new_source.replace('Fond Montyon', 'APHP Fond Montyon')
+    # removing (Tableau ...) from ANOM source names
+    m = ANOM_source.match(new_source)
+    if m:
+        new_source = m.group()+" Colonies"
+    new_source = new_source.replace('AD44 C716 n°30', 'AD44 C716-30')
+    new_source = new_source.replace('AD44 C716 n°34', 'AD44 C716-34')
+    new_source = new_source.replace('AD44 C717_14', 'AD44 C717-14')
+    new_source = new_source.replace('AD44C717', 'AD44 C717')
+    new_source = new_source.replace('AD44 C 717', 'AD44 C717')
+    new_source = new_source.replace('AD44 C707', 'AD44 C706')
+    new_source = new_source.replace('AD C706', 'AD44 C706')
+    m = AD17_missing.match(new_source)
+    if m:
+        subid = m.group(1)
+        if flow['year'] == '1726':
+            subid = 9393
+        if flow['year'] == '1757':
+            subid = 9421
+        if flow['year'] == '1760':
+            subid = 9424
+        new_source = "AD17 41 ETP 270 %s"%subid
+    return new_source
+
+
+with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
+    reader = DictReader(bdd_centrale)
+    data = list(reader)
+    headers_bdd_centrale=data[0]
+    if VERBOSE:
+        print(headers_bdd_centrale)
+    # sort order
+    # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
+    multiple_key_sort = lambda k:(k['sourcetype'],k['year'],k['direction'],k['exportsimports'],cast_deligne(k['numrodeligne']),k['marchandises'],k['pays'])
+    # year / partenaire / exportsimports / numéro de ligne
+    multiple_key_sort_nationale_par_direction = lambda k:(k['year'],k['pays'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']))
+    # year / exportsimports / numéro de ligne
+    multiple_key_sort_1671 = lambda k:(k['year'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']))
+    #remove headers
+    data=data[1:]
+    
+
+    data = sorted(data, key=new_source_name )
+    csvreport=[["new sourcepath","nb line bdd_centrale","old source.s","source type.s", "nb old sourcepath.s","old sourcepath.s","columns removed"]]
+    for filename,data in itertools.groupby(data, key=new_source_name):
+        if filename=="":
+            print("sourcefilename IS empty ARRRG")
+            for l in g:
+                print(l)
+        # print("source filename: %s"%(k))
+        empty_columns=[]
+        nb_lines_source=None
+        nb_lines_bdd_centrale=None
+
+        # if VERBOSE:
+        # 	print(k.encode("UTF8"))
+        # let's sort
+        source_data=list(data)
+        nb_lines_bdd_centrale=len(source_data)
+        # if k=="National par direction/Saint-Brieuc/1750.csv":
+        # 	source_data=sorted(source_data,key=multiple_key_sort_nationale_par_direction)
+        # elif k =="Divers/AN/F_12_1834A/1671.csv":
+        # 	source_data=sorted(source_data,key=multiple_key_sort_1671)
+        # else:
+        # 	source_data=sorted(source_data,key=multiple_key_sort)
+
+# 		## let's remove empty columns			
+# 		columns_index_to_remove= [headers_bdd_centrale.index(h) for h in []]
+        empty_columns = []
+        for k in source_data[0].keys():
+            if len([d[k] for d in source_data if d[k] and d[k].strip() !=''])==0:
+                empty_columns.append(k)
+# 		for i in columns_index_to_remove:
+# 			empty_columns.append(headers_bdd_centrale[i])
+# 			if VERBOSE:
+# 				print("column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8")))
+# #Pour garder toutes les colonnes ?
+# 		columns_index_to_remove= []
+
+
+        # try :
+        # 	with open(os.path.join("..","sources", k),"r", encoding='utf-8') as s:
+        # 		nb_lines_source=len(s.readlines())-1
+        # 		if VERBOSE:
+        # 			print("%s: source/bdd_centrale %s/%s"%(k.encode("UTF8"),nb_lines_source,nb_lines_bdd_centrale))
+        # except IOError as e:
+        # 	nb_lines_source=0
+        # 	print("%s doesn't exist"%k.encode("UTF8"))
+        print("%s:%s"%(filename,len(source_data)))
+
+        if WRITE:
+            # todo
+            print('writing sources part has to be rewrite')
+            # with open(os.path.join("..","sources", k),"w", encoding='utf-8') as s:
+            # 	writer= DictWriter(s)
+            # 	source_headers=[h for i,h in enumerate(headers_bdd_centrale) if i not in columns_index_to_remove]
+            # 	writer.writerow(source_headers)
+            # 	for source_data_line in source_data:
+            # 		source_data_line=[d for i,d in enumerate(source_data_line) if i not in columns_index_to_remove]
+            # 		writer.writerow(source_data_line)
+        # ["sourcepath","nb line bdd_centrale","nb line source","columns removed"]
+        csvreport.append([filename,nb_lines_bdd_centrale,
+            ";".join(set(d['source'] for d in source_data)),
+            ";".join(set(d['sourcetype'] for d in source_data)),
+            len(set(d['sourcepath'] for d in source_data)),";".join(set(d['sourcepath'] for d in source_data)),";".join(empty_columns)])
+
+with open("desagregate_bdd_centrale.csv","w", encoding='utf-8') as csvreport_f:
+    csvreport_writer=writer(csvreport_f)
+    for l in csvreport:
+        csvreport_writer.writerow(l)
 # L’ordre de tri actuel (see commit 389c8fa) de la base de donnée centrale en croissant:
 # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
 

@@ -17,9 +17,8 @@ build_bdd_centrale:
   artifacts:
     untracked: true
     expire_in: "1 day"
-  image: python:2.7-alpine3.7
+  image: python:3.5-alpine3.9
   script:
-    - pip install --quiet csvkit
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
   only:
     - staging
@@ -78,35 +77,22 @@ build_docker_image:
     - staging
     - prod
 
-deploy_staging:
+deploy:
   variables:
     GIT_STRATEGY: none
   dependencies: []
   stage: deploy_neo4j_image
   image: cdrx/rancher-gitlab-deploy
   script:
-    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_STAGING_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
+    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
   environment:
-    name: staging
-    url: $STAGING_BASEURL
+    name: $CI_COMMIT_REF_SLUG
+    url: $BASEURL
   only:
     - staging
-
-deploy_production:
-  variables:
-    GIT_STRATEGY: none
-  dependencies: []
-  stage: deploy_neo4j_image
-  image: cdrx/rancher-gitlab-deploy
-  script:
-    - upgrade --rancher-key $RANCHER_ACCESS_KEY --rancher-secret $RANCHER_SECRET_KEY --rancher-url $RANCHER_URL --environment $RANCHER_PRODUCTION_ENV --stack $RANCHER_STACK --service $RANCHER_NEO4J_SERVICE --start-before-stopping
-  environment:
-    name: production
-    url: $PRODUCTION_BASEURL
-  only:
     - prod
 
-restart_api_staging:
+restart_api:
   variables:
     GIT_STRATEGY: none
   dependencies: []
@@ -114,19 +100,10 @@ restart_api_staging:
     - name: docker:dind
   stage: restart_api
   script:
-    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_STAGING_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
+    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
   only:
     - staging
-
-restart_api_production:
-  variables:
-    GIT_STRATEGY: none
-  dependencies: []
-  services:
-    - name: docker:dind
-  stage: restart_api
-  script:
-    - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_PRODUCTION_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
-  only:
     - production 
- 
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+    url: $BASEURL
