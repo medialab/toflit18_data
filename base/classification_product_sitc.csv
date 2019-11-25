@@ -1,5 +1,4 @@
 simplification,nbr_occurences_simpl,sitc,imprimatur,obsolete,nbr_occurences_sitc
-,37,???,,oui,4634
 ???,99,???,x,non,4634
 ??? blanc,2,???,x,non,4634
 ??? brun,2,???,x,non,4634
@@ -4280,7 +4279,7 @@ circks,1,???,,non,4634
 cire,32,4,x,non,13900
 cire ???,1,4,,non,13900
 cire à cacheter,111,4,x,non,13900
-cire alizari,1,,,non,20
+cire alizari,1,4,,non,20
 cire blanche,582,4,x,non,13900
 cire blanche de bougie,1,4,,non,13900
 cire blanche et jaune,501,4,x,non,13900
@@ -5629,7 +5628,7 @@ déchets de laine tontisse,1,2,,non,77645
 déchets de laine tontisse et peine,1,2,,non,77645
 déchets de pierre,4,2,x,non,77645
 déchets de poil (rognures et broissiers),1,2,,non,77645
-déchets et débris tourteaux de graine oléagineuse,1,,,non,20
+déchets et débris tourteaux de graine oléagineuse,1,2,,non,20
 décorations pour carrosses,1,7,x,non,8802
 dégras,23,4,x,non,13900
 dégras d'huile,3,4,x,non,13900
@@ -5719,7 +5718,7 @@ dentelle de soie de Rouen,3,6f,x,non,13913
 dentelle de soie et de fil,1,6f,x,oui,13913
 dentelle de soie noire,1,6f,,non,13913
 dentelle de toute autre sorte que soie,1,6i,,non,9148
-dentelle dorure,5,,,non,20
+dentelle dorure,5,6h,,non,20
 dentelle dorure d'argent,12,6h,x,non,12891
 dentelle dorure d'argent et d'or,13,6h,x,non,12891
 dentelle dorure d'or,7,6h,x,non,12891
@@ -9607,7 +9606,7 @@ grains blé et froment,2,0a,,non,80825
 grains blé et riz,9,0a,,non,80825
 grains blé mercit,1,0a,,non,80825
 grains blé mescli,1,0a,,non,80825
-grains comestibles,1,,,non,20
+grains comestibles,1,0a,,non,20
 grains cuscute,2,2,x,non,77645
 grains d'Avignon,1,9c,,non,10462
 grains d'Espagne,34,0a,x,non,80825
@@ -10165,13 +10164,13 @@ huile commune d'olive,1,4,,non,13900
 huile concrète de cacao et de laurier,2,9c,,non,10462
 huile d'absinthe,2,5,x,non,49188
 huile d'Aix,2,???,,non,4634
-huile d'amande,4,,,non,20
-huile d'amandes,77,5,x,non,49188
-huile d'amandes douces,14,5,x,non,49188
+huile d'amande,4,4,,non,20
+huile d'amandes,77,4,x,non,49188
+huile d'amandes douces,14,4,x,non,49188
 huile d'ambre,12,5,x,non,49188
-huile d'anis,32,5,x,non,49188
-huile d'anis carvi et fenouil,1,5,,non,49188
-huile d'anis et fenouil,2,5,,non,49188
+huile d'anis,32,4,x,non,49188
+huile d'anis carvi et fenouil,1,4,,non,49188
+huile d'anis et fenouil,2,4,,non,49188
 huile d'aspic,58,???,x,non,4634
 huile d'élite dite keurolie,1,???,,non,4634
 huile d'enc,1,???,x,non,4634
@@ -10236,9 +10235,9 @@ huile de girofle et sassafras,1,4,,non,13900
 huile de girofle et spirituelle,1,4,,non,13900
 huile de grain,4,4,x,non,13900
 huile de graine,626,4,x,non,13900
-huile de graine autres que de lin d'oeillettes ou de pavots,2,,,non,20
+huile de graine autres que de lin d'oeillettes ou de pavots,2,4,,non,20
 huile de graine d'anis,1,4,x,non,13900
-huile de graine d'oeillettes ou de pavots,2,,,non,20
+huile de graine d'oeillettes ou de pavots,2,4,,non,20
 huile de graine d'olive,1,4,x,non,13900
 huile de graine de cannelle,1,4,x,non,13900
 huile de graine de colza lin navette etc. et de noix,2,4,,non,13900
@@ -10254,7 +10253,7 @@ huile de graine de térébenthine,1,4,x,non,13900
 huile de graine et de lin,6,4,x,non,13900
 huile de graine et de noix,38,4,x,non,13900
 huile de graine grasse,3,4,,non,13900
-huile de graine oléagineuse,2,,,non,20
+huile de graine oléagineuse,2,4,,non,20
 huile de grains,5,4,,non,13900
 huile de grains à peinures,1,4,,non,13900
 huile de graisse,2,4,x,non,13900
@@ -10291,7 +10290,7 @@ huile de palmier,1,4,,non,13900
 huile de parfum,4,5,x,non,49188
 huile de peinture,1,5,,non,49188
 huile de pierre,1,3,x,non,3066
-huile de pignon de palme,2,,,non,20
+huile de pignon de palme,2,4,,non,20
 huile de pignon et ricin,2,4,,non,13900
 huile de pin,1,4,x,non,13900
 huile de plantes,1,4,,non,13900
@@ -12909,10 +12908,10 @@ mousseline brodée en couleur,1,6g,,non,13878
 mousseline brodée en soie de couleur,1,6f,,non,13913
 mousseline de coton,106,6g,,non,13878
 mousseline de coton et des Indes,3,6g,x,non,13878
-mousseline de coton et nankin,11,6g,,oui,13878
 mousseline de coton et Nankin,11,6g,,non,13878
-mousseline de coton et nankin des Indes,21,6g,,oui,13878
+mousseline de coton et nankin,11,6g,,oui,13878
 mousseline de coton et Nankin des Indes,21,6g,,non,13878
+mousseline de coton et nankin des Indes,21,6g,,oui,13878
 mousseline de coton unies et brûlées,14,6g,,non,13878
 mousseline de coton unies et peintes,17,6g,x,non,13878
 mousseline de France,3,6g,x,non,13878
@@ -13025,13 +13024,13 @@ nacre de Perse,1,2,,non,77645
 nacre en coquille,12,2,,non,77645
 nacre et perles,1,2,x,non,77645
 namouques,2,???,,non,4634
-nankin,200,6g,,oui,13878
 Nankin,212,6g,x,non,13878
+nankin,200,6g,,oui,13878
 Nankin à l'aune,,6g,,oui,13878
-nankin blanche,1,6g,,oui,13878
 Nankin blanche,1,6g,,non,13878
-nankin des Indes,10,6g,,oui,13878
+nankin blanche,1,6g,,oui,13878
 Nankin des Indes,10,6g,,non,13878
+nankin des Indes,10,6g,,oui,13878
 naphte,3,2,,non,77645
 nappes,41,8,x,non,57457
 nappes damassées,1,8,,non,57457
@@ -19962,8 +19961,8 @@ toile de Grenade,45,6h,x,non,12891
 toile de Grenade de lin,5,6h,,non,12891
 toile de Grenoble,3,6h,x,non,12891
 toile de gris,1,6h,x,non,12891
-toile de halle,105,6d,,oui,19240
 toile de Halle,260,6h,,non,12891
+toile de halle,105,6d,,oui,19240
 toile de Hanovre,1,6d,x,non,19240
 toile de haut brin,8,6d,,oui,19240
 toile de Hollande,49,6h,x,non,12891
@@ -19974,8 +19973,8 @@ toile de Hollande fine,1,6h,,non,12891
 toile de Hollande fine de 36 aunes,,6h,,oui,12891
 toile de Hollande pièces de 15 aunes,,6h,x,oui,12891
 toile de Hollande pièces de 30 aunes,,6h,x,oui,12891
-toile de killis,4,6h,x,oui,12891
 toile de Killis,45,6h,,non,12891
+toile de killis,4,6h,x,oui,12891
 toile de laine,1,6e,,non,14235
 toile de laine dite herbage,1,6e,x,non,14235
 toile de laine pour blutoir,2,6e,,non,14235
@@ -20269,8 +20268,8 @@ toile guingans de Masulipatan,1,6g,,non,13878
 toile guingans de Pondichéry,26,6g,,non,13878
 toile guingans de Pondichéry et de Madras,1,6g,,non,13878
 toile guingans de Rouen,3,6g,,non,13878
-toile guingans des indes,2,6g,,oui,13878
 toile guingans des Indes,3,6g,,non,13878
+toile guingans des indes,2,6g,,oui,13878
 toile guingans des prises,1,6g,,non,13878
 toile guingans du Bengale,8,6g,,non,13878
 toile haut brin,4,6d,,oui,19240
@@ -21489,3 +21488,4 @@ zinc laminé,8,6j,,non,39866
 zinc pour fabriquer le laiton,11,6j,x,non,39866
 zingar,6,0a,,non,80825
 zurich,3,???,,non,4634
+,37,???,,oui,4634
