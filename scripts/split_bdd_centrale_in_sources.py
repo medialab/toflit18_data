@@ -63,11 +63,11 @@ def new_source_name(flow):
                 'AN F12 1667' not in flow['source']) or \
                 'Fonds Gournay' in flow['source']:
             new_name.append(slugify(COUNTRIES_CLASSIF[flow['pays']]))
-        elif 'direction' in flow and flow['direction'].strip() != '' and flow['sourcetype'] != 'National toutes directions sans produits':
+        elif flow['source'] != "AD76 7F97 - via Dardel" and 'direction' in flow and flow['direction'].strip() != '' and flow['sourcetype'] != 'National toutes directions sans produits':
             new_name.append(slugify(flow['direction']))
     
     new_name.append(flow['exportsimports'])
-    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "BNF_MF_6431", "Romano1957+Velde+IIHS-128"]:
+    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "BNF_MF_6431", "Romano1957+Velde+IIHS-128", "AD76 7F97 - via Dardel"]:
         try:
             # todo calendrier républicain
             new_name.append(year_re.match(flow['year']).group(1))
