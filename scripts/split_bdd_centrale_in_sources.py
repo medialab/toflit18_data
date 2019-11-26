@@ -52,6 +52,8 @@ def new_source_name(flow):
     source = correct_source(flow)
     new_name.append(slugify(source))
     
+    #"AD76 7F97 - via Dardel" => pas d'année, pas de direction, pas de pays mais export/imports
+
     if 'Colonies' not in source:
         if ('AN F12 1835' in flow['source'] and flow['year'] == '1788' and 'direction' in flow and flow['direction'].strip() != ''):
             new_name.append('Colonies') 
