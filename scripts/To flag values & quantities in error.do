@@ -73,3 +73,5 @@ replace absurd_quantity=1 if direction=="La Rochelle" & year==1773 & exportsimpo
 egen prop = pc(value), by(sourcetype year direction exportsimports) prop
 list  if prop >=.5 & prop!=. & direction=="Bordeaux"
 */
+
+save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace
