@@ -31,20 +31,20 @@ slugify = lambda s : s.strip().replace(' ','_').replace('/','_').replace('+','_'
 COUNTRIES_CLASSIF = {}
 
 sourceclassif = {}
-with open('../base/classification_countries_sourcename.csv', 'r', encoding='utf8') as f:
+with open('../base/classification_country_sourcename.csv', 'r', encoding='utf8') as f:
     ccs = DictReader(f)
     for l in ccs :
-        sourceclassif[l['partners_simpl_classificationifi']]= l['sourcename_classification']
+        sourceclassif[l['simplification']]= l['sourcename']
 simpl = {}
-with open('../base/classification_countries_simplification.csv', 'r', encoding='utf8') as f:
+with open('../base/classification_country_simplification.csv', 'r', encoding='utf8') as f:
     ccs = DictReader(f)
     for l in ccs :
-        simpl[l['partners_ortho_classification']] = sourceclassif[l['partners_simpl_classificationifi']]
+        simpl[l['orthographic']] = sourceclassif[l['simplification']]
 
-with open('../base/classification_countries_orthographic_normalization.csv', 'r', encoding='utf8') as orthof:
+with open('../base/classification_country_orthographic.csv', 'r', encoding='utf8') as orthof:
     orthoc = DictReader(orthof)
     for ortho in orthoc:
-        COUNTRIES_CLASSIF[ortho['pays']]=simpl[ortho['partners_ortho_classification']] 
+        COUNTRIES_CLASSIF[ortho['source']]=simpl[ortho['orthographic']] 
 
 
 def new_source_name(flow):
@@ -52,6 +52,8 @@ def new_source_name(flow):
     source = correct_source(flow)
     new_name.append(slugify(source))
     
+    #"AD76 7F97 - via Dardel" => pas d'année, pas de direction, pas de pays mais export/imports
+
     if 'Colonies' not in source:
         if ('AN F12 1835' in flow['source'] and flow['year'] == '1788' and 'direction' in flow and flow['direction'].strip() != ''):
             new_name.append('Colonies') 
@@ -61,11 +63,11 @@ def new_source_name(flow):
                 'AN F12 1667' not in flow['source']) or \
                 'Fonds Gournay' in flow['source']:
             new_name.append(slugify(COUNTRIES_CLASSIF[flow['pays']]))
-        elif 'direction' in flow and flow['direction'].strip() != '':
+        elif 'direction' in flow and flow['direction'].strip() != '' and flow['sourcetype'] != 'National toutes directions sans produits':
             new_name.append(slugify(flow['direction']))
     
     new_name.append(flow['exportsimports'])
-    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "Romano1957+Velde+IIHS-128"]:
+    if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "BNF_MF_6431", "Romano1957+Velde+IIHS-128"]:
         try:
             # todo calendrier républicain
             new_name.append(year_re.match(flow['year']).group(1))
@@ -143,6 +145,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
         # 	print(k.encode("UTF8"))
         # let's sort
         source_data=list(data)
+
         nb_lines_bdd_centrale=len(source_data)
         # if k=="National par direction/Saint-Brieuc/1750.csv":
         # 	source_data=sorted(source_data,key=multiple_key_sort_nationale_par_direction)
