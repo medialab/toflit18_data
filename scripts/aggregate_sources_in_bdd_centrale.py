@@ -112,9 +112,10 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     headers=[h for h in  headers if h not in ordered_headers]
     headers=ordered_headers+headers
 
-    for extra_header in ["value_as_reported","computed_value","replace_computed_up"]:
-        if extra_header not in headers:
-            headers+=[extra_header]
+    if with_calculated_values:
+        for extra_header in ["value_as_reported","computed_value","replace_computed_up"]:
+            if extra_header not in headers:
+                headers+=[extra_header]
 
     # Then we actually read and write the lines
     with open(output_filename,"w", encoding="utf-8") as output_file:
