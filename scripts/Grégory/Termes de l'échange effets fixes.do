@@ -24,7 +24,7 @@ gen lnPrix=ln(prix_unitaire_converti)
 generate part_valeur=value/valeur_totale_par_marchandise
 bys panvar_num : drop if _N==1
 gen part_valeur_integer=round(part_valeur*10000)
-regress lnPrix i.year i.panvar_num [fweight=part_valeur_integer]
+regress lnPrix i.year i.panvar_num [fweight=part_valeur_integer], cluster(panvar_num)
 
 * Enregistrer les effets fixes temps
 
@@ -108,7 +108,7 @@ gen lnPrix=ln(prix_unitaire_converti)
 generate part_valeur=value/valeur_totale_par_marchandise
 bys panvar_num : drop if _N==1
 gen part_valeur_integer=round(part_valeur*10000)
-regress lnPrix i.year i.panvar_num [fweight=part_valeur_integer]
+regress lnPrix i.year i.panvar_num [fweight=part_valeur_integer], , cluster(panvar_num)
 
 * Enregistrer les effets fixes temps
 
