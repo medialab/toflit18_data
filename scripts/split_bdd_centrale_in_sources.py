@@ -2,21 +2,110 @@
 # -*- coding: utf8 -*-
 import itertools
 import os
-from csv import DictReader, writer
+from csv import DictReader, writer, DictWriter
 import re
+import json
 
-WRITE=False
+class PackageTranslator:
+    DATA_DIR = 'new_sources'
+    variables_translations_to_datapackage = {
+        "numrodeligne": "line_number",
+        "dataentryby": "data_collector",
+        "source": "source",
+        "sourcepath": "filepath",
+        "sourcetype": "source_type",
+        "year": "year",
+        "exportsimports": "export_import",
+        "direction": "tax_department",
+        "bureaux": "tax_office",
+        "sheet": "sheet",
+        "marchandises": "products",
+        "pays": "partner",
+        "value": "value",
+        "quantit": "quantity",
+        "origine": "origin",
+        "total": "value_total",
+        "quantity_unit": "quantity_unit",
+        "leurvaleursubtotal_1": "value_sub_total_1",
+        "leurvaleursubtotal_2": "value_sub_total_2",
+        "leurvaleursubtotal_3": "value_sub_total_3",
+        "prix_unitaire": "value_unit",
+        "probleme": "difference_value_unit_price",
+        "remarks": "remarks",
+        "unverified": "unverified",
+        "doubleaccounts_droitsdedouane": "duty_part_of_bundle",
+        "quantité pour les droits": "duty_quantity",
+        "doubleaccounts": "value_part_of_bundle",
+        "remarks pour les droits": "duty_remarks",
+        "Droits unitaires": "duty_by_unit",
+        "Largeur en lignes (pour tissu)": "width_in_line",
+        "quantity": "quantity",
+        "unité pour les droits": "duty_quantity_unit",
+        "Remarques": "remarks",
+        "numerodeligne": "line_number",
+        "Droits totaux indiqués": "duty_total"
+    }
+    # Balance en argent au désavantage de la France   trade_deficit
+    # Balances en argent en faveur de la France     trade_surplus
+
+    def __init__(self):
+        with open('../csv_sources_schema.json', 'r', encoding='UTF8') as schema_f:
+            self.schema = json.load(schema_f)
+            self.fieldnames = [f['name'] for f in self.schema["fields"]]
+
+
+    def _format_for_datapackage(self, rows, filepath):
+        extra_fields = set()
+        for row in rows:
+            formated_row = {}
+            for field, value in row.items():
+                if field == '':
+                    print(field, value)
+                    print(row)
+                if field in self.variables_translations_to_datapackage:
+                    formated_row[self.variables_translations_to_datapackage[field]] = value
+                elif field not in ['value_as_reported', 'replace_computed_up', 'computed_value']:
+                    # computed fields are not reported as extra fields.
+                    extra_fields.add(field)
+                formated_row['filepath'] = filepath
+            yield formated_row
+        if len(extra_fields) > 0:
+            print("extra fields %s in %s"%(extra_fields,filepath))
+    
+    def write_flows_in_new_format(self, flows, source_type, name):
+        path = os.path.join(self.DATA_DIR, source_type)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        path = os.path.join(path, "%s.csv" % name)
+        with open(path, 'w', encoding='utf8') as output:
+            writer = DictWriter(output, fieldnames=self.fieldnames)
+            writer.writeheader()
+            writer.writerows(self._format_for_datapackage(flows, path))
+
+            # give a datapackage resource back
+            return {     
+                "group": "flows",
+                "path": "%s"%path,
+                "name": "%s"%name,
+                "mediatype":"text/csv",
+                "format":"csv",
+                "encoding":"UTF8", 
+                "schema": "csv_sources_schema.json"
+            }
+
+
+WRITE=True
 VERBOSE=True
 REMOVE_COLUMN=False
 
 def cast_numrodeligne(value):
     if not len(value):
-        return ''
+        return 0
 
     try:
         return int(value)
     except:
-        return value
+        return 0#value
 
 year_re = re.compile('.*?(\d{4}).*')
 
@@ -108,30 +197,24 @@ def correct_source(flow):
             subid = 9421
         if flow['year'] == '1760':
             subid = 9424
-        new_source = "AD17 41 ETP 270 %s"%subid
+        new_source = "AD17 41 ETP 270 %s" % subid
     return new_source
 
 
 with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
-    reader = DictReader(bdd_centrale)
-    data = list(reader)
-    headers_bdd_centrale=data[0]
-    if VERBOSE:
-        print(headers_bdd_centrale)
-    # sort order
-    # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
-    multiple_key_sort = lambda k:(k['sourcetype'],k['year'],k['direction'],k['exportsimports'],cast_deligne(k['numrodeligne']),k['marchandises'],k['pays'])
-    # year / partenaire / exportsimports / numéro de ligne
-    multiple_key_sort_nationale_par_direction = lambda k:(k['year'],k['pays'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']))
-    # year / exportsimports / numéro de ligne
-    multiple_key_sort_1671 = lambda k:(k['year'],k['exportsimports'],cast_numrodeligne(k['numrodeligne']))
-    #remove headers
-    data=data[1:]
-    
 
-    data = sorted(data, key=new_source_name )
+    reader = DictReader(bdd_centrale)
+    translator = PackageTranslator()
+    data = list(reader)
+
+    # line sort order
+    # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
+    lines_key_sort = lambda k:(k.get('sourcetype',''), k.get('year',''), k.get('direction',''), k.get('exportsimports',''), cast_numrodeligne(k.get('numrodeligne',0)), k.get('marchandises',''), k.get('pays',''))
+
+    data = sorted(data, key=lambda r : (r['sourcetype'], new_source_name(r)) )
     csvreport=[["new sourcepath","nb line bdd_centrale","old source.s","source type.s", "nb old sourcepath.s","old sourcepath.s","columns removed"]]
-    for filename,data in itertools.groupby(data, key=new_source_name):
+    datapackage_resources = []
+    for (source_type, filename),data in itertools.groupby(data, key=lambda r : (r['sourcetype'], new_source_name(r))):
         if filename=="":
             print("sourcefilename IS empty ARRRG")
             for l in g:
@@ -147,48 +230,14 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
         source_data=list(data)
 
         nb_lines_bdd_centrale=len(source_data)
-        # if k=="National par direction/Saint-Brieuc/1750.csv":
-        # 	source_data=sorted(source_data,key=multiple_key_sort_nationale_par_direction)
-        # elif k =="Divers/AN/F_12_1834A/1671.csv":
-        # 	source_data=sorted(source_data,key=multiple_key_sort_1671)
-        # else:
-        # 	source_data=sorted(source_data,key=multiple_key_sort)
+        source_data=sorted(source_data, key=lines_key_sort)
 
-# 		## let's remove empty columns			
-# 		columns_index_to_remove= [headers_bdd_centrale.index(h) for h in []]
-        empty_columns = []
-        for k in source_data[0].keys():
-            if len([d[k] for d in source_data if d[k] and d[k].strip() !=''])==0:
-                empty_columns.append(k)
-# 		for i in columns_index_to_remove:
-# 			empty_columns.append(headers_bdd_centrale[i])
-# 			if VERBOSE:
-# 				print("column %s empty in %s"%(headers_bdd_centrale[i].encode("UTF8"),k.encode("UTF8")))
-# #Pour garder toutes les colonnes ?
-# 		columns_index_to_remove= []
-
-
-        # try :
-        # 	with open(os.path.join("..","sources", k),"r", encoding='utf-8') as s:
-        # 		nb_lines_source=len(s.readlines())-1
-        # 		if VERBOSE:
-        # 			print("%s: source/bdd_centrale %s/%s"%(k.encode("UTF8"),nb_lines_source,nb_lines_bdd_centrale))
-        # except IOError as e:
-        # 	nb_lines_source=0
-        # 	print("%s doesn't exist"%k.encode("UTF8"))
         print("%s:%s"%(filename,len(source_data)))
 
         if WRITE:
-            # todo
-            print('writing sources part has to be rewrite')
-            # with open(os.path.join("..","sources", k),"w", encoding='utf-8') as s:
-            # 	writer= DictWriter(s)
-            # 	source_headers=[h for i,h in enumerate(headers_bdd_centrale) if i not in columns_index_to_remove]
-            # 	writer.writerow(source_headers)
-            # 	for source_data_line in source_data:
-            # 		source_data_line=[d for i,d in enumerate(source_data_line) if i not in columns_index_to_remove]
-            # 		writer.writerow(source_data_line)
-        # ["sourcepath","nb line bdd_centrale","nb line source","columns removed"]
+            datapackage_resource = translator.write_flows_in_new_format(source_data, source_type, filename)
+            datapackage_resources.append(datapackage_resource)
+
         csvreport.append([filename,nb_lines_bdd_centrale,
             ";".join(set(d['source'] for d in source_data)),
             ";".join(set(d['sourcetype'] for d in source_data)),
@@ -198,22 +247,9 @@ with open("desagregate_bdd_centrale.csv","w", encoding='utf-8') as csvreport_f:
     csvreport_writer=writer(csvreport_f)
     for l in csvreport:
         csvreport_writer.writerow(l)
-# L’ordre de tri actuel (see commit 389c8fa) de la base de donnée centrale en croissant:
-# SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
+# update datapackage
+with open("../datapackage.json", "r", encoding="utf8") as datapackage_file, open("datapackage.json", "w", encoding='utf8') as new_datapackage_file:
+    datapackage = json.load(datapackage_file)
+    datapackage['resources'] = datapackage['resources'] + datapackage_resources
+    json.dump(datapackage, new_datapackage_file, indent=2)
 
-# Pour les source on les trie de la même manière.
-# Sauf pour National / Par direction/ 1749-50-51
-# year / partenaire / exportsimports / numéro de ligne
-
-# Et divers 1671 : year / exportsimports / numéro de ligne
-
-# Il faut enlever les colonnes qui sont vides pour une source donnée. Ces colonnes vides sont des colonnes qui n'existent que dans d'autres sources.
-
-# Passage de base centrale à Sources :
-# Grouper les lignes par source
-# pour chaque groupe de ligne par sourcePath
-# on trie suivant la règle établie ci-dessus
-# on enlève les colonnes vides dans ce groupe
-# on écrit le groupe dans un fichier source qui remplace la version actuelle (en versionnant)
-
-# Il faut pouvoir repérer les fichiers sources qui n'ont pas été modifié par cette mise à jour.
