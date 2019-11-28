@@ -46,39 +46,5 @@
     "data-package-name": ">=1.0"
   },
   "resources": [
-    {     
-      "path": "excel_sources",
-      "name": "digitalized sources in excel format",
-      "description": "digitalized data sources from Balance du commerce before tranformation into CSV. Deprecated version kept for history.",
-      "mediatype":"inode/directory",
-      "format":"xls",
-      "encoding":"UTF8"
-    },
-    {     
-      "path": "toflit18.csv",
-      "name": "the toflit18 unified database",
-      "description": "all sources unified in one database ready to be analyzed",
-      "mediatype":"text/csv",
-      "format":"csv",
-      "encoding":"UTF8"
-    },
-    {     
-      "path": "Traitement des marchandises",
-      "name": "Work on the name of goods",
-      "description": "Work on the name of goods",
-      "mediatype":"text/csv",
-      "format":"csv",
-      "encoding":"UTF8"
-    },
-    {     
-      "group": "flows",
-      "path": "sources/National/${filename}.csv",
-      "name": "${filename}",
-      "mediatype":"text/csv",
-      "format":"csv",
-      "encoding":"UTF8", 
-      "schema": "csv_sources_schema.json"
-    }
-    
   ]
 }
