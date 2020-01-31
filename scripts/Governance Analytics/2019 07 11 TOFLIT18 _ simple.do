@@ -1,4 +1,8 @@
 
+use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
+capture log close
+
+log using "Log_stata_2019 07 11 TOFLIT18 _ simple_`c(current_date)'_`c(current_time)'", text
 
 ***** TOFLIT18 (Governance Analytics countribution)
 
@@ -16,12 +20,31 @@ recode goodsGA (0/1000 = .) if missing(product_simplification)
 kdensity goodsGA
 graph box goodsGA
 sum goodsGA, detail
-foreach var of varlist goodsGA {    
-   quietly summarize `var'    
-   g Flag_`var'= (`var' > 4*r(sd)) if `var' < .      
-   list `var' Flag_`var' if Flag_`var' == 1
+foreach var of varlist goodsGA {
+	capture drop Flag_`var'
+	quietly summarize `var'    
+	g Flag_`var'= (`var' > 4*r(sd)) if `var' < .      
+	list `var' Flag_`var' if Flag_`var' == 1
 }
 tab Flag_goodsGA
+
+** GD Calcule la distance des deux strings. Pas très intéressant dans la mesure où il s'agit parfois de simplifications faites exprès...
+** What am I supposed to get from the graph and the list ?
+** Why not do it from the list of goods ?
+** du genre
+
+preserve 
+keep if Flag_goodsGA==1
+bys product : keep if _n==1
+br product product_simplification goodsGA Flag_goodsGA
+gsort - goodsGA
+br product product_simplification goodsGA Flag_goodsGA
+restore
+
+**On voit que le principal prédicteur de la distance orthographique est la longueur de la chaîne de caractère... Peut-être faire une mesure qui prenne cela en compte ?
+
+
+*******************************************************
 
 *1.2 marchandises vs orthographics
 ustrdist product product_orthographic, g(goodsOrthGA)
@@ -42,11 +65,11 @@ tab Flag_goodsOrthGA
 
 
 *1.3 partners vs grouping
-ustrdist partners_simpl_classificationifi grouping_classification, g(countryGA)
+ustrdist country_simplification country_grouping, g(countryGA)
 sum countryGA
-recode countryGA (0 = .) if missing(partners_simpl_classificationifi)
+recode countryGA (0 = .) if missing(country_simplification)
 *(countryGA: 2630 changes made)
-recode countryGA (0 / 1000 = .) if missing(grouping_classification)
+recode countryGA (0 / 1000 = .) if missing(country_grouping)
 * (countryGA: 0 changes made)
 kdensity countryGA
 graph box countryGA
@@ -93,9 +116,12 @@ foreach var of varlist unitGA {
 tab Flag_unitGA
 
 
+*Bref, rien de tout cela est très utile, car la mesure de distance n'est pas pertinente.
+***********************
+
 *** (2)
 *** Detecting outliers of observations
-* dependant: quantites_metric prix_unitaire value
+* dependant: 	 prix_unitaire value
 * independent: year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id
 
 *Outliers by year categories
@@ -111,19 +137,17 @@ tab Flag_unitGA
 *"Peace 1816-1840" if year >= 1816
 
 
-*by grouping_classification
+*by country_grouping
 * should be changed to numbers
-sort grouping_classification
-egen grouping_classification_id = group(grouping_classification)
-sum grouping_classification_id
-sort goods_ortho_classification
-egen goods_ortho_classification_id = group(goods_ortho_classification)
-sum goods_ortho_classification_id
+sort country_grouping
+egen country_grouping_id = group(country_grouping)
+sum country_grouping_id
+sort product_orthographic
+egen product_orthographic_id = group(product_orthographic)
+sum product_orthographic_id
 sort direction
 egen direction_id = group(direction)
 sum direction_id
-sort country_grouping
-egen country_grouping_id = group(country_grouping)
 sum country_grouping_id
 sort exportsimports
 egen exportsimports_id = group(exportsimports)
@@ -138,25 +162,25 @@ sum quantity_unit_ortho_id
 
 *2.1                          Quantity
 
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
 tab out_quantity_peace1744
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
 tab out_quantity_war1748
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
 tab out_quantity_peace1755
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
 tab out_quantity_war1763
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
 tab out_quantity_peace1777
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783, generate(out_quantity_war1783) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783, generate(out_quantity_war1783) percentile(0.01)
 tab out_quantity_war1783
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
 tab out_quantity_peace1792
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
 tab out_quantity_war1807
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
 tab out_quantity_blockade1815
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816 & year <=1748, generate(out_quantity_peace1840) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816 & year <=1748, generate(out_quantity_peace1840) percentile(0.01)
 tab out_quantity_peace1840
 
 *2.2                          Price
@@ -208,11 +232,11 @@ tab out_value_peace1840
 
 *** EXAMPLE
 *1) for the first specification of 2.1:
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
+bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
 * outliers detection is saved under "out_quantity_peace1744" as a dummy variable equal to 1 if it is an outlier
 br direction country_grouping product_simplification if out_quantity_peace1744==1
 * above command shows several products with different origins and destination that are all outliers. We choose one of products "vin de ville" to compare it with similar products that are not selected as outlier:
-br quantites_metric direction country_grouping out_quantity_peace1744 if product_simplification=="vin de ville" & year <= 1744
+br q_conv direction country_grouping out_quantity_peace1744 if product_simplification=="vin de ville" & year <= 1744
 * above command shows list of "vin de ville". With the same "direction" some of them have been selected as outlier and some of them not. The same situation with "country_grouping". Two above commands show that for
 * the first specification of 2.1, number of obsevations has been selected as outliers under name of "out_quantity_peace1744" with specific combination of direction, country_grouping and product name while for the
 * similar variables of direction or pruduct or country_grouping there are observations that are not selected as an outlier even if they have some values equal to one of the observations that is an outlier. It shows
@@ -239,5 +263,7 @@ br direction country_grouping product_simplification if out_value_peace1744==1
 br product_simplification out_value_peace1744 if direction=="Bordeaux" & country_grouping=="Outre-mers" & year <= 1744
 sort out_value_peace1744
 
-* In all example list above, a missing value of the outlier dummy means there was a missing of dependant variable. This is also an evidence that quantites_metric, prix_unitaire, and value are considered as the only dependents.
+* In all example list above, a missing value of the outlier dummy means there was a missing of dependant variable. This is also an evidence that q_conv, prix_unitaire, and value are considered as the only dependents.
+
+log close _all
 
