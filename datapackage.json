@@ -45,6 +45,66 @@
   "dependencies": {
     "data-package-name": ">=1.0"
   },
-  "resources": [
-  ]
+  "resources": {
+    "name": "classifications_index",
+    "description": "This table list the classifications available to agregate country and product. It describes the hierarchy of classification which one beeing based on another one. The index does not contain the classification data which are in dedicated files whose name are standardized as base/classification_{model}_{slug}.csv. Those files are not in the datapackage because their structure moves with scientists usage...",
+    "fields": [
+      {
+        "name": "slug",
+        "type": "string",
+        "constraints": {
+            "required": true,
+            "unique": true
+        },
+        "description": "classification slug name used to uniquely identify the classification. The slug is used as variable name in classification tables."
+      },
+      {
+        "name": "model",
+        "type": "string",
+        "constraints": {
+            "required": true,
+            "enum": ["partner", "product"]
+        },
+        "description": "The type of object which are classified. It's the data field in the flow resource which is targeted by the classification."
+      },
+      {
+        "name": "parentSlug",
+        "type": "string",
+        "description": "Slug of the parent classification. Left blank for the source which are the root of classification tree."
+      }, 
+      {
+        "name": "name",
+        "type": "string",
+        "constraints": {
+          "required": true
+        },
+        "description": "Human readable name of the classification"
+      },
+      {
+        "name": "author",
+        "type": "string",
+        "constraints": {
+          "required": true
+        },
+        "description": "Classification author name.s"
+      }, 
+      {
+        "name": "description",
+        "type": "string",
+        "constraints": {
+          "required": true
+        },
+        "description": "Classification description"
+      }
+    ],
+    "foreignKeys": [
+      {
+        "fields": "parentSlug",
+        "reference": {
+          "resource": "classifications_index",
+          "fields": "slug"
+        }
+      }
+    ]
+  }
 }

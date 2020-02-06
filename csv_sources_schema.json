@@ -13,7 +13,6 @@
                     "National toutes directions tous partenaires",
                     "National toutes directions sans produits",
                     "Tableau des quantités",
-                    "Tableau de marchandises",
                     "Tableau Général",
                     "1792-both semester",
                     "1792-first semester"
@@ -30,37 +29,36 @@
         "description": "Year of the trade flow, beware can't be more complex than digits -- Année du flux commercial"
       },
       {
-        "type": "string",
         "name": "tax_department",
+        "type": "string",
         "description": "Geographical tax department in which the trade flow has been registered ('Direction des Fermes') -- Direction des fermes dans laquelle le flux a été enregistré"
       },
       {
-          "type": "string",
           "name": "tax_office",
+          "type": "string",
           "description": "Geographical tax office in which the trade flow has been registered. A tax office is part of a tax departement -- Bureau des fermes dans lequel le flux a été enregistré"
       },
       {
-        "type": "string",
         "name": "partner",
+        "type": "string",
         "description": "Partner country or region for this trade flow -- Pays ou région partenaire pour ce flux commercial (importateur ou exportateur)"
       },
       {
-        "type": "string",
         "name": "export_import",
+        "type": "string",
         "description": "This variable identifies import or export trade flows -- Cette variable indique s'il s'agit d'un flux d'importation ou d'exportation",
         "constraints": {
             "enum": ["Exports", "Imports"]
         }
       },
       {
-
-        "name": "products",
+        "name": "product",
         "type": "string",
         "descriptio": "Products exchanged in that trade flow -- Marchandises échangées dans ce flux"
       },
       {
-        "type": "string",
         "name": "origin",
+        "type": "string",
         "descriptio": "Products' origin -- Origine des marchandises"
       },
       {
@@ -69,8 +67,8 @@
         "description": "Width in line for textiles -- Largeure en lignes des tissus"
       },	
       {
-        "type": "number",
         "name": "value",
+        "type": "number",
         "description":	"Value of the trade flow in livres tournois or francs -- Valeur du flux commercial, en livres tournois ou en francs"
       },
       {
@@ -79,19 +77,19 @@
         "description":	"This variables identifies trade flows where multiple quantities are associated to a single total value. This number indicates the order of the flow in the bundle. Value is indicated for the bundle but repeated in all flows. Beware of double accounts use only one value by bundle. -- Cette variable identifie les flux pour lesquels plusieurs quantitiés correspondent à une seule valeur. Ce nombre indique l'index dans l'ordre dans le groupe. La valeur concerne le groupe en entier et est répétée dans chaque flux. Attention aux doubles comptes."
       },
       {
-        "type": "quantity",
-        "name": "value",
+        "name": "quantity",
+        "type": "number",
         "description":	"Product quantity (in quantity unit mentionned in 'quantity_unit' -- Quantité de marchandises (en unité de quantité mentionnée en 'quantitie_unite'"
       },
       {
-        "type": "quantity_unit",
-        "name": "string",
+        "name": "quantity_unit",
+        "type": "string",
         "description":	"Product quantity unit -- Unité de mesure de la quantité de marchandise"
       },  
       {
-        "type": "unit_price",
-        "name": "number",
-        "description":	"Price per unit -- Prix par unité"
+        "name": "value_unit",
+        "type": "number",
+        "description":	"Value per unit -- Valeur par unité"
       },
       {
         "name": "filepath",
@@ -120,28 +118,28 @@
         "description": "Line identification in the retranscription - Identification de la ligne dans la retranscription"
       },
       {
-        "type": "value_total",
-        "name": "number",
+        "name": "value_total",
+        "type": "number",
         "description":	"Total value of some succeding flows given by the source -- Total d'une suite de flux donné dans la source"
       },
       {
         "name": "value_sub_total_1",
         "type": "number",
         "description":	"Partial total given in the source (level 1) -- Total partiel donné dans la source (niveau 1)"
-      }
+      },
       {
         "name": "value_sub_total_2",
         "type": "number",
         "description":	"Partial total given in the source (level 2) -- Total partiel donné dans la source (niveau 2)"
-      }
+      },
       {
         "name": "value_sub_total_3",
         "type": "number",
         "description":	"Partial total given in the source (level 3) -- Total partiel donné dans la source (niveau 3)"
       },
       {
-        "type": "data_collector",
-        "name": "string",
+        "name": "data_collector",
+        "type": "string",
         "description":	"Data collector name -- Nom du retranscripteur"
       },
       {
@@ -170,9 +168,14 @@
         "description": "Trade surplus -- Excédent commercial"
       },
       {
+        "name": "duty_quantity",
+        "type": "number",
+        "description": "Product quantity (in quantity unit used for duty, mentionned in duty_quantity_unit) -- Quantité de marchandises (en unité de quantité utilisée pour les droits, mentionnée dans duty_quantity_unit)"
+      },
+      {
         "name": "duty_quantity_unit",
         "type": "string",
-        "description": "Producte quantity unit used for duty -- Unité de mesure de la quantité de marchandise utilisée pour le calcul des droits"
+        "description": "Product quantity unit used for duty -- Unité de mesure de la quantité de marchandise utilisée pour le calcul des droits"
       },
       {
         "name": "duty_by_unit",

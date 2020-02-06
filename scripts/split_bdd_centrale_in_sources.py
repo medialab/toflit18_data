@@ -5,6 +5,8 @@ import os
 from csv import DictReader, writer, DictWriter
 import re
 import json
+from unidecode import unidecode
+import collections
 
 class PackageTranslator:
     DATA_DIR = 'new_sources'
@@ -19,7 +21,7 @@ class PackageTranslator:
         "direction": "tax_department",
         "bureaux": "tax_office",
         "sheet": "sheet",
-        "marchandises": "products",
+        "marchandises": "product",
         "pays": "partner",
         "value": "value",
         "quantit": "quantity",
@@ -82,17 +84,8 @@ class PackageTranslator:
             writer.writeheader()
             writer.writerows(self._format_for_datapackage(flows, path))
 
-            # give a datapackage resource back
-            return {     
-                "group": "flows",
-                "path": "%s"%path,
-                "name": "%s"%name,
-                "mediatype":"text/csv",
-                "format":"csv",
-                "encoding":"UTF8", 
-                "schema": "csv_sources_schema.json"
-            }
-
+            # path to be added in the datapackage resource
+            return path
 
 WRITE=True
 VERBOSE=True
@@ -108,8 +101,10 @@ def cast_numrodeligne(value):
         return 0#value
 
 year_re = re.compile('.*?(\d{4}).*')
-
-slugify = lambda s : s.strip().replace(' ','_').replace('/','_').replace('+','_')
+special_chars = re.compile('[^-A-z0-9\._/]')
+def slugify (s):
+    s = unidecode(s.strip(' ').replace(' ', '_').replace('/', '_').replace('+', '_').replace("'", "_"))
+    return special_chars.sub('', s)
 
 ### virer des noms des pays accent et apostrophe
 ### virer les virgules et accents des noms de sources
@@ -163,7 +158,7 @@ def new_source_name(flow):
         except : 
             new_name.append(slugify(flow['year']))
 
-    return '_'.join(new_name)
+    return slugify('_'.join(new_name))
 
 ANOM_source = re.compile(r'.*ANOM[ _]Col[ _]F[ _]2B[ _]1[34]')
 AD17_missing = re.compile(r'^41 ETP 270/(\d{4})')
@@ -213,7 +208,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
 
     data = sorted(data, key=lambda r : (r['sourcetype'], new_source_name(r)) )
     csvreport=[["new sourcepath","nb line bdd_centrale","old source.s","source type.s", "nb old sourcepath.s","old sourcepath.s","columns removed"]]
-    datapackage_resources = []
+    datapackage_resource_path = []
     for (source_type, filename),data in itertools.groupby(data, key=lambda r : (r['sourcetype'], new_source_name(r))):
         if filename=="":
             print("sourcefilename IS empty ARRRG")
@@ -235,13 +230,24 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
         print("%s:%s"%(filename,len(source_data)))
 
         if WRITE:
-            datapackage_resource = translator.write_flows_in_new_format(source_data, source_type, filename)
-            datapackage_resources.append(datapackage_resource)
+            path = translator.write_flows_in_new_format(source_data, source_type, filename)
+            datapackage_resource_path.append(path)
 
         csvreport.append([filename,nb_lines_bdd_centrale,
             ";".join(set(d['source'] for d in source_data)),
             ";".join(set(d['sourcetype'] for d in source_data)),
             len(set(d['sourcepath'] for d in source_data)),";".join(set(d['sourcepath'] for d in source_data)),";".join(empty_columns)])
+    datapackage_resource = collections.OrderedDict([     
+        ("name", "flows"),
+        ("mediatype","text/csv"),
+        ("format","csv"),
+        ("encoding","UTF8"),
+        ("profile","tabular-data-resource"), 
+        ("schema","csv_sources_schema.json"),
+        ("sources",["French Bureau de la balance du commerce statistics see http://toflit18.medialab.sciences-po.fr/#/exploration/sources for more details"]),
+        ("path",datapackage_resource_path),
+    ])
+
 
 with open("desagregate_bdd_centrale.csv","w", encoding='utf-8') as csvreport_f:
     csvreport_writer=writer(csvreport_f)
@@ -249,7 +255,8 @@ with open("desagregate_bdd_centrale.csv","w", encoding='utf-8') as csvreport_f:
         csvreport_writer.writerow(l)
 # update datapackage
 with open("../datapackage.json", "r", encoding="utf8") as datapackage_file, open("datapackage.json", "w", encoding='utf8') as new_datapackage_file:
-    datapackage = json.load(datapackage_file)
-    datapackage['resources'] = datapackage['resources'] + datapackage_resources
-    json.dump(datapackage, new_datapackage_file, indent=2)
+    datapackage = json.load(datapackage_file, object_pairs_hook=collections.OrderedDict)
+    datapackage['resources'].append(datapackage_resource)
+    json.dump(datapackage, new_datapackage_file, indent=2, ensure_ascii=False)
+
 
