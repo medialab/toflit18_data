@@ -1,0 +1,14 @@
+name,type,description
+quantity_unit_ortho,string,Orthographic normalization of the quantity unit
+source_bdc,boolean,0 : the quantity unit is present in the Balance du Commerce data
+nbr_bdc_quantity_unit,integer,Number of times the quantity unit is present in the Balance du Commerce data
+nbr_bdc_quantity_unit_ortho,integer,Number of times the orthographic normalization of the quantity unit is present in the Balance du Commerce data
+quantity_unit_ajustees,string,Simplification of the quantity unit
+nbr_bdc_quantity_unit_ajustees,string,Number of times the simplified quantity unit is present in the Balance du Commerce data
+u_conv,string,Equivalent metric quantity unit
+q_conv,number,Conversion ratio between the simplified quantity unit and u_conv (1*quantity_unit_ajustees = q_conv*u_conv)
+incertitude_unit,boolean,1 if we know u_conv and q_conv associated with quantity_unit_ajustees
+source_hambourg,boolean,0 : the quantity unit is present in the Hamburg data
+missing,boolean,Hum…
+needs_more_details,boolean,0 : the name of the quantity unit is enough to find u_conv and q_conv ; 1 : we need the goods and/or the location
+remarque_unit,string,Various remarks
