@@ -115,17 +115,17 @@ def slugify (s):
 COUNTRIES_CLASSIF = {}
 
 sourceclassif = {}
-with open('../base/classification_country_sourcename.csv', 'r', encoding='utf8') as f:
+with open('../base/classification_partner_sourcename.csv', 'r', encoding='utf8') as f:
     ccs = DictReader(f)
     for l in ccs :
         sourceclassif[l['simplification']]= l['sourcename']
 simpl = {}
-with open('../base/classification_country_simplification.csv', 'r', encoding='utf8') as f:
+with open('../base/classification_partner_simplification.csv', 'r', encoding='utf8') as f:
     ccs = DictReader(f)
     for l in ccs :
         simpl[l['orthographic']] = sourceclassif[l['simplification']]
 
-with open('../base/classification_country_orthographic.csv', 'r', encoding='utf8') as orthof:
+with open('../base/classification_partner_orthographic.csv', 'r', encoding='utf8') as orthof:
     orthoc = DictReader(orthof)
     for ortho in orthoc:
         COUNTRIES_CLASSIF[ortho['source']]=simpl[ortho['orthographic']] 
