@@ -744,13 +744,11 @@ keep if needs_more_details=="1"
 keep exportsimports country_grouping direction product_simplification quantity_unit_simplification
 bys exportsimports country_grouping direction product_simplification quantity_unit_simplification: keep if _n==1
  merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_simplification ///
-	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
-
+	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
 	
-blouf	
 	
  drop _merge
- sort quantity_unit_ortho product_simplification exportsimports direction country_grouping
+ sort quantity_unit_simplification product_simplification exportsimports direction country_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
@@ -764,7 +762,7 @@ blouf
  drop  remarque_unit-_merge
  codebook q_conv
  
- generate quantities_metric = q_conv * quantit
+ generate quantities_metric = quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
  replace  unit_price_metric=prix_unitaire/q_conv if unit_price_metric==.
  
