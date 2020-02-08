@@ -30,7 +30,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 bdd_directions classification_product_sitc_FR classification_product_sitc_EN /*
 */				 classification_product_sitc_simplEN /* 
 */ 				 classification_quantityunit_orthographic classification_quantityunit_simplification /*
-*/				 classification_quantityunit_metric1 Units_Normalisation_Metrique2 /*
+*/				 classification_quantityunit_metric1 classification_quantityunit_metric2 /*
 */				 bdd_origine classification_product_coton	classification_product_ulrich /*
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
@@ -285,7 +285,7 @@ sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric1.csv", replace
 
-/*See below for "Units_Normalisation_Metrique2.dta"*/
+/*See below for "classification_quantityunit_metric2.dta"*/
 
 
 /*
@@ -710,36 +710,55 @@ rename yearnum year
 
 
 
-
- merge m:1 quantity_unit using "$dir/Données Stata/classification_quantityunit_orthographic.dta"
- replace quantity_unit_ortho="unité manquante" if quantity_unit==""
- drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
+rename source source_or
+rename quantity_unit source
+merge m:1 source using "$dir/Données Stata/classification_quantityunit_orthographic.dta"
+rename source quantity_unit
+rename source_or source
  
- merge m:1 quantity_unit_ortho using "$dir/Données Stata/classification_quantityunit_simplification.dta"
- replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
- replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing
- codebook q_conv
+replace orthographic="unité manquante" if orthographic==""
+drop if _merge==2
+drop _merge source_bdc	nbr_occurences_source	nbr_occurences_orthographic
  
- save "$dir/Données Stata/bdd courante_temp.dta", replace
- keep if needs_more_details=="1"
- keep exportsimports country_grouping direction product_simplification quantity_unit_ortho
- bys exportsimports country_grouping direction product_simplification quantity_unit_ortho: keep if _n==1
- merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
-	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
+merge m:1 orthographic using "$dir/Données Stata/classification_quantityunit_simplification.dta"
+rename orthographic quantity_unit_orthographic
+replace simplification="unité manquante" if quantity_unit_orthographic=="unité manquante"
+ 
+ 
+drop _merge source_bdc	nbr_occurences_orthographic nbr_occurences_simplification remarque_unit
 
+merge m:1 simplification using "$dir/Données Stata/classification_quantityunit_metric1.dta"
+rename simplification quantity_unit_simplification
+
+ 
+replace metric="unité manquante" if quantity_unit_simplification=="unité manquante"
+drop if _merge==2
+drop _merge  incertitude_unit nbr_occurences_simplification nbr_occurences_metric /*
+		*/ source_hambourg	missing	remarque_unit
+rename metric quantity_unit_metric
+gen quantities_metric=quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
+ 
+ 
+save "$dir/Données Stata/bdd courante_temp.dta", replace
+keep if needs_more_details=="1"
+keep exportsimports country_grouping direction product_simplification quantity_unit_simplification
+bys exportsimports country_grouping direction product_simplification quantity_unit_simplification: keep if _n==1
+ merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_simplification ///
+	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
+
+	
+blouf	
+	
  drop _merge
  sort quantity_unit_ortho product_simplification exportsimports direction country_grouping
- save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
- export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique2.csv", replace
+ save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
+ export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
  
  merge m:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
-	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
  
  drop if _merge==2
  drop  remarque_unit-_merge
