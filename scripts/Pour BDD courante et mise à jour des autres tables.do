@@ -71,6 +71,10 @@ use "Données Stata/classification_quantityunit_metric1.dta", clear
 destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric1.dta", replace
 
+use "Données Stata/classification_quantityunit_metric2.dta", clear
+destring conv_simplification_to_metric, replace
+save "Données Stata/classification_quantityunit_metric2.dta", replace
+
 /*
 
 foreach file in travail_sitcrev3 sitc18_simpl {
@@ -736,35 +740,39 @@ drop if _merge==2
 drop _merge  incertitude_unit nbr_occurences_simplification nbr_occurences_metric /*
 		*/ source_hambourg	missing	remarque_unit
 rename metric quantity_unit_metric
-gen quantities_metric=quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
+*gen quantities_metric=quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
  
  
 save "$dir/Données Stata/bdd courante_temp.dta", replace
 keep if needs_more_details=="1"
+
 keep exportsimports country_grouping direction product_simplification quantity_unit_simplification
 bys exportsimports country_grouping direction product_simplification quantity_unit_simplification: keep if _n==1
- merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_simplification ///
+rename quantity_unit_simplification simplification
+merge 1:1 exportsimports country_grouping direction product_simplification simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
 	
-	
  drop _merge
- sort quantity_unit_simplification product_simplification exportsimports direction country_grouping
+ sort simplification product_simplification exportsimports direction country_grouping
+ order simplification product_simplification exportsimports direction country_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
  
- merge m:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
+ rename quantity_unit_simplification simplification 
+ 
+ merge m:1 exportsimports country_grouping direction product_simplification  simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
  
  drop if _merge==2
- drop  remarque_unit-_merge
- codebook q_conv
+ drop  remarks_unit-_merge
+ codebook conv_simplification_to_metric
  
  generate quantities_metric = quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=prix_unitaire/q_conv if unit_price_metric==.
+ replace  unit_price_metric=prix_unitaire/conv_orthographic_to_simplificat*conv_simplification_to_metric if unit_price_metric==.
  
  
  
