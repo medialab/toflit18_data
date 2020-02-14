@@ -216,6 +216,7 @@ foreach variable of var source orthographic  {
 	generate nbr_occurences_`variable'=0
 	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
 	bys `variable' : replace nbr_occurences_`variable'=_N if (_merge==3 | _merge==1)
+	bys `variable' : replace nbr_occurences_`variable'=0 if _merge==2
 }
 
 drop _merge
