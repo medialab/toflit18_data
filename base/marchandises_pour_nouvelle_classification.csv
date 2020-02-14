@@ -1,4 +1,5 @@
 simplification,nbr_occurences_simpl,sitc,sitc_FR,sitc_EN,revolutionempire,RE_aggregate
+,5,,,,[vide],
 ???,99,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? blanc,2,???,Produits inconnus,Unknown products,Produits inconnus,
 ??? brun,2,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -363,7 +364,7 @@ amomum,14,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw mater
 amomum et fèves de tonka et noix de ravensara,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues médicinales diverses,Drogues médicinales
 amomum verum,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Drogues médicinales diverses,Drogues médicinales
 amurca,4,???,Produits inconnus,Unknown products,Drogues diverses,Drogues
-anabasse,121,???,Produits inconnus,Unknown products,Toiles diverses,Objets manufacturés
+anabasse,121,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 anabasse bajutapau,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 anabasse corat nicaneas platille,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
 anacardes,2,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Fruits secs et noix,Subsistances
@@ -1178,7 +1179,7 @@ beau vert broyé,2,5,Produits chimiques transformés n.d.a.,Processed chemical p
 beaudeaux,1,???,Produits inconnus,Unknown products,Produits inconnus,
 beaupré,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 becfigues marinés,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Chairs et œufs,Subsistances
-beige,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Étoffes de laine,Objets manufacturés
+beige,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières brutes et transformées pour teinture,Matières premières
 belinge,1,???,Produits inconnus,Unknown products,Produits inconnus,
 benblanc,1,???,Produits inconnus,Unknown products,Produits inconnus,
 benfletins,1,???,Produits inconnus,Unknown products,Produits inconnus,
@@ -4097,13 +4098,13 @@ chiques de pierre,7,???,Produits inconnus,Unknown products,Produits inconnus,
 chiquette des prises,1,???,Produits inconnus,Unknown products,Produits inconnus,
 chirederis,1,???,Produits inconnus,Unknown products,Produits inconnus,
 chise de fourneaux,1,???,Produits inconnus,Unknown products,Produits inconnus,
-chitte,71,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte Keabadis,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte anglaise,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte d'Amedabad,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte patenas,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte rouge,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-chitte étoffe,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+chitte,71,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte Keabadis,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte anglaise,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte d'Amedabad,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte patenas,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte rouge,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+chitte étoffe,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 chivelles,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 chocolat,1031,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Cacao et chocolat,Subsistances
 chocolat en pâte,1,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Cacao et chocolat,Subsistances
@@ -4881,7 +4882,7 @@ coutil,505,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvr
 coutil 2479 lignes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 coutil chiné,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 coutil de Hollande,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-coutil de fil,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+coutil de fil,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 coutil à lit,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 coutil à meubles,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 couvercles de fer,5,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
@@ -5538,7 +5539,7 @@ demi-barriques cerclées de fer,1,6b,"Produits du bois, liège, jonc","Wood, cor
 demi-cuirs de bœuf tannés,1,6a,"Cuirs, peaux et produits dérivés hors sellerie",Leather products except saddlery,"Cuirs, peaux et pelleterie",Industrie française et étrangère
 demi-cuirs tannés de vache,1,6a,"Cuirs, peaux et produits dérivés hors sellerie",Leather products except saddlery,"Cuirs, peaux et pelleterie",Industrie française et étrangère
 demi-soucis,1,???,Produits inconnus,Unknown products,Produits inconnus,
-demitte,172,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
+demitte,172,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 demitte et futaine,2,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
 demoiselle,12,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
 demoiselle de 25 pieds,1,6b,"Produits du bois, liège, jonc","Wood, cork and cane products","Ouvrages de bois, liège et jonc",Industrie française et étrangère
@@ -5857,7 +5858,7 @@ drap de Sedan 25 lignes,1,6i,Autres filés ou tissés,Other threads and fabrics,
 drap de Sedan 78 lignes,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de Sedan de retour,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de Sedan de velours,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap de Silésie,199,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap de Silésie,199,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 drap de Sir,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de Soudrain,6,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de Souvier,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -5912,9 +5913,9 @@ drap de laine et petits et étoffe,66,6e,Filés ou tissés de laine et de poil,W
 drap de laine fin,56,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de laine gros,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap de laine pour les troupes,4,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap de lin,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
-drap de lin ayant servi,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
-drap de lin vieux,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap de lin,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+drap de lin ayant servi,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+drap de lin vieux,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 drap de linge commun,1,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
 drap de lit,56,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
 drap de lit ayant servi,2,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
@@ -5922,12 +5923,12 @@ drap de lit commun,1,8,Articles manufacturés divers n.d.a,Various manufactures,
 drap de lit de lin,1,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
 drap de lit neuf,1,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
 drap de lit ou linceuls,1,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
-drap de lit toile de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap de lit toile de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 drap de lit vieux,32,8,Articles manufacturés divers n.d.a,Various manufactures,Draps divers,Objets manufacturés
 drap de montagne,6,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de pagnon,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de soie,5,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Draps divers,Objets manufacturés
-drap de toile de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap de toile de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 drap de vere,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap de vigogne,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap demi fin de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
@@ -5990,11 +5991,11 @@ drap petit,712,6i,Autres filés ou tissés,Other threads and fabrics,Draps diver
 drap petit de Languedoc,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap petit de Montauban,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap petit de Sedan,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap petit de Silésie,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap petit de Silésie,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 drap petit de mains,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap petit londrin,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
 drap petit raze de Maroc,12,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Draps divers,Objets manufacturés
-drap platine,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap platine,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap pour billau,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap pour doublures,3,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap rouge,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -6004,8 +6005,8 @@ drap teint d'Espagne et de Hollande,2,6i,Autres filés ou tissés,Other threads 
 drap terlaine,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap uni,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap vert,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
-drap vieux,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
-drap vieux pour l'entrepôt pour la Guinée,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Draps divers,Objets manufacturés
+drap vieux,2,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
+drap vieux pour l'entrepôt pour la Guinée,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap à doubler,4,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap à la valeur,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
 drap à matelot,1,6i,Autres filés ou tissés,Other threads and fabrics,Draps divers,Objets manufacturés
@@ -7389,7 +7390,7 @@ filoselle et gilets de coton,1,9b,Divers mélangés,Mixed flows,Divers mélangé
 filoselle et soie,170,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels","Filoselle, fleuret et bourre de soie",Matières premières
 fine,1,9c,Divers incertains,Various uncertain,Divers incertains,Divers incertains
 finette,2,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de coton,Objets manufacturés
-finette de laine,2,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
+finette de laine,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 finette des prises,3,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
 finette étoffe,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de coton,Objets manufacturés
 fioles,2,6k,"Articles minéraux non métalliques manufacturés, n.d.a.",Other industrial products,Verrerie,Industrie française et étrangère
@@ -8245,7 +8246,6 @@ gilets de soie et coton,1,8,Articles manufacturés divers n.d.a,Various manufact
 gilets de toile,3,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 gilets à nègre,4,8,Articles manufacturés divers n.d.a,Various manufactures,Habits et lingerie,Industrie française et étrangère
 gimblette,1,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Subsistances diverses et mélangées,Subsistances
-gingan nationale,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
 gingembre,698,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Denrées coloniales et épiceries diverses,Subsistances
 gingembre confit,12,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Denrées coloniales et épiceries diverses,Subsistances
 gingembre cru,1,0b,Produits agricoles alimentaires des régions de colonisation européenne,Plantation foodstuff,Denrées coloniales et épiceries diverses,Subsistances
@@ -8842,7 +8842,7 @@ grinza,1,???,Produits inconnus,Unknown products,Produits inconnus,
 gris,3,5,Produits chimiques transformés n.d.a.,Processed chemical products,Drogues diverses,Drogues
 grisette,48,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
 grisette de Flandre,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
-grisette de laine,2,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
+grisette de laine,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 grisette de soie,10,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de soie,Objets manufacturés
 grisons,2,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Chairs et œufs,Subsistances
 grives,3,0a,Autres produits alimentaires et animaux,Other foodstuff and live animals,Animaux,
@@ -13738,7 +13738,7 @@ pentures de fer,2,6j,"Métaux, produits métalliques et outils",Metal products,O
 percale,11,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 percale bleue,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 percale de,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
-percale ou coutil pour couette,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+percale ou coutil pour couette,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 perceintes,2,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Bâtiments de mer et apparaux,Industrie française et étrangère
 percepierre,1,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw materials, inedible, except fuels",Matières premières diverses,Matières premières
 percerettes,5,6j,"Métaux, produits métalliques et outils",Metal products,Ouvrages métalliques,
@@ -16425,7 +16425,7 @@ satin de Florence,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads
 satin de Florence et de Gênes,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de soie,Objets manufacturés
 satin de laine,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 satin de laine de Roubaix,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
-satin de laine et serge,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
+satin de laine et serge,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 satin de laine turc,17,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 satin de laine turc et serge,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 satin de retour faute de vente,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de soie,Objets manufacturés
@@ -16800,8 +16800,8 @@ serviettes communes,6,6i,Autres filés ou tissés,Other threads and fabrics,Text
 serviettes d'étoupes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
 serviettes de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 serviettes de table,1,6i,Autres filés ou tissés,Other threads and fabrics,Textiles manufacturés divers et mélangés,Objets manufacturés
-serviettes de toile,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-serviettes de toile de ménage,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+serviettes de toile,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+serviettes de toile de ménage,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 serviettes de toile peinte,1,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
 serviettes découpées,1,6i,Autres filés ou tissés,Other threads and fabrics,Habits et lingerie,Industrie française et étrangère
 serviettes et nappes,1,6i,Autres filés ou tissés,Other threads and fabrics,Habits et lingerie,Industrie française et étrangère
@@ -18163,23 +18163,23 @@ toile blanche de lin et toile de lin,6,6d,"Filés ou tissés de fibre végétale
 toile blanche de lin pour nappes et serviettes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile blanche de lin à 10 sols et en dessus,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile blanche de ménage,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche demitte,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile blanche demitte,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile blanche escanite,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche et rouge,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche et rousse,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche et teinte,100,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche fine,8,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche fine et de lin,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile blanche fine et de lin,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile blanche guinée,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche ordinaire,18,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche ordre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile blanche large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile blanche ordinaire,18,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile blanche ordre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile blanche peinte,18,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanche pour essuie-mains,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile blanche pour essuie-mains,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile blanche à imprimer,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche à étoupe,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile blanche étrangère,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile blanchie,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile blanchie,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile bleue,33,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile bleue de coton,8,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile bleue des Indes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18188,7 +18188,7 @@ toile bocadillo,2,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile boelans,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile bonnets,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile boucassine,21,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile bougran,105,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile bougran,105,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile bougran gommée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile boulange,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile bourlegambis,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18203,7 +18203,7 @@ toile brochée,2,6h,Autres filés ou tissés mélangés de fibres végétales do
 toile brodée,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile brodée en laine et de coton,1,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
 toile brodée en soie et de coton,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
-toile brodée et de coton,5,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile brodée et de coton,5,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile bueadille,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile cacanava,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile cadéas,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18211,7 +18211,7 @@ toile caissie,72,6h,Autres filés ou tissés mélangés de fibres végétales do
 toile caissière,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile calanea,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile calias,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile canevas,113,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile canevas,113,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile canevas de chanvre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile canevas de fil,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile canevas gommée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18227,10 +18227,10 @@ toile ce chasse,3,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile cerda,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile chapelur,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile chapilas,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile chasselas,213,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile chasselas,213,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile chebiny,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile chille,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile chitte,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile chitte,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile choilette,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile cirsaca,7,9b,Divers mélangés,Mixed flows,Divers incertains,Divers incertains
 toile cirée,524,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18264,14 +18264,14 @@ toile commune de lin,41,6d,"Filés ou tissés de fibre végétale non mélangée
 toile commune et fine,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile commune écrue et grosse et de lin,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile cordat,38,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
-toile corot,165,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile corot double,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile corot imitant celle des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile corot simple,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile corot,165,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile corot double,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile corot imitant celle des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile corot simple,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile cotonnade,5,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile cottray,44,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile coupis,10,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile coupis imitant celle des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile coupis,10,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile coupis imitant celle des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile coutil,329,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile coutil commune,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile coutil croisée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18287,24 +18287,24 @@ toile crue de ménage,3,6h,Autres filés ou tissés mélangés de fibres végét
 toile crue et teinte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile crue grise et ardoisée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile crue large,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée,70,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile crée,70,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile crée de 50 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile crée entrelarge,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée gratienne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée large,42,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée large de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée margé,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée rayée,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile crée rosconne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile crée entrelarge,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée gratienne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée large,42,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée large de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée margé,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée rayée,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile crée rosconne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile cunbabis,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile custas,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile custas imitant celle des Indes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile céruse,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'Agen,6,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'Alençon,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'Alep,11,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'Allemagne,50,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'Allemagne et toile de Silésie,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile d'Alençon,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile d'Alep,11,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile d'Allemagne,50,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile d'Allemagne et toile de Silésie,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile d'Angers,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'Antioche,136,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'Argouges,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18316,7 +18316,7 @@ toile d'Irlande,2,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile d'Olonne,20,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'Orange,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'abas,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile d'aman,154,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile d'aman,154,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile d'anne,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'antale,27,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile d'antrain,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18361,94 +18361,94 @@ toile de Beaujolais,1,6h,Autres filés ou tissés mélangés de fibres végétal
 toile de Beauvais,29,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bernay,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bonbourg,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne,602,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne 3/4,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne,602,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne 3/4,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne 7/8,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne ??? brin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne Fougères,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne ??? brin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne Fougères,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne bas brins,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Bretagne beurrière,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne blancard,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne blanche,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne blanche large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne cirée,18,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne beurrière,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne blancard,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne blanche,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne blanche large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne cirée,18,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne cirée large,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Bretagne commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne cotonnade,1,9b,Divers mélangés,Mixed flows,Toiles de coton,Objets manufacturés
-toile de Bretagne cottray,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne crue,21,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne crée,39,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne crée large,96,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne crée large de 40 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne crée étroite,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne d'Olonne,43,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne cottray,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne crue,21,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne crée,39,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne crée large,96,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne crée large de 40 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne crée étroite,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne d'Olonne,43,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne d'emballage,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne d'étoupe,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Bretagne de 3 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de 4 fils,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de 6 fils,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de ???,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de ??? fil,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de Savigny,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de St. Georges,16,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de balles,5,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de bazot,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de brin,28,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne de 3 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de 4 fils,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de 6 fils,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de ???,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de ??? fil,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de Savigny,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de St. Georges,16,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de balles,5,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de bazot,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de brin,28,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne de challe,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne de chanvre,12,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne de coton,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
-toile de Bretagne de couleur,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de couture,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de fil,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de halle,9,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de ménage,46,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de rondelette,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de rosconne,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de réforme,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne de couleur,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de couture,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de fil,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de halle,9,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de ménage,46,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de rondelette,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de rosconne,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne de réforme,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne de sept huit,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne de serpillère,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne diverse,40,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne entre large,48,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne fine claire,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne fine large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne fine étroite,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne gratienne,104,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne grenade,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne grise,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne gros brin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne haute louise,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne de serpillère,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne diverse,40,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne entre large,48,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne fine claire,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne fine large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne fine étroite,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne gratienne,104,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne grenade,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne grise,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne gros brin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne haute louise,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne hauts brins,32,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne hauts brins de Dinan,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Bretagne jaune,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne lacormen,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne large,171,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne jaune,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne lacormen,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne large,171,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne ouvrée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne peinte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bretagne platille,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne pour voile,97,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Toiles diverses,Objets manufacturés
-toile de Bretagne rayée,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne rayée à carreaux,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne rayée,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne rayée à carreaux,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne reforme,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Bretagne rondelette,21,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne rosconne,95,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne rouge et bleue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne rousse,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne rondelette,21,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne rosconne,95,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne rouge et bleue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne rousse,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bretagne royale,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne serpillière,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne serpillère,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne verges rayées,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne verges serpillère,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne à carreaux,69,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne à nègre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne écrue,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne écrue large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Bretagne étroite,195,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Brieu,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Bretagne serpillière,13,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne serpillère,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne verges rayées,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne verges serpillère,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne à carreaux,69,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne à nègre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne écrue,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne écrue large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Bretagne étroite,195,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Brieu,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Bruges,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Bézier,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Cambrai,74,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Cambrai et de lin,10,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Cambrai et de lin fin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Cambrai,74,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Cambrai et de lin,10,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Cambrai et de lin fin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Chauvreau,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Cholet,196,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Cholet à carreaux,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18471,15 +18471,15 @@ toile de Grenade,45,6h,Autres filés ou tissés mélangés de fibres végétales
 toile de Grenade de lin,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Grenoble,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Halle,260,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Hanovre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Hanovre,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Hollande,49,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Hollande blanche,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Hollande fine,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Killis,45,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile de Landerneau,28,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Languenan,56,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Laval,317,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Laval de renvoi,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Landerneau,28,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Languenan,56,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Laval,317,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Laval de renvoi,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Levant,73,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Levant diverse,8,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Lille,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18489,45 +18489,45 @@ toile de Lombourg,3,6h,Autres filés ou tissés mélangés de fibres végétales
 toile de Lyon,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Lyon teinte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Léon,31,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Marigny,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Marigny blanche,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Marigny écrue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Mayenne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Marigny,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Marigny blanche,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Marigny écrue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Mayenne,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Moncontour,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Morlaix,143,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Mortagne,142,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Moutier,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Moutiers,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Noirmoutier,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Morlaix,143,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Mortagne,142,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Moutier,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Moutiers,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Noirmoutier,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Piémont,17,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Poldavie,38,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Pontigny,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Pontivy,31,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Pontorson,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Pouldavid,21,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Quintin,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Quintin,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Rouen,62,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Russie,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Saint-Gail,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Saint-Gail ???,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saint-Georges,10,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saint-Jean,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saint-Quentin,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saint-Quentin commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saintonge,67,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Saintonge fine,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Savigny,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Saint-Georges,10,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Saint-Jean,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Saint-Quentin,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Saint-Quentin commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Saintonge,67,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Saintonge fine,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Savigny,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Sevigneau,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Silésie,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Silésie,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de Suisse,41,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Surate,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de Suvignan,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Troyes,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Valenciennes,43,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de Vigery,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Vimoutiers,30,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Vitré,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de Vitrée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de Vimoutiers,30,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Vitré,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de Vitrée,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de balle,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de basin,238,6g,Filés ou tissés de coton,Coton threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 toile de basin brodé et de coton et de fil,1,6i,Autres filés ou tissés,Other threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
@@ -18546,14 +18546,14 @@ toile de basin étranger,4,6h,Autres filés ou tissés mélangés de fibres vég
 toile de basine,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,"Mousseline, basin et nankin",Objets manufacturés
 toile de bazouges,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de bleue,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de brin,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de brin fine,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de caisse,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de brin,20,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de brin fine,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de caisse,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de caladaris,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de canevas,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de capiton,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de carreaux,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de challe,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de canevas,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de capiton,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de carreaux,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de challe,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de chanvre,635,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de chanvre 1400 lignes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de chanvre 1500 lignes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18616,7 +18616,7 @@ toile de chanvre étoupes,1,6d,"Filés ou tissés de fibre végétale non mélan
 toile de chanvre étoupes grise,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de chanvre étoupes grises,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de chasse,23,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de châles et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de châles et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de cordat,2,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
 toile de coton,1243,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton ???,4,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -18645,7 +18645,7 @@ toile de coton des Indes brodée,1,6g,Filés ou tissés de coton,Coton threads a
 toile de coton dite armanie,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton du Levant,8,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton du Piémont,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
-toile de coton en siamoise,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
+toile de coton en siamoise,5,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
 toile de coton escamitte,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de coton et de fil,532,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de coton et de fil de Cholet à robes,4,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18705,11 +18705,11 @@ toile de façon de Hambourg et de Hollande,1,6h,Autres filés ou tissés mélang
 toile de fil,17,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fil blanche,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fil commune,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de fil coutil,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de fil coutil,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de fil de ???,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de fil de coton,28,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile de fil de coton,28,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile de fil de coton siamoise,14,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de fil en coutil,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de fil en coutil,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de fil et coton,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fil et de laine,3,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
 toile de fil et de laine de Lille,2,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18816,9 +18816,9 @@ toile de lingerie,1,8,Articles manufacturés divers n.d.a,Various manufactures,T
 toile de linon,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de linon de Saint-Quentin,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de lisson,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de montagne,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de ménage,158,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de paille,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de montagne,15,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de ménage,158,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de paille,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de pays,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de plocq,12,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
 toile de poil de chèvre,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18826,40 +18826,40 @@ toile de retour,3,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile de rite,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de rouanée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de réforme,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile de senigat,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de serpillière,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de serviette,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile de serviette vieille,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de senigat,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de serpillière,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de serviette,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile de serviette vieille,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de siamoise,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de siamoise au sixième de soie,2,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
 toile de soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
-toile de table,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile de table,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de treillis,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile de ville,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile de voile,15,7,Machines et moyens de transport y compris sellerie,Machines and transportation,Toiles diverses,Objets manufacturés
-toile demitte,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Flandres,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes,175,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes ???,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes ??? ??? ??? Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes Perse du commerce étranger,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes commerce français,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes du commerce français,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes du commerce étranger,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes en ??? français,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile demitte,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Flandres,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile des Indes,175,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes ???,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes ??? ??? ??? Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes Perse du commerce étranger,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes commerce français,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes du commerce français,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes du commerce étranger,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes en ??? français,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile des Indes et perles,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Divers mélangés,
-toile des Indes gastas,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes guildochées,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes imitant celles des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes peinte,7,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile des Indes peinte de thille,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile des Indes gastas,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes guildochées,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes imitant celles des Indes,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes peinte,7,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile des Indes peinte de thille,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile des prises,1,6a,"Cuirs, peaux et produits dérivés hors sellerie",Leather products except saddlery,Toiles diverses,Objets manufacturés
 toile du ???,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile du Brabant,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile du Brabant,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile du Béarn,10,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile du Levant,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile du Lyonnais,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile du Mans,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile du Mans,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile du Piémont,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile du cerf,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile du commerce de France et des Indes,18,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18873,7 +18873,7 @@ toile en ???,1,6h,Autres filés ou tissés mélangés de fibres végétales dont
 toile en basin de coton,6,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile en basin de coton brodé en soie,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Toiles diverses,Objets manufacturés
 toile en chemises,1,6c,Papier,Paper products,Toiles diverses,Objets manufacturés
-toile en claire et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile en claire et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile en fair,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile en rouleau,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile en sacs,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18883,7 +18883,7 @@ toile et bonneterie,1,9b,Divers mélangés,Mixed flows,Divers mélangés,
 toile et laine à bouquets de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
 toile et treillis lustrés,2,6i,Autres filés ou tissés,Other threads and fabrics,Toiles diverses,Objets manufacturés
 toile façon de Hollande,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile façon de Silésie,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile façon de Silésie,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile fil de laine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Toiles diverses,Objets manufacturés
 toile fine,48,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile fine de Flandre,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18892,11 +18892,11 @@ toile fine de lin de Valenciennes,6,6d,"Filés ou tissés de fibre végétale no
 toile fine et large,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile fine rousse,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile française,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile futaine,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile futaine,3,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile galcienne de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile glacée,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile gommée,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile gommée et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile gommée et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile gommée et treillis,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile grasse,8,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile gratienne,26,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -18908,21 +18908,21 @@ toile grise de lin de 30 sols l'aune,1,6d,"Filés ou tissés de fibre végétale
 toile grise de lin en dessous de 10 sols l'aune,7,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grise de lin en dessous de 20 sols l'aune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grise de lin à bas prix,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile grise non battue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile gros brin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile gros fort,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse,209,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse ???,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse blanche,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse de 50 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile grise non battue,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile gros brin,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile gros fort,33,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse,209,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse ???,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse blanche,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse de 50 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grosse de lin,32,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grosse de lin de Saint-Quentin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grosse de lin et pour nègre,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile grosse en faces,12,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile grosse et commune,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile grosse en faces,12,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile grosse et commune,3,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile grosse et sommiers,6,9b,Divers mélangés,Mixed flows,Divers mélangés,
-toile grosse garnie ??? pour prélat,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile grosse garnie ??? pour prélat,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile guingans,628,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile guingans blanc,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile guingans bleu,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -18947,8 +18947,8 @@ toile imitant celle des Indes et de Rouen,6,6h,Autres filés ou tissés mélang�
 toile imitant celle des Indes et nationale,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile imprimée,12,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile imprimée et de fil et peinte et teinte,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile imprimée et de lin et nationale et peinte,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile imprimée et de lin et peinte,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile imprimée et de lin et nationale et peinte,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile imprimée et de lin et peinte,6,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile imprimée ou peinte,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile indienne,9,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile indienne fine,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
@@ -18959,7 +18959,7 @@ toile kettroy,1,6h,Autres filés ou tissés mélangés de fibres végétales don
 toile kircochaye,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile lagias,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile laistoufaire,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile large,37,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile large,37,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile lavée,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile lesat,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile linon,41,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
@@ -18996,7 +18996,7 @@ toile peinte et siamoise,1,6h,Autres filés ou tissés mélangés de fibres vég
 toile peinte et teinte,7,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte française,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte imprimée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile peinte indienne,6,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de coton,Objets manufacturés
+toile peinte indienne,6,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile peinte peinte,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte pour paravent,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile peinte sur enduit pour tapisserie,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19058,12 +19058,12 @@ toile rondelette,4,6h,Autres filés ou tissés mélangés de fibres végétales 
 toile rondelle,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile rosconne,38,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile rouge,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile rousse,52,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile royale,137,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile rousse,52,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile royale,137,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile réforme,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile sacs à boîtes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile salemporis,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
-toile salemporis bleue,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile sacs à boîtes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile salemporis,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
+toile salemporis bleue,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile sanas lustrée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile sangalette,14,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile sans apprêt,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19076,10 +19076,10 @@ toile sans apprêt de chanvre et de lin écrue unie de 13 fils inclusivement à 
 toile sans apprêt de chanvre et de lin écrue unie de 20 fils et au-dessus,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile sans apprêt de chanvre et de lin écrue unie de 8 fils inclusivement à 13 fils exclusivement,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile sans apprêt de chanvre et de lin écrue unie de moins de 8 fils,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile sans apprêt écrue de 13 à 20 fils,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile sans apprêt écrue de 20 fils et au-dessus,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile sans apprêt écrue de 8 à 13 fils inclus,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile sans apprêt écrue de moins de 8 fils,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile sans apprêt écrue de 13 à 20 fils,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile sans apprêt écrue de 20 fils et au-dessus,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile sans apprêt écrue de 8 à 13 fils inclus,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile sans apprêt écrue de moins de 8 fils,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile sempiterne,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile serpillière,98,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile serpillère,3,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19115,28 +19115,28 @@ toile verte ???,1,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile à 4 fils,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bas,7,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bas prix blanche de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile à bas prix blanche et de coton,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles diverses,Objets manufacturés
+toile à bas prix blanche et de coton,1,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile à bas prix de chanvre,1,6i,Autres filés ou tissés,Other threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile à bas prix de coton et imprimée,2,6g,Filés ou tissés de coton,Coton threads and fabrics,Toiles de coton,Objets manufacturés
 toile à bluteaux,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bouquets de laine de coton,2,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à bâts,13,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à camis ???,1,???,Produits inconnus,Unknown products,Toiles diverses,Objets manufacturés
-toile à carreaux,260,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux de Rouen,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile à carreaux,260,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux de Rouen,2,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile à carreaux de fil et de laine,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à carreaux et de coton,5,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux et de coutil,56,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux et de lin,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux et à matelas,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux fine et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux grosse et de Lille,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux pièces de 50 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile à carreaux pour matelas,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile à carreaux et de coutil,56,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux et de lin,11,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux et à matelas,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux fine et de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux grosse et de Lille,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux pièces de 50 aunes,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile à carreaux pour matelas,8,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile à cottray,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à doubler,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à drap,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile à faire drap de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile à faire drap de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile à fleurs,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à halle,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à image,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -19160,14 +19160,14 @@ toile à tamis,11,6h,Autres filés ou tissés mélangés de fibres végétales d
 toile à tapisser,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à voile,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile à voile de 24 aunes,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
-toile écrue,64,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile écrue commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile écrue de Languenan,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile écrue,64,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile écrue commune,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile écrue de Languenan,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile écrue de lin,55,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile écrue et grise de lin,4,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile écrue et grosse de lin,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
-toile écrue large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
-toile écrue pour essuie-mains,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles diverses,Objets manufacturés
+toile écrue large,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
+toile écrue pour essuie-mains,1,6d,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",Linen threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile étoilée,1,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
 toile étoupes de lin,7,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles de chanvre et de lin,Objets manufacturés
 toile étoupière,4,6h,Autres filés ou tissés mélangés de fibres végétales dont toiles,Other vegetal threads and fabrics,Toiles diverses,Objets manufacturés
@@ -20647,7 +20647,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe de laine teinte,3,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe de laine turque,2,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe de laine velverde,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
-étoffe de laine verlastine,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes de laine,Objets manufacturés
+étoffe de laine verlastine,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe de laine voile noir,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe de laine à faire moufles,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe de laine à fil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes diverses,Objets manufacturés
@@ -20795,7 +20795,7 @@ zédoaire,29,2,Matières brutes non-comestibles non transformées n.d.a.,"Raw ma
 étoffe peinte,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
 étoffe peluches communes,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
 étoffe peluches de laine,21,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes de laine,Objets manufacturés
-étoffe peluches de prise,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de laine,Objets manufacturés
+étoffe peluches de prise,1,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de soie,Objets manufacturés
 étoffe peluches de soie,6,6f,Filés ou tissés de soie et soie mélangée,Silk threads and fabrics,Étoffes de soie,Objets manufacturés
 étoffe poil en panne à long poil,1,6e,Filés ou tissés de laine et de poil,Wool threads and fabrics,Étoffes diverses,Objets manufacturés
 étoffe pour talits,1,6i,Autres filés ou tissés,Other threads and fabrics,Étoffes diverses,Objets manufacturés
