@@ -1307,7 +1307,7 @@ Armes,0,0,1,124,0,0,1,3,2
 Armes (sabres),0,0,1,1,0,0,0,,1
 Armes ; A feu,0,0,1,12,0,0,0,,1
 Armes ; Blanches,0,0,1,7,0,0,0,,1
-Armes ; a feu,0,0,1,34,0,0,0,,1
+Armes ; a feu,0,0,1,29,0,0,0,,1
 Armes ; a feu ; diverses,0,0,1,1,0,0,0,,1
 Armes ; a feu ; fusil,0,0,1,1,0,0,0,,1
 Armes ; a feu ; fusils,0,0,1,6,0,0,0,,1
@@ -1315,6 +1315,7 @@ Armes ; a feu ; paire de pistolets,0,0,1,1,0,0,0,,1
 Armes ; a feu ; pistolets,0,0,1,1,0,0,0,,1
 Armes ; a feu Fusils,0,0,1,3,0,0,0,,1
 Armes ; a feu Fusils de traite,0,0,1,1,0,0,0,,1
+Armes ; a feu en fusils,0,0,1,5,0,0,0,,1
 Armes ; a feu fusils,0,0,1,2,0,0,0,,1
 Armes ; autres ; blanches,0,0,1,2,0,0,0,,1
 Armes ; autres ; à feu ; de traite,0,0,1,1,0,0,0,,1
@@ -1358,7 +1359,7 @@ Armes ; pistolets,0,0,1,3,0,0,0,,1
 Armes ; platines de fusils,0,0,1,1,0,0,0,,1
 Armes ; sabres,0,0,1,1,0,0,0,,1
 Armes ; sabres ; de traitte,0,0,1,1,0,0,0,,1
-Armes ; à feu,0,0,1,135,0,0,0,,1
+Armes ; à feu,0,0,1,121,0,0,0,,1
 Armes ; à feu ; Pistolets,0,0,1,1,0,0,0,,1
 Armes ; à feu ; diverses,0,0,1,19,0,0,0,,1
 Armes ; à feu ; en fusils,0,0,1,1,0,0,0,,1
@@ -1366,6 +1367,7 @@ Armes ; à feu ; en fusils ; de chasse,0,0,1,1,0,0,0,,1
 Armes ; à feu ; fusils,0,0,1,44,0,0,0,,1
 Armes ; à feu ; pistolet,0,0,1,1,0,0,0,,1
 Armes ; à feu ; pistolets,0,0,1,9,0,0,0,,1
+Armes ; à feu en fusils,0,0,1,14,0,0,0,,1
 Armes ; à feu; diverses,0,0,1,2,0,0,0,,1
 Armes a feu,0,0,1,44,0,0,0,,1
 Armes a feu ; diverses,0,0,1,2,0,0,0,,1
@@ -3235,7 +3237,7 @@ Bignons,0,0,1,2,0,0,0,,1
 Bigons,0,0,1,11,0,0,0,,1
 Bigornes,0,0,1,1,0,0,0,,1
 Bigues,0,0,1,6,0,0,0,,1
-Bijouterie,0,0,1,794,0,0,0,,1
+Bijouterie,0,0,1,793,0,0,0,,1
 "Bijouterie : diamans, perles et pierres fines",0,0,1,13,0,0,0,,1
 "Bijouterie : diamants, perles et pierres fines",0,0,1,13,0,0,0,,1
 Bijouterie ; d'argent,0,0,1,5,0,0,0,,1
@@ -3250,6 +3252,7 @@ Bijouterie ; diverse,0,0,1,1,0,0,0,,1
 Bijouterie ; en épingles,0,0,1,1,0,0,0,,1
 Bijouterie ; pour montre d'argent,0,0,1,1,0,0,0,,1
 Bijouterie en argent,0,0,1,1,0,0,0,,1
+Bijouterie en croix,0,0,1,1,0,0,0,,1
 Bijouterie en or,0,0,1,2,0,0,0,,1
 Bijouterie en perles et pierres fines montées et non montées,0,0,1,35,0,0,0,,1
 Bijouterie et perles fines,0,0,1,17,0,0,0,,1
@@ -3768,8 +3771,9 @@ Bois ; a tonneaux,0,0,1,2,0,0,0,,1
 Bois ; a visse,0,0,1,1,0,0,0,,1
 Bois ; amer,0,0,1,1,0,0,0,,1
 Bois ; anspect,0,0,1,4,0,0,0,,1
-Bois ; anspects,0,0,1,14,0,0,0,,1
+Bois ; anspects,0,0,1,13,0,0,0,,1
 Bois ; anspects barres,0,0,1,1,0,0,0,,1
+Bois ; anspects en barres,0,0,1,1,0,0,0,,1
 Bois ; au daumes,0,0,1,3,0,0,0,,1
 Bois ; auspects,0,0,1,1,0,0,0,,1
 Bois ; bardage,0,0,1,4,0,0,0,,1
@@ -4615,7 +4619,8 @@ Bois Rouge,0,0,1,1,0,0,0,,1
 Bois Roze,0,0,1,1,0,0,0,,1
 Bois Sainte marthe,0,0,1,1,0,0,0,,1
 Bois Ste Marthe,0,0,1,2,0,0,0,,1
-Bois Violet,0,0,1,4,0,0,0,,1
+Bois Violet,0,0,1,3,0,0,0,,1
+Bois Violet en colonnes,0,0,1,1,0,0,0,,1
 Bois [à bruler],0,0,0,0,0,0,1,2,1
 Bois [à brûler],0,0,0,0,0,0,1,2,1
 Bois a Bastir,0,0,1,1,0,0,0,,1
@@ -5762,7 +5767,8 @@ Bonneterie ; fil et coton ; tricot,0,0,1,1,0,0,0,,1
 Bonneterie ; gants ; de soie,0,0,1,1,0,0,0,,1
 Bonneterie bas de fil,0,0,1,4,0,0,0,,1
 Bonneterie bas de soye,0,0,1,4,0,0,0,,1
-Bonneterie bas et bonnets de laine,0,0,1,5,0,0,0,,1
+Bonneterie bas et bonnets de laine en bas,0,0,1,3,0,0,0,,1
+Bonneterie bas et bonnets de laine en bonnets,0,0,1,2,0,0,0,,1
 Bonneterie bourses,0,0,1,1,0,0,0,,1
 Bonneterie de Coton,0,0,1,3,0,0,0,,1
 Bonneterie de Coton et de Soye,0,0,1,1,0,0,0,,1
@@ -7360,7 +7366,8 @@ Cabas de palme petits,0,0,1,2,0,0,0,,1
 Cabas de palmes,0,0,1,5,0,0,0,,1
 Cabas dejonc,0,0,1,1,0,0,0,,1
 Cabats,0,0,1,1,0,0,0,,1
-Cabestan,0,0,1,2,0,0,0,,1
+Cabestan,0,0,1,1,0,0,0,,1
+Cabestan en barres,0,0,1,1,0,0,0,,1
 Cabiau,0,0,1,1,0,0,0,,1
 Cabilau,0,0,1,1,0,0,0,,1
 Cabillands,0,0,1,6,0,0,0,,1
@@ -9237,13 +9244,15 @@ Cercles a tamis,0,0,1,26,0,0,0,,1
 Cercles a toneaux,0,0,1,3,0,0,0,,1
 Cercles a tonnaux,0,0,1,2,0,0,0,,1
 Cercles a tonneau,0,0,1,6,0,0,0,,1
-Cercles a tonneaux,0,0,1,92,0,0,0,,1
+Cercles a tonneaux,0,0,1,90,0,0,0,,1
+Cercles a tonneaux en nombre,0,0,1,1,0,0,0,,1
+Cercles a tonneaux en roue,0,0,1,1,0,0,0,,1
 Cercles d'ozier,0,0,1,4,0,0,0,,1
 Cercles de Bois,0,0,1,6,0,0,0,,1
 Cercles de Bois ;,0,0,1,1,0,0,0,,1
 Cercles de Fer,0,0,1,2,0,0,0,,1
 Cercles de Tonneaux,0,0,1,1,0,0,0,,1
-Cercles de bois,0,0,1,386,0,0,1,1,2
+Cercles de bois,0,0,1,382,0,0,1,1,2
 Cercles de bois ; a bariques,0,0,1,3,0,0,0,,1
 Cercles de bois ; a bobillons,0,0,1,1,0,0,0,,1
 Cercles de bois ; a quarts,0,0,1,1,0,0,0,,1
@@ -9251,6 +9260,8 @@ Cercles de bois a baril,0,0,1,1,0,0,0,,1
 Cercles de bois a pipes,0,0,1,1,0,0,0,,1
 Cercles de bois a tamis,0,0,1,1,0,0,0,,1
 Cercles de bois a tonneaux,0,0,1,2,0,0,0,,1
+Cercles de bois en roue,0,0,1,3,0,0,0,,1
+Cercles de bois en roues,0,0,1,1,0,0,0,,1
 Cercles de bois à barils,0,0,1,1,0,0,0,,1
 Cercles de bois à pipes,0,0,1,1,0,0,0,,1
 Cercles de bois à tonneau,0,0,1,2,0,0,0,,1
@@ -9278,7 +9289,8 @@ Cercles à relier,0,0,1,2,0,0,0,,1
 Cercles à tamis,0,0,1,15,0,0,0,,1
 Cercles à thonneau,0,0,1,5,0,0,0,,1
 Cercles à thonneaux,0,0,1,1,0,0,0,,1
-Cercles à tonneaux,0,0,1,77,0,0,0,,1
+Cercles à tonneaux,0,0,1,76,0,0,0,,1
+Cercles à tonneaux en roues,0,0,1,1,0,0,0,,1
 Cercles à tonneauxx,0,0,1,1,0,0,0,,1
 Cercles à à tonneaux,0,0,1,9,0,0,0,,1
 Cercocole,0,0,1,1,0,0,0,,1
@@ -9609,9 +9621,10 @@ Chaises de jongs,0,0,1,6,0,0,0,,1
 Chaises de maroquin,0,0,1,3,0,0,0,,1
 Chaises de marroquin,0,0,1,1,0,0,0,,1
 Chaises de noyer,0,0,1,2,0,0,0,,1
-Chaises de paille,0,0,1,253,0,0,0,,1
+Chaises de paille,0,0,1,251,0,0,0,,1
 Chaises de paille ; Fauteuils,0,0,1,1,0,0,0,,1
 Chaises de paille ; fauteuils,0,0,1,1,0,0,0,,1
+Chaises de paille en fauteuils,0,0,1,2,0,0,0,,1
 Chaises de paille et fauteuils,0,0,1,2,0,0,0,,1
 Chaises de pailles,0,0,1,8,0,0,0,,1
 Chaises de paillle,0,0,1,2,0,0,0,,1
@@ -9634,7 +9647,8 @@ Chaises et fauteuils ; de poste,0,0,1,2,0,0,0,,1
 Chaises et fauteuils de Cannes,0,0,1,1,0,0,0,,1
 Chaises et fauteuils de canne,0,0,1,1,0,0,0,,1
 Chaises et fauteuils de joncs,0,0,1,1,0,0,0,,1
-Chaises et fauteuils de paille,0,0,1,5,0,0,0,,1
+Chaises et fauteuils de paille,0,0,1,4,0,0,0,,1
+Chaises et fauteuils de paille en fauteuils,0,0,1,1,0,0,0,,1
 Chaises et fauteuils en paille,0,0,1,1,0,0,0,,1
 Chaises et fauteüils,0,0,1,4,0,0,0,,1
 Chaises fauteuils de paille,0,0,1,1,0,0,0,,1
@@ -10708,7 +10722,7 @@ Cheval de bois joujou d'enfant,0,0,1,1,0,0,0,,1
 Cheval deBois,0,0,1,1,0,0,0,,1
 Cheval jument,0,0,1,4,0,0,0,,1
 Cheval à moyen prix,0,0,1,1,0,0,0,,1
-Chevaux,0,0,1,461,1,7,1,1,3
+Chevaux,0,0,1,456,1,7,1,1,3
 Chevaux ; Hongres,0,0,1,3,0,0,0,,1
 Chevaux ; Jumens,0,0,1,4,0,0,0,,1
 Chevaux ; Poulains,0,0,1,2,0,0,0,,1
@@ -10731,6 +10745,7 @@ Chevaux ; poulin,0,0,1,1,0,0,0,,1
 Chevaux ; poulins,0,0,1,1,0,0,0,,1
 Chevaux ; à bas prix,0,0,1,1,0,0,0,,1
 Chevaux de barbarie,0,0,1,1,0,0,0,,1
+Chevaux en poulains,0,0,1,4,0,0,0,,1
 Chevaux et mulets,0,0,1,2,0,0,0,,1
 Chevaux et mulets ; chevaux,0,0,1,1,0,0,0,,1
 Chevaux et mulets ; mules,0,0,1,1,0,0,0,,1
@@ -10745,9 +10760,10 @@ Chevaux poulains,0,0,1,4,0,0,0,,1
 Chevaux poulains de lait,0,0,1,1,0,0,0,,1
 Chevaux poulins,0,0,1,6,0,0,0,,1
 "Chevaux,juments et poulins",0,0,1,8,0,0,0,,1
-Cheveaux,0,0,1,21,0,0,0,,1
+Cheveaux,0,0,1,18,0,0,0,,1
 Cheveaux ; poulains,0,0,1,1,0,0,0,,1
 Cheveaux d'Espagne,0,0,1,1,0,0,0,,1
+Cheveaux en poulains,0,0,1,4,0,0,0,,1
 Cheveaux à moyen prix,0,0,1,1,0,0,0,,1
 Cheverons,0,0,1,1,0,0,0,,1
 Cheverons de sapin de 40 pieds,0,0,1,1,0,0,0,,1
@@ -10892,8 +10908,9 @@ Chites,0,0,1,4,0,0,0,,1
 Chites Keabadis,0,0,1,1,0,0,0,,1
 Chites angloise,0,0,1,1,0,0,0,,1
 Chitspamabage,0,0,1,1,0,0,0,,1
-Chitte,0,0,1,51,0,0,0,,1
+Chitte,0,0,1,50,0,0,0,,1
 Chitte ; étoffe,0,0,1,1,0,0,0,,1
+Chitte en tapis,0,0,1,1,0,0,0,,1
 Chitte etoffe des Indes,0,0,1,1,0,0,0,,1
 Chitte rouge,0,0,1,1,0,0,0,,1
 Chittes,0,0,1,13,0,0,0,,1
@@ -19340,7 +19357,8 @@ Etain en verges,0,0,1,4,0,0,0,,1
 Etain fin en bloc,0,0,1,1,0,0,0,,1
 Etain neuf,0,0,1,7,0,0,0,,1
 Etain non ouvré,0,0,1,1,0,0,0,,1
-Etain ouvré,0,0,1,380,0,0,0,,1
+Etain ouvré,0,0,1,379,0,0,0,,1
+Etain ouvré en plats,0,0,1,1,0,0,0,,1
 Etain oüvré,0,0,1,1,0,0,0,,1
 Etain pour soudure,0,0,1,1,0,0,0,,1
 Etain rouge,0,0,1,1,0,0,0,,1
@@ -21333,7 +21351,8 @@ Fer ; en casse,0,0,1,1,0,0,0,,1
 Fer ; en casserolles,0,0,1,1,0,0,0,,1
 Fer ; en casses,0,0,1,17,0,0,0,,1
 Fer ; en cercle,0,0,1,8,0,0,0,,1
-Fer ; en cercles,0,0,1,217,0,0,0,,1
+Fer ; en cercles,0,0,1,216,0,0,0,,1
+Fer ; en cercles en barres,0,0,1,1,0,0,0,,1
 Fer ; en chaine,0,0,1,3,0,0,0,,1
 Fer ; en chaines,0,0,1,3,0,0,0,,1
 Fer ; en chaises,0,0,1,4,0,0,0,,1
@@ -21387,7 +21406,8 @@ Fer ; en ferrures,0,0,1,5,0,0,0,,1
 Fer ; en feuilLard,0,0,1,3,0,0,0,,1
 Fer ; en feuilLarde,0,0,1,1,0,0,0,,1
 Fer ; en feuillard,0,0,1,9,0,0,0,,1
-Fer ; en feuillards,0,0,1,3,0,0,0,,1
+Fer ; en feuillards,0,0,1,2,0,0,0,,1
+Fer ; en feuillards en barre,0,0,1,1,0,0,0,,1
 Fer ; en feuille,0,0,1,5,0,0,0,,1
 Fer ; en feuilles,0,0,1,41,0,0,0,,1
 Fer ; en feüillards,0,0,1,4,0,0,0,,1
@@ -21829,10 +21849,12 @@ Fer en etock,0,0,1,1,0,0,0,,1
 Fer en etots,0,0,1,1,0,0,0,,1
 Fer en etuves,0,0,1,2,0,0,0,,1
 Fer en fermens,0,0,1,1,0,0,0,,1
-Fer en feuillard,0,0,1,16,0,0,0,,1
+Fer en feuillard,0,0,1,15,0,0,0,,1
+Fer en feuillard en barres,0,0,1,1,0,0,0,,1
 Fer en feuillards,0,0,1,14,0,0,0,,1
 Fer en feuille,0,0,1,1,0,0,0,,1
-Fer en feuilles,0,0,1,37,0,0,0,,1
+Fer en feuilles,0,0,1,36,0,0,0,,1
+Fer en feuilles en barres,0,0,1,1,0,0,0,,1
 Fer en feuïlles pour cercles,0,0,1,1,0,0,0,,1
 Fer en feüillards,0,0,1,7,0,0,0,,1
 Fer en fichu,0,0,1,1,0,0,0,,1
@@ -22044,7 +22066,8 @@ Fer; vieux,0,0,1,2,0,0,0,,1
 Fer;en barres,0,0,1,1,0,0,0,,1
 Fer;en poëles;a frire,0,0,1,2,0,0,0,,1
 Fer;en verges,0,0,1,1,0,0,0,,1
-Fer;plat,0,0,1,2,0,0,0,,1
+Fer;plat,0,0,1,1,0,0,0,,1
+Fer;plat en barres,0,0,1,1,0,0,0,,1
 Fer;quarré,0,0,1,1,0,0,0,,1
 Fer;rond,0,0,1,1,0,0,0,,1
 Feraille,0,0,1,2,0,0,0,,1
@@ -22227,7 +22250,8 @@ Feuillard de fer,0,0,1,4,0,0,0,,1
 Feuillard en bois,0,0,1,1,0,0,0,,1
 Feuillards,0,0,1,103,0,0,1,14,2
 Feuillards ,,,,,,,0,4,
-Feuillards ; de fer,0,0,1,4,0,0,0,,1
+Feuillards ; de fer,0,0,1,3,0,0,0,,1
+Feuillards ; de fer en barres,0,0,1,1,0,0,0,,1
 Feuillards a barriques,0,0,1,1,0,0,0,,1
 Feuillards de Bois ;,0,0,1,1,0,0,0,,1
 Feuillards de bois,0,0,1,5,0,0,0,,1
@@ -23412,8 +23436,9 @@ Fleurs artifficielles,0,0,1,23,0,0,0,,1
 Fleurs artificiele,0,0,1,1,0,0,0,,1
 Fleurs artificieles,0,0,1,8,0,0,0,,1
 Fleurs artificielle,0,0,1,6,0,0,0,,1
-Fleurs artificielles,0,0,1,106,0,0,0,,1
+Fleurs artificielles,0,0,1,104,0,0,0,,1
 Fleurs artificielles des Indes,0,0,1,1,0,0,0,,1
+Fleurs artificielles en bouquets,0,0,1,2,0,0,0,,1
 Fleurs artificielles en jasmin,0,0,1,1,0,0,0,,1
 Fleurs canelle,0,0,1,1,0,0,0,,1
 Fleurs d'aspic,0,0,1,26,0,0,0,,1
@@ -27024,7 +27049,7 @@ Guéridon,0,0,1,1,0,0,0,,1
 Guêtres,0,0,1,1,0,0,0,,1
 Guêtres de cotton,0,0,1,1,0,0,0,,1
 Gélatine,0,0,0,0,1,114,0,,1
-Génisses,0,0,1,2,0,0,0,,1
+Génisses,0,0,1,4,0,0,0,,1
 Génisses et bouvillons,0,0,1,4,0,0,0,,1
 Géroffle,0,0,1,9,0,0,0,,1
 Gérofle,0,0,1,7,0,0,0,,1
@@ -27560,7 +27585,7 @@ Horloge ; reveils,0,0,1,1,0,0,0,,1
 Horloge de sable,0,0,1,1,0,0,0,,1
 Horloge de sables,0,0,1,1,0,0,0,,1
 Horloge de table,0,0,1,1,0,0,0,,1
-Horlogerie,0,0,1,750,0,0,0,,1
+Horlogerie,0,0,1,744,0,0,0,,1
 Horlogerie ; Boetes ; d'argent,0,0,1,1,0,0,0,,1
 Horlogerie ; Carillons au-dessous d'un hectogramme,0,0,1,1,0,0,0,,1
 Horlogerie ; Fournitures,0,0,1,2,0,0,0,,1
@@ -27622,6 +27647,8 @@ Horlogerie Pendule,0,0,1,1,0,0,0,,1
 Horlogerie de bois pendulles,0,0,1,1,0,0,0,,1
 Horlogerie diverse,0,0,1,14,0,0,0,,1
 Horlogerie en bois,0,0,1,1,0,0,0,,1
+Horlogerie en pendules,0,0,1,5,0,0,0,,1
+Horlogerie en pendules de 8 livres,0,0,1,1,0,0,0,,1
 Horlogerie et carillons,0,0,1,4,0,0,0,,1
 Horlogerie pendules,0,0,1,1,0,0,0,,1
 "Horlogerie, principalement en bois",0,0,1,9,0,0,0,,1
@@ -28552,7 +28579,7 @@ Instruments ; de mathematiques,0,0,1,1,0,0,0,,1
 Instruments ; de mathématique,0,0,1,2,0,0,0,,1
 Instruments ; de mathématiques,0,0,1,9,0,0,0,,1
 Instruments ; de mer,0,0,1,2,0,0,0,,1
-Instruments ; de musique,0,0,1,95,0,0,0,,1
+Instruments ; de musique,0,0,1,92,0,0,0,,1
 Instruments ; de musique ; Basses,0,0,1,1,0,0,0,,1
 Instruments ; de musique ; Bassons,0,0,1,1,0,0,0,,1
 Instruments ; de musique ; Luth,0,0,1,2,0,0,0,,1
@@ -28567,6 +28594,8 @@ Instruments ; de musique ; guitares,0,0,1,1,0,0,0,,1
 Instruments ; de musique ; violons,0,0,1,4,0,0,0,,1
 Instruments ; de musique ; épinettes,0,0,1,1,0,0,0,,1
 Instruments ; de musique en harpe,0,0,1,1,0,0,0,,1
+Instruments ; de musique en violons,0,0,1,2,0,0,0,,1
+Instruments ; de musique en épinettes,0,0,1,1,0,0,0,,1
 Instruments ; de navigation,0,0,1,1,0,0,0,,1
 Instruments ; de phisique,0,0,1,4,0,0,0,,1
 Instruments ; de physique,0,0,1,1,0,0,0,,1
@@ -28588,7 +28617,7 @@ Instruments de chirurgie,0,0,1,3,0,0,0,,1
 Instruments de marine,0,0,1,3,0,0,0,,1
 Instruments de mathematiques,0,0,1,1,0,0,0,,1
 Instruments de mathématiques,0,0,1,7,0,0,0,,1
-Instruments de musique,0,0,1,102,0,0,0,,1
+Instruments de musique,0,0,1,99,0,0,0,,1
 Instruments de musique ; ?,0,0,1,1,0,0,0,,1
 "Instruments de musique ; Alto, violes, violons, basses, contrebasses, guitares, lyres",0,0,1,2,0,0,0,,1
 "Instruments de musique ; Alto, violons, bassons, guitares",0,0,1,3,0,0,0,,1
@@ -28631,6 +28660,8 @@ Instruments de musique clavessin,0,0,1,2,0,0,0,,1
 Instruments de musique divers,0,0,1,5,0,0,0,,1
 Instruments de musique en forte piano,0,0,1,1,0,0,0,,1
 Instruments de musique en guitare,0,0,1,4,0,0,0,,1
+Instruments de musique en violons,0,0,1,2,0,0,0,,1
+Instruments de musique en épinettes,0,0,1,1,0,0,0,,1
 Instruments de musique forte piano,0,0,1,1,0,0,0,,1
 Instruments de musique guitare,0,0,1,1,0,0,0,,1
 Instruments de musique harpes,0,0,1,1,0,0,0,,1
@@ -30237,11 +30268,12 @@ Linge de lin,0,0,1,1,0,0,0,,1
 "Linge de lin et de chanvre, de table en pièce ; damassé, admis au droit de 5 p. c/o de la valeur par autorisation",0,0,1,1,0,0,0,,1
 "Linge de lin et de chanvre, de table en pièce ; ouvragé",0,0,1,2,0,0,0,,1
 Linge de lin fin,0,0,1,1,0,0,0,,1
-Linge de table,0,0,1,104,0,0,0,,1
+Linge de table,0,0,1,103,0,0,0,,1
 Linge de table ; napes,0,0,1,5,0,0,0,,1
 Linge de table ; napes ouvrés,0,0,1,4,0,0,0,,1
 Linge de table ; serviettes,0,0,1,9,0,0,0,,1
 Linge de table commune,0,0,1,1,0,0,0,,1
+Linge de table en nappes,0,0,1,1,0,0,0,,1
 Linge de table en serviettes nappes etc,0,0,1,5,0,0,0,,1
 Linge de table ouvré,0,0,1,17,0,0,0,,1
 Linge de table serviettes,0,0,1,1,0,0,0,,1
@@ -30405,9 +30437,25 @@ Lit ; de plume,0,0,1,2,0,0,0,,1
 Lit ; de plumes,0,0,1,2,0,0,0,,1
 Lit ; de sangles,0,0,1,1,0,0,0,,1
 Lit ; garny,0,0,1,1,0,0,0,,1
-Lit complet d'etoffe de satin,0,0,1,9,0,0,0,,1
+Lit complet d'etoffe de satin... Chantourné,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Ciel,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Couvertures,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Dossier,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Grandes pentes,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Petites,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Rideaux,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Tabourets,0,0,1,1,0,0,0,,1
+Lit complet d'etoffe de satin... Toilette,0,0,1,1,0,0,0,,1
 Lit complet de satin brodé,0,0,1,1,0,0,0,,1
-Lit complet de satin brodé...,0,0,1,9,0,0,0,,1
+Lit complet de satin brodé...Chantourné,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Ciel,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Couvertures,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Grandes pentes,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Petites pentes,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Rideaux,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Tabourets,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...Toilette,0,0,1,1,0,0,0,,1
+Lit complet de satin brodé...dossier,0,0,1,1,0,0,0,,1
 Lit de Plumes,0,0,1,1,0,0,0,,1
 Lit de camp,0,0,1,1,0,0,0,,1
 Lit de fil,0,0,1,1,0,0,0,,1
@@ -42058,11 +42106,12 @@ Poterie de grais,0,0,1,2,0,0,0,,1
 Poterie de gray,0,0,1,13,0,0,0,,1
 Poterie de grez,0,0,1,4,0,0,0,,1
 Poterie de grez Barbançons,0,0,1,1,0,0,0,,1
-Poterie de grès,0,0,1,4,0,0,0,,1
+Poterie de grès,0,0,1,3,0,0,0,,1
 Poterie de grès ; barbançons,0,0,1,1,0,0,0,,1
 Poterie de grès ; bouteilles,0,0,1,1,0,0,0,,1
 Poterie de grès ; cruches,0,0,1,1,0,0,0,,1
 Poterie de grès barbançons,0,0,1,2,0,0,0,,1
+Poterie de grès en barbançons,0,0,1,1,0,0,0,,1
 Poterie de grès en cruches,0,0,1,1,0,0,0,,1
 Poterie de gré,0,0,1,4,0,0,0,,1
 Poterie de grés,0,0,1,1,0,0,0,,1
@@ -42075,7 +42124,8 @@ Poterie en Terre,0,0,1,2,0,0,0,,1
 Poterie en cruche de grès,0,0,1,5,0,0,0,,1
 Poterie en cruche de terre,0,0,1,2,0,0,0,,1
 Poterie en jarre,0,0,1,4,0,0,0,,1
-Poterie et terre,0,0,1,3,0,0,0,,1
+Poterie et terre,0,0,1,2,0,0,0,,1
+Poterie et terre en barbançons,0,0,1,1,0,0,0,,1
 Poterie terraille,0,0,1,2,0,0,0,,1
 "Poterie, briques, carreaux et tuiles",0,0,1,7,0,0,0,,1
 "Poterie, faïence et verrerie",0,0,1,42,0,0,0,,1
@@ -42151,7 +42201,7 @@ Pots fer,0,0,1,1,0,0,0,,1
 Pots à rafinerie,0,0,1,1,0,0,0,,1
 Potte en forme à Sucre,0,0,1,1,0,0,0,,1
 Pottererie de gres,0,0,1,1,0,0,0,,1
-Potterie,0,0,1,8,0,0,1,2,2
+Potterie,0,0,1,7,0,0,1,2,2
 Potterie ; a feu,0,0,1,1,0,0,0,,1
 Potterie ; barbançons de grès,0,0,1,1,0,0,0,,1
 Potterie ; de Grez,0,0,1,2,0,0,0,,1
@@ -42177,7 +42227,7 @@ Potterie ; de gron ; diverses,0,0,1,4,0,0,0,,1
 Potterie ; de grès,0,0,1,3,0,0,0,,1
 Potterie ; de livre,0,0,1,4,0,0,0,,1
 Potterie ; de tere,0,0,1,3,0,0,0,,1
-Potterie ; de terre,0,0,1,168,0,0,0,,1
+Potterie ; de terre,0,0,1,167,0,0,0,,1
 Potterie ; de terre ; cruche,0,0,1,1,0,0,0,,1
 Potterie ; de terre ; divers,0,0,1,6,0,0,0,,1
 Potterie ; de terre ; diverse,0,0,1,16,0,0,0,,1
@@ -42186,6 +42236,7 @@ Potterie ; de terre ; façon d'angleterre,0,0,1,1,0,0,0,,1
 Potterie ; de terre ; pots et formes a sucre,0,0,1,1,0,0,0,,1
 Potterie ; de terre ; terraille,0,0,1,28,0,0,0,,1
 Potterie ; de terre ; terrailles,0,0,1,5,0,0,0,,1
+Potterie ; de terre en barbançons,0,0,1,1,0,0,0,,1
 Potterie ; delpes,0,0,1,1,0,0,0,,1
 Potterie ; et farines ; à sucre,0,0,1,1,0,0,0,,1
 Potterie ; et forme à sucre,0,0,1,1,0,0,0,,1
@@ -42208,10 +42259,12 @@ Potterie de gray,0,0,1,13,0,0,0,,1
 Potterie de greez,0,0,1,1,0,0,0,,1
 Potterie de gres,0,0,1,4,0,0,0,,1
 Potterie de gres barbançons,0,0,1,3,0,0,0,,1
-Potterie de grez,0,0,1,32,0,0,0,,1
+Potterie de grez,0,0,1,31,0,0,0,,1
 Potterie de grez barbançons,0,0,1,2,0,0,0,,1
-Potterie de grès,0,0,1,2,0,0,0,,1
+Potterie de grez en barbançons,0,0,1,1,0,0,0,,1
+Potterie de grès,0,0,1,1,0,0,0,,1
 Potterie de grès barbançons,0,0,1,2,0,0,0,,1
+Potterie de grès en barbançons,0,0,1,1,0,0,0,,1
 Potterie de grés,0,0,1,4,0,0,0,,1
 Potterie de gréz,0,0,1,15,0,0,0,,1
 Potterie de gréz diverses,0,0,1,1,0,0,0,,1
@@ -42219,6 +42272,7 @@ Potterie de gréz moques,0,0,1,1,0,0,0,,1
 Potterie de terraille,0,0,1,1,0,0,0,,1
 Potterie de terre,0,0,1,71,0,0,0,,1
 Potterie de terre Barbançons,0,0,1,1,0,0,0,,1
+Potterie en barbançons,0,0,1,1,0,0,0,,1
 Potterie ordinaire,0,0,1,1,0,0,0,,1
 Potterie terraille,0,0,1,18,0,0,0,,1
 Potterie; de grez; barbançons,0,0,1,2,0,0,0,,1
@@ -43972,8 +44026,9 @@ Rouge brun,0,0,1,6,0,0,1,2,2
 Rouge clair,0,0,1,2,0,0,0,,1
 Rouge commun en poudre,0,0,1,1,0,0,0,,1
 Rouge d'Engleterre,0,0,1,1,0,0,0,,1
-Rouge d'Espagne,0,0,1,31,0,0,0,,1
+Rouge d'Espagne,0,0,1,29,0,0,0,,1
 Rouge d'Espagne en pains,0,0,1,1,0,0,0,,1
+Rouge d'Espagne en plats,0,0,1,2,0,0,0,,1
 Rouge d'Espagne en play,0,0,1,1,0,0,0,,1
 Rouge d'Espagne en tasses,0,0,1,6,0,0,0,,1
 Rouge d'angleterre,0,0,1,1,0,0,0,,1
@@ -47893,7 +47948,7 @@ Taupine ; soye et coton,0,0,1,1,0,0,0,,1
 Taupinnes soye et cotton,0,0,1,1,0,0,0,,1
 Tauraus pareille,0,0,1,1,0,0,0,,1
 Taureau,0,0,1,2,0,0,0,,1
-Taureaux,0,0,1,8,0,0,0,,1
+Taureaux,0,0,1,10,0,0,0,,1
 Tavelle,0,0,1,26,0,0,0,,1
 Tavelle (passement),0,0,1,1,0,0,0,,1
 Tavelle ; de laine,0,0,1,1,0,0,0,,1
@@ -49542,7 +49597,7 @@ Toile ; limeneas,0,0,1,1,0,0,0,,1
 Toile ; limon,0,0,1,3,0,0,0,,1
 Toile ; linen,0,0,1,1,0,0,0,,1
 Toile ; linge ; de table,0,0,1,3,0,0,0,,1
-Toile ; linge de table,0,0,1,208,0,0,0,,1
+Toile ; linge de table,0,0,1,207,0,0,0,,1
 Toile ; linge de table ; canapes,0,0,1,4,0,0,0,,1
 Toile ; linge de table ; divers,0,0,1,19,0,0,0,,1
 Toile ; linge de table ; diverses,0,0,1,1,0,0,0,,1
@@ -49556,6 +49611,7 @@ Toile ; linge de table ; vieux,0,0,1,1,0,0,0,,1
 Toile ; linge de table ; à napes,0,0,1,2,0,0,0,,1
 Toile ; linge de table ; à serviettes,0,0,1,7,0,0,0,,1
 Toile ; linge de table damassé,0,0,1,1,0,0,0,,1
+Toile ; linge de table en nappes,0,0,1,1,0,0,0,,1
 Toile ; linge de table napes,0,0,1,1,0,0,0,,1
 Toile ; linge de table serviettes,0,0,1,3,0,0,0,,1
 Toile ; linge table ; divers,0,0,1,9,0,0,0,,1
@@ -50898,11 +50954,12 @@ Toile ouvrée,0,0,1,7,0,0,0,,1
 Toile palmites,0,0,1,1,0,0,0,,1
 Toile pecate,0,0,1,1,0,0,0,,1
 Toile peignée,0,0,1,1,0,0,0,,1
-Toile peinte,0,0,1,306,0,0,0,,1
+Toile peinte,0,0,1,305,0,0,0,,1
 Toile peinte de hollande,0,0,1,1,0,0,0,,1
 Toile peinte des Indes,0,0,1,4,0,0,0,,1
 Toile peinte dite indienne,0,0,1,1,0,0,0,,1
 Toile peinte en camajeux,0,0,1,1,0,0,0,,1
+Toile peinte en tapis,0,0,1,1,0,0,0,,1
 Toile peinte et indienne,0,0,1,1,0,0,0,,1
 Toile peinte indienne,0,0,1,3,0,0,0,,1
 Toile peinte pour paravent,0,0,1,1,0,0,0,,1
@@ -53211,7 +53268,7 @@ Ustensils de pêche,0,0,1,7,0,0,0,,1
 Ustensils pour la pêche,0,0,1,1,0,0,0,,1
 Ustiles de pêches,0,0,0,0,0,0,1,1,1
 Vache,0,0,1,7,0,0,0,,1
-Vaches,0,0,1,275,0,0,1,6,2
+Vaches,0,0,1,271,0,0,1,6,2
 "Vaches , génisses et taureaux",0,0,1,11,0,0,0,,1
 "Vaches , taureaux et genisses",0,0,1,4,0,0,0,,1
 Vaches ; en vie,0,0,1,9,0,0,0,,1
