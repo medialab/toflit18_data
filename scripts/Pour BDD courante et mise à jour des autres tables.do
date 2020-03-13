@@ -747,15 +747,15 @@ rename metric quantity_unit_metric
 save "$dir/Données Stata/bdd courante_temp.dta", replace
 keep if needs_more_details=="1"
 
-keep exportsimports country_grouping direction product_simplification quantity_unit_simplification
-bys exportsimports country_grouping direction product_simplification quantity_unit_simplification: keep if _n==1
+keep exportsimports country_grouping direction product_simplification product_revolutionempire quantity_unit_simplification
+bys exportsimports country_grouping direction product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
 rename quantity_unit_simplification simplification
-merge 1:1 exportsimports country_grouping direction product_simplification simplification ///
+merge 1:1 exportsimports country_grouping direction product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
 	
  drop _merge
- sort simplification product_simplification exportsimports direction country_grouping
- order simplification product_simplification exportsimports direction country_grouping
+ sort simplification product_simplification product_revolutionempire exportsimports direction country_grouping
+ order simplification product_simplification product_revolutionempire exportsimports direction country_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
@@ -764,7 +764,7 @@ merge 1:1 exportsimports country_grouping direction product_simplification simpl
  
  rename quantity_unit_simplification simplification 
  
- merge m:1 exportsimports country_grouping direction product_simplification  simplification ///
+ merge m:1 exportsimports country_grouping direction product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
  
  drop if _merge==2
@@ -773,10 +773,8 @@ merge 1:1 exportsimports country_grouping direction product_simplification simpl
  
  generate quantities_metric = quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=prix_unitaire/conv_orthographic_to_simplificat*conv_simplification_to_metric if unit_price_metric==.
- 
- 
- 
+ replace  unit_price_metric=prix_unitaire/conv_orthographic_to_simplificat*conv_simplification_to_metric if unit_price_metric==. 
+
  
  *************Pour les best guess
  gen NationalBestGuess=0
