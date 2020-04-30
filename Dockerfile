@@ -4,3 +4,4 @@ RUN rm -fr /data/databases/* \
     && mkdir -p /data/databases/graph.db/
 
 ADD ./neo4j_database/graph.db /data/databases/graph.db/
+RUN chown -R neo4j:neo4j /data/databases/graph.db/
