@@ -7,30 +7,29 @@
   "keywords": ["history", "economy", "France", "Trade","18th century"],
   "licenses": [{
     "url": "http://opendatacommons.org/licenses/odbl/",
-    "name": "Attribution and Share-Alike for Data/Databases",
+    "title": "Attribution and Share-Alike for Data/Databases",
     "version": "1.0",
-    "id": "odc-odbl"
+    "name": "odc-odbl"
   }],
   "sources": [{
-    "name": "The archives of French eighteenth century trade",
+    "title": "The archives of French eighteenth century trade",
     "web": "http://toflit18.medialab.sciences-po.fr/#/exploration/sources"
   }],
   "contributors":[ {
-    "name": "Paul Girard",
+    "title": "Paul Girard",
     "email": "paul.girard@sciencespo.fr",
     "web": "http://medialab.sciences-po.fr",
     "role": "author"
   },
    {
-    "name": "Guillaume Daudin",
-    "email": "guillaume.daudin@dauphine.psl.eu ",
+    "title": "Guillaume Daudin",
+    "email": "guillaume.daudin@dauphine.psl.eu",
     "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html",
     "role": "author"
   },
   {
-    "name": "Guillaume Daudin",
-    "email": "guillaume.daudin@dauphine.psl.eu ",
-    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html",
+    "title": "Loïc Charles",
+    "email": "loic.charles@dinde.fr",
     "role": "author"
   }
   ],
@@ -48,6 +47,7 @@
   "resources": [
     {
       "name": "classifications_index",
+      "path": "base/classifications_index.csv",
       "description": "This table list the classifications available to agregate country and product. It describes the hierarchy of classification which one beeing based on another one. The index does not contain the classification data which are in dedicated files whose name are standardized as base/classification_{model}_{slug}.csv. Those files are not in the datapackage because their structure moves with scientists usage...",
       "fields": [
         {
