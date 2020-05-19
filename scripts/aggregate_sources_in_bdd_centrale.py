@@ -3,6 +3,7 @@
 import os
 import re
 from csv import DictReader, DictWriter
+import datapackage
 
 DOUBLE_QUOTES = r'[«»„‟“”"]'
 SIMPLE_QUOTES = r"[’‘`‛']"
@@ -90,8 +91,8 @@ def add_calculated_fields_to_line(d):
 
 def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     output_filename="../base/bdd_centrale.csv"
-    directory="../sources"
-    black_list=["Divers/AN/F_12_1835", "Out"]
+    directory="./sources"
+    black_list=[]#["Divers/AN/F_12_1835", "Out"]
 
     sources_aggregation=[]
     ordered_headers=["numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks","unverified"]

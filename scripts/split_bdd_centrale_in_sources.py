@@ -9,7 +9,7 @@ from unidecode import unidecode
 import collections
 
 class PackageTranslator:
-    DATA_DIR = 'new_sources'
+    DATA_DIR = 'sources'
     variables_translations_to_datapackage = {
         "numrodeligne": "line_number",
         "dataentryby": "data_collector",
@@ -38,6 +38,7 @@ class PackageTranslator:
         "doubleaccounts_droitsdedouane": "duty_part_of_bundle",
         "quantité pour les droits": "duty_quantity",
         "doubleaccounts": "value_part_of_bundle",
+        "doubleaccount": "value_part_of_bundle",
         "remarks pour les droits": "duty_remarks",
         "Droits unitaires": "duty_by_unit",
         "Largeur en lignes (pour tissu)": "width_in_line",
@@ -244,7 +245,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
         ("encoding","UTF8"),
         ("profile","tabular-data-resource"), 
         ("schema","csv_sources_schema.json"),
-        ("sources",["French Bureau de la balance du commerce statistics see http://toflit18.medialab.sciences-po.fr/#/exploration/sources for more details"]),
+        ("sources",[{"title":"French Bureau de la balance du commerce statistics see http://toflit18.medialab.sciences-po.fr/#/exploration/sources for more details"}]),
         ("path",datapackage_resource_path),
     ])
 
