@@ -21,7 +21,6 @@ build_bdd_centrale:
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
   only:
-    - master
     - staging
     - prod
 
@@ -37,7 +36,6 @@ neo4j_CSV:
     - mkdir -p neo4j_import
     - npm --prefix /toflit18 run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
   only:
-    - master
     - staging
     - prod
 
@@ -48,13 +46,12 @@ neo4j_database:
     expire_in: "1 day"
   dependencies:
     - neo4j_CSV
-  image: neo4j:3.1.4
+  image: neo4j:3.1.4 
   script:
     - mkdir -p neo4j_database
     - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
     - mv /var/lib/neo4j/data/databases/graph.db $CI_PROJECT_DIR/neo4j_database/
   only:
-    - master
     - staging
     - prod
 
@@ -77,7 +74,6 @@ build_docker_image:
     - docker logs neo4j
     - docker rm neo4j
   only:
-    - master
     - staging
     - prod
 
@@ -107,7 +103,7 @@ restart_api:
     - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
   only:
     - staging
-    - production
+    - production 
   environment:
     name: $CI_COMMIT_REF_SLUG
     url: $BASEURL
