@@ -1,7 +1,5 @@
 FROM neo4j:3.5.16
 
-RUN rm -fr /data/databases/* \
-    && mkdir -p /data/databases/graph.db/
+RUN rm -fr /data/databases/*
 
-ADD ./neo4j_database/graph.db /data/databases/graph.db/
-RUN chown -R neo4j:neo4j /data/databases/graph.db/
+COPY --chown=neo4j:neo4j ./neo4j_database/graph.db /data/databases/graph.db/
