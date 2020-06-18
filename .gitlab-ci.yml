@@ -11,7 +11,12 @@ stages:
 variables:
   GIT_DEPTH: "1"
   DOCKER_IMAGE_NAME: "$CI_REGISTRY_IMAGE/neo4j_toflit18:$CI_COMMIT_REF_SLUG"
+  DOCKER_HOST: tcp://127.0.0.1:2375
+  DOCKER_TLS_CERTDIR: ""
 
+services:
+    - docker:stable-dind
+    
 build_bdd_centrale:
   stage: build_bdd_centrale
   artifacts:
@@ -46,7 +51,7 @@ neo4j_database:
     expire_in: "1 day"
   dependencies:
     - neo4j_CSV
-  image: neo4j:3.1.4 
+  image: neo4j:3.1.4
   script:
     - mkdir -p neo4j_database
     - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
@@ -103,7 +108,7 @@ restart_api:
     - docker run --rm -t -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY jrisp/rancher-cli rancher --env $RANCHER_ENV restart $RANCHER_STACK/$RANCHER_API_SERVICE
   only:
     - staging
-    - production 
+    - production
   environment:
     name: $CI_COMMIT_REF_SLUG
     url: $BASEURL
