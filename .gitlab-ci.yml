@@ -103,4 +103,4 @@ deploy:
     name: $CI_COMMIT_REF_SLUG
   only:
    - staging
-   - production
+   - prod
