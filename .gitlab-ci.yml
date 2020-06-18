@@ -5,8 +5,7 @@ stages:
   - build_neo4j_CSV
   - build_neo4j_database
   - build_docker_image
-  - deploy_neo4j_image
-  - restart_api
+  - deploy
 
 variables:
   GIT_DEPTH: "1"
@@ -84,3 +83,24 @@ build_docker_image:
     - dev
     - staging
     - prod
+
+
+deploy:
+  image:
+    name: jrisp/kubehelper:latest
+    entrypoint: [""]
+  stage: deploy
+  dependencies:
+    - build_docker_image
+  script:
+    - kubectl config set-cluster k8s --server="$KUBE_URL" --certificate-authority="$KUBE_CA_PEM_FILE"
+    - kubectl config set-credentials gitlab-admin --token="$KUBE_TOKEN"
+    - kubectl config set-context default --cluster=k8s --user=gitlab-admin
+    - kubectl config use-context default
+    - kubectl -n toflit18 rollout restart deployment toflit18-db
+    - kubectl -n toflit18 rollout restart deployment toflit18-api
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+  only:
+   - staging
+   - prod
