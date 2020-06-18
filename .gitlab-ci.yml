@@ -64,8 +64,6 @@ neo4j_database:
     - prod
 
 build_docker_image:
-  services:
-    - name: docker:dind
   stage: build_docker_image
   dependencies:
     - neo4j_database
