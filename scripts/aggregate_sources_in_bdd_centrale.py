@@ -91,7 +91,7 @@ def add_calculated_fields_to_line(d):
 
 def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     output_filename="../base/bdd_centrale.csv"
-    directory="./sources"
+    directory="../sources"
     black_list=[]#["Divers/AN/F_12_1835", "Out"]
 
     sources_aggregation=[]
