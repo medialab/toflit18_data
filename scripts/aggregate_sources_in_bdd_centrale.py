@@ -142,7 +142,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                 # if not filepath.decode('utf-8').endswith(line['sourcepath']):
                                 #     print 'WARNING: incorrect sourcepath!'
                                 #     raise Exception('incorrect sourcepath')
-                                if (line['sourcetype'] != "" or line['sourcepath'] != "") and line['sourcetype'] !="Out":
+                                if (line['sourcetype'] != "" or line['sourcepath'] != "")  : # and line['sourcetype'] !="Out"
                                     if with_calculated_values:
                                         add_calculated_fields_to_line(line)
                                     writer.writerow(line)
