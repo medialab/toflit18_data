@@ -500,7 +500,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_partner_africa.csv"
 
 *************Marchandises
 
-
+****************Orthographique de la base française
 use "classification_product_orthographic.dta", replace
 
 bys source : drop if _n!=1
@@ -514,13 +514,13 @@ merge m:1 source using "classification_product_orthographic.dta"
 capture drop nbr_occurences_source
 capture drop nbr_occurences_ortho
 bys source : gen nbr_occurences_source=_N
+if _merge==2 replace nbr_occurences_source=0
 bys orthographic : gen nbr_occurences_ortho=_N
-
 
 drop _merge
 
-keep source orthographic note nbr_occurences_source  nbr_occurences_ortho
-order source nbr_occurences_source orthographic nbr_occurences_ortho
+keep source orthographic note nbr_occurences_source  nbr_occurences_ortho 
+order source nbr_occurences_source orthographic nbr_occurences_ortho 
 
 bys source : keep if _n==1
 save "classification_product_orthographic.dta", replace
@@ -529,7 +529,98 @@ sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
 
-**
+*******************Sourcé
+*****************************Pour marchandises_sourcees.csv (et product orthographic)
+
+
+
+use "$dir/Données Stata/classification_product_orthographic.dta", replace
+rename source marchandises
+keep marchandises orthographic note
+
+merge 1:m marchandises using "$dir/Données Stata/bdd_centrale.dta"
+generate sourceFR=0
+generate sourceFR_nbr=0
+bys marchandises : replace sourceFR_nbr=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceFR=1 if _merge==3
+keep marchandises orthographic sourceFR sourceFR_nbr
+
+
+
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
+generate sourceBEL=0
+generate sourceBEL_nbr1=0
+bys marchandises : replace sourceBEL_nbr1=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceBEL=1 if _merge==3
+keep marchandises  orthographic sourceFR sourceFR_nbr sourceBEL sourceBEL_nbr1
+
+merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_1774.dta"
+generate sourceBEL_nbr2=0
+bys marchandises : replace sourceBEL_nbr2=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceBEL=1 if _merge==3
+generate sourceBEL_nbr=sourceBEL_nbr1+sourceBEL_nbr2
+keep marchandises orthographic sourceFR sourceFR_nbr sourceBEL  sourceBEL_nbr
+
+merge 1:m marchandises using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
+generate sourceSUND=0
+generate sourceSUND_nbr=0
+bys marchandises : replace sourceSUND_nbr=_N if _merge==3
+bys marchandises : keep if _n==1
+replace sourceSUND=1 if _merge==3
+keep marchandises orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr
+
+merge 1:m marchandises using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
+drop if marchandises=="(empty)" & _merge !=2
+bys marchandises : keep if _n==1
+generate sourceNAVIGO=0
+generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
+replace sourceNAVIGO=1 if _merge==3 | _merge==2
+
+keep marchandises orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr
+
+foreach i of varlist sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr {
+	replace    `i'=0 if `i'==.
+}
+
+
+sort marchandises
+gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
+gen nbr_occurence_ttesources = sourceBEL_nbr + sourceSUND_nbr + sourceNAVIGO_nbr + sourceFR_nbr
+
+save "$dir/Données Stata/marchandises_sourcees.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replace
+
+****************************Orthographique y compris toutes les bases
+
+use "$dir/Données Stata/classification_product_orthographic.dta", clear
+rename source marchandises
+merge 1:1 marchandises using "$dir/Données Stata/marchandises_sourcees.dta"
+
+generate obsolete = "non"
+if nbr_source == 0 replace obsolete="oui"
+rename marchandises source
+rename sourceFR_nbr nb_occurence_BdCFR
+drop nbr_occurences_source
+rename nbr_occurence_ttesources nbr_occurences_source
+drop nbr_occurences_ortho
+bys orthographic : egen nbr_occurences_ortho=total(nbr_occurences_source)
+keep source	nbr_occurences_source orthographic nbr_occurences_ortho nb_occurence_BdCFR obsolete note
+order source nb_occurence_BdCFR nbr_occurences_source
+replace obsolete = "oui" if nbr_occurences_source==0
+drop if obsolete=="oui" & orthographic==""
+sort source
+generate sortkey = ustrsortkey(source, "fr")
+sort sortkey
+drop sortkey
+save "$dir/Données Stata/classification_product_orthographic.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
+
+
+
+***************************************Simplification
 use "classification_product_simplification.dta", replace
 bys orthographic : drop if _n!=1
 save "classification_product_simplification.dta", replace
@@ -832,61 +923,6 @@ sort marchandises pays
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Pour comparaison Bordeaux 1750.csv", replace
 */
-
-*****************************Pour marchandises_sourcees.csv
-
-
-
-use "$dir/Données Stata/classification_product_orthographic.dta", replace
-rename source marchandises
-keep marchandises
-merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
-generate sourceBEL=0
-generate sourceBEL_nbr1=0
-bys marchandises : replace sourceBEL_nbr1=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceBEL=1 if _merge==3
-keep marchandises sourceBEL sourceBEL_nbr1
-
-merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_1774.dta"
-generate sourceBEL_nbr2=0
-bys marchandises : replace sourceBEL_nbr2=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceBEL=1 if _merge==3
-generate sourceBEL_nbr=sourceBEL_nbr1+sourceBEL_nbr2
-keep marchandises sourceBEL  sourceBEL_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/bdd_centrale.dta"
-generate sourceFR=0
-generate sourceFR_nbr=0
-bys marchandises : replace sourceFR_nbr=_N if _merge==3
-bys marchandises : keep if _n==1
-
-replace sourceFR=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceBEL_nbr sourceFR_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
-generate sourceSUND=0
-generate sourceSUND_nbr=0
-bys marchandises : replace sourceSUND_nbr=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceSUND=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
-bys marchandises : keep if _n==1
-generate sourceNAVIGO=0
-generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
-replace sourceNAVIGO=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr
-
-sort marchandises
-gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
-
-drop if nbr_source==0
-
-save "$dir/Données Stata/marchandises_sourcees", replace
-export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replace
 
 
 
