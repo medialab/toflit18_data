@@ -241,7 +241,7 @@ foreach variable of var source orthographic  {
 drop _merge
 bys source : keep if _n==1
 save "classification_quantityunit_orthographic.dta", replace
-generate sortkey = ustrsortkey(source, "fr")
+generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthographic.csv", replace
@@ -274,7 +274,7 @@ order orthographic source_bdc nbr_occurences_orthographic simplification nbr_occ
 	
 	
 save "classification_quantityunit_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic, "fr")
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_simplification.csv", replace
@@ -304,7 +304,7 @@ order simplification  nbr_occurences_simplification metric  ///
 	
 	
 save "classification_quantityunit_metric1.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric1.csv", replace
@@ -350,7 +350,7 @@ keep direction direction_simpl
 bys direction : gen nbr_occurence=_N
 bys direction : keep if _n==1
 save "bdd_directions.dta", replace
-generate sortkey = ustrsortkey(direction, "fr")
+generate sortkey = ustrsortkeyex(direction,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/bdd_directions.csv", replace
@@ -362,7 +362,7 @@ keep origine origine_norm_ortho
 bys origine : gen nbr_occurence=_N
 bys origine : keep if _n==1
 save "bdd_origine.dta", replace
-generate sortkey = ustrsortkey(origine, "fr")
+generate sortkey = ustrsortkeyex(origine,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/bdd_origine.csv", replace
@@ -388,7 +388,7 @@ bys source : keep if _n==1
 keep source orthographic note nbr_occurences_source nbr_occurences_ortho
 order source s nbr_occurences_source orthographic nbr_occurences_ortho note
 save "classification_partner_orthographic.dta", replace
-generate sortkey = ustrsortkey(source, "fr")
+generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_orthographic.csv", replace
@@ -411,7 +411,7 @@ bys orthographic : keep if _n==1
 keep orthographic simplification nbr_occurences_ortho nbr_occurences_simpl note
 
 save "classification_partner_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic, "fr")
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_simplification.csv", replace
@@ -431,7 +431,7 @@ bys grouping : egen nbr_occurences_grouping=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification grouping nbr_occurences_simpl nbr_occurences_grouping note
 save "classification_partner_grouping.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_grouping.csv", replace
@@ -450,7 +450,7 @@ bys obrien : egen nbr_occurences_obrien=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification obrien nbr_occurences_simpl nbr_occurences_obrien note
 save "classification_partner_obrien.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_obrien.csv", replace
@@ -470,7 +470,7 @@ bys wars : egen nbr_occurences_wars=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification wars nbr_occurences_simpl nbr_occurences_wars note
 save "classification_partner_wars.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_wars.csv", replace
@@ -489,7 +489,7 @@ bys sourcename : egen nbr_occurences_sourcename=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification sourcename nbr_occurences_simpl nbr_occurences_sourcename note
 save "classification_partner_sourcename.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_sourcename.csv", replace
@@ -509,7 +509,7 @@ bys africa : egen nbr_occurences_africa=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification africa nbr_occurences_simpl nbr_occurences_africa note
 save "classification_partner_africa.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_partner_africa.csv", replace
@@ -543,7 +543,7 @@ order source nbr_occurences_source orthographic nbr_occurences_ortho
 
 bys source : keep if _n==1
 save "classification_product_orthographic.dta", replace
-generate sortkey = ustrsortkey(source, "fr")
+generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
@@ -609,6 +609,10 @@ sort marchandises
 gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
 gen nbr_occurence_ttesources = sourceBEL_nbr + sourceSUND_nbr + sourceNAVIGO_nbr + sourceFR_nbr
 
+
+generate sortkey =  ustrsortkeyex(marchandises, "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey
 save "$dir/Données Stata/marchandises_sourcees.dta", replace
 export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replace
 
@@ -631,7 +635,7 @@ order source nb_occurence_BdCFR nbr_occurences_source
 replace obsolete = "oui" if nbr_occurences_source==0
 drop if obsolete=="oui" & orthographic==""
 sort source
-generate sortkey = ustrsortkey(source, "fr")
+generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "$dir/Données Stata/classification_product_orthographic.dta", replace
@@ -658,7 +662,7 @@ bys orthographic : keep if _n==1
 
 
 save "classification_product_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic, "fr")
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_product_simplification.csv", replace
@@ -690,7 +694,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 	capture bys simplification : keep if _n==1
 
 	
-	capture generate sortkey = ustrsortkey(simplification, "fr")
+	capture generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 	sort sortkey
 	drop sortkey
 	
