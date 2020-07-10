@@ -1,8 +1,23 @@
-import delimited "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.csv", varnames(1) encoding(UTF-8) 
-save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.dta", replace
-global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
+
+
+
+
+
+if "`c(username)'" =="federico.donofrio" {
+	import delimited "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.csv", varnames(1) encoding(UTF-8) 
+	**GD20200710 Déjà, cela c’est assez suspect. Il faut exploiter le .zip qui est intégré dans le git, plutôt ? Tu peux unzipper depuis stata
+	*avec la commande unzipfile
+	save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.dta", replace
+	global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
+}
+
+if "`c(username)'" =="guillaumedaudin" {
+	global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+}
+
+
 clear
-cd "$dir"
+cd `"$dir"'
 capture log using "`c(current_time)' `c(current_date)'"
 use "Données Stata/bdd courante.dta", clear
 
@@ -39,15 +54,18 @@ encode product_grains, generate(grains_num)
 drop if product_grains=="."
 drop if grains_num==.
 drop if sourcetype=="1792-first semester"
+
 *FOR SOME REASONS THIS DOES NOT WORK
 *drop if  year==1787.2
 drop if year>1787 & year<1788
-
 *drop if yearstr=="10 mars-31 décembre 1787" 
 *GUILLAUME WHY?
+**GD20200710 Je ne sais pas. C’est bizarre...
+
 *drop colonies
 drop if sourcetype=="Local"  & year==1787
 drop if sourcetype=="Local"  & year==1788
+
 *Unify Resumé and O.G.
 **drop Resumé 1788
 drop if sourcetype=="Résumé"  & year==1788
@@ -58,6 +76,7 @@ gen natlocal=direction
 replace natlocal="National" if sourcetype=="1792-both semester" | sourcetype=="Résumé" | sourcetype=="Tableau des quantités" | sourcetype=="Objet Général"
 drop if natlocal=="[vide]"
 *ID LOVE GUILLAUME TO VERIFY THIS: adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+**GD20200710 Je ne sais pas. Que veux-tu ? Ne veux-tu pas garder que lorsque tu as tout le commerce d’une direction ? Pourquoi garder National toutes directions partenaires manquants ??
 sort year importexport natlocal value_inclusive grains_num country_grouping sourcetype  
 quietly by year importexport natlocal value_inclusive grains_num country_grouping  :  gen dup = cond(_N==1,0,_n)
 drop if sourcetype!="Local" & dup!=0 
