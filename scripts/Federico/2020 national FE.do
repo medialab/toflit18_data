@@ -114,6 +114,7 @@ replace flag_partenaires_manquants =1 if sourcetype=="National toutes directions
 bys year country_grouping natlocal : egen out_fillin=min(_fillin)
 bys year country_grouping natlocal : egen out_partenaires_manquants=max(flag_partenaires_manquants)
 drop if out_fillin==1 & out_partenaires_manquants ==1 
+**Je suis surpris que cela ne conduisent pas à éliminer des flux ??
 
 ** et finalement
 replace value_inclusive=0 if value_inclusive==.
