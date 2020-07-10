@@ -66,7 +66,7 @@ encode natlocal, generate(geography) label(natlocal)
 
 drop if year==.
 drop if geography==.
-drop if geography!=19
+drop if geography!=21
 drop geography
 ***SOURCETYPE
 
@@ -76,21 +76,14 @@ encode sourcetype, generate(sourcetype_encode) label(sourcetype)
 keep if grains_num==2
 ***convert measures
 gen unifiedmeasure=quantit
-replace unifiedmeasure=quantit*240 if quantity_unit_orthographic=="charges" & prix_unitaire<28
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charges" & prix_unitaire>27
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charge de 300 livres"
-replace unifiedmeasure=quantit*100 if quantity_unit_orthographic=="quintal"
-replace unifiedmeasure=quantit*90 if quantity_unit_orthographic=="setiers"
-replace unifiedmeasure=quantit*60 if quantity_unit_orthographic=="mines"
+replace unifiedmeasure=quantit*2400 if quantity_unit_orthographic=="tonneaux" 
+replace unifiedmeasure=quantit*32.5 if quantity_unit_orthographic=="boisseau"
+* The ratio tonneaux/sacs is not stable, but we can deduce from here that it is 117 livres (it does not fit well with our data, but the q is relatively small): https://www.persee.fr/doc/pharm_0035-2349_1972_num_60_212_7117
+replace unifiedmeasure=quantit*117 if quantity_unit_orthographic=="sacs"
+replace unifiedmeasure=quantit*240 if quantity_unit_orthographic=="setiers"
 
-***convert measures without hypothesis
-gen unifiedmeasure2=quantit
-replace unifiedmeasure2=quantit*240 if quantity_unit_orthographic=="charges"
-replace unifiedmeasure2=quantit*300 if quantity_unit_orthographic=="charge de 300 livres"
-replace unifiedmeasure2=quantit*100 if quantity_unit_orthographic=="quintal"
-replace unifiedmeasure2=quantit*90 if quantity_unit_orthographic=="setiers"
-replace unifiedmeasure2=quantit*60 if quantity_unit_orthographic=="mines"
-keep if quantity_unit_orthographic=="charges" | quantity_unit_orthographic=="charge de 300 livres" | quantity_unit_orthographic=="livres"| quantity_unit_orthographic=="quintal" | quantity_unit_orthographic=="mines"| quantity_unit_orthographic=="setiers"
+
+
 
 ***collapse by year
 collapse (sum) unifiedmeasure unifiedmeasure2, by (year importexport)
@@ -111,4 +104,4 @@ rename q_charges21 export
 
 * graph for import
 
-twoway (line import year , yaxis(1) ) (line import_corrected year , yaxis(1) )
+twoway (line unifiedmeasure year if  importexport==0, yaxis(1) ) (line unifiedmeasure2 year if  & importexport==0, yaxis(1) )

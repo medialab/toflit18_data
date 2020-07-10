@@ -107,6 +107,12 @@ xi i.year i.geography
 predict ln_export_predict
 generate export_predict=exp(ln_export_predict)
 
+drop if geography!=23
+drop _fillin _Iyear_2 _Iyear_3 _Iyear_4 _Iyear_5 _Iyear_6 _Iyear_7 _Iyear_8 _Iyear_9 _Iyear_10 _Iyear_11 _Iyear_12 _Iyear_13 _Iyear_14 _Iyear_15 _Iyear_16 _Iyear_17 _Iyear_18 _Iyear_19 _Iyear_20 _Iyear_21 _Iyear_22 _Iyear_23 _Iyear_24 _Iyear_25 _Iyear_26 _Iyear_27 _Iyear_28 _Iyear_29 _Iyear_30 _Iyear_31 _Iyear_32 _Iyear_33 _Iyear_34 _Iyear_35 _Iyear_36 _Iyear_37 _Iyear_38 _Iyear_39 _Iyear_40 _Iyear_41 _Iyear_42 _Iyear_43 _Iyear_44 _Iyear_45 _Iyear_46 _Iyear_47 _Iyear_48 _Iyear_49 _Iyear_50 _Iyear_51 _Iyear_52 _Iyear_53 _Iyear_54 _Iyear_55 _Iyear_56 _Iyear_57 _Iyear_58 _Iyear_59 _Iyear_60 _Iyear_61 _Iyear_62 _Iyear_63 _Iyear_64 _Iyear_65 _Iyear_66 _Iyear_67 _Iyear_68 _Iyear_69 _Iyear_70 _Iyear_71 _Iyear_72 _Iyear_73 _Iyear_74 _Iyear_75 _Iyear_76 _Iyear_77 _Iyear_78 _Iyear_79 _Iyear_80 _Iyear_81 _Iyear_82 _Iyear_83 _Iyear_84 _Iyear_85 _Iyear_86 _Iyear_87 _Iyear_88 _Iyear_89 _Iyear_90 _Iyear_91 _Iyear_92 _Iyear_93 _Iyear_94 _Iyear_95 _Igeography_2 _Igeography_3 _Igeography_4 _Igeography_5 _Igeography_6 _Igeography_7 _Igeography_8 _Igeography_9 _Igeography_10 _Igeography_11 _Igeography_12 _Igeography_13 _Igeography_14 _Igeography_15 _Igeography_16 _Igeography_17 _Igeography_18 _Igeography_19 _Igeography_20 _Igeography_21 _Igeography_22 _Igeography_23 _Igeography_24 _Igeography_25 _Igeography_26 _Igeography_27 _Igeography_28 _Igeography_29 _Igeography_30
+
+drop geography
+gen NX=export_predict-import_predict
+
 * graph for geography == national
 
 twoway (line import_predict year if geography==23, yaxis(1) ) (line export_predict year if geography==23, yaxis(2))

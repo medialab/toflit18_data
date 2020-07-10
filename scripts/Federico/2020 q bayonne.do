@@ -19,15 +19,7 @@ drop if value_inclusive==0
 
 
 
-***Regions
-generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+
 
 *** isolate grains
 drop if product_grains=="Pas grain (0)"
@@ -66,7 +58,7 @@ encode natlocal, generate(geography) label(natlocal)
 
 drop if year==.
 drop if geography==.
-drop if geography!=19
+drop if geography!=3
 drop geography
 ***SOURCETYPE
 
@@ -75,22 +67,19 @@ encode sourcetype, generate(sourcetype_encode) label(sourcetype)
 ***only wheat
 keep if grains_num==2
 ***convert measures
-gen unifiedmeasure=quantit
-replace unifiedmeasure=quantit*240 if quantity_unit_orthographic=="charges" & prix_unitaire<28
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charges" & prix_unitaire>27
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charge de 300 livres"
-replace unifiedmeasure=quantit*100 if quantity_unit_orthographic=="quintal"
-replace unifiedmeasure=quantit*90 if quantity_unit_orthographic=="setiers"
-replace unifiedmeasure=quantit*60 if quantity_unit_orthographic=="mines"
+gen unifiedmeasure=quantit 
+*a conque is steadily equal to 2 mesures
+replace unifiedmeasure=quantit*120 if quantity_unit_orthographic=="mesures"
+* The ratio or prices conque/livres is not stable, it obscillates around 70:1, but Savary claims there are 60 livres in a conques de Bayonne
+replace unifiedmeasure=quantit*60 if quantity_unit_orthographic=="conques"
+replace unifiedmeasure=quantit*100 if quantity_unit_orthographic=="quintaux"
 
 ***convert measures without hypothesis
 gen unifiedmeasure2=quantit
-replace unifiedmeasure2=quantit*240 if quantity_unit_orthographic=="charges"
-replace unifiedmeasure2=quantit*300 if quantity_unit_orthographic=="charge de 300 livres"
-replace unifiedmeasure2=quantit*100 if quantity_unit_orthographic=="quintal"
-replace unifiedmeasure2=quantit*90 if quantity_unit_orthographic=="setiers"
-replace unifiedmeasure2=quantit*60 if quantity_unit_orthographic=="mines"
-keep if quantity_unit_orthographic=="charges" | quantity_unit_orthographic=="charge de 300 livres" | quantity_unit_orthographic=="livres"| quantity_unit_orthographic=="quintal" | quantity_unit_orthographic=="mines"| quantity_unit_orthographic=="setiers"
+replace unifiedmeasure2=quantit*140 if quantity_unit_orthographic=="mesures"
+* The ratio or prices conque/livres is not stable, it obscillates around 70:1, but Savary claims there are 60 livres in a conques de Bayonne
+replace unifiedmeasure2=quantit*70 if quantity_unit_orthographic=="conques"
+replace unifiedmeasure2=quantit*100 if quantity_unit_orthographic=="quintaux"
 
 ***collapse by year
 collapse (sum) unifiedmeasure unifiedmeasure2, by (year importexport)
@@ -109,6 +98,11 @@ rename q_charges11 export_corrected
 rename q_charges20 import
 rename q_charges21 export
 
-* graph for import
+
+
+
+* graphs for import and export
 
 twoway (line import year , yaxis(1) ) (line import_corrected year , yaxis(1) )
+
+twoway (line export year , yaxis(1) ) (line export_corrected year , yaxis(1) )

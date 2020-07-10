@@ -72,16 +72,9 @@ drop geography
 
 encode sourcetype, generate(sourcetype_encode) label(sourcetype)
 
-***only wheat
-keep if grains_num==2
-***convert measures
-gen unifiedmeasure=quantit
-replace unifiedmeasure=quantit*240 if quantity_unit_orthographic=="charges" & prix_unitaire<28
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charges" & prix_unitaire>27
-replace unifiedmeasure=quantit*300 if quantity_unit_orthographic=="charge de 300 livres"
-replace unifiedmeasure=quantit*100 if quantity_unit_orthographic=="quintal"
-replace unifiedmeasure=quantit*90 if quantity_unit_orthographic=="setiers"
-replace unifiedmeasure=quantit*60 if quantity_unit_orthographic=="mines"
+***only other cereals
+keep if grains_num==1 | grains_num==4
+
 
 ***convert measures without hypothesis
 gen unifiedmeasure2=quantit
@@ -93,19 +86,18 @@ replace unifiedmeasure2=quantit*60 if quantity_unit_orthographic=="mines"
 keep if quantity_unit_orthographic=="charges" | quantity_unit_orthographic=="charge de 300 livres" | quantity_unit_orthographic=="livres"| quantity_unit_orthographic=="quintal" | quantity_unit_orthographic=="mines"| quantity_unit_orthographic=="setiers"
 
 ***collapse by year
-collapse (sum) unifiedmeasure unifiedmeasure2, by (year importexport)
+collapse (sum) unifiedmeasure2, by (year importexport)
 
 ***transform into charges Romano
-gen q_charges1=unifiedmeasure/240
+
 gen q_charges2=unifiedmeasure2/240
 
 *** tsset
-drop unifiedmeasure
+
 drop unifiedmeasure2
-reshape wide q_charges1 q_charges2 , i(year) j(importexport)
+reshape wide q_charges2 , i(year) j(importexport)
 tsset year
-rename q_charges10 import_corrected
-rename q_charges11 export_corrected
+
 rename q_charges20 import
 rename q_charges21 export
 
