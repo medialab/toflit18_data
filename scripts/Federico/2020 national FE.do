@@ -34,17 +34,6 @@ drop if value_inclusive==.
 drop if value_inclusive==0
 
 
-
-***Regions
-generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
-
 *** isolate grains
 drop if product_grains=="Pas grain (0)"
 
@@ -76,12 +65,82 @@ gen natlocal=direction
 replace natlocal="National" if sourcetype=="1792-both semester" | sourcetype=="Résumé" | sourcetype=="Tableau des quantités" | sourcetype=="Objet Général"
 drop if natlocal=="[vide]"
 *ID LOVE GUILLAUME TO VERIFY THIS: adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-**GD20200710 Je ne sais pas. Que veux-tu ? Ne veux-tu pas garder que lorsque tu as tout le commerce d’une direction ? Pourquoi garder National toutes directions partenaires manquants ??
 sort year importexport natlocal value_inclusive grains_num country_grouping sourcetype  
+
+**GD20200710 Il faut sans doute agréger si on a plusieurs flux pour une même catégorie de bien ? C’est ce que je fait ici
+
+duplicates report year importexport natlocal sourcetype grains_num country_grouping
+
+collapse (sum) value_inclusive, by(year importexport natlocal sourcetype grains_num country_grouping)
+
+**GD20200710 Maintenant, on regardi s’il y a des flux en trop
+
+duplicates report year importexport natlocal grains_num country_grouping
+duplicates tag    year importexport natlocal grains_num country_grouping, generate(tag)
+tab year tag
+*GD20200710 Les soucis sont en 49, 50, 51 et 77 : je ne vois plus ceux de 89.
+*GD20200710 On privilégie toujours "local"
+keep if (tag==1 & sourcetype=="Local") | tag==0
+
+/* GD20200710 Je pense que ce que tu faisais était très proche ?
 quietly by year importexport natlocal value_inclusive grains_num country_grouping  :  gen dup = cond(_N==1,0,_n)
 drop if sourcetype!="Local" & dup!=0 
-*create geography
+*/
 
+*GD20200710 J’aimerai bien créer les flux dont on sait qu’ils sont nuls...
+fillin year importexport natlocal grains_num country_grouping
+
+*Pour éliminer les rapporteurs qui ne sont pas là pour une année particulière
+bys natlocal year : egen out_fillin = min (_fillin)
+drop if out_fillin==1
+drop out_fillin
+
+*Pour éliminer les paires partenaires x rapporteurs x produits x importexport qui ne sont jamais là
+bys natlocal country_grouping grains_num importexport : egen out_fillin = min (_fillin)
+drop if out_fillin==1
+drop out_fillin
+
+*Pour éliminer les partenaires qui ne sont pas là certaines années ?
+bys year  country_grouping : egen out_fillin = min (_fillin)
+drop if out_fillin==1
+drop out_fillin
+
+
+
+**Pour identifier ceux dont on ne connait pas tous les partenaires
+gen flag_partenaires_manquants = .
+replace flag_partenaires_manquants =1 if sourcetype=="National toutes directions partenaires manquants"
+
+bys year country_grouping natlocal : egen out_fillin=min(_fillin)
+bys year country_grouping natlocal : egen out_partenaires_manquants=max(flag_partenaires_manquants)
+drop if out_fillin==1 & out_partenaires_manquants ==1 
+
+** et finalement
+replace value_inclusive=0 if value_inclusive==.
+
+**Je vérifie que tous ces zéros ont un sens
+bys country_grouping natlocal importexport grains_num : egen max_value=max(value_inclusive)
+assert max_value !=0
+
+drop out_fillin max_value flag_partenaires_manquants tag
+
+*GD20200710 Bien sûr, se pose la question de savoir quoi en faire si on prend le log des flux...
+
+
+
+***Regions
+generate region="KO"
+replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
+replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
+replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
+replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
+replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
+replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
+replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+
+
+
+*create geography
 encode natlocal, generate(geography) label(natlocal)
 
 drop if year==.
