@@ -50,7 +50,7 @@ drop if year>1787 & year<1788
 *drop if yearstr=="10 mars-31 décembre 1787" 
 *GUILLAUME WHY?
 **GD20200710 Je ne sais pas. C’est bizarre...
-
+drop if year>1805 & year <1806
 *drop colonies
 drop if sourcetype=="Local"  & year==1787
 drop if sourcetype=="Local"  & year==1788
@@ -129,16 +129,6 @@ drop out_fillin max_value flag_partenaires_manquants tag
 
 
 
-***Regions
-generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
-
 
 
 *create geography
@@ -156,6 +146,9 @@ collapse (sum) value_inclusive, by (year geography importexport)
 
 
 ***generate ln value
+gen value_inclusive_c=value_inclusive+0.5
+drop value_inclusive
+rename value_inclusive_c value_inclusive
 generate ln_value_inclusive=ln(value_inclusive)
 
 ***reshape import and export
@@ -167,7 +160,7 @@ rename ln_value_inclusive0 ln_import
 
 
 *** now regress
- xi:  regress ln_import i.year i.geography  [iweight=import]
+ xi:  regress ln_import i.year i.geography   [iweight=import]
  *** now rectangularize (filling missing explanatory variables (year, geography))
 fillin geography year 
 
@@ -186,12 +179,19 @@ xi i.year i.geography
 predict ln_export_predict
 generate export_predict=exp(ln_export_predict)
 
-drop if geography!=23
-drop _fillin _Iyear_2 _Iyear_3 _Iyear_4 _Iyear_5 _Iyear_6 _Iyear_7 _Iyear_8 _Iyear_9 _Iyear_10 _Iyear_11 _Iyear_12 _Iyear_13 _Iyear_14 _Iyear_15 _Iyear_16 _Iyear_17 _Iyear_18 _Iyear_19 _Iyear_20 _Iyear_21 _Iyear_22 _Iyear_23 _Iyear_24 _Iyear_25 _Iyear_26 _Iyear_27 _Iyear_28 _Iyear_29 _Iyear_30 _Iyear_31 _Iyear_32 _Iyear_33 _Iyear_34 _Iyear_35 _Iyear_36 _Iyear_37 _Iyear_38 _Iyear_39 _Iyear_40 _Iyear_41 _Iyear_42 _Iyear_43 _Iyear_44 _Iyear_45 _Iyear_46 _Iyear_47 _Iyear_48 _Iyear_49 _Iyear_50 _Iyear_51 _Iyear_52 _Iyear_53 _Iyear_54 _Iyear_55 _Iyear_56 _Iyear_57 _Iyear_58 _Iyear_59 _Iyear_60 _Iyear_61 _Iyear_62 _Iyear_63 _Iyear_64 _Iyear_65 _Iyear_66 _Iyear_67 _Iyear_68 _Iyear_69 _Iyear_70 _Iyear_71 _Iyear_72 _Iyear_73 _Iyear_74 _Iyear_75 _Iyear_76 _Iyear_77 _Iyear_78 _Iyear_79 _Iyear_80 _Iyear_81 _Iyear_82 _Iyear_83 _Iyear_84 _Iyear_85 _Iyear_86 _Iyear_87 _Iyear_88 _Iyear_89 _Iyear_90 _Iyear_91 _Iyear_92 _Iyear_93 _Iyear_94 _Iyear_95 _Igeography_2 _Igeography_3 _Igeography_4 _Igeography_5 _Igeography_6 _Igeography_7 _Igeography_8 _Igeography_9 _Igeography_10 _Igeography_11 _Igeography_12 _Igeography_13 _Igeography_14 _Igeography_15 _Igeography_16 _Igeography_17 _Igeography_18 _Igeography_19 _Igeography_20 _Igeography_21 _Igeography_22 _Igeography_23 _Igeography_24 _Igeography_25 _Igeography_26 _Igeography_27 _Igeography_28 _Igeography_29 _Igeography_30
+drop _fillin _Iyear_1719 _Iyear_1720 _Iyear_1721 _Iyear_1722 _Iyear_1723 _Iyear_1724 _Iyear_1725 _Iyear_1726 _Iyear_1727 _Iyear_1728 _Iyear_1729 _Iyear_1730 _Iyear_1731 _Iyear_1732 _Iyear_1733 _Iyear_1734 _Iyear_1735 _Iyear_1736 _Iyear_1737 _Iyear_1738 _Iyear_1739 _Iyear_1740 _Iyear_1741 _Iyear_1742 _Iyear_1743 _Iyear_1744 _Iyear_1745 _Iyear_1746 _Iyear_1747 _Iyear_1748 _Iyear_1749 _Iyear_1750 _Iyear_1751 _Iyear_1752 _Iyear_1753 _Iyear_1754 _Iyear_1755 _Iyear_1756 _Iyear_1757 _Iyear_1758 _Iyear_1759 _Iyear_1760 _Iyear_1761 _Iyear_1762 _Iyear_1763 _Iyear_1764 _Iyear_1765 _Iyear_1766 _Iyear_1767 _Iyear_1768 _Iyear_1769 _Iyear_1770 _Iyear_1771 _Iyear_1772 _Iyear_1773 _Iyear_1774 _Iyear_1775 _Iyear_1776 _Iyear_1777 _Iyear_1778 _Iyear_1779 _Iyear_1780 _Iyear_1782 _Iyear_1787 _Iyear_1788 _Iyear_1789 _Iyear_1792 _Iyear_1797 _Iyear_1798 _Iyear_1799 _Iyear_1800 _Iyear_1801 _Iyear_1802 _Iyear_1803 _Iyear_1804 _Iyear_1805 _Iyear_1807 _Iyear_1808 _Iyear_1809 _Iyear_1810 _Iyear_1811 _Iyear_1812 _Iyear_1813 _Iyear_1814 _Iyear_1815 _Iyear_1816 _Iyear_1817 _Iyear_1818 _Iyear_1819 _Iyear_1820 _Iyear_1821 _Iyear_1822 _Iyear_1823 _Igeography_2 _Igeography_3 _Igeography_4 _Igeography_5 _Igeography_6 _Igeography_7 _Igeography_8 _Igeography_9 _Igeography_10 _Igeography_11 _Igeography_12 _Igeography_13 _Igeography_14 _Igeography_15 _Igeography_16 _Igeography_17 _Igeography_18 _Igeography_19 _Igeography_20 _Igeography_21 _Igeography_22 _Igeography_23 _Igeography_24 _Igeography_25 _Igeography_26 _Igeography_27 _Igeography_28 _Igeography_29 _Igeography_30
+tab geography
 
+keep if geography==23
 drop geography
-gen NX=export_predict-import_predict
-
+gen retrofitted_import=import_predict
+replace retrofitted_import=import if import!=.
+gen retrofitted_export=export_predict
+replace retrofitted_export=export if export!=.
+gen NX=retrofitted_export-retrofitted_import
+tsset year
+tsfill
 * graph for geography == national
 
-twoway (line import_predict year if geography==23, yaxis(1) ) (line export_predict year if geography==23, yaxis(2))
+twoway (line retrofitted_import year , yaxis(1) ) (line retrofitted_export year , yaxis(1)) (line NX year, yaxis(2))
+
