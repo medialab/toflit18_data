@@ -148,4 +148,4 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     writer.writerow(line)
 
 if __name__ == "__main__":
-    aggregate_sources_in_bdd_centrale(True)
+    aggregate_sources_in_bdd_centrale(False)
