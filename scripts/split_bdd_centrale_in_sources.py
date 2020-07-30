@@ -177,9 +177,12 @@ def correct_source(flow):
     m = ANOM_source.match(new_source)
     if m:
         new_source = m.group()+" Colonies"
+    new_source = new_source.replace('AD44 C716 n°2', 'AD44 C716-2')
+    new_source = new_source.replace('AD44 C716 n°15', 'AD44 C716-15')
     new_source = new_source.replace('AD44 C716 n°30', 'AD44 C716-30')
     new_source = new_source.replace('AD44 C716 n°34', 'AD44 C716-34')
     new_source = new_source.replace('AD44 C717_14', 'AD44 C717-14')
+    new_source = new_source.replace('AD44 C717 n°14', 'AD44 C717-14')
     new_source = new_source.replace('AD44C717', 'AD44 C717')
     new_source = new_source.replace('AD44 C 717', 'AD44 C717')
     new_source = new_source.replace('AD44 C707', 'AD44 C706')
