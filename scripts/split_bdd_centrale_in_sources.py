@@ -171,7 +171,7 @@ def correct_source(flow):
     new_source = new_source.replace(' - ', ' ')
     new_source = new_source.replace('AD 44', 'AD44')
     new_source = new_source.replace('NEHA', 'IIHS')
-    new_source = new_source.replace('Montbret', 'BMRouen Montbret')
+    new_source = new_source.replace('BM Rouen, Fonds Montbret', 'BM Rouen Montbret')
     new_source = new_source.replace('Fond Montyon', 'APHP Fond Montyon')
     # removing (Tableau ...) from ANOM source names
     m = ANOM_source.match(new_source)
