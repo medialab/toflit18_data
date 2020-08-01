@@ -6,10 +6,13 @@ BNF_MF_6431_France_par_la_Compagnie_des_Indes_Imports ??
 Lié avec National/Objet Général/Compagnie des Indes - Entrées - BNF MF 6431.csv ?
 599/766/801
 
+
 Pas facile à traiter... On a les importations de la Cie des Indes pour une dizaine de produits avec 5 partenaires... 1726-1771 Dont des importations de Castor du Canada (hum, hum...). Je ne pense pas que cela soit repris dans des Objets Généraux et le National par direction par partenaire de 1750. Tout doit rentrer par Lorient (on pourrait le mettre). 
 Bref, pour l’instant, c’est du Local d’habitude et du Nationale Toutes Directions Tous partenaires pour 1750 et de l’Objet Général pour les années où il y en a un. L’idée est que comme cela c’est amalgamé à ces sources lorsqu’on veut du National Best Guess.
 Mais en fait, créer une source particulière et réfléchir à la manière de faire le National Best Guess serait mieux peut-être ?
-Le mettre en "Divers-In" et changer les définitions du commerce total ?
+Le mettre en "Divers-In" et changer les définitions du commerce Best Guess ?
+
+**Je crée une source type "Compagnie des Indes" que je mets dans "Divers-In". Elle se transforme comme il faut en deux fichiers.**
 
 # Nationales toutes directions sans produits
 Les sources "Nationales toutes directions sans produits"
