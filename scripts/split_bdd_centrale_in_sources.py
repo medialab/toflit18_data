@@ -161,6 +161,13 @@ def new_source_name(flow):
     	new_name=['AN_F12_245_and_246_Department_no_Products']
     
     new_name.append(flow['exportsimports'])
+
+    if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] == '1714'):
+# Je ne sais pas pourquoi cela ne marche pas 
+#   if flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and 'bis' not in flow['sourcepath']:
+#    if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] != 1757):
+        new_name.append('monthly')
+        
     if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "BNF_MF_6431", "Romano1957+Velde+IIHS-128", "AD76 7F97 - via Dardel"]:
         try:
             # todo calendrier républicain
