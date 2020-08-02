@@ -154,6 +154,9 @@ def new_source_name(flow):
     if flow['sourcetype'] == 'National toutes directions sans produits':
     	new_name.append('Departments_no_Products')      
     	
+    if flow['sourcetype'] == 'Tableau Général':
+    	new_name.append('no_Products')      
+    	
     if flow['sourcetype'] == 'National toutes directions sans produits' and flow['year'] == '1777':
     	new_name=['AN_F12_245_and_246_Department_no_Products']
     
@@ -164,6 +167,10 @@ def new_source_name(flow):
             new_name.append(year_re.match(flow['year']).group(1))
         except : 
             new_name.append(slugify(flow['year']))
+            
+
+    if flow['sourcetype'] == 'Out' and 'bis' in flow['sourcepath']:
+        new_name.append('bis')
 
     return slugify('_'.join(new_name))
 
