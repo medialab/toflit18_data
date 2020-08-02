@@ -152,7 +152,10 @@ def new_source_name(flow):
             new_name.append(slugify(flow['direction']))
             
     if flow['sourcetype'] == 'National toutes directions sans produits':
-    	new_name.append('Departments_no_Products')        
+    	new_name.append('Departments_no_Products')      
+    	
+    if flow['sourcetype'] == 'National toutes directions sans produits' and flow['year'] == '1777':
+    	new_name=['AN_F12_245_and_246_Department_no_Products']
     
     new_name.append(flow['exportsimports'])
     if flow['source'] not in ["WEBER Commerce de la compagnie des Indes 1904", "BNF_MF_6431", "Romano1957+Velde+IIHS-128", "AD76 7F97 - via Dardel"]:
