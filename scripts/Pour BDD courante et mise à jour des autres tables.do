@@ -718,6 +718,31 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
+use "classification_product_RE_aggregate.dta", clear
+	bys revolutionempire : drop if _n!=1
+save  "classification_product_RE_aggregate.dta", replace
+
+use "classification_product_revolutionempire.dta", clear
+merge m:1 revolutionempire using "classification_product_RE_aggregate.dta", force
+capture bys revolutionempire : keep if _n==1
+capture drop nbr_occurences_RE_aggregate
+bys RE_aggregate : egen nbr_occurences_RE_aggregate=total(nbr_occurences_revolutionempire)
+drop nbr_occurences_simpl
+capture gen obsolete=""
+replace obsolete = "oui" if _merge==2
+replace obsolete = "non" if _merge!=2
+drop _merge
+drop simplification
+
+capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey	
+
+save "classification_product_RE_aggregate.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_RE_aggregate.csv", replace
+
+
+
 
 ***********************************************************************************************************************************
 
