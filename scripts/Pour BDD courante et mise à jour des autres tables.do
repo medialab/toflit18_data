@@ -945,6 +945,24 @@ save "$dir/Données Stata/bdd courante", replace
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
  
  
+ ************For best guesses
+capture drop national_product_best_guess
+gen national_product_best_guess = 0		
+replace national_product_best_guess = 1 if (sourcetype=="Objet Général" & year<=1786) | ///
+		(sourcetype=="Résumé") | sourcetype=="National toutes directions tous partenaires" 
+
+egen year_CN = max(national_product_best_guess), by(year)
+replace national_product_best_guess=1 if year_CN == 1 & sourcetype=="Compagnie des Indes" & direction=="France par la Compagnie des Indes"
+
+capture drop national_geography_best_guess
+gen national_geography_best_guess = 0
+replace national_geography_best_guess = 1 if sourcetype=="Tableau Général" | sourcetype=="Résumé"
+
+capture drop local_product_best_guess
+gen local_product_best_guess=0
+replace local_product_best_guess= 1 if sourcetype=="Local" & year !=1750 | sourcetype== "National toutes directions sans produits"
+ 
+ 
  ********************************************************************
 use "$dir/Données Stata/bdd courante.dta", clear
 
