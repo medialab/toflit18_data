@@ -1,7 +1,16 @@
 
-# Du coup, j’ai créé un nouveau «sourcetype"
+# Pourquoi if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne': new_name.append=('bis') ne marche pas ?
+# Incohérence dans le gommage des "National toutes directions par partenaires.
+Dans le nom du fichier, on a soit le nom de la direction soit le nom du partenaire.
+Ce serait plus logique d’avoir le nom du partenaire, mais alors cela pose un problème de cohérence des sources
+Peut-être du coup faire un autre type de source ?
 
-# Compagnie des Indes
+# Changer le nom de AD44_C706_Rennes_Exports_1714 AD44_C706_Rennes_Imports_1714. Ajouter Monthly ?
+
+# Idem pour la Sardaigne 1726 et 28
+
+
+# Compagnie des Indes Du coup, j’ai créé un nouveau «sourcetype"
 BNF_MF_6431_France_par_la_Compagnie_des_Indes_Imports ??
 Lié avec National/Objet Général/Compagnie des Indes - Entrées - BNF MF 6431.csv ?
 599/766/801

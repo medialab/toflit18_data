@@ -162,7 +162,7 @@ def new_source_name(flow):
     	
     if flow['sourcetype'] == 'Out' and flow['source'] == 'AD38 2C635':
     	new_name=['AD38 2C635 Sardaigne']
-    	
+    	    	
     new_name.append(flow['exportsimports'])
 
 
@@ -178,14 +178,18 @@ def new_source_name(flow):
             
             
     if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] == '1714'):
+        new_name.append('monthly')
 # Je ne sais pas pourquoi cela ne marche pas 
 #   if flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and 'bis' not in flow['sourcepath']:
 #   if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] != 1757):
-        new_name.append('monthly')
+        
       
 
     if flow['sourcetype'] == 'Out' and 'bis' in flow['sourcepath']:
         new_name.append('bis')
+        
+#    if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne':
+ #       new_name.append=('bis')
 
     return slugify('_'.join(new_name))
 
