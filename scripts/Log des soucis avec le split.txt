@@ -1,4 +1,9 @@
-
+# Pourquoi guillaumedaudin@Oronte scripts % python3 /Users/guillaumedaudin/Documents/Recherche/Commerce\ International\ Français\ XVIIIe.xls/Balance\ du\ commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/split_bdd_centrale_in_sources.py
+Traceback (most recent call last):
+  File "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/split_bdd_centrale_in_sources.py", line 132, in <module>
+    COUNTRIES_CLASSIF[ortho['source']]=simpl[ortho['orthographic']] 
+KeyError: 'Étranger' 
+??
 # Pourquoi if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne': new_name.append=('bis') ne marche pas ?
 # Incohérence dans le gommage des "National toutes directions par partenaires.
 Dans le nom du fichier, on a soit le nom de la direction soit le nom du partenaire.
