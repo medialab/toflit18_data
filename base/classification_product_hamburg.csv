@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,hamburg,obsolete,nbr_occurences_hamburg
-,36178,,non,652560
+,30020,,non,652560
 ???,3471,,non,652560
 ??? blanc,2,,non,652560
 ??? brun,2,,non,652560
@@ -24,7 +24,7 @@ simplification,nbr_occurences_simpl,hamburg,obsolete,nbr_occurences_hamburg
 ??? raisins secs,1,,non,652560
 ???sse,1,,non,652560
 ?ufs,0,,non,652560
-[non traité],196,,non,652560
+[non traité],105,,non,652560
 [vide],6206,,non,652560
 à l'aventure,25,,non,652560
 à son lest,4,,non,652560
@@ -41,7 +41,7 @@ acajou,6,,non,652560
 acétate d'étain,0,,oui,652560
 acétate de fer,0,,oui,652560
 acétates d'étain,1,,non,652560
-acétates de fer,3,Fer,non,15798
+acétates de fer,3,Fer,non,15796
 acétates de plomb,29,Plomb,non,4112
 acétates de plomb sel de Saturne,2,Plomb,non,4112
 acétates de potasse et de soude,2,Potasse,oui,1472
@@ -79,21 +79,21 @@ acide vitriolique et huile de vitriol,109,Vitriol ; blanc,non,1299
 acide vitrioliques et huile de vitriol,0,Vitriol ; blanc,oui,1299
 acier,2576,,non,652560
 acier battu forgé ou laminé,1,,non,652560
-acier battu forgé ou laminé et fer carbonaté,0,Fer,oui,15798
+acier battu forgé ou laminé et fer carbonaté,0,Fer,oui,15796
 acier brun,1,,non,652560
 acier brut,10,,non,652560
 acier commun,1,,non,652560
 acier en barres,6,,non,652560
 acier en bottes pour la Compagnie des Indes,1,,non,652560
 acier et clous,9,,non,652560
-acier et fer,356,Fer,non,15798
-acier filé et fer carburé,0,Fer,oui,15798
+acier et fer,356,Fer,non,15796
+acier filé et fer carburé,0,Fer,oui,15796
 acier fondu en carreaux ou en tôle,5,,non,652560
-acier fondu en carreaux ou en tôle et fer carburé,0,Fer,oui,15798
+acier fondu en carreaux ou en tôle et fer carburé,0,Fer,oui,15796
 acier fondu forgé,1,,non,652560
-acier fondu forgé et fer carbonaté,0,Fer,oui,15798
+acier fondu forgé et fer carbonaté,0,Fer,oui,15796
 acier forgé,7,,non,652560
-acier forgé et fer carburé,0,Fer,oui,15798
+acier forgé et fer carburé,0,Fer,oui,15796
 acons,1,,non,652560
 acons démontés,20,,non,652560
 acons démontés en gabare,2,,non,652560
@@ -864,9 +864,9 @@ baras,1,,non,652560
 barat de laine,1,,non,652560
 baratte,1,,non,652560
 barbançons,6,,non,652560
-barbançons de grès,14,,non,652560
-barbançons de terre,15,,non,652560
-barbançons de terre de grès,1,,non,652560
+barbançons de grès,44,,non,652560
+barbançons de terre,20,,non,652560
+barbançons de terre de grès,1,,oui,652560
 barbançons de verre,1,,non,652560
 barbe de baleine,11,,non,652560
 barbotine,43,,non,652560
@@ -912,12 +912,12 @@ barreaux de sapin de 10 pieds,1,,non,652560
 barreaux neufs,2,,non,652560
 barres,114,,non,652560
 barres à nègre,1,,non,652560
-barres carrées de fer étiré,6,Fer,non,15798
-barres carrées de fer étiré de 15 inclusivement à 22 millimètres exclusivement,1,Fer,non,15798
-barres carrées de fer étiré de 15 inclusivement à 22 millimètres exclusivement sur chaque face,1,Fer,non,15798
-barres carrées de fer étiré de 22 millimètres et plus sur chaque face,2,Fer,non,15798
-barres carrées de fer étiré de moins de 15 millimètres,1,Fer,non,15798
-barres carrées de fer étiré de moins de 15 millimètres sur chaque face,1,Fer,non,15798
+barres carrées de fer étiré,6,Fer,non,15796
+barres carrées de fer étiré de 15 inclusivement à 22 millimètres exclusivement,1,Fer,non,15796
+barres carrées de fer étiré de 15 inclusivement à 22 millimètres exclusivement sur chaque face,1,Fer,non,15796
+barres carrées de fer étiré de 22 millimètres et plus sur chaque face,2,Fer,non,15796
+barres carrées de fer étiré de moins de 15 millimètres,1,Fer,non,15796
+barres carrées de fer étiré de moins de 15 millimètres sur chaque face,1,Fer,non,15796
 barres d'acier,0,,oui,652560
 barres d'anspect en bois,1,,non,652560
 barres d'anspects,97,,non,652560
@@ -931,34 +931,35 @@ barres de cabestan en bois,2,,non,652560
 barres de chêne,1,,non,652560
 barres de chêne petites,1,,non,652560
 barres de cuivre,1,,non,652560
-barres de fer,2903,Fer,non,15798
-barres de fer à frire,1,Fer,non,15798
-barres de fer blanc,2,Fer,non,15798
-barres de fer d'Espagne,5,Fer,non,15798
-barres de fer de Suède,4,Fer,non,15798
-barres de fer étiré,2,Fer,non,15798
+barres de fer,2903,Fer,non,15796
+barres de fer à frire,1,Fer,non,15796
+barres de fer blanc,2,Fer,non,15796
+barres de fer d'Espagne,5,Fer,non,15796
+barres de fer de Suède,4,Fer,non,15796
+barres de fer étiré,2,Fer,non,15796
 barres de futel,1,,non,652560
 barres de guindeau,45,,non,652560
 barres de sapin,2,,non,652560
 barres de sapin de 3 à 4 pieds,1,,non,652560
 barres de sapin pour fonçaille,1,,non,652560
-barres et verges de fer,14,Fer,non,15798
-barres fines de fer,2,Fer,non,15798
-barres maître-fond,5,Fer,non,15798
-barres plates de fer étiré,6,Fer,non,15798
-barres plates de fer étiré de 113 à 366 millimètres ou 42 à 72 lignes inclusivement,1,Fer,non,15798
-barres plates de fer étiré de 213 à 366 millimètres de largueur multipliée par l'épaisseur,1,Fer,non,15798
-barres plates de fer étiré de moins de 113 millimètres ou 42 lignes,1,Fer,non,15798
-barres plates de fer étiré de moins de 213 millimètres de largueur multipliée par l'épaisseur,1,Fer,non,15798
-barres plates de fer étiré de plus de 366 millimètres de largeur multipliée par l'épaisseur,1,Fer,non,15798
-barres plates de fer étiré de plus de 366 millimètres ou 72 lignes,1,Fer,non,15798
-barres pour édifices,1,Fer,non,15798
-barres pour édifiées,1,Fer,non,15798
-barres rondes de fer étiré,6,Fer,non,15798
-barres rondes de fer étiré de 15 millimètres et plus de diamètres,1,Fer,non,15798
-barres rondes de fer étiré de 15 millimètres ou 7 lignes et plus de diamètres,1,Fer,non,15798
-barres rondes de fer étiré de moins de 15 millimètres de diamètres,1,Fer,non,15798
-barres rondes de fer étiré de moins de 15 millimètres ou 7 lignes diamètres,1,Fer,non,15798
+barres et cercles de fer,1,,non,652560
+barres et verges de fer,14,Fer,non,15796
+barres fines de fer,2,Fer,non,15796
+barres maître-fond,5,Fer,non,15796
+barres plates de fer étiré,6,Fer,non,15796
+barres plates de fer étiré de 113 à 366 millimètres ou 42 à 72 lignes inclusivement,1,Fer,non,15796
+barres plates de fer étiré de 213 à 366 millimètres de largueur multipliée par l'épaisseur,1,Fer,non,15796
+barres plates de fer étiré de moins de 113 millimètres ou 42 lignes,1,Fer,non,15796
+barres plates de fer étiré de moins de 213 millimètres de largueur multipliée par l'épaisseur,1,Fer,non,15796
+barres plates de fer étiré de plus de 366 millimètres de largeur multipliée par l'épaisseur,1,Fer,non,15796
+barres plates de fer étiré de plus de 366 millimètres ou 72 lignes,1,Fer,non,15796
+barres pour édifices,1,Fer,non,15796
+barres pour édifiées,1,Fer,non,15796
+barres rondes de fer étiré,6,Fer,non,15796
+barres rondes de fer étiré de 15 millimètres et plus de diamètres,1,Fer,non,15796
+barres rondes de fer étiré de 15 millimètres ou 7 lignes et plus de diamètres,1,Fer,non,15796
+barres rondes de fer étiré de moins de 15 millimètres de diamètres,1,Fer,non,15796
+barres rondes de fer étiré de moins de 15 millimètres ou 7 lignes diamètres,1,Fer,non,15796
 barretons d'or,1,,non,652560
 barrettes,1,,non,652560
 barrettes de cuivre,3,,non,652560
@@ -967,7 +968,7 @@ barriques,58,,non,652560
 barriques à eau,2,,non,652560
 barriques cerclées de fer,1,,non,652560
 barriques cerclées de fer et vides,1,,non,652560
-barriques cerclées et fer,0,Fer,oui,15798
+barriques cerclées et fer,0,Fer,oui,15796
 barriques d'eau,1,,non,652560
 barriques en bœuf,1,,non,652560
 barriques neuves,5,,non,652560
@@ -1154,7 +1155,7 @@ bassons,7,,non,652560
 bassons clarinettes,2,,non,652560
 bast et écorce d'arbre et foularde,232,,non,652560
 batanomes,146,,non,652560
-batanony,3,,non,652560
+batanony,4,,non,652560
 bâtardes,1,,non,652560
 batavia,7,,non,652560
 bateaux,203,,non,652560
@@ -1173,6 +1174,7 @@ batiste de lin,15,,non,652560
 batiste de lin et linon de lin,14,,non,652560
 batiste de Lorient,1,,non,652560
 batiste écrue,2,,non,652560
+batiste en carreaux,1,,non,652560
 batiste et fine,0,,oui,652560
 batiste et linog,0,,oui,652560
 batiste et linon,133,,non,652560
@@ -1408,6 +1410,7 @@ bijouterie fine fausse en pierres faite métal,2,,non,652560
 bijouterie pour montres d'argent,1,,non,652560
 bijoux,1,,non,652560
 bijoux d'or,1,,non,652560
+bijoux en croix,1,,non,652560
 bilardeaux,14,,non,652560
 billard,14,,non,652560
 billard gaongs,1,,non,652560
@@ -1476,8 +1479,8 @@ blanc de ???,0,,non,652560
 blanc de baleine,140,Blanc ; de baleine,non,222
 blanc de céruse,33,,non,652560
 blanc de céruse pour l'entrepôt de la Compagnie des Indes,1,,non,652560
-blanc de ferax,9,Fer,non,15798
-blanc de ferux,5,Fer,non,15798
+blanc de ferax,9,Fer,non,15796
+blanc de ferux,5,Fer,non,15796
 blanc de Herps,3,,non,652560
 blanc de Hollande,1,,non,652560
 blanc de Marne,1,,non,652560
@@ -1577,7 +1580,7 @@ bœuf salé du pays,24,,non,652560
 bœuf salé pour l'entrepôt des Îles,3,,non,652560
 bœuf taureau,5,,non,652560
 bœuftins et génisses,120,,non,652560
-bois,4823,,non,652560
+bois,6227,,non,652560
 bois à bâtir,7,,non,652560
 bois à brûler,9,,non,652560
 bois à cannes,1,,non,652560
@@ -1734,7 +1737,7 @@ bois de combari,0,,oui,652560
 bois de Constantine,0,,non,652560
 bois de corde,1,,non,652560
 bois de coulette de hêtre,1,,non,652560
-bois de couleur,31,,non,652560
+bois de couleur,35,,non,652560
 bois de courbant,1,,non,652560
 bois de courbaril,5,,non,652560
 bois de couribary,0,,oui,652560
@@ -2107,7 +2110,10 @@ boîtes de coupure,1,,non,652560
 boîtes de fer,1,,non,652560
 boîtes de fer-blanc,8,,non,652560
 boîtes de fontes,0,,non,652560
+boîtes de montre d'argent,1,,non,652560
+boîtes de montre d'or,1,,non,652560
 boîtes de Nuremberg,4,,non,652560
+boîtes de pendules,3,,non,652560
 boîtes de plomb,1,,non,652560
 boîtes de quadrilles,5,,non,652560
 boites de sapin,1,,non,652560
@@ -2371,7 +2377,7 @@ boulets de terre,2,,non,652560
 boulets et canons,6,,non,652560
 boulets et canons de fer de fonte,3,,non,652560
 boulettes de marbre,8,,non,652560
-bouquets de fleurs artificielles,2,,non,652560
+bouquets de fleurs artificielles,4,,non,652560
 bouquets de papier,1,,non,652560
 bouquins à pipes,2,,non,652560
 bouracan,1,,non,652560
@@ -2399,7 +2405,7 @@ bourre,42,,non,652560
 bourre à bâtier,175,,non,652560
 bourre à bourrer,1,,non,652560
 bourre à brûler,1,,non,652560
-bourre à cheveux,6,,non,652560
+bourre à cheveux,4,,non,652560
 bourre chiquette,2,,non,652560
 bourre d'Alep,1,,non,652560
 bourre d'étoupe,0,,oui,652560
@@ -2433,7 +2439,7 @@ bours de soie,16,,non,652560
 bours du Levant de soie,0,,non,652560
 bourse de molleton,5,,non,652560
 bourses,2,,non,652560
-bourses à cheveux,111,,non,652560
+bourses à cheveux,113,,non,652560
 bourses à cheveux de soie,2,,non,652560
 bourses à cheveux de taffetas,1,,non,652560
 bourses à perruques,3,,non,652560
@@ -2607,15 +2613,15 @@ bracelles,5,,non,652560
 brai,507,,non,652560
 brai ???,1,,non,652560
 brai ??? brai,1,,non,652560
-brai ??? goudron,2,Goudron ; de Suède,non,4231
-brai ??? goudron résines,1,Goudron ; de Suède,non,4231
+brai ??? goudron,2,Goudron ; de Suède,non,4232
+brai ??? goudron résines,1,Goudron ; de Suède,non,4232
 brai ??? pox noire,1,,non,652560
 brai à brasser,110,,non,652560
 brai arcanson,1,,non,652560
 brai bras,0,,oui,652560
 brai colophane et sec et résine d'huile,0,,oui,652560
 brai colophane et sec et résines d'huile,2,,non,652560
-brai de goudron,9,Goudron ; de Suède,non,4231
+brai de goudron,9,Goudron ; de Suède,non,4232
 brai de poix,2,,non,652560
 brai de poix blanche et noire,2,,non,652560
 brai de poix noire,1,,non,652560
@@ -2623,13 +2629,13 @@ brai de poix résine,0,,oui,652560
 brai de poix résines,3,,non,652560
 brai eau de raze,5,,non,652560
 brai et eau de rose,1,,non,652560
-brai et goudron,510,Goudron ; de Suède,non,4231
-brai et goudron et eau de raze,1,Goudron ; de Suède,non,4231
-brai et goudron et galipot et résines,23,Goudron ; de Suède,non,4231
-brai et goudron et poix,1,Goudron ; de Suède,non,4231
-brai et goudron et poix et résines,99,Goudron ; de Suède,non,4231
-brai et goudron et résines,542,Goudron ; de Suède,non,4231
-brai et goudron et térébenthine,7,Goudron ; de Suède,non,4231
+brai et goudron,510,Goudron ; de Suède,non,4232
+brai et goudron et eau de raze,1,Goudron ; de Suède,non,4232
+brai et goudron et galipot et résines,23,Goudron ; de Suède,non,4232
+brai et goudron et poix,1,Goudron ; de Suède,non,4232
+brai et goudron et poix et résines,99,Goudron ; de Suède,non,4232
+brai et goudron et résines,542,Goudron ; de Suède,non,4232
+brai et goudron et térébenthine,7,Goudron ; de Suède,non,4232
 brai et poix,1,,non,652560
 brai et poix blanche,2,,non,652560
 brai et poix blanche et poix noire,1,,non,652560
@@ -2640,14 +2646,14 @@ brai et résine,0,,oui,652560
 brai et résines,21,,non,652560
 brai et térébenthine,2,,non,652560
 brai galipot,1,,non,652560
-brai goudron ???,3,Goudron ; de Suède,non,4231
+brai goudron ???,3,Goudron ; de Suède,non,4232
 brai gras,669,,non,652560
-brai gras et goudron,24,Goudron ; de Suède,non,4231
+brai gras et goudron,24,Goudron ; de Suède,non,4232
 brai gras et sec,1,,non,652560
 brai gras goudron,5,,non,652560
 brai gras ou goudron,3,,non,652560
 brai gros,12,,non,652560
-brai gros et goudron,2,Goudron ; de Suède,non,4231
+brai gros et goudron,2,Goudron ; de Suède,non,4232
 brai poix de Bourgogne,1,,non,652560
 brai poix noire,1,,non,652560
 brai raffiné,2,,non,652560
@@ -3344,7 +3350,7 @@ carisé,1,,non,652560
 carisé blanc,2,,oui,652560
 carisé des prises,1,,non,652560
 carisé teint,2,,oui,652560
-carisel,27,,non,652560
+carisel,28,,non,652560
 carisel blanc,143,,non,652560
 carisel ou creseau,1,,oui,652560
 carisel teint,130,,non,652560
@@ -3394,7 +3400,7 @@ carreaux de faïence,94,,non,652560
 carreaux de genièvre,1,,non,652560
 carreaux de marbre,158,,non,652560
 carreaux de marbre à paver,71,,non,652560
-carreaux de marbre bâtard,1,,non,652560
+carreaux de marbre bâtard,4,,non,652560
 carreaux de marbre gros,1,,non,652560
 carreaux de marbre ouvrés,4,,non,652560
 carreaux de marbre pour le Roi,1,,non,652560
@@ -3404,6 +3410,7 @@ carreaux de pierre,49,,non,652560
 carreaux de pierre de Bidache,1,,non,652560
 carreaux de pierre de terre,1,,non,652560
 carreaux de pierre noire,1,,non,652560
+carreaux de pierres bâtir,1,,non,652560
 carreaux de sera,2,,non,652560
 carreaux de Suède,1,,non,652560
 carreaux de terre,349,,non,652560
@@ -3496,7 +3503,7 @@ cassedis,1,,non,652560
 casseroles de fer,1,,non,652560
 cassi matia,1,,non,652560
 cassia fistula,3,,non,652560
-cassia lignea,151,,non,652560
+cassia lignea,153,,non,652560
 cassia sèche,1,,non,652560
 cassin bazas,1,,non,652560
 cassis,2,,non,652560
@@ -3716,7 +3723,8 @@ cercles à quart,1,,non,652560
 cercles à relier,4,,non,652560
 cercles à tamis,57,,non,652560
 cercles à tamis dits standrepen,86,,non,652560
-cercles à tonneaux,386,,non,652560
+cercles à tonneaux,387,,non,652560
+cercles à tonneaux en roues,2,,non,652560
 cercles communs,17,,non,652560
 cercles d'osier,5,,non,652560
 cercles de 10 à 12 pieds,41,,non,652560
@@ -3909,6 +3917,8 @@ changeant,6,,non,652560
 changeante,0,,oui,652560
 chanoni,1,,non,652560
 chanote,0,,oui,652560
+chantournés de lit en satin,2,,non,652560
+chantournés de lit en satin brodé,2,,non,652560
 chanvre,4567,,non,652560
 chanvre apprêté,11,,non,652560
 chanvre battu,56,,non,652560
@@ -4116,7 +4126,7 @@ charrettes,11,,non,652560
 charrettes neuves,1,,non,652560
 charrettes vieilles,1,,non,652560
 charrues,21,,non,652560
-charrues de fer,1,Fer,non,15798
+charrues de fer,1,Fer,non,15796
 chaselade,0,,oui,652560
 chaselas des Indes,3,,oui,652560
 chasse-mouches,1,,non,652560
@@ -4468,6 +4478,8 @@ chuquelas,41,,non,652560
 cidre,506,,non,652560
 cidre jaune,1,,non,652560
 cidre poiré et verjus,4,,non,652560
+ciels de lit en satin,2,,non,652560
+ciels de lit en satin brodé,2,,non,652560
 cierge,0,,oui,652560
 cierges,7,,non,652560
 cierges de cire blanche,8,,non,652560
@@ -4478,6 +4490,7 @@ cierges et bougies,0,,oui,652560
 cierges et flambeau,1,,non,652560
 cigares,1,,non,652560
 cigares par autorisation,1,,non,652560
+cigognes à mulet,1,,non,652560
 cikous,1,,non,652560
 cime,1,,non,652560
 ciment,28,,non,652560
@@ -4582,6 +4595,7 @@ clayes à parquer,1,,non,652560
 clefs à uin,0,,oui,652560
 clefs à vin,1,,non,652560
 clefs de fer,2,,non,652560
+clefs de montre,1,,non,652560
 clinquant d'or faux,1,,non,652560
 clinquant en papier,1,,non,652560
 cloches,18,,non,652560
@@ -4634,17 +4648,17 @@ cobalt minéral,1,,non,652560
 cocalum,2,,non,652560
 cocax,2,,non,652560
 cochelis,19,,non,652560
-cochenille,1218,Cochenille,non,1525
-cochenille Campêchane,1,Cochenille,non,1525
-cochenille Campêche,1,Cochenille,non,1525
+cochenille,1218,Cochenille,non,1526
+cochenille Campêchane,1,Cochenille,non,1526
+cochenille Campêche,1,Cochenille,non,1526
 cochenille de retour,1,,non,652560
 cochenille et indigo,1,Indigo,non,6470
-cochenille fil verte,1,Cochenille,non,1525
-cochenille fine,23,Cochenille,non,1525
-cochenille mesteque,0,Cochenille,oui,1525
-cochenille mestèque,72,Cochenille,non,1525
-cochenille mustack,2,Cochenille,non,1525
-cochenille sylvestre,50,Cochenille,non,1525
+cochenille fil verte,1,Cochenille,non,1526
+cochenille fine,23,Cochenille,non,1526
+cochenille mesteque,0,Cochenille,oui,1526
+cochenille mestèque,72,Cochenille,non,1526
+cochenille mustack,2,Cochenille,non,1526
+cochenille sylvestre,51,Cochenille,non,1526
 cochon,19,,non,652560
 cochon confit,0,,oui,652560
 cochon de lait,1,,non,652560
@@ -5365,6 +5379,8 @@ couvertures de laine ordinaire,1,,non,652560
 couvertures de Languedoc,2,,non,652560
 couvertures de lit,1,,non,652560
 couvertures de lit de fil et coton,1,,non,652560
+couvertures de lit en satin,2,,non,652560
+couvertures de lit en satin brodé,2,,non,652560
 couvertures de loquette,1,,non,652560
 couvertures de Montpellier,3,,non,652560
 couvertures de mulets,4,,non,652560
@@ -5965,7 +5981,7 @@ dame-jeannes non clissées,1,,non,652560
 dame-jeannes vides,15,,non,652560
 damoiselle de bois,1,,non,652560
 dareau de laine,1,,non,652560
-dariabadis,5,,non,652560
+dariabadis,6,,non,652560
 darins,23,,non,652560
 dattes,308,"Fruits ; divers ; amandes, pelures, raisins, prunes",non,19461
 dattes et pistaches,31,"Fruits ; divers ; amandes, pelures, raisins, prunes",non,19461
@@ -6187,6 +6203,8 @@ dos gorges et ventres de petit gris,2,,non,652560
 dos gorges et ventres de petit-gris,0,,oui,652560
 dospin en pierre,2,,non,652560
 dossiers de chaises,11,,non,652560
+dossiers de lit en satin,2,,non,652560
+dossiers de lit en satin brodé,2,,non,652560
 doublage de bois de pin,1,,non,652560
 doublures de martre pour habits,3,,non,652560
 doublures de petis gris,1,,non,652560
@@ -6224,6 +6242,7 @@ douelles en barriques,1,,non,652560
 douelles fonçaille,7,,non,652560
 douelles fonçaille 2m 1/2,1,,non,652560
 douelles ganivelles,6,,non,652560
+douelles merrains à quart,1,,non,652560
 douelles pour barrique,1,,non,652560
 douelles pour fonds,1,,non,652560
 douelles vieilles,3,,non,652560
@@ -6779,6 +6798,7 @@ eau de toilette,11,,non,652560
 eau de vertu,1,,non,652560
 eau des Carmes,36,,non,652560
 eau des cavernes,5,,non,652560
+eau des cavernes en fiole,0,,non,652560
 eau des farmes,3,,non,652560
 eau distillée,12,,non,652560
 eau distillée alcoolique,2,,non,652560
@@ -6816,7 +6836,7 @@ eau Plombières,1,,non,652560
 eau pour la goutte,1,,non,652560
 eau pour remède,1,,non,652560
 eau royale,1,,non,652560
-eau sans pareille,6,,non,652560
+eau sans pareille,7,,non,652560
 eau sederale,1,,non,652560
 eau Spa,0,,oui,652560
 eau spiritueuse,14,,non,652560
@@ -7016,7 +7036,7 @@ egoutals de bois,1,,non,652560
 égouttoirs de bois,2,,non,652560
 egrat,1,,non,652560
 elatchas,0,,oui,652560
-elatches,17,,non,652560
+elatches,18,,non,652560
 elbots,83,,non,652560
 elbots salés,53,,non,652560
 elegias,2,,non,652560
@@ -7121,7 +7141,7 @@ entenolles,1,,non,652560
 éperviers,1,,non,652560
 épice,1,,non,652560
 épice de Curons,3,,non,652560
-épicerie,1080,,non,652560
+épicerie,1081,,non,652560
 épicerie commune,9,,non,652560
 épicerie douce,9,,non,652560
 épicerie feuilles et noix muscades,0,,oui,652560
@@ -7133,7 +7153,7 @@ entenolles,1,,non,652560
 épices préparées autres que moutarde et sauces épicées,2,,non,652560
 epinelle,1,,non,652560
 épines à planter,1,,non,652560
-épinettes,7,,non,652560
+épinettes,9,,non,652560
 épingles,428,,non,652560
 épingles communes,3,,non,652560
 épingles de laiton,4,,non,652560
@@ -7148,7 +7168,7 @@ epiterie,7,,non,652560
 éponges et tournesol,1,,non,652560
 éponges fines,66,,non,652560
 éponges grosses,1,,non,652560
-épousterie,44,,non,652560
+épousterie,45,,non,652560
 éprouvette de cuivre,1,,non,652560
 équerre,2,,non,652560
 equeurs,0,,non,652560
@@ -7269,7 +7289,7 @@ espèce monnayée ???,1,,non,652560
 espèces,42,,non,652560
 espèces d'argent,1,,non,652560
 espingole,2,,non,652560
-esponton,4,,non,652560
+esponton,5,,non,652560
 esprit,0,,non,652560
 esprit d'absinthe,1,,non,652560
 esprit de bergamote,149,,non,652560
@@ -7860,6 +7880,7 @@ etocs de fer,13,,non,652560
 étoffe mêlée de coton et de soie,1,,oui,652560
 étoffe mêlée de fil de soie,8,,non,652560
 étoffe mêlée de fil et de soie,1,,oui,652560
+étoffe mêlée de soie,1,,non,652560
 étoffe mêlée de soie ?,1,,oui,652560
 étoffe mêlée de soie ???,2,,non,652560
 étoffe mêlée de soie à peu,63,,oui,652560
@@ -7902,7 +7923,7 @@ etocs de fer,13,,non,652560
 étoffe tricot,0,,oui,652560
 étoupe de chanvre,0,,oui,652560
 étoupe de chanvre grise,0,,oui,652560
-étoupes,211,,non,652560
+étoupes,213,,non,652560
 étoupes à calfater,9,,non,652560
 étoupes blanches,2,,non,652560
 étoupes de chanvre,205,,non,652560
@@ -8106,177 +8127,180 @@ fenêtre de noyer,1,,non,652560
 fenouil,35,,non,652560
 fenouil de Florence,2,,non,652560
 fenugrec,5,,non,652560
-fer,3087,Fer,non,15798
-fer à cardes,1,Fer,non,15798
-fer à cheval,5,Fer,non,15798
-fer à coiffer,5,Fer,non,15798
-fer à faire feu,1,Fer,non,15798
-fer à friser,1,Fer,non,15798
-fer à la valeur,4,Fer,non,15798
-fer à lames,1,Fer,non,15798
-fer à moulins,1,Fer,non,15798
-fer à mulets,1,Fer,non,15798
-fer à nègre,24,Fer,non,15798
-fer à repasser,13,Fer,non,15798
-fer battu,75,Fer,non,15798
-fer battu et fondu,1,Fer,non,15798
-fer battu et ouvrages de fer,145,Fer,non,15798
-fer bleu,1,Fer,non,15798
-fer brut,2,Fer,non,15798
-fer brut de fonte,5,Fer,non,15798
-fer carré,16,Fer,non,15798
-fer caverges,4,Fer,non,15798
-fer coudé,2,Fer,non,15798
-fer coulé,326,Fer,non,15798
-fer coulé en fonte,1,Fer,non,15798
-fer coulé en gueuse,11,Fer,non,15798
-fer coulé et de fonte,6,Fer,non,15798
-fer coulé figuré,1,Fer,non,15798
-fer coulé ou de fonte,15,Fer,non,15798
-fer courbe,1,Fer,non,15798
-fer cullière,0,Fer,oui,15798
-fer d'Espagne,3,Fer,non,15798
+fer,3087,Fer,non,15796
+fer à cardes,1,Fer,non,15796
+fer à cheval,5,Fer,non,15796
+fer à coiffer,5,Fer,non,15796
+fer à faire feu,1,Fer,non,15796
+fer à friser,1,Fer,non,15796
+fer à la valeur,4,Fer,non,15796
+fer à lames,1,Fer,non,15796
+fer à moulins,1,Fer,non,15796
+fer à mulets,1,Fer,non,15796
+fer à nègre,24,Fer,non,15796
+fer à repasser,13,Fer,non,15796
+fer battu,75,Fer,non,15796
+fer battu et fondu,1,Fer,non,15796
+fer battu et ouvrages de fer,145,Fer,non,15796
+fer bleu,1,Fer,non,15796
+fer brut,2,Fer,non,15796
+fer brut de fonte,5,Fer,non,15796
+fer carré,16,Fer,non,15796
+fer caverges,4,Fer,non,15796
+fer coudé,2,Fer,non,15796
+fer coulé,326,Fer,non,15796
+fer coulé en fonte,1,Fer,non,15796
+fer coulé en gueuse,11,Fer,non,15796
+fer coulé et de fonte,6,Fer,non,15796
+fer coulé figuré,1,Fer,non,15796
+fer coulé ou de fonte,15,Fer,non,15796
+fer courbe,1,Fer,non,15796
+fer cullière,0,Fer,oui,15796
+fer d'Espagne,3,Fer,non,15796
 fer de captifs,1,,non,652560
-fer de charrues,2,Fer,non,15798
-fer de fonte,68,Fer,non,15798
-fer de fonte en gueuse,3,Fer,non,15798
-fer de fonte ouvert,2,Fer,non,15798
-fer de lin cierge,1,Fer,non,15798
-fer de mulets,2,Fer,non,15798
-fer de Sibérie,1,Fer,non,15798
-fer de tôle,1,Fer,non,15798
-fer de toute sorte,13,Fer,non,15798
-fer de traite,1,Fer,non,15798
-fer de voyage,1,Fer,non,15798
-fer dhipsium,1,Fer,non,15798
-fer en ?,9,Fer,non,15798
-fer en balle,1,Fer,non,15798
-fer en ballon,5,Fer,non,15798
-fer en bandes,37,Fer,non,15798
-fer en barils,2,Fer,non,15798
-fer en batterie,92,Fer,non,15798
-fer en bocages,3,Fer,non,15798
-fer en bottes,24,Fer,non,15798
-fer en boue,1,Fer,non,15798
-fer en casse,18,Fer,non,15798
-fer en caverge,1,Fer,non,15798
-fer en chaudronnerie,7,Fer,non,15798
-fer en choux,6,Fer,non,15798
-fer en crapaudines,5,Fer,non,15798
-fer en culture,1,Fer,non,15798
-fer en écopes,9,Fer,non,15798
-fer en fafion,1,Fer,non,15798
-fer en feuilles doubles,2,Fer,non,15798
-fer en fichu,1,Fer,non,15798
-fer en fonte,11,Fer,non,15798
-fer en fourrure,1,Fer,non,15798
-fer en grappes,1,Fer,non,15798
-fer en grenades,2,Fer,non,15798
-fer en grenaille,19,Fer,non,15798
-fer en grillons,3,Fer,non,15798
-fer en grosses,1,Fer,non,15798
-fer en guéné,1,Fer,non,15798
-fer en gueuse,130,Fer,non,15798
-fer en haches,1,Fer,non,15798
-fer en laine,1,Fer,non,15798
-fer en laiton,3,Fer,non,15798
-fer en lamelles,1,Fer,non,15798
-fer en liens,1,Fer,non,15798
-fer en limaille,1,Fer,non,15798
-fer en metumes,1,Fer,non,15798
-fer en mine,0,Fer,non,15798
-fer en mitraille,5,Fer,non,15798
-fer en palmes,1,Fer,non,15798
-fer en paquet,6,Fer,non,15798
+fer de charrues,2,Fer,non,15796
+fer de fonte,68,Fer,non,15796
+fer de fonte en gueuse,3,Fer,non,15796
+fer de fonte ouvert,2,Fer,non,15796
+fer de lin cierge,1,Fer,non,15796
+fer de mulets,2,Fer,non,15796
+fer de Sibérie,1,Fer,non,15796
+fer de tôle,1,Fer,non,15796
+fer de toute sorte,13,Fer,non,15796
+fer de traite,1,Fer,non,15796
+fer de voyage,1,Fer,non,15796
+fer dhipsium,1,Fer,non,15796
+fer en ?,9,Fer,non,15796
+fer en balle,1,Fer,non,15796
+fer en ballon,5,Fer,non,15796
+fer en bandes,37,Fer,non,15796
+fer en barils,2,Fer,non,15796
+fer en barres et feuillards,3,,non,652560
+fer en barres et feuilles,1,,non,652560
+fer en batterie,92,Fer,non,15796
+fer en bocages,3,Fer,non,15796
+fer en bottes,24,Fer,non,15796
+fer en boue,1,Fer,non,15796
+fer en casse,18,Fer,non,15796
+fer en caverge,1,Fer,non,15796
+fer en chaudronnerie,7,Fer,non,15796
+fer en choux,6,Fer,non,15796
+fer en crapaudines,5,Fer,non,15796
+fer en culture,1,Fer,non,15796
+fer en écopes,9,Fer,non,15796
+fer en fafion,1,Fer,non,15796
+fer en feuilles doubles,2,Fer,non,15796
+fer en fichu,1,Fer,non,15796
+fer en fonte,9,Fer,non,15796
+fer en fourrure,1,Fer,non,15796
+fer en grappes,1,Fer,non,15796
+fer en grenades,2,Fer,non,15796
+fer en grenaille,19,Fer,non,15796
+fer en grillons,3,Fer,non,15796
+fer en grosses,1,Fer,non,15796
+fer en guéné,1,Fer,non,15796
+fer en gueuse,130,Fer,non,15796
+fer en haches,1,Fer,non,15796
+fer en laine,1,Fer,non,15796
+fer en laiton,3,Fer,non,15796
+fer en lamelles,1,Fer,non,15796
+fer en liens,1,Fer,non,15796
+fer en limaille,1,Fer,non,15796
+fer en metumes,1,Fer,non,15796
+fer en mine,0,Fer,non,15796
+fer en mitraille,5,Fer,non,15796
+fer en palmes,1,Fer,non,15796
+fer en paquet,6,Fer,non,15796
 fer en paquets,6,,oui,652560
-fer en planches,1,Fer,non,15798
-fer en plançons,1,Fer,non,15798
-fer en plane,0,Fer,non,15798
-fer en plaques,292,Fer,non,15798
-fer en platines,195,Fer,non,15798
-fer en platures,1,Fer,non,15798
+fer en planches,1,Fer,non,15796
+fer en plançons,1,Fer,non,15796
+fer en plane,0,Fer,non,15796
+fer en plaques,292,Fer,non,15796
+fer en platines,195,Fer,non,15796
+fer en platures,1,Fer,non,15796
 fer en plomb,1,,non,652560
-fer en pocle,1,Fer,non,15798
-fer en potin,1,Fer,non,15798
-fer en quincaille,3,Fer,non,15798
-fer en sablerie,1,Fer,non,15798
-fer en sol,2,Fer,non,15798
-fer en suc,1,Fer,non,15798
-fer en taillanderie,23,Fer,non,15798
-fer en tôle et en feuilles,0,Fer,non,15798
-fer en truffe,10,Fer,non,15798
-fer en verges et lattes,123,Fer,non,15798
-fer en vrilles,1,Fer,non,15798
-fer et canons de fer,1,Fer,non,15798
-fer et étain,1,Fer,non,15798
-fer et ferrements à nègre,3,Fer,non,15798
-fer et ferrure,1,Fer,non,15798
-fer et ferrures,0,Fer,oui,15798
-fer figuré,4,Fer,non,15798
-fer floud,1,Fer,non,15798
-fer fondu,4,Fer,non,15798
-fer fondu en grillons,1,Fer,non,15798
+fer en pocle,1,Fer,non,15796
+fer en potin,1,Fer,non,15796
+fer en quincaille,3,Fer,non,15796
+fer en sablerie,1,Fer,non,15796
+fer en sol,2,Fer,non,15796
+fer en suc,1,Fer,non,15796
+fer en taillanderie,23,Fer,non,15796
+fer en tôle et en feuilles,0,Fer,non,15796
+fer en truffe,10,Fer,non,15796
+fer en verges et lattes,123,Fer,non,15796
+fer en vrilles,1,Fer,non,15796
+fer et canons de fer,1,Fer,non,15796
+fer et étain,1,Fer,non,15796
+fer et ferrements à nègre,3,Fer,non,15796
+fer et ferrure,1,Fer,non,15796
+fer et ferrures,0,Fer,oui,15796
+fer figuré,4,Fer,non,15796
+fer floud,1,Fer,non,15796
+fer fondu,4,Fer,non,15796
+fer fondu en grillons,1,Fer,non,15796
 "fer fondu en Hambourg et planques, poêles et chaudière",1,,non,652560
-"fer fondu en Hambourg et planques, poêles et chaudières",1,Fer,oui,15798
-fer fondu et coulé,135,Fer,non,15798
-fer forgé en massiaux ou prismes,3,Fer,non,15798
-fer laminé,1,Fer,non,15798
-fer maqua,6,Fer,non,15798
-fer marchand,1900,Fer,non,15798
-fer marth,1,Fer,non,15798
-fer moulé autre que pour projectiles de guerre,2,Fer,non,15798
-fer neuf,1,Fer,non,15798
-fer noir,259,Fer,non,15798
-fer noir de 450 feuilles,3,Fer,non,15798
-fer noir de feuilles,21,Fer,non,15798
-fer noir double,3,Fer,non,15798
-fer noir en feuilles doubles,6,Fer,non,15798
-fer noir en feuilles simples,7,Fer,non,15798
-fer noir et en tôle,5,Fer,non,15798
-fer noir et simple de 450 feuilles,2,Fer,non,15798
-fer noir simple,20,Fer,non,15798
-fer noirci,1,Fer,non,15798
-fer ou fer fondu,3,Fer,non,15798
-fer ouvré grossier,1,Fer,non,15798
-fer plat,48,Fer,non,15798
-fer pour foyer,2,Fer,non,15798
-fer pour liquarer et en verge,3,Fer,non,15798
-fer pour moulins à sucre,1,Fer,non,15798
-fer préparé pour canons de fusils et pistolets,1,Fer,non,15798
+"fer fondu en Hambourg et planques, poêles et chaudières",1,Fer,oui,15796
+fer fondu et coulé,135,Fer,non,15796
+fer forgé en massiaux ou prismes,3,Fer,non,15796
+fer laminé,1,Fer,non,15796
+fer maqua,6,Fer,non,15796
+fer marchand,1900,Fer,non,15796
+fer marth,1,Fer,non,15796
+fer moulé autre que pour projectiles de guerre,2,Fer,non,15796
+fer neuf,1,Fer,non,15796
+fer noir,259,Fer,non,15796
+fer noir de 450 feuilles,3,Fer,non,15796
+fer noir de feuilles,21,Fer,non,15796
+fer noir double,3,Fer,non,15796
+fer noir en feuilles doubles,6,Fer,non,15796
+fer noir en feuilles simples,7,Fer,non,15796
+fer noir et en tôle,5,Fer,non,15796
+fer noir et simple de 450 feuilles,2,Fer,non,15796
+fer noir simple,20,Fer,non,15796
+fer noirci,1,Fer,non,15796
+fer ou fer fondu,3,Fer,non,15796
+fer ouvré grossier,1,Fer,non,15796
+fer plat,48,Fer,non,15796
+fer plat en barres,1,,non,652560
+fer pour foyer,2,Fer,non,15796
+fer pour liquarer et en verge,3,Fer,non,15796
+fer pour moulins à sucre,1,Fer,non,15796
+fer préparé pour canons de fusils et pistolets,1,Fer,non,15796
 fer préparé pour forces à tondre le drap,1,,non,652560
-fer préparé pour forces à tondre les draps,0,Fer,oui,15798
-fer rond,51,Fer,non,15798
-fer roue,1,Fer,non,15798
+fer préparé pour forces à tondre les draps,0,Fer,oui,15796
+fer rond,51,Fer,non,15796
+fer roue,1,Fer,non,15796
 fer roulé,1,,non,652560
-fer spaté,14,Fer,non,15798
-fer tôle,2,Fer,non,15798
-fer vieux,456,Fer,non,15798
-fer vieux ouvré,1,Fer,non,15798
-fer-blanc,1470,Fer,non,15798
-fer-blanc brut,2,Fer,non,15798
-fer-blanc de 450 feuilles,4,Fer,non,15798
-Fer-blanc de 600 feuilles,1,Fer,non,15798
-fer-blanc double,21,Fer,non,15798
-fer-blanc double de 450 feuilles,1,Fer,non,15798
-fer-blanc en bottes,1,Fer,non,15798
-fer-blanc en feuilles,272,Fer,non,15798
-fer-blanc en quart,1,Fer,oui,15798
-fer-blanc en tôle,5,Fer,non,15798
-fer-blanc et de 600 feuilles,2,Fer,non,15798
-fer-blanc étamé laminé ou platiné,6,Fer,non,15798
-fer-blanc laminé ou platiné,2,Fer,non,15798
-fer-blanc par barils de 450 feuilles,1,Fer,non,15798
-fer-blanc par barils de 600 feuilles,1,Fer,non,15798
-fer-blanc simple,83,Fer,non,15798
-fer-blanc simple de 450 feuilles,3,Fer,non,15798
-fer-blanc simple pour la Compagnie des Indes,2,Fer,non,15798
-fer-blanc vieux,1,Fer,non,15798
-ferblanterie,12,Fer,non,15798
-ferrachon,6,Fer,non,15798
-ferraille,20,Fer,non,15798
-ferraille et mitraille,2,Fer,non,15798
-ferraille limaille mitraille et paille de fer,2,Fer,non,15798
-ferraille vieille,126,Fer,non,15798
+fer spaté,14,Fer,non,15796
+fer tôle,2,Fer,non,15796
+fer vieux,456,Fer,non,15796
+fer vieux ouvré,1,Fer,non,15796
+fer-blanc,1470,Fer,non,15796
+fer-blanc brut,2,Fer,non,15796
+fer-blanc de 450 feuilles,4,Fer,non,15796
+Fer-blanc de 600 feuilles,1,Fer,non,15796
+fer-blanc double,21,Fer,non,15796
+fer-blanc double de 450 feuilles,1,Fer,non,15796
+fer-blanc en bottes,1,Fer,non,15796
+fer-blanc en feuilles,272,Fer,non,15796
+fer-blanc en quart,1,Fer,oui,15796
+fer-blanc en tôle,5,Fer,non,15796
+fer-blanc et de 600 feuilles,2,Fer,non,15796
+fer-blanc étamé laminé ou platiné,6,Fer,non,15796
+fer-blanc laminé ou platiné,2,Fer,non,15796
+fer-blanc par barils de 450 feuilles,1,Fer,non,15796
+fer-blanc par barils de 600 feuilles,1,Fer,non,15796
+fer-blanc simple,83,Fer,non,15796
+fer-blanc simple de 450 feuilles,3,Fer,non,15796
+fer-blanc simple pour la Compagnie des Indes,2,Fer,non,15796
+fer-blanc vieux,1,Fer,non,15796
+ferblanterie,12,Fer,non,15796
+ferrachon,6,Fer,non,15796
+ferraille,20,Fer,non,15796
+ferraille et mitraille,2,Fer,non,15796
+ferraille limaille mitraille et paille de fer,2,Fer,non,15796
+ferraille vieille,126,Fer,non,15796
 ferrandine,5,,non,652560
 ferrements,153,,non,652560
 ferrements à chirurgie,1,,non,652560
@@ -8310,10 +8334,10 @@ feuillards de bois de 4 mètres et au-dessus,4,,non,652560
 feuillards de bois en cordes,1,,non,652560
 feuillards de bois merrains,10,,non,652560
 feuillards de bois pipage,5,,non,652560
-feuillards de fer,119,Fer,non,15798
-feuillards de fer et cercles de fer,0,Fer,non,15798
-feuillards de fer et tôle de fer,5,Fer,non,15798
-feuillards de fer ou ???,0,Fer,non,15798
+feuillards de fer,119,Fer,non,15796
+feuillards de fer et cercles de fer,0,Fer,non,15796
+feuillards de fer et tôle de fer,5,Fer,non,15796
+feuillards de fer ou ???,0,Fer,non,15796
 feuillards ou cercles,1,,non,652560
 feuillards pour barriques,2,,non,652560
 feuilles,66,,non,652560
@@ -8341,11 +8365,11 @@ feuilles de cuivre et planches de cuivre et ???,5,,non,652560
 feuilles de cuivre planches de cuivre et ouvrage de cuivre,0,,oui,652560
 feuilles de cuivre planches de cuivre et ouvrages de cuivre,2,,non,652560
 feuilles de cuivre rouge,16,,non,652560
-feuilles de fer,95,Fer,non,15798
-feuilles de fer feuillard de fer et tôle de fer,6,Fer,non,15798
-feuilles de fer pour cercles,2,Fer,non,15798
-feuilles de fer simples et doubles,1,Fer,non,15798
-feuilles de fer-blanc,1,Fer,non,15798
+feuilles de fer,95,Fer,non,15796
+feuilles de fer feuillard de fer et tôle de fer,6,Fer,non,15796
+feuilles de fer pour cercles,2,Fer,non,15796
+feuilles de fer simples et doubles,1,Fer,non,15796
+feuilles de fer-blanc,1,Fer,non,15796
 feuilles de laiton,1,,non,652560
 feuilles de laurier,4,,non,652560
 feuilles de liège,0,,oui,652560
@@ -8413,7 +8437,7 @@ figures de bronze,3,,non,652560
 figures de cire,74,,non,652560
 figures de cire habillées,5,,non,652560
 figures de cuivre,1,,non,652560
-figures de fer,1,Fer,non,15798
+figures de fer,1,Fer,non,15796
 figures de marbre,2,,non,652560
 figures de plâtre,9,,non,652560
 figures de terre,2,,non,652560
@@ -8638,15 +8662,15 @@ fil de cuivre pur non-teint,4,,non,652560
 fil de cuivre pur teint,1,,non,652560
 fil de de soie,2,,oui,652560
 fil de dorure,2,,non,652560
-fil de fer,1009,Fer,non,15798
-fil de fer à carder,49,Fer,non,15798
-fil de fer de Couty,1,Fer,non,15798
-fil de fer gros,39,Fer,non,15798
-fil de fer même étamé,7,Fer,non,15798
-fil de fer ordinaire,8,Fer,non,15798
-fil de fer passe perles,39,Fer,non,15798
-fil de fer passepoil,1,Fer,non,15798
-fil de fer pour la Compagnie des Indes,4,Fer,non,15798
+fil de fer,1009,Fer,non,15796
+fil de fer à carder,49,Fer,non,15796
+fil de fer de Couty,1,Fer,non,15796
+fil de fer gros,39,Fer,non,15796
+fil de fer même étamé,7,Fer,non,15796
+fil de fer ordinaire,8,Fer,non,15796
+fil de fer passe perles,39,Fer,non,15796
+fil de fer passepoil,1,Fer,non,15796
+fil de fer pour la Compagnie des Indes,4,Fer,non,15796
 fil de filoselle,8,,non,652560
 fil de Flandre,2,,non,652560
 fil de Flandre fin,1,,non,652560
@@ -8968,7 +8992,7 @@ fleurs artificiels,0,,oui,652560
 fleurs autres que de lavande et d'oranger,27,,non,652560
 fleurs autres que médicinales,2,,non,652560
 fleurs cannelle,1,,non,652560
-fleurs d'aspic,78,,non,652560
+fleurs d'aspic,80,,non,652560
 fleurs d'avoine,1,,non,652560
 fleurs d'esquinante,3,,non,652560
 fleurs d'estima,1,,non,652560
@@ -9058,7 +9082,7 @@ fonte de cuivre,1,,non,652560
 fonte de métal,2,,non,652560
 fonte de pistolet,19,,non,652560
 fonte de pistolets de cuir de Russie,1,,non,652560
-fonte en fer coulé,0,Fer,oui,15798
+fonte en fer coulé,0,Fer,oui,15796
 fonte en gueuses,1,,non,652560
 fonte en gueuses et blocaille,2,,non,652560
 fonte épurée,1,,non,652560
@@ -9089,7 +9113,7 @@ forme de cordonnier,0,,oui,652560
 forme de cuivre,1,,non,652560
 forme de terre,3,,non,652560
 forme de terre à sucre,3,,non,652560
-forme de terre et fabrique de fer,3,Fer,non,15798
+forme de terre et fabrique de fer,3,Fer,non,15796
 forme et pots à fèves,1,,non,652560
 forme ou pot de terre pour sucre,2,,non,652560
 formes de cuivre,0,,oui,652560
@@ -9114,7 +9138,7 @@ fougères,0,,non,652560
 fougons,6,,non,652560
 foulard,7,,non,652560
 foulard des prises,1,,non,652560
-foulas,3,,non,652560
+foulas,5,,non,652560
 fouleries,4,,non,652560
 four,1,,non,652560
 fourches de fer,1,,non,652560
@@ -9973,10 +9997,10 @@ gomme topal,1,Gomme,non,3769
 gomme verdet,1,Gomme,non,3769
 gondole de faïence,1,,non,652560
 gonds,1,,non,652560
-goudron,2440,Goudron ; de Suède,non,4231
-goudron de Suède,0,Goudron ; de Suède,non,4231
-goudron et poix,561,Goudron ; de Suède,non,4231
-goudron et poix et résines,6,Goudron ; de Suède,non,4231
+goudron,2441,Goudron ; de Suède,non,4232
+goudron de Suède,0,Goudron ; de Suède,non,4232
+goudron et poix,561,Goudron ; de Suède,non,4232
+goudron et poix et résines,6,Goudron ; de Suède,non,4232
 goules,0,,non,652560
 goupil,1,,non,652560
 gourde,1,,non,652560
@@ -10001,7 +10025,7 @@ grabeau d'indigo,99,,non,652560
 grabeau d'ivoire,2,,non,652560
 grabeau de canefice,12,,non,652560
 grabeau de cire,105,,non,652560
-grabeau de cochenille,97,Cochenille,non,1525
+grabeau de cochenille,97,Cochenille,non,1526
 grabeau de corail,30,,non,652560
 grabeau de galipot,1,,non,652560
 grabeau de gomme,18,Gomme,non,3769
@@ -10094,7 +10118,7 @@ graine de choux,104,,non,652560
 graine de choux-fleurs,11,,non,652560
 graine de citron,1,,non,652560
 graine de clave,1,,non,652560
-graine de cochenille,13,Cochenille,non,1525
+graine de cochenille,13,Cochenille,non,1526
 graine de cocon,1,,non,652560
 graine de colza,20,,non,652560
 graine de colza et ?,102,,non,652560
@@ -10336,7 +10360,9 @@ graisse fondue,1,,non,652560
 graisse ou vieux-oint,0,,oui,652560
 graisse salée,1,,non,652560
 grande voile de vaisseaux,2,,non,652560
-granille de cochenille,44,Cochenille,non,1525
+grandes pentes de lit en satin,2,,non,652560
+grandes pentes de lit en satin brodé,2,,non,652560
+granille de cochenille,44,Cochenille,non,1526
 granit,1,,non,652560
 grannette de coton,1,,non,652560
 graphite,7,,non,652560
@@ -10377,9 +10403,9 @@ grenade pour la Compagnie des Indes,1,,non,652560
 grenades de fonte,0,,non,652560
 grenadier et laurier et jasmin etc,93,,non,652560
 grenaille,7,,non,652560
-grenaille d'acier et de fer,1,Fer,non,15798
+grenaille d'acier et de fer,1,Fer,non,15796
 grenaille de C ?,2,,non,652560
-grenaille de cochenille,3,Cochenille,non,1525
+grenaille de cochenille,3,Cochenille,non,1526
 grenat,15,,non,652560
 grenat et rubis,1,,non,652560
 grenat faux,2,,non,652560
@@ -10706,7 +10732,7 @@ harpons de scies,1,,non,652560
 hartreuse,1,,non,652560
 haussière,0,,oui,652560
 hautbois,3,,non,652560
-hebichets de fil de fer,1,Fer,non,15798
+hebichets de fil de fer,1,Fer,non,15796
 helateas,2,,non,652560
 hellébore,1,,non,652560
 hemitacortum,2,,non,652560
@@ -10760,17 +10786,17 @@ horloge à réveils,1,,non,652560
 horloge commune,5,,non,652560
 horloge d'église,3,,non,652560
 horloge de bois,94,,non,652560
-horloge de fer,1,,non,652560
+horloge de fer,13,,non,652560
 horloge de mer,1,,non,652560
 horloge de sable,23,,non,652560
 horloge de tables,4,,non,652560
 horloge neuve,1,,non,652560
-horlogerie,786,,non,652560
+horlogerie,799,,non,652560
 horlogerie boîtes d'argent,6,,non,652560
 horlogerie boîtes d'or,4,,non,652560
-horlogerie boîtes de montre d'argent,1,,non,652560
-horlogerie boîtes de montre d'or,1,,non,652560
-horlogerie boîtes de pendule,3,,non,652560
+horlogerie boîtes de montre d'argent,1,,oui,652560
+horlogerie boîtes de montre d'or,1,,oui,652560
+horlogerie boîtes de pendule,3,,oui,652560
 horlogerie cadrans,1,,non,652560
 horlogerie cadrans d'émail,1,,non,652560
 horlogerie carillon,1,,non,652560
@@ -10778,27 +10804,27 @@ horlogerie carillon au-dessous d'une hectogramme,1,,non,652560
 horlogerie chaînes d'argent,1,,non,652560
 horlogerie chaînes d'or,3,,non,652560
 horlogerie chaînes de cuivre,1,,non,652560
-horlogerie clefs de montre,1,,non,652560
+horlogerie clefs de montre,1,,oui,652560
 horlogerie d'or,2,,non,652560
 horlogerie et carillon,4,,non,652560
 horlogerie fournitures,6,,non,652560
-horlogerie horloge de fer,12,,non,652560
-horlogerie monom à montre,1,,non,652560
-horlogerie monom à pendule,2,,non,652560
-horlogerie montres d'argent,12,,non,652560
-horlogerie montres d'or,14,,non,652560
-horlogerie montres de cuivre,3,,non,652560
-horlogerie montres de métal,1,,non,652560
-horlogerie montres maillées,1,,non,652560
-horlogerie mouvements de montre,7,,non,652560
-horlogerie mouvements de pendule,5,,non,652560
-horlogerie outils d'horloge,2,,non,652560
-horlogerie pendule,36,,non,652560
-horlogerie pendule de cuivre,2,,non,652560
-horlogerie pendule et réveils,259,,non,652560
-horlogerie ressorts de montre,2,,non,652560
-horlogerie ressorts de pendule,3,,non,652560
-horlogerie réveils,2,,non,652560
+horlogerie horloge de fer,12,,oui,652560
+horlogerie monom à montre,1,,oui,652560
+horlogerie monom à pendule,2,,oui,652560
+horlogerie montres d'argent,12,,oui,652560
+horlogerie montres d'or,14,,oui,652560
+horlogerie montres de cuivre,3,,oui,652560
+horlogerie montres de métal,1,,oui,652560
+horlogerie montres maillées,1,,oui,652560
+horlogerie mouvements de montre,7,,oui,652560
+horlogerie mouvements de pendule,5,,oui,652560
+horlogerie outils d'horloge,2,,oui,652560
+horlogerie pendule,36,,oui,652560
+horlogerie pendule de cuivre,2,,oui,652560
+horlogerie pendule et réveils,259,,oui,652560
+horlogerie ressorts de montre,2,,oui,652560
+horlogerie ressorts de pendule,3,,oui,652560
+horlogerie réveils,2,,oui,652560
 horlogerie timbres,1,,non,652560
 hôtes,1,,non,652560
 hôtes d'osier,4,,non,652560
@@ -11626,7 +11652,7 @@ lakmoës,0,,oui,652560
 lakuires,0,,non,652560
 lama,1,,non,652560
 lambris,1,,non,652560
-lamelles en fer,0,Fer,oui,15798
+lamelles en fer,0,Fer,oui,15796
 lames,1,,non,652560
 lames d'acier,5,,non,652560
 lames d'argent,2,,non,652560
@@ -11639,12 +11665,12 @@ lames de couteaux,1,,non,652560
 lames de couteaux de chasse,2,,non,652560
 lames de coutelas,2,,non,652560
 lames de cuivre,2,,non,652560
-lames de fer,1,Fer,non,15798
+lames de fer,1,Fer,non,15796
 lames de fleuret,7,,non,652560
 lames de rasoirs,1,,non,652560
 lames de sabre,26,,non,652560
 lames de sabres,4,,non,652560
-lames en fer,45,Fer,non,15798
+lames en fer,45,Fer,non,15796
 lames filées,0,,oui,652560
 lames non filées,0,,oui,652560
 lames peignées,0,,oui,652560
@@ -11786,7 +11812,7 @@ lentilles,162,,non,652560
 leole,1,,non,652560
 lerfage de laine,1,,non,652560
 lessive grasse,3,,non,652560
-lest,353,,non,652560
+lest,4934,,non,652560
 lest de cuir,2,,non,652560
 lest pour la pêche à la morue,1,,non,652560
 lest pour la pêche aux moule,3,,non,652560
@@ -11856,10 +11882,10 @@ limaille,4,,non,652560
 limaille d'argent,2,,non,652560
 limaille de cuivre,9,,non,652560
 limaille de cuivre et vieux cuivre brisé,1,,non,652560
-limaille de fer,2,Fer,non,15798
+limaille de fer,2,Fer,non,15796
 limaille de laiton,2,,non,652560
-limaille et paille de fer,1,Fer,non,15798
-limaille mâche-fer et paille,2,Fer,non,15798
+limaille et paille de fer,1,Fer,non,15796
+limaille mâche-fer et paille,2,Fer,non,15796
 limancais,15,,non,652560
 limancais bleues,0,,oui,652560
 limancais larges,0,,oui,652560
@@ -11871,9 +11897,9 @@ limeneas des Indes,2,,non,652560
 limeneas larges,1,,non,652560
 limes,237,,non,652560
 limes d'acier,91,,non,652560
-limes d'acier et de fer,2,Fer,non,15798
+limes d'acier et de fer,2,Fer,non,15796
 limes d'Autriche,1,,non,652560
-limes de fer,78,Fer,non,15798
+limes de fer,78,Fer,non,15796
 limes de fer pour l'entrepôt de la Compagnie des Indes,1,,non,652560
 limes en feuilles,1,,non,652560
 limes et râpes à polir dites fines,1,,non,652560
@@ -11949,13 +11975,13 @@ linge de table damassé,6,,non,652560
 linge de table de chanvre et de lin en pièces,2,,non,652560
 linge de table de lin,10,,non,652560
 linge de table de toile,12,,non,652560
-linge de table et serviettes,1,,non,652560
+linge de table et serviettes,1,,oui,652560
 linge de table fin,1,,non,652560
-linge de table nappes ouvrées,1,,non,652560
+linge de table nappes ouvrées,1,,oui,652560
 linge de table neuf,1,,non,652560
 linge de table ordinaire,1,,non,652560
 linge de table ouvré,23,,non,652560
-linge de table ouvré nappes,1,,non,652560
+linge de table ouvré nappes,1,,oui,652560
 linge de table serviettes ??? nappes,1,,non,652560
 linge de table vieux,1,,non,652560
 linge de toile de lin,2,,non,652560
@@ -12049,15 +12075,15 @@ lit de repos,1,,non,652560
 lit de sangle,1,,non,652560
 lit de satin,0,,non,652560
 lit de satin brodé,4,,non,652560
-lit de satin brodé chantournés,2,,non,652560
-lit de satin brodé ciels,2,,non,652560
-lit de satin brodé couvertures,2,,non,652560
-lit de satin brodé dossiers,2,,non,652560
-lit de satin brodé grandes pentes,2,,non,652560
-lit de satin brodé petites,2,,non,652560
-lit de satin brodé rideaux,2,,non,652560
-lit de satin brodé tabourets,2,,non,652560
-lit de satin brodé toilettes,2,,non,652560
+lit de satin brodé chantournés,2,,oui,652560
+lit de satin brodé ciels,2,,oui,652560
+lit de satin brodé couvertures,2,,oui,652560
+lit de satin brodé dossiers,2,,oui,652560
+lit de satin brodé grandes pentes,2,,oui,652560
+lit de satin brodé petites,2,,oui,652560
+lit de satin brodé rideaux,2,,oui,652560
+lit de satin brodé tabourets,2,,oui,652560
+lit de satin brodé toilettes,2,,oui,652560
 lit de satin brodé...,1,,oui,652560
 lit de serge garnie,1,,non,652560
 lit de siamoise,1,,non,652560
@@ -12073,7 +12099,7 @@ lithium,1,,non,652560
 litières,18,,non,652560
 litières de drap,1,,non,652560
 litrage,1,,non,652560
-livres,68,,non,652560
+livres,69,,non,652560
 livres anglais,1,,non,652560
 livres d'imprimerie,1,,non,652560
 livres de commerce,2,,non,652560
@@ -12147,7 +12173,7 @@ macarons,5,,non,652560
 mâche,1,,oui,652560
 mâchefer,5,,non,652560
 mâches,2,,non,652560
-maches de fer,2,Fer,non,15798
+maches de fer,2,Fer,non,15796
 machicot,9,,non,652560
 machine à éteindre le feu,1,,non,652560
 machine à feu,1,,non,652560
@@ -12376,6 +12402,7 @@ marbre scié sans autre main-d'œuvre ayant d'épaisseur moins de 10 centimètre
 marbre scié sans autre main-d'œuvre ayant d'épaisseur moins de 16 centimètres,3,,non,652560
 marbre travaillé,221,,non,652560
 marc d'olive,26,,non,652560
+marc de brede,1,,non,652560
 marc de raisin,9,,non,652560
 marcassin,2,,non,652560
 marcassite,4,,non,652560
@@ -12644,8 +12671,8 @@ matières minérales,2,,non,652560
 matières premières,105,,non,652560
 matis,1,,non,652560
 matocaux,1,,non,652560
-mats,1,,non,652560
-mâts,1431,,non,652560
+mats,1,,oui,652560
+mâts,1472,,non,652560
 mâts à bateau,2,,non,652560
 mâts à chaloupe,1,,non,652560
 mâts assortis,17,,non,652560
@@ -12733,7 +12760,7 @@ mâts de chêne,2,,non,652560
 mâts de diverse grandeur,3,,non,652560
 mâts de drapeaux,13,,non,652560
 mâts de hune,1,,non,652560
-mâts de navire,46,,non,652560
+mâts de navire,6,,non,652560
 mâts de navire de 10 palmes,2,,non,652560
 mâts de navire de 11 à 18 palmes,0,,non,652560
 mâts de navire de 12 palmes,2,,non,652560
@@ -12921,8 +12948,10 @@ mâts et mâtereaux de 50 pieds,2,,non,652560
 mâts et mâtereaux de 52 à 53 pieds,1,,non,652560
 mâts et mâtereaux de 64 pieds,1,,non,652560
 mâts et mâtereaux de 65 pieds,1,,non,652560
-mâts et mâtereaux mats,1,,non,652560
-mâts et mâtereaux mats doubles,1,,non,652560
+mâts et mâtereaux mats,1,,oui,652560
+mâts et mâtereaux mâts,1,,non,652560
+mâts et mâtereaux mats doubles,1,,oui,652560
+mâts et mâtereaux mâts doubles,1,,non,652560
 mâts et matériaux de bois,2,,non,652560
 mâts et planches de bois,0,,non,652560
 mâts façonnés,7,,non,652560
@@ -12995,6 +13024,7 @@ mélangées,2,,oui,652560
 mélasse,16,,non,652560
 mélasse des colonies françaises,0,,non,652560
 mélasse et sirop,1,,non,652560
+mélasse rhum sirop taffia,11,,non,652560
 mêlées,2,,non,652560
 melle,1,,non,652560
 melon,12,,non,652560
@@ -13069,7 +13099,7 @@ merlin,49,,non,652560
 merluche,92,,non,652560
 merluche salée,0,,non,652560
 merlus,1,,non,652560
-merrains,830,,non,652560
+merrains,831,,non,652560
 merrains ???,1,,non,652560
 merrains à barils,51,,non,652560
 merrains à barriques,479,,non,652560
@@ -13291,16 +13321,16 @@ mine d'asphalte,1,,non,652560
 mine de borde,1,,non,652560
 mine de cuivre,4,,non,652560
 mine de cuivre rouge,2,,non,652560
-mine de fer,183,Fer,non,15798
+mine de fer,183,Fer,non,15796
 mine de plomb,387,Plomb,non,4112
 mine de plomb noire,2,Plomb,non,4112
 mine de plomb rouge,2,Plomb,non,4112
 mine de Prusse,1,,non,652560
 mine de roche,3,,non,652560
 mine lavée,1,,non,652560
-minerai de fer brut ou lavé,2,Fer,non,15798
-minerai de fer chromaté,2,Fer,non,15798
-minerai de fer sulfuré,1,Fer,non,15798
+minerai de fer brut ou lavé,2,Fer,non,15796
+minerai de fer chromaté,2,Fer,non,15796
+minerai de fer sulfuré,1,Fer,non,15796
 minerai de plomb,9,Plomb,non,4112
 minéraux,2,,non,652560
 mini,0,,oui,652560
@@ -13308,6 +13338,7 @@ minium,98,Minum,non,102
 minium et mine orange,4,Minum,non,102
 minium rouge divisé,3,,non,652560
 miniun,0,,oui,652560
+minot,4,,non,652560
 minutier,3,,non,652560
 miny,260,,non,652560
 mireau,2,,non,652560
@@ -13419,17 +13450,20 @@ monnaies de cuivre pur,4,,non,652560
 monnaies du Portugal,1,,non,652560
 montichon,2,,non,652560
 montres,2,,non,652560
-montres d'argent,8,,non,652560
+montres d'argent,20,,non,652560
 montres d'argent et d'or,1,,non,652560
-montres d'or,9,,non,652560
+montres d'or,23,,non,652560
 montres d'or à répétition,1,,non,652560
 montres d'or ordinaires,1,,non,652560
-montres de cuivre,2,,non,652560
+montres de cuivre,5,,non,652560
+montres de métal,1,,non,652560
 montres de poche,6,,non,652560
 montres de poche à caisse d'argent,126,,non,652560
 montres de poche à caisse d'or,126,,non,652560
 montres de poches à caisse de pinsbeck,37,,non,652560
-montres et pendule,1,,non,652560
+montres et pendule,1,,oui,652560
+montres et pendules,1,,non,652560
+montres maillées,1,,non,652560
 moque de gréz,0,,oui,652560
 moques de grès,1,,non,652560
 moquette,197,,non,652560
@@ -13504,6 +13538,7 @@ morue verte,608,,non,652560
 morue verte avariée,1,,non,652560
 morue verte cabillaud,1,,non,652560
 morue verte cap et queues,6,,non,652560
+morue verte de Terre Neuve,30,,non,652560
 morue verte des Îles,1,,non,652560
 morue verte et salée,3,,oui,652560
 morue verte grande et moyenne,1,,non,652560
@@ -13815,8 +13850,11 @@ moutons et brebis,135,,non,652560
 moutons gras,1,,non,652560
 moutons petits,1,,non,652560
 moutons vivants,1,,non,652560
-mouvements de montre,4,,non,652560
-mouvements de pendule,2,,non,652560
+mouvements à montre,1,,non,652560
+mouvements à pendules,2,,non,652560
+mouvements de montre,11,,non,652560
+mouvements de pendule,2,,oui,652560
+mouvements de pendules,7,,non,652560
 moyeux,74,,non,652560
 muce de plomb,1,,non,652560
 mufle à chandelle,0,,non,652560
@@ -13902,16 +13940,20 @@ Nankin de coton,0,,oui,652560
 nankin des Indes,10,,oui,652560
 Nankin des Indes,10,,non,652560
 naphte,3,,non,652560
-nappes,42,,non,652560
+nappes,43,,non,652560
 nappes damassées,1,,non,652560
 nappes de tables,3,,non,652560
+nappes de toile,2,,non,652560
 nappes de toile ouvrées,2,,non,652560
-nappes et serviettes,4,,non,652560
+nappes en toile,1,,non,652560
+nappes et serviettes,3,,non,652560
 nappes et serviettes de lin,1,,non,652560
+nappes et serviettes de toile,1,,non,652560
 nappes et serviettes ouvrées,1,,non,652560
 nappes faites,14,,non,652560
 nappes fines et ouvrées,1,,non,652560
 nappes ouvrées,8,,non,652560
+nappes ouvrées de toile,2,,non,652560
 nappes unies,1,,non,652560
 natron,7,,non,652560
 natron et soude,1,,oui,652560
@@ -14327,6 +14369,7 @@ outils d'acier,1,,oui,652560
 outils d'acier et de fer,5,,non,652560
 outils d'acier pur,8,,non,652560
 outils d'agriculture,1,,non,652560
+outils d'horloge,2,,non,652560
 outils d'horlogerie,3,,non,652560
 outils d'imprimerie,8,,non,652560
 outils d'imprimerie et de marbre,1,,non,652560
@@ -14349,7 +14392,7 @@ outils de moulins à papier,2,,non,652560
 outils de moulins de fer,4,,non,652560
 outils de pêche,203,,non,652560
 outils de pêche à la morue,7,,non,652560
-outils de pêche au poisson frais,1,,oui,652560
+outils de pêche au poisson frais,2,,non,652560
 outils de pêche aux moules,25,,non,652560
 outils de pêche par Marseille,1,,non,652560
 outils en fer,0,,oui,652560
@@ -14405,7 +14448,7 @@ ouvrages d'auf en cousses,1,,non,652560
 ouvrages d'auf et de jonc,2,,non,652560
 ouvrages d'écaille,1,,non,652560
 ouvrages d'étain,986,,non,652560
-ouvrages d'horlogerie,13,,non,652560
+ouvrages d'horlogerie,13,,oui,652560
 ouvrages d'horlogerie montés,7,,non,652560
 ouvrages d'industrie,301,,non,652560
 ouvrages d'industrie étrangers,54,,non,652560
@@ -15022,7 +15065,7 @@ parchemins caficule,1,,non,652560
 parchemins en feuilles,1,,non,652560
 parchemins neufs,112,,non,652560
 parchemins vieux,79,,non,652560
-pareira brava,17,,non,652560
+pareira brava,18,,non,652560
 parement,1,,non,652560
 parfum,2,,non,652560
 parfumerie,810,,non,652560
@@ -15195,7 +15238,7 @@ pavillon de toile,1,,non,652560
 pavots,4,,non,652560
 peau de Martre,0,,oui,652560
 peau de poisson,0,,oui,652560
-peaux,156,,non,652560
+peaux,236,,non,652560
 peaux ???,8,,non,652560
 peaux à faire tambours,1,,non,652560
 peaux à fleurs et de mouton,1,,non,652560
@@ -15894,10 +15937,13 @@ pendant d'oreille,5,,non,652560
 pendant d'oreille de grena,1,,non,652560
 pendants d'oreilles à perles fausses,1,,non,652560
 penderie,1,,non,652560
-pendules,40,,non,652560
+pendules,83,,non,652560
 pendules communes,3,,non,652560
+pendules de 8 livres,1,,non,652560
 pendules de bois,2,,non,652560
+pendules de cuivre,2,,non,652560
 pendules de cuivre doré,1,,non,652560
+pendules et réveils,259,,non,652560
 péniens,1,,non,652560
 penne,1,,non,652560
 penne aguipon,1,,non,652560
@@ -15991,7 +16037,7 @@ personnes,1,,oui,652560
 pertiolles,5,,non,652560
 pertuisanes,2,,non,652560
 pesetas,1,,non,652560
-petit carré de fer,1,Fer,non,15798
+petit carré de fer,1,Fer,non,15796
 petit raz de castor,2,,oui,652560
 petit raz refoulé,1,,oui,652560
 petit raze de castor,2,,non,652560
@@ -16001,6 +16047,8 @@ petit salé et porcs salés,1,,non,652560
 petit son,1,,non,652560
 petite ratine,0,,oui,652560
 petite Venise,1,,non,652560
+petites de lit en satin,2,,non,652560
+petites de lit en satin brodé,2,,non,652560
 petites pièces de pin,1,,non,652560
 petits chênes dits chêneaux,16,,non,652560
 pétrification,1,,non,652560
@@ -16185,7 +16233,7 @@ pierres de composition,7,,non,652560
 pierres de construction,1,,oui,652560
 pierres de coument,1,,non,652560
 pierres de faux,2,,non,652560
-pierres de fer,1,Fer,non,15798
+pierres de fer,1,Fer,non,15796
 pierres de fonte,1,,non,652560
 pierres de four,40,,non,652560
 pierres de fusils,3,,non,652560
@@ -16298,9 +16346,9 @@ pierrestre,2,,non,652560
 pierrette,2,,non,652560
 pierreuve,1,,non,652560
 pierrier,0,,oui,652560
-pierrier de fer,0,Fer,oui,15798
+pierrier de fer,0,Fer,oui,15796
 pierriers,20,,non,652560
-pierriers de fer,13,Fer,non,15798
+pierriers de fer,13,Fer,non,15796
 pierriers de fonte,1,,non,652560
 pierriers garnis de leurs boites,2,,non,652560
 pigaras,1,,non,652560
@@ -16387,7 +16435,7 @@ pistolets montés,123,,non,652560
 pistolets par paire,1,,non,652560
 pistolets vieux,1,,non,652560
 pivoine,2,,non,652560
-pivots de fer,9,Fer,non,15798
+pivots de fer,9,Fer,non,15796
 plaids,85,,non,652560
 plaids ou châles,16,,non,652560
 plaire,5,,non,652560
@@ -16936,12 +16984,12 @@ plaques de cheminées en fer,1,,non,652560
 plaques de cornes,1,,non,652560
 plaques de cuivre,43,,non,652560
 plaques de cuivre rouge,1,,non,652560
-plaques de fer,55,Fer,non,15798
-plaques de fer battu,1,Fer,non,15798
-plaques de fer de fonte,1,Fer,non,15798
+plaques de fer,55,Fer,non,15796
+plaques de fer battu,1,Fer,non,15796
+plaques de fer de fonte,1,Fer,non,15796
 plaques de four,1,,non,652560
-plaques en fer battu,0,Fer,oui,15798
-plaques en fer en fonte,0,Fer,oui,15798
+plaques en fer battu,0,Fer,oui,15796
+plaques en fer en fonte,0,Fer,oui,15796
 plaques en tôle,1,,non,652560
 plastres,0,,oui,652560
 plat de grès,17,,non,652560
@@ -17253,7 +17301,7 @@ pois de Grasse,1,,non,652560
 pois en gerbe,15,,non,652560
 pois et fève et haricot,2,,non,652560
 pois et fèves,8,,non,652560
-pois fayolles,1,,non,652560
+pois fayolles,2,,non,652560
 pois haricots,1,,non,652560
 pois pointus,5,,non,652560
 pois résine,0,,oui,652560
@@ -17490,7 +17538,7 @@ poterie de faïence,263,,non,652560
 poterie de faïence et verrerie,53,,non,652560
 poterie de fer,31,,non,652560
 poterie de grès,236,,non,652560
-poterie de grès barbançons,30,,non,652560
+poterie de grès barbançons,1,,non,652560
 poterie de grès barbues,1,,non,652560
 poterie de grès cavelle,1,,non,652560
 poterie de grès commune,4,,non,652560
@@ -17504,7 +17552,7 @@ poterie de pierre et de terre,262,,non,652560
 poterie de raffinerie,1,,non,652560
 poterie de terraille,1,,non,652560
 poterie de terre,432,,non,652560
-poterie de terre barbançons,4,,non,652560
+poterie de terre barbançons,4,,oui,652560
 poterie de terre cannette,1,,non,652560
 poterie de terre cruche,1,,non,652560
 poterie de terre cuite,9,,non,652560
@@ -18003,7 +18051,7 @@ rames à filer,1,,non,652560
 rames à ramer,2,,non,652560
 rames de bateau,95,,non,652560
 rames de bois,2,,non,652560
-rames de fer,2,Fer,non,15798
+rames de fer,2,Fer,non,15796
 rames de frêne,1,,non,652560
 rames de lin,69,,non,652560
 rames de morue,1,,non,652560
@@ -18174,8 +18222,11 @@ résines exotiques scammonée,12,,non,652560
 résines ou harpoix,0,,oui,652560
 résines ou poix,122,,non,652560
 résines scammonée,23,,non,652560
-ressorts,2,,non,652560
+ressorts,1,,non,652560
+ressorts d'horlogerie,1,,non,652560
 ressorts de carrosses,1,,non,652560
+ressorts de montre,2,,non,652560
+ressorts de pendules,3,,non,652560
 ressorts de voiture,1,,non,652560
 restant de beurre,3,,non,652560
 restant de cargaison,1,,non,652560
@@ -18201,6 +18252,7 @@ rets pour tisseurs,12,,non,652560
 reuche,2,,non,652560
 revêche,5,,non,652560
 réveil,5,,non,652560
+réveils,2,,non,652560
 réverbères,3,,non,652560
 rhubarbe,752,,non,652560
 rhubarbe commune,1,,non,652560
@@ -18217,6 +18269,8 @@ rhum et tafia,40,,non,652560
 rhum et tafia étranger,1,,non,652560
 ricanias des Indes,1,,non,652560
 ricin,1,,non,652560
+rideaux de lit en satin,2,,non,652560
+rideaux de lit en satin brodé,2,,non,652560
 rideaux de soie vieux,1,,non,652560
 rite de chanvre,1,,non,652560
 rivets,1,,non,652560
@@ -18396,7 +18450,8 @@ rouge commun en poudre,1,,non,652560
 rouge d'Angleterre,20,,non,652560
 rouge d'Espagne,36,,non,652560
 rouge d'Espagne en pains,1,,non,652560
-rouge d'Espagne en play,1,,non,652560
+rouge d'Espagne en plats,3,,non,652560
+rouge d'Espagne en play,1,,oui,652560
 rouge d'Espagne en tasse,6,,non,652560
 rouge de Perse,4,,non,652560
 rouge de Perse et de rosse,1,,non,652560
@@ -19207,7 +19262,7 @@ serviettes à nappes,1,,non,652560
 serviettes communes,6,,non,652560
 serviettes d'étoupes,1,,non,652560
 serviettes de lin,1,,non,652560
-serviettes de table,1,,non,652560
+serviettes de table,2,,non,652560
 serviettes de toile,2,,non,652560
 serviettes de toile de ménage,1,,non,652560
 serviettes de toile peinte,1,,non,652560
@@ -19215,7 +19270,8 @@ serviettes découpées,76,,non,652560
 serviettes et nappes,1,,non,652560
 serviettes et nappes de toile peinte,1,,non,652560
 serviettes et nappes des Indes,1,,non,652560
-serviettes ouvrées,8,,non,652560
+serviettes ouvrées,7,,non,652560
+serviettes ouvrées de toile,1,,non,652560
 sevan de cuir de Russie,1,,non,652560
 Sèvres,1,,non,652560
 shetas des Indes,1,,non,652560
@@ -19304,7 +19360,7 @@ sirop de vinaigre,9,,non,652560
 sirop de violette,2,,non,652560
 sirop des Indes,70,,non,652560
 sirop et sucre,9,,non,652560
-sirop fin,31,,non,652560
+sirop fin,45,,non,652560
 sirop fin et mélasse,3,,non,652560
 sirop fins et sucre,9,,non,652560
 sirop médicinal,1,,non,652560
@@ -20102,6 +20158,9 @@ tablier de toile peinte,3,,non,652560
 tablier peint,2,,non,652560
 tabourets,1,,non,652560
 tabourets d'enfant,1,,non,652560
+tabourets de lit en satin,2,,non,652560
+tabourets de lit en satin brodé,2,,non,652560
+Tabourets de lit en satin brodé,2,,oui,652560
 tacelle de fer,0,,non,652560
 tacques de cheminée,0,,oui,652560
 taffes,0,,oui,652560
@@ -20151,6 +20210,7 @@ tambours d'acier,2,,non,652560
 tambours d'enfant,2,,non,652560
 tambours de fer,35,,non,652560
 tambours de fer pour moulins à sucre,1,,non,652560
+tambours de fonte,1,,non,652560
 tambours de forme,1,,non,652560
 tambours de moulins à sucre,0,,oui,652560
 tambours pour moulins à sucre,1,,non,652560
@@ -20167,7 +20227,7 @@ tanabare ???,1,,non,652560
 tanches,2,,non,652560
 tanelles,1,,non,652560
 tanier de laine,1,,non,652560
-tanjebs,5,,non,652560
+tanjebs,7,,non,652560
 tanquets de terre,1,,non,652560
 tapetal,0,,non,652560
 tapette,1,,non,652560
@@ -20210,7 +20270,7 @@ tapis de soie,1,,non,652560
 tapis de table,68,,non,652560
 tapis de table pièces,171,,non,652560
 tapis de toile cirée,1,,non,652560
-tapis de toile peinte,10,,non,652560
+tapis de toile peinte,11,,non,652560
 tapis de toile rayée,1,,non,652560
 tapis de Turquie,12,,non,652560
 tapis de velours,7,,non,652560
@@ -20382,7 +20442,7 @@ tentes canonnières,1,,non,652560
 tentes et voile,58,,non,652560
 tentes et voile en rolles ou pièces,6,,non,652560
 tepaye des Indes,1,,non,652560
-tepays,10,,non,652560
+tepays,11,,non,652560
 tepayx,0,,oui,652560
 tepis,0,,oui,652560
 teraille ed terre,0,,oui,652560
@@ -20454,6 +20514,7 @@ terre d'ombre et terre pour la peinture,4,,non,652560
 terre d'orfèvre,4,,non,652560
 terre de Bologne,1,,non,652560
 terre de Boulogne,1,,non,652560
+terre de broue,6,,non,652560
 terre de ciment,8,,non,652560
 terre de Cologne,42,,non,652560
 terre de corail,2,,non,652560
@@ -20725,6 +20786,7 @@ toile bas brin,3,,oui,652560
 toile basin coutil croisée et autre de chanvre et de lin,2,,non,652560
 toile basin coutil croisée et autres,2,,non,652560
 toile basin coutil croisée et autres de chanvre et de lin,3,,non,652560
+toile batiste en carreaux,5,,non,652560
 toile beaugrain,1,,non,652560
 toile blancard,124,,non,652560
 toile blancard cirée large,1,,non,652560
@@ -20971,7 +21033,7 @@ toile d'Artische,1,,non,652560
 toile d'aune,2,,non,652560
 toile d'Autriche,1,,non,652560
 toile d'auxonne,2,,non,652560
-toile d'azar,11,,non,652560
+toile d'azar,12,,non,652560
 toile d'azur,5,,non,652560
 toile d'azur bleue,1,,non,652560
 toile d'ecripe,1,,non,652560
@@ -21690,6 +21752,7 @@ toile guingans des indes,2,,oui,652560
 toile guingans des Indes,2,,non,652560
 toile guingans des prises,1,,non,652560
 toile guingans du Bengale,8,,non,652560
+toile guingans nationale,5,,non,652560
 toile haut brin,4,,oui,652560
 toile haut brin de Dinant,3,,oui,652560
 toile hivre,1,,non,652560
@@ -21932,18 +21995,21 @@ toilettes d'acajou,1,,non,652560
 toilettes de bois,1,,non,652560
 toilettes de bois de Chine,1,,non,652560
 toilettes de bois verni,1,,non,652560
+toilettes de lit en satin,2,,non,652560
+toilettes de lit en satin brodé,2,,non,652560
+Toilettes de lit en satin brodé,2,,oui,652560
 toilettes de Valenciennes,2,,non,652560
 toilettes façon Chine,1,,non,652560
 toilettes grises de lin,70,,non,652560
 toilettes pour femme,20,,non,652560
 toilettes vernie de Chine,1,,non,652560
 tôle,2,,non,652560
-tôle de fer,589,Fer,non,15798
-tôle de fer laminé ou platiné,2,Fer,non,15798
-tôle de fer noir laminé ou platiné,6,Fer,non,15798
-tôle de fer simple,2,Fer,non,15798
-tôle de fer-blanc,96,Fer,non,15798
-tôle double de fer,2,Fer,non,15798
+tôle de fer,589,Fer,non,15796
+tôle de fer laminé ou platiné,2,Fer,non,15796
+tôle de fer noir laminé ou platiné,6,Fer,non,15796
+tôle de fer simple,2,Fer,non,15796
+tôle de fer-blanc,96,Fer,non,15796
+tôle double de fer,2,Fer,non,15796
 tôle en platines vernies,1,,non,652560
 tombas,1,,non,652560
 tombe de marbre,1,,non,652560
@@ -22132,14 +22198,14 @@ tuyau en plomb,0,,oui,652560
 tuyaux,1,,non,652560
 tuyaux d'orgue,4,,non,652560
 tuyaux de cuir pour les pompes,1,,non,652560
-tuyaux de fer,1,Fer,non,15798
-tuyaux de fer à vernir,1,Fer,non,15798
-tuyaux de fer de fonte,1,Fer,non,15798
-tuyaux de fonte,1,Fer,non,15798
+tuyaux de fer,1,Fer,non,15796
+tuyaux de fer à vernir,1,Fer,non,15796
+tuyaux de fer de fonte,1,Fer,non,15796
+tuyaux de fonte,1,Fer,non,15796
 tuyaux de grenade,2,,non,652560
 tuyaux de pipes,2,,non,652560
 tuyaux de plomb,5,,non,652560
-tuyaux en fer,5,Fer,non,15798
+tuyaux en fer,5,Fer,non,15796
 tympanon,1,,non,652560
 ufs,0,,oui,652560
 urnes de terre,1,,non,652560
@@ -22897,13 +22963,14 @@ vinaigre de vin en bouteille,2,Vinaigre,non,7257
 vinaigre de vin en futaille,2,Vinaigre,non,7257
 vinaigre ordinaire,35,Vinaigre,non,7257
 vinaigre parfumé,2,Vinaigre,non,7257
+vinaterie,17,,non,652560
 vinvoin,1,,non,652560
 viole,1,,non,652560
 violende,1,,non,652560
 violette,1,,non,652560
 violon,4,,non,652560
 violoncelle,1,,non,652560
-violons,132,,non,652560
+violons,136,,non,652560
 violons d'enfant,1,,non,652560
 violons gros,1,,non,652560
 violons petits,1,,non,652560
