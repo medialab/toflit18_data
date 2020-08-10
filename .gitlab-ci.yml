@@ -19,7 +19,7 @@ build_bdd_centrale:
     expire_in: "1 day"
   image: python:3.5-alpine3.9
   script:
-    - cd ./scripts/ && python aggregate_sources_in_bdd_centrale.py
+    - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
   only:
     - staging
     - prod
