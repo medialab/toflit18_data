@@ -152,17 +152,17 @@ def new_source_name(flow):
             new_name.append(slugify(flow['direction']))
             
     if flow['sourcetype'] == 'National toutes directions sans produits':
-    	new_name.append('Departments_no_Products')      
-    	
+        new_name.append('Departments_no_Products')      
+        
     if flow['sourcetype'] == 'Tableau Général':
-    	new_name.append('no_Products')      
-    	
+        new_name.append('no_Products')      
+        
     if flow['sourcetype'] == 'National toutes directions sans produits' and flow['year'] == '1777':
-    	new_name=['AN_F12_245_and_246_Department_no_Products']
-    	
+        new_name=['AN_F12_245_and_246_Department_no_Products']
+        
     if flow['sourcetype'] == 'Out' and flow['source'] == 'AD38 2C635':
-    	new_name=['AD38 2C635 Sardaigne']
-    	    	
+        new_name=['AD38 2C635 Sardaigne']
+                
     new_name.append(flow['exportsimports'])
 
 
@@ -174,22 +174,17 @@ def new_source_name(flow):
             new_name.append(slugify(flow['year']))
             
     if flow['sourcetype'] == 'Out' and 'Bibliothèque Historique de la Ville de Paris Fonds Montyon 101FOSS/25' in flow['source']:
-    	new_name=['BHVP_Fonds_Montyon_101FOSS_25_Levant_Marseille_Imports_no_Products_1720_1724']
-            
-            
-    if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] == '1714'):
+        new_name=['BHVP_Fonds_Montyon_101FOSS_25_Levant_Marseille_Imports_no_Products_1720_1724']
+    
+
+    if flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and '1714' in flow['year']:
         new_name.append('monthly')
-# Je ne sais pas pourquoi cela ne marche pas 
-#   if flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and 'bis' not in flow['sourcepath']:
-#   if (flow['sourcetype'] == 'Out' and flow['direction'] == 'Rennes' and flow['year'] != 1757):
-        
-      
 
     if flow['sourcetype'] == 'Out' and 'bis' in flow['sourcepath']:
         new_name.append('bis')
         
-#    if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne':
- #       new_name.append=('bis')
+    if flow['sourcetype']=='Out' and flow['source']=='ANOM Col F 2B 14' and flow['direction']=='Bayonne':
+        new_name.append('bis')
 
     return slugify('_'.join(new_name))
 
@@ -270,9 +265,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
             datapackage_resource_path.append(path)
 
         csvreport.append([filename,nb_lines_bdd_centrale,
-            ";".join(set(d['source'] for d in source_data)),
-            ";".join(set(d['sourcetype'] for d in source_data)),
-            len(set(d['sourcepath'] for d in source_data)),";".join(set(d['sourcepath'] for d in source_data)),";".join(empty_columns)])
+            ";".join(sorted(set(d['source'] for d in source_data))),
+            ";".join(sorted(set(d['sourcetype'] for d in source_data))),
+            len(set(d['sourcepath'] for d in source_data)),";".join(sorted(set(d['sourcepath'] for d in source_data))),";".join(empty_columns)])
     datapackage_resource = collections.OrderedDict([     
         ("name", "flows"),
         ("mediatype","text/csv"),
