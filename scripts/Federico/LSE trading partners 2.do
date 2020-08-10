@@ -1,0 +1,276 @@
+global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
+cd "$dir"
+capture log using "`c(current_time)' `c(current_date)'"
+use "Données Stata/bdd courante.dta", clear
+
+*** dummy importexport
+gen importexport=0
+replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+
+
+
+*** deal with missing values and generate value_inclusive
+generate value_inclusive=value
+replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+drop if value_inclusive==.
+drop if value_inclusive==0
+
+encode direction, generate(geography) label(direction)
+
+***Regions
+generate region="KO"
+replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
+replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
+replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
+replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
+replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
+replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
+replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace pays_grouping="unknown" if pays_grouping=="????"
+replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
+replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
+replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
+replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+*** isolate grains
+**destring somehow
+
+encode grains, generate(grains_num) 
+*drop if grains=="Pas grain (0)"
+ 
+*** corrections
+*replace year=1741 if year==3
+*replace year=1787 if year==. & sourcetype_encode==6
+*replace year=1743 if year==. & sourcetype_encode==5
+* geography 19= Marseille, local = 5
+*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=52 if geography==.
+drop if grains=="."
+drop if grains_num==.
+drop if sourcetype=="1792-first semestre"
+drop if  year==1805.75 
+drop if yearstr=="10 mars-31 décembre 1787" 
+*GUILLAUME WHY?
+*drop colonies
+drop if sourcetype=="Local"  & year==1787
+drop if sourcetype=="Local"  & year==1788
+*Unify Resumé and O.G.
+**drop Resumé 1787, 1789
+drop if sourcetype=="Résumé"  & year==1787
+drop if sourcetype=="Résumé"  & year==1788
+
+
+
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+sort year importexport value_inclusive geography grains_num pays_grouping pays_simplification
+quietly by year importexport value_inclusive geography grains_num pays_grouping pays_simplification:  gen dup = cond(_N==1,0,_n)
+*drop if dup>1 
+
+drop if year==.
+drop if geography==.
+***** compute total number of partners by pays_simplification
+keep if sourcetype=="Local"
+keep if grains_num!=5
+
+collapse (sum) value_inclusive, by(year geography importexport pays_simplification)
+bys year geography importexport pays_simplification : gen idpartners=_n==1
+bys year geography importexport: egen npartners=total(idpartners)
+drop idpartners
+bys year geography importexport: egen graintrade=total(value_inclusive)
+gen lngraintrade=ln(graintrade)
+bys geography importexport: pwcorr lngraintrade npartners, obs star(.1)
+**average number of partners
+bys geography importexport: egen avpartners=mean(npartners)
+reshape wide value_inclusive lngraintrade graintrade npartners avpartners, i(geography year pays_simplification) j(importexport)
+egen panelid=group(geography pays_simplification), label
+xtset panelid year
+tsfill, full
+xtreg npartners0 lngraintrade0 i.geography i.year
+
+***invert
+
+global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
+cd "$dir"
+capture log using "`c(current_time)' `c(current_date)'"
+use "Données Stata/bdd courante.dta", clear
+
+*** dummy importexport
+gen importexport=0
+replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+
+
+
+*** deal with missing values and generate value_inclusive
+generate value_inclusive=value
+replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+drop if value_inclusive==.
+drop if value_inclusive==0
+
+encode direction, generate(geography) label(direction)
+
+***Regions
+generate region="KO"
+replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
+replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
+replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
+replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
+replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
+replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
+replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace pays_grouping="unknown" if pays_grouping=="????"
+replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
+replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
+replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
+replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+*** isolate grains
+**destring somehow
+
+encode grains, generate(grains_num) 
+*drop if grains=="Pas grain (0)"
+ 
+*** corrections
+*replace year=1741 if year==3
+*replace year=1787 if year==. & sourcetype_encode==6
+*replace year=1743 if year==. & sourcetype_encode==5
+* geography 19= Marseille, local = 5
+*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=52 if geography==.
+drop if grains=="."
+drop if grains_num==.
+drop if sourcetype=="1792-first semestre"
+drop if  year==1805.75 
+drop if yearstr=="10 mars-31 décembre 1787" 
+*GUILLAUME WHY?
+*drop colonies
+drop if sourcetype=="Local"  & year==1787
+drop if sourcetype=="Local"  & year==1788
+*Unify Resumé and O.G.
+**drop Resumé 1787, 1789
+drop if sourcetype=="Résumé"  & year==1787
+drop if sourcetype=="Résumé"  & year==1788
+
+
+
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+sort year importexport value_inclusive geography grains_num pays_grouping pays_simplification
+quietly by year importexport value_inclusive geography grains_num pays_grouping pays_simplification:  gen dup = cond(_N==1,0,_n)
+*drop if dup>1 
+
+drop if year==.
+drop if geography==.
+***** compute total number of partners by pays_simplification
+keep if sourcetype=="Local"
+keep if grains_num!=5
+
+gen period="empty"
+replace period="1early" if year<1756
+replace period="2sevenywar" if year>1755 & year<1764
+replace period="3liberalization" if year>1763 & year<1776
+replace period="4americanwar" if year>1775 & year<1784
+replace period="5crisis" if year>1783 & year<1790
+replace period="6revolutionnapoleon" if year>1789 & year<1814
+replace period="7restoration" if year>1813 & year<1823
+drop if year==1823
+
+collapse (sum) value_inclusive, by(year geography importexport pays_grouping)
+egen panelid=group(geography pays_grouping), label
+
+reshape wide value_inclusive, i(geography year pays_grouping panelid) j(importexport)
+rename value_inclusive0 import
+rename value_inclusive1 export
+xtset panelid year
+tsfill, full
+twoway (tsline import if panelid==4, lwidth(medthick) cmissing(n)) (tsline import if panelid==10 & year!=1770, lwidth(medthick) cmissing(n)) (tsline import if panelid==22, lwidth(medthick) cmissing(n)) (tsline import if panelid==32, lwidth(medthick) cmissing(n)) (tsline import if panelid==47, lwidth(medthick) cmissing(n)) (tsline import if panelid==57, lwidth(medthick) cmissing(n)), ttitle(year) tlabel(#15, grid) title("Holland exports to France")
+
+***restart
+*** compute whether exports to atlantic and med are substitute or complementary
+
+global dir "C:\Users\federico.donofrio\Documents\TOFLIT desktop\"
+cd "$dir"
+capture log using "`c(current_time)' `c(current_date)'"
+use "Données Stata/bdd courante.dta", clear
+
+*** dummy importexport
+gen importexport=0
+replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+
+
+
+*** deal with missing values and generate value_inclusive
+generate value_inclusive=value
+replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+drop if value_inclusive==.
+drop if value_inclusive==0
+
+encode direction, generate(geography) label(direction)
+
+***Regions
+generate region="KO"
+replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
+replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
+replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
+replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
+replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
+replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
+replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace pays_grouping="unknown" if pays_grouping=="????"
+replace pays_grouping="Flandre" if pays_grouping=="Flandre et autres états de l'Empereur"
+replace pays_grouping="Levant" if pays_grouping=="Levant et Barbarie"
+replace pays_grouping="USA" if pays_grouping=="États-Unis d'Amérique"
+replace pays_grouping="Outremers" if pays_grouping=="Outre-mers"
+*** isolate grains
+**destring somehow
+
+encode grains, generate(grains_num) 
+*drop if grains=="Pas grain (0)"
+ 
+*** corrections
+*replace year=1741 if year==3
+*replace year=1787 if year==. & sourcetype_encode==6
+*replace year=1743 if year==. & sourcetype_encode==5
+* geography 19= Marseille, local = 5
+*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=52 if geography==.
+drop if grains=="."
+drop if grains_num==.
+drop if sourcetype=="1792-first semestre"
+drop if  year==1805.75 
+drop if yearstr=="10 mars-31 décembre 1787" 
+*GUILLAUME WHY?
+*drop colonies
+drop if sourcetype=="Local"  & year==1787
+drop if sourcetype=="Local"  & year==1788
+*Unify Resumé and O.G.
+**drop Resumé 1787, 1789
+drop if sourcetype=="Résumé"  & year==1787
+drop if sourcetype=="Résumé"  & year==1788
+
+
+
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+sort year importexport value_inclusive geography grains_num pays_grouping pays_simplification
+quietly by year importexport value_inclusive geography grains_num pays_grouping pays_simplification:  gen dup = cond(_N==1,0,_n)
+*drop if dup>1 
+
+drop if year==.
+drop if geography==.
+***** compute total number of partners by pays_simplification
+keep if sourcetype=="Local"
+keep if grains_num!=5
+
+gen period="empty"
+replace period="1early" if year<1756
+replace period="2sevenywar" if year>1755 & year<1764
+replace period="3liberalization" if year>1763 & year<1776
+replace period="4americanwar" if year>1775 & year<1784
+replace period="5crisis" if year>1783 & year<1790
+replace period="6revolutionnapoleon" if year>1789 & year<1814
+replace period="7restoration" if year>1813 & year<1823
+drop if year==1823
+
+collapse (sum) value_inclusive, by(year geography importexport pays_grouping)
+
+
+reshape wide value_inclusive, i(year pays_grouping  importexport) j(geography)
+encode pays_grouping, generate(partner) label(paysgrouping)
+bys importexport pays_grouping : pwcorr value_inclusive2 value_inclusive4 value_inclusive15 value_inclusive20 value_inclusive22 value_inclusive24, obs star(.05)
+bys importexport pays_grouping : corr value_inclusive2 value_inclusive4 value_inclusive15 value_inclusive20 value_inclusive22 value_inclusive24

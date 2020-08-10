@@ -1,0 +1,201 @@
+{
+    "fields":[ 
+      {
+        "name": "source_type",
+        "type": "string",
+        "constraints": {
+            "required": true,
+            "enum": ["Local",
+                    "Objet Général",
+                    "Résumé",
+                    "National toutes directions partenaires manquants",
+                    "National partenaires manquants",
+                    "National toutes directions tous partenaires",
+                    "National toutes directions sans produits",
+                    "Tableau des quantités",
+                    "Tableau Général",
+                    "1792-both semester",
+                    "1792-first semester"
+                  ]
+        },
+        "description": "Source type (see http://toflit18.medialab.sciences-po.fr/#/exploration/sources)"
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "constraints": {
+            "required": true
+        },
+        "description": "Year of the trade flow, beware can't be more complex than digits -- Année du flux commercial"
+      },
+      {
+        "name": "tax_department",
+        "type": "string",
+        "description": "Geographical tax department in which the trade flow has been registered ('Direction des Fermes') -- Direction des fermes dans laquelle le flux a été enregistré"
+      },
+      {
+          "name": "tax_office",
+          "type": "string",
+          "description": "Geographical tax office in which the trade flow has been registered. A tax office is part of a tax departement -- Bureau des fermes dans lequel le flux a été enregistré"
+      },
+      {
+        "name": "partner",
+        "type": "string",
+        "description": "Partner country or region for this trade flow -- Pays ou région partenaire pour ce flux commercial (importateur ou exportateur)"
+      },
+      {
+        "name": "export_import",
+        "type": "string",
+        "description": "This variable identifies import or export trade flows -- Cette variable indique s'il s'agit d'un flux d'importation ou d'exportation",
+        "constraints": {
+            "enum": ["Exports", "Imports"]
+        }
+      },
+      {
+        "name": "product",
+        "type": "string",
+        "descriptio": "Products exchanged in that trade flow -- Marchandises échangées dans ce flux"
+      },
+      {
+        "name": "origin",
+        "type": "string",
+        "descriptio": "Products' origin -- Origine des marchandises"
+      },
+      {
+        "name": "width_in_line",
+        "type": "string",
+        "description": "Width in line for textiles -- Largeure en lignes des tissus"
+      },	
+      {
+        "name": "value",
+        "type": "number",
+        "description":	"Value of the trade flow in livres tournois or francs -- Valeur du flux commercial, en livres tournois ou en francs"
+      },
+      {
+        "name": "value_part_of_bundle",
+        "type": "number",
+        "description":	"This variables identifies trade flows where multiple quantities are associated to a single total value. This number indicates the order of the flow in the bundle. Value is indicated for the bundle but repeated in all flows. Beware of double accounts use only one value by bundle. -- Cette variable identifie les flux pour lesquels plusieurs quantitiés correspondent à une seule valeur. Ce nombre indique l'index dans l'ordre dans le groupe. La valeur concerne le groupe en entier et est répétée dans chaque flux. Attention aux doubles comptes."
+      },
+      {
+        "name": "quantity",
+        "type": "number",
+        "description":	"Product quantity (in quantity unit mentionned in 'quantity_unit' -- Quantité de marchandises (en unité de quantité mentionnée en 'quantitie_unite'"
+      },
+      {
+        "name": "quantity_unit",
+        "type": "string",
+        "description":	"Product quantity unit -- Unité de mesure de la quantité de marchandise"
+      },  
+      {
+        "name": "value_unit",
+        "type": "number",
+        "description":	"Value per unit -- Valeur par unité"
+      },
+      {
+        "name": "filepath",
+        "type": "string",
+        "description": "Localisation of the retranscription file in the git depository -- Emplacement du fichier retranscrit dans le repértoire git",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+          "name": "source",
+          "type": "string",
+          "description": "Source identification",
+          "constraints": {
+              "required": true
+          }
+      },
+      {
+        "name": "sheet",
+        "type": "string",
+        "description": "Page or picture number in the digitized source - Numéro de la page ou de la photo dans la source numérisée"
+      },
+      {
+        "name": "line_number",
+        "type": "string",
+        "description": "Line identification in the retranscription - Identification de la ligne dans la retranscription"
+      },
+      {
+        "name": "value_total",
+        "type": "number",
+        "description":	"Total value of some succeding flows given by the source -- Total d'une suite de flux donné dans la source"
+      },
+      {
+        "name": "value_sub_total_1",
+        "type": "number",
+        "description":	"Partial total given in the source (level 1) -- Total partiel donné dans la source (niveau 1)"
+      },
+      {
+        "name": "value_sub_total_2",
+        "type": "number",
+        "description":	"Partial total given in the source (level 2) -- Total partiel donné dans la source (niveau 2)"
+      },
+      {
+        "name": "value_sub_total_3",
+        "type": "number",
+        "description":	"Partial total given in the source (level 3) -- Total partiel donné dans la source (niveau 3)"
+      },
+      {
+        "name": "data_collector",
+        "type": "string",
+        "description":	"Data collector name -- Nom du retranscripteur"
+      },
+      {
+        "name": "unverified",
+        "type": "boolean",
+        "description": "The retranscription has not been checked -- Le retranscription n'a pas été vérifée"
+      },
+      {
+        "name": "remarks",
+        "type": "string",
+        "description": "Various remarks -- Remarques diverses"
+      },
+      {
+        "name": "difference_value_unit_price",
+        "type": "number",
+        "description": "Difference between the value in the source and the value computed based on unit prices and quantities (if negative, the value in the source is smaller) -- Différence entre la valeur annoncée du flux et celle calculée à partir du prix unitaire et des quantités (si négatif, la valeur annoncée est plus petite)"
+      },
+      {
+        "name": "trade_deficit",
+        "type": "number",
+        "description": "Trade deficit -- Déficit commercial"
+      },
+      {
+        "name": "trade_surplus",
+        "type": "number",
+        "description": "Trade surplus -- Excédent commercial"
+      },
+      {
+        "name": "duty_quantity",
+        "type": "number",
+        "description": "Product quantity (in quantity unit used for duty, mentionned in duty_quantity_unit) -- Quantité de marchandises (en unité de quantité utilisée pour les droits, mentionnée dans duty_quantity_unit)"
+      },
+      {
+        "name": "duty_quantity_unit",
+        "type": "string",
+        "description": "Product quantity unit used for duty -- Unité de mesure de la quantité de marchandise utilisée pour le calcul des droits"
+      },
+      {
+        "name": "duty_by_unit",
+        "type": "number",
+        "description": "Duty per unit -- Droits de douane par unité"
+      },
+      {
+        "name": "duty_total",
+        "type": "number",
+        "description": "Total duties -- Droits de douane totaux"
+      },      
+      {
+        "name": "duty_part_of_bundle",
+        "type": "number",
+        "description": "This variables identifies trade flows where a single duty payment is associated to duty payments on multiple trade flows -- Cette variable identifie les flux pour lesquels un total de droits de douane correspond à la somme des droits de douanes sur plusieurs flux"
+      },
+      {
+        "name": "duty_remarks",
+        "type": "string",
+        "description": "Various remarks on duties -- Remarques diverses sur les droits"
+      }
+  ]
+}

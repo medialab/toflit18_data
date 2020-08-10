@@ -1,0 +1,127 @@
+# Pourquoi guillaumedaudin@Oronte scripts % python3 /Users/guillaumedaudin/Documents/Recherche/Commerce\ International\ Français\ XVIIIe.xls/Balance\ du\ commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/split_bdd_centrale_in_sources.py
+Traceback (most recent call last):
+  File "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/split_bdd_centrale_in_sources.py", line 132, in <module>
+    COUNTRIES_CLASSIF[ortho['source']]=simpl[ortho['orthographic']] 
+KeyError: 'Étranger' 
+??
+# Pourquoi if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne': new_name.append=('bis') ne marche pas ?
+# Incohérence dans le gommage des "National toutes directions par partenaires.
+Dans le nom du fichier, on a soit le nom de la direction soit le nom du partenaire.
+Ce serait plus logique d’avoir le nom du partenaire, mais alors cela pose un problème de cohérence des sources
+Peut-être du coup faire un autre type de source ?
+
+# Changer le nom de AD44_C706_Rennes_Exports_1714 AD44_C706_Rennes_Imports_1714. Ajouter Monthly ?
+
+# Idem pour la Sardaigne 1726 et 28
+
+
+# Compagnie des Indes Du coup, j’ai créé un nouveau «sourcetype"
+BNF_MF_6431_France_par_la_Compagnie_des_Indes_Imports ??
+Lié avec National/Objet Général/Compagnie des Indes - Entrées - BNF MF 6431.csv ?
+599/766/801
+
+
+Pas facile à traiter... On a les importations de la Cie des Indes pour une dizaine de produits avec 5 partenaires... 1726-1771 Dont des importations de Castor du Canada (hum, hum...). Je ne pense pas que cela soit repris dans des Objets Généraux et le National par direction par partenaire de 1750. Tout doit rentrer par Lorient (on pourrait le mettre). 
+Bref, pour l’instant, c’est du Local d’habitude et du Nationale Toutes Directions Tous partenaires pour 1750 et de l’Objet Général pour les années où il y en a un. L’idée est que comme cela c’est amalgamé à ces sources lorsqu’on veut du National Best Guess.
+Mais en fait, créer une source particulière et réfléchir à la manière de faire le National Best Guess serait mieux peut-être ?
+Le mettre en "Divers-In" et changer les définitions du commerce Best Guess ?
+
+**Je crée une source type "Compagnie des Indes" que je mets dans "Divers-In". Elle se transforme comme il faut en deux fichiers.**
+
+# Nationales toutes directions sans produits
+Les sources "Nationales toutes directions sans produits"
+713-738
+AN_F12_245_Exports_1777
+AN_F12_245_Imports_1777
+AN_F12_246_Exports_1777
+AN_F12_246_Exports_1778
+AN_F12_246_Imports_1777
+AN_F12_246_Imports_1778
+AN_F12_247_Exports_1779
+AN_F12_247_Imports_1779
+AN_F12_248_Exports_1780
+AN_F12_248_Imports_1780
+BM_Rouen_Montbret_155-1_Exports_1753
+BM_Rouen_Montbret_155-1_Exports_1756
+BM_Rouen_Montbret_155-1_Exports_1766
+BM_Rouen_Montbret_155-1_Imports_1753
+BM_Rouen_Montbret_155-1_Imports_1756
+BM_Rouen_Montbret_155-1_Imports_1766
+IIHS-123_Exports_1768
+IIHS-123_Exports_1770
+IIHS-123_Exports_1771
+IIHS-123_Exports_1773
+IIHS-123_Exports_1774
+IIHS-123_Imports_1768
+IIHS-123_Imports_1770
+IIHS-123_Imports_1771
+IIHS-123_Imports_1773
+IIHS-123_Imports_1774
+
+Ont les mêmes noms que les Objets généraux (767-815)
+AN_F12_1835_Exports_1788
+AN_F12_1835_Imports_1788
+AN_F12_242_Exports_1775
+AN_F12_242_Imports_1775
+AN_F12_243_Exports_1776
+AN_F12_243_Imports_1776
+AN_F12_245_Exports_1777
+AN_F12_245_Imports_1777
+AN_F12_246_Exports_1778
+AN_F12_246_Imports_1778
+AN_F12_247_Exports_1779
+AN_F12_247_Imports_1779
+AN_F12_248_Exports_1780
+AN_F12_248_Imports_1780
+AN_F12_249_Exports_1782
+AN_F12_249_Imports_1782
+BM_Rouen_Montbret_155-1_2e_partie_Exports_1756
+BM_Rouen_Montbret_155-1_2e_partie_Imports_1756
+BM_Rouen_Montbret_155-1_Exports_1754
+BM_Rouen_Montbret_155-1_Exports_1755
+BM_Rouen_Montbret_155-1_Exports_1757
+BM_Rouen_Montbret_155-1_Exports_1761
+BM_Rouen_Montbret_155-1_Imports_1754
+BM_Rouen_Montbret_155-1_Imports_1755
+BM_Rouen_Montbret_155-1_Imports_1757
+BM_Rouen_Montbret_155-1_Imports_1761
+BM_Rouen_Montbret_155-2_Exports_1758
+BM_Rouen_Montbret_155-2_Exports_1759
+BM_Rouen_Montbret_155-2_Exports_1760
+BM_Rouen_Montbret_155-2_Imports_1758
+BM_Rouen_Montbret_155-2_Imports_1759
+BM_Rouen_Montbret_155-2_Imports_1760
+BM_Rouen_Montbret_849_Exports_1772
+BM_Rouen_Montbret_849_Imports_1772
+BNF_MF_6431_France_par_la_Compagnie_des_Indes_Imports
+IIHS-122A_Exports_1767
+IIHS-122A_Imports_1767
+IIHS-122B_Exports_1768
+IIHS-122B_Imports_1768
+IIHS-122C_Exports_1769
+IIHS-122C_Imports_1769
+IIHS-122D_Exports_1770
+IIHS-122D_Imports_1770
+IIHS-122E_Exports_1771
+IIHS-122E_Imports_1771
+IIHS-122F_Exports_1773
+IIHS-122F_Imports_1773
+IIHS-122G_Exports_1774
+IIHS-122G_Imports_1774
+
+Il faudrait trouver les moyens de les distinguer. Peut-être en rajoutant NtDsP ou Departments_No_Product au début du premier groupe ? Je ne sais pas faire des trucs aussi compliqués...
+
+**Je rajoute "Departments_no_product"**
+
+# Dunkerque
+Heuristique sur 
+AN_F12_245_Export_1777
+AN_F12_245_Import_1777
+Mêler avec 
+AN_F12_246_Export_1777
+AN_F12_246_Import_1777
+Dans "National Toutes directions sans partenaires"
+(C’est Dunkerque)
+
+**ok**
+

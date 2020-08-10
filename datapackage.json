@@ -3,29 +3,35 @@
   "datapackage_version": "1.0-beta",
   "title": "toflit18 ANR project data",
   "description": "",
-  "version": "2.0",
+  "version": "1.0",
   "keywords": ["history", "economy", "France", "Trade","18th century"],
   "licenses": [{
     "url": "http://opendatacommons.org/licenses/odbl/",
-    "name": "Attribution and Share-Alike for Data/Databases",
+    "title": "Attribution and Share-Alike for Data/Databases",
     "version": "1.0",
-    "id": "odc-odbl"
+    "name": "odc-odbl"
   }],
   "sources": [{
-    "name": "Diverses",
-    "web": "http://toflit18.hypotheses.org"
+    "title": "The archives of French eighteenth century trade",
+    "web": "http://toflit18.medialab.sciences-po.fr/#/exploration/sources"
   }],
   "contributors":[ {
-    "name": "Paul Girard",
+    "title": "Paul Girard",
     "email": "paul.girard@sciencespo.fr",
-    "web": "http://medialab.sciences-po.fr"
+    "web": "http://medialab.sciences-po.fr",
+    "role": "author"
   },
    {
-    "name": "Guillaume Daudin",
-    "email": "guillaume.daudin@dauphine.fr ",
-    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html"
+    "title": "Guillaume Daudin",
+    "email": "guillaume.daudin@dauphine.psl.eu",
+    "web": "http://www.dauphine.fr/fr/personnels/enseignants/cvtri/D/cv/guillaume-daudin.html",
+    "role": "author"
+  },
+  {
+    "title": "Loïc Charles",
+    "email": "loic.charles@dinde.fr",
+    "role": "author"
   }
-
   ],
   "maintainers": [
   {
@@ -39,39 +45,68 @@
     "data-package-name": ">=1.0"
   },
   "resources": [
-    {     
-      "path": "excel_sources",
-      "name": "digitalized sources in excel format",
-      "description": "digitalized data sources from Balance du commerce before tranformation into CSV. Deprecated version kept for history.",
-      "mediatype":"inode/directory",
-      "format":"xls",
-      "encoding":"UTF8"
-    },
-    {     
-      "path": "sources",
-      "name": "digitalized sources",
-      "description": "digitalized data sources from Balance du commerce. CSV files in folders",
-      "mediatype":"inode/directory",
-      "format":"csv",
-      "encoding":"UTF8"
-    },
-    {     
-      "path": "toflit18.csv",
-      "name": "the toflit18 unified database",
-      "description": "all sources unified in one database ready to be analyzed",
-      "mediatype":"text/csv",
-      "format":"csv",
-      "encoding":"UTF8"
-    },
-    
-        {     
-      "path": "Traitement des marchandises",
-      "name": "Work on the name of goods",
-      "description": "Work on the name of goods",
-      "mediatype":"text/csv",
-      "format":"csv",
-      "encoding":"UTF8"
+    {
+      "name": "classifications_index",
+      "path": "base/classifications_index.csv",
+      "description": "This table list the classifications available to agregate country and product. It describes the hierarchy of classification which one beeing based on another one. The index does not contain the classification data which are in dedicated files whose name are standardized as base/classification_{model}_{slug}.csv. Those files are not in the datapackage because their structure moves with scientists usage...",
+      "fields": [
+        {
+          "name": "slug",
+          "type": "string",
+          "constraints": {
+              "required": true,
+              "unique": true
+          },
+          "description": "classification slug name used to uniquely identify the classification. The slug is used as variable name in classification tables."
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "constraints": {
+              "required": true,
+              "enum": ["partner", "product"]
+          },
+          "description": "The type of object which are classified. It's the data field in the flow resource which is targeted by the classification."
+        },
+        {
+          "name": "parentSlug",
+          "type": "string",
+          "description": "Slug of the parent classification. Left blank for the source which are the root of classification tree."
+        }, 
+        {
+          "name": "name",
+          "type": "string",
+          "constraints": {
+            "required": true
+          },
+          "description": "Human readable name of the classification"
+        },
+        {
+          "name": "author",
+          "type": "string",
+          "constraints": {
+            "required": true
+          },
+          "description": "Classification author name.s"
+        }, 
+        {
+          "name": "description",
+          "type": "string",
+          "constraints": {
+            "required": true
+          },
+          "description": "Classification description"
+        }
+      ],
+      "foreignKeys": [
+        {
+          "fields": "parentSlug",
+          "reference": {
+            "resource": "classifications_index",
+            "fields": "slug"
+          }
+        }
+      ]
     }
-    
   ]
 }
