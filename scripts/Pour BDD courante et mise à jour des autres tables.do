@@ -960,7 +960,7 @@ replace national_geography_best_guess = 1 if sourcetype=="Tableau Général" | s
 
 capture drop local_product_best_guess
 gen local_product_best_guess=0
-replace local_product_best_guess= 1 if sourcetype=="Local" & year !=1750 | sourcetype== "National toutes directions sans produits"
+replace local_product_best_guess= 1 if (sourcetype=="Local" & year !=1750) | (sourcetype== "National toutes directions tous partenaires & year == 1750)
  
  
  ********************************************************************
