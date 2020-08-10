@@ -265,9 +265,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
             datapackage_resource_path.append(path)
 
         csvreport.append([filename,nb_lines_bdd_centrale,
-            ";".join(set(d['source'] for d in source_data)),
-            ";".join(set(d['sourcetype'] for d in source_data)),
-            len(set(d['sourcepath'] for d in source_data)),";".join(set(d['sourcepath'] for d in source_data)),";".join(empty_columns)])
+            ";".join(sorted(set(d['source'] for d in source_data))),
+            ";".join(sorted(set(d['sourcetype'] for d in source_data))),
+            len(set(d['sourcepath'] for d in source_data)),";".join(sorted(set(d['sourcepath'] for d in source_data))),";".join(empty_columns)])
     datapackage_resource = collections.OrderedDict([     
         ("name", "flows"),
         ("mediatype","text/csv"),
