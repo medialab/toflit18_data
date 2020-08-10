@@ -183,8 +183,8 @@ def new_source_name(flow):
     if flow['sourcetype'] == 'Out' and 'bis' in flow['sourcepath']:
         new_name.append('bis')
         
-#    if flow['sourcetype'] == 'Out' and flow['source'] =='ANOM Col F 2B 14' and flow['direction']=='Bayonne':
- #       new_name.append=('bis')
+    if flow['sourcetype']=='Out' and flow['source']=='ANOM Col F 2B 14' and flow['direction']=='Bayonne':
+        new_name.append('bis')
 
     return slugify('_'.join(new_name))
 
