@@ -147,18 +147,13 @@ def new_source_name(flow):
                 flow['source'] != 'AN F12 250' and \
                 'AN F12 1667' not in flow['source']) or \
                 'Fonds Gournay' in flow['source']:
-            new_name.append(slugify(COUNTRIES_CLASSIF[flow['pays']]))
+            new_name.append(slugify("partner %s"%COUNTRIES_CLASSIF[flow['pays']]))
         elif flow['source'] != "AD76 7F97 - via Dardel" and 'direction' in flow and flow['direction'].strip() != '' and flow['sourcetype'] != 'National toutes directions sans produits':
             new_name.append(slugify(flow['direction']))
-            
-    if flow['sourcetype'] == 'National toutes directions sans produits':
-        new_name.append('Departments_no_Products')      
-        
-    if flow['sourcetype'] == 'Tableau Général':
-        new_name.append('no_Products')      
+              
         
     if flow['sourcetype'] == 'National toutes directions sans produits' and flow['year'] == '1777':
-        new_name=['AN_F12_245_and_246_Department_no_Products']
+        new_name=['AN_F12_245_and_246']
         
     if flow['sourcetype'] == 'Out' and flow['source'] == 'AD38 2C635':
         new_name=['AD38 2C635 Sardaigne']
