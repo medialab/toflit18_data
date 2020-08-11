@@ -162,7 +162,7 @@ foreach variable of var product partner quantity_unit {
 
 zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
-foreach variable of var quantity value value_unit probleme { 
+foreach variable of var quantity value value_unit problem { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -998,7 +998,7 @@ use "$dir/bdd courante", replace
 keep if year=="1750"
 keep if tax_department=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit probleme remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit problem remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 
