@@ -15,14 +15,13 @@ VERBOSE = True
 REMOVE_COLUMN = False
 SOURCES_ROOT_DIR = '..'
 
-def cast_numrodeligne(value):
+def cast_line_number(value):
     if not len(value):
         return 0
-
     try:
-        return int(value)
+        return float(value.replace(',','.'))
     except:
-        return 0
+        raise Exception("line_number is not a float %s"%value)
 
 with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
 
@@ -47,7 +46,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
 
     # line sort order
     # source_type / year / tax_department / export_import / numéro de ligne / product / partner
-    lines_key_sort = lambda k: (k.get('source_type',''), k.get('year', ''), k.get('tax_department', ''), k.get('export_import', ''), cast_numrodeligne(k.get('line_number', 0)), k.get('product', ''), k.get('partner',''))
+    lines_key_sort = lambda k: cast_line_number(k.get('line_number', 0))
 
     sort_bdd_centrale = lambda r: (r['source_type'], r['filepath'])
     data = sorted(data, key=sort_bdd_centrale)
