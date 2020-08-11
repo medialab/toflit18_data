@@ -928,6 +928,7 @@ merge 1:1 exportsimports country_grouping direction product_simplification produ
  generate unit_price_metric=value/quantities_metric
  replace  unit_price_metric=prix_unitaire/conv_orthographic_to_simplificat*conv_simplification_to_metric if unit_price_metric==. 
 
+ save "$dir/Données Stata/bdd courante_temp.dta", replace
  
  *************Pour les best guess
  gen NationalBestGuess=0
