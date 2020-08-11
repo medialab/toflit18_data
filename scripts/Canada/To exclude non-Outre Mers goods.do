@@ -12,7 +12,7 @@ gen surement_pas_canada=1
 
 tab country_simplification if year <=1765
 
-replace surement_pas_canada=0 if exportsimports == "Imports"  &  ( ///
+replace surement_pas_canada=0 if export_import == "Imports"  &  ( ///
 		country_simplification == "Îles françaises de l'Amérique" | ///
 		country_simplification == "Îles françaises" | ///
 		country_simplification == "Îles de l'Amérique" | ///

@@ -5,7 +5,7 @@ set more off
 
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
-** version 3 : permet d'utiliser les fichiers Units_N2 et Units_N3 avec les nouvelles classifications marchandises
+** version 3 : permet d'utiliser les fichiers Units_N2 et Units_N3 avec les nouvelles classifications product
 ** ATTENTION script propre au travail sur l'Angleteerre ici
 
 if "`c(username)'"=="Corentin" global dir "/Users/Corentin/Desktop/script/" 
@@ -15,7 +15,7 @@ cd "$dir"
 *log using "Version2.txt", text replace
 
 foreach file in classification_country_orthographic_normalization classification_country_simplification classification_country_grouping /*
-*/               bdd_revised_marchandises_normalisees_orthographique bdd_revised_marchandises_simplifiees bdd_classification_edentreaty bdd_marchandises_normalisees /*
+*/               bdd_revised_product_normalisees_orthographique bdd_revised_product_simplifiees bdd_classification_edentreaty bdd_product_normalisees /*
 */				 Units_N1 Units_N2 Units_N3 {
 
 	import delimited "toflit18_data/base/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
@@ -41,7 +41,7 @@ foreach file in classification_country_orthographic_normalization classification
 
 foreach file in travail_sitcrev3 sitc18_simpl {
 
-	import delimited "toflit18_data/traitements_marchandises/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "toflit18_data/traitements_product/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 		foreach variable of var * {
 			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -60,7 +60,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 }
 		
 		
-import delimited "toflit18_data/traitements_marchandises/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "toflit18_data/traitements_product/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -87,7 +87,7 @@ import delimited "toflit18_data/traitements_marchandises/SITC/Définitions sitc_
 
 
 import delimited "toflit18_data/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
-foreach variable of var marchandises pays quantity_unit {
+foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -97,7 +97,7 @@ foreach variable of var marchandises pays quantity_unit {
 	replace `variable'  =ustrtrim(`variable')
 }
 
-foreach variable of var quantit value prix_unitaire { 
+foreach variable of var quantity value value_unit { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -113,12 +113,12 @@ foreach variable of var quantit value prix_unitaire {
 }
 
 
-destring numrodeligne  total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
-destring quantit prix_unitaire value, replace
+destring line_number  total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
+destring quantity value_unit value, replace
 
 drop if source==""
-drop if value==0 & quantit==. & prix_unitaire==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_unitaire==0) /*idem*/
+drop if value==0 & quantit==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantit==.|quantit==0) & (value_unit==.|value_unit==0) /*idem*/
 replace value=. if (value==0 & quantit!=. & quantit!=0)
 
 
@@ -127,13 +127,13 @@ replace value=. if (value==0 & quantit!=. & quantit!=0)
 /*
 generate byte computed_value = 0
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
-replace computed_value=1 if (value==0 | value==.) & prix_unitaire!=0 & prix_unitaire!=. & quantit!=0 & quantit!=.
-replace value = quantit*prix_unitaire if computed_value==1
+replace computed_value=1 if (value==0 | value==.) & value_unit!=0 & value_unit!=. & quantit!=0 & quantit!=.
+replace value = quantit*value_unit if computed_value==1
 
 gen byte computed_up = 0
 label var computed_up "Was the unit price computed expost based on and quantities and value ? 0 no 1 yes"
-replace computed_up=1 if (prix_unitaire==0 | prix_unitaire==.) & value!=0 & value!=. & quantit!=0 & quantit!=.
-replace prix_unitaire = value/quantit  if computed_up==1
+replace computed_up=1 if (value_unit==0 | value_unit==.) & value!=0 & value!=. & quantit!=0 & quantit!=.
+replace value_unit = value/quantity  if computed_up==1
 */
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "Données Stata/bdd_centrale.csv", replace
@@ -151,7 +151,7 @@ cd "$dir/Données Stata"
 use "bdd_centrale.dta", clear
 
 merge m:1 quantity_unit using "Units_N1.dta"
-drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop line_number-total value_sub_total_1-remarkspourlesdroits
 drop computed_value computed_up
 
 capture drop source_bdc
@@ -179,15 +179,15 @@ export delimited "Units_N1.csv", replace
 
 ****Pays*************
 use "bdd_centrale.dta", clear
-merge m:1 pays using "classification_country_orthographic_normalization.dta"
-drop numrodeligne-marchandises value-remarkspourlesdroits
+merge m:1 partner using "classification_country_orthographic_normalization.dta"
+drop line_number-product value-remarkspourlesdroits
 
 
 drop _merge
-bys pays : keep if _n==1
-keep pays orthographic_normalization_classification note
+bys partner : keep if _n==1
+keep partner orthographic_normalization_classification note
 save "classification_country_orthographic_normalization.dta", replace
-generate sortkey = ustrsortkey(pays, "fr")
+generate sortkey = ustrsortkey(partner, "fr")
 sort sortkey
 drop sortkey
 export delimited classification_country_orthographic_normalization.csv, replace
@@ -235,34 +235,34 @@ export delimited classification_country_grouping.csv, replace
 *************Marchandises
 
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", replace
-bys marchandises : drop if _n!=1
+use "bdd_revised_product_normalisees_orthographique.dta", replace
+bys product : drop if _n!=1
 
-save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+save "bdd_revised_product_normalisees_orthographique.dta", replace
 
 use "bdd_centrale.dta", clear
-merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+merge m:1 product using "bdd_revised_product_normalisees_orthographique.dta"
 
 drop _merge
 
-keep marchandises orthographic_normalization_classification mériteplusdetravail
+keep product orthographic_normalization_classification mériteplusdetravail
 
-bys marchandises : keep if _n==1
+bys product : keep if _n==1
 
 
-save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
-generate sortkey = ustrsortkey(marchandises, "fr")
+save "bdd_revised_product_normalisees_orthographique.dta", replace
+generate sortkey = ustrsortkey(product, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_revised_marchandises_normalisees_orthographique.csv, replace
+export delimited bdd_revised_product_normalisees_orthographique.csv, replace
 
 **
-use "bdd_revised_marchandises_simplifiees.dta", replace
-bys marchandises_norm_orth : drop if _n!=1
-save "bdd_revised_marchandises_simplifiees.dta", replace
+use "bdd_revised_product_simplifiees.dta", replace
+bys product_norm_orth : drop if _n!=1
+save "bdd_revised_product_simplifiees.dta", replace
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", clear
-merge m:1 orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
+use "bdd_revised_product_normalisees_orthographique.dta", clear
+merge m:1 orthographic_normalization_classification using "bdd_revised_product_simplifiees.dta"
 
 keep orthographic_normalization_classification simplification_classification _merge
 drop if _merge==2
@@ -271,11 +271,11 @@ drop _merge
 bys orthographic_normalization_classification : keep if _n==1
 
 
-save "bdd_revised_marchandises_simplifiees.dta", replace
+save "bdd_revised_product_simplifiees.dta", replace
 generate sortkey = ustrsortkey(orthographic_normalization_classification, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_revised_marchandises_simplifiees.csv, replace
+export delimited bdd_revised_product_simplifiees.csv, replace
 
 **
 
@@ -283,7 +283,7 @@ use "travail_sitcrev3.dta", clear
 bys simplification_classification : drop if _n!=1
 save "travail_sitcrev3.dta", replace
 
-use "bdd_revised_marchandises_simplifiees.dta", clear
+use "bdd_revised_product_simplifiees.dta", clear
 merge m:1 simplification_classification using "travail_sitcrev3.dta"
 
 
@@ -310,7 +310,7 @@ export delimited travail_sitcrev3.csv, replace
 
 use "bdd_centrale.dta", clear
 
-merge m:1 pays using "classification_country_orthographic_normalization.dta"
+merge m:1 partner using "classification_country_orthographic_normalization.dta"
 drop if _merge==2
 drop note-_merge
 
@@ -327,11 +327,11 @@ drop note-_merge
 
 ******
 
-merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+merge m:1 product using "bdd_revised_product_normalisees_orthographique.dta"
 drop if _merge==2
 drop mériteplusdetravail-_merge
 
-merge m:1 orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
+merge m:1 orthographic_normalization_classification using "bdd_revised_product_simplifiees.dta"
 drop if _merge==2
 drop _merge
 
@@ -388,11 +388,11 @@ export delimited "bdd courante.csv", replace
 
 **
 
-use "bdd_marchandises_normalisees.dta", clear
+use "bdd_product_normalisees.dta", clear
 	
-	sort marchandises_normalisees
+	sort product_normalisees
 
-save "bdd_marchandises_normalisees.dta", replace
+save "bdd_product_normalisees.dta", replace
 
 *********************** MAJ UNITS
 
@@ -400,22 +400,22 @@ save "bdd_marchandises_normalisees.dta", replace
 
 use "Units_N2.dta", clear
 
-	sort marchandises_normalisees
-	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	sort product_normalisees
+	joinby product_normalisees using "bdd_product_normalisees.dta", unmatched(master)  
 	drop _merge
 	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
 */	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
-*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
+*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	product_normalisees_inter
 
 *
 
-	merge m:1 marchandises using "bdd_revised_marchandises_normalisees_orthographique.dta"
+	merge m:1 product using "bdd_revised_product_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
 *
 	
-	merge m:1 orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
+	merge m:1 orthographic_normalization_classification using "bdd_revised_product_simplifiees.dta"
 	drop if _merge==2
 	drop _merge	
 	
@@ -424,8 +424,8 @@ use "Units_N2.dta", clear
 
 drop if simplification_classification==""
 
-drop marchandises_normalisees
-drop marchandises
+drop product_normalisees
+drop product
 drop orthographic_normalization_classification
 
 bys quantity_unit simplification_classification : keep if _n==1
@@ -439,34 +439,34 @@ save "Units_N2_revised.dta", replace
 
 use "Units_N3.dta", clear
 
-	rename pays_regroupes grouping_classification
+	rename partner_regroupes grouping_classification
 
-	sort marchandises_normalisees
-	joinby marchandises_normalisees using "bdd_marchandises_normalisees.dta", unmatched(master)  
+	sort product_normalisees
+	joinby product_normalisees using "bdd_product_normalisees.dta", unmatched(master)  
 	drop _merge	
 	drop product_prix	dutchtranslation	englishproduct	unit	alternativenames	/* 
 */	source_rg_1774	source_rgbase	source_france	source_sound	source_hambourg	v14	v15	/*
-*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	marchandises_normalisees_inter
+*/  remarques	nbr_lignes_fr	nbr_lignes_hambourg	blok	product_normalisees_inter
 
 *
 
-	merge m:1 marchandises using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_marchandises_normalisees_orthographique.dta"
+	merge m:1 product using "/Users/Corentin/Desktop/script/Données Stata/bdd_revised_product_normalisees_orthographique.dta"
 	drop if _merge==2
 	drop _merge
 
 *
 
-	merge m:1 orthographic_normalization_classification using "bdd_revised_marchandises_simplifiees.dta"
+	merge m:1 orthographic_normalization_classification using "bdd_revised_product_simplifiees.dta"
 	drop if _merge==2
 	drop _merge	
 
 *
 
-drop marchandises_normalisees
-drop marchandises
+drop product_normalisees
+drop product
 drop orthographic_normalization_classification
 
-bys quantity_unit simplification_classification exportsimports grouping_classification : keep if _n==1
+bys quantity_unit simplification_classification export_import grouping_classification : keep if _n==1
 
 rename quantity_unit quantity_unit_orthographe
 
@@ -479,11 +479,11 @@ use "bdd courante.dta", clear
 merge m:1 quantity_unit_orthographe simplification_classification using "Units_N2_revised.dta"
 drop if _merge==2
 drop _merge
-* 3 _merge==2 -> combinaisons nouvelles marchandises_normalisees-quantity_unit viennent de Hambourg (tonneaux de beurre et d'huile de baleine, quartiers d'eau de vie)
+* 3 _merge==2 -> combinaisons nouvelles product_normalisees-quantity_unit viennent de Hambourg (tonneaux de beurre et d'huile de baleine, quartiers d'eau de vie)
 
 su q_conv 
 
-merge m:1 quantity_unit_orthographe simplification_classification exportsimports grouping_classification using "Units_N3_revised.dta"
+merge m:1 quantity_unit_orthographe simplification_classification export_import grouping_classification using "Units_N3_revised.dta"
 drop if _merge==2
 drop _merge
 replace quantity_unit_ajustees = n2_quantity_unit_ajustees  if n2_quantity_unit_ajustees!=""
@@ -500,7 +500,7 @@ replace q_conv=n3_q_conv if n3_q_conv!=.
 replace remarque_unit=n2_remarque_unit if n2_remarque_unit!=""
 replace remarque_unit =n3_remarque_unit if n3_remarque_unit!=""
 drop n2_u_conv n3_u_conv n2_q_conv n3_q_conv n2_remarque_unit n3_remarque_unit
-*** à la fin il y a 64 635 observations -> les 64 633 de départ + les 3 issues des combinaisons nouvelles marchandises_normalisees-quantity_unit venant de Hambourg
+*** à la fin il y a 64 635 observations -> les 64 633 de départ + les 3 issues des combinaisons nouvelles product_normalisees-quantity_unit venant de Hambourg
 *************************** ******
 su q_conv 
 *
@@ -515,7 +515,7 @@ generate quantites_metric = q_conv * quantit
 save "bdd courante", replace
 export delimited "bdd courante.csv", replace
 
-*drop if quantit == .
+*drop if quantity == .
 *drop if quantity_unit == ""
 su quantites_metric
 
@@ -529,7 +529,7 @@ save "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", replace
 use "bdd_centrale.dta", clear
 
 merge m:1 quantity_unit using "Units_N2_revised.dta"
-drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop line_number-total value_sub_total_1-remarkspourlesdroits
 drop computed_value computed_up
 
 capture drop source_bdc
@@ -559,7 +559,7 @@ export delimited "Units_N2_revised.csv", replace
 use "bdd_centrale.dta", clear
 
 merge m:1 quantity_unit using "Units_N3_revised.dta"
-drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop line_number-total value_sub_total_1-remarkspourlesdroits
 drop computed_value computed_up
 
 capture drop source_bdc

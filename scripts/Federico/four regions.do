@@ -10,27 +10,27 @@ use "Données Stata/bdd courante.dta", clear
 
 *** dummy importexport
 gen importexport=0
-replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+replace importexport=1 if (export_import=="Export" | export_import=="Exports"| export_import=="Sortie")
 
 
 
 *** deal with missing values and generate value_inclusive
 generate value_inclusive=value
-replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=.
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode direction, generate(geography) label(direction)
+encode tax_department, generate(geography) label(tax_department)
 
 ***Regions
 generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
+replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
+replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
+replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
+replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
+replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
+replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
 
 *** isolate grains
 **destring somehow
@@ -39,57 +39,57 @@ encode grains, generate(grains_num)
 keep if (grains!="Pas grain (0)")
 
 ***SOURCETYPE
-encode sourcetype, generate(sourcetype_encode) label(sourcetype)
+encode source_type, generate(source_type_encode) label(source_type)
 
 *** corrections
 *replace year=1741 if year==3
-*replace year=1787 if year==. & sourcetype_encode==6
-*replace year=1743 if year==. & sourcetype_encode==5
+*replace year=1787 if year==. & source_type_encode==6
+*replace year=1743 if year==. & source_type_encode==5
 * geography 19= Marseille, local = 5
-*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=19 if geography==. & source_type_encode==5 & year==1765
 *replace geography=52 if geography==.
 drop if grains=="."
 drop if grains_num==.
-drop if sourcetype=="1792-first semestre"
+drop if source_type=="1792-first semestre"
 drop if  year==1805.75 
 drop if yearstr=="10 mars-31 décembre 1787" 
 *GUILLAUME WHY?
 *drop colonies
-drop if sourcetype=="Local"  & year==1787
-drop if sourcetype=="Local"  & year==1788
+drop if source_type=="Local"  & year==1787
+drop if source_type=="Local"  & year==1788
 *Unify Resumé and O.G.
 **drop Resumé 1787, 1789
-drop if sourcetype=="Résumé"  & year==1787
-drop if sourcetype=="Résumé"  & year==1788
+drop if source_type=="Résumé"  & year==1787
+drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification pays
-quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification pays:  gen dup = cond(_N==1,0,_n)
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
+sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification partner
+quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification partner:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
-**merge local and national par directions series (Guillaume please check these lines!!!)
-clonevar sourcetype_merged=sourcetype_encode 
-replace sourcetype_merged=3 if sourcetype_merged==5
-replace sourcetype_merged=3 if sourcetype_merged==6
+**merge local and national par tax_departments series (Guillaume please check these lines!!!)
+clonevar source_type_merged=source_type_encode 
+replace source_type_merged=3 if source_type_merged==5
+replace source_type_merged=3 if source_type_merged==6
 
 *combine Resumé and Objet Général
-replace sourcetype_merged=7 if sourcetype=="Résumé"
-replace sourcetype_merged=7 if sourcetype=="Tableau de marchandises"
-replace sourcetype_merged=7 if sourcetype=="Tableau des quantités"
+replace source_type_merged=7 if source_type=="Résumé"
+replace source_type_merged=7 if source_type=="Tableau de product"
+replace source_type_merged=7 if source_type=="Tableau des quantités"
 
-*drop local without direction (mainly colonies for 1789)
-drop if  sourcetype_merged!=7 & geography==.
+*drop local without tax_department (mainly colonies for 1789)
+drop if  source_type_merged!=7 & geography==.
 *force Objet général entries with a geography into Objet Général, assuming they are simply late coming data (CHECK THIS WITH GUILLAUME!)
-replace geography=0 if sourcetype_merged==7
+replace geography=0 if source_type_merged==7
 
 drop if year==.
 
 
 
 
-save "importandexport_fourdirections.dta", replace
+save "importandexport_fourtax_departments.dta", replace
 
 
 

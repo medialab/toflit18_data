@@ -10,7 +10,7 @@ log using "Log_stata_2019 07 11 TOFLIT18 _ simple_`c(current_date)'_`c(current_t
 *** (1)
 *** strdist or ustrdist for Levenshtein distance
 
-*1.1 marchandises vs simplification
+*1.1 product vs simplification
 ustrdist product product_simplification, g(goodsGA)
 sum goodsGA
 recode goodsGA (0 = .) if missing(product)
@@ -46,7 +46,7 @@ restore
 
 *******************************************************
 
-*1.2 marchandises vs orthographics
+*1.2 product vs orthographics
 ustrdist product product_orthographic, g(goodsOrthGA)
 sum goodsOrthGA
 recode goodsOrthGA (0 = .) if missing(product) 
@@ -81,10 +81,10 @@ foreach var of varlist countryGA {
 }
 tab Flag_countryGA
 
-*1.4 pays vs orthographics
-ustrdist pays country_orthographic, g(countryOrthGA)
+*1.4 partner vs orthographics
+ustrdist partner country_orthographic, g(countryOrthGA)
 sum countryOrthGA
-recode countryOrthGA (0 = .) if missing(pays)
+recode countryOrthGA (0 = .) if missing(partner)
 *(countryOrthGA: 2594 changes made)
 recode countryOrthGA (0/1000 = .) if missing(country_orthographic)
 *(countryOrthGA: 0 changes made)
@@ -121,8 +121,8 @@ tab Flag_unitGA
 
 *** (2)
 *** Detecting outliers of observations
-* dependant: 	 prix_unitaire value
-* independent: year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id
+* dependant: 	 value_unit value
+* independent: year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id
 
 *Outliers by year categories
 *"Peace 1716-1744" if year <= 1744
@@ -145,13 +145,13 @@ sum country_grouping_id
 sort product_orthographic
 egen product_orthographic_id = group(product_orthographic)
 sum product_orthographic_id
-sort direction
-egen direction_id = group(direction)
-sum direction_id
+sort tax_department
+egen tax_department_id = group(tax_department)
+sum tax_department_id
 sum country_grouping_id
-sort exportsimports
-egen exportsimports_id = group(exportsimports)
-sum exportsimports_id
+sort export_import
+egen export_import_id = group(export_import)
+sum export_import_id
 sort product_simplification
 egen product_simplification_id = group(product_simplification)
 sum product_simplification_id
@@ -162,108 +162,108 @@ sum quantity_unit_ortho_id
 
 *2.1                          Quantity
 
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
 tab out_quantity_peace1744
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
 tab out_quantity_war1748
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
 tab out_quantity_peace1755
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
 tab out_quantity_war1763
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
 tab out_quantity_peace1777
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783, generate(out_quantity_war1783) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1778 & year <=1783, generate(out_quantity_war1783) percentile(0.01)
 tab out_quantity_war1783
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
 tab out_quantity_peace1792
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
 tab out_quantity_war1807
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
 tab out_quantity_blockade1815
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816 & year <=1748, generate(out_quantity_peace1840) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1816 & year <=1748, generate(out_quantity_peace1840) percentile(0.01)
 tab out_quantity_peace1840
 
 *2.2                          Price
 
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
 tab out_prix_peace1744
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1745 & year <=1748, generate(out_prix_war1748) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1745 & year <=1748, generate(out_prix_war1748) percentile(0.01)
 tab out_prix_war1748
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1749 & year <=1755, generate(out_prix_peace1755) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1749 & year <=1755, generate(out_prix_peace1755) percentile(0.01)
 tab out_prix_peace1755
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1756 & year <=1763, generate(out_prix_war1763) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1756 & year <=1763, generate(out_prix_war1763) percentile(0.01)
 tab out_prix_war1763
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1763 & year <=1777, generate(out_prix_peace1777) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1763 & year <=1777, generate(out_prix_peace1777) percentile(0.01)
 tab out_prix_peace1777
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1778 & year <=1783, generate(out_prix_war1783) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1778 & year <=1783, generate(out_prix_war1783) percentile(0.01)
 tab out_prix_war1783
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1784 & year <=1792, generate(out_prix_peace1792) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1784 & year <=1792, generate(out_prix_peace1792) percentile(0.01)
 tab out_prix_peace1792
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1793 & year <=1807, generate(out_prix_war1807) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1793 & year <=1807, generate(out_prix_war1807) percentile(0.01)
 tab out_prix_war1807
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1808 & year <=1815, generate(out_prix_blockade1815) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1808 & year <=1815, generate(out_prix_blockade1815) percentile(0.01)
 tab out_prix_blockade1815
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1816 & year <=1748, generate(out_prix_peace1840) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1816 & year <=1748, generate(out_prix_peace1840) percentile(0.01)
 tab out_prix_peace1840
 
 *2.3                          Value
 
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
 tab out_value_peace1744
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_value_war1748) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1745 & year <=1748, generate(out_value_war1748) percentile(0.01)
 tab out_value_war1748
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_value_peace1755) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1749 & year <=1755, generate(out_value_peace1755) percentile(0.01)
 tab out_value_peace1755
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_value_war1763) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1756 & year <=1763, generate(out_value_war1763) percentile(0.01)
 tab out_value_war1763
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_value_peace1777) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1763 & year <=1777, generate(out_value_peace1777) percentile(0.01)
 tab out_value_peace1777
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783, generate(out_value_war1783) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1778 & year <=1783, generate(out_value_war1783) percentile(0.01)
 tab out_value_war1783
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_value_peace1792) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1784 & year <=1792, generate(out_value_peace1792) percentile(0.01)
 tab out_value_peace1792
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807, generate(out_value_war1807) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1793 & year <=1807, generate(out_value_war1807) percentile(0.01)
 tab out_value_war1807
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_value_blockade1815) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1808 & year <=1815, generate(out_value_blockade1815) percentile(0.01)
 tab out_value_blockade1815
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816 & year <=1748, generate(out_value_peace1840) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1816 & year <=1748, generate(out_value_peace1840) percentile(0.01)
 tab out_value_peace1840
 
 
 *** EXAMPLE
 *1) for the first specification of 2.1:
-bacon q_conv year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
+bacon q_conv year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
 * outliers detection is saved under "out_quantity_peace1744" as a dummy variable equal to 1 if it is an outlier
-br direction country_grouping product_simplification if out_quantity_peace1744==1
+br tax_department country_grouping product_simplification if out_quantity_peace1744==1
 * above command shows several products with different origins and destination that are all outliers. We choose one of products "vin de ville" to compare it with similar products that are not selected as outlier:
-br q_conv direction country_grouping out_quantity_peace1744 if product_simplification=="vin de ville" & year <= 1744
-* above command shows list of "vin de ville". With the same "direction" some of them have been selected as outlier and some of them not. The same situation with "country_grouping". Two above commands show that for
-* the first specification of 2.1, number of obsevations has been selected as outliers under name of "out_quantity_peace1744" with specific combination of direction, country_grouping and product name while for the
-* similar variables of direction or pruduct or country_grouping there are observations that are not selected as an outlier even if they have some values equal to one of the observations that is an outlier. It shows
+br q_conv tax_department country_grouping out_quantity_peace1744 if product_simplification=="vin de ville" & year <= 1744
+* above command shows list of "vin de ville". With the same "tax_department" some of them have been selected as outlier and some of them not. The same situation with "country_grouping". Two above commands show that for
+* the first specification of 2.1, number of obsevations has been selected as outliers under name of "out_quantity_peace1744" with specific combination of tax_department, country_grouping and product name while for the
+* similar variables of tax_department or pruduct or country_grouping there are observations that are not selected as an outlier even if they have some values equal to one of the observations that is an outlier. It shows
 * a combination of feadures has been considered to determine if an observation is an outlier.
-* However, in some cases the data is too limited by the product name frequency. In this case we can compare different product_names with the same direction instead of comparing same product_name with different directions:
+* However, in some cases the data is too limited by the product name frequency. In this case we can compare different product_names with the same tax_department instead of comparing same product_name with different tax_departments:
 
 *2) for example for the first specification of 2.2:
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
-br prix_unitaire direction country_grouping product_simplification quantity_unit_ortho if out_prix_peace1744==1
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
+br value_unit tax_department country_grouping product_simplification quantity_unit_ortho if out_prix_peace1744==1
 * in this case frequency of each product is too low.
-br prix_unitaire product_simplification out_prix_peace1744 if direction=="Bordeaux" & country_grouping=="Outre-mers" & year <= 1744
+br value_unit product_simplification out_prix_peace1744 if tax_department=="Bordeaux" & country_grouping=="Outre-mers" & year <= 1744
 sort out_prix_peace1744
-* in the above command 12 products have been selected as outliers over 5000 observation with the same direction and same country_grouping, within the same period of time.
+* in the above command 12 products have been selected as outliers over 5000 observation with the same tax_department and same country_grouping, within the same period of time.
 
 * From this example we can see that explanatory variables have real effects on detection of dependent variable as an outlier. For example many observation with price of 800 has been and has not been detected as outliers:
 * or with same origin  
-br prix_unitaire direction exportsimports country_grouping quantity_unit_ortho out_prix_peace1744 if product_simplification=="coffres de chirurgie" & year <= 1744
-br prix_unitaire direction exportsimports country_grouping quantity_unit_ortho out_prix_peace1744 product_simplification if year <= 1744
-sort prix_unitaire
+br value_unit tax_department export_import country_grouping quantity_unit_ortho out_prix_peace1744 if product_simplification=="coffres de chirurgie" & year <= 1744
+br value_unit tax_department export_import country_grouping quantity_unit_ortho out_prix_peace1744 product_simplification if year <= 1744
+sort value_unit
 
 *3) same exmple from the first specification of 2.3:
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
-br direction country_grouping product_simplification if out_value_peace1744==1
-br product_simplification out_value_peace1744 if direction=="Bordeaux" & country_grouping=="Outre-mers" & year <= 1744
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
+br tax_department country_grouping product_simplification if out_value_peace1744==1
+br product_simplification out_value_peace1744 if tax_department=="Bordeaux" & country_grouping=="Outre-mers" & year <= 1744
 sort out_value_peace1744
 
-* In all example list above, a missing value of the outlier dummy means there was a missing of dependant variable. This is also an evidence that q_conv, prix_unitaire, and value are considered as the only dependents.
+* In all example list above, a missing value of the outlier dummy means there was a missing of dependant variable. This is also an evidence that q_conv, value_unit, and value are considered as the only dependents.
 
 log close _all
 

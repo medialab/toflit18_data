@@ -6,25 +6,25 @@ global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/B
 ***Evolution de chaque gamme
 capture program drop evolution_gamme
 program evolution_gamme
-args geographie exportsimports reference sitc
+args geographie export_import reference sitc
 ** reference peut être product_luxe_dans_type product_luxe_dans_type product_sitc_FR tous
 
 use "$dir/Données Stata/bdd courante.dta", clear
 
-keep if exportsimports=="`exportsimports'"
+keep if export_import=="`export_import'"
 if "`sitc'"!="tous" keep if product_sitc=="`sitc'"
 
 if "`geographie'"=="France" {
 	keep if NationalBestGuess==1
 	gen geographie="France"
-	merge m:1 geographie exportsimports year using "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"/*
+	merge m:1 geographie export_import year using "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"/*
 	*/, keep(3)
 }
 
 if "`geographie'" !="France" {
-	keep if LocalBestGuess==1 & strmatch(direction,"*`geographie'*")==1
+	keep if LocalBestGuess==1 & strmatch(tax_department,"*`geographie'*")==1
 	gen geographie="`geographie'"
-	merge m:1 geographie exportsimports year using "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"/*
+	merge m:1 geographie export_import year using "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"/*
 	*/, keep(3)
 }
 drop _merge
@@ -73,14 +73,14 @@ replace share_haut=share_milieu+share_haut
 graph twoway (bar share_haut year, cmissing(n) color(dknavy)) (bar share_milieu year, cmissing(n) color(blue)) /*
 	*/ (bar share_bas year, cmissing(n) color(ltblue)) /*
 	*/ (connected total year, yaxis(2) cmissing(n) msymbol(diamond) msize(small) lcolor(red) mcolor(red)), /*
-	*/ name(`geographie'_`exportsimports'_`reference'_`sitc', replace) /*
-	*/ title (`geographie'--`exportsimports'--`reference' -- `sitc' SITC18) /*
+	*/ name(`geographie'_`export_import'_`reference'_`sitc', replace) /*
+	*/ title (`geographie'--`export_import'--`reference' -- `sitc' SITC18) /*
 	*/ legend (label(1 "Haut de gamme") label(2 "Milieu de gamme") label(3 "Bas de gamme") label(4 "Valeur totale du commerce")) /*
 	*/ ytitle("Millions de livres ou de francs", axis(2)) /*
 	*/ yscale(range(0) axis(2)) yscale(range(0) axis(1))
 		
 	
-graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'_`reference'_`sitc'.pdf", replace
+graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`export_import'_`reference'_`sitc'.pdf", replace
 
 end
 
