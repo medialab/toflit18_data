@@ -62,14 +62,17 @@ class PackageTranslator:
         for row in rows:
             formated_row = {}
             for field, value in row.items():
-                if field == '':
-                    print(field, value)
-                    print(row)
-                if field in self.variables_translations_to_datapackage:
-                    formated_row[self.variables_translations_to_datapackage[field]] = value
-                elif field not in ['value_as_reported', 'replace_computed_up', 'computed_value']:
-                    # computed fields are not reported as extra fields.
-                    extra_fields.add(field)
+                # ignore empty/missing value
+                if value != '' and value !='.':
+                    if field == '':
+                        print(field, value)
+                        print(row)
+                        raise Exception('empty field')
+                    if field in self.variables_translations_to_datapackage:
+                        formated_row[self.variables_translations_to_datapackage[field]] = value
+                    elif field not in ['value_as_reported', 'replace_computed_up', 'computed_value']:
+                        # computed fields are not reported as extra fields.
+                        extra_fields.add(field)
                 formated_row['filepath'] = filepath
             yield formated_row
         if len(extra_fields) > 0:
@@ -83,7 +86,15 @@ class PackageTranslator:
         with open(path, 'w', encoding='utf8') as output:
             writer = DictWriter(output, fieldnames=self.fieldnames)
             writer.writeheader()
-            writer.writerows(self._format_for_datapackage(flows, path))
+            new_flows = list(self._format_for_datapackage(flows, path))
+            if 'numrodeligne' in flows[0] or 'numerodeligne' in flows[0] :
+                nb_line_number_before = sum(1 for f in flows if f['numrodeligne'] != '' or f['numerodeligne'] != '')
+                nb_line_number_after = sum(1 for f in new_flows if 'line_number' in f and f['line_number'] != '')
+                if nb_line_number_before != nb_line_number_after :
+                    print(nb_line_number_before)
+                    print(nb_line_number_after)
+                    exit(1)
+            writer.writerows(new_flows)
 
             # path to be added in the datapackage resource
             return path
@@ -95,11 +106,10 @@ REMOVE_COLUMN=False
 def cast_numrodeligne(value):
     if not len(value):
         return 0
-
     try:
-        return int(value)
+        return float(value.replace(',','.'))
     except:
-        return 0#value
+        raise Exception("line_number is not a float %s"%value)
 
 year_re = re.compile('.*?(\d{4}).*')
 special_chars = re.compile('[^-A-z0-9\._/]')
@@ -222,7 +232,7 @@ def correct_source(flow):
     return new_source
 
 
-with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
+with open("./deprecated_bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
 
     reader = DictReader(bdd_centrale)
     translator = PackageTranslator()
@@ -230,7 +240,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
 
     # line sort order
     # SourceType / year / direction / exportsimports / numéro de ligne / marchandises / pays
-    lines_key_sort = lambda k:(k.get('sourcetype',''), k.get('year',''), k.get('direction',''), k.get('exportsimports',''), cast_numrodeligne(k.get('numrodeligne',0)), k.get('marchandises',''), k.get('pays',''))
+    lines_key_sort = lambda k:cast_numrodeligne(k.get('numrodeligne',0))
 
     data = sorted(data, key=lambda r : (r['sourcetype'], new_source_name(r)) )
     csvreport=[["new sourcepath","nb line bdd_centrale","old source.s","source type.s", "nb old sourcepath.s","old sourcepath.s","columns removed"]]
