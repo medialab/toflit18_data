@@ -1,0 +1,35 @@
+Variable order,Variable names,Variable names in French,Legacy variable names,description de la variable en anglais (texte libre),description de la variable en français (texte libre)
+1,source,source,source ; Source,Source identification,Identification de la source
+2,source_type,type_de_source,sourcetype,Source type (see http://toflit18.medialab.sciences-po.fr/#/exploration/sources),Type de la source (see http://toflit18.medialab.sciences-po.fr/#/exploration/sources)
+3,tax_department,direction_des_fermes,direction,"Geographical tax department in which the trade flow has been registered (""Direction des Fermes"")",Direction des fermes dans laquelle le flux a été enregistré
+4,tax_office,bureaux_des_fermes,bureaux,Geographical tax office in which the trade flow has been registered. A tax office is part of a tax departement.,Bureau des fermes dans lequel le flux a été enregistré
+5,year,annee,Year ; year,Year of the trade flow,Année du flux commercial
+5,export_import,export_import,exportsimports,This variable identifies import or export trade flows,Cette variable indique s'il s'agit d'un flux d'importation ou d'exportation
+6,sheet,page,Sheet ; sheet; ,Page or picture number in the digitized source,Numéro de la page ou de la photo dans la source numérisée
+7,line_number,numero_de_ligne,numrodeligne,Line identification in the retranscription,Identification de la ligne dans la retranscription
+8,products,marchandise,Marchandises ; marchandises,Products exchanged in that trade flow,Marchandises échangées dans ce flux
+9,width_in_line,largeur_en_ligne,Largeur en lignes (pour tissus),Width in line for textiles,Largeure en lignes des tissus
+10,origin,origine_marchandise,origine,Products' origin,Origine des marchandises
+11,partner,partenaire,pays,Partner country or region for this trade flow,Pays ou région partenaire pour ce flux commercial (importateur ou exportateur)
+11,value,valeur,value,Value of the trade flow in livres tournois or francs,"Valeur du flux commercial, en livres tournois ou en francs"
+12,value_part_of_bundle,partie_dun_paquet_de_valeur,doubleaccount ; doubeaccounts,This variables identifies trade flows where multiple quantities are associated to a single total value,Cette variable identifie les flux pour lesquels plusieurs quantitiés correspondent à une seule valeur
+13,value_sub_total_1,sous_total_1,leurvaleursubtotal_1,Partial total given in the source (level 1),Total partiel donné dans la source (niveau 1)
+14,value_sub_total_2,sous_total_2,leurvaleursubtotal_2,Partial total given in the source (level 2),Total partiel donné dans la source (niveau 2)
+15,value_sub_total_3,sous_total_3,leurvaleursubtotal_3,Partial total given in the source (level 3),Total partiel donné dans la source (niveau 3)
+16,value_total,total,Total ; total,total given by the source,Total donné dans la source
+17,quantity,quantite,quantit ; Quantité,"Product quantity (in quantity unit mentionned in ""quantity_unit)","Quantité de marchandises (en unité de quantité mentionnée en ""quantitie_unite"")"
+18,quantity_unit,unite,quantity_unit,Product quantity unit,Unité de mesure de la quantité de marchandise
+19,unit_price,prix_unitaire,prix_unitaire,Price per unit,Prix par unité
+20,value_minus_unit_val_x_qty,valeur_moins_prix_unitaire_x_qté,probleme,"Difference between the value in the source and the value computed based on unit prices and quantities (if negative, the value in the source is smaller)","Différence entre la valeur annoncée du flux et celle calculée à partir du prix unitaire et des quantités (si négatif, la valeur annoncée est plus petite)"
+21,trade_deficit,deficit_commercial,Balance en argent au désavantage de la France,Trade deficit,Déficit commercial
+22,trade_surplus,excedent_commercial,Balances en argent en faveur de la France,Trade surplus,Excédent commercial
+23,remarks,remarques,remarks,Various remarks,Remarques diverses
+24,duty_quantity,quantite_pour_les_droits,quantité pour les droits,"Product quantity (in quantity unit used for duty, mentionned in ""duty_quantity_unit"")","Quantité de marchandises (en unité de quantité utilisée pour les droits, mentionnée dans ""quantite_unite_pour_les_droits)"
+25,duty_quantity_unit,unite_pour_les_droits,unité pour les droits,Producte quantity unit used for duty,Unité de mesure de la quantité de marchandise utilisée pour le calcul des droits
+26,duty_by_unit,droits_unitaires,Droits unitaires,Duty per unit,Droits de douane par unité
+27,duty_total,droits_totaux,Droits totaux indiqués,Total duties,Droits de douane totaux
+28,duty_part_of_bundle,partie_dun_paquet_de_droits_de_douane,doubleaccounts_droitsdedouane,This variables identifies trade flows where a single duty payment is associated to duty payments on multiple trade flows,Cette variable identifie les flux pour lesquels un total de droits de douane correspond à la somme des droits de douanes sur plusieurs flux
+29,duty_remarks,remarques_pour_les_droits,remarks pour les droits,Various remarks on duties,Remarques diverses sur les droits
+30,unverified,non_verifie,unverified ; Unverified,The retranscription has not been checkd,Le retranscription n'a pas été vérifée
+31,data_collector,transcripteur,dataentryby,Data collector name,Nom du retranscripteur
+32,filepath,chemin_du_fichier,sourcepath,Localisation of the retranscription file in the git depository,Emplacement du fichier retranscrit dans le repértoire git

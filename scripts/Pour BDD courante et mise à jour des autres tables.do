@@ -162,7 +162,7 @@ foreach variable of var product partner quantity_unit {
 
 zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
-foreach variable of var quantity value value_unit problem { 
+foreach variable of var quantity value value_unit difference_value_unit_price { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -179,13 +179,13 @@ foreach variable of var quantity value value_unit problem {
 }
 
 
-destring total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
 destring quantity value_unit value, replace
 
 drop if source==""
-drop if value==0 & quantit==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantit==.|quantit==0) & (value_unit==.|value_unit==0) /*idem*/
-replace value=. if (value==0 & quantit!=. & quantit!=0)
+drop if value==0 & quantity==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity==.|quantity==0) & (value_unit==.|value_unit==0) /*idem*/
+replace value=. if (value==0 & quantity!=. & quantity!=0)
 
 **Je mets des majuscules à toutes les "product" de la source
 replace product = upper(substr(product,1,1))+substr(product,2,.)
@@ -376,12 +376,8 @@ use "bdd_centrale.dta", clear
 rename source source_doc
 rename partner source
 merge m:1 source using "classification_partner_orthographic.dta"
-drop line_number-product value-remarkspourlesdroits
+keep source orthographic note nbr_occurences_source nbr_occurences_ortho
 
-capture drop nbr_occurences_source
-capture drop nbr_occurences_ortho
-
-drop _merge
 bys source : gen nbr_occurences_source=_N
 bys orthographic : gen nbr_occurences_ortho=_N 
 bys source : keep if _n==1
@@ -998,7 +994,7 @@ use "$dir/bdd courante", replace
 keep if year=="1750"
 keep if tax_department=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit problem remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit difference_value_unit_price remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 
