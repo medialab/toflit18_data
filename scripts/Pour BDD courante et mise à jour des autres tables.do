@@ -946,8 +946,7 @@ save "$dir/Données Stata/bdd courante", replace
 capture drop national_product_best_guess
 gen national_product_best_guess = 0		
 replace national_product_best_guess = 1 if (source_type=="Objet Général" & year<=1786) | ///
-		(source_type=="Résumé") | source_type=="National toutes tax_departments tous partenaires" 
-
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(national_product_best_guess), by(year)
 replace national_product_best_guess=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
@@ -958,9 +957,15 @@ replace national_geography_best_guess = 1 if source_type=="Tableau Général" | 
 
 capture drop local_product_best_guess
 gen local_product_best_guess=0
-replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes tax_departments tous partenaires" & year == 1750)
- 
+replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes directions tous partenaires" & year == 1750)
 
+capture drop local_geography_best_guess
+gen local_geography_best_guess=0
+replace local_geography_best_guess = 1 if source_type=="National toutes directions sans produits" | ///
+		(source_type== "National toutes directions tous partenaires" & year == 1750)
+egen year_CN = max(local_geography_best_guess), by(year)
+replace local_geography_best_guess=1 if year_CN == 1 & source_type=="Local"
+drop year_CN
  ********************************************************************
 use "$dir/Données Stata/bdd courante.dta", clear
 
