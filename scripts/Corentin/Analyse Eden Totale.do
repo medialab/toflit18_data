@@ -2,16 +2,16 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
 
-keep marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep product grouping_classification tax_department edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" 
+	keep if source_type == "Objet Général" | source_type == "Résumé" 
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 	
-	keep if exportsimports == "Imports"	
+	keep if export_import == "Imports"	
 	*keep if edentreaty_classification == "Vin de France"
 	
 	sort year
@@ -24,16 +24,16 @@ save "/Users/Corentin/Desktop/script/test2Totale.dta", replace
 **********
 
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
-keep marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep product grouping_classification tax_department edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
 
 
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
+	keep if source_type == "Objet Général" | source_type == "Résumé" | source_type == "Divers - in"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 
 	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
 	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
@@ -47,10 +47,10 @@ keep marchandises grouping_classification direction edentreaty_classification ex
 
 ****** Balance totale
 /*
-collapse (sum) value, by(year  exportsimports) 
+collapse (sum) value, by(year  export_import) 
 	
-	gen exports = value if exportsimports == "Exports"
-	gen imports = value if exportsimports == "Imports"
+	gen exports = value if export_import == "Exports"
+	gen imports = value if export_import == "Imports"
 	 
 		collapse (sum) exports imports, by(year)
 		gen balance = exports - imports
@@ -67,7 +67,7 @@ collapse (sum) value, by(year  exportsimports)
 ***** COMPOSITION DES ECHANGES SITC	TOTALE
 
 set more off
-keep if exportsimports == "Exports"	
+keep if export_import == "Exports"	
 
 	replace sitc_classification = "Inconnu" if sitc_classification == ""
 	replace sitc_classification = "Inconnu" if sitc_classification == "???"
@@ -98,7 +98,7 @@ collapse (sum) value, by(year sitc_classification)
 ******** Proportion destinations dans exportations
 
 	set more off
-	keep if exportsimports == "Imports"
+	keep if export_import == "Imports"
 	*keep if edentreaty_classification == "Eau_de_vie_de_France"
 	*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 	
@@ -163,7 +163,7 @@ twoway (connected Colonies_Françaises year) (connected Flandre year) (connected
 ****** Proportion vin vers angleterre dans total
 */
 /*
-keep if exportsimports == "Exports"
+keep if export_import == "Exports"
 keep if edentreaty_classification == "Vin_de_France"
 keep if grouping_classification == "Angleterre"
 

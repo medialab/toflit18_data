@@ -12,19 +12,19 @@ capture erase  "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_e
 
 capture program drop quelle_importance
 program quelle_importance
-args geographie exportsimports
+args geographie export_import
 ** Ex : quelle_importance France Exports quelle_importance Bordeaux Imports
 
 use "$dir/Données Stata/bdd courante.dta", clear
 
-keep if exportsimports=="`exportsimports'"
+keep if export_import=="`export_import'"
 
 if "`geographie'"=="France" {
 	keep if NationalBestGuess==1
 }
 
 if "`geographie'" !="France" {
-	keep if LocalBestGuess==1 & strmatch(direction,"*`geographie'*")==1
+	keep if LocalBestGuess==1 & strmatch(tax_department,"*`geographie'*")==1
 }
 
 
@@ -52,16 +52,16 @@ replace share_textile=share_textile+share_luxe
 
 
 graph twoway (connected share_textile year) (connected share_luxe year), /*
-	*/ name(`geographie'_`exportsimports', replace) /*
-	*/ title (`geographie'_`exportsimports') /*
+	*/ name(`geographie'_`export_import', replace) /*
+	*/ title (`geographie'_`export_import') /*
 	*/ ytitle("Part dans les flux totaux")
 	
-graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`exportsimports'.pdf", replace
+graph export "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/`geographie'_`export_import'.pdf", replace
 
 gen keep_for_luxe=0
 replace keep_for_luxe=1 if share_textile>=0.025 & share_luxe>=0.8*share_textile
 gen geographie="`geographie'" 
-gen exportsimports="`exportsimports'"
+gen export_import="`export_import'"
 
 
 capture append using  "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"
@@ -76,14 +76,14 @@ end
 
 
 keep if echantillon_luxe==1
-collapse (sum) value, by(product_luxe_dans_type exportsimports year)
-egen comm_tot = sum(value), by(year exportsimports)
+collapse (sum) value, by(product_luxe_dans_type export_import year)
+egen comm_tot = sum(value), by(year export_import)
 gen share = value/comm_tot
 replace product_luxe_dans_type="haut" if product_luxe_dans_type=="haut de gamme"
 replace product_luxe_dans_type="bas" if product_luxe_dans_type=="bas de gamme"
 replace product_luxe_dans_type="moyen" if product_luxe_dans_type=="moyen de gamme"
-gen blif = exportsimports+ "_" +product_luxe_dans_type
-drop value comm_tot exportsimports product_luxe_dans_type
+gen blif = export_import+ "_" +product_luxe_dans_type
+drop value comm_tot export_import product_luxe_dans_type
 reshape wide share,i(year) j(blif)
 
 

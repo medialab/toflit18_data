@@ -32,7 +32,7 @@
  codebook u_conv
  tab u_conv, m sort
  
-* 5/ Principales unités utilisées selon les marchandises (catégories SITC)
+* 5/ Principales unités utilisées selon les product (catégories SITC)
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  merge m:1 quantity_unit using "/Users/Matthias/Données Stata/Units_Normalisation_Orthographique.dta"
@@ -51,7 +51,7 @@
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- codebook direction
- bysort direction: gen nb_occurrences_direction=_N 
- keep if nb_occurrences_direction>1000
- tab direction u_conv, m
+ codebook tax_department
+ bysort tax_department: gen nb_occurrences_tax_department=_N 
+ keep if nb_occurrences_tax_department>1000
+ tab tax_department u_conv, m

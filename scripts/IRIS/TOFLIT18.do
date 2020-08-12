@@ -21,7 +21,7 @@ use "$dir/bdd courante.dta", clear
 
 
 
-* marchandises vs simplification
+* product vs simplification
 ustrdist product product_simplification, g(goodsGA)
 sum goodsGA
 recode goodsGA (0 = .) if missing(product)
@@ -39,7 +39,7 @@ foreach var of varlist goodsGA {
 }
 tab Flag_goodsGA
 
-* marchandises vs orthographics
+* product vs orthographics
 ustrdist product product_orthographic, g(goodsOrthGA)
 sum goodsOrthGA
 recode goodsOrthGA (0 = .) if missing(product) 
@@ -74,10 +74,10 @@ foreach var of varlist countryGA {
 }
 tab Flag_countryGA
 
-* pays vs orthographics
-ustrdist pays country_orthographic, g(countryOrthGA)
+* partner vs orthographics
+ustrdist partner country_orthographic, g(countryOrthGA)
 sum countryOrthGA
-recode countryOrthGA (0 = .) if missing(pays)
+recode countryOrthGA (0 = .) if missing(partner)
 *(countryOrthGA: 2594 changes made)
 recode countryOrthGA (0/1000 = .) if missing(country_orthographic)
 *(countryOrthGA: 0 changes made)
@@ -112,8 +112,8 @@ tab Flag_unitGA
 
 *** (2)
 *** Detecting outliers of observations
-* dependant: quantites_metric prix_unitaire value
-* independent: year grouping_classification nbr_obs goods_ortho_classification direction
+* dependant: quantites_metric value_unit value
+* independent: year grouping_classification nbr_obs goods_ortho_classification tax_department
 
 
 *correction in nbr_obs
@@ -129,15 +129,15 @@ sum grouping_classification_id
 sort goods_ortho_classification
 egen goods_ortho_classification_id = group(goods_ortho_classification)
 sum goods_ortho_classification_id
-sort direction
-egen direction_id = group(direction)
-sum direction_id
+sort tax_department
+egen tax_department_id = group(tax_department)
+sum tax_department_id
 sort country_grouping
 egen country_grouping_id = group(country_grouping)
 sum country_grouping_id
-sort exportsimports
-egen exportsimports_id = group(exportsimports)
-sum exportsimports_id
+sort export_import
+egen export_import_id = group(export_import)
+sum export_import_id
 sort product_simplification
 egen product_simplification_id = group(product_simplification)
 sum product_simplification_id
@@ -164,77 +164,77 @@ sum quantity_unit_ortho_id
 *"Peace 1816-1840" if year >= 1816
 
 
-*year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id
+*year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id
 
 
 
 *                          Quantity
 
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_quantity_peace1744) percentile(0.01)
 tab out_quantity_peace1744
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1745 & year <=1748, generate(out_quantity_war1748) percentile(0.01)
 tab out_quantity_war1748
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1749 & year <=1755, generate(out_quantity_peace1755) percentile(0.01)
 tab out_quantity_peace1755
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1756 & year <=1763, generate(out_quantity_war1763) percentile(0.01)
 tab out_quantity_war1763
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1763 & year <=1777, generate(out_quantity_peace1777) percentile(0.01)
 tab out_quantity_peace1777
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783 , generate(out_quantity_war1783) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1778 & year <=1783 , generate(out_quantity_war1783) percentile(0.01)
 tab out_quantity_war1783
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1784 & year <=1792, generate(out_quantity_peace1792) percentile(0.01)
 tab out_quantity_peace1792
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1793 & year <=1807, generate(out_quantity_war1807) percentile(0.01)
 tab out_quantity_war1807
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1808 & year <=1815, generate(out_quantity_blockade1815) percentile(0.01)
 tab out_quantity_blockade1815
-bacon quantites_metric year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816 , generate(out_quantity_peace1840) percentile(0.01)
+bacon quantites_metric year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1816 , generate(out_quantity_peace1840) percentile(0.01)
 tab out_quantity_peace1840
 
 *                          Price
 
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year <= 1744, generate(out_prix_peace1744) percentile(0.01)
 tab out_prix_peace1744
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1745 & year <=1748, generate(out_prix_war1748) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1745 & year <=1748, generate(out_prix_war1748) percentile(0.01)
 tab out_prix_war1748
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1749 & year <=1755, generate(out_prix_peace1755) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1749 & year <=1755, generate(out_prix_peace1755) percentile(0.01)
 tab out_prix_peace1755
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1756 & year <=1763, generate(out_prix_war1763) percentile(0.1)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1756 & year <=1763, generate(out_prix_war1763) percentile(0.1)
 tab out_prix_war1763
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1763 & year <=1777, generate(out_prix_peace1777) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1763 & year <=1777, generate(out_prix_peace1777) percentile(0.01)
 tab out_prix_peace1777
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1778 & year <=1783, generate(out_prix_war1783) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1778 & year <=1783, generate(out_prix_war1783) percentile(0.01)
 tab out_prix_war1783
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1784 & year <=1792, generate(out_prix_peace1792) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1784 & year <=1792, generate(out_prix_peace1792) percentile(0.01)
 tab out_prix_peace1792
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1793 & year <=1807, generate(out_prix_war1807) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1793 & year <=1807, generate(out_prix_war1807) percentile(0.01)
 tab out_prix_war1807
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1808 & year <=1815, generate(out_prix_blockade1815) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1808 & year <=1815, generate(out_prix_blockade1815) percentile(0.01)
 tab out_prix_blockade1815
-bacon prix_unitaire year direction_id country_grouping_id exportsimports_id product_simplification_id quantity_unit_ortho_id if year >= 1816 , generate(out_prix_peace1840) percentile(0.01)
+bacon value_unit year tax_department_id country_grouping_id export_import_id product_simplification_id quantity_unit_ortho_id if year >= 1816 , generate(out_prix_peace1840) percentile(0.01)
 tab out_prix_peace1840
 
 *                          Value
 
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year <= 1744, generate(out_value_peace1744) percentile(0.01)
 tab out_value_peace1744
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1745 & year <=1748, generate(out_value_war1748) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1745 & year <=1748, generate(out_value_war1748) percentile(0.01)
 tab out_value_war1748
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1749 & year <=1755, generate(out_value_peace1755) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1749 & year <=1755, generate(out_value_peace1755) percentile(0.01)
 tab out_value_peace1755
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1756 & year <=1763, generate(out_value_war1763) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1756 & year <=1763, generate(out_value_war1763) percentile(0.01)
 tab out_value_war1763
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1763 & year <=1777, generate(out_value_peace1777) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1763 & year <=1777, generate(out_value_peace1777) percentile(0.01)
 tab out_value_peace1777
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1778 & year <=1783 , generate(out_value_war1783) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1778 & year <=1783 , generate(out_value_war1783) percentile(0.01)
 tab out_value_war1783
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1784 & year <=1792, generate(out_value_peace1792) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1784 & year <=1792, generate(out_value_peace1792) percentile(0.01)
 tab out_value_peace1792
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1793 & year <=1807 , generate(out_value_war1807) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1793 & year <=1807 , generate(out_value_war1807) percentile(0.01)
 tab out_value_war1807
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1808 & year <=1815, generate(out_value_blockade1815) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1808 & year <=1815, generate(out_value_blockade1815) percentile(0.01)
 tab out_value_blockade1815
-bacon value year direction_id country_grouping_id exportsimports_id product_simplification_id if year >= 1816, generate(out_value_peace1840) percentile(0.01)
+bacon value year tax_department_id country_grouping_id export_import_id product_simplification_id if year >= 1816, generate(out_value_peace1840) percentile(0.01)
 tab out_value_peace1840
 
 

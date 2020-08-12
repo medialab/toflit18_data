@@ -2,7 +2,7 @@
 
 cd "C:\Users\pierr\Documents\Toflit"
 
-	import delimited "toflit18_data_GIT\base\bdd_marchandises_medicinales.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "toflit18_data_GIT\base\bdd_product_medicinales.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -19,13 +19,13 @@ cd "C:\Users\pierr\Documents\Toflit"
 	capture drop nbr_bdc* source_bdc
 	sort simplification_classification
 	drop sitc_classification obsolete nbr_obs
-	save "Données Stata/bdd_marchandises_medicinales.dta", replace
+	save "Données Stata/bdd_product_medicinales.dta", replace
 	
 	
 * 2/ On merge avec bdd centrale
 use "Données Stata/bdd courante.dta", clear
 sort simplification_classification
-merge m:1 simplification_classification using "Données Stata/bdd_marchandises_medicinales.dta"
+merge m:1 simplification_classification using "Données Stata/bdd_product_medicinales.dta"
 drop if _merge==2
 drop _merge
 replace value_as_reported = subinstr(value_as_reported, ",", ".",.) 
@@ -42,35 +42,35 @@ use "Données Stata/bdd courante with medecine.dta", clear
 *************** GRAPHIQUE TOTAL IMPORT EXPORT EN VALEUR
 
 	set more off
-	keep if(exportsimports=="Imports"|exportsimports=="Importations")
+	keep if(export_import=="Imports"|export_import=="Importations")
 	keep if(medicinales_classification=="narrow medical product")
-	*drop if(sourcetype=="Divers"|sourcetype=="1792-both semester"|sourcetype=="1792-first semestre"|sourcetype=="National partenaires manquants")
-	drop if(year==1787&sourcetype=="Résumé")
-	drop if(year==1788&sourcetype=="Résumé")
+	*drop if(source_type=="Divers"|source_type=="1792-both semester"|source_type=="1792-first semestre"|source_type=="National partenaires manquants")
+	drop if(year==1787&source_type=="Résumé")
+	drop if(year==1788&source_type=="Résumé")
 	sort year
-	collapse (sum) value_as_reported, by(year direction sourcetype)
+	collapse (sum) value_as_reported, by(year tax_department source_type)
 	rename value_as_reported ImpTotal_Med
-	sort year direction
+	sort year tax_department
 	save "Données Stata/ImpTotal_Med.dta", replace
 
 	
 	use "Données Stata/bdd courante with medecine.dta", clear
-	keep if(exportsimports=="Exports"|exportsimports=="Exportations")
+	keep if(export_import=="Exports"|export_import=="Exportations")
 	keep if(medicinales_classification=="narrow medical product")
-	*drop if(sourcetype=="Divers"|sourcetype=="1792-both semester"|sourcetype=="1792-first semestre"|sourcetype=="National partenaires manquants")
-	drop if(year==1787&sourcetype=="Résumé")
-	drop if(year==1788&sourcetype=="Résumé")
+	*drop if(source_type=="Divers"|source_type=="1792-both semester"|source_type=="1792-first semestre"|source_type=="National partenaires manquants")
+	drop if(year==1787&source_type=="Résumé")
+	drop if(year==1788&source_type=="Résumé")
 	sort year
-	collapse (sum) value_as_reported, by(year direction sourcetype)
+	collapse (sum) value_as_reported, by(year tax_department source_type)
 	rename value_as_reported ExpTotal_Med
-	sort year direction
+	sort year tax_department
 	save "Données Stata/ExpTotal_Med.dta", replace
 
 	use "Données Stata/ImpTotal_Med.dta", clear
-	merge m:m year direction using "Données Stata/ExpTotal_Med.dta"
+	merge m:m year tax_department using "Données Stata/ExpTotal_Med.dta"
 	drop _merge
 
-	encode direction, gen(direction_enc)
+	encode tax_department, gen(tax_department_enc)
 	
 	gen ln_ImpTotal_Med=ln(ImpTotal_Med)
 	gen ln_ExpTotal_Med=ln(ExpTotal_Med)
@@ -79,9 +79,9 @@ use "Données Stata/bdd courante with medecine.dta", clear
 
 			use "Données Stata/bdd_Import_Export.dta", clear
 			set more off
-			regress ln_ImpTotal_Med i.year i.direction_enc
+			regress ln_ImpTotal_Med i.year i.tax_department_enc
 			predict predicted_lnImpTotal_Med
-			reg predicted_lnImpTotal_Med year i.direction_enc
+			reg predicted_lnImpTotal_Med year i.tax_department_enc
 			
 			
 			

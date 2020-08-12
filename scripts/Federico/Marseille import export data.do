@@ -10,17 +10,17 @@ use "Données Stata/bdd courante.dta", clear
 
 *** dummy importexport
 gen importexport=0
-replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+replace importexport=1 if (export_import=="Export" | export_import=="Exports"| export_import=="Sortie")
 
 
 
 *** deal with missing values and generate value_inclusive
 generate value_inclusive=value
-replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=.
 drop if value_inclusive==.
 
 
-encode direction, generate(geography) label(direction)
+encode tax_department, generate(geography) label(tax_department)
 
 *** isolate grains
 **destring somehow
@@ -29,33 +29,33 @@ encode grains, generate(grains_num)
 keep if (grains!="Pas grain (0)")
 
 ***SOURCETYPE
-encode sourcetype, generate(sourcetype_encode) label(sourcetype)
+encode source_type, generate(source_type_encode) label(source_type)
 
 
 *** corrections
 *replace year=1741 if year==3
-*replace year=1787 if year==. & sourcetype_encode==6
-*replace year=1743 if year==. & sourcetype_encode==5
+*replace year=1787 if year==. & source_type_encode==6
+*replace year=1743 if year==. & source_type_encode==5
 * geography 19= Marseille, local = 5
-replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+replace geography=19 if geography==. & source_type_encode==5 & year==1765
 *replace geography=52 if geography==.
 
 *** restrict sample
 drop if geography != 19
-drop if sourcetype_encode==3
-drop if sourcetype_encode==7
-drop if sourcetype_encode==6  & year==1750
+drop if source_type_encode==3
+drop if source_type_encode==7
+drop if source_type_encode==6  & year==1750
 
 
 
 
 
 *** aggregate by: country, importexport, year
-collapse (sum) value_inclusive, by (year importexport sourcetype_encode)
+collapse (sum) value_inclusive, by (year importexport source_type_encode)
 
 *** reshape
-*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification sourcetype_encode) j(importexport)
-reshape wide value_inclusive, i(year sourcetype_encode) j(importexport)
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification source_type_encode) j(importexport)
+reshape wide value_inclusive, i(year source_type_encode) j(importexport)
 rename value_inclusive0 import
 rename value_inclusive1 export
 ***generate sum

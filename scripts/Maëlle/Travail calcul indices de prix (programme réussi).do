@@ -10,20 +10,20 @@
 
 capture program drop Indice_chaine_v1
 program  Indice_chaine_v1 
-args direction X_ou_I year_debut year_fin
+args tax_department X_ou_I year_debut year_fin
 
 
 if "`c(username)'"=="maellestricot"  use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 if "`c(username)'"=="guillaumedaudin" use "~/Documents/Recherche/TOFLIT18/Indices de prix - travail Maëlle Stricot/bdd courante reduite2.dta", clear
 
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 drop if year<`year_debut'
 drop if year>`year_fin'
 
-* CADUC On garde une observation par marchandise, année, direction et exports ou imports
-*bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* CADUC On garde une observation par marchandise, année, tax_department et exports ou imports
+*bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 *sort year simplification_classification
 
 
@@ -35,20 +35,20 @@ gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 sort simplification_classification year
 
-* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
+* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 product dans l'exemple)
 
-*local direction La Rochelle
+*local tax_department La Rochelle
 *local X_ou_I Imports 
 *local year_debut 1760
 
 
-* Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
+* Garder les product qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
 bys panvar_num : egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
 bys panvar_num : drop if nbr_annees < nbr_annees_max
 
 capture tabulate panvar_num
-local nbr_de_marchandises=r(r)
+local nbr_de_product=r(r)
 
 gen p0=.
 gen q0=.
@@ -193,7 +193,7 @@ gen indice_valeur_chaine = sommepnqn/valeur_debut
 twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' sur la période `year_debut'-`year_fin' (`nbr_de_marchandises')")	
+ , title("`tax_department'--`X_ou_I' sur la période `year_debut'-`year_fin' (`nbr_de_product')")	
  
  end
  
@@ -207,19 +207,19 @@ twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* On garde une observation par marchandise, année, tax_department et exports ou imports
+bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 sort year simplification_classification
 
-keep if direction=="Marseille"
+keep if tax_department=="Marseille"
 
 * Calculer la valeur annuelle totale échangée par année par marchandise (déjà fait dans la base) 
 * sort year simplification_classification
-* by year simplification_classification exportsimports, sort: egen valeur_totale_par_marchandise=total(value)
+* by year simplification_classification export_import, sort: egen valeur_totale_par_marchandise=total(value)
 
-* Calculer la valeur annuelle totale échangée pour toutes les marchandises
+* Calculer la valeur annuelle totale échangée pour toutes les product
 
-by year exportsimports, sort: egen valeur_annuelle_totale=total(value)
+by year export_import, sort: egen valeur_annuelle_totale=total(value)
 
 * Calculer le ratio 
 
@@ -240,27 +240,27 @@ encode simplification_classification, gen(simplification_classification_num)
 * REPRISE DE LA NOUVELLE BASE
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* On garde une observation par marchandise, année, tax_department et exports ou imports
+bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 sort year simplification_classification
 
 gen IPC=.
-bys simplification_classification exportsimports direction u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
+bys simplification_classification export_import tax_department u_conv: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 tsset panvar_num year
 gen inflation=.
 replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 sort simplification_classification year
 
-* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
+* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 product dans l'exemple)
 
-keep if direction=="Marseille"
-keep if exportsimports=="Imports"
+keep if tax_department=="Marseille"
+keep if export_import=="Imports"
 drop if year<1730
 
-* Garder les marchandises qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
-bys simplification_classification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
+* Garder les product qui sont présentes chaque année, et supprimer celles qui n'apparaissent pas chaque année
+bys simplification_classification tax_department export_import u_conv: egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys simplification_classification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
+bys simplification_classification tax_department export_import u_conv : drop if nbr_annees < nbr_annees_max
 sort year simplification_classification 
 
 tsset panvar_num year
@@ -308,16 +308,16 @@ by year : gen fisher=sqrt(laspeyres*paasche)
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite.dta", clear
 
 keep if year==1754 | year==1774
-keep if direction=="La Rochelle"
-keep if exportsimports=="Imports"
+keep if tax_department=="La Rochelle"
+keep if export_import=="Imports"
 
-* trouver une commande pour garder les marchandises qui apparaissent les deux années, et supprimer les marchandises qui ne sont présentes qu'une seule année
+* trouver une commande pour garder les product qui apparaissent les deux années, et supprimer les product qui ne sont présentes qu'une seule année
 * encode simplification_classification, gen(simplification_classification_num)
 * bysort simplification_classification_num: drop if _N<2
 
-bys simplification_classification direction exportsimports u_conv: egen nbr_annees=count(prix_pondere_annuel) 
+bys simplification_classification tax_department export_import u_conv: egen nbr_annees=count(prix_pondere_annuel) 
 egen nbr_annees_max=max(nbr_annees) 
-bys simplification_classification direction exportsimports u_conv : drop if nbr_annees < nbr_annees_max
+bys simplification_classification tax_department export_import u_conv : drop if nbr_annees < nbr_annees_max
 sort year simplification_classification 
 
 tsset panvar_num year
@@ -325,17 +325,17 @@ tsset panvar_num year
 sort year simplification_classification
 
 gen p1q0=.
-replace p1q0=prix_unitaire_converti*L10.quantitities_metric
+replace p1q0=value_unit_converti*L10.quantitities_metric
 
 gen  p0q1=.
-replace p0q1=quantitities_metric*L10.prix_unitaire_converti
+replace p0q1=quantitities_metric*L10.value_unit_converti
 
 gen p1q1=.
-replace p1q1=prix_unitaire_converti*quantitities_metric if year==1764
+replace p1q1=value_unit_converti*quantitities_metric if year==1764
 * replace p1q1=pq
 
 gen p0q0=.
-replace p0q0=L10.prix_unitaire_converti*L10.quantitities_metric
+replace p0q0=L10.value_unit_converti*L10.quantitities_metric
 * replace p0q0=L10.pq
 
 egen sommep1q0=total(p1q0)

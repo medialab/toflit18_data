@@ -4,13 +4,13 @@ use "/Users/Corentin/Desktop/script/testVin.dta", clear
 keep if grouping_classification == "Angleterre"
 
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"| sourcetype == "Divers - in" | sourcetype == "National par direction"
+	keep if source_type == "Objet Général" | source_type == "Résumé"| source_type == "Divers - in" | source_type == "National par tax_department"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
-	drop if sourcetype == "Résumé" & year == 1789
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1789
 
 	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
 	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
@@ -25,7 +25,7 @@ keep if grouping_classification == "Angleterre"
 drop if value == 38455
 drop if year < 1773
 replace simplification_classification = "vin de Bordeaux" if orthographic_normalization_classification == "vin de Bordeaux"
-keep if exportsimports == "Exports"
+keep if export_import == "Exports"
 
 keep if edentreaty_classification == "Eau_de_vie_de_France"
 replace simplification_classification = "eau-de-vie de grain" if simplification_classification == "eau de grain"

@@ -5,10 +5,10 @@ use "/Users/guillaumedaudin/Documents/Recherche/Commerce International Françai
 keep if year == 1787 | year==1788 | year==1789 
 
 
-*drop if sourcetype=="Résumé" & (year == 1788 | year == 1787)
-drop if sourcetype=="Local"
-drop if sourcetype=="National toutes directions partenaires manquants"
-drop if sourcetype=="National toutes directions tous partenaires"
+*drop if source_type=="Résumé" & (year == 1788 | year == 1787)
+drop if source_type=="Local"
+drop if source_type=="National toutes tax_departments partenaires manquants"
+drop if source_type=="National toutes tax_departments tous partenaires"
 
 format value %-15.2fc
 format quantites_metric %-15.2fc
@@ -16,13 +16,13 @@ format quantites_metric %-15.2fc
 drop if coton_classification=="not raw cotton"
 drop if coton_classification==""
 
-sort year exportsimports
+sort year export_import
 
 export excel using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/Cotton trade for Peter Solar_long.xls", firstrow(variables) replace
 
 
-collapse (sum) quantites_metric value, by (u_conv coton_classification exportsimports year sourcetype)
+collapse (sum) quantites_metric value, by (u_conv coton_classification export_import year source_type)
 
-sort year exportsimports
+sort year export_import
 export excel using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/Cotton trade for Peter Solar.xls", firstrow(variables) replace
 
