@@ -9,7 +9,7 @@ save "/Users/Corentin/Desktop/script/conversion finale.dta", replace
 //////// Nouveaux droits
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
 
-keep doubleaccounts marchandises grouping_classification direction edentreaty_classification exportsimports orthographic_normalization_classification simplification_classification q_conv  quantit quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification sourcepath sourcetype u_conv  unitépourlesdroits value year
+keep value_part_of_bundle product grouping_classification tax_department edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
 
 
 	merge m:1 edentreaty_classification u_conv using "/Users/Corentin/Desktop/script/conversion finale.dta"
@@ -31,8 +31,8 @@ keep doubleaccounts marchandises grouping_classification direction edentreaty_cl
 	replace droit_eden_valorem = 0.10 if edentreaty_classification == "Gazes" & year > 1786
 
 
-sort sourcepath-value grouping_classification-year q_conv_eden-u_conv_eden droit_eden_valorem
-collapse (sum) quantites_metric_eden, by(sourcepath-value grouping_classification-year q_conv_eden-u_conv_eden droit_eden_valorem)
+sort filepath-value grouping_classification-year q_conv_eden-u_conv_eden droit_eden_valorem
+collapse (sum) quantites_metric_eden, by(filepath-value grouping_classification-year q_conv_eden-u_conv_eden droit_eden_valorem)
 	
 	/*
 
@@ -70,8 +70,8 @@ gen droit_eden_value = value * droit_eden_valorem if year > 1786
 gen prohibition = 0
 replace prohibition = 1 if edentreaty_classification == "Soie"
 replace prohibition = 1 if edentreaty_classification == "Prohibé"
-replace prohibition = 1 if edentreaty_classification == "Coton de toute espèce" & year < 1787 & exportsimports == "Imports"
-replace prohibition = 1 if edentreaty_classification == "Hardware" & year < 1787 & exportsimports == "Imports"
-replace prohibition = 1 if edentreaty_classification == "Lainage" & year < 1787 & exportsimports == "Imports"
+replace prohibition = 1 if edentreaty_classification == "Coton de toute espèce" & year < 1787 & export_import == "Imports"
+replace prohibition = 1 if edentreaty_classification == "Hardware" & year < 1787 & export_import == "Imports"
+replace prohibition = 1 if edentreaty_classification == "Lainage" & year < 1787 & export_import == "Imports"
 */
 save "/Users/Corentin/Desktop/script/testVin.dta", replace

@@ -4,20 +4,20 @@
 
 capture program drop Indice_chaine_v2
 program  Indice_chaine_v2
-args direction X_ou_I year_debut year_fin
+args tax_department X_ou_I year_debut year_fin
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite.dta", clear
 *if "`c(username)'"=="maellestricot"  use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 *if "`c(username)'"=="guillaumedaudin" use "~/Documents/Recherche/TOFLIT18/Indices de prix - travail Maëlle Stricot/bdd courante reduite2.dta", clear
 
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 drop if year<`year_debut'
 drop if year>`year_fin'
 
-* CADUC On garde une observation par marchandise, année, direction et exports ou imports
-*bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* CADUC On garde une observation par marchandise, année, tax_department et exports ou imports
+*bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 *sort year simplification_classification
 
 
@@ -29,17 +29,17 @@ bys panvar_num: replace IPC=100*prix_pondere_annuel[_n]/prix_pondere_annuel[1]
 *replace inflation=100*prix_pondere_annuel/L.prix_pondere_annuel
 sort product_simplification year
 
-* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 marchandises dans l'exemple)
+* NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 product dans l'exemple)
 
-*local direction La Rochelle
+*local tax_department La Rochelle
 *local X_ou_I Imports 
 *local year_debut 1760
 
 
 * capture tabulate simplification_classification
-* local nbr_de_marchandises=r(r)
+* local nbr_de_product=r(r)
 
-* Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
+* Calcul des p0 et q0 en prenant en compte les product présentes d'une année sur l'autre
 generate presence_annee=0
 gen somme_annee=.
 gen p0=.
@@ -52,7 +52,7 @@ replace presence_annee=1 if L`lag'.panvar_num==panvar_num
 bys year: egen blink=total(presence_annee)
 replace somme_annee=blink if somme_annee==. | somme_annee==0
 drop blink 
-* donne le nb de marchandises présentes d'une année sur l'autre
+* donne le nb de product présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
 tsset panvar_num year
@@ -210,12 +210,12 @@ drop sum_logvaleur
 twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`direction'--`X_ou_I' à partir de `year_debut'") name(graphindices, replace)
+ , title("`tax_department'--`X_ou_I' à partir de `year_debut'") name(graphindices, replace)
 
-twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle() title(Nombre de produits par année) name(graphmarchandises, replace)
+twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle() title(Nombre de produits par année) name(graphproduct, replace)
 * || bar somme_annee year scale (0.2) ///
 
-graph combine graphindices graphmarchandises, cols(1)
+graph combine graphindices graphproduct, cols(1)
 
  end
  

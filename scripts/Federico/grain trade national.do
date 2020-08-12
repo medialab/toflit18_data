@@ -6,27 +6,27 @@ use "Données Stata/bdd courante.dta", clear
 
 *** dummy importexport
 gen importexport=0
-replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+replace importexport=1 if (export_import=="Export" | export_import=="Exports"| export_import=="Sortie")
 
 
 
 *** deal with missing values and generate value_inclusive
 generate value_inclusive=value
-replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=.
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode direction, generate(geography) label(direction)
+encode tax_department, generate(geography) label(tax_department)
 
 ***Regions
 generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
+replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
+replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
+replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
+replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
+replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
+replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
 
 *** isolate grains
 **destring somehow
@@ -38,60 +38,60 @@ encode grains, generate(grains_num)
 
 *** corrections
 *replace year=1741 if year==3
-*replace year=1787 if year==. & sourcetype_encode==6
-*replace year=1743 if year==. & sourcetype_encode==5
+*replace year=1787 if year==. & source_type_encode==6
+*replace year=1743 if year==. & source_type_encode==5
 * geography 19= Marseille, local = 5
-*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=19 if geography==. & source_type_encode==5 & year==1765
 *replace geography=52 if geography==.
 drop if grains=="."
 drop if grains_num==.
-drop if sourcetype=="1792-first semestre"
+drop if source_type=="1792-first semestre"
 drop if  year==1805.75 
 drop if yearstr=="10 mars-31 décembre 1787" 
 *GUILLAUME WHY?
 *drop colonies
-drop if sourcetype=="Local"  & year==1787
-drop if sourcetype=="Local"  & year==1788
+drop if source_type=="Local"  & year==1787
+drop if source_type=="Local"  & year==1788
 *Unify Resumé and O.G.
 **drop Resumé 1787, 1789
-drop if sourcetype=="Résumé"  & year==1787
-drop if sourcetype=="Résumé"  & year==1788
+drop if source_type=="Résumé"  & year==1787
+drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
 sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
 quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
 
 **exclude incomplete series
-clonevar sourcetype_merged=sourcetype 
-replace sourcetype_merged="Local" if sourcetype=="National toutes directions partenaires manquants"
+clonevar source_type_merged=source_type 
+replace source_type_merged="Local" if source_type=="National toutes tax_departments partenaires manquants"
 
-drop if sourcetype=="National Partenaires Manquants" | sourcetype=="National Partenaires Manquants"| sourcetype=="Tableau de marchandises"
+drop if source_type=="National Partenaires Manquants" | source_type=="National Partenaires Manquants"| source_type=="Tableau de product"
 
 *combine Resumé and Objet Général
-replace sourcetype_merged="National" if sourcetype=="Résumé"
-replace sourcetype_merged="National" if sourcetype=="Tableau des quantités"
-replace sourcetype_merged="National" if sourcetype=="Objet Général" & year==1788
-replace sourcetype_merged="National" if sourcetype=="Tableau Général"
+replace source_type_merged="National" if source_type=="Résumé"
+replace source_type_merged="National" if source_type=="Tableau des quantités"
+replace source_type_merged="National" if source_type=="Objet Général" & year==1788
+replace source_type_merged="National" if source_type=="Tableau Général"
 
 
 ***SOURCETYPE ENCODE
-encode sourcetype_merged, generate(sourcetype_encode) label(sourcetype_merged)
-bys year sourcetype_merged importexport: egen totaltrade=total(value_inclusive)
+encode source_type_merged, generate(source_type_encode) label(source_type_merged)
+bys year source_type_merged importexport: egen totaltrade=total(value_inclusive)
 
 
 
 
 ***NATIONAL PARTNAIRES MANQUANTS IS IMPORTANT, IT S ALL WE HAVE FOR the 1780s. 
-drop if  sourcetype_merged!="National" & geography==.
+drop if  source_type_merged!="National" & geography==.
 
 drop if year==.
-keep if sourcetype_merged=="National"
+keep if source_type_merged=="National"
 
-collapse (sum) value_inclusive, by (year sourcetype importexport)
-reshape wide value_inclusive, i(year sourcetype) j(importexport)
+collapse (sum) value_inclusive, by (year source_type importexport)
+reshape wide value_inclusive, i(year source_type) j(importexport)
 rename value_inclusive0 import
 rename value_inclusive1 export
 twoway (line import year) (line export year)
@@ -105,27 +105,27 @@ use "Données Stata/bdd courante.dta", clear
 
 *** dummy importexport
 gen importexport=0
-replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+replace importexport=1 if (export_import=="Export" | export_import=="Exports"| export_import=="Sortie")
 
 
 
 *** deal with missing values and generate value_inclusive
 generate value_inclusive=value
-replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
+replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=.
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode direction, generate(geography) label(direction)
+encode tax_department, generate(geography) label(tax_department)
 
 ***Regions
 generate region="KO"
-replace region="NE" if direction=="Amiens" | direction=="Dunkerque"| direction=="Saint-Quentin" | direction=="Châlons" | direction=="Langres" | direction=="Flandre"  
-replace region="N" if direction=="Caen" | direction=="Rouen" | direction=="Le Havre"
-replace region="NW" if direction=="Rennes" | direction=="Lorient" | direction=="Nantes" | direction=="Saint-Malo"
-replace region="SW" if direction=="La Rochelle" | direction=="Bordeaux" | direction=="Bayonne" 
-replace region="S" if direction=="Marseille" | direction=="Toulon" | direction=="Narbonne" | direction=="Montpellier"
-replace region="SE" if direction=="Grenoble" | direction=="Lyon" 
-replace region="E" if direction=="Besancon" | direction=="Bourgogne"| direction=="Charleville"
+replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
+replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
+replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
+replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
+replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
+replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
+replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
 
 *** isolate grains
 **destring somehow
@@ -134,54 +134,54 @@ encode grains, generate(grains_num)
  
 *** corrections
 *replace year=1741 if year==3
-*replace year=1787 if year==. & sourcetype_encode==6
-*replace year=1743 if year==. & sourcetype_encode==5
+*replace year=1787 if year==. & source_type_encode==6
+*replace year=1743 if year==. & source_type_encode==5
 * geography 19= Marseille, local = 5
-*replace geography=19 if geography==. & sourcetype_encode==5 & year==1765
+*replace geography=19 if geography==. & source_type_encode==5 & year==1765
 *replace geography=52 if geography==.
 drop if grains=="."
 drop if grains_num==.
-drop if sourcetype=="1792-first semestre"
+drop if source_type=="1792-first semestre"
 drop if  year==1805.75 
 drop if yearstr=="10 mars-31 décembre 1787" 
 *GUILLAUME WHY?
 *drop colonies
-drop if sourcetype=="Local"  & year==1787
-drop if sourcetype=="Local"  & year==1788
+drop if source_type=="Local"  & year==1787
+drop if source_type=="Local"  & year==1788
 *Unify Resumé and O.G.
 **drop Resumé 1787, 1789
-drop if sourcetype=="Résumé"  & year==1787
-drop if sourcetype=="Résumé"  & year==1788
+drop if source_type=="Résumé"  & year==1787
+drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
 sort year importexport value_inclusive geography grains_num grouping_classification simplification_classification
 quietly by year importexport value_inclusive geography grains_num grouping_classification simplification_classification:  gen dup = cond(_N==1,0,_n)
 drop if dup>1 
-clonevar sourcetype_grains=sourcetype
-replace sourcetype_grains="National" if sourcetype=="Résumé"
-replace sourcetype_grains="National" if sourcetype=="Tableau des quantités"
-replace sourcetype_grains="National" if sourcetype=="Objet Général"
-replace sourcetype_grains="National" if sourcetype=="National toutes directions tous partenaires"
+clonevar source_type_grains=source_type
+replace source_type_grains="National" if source_type=="Résumé"
+replace source_type_grains="National" if source_type=="Tableau des quantités"
+replace source_type_grains="National" if source_type=="Objet Général"
+replace source_type_grains="National" if source_type=="National toutes tax_departments tous partenaires"
 
 drop if grains=="Pas grain (0)"
 drop if missing(grains)
 
 
-*drop local without direction and strange things from the 1780s (mainly colonies for 1789)
+*drop local without tax_department and strange things from the 1780s (mainly colonies for 1789)
 
-drop if  sourcetype_grains!="National" & geography==.
+drop if  source_type_grains!="National" & geography==.
 *force Objet général entries with a geography into Objet Général, assuming they are simply late coming data (CHECK THIS WITH GUILLAUME!)
-replace geography=0 if sourcetype_grains=="National"
+replace geography=0 if source_type_grains=="National"
 
 drop if year==.
-keep if sourcetype_grains=="National"
+keep if source_type_grains=="National"
 
 
-collapse (sum) value_inclusive, by (year sourcetype importexport)
+collapse (sum) value_inclusive, by (year source_type importexport)
 
-reshape wide value_inclusive, i(sourcetype year) j(importexport)
+reshape wide value_inclusive, i(source_type year) j(importexport)
 rename value_inclusive0 import_grains
 rename value_inclusive1 export_grains
 

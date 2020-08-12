@@ -5,32 +5,32 @@
  codebook grouping_classification
  tab grouping_classification
  keep if grouping_classification!=""
- bysort grouping_classification: gen nb_occurrences_pays=_N
+ bysort grouping_classification: gen nb_occurrences_partner=_N
  gen grouping_classification2=grouping_classification
- replace grouping_classification2="Autres" if nb_occurrences_pays<25000
+ replace grouping_classification2="Autres" if nb_occurrences_partner<25000
  
  graph pie, over (grouping_classification2) ///
  plabel (_all percent, color(white) size (medlarge)) ///
  title (Partenaires commerciaux de la France)
  
- * Principales marchandises échangées
+ * Principales product échangées
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  
  codebook orthographic_normalization_classification
  keep if orthographic_normalization_classification!=""
- bysort orthographic_normalization_classification: gen nb_occurrences_marchandises=_N 
- keep if nb_occurrences_marchandises>2000
- gsort +nb_occurrences_marchandises 
+ bysort orthographic_normalization_classification: gen nb_occurrences_product=_N 
+ keep if nb_occurrences_product>2000
+ gsort +nb_occurrences_product 
  tab orthographic_normalization_classification 
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
  
  codebook simplification_classification
  keep if simplification_classification!=""
- bysort simplification_classification: gen nb_occurrences_marchandises_S=_N 
- keep if nb_occurrences_marchandises_S>2200
- gsort +nb_occurrences_marchandises_S 
+ bysort simplification_classification: gen nb_occurrences_product_S=_N 
+ keep if nb_occurrences_product_S>2200
+ gsort +nb_occurrences_product_S 
  tab simplification_classification
  
  
@@ -62,8 +62,8 @@
   keep if grouping_classification=="Italie"
   keep if orthographic_normalization_classification!=""
   codebook orthographic_normalization_classification
-  bysort orthographic_normalization_classification: gen nb_occurrences_marchandises_I=_N 
-  keep if nb_occurrences_marchandises_I>400
+  bysort orthographic_normalization_classification: gen nb_occurrences_product_I=_N 
+  keep if nb_occurrences_product_I>400
   tab orthographic_normalization_classification
 
  * Année où les échanges sont les plus importants
@@ -76,15 +76,15 @@
  * Pays davantage exportateur ou importateur ?
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
- tab exportsimports
+ tab export_import
  
  * Principale exportation
  
  use "/Users/Matthias/Données Stata/bdd courante.dta", clear
- keep if exportsimports=="Exports"
- bysort simplification_classification: gen nb_occurrences_marchandises_Exp=_N 
- keep if nb_occurrences_marchandises_Exp>2200
- gsort +nb_occurrences_marchandises_Exp 
+ keep if export_import=="Exports"
+ bysort simplification_classification: gen nb_occurrences_product_Exp=_N 
+ keep if nb_occurrences_product_Exp>2200
+ gsort +nb_occurrences_product_Exp 
  tab simplification_classification
   
   

@@ -5,7 +5,7 @@
 
 capture program drop Termes_echange_v3
 program  Termes_echange_v3
-args direction X_ou_I 
+args tax_department X_ou_I 
 
 
 clear all
@@ -14,12 +14,12 @@ set matsize 11000
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite2.dta", clear
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 
-* keep if direction=="La Rochelle"
+* keep if tax_department=="La Rochelle"
 * tsset panvar_num year 
-gen lnPrix=ln(prix_unitaire_converti)
+gen lnPrix=ln(value_unit_converti)
 * encode simplification_classification, gen(simplification_classification_num)
 generate part_valeur=value/valeur_totale_par_marchandise
 bys panvar_num : drop if _N==1
@@ -89,7 +89,7 @@ end
 
 capture program drop Termes_echange_v4
 program  Termes_echange_v4
-args direction X_ou_I 
+args tax_department X_ou_I 
 
 
 clear all
@@ -98,12 +98,12 @@ set matsize 11000
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite2.dta", clear
 
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 
-* keep if direction=="La Rochelle"
+* keep if tax_department=="La Rochelle"
 * tsset panvar_num year 
-gen lnPrix=ln(prix_unitaire_converti)
+gen lnPrix=ln(value_unit_converti)
 * encode simplification_classification, gen(simplification_classification_num)
 generate part_valeur=value/valeur_totale_par_marchandise
 bys panvar_num : drop if _N==1

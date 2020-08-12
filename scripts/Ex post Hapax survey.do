@@ -3,7 +3,7 @@
 global dir "~/Dropbox/2018 Boston - présentation Charles, Daudin, Girard"
 
 
-foreach  var_interet in  marchandises goods_ortho_classification goods_simpl_classification {
+foreach  var_interet in  product goods_ortho_classification goods_simpl_classification {
 	use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
 	collapse (count) nbr_occu=year (sum) value, by(`var_interet')
 	gen nbr_occur_str =""
@@ -40,7 +40,7 @@ foreach  var_interet in  marchandises goods_ortho_classification goods_simpl_cla
 	label var share_value "share of value"
 	label var share_occu "share of trade flows"
 	
-	if "`var_interet'"=="marchandises" local graph_name "Goods as retranscribed (c. 60,000)"
+	if "`var_interet'"=="product" local graph_name "Goods as retranscribed (c. 60,000)"
 	if "`var_interet'"=="goods_ortho_classification" local graph_name "Goods after orthographic norm. (c. 25,000)"
 	if "`var_interet'"=="goods_simpl_classification" local graph_name "Goods after simplification (c. 19,000)"
 	
@@ -54,4 +54,4 @@ foreach  var_interet in  marchandises goods_ortho_classification goods_simpl_cla
 					
 	graph export "$dir/graphiques/graph_`var_interet'.pdf", replace
 }
-*	graph combine graph_marchandises graph_goods_ortho_classification graph_goods_simpl_classification
+*	graph combine graph_product graph_goods_ortho_classification graph_goods_simpl_classification
