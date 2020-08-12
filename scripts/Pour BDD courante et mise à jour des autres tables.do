@@ -184,8 +184,8 @@ destring quantity value_unit value, replace
 
 drop if source==""
 drop if value==0 & quantity==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantity==.|quantity==0) & (value_unit==.|value_unit==0) /*idem*/
-replace value=. if (value==0 & quantity!=. & quantity!=0)
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_unit==.|value_unit==0) /*idem*/
+replace value=. if (value==0 & quantity !=. & quantity !=0)
 
 **Je mets des majuscules à toutes les "product" de la source
 replace product = upper(substr(product,1,1))+substr(product,2,.)
@@ -376,7 +376,7 @@ use "bdd_centrale.dta", clear
 rename source source_doc
 rename partner source
 merge m:1 source using "classification_partner_orthographic.dta"
-keep source orthographic note nbr_occurences_source nbr_occurences_ortho
+keep source orthographic note
 
 bys source : gen nbr_occurences_source=_N
 bys orthographic : gen nbr_occurences_ortho=_N 
@@ -782,10 +782,10 @@ foreach class_name in grouping obrien ///
 	merge m:1 simplification using "classification_partner_`class_name'.dta"
 	drop if _merge==2
 	drop note-_merge
-	rename `class_name' country_`class_name'
+	rename `class_name' partner_`class_name'
 }
-rename simplification country_simplification
-rename orthographi country_orthographic
+rename simplification partner_simplification
+rename orthographi partner_orthographic
 
 ******
 
@@ -890,21 +890,21 @@ drop if _merge==2
 drop _merge  incertitude_unit nbr_occurences_simplification nbr_occurences_metric /*
 		*/ source_hambourg	missing	remarque_unit
 rename metric quantity_unit_metric
-*gen quantities_metric=quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
+*gen quantities_metric=quantity *conv_orthographic_to_simplificat*conv_simplification_to_metric
  
  
 save "$dir/Données Stata/bdd courante_temp.dta", replace
 keep if needs_more_details=="1"
 
-keep export_import country_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification
-bys export_import country_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
+keep export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification
+bys export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
 rename quantity_unit_simplification simplification
-merge 1:1 export_import country_grouping tax_department product_simplification product_revolutionempire simplification ///
+merge 1:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
 	
  drop _merge
- sort simplification product_simplification product_revolutionempire export_import tax_department country_grouping
- order simplification product_simplification product_revolutionempire export_import tax_department country_grouping
+ sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
+ order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
@@ -913,16 +913,16 @@ merge 1:1 export_import country_grouping tax_department product_simplification p
  
  rename quantity_unit_simplification simplification 
  
- merge m:1 export_import country_grouping tax_department product_simplification product_revolutionempire simplification ///
+ merge m:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
  
  drop if _merge==2
  drop  remarks_unit-_merge
  codebook conv_simplification_to_metric
  
- generate quantities_metric = quantit*conv_orthographic_to_simplificat*conv_simplification_to_metric
+ generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=value_unit/conv_orthographic_to_simplificat*conv_simplification_to_metric if unit_price_metric==. 
+ replace  unit_price_metric=value_unit/conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
 
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  
@@ -967,7 +967,7 @@ use "$dir/Données Stata/bdd courante.dta", clear
  missings dropvars, force
  
 sort source_type tax_department year export_import line_number 
-order line_number source_type year tax_department partner country_orthographic export_import ///
+order line_number source_type year tax_department partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_unit
  
  
