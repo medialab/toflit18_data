@@ -39,13 +39,13 @@ def add_calculated_fields_to_line(d):
 
     d.setdefault("source", "")
     d.setdefault("value", "")
-    d.setdefault("value_unit", "")
+    d.setdefault("value_per_unit", "")
     d.setdefault("quantity", "")
 
     if (
         (not d["source"]=="") and
-        (not(d["value"]=="0" and d["quantity"]=="" and d["value_unit"]=="")) and
-        (not(empty_value(d["value"]) and empty_value(d["quantity"]) and empty_value(d["value_unit"])))
+        (not(d["value"]=="0" and d["quantity"]=="" and d["value_per_unit"]=="")) and
+        (not(empty_value(d["value"]) and empty_value(d["quantity"]) and empty_value(d["value_per_unit"])))
     ):
 
         d["value_as_reported"] = d["value"]
@@ -56,10 +56,10 @@ def add_calculated_fields_to_line(d):
 
         #À CHANGER : IL FAUT DONNER LA PRIORITÉ AUX VALEURS CALCULÉES % AUX VALEURS
         # Was the d["value"] computed expost based on unit price and quantities ? 0 no 1 yes
-        if not empty_value(d["value_unit"]) and not empty_value(d["quantity"]):
+        if not empty_value(d["value_per_unit"]) and not empty_value(d["quantity"]):
             d["computed_value"]=1
             q=clean_float_string(d["quantity"])
-            pu=clean_float_string(d["value_unit"])
+            pu=clean_float_string(d["value_per_unit"])
             try :
                 d["value"] = float(q)*float(pu)
             except :
@@ -70,22 +70,22 @@ def add_calculated_fields_to_line(d):
             d["computed_value"]=0
 
         # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
-        if empty_value(d["value_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]):
+        if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]):
             d["replace_computed_up"]=1
             q=clean_float_string(d["quantity"])
             v=clean_float_string(d["value"])
             try:
-                d["value_unit"] = float(v)/float(q)
+                d["value_per_unit"] = float(v)/float(q)
             except:
                 print("can't parse to float q: '%s' v:'%s' "%(q,v))
-                d["value_unit"]=""
+                d["value_per_unit"]=""
 
             # nb_computed_value+=1
         else :
             d["replace_computed_up"]=0
 
     # transform "." and "?" into ""
-    for field in ["value","quantity","value_unit"]:
+    for field in ["value","quantity","value_per_unit"]:
         if d[field] in [".","?"]:
             d[field]=""
 
