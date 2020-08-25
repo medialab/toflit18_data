@@ -40,24 +40,24 @@ cd "$dir/Données Stata"
 *************Marchandises
 
 
-use "bdd_revised_marchandises_normalisees_orthographique.dta", replace
-bys marchandises : drop if _n!=1
+use "bdd_revised_product_normalisees_orthographique.dta", replace
+bys product : drop if _n!=1
 generate keep=0
 
 foreach file in bdd_centrale Hambourg/BDD_Hambourg_21_juillet_2014 Sound/BDD_SUND_FR Belgique/RG_1774 Belgique/RG_base  {
-	merge 1:m marchandises using "`file'.dta"
+	merge 1:m product using "`file'.dta"
 	replace keep = 1 if _merge==3
 	drop _merge
-	bys marchandises : drop if _n!=1
-	keep keep marchandises orthographic_normalization_classification mériteplusdetravail
+	bys product : drop if _n!=1
+	keep keep product orthographic_normalization_classification mériteplusdetravail
 }
 
 drop if keep==0
 drop keep
 
-save "bdd_revised_marchandises_normalisees_orthographique.dta", replace
+save "bdd_revised_product_normalisees_orthographique.dta", replace
 
 
 
 cd "$dir"
-export delimited "toflit18_data_GIT/base/bdd_revised_marchandises_normalisees_orthographique.csv", replace
+export delimited "toflit18_data_GIT/base/bdd_revised_product_normalisees_orthographique.csv", replace

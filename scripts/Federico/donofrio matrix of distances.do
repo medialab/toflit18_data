@@ -1,6 +1,6 @@
 *** calculate distances matrix
 
-use "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data_GIT\traitements_marchandises\simplifications_perso_des_participants\db_markets_coordinates.dta", clear
+use "C:\Users\federico.donofrio\Documents\GitHub\toflit18_data_GIT\traitements_product\simplifications_perso_des_participants\db_markets_coordinates.dta", clear
 
 
 clear

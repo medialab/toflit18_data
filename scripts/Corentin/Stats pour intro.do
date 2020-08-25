@@ -3,14 +3,14 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if source_type == "Objet Général" | source_type == "Résumé"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 	
-	sort year exportsimports
+	sort year export_import
 	
 	collapse (sum) value, by(year) 
 	rename value totalN
@@ -22,7 +22,7 @@ save "/Users/Corentin/Desktop/script/test2.dta", replace
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
 set more off
-keep if sourcetype == "National par direction"  | sourcetype == "Local"
+keep if source_type == "National par tax_department"  | source_type == "Local"
 collapse (sum) value , by(year)
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -37,14 +37,14 @@ graph twoway (connected proportion year)
 /*
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé"
+	keep if source_type == "Objet Général" | source_type == "Résumé"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 	
-	sort year exportsimports
+	sort year export_import
 		
 	replace edentreaty_classification = "Autres" if edentreaty_classification == ""
 	collapse (sum) value, by(year edentreaty_classification)

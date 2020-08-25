@@ -1,20 +1,20 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
+	keep if source_type == "Objet Général" | source_type == "Résumé" | source_type == "Divers - in"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 
 	*keep if edentreaty_classification == "Vin de France" // A ajouter pour analyse vin
 	*keep if edentreaty_classification == "Hardware" // A ajouter pour analyse Hardware
 	*keep if edentreaty_classification == "Coton de toute espèce"
-	keep if exportsimports == "Imports"
+	keep if export_import == "Imports"
 keep if sitc_classification == "6a" | sitc_classification == "6b" | sitc_classification == "6c"| sitc_classification == "6d"| sitc_classification == "6e"| sitc_classification == "6f" | sitc_classification == "6g"| sitc_classification == "6h" | sitc_classification == "6i"| sitc_classification == "6j"| sitc_classification == "6k"
 
-	sort year exportsimports
+	sort year export_import
 	
 	collapse (sum) value, by(year) 
 	rename value totalN
@@ -30,12 +30,12 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 ***** NATIONAL
-	keep if sourcetype == "Objet Général" | sourcetype == "Résumé" | sourcetype == "Divers - in"
+	keep if source_type == "Objet Général" | source_type == "Résumé" | source_type == "Divers - in"
 
-	drop if sourcetype == "Résumé" & year == 1787 
-	drop if sourcetype == "Résumé" & year == 1788
-	drop if sourcetype == "Objet Général" & year > 1788
-	drop if sourcetype == "Résumé" & year < 1787
+	drop if source_type == "Résumé" & year == 1787 
+	drop if source_type == "Résumé" & year == 1788
+	drop if source_type == "Objet Général" & year > 1788
+	drop if source_type == "Résumé" & year < 1787
 
 	replace edentreaty_classification = "Coton_detoute_espèce" if edentreaty_classification == "Coton de toute espèce"
 	replace edentreaty_classification = "Eau_de_vie_de_France" if edentreaty_classification == "Eau de vie de France"
@@ -49,7 +49,7 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 	/*
 	****
-	keep if exportsimports == "Imports"	
+	keep if export_import == "Imports"	
 	*keep if edentreaty_classification == "Eau_de_vie_de_France"
 	*keep if orthographic_normalization_classification == "vin de France de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux de haut"  | orthographic_normalization_classification == "vin de Bordeaux au muid" | orthographic_normalization_classification == "vin de Bordeaux" | orthographic_normalization_classification == "vin de Bordeaux de ville"
 
@@ -72,7 +72,7 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	/*
 	
 	*****
-	keep if exportsimports == "Exports"	
+	keep if export_import == "Exports"	
 	collapse (sum) value, by(year edentreaty_classification) 	
 	
 	levelsof edentreaty_classification, local(levels)
@@ -91,10 +91,10 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	*/
 	****
 	
-	collapse (sum) value, by(year  exportsimports edentreaty_classification) 
+	collapse (sum) value, by(year  export_import edentreaty_classification) 
 	
-	gen exports = value if exportsimports == "Exports"
-	gen imports = value if exportsimports == "Imports"
+	gen exports = value if export_import == "Exports"
+	gen imports = value if export_import == "Imports"
 	 
 	levelsof edentreaty_classification, local(levels)
 			collapse (sum) exports imports, by(year edentreaty_classification)
@@ -111,10 +111,10 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	*/
 ****** Balance totale
 /*
-collapse (sum) value, by(year  exportsimports) 
+collapse (sum) value, by(year  export_import) 
 	
-	gen exports = value/1000000 if exportsimports == "Exports"
-	gen imports = value/1000000 if exportsimports == "Imports"
+	gen exports = value/1000000 if export_import == "Exports"
+	gen imports = value/1000000 if export_import == "Imports"
 	 
 		collapse (sum) exports imports, by(year)
 		gen balance = exports - imports
@@ -134,7 +134,7 @@ collapse (sum) value, by(year  exportsimports)
 ******* PRIX UNITAIRE
 drop if year == 1771
 replace simplification_classification = "vin de Bordeaux" if orthographic_normalization_classification == "vin de Bordeaux"
-keep if exportsimports == "Exports"
+keep if export_import == "Exports"
 keep if edentreaty_classification == "Vin_de_France"
 
 drop if value == .
@@ -211,8 +211,8 @@ gen prix_u = value / quantites_metric_eden
 drop if prix_u == .
 
 
-collapse (mean) prix_u, by(year  exportsimports edentreaty_classification) 
-keep if exportsimports == "Exports"
+collapse (mean) prix_u, by(year  export_import edentreaty_classification) 
+keep if export_import == "Exports"
 keep if year > 1772
 
 *keep if edentreaty_classification == "Eau_de_vie_de_France"
@@ -229,7 +229,7 @@ graph twoway (connected prix_u year)
 ***** COMPOSITION DES ECHANGES SITC	
 /*
 set more off
-keep if exportsimports == "Imports"	
+keep if export_import == "Imports"	
 
 /*
 	replace sitc_classification = "Inconnu" if sitc_classification == ""

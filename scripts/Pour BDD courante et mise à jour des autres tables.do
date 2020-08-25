@@ -1,4 +1,4 @@
-
+ssc install missings
 
  version 15.1
 
@@ -20,17 +20,18 @@ cd "$dir"
 
 
 
-foreach file in classification_country_orthographic classification_country_simplification classification_country_grouping /*
-*/				 classification_country_obrien classification_country_wars /*
-*/				 classification_country_sourcename classification_country_africa /*
+foreach file in classification_partner_orthographic classification_partner_simplification classification_partner_grouping /*
+*/				 classification_partner_obrien classification_partner_wars /*
+*/				 classification_partner_sourcename classification_partner_africa /*
 */               classification_product_orthographic classification_product_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_product_edentreaty classification_product_canada /*
 */				 classification_product_medicinales classification_product_hamburg classification_product_grains /*
 */ 				 classification_product_sitc  classification_product_coffee classification_product_porcelaine /*
-*/				 bdd_directions classification_product_sitc_FR classification_product_sitc_EN /*
+*/				 bdd_tax_departments classification_product_sitc_FR classification_product_sitc_EN /*
 */				 classification_product_sitc_simplEN /* 
-*/ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
-*/				 bdd_origine classification_product_coton	classification_product_ulrich /*
+*/ 				 classification_quantityunit_orthographic classification_quantityunit_simplification /*
+*/				 classification_quantityunit_metric1 classification_quantityunit_metric2 /*
+*/				 bdd_origin classification_product_coton	classification_product_ulrich /*
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
@@ -46,7 +47,7 @@ foreach file in classification_country_orthographic classification_country_simpl
 		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
 		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
 		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-		replace `variable' =usubinstr(`variable',"’","'",.)
+		capture replace `variable'  =usubinstr(`variable',"’","'",.)
 		capture	replace `variable'  =ustrtrim(`variable')
 	}
 
@@ -56,25 +57,48 @@ foreach file in classification_country_orthographic classification_country_simpl
  
 }
 
+foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
+			"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
+	
+	use "`file'", clear
+	foreach variable of var * {
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
+		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+		capture replace `variable'  =usubinstr(`variable',"’","'",.)
+		capture	replace `variable'  =ustrtrim(`variable')
+	}
+	replace product = ustrupper(usubstr(product,1,1),"fr")+usubstr(product,2,.)
+	save "`file'", replace
+}
+
+
 /* 
 use "Données Stata/Units_N1.dta", clear
 destring q_conv, replace
 save "Données Stata/Units_N1.dta", replace
 */
 
-use "Données Stata/Units_Normalisation_Metrique1.dta", clear
-destring q_conv, replace
-save "Données Stata/Units_Normalisation_Metrique1.dta", replace
+use "Données Stata/classification_quantityunit_simplification.dta", clear
+destring conv_orthographic_to_simplificat source_bdc, replace
+save "Données Stata/classification_quantityunit_simplification.dta", replace
 
-use "Données Stata/Units_Normalisation_Metrique2.dta", clear
-destring q_conv, replace
-save "Données Stata/Units_Normalisation_Metrique2.dta", replace
+use "Données Stata/classification_quantityunit_metric1.dta", clear
+destring conv_simplification_to_metric, replace
+save "Données Stata/classification_quantityunit_metric1.dta", replace
+
+use "Données Stata/classification_quantityunit_metric2.dta", clear
+destring conv_simplification_to_metric, replace
+save "Données Stata/classification_quantityunit_metric2.dta", replace
 
 /*
 
 foreach file in travail_sitcrev3 sitc18_simpl {
 
-	import delimited "toflit18_data_GIT/traitements_marchandises/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+	import delimited "toflit18_data_GIT/traitements_product/SITC/`file'.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 		foreach variable of var * {
 			capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -96,7 +120,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 	
 	
 /*	
-import delimited "$dir/toflit18_data_GIT/traitements_marchandises/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "$dir/toflit18_data_GIT/traitements_product/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -124,7 +148,7 @@ import delimited "$dir/toflit18_data_GIT/traitements_marchandises/SITC/Définiti
 
 
 import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
-foreach variable of var marchandises pays quantity_unit {
+foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -138,7 +162,7 @@ foreach variable of var marchandises pays quantity_unit {
 
 zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
-foreach variable of var quantit value prix_unitaire probleme { 
+foreach variable of var quantity value value_unit difference_value_unit_price { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -155,16 +179,16 @@ foreach variable of var quantit value prix_unitaire probleme {
 }
 
 
-destring total leurvaleursubtotal_1 leurvaleursubtotal_2 leurvaleursubtotal_3  doubleaccounts, replace
-destring quantit prix_unitaire value, replace
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
+destring quantity value_unit value, replace
 
 drop if source==""
-drop if value==0 & quantit==. & prix_unitaire==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantit==.|quantit==0) & (prix_unitaire==.|prix_unitaire==0) /*idem*/
-replace value=. if (value==0 & quantit!=. & quantit!=0)
+drop if value==0 & quantity==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_unit==.|value_unit==0) /*idem*/
+replace value=. if (value==0 & quantity !=. & quantity !=0)
 
-**Je mets des majuscules à toutes les "marchandises" de la source
-replace marchandises = upper(substr(marchandises,1,1))+substr(marchandises,2,.)
+**Je mets des majuscules à toutes les "product" de la source
+replace product = upper(substr(product,1,1))+substr(product,2,.)
 
 
 ** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
@@ -192,8 +216,10 @@ cd "$dir/Données Stata"
 ***********Unit values
 
 use "bdd_centrale.dta", clear
-merge m:1 quantity_unit using "Units_Normalisation_Orthographique.dta"
-keep quantity_unit quantity_unit_ortho _merge 
+rename source source_doc
+rename quantity_unit source
+merge m:1 source using "classification_quantityunit_orthographic.dta"
+keep source orthographic _merge 
 
 
 capture drop source_bdc
@@ -204,55 +230,92 @@ replace source_bdc=0 if _merge==2
 
 
 
-foreach variable of var quantity_unit quantity_unit_ortho  {
-	capture drop nbr_bdc_`variable'
-	generate nbr_bdc_`variable'=0
-	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
-	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+foreach variable of var source orthographic  {
+	capture drop nbr_occurences_`variable'
+	generate nbr_occurences_`variable'=0
+	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
+	bys `variable' : replace nbr_occurences_`variable'=_N if (_merge==3 | _merge==1)
+	bys `variable' : replace nbr_occurences_`variable'=0 if _merge==2
 }
 
 drop _merge
-bys quantity_unit : keep if _n==1
-save "Units_Normalisation_Orthographique.dta", replace
-generate sortkey = ustrsortkey(quantity_unit, "fr")
+bys source : keep if _n==1
+generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Orthographique.csv", replace
+save "classification_quantityunit_orthographic.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthographic.csv", replace
 
-use "Units_Normalisation_Orthographique.dta", clear
-merge m:1 quantity_unit_ortho using "Units_Normalisation_Metrique1.dta"
-keep quantity_unit_ortho quantity_unit_ajustees u_conv q_conv remarque_unit incertitude_unit ///
-source_hambourg missing needs_more_details source_bdc _merge
 
-foreach variable of var quantity_unit_ortho quantity_unit_ajustees  {
+
+******
+use "classification_quantityunit_orthographic.dta", clear
+keep orthographic nbr_occurences_orthographic source_bdc
+bys orthographic : keep if _n==1
+merge 1:1 orthographic using "classification_quantityunit_simplification.dta"
+keep orthographic nbr_occurences_orthographic simplification conv_orthographic_to_simplificat remarque_unit ///
+					source_bdc _merge
+
+foreach variable of var simplification  {
 	capture drop nbr_bdc_`variable'
-	generate nbr_bdc_`variable'=0
-	label variable nbr_bdc_`variable' "Nbr de flux avec ce `variable' dans la source française"
-	bys `variable' : replace nbr_bdc_`variable'=_N if (_merge==3 | _merge==1)
+	bys `variable' : egen nbr_occurences_`variable'=total(nbr_occurences_orthographic)
+	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
 }
+
+
 
 drop _merge
 
-egen source_bdc_new = max(source_bdc), by(quantity_unit_ortho)
+egen source_bdc_new = max(source_bdc), by(simplification)
 drop source_bdc
 rename source_bdc_new source_bdc
-order quantity_unit_ortho source_bdc nbr_bdc_quantity_unit_ortho quantity_unit_ajustees nbr_bdc_quantity_unit_ajustees ///
-	u_conv q_conv incertitude_unit source_hambourg missing needs_more_details  remarque_unit
-
-bys quantity_unit_ortho : keep if _n==1
-save "Units_Normalisation_Metrique1.dta", replace
-generate sortkey = ustrsortkey(quantity_unit_ortho, "fr")
+order orthographic source_bdc nbr_occurences_orthographic simplification nbr_occurences_simplification ///
+	conv_orthographic_to_simplificat remarque_unit
+	
+	
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique1.csv", replace
+save "classification_quantityunit_simplification.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_simplification.csv", replace
 
-/*See below for "Units_Normalisation_Metrique2.dta"*/
+
+******
+use "classification_quantityunit_simplification.dta", clear
+keep simplification nbr_occurences_simplification source_bdc
+bys simplification : keep if _n==1
+merge 1:1 simplification using "classification_quantityunit_metric1.dta"
+keep simplification nbr_occurences_simplification metric conv_simplification_to_metric /// 
+				incertitude_unit source_hambourg	missing	needs_more_details remarque_unit
+
+
+foreach variable of var metric  {
+	capture drop nbr_bdc_`variable'
+	bys `variable' : egen nbr_occurences_`variable'=total(nbr_occurences_simplification)
+	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
+}
+
+
+capture drop _merge
+
+order simplification  nbr_occurences_simplification metric  ///
+	conv_simplification_to_metric incertitude_unit source_hambourg	missing	needs_more_details remarque_unit
+
+	
+	
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey
+save "classification_quantityunit_metric1.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric1.csv", replace
+
+/*See below for "classification_quantityunit_metric2.dta"*/
 
 
 /*
 use "bdd_centrale.dta", clear
 merge m:1 quantity_unit using "Units_N1.dta"
-drop numrodeligne-total leurvaleursubtotal_1-remarkspourlesdroits
+drop line_number-total value_sub_total_1-remarkspourlesdroits
 drop computed_value
 drop value_as_reported	replace_computed_up
 * drop computed_up
@@ -280,29 +343,29 @@ drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/Units_N1.csv", replace
 */
 
-******* Direction et origine
+******* Direction et origin
 use "bdd_centrale.dta", clear
-merge m:1 direction using "bdd_directions.dta"
-keep direction direction_simpl
-bys direction : gen nbr_occurence=_N
-bys direction : keep if _n==1
-save "bdd_directions.dta", replace
-generate sortkey = ustrsortkey(direction, "fr")
+merge m:1 tax_department using "bdd_tax_departments.dta"
+keep tax_department tax_department_simpl
+bys tax_department : gen nbr_occurence=_N
+bys tax_department : keep if _n==1
+save "bdd_tax_departments.dta", replace
+generate sortkey = ustrsortkeyex(tax_department,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/bdd_directions.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_tax_departments.csv", replace
 
 
 use "bdd_centrale.dta", clear
-merge m:1 origine using "bdd_origine.dta"
-keep origine origine_norm_ortho
-bys origine : gen nbr_occurence=_N
-bys origine : keep if _n==1
-save "bdd_origine.dta", replace
-generate sortkey = ustrsortkey(origine, "fr")
+merge m:1 origin using "bdd_origin.dta"
+keep origin origin_norm_ortho
+bys origin : gen nbr_occurence=_N
+bys origin : keep if _n==1
+save "bdd_origin.dta", replace
+generate sortkey = ustrsortkeyex(origin,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/bdd_origine.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/bdd_origin.csv", replace
 
 
 
@@ -311,32 +374,28 @@ export delimited "$dir/toflit18_data_GIT/base/bdd_origine.csv", replace
 ****Pays*************
 use "bdd_centrale.dta", clear
 rename source source_doc
-rename pays source
-merge m:1 source using "classification_country_orthographic.dta"
-drop numrodeligne-marchandises value-remarkspourlesdroits
+rename partner source
+merge m:1 source using "classification_partner_orthographic.dta"
+keep source orthographic note
 
-capture drop nbr_occurences_source
-capture drop nbr_occurences_ortho
-
-drop _merge
 bys source : gen nbr_occurences_source=_N
 bys orthographic : gen nbr_occurences_ortho=_N 
 bys source : keep if _n==1
 keep source orthographic note nbr_occurences_source nbr_occurences_ortho
 order source s nbr_occurences_source orthographic nbr_occurences_ortho note
-save "classification_country_orthographic.dta", replace
-generate sortkey = ustrsortkey(source, "fr")
+save "classification_partner_orthographic.dta", replace
+generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_orthographic.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_orthographic.csv", replace
 
 
 
 
 **
-use "classification_country_orthographic.dta", clear
+use "classification_partner_orthographic.dta", clear
 drop note
-merge m:1 orthographic using "classification_country_simplification.dta"
+merge m:1 orthographic using "classification_partner_simplification.dta"
 drop if _merge==2
 drop _merge
 
@@ -347,17 +406,17 @@ bys simplification : egen nbr_occurences_simpl=total(nbr_occurences_source)
 bys orthographic : keep if _n==1
 keep orthographic simplification nbr_occurences_ortho nbr_occurences_simpl note
 
-save "classification_country_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic, "fr")
+save "classification_partner_simplification.dta", replace
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_simplification.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_simplification.csv", replace
 
 **
 
-use "classification_country_simplification.dta", clear
+use "classification_partner_simplification.dta", clear
 drop note
-merge m:1 simplification using "classification_country_grouping.dta"
+merge m:1 simplification using "classification_partner_grouping.dta"
 
 drop if _merge==2
 drop _merge
@@ -367,16 +426,16 @@ bys grouping : egen nbr_occurences_grouping=total(nbr_occurences_ortho)
 
 bys simplification : keep if _n==1
 keep simplification grouping nbr_occurences_simpl nbr_occurences_grouping note
-save "classification_country_grouping.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+save "classification_partner_grouping.dta", replace
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_grouping.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_grouping.csv", replace
 
 ** 
-use "classification_country_simplification.dta", clear
+use "classification_partner_simplification.dta", clear
 drop note
-merge m:1 simplification using "classification_country_obrien.dta"
+merge m:1 simplification using "classification_partner_obrien.dta"
 
 drop if _merge==2
 drop _merge
@@ -386,17 +445,17 @@ bys obrien : egen nbr_occurences_obrien=total(nbr_occurences_ortho)
 
 bys simplification : keep if _n==1
 keep simplification obrien nbr_occurences_simpl nbr_occurences_obrien note
-save "classification_country_obrien.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+save "classification_partner_obrien.dta", replace
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_obrien.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_obrien.csv", replace
 
 
 ** 
-use "classification_country_simplification.dta", clear
+use "classification_partner_simplification.dta", clear
 drop note
-merge m:1 simplification using "classification_country_wars.dta"
+merge m:1 simplification using "classification_partner_wars.dta"
 
 drop if _merge==2
 drop _merge
@@ -406,16 +465,16 @@ bys wars : egen nbr_occurences_wars=total(nbr_occurences_ortho)
 
 bys simplification : keep if _n==1
 keep simplification wars nbr_occurences_simpl nbr_occurences_wars note
-save "classification_country_wars.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+save "classification_partner_wars.dta", replace
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_wars.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_wars.csv", replace
 
 ** 
-use "classification_country_simplification.dta", clear
+use "classification_partner_simplification.dta", clear
 drop note
-merge m:1 simplification using "classification_country_sourcename.dta"
+merge m:1 simplification using "classification_partner_sourcename.dta"
 
 drop if _merge==2
 drop _merge
@@ -425,17 +484,17 @@ bys sourcename : egen nbr_occurences_sourcename=total(nbr_occurences_ortho)
 
 bys simplification : keep if _n==1
 keep simplification sourcename nbr_occurences_simpl nbr_occurences_sourcename note
-save "classification_country_sourcename.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+save "classification_partner_sourcename.dta", replace
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_sourcename.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_sourcename.csv", replace
 
 *******************************
 
-use "classification_country_simplification.dta", clear
+use "classification_partner_simplification.dta", clear
 drop note
-merge m:1 simplification using "classification_country_africa.dta"
+merge m:1 simplification using "classification_partner_africa.dta"
 
 drop if _merge==2
 drop _merge
@@ -445,18 +504,18 @@ bys africa : egen nbr_occurences_africa=total(nbr_occurences_ortho)
 
 bys simplification : keep if _n==1
 keep simplification africa nbr_occurences_simpl nbr_occurences_africa note
-save "classification_country_africa.dta", replace
-generate sortkey = ustrsortkey(simplification, "fr")
+save "classification_partner_africa.dta", replace
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_country_africa.csv", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_partner_africa.csv", replace
 
 
 
 
 *************Marchandises
-
-
+/*
+****************Orthographique de la base française
 use "classification_product_orthographic.dta", replace
 
 bys source : drop if _n!=1
@@ -465,27 +524,136 @@ save "classification_product_orthographic.dta", replace
 
 use "bdd_centrale.dta", clear
 rename source source_doc
-rename marchandises source
+rename product source
 merge m:1 source using "classification_product_orthographic.dta"
 capture drop nbr_occurences_source
 capture drop nbr_occurences_ortho
 bys source : gen nbr_occurences_source=_N
+if _merge==2 replace nbr_occurences_source=0
 bys orthographic : gen nbr_occurences_ortho=_N
-
 
 drop _merge
 
-keep source orthographic note nbr_occurences_source  nbr_occurences_ortho
-order source nbr_occurences_source orthographic nbr_occurences_ortho
+keep source orthographic note nbr_occurences_source  nbr_occurences_ortho 
+order source nbr_occurences_source orthographic nbr_occurences_ortho 
 
 bys source : keep if _n==1
 save "classification_product_orthographic.dta", replace
-generate sortkey = ustrsortkey(source, "fr")
+generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
+*/
+*******************Sourcé
+*****************************Pour product_sourcees.csv (et product orthographic)
 
-**
+
+use "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", clear
+collapse (sum) nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5, by(product)
+save "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", replace
+
+
+
+use "$dir/Données Stata/classification_product_orthographic.dta", replace
+rename source product
+keep product orthographic note
+
+merge 1:m product using "$dir/Données Stata/bdd_centrale.dta"
+generate sourceFR=0
+generate sourceFR_nbr=0
+bys product : replace sourceFR_nbr=_N
+replace sourceFR_nbr=0 if _merge==1
+bys product : keep if _n==1
+replace sourceFR=1 if _merge!=1
+keep product orthographic sourceFR sourceFR_nbr note
+
+
+
+merge 1:m product using "$dir/Données Stata/Belgique/RG_base.dta"
+generate sourceBEL=0
+generate sourceBEL_nbr1=0
+bys product : replace sourceBEL_nbr1=_N
+replace sourceBEL_nbr1=0 if _merge==1
+bys product : keep if _n==1
+replace sourceBEL=1 if _merge!=1
+keep product  orthographic sourceFR sourceFR_nbr sourceBEL sourceBEL_nbr1 note
+
+merge 1:m product using "$dir/Données Stata/Belgique/RG_1774.dta"
+generate sourceBEL_nbr2=0
+bys product : replace sourceBEL_nbr2=_N
+replace sourceBEL_nbr2=0 if _merge==1
+bys product : keep if _n==1
+replace sourceBEL=1 if _merge!=1
+generate sourceBEL_nbr=sourceBEL_nbr1+sourceBEL_nbr2
+keep product orthographic sourceFR sourceFR_nbr sourceBEL  sourceBEL_nbr note
+
+merge 1:m product using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
+generate sourceSUND=0
+generate sourceSUND_nbr=0
+bys product : replace sourceSUND_nbr=_N
+replace sourceSUND_nbr=0 if _merge==1
+bys product : keep if _n==1
+replace sourceSUND=1 if _merge!=1
+keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr note
+
+merge 1:m product using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
+drop if product=="(empty)" & _merge !=2
+sort product
+bys product : keep if _n==1
+generate sourceNAVIGO=0
+generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
+replace sourceNAVIGO=1 if _merge!=1
+
+keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr note
+
+foreach i of varlist sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr {
+	replace    `i'=0 if `i'==.
+}
+
+
+sort product
+gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
+gen nbr_occurence_ttesources = sourceBEL_nbr + sourceSUND_nbr + sourceNAVIGO_nbr + sourceFR_nbr
+
+
+generate sortkey =  ustrsortkeyex(product, "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey
+save "$dir/Données Stata/product_sourcees.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/product_sourcees.csv", replace
+
+****************************Orthographique y compris toutes les bases
+/*
+use "$dir/Données Stata/classification_product_orthographic.dta", clear
+rename source product
+merge 1:1 product using "$dir/Données Stata/product_sourcees.dta"
+*/
+
+capture drop obsolete
+generate obsolete = "non"
+if nbr_source == 0 replace obsolete="oui"
+rename product source
+rename sourceFR_nbr nb_occurence_BdCFR
+capture drop nbr_occurences_source
+rename nbr_occurence_ttesources nbr_occurences_source
+capture drop nbr_occurences_ortho
+
+bys orthographic : egen nbr_occurences_ortho=total(nbr_occurences_source)
+keep source	nbr_occurences_source orthographic nbr_occurences_ortho nb_occurence_BdCFR obsolete note
+order source nb_occurence_BdCFR nbr_occurences_source
+replace obsolete = "oui" if nbr_occurences_source==0
+drop if obsolete=="oui" & orthographic==""
+sort source
+generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey
+save "$dir/Données Stata/classification_product_orthographic.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
+
+
+
+
+***************************************Simplification
 use "classification_product_simplification.dta", replace
 bys orthographic : drop if _n!=1
 save "classification_product_simplification.dta", replace
@@ -504,7 +672,7 @@ bys orthographic : keep if _n==1
 
 
 save "classification_product_simplification.dta", replace
-generate sortkey = ustrsortkey(orthographic, "fr")
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir/toflit18_data_GIT/base/classification_product_simplification.csv", replace
@@ -536,7 +704,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 	capture bys simplification : keep if _n==1
 
 	
-	capture generate sortkey = ustrsortkey(simplification, "fr")
+	capture generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 	sort sortkey
 	drop sortkey
 	
@@ -545,6 +713,31 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_simp'.csv", replace
 
 }
+
+use "classification_product_RE_aggregate.dta", clear
+	bys revolutionempire : drop if _n!=1
+save  "classification_product_RE_aggregate.dta", replace
+
+use "classification_product_revolutionempire.dta", clear
+merge m:1 revolutionempire using "classification_product_RE_aggregate.dta", force
+capture bys revolutionempire : keep if _n==1
+capture drop nbr_occurences_RE_aggregate
+bys RE_aggregate : egen nbr_occurences_RE_aggregate=total(nbr_occurences_revolutionempire)
+drop nbr_occurences_simpl
+capture gen obsolete=""
+replace obsolete = "oui" if _merge==2
+replace obsolete = "non" if _merge!=2
+drop _merge
+drop simplification
+
+capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey	
+
+save "classification_product_RE_aggregate.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/classification_product_RE_aggregate.csv", replace
+
+
 
 
 ***********************************************************************************************************************************
@@ -556,28 +749,28 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 use "bdd_centrale.dta", clear
 
 
-merge m:1 direction using "bdd_directions.dta"
+merge m:1 tax_department using "bdd_tax_departments.dta"
 drop if _merge==2
-rename direction direction_origine
-rename direction_simpl direction
+rename tax_department tax_department_origin
+rename tax_department_simpl tax_department
 drop _merge nbr_occurence
 
-merge m:1 origine using "bdd_origine.dta"
+merge m:1 origin using "bdd_origin.dta"
 drop if _merge==2
-rename origine origine_origine
-rename origine_norm_ortho origine
+rename origin origin_origin
+rename origin_norm_ortho origin
 drop _merge nbr_occurence
 
 
 rename source source_doc
-rename pays source
-merge m:1 source using "classification_country_orthographic.dta"
-rename source pays
+rename partner source
+merge m:1 source using "classification_partner_orthographic.dta"
+rename source partner
 rename source_doc source
 drop if _merge==2
 drop note-_merge
 
-merge m:1 orthographic using "classification_country_simplification.dta"
+merge m:1 orthographic using "classification_partner_simplification.dta"
 drop if _merge==2
 
 
@@ -586,18 +779,18 @@ drop note-_merge
 foreach class_name in grouping obrien ///
 			sourcename wars africa {
 
-	merge m:1 simplification using "classification_country_`class_name'.dta"
+	merge m:1 simplification using "classification_partner_`class_name'.dta"
 	drop if _merge==2
 	drop note-_merge
-	rename `class_name' country_`class_name'
+	rename `class_name' partner_`class_name'
 }
-rename simplification country_simplification
-rename orthographi country_orthographic
+rename simplification partner_simplification
+rename orthographi partner_orthographic
 
 ******
 
 rename source source_doc
-rename marchandises source
+rename product source
 merge m:1 source using "classification_product_orthographic.dta"
 rename source product
 rename source_doc source
@@ -671,57 +864,77 @@ rename yearnum year
 
 
 
-
- merge m:1 quantity_unit using "$dir/Données Stata/Units_Normalisation_Orthographique.dta"
- replace quantity_unit_ortho="unité manquante" if quantity_unit==""
- drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit nbr_bdc_quantity_unit_ortho
+rename source source_or
+rename quantity_unit source
+merge m:1 source using "$dir/Données Stata/classification_quantityunit_orthographic.dta"
+rename source quantity_unit
+rename source_or source
  
- merge m:1 quantity_unit_ortho using "$dir/Données Stata/Units_Normalisation_Metrique1.dta"
- replace quantity_unit_ajustees="unité manquante" if quantity_unit_ortho=="unité manquante"
- replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- drop if _merge==2
- drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing
- codebook q_conv
+replace orthographic="unité manquante" if orthographic==""
+drop if _merge==2
+drop _merge source_bdc	nbr_occurences_source	nbr_occurences_orthographic
  
- save "$dir/Données Stata/bdd courante_temp.dta", replace
- keep if needs_more_details=="1"
- keep exportsimports country_grouping direction product_simplification quantity_unit_ortho
- bys exportsimports country_grouping direction product_simplification quantity_unit_ortho: keep if _n==1
- merge 1:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
-	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta"
+merge m:1 orthographic using "$dir/Données Stata/classification_quantityunit_simplification.dta"
+rename orthographic quantity_unit_orthographic
+replace simplification="unité manquante" if quantity_unit_orthographic=="unité manquante"
+ 
+ 
+drop _merge source_bdc	nbr_occurences_orthographic nbr_occurences_simplification remarque_unit
 
+merge m:1 simplification using "$dir/Données Stata/classification_quantityunit_metric1.dta"
+rename simplification quantity_unit_simplification
+
+ 
+replace metric="unité manquante" if quantity_unit_simplification=="unité manquante"
+drop if _merge==2
+drop _merge  incertitude_unit nbr_occurences_simplification nbr_occurences_metric /*
+		*/ source_hambourg	missing	remarque_unit
+rename metric quantity_unit_metric
+*gen quantities_metric=quantity *conv_orthographic_to_simplificat*conv_simplification_to_metric
+ 
+ 
+save "$dir/Données Stata/bdd courante_temp.dta", replace
+keep if needs_more_details=="1"
+
+keep export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification
+bys export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
+rename quantity_unit_simplification simplification
+merge 1:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
+	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
+	
  drop _merge
- sort quantity_unit_ortho product_simplification exportsimports direction country_grouping
- save "$dir/Données Stata/Units_Normalisation_Metrique2.dta", replace
- export delimited "$dir/toflit18_data_GIT/base/Units_Normalisation_Metrique2.csv", replace
+ sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
+ order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
+ save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
+ export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
  
- merge m:1 exportsimports country_grouping direction product_simplification quantity_unit_ortho ///
-	using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
+ rename quantity_unit_simplification simplification 
+ 
+ merge m:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
+	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
  
  drop if _merge==2
- drop  remarque_unit-_merge
- codebook q_conv
+ drop  remarks_unit-_merge
+ codebook conv_simplification_to_metric
  
- generate quantities_metric = q_conv * quantit
+ generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=prix_unitaire/q_conv if unit_price_metric==.
- 
- 
- 
+ replace  unit_price_metric=value_unit/conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
+
+ save "$dir/Données Stata/bdd courante_temp.dta", replace
  
  *************Pour les best guess
  gen NationalBestGuess=0
- replace NationalBestGuess=1 if (sourcetype=="National toutes directions tous partenaires" & year==1750) /*
-		*/ | (sourcetype=="Objet Général" & year >=1754 & year <=1782) /*
-		*/ | (sourcetype=="Résumé")
+ replace NationalBestGuess=1 if (source_type=="National toutes tax_departments tous partenaires" & year==1750) /*
+		*/ | (source_type=="Objet Général" & year >=1754 & year <=1782) /*
+		*/ | (source_type=="Résumé")
 		
  gen LocalBestGuess=0
- replace LocalBestGuess=1 if (sourcetype=="Local" & year!=1750) /*
-		*/ | (sourcetype=="National toutes directions tous partenaires" & year==1750)
+ replace LocalBestGuess=1 if (source_type=="Local" & year!=1750) /*
+		*/ | (source_type=="National toutes tax_departments tous partenaires" & year==1750)
 		
 save "$dir/Données Stata/bdd courante", replace
  
@@ -729,15 +942,39 @@ save "$dir/Données Stata/bdd courante", replace
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
  
  
+ ************For best guesses
+capture drop national_product_best_guess
+gen national_product_best_guess = 0		
+replace national_product_best_guess = 1 if (source_type=="Objet Général" & year<=1786) | ///
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
+egen year_CN = max(national_product_best_guess), by(year)
+replace national_product_best_guess=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
+drop year_CN
+
+capture drop national_geography_best_guess
+gen national_geography_best_guess = 0
+replace national_geography_best_guess = 1 if source_type=="Tableau Général" | source_type=="Résumé"
+
+capture drop local_product_best_guess
+gen local_product_best_guess=0
+replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes directions tous partenaires" & year == 1750)
+
+capture drop local_geography_best_guess
+gen local_geography_best_guess=0
+replace local_geography_best_guess = 1 if source_type=="National toutes directions sans produits" | ///
+		(source_type== "National toutes directions tous partenaires" & year == 1750)
+egen year_CN = max(local_geography_best_guess), by(year)
+replace local_geography_best_guess=1 if year_CN == 1 & source_type=="Local"
+drop year_CN
  ********************************************************************
 use "$dir/Données Stata/bdd courante.dta", clear
 
  missings dropobs, force
  missings dropvars, force
  
-sort sourcetype direction year exportsimports numrodeligne 
-order numrodeligne sourcetype year direction pays country_orthographic exportsimports ///
-		product product_orthographic value quantit quantity_unit quantity_unit_ortho prix_unitaire
+sort source_type tax_department year export_import line_number 
+order line_number source_type year tax_department partner partner_orthographic export_import ///
+		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_unit
  
  
 export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
@@ -748,11 +985,11 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 
 
-drop if sourcetype=="Out"
+drop if source_type=="Out"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
 		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
-drop if sourcetype=="Out"
+drop if source_type=="Out"
 save "$dir/Données Stata/bdd courante.dta", replace
 
 
@@ -761,69 +998,14 @@ save "$dir/Données Stata/bdd courante.dta", replace
 use "$dir/bdd courante", replace 
 
 keep if year=="1750"
-keep if direction=="Bordeaux"
-keep if exportsimports=="Imports"
-keep source sourcetype year exportsimports direction marchandises pays value quantit quantity_unit prix_unitaire probleme remarks quantit_unit pays_corriges marchandises_normalisees value_calcul prix_calcul
-sort marchandises pays
+keep if tax_department=="Bordeaux"
+keep if export_import=="Imports"
+keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit difference_value_unit_price remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+sort product partner
 
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Pour comparaison Bordeaux 1750.csv", replace
 */
-
-*****************************Pour marchandises_sourcees.csv
-
-
-
-use "$dir/Données Stata/classification_product_orthographic.dta", replace
-rename source marchandises
-keep marchandises
-merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_base.dta"
-generate sourceBEL=0
-generate sourceBEL_nbr1=0
-bys marchandises : replace sourceBEL_nbr1=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceBEL=1 if _merge==3
-keep marchandises sourceBEL sourceBEL_nbr1
-
-merge 1:m marchandises using "$dir/Données Stata/Belgique/RG_1774.dta"
-generate sourceBEL_nbr2=0
-bys marchandises : replace sourceBEL_nbr2=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceBEL=1 if _merge==3
-generate sourceBEL_nbr=sourceBEL_nbr1+sourceBEL_nbr2
-keep marchandises sourceBEL  sourceBEL_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/bdd_centrale.dta"
-generate sourceFR=0
-generate sourceFR_nbr=0
-bys marchandises : replace sourceFR_nbr=_N if _merge==3
-bys marchandises : keep if _n==1
-
-replace sourceFR=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceBEL_nbr sourceFR_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/Sound/BDD_SUND_FR.dta"
-generate sourceSUND=0
-generate sourceSUND_nbr=0
-bys marchandises : replace sourceSUND_nbr=_N if _merge==3
-bys marchandises : keep if _n==1
-replace sourceSUND=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr
-
-merge 1:m marchandises using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
-bys marchandises : keep if _n==1
-generate sourceNAVIGO=0
-generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
-replace sourceNAVIGO=1 if _merge==3
-keep marchandises sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr
-
-sort marchandises
-gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
-
-drop if nbr_source==0
-
-save "$dir/Données Stata/marchandises_sourcees", replace
-export delimited "$dir/toflit18_data_GIT/base/marchandises_sourcees.csv", replace
 
 
 
@@ -864,15 +1046,15 @@ drop imprimatur obsolete nbr_occurences_revolutionempire nbr_occurences_sitc
 sort simplification
 
 
-save "$dir/Données Stata/marchandises_pour_nouvelle_classification.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/marchandises_pour_nouvelle_classification.csv", replace
+save "$dir/Données Stata/product_pour_nouvelle_classification.dta", replace
+export delimited "$dir/toflit18_data_GIT/base/product_pour_nouvelle_classification.csv", replace
 
 
 
 *****Pour travail de Stephen Jackson sur la classification impériale
 /*
 use "$dir/Données Stata/bdd courante", clear
-keep if sourcetype=="Résumé"
+keep if source_type=="Résumé"
 collapse (count) value, by(year product_simplification product_sitc_FR product_revolutionempire)
 rename value observations_total
 collapse (count) year (sum) observations_total , by( product_simplification product_sitc_FR product_revolutionempire)
@@ -881,7 +1063,7 @@ rename year années_observées
 save blif.dta, replace
 
 use "$dir/Données Stata/bdd courante", clear
-keep if sourcetype=="Résumé"
+keep if source_type=="Résumé"
 collapse (count) value, by(year product_revolutionempire)
 rename value observations_total_bis
 collapse (count) year (sum) observations_total , by( product_revolutionempire)

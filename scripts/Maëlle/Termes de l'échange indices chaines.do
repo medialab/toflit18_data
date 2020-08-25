@@ -6,21 +6,21 @@
 
 capture program drop Termes_echange_v1
 program  Termes_echange_v1
-args direction X_ou_I
+args tax_department X_ou_I
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* On garde une observation par marchandise, année, tax_department et exports ou imports
+bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 sort year simplification_classification
 
 * Choix d'un port 
-* keep if direction=="La Rochelle"
-* keep if exportsimports=="Imports"
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+* keep if tax_department=="La Rochelle"
+* keep if export_import=="Imports"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 
-* Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
+* Calcul des p0 et q0 en prenant en compte les product présentes d'une année sur l'autre
 generate presence_annee=0
 gen somme_annee=.
 gen p0=.
@@ -33,7 +33,7 @@ replace presence_annee=1 if L`lag'.panvar_num==panvar_num
 bys year: egen blink=total(presence_annee)
 replace somme_annee=blink if somme_annee==. | somme_annee==0
 drop blink 
-* donne le nb de marchandises présentes d'une année sur l'autre
+* donne le nb de product présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
 tsset panvar_num year
@@ -122,21 +122,21 @@ save "/Users/maellestricot/Documents/STATA MAC/bdd Direction Imports.dta", repla
 
 capture program drop Termes_echange_v2
 program  Termes_echange_v2
-args direction X_ou_I
+args tax_department X_ou_I
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-* On garde une observation par marchandise, année, direction et exports ou imports
-bysort year simplification_classification exportsimports direction u_conv: keep if _n==1
+* On garde une observation par marchandise, année, tax_department et exports ou imports
+bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
 sort year simplification_classification
 
 * Choix d'un port 
-* keep if direction=="La Rochelle"
-* keep if exportsimports=="Exports"
-if "`direction'" !="France" keep if direction=="`direction'" 
-keep if exportsimports=="`X_ou_I'"
+* keep if tax_department=="La Rochelle"
+* keep if export_import=="Exports"
+if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+keep if export_import=="`X_ou_I'"
 
-* Calcul des p0 et q0 en prenant en compte les marchandises présentes d'une année sur l'autre
+* Calcul des p0 et q0 en prenant en compte les product présentes d'une année sur l'autre
 generate presence_annee=0
 gen somme_annee=.
 gen p0=.
@@ -149,7 +149,7 @@ replace presence_annee=1 if L`lag'.panvar_num==panvar_num
 bys year: egen blink=total(presence_annee)
 replace somme_annee=blink if somme_annee==. | somme_annee==0
 drop blink 
-* donne le nb de marchandises présentes d'une année sur l'autre
+* donne le nb de product présentes d'une année sur l'autre
 
 if somme_annee!=0 by (year)
 tsset panvar_num year

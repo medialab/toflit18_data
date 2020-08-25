@@ -17,10 +17,10 @@ drop len
 save "$dir/Données Stata/classification_autre_luxe.dta", replace
 
 use "$dir/Données Stata/bdd courante.dta", clear
-keep if (u_conv=="kg" | u_conv=="pièces" | u_conv=="cm") | sourcetype=="Résumé"
+keep if (u_conv=="kg" | u_conv=="pièces" | u_conv=="cm") | source_type=="Résumé"
 keep if product_sitc=="6d" | product_sitc=="6e" | product_sitc=="6f" | product_sitc=="6g" | product_sitc=="6h" | product_sitc=="6i"
 *generate unit_price_metric=value/quantites_metric
-drop if unit_price_metric==. & sourcetype!="Résumé"
+drop if unit_price_metric==. & source_type!="Résumé"
 collapse (mean) mean_price=unit_price_metric (median)  median_price=unit_price_metric (sd) sd_price=unit_price_metric (count) value, by(product_simplification product_sitc_FR u_conv)
 gsort product_simplification - value
 rename value nbobs

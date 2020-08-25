@@ -9,59 +9,59 @@ gen absurd_value=0
 gen absurd_quantity=0
 
 
-*egen prop = pc(value), by(sourcetype year direction exportsimports) prop
+*egen prop = pc(value), by(source_type year tax_department export_import) prop
 
 ****D'après Torsten, email juin 2018
 
-replace absurd_value=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (country_simplification =="Nord" | country_simplification =="Italie" | country_simplification =="Hollande") ///
+replace absurd_value=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////
+			& (partner_simplification =="Nord" | partner_simplification =="Italie" | partner_simplification =="Hollande") ///
 			& (product_simplification == "sucre blanc")
 			
-replace absurd_quantity=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (country_simplification =="Nord" | country_simplification =="Italie" | country_simplification =="Hollande") ///
+replace absurd_quantity=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////
+			& (partner_simplification =="Nord" | partner_simplification =="Italie" | partner_simplification =="Hollande") ///
 			& (product_simplification == "sucre blanc")
 
-replace absurd_quantity=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (country_simplification =="Hollande") ///
+replace absurd_quantity=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////
+			& (partner_simplification =="Hollande") ///
 			& (product_simplification == "sucre brut")	
 			
-replace absurd_value=1 if direction=="Bordeaux" & year==1766 & exportsimports=="Exports" ////
-			& (country_simplification =="Hollande") ///
+replace absurd_value=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////
+			& (partner_simplification =="Hollande") ///
 			& (product_simplification == "sucre brut")	
 			
 ***Nous l'avons remarqué il y a longtemps...
 
-replace absurd_value=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles françaises de l'Amérique") ///
+replace absurd_value=1 if tax_department=="Bordeaux" & year==1771 & export_import=="Imports" ////
+			& (partner_simplification =="Îles françaises de l'Amérique") ///
 			& (product_hamburg == "Café")
 			
-replace absurd_quantity=1 if direction=="Bordeaux" & year==1771 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles françaises de l'Amérique") ///
+replace absurd_quantity=1 if tax_department=="Bordeaux" & year==1771 & export_import=="Imports" ////
+			& (partner_simplification =="Îles françaises de l'Amérique") ///
 			& (product_hamburg == "Café")
 
 
-replace absurd_value=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles") ///
+replace absurd_value=1 if tax_department=="" & year==1771 & export_import=="Imports" ////
+			& (partner_simplification =="Îles") ///
 			& (product_hamburg == "Café")
 			
-replace absurd_quantity=1 if direction=="" & year==1771 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles") ///
+replace absurd_quantity=1 if tax_department=="" & year==1771 & export_import=="Imports" ////
+			& (partner_simplification =="Îles") ///
 			& (product_hamburg == "Café")
 		
 			
 
-replace absurd_value=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles françaises de l'Amérique") ///
+replace absurd_value=1 if tax_department=="Bordeaux" & year==1768 & export_import=="Imports" ////
+			& (partner_simplification =="Îles françaises de l'Amérique") ///
 			& (product_simplification == "sucre blanc")
 			
-replace absurd_quantity=1 if direction=="Bordeaux" & year==1768 & exportsimports=="Imports" ////
-			& (country_simplification =="Îles françaises de l'Amérique") ///
+replace absurd_quantity=1 if tax_department=="Bordeaux" & year==1768 & export_import=="Imports" ////
+			& (partner_simplification =="Îles françaises de l'Amérique") ///
 			& (product_simplification == "sucre blanc")
 			
 ******* Fèves et Légumes : 1773 La Rochelle Exports vers la Guinée. Erreur reprise dans l'Objet Général pour les légumes. Nous avons corrigé un problème de zéros
 /*
-replace absurd_quantity=1 if direction=="La Rochelle" & year==1773 & exportsimports=="Exports" ////
-			& (country_simplification =="Guinée") ///
+replace absurd_quantity=1 if tax_department=="La Rochelle" & year==1773 & export_import=="Exports" ////
+			& (partner_simplification =="Guinée") ///
 			& (product_simplification == "fèves")
 */			
 *save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace
@@ -70,8 +70,8 @@ replace absurd_quantity=1 if direction=="La Rochelle" & year==1773 & exportsimpo
 
 
 /*Pour autres recherches
-egen prop = pc(value), by(sourcetype year direction exportsimports) prop
-list  if prop >=.5 & prop!=. & direction=="Bordeaux"
+egen prop = pc(value), by(source_type year tax_department export_import) prop
+list  if prop >=.5 & prop!=. & tax_department=="Bordeaux"
 */
 
 save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace

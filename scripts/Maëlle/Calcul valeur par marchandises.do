@@ -7,9 +7,9 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd courante.dta", clear
 
 gen valeur=0 
 
-if value==. replace valeur=quantit*prix_unitaire
+if value==. replace valeur=quantit*value_unit
 
-if prix_unitaire==. | quantit==. replace valeur=value
+if value_unit==. | quantit==. replace valeur=value
 
 codebook valeur 
 
@@ -20,11 +20,11 @@ drop if valeur==.
 * Calculer la valeur annuelle totale échangée par année par marchandise
 
 sort year simplification_classification
-by year simplification_classification exportsimports, sort: egen valeur_annuelle_par_marchandise=total(valeur)
+by year simplification_classification export_import, sort: egen valeur_annuelle_par_marchandise=total(valeur)
 
-* Calculer la valeur annuelle totale échangée pour toutes les marchandises
+* Calculer la valeur annuelle totale échangée pour toutes les product
 
-by year exportsimports, sort: egen valeur_annuelle_totale=total(valeur)
+by year export_import, sort: egen valeur_annuelle_totale=total(valeur)
 
 * Calculer le ratio 
 
@@ -38,7 +38,7 @@ use "/Users/maellestricot/Documents/STATA MAC/bdd part du commerce.dta", clear
 
 keep if simplification_classification=="cacao" 
 
-keep if exportsimports=="Imports" 
+keep if export_import=="Imports" 
 
 **********************************************************************************************************
 
@@ -46,8 +46,8 @@ keep if exportsimports=="Imports"
 
 keep if year==1800
 if part_marchandise_dans_commerce<0.01 replace simplification_classification="Autres"
-by simplification_classification, sort: egen valeur_marchandises_autres=total(valeur)
-if simplification_classification=="Autres" replace part_marchandises_dans_commerce=valeur_marchandises_autres/valeur_annuelle_totale
+by simplification_classification, sort: egen valeur_product_autres=total(valeur)
+if simplification_classification=="Autres" replace part_product_dans_commerce=valeur_product_autres/valeur_annuelle_totale
 
 
 
