@@ -229,17 +229,22 @@ replace source_bdc=1 if _merge==3 | _merge==1
 replace source_bdc=0 if _merge==2
 
 
+capture drop nbr_occurences_source
+generate nbr_occurences_source=0
+bys source : replace nbr_occurences_source = _N if (_merge==3 | _merge==1)
+bys source : replace nbr_occurences_source = 0 if _merge==2
+label variable nbr_occurences_source "Nbr de flux avec la quantité source dans la source française"
 
-foreach variable of var source orthographic  {
-	capture drop nbr_occurences_`variable'
-	generate nbr_occurences_`variable'=0
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-	bys `variable' : replace nbr_occurences_`variable'=_N if (_merge==3 | _merge==1)
-	bys `variable' : replace nbr_occurences_`variable'=0 if _merge==2
-}
+bys source : keep if _n==1
+**Pour éviter que certaines lignes dans le même orthographic aient des nombres entiers et des zéros (suivant si le "source" est dans la bdc ou pas)
+bys orthographic : egen nbr_occurences_orthographic = total(nbr_occurences_source)
+
+label variable nbr_occurences_orthographic "Nbr de flux avec la quantité orthographic dans la source française"
+
+
 
 drop _merge
-bys source : keep if _n==1
+
 generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
@@ -251,18 +256,18 @@ export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthog
 ******
 use "classification_quantityunit_orthographic.dta", clear
 keep orthographic nbr_occurences_orthographic source_bdc
+bys orthographic : egen blif=max(source_bdc)
+replace source_bdc=blif
+drop blif
 bys orthographic : keep if _n==1
 merge 1:1 orthographic using "classification_quantityunit_simplification.dta"
 keep orthographic nbr_occurences_orthographic simplification conv_orthographic_to_simplificat remarque_unit ///
 					source_bdc _merge
 
-foreach variable of var simplification  {
-	capture drop nbr_bdc_`variable'
-	bys `variable' : egen nbr_occurences_`variable'=total(nbr_occurences_orthographic)
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-}
 
-
+capture drop nbr_bdc_simplification
+bys simplification : egen nbr_occurences_simplification=total(nbr_occurences_orthographic)
+label variable nbr_occurences_simplification "Nbr de flux avec la quantité simplification dans la source française"
 
 drop _merge
 
