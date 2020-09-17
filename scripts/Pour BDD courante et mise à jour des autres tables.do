@@ -35,7 +35,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
-*/				 classification_product_luxe_dans_SITC	{
+*/				 classification_product_luxe_dans_SITC	classification_product_agricultural {
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -719,30 +719,31 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
-use "classification_product_RE_aggregate.dta", clear
+foreach file_on_RE in RE_aggregate agricultural {
+	use "classification_product_`file_on_RE'.dta", clear
 	bys revolutionempire : drop if _n!=1
-save  "classification_product_RE_aggregate.dta", replace
+	save  "classification_product_`file_on_RE'.dta", replace
 
-use "classification_product_revolutionempire.dta", clear
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta", force
-capture bys revolutionempire : keep if _n==1
-capture drop nbr_occurences_RE_aggregate
-bys RE_aggregate : egen nbr_occurences_RE_aggregate=total(nbr_occurences_revolutionempire)
-drop nbr_occurences_simpl
-capture gen obsolete=""
-replace obsolete = "oui" if _merge==2
-replace obsolete = "non" if _merge!=2
-drop _merge
-drop simplification
+	use "classification_product_revolutionempire.dta", clear
+	merge m:1 revolutionempire using "classification_product_`file_on_RE'.dta", force
+	capture bys revolutionempire : keep if _n==1
+	capture drop nbr_occurences_`file_on_RE'
+	bys `file_on_RE' : egen nbr_occurences_`file_on_RE'=total(nbr_occurences_revolutionempire)
+	drop nbr_occurences_simpl
+	capture gen obsolete=""
+	replace obsolete = "oui" if _merge==2
+	replace obsolete = "non" if _merge!=2
+	drop _merge
+	drop simplification
+	
+	capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+	sort sortkey
+	drop sortkey	
+	
+	save "classification_product_`file_on_RE'.dta", replace
+	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_RE'.csv", replace
 
-capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
-sort sortkey
-drop sortkey	
-
-save "classification_product_RE_aggregate.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_product_RE_aggregate.csv", replace
-
-
+}
 
 
 ***********************************************************************************************************************************
@@ -838,13 +839,14 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 }
 rename sitc product_sitc
 
-capture drop product_RE_aggregate
-rename product_revolutionempire revolutionempire
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta"
-rename revolutionempire product_revolutionempire
-drop if _merge==2
-drop _merge
-rename RE_aggregate product_RE_aggregate
+foreach class_name in RE_aggregate agricultural {
+	rename product_revolutionempire revolutionempire
+	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
+	rename revolutionempire product_revolutionempire
+	drop if _merge==2
+	drop _merge
+	rename `class_name' product_`class_name'
+}
 
 local j 5
 generate yearbis=year

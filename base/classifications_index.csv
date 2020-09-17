@@ -1,32 +1,33 @@
 slug,model,parentSlug,name,author,description
+simplification,partner,orthographic,Simplification,Guillaume Daudin,Different partner names designating the same partner are merged
 africa,partner,simplification,Africa,Guillaume Daudin,Identification of African trade partners
 grouping,partner,simplification,Grouping,Guillaume Daudin,Country classification consistent throughout the period
 obrien,partner,simplification,O’Brien,Guillaume Daudin,Country classification to compare 1789 and 1815 trade
-orthographic,partner,source,Orthographic normalization,Pierre Gervais,The orthographic variations of partner names are merged
-simplification,partner,orthographic,Simplification,Guillaume Daudin,Different partner names designating the same partner are merged
-source,partner,,Source,TOFLIT 18,the partner names as transcribed from archive volumes
 sourcename,partner,simplification,Source Names,Guillaume Daudin,Country classification to unify source names
 wars,partner,simplification,War,Guillaume Daudin,Country classification to identify war status (allies and foes)
+orthographic,partner,source,Orthographic normalization,Pierre Gervais,The orthographic variations of partner names are merged
+source,partner,,Source,TOFLIT 18,the partner names as transcribed from archive volumes
+simplification,product,orthographic,Simplification,Pierre Gervais,Different product names designating the same good are merged
+agricultural,product,revolutionempire,Agricultural goods,Leonardo Ridolfi,2-category classification to identify agricultural goods
+RE_aggregate,product,revolutionempire,Revolution and Empire – aggregate,Stephen Jackson,9-category classification inspired by Résumé (post 1787)
 beaver,product,simplification,Beaver,Guillaume Daudin,Identification of products linked with beavers
 canada,product,simplification,Canada,Quentin Vidal et Guillaume Daudin,Identification of the origin of colonial goods (North America or not)
+porcelaine,product,simplification,China,Nicholas O’Neill,Identification of china goods
 coffee,product,simplification,Coffee,????,Identification of coffee
 coton,product,simplification,Cotton,Peter Solar,Identification of raw cotton 
 edentreaty,product,simplification,Eden Treaty,Corentin Ponton,Classification of goods according to the Eden Treaty (1787)
 grains,product,simplification,Grains,Federico D’Onofrio,Identification of grains and substitutes
 hamburg,product,simplification,Hamburg,Alexandre Aubourg,Classification of goods to compare with Hamburg trade 
 medicinales,product,simplification,Medicinal products,Pierre Hollegien,Identification of medical goods
-orthographic,product,source,Orthographic normalization,Pierre Gervais,The orthographic variations of product names are merged
-porcelaine,product,simplification,China,Nicholas O’Neill,Identification of china goods
-simplification,product,orthographic,Simplification,Pierre Gervais,Different product names designating the same good are merged
+revolutionempire,product,simplification,Revolution and Empire,Stephen Jackson,147-category classification inspired by Résumé (post 1787)
 sitc,product,simplification,SITC18,Pierre Gervais,24-category classification inspired by modern SITC (codes)
-sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24-category classification inspired by modern SITC (English names)
-sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24-category classification inspired by modern SITC (French names)
-sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14-category classification inspired by modern SITC (English names)
-source,product,,Source,TOFLIT 18,the product names as transcribed from archive volumes
-ulrich,product,simplification,Ulrich,Ulrich Pfister,Classification of goods requested by Ulrich Pfister. For comparison with Hamburg trade 
-v_glass_beads,product,simplification,Venitian Glass Beads,Pierre Niccolò Sofia,Identification of venitian glass beads goods
-revolutionempire,product,simplification,Revolution and Empire,Stephen Jackson,200-category classification inspired by Résumé (post 1787)
-RE_aggregate,product,revolutionempire,Revolution and Empire – aggregate,Stephen Jackson,9-category classification inspired by Résumé (post 1787)
 type_textile,product,simplification,Textile type,Loïc Charles,2-category classification of textile in SITC6 (« tissés » and « passementerie»)
 luxe_dans_SITC,product,simplification,Textile vertical differenciation in SITC,Loïc Charles,"3-categoy classification of textiles (haut, milieu and bas de gamme) in « SITC18 »"
 luxe_dans_type,product,simplification,Textile vertical differenciation in type,Loïc Charles,"3-categoy classification of textiles (haut, milieu and bas de gamme) in « type_textile »"
+ulrich,product,simplification,Ulrich,Ulrich Pfister,Classification of goods requested by Ulrich Pfister. For comparison with Hamburg trade 
+v_glass_beads,product,simplification,Venitian Glass Beads,Pierre Niccolò Sofia,Identification of venitian glass beads goods
+sitc_simplEN,product,sitc,Simplified SITC,Guillaume Daudin,14-category classification inspired by modern SITC (English names)
+sitc_EN,product,sitc,SITC18_English,Pierre Gervais,24-category classification inspired by modern SITC (English names)
+sitc_FR,product,sitc,SITC18_French,Pierre Gervais,24-category classification inspired by modern SITC (French names)
+orthographic,product,source,Orthographic normalization,Pierre Gervais,The orthographic variations of product names are merged
+source,product,,Source,TOFLIT 18,the product names as transcribed from archive volumes
