@@ -35,7 +35,8 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
-*/				 classification_product_luxe_dans_SITC	classification_product_agricultural {
+*/				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
+*/				 classification_product_threesectorsM	{
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -719,7 +720,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
-foreach file_on_RE in RE_aggregate agricultural {
+foreach file_on_RE in RE_aggregate threesectors threesectorsM {
 	use "classification_product_`file_on_RE'.dta", clear
 	bys revolutionempire : drop if _n!=1
 	save  "classification_product_`file_on_RE'.dta", replace
@@ -839,7 +840,7 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 }
 rename sitc product_sitc
 
-foreach class_name in RE_aggregate agricultural {
+foreach class_name in RE_aggregate threesectors threesectorsM {
 	rename product_revolutionempire revolutionempire
 	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
 	rename revolutionempire product_revolutionempire
