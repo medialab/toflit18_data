@@ -35,7 +35,8 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
-*/				 classification_product_luxe_dans_SITC	{
+*/				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
+*/				 classification_product_threesectorsM	{
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -229,17 +230,22 @@ replace source_bdc=1 if _merge==3 | _merge==1
 replace source_bdc=0 if _merge==2
 
 
+capture drop nbr_occurences_source
+generate nbr_occurences_source=0
+bys source : replace nbr_occurences_source = _N if (_merge==3 | _merge==1)
+bys source : replace nbr_occurences_source = 0 if _merge==2
+label variable nbr_occurences_source "Nbr de flux avec la quantité source dans la source française"
 
-foreach variable of var source orthographic  {
-	capture drop nbr_occurences_`variable'
-	generate nbr_occurences_`variable'=0
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-	bys `variable' : replace nbr_occurences_`variable'=_N if (_merge==3 | _merge==1)
-	bys `variable' : replace nbr_occurences_`variable'=0 if _merge==2
-}
+bys source : keep if _n==1
+**Pour éviter que certaines lignes dans le même orthographic aient des nombres entiers et des zéros (suivant si le "source" est dans la bdc ou pas)
+bys orthographic : egen nbr_occurences_orthographic = total(nbr_occurences_source)
+
+label variable nbr_occurences_orthographic "Nbr de flux avec la quantité orthographic dans la source française"
+
+
 
 drop _merge
-bys source : keep if _n==1
+
 generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
@@ -251,18 +257,18 @@ export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthog
 ******
 use "classification_quantityunit_orthographic.dta", clear
 keep orthographic nbr_occurences_orthographic source_bdc
+bys orthographic : egen blif=max(source_bdc)
+replace source_bdc=blif
+drop blif
 bys orthographic : keep if _n==1
 merge 1:1 orthographic using "classification_quantityunit_simplification.dta"
 keep orthographic nbr_occurences_orthographic simplification conv_orthographic_to_simplificat remarque_unit ///
 					source_bdc _merge
 
-foreach variable of var simplification  {
-	capture drop nbr_bdc_`variable'
-	bys `variable' : egen nbr_occurences_`variable'=total(nbr_occurences_orthographic)
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-}
 
-
+capture drop nbr_bdc_simplification
+bys simplification : egen nbr_occurences_simplification=total(nbr_occurences_orthographic)
+label variable nbr_occurences_simplification "Nbr de flux avec la quantité simplification dans la source française"
 
 drop _merge
 
@@ -714,30 +720,31 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
-use "classification_product_RE_aggregate.dta", clear
+foreach file_on_RE in RE_aggregate threesectors threesectorsM {
+	use "classification_product_`file_on_RE'.dta", clear
 	bys revolutionempire : drop if _n!=1
-save  "classification_product_RE_aggregate.dta", replace
+	save  "classification_product_`file_on_RE'.dta", replace
 
-use "classification_product_revolutionempire.dta", clear
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta", force
-capture bys revolutionempire : keep if _n==1
-capture drop nbr_occurences_RE_aggregate
-bys RE_aggregate : egen nbr_occurences_RE_aggregate=total(nbr_occurences_revolutionempire)
-drop nbr_occurences_simpl
-capture gen obsolete=""
-replace obsolete = "oui" if _merge==2
-replace obsolete = "non" if _merge!=2
-drop _merge
-drop simplification
+	use "classification_product_revolutionempire.dta", clear
+	merge m:1 revolutionempire using "classification_product_`file_on_RE'.dta", force
+	capture bys revolutionempire : keep if _n==1
+	capture drop nbr_occurences_`file_on_RE'
+	bys `file_on_RE' : egen nbr_occurences_`file_on_RE'=total(nbr_occurences_revolutionempire)
+	drop nbr_occurences_simpl
+	capture gen obsolete=""
+	replace obsolete = "oui" if _merge==2
+	replace obsolete = "non" if _merge!=2
+	drop _merge
+	drop simplification
+	
+	capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+	sort sortkey
+	drop sortkey	
+	
+	save "classification_product_`file_on_RE'.dta", replace
+	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_RE'.csv", replace
 
-capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
-sort sortkey
-drop sortkey	
-
-save "classification_product_RE_aggregate.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_product_RE_aggregate.csv", replace
-
-
+}
 
 
 ***********************************************************************************************************************************
@@ -833,13 +840,14 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 }
 rename sitc product_sitc
 
-capture drop product_RE_aggregate
-rename product_revolutionempire revolutionempire
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta"
-rename revolutionempire product_revolutionempire
-drop if _merge==2
-drop _merge
-rename RE_aggregate product_RE_aggregate
+foreach class_name in RE_aggregate threesectors threesectorsM {
+	rename product_revolutionempire revolutionempire
+	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
+	rename revolutionempire product_revolutionempire
+	drop if _merge==2
+	drop _merge
+	rename `class_name' product_`class_name'
+}
 
 local j 5
 generate yearbis=year
