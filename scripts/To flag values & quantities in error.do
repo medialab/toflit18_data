@@ -1,5 +1,22 @@
 
-use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
+
+
+global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+
+if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
+
+if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
+
+if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
+
+if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
+
+if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
+
+
+
+
+use "$dir/Données Stata/bdd courante.dta", clear
 
 
 capture drop absurd_value
@@ -74,4 +91,4 @@ egen prop = pc(value), by(source_type year tax_department export_import) prop
 list  if prop >=.5 & prop!=. & tax_department=="Bordeaux"
 */
 
-save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", replace
+save "$dir/Données Stata/bdd courante.dta", replace
