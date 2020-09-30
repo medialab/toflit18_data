@@ -87,6 +87,10 @@ erase temp.dta
 end
 
 
+capture noisily verification_Rouen Exports 1776 Pas les mêmes données
+capture noisily verification_Rouen Exports 1774 Pas les mêmes données
+capture noisily verification_Rouen Exports 1773
+capture noisily verification_Rouen Exports 1772
 capture noisily verification_Rouen Exports 1771 Pas les mêmes données
 capture noisily verification_Rouen Exports 1770
 capture noisily verification_Rouen Exports 1769 Pas les mêmes données
