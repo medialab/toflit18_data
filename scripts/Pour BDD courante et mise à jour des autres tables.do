@@ -16,6 +16,8 @@ if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\D
 
 if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
 
+if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
+
 cd "$dir"
 
 
