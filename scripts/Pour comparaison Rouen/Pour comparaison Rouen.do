@@ -87,9 +87,9 @@ erase temp.dta
 end
 
 
-
-
-capture noisily verification_Rouen Exports 1769
+capture noisily verification_Rouen Exports 1771 Pas les mêmes données
+capture noisily verification_Rouen Exports 1770
+capture noisily verification_Rouen Exports 1769 Pas les mêmes données
 capture noisily verification_Rouen Exports 1768
 capture noisily verification_Rouen Exports 1767 Pas les mêmes données
 capture noisily verification_Rouen Exports 1766 Soucis X de farine vers les isles et la guinée
