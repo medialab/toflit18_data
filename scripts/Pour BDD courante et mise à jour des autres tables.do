@@ -163,7 +163,7 @@ foreach variable of var product partner quantity_unit {
 
 zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
-foreach variable of var quantity value value_unit difference_value_unit_price { 
+foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -181,11 +181,11 @@ foreach variable of var quantity value value_unit difference_value_unit_price {
 
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
-destring quantity value_unit value, replace
+destring quantity value_per_unit value, replace
 
 drop if source==""
-drop if value==0 & quantity==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_unit==.|value_unit==0) /*idem*/
+drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
 replace value=. if (value==0 & quantity !=. & quantity !=0)
 
 **Je mets des majuscules à toutes les "product" de la source
@@ -930,7 +930,7 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
  
  generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=value_unit/conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
+ replace  unit_price_metric=value_per_unit /conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
 
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  
@@ -982,7 +982,7 @@ use "$dir/Données Stata/bdd courante.dta", clear
  
 sort source_type tax_department year export_import line_number 
 order line_number source_type year tax_department partner partner_orthographic export_import ///
-		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_unit
+		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
  
 export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
@@ -1008,7 +1008,7 @@ use "$dir/bdd courante", replace
 keep if year=="1750"
 keep if tax_department=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit difference_value_unit_price remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import tax_department product partner value quantity quantity_unit value_per_unit value_minus_unit_val_x_qty remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 
