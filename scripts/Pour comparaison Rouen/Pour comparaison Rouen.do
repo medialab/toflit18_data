@@ -17,7 +17,7 @@ keep if strmatch(source,"*Dardel*")==1
 generate string3 = partner + product + quantity_unit
 
 generate sortkey = ustrsortkeyex(string3,  "fr",-1,2,-1,-1,-1,0,-1)
-sort sortkey
+sort sortkey quantity value
 drop sortkey
 
 if value==. replace value = quantity*value_per_unit if value==.
@@ -72,7 +72,7 @@ rename prix_unitaire value_per_unit
 generate string3 = partner +  product + quantity_unit
 
 generate sortkey = ustrsortkeyex(string3,  "fr",-1,2,-1,-1,-1,0,-1)
-sort sortkey
+sort sortkey quantity value
 drop sortkey
 
 
@@ -86,7 +86,11 @@ erase temp.dta
 
 end
 
+capture noisily verification_Rouen Imports 1728
+blif
 
+
+capture noisily verification_Rouen Exports 1775
 capture noisily verification_Rouen Exports 1776 Pas les mêmes données
 capture noisily verification_Rouen Exports 1774 Pas les mêmes données
 capture noisily verification_Rouen Exports 1773
@@ -97,8 +101,6 @@ capture noisily verification_Rouen Exports 1769 Pas les mêmes données
 capture noisily verification_Rouen Exports 1768
 capture noisily verification_Rouen Exports 1767 Pas les mêmes données
 capture noisily verification_Rouen Exports 1766 Soucis X de farine vers les isles et la guinée
-
-blif
 capture noisily verification_Rouen Exports 1764
 capture noisily verification_Rouen Exports 1763
 capture noisily verification_Rouen Exports 1755
