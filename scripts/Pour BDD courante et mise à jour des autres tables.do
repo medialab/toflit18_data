@@ -16,6 +16,8 @@ if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\D
 
 if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
 
+if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
+
 cd "$dir"
 
 
@@ -35,7 +37,8 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */ 				 classification_product_v_glass_beads classification_product_beaver/*
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
-*/				 classification_product_luxe_dans_SITC	{
+*/				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
+*/				 classification_product_threesectorsM	{
 
 	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -162,7 +165,7 @@ foreach variable of var product partner quantity_unit {
 
 zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
-foreach variable of var quantity value value_unit difference_value_unit_price { 
+foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -180,11 +183,11 @@ foreach variable of var quantity value value_unit difference_value_unit_price {
 
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
-destring quantity value_unit value, replace
+destring quantity value_per_unit value, replace
 
 drop if source==""
-drop if value==0 & quantity==. & value_unit==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_unit==.|value_unit==0) /*idem*/
+drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
 replace value=. if (value==0 & quantity !=. & quantity !=0)
 
 **Je mets des majuscules à toutes les "product" de la source
@@ -229,17 +232,22 @@ replace source_bdc=1 if _merge==3 | _merge==1
 replace source_bdc=0 if _merge==2
 
 
+capture drop nbr_occurences_source
+generate nbr_occurences_source=0
+bys source : replace nbr_occurences_source = _N if (_merge==3 | _merge==1)
+bys source : replace nbr_occurences_source = 0 if _merge==2
+label variable nbr_occurences_source "Nbr de flux avec la quantité source dans la source française"
 
-foreach variable of var source orthographic  {
-	capture drop nbr_occurences_`variable'
-	generate nbr_occurences_`variable'=0
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-	bys `variable' : replace nbr_occurences_`variable'=_N if (_merge==3 | _merge==1)
-	bys `variable' : replace nbr_occurences_`variable'=0 if _merge==2
-}
+bys source : keep if _n==1
+**Pour éviter que certaines lignes dans le même orthographic aient des nombres entiers et des zéros (suivant si le "source" est dans la bdc ou pas)
+bys orthographic : egen nbr_occurences_orthographic = total(nbr_occurences_source)
+
+label variable nbr_occurences_orthographic "Nbr de flux avec la quantité orthographic dans la source française"
+
+
 
 drop _merge
-bys source : keep if _n==1
+
 generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
@@ -251,18 +259,18 @@ export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthog
 ******
 use "classification_quantityunit_orthographic.dta", clear
 keep orthographic nbr_occurences_orthographic source_bdc
+bys orthographic : egen blif=max(source_bdc)
+replace source_bdc=blif
+drop blif
 bys orthographic : keep if _n==1
 merge 1:1 orthographic using "classification_quantityunit_simplification.dta"
 keep orthographic nbr_occurences_orthographic simplification conv_orthographic_to_simplificat remarque_unit ///
 					source_bdc _merge
 
-foreach variable of var simplification  {
-	capture drop nbr_bdc_`variable'
-	bys `variable' : egen nbr_occurences_`variable'=total(nbr_occurences_orthographic)
-	label variable nbr_occurences_`variable' "Nbr de flux avec la quantité `variable' dans la source française"
-}
 
-
+capture drop nbr_bdc_simplification
+bys simplification : egen nbr_occurences_simplification=total(nbr_occurences_orthographic)
+label variable nbr_occurences_simplification "Nbr de flux avec la quantité simplification dans la source française"
 
 drop _merge
 
@@ -714,30 +722,31 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
-use "classification_product_RE_aggregate.dta", clear
+foreach file_on_RE in RE_aggregate threesectors threesectorsM {
+	use "classification_product_`file_on_RE'.dta", clear
 	bys revolutionempire : drop if _n!=1
-save  "classification_product_RE_aggregate.dta", replace
+	save  "classification_product_`file_on_RE'.dta", replace
 
-use "classification_product_revolutionempire.dta", clear
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta", force
-capture bys revolutionempire : keep if _n==1
-capture drop nbr_occurences_RE_aggregate
-bys RE_aggregate : egen nbr_occurences_RE_aggregate=total(nbr_occurences_revolutionempire)
-drop nbr_occurences_simpl
-capture gen obsolete=""
-replace obsolete = "oui" if _merge==2
-replace obsolete = "non" if _merge!=2
-drop _merge
-drop simplification
+	use "classification_product_revolutionempire.dta", clear
+	merge m:1 revolutionempire using "classification_product_`file_on_RE'.dta", force
+	capture bys revolutionempire : keep if _n==1
+	capture drop nbr_occurences_`file_on_RE'
+	bys `file_on_RE' : egen nbr_occurences_`file_on_RE'=total(nbr_occurences_revolutionempire)
+	drop nbr_occurences_simpl
+	capture gen obsolete=""
+	replace obsolete = "oui" if _merge==2
+	replace obsolete = "non" if _merge!=2
+	drop _merge
+	drop simplification
+	
+	capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+	sort sortkey
+	drop sortkey	
+	
+	save "classification_product_`file_on_RE'.dta", replace
+	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_RE'.csv", replace
 
-capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
-sort sortkey
-drop sortkey	
-
-save "classification_product_RE_aggregate.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_product_RE_aggregate.csv", replace
-
-
+}
 
 
 ***********************************************************************************************************************************
@@ -833,13 +842,14 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 }
 rename sitc product_sitc
 
-capture drop product_RE_aggregate
-rename product_revolutionempire revolutionempire
-merge m:1 revolutionempire using "classification_product_RE_aggregate.dta"
-rename revolutionempire product_revolutionempire
-drop if _merge==2
-drop _merge
-rename RE_aggregate product_RE_aggregate
+foreach class_name in RE_aggregate threesectors threesectorsM {
+	rename product_revolutionempire revolutionempire
+	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
+	rename revolutionempire product_revolutionempire
+	drop if _merge==2
+	drop _merge
+	rename `class_name' product_`class_name'
+}
 
 local j 5
 generate yearbis=year
@@ -922,7 +932,7 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
  
  generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
  generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=value_unit/conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
+ replace  unit_price_metric=value_per_unit /conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
 
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  
@@ -974,7 +984,7 @@ use "$dir/Données Stata/bdd courante.dta", clear
  
 sort source_type tax_department year export_import line_number 
 order line_number source_type year tax_department partner partner_orthographic export_import ///
-		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_unit
+		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
  
 export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
@@ -1000,7 +1010,7 @@ use "$dir/bdd courante", replace
 keep if year=="1750"
 keep if tax_department=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit difference_value_unit_price remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import tax_department product partner value quantity quantity_unit value_per_unit value_minus_unit_val_x_qty remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 
