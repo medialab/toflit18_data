@@ -4,6 +4,7 @@ import os
 import re
 from csv import DictReader, DictWriter
 import json
+from collections import defaultdict
 
 DOUBLE_QUOTES = r'[«»„‟“”"]'
 SIMPLE_QUOTES = r"[’‘`‛']"
@@ -27,6 +28,26 @@ def clean(s):
     s = re.sub(SPACES_COMPACTING, " ", s)
     #s = re.sub(OEWRONG, u"œ", s)
     return s
+
+
+AN_REGEX = re.compile(r'An (\d+)', re.IGNORECASE)
+YEAR_REGEX = re.compile(r'(\d{4})', re.IGNORECASE)
+
+def normalize_year(year):
+    m = AN_REGEX.match(year)
+
+    if not m:
+        try:
+            return int(year)
+        except ValueError:
+            return YEAR_REGEX.findall(year)[0]
+    else:
+        nb = int(m[1])
+        if nb < 2 or nb > 14:
+            raise Exception('toflit18.republican_calendar.normalizeYear: invalid year %s.'%nb)
+        return 1792 + nb
+
+
 
 empty_value = lambda v : v=="0" or v=="." or v=="" or v=="?"
 
@@ -115,10 +136,13 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     # headers = [h for h in  headers if h not in ordered_headers]
     headers = [h for h in ordered_headers] #+headers
     if with_calculated_values:
-        for extra_header in ["value_as_reported", "computed_value", "replace_computed_up"]:
+        for extra_header in ["value_as_reported", "computed_value", "replace_computed_up", "national_product_best_guess","national_geography_best_guess", "local_product_best_guess", "local_geography_best_guess" ]:
             if extra_header not in headers:
                 headers+=[extra_header]
 
+    # Best guess year index
+    # to compute best guess we need to store years when best guess are available to use it to compute secondary definitions
+    best_guess_year_index = defaultdict(set)
     # Then we actually read and write the lines
     with open(output_filename, "w", encoding="utf-8") as output_file:
         writer = DictWriter(output_file, headers)
@@ -148,7 +172,41 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     raise Exception('incorrect filepath for line \n%s'%line)
                                 if with_calculated_values:
                                     add_calculated_fields_to_line(line)
-                                writer.writerow(line)
 
+                                    # compute Best guess source type
+                                    # national_product_best_guess
+                                    year = normalize_year(line['year']) # republican calendar back to current
+                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires":
+                                        line['national_product_best_guess'] = 1
+                                        best_guess_year_index['national_product_best_guess'].add(year)
+                                    # national_geography_best_guess
+                                    if line['source_type']=="Tableau Général" or line['source_type']=="Résumé":
+                                        line['national_geography_best_guess'] = 1
+                                    # local_product_best_guess
+                                    if (line['source_type']=="Local" and year != 1750) or (line['source_type']== "National toutes directions tous partenaires" and year == 1750):
+                                        line['local_product_best_guess'] = 1 
+                                    if line['source_type']=="National toutes directions sans produits" or (line['source_type'] == "National toutes directions tous partenaires" and year == 1750):
+                                        line['local_geography_best_guess'] = 1
+                                        best_guess_year_index['local_geography_best_guess'].add(year)
+
+                                writer.writerow(line)
+    if with_calculated_values:
+        # compute best guess secondary variables
+        # create a tmp file to stream directly without loading in memory
+        with open(output_filename, "r", encoding="utf-8") as input_file, open('./bdd_centrale_tmp.csv', "w", encoding="utf-8") as output_file:
+            reader = DictReader(input_file)
+            writer = DictWriter(output_file, reader.fieldnames)
+            writer.writeheader()
+            for flow in reader:
+                year = normalize_year(flow['year'])
+                # national_product_best_guess
+                if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['national_product_best_guess'] :
+                    flow['national_product_best_guess'] = 1
+                # local_geography_best_guess
+                if flow['source_type'] == 'local' and year in best_guess_year_index['local_geography_best_guess']:
+                    flow['local_geography_best_guess'] = 1
+                writer.writerow(flow)
+        # finally replace original file with the tmp one
+        os.replace('./bdd_centrale_tmp.csv', output_filename)
 if __name__ == "__main__":
     aggregate_sources_in_bdd_centrale(False)
