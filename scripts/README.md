@@ -3,53 +3,73 @@ This readme explains how to aggregate the individual csv sources into bdd_centra
 
 # requirements
 
-To execute those scripts you'll need [python 2.7](https://www.python.org/download/releases/2.7/) and [csvkit](https://csvkit.readthedocs.org/en/0.9.1/).
-To install csvkit (after having installed python 2.7):
-
-```bash
-pip install csvkit
-```
-
-You might want to use [virtualenv](https://virtualenv.pypa.io/en/stable/) to install csvkit.
-If you don'y know what virtualenv you can skip it.
+To execute those scripts you'll need [python 3](https://www.python.org/download/releases/3/).
 
 # aggregate sources into bdd_centrale.csv
 
-## check sources headers
-
-```bash
-bash scripts/print_source_headers.sh > sources_headers.csv
-```
-
-Open the sources_headers.csv into a spreadsheet software (LibreOffice recommanded) and check of the mandatory headers (see next paragraph) are in the sources and labled correctly.
-
-
-## aggregation script
+The sources are split into as many CSV files as archive volumes following the transcription process.
+To group all the source data in one single CSV file, use the aggregation script as follow :
 
 ```bash
 cd scripts
 python aggregate_sources_in_bdd_centrale.py
 ```
 
-Currently the mandatory headers are : "sourcetype","year","marchandises".
-The known columns are : "numrodeligne","dataentryby","source","sourcepath","sourcetype","year","exportsimports","direction","bureaux","sheet","marchandises","pays","value","quantit","origine","total","quantity_unit","leurvaleursubtotal_1","leurvaleursubtotal_2","leurvaleursubtotal_3","prix_unitaire","probleme","remarks".
-
-Note that this script currently blacklist the sources beginning with "Divers/AN/F_12_1835".
-
-The compilation of the sources in one single file is available in 
+This script groups the sources in one single CSV file **./base/bdd_centrale.csv**
 
 ```bash
-$ head base/bdd_centrale.csv
-numrodeligne,dataentryby,source,sourcepath,sourcetype,year,exportsimports,direction,bureaux,sheet,marchandises,pays,value,quantit,origine,total,quantity_unit,leurvaleursubtotal_1,leurvaleursubtotal_2,leurvaleursubtotal_3,prix_unitaire,probleme,remarks,Largeur en lignes (pour tissu),Droits totaux indiqués,doubleaccounts_droitsdedouane,doubleaccount,Droits unitaires,unité pour les droits,doubleaccounts,quantité pour les droits,remarks pour les droits,value_as_reported,computed_value,replace_computed_up
-1,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Bois d'Inde de Campeche,Angleterre,62300,454000,,,livres,,,,0.137224669604,,,,,,,,,,,,62300,0,1
-2,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Bois de Sainte Marthe,Angleterre,49100,98300,,,livres,,,,0.499491353001,,,,,,,,,,,,49100,0,1
-3,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Bois de Sandal,Angleterre,20000,100000,,,livres,,,,0.2,,,,,,,,,,,,20000,0,1
-4,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Cendre dite soude,Angleterre,33000,367200,,,livres,,,,0.0898692810458,,,,,,,,,,,,33000,0,1
-5,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Charbon de terre,Angleterre,3781800,90600,,,muids,,,,41.7417218543,,,,,,,,,,,,3781800,0,1
-6,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Cuivre,Angleterre,35700,27100,,,livres,,,,1.31734317343,,,,,,,,,,,,35700,0,1
-7,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Etain,Angleterre,701400,694500,,,livres,,,,1.00993520518,,,,,,,,,,,,701400,0,1
-8,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,fer divers,Angleterre,84500,982200,,,livres,,,,0.0860313581755,,,,,,,,,,,,84500,0,1
-9,Demba,AN F12 1835,National partenaires manquants/Angleterre 1784.csv,National partenaires manquants,1784,Imports,,,4,Graines diverses,Angleterre,9300,16200,,,livres,,,,0.574074074074,,,,,,,,,,,,9300,0,1
+/toflit18_data$ xsv headers base/bdd_centrale.csv
+1   line_number
+2   source_type
+3   year
+4   tax_department
+5   tax_office
+6   partner
+7   export_import
+8   product
+9   origin
+10  width_in_line
+11  value
+12  value_part_of_bundle
+13  quantity
+14  quantity_unit
+15  value_per_unit
+16  filepath
+17  source
+18  sheet
+19  value_total
+20  value_sub_total_1
+21  value_sub_total_2
+22  value_sub_total_3
+23  data_collector
+24  unverified
+25  remarks
+26  value_minus_unit_val_x_qty
+27  trade_deficit
+28  trade_surplus
+29  duty_quantity
+30  duty_quantity_unit
+31  duty_by_unit
+32  duty_total
+33  duty_part_of_bundle
+34  duty_remarks
+```
+
+A variant of this script add custom variables when aggregating: **value imputations** from unit price and volume and the **best guess sourcetypes**.
+
+```bash
+cd scripts
+python aggregate_sources_in_bdd_centrale_with_calculations.py
+```
+This scripts adds seven variables to bdd_centrale.csv :
+```bash 
+35  value_as_reported
+36  computed_value
+37  replace_computed_up
+38  national_product_best_guess
+39  national_geography_best_guess
+40  local_product_best_guess
+41  local_geography_best_guess
 ```
 
 # split bdd_centrale.csv into sources

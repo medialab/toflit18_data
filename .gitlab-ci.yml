@@ -14,14 +14,14 @@ variables:
   DOCKER_TLS_CERTDIR: ""
 
 services:
-    - docker:stable-dind
+  - docker:stable-dind
 
 build_bdd_centrale:
   stage: build_bdd_centrale
   artifacts:
     untracked: true
     expire_in: "1 day"
-  image: python:3.5-alpine3.9
+  image: python:3.7-alpine3.9
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
   only:
@@ -84,7 +84,6 @@ build_docker_image:
     - staging
     - prod
 
-
 deploy:
   image:
     name: jrisp/kubehelper:latest
@@ -102,5 +101,5 @@ deploy:
   environment:
     name: $CI_COMMIT_REF_SLUG
   only:
-   - staging
-   - prod
+    - staging
+    - prod
