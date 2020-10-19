@@ -54,12 +54,15 @@ replace value = quantity*value_per_unit if value==.
 
 save temp.dta, replace
 
-import delimited "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/Pour comparaison Rouen/bdd_commerce_rouen_categories avec corrections.csv", encoding(UTF-8) clear asdouble
+clear
+
+import delimited "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/scripts/Pour comparaison Rouen/bdd_commerce_rouen_categories avec corrections.csv",encoding(UTF-8) clear asdouble
 
 rename quantit quantity
 replace quantity = subinstr(quantity,",",".",.)
 destring quantity, replace
 
+drop if strmatch(sourcepath,"National*")==1
 
 keep if year==`year'
 keep if exportsimports=="`XI'"
@@ -88,6 +91,38 @@ end
 
 
 
+capture noisily verification_Rouen Imports 1775
+capture noisily verification_Rouen Imports 1773
+capture noisily verification_Rouen Imports 1772
+capture noisily verification_Rouen Imports 1770
+capture noisily verification_Rouen Imports 1768
+capture noisily verification_Rouen Imports 1766
+capture noisily verification_Rouen Imports 1764
+capture noisily verification_Rouen Imports 1763
+capture noisily verification_Rouen Imports 1762
+capture noisily verification_Rouen Imports 1760
+capture noisily verification_Rouen Imports 1759
+capture noisily verification_Rouen Imports 1758
+capture noisily verification_Rouen Imports 1757
+capture noisily verification_Rouen Imports 1756
+capture noisily verification_Rouen Imports 1755
+capture noisily verification_Rouen Imports 1754
+capture noisily verification_Rouen Imports 1750 Pas les mêmes données
+capture noisily verification_Rouen Imports 1749 Pas les mêmes données
+blif
+capture noisily verification_Rouen Imports 1747
+capture noisily verification_Rouen Imports 1746
+capture noisily verification_Rouen Imports 1745
+capture noisily verification_Rouen Imports 1744
+capture noisily verification_Rouen Imports 1743
+capture noisily verification_Rouen Imports 1742
+capture noisily verification_Rouen Imports 1741
+capture noisily verification_Rouen Imports 1740
+capture noisily verification_Rouen Imports 1739
+capture noisily verification_Rouen Imports 1738 Pas les mêmes données
+capture noisily verification_Rouen Imports 1736
+capture noisily verification_Rouen Imports 1735
+capture noisily verification_Rouen Imports 1734
 capture noisily verification_Rouen Imports 1733
 capture noisily verification_Rouen Imports 1731
 capture noisily verification_Rouen Imports 1728

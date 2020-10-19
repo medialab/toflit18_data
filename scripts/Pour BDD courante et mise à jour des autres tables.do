@@ -936,7 +936,8 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
 
  save "$dir/Données Stata/bdd courante_temp.dta", replace
  
- *************Pour les best guess
+ /*
+ *************Pour les best guess (anciens)
  gen NationalBestGuess=0
  replace NationalBestGuess=1 if (source_type=="National toutes tax_departments tous partenaires" & year==1750) /*
 		*/ | (source_type=="Objet Général" & year >=1754 & year <=1782) /*
@@ -947,14 +948,15 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
 		*/ | (source_type=="National toutes tax_departments tous partenaires" & year==1750)
 		
 save "$dir/Données Stata/bdd courante", replace
- 
+ */
  *******************************************************************
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
  
  
  ************For best guesses
 capture drop national_product_best_guess
-gen national_product_best_guess = 0		
+gen national_product_best_guess = 0
+**Sources qui donnent la répartition du commerce français par produit	
 replace national_product_best_guess = 1 if (source_type=="Objet Général" & year<=1786) | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(national_product_best_guess), by(year)
@@ -962,20 +964,27 @@ replace national_product_best_guess=1 if year_CN == 1 & source_type=="Compagnie 
 drop year_CN
 
 capture drop national_geography_best_guess
+
 gen national_geography_best_guess = 0
-replace national_geography_best_guess = 1 if source_type=="Tableau Général" | source_type=="Résumé"
+**Sources qui donnent la répartition du commerce français par partenaire	
+replace national_geography_best_guess = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
 
 capture drop local_product_best_guess
+**Sources qui permettent d’analyser l’ensemble du commerce par produit d’un département de Ferme
 gen local_product_best_guess=0
 replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes directions tous partenaires" & year == 1750)
 
+
 capture drop local_geography_best_guess
+**Sources qui permettent de comparer le commerce des départements de fermes entre eux, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
 gen local_geography_best_guess=0
 replace local_geography_best_guess = 1 if source_type=="National toutes directions sans produits" | ///
-		(source_type== "National toutes directions tous partenaires" & year == 1750)
+		(source_type== "National toutes directions tous partenaires")
 egen year_CN = max(local_geography_best_guess), by(year)
 replace local_geography_best_guess=1 if year_CN == 1 & source_type=="Local"
 drop year_CN
+
+save "$dir/Données Stata/bdd courante", replace
  ********************************************************************
 use "$dir/Données Stata/bdd courante.dta", clear
 
