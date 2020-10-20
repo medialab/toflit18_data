@@ -190,12 +190,24 @@ drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardé
 drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
 replace value=. if (value==0 & quantity !=. & quantity !=0)
 
+
+generate byte computed_value = 0
+label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
+replace value = quantity*value_per_unit if computed_value==1
+
+gen byte computed_value_per_unit = 0
+label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
+replace computed_unit_price = 1 if (value_per_unit==0 | value_per_unit==.) & value!=0 & value!=. & quantity!=0 & quantity!=.
+replace value_per_unit = value/quantity  if computed_unit_price ==1
+
+
+
+
 **Je mets des majuscules à toutes les "product" de la source
 replace product = upper(substr(product,1,1))+substr(product,2,.)
 
 
-** RQ : l'unification des values, etc. est faite dans le scrip d'agrégation
-* Création de value_as_reported, value = unit_price*quantit...
 
 capture drop v24
 
@@ -970,10 +982,10 @@ gen national_geography_best_guess = 0
 replace national_geography_best_guess = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
 
 capture drop local_product_best_guess
-**Sources qui permettent d’analyser l’ensemble du commerce par produit d’un département de Ferme
+**Sources qui permettent d’analyser l’ensemble du commerce par produit de chaque département de Ferme concerné
 gen local_product_best_guess=0
 replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes directions tous partenaires" & year == 1750)
-
+replace local_product_best_guess= 0 if tax_department=="Rouen" & export_import=="Imports" & (year==1737| year>= 1739 & year<=1749|year==1754|year>=1756 & year <=1762)
 
 capture drop local_geography_best_guess
 **Sources qui permettent de comparer le commerce des départements de fermes entre eux, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
