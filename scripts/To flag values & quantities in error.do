@@ -15,8 +15,8 @@ if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
 
 
 
-
-use "$dir/Données Stata/bdd courante.dta", clear
+*****À remettre pour les tests
+*use "$dir/Données Stata/bdd courante.dta", clear
 
 
 capture drop absurd_value
@@ -91,4 +91,6 @@ egen prop = pc(value), by(source_type year tax_department export_import) prop
 list  if prop >=.5 & prop!=. & tax_department=="Bordeaux"
 */
 
-save "$dir/Données Stata/bdd courante.dta", replace
+
+*À remettre pour les tests
+*save "$dir/Données Stata/bdd courante.dta", replace

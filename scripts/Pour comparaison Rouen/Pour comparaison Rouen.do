@@ -62,6 +62,7 @@ rename quantit quantity
 replace quantity = subinstr(quantity,",",".",.)
 destring quantity, replace
 
+
 drop if strmatch(sourcepath,"National*")==1
 
 keep if year==`year'
@@ -70,7 +71,10 @@ keep if exportsimports=="`XI'"
 rename marchandises product
 sort numrodeligne
 rename pays partner
+
 rename prix_unitaire value_per_unit
+replace value_per_unit = subinstr(value_per_unit,",",".",.)
+destring value_per_unit, replace
 
 generate string3 = partner +  product + quantity_unit
 
@@ -95,6 +99,7 @@ capture noisily verification_Rouen Imports 1775
 capture noisily verification_Rouen Imports 1773
 capture noisily verification_Rouen Imports 1772
 capture noisily verification_Rouen Imports 1770
+blif
 capture noisily verification_Rouen Imports 1768
 capture noisily verification_Rouen Imports 1766
 capture noisily verification_Rouen Imports 1764
@@ -109,7 +114,6 @@ capture noisily verification_Rouen Imports 1755
 capture noisily verification_Rouen Imports 1754
 capture noisily verification_Rouen Imports 1750 Pas les mêmes données
 capture noisily verification_Rouen Imports 1749 Pas les mêmes données
-blif
 capture noisily verification_Rouen Imports 1747
 capture noisily verification_Rouen Imports 1746
 capture noisily verification_Rouen Imports 1745
@@ -126,7 +130,7 @@ capture noisily verification_Rouen Imports 1734
 capture noisily verification_Rouen Imports 1733
 capture noisily verification_Rouen Imports 1731
 capture noisily verification_Rouen Imports 1728
-blif
+
 
 
 capture noisily verification_Rouen Exports 1775
