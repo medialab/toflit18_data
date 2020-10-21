@@ -66,10 +66,10 @@ This scripts adds seven variables to bdd_centrale.csv :
 35  value_as_reported
 36  computed_value
 37  replace_computed_up
-38  national_product_best_guess
-39  national_geography_best_guess
-40  local_product_best_guess
-41  local_geography_best_guess
+38  best_guess_national_prodxpart
+39  best_guess_national_partner
+40  best_guess_department_prodxpart
+41  best_guess_national_department
 ```
 
 # split bdd_centrale.csv into sources

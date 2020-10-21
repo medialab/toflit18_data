@@ -1,4 +1,4 @@
-ssc install missings
+capture ssc install missings
 
  version 15.1
 
@@ -957,34 +957,45 @@ save "$dir/Données Stata/bdd courante", replace
  
  ************For best guesses
 *use "$dir/Données Stata/bdd courante.dta", replace
-capture drop national_product_best_guess
-gen national_product_best_guess = 0
-**Sources qui donnent la répartition du commerce français par produit	
-replace national_product_best_guess = 1 if (source_type=="Objet Général" & year<=1786) | ///
+
+capture drop best_guess_national_prodxpart
+gen best_guess_national_prodxpart = 0
+**Sources qui donnent la répartition du commerce français en valeur par produit et par partenaire
+**Ancien nom : national_product_best_guess
+**Nouveau nom : best_guess_national_prodxpart
+replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
-egen year_CN = max(national_product_best_guess), by(year)
-replace national_product_best_guess=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
+egen year_CN = max(best_guess_national_prodxpart), by(year)
+replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
 
-capture drop national_geography_best_guess
+capture drop best_guess_national_partner
+gen best_guess_national_partner = 0
+**Sources qui donnent la répartition du commerce français en valeur par partenaire
+**Ancien nom national_geography_best_guess
+**Nouveau nom  best_guess_national_partner	
+replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
 
-gen national_geography_best_guess = 0
-**Sources qui donnent la répartition du commerce français par partenaire	
-replace national_geography_best_guess = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
+capture drop best_guess_department_prodxpart
+**Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
+**Ancien nom local_product_best_guess
+**Nouveau nom best_guess_department_prodxpart
+gen best_guess_department_prodxpart=0
+replace best_guess_department_prodxpart= 1 if (source_type=="Local" & year !=1750) | ///
+		(source_type== "National toutes directions tous partenaires" & year == 1750)
+replace best_guess_department_prodxpart= 0 if tax_department=="Rouen" & export_import=="Imports" & ///
+		(year==1737| (year>= 1739 & year<=1749) | year==1754 | (year>=1756 & year <=1762))
 
-capture drop local_product_best_guess
-**Sources qui permettent d’analyser l’ensemble du commerce par produit de chaque département de Ferme concerné
-gen local_product_best_guess=0
-replace local_product_best_guess= 1 if (source_type=="Local" & year !=1750) | (source_type== "National toutes directions tous partenaires" & year == 1750)
-replace local_product_best_guess= 0 if tax_department=="Rouen" & export_import=="Imports" & (year==1737| year>= 1739 & year<=1749|year==1754|year>=1756 & year <=1762)
-
-capture drop local_geography_best_guess
-**Sources qui permettent de comparer le commerce des départements de fermes entre eux, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
-gen local_geography_best_guess=0
-replace local_geography_best_guess = 1 if source_type=="National toutes directions sans produits" | ///
+capture drop best_guess_national_department
+**Sources qui permettent de comparer le commerce des départements de fermes entre eux en valeur, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
+**Ancien nom local_geography_best_guess
+**Nouveau nom best_guess_national_department
+gen best_guess_national_department=0
+replace best_guess_national_department = 1 if source_type=="National toutes directions sans produits" | ///
 		(source_type== "National toutes directions tous partenaires")
-egen year_CN = max(local_geography_best_guess), by(year)
-replace local_geography_best_guess=1 if year_CN == 1 & source_type=="Local"
+replace best_guess_national_department = 1 if source_type=="National toutes directions partenaires manquants"
+egen year_CN = max(best_guess_national_department), by(year)
+replace best_guess_national_department=1 if year_CN == 1 & source_type=="Local"
 drop year_CN
 
 *save "$dir/Données Stata/bdd courante", replace
