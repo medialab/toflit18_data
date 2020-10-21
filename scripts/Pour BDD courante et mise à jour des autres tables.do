@@ -163,8 +163,6 @@ foreach variable of var product partner quantity_unit {
 }
 
 
-zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
-
 foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -191,19 +189,6 @@ drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|
 replace value=. if (value==0 & quantity !=. & quantity !=0)
 
 
-generate byte computed_value = 0
-label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
-replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
-replace value = quantity*value_per_unit if computed_value==1
-
-gen byte computed_value_per_unit = 0
-label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
-replace computed_unit_price = 1 if (value_per_unit==0 | value_per_unit==.) & value!=0 & value!=. & quantity!=0 & quantity!=.
-replace value_per_unit = value/quantity  if computed_unit_price ==1
-
-
-
-
 **Je mets des majuscules à toutes les "product" de la source
 replace product = upper(substr(product,1,1))+substr(product,2,.)
 
@@ -216,6 +201,7 @@ capture drop v24
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
+zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
 
 */
 
@@ -946,7 +932,8 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
  generate unit_price_metric=value/quantities_metric
  replace  unit_price_metric=value_per_unit /conv_orthographic_to_simplificat * conv_simplification_to_metric if unit_price_metric==. 
 
- save "$dir/Données Stata/bdd courante_temp.dta", replace
+
+ *save "$dir/Données Stata/bdd courante.dta", replace
  
  /*
  *************Pour les best guess (anciens)
@@ -962,10 +949,14 @@ merge 1:1 export_import partner_grouping tax_department product_simplification p
 save "$dir/Données Stata/bdd courante", replace
  */
  *******************************************************************
+ *use "$dir/Données Stata/bdd courante.dta", replace
+ 
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
  
+ *save "$dir/Données Stata/bdd courante.dta", replace
  
  ************For best guesses
+*use "$dir/Données Stata/bdd courante.dta", replace
 capture drop national_product_best_guess
 gen national_product_best_guess = 0
 **Sources qui donnent la répartition du commerce français par produit	
@@ -996,9 +987,26 @@ egen year_CN = max(local_geography_best_guess), by(year)
 replace local_geography_best_guess=1 if year_CN == 1 & source_type=="Local"
 drop year_CN
 
-save "$dir/Données Stata/bdd courante", replace
+*save "$dir/Données Stata/bdd courante", replace
+***************************************************Pour les computed value_per_unit & value
+*use "$dir/Données Stata/bdd courante.dta", clear
+
+generate byte computed_value = 0
+label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
+replace value = quantity*value_per_unit if computed_value==1
+
+gen byte computed_value_per_unit = 0
+label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
+replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) & value!=0 & value!=. & quantity!=0 & quantity!=.
+replace value_per_unit = value/quantity  if computed_value_per_unit ==1
+
+
+
+
+*save "$dir/Données Stata/bdd courante", replace
  ********************************************************************
-use "$dir/Données Stata/bdd courante.dta", clear
+*use "$dir/Données Stata/bdd courante.dta", clear
 
  missings dropobs, force
  missings dropvars, force
@@ -1022,6 +1030,7 @@ zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
 		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
 drop if source_type=="Out"
 save "$dir/Données Stata/bdd courante.dta", replace
+
 
 
 /*
