@@ -1,11 +1,7 @@
 simplification,nbr_occurences_simplification,metric,conv_simplification_to_metric,incertitude_unit,source_hambourg,missing,needs_more_details,remarque_unit,nbr_occurences_metric
-,163786,,,,,,,,176352
 ????,314,,,1,0,,0,,176352
 ?ans,1,,,,,,,,176352
 #,3,,,,,,,,176352
-# valeur,0,,,,,,,,176352
-450 feuilles,0,feuilles,450,,,,,,7220
-600 feuilles,0,feuilles,600,,,,,,7220
 aimes,8,kg,148,,0,,0,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,286050
 alvrames,2,,,,,,,,176352
 ancre,107,kg,37,,0,1,0,p27 doursther : en usage en Allemagne et en hollande formant le quart de l'aime,286050
@@ -79,20 +75,17 @@ boisseaux,2,,,,,,,,176352
 boite,2,,,,,,,,176352
 boîtes,137,contenant,1,,,,,,3225
 bolliches,1,,,,,,,,176352
-botes,0,,,,,,,,176352
 botiches,7,,,,,,,,176352
-bottes,326,,,,,,,,176352
 boucaux,54,,,,,,,,176352
 boules,4,,,,,,,,176352
 bout,1,,,,,,,,176352
 boutades,11,,,,,,,,176352
-bouteilles,2023,,,,,,,,176352
+bouteilles,2023,,,,,,1,,176352
 bouteilles et muids et pintes,27,,,,,,,,176352
 bouteilles ou le livres,1,,,,,,,,176352
 bouts,11,,,,,,,,176352
 brancard,1,,,,,,,,176352
 braques,1,,,,,,,,176352
-brases,0,,,,,,,,176352
 brasses,21,,,,,,,,176352
 brilles,1,,,,,,,,176352
 brins,18,,,,,,,,176352
@@ -107,7 +100,6 @@ caissons,91,contenant,1,,,,,,3225
 canastre,2,,,,,,,,176352
 canes,9,,,,,,,,176352
 canettes,9,,,,,,,,176352
-canevette,0,contenant,,,,,,"Canevette = petit coffre pour le vin ou les liqueurs, voir Wikipédia",3225
 canevettes,45,,,,,,,,176352
 cannades,1,,,,,,,,176352
 cannées,1,,,,,,,,176352
@@ -130,17 +122,14 @@ castes,1,,,,,,,,176352
 cave,13,,,,,,,,176352
 cavelles,14,,,,,,,,176352
 cavettes,1,,,,,,,,176352
-cent,0,nombre,100,,,,,,72178
 cent au grand,1,,,,,,,,176352
-cent au grand compte,122,,,,,,,,176352
+cent au grand compte,122,,,,,,1,,176352
 cent au grand nombre,1,,,,,,,,176352
-centaine,0,nombre,100,,,,,,72178
 cercles,10,,,,,,,,176352
 chaises,3,nombre,1,,,,,,72178
 chaldres,13,,,,,,,,176352
 chanterice,1,,,,,,,,176352
-chantourné,0,,,,,,,,176352
-chapeaux,128,nombre,,,0,1,0,,72178
+chapeaux,128,,,,0,1,0,Toujours une unité de compte pour le charbon de terre. Pas dans Doursther. Je n’ai pas trouvé dans Google non plus:(,72178
 chardées,1,,,,,,,,176352
 charettes,15,,,,,,,,176352
 charge,7,,,,,,,,176352
@@ -155,10 +144,8 @@ chartils,2,,,,,,,,176352
 cheldes,2,,,,,,,,176352
 chevrier,1,,,,,,,,176352
 chevrons,2,,,,,,,,176352
-chipons,0,kg,146.849997,,,,,,286050
 chopes,1,,,,,,,,176352
 choux,1,nombre,1,,0,,0,,72178
-ciel,0,,,,,,,,176352
 citrons,1,nombre,1,,,,,,72178
 classer,1,,,,,,,,176352
 cloches,1,,,,,,,,176352
@@ -168,11 +155,9 @@ coffrets,1,contenant,1,,,,,,3225
 colis,5,,,,,,,,176352
 collé,1,,,,,,,,176352
 conques,216,litres,41.060001,,0,,0,doursther : 41.06 litres p119,6272
-contenant,0,contenant,1,1,,,,,3225
 coquilles,1,,,,,,,,176352
 cordes,64,litres,3839.055,,0,,0,p123 doursther,6272
 cordons,1,,,,,,,,176352
-costés,0,,,,,,,,176352
 cottes,37,,,,,,,,176352
 couffe,1,,,,,,,,176352
 coupes,30,contenant,1,,0,,0,,3225
@@ -184,29 +169,19 @@ croix,2,,,,,,,,176352
 cruches,7,nombre,1,,0,,0,,72178
 da ?,1,,,,,,,,176352
 de navire ???,1,,,,,,,,176352
-décagramme,0,kg,.01,,,,,,286050
-décimètres,0,cm,10,,,,,,10533
-demi ancre,0,kg,18.5,,,,,p27 doursther : en usage en Allemagne et en hollande formant le quart de l'aime,286050
 demi charge,4,kg,73.425005,,,,,D'après Doursther (France). Aussi la valeure choisie par Werner,286050
-demi muids de paris,0,kg,134.11,,,,,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter),286050
 demi pièces,29,nombre,.5,,0,,0,,72178
-demi pieds du roy,0,cm,16.2420005,,,,,,10533
 demi planches,4,nombre,.5,,,,,,72178
 demi planches en barils,1,,,,,,,,176352
-demi velte,0,litres,3.7149999,,,,,,6272
-demi-pièces,0,nombre,.5,,0,,0,,72178
 deniers,1,,,,,,,,176352
 deniers ?,1,,,,,,,,176352
 devants,2,,,,,,,,176352
 dierons ?,1,,,,,,,,176352
 données ?,1,,,,,,,,176352
-double pièce,0,nombre,2,,,,,,72178
 doubles cavelles,1,,,,,,,,176352
 doublures,1,nombre,1,,0,,0,,72178
 douelles,725,nombre,1,,,,,,72178
 dourgs,1,,,,,,,,176352
-douzaines,0,nombre,12,,,,,,72178
-douzaines de paires,0,nombre,24,,,,,,72178
 draps,1,,,,,,,,176352
 droits,13,,,,,,,,176352
 drugnes,1,,,,,,,,176352
@@ -215,14 +190,11 @@ E',1,,,,,,,,176352
 émines,5,,,,,,,,176352
 en,3,,,,,,,,176352
 en argent,1,nombre,1,,,,,,72178
-en centaine,0,nombre,100,,,,,,72178
 en feuilles,1,nombre,1,,0,,0,,72178
-en milliers,0,nombre,1000,,,,,,72178
 en nombre,31,nombre,1,,0,,0,,72178
-en valeur,0,,,,,,,,176352
 facs,1,,,,,,,,176352
 fagots,11,,,,,,,,176352
-faix,271,,,,,,,,176352
+faix,271,,,,,,,Pas dans Doursther,176352
 fanègues,27,,,,,,,,176352
 fannes,1,,,,,,,,176352
 fanons,6,nombre,1,,0,,0,,72178
@@ -240,7 +212,6 @@ feuillet,4,,,,,,,,176352
 feuillettes,9,kg,134.11,,0,,0,p161 doursther,286050
 fez,3,,,,,,,,176352
 fils,1,,,,,,,,176352
-fiole,61,,,,,,,,176352
 fioles,6,,,,,,,,176352
 flacons,179,contenant,1,,0,,0,,3225
 fléau,1,,,,,,,,176352
@@ -248,7 +219,7 @@ flûtes,5,nombre,1,,,,,,72178
 fonçailles,8,,,,,,,,176352
 fontaine,1,,,,,,,,176352
 fourneaux,2,nombre,1,,,,,,72178
-fournitures,107,,,,,,,,176352
+fournitures,107,,,,,,,Que pour du bois et des cercles à tonneaux ; pas dans les Doursther,176352
 fours,6,nombre,1,,,,,,72178
 fraques ?????,1,,,,,,,,176352
 frequier,5,,,,,,,,176352
@@ -264,15 +235,12 @@ garde feux,2,,,,,,,,176352
 garnitures,42,,,,,,,,176352
 gennes ?,1,,,,,,,,176352
 gerbes,2,,,,,,,,176352
-girofles,0,nombre,1,,,,,,72178
 gobelets,5,nombre,1,,,,,,72178
 gommes,7,,,,,,,,176352
 gonnes,29,,,,,,,,176352
 gousses,1,,,,,,,,176352
 grains,1,,,,,,,,176352
-gramme,0,kg,.001,,,,,,286050
 grande caisse,3,,,,,,,,176352
-grandes pentes,0,,,,,,,,176352
 grands,6,nombre,1,,0,,0,,72178
 grenier,5,,,,,,,,176352
 gros flacons,1,,,,,,,,176352
@@ -287,11 +255,8 @@ habits,1,,,,,,,,176352
 haches,1,,,,,,,,176352
 halles,1,,,,,,,,176352
 Hambourg,10,,,,,,,,176352
-hectogrammes,0,kg,.1,,,,,,286050
-hectolitres,0,litres,100,,,,,,6272
 horloges,1,nombre,1,,,,,,72178
 Houlle,1,,,,,,,,176352
-huitième,0,litres,.125,,0,1,0,Doursther page 185,6272
 huitres,1,nombre,1,,0,,0,,72178
 hume,1,,,,,,,,176352
 imi de berne,1,litres,3.503,,0,,0,p597 doursther -> voir Imi p186,6272
@@ -299,31 +264,25 @@ issarions,2,,,,,,,,176352
 jarres,10,,,,,,,,176352
 jattes,4,,,,,,,,176352
 jeux,7,nombre,1,,,,,,72178
-jeux de cartes,0,nombre,6,,,,,"1 sixain ou sizain = paquet de six jeux de cartes à jouer, source Larousse",72178
 jez,15,litres,137.11,,,,,"Doursther page 190, 1 jez = 137,11 L",6272
 jupes,1,,,,,,,,176352
 jutte,19,kg,60,,0,1,0,"Doursther page 193, la jutte pesait environ 60kg",286050
 kilogrammes,12200,kg,1,,,,,,286050
-laëst,0,,,,,,,,176352
 lames,1,,,,,,,,176352
-last,128,,,,,,,,176352
+last,128,,,,,,1,,176352
 le pied cube,8,,,,,,,,176352
 le reste,3,,,,,,,,176352
 lest,2,,,,,,,,176352
 leths,47,,,,,,,,176352
-leths de cendre,0,litres,2638.2,,0,,0,"dictionnaire du commerce p600 : un leth pour 12 barils, puis p549 -> prendre tonnes de berlin ?",6272
 liens,2,,,,,,,,176352
 lingot,1,,,,,,,,176352
 litres,1237,litres,1,,,,,,6272
 livres,254417,kg,.48949999,,,,,,286050
-livres de bateau,0,kg,150,,1,,0,"Witthöft 1993, Ulrich",286050
-livres de hambourg,0,kg,.48453999,,1,,0,"Witthöft 1993, Ulrich",286050
 livres ou pièces,1,,,,,,,,176352
 livrets,1,,,,,,,,176352
 lordins,16,,,,,,,,176352
 madriers,91,nombre,1,,,,,pièces ??,72178
 madures,1,,,,,,,,176352
-mailles,0,kg,.076485001,,0,,0,quart de l'once,286050
 main,5,,,,,,,,176352
 maindes,3,,,,,,,,176352
 malles,40,contenant,1,,0,,0,,3225
@@ -333,7 +292,6 @@ mannes,59,contenant,1,,,,,http://books.google.fr/books?id=9HM7AQAAIAAJ&pg=PA56&l
 marcs,684,kg,.244749995,,,,,,286050
 mare ?,1,,,,,,,,176352
 mares,1,,,,,,,,176352
-maroquins,0,,,,,,,,176352
 masses,53,,,,,,,,176352
 mats,4,nombre,1,,0,,0,,72178
 mèches,1,nombre,1,,,,,,72178
@@ -344,9 +302,7 @@ meule,1,,,,,,,,176352
 meules,5,,,,,,,,176352
 migères,6,,,,,,,,176352
 mille,2,nombre,1000,,,,,,72178
-millerolle,0,litres,64,,,,,Doursther : 1 millerolle = 64 litres page 292,6272
-millerolles,2186,,,,,,,,176352
-milliers,0,nombre,1000,,,,,,72178
+millerolles,2186,litres,64,,,,,Doursther p. 280 Mesure de capacité pour liquide en usage à Marseille et Toulon,176352
 milliers au grand compte,92,,,,,,,,176352
 mines,47,litres,76.171997,,0,,0,Wikipedia,6272
 minots,22,litres,38.085999,,0,,0,Wikipedia,6272
@@ -374,9 +330,7 @@ nombre,45245,nombre,1,,,,,,72178
 onces,175,kg,.0305937494,,,,,,286050
 ordinaires,18,nombre,1,,,,,,72178
 outres,2,,,,,,,,176352
-oxhoft,0,kg,223.158,,1,,0,"Witthöft 1993, explication 1 oxhoft=223.158 litres",286050
 pains,46,nombre,1,,,,,,72178
-paires,0,nombre,2,,,,,,72178
 paires petites,1,,,,,,,,176352
 palles,1,,,,,,,,176352
 palme,4,cm,26.3952,,,,,Doursther et http://aviatechno.net/unites/pieds.php,10533
@@ -393,7 +347,6 @@ patz,1,,,,,,,,176352
 paumes,3,cm,8.119999999999999,,,,,Doursther page 392,10533
 peaux,397,nombre,1,,0,,0,,72178
 pelaux,2,,,,,,,,176352
-pendules,0,cm,99.38493,,,,,Doursther page 393,10533
 perches,1,,,,,,,,176352
 pesant,1,,,,,,,,176352
 petit ballot,1,,,,,,,,176352
@@ -402,7 +355,6 @@ petite caisse,2,,,,,,,,176352
 petites bouteilles,2,,,,,,,,176352
 petites caisses,3,,,,,,,,176352
 petites cruches,1,,,,,,,,176352
-petites pentes,0,,,,,,,,176352
 petits,26,nombre,1,,,,,,72178
 petits barils,51,,,,,,,,176352
 petoltons,1,,,,,,,,176352
@@ -437,7 +389,7 @@ postes,1,,,,,,,,176352
 pot,1,,,,,,,,176352
 potiches,18,,,,,,,,176352
 potiches petites,1,,,,,,,,176352
-pots,1538,,,,,,,,176352
+pots,1538,,,,,,1,,176352
 poulets,1,,,,,,,,176352
 poutrelles,1,nombre,1,,,,,"vérification dans la source, il s'agit de « poutrelles »",72178
 poutres,2,nombre,1,,,,,,72178
@@ -446,8 +398,7 @@ quart,97,,,,,,,,176352
 quartaut,7,litres,68.55500000000001,,,,,"1 quartaut correspond à environ 68 litres, source Wikipédia",6272
 quartiers,48,,,,,,,,176352
 quartiers mesure de blaye,3,,,,,,,,176352
-quarts,450,,,,,,,,176352
-quarts de livres,0,kg,.125,,,,,,286050
+quarts,450,,,,,,1,,176352
 queue,9,litres,411.327,,,,,"Doursther page 468, queue = pipe",6272
 quiconir,1,,,,,,,,176352
 quinquets,1,,,,,,,,176352
@@ -456,18 +407,16 @@ quintaux de Saint-Domingue,1,,,,,,,,176352
 quintaux des colonies françaises,4,,,,,,,,176352
 radeaux,1,,,,,,,,176352
 rame ou aunes,1,,,,,,,,176352
-rames,2029,,,1,,,,Doursther : mesure pour le papier. Entre 360 et 500 feuilles. Mais il y en aussi pour les draps...,176352
-razières,55,,,,,,,,176352
+rames,2029,,,1,,,1,Doursther : mesure pour le papier. Entre 360 et 500 feuilles. Mais il y en aussi pour les draps… Épaisseur de 20 mains ?,176352
+rasières,55,,,,,,1,,176352
 réchauds,1,,,,,,,,176352
 retz,4,litres,30.5,,,,,Doursther page 477,6272
-rideaux,0,,,,,,,,176352
 robes,3,nombre,1,,0,1,0,,72178
-rodes,70,,,,,,,,176352
 rolle,1,,,,,,,,176352
 rondelles,1,,,,,,,,176352
-rouleaux,64,,,,,,,,176352
+rouleaux,64,,,,,,,Pas dans Doursther,176352
 sabres,9,nombre,1,,0,,0,,72178
-sacs,212,,,,,,,,176352
+sacs,212,,,,,,1,,176352
 sanegues,2,,,,,,,,176352
 sannées,1,,,,,,,,176352
 saumon,14,,,,,,,,176352
@@ -490,13 +439,11 @@ sous,1,,,,,,,,176352
 stères,42,litres,1000,,,,,"Doursther page 519, 1 stère = 1 mètre cube",6272
 tableaux,2,,,,,,,,176352
 tables,8,nombre,1,,,,,,72178
-tabourets,0,,,,,,,,176352
 taille petit,1,,,,,,,,176352
 taques ?,1,,,,,,,,176352
 tasses,13,,,,,,,,176352
 teintures,8,,,,,,,,176352
-tierce,0,kg,148,,1,,0,Doursther : Tierce=nom donné par les allemands à Aime: de 130 à 166 litres -> 148 litres,286050
-tierçons,535,,,,,,,,176352
+tierçons,535,,,,,,1,,176352
 tierçons et demi,1,,,,,,,,176352
 tiers,1,,,,,,,,176352
 timbres,23,,,,,,,,176352
@@ -504,13 +451,12 @@ timpettes,1,,,,,,,,176352
 tinéa,1,,,,,,,,176352
 tinettes,1,,,,,,,,176352
 tinnes,2,,,,,,,,176352
-toilette,0,,,,,,,,176352
 toises,37,cm,194.89999,,0,,0,Wikipedia,10533
 toisons,1,,,,,,,,176352
 tomes,3,,,,,,,,176352
 tommes,2,,,,,,,,176352
 tones,1,,,,,,,,176352
-tonne,114,,,,,,,,176352
+tonne,114,,,,,,1,,176352
 tonneaux,5704,kg,2569.8749475,,,,,,286050
 tonneaux de haut,1,,,,,,,,176352
 tonneaux de ville,1,,,,,,,,176352
@@ -522,17 +468,15 @@ traques,251,nombre,3,,,,,Dictionnaire de la marine françois (books.google.fr),7
 treilles,2,,,,,,,,176352
 tuiles,2,nombre,1,,,,,,72178
 urnes,1,,,,,,,,176352
-vaches,0,,,,,,,,176352
 valeur,163,,,,,,,,176352
 vals,1,,,,,,,,176352
 varres,1,,,,,,,,176352
-vases,0,,,,,,,,176352
 veaux,1,,,,,,,,176352
 veltes,905,litres,7.4299998,,,,,Dourshter : mesure de Paris,6272
 verges,45,litres,7.4299998,,0,,0,p581 : <=> veltes,6272
 verres,2,,,,,,,,176352
-violons,0,nombre,1,,0,,0,,72178
 vogues,1,,,,,,,,176352
 voitures,23,nombre,1,,,,,,72178
 vollilles,1,nombre,1,,0,,0,loïc charles,72178
 wagons,8,,,,,,,,176352
+,163786,,,,,,,,176352
