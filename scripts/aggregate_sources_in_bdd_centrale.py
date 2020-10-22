@@ -186,7 +186,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     if (line['source_type']=="Local" and year != 1750) or (line['source_type']== "National toutes directions tous partenaires" and year == 1750):
                                         line['best_guess_department_prodxpart'] = 1 
                                     if line['tax_department']=="Rouen" and line['export_import']=="Imports" and (year==1737 or (year>= 1739 & year<=1749) or year==1754 or (year>=1756 & year <=1762)):
-                                    	line['best_guess_department_prodxpart'] = 0
+                                    	line['best_guess_department_prodxpart'] = ""
                                     # best_guess_national_department
                                     if line['source_type']=="National toutes directions sans produits" or (line['source_type'] == "National toutes directions tous partenaires" and year == 1750):
                                         line['best_guess_national_department'] = 1
