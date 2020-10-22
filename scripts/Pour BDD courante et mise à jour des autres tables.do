@@ -86,6 +86,7 @@ save "Données Stata/Units_N1.dta", replace
 */
 
 use "Données Stata/classification_quantityunit_simplification.dta", clear
+replace conv_orthographic_to_simplificat  =usubinstr(conv_orthographic_to_simplificat,",",".",.)
 destring conv_orthographic_to_simplificat source_bdc, replace
 save "Données Stata/classification_quantityunit_simplification.dta", replace
 
@@ -94,6 +95,7 @@ destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric1.dta", replace
 
 use "Données Stata/classification_quantityunit_metric2.dta", clear
+replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
 destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 

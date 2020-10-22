@@ -1,9 +1,9 @@
 source,orthographic,source_bdc,nbr_occurences_source,nbr_occurences_orthographic
-,,1,163748,163750
+,,1,163748,163751
 ?,????,1,60,244
 ??,????,1,9,244
 ???,????,1,38,244
-??? pièces,pièces,1,9,22740
+??? pièces,pièces,1,9,22936
 ????,????,1,137,244
 ???? an,???? an,1,1,1
 ???? aunes,???? aunes,1,3,4
@@ -51,7 +51,7 @@ source,orthographic,source_bdc,nbr_occurences_source,nbr_occurences_orthographic
 ???? wagues,???? wagues,1,1,1
 ???? weltes,???? weltes,1,1,1
 ?ans,?ans,1,1,1
-[vide],,1,2,163750
+[vide],,1,2,163751
 #,#,1,3,3
 15 flacons,15 flacons,1,1,1
 450 Feuilles,450 feuilles,1,1,1
@@ -77,7 +77,7 @@ asnée,anée,1,1,14
 asnées,anée,1,12,14
 assortis,assortis,1,1,1
 atlas,atlas,1,2,2
-au nombre,en nombre,1,1,18626
+au nombre,en nombre,1,1,18904
 aulnes,aunes,1,266,10093
 Aulnes,aunes,1,61,10093
 aumes,aunes,1,18,10093
@@ -464,10 +464,10 @@ chaldres,chaldres,1,5,13
 Chaldres,chaldres,1,1,13
 chalons,chalon,1,1,2
 chanterice,chanterice,1,1,1
-chapeau,chapeaux,1,1,128
-chapeaux,chapeaux,1,115,128
-Chapeaux,chapeaux,1,11,128
-chapeaux ???,chapeaux,1,1,128
+chapeau,chapeaux,1,1,74
+chapeaux,chapeaux,1,61,74
+Chapeaux,chapeaux,1,11,74
+chapeaux ???,chapeaux,1,1,74
 Char,chars,1,2,145
 chardées,chardées,1,1,1
 chardes,chaldres,1,1,13
@@ -583,10 +583,10 @@ cruche,cruche,1,1,7
 cruches,cruche,1,3,7
 Cruches,cruche,1,3,7
 cubillons,cabillon,1,1,1
-Cuina,cuirs,1,1,209
-cuir,cuirs,1,2,209
-cuirs,cuirs,1,179,209
-Cuirs,cuirs,1,27,209
+Cuina,cuirs,1,1,154
+cuir,cuirs,1,2,154
+cuirs,cuirs,1,124,154
+Cuirs,cuirs,1,27,154
 Cuirs entier,cuirs entier,1,1,1
 Cuirs entiers,cuirs entiers,1,1,1
 da ?,da ?,1,1,1
@@ -615,21 +615,21 @@ demi pièce,demi pièces,1,1,18
 demi pieces,demi pièces,1,2,18
 demi pièces,demi pièces,1,3,18
 Demi pièces,demi pièces,1,3,18
-demi planches,demi planches,1,3,4
-demi Planches,demi planches,1,1,4
+demi planches,demi planches,1,2,3
+demi Planches,demi planches,1,1,3
 demi-bariques,demi barriques,1,1,7
 demi-caisses,demi caisses,1,8,18
 Demi-pipe,demi pipe,1,1,1
 Demibarique,demi barriques,1,1,7
-demie,demie,1,4,8
+demie,demie,1,2,6
 Demie ancres,demie ancres,1,1,1
 demie bouteilles,demi bouteilles,1,3,9
 demie charge,demie charge,1,3,4
 Demie charge,demie charge,1,1,4
 demie pièces,demi pièces,1,2,18
 Demiepièce,demi pièces,1,1,18
-demies,demie,1,3,8
-Demies,demie,1,1,8
+demies,demie,1,3,6
+Demies,demie,1,1,6
 demies bottes,demi bottes,1,1,2
 Demies bouteilles,demi bouteilles,1,1,9
 demies caisses,demi caisses,1,3,18
@@ -699,10 +699,10 @@ en Bouteille,en bouteille,1,1,1
 en Centaine,en centaine,1,1,1
 en feuilles,en feuilles,1,1,1
 en milliers,en milliers,1,2,2
-en nombre,en nombre,1,15541,18626
-En nombre,en nombre,1,2843,18626
-EN nombre,en nombre,1,1,18626
-en nombres,en nombre,1,239,18626
+en nombre,en nombre,1,15819,18904
+En nombre,en nombre,1,2843,18904
+EN nombre,en nombre,1,1,18904
+en nombres,en nombre,1,239,18904
 en valeur,en valeur,1,19,19
 Encres,encres,1,1,1
 entier,entiers,1,1,2
@@ -737,7 +737,7 @@ faneques,fanègues,1,2,27
 fanèques,fanègues,1,1,27
 Fanigues,fanègues,1,1,27
 fannegues,fanègues,1,1,27
-fanons,fanons,1,6,6
+fanons,fanons,1,1,1
 fanques,fanègues,1,1,27
 faqunir,frequins,1,1,1
 fardeaux,fardeaux,1,1,1
@@ -847,8 +847,8 @@ Grains,grains,1,1,1
 gramme,gramme,1,105,105
 Grammes,grammes,1,5,5
 grand compte,au grand compte,1,1,1
-grander,grande,1,1,10
-grandes,grande,1,9,10
+grander,grande,1,1,9
+grandes,grande,1,8,9
 grandes caisses,grande caisse,1,3,3
 Grandes Pièces,grande pièce,1,1,1
 grandeurs,grandeurs,1,1,1
@@ -912,7 +912,7 @@ jetz,jets,1,2,15
 Jeu,jeux,1,2,7
 jeux,jeux,1,3,7
 Jeux,jeux,1,2,7
-juments,juments,1,9,9
+juments,juments,1,1,1
 Juppe,jupes,1,1,1
 justes,justes,1,2,2
 jutes,jutes,1,5,16
@@ -978,12 +978,12 @@ loirdin,lordins,1,1,16
 loirdins,lordins,1,11,16
 Loirdins,lordins,1,1,16
 lordins,lordins,1,3,16
-lpiè,pièces,1,1,22740
+lpiè,pièces,1,1,22936
 lui,livres,1,1,236813
-madirers,madriers,1,1,91
-Madrier,madriers,1,6,91
-madriers,madriers,1,56,91
-Madriers,madriers,1,28,91
+madirers,madriers,0,0,7
+Madrier,madriers,1,6,7
+madriers,madriers,1,1,7
+Madriers,madriers,0,0,7
 madures,madures,1,1,1
 main,main,1,1,5
 mains,main,1,2,5
@@ -1064,7 +1064,7 @@ minotes,minots,1,1,22
 minots,minots,1,14,22
 Minots,minots,1,7,22
 mli,milliers,1,2,2328
-mogesne,moyenne,1,1,5
+mogesne,moyenne,1,1,4
 moitié,moitié,1,1,1
 Molles,molles,1,1,1
 monades,manades,1,1,2
@@ -1073,11 +1073,11 @@ mont,mont,1,1,61
 monts,mont,1,37,61
 Monts,mont,1,20,61
 Monts ?,mont,1,3,61
-morceaux,morceaux,1,7,10
-morcEaux,morceaux,1,1,10
-Morceaux,morceaux,1,2,10
-mortiers,mortiers,1,4,5
-Mortiers,mortiers,1,1,5
+morceaux,morceaux,1,6,9
+morcEaux,morceaux,1,1,9
+Morceaux,morceaux,1,2,9
+mortiers,mortiers,1,3,4
+Mortiers,mortiers,1,1,4
 morues,morues,1,1,1
 mottes,mottes,1,2,2
 Mouchoirs,mouchoirs,1,1,1
@@ -1085,10 +1085,10 @@ moute,moutte,1,2,3
 mouts,mouts,1,1,1
 mouttes,moutte,1,1,3
 movres,livres,1,1,236813
-moyenes,moyenne,1,1,5
-moyenne,moyenne,1,1,5
+moyenes,moyenne,1,1,4
+moyenne,moyenne,0,0,4
 moyenne pièces,moyenne pièces,1,1,1
-moyennes,moyenne,1,2,5
+moyennes,moyenne,1,2,4
 muid,muids,1,110,4552
 Muid,muids,1,227,4552
 muid de 120 livres,muid de 120 livres,1,8,8
@@ -1111,12 +1111,13 @@ muidss,muids,1,1,4552
 mulle,malles,1,1,40
 mur,onces,1,1,173
 nicasses,niasses,1,1,1
-Nom,en nombre,1,1,18626
-Nomb re,nombre,1,1,10152
-nombre,nombre,1,4702,10152
-Nombre,nombre,1,4280,10152
-nombres,nombre,1,36,10152
-Nombres,nombre,1,1133,10152
+Nom,en nombre,1,1,18904
+Nomb re,nombre,1,1,10399
+nombne,,1,1,163751
+nombre,nombre,1,4947,10399
+Nombre,nombre,1,4280,10399
+nombres,nombre,1,38,10399
+Nombres,nombre,1,1133,10399
 oedinaire,ordinaire,1,1,18
 Once,onces,1,3,173
 onces,onces,1,113,173
@@ -1180,10 +1181,10 @@ pasqus,pasgas,1,1,1
 Pattes,pattes,1,1,1
 patz,patz,1,1,1
 paumes,paumes,1,3,3
-peau,peaux,1,1,397
-Peau,peaux,1,1,397
-peaux,peaux,1,275,397
-Peaux,peaux,1,120,397
+peau,peaux,1,1,3
+Peau,peaux,1,1,3
+peaux,peaux,1,1,3
+Peaux,peaux,0,0,3
 peintes,peintes,1,1,1
 pelaux,pelaux,1,1,2
 Pelaux,pelaux,1,1,2
@@ -1213,35 +1214,35 @@ petits barrils,barils petits,1,2,51
 Petits barrils,barils petits,1,4,51
 pezam,pezant,1,1,3
 Pezant,pezant,1,2,3
-PI,pièces,1,1,22740
+PI,pièces,1,1,22936
 Piaires,paires,1,1,2912
-piè,pièces,1,4,22740
-Piè,pièces,1,1,22740
-piece,pièces,1,45,22740
-Piece,pièces,1,2,22740
-piéce,pièces,1,5,22740
-pièce,pièces,1,228,22740
-Pièce,pièces,1,1717,22740
+piè,pièces,1,4,22936
+Piè,pièces,1,1,22936
+piece,pièces,1,45,22936
+Piece,pièces,1,2,22936
+piéce,pièces,1,5,22936
+pièce,pièces,1,228,22936
+Pièce,pièces,1,1717,22936
 pièce de 20 aulnes,pièces de 20 aunes,1,1,1
 Pièce double,pièce double,1,1,1
-pieces,pièces,1,1994,22740
-Pieces,pièces,1,2004,22740
-piéces,pièces,1,61,22740
-Piéces,pièces,1,1,22740
-pièces,pièces,1,11973,22740
-Pièces,pièces,1,4532,22740
-PIèces,pièces,1,151,22740
-pîeces,pièces,1,1,22740
+pieces,pièces,1,1994,22936
+Pieces,pièces,1,2004,22936
+piéces,pièces,1,61,22936
+Piéces,pièces,1,1,22936
+pièces,pièces,1,12169,22936
+Pièces,pièces,1,4532,22936
+PIèces,pièces,1,151,22936
+pîeces,pièces,1,1,22936
 pièces de 10 aunes,pièces de 10 aunes,1,1,1
 pieces de 28,pièce de 28,1,1,1
 pièces de 50L,pièce de 50L,1,1,1
-Pièces estimées,pièces,1,4,22740
+Pièces estimées,pièces,1,4,22936
 pièces fonçailles,pièces fonçailles,1,2,2
 Pièces grosses,pièces grosses,1,1,1
 Pièces pour barriques,pièces pour barriques,1,1,1
-piècs,pièces,1,1,22740
-Piècs,pièces,1,1,22740
-Piècves,pièces,1,1,22740
+piècs,pièces,1,1,22936
+Piècs,pièces,1,1,22936
+Piècves,pièces,1,1,22936
 pied,pieds,1,4,206
 Pied,pieds,1,3,206
 pieds,pieds,1,170,206
@@ -1249,11 +1250,11 @@ Pieds,pieds,1,29,206
 pieds cubes,pieds cubes,1,16,19
 Pieds cubes,pieds cubes,1,3,19
 Pieriers,Pieriers,1,2,2
-pierre,pierre,1,3,31
-Pierre,pierre,1,2,31
-pierres,pierre,1,23,31
-Pierres,pierre,1,3,31
-Pieu,pièces,1,1,22740
+pierre,pierre,1,3,7
+Pierre,pierre,1,2,7
+pierres,pierre,1,1,7
+Pierres,pierre,1,1,7
+Pieu,pièces,1,1,22936
 pilan,pilan,1,1,1
 pinçons,poinçons,1,4,258
 pinte,pintes,1,149,731
@@ -1270,8 +1271,8 @@ pipet,pipe,1,1,374
 pipettes,pipettes,1,1,1
 pipots,pipot,1,11,11
 pites,pintes,1,1,731
-planches,planches,1,38,47
-Planches,planches,1,9,47
+planches,planches,0,0,0
+Planches,planches,0,0,0
 plaques,plaques,1,7,7
 Plateaux,plateaux,1,1,1
 plumes,plumes,1,1,1
@@ -1385,8 +1386,8 @@ saix,faix,1,1,269
 sanegues,sanegues,1,2,2
 sannées,sannées,1,1,1
 Saumes,saumes,1,3,3
-saumon,saumon,1,2,14
-saumons,saumon,1,12,14
+saumon,saumon,0,0,1
+saumons,saumon,1,1,1
 Saur,saur,1,1,1
 Saus,sacs,1,4,212
 seaux,seaux,1,1,1
@@ -1440,7 +1441,7 @@ stères à bruler,stères à bruler,1,14,14
 stimées,estimé,1,1,350
 stoc,livres,1,1,236813
 Tableaux,tableaux,1,2,2
-tables,tables,1,8,8
+tables,tables,0,0,0
 taille petit,taille petit,1,1,1
 taques ?,taques ?,1,1,1
 Tarsonde,tierçons,1,1,535
@@ -1541,8 +1542,8 @@ veltres,veltes,1,1,900
 verges,verges,1,23,45
 Verges,verges,1,22,45
 verres,verres,1,2,2
-vie?,pièces,1,1,22740
-vieux?,pièces,1,1,22740
+vie?,pièces,1,1,22936
+vieux?,pièces,1,1,22936
 Vivants,vivants,1,1,1
 vogues,vogues,1,1,1
 voiture,voitures,1,1,23
