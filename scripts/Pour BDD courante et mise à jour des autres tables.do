@@ -291,6 +291,9 @@ use "classification_quantityunit_simplification.dta", clear
 keep simplification nbr_occurences_simplification source_bdc
 bys simplification : keep if _n==1
 merge 1:1 simplification using "classification_quantityunit_metric1.dta"
+
+replace nbr_occurences_simplification= 0 if _merge==2
+
 keep simplification nbr_occurences_simplification metric conv_simplification_to_metric /// 
 				incertitude_unit source_hambourg	missing	needs_more_details remarque_unit
 
