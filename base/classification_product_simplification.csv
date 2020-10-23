@@ -43,7 +43,7 @@ acétates de cuivre non cristallisé (vert de gris) sec,3,verdet non cristallis�
 acétates de cuivre non cristallisés et cristallisés (verdet),2,verdet cristallisé et non cristallisé,2
 acétates de fer,2,acétates de fer,3
 acétates de plomb,29,acétates de plomb,29
-acétates de plomb sel de Saturne,2,acétates de plomb sel de Saturne,2
+acétates de plomb sel de Saturne,2,acétates de plomb,2
 acétates de potasse et de soudes,1,acétates de potasse et de soudes,2
 acétates de sel d'étain,1,acétates de sel d'étain,1
 achia,6,achia,7
@@ -7879,7 +7879,7 @@ droguerie safranum,1,safran,1403
 droguerie sel ammoniac,1,sel d'ammoniac,422
 droguerie sel chimique,2,sel chimique,296
 droguerie sel de nitre,1,sel de nitre,8
-droguerie sel de Saturne,3,sel de Saturne,248
+droguerie sel de Saturne,3,acétates de plomb,248
 droguerie séné,1,séné,637
 droguerie verdet,2,verdet,2093
 droguerie vitriol,3,vitriol,451
@@ -7924,10 +7924,10 @@ drogues chimiques et métalliques régule d'antimoine,2,régule d'antimoine,11
 drogues chimiques et métalliques sel ammoniac,4,sel d'ammoniac,422
 drogues chimiques et métalliques sel d'antimoine,2,sel d'antimoine,2
 drogues chimiques et métalliques sel d'Epsom,2,sel d'Epsom,208
-drogues chimiques et métalliques sel de Glauber,0,sel de Glauber,58
-drogues chimiques et métalliques sel de Saturne,2,sel de Saturne,248
+drogues chimiques et métalliques sel de Glauber,0,acétates de plomb,58
+drogues chimiques et métalliques sel de Saturne,2,acétates de plomb,248
 drogues chimiques et métalliques sel divers,2,sel,8986
-drogues chimiques et métalliques sel Saturne,8,sel de Saturne,248
+drogues chimiques et métalliques sel Saturne,8,acétates de plomb,248
 drogues chimiques et métalliques sublimé,0,drogues chimiques et métalliques sublimé,0
 drogues chimiques et métalliques vitriol,9,vitriol,451
 drogues chimiques et métalliques vitriol bleu,1,vitriol bleu,4
@@ -7945,11 +7945,11 @@ drogues chimiques sel de plomb,1,sel de plomb,1
 drogues chimiques sel de potasse,4,sel de potasse,4
 drogues chimiques sel de prunelle,2,sel de prunelle,2
 drogues chimiques sel de Prusse,1,sel de Prusse,1
-drogues chimiques sel de Saturne,13,sel de Saturne,248
+drogues chimiques sel de Saturne,13,acétates de plomb,248
 drogues chimiques sel de tamarin,3,sel de tamarin,17
 drogues chimiques sel divers,2,sel,8986
 drogues chimiques sel gemme,2,sel gemme,39
-drogues chimiques sel Saturne,4,sel de Saturne,248
+drogues chimiques sel Saturne,4,acétates de plomb,248
 drogues chimiques sel sublimé,2,sel sublimé,2
 drogues chimiques sublimé,1,sublimé,142
 drogues chimiques vitriol,1,vitriol,451
@@ -8630,7 +8630,7 @@ drogues réunies,590,drogues diverses réunies,635
 drogues rhubarbe,2,rhubarbe,752
 drogues safran,1,safran,1403
 drogues sel ammoniac,1,sel d'ammoniac,422
-drogues sel de Saturne,1,sel de Saturne,248
+drogues sel de Saturne,1,acétates de plomb,248
 drogues sel de tartre,1,sel de tartre,7
 drogues séné,1,séné,637
 drogues soie et laine,1,drogues et soie et laine,1
@@ -8834,7 +8834,7 @@ eau minérale,81,eau minérale,82
 eau minérale de Bristol,1,eau minérale de Bristol,1
 eau ocgeniente,1,eau ocgeniente,1
 eau octaze,3,eau octaze,3
-eau Plombières,1,eau Plombières,1
+eau Plombières,1,eau de Plombières,1
 eau pour la goutte,1,eau pour la goutte,1
 eau pour remède,1,eau pour remède,1
 eau raisinée,1,eau de résine,8
@@ -15965,7 +15965,7 @@ mâtereaux petits,3,mâtereaux petits,3
 matériaux,2,matériaux,2
 matériaux de construction chaux pierres plâtre ardoises ciment sable terre pouzzolane,9,ardoises et ciment et chaux et pierres et plâtre et pouzzolane et sable et terre,9
 matériaux de construction chaux pierres plâtre brique et tuiles ciment sable terre pouzzolane,10,brique et chaux et ciment et pierres et plâtre et pouzzolane et sable et terre et tuiles,10
-matériaux de construction tels que chaux pierres plâtre,14,chaux et pierres et plâtre,14
+matériaux de construction tels que chaux pierres plâtre,14,pierres à bâtir chaux et plâtre,14
 matériaux de construction tels que pierres plâtre chaux etc.,15,matériaux de construction,101
 matériaux de construction tels que pierres plâtre etc.,14,matériaux de construction,101
 matériaux moellons sable etc,3,matériaux moellons sable etc.,3
@@ -18970,7 +18970,7 @@ pastilles,14,pastilles,14
 pastilles odoriférantes à brûler,1,pastilles odoriférantes à brûler,1
 pastilles odoriférantes du sérail,1,pastilles odoriférantes du sérail,1
 pataques,8,pataques,8
-patates,31,patates,31
+patates,31,pommes de terre,31
 pâte,6,pâte,30
 pâte à fruits,2,pâte à fruits,2
 pâte à papetier,4,pâte à papier,7
@@ -20087,8 +20087,8 @@ pierres à détacher,1,pierres à détacher,1
 pierres à diquer,0,pierres à diguer,0
 pierres à distiller d'eau,1,pierres à distiller d'eau,1
 pierres à éviers,2,pierres à éviers,2
-pierres à faire chaux,15,pierres à faire chaux,16
-pierres à faire la chaux,1,pierres à faire chaux,16
+pierres à faire chaux,15,pierres à chaux,16
+pierres à faire la chaux,1,pierres à chaux,16
 pierres à faucher,1,pierres à faucher,1
 pierres à faux,208,pierres à faux,208
 pierres à feu,7,pierres à feu,7
@@ -20156,7 +20156,7 @@ pierres calamines,2,pierres calamines,4
 pierres calcaires,1,pierres calcaires,1
 pierres caprades blanches,2,pierres caprades blanches,2
 pierres carrées à bâtir,1,pierres carrées à bâtir,1
-pierres chaux et plâtre,15,pierres chaux et plâtre,24
+pierres chaux et plâtre,15,pierres à bâtir chaux et plâtre,24
 pierres chaux et plâtre etc.,7,pierres,378
 pierres codes,101,pierres codes,101
 pierres communes à bâtir,0,pierres à bâtir communes,0
@@ -20194,7 +20194,7 @@ pierres de Bidache,5,pierres de Bidache,7
 pierres de Bidache en carreaux,2,pierres de Bidache en carreaux,2
 pierres de bleu,1,pierres de bleu,1
 pierres de Briançon,1,pierres de Briançon,1
-pierres de chaux,6,pierres de chaux,6
+pierres de chaux,6,pierres à chaux,6
 pierres de composition,7,pierres de composition,7
 pierres de construction,1,pierres à bâtir,181
 pierres de coument,1,pierres de coument,1
@@ -20330,7 +20330,7 @@ pierres ouvrées autres,5,ouvrages de pierre,9
 pierres ouvrées autres que chiques,2,ouvrages de pierre autre que chiques,2
 pierres ouvrées chiques,6,chiques de pierre,7
 pierres pavé,2,pavé,15
-pierres plâtre et chaux,9,pierres chaux et plâtre,24
+pierres plâtre et chaux,9,pierres à bâtir chaux et plâtre,24
 pierres ponce,222,pierres ponces,233
 pierres ponce et à polir,0,pierres à polir et ponce,0
 pierres ponces,1,pierres ponces,233
@@ -21100,7 +21100,7 @@ plomb en balles et en dragées,0,balles et dragées de plomb,0
 plomb en barres,19,plomb en barre,19
 plomb en blocs,7,plomb en bloc,7
 plomb en feuilles,5,plomb en feuilles,5
-plomb en grains,20,grains de plomb,20
+plomb en grains,20,plomb en grenaille,20
 plomb en grenaille,882,plomb en grenaille,893
 plomb en lingots,8,plomb en lingot,8
 plomb en masses,1,plomb en masse,1
@@ -21555,9 +21555,9 @@ poisson salé maquereaux,2,maquereaux,54
 poisson salé mariné anchois,9,anchois salés et marinés,9
 poisson salé mariné en anchois,4,anchois mariné et salé,39
 poisson salé mariné harengs ???,1,harengs marinés et salés,3
-poisson salé mariné harengs blancs,1,harengs blancs salés et marinés,1
-poisson salé mariné morue,1,morue salée et marinée,1
-poisson salé mariné saumon,1,saumon salé et mariné,1
+poisson salé mariné harengs blancs,1,harengs blancs marinés et salés,1
+poisson salé mariné morue,1,morue marinée et salée,1
+poisson salé mariné saumon,1,saumon mariné et salé,1
 poisson salé mariné thon,4,thon mariné et salé,9
 poisson salé morue,4,morue salée,62
 poisson salé morue accompagnée de ???,3,poisson salé morue accompagnée de ???,3
@@ -23106,7 +23106,7 @@ satin uni,12,satin uni,12
 satinade,4,satinade,4
 satissoie,1,satissoie,1
 satte,1,satte,1
-Saturne,1,sel de Saturne,248
+Saturne,1,acétates de plomb,248
 saucisses,20,saucisses,20
 saucisses de Boulogne,0,saucisses de Boulogne,0
 saucissons,417,saucissons,420
@@ -23117,10 +23117,10 @@ saumon en daube,0,saumon en daube,0
 saumon frais,104,saumon frais,104
 saumon fumé,68,saumon fumé,71
 saumon fumé en pièces,3,saumon fumé,71
-saumon madré,1,saumon madré,1
+saumon madré,1,saumon mariné,1
 saumon mariné,5,saumon mariné,5
 saumon salé,935,saumon salé,948
-saumon sec,1,saumon sec,1
+saumon sec,1,saumon séché,1
 saumonée,4,saumonée,4
 saumure,103,saumure,103
 sauphas,1,sauphas,1
@@ -23219,7 +23219,7 @@ sel acétates d'étain,1,acétates d'étain,1
 sel acétates de cuivre cristallisé,1,verdet cristallisé,6
 sel acétates de cuivre non cristallisé,2,verdet non cristallisé,4
 sel acétates de fer,1,acétates de fer,3
-sel acétates de plomb (sel de Saturne),2,sel de Saturne,248
+sel acétates de plomb (sel de Saturne),2,acétates de plomb,248
 sel acétates de potasse et de soudes,1,acétates de potasse et de soudes,2
 sel ammoniac,393,sel d'ammoniac,422
 sel ammoniacal,10,sel d'ammoniac,422
@@ -23287,8 +23287,8 @@ sel de Rocq,0,sel de Rocq,0
 sel de Saint-Gilles,1,sel de Saint-Gilles,1
 sel de Saint-Hubert ou du Portugal,0,sel de Saint-Hubert ou du Portugal,0
 sel de samoine,2,sel de samoine,2
-sel de Saturne,209,sel de Saturne,248
-sel de Saturne et autres,7,sel de Saturne et autres,7
+sel de Saturne,209,acétates de plomb,248
+sel de Saturne et autres,7,acétates de plomb et autres,7
 sel de sauvene,5,sel de sauvene,5
 sel de Seignette,2,sel de Seignette,3
 sel de Seignette policreste et Glauber,0,sel de Seignette policreste et Glauber,0
@@ -23336,7 +23336,7 @@ sel purgatif,1,sel purgatif,1
 sel regerat,1,sel regerat,1
 sel résidus d'acide nitrique,1,résidus d'acide nitrique,1
 sel résidus d'acide sulfuriques,1,résidus d'acide sulfuriques,1
-sel Saturne,5,sel de Saturne,248
+sel Saturne,5,acétates de plomb,248
 sel sel ammoniac,3,sel d'ammoniac,422
 sel sel marin de marais ou de saline,2,sel marin de marais,5
 sel sel marin gemme ou fossile,2,sel marin gemme,3
@@ -24350,7 +24350,7 @@ tabac de ???,1,tabac de ???,1
 tabac de Brésil,1,tabac de Brésil,1
 tabac de caisse,1,tabac de caisse,1
 tabac de cantine,20,tabac de cantine,20
-tabac de carottes,2,tabac de carottes,2
+tabac de carottes,2,tabac en carottes,2
 tabac de Clairac,1,tabac de Clairac,1
 tabac de coco,1,tabac de coco,1
 tabac de Ferme,7,tabac de la Ferme,217
@@ -24388,7 +24388,7 @@ tabac en coren ???,0,tabac en coren ???,0
 tabac en côtes,19,tabac en côtes,19
 tabac en en feuilles,1,tabac en feuilles,2
 tabac en feuilles,704,feuilles de tabac,705
-tabac en feuilles carotte et côtes,1,tabac en carotte et feuilles côtes,1
+tabac en feuilles carotte et côtes,1,tabac en carotte et en feuilles et en côtes,1
 tabac en feuilles d'Espagne,1,tabac d'Espagne en feuilles,1
 tabac en feuilles de la Louisiane,1,tabac en feuilles de la Louisiane,1
 tabac en feuilles de la Virginie,1,tabac en feuilles de Virginie,10
