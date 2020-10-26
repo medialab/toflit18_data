@@ -890,7 +890,7 @@ drop _merge source_bdc	nbr_occurences_source	nbr_occurences_orthographic
 merge m:1 orthographic using "$dir/Données Stata/classification_quantityunit_simplification.dta"
 rename orthographic quantity_unit_orthographic
 replace simplification="unité manquante" if quantity_unit_orthographic=="unité manquante"
- 
+drop if _merge==2
  
 drop _merge source_bdc	nbr_occurences_orthographic nbr_occurences_simplification remarque_unit
 
@@ -914,6 +914,7 @@ bys export_import partner_grouping tax_department product_simplification product
 rename quantity_unit_simplification simplification
 merge 1:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
+drop if _merge==2
 	
  drop _merge
  sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
