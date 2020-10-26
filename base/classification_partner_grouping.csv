@@ -2,8 +2,8 @@ simplification,nbr_occurences_simpl,grouping,note,nbr_occurences_grouping
 ?,12,????,,216
 ???,195,????,,216
 [vide],2579,[vide],,2579
-Afrique,46,Outre-mers,,85137
-Afrique occidentale,34,Outre-mers,,85137
+Afrique,46,Afrique,,85137
+Afrique occidentale,34,Afrique,,85137
 Alexandrette,37,Levant et Barbarie,,25467
 Alger,46,Levant et Barbarie,,25467
 Aligre de Marans ou Marennes,1,France,,5686
@@ -18,7 +18,7 @@ Alsace et Lorraine,4,France,,5686
 Amérique et Inde,1,Outre-mers,,85137
 "Amérique, colonies françaises et Inde",1,Outre-mers,,85137
 "Amérique, Inde et Turquie",2,Divers,,2350
-Amériques,50,Outre-mers,,85137
+Amériques,50,Amériques,,85137
 Amiens,2,France,,5686
 Angleterre,26439,Angleterre,,26556
 Angleterre et Cologne,1,Angleterre,,26556
@@ -26,7 +26,7 @@ Angleterre et flotte anglaise,49,Angleterre,,26556
 Angleterre et Irlande,1,Angleterre,,26556
 Antilles et Colonies Françaises,105,Outre-mers,,85137
 Archipel,5,Levant et Barbarie,,25467
-Asie,79,Outre-mers,,85137
+Asie,79,Asie,,85137
 Autriche,2035,Flandre et autres états de l'Empereur,,25719
 Barbarie,470,Levant et Barbarie,,25467
 Barbarie dans l'Océan,8,Levant et Barbarie,,25467
@@ -48,16 +48,16 @@ Bilbao,10,Espagne,,64028
 Bilbao et Cadix,3,Espagne,,64028
 Brême,9,Nord,,67362
 "Brême, Lubeck, Norvège et villes hanséatiques",1,Nord,,67362
-Brésil,30,Outre-mers,,85137
+Brésil,30,Amériques,,85137
 Bruges,16,Flandre et autres états de l'Empereur,,25719
 Cadix,6,Espagne,,64028
-Canada,38,Outre-mers,,85137
+Canada,38,Amériques,,85137
 Candie,5,Levant et Barbarie,,25467
 Cannée et Candie,3,Levant et Barbarie,,25467
-Cayenne et Guyane,1065,Outre-mers,,85137
+Cayenne et Guyane,1065,Amériques,,85137
 Cayenne et Île Bourbon,1,Outre-mers,,85137
-Chili,15,Outre-mers,,85137
-Chine,42,Outre-mers,,85137
+Chili,15,Amériques,,85137
+Chine,42,Asie,,85137
 Chypre,17,Levant et Barbarie,,25467
 Clermontois,71,France,,5686
 Colonies anglaises,132,Outre-mers,,85137
@@ -65,8 +65,8 @@ Colonies danoises,90,Outre-mers,,85137
 Colonies des États-Unis d'Amérique,143,Outre-mers,,85137
 Colonies espagnoles,153,Outre-mers,,85137
 Colonies françaises,2198,Outre-mers,,85137
-Colonies françaises au-delà du Cap,4,Outre-mers,,85137
-Colonies françaises d'Amérique,358,Outre-mers,,85137
+Colonies françaises au-delà du Cap,4,Asie,,85137
+Colonies françaises d'Amérique,358,Amériques,,85137
 Colonies françaises en-deça du Cap,4,Outre-mers,,85137
 Colonies françaises et colonies hollandaises,20,Outre-mers,,85137
 Colonies françaises et Inde,1,Outre-mers,,85137
@@ -75,11 +75,11 @@ Colonies françaises hors Guyane et Sénégal,3,Outre-mers,,85137
 Colonies hollandaises,142,Outre-mers,,85137
 Colonies portugaises,27,Outre-mers,,85137
 Colonies suédoises,57,Outre-mers,,85137
-Commerce de la Compagnie des Indes,133,Outre-mers,,85137
+Commerce de la Compagnie des Indes,133,Asie,,85137
 Constantinople,22,Levant et Barbarie,,25467
 Corse,123,France,,5686
 Courlande et Russie,143,Nord,,67362
-Cuba et Porto Rico,20,Outre-mers,,85137
+Cuba et Porto Rico,20,Amériques,,85137
 Danemark,12443,Nord,,67362
 Danemark et Norvège,392,Nord,,67362
 Duché de Bouillon,108,Divers,,2350
@@ -122,38 +122,38 @@ Genève et Suisse,2539,Suisse,,20662
 "Genève, Suisse et ses alliés",949,Suisse,,20662
 Gibraltar,1,Angleterre,,26556
 Gothembourg,10,Nord,,67362
-Guadeloupe,2190,Outre-mers,,85137
-Guatemala,2,Outre-mers,,85137
+Guadeloupe,2190,Amériques,,85137
+Guatemala,2,Amériques,,85137
 Guernesey,2,Angleterre,,26556
 Guernesey et Dumbarton,1,Angleterre,,26556
-Guinée,10366,Outre-mers,,85137
-Guinée et Sénégal,3004,Outre-mers,,85137
-Guyane,11,Outre-mers,,85137
-Guyane anglaise,4,Outre-mers,,85137
+Guinée,10366,Afrique,,85137
+Guinée et Sénégal,3004,Afrique,,85137
+Guyane,11,Amériques,,85137
+Guyane anglaise,4,Amériques,,85137
 Guyane et Sénégal,2,Outre-mers,,85137
-Guyane française,2,Outre-mers,,85137
-Haïti,10,Outre-mers,,85137
+Guyane française,2,Amériques,,85137
+Haïti,10,Amériques,,85137
 Hambourg,112,Nord,,67362
 "Hambourg, Hollande et Livourne",1,Divers,,2350
 Hollande,76301,Hollande,,78746
 Hollande et Villes hanséatiques,223,Divers,,2350
-Île Bourbon,53,Outre-mers,,85137
-Île Bourbon et Inde,3,Outre-mers,,85137
+Île Bourbon,53,Asie,,85137
+Île Bourbon et Inde,3,Asie,,85137
 Île de Ré,1,France,,5686
-Île Maurice,22,Outre-mers,,85137
-Îles,7104,Outre-mers,,85137
-Îles de France et de Bourbon,206,Outre-mers,,85137
-Îles de l'Amérique,134,Outre-mers,,85137
+Île Maurice,22,Asie,,85137
+Îles,7104,Amériques,,85137
+Îles de France et de Bourbon,206,Asie,,85137
+Îles de l'Amérique,134,Amériques,,85137
 Îles et Guinée,2,Outre-mers,,85137
-Îles françaises,2011,Outre-mers,,85137
-Îles françaises de l'Amérique,41927,Outre-mers,,85137
+Îles françaises,2011,Amériques,,85137
+Îles françaises de l'Amérique,41927,Amériques,,85137
 Inconnu,209,Inconnu,,209
-Inde étrangère,18,Outre-mers,,85137
-Indes,3513,Outre-mers,,85137
-Indes anglaises,16,Outre-mers,,85137
-Indes et Moka,41,Outre-mers,,85137
-Indes françaises,22,Outre-mers,,85137
-Indes hollandaises,6,Outre-mers,,85137
+Inde étrangère,18,Asie,,85137
+Indes,3513,Asie,,85137
+Indes anglaises,16,Asie,,85137
+Indes et Moka,41,Asie,,85137
+Indes françaises,22,Asie,,85137
+Indes hollandaises,6,Asie,,85137
 Irlande,62,Angleterre,,26556
 Italie,38730,Italie,,106364
 Levant,20653,Levant et Barbarie,,25467
@@ -165,13 +165,13 @@ Lorient et Marseille,1,France,,5686
 Lorient et Petites Îles,2,France,,5686
 Lorraine,555,Allemagne,,24051
 Lorraine et Trois Évêchés,1,France,,5686
-Louisiane,7,Outre-mers,,85137
+Louisiane,7,Amériques,,85137
 Lübeck en Norvège,1,Nord,,67362
 Marseille,2576,France,,5686
 Marseille et Petites Îles,1,France,,5686
-Martinique,2777,Outre-mers,,85137
+Martinique,2777,Amériques,,85137
 Mecklembourg-Schwerin,4,Nord,,67362
-Mexique,9,Outre-mers,,85137
+Mexique,9,Amériques,,85137
 Milanais,4,Italie,,106364
 Milanais et Toscane,602,Italie,,106364
 "Milanais, Toscane et Lucques",1108,Italie,,106364
@@ -199,7 +199,7 @@ Naples et Sicile,5052,Italie,,106364
 Nord,22691,Nord,,67362
 Nord (Hanse et Russie),3899,Nord,,67362
 Norvège,80,Nord,,67362
-Nouvelle-Grenade,3,Outre-mers,,85137
+Nouvelle-Grenade,3,Amériques,,85137
 Pays d'Aunis,1,France,,5686
 Pays de Gex,20,France,,5686
 Pays de Labour,31,France,,5686
@@ -213,9 +213,9 @@ Pêches côtières (Maquereaux),2,Divers,,2350
 Pêches côtières (Sardines),1,Divers,,2350
 Pêches étrangères,17,Divers,,2350
 Pêches françaises,42,Divers,,2350
-Pérou,6,Outre-mers,,85137
+Pérou,6,Amériques,,85137
 Petites Îles,464,France,,5686
-Philippines,1,Outre-mers,,85137
+Philippines,1,Asie,,85137
 Piémont,1590,Italie,,106364
 Piémont et Savoie,340,Italie,,106364
 Piémont par mer,1,Italie,,106364
@@ -229,7 +229,7 @@ Prises et saisies,1305,Divers,,2350
 Prusse,4649,Nord,,67362
 Prusse – par mer,2,Nord,,67362
 Riga,3,Nord,,67362
-Rio de la Plata,14,Outre-mers,,85137
+Rio de la Plata,14,Amériques,,85137
 Rome et Venise,2,Italie,,106364
 Rotterdam,6,Hollande,,78746
 Rouen,1,France,,5686
@@ -238,16 +238,16 @@ Royaume de Sardaigne,5658,Italie,,106364
 Royaume de Sardaigne – par mer,2,Italie,,106364
 Royaume de Sardaigne – par terre,2,Italie,,106364
 Russie,6700,Nord,,67362
-Saint-Domingue,5564,Outre-mers,,85137
+Saint-Domingue,5564,Amériques,,85137
 Saint-Jean de Luz,9,France,,5686
-Saint-Thomas,11,Outre-mers,,85137
+Saint-Thomas,11,Amériques,,85137
 Salonique,5,Levant et Barbarie,,25467
 "Salonique, Archipel et Satali",17,Levant et Barbarie,,25467
 Sardaigne,2040,Italie,,106364
 Savoie,12043,Italie,,106364
 Savoie et Piémont,11469,Italie,,106364
-Sénégal,318,Outre-mers,,85137
-Sénégal français,9,Outre-mers,,85137
+Sénégal,318,Afrique,,85137
+Sénégal français,9,Afrique,,85137
 Sidon,5,Levant et Barbarie,,25467
 Sidon et Acre,15,Levant et Barbarie,,25467
 Smyrne,35,Levant et Barbarie,,25467
@@ -256,13 +256,13 @@ Strasbourg,1,France,,5686
 Suède,11295,Nord,,67362
 Suède et ses colonies,173,Nord,,67362
 Suisse,13955,Suisse,,20662
-Tobago,740,Outre-mers,,85137
-Tobago et Sainte-Lucie,2,Outre-mers,,85137
+Tobago,740,Amériques,,85137
+Tobago et Sainte-Lucie,2,Amériques,,85137
 Toscane,636,Italie,,106364
 Tripoli de Syrie,15,Levant et Barbarie,,25467
 Trois Évêchés,614,France,,5686
 Turquie,34,Levant et Barbarie,,25467
-Vénézuela,14,Outre-mers,,85137
+Vénézuela,14,Amériques,,85137
 Venise,1947,Italie,,106364
 Villes hanséatiques,4751,Nord,,67362
 Voitures diverses,2,Divers,,2350
