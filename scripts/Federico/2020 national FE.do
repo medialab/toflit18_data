@@ -19,30 +19,42 @@ if "`c(username)'" =="guillaumedaudin" {
 clear
 cd `"$dir"'
 capture log using "`c(current_time)' `c(current_date)'"
+/*À faire pour récupérer les données
+unzipfile "toflit18_data_GIT/base/bdd courante.csv.zip", replace
+insheet using "toflit18_data_GIT/base/bdd courante.csv", clear
+save "Données Stata/bdd courante.dta", replace
+*/
+
 use "Données Stata/bdd courante.dta", clear
+
+
+codebook product_grains
+
 
 *** dummy importexport
 gen importexport=0
-replace importexport=1 if (exportsimports=="Export" | exportsimports=="Exports"| exportsimports=="Sortie")
+replace importexport=1 if (export_import=="Export" | export_import=="Exports"| export_import=="Sortie")
 
 
 
-*** deal with missing values and generate value_inclusive
-generate value_inclusive=value
-replace value_inclusive=prix_unitaire*quantit if value_inclusive==. & prix_unitaire!=.
-drop if value_inclusive==.
-drop if value_inclusive==0
+*** deal with missing values and generate value ** Devrait être fait dand la base 
+/*
+generate value=value
+replace value=prix_unitaire*quantit if value==. & prix_unitaire!=.
+drop if value==.
+drop if value==0
+*/
 
 
-*** isolate grains
-drop if product_grains=="Pas grain (0)"
 
-encode product_grains, generate(grains_num) 
-*
+***garder quand on a le commerce national complet ou les flux locaux complets
+****Je garde 1789 (pour du local) car il ne manque que le commerce avec les Indes.
+keep if best_guess_national_prodxpart==1 | best_guess_department_prodxpart==1 | (year==1789 & source_type=="National toutes directions partenaires manquants")
+drop if tax_department =="Colonies Françaises de l'Amérique"
 
-drop if product_grains=="."
-drop if grains_num==.
-drop if sourcetype=="1792-first semester"
+
+/*Nott useful anymore : the best guesses are defined elsewhere
+drop if source_type=="1792-first semester"
 
 *FOR SOME REASONS THIS DOES NOT WORK
 *drop if  year==1787.2
@@ -52,117 +64,171 @@ drop if year>1787 & year<1788
 **GD20200710 Je ne sais pas. C’est bizarre...
 drop if year>1805 & year <1806
 *drop colonies
-drop if sourcetype=="Local"  & year==1787
-drop if sourcetype=="Local"  & year==1788
+drop if source_type=="Local"  & year==1787
+drop if source_type=="Local"  & year==1788
 
 *Unify Resumé and O.G.
 **drop Resumé 1788
-drop if sourcetype=="Résumé"  & year==1788
-
+drop if source_type=="Résumé"  & year==1788
+*/
 
 *create national and local
-gen natlocal=direction
-replace natlocal="National" if sourcetype=="1792-both semester" | sourcetype=="Résumé" | sourcetype=="Tableau des quantités" | sourcetype=="Objet Général"
+gen natlocal=tax_department
+
+
+**Pour traiter 1750, qui a à la fois du local et du national. Du coup, on le met 2 fois
+save temp.dta, replace
+keep if year==1750
+replace natlocal="National"
+append using temp.dta
+erase temp.dta
+
+replace natlocal="National" if best_guess_national_prodxpart==1 & year !=1750
 drop if natlocal=="[vide]"
+
+
 *ID LOVE GUILLAUME TO VERIFY THIS: adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes directions partenaires manquants"
-sort year importexport natlocal value_inclusive grains_num country_grouping sourcetype  
+sort year importexport natlocal value product_grains partner_grouping source_type  
 
 **GD20200710 Il faut sans doute agréger si on a plusieurs flux pour une même catégorie de bien ? C’est ce que je fait ici
 
-duplicates report year importexport natlocal sourcetype grains_num country_grouping
+*duplicates report year importexport natlocal source_type grains_num partner_grouping
 
-collapse (sum) value_inclusive, by(year importexport natlocal sourcetype grains_num country_grouping)
+collapse (sum) value, by(year importexport natlocal product_grains partner_grouping)
 
-**GD20200710 Maintenant, on regardi s’il y a des flux en trop
+**GD20200710 Maintenant, on regarde s’il y a des flux en trop
 
-duplicates report year importexport natlocal grains_num country_grouping
-duplicates tag    year importexport natlocal grains_num country_grouping, generate(tag)
+duplicates report year importexport natlocal product_grains partner_grouping
+duplicates tag    year importexport natlocal product_grains partner_grouping, generate(tag)
 tab year tag
+
+
+
+
+
+
+/* Devenus caduc depuis que le best guess vient d’ailleurs
 *GD20200710 Les soucis sont en 49, 50, 51 et 77 : je ne vois plus ceux de 89.
 *GD20200710 On privilégie toujours "local"
-keep if (tag==1 & sourcetype=="Local") | tag==0
+keep if (tag==1 & source_type=="Local") | tag==0
 
 /* GD20200710 Je pense que ce que tu faisais était très proche ?
-quietly by year importexport natlocal value_inclusive grains_num country_grouping  :  gen dup = cond(_N==1,0,_n)
-drop if sourcetype!="Local" & dup!=0 
+quietly by year importexport natlocal value grains_num partner_grouping  :  gen dup = cond(_N==1,0,_n)
+drop if source_type!="Local" & dup!=0 
+*/
 */
 
-*GD20200710 J’aimerai bien créer les flux dont on sait qu’ils sont nuls...
-fillin year importexport natlocal grains_num country_grouping
+
+*GD20200710 J’aimerai bien créer les flux dont on sait qu’ils sont nuls... (et qui peuvent être comparés avec d’autre flux)
+fillin year importexport natlocal product_grains partner_grouping
+
+replace value=0 if value==.
 
 *Pour éliminer les rapporteurs qui ne sont pas là pour une année particulière
-bys natlocal year : egen out_fillin = min (_fillin)
-drop if out_fillin==1
+bys natlocal year : egen out_fillin = max (value)
+drop if out_fillin==0
 drop out_fillin
 
 *Pour éliminer les paires partenaires x rapporteurs x produits x importexport qui ne sont jamais là
-bys natlocal country_grouping grains_num importexport : egen out_fillin = min (_fillin)
-drop if out_fillin==1
+bys natlocal partner_grouping product_grains importexport : egen out_fillin = max (value)
+drop if out_fillin==0
 drop out_fillin
 
 *Pour éliminer les partenaires qui ne sont pas là certaines années ?
-bys year  country_grouping : egen out_fillin = min (_fillin)
-drop if out_fillin==1
+bys year  partner_grouping : egen out_fillin = max (value)
+drop if out_fillin==0
 drop out_fillin
 
 
-
+/*Plus la peine : nous ne les prennons pas
 **Pour identifier ceux dont on ne connait pas tous les partenaires
 gen flag_partenaires_manquants = .
-replace flag_partenaires_manquants =1 if sourcetype=="National toutes directions partenaires manquants"
+replace flag_partenaires_manquants =1 if source_type=="National toutes directions partenaires manquants"
 
-bys year country_grouping natlocal : egen out_fillin=min(_fillin)
-bys year country_grouping natlocal : egen out_partenaires_manquants=max(flag_partenaires_manquants)
+bys year partner_grouping natlocal : egen out_fillin=min(_fillin)
+bys year partner_grouping natlocal : egen out_partenaires_manquants=max(flag_partenaires_manquants)
 drop if out_fillin==1 & out_partenaires_manquants ==1 
 **Je suis surpris que cela ne conduisent pas à éliminer des flux ??
-
+*/
 ** et finalement
-replace value_inclusive=0 if value_inclusive==.
+replace value=0 if value==.
 
 **Je vérifie que tous ces zéros ont un sens
-bys country_grouping natlocal importexport grains_num : egen max_value=max(value_inclusive)
+bys partner_grouping natlocal importexport product_grains : egen max_value=max(value)
 assert max_value !=0
 
-drop out_fillin max_value flag_partenaires_manquants tag
+drop max_value tag
 
 *GD20200710 Bien sûr, se pose la question de savoir quoi en faire si on prend le log des flux...
 
+*** isolate grains (Rq : il faut faire le fillin avant !)
+drop if product_grains=="Pas grain (0)"
+drop if product_grains=="."
+encode product_grains, generate(grains_num)
+
+save data_interpolation_temp.dta, replace
+*********************************************Fin de la préparation des données
 
 
-
-
+use data_interpolation_temp.dta, clear
 *create geography
 encode natlocal, generate(geography) label(natlocal)
 
 drop if year==.
 drop if geography==.
-***SOURCETYPE
 
-encode sourcetype, generate(sourcetype_encode) label(sourcetype)
+/*
+***source_type
 
-*
+encode source_type, generate(source_type_encode) label(source_type)
+
+*/
 ***collapse by year
-collapse (sum) value_inclusive, by (year geography importexport)
-
+collapse (sum) value, by (year geography natlocal importexport)
 
 ***generate ln value
-gen value_inclusive_c=value_inclusive+0.5
-drop value_inclusive
-rename value_inclusive_c value_inclusive
-generate ln_value_inclusive=ln(value_inclusive)
+gen value_c=value+0.5
+drop value
+rename value_c value
+generate ln_value=ln(value)
 
 ***reshape import and export
-reshape wide ln_value_inclusive value_inclusive, i(year geography) j(importexport)
-rename value_inclusive1 export
-rename value_inclusive0 import
-rename ln_value_inclusive1 ln_export
-rename ln_value_inclusive0 ln_import
+reshape wide ln_value value, i(year geography natlocal) j(importexport)
+rename value1 export
+rename value0 import
+rename ln_value1 ln_export
+rename ln_value0 ln_import
+fillin geography year 
+
+replace year=1806 if year==1805.75
+xtset geography year
+xtgls ln_import i.year i.geography if year >=1750 & year <=1789
+predict ln_import_xtgls1 if geography==23
+
+xtreg ln_import i.year i.geography if year >=1750 & year <=1789, fe 
+predict ln_import_xtreg if geography==23
+
+gen import_xtreg=exp(ln_import_xtreg)
+gen import_xtgls=exp(ln_import_xtgls)
+
+sort year
+
+twoway (connected import_xtreg year if year>=1750 & year <=1789 & geography==23) ///
+		(connected import_xtgls year if year >=1750 & year <=1789 & geography==23) ///
+		(connected import year if year >=1750 & year <=1789 & geography==23) 
+
+blif
 
 
 *** now regress
- xi:  regress ln_import i.year i.geography   [iweight=import]
- *** now rectangularize (filling missing explanatory variables (year, geography))
-fillin geography year 
+xi:  regress ln_import i.year i.geography   [iweight=import]
+*** now rectangularize (filling missing explanatory variables (year, geography))
+hettest 
+****Il y a beaucoup d’hétérskedasticité... Voir https://trello.com/c/90CWIE9S
+
+
+ blif
+fillin natlocal year 
 
 *** predict and scatter national value of imports
 *** it is very important to fill the missing values
@@ -194,4 +260,6 @@ tsfill
 * graph for geography == national
 
 twoway (line retrofitted_import year , yaxis(1) ) (line retrofitted_export year , yaxis(1)) (line NX year, yaxis(2))
+
+erase data_interpolation_temp.dta
 
