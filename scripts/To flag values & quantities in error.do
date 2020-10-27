@@ -28,6 +28,16 @@ gen absurd_quantity=0
 
 *egen prop = pc(value), by(source_type year tax_department export_import) prop
 
+
+
+replace absurd_value=1 if tax_department=="Bordeaux" & year==1770 & export_import=="Imports" ///
+		& (partner_simplification=="Nord" | partner_simplification=="Hollande" ) ///
+		& (product_simplification=="froment")
+**Ces chiffres sont beaucoup trop importants
+
+
+
+
 ****D'après Torsten, email juin 2018
 
 replace absurd_value=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////

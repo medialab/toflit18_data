@@ -205,8 +205,12 @@ xtset geography year
 xtgls ln_import i.year i.geography if year >=1750 & year <=1789
 predict ln_import_xtgls1 if geography==23
 
+hettest 
+
 xtreg ln_import i.year i.geography if year >=1750 & year <=1789, fe 
 predict ln_import_xtreg if geography==23
+
+hettest 
 
 gen import_xtreg=exp(ln_import_xtreg)
 gen import_xtgls=exp(ln_import_xtgls)
@@ -217,13 +221,17 @@ twoway (connected import_xtreg year if year>=1750 & year <=1789 & geography==23)
 		(connected import_xtgls year if year >=1750 & year <=1789 & geography==23) ///
 		(connected import year if year >=1750 & year <=1789 & geography==23) 
 
+		/*Graphique dans le datascape
+http://toflit18-pprd.medialab.sciences-po.fr/#/exploration/indicators?lines=%5B%7B%22color%22%3A%22%23C14F4C%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22direction%22%3A%22Nantes%22%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20tax%20department%20product%20x%20partner%22%7D%2C%7B%22color%22%3A%22%23A563B7%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22direction%22%3A%22Bayonne%22%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20tax%20department%20product%20x%20partner%22%7D%2C%7B%22color%22%3A%22%2385C85B%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22direction%22%3A%22Bordeaux%22%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20tax%20department%20product%20x%20partner%22%7D%2C%7B%22color%22%3A%22%2394B8B7%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22direction%22%3A%22La_Rochelle%22%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20tax%20department%20product%20x%20partner%22%7D%2C%7B%22color%22%3A%22%23B89648%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22direction%22%3A%22Marseille%22%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20tax%20department%20product%20x%20partner%22%7D%2C%7B%22color%22%3A%22%23504342%22%2C%22productClassification%22%3A%22product_grains%22%2C%22product%22%3A%5B%7B%22id%22%3A%22C%E9r%E9ales_inf%E9rieures_%282%29%7Eproduct_grains%22%2C%22name%22%3A%22C%E9r%E9ales%20inf%E9rieures%20%282%29%22%7D%2C%7B%22id%22%3A%22Froment_%281%29%7Eproduct_grains%22%2C%22name%22%3A%22Froment%20%281%29%22%7D%2C%7B%22id%22%3A%22Grains_transform%E9s_%285%29%7Eproduct_grains%22%2C%22name%22%3A%22Grains%20transform%E9s%20%285%29%22%7D%2C%7B%22id%22%3A%22Menus_grains_%283%29%7Eproduct_grains%22%2C%22name%22%3A%22Menus%20grains%20%283%29%22%7D%2C%7B%22id%22%3A%22Substituts_%284%29%7Eproduct_grains%22%2C%22name%22%3A%22Substituts%20%284%29%22%7D%5D%2C%22kind%22%3A%22import%22%2C%22sourceType%22%3A%22Best%20Guess%20national%20product%20x%20partner%22%7D%5D		
+*/		
+
 blif
 
 
 *** now regress
 xi:  regress ln_import i.year i.geography   [iweight=import]
 *** now rectangularize (filling missing explanatory variables (year, geography))
-hettest 
+
 ****Il y a beaucoup d’hétérskedasticité... Voir https://trello.com/c/90CWIE9S
 
 
