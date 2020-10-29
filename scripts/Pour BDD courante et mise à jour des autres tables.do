@@ -849,6 +849,7 @@ foreach class_name in RE_aggregate threesectors threesectorsM {
 	rename product_revolutionempire revolutionempire
 	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
 	rename revolutionempire product_revolutionempire
+	drop nbr_occure*
 	drop if _merge==2
 	drop _merge
 	rename `class_name' product_`class_name'
