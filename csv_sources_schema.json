@@ -79,6 +79,13 @@
         "description":	"Value of the trade flow in livres tournois or francs -- Valeur du flux commercial, en livres tournois ou en francs"
       },
       {
+        "name": "absurd_value",
+        "type": "string",
+        "constraints": {
+        	"enum": ["fine", "absurd", "guess"]
+        "description":	"Signals absurd values present in sources (absurd) and guess to replace them (guess) -- Signale des valeurs absurdes présentes dans les sources (absurd) et des propositions de remplacement (guess)"
+      },
+      {
         "name": "value_part_of_bundle",
         "type": "number",
         "description":	"This variables identifies trade flows where multiple quantities are associated to a single total value. This number indicates the order of the flow in the bundle. Value is indicated for the bundle but repeated in all flows. Beware of double accounts use only one value by bundle. -- Cette variable identifie les flux pour lesquels plusieurs quantitiés correspondent à une seule valeur. Ce nombre indique l'index dans l'ordre dans le groupe. La valeur concerne le groupe en entier et est répétée dans chaque flux. Attention aux doubles comptes."
@@ -92,6 +99,13 @@
         "name": "quantity_unit",
         "type": "string",
         "description":	"Product quantity unit -- Unité de mesure de la quantité de marchandise"
+      },
+      {
+        "name": "absurd_quantity",
+        "type": "string",
+        "constraints": {
+        	"enum": ["fine", "absurd", "guess"]
+        "description":	"Signals absurd quantities present in sources (absurd) and guess to replace them (guess) -- Signale des quantités absurdes dans les source (absurd) et des propositions de remplacement (guess)"
       },  
       {
         "name": "value_per_unit",

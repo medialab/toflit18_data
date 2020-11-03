@@ -958,10 +958,10 @@ save "$dir/Données Stata/bdd courante", replace
  *******************************************************************
  *use "$dir/Données Stata/bdd courante.dta", replace
  
- 
- ***Pour valeurs absurdes
+ /*
+ ***Pour valeurs absurdes -- C’est maintenant dans les sources
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
- 
+ */
  *save "$dir/Données Stata/bdd courante.dta", replace
  
  ************For best guesses
