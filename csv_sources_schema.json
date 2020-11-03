@@ -82,7 +82,8 @@
         "name": "absurd_value",
         "type": "string",
         "constraints": {
-        	"enum": ["fine", "absurd", "guess"]
+        	"enum": ["","fine", "absurd", "guess"]
+         },
         "description":	"Signals absurd values present in sources (absurd) and guess to replace them (guess) -- Signale des valeurs absurdes présentes dans les sources (absurd) et des propositions de remplacement (guess)"
       },
       {
@@ -104,7 +105,8 @@
         "name": "absurd_quantity",
         "type": "string",
         "constraints": {
-        	"enum": ["fine", "absurd", "guess"]
+        	"enum": ["","fine", "absurd", "guess"]
+         },
         "description":	"Signals absurd quantities present in sources (absurd) and guess to replace them (guess) -- Signale des quantités absurdes dans les source (absurd) et des propositions de remplacement (guess)"
       },  
       {
