@@ -5,7 +5,6 @@ import os
 from csv import DictReader, writer, DictWriter
 import re
 import json
-from unidecode import unidecode
 import collections
 import shutil
 import csv
@@ -55,7 +54,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
         for csv_file_name in filenames:
             filepath = os.path.join(dirpath, csv_file_name)
-            with open(filepath) as f:
+            with open(filepath, 'r', encoding='utf8') as f:
                 existing_files[filepath] = sum((1 for _ in f)) - 1
     if WRITE:
         shutil.rmtree(os.path.join(SOURCES_ROOT_DIR, 'sources'))
