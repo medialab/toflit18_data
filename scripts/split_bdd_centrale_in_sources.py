@@ -54,8 +54,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
         for csv_file_name in filenames:
             filepath = os.path.join(dirpath, csv_file_name)
-            with open(filepath, 'r', encoding='utf8') as f:
-                existing_files[filepath] = sum((1 for _ in f)) - 1
+            with open(filepath, 'r+', encoding='utf8') as f:
+                blouf=csv.DictReader(f)
+                existing_files[filepath] = sum((1 for _ in blouf)) - 1
     if WRITE:
         shutil.rmtree(os.path.join(SOURCES_ROOT_DIR, 'sources'))
     datapackage_resource_path = []
@@ -72,6 +73,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
             real_path = os.path.join(SOURCES_ROOT_DIR, filename)
             nb_lines_bdd_centrale = len(source_data)
             nb_lines_existing_file = existing_files[real_path] if real_path in existing_files else 0
+#           nb_lines_existing_file=0
             source_data = sorted(source_data, key=lines_key_sort)
 
             print("%s:%s>%s" % (filename, nb_lines_existing_file, nb_lines_bdd_centrale))
