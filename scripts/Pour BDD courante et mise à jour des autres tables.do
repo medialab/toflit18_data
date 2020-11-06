@@ -964,6 +964,8 @@ save "$dir/Données Stata/bdd courante", replace
  */
  *save "$dir/Données Stata/bdd courante.dta", replace
  
+ drop if absurd_value=="absurd" | absurd_quantity=="absurd"
+ 
  ************For best guesses
 *use "$dir/Données Stata/bdd courante.dta", replace
 
