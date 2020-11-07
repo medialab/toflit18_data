@@ -39,9 +39,10 @@ replace quantity=. if quantity==0
 rename value_minus_unit_val_x_qty value_minus_un_source
 gen value_minus_unit_val_x_qty = value-(value_per_unit*quantity)
 
-gen discr=abs(value_minus_unit_val_x_qty)/value
+gen diff=abs(value_minus_unit_val_x_qty)/value
+gen ln_diff=abs(ln(quantity*value_per_unit/value))
 
-gsort - discr
+gsort - ln_diff
 
 *******
 
@@ -49,7 +50,7 @@ gsort - discr
 
 replace value=. if computed_value==1
 replace value_per_unit = .  if computed_value_per_unit ==1
-drop discr value_minus_unit_val_x_qty computed_value_per_unit computed_value
+drop diff ln_diff value_minus_unit_val_x_qty computed_value_per_unit computed_value
 rename value_minus_un_source value_minus_unit_val_x_qty
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/bdd_centrale.csv", replace
