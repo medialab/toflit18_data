@@ -51,12 +51,12 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     data = sorted(data, key=sort_bdd_centrale)
     # list existing files and count lines
     existing_files = {}
-    for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
-        for csv_file_name in filenames:
-            filepath = os.path.join(dirpath, csv_file_name)
-            with open(filepath, 'r', encoding='utf8') as f:
-                blouf=csv.DictReader(f)
-                existing_files[filepath] = sum((1 for _ in blouf)) - 1
+ #    for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
+#         for csv_file_name in filenames:
+#             filepath = os.path.join(dirpath, csv_file_name)
+#             with open(filepath, 'r', encoding='utf8') as f:
+#                 blouf=csv.DictReader(f)
+#                 existing_files[filepath] = sum((1 for _ in blouf)) - 1
     if WRITE:
         shutil.rmtree(os.path.join(SOURCES_ROOT_DIR, 'sources'))
     datapackage_resource_path = []
