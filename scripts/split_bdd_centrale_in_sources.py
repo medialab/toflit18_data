@@ -54,7 +54,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
         for csv_file_name in filenames:
             filepath = os.path.join(dirpath, csv_file_name)
-            with open(filepath, 'r+', encoding='utf8') as f:
+            with open(filepath, 'r', encoding='utf8') as f:
                 blouf=csv.DictReader(f)
                 existing_files[filepath] = sum((1 for _ in blouf)) - 1
     if WRITE:
