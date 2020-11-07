@@ -44,6 +44,11 @@ gen ln_diff=abs(ln(quantity*value_per_unit/value))
 
 gsort - ln_diff
 
+order line_number-product value value quantity quantity_unit value_per_unit sheet remarks value_minus_un_source value_minus_unit_val_x_qty diff ln_diff 
+
+list year product value_per_unit quantity_unit if strmatch(product,"*itrons")==1 & strmatch(quantity_unit,"*illier*")==1 
+
+edit
 *******
 
 *Pour revenir : 
