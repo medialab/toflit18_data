@@ -71,7 +71,7 @@ list year product value_per_unit quantity_unit if strmatch(product,"*itrons")==1
 
 edit if absurd_value !="absurd"
 *******
-break
+blouf
 *********
 
 
