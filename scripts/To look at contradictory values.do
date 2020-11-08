@@ -16,7 +16,25 @@ if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
 cd "$dir"
 
 
-use "Données Stata/bdd_centrale.dta", clear
+import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
+destring quantity value_per_unit value, replace
+
+drop if source==""
+drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
+replace value=. if (value==0 & quantity !=. & quantity !=0)
+replace quantity=. if quantity==0
+
+
+**Je mets des majuscules à toutes les "product" de la source
+replace product = upper(substr(product,1,1))+substr(product,2,.)
+
+
+
+capture drop v24
+
 
 replace value=. if (value==0 & quantity !=. & quantity !=0)
 
@@ -44,20 +62,24 @@ gen ln_diff=abs(ln(quantity*value_per_unit/value))
 gen abs_diff=abs(value_minus_unit_val_x_qty)
 gsort - ln_diff
 gsort - abs_diff
+format abs_diff value quantity %15.2gc
 
 order line_number-product value value quantity quantity_unit value_per_unit sheet remarks value_minus_un_source value_minus_unit_val_x_qty diff ln_diff abs_diff
 
 
 list year product value_per_unit quantity_unit if strmatch(product,"*itrons")==1 & strmatch(quantity_unit,"*illier*")==1 
 
-edit
+edit if absurd_value !="absurd"
 *******
+break
+*********
+
 
 *Pour revenir : 
 
 replace value=. if computed_value==1
 replace value_per_unit = .  if computed_value_per_unit ==1
-drop diff ln_diff value_minus_unit_val_x_qty computed_value_per_unit computed_value
+drop diff ln_diff value_minus_unit_val_x_qty computed_value_per_unit computed_value abs_diff
 rename value_minus_un_source value_minus_unit_val_x_qty
 
 export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/bdd_centrale.csv", replace
