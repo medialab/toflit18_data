@@ -82,4 +82,12 @@ replace value_per_unit = .  if computed_value_per_unit ==1
 drop diff ln_diff value_minus_unit_val_x_qty computed_value_per_unit computed_value abs_diff
 rename value_minus_un_source value_minus_unit_val_x_qty
 
-export delimited using "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/bdd_centrale.csv", replace
+export delimited using "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
+
+cd "$dir/toflit18_data_GIT/scripts"
+
+python script "split_bdd_centrale_in_sources.py"
+
+python script "aggregate_sources_in_bdd_centrale.py"
+
+do "To create only BDD courante from classifications and bdd_centrale.do"
