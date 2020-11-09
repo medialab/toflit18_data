@@ -189,6 +189,7 @@ drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
 drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
 replace value=. if (value==0 & quantity !=. & quantity !=0)
+replace quantity=. if quantity==0
 
 
 **Je mets des majuscules à toutes les "product" de la source
@@ -958,11 +959,12 @@ save "$dir/Données Stata/bdd courante", replace
  *******************************************************************
  *use "$dir/Données Stata/bdd courante.dta", replace
  
- 
- ***Pour valeurs absurdes
+ /*
+ ***Pour valeurs absurdes -- C’est maintenant dans les sources
  do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
- 
+ */
  *save "$dir/Données Stata/bdd courante.dta", replace
+ 
  
  ************For best guesses
 *use "$dir/Données Stata/bdd courante.dta", replace
@@ -1022,6 +1024,12 @@ replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) &
 				& quantity!=0 & quantity!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
 replace value_per_unit = value/quantity  if computed_value_per_unit ==1
 
+destring value_minus_unit_val_x_qty, replace
+rename value_minus_unit_val_x_qty value_minus_un_source
+gen value_minus_unit_val_x_qty = value-(value_per_unit*quantity)
+
+
+
 
 
 
@@ -1046,6 +1054,7 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 
 drop if source_type=="Out"
+drop if absurd_value=="absurd" | absurd_quantity=="absurd"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
 		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)

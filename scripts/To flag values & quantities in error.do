@@ -38,7 +38,7 @@ replace absurd_value=1 if tax_department=="Bordeaux" & year==1770 & export_impor
 */
 
 
-****D'après Torsten, email juin 2018
+****D'après Torsten, email juin 2018 --- Mis dans la source
 
 replace absurd_value=1 if tax_department=="Bordeaux" & year==1766 & export_import=="Exports" ////
 			& (partner_simplification =="Nord" | partner_simplification =="Italie" | partner_simplification =="Hollande") ///
