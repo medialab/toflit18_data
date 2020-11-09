@@ -1,6 +1,6 @@
-capture ssc install missings
+*capture ssc install missings
 
- version 15.1
+ *version 15.1
 
  
 **pour mettre les bases dans stata + mettre à jour les .csv
@@ -60,23 +60,23 @@ foreach file in classification_partner_orthographic classification_partner_simpl
  
 }
 
-foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
+*foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
 			"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
 	
-	use "`file'", clear
-	foreach variable of var * {
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
-		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
-		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-		capture replace `variable'  =usubinstr(`variable',"’","'",.)
-		capture	replace `variable'  =ustrtrim(`variable')
-	}
-	replace product = ustrupper(usubstr(product,1,1),"fr")+usubstr(product,2,.)
-	save "`file'", replace
-}
+*	use "`file'", clear
+*	foreach variable of var * {
+*		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+*		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+*		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
+*		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
+*		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
+*		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
+*		capture replace `variable'  =usubinstr(`variable',"’","'",.)
+*		capture	replace `variable'  =ustrtrim(`variable')
+*	}
+*	replace product = ustrupper(usubstr(product,1,1),"fr")+usubstr(product,2,.)
+*	save "`file'", replace
+*}
 
 
 
@@ -155,16 +155,16 @@ zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_da
 
 ****************************BDD courante
 
-use "bdd_centrale.dta", clear
+use "Données Stata/bdd_centrale.dta", clear
 
 
-merge m:1 tax_department using "bdd_tax_departments.dta"
+merge m:1 tax_department using "Données Stata/bdd_tax_departments.dta"
 drop if _merge==2
 rename tax_department tax_department_origin
 rename tax_department_simpl tax_department
 drop _merge nbr_occurence
 
-merge m:1 origin using "bdd_origin.dta"
+merge m:1 origin using "Données Stata/bdd_origin.dta"
 drop if _merge==2
 rename origin origin_origin
 rename origin_norm_ortho origin
@@ -173,13 +173,13 @@ drop _merge nbr_occurence
 
 rename source source_doc
 rename partner source
-merge m:1 source using "classification_partner_orthographic.dta"
+merge m:1 source using "Données Stata/classification_partner_orthographic.dta"
 rename source partner
 rename source_doc source
 drop if _merge==2
 drop note-_merge
 
-merge m:1 orthographic using "classification_partner_simplification.dta"
+merge m:1 orthographic using "Données Stata/classification_partner_simplification.dta"
 drop if _merge==2
 
 
@@ -188,7 +188,7 @@ drop note-_merge
 foreach class_name in grouping obrien ///
 			sourcename wars africa {
 
-	merge m:1 simplification using "classification_partner_`class_name'.dta"
+	merge m:1 simplification using "Données Stata/classification_partner_`class_name'.dta"
 	drop if _merge==2
 	drop note-_merge
 	rename `class_name' partner_`class_name'
@@ -200,14 +200,14 @@ rename orthographi partner_orthographic
 
 rename source source_doc
 rename product source
-merge m:1 source using "classification_product_orthographic.dta"
+merge m:1 source using "Données Stata/classification_product_orthographic.dta"
 rename source product
 rename source_doc source
 drop if _merge==2
 drop note-_merge
 
 
-merge m:1 orthographic using "classification_product_simplification"
+merge m:1 orthographic using "Données Stata/classification_product_simplification"
 drop if _merge==2
 drop nbr_occure* _merge
 rename orthographic  product_orthographic
@@ -219,7 +219,7 @@ foreach class_name in sitc edentreaty ///
 				v_glass_beads revolutionempire beaver ///
 				type_textile luxe_dans_type luxe_dans_SITC {
 
-	merge m:1 simplification using "classification_product_`class_name'.dta"
+	merge m:1 simplification using "Données Stata/classification_product_`class_name'.dta"
 	drop if _merge==2
 	drop nbr_occure* _merge
 	capture drop obsolete
@@ -235,7 +235,7 @@ rename simplification product_simplification
 
 rename product_sitc sitc
 foreach class_name in sitc_FR sitc_EN sitc_simplEN {
-	merge m:1 sitc using "classification_product_`class_name'.dta"
+	merge m:1 sitc using "Données Stata/classification_product_`class_name'.dta"
 	drop if _merge==2
 	drop _merge
 	rename `class_name' product_`class_name'
@@ -244,7 +244,7 @@ rename sitc product_sitc
 
 foreach class_name in RE_aggregate threesectors threesectorsM {
 	rename product_revolutionempire revolutionempire
-	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
+	merge m:1 revolutionempire using "Données Stata/classification_product_`class_name'.dta"
 	rename revolutionempire product_revolutionempire
 	drop nbr_occure*
 	drop if _merge==2
