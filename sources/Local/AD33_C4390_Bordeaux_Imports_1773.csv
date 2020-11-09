@@ -187,7 +187,7 @@ line_number,source_type,year,tax_department,tax_office,partner,export_import,pro
 186,Local,1773,Bordeaux,,Suede,Imports,Soliveaux,,,5400,,180,Nombre,30,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,4,,,,,Demba,,,0,,,,,,,,,,
 187,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Bois d'acajou en madriers,,,3300,,66,nombre,50,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,4,,,,,Demba,,,0,,,,,,,,,,
 188,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Bois de brezil,,,2495.25,,9981,Livres,.25,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,,0,,,,,,,,,,
-189,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Bois de campeche,,,2223120,,277890,Livres,.08,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,erreur de calcul,2200888.8,,,,,,,,,,
+189,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Bois de campeche,,,222312,,277890,Livres,.08,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,erreur de calcul -- prix unitaire ok (un peu faible) -- quantités ok je corrige la valeur (en enlevant un zéro) GD,2200888.8,,,,,,,,,,
 190,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Cacao,,,85403.45,,155279,Livres,.55,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,,0,,,,,,,,,,
 191,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Caffé,,,14596881.75,,19462509,Livres,.75,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,,0,,,,,,,,,,
 192,Local,1773,Bordeaux,,Isles françoise de l' Amerique,Imports,Carret,,,27270,,3030,Livres,9,sources/Local/AD33_C4390_Bordeaux_Imports_1773.csv,AD33 C4390,5,,,,,Demba,,,0,,,,,,,,,,
