@@ -164,60 +164,33 @@ drop max_value tag
 *** isolate grains (Rq : il faut faire le fillin avant !)
 drop if product_grains=="Pas grain (0)"
 drop if product_grains=="."
-encode product_grains, generate(grains_num)
+encode product_grains, generate(grains_num)label(grains)
 
 *********************************************Fin de la préparation des données
-***create sum of locals and variables giving number of directions (same for imports and exports in every year except 1789)
-collapse (sum) value, by(year importexport natlocal)
-save national_temp.dta, replace
-drop if natlocal=="National"
-
-egen n_directions=nvals(natlocal), by(year)
-*** deal with 1789
-*gen n_directions=doublen_directions/2
-
-collapse (sum) value, by(year importexport n_directions)
-append using national_temp.dta
-erase national_temp.dta
-
-keep if natlocal==""| natlocal=="National"
-**** redistribute
-save national_temp.dta
-drop if natlocal=="National"
-rename value local_total
-save local_temp.dta, replace
-use national_temp.dta, clear
-drop if natlocal!="National"
-drop n_directions
-merge 1:1 year importexport using local_temp.dta
-****
-sort year importexport
+***period var
+gen period=1
+replace period=2 if year>1749 & year<1790
+replace period=3 if year>1789
+***drop local post 1749
+drop if natlocal!="National" & year>1749
+*** compute total value_inclusive by year
+bys period importexport : egen total_trade = total(value)
 
 
-***
-drop natlocal
-drop _merge
+*** aggregate by: country, importexport, year
+collapse (sum) value, by (total_trade importexport grains_num period)
+*** ratio of grains on total import or export
+bys importexport grains_num  period: generate g_ratio = (value/total_trade)*100
+drop total_trade value
+*** reshape
+*reshape wide value_inclusive total_trade country_ratio, i(year grouping_classification source_type_encode) j(importexport)
+reshape wide g_ratio, i( grains_num  period) j(importexport)
+rename g_ratio0 import
+rename g_ratio1 export
 
-***reshape import and export
-reshape wide value local_total, i(year n_directions) j(importexport)
-rename value1 export
-rename value0 import
-rename local_total0 local_import
-rename local_total1 local_export
-replace year=1806 if year==1805.75
+sort period grains_num 
 
 
-
-
-tsset year
-tsfill
-* graph for geography == national
-
-twoway (line import year , yaxis(1) ) (line export year , yaxis(1)) (line local_import year , yaxis(1) ) (line local_export year , yaxis(1)) (scatter n_directions year, yaxis(2))
-***generate net export
-gen netexport=export-import
-gen local_netexport=local_export-local_import
-twoway (line netexport year , yaxis(1) ) (line local_netexport year if year<1754 | year>1760&year<1768, yaxis(1)) 
 
 
 
