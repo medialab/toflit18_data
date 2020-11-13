@@ -60,26 +60,6 @@ foreach file in classification_partner_orthographic classification_partner_simpl
  
 }
 
-foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
-			"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
-	
-	use "`file'", clear
-	foreach variable of var * {
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
-		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
-		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-		capture replace `variable'  =usubinstr(`variable',"’","'",.)
-		capture	replace `variable'  =ustrtrim(`variable')
-	}
-	replace product = ustrupper(usubstr(product,1,1),"fr")+usubstr(product,2,.)
-	save "`file'", replace
-}
-
-
-
 
 use "Données Stata/classification_quantityunit_simplification.dta", clear
 replace conv_orthographic_to_simplificat  =usubinstr(conv_orthographic_to_simplificat,",",".",.)
