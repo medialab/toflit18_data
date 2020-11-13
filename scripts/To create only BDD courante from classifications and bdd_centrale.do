@@ -7,6 +7,7 @@ capture ssc install missings
 ** version 2 : pour travailler avec la nouvelle organisation
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+global dir_git "$dir/toflit18_data_GIT"
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
@@ -40,7 +41,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
 */				 classification_product_threesectorsM	{
 
-	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
+	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
 
 	foreach variable of var * {
@@ -76,7 +77,9 @@ destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 
 
-import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+unzipfile "$dir_git/base/bdd_centrale.csv.zip", replace
+
+import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -126,8 +129,8 @@ capture drop v24
 
 
 save "Données Stata/bdd_centrale.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
+export delimited "$dir_git/base/bdd_centrale.csv", replace
+zipfile "$dir_git/base/bdd_centrale.csv", saving("$dir_git/base/bdd_centrale.csv.zip", replace)
 
 */
 
@@ -298,7 +301,7 @@ drop if _merge==2
  sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
- export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
+ export delimited "$dir_git/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
@@ -337,7 +340,7 @@ save "$dir/Données Stata/bdd courante", replace
  
  /*
  ***Pour valeurs absurdes -- C’est maintenant dans les sources
- do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
+ do "$dir_git/scripts/To flag values & quantities in error.do"
  */
  *save "$dir/Données Stata/bdd courante.dta", replace
  
@@ -416,8 +419,8 @@ order line_number source_type year tax_department partner partner_orthographic e
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
  
-export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
-*export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir_git/base/bdd courante_avec_out.csv", replace
+*export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
@@ -425,9 +428,9 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 
 drop if source_type=="Out"
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
-		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
+export delimited "$dir_git/base/bdd courante.csv", replace
+zipfile "$dir_git/base/bdd courante.csv", /*
+		*/ saving("$dir_git/base/bdd courante.csv.zip", replace)
 drop if source_type=="Out"
 save "$dir/Données Stata/bdd courante.dta", replace
 
