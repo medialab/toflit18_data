@@ -440,8 +440,8 @@ sort source_type tax_department year export_import line_number
 order line_number source_type year tax_department partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
- 
-export delimited "$dir_git/base/bdd courante_avec_out.csv", replace
+cd "$dir_git/base"
+export delimited "bdd courante_avec_out.csv", replace
 *export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 save "$dir/Données Stata/bdd courante_avec_out.dta", replace
