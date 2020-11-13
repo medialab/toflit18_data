@@ -130,12 +130,12 @@ capture drop v24
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir_git/base/bdd_centrale.csv", replace
-zipfile "$dir_git/base/bdd_centrale.csv", saving("$dir_git/base/bdd_centrale.csv.zip", replace)
+*zipfile "$dir_git/base/bdd_centrale.csv", saving("$dir_git/base/bdd_centrale.csv.zip", replace)
 
 */
 
 
-
+cd "$dir/Données Stata"
 ****************************BDD courante
 
 use "bdd_centrale.dta", clear
