@@ -204,7 +204,8 @@ capture drop v24
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
+cd "$dir/toflit18_data_GIT/base"
+zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
 */
 
