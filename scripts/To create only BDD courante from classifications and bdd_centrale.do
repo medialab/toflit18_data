@@ -6,12 +6,17 @@ capture ssc install missings
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
-global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
-global dir_git "$dir/toflit18_data_GIT"
+if "`c(username)'" =="guillaumedaudin" {
+	global dir ~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+	global dir_git "$dir/toflit18_data_GIT"
+}
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
-if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
+if "`c(username)'"=="Tirindelli"{
+	global dir "/Users/Tirindelli/Google Drive/Hamburg"
+	global dir_git "$dir/toflit18_data"
+}
 
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
 
@@ -43,7 +48,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 
 	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
-
+/*
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -54,7 +59,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 		capture replace `variable'  =usubinstr(`variable',"’","'",.)
 		capture	replace `variable'  =ustrtrim(`variable')
 	}
-
+*/
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/`file'.dta", replace
@@ -76,10 +81,26 @@ replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,
 destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 
+cd "$dir_git/base"
+unzipfile "bdd_centrale.csv.zip", replace
 
-unzipfile "$dir_git/base/bdd_centrale.csv.zip", replace
+if "`c(username)'" !="guillaumedaudin"{
+	cd "$dir_git/base/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/"
+	import delimited "bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
+	cd "$dir_git/base/"
+*	erase "Users"
+} 
+else import delimited "$dir_git/base/basebdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
 
-import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+/*
+gen str2000 partnershort=partner
+drop partner
+rename partnershort partner
+*/
+
+compress *
+
+/*
 foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -108,6 +129,7 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 	replace `variable' ="" if missing(real(`variable')) & `variable' != ""
 }
 
+*/
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
 destring quantity value_per_unit value, replace
@@ -126,7 +148,7 @@ replace product = upper(substr(product,1,1))+substr(product,2,.)
 capture drop v24
 
 
-
+cd "$dir"
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir_git/base/bdd_centrale.csv", replace
