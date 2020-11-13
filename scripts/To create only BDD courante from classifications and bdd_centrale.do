@@ -7,7 +7,7 @@ capture ssc install missings
 ** version 2 : pour travailler avec la nouvelle organisation
 
 if "`c(username)'" =="guillaumedaudin" {
-	global dir ~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+	global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 	global dir_git "$dir/toflit18_data_GIT"
 }
 
@@ -90,7 +90,7 @@ if "`c(username)'" !="guillaumedaudin"{
 	cd "$dir_git/base/"
 *	erase "Users"
 } 
-else import delimited "$dir_git/base/basebdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
+else import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
 
 /*
 gen str2000 partnershort=partner
