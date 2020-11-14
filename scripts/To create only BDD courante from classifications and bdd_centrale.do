@@ -84,12 +84,14 @@ save "Données Stata/classification_quantityunit_metric2.dta", replace
 cd "$dir_git/base"
 unzipfile "bdd_centrale.csv.zip", replace
 
+
 if "`c(username)'" !="guillaumedaudin"{
 	cd "$dir_git/base/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/"
 	import delimited "bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
 	cd "$dir_git/base/"
 *	erase "Users"
 } 
+
 else import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
 
 /*
