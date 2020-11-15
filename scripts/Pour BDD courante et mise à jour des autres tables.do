@@ -1015,9 +1015,14 @@ drop year_CN
 *use "$dir/Données Stata/bdd courante.dta", clear
 
 generate byte computed_value = 0
+**On donne la priorité aux valeurs calculées quand c’est possible : il y a beacoup d’erreurs de calcul dans les sources
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+generate value_as_reported = value
 replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
 replace value = quantity*value_per_unit if computed_value==1
+replace value = quantity*value_per_unit if quantity*value_per_unit !=.
+replace computed_value=1 if value != value_as_reported
+
 
 gen byte computed_value_per_unit = 0
 label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
@@ -1035,7 +1040,7 @@ replace quantity = value/value_per_unit  if computed_quantity ==1
 
 destring value_minus_unit_val_x_qty, replace
 rename value_minus_unit_val_x_qty value_minus_un_source
-gen value_minus_unit_val_x_qty = value-(value_per_unit*quantity)
+gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
 
 
 
