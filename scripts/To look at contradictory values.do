@@ -85,9 +85,9 @@ rename value_minus_un_source value_minus_unit_val_x_qty
 export delimited using "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
 
 cd "$dir/toflit18_data_GIT/scripts"
-
 python script "split_bdd_centrale_in_sources.py"
 
+cd "$dir/toflit18_data_GIT/scripts"
 python script "aggregate_sources_in_bdd_centrale.py"
 
 /*
