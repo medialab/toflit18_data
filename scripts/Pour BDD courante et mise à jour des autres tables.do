@@ -1065,9 +1065,9 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 drop if source_type=="Out"
 drop if absurd_value=="absurd" | absurd_quantity=="absurd"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
-		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
-drop if source_type=="Out"
+
+cd "$dir/toflit18_data_GIT/base/"
+zipfile "bdd courante.csv", saving("bdd courante.csv.zip", replace)
 save "$dir/Données Stata/bdd courante.dta", replace
 
 

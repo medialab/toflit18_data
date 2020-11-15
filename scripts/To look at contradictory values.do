@@ -90,4 +90,13 @@ python script "split_bdd_centrale_in_sources.py"
 
 python script "aggregate_sources_in_bdd_centrale.py"
 
-do "To create only BDD courante from classifications and bdd_centrale.do"
+/*
+À faire si le programme suivant dépend du fichier zip !
+
+
+cd "$dir/toflit18_data_GIT/base"
+zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
+
+cd "$dir/toflit18_data_GIT/scripts"
+*/
+do "Pour BDD courante et mise à jour des autres tables.do"
