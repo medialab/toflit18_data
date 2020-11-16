@@ -21,10 +21,10 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 ?ufs,?ufs,,0,0,0,0,0,0,0,0,0,0
 ... d'Argents,... d'argent,,1,1,0,0,0,0,0,0,1,1
 ...caille de Tortue,écaille de tortue,,1,6,0,0,0,0,0,0,1,6
-...copes,écope,,1,1,0,0,0,0,0,0,1,1
+...copes,écope,,0,0,0,0,0,0,0,0,0,0
 ...gouttoir à Fondre,égouttoirs à fondre,,1,1,0,0,0,0,0,0,1,1
 ...Licanes,licanias,,1,1,0,0,0,0,0,0,1,1
-...pars,espars,,1,6,0,0,0,0,0,0,1,6
+...pars,espars,,1,5,0,0,0,0,0,0,1,5
 ...pars de Sapin,espars de sapin,,1,1,0,0,0,0,0,0,1,1
 ...parts,espars,,1,1,0,0,0,0,0,0,1,1
 ...pice,épice,,1,1,0,0,0,0,0,0,1,1
@@ -32,7 +32,7 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 ...pice Douce,épice douce,,1,1,0,0,0,0,0,0,1,1
 ...tain,étain,,1,2,0,0,0,0,0,0,1,2
 ...tain en bloc,étain en bloc,,1,2,0,0,0,0,0,0,1,2
-...tain Ouvre,étain ouvré,,1,3,0,0,0,0,0,0,1,3
+...tain Ouvre,étain ouvré,,1,2,0,0,0,0,0,0,1,2
 ...tain vieux,étain vieux,,1,2,0,0,0,0,0,0,1,2
 ...tains vieux,étain vieux,,1,1,0,0,0,0,0,0,1,1
 ...tamine,étamine,,1,1,0,0,0,0,0,0,1,1
@@ -61,7 +61,6 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 ///Articles réunis///D'une valeur moindre de 2000 fr chacun,articles réunis d'une valeur moindre de 2000 francs chacun,,1,63,0,0,0,0,0,0,1,63
 ///Articles réunis///D'une valeur moindre de 2000 francs chacun,articles réunis d'une valeur moindre de 2000 francs chacun,,1,42,0,0,0,0,0,0,1,42
 ///Betes de somme///Anes,bêtes de somme ânes,,1,1,0,0,0,0,0,0,1,1
-///Bêtes de Somme///Anes,bêtes de somme ânes,,0,0,0,0,0,0,0,0,0,0
 ///Betes de somme///Chevaux,bêtes de somme chevaux,,1,8,0,0,0,0,0,0,1,8
 ///Bêtes de Somme///Chevaux,bêtes de somme chevaux,,1,6,0,0,0,0,0,0,1,6
 ///Betes de somme///Cheveaux,bêtes de somme chevaux,,1,7,0,0,0,0,0,0,1,7
@@ -96,7 +95,6 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 ///Drogues médicinales///Séné,drogues médicinales séné,,1,3,0,0,0,0,0,0,1,3
 ///Drogues Médicinales///Séné,drogues médicinales séné,,1,4,0,0,0,0,0,0,1,4
 ///Drogues midicinales///Drogues réunies,drogues médicinales drogues réunies,,1,11,0,0,0,0,0,0,1,11
-///Drogues midicinales///Ipécacuanha,drogues médicinales ipécacuanha,,0,0,0,0,0,0,0,0,0,0
 ///Drogues midicinales///Jus de réglisse,drogues médicinales jus de réglisse,,1,3,0,0,0,0,0,0,1,3
 ///Drogues midicinales///Manne,drogues médicinales manne,,1,3,0,0,0,0,0,0,1,3
 ///Drogues midicinales///Quinquina,drogues médicinales quinquina,,1,2,0,0,0,0,0,0,1,2
@@ -589,7 +587,7 @@ Agneaux,agneaux,,1,87,0,0,0,0,0,0,1,87
 Agneaux en vie,agneaux en vie,,1,5,0,0,0,0,0,0,1,5
 Agneaux et cabrits,agneaux et cabris,,0,0,0,0,0,0,0,0,0,0
 Agnelines et crottelins,agnelines et crottelins,,0,0,0,0,0,0,0,0,0,0
-Agnelins et crottelins,,,0,0,1,36,0,0,0,0,1,36
+Agnelins et crottelins,agnelins et crottelins,,0,0,1,36,0,0,0,0,1,36
 Agobilles,agobille,,0,0,0,0,0,0,1,1,1,1
 Agourats de bois,agoutals de bois,,1,1,0,0,0,0,0,0,1,1
 Agoutals,agoutals,,1,3,0,0,0,0,0,0,1,3
@@ -1436,7 +1434,7 @@ Armes ; à feu ; pistolets,armes à feu pistolets,,1,9,0,0,0,0,0,0,1,9
 Armes ; à feu ; Pistolets,armes à feu pistolets,,1,1,0,0,0,0,0,0,1,1
 Armes ; a feu en fusils,armes à feu fusils,,1,5,0,0,0,0,0,0,1,5
 Armes ; à feu en fusils,armes à feu fusils,,1,15,0,0,0,0,0,0,1,15
-Armes ; à feu en paires de pistolets,,,1,1,0,0,0,0,0,0,1,1
+Armes ; à feu en paires de pistolets,armes à feu en paires de pistolets,,1,1,0,0,0,0,0,0,1,1
 Armes ; a feu fusils,armes à feu fusils,,1,2,0,0,0,0,0,0,1,2
 Armes ; a feu Fusils,armes à feu fusils,,1,3,0,0,0,0,0,0,1,3
 Armes ; a feu Fusils de traite,armes à feu fusils de traite,,1,1,0,0,0,0,0,0,1,1
@@ -4102,7 +4100,8 @@ Bois,bois,,1,1,0,0,1,1143,1,252,3,1396
 "Bois , de sandal",bois de santal,,1,1,0,0,0,0,0,0,1,1
 "Bois , fustel",bois de fustel,,1,4,0,0,0,0,0,0,1,4
 "Bois , scié",bois scié,,1,2,0,0,0,0,0,0,1,2
-Bois ; ; mairin; a Bariques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Bois ; ; mairin; a Bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; ; mairin; a Bariques en douelles,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Bois ; ?,bois ???,,1,5,0,0,0,0,0,0,1,5
 Bois ; ? ; de chêne,bois ??? de chêne,,1,2,0,0,0,0,0,0,1,2
 Bois ; ??,bois ???,,1,2,0,0,0,0,0,0,1,2
@@ -4110,8 +4109,9 @@ Bois ; à balis,bois à barils,,1,1,0,0,0,0,0,0,1,1
 Bois ; a banquiere,bois à banquière,,1,1,0,0,0,0,0,0,1,1
 Bois ; à baril,bois à barils,,1,7,0,0,0,0,0,0,1,7
 Bois ; à barils,bois à barils,,1,6,0,0,0,0,0,0,1,6
-Bois ; a bariques,bois à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; a bariques,bois à barriques,,0,0,0,0,0,0,0,0,0,0
 Bois ; a bariques douëlles,bois à barriques douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; a bariques en douelles,bois à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; à barits,bois à barils,,1,1,0,0,0,0,0,0,1,1
 Bois ; a barrils ; a fonds,bois à barils à fond,,1,1,0,0,0,0,0,0,1,1
 Bois ; a barrils ; long,bois à barils long,,1,1,0,0,0,0,0,0,1,1
@@ -4163,7 +4163,7 @@ Bois ; a faire meubles,bois à faire meubles,,1,3,0,0,0,0,0,0,1,3
 Bois ; à faire sommier,bois à faire sommiers,,1,2,0,0,0,0,0,0,1,2
 Bois ; a faire tamis,bois à faire tamis,,1,1,0,0,0,0,0,0,1,1
 Bois ; à faureau d'Epée,bois à fourreaux d'épée,,1,1,0,0,0,0,0,0,1,1
-Bois ; a fonds,bois à fond,,1,2,0,0,0,0,0,0,1,2
+Bois ; a fonds,bois à fonds,,1,2,0,0,0,0,0,0,1,2
 Bois ; à foureau ; d'épée,bois à fourreaux d'épée,,1,1,0,0,0,0,0,0,1,1
 Bois ; a fourreaux d'épée,bois à fourreaux d'épée,,1,1,0,0,0,0,0,0,1,1
 Bois ; a fre Sommier,bois à faire sommiers,,1,1,0,0,0,0,0,0,1,1
@@ -4180,12 +4180,15 @@ Bois ; a meubler,bois à meubles en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois ; a meubler en madriers,bois à meubler en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois ; à meubles,bois à meubles,,1,12,0,0,0,0,0,0,1,12
 Bois ; a parquet,bois à parquet,,1,1,0,0,0,0,0,0,1,1
-Bois ; a pipe,bois à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; a pipes,bois à pipes,,1,6,0,0,0,0,0,0,1,6
+Bois ; a pipe,bois à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; a pipe en douelles,bois à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; a pipes,bois à pipes,,1,4,0,0,0,0,0,0,1,4
 Bois ; a pipes douëlles,bois à pipes douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; a pipes en douelles,bois à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois ; a poincons,bois à poinçon,,1,1,0,0,0,0,0,0,1,1
-Bois ; a quart,bois à quart,,1,1,0,0,0,0,0,0,1,1
-Bois ; a quarts,bois à quart,,1,1,0,0,0,0,0,0,1,1
+Bois ; a quart,bois à quarts,,0,0,0,0,0,0,0,0,0,0
+Bois ; a quart en douelles,bois à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; a quarts,bois à quarts,,1,1,0,0,0,0,0,0,1,1
 Bois ; a tamis,bois à tamis,,1,6,0,0,0,0,0,0,1,6
 Bois ; à tamis,bois à tamis,,1,10,0,0,0,0,0,0,1,10
 Bois ; à tapis,bois à tapis,,1,1,0,0,0,0,0,0,1,1
@@ -4233,10 +4236,11 @@ Bois ; Boissellerie,bois boissellerie,,1,1,0,0,0,0,0,0,1,1
 Bois ; bordage,bois bordage,,1,5,0,0,0,0,0,0,1,5
 Bois ; bordage de chesne,bois bordage de chêne,,1,2,0,0,0,0,0,0,1,2
 Bois ; bordages,bois bordage,,1,31,0,0,0,0,0,0,1,31
-Bois ; Bordages,bois bordage,,1,7,0,0,0,0,0,0,1,7
+Bois ; Bordages,bois bordage,,1,6,0,0,0,0,0,0,1,6
 Bois ; bordages ; de chesne,bois bordage de chêne,,1,3,0,0,0,0,0,0,1,3
 Bois ; bordages ; de sapin,bois bordage de sapin,,1,3,0,0,0,0,0,0,1,3
 Bois ; bordages de chesne,bois bordage de chêne,,1,1,0,0,0,0,0,0,1,1
+Bois ; Bordages en douelles,bois bordage en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; bourdille,bois bourdilles,,1,3,0,0,0,0,0,0,1,3
 Bois ; bourdilles,bois bourdilles,,1,14,0,0,0,0,0,0,1,14
 Bois ; bourdilleu,bois bourdillons,,1,1,0,0,0,0,0,0,1,1
@@ -4465,7 +4469,7 @@ Bois ; de charpente; couverture de maison,bois de charpente couvertures de maiso
 Bois ; de Charpentes,bois de charpente,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chataignier,bois de châtaigner,,1,2,0,0,0,0,0,0,1,2
 Bois ; de chene,bois de chêne,,1,7,0,0,0,0,0,0,1,7
-Bois ; de Chéne,bois de chêne,,1,1,0,0,0,0,0,0,1,1
+Bois ; de Chéne,bois de chêne,,0,0,0,0,0,0,0,0,0,0
 Bois ; de chêne,bois de chêne,,1,18,0,0,0,0,0,0,1,18
 Bois ; de chêne ; à poutre,bois de chêne à poutres,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chêne ; à somier,bois de chêne à sommiers,,1,2,0,0,0,0,0,0,1,2
@@ -4474,14 +4478,16 @@ Bois ; de chêne ; en planches,bois de chêne en planches,,1,4,0,0,0,0,0,0,1,4
 Bois ; de chêne ; scié,bois de chêne scié,,1,2,0,0,0,0,0,0,1,2
 Bois ; de chêne : pour construction,bois de chêne pour construction,,1,3,0,0,0,0,0,0,1,3
 Bois ; de chene chevrons,bois de chêne chevrons,,1,1,0,0,0,0,0,0,1,1
+Bois ; de Chéne en douelles,bois de chêne en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chêne; pour construction,bois de chêne pour construction,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chesne,bois de chêne,,1,56,0,0,0,0,0,0,1,56
-Bois ; de Chesne,bois de chêne,,1,5,0,0,0,0,0,0,1,5
+Bois ; de Chesne,bois de chêne,,1,4,0,0,0,0,0,0,1,4
 Bois ; de chesne ; suivant la longueur,bois de chêne suivant la longueur,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chesne de 30 pieds,bois de chêne de 30 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chesne en bouts,bois de chêne en bouts,,1,2,0,0,0,0,0,0,1,2
 Bois ; de chesne en bûches,bois de chêne en bûches,,1,1,0,0,0,0,0,0,1,1
 Bois ; de Chesne en bûches,bois de chêne en bûches,,1,1,0,0,0,0,0,0,1,1
+Bois ; de Chesne en douelles,bois de chênes en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; de chesne en madriers,bois de chêne en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois ; de Chesne en madriers,bois de chêne en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois ; de Chesne en morceaux,bois de chêne en morceaux,,1,1,0,0,0,0,0,0,1,1
@@ -4601,8 +4607,9 @@ Bois ; de menisier en madrier,bois de merisier en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois ; de menuiserie,bois de menuiserie,,1,8,0,0,0,0,0,0,1,8
 Bois ; De menuiserie,bois de menuiserie,,1,3,0,0,0,0,0,0,1,3
 Bois ; de merain,bois de merrains,,1,4,0,0,0,0,0,0,1,4
-Bois ; de merrain,bois de merrains,,1,3,0,0,0,0,0,0,1,3
-Bois ; de merrain a fond,bois de merrains à fond,,1,1,0,0,0,0,0,0,1,1
+Bois ; de merrain,bois de merrains,,1,1,0,0,0,0,0,0,1,1
+Bois ; de merrain a fond,bois de merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois ; de merrain en douelles,bois de merrains en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois ; De merrains,bois de merrains,,1,5,0,0,0,0,0,0,1,5
 Bois ; de meubles,bois de meubles,,1,1,0,0,0,0,0,0,1,1
 Bois ; de N marthe,bois de Sainte-Marthe,,1,1,0,0,0,0,0,0,1,1
@@ -4669,13 +4676,14 @@ Bois ; de Sap,bois de sap,,1,1,0,0,0,0,0,0,1,1
 Bois ; de sapan,bois de sappan,,1,21,0,0,0,0,0,0,1,21
 Bois ; de Sapan,bois de sappan,,1,2,0,0,0,0,0,0,1,2
 Bois ; de sapan en bûches,bois de sapin en bûches,,1,1,0,0,0,0,0,0,1,1
-Bois ; de sapin,bois de sapin,,1,49,0,0,0,0,0,0,1,49
+Bois ; de sapin,bois de sapin,,1,47,0,0,0,0,0,0,1,47
 Bois ; de Sapin,bois de sapin,,1,7,0,0,0,0,0,0,1,7
 Bois ; de sapin ; divers,bois de sapin divers,,0,0,0,0,0,0,0,0,0,0
 Bois ; de sapin ; en planches,bois de sapin en planches,,1,24,0,0,0,0,0,0,1,24
 Bois ; de sapin ; en planches ; petites,bois de sapin en planches petites,,0,0,0,0,0,0,0,0,0,0
 Bois ; de sapin ; mats et vergues,bois de sapin mâts et vergues,,0,0,0,0,0,0,0,0,0,0
 Bois ; de Sapin de 20 pieds,bois de sapin de 20 pieds,,1,1,0,0,0,0,0,0,1,1
+Bois ; de sapin en douelles,bois de sapin en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois ; de sapin en planches,bois de sapin en planches,,1,3,0,0,0,0,0,0,1,3
 Bois ; de Sapin en Soliveaux,bois de sapin en soliveaux,,1,1,0,0,0,0,0,0,1,1
 Bois ; De sapins,bois de sapin,,1,13,0,0,0,0,0,0,1,13
@@ -4769,7 +4777,7 @@ Bois ; des Isles et des Indes ; jaune,bois des Îles et des Indes jaune,,0,0,0,0
 Bois ; des Isles et des Indes ; rouge,bois des Îles et des Indes rouge,,0,0,0,0,0,0,0,0,0,0
 Bois ; des marthe,bois de Sainte-Marthe,,1,1,0,0,0,0,0,0,1,1
 Bois ; dinde rapé,bois des Indes râpé,,1,1,0,0,0,0,0,0,1,1
-Bois ; dit a fonds,bois dit à fond,,1,1,0,0,0,0,0,0,1,1
+Bois ; dit a fonds,bois dit à fonds,,1,1,0,0,0,0,0,0,1,1
 Bois ; divers,bois divers,,1,64,0,0,0,0,0,0,1,64
 Bois ; Divers,bois divers,,1,11,0,0,0,0,0,0,1,11
 Bois ; divers ; de construction,bois divers de construction,,1,11,0,0,0,0,0,0,1,11
@@ -4900,125 +4908,168 @@ Bois ; jonquette,bois jonquette,,1,1,0,0,0,0,0,0,1,1
 Bois ; Liége ; en planches,bois liège en planches,,1,1,0,0,0,0,0,0,1,1
 "Bois ; Liége ; ouvré, en bouchons, etc",bois liège en bouchons etc.,,1,1,0,0,0,0,0,0,1,1
 Bois ; long,bois long,,1,1,0,0,0,0,0,0,1,1
-Bois ; mairin,bois merrains,,1,2,0,0,0,0,0,0,1,2
-Bois ; mairin a barique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; mairin,bois merrains,,1,1,0,0,0,0,0,0,1,1
+Bois ; mairin a barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; mairin a barique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; mairin a Barrique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Bois ; mairin de 5 pieds,bois merrains de 5 pieds,,1,1,0,0,0,0,0,0,1,1
+Bois ; mairin en douelles,bois merrains en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; marbré,bois marbré,,1,8,0,0,0,0,0,0,1,8
-Bois ; marrain,bois merrains,,1,12,0,0,0,0,0,0,1,12
+Bois ; marrain,bois merrains,,1,7,0,0,0,0,0,0,1,7
+Bois ; marrain en douelles,bois merrains en douelles,,1,5,0,0,0,0,0,0,1,5
 Bois ; matraux,bois mâtereaux,,1,1,0,0,0,0,0,0,1,1
 Bois ; mats,bois mâts,,1,2,0,0,0,0,0,0,1,2
 Bois ; mêlée,bois mêlé,,1,1,0,0,0,0,0,0,1,1
 Bois ; mêlés,bois mêlé,,1,1,0,0,0,0,0,0,1,1
-Bois ; merai à pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; merain,bois merrains,,1,11,0,0,0,0,0,0,1,11
-Bois ; Merain,bois merrains,,1,4,0,0,0,0,0,0,1,4
-Bois ; mérain,bois merrains,,1,2,0,0,0,0,0,0,1,2
+Bois ; merai à pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; merai à pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merain,bois merrains,,1,6,0,0,0,0,0,0,1,6
+Bois ; Merain,bois merrains,,1,1,0,0,0,0,0,0,1,1
+Bois ; mérain,bois merrains,,0,0,0,0,0,0,0,0,0,0
 Bois ; merain ; à barils,bois merrains à barils,,1,1,0,0,0,0,0,0,1,1
 Bois ; merain ; à pipe,bois merrains à pipes,,1,5,0,0,0,0,0,0,1,5
 Bois ; merain ; à tonneaux,bois merrains à tonneaux,,1,10,0,0,0,0,0,0,1,10
 Bois ; mérain ; de sapin,bois merrains de sapin,,1,3,0,0,0,0,0,0,1,3
-Bois ; merain à barique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merain a bariques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Bois ; Merain a bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; merain à barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain à barique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merain a bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; Merain a bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Bois ; merain à bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; Merain à Bariques,bois merrains à barriques,,1,4,0,0,0,0,0,0,1,4
-Bois ; merain a barriques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain à Bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain a bariques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; Merain a bariques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain à Bariques en douelles,bois merrains à barriques en douelles,,1,4,0,0,0,0,0,0,1,4
+Bois ; merain a barriques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain a barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merain a pipe,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; merain a pipes,bois merrains à pipes,,1,2,0,0,0,0,0,0,1,2
-Bois ; merain à pipes,bois merrains à pipes,,1,2,0,0,0,0,0,0,1,2
-Bois ; Merain à pipes,bois merrains à pipes,,1,3,0,0,0,0,0,0,1,3
-Bois ; merain a quarts,bois merrains à quart,,1,2,0,0,0,0,0,0,1,2
-Bois ; merain a Quarts,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Bois ; Merain à quarts,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Bois ; Merain; a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; Merain; a quart,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Bois ; merain a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain à pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain à pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain a pipes en douelles,bois merrains à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; merain à pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain à pipes en douelles,bois merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
+Bois ; merain a quarts,bois merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain a Quarts,bois merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Bois ; Merain à quarts,bois merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Bois ; merain a quarts en douelles,bois merrains à quarts en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; merain a Quarts en douelles,bois merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain à quarts en douelles,bois merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merain en douelles,bois merrains en douelles,,1,5,0,0,0,0,0,0,1,5
+Bois ; Merain en douelles,bois merrains en douelles,,1,3,0,0,0,0,0,0,1,3
+Bois ; mérain en douelles,bois merrains en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; Merain; a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; Merain; a pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; Merain; a quart,bois merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Bois ; Merain; a quart en douelles,bois merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merains ; à barils,bois merrains à barils,,1,4,0,0,0,0,0,0,1,4
 Bois ; merains ; à barriques,bois merrains à barriques,,1,6,0,0,0,0,0,0,1,6
-Bois ; merains ; à fonds,bois merrains à fond,,1,3,0,0,0,0,0,0,1,3
+Bois ; merains ; à fonds,bois merrains à fonds,,1,3,0,0,0,0,0,0,1,3
 Bois ; merains ; à muids,bois merrains à muid,,1,1,0,0,0,0,0,0,1,1
 Bois ; meriés ; de sapin,bois merrains de sapin,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain,bois merrains,,1,402,0,0,0,0,0,0,1,402
+Bois ; merrain,bois merrains,,1,346,0,0,0,0,0,0,1,346
 Bois ; merrain ; ?,bois merrains ???,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; a baril douelles,bois merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; a barils,bois merrains à barils,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain ; a barils,bois merrains à barils,,0,0,0,0,0,0,0,0,0,0
 Bois ; merrain ; à barils,bois merrains à barils,,1,9,0,0,0,0,0,0,1,9
+Bois ; merrain ; a barils en douelles,bois merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; à barique,bois merrains à barriques,,1,5,0,0,0,0,0,0,1,5
 Bois ; merrain ; a bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; à bariques,bois merrains à barriques,,1,32,0,0,0,0,0,0,1,32
+Bois ; merrain ; à bariques,bois merrains à barriques,,1,31,0,0,0,0,0,0,1,31
 Bois ; merrain ; a bariques douelles,bois merrains à barriques douelles,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrain ; a bariques douëlles,bois merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; a barriques,bois merrains à barriques,,1,44,0,0,0,0,0,0,1,44
+Bois ; merrain ; à bariques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain ; a barriques,bois merrains à barriques,,1,43,0,0,0,0,0,0,1,43
 Bois ; merrain ; à barriques,bois merrains à barriques,,1,5,0,0,0,0,0,0,1,5
+Bois ; merrain ; a barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; a barrriques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Bois ; merrain ; a bottes,bois merrains à bottes,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrain ; à bottes,bois merrains à bottes,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; a busses,bois merrains à buses,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; a cardine,bois merrains à cardines,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; a fond,bois merrains à fond,,1,6,0,0,0,0,0,0,1,6
-Bois ; merrain ; à fond,bois merrains à fond,,1,2,0,0,0,0,0,0,1,2
-Bois ; merrain ; a fonds,bois merrains à fond,,1,33,0,0,0,0,0,0,1,33
-Bois ; merrain ; à fonds,bois merrains à fond,,1,14,0,0,0,0,0,0,1,14
-Bois ; merrain ; a fonds douelles,bois merrains à fond douelles,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; a pipes,bois merrains à pipes,,1,22,0,0,0,0,0,0,1,22
-Bois ; merrain ; à pipes,bois merrains à pipes,,1,20,0,0,0,0,0,0,1,20
+Bois ; merrain ; a fond,bois merrains à fonds,,1,6,0,0,0,0,0,0,1,6
+Bois ; merrain ; à fond,bois merrains à fonds,,1,2,0,0,0,0,0,0,1,2
+Bois ; merrain ; a fonds,bois merrains à fonds,,1,33,0,0,0,0,0,0,1,33
+Bois ; merrain ; à fonds,bois merrains à fonds,,1,14,0,0,0,0,0,0,1,14
+Bois ; merrain ; a fonds douelles,bois merrains à fonds douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain ; a pipes,bois merrains à pipes,,1,19,0,0,0,0,0,0,1,19
+Bois ; merrain ; à pipes,bois merrains à pipes,,1,18,0,0,0,0,0,0,1,18
 Bois ; merrain ; a pipes douelles,bois merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; a pipes douëlles,bois merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; a Quarts,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; à quarts,bois merrains à quart,,1,2,0,0,0,0,0,0,1,2
-Bois ; merrain ; a Sonds,bois merrains à fond,,1,4,0,0,0,0,0,0,1,4
+Bois ; merrain ; a pipes en douelles,merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
+Bois ; merrain ; à pipes en douelles,bois merrains à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; merrain ; a Quarts,bois merrains à quarts,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain ; à quarts,bois merrains à quarts,,1,2,0,0,0,0,0,0,1,2
+Bois ; merrain ; a Sonds,bois merrains à fonds,,1,4,0,0,0,0,0,0,1,4
 Bois ; merrain ; a tierçons,bois merrains à tierçons,,1,2,0,0,0,0,0,0,1,2
 Bois ; merrain ; à tierçons,bois merrains à tierçons,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrain ; à tonnaux,bois merrains à tonneaux,,1,9,0,0,0,0,0,0,1,9
-Bois ; merrain ; a tonneaux,bois merrains à tonneaux,,1,10,0,0,0,0,0,0,1,10
+Bois ; merrain ; a tonneaux,bois merrains à tonneaux,,1,9,0,0,0,0,0,0,1,9
 Bois ; merrain ; a Tonneaux,bois merrains à tonneaux,,1,7,0,0,0,0,0,0,1,7
 Bois ; merrain ; à tonneaux,bois merrains à tonneaux,,1,45,0,0,0,0,0,0,1,45
+Bois ; merrain ; a tonneaux en douelles,bois merrains à tonneaux en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; à tortues,bois merrains à tortue,,1,2,0,0,0,0,0,0,1,2
 Bois ; Merrain ; au-dessous de 974 millimètres,bois merrains au-dessous de 974 millimètres,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; bourdilles,bois merrains bourdilles,,1,2,0,0,0,0,0,0,1,2
 Bois ; merrain ; bourdillons,bois merrains bourdillons,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merrain ; de 1299mm de longueur et au-dessus,bois merrains de 1299mm de longueur et au-dessus,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merrain ; de 1299mm exclus à 974 inclus,bois merrains de 1299mm exclus à 974 inclus,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain ; de 4 pieds,bois merrains de 4 pieds,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain ; de 4 pieds,bois merrains de 4 pieds,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrain ; de 4 pieds en douelles,bois merrains de 4 pieds en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; de sapin,bois merrains de sapin,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrain ; en chêne,bois merrains en chêne,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrain ; merrain,bois merrains merrains,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; ordinaire,bois merrains ordinaire,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; pipes douelles,bois merrains pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain ; pour feraille,bois merrains pour ferraille,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain a barils,bois merrains à barils,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a barils,bois merrains à barils,,0,0,0,0,0,0,0,0,0,0
 Bois ; merrain a barils douelles,bois merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain a barique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a barils en douelles,bois merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrain a barique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain a bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merrain a bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain à bariques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Bois ; merrain a barrique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain a barriques,bois merrains à barriques,,1,4,0,0,0,0,0,0,1,4
-Bois ; merrain à barriques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Bois ; merrain a fond,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain a fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain à fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain a pipes,bois merrains à pipes,,1,4,0,0,0,0,0,0,1,4
+Bois ; merrain à bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain à bariques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a barrique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrain a barrique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a barriques,bois merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Bois ; merrain à barriques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrain a barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain à barriques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ; merrain a fond,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a fonds,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain à fonds,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merrain a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrain à pipes,bois merrains à pipes,,1,2,0,0,0,0,0,0,1,2
-Bois ; merrain a tierçpn,bois merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain à pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a pipes en douelles,merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
+Bois ; merrain à pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain a tierçpn,bois merrains à tierçons,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrain a tierçpn en douelles,bois merrains à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain douelles,bois merrains douelles,,1,4,0,0,0,0,0,0,1,4
 Bois ; merrain douëlles,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrain doüelles,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrain en douelles,bois merrains en douelles,,1,56,0,0,0,0,0,0,1,56
 Bois ; merrains,bois merrains,,1,1,0,0,0,0,0,0,1,1
 Bois ; Merrains,bois merrains,,1,15,0,0,0,0,0,0,1,15
-Bois ; merrains ; à fonds,bois merrains à fond,,1,5,0,0,0,0,0,0,1,5
+Bois ; merrains ; à fonds,bois merrains à fonds,,1,5,0,0,0,0,0,0,1,5
 Bois ; merrains ; à pipes,bois merrains à pipes,,1,3,0,0,0,0,0,0,1,3
 Bois ; merrains ; à tierçons,bois merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrein,bois merrains,,1,14,0,0,0,0,0,0,1,14
+Bois ; merrein,bois merrains,,1,13,0,0,0,0,0,0,1,13
 Bois ; merrein ; douelle,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrein ; en donelles,bois merrains en douelles,,1,12,0,0,0,0,0,0,1,12
+Bois ; merrein en douelles,bois merrains en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ; merrian ; a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrin a barique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrin a Barrique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrin a Fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrin a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ; merrin a Pipes,bois merrains à pipes,,1,2,0,0,0,0,0,0,1,2
+Bois ; merrin a barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrin a barique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrin a Barrique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrin a Barrique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrin a Fonds,bois merrains à fonds,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrin a Fonds en douelles,bois merrains à fonds en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrin a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrin a Pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ; merrin a pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ; merrin a Pipes en douelles,bois merrains à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois ; moulu,bois moulu,,1,2,0,0,0,0,0,0,1,2
 Bois ; neffretique,bois néphrétique,,1,1,0,0,0,0,0,0,1,1
 Bois ; nefretique,bois néphrétique,,1,4,0,0,0,0,0,0,1,4
@@ -5087,17 +5138,27 @@ Bois ; vert,bois vert,,1,1,0,0,0,0,0,0,1,1
 Bois ; violet,bois violet,,1,18,0,0,0,0,0,0,1,18
 Bois ; voilet,bois violet,,1,1,0,0,0,0,0,0,1,1
 Bois ;;jaune;rapé,bois jaune râpé,,1,1,0,0,0,0,0,0,1,1
-Bois ;;mairin,bois merrains,,1,1,0,0,0,0,0,0,1,1
-Bois ;;mairin;a barique,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Bois ;;mairin;a bariques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ;;mairin;à bariques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Bois ;;mairin,bois merrains,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin en douelles,bois merrains en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;mairin;a barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin;a barique en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois ;;mairin;a bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin;à bariques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin;a bariques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;mairin;à bariques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois ;;mairin;a Barrique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ;;mairin;a pipes,bois merrains à pipes,,1,3,0,0,0,0,0,0,1,3
-Bois ;;mairin;à pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois ;;merain;a barriques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ;;merain;à barriques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois ;;mérain;a fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois ;;merain;a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Bois ;;mairin;a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin;à pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mairin;a pipes en douelles,bois merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
+Bois ;;mairin;à pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;merain;a barriques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ;;merain;à barriques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois ;;merain;a barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;merain;à barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;mérain;a fonds,bois merrains à fonds,,0,0,0,0,0,0,0,0,0,0
+Bois ;;mérain;a fonds en douelles,bois merrains à fonds en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois ;;merain;a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois ;;merain;a pipes en douelles,bois merraing à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois ;.de caillatours;moulu,bois de Caliatour moulu,,1,1,0,0,0,0,0,0,1,1
 Bois ;à brûler ; en fagots,bois à brûler en fagots,,1,3,0,0,0,0,0,0,1,3
 Bois . De roüage,bois de rouage,,1,1,0,0,0,0,0,0,1,1
@@ -5105,8 +5166,9 @@ Bois ) brûler ; en fagots,bois à brûler en fagots,,1,1,0,0,0,0,0,0,1,1
 Bois [à bruler],bois à brûler,,0,0,0,0,0,0,1,2,1,2
 Bois [à brûler],bois à brûler,,0,0,0,0,0,0,1,2,1,2
 Bois à baril non scié,bois à barils non scié,,0,0,0,0,0,0,0,0,0,0
-Bois a barril,bois à barils,,1,1,0,0,0,0,0,0,1,1
+Bois a barril,bois à barils,,0,0,0,0,0,0,0,0,0,0
 Bois a barril douelles,bois à barils douelles,,0,0,0,0,0,0,0,0,0,0
+Bois a barril en douelles,bois à barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois à barrils,bois à barils,,1,2,0,0,0,0,0,0,1,2
 Bois a barriques,bois à barriques,,1,2,0,0,0,0,0,0,1,2
 Bois a bastir,bois à bâtir,,1,1,0,0,0,0,0,0,1,1
@@ -5179,7 +5241,8 @@ Bois a corbeilles,bois à corbeilles,,1,1,0,0,0,0,0,0,1,1
 Bois a cribler,bois à cribles,,1,1,0,0,0,0,0,0,1,1
 Bois a cribles,bois à cribles,,1,1,0,0,0,0,0,0,1,1
 Bois à cribles,bois à cribles,,1,1,0,0,0,0,0,0,1,1
-Bois a faire barils,bois à faire barils,,1,1,0,0,0,0,0,0,1,1
+Bois a faire barils,bois à faire barils,,0,0,0,0,0,0,0,0,0,0
+Bois a faire barils en douelles,bois à faire des barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois a faire bats,bois à faire bats,,1,2,0,0,0,0,0,0,1,2
 Bois a faire Bats,bois à faire bats,,1,1,0,0,0,0,0,0,1,1
 Bois a faire corbeille,bois à faire corbeilles,,1,1,0,0,0,0,0,0,1,1
@@ -5197,7 +5260,8 @@ Bois à faire paniers,bois à faire paniers,,1,3,0,0,0,0,0,0,1,3
 Bois a faire tonneaux,bois à faire tonneaux,,1,7,0,0,0,0,0,0,1,7
 Bois à faire tonneaux,bois à faire tonneaux,,1,2,0,0,0,0,0,0,1,2
 Bois à feu,bois à feu,,0,0,0,0,0,0,1,4,1,4
-Bois a fonds,bois à fonds,,1,6,0,0,0,0,0,0,1,6
+Bois a fonds,bois à fonds,,1,5,0,0,0,0,0,0,1,5
+Bois a fonds en douelles,bois à fonds en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois A Foureaux d'épée,bois à fourreaux d'épée,,1,1,0,0,0,0,0,0,1,1
 Bois a gabarres,bois à gabares,,1,1,0,0,0,0,0,0,1,1
 Bois a gorbin,bois à corbin,,1,1,0,0,0,0,0,0,1,1
@@ -5220,7 +5284,8 @@ Bois à teindre en buches,bois à teindre en bûches,,1,1,0,0,0,0,0,0,1,1
 Bois a teindre moulu,bois à teindre moulu,,1,1,0,0,0,0,0,0,1,1
 Bois a teinture,bois à teinture,,1,1,0,0,0,0,0,0,1,1
 Bois a teinturies,bois à teinture,,1,1,0,0,0,0,0,0,1,1
-Bois a tiercon,bois à tierçon,,1,2,0,0,0,0,0,0,1,2
+Bois a tiercon,bois à tierçons,,1,1,0,0,0,0,0,0,1,1
+Bois a tiercon en douelles,bois à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois a tonneau,bois à tonneaux,,1,1,0,0,0,0,0,0,1,1
 Bois à tonneau,bois à tonneaux,,1,1,0,0,0,0,0,0,1,1
 Bois à tonneaux,bois à tonneaux,,1,2,0,0,0,0,0,0,1,2
@@ -5353,7 +5418,8 @@ Bois d'ozier,bois d'osier,,1,13,0,0,0,0,0,0,1,13
 Bois d´Inde,bois d'Inde,,1,1,0,0,0,0,0,0,1,1
 Bois daloïs,bois d'alois,,1,1,0,0,0,0,0,0,1,1
 Bois de ?,bois de ???,,1,1,0,0,0,0,0,0,1,1
-Bois de 5 pieds,bois de 5 pieds,,1,1,0,0,0,0,0,0,1,1
+Bois de 5 pieds,bois de 5 pieds,,0,0,0,0,0,0,0,0,0,0
+Bois de 5 pieds en douelles,bois de 5 pieds en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois de barrique,bois de barriques,,0,0,0,0,1,2,0,0,1,2
 Bois de batisse,bois à bâtisse,,0,0,0,0,0,0,1,5,1,5
 Bois de bene,bois d'ébène,,1,1,0,0,0,0,0,0,1,1
@@ -5626,8 +5692,10 @@ Bois de mature,bois de mâture,,0,0,0,0,0,0,1,2,1,2
 Bois de mazembie,,,1,1,0,0,0,0,0,0,1,1
 Bois de menuiserie,bois de menuiserie,,1,5,0,0,0,0,0,0,1,5
 Bois de merrain,bois de merrains,,1,7,0,0,0,0,0,0,1,7
-Bois de merrain a barriques,bois de merrains à barriques,,1,3,0,0,0,0,0,0,1,3
-Bois de merrain a pipes,bois de merrains à pipes,,1,3,0,0,0,0,0,0,1,3
+Bois de merrain a barriques,bois de merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois de merrain a barriques en douelles,bois de merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois de merrain a pipes,bois de merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Bois de merrain a pipes en douelles,bois de merrains à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
 Bois de merrein,bois de merrains,,1,1,0,0,0,0,0,0,1,1
 Bois de Moyer,bois de noyer,,1,1,0,0,0,0,0,0,1,1
 Bois de noyer,bois de noyer,,1,24,0,0,1,17,0,0,2,41
@@ -5810,10 +5878,11 @@ Bois divers;,bois divers,,1,1,0,0,0,0,0,0,1,1
 Bois divers; De Bruyere,bois divers de bruyère,,1,1,0,0,0,0,0,0,1,1
 Bois divers; De sapin divers,bois divers de sapin divers,,1,1,0,0,0,0,0,0,1,1
 Bois doré,bois doré,,1,2,0,0,0,0,0,0,1,2
-Bois du BR...SIL,bois du Brésil,,1,6,0,0,0,0,0,0,1,6
+Bois du BR...SIL,bois du Brésil,,1,5,0,0,0,0,0,0,1,5
 Bois du bresil,bois du Brésil,,1,3,0,0,0,0,0,0,1,3
 Bois du Bresil,bois du Brésil,,1,5,0,0,0,0,0,0,1,5
 Bois du brésil,bois du Brésil,,1,1,0,0,0,0,0,0,1,1
+Bois du Brésil,bois de Brésil,,1,1,0,0,0,0,0,0,1,1
 Bois du Brezil,bois du Brésil,,1,8,0,0,0,0,0,0,1,8
 Bois du BREZIL,bois du Brésil,,1,1,0,0,0,0,0,0,1,1
 Bois du Brezil Rapé,bois du Brésil râpé,,1,1,0,0,0,0,0,0,1,1
@@ -5878,7 +5947,7 @@ Bois feuillard en cordes,bois feuillards en cordes,,1,1,0,0,0,0,0,0,1,1
 Bois Feuillard et Cercles,bois feuillards en cercles,,1,1,0,0,0,0,0,0,1,1
 Bois feuillard pipage,bois feuillards pipage,,1,5,0,0,0,0,0,0,1,5
 Bois feuillards,bois feuillards,,1,69,0,0,0,0,0,0,1,69
-Bois Fonds a Castor,bois fond à castor,,1,1,0,0,0,0,0,0,1,1
+Bois Fonds a Castor,bois fonds à castor,,1,1,0,0,0,0,0,0,1,1
 Bois fustel,bois fustet,,1,99,0,0,0,0,0,0,1,99
 Bois fustes,bois fustet,,1,1,0,0,0,0,0,0,1,1
 Bois fustet,bois fustet,,1,2,0,0,0,0,0,0,1,2
@@ -5901,63 +5970,81 @@ Bois marbré de 6 pieds,bois marbré de 6 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois Marbre en bûches,bois marbré en bûches,,1,1,0,0,0,0,0,0,1,1
 Bois marbré en bûches,bois marbré en bûches,,1,1,0,0,0,0,0,0,1,1
 Bois marrin,bois merrains,,1,2,0,0,0,0,0,0,1,2
-Bois merain,bois merrains,,1,5,0,0,0,0,0,0,1,5
-Bois merain a bariques,bois merrains à barriques,,1,4,0,0,0,0,0,0,1,4
-Bois merain à barriques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Bois merain a fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois merain a foudol,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
+Bois merain,bois merrains,,1,2,0,0,0,0,0,0,1,2
+Bois merain a bariques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Bois merain a bariques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois merain à barriques,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois merain à barriques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois merain a fonds,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois merain a foudol,bois merrains à fonds,,0,0,0,0,0,0,0,0,0,0
+Bois merain a foudol en douelles,bois merrains à fonds en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merain a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois merain à pipes,bois merrains à pipes,,1,3,0,0,0,0,0,0,1,3
+Bois merain à pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Bois merain à pipes en douelles,bois merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
 Bois merain a tonneaux,bois merrains à tonneaux,,1,1,0,0,0,0,0,0,1,1
 Bois merain barriques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Bois merain en douelles,bois merrains en douelles,,1,3,0,0,0,0,0,0,1,3
 Bois merain en feuillard,bois merrains en feuillards,,1,5,0,0,0,0,0,0,1,5
 Bois merain fonçailles,bois merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Bois merains à barriques,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois merains à fonds,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
+Bois merains à fonds,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
 Bois merains en feuillard,bois merrains en feuillards,,1,4,0,0,0,0,0,0,1,4
-Bois mérein,bois merrains,,1,1,0,0,0,0,0,0,1,1
+Bois mérein,bois merrains,,0,0,0,0,0,0,0,0,0,0
 Bois merein à barriques douves,bois merrains à barriques douves,,1,1,0,0,0,0,0,0,1,1
-Bois merrain,bois merrains,,1,185,0,0,0,0,0,0,1,185
-Bois Merrain,bois merrains,,1,19,0,0,0,0,0,0,1,19
+Bois mérein en douelles,bois merrains en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain,bois merrains,,1,168,0,0,0,0,0,0,1,168
+Bois Merrain,bois merrains,,1,18,0,0,0,0,0,0,1,18
 Bois merrain ; a barils douelles,bois merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain ; a bariques douelles,bois merrains à barriques douelles,,1,6,0,0,0,0,0,0,1,6
+Bois merrain ; a bariques douelles,bois merrains à barriques douelles,,1,5,0,0,0,0,0,0,1,5
 Bois merrain ; a bariques doüelles,bois merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain ; a barriques,bois merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Bois merrain ; a bariques douelles en douelles,bois merrains à barriques douelles en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a barriques,bois merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Bois merrain ; a barriques en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain ; a busses doüelles,bois merrains à buses douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain ; a fonds,bois merrains à fond,,1,2,0,0,0,0,0,0,1,2
-Bois merrain ; a Fonds,bois merrains à fond,,1,2,0,0,0,0,0,0,1,2
-Bois merrain ; a fonds douelles,bois merrains à fond douelles,,1,2,0,0,0,0,0,0,1,2
-Bois merrain ; a pipes,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a fonds,bois merrains à fonds,,1,2,0,0,0,0,0,0,1,2
+Bois merrain ; a Fonds,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a fonds douelles,bois merrains à fonds douelles,,1,2,0,0,0,0,0,0,1,2
+Bois merrain ; a Fonds en douelles,bois merrains à fonds en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a pipes,bois merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Bois merrain ; a pipes douelles,bois merrains à pipes douelles,,1,4,0,0,0,0,0,0,1,4
 Bois merrain ; à pipes douelles,bois merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain ; a quarts douelles,bois merrains à quart douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain ; a tiercons,bois merrains à tierçon,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a pipes en douelles,bois merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a quarts douelles,bois merrains à quarts douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain ; a tiercons,bois merrains à tierçon,,0,0,0,0,0,0,0,0,0,0
+Bois merrain ; a tiercons en douelles,bois merrains à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain ; divers,bois merrains divers,,1,1,0,0,0,0,0,0,1,1
-Bois merrain a barils,bois merrains à barils,,1,2,0,0,0,0,0,0,1,2
+Bois merrain a barils,bois merrains à barils,,1,1,0,0,0,0,0,0,1,1
 Bois merrain a barils douelles,bois merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain à barique,bois merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Bois merrain a bariques,bois merrains à barriques,,1,5,0,0,0,0,0,0,1,5
-Bois merrain à bariques,bois merrains à barriques,,1,6,0,0,0,0,0,0,1,6
+Bois merrain a barils en douelles,bois merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain à barique,bois merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Bois merrain à barique en douelles,bois merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain a bariques,bois merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Bois merrain à bariques,bois merrains à barriques,,1,4,0,0,0,0,0,0,1,4
 Bois merrain a bariques ; douelles,bois merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain a bariques douelles,bois merrains à barriques douelles,,1,6,0,0,0,0,0,0,1,6
 Bois merrain à Bariques Douelles,bois merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Bois merrain a barriques,bois merrains à barriques,,1,16,0,0,0,0,0,0,1,16
+Bois merrain a bariques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois merrain à bariques en douelles,bois merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Bois merrain a barriques,bois merrains à barriques,,1,13,0,0,0,0,0,0,1,13
 Bois merrain à barriques,bois merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Bois merrain a barriques en douelles,bois merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
 Bois merrain à botte,bois merrains à botte,,1,1,0,0,0,0,0,0,1,1
 Bois merrain à boucauds,bois merrains à boucaud,,1,1,0,0,0,0,0,0,1,1
-Bois merrain à fond,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
-Bois merrain a fonds,bois merrains à fond,,1,5,0,0,0,0,0,0,1,5
-Bois merrain à fonds,bois merrains à fond,,1,2,0,0,0,0,0,0,1,2
-Bois merrain a fonds ?,bois merrains à fond,,1,1,0,0,0,0,0,0,1,1
+Bois merrain à fond,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
+Bois merrain a fonds,bois merrains à fonds,,1,5,0,0,0,0,0,0,1,5
+Bois merrain à fonds,bois merrains à fonds,,1,2,0,0,0,0,0,0,1,2
+Bois merrain a fonds ?,bois merrains à fonds,,1,1,0,0,0,0,0,0,1,1
 Bois merrain à pipe,bois merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Bois merrain a pipes,bois merrains à pipes,,1,9,0,0,0,0,0,0,1,9
-Bois merrain à pipes,bois merrains à pipes,,1,8,0,0,0,0,0,0,1,8
+Bois merrain a pipes,bois merrains à pipes,,1,4,0,0,0,0,0,0,1,4
+Bois merrain à pipes,bois merrains à pipes,,1,4,0,0,0,0,0,0,1,4
 Bois merrain a pipes ; 4 pieds,bois merrains à pipes de 4 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois merrain a pipes ; douelles,bois merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 "Bois merrain à pipes de 4 à 5 pieds, à 1 pouce 1/2 d'épaisseur",bois merrains à pipes de 4 à 5 pieds à 1 pouce 1/2 d'épaisseur,,1,1,0,0,0,0,0,0,1,1
 Bois merrain a pipes douelles,bois merrains à pipes douelles,,1,10,0,0,0,0,0,0,1,10
-Bois merrain à quart,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Bois merrain à quarts,bois merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Bois merrain a pipes en douelles,bois merrains à pipes en douelles,,1,5,0,0,0,0,0,0,1,5
+Bois merrain à pipes en douelles,bois merrains à pipes en douelles,,1,4,0,0,0,0,0,0,1,4
+Bois merrain à quart,bois merrains à quarts,,1,1,0,0,0,0,0,0,1,1
+Bois merrain à quarts,bois merrains à quarts,,1,1,0,0,0,0,0,0,1,1
 Bois merrain a tonaux,bois merrains à tonneaux,,1,3,0,0,0,0,0,0,1,3
 Bois merrain a tonneaux,bois merrains à tonneaux,,1,8,0,0,0,0,0,0,1,8
 Bois merrain à tonneaux,bois merrains à tonneaux,,1,4,0,0,0,0,0,0,1,4
@@ -5966,6 +6053,8 @@ Bois merrain douelle,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain douelles,bois merrains douelles,,1,17,0,0,0,0,0,0,1,17
 Bois merrain doüelles,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain Doüelles,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
+Bois merrain en douelles,bois merrains en douelles,,1,17,0,0,0,0,0,0,1,17
+Bois Merrain en douelles,bois merrains douelles,,1,1,0,0,0,0,0,0,1,1
 Bois merrain en sapin,bois merrains en sapin,,1,3,0,0,0,0,0,0,1,3
 Bois merrain et feuillard,bois merrains et feuillards,,1,1,0,0,0,0,0,0,1,1
 Bois merrain pour tonnellerie,bois merrains pour tonnellerie,,1,3,0,0,0,0,0,0,1,3
@@ -6159,7 +6248,7 @@ Bois; merrain,bois merrains,,1,1,0,0,0,0,0,0,1,1
 Bois; merrain; à bariques,bois merrains à barriques,,1,9,0,0,0,0,0,0,1,9
 Bois; merrain; à bottes,bois merrains à bottes,,1,1,0,0,0,0,0,0,1,1
 Bois; merrain; à busses,bois merrains à buses,,1,1,0,0,0,0,0,0,1,1
-Bois; merrain; à fondo,bois merrains à fond,,1,4,0,0,0,0,0,0,1,4
+Bois; merrain; à fondo,bois merrains à fonds,,1,4,0,0,0,0,0,0,1,4
 Bois; merrain; à pipes,bois merrains à pipes,,1,4,0,0,0,0,0,0,1,4
 Bois; merrain; à tierçons,bois merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
 Bois; merrain; à tonneaux,bois merrains à tonneaux,,1,9,0,0,0,0,0,0,1,9
@@ -9398,7 +9487,7 @@ Cartouches,cartouches,,1,1,0,0,0,0,0,0,1,1
 Carts,,,0,0,1,6,0,0,0,0,1,6
 Carts ; de nonante,quart de nonante,,1,1,0,0,0,0,0,0,1,1
 Carts de nonante,quart de nonante,,1,1,0,0,0,0,0,0,1,1
-Cartz,quart,,1,1,0,0,0,0,0,0,1,1
+Cartz,quarts,,1,1,0,0,0,0,0,0,1,1
 Caruane,caruane,,1,1,0,0,0,0,0,0,1,1
 Carubes,carubis,,1,1,0,0,0,0,0,0,1,1
 Carubi,carubis,,1,17,0,0,0,0,0,0,1,17
@@ -10054,7 +10143,7 @@ Cercles à pipe,cercles à pipes,,1,1,0,0,0,0,0,0,1,1
 Cercles à piper,cercles à pipes,,1,3,0,0,0,0,0,0,1,3
 Cercles a pipes,cercles à pipes,,1,4,0,0,0,0,0,0,1,4
 Cercles à pipes,cercles à pipes,,1,4,0,0,0,0,0,0,1,4
-Cercles à quarts,cercles à quart,,1,1,0,0,0,0,0,0,1,1
+Cercles à quarts,cercles à quarts,,1,1,0,0,0,0,0,0,1,1
 Cercles a relier,cercles à relier,,1,2,0,0,0,0,0,0,1,2
 Cercles à relier,cercles à relier,,1,2,0,0,0,0,0,0,1,2
 Cercles a tamis,cercles à tamis,,1,26,0,0,0,0,0,0,1,26
@@ -12707,7 +12796,7 @@ Commodes de sapin vernies,commodes de sapin vernies,,1,1,0,0,0,0,0,0,1,1
 Commodité,commodité,,1,1,0,0,0,0,0,0,1,1
 Common beer,,,0,0,1,87,0,0,0,0,1,87
 Common sword hilts,,,0,0,1,14,0,0,0,0,1,14
-Communes,communes,,1,1,0,0,0,0,0,0,1,1
+Communes,communes,,0,0,0,0,0,0,0,0,0,0
 Comode,commode,,1,2,0,0,0,0,0,0,1,2
 Comode de sapin,commode de sapin,,1,2,0,0,0,0,0,0,1,2
 Comodes,commode,,1,11,0,0,0,0,0,0,1,11
@@ -16719,11 +16808,12 @@ Doüelles ; à fonds,douelles à fonds,,1,2,0,0,0,0,0,0,1,2
 Douelles ; a pipes,douelles à pipes,,1,1,0,0,0,0,0,0,1,1
 Doüelles ; à pipes,douelles à pipes,,1,12,0,0,0,0,0,0,1,12
 Doüelles ; à quarts,douelles à quart,,1,3,0,0,0,0,0,0,1,3
-Doüelles ; à quartz,douelles à quart,,1,1,0,0,0,0,0,0,1,1
+Doüelles ; à quartz,douelles à quarts,,1,1,0,0,0,0,0,0,1,1
 Douelles ; a tierçons,douelles à tierçons,,1,1,0,0,0,0,0,0,1,1
 Doüelles ; à toneaux,douelles à tonneaux,,1,1,0,0,0,0,0,0,1,1
 Douelles ; a tonneaux,douelles à tonneaux,,1,1,0,0,0,0,0,0,1,1
-Doüelles ; à tonneaux,douelles à tonneaux,,1,15,0,0,0,0,0,0,1,15
+Doüelles ; à tonneaux,douelles à tonneaux,,1,14,0,0,0,0,0,0,1,14
+Doüelles ; à tonneaux en douelles,douelles à tonneaux en douelles,,1,1,0,0,0,0,0,0,1,1
 Doüelles ; bariques,douelles barriques,,1,4,0,0,0,0,0,0,1,4
 Doüelles ; de sapin,douelles de sapin,,1,5,0,0,0,0,0,0,1,5
 Doüelles ; de tonneaux,douelles de tonneaux,,1,1,0,0,0,0,0,0,1,1
@@ -16752,8 +16842,8 @@ Douelles à pipe,douelles à pipes,,1,1,0,0,0,0,0,0,1,1
 Douelles a pipes,douelles à pipes,,1,5,0,0,0,0,0,0,1,5
 Douelles à pipes,douelles à pipes,,1,2,0,0,0,0,0,0,1,2
 Douelles à poinçons,douelles à poinçons,,1,1,0,0,0,0,0,0,1,1
-Douelles a quarts,douelles à quart,,1,1,0,0,0,0,0,0,1,1
-Douelles à Quarts,douelles à quart,,1,1,0,0,0,0,0,0,1,1
+Douelles a quarts,douelles à quarts,,1,1,0,0,0,0,0,0,1,1
+Douelles à Quarts,douelles à quarts,,1,1,0,0,0,0,0,0,1,1
 Douelles a toneaux,douelles à tonneaux,,1,3,0,0,0,0,0,0,1,3
 Douelles a tonneau,douelles à tonneaux,,1,2,0,0,0,0,0,0,1,2
 Douelles à tonneau,douelles à tonneaux,,1,7,0,0,0,0,0,0,1,7
@@ -20420,7 +20510,7 @@ Epards,espars,,1,2,0,0,0,0,0,0,1,2
 Epards de 25 pieds,espars de 25 pieds,,1,1,0,0,0,0,0,0,1,1
 Epare,espars,,1,1,0,0,0,0,0,0,1,1
 Eparn,espars,,0,0,0,0,0,0,0,0,0,0
-Epars,espars,,1,57,0,0,0,0,0,0,1,57
+Epars,espars,,1,58,0,0,0,0,0,0,1,58
 épars,espars,,1,1,0,0,0,0,0,0,1,1
 Épars,espars,,0,0,0,0,0,0,0,0,0,0
 Epars ; de 28 a 30 piés,espars de 28 à 30 pieds,,1,1,0,0,0,0,0,0,1,1
@@ -20742,7 +20832,7 @@ Esclephins salés,églefins salés,x,0,0,0,0,0,0,0,0,0,0
 Esco,escot,x,1,1,0,0,0,0,0,0,1,1
 Escope,escope,,1,5,0,0,0,0,0,0,1,5
 Escope en bois,escope,,1,1,0,0,0,0,0,0,1,1
-Escopes,escope,,1,14,0,0,0,0,0,0,1,14
+Escopes,escope,,1,15,0,0,0,0,0,0,1,15
 Escortin de jonc,escortines de jonc,,1,1,0,0,0,0,0,0,1,1
 Escortines,escortines,,0,0,0,0,0,0,0,0,0,0
 Escortines ; d'espars,escortines,,1,2,0,0,0,0,0,0,1,2
@@ -21166,7 +21256,7 @@ Etain en verges,étain en verges,,1,4,0,0,0,0,0,0,1,4
 Etain fin en bloc,étain fin en bloc,,1,1,0,0,0,0,0,0,1,1
 Etain neuf,étain neuf,,1,7,0,0,0,0,0,0,1,7
 Etain non ouvré,étain non ouvré,,1,1,0,0,0,0,0,0,1,1
-Etain Ouvre,étain ouvré,,1,3,0,0,0,0,0,0,1,3
+Etain Ouvre,étain ouvré,,1,4,0,0,0,0,0,0,1,4
 Etain ouvré,étain ouvré,,1,379,0,0,0,0,0,0,1,379
 Etain oüvré,étain ouvré,,1,1,0,0,0,0,0,0,1,1
 étain ouvré,étain ouvré,,1,1,0,0,0,0,0,0,1,1
@@ -23004,7 +23094,7 @@ Fans and paper for fans,,,0,0,1,114,0,0,0,0,1,114
 Fans with porcelaine,,,0,0,1,2,0,0,0,0,1,2
 Farces a drapier,farces à drapier,x,0,0,0,0,0,0,0,0,0,0
 Fard rouge,fard rouge,,1,1,0,0,0,0,0,0,1,1
-Farine,farine,,1,1478,0,0,1,9,1,468,3,1955
+Farine,farine,,1,1477,0,0,1,9,1,468,3,1954
 Farine ; d'avoine,farine d'avoine,,1,2,0,0,0,0,0,0,1,2
 Farine ; d'orge,farine d'orge,,1,1,0,0,0,0,0,0,1,1
 Farine ; d'orge et gruau,farine d'orge et gruau,,1,2,0,0,0,0,0,0,1,2
@@ -23044,6 +23134,7 @@ Farine de seigle,farine de seigle,,0,0,0,0,1,2,0,0,1,2
 "Farine de seigle, maïs et autres menus grains",farine de seigle maïs et autres menus grains,,1,1,0,0,0,0,0,0,1,1
 Farine de terre a sucre ?,farine de terre à sucre ?,,1,1,0,0,0,0,0,0,1,1
 Farine diverse,farine diverse,,1,1,0,0,0,0,0,0,1,1
+Farine en douelles,farine en douelles,,1,1,0,0,0,0,0,0,1,1
 Farine en fleur,farine en fleurs,,1,3,0,0,0,0,0,0,1,3
 Farine et biscuit de mer,farine et biscuit de mer,,1,160,0,0,0,0,0,0,1,160
 Farine et biscuits de mer,farine et biscuit de mer,,1,13,0,0,0,0,0,0,1,13
@@ -33913,62 +34004,86 @@ Maillicot,maillicot,x,0,0,0,0,0,0,0,0,0,0
 Main de calabre,main de calabre,x,1,1,0,0,0,0,0,0,1,1
 Maine,maines,,1,1,0,0,0,0,0,0,1,1
 Maines avec leurs fers,maines avec leurs fers,x,1,1,0,0,0,0,0,0,1,1
-Mairain à barique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Mairain à bariques,merrains à barriques,,1,4,0,0,0,0,0,0,1,4
+Mairain à barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mairain à barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairain à bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Mairain à bariques douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-MAirain a pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Mairain à pipes,merrains à pipes,,1,4,0,0,0,0,0,0,1,4
+Mairain à bariques en douelles,merraing à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
+MAirain a pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+MAirain a pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairain à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Mairain a pipes douelles,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Mairain à pipes douelles,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
-Mairain a quarts,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Mairain à tonneaux,merrains à tonneaux,,1,1,0,0,0,0,0,0,1,1
+Mairain à pipes en douelles,merrains à pipes en douelles,,1,4,0,0,0,0,0,0,1,4
+Mairain a quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Mairain a quarts en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairain à tonneaux,merrains à tonneaux,,0,0,0,0,0,0,0,0,0,0
 Mairain à Tonneaux douelles,merrains à tonneaux douelles,,1,1,0,0,0,0,0,0,1,1
-Mairain fonçailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
+Mairain à tonneaux en douelles,merrains à tonneaux en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairain fonçailles,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
 Mairain foncailles doüelles,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
-Mairain ganivelle,merrains ganivelles,,1,2,0,0,0,0,0,0,1,2
+Mairain fonçailles en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairain ganivelle,merrains ganivelles,,0,0,0,0,0,0,0,0,0,0
 Mairain ganivelle douelles,merrains ganivelles douelles,,1,2,0,0,0,0,0,0,1,2
 Mairain ganivelle douëlles,merrains ganivelles douelles,,1,1,0,0,0,0,0,0,1,1
-Mairains a bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Mairain ganivelle en douelles,merrains ganivelles en douelles,,1,2,0,0,0,0,0,0,1,2
+Mairains a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mairains a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairains a barriques doüelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Mairains à busses douelles,merrains à buses douelles,,1,1,0,0,0,0,0,0,1,1
 Mairains a pipes doüelles,merrains à pipes douelles,,1,3,0,0,0,0,0,0,1,3
-Mairains a tierçons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
+Mairains a tierçons,merrains à tierçons,,0,0,0,0,0,0,0,0,0,0
 Mairains à tierçons doüelles,merrains à tierçons douelles,,1,1,0,0,0,0,0,0,1,1
+Mairains a tierçons en douelles,merrains à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairains barriques doüelles,merrains barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Mairein à bariques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Mairin ; a pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Mairin a Bariques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Mairein à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mairein à bariques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Mairin ; a pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Mairin ; a pipes en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairin a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Mairin a bariques douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Mairin A Barrique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Mairin a pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Mairin a quart,merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Mairin a Bariques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Mairin A Barrique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mairin A Barrique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairin a pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Mairin a pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairin a quart,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Mairin a quart en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairin Foncaille,merrains fonçaille,x,1,1,0,0,0,0,0,0,1,1
-Mairrain a bariques,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Mairrain a bariques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Mairrain a bariques douelles,merrains pipages douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain à bariques douëlles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
+Mairrain a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain à bottes douëlles,merrains à bottes douelles,,1,1,0,0,0,0,0,0,1,1
-Mairrain a busse,merrains à buses,,1,2,0,0,0,0,0,0,1,2
+Mairrain a busse,merrains à buses,,1,1,0,0,0,0,0,0,1,1
+Mairrain a busse en douelles,merrains à buses en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain a pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
 Mairrain à pipes douëlles,merrains à pipes douelles,,1,2,0,0,0,0,0,0,1,2
 Mairrain a poinçons,merrains à poinçon,,1,1,0,0,0,0,0,0,1,1
 Mairrain a tonneaux douelles,merrains à tonneaux douelles,,1,1,0,0,0,0,0,0,1,1
-Mairrain baricage,merrains barricages,,1,2,0,0,0,0,0,0,1,2
-Mairrain baricages,merrains barricages,,1,2,0,0,0,0,0,0,1,2
+Mairrain baricage,merrains barricages,,0,0,0,0,0,0,0,0,0,0
+Mairrain baricage en douelles,merrains barricages en douelles,,1,2,0,0,0,0,0,0,1,2
+Mairrain baricages,merrains barricages,,1,1,0,0,0,0,0,0,1,1
+Mairrain baricages en douelles,merrains barricages en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain en barique douëlles,merrains en barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain fonçailles douelles,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain ganivelles,merrains ganivelles douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrain gannivelle doüelles,merrains ganivelles douelles,,1,1,0,0,0,0,0,0,1,1
-Mairrain pipage,merrains pipages douelles,,1,1,0,0,0,0,0,0,1,1
-Mairrain pipages,merrains pipages,,1,2,0,0,0,0,0,0,1,2
+Mairrain pipage,merrains pipages douelles,,0,0,0,0,0,0,0,0,0,0
+Mairrain pipage en douelles,merrains pipages en douelles,,1,1,0,0,0,0,0,0,1,1
+Mairrain pipages,merrains pipages,,0,0,0,0,0,0,0,0,0,0
 Mairrain pipages douelles,merrains pipages douelles,,1,1,0,0,0,0,0,0,1,1
-Mairrain pipayes,merrains pipages,,1,1,0,0,0,0,0,0,1,1
+Mairrain pipages en douelles,merrains pipages en douelles,,1,2,0,0,0,0,0,0,1,2
+Mairrain pipayes,merrains pipages,,0,0,0,0,0,0,0,0,0,0
+Mairrain pipayes en douelles,merrains pipages en douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrains à barriques douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrains ganivelle,merrains ganivelles,,1,1,0,0,0,0,0,0,1,1
 Mairrains pipage douelles,merrains pipages douelles,,1,1,0,0,0,0,0,0,1,1
 Mairrins pipages douelles,merrains pipages douelles,,1,1,0,0,0,0,0,0,1,1
 Mais,maïs,,1,1,0,0,0,0,0,0,1,1
 Maïs,maïs,,1,14,0,0,0,0,1,8,2,22
-Maizainganivelle,merrains à ganivelles,,1,1,0,0,0,0,0,0,1,1
+Maizainganivelle,merrains à ganivelles,,0,0,0,0,0,0,0,0,0,0
+Maizainganivelle en douelles,merrains ganivelles en douelles,,1,1,0,0,0,0,0,0,1,1
 Majutapau,bajutapau,,1,1,0,0,0,0,0,0,1,1
 Malbroug,malbroug,x,1,5,0,0,0,0,0,0,1,5
 Malemole,malemole,,1,1,0,0,0,0,0,0,1,1
@@ -34174,7 +34289,8 @@ Maquet,maquets,x,1,55,0,0,0,0,0,0,1,55
 Maquets,maquets,,1,23,0,0,0,0,0,0,1,23
 Mar ; de raisin,marc de raisin,,1,2,0,0,0,0,0,0,1,2
 Mar de raisin,marc de raisin,,1,2,0,0,0,0,0,0,1,2
-Marain a Bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Marain a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Marain a Bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Marble (à jouer),,,0,0,1,54,0,0,0,0,1,54
 Marble in blocks,,,0,0,1,110,0,0,0,0,1,110
 Marble in floor tiles,,,0,0,1,71,0,0,0,0,1,71
@@ -35456,65 +35572,105 @@ Menus ouvrage de bois,menus ouvrages de bois,,0,0,0,0,0,0,0,0,0,0
 Menus sommiers,menus sommiers,,0,0,0,0,0,0,0,0,0,0
 Menutés,menutés,x,0,0,0,0,0,0,0,0,0,0
 Meölons de briques,moellons de brique,,1,1,0,0,0,0,0,0,1,1
-Merain,merrains,,1,8,0,0,0,0,1,2,2,10
-Mérain,merrains,,1,1,0,0,0,0,0,0,1,1
+Merain,merrains,,1,2,0,0,0,0,1,2,2,4
+Mérain,merrains,,0,0,0,0,0,0,0,0,0,0
 Merain ; a barils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
-Merain ; a bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merain ; à bariques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Mérain ; à bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merain ; a barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merain ; a pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Merain ; à pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Mérain ; à pipes,merrains à pipes,,1,2,0,0,0,0,0,0,1,2
+Merain ; a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain ; à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mérain ; à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain ; a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain ; à bariques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Mérain ; à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain ; a barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain ; a barriques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain ; a pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merain ; à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Mérain ; à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merain ; a pipes en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain ; à pipes en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Mérain ; à pipes en douelles,merrains à pipes en douelles,,1,2,0,0,0,0,0,0,1,2
 Merain ; douelles,merrains douelles,,1,4,0,0,0,0,0,0,1,4
 Merain ; fonçaille,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merain a baril,merrains à barils,,1,6,0,0,0,0,0,0,1,6
-Merain a barils,merrains à barils,,1,8,0,0,0,0,0,0,1,8
-Merain a barique,merrains à barriques,,1,20,0,0,0,0,0,0,1,20
-Merain A Barique,merrains à barriques,,1,7,0,0,0,0,0,0,1,7
-Merain à Barique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merain a baril,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merain a baril en douelles,merrains à barils en douelles,,1,6,0,0,0,0,0,0,1,6
+Merain a barils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merain a barils en douelles,merrains à barils en douelles,,1,8,0,0,0,0,0,0,1,8
+Merain a barique,merrains à barriques,,1,12,0,0,0,0,0,0,1,12
+Merain A Barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain à Barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain a barique en douelles,merrains à barriques en douelles,,1,8,0,0,0,0,0,0,1,8
+Merain A Barique en douelles,merrains à barriques en douelles,,1,7,0,0,0,0,0,0,1,7
+Merain à Barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 "Merain a barique, buches",merrains à barriques bûches,,0,0,0,0,0,0,0,0,0,0
-Merain a bariques,merrains à barriques,,1,11,0,0,0,0,0,0,1,11
-Merain a Bariques,merrains à barriques,,1,22,0,0,0,0,0,0,1,22
-Merain à bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Mérain a bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merain a bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merain a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Mérain a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merain a bariques ; douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
-Merain à barrils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
+Merain a bariques en douelles,merrains à barriques en douelles,,1,10,0,0,0,0,0,0,1,10
+Merain a Bariques en douelles,merrains à barriques en douelles,,1,22,0,0,0,0,0,0,1,22
+Merain à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Mérain a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain à barrils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merain à barrils en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain a barrique,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
-Merain à barrique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merain a barriques,merrains à barriques,,1,25,0,0,0,0,0,0,1,25
-Merain à barriques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Merain à barrique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain à barrique en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain a barriques,merrains à barriques,,1,5,0,0,0,0,0,0,1,5
+Merain à barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merain a barriques en douelles,merrains à barriques en douelles,,1,20,0,0,0,0,0,0,1,20
+Merain à barriques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
 Merain a Foncaille,merrains à fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merain a pipe,merrains à pipes,,1,14,0,0,0,0,0,0,1,14
-Merain a Pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Merain a pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merain a Pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Merain à Pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Mérain a Pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Merain a pipes,merrains à pipes,,1,50,0,0,0,0,0,0,1,50
-Merain à pipes,merrains à pipes,,1,4,0,0,0,0,0,0,1,4
+Mérain a Pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merain a pipe en douelles,merrains à pipes en douelles,,1,14,0,0,0,0,0,0,1,14
+Merain a Pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Mérain a Pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain a pipes,merrains à pipes,,1,9,0,0,0,0,0,0,1,9
+Merain à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merain a pipes en douelles,merrains à pipes en douelles,,1,41,0,0,0,0,0,0,1,41
+Merain à pipes en douelles,merrain à pipes en douelles,,1,4,0,0,0,0,0,0,1,4
 "Merain a pipes, buches",merrains à pipes bûches,,0,0,0,0,0,0,0,0,0,0
-Merain a quarts,merrains à quart,,1,17,0,0,0,0,0,0,1,17
+Merain a quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merain a quarts en douelles,merrains à quarts en douelles,,1,17,0,0,0,0,0,0,1,17
 Merain a tierçons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
-Merain abarique,merrains à barriques,,1,4,0,0,0,0,0,0,1,4
-Merain de pipes,merrains de pipes,,1,1,0,0,0,0,0,0,1,1
+Merain abarique,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
+Merain abarique en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Merain de pipes,merrains de pipes,,0,0,0,0,0,0,0,0,0,0
+Merain de pipes en douelles,merrains de pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain en douelles,merrains en douelles,,1,6,0,0,0,0,0,0,1,6
+Mérain en douelles,merrains en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain foncail,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merain foncaille,merrains fonçaille,,1,16,0,0,0,0,0,0,1,16
+Merain foncaille,merrains fonçaille,,1,15,0,0,0,0,0,0,1,15
 Merain Foncaille,merrains fonçaille,,1,6,0,0,0,0,0,0,1,6
 Merain fonçaille,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Mérain foncaille,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
+Mérain foncaille,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
 Merain foncaille a barrique,merrains fonçaille à barriques,,1,1,0,0,0,0,0,0,1,1
+Merain foncaille en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
+Mérain foncaille en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merain Foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merain fonsail,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merain Foucail,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merain foutaille,merrains fonçaille,,1,2,0,0,0,0,0,0,1,2
-Merain ganivelle,merrains ganivelles,,1,4,0,0,0,0,0,0,1,4
-Merain pipaille,merrains pipaille,,1,2,0,0,0,0,0,0,1,2
+Merain foutaille,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
+Merain foutaille en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
+Merain ganivelle,merrains ganivelles,,0,0,0,0,0,0,0,0,0,0
+Merain ganivelle en douelles,merrain ganivelles en douelles,,1,4,0,0,0,0,0,0,1,4
+Merain pipaille,merrains pipaille,,0,0,0,0,0,0,0,0,0,0
+Merain pipaille en douelles,merrains pipaille en douelles,,1,2,0,0,0,0,0,0,1,2
 Merain quartage ; douelles,merrains quartage douelles,,1,2,0,0,0,0,0,0,1,2
-Meraina barique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merains a Bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merains a pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Merains a Pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Merains Aquarts,merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Meraina barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Meraina barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merains a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merains a Bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merains a pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merains a Pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merains a pipes en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merains a Pipes en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merains Aquarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merains Aquarts en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Merceri commune,mercerie commune,,1,1,0,0,0,0,0,0,1,1
 Mercerie,mercerie,,1,2769,0,0,0,0,1,1,2,2770
 Mercerie ; ?,mercerie ???,,1,3,0,0,0,0,0,0,1,3
@@ -35663,7 +35819,8 @@ Mereveillon,mereveillon,,1,2,0,0,0,0,0,0,1,2
 Merevillions,mereveillon,,1,1,0,0,0,0,0,0,1,1
 Merevillon,merevillon,,1,13,0,0,0,0,0,0,1,13
 Merevillons,mereveillon,,1,15,0,0,0,0,0,0,1,15
-Merian en Bariques,merrains en barriques,x,1,1,0,0,0,0,0,0,1,1
+Merian en Bariques,merrains en barriques,x,0,0,0,0,0,0,0,0,0,0
+Merian en Bariques en douelles,merrains en barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Meriens,meriers,x,1,1,0,0,0,0,0,0,1,1
 Merieres,meriers,x,1,1,0,0,0,0,0,0,1,1
 Meriers,meriers,x,1,6,0,0,0,0,0,0,1,6
@@ -35671,8 +35828,10 @@ Meriers ; à faire ; échelle,meriers à faire échelles,x,1,1,0,0,0,0,0,0,1,1
 Meriers ; petits,meriers petits,x,1,1,0,0,0,0,0,0,1,1
 Meriezes,meriezes,,1,1,0,0,0,0,0,0,1,1
 Mérin,merrains,,0,0,0,0,0,0,1,2,1,2
-Merin a Bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merin a quarts,merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Merin a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merin a Bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merin a quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merin a quarts en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Merin Foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merlan salés,merlan salé,,1,1,0,0,0,0,0,0,1,1
 Merlans,merlan,,1,2,0,0,0,0,0,0,1,2
@@ -35680,106 +35839,158 @@ Merles,merles,,1,1,0,0,0,0,0,0,1,1
 Merlins,merlin,,1,1,0,0,0,0,0,0,1,1
 Merluche,merluche,,1,78,0,0,0,0,0,0,1,78
 Merluches,merluche,,1,9,0,0,0,0,0,0,1,9
-Merrain,merrains,,1,3,0,0,0,0,1,18,2,21
-Merrain ; a barils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a bariques,merrains à barriques,,1,5,0,0,0,0,0,0,1,5
-Merrain ; à bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a barrils,merrains à barils,,1,4,0,0,0,0,0,0,1,4
+Merrain,merrains,,1,1,0,0,0,0,1,18,2,19
+Merrain ; a barils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merrain ; a barils en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a bariques,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Merrain ; à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain ; a bariques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Merrain ; à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a barrils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a barrils en douelles,merrains à barils en douelles,,1,3,0,0,0,0,0,0,1,3
 Merrain ; a barrique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a barriques,merrains à barriques,,1,22,0,0,0,0,0,0,1,22
+Merrain ; a barriques,merrains à barriques,,1,10,0,0,0,0,0,0,1,10
 Merrain ; a barriques - douelles 3m 1/8,merrains à barriques douelles 3m 1/8,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a bottes,merrains à bottes,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a foncaille,merrains à fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merrain ; a fonçailles,merrains à fonçaille,,1,3,0,0,0,0,0,0,1,3
+Merrain ; a barriques en douelles,merrains à barriques en douelles,,1,12,0,0,0,0,0,0,1,12
+Merrain ; a bottes,merrains à bottes,,0,0,0,0,0,0,0,0,0,0
+Merrain ; a bottes en douelles,merrains à bottes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a foncaille,merrains à fonçaille,,0,0,0,0,0,0,0,0,0,0
+Merrain ; a foncaille en douelles,merrains à fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a fonçailles,merrains à fonçaille,,1,2,0,0,0,0,0,0,1,2
+Merrain ; a fonçailles en douelles,merrains à fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain ; a fonds,merrains à fonds,,1,1,0,0,0,0,0,0,1,1
 Merrain ; a futailles,merrains à futailles,,1,2,0,0,0,0,0,0,1,2
-Merrain ; a pipes,merrains à pipes,,1,15,0,0,0,0,0,0,1,15
-Merrain ; a tierçons,merrains à tierçons,,1,5,0,0,0,0,0,0,1,5
+Merrain ; a pipes,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a pipes en douelles,merrains à pipes en douelles,,1,14,0,0,0,0,0,0,1,14
+Merrain ; a tierçons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
+Merrain ; a tierçons en douelles,merrains à tierçons en douelles,,1,4,0,0,0,0,0,0,1,4
 Merrain ; en foncailles,merrains en fonçaille,,1,2,0,0,0,0,0,0,1,2
 Merrain ; foncaille,merrains fonçaille,,1,7,0,0,0,0,0,0,1,7
 Merrain ; fonçaille,merrains fonçaille,,1,2,0,0,0,0,0,0,1,2
-Merrain ; foncaille - douelles 2m 1/2,merrains foncailles douelles 2m 1/2,,1,1,0,0,0,0,0,0,1,1
+Merrain ; foncaille - douelles 2m 1/2,merrains fonçailles douelles 2m 1/2,,1,1,0,0,0,0,0,0,1,1
 Merrain ; foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merrain ; fonsaille,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
+Merrain ; fonsaille,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
+Merrain ; fonsaille en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain ; futaille,merrains futaille,,1,2,0,0,0,0,0,0,1,2
-Merrain à baril,merrains à barils,,1,1,0,0,0,0,0,0,1,1
-Merrain a barils,merrains à barils,,1,10,0,0,0,0,0,0,1,10
-Merrain a barique,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merrain a Barique,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Merrain à baril,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merrain à baril en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a barils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merrain a barils en douelles,merrains à barils en douelles,,1,10,0,0,0,0,0,0,1,10
+Merrain a barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain a Barique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrain a barique douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a bariques,merrains à barriques,,1,7,0,0,0,0,0,0,1,7
-Merrain a Bariques,merrains à barriques,,1,5,0,0,0,0,0,0,1,5
-Merrain à bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrain a barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a Barique en douelles,merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
+Merrain a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrain a bariques Douelle,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a bariques douelles,merrains à barriques douelles,,1,3,0,0,0,0,0,0,1,3
 Merrain a bariques doüelles,merrains à barriques douelles,,1,5,0,0,0,0,0,0,1,5
 Merrain à bariques douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain à bariques doüelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain à bariques douelles vieilles,merrains à barriques douelles vieilles,,1,1,0,0,0,0,0,0,1,1
-Merrain a barrils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
-Merrain a barrique,merrains à barriques,,1,14,0,0,0,0,0,0,1,14
-Merrain a Barrique,merrains à barriques,,1,6,0,0,0,0,0,0,1,6
-Merrain a barriques,merrains à barriques,,1,86,0,0,0,0,0,0,1,86
-Merrain à barriques,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
-Merrain à Barriques,merrains à barriques,,1,6,0,0,0,0,0,0,1,6
+Merrain a bariques en douelles,merrains à barriques en douelles,,1,7,0,0,0,0,0,0,1,7
+Merrain a Bariques en douelles,merrains à barriques en douelles,,1,5,0,0,0,0,0,0,1,5
+Merrain à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a barrils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merrain a barrils en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a barrique,merrains à barriques,,1,8,0,0,0,0,0,0,1,8
+Merrain a Barrique,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Merrain a barrique en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
+Merrain a Barrique en douelles,merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
+Merrain a barriques,merrains à barriques,,1,32,0,0,0,0,0,0,1,32
+Merrain à barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrain à Barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrain a barriques douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain à Barriques en douelle,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a Bœuf,merrains à bœuf,,1,2,0,0,0,0,0,0,1,2
+Merrain a barriques en douelles,merrains à barriques en douelles,,1,54,0,0,0,0,0,0,1,54
+Merrain à barriques en douelles,merrains à pipes,,1,2,0,0,0,0,0,0,1,2
+Merrain à Barriques en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
+Merrain a Bœuf,merrains à bœuf,,0,0,0,0,0,0,0,0,0,0
+Merrain a Bœuf en douelles,merrains à bœuf en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain a buses doüelles,merrains à buses douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a ferraille,merrains à ferraille,,1,1,0,0,0,0,0,0,1,1
 Merrain a foncaille,merrains à fonçaille,,1,4,0,0,0,0,0,0,1,4
 Merrain a Foncaille,merrains à fonçaille,,1,2,0,0,0,0,0,0,1,2
-Merrain a Foncailles,merrains à fonçaille,,1,1,0,0,0,0,0,0,1,1
+Merrain a Foncailles,merrains à fonçaille,,0,0,0,0,0,0,0,0,0,0
+Merrain a Foncailles en douelles,merrains à fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a fond,merrains à fonds,,1,1,0,0,0,0,0,0,1,1
 Merrain a fonds,merrains à fonds,,1,6,0,0,0,0,0,0,1,6
-Merrain a pipe,merrains à pipes,,1,43,0,0,0,0,0,0,1,43
-Merrain a Pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
-Merrain à Pipe,merrains à pipes,,1,8,0,0,0,0,0,0,1,8
+Merrain a pipe,merrains à pipes,,1,3,0,0,0,0,0,0,1,3
+Merrain a Pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merrain à Pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Merrain à Pipe en douelle,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a pipes,merrains à pipes,,1,23,0,0,0,0,0,0,1,23
-Merrain à pipes,merrains à pipes,,1,4,0,0,0,0,0,0,1,4
-Merrain à Pipes,merrains à pipes,,1,3,0,0,0,0,0,0,1,3
+Merrain a pipe en douelles,merrains à pipes en douelles,,1,40,0,0,0,0,0,0,1,40
+Merrain a Pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain à Pipe en douelles,merrains à pipes en douelles,,1,8,0,0,0,0,0,0,1,8
+Merrain a pipes,merrains à pipes,,1,3,0,0,0,0,0,0,1,3
+Merrain à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merrain à Pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Merrain à pipes ; douelles,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a pipes Douelle,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a pipes douelles,merrains à pipes douelles,,1,8,0,0,0,0,0,0,1,8
 Merrain a pipes doüelles,merrains à pipes douelles,,1,4,0,0,0,0,0,0,1,4
 Merrain à pipes douelles,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain à pipes doüelles,merrains à pipes douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain A Quars,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Merrain a quart,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Merrain a Quart,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Merrain à quart,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Merrain a quarts,merrains à quart,,1,10,0,0,0,0,0,0,1,10
-Merrain a Quarts,merrains à quart,,1,1,0,0,0,0,0,0,1,1
-Merrain a quarts en douelle,merrains à quart douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a pipes en douelles,merrains à pipes en douelles,,1,20,0,0,0,0,0,0,1,20
+Merrain à pipes en douelles,merrains à pipes en douelles,,1,4,0,0,0,0,0,0,1,4
+Merrain à Pipes en douelles,merrains à pipes en douelles,,1,3,0,0,0,0,0,0,1,3
+Merrain A Quars,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain A Quars en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a quart,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain a Quart,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain à quart,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain a quart en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a Quart en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain à quart en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a quarts,merrains à quarts,,1,1,0,0,0,0,0,0,1,1
+Merrain a Quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain a quarts en douelle,merrains à quarts douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a quarts en douelles,merrains à quarts en douelles,,1,9,0,0,0,0,0,0,1,9
+Merrain a Quarts en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a thoneaux,merrains à tonneaux,,1,3,0,0,0,0,0,0,1,3
 Merrain a tiercon,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
 Merrain a tierçon doüelles,merrains à tierçons douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a tiercons,merrains à tierçons,,1,4,0,0,0,0,0,0,1,4
-Merrain a tierçons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
-Merrain a tierson,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
-Merrain Aqua,merrains a quart,,1,1,0,0,0,0,0,0,1,1
-Merrain Arabiques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrain a tiercons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
+Merrain a tierçons,merrains à tierçons,,0,0,0,0,0,0,0,0,0,0
+Merrain a tiercons en douelles,merrains à tierçons en douelles,,1,3,0,0,0,0,0,0,1,3
+Merrain a tierçons en douelles,merrains à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain a tierson,merrains à tierçons,,0,0,0,0,0,0,0,0,0,0
+Merrain a tierson en douelles,merrains à tierçons en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain Aqua,merrains a quarts,,0,0,0,0,0,0,0,0,0,0
+Merrain Aqua en douelles,merrains à quant en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain Arabiques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain Arabiques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain barrillage,merrains barillage,,1,1,0,0,0,0,0,0,1,1
 Merrain barriquage douelles,merrains barricages douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain Basique,merrains barriques,,1,2,0,0,0,0,0,0,1,2
+Merrain Basique,merrains barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain Basique en douelles,merrains basiques en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain cartage,merrains cartage,,1,1,0,0,0,0,0,0,1,1
 Merrain de Maille,merrains de maille,,1,1,0,0,0,0,0,0,1,1
 Merrain en barriques,merrains en barriques,,1,1,0,0,0,0,0,0,1,1
-Merrain en Barriques,merrains en barriques,,1,2,0,0,0,0,0,0,1,2
+Merrain en Barriques,merrains en barriques,,0,0,0,0,0,0,0,0,0,0
+Merrain en Barriques en douelles,merrains en barriques en douelles,,1,2,0,0,0,0,0,0,1,2
+Merrain en douelles,merrains en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain en foncaille,merrains en fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merrain en Pipe,merrains en pipes,,1,1,0,0,0,0,0,0,1,1
+Merrain en Pipe,merrains en pipes,,0,0,0,0,0,0,0,0,0,0
+Merrain en Pipe en douelles,merrains en pipes en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain et feuillard,merrains et feuillards,,1,6,0,0,0,0,0,0,1,6
-Merrain foncaille,merrains fonçaille,,1,38,0,0,0,0,0,0,1,38
-Merrain Foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merrain fonçailles,merrains fonçaille,,1,3,0,0,0,0,0,0,1,3
+Merrain foncaille,merrains fonçaille,,1,31,0,0,0,0,0,0,1,31
+Merrain foncaille en douelles,merrains fonçaille en douelles,,1,7,0,0,0,0,0,0,1,7
+Merrain Foncailles,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
+Merrain fonçailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merrain fonçailles Douelle,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain fonçailles douelles,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain Foncailles en douelles,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain fonçailles en douelles,merrains fonçailles en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain Fouraille,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
 Merrain Fouraille en douelle,merrains fonçaille douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain ganivelle,merrains ganivelles,x,1,9,0,0,0,0,0,0,1,9
-Merrain Ganivelle,merrains ganivelles,,1,2,0,0,0,0,0,0,1,2
+Merrain ganivelle,merrains ganivelles,x,1,3,0,0,0,0,0,0,1,3
+Merrain Ganivelle,merrains ganivelles,,0,0,0,0,0,0,0,0,0,0
 Merrain ganivelle douelles,merrains ganivelles douelles,,1,1,0,0,0,0,0,0,1,1
+Merrain ganivelle en douelles,merraing ganivelles en douelles,,1,6,0,0,0,0,0,0,1,6
+Merrain Ganivelle en douelles,merraing ganivelles en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain pipage,merrains pipage,,1,4,0,0,0,0,0,0,1,4
 Merrain pipage douelles,merrains pipage douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain pipayes,merrains pipage,,1,1,0,0,0,0,0,0,1,1
@@ -35804,10 +36015,12 @@ Merrains ; foncailles,merrains fonçaille,,1,4,0,0,0,0,0,0,1,4
 Merrains a baril doüelles,merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
 Merrains à Bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Merrains à barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merrains à Barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrains à Barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrains à Barriques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrains à bottes,merrains à bottes,,1,1,0,0,0,0,0,0,1,1
 Merrains à busses,merrains à buses,,1,1,0,0,0,0,0,0,1,1
-Merrains a quarts,merrains à quart,,1,1,0,0,0,0,0,0,1,1
+Merrains a quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
+Merrains a quarts en douelles,merrains à quarts en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrains petits,merrains petits,,1,1,0,0,0,0,0,0,1,1
 Merrcerie,mercerie,,1,1,0,0,0,0,0,0,1,1
 Merrein,merrains,,1,1,0,0,0,0,0,0,1,1
@@ -35815,8 +36028,10 @@ Merrein a barriques douelles,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
 Merreins (pour faire des douves de fûts),merrains pour faire des douves de fûts,,0,0,0,0,1,11,0,0,1,11
 Merriers,meriers,,1,4,0,0,0,0,0,0,1,4
 Merrin,merrains,,0,0,0,0,0,0,1,2,1,2
-Merrin a barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
-Merrin a pipe,merrains à pipes,,1,1,0,0,0,0,0,0,1,1
+Merrin a barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
+Merrin a barriques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
+Merrin a pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
+Merrin a pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrrain ; foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merterie,,,1,1,0,0,0,0,0,0,1,1
 Mertuche,merluche,,1,1,0,0,0,0,0,0,1,1
@@ -37839,8 +38054,9 @@ Noir de fume,noir de fumée,,1,5,0,0,0,0,0,0,1,5
 Noir de fumé,noir de fumée,,1,8,0,0,0,0,0,0,1,8
 Noir de Fumé,noir de fumée,,1,1,0,0,0,0,0,0,1,1
 Noir de fumée,noir de fumée,,1,288,0,0,0,0,0,0,1,288
-Noir de Fumée,noir de fumée,,1,34,0,0,0,0,0,0,1,34
+Noir de Fumée,noir de fumée,,1,33,0,0,0,0,0,0,1,33
 Noir De Fumée,noir de fumée,,1,1,0,0,0,0,0,0,1,1
+Noir de Fumée en douelles,noir de fumée en douelles,,1,1,0,0,0,0,0,0,1,1
 Noir de fumer,noir de fumée,,1,6,0,0,0,0,0,0,1,6
 Noir de fumés,noir de fumée,,1,2,0,0,0,0,0,0,1,2
 Noir de sapin,noir de sapin,,0,0,0,0,0,0,0,0,0,0
@@ -44023,7 +44239,7 @@ Planches ; de Prusse,planches de Prusse,,1,39,0,0,0,0,0,0,1,39
 Planches ; de prusse ; ordinaires,planches de Prusse ordinaires,,1,3,0,0,0,0,0,0,1,3
 Planches ; de prusse ; petites,planches de Prusse petites,,1,1,0,0,0,0,0,0,1,1
 Planches ; de rebut,planches de rebut,,1,2,0,0,0,0,0,0,1,2
-Planches ; de sapin,planches de sapin,,1,670,0,0,0,0,0,0,1,670
+Planches ; de sapin,planches de sapin,,1,668,0,0,0,0,0,0,1,668
 Planches ; de Sapin,planches de sapin,,1,15,0,0,0,0,0,0,1,15
 Planches ; de sapin ;,planches de sapin,,1,1,0,0,0,0,0,0,1,1
 Planches ; de sapin ; 1/2 planches,planches de sapin 1/2 planches,,1,1,0,0,0,0,0,0,1,1
@@ -44086,6 +44302,7 @@ Planches ; de sapin ; ordinaires,planches de sapin ordinaires,,1,11,0,0,0,0,0,0,
 Planches ; de sapin ; petites,planches de sapin petites,,1,3,0,0,0,0,0,0,1,3
 Planches ; de sapin ; refendues,planches de sapin refendues,,1,4,0,0,0,0,0,0,1,4
 Planches ; de Sapin commune,planches de sapin commune,,1,1,0,0,0,0,0,0,1,1
+Planches ; de sapin communes,planches de sapin communes,,1,2,0,0,0,0,0,0,1,2
 Planches ; de Sapin communes,planches de sapin communes,,1,1,0,0,0,0,0,0,1,1
 Planches ; de Sapin de 10 pieds,planches de sapin de 10 pieds,,1,1,0,0,0,0,0,0,1,1
 Planches ; de sapin diverses,planches de sapin diverses,,1,1,0,0,0,0,0,0,1,1
@@ -44436,8 +44653,8 @@ Planches de prusses,planches de Prusse,,0,0,0,0,0,0,0,0,0,0
 Planches de prusses de 26 pieds,planches de Prusse de 26 pieds,,1,1,0,0,0,0,0,0,1,1
 Planches de prusses de 38 pieds,planches de Prusse de 38 pieds,,1,1,0,0,0,0,0,0,1,1
 Planches de Rebuts,planches de rebuts,,1,1,0,0,0,0,0,0,1,1
-Planches de sapin,planches de sapin,,1,749,0,0,0,0,1,1,2,750
-Planches de Sapin,planches de sapin,,1,244,0,0,0,0,0,0,1,244
+Planches de sapin,planches de sapin,,1,737,0,0,0,0,1,1,2,738
+Planches de Sapin,planches de sapin,,1,234,0,0,0,0,0,0,1,234
 Planches de sapin ;,planches de sapin,,1,27,0,0,0,0,0,0,1,27
 Planches de sapin ; : de 17 pieds,planches de sapin de 17 pieds,,1,1,0,0,0,0,0,0,1,1
 Planches de sapin ; 10 a 11 pieds,planches de sapin 10 à 11 pieds,,1,1,0,0,0,0,0,0,1,1
@@ -44672,8 +44889,8 @@ Planches de sapin commun,planches de sapin commun,,1,4,0,0,0,0,0,0,1,4
 Planches de Sapin commun,planches de sapin commun,,1,21,0,0,0,0,0,0,1,21
 Planches de sapin commune,planches de sapin communes,,1,2,0,0,0,0,0,0,1,2
 Planches de Sapin commune,planches de sapin communes,,1,24,0,0,0,0,0,0,1,24
-Planches de sapin communes,planches de sapin communes,,1,22,0,0,0,0,0,0,1,22
-Planches de Sapin communes,planches de sapin communes,,1,6,0,0,0,0,0,0,1,6
+Planches de sapin communes,planches de sapin communes,,1,34,0,0,0,0,0,0,1,34
+Planches de Sapin communes,planches de sapin communes,,1,16,0,0,0,0,0,0,1,16
 Planches de Sapin comune,planches de sapin communes,,1,1,0,0,0,0,0,0,1,1
 Planches de sapin comunes,planches de sapin communes,,1,1,0,0,0,0,0,0,1,1
 Planches de sapin d'un pouce d'épaisseur,planches de sapin de 1 pouce d'épaisseur,,1,1,0,0,0,0,0,0,1,1
@@ -45087,7 +45304,8 @@ Platine de cuivre,platines de cuivre,,1,1,0,0,0,0,0,0,1,1
 Platine de fer,platines de fer,,1,2,0,0,0,0,0,0,1,2
 Platines,platines,,1,1,0,0,0,0,0,0,1,1
 Platines ; à fassave,platines à cassave,x,1,1,0,0,0,0,0,0,1,1
-Platines ; de fusils,platines de fusils,,1,4,0,0,0,0,0,0,1,4
+Platines ; de fusils,platines de fusils,,1,3,0,0,0,0,0,0,1,3
+Platines ; de fusils communes,platines de fusils communes,,1,1,0,0,0,0,0,0,1,1
 Platines a cassave,platines à cassave,,1,5,0,0,0,0,0,0,1,5
 Platines a Cassave,platines à cassave,,1,1,0,0,0,0,0,0,1,1
 Platines à cassave,platines à cassave,x,1,3,0,0,0,0,0,0,1,3
@@ -46264,7 +46482,7 @@ Poissons blancs,poisson blanc,,1,1,0,0,0,0,0,0,1,1
 Poissons carpes et tanches,poisson carpe et tanche,,1,1,0,0,0,0,0,0,1,1
 Poissons d'eau douce,poisson d'eau douce,,1,2,0,0,0,0,0,0,1,2
 Poissons D'eau douce,poisson d'eau douce,,1,3,0,0,0,0,0,0,1,3
-Poissons de mer ; de pêche française morue,,,1,1,0,0,0,0,0,0,1,1
+Poissons de mer ; de pêche française morue,Poissons de mer de pêche française morue,,1,1,0,0,0,0,0,0,1,1
 Poissons de mer ; marinés ou à l'huile,poisson de mer mariné ou à l'huile,,1,2,0,0,0,0,0,0,1,2
 Poissons de mer ; morue,poisson de mer morue,,0,0,0,0,0,0,0,0,0,0
 Poissons de mer ; sans désignation,poisson de mer sans désignation,,1,2,0,0,0,0,0,0,1,2
@@ -47477,7 +47695,7 @@ Quart de nonantte a prendre hauteur,quart de nonante à prendre hauteur,,1,1,0,0
 Quart;de momante,quart de nonante,,1,1,0,0,0,0,0,0,1,1
 Quarteaux ; cerclés ; de fer,quarteaux cerclés de fer,,1,1,0,0,0,0,0,0,1,1
 Quartiers de reduction,quartiers de reduction,,1,1,0,0,0,0,0,0,1,1
-Quarts à farine,quart à farine,,1,1,0,0,0,0,0,0,1,1
+Quarts à farine,quarts à farine,,1,1,0,0,0,0,0,0,1,1
 Quarts de nanantes,quart de nonante,,1,1,0,0,0,0,0,0,1,1
 Quarts de nonante,quart de nonante,,1,2,0,0,0,0,0,0,1,2
 Quarts de Nonante,quart de nonante,,1,1,0,0,0,0,0,0,1,1
@@ -58727,7 +58945,7 @@ Tournebroche,tournebroche,,1,7,0,0,0,0,0,0,1,7
 Tournebroches,tournebroche,,1,9,0,0,0,0,0,0,1,9
 Tournes ; viandes,tournes-viandes,,1,1,0,0,0,0,0,0,1,1
 Tourneso,tournesol,,1,1,0,0,0,0,0,0,1,1
-Tournesol,tournesol,,1,270,0,0,0,0,0,0,1,270
+Tournesol,tournesol,,1,271,0,0,0,0,0,0,1,271
 Tournesol ; apresté,tournesol apprêté,,1,2,0,0,0,0,0,0,1,2
 Tournesol ; en herbe,tournesol en herbes,,1,2,0,0,0,0,0,0,1,2
 Tournesol ; en pain,tournesol en pain,,1,5,0,0,0,0,0,0,1,5
@@ -60960,8 +61178,9 @@ Vin du pays,vin du pays,,1,2,0,0,0,0,0,0,1,2
 Vin du Pays,vin du pays,,1,1,0,0,0,0,0,0,1,1
 Vin du Portugal,vin du Portugal,,1,2,0,0,0,0,0,0,1,2
 Vin du rhin,vin du Rhin,,1,11,0,0,0,0,0,0,1,11
-Vin du Rhin,vin du Rhin,,1,58,0,0,0,0,0,0,1,58
+Vin du Rhin,vin du Rhin,,1,57,0,0,0,0,0,0,1,57
 Vin du Rhin de retour,vin du Rhin de retour,,1,1,0,0,0,0,0,0,1,1
+Vin du Rhin en douelles,,,1,1,0,0,0,0,0,0,1,1
 Vin du Rhône,vin du Rhône,,1,2,0,0,0,0,0,0,1,2
 Vin du Rhum,vin du Rhin,x,1,1,0,0,0,0,0,0,1,1
 Vin du rin,vin du Rhin,,1,1,0,0,0,0,0,0,1,1
