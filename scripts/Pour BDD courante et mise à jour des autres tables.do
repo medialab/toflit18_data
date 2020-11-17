@@ -977,7 +977,7 @@ gen best_guess_national_prodxpart = 0
 **Nouveau nom : best_guess_national_prodxpart
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires"  | ///
-		(source_type=="Tableau des Quantités" & year >=1822)
+		(source_type=="Tableau des quantités" & year >=1822)
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
