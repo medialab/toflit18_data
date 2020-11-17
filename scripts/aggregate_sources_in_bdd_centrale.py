@@ -92,7 +92,7 @@ def add_calculated_fields_to_line(d):
 
         # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
         if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]):
-            d["replace_computed_up"]=1
+            d["computed_up"]=1
             q=clean_float_string(d["quantity"])
             v=clean_float_string(d["value"])
             try:
@@ -103,10 +103,10 @@ def add_calculated_fields_to_line(d):
 
             # nb_computed_value+=1
         else :
-            d["replace_computed_up"]=0
+            d["computed_up"]=0
             
             
-        # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
+        # Was the quantity computed expost based on and unit price and value ? 0 no 1 yes
         if empty_value(d["quantity"]) and not empty_value(d["value"]) and not empty_value(d["value_per_unit"]):
             d["computed_quantity"]=1
             pu=clean_float_string(d["value_per_unit"])
@@ -121,9 +121,7 @@ def add_calculated_fields_to_line(d):
         else :
             d["computed_quantity"]=0  
             
-            
-            
-            
+                  
 
     # transform "." and "?" into ""
     for field in ["value","quantity","value_per_unit"]:
@@ -156,7 +154,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     # headers = [h for h in  headers if h not in ordered_headers]
     headers = [h for h in ordered_headers] #+headers
     if with_calculated_values:
-        for extra_header in ["value_as_reported", "computed_value", "replace_computed_up", "best_guess_national_prodxpart","best_guess_national_partner", "best_guess_department_prodxpart", "best_guess_national_department" ]:
+        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national_prodxpart","best_guess_national_partner", "best_guess_department_prodxpart", "best_guess_national_department" ]:
             if extra_header not in headers:
                 headers+=[extra_header]
 

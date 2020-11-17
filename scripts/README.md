@@ -61,15 +61,16 @@ A variant of this script add custom variables when aggregating: **value imputati
 cd scripts
 python aggregate_sources_in_bdd_centrale_with_calculations.py
 ```
-This scripts adds seven variables to bdd_centrale.csv :
+This scripts adds eight variables to bdd_centrale.csv :
 ```bash 
 35  value_as_reported
 36  computed_value
-37  replace_computed_up
-38  best_guess_national_prodxpart
-39  best_guess_national_partner
-40  best_guess_department_prodxpart
-41  best_guess_national_department
+37  computed_up
+38  computed_quantity
+39  best_guess_national_prodxpart
+40  best_guess_national_partner
+41  best_guess_department_prodxpart
+42  best_guess_national_department
 ```
 
 # split bdd_centrale.csv into sources
