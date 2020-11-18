@@ -158,63 +158,87 @@ drop max_value tag
 
 *GD20200710 Bien sûr, se pose la question de savoir quoi en faire si on prend le log des flux...
 
+
+*********************************************Fin de la préparation des données
+
+*total trade per year
+bys year natlocal : egen total_trade = total(value)
+
 *** isolate grains (Rq : il faut faire le fillin avant !)
 drop if product_grains=="Pas grain (0)"
 drop if product_grains=="."
 encode product_grains, generate(grains_num)
-
-*********************************************Fin de la préparation des données
 ***create sum of locals and variables giving number of directions (same for imports and exports in every year except 1789)
-collapse (sum) value, by(year importexport natlocal)
+collapse (sum) value, by(year importexport natlocal total_trade)
 save national_temp.dta, replace
 drop if natlocal=="National"
-
-egen n_directions=nvals(natlocal), by(year)
-*** deal with 1789
 *gen n_directions=doublen_directions/2
+egen n_directions=nvals(natlocal), by(year)
 
-collapse (sum) value, by(year importexport n_directions)
+*** create sum of reporting directions including number of direction reporting for each year
+collapse (sum) value total_trade, by(year importexport n_directions)
+*** add again data for individual directions and national
 append using national_temp.dta
 erase national_temp.dta
-
+*** keep only national data and sum of local direction ***BRANCH HERE IF YOU WANT TO KNOW WHICH DIRECTIONS ARE MORE INTO EXPORTS AND WHICH MORE INTO IMPORTS
 keep if natlocal==""| natlocal=="National"
-**** redistribute
-save national_temp.dta
+replace natlocal="sum of reporting offices" if natlocal!="National"
+****separate guess series and real one
+gen guess_value=.
+replace guess_value=value if natlocal=="sum of reporting offices"
+gen guess_total_trade=.
+replace guess_total_trade=total_trade if natlocal=="sum of reporting offices"
+replace value=. if natlocal=="sum of reporting offices"
+replace total_trade=. if natlocal=="sum of reporting offices"
+***recombine them by merge on year
+**clean local
+save national_temp.dta, replace
 drop if natlocal=="National"
-rename value local_total
+drop value total_trade
 save local_temp.dta, replace
-use national_temp.dta, clear
-drop if natlocal!="National"
-drop n_directions
+**clean national
+use national_temp.dta
+drop if natlocal=="sum of reporting offices"
+drop guess_value guess_total_trade n_direction
+**merge
 merge 1:1 year importexport using local_temp.dta
-****
-sort year importexport
-
-
-***
-drop natlocal
 drop _merge
+erase national_temp.dta 
+*** compute total value_inclusive by year BRANCH HERE IF YOU WANT TO CALCULATE IMPORTANCE OF GRAIN TRADE (IMPORTS AND EXPORTS) ON TOTAL
+bys year importexport : egen grain_trade = total(value)
+bys year importexport : egen guess_grain_trade = total(guess_value)
 
-***reshape import and export
-reshape wide value local_total, i(year n_directions) j(importexport)
-rename value1 export
-rename value0 import
-rename local_total0 local_import
-rename local_total1 local_export
+*** compute yearly ratio
+bys year importexport : gen g_ratio=(grain_trade/total_trade)*100
+bys year importexport : gen guess_g_ratio=(guess_grain_trade/guess_total_trade)*100
+***period var
+gen period=1
+replace period=2 if year>1749 & year<1790
+replace period=3 if year>1789
+
+***drop grain_trade and total_trade in order to reshape
+drop grain_trade total_trade value guess_grain_trade guess_total_trade guess_value
+
+*reshape wide g_ratio, i(year grouping_classification source_type_encode) j(importexport)
+reshape wide n_directions g_ratio guess_g_ratio, i( year natlocal period) j(importexport)
+rename g_ratio0 import_ratio
+rename g_ratio1 export_ratio
+rename guess_g_ratio0 guess_import_ratio
+rename guess_g_ratio1 guess_export_ratio
+**ts
 replace year=1806 if year==1805.75
-
-
-
-
 tsset year
 tsfill
-* graph for geography == national
 
-twoway (line import year , yaxis(1) ) (line export year , yaxis(1)) (line local_import year , yaxis(1) ) (line local_export year , yaxis(1)) (scatter n_directions year, yaxis(2))
-***generate net export
-gen netexport=export-import
-gen local_netexport=local_export-local_import
-twoway (line netexport year , yaxis(1) ) (line local_netexport year if year<1754 | year>1760&year<1768, yaxis(1)) 
+***GRAPH THIS TO SHOW HOW THE PERCENTAGE EVOLVED OVER TIME
+twoway (tsline export_ratio , cmissing(no) yaxis(1) ytitle("share") xlabel(#15,grid)  xmtick(##15)) (tsline import_ratio, cmissing(no) yaxis(1) ytitle("share") xlabel(#15,grid)  xmtick(##15)) (scatter n_directions0 year) (tsline guess_export_ratio , cmissing(no) yaxis(1) ytitle("share") xlabel(#15,grid)  xmtick(##15)) (tsline guess_import_ratio, cmissing(no) yaxis(1) ytitle("share") xlabel(#15,grid)  xmtick(##15)) 
+
+graph export "C:\Users\federico.donofrio\Dropbox\Papier Grains\112020share_of_grains.png", replace
+
+collapse (mean) guess_import_ratio import_ratio guess_export_ratio export_ratio, by (period)
+
+
+
 
 
 

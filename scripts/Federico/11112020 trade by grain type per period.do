@@ -1,14 +1,10 @@
-
-
-
-
-
 if "`c(username)'" =="federico.donofrio" {
 	*import delimited "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.csv", varnames(1) encoding(UTF-8) 
 	**GD20200710 Déjà, cela c’est assez suspect. Il faut exploiter le .zip qui est intégré dans le git, plutôt ? Tu peux unzipper depuis stata
 	*avec la commande unzipfile
-	*save "C:\Users\federico.donofrio\Documents\TOFLIT desktop\Données Stata\bdd courante.dta", replace
+	*save "C:\Users\federico.donofrio\Documents\GitHub\Données Stata\bdd courante.dta", replace
 	global dir "C:\Users\federico.donofrio\Documents\GitHub\"
+	
 }
 
 if "`c(username)'" =="guillaumedaudin" {
@@ -19,9 +15,9 @@ if "`c(username)'" =="guillaumedaudin" {
 clear
 cd `"$dir"'
 capture log using "`c(current_time)' `c(current_date)'"
-/*À faire pour récupérer les données
-unzipfile "toflit18_data_GIT/base/bdd courante.csv.zip", replace
-insheet using "toflit18_data_GIT/base/bdd courante.csv", clear
+*À faire pour récupérer les données
+unzipfile "toflit18_data_GIT\base/bdd courante.csv.zip", replace
+insheet using "toflit18_data_GIT\base/bdd courante.csv", clear
 save "Données Stata/bdd courante.dta", replace
 */
 
