@@ -82,7 +82,7 @@ line_number,source_type,year,tax_department,tax_office,partner,export_import,pro
 5267,Local,1775,Bayonne,,Espagne,Imports,Reglisse,,,2520,,25200,livres,.1,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
 5268,Local,1775,Bayonne,,Espagne,Imports,Ris,,,1000,,5000,livres,.2,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
 5269,Local,1775,Bayonne,,Espagne,Imports,Sangles,,,66,,132,en nombre,.5,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
-5270,Local,1775,Bayonne,,Espagne,Imports,Sardines fraiches,,,129.63,,16204000,en nombre,.008,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,"erreur de calcul, a divisé deux fois par 1000.",-129502.37,,,,,,,,,,
+5270,Local,1775,Bayonne,,Espagne,Imports,Sardines fraiches,,,129630,,16204,milliers,8,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,"erreur de calcul, a divisé deux fois par 1000. Le prix a l'air bon, la quantité aussi. Donc je multiplie la valeur par 1000",-129502.37,,,,,,,,,,
 5271,Local,1775,Bayonne,,Espagne,Imports,Souliers,,,660,,220,paires,3,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
 5272,Local,1775,Bayonne,,Espagne,Imports,Suif,,,43726.5,,97170,livres,.45,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
 5273,Local,1775,Bayonne,,Espagne,Imports,Toile ; bazin,,,720,,120,livres,6,sources/Local/AD64_2_ETP_105_Bayonne_Imports_1775.csv,AD64 2 ETP 105,4,,,,,Pascal Fontaine,,,0,,,,,,,,,,
