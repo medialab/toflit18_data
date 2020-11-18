@@ -92,7 +92,7 @@ def add_calculated_fields_to_line(d):
 
         # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
         if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]):
-            d["replace_computed_up"]=1
+            d["computed_up"]=1
             q=clean_float_string(d["quantity"])
             v=clean_float_string(d["value"])
             try:
@@ -103,7 +103,25 @@ def add_calculated_fields_to_line(d):
 
             # nb_computed_value+=1
         else :
-            d["replace_computed_up"]=0
+            d["computed_up"]=0
+            
+            
+        # Was the quantity computed expost based on and unit price and value ? 0 no 1 yes
+        if empty_value(d["quantity"]) and not empty_value(d["value"]) and not empty_value(d["value_per_unit"]):
+            d["computed_quantity"]=1
+            pu=clean_float_string(d["value_per_unit"])
+            v=clean_float_string(d["value"])
+            try:
+                d["quantity"] = float(v)/float(pu)
+            except:
+                print("can't parse to float q: '%s' v:'%s' "%(pu,v))
+                d["quantity"]=""
+
+            # nb_computed_value+=1
+        else :
+            d["computed_quantity"]=0  
+            
+                  
 
     # transform "." and "?" into ""
     for field in ["value","quantity","value_per_unit"]:
@@ -136,7 +154,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     # headers = [h for h in  headers if h not in ordered_headers]
     headers = [h for h in ordered_headers] #+headers
     if with_calculated_values:
-        for extra_header in ["value_as_reported", "computed_value", "replace_computed_up", "national_product_best_guess","national_geography_best_guess", "local_product_best_guess", "local_geography_best_guess" ]:
+        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national_prodxpart","best_guess_national_partner", "best_guess_department_prodxpart", "best_guess_national_department" ]:
             if extra_header not in headers:
                 headers+=[extra_header]
 
@@ -174,21 +192,26 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     add_calculated_fields_to_line(line)
 
                                     # compute Best guess source type
-                                    # national_product_best_guess
+                                    # best_guess_national_prodxpart
                                     year = normalize_year(line['year']) # republican calendar back to current
-                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires":
-                                        line['national_product_best_guess'] = 1
-                                        best_guess_year_index['national_product_best_guess'].add(year)
-                                    # national_geography_best_guess
-                                    if line['source_type']=="Tableau Général" or line['source_type']=="Résumé":
-                                        line['national_geography_best_guess'] = 1
-                                    # local_product_best_guess
+                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                        line['best_guess_national_prodxpart'] = 1
+                                        best_guess_year_index['best_guess_national_prodxpart'].add(year)
+                                    # best_guess_national_partner
+                                    if line['source_type']=="Tableau Général" or line['source_type']=="Résumé" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                        line['best_guess_national_partner'] = 1
+                                    # best_guess_department_prodxpart
                                     if (line['source_type']=="Local" and year != 1750) or (line['source_type']== "National toutes directions tous partenaires" and year == 1750):
-                                        line['local_product_best_guess'] = 1 
+                                        line['best_guess_department_prodxpart'] = 1 
+                                    if line['tax_department']=="Rouen" and line['export_import']=="Imports" and (year==1737 or (year>= 1739 & year<=1749) or year==1754 or (year>=1756 & year <=1762)):
+                                    	line['best_guess_department_prodxpart'] = ""
+                                    # best_guess_national_department
                                     if line['source_type']=="National toutes directions sans produits" or (line['source_type'] == "National toutes directions tous partenaires" and year == 1750):
-                                        line['local_geography_best_guess'] = 1
-                                        best_guess_year_index['local_geography_best_guess'].add(year)
-
+                                        line['best_guess_national_department'] = 1
+                                        best_guess_year_index['best_guess_national_department'].add(year)
+                                    if line['source_type'] =="National toutes directions partenaires manquants":
+                                    	line['best_guess_national_department'] = 1
+                                    	best_guess_year_index['best_guess_national_department'].add(year)
                                 writer.writerow(line)
     if with_calculated_values:
         # compute best guess secondary variables
@@ -199,12 +222,12 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
             writer.writeheader()
             for flow in reader:
                 year = normalize_year(flow['year'])
-                # national_product_best_guess
-                if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['national_product_best_guess'] :
-                    flow['national_product_best_guess'] = 1
-                # local_geography_best_guess
-                if flow['source_type'] == 'local' and year in best_guess_year_index['local_geography_best_guess']:
-                    flow['local_geography_best_guess'] = 1
+                # best_guess_national_prodxpart
+                if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['best_guess_national_prodxpart'] :
+                    flow['best_guess_national_prodxpart'] = 1
+                # best_guess_national_department
+                if flow['source_type'] == 'local' and year in best_guess_year_index['best_guess_national_department']:
+                    flow['best_guess_national_department'] = 1
                 writer.writerow(flow)
         # finally replace original file with the tmp one
         os.replace('./bdd_centrale_tmp.csv', output_filename)

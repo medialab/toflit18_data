@@ -6,11 +6,17 @@ capture ssc install missings
 **pour mettre les bases dans stata + mettre à jour les .csv
 ** version 2 : pour travailler avec la nouvelle organisation
 
-global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+if "`c(username)'" =="guillaumedaudin" {
+	global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+	global dir_git "$dir/toflit18_data_GIT"
+}
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
-if "`c(username)'"=="Tirindelli" global dir "/Users/Tirindelli/Google Drive/ETE/Thesis"
+if "`c(username)'"=="Tirindelli"{
+	global dir "/Users/Tirindelli/Google Drive/Hamburg"
+	global dir_git "$dir/toflit18_data"
+}
 
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
 
@@ -40,9 +46,9 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
 */				 classification_product_threesectorsM	{
 
-	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
+	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
-
+/*
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -53,32 +59,12 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 		capture replace `variable'  =usubinstr(`variable',"’","'",.)
 		capture	replace `variable'  =ustrtrim(`variable')
 	}
-
+*/
 	capture destring nbr*, replace float
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/`file'.dta", replace
  
 }
-
-foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
-			"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
-	
-	use "`file'", clear
-	foreach variable of var * {
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
-		capture	replace `variable'  =usubinstr(`variable',"…","...",.)
-		capture replace `variable'  =usubinstr(`variable',"u","œ",.) 
-		capture replace `variable'  =usubinstr(`variable'," "," ",.)/*Pour espace insécable*/
-		capture replace `variable'  =usubinstr(`variable',"’","'",.)
-		capture	replace `variable'  =ustrtrim(`variable')
-	}
-	replace product = ustrupper(usubstr(product,1,1),"fr")+usubstr(product,2,.)
-	save "`file'", replace
-}
-
-
 
 
 use "Données Stata/classification_quantityunit_simplification.dta", clear
@@ -95,8 +81,28 @@ replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,
 destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 
+cd "$dir_git/base"
+unzipfile "bdd_centrale.csv.zip", replace
 
-import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+
+if "`c(username)'" !="guillaumedaudin"{
+	cd "$dir_git/base/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/"
+	import delimited "bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
+	cd "$dir_git/base/"
+*	erase "Users"
+} 
+
+else import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
+
+/*
+gen str2000 partnershort=partner
+drop partner
+rename partnershort partner
+*/
+
+compress *
+
+/*
 foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -125,6 +131,7 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 	replace `variable' ="" if missing(real(`variable')) & `variable' != ""
 }
 
+*/
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
 destring quantity value_per_unit value, replace
@@ -143,16 +150,16 @@ replace product = upper(substr(product,1,1))+substr(product,2,.)
 capture drop v24
 
 
-
+cd "$dir"
 
 save "Données Stata/bdd_centrale.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
+export delimited "$dir_git/base/bdd_centrale.csv", replace
+*zipfile "$dir_git/base/bdd_centrale.csv", saving("$dir_git/base/bdd_centrale.csv.zip", replace)
 
 */
 
 
-
+cd "$dir/Données Stata"
 ****************************BDD courante
 
 use "bdd_centrale.dta", clear
@@ -318,7 +325,7 @@ drop if _merge==2
  sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
- export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
+ export delimited "$dir_git/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
@@ -357,7 +364,7 @@ save "$dir/Données Stata/bdd courante", replace
  
  /*
  ***Pour valeurs absurdes -- C’est maintenant dans les sources
- do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
+ do "$dir_git/scripts/To flag values & quantities in error.do"
  */
  *save "$dir/Données Stata/bdd courante.dta", replace
  
@@ -372,7 +379,8 @@ gen best_guess_national_prodxpart = 0
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
-		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires"  | ///
+		(source_type=="Tableau des quantités" & year >=1822)
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
@@ -382,7 +390,8 @@ gen best_guess_national_partner = 0
 **Sources qui donnent la répartition du commerce français en valeur par partenaire
 **Ancien nom national_geography_best_guess
 **Nouveau nom  best_guess_national_partner	
-replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
+replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" | ///
+		(source_type=="Tableau des Quantités" & year >=1822)
 
 capture drop best_guess_department_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
@@ -411,15 +420,32 @@ drop year_CN
 *use "$dir/Données Stata/bdd courante.dta", clear
 
 generate byte computed_value = 0
+**On donne la priorité aux valeurs calculées quand c’est possible : il y a beacoup d’erreurs de calcul dans les sources
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+generate value_as_reported = value
 replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
 replace value = quantity*value_per_unit if computed_value==1
+replace value = quantity*value_per_unit if quantity*value_per_unit !=.
+replace computed_value=1 if value != value_as_reported
 
 gen byte computed_value_per_unit = 0
 label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
 replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) & value!=0 & value!=. ///
 				& quantity!=0 & quantity!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
 replace value_per_unit = value/quantity  if computed_value_per_unit ==1
+
+gen byte computed_quantity = 0
+label var computed_quantity "Was the quantity computed expost based on and quantities and value ? 0 no 1 yes"
+replace computed_quantity = 1 if (quantity==. | quantity==0) & value_per_unit!=0 & value_per_unit !=. ///
+				& value_per_unit!=0 & value_per_unit!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
+replace quantity = value/value_per_unit  if computed_quantity ==1
+
+destring value_minus_unit_val_x_qty, replace
+rename value_minus_unit_val_x_qty value_minus_un_source
+gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
+
+
+
 
 
 
@@ -435,9 +461,9 @@ sort source_type tax_department year export_import line_number
 order line_number source_type year tax_department partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
- 
-export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
-*export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+cd "$dir_git/base"
+export delimited "bdd courante_avec_out.csv", replace
+*export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
@@ -445,9 +471,9 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 
 drop if source_type=="Out"
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
-		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
+export delimited "$dir_git/base/bdd courante.csv", replace
+zipfile "$dir_git/base/bdd courante.csv", /*
+		*/ saving("$dir_git/base/bdd courante.csv.zip", replace)
 drop if source_type=="Out"
 save "$dir/Données Stata/bdd courante.dta", replace
 

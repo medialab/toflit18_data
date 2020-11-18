@@ -204,7 +204,8 @@ capture drop v24
 
 save "Données Stata/bdd_centrale.dta", replace
 export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd_centrale.csv", saving("$dir/toflit18_data_GIT/base/bdd_centrale.csv.zip", replace)
+cd "$dir/toflit18_data_GIT/base"
+zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
 */
 
@@ -975,7 +976,8 @@ gen best_guess_national_prodxpart = 0
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
-		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires"  | ///
+		(source_type=="Tableau des quantités" & year >=1822)
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
@@ -985,7 +987,8 @@ gen best_guess_national_partner = 0
 **Sources qui donnent la répartition du commerce français en valeur par partenaire
 **Ancien nom national_geography_best_guess
 **Nouveau nom  best_guess_national_partner	
-replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" 
+replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" | ///
+		(source_type=="Tableau des Quantités" & year >=1822)
 
 capture drop best_guess_department_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
@@ -1014,9 +1017,14 @@ drop year_CN
 *use "$dir/Données Stata/bdd courante.dta", clear
 
 generate byte computed_value = 0
+**On donne la priorité aux valeurs calculées quand c’est possible : il y a beacoup d’erreurs de calcul dans les sources
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
+generate value_as_reported = value
 replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
 replace value = quantity*value_per_unit if computed_value==1
+replace value = quantity*value_per_unit if quantity*value_per_unit !=.
+replace computed_value=1 if value != value_as_reported
+
 
 gen byte computed_value_per_unit = 0
 label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
@@ -1024,9 +1032,17 @@ replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) &
 				& quantity!=0 & quantity!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
 replace value_per_unit = value/quantity  if computed_value_per_unit ==1
 
+gen byte computed_quantity = 0
+label var computed_quantity "Was the quantity computed expost based on and quantities and value ? 0 no 1 yes"
+replace computed_quantity = 1 if (quantity==. | quantity==0) & value_per_unit!=0 & value_per_unit !=. ///
+				& value_per_unit!=0 & value_per_unit!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
+replace quantity = value/value_per_unit  if computed_quantity ==1
+
+
+
 destring value_minus_unit_val_x_qty, replace
 rename value_minus_unit_val_x_qty value_minus_un_source
-gen value_minus_unit_val_x_qty = value-(value_per_unit*quantity)
+gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
 
 
 
@@ -1056,9 +1072,9 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 drop if source_type=="Out"
 drop if absurd_value=="absurd" | absurd_quantity=="absurd"
 export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
-zipfile "$dir/toflit18_data_GIT/base/bdd courante.csv", /*
-		*/ saving("$dir/toflit18_data_GIT/base/bdd courante.csv.zip", replace)
-drop if source_type=="Out"
+
+cd "$dir/toflit18_data_GIT/base/"
+zipfile "bdd courante.csv", saving("bdd courante.csv.zip", replace)
 save "$dir/Données Stata/bdd courante.dta", replace
 
 

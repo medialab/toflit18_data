@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,luxe_dans_SITC,obsolete,nbr_occurences_luxe_dans_SITC
-,9,,non,764224
+,3,,non,764224
 ???,3471,,non,764224
 ??? blanc,2,,non,764224
 ??? brun,2,,non,764224
@@ -24,7 +24,7 @@ simplification,nbr_occurences_simpl,luxe_dans_SITC,obsolete,nbr_occurences_luxe_
 ??? raisins secs,1,,non,764224
 ???sse,1,,non,764224
 ?ufs,0,,non,764224
-[non traité],94523,,non,764224
+[non traité],94486,,non,764224
 [vide],6231,,non,764224
 à l'aventure,25,,non,764224
 à son lest,4,,non,764224
@@ -115,7 +115,7 @@ agneaux communs,8,,non,764224
 agneaux en vie,5,,non,764224
 agneaux et cabris,0,,non,764224
 agneaux mérinos et métis,7,,non,764224
-agnelines et crottelins,0,,non,764224
+agnelines et crottelins,36,,non,764224
 agobille,2,,non,764224
 agoutals,4,,non,764224
 agoutals de bois,5,,non,764224
@@ -1468,21 +1468,21 @@ bœuf salé pour l'entrepôt des Îles,3,,non,764224
 bœuf taureau,5,,non,764224
 bœuftins et génisses,0,,non,764224
 bois,6118,,non,764224
-bois à bâtir,7,,non,764224
-bois à brûler,9,,non,764224
-bois à cannes,1,,non,764224
-bois à fusil,2,,non,764224
-bois à quart,2,,non,764224
-bois à teindre moulu,17,,non,764224
-bois à tourner,1,,non,764224
-bois à travailler,1,,non,764224
-bois à visser,1,,non,764224
+bois à bâtir,7,,oui,764224
+bois à brûler,9,,oui,764224
+bois à cannes,1,,oui,764224
+bois à fusil,2,,oui,764224
+bois à quart,1,,oui,764224
+bois à teindre moulu,17,,oui,764224
+bois à tourner,1,,oui,764224
+bois à travailler,1,,oui,764224
+bois à visser,1,,oui,764224
 bois amer,2,,non,764224
 bois au daumes,3,,non,764224
 bois barres de guindeau,1,,non,764224
 bois billots,1,,non,764224
 bois blanc,4,,non,764224
-bois bordage,54,,non,764224
+bois bordage,53,,non,764224
 bois bourdilles,21,,non,764224
 bois bourdillons,17,,non,764224
 bois boway de chêne,1,,non,764224
@@ -1540,7 +1540,7 @@ bois d'orme,9,,non,764224
 bois d'ormeau,1,,non,764224
 bois d'osier,32,,non,764224
 bois de ???,1,,non,764224
-bois de 5 pieds,1,,non,764224
+bois de 5 pieds,0,,non,764224
 bois de bordage,4,,non,764224
 bois de bordage de chêne,1,,non,764224
 bois de bordage de sapin,1,,non,764224
@@ -1587,7 +1587,7 @@ bois de charron,1,,non,764224
 bois de charronnage,22,,non,764224
 bois de châtaignier,3,,non,764224
 bois de châtaignier en planches,1,,oui,764224
-bois de chêne,126,,non,764224
+bois de chêne,124,,non,764224
 bois de chêne 30 pieds,1,,non,764224
 bois de chêne à poutres,1,,non,764224
 bois de chêne à sommiers,2,,non,764224
@@ -1720,7 +1720,7 @@ bois de santal mouton,1,,non,764224
 bois de santal pour teinture,1,,non,764224
 bois de santal rouge,4,,non,764224
 bois de sap,1,,non,764224
-bois de sapin,108,,non,764224
+bois de sapin,106,,non,764224
 bois de sapin de 18 pieds,1,,non,764224
 bois de sapin de 2 à 3 pieds,1,,non,764224
 bois de sapin de 20 à 30 pieds,1,,non,764224
@@ -1780,7 +1780,7 @@ bois des Indes pour teinture et marqueterie,18,,non,764224
 bois des Indes râpé,19,,non,764224
 bois des Indes rose,1,,non,764224
 bois des Indes rouge,5,,non,764224
-bois dit à fond,1,,non,764224
+bois dit à fond,1,,oui,764224
 bois dit ricter,0,,non,764224
 bois dit schaelen ou rebuts de bois,0,,non,764224
 bois dit weres,0,,non,764224
@@ -1811,7 +1811,8 @@ bois exotique de teinture,1,,non,764224
 bois exotique de teinture en morceaux et Pernambouc,1,,non,764224
 bois flotté en étançon rond,1,,non,764224
 bois fonçaille,1,,non,764224
-bois fond à castor,1,,non,764224
+bois fond à castor,1,,oui,764224
+bois fonds à castor,1,,non,764224
 bois fustet,103,,non,764224
 bois gaïac,4,,non,764224
 bois gros,3,,non,764224
@@ -1827,7 +1828,8 @@ bois lourd,359,,non,764224
 bois marbré,26,,non,764224
 bois marbré de 6 pieds,1,,non,764224
 bois marbré en bûches,2,,non,764224
-bois merrains à cardines,1,,non,764224
+bois merrains à cardines,1,,oui,764224
+bois merrains pour cardines,1,,non,764224
 bois moulu,4,,non,764224
 bois néphrétique,7,,non,764224
 bois odorants,4,,non,764224
@@ -1838,14 +1840,15 @@ bois petit de rouage,2,,non,764224
 bois portatif dit neyster,0,,non,764224
 bois pour arbalètes,0,,non,764224
 bois pour banquière,2,,non,764224
-bois pour barils,19,,non,764224
+bois pour barils,17,,non,764224
 bois pour barils long,1,,non,764224
 bois pour barils non scié,0,,non,764224
 bois pour barils ordinaire,1,,non,764224
-bois pour barils pour fond,1,,non,764224
-bois pour barrique,5,,non,764224
+bois pour barils pour fond,1,,oui,764224
+bois pour barils pour fonds,1,,non,764224
+bois pour barrique,4,,non,764224
 bois pour basse,1,,non,764224
-bois pour bâtir,70,,non,764224
+bois pour bâtir,77,,non,764224
 bois pour bâtir de 14 pieds de long,1,,non,764224
 bois pour bats,4,,non,764224
 bois pour bâts,4,,non,764224
@@ -1853,7 +1856,7 @@ bois pour battes de chêne,1,,non,764224
 bois pour boîtes,3,,non,764224
 bois pour bordage,1,,non,764224
 bois pour boucles,1,,non,764224
-bois pour brûler,690,,non,764224
+bois pour brûler,699,,non,764224
 bois pour brûler d'orme,1,,non,764224
 bois pour brûler de chêne,1,,non,764224
 bois pour brûler de gite,1,,non,764224
@@ -1861,6 +1864,7 @@ bois pour brûler en ???,2,,non,764224
 bois pour brûler et autres,2,,non,764224
 bois pour brûler et fagots,1,,non,764224
 bois pour cabanière,1,,non,764224
+bois pour cannes,1,,non,764224
 bois pour cercle,2,,non,764224
 bois pour chaise,0,,non,764224
 bois pour charpente,2,,non,764224
@@ -1891,10 +1895,11 @@ bois pour éventail,2,,non,764224
 bois pour éventail de nacre de perle,1,,non,764224
 bois pour faire sabot,0,,non,764224
 bois pour faux,1,,non,764224
-bois pour fond,8,,non,764224
+bois pour fond,7,,oui,764224
+bois pour fonds,8,,non,764224
 bois pour fourreau,2,,non,764224
 bois pour fourreau d'épée,7,,non,764224
-bois pour fusil,2,,non,764224
+bois pour fusil,4,,non,764224
 bois pour futaille,2,,non,764224
 bois pour gabares,4,,non,764224
 bois pour gaine,3,,non,764224
@@ -1911,10 +1916,11 @@ bois pour palissade et terrasse,0,,non,764224
 bois pour paniers,4,,non,764224
 bois pour parquet,1,,non,764224
 bois pour peinture et teinture,3,,non,764224
-bois pour pipe,10,,non,764224
+bois pour pipe,7,,oui,764224
 bois pour plafond,2,,non,764224
 bois pour poinçon,1,,non,764224
 bois pour pompe,1,,non,764224
+bois pour quarts,1,,oui,764224
 bois pour quilles de navire,1,,non,764224
 bois pour sommier,5,,non,764224
 bois pour tamis,27,,non,764224
@@ -1922,11 +1928,15 @@ bois pour tanin,1,,non,764224
 bois pour tapis,1,,non,764224
 bois pour teindre,364,,non,764224
 bois pour teindre en bûches,14,,non,764224
+bois pour teindre moulu,17,,non,764224
 bois pour teindre râpé,1,,non,764224
 bois pour teinture,1,,non,764224
-bois pour tierçon,2,,non,764224
+bois pour tierçon,1,,oui,764224
 bois pour tonneaux,17,,non,764224
+bois pour tourner,1,,non,764224
+bois pour travailler,1,,non,764224
 bois pour violon,1,,non,764224
+bois pour visser,1,,non,764224
 bois préparé pour charpente et autres ouvrages,0,,non,764224
 bois préparé pour ouvrages,0,,non,764224
 bois râpé,2,,non,764224
@@ -2243,13 +2253,16 @@ bouras de soie,1,,non,764224
 bouras du Levant,7,,non,764224
 bourdes en poussière,1,,non,764224
 bourdilles,113,,non,764224
-bourdilles à barriques,3,,non,764224
+bourdilles à barriques,3,,oui,764224
+bourdilles pour barriques,3,,non,764224
 bourdillons,179,,non,764224
 bourdillons à barils,3,,non,764224
-bourdillons à barriques,3,,non,764224
-bourdillons à quart,2,,non,764224
+bourdillons à barriques,3,,oui,764224
+bourdillons à quart,2,,oui,764224
+bourdillons à quarts,2,,non,764224
 bourdillons à tierçons,3,,non,764224
 bourdillons de bois,2,,non,764224
+bourdillons pour barriques,3,,non,764224
 bourlets,1,,non,764224
 bourlets de velours,1,,non,764224
 bourre,42,,non,764224
@@ -2517,7 +2530,8 @@ brandebourg de soie,1,,non,764224
 brandiers,1,,non,764224
 brandins,4,,non,764224
 branle,2,,non,764224
-bras de bois à chandelle,1,,non,764224
+bras de bois à chandelle,1,,oui,764224
+bras de bois pour chandelle,1,,non,764224
 bras de cheminée,4,,non,764224
 bras de soie,1,,non,764224
 braserie,1,,non,764224
@@ -3471,18 +3485,19 @@ cendre verte,9,,non,764224
 cendres de varech,4,,non,764224
 censes de bâtiments,2,,non,764224
 cercles,66,,non,764224
-cercles à barils,48,,non,764224
-cercles à barriques,12,,non,764224
-cercles à bobillons,3,,non,764224
-cercles à bottes,2,,non,764224
-cercles à paniers,2,,non,764224
-cercles à pipes,13,,non,764224
-cercles à quart,1,,non,764224
-cercles à relier,4,,non,764224
-cercles à tamis,54,,non,764224
-cercles à tamis dits standrepen,0,,non,764224
-cercles à tonneaux,277,,non,764224
-cercles à tonneaux en roues,2,,non,764224
+cercles à barils,48,,oui,764224
+cercles à barriques,12,,oui,764224
+cercles à bobillons,3,,oui,764224
+cercles à bottes,2,,oui,764224
+cercles à paniers,2,,oui,764224
+cercles à pipes,13,,oui,764224
+cercles à quart,1,,oui,764224
+cercles à quarts,1,,oui,764224
+cercles à relier,4,,oui,764224
+cercles à tamis,54,,oui,764224
+cercles à tamis dits standrepen,0,,oui,764224
+cercles à tonneaux,277,,oui,764224
+cercles à tonneaux en roues,2,,oui,764224
 cercles communs,0,,non,764224
 cercles d'osier,5,,non,764224
 cercles de 10 à 12 pieds,0,,non,764224
@@ -3491,8 +3506,8 @@ cercles de 7 à 11 pieds,0,,non,764224
 cercles de 8 à 10 pieds,0,,non,764224
 cercles de 9 à 12 pieds,0,,non,764224
 cercles de bois,608,,non,764224
-cercles de bois à quarts,1,,non,764224
-cercles de bois à tonneaux,20,,non,764224
+cercles de bois à quarts,1,,oui,764224
+cercles de bois à tonneaux,20,,oui,764224
 cercles de bois et feuillard de bois,40,,non,764224
 cercles de bois et osier,1,,non,764224
 cercles de bois pour barils,2,,non,764224
@@ -3500,8 +3515,10 @@ cercles de bois pour barriques,3,,non,764224
 cercles de bois pour bobillons,1,,non,764224
 cercles de bois pour la mire,0,,non,764224
 cercles de bois pour pipes,2,,non,764224
+cercles de bois pour quarts,1,,non,764224
 cercles de bois pour tamis,1,,non,764224
 cercles de bois pour tanier,2,,non,764224
+cercles de bois pour tonneaux,20,,non,764224
 cercles de cuivre de poil,1,,non,764224
 cercles de demitte,1,,non,764224
 cercles de douves,1,,non,764224
@@ -3513,7 +3530,19 @@ cercles de feuillards,2,,non,764224
 cercles de jonc,7,,non,764224
 cercles et feuillards,1,,non,764224
 cercles ou feuillards de fer,10,,non,764224
+cercles pour barils,48,,non,764224
+cercles pour barriques,12,,non,764224
 cercles pour barriques de bois,1,,non,764224
+cercles pour bobillons,3,,non,764224
+cercles pour bottes,2,,non,764224
+cercles pour paniers,2,,non,764224
+cercles pour pipes,13,,non,764224
+cercles pour quarts,1,,non,764224
+cercles pour relier,4,,non,764224
+cercles pour tamis,54,,non,764224
+cercles pour tamis dits standrepen,0,,non,764224
+cercles pour tonneaux,277,,non,764224
+cercles pour tonneaux en roues,2,,non,764224
 cercocole,1,,non,764224
 céréales,1,,non,764224
 cerf-volant,1,,non,764224
@@ -4309,11 +4338,12 @@ clous de cuivre,11,,non,764224
 clous de cuivre doré,4,,non,764224
 clous de cuivre jaune,0,,non,764224
 clous de fer,1622,,non,764224
-clous de fer à barriques,1,,non,764224
+clous de fer à barriques,1,,oui,764224
 clous de fer à charrettes,1,,non,764224
 clous de fer gonds,1,,non,764224
 clous de fer neufs,1,,non,764224
 clous de fer ordinaires,1,,non,764224
+clous de fer pour barriques,1,,non,764224
 clous de fer vieux,2,,non,764224
 clous de girofle,14,,non,764224
 clous de girofle et griffes,3,,non,764224
@@ -4471,7 +4501,7 @@ commode de sapin vernie,0,,non,764224
 commode ornée,1,,non,764224
 commodes de bois,1,,non,764224
 commodes de sapin vernies,1,,non,764224
-communes,1,,non,764224
+communes,0,,non,764224
 compas,3,,non,764224
 compas de cuivre,2,,non,764224
 compas de fer,2,,non,764224
@@ -4613,7 +4643,8 @@ cordes d'auf,14,,non,764224
 cordes d'emballage,9,,non,764224
 cordes d'espars,1,,non,764224
 cordes d'or,1,,non,764224
-cordes de bois à brûler,0,,non,764224
+cordes de bois à brûler,0,,oui,764224
+cordes de bois pour brûler,0,,non,764224
 cordes de boyau et pour violons,0,,non,764224
 cordes de boyaux,130,,non,764224
 cordes de chanvre,31,,non,764224
@@ -5381,6 +5412,7 @@ cuivre en plane,1,,non,764224
 cuivre en plats,1,,non,764224
 cuivre en potasse,1,,non,764224
 cuivre en rouleau,2,,non,764224
+cuivre en saumon,1,,non,764224
 cuivre en saumons,1,,oui,764224
 cuivre en toupe,1,,non,764224
 cuivre en verdet,1,,non,764224
@@ -5738,41 +5770,68 @@ dossiers de lit en satin brodé,2,,non,764224
 doublage de bois de pin,1,,non,764224
 doublures de martre pour habits,0,,non,764224
 doublures de petis gris,1,,non,764224
-douelles,72,,non,764224
-douelles à barils,15,,non,764224
-douelles à barricages,2,,non,764224
-douelles à barriques,84,,non,764224
-douelles à barriques 3m 1/8,1,,non,764224
-douelles à barriques neuves,1,,non,764224
-douelles à barriques vieilles,3,,non,764224
-douelles à bottes,1,,non,764224
-douelles à bure,1,,non,764224
-douelles à buses,2,,non,764224
-douelles à cave,1,,non,764224
-douelles à cuve,1,,non,764224
-douelles à fond,12,,non,764224
-douelles à pièce,1,,non,764224
-douelles à pipes,71,,non,764224
-douelles à poinçons,1,,non,764224
-douelles à quart,7,,non,764224
-douelles à tierçons,3,,non,764224
-douelles à tonneau,168,,non,764224
-douelles à tonneau vieilles,1,,non,764224
-douelles de chêne,1,,non,764224
+douelle de chêne,1,,non,764224
+douelles,183,,non,764224
+douelles à barils,17,,oui,764224
+douelles à barricages,2,,oui,764224
+douelles à barriques,83,,oui,764224
+douelles à barriques 3m 1/8,1,,oui,764224
+douelles à barriques neuves,1,,oui,764224
+douelles à barriques vieilles,3,,oui,764224
+douelles à bottes,1,,oui,764224
+douelles à bure,1,,oui,764224
+douelles à buses,2,,oui,764224
+douelles à cave,1,,oui,764224
+douelles à cuve,1,,oui,764224
+douelles à fond,12,,oui,764224
+douelles à fonds,9,,oui,764224
+douelles à pièce,1,,oui,764224
+douelles à pipes,70,,oui,764224
+douelles à poinçons,1,,oui,764224
+douelles à quart,7,,oui,764224
+douelles à tierçons,3,,oui,764224
+douelles à tonneau,167,,oui,764224
+douelles à tonneau vieilles,1,,oui,764224
+douelles de 4 pieds,1,,non,764224
+douelles de 5 pieds,1,,non,764224
+douelles de chêne,2,,non,764224
 douelles de chêne de 3 pieds,1,,non,764224
 douelles de chêne de 4 pieds,1,,non,764224
 douelles de chêne de 5 pieds,1,,non,764224
-douelles de sapin,13,,non,764224
+douelles de sapin,15,,non,764224
 douelles de sapin de 3 pieds,1,,non,764224
-douelles en barriques,1,,non,764224
-douelles fonçaille,7,,non,764224
-douelles fonçaille 2m 1/2,1,,non,764224
-douelles ganivelles,6,,non,764224
-douelles merrains à quart,1,,non,764224
-douelles pour barrique,1,,non,764224
-douelles pour fonds,1,,non,764224
+douelles en barriques,1,,oui,764224
+douelles fonçaille,2,,non,764224
+douelles fonçaille 2m 1/2,1,,oui,764224
+douelles ganivelles,6,,oui,764224
+douelles merrains à quart,1,,oui,764224
+douelles merrains pour quarts,1,,oui,764224
+douelles pour barils,52,,non,764224
+douelles pour barricages,1,,non,764224
+douelles pour barrique,2,,non,764224
+douelles pour barriques,335,,non,764224
+douelles pour barriques 3m 1/8,1,,non,764224
+douelles pour barriques neuves,1,,non,764224
+douelles pour barriques vieilles,3,,non,764224
+douelles pour bœuf,2,,non,764224
+douelles pour bordage,1,,non,764224
+douelles pour bottes,2,,non,764224
+douelles pour bure,1,,non,764224
+douelles pour buses,3,,non,764224
+douelles pour cave,1,,non,764224
+douelles pour cuve,1,,non,764224
+douelles pour fonds,18,,non,764224
+douelles pour pièce,1,,non,764224
+douelles pour pipes,286,,non,764224
+douelles pour poinçons,1,,non,764224
+douelles pour quarts,51,,non,764224
+douelles pour tierçons,16,,non,764224
+douelles pour tonneau,10,,non,764224
+douelles pour tonneaux,160,,non,764224
+douelles pour tonneaux vieilles,1,,non,764224
 douelles vieilles,3,,non,764224
-douelles vieilles à barriques,3,,non,764224
+douelles vieilles à barriques,3,,oui,764224
+douelles vieilles pour barriques,3,,non,764224
 doutis,8,,non,764224
 doutis blancs,2,,non,764224
 doutis bleus,1,,non,764224
@@ -6382,7 +6441,7 @@ eau-forte huile de vitriol le dania,1,,non,764224
 échouements et prises,2,,non,764224
 éclisses de bois,6,,non,764224
 écluses de fer,1,,non,764224
-écope,1,,non,764224
+écope,0,,non,764224
 écopes,47,,non,764224
 écopes de sapin,2,,non,764224
 écorce,61,,non,764224
@@ -6618,7 +6677,7 @@ escarpins de chambre,1,,non,764224
 escayolles,313,,non,764224
 esclapes,1,,non,764224
 esclapes de bois,2,,non,764224
-escope,20,,non,764224
+escope,21,,non,764224
 escortines,5,,non,764224
 escortines à huile,1,,non,764224
 escortines d'espars,5,,non,764224
@@ -7312,10 +7371,12 @@ extrait d'odeur,6,,non,764224
 extrait de citron,6,,non,764224
 extrait de genièvre,17,,non,764224
 extrait de lavande,13,,non,764224
-facheaux de bois à brûler,1,,non,764224
+facheaux de bois à brûler,1,,oui,764224
+facheaux de bois pour brûler,1,,non,764224
 fagots,91,,non,764224
 fagots de bois,19,,non,764224
-fagots de bois à brûler,16,,non,764224
+fagots de bois à brûler,16,,oui,764224
+fagots de bois pour brûler,16,,non,764224
 faïence,2029,,non,764224
 faïence à miette,1,,non,764224
 faïence commune,5,,non,764224
@@ -7353,7 +7414,7 @@ fanon de baleine brut de pêche étrangère,0,,non,764224
 fanon de baleine brut de pêche française,1,,non,764224
 farces à drapier,0,,non,764224
 fard rouge,1,,non,764224
-farine,2053,,non,764224
+farine,2052,,non,764224
 farine d'avoine,3,,non,764224
 farine d'orge,1,,non,764224
 farine d'orge et gruau,2,,non,764224
@@ -7372,6 +7433,7 @@ farine de sarrasin,6,,non,764224
 farine de seigle,5,,non,764224
 farine de terre à sucre ?,1,,non,764224
 farine en déchet,1,,non,764224
+farine en douelles,1,,non,764224
 farine en fleurs,4,,non,764224
 farine en gruau,34,,non,764224
 farine et biscuit,12,,non,764224
@@ -7616,8 +7678,8 @@ feuillards de 2 à 4 mètres exclusivement,2,,non,764224
 feuillards de 2 de longueur et au-dessous,1,,non,764224
 feuillards de 4 mètres et au-dessus,1,,non,764224
 feuillards de bois,187,,non,764224
-feuillards de bois à barriques,4,,non,764224
-feuillards de bois à boucaud,4,,non,764224
+feuillards de bois à barriques,4,,oui,764224
+feuillards de bois à boucaud,4,,oui,764224
 feuillards de bois de 2 à 4 mètres,2,,non,764224
 feuillards de bois de 2 à 4 mètres exclusivement,6,,non,764224
 feuillards de bois de 2 mètres et au-dessous,8,,non,764224
@@ -7627,6 +7689,8 @@ feuillards de bois de 4 mètres et au-dessus,4,,non,764224
 feuillards de bois en cordes,1,,non,764224
 feuillards de bois merrains,10,,non,764224
 feuillards de bois pipage,5,,non,764224
+feuillards de bois pour barriques,4,,non,764224
+feuillards de bois pour boucaud,4,,non,764224
 feuillards de fer,119,,non,764224
 feuillards de fer et cercles de fer,0,,non,764224
 feuillards de fer et tôle de fer,5,,non,764224
@@ -7787,7 +7851,7 @@ fil à rouet,1,,non,764224
 fil à sapillon,1,,non,764224
 fil à sardineaux,2,,non,764224
 fil à selle,1,,non,764224
-fil à sennes,1,,non,764224
+fil à sennes,47,,non,764224
 fil à sol,5,,non,764224
 fil à table,1,,non,764224
 fil à tisserand,7,,non,764224
@@ -8019,7 +8083,7 @@ fil de Rennes,169,,non,764224
 fil de ritte,9,,non,764224
 fil de Rouen,3,,non,764224
 fil de sayette,9,,non,764224
-fil de sennes,45,,non,764224
+fil de sennes,45,,oui,764224
 fil de Silésie,8,,non,764224
 fil de soie,4,,non,764224
 fil de téton,5,,non,764224
@@ -8259,6 +8323,9 @@ folle,1,,non,764224
 follicule,5,,non,764224
 follicule de séné,165,,non,764224
 follicule de séné et séné,18,,non,764224
+fonçaille,98,,non,764224
+fonçaille de 2.5m,1,,non,764224
+fonçaille pour barriques,1,,non,764224
 fondette de corail,18,,non,764224
 fonds ?,453,,non,764224
 fonds à meule blancs,1,,non,764224
@@ -8679,6 +8746,7 @@ gamelles de bois,4,,non,764224
 gan ??? commune,7,,non,764224
 ganaga,1,,non,764224
 ganepot,1,,non,764224
+ganivelles,25,,non,764224
 ganses,1,,non,764224
 ganses d'or,3,,non,764224
 ganses de fleuret,11,,non,764224
@@ -11146,7 +11214,7 @@ madriers d'acajou de 9 à 10 pieds,1,,non,764224
 madriers d'acajou de 9 à 8 pieds,1,,non,764224
 madriers d'acajou de 9 pieds,3,,non,764224
 madriers de bois,2,,non,764224
-madriers de bois à meuble,2,,non,764224
+madriers de bois à meuble,2,,oui,764224
 madriers de bois d'acajou de 9 à 19 pieds,1,,non,764224
 madriers de bois de cayenne,1,,non,764224
 madriers de bois de cèdre,1,,non,764224
@@ -11155,6 +11223,7 @@ madriers de bois de Chypre,1,,non,764224
 madriers de bois de couleur,1,,non,764224
 madriers de bois de férole,1,,non,764224
 madriers de bois de tilleul,1,,non,764224
+madriers de bois pour meuble,2,,non,764224
 madriers de chêne,5,,non,764224
 madriers de chêne de 12 pieds,2,,non,764224
 madriers de chêne de 15 pieds,1,,non,764224
@@ -11163,13 +11232,14 @@ madriers de chêne de 24 pieds,1,,non,764224
 madriers de chêne de 8 pieds,2,,non,764224
 madriers de gaïac de 9 pieds,1,,non,764224
 madriers de marbre,1,,non,764224
-madriers de merisier,2,,non,764224
+madriers de merisier,3,,non,764224
 madriers de noyer,10,,non,764224
 madriers de noyer de 10 pieds,1,,non,764224
 madriers de noyer de 15 pieds,1,,non,764224
 madriers de Prusse,1,,non,764224
 madriers de sapin,4,,non,764224
 madriers en planche ou poutrelles,1,,non,764224
+maêts de misaine,0,,oui,764224
 mages de fer,1,,non,764224
 magnésie,2,,non,764224
 magnol,1,,non,764224
@@ -11666,6 +11736,7 @@ mâts de chêne,2,,non,764224
 mâts de diverse grandeur,3,,non,764224
 mâts de drapeaux,13,,non,764224
 mâts de hune,1,,non,764224
+mâts de misaine,0,,non,764224
 mâts de navire,6,,non,764224
 mâts de navire de 10 palmes,2,,non,764224
 mâts de navire de 11 à 18 palmes,0,,non,764224
@@ -11817,7 +11888,7 @@ mâts de vaisseaux assortis,1,,non,764224
 mâts de vaisseaux beaupré,0,,non,764224
 mâts de vaisseaux de 71 pieds,0,,non,764224
 mâts de vaisseaux de chêne,0,,non,764224
-mâts de vaisseaux de misenne,0,,non,764224
+mâts de vaisseaux de misenne,0,,oui,764224
 mâts doubles,1,,non,764224
 mâts en dessous de 8 paumes,0,,non,764224
 mâts espars,0,,non,764224
@@ -11983,38 +12054,38 @@ merlin,1,,non,764224
 merluche,92,,non,764224
 merluche salée,0,,non,764224
 merlus,1,,non,764224
-merrains,831,,non,764224
+merrains,724,,non,764224
 merrains ???,1,,non,764224
-merrains à barils,51,,non,764224
-merrains à barriques,479,,non,764224
-merrains à barriques bûches,0,,non,764224
-merrains à barriques douves,1,,non,764224
-merrains à barriques et fonçaille,1,,non,764224
-merrains à bœuf,2,,non,764224
-merrains à bottes,10,,non,764224
-merrains à boucaud,1,,non,764224
-merrains à buses,5,,non,764224
-merrains à buses douelles,1,,non,764224
-merrains à fonçaille,13,,non,764224
-merrains à fond,93,,non,764224
-merrains à fonds,8,,non,764224
-merrains à futailles,2,,non,764224
-merrains à muid,1,,non,764224
-merrains à pipes,302,,non,764224
-merrains à pipes bûches,0,,non,764224
-merrains à pipes de 4 à 5 pieds à 1 pouce 1/2 d'épaisseur,1,,non,764224
-merrains à pipes de 4 pieds,1,,non,764224
-merrains à poinçon,1,,non,764224
-merrains à quart,48,,non,764224
-merrains à tierçons,23,,non,764224
-merrains à tonneaux,110,,non,764224
-merrains à tortue,2,,non,764224
+merrains à barils,17,,oui,764224
+merrains à barriques,236,,oui,764224
+merrains à barriques bûches,0,,oui,764224
+merrains à barriques douves,1,,oui,764224
+merrains à barriques et fonçaille,1,,oui,764224
+merrains à bœuf,0,,oui,764224
+merrains à bottes,9,,oui,764224
+merrains à boucaud,1,,oui,764224
+merrains à buses,4,,oui,764224
+merrains à buses douelles,1,,oui,764224
+merrains à fonçaille,10,,oui,764224
+merrains à fond,89,,oui,764224
+merrains à fonds,8,,oui,764224
+merrains à futailles,2,,oui,764224
+merrains à muid,1,,oui,764224
+merrains à pipes,93,,oui,764224
+merrains à pipes bûches,0,,oui,764224
+merrains à pipes de 4 à 5 pieds à 1 pouce 1/2 d'épaisseur,1,,oui,764224
+merrains à pipes de 4 pieds,1,,oui,764224
+merrains à poinçon,1,,oui,764224
+merrains à quart,6,,oui,764224
+merrains à tierçons,11,,oui,764224
+merrains à tonneaux,108,,oui,764224
+merrains à tortue,2,,oui,764224
 merrains au-dessous de 974 millimètres,2,,non,764224
 merrains autres que de chêne,2,,non,764224
 merrains autres que de chêne de toutes dimensions à la valeur,1,,non,764224
 merrains autres que de chêne de toutes dimensions au nombre,1,,non,764224
 merrains barillage,1,,non,764224
-merrains barricages,4,,non,764224
+merrains barricages,1,,oui,764224
 merrains barriques douelles,1,,non,764224
 merrains bourdilles,2,,non,764224
 merrains bourdillons,1,,non,764224
@@ -12023,7 +12094,7 @@ merrains communs,1,,non,764224
 merrains de 1 mètre 299 millimètres de longueur et au-dessus,2,,non,764224
 merrains de 1299mm de longueur et au-dessus,1,,non,764224
 merrains de 1299mm exclus à 974 inclus,1,,non,764224
-merrains de 4 pieds,1,,non,764224
+merrains de 4 pieds,0,,non,764224
 merrains de 5 pieds,1,,non,764224
 merrains de chêne,7,,non,764224
 merrains de chêne au-dessous de 974 millimètres,2,,non,764224
@@ -12034,18 +12105,42 @@ merrains de chêne de 1 mètre 299 millimètres inclusivement à 974 exclusiveme
 merrains de douves,1,,non,764224
 merrains de maille,1,,non,764224
 merrains de sapin,14,,non,764224
-merrains douelles,4,,non,764224
-merrains en barriques,6,,non,764224
-merrains en fonçaille,3,,non,764224
-merrains en pipes,1,,non,764224
+merrains douelles,4,,oui,764224
+merrains en barriques,0,,non,764224
+merrains en fonçaille,3,,oui,764224
+merrains en pipes,0,,oui,764224
 merrains et feuillards,6,,non,764224
-merrains fonçaille,94,,non,764224
-merrains futaille,2,,non,764224
-merrains ganivelles,19,,non,764224
+merrains fonçaille,1,,non,764224
+merrains futaille,2,,oui,764224
+merrains ganivelles,0,,non,764224
 merrains petits,1,,non,764224
+merrains pour barils,17,,non,764224
+merrains pour barriques,238,,non,764224
+merrains pour barriques bûches,0,,non,764224
+merrains pour bœuf,0,,non,764224
+merrains pour bottes,9,,non,764224
+merrains pour boucaud,1,,non,764224
+merrains pour buses,4,,non,764224
+merrains pour buses douelles,1,,non,764224
 merrains pour faire des douves de fûts,11,,non,764224
 merrains pour ferraille,1,,non,764224
+merrains pour fonçaille,13,,non,764224
+merrains pour fonçailles,3,,non,764224
+merrains pour fonds,97,,non,764224
+merrains pour futaille,2,,non,764224
+merrains pour futailles,2,,non,764224
+merrains pour muid,1,,non,764224
+merrains pour pipe,7,,non,764224
+merrains pour pipes,93,,non,764224
+merrains pour pipes bûches,0,,non,764224
+merrains pour pipes de 4 à 5 pieds à 1 pouce 1/2 d'épaisseur,1,,non,764224
+merrains pour pipes de 4 pieds,1,,non,764224
+merrains pour poinçon,1,,non,764224
+merrains pour quarts,7,,non,764224
+merrains pour tierçons,11,,non,764224
+merrains pour tonneaux,108,,non,764224
 merrains pour tonnellerie,3,,non,764224
+merrains pour tortue,2,,non,764224
 merrains quartage douelles,2,,non,764224
 merrains Scott,1,,non,764224
 mervillon,44,,non,764224
@@ -12358,13 +12453,13 @@ mortiers de métal et pilon,1,,non,764224
 mortiers de pierre,21,,non,764224
 mortiers de terre,1,,non,764224
 mortiers et pilon,1,,non,764224
-morue,579,,non,764224
+morue,578,,non,764224
 morue ???,1,,non,764224
 morue avariée,1,,non,764224
 morue avec harengs des prises,1,,non,764224
 morue blanche,1,,non,764224
 morue de Hollande,5,,non,764224
-morue de pêche française,10,,non,764224
+morue de pêche française,11,,non,764224
 morue douce,1,,non,764224
 morue en pacotille,8,,non,764224
 morue en pavé,1,,non,764224
@@ -13949,7 +14044,7 @@ pavé,15,,non,764224
 pavé pour sol,1,,non,764224
 pavillon de toile,1,,non,764224
 pavots,4,,non,764224
-peaux,211,,non,764224
+peaux,212,,non,764224
 peaux ???,8,,non,764224
 peaux à faire tambours,1,,non,764224
 peaux à fleurs et de mouton,1,,non,764224
@@ -14614,9 +14709,10 @@ perches de 15 à 20 pieds,1,,non,764224
 perches de 20 à 25 pieds,1,,non,764224
 perches de 25 pieds,1,,non,764224
 perches de bois,6,,non,764224
-perches de bois à houblon,1,,non,764224
+perches de bois à houblon,1,,oui,764224
 perches de bois et échalas de bois et échasses de bois,9,,non,764224
 perches de bois et échalas de bois et éclisses de bois,7,,non,764224
+perches de bois pour houblon,1,,non,764224
 perches de bois pour jardin,1,,non,764224
 perches de lawaire,1,,non,764224
 perches de sapin,32,,non,764224
@@ -15025,7 +15121,8 @@ pipes à fumer grosses,1,,non,764224
 pipes à tabac,2,,non,764224
 pipes cerclées de fer,1,,non,764224
 pipes céréalier de fer,0,,non,764224
-pipes de bois à fumer,2,,non,764224
+pipes de bois à fumer,2,,oui,764224
+pipes de bois pour fumer,2,,non,764224
 pipes de terre,7,,non,764224
 pipes de terre cuite,8,,oui,764224
 pipes en bottes,6,,non,764224
@@ -15044,7 +15141,7 @@ pistaches cassées,2,,non,764224
 pistaches en coques,1,,non,764224
 pistaches non cassées,1,,non,764224
 pistaches sèches,6,,non,764224
-pistolets,100,,non,764224
+pistolets,101,,non,764224
 pistolets à feu,1,,non,764224
 pistolets d'arçon,1,,non,764224
 pistolets Damas ?,1,,non,764224
@@ -15287,13 +15384,13 @@ planches de Prusse de 8 pieds,1,,non,764224
 planches de Prusse de 9 à 10 pieds,1,,non,764224
 planches de Prusse de 9 pieds,1,,non,764224
 planches de Prusse demie,1,,oui,764224
-planches de Prusse demies,3,,non,764224
+planches de Prusse demies,4,,non,764224
 planches de Prusse diverses,2,,non,764224
 planches de Prusse en bouts,1,,non,764224
 planches de Prusse petites,2,,non,764224
 planches de Pui,5,,non,764224
 planches de rebut,3,,non,764224
-planches de sapin,2019,,non,764224
+planches de sapin,1995,,non,764224
 planches de sapin 1/2 planches,1,,non,764224
 planches de sapin 10 à 11 pieds,3,,non,764224
 planches de sapin 10 à 13 pieds,1,,non,764224
@@ -15326,7 +15423,7 @@ planches de sapin 9 à 10 pieds à 15 sous,1,,non,764224
 planches de sapin 9 pieds,1,,non,764224
 planches de sapin au grand compte,4,,non,764224
 planches de sapin boîtes,1,,non,764224
-planches de sapin commun,127,,non,764224
+planches de sapin commun,151,,non,764224
 planches de sapin de ???,1,,non,764224
 planches de sapin de ??? pieds,0,,non,764224
 planches de sapin de 1 1/4 pouce,0,,non,764224
@@ -16419,12 +16516,14 @@ pyrèthre racine,1,,non,764224
 quadrilles,2,,non,764224
 quadruple ou pièce d'or d'Espagne,1,,non,764224
 quarlais bottes etc.,0,,non,764224
-quart,1,,non,764224
-quart à farine,1,,non,764224
+quart,1,,oui,764224
+quart à farine,1,,oui,764224
 quart de nonante,9,,non,764224
 quart de nonante à prendre hauteur,1,,non,764224
 quarteaux cerclés de fer,1,,non,764224
 quartiers de réduction,1,,non,764224
+quarts,1,,non,764224
+quarts à farine,1,,non,764224
 quenouilles,13,,non,764224
 quenouilles de cannes,1,,non,764224
 quenouilles de cannes de peinte,1,,non,764224
@@ -18294,7 +18393,7 @@ tabac en ???,1,,non,764224
 tabac en andouille,9,,non,764224
 tabac en caisse,5,,non,764224
 tabac en cantine,1,,non,764224
-tabac en carotte,81,,non,764224
+tabac en carotte,83,,non,764224
 tabac en carotte et en feuilles,1,,non,764224
 tabac en carotte et en feuilles et en côtes,2,,non,764224
 tabac en carotte et en feuilles et râpé,1,,non,764224
@@ -18489,7 +18588,8 @@ taffetas rayé,5,,non,764224
 tafia,350,,non,764224
 tafia par Dunkerque et étranger,1,,non,764224
 taillanderie,5,,non,764224
-taille de bois à couvrir,1,,non,764224
+taille de bois à couvrir,1,,oui,764224
+taille de bois pour couvrir,1,,non,764224
 taillole de coton,2,,non,764224
 taillole de laine,4,,non,764224
 talaris,5,,non,764224
@@ -18919,7 +19019,7 @@ thon thonine,24,,non,764224
 thonine,69,,non,764224
 thonine salée,1,,non,764224
 tierçon en jarre,1,,non,764224
-tierçons de bois,1,,non,764224
+tierçons de bois,2,,non,764224
 tierçons en bottes,1,,non,764224
 tiers à tonneau,1,,non,764224
 tiges de bottes,1,,non,764224
@@ -20109,13 +20209,14 @@ tournesol et d'acmail,1,,non,764224
 tourons,40,,non,764224
 tourons d'Espagne,2,,non,764224
 tours,1,,non,764224
-tours à barriques,1,,non,764224
+tours à barriques,1,,oui,764224
 tours à filer,15,,non,764224
 tours à filer de bois,1,,non,764224
 tours à guillocher,1,,non,764224
 tours de col,2,,non,764224
 tours de lit de bourre,10,,non,764224
 tours de pin,1,,non,764224
+tours pour barriques,1,,non,764224
 tours pour tourneur,0,,non,764224
 tourteaux de graine oléagineuse,6,,non,764224
 toutenague,40,,non,764224
@@ -20351,7 +20452,7 @@ vendange,3,,non,764224
 vénitienne,2,,non,764224
 ver ???,1,,non,764224
 verdasse,1,,non,764224
-verdet,2093,,non,764224
+verdet,2094,,non,764224
 verdet ???,1,,non,764224
 verdet cristallisé,6,,non,764224
 verdet cristallisé et non cristallisé,2,,non,764224
@@ -20571,7 +20672,8 @@ vieux linge lessivé,2,,non,764224
 vieux-oint,137,,non,764224
 vilebrequin,1,,non,764224
 villes,1,,non,764224
-vîmes à barriques,2,,non,764224
+vîmes à barriques,2,,oui,764224
+vîmes pour barriques,2,,non,764224
 vin,18864,,non,764224
 vin anti-scorbutique,1,,non,764224
 vin au muid,4,,non,764224
@@ -20859,7 +20961,7 @@ vin du Nantais,14,,non,764224
 vin du Périgord,1,,non,764224
 vin du Portugal,1,,non,764224
 vin du Quercy,60,,non,764224
-vin du Rhin,167,,non,764224
+vin du Rhin,166,,non,764224
 vin du Rhin de retour,1,,non,764224
 vin du Rhin en bouteilles,1,,non,764224
 vin du Rhin en cercles,1,,non,764224
