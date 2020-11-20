@@ -72,6 +72,7 @@ list year product value_per_unit quantity_unit if strmatch(product,"*itrons")==1
 edit if absurd_value !="absurd"
 *******
 blouf
+http://toflit18.medialab.sciences-po.fr/#/exploration/flows?productClassification=product_simplification&product=%5B%22re%3A%3Alaine.*Espagne%22%5D&page=0&direction=Marseille&kind=total&columns=%5B%22product%22%2C%22direction%22%2C%22year%22%2C%22partner%22%2C%22import%22%2C%22path%22%2C%22value%22%2C%22unitPrice%22%2C%22rawUnit%22%5D&orders=%5B%7B%22key%22%3A%22unitPrice%22%2C%22order%22%3A%22DESC%22%7D%5D
 *********
 
 
@@ -85,9 +86,18 @@ rename value_minus_un_source value_minus_unit_val_x_qty
 export delimited using "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
 
 cd "$dir/toflit18_data_GIT/scripts"
-
 python script "split_bdd_centrale_in_sources.py"
 
+cd "$dir/toflit18_data_GIT/scripts"
 python script "aggregate_sources_in_bdd_centrale.py"
 
-do "To create only BDD courante from classifications and bdd_centrale.do"
+/*
+À faire si le programme suivant dépend du fichier zip !
+
+
+cd "$dir/toflit18_data_GIT/base"
+zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
+
+cd "$dir/toflit18_data_GIT/scripts"
+*/
+do "Pour BDD courante et mise à jour des autres tables.do"
