@@ -7,6 +7,7 @@ capture ssc install missings
 ** version 2 : pour travailler avec la nouvelle organisation
 
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+global dir_git "~/Répertoires Git/toflit18_data_GIT"
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
@@ -40,7 +41,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
 */				 classification_product_threesectorsM	{
 
-	import delimited "$dir/toflit18_data_GIT/base/`file'.csv",  encoding(UTF-8) /// 
+	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
 
 	foreach variable of var * {
@@ -125,7 +126,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 	
 	
 /*	
-import delimited "$dir/toflit18_data_GIT/traitements_product/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
+import delimited "$dir_git/traitements_product/SITC/Définitions sitc_classification.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)   
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -152,7 +153,7 @@ import delimited "$dir/toflit18_data_GIT/traitements_product/SITC/Définitions s
  *(juste parce que c'est trop long)
 
 
-import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 foreach variable of var product partner quantity_unit {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -203,8 +204,8 @@ capture drop v24
 
 
 save "Données Stata/bdd_centrale.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
-cd "$dir/toflit18_data_GIT/base"
+export delimited "$dir_git/base/bdd_centrale.csv", replace
+cd "$dir_git/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
 */
@@ -254,7 +255,7 @@ generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_orthographic.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_orthographic.csv", replace
+export delimited "$dir_git/base/classification_quantityunit_orthographic.csv", replace
 
 
 
@@ -287,7 +288,7 @@ generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_simplification.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_simplification.csv", replace
+export delimited "$dir_git/base/classification_quantityunit_simplification.csv", replace
 
 
 ******
@@ -320,7 +321,7 @@ generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_metric1.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric1.csv", replace
+export delimited "$dir_git/base/classification_quantityunit_metric1.csv", replace
 
 /*See below for "classification_quantityunit_metric2.dta"*/
 
@@ -353,7 +354,7 @@ save "Units_N1.dta", replace
 generate sortkey = ustrsortkey(quantity_unit, "fr")
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/Units_N1.csv", replace
+export delimited "$dir_git/base/Units_N1.csv", replace
 */
 
 ******* Direction et origin
@@ -366,7 +367,7 @@ save "bdd_tax_departments.dta", replace
 generate sortkey = ustrsortkeyex(tax_department,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/bdd_tax_departments.csv", replace
+export delimited "$dir_git/base/bdd_tax_departments.csv", replace
 
 
 use "bdd_centrale.dta", clear
@@ -378,7 +379,7 @@ save "bdd_origin.dta", replace
 generate sortkey = ustrsortkeyex(origin,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/bdd_origin.csv", replace
+export delimited "$dir_git/base/bdd_origin.csv", replace
 
 
 
@@ -400,7 +401,7 @@ save "classification_partner_orthographic.dta", replace
 generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_orthographic.csv", replace
+export delimited "$dir_git/base/classification_partner_orthographic.csv", replace
 
 
 
@@ -423,7 +424,7 @@ save "classification_partner_simplification.dta", replace
 generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_simplification.csv", replace
+export delimited "$dir_git/base/classification_partner_simplification.csv", replace
 
 **
 
@@ -443,7 +444,7 @@ save "classification_partner_grouping.dta", replace
 generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_grouping.csv", replace
+export delimited "$dir_git/base/classification_partner_grouping.csv", replace
 
 ** 
 use "classification_partner_simplification.dta", clear
@@ -462,7 +463,7 @@ save "classification_partner_obrien.dta", replace
 generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_obrien.csv", replace
+export delimited "$dir_git/base/classification_partner_obrien.csv", replace
 
 
 ** 
@@ -482,7 +483,7 @@ save "classification_partner_wars.dta", replace
 generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_wars.csv", replace
+export delimited "$dir_git/base/classification_partner_wars.csv", replace
 
 ** 
 use "classification_partner_simplification.dta", clear
@@ -501,7 +502,7 @@ save "classification_partner_sourcename.dta", replace
 generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_sourcename.csv", replace
+export delimited "$dir_git/base/classification_partner_sourcename.csv", replace
 
 *******************************
 
@@ -521,7 +522,7 @@ save "classification_partner_africa.dta", replace
 generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_partner_africa.csv", replace
+export delimited "$dir_git/base/classification_partner_africa.csv", replace
 
 
 
@@ -555,7 +556,7 @@ save "classification_product_orthographic.dta", replace
 generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
+export delimited "$dir_git/base/classification_product_orthographic.csv", replace
 */
 *******************Sourcé
 *****************************Pour product_sourcees.csv (et product orthographic)
@@ -633,7 +634,7 @@ generate sortkey =  ustrsortkeyex(product, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "$dir/Données Stata/product_sourcees.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/product_sourcees.csv", replace
+export delimited "$dir_git/base/product_sourcees.csv", replace
 
 ****************************Orthographique y compris toutes les bases
 /*
@@ -661,7 +662,7 @@ generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "$dir/Données Stata/classification_product_orthographic.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/classification_product_orthographic.csv", replace
+export delimited "$dir_git/base/classification_product_orthographic.csv", replace
 
 
 
@@ -688,7 +689,7 @@ save "classification_product_simplification.dta", replace
 generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir/toflit18_data_GIT/base/classification_product_simplification.csv", replace
+export delimited "$dir_git/base/classification_product_simplification.csv", replace
 **
 
 foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
@@ -723,7 +724,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 	
 
 	save "classification_product_`file_on_simp'.dta", replace
-	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_simp'.csv", replace
+	export delimited "$dir_git/base/classification_product_`file_on_simp'.csv", replace
 
 }
 
@@ -749,7 +750,7 @@ foreach file_on_RE in RE_aggregate threesectors threesectorsM {
 	drop sortkey	
 	
 	save "classification_product_`file_on_RE'.dta", replace
-	export delimited "$dir/toflit18_data_GIT/base/classification_product_`file_on_RE'.csv", replace
+	export delimited "$dir_git/base/classification_product_`file_on_RE'.csv", replace
 
 }
 
@@ -923,7 +924,7 @@ drop if _merge==2
  sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
- export delimited "$dir/toflit18_data_GIT/base/classification_quantityunit_metric2.csv", replace
+ export delimited "$dir_git/base/classification_quantityunit_metric2.csv", replace
  
  use "$dir/Données Stata/bdd courante_temp.dta", clear
  erase "$dir/Données Stata/bdd courante_temp.dta"
@@ -962,7 +963,7 @@ save "$dir/Données Stata/bdd courante", replace
  
  /*
  ***Pour valeurs absurdes -- C’est maintenant dans les sources
- do "$dir/toflit18_data_GIT/scripts/To flag values & quantities in error.do"
+ do "$dir_git/scripts/To flag values & quantities in error.do"
  */
  *save "$dir/Données Stata/bdd courante.dta", replace
  
@@ -976,8 +977,7 @@ gen best_guess_national_prodxpart = 0
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
-		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires"  | ///
-		(source_type=="Tableau des quantités" & year >=1822)
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
@@ -987,8 +987,14 @@ gen best_guess_national_partner = 0
 **Sources qui donnent la répartition du commerce français en valeur par partenaire
 **Ancien nom national_geography_best_guess
 **Nouveau nom  best_guess_national_partner	
-replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" | ///
-		(source_type=="Tableau des Quantités" & year >=1822)
+replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé"
+
+capture drop best_guess_national_product
+gen best_guess_national_product = 0
+**Sources qui donnent la répartition du commerce français en valeur par partenaire
+**Ancien nom national_geography_best_guess
+**Nouveau nom  best_guess_national_partner	
+replace best_guess_national_partner = 1 if best_guess_national_prodxpart == 1 | (source_type=="Tableau des quantités" & (year==1822  | year==1823))
 
 capture drop best_guess_department_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
@@ -1061,8 +1067,8 @@ order line_number source_type year tax_department partner partner_orthographic e
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
  
-export delimited "$dir/toflit18_data_GIT/base/bdd courante_avec_out.csv", replace
-*export delimited "$dir/toflit18_data_GIT/base/$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir_git/base/bdd courante_avec_out.csv", replace
+*export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
@@ -1071,9 +1077,9 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 drop if source_type=="Out"
 drop if absurd_value=="absurd" | absurd_quantity=="absurd"
-export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
+export delimited "$dir_git/base/bdd courante.csv", replace
 
-cd "$dir/toflit18_data_GIT/base/"
+cd "$dir_git/base/"
 zipfile "bdd courante.csv", saving("bdd courante.csv.zip", replace)
 save "$dir/Données Stata/bdd courante.dta", replace
 
@@ -1133,7 +1139,7 @@ sort simplification
 
 
 save "$dir/Données Stata/product_pour_nouvelle_classification.dta", replace
-export delimited "$dir/toflit18_data_GIT/base/product_pour_nouvelle_classification.csv", replace
+export delimited "$dir_git/base/product_pour_nouvelle_classification.csv", replace
 
 
 
@@ -1160,12 +1166,12 @@ drop _merge
 order product_simplification product_sitc_FR observations_total années_observées product_revolutionempire
 rename product_* *
 sort simplification
-export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
+export delimited "$dir_git/base/classification_product_revolutionempire.csv", replace
 erase blif.dta
 
 
 
-insheet using "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", clear
+insheet using "$dir_git/base/classification_product_revolutionempire.csv", clear
 keep simplification	nbr_occurences_simpl revolutionempire nbr_occurences_revolutionempire
 merge 1:1 simplification using "$dir/Données Stata/classification_product_sitc.dta"
 drop imprimatur obsolete nbr_occurences_sitc
@@ -1173,7 +1179,7 @@ drop _merge
 merge m:1 sitc using "$dir/Données Stata/classification_product_sitc_FR.dta"
 sort simplification
 drop _merge
-export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutionempire.csv", replace
+export delimited "$dir_git/base/classification_product_revolutionempire.csv", replace
 
 */
 
@@ -1187,7 +1193,7 @@ export delimited "$dir/toflit18_data_GIT/base/classification_product_revolutione
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
 
 
-import delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv",  encoding(UTF-8) /// 
+import delimited "$dir_git/base/classification_autre_luxe.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve)
 sort product_simplification product_sitc_FR u_conv
 			
@@ -1217,7 +1223,7 @@ drop _merge
 
 gsort product_sitc_FR u_conv - nbobs product_simplification
 
-export delimited "$dir/toflit18_data_GIT/base/classification_autre_luxe.csv", replace
+export delimited "$dir_git/base/classification_autre_luxe.csv", replace
 
 
 

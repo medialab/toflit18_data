@@ -197,6 +197,10 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
                                         line['best_guess_national_prodxpart'] = 1
                                         best_guess_year_index['best_guess_national_prodxpart'].add(year)
+                                    #best_guess_national_product
+                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                        line['best_guess_national_product'] = 1
+                                        best_guess_year_index['best_guess_national_product'].add(year)
                                     # best_guess_national_partner
                                     if line['source_type']=="Tableau Général" or line['source_type']=="Résumé" or (line['source_type']=="Tableau des quantités" and year>=1822):
                                         line['best_guess_national_partner'] = 1
@@ -225,6 +229,9 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                 # best_guess_national_prodxpart
                 if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['best_guess_national_prodxpart'] :
                     flow['best_guess_national_prodxpart'] = 1
+                # best_guess_national_product
+                if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['best_guess_national_product'] :
+                    flow['best_guess_national_product'] = 1
                 # best_guess_national_department
                 if flow['source_type'] == 'local' and year in best_guess_year_index['best_guess_national_department']:
                     flow['best_guess_national_department'] = 1
