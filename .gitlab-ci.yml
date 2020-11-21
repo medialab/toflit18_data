@@ -10,14 +10,11 @@ stages:
 variables:
   GIT_DEPTH: "1"
   DOCKER_IMAGE_NAME: "$CI_REGISTRY_IMAGE/neo4j_toflit18:$CI_COMMIT_REF_SLUG"
-  DOCKER_HOST: tcp://127.0.0.1:2375
-  DOCKER_TLS_CERTDIR: ""
-
-services:
-  - docker:stable-dind
 
 build_bdd_centrale:
   stage: build_bdd_centrale
+  tags:
+    - proxy
   artifacts:
     untracked: true
     expire_in: "1 day"
@@ -31,6 +28,8 @@ build_bdd_centrale:
 
 neo4j_CSV:
   stage: build_neo4j_CSV
+  tags:
+    - proxy
   artifacts:
     untracked: true
     expire_in: "1 day"
@@ -47,6 +46,8 @@ neo4j_CSV:
 
 neo4j_database:
   stage: build_neo4j_database
+  tags:
+    - proxy
   artifacts:
     untracked: true
     expire_in: "1 day"
@@ -64,6 +65,8 @@ neo4j_database:
 
 build_docker_image:
   stage: build_docker_image
+  tags:
+    - proxy
   dependencies:
     - neo4j_database
   before_script:
@@ -89,6 +92,8 @@ deploy:
     name: jrisp/kubehelper:latest
     entrypoint: [""]
   stage: deploy
+  tags:
+    - proxy
   dependencies:
     - build_docker_image
   script:
