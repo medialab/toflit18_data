@@ -8,7 +8,7 @@ capture ssc install missings
 
 if "`c(username)'" =="guillaumedaudin" {
 	global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
-	global dir_git "$dir/toflit18_data_GIT"
+	global dir_git "~/Répertoires Git/toflit18_data_GIT"
 }
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
@@ -379,8 +379,7 @@ gen best_guess_national_prodxpart = 0
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
-		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires"  | ///
-		(source_type=="Tableau des quantités" & year >=1822)
+		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
 drop year_CN
@@ -390,8 +389,15 @@ gen best_guess_national_partner = 0
 **Sources qui donnent la répartition du commerce français en valeur par partenaire
 **Ancien nom national_geography_best_guess
 **Nouveau nom  best_guess_national_partner	
-replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé" | ///
-		(source_type=="Tableau des Quantités" & year >=1822)
+replace best_guess_national_partner = 1 if source_type=="Tableau Général" | source_type=="Résumé"
+
+capture drop best_guess_national_product
+gen best_guess_national_product = 0
+**Sources qui donnent la répartition du commerce français en valeur par product
+**Ancien nom national_geography_best_guess
+**Nouveau nom  best_guess_national_partner	
+replace best_guess_national_product = 1 if best_guess_national_prodxpart == 1 | (source_type=="Tableau des quantités" & (year==1822|year==1823))
+
 
 capture drop best_guess_department_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné

@@ -154,7 +154,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
     # headers = [h for h in  headers if h not in ordered_headers]
     headers = [h for h in ordered_headers] #+headers
     if with_calculated_values:
-        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national_prodxpart","best_guess_national_partner", "best_guess_department_prodxpart", "best_guess_national_department" ]:
+        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national_prodxpart","best_guess_national_partner","best_guess_national_product", "best_guess_department_prodxpart", "best_guess_national_department" ]:
             if extra_header not in headers:
                 headers+=[extra_header]
 
@@ -194,11 +194,15 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     # compute Best guess source type
                                     # best_guess_national_prodxpart
                                     year = normalize_year(line['year']) # republican calendar back to current
-                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires":
                                         line['best_guess_national_prodxpart'] = 1
                                         best_guess_year_index['best_guess_national_prodxpart'].add(year)
+                                    #best_guess_national_product
+                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                        line['best_guess_national_product'] = 1
+                                        best_guess_year_index['best_guess_national_product'].add(year)
                                     # best_guess_national_partner
-                                    if line['source_type']=="Tableau Général" or line['source_type']=="Résumé" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                    if line['source_type']=="Tableau Général" or line['source_type']=="Résumé":
                                         line['best_guess_national_partner'] = 1
                                     # best_guess_department_prodxpart
                                     if (line['source_type']=="Local" and year != 1750) or (line['source_type']== "National toutes directions tous partenaires" and year == 1750):
@@ -225,6 +229,9 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                 # best_guess_national_prodxpart
                 if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['best_guess_national_prodxpart'] :
                     flow['best_guess_national_prodxpart'] = 1
+                # best_guess_national_product
+                if flow['source_type']=="Compagnie des Indes" and flow['tax_department']=="France par la Compagnie des Indes" and year in best_guess_year_index['best_guess_national_product'] :
+                    flow['best_guess_national_product'] = 1
                 # best_guess_national_department
                 if flow['source_type'] == 'local' and year in best_guess_year_index['best_guess_national_department']:
                     flow['best_guess_national_department'] = 1
