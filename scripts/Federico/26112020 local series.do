@@ -151,8 +151,9 @@ gen nxport_substitutes=export_substitutes-import_substitutes
 
 
 *graphs nxport 
-sparkline  nxport_flower nxports  export_partners import_partners  year if natlocal=="Bayonne", yline(0) yline(0) yline(0) yline(0) cmissing(no) ytitle("livres tournois") xlabel(#15,grid)  xmtick(##15) ylabel(#5,grid)  ymtick(##5)
-
+*sparkline  nxport_flower nxports  export_partners import_partners  year if natlocal=="Bayonne", yline(0) yline(0) yline(0) yline(0) cmissing(no) ytitle("livres tournois") xlabel(#15,grid)  xmtick(##15) ylabel(#5,grid)  ymtick(##5)
+*graph combine
+*multiline
 
 Click image for larger version Name: friedrich.png Views: 1 Size: 12.1 KB ID: 1329368
 twoway (tsline nxport_flower nxports if natlocal=="Bayonne", cmissing(no) yaxis(1) ytitle("livre tournois") xlabel(#15,grid)  xmtick(##15))  (scatter export_partners import_partners year if natlocal=="Bayonne", yaxis(2)) 
