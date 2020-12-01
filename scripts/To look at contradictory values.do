@@ -1,7 +1,7 @@
 
 
 
-global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+global dirgit "~/Répertoires GIT"
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
@@ -13,10 +13,10 @@ if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
 
 if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
 
-cd "$dir"
+cd "$dirgit"
 
 
-import delimited "$dir/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
+import delimited "$dirgit/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
 destring quantity value_per_unit value, replace
@@ -83,21 +83,21 @@ replace value_per_unit = .  if computed_value_per_unit ==1
 drop diff ln_diff value_minus_unit_val_x_qty computed_value_per_unit computed_value abs_diff
 rename value_minus_un_source value_minus_unit_val_x_qty
 
-export delimited using "$dir/toflit18_data_GIT/base/bdd_centrale.csv", replace
+export delimited using "$dirgit/toflit18_data_GIT/base/bdd_centrale.csv", replace
 
-cd "$dir/toflit18_data_GIT/scripts"
+cd "$dirgit/toflit18_data_GIT/scripts"
 python script "split_bdd_centrale_in_sources.py"
 
-cd "$dir/toflit18_data_GIT/scripts"
+cd "$dirgit/toflit18_data_GIT/scripts"
 python script "aggregate_sources_in_bdd_centrale.py"
 
 /*
 À faire si le programme suivant dépend du fichier zip !
 
 
-cd "$dir/toflit18_data_GIT/base"
+cd "$dirgit/toflit18_data_GIT/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
-cd "$dir/toflit18_data_GIT/scripts"
+cd "$dirgit/toflit18_data_GIT/scripts"
 */
 do "Pour BDD courante et mise à jour des autres tables.do"
