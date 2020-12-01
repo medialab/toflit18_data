@@ -224,7 +224,18 @@ merge 1:1 year importexport partner_grouping using local_temp.dta
 drop _merge
 erase national_temp.dta 
 
+***compute yearly shares to examine 1764
+save temp.dta
+bys year natlocal : egen y_trade=sum(value)
+gen partner_share=value/y_trade*100
+**same but with guess value
+bys year natlocal : egen y_guess_trade=sum(guess_value)
+gen partner_guess_share=guess_value/y_guess_trade*100
+*reshape wide
+reshape wide value n_directions guess_value y_trade partner_share y_guess_trade partner_guess_share, i(year partner_grouping natlocal) j(importexport)
+
 ***period var
+use temp.dta, clear
 gen period=1
 replace period=2 if year>1749 & year<1790
 replace period=3 if year>1789
