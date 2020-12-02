@@ -50,6 +50,7 @@ replace canada = "Autres pêches" if peche==1 & canada=="Pas importé en France 
 
 
 sort simplification
+drop _merge *revolution*
 
 export delimited using "~/Répertoires GIT/toflit18_data_GIT/base/classification_product_canada.csv", replace
 save "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/classification_product_canada.dta", replace
