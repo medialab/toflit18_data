@@ -1,10 +1,10 @@
 orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
-,94486,[non traité],94486
+,94473,[non traité],94473
 ???,3468,???,3471
 ??? blanc,2,??? blanc,2
 ??? brun,2,??? brun,2
 ??? d'Anjou et de Touraine,1,??? d'Anjou et de Touraine,1
-??? d'une valeur moindre de deux mille francs chacun,473,??? d'une valeur moindre de deux mille francs chacun,473
+??? d'une valeur moindre de deux mille francs chacun,413,??? d'une valeur moindre de deux mille francs chacun,413
 ??? de boutard,0,??? de boutard,0
 ??? de fer,2,??? de fer,2
 ??? de morue,1,??? de morue,1
@@ -17,7 +17,7 @@ orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
 ??? fer,1,??? fer,1
 ??? forts de fer,1,??? forts de fer,1
 ??? gras,1,??? gras,1
-??? particulièrement en chevaux,6,??? particulièrement en chevaux,6
+??? particulièrement en chevaux,0,??? particulièrement en chevaux,0
 ??? pieds,1,??? pieds,1
 ??? pruneaux,1,??? pruneaux,1
 ??? raisins secs,1,??? raisins secs,1
@@ -198,7 +198,7 @@ alcalis soudes de toute sorte,6,soudes de toute sorte,6
 alcalis soudes et natron,1,natron et soudes,1
 alènes,4,alènes,5
 alènes de cordonnier,1,alènes,5
-ali,1,,3
+ali,1,ali,1
 alibanies,96,alibanies,110
 alibanies étoffe,1,alibanies,110
 alicot,1,alicot,1
@@ -625,11 +625,11 @@ artichauts verts,1,artichauts frais,17
 articles d'industrie réunis,240,ouvrages d'industrie,301
 articles de manufactures étrangères en toile à voile,1,toile à voile,1
 articles de pêche,1,outils pour la pêche,115
-articles de peu de valeur réunis,19,divers,5605
-articles réunis,2410,divers,5605
-articles réunis d'une valeur moindre de 2000 francs chacun,136,divers,5605
-articles réunis de peu de valeur,379,divers,5605
-articles réunis et tissus étrangers réexportés,26,divers,5605
+articles de peu de valeur réunis,19,divers,5684
+articles réunis,2410,divers,5684
+articles réunis d'une valeur moindre de 2000 francs chacun,196,divers,5684
+articles réunis de peu de valeur,379,divers,5684
+articles réunis et tissus étrangers réexportés,26,divers,5684
 artifice,5,artifice,5
 artifice fusées etc.,0,artifice fusées etc.,0
 artillerie,6,artillerie,6
@@ -676,16 +676,16 @@ aurcsats,1,aurcsats,1
 aurcsats étoile,1,aurcsats étoile,1
 aussière,0,aussière,0
 autel de marbre,2,autel de marbre,2
-autres,500,divers,5605
+autres,500,divers,5684
 autres céréales farine,4,farine,2052
 autres céréales grains,5,grains,7
 autres céréales grains de la Corse,1,grains de la Corse,1
 autres comestibles,1,comestibles,72
 autres couleurs autrement préparées,2,couleurs autrement préparées,2
 autres couleurs préparées à l'huile,2,couleurs préparées à l'huile,2
-autres denrées,2,divers,5605
+autres denrées,2,divers,5684
 autres drogueries,1,drogues,2418
-autres marchandises,413,divers,5605
+autres marchandises,413,divers,5684
 autres marchandises anglaises,1,marchandises anglaises,1
 autres marchandises permises,14,marchandises permises,26
 autres matériaux de construction,2,matériaux de construction,101
@@ -1337,7 +1337,7 @@ bestiaux et bêtes de somme brebis,3,brebis,24
 bestiaux et bêtes de somme chevaux,6,chevaux de labour,93
 bestiaux et bêtes de somme chèvres,1,chèvres,179
 bestiaux et bêtes de somme chevrons,1,chevrons,76
-bestiaux et bêtes de somme divers,2,bêtes de somme,151
+bestiaux et bêtes de somme divers,2,bêtes de somme,157
 bestiaux et bêtes de somme en chevaux,1,chevaux de labour,93
 bestiaux et bêtes de somme génisses,2,génisses,60
 bestiaux et bêtes de somme juments,2,juments de somme,3
@@ -1375,13 +1375,13 @@ bestiaux vaches grasses,1,vaches,506
 bestiaux veaux,53,veaux,200
 bestiaux veaux gras,2,veaux gras,3
 bestiaux veaux petits,1,veaux petits,1
-bêtes de somme,145,bêtes de somme,151
+bêtes de somme,145,bêtes de somme,157
 bêtes de somme ânes,11,ânes,173
 bêtes de somme ânes et ânesses,1,ânes et ânesses,8
 bêtes de somme chevaux,65,chevaux de labour,93
 bêtes de somme chevaux arabes,1,chevaux arabes,1
 bêtes de somme chèvres,1,chèvres,179
-bêtes de somme diverses,4,bêtes de somme,151
+bêtes de somme diverses,4,bêtes de somme,157
 bêtes de somme en chevaux,11,chevaux de labour,93
 bêtes de somme en poulains,2,poulains de somme,2
 bêtes de somme et bestiaux,1,bestiaux et bêtes de somme,2
@@ -1391,6 +1391,7 @@ bêtes de somme juments,1,juments de somme,3
 bêtes de somme mules et mulets,16,mules et mulets,196
 bêtes de somme mules mulets et chevaux,4,chevaux de labour et mules et mulets,4
 bêtes de somme mulets,4,mulets,118
+bêtes de somme particulièrement en chevaux,6,bêtes de somme,157
 bêtes de somme poulains,15,poulains,71
 bêtes de somme principalement en mules et mulets,5,bêtes principalement en mules et mulets,11
 bêtes principalement en mules et mulets,6,bêtes principalement en mules et mulets,11
@@ -1538,7 +1539,7 @@ blanc d'écaille,1,blanc d'écaille,1
 blanc d'Espagne,73,blanc d'Espagne,75
 blanc d'Espagne craie blanche et moulue,0,blanc d'Espagne craie blanche et moulue,0
 blanc de baleine,119,blanc de baleine,127
-blanc de céruse,27,blanc de céruse,33
+blanc de céruse,27,blanc de céruse,38
 blanc de céruse pour l'entrepôt pour la Compagnie des Indes,1,blanc de céruse pour l'entrepôt de la Compagnie des Indes,1
 blanc de Hollande,1,blanc de Hollande,1
 blanc de Naples,1,blanc de Naples,1
@@ -3297,7 +3298,7 @@ brandebourg de fil,1,brandebourg de fil,1
 brandebourg de soie,1,brandebourg de soie,1
 brandiers,1,brandiers,1
 brandins,4,brandins,4
-branle,2,branle,2
+branle,95,hamacs,166
 bras de bois à chandelle,1,bras de bois pour chandelle,1
 bras de cheminée,4,bras de cheminée,4
 bras de soie,1,bras de soie,1
@@ -3305,7 +3306,6 @@ braserie,1,braserie,1
 brasserie,0,brasserie,0
 braudans,1,brandans,14
 braulambis,2,brandans,14
-braule,93,braule,93
 braux,1,braux,1
 brebis,7,brebis,24
 brebis en vie,1,brebis en vie,1
@@ -4810,7 +4810,6 @@ chapons,6,chapons,10
 chapons gras,4,chapons gras,4
 chaquelas,4,chaquelas,4
 charbon,310,charbon,337
-charbon à drapier,19,chardons à drapier,132
 charbon cardier,12,chardons cardiers,12
 charbon de bois,356,charbon de bois,356
 charbon de bois et chènevotte,1,charbon de bois et chènevotte,1
@@ -4834,7 +4833,7 @@ charbon houille,3,charbon houille,3
 charbon terre,3,charbon de terre,1639
 charcanas,1,charcanas,1
 chardons,13,chardons,13
-chardons à drapier,112,chardons à drapier,132
+chardons à drapier,131,chardons à drapier,132
 chardons cardère,18,chardons cardère,18
 chardons de drapiers,1,chardons à drapier,132
 charfarcani,3,charfarcani,3
@@ -5669,14 +5668,14 @@ cordage vieux,42,cordage vieux,42
 cordagnes,1,cordage,853
 corde d'emballage,2,cordage d'emballage,8
 corde Levant,1,corde du Levant,1
-cordeillat,107,cordeillat,229
+cordeillat,108,cordeillat,230
 cordeillat d'Oléron,2,cordeillat d'Oléron,2
 cordeillat de Colmar,13,cordeillat de Colmar,15
-cordeillat de laine,1,cordeillat,229
+cordeillat de laine,1,cordeillat,230
 cordeillat de Piemont,1,cordeillat de Piémont,1
 cordeillat de Provence,2,cordeillat de Provence,2
-cordeillaterie,43,cordeillat,229
-cordelats,1,cordeillat,229
+cordeillaterie,43,cordeillat,230
+cordelats,1,cordeillat,230
 cordellerie,3,cordellerie,3
 cordes,3,cordes,4
 cordes à arçons,3,cordes à arçons,9
@@ -6913,11 +6912,11 @@ dattes et pistaches,0,dattes et pistaches,0
 daubes,1,daubes,1
 dauphine,53,dauphine,61
 dauphine aune,0,dauphine,61
-de haut,2,de haut,2
+de haut,1,vin de haut,503
 de liqueurs,1,liqueurs,1950
 de peu de valeur,2,de peu de valeur,2
 de tafia,2,de tafia,2
-de ville,2,de ville,2
+de ville,1,vin de ville,733
 débris de vaisseaux et vieux ouvrages de charpente,0,débris de vaisseaux et vieux ouvrages de charpente,0
 déchets de pierre,4,déchets de pierre,4
 déchets et débris bourre de laine entières lanice et tontice,1,bourre de laine entière lanice et tontice,1
@@ -6987,7 +6986,7 @@ denrées des Îles françaises de l'Amérique sucre raffiné,1,sucre raffiné,29
 denrées des Îles françaises de l'Amérique sucre têtes,1,sucre têtes,414
 denrées des Îles rocou,1,rocou,1666
 denrées des Îles sucre brun,3,sucre brun,83
-denrées diverses réunies,4,divers,5605
+denrées diverses réunies,4,divers,5684
 denrées du crû des Isles d'Amérique provenant de la vente aux dites Isles des nègres de Guinée,30,marchandises des Îles,186
 denrées du crû des Isles d'Amérique provenant de la vente aux dites Isles des nègres de Sénégal,30,marchandises des Îles,186
 dentelle,277,dentelle,320
@@ -7146,10 +7145,10 @@ dindons,19,dindons,37
 dissouchaye,38,dissouchaye,38
 distillats,2,distillats,2
 ditors,2,ditors,2
-divers,3,divers,5605
-divers articles,1,divers,5605
+divers,3,divers,5684
+divers articles,1,divers,5684
 divers effets,1,habits,447
-divers en mercerie etc.,1,mercerie,3614
+divers en mercerie etc.,1,mercerie,3615
 divers fruits sec tels que figue et pruneaux etc.,1,fruits secs,976
 divers grains,1,grains,7
 divers gros et menus ouvrages de bois,0,ouvrages de bois,696
@@ -7242,14 +7241,14 @@ dragonnes d'épée,1,dragonnes d'épée,1
 drague de bière,1,drague de bière,2
 drague de brasserie,1,drague de bière,2
 drague de soie,1,drague de soie,1
-drap,142,drap,276
+drap,142,drap,1331
 drap à doubler,4,drap à doubler,4
 drap à matelot,1,drap à matelot,1
 drap à passer sucre,4,drap à sucre,6
 drap à sucre,2,drap à sucre,6
 drap au sixième de soie,3,drap au sixième de soie,7
-drap avarié,4,drap avarié,5
-drap blanc,2,drap blanc,2
+drap avarié,4,drap avarié,6
+drap blanc,2,drap blanc,3
 drap blanc d'Espagne,0,drap blanc d'Espagne,0
 drap blanc de Bremer,0,drap blanc de Bremer,0
 drap blanc de Bremer aune,0,drap blanc de Bremer,0
@@ -7258,22 +7257,22 @@ drap blanc de douzaine aune,0,drap blanc de douzaine,0
 drap blanc de Hollande,0,drap blanc de Hollande,0
 drap blanc et écarlate,1,drap blanc et écarlate,1
 drap blanc fin,2,drap blanc fin,2
-drap blanc par aune,0,drap blanc,2
+drap blanc par aune,0,drap blanc,3
 drap bleu,1,drap bleu,2
 drap bleu gros,1,drap bleu gros,1
 drap brodé aux ciseaux en soie,1,drap brodé au ciseau en soie,1
 drap brodé en or et argent,5,drap brodé en or et argent,5
-drap brodé en soie,3,drap brodé de soie,19
-drap by,1,drap,276
+drap brodé en soie,3,drap brodé de soie,20
+drap by,1,drap,1331
 drap calimouk,1,drap calimouk,1
 drap calimouk de Sedan 20 lignes,1,drap calimouk de Sedan 20 lignes,1
 drap calimouk de Sedan 350 lignes,1,drap calimouk de Sedan 350 lignes,1
 drap carisé,1,carisé,1
 drap carisé des prises,1,carisé des prises,1
 drap casimir,6,casimir de laine,11
-drap commun,23,drap commun,48
+drap commun,23,drap commun,321
 drap commun d'Angleterre,1,drap commun d'Angleterre,1
-drap cordeillat,40,cordeillat,229
+drap cordeillat,40,cordeillat,230
 drap cordeillat de Colmar,2,cordeillat de Colmar,15
 drap cosinis,1,drap cosinis,1
 drap crêpe,2,drap crêpe,2
@@ -7282,10 +7281,10 @@ drap d',3,drap d',3
 drap d'Abbeville,107,drap d'Abbeville,115
 drap d'Abbeville Valenciennes,1,drap d'Abbeville Valenciennes,1
 drap d'Amboise,1,drap d'Amboise,1
-drap d'Amiens,26,drap d'Amiens,28
-drap d'Andelys,19,drap d'Andelys,19
-drap d'Angleterre,17,drap d'Angleterre,21
-drap d'Angleterre aune,0,drap d'Angleterre,21
+drap d'Amiens,26,drap d'Amiens,38
+drap d'Andelys,19,drap d'Andelys,28
+drap d'Angleterre,17,drap d'Angleterre,23
+drap d'Angleterre aune,0,drap d'Angleterre,23
 drap d'Angleterre des prises,3,drap d'Angleterre des prises,3
 drap d'Angleterre Hollande et Espagne,11,drap d'Angleterre et drap d'Espagne et drap de Hollande,11
 drap d'Angleterre noir,1,drap d'Angleterre noir,1
@@ -7300,13 +7299,13 @@ drap d'estame,1,drap d'estames,1
 drap d'or et d'argent fin,2,drap d'or et d'argent fin,2
 drap Darnétal,11,drap de Darnétal,26
 drap dauphine,48,drap dauphine,113
-drap de Beauvais,6,drap de Beauvais,7
-drap de Beauvaste,1,drap de Beauvais,7
+drap de Beauvais,6,drap de Beauvais,12
+drap de Beauvaste,1,drap de Beauvais,12
 drap de Bergopzoom,1,drap de Bergopzoom,1
 drap de billard,2,drap de billard,2
 drap de Bolbec,1,drap de Bolbec,1
 drap de Bourbon,1,drap de Bourbon,1
-drap de Carcassonne,186,drap de Carcassonne,217
+drap de Carcassonne,186,drap de Carcassonne,218
 drap de Carcassonne de 20 aunes,1,drap de Carcassonne de 20 aunes,1
 drap de Carcassonne écarlate,1,drap de Carcassonne et écarlate,1
 drap de Carcassonne fin,1,drap de Carcassonne fin,1
@@ -7315,12 +7314,12 @@ drap de castor,9,drap de castor,11
 drap de castor aune,0,drap de castor,11
 drap de castor par aune,0,drap de castor,11
 drap de Colmar,6,drap de Colmar,6
-drap de cordeillat,3,cordeillat,229
+drap de cordeillat,3,cordeillat,230
 drap de coton,2,drap de coton,18
 drap de coton de Rouen,1,drap de coton de Rouen,1
 drap de Darnétal,15,drap de Darnétal,26
 drap de Dauphiné,1,drap de castor,11
-drap de diverses coutures,1,drap,276
+drap de diverses coutures,1,drap,1331
 drap de douzaine,4,drap de douzaine,4
 drap de douzaine aune,0,drap de douzaine,4
 drap de Falaise,3,drap de Falaise,3
@@ -7337,65 +7336,65 @@ drap de Hollande,4,drap de Hollande,12
 drap de julienne,14,drap de julienne,22
 drap de Korook,1,drap de Korook,1
 drap de la Bouille,2,drap de la Bouille,2
-drap de lain,2,drap de laine,1055
-drap de laine,256,drap de laine,1055
-drap de laine au ??? de soie,0,drap de laine au ??? de soie,0
-drap de laine au quart de soie,3,drap de laine au quart de soie,3
-drap de laine avarié,1,drap de laine avarié,1
-drap de laine blanc,1,drap blanc de laine,1
+drap de lain,2,drap,1331
+drap de laine,256,drap,1331
+drap de laine au ??? de soie,0,drap au ??? de soie,0
+drap de laine au quart de soie,3,drap au quart de soie,3
+drap de laine avarié,1,drap avarié,6
+drap de laine blanc,1,drap blanc,3
 drap de laine bleu,1,drap bleu,2
-drap de laine brodé en soie,1,drap de laine brodé de soie,1
-drap de laine commun,9,drap de laine commun,273
-drap de laine cordeillat,25,cordeillat,229
+drap de laine brodé en soie,1,drap brodé de soie,20
+drap de laine commun,9,drap commun,321
+drap de laine cordeillat,25,cordeillat,230
 drap de laine d'Abbeville,7,drap d'Abbeville,115
-drap de laine d'Amiens,2,drap de laine d'Amiens,10
-drap de laine d'Andelys,9,drap de laine d'Andelys,9
-drap de laine d'Angleterre,4,drap d'Angleterre,21
+drap de laine d'Amiens,2,drap d'Amiens,38
+drap de laine d'Andelys,9,drap d'Andelys,28
+drap de laine d'Angleterre,4,drap d'Angleterre,23
 drap de laine d'Arnetal,6,serge d'Arnetal,6
 drap de laine d'Elbeuf,212,drap d'Elbeuf,607
 drap de laine de ???,0,drap de ?,0
-drap de laine de Beauvais,1,drap de laine de Beauvais,5
-drap de laine de Carcassonne,28,drap de Carcassonne,217
+drap de laine de Beauvais,1,drap de Beauvais,12
+drap de laine de Carcassonne,28,drap de Carcassonne,218
 drap de laine de castor,1,drap de castor,11
 drap de laine de cérémonie,2,drap de cérémonie,2
 drap de laine de Cherbourg,1,drap de Cherbourg,1
-drap de laine de cordeillat,5,cordeillat,229
-drap de laine de Cours,1,drap de laine de Cours,1
+drap de laine de cordeillat,5,cordeillat,230
+drap de laine de Cours,1,drap de Cours,1
 drap de laine de France,13,drap de France,92
 drap de laine de Hollande,8,drap de Hollande,12
-drap de laine de Lille,15,drap de laine de Lille,15
-drap de laine de Louviers,123,drap de laine de Louviers,123
-drap de laine de Montauban,3,drap de Montauban,15
-drap de laine de Nanrabais,4,drap de laine de Nanrabais,4
+drap de laine de Lille,15,drap de Lille,34
+drap de laine de Louviers,123,drap de Louviers,394
+drap de laine de Montauban,3,drap de Montauban,36
+drap de laine de Nanrabais,4,drap de Nanrabais,4
 drap de laine de Nison,1,drap de Nison,1
 drap de laine de Reims,1,draps de laine de Reims,1
 drap de laine de Rome,1,drap de Rome,1
 drap de laine de Rouen,6,drap de Rouen,28
-drap de laine de Saint-Robert,12,drap de laine de Saint-Robert,12
+drap de laine de Saint-Robert,12,drap de Saint-Robert,12
 drap de laine de Sedan,61,drap de Sedan,310
 drap de laine de Silésie,108,drap de Silésie,198
 drap de laine de Sir,2,drap de Sir,2
-drap de laine de toute espèce,2,drap de laine,1055
-drap de laine de Van Robais,51,drap de laine de Van Robais,51
-drap de laine de Vir,1,drap de laine de Vir,1
+drap de laine de toute espèce,2,drap,1331
+drap de laine de Van Robais,51,drap de Van Robais,73
+drap de laine de Vir,1,drap de Vir,18
 drap de laine demi fin,1,drap demi fin de laine,1
-drap de laine des prises,5,drap des prises,5
-drap de laine divers,36,drap de laine,1055
-drap de laine diverse,2,drap de laine,1055
-drap de laine draperie diverse,0,drap de laine draperie diverse,0
+drap de laine des prises,5,drap des prises,6
+drap de laine divers,36,drap,1331
+drap de laine diverse,2,drap,1331
+drap de laine draperie diverse,0,drap,1331
 drap de laine du Languedoc,9,drap de Languedoc,150
 drap de laine du Nord,1,drap du Nord,1
 drap de laine du sceau,1,drap du sceau,1
-drap de laine écarlate,68,drap écarlate,171
+drap de laine écarlate,68,drap écarlate,178
 drap de laine étranger,3,drap étranger,3
-drap de laine fin,53,drap de laine fin,108
-drap de laine fine,2,drap de laine fin,108
-drap de laine gros,2,drap de laine gros,2
-drap de laine lin,1,drap de laine fin,108
-drap de laine londrin,79,drap londrin,307
+drap de laine fin,53,drap fin,145
+drap de laine fine,2,drap fin,145
+drap de laine gros,2,drap gros,4
+drap de laine lin,1,drap fin,145
+drap de laine londrin,79,drap londrin,306
 drap de Languenan,1,drap de Languenan,1
 drap de Latte,1,drap de Latte,1
-drap de Lille,19,drap de Lille,19
+drap de Lille,19,drap de Lille,34
 drap de Limbourg,0,drap de Limbourg,1
 drap de Limbourg aune,0,drap de Limbourg,1
 drap de Limoux,3,drap de Limoux,3
@@ -7411,13 +7410,13 @@ drap de lit neuf,1,drap de lit neuf,1
 drap de lit toile de lin,1,drap de lit toile de lin,1
 drap de lit vieux,32,drap de lit vieux,32
 drap de Lodève,23,drap de Lodève,23
-drap de Londrin,3,drap londrin,307
-drap de Louviers,239,drap de Louviers,271
+drap de Londrin,3,drap londrin,306
+drap de Louviers,239,drap de Louviers,394
 drap de Louviers au sixième de soie,1,drap de Louviers au sixième de soie,1
-drap de Lyon,1,drap de Lyon,1
+drap de Lyon,1,drap de Lyon,3
 drap de Maroc,1,drap de Maroc,1
 drap de montagne,6,drap de montagne,6
-drap de Montauban,12,drap de Montauban,15
+drap de Montauban,12,drap de Montauban,36
 drap de Moucu,3,drap de Moucu,3
 drap de Nîmes,1,drap de Nîmes,1
 drap de Normandie,2,drap de Normandie,2
@@ -7442,12 +7441,12 @@ drap de Soudrain,6,drap de Soudrain,6
 drap de Souvier,1,drap de Souvier,1
 drap de toile de lin,1,drap de toile de lin,1
 drap de Tours,1,drap de Tours,1
-drap de toute espèce,1,drap,276
-drap de toute sorte,2,drap,276
-drap de Van Robais,22,drap de Van Robais,22
+drap de toute espèce,1,drap,1331
+drap de toute sorte,2,drap,1331
+drap de Van Robais,22,drap de Van Robais,73
 drap de vere,2,drap de vere,2
-drap de Vir,1,drap de Vir,17
-drap de Vire,16,drap de Vir,17
+drap de Vir,1,drap de Vir,18
+drap de Vire,16,drap de Vir,18
 drap des prises,11,drap des prise,11
 drap dit packlaeken,0,packlaeken,0
 drap dit packlaeken aune,0,packlaeken,0
@@ -7459,20 +7458,20 @@ drap dit plawens,0,plawens,0
 drap dit plawens aune,0,plawens,0
 drap dit plawens ou codde,0,plawens ou codde,0
 drap dit plawens ou codde aune,0,plawens ou codde,0
-drap divers,114,drap,276
+drap divers,114,drap,1331
 drap divers ???,8,drap divers ???,8
 drap divers anglais,1,drap anglais,1
-drap divers de laine,12,drap de laine,1055
+drap divers de laine,12,drap,1331
 drap divers de Limbourg,1,drap de Limbourg,1
-drap divers draperie,21,drap de laine,1055
-drap divers écarlate,4,drap écarlate,171
-drap divers fin,1,drap fin,37
+drap divers draperie,21,drap,1331
+drap divers écarlate,4,drap écarlate,178
+drap divers fin,1,drap fin,145
 drap drache,0,drap drache,0
-drap drap commun,2,drap commun,48
-drap drap fin,4,drap fin,37
+drap drap commun,2,drap commun,321
+drap drap fin,4,drap fin,145
 drap drapée,4,drap drapée,4
-drap draperie,1,drap de laine,1055
-drap draperie ???,1,drap de laine ???,1
+drap draperie,1,drap,1331
+drap draperie ???,1,drap ???,1
 drap draperie bay ???,1,bayette,141
 drap draperie bayette,12,bayette,141
 drap draperie buras,1,drap buras,1
@@ -7483,33 +7482,33 @@ drap draperie capots,1,capots (draps),1
 drap draperie crêpe,4,crêpe de laine,6
 drap draperie crêpe de Reims,11,crêpe de laine de Reims,11
 drap draperie d'Abbeville,1,drap d'Abbeville,115
-drap draperie d'Amiens,2,drap d'Amiens,28
+drap draperie d'Amiens,2,drap d'Amiens,38
 drap draperie Damas,1,drap Damas,1
 drap draperie dauphine,65,drap dauphine,113
-drap draperie de Carcassonne,1,drap de laine de Carcassonne,1
-drap draperie de Montauban,2,drap de laine de Montauban,21
-drap draperie diverse,3,drap de laine,1055
+drap draperie de Carcassonne,1,drap de Carcassonne,218
+drap draperie de Montauban,2,drap de Montauban,36
+drap draperie diverse,3,drap,1331
 drap draperie droguet,18,droguet de laine,59
 drap draperie du Languedoc,3,drap de Languedoc,150
 drap draperie espagnolette,125,espagnolette,261
-drap draperie fine,3,drap de laine fin,108
+drap draperie fine,3,drap fin,145
 drap draperie flanelle,72,flanelle de laine,88
-drap draperie frac,1,drap de laine frac,2
-drap draperie froc,1,drap de laine frac,2
+drap draperie frac,1,drap frac,2
+drap draperie froc,1,drap frac,2
 drap draperie futaine,8,futaine,62
-drap draperie iadia,1,drap de laine iada,1
+drap draperie iadia,1,drap iada,1
 drap draperie irtaine,1,futaine,62
-drap draperie layette,5,drap de laine layette,5
-drap draperie molleton,47,drap de laine molleton,47
-drap draperie motton,8,drap de laine motton,8
-drap draperie moutade,1,drap de laine moutade,1
-drap draperie ordinaire,317,drap de laine ordinaire,387
-drap draperie petite,286,drap de laine petit,704
+drap draperie layette,5,drap layette,5
+drap draperie molleton,47,molleton de laine,75
+drap draperie motton,8,drap motton,8
+drap draperie moutade,1,drap moutade,1
+drap draperie ordinaire,317,drap ordinaire,394
+drap draperie petite,286,drap petit,720
 drap draperie petite de mains,1,drap petit de mains,1
 drap draperie petite de Sedan,1,drap petit de Sedan,1
 drap draperie petite de Silésie,21,drap petit de Silésie,33
-drap draperie petite divers,3,drap de laine petit,704
-drap draperie petite diverse,7,drap de laine petit,704
+drap draperie petite divers,3,drap petit,720
+drap draperie petite diverse,7,drap petit,720
 drap draperie petite du Languedoc,1,drap petit de Languedoc,1
 drap draperie petite du Maroc,12,drap petit raze de Maroc,12
 drap draperie pinchina,13,pinchinat de laine,16
@@ -7521,7 +7520,7 @@ drap draperie serge de laine,68,serge de laine,778
 drap draperie serge de Rome,1,serge de Rome,4
 drap draperie sergette,1,sergette,10
 drap draperie terlaine,1,drap terlaine,1
-drap draperie tricots,2,drap et drap de laine et tricots,2
+drap draperie tricots,2,drap et tricots,2
 drap droguet,4,droguet,4
 drap droguet d'Angleterre,1,droguet d'Angleterre,2
 drap droguet de castor,1,droguet de castor,2
@@ -7531,7 +7530,7 @@ drap droguet de Milan,1,droguet de milan,1
 drap droguet fil à laine,3,droguet de fil de laine,3
 drap droguet fil et laine,14,droguet de fil et de laine,21
 drap du Berry,4,drap du Berry,4
-drap du Château du Parc,1,drap écarlate,171
+drap du Château du Parc,1,drap écarlate,178
 drap du Dauphiné,1,drap du Dauphiné,1
 drap du Languedoc,92,drap de Languedoc,150
 drap du Languedoc écarlate,1,drap écarlate et du Languedoc,1
@@ -7545,51 +7544,52 @@ drap du Nord mêlé aune,0,drap du Nord,1
 drap du Nord teint,0,drap du Nord teint,0
 drap du Nord teint aune,0,drap du Nord teint,0
 drap du pays,1,drap du pays,1
-drap du Poitou,1,drap de Poitou,1
-drap écarlate,96,drap écarlate,171
+drap du Poitou,1,drap de Poitou,2
+drap écarlate,96,drap écarlate,178
 drap écarlate de France,2,drap écarlate de France,2
 drap écarlate des prises,1,drap écarlate des prises,1
-drap écarlatine,2,drap écarlate,171
+drap écarlatine,2,drap écarlate,178
 drap Elbeuf,1,drap d'Elbeuf,607
 drap et draperie,1,drap et draperie de laine,12
 drap et draperie casinier,1,drap et draperie casinier,1
 drap et draperie de toute sorte,5,drap et draperie de laine,12
 drap et draperie divers de laine,6,drap et draperie de laine,12
-drap et draperie raffiné,1,drap fin,37
+drap et draperie raffiné,1,drap fin,145
 drap et étoffe de laine,1,drap et étoffe de laine,9
 drap et mouchoirs de soie,1,drap et mouchoir de soie,1
 drap et velours de coton,1,drap et velours de coton,1
-drap fin,31,drap fin,37
+drap fin,31,drap fin,145
 drap fin blanc,1,drap fin blanc,1
 drap fin du Languedoc,3,drap fin du Languedoc,23
-drap fin et draperie,1,drap de laine fin et drap de laine,1
+drap fin et draperie,1,drap fin et drap,1
 drap fin manufacture de France,4,drap fin de la manufacture de France,4
 drap gaufré,2,drap gaufré,2
-drap gros,2,drap gros,2
+drap gros,2,drap gros,4
 drap gros de Cobras,1,drap de Cobras gros,1
 drap gros de laine,4,drap gros de laine,4
-drap grossier,2,drap grossier,2
+drap grossier,2,drap grossier,6
 drap imprimé,5,drap imprimé,6
 drap kalmouk,4,drap kalmouk,4
-drap londrin,222,drap londrin,307
-drap londrin ?,1,drap londrin,307
-drap londrine,1,drap londrin,307
-drap Louviers,32,drap de Louviers,271
+drap londrin,222,drap londrin,306
+drap londrin ?,0,drap londrin,306
+drap londrin second,1,drap londrin second,1
+drap londrine,1,drap londrin,306
+drap Louviers,32,drap de Louviers,394
 drap mêlé d'Espagne,0,drap d'Espagne,1
 drap natives divers,3,drap native divers,3
 drap naturel commun,3,drap naturel commun,3
 drap naturel de Sedan,1,drap naturel de Sedan,1
 drap naturel diverses,2,drap naturel diverses,2
 drap naturel Sirre,2,drap naturel Sirre,2
-drap naufragé,1,drap avarié,5
+drap naufragé,1,drap avarié,6
 drap noir,5,drap noir,5
 drap noir de Sedan,1,drap noir de Sedan,1
-drap non indiqué,5,drap,276
-drap ordinaire,7,drap ordinaire,7
+drap non indiqué,5,drap,1331
+drap ordinaire,7,drap ordinaire,394
 drap palencourt,1,drap palencourt,1
-drap petit,14,drap petit,16
+drap petit,14,drap petit,720
 drap petit dit raz Maroc,1,raze de Maroc,331
-drap petit divers,1,drap petit,16
+drap petit divers,1,drap petit,720
 drap petit raz de castor,2,petit raze de castor,2
 drap petit raz refoulé,1,petit raze refoulé,1
 drap petite ratine,1,ratine petite,3
@@ -7635,87 +7635,87 @@ drap teint et mêlé de douzaine aune,0,drap de douzaine teint,0
 drap vert,2,drap vert,2
 drap vieux,2,drap vieux,2
 drap vieux pour l'entrepôt pour la Guinée,1,drap vieux pour l'entrepôt pour la Guinée,1
-drape commune,3,drap commun,48
+drape commune,3,drap commun,321
 drape draperie ratine,2,ratine,175
 drape petite,2,drape petite,2
 drapeaux,2,drapeaux,2
 drapeaux vieux,111,drapeaux vieux,115
 drapeaux vieux pour papeterie,1,drapeaux vieux pour papeterie,1
-draperie,417,drap de laine,1055
+draperie,417,drap,1331
 draperie ??? du Languedoc,1,drap de Languedoc,150
-draperie 20 lignes,1,drap de laine de 20 lignes,1
-draperie à la valeur,1,drap de laine,1055
-draperie assortie,1,drap de laine,1055
+draperie 20 lignes,1,drap de 20 lignes,1
+draperie à la valeur,1,drap,1331
+draperie assortie,1,drap,1331
 draperie au sixième de soie,3,drap au sixième de soie,7
 draperie callemande,2,callemande,585
 draperie calmande,7,callemande,585
 draperie cammise,2,drap cammise,2
 draperie casimir,2,casimir de laine,11
-draperie commune,20,drap commun,48
-draperie cordeillat,1,cordeillat,229
-draperie d'Amiens,8,drap de laine d'Amiens,10
-draperie d'Angleterre,2,drap de laine d'Angleterre,2
-draperie d'Auvergne,1,drap de laine d'Auvergne,1
-draperie de Beauvais,4,drap de laine de Beauvais,5
-draperie de Carcassonne,3,drap de Carcassonne,217
+draperie commune,20,drap commun,321
+draperie cordeillat,1,cordeillat,230
+draperie d'Amiens,8,drap d'Amiens,38
+draperie d'Angleterre,2,drap d'Angleterre,23
+draperie d'Auvergne,1,drap d'Auvergne,1
+draperie de Beauvais,4,drap de Beauvais,12
+draperie de Carcassonne,3,drap de Carcassonne,218
 draperie de Champagne,1,drap de Champagne,1
 draperie de dauphine,1,drap de dauphine,1
-draperie de laine,15,drap de laine,1055
-draperie de laine de Sedan,0,drap de laine de Sedan,0
-draperie de laine diverse,0,drap de laine diverse,0
-draperie de laine drap,2,drap de laine,1055
-draperie de laine londrin,0,drap londrin,307
-draperie de laine pour les troupes,4,drap de laine pour les troupes,4
-draperie de Languedoc fin,1,drap de laine de Lyon,2
-draperie de Lyon,1,drap de laine de Lyon,2
-draperie de Montauban,19,drap de laine de Montauban,21
-draperie de toute espèce,6,drap de laine,1055
-draperie de toute sorte,17,drap de laine,1055
-draperie des prises,1,drap de laine des prises,1
-draperie diverse,23,drap de laine,1055
-draperie diverse de laine,1,drap de laine,1055
-draperie drap,56,drap de laine,1055
+draperie de laine,15,drap,1331
+draperie de laine de Sedan,0,drap de Sedan,310
+draperie de laine diverse,0,drap,1331
+draperie de laine drap,2,drap,1331
+draperie de laine londrin,0,drap londrin,306
+draperie de laine pour les troupes,4,drap pour les troupes,4
+draperie de Languedoc fin,1,drap de Lyon,3
+draperie de Lyon,1,drap de Lyon,3
+draperie de Montauban,19,drap de Montauban,36
+draperie de toute espèce,6,drap,1331
+draperie de toute sorte,17,drap,1331
+draperie des prises,1,drap des prises,6
+draperie diverse,23,drap,1331
+draperie diverse de laine,1,drap,1331
+draperie drap,56,drap,1331
 draperie drap au sixième de soie,1,drap au sixième de soie,7
-draperie drap brodé de soie,16,drap brodé de soie,19
+draperie drap brodé de soie,16,drap brodé de soie,20
 draperie drap de vigogne,1,drap de vigogne,1
-draperie drap divers,1,drap de laine,1055
+draperie drap divers,1,drap,1331
 draperie drap divers d'Elbeuf velours,1,drap d'Elbeuf de velours,1
 draperie drap divers de Sedan velours,1,drap de Sedan de velours,1
 draperie drap divers du Languedoc velours,1,drap de Languedoc de velours,1
-draperie drap écarlate,2,drap de laine écarlate,7
-draperie drap en soie et dorure,1,drap de laine de dorure et soie,1
+draperie drap écarlate,2,drap écarlate,178
+draperie drap en soie et dorure,1,drap de dorure et soie,1
 draperie drap julienne,7,drap de julienne,22
-draperie drap pour billau,1,drap de laine pour billau,1
+draperie drap pour billau,1,drap pour billau,1
 draperie drap sedan,12,drap de Sedan,310
 draperie du Languedoc,45,drap de Languedoc,150
-draperie du Poitou,1,drap de laine de Poitou,1
-draperie écarlate,5,drap de laine écarlate,7
-draperie en échantillon et lisières,1,drap de laine en échantillon et lisères,1
+draperie du Poitou,1,drap de Poitou,2
+draperie écarlate,5,drap écarlate,178
+draperie en échantillon et lisières,1,drap en échantillon et lisères,1
 draperie et étoffe,3,drap et étoffe de laine,9
 draperie et étoffe de laine,5,drap et étoffe de laine,9
-draperie fine,48,drap de laine fin,108
-draperie fine diverse,1,drap de laine fin,108
-draperie fine diverse dite londrin du Languedoc de Carcassonne et Lodève,1,drap londrin,307
-draperie fine diverse ordinaire et petite,1,drap de laine fin ordinaire et petit,1
+draperie fine,48,drap fin,145
+draperie fine diverse,1,drap fin,145
+draperie fine diverse dite londrin du Languedoc de Carcassonne et Lodève,1,drap londrin,306
+draperie fine diverse ordinaire et petite,1,drap fin ordinaire et petit,1
 draperie fine du Languedoc,20,drap fin du Languedoc,23
-draperie grosse,2,drap de laine grossier,4
-draperie grossière,2,drap de laine grossier,4
-draperie Languedoc,2,drap de laine du Languedoc,2
+draperie grosse,2,drap grossier,6
+draperie grossière,2,drap grossier,6
+draperie Languedoc,2,drap du Languedoc,2
 draperie or argent et soie,1,drap d'argent et d'or et de soie,1
-draperie ordinaire,264,drap de laine commun,273
+draperie ordinaire,264,drap commun,321
 draperie ordinaire du Languedoc,1,drap de Languedoc ordinaire,1
-draperie peinte,2,drap de laine peint,2
-draperie petite,408,drap de laine petit,704
+draperie peinte,2,drap peint,2
+draperie petite,408,drap petit,720
 draperie petite de Montauban,1,drap petit de Montauban,1
 draperie petite de Silésie,1,drap petit de Silésie,33
-draperie petite diverse,1,drap petit,16
+draperie petite diverse,1,drap petit,720
 draperie petite londrin,1,drap petit londrin,1
 draperie petite Maroc,4,raze de Maroc,331
 draperie petite matine,1,ratine petite,3
 draperie petite ratine,1,ratine petite,3
 draperie petite Silésie,11,drap petit de Silésie,33
 draperie platine,2,drap platine,2
-draperie pour doublures,3,drap de laine pour doublures,3
+draperie pour doublures,3,drap pour doublures,3
 draperie ratine,10,ratine,175
 draperie Silésie,13,drap de Silésie,198
 drèche,2,drêche,3
@@ -7863,7 +7863,7 @@ droguerie pour peintures et teinture céruse,2,céruse,893
 droguerie pour peintures et teinture cochenille,2,cochenille,1109
 droguerie pour peintures et teinture couperose,2,couperose,956
 droguerie pour peintures et teinture curcuma,1,curcuma,136
-droguerie pour peintures et teinture diverses,4,divers,5605
+droguerie pour peintures et teinture diverses,4,divers,5684
 droguerie pour peintures et teinture galle,3,galle,798
 droguerie pour peintures et teinture garance,3,garance,1145
 droguerie pour peintures et teinture graine d'écarlate,1,graine d'écarlate,2
@@ -7901,7 +7901,7 @@ droguerie rhubarbe,1,rhubarbe,752
 droguerie safran,5,safran,1403
 droguerie safranum,1,safran,1403
 droguerie sel ammoniac,1,sel d'ammoniac,422
-droguerie sel chimique,2,sel chimique,296
+droguerie sel chimique,2,sel chimique,301
 droguerie sel de nitre,1,sel de nitre,8
 droguerie sel de Saturne,3,acétates de plomb,279
 droguerie séné,1,séné,637
@@ -7950,14 +7950,14 @@ drogues chimiques et métalliques sel d'antimoine,2,sel d'antimoine,2
 drogues chimiques et métalliques sel d'Epsom,2,sel d'Epsom,208
 drogues chimiques et métalliques sel de Glauber,0,acétates de plomb,279
 drogues chimiques et métalliques sel de Saturne,2,acétates de plomb,279
-drogues chimiques et métalliques sel divers,2,sel,8984
+drogues chimiques et métalliques sel divers,2,sel chimique,301
 drogues chimiques et métalliques sel Saturne,8,acétates de plomb,279
 drogues chimiques et métalliques sublimé,0,drogues chimiques et métalliques sublimé,0
 drogues chimiques et métalliques vitriol,9,vitriol,451
 drogues chimiques et métalliques vitriol bleu,1,vitriol bleu,4
 drogues chimiques et métalliques zinc,3,zinc,45
 drogues chimiques huile de vitriol,1,huile de vitriol,295
-drogues chimiques sel,1,sel,8984
+drogues chimiques sel,1,sel chimique,301
 drogues chimiques sel ammoniac,20,ammoniac et sel,21
 drogues chimiques sel ammoniaque,1,ammoniac et sel,21
 drogues chimiques sel d'Epsom,3,sel d'Epsom,208
@@ -7971,7 +7971,7 @@ drogues chimiques sel de prunelle,2,sel de prunelle,2
 drogues chimiques sel de Prusse,1,sel de Prusse,1
 drogues chimiques sel de Saturne,13,acétates de plomb,279
 drogues chimiques sel de tamarin,3,sel de tamarin,17
-drogues chimiques sel divers,2,sel,8984
+drogues chimiques sel divers,2,sel chimique,301
 drogues chimiques sel gemme,2,sel gemme,39
 drogues chimiques sel Saturne,4,acétates de plomb,279
 drogues chimiques sel sublimé,2,sel sublimé,2
@@ -8048,7 +8048,7 @@ drogues diverses pour la médecine,1,drogues diverses médicinales,5
 drogues diverses pour la peinture et teinture,4,drogues diverses pour peintures et teinture,4
 drogues diverses réunies,506,drogues,2418
 drogues diverses sagon,2,sagon,2
-drogues diverses sel chimique,15,sel chimique,296
+drogues diverses sel chimique,15,sel chimique,301
 drogues émeri,2,émeri,161
 drogues et épiceries diverses pour la peinture et teinture,2,drogues et épiceries diverses pour peintures et teinture,2
 drogues fines,4,drogues fines,14
@@ -8292,21 +8292,21 @@ drogues métalliques diverses,5,drogues métalliques,8
 drogues métalliques et chimiques antimoine,2,antimoine,228
 drogues métalliques et chimiques argent,3,argent,11
 drogues métalliques et chimiques arsenic,3,arsenic,472
-drogues métalliques et chimiques diverses,1,divers,5605
+drogues métalliques et chimiques diverses,1,divers,5684
 drogues métalliques et chimiques sel ammoniac,1,sel d'ammoniac,422
 drogues métalliques et chimiques sel d'étain,1,sel d'étain,1
 drogues métalliques et chimiques sel de tartre,1,sel de tartre,7
 drogues métalliques et chimiques toutemayen,1,toutenague,40
 drogues métalliques et chimiques vitriol,4,vitriol,451
 drogues métalliques litharge,7,litharge,602
-drogues métalliques mercerie,1,mercerie,3614
+drogues métalliques mercerie,1,mercerie,3615
 drogues métalliques mercure,4,mercure,614
 drogues métalliques piharge,4,piharge,4
 drogues metalliques salamouris,1,salamouris,1
 drogues métalliques toutenague,1,toutenague,40
 drogues métalliques vitriol,24,vitriol,451
 drogues mine de plomb,3,mine de plomb,386
-drogues minium,1,minium,101
+drogues minium,1,minium,361
 drogues musc,1,musc,27
 drogues noix de galle,1,noix de Galle,383
 drogues noix de Galles,1,noix de Galle,383
@@ -8315,7 +8315,7 @@ drogues ocre jaune et rouge,1,ocre jaune et rouge,1
 drogues odorantes ambre,1,ambre,42
 drogues odorantes ambre gris,1,ambre gris,38
 drogues odorantes ambre jaune,3,ambre jaune,86
-drogues odorantes diverses,3,divers,5605
+drogues odorantes diverses,3,divers,5684
 drogues odorantes encens,34,encens,511
 drogues odorantes encrin,0,encrin,0
 drogues odorantes musc,3,musc,27
@@ -8327,7 +8327,7 @@ drogues pastel,1,pastel,97
 drogues peintures,1,peintures,149
 drogues peintures et teinture,2,drogues pour peintures et teinture,164
 drogues peintures et teinture cochenille,1,cochenille,1109
-drogues peintures et teinture diverses,1,divers,5605
+drogues peintures et teinture diverses,1,divers,5684
 drogues peintures et teinture galle,1,galle,798
 drogues peintures et teinture racines d'alizari,1,racines d'alizari,106
 drogues poudre d'Ailhaud,1,poudre d'Ailhaud,34
@@ -8370,8 +8370,8 @@ drogues pour les peintures alquifoux,7,alquifoux,480
 drogues pour les peintures azur,1,azur,862
 drogues pour les peintures azur et bleu de Prusse,9,azur et bleu de Prusse,9
 drogues pour les peintures blanc d'Espagne,2,blanc d'Espagne,75
+drogues pour les peintures blanc de céruse,5,blanc de céruse,38
 drogues pour les peintures blanc de ferax,9,blanc de ferax,9
-drogues pour les peintures blanc de ferux,5,blanc de ferux,5
 drogues pour les peintures blanc de Herps,3,blanc de Herps,3
 drogues pour les peintures blanc de plomb,2,blanc de plomb,51
 drogues pour les peintures bleu d'Allemagne,1,bleu d'Allemagne,1
@@ -8398,7 +8398,7 @@ drogues pour les peintures et la teinture arsenic,2,arsenic,472
 drogues pour les peintures et la teinture azur,15,azur,862
 drogues pour les peintures et la teinture azur gros,3,azur gros,24
 drogues pour les peintures et la teinture blanc de ???,0,blanc de ???,0
-drogues pour les peintures et la teinture blanc de céruse,6,blanc de céruse,33
+drogues pour les peintures et la teinture blanc de céruse,6,blanc de céruse,38
 drogues pour les peintures et la teinture blanc de plomb,3,blanc de plomb,51
 drogues pour les peintures et la teinture bleu commun,1,bleu commun,7
 drogues pour les peintures et la teinture bleu de Pierre,1,bleu de Pierre,1
@@ -8445,8 +8445,8 @@ drogues pour les peintures et la teinture litharge,4,litharge,602
 drogues pour les peintures et la teinture mine de plomb,8,mine de plomb,386
 drogues pour les peintures et la teinture mine de plomb noire,2,mine de plomb noire,2
 drogues pour les peintures et la teinture mine de plomb rouge,2,mine de plomb rouge,2
-drogues pour les peintures et la teinture minium,7,minium,101
-drogues pour les peintures et la teinture miny,2,miny,260
+drogues pour les peintures et la teinture minium,7,minium,361
+drogues pour les peintures et la teinture miny,2,minium,361
 drogues pour les peintures et la teinture noir d'ivoire,2,noir d'ivoire,46
 drogues pour les peintures et la teinture noir de fumée,7,noir de fumée,538
 drogues pour les peintures et la teinture noix de galle,18,noix de Galle,383
@@ -8499,7 +8499,7 @@ drogues pour les peintures huile de térébenthine,11,huile de térébenthine,25
 drogues pour les peintures indigo,1,indigo,6423
 drogues pour les peintures jas,1,jas,1
 drogues pour les peintures jaune de Naples,1,jaune de Naples,86
-drogues pour les peintures minium,6,minium,101
+drogues pour les peintures minium,6,minium,361
 drogues pour les peintures muce de plomb,1,muce de plomb,1
 drogues pour les peintures noix de Galles,2,noix de Galle,383
 drogues pour les peintures ocre,12,ocre,530
@@ -8609,7 +8609,7 @@ drogues pour peintures et teinture marrons,1,marrons,144
 drogues pour peintures et teinture mastie,1,mastie,1
 drogues pour peintures et teinture mine de plomb,2,mine de plomb,386
 drogues pour peintures et teinture mine de Prusse,1,mine de Prusse,1
-drogues pour peintures et teinture minium,1,minium,101
+drogues pour peintures et teinture minium,1,minium,361
 drogues pour peintures et teinture noir,1,noir,5
 drogues pour peintures et teinture noir à noircir,1,noir à noircir,3
 drogues pour peintures et teinture noir de fumée,2,noir de fumée,538
@@ -9245,7 +9245,7 @@ entenolles,1,entenolles,1
 épicerie huile de lin,5,huile de lin,872
 épicerie huile de lin et de graine,6,huile de graine et de lin,6
 épicerie huile de noix,3,huile de noix,249
-épicerie huile de poisson,3,huile de poisson,1740
+épicerie huile de poisson,3,huile de poisson,1749
 épicerie macis,1,macis,90
 épicerie mêlée,35,épicerie,886
 épicerie muscade,18,muscades,590
@@ -9641,7 +9641,7 @@ etocs de fer,4,etocs de fer,13
 étoffe cartignette,1,cartignette,1
 étoffe cirsaka,1,cirsaka,1
 étoffe cirsaka soie en coton,2,cirsaka de coton et de soie,2
-étoffe cordeillat,2,cordeillat,229
+étoffe cordeillat,2,cordeillat,230
 étoffe coton,2,étoffe de coton,391
 étoffe coton drap,1,drap de coton,18
 étoffe coton et fil,1,étoffe de coton et de fil,40
@@ -9743,7 +9743,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de fil et de poil de chèvre aune,0,étoffe de fil et de poil de chèvre,0
 étoffe de fil et laine,19,étoffe de fil et de laine,44
 étoffe de fil et laine aune,0,étoffe de fil et de laine,44
-étoffe de fil et laine en molleton,1,molleton de laine,28
+étoffe de fil et laine en molleton,1,molleton de laine,75
 étoffe de fil et laine en tripe,1,tripe de laine et de fil,1
 étoffe de fil et poil de chèvre,0,étoffe de fil et poil de chèvre,0
 étoffe de fil et poil de chèvre aune,0,étoffe de fil et poil de chèvre,0
@@ -9838,7 +9838,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine en étamine,4,étamine,301
 étoffe de laine en étamine burette,1,étamine burette,2
 étoffe de laine en Maroc,1,raze de Maroc,331
-étoffe de laine en molleton,1,molleton de laine,28
+étoffe de laine en molleton,1,molleton de laine,75
 étoffe de laine en molleton imprimé,1,molleton de laine imprimé,2
 étoffe de laine en panne,2,panne de laine,31
 étoffe de laine en prunelle,2,prunelle de laine,18
@@ -9891,7 +9891,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine mêlée de soie,1,étoffe de laine mêlée de soie,3
 étoffe de laine mi-soie,1,étoffe de laine mêlée de soie,3
 étoffe de laine Minorque,3,étoffe de laine Minorque,3
-étoffe de laine molleton,13,molleton de laine,28
+étoffe de laine molleton,13,molleton de laine,75
 étoffe de laine molleton imprimé,1,molleton de laine imprimé,2
 étoffe de laine molleton taffetas,3,molleton et taffetas de laine,3
 étoffe de laine moquette,2,moquette de laine,2
@@ -9966,7 +9966,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine velverde,1,étoffe de laine velverde,1
 étoffe de laine verlastine,1,étoffe de laine verlastine,1
 étoffe de Maroc,1,raze de Maroc,331
-étoffe de molleton de laine,1,molleton de laine,28
+étoffe de molleton de laine,1,molleton de laine,75
 étoffe de panne,1,panne,115
 étoffe de poi et laine,12,étoffe de laine et de poil,33
 étoffe de poil,22,étoffe de poil,37
@@ -10143,7 +10143,7 @@ etocs de fer,4,etocs de fer,13
 étoffe dorure or et argent,138,étoffe dorure d'argent et d'or,339
 étoffe dorure or et argent faux,8,étoffe dorure d'argent et d'or faux,12
 étoffe dorure or et argent fin,41,étoffe dorure d'argent et d'or fin,45
-étoffe drap,10,drap,276
+étoffe drap,10,drap,1331
 étoffe droguet,1,étoffe droguet,16
 étoffe droguet de soie,1,droguet de soie,23
 étoffe en bours du Levant,1,étoffe en bours du Levant,1
@@ -10174,7 +10174,7 @@ etocs de fer,4,etocs de fer,13
 étoffe et ruban de soie,3,étoffe et ruban de soie,4
 étoffe étamine,46,étamine,301
 étoffe étamine burail,3,étamine burail,85
-étoffe étamine fine,4,Étoffe étamine fine,4
+étoffe étamine fine,4,étamine fine,4
 étoffe étamine laine,6,étamine de laine,646
 étoffe éternelle,1,étoffe éternelle,1
 étoffe éternelle au ??? de soie,1,étoffe éternelle au ? de soie,1
@@ -10293,7 +10293,7 @@ etocs de fer,4,etocs de fer,13
 étoffe mitée mi soie,2,étoffe mi soie,143
 étoffe molleton,13,molleton,103
 étoffe molleton capiton,3,molleton de capiton,4
-étoffe molleton de laine,4,molleton de laine,28
+étoffe molleton de laine,4,molleton de laine,75
 étoffe moquette,4,moquette,198
 étoffe moquette fil et laine,1,moquette de laine et de fil,1
 étoffe moquette grasse de laine et fil,1,moquette grasse de laine et fil,1
@@ -10341,7 +10341,7 @@ etocs de fer,4,etocs de fer,13
 étoffe pure brochée d'or fin,1,étoffe pure brochée d'or fin,1
 étoffe pure brochée de soie,1,étoffe de soie brochée,1
 étoffe pure façonnée,1,étoffe pure façonnée,1
-étoffe pure mouchoirs,1,mouchoirs,223
+étoffe pure mouchoirs,1,mouchoirs,221
 étoffe pure unie,1,étoffe pure unie,1
 étoffe ratine,3,ratine,175
 étoffe raz de castor,1,raze de castor,45
@@ -10358,13 +10358,14 @@ etocs de fer,4,etocs de fer,13
 étoffe satin turc,9,satin turc,9
 étoffe satinette,5,satinette,5
 étoffe serge,19,serge,191
-étoffe serge ???,8,serge ???,8
+étoffe serge ???,2,serge ???,2
 étoffe serge 1/2 Londres,1,serge 1/2 Londres,1
 étoffe serge Aumale,1,serge d'Aumale,30
 étoffe serge Aumale imprimée,2,serge d'Aumale imprimée,2
 étoffe serge Blicourt,1,serge Blicourt,1
 étoffe serge de laine,2,serge de laine,778
 étoffe serge de soie,1,serge de soie,12
+étoffe serge et étamine,6,étamine et serge,6
 étoffe serge et laine,2,serge de laine,778
 étoffe serge laine,2,serge de laine,778
 étoffe serge laine noire,1,serge de laine noire,1
@@ -10535,7 +10536,6 @@ fanon de baleine apprêté,4,fanon de baleine apprêté,4
 fanon de baleine brut,4,fanon de baleine brut,4
 fanon de baleine brut de pêche étrangère,0,fanon de baleine brut de pêche étrangère,0
 fanon de baleine brut de pêche française,1,fanon de baleine brut de pêche française,1
-farces à drapier,0,farces à drapier,0
 fard rouge,1,fard rouge,1
 farine,1997,farine,2052
 farine biscuit de mer et pâte,10,farine et biscuit de mer et pâte,10
@@ -11278,7 +11278,7 @@ fil à rouer,1,fil à rouet,1
 fil à sapillon,1,fil à sapillon,1
 fil à sardineaux,2,fil à sardineaux,2
 fil à selle,1,fil à selle,1
-fil à sennes,42,fil à sennes,47
+fil à sennes,43,fil à sennes,48
 fil à sol,5,fil à sol,5
 fil à table,1,fil à table,1
 fil à tisserand,7,fil à tisserand,7
@@ -11502,7 +11502,7 @@ fil de ritte,9,fil de ritte,9
 fil de Rome,1,fil de Rennes,169
 fil de Rouen,3,fil de Rouen,3
 fil de sayette,9,fil de sayette,9
-fil de sennes,4,fil à sennes,47
+fil de sennes,4,fil à sennes,48
 fil de Silésie,8,fil de Silésie,8
 fil de soie,2,fil de soie,4
 fil de téton,5,fil de téton,5
@@ -11537,7 +11537,7 @@ fil en masses,72,fil en masse,73
 fil en peignée,1,fil en peignée,1
 fil en poignée,4,fil en poignée,8
 fil en poignées,4,fil en poignée,8
-fil en seinne,1,fil à sennes,47
+fil en seinne,1,fil à sennes,48
 fil Épinal,2,fil d'Épinal,2
 fil Épinal blanc,6,fil blanc d'Épinal,6
 fil Épinal simple,1,fil d'Épinal simple,1
@@ -11823,7 +11823,7 @@ fonte moulée à la vapeur estagnons,1,fonte moulée à la vapeur et estagnons,1
 fonte moulée en quelque forme que ce soit,2,fonte moulée,7
 fonte pour cloches,1,fonte pour cloches,1
 fonte vieille,3,fonte vieille,3
-forces à drapier,46,forces à drapier,46
+forces à drapier,46,forces à drapier,47
 forces à tondre,3,forces à tondre,3
 formage de Chassenay,1,fromage de Chassenay,1
 forme,2,forme,2
@@ -12454,8 +12454,8 @@ galou de fil,1,galon de fil,55
 galou pilé,1,galou pilé,1
 gamelles à jeter l'eau,1,gamelles à jeter l'eau,1
 gamelles de bois,4,gamelles de bois,4
-gan ??? commune,7,gan ??? commune,7
-gan ??? de Grenoble,2,gants de Grenoble,64
+gan ??? commune,0,gan ??? commune,0
+gan ??? de Grenoble,0,gants de Grenoble,64
 ganaga,1,ganaga,1
 ganepot,1,ganepot,1
 ganses,1,ganses,1
@@ -12470,7 +12470,7 @@ gants bordés de soie par paires,1,gants bordés de soie par paires,6
 gants brodés de soie,1,gants brodés de soie,1
 gants brodés en or et soie,1,gants brodés de soie et or,1
 gants chamois,2,gants chamois,2
-gants communs,446,gants communs,446
+gants communs,453,gants communs,453
 gants communs de peau,1,gants communs de peau,1
 gants communs en paires,1,gants communs par paires,3
 gants communs par paires,2,gants communs par paires,3
@@ -12493,7 +12493,7 @@ gants de filoselle,3,gants de filoselle,3
 gants de fleuret,7,gants de fleuret,7
 gants de frangipane,0,gants de frangipane,0
 gants de garnis de soie,5,gants de garnis de soie,5
-gants de Grenoble,62,gants de Grenoble,64
+gants de Grenoble,64,gants de Grenoble,64
 gants de laine,48,gants de laine,49
 gants de peau,461,gants de peau,547
 gants de peau communs,6,gants de peau,547
@@ -12767,7 +12767,7 @@ gibier perdrix,5,perdrix,43
 gibier pluviers,1,pluviers,1
 gibier sarcelles,1,sarcelles,1
 gibier volailles et tortues vivantes,6,tortues vivantes et volailles,6
-giboyer,1,,3
+giboyer,1,giboyer,1
 gilets,14,gilets,15
 gilets à nègre,4,gilets à nègre,4
 gilets de coton en filoselle,1,gilets de coton en filoselle,1
@@ -12857,7 +12857,6 @@ gobelets de terre,3,gobelets de terre,3
 gobelets de verre,27,gobelets de verre,50
 gobelets en verre de cristal,1,gobelets en verre de cristal,1
 gobelets peints,1,gobelets peints,1
-gogorans,89,gogorans,89
 gomme,51,gomme,690
 gomme à ???,1,gomme à ???,1
 gomme acacia,11,gomme d'acacia,11
@@ -12961,6 +12960,7 @@ goudron ou gaudron,1,goudron,2440
 goules,0,goules,0
 goupil,1,goupil,1
 gourde,1,gourde,1
+gourgouran,89,gourgouran,89
 gournable,21,gournable,21
 gournable de chêne,3,gournable de chêne,3
 gournable de sapin,1,gournable de sapin,1
@@ -13596,7 +13596,7 @@ habits de drap neuf,1,habits de drap neuf,1
 habits de drap unis,2,habits de drap uni,2
 habits de droguet,1,habits de droguet,1
 habits de droguet de soie,1,habits de droguet de soie,1
-habits de gogorans,2,habits de gogorans,2
+habits de gourgouran,2,habits de gourgourans,2
 habits de livrée,1,habits de livrée,1
 habits de peau,3,habits de peau,3
 habits de peau complets,1,habits de peau complets,1
@@ -13640,7 +13640,7 @@ haches serpes et houes,1,haches et houes et serpes,76
 haillons de laine,2,haillons de laine,2
 hallebardes,0,hallebardes,0
 haltsays,1,haltsays,1
-hamacs,71,hamacs,71
+hamacs,71,hamacs,166
 hamacs de coton,8,hamacs de coton,8
 hameçons,54,hameçons,54
 hameçons cassés,1,hameçons cassés,1
@@ -13908,8 +13908,8 @@ huile d'aspic,58,huile d'aspic,58
 huile d'élite dite keurolie,0,huile d'élite dite keurolie,0
 huile d'enc,0,huile d'enc,0
 huile d'étain,1,huile d'étain,1
-huile d'œillette de noix de pavots,18,huile d'œillette,31
-huile d'œillette ou de pavots,13,huile d'œillette,31
+huile d'œillette de noix de pavots,18,huile d'œillette de noix de pavots,18
+huile d'œillette ou de pavots,13,huile d'œillette ou de pavot,13
 huile d'olive,3248,huile d'olive,3353
 huile d'olive à manger,11,huile d'olive à manger,11
 huile d'olive blanche de Gênes,0,huile d'olive blanche de Gênes,0
@@ -14014,7 +14014,7 @@ huile de laurier,78,huile de laurier,79
 huile de lavande,5,huile de lavande,5
 huile de lin,859,huile de lin,872
 huile de lin pour l'entrepôt pour la Compagnie des Indes,1,huile de lin pour l'entrepôt pour la Compagnie des Indes,1
-huile de loifon,9,huile de loifon,9
+huile de loifon,0,huile de loifon,0
 huile de loup marin,7,huile de loup marin,7
 huile de maïs,1,huile de maïs,1
 huile de Majorque,1,huile de Majorque,1
@@ -14038,11 +14038,11 @@ huile de pierre,0,huile de pierre,0
 huile de pignon et ricin,2,huile de pignon et ricin,2
 huile de pin,1,huile de pin,1
 huile de plantes,1,huile de plantes,1
-huile de poisson,1700,huile de poisson,1740
+huile de poisson,1709,huile de poisson,1749
 huile de poisson des Îles,1,huile de poisson des Indes,1
-huile de poisson divers,1,huile de poisson,1740
-huile de poisson en barrique,4,huile de poisson,1740
-huile de poisson en lie,4,huile de poisson,1740
+huile de poisson divers,1,huile de poisson,1749
+huile de poisson en barrique,4,huile de poisson,1749
+huile de poisson en lie,4,huile de poisson,1749
 huile de poisson et à brûler,12,huile à brûler et de poisson,12
 huile de poisson et de lin,1,huile de poisson et de lin,1
 huile de poisson et poix,1,huile de poisson et poix,1
@@ -14206,7 +14206,7 @@ industrie étrangère habillement et lingerie,17,habits et lingerie,581
 industrie étrangère horlogerie,8,horlogerie,799
 industrie étrangère librairie,22,librairie,2110
 industrie étrangère marbre,13,marbre,168
-industrie étrangère mercerie,26,mercerie,3614
+industrie étrangère mercerie,26,mercerie,3615
 industrie étrangère meubles et miroirs,13,meubles et miroirs,130
 industrie étrangère ouvrages de jonc,17,ouvrages de jonc,105
 industrie étrangère ouvrages divers,37,ouvrages,77
@@ -14232,10 +14232,10 @@ industrie générale faïence et poterie,19,faïence et poterie,25
 industrie générale gants de peau,29,gants de peau,547
 industrie générale habillement et lingerie,29,habits et lingerie,581
 industrie générale horlogerie,21,horlogerie,799
-industrie générale jeux de voile,3,jeux de voile,57
+industrie générale jeux de voile,3,jeux de voile,100
 industrie générale librairie,45,librairie,2110
 industrie générale marchandises des Indes,1,marchandises des Indes,8
-industrie générale mercerie,54,mercerie,3614
+industrie générale mercerie,54,mercerie,3615
 industrie générale meubles et glaces,38,glaces et meubles,281
 industrie générale ouvrages de cuir en cordonnerie et sellerie,11,cordonnerie et sellerie de cuir,200
 industrie générale ouvrages de cuivre doré et argenté,17,ouvrages de cuivre doré et argenté,244
@@ -14260,7 +14260,7 @@ injubes,2,injubes,2
 insectes,4,insectes,4
 instrument de b??? mêlés,1,instruments de b??? mêlés,1
 instrument de chirurgie,1,instruments de chirurgie,21
-instrument de drapiers forces,1,forces à drapiers,1
+instrument de drapiers forces,1,forces à drapier,47
 instruments,1,instruments,107
 instruments à jouer,1,instruments de musique,408
 instruments aratoires faucilles et autres que faux,2,faucilles autres instruments aratoires que faux,2
@@ -14450,14 +14450,14 @@ jets de cannes,3,jets de cannes,3
 jets de cannes à poignée d'ambre,1,jets de cannes à poignée d'ambre,1
 jets de grès,1,jets de grès,1
 jets de terre,1,jets de terre,1
-jets de voile,43,jets de voile,43
+jets de voile,43,jeux de voile,100
 jeux d'échecs,1,jeux d'échecs,1
 jeux d'écrevisse,1,jeux d'écrevisse,1
 jeux d'orgues,1,jeux d'orgues,1
 jeux de camagnolle,2,jeux de camagnolle,2
 jeux de moulins,19,jeux de moulins,19
 jeux de moulins à sucre,6,jeux de moulins à sucre,6
-jeux de voile,54,jeux de voile,57
+jeux de voile,54,jeux de voile,100
 joaillerie,1,joaillerie,1
 jolités en cristal garnis de cuivre,0,jolités de cristal garnis de cuivre,0
 jolités en pinsbeck,0,jolités en pinsbeck,0
@@ -14581,11 +14581,11 @@ lainages châles de laine et poil,46,châles de laine et de poil,46
 lainages couvertures,53,couvertures de laine,1024
 lainages couvertures tapis et tapisserie,27,couvertures et tapis et tapisserie de laine,27
 lainages couvertures tapisserie,27,couvertures et tapisseries de laine,27
-lainages draperie,71,drap de laine,1055
-lainages draperie diverse,39,drap de laine,1055
+lainages draperie,71,drap,1331
+lainages draperie diverse,39,drap,1331
 lainages draperie fine,62,drap fins de laine,62
-lainages draperie ordinaire,70,drap de laine ordinaire,387
-lainages draperie petite et étoffe,66,drap de laine et petits et étoffe,66
+lainages draperie ordinaire,70,drap ordinaire,394
+lainages draperie petite et étoffe,66,drap et petits et étoffe de laine,66
 lainages étoffe,19,étoffe de laine,548
 lainages étoffe fine en casimir et mérinos,23,casimir et mérinos fin de laine,23
 lainages étoffe fine et casimir,10,casimir fin de laine,10
@@ -15668,7 +15668,7 @@ marcassin,0,marcassin,0
 marcassite,4,marcassite,4
 marchanderie,2,marchandises,7584
 marchandise estimation,2,marchandises à l'estimation,921
-marchandises,1703,divers,5605
+marchandises,1703,divers,5684
 marchandises à l'estimation,517,marchandises à l'estimation,921
 marchandises à l'estime valeur de,1,marchandises à l'estimation,921
 marchandises à la valeur,400,marchandises à l'estimation,921
@@ -15717,7 +15717,7 @@ marchandises des Indes diverses,1,marchandises des Indes,8
 marchandises des Indes en soieries mousseline bandanas et Nankin,0,étoffe des Indes,24
 marchandises des Indes et café de Moka,41,café de Moka et marchandises des Indes,41
 marchandises des Indes étoffe diverses des Indes,1,étoffe des Indes,24
-marchandises des Indes mouchoirs des Indes,1,mouchoirs des Indes,214
+marchandises des Indes mouchoirs des Indes,1,mouchoirs des Indes,215
 marchandises des Indes mousseline,1,mousseline,729
 marchandises des Indes objets divers,1,marchandises des Indes,8
 marchandises des Indes objets divers en petits articles,1,marchandises des Indes en petits articles,1
@@ -15780,8 +15780,8 @@ marchandises provenant du commerce français dans les Indes gomme,2,gomme des In
 marchandises provenant du commerce français dans les Indes indigo,1,indigo des Indes,1
 marchandises provenant du commerce français dans les Indes lingerie,1,lingerie des Indes,1
 marchandises provenant du commerce français dans les Indes métal,1,métal des Indes,1
-marchandises provenant du commerce français dans les Indes mouchoirs,4,mouchoirs des Indes,214
-marchandises provenant du commerce français dans les Indes mouchoirs divers,1,mouchoirs des Indes,214
+marchandises provenant du commerce français dans les Indes mouchoirs,4,mouchoirs des Indes,215
+marchandises provenant du commerce français dans les Indes mouchoirs divers,1,mouchoirs des Indes,215
 marchandises provenant du commerce français dans les Indes mousseline,5,mousseline des Indes,24
 marchandises provenant du commerce français dans les Indes objets divers de peu de valeur,5,objets des Indes et de peu importance,5
 marchandises provenant du commerce français dans les Indes objets réunis,1,objets des Indes,1
@@ -16054,7 +16054,7 @@ matières premières houblon,2,houblon,297
 matières premières huile d'olive pour fabrique,20,huile d'olive pour fabrique,249
 matières premières huile de grain,4,huile de grain,4
 matières premières huile de graine,14,huile de graine,629
-matières premières huile de poisson,28,huile de poisson,1740
+matières premières huile de poisson,28,huile de poisson,1749
 matières premières indigo,70,indigo,6423
 matières premières laine,86,laine,998
 matières premières lin,22,lin,1478
@@ -16457,7 +16457,7 @@ menuiserie,3,menuiserie,3
 menus ouvrages de bois,0,ouvrages de bois menus,0
 menus sommiers,0,menus sommiers,0
 menutés,0,menutés,0
-mercerie,3176,mercerie,3614
+mercerie,3176,mercerie,3615
 mercerie ???,3,mercerie ???,3
 mercerie à la valeur,5,mercerie à la valeur,5
 mercerie à laine de cordonnier,1,mercerie de cordonnier à laine,1
@@ -16480,8 +16480,8 @@ mercerie de quincaille,1,quincaillerie,1230
 mercerie de quincaillerie,1,quincaillerie,1230
 mercerie de renvoi,1,mercerie de renvoi,2
 mercerie de retour,1,mercerie de renvoi,2
-mercerie diverse,88,mercerie,3614
-mercerie diverse à la valeur,3,mercerie,3614
+mercerie diverse,88,mercerie,3615
+mercerie diverse à la valeur,3,mercerie,3615
 mercerie en aiguilles,1,aiguilles,209
 mercerie en aiguilles à coudre,1,aiguilles à coudre,60
 mercerie en anneaux de cuivre,1,anneaux de cuivre,1
@@ -16511,8 +16511,8 @@ mercerie éventails,1,éventails,224
 mercerie fine,273,mercerie fine,295
 mercerie fine aiguilles,10,aiguilles,209
 mercerie fine aiguilles à coudre,9,aiguilles à coudre,60
-mercerie fine aiguilles à voile,1,mercerie,3614
-mercerie fine aiguilles épingles etc.,10,mercerie,3614
+mercerie fine aiguilles à voile,1,mercerie,3615
+mercerie fine aiguilles épingles etc.,10,mercerie,3615
 mercerie fine diverse,22,mercerie fine,295
 mercerie fine en aiguilles,1,aiguilles de mercerie fine,1
 mercerie fine en aiguilles et épingles,3,aiguilles et épingles de mercerie fine,3
@@ -16524,10 +16524,10 @@ mercerie grosse,9,mercerie grosse,9
 mercerie grossière,62,mercerie grossière,62
 mercerie houppe de cygne,1,houppe de cygne,5
 mercerie joujous d'enfants,4,joujoux d'enfants,9
-mercerie mêlée,229,mercerie,3614
+mercerie mêlée,229,mercerie,3615
 mercerie mêlée en lisière de drap,1,mercerie mêlée en lisière de drap,1
-mercerie menue,1,mercerie,3614
-mercerie mercerie mêlée,21,mercerie,3614
+mercerie menue,1,mercerie,3615
+mercerie mercerie mêlée,21,mercerie,3615
 mercerie ordinaire,36,mercerie ordinaire,36
 mercerie peignes d'ivoire,0,mercerie en peigne d'ivoire,0
 mercerie peignes de bois,0,mercerie en peignes de bois,0
@@ -16650,6 +16650,7 @@ merrains pipaille en douelles,2,douelles pour pipes,286
 merrains pour faire des douves de fûts,11,merrains pour faire des douves de fûts,11
 merrains quartage douelles,2,merrains quartage douelles,2
 merrains Scott,1,merrains Scott,1
+merterie,1,mercerie,3615
 mervillon,11,mervillon,44
 mesat de clocher,0,mesat de clocher,0
 mesures d'étain,2,mesures d'étain,2
@@ -16855,11 +16856,11 @@ mine plomb,1,mine de plomb,386
 minerai de fer brut ou lavé,2,minerai de fer brut ou lavé,2
 minerai de plomb,0,minerai de plomb,0
 minéraux,2,minéraux,2
-minium,81,minium,101
+minium,81,minium,361
 minium et mine orange,4,minium et mine orange,4
 minot,4,minot,4
 minutier,3,minutier,3
-miny,258,miny,260
+miny,258,minium,361
 mirche,6,myrrhe,114
 mireau,2,mireau,2
 mirke,1,mirke,1
@@ -16936,7 +16937,7 @@ molleton,90,molleton,103
 molleton aune,0,molleton,103
 molleton de capiton,1,molleton de capiton,4
 molleton de coton,3,molleton de coton,16
-molleton de laine,8,molleton de laine,28
+molleton de laine,8,molleton de laine,75
 molleton de soie,1,molleton de soie,1
 molleton frisé,1,molleton frisé,1
 mollues,1,mollues,1
@@ -17038,9 +17039,9 @@ mouches à miel,2,mouches à miel,2
 mouches cantharides,12,mouches cantharides,15
 mouches de soie,110,vers à soie,123
 mouches de taffetas,4,mouches de taffetas,4
-mouchoirs,103,mouchoirs,223
-mouchoirs ???,3,mouchoirs,223
-mouchoirs ??? de fil de France,5,mouchoirs ??? de fil de France,5
+mouchoirs,103,mouchoirs,221
+mouchoirs ???,1,mouchoirs,221
+mouchoirs ??? de fil de France,0,mouchoirs ??? de fil de France,0
 mouchoirs à Béarn,1,mouchoirs du Béarn,17
 mouchoirs à carreaux,1,mouchoirs à carreaux,1
 mouchoirs à la valeur,1,mouchoirs à la valeur,1
@@ -17049,7 +17050,7 @@ mouchoirs à toile peinte,1,mouchoirs à toile peinte,1
 mouchoirs à vignettes,1,mouchoirs à vignettes,1
 mouchoirs au brin de soie,1,mouchoirs au brin de soie,1
 mouchoirs baffetas,1,mouchoirs baffetas,1
-mouchoirs bandanas,0,mouchoirs bandanas,0
+mouchoirs bandanas,2,mouchoirs bandanas,2
 mouchoirs batiste,1,mouchoirs de batiste,28
 mouchoirs batiste de Saint-Quentin,2,mouchoirs de batiste de Saint-Quentin,2
 mouchoirs batiste peint,1,mouchoirs batiste peint,1
@@ -17069,7 +17070,7 @@ mouchoirs coupés,3,mouchoirs coupés,3
 mouchoirs d'Alep,2,mouchoirs d'Alep,2
 mouchoirs d'indienne,72,mouchoirs d'indienne,72
 mouchoirs d'organdis,3,mouchoirs d'organdis,3
-mouchoirs de ???,2,mouchoirs de ???,2
+mouchoirs de ???,1,mouchoirs de ???,1
 mouchoirs de batiste,27,mouchoirs de batiste,28
 mouchoirs de Bengale,105,mouchoirs de Bengale,106
 mouchoirs de Betton,1,mouchoirs de Betton,1
@@ -17182,18 +17183,18 @@ mouchoirs de toile découpés,0,mouchoirs de toile découpés,0
 mouchoirs de toile fine,1,mouchoirs de toile fine,1
 mouchoirs de toile peinte,11,mouchoirs de toile peinte,11
 mouchoirs de toile rayée,2,mouchoirs de toile rayée,2
-mouchoirs de toute espèce,2,mouchoirs,223
+mouchoirs de toute espèce,2,mouchoirs,221
 mouchoirs de traite,2,mouchoirs de traite,2
 mouchoirs de Zurich,1,mouchoirs de Zurich,1
 mouchoirs demi soie,0,mouchoirs demi soie,1
 mouchoirs des Îles,1,mouchoirs des Îles,1
-mouchoirs des Indes,208,mouchoirs des Indes,214
+mouchoirs des Indes,209,mouchoirs des Indes,215
 mouchoirs des Indes communs,1,mouchoirs des Indes communs,1
 mouchoirs des Indes de coton,2,mouchoirs des Indes de coton,2
 mouchoirs des Indes de soie,3,mouchoirs des Indes de soie,3
 mouchoirs des Indes dit bandanas,1,mouchoirs des Indes dit bandanas,1
 mouchoirs des Indes dits romals,1,mouchoirs romals,64
-mouchoirs divers,107,mouchoirs,223
+mouchoirs divers,107,mouchoirs,221
 mouchoirs divers de fil et coton,16,mouchoirs de coton et de fil,482
 mouchoirs divers en fil de coton,2,mouchoirs de coton et de fil,482
 mouchoirs divers en fil et coton,89,mouchoirs de fil et de coton,89
@@ -17233,7 +17234,7 @@ mouchoirs Masulipatan,33,mouchoirs Masulipatan,33
 mouchoirs mi soie,1,mouchoirs demi soie,1
 mouchoirs moitié soie,1,mouchoirs de demi soie,1
 mouchoirs mousseline,1,mouchoirs de mousseline,25
-mouchoirs ordinaires,1,mouchoirs,223
+mouchoirs ordinaires,1,mouchoirs,221
 mouchoirs paliacate,6,mouchoirs de Paliacate,10
 mouchoirs peints,87,mouchoirs peints,87
 mouchoirs peints de France,1,mouchoirs peints de France,1
@@ -17247,6 +17248,7 @@ mouchoirs saserpatis,1,mouchoirs saserpatis,1
 mouchoirs soie et coton,1,mouchoirs de coton et de soie,1
 mouchoirs toile de Cholet,2,mouchoirs de toile de Cholet,52
 mouchoirs tout coton,3,mouchoirs de coton,794
+mouchoirs tout fil de France,5,mouchoirs de fil de France,5
 mouchoirs tranquebas,2,mouchoirs Tranquebar,2
 moufles,1,moufles,1
 moulage,6,moulage,6
@@ -17510,8 +17512,8 @@ neganepeau,156,neganepeau,174
 neganepeau grand,1,neganepeau grand,1
 neganepeaux,2,neganepeau,174
 nègre,16,nègre,16
-nègres de Guinée,18,nègres,45
-nègres de Sénégal,27,nègres,45
+nègre de Guinée,18,nègre de Guinée,18
+nègre de Sénégal,27,nègre de Sénégal,27
 nelis,38,nelis,39
 nelis étoffe,1,nelis,39
 nepres,8,nepres,8
@@ -17621,7 +17623,7 @@ noyer et cerisier,0,noyer et cerisier,0
 numéraire en assignats,1,numéraire en assignats,1
 numéraire en assignats par la Cure,1,numéraire en assignats par la Cure,1
 O ???,1,O ???,1
-objets à la valeur,1,objets à la valeur,3
+objets à la valeur,1,objets à la valeur,1
 objets d'arts,6,objets d'art,6
 objets d'arts et d'histoire naturelle,59,objets d'art et d'histoire naturelle,59
 objets d'arts histoire naturelle peintures et gravures,59,peintures et gravures,78
@@ -17637,13 +17639,13 @@ objets de collection peintures sculpture gravures et histoire naturelle,35,gravu
 objets de moindre valeur,22,objets de peu de valeur,88
 objets de peu d'importance,6,objets de peu d'importance,6
 objets de peu de valeur,44,objets de peu de valeur,88
-objets divers,13,objets divers,15
-objets divers à la valeur,2,objets à la valeur,3
+objets divers,13,divers,5684
+objets divers à la valeur,2,divers,5684
 objets divers de moindre valeur,22,objets de peu de valeur,88
 objets divers dont la valeur du plus fort n'excède pas 25000 livres,5,objets divers dont la valeur du plus fort n'excède pas 25000 livre,5
 objets divers dont les plus forts articles n'excèdent pas 10000 livres,3,objets divers dont les plus forts articles n'excèdent pas 10000 livres,3
 objets divers en peaux et pelleterie,1,peaux et pelleterie,615
-objets divers en petits articles,2,objets divers,15
+objets divers en petits articles,2,objets divers,2
 objets manufacturés armes,1,armes,253
 objets manufacturés articles réunis,21,objets manufacturés réunis,187
 objets manufacturés bonneterie de soie,48,bonneterie de soie,554
@@ -17653,7 +17655,7 @@ objets manufacturés bonneterie ordinaire en coton et laine,5,bonneterie commune
 objets manufacturés chapellerie,45,chapeaux,517
 objets manufacturés dentelle,40,dentelle,320
 objets manufacturés dentelle de fil,8,dentelle de fil,320
-objets manufacturés draperie,69,drap de laine,1055
+objets manufacturés draperie,69,drap,1331
 objets manufacturés étoffe de coton,26,étoffe de coton,391
 objets manufacturés étoffe de laine,32,étoffe de laine,548
 objets manufacturés étoffe de laine et de poil,17,étoffe de laine et de poil,33
@@ -18475,7 +18477,7 @@ ouvrages mélangés étoffe gaze crêpe et tulle,10,étoffe et gaze et crêpe et
 ouvrages mélangés étoffe mélangée de soie,8,étoffe de soie,2630
 ouvrages mélangés étoffe mêlée,6,étoffe,402
 ouvrages mélangés gaze crêpe et tulle,7,crêpe et gaze et tulle,29
-ouvrages mélangés mouchoirs,6,mouchoirs,223
+ouvrages mélangés mouchoirs,6,mouchoirs,221
 ouvrages or argent et soie,21,ouvrages d'argent et d'or et de soie,24
 ouvrages or et argent,5,ouvrages d'argent et d'or,5
 ouvrages or et argent faux,2,ouvrages d'argent et d'or faux,2
@@ -18501,7 +18503,7 @@ ouvrages riches étoffe en or mêlée de soie,12,étoffe en or mêlée de soie,2
 ouvrages riches étoffe riche,11,étoffe riche,116
 ouvrages riches étoffe riche en or et argent,7,étoffe riche,116
 ouvrages riches étoffe riche en or et argent mélangée de soie,18,étoffe riche,116
-ouvrages riches ouvrages divers,2,ouvrages riches et divers,2
+ouvrages riches ouvrages divers,2,divers,5684
 ouvrages riches soierie et dorure,12,soierie et dorure,12
 ouvrages riches soierie et dorure fine,13,soierie et dorure fine,13
 ouvrages sellerie,4,sellerie,40
@@ -18526,7 +18528,7 @@ oxyde de plomb,0,oxyde de plomb,0
 oxyde de plomb demi-vitreux (litharge),2,litharge,602
 oxyde de plomb demi-vitreux rouge ou jaune,2,litharge jaune ou rouge,3
 oxyde de plomb demi-vitreux rouge ou jaune (litharge),1,litharge jaune ou rouge,3
-oxyde de plomb rouge (minium),5,minium,101
+oxyde de plomb rouge (minium),5,minium,361
 oxyde de plomb rouge divisé,1,minium rouge divisé,3
 oxyde de plomb rouge divisé (mine-orange),2,minium rouge divisé,3
 oxyde de zinc (blanc ou gris),2,oxyde de zinc blanc ou gris,2
@@ -22090,7 +22092,7 @@ présure,7,présure,40
 pretes torches,2,pretes torches,2
 primaselle,2,primaselle,2
 primula veris,0,primula veris,0
-prises et échouements principalement en coton sucre toile de coton mousseline indigo café tabac etc.,2,échouements et prises,2
+prises et échouements principalement en coton sucre toile de coton mousseline indigo café tabac etc.,2,divers,5684
 produits,5,marchandises,7584
 prohibé,23,marchandises prohibées,24
 prohibé ???,0,marchandises prohibées,24
@@ -22209,7 +22211,7 @@ quincaille fine,20,quincaillerie fine,24
 quincaille grosse,10,quincaillerie grosse,11
 quincaille grosse de fer,4,quincaillerie de fer et grosse,25
 quincaille mêlée,1,quincaillerie,1230
-quincaille mercerie,3,mercerie,3614
+quincaille mercerie,3,mercerie,3615
 quincaille sèche,1,quincaillerie sèche,1
 quincaillerie,382,quincaillerie,1230
 quincaillerie acier,2,quincaillerie d'acier,33
@@ -23267,7 +23269,7 @@ seigle et maïs farine,5,maïs et seigle farine,5
 seigle et maïs grains,5,maïs et seigle grain,5
 seigle et maïs grains de la Corse,1,maïs et seigle de Corse grain,1
 seigle maïs et autres menus grains,1,grains,7
-sel,8916,sel,8984
+sel,8916,sel,8979
 sel (Sables d'Olonne),1,sel du Sable d'Olonne,1
 sel acétates d'étain,1,acétates d'étain,1
 sel acétates de cuivre cristallisé,1,verdet cristallisé,6
@@ -23289,14 +23291,14 @@ sel borax brut,3,borax brut,10
 sel borax raffiné,2,borax raffiné,26
 sel carbonate d'ammoniaque (sel volatil),1,carbonate d'ammoniaque,4
 sel carbonate de magnésie,3,carbonate de magnésie,7
-sel chimique,230,sel chimique,296
+sel chimique,230,sel chimique,301
 sel chimique de Glauber,4,sel chimique de Glauber,4
 sel chimique de lait,2,sel chimique de lait,2
 sel chimique de nitre,2,sel chimique de nitre,2
-sel chimique de toute sorte,12,sel chimique,296
-sel chimique divers,30,sel chimique,296
+sel chimique de toute sorte,12,sel chimique,301
+sel chimique divers,30,sel chimique,301
 sel chimique gemme,5,sel chimique gemme,5
-sel chimique réuni,7,sel chimique,296
+sel chimique réuni,7,sel chimique,301
 sel chromate de plomb (jaune de chrome),2,jaune de chrome,2
 sel commun,1,sel commun,1
 sel d'absinthe,1,sel d'absinthe (alsem),1
@@ -23356,7 +23358,7 @@ sel des mines anglaises,1,sel des mines anglaises,1
 sel des prises,3,sel des prises,3
 sel des Sables d'Olonne,1,sel des sables d'Olonne,1
 sel dit beggere,0,sel dit beggere,0
-sel divers composé,4,sel,8984
+sel divers composé,4,sel,8979
 sel du Croisic,209,sel du Croisic,209
 sel du Poulinguen,62,sel du Poulinguen,62
 sel duobus,2,sulfate de potasse,7
@@ -23766,19 +23768,19 @@ soie en strasse,1,soie en strasse,1
 soie en suaze,0,soie en suaze,0
 soie estrasse,2,soie en estrasse,6
 soie et filoselle,132,filoselle et soie,170
-soie et fleuret,1,fleuret et soie,6
+soie et fleuret,2,fleuret et soie,7
 soie étoupes,6,soie étoupes,6
 soie exportée de Marseille,1,soie exportée de Marseille,1
 soie filée,2,fil de soie,4
 soie filoselle,3,filoselle et soie,170
 soie filoselle et bourre de soie,15,bourre de soie et filoselle et soie,15
-soie fleuret ???,1,soie fleuret ???,1
+soie fleuret ???,0,soie fleuret ???,0
 soie floche,0,soie floche,0
 soie galette,1,soie galette,1
 soie gaze,0,gaze de soie,514
-soie grège,29,soie grège,31
-soie grège ???,1,soie grège ???,1
-soie grège autre de toute sorte,2,soie grège,31
+soie grège,30,soie grège,32
+soie grège ???,0,soie grège ???,0
+soie grège autre de toute sorte,2,soie grège,32
 soie grège autre que doupion,1,soie grège autre que doupion,1
 soie grège de Provence,1,soie grège de Provence,1
 soie grège doupion,3,soie grège doupion,3
@@ -23796,7 +23798,7 @@ soie ouvrée ou organsine,1,soie ouvrée,41
 soie par Marseille,1,soie par Marseille,3
 soie plate,4,soie plate,4
 soie siamoise,2,soie siamoise,2
-soie soie et fleuret,5,fleuret et soie,6
+soie soie et fleuret,5,fleuret et soie,7
 soie tani,47,soie tani,47
 soie tapis,3,soie tapis,3
 soie teinte,20,soie teinte,20
@@ -24136,8 +24138,8 @@ subsistances fruits et légumes confits et marinés,13,fruits et légumes confit
 subsistances fruits frais divers,15,fruits frais,731
 subsistances fruits secs amandes,16,amandes,2175
 subsistances fruits secs divers,18,fruits secs,976
-subsistances fruits secs en amandes figue et ???,9,amandes sèches et figue sèche et ???,9
-subsistances fruits secs en amandes figue et raisin,24,amandes et figue et raisin,24
+subsistances fruits secs en amandes figue et ???,0,amandes sèches et figue sèche et ???,0
+subsistances fruits secs en amandes figue et raisin,33,amandes et figue et raisin,33
 subsistances fruits verts en orange et citrons,20,citrons et orange,364
 subsistances girofle,21,girofle,981
 subsistances huile d'olive,89,huile d'olive,3353
@@ -24156,7 +24158,7 @@ subsistances provisions diverses,25,provisions,1433
 subsistances provisions diverses principalement en beurre,13,provisions diverses principalement en beurre,13
 subsistances réunies,19,subsistances,27
 subsistances riz,46,grains riz,2553
-subsistances sel,59,sel,8984
+subsistances sel,59,sel,8979
 subsistances sirop,45,sirop,2055
 subsistances sucre,72,sucre,3049
 subsistances thé,47,thé,1865
@@ -25186,7 +25188,7 @@ tissus de laine bonneterie,3,bonneterie de fleuret,11
 tissus de laine casimirs et mérinos,1,casimirs et mérinos de laine,1
 tissus de laine châles brochés et façonnés,2,châles brochés et façonnés de laine,2
 tissus de laine couvertures,2,couvertures de laine,1024
-tissus de laine drap de toute sorte,1,drap de laine,1055
+tissus de laine drap de toute sorte,1,drap,1331
 tissus de laine en bonneterie,2,bonneterie de laine,339
 tissus de laine en pièces couvertures,3,pièces couvertures de laine,3
 tissus de laine en pièces drap couvertures et étoffe,3,tissus de laine,3
@@ -25488,8 +25490,8 @@ toile boucassine,12,toile boucassine,21
 toile bougran,7,toile bougran,105
 toile boulange,1,toile boulange,1
 toile bourlegambis,1,toile bourlegambis,1
-toile brauls,4,toile brauls,4
-toile brauls imitant celles des Indes,1,toile brauls imitant celles des Indes,1
+toile branle,4,toile hamacs,4
+toile branle imitant celles des Indes,1,toile hamacs imitant celles des Indes,1
 toile Bretagne,31,toile de Bretagne,616
 toile Bretagne à carreaux,1,toile de Bretagne à carreaux,69
 toile Bretagne à voile,1,toile de Bretagne pour voile,97
@@ -25573,7 +25575,7 @@ toile commune de 25 aunes,1,toile commune de 25 aunes,1
 toile commune de Lille,1,toile commune de Lille,1
 toile cordas,3,toile cordat,38
 toile cordat,35,toile cordat,38
-toile cordeillat,1,cordeillat,229
+toile cordeillat,1,cordeillat,230
 toile corot,5,toile corot,164
 toile corot double,2,toile corot double,2
 toile corot imitant celle des Indes,1,toile corot imitant celle des Indes,1
@@ -25919,9 +25921,9 @@ toile de chanvre blanche 398 lignes,1,toile blanche de chanvre 398 lignes,1
 toile de chanvre coutil,9,toile de chanvre coutil,9
 toile de chanvre d'emballage,15,toile de chanvre d'emballage,15
 toile de chanvre d'étoupes,1,toile de chanvre d'étoupes,42
-toile de chanvre de ???,5,toile de chanvre de ???,5
+toile de chanvre de ???,0,toile de chanvre de ???,0
 toile de chanvre de bas prix,0,toile à bas prix de chanvre,0
-toile de chanvre de coutil,10,toile de chanvre de coutil,10
+toile de chanvre de coutil,15,toile de chanvre de coutil,15
 toile de chanvre de fil d'épreuve,1,toile de chanvre et de fil d'épreuve,1
 toile de chanvre de la ville de Halle,1,toile de chanvre de Halle,2
 toile de chanvre dite coutil,3,toile de chanvre dite coutil,3
@@ -26153,7 +26155,7 @@ toile de Landerneau,2,toile de Landerneau,28
 toile de Languenan,17,toile de Languenan,60
 toile de Laval,301,toile de Laval,327
 toile de Laval de renvoi,1,toile de Laval de renvoi,1
-toile de Laval en pierres,1,,3
+toile de Laval en pierres,1,toile de Laval en pierres,1
 toile de Léon,37,toile de Léon,48
 toile de Lille,2,toile de Lille,2
 toile de lin,341,toile de lin,709
@@ -26168,7 +26170,7 @@ toile de lin batiste en carreaux,1,batiste en carreaux,1
 toile de lin batiste et linon,59,batiste et linon,133
 toile de lin Beauvais,1,toile de lin de Beauvais,92
 toile de lin blanche,592,toile de lin blanche,600
-toile de lin blanche ??? à la frontière,5,toile blanche de lin ??? à la frontière,5
+toile de lin blanche ??? à la frontière,0,toile blanche de lin ??? à la frontière,0
 toile de lin blanche à 10 sols et en dessus aune,0,toile blanche de lin à 10 sols et en dessus,0
 toile de lin blanche commune,2,toile blanche de lin,23
 toile de lin blanche damassée pour nappes et serviettes,0,toile blanche damassée de lin pour nappes et serviettes,0
@@ -26180,7 +26182,7 @@ toile de lin blanche de 8 sols par aune,0,toile de lin blanche de 8 sols par aun
 toile de lin blanche de bas prix,0,toile à bas prix blanche de lin,0
 toile de lin blanche en dessous de 10 sols,0,toile blanche de lin en dessous de 10 sols par aune,0
 toile de lin blanche en dessous de 10 sols aune,0,toile blanche de lin en dessous de 10 sols par aune,0
-toile de lin blanche et assortie,6,toile blanche de lin et toile de lin,6
+toile de lin blanche et assortie,11,toile blanche de lin et toile de lin,11
 toile de lin blanche fine,3,toile blanche fine et de lin,3
 toile de lin blanche haut prix,0,toile blanche de lin et haut prix,0
 toile de lin blanche pour nappes et serviettes,0,toile blanche de lin pour nappes et serviettes,0
@@ -26370,6 +26372,7 @@ toile de Marigny écrue,2,toile de Marigny écrue,2
 toile de ménage,155,toile de ménage,159
 toile de ménage blanche,1,toile blanche de ménage,3
 toile de ménage serviettes,1,serviettes de toile de ménage,1
+toile de millas,1,toile de millas,1
 toile de Morlaix,78,toile de Morlaix,159
 toile de Mortagne,120,toile de Mortagne,142
 toile de mousseline,4,mousseline,729
@@ -26423,6 +26426,7 @@ toile de toute espèce,7,toile,995
 toile de toute sorte,2,toile,995
 toile de treillis,2,toile de treillis,2
 toile de Troyes,11,toile de Troyes,12
+toile de Valeby,1,toile de Valeby,1
 toile de Valenciennes,41,toile de Valenciennes,43
 toile de Vigery,1,toile de Vigery,1
 toile de ville,1,toile de ville,1
@@ -26765,6 +26769,7 @@ toile linge tables divers,9,linge de table,514
 toile linon,38,toile linon,41
 toile linon batiste,1,batiste et linon,133
 toile linon de Saint-Quentin,1,toile de linon de Saint-Quentin,1
+toile livée,1,toile livée,1
 toile liza,2,toile lizat,3
 toile lizat,1,toile lizat,3
 toile Locronan,10,locrenan,10
@@ -26992,6 +26997,7 @@ toile teinte de 13 à 20 fils,2,toile teinte de 13 à 20 fils,2
 toile teinte de 20 fils et au-dessus,3,toile teinte de 20 fils et au-dessus,3
 toile teinte de 8 à 13 fils,2,toile teinte de 8 à 13 fils,2
 toile teinte de moins de 8 fils,2,toile teinte de moins de 8 fils,2
+toile tellier,1,toile tellier,1
 toile tissée très fin,75,toile tissée très fin,75
 toile toilerie,6,toile,995
 toile toillerie,4,toile,995
@@ -27063,6 +27069,7 @@ tombereaux,18,tombereaux,18
 tombes de marbre,1,tombeaux de marbre,2
 tondelle,1,tondelle,1
 tondures de drap,4,tondures de drap,4
+tonge,1,tonge,1
 tonneaux,3,tonneaux,3
 tonneaux à l'eau cerclés de fer,2,tonneaux à l'eau cerclés de fer,2
 tonneaux cercle de bois,1,cercles de bois pour tonneaux,20
@@ -27831,6 +27838,7 @@ vin de Bretagne,1,vin de Bretagne,1
 vin de Cabreton,5,vin de Cabreton,5
 vin de Cahors,20,vin de Cahors,20
 vin de Calabre,1,vin de Calabre,1
+vin de Carlove,1,vin de Carlove,1
 vin de Castillon,27,vin de Castillon,30
 vin de Catalogne,6,vin de Catalogne,8
 vin de Cauret,1,vin de Cauret,1
@@ -27927,7 +27935,7 @@ vin de Graves,2,vin de Graves,5
 vin de Guacy,1,vin de Guacy,1
 vin de Guyenne,3,vin de Guyenne,11
 vin de haule,1,vin de haule,1
-vin de haut,492,vin de haut,501
+vin de haut,493,vin de haut,503
 vin de haut renvoyé,1,vin de haut renvoyé,1
 vin de Hongrie,25,vin de Hongrie,25
 vin de hors,5,vin de hors,5
@@ -28036,7 +28044,7 @@ vin de Tonnerre,5,vin de Tonnerre,8
 vin de Touraine,1,vin de Touraine,3
 vin de toute sorte,25,vin,18864
 vin de Vienne,1,vin de Vienne,1
-vin de ville,713,vin de ville,731
+vin de ville,714,vin de ville,733
 vin de ville de Bordeaux,2,vin de ville de Bordeaux,2
 vin de ville de renvoi,1,vin de ville de renvoi,2
 vin de ville et de haut,5,vin de ville et de haut,5
@@ -28080,6 +28088,7 @@ vin du Rhin,160,vin du Rhin,166
 vin du Rhin de retour,1,vin du Rhin de retour,1
 vin du Rhin en bouteilles,1,vin du Rhin en bouteilles,1
 vin du Rhin en cercles,1,vin du Rhin en cercles,1
+vin du Rhin en douelles,1,vin du Rhen en douelles,1
 vin du Rhin et de Moselle,0,vin du Rhin et de Moselle,0
 vin du Rhône,2,vin du Rhône,3
 vin du Roussillon,20,vin du Roussillon,24
@@ -28132,6 +28141,7 @@ vin étranger du Rhin,6,vin du Rhin,166
 vin étranger fuo,3,vin étranger fuo,3
 vin français,202,vin français,202
 vin Frontignan,1,vin de Frontignan,113
+vin Gailleau,1,vin Gailleau,1
 vin gâté,1,vin gâté,1
 vin Grave,2,vin de Grave,2
 vin grec,6,vin de Grèce,6
@@ -28142,7 +28152,7 @@ vin idem d'Auxonne,1,vin d'Auxonne,7
 vin idem de Barcelone,2,vin de Barcelone,19
 vin idem de Beaune,4,vin de Beaune,133
 vin idem de Dijon,3,vin de Dijon,118
-vin idem de haut,8,vin de haut,501
+vin idem de haut,8,vin de haut,503
 vin idem de Mâcon,3,vin de Mâcon,45
 vin idem de Madère,1,vin de Madère,79
 vin idem de Malaga,4,vin de Malaga,354
@@ -28152,7 +28162,7 @@ vin idem de Rancio,1,vin de Rancio,32
 vin idem de Reims,5,vin de Reims,184
 vin idem de rivière,2,vin de rivière,49
 vin idem de Rota,1,vin de Rota,17
-vin idem de ville,9,vin de ville,731
+vin idem de ville,9,vin de ville,733
 vin jauge ??? Paris,1,vin jauge ??? Paris,1
 vin jauge gros bard,40,vin jauge gros bard,42
 vin jauge Paris,6,vin jauge Paris,6
@@ -28183,6 +28193,7 @@ vin petit,2,vin ordinaire,460
 vin Portugal,1,vin du Portugal,1
 vin Quercy,2,vin du Quercy,60
 vin Rancio,5,vin Rancio,5
+vin romali,1,vin romali,1
 vin Rota,1,vin Rota,1
 vin rouge,1007,vin rouge,1007
 vin rouge commun,64,vin rouge commun,64
@@ -28196,15 +28207,16 @@ vin rouge ordinaire,1,vin rouge ordinaire,1
 vin rouge très gras,1,vin rouge très gras,1
 vin Saint-Ange,1,vin Saint-Ange,1
 vin Saint-Laurent,1,vin Saint-Laurent,1
+vin soin,1,vin soin,1
 vin Syracuse,1,vin de Syracuse,11
 vin tinto,1,vin Tinto,18
 vin Tinto,17,vin Tinto,18
 vin vendange,2,vin vendange,2
 vin verdé de Florence,1,vin verdé de Florence,1
-vin ville,7,vin de ville,731
-vin vin de haut,1,vin de haut,501
+vin ville,7,vin de ville,733
+vin vin de haut,1,vin de haut,503
 vin vin de liqueurs divers,5,vin et vin de liqueurs divers,5
-vin vin de ville,2,vin de ville,731
+vin vin de ville,2,vin de ville,733
 vinaigre,6776,vinaigre,6794
 vinaigre ???,3,vinaigre ???,3
 vinaigre composé,18,vinaigre de composition,23

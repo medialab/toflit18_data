@@ -321,7 +321,8 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 1///Subsistances///Fromage,subsistances fromage,,1,25,0,0,0,0,0,0,1,25
 1///Subsistances///Fromages,subsistances fromage,,1,28,0,0,0,0,0,0,1,28
 1///Subsistances///Fruits divers,subsistances fruits divers,,1,60,0,0,0,0,0,0,1,60
-"1///Subsistances///Fruits secs en amandes, figues et ...",subsistances fruits secs en amandes figue et ???,,1,9,0,0,0,0,0,0,1,9
+"1///Subsistances///Fruits secs en amandes, figues et ...",subsistances fruits secs en amandes figue et ???,,0,0,0,0,0,0,0,0,0,0
+"1///Subsistances///Fruits secs en amandes, figues et raisins",subsistances fruits secs en amandes figue et raisin,,1,9,0,0,0,0,0,0,1,9
 "1///Subsistances///Fruits secs, en amandes ,figues et raisins",subsistances fruits secs en amandes figue et raisin,,1,10,0,0,0,0,0,0,1,10
 "1///Subsistances///Fruits secs, en amandes, figues et raisins",subsistances fruits secs en amandes figue et raisin,,1,14,0,0,0,0,0,0,1,14
 1///Subsistances///Fruits verts en Oranges et citrons,subsistances fruits verts en orange et citrons,,1,7,0,0,0,0,0,0,1,7
@@ -1667,8 +1668,11 @@ Articles de peche,articles de pêche,,0,0,0,0,0,0,1,1,1,1
 Articles de peu de valeur réunis,articles de peu de valeur réunis,,1,19,0,0,0,0,0,0,1,19
 Articles réunies,articles réunis,,1,25,0,0,0,0,0,0,1,25
 Articles réunis,articles réunis,,1,2385,0,0,0,0,0,0,1,2385
+"Articles réunis d''une valeur moindre de 2,000 francs chacun",articles réunis d'une valeur moindre de 2000 francs chacun,,1,20,0,0,0,0,0,0,1,20
 Articles réunis d'une valeur de moins de 2000 francs chacun,articles réunis d'une valeur moindre de 2000 francs chacun,,1,21,0,0,0,0,0,0,1,21
 Articles réunis d'une valeur moindre de 2 000 francs chacun,articles réunis d'une valeur moindre de 2000 francs chacun,,1,10,0,0,0,0,0,0,1,10
+"Articles réunis d'une valeur moindre de 2,000 fr. chacun",articles réunis d'une valeur moindre de 2000 francs chacun,,1,21,0,0,0,0,0,0,1,21
+Articles réunis d'une valeur moindre de 2000 fr chacun,articles réunis d'une valeur moindre de 2000 francs chacun,,1,19,0,0,0,0,0,0,1,19
 Articles réunis de peu de valeur,articles réunis de peu de valeur,,1,379,0,0,0,0,0,0,1,379
 Articles réunis et tissus étrangers réexportés,articles réunis et tissus étrangers réexportés,,1,26,0,0,0,0,0,0,1,26
 Artiffice,artifice,,1,1,0,0,0,0,0,0,1,1
@@ -3402,6 +3406,7 @@ Bêtes de somme et bœufs,bêtes de somme et bœufs,,1,1,0,0,0,0,0,0,1,1
 Bêtes de somme et poulin,bêtes de somme et poulains,,1,1,0,0,0,0,0,0,1,1
 Bêtes de somme mules et mulets,bêtes de somme mules et mulets,,1,5,0,0,0,0,0,0,1,5
 Bêtes de somme poulins,bêtes de somme poulains,,1,1,0,0,0,0,0,0,1,1
+"Bêtes de somme, particulièrement en chevaux",bêtes de somme particulièrement en chevaux,,1,6,0,0,0,0,0,0,1,6
 Bêtes de somme; Anes et anesses,bêtes de somme ânes et ânesses,,1,1,0,0,0,0,0,0,1,1
 Bêtes de somme; Mules et mulets,bêtes de somme mules et mulets,,1,1,0,0,0,0,0,0,1,1
 Bêtes de sommes ; cheveaux,bêtes de somme chevaux,,1,1,0,0,0,0,0,0,1,1
@@ -7666,10 +7671,10 @@ Brasserie,brasserie,,0,0,0,0,0,0,0,0,0,0
 Braudans,braudans,,0,0,0,0,0,0,0,0,0,0
 Braudons,braudans,,1,1,0,0,0,0,0,0,1,1
 Braulambis,braulambis,,1,2,0,0,0,0,0,0,1,2
-Braule,braule,,1,77,0,0,0,0,0,0,1,77
-Braulé,braule,,1,1,0,0,0,0,0,0,1,1
-Braules,braule,,1,14,0,0,0,0,0,0,1,14
-Braulles,braule,,1,1,0,0,0,0,0,0,1,1
+Braule,branle,,1,77,0,0,0,0,0,0,1,77
+Braulé,branle,,1,1,0,0,0,0,0,0,1,1
+Braules,branle,,1,14,0,0,0,0,0,0,1,14
+Braulles,branle,,1,1,0,0,0,0,0,0,1,1
 Braux,braux,,1,1,0,0,0,0,0,0,1,1
 Bray,brai,,1,261,0,0,0,0,1,30,2,291
 Bray ; à poix,brai à poix,,1,1,0,0,0,0,0,0,1,1
@@ -11204,7 +11209,7 @@ Chapreeaux de paille de ris,chapeaux de paille de riz,,1,1,0,0,0,0,0,0,1,1
 Chaquelas,chaquelas,,1,4,0,0,0,0,0,0,1,4
 Charanis,chavonis,,1,1,0,0,0,0,0,0,1,1
 Charbon,charbon,,1,4,0,0,0,0,1,111,2,115
-Charbon ; à drapier,charbon à drapier,,1,1,0,0,0,0,0,0,1,1
+Charbon ; à drapier,chardons à drapier,,1,1,0,0,0,0,0,0,1,1
 Charbon ; de bois,charbon de bois,,1,218,0,0,0,0,0,0,1,218
 Charbon ; de Bois,charbon de bois,,1,2,0,0,0,0,0,0,1,2
 Charbon ; De bois,charbon de bois,,1,7,0,0,0,0,0,0,1,7
@@ -11219,7 +11224,7 @@ Charbon ; de Terre,charbon de terre,,1,4,0,0,0,0,0,0,1,4
 Charbon ; De terre,charbon de terre,,1,9,0,0,0,0,0,0,1,9
 Charbon ; De Terre,charbon de terre,,1,8,0,0,0,0,0,0,1,8
 Charbon ;de bois,charbon de bois,,1,1,0,0,0,0,0,0,1,1
-Charbon à drapier,charbon à drapier,,1,7,0,0,0,0,0,0,1,7
+Charbon à drapier,chardons à drapier,,1,7,0,0,0,0,0,0,1,7
 Charbon à terre,charbon de terre,,1,2,0,0,0,0,0,0,1,2
 Charbon de bois,charbon de bois,,1,96,0,0,0,0,1,22,2,118
 Charbon de bois et de chenevotte,charbon de bois et chènevotte,,1,1,0,0,0,0,0,0,1,1
@@ -11245,7 +11250,7 @@ Charbons ; De bois,charbon de bois,,1,4,0,0,0,0,0,0,1,4
 Charbons ; De pierre,charbon de pierre,,1,2,0,0,0,0,0,0,1,2
 Charbons ; de terre,charbon de terre,,1,2,0,0,0,0,0,0,1,2
 Charbons ; De terre,charbon de terre,,1,4,0,0,0,0,0,0,1,4
-Charbons à drapier,charbon à drapier,,1,11,0,0,0,0,0,0,1,11
+Charbons à drapier,chardons à drapier,,1,11,0,0,0,0,0,0,1,11
 Charbons cardiers,charbon cardier,,1,12,0,0,0,0,0,0,1,12
 Charbons de bois,charbon de bois,,1,5,0,0,0,0,0,0,1,5
 Charbons de boulanger et bresette,charbon de boulanger et braisette,,0,0,0,0,0,0,0,0,0,0
@@ -13314,6 +13319,7 @@ Cordillaterie,cordeillaterie,x,1,27,0,0,0,0,0,0,1,27
 Cordillateries,cordeillaterie,x,1,1,0,0,0,0,0,0,1,1
 Cordillatrie,cordeillaterie,x,1,9,0,0,0,0,0,0,1,9
 Cordillats,cordeillat,x,1,2,0,0,0,0,0,0,1,2
+Cordllaterie,cordeillat,,1,1,0,0,0,0,0,0,1,1
 Cordnes a lanternes,cornes à lanternes,,1,1,0,0,0,0,0,0,1,1
 Cordoans,cordons,,1,2,0,0,0,0,0,0,1,2
 Cordon,cordons,,1,3,0,0,0,0,0,0,1,3
@@ -14348,7 +14354,6 @@ Cow hair,,,0,0,1,74,0,0,0,0,1,74
 Cow horns,,,0,0,1,2,0,0,0,0,1,2
 Cows,,,0,0,1,126,0,0,0,0,1,126
 Cozail brut,corail brut,,1,2,0,0,0,0,0,0,1,2
-Cozorllaterie,,,1,1,0,0,0,0,0,0,1,1
 Cpuir dorré,cuirs dorés,,1,1,0,0,0,0,0,0,1,1
 Crabbes et geernaerts,crabes et geernaerts,x,0,0,0,0,0,0,0,0,0,0
 Crabbes et limaçons,crabes et limaçons,,0,0,0,0,0,0,0,0,0,0
@@ -16033,9 +16038,9 @@ D'une valeur moindre de 2 000 chacun,??? d'une valeur moindre de deux mille fran
 D'une valeur moindre de 2 000 Fr chacun,??? d'une valeur moindre de deux mille francs chacun,,1,16,0,0,0,0,0,0,1,16
 D'une valeur moindre de 2 000 francs chacun,??? d'une valeur moindre de deux mille francs chacun,,1,18,0,0,0,0,0,0,1,18
 "D'une valeur moindre de 2,000 fr chacun",??? d'une valeur moindre de deux mille francs chacun,,1,19,0,0,0,0,0,0,1,19
-"D'une valeur moindre de 2,000 fr. chacun",??? d'une valeur moindre de deux mille francs chacun,,1,168,0,0,0,0,0,0,1,168
-"D'une valeur moindre de 2,000 francs chacun",??? d'une valeur moindre de deux mille francs chacun,,1,178,0,0,0,0,0,0,1,178
-D'une valeur moindre de 2000 fr chacun,??? d'une valeur moindre de deux mille francs chacun,,1,46,0,0,0,0,0,0,1,46
+"D'une valeur moindre de 2,000 fr. chacun",??? d'une valeur moindre de deux mille francs chacun,,1,147,0,0,0,0,0,0,1,147
+"D'une valeur moindre de 2,000 francs chacun",??? d'une valeur moindre de deux mille francs chacun,,1,158,0,0,0,0,0,0,1,158
+D'une valeur moindre de 2000 fr chacun,??? d'une valeur moindre de deux mille francs chacun,,1,27,0,0,0,0,0,0,1,27
 D'une valeur moindre de 2000 francs chacun,??? d'une valeur moindre de deux mille francs chacun,,1,17,0,0,0,0,0,0,1,17
 Dades,dattes,x,0,0,0,0,0,0,0,0,0,0
 Dades et pistaches,dattes et pistaches,x,0,0,0,0,0,0,0,0,0,0
@@ -16209,11 +16214,11 @@ Dauphine,dauphine,,1,8,1,22,0,0,0,0,2,30
 Dauphiné,dauphine,,1,1,0,0,0,0,0,0,1,1
 Dauphine / aune,dauphine aune,,0,0,0,0,0,0,0,0,0,0
 Dé à coudre,dés à coudre,,1,1,0,0,0,0,0,0,1,1
-De haut,de haut,x,1,2,0,0,0,0,0,0,1,2
+De haut,de haut,x,1,1,0,0,0,0,0,0,1,1
 De liqueurs,de liqueurs,x,1,1,0,0,0,0,0,0,1,1
 De peu de valeur,de peu de valeur,x,1,2,0,0,0,0,0,0,1,2
 De Tafia,de tafia,x,1,2,0,0,0,0,0,0,1,2
-De ville,de ville,x,1,2,0,0,0,0,0,0,1,2
+De ville,de ville,x,1,1,0,0,0,0,0,0,1,1
 Debris de vaisseaux et vieux ouvrages de charpente,débris de vaisseaux et vieux ouvrages de charpente,,0,0,0,0,0,0,0,0,0,0
 Dechet ; de pierre,déchets de pierre,,1,1,0,0,0,0,0,0,1,1
 Déchets ; de pierre,déchets de pierre,,1,1,0,0,0,0,0,0,1,1
@@ -17187,7 +17192,8 @@ Drap ; Gauffré,drap gaufré,,1,1,0,0,0,0,0,0,1,1
 Drap ; imprimée,drap imprimé,,1,5,0,0,0,0,0,0,1,5
 Drap ; londrin,drap londrin,,1,29,0,0,0,0,0,0,1,29
 Drap ; Londrin,drap londrin,,1,27,0,0,0,0,0,0,1,27
-Drap ; londrin ; ?,drap londrin ?,,1,1,0,0,0,0,0,0,1,1
+Drap ; londrin ; ?,drap londrin ?,,0,0,0,0,0,0,0,0,0,0
+Drap ; londrins ; seconds,drap londrin second,,1,1,0,0,0,0,0,0,1,1
 Drap ; Loudrin,drap londrin,,1,5,0,0,0,0,0,0,1,5
 Drap ; noir,drap noir,,1,1,0,0,0,0,0,0,1,1
 Drap ; ordinaire,drap ordinaire,,1,2,0,0,0,0,0,0,1,2
@@ -18759,8 +18765,8 @@ Drogues ; Pour la peinture ; Azur,drogues pour les peintures azur,,1,1,0,0,0,0,0
 Drogues ; Pour la peinture ; Azur et bleu de Prusse,drogues pour les peintures azur et bleu de Prusse,,1,9,0,0,0,0,0,0,1,9
 Drogues ; Pour la peinture ; blanc d'Espagne,drogues pour les peintures blanc d'Espagne,,1,1,0,0,0,0,0,0,1,1
 Drogues ; Pour la peinture ; Blanc d'Espagne,drogues pour les peintures blanc d'Espagne,,1,1,0,0,0,0,0,0,1,1
+Drogues ; Pour la peinture ; blanc de Céruse,drogues pour les peintures blanc de céruse,,1,5,0,0,0,0,0,0,1,5
 Drogues ; Pour la peinture ; Blanc de ferax,drogues pour les peintures blanc de ferax,x,1,9,0,0,0,0,0,0,1,9
-Drogues ; Pour la peinture ; blanc de ferux,drogues pour les peintures blanc de ferux,x,1,5,0,0,0,0,0,0,1,5
 Drogues ; Pour la peinture ; Blanc de Herps,drogues pour les peintures blanc de Herps,,1,3,0,0,0,0,0,0,1,3
 Drogues ; Pour la peinture ; blanc de plomb,drogues pour les peintures blanc de plomb,,1,2,0,0,0,0,0,0,1,2
 Drogues ; Pour la peinture ; Brun rouge,drogues pour les peintures brun rouge,,1,6,0,0,0,0,0,0,1,6
@@ -22050,8 +22056,9 @@ Etoffe satin turq,étoffe satin turc,,1,3,0,0,0,0,0,0,1,3
 Etoffe satinette,étoffe satinette,,1,1,0,0,0,0,0,0,1,1
 Étoffe satinette,étoffe satinette,,1,2,0,0,0,0,0,0,1,2
 Etoffe serge,étoffe serge,,1,4,0,0,0,0,0,0,1,4
-Etoffe serge ?,étoffe serge ???,,1,8,0,0,0,0,0,0,1,8
+Etoffe serge ?,étoffe serge ???,,1,2,0,0,0,0,0,0,1,2
 Etoffe serge 1/2 londre,étoffe serge 1/2 Londres,x,1,1,0,0,0,0,0,0,1,1
+Etoffe serge et étamines,étoffe serge et étamine,,1,6,0,0,0,0,0,0,1,6
 Etoffe serge et laine,étoffe serge et laine,,1,2,0,0,0,0,0,0,1,2
 Etoffe serge laine,étoffe serge laine,,1,1,0,0,0,0,0,0,1,1
 Etoffe serge minorque,étoffe serge Minorque,,1,3,0,0,0,0,0,0,1,3
@@ -23092,7 +23099,7 @@ Fanons de baleines bruts ; de pêches françaises,fanon de baleine brut de pêch
 Fans,,,0,0,1,11,0,0,0,0,1,11
 Fans and paper for fans,,,0,0,1,114,0,0,0,0,1,114
 Fans with porcelaine,,,0,0,1,2,0,0,0,0,1,2
-Farces a drapier,farces à drapier,x,0,0,0,0,0,0,0,0,0,0
+Farces a drapier,forces à drapier,x,0,0,0,0,0,0,0,0,0,0
 Fard rouge,fard rouge,,1,1,0,0,0,0,0,0,1,1
 Farine,farine,,1,1477,0,0,1,9,1,468,3,1954
 Farine ; d'avoine,farine d'avoine,,1,2,0,0,0,0,0,0,1,2
@@ -24925,7 +24932,7 @@ Fil a coudres,fil à coudre,,1,1,0,0,0,0,0,0,1,1
 Fil a doyne,,,1,1,0,0,0,0,0,0,1,1
 Fil a Esturgon,fil à esturgeon,,1,1,0,0,0,0,0,0,1,1
 Fil a femme,fil à femme,,1,2,0,0,0,0,0,0,1,2
-Fil a fiene,,,1,1,0,0,0,0,0,0,1,1
+Fil a fiene,fil à sennes,,1,1,0,0,0,0,0,0,1,1
 Fil a filles,fil à fille,,1,1,0,0,0,0,0,0,1,1
 Fil a flotte,fil à flotte,,1,1,0,0,0,0,0,0,1,1
 Fil a fol,fil à fol,,1,2,0,0,0,0,0,0,1,2
@@ -27268,8 +27275,8 @@ Gamelle de bois,gamelles de bois,,1,1,0,0,0,0,0,0,1,1
 Gamelles a jeter l'eau,gamelles à jeter l'eau,,1,1,0,0,0,0,0,0,1,1
 Gamelles de bois,gamelles de bois,,1,2,0,0,0,0,0,0,1,2
 Gan de peaux,gants de peau,,1,1,0,0,0,0,0,0,1,1
-Gan.. ; commune,gan ??? commune,,1,7,0,0,0,0,0,0,1,7
-Gan.. ; de grenoble,gan ??? de Grenoble,,1,2,0,0,0,0,0,0,1,2
+Gan.. ; commune,gan ??? commune,,0,0,0,0,0,0,0,0,0,0
+Gan.. ; de grenoble,gan ??? de Grenoble,,0,0,0,0,0,0,0,0,0,0
 Gance ; de fleuret,ganses de fleuret,,1,2,0,0,0,0,0,0,1,2
 Gance ; de laine,ganses de laine,,1,1,0,0,0,0,0,0,1,1
 Gances,ganses,,1,1,0,0,0,0,0,0,1,1
@@ -27307,7 +27314,7 @@ Gans,gants,,1,20,0,0,0,0,0,0,1,20
 Gans ; bordés de soye ; par paire,gants bordés de soie par paires,,1,1,0,0,0,0,0,0,1,1
 Gans ; brodés ; de soye,gants brodés de soie,,1,1,0,0,0,0,0,0,1,1
 Gans ; communes,gants communs,,1,1,0,0,0,0,0,0,1,1
-Gans ; communs,gants communs,,1,283,0,0,0,0,0,0,1,283
+Gans ; communs,gants communs,,1,290,0,0,0,0,0,0,1,290
 Gans ; communs ; en paires,gants communs en paires,,1,1,0,0,0,0,0,0,1,1
 Gans ; communs ; par paire,gants communs par paires,,1,1,0,0,0,0,0,0,1,1
 Gans ; de castor,gants de castor,,1,6,0,0,0,0,0,0,1,6
@@ -27322,7 +27329,7 @@ Gans ; de filozelle,gants de filoselle,,1,3,0,0,0,0,0,0,1,3
 Gans ; de fleures,gants de fleuret,x,1,2,0,0,0,0,0,0,1,2
 Gans ; de fleuret,gants de fleuret,,1,2,0,0,0,0,0,0,1,2
 Gans ; de garnis de soye,gants de garnis de soie,x,1,5,0,0,0,0,0,0,1,5
-Gans ; de grenoble,gants de Grenoble,,1,2,0,0,0,0,0,0,1,2
+Gans ; de grenoble,gants de Grenoble,,1,4,0,0,0,0,0,0,1,4
 Gans ; de Grenoble,gants de Grenoble,,1,36,0,0,0,0,0,0,1,36
 Gans ; de laine,gants de laine,,1,26,0,0,0,0,0,0,1,26
 Gans ; de peau,gants de peau,,1,26,0,0,0,0,0,0,1,26
@@ -28117,7 +28124,7 @@ Goblets de verres,gobelets de verre,,1,1,0,0,0,0,0,0,1,1
 Goblets en verre,gobelets de verre,,1,2,0,0,0,0,0,0,1,2
 Goblets peints,gobelets peints,,1,1,0,0,0,0,0,0,1,1
 Godron,goudron,,1,1,0,0,0,0,1,1,2,2
-Gogorans,gogorans,,1,2,0,0,0,0,0,0,1,2
+Gogorans,gourgouran,,1,2,0,0,0,0,0,0,1,2
 Gold and silver (piasters),,,0,0,1,4,0,0,0,0,1,4
 Gold and silver buttons,,,0,0,1,3,0,0,0,0,1,3
 Gold and silver in bars and ingots,,,0,0,1,32,0,0,0,0,1,32
@@ -28471,8 +28478,8 @@ Gommes Sénégal,gomme du Sénégal,,1,17,0,0,0,0,0,0,1,17
 Gommes Thurique,gomme thurique,,1,1,0,0,0,0,0,0,1,1
 Gonds,gonds,,1,1,0,0,0,0,0,0,1,1
 Goose-legs in sauce,,,0,0,1,10,0,0,0,0,1,10
-Gorgoran,gogorans,,1,9,0,0,0,0,0,0,1,9
-Gorgorans,gogorans,,1,7,0,0,0,0,0,0,1,7
+Gorgoran,gourgouran,,1,9,0,0,0,0,0,0,1,9
+Gorgorans,gourgouran,,1,7,0,0,0,0,0,0,1,7
 Goudran,goudron,,1,12,0,0,0,0,0,0,1,12
 Goudron,goudron,,1,188,0,0,1,1063,1,172,3,1423
 Goudron ; de Suède,goudron de Suède,,0,0,0,0,0,0,0,0,0,0
@@ -28484,8 +28491,8 @@ Goules,goules,x,0,0,0,0,0,0,0,0,0,0
 Goumable,gournable,,1,1,0,0,0,0,0,0,1,1
 Goupis,goupil,x,1,1,0,0,0,0,0,0,1,1
 Gourdes,gourde,,1,1,0,0,0,0,0,0,1,1
-Gourgouran,gogorans,,1,53,0,0,0,0,0,0,1,53
-Gourgourans,gogorans,,1,18,0,0,0,0,0,0,1,18
+Gourgouran,gourgouran,,1,53,0,0,0,0,0,0,1,53
+Gourgourans,gourgouran,,1,18,0,0,0,0,0,0,1,18
 Gournabe,gournable,,1,1,0,0,0,0,0,0,1,1
 Gournabe ; de chesne,gournable de chêne,,1,1,0,0,0,0,0,0,1,1
 Gournabes,gournable,,1,3,0,0,0,0,0,0,1,3
@@ -29834,7 +29841,7 @@ Habit ; de pelleterie,habits de pelleterie,,1,1,0,0,0,0,0,0,1,1
 Habit ; de pinchinat,habits de pinchina,,1,1,0,0,0,0,0,0,1,1
 Habit de camelot,habits de camelot,,1,1,0,0,0,0,0,0,1,1
 Habit de droguet,habits de droguet,,1,1,0,0,0,0,0,0,1,1
-Habit de gourgouran,habits de gogorans,,1,1,0,0,0,0,0,0,1,1
+Habit de gourgouran,habits de gourgouran,,1,1,0,0,0,0,0,0,1,1
 Habit de peaux de mouton,habits de peaux de mouton,,1,1,0,0,0,0,0,0,1,1
 Habit de satin brodé,habits de satin brodé,,1,1,0,0,0,0,0,0,1,1
 Habit de soye,habits de soie,,1,2,0,0,0,0,0,0,1,2
@@ -29866,7 +29873,7 @@ Habits de drap,habits de drap,,1,4,0,0,0,0,0,0,1,4
 Habits de drap galonné,habits de drap galonné,,1,1,0,0,0,0,0,0,1,1
 Habits de drap unis,habits de drap unis,,1,2,0,0,0,0,0,0,1,2
 Habits de draps,habits de drap,,1,2,0,0,0,0,0,0,1,2
-Habits de gourgourans,habits de gogorans,,1,1,0,0,0,0,0,0,1,1
+Habits de gourgourans,habits de gourgouran,,1,1,0,0,0,0,0,0,1,1
 Habits de peau,habits de peau,,1,3,0,0,0,0,0,0,1,3
 Habits de peaux complets,habits de peau complets,,1,1,0,0,0,0,0,0,1,1
 Habits de Pekin brodés,habits de Pékin brodés,,1,1,0,0,0,0,0,0,1,1
@@ -30649,7 +30656,7 @@ Huile ; de lauriés,huile de laurier,,1,1,0,0,0,0,0,0,1,1
 Huile ; de lavande,huile de lavande,,1,2,0,0,0,0,0,0,1,2
 Huile ; de lin,huile de lin,,1,312,0,0,0,0,0,0,1,312
 Huile ; De lin,huile de lin,,1,5,0,0,0,0,0,0,1,5
-Huile ; De loifon,huile de loifon,x,1,9,0,0,0,0,0,0,1,9
+Huile ; De loifon,huile de loifon,x,0,0,0,0,0,0,0,0,0,0
 Huile ; de loup marin,huile de loup marin,x,1,1,0,0,0,0,0,0,1,1
 Huile ; de maïs,huile de maïs,,1,1,0,0,0,0,0,0,1,1
 Huile ; de morue,huile de morue,,1,12,0,0,0,0,0,0,1,12
@@ -30672,6 +30679,7 @@ Huile ; de pin,huile de pin,,1,1,0,0,0,0,0,0,1,1
 Huile ; de plantes,huile de plantes,,1,1,0,0,0,0,0,0,1,1
 Huile ; de poisson,huile de poisson,,1,542,0,0,0,0,0,0,1,542
 Huile ; De poisson,huile de poisson,,1,4,0,0,0,0,0,0,1,4
+Huile ; De Poisson,huile de poisson,,1,9,0,0,0,0,0,0,1,9
 Huile ; de poisson ; des Isles,huile de poisson des Îles,,1,1,0,0,0,0,0,0,1,1
 Huile ; de poisson ; divers,huile de poisson divers,,1,1,0,0,0,0,0,0,1,1
 Huile ; de poisson et de lin,huile de poisson et de lin,,1,1,0,0,0,0,0,0,1,1
@@ -36033,7 +36041,7 @@ Merrin a barriques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,
 Merrin a pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Merrin a pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrrain ; foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
-Merterie,,,1,1,0,0,0,0,0,0,1,1
+Merterie,merterie,,1,1,0,0,0,0,0,0,1,1
 Mertuche,merluche,,1,1,0,0,0,0,0,0,1,1
 Merurie grosiere,mercerie grossière,x,1,1,0,0,0,0,0,0,1,1
 Merveillon,mereveillon,,1,1,0,0,0,0,0,0,1,1
@@ -36978,14 +36986,15 @@ Mouchoires des Indes,mouchoirs des Indes,,1,5,0,0,0,0,0,0,1,5
 Mouchoires des Indes communs,mouchoirs des Indes communs,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs,mouchoirs,,1,92,0,0,0,0,1,6,2,98
 Mouchoirs ;,mouchoirs,,1,3,0,0,0,0,0,0,1,3
-Mouchoirs ; ?,mouchoirs ???,,1,3,0,0,0,0,0,0,1,3
-Mouchoirs ; ??? de fil de France,mouchoirs ??? de fil de France,,1,5,0,0,0,0,0,0,1,5
+Mouchoirs ; ?,mouchoirs ???,,1,1,0,0,0,0,0,0,1,1
+Mouchoirs ; ??? de fil de France,mouchoirs ??? de fil de France,,0,0,0,0,0,0,0,0,0,0
 Mouchoirs ; à Bearn,mouchoirs à Béarn,x,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; à carreaux,mouchoirs à carreaux,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; à la valeur,mouchoirs à la valeur,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; à peu de soye,mouchoirs à peu de soie,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; A toile peinte,mouchoirs à toile peinte,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; à vignettes,mouchoirs à vignettes,,1,1,0,0,0,0,0,0,1,1
+Mouchoirs ; bandanaes,mouchoirs bandanas,,1,2,0,0,0,0,0,0,1,2
 Mouchoirs ; bandanoës,mouchoirs bandanas,x,0,0,0,0,0,0,0,0,0,0
 Mouchoirs ; baptiste peint,mouchoirs batiste peint,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; batiste de st Quentin,mouchoirs batiste de Saint-Quentin,,1,2,0,0,0,0,0,0,1,2
@@ -36997,7 +37006,7 @@ Mouchoirs ; coton,mouchoirs coton,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; d'aleph,mouchoirs d'Alep,x,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; d'indienne,mouchoirs d'indienne,,1,12,0,0,0,0,0,0,1,12
 Mouchoirs ; d'Indienne,mouchoirs d'indienne,,1,7,0,0,0,0,0,0,1,7
-Mouchoirs ; de ?,mouchoirs de ???,,1,1,0,0,0,0,0,0,1,1
+Mouchoirs ; de ?,mouchoirs de ???,,0,0,0,0,0,0,0,0,0,0
 Mouchoirs ; de Bangale,mouchoirs de Bengale,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; de batiste,mouchoirs de batiste,,1,3,0,0,0,0,0,0,1,3
 Mouchoirs ; de Bearn,mouchoirs du Béarn,,1,5,0,0,0,0,0,0,1,5
@@ -37109,7 +37118,7 @@ Mouchoirs ; de toille ; peinte,mouchoirs de toile peinte,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; de Zurick,mouchoirs de Zurich,x,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; degaze,mouchoirs de gaze,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; des indes,mouchoirs des Indes,,1,4,0,0,0,0,0,0,1,4
-Mouchoirs ; des Indes,mouchoirs des Indes,,1,63,0,0,0,0,0,0,1,63
+Mouchoirs ; des Indes,mouchoirs des Indes,,1,64,0,0,0,0,0,0,1,64
 Mouchoirs ; Des Indes,mouchoirs des Indes,,1,7,0,0,0,0,0,0,1,7
 Mouchoirs ; Des Indes ; De soye,mouchoirs des Indes de soie,,1,2,0,0,0,0,0,0,1,2
 Mouchoirs ; des Indes ; Dit bandannais,mouchoirs des Indes dit bandanas,x,1,1,0,0,0,0,0,0,1,1
@@ -37146,6 +37155,7 @@ Mouchoirs ; romald,mouchoirs romals,x,0,0,0,0,0,0,0,0,0,0
 Mouchoirs ; Ronald,mouchoirs romals,x,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; soye et coton,mouchoirs soie et coton,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs ; tout coton,mouchoirs tout coton,,1,2,0,0,0,0,0,0,1,2
+Mouchoirs ; tout fil de France,mouchoirs tout fil de France,,1,5,0,0,0,0,0,0,1,5
 Mouchoirs au brin de soye,mouchoirs au brin de soie,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs baffetas,mouchoirs baffetas,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs batiste,mouchoirs batiste,,1,1,0,0,0,0,0,0,1,1
@@ -37927,8 +37937,8 @@ Neganitapau,neganepeau,,1,1,0,0,0,0,0,0,1,1
 Negatupeaux,neganepeau,x,1,1,0,0,0,0,0,0,1,1
 Negnepeaux,neganepeau,x,1,1,0,0,0,0,0,0,1,1
 Nègres,nègre,,1,16,0,0,0,0,0,0,1,16
-Nègres de Guinée,nègres de Guinée,,1,18,0,0,0,0,0,0,1,18
-Nègres de Sénégal,nègres de Sénégal,,1,27,0,0,0,0,0,0,1,27
+Nègres de Guinée,nègre de Guinée,,1,18,0,0,0,0,0,0,1,18
+Nègres de Sénégal,nègre de Sénégal,,1,27,0,0,0,0,0,0,1,27
 Nekanias,nicaneas,,1,1,0,0,0,0,0,0,1,1
 Nelei,nelis,x,1,1,0,0,0,0,0,0,1,1
 Nelis,nelis,x,1,36,0,0,0,0,0,0,1,36
@@ -40610,7 +40620,7 @@ Parrapluye,parapluies,,1,1,0,0,0,0,0,0,1,1
 Parrasols,parasols,,1,10,0,0,0,0,0,0,1,10
 Parrots,,,0,0,1,149,0,0,0,0,1,149
 Parse,parse,,1,1,0,0,0,0,0,0,1,1
-Particulièrement en chevaux,??? particulièrement en chevaux,x,1,6,0,0,0,0,0,0,1,6
+Particulièrement en chevaux,??? particulièrement en chevaux,x,0,0,0,0,0,0,0,0,0,0
 Particuliers français [passagers],particuliers français,,0,0,0,0,0,0,1,1,1,1
 Partie de son chargement pour Cherbourg,Partie de son chargement pour Cherbourg,,0,0,0,0,0,0,1,1,1,1
 Parties de bois non spécifiées ?,parties de bois non spécifiées,x,0,0,0,0,1,3931,0,0,1,3931
@@ -51795,12 +51805,13 @@ Soye ; en rame,soie en rames,,1,2,0,0,0,0,0,0,1,2
 Soye ; en rames,soie en rames,,1,3,0,0,0,0,0,0,1,3
 Soye ; en strase et cocons,soie en estrasse et cocons,x,0,0,0,0,0,0,0,0,0,0
 Soye ; en strasse,soie en estrasse,,1,2,0,0,0,0,0,0,1,2
+Soye ; et fleuret,soie et fleuret,,1,1,0,0,0,0,0,0,1,1
 Soye ; exporté de Marseille,soie exportée de Marseille,,1,1,0,0,0,0,0,0,1,1
-Soye ; fleurs ?,soie fleuret ???,x,1,1,0,0,0,0,0,0,1,1
-Soye ; graise,soie grège,x,1,3,0,0,0,0,0,0,1,3
+Soye ; fleurs ?,soie fleuret ???,x,0,0,0,0,0,0,0,0,0,0
+Soye ; graise,soie grège,x,1,4,0,0,0,0,0,0,1,4
 Soye ; graize,soie grège,x,1,1,0,0,0,0,0,0,1,1
 Soye ; greze,soie grège,x,1,13,0,0,0,0,0,0,1,13
-Soye ; grise ?,soie grège ???,x,1,1,0,0,0,0,0,0,1,1
+Soye ; grise ?,soie grège ???,x,0,0,0,0,0,0,0,0,0,0
 Soye ; lorce,soie lorce,x,1,1,0,0,0,0,0,0,1,1
 Soye ; mankin,soie Nankin,,1,2,0,0,0,0,0,0,1,2
 Soye ; moresque,soie mauresque,,1,7,0,0,0,0,0,0,1,7
@@ -55672,10 +55683,10 @@ Toile bougrain,toile beaugrain,,1,5,0,0,0,0,0,0,1,5
 Toile Bougrain,toile beaugrain,,1,2,0,0,0,0,0,0,1,2
 Toile bougran,toile bougran,,1,2,0,0,0,0,0,0,1,2
 Toile bourlegambis,toile bourlegambis,x,1,1,0,0,0,0,0,0,1,1
-Toile brants,toile brauls,x,1,1,0,0,0,0,0,0,1,1
-Toile braules,toile brauls,x,1,1,0,0,0,0,0,0,1,1
-Toile brauls,toile brauls,x,1,2,0,0,0,0,0,0,1,2
-Toile brauls imitant celles de l'Inde,toile brauls imitant celles des Indes,x,1,1,0,0,0,0,0,0,1,1
+Toile brants,toile branle,x,1,1,0,0,0,0,0,0,1,1
+Toile braules,toile branle,x,1,1,0,0,0,0,0,0,1,1
+Toile brauls,toile branle,x,1,2,0,0,0,0,0,0,1,2
+Toile brauls imitant celles de l'Inde,toile branle imitant celles des Indes,x,1,1,0,0,0,0,0,0,1,1
 Toile bretagne,toile Bretagne,,1,2,0,0,0,0,0,0,1,2
 Toile Bretagne,toile Bretagne,,1,11,0,0,0,0,0,0,1,11
 Toile bretagne ; crée,toile Bretagne crée,,1,1,0,0,0,0,0,0,1,1
@@ -57223,7 +57234,8 @@ Toiles ; de chanvre ; à voile,toile de chanvre à voile,,1,4,0,0,0,0,0,0,1,4
 Toiles ; De chanvre ; Avoile,toile de chanvre à voile,,1,9,0,0,0,0,0,0,1,9
 Toiles ; de chanvre ; blanche,toile de chanvre blanche,,0,0,0,0,0,0,0,0,0,0
 Toiles ; de chanvre ; d'emballage,toile de chanvre d'emballage,,1,3,0,0,0,0,0,0,1,3
-Toiles ; de Chanvre ; de ...,toile de chanvre de ???,,1,5,0,0,0,0,0,0,1,5
+Toiles ; de Chanvre ; de ...,toile de chanvre de ???,,0,0,0,0,0,0,0,0,0,0
+Toiles ; de Chanvre ; de Coutil,toile de chanvre de coutil,,1,5,0,0,0,0,0,0,1,5
 Toiles ; De chanvre ; De coutil,toile de chanvre de coutil,,1,10,0,0,0,0,0,0,1,10
 Toiles ; de chanvre ; diverses,toile de chanvre diverse,,0,0,0,0,0,0,0,0,0,0
 Toiles ; de Chanvre ; diverses,toile de chanvre diverse,,1,3,0,0,0,0,0,0,1,3
@@ -57321,7 +57333,8 @@ Toiles ; de lin ; platille,toile de lin platille,,0,0,0,0,0,0,0,0,0,0
 Toiles ; de lin ; toilette,toile de lin toilettes,,1,1,0,0,0,0,0,0,1,1
 Toiles ; de lin ;coutit,toile de lin coutil,,1,1,0,0,0,0,0,0,1,1
 Toiles ; de lin blanche,toile de lin blanche,,1,1,0,0,0,0,0,0,1,1
-Toiles ; de lin blanche ??? à la frontière,toile de lin blanche ??? à la frontière,,1,5,0,0,0,0,0,0,1,5
+Toiles ; de lin blanche ??? à la frontière,toile de lin blanche ??? à la frontière,,0,0,0,0,0,0,0,0,0,0
+Toiles ; de lin blanche et assorties,toile de lin blanche et assortie,,1,5,0,0,0,0,0,0,1,5
 Toiles ; de lin commune,toile de lin commune,,1,4,0,0,0,0,0,0,1,4
 Toiles ; de lin de Laval,toile de lin de Laval,,1,1,0,0,0,0,0,0,1,1
 Toiles ; de lin diverses,toile de lin diverse,,1,14,0,0,0,0,0,0,1,14
@@ -58208,7 +58221,7 @@ Toille ; siamoise ; fil et coton,toile siamoise fil et coton,,1,2,0,0,0,0,0,0,1,
 Toille ; sirée,toile cirée,,1,1,0,0,0,0,0,0,1,1
 Toille ; St gal ??,toile Saint-Gal ???,,1,1,0,0,0,0,0,0,1,1
 Toille ; teinte,toile teinte,,1,1,0,0,0,0,0,0,1,1
-Toille ; tellier ?,,,1,1,0,0,0,0,0,0,1,1
+Toille ; tellier ?,toile tellier,,1,1,0,0,0,0,0,0,1,1
 Toille 3/4 large,toile 3/4 large,,1,1,0,0,0,0,0,0,1,1
 Toille a bas,toile à bas,,1,3,0,0,0,0,0,0,1,3
 Toille a bat,toile à bât,,1,3,0,0,0,0,0,0,1,3
@@ -58534,7 +58547,7 @@ Toille de lisson,toile de lisson,x,0,0,0,0,0,0,0,0,0,0
 Toille de Lucarnan,toile de Locronan,,1,1,0,0,0,0,0,0,1,1
 Toille de menage,toile de ménage,,1,13,0,0,0,0,0,0,1,13
 Toille de ménage,toile de ménage,,1,2,0,0,0,0,0,0,1,2
-Toille de millas,,,1,1,0,0,0,0,0,0,1,1
+Toille de millas,toile de millas,,1,1,0,0,0,0,0,0,1,1
 Toille de montagne,toile de Mortagne,x,1,22,0,0,0,0,0,0,1,22
 Toille de Morlais,toile de Morlaix,,1,2,0,0,0,0,0,0,1,2
 Toille de morlaix,toile de Morlaix,,1,6,0,0,0,0,0,0,1,6
@@ -58565,7 +58578,7 @@ Toille de Suisse,toile de Suisse,,1,1,0,0,0,0,0,0,1,1
 Toille de toupe,toile d'étoupes,,1,2,0,0,0,0,0,0,1,2
 Toille de troye,toile de Troyes,,1,2,0,0,0,0,0,0,1,2
 Toille de Troye,toile de Troyes,,1,1,0,0,0,0,0,0,1,1
-Toille de Valeby,,,1,1,0,0,0,0,0,0,1,1
+Toille de Valeby,toile de Valeby,,1,1,0,0,0,0,0,0,1,1
 Toille de voile,toile de voile,,1,2,0,0,0,0,0,0,1,2
 Toille de voille,toile de voile,,1,3,0,0,0,0,0,0,1,3
 Toille Decoton,toile de coton,,1,1,0,0,0,0,0,0,1,1
@@ -58650,7 +58663,7 @@ Toille linge de table divers,toile linge de tables divers,,1,1,0,0,0,0,0,0,1,1
 Toille Linge de table en nappes,toile linge de tables en nappes,,1,1,0,0,0,0,0,0,1,1
 Toille linge de table serviettes,toile linge de tables serviettes,,1,1,0,0,0,0,0,0,1,1
 Toille linge de table serviettes ? Nappes,toile linge de tables serviettes ??? nappes,,1,1,0,0,0,0,0,0,1,1
-Toille livée,,,1,1,0,0,0,0,0,0,1,1
+Toille livée,toile livée,,1,1,0,0,0,0,0,0,1,1
 Toille Lizat,toile lizat,x,1,1,0,0,0,0,0,0,1,1
 Toille Lucarman,toile Locronan,,1,1,0,0,0,0,0,0,1,1
 Toille manche,toile manche,x,1,1,0,0,0,0,0,0,1,1
@@ -58878,7 +58891,7 @@ Tondures ; de drap,tondures de drap,,1,1,0,0,0,0,0,0,1,1
 Tondures de drap,tondures de drap,,1,3,0,0,0,0,0,0,1,3
 Toneaux cercles de bois,tonneaux cercles de bois,,1,1,0,0,0,0,0,0,1,1
 Toneaux cerclés de fer,tonneaux cerclés de fer,,1,1,0,0,0,0,0,0,1,1
-Tonge,,,1,1,0,0,0,0,0,0,1,1
+Tonge,tonge,,1,1,0,0,0,0,0,0,1,1
 Tonine,thonine,,1,7,0,0,0,0,0,0,1,7
 Tonm frais,thon frais,,1,1,0,0,0,0,0,0,1,1
 Tonneau a l'eau cerclé de fer,tonneaux à l'eau cerclés de fer,,1,1,0,0,0,0,0,0,1,1
@@ -60732,7 +60745,7 @@ Vin ; petit,vin petit,,1,1,0,0,0,0,0,0,1,1
 Vin ; Portugal,vin Portugal,,1,1,0,0,0,0,0,0,1,1
 Vin ; Quercy,vin Quercy,,1,2,0,0,0,0,0,0,1,2
 Vin ; rancio,vin de Rancio,,1,2,0,0,0,0,0,0,1,2
-Vin ; romali,,,1,1,0,0,0,0,0,0,1,1
+Vin ; romali,vin romali,,1,1,0,0,0,0,0,0,1,1
 Vin ; rouge,vin rouge,,1,482,0,0,0,0,0,0,1,482
 Vin ; Rouge,vin rouge,,1,3,0,0,0,0,0,0,1,3
 Vin ; rouge ; commun,vin rouge commun,,1,4,0,0,0,0,0,0,1,4
@@ -60899,7 +60912,7 @@ Vin de Cap,vin du Cap,,0,0,0,0,0,0,0,0,0,0
 Vin de cap breton,vin du Cap Breton,,1,4,0,0,0,0,0,0,1,4
 Vin de Cap breton,vin du Cap Breton,,1,4,0,0,0,0,0,0,1,4
 Vin de Cap Breton,vin du Cap Breton,,1,2,0,0,0,0,0,0,1,2
-Vin de Carlove,,,1,1,0,0,0,0,0,0,1,1
+Vin de Carlove,vin de Carlove,,1,1,0,0,0,0,0,0,1,1
 Vin de Castelan,vin de Castillon,,1,1,0,0,0,0,0,0,1,1
 Vin de casterotie,vin de Côte-Rotie,,1,1,0,0,0,0,0,0,1,1
 Vin de castillon,vin de Castillon,,1,1,0,0,0,0,0,0,1,1
@@ -60997,7 +61010,7 @@ Vin de graves,vin de Grave,,1,1,0,0,0,0,0,0,1,1
 Vin de Guacy,vin de Guacy,x,1,1,0,0,0,0,0,0,1,1
 Vin de guyenne,vin de Guyenne,,1,2,0,0,0,0,0,0,1,2
 Vin de haule,vin de haule,x,1,1,0,0,0,0,0,0,1,1
-Vin de haut,vin de haut,,1,368,0,0,0,0,0,0,1,368
+Vin de haut,vin de haut,,1,369,0,0,0,0,0,0,1,369
 Vin de Haut,vin de haut,,1,28,0,0,0,0,0,0,1,28
 Vin de haut renvoye,vin de haut renvoyé,,1,1,0,0,0,0,0,0,1,1
 Vin de Hongrie,vin de Hongrie,,1,3,0,0,0,0,0,0,1,3
@@ -61136,7 +61149,7 @@ Vin de toute sorte,vin de toute sorte,,1,1,0,0,0,0,0,0,1,1
 Vin de toutes sortes,vin de toute sorte,,1,1,0,0,0,0,0,0,1,1
 Vin de velle,vin de ville,x,1,1,0,0,0,0,0,0,1,1
 Vin de viille,vin de ville,,1,4,0,0,0,0,0,0,1,4
-Vin de ville,vin de ville,,1,579,0,0,0,0,0,0,1,579
+Vin de ville,vin de ville,,1,580,0,0,0,0,0,0,1,580
 Vin de Ville,vin de ville,,1,1,0,0,0,0,0,0,1,1
 Vin de ville de Bordeaux,vin de ville de Bordeaux,,1,2,0,0,0,0,0,0,1,2
 Vin de ville de Renvoye,vin de ville de renvoi,,1,1,0,0,0,0,0,0,1,1
@@ -61180,7 +61193,7 @@ Vin du Portugal,vin du Portugal,,1,2,0,0,0,0,0,0,1,2
 Vin du rhin,vin du Rhin,,1,11,0,0,0,0,0,0,1,11
 Vin du Rhin,vin du Rhin,,1,57,0,0,0,0,0,0,1,57
 Vin du Rhin de retour,vin du Rhin de retour,,1,1,0,0,0,0,0,0,1,1
-Vin du Rhin en douelles,,,1,1,0,0,0,0,0,0,1,1
+Vin du Rhin en douelles,vin du Rhin en douelles,,1,1,0,0,0,0,0,0,1,1
 Vin du Rhône,vin du Rhône,,1,2,0,0,0,0,0,0,1,2
 Vin du Rhum,vin du Rhin,x,1,1,0,0,0,0,0,0,1,1
 Vin du rin,vin du Rhin,,1,1,0,0,0,0,0,0,1,1
@@ -61200,7 +61213,7 @@ Vin Français,vin français,,0,0,0,0,0,0,0,0,0,0
 Vin françois,vin français,,1,5,0,0,0,0,0,0,1,5
 Vin François,vin français,,1,1,0,0,0,0,0,0,1,1
 Vin Frontignan,vin Frontignan,,1,1,0,0,0,0,0,0,1,1
-Vin Gailleau,,,1,1,0,0,0,0,0,0,1,1
+Vin Gailleau,vin Gailleau,,1,1,0,0,0,0,0,0,1,1
 Vin Grave,vin Grave,,1,2,0,0,0,0,0,0,1,2
 Vin grec,vin grec,,1,2,0,0,0,0,0,0,1,2
 Vin Grec,vin grec,,1,1,0,0,0,0,0,0,1,1
@@ -61249,7 +61262,7 @@ Vin rouge très gras,vin rouge très gras,,1,1,0,0,0,0,0,0,1,1
 Vin Saint Ange,vin Saint-Ange,,1,1,0,0,0,0,0,0,1,1
 Vin Saint Lauren,vin Saint-Laurent,,1,1,0,0,0,0,0,0,1,1
 Vin siracuse,vin Syracuse,,1,1,0,0,0,0,0,0,1,1
-Vin soin,,,1,1,0,0,0,0,0,0,1,1
+Vin soin,vin soin,,1,1,0,0,0,0,0,0,1,1
 Vin teinto,vin Tinto,,1,2,0,0,0,0,0,0,1,2
 Vin tinto,vin Tinto,,1,14,0,0,0,0,0,0,1,14
 Vin Tinto,vin Tinto,,1,1,0,0,0,0,0,0,1,1
