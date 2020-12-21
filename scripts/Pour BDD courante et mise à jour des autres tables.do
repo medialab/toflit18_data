@@ -360,8 +360,10 @@ export delimited "$dir_git/base/Units_N1.csv", replace
 ******* Direction et origin
 use "bdd_centrale.dta", clear
 merge m:1 tax_department using "bdd_tax_departments.dta"
-keep tax_department tax_department_simpl
+keep tax_department tax_department_simpl tax_department_grouping
 bys tax_department : gen nbr_occurence=_N
+bys tax_department_simpl : gen nbr_occurence_simpl=_N
+bys tax_department_grouping : gen nbr_occurence_grouping=_N
 bys tax_department : keep if _n==1
 save "bdd_tax_departments.dta", replace
 generate sortkey = ustrsortkeyex(tax_department,  "fr",-1,2,-1,-1,-1,0,-1)
@@ -768,7 +770,7 @@ merge m:1 tax_department using "bdd_tax_departments.dta"
 drop if _merge==2
 rename tax_department tax_department_origin
 rename tax_department_simpl tax_department
-drop _merge nbr_occurence
+drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping
 
 merge m:1 origin using "bdd_origin.dta"
 drop if _merge==2
