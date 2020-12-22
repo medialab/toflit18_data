@@ -194,11 +194,11 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values = False):
                                     # compute Best guess source type
                                     # best_guess_national_prodxpart
                                     year = normalize_year(line['year']) # republican calendar back to current
-                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires":
+                                    if (line['source_type']=="Objet Général" and year<=1780) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires":
                                         line['best_guess_national_prodxpart'] = 1
                                         best_guess_year_index['best_guess_national_prodxpart'].add(year)
                                     #best_guess_national_product
-                                    if (line['source_type']=="Objet Général" and year<=1786) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
+                                    if (line['source_type']=="Objet Général" and year<=1780) or line['source_type']=="Résumé" or line['source_type']=="National toutes directions tous partenaires" or (line['source_type']=="Tableau des quantités" and year>=1822):
                                         line['best_guess_national_product'] = 1
                                         best_guess_year_index['best_guess_national_product'].add(year)
                                     # best_guess_national_partner

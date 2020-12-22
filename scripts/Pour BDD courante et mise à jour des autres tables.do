@@ -978,7 +978,8 @@ gen best_guess_national_prodxpart = 0
 **Sources qui donnent la répartition du commerce français en valeur par produit et par partenaire
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
-replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
+**1782 ne comprend pas le commerce inter-continental
+replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1780) | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
