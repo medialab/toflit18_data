@@ -15,7 +15,7 @@ use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance 
 keep if source_type=="Local" | source_type=="National toutes tax_departments tous partenaires" ///
 							| source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)
 
-egen absurd_out=max(absurd_value), by(source_type year tax_department export_import)
+egen absurd_out=max(absurd_observation), by(source_type year tax_department export_import)
 drop if absurd_out==1
 bys `classification': drop if _N <=`hapax'
 

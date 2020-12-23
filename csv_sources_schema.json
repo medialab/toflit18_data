@@ -165,21 +165,13 @@
         "description": "Difference between the value in the source and the value computed based on unit prices and quantities (if negative, the value in the source is smaller) -- Différence entre la valeur annoncée du flux et celle calculée à partir du prix unitaire et des quantités (si négatif, la valeur annoncée est plus petite)"
       },
       {
-        "name": "absurd_value",
+        "name": "absurd_observation",
         "type": "string",
         "constraints": {
         	"enum": ["fine", "absurd", "guess"]
         },
-        "description":	"Signals absurd values present in sources (absurd) and guess to replace them (guess) -- Signale des valeurs absurdes présentes dans les sources (absurd) et des propositions de remplacement (guess)"
+        "description":	"Signals absurd observations present in sources (absurd) and guess to replace them (guess) -- Signale des observations absurdes présentes dans les sources (absurd) et des propositions de remplacement (guess)"
       },
-      {
-        "name": "absurd_quantity",
-        "type": "string",
-        "constraints": {
-        	"enum": ["fine", "absurd", "guess"]
-        	},
-        "description":	"Signals absurd quantities present in sources (absurd) and guess to replace them (guess) -- Signale des quantités absurdes dans les source (absurd) et des propositions de remplacement (guess)"
-      },  
       {
         "name": "trade_deficit",
         "type": "number",

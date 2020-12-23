@@ -346,7 +346,7 @@ drop if _merge==2
 
 
  
- drop if absurd_value=="absurd" | absurd_quantity=="absurd"
+ drop if absurd_observation=="absurd"
  
  ************For best guesses
 *use "$dir/Données Stata/bdd courante.dta", replace

@@ -1080,7 +1080,7 @@ save "$dir/Données Stata/bdd courante_avec_out.dta", replace
 
 
 drop if source_type=="Out"
-drop if absurd_value=="absurd" | absurd_quantity=="absurd"
+drop if absurd_observation=="absurd"
 export delimited "$dir_git/base/bdd courante.csv", replace
 
 cd "$dir_git/base/"
