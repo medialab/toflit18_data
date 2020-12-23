@@ -344,29 +344,7 @@ drop if _merge==2
  replace  unit_price_metric=value_per_unit /conv_orthographic_to_simplificat * conv_simplification_to_metric
 
 
- *save "$dir/Données Stata/bdd courante.dta", replace
- 
- /*
- *************Pour les best guess (anciens)
- gen NationalBestGuess=0
- replace NationalBestGuess=1 if (source_type=="National toutes tax_departments tous partenaires" & year==1750) /*
-		*/ | (source_type=="Objet Général" & year >=1754 & year <=1782) /*
-		*/ | (source_type=="Résumé")
-		
- gen LocalBestGuess=0
- replace LocalBestGuess=1 if (source_type=="Local" & year!=1750) /*
-		*/ | (source_type=="National toutes tax_departments tous partenaires" & year==1750)
-		
-save "$dir/Données Stata/bdd courante", replace
- */
- *******************************************************************
- *use "$dir/Données Stata/bdd courante.dta", replace
- 
- /*
- ***Pour valeurs absurdes -- C’est maintenant dans les sources
- do "$dir_git/scripts/To flag values & quantities in error.do"
- */
- *save "$dir/Données Stata/bdd courante.dta", replace
+
  
  drop if absurd_value=="absurd" | absurd_quantity=="absurd"
  
@@ -378,7 +356,7 @@ gen best_guess_national_prodxpart = 0
 **Sources qui donnent la répartition du commerce français en valeur par produit et par partenaire
 **Ancien nom : national_product_best_guess
 **Nouveau nom : best_guess_national_prodxpart
-replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1786) | ///
+replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1780 & year>=1754 | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(best_guess_national_prodxpart), by(year)
 replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
