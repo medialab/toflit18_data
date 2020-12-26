@@ -369,7 +369,7 @@ line_number,source_type,year,tax_department,tax_office,partner,export_import,pro
 368,Local,1732,Nantes,,Espagne,Exports,Tafetas soulas,,,840,,28.5,Pièce,,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,,-840,,,,,,,,,
 369,Local,1732,Nantes,,Espagne,Exports,Tipis,,,400,,23,Pièce,,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,,-400,,,,,,,,,
 370,Local,1732,Nantes,,Espagne,Exports,Toile peinte,,,12630,,421,Pièce,30,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,,0,,,,,,,,,
-371,Local,1732,Nantes,,Espagne,Exports,Toile de Bretagne,,,143176,,225794,Livre,4,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,erreur de calcul,760000,,,,,,,,,
+371,Local,1732,Nantes,,Espagne,Exports,Toile de Bretagne,,,903176,,225794,Livre,4,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,erreur de calcul. Le prix doit bien être 4 lt la livre. Je corrige la valeur 143196 par quantité * prix unitaire.,760000,,,,,,,,,
 372,Local,1732,Nantes,,Espagne,Exports,Vin de champagne,,,1375,,550,Bouteille,2.5,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,Droits sur le vin et le vinaigre 49 sous par tonneau,0,,,,,,,,,
 373,Local,1732,Nantes,,Espagne,Exports,Vin de Frontignan,,,1130,,565,Bouteille,2,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,Droits sur le vin et le vinaigre 49 sous par tonneau,0,,,,,,,,,
 374,Local,1732,Nantes,,Espagne,Exports,Vin de Bordeaux,,,2400,,16,Tonneau,150,sources/Local/AD44_C706_Nantes_Exports_1732.csv,AD44 C706,10,,,,,Anthony Rebours,,Droits sur le vin et le vinaigre 49 sous par tonneau,0,,,,,,,,,
