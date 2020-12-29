@@ -935,6 +935,9 @@ drop if _merge==2
  
  merge m:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
+	
+replace quantity_unit_metric = metric if quantity_unit_metric==""
+drop metric
  
  drop if _merge==2
  drop  remarks_unit-_merge
