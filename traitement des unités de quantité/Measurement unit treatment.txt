@@ -13,5 +13,5 @@ The file "classification_quantityunit_metric1" establishes a link between "quant
 If not, we flag "needs_more_details" which indicate that we cannot know the metric equivalent without using more variables. 
 ## Simplification and Multi-key conversion
 The file "Units_Normalisation_Métrique2" establishes a correspondance between :
-quantity_unit_simplification + product_simplification + product_revolutionemire + exportsimports + tax_department + partner_grouping  with  "quantity_unit_metric" + "conv_simplification_to_metric"
+quantity_unit_simplification + product_simplification + product_revolutionemire + exportsimports + customs_region + partner_grouping  with  "quantity_unit_metric" + "conv_simplification_to_metric"
 

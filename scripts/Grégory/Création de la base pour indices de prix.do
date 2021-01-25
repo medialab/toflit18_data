@@ -9,9 +9,9 @@ use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante.dta", clear
 
 * Sélectionner les variables que l'on veut garder (keep)
 
-keep year tax_department export_import quantity value_unit product_simplification value quantities_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
+keep year customs_region export_import quantity value_unit product_simplification value quantities_metric quantity_unit_ajustees quantity_unit_ortho u_conv q_conv
 sort product_simplification year
-order product_simplification year value_unit quantity quantity_unit_ajustees u_conv q_conv value tax_department export_import
+order product_simplification year value_unit quantity quantity_unit_ajustees u_conv q_conv value customs_region export_import
 label var quantities_metric "Quantités en kg (q_conv)" 
 
 * On supprime les product qui n'ont pas de prix 
@@ -32,7 +32,7 @@ label var quantities_metric "Quantités en kg (q_conv)"
 
 * Calculer la valeur totale échangée par marchandise sur la période
 
-by product_simplification tax_department export_import u_conv, sort: egen valeur_totale_par_marchandise=total(value)	
+by product_simplification customs_region export_import u_conv, sort: egen valeur_totale_par_marchandise=total(value)	
 label var valeur_totale_par_marchandise "Somme variable valeur par march_simpli, dir, expimp, u_conv" 	
 drop if valeur_totale_par_marchandise<=100000
 sort product_simplification year
@@ -47,16 +47,16 @@ label var value_unit_converti "Prix unitaire par marchandise en unité métrique
 * Calcul de la moyenne des prix par année en pondérant en fonction des quantités échangées pour un produit.unitée métrique
 
 *drop if quantities_metric==.
-*by year tax_department export_import u_conv product_simplification, sort: egen quantite_echangee=total(quantities_metric)
+*by year customs_region export_import u_conv product_simplification, sort: egen quantite_echangee=total(quantities_metric)
 *label var quantite_echangee "Quantités métric par dir expimp u_conv march_simpli"
 
 *generate value_unit_pondere=(quantites_metric/quantite_echangee)*value_unit_converti
 *label var value_unit_pondere "Prix de chaque observation en u métrique en % de la quantity échangée totale" 
 
 
-collapse (sum) value quantities_metric,by(year tax_department export_import u_conv product_simplification)
+collapse (sum) value quantities_metric,by(year customs_region export_import u_conv product_simplification)
 
-* by year tax_department export_import u_conv product_simplification, sort: egen prix_pondere_annuel=total(value_unit_pondere)
+* by year customs_region export_import u_conv product_simplification, sort: egen prix_pondere_annuel=total(value_unit_pondere)
 
 
 gen prix_pondere_annuel = value/quantities_metric
@@ -66,7 +66,7 @@ sort product_simplification year
 *drop value_unit_pondere
 
 * Encode panvar (sinon prend trop de temps) 
-gen panvar = product_simplification + export_import + tax_department + u_conv
+gen panvar = product_simplification + export_import + customs_region + u_conv
 encode panvar, gen(panvar_num)
 drop if year>1787 & year<1788
 tsset panvar_num year

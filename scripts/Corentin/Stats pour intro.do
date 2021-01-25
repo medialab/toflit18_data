@@ -22,7 +22,7 @@ save "/Users/Corentin/Desktop/script/test2.dta", replace
 use "/Users/Corentin/Desktop/script/test.dta", clear
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 collapse (sum) value , by(year)
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"

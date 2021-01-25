@@ -1,8 +1,8 @@
 Variable order,Variable names,Variable names in French,Legacy variable names,description de la variable en anglais (texte libre),description de la variable en français (texte libre)
 1,source,source,source ; Source,Source identification,Identification de la source
 2,source_type,type_de_source,sourcetype,Source type (see http://toflit18.medialab.sciences-po.fr/#/exploration/sources),Type de la source (see http://toflit18.medialab.sciences-po.fr/#/exploration/sources)
-3,tax_department,direction_des_fermes,direction,"Geographical tax department in which the trade flow has been registered (""Direction des Fermes"")",Direction des fermes dans laquelle le flux a été enregistré
-4,tax_office,bureaux_des_fermes,bureaux,Geographical tax office in which the trade flow has been registered. A tax office is part of a tax departement.,Bureau des fermes dans lequel le flux a été enregistré
+3,customs_region,direction_des_fermes,direction,"Geographical customs region in which the trade flow has been registered (""Direction des traites"")",Direction des traites dans laquelle le flux a été enregistré
+4,customs_office,bureaux_des_fermes,bureaux,Geographical customs office in which the trade flow has been registered. A customs office is part of a customs region.,Bureau des traites dans lequel le flux a été enregistré
 5,year,annee,Year ; year,Year of the trade flow,Année du flux commercial
 5,export_import,export_import,exportsimports,This variable identifies import or export trade flows,Cette variable indique s'il s'agit d'un flux d'importation ou d'exportation
 6,sheet,page,Sheet ; sheet; ,Page or picture number in the digitized source,Numéro de la page ou de la photo dans la source numérisée

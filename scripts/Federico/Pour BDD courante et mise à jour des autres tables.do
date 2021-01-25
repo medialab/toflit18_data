@@ -23,7 +23,7 @@ foreach file in classification_country_orthographic_normalization classification
 */               orthographic_normalization_classification bdd_product_simplification /*
 */				 /*Units_N1 Units_N2 Units_N3*/  bdd_product_edentreaty bdd_product_NorthAmerica /*
 */				 bdd_product_medicinales bdd_product_hamburg bdd_product_grains /*
-*/ 				 bdd_product_sitc  bdd_tax_departments bdd_product_sitc_FR bdd_product_sitc_EN /* 
+*/ 				 bdd_product_sitc  bdd_customs_regions bdd_product_sitc_FR bdd_product_sitc_EN /* 
 */ 				 Units_Normalisation_Orthographique Units_Normalisation_Metrique1 Units_Normalisation_Metrique2 /*
 */				 bdd_origin	{
 
@@ -249,15 +249,15 @@ export delimited "Units_N1.csv", replace
 
 ******* Direction et origin
 use "bdd_centrale.dta", clear
-merge m:1 tax_department using "bdd_tax_departments.dta"
-keep tax_department tax_department_simpl
-bys tax_department : gen nbr_occurence=_N
-bys tax_department : keep if _n==1
-save "bdd_tax_departments.dta", replace
-generate sortkey = ustrsortkey(tax_department, "fr")
+merge m:1 customs_region using "bdd_customs_regions.dta"
+keep customs_region customs_region_simpl
+bys customs_region : gen nbr_occurence=_N
+bys customs_region : keep if _n==1
+save "bdd_customs_regions.dta", replace
+generate sortkey = ustrsortkey(customs_region, "fr")
 sort sortkey
 drop sortkey
-export delimited bdd_tax_departments.csv, replace
+export delimited bdd_customs_regions.csv, replace
 
 
 use "bdd_centrale.dta", clear
@@ -431,9 +431,9 @@ foreach file_on_simp in bdd_product_sitc bdd_product_edentreaty bdd_product_Nort
 use "bdd_centrale.dta", clear
 
 
-merge m:1 tax_department using "bdd_tax_departments.dta"
-rename tax_department tax_department_origin
-rename tax_department_simpl tax_department
+merge m:1 customs_region using "bdd_customs_regions.dta"
+rename customs_region customs_region_origin
+rename customs_region_simpl customs_region
 drop _merge nbr_occurence
 
 merge m:1 origin using "bdd_origin.dta"
@@ -534,7 +534,7 @@ rename yearnum year
  drop _merge source_bdc nbr_bdc_quantity_unit_ortho nbr_bdc_quantity_unit_ajustees source_hambourg missing need_product
  codebook q_conv
  
- merge m:1 export_import grouping_classification tax_department simplification_classification quantity_unit_ortho ///
+ merge m:1 export_import grouping_classification customs_region simplification_classification quantity_unit_ortho ///
 		using "$dir/Données Stata/Units_Normalisation_Metrique2.dta", update
  drop  remarque_unit-_merge
  codebook q_conv
@@ -549,8 +549,8 @@ export delimited "$dir/Données Stata/bdd courante.csv", replace
 *export delimited "$dir/toflit18_data_GIT/base/bdd courante.csv", replace
 *Il est trop gros pour être envoyé dans le GIT
 
-sort source_type tax_department year export_import line_number 
-order line_number source_type year tax_department partner orthographic_normalization_classification export_import product orthographic_normalization_classification value quantity quantity_unit quantity_unit_ortho value_unit
+sort source_type customs_region year export_import line_number 
+order line_number source_type year customs_region partner orthographic_normalization_classification export_import product orthographic_normalization_classification value quantity quantity_unit quantity_unit_ortho value_unit
 drop if year==.
 
 save "$dir/Données Stata/bdd courante", replace
@@ -561,9 +561,9 @@ save "$dir/Données Stata/bdd courante", replace
 use "$dir/bdd courante", replace 
 
 keep if year=="1750"
-keep if tax_department=="Bordeaux"
+keep if customs_region=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_unit probleme remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import customs_region product partner value quantity quantity_unit value_unit probleme remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 

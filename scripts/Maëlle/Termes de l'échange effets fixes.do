@@ -5,7 +5,7 @@
 
 capture program drop Termes_echange_v3
 program  Termes_echange_v3
-args tax_department X_ou_I 
+args customs_region X_ou_I 
 
 
 clear all
@@ -14,10 +14,10 @@ set matsize 11000
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 
-* keep if tax_department=="La Rochelle"
+* keep if customs_region=="La Rochelle"
 * tsset panvar_num year 
 gen lnPrix=ln(value_unit_converti)
 * encode simplification_classification, gen(simplification_classification_num)
@@ -89,7 +89,7 @@ end
 
 capture program drop Termes_echange_v4
 program  Termes_echange_v4
-args tax_department X_ou_I 
+args customs_region X_ou_I 
 
 
 clear all
@@ -98,10 +98,10 @@ set matsize 11000
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 
-* keep if tax_department=="La Rochelle"
+* keep if customs_region=="La Rochelle"
 * tsset panvar_num year 
 gen lnPrix=ln(value_unit_converti)
 * encode simplification_classification, gen(simplification_classification_num)

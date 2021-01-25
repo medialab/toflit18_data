@@ -26,13 +26,13 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -43,10 +43,10 @@ gen proportiondir = value / totalN * 100
 
 keep if year == 1789
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = proportiondir if tax_department == "`l'"
+	replace `l' = proportiondir if customs_region == "`l'"
     }
 
 set obs 17
@@ -66,21 +66,21 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department export_import)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region export_import)
 
-by year tax_department export_import, sort: gen nvals = _n == 1 
+by year customs_region export_import, sort: gen nvals = _n == 1 
 
-by year tax_department : replace nvals = sum(nvals)
-by year tax_department : replace nvals = nvals[_N]
+by year customs_region : replace nvals = sum(nvals)
+by year customs_region : replace nvals = nvals[_N]
 drop if nvals == 1
 
-collapse (sum) value , by(year tax_department)
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -89,13 +89,13 @@ drop _merge
 
 gen Proportion = value / totalN * 100
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = Proportion if tax_department == "`l'"
+	replace `l' = Proportion if customs_region == "`l'"
     }
 rename year Year
-graph twoway (connected Proportion Year if tax_department == "Bordeaux"  ) (connected Proportion Year if tax_department == "Rouen"  ), legend(label(1 "Bordeaux") label(2 "Rouen"))
+graph twoway (connected Proportion Year if customs_region == "Bordeaux"  ) (connected Proportion Year if customs_region == "Rouen"  ), legend(label(1 "Bordeaux") label(2 "Rouen"))
 */
 */
 ****************** EVOLUTION EXPORTS
@@ -104,17 +104,17 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department export_import)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region export_import)
 
 keep if export_import == "Exports"
 
-collapse (sum) value , by(year tax_department)
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -123,14 +123,14 @@ drop _merge
 
 gen Proportion = value / totalN * 100
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = Proportion if tax_department == "`l'"
+	replace `l' = Proportion if customs_region == "`l'"
     }
 
 rename year Year
-graph twoway (connected Proportion Year if tax_department == "Caen"  )  (connected Proportion Year if tax_department == "Bordeaux"  ) (connected Proportion Year if tax_department == "Rouen"  ) (connected Proportion Year if tax_department == "Bayonne"  ) (connected Proportion Year if tax_department == "Nantes"  ), legend(label(1 "Caen") label(2 "Bordeaux") label(3 "Rouen") label(4 "Bayonne") label(5 "Nantes") )
+graph twoway (connected Proportion Year if customs_region == "Caen"  )  (connected Proportion Year if customs_region == "Bordeaux"  ) (connected Proportion Year if customs_region == "Rouen"  ) (connected Proportion Year if customs_region == "Bayonne"  ) (connected Proportion Year if customs_region == "Nantes"  ), legend(label(1 "Caen") label(2 "Bordeaux") label(3 "Rouen") label(4 "Bayonne") label(5 "Nantes") )
 */
 */
 
@@ -140,17 +140,17 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department export_import)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region export_import)
 
 keep if export_import == "Imports"
 
-collapse (sum) value , by(year tax_department)
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -159,14 +159,14 @@ drop _merge
 
 gen Proportion = value / totalN * 100
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = Proportion if tax_department == "`l'"
+	replace `l' = Proportion if customs_region == "`l'"
     }
 
 rename year Year
-graph twoway (connected Proportion Year if tax_department == "Bordeaux"  ) (connected Proportion Year if tax_department == "Rouen"  ) , legend(label(1 "Bordeaux") label(2 "Rouen") )
+graph twoway (connected Proportion Year if customs_region == "Bordeaux"  ) (connected Proportion Year if customs_region == "Rouen"  ) , legend(label(1 "Bordeaux") label(2 "Rouen") )
 */
 */
 ********* Vin
@@ -176,13 +176,13 @@ keep if edentreaty_classification == "Vin de France"
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -193,10 +193,10 @@ gen proportiondir = value / totalN * 100
 
 keep if year == 1789
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = proportiondir if tax_department == "`l'"
+	replace `l' = proportiondir if customs_region == "`l'"
     }
 
 set obs 17
@@ -219,13 +219,13 @@ keep if edentreaty_classification == "Hardware"
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -236,10 +236,10 @@ gen proportiondir = value / totalN * 100
 
 keep if year == 1789
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = proportiondir if tax_department == "`l'"
+	replace `l' = proportiondir if customs_region == "`l'"
     }
 
 set obs 17
@@ -262,13 +262,13 @@ keep if edentreaty_classification == "Coton de toute espèce"
 
 
 set more off
-keep if source_type == "National par tax_department"  | source_type == "Local"
+keep if source_type == "National par customs_region"  | source_type == "Local"
 
-replace tax_department = "La_Rochelle" if tax_department == "La Rochelle"
-replace tax_department = "Saint-Malo" if tax_department == "Saint Malo"
-replace tax_department = "Saint_Malo" if tax_department == "Saint-Malo"
-replace tax_department = "Passeport_du_roy" if tax_department == "Passeport du roy"
-collapse (sum) value , by(year tax_department)
+replace customs_region = "La_Rochelle" if customs_region == "La Rochelle"
+replace customs_region = "Saint-Malo" if customs_region == "Saint Malo"
+replace customs_region = "Saint_Malo" if customs_region == "Saint-Malo"
+replace customs_region = "Passeport_du_roy" if customs_region == "Passeport du roy"
+collapse (sum) value , by(year customs_region)
 
 
 merge m:1 year using "/Users/Corentin/Desktop/script/test2.dta"
@@ -279,10 +279,10 @@ gen proportiondir = value / totalN * 100
 
 keep if year == 1789
 
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = proportiondir if tax_department == "`l'"
+	replace `l' = proportiondir if customs_region == "`l'"
     }
 
 set obs 17
@@ -347,10 +347,10 @@ use "/Users/Corentin/Desktop/script/test.dta", clear
 	
 ********* only local
 /*
-levelsof tax_department, local(levels)
+levelsof customs_region, local(levels)
 	foreach l of local levels {
 	gen `l' = .
-	replace `l' = value if tax_department == "`l'"
+	replace `l' = value if customs_region == "`l'"
     }
 keep if year == 1789
 

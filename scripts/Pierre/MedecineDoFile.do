@@ -48,9 +48,9 @@ use "Données Stata/bdd courante with medecine.dta", clear
 	drop if(year==1787&source_type=="Résumé")
 	drop if(year==1788&source_type=="Résumé")
 	sort year
-	collapse (sum) value_as_reported, by(year tax_department source_type)
+	collapse (sum) value_as_reported, by(year customs_region source_type)
 	rename value_as_reported ImpTotal_Med
-	sort year tax_department
+	sort year customs_region
 	save "Données Stata/ImpTotal_Med.dta", replace
 
 	
@@ -61,16 +61,16 @@ use "Données Stata/bdd courante with medecine.dta", clear
 	drop if(year==1787&source_type=="Résumé")
 	drop if(year==1788&source_type=="Résumé")
 	sort year
-	collapse (sum) value_as_reported, by(year tax_department source_type)
+	collapse (sum) value_as_reported, by(year customs_region source_type)
 	rename value_as_reported ExpTotal_Med
-	sort year tax_department
+	sort year customs_region
 	save "Données Stata/ExpTotal_Med.dta", replace
 
 	use "Données Stata/ImpTotal_Med.dta", clear
-	merge m:m year tax_department using "Données Stata/ExpTotal_Med.dta"
+	merge m:m year customs_region using "Données Stata/ExpTotal_Med.dta"
 	drop _merge
 
-	encode tax_department, gen(tax_department_enc)
+	encode customs_region, gen(customs_region_enc)
 	
 	gen ln_ImpTotal_Med=ln(ImpTotal_Med)
 	gen ln_ExpTotal_Med=ln(ExpTotal_Med)
@@ -79,9 +79,9 @@ use "Données Stata/bdd courante with medecine.dta", clear
 
 			use "Données Stata/bdd_Import_Export.dta", clear
 			set more off
-			regress ln_ImpTotal_Med i.year i.tax_department_enc
+			regress ln_ImpTotal_Med i.year i.customs_region_enc
 			predict predicted_lnImpTotal_Med
-			reg predicted_lnImpTotal_Med year i.tax_department_enc
+			reg predicted_lnImpTotal_Med year i.customs_region_enc
 			
 			
 			

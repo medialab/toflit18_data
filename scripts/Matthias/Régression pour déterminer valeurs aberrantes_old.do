@@ -9,8 +9,8 @@
  drop if source_type=="Divers - in"
  drop if source_type=="Local"
  drop if source_type=="Tableau Général"
- bysort grouping_classification export_import year simplification_classification: egen somme_tax_departments=sum(value)
- collapse (sum) value, by(year simplification_classification grouping_classification export_import somme_tax_departments)
+ bysort grouping_classification export_import year simplification_classification: egen somme_customs_regions=sum(value)
+ collapse (sum) value, by(year simplification_classification grouping_classification export_import somme_customs_regions)
  gen lnValue=ln(value)
  encode simplification_classification, gen(simplification_classification_num)
  bysort simplification_classification_num: drop if _N<=10

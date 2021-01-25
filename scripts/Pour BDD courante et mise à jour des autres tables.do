@@ -30,7 +30,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 /*Units_N1 Units_N2 Units_N3*/  classification_product_edentreaty classification_product_canada /*
 */				 classification_product_medicinales classification_product_hamburg classification_product_grains /*
 */ 				 classification_product_sitc  classification_product_coffee classification_product_porcelaine /*
-*/				 bdd_tax_departments classification_product_sitc_FR classification_product_sitc_EN /*
+*/				 bdd_customs_regions classification_product_sitc_FR classification_product_sitc_EN /*
 */				 classification_product_sitc_simplEN /* 
 */ 				 classification_quantityunit_orthographic classification_quantityunit_simplification /*
 */				 classification_quantityunit_metric1 classification_quantityunit_metric2 /*
@@ -359,17 +359,17 @@ export delimited "$dir_git/base/Units_N1.csv", replace
 
 ******* Direction et origin
 use "bdd_centrale.dta", clear
-merge m:1 tax_department using "bdd_tax_departments.dta"
-keep tax_department tax_department_simpl tax_department_grouping
-bys tax_department : gen nbr_occurence=_N
-bys tax_department_simpl : gen nbr_occurence_simpl=_N
-bys tax_department_grouping : gen nbr_occurence_grouping=_N
-bys tax_department : keep if _n==1
-save "bdd_tax_departments.dta", replace
-generate sortkey = ustrsortkeyex(tax_department,  "fr",-1,2,-1,-1,-1,0,-1)
+merge m:1 customs_region using "bdd_customs_regions.dta"
+keep customs_region customs_region_simpl customs_region_grouping
+bys customs_region : gen nbr_occurence=_N
+bys customs_region_simpl : gen nbr_occurence_simpl=_N
+bys customs_region_grouping : gen nbr_occurence_grouping=_N
+bys customs_region : keep if _n==1
+save "bdd_customs_regions.dta", replace
+generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
-export delimited "$dir_git/base/bdd_tax_departments.csv", replace
+export delimited "$dir_git/base/bdd_customs_regions.csv", replace
 
 
 use "bdd_centrale.dta", clear
@@ -766,10 +766,10 @@ foreach file_on_RE in RE_aggregate threesectors threesectorsM {
 use "bdd_centrale.dta", clear
 
 
-merge m:1 tax_department using "bdd_tax_departments.dta"
+merge m:1 customs_region using "bdd_customs_regions.dta"
 drop if _merge==2
-rename tax_department tax_department_origin
-rename tax_department_simpl tax_department
+rename customs_region customs_region_origin
+rename customs_region_simpl customs_region
 drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping
 
 merge m:1 origin using "bdd_origin.dta"
@@ -915,16 +915,16 @@ rename metric quantity_unit_metric
 save "$dir/Données Stata/bdd courante_temp.dta", replace
 keep if needs_more_details=="1"
 
-keep export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification
-bys export_import partner_grouping tax_department product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
+keep export_import partner_grouping customs_region product_simplification product_revolutionempire quantity_unit_simplification
+bys export_import partner_grouping customs_region product_simplification product_revolutionempire quantity_unit_simplification: keep if _n==1
 rename quantity_unit_simplification simplification
-merge 1:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
+merge 1:1 export_import partner_grouping customs_region product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta"
 drop if _merge==2
 	
  drop _merge
- sort simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
- order simplification product_simplification product_revolutionempire export_import tax_department partner_grouping
+ sort simplification product_simplification product_revolutionempire export_import customs_region partner_grouping
+ order simplification product_simplification product_revolutionempire export_import customs_region partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir_git/base/classification_quantityunit_metric2.csv", replace
  
@@ -933,7 +933,7 @@ drop if _merge==2
  
  rename quantity_unit_simplification simplification 
  
- merge m:1 export_import partner_grouping tax_department product_simplification product_revolutionempire simplification ///
+ merge m:1 export_import partner_grouping customs_region product_simplification product_revolutionempire simplification ///
 	using "$dir/Données Stata/classification_quantityunit_metric2.dta", update
 	
 replace quantity_unit_metric = metric if quantity_unit_metric==""
@@ -953,13 +953,13 @@ drop metric
  /*
  *************Pour les best guess (anciens)
  gen NationalBestGuess=0
- replace NationalBestGuess=1 if (source_type=="National toutes tax_departments tous partenaires" & year==1750) /*
+ replace NationalBestGuess=1 if (source_type=="National toutes customs_regions tous partenaires" & year==1750) /*
 		*/ | (source_type=="Objet Général" & year >=1754 & year <=1782) /*
 		*/ | (source_type=="Résumé")
 		
  gen LocalBestGuess=0
  replace LocalBestGuess=1 if (source_type=="Local" & year!=1750) /*
-		*/ | (source_type=="National toutes tax_departments tous partenaires" & year==1750)
+		*/ | (source_type=="National toutes customs_regions tous partenaires" & year==1750)
 		
 save "$dir/Données Stata/bdd courante", replace
  */
@@ -985,7 +985,7 @@ gen best_guess_national_prodxpart = 0
 replace best_guess_national_prodxpart = 1 if (source_type=="Objet Général" & year<=1780  & year>=1754) | ///
 		(source_type=="Résumé") | source_type=="National toutes directions tous partenaires" 
 egen year_CN = max(best_guess_national_prodxpart), by(year)
-replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & tax_department=="France par la Compagnie des Indes"
+replace best_guess_national_prodxpart=1 if year_CN == 1 & source_type=="Compagnie des Indes" & customs_region=="France par la Compagnie des Indes"
 drop year_CN
 
 capture drop best_guess_national_partner
@@ -1003,26 +1003,26 @@ gen best_guess_national_product = 0
 replace best_guess_national_product = 1 if best_guess_national_prodxpart == 1 | (source_type=="Tableau des quantités" & (year==1822|year==1823))
 
 
-capture drop best_guess_department_prodxpart
+capture drop best_guess_region_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
 **Ancien nom local_product_best_guess
-**Nouveau nom best_guess_department_prodxpart
-gen best_guess_department_prodxpart=0
-replace best_guess_department_prodxpart= 1 if (source_type=="Local" & year !=1750) | ///
+**Nouveau nom best_guess_region_prodxpart
+gen best_guess_region_prodxpart=0
+replace best_guess_region_prodxpart= 1 if (source_type=="Local" & year !=1750) | ///
 		(source_type== "National toutes directions tous partenaires" & year == 1750)
-replace best_guess_department_prodxpart= 0 if tax_department=="Rouen" & export_import=="Imports" & ///
+replace best_guess_region_prodxpart= 0 if customs_region=="Rouen" & export_import=="Imports" & ///
 		(year==1737| (year>= 1739 & year<=1749) | year==1754 | (year>=1756 & year <=1762))
 
-capture drop best_guess_national_department
+capture drop best_guess_national_region
 **Sources qui permettent de comparer le commerce des départements de fermes entre eux en valeur, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
 **Ancien nom local_geography_best_guess
-**Nouveau nom best_guess_national_department
-gen best_guess_national_department=0
-replace best_guess_national_department = 1 if source_type=="National toutes directions sans produits" | ///
+**Nouveau nom best_guess_national_region
+gen best_guess_national_region=0
+replace best_guess_national_region = 1 if source_type=="National toutes directions sans produits" | ///
 		(source_type== "National toutes directions tous partenaires")
-replace best_guess_national_department = 1 if source_type=="National toutes directions partenaires manquants"
-egen year_CN = max(best_guess_national_department), by(year)
-replace best_guess_national_department=1 if year_CN == 1 & source_type=="Local"
+replace best_guess_national_region = 1 if source_type=="National toutes directions partenaires manquants"
+egen year_CN = max(best_guess_national_region), by(year)
+replace best_guess_national_region=1 if year_CN == 1 & source_type=="Local"
 drop year_CN
 
 *save "$dir/Données Stata/bdd courante", replace
@@ -1069,8 +1069,8 @@ gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
  missings dropobs, force
  missings dropvars, force
  
-sort source_type tax_department year export_import line_number 
-order line_number source_type year tax_department partner partner_orthographic export_import ///
+sort source_type customs_region year export_import line_number 
+order line_number source_type year customs_region partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
  
  
@@ -1097,9 +1097,9 @@ save "$dir/Données Stata/bdd courante.dta", replace
 use "$dir/bdd courante", replace 
 
 keep if year=="1750"
-keep if tax_department=="Bordeaux"
+keep if customs_region=="Bordeaux"
 keep if export_import=="Imports"
-keep source source_type year export_import tax_department product partner value quantity quantity_unit value_per_unit value_minus_unit_val_x_qty remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
+keep source source_type year export_import customs_region product partner value quantity quantity_unit value_per_unit value_minus_unit_val_x_qty remarks quantit_unit partner_corriges product_normalisees value_calcul prix_calcul
 sort product partner
 
 

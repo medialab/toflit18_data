@@ -6,18 +6,18 @@
 
 capture program drop Termes_echange_v1
 program  Termes_echange_v1
-args tax_department X_ou_I
+args customs_region X_ou_I
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite.dta", clear
 
-* On garde une observation par marchandise, année, tax_department et exports ou imports
-bysort year product_simplification export_import tax_department u_conv: keep if _n==1
+* On garde une observation par marchandise, année, customs_region et exports ou imports
+bysort year product_simplification export_import customs_region u_conv: keep if _n==1
 sort year product_simplification
 
 * Choix d'un port 
-* keep if tax_department=="La Rochelle"
+* keep if customs_region=="La Rochelle"
 * keep if export_import=="Imports"
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 
 * Calcul des p0 et q0 en prenant en compte les product présentes d'une année sur l'autre
@@ -122,18 +122,18 @@ save "C:\Users\gdonnat\Documents\TOFLIT18\bdd_Direction_Imports.dta", replace
 
 capture program drop Termes_echange_v2
 program  Termes_echange_v2
-args tax_department X_ou_I
+args customs_region X_ou_I
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite.dta", clear
 
-* On garde une observation par marchandise, année, tax_department et exports ou imports
-bysort year product_simplification export_import tax_department u_conv: keep if _n==1
+* On garde une observation par marchandise, année, customs_region et exports ou imports
+bysort year product_simplification export_import customs_region u_conv: keep if _n==1
 sort year product_simplification
 
 * Choix d'un port 
-* keep if tax_department=="La Rochelle"
+* keep if customs_region=="La Rochelle"
 * keep if export_import=="Exports"
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 
 * Calcul des p0 et q0 en prenant en compte les product présentes d'une année sur l'autre

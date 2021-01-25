@@ -83,14 +83,14 @@ drop if value==0
 
 ***garder quand on a le commerce national complet ou les flux locaux complets
 ****Je garde 1789 (pour du local) car il ne manque que le commerce avec les Indes.
-keep if best_guess_national_prodxpart==1 | best_guess_department_prodxpart==1 | (year==1789 & source_type=="National toutes directions partenaires manquants")
-drop if tax_department =="Colonies Françaises de l'Amérique"
+keep if best_guess_national_prodxpart==1 | best_guess_region_prodxpart==1 | (year==1789 & source_type=="National toutes directions partenaires manquants")
+drop if customs_region =="Colonies Françaises de l'Amérique"
 
 
 
 
 *create national and local
-gen natlocal=tax_department
+gen natlocal=customs_region
 
 **Pour traiter 1750, qui a à la fois du local et du national. Du coup, on le met 2 fois
 save temp.dta, replace

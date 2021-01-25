@@ -2,7 +2,7 @@
 ***** PREPARATION NATIONAL *****
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
 
-keep product grouping_classification tax_department edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
+keep product grouping_classification customs_region edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
 
 	keep if source_type == "Objet Général" | source_type == "Résumé" 
 
@@ -24,7 +24,7 @@ save "/Users/Corentin/Desktop/script/test2Totale.dta", replace
 **********
 
 use "/Users/Corentin/Desktop/script/Base_Eden_Mesure_Totale.dta", clear
-keep product grouping_classification tax_department edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
+keep product grouping_classification customs_region edentreaty_classification export_import orthographic_normalization_classification simplification_classification q_conv  quantity quantites_metric  quantitépourlesdroits quantity_unit quantity_unit_ajustees quantity_unit_orthographe sitc_classification filepath source_type u_conv  unitépourlesdroits value year
 
 
 ***** NATIONAL

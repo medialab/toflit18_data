@@ -11,7 +11,7 @@ keep if year==1787 | year==1788 | year ==1789
 tab source_type year
 
 
-keep if source_type=="National par tax_department" | source_type=="Objet Général"
+keep if source_type=="National par customs_region" | source_type=="Objet Général"
 
 drop if u_conv=="pièces" | u_conv=="unité manquante"
 gen unit_price_kg=0

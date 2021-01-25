@@ -15,7 +15,7 @@ replace geography=22 if generalites_encode==27
 
 drop if geography==0
 
-merge 1:1 geography year using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\importandexport_fourtax_departments.dta" 
+merge 1:1 geography year using "C:\Users\federico.donofrio\Documents\TOFLIT desktop\importandexport_fourcustoms_regions.dta" 
 drop if _merge!=3
 drop _merge
 xtset geography year

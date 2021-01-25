@@ -15,17 +15,17 @@ replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode tax_department, generate(geography) label(tax_department)
+encode customs_region, generate(geography) label(customs_region)
 
 ***Regions
 generate region="KO"
-replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
-replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
-replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
-replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
-replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
-replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
-replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
+replace region="NE" if customs_region=="Amiens" | customs_region=="Dunkerque"| customs_region=="Saint-Quentin" | customs_region=="Châlons" | customs_region=="Langres" | customs_region=="Flandre"  
+replace region="N" if customs_region=="Caen" | customs_region=="Rouen" | customs_region=="Le Havre"
+replace region="NW" if customs_region=="Rennes" | customs_region=="Lorient" | customs_region=="Nantes" | customs_region=="Saint-Malo"
+replace region="SW" if customs_region=="La Rochelle" | customs_region=="Bordeaux" | customs_region=="Bayonne" 
+replace region="S" if customs_region=="Marseille" | customs_region=="Toulon" | customs_region=="Narbonne" | customs_region=="Montpellier"
+replace region="SE" if customs_region=="Grenoble" | customs_region=="Lyon" 
+replace region="E" if customs_region=="Besancon" | customs_region=="Bourgogne"| customs_region=="Charleville"
 replace partner_grouping="unknown" if partner_grouping=="????"
 replace partner_grouping="Flandre" if partner_grouping=="Flandre et autres états de l'Empereur"
 replace partner_grouping="Levant" if partner_grouping=="Levant et Barbarie"
@@ -60,7 +60,7 @@ drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes customs_regions partenaires manquants"
 sort year importexport value_inclusive geography grains_num partner_grouping partner_simplification
 quietly by year importexport value_inclusive geography grains_num partner_grouping partner_simplification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 
@@ -105,17 +105,17 @@ replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode tax_department, generate(geography) label(tax_department)
+encode customs_region, generate(geography) label(customs_region)
 
 ***Regions
 generate region="KO"
-replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
-replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
-replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
-replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
-replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
-replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
-replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
+replace region="NE" if customs_region=="Amiens" | customs_region=="Dunkerque"| customs_region=="Saint-Quentin" | customs_region=="Châlons" | customs_region=="Langres" | customs_region=="Flandre"  
+replace region="N" if customs_region=="Caen" | customs_region=="Rouen" | customs_region=="Le Havre"
+replace region="NW" if customs_region=="Rennes" | customs_region=="Lorient" | customs_region=="Nantes" | customs_region=="Saint-Malo"
+replace region="SW" if customs_region=="La Rochelle" | customs_region=="Bordeaux" | customs_region=="Bayonne" 
+replace region="S" if customs_region=="Marseille" | customs_region=="Toulon" | customs_region=="Narbonne" | customs_region=="Montpellier"
+replace region="SE" if customs_region=="Grenoble" | customs_region=="Lyon" 
+replace region="E" if customs_region=="Besancon" | customs_region=="Bourgogne"| customs_region=="Charleville"
 replace partner_grouping="unknown" if partner_grouping=="????"
 replace partner_grouping="Flandre" if partner_grouping=="Flandre et autres états de l'Empereur"
 replace partner_grouping="Levant" if partner_grouping=="Levant et Barbarie"
@@ -150,7 +150,7 @@ drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes customs_regions partenaires manquants"
 sort year importexport value_inclusive geography grains_num partner_grouping partner_simplification
 quietly by year importexport value_inclusive geography grains_num partner_grouping partner_simplification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 
@@ -201,17 +201,17 @@ replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=
 drop if value_inclusive==.
 drop if value_inclusive==0
 
-encode tax_department, generate(geography) label(tax_department)
+encode customs_region, generate(geography) label(customs_region)
 
 ***Regions
 generate region="KO"
-replace region="NE" if tax_department=="Amiens" | tax_department=="Dunkerque"| tax_department=="Saint-Quentin" | tax_department=="Châlons" | tax_department=="Langres" | tax_department=="Flandre"  
-replace region="N" if tax_department=="Caen" | tax_department=="Rouen" | tax_department=="Le Havre"
-replace region="NW" if tax_department=="Rennes" | tax_department=="Lorient" | tax_department=="Nantes" | tax_department=="Saint-Malo"
-replace region="SW" if tax_department=="La Rochelle" | tax_department=="Bordeaux" | tax_department=="Bayonne" 
-replace region="S" if tax_department=="Marseille" | tax_department=="Toulon" | tax_department=="Narbonne" | tax_department=="Montpellier"
-replace region="SE" if tax_department=="Grenoble" | tax_department=="Lyon" 
-replace region="E" if tax_department=="Besancon" | tax_department=="Bourgogne"| tax_department=="Charleville"
+replace region="NE" if customs_region=="Amiens" | customs_region=="Dunkerque"| customs_region=="Saint-Quentin" | customs_region=="Châlons" | customs_region=="Langres" | customs_region=="Flandre"  
+replace region="N" if customs_region=="Caen" | customs_region=="Rouen" | customs_region=="Le Havre"
+replace region="NW" if customs_region=="Rennes" | customs_region=="Lorient" | customs_region=="Nantes" | customs_region=="Saint-Malo"
+replace region="SW" if customs_region=="La Rochelle" | customs_region=="Bordeaux" | customs_region=="Bayonne" 
+replace region="S" if customs_region=="Marseille" | customs_region=="Toulon" | customs_region=="Narbonne" | customs_region=="Montpellier"
+replace region="SE" if customs_region=="Grenoble" | customs_region=="Lyon" 
+replace region="E" if customs_region=="Besancon" | customs_region=="Bourgogne"| customs_region=="Charleville"
 replace partner_grouping="unknown" if partner_grouping=="????"
 replace partner_grouping="Flandre" if partner_grouping=="Flandre et autres états de l'Empereur"
 replace partner_grouping="Levant" if partner_grouping=="Levant et Barbarie"
@@ -246,7 +246,7 @@ drop if source_type=="Résumé"  & year==1788
 
 
 
-*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes tax_departments partenaires manquants"
+*adjust 1749, 1751, 1777, 1789 and double accounting in order to keep only single values from series "Local" and "National toutes customs_regions partenaires manquants"
 sort year importexport value_inclusive geography grains_num partner_grouping partner_simplification
 quietly by year importexport value_inclusive geography grains_num partner_grouping partner_simplification:  gen dup = cond(_N==1,0,_n)
 *drop if dup>1 

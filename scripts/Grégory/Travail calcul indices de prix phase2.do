@@ -4,20 +4,20 @@
 
 capture program drop Indice_chaine_v2
 program  Indice_chaine_v2
-args tax_department X_ou_I year_debut year_fin
+args customs_region X_ou_I year_debut year_fin
 
 use "C:\Users\gdonnat\Documents\TOFLIT18\bdd_courante_reduite.dta", clear
 *if "`c(username)'"=="maellestricot"  use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 *if "`c(username)'"=="guillaumedaudin" use "~/Documents/Recherche/TOFLIT18/Indices de prix - travail Maëlle Stricot/bdd courante reduite2.dta", clear
 
 
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 drop if year<`year_debut'
 drop if year>`year_fin'
 
-* CADUC On garde une observation par marchandise, année, tax_department et exports ou imports
-*bysort year simplification_classification export_import tax_department u_conv: keep if _n==1
+* CADUC On garde une observation par marchandise, année, customs_region et exports ou imports
+*bysort year simplification_classification export_import customs_region u_conv: keep if _n==1
 *sort year simplification_classification
 
 
@@ -31,7 +31,7 @@ sort product_simplification year
 
 * NOUVEAU PROGRAMME DE CALCULS D'INDICES (6 product dans l'exemple)
 
-*local tax_department La Rochelle
+*local customs_region La Rochelle
 *local X_ou_I Imports 
 *local year_debut 1760
 
@@ -210,7 +210,7 @@ drop sum_logvaleur
 twoway connected indice_fisherP_chaine year, lpattern(l) xtitle() ytitle() yaxis(2) ///
  || connected indice_fisherQ_chaine year, lpattern(_) ///
  || connected indice_valeur_chaine year, lpattern(_) ///
- , title("`tax_department'--`X_ou_I' à partir de `year_debut'") name(graphindices, replace)
+ , title("`customs_region'--`X_ou_I' à partir de `year_debut'") name(graphindices, replace)
 
 twoway bar somme_annee year, fcolor(gs15) xtitle() ytitle() title(Nombre de produits par année) name(graphproduct, replace)
 * || bar somme_annee year scale (0.2) ///

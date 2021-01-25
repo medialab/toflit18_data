@@ -20,7 +20,7 @@ replace value_inclusive=value_unit*quantity if value_inclusive==. & value_unit!=
 drop if value_inclusive==.
 
 
-encode tax_department, generate(geography) label(tax_department)
+encode customs_region, generate(geography) label(customs_region)
 
 *** isolate grains
 **destring somehow

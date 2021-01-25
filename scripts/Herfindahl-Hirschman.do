@@ -12,10 +12,10 @@ args classification hapax type
 
 use "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante.dta", clear
 
-keep if source_type=="Local" | source_type=="National toutes tax_departments tous partenaires" ///
+keep if source_type=="Local" | source_type=="National toutes customs_regions tous partenaires" ///
 							| source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)
 
-egen absurd_out=max(absurd_observation), by(source_type year tax_department export_import)
+egen absurd_out=max(absurd_observation), by(source_type year customs_region export_import)
 drop if absurd_out==1
 bys `classification': drop if _N <=`hapax'
 
@@ -31,15 +31,15 @@ if "`classification'"=="sitc_classification" local title = "SITC18"
 if "`classification'"=="goods_ortho_classification" local title = "Orthographic normalization - H`hapax'" 
 
 if "`type'"=="temp" {
-collapse (sum) value, by(source_type year tax_department export_import `classification') 
-egen prop = pc(value), by(source_type year tax_department export_import) prop
-egen HHI = total(prop^2), by(source_type year tax_department export_import)
+collapse (sum) value, by(source_type year customs_region export_import `classification') 
+egen prop = pc(value), by(source_type year customs_region export_import) prop
+egen HHI = total(prop^2), by(source_type year customs_region export_import)
 
 foreach dir in "La Rochelle" Bordeaux Nantes Marseille Rouen Bayonne Rennes  {
 		local graph_name = subinstr("`dir'"," ","_",.)
 
-		twoway  (connected  HHI year if tax_department=="`dir'" & source_type=="Local" & export_import=="Imports",msize(small) msymbol(circle)) ///
-				(connected  HHI year if tax_department=="`dir'" & source_type=="Local" & export_import=="Exports",msize(small) msymbol(diamond)) ///
+		twoway  (connected  HHI year if customs_region=="`dir'" & source_type=="Local" & export_import=="Imports",msize(small) msymbol(circle)) ///
+				(connected  HHI year if customs_region=="`dir'" & source_type=="Local" & export_import=="Exports",msize(small) msymbol(diamond)) ///
 				,legend(order( ///
 							1 "`dir' - Imports" 2 "`dir' - Exports" ///
 				)) ///
@@ -63,8 +63,8 @@ if "`type'"=="temp" {
 	egen HHI = total(prop^2), by(source_type year export_import)
 
 sort year
-	twoway  (connected  HHI year if (source_type=="National toutes tax_departments tous partenaires" | source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)) & export_import=="Imports",msize(small) msymbol(circle)) ///
-			(connected  HHI year if (source_type=="National toutes tax_departments tous partenaires" | source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)) & export_import=="Exports",msize(small) msymbol(diamond)) ///
+	twoway  (connected  HHI year if (source_type=="National toutes customs_regions tous partenaires" | source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)) & export_import=="Imports",msize(small) msymbol(circle)) ///
+			(connected  HHI year if (source_type=="National toutes customs_regions tous partenaires" | source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)) & export_import=="Exports",msize(small) msymbol(diamond)) ///
 			,legend(order( ///
 			1 "National - Imports" 2 "National - Exports" ///
 			)) ///
@@ -82,32 +82,32 @@ sort year
 
 if "`type'"=="cross" {
 	preserve
-	drop if tax_department==""
-	collapse (sum) value, by(year tax_department export_import `classification')
-	egen prop = pc(value), by(year tax_department export_import) prop
-	egen HHI = total(prop^2), by(year tax_department export_import)
-	collapse (mean) HHI, by(tax_department export_import)
+	drop if customs_region==""
+	collapse (sum) value, by(year customs_region export_import `classification')
+	egen prop = pc(value), by(year customs_region export_import) prop
+	egen HHI = total(prop^2), by(year customs_region export_import)
+	collapse (mean) HHI, by(customs_region export_import)
 	save "$dir/temp.dta", replace
 	restore
 	
 	
-	keep if source_type=="National toutes tax_departments tous partenaires" ///
+	keep if source_type=="National toutes customs_regions tous partenaires" ///
 		  |source_type=="Objet Général" | (source_type=="Résumé" & year!=1788)
 	collapse (sum) value, by (year export_import `classification')
 	egen prop = pc(value), by (year export_import) prop
 	egen HHI = total(prop^2), by (year export_import)
 	collapse (mean) HHI, by(export_import)
-	gen tax_department="National"
+	gen customs_region="National"
 	
 	append using "$dir/temp.dta"
 	erase "$dir/temp.dta"
 	
-	reshape wide HHI,i(tax_department) j(export_import) string
+	reshape wide HHI,i(customs_region) j(export_import) string
 	gen HHIMoy=HHIImports+HHIExports
 	sort HHIMoy
 	gen order=_n
 	graph hbar (asis) HHIExports HHIImports, ///
-		aspectratio(1, placement(1)) over(tax_department, sort(order) label(angle(horizontal))) ///
+		aspectratio(1, placement(1)) over(customs_region, sort(order) label(angle(horizontal))) ///
 		legend(placement(4)) title("mean HHI - `title'")
 		
 	graph export "$dir/graphiques/HHI_Cross_`classification'_H`hapax'.pdf", replace

@@ -22,7 +22,7 @@ if "`geographie'"=="France" {
 }
 
 if "`geographie'" !="France" {
-	keep if LocalBestGuess==1 & strmatch(tax_department,"*`geographie'*")==1
+	keep if LocalBestGuess==1 & strmatch(customs_region,"*`geographie'*")==1
 	gen geographie="`geographie'"
 	merge m:1 geographie export_import year using "~/Dropbox/Partage GD-LC/2019 Colloque Haut de gamme Bercy/Pour_echantillon_luxe.dta"/*
 	*/, keep(3)

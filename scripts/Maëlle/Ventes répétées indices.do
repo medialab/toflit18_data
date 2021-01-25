@@ -1,7 +1,7 @@
 
 capture program drop Indice_v3
 program  Indice_v3
-args tax_department X_ou_I year_debut
+args customs_region X_ou_I year_debut
 
 
 clear all
@@ -10,11 +10,11 @@ set matsize 11000
 
 use "/Users/maellestricot/Documents/STATA MAC/bdd courante reduite2.dta", clear
 
-if "`tax_department'" !="France" keep if tax_department=="`tax_department'" 
+if "`customs_region'" !="France" keep if customs_region=="`customs_region'" 
 keep if export_import=="`X_ou_I'"
 drop if year<`year_debut'
 
-* keep if tax_department=="La Rochelle"
+* keep if customs_region=="La Rochelle"
 * tsset panvar_num year 
 gen lnPrix=ln(value_unit_converti)
 * encode simplification_classification, gen(simplification_classification_num)
@@ -74,7 +74,7 @@ gen borne_sup=exp(effet_fixe+1.96*ecart_type)
 
 twoway line exp_effet_fixe year, yaxis(2) ///
 	|| line indice_valeur year, yaxis(1) ///
-, title(" Evolution des indices de prix et de valeur à `tax_department'--`X_ou_I'")
+, title(" Evolution des indices de prix et de valeur à `customs_region'--`X_ou_I'")
 
 end
 

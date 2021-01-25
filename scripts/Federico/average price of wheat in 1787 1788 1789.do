@@ -11,7 +11,7 @@ keep if year==1787 | year==1788 | year ==1789
 tab source_type year
 
 
-keep if source_type=="National par tax_department" | source_type=="Objet Général"
+keep if source_type=="National par customs_region" | source_type=="Objet Général"
 
 drop if u_conv=="pièces" | u_conv=="unité manquante"
 gen unit_price_kg=0
@@ -68,7 +68,7 @@ keep if year==1787 | year==1788 | year ==1789
 tab source_type year
 
 
-keep if source_type=="National par tax_department" | source_type=="Objet Général"
+keep if source_type=="National par customs_region" | source_type=="Objet Général"
 
 summarize value
 collapse(sum)value, by (year grains export_import)
@@ -81,7 +81,7 @@ bys year grains : gen pnetexport=valueExports-valueImports
 *** compute basket price for grains 1 and 2
 use "C:\Users\federico.donofrio\Documents\GitHub\Données Stata\bdd courante.dta", clear
 keep if year==1787 | year==1788 | year ==1789
-keep if source_type=="National par tax_department" | source_type=="Objet Général"
+keep if source_type=="National par customs_region" | source_type=="Objet Général"
 keep if grains=="Froment (1)" | grains=="Céréales inférieures (2)"
 bys year : egen totalq=sum(quantites_metric)
 bys year : egen totalp=sum(value)
@@ -101,7 +101,7 @@ keep if year==1787 | year==1788 | year ==1789
 tab source_type year
 
 
-keep if source_type=="National par tax_department" | source_type=="Objet Général"
+keep if source_type=="National par customs_region" | source_type=="Objet Général"
 keep if grains=="Froment (1)" | grains=="Céréales inférieures (2)"
 
 summarize value

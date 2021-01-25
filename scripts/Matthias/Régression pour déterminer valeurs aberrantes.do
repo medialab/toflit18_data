@@ -81,12 +81,12 @@ sort year export_import goods_simpl_classification grouping_classification
  
 keep year export_import goods_simpl_classification grouping_classification ///
 			value somme_value  somme_value_predExp somme_value_predImp ///
-			tax_department ///
+			customs_region ///
 			line_number filepath sheet product partner ///
 
 order year export_import goods_simpl_classification grouping_classification ///
 			value somme_value  somme_value_predExp somme_value_predImp ///
-			tax_department ///
+			customs_region ///
 			line_number filepath sheet product partner ///
 		
  

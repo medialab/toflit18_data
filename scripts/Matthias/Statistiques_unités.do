@@ -51,7 +51,7 @@
  replace quantity_unit_ortho="unité manquante" if quantity_unit==""
  merge m:1 quantity_unit_ortho using "/Users/Matthias/Données Stata/Units_Normalisation_Métrique1.dta"
  replace u_conv="unité manquante" if quantity_unit_ortho=="unité manquante"
- codebook tax_department
- bysort tax_department: gen nb_occurrences_tax_department=_N 
- keep if nb_occurrences_tax_department>1000
- tab tax_department u_conv, m
+ codebook customs_region
+ bysort customs_region: gen nb_occurrences_customs_region=_N 
+ keep if nb_occurrences_customs_region>1000
+ tab customs_region u_conv, m

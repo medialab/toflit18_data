@@ -44,7 +44,7 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     data = list(reader)
 
     # line sort order
-    # source_type / year / tax_department / export_import / numéro de ligne / product / partner
+    # source_type / year / customs_region / export_import / numéro de ligne / product / partner
     lines_key_sort = lambda k: cast_line_number(k.get('line_number', 0))
 
     sort_bdd_centrale = lambda r: (r['source_type'], r['filepath'])

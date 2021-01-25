@@ -24,7 +24,7 @@ if "`geographie'"=="France" {
 }
 
 if "`geographie'" !="France" {
-	keep if LocalBestGuess==1 & strmatch(tax_department,"*`geographie'*")==1
+	keep if LocalBestGuess==1 & strmatch(customs_region,"*`geographie'*")==1
 }
 
 

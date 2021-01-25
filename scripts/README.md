@@ -22,8 +22,8 @@ This script groups the sources in one single CSV file **./base/bdd_centrale.csv*
 1   line_number
 2   source_type
 3   year
-4   tax_department
-5   tax_office
+4   customs_region
+5   customs_office
 6   partner
 7   export_import
 8   product
@@ -69,8 +69,8 @@ This scripts adds eight variables to bdd_centrale.csv :
 38  computed_quantity
 39  best_guess_national_prodxpart
 40  best_guess_national_partner
-41  best_guess_department_prodxpart
-42  best_guess_national_department
+41  best_guess_region_prodxpart
+42  best_guess_national_region
 ```
 
 # split bdd_centrale.csv into sources

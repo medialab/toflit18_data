@@ -9,7 +9,7 @@ args XI year
 
 use "/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/Données Stata/bdd courante_avec_out.dta", clear
 
-keep if tax_department=="Rouen"
+keep if customs_region=="Rouen"
 keep if export_import=="`XI'"
 keep if year==`year'
 keep if strmatch(source,"*Dardel*")==1
@@ -184,7 +184,7 @@ capture noisily verification_Rouen Exports 1728
 
 
 /*
-gen tax_office=""
+gen customs_office=""
 gen origin=""
 gen width_in_line=.
 gen value_total=.

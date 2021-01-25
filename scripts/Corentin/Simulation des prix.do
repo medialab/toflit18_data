@@ -4,7 +4,7 @@ use "/Users/Corentin/Desktop/script/testVin.dta", clear
 keep if grouping_classification == "Angleterre"
 
 ***** NATIONAL
-	keep if source_type == "Objet Général" | source_type == "Résumé"| source_type == "Divers - in" | source_type == "National par tax_department"
+	keep if source_type == "Objet Général" | source_type == "Résumé"| source_type == "Divers - in" | source_type == "National par customs_region"
 
 	drop if source_type == "Résumé" & year == 1787 
 	drop if source_type == "Résumé" & year == 1788

@@ -35,14 +35,14 @@
         "description": "Year of the trade flow, beware can't be more complex than digits -- Année du flux commercial"
       },
       {
-        "name": "tax_department",
+        "name": "customs_region",
         "type": "string",
-        "description": "Geographical tax department in which the trade flow has been registered ('Direction des Fermes') -- Direction des fermes dans laquelle le flux a été enregistré"
+        "description": "Geographical customs region in which the trade flow has been registered ('Direction des traites') -- Direction des traites dans laquelle le flux a été enregistré"
       },
       {
-          "name": "tax_office",
+          "name": "customs_office",
           "type": "string",
-          "description": "Geographical tax office in which the trade flow has been registered. A tax office is part of a tax departement -- Bureau des fermes dans lequel le flux a été enregistré"
+          "description": "Geographical customs office in which the trade flow has been registered. A customs office is part of a customs region -- Bureau des traites dans lequel le flux a été enregistré"
       },
       {
         "name": "partner",
