@@ -17,7 +17,7 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 rm(list = ls())
 
 ### On fixe la ville que l'on veut étudier
-ville = "Bordeaux"
+ville = "Nantes"
 
 
 ### On importe la base de données courante
@@ -95,10 +95,19 @@ for (prod in levels(Data$product_simplification)) {
   outliers_trans <- c(outliers_trans,
                       Data_imports$id_trans[which(Data_imports$unit_price_metric %in% 
                                             boxplot.stats(Data_imports$unit_price_metric, coef = 1.5)$out)])
+  
+  outliers_trans <- c(outliers_trans,
+                      Data_exports$id_trans[which(Data_exports$unit_price_metric %in% 
+                                                    boxplot.stats(Data_exports$unit_price_metric, coef = 1.5)$out)])
 }
 
 Data <- Data %>%
   mutate(outliers = id_trans %in% outliers_trans)
+
+
+
+
+
 
 
 
@@ -152,7 +161,7 @@ Data <- Data %>%
 
 Data_filter <- Data %>%
   filter(best_unit_metric == T
-         & export_import == "Exports"
+         & export_import == "Imports"
          & outliers == F) %>%
   
   ### On compte le nombre de transations sur la base de données filtrées 
@@ -166,6 +175,27 @@ Data_filter <- Data %>%
 
 
 
+### ON selectionne les produits pour lesquels il existe une différence trop importante de prix :
+### multiplication des prix par 10 entre le plus petit et le plus grand quartile 
+prod_problems <- c()
+for (prod in levels(Data$product_simplification)) {
+  
+  Data_prod <- subset(Data_filter, product_simplification == prod)
+  
+  if (dim(Data_prod)[1] > 0) {
+  
+  if(quantile(Data_prod$unit_price_metric, probs = 3/4)/quantile(Data_prod$unit_price_metric, probs = 1/4) > 10) {
+    prod_problems <- c(prod_problems, prod) 
+  }
+    }
+}
+
+
+Data_filter <- Data_filter %>%
+  filter(!product_simplification %in% prod_problems)
+  
+
+
 ### Création de la base de données des transactions considérées
 Data_trans <- rtCreateTrans(trans_df = Data_filter,
                                 prop_id = "id_prod_simp",
@@ -175,6 +205,7 @@ Data_trans <- rtCreateTrans(trans_df = Data_filter,
                                 periodicity = "yearly",
                                 min_period_dist = 0,
                                 seq_only = T)
+
 
 ### Application du modèle
 rt_model <- hpiModel(model_type = "rt",
@@ -200,7 +231,7 @@ for (prod in levels(Data_filter$product_simplification)) {
   
     Data_prod <- subset(Data_filter, product_simplification == prod)
     
-    if (dim(Data_prod)[1] > 0) {
+    if (dim(Data_prod)[1] > 20) {
     
     print(Data_prod[, c("quantity_unit_metric", "unit_price_metric")])
     plot(Data_prod$year, Data_prod$unit_price_metric, main = prod)
