@@ -1485,7 +1485,7 @@ Armes ; sabres,armes sabres,,1,1,0,0,0,0,0,0,1,1
 Armes ; sabres ; de traitte,armes sabres de traite,,1,1,0,0,0,0,0,0,1,1
 Armes (sabres),armes sabres,,1,1,0,0,0,0,0,0,1,1
 Armes a fer,armes à feu,,0,0,0,0,0,0,0,0,0,0
-Armes a feu,armes à feu,,1,44,0,0,0,0,0,0,1,44
+Armes a feu,armes à feu,,1,43,0,0,0,0,0,0,1,43
 Armes à feu,armes à feu,,1,97,0,0,0,0,0,0,1,97
 Armes a feu ; diverses,armes à feu diverses,,1,2,0,0,0,0,0,0,1,2
 Armes a feu ; fusil,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
@@ -1512,7 +1512,7 @@ Armes à feu en fusils dits boucaniers,armes à feu en fusils dits boucaniers,,1
 Armes à feu en pistolets,armes à feu en pistolets,,1,3,0,0,0,0,0,0,1,3
 Armes à feu et Artillerie,armes à feu et artillerie,,1,1,0,0,0,0,0,0,1,1
 Armes à feu et fusils,armes à feu et fusils,,1,1,0,0,0,0,0,0,1,1
-Armes a feu fusils,armes à feu fusils,,1,6,0,0,0,0,0,0,1,6
+Armes a feu fusils,armes à feu fusils,,1,7,0,0,0,0,0,0,1,7
 Armes a feu Fusils,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
 Armes à feu fusils,armes à feu fusils,,1,27,0,0,0,0,0,0,1,27
 Armes à feu Fusils,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
@@ -16038,7 +16038,7 @@ Cuviers,cuviers,,1,3,0,0,0,0,0,0,1,3
 Cuviers ; de terre,cuviers de terre,,1,1,0,0,0,0,0,0,1,1
 Cuviers de terre,cuviers de terre,,1,5,0,0,0,0,0,0,1,5
 Cylindre,cylindre,,1,1,0,0,0,0,0,0,1,1
-D'Anjou et Touraine,??? d'Anjou et de Touraine,,1,1,0,0,0,0,0,0,1,1
+D'Anjou et Touraine,??? d'Anjou et de Touraine,,0,0,0,0,0,0,0,0,0,0
 D'antelle d'argent,dentelle d'argent,,1,1,0,0,0,0,0,0,1,1
 D'antelle de fil,dentelle de fil,,1,1,0,0,0,0,0,0,1,1
 D'entelle,dentelle,,1,1,0,0,0,0,0,0,1,1
@@ -16636,7 +16636,7 @@ Derle ou terre à porcelaine,derle ou terre à porcelaine,,1,3,0,0,0,0,0,0,1,3
 Derle ou terre de porcelaine,derle ou terre à porcelaine,,1,2,0,0,0,0,0,0,1,2
 Des a jouer,dés à jouer,,1,2,0,0,0,0,0,0,1,2
 Des à joüer,dés à jouer,,1,1,0,0,0,0,0,0,1,1
-Des ci-devant Provinces d'Alsace,??? des ci-devant provinces d'Alsace,,1,1,0,0,0,0,0,0,1,1
+Des ci-devant Provinces d'Alsace,??? des ci-devant provinces d'Alsace,,0,0,0,0,0,0,0,0,0,0
 Des de cuivre,dès de cuivre,,1,1,0,0,0,0,0,0,1,1
 Des de fer,dès de fer,,1,1,0,0,0,0,0,0,1,1
 Des de leton,dés de laiton,,1,1,0,0,0,0,0,0,1,1
@@ -19589,7 +19589,7 @@ Eau ; de senteur ; sans pareille,eau de senteur sans pareille,x,1,2,0,0,0,0,0,0,
 Eau ; de spa,eau de Spa,,1,9,0,0,0,0,0,0,1,9
 Eau ; de Spa,eau de Spa,,1,5,0,0,0,0,0,0,1,5
 Eau ; de tartre,eau de tartre,,1,4,0,0,0,0,0,0,1,4
-Eau ; de vie,eau-de-vie,,1,342,0,0,0,0,0,0,1,342
+Eau ; de vie,eau-de-vie,,1,341,0,0,0,0,0,0,1,341
 Eau ; de vie ; commune,eau-de-vie commune,,1,1,0,0,0,0,0,0,1,1
 Eau ; de vie ; d'andaye,eau-de-vie d'Hendaye,,1,2,0,0,0,0,0,0,1,2
 Eau ; de vie ; d'Andaye,eau-de-vie d'Hendaye,,1,5,0,0,0,0,0,0,1,5
@@ -19611,6 +19611,7 @@ Eau ; de vie ; rectifiée,eau-de-vie rectifiée,,1,1,0,0,0,0,0,0,1,1
 Eau ; de vie ; royale,eau-de-vie royale,,1,4,0,0,0,0,0,0,1,4
 Eau ; de vie ; simple,eau-de-vie simple,,1,70,0,0,0,0,0,0,1,70
 Eau ; de vie ; triple,eau-de-vie triple,,1,1,0,0,0,0,0,0,1,1
+Eau ; de vie de genièvre,,,1,1,0,0,0,0,0,0,1,1
 Eau ; des barbades,eau de Barbade,,1,2,0,0,0,0,0,0,1,2
 Eau ; des Barbades,eau de Barbade,,1,2,0,0,0,0,0,0,1,2
 Eau ; des carmes,eau des Carmes,,1,6,0,0,0,0,0,0,1,6
@@ -61548,6 +61549,7 @@ Vins cuit,vin cuit,,1,1,0,0,0,0,0,0,1,1
 Vins d'alicante,vin d'Alicante,,1,2,0,0,0,0,0,0,1,2
 Vins d'Alsace,vin d'Alsace,,1,2,0,0,0,0,0,0,1,2
 Vins d'Anjou,vin d'Anjou,,1,2,0,0,0,0,0,0,1,2
+Vins d'Anjou et Touraine,,,1,1,0,0,0,0,0,0,1,1
 Vins d'Aunis,vin d'Aunis,,1,1,0,0,0,0,0,0,1,1
 Vins d'Orléans,vin d'Orléans,,1,1,0,0,0,0,0,0,1,1
 Vins de Béarn et Gascogne,vin du Béarn et Gascogne,x,1,1,0,0,0,0,0,0,1,1
@@ -61595,6 +61597,7 @@ Vins de Provence,vin de Provence,,1,8,0,0,0,0,0,0,1,8
 Vins de Saintonge,vin de Saintonge,,1,5,0,0,0,0,0,0,1,5
 Vins de toute sorte,vin de toute sorte,,1,21,0,0,0,0,0,0,1,21
 Vins de toutes sortes,vin de toute sorte,,1,2,0,0,0,0,0,0,1,2
+Vins des ci-devant Provinces d'Alsace,,,1,1,0,0,0,0,0,0,1,1
 Vins divers,vin divers,,1,410,0,0,0,0,0,0,1,410
 Vins divers de France,vin divers de France,,1,35,0,0,0,0,0,0,1,35
 Vins divers de liqueurs,vin divers de liqueurs,,1,3,0,0,0,0,0,0,1,3
