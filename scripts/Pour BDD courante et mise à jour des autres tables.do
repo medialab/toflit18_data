@@ -92,6 +92,7 @@ destring conv_orthographic_to_simplificat source_bdc, replace
 save "Données Stata/classification_quantityunit_simplification.dta", replace
 
 use "Données Stata/classification_quantityunit_metric1.dta", clear
+replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
 destring conv_simplification_to_metric, replace
 save "Données Stata/classification_quantityunit_metric1.dta", replace
 
@@ -923,7 +924,8 @@ merge 1:1 export_import partner_grouping customs_region product_simplification p
 drop if _merge==2
 	
  drop _merge
- sort simplification product_simplification product_revolutionempire export_import customs_region partner_grouping
+ generate sortkey = ustrsortkeyex(simplification product_revolutionempire product_simplification  export_import customs_region partner_grouping,  "fr",-1,2,-1,-1,-1,0,-1)
+ sort sortkey
  order simplification product_simplification product_revolutionempire export_import customs_region partner_grouping
  save "$dir/Données Stata/classification_quantityunit_metric2.dta", replace
  export delimited "$dir_git/base/classification_quantityunit_metric2.csv", replace
@@ -939,14 +941,15 @@ drop if _merge==2
 replace quantity_unit_metric = metric if quantity_unit_metric==""
 drop metric
  
- drop if _merge==2
- drop  remarks_unit-_merge
- codebook conv_simplification_to_metric
+drop if _merge==2
+drop  remarks_unit-_merge
+codebook conv_simplification_to_metric
  
- generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
- generate unit_price_metric=value/quantities_metric
- replace  unit_price_metric=value_per_unit /conv_orthographic_to_simplificat * conv_simplification_to_metric
+generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
+generate unit_price_metric=value/quantities_metric
+replace  unit_price_metric=value_per_unit /(conv_orthographic_to_simplificat * conv_simplification_to_metric)
 
+rename  simplification  quantity_unit_simplification
 
  *save "$dir/Données Stata/bdd courante.dta", replace
  
