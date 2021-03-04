@@ -10,7 +10,8 @@ Data_filtrage <- function(Ville,
                           Outliers_coef = 1.5,
                           Trans_number = 0,
                           Exports_imports = "Imports",
-                          Prod_problems = T) {
+                          Prod_problems = T,
+                          Product_select = F) {
   
   ### On fixe la ville que l'on veut étudier
   ville = Ville
@@ -111,6 +112,24 @@ Data_filtrage <- function(Ville,
     filter(!product_simplification %in% prod_problems)
   
   }
+  
+  
+  
+  
+  ### On conserve uniquement les produits selectionnés par Loic Charles
+  
+  if (Product_select == T) {
+    Product_selection <- read.csv2("./scripts/Edouard/Product_selection.csv")
+    
+    Product_selection <- Product_selection %>%
+      filter(Ville == Ville & Type == Exports_imports & Product_selection == 1)
+    
+    Data_filter <- Data_filter %>%
+      filter(product_simplification %in% Product_selection$product_simplification)
+  }
+  
+  
+  
   
   return(Data_filter)
   
