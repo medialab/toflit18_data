@@ -89,8 +89,5 @@ for (ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
     
     
     
-    
-    
-    
   }
 }

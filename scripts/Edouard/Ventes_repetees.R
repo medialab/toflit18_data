@@ -25,11 +25,11 @@ source("./scripts/Edouard/Filtrage.R")
 
 Data_filter <- Data_filtrage(Ville = "Bordeaux",  ### Choix du port d'étude
                              Outliers = F, ### conservation des outliers 
-                             Outliers_coef = 1.5, ### Quel niveau d'écart inter Q garde-t-on
+                             Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
                              Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
                              Exports_imports = "Exports", ### On conserve les Importations ou les Exportations
-                             Prod_problems = T,
-                             Product_select = T) ### Conserve-t-on les produits avec des différences de prix très importants
+                             Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix très importants
+                             Product_select = T) ### Selection des produits par Charles Loic
 
 
 
@@ -50,6 +50,8 @@ Data_filter <- Data_filtrage(Ville = "Bordeaux",  ### Choix du port d'étude
 # 
 # 
 
+### Calcul de l'indice de prix par le méthode des ventes répétées
+### https://cran.r-project.org/web/packages/hpiR/vignettes/introduction.html
 
 
 
