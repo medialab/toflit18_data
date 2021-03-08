@@ -1015,6 +1015,7 @@ capture drop best_guess_region_prodxpart
 gen best_guess_region_prodxpart=0
 replace best_guess_region_prodxpart= 1 if (source_type=="Local" & year !=1750) | ///
 		(source_type== "National toutes directions tous partenaires" & year == 1750)
+replace best_guess_region_prodxpart= 1 if source_type=="National toutes directions partenaires manquants" & (year ==1789 | year==1787)
 replace best_guess_region_prodxpart= 0 if customs_region=="Rouen" & export_import=="Imports" & ///
 		(year==1737| (year>= 1739 & year<=1749) | year==1754 | (year>=1756 & year <=1762))
 
