@@ -4,10 +4,12 @@ library(stringr)
 library(readr)
 library(pracma)
 
+library(modern)
+
 
 Data_filtrage <- function(Ville, 
                           Outliers = F,
-                          Outliers_coef = 1.5,
+                          Outliers_coef = 3.5,
                           Trans_number = 0,
                           Exports_imports = "Imports",
                           Prod_problems = T,
@@ -46,34 +48,57 @@ Data_filtrage <- function(Ville,
     mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
   
+  
+  
+  
+  
   ### Détéection valeurs aberrantes
+  # outliers_trans <- c()
+  # for (prod in levels(Data$product_simplification)) {
+  #   
+  #   Data_outliers = subset(Data,  product_simplification == prod 
+  #                         & export_import == Exports_imports
+  #                         & best_unit_metric == T)
+  # 
+  #   
+  #   
+  #   outliers_trans <- c(outliers_trans,
+  #                       Data_outliers$id_trans[which(Data_outliers$unit_price_metric %in% 
+  #                                                     boxplot.stats(Data_outliers$unit_price_metric, coef = Outliers_coef)$out)])
+  # }
+  # 
+  # Data <- Data %>%
+  #   mutate(outliers = id_trans %in% outliers_trans)
+  # 
+  # 
+  # 
+  # 
+
+  ### Détéetction valeurs aberrantes pour une loi log-normale par la méthode
+  ### du Z-score modifié :
+  ### https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm
+  
   outliers_trans <- c()
   for (prod in levels(Data$product_simplification)) {
     
-    Data_imports = subset(Data,  product_simplification == prod 
-                          & export_import == "Imports"
+    Data_outliers = subset(Data,  product_simplification == prod 
+                          & export_import == Exports_imports
                           & best_unit_metric == T)
     
-    Data_exports = subset(Data,  product_simplification == prod 
-                          & export_import == "Exports"
-                          & best_unit_metric == T)
+    Data_outliers$Price_unit_outliers <- iglewicz_hoaglin(log(Data_outliers$unit_price_metric),
+                                       threshold = Outliers_coef)
     
     
     outliers_trans <- c(outliers_trans,
-                        Data_imports$id_trans[which(Data_imports$unit_price_metric %in% 
-                                                      boxplot.stats(Data_imports$unit_price_metric, coef = Outliers_coef)$out)])
+                        Data_outliers$id_trans[which(Data_outliers$Price_unit_outliers %in% NA)])
     
-    outliers_trans <- c(outliers_trans,
-                        Data_exports$id_trans[which(Data_exports$unit_price_metric %in% 
-                                                      boxplot.stats(Data_exports$unit_price_metric, coef = Outliers_coef)$out)])
-  }
+ }
   
   Data <- Data %>%
     mutate(outliers = id_trans %in% outliers_trans)
   
   
-  ### Calcul de l'indice de prix par le méthode des ventes répétées
-  ### https://cran.r-project.org/web/packages/hpiR/vignettes/introduction.html
+  
   
   ### filtrage de la base de données 
   
@@ -82,7 +107,7 @@ Data_filtrage <- function(Ville,
            & export_import == Exports_imports
            & outliers == Outliers) %>%
     
-    ### On compte le nombre de transations sur la base de données filtrées 
+    ### On compte le nombre de transactions sur la base de données filtrées 
     group_by(product_simplification) %>%
     mutate(trans_number = sum(best_unit_metric)) %>%
     ungroup() %>%
