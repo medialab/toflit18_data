@@ -594,6 +594,7 @@ replace sourceBEL_nbr1=0 if _merge==1
 bys product : keep if _n==1
 replace sourceBEL=1 if _merge!=1
 keep product  orthographic sourceFR sourceFR_nbr sourceBEL sourceBEL_nbr1 note
+blif
 
 merge 1:m product using "$dir/Données Stata/Belgique/RG_1774.dta"
 generate sourceBEL_nbr2=0
