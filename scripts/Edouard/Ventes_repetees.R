@@ -14,6 +14,7 @@ library(hpiR)
 setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
 
+
 rm(list = ls())
 
 ### On charge la fonction de filtrage
@@ -22,15 +23,26 @@ source("./scripts/Edouard/Filtrage.R")
 ### On filtre la bdd courante :
 
 
-Data_filter <- Data_filtrage(Ville = "Nantes",  ### Choix du port d'étude
+Data_filter <- Data_filtrage(Ville = "Bordeaux",  ### Choix du port d'étude
                              Outliers = F, ### conservation des outliers 
-                             Outliers_coef = 1.5, ### Quel niveau d'écart inter Q garde-t-on
+                             Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
                              Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                             Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
-                             Prod_problems = T) ### Conserve-t-on les produits avec des différences de prix très importants
+                             Exports_imports = "Exports", ### On conserve les Importations ou les Exportations
+                             Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix très importants
+                             Product_select = F,
+                             Remove_double = F) ### Selection des produits par Charles Loic
 
 
-### Creation des colonnes de colonnes
+
+
+
+
+### Calcul de l'indice de prix par le méthode des ventes répétées
+### https://cran.r-project.org/web/packages/hpiR/vignettes/introduction.html
+
+
+
+### Creation de la colonne des périodes
 Data_period <- dateToPeriod(trans_df = Data_filter,
                            date = 'Date',
                            periodicity = 'yearly')
@@ -45,17 +57,22 @@ Data_trans <- rtCreateTrans(trans_df = Data_period,
                                 seq_only = T)
 
 
+
+
 ### Application du modèle
 rt_model <- hpiModel(model_type = "rt",
                      hpi_df = Data_trans,
                      estimator = "weighted",
                      log_dep = T,
-                     trim_model = T,
+                     trim_model = F,
                      mod_spec = NULL)
 
 ### Calacul de l'indice
 rt_index <- modelToIndex(rt_model)
-rt_index$numeric <- rt_index$period
+rt_index$numeric <- as.numeric(rt_index$name)
+rt_index$period <- as.numeric(rt_index$name)
+
+rt_index$value <- na_if(rt_index$value, Inf) 
 
 ### Smooth index
 smooth_index <- smoothIndex(rt_index,
@@ -64,16 +81,27 @@ smooth_index <- smoothIndex(rt_index,
 
 ### Affichage du résultat
 ### Indice brut
-plot(rt_index)
+plot(rt_index, show_imputed = T, main = "Index")
 ### Smooth index
 plot(smooth_index, smooth = T)
 
 
 
+### plotting without imputed value
+rt_index_correct <- data.frame("value" = rt_index$value,
+                               "period" = rt_index$numeric,
+                               "imputed" = rt_index$imputed)
+plot(subset(rt_index_correct, imputed == 0)$period,
+     subset(rt_index_correct, imputed == 0)$value,
+     type = "l")
 
 
 index_vol <- calcVolatility(index = rt_index$value,
                             window = 3)
+
+
+
+
 
 
 
@@ -118,14 +146,16 @@ rt_series <- calcSeriesAccuracy(series_obj = rt_series,
 ### plus de xxxx fois sur la période
 for (prod in levels(Data_filter$product_simplification)) {
   
-    Data_prod <- subset(Data_filter, product_simplification == prod)
+    Data_prod <- subset(Data_filter_cor, product_simplification == prod)
     
-    if (dim(Data_prod)[1] > 20) {
+    if (dim(Data_prod)[1] > 0) {
     
-    print(Data_prod[, c("quantity_unit_metric", "unit_price_metric")])
     plot(Data_prod$year, Data_prod$unit_price_metric, main = prod)
     }
 }
 
 
+
+
+  
 

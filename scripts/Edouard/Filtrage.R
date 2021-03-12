@@ -4,13 +4,17 @@ library(stringr)
 library(readr)
 library(pracma)
 
+library(modern)
+
 
 Data_filtrage <- function(Ville, 
                           Outliers = F,
-                          Outliers_coef = 1.5,
+                          Outliers_coef = 3.5,
                           Trans_number = 0,
                           Exports_imports = "Imports",
-                          Prod_problems = T) {
+                          Prod_problems = T,
+                          Product_select = F,
+                          Remove_double = T) {
   
   ### On fixe la ville que l'on veut étudier
   ville = Ville
@@ -45,34 +49,58 @@ Data_filtrage <- function(Ville,
     mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
   
+
+  
+  
+  
+  
   ### Détéection valeurs aberrantes
+  # outliers_trans <- c()
+  # for (prod in levels(Data$product_simplification)) {
+  #   
+  #   Data_outliers = subset(Data,  product_simplification == prod 
+  #                         & export_import == Exports_imports
+  #                         & best_unit_metric == T)
+  # 
+  #   
+  #   
+  #   outliers_trans <- c(outliers_trans,
+  #                       Data_outliers$id_trans[which(Data_outliers$unit_price_metric %in% 
+  #                                                     boxplot.stats(Data_outliers$unit_price_metric, coef = Outliers_coef)$out)])
+  # }
+  # 
+  # Data <- Data %>%
+  #   mutate(outliers = id_trans %in% outliers_trans)
+  # 
+  # 
+  # 
+  # 
+
+  ### Détéetction valeurs aberrantes pour une loi log-normale par la méthode
+  ### du Z-score modifié :
+  ### https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm
+  
   outliers_trans <- c()
   for (prod in levels(Data$product_simplification)) {
     
-    Data_imports = subset(Data,  product_simplification == prod 
-                          & export_import == "Imports"
+    Data_outliers = subset(Data,  product_simplification == prod 
+                          & export_import == Exports_imports
                           & best_unit_metric == T)
     
-    Data_exports = subset(Data,  product_simplification == prod 
-                          & export_import == "Exports"
-                          & best_unit_metric == T)
+    Data_outliers$Price_unit_outliers <- iglewicz_hoaglin(log(Data_outliers$unit_price_metric),
+                                       threshold = Outliers_coef)
     
     
     outliers_trans <- c(outliers_trans,
-                        Data_imports$id_trans[which(Data_imports$unit_price_metric %in% 
-                                                      boxplot.stats(Data_imports$unit_price_metric, coef = Outliers_coef)$out)])
+                        Data_outliers$id_trans[which(Data_outliers$Price_unit_outliers %in% NA)])
     
-    outliers_trans <- c(outliers_trans,
-                        Data_exports$id_trans[which(Data_exports$unit_price_metric %in% 
-                                                      boxplot.stats(Data_exports$unit_price_metric, coef = Outliers_coef)$out)])
-  }
+ }
   
   Data <- Data %>%
     mutate(outliers = id_trans %in% outliers_trans)
   
   
-  ### Calcul de l'indice de prix par le méthode des ventes répétées
-  ### https://cran.r-project.org/web/packages/hpiR/vignettes/introduction.html
+  
   
   ### filtrage de la base de données 
   
@@ -80,16 +108,28 @@ Data_filtrage <- function(Ville,
     filter(best_unit_metric == T
            & export_import == Exports_imports
            & outliers == Outliers) %>%
+    select("year", "Date", "product_simplification", "quantities_metric",
+           "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
     
-    ### On compte le nombre de transations sur la base de données filtrées 
-    group_by(product_simplification) %>%
-    mutate(trans_number = sum(best_unit_metric)) %>%
-    ungroup() %>%
-    as.data.frame() %>%
-    
-    ### On filtre le nombre de transactions utilisées dans la méthode
-    filter(trans_number > Trans_number)
+   
+
+  ### On retire les produits vendues deux fois la même année
   
+  if(Remove_double) {
+    Data_filter <- Data_filter %>%
+      select("year", "Date", "product_simplification", "quantities_metric",
+             "unit_price_metric") %>%
+      group_by(year, product_simplification) %>%
+      summarise(unit_price_metric = weighted.mean(unit_price_metric, quantities_metric),
+                quantities_metric = sum(quantities_metric)) %>%
+      as.data.frame() %>%
+      mutate(id_prod_simp = as.numeric(product_simplification),
+             id_trans = row_number())
+  } 
+    
+
+    
+    
   
   ### ON selectionne les produits pour lesquels il existe une différence trop importante de prix :
   ### multiplication des prix par 10 entre le plus petit et le plus grand quartile 
@@ -106,11 +146,46 @@ Data_filtrage <- function(Ville,
     }
   }
   
+  
+  
   if (Prod_problems == T) {
   Data_filter <- Data_filter %>%
     filter(!product_simplification %in% prod_problems)
   
   }
+  
+  
+  
+  
+  ### On conserve uniquement les produits selectionnés par Loic Charles
+  
+  if (Product_select == T) {
+    Product_selection <- read.csv2("./scripts/Edouard/Product_selection.csv")
+    
+    Product_selection <- Product_selection %>%
+      filter(Ville == Ville & Type == Exports_imports & Product_selection == 1)
+    
+    Data_filter <- Data_filter %>%
+      filter(product_simplification %in% Product_selection$product_simplification)
+  }
+  
+  
+  
+
+  
+  
+  
+  ### On compte le nombre de transactions sur la base de données filtrées 
+  Data_filter <- Data_filter %>%  
+    group_by(product_simplification) %>%
+    mutate(trans_number = length(id_trans),
+           Date = as.Date(as.character(year), format = "%Y")) %>%
+    ungroup() %>%
+    as.data.frame() %>%
+    
+    ### On filtre le nombre de transactions utilisées dans la méthode
+    filter(trans_number > Trans_number)
+  
   
   return(Data_filter)
   
