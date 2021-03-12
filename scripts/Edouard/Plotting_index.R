@@ -31,8 +31,9 @@ for (ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
                Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
                Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
                ### On conserve les Importations ou les Exportations
-               Prod_problems = T,
-               Product_select = F)
+               Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix très importants
+               Product_select = T,
+               Remove_double = T)
     
     
   }
@@ -46,7 +47,8 @@ Plot_index(Ville = "Bordeaux",  ### Choix du port d'étude
            Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
            ### On conserve les Importations ou les Exportations
            Prod_problems = T,
-           Product_select = T)
+           Product_select = T,
+           Remove_double = T)
 
 
 
@@ -63,7 +65,8 @@ Plot_index <- function(Ville,  ### Choix du port d'étude
                        Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
                         ### On conserve les Importations ou les Exportations
                        Prod_problems = T,
-                       Product_select = F) ### Conserve-t-on les produits avec des différences de prix très importants
+                       Product_select = F, ### Conserve-t-on les produits avec des différences de prix très importants
+                       Remove_double = T) 
 {
 
   Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
@@ -72,13 +75,14 @@ Plot_index <- function(Ville,  ### Choix du port d'étude
                                Trans_number = Trans_number, ### On retire les produits vendus moins de Trans_number fois
                                Exports_imports = Exports_imports, ### On conserve les Importations ou les Exportations
                                Prod_problems = Prod_problems,
-                               Product_select = Product_select) ### Conserve-t-on les produits avec des différences de prix très importants
+                               Product_select = Product_select,
+                               Remove_double = Remove_double) ### Conserve-t-on les produits avec des différences de prix très importants
   
   
   
   ### Creation des colonnes de colonnes
   Data_period <- dateToPeriod(trans_df = Data_filter,
-                              date = 'Date',
+                              date = 'year',
                               periodicity = 'yearly')
   
   
@@ -125,7 +129,7 @@ Plot_index <- function(Ville,  ### Choix du port d'étude
                                  "imputed" = rt_index$imputed)
   plot(subset(rt_index_correct, imputed == 0)$period,
        subset(rt_index_correct, imputed == 0)$value,
-       type = "l",
+       type = "o",
        main = paste(Ville, Exports_imports, "/ Trans_number >", Trans_number, "/ Outliers =", Outliers),
        xlab = "Annee",
        ylab = "Indice de prix")

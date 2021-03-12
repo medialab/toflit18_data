@@ -49,6 +49,7 @@ Data_filtrage <- function(Ville,
     mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
   
+
   
   
   
@@ -111,7 +112,9 @@ Data_filtrage <- function(Ville,
            "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
     
    
-    
+
+  ### On retire les produits vendues deux fois la même année
+  
   if(Remove_double) {
     Data_filter <- Data_filter %>%
       select("year", "Date", "product_simplification", "quantities_metric",
@@ -122,10 +125,9 @@ Data_filtrage <- function(Ville,
       as.data.frame() %>%
       mutate(id_prod_simp = as.numeric(product_simplification),
              id_trans = row_number())
-  }  
+  } 
     
-    
-    
+
     
     
   
@@ -166,6 +168,12 @@ Data_filtrage <- function(Ville,
     Data_filter <- Data_filter %>%
       filter(product_simplification %in% Product_selection$product_simplification)
   }
+  
+  
+  
+
+  
+  
   
   ### On compte le nombre de transactions sur la base de données filtrées 
   Data_filter <- Data_filter %>%  

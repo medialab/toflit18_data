@@ -29,33 +29,20 @@ Data_filter <- Data_filtrage(Ville = "Bordeaux",  ### Choix du port d'étude
                              Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
                              Exports_imports = "Exports", ### On conserve les Importations ou les Exportations
                              Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix très importants
-                             Product_select = T) ### Selection des produits par Charles Loic
+                             Product_select = F,
+                             Remove_double = F) ### Selection des produits par Charles Loic
 
 
 
 
-# 
-# Data_export <- Data_filter %>%
-#   group_by(product_simplification) %>%
-#   summarize(Trans_number = mean(trans_number)) %>%
-#   as.data.frame() %>%
-#   mutate(Ville = "Bordeaux",
-#          Type = "Exports")
-# 
-# Data_export <- Data_export[, c("Ville", "Type", "product_simplification")]
-# 
-# write.csv(Data_export, 
-#           file = "C:/Users/pignede/Dropbox (IRD)/IRD/Missions/Marchandises_18eme/Data_export.csv", 
-#           fileEncoding = "UTF-8")
-# 
-# 
+
 
 ### Calcul de l'indice de prix par le méthode des ventes répétées
 ### https://cran.r-project.org/web/packages/hpiR/vignettes/introduction.html
 
 
 
-### Creation des colonnes de colonnes
+### Creation de la colonne des périodes
 Data_period <- dateToPeriod(trans_df = Data_filter,
                            date = 'Date',
                            periodicity = 'yearly')
@@ -68,6 +55,8 @@ Data_trans <- rtCreateTrans(trans_df = Data_period,
                                 price = "unit_price_metric",
                                 min_period_dist = 0,
                                 seq_only = T)
+
+
 
 
 ### Application du modèle
@@ -112,6 +101,10 @@ index_vol <- calcVolatility(index = rt_index$value,
 
 
 
+
+
+
+
 ### Evaluation de l'indice
 rt_index <- rtIndex(trans_df = Data_trans,
                     estimator = 'weighted',
@@ -153,11 +146,10 @@ rt_series <- calcSeriesAccuracy(series_obj = rt_series,
 ### plus de xxxx fois sur la période
 for (prod in levels(Data_filter$product_simplification)) {
   
-    Data_prod <- subset(Data_filter, product_simplification == prod)
+    Data_prod <- subset(Data_filter_cor, product_simplification == prod)
     
     if (dim(Data_prod)[1] > 0) {
     
-    print(Data_prod[, c("quantity_unit_metric", "unit_price_metric")])
     plot(Data_prod$year, Data_prod$unit_price_metric, main = prod)
     }
 }
