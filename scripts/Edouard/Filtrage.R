@@ -13,7 +13,8 @@ Data_filtrage <- function(Ville,
                           Trans_number = 0,
                           Exports_imports = "Imports",
                           Prod_problems = T,
-                          Product_select = F) {
+                          Product_select = F,
+                          Remove_double = T) {
   
   ### On fixe la ville que l'on veut étudier
   ville = Ville
@@ -106,16 +107,27 @@ Data_filtrage <- function(Ville,
     filter(best_unit_metric == T
            & export_import == Exports_imports
            & outliers == Outliers) %>%
+    select("year", "Date", "product_simplification", "quantities_metric",
+           "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
     
-    ### On compte le nombre de transactions sur la base de données filtrées 
-    group_by(product_simplification) %>%
-    mutate(trans_number = sum(best_unit_metric)) %>%
-    ungroup() %>%
-    as.data.frame() %>%
+   
     
-    ### On filtre le nombre de transactions utilisées dans la méthode
-    filter(trans_number > Trans_number)
-  
+  if(Remove_double) {
+    Data_filter <- Data_filter %>%
+      select("year", "Date", "product_simplification", "quantities_metric",
+             "unit_price_metric") %>%
+      group_by(year, product_simplification) %>%
+      summarise(unit_price_metric = weighted.mean(unit_price_metric, quantities_metric),
+                quantities_metric = sum(quantities_metric)) %>%
+      as.data.frame() %>%
+      mutate(id_prod_simp = as.numeric(product_simplification),
+             id_trans = row_number())
+  }  
+    
+    
+    
+    
+    
   
   ### ON selectionne les produits pour lesquels il existe une différence trop importante de prix :
   ### multiplication des prix par 10 entre le plus petit et le plus grand quartile 
@@ -131,6 +143,8 @@ Data_filtrage <- function(Ville,
       }
     }
   }
+  
+  
   
   if (Prod_problems == T) {
   Data_filter <- Data_filter %>%
@@ -153,7 +167,16 @@ Data_filtrage <- function(Ville,
       filter(product_simplification %in% Product_selection$product_simplification)
   }
   
-  
+  ### On compte le nombre de transactions sur la base de données filtrées 
+  Data_filter <- Data_filter %>%  
+    group_by(product_simplification) %>%
+    mutate(trans_number = length(id_trans),
+           Date = as.Date(as.character(year), format = "%Y")) %>%
+    ungroup() %>%
+    as.data.frame() %>%
+    
+    ### On filtre le nombre de transactions utilisées dans la méthode
+    filter(trans_number > Trans_number)
   
   
   return(Data_filter)
