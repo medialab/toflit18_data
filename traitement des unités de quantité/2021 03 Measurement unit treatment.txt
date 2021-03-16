@@ -1,0 +1,17 @@
+# The way we treat quantity units (as of March 2021)
+The retranscribed variable is "quantity_unit" (1,564 different values).
+## Orthographic Normalization
+The file "classification_quantityunit_orthographic.csv" establishes a correspondance between the variable "quantity_unit" and the variable "quantity_unit_orthographic" (701 values). 235,000 observations have "livres" in "quantity_unit_ortho" and 164,000 have "unité manquante" (out of 555,000).
+## Simplification
+The file "classification_quantityunit_simplification.csv" establishes a correspondance between the variable "quantity_unit_orthographic" and "quantity_unit_simplification" & "conv_orthographic_to_simplification".
+"quantity_unit_simplification" is the name of the simplified quantity unit. 
+"conv_orthographic_to_simplification" is the conversion factor between quantity_unit_orthographic and quantity_unit_simplification.
+E.g. for "douzaine", these are «nombre» and "12"
+## First pass for unambiguous "classification_quantityunit_metric1"
+The file "classification_quantityunit_metric1" establishes a link between "quantity_unit_simplification" and "quantity_unit_metric" + "conv_simplification_to_metric" when possible directly.
+If not, we flag "needs_more_details" which indicate that we cannot know the metric equivalent without using more variables. 
+## Simplification and Multi-key conversion
+The file "classification_quantityunit_metric2" establishes a correspondance between :
+quantity_unit_simplification + product_simplification + product_revolutionempire + exportsimports + customs_region + partner_grouping  with  "quantity_unit_metric" + "conv_simplification_to_metric"
+In the end, 277,000 trade flows are expressed in kilograms, 164,000 have no quantity unit, 70,000 are expressed in numbers, 13,000 in liters, 10,000 in centimeters, 3000 in containers and 2,200 in sheets. 15,000 have not "quantity_metric" esquivalent.
+
