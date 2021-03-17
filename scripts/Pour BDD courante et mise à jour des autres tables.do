@@ -566,7 +566,7 @@ export delimited "$dir_git/base/classification_product_orthographic.csv", replac
 
 
 use "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", clear
-collapse (sum) nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5, by(product)
+collapse (sum) nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5 nbr_occurrences_datasprint, by(product)
 save "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", replace
 
 
@@ -618,7 +618,7 @@ drop if product=="(empty)" & _merge !=2
 sort product
 bys product : keep if _n==1
 generate sourceNAVIGO=0
-generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5
+generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5+ nbr_occurrences_datasprint
 replace sourceNAVIGO=1 if _merge!=1
 
 keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr note
@@ -1017,7 +1017,7 @@ replace best_guess_region_prodxpart= 1 if (source_type=="Local" & year !=1750) |
 		(source_type== "National toutes directions tous partenaires" & year == 1750)
 replace best_guess_region_prodxpart= 1 if source_type=="National toutes directions partenaires manquants" & year ==1789
 replace best_guess_region_prodxpart= 1 if source_type=="National toutes directions partenaires manquants" & year ==1787 /*
-					*/ customs_region=="Marseille" 
+					*/ & customs_region=="Marseille" 
 replace best_guess_region_prodxpart= 0 if customs_region=="Rouen" & export_import=="Imports" & ///
 		(year==1737| (year>= 1739 & year<=1749) | year==1754 | (year>=1756 & year <=1762))
 replace best_guess_region_prodxpart= 0 if customs_region=="Colonies Françaises de l'Amérique" & source_type=="local"
