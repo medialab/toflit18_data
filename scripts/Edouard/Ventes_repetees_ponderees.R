@@ -23,11 +23,11 @@ source("./scripts/Edouard/Filtrage.R")
 ### On filtre la bdd courante :
 
 
-Data_filter <- Data_filtrage(Ville = "Bordeaux",  ### Choix du port d'étude
+Data_filter <- Data_filtrage(Ville = "La Rochelle",  ### Choix du port d'étude
                              Outliers = F, ### conservation des outliers 
                              Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
                              Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                             Exports_imports = "Exports", ### On conserve les Importations ou les Exportations
+                             Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
                              Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix très importants
                              Product_select = F, ### Selection des produits par Charles Loic
                              Remove_double = T) ### On retire les doublons

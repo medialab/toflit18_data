@@ -103,14 +103,21 @@ Data_filtrage <- function(Ville,
   
   
   ### filtrage de la base de données 
-  
-  Data_filter <- Data %>%
-    filter(best_unit_metric == T
-           & export_import == Exports_imports
-           & outliers == Outliers) %>%
-    select("year", "Date", "product_simplification", "quantities_metric",
-           "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
-    
+  if (Outliers) {
+    Data_filter <- Data %>%
+      filter(best_unit_metric == T
+             & export_import == Exports_imports
+             & outliers == F) %>%
+      select("year", "Date", "product_simplification", "quantities_metric",
+             "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
+  }  
+  else {
+    Data_filter <- Data %>%
+      filter(best_unit_metric == T
+             & export_import == Exports_imports) %>%
+      select("year", "Date", "product_simplification", "quantities_metric",
+             "unit_price_metric", "id_prod_simp", "id_trans", "partner_orthographic")
+  }
    
 
   ### On retire les produits vendues deux fois la même année

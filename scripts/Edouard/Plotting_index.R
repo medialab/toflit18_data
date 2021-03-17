@@ -6,7 +6,6 @@ library(pracma)
 
 library(hpiR)
 
-### Calcul des indices de prix : 1er exemple
 
 ### A définir
 setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
@@ -82,7 +81,7 @@ Plot_index <- function(Ville,  ### Choix du port d'étude
   
   ### Creation des colonnes de colonnes
   Data_period <- dateToPeriod(trans_df = Data_filter,
-                              date = 'year',
+                              date = 'Date',
                               periodicity = 'yearly')
   
   
