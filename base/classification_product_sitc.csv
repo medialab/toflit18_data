@@ -1,5 +1,4 @@
 simplification,nbr_occurences_simpl,sitc,imprimatur,obsolete,nbr_occurences_sitc
-,3,9c,,non,13150
 ???,3473,9c,x,non,13150
 ??? blanc,2,9c,x,non,13150
 ??? brun,2,9c,x,non,13150
@@ -26,7 +25,7 @@ simplification,nbr_occurences_simpl,sitc,imprimatur,obsolete,nbr_occurences_sitc
 ???sse,1,9c,,non,13150
 ?ufs,0,9c,,non,13150
 [non traité],75,9c,,non,13150
-[vide],6218,,,non,6774
+[vide],6218,9b,,non,6774
 à l'aventure,47,9c,,non,13150
 à son lest,4,9c,,non,13150
 à vide,939,9c,,non,13150
@@ -920,7 +919,7 @@ barriques neuves,5,6b,x,non,36419
 barriques vides,181,6b,x,non,36419
 barriques vides vieilles,48,6b,,non,36419
 barriques vieilles,21,6b,x,non,36419
-barriques vieilles ???,4,,,non,6774
+barriques vieilles ???,4,6b,,non,6774
 bas,83,8,x,non,73737
 bas à crin d'or et de soie,1,8,x,non,73737
 bas communs,2,8,x,non,73737
@@ -3433,12 +3432,12 @@ cendre à houille,1,2,x,non,131659
 cendre à orfèvre,24,2,x,non,131659
 cendre à savon,1,2,x,non,131659
 cendre barille,1,2,x,non,131659
-cendre barille de soudes,4,,,non,6774
+cendre barille de soudes,4,2,,non,6774
 cendre blanche,1,5,x,non,61783
 cendre bleue,76,5,x,non,61783
 cendre bleue et verte,5,5,x,non,61783
 cendre bourde,252,2,x,non,131659
-cendre bourre de soudes,4,,,non,6774
+cendre bourre de soudes,4,2,,non,6774
 cendre broyée à l'huile,1,2,x,non,131659
 cendre calcinée,2,2,x,non,131659
 cendre cassant,4,2,x,non,131659
@@ -3491,7 +3490,7 @@ cendre pour nettoyer les pots,1,2,,non,131659
 cendre pour verrerie,1,2,x,non,131659
 cendre salicor,1,2,x,non,131659
 cendre saline,2,2,,non,131659
-cendre soudes,4,,,non,6774
+cendre soudes,4,3,,non,6774
 cendre soudes d'Égypte ou Natrum,0,2,,non,131659
 cendre verte,9,5,x,non,61783
 cendres de varech,4,2,,oui,131659
@@ -3588,7 +3587,7 @@ chair fraîche,3,0a,x,non,124059
 chair fraîche et salée,15,0a,x,non,124059
 chair fumée,29,0a,x,non,124059
 chair salée,892,0a,x,non,124059
-chair salée de bœufs,4,,,non,6774
+chair salée de bœufs,4,0a,,non,6774
 chair salée de jambon de porcs,1,0a,,non,124059
 chair salée de porcs,25,0a,,non,124059
 chair salée et chair fraîche,198,0a,x,non,124059
@@ -5502,8 +5501,8 @@ cunier,1,9c,x,non,13150
 cuny,0,9c,,non,13150
 curcuma,198,0b,x,non,34395
 curcuma en poudre,7,0b,,non,34395
-curcuma en racine,7,0b,,non,34395
-curcuma en racine des entrepôts,0,0b,,non,34395
+curcuma en racines,7,0b,,non,34395
+curcuma en racines des entrepôts,0,0b,,non,34395
 curcuma moulu,79,0b,,non,34395
 curiosité coquillage,2,2,,non,131659
 curiosité naturelle,2,8,x,non,73737
@@ -6316,8 +6315,8 @@ eau de fleurs fortes,1,5,,non,61783
 eau de garance,2,5,,non,61783
 eau de genièvre,11,5,x,non,61783
 eau de grain,1,5,,non,61783
-eau de hongrie,2,5,,non,61783
 eau de Hongrie,7,5,,non,61783
+eau de hongrie,2,5,,non,61783
 eau de jasmin,1,5,,non,61783
 eau de la Côte,1,5,x,non,61783
 eau de la reine de Hongrie,28,5,,oui,61783
@@ -7456,7 +7455,7 @@ faïence pour cheminée,1,6k,x,non,22471
 faïence pour jardin,1,6k,x,non,22471
 failles de laine,7,9c,,non,13150
 faire la course aux fraudeurs,1,9c,,non,13150
-faire la pêche au poisson frais,4,,,non,6774
+faire la pêche au poisson frais,4,9c,,non,6774
 fais vieux,1,9c,,non,13150
 faisans,10,0a,,non,124059
 faîteaux,2,9c,,non,13150
@@ -9657,7 +9656,7 @@ gravures encadrées,1,8,,non,73737
 gravures et lithographies,2,8,,non,73737
 gravures noires ou coloriées,6,8,,non,73737
 gravures peintures et sculptures,54,8,,non,73737
-gréements,6,,,non,6774
+gréements,6,7,,non,6774
 gréements de navires,2,,,non,6774
 gréements vieux,1,,,non,6774
 grèles,1,9c,,non,13150
@@ -10084,8 +10083,8 @@ huile d'élite dite keurolie,10,9c,,non,13150
 huile d'enc,2,9c,x,non,13150
 huile d'étain,1,9c,x,non,13150
 huile d'œillette,31,4,,oui,18384
-huile d'œillette de noix de pavots,18,,,non,6774
-huile d'œillette ou de pavot,13,,,non,6774
+huile d'œillette de noix de pavots,18,4,,non,6774
+huile d'œillette ou de pavot,13,4,,non,6774
 huile d'olive,3491,4,x,non,18384
 huile d'olive à manger,11,4,x,non,18384
 huile d'olive blanche de Gênes,0,4,,non,18384
@@ -10911,7 +10910,7 @@ légumes marinés,1,0a,x,non,124059
 légumes pois,30,0a,x,non,124059
 légumes salés ou confits,7,0a,,non,124059
 légumes secs,58,0a,x,non,124059
-légumes secs et racine d'igname,2,0a,,non,124059
+légumes secs et racines d'igname,2,0a,,non,124059
 légumes verts,7,0a,,non,124059
 légumes verts et secs,25,0a,,non,124059
 lelarge,0,9c,,non,13150
@@ -11516,7 +11515,7 @@ marchandises non classifiées,0,9b,,non,55721
 marchandises permises,77,9b,,non,55721
 marchandises pour la traite,7,9b,,non,55721
 marchandises prohibées,24,9b,,non,55721
-marchandises provenant d'un naufrage,7,,,non,6774
+marchandises provenant d'un naufrage,7,9b,,non,6774
 marchandises sèches,16,9b,,non,55721
 marchandises susceptibles,1,9b,,non,55721
 marchandises venant de l'étranger pour être réexportées aux colonies françaises principalement en armes barres de fers toile Guinée viande salée etc.,10,9b,,non,55721
@@ -12440,7 +12439,7 @@ moellons à faire chaux,92,2,,non,131659
 moellons à faire des bâtiments,2,6k,,non,22471
 moellons de brique,2,6k,,non,22471
 moellons pierres meulières etc.,2,6k,,non,22471
-mogette,4,,,non,6774
+mogette,4,0a,,non,6774
 moines ???,2,9c,,non,13150
 moines garnis de fer-blanc,1,8,x,non,73737
 moire,2,6f,,non,16643
@@ -13343,7 +13342,7 @@ outils de fer de forgeron,1,6j,x,non,52134
 outils de fer pur,8,6j,,non,52134
 outils de fer rechargé d'acier,8,6j,,non,52134
 outils de frecatage,1,6j,,non,52134
-outils de la pêche,115,,,non,6774
+outils de la pêche,115,6j,,non,6774
 outils de labourage,3,6j,,non,52134
 outils de lapidaire,1,6j,,non,52134
 outils de marine,1,7,,non,14018
@@ -13362,7 +13361,6 @@ outils menuisier,3,6j,,non,52134
 outils pour boulanger,1,6j,,non,52134
 outils pour charpentier,11,6j,,non,52134
 outils pour ferblantier,2,6j,,non,52134
-outils pour la pêche,115,6j,,oui,52134
 outils pour laboureur,3,6j,,non,52134
 outils pour marchands de vin,2,6j,,non,52134
 outils pour miroitier,2,6j,,non,52134
@@ -13484,8 +13482,8 @@ ouvrages de cuir et peaux,2,9b,,non,55721
 ouvrages de cuisse,1,9c,,non,13150
 ouvrages de cuivre,1209,6j,x,non,52134
 ouvrages de cuivre argenté,19,6j,x,non,52134
-ouvrages de cuivre argenté et dor,4,,,non,6774
-ouvrages de cuivre argenté et doré et plaqué,37,,,non,6774
+ouvrages de cuivre argenté et dor,4,6j,,non,6774
+ouvrages de cuivre argenté et doré et plaqué,37,6j,,non,6774
 ouvrages de cuivre doré,10,6j,x,non,52134
 ouvrages de cuivre doré et argenté,343,6j,x,non,52134
 ouvrages de cuivre et argent,1,6j,x,non,52134
@@ -13784,7 +13782,7 @@ papier à écrire bleu gris,11,6c,,non,7791
 papier à écrire toute espèce,5,6c,,non,7791
 papier à écu fin,2,6c,,non,7791
 papier à enveloppe,12,6c,,non,7791
-papier à enveloppe à pâte de couleur,5,,,non,6774
+papier à enveloppe à pâte de couleur,5,6c,,non,6774
 papier à envelopper,1,6c,x,non,7791
 papier à états,1,6c,x,non,7791
 papier à éventail,16,6c,x,non,7791
@@ -15194,7 +15192,7 @@ pilules,1,5,,non,61783
 pilules de Belloste,1,5,,non,61783
 piment,516,0a,x,non,124059
 piment des entrepôts,0,0a,,non,124059
-piment en grains,5,,,non,6774
+piment en grains,5,0a,,non,6774
 piment et poivre,83,9b,x,non,55721
 pinasse,31,7,x,non,14018
 pince de fer,4,6j,x,non,52134
@@ -15899,7 +15897,7 @@ plomb en rouleau lingots tables,1,6j,,non,52134
 plomb en saumon,1333,6j,x,non,52134
 plomb en saumon d'Allemagne,2,6j,,non,52134
 plomb en saumon et grenaille,9,6j,,non,52134
-plomb en saumon et rouleaux,5,,,non,6774
+plomb en saumon et rouleaux,5,6j,,non,6774
 plomb en saumon et table,6,6j,,non,52134
 plomb en saumon pour grenaille,1,6j,,non,52134
 plomb en saumon pour table,3,6j,,non,52134
@@ -16620,7 +16618,7 @@ prusus,1,9c,,non,13150
 psalterion,5,8,x,non,73737
 pupitre,1,8,x,non,73737
 pyrèthre,13,2,,non,131659
-pyrèthre racine,1,2,,non,131659
+pyrèthre racines,1,2,,non,131659
 quadrilles,2,9c,,non,13150
 quadruple ou pièce d'or d'Espagne,1,9a,,non,1579
 quarlais bottes etc.,45,0a,,non,124059
@@ -16709,13 +16707,12 @@ quintessence de rose,1,5,x,non,61783
 quire,1,9c,,non,13150
 rabots,2,6j,,non,52134
 racinages,1,0a,,non,124059
-racine d'alizary,4,,,non,6774
-racine de pivoine,1,5,,non,61783
 racines,91,2,x,non,131659
 racines à barreau,1,2,,non,131659
 racines à teindre,1,5,,non,61783
 racines d' ???,0,2,x,non,131659
 racines d'alizari,107,5,x,non,61783
+racines d'alizary,4,2,,non,6774
 racines d'angélique,25,2,x,non,131659
 racines d'Angleterre,1,2,x,non,131659
 racines d'arcanette,5,2,x,non,131659
@@ -16745,6 +16742,7 @@ racines de mechoacam,1,2,,non,131659
 racines de paruru brana,1,9c,,non,13150
 racines de persil,1,2,x,non,131659
 racines de pierrestre,16,2,x,non,131659
+racines de pivoine,1,5,,non,61783
 racines de rhubea,1,2,x,non,131659
 racines de riz,8,2,x,non,131659
 racines de rubea,1,2,,non,131659
@@ -16954,7 +16952,7 @@ restant de cargaison,1,9c,,non,13150
 restant de chaux,3,,,non,6774
 restant de fer,1,6j,,non,52134
 restant de futaille,4,6b,,non,36419
-restant de futailles,4,,,non,6774
+restant de futailles,4,6b,,non,6774
 restant de marchandises,286,9b,,non,55721
 restant de planches,1,6b,,non,36419
 restant de sa cargaison,1,9c,,non,13150
@@ -17386,8 +17384,7 @@ sanas blanc,3,6g,,non,16863
 sanctuaire,3,8,,non,73737
 sandale,6,8,x,non,73737
 sandance,1,9c,,non,13150
-sandarac,79,5,x,oui,61783
-sandaraque,79,,,non,6774
+sandaraque,79,5,,non,6774
 sang,1,2,x,non,131659
 sang de bétail,1,2,,non,131659
 sang de bouc,1,2,,non,131659
@@ -18309,7 +18306,7 @@ stirax liquide,1,5,,non,61783
 stockfisch,509,0a,,non,124059
 stockfisch mariné et salé,15,0a,,non,124059
 stockfisch salé,4,0a,,non,124059
-stockfish,5,,,non,6774
+stockfish,5,0a,,non,6774
 storax,204,2,x,non,131659
 storax calames,2,5,x,non,61783
 storax calamin,1,5,x,non,61783
@@ -19215,7 +19212,6 @@ toile abas,1,6h,x,non,15097
 toile abat,31,6h,x,non,15097
 toile ajamis,13,6g,,non,16863
 toile alanea,1,6h,x,non,15097
-toile aman,5,,,non,6774
 toile amant,3,6h,,oui,15097
 toile anascotes,2,6h,,non,15097
 toile anglaise,1,6h,,non,15097
@@ -19255,10 +19251,10 @@ toile blanche,905,6h,x,non,15097
 toile blanche à étoupe,1,6h,,non,15097
 toile blanche à imprimer,1,6h,,non,15097
 toile blanche abati,1,6h,,non,15097
-toile blanche aman,2,6h,,non,15097
 toile blanche bleue et de lin,1,6h,,non,15097
 toile blanche cirée,1,6h,,non,15097
 toile blanche commune,5,6h,,non,15097
+toile blanche d’aman,2,6g,,non,15097
 toile blanche damassée de lin pour nappes et serviettes,3,6h,,non,15097
 toile blanche de 13 à 20 fils,2,6h,,non,15097
 toile blanche de 13 fils,2,6h,,non,15097
@@ -19632,7 +19628,7 @@ toile de chanvre et de lin apprêtée écrue de 8 à 13 fils,1,6h,,non,15097
 toile de chanvre et de lin apprêtée écrue de fils,1,6h,,non,15097
 toile de chanvre et de lin apprêtée écrue de moins de 8 fils,1,6h,,non,15097
 toile de chanvre et de lin blanches,2,6h,,non,15097
-toile de chanvre et de lin écrue,10,,,non,6774
+toile de chanvre et de lin écrue,10,6d,,non,6774
 toile de chanvre et de lin écrue pour voile,2,6h,,non,15097
 toile de chanvre et de lin écrues,3,6h,,oui,15097
 toile de chanvre et de lin imprimée de 13 à 20 fils,2,6h,,non,15097
@@ -20090,7 +20086,7 @@ toile guingans des Indes,2,6g,,non,16863
 toile guingans des prises,1,6g,,non,16863
 toile guingans du Bengale,8,6g,,non,16863
 toile guingans nationale,5,6g,,non,16863
-toile hamacs,7,,,non,6774
+toile hamacs,7,6i,,non,6774
 toile hamacs imitant celles des Indes,1,,,non,6774
 toile hivre,1,6h,,non,15097
 toile hollande,1,6h,,non,15097
@@ -21213,7 +21209,7 @@ vipères,17,0a,x,non,124059
 vipères sèches,1,2,,non,131659
 vipères vives,2,0a,x,non,124059
 vipérine,8,2,,non,131659
-vipérine en racine,1,2,,non,131659
+vipérine en racines,1,2,,non,131659
 vipres,1,9c,,non,13150
 virez,4,9c,,non,13150
 vispapan ???,1,9c,,non,13150
@@ -21294,3 +21290,4 @@ zinc laminé,8,6j,,non,52134
 zinc pour fabriquer le laiton,11,6j,x,non,52134
 zingar,6,0a,,non,124059
 zurich,3,9c,,non,13150
+,3,9c,,non,13150
