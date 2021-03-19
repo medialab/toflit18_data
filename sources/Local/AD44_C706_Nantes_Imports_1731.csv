@@ -30,7 +30,7 @@ line_number,source_type,year,customs_region,customs_office,partner,export_import
 29,Local,1731,Nantes,,Hollande,Imports,Ancres de fer,,,2800,,14,nombre,200,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
 30,Local,1731,Nantes,,Hollande,Imports,Ancres de fer,,,9556.25,,38225,livres,.25,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
 31,Local,1731,Nantes,,Hollande,Imports,Acier,,,26840,,244,barils,110,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
-32,Local,1731,Nantes,,Hollande,Imports,Ambre jaune,,,590,,460,livres,300,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,erreur de calcul,-137410,,,,,,,,,
+32,Local,1731,Nantes,,Hollande,Imports,Ambre jaune,,,590,,460,livres,"1,28260869565217",sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,"Je ne sais pas d’où vient le prix, mais il est manifestement faux…. Je garde la valeur et j’adapte le prix (qui était 300!)",-137410,,,,,,,,,
 33,Local,1731,Nantes,,Hollande,Imports,Azur commun,,,4639.25,,8435,livres,.55000001,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
 34,Local,1731,Nantes,,Hollande,Imports,Amidon,,,13492.5,,38550,livres,.34999999,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
 35,Local,1731,Nantes,,Hollande,Imports,Avoine,,,10500,,150,tonneaux,70,sources/Local/AD44_C706_Nantes_Imports_1731.csv,AD44 C706,1,,,,,Hasna,1,,0,,,,,,,,,
