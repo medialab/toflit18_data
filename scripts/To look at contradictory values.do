@@ -18,8 +18,8 @@ cd "$dirgit"
 
 import delimited "$dirgit/toflit18_data_GIT/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
 
-destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
-destring quantity value_per_unit value, replace
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace float
+destring quantity value_per_unit value, replace float
 
 drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
@@ -41,7 +41,7 @@ replace value=. if (value==0 & quantity !=. & quantity !=0)
 generate byte computed_value = 0
 label var computed_value "Was the value computed expost based on unit price and quantities ? 0 no 1 yes"
 replace computed_value=1 if (value==0 | value==.) & value_per_unit!=0 & value_per_unit!=. & quantity!=0 & quantity!=.
-replace value = quantity*value_per_unit if computed_value==1
+replace value = float(quantity*value_per_unit) if computed_value==1
 
 gen byte computed_value_per_unit = 0
 label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
@@ -50,12 +50,12 @@ replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) &
 replace value_per_unit = value/quantity  if computed_value_per_unit ==1
 
 
-destring value_minus_unit_val_x_qty, replace
+destring value_minus_unit_val_x_qty, replace float
 
 replace quantity=. if quantity==0
 
 rename value_minus_unit_val_x_qty value_minus_un_source
-gen value_minus_unit_val_x_qty = value-(value_per_unit*quantity)
+gen value_minus_unit_val_x_qty = float(value-(value_per_unit*quantity))
 
 gen diff=abs(value_minus_unit_val_x_qty)/value
 gen ln_diff=abs(ln(quantity*value_per_unit/value))
