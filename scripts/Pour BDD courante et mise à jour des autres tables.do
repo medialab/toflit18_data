@@ -88,17 +88,17 @@ save "Données Stata/Units_N1.dta", replace
 
 use "Données Stata/classification_quantityunit_simplification.dta", clear
 replace conv_orthographic_to_simplificat  =usubinstr(conv_orthographic_to_simplificat,",",".",.)
-destring conv_orthographic_to_simplificat source_bdc, replace
+destring conv_orthographic_to_simplificat source_bdc, replace float
 save "Données Stata/classification_quantityunit_simplification.dta", replace
 
 use "Données Stata/classification_quantityunit_metric1.dta", clear
 replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
-destring conv_simplification_to_metric, replace
+destring conv_simplification_to_metric, replace float
 save "Données Stata/classification_quantityunit_metric1.dta", replace
 
 use "Données Stata/classification_quantityunit_metric2.dta", clear
 replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
-destring conv_simplification_to_metric, replace
+destring conv_simplification_to_metric, replace float
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 
 /*
@@ -184,8 +184,8 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 }
 
 
-destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace
-destring quantity value_per_unit value, replace
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace float
+destring quantity value_per_unit value, replace float
 
 drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
@@ -1062,9 +1062,9 @@ replace quantity = value/value_per_unit  if computed_quantity ==1
 
 
 
-destring value_minus_unit_val_x_qty, replace
+destring value_minus_unit_val_x_qty, replace float
 rename value_minus_unit_val_x_qty value_minus_un_source
-gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
+gen value_minus_unit_val_x_qty = float(value_as_reported-(value_per_unit*quantity) )
 
 
 
