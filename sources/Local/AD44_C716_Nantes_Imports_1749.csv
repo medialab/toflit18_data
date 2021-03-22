@@ -50,7 +50,7 @@ line_number,source_type,year,customs_region,customs_office,partner,export_import
 49,Local,1749,Nantes,,Danemark,Imports,Matreaux de 30 pieds,,,60,,2,pièces,20,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,2,,,,,Hasna,1,erreur de calcul,20,,,,,,,,,
 50,Local,1749,Nantes,,Danemark,Imports,Mairrain baricages en douelles,,,300,,2100,pièces,.15000001,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,2,,,,,Hasna,1,erreur de calcul,-15,,,,,,,,,
 51,Local,1749,Nantes,,Danemark,Imports,Mairrain pipayes en douelles,,,300,,6600,pièces,.30000001,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,2,,,,,Hasna,1,erreur de calcul -- Je change la valeur unitaire (par millier) GD,-1979700,,,,,,,,,
-52,Local,1749,Nantes,,Danemark,Imports,Morue seche,,,360,,1448,livres,25,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,2,,,,,Hasna,1,erreur de calcul -- je pense qu'il manque un 0 je le rajoute,-36164,,,,,,,,,
+52,Local,1749,Nantes,,Danemark,Imports,Morue seche,,,360,,1448,livres,.25,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,2,,,,,Hasna,1,erreur de calcul -- je pense qu'il manque un 0 je le rajoute -- Le prix est sans doute 25 livres au cent : je le change GD,-36164,,,,,,,,,
 53,Local,1749,Nantes,,Danemark,Imports,Planches de chene de 20 à 30 pieds,,,352,,88,pièces,4,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,3,,,,,Hasna,1,,0,,,,,,,,,
 54,Local,1749,Nantes,,Danemark,Imports,Planches de sapin de 27 à 29 pieds,,,6313,,1403,pièces,4.5,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,3,,,,,Hasna,1,,-.5,,,,,,,,,
 55,Local,1749,Nantes,,Danemark,Imports,Planches de sapin de 20 à 24 pieds,,,5645,,1613,pièces,3.5,sources/Local/AD44_C716_Nantes_Imports_1749.csv,AD44 C716,3,,,,,Hasna,1,,-.5,,,,,,,,,
