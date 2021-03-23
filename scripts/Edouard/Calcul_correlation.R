@@ -21,7 +21,7 @@ Calcul_correlation_matrix <- function()
 {
 
   ### On charge les valeurs actuelles du csv
-  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1, dec = ".")
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1, dec = ",")
   
   
   Cor_matrix_workbook <- createWorkbook()
