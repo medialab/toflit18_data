@@ -4,6 +4,8 @@ library(stringr)
 library(readr)
 library(pracma)
 
+library(openxlsx)
+
 library(hpiR)
 
 ### A définir
@@ -13,203 +15,88 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 
 rm(list = ls())
 
-### On charge la fonction de filtrage
-source("./scripts/Edouard/Filtrage.R")
-source("./scripts/Edouard/Ventes_repetees_ponderees.R")
 
+Calcul_correlation_matrix <- function()
+  
+{
 
-for (Ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
-  for (Type in c("Imports", "Exports")) {
+  ### On charge les valeurs actuelles du csv
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1, dec = ".")
+  
+  
+  Cor_matrix_workbook <- createWorkbook()
+  
+  for (Ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
+    for (Type in c("Imports", "Exports")) {
+  
+      
+      Var_used <- unique(Index_res[ , 3:10])
+      
+      col_names <- c()
+      for (Row in seq(1, dim(Var_used)[1])) {
+        name <- c()
+        for (Col in 1:8) {
+          name <- paste(name, names(Var_used)[Col], ":", as.character(Var_used[Row, Col]), ";")
+        }
+        col_names <- c(col_names, name)
+      }
+      
+      Correlation_matrix <- matrix(nrow = dim(Var_used)[1], ncol = dim(Var_used),
+                                   dimnames = list(col_names, col_names))
+      
+      
+      for (i in seq(1, dim(Var_used)[1])) {
+        for (j in seq(1, dim(Var_used)[1])) {
+          Index1 <- Index_res %>%
+            filter(Ville == Ville,
+                   Exports_imports == Type,
+                   Outliers == Var_used$Outliers[i],
+                   Outliers_coef == Var_used$Outliers_coef[i],
+                   Trans_number == Var_used$Trans_number[i],
+                   Prod_problems == Var_used$Prod_problems[i],
+                   Product_select == Var_used$Product_select[i],
+                   Remove_double == Var_used$Remove_double[i],
+                   Ponderation == Var_used$Ponderation[i],
+                   Pond_log == Var_used$Pond_log[i]) %>%
+              select(c("year", "Index_value"))
+          
+          Index2 <- Index_res %>%
+            filter(Ville == Ville,
+                   Exports_imports == Type,
+                   Outliers == Var_used$Outliers[j],
+                   Outliers_coef == Var_used$Outliers_coef[j],
+                   Trans_number == Var_used$Trans_number[j],
+                   Prod_problems == Var_used$Prod_problems[j],
+                   Product_select == Var_used$Product_select[j],
+                   Remove_double == Var_used$Remove_double[j],
+                   Ponderation == Var_used$Ponderation[j],
+                   Pond_log == Var_used$Pond_log[j]) %>%
+            select(c("year", "Index_value"))
+          
+          cor <- cor(Index1, Index2, use = "complete.obs")
+          
+          if (cor[1,1] > 0.99) {
+            Correlation_matrix[i, j] = cor[2,2]
+          } else {
+            Correlation_matrix[i, j] = NA
+          }
+        }
+      }
+      
+      addWorksheet(Cor_matrix_workbook, sheetName = paste(Ville, Type))
+      
+      writeData(Cor_matrix_workbook,
+                sheet = paste(Ville, Type),
+                x = Correlation_matrix,
+                rowNames = T,
+                colNames = T)
+      
+    }
+  }
+        
+  saveWorkbook(Cor_matrix_workbook, "./scripts/Edouard/Correlation_matrix.xlsx",
+               overwrite = T)      
+        
+}
     
-  Index1 <-  Calcul_pond_index(Ville = Ville,  ### Choix du port d'étude
-                               Exports_imports = Type,
-                               Outliers = T, ### On retire les outliers 
-                               Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
-                               Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                               ### On conserve les Importations ou les Exportations
-                               Prod_problems = T,
-                               Product_select = T,
-                               Remove_double = F,
-                               Ponderation = T)
-  
-  
-  Index2 <-  Calcul_pond_index(Ville = Ville,  ### Choix du port d'étude
-                               Exports_imports = Type,
-                               Outliers = T, ### On retire les outliers
-                               Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
-                               Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                               ### On conserve les Importations ou les Exportations
-                               Prod_problems = T,
-                               Product_select = T,
-                               Remove_double = F,
-                               Ponderation = F)
-  
-  print(c(Ville, Type))
-
-  try(print(cor(Index1, Index2, use = "complete.obs")))
-  
-  Index1 <- remove_missing(Index1)
-  Index2 <- remove_missing(Index2)
-  plot(Index1$year, Index1$Index, main = "Index1", type = "o")
-  plot(Index2$year, Index2$Index, main = "Index2", type = "o")
-
-  }
-}
-
-
-
-Calcul_index <- function(Ville,  ### Choix du port d'étude
-                         Exports_imports,
-                         Outliers = F, ### conservation des outliers 
-                         Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
-                         Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                         ### On conserve les Importations ou les Exportations
-                         Prod_problems = T,
-                         Product_select = F, ### Conserve-t-on les produits avec des différences de prix très importants
-                         Remove_double = F) 
-{
-  
-  Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
-                               Outliers = Outliers, ### conservation des outliers 
-                               Outliers_coef = Outliers_coef, ### Quel niveau d'écart inter Q garde-t-on
-                               Trans_number = Trans_number, ### On retire les produits vendus moins de Trans_number fois
-                               Exports_imports = Exports_imports, ### On conserve les Importations ou les Exportations
-                               Prod_problems = Prod_problems,
-                               Product_select = Product_select,
-                               Remove_double = Remove_double) ### Conserve-t-on les produits avec des différences de prix très importants
-  
-  
-  
-  ### Creation des colonnes de colonnes
-  Data_period <- dateToPeriod(trans_df = Data_filter,
-                              date = 'Date',
-                              periodicity = 'yearly')
-  
-  
-  ### Création de la base de données des transactions considérées
-  Data_trans <- rtCreateTrans(trans_df = Data_period,
-                              prop_id = "id_prod_simp",
-                              trans_id = "id_trans",
-                              price = "unit_price_metric",
-                              min_period_dist = 0,
-                              seq_only = T)
-  
-  
-  ### Application du modèle
-  rt_model <- hpiModel(model_type = "rt",
-                       hpi_df = Data_trans,
-                       estimator = "weighted",
-                       log_dep = T,
-                       trim_model = F,
-                       mod_spec = NULL)
-  
-  ### Calacul de l'indice
-  rt_index <- modelToIndex(rt_model)
-  rt_index$numeric <- as.numeric(rt_index$name)
-  rt_index$period <- as.numeric(rt_index$name)
-  
-  rt_index$value <- na_if(rt_index$value, Inf) 
-  
-  ### Smooth index
-  smooth_index <- smoothIndex(rt_index,
-                              order = 5,
-                              in_place = T)
-  
-  ### Affichage du résultat
-  ### Indice brut
-  plot(rt_index, show_imputed = T)
-  ### Smooth index
-  plot(smooth_index, smooth = T)
-  
-  
-  
-  ### plotting without imputed value
-  rt_index_correct <- data.frame("value" = rt_index$value,
-                                 "period" = rt_index$numeric,
-                                 "imputed" = rt_index$imputed)
-
-  return(rt_index_correct)
-  
-}
-
-
-
-
-
-
-
-Calcul_pond_index  <- function(Ville,  ### Choix du port d'étude
-                               Exports_imports,
-                               Outliers = F, ### conservation des outliers 
-                               Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on
-                               Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                               ### On conserve les Importations ou les Exportations
-                               Prod_problems = T,
-                               Product_select = F, ### Conserve-t-on les produits avec des différences de prix très importants
-                               Remove_double = F,
-                               Ponderation = F) 
-{
-  
-  Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
-                               Outliers = Outliers, ### conservation des outliers 
-                               Outliers_coef = Outliers_coef, ### Quel niveau d'écart inter Q garde-t-on
-                               Trans_number = Trans_number, ### On retire les produits vendus moins de Trans_number fois
-                               Exports_imports = Exports_imports, ### On conserve les Importations ou les Exportations
-                               Prod_problems = Prod_problems,
-                               Product_select = Product_select,
-                               Remove_double = Remove_double) ### Conserve-t-on les produits avec des différences de prix très importants
-  
-  ### Calcul des pondérations
-  Product_pond <- Data_filter %>%
-    group_by(id_prod_simp) %>%
-    summarize(Value_tot_log = log(sum(quantities_metric*unit_price_metric)),
-              Value_tot = sum(quantities_metric*unit_price_metric))
-  
-  ### On 
-  Product_pond$Value_part_log <- round(10000 * Product_pond$Value_tot_log / sum(Product_pond$Value_tot_log, na.rm = T)) 
-  Product_pond$Value_part <- round(10000 * Product_pond$Value_tot / sum(Product_pond$Value_tot, na.rm = T)) 
-  
-  
-  
-  ### Creation de la colonne des périodes
-  Data_period <- dateToPeriod(trans_df = Data_filter,
-                              date = 'Date',
-                              periodicity = 'yearly')
-  
-  
-  ### Creation de la base de données des transactions
-  
-  ### Création de la base de données des transactions considérées
-  Data_trans <- rtCreateTrans(trans_df = Data_period,
-                              prop_id = "id_prod_simp",
-                              trans_id = "id_trans",
-                              price = "unit_price_metric",
-                              min_period_dist = 0,
-                              seq_only = T)
-  
-  
-  
-  price_diff <- log(Data_trans$price_2) - log(Data_trans$price_1)
-  time_matrix <- rtTimeMatrix(Data_trans)
-  
-  Data_trans <- Data_trans %>%
-    left_join(Product_pond, by = c("prop_id" = "id_prod_simp"))
-  
-  
-  if (Ponderation) {
-    reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part)
-  } else {
-    reg <- lm(price_diff ~ time_matrix + 0)
-  }
-  reg$coefficients[1] = 0
-  
-  
-  rt_pond_index <- data.frame("year" = seq(min(Data_filter$year), min(Data_filter$year) + length(reg$coefficients) - 1),
-                              "Index" = 100*exp(reg$coefficients),
-                              row.names = NULL)
-  
-  return(rt_pond_index)
-  
-}
-
-
+    
