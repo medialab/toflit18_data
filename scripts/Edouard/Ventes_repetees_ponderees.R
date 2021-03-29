@@ -76,18 +76,15 @@ Calcul_index <- function(Data, Ponderation = T, Pond_log = T) {
   if (Ponderation) {
     if (Pond_log) {
       reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part_log)
-      reg$coefficients[1] = 0
     } else {
       reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part)
-      reg$coefficients[1] = 0
     }
   } else {
     reg <- lm(price_diff ~ time_matrix + 0)
-    reg$coefficients[1] = 0
   }
       
-  rt_pond_index <- data.frame("year" = seq(min(Data$year), min(Data$year) + length(reg$coefficients) - 1),
-                              "Index" = 100*exp(reg$coefficients),
+  rt_pond_index <- data.frame("year" = seq(min(Data$year), min(Data$year) + length(reg$coefficients)),
+                              "Index" = 100*exp(c(0, reg$coefficients)),
                               row.names = NULL)
   
   return(rt_pond_index)
@@ -129,11 +126,12 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   
   Data_part <- Data_filter %>%
     group_by(year) %>%
-    summarise(Part_value = mean(Part_value)) %>%
+    summarise(Part_value = mean(Part_value),
+              Part_flux = mean(Part_flux)) %>%
     as.data.frame()
   
   
-  rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value")], "year" = "year", all.x = T,
+  rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T,
                     all.y = F)
   
   return(rt_index)

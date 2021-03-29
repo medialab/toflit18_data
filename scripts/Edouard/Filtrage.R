@@ -8,6 +8,11 @@ library(modern)
 
 rm(list = ls())
 
+### A définir
+setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
+### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
+
+
 Data_filtrage <- function(Ville,
                           Exports_imports = "Imports",
                           Outliers = T,
@@ -49,13 +54,15 @@ Data_filtrage <- function(Ville,
   
   Value_com_final <- Data %>%
     group_by(year) %>%
-    summarize(Value_finale = sum(value)) %>%
+    summarize(Value_finale = sum(value),
+              Flux_final = n()) %>%
     as.data.frame()
   
   Part_value <- merge(Value_com_final, Value_com_tot, "year" = "year", all = T)
   Part_value$Part_value <- Part_value$Value_finale / Part_value$Value_tot
+  Part_value$Part_flux <- Part_value$Flux_final / Part_value$Flux_tot
   
-  Data <- merge(Data, Part_value[, c("year", "Part_value")], "year" = "year", all.x = T)
+  Data <- merge(Data, Part_value[, c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T)
     
  
   return(Data)
@@ -74,7 +81,8 @@ Read_bdd_courante <- function(Ville, Exports_imports) {
     filter(customs_region == Ville) %>%
     filter(export_import == Exports_imports) %>%
     group_by(year) %>%
-    summarize(Value_tot = sum(value)) %>%
+    summarize(Value_tot = sum(value, na.rm = T),
+              Flux_tot = n()) %>%
     as.data.frame()
       
   
@@ -202,7 +210,7 @@ Keep_prod_select <- function(Data) {
   Product_selection <- read.csv2("./scripts/Edouard/Product_selection.csv")
   
   Product_selection <- Product_selection %>%
-    filter(Ville == Ville & Type == Exports_imports & Product_selection == 1)
+    filter(Product_selection == 1)
   
   Data <- Data %>%
     filter(product_simplification %in% Product_selection$product_simplification)
@@ -213,7 +221,7 @@ Keep_prod_select <- function(Data) {
   
 
 ### On retire les produits apparaissant plus de Number_trans fois  
-Keep_trans_number <- function(Data, Number_trans = 0) {  
+Keep_trans_number <- function(Data, Trans_number = 0) {  
   ### On compte le nombre de transactions sur la base de données filtrées 
   Data <- Data %>%  
     group_by(product_simplification) %>%
@@ -229,3 +237,4 @@ Keep_trans_number <- function(Data, Number_trans = 0) {
   return(Data)
   
 }
+
