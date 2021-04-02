@@ -13,6 +13,16 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
 
 
+### Cette fonction permet le filtrage de la base de données selon les parmètres suivants (valeurs par défaut):
+# Ville, ==> port considéré
+# Exports_imports = "Imports", ==> Type : Exports ou Imports
+# Outliers = T, ==> Retire-t-on les outliers ? T ou F, outliers d'une loi log-normale avec z-score modifié (https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm)
+# Outliers_coef = 3.5, ==> outliers_coef utilisé, nombre positif, plus il est grand plus le nombre d'outliers diminue
+# Trans_number = 0, ==> Retire les produits apparaissant moins de Trans_number fois dans la base filtrée, entier positif
+# Prod_problems = T, ==> Retire-t-on les produits avec un écart interquartile (3rd - 1st quartile) > 10 ? T ou F
+# Product_select = F, ==> Conserve-t-on uniquement les produits de la sélection réalisée par Loïc ? T ou F
+# Remove_double = T ==> Rassemble-t-on les produits vendus plus de deux fois dans la même année 
+
 Data_filtrage <- function(Ville,
                           Exports_imports = "Imports",
                           Outliers = T,
@@ -23,10 +33,19 @@ Data_filtrage <- function(Ville,
                           Remove_double = T) 
   
 {
+  ### Lecture de la base de données courante et filtrage par la ville et le type (Imports ou Exports)
+  ### Conservation uniquement des variables suivantes : "year", "customs_region", "export_import", "partner_orthographic",
+  ### "product_simplification", "quantity_unit_metric", "quantities_metric", "unit_price_metric", "value", "best_guess_region_prodxpart"
+  ### Création d'un indice de transaction et d'un indice de produit
+  ### Conservation uniquement des produits dans la meilleure unité considérée (unité la plus vendue en terme de transctions)
+  ### Calcul également de la valeur totale du commerce et du flux initiale
   Res <- Read_bdd_courante(Ville, Exports_imports)
+  ### Data est la base de données filtrée sans les paramètres complémentaires
   Data <- Res[[1]]
+  ### Value_com_tot correspond aux valeurs de la valeur totale du flux et du commerce par année
   Value_com_tot <- Res[[2]]
   
+  ### si Outliers == T, on retire les outliers 
   if (Outliers) {
     Data <- Detect_outliers(Data,
                     Outliers_coef)
@@ -34,37 +53,43 @@ Data_filtrage <- function(Ville,
     Data <- Remove_outliers(Data)
   }
   
-
+  ### si Prod_problems == T, on retire les produits "problématiques"
   if (Prod_problems) {
     Data <- Remove_prod_problems(Data)
   }
   
+  ### si Remove_double == T, on rassemble les produits vendus plus de deux fois la même année
   if (Remove_double) {
     Data <- Remove_double_val(Data)
   }
   
+  ### si prod_select == T, on conserve uniquement les produits sélectionnés par Loïc
   if (Product_select) {
     Data <- Keep_prod_select(Data)
   }
   
+  ### si Trans_number != 0, on conserve uniquement les produits échangés plus de Trans_numer fois
   if (Trans_number != 0) {
     Data <- Keep_trans_number(Data,
                               Trans_number) 
   }
   
+  ### On calcule la valeur du flux et du commerce finale
   Value_com_final <- Data %>%
     group_by(year) %>%
     summarize(Value_finale = sum(value),
               Flux_final = n()) %>%
     as.data.frame()
   
+  ### On calcule la part du commerce et du flux en divisant final/total
   Part_value <- merge(Value_com_final, Value_com_tot, "year" = "year", all = T)
   Part_value$Part_value <- Part_value$Value_finale / Part_value$Value_tot
   Part_value$Part_flux <- Part_value$Flux_final / Part_value$Flux_tot
   
+  ### On rajoute à la base de données filtrées la part du commerce et du flux totale
   Data <- merge(Data, Part_value[, c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T)
     
- 
+  ### On retourne la base de données obtenue
   return(Data)
   
 }  
@@ -76,6 +101,7 @@ Read_bdd_courante <- function(Ville, Exports_imports) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
+  ### Calcule de la valeur totale du flux et du commerce initiale
   Value_com_tot <- bdd_courante %>%
     filter(best_guess_region_prodxpart == 1) %>%
     filter(customs_region == Ville) %>%
@@ -86,7 +112,7 @@ Read_bdd_courante <- function(Ville, Exports_imports) {
     as.data.frame()
       
   
-  
+  ### Filtrage initiale de la base de données
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
@@ -96,6 +122,7 @@ Read_bdd_courante <- function(Ville, Exports_imports) {
     filter(best_guess_region_prodxpart == 1) %>%
     ### On selectionne uniquement le port de Marseille
     filter(customs_region == Ville) %>%
+    ### Les chaînes de charatères sont transformés en type facteur
     mutate_if(is.character, as.factor) %>%
     ### Création ID product_simplification et ID transaction
     mutate(id_prod_simp = as.numeric(product_simplification),
@@ -124,7 +151,7 @@ Read_bdd_courante <- function(Ville, Exports_imports) {
 
 ### Détéetction valeurs aberrantes pour une loi log-normale par la méthode
 ### du Z-score modifié :
-### https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.html
+### https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm
 Detect_outliers <- function(Data, Outliers_coef) {
   
   outliers_trans <- c()
