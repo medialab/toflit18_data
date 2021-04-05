@@ -1,3 +1,8 @@
+
+### Chargement des différents packages utilisés
+### S'ils ne sont pas installés sur la machine, procéder à leur installation 
+### via la commande install.packages("nom_du_package")
+
 library(dplyr)
 library(tidyverse)
 library(stringr)
@@ -8,30 +13,40 @@ library(openxlsx)
 
 library(hpiR)
 
-### A définir
+
+### A définir: emplacement du working directory
 setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
 
-
+### Nettoyage de l'espace de travail
 rm(list = ls())
 
+
+### Cette fonction permet de remplir l'excel Correlation_matrix.xlsx
+### Cette excel possède un onglet par Ville + Type avec Type = Imports ou Exports
+### Pour chaque indice il calcule les corrélations possibles entre l'ensemble des variations des paramètres 
+### utilisés dans le fichier csv Index_results.csv
 
 Calcul_correlation_matrix <- function()
   
 {
 
-  ### On charge les valeurs actuelles du csv
+  ### On charge les valeurs de Index_results.csv
   Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1, dec = ",")
   
-  
+  ### Création d'un workbook (objet comparable à un excel et converti en excel à la fin)
   Cor_matrix_workbook <- createWorkbook()
   
-  for (Ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
+  ### On récupère l'ensemble des villes du csv des indices
+  liste_ville <- unique(Index_res[ , 1])
+  
+  for (Ville in liste_ville) {
     for (Type in c("Imports", "Exports")) {
   
-      
+      ### On récupère l'ensemble des configurations possibles avec les variables
       Var_used <- unique(Index_res[ , 3:10])
       
+      ### col_names est égal à la suite de l'ensemble des configurations possibles avec les variables
       col_names <- c()
       for (Row in seq(1, dim(Var_used)[1])) {
         name <- c()
@@ -41,12 +56,16 @@ Calcul_correlation_matrix <- function()
         col_names <- c(col_names, name)
       }
       
+      ### Création de la matrice de corrélation les noms des lignes et des colonnes sont égales à col_names
       Correlation_matrix <- matrix(nrow = dim(Var_used)[1], ncol = dim(Var_used),
                                    dimnames = list(col_names, col_names))
       
       
+      ### Pour chaque configuration possible on calcule les corrélations 2 à 2 des indices
       for (i in seq(1, dim(Var_used)[1])) {
         for (j in seq(1, dim(Var_used)[1])) {
+          
+          ### Récupération de l'indice Configuration 1
           Index1 <- Index_res %>%
             filter(Ville == Ville,
                    Exports_imports == Type,
@@ -60,6 +79,7 @@ Calcul_correlation_matrix <- function()
                    Pond_log == Var_used$Pond_log[i]) %>%
               select(c("year", "Index_value"))
           
+          ### Récupération de l'indice configuration 2
           Index2 <- Index_res %>%
             filter(Ville == Ville,
                    Exports_imports == Type,
@@ -73,8 +93,11 @@ Calcul_correlation_matrix <- function()
                    Pond_log == Var_used$Pond_log[j]) %>%
             select(c("year", "Index_value"))
           
+          ### Calcul de la correlation
           cor <- cor(Index1, Index2, use = "complete.obs")
           
+          ### si les années sont bien comparables entre les indices (cor[1,1] > 0.99) alors on remplit la matrix de correlation
+          ### sinon on met NA
           if (cor[1,1] > 0.99) {
             Correlation_matrix[i, j] = cor[2,2]
           } else {
@@ -83,8 +106,10 @@ Calcul_correlation_matrix <- function()
         }
       }
       
+      ### On crée un nouvel onglet ville type au workbook
       addWorksheet(Cor_matrix_workbook, sheetName = paste(Ville, Type))
       
+      ### On ajoute la matrice de corrélation dans l'onglet ville type
       writeData(Cor_matrix_workbook,
                 sheet = paste(Ville, Type),
                 x = Correlation_matrix,
@@ -93,7 +118,8 @@ Calcul_correlation_matrix <- function()
       
     }
   }
-        
+  
+  ### On sauvegarde le workbook dans l'excel Correlation_matrix.xlsx    
   saveWorkbook(Cor_matrix_workbook, "./scripts/Edouard/Correlation_matrix.xlsx",
                overwrite = T)      
         
