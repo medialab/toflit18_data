@@ -1,6 +1,7 @@
 origin,origin_norm_ortho,nbr_occurence
-,,542514
+,,542517
 ?,?,3
+(De renvoi),,1
 3 Evêchés,Trois-Évêchés,3
 Abbeville,Abbeville,59
 Acheté à Lisbonne en faisant route pour la côte d'or,Acheté à Lisbonne en faisant route pour la côte d'or,1
@@ -14,22 +15,23 @@ Alençon,Alençon,7
 Alep,Alep,2
 Alicante,Alicante,1
 Aligre,Aligre,2
-Allemagne,Allemagne,13
-Alsace,Alsace,27
+Allemagne,Allemagne,15
+Alsace,Alsace,28
 Amérique,Amérique,4
 Amérique espagnole,Amérique espagnole,4
 amienois,Amiénois,1
-Amienois,Amiénois,102
+Amienois,Amiénois,103
 Amiénois,Amiénois,307
-Amiens,Amiens,186
-Angers,Angers,18
+Amiens,Amiens,190
+Anger,,2
+Angers,Angers,19
 Angers et Saumur,Angers et Saumur,3
-Angleterre,Angleterre,447
-Angoulême,Angoulême,56
+Angleterre,Angleterre,452
+Angoulême,Angoulême,58
 Angoumoins,Angoumois,1
 Angoumois,Angoumois,115
 anjou,Anjou,8
-Anjou,Anjou,178
+Anjou,Anjou,202
 Anjou et Comte nantais,Anjou et Comté de Nantes,3
 Anjou et Orleanais,Anjou et Orléanais,5
 Annonay,Annonay,1
@@ -42,7 +44,7 @@ Aubenas,Aubenas,1
 Aubenton,Aubenton,1
 Aulnay,Aulnay,11
 Aunis,Aunis,144
-Auvergne,Auvergne,62
+Auvergne,Auvergne,63
 Aux Voyageurs,Aux Voyageurs,1
 Auxonne,Auxonne,1
 Avignon,Avignon,1
@@ -66,15 +68,16 @@ Beaussird,Beaussird,1
 Beauvais,Beauvais,25
 Beauvoisin,Beauvoisin,1
 Belesine,Belesine,1
+Belle Isle,,1
 Bernay,Bernay,2
-Berri,Berry,11
-Berry,Berry,26
+Berri,Berry,28
+Berry,Berry,30
 Bidache,Bidache,3
 Bigor,Bigorre,1
 Bigorre,Bigorre,21
 Blaye,Blaye,1
 Bolbec,Bolbec,3
-Bordeaux,Bordeaux,741
+Bordeaux,Bordeaux,759
 Bordeaux Bourgogne,Bordeaux Bourgogne,2
 Bordeaux Champagne,Bordeaux Champagne,1
 Bordeaux d'Espagne,Bordeaux d'Espagne,1
@@ -85,7 +88,7 @@ Bordeaux Guyenne,Bordeaux Guyenne,1
 Bordeaux Languedoc,Bordeaux Languedoc,2
 Bouillon,Bouillon,3
 Boulogne,Boulogne,9
-Boulonais,Boulonais,38
+Boulonais,Boulonais,39
 Bourbonais,Bourbonnais,2
 Bourbonnais,Bourbonnais,2
 Bourbonnois,Bourbonnais,2
@@ -95,7 +98,8 @@ Bournay,Bournay,1
 Brême,Brême,10
 Bremen,Brême,1
 Brésil,Brésil,4
-Bretagne,Bretagne,773
+Bretagne,Bretagne,889
+Bretagne et Anjou,,5
 Brouage,Brouage,4
 Bureau du roy,Bureau du roy,1
 Caen,Caen,8
@@ -115,7 +119,7 @@ Castres,Castres,3
 Cette,Cette,13
 Chalons,Chalons,1
 Chalosse,Chalosse,6
-Champagne,Champagne,763
+Champagne,Champagne,767
 Charente,Charente,7
 Charleville,Charleville,8
 Chartres,Chartres,1
@@ -167,13 +171,16 @@ Duris,Duris,1
 Elbeuf,Elbœuf,4
 Elboeuf,Elbœuf,7
 Elbœuf,Elbœuf,22
-Espagne,Espagne,44
+Espagne,Espagne,46
 Espagne et Portugal,Espagne et Portugal,1
 Etanger,Étranger,3
-Etats-Unis,Etats-Unis,14
-Etranger,Étranger,252
+Etats-Unis,Etats-Unis,22
+Etats-Unis de l'Amérique,,4
+Etranger,Étranger,286
 étranger,Étranger,4
 Étranger,Étranger,627
+Etranger (de renvoi ),,1
+Etranger (renvoi),,1
 Etranger!!!!,Étranger,1
 Eveches,Trois-Évêchés,3
 Evêchés,Trois-Évêchés,2
@@ -181,11 +188,11 @@ Fécamp,Fécamp,3
 Ferol,Férol,2
 Férol,Férol,1
 Flandre,Flandres,657
-Flandres,Flandres,342
+Flandres,Flandres,347
 Foire de Beaucaire,Foire de Beaucaire,85
 Forest,Forez,4
 Foret,Forez,43
-Forêt,Forez,33
+Forêt,Forez,45
 Forêts,Forez,5
 Forez,Forez,9
 Fougères,Fougères,7
@@ -208,7 +215,7 @@ Gravel,Gravel,8
 Grenoble,Grenoble,2
 Gruyère,Gruyère,17
 Guyanne,Guyanne,30
-Guyenne,Guyenne,929
+Guyenne,Guyenne,933
 "Guyenne, Langedoc, Lyon et Etranger","Guyenne, Langedoc, Lyon et Etranger",1
 hainault,Hainaut,1
 Hainault,Hainaut,65
@@ -219,8 +226,10 @@ Hambourg,Hambourg,61
 Harfleur,Harfleur,2
 Harlem,Harlem,3
 Havane,La Havane,4
-Hollande,Hollande,325
+Hollande,Hollande,333
 Honfleur,Honfleur,27
+Idem (Angleterre),,2
+Idem (Bretagne),,6
 Ile de France,Île de France,3
 Ile française,Îles françaises,2
 Iles Françaises,Îles françaises,1
@@ -238,7 +247,8 @@ Ingrandes,Ingrandes,6
 Irlande,Irlande,68
 Irlande et Angleterre,Irlande et Angleterre,5
 Isle de Bourbon,Isle de Bourbon,2
-Isle de France,Île de France,930
+"Isle de Fra,ce",,1
+Isle de France,Île de France,932
 Isle de Ré,Île de Ré,5
 Isle de Rhé,Île de Ré,7
 Isle françaises,Îles françaises,4
@@ -255,10 +265,10 @@ La Marche,La Marche,1
 La Rochelle,La Rochelle,33
 Lamarche,La Marche,1
 Langen,Langen,34
-Languedoc,Languedoc,1176
+Languedoc,Languedoc,1177
 Languedoc et Rouen,Languedoc et Rouen,2
 Lanquedoc,Languedoc,9
-Laval,Laval,65
+Laval,Laval,67
 Le Havre,Le Havre,136
 Le Maine,Maine,11
 Le Mans,Le Mans,7
@@ -266,7 +276,7 @@ Le Perche,Le Perche,3
 Le Puy,Le Puy,3
 Lemaine,Lemaine,3
 Les isles francaises,Îles françaises,8
-Levant,Levant,75
+Levant,Levant,76
 Lille,Lille,144
 Lille et Flandres,Lille et Flandres,5
 Lisbonne,Lisbonne,4
@@ -278,22 +288,22 @@ Lorient,Lorient,52
 Lorraine,Lorraine,21
 Louvier,Louviers,12
 Louviers,Louviers,32
-Lyon,Lyon,831
-Lyonais,Lyonnais,2
+Lyon,Lyon,838
+Lyonais,Lyonnais,4
 lyonnais,Lyonnais,19
 Lyonnais,Lyonnais,428
 Lyonois,Lyonnais,30
 Lyonoisois,Lyonnais,1
 Madère,Madère,1
 maine,Maine,2
-Maine,Maine,72
+Maine,Maine,79
 Malaga,Malaga,7
 Mame,Mame,5
-Mans,Le Mans,20
+Mans,Le Mans,22
 Marencin,Marencin,8
 Marennes,Marennes,3
 Marsan,Marsan,2
-Marseille,Marseille,1005
+Marseille,Marseille,1017
 Marseille et Bordeaux,Bordeaux et Marseille,1
 Marseille et Hollande,Hollande et Marseille,2
 Martinique,La Martinique,1
@@ -311,19 +321,20 @@ Mortagne,Mortagne,22
 Mouche,Mouche,1
 Moulins,Moulins,1
 Nancy,Nancy,1
-Nantes,Nantes,489
+Nantes,Nantes,561
 Naples,Naples,37
 Narbonne,Narbonne,2
 Naus,Naus,1
 Navarre,Navarre,32
 Neufchâtel,Neufchâtel,2
 Neutre Kaire,Neutre Kaire,5
-Nevers,Nevers,14
+Nevers,Nevers,18
 Nice,Nice,4
 Nîmes,Nîmes,60
 Nismes,Nîmes,1
-Nivernais,Nivernais,10
+Nivernais,Nivernais,14
 Nord,Nord,4
+Normadie,,2
 Normandie,Normandie,910
 Norvège,Norvège,12
 Nuremberg,Nuremberg,1
@@ -331,20 +342,23 @@ Oléron,Oléron,6
 Oncille,Oncille,3
 Orange,Orange,6
 Origine,Origine,3
-Orléanais,Orléanais,9
+Orleanais,,2
+Orléanais,Orléanais,11
 Orléanois,Orléanais,2
 Orleans,Orleans,6
 Orléans,Orleans,27
 Ornénoir,Ornénoir,1
-Ostende,Ostende,55
+Ostende,Ostende,56
 Paix Haut,Pays haut,1
 paris,Paris,1
-Paris,Paris,763
+Paris,Paris,764
 Parmesan,Parmesan,1
 Pays,Pays,3
 Pays basques,Pays basque,3
 Pays d'Auge,Pays d'Auge,1
 Pays d'Aunis,Aunis,12
+Pays de Basque,,1
+Pays de Basques,,1
 Pays de Caux,Pays de Caux,3
 Pays de Liège,Pays de Liège,3
 Pays des basques,Pays basque,2
@@ -355,6 +369,7 @@ Pêches Françaises,Pêches françaises,3
 Perche,Le Perche,1
 Perigord,Périgord,2
 Périgord,Périgord,8
+Pérou,,1
 Perse,Perse,7
 Petesbourg,Petesbourg,4
 Petites Isles,Petites Isles,1
@@ -363,7 +378,7 @@ Philadelphie,Philadelphie,1
 Picardie,Picardie,122
 Piémont,Piémont,4
 Poitiers,Poitiers,1
-Poitou,Poitou,101
+Poitou,Poitou,107
 Ponteau de mer,Ponteau de mer,1
 Pontivy,Pontivy,4
 Pontoise,Pontoise,5
@@ -372,14 +387,15 @@ Port des barques,Port des barques,2
 Port Vendre,Port Vendres,1
 Port Vendres,Port Vendres,1
 Ports,Ports,1
-Portugal,Portugal,3
-Provence,Provence,922
+Portugal,Portugal,4
+Provence,Provence,932
 Prusse,Prusse,4
 Quercy,Quercy,13
+Querey,,1
 Quintin,Quintin,5
 Rédon,Rédon,7
 Régie des poudres,Régie des poudres,1
-Reims,Reims,33
+Reims,Reims,35
 Rennes,Rennes,32
 Rheims,Reims,1
 Rhône,Rhône,5
@@ -391,12 +407,12 @@ Romilly,Romilly,3
 Roquefort,Roquefort,3
 Rota,Rota,2
 Roubaix,Roubaix,1
-Rouen,Rouen,427
+Rouen,Rouen,432
 Rouergue,Rouergue,26
 Roussillon,Roussillon,60
 Royal,Royal,2
 Ruffec,Ruffec,13
-Russie,Russie,40
+Russie,Russie,42
 Saint Etienne,Saint-Etienne,2
 Saint Pierre et Miquelon,Saint Pierre et Miquelon,6
 Saint-Cast,Saint-Cast,1
@@ -406,7 +422,7 @@ Saintonge,Saintonge,93
 Salon,Salon,1
 Sanlis,Sanlis,2
 Sardaigne,Sardaigne,4
-Saumur,Saumur,17
+Saumur,Saumur,19
 Sedan,Sedan,61
 Sédan,Sedan,5
 Senlis,Senlis,5
@@ -443,9 +459,10 @@ Tonneins,Tonneins,1
 Tonnerre,Tonnerre,3
 Toulon,Toulon,6
 Toulouse,Toulouse,13
-Touraine,Tourraine,42
+Touraine,Tourraine,46
 Tourrain,Tourraine,1
 Tourraine,Tourraine,21
+Tourraine et Anjou,,3
 Tours,Tours,16
 Troye,Troyes,9
 Troyes,Troyes,3
