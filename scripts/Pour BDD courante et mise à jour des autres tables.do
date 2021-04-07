@@ -167,7 +167,7 @@ foreach variable of var product partner quantity_unit {
 }
 
 
-foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty { 
+foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty value_total line_number { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -186,6 +186,7 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace float
 destring quantity value_per_unit value, replace float
+destring line_number, replace float
 
 drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
@@ -1081,7 +1082,7 @@ gen value_minus_unit_val_x_qty = float(value_as_reported-(value_per_unit*quantit
 sort source_type customs_region year export_import line_number 
 order line_number source_type year customs_region partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
- 
+
  
 export delimited "$dir_git/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
