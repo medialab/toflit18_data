@@ -362,11 +362,15 @@ export delimited "$dir_git/base/Units_N1.csv", replace
 ******* Direction et origin
 use "bdd_centrale.dta", clear
 merge m:1 customs_region using "bdd_customs_regions.dta"
-keep customs_region customs_region_simpl customs_region_grouping
+keep customs_region customs_region_simpl customs_region_grouping /* 
+	*/ customs_region_province customs_region_hinterland remarks_customs_region
 bys customs_region : gen nbr_occurence=_N
 bys customs_region_simpl : gen nbr_occurence_simpl=_N
 bys customs_region_grouping : gen nbr_occurence_grouping=_N
+bys customs_region_province : gen nbr_occurence_customs_province=_N
 bys customs_region : keep if _n==1
+order customs_region nbr_occurence customs_region_simpl nbr_occurence_simpl customs_region_grouping /*
+		*/ nbr_occurence_grouping customs_region_province customs_region_hinterland remarks
 save "bdd_customs_regions.dta", replace
 generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
@@ -376,9 +380,15 @@ export delimited "$dir_git/base/bdd_customs_regions.csv", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 origin using "bdd_origin.dta"
-keep origin origin_norm_ortho
+keep origin origin_norm_ortho  origin_province remarks_origin
 bys origin : gen nbr_occurence=_N
+bys origin_norm_ortho : gen nbr_occurence_norm_ortho=_N
+bys origin_province : gen nbr_occurence_province=_N
 bys origin : keep if _n==1
+
+order origin nbr_occurence origin_norm_ortho nbr_occurence_norm_ortho origin_province /*
+	*/ nbr_occurence_province remarks
+
 save "bdd_origin.dta", replace
 generate sortkey = ustrsortkeyex(origin,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
@@ -770,15 +780,15 @@ use "bdd_centrale.dta", clear
 
 merge m:1 customs_region using "bdd_customs_regions.dta"
 drop if _merge==2
-rename customs_region customs_region_origin
+rename customs_region customs_region_source
 rename customs_region_simpl customs_region
-drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping
+drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping remarks_customs_region
 
 merge m:1 origin using "bdd_origin.dta"
 drop if _merge==2
-rename origin origin_origin
+rename origin origin_source
 rename origin_norm_ortho origin
-drop _merge nbr_occurence
+drop _merge nbr_occurence nbr_occurence_norm_ortho nbr_occurence_province remarks_origin
 
 
 rename source source_doc
