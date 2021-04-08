@@ -1,63 +1,63 @@
-customs_region,customs_region_simpl,customs_region_grouping,nbr_occurence,nbr_occurence_simpl,nbr_occurence_grouping
-,,,231617,231618,231618
-[vide],,,1,231618,231618
-Amiens,Amiens,Amiens,1174,1226,1226
-Antilles par la Compagnie des Indes,Îles françaises de l'Amérique par la Compagnie des Indes,Colonies Françaises de l'Amérique,45,45,789
-Auch,Auch,Bordeaux,206,206,37982
-Aunis et de la Saintonge,La Rochelle,La Rochelle,16,31923,31923
-Basse Normandie,Caen,Caen,22,1713,1713
-Bayonne,Bayonne,Bayonne,19780,19780,19780
-Béarn,France,France,22,1002,1746
-Besancon,Besançon,Bourgogne,1167,1167,1930
-"Blaye, Le Légué, Dieppe, Honfleur, Cherbourg et Rochefort",France,France,218,1002,1746
-"Blaye, Saint-Valéry, Rochefort, Dieppe, Honfleur, Cherbourg, Granville, Medon, Saint-Servan, Port-Louis",France,France,470,1002,1746
-Bordeaux,Bordeaux,Bordeaux,37727,37776,37982
-Bourgogne,Bourgogne,Bourgogne,763,763,1930
-"Brest, Port Louis, Rochefort, Morlaix, Saint-Servan, Redon, Honfleur, Cherbourg, Dieppe et Toulon",France,France,122,1002,1746
-Bretagne,Rennes,Rennes,58,24995,26526
-Caen,Caen,Caen,1566,1713,1713
-Caën,Caen,Caen,125,1713,1713
-Chalons,Châlons,Châlons,1059,2494,2517
-Châlons,Châlons,Châlons,1435,2494,2517
-Charleville,Charleville,Charleville,1546,1546,1546
-Colonies Françaises de l'Amérique,Colonies Françaises de l'Amérique,Colonies Françaises de l'Amérique,744,744,789
-comNantes,Nantes,Nantes,1,48905,48905
-Directions de terre,France,France,3,1002,1746
-Dunkerque,Dunkerque,Flandre,308,660,7080
-Flandre,Flandre,Flandre,2275,5473,7080
-Flandre Françoise,Flandre,Flandre,115,5473,7080
-France par la Compagnie des Indes,France par la Compagnie des Indes,France,261,261,1746
-Grenoble,Grenoble,Lyon,1349,1349,3635
-"Grenoble, Marseille et Lyon","Grenoble, Lyon et Marseille",France,307,307,1746
-Guyenne,Bordeaux,Bordeaux,49,37776,37982
-Haute Normandie,Rouen,Rouen,74,27279,29681
-La Rochelle,La Rochelle,La Rochelle,31907,31923,31923
-Langres,Langres,Langres,691,691,691
-Languedoc,Montpellier,Montpellier,13,4095,4095
-Le Havre,Le Havre,Rouen,2402,2402,29681
-Lille,Flandre,Flandre,3083,5473,7080
-Lille - port de Dunkerque - commerce privilégié,Dunkerque,Flandre,352,660,7080
-Lorient,Lorient,Rennes,542,542,26526
-Lyon,Lyon,Lyon,1879,2286,3635
-"Lyon, Grenoble et Valence",Lyon,Lyon,407,2286,3635
-Marseille,Marseille,Marseille,107736,107769,108876
-Montpellier,Montpellier,Montpellier,4081,4095,4095
-Nantes,Nantes,Nantes,48904,48905,48905
-Narbonne,Narbonne,Narbonne,936,936,936
-paris,Paris,France,1,176,1746
-Paris,Paris,France,175,176,1746
-Passeport du roy,France,France,54,1002,1746
-Passeports,France,France,113,1002,1746
-Picardie,Amiens,Amiens,52,1226,1226
-Provence,Marseille,Marseille,33,107769,108876
-Rennes,Rennes,Rennes,24937,24995,26526
-Rouen,Rouen,Rouen,26877,27279,29681
-Roüen,Rouen,Rouen,328,27279,29681
-Roussillon,Montpellier,Montpellier,1,4095,4095
-Saint Malo,Saint-Malo,Rennes,1,989,26526
-Saint Quentin,Saint-Quentin,Saint-Quentin,223,912,912
-Saint-Malo,Saint-Malo,Rennes,988,989,26526
-Saint-Quentin,Saint-Quentin,Saint-Quentin,689,912,912
-Soissons,Soisson,Châlons,23,23,2517
-Toulon,Toulon,Marseille,1107,1107,108876
-Valenciennes,Valenciennes,Flandre,947,947,7080
+customs_region,customs_region_simpl,customs_region_grouping,customs_region_nbr_occurence,nbr_occurence_customs_region_simpl,nbr_occurence_grouping,customs_region_province,customs_region_hinterland,remarks_customs_region
+,,,231617,231618,231618,,,
+[vide],,,1,231618,231618,,,
+Amiens,Amiens,Amiens,1174,1226,1226,Picardie,Picardie,
+Antilles par la Compagnie des Indes,Îles françaises de l'Amérique par la Compagnie des Indes,Colonies Françaises de l'Amérique,45,45,789,Colonies Françaises,Colonies Françaises,
+Auch,Auch,Bordeaux,206,206,37982,Guyenne,Foix,
+Aunis et de la Saintonge,La Rochelle,La Rochelle,16,31923,31923,Aunis,Aunis,
+Basse Normandie,Caen,Caen,22,1713,1713,Normandie,Normandie,
+Bayonne,Bayonne,Bayonne,19780,19780,19780,Guyenne,Béarn,Port franc
+Béarn,France,France,22,1002,1746,Béarn,Béarn,
+Besancon,Besançon,Bourgogne,1167,1167,1930,Franche-Comté,Franche-Comté,
+"Blaye, Le Légué, Dieppe, Honfleur, Cherbourg et Rochefort",France,France,218,1002,1746,Inconnu,Inconnu,
+"Blaye, Saint-Valéry, Rochefort, Dieppe, Honfleur, Cherbourg, Granville, Medon, Saint-Servan, Port-Louis",France,France,470,1002,1746,Inconnu,Inconnu,
+Bordeaux,Bordeaux,Bordeaux,37727,37776,37982,Guyenne,Guyenne,
+Bourgogne,Bourgogne,Bourgogne,763,763,1930,Bourgogne,Bourgogne,
+"Brest, Port Louis, Rochefort, Morlaix, Saint-Servan, Redon, Honfleur, Cherbourg, Dieppe et Toulon",France,France,122,1002,1746,Inconnu,Inconnu,
+Bretagne,Rennes,Rennes,58,24995,26526,Bretagne,Bretagne,
+Caen,Caen,Caen,1566,1713,1713,Normandie,Normandie,
+Caën,Caen,Caen,125,1713,1713,Normandie,Normandie,
+Chalons,Châlons,Châlons,1059,2494,2517,Champagne,Champagne,statut spécial (grand fief évêque comte
+Châlons,Châlons,Châlons,1435,2494,2517,Champagne,Champagne,statut spécial (grand fief évêque comte
+Charleville,Charleville,Charleville,1546,1546,1546,Champagne,Champagne,
+Colonies Françaises de l'Amérique,Colonies Françaises de l'Amérique,Colonies Françaises de l'Amérique,744,744,789,Colonies Françaises,Colonies Françaises,
+comNantes,Nantes,Nantes,1,48905,48905,Bretagne,Bretagne,
+Directions de terre,Directions de terre,France,3,1002,1746,Inconnu,Inconnu,
+Dunkerque,Dunkerque,Flandre,308,660,7080,Flandre,Flandre,port franc
+Flandre,Flandre,Flandre,2275,5473,7080,Flandre,Flandre,
+Flandre Françoise,Flandre,Flandre,115,5473,7080,Flandre,Flandre,
+France par la Compagnie des Indes,France par la Compagnie des Indes,Compagnie des Indes,261,261,1746,Colonies Françaises,Colonies Françaises,
+Grenoble,Grenoble,Lyon,1349,1349,3635,Dauphiné,Dauphiné,
+"Grenoble, Marseille et Lyon","Grenoble, Lyon et Marseille",France,307,307,1746,Inconnu,Inconnu,
+Guyenne,Bordeaux,Bordeaux,49,37776,37982,Guyenne,Guyenne,
+Haute Normandie,Rouen,Rouen,74,27279,29681,Normandie,Normandie,
+La Rochelle,La Rochelle,La Rochelle,31907,31923,31923,Aunis,Aunis,
+Langres,Langres,Langres,691,691,691,Champagne,Champagne,status spécial (grand fief)
+Languedoc,Montpellier,Montpellier,13,4095,4095,Languedoc,Languedoc,
+Le Havre,Le Havre,Rouen,2402,2402,29681,Normandie,Normandie,
+Lille,Flandre,Flandre,3083,5473,7080,Flandre,Flandre,
+Lille - port de Dunkerque - commerce privilégié,Dunkerque,Flandre,352,660,7080,Flandre,Flandre,Port franc
+Lorient,Lorient,Rennes,542,542,26526,Bretagne,Bretagne,Port franc
+Lyon,Lyon,Lyon,1879,2286,3635,Lyonnais,Lyonnais,
+"Lyon, Grenoble et Valence",Lyon,Lyon,407,2286,3635,Inconnu,Inconnu,
+Marseille,Marseille,Marseille,107736,107769,108876,Provence,Provence,Port franc
+Montpellier,Montpellier,Montpellier,4081,4095,4095,Languedoc,Languedoc,
+Nantes,Nantes,Nantes,48904,48905,48905,Bretagne,Bretagne,
+Narbonne,Narbonne,Narbonne,936,936,936,Languedoc,Languedoc,
+paris,Paris,France,1,176,1746,Île-de-France,Île-de-France,
+Paris,Paris,France,175,176,1746,Île-de-France,Île-de-France,
+Passeport du roy,France,France,54,1002,1746,Inconnu,Inconnu,
+Passeports,France,France,113,1002,1746,Inconnu,Inconnu,
+Picardie,Amiens,Amiens,52,1226,1226,Picardie,Picardie,
+Provence,Marseille,Marseille,33,107769,108876,Provence,Provence,
+Rennes,Rennes,Rennes,24937,24995,26526,Bretagne,Bretagne,
+Rouen,Rouen,Rouen,26877,27279,29681,Normandie,Normandie,
+Roüen,Rouen,Rouen,328,27279,29681,Normandie,Normandie,
+Roussillon,Montpellier,Montpellier,1,4095,4095,Roussillon,Roussillon,
+Saint Malo,Saint-Malo,Rennes,1,989,26526,Bretagne,Bretagne,
+Saint Quentin,Saint-Quentin,Saint-Quentin,223,912,912,Picardie,Picardie,
+Saint-Malo,Saint-Malo,Rennes,988,989,26526,Bretagne,Bretagne,
+Saint-Quentin,Saint-Quentin,Saint-Quentin,689,912,912,Picardie,Picardie,
+Soissons,Soisson,Châlons,23,23,2517,Champagne,Champagne,
+Toulon,Toulon,Marseille,1107,1107,108876,Provence,Provence,
+Valenciennes,Valenciennes,Flandre,947,947,7080,Flandre,Flandre,
