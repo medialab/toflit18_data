@@ -369,8 +369,9 @@ bys customs_region_simpl : gen nbr_occurence_simpl=_N
 bys customs_region_grouping : gen nbr_occurence_grouping=_N
 bys customs_region_province : gen nbr_occurence_customs_province=_N
 bys customs_region : keep if _n==1
-order customs_region nbr_occurence customs_region_simpl nbr_occurence_simpl customs_region_grouping /*
+order customs_region customs_region_simpl nbr_occurence  nbr_occurence_simpl customs_region_grouping /*
 		*/ nbr_occurence_grouping customs_region_province customs_region_hinterland remarks
+****Le deux premières colonnes doivent être customs_region customs_region_simpl pour que le datascape marche
 save "bdd_customs_regions.dta", replace
 generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
