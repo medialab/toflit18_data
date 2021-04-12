@@ -117,6 +117,7 @@ simplification,product_simplification,product_revolutionempire,export_import,cus
 ????,figue,Fruits frais,Imports,Rennes,Portugal,,,
 ????,orange,Fruits frais,Imports,Rouen,Portugal,,,
 ????,noisettes et noix,Fruits secs et noix,Exports,Besançon,Suisse,,,
+????,noix,Fruits secs et noix,Exports,Nantes,France,,,
 ????,ambre,Gommes diverses,Imports,,Amériques,,,
 ????,graine de trèfle,"Graines de trèfle, de luzerne et de prairie",Exports,,Flandre et autres états de l'Empereur,,,
 ????,graine de genièvre graine comestible,Graines diverses et mélangées,Imports,Lorient,Hollande,,,
@@ -1154,10 +1155,6 @@ barils,garance blanche,Garance,Imports,La Rochelle,Hollande,,,
 barils,garance,Garance,Imports,La Rochelle,Hollande,,,
 barils,sandaraque,Gommes diverses,Exports,,Amériques,,,
 barils,sandaraque,Gommes diverses,Exports,Nantes,Amériques,,,
-barils,fèves plates,Graines diverses et mélangées,Imports,La Rochelle,Angleterre,,,
-barils,fèves,Graines diverses et mélangées,Exports,Bordeaux,Afrique,,,
-barils,fèves,Graines diverses et mélangées,Exports,Bordeaux,Amériques,,,
-barils,fèves,Graines diverses et mélangées,Exports,La Rochelle,Amériques,,,
 barils,graine de genièvre,Graines diverses et mélangées,Exports,Bordeaux,Amériques,,,
 barils,graine de genièvre,Graines diverses et mélangées,Exports,Rouen,Angleterre,,,
 barils,graine de moutarde,Graines diverses et mélangées,Exports,Rennes,Asie,,,
@@ -1216,9 +1213,22 @@ barils,huile de noix,Huiles diverses,Exports,Nantes,Amériques,,,
 barils,huile de rabette,Huiles diverses,Imports,Rouen,Angleterre,,,
 barils,indigo,Indigo,Exports,Nantes,Nord,,,
 barils,indigo,Indigo,Imports,Rennes,Amériques,,,
+barils,fèves plates,Légumes,Imports,La Rochelle,Angleterre,,,
+barils,fèves,Légumes,Exports,Bordeaux,Afrique,,,
+barils,fèves,Légumes,Exports,Bordeaux,Amériques,,,
+barils,fèves,Légumes,Exports,La Rochelle,Amériques,,,
 barils,légumes,Légumes,Exports,Nantes,Amériques,,,
 barils,légumes,Légumes,Exports,Rennes,Asie,,,
 barils,légumes,Légumes,Imports,,Nord,,,
+barils,pois confits,Légumes,Imports,Nantes,Flandre et autres états de l'Empereur,,,
+barils,pois secs,Légumes,Imports,Bordeaux,Hollande,,,
+barils,pois secs,Légumes,Imports,La Rochelle,Amériques,,,
+barils,pois verts,Légumes,Exports,Rennes,Amériques,,,
+barils,pois verts,Légumes,Exports,Rouen,Amériques,,,
+barils,pois verts,Légumes,Imports,Bordeaux,Hollande,,,
+barils,pois verts,Légumes,Imports,La Rochelle,Amériques,,,
+barils,pois,Légumes,Exports,Rouen,Afrique,,,
+barils,pois,Légumes,Exports,Rouen,Amériques,,,
 barils,cartes marines,Librairie,Exports,Rouen,Nord,,,
 barils,lin cru,Lin,Imports,Nantes,Nord,,,
 barils,bouteilles de marbre,Marbre brut et ouvré,Imports,La Rochelle,Nord,,,
@@ -1401,8 +1411,9 @@ barils,anchois mariné et salé,Pêche et fruits de mer,Exports,Marseille,France
 barils,anchois mariné et salé,Pêche et fruits de mer,Exports,Marseille,Hollande,,,
 barils,anchois mariné et salé,Pêche et fruits de mer,Exports,Marseille,Italie,,,
 barils,anchois mariné et salé,Pêche et fruits de mer,Exports,,Nord,,,
-barils,anchois mariné,Pêche et fruits de mer,import,Marseille,,,,
-barils,anchois mariné,Pêche et fruits de mer,import,Marseille,Italie,,,
+barils,anchois mariné,Pêche et fruits de mer,Imports,Marseille,Espagne,,,
+barils,anchois mariné,Pêche et fruits de mer,Imports,Marseille,France,,,
+barils,anchois mariné,Pêche et fruits de mer,Imports,Marseille,Italie,,,
 barils,anchois salé et mariné,Pêche et fruits de mer,Imports,,Espagne,,,
 barils,anchois salés et marinés,Pêche et fruits de mer,Imports,Marseille,Espagne,,,
 barils,anchois salés et marinés,Pêche et fruits de mer,Imports,Marseille,France,,,
@@ -1545,11 +1556,11 @@ barils,harengs salés,Pêche et fruits de mer,Exports,Bordeaux,Afrique,,,
 barils,harengs salés,Pêche et fruits de mer,Exports,Bordeaux,Amériques,,,
 barils,harengs salés,Pêche et fruits de mer,Exports,Marseille,Italie,,,
 barils,harengs salés,Pêche et fruits de mer,Exports,Rouen,Amériques,,,
-barils,harengs salés,Pêche et fruits de mer,import,Marseille,,,,
-barils,harengs salés,Pêche et fruits de mer,import,Marseille,Angleterre,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,Caen,Hollande,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,La Rochelle,Nord,,,
+barils,harengs salés,Pêche et fruits de mer,Imports,Marseille,Angleterre,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,Marseille,France,,,
+barils,harengs salés,Pêche et fruits de mer,Imports,Marseille,Italie,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,Nantes,Hollande,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,Rennes,Nord,,,
 barils,harengs salés,Pêche et fruits de mer,Imports,Rouen,Hollande,,,
@@ -1675,7 +1686,6 @@ barils,maquereaux,Pêche et fruits de mer,Exports,,Amériques,,,
 barils,maquereaux,Pêche et fruits de mer,Exports,Bordeaux,Amériques,,,
 barils,maquereaux,Pêche et fruits de mer,Exports,Châlons,Allemagne,,,
 barils,maquereaux,Pêche et fruits de mer,Exports,Rouen,Amériques,,,
-barils,maquereaux,Pêche et fruits de mer,import,Nantes,Nord,,,
 barils,maquereaux,Pêche et fruits de mer,Imports,Bordeaux,Hollande,,,
 barils,maquereaux,Pêche et fruits de mer,Imports,La Rochelle,Nord,,,
 barils,maquereaux,Pêche et fruits de mer,Imports,Nantes,Nord,,,
@@ -1772,7 +1782,6 @@ barils,rogues de stockfisch,Pêche et fruits de mer,Imports,Rennes,Nord,,,
 barils,rogues salées,Pêche et fruits de mer,Exports,Lorient,France,,,
 barils,rogues,Pêche et fruits de mer,Exports,,Espagne,,,
 barils,rogues,Pêche et fruits de mer,Exports,Nantes,Espagne,,,
-barils,rogues,Pêche et fruits de mer,import,Nantes,Nord,,,
 barils,rogues,Pêche et fruits de mer,Imports,,Espagne,,,
 barils,rogues,Pêche et fruits de mer,Imports,,Hollande,,,
 barils,rogues,Pêche et fruits de mer,Imports,La Rochelle,Hollande,,,
@@ -2004,15 +2013,6 @@ barils,lard,Subsistances diverses et mélangées,Imports,Rouen,Angleterre,,,
 barils,navets,Subsistances diverses et mélangées,Exports,Rouen,Angleterre,,,
 barils,navets,Subsistances diverses et mélangées,Exports,Rouen,Hollande,,,
 barils,navets,Subsistances diverses et mélangées,Exports,Rouen,Nord,,,
-barils,pois confits,Subsistances diverses et mélangées,Imports,Nantes,Flandre et autres états de l'Empereur,,,
-barils,pois secs,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
-barils,pois secs,Subsistances diverses et mélangées,Imports,La Rochelle,Amériques,,,
-barils,pois verts,Subsistances diverses et mélangées,Exports,Rennes,Amériques,,,
-barils,pois verts,Subsistances diverses et mélangées,Exports,Rouen,Amériques,,,
-barils,pois verts,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
-barils,pois verts,Subsistances diverses et mélangées,Imports,La Rochelle,Amériques,,,
-barils,pois,Subsistances diverses et mélangées,Exports,Rouen,Afrique,,,
-barils,pois,Subsistances diverses et mélangées,Exports,Rouen,Amériques,,,
 barils,pommes de terre,Subsistances diverses et mélangées,Imports,La Rochelle,Hollande,,,
 barils,pommes de terre,Subsistances diverses et mélangées,Imports,Nantes,Amériques,,,
 barils,pommes de terre,Subsistances diverses et mélangées,Imports,Nantes,Angleterre,,,
@@ -2121,7 +2121,7 @@ barres,anspects de bois,Bâtiments de mer et apparaux,Imports,Nantes,Flandre et 
 barres,anspects de bois,Bâtiments de mer et apparaux,Imports,Nantes,Nord,,,
 barres,anspects,Bâtiments de mer et apparaux,Imports,Nantes,Hollande,,,
 barres,anspects,Bâtiments de mer et apparaux,Imports,Nantes,Nord,,,
-barres,barres de cabestan,Bâtiments de mer et apparaux,import,Marseille,Italie,,,
+barres,barres de cabestan,Bâtiments de mer et apparaux,Imports,Marseille,Italie,,,
 barres,fer en barres et feuillards,Ouvrages métalliques,Imports,Rennes,Hollande,,,
 barrique,brai,"Brai, goudron et résines",Imports,La Rochelle,Nord,litres,228.28999,"Doursther page 62 : 1 barrique de La Rochelle = 228,29 litres"
 barriques en bottes,douelles vieilles,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
@@ -2137,6 +2137,7 @@ bassines,ouvrages de cuivre,Ouvrages métalliques,Imports,Rennes,Hollande,,,
 bassins,goudron,"Brai, goudron et résines",Imports,La Rochelle,Hollande,,,
 bassins,bassin de cuivre,Ouvrages métalliques,Exports,Nantes,Afrique,,,
 bassins,ouvrages de cuivre,Ouvrages métalliques,Exports,Rennes,Afrique,,,
+bateaux,pois,Légumes,Exports,Amiens,Espagne,,,
 bateaux,marne,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 bateaux,pierres à bâtir,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 bateaux,pierres à chaux,Matières premières diverses,Exports,,Flandre et autres états de l'Empereur,,,
@@ -2148,7 +2149,6 @@ bateaux,pierres blanches à bâtir,Matières premières diverses,Exports,Flandre
 bateaux,pierres de grés à paver,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 bateaux,pierres en ???,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 bateaux,poussière de terre,Matières premières diverses,Exports,Valenciennes,Flandre et autres états de l'Empereur,,,
-bateaux,pois,Subsistances diverses et mélangées,Exports,Amiens,Espagne,,,
 bateaux,toile d'emballage,Toiles diverses,Imports,,Hollande,,,
 bazin,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Bordeaux,Amériques,,,
 bazin,verres communs,Verrerie,Exports,Bordeaux,Amériques,,,
@@ -2253,7 +2253,6 @@ bouteilles,bière,"Bière, cidre et vinaigre",Exports,Rennes,Asie,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,Rouen,Amériques,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,Rouen,France,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,Saint-Malo,Amériques,,,
-bouteilles,bière,"Bière, cidre et vinaigre",import,Nantes,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Amiens,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Bayonne,Hollande,,,
@@ -2264,6 +2263,7 @@ bouteilles,bière,"Bière, cidre et vinaigre",Imports,Flandre,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,La Rochelle,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Marseille,Hollande,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Marseille,Italie,,,
+bouteilles,bière,"Bière, cidre et vinaigre",Imports,Nantes,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Nantes,Hollande,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Rennes,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Rennes,Flandre et autres états de l'Empereur,,,
@@ -2635,14 +2635,15 @@ bouteilles,vin de Bordeaux,Vins de Bordeaux,Imports,Saint-Malo,France,,,
 bouteilles,vin en bouteilles de Bordeaux,Vins de Bordeaux,Exports,Châlons,Allemagne,,,
 bouteilles,vin en bouteilles de Bordeaux,Vins de Bordeaux,Exports,Châlons,Flandre et autres états de l'Empereur,,,
 bouteilles,vin en bouteilles de Bordeaux,Vins de Bordeaux,Exports,Châlons,France,,,
-bouteilles,vin en bouteilles de Bordeaux,Vins de Bordeaux,import,Nantes,,,,
+bouteilles,vin en bouteilles de Bordeaux,Vins de Bordeaux,Imports,Nantes,France,,,
 bouteilles,vin anti-scorbutique,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin au muid,Vins divers,Exports,Besançon,Suisse,,,
-bouteilles,vin blanc du Rhin,Vins divers,import,Nantes,,,,
-bouteilles,vin blanc du Rhin,Vins divers,import,Nantes,Hollande,,,
+bouteilles,vin blanc du Rhin,Vins divers,Imports,Nantes,Flandre et autres états de l'Empereur,,,
+bouteilles,vin blanc du Rhin,Vins divers,Imports,Nantes,Hollande,,,
 bouteilles,vin blanc en bouteilles,Vins divers,Exports,Nantes,Afrique,,,
 bouteilles,vin blanc en bouteilles,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin blanc,Vins divers,Exports,Nantes,Amériques,,,
+bouteilles,vin blanc,Vins divers,Exports,Nantes,États-Unis d'Amérique,,,
 bouteilles,vin blanc,Vins divers,Exports,Rennes,Amériques,,,
 bouteilles,vin blanc,Vins divers,Exports,Rennes,Nord,,,
 bouteilles,vin blanc,Vins divers,Imports,Marseille,Italie,,,
@@ -2811,9 +2812,9 @@ bouteilles,vin de Champagne,Vins divers,Exports,,Suisse,,,
 bouteilles,vin de Champagne,Vins divers,Imports,Nantes,Hollande,,,
 bouteilles,vin de Chypre en bouteilles,Vins divers,Exports,Marseille,Amériques,,,
 bouteilles,vin de Chypre,Vins divers,Exports,Nantes,Amériques,,,
-bouteilles,vin de Chypre,Vins divers,import,Nantes,,,,
 bouteilles,vin de Chypre,Vins divers,Imports,Bordeaux,Hollande,,,
 bouteilles,vin de Chypre,Vins divers,Imports,La Rochelle,Hollande,,,
+bouteilles,vin de Chypre,Vins divers,Imports,Nantes,Espagne,,,
 bouteilles,vin de Chypre,Vins divers,Imports,Rouen,France,,,
 bouteilles,vin de Cognac,Vins divers,Exports,La Rochelle,Nord,,,
 bouteilles,vin de Comté,Vins divers,Exports,Bourgogne,Suisse,,,
@@ -2914,8 +2915,8 @@ bouteilles,vin de muscat,Vins divers,Exports,Rennes,Afrique,,,
 bouteilles,vin de muscat,Vins divers,Exports,Rennes,Amériques,,,
 bouteilles,vin de muscat,Vins divers,Exports,Rouen,Afrique,,,
 bouteilles,vin de muscat,Vins divers,Exports,Rouen,Amériques,,,
-bouteilles,vin de muscat,Vins divers,import,Nantes,,,,
 bouteilles,vin de muscat,Vins divers,Imports,Marseille,Italie,,,
+bouteilles,vin de muscat,Vins divers,Imports,Nantes,France,,,
 bouteilles,vin de muscat,Vins divers,Imports,Rouen,Portugal,,,
 bouteilles,vin de Nantes,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin de Pacaret,Vins divers,Exports,Nantes,Amériques,,,
@@ -2924,7 +2925,7 @@ bouteilles,vin de pays,Vins divers,Exports,Lorient,France,,,
 bouteilles,vin de Porto,Vins divers,Imports,Rouen,Angleterre,,,
 bouteilles,vin de Portugal,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin de Portugal,Vins divers,Imports,Rennes,Angleterre,,,
-bouteilles,vin de Provence en bouteille,Vins divers,import,Nantes,,,,
+bouteilles,vin de Provence en bouteille,Vins divers,Imports,Nantes,France,,,
 bouteilles,vin de Rancio,Vins divers,Exports,Bayonne,Amériques,,,
 bouteilles,vin de Rancio,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin de Rancio,Vins divers,Imports,La Rochelle,Espagne,,,
@@ -3102,6 +3103,10 @@ bouteilles,vin ordinaire,Vins divers,Imports,Charleville,France,,,
 bouteilles,vin ordinaire,Vins divers,Imports,La Rochelle,Espagne,,,
 bouteilles,vin Rancio,Vins divers,Exports,Bayonne,Amériques,,,
 bouteilles,vin rouge en bouteilles,Vins divers,Exports,Nantes,Amériques,,,
+bouteilles,vin rouge en bouteilles,Vins divers,Exports,Nantes,Angleterre,,,
+bouteilles,vin rouge en bouteilles,Vins divers,Exports,Nantes,États-Unis d'Amérique,,,
+bouteilles,vin rouge en bouteilles,Vins divers,Exports,Nantes,France,,,
+bouteilles,vin rouge en bouteilles,Vins divers,Exports,Nantes,Portugal,,,
 bouteilles,vin rouge,Vins divers,Exports,Marseille,Amériques,,,
 bouteilles,vin rouge,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin rouge,Vins divers,Exports,Rennes,Espagne,,,
@@ -3303,10 +3308,12 @@ charettes,bois pour brûler,Combustibles dont charbons et bois,Exports,Bayonne,E
 charettes,bois pour brûler,Combustibles dont charbons et bois,Imports,La Rochelle,Nord,,,
 charettes,bois pour brûler,Combustibles dont charbons et bois,Imports,Montpellier,Espagne,,,
 charettes,bois pour brûler,Combustibles dont charbons et bois,Imports,Montpellier,Italie,,,
+charettes,charbon de bois,Combustibles dont charbons et bois,Exports,Nantes,France,,,
 charettes,charbon de bois,Combustibles dont charbons et bois,Imports,Langres,Allemagne,,,
 charettes,herbages,Matières premières diverses,Imports,Marseille,Italie,,,
 charettes,paille,Matières premières diverses,Exports,Marseille,Italie,,,
 charettes,pierres à four,Matières premières diverses,Exports,Marseille,Italie,,,
+charettes,bâtons de bois,"Ouvrages de bois, liège et jonc",Exports,Nantes,France,,,
 charettes,poterie de terre cuite,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,Marseille,Italie,,,
 charettes,bouteilles de verres,Verrerie,Imports,"Grenoble, Lyon et Marseille",Italie,,,
 charettes,vin rouge,Vins divers,Exports,Marseille,Italie,,,
@@ -3555,9 +3562,19 @@ fontaine,faïence,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,N
 fournitures,ancres neuves,Bâtiments de mer et apparaux,Exports,Nantes,Afrique,,,
 fournitures,manches de gaffes,Bâtiments de mer et apparaux,Exports,Nantes,Amériques,,,
 fournitures,bois d'osier,Bois divers hors combustible,Exports,Nantes,Amériques,,,
+fournitures,bois osier,Bois divers hors combustible,Exports,Nantes,[vide],,,
 fournitures,bois osier,Bois divers hors combustible,Exports,Nantes,Amériques,,,
 fournitures,osier,Bois divers hors combustible,Exports,Nantes,Amériques,,,
 fournitures,osier,Bois divers hors combustible,Exports,Nantes,Espagne,,,
+fournitures,bois feuillards à barriques,,Exports,Nantes,[vide],,,
+fournitures,bois feuillards à barriques,,Exports,Nantes,Afrique,,,
+fournitures,bois feuillards à barriques,,Exports,Nantes,Amériques,,,
+fournitures,bois feuillards à petits barils,,Exports,Nantes,[vide],,,
+fournitures,bois feuillards à quarteaux,,Exports,Nantes,[vide],,,
+fournitures,bois feuillards à quarteaux,,Exports,Nantes,Angleterre,,,
+fournitures,bois feuillards pipage,,Exports,Nantes,Afrique,,,
+fournitures,bois feuillards pipage,,Exports,Nantes,Amériques,,,
+fournitures,bois feuillards pipage,,Exports,Nantes,Espagne,,,
 fournitures,cercles de bois pour barriques,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
 fournitures,cercles de bois pour bobillons,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
 fournitures,cercles de bois,"Ouvrages de bois, liège et jonc",Exports,La Rochelle,Amériques,,,
@@ -3568,10 +3585,6 @@ fournitures,cercles de bois,"Ouvrages de bois, liège et jonc",Exports,,Nord,,,
 fournitures,cercles de bois,"Ouvrages de bois, liège et jonc",Exports,Rennes,Amériques,,,
 fournitures,cercles de bois,"Ouvrages de bois, liège et jonc",Imports,,Espagne,,,
 fournitures,cercles de bois,"Ouvrages de bois, liège et jonc",Imports,Rennes,Hollande,,,
-fournitures,feuillards de bois pipage,"Ouvrages de bois, liège et jonc",Exports,Nantes,Afrique,,,
-fournitures,feuillards de bois pipage,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
-fournitures,feuillards de bois pour barriques,"Ouvrages de bois, liège et jonc",Exports,Nantes,Afrique,,,
-fournitures,feuillards de bois pour barriques,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
 fournitures,feuillards de bois pour boucaud,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
 fournitures,feuillards de bois,"Ouvrages de bois, liège et jonc",Exports,Nantes,Afrique,,,
 fournitures,feuillards de bois,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
@@ -3751,15 +3764,16 @@ last,cendre casseaux,Cendres diverses,Imports,,Nord,,,
 last,cendre de bois,Cendres diverses,Imports,,Nord,,,
 last,cendre de tourbe,Cendres diverses,Imports,Flandre,Hollande,,,
 last,gruau,"Farine, gruau, biscuits et pâtes",Exports,Rennes,Afrique,,,
-last,fèves,Graines diverses et mélangées,Exports,Rennes,Afrique,,,
-last,fèves,Graines diverses et mélangées,Exports,Rouen,Afrique,,,
-last,fèves,Graines diverses et mélangées,Imports,Bordeaux,Hollande,,,
-last,fèves,Graines diverses et mélangées,Imports,Rennes,Hollande,,,
-last,fèves,Graines diverses et mélangées,Imports,Rennes,Nord,,,
 last,védasse,"Gravelée, potasse et védasse",Imports,Amiens,Hollande,,,
 last,védasse,"Gravelée, potasse et védasse",Imports,,Hollande,,,
 last,védasse,"Gravelée, potasse et védasse",Imports,,Nord,,,
 last,huile de poisson,Huile de poisson,Imports,Bayonne,Espagne,,,
+last,fèves,Légumes,Exports,Rennes,Afrique,,,
+last,fèves,Légumes,Exports,Rouen,Afrique,,,
+last,fèves,Légumes,Imports,Bordeaux,Hollande,,,
+last,fèves,Légumes,Imports,Rennes,Hollande,,,
+last,fèves,Légumes,Imports,Rennes,Nord,,,
+last,pois,Légumes,Imports,Rennes,Hollande,,,
 last,bois pour barils,"Ouvrages de bois, liège et jonc",Exports,Flandre,Flandre et autres états de l'Empereur,,,
 last,douelles pour barils,"Ouvrages de bois, liège et jonc",Exports,Châlons,Flandre et autres états de l'Empereur,,,
 last,merrains,"Ouvrages de bois, liège et jonc",Exports,,Flandre et autres états de l'Empereur,,,
@@ -3771,7 +3785,6 @@ last,??? fer,Produits inconnus,Imports,Rennes,Hollande,,,
 last,salpêtre,Salpêtre et soufre,Imports,,Asie,,,
 last,savon,Savon,Exports,Rennes,Afrique,,,
 last,sel,Sel,Imports,Rennes,Espagne,,,
-last,pois,Subsistances diverses et mélangées,Imports,Rennes,Hollande,,,
 le pied cube,madriers d'acajou de 10 à 11 pieds,"Ouvrages de bois, liège et jonc",Imports,Nantes,Amériques,,,
 le pied cube,madriers d'acajou de 10 pieds,"Ouvrages de bois, liège et jonc",Imports,Nantes,Amériques,,,
 le pied cube,madriers d'acajou de 6 à 8 pieds,"Ouvrages de bois, liège et jonc",Imports,Nantes,Amériques,,,
@@ -3923,7 +3936,6 @@ muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Nord,litres,268.21439,D'a
 muids,bière,"Bière, cidre et vinaigre",Exports,Saint-Malo,Afrique,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Saint-Malo,Amériques,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,Suisse,litres,268.21439,D'après Portet
-muids,bière,"Bière, cidre et vinaigre",import,Nantes,Angleterre,,,
 muids,bière,"Bière, cidre et vinaigre",Imports,,Allemagne,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,,Angleterre,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Bordeaux,Angleterre,litres,268.21439,D'après Portet
@@ -3944,6 +3956,7 @@ muids,bière,"Bière, cidre et vinaigre",Imports,La Rochelle,Hollande,litres,268
 muids,bière,"Bière, cidre et vinaigre",Imports,Lorient,France,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Montpellier,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Montpellier,France,litres,268.21439,D'après Portet
+muids,bière,"Bière, cidre et vinaigre",Imports,Nantes,Angleterre,,,
 muids,bière,"Bière, cidre et vinaigre",Imports,,Nord,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Angleterre,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
@@ -4040,6 +4053,11 @@ muids,vinaigre,"Bière, cidre et vinaigre",Exports,Marseille,France,litres,268.2
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Marseille,Italie,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Amériques,litres,268.21439,D'après Portet
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Angleterre,,,
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,États-Unis d'Amérique,,,
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Flandre et autres états de l'Empereur,,,
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,France,,,
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Hollande,,,
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Nantes,Nord,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Nord,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Portugal,litres,268.21439,D'après Portet
@@ -4090,7 +4108,7 @@ muids,eau gazeuse,Boissons diverses et mélangées,Imports,Flandre,Flandre et au
 muids,jus de limon,Boissons diverses et mélangées,Imports,,Italie,litres,268.21439,D'après Portet
 muids,liqueurs et sirop fin,Boissons diverses et mélangées,Imports,,Outre-mers,litres,268.21439,D'après Portet
 muids,liqueurs sirop fin,Boissons diverses et mélangées,Exports,,Angleterre,litres,268.21439,D'après Portet
-muids,liqueurs sirop fin,Boissons diverses et mélangées,Exports,,Espagne,litres,268.21439,D'après Portet
+muids,liqueurs sirop fin,Boissons diverses et mélangées,Exports,,Espagne,,,
 muids,liqueurs sirop fin,Boissons diverses et mélangées,Exports,,Italie,litres,268.21439,D'après Portet
 muids,vin et vin de liqueurs divers,Boissons diverses et mélangées,Exports,Bordeaux,Afrique,litres,268.21439,D'après Portet
 muids,vin et vin de liqueurs divers,Boissons diverses et mélangées,Exports,Bordeaux,Amériques,litres,268.21439,D'après Portet
@@ -4376,7 +4394,7 @@ muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,Charleville,France,litres,268.2
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,Flandre,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,France,Espagne,litres,268.21439,D'après Portet
+muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,France,Espagne,,,
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,,Hollande,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,,Italie,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Imports,La Rochelle,France,litres,268.21439,D'après Portet
@@ -4397,7 +4415,7 @@ muids,liqueurs de sirop,Eaux-de-vie et liqueurs,Exports,France,Amériques,litres
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,,Angleterre,litres,268.21439,D'après Portet
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Bordeaux,Afrique,litres,268.21439,D'après Portet
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Bordeaux,Amériques,litres,268.21439,D'après Portet
-muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,,Espagne,litres,268.21439,D'après Portet
+muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,,Espagne,,,
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,,Italie,litres,268.21439,D'après Portet
 muids,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
@@ -4462,15 +4480,10 @@ muids,noix en coquilles,Fruits secs et noix,Imports,"Grenoble, Lyon et Marseille
 muids,noix,Fruits secs et noix,Exports,Lyon,Suisse,litres,1872,D'après Portet – comme froment
 muids,noix,Fruits secs et noix,Exports,Rouen,Angleterre,litres,1872,D'après Portet – comme froment
 muids,noix,Fruits secs et noix,Exports,Rouen,Nord,litres,1872,D'après Portet – comme froment
-muids,fèves,Graines diverses et mélangées,Exports,Bayonne,Espagne,litres,1872,D'après Portet – comme froment
-muids,fèves,Graines diverses et mélangées,Exports,La Rochelle,Espagne,litres,1872,D'après Portet – comme froment
-muids,fèves,Graines diverses et mélangées,Exports,Nantes,Afrique,litres,1872,D'après Portet – comme froment
-muids,fèves,Graines diverses et mélangées,Exports,Rennes,Afrique,litres,1872,D'après Portet – comme froment
-muids,fèves,Graines diverses et mélangées,Exports,Rouen,Afrique,litres,1872,D'après Portet – comme froment
 muids,graine de genièvre,Graines diverses et mélangées,Exports,,Angleterre,litres,1872,D'après Portet – comme froment
 muids,saindoux,Graisses diverses,Exports,La Rochelle,Amériques,litres,1872,D'après Portet – comme froment
 muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,Angleterre,litres,268.21439,D'après Portet
-muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,Espagne,litres,268.21439,D'après Portet
+muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,Espagne,,,
 muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,huile d'olive fine,Huile d'olive à manger,Exports,Marseille,France,litres,268.21439,D'après Portet
@@ -4482,6 +4495,14 @@ muids,huile d'olive,Huile d'olive à manger,Imports,,Espagne,litres,268.21439,D'
 muids,huile d'olive,Huile d'olive à manger,Imports,,Italie,litres,268.21439,D'après Portet
 muids,huile d'olive,Huile d'olive à manger,Imports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,indigo floré,Indigo,Imports,Rouen,Hollande,,,
+muids,fèves,Légumes,Exports,Bayonne,Espagne,,,
+muids,fèves,Légumes,Exports,La Rochelle,Espagne,,,
+muids,fèves,Légumes,Exports,Nantes,Afrique,,,
+muids,fèves,Légumes,Exports,Rennes,Afrique,,,
+muids,fèves,Légumes,Exports,Rouen,Afrique,,,
+muids,pois et fèves,Légumes,Imports,Rouen,Angleterre,,,
+muids,pois et fèves,Légumes,Imports,Rouen,Hollande,,,
+muids,pois secs,Légumes,Imports,Rouen,Nord,,,
 muids,jus de citron,Matières brutes et transformées pour teinture,Exports,Marseille,Afrique,litres,268.21439,D'après Portet
 muids,jus de citron,Matières brutes et transformées pour teinture,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,jus de citron,Matières brutes et transformées pour teinture,Imports,,Italie,litres,268.21439,D'après Portet
@@ -4536,7 +4557,7 @@ muids,sel de Marennes,Sel,Exports,La Rochelle,Angleterre,litres,2496,D'après Po
 muids,sel de Marennes,Sel,Exports,La Rochelle,Flandre et autres états de l'Empereur,litres,2496,D'après Portet
 muids,sel de Marennes,Sel,Exports,La Rochelle,Hollande,litres,2496,D'après Portet
 muids,sel de Marennes,Sel,Exports,La Rochelle,Nord,litres,2496,D'après Portet
-muids,sel de mer,Sel,Exports,,Espagne,litres,2496,D'après Portet
+muids,sel de mer,Sel,Exports,,Espagne,,,
 muids,sel de mer,Sel,Exports,Nantes,Afrique,litres,2496,D'après Portet
 muids,sel de mer,Sel,Exports,Nantes,Amériques,litres,2496,D'après Portet
 muids,sel de Ré,Sel,Exports,La Rochelle,Angleterre,litres,2496,D'après Portet
@@ -4633,10 +4654,11 @@ muids,sel,Sel,Imports,Saint-Malo,France,litres,2496,D'après Portet
 muids,sirop fin,Sirop et mélasse,Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,sirop fin,Sirop et mélasse,Exports,Marseille,Afrique,litres,268.21439,D'après Portet
 muids,sirop fin,Sirop et mélasse,Exports,Marseille,Amériques,litres,268.21439,D'après Portet
-muids,pois et fèves,Subsistances diverses et mélangées,Imports,Rouen,Angleterre,litres,1872,D'après Portet – comme froment
-muids,pois et fèves,Subsistances diverses et mélangées,Imports,Rouen,Hollande,litres,1872,D'après Portet – comme froment
-muids,pois secs,Subsistances diverses et mélangées,Imports,Rouen,Nord,litres,1872,D'après Portet – comme froment
 muids,sucre blanc,Sucre,Exports,La Rochelle,Italie,,,
+muids,vin blanc commun,,Exports,Nantes,,,,
+muids,vin blanc commun,,Exports,Nantes,Flandre et autres états de l'Empereur,,,
+muids,vin blanc commun,,Exports,Nantes,Hollande,,,
+muids,vin blanc commun,,Exports,Nantes,Nord,,,
 muids,vin de liqueurs de muscat,Vin de liqueurs,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de liqueurs de muscat,Vin de liqueurs,Exports,,Espagne,litres,268.21439,D'après Portet
 muids,vin de liqueurs de muscat,Vin de liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
@@ -4691,6 +4713,13 @@ muids,vin de liqueurs,Vin de liqueurs,Imports,Rouen,Nord,litres,268.21439,D'apr�
 muids,vin de liqueurs,Vin de liqueurs,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
 muids,vin en cercles de liqueurs,Vin de liqueurs,Imports,Rouen,Espagne,litres,268.21439,D'après Portet
 muids,vin en cercles de liqueurs,Vin de liqueurs,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
+muids,vin rouge au muids,,Exports,Nantes,Angleterre,,,
+muids,vin rouge au muids,,Exports,Nantes,États-Unis d'Amérique,,,
+muids,vin rouge au muids,,Exports,Nantes,Flandre et autres états de l'Empereur,,,
+muids,vin rouge au muids,,Exports,Nantes,France,,,
+muids,vin rouge au muids,,Exports,Nantes,Italie,,,
+muids,vin rouge au muids,,Exports,Nantes,Nord,,,
+muids,vin rouge au muids,,Exports,Nantes,Portugal,,,
 muids,vin de Bordeaux au muid,Vins de Bordeaux,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de Bordeaux au muid,Vins de Bordeaux,Exports,,Angleterre,litres,268.21439,D'après Portet
 muids,vin de Bordeaux au muid,Vins de Bordeaux,Exports,,Espagne,litres,268.21439,D'après Portet
@@ -4704,7 +4733,7 @@ muids,vin de Bordeaux au muid,Vins de Bordeaux,Exports,,Portugal,litres,268.2143
 muids,vin de Bordeaux au muid,Vins de Bordeaux,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,vin de Bordeaux de retour,Vins de Bordeaux,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,vin de Bordeaux de retour,Vins de Bordeaux,Imports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,vin de Bordeaux en muid,Vins de Bordeaux,import,Nantes,,,,
+muids,vin de Bordeaux en muid,Vins de Bordeaux,Imports,Nantes,France,,,
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Afrique,litres,268.21439,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Amériques,litres,268.21439,D'après Portet
@@ -4749,16 +4778,20 @@ muids,vin blanc,Vins divers,Exports,Marseille,Amériques,litres,268.21439,D'apr�
 muids,vin blanc,Vins divers,Exports,Marseille,France,litres,268.21439,D'après Portet
 muids,vin blanc,Vins divers,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vin blanc,Vins divers,Exports,Nantes,Amériques,litres,268.21439,D'après Portet
+muids,vin blanc,Vins divers,Exports,Nantes,Espagne,,,
+muids,vin blanc,Vins divers,Exports,Nantes,Flandre et autres états de l'Empereur,,,
+muids,vin blanc,Vins divers,Exports,Nantes,France,,,
+muids,vin blanc,Vins divers,Exports,Nantes,Hollande,,,
 muids,vin blanc,Vins divers,Exports,Rouen,Afrique,litres,268.21439,D'après Portet
-muids,vin blanc,Vins divers,import,Nantes,,,,
 muids,vin blanc,Vins divers,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,vin blanc,Vins divers,Imports,La Rochelle,France,litres,268.21439,D'après Portet
 muids,vin blanc,Vins divers,Imports,Lorient,France,litres,268.21439,D'après Portet
 muids,vin blanc,Vins divers,Imports,Montpellier,Italie,litres,268.21439,D'après Portet
+muids,vin blanc,Vins divers,Imports,Nantes,France,,,
 muids,vin commun d'Espagne,Vins divers,Imports,Rouen,Espagne,litres,268.21439,D'après Portet
 muids,vin commun,Vins divers,Exports,Châlons,Allemagne,litres,268.21439,D'après Portet
 muids,vin commun,Vins divers,Exports,Châlons,France,litres,268.21439,D'après Portet
-muids,vin commun,Vins divers,Imports,,Espagne,litres,268.21439,D'après Portet
+muids,vin commun,Vins divers,Imports,,Espagne,,,
 muids,vin d'Alicante,Vins divers,Exports,Marseille,Amériques,litres,268.21439,D'après Portet
 muids,vin d'Alicante,Vins divers,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,vin d'Alicante,Vins divers,Imports,Montpellier,Espagne,litres,268.21439,D'après Portet
@@ -4951,7 +4984,8 @@ muids,vin de Lyon,Vins divers,Exports,Lyon,Suisse,litres,268.21439,D'après Port
 muids,vin de Mâcon,Vins divers,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de Mâcon,Vins divers,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,vin de Madère,Vins divers,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,vin de Madère,Vins divers,import,Nantes,,,,
+muids,vin de Madère,Vins divers,Imports,Nantes,États-Unis d'Amérique,,,
+muids,vin de Madère,Vins divers,Imports,Nantes,France,,,
 muids,vin de Madère,Vins divers,Imports,,Portugal,litres,268.21439,D'après Portet
 muids,vin de Madère,Vins divers,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
@@ -4968,9 +5002,9 @@ muids,vin de Malaga,Vins divers,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Imports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Imports,Flandre,Hollande,litres,268.21439,D'après Portet
-muids,vin de Malvoisie,Vins divers,import,Nantes,,,,
 muids,vin de Malvoisie,Vins divers,Imports,,Espagne,litres,268.21439,D'après Portet
 muids,vin de Malvoisie,Vins divers,Imports,,Italie,litres,268.21439,D'après Portet
+muids,vin de Malvoisie,Vins divers,Imports,Nantes,Espagne,,,
 muids,vin de Malvoisie,Vins divers,Imports,,Portugal,litres,268.21439,D'après Portet
 muids,vin de Moselle,Vins divers,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de muscat ordinaire,Vins divers,Exports,Rouen,Amériques,litres,268.21439,D'après Portet
@@ -4994,7 +5028,7 @@ muids,vin de Porto Rico,Vins divers,Exports,,Flandre et autres états de l'Emper
 muids,vin de Portugal,Vins divers,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin de Portugal,Vins divers,Imports,,Portugal,litres,268.21439,D'après Portet
 muids,vin de Portugal,Vins divers,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
-muids,vin de Provence en muids,Vins divers,import,Nantes,,,,
+muids,vin de Provence en muids,Vins divers,Imports,Nantes,France,,,
 muids,vin de Provence,Vins divers,Exports,,Angleterre,litres,268.21439,D'après Portet
 muids,vin de Provence,Vins divers,Exports,,Divers,litres,268.21439,D'après Portet
 muids,vin de Provence,Vins divers,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
@@ -5053,7 +5087,7 @@ muids,vin divers,Vins divers,Exports,,Angleterre,litres,268.21439,D'après Porte
 muids,vin divers,Vins divers,Exports,Bayonne,Afrique,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,Bayonne,Amériques,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,Bordeaux,Angleterre,litres,268.21439,D'après Portet
-muids,vin divers,Vins divers,Exports,,Espagne,litres,268.21439,D'après Portet
+muids,vin divers,Vins divers,Exports,,Espagne,,,
 muids,vin divers,Vins divers,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,Flandre,Angleterre,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,France,Afrique,litres,268.21439,D'après Portet
@@ -5076,7 +5110,7 @@ muids,vin du Barrois,Vins divers,Exports,,Divers,litres,268.21439,D'après Porte
 muids,vin du Barrois,Vins divers,Imports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin du Barrois,Vins divers,Imports,Châlons,Allemagne,litres,268.21439,D'après Portet
 muids,vin du Béarn et Gascogne,Vins divers,Exports,,Divers,litres,268.21439,D'après Portet
-muids,vin du Cap Breton,Vins divers,import,Nantes,,,,
+muids,vin du Cap Breton,Vins divers,Imports,Nantes,France,,,
 muids,vin du Cap,Vins divers,Imports,Rouen,Espagne,litres,268.21439,D'après Portet
 muids,vin du Cap,Vins divers,Imports,Rouen,Hollande,litres,268.21439,D'après Portet
 muids,vin du Dauphiné,Vins divers,Exports,,Divers,litres,268.21439,D'après Portet
@@ -5211,7 +5245,7 @@ muids,vin ordinaire,Vins divers,Imports,Rouen,Italie,litres,268.21439,D'après P
 muids,vin ordinaire,Vins divers,Imports,Rouen,Nord,litres,268.21439,D'après Portet
 muids,vin ordinaire,Vins divers,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
 muids,vin ordinaire,Vins divers,Imports,Valenciennes,Allemagne,litres,268.21439,D'après Portet
-muids,vin rouge de Marennes,Vins divers,import,Nantes,,,,
+muids,vin rouge de Marennes,Vins divers,Imports,Nantes,France,,,
 muids,vin rouge et blanc,Vins divers,Exports,Montpellier,Hollande,litres,268.21439,D'après Portet
 muids,vin rouge très gras,Vins divers,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vin rouge,Vins divers,Exports,,Amériques,litres,268.21439,D'après Portet
@@ -5286,7 +5320,6 @@ muids,vin,Vins divers,Exports,Montpellier,Levant et Barbarie,litres,268.21439,D'
 muids,vin,Vins divers,Exports,Montpellier,Nord,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Nantes,Amériques,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,Nantes,Nord,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Narbonne,France,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Narbonne,Italie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Narbonne,Suisse,litres,268.21439,D'après Portet
@@ -5329,8 +5362,8 @@ panal,noix,Fruits secs et noix,Imports,Marseille,Italie,,,
 panaux,châtaignes,Fruits secs et noix,Exports,Marseille,Italie,,,
 panaux,noix,Fruits secs et noix,Exports,Marseille,Italie,,,
 panaux,colombine,Matières brutes et transformées pour teinture,Exports,Marseille,Italie,,,
-panneaux,fèves,Graines diverses et mélangées,Imports,Marseille,Italie,,,
 panneaux,graine de chanvre,Graines grasses,Imports,Marseille,Italie,,,
+panneaux,fèves,Légumes,Imports,Marseille,Italie,,,
 panneaux,colombine,Matières brutes et transformées pour teinture,Exports,Marseille,Italie,,,
 pans,camelot de laine,Étoffes de laine,Exports,Marseille,Espagne,,,
 pans,cordeillat de Colmar,Étoffes de laine,Exports,Marseille,Italie,,,
@@ -5419,7 +5452,7 @@ pintes,eau de Barbade,Eaux-de-vie et liqueurs,Imports,Caen,Angleterre,litres,.93
 pintes,sirop de limon,Sirop et mélasse,Imports,Nantes,Amériques,litres,.93129998,D'après Portet
 pintes,vin du Rhin,Vins divers,Imports,Nantes,Hollande,litres,.93129998,D'après Portet
 pintes,vin rouge,Vins divers,Exports,Marseille,Angleterre,litres,.93129998,D'après Portet
-pintes,vin rouge,Vins divers,Exports,Marseille,Espagne,litres,.93129998,D'après Portet
+pintes,vin rouge,Vins divers,Exports,Marseille,Espagne,,,
 pintes,vin rouge,Vins divers,Exports,Marseille,États-Unis d'Amérique,litres,.93129998,D'après Portet
 pintes,vin rouge,Vins divers,Exports,Marseille,Flandre et autres états de l'Empereur,litres,.93129998,D'après Portet
 pintes,vin rouge,Vins divers,Exports,Marseille,France,litres,.93129998,D'après Portet
@@ -5485,13 +5518,13 @@ poignées,morue verte,Pêche et fruits de mer,Imports,Rouen,Hollande,,,
 poignées,morue,Pêche et fruits de mer,Exports,Bourgogne,Suisse,,,
 pommiers,arbres à planter,Matières premières diverses,Exports,Rennes,Angleterre,,,
 postes,filets à pêcher,Cordage et filets,Imports,Marseille,Italie,,,
-pot,fèves,Graines diverses et mélangées,Imports,Marseille,Italie,,,
 potiches petites,olives,Fruits frais,Imports,Nantes,Espagne,,,
 potiches,olives,Fruits frais,Imports,Bayonne,Espagne,,,
 potiches,olives,Fruits frais,Imports,Nantes,Espagne,,,
 potiches,olives,Fruits frais,Imports,Rennes,Espagne,,,
 potiches,raisin,Fruits frais,Imports,Rennes,Espagne,,,
 potiches,raisin sec,Fruits secs et noix,Imports,Rennes,Espagne,,,
+pot,fèves,Légumes,Imports,Marseille,Italie,,,
 pots,beurre,Beurre,Exports,Rouen,Amériques,,,
 pots,beurre,Beurre,Imports,La Rochelle,Angleterre,,,
 pots,bière de Hollande,"Bière, cidre et vinaigre",Imports,Marseille,Hollande,litres,1.9667,"Doursther page 450 : 1 pot de liquide de Marseille = 1,9667 L"
@@ -5717,7 +5750,6 @@ pots,olives,Fruits frais,Exports,Marseille,Amériques,,,
 pots,olives,Fruits frais,Exports,Nantes,Nord,,,
 pots,raisin,Fruits frais,Exports,Nantes,Nord,,,
 pots,fruits secs,Fruits secs et noix,Exports,La Rochelle,Amériques,,,
-pots,fèves,Graines diverses et mélangées,Exports,Rennes,Afrique,,,
 pots,graine de coton,Graines diverses et mélangées,Imports,Marseille,Italie,,,
 pots,graisse,Graisses diverses,Exports,Rennes,Asie,,,
 pots,vestes brodées,Habits et lingerie,Exports,Rouen,Amériques,,,
@@ -5748,6 +5780,7 @@ pots,huile de navette,Huiles diverses,Imports,Rennes,Hollande,,,
 pots,huile de noix,Huiles diverses,Exports,Bordeaux,Amériques,,,
 pots,huile de rabette,Huiles diverses,Imports,Rouen,Angleterre,,,
 pots,huile vierge,Huiles diverses,Exports,Bordeaux,Amériques,,,
+pots,fèves,Légumes,Exports,Rennes,Afrique,,,
 pots,opiats,Manne et médicaments,Exports,Saint-Quentin,Flandre et autres états de l'Empereur,,,
 pots,marbre brut,Marbre brut et ouvré,Imports,Rouen,France,,,
 pots,craie,Matières brutes et transformées pour teinture,Exports,Bordeaux,Amériques,,,
@@ -6145,13 +6178,16 @@ quartiers,grains seigle,Blé et autres grains comestibles,Imports,Rennes,Anglete
 quartiers,oies,Chairs et œufs,Exports,Bordeaux,Hollande,,,
 quartiers,cuirs de bœuf tannés,"Cuirs, peaux et pelleterie",Exports,La Rochelle,Italie,,,
 quartiers,noix,Fruits secs et noix,Exports,Narbonne,Espagne,,,
-quartiers,fèves,Graines diverses et mélangées,Exports,Bordeaux,Espagne,,,
+quartiers,fèves,Légumes,Exports,Bordeaux,Espagne,,,
 quartiers,haricots,Légumes,Imports,Bordeaux,Hollande,,,
+quartiers,pois secs,Légumes,Imports,Bordeaux,Hollande,,,
+quartiers,pois verts,Légumes,Imports,Bordeaux,Angleterre,,,
 quartiers,pierres de moulage,Matières premières diverses,Exports,Rennes,Flandre et autres états de l'Empereur,,,
 quartiers,moulage,Ouvrages divers et mélangés,Exports,Rennes,Angleterre,,,
 quartiers,sel,Sel,Exports,Rennes,Angleterre,,,
-quartiers,pois secs,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
-quartiers,pois verts,Subsistances diverses et mélangées,Imports,Bordeaux,Angleterre,,,
+quart,pois et fèves,Légumes,Exports,Nantes,Amériques,,,
+quart,pois secs,Légumes,Imports,La Rochelle,Amériques,,,
+quart,pois,Légumes,Exports,La Rochelle,Amériques,,,
 quart,alose salée,Pêche et fruits de mer,Exports,Nantes,Amériques,,,
 quart,harengs blancs,Pêche et fruits de mer,Exports,Nantes,Amériques,,,
 quart,harengs blancs,Pêche et fruits de mer,Imports,Bordeaux,Hollande,,,
@@ -6246,6 +6282,10 @@ quarts,pommes,Fruits frais,Exports,Nantes,Nord,,,
 quarts,huile de poisson,Huile de poisson,Imports,La Rochelle,Amériques,,,
 quarts,huile de poisson,Huile de poisson,Imports,La Rochelle,Nord,,,
 quarts,huile de lin,Huiles diverses,Exports,Rennes,Asie,,,
+quarts,pois secs,Légumes,Imports,La Rochelle,Amériques,,,
+quarts,pois verts,Légumes,Exports,Nantes,Afrique,,,
+quarts,pois verts,Légumes,Imports,La Rochelle,Amériques,,,
+quarts,pois,Légumes,Exports,Rennes,Amériques,,,
 quarts,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Amériques,,,
 quarts,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Hollande,,,
 quarts,ocre,Matières brutes et transformées pour teinture,Imports,Nantes,Amériques,,,
@@ -6301,10 +6341,6 @@ quarts,lard,Subsistances diverses et mélangées,Exports,Rennes,Hollande,,,
 quarts,lard,Subsistances diverses et mélangées,Exports,Rouen,Amériques,,,
 quarts,lard,Subsistances diverses et mélangées,Imports,Rennes,Angleterre,,,
 quarts,oignons,Subsistances diverses et mélangées,Exports,Nantes,Amériques,,,
-quarts,pois secs,Subsistances diverses et mélangées,Imports,La Rochelle,Amériques,,,
-quarts,pois verts,Subsistances diverses et mélangées,Exports,Nantes,Afrique,,,
-quarts,pois verts,Subsistances diverses et mélangées,Imports,La Rochelle,Amériques,,,
-quarts,pois,Subsistances diverses et mélangées,Exports,Rennes,Amériques,,,
 quarts,pommes de terre,Subsistances diverses et mélangées,Exports,Nantes,Amériques,,,
 quarts,sucre terré,Sucre,Exports,Nantes,Nord,,,
 quarts,sucre terré,Sucre,Imports,Rennes,Amériques,,,
@@ -6313,9 +6349,6 @@ quart,échalote,Subsistances diverses et mélangées,Exports,Nantes,Nord,,,
 quart,lard,Subsistances diverses et mélangées,Exports,Nantes,Amériques,,,
 quart,mongette,Subsistances diverses et mélangées,Exports,La Rochelle,Amériques,,,
 quart,navets,Subsistances diverses et mélangées,Exports,Nantes,Hollande,,,
-quart,pois et fèves,Subsistances diverses et mélangées,Exports,Nantes,Amériques,,,
-quart,pois secs,Subsistances diverses et mélangées,Imports,La Rochelle,Amériques,,,
-quart,pois,Subsistances diverses et mélangées,Exports,La Rochelle,Amériques,,,
 quart,pommes de terre,Subsistances diverses et mélangées,Exports,Nantes,Amériques,,,
 quarts,vin de Bordeaux,Vins de Bordeaux,Exports,La Rochelle,Amériques,,,
 quarts,vin de Bordeaux,Vins de Bordeaux,Exports,Nantes,Nord,,,
@@ -6361,6 +6394,7 @@ rames,sapin,Bois divers hors combustible,Exports,Bordeaux,Espagne,,,
 rames,parchemins,"Cuirs, peaux et pelleterie",Exports,Marseille,Italie,feuilles,500,Savary édition 1741 article rames
 rames,drap,Étoffes de laine,Imports,,Hollande,,,
 rames,lin,Lin,Imports,La Rochelle,Hollande,,,
+rames,papier à écrire commun,,Exports,Nantes,Portugal,,,
 rames,papier ???,Papier,Exports,La Rochelle,Nord,feuilles,500,Savary édition 1741 article rames
 rames,papier à bulle blanc,Papier,Exports,,Espagne,feuilles,500,Savary édition 1741 article rames
 rames,papier à bulle blanc,Papier,Exports,,Hollande,feuilles,500,Savary édition 1741 article rames
@@ -6412,7 +6446,9 @@ rames,papier à écrire,Papier,Exports,Marseille,Portugal,feuilles,500,Savary é
 rames,papier à écrire,Papier,Exports,Nantes,Afrique,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,Nantes,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,Nantes,Angleterre,feuilles,500,Savary édition 1741 article rames
+rames,papier à écrire,Papier,Exports,Nantes,États-Unis d'Amérique,,,
 rames,papier à écrire,Papier,Exports,Nantes,Flandre et autres états de l'Empereur,feuilles,500,Savary édition 1741 article rames
+rames,papier à écrire,Papier,Exports,Nantes,France,,,
 rames,papier à écrire,Papier,Exports,Nantes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,Nantes,Nord,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,Narbonne,Espagne,feuilles,500,Savary édition 1741 article rames
@@ -6424,8 +6460,6 @@ rames,papier à écrire,Papier,Exports,Rennes,Nord,feuilles,500,Savary édition 
 rames,papier à écrire,Papier,Exports,Rennes,Portugal,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,Rouen,Espagne,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Exports,,Suisse,feuilles,500,Savary édition 1741 article rames
-rames,papier à écrire,Papier,import,Nantes,,,,
-rames,papier à écrire,Papier,import,Nantes,Hollande,,,
 rames,papier à écrire,Papier,Imports,Amiens,Angleterre,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,Bordeaux,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,,Divers,feuilles,500,Savary édition 1741 article rames
@@ -6436,6 +6470,7 @@ rames,papier à écrire,Papier,Imports,Marseille,Espagne,feuilles,500,Savary éd
 rames,papier à écrire,Papier,Imports,Marseille,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,Marseille,Italie,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,Marseille,Levant et Barbarie,feuilles,500,Savary édition 1741 article rames
+rames,papier à écrire,Papier,Imports,Nantes,France,,,
 rames,papier à écrire,Papier,Imports,Nantes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,Nantes,Nord,feuilles,500,Savary édition 1741 article rames
 rames,papier à écrire,Papier,Imports,Rennes,Hollande,feuilles,500,Savary édition 1741 article rames
@@ -6447,6 +6482,8 @@ rames,papier à enveloppe,Papier,Imports,Marseille,Italie,,,
 rames,papier à états,Papier,Exports,Bordeaux,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier à facture,Papier,Exports,Bordeaux,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier à grand compte,Papier,Exports,Bordeaux,Amériques,feuilles,500,Savary édition 1741 article rames
+rames,papier à image,Papier,Exports,Nantes,Espagne,,,
+rames,papier à image,Papier,Exports,Nantes,Portugal,,,
 rames,papier à impression,Papier,Exports,Bordeaux,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier à impression,Papier,Exports,Bordeaux,Angleterre,feuilles,500,Savary édition 1741 article rames
 rames,papier à impression,Papier,Exports,Bordeaux,États-Unis d'Amérique,feuilles,500,Savary édition 1741 article rames
@@ -6477,7 +6514,7 @@ rames,papier à l'étoile,Papier,Exports,,Portugal,feuilles,500,Savary édition 
 rames,papier à l'étoile,Papier,Exports,Rennes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier à l'étoile,Papier,Exports,Rennes,Nord,feuilles,500,Savary édition 1741 article rames
 rames,papier à l'étoile,Papier,Exports,Rennes,Portugal,feuilles,500,Savary édition 1741 article rames
-rames,papier à la cloche,Papier,Exports,Marseille,Espagne,feuilles,500,Savary édition 1741 article rames
+rames,papier à la cloche,Papier,Exports,Marseille,Espagne,,,
 rames,papier à la cloche,Papier,Exports,Marseille,États-Unis d'Amérique,feuilles,500,Savary édition 1741 article rames
 rames,papier à la cloche,Papier,Exports,Marseille,France,feuilles,500,Savary édition 1741 article rames
 rames,papier à la cloche,Papier,Exports,Marseille,Italie,feuilles,500,Savary édition 1741 article rames
@@ -6721,17 +6758,15 @@ rames,papier de Gênes peint,Papier,Exports,,Portugal,feuilles,500,Savary éditi
 rames,papier de Gênes petit,Papier,Exports,Rennes,Portugal,feuilles,500,Savary édition 1741 article rames
 rames,papier de Gênes petit,Papier,Exports,Saint-Malo,Portugal,feuilles,500,Savary édition 1741 article rames
 rames,papier de Gênes,Papier,Exports,Rennes,Hollande,feuilles,500,Savary édition 1741 article rames
-rames,papier de Hollande,Papier,import,Marseille,Hollande,,,
 rames,papier de Hollande,Papier,Imports,Bayonne,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier de Hollande,Papier,Imports,,Hollande,feuilles,500,Savary édition 1741 article rames
+rames,papier de Hollande,Papier,Imports,Marseille,Hollande,,,
 rames,papier de Hollande,Papier,Imports,Nantes,Espagne,feuilles,500,Savary édition 1741 article rames
 rames,papier de Hollande,Papier,Imports,Nantes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier de Lamballe,Papier,Exports,,Portugal,feuilles,500,Savary édition 1741 article rames
 rames,papier de Lamballe,Papier,Exports,Rennes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier de Lamballe,Papier,Exports,Rennes,Portugal,feuilles,500,Savary édition 1741 article rames
 rames,papier de pliage,Papier,Exports,Marseille,Levant et Barbarie,feuilles,500,Savary édition 1741 article rames
-rames,papier de pliage,Papier,import,Marseille,,,,
-rames,papier de pliage,Papier,import,Marseille,Italie,,,
 rames,papier de pliage,Papier,Imports,,Italie,feuilles,500,Savary édition 1741 article rames
 rames,papier de pliage,Papier,Imports,Marseille,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier de pliage,Papier,Imports,Marseille,Italie,feuilles,500,Savary édition 1741 article rames
@@ -6905,16 +6940,17 @@ rasières,charbon de terre,Combustibles dont charbons et bois,Imports,Flandre,An
 rasières,charbon de terre,Combustibles dont charbons et bois,Imports,La Rochelle,Nord,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Imports,Rennes,Nord,,,
 rasières,fruits frais,Fruits frais,Exports,Caen,Angleterre,,,
-rasières,fèves,Graines diverses et mélangées,Exports,Dunkerque,Amériques,,,
 rasières,graine de genièvre,Graines diverses et mélangées,Exports,Flandre,Allemagne,,,
 rasières,graine de genièvre,Graines diverses et mélangées,Exports,Flandre,Flandre et autres états de l'Empereur,,,
-rasières,lentilles,Graines diverses et mélangées,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,graine de colza,Graines grasses,Imports,,Flandre et autres états de l'Empereur,,,
 rasières,graine de colza,Graines grasses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,graine de lin,Graines grasses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
+rasières,fèves,Légumes,Exports,Dunkerque,Amériques,,,
 rasières,haricots,Légumes,Exports,Dunkerque,Amériques,,,
 rasières,légumes pois,Légumes,Exports,Dunkerque,Amériques,,,
 rasières,légumes,Légumes,Exports,Dunkerque,Amériques,,,
+rasières,lentilles,Légumes,Exports,Flandre,Flandre et autres états de l'Empereur,,,
+rasières,pois verts,Légumes,Exports,Dunkerque,Amériques,,,
 rasières,chaux éteinte,Matières premières diverses,Exports,Dunkerque,Amériques,,,
 rasières,chaux vive,Matières premières diverses,Exports,Dunkerque,Amériques,,,
 rasières,engrais en court fumier,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
@@ -6925,7 +6961,6 @@ rasières,sel blanc,Sel,Exports,Flandre,Flandre et autres états de l'Empereur,,
 rasières,sel gris,Sel,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,sel,Sel,Exports,,Flandre et autres états de l'Empereur,,,
 rasières,sel,Sel,Imports,,Angleterre,,,
-rasières,pois verts,Subsistances diverses et mélangées,Exports,Dunkerque,Amériques,,,
 réchauds,fer-blanc,Fer-blanc,Imports,Nantes,Hollande,,,
 rolle,tabac du Brésil,Tabac,Exports,Nantes,Amériques,,,
 rondelles,futailles,"Ouvrages de bois, liège et jonc",Exports,Nantes,Amériques,,,
@@ -6937,9 +6972,11 @@ rouleaux,papier à la piperie,Papier,Exports,Rouen,Espagne,,,
 rouleaux,papier à la piperie,Papier,Exports,Rouen,Portugal,,,
 rouleaux,papier à tapisserie,Papier,Exports,Le Havre,Amériques,,,
 rouleaux,papier de tapisserie,Papier,Exports,Le Havre,Amériques,,,
-rouleaux,papier de tapisserie,Papier,import,Nantes,,,,
+rouleaux,papier de tapisserie,Papier,Imports,Nantes,France,,,
 rouleaux,papier gris,Papier,Exports,Flandre,France,,,
 rouleaux,papier peint à tapisserie,Papier,Exports,Nantes,Amériques,,,
+rouleaux,papier peint à tapisserie,Papier,Exports,Nantes,Espagne,,,
+rouleaux,papier peint à tapisserie,Papier,Exports,Nantes,Portugal,,,
 rouleaux,papier peint et à tapisserie,Papier,Exports,,Amériques,,,
 rouleaux,papier peint,Papier,Exports,Besançon,Suisse,,,
 rouleaux,papier peint,Papier,Exports,Bordeaux,Amériques,,,
@@ -6953,7 +6990,7 @@ rouleaux,porcelaine,"Porcelaine, poterie, faïence et ouvrages de terre",Imports
 rouleaux,marregues,Produits inconnus,Imports,Bayonne,Espagne,,,
 rouleaux,tabac du Brésil,Tabac,Imports,Rouen,Portugal,,,
 rouleaux,tabac fabriqué,Tabac,Exports,Nantes,Angleterre,,,
-rouleaux,gaze de fil brodée,Textiles manufacturés divers et mélangés,import,Nantes,Angleterre,,,
+rouleaux,gaze de fil brodée,Textiles manufacturés divers et mélangés,Imports,Nantes,Angleterre,,,
 rouleaux,toile d'emballage,Toiles diverses,Exports,,Levant et Barbarie,,,
 rouleaux,toile d'emballage,Toiles diverses,Imports,,Italie,,,
 rouleaux,toile d'emballage,Toiles diverses,Imports,Marseille,Hollande,,,
@@ -7031,11 +7068,6 @@ sacs,graine de luzerne,"Graines de trèfle, de luzerne et de prairie",Exports,Fl
 sacs,graine de trèfle,"Graines de trèfle, de luzerne et de prairie",Exports,,Flandre et autres états de l'Empereur,,,
 sacs,graine de trèfle,"Graines de trèfle, de luzerne et de prairie",Exports,Flandre,Flandre et autres états de l'Empereur,,,
 sacs,graine de trèfle,"Graines de trèfle, de luzerne et de prairie",Imports,Flandre,Flandre et autres états de l'Empereur,,,
-sacs,fèves,Graines diverses et mélangées,Exports,Rennes,Afrique,,,
-sacs,fèves,Graines diverses et mélangées,Imports,Bordeaux,Hollande,,,
-sacs,fèves,Graines diverses et mélangées,Imports,La Rochelle,Angleterre,,,
-sacs,fèves,Graines diverses et mélangées,Imports,Marseille,Italie,,,
-sacs,fèves,Graines diverses et mélangées,Imports,Rennes,Hollande,,,
 sacs,graine de bouquette,Graines diverses et mélangées,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 sacs,graine de pigeon,Graines diverses et mélangées,Exports,Marseille,Italie,,,
 sacs,graine de sainfoin,Graines diverses et mélangées,Exports,Flandre,Flandre et autres états de l'Empereur,,,
@@ -7051,7 +7083,16 @@ sacs,graine de lin,Graines grasses,Imports,Saint-Malo,France,,,
 sacs,graine de navette,Graines grasses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 sacs,gravelée,"Gravelée, potasse et védasse",Imports,Flandre,Flandre et autres états de l'Empereur,,,
 sacs,laine peignée,Laines non transformées diverses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
+sacs,fèves,Légumes,Exports,Rennes,Afrique,,,
+sacs,fèves,Légumes,Imports,Bordeaux,Hollande,,,
+sacs,fèves,Légumes,Imports,La Rochelle,Angleterre,,,
+sacs,fèves,Légumes,Imports,Marseille,Italie,,,
+sacs,fèves,Légumes,Imports,Rennes,Hollande,,,
 sacs,légumes,Légumes,Exports,Rennes,Asie,,,
+sacs,pois secs,Légumes,Imports,Flandre,Flandre et autres états de l'Empereur,,,
+sacs,pois secs,Légumes,Imports,La Rochelle,Angleterre,,,
+sacs,pois verts,Légumes,Imports,Bordeaux,Hollande,,,
+sacs,pois,Légumes,Imports,Rouen,Nord,,,
 sacs,graine jaune,Matières brutes et transformées pour teinture,Imports,,Amériques,,,
 sacs,écorce de chêne,Matières premières diverses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 sacs,genièvre,Matières premières diverses,Exports,Bordeaux,Hollande,,,
@@ -7075,10 +7116,6 @@ sacs,sel,Sel,Exports,Nantes,Nord,,,
 sacs,sel,Sel,Exports,Rennes,Angleterre,,,
 sacs,mongette,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
 sacs,oignons,Subsistances diverses et mélangées,Exports,Rennes,Angleterre,,,
-sacs,pois secs,Subsistances diverses et mélangées,Imports,Flandre,Flandre et autres états de l'Empereur,,,
-sacs,pois secs,Subsistances diverses et mélangées,Imports,La Rochelle,Angleterre,,,
-sacs,pois verts,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
-sacs,pois,Subsistances diverses et mélangées,Imports,Rouen,Nord,,,
 sacs,pommes de terre,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
 sacs,pommes de terre,Subsistances diverses et mélangées,Imports,Nantes,Flandre et autres états de l'Empereur,,,
 sacs,tabac,Tabac,Exports,Rennes,Asie,,,
@@ -7088,7 +7125,7 @@ sacs,toile à 4 fils,Toiles diverses,Exports,Rennes,Amériques,,,
 sanegues,sel,Sel,Exports,Bayonne,Espagne,,,
 sannées,vin,Vins divers,Exports,Lyon,Suisse,,,
 saumon,plomb en saumon,Ouvrages métalliques,Imports,Rennes,Hollande,,,
-saur,pois verts,Subsistances diverses et mélangées,Imports,Bordeaux,Hollande,,,
+saur,pois verts,Légumes,Imports,Bordeaux,Hollande,,,
 seaux,seaux de bois,"Ouvrages de bois, liège et jonc",Imports,Rouen,Hollande,,,
 selles,harnais de sellier,Cordonnerie et sellerie,Exports,Marseille,Amériques,,,
 simple,espars,"Ouvrages de bois, liège et jonc",Imports,La Rochelle,Nord,,,
@@ -7203,11 +7240,12 @@ tierçons,tafia,Eaux-de-vie et liqueurs,Imports,Bayonne,Amériques,,,
 tierçons,tafia,Eaux-de-vie et liqueurs,Imports,La Rochelle,Angleterre,,,
 tierçons,gruau,"Farine, gruau, biscuits et pâtes",Imports,Nantes,Hollande,,,
 tierçons,pruneaux,Fruits secs et noix,Exports,Nantes,Nord,litres,91.406013,CNTRL et Doursther page 531 : 1 tierçons = 96 pintes ; mesure de la pinte : https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises
-tierçons,lentilles,Graines diverses et mélangées,Exports,Nantes,Portugal,,,
 tierçons,huile d'olive,Huile d'olive à manger,Exports,Rennes,Amériques,,,
 tierçons,huile d'olive,Huile d'olive à manger,Exports,Rennes,Asie,,,
 tierçons,huile de morue,Huile de poisson,Imports,Nantes,Amériques,,,
 tierçons,indigo,Indigo,Exports,La Rochelle,Nord,litres,91.406013,CNTRL et Doursther page 531 : 1 tierçons = 96 pintes ; mesure de la pinte : https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises
+tierçons,lentilles,Légumes,Exports,Nantes,Portugal,,,
+tierçons,pois,Légumes,Exports,Rennes,Amériques,,,
 tierçons,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Amériques,,,
 tierçons,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Hollande,litres,91.406013,CNTRL et Doursther page 531 : 1 tierçons = 96 pintes ; mesure de la pinte : https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises
 tierçons,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Nord,,,
@@ -7245,7 +7283,6 @@ tierçons,lard,Subsistances diverses et mélangées,Exports,Rennes,Portugal,,,
 tierçons,lard,Subsistances diverses et mélangées,Imports,Rennes,Angleterre,,,
 tierçons,lard,Subsistances diverses et mélangées,Imports,Rennes,Italie,litres,91.406013,CNTRL et Doursther page 531 : 1 tierçons = 96 pintes ; mesure de la pinte : https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises
 tierçons,lard,Subsistances diverses et mélangées,Imports,Rennes,Nord,,,
-tierçons,pois,Subsistances diverses et mélangées,Exports,Rennes,Amériques,,,
 tierçons,tabac avarié,Tabac,Exports,Rennes,Hollande,,,
 tierçons,vin de Bordeaux de Blaye,Vins de Bordeaux,Exports,Nantes,Amériques,,,
 tierçons,vin de Bordeaux de ville,Vins de Bordeaux,Exports,Nantes,Afrique,,,
@@ -7370,10 +7407,8 @@ tonne,charbon de terre,Combustibles dont charbons et bois,Imports,Rouen,Angleter
 tonne,huile à brûler,Combustibles dont charbons et bois,Exports,Flandre,Espagne,,,
 tonne,huile à brûler,Combustibles dont charbons et bois,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,huile à brûler,Combustibles dont charbons et bois,Imports,Flandre,Flandre et autres états de l'Empereur,,,
-tonne,moules,Divers incertains,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,lessive grasse,Drogues diverses,Imports,Châlons,Allemagne,,,
 tonne,fruits frais vendangés,Fruits frais,Exports,,Allemagne,,,
-tonne,fèves,Graines diverses et mélangées,Imports,Rennes,Hollande,,,
 tonne,graine de lin,Graines grasses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,dégras,Graisses diverses,Imports,,Allemagne,,,
 tonne,suif,Graisses diverses,Imports,La Rochelle,Nord,,,
@@ -7384,6 +7419,7 @@ tonne,huile de poisson,Huile de poisson,Imports,Flandre,Flandre et autres états
 tonne,huile de graine,Huiles diverses,Exports,Flandre,Allemagne,,,
 tonne,huile de graine,Huiles diverses,Imports,,Flandre et autres états de l'Empereur,,,
 tonne,huile de navette,Huiles diverses,Exports,Flandre,Allemagne,,,
+tonne,fèves,Légumes,Imports,Rennes,Hollande,,,
 tonne,chaux,Matières premières diverses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,cabillaud,Pêche et fruits de mer,Imports,Bordeaux,Hollande,,,
 tonne,cabillaud,Pêche et fruits de mer,Imports,La Rochelle,Hollande,,,
@@ -7417,6 +7453,7 @@ tonne,morue,Pêche et fruits de mer,Exports,Bourgogne,Suisse,,,
 tonne,morue,Pêche et fruits de mer,Imports,Bourgogne,Allemagne,,,
 tonne,morue,Pêche et fruits de mer,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,morue,Pêche et fruits de mer,Imports,Saint-Quentin,Flandre et autres états de l'Empereur,,,
+tonne,moules,Pêche et fruits de mer,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 tonne,poisson salé,Pêche et fruits de mer,Imports,,Flandre et autres états de l'Empereur,,,
 tonne,poisson salé,Pêche et fruits de mer,Imports,,Nord,,,
 tonne,rogues de morue,Pêche et fruits de mer,Imports,La Rochelle,Hollande,,,
@@ -7445,6 +7482,7 @@ valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,E
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Imports,,Monde,,,
 valeur,grains orge germé,Blé et autres grains comestibles,Imports,Rouen,Angleterre,,,
 valeur,bois d'olivier,Bois divers hors combustible,Imports,Nantes,Italie,,,
+valeur,bois,Bois divers hors combustible,Exports,Nantes,[vide],,,
 valeur,osier,Bois divers hors combustible,Imports,Nantes,Allemagne,,,
 valeur,bonnets brodés de laine,Bonneterie hors soie,Exports,Bordeaux,Amériques,,,
 valeur,bonnets de taffetas bordés d'argent,Bonneterie hors soie,Exports,Bordeaux,Amériques,,,
@@ -7481,6 +7519,7 @@ valeur,étoffe de soie blonde,Étoffes de soie,Exports,,Monde,,,
 valeur,étoffe de soie blonde,Étoffes de soie,Exports,,Outre-mers,,,
 valeur,étoffe de soie blonde,Étoffes de soie,Imports,,Monde,,,
 valeur,velours,Étoffes de soie,Imports,Marseille,Italie,,,
+valeur,étoffe,Étoffes diverses,Exports,Nantes,France,,,
 valeur,cordonnet pour cannes,Fils divers,Exports,Bordeaux,Amériques,,,
 valeur,fleurs artificielles,Fleurs artificielles et ouvrages de mode,Exports,,Monde,,,
 valeur,fleurs artificielles,Fleurs artificielles et ouvrages de mode,Imports,Marseille,Italie,,,
@@ -7490,11 +7529,13 @@ valeur,ouvrages de modes,Fleurs artificielles et ouvrages de mode,Imports,,Monde
 valeur,ceintures brodées,Habits et lingerie,Exports,Bordeaux,Amériques,,,
 valeur,habits,Habits et lingerie,Imports,Nantes,Hollande,,,
 valeur,pendules,Horlogerie,Imports,Nantes,Amériques,,,
+valeur,médicaments,Manne et médicaments,Exports,Nantes,[vide],,,
 valeur,albâtre moulé poli ou sculpté,Marbre brut et ouvré,Exports,,Monde,,,
 valeur,albâtre moulé poli ou sculpté,Marbre brut et ouvré,Exports,,Outre-mers,,,
 valeur,ouvrages d'albâtre,Marbre brut et ouvré,Imports,,Monde,,,
 valeur,tables de marbre,Marbre brut et ouvré,Exports,Bordeaux,Amériques,,,
 valeur,bois pour teindre,Matières brutes et transformées pour teinture,Imports,Bordeaux,Amériques,,,
+valeur,drogues diverses pour peintures et teinture,Matières brutes et transformées pour teinture,Exports,Nantes,[vide],,,
 valeur,noir de fumée,Matières brutes et transformées pour teinture,Imports,Nantes,Flandre et autres états de l'Empereur,,,
 valeur,oignons de fleurs,Matières premières diverses,Imports,Nantes,Hollande,,,
 valeur,limaille,Métaux divers et mélangés,Imports,,Monde,,,

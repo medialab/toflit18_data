@@ -39,7 +39,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
 */				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
-*/				 classification_product_threesectorsM	{
+*/				 classification_product_threesectorsM	classification_product_reexportations {
 
 	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) 
@@ -167,7 +167,7 @@ foreach variable of var product partner quantity_unit {
 }
 
 
-foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty { 
+foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty value_total line_number { 
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -186,6 +186,7 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 
 destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace float
 destring quantity value_per_unit value, replace float
+destring line_number, replace float
 
 drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
@@ -361,11 +362,16 @@ export delimited "$dir_git/base/Units_N1.csv", replace
 ******* Direction et origin
 use "bdd_centrale.dta", clear
 merge m:1 customs_region using "bdd_customs_regions.dta"
-keep customs_region customs_region_simpl customs_region_grouping
+keep customs_region customs_region_simpl customs_region_grouping /* 
+	*/ customs_region_province customs_region_hinterland remarks_customs_region
 bys customs_region : gen nbr_occurence=_N
 bys customs_region_simpl : gen nbr_occurence_simpl=_N
 bys customs_region_grouping : gen nbr_occurence_grouping=_N
+bys customs_region_province : gen nbr_occurence_customs_province=_N
 bys customs_region : keep if _n==1
+order customs_region customs_region_simpl nbr_occurence  nbr_occurence_simpl customs_region_grouping /*
+		*/ nbr_occurence_grouping customs_region_province customs_region_hinterland remarks
+****Le deux premières colonnes doivent être customs_region customs_region_simpl pour que le datascape marche
 save "bdd_customs_regions.dta", replace
 generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
@@ -375,9 +381,15 @@ export delimited "$dir_git/base/bdd_customs_regions.csv", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 origin using "bdd_origin.dta"
-keep origin origin_norm_ortho
+keep origin origin_norm_ortho  origin_province remarks_origin
 bys origin : gen nbr_occurence=_N
+bys origin_norm_ortho : gen nbr_occurence_norm_ortho=_N
+bys origin_province : gen nbr_occurence_province=_N
 bys origin : keep if _n==1
+
+order origin nbr_occurence origin_norm_ortho nbr_occurence_norm_ortho origin_province /*
+	*/ nbr_occurence_province remarks
+
 save "bdd_origin.dta", replace
 generate sortkey = ustrsortkeyex(origin,  "fr",-1,2,-1,-1,-1,0,-1)
 sort sortkey
@@ -731,7 +743,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 }
 
-foreach file_on_RE in RE_aggregate threesectors threesectorsM {
+foreach file_on_RE in RE_aggregate threesectors threesectorsM reexportations {
 	use "classification_product_`file_on_RE'.dta", clear
 	bys revolutionempire : drop if _n!=1
 	save  "classification_product_`file_on_RE'.dta", replace
@@ -769,15 +781,15 @@ use "bdd_centrale.dta", clear
 
 merge m:1 customs_region using "bdd_customs_regions.dta"
 drop if _merge==2
-rename customs_region customs_region_origin
+rename customs_region customs_region_source
 rename customs_region_simpl customs_region
-drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping
+drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping remarks_customs_region
 
 merge m:1 origin using "bdd_origin.dta"
 drop if _merge==2
-rename origin origin_origin
+rename origin origin_source
 rename origin_norm_ortho origin
-drop _merge nbr_occurence
+drop _merge nbr_occurence nbr_occurence_norm_ortho nbr_occurence_province remarks_origin
 
 
 rename source source_doc
@@ -851,7 +863,7 @@ foreach class_name in sitc_FR sitc_EN sitc_simplEN {
 }
 rename sitc product_sitc
 
-foreach class_name in RE_aggregate threesectors threesectorsM {
+foreach class_name in RE_aggregate threesectors threesectorsM reexportations {
 	rename product_revolutionempire revolutionempire
 	merge m:1 revolutionempire using "classification_product_`class_name'.dta"
 	rename revolutionempire product_revolutionempire
@@ -1081,7 +1093,7 @@ gen value_minus_unit_val_x_qty = float(value_as_reported-(value_per_unit*quantit
 sort source_type customs_region year export_import line_number 
 order line_number source_type year customs_region partner partner_orthographic export_import ///
 		product product_orthographic value quantity quantity_unit quantity_unit_ortho value_per_unit
- 
+
  
 export delimited "$dir_git/base/bdd courante_avec_out.csv", replace
 *export delimited "$dir_git/base/$dir_git/base/bdd courante.csv", replace
