@@ -1,33 +1,35 @@
 clear all
-import excel "C:\Users\leong\Desktop\MEMOIRE\DonnÈes\RÈsumÈ du Markovitch.xlsx", sheet("Feuil1")
+import excel "C:\Users\leong\Desktop\MEMOIRE\Donn√©es\R√©sum√© du Markovitch.xlsx", sheet("Feuil1") firstrow
 
-ren A RÈgion
-ren B GÈnÈralitÈ
+ren A R√©gion
+ren B G√©n√©ralit√©
 ren C Ville
-ren Picesdb103 PiËcesdÈb
-ren Picesfin PiËcesfin
-foreach var of varlist PiËcesdÈb Superfdb {
+ren Pi√®cesd√©b103 Pi√®cesd√©b
+ren Pi√®cesfin Pi√®cesfin
+foreach var of varlist Pi√®cesd√©b Superfd√©b {
 generate `var'hab = (`var'/Popdeb)*10^3
 }
-foreach var of varlist PiËcesfin Superffin {
+foreach var of varlist Pi√®cesfin Superffin {
 generate `var'hab = (`var'/Popfin)*10^3
 }
-foreach var of varlist PiËcesdÈb PiËcesfin Superfdb Superffin Valeursdb Valeursfin Prixdb Prixfin PiËcesdÈbhab Superfdbhab PiËcesfinhab Superffinhab {
+foreach var of varlist Pi√®cesd√©b Pi√®cesfin Superfd√©b Superffin Valeursd√©b Valeursfin Prixd√©b Prixfin Pi√®cesd√©bhab Superfd√©bhab Pi√®cesfinhab Superffinhab {
 generate log`var' = log(`var')
 }
+drop Colonial
 gen col = (Ville=="Rouen"|Ville=="Montpellier"|Ville=="Poitiers"|Ville=="Rennes"|Ville=="La Rochelle"|Ville=="Bordeaux"|Ville=="Aix")
-gen diffPiËces=PiËcesfin-PiËcesdÈb
+gen diffPi√®ces=Pi√®cesfin-Pi√®cesd√©b
 gen col2 = (Ville=="Rouen"|Ville=="Montpellier"|Ville=="Rennes"|Ville=="La Rochelle"|Ville=="Bordeaux"|Ville=="Aix")
-gen diffPiËceshab
+gen diffPi√®ceshab=Pi√®cesfinhab-Pi√®cesd√©bhab
 gen col3 = (Ville=="Rouen"|Ville=="Montpellier"|Ville=="Rennes"|Ville=="La Rochelle"|Ville=="Bordeaux"|Ville=="Aix"|Ville=="Paris")
 
-gen lPiËceshab = logPiËcesfinhab - logPiËcesdÈbhab
-gen lSuperfhab = logSuperffinhab - logSuperfdbhab
-gen lPrix = logPrixfin-logPrixdb
+gen lPi√®ceshab = logPi√®cesfinhab - logPi√®cesd√©bhab
+gen lSuperfhab = logSuperffinhab - logSuperfd√©bhab
+gen lPrix = logPrixfin-logPrixd√©b
 
-reg diffPiËces col2
-reg lPiËceshab col2
+reg diffPi√®ces col2
+reg lPi√®ceshab col2
 reg lSuperfhab col2
 reg lPrix col2
 reg lPrix col3
 reg lPrix col
+
