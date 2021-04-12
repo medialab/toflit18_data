@@ -59,7 +59,8 @@ Update_base <- function()
   
   ### Ecriture des lignes du csv
   write.csv2(Index_pond,
-             "./scripts/Edouard/Index_results.csv")
+             "./scripts/Edouard/Index_results.csv",
+             row.names = F)
                             
                             
   
@@ -147,7 +148,7 @@ Add_new_param <- function(Outliers = T,
   }
   
   ### On charge les valeurs actuelles du csv
-  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1)
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = NULL)
   
   ### On ajoute le nouveau dataframe
   Index_res <- rbind(Index_res, Index_pond)
@@ -157,7 +158,8 @@ Add_new_param <- function(Outliers = T,
   
   ### On écrit le résulat dans le csv
   write.csv2(Index_res,
-            "./scripts/Edouard/Index_results.csv")
+            "./scripts/Edouard/Index_results.csv",
+            row.names = F)
   
   
   
