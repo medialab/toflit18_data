@@ -25,7 +25,7 @@ source("./scripts/Edouard/Filtrage.R")
 
 ### Cette fonction calcule l'index des ventes répétés à partir d'un objet Data retourné
 ### par la fonction Data_filtrage du script filtrage
-Calcul_index <- function(Data, Ponderation = T, Pond_log = T) {
+Calcul_index <- function(Data, Ponderation = T, Pond_log = F) {
 
   ### Calcul des pondérations
   Product_pond <- Data %>%
@@ -91,13 +91,43 @@ Calcul_index <- function(Data, Ponderation = T, Pond_log = T) {
 
 ### Cette fonction prend en entrée l'Index obtenue avec la fonctin Calcul_index et renvoie 
 ### le graphe associé
-Plot_index <- function(Index, Ville = "", Type = "", smooth = F, show_NA = F) {
+Plot_index <- function(Index, 
+                       Ville,  ### Choix du port d'étude
+                       Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
+                       Outliers = T, ### Retire-t-on les outliers ? 
+                       Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
+                       Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
+                       Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix trop importantes
+                       Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
+                       Remove_double = T, ### Retire-t-on les doublons
+                       Ponderation = T, ### Calcul de l'indice avec ponderation ?
+                       Pond_log = F) 
+  
+{
   ### ON retire les valeurs manquantes
   Index = remove_missing(Index)
   
-  ### on plot l'indice
-  plot(Index, type = "o", main = paste(Ville, Type))
+  ### Nom du fichier
+  Title = paste0("Ville_", Ville, "+",
+                 "Type_", Exports_imports, "+",
+                 "Outliers_", as.character(Outliers),  "+",
+                 "Outliers_coef_", as.character(Outliers_coef), "+",
+                 "Trans_number_", as.character(Trans_number), "+",
+                 "Prod_problems_", as.character(Prod_problems), "+",
+                 "Product_select_", as.character(Product_select), "+",
+                 "Remove_double_", as.character(Remove_double), "+",
+                 "Ponderation_", as.character(Ponderation), "+",
+                 "Pond_log_", as.character(Pond_log))
   
+  ### Ouverture d'une fenêtre pour l'enregistrement du graphique
+  png(filename = paste0("./scripts/Edouard/Figure_index/", Title, ".png"),
+      width = 5000,
+      height = 2700,
+      res = 500)
+  ### Enregistrement du graphique
+  plot(Index, type = "o", main = paste(Ville, Exports_imports))
+  ### Fermetuyre de la fenêtre
+  dev.off()
   
 }
 
@@ -114,7 +144,7 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                 Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
                                 Remove_double = T, ### Retire-t-on les doublons
                                 Ponderation = T, ### Calcul de l'indice avec ponderation ?
-                                Pond_log = T) ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
+                                Pond_log = F) ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
@@ -130,7 +160,11 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log)
   
   ### On plot l'index avec la fonction Plot_index
-  Plot_index(rt_index, Ville = Ville, Type = Exports_imports)
+  Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
+             Outliers = Outliers, Outliers_coef = Outliers_coef,
+             Trans_number = Trans_number, Prod_problems = Prod_problems, 
+             Product_select = Product_select, Remove_double = Remove_double,
+             Ponderation = Ponderation, Pond_log = Pond_log)
   
   ### On calcul la part pris en compte dans le flux total et dans le commerce totale du port et du type en question
   Data_part <- Data_filter %>%

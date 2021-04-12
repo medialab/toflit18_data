@@ -32,7 +32,7 @@ Calcul_correlation_matrix <- function()
 {
 
   ### On charge les valeurs de Index_results.csv
-  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = 1, dec = ",")
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = NULL, dec = ",")
   
   ### Création d'un workbook (objet comparable à un excel et converti en excel à la fin)
   Cor_matrix_workbook <- createWorkbook()
@@ -40,7 +40,7 @@ Calcul_correlation_matrix <- function()
   ### On récupère l'ensemble des villes du csv des indices
   liste_ville <- unique(Index_res[ , 1])
   
-  for (Ville in liste_ville) {
+  for (Ville_cons in liste_ville) {
     for (Type in c("Imports", "Exports")) {
   
       ### On récupère l'ensemble des configurations possibles avec les variables
@@ -57,7 +57,7 @@ Calcul_correlation_matrix <- function()
       }
       
       ### Création de la matrice de corrélation les noms des lignes et des colonnes sont égales à col_names
-      Correlation_matrix <- matrix(nrow = dim(Var_used)[1], ncol = dim(Var_used),
+      Correlation_matrix <- matrix(nrow = dim(Var_used)[1], ncol = dim(Var_used)[1],
                                    dimnames = list(col_names, col_names))
       
       
@@ -67,7 +67,7 @@ Calcul_correlation_matrix <- function()
           
           ### Récupération de l'indice Configuration 1
           Index1 <- Index_res %>%
-            filter(Ville == Ville,
+            filter(Ville == Ville_cons,
                    Exports_imports == Type,
                    Outliers == Var_used$Outliers[i],
                    Outliers_coef == Var_used$Outliers_coef[i],
@@ -81,7 +81,7 @@ Calcul_correlation_matrix <- function()
           
           ### Récupération de l'indice configuration 2
           Index2 <- Index_res %>%
-            filter(Ville == Ville,
+            filter(Ville == Ville_cons,
                    Exports_imports == Type,
                    Outliers == Var_used$Outliers[j],
                    Outliers_coef == Var_used$Outliers_coef[j],
@@ -107,11 +107,11 @@ Calcul_correlation_matrix <- function()
       }
       
       ### On crée un nouvel onglet ville type au workbook
-      addWorksheet(Cor_matrix_workbook, sheetName = paste(Ville, Type))
+      addWorksheet(Cor_matrix_workbook, sheetName = paste(Ville_cons, Type))
       
       ### On ajoute la matrice de corrélation dans l'onglet ville type
       writeData(Cor_matrix_workbook,
-                sheet = paste(Ville, Type),
+                sheet = paste(Ville_cons, Type),
                 x = Correlation_matrix,
                 rowNames = T,
                 colNames = T)
