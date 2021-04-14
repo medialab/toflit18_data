@@ -15,6 +15,16 @@ library(openxlsx)
 library(hpiR)
 
 
+### A définir: emplacement du working directory
+setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
+### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
+
+### Nettoyage de l'espace de travail
+rm(list = ls())
+
+
+
+
 ### Calcul du terme de l'échange uniquement pour la baseline :
 # Outliers = T,
 # Outliers_coef = 10,
@@ -48,12 +58,34 @@ Calcul_termes_echange <- function()
     ### Calcul du termes de l'échange
     mutate(Termes_echange_value = Exports / Imports) %>%
     ### On conserve uniquement les colonnes d'intérêt
-    select("Ville", "year", "Termes_echange_value")
+    select("Ville", "year", "Termes_echange_value") %>%
+    mutate_if(is.character, as.factor)
   
   ### On écrit le csv résultant
   write.csv2(Termes_echange_res,
              "./scripts/Edouard/Termes_echange_results.csv",
              row.names = F)
+  
+  
+  for (Ville_cons in levels(Termes_echange_res$Ville)) {
     
+    Title = Ville_cons
+    
+    Terme_echange <- Termes_echange_res %>% 
+      filter(Ville == Ville_cons) %>%
+      select(c("year", "Termes_echange_value"))
+  
+    png(filename = paste0("./scripts/Edouard/Figure_termes_echange/", Title, ".png"),
+        width = 5000,
+        height = 2700,
+        res = 500)
+    
+    
+    plot(drop_na(Terme_echange), main = Ville_cons, type = "o")
+    
+    
+    ### Fermeture de la fenêtre
+    dev.off()
+  }   
   
 }
