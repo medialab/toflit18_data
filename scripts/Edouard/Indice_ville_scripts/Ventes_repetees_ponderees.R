@@ -89,44 +89,87 @@ Calcul_index <- function(Data, Ponderation = T, Pond_log = F) {
 
 }
 
-### Cette fonction prend en entrée l'Index obtenue avec la fonctin Calcul_index et renvoie 
-### le graphe associé
+### Cette fonction prend en entrée l'Index obtenue avec la fonction Calcul_index ainsi que les parts dans le commerce
+### et renvoie e graphe associé
 Plot_index <- function(Index, 
                        Ville,  ### Choix du port d'étude
                        Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
                        Outliers = T, ### Retire-t-on les outliers ? 
                        Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
                        Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                       Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix trop importantes
+                       Prod_problems = F, ### Enleve-t-on les produits avec des différences de prix trop importantes
                        Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
                        Remove_double = T, ### Retire-t-on les doublons
                        Ponderation = T, ### Calcul de l'indice avec ponderation ?
                        Pond_log = F) 
   
 {
-  ### ON retire les valeurs manquantes
-  Index = remove_missing(Index)
   
   ### Nom du fichier
-  Title = paste0("Ville_", Ville, "+",
-                 "Type_", Exports_imports, "+",
-                 "Outliers_", as.character(Outliers),  "+",
-                 "Outliers_coef_", as.character(Outliers_coef), "+",
-                 "Trans_number_", as.character(Trans_number), "+",
-                 "Prod_problems_", as.character(Prod_problems), "+",
-                 "Product_select_", as.character(Product_select), "+",
-                 "Remove_double_", as.character(Remove_double), "+",
-                 "Ponderation_", as.character(Ponderation), "+",
-                 "Pond_log_", as.character(Pond_log))
+  Title_file = paste0("Ville_", Ville, "+",
+                      "Type_", Exports_imports, "+",
+                      "Outliers_", as.character(Outliers),  "+",
+                      "Outliers_coef_", as.character(Outliers_coef), "+",
+                      "Trans_number_", as.character(Trans_number), "+",
+                      "Prod_problems_", as.character(Prod_problems), "+",
+                      "Product_select_", as.character(Product_select), "+",
+                      "Remove_double_", as.character(Remove_double), "+",
+                      "Ponderation_", as.character(Ponderation), "+",
+                      "Pond_log_", as.character(Pond_log))
+  
+  
+  Title_graph = paste("Ville =", Ville, ";",
+                      "Type =", Exports_imports, ";",
+                      "Outliers =", as.character(Outliers),  ";",
+                      "Outliers_coef =", as.character(Outliers_coef), ";",
+                      "Trans_number =", as.character(Trans_number), ";",
+                      "\nProd_problems =", as.character(Prod_problems), ";",
+                      "Product_select =", as.character(Product_select), ";",
+                      "Remove_double =", as.character(Remove_double), ";",
+                      "Ponderation =", as.character(Ponderation), ";",
+                      "Pond_log =", as.character(Pond_log))
+  
   
   ### Ouverture d'une fenêtre pour l'enregistrement du graphique
-  png(filename = paste0("./scripts/Edouard/Figure_index/", Title, ".png"),
+  png(filename = paste0("./scripts/Edouard/Figure_index/", Title_file, ".png"),
       width = 5000,
       height = 2700,
       res = 500)
-  ### Enregistrement du graphique
-  plot(Index, type = "o", main = paste(Ville, Exports_imports))
-  ### Fermetuyre de la fenêtre
+  
+
+        
+  
+  # 1- Ouvrir une nouvelle fenêtre graphique
+  plot.new()
+  # 2- Programmer des marges larges pour l'ajout ultérieur des titres des axes
+  par(mar=c(4,4,3,4))
+  # 3- On récupère dans position la position de chaque barre
+  position = barplot(Index$Part_value, 
+                     col = rgb(0.220, 0.220, 0.220, alpha = 0.2),
+                     names.arg = Index$year,
+                     axes = F,
+                     ylab = "", xlab = "",
+                     main = Title_graph,
+                     ylim = c(0,1), 
+                     las = 2, space = 0, cex.main = 0.8)
+  # las = 2 : ce paramètre permet d'orienter le label de chaque barre verticalement
+  # 4- Configurer la couleur de l'axe de gauche (correspondant ici aux barres)
+  axis(4, col = "black", at = seq(0, 1, by = 0.2), lab = scales::percent(seq(0, 1, by = 0.2), accuracy = 1))
+  # 5- Superposer la courbe
+  par(new = TRUE, mar = c(4, 4, 3, 4))
+  maximal = max(position) + (position[2] - position[1])
+  plot(position[!is.na(Index$Index)], Index$Index[!is.na(Index$Index)], 
+       col = "black", type = "o", lwd = 2,
+       pch = 16, axes = F, ylab = "", xlab = "", 
+       xlim = c(0, length(Index$Index)),
+       ylim = c(min(Index$Index, na.rm = T) - 5, max(Index$Index, na.rm = T) + 5))
+  # 6- Configurer l'axe de droite, correspondant à la coube
+  axis(2, col.axis = "black", col = "black")
+  box();grid()
+  mtext("Index value",side=2,line=2,cex=1.1)
+  mtext("Part de la valeur dans le commerce", side = 4, col = "black", line = 2, cex = 1.1)
+  
+  ### Fermeture de la fenêtre
   dev.off()
   
 }
@@ -159,12 +202,8 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   ### Calcul de l'indice avec la fonction Calcul_index
   rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log)
   
-  ### On plot l'index avec la fonction Plot_index
-  Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
-             Outliers = Outliers, Outliers_coef = Outliers_coef,
-             Trans_number = Trans_number, Prod_problems = Prod_problems, 
-             Product_select = Product_select, Remove_double = Remove_double,
-             Ponderation = Ponderation, Pond_log = Pond_log)
+  
+
   
   ### On calcul la part pris en compte dans le flux total et dans le commerce totale du port et du type en question
   Data_part <- Data_filter %>%
@@ -177,6 +216,12 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T,
                     all.y = F)
   
+  ### On plot l'index avec la fonction Plot_index
+  Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
+             Outliers = Outliers, Outliers_coef = Outliers_coef,
+             Trans_number = Trans_number, Prod_problems = Prod_problems, 
+             Product_select = Product_select, Remove_double = Remove_double,
+             Ponderation = Ponderation, Pond_log = Pond_log)
   ### On retourne l'indice obtenu
   return(rt_index)
   

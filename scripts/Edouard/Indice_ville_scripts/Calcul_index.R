@@ -68,7 +68,7 @@ Update_base <- function()
   ### à l'aide de la fonction Add_new_parma défini ci-dessous
   Add_new_param()
   Add_new_param(Outliers = F)
-  Add_new_param(Outliers_coef = 10)
+  Add_new_param(Outliers_coef = 3.5)
   Add_new_param(Trans_number = 20)
   Add_new_param(Prod_problems = T)
   Add_new_param(Product_select = T)
@@ -84,7 +84,7 @@ Update_base <- function()
 ### Ajouter un nouvel index au csv en choisissant les paramètres désirés
 
 Add_new_param <- function(Outliers = T,
-                          Outliers_coef = 3.5,
+                          Outliers_coef = 10,
                           Trans_number = 0,
                           Prod_problems = F,
                           Product_select = F,
@@ -108,7 +108,7 @@ Add_new_param <- function(Outliers = T,
                             "Part_value" = numeric(),
                             "Part_flux" = numeric())
   
-  for (Ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle")) {
+  for (Ville in c("Nantes", "Marseille", "Bordeaux", "La Rochelle", "Bayonne", "Rennes")) {
     for (Type in c("Imports", "Exports")) {
       
       ### Calcul de l'index pour les paramètres choisis
