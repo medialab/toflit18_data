@@ -124,5 +124,98 @@ Calcul_correlation_matrix <- function()
                overwrite = T)      
         
 }
+
+
+
+
+
+### Calcul de la corrélation des indices entre les différentes villes étudiées
+### uniquement pour la baseline
+
+
+Calcul_correlation_matrix_ville <- function() 
+  
+{
+  ### On charge les valeurs de Index_results.csv
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = NULL, dec = ",")
+  
+  ### On conserve uniquement la baseline
+  Index_res_baseline <- Index_res %>%
+    filter(Outliers == T & Outliers_coef == 10 & Trans_number == 0 & Prod_problems == F &
+             Product_select == F & Remove_double == T & Ponderation == T & Pond_log == F)
+  
+  ### Création d'un workbook (objet comparable à un excel et converti en excel à la fin)
+  Cor_matrix_workbook <- createWorkbook()
+  
+  ### On récupère l'ensemble des villes du csv des indices
+  liste_ville <- unique(Index_res[ , 1])
+  
+  for (Type in c("Imports", "Exports")) {
     
+    ### Création de la matrice de corrélation les noms des lignes et des colonnes sont égales à col_names
+    Correlation_matrix <- matrix(nrow = length(liste_ville), ncol = length(liste_ville),
+                                 dimnames = list(liste_ville, liste_ville))
+    
+    
+    for (i in seq(1,length(liste_ville))) {
+      for (j in seq(1,length(liste_ville))) {
+        
+        Index1 <- Index_res_baseline %>%
+          filter(Ville == liste_ville[i], Exports_imports == Type) %>%
+          select(c("year", "Index_value")) %>%
+          drop_na()
+        
+        Index2 <- Index_res_baseline %>%
+          filter(Ville == liste_ville[j], Exports_imports == Type) %>%
+          select(c("year", "Index_value")) %>%
+          drop_na() %>%
+          filter(year %in% Index1$year)
+        
+        Index1 <- Index1 %>% filter(year %in% Index2$year)
+        
+        
+        cor <- cor(Index1, Index2, use = "complete.obs")
+        
+        
+        if (cor[1,1] > 0.99) {
+          Correlation_matrix[i, j] = cor[2,2]
+        } else {
+          Correlation_matrix[i, j] = NA
+        }
+      }
+    }
+        
+    ### On crée un nouvel onglet ville type au workbook
+    addWorksheet(Cor_matrix_workbook, sheetName = paste(Type))
+    
+    ### On ajoute la matrice de corrélation dans l'onglet ville type
+    writeData(Cor_matrix_workbook,
+              sheet = paste(Type),
+              x = Correlation_matrix,
+              rowNames = T,
+              colNames = T)
+        
+  }
+  
+### On sauvegarde le workbook dans l'excel Correlation_matrix.xlsx    
+saveWorkbook(Cor_matrix_workbook, "./scripts/Edouard/Correlation_matrix_ville.xlsx",
+             overwrite = T)    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
     
