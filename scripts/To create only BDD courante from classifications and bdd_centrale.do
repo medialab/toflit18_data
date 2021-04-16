@@ -14,8 +14,8 @@ if "`c(username)'" =="guillaumedaudin" {
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
 if "`c(username)'"=="Tirindelli"{
-	global dir "/Users/Tirindelli/Google Drive/Hamburg"
-	global dir_git "$dir/toflit18_data"
+	global dir "/Volumes/GoogleDrive/My Drive/Hamburg"
+	global dir_git "/Users/Tirindelli/Desktop/toflit18"
 }
 
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
@@ -85,14 +85,7 @@ cd "$dir_git/base"
 unzipfile "bdd_centrale.csv.zip", replace
 
 
-if "`c(username)'" !="guillaumedaudin"{
-	cd "$dir_git/base/Users/guillaumedaudin/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France/toflit18_data_GIT/base/"
-	import delimited "bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
-	cd "$dir_git/base/"
-*	erase "Users"
-} 
-
-else import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
+import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) 
 
 /*
 gen str2000 partnershort=partner
