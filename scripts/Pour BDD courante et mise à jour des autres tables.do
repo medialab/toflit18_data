@@ -12,7 +12,7 @@ global dir_git "~/Répertoires Git/toflit18_data_GIT"
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
 if "`c(username)'"=="Tirindelli"{
-	global dir "/Users/Tirindelli/Desktop/tofli18"
+	global dir "/Users/Tirindelli/Desktop/toflit18"
 	global dir_git "/Volumes/GoogleDrive/My Drive/Hamburg"
 }
 if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
