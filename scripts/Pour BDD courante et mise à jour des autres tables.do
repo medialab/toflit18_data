@@ -66,7 +66,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 }
 
 
-if "`c(username)'"=="guillaumedaudin" {
+if "`c(username)'"=="guillaumedaudin" | "`c(username)'"=="Tirindelli" {
 
 	foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
 				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
@@ -222,6 +222,8 @@ zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
 **********************Metter à jour les classifications
 if "`c(username)'"=="guillaumedaudin" do "$dir_git/scripts/Pour mise à jour des classifications"
+if "`c(username)'"=="Tirindelli" do "$dir_git/scripts/Pour mise à jour des classifications"
+
 ***********************************************************************************************************************************
 
 
