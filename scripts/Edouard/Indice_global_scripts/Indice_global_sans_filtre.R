@@ -58,9 +58,10 @@ Data_filtrage <- function(Exports_imports = "Imports")
   Part_value <- merge(Value_com_final, Value_com_tot, "year" = "year", all = T)
   Part_value$Part_value <- Part_value$Value_finale / Part_value$Value_tot
   Part_value$Part_flux <- Part_value$Flux_final / Part_value$Flux_tot
+  Part_value$Part_value_national <- Part_value$Value_finale / Part_value$Value_tot_national
   
   ### On rajoute à la base de données filtrées la part du commerce et du flux totale
-  Data <- merge(Data, Part_value[, c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T)
+  Data <- merge(Data, Part_value[, c("year", "Part_value", "Part_flux", "Part_value_national")], "year" = "year", all.x = T)
   
   ### On retourne la base de données obtenue
   return(Data)
@@ -158,7 +159,7 @@ Plot_index <- function(Index, ### Choix du port d'étude
   # 2- Programmer des marges larges pour l'ajout ultérieur des titres des axes
   par(mar=c(4,4,3,4))
   # 3- On récupère dans position la position de chaque barre
-  position = barplot(Index$Part_value, 
+  position = barplot(Index$Part_value_national, 
                      col = rgb(0.220, 0.220, 0.220, alpha = 0.2),
                      names.arg = Index$year,
                      axes = F,
@@ -208,15 +209,28 @@ Filter_calcul_index <- function(Exports_imports = "Imports") ### On conserve les
   Data_part <- Data_filter %>%
     group_by(year) %>%
     summarise(Part_value = mean(Part_value),
-              Part_flux = mean(Part_flux)) %>%
+              Part_flux = mean(Part_flux),
+              Part_value_national = mean(Part_value_national)) %>%
     as.data.frame()
   
   ### On ajoute à l'indice les colonnes de Part_value et Part_flux
-  rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T,
+  rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux", "Part_value_national")], "year" = "year", all.x = T,
                     all.y = F)
   
   ### On plot l'index avec la fonction Plot_index
   Plot_index(rt_index, Exports_imports = Exports_imports)
+  
+  ### Ecriture de l'indice dans le fichier Indice_global_value
+  if (Exports_imports == "Imports") {
+    write.csv2(rt_index, 
+               file = "./scripts/Edouard/Indice_global_value/Indice_global_sans_filtre_imports.csv",
+               row.names = F)
+  } else {
+    write.csv2(rt_index, 
+               file = "./scripts/Edouard/Indice_global_value/Indice_global_sans_filtre_exports.csv",
+               row.names = F)
+  }
+  
   ### On retourne l'indice obtenu
   return(rt_index)
   
@@ -233,24 +247,33 @@ Read_bdd_courante <- function(Exports_imports) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
-  ### Calcule de la valeur totale du flux et du commerce initiale
+  ### Calcule de la valeur totale du flux et du commerce initial
   Value_com_tot <- bdd_courante %>%
-    filter(best_guess_region_prodxpart == 1) %>%
+    filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
     filter(export_import == Exports_imports) %>%
     group_by(year) %>%
     summarize(Value_tot = sum(value, na.rm = T),
               Flux_tot = n()) %>%
     as.data.frame()
   
+  ### Calcule la valeur totale du commerce au niveau national
+  Value_com_tot_nat <- bdd_courante %>%
+    filter(best_guess_national_partner == 1, year >= 1718) %>%
+    filter(export_import == Exports_imports) %>%
+    group_by(year) %>%
+    summarize(Value_tot_national = sum(value, na.rm = T)) %>%
+    as.data.frame()
+  Value_com_tot <- merge(Value_com_tot, Value_com_tot_nat, "year" = "year", all.x = T)
   
-  ### Filtrage initiale de la base de données
+  
+  ### Filtrage initial de la base de données
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
              "unit_price_metric", "value", "best_guess_region_prodxpart")) %>%
     mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
     ### On selectionne uniquement les produits rangés par régions
-    filter(best_guess_region_prodxpart == 1) %>%
+    filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
     ### Les chaînes de charatères sont transformés en type facteur
     mutate_if(is.character, as.factor) %>%
     ### Création ID product_simplification et ID transaction
