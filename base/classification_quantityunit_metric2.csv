@@ -415,7 +415,7 @@ barils,beurre,Beurre,Imports,Rouen,Angleterre,,,
 barils,bière médicinale de Lübeck,"Bière, cidre et vinaigre",Imports,Rouen,Nord,,,
 barils,bière,"Bière, cidre et vinaigre",Exports,Amiens,Espagne,,,
 barils,bière,"Bière, cidre et vinaigre",Exports,Bordeaux,Amériques,,,
-barils,bière,"Bière, cidre et vinaigre",Exports,Dunkerque,Amériques,,,
+barils,bière,"Bière, cidre et vinaigre",Exports,Flandre,Amériques,,,
 barils,bière,"Bière, cidre et vinaigre",Exports,Lyon,Italie,,,
 barils,bière,"Bière, cidre et vinaigre",Exports,Lyon,Suisse,,,
 barils,bière,"Bière, cidre et vinaigre",Exports,Marseille,Italie,,,
@@ -1307,7 +1307,7 @@ barils,teinture,Matières brutes et transformées pour teinture,Imports,Rennes,H
 barils,vermillon,Matières brutes et transformées pour teinture,Imports,Rennes,Hollande,,,
 barils,vernis,Matières brutes et transformées pour teinture,Imports,Rennes,Hollande,,,
 barils,baleine coupée,Matières premières diverses,Imports,Rennes,Hollande,,,
-barils,chaux,Matières premières diverses,Exports,Le Havre,Amériques,,,
+barils,chaux,Matières premières diverses,Exports,Rouen,Amériques,,,
 barils,genêts,Matières premières diverses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 barils,genièvre,Matières premières diverses,Exports,Rennes,États-Unis d'Amérique,,,
 barils,grosil,Matières premières diverses,Exports,Langres,Allemagne,,,
@@ -1574,7 +1574,6 @@ barils,harengs saurs,Pêche et fruits de mer,Exports,,Espagne,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,France,Amériques,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,La Rochelle,Amériques,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,Langres,Allemagne,,,
-barils,harengs saurs,Pêche et fruits de mer,Exports,Le Havre,Amériques,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,Marseille,Italie,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,Marseille,Levant et Barbarie,,,
 barils,harengs saurs,Pêche et fruits de mer,Exports,Montpellier,Hollande,,,
@@ -2290,8 +2289,8 @@ bouteilles,vinaigre,"Bière, cidre et vinaigre",Exports,Saint-Quentin,Flandre et
 bouteilles,vinaigre,"Bière, cidre et vinaigre",Imports,Marseille,Italie,,,
 bouteilles,hydromel,Boissons diverses et mélangées,Imports,Châlons,Allemagne,,,
 bouteilles,liqueurs et sirop fin,Boissons diverses et mélangées,Imports,,Outre-mers,,,
-bouteilles,brai gras et goudron,"Brai, goudron et résines",Exports,Le Havre,Afrique,,,
-bouteilles,brai gras et goudron,"Brai, goudron et résines",Exports,Le Havre,Amériques,,,
+bouteilles,brai gras et goudron,"Brai, goudron et résines",Exports,Rouen,Afrique,,,
+bouteilles,brai gras et goudron,"Brai, goudron et résines",Exports,Rouen,Amériques,,,
 bouteilles,eau de Bristol des prises,Drogues diverses,Exports,Rennes,Hollande,,,
 bouteilles,eau de Bristol,Drogues diverses,Exports,Rennes,Hollande,,,
 bouteilles,eau de Bristol,Drogues diverses,Imports,Rouen,Angleterre,,,
@@ -2498,7 +2497,7 @@ bouteilles,encre à écrire,Matières brutes et transformées pour teinture,Expo
 bouteilles,encre à écrire,Matières brutes et transformées pour teinture,Exports,Nantes,Amériques,,,
 bouteilles,encre à écrire,Matières brutes et transformées pour teinture,Exports,Rouen,Amériques,,,
 bouteilles,encre de la petite vertu,Matières brutes et transformées pour teinture,Exports,Nantes,Amériques,,,
-bouteilles,encre rouge,Matières brutes et transformées pour teinture,Exports,Le Havre,Amériques,,,
+bouteilles,encre rouge,Matières brutes et transformées pour teinture,Exports,Rouen,Amériques,,,
 bouteilles,encre,Matières brutes et transformées pour teinture,Exports,Bayonne,Amériques,,,
 bouteilles,jus de citron,Matières brutes et transformées pour teinture,Imports,Nantes,Amériques,,,
 bouteilles,ocre,Matières brutes et transformées pour teinture,Exports,Nantes,Hollande,,,
@@ -2983,6 +2982,7 @@ bouteilles,vin divers,Vins divers,Exports,Le Havre,Amériques,,,
 bouteilles,vin divers,Vins divers,Exports,Nantes,Afrique,,,
 bouteilles,vin divers,Vins divers,Exports,Nantes,Amériques,,,
 bouteilles,vin divers,Vins divers,Exports,,Nord,,,
+bouteilles,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 bouteilles,vin divers,Vins divers,Exports,Saint-Malo,Afrique,,,
 bouteilles,vin divers,Vins divers,Exports,,Suisse,,,
 bouteilles,vin du Barrois,Vins divers,Imports,Châlons,Allemagne,,,
@@ -3278,12 +3278,11 @@ cent au grand,planches de sapin,"Ouvrages de bois, liège et jonc",Exports,Borde
 cercles,bois pour brûler,Combustibles dont charbons et bois,Exports,Nantes,Afrique,,,
 cercles,bois pour brûler,Combustibles dont charbons et bois,Exports,Nantes,Amériques,,,
 cercles,bois pour paniers,"Ouvrages de bois, liège et jonc",Imports,Marseille,Italie,,,
-cercles,feuillards de bois,"Ouvrages de bois, liège et jonc",Exports,Dunkerque,Amériques,,,
+cercles,feuillards de bois,"Ouvrages de bois, liège et jonc",Exports,Flandre,Amériques,,,
 cercles,feuillards de bois,"Ouvrages de bois, liège et jonc",Exports,France,Amériques,,,
 chaldres,charbon de terre,Combustibles dont charbons et bois,Imports,La Rochelle,Hollande,,,
 chaldres,charbon de terre,Combustibles dont charbons et bois,Imports,Rennes,Angleterre,,,
 chaldres,charbon de terre,Combustibles dont charbons et bois,Imports,Rennes,Nord,,,
-chaldres,meules à taillandier,Ouvrages divers et mélangés,Exports,Le Havre,Amériques,,,
 chaldres,meules à taillandier,Ouvrages divers et mélangés,Exports,Rouen,Amériques,,,
 chaldres,meules à taillandier,Ouvrages divers et mélangés,Imports,Rouen,Angleterre,,,
 chanterice,bois pour brûler,Combustibles dont charbons et bois,Imports,La Rochelle,Hollande,,,
@@ -3645,7 +3644,7 @@ frequin,lard,Subsistances diverses et mélangées,Imports,Nantes,Angleterre,,,
 frequin,lard,Subsistances diverses et mélangées,Imports,Rennes,Angleterre,,,
 fres,bonneterie de soie,Bonneterie de soie,Exports,,Espagne,,,
 futs,tierçons en bottes,"Ouvrages de bois, liège et jonc",Imports,La Rochelle,Nord,,,
-futs,langues et noves de morue,Pêche et fruits de mer,Exports,Le Havre,Amériques,,,
+futs,langues et noves de morue,Pêche et fruits de mer,Exports,Rouen,Amériques,,,
 garbes,cercles de bois,"Ouvrages de bois, liège et jonc",Imports,Marseille,Italie,,,
 garde feux,ouvrages de fer,Ouvrages métalliques,Imports,Rennes,Nord,,,
 garnitures,bas de fil d'or,Habits et lingerie,Exports,Bordeaux,Amériques,,,
@@ -3680,8 +3679,8 @@ gommes,goudron,"Brai, goudron et résines",Imports,Rouen,Nord,,,
 gommes,saumon salé,Pêche et fruits de mer,Imports,Nantes,Angleterre,,,
 gonnes,brai et goudron,"Brai, goudron et résines",Exports,Rouen,Angleterre,,,
 gonnes,brai et goudron,"Brai, goudron et résines",Imports,,Nord,,,
-gonnes,brai gras et goudron,"Brai, goudron et résines",Exports,Le Havre,Afrique,,,
-gonnes,brai gras et goudron,"Brai, goudron et résines",Exports,Le Havre,Amériques,,,
+gonnes,brai gras et goudron,"Brai, goudron et résines",Exports,Rouen,Afrique,,,
+gonnes,brai gras et goudron,"Brai, goudron et résines",Exports,Rouen,Amériques,,,
 gonnes,brai,"Brai, goudron et résines",Imports,Rouen,Hollande,,,
 gonnes,goudron,"Brai, goudron et résines",Exports,Rouen,Afrique,,,
 gonnes,goudron,"Brai, goudron et résines",Exports,Rouen,Amériques,,,
@@ -3909,15 +3908,14 @@ muids,bière,"Bière, cidre et vinaigre",Exports,Châlons,Allemagne,litres,268.2
 muids,bière,"Bière, cidre et vinaigre",Exports,,Espagne,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,bière,"Bière, cidre et vinaigre",Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,bière,"Bière, cidre et vinaigre",Exports,France,Amériques,litres,268.21439,D'après Portet
+muids,bière,"Bière, cidre et vinaigre",Exports,France,Afrique,,,
+muids,bière,"Bière, cidre et vinaigre",Exports,France,Amériques,,,
 muids,bière,"Bière, cidre et vinaigre",Exports,,Hollande,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,Italie,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,La Rochelle,Afrique,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,La Rochelle,Amériques,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
-muids,bière,"Bière, cidre et vinaigre",Exports,Le Havre,Asie,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Lorient,France,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Marseille,Afrique,litres,268.21439,D'après Portet
@@ -3929,6 +3927,7 @@ muids,bière,"Bière, cidre et vinaigre",Exports,,Nord,litres,268.21439,D'après
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Afrique,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Amériques,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Angleterre,litres,268.21439,D'après Portet
+muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Asie,,,
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Espagne,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Hollande,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Rouen,Italie,litres,268.21439,D'après Portet
@@ -3971,9 +3970,8 @@ muids,cidre,"Bière, cidre et vinaigre",Exports,Caen,Angleterre,litres,268.21439
 muids,cidre,"Bière, cidre et vinaigre",Exports,Caen,France,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Espagne,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,cidre,"Bière, cidre et vinaigre",Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,cidre,"Bière, cidre et vinaigre",Exports,France,Amériques,litres,268.21439,D'après Portet
-muids,cidre,"Bière, cidre et vinaigre",Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
+muids,cidre,"Bière, cidre et vinaigre",Exports,France,Afrique,,,
+muids,cidre,"Bière, cidre et vinaigre",Exports,France,Amériques,,,
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Nord,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Portugal,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,Rouen,Afrique,litres,268.21439,D'après Portet
@@ -3990,21 +3988,21 @@ muids,cidre,"Bière, cidre et vinaigre",Imports,Lorient,France,litres,268.21439,
 muids,cidre,"Bière, cidre et vinaigre",Imports,Marseille,Italie,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Imports,Rouen,Angleterre,litres,268.21439,D'après Portet
 muids,vinaigre de bière,"Bière, cidre et vinaigre",Imports,Valenciennes,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,vinaigre de composition,"Bière, cidre et vinaigre",Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
+muids,vinaigre de composition,"Bière, cidre et vinaigre",Exports,Rouen,Afrique,,,
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Espagne,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Hollande,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Italie,litres,268.21439,D'après Portet
-muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
-muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
-muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Le Havre,Asie,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Nantes,Amériques,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Nord,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Portugal,litres,268.21439,D'après Portet
+muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Rouen,Afrique,,,
+muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Rouen,Amériques,,,
+muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,Rouen,Asie,,,
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Exports,,Suisse,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Imports,,Allemagne,litres,268.21439,D'après Portet
 muids,vinaigre ordinaire,"Bière, cidre et vinaigre",Imports,,Espagne,litres,268.21439,D'après Portet
@@ -4032,11 +4030,11 @@ muids,vinaigre,"Bière, cidre et vinaigre",Exports,Châlons,Allemagne,litres,268
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Châlons,France,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,Charleville,Divers,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Divers,litres,268.21439,D'après Portet
-muids,vinaigre,"Bière, cidre et vinaigre",Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Espagne,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,vinaigre,"Bière, cidre et vinaigre",Exports,France,Afrique,litres,268.21439,D'après Portet
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,Flandre,Amériques,,,
+muids,vinaigre,"Bière, cidre et vinaigre",Exports,France,Afrique,,,
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Hollande,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,,Italie,litres,268.21439,D'après Portet
 muids,vinaigre,"Bière, cidre et vinaigre",Exports,La Rochelle,Angleterre,litres,268.21439,D'après Portet
@@ -4153,10 +4151,9 @@ muids,anisette,Eaux-de-vie et liqueurs,Exports,,Afrique,litres,268.21439,D'aprè
 muids,anisette,Eaux-de-vie et liqueurs,Exports,,Amériques,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,Bordeaux,Afrique,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,Bordeaux,Amériques,litres,268.21439,D'après Portet
-muids,anisette,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
+muids,anisette,Eaux-de-vie et liqueurs,Exports,France,Afrique,,,
 muids,anisette,Eaux-de-vie et liqueurs,Exports,La Rochelle,Afrique,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,La Rochelle,Amériques,litres,268.21439,D'après Portet
-muids,anisette,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,Rouen,Amériques,litres,268.21439,D'après Portet
 muids,anisette,Eaux-de-vie et liqueurs,Exports,Saint-Malo,Afrique,litres,268.21439,D'après Portet
@@ -4166,28 +4163,29 @@ muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,Bayonne,Amériques,li
 muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,Bordeaux,Amériques,litres,268.21439,D'après Portet
 muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,,Divers,litres,268.21439,D'après Portet
 muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,,Hollande,litres,268.21439,D'après Portet
-muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
+muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,,,
 muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Imports,Bordeaux,France,litres,268.21439,D'après Portet
 muids,eau-de-vie d'Hendaye,Eaux-de-vie et liqueurs,Imports,Rouen,France,litres,268.21439,D'après Portet
-muids,eau-de-vie de cidre,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,eau-de-vie de cidre,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
+muids,eau-de-vie de cidre,Eaux-de-vie et liqueurs,Exports,France,Afrique,,,
+muids,eau-de-vie de cidre,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,,,
 muids,eau-de-vie de Cognac,Eaux-de-vie et liqueurs,Exports,,Divers,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre et de grains,Eaux-de-vie et liqueurs,Exports,,Afrique,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre et de grains,Eaux-de-vie et liqueurs,Exports,,Divers,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre et de grains,Eaux-de-vie et liqueurs,Imports,,Divers,litres,268.21439,D'après Portet
-muids,eau-de-vie de genièvre simple,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
-muids,eau-de-vie de genièvre simple,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre simple,Eaux-de-vie et liqueurs,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
+muids,eau-de-vie de genièvre simple,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,,,
+muids,eau-de-vie de genièvre simple,Eaux-de-vie et liqueurs,Exports,Rouen,Amériques,,,
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,,Angleterre,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,Flandre,Angleterre,litres,268.21439,D'après Portet
-muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
+muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,France,Afrique,,,
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,,Portugal,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,Rennes,Angleterre,litres,268.21439,D'après Portet
+muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,,,
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Imports,Amiens,Angleterre,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Imports,,Angleterre,litres,268.21439,D'après Portet
 muids,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,Imports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
@@ -4230,8 +4228,8 @@ muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,Besançon,France,litres,
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,,Divers,litres,268.21439,D'après Portet
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,,Espagne,litres,268.21439,D'après Portet
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,France,Amériques,litres,268.21439,D'après Portet
+muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,France,Afrique,,,
+muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,France,Amériques,,,
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,Grenoble,Italie,litres,268.21439,D'après Portet
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,Grenoble,Suisse,litres,268.21439,D'après Portet
 muids,eau-de-vie double,Eaux-de-vie et liqueurs,Exports,,Hollande,litres,268.21439,D'après Portet
@@ -4276,8 +4274,8 @@ muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Espagne,litres,268.2143
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Flandre,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,France,Amériques,litres,268.21439,D'après Portet
+muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,France,Afrique,,,
+muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,France,Amériques,,,
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Grenoble,Italie,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Grenoble,Suisse,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Hollande,litres,268.21439,D'après Portet
@@ -4293,7 +4291,6 @@ muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,La Rochelle,Hollande,lit
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,La Rochelle,Nord,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
-muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Le Havre,Asie,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Marseille,France,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Montpellier,Italie,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
@@ -4301,7 +4298,10 @@ muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Nantes,Amériques,litres
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Outre-mers,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,Portugal,litres,268.21439,D'après Portet
+muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Afrique,,,
+muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Amériques,,,
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Angleterre,litres,268.21439,D'après Portet
+muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Asie,,,
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Hollande,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Nord,litres,268.21439,D'après Portet
 muids,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Rouen,Portugal,litres,268.21439,D'après Portet
@@ -4345,10 +4345,10 @@ muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Caen,Angleterre,litres,268.2143
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Caen,Hollande,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Caen,Nord,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Châlons,Allemagne,litres,268.21439,D'après Portet
-muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Espagne,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
+muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Flandre,Amériques,,,
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,France,Afrique,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,France,Amériques,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,France,Angleterre,litres,268.21439,D'après Portet
@@ -4435,7 +4435,6 @@ muids,liqueurs,Eaux-de-vie et liqueurs,Exports,,Angleterre,litres,268.21439,D'ap
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Bordeaux,Afrique,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Bordeaux,Amériques,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
-muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Marseille,Afrique,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Marseille,Amériques,litres,268.21439,D'après Portet
@@ -4527,7 +4526,7 @@ muids,futailles,"Ouvrages de bois, liège et jonc",Imports,,Italie,,,
 muids,merrains pour barriques,"Ouvrages de bois, liège et jonc",Imports,Bordeaux,Nord,,,
 muids,tonneaux,"Ouvrages de bois, liège et jonc",Exports,Montpellier,Espagne,,,
 muids,briques,Ouvrages divers et mélangés,Imports,La Rochelle,Hollande,,,
-muids,eau de senteur,Parfumerie et toilette,Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
+muids,eau de senteur,Parfumerie et toilette,Exports,Flandre,Amériques,,,
 muids,sardines salées,Pêche et fruits de mer,Exports,,Espagne,,,
 muids,??? des ci-devant provinces de Bourgogne,Produits inconnus,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,??? des ci-devant provinces de Provence,Produits inconnus,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
@@ -4604,7 +4603,7 @@ muids,sel,Sel,Exports,Bordeaux,Amériques,litres,2496,D'après Portet
 muids,sel,Sel,Exports,,Espagne,litres,2496,D'après Portet
 muids,sel,Sel,Exports,,États-Unis d'Amérique,litres,2496,D'après Portet
 muids,sel,Sel,Exports,,Flandre et autres états de l'Empereur,litres,2496,D'après Portet
-muids,sel,Sel,Exports,France,Amériques,litres,2496,D'après Portet
+muids,sel,Sel,Exports,France,Amériques,,,
 muids,sel,Sel,Exports,,Hollande,litres,2496,D'après Portet
 muids,sel,Sel,Exports,La Rochelle,Afrique,litres,2496,D'après Portet
 muids,sel,Sel,Exports,La Rochelle,Allemagne,litres,2496,D'après Portet
@@ -4684,7 +4683,6 @@ muids,vin de liqueurs,Vin de liqueurs,Exports,,Espagne,litres,268.21439,D'après
 muids,vin de liqueurs,Vin de liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,vin de liqueurs,Vin de liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin de liqueurs,Vin de liqueurs,Exports,,Italie,litres,268.21439,D'après Portet
-muids,vin de liqueurs,Vin de liqueurs,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,vin de liqueurs,Vin de liqueurs,Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,vin de liqueurs,Vin de liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
 muids,vin de liqueurs,Vin de liqueurs,Exports,Rouen,Afrique,litres,268.21439,D'après Portet
@@ -4989,9 +4987,9 @@ muids,vin de Madère,Vins divers,Imports,Nantes,France,,,
 muids,vin de Madère,Vins divers,Imports,,Portugal,litres,268.21439,D'après Portet
 muids,vin de Madère,Vins divers,Imports,Rouen,Portugal,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
-muids,vin de Malaga,Vins divers,Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
+muids,vin de Malaga,Vins divers,Exports,Flandre,Amériques,,,
 muids,vin de Malaga,Vins divers,Exports,,Hollande,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,,Italie,litres,268.21439,D'après Portet
 muids,vin de Malaga,Vins divers,Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
@@ -5099,6 +5097,8 @@ muids,vin divers,Vins divers,Exports,La Rochelle,Amériques,litres,268.21439,D'a
 muids,vin divers,Vins divers,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,,Nord,litres,268.21439,D'après Portet
+muids,vin divers,Vins divers,Exports,Rouen,Afrique,,,
+muids,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 muids,vin divers,Vins divers,Exports,Saint-Malo,Amériques,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Imports,,Allemagne,litres,268.21439,D'après Portet
@@ -5250,7 +5250,7 @@ muids,vin rouge et blanc,Vins divers,Exports,Montpellier,Hollande,litres,268.214
 muids,vin rouge très gras,Vins divers,Exports,Nantes,Afrique,litres,268.21439,D'après Portet
 muids,vin rouge,Vins divers,Exports,,Amériques,litres,268.21439,D'après Portet
 muids,vin rouge,Vins divers,Exports,Bayonne,Espagne,litres,268.21439,D'après Portet
-muids,vin rouge,Vins divers,Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
+muids,vin rouge,Vins divers,Exports,Flandre,Amériques,,,
 muids,vin rouge,Vins divers,Exports,,Hollande,litres,268.21439,D'après Portet
 muids,vin rouge,Vins divers,Exports,,Italie,litres,268.21439,D'après Portet
 muids,vin rouge,Vins divers,Exports,La Rochelle,Espagne,litres,268.21439,D'après Portet
@@ -5290,8 +5290,8 @@ muids,vin,Vins divers,Exports,Charleville,Flandre et autres états de l'Empereur
 muids,vin,Vins divers,Exports,Charleville,Hollande,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Dunkerque,Amériques,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,France,Afrique,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,France,Amériques,litres,268.21439,D'après Portet
+muids,vin,Vins divers,Exports,France,Afrique,,,
+muids,vin,Vins divers,Exports,France,Amériques,,,
 muids,vin,Vins divers,Exports,Grenoble,Italie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Grenoble,Suisse,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,,Italie,litres,268.21439,D'après Portet
@@ -5302,9 +5302,6 @@ muids,vin,Vins divers,Exports,La Rochelle,Espagne,litres,268.21439,D'après Port
 muids,vin,Vins divers,Exports,La Rochelle,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,La Rochelle,France,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,La Rochelle,Hollande,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,Le Havre,Afrique,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,Le Havre,Amériques,litres,268.21439,D'après Portet
-muids,vin,Vins divers,Exports,Le Havre,Asie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Marseille,Angleterre,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Marseille,France,litres,268.21439,D'après Portet
@@ -5325,7 +5322,10 @@ muids,vin,Vins divers,Exports,Narbonne,Italie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Narbonne,Suisse,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,,Nord,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Rennes,Angleterre,litres,268.21439,D'après Portet
+muids,vin,Vins divers,Exports,Rouen,Afrique,,,
+muids,vin,Vins divers,Exports,Rouen,Amériques,,,
 muids,vin,Vins divers,Exports,Rouen,Angleterre,litres,268.21439,D'après Portet
+muids,vin,Vins divers,Exports,Rouen,Asie,,,
 muids,vin,Vins divers,Exports,Rouen,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Rouen,Levant et Barbarie,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Exports,Rouen,Nord,litres,268.21439,D'après Portet
@@ -6597,8 +6597,6 @@ rames,papier blanc,Papier,Exports,La Rochelle,Angleterre,feuilles,500,Savary éd
 rames,papier blanc,Papier,Exports,La Rochelle,Flandre et autres états de l'Empereur,feuilles,500,Savary édition 1741 article rames
 rames,papier blanc,Papier,Exports,La Rochelle,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier blanc,Papier,Exports,La Rochelle,Nord,feuilles,500,Savary édition 1741 article rames
-rames,papier blanc,Papier,Exports,Le Havre,Afrique,feuilles,500,Savary édition 1741 article rames
-rames,papier blanc,Papier,Exports,Le Havre,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier blanc,Papier,Exports,,Levant et Barbarie,feuilles,500,Savary édition 1741 article rames
 rames,papier blanc,Papier,Exports,Marseille,????,feuilles,500,Savary édition 1741 article rames
 rames,papier blanc,Papier,Exports,Marseille,Amériques,feuilles,500,Savary édition 1741 article rames
@@ -6803,10 +6801,10 @@ rames,papier grand format,Papier,Exports,Bayonne,Espagne,feuilles,500,Savary éd
 rames,papier grand format,Papier,Exports,Bordeaux,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier grand raisin,Papier,Exports,Saint-Malo,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Exports,Flandre,Espagne,feuilles,500,Savary édition 1741 article rames
-rames,papier gris,Papier,Exports,Le Havre,Amériques,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Exports,Rennes,Angleterre,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Exports,Rennes,Hollande,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Exports,Rennes,Portugal,feuilles,500,Savary édition 1741 article rames
+rames,papier gris,Papier,Exports,Rouen,Amériques,,,
 rames,papier gris,Papier,Exports,Saint-Malo,Angleterre,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Exports,Soisson,Allemagne,feuilles,500,Savary édition 1741 article rames
 rames,papier gris,Papier,Imports,Bayonne,Hollande,feuilles,500,Savary édition 1741 article rames
@@ -6921,15 +6919,16 @@ rames,rocou,Rocou,Exports,La Rochelle,Nord,,,
 rames,pain d'épice,Subsistances diverses et mélangées,Exports,Flandre,France,,,
 rames,huile de térébenthine,Térébenthine,Exports,Bordeaux,Hollande,,,
 rames,vin,Vins divers,Exports,La Rochelle,Portugal,,,
-rasières,grains avoine,Blé et autres grains comestibles,Exports,Dunkerque,Amériques,,,
+rasières,grains avoine,Blé et autres grains comestibles,Exports,Flandre,Amériques,,,
 rasières,grains froment,Blé et autres grains comestibles,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,grains froment,Blé et autres grains comestibles,Imports,Amiens,Angleterre,,,
-rasières,grains orge,Blé et autres grains comestibles,Exports,Dunkerque,Amériques,,,
+rasières,grains orge,Blé et autres grains comestibles,Exports,Flandre,Amériques,,,
 rasières,son,Blé et autres grains comestibles,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,cendre de bois,Cendres diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,charbon de bois,Combustibles dont charbons et bois,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Dunkerque,Afrique,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Dunkerque,Amériques,,,
+rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,Amériques,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,France,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Imports,Amiens,Angleterre,,,
@@ -6945,14 +6944,14 @@ rasières,graine de genièvre,Graines diverses et mélangées,Exports,Flandre,Fl
 rasières,graine de colza,Graines grasses,Imports,,Flandre et autres états de l'Empereur,,,
 rasières,graine de colza,Graines grasses,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,graine de lin,Graines grasses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
-rasières,fèves,Légumes,Exports,Dunkerque,Amériques,,,
-rasières,haricots,Légumes,Exports,Dunkerque,Amériques,,,
+rasières,fèves,Légumes,Exports,Flandre,Amériques,,,
+rasières,haricots,Légumes,Exports,Flandre,Amériques,,,
 rasières,légumes pois,Légumes,Exports,Dunkerque,Amériques,,,
-rasières,légumes,Légumes,Exports,Dunkerque,Amériques,,,
+rasières,légumes,Légumes,Exports,Flandre,Amériques,,,
 rasières,lentilles,Légumes,Exports,Flandre,Flandre et autres états de l'Empereur,,,
-rasières,pois verts,Légumes,Exports,Dunkerque,Amériques,,,
-rasières,chaux éteinte,Matières premières diverses,Exports,Dunkerque,Amériques,,,
-rasières,chaux vive,Matières premières diverses,Exports,Dunkerque,Amériques,,,
+rasières,pois verts,Légumes,Exports,Flandre,Amériques,,,
+rasières,chaux éteinte,Matières premières diverses,Exports,Flandre,Amériques,,,
+rasières,chaux vive,Matières premières diverses,Exports,Flandre,Amériques,,,
 rasières,engrais en court fumier,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,engrais en fournelle,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,engrais en fumier de rue,Matières premières diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
@@ -6971,7 +6970,7 @@ rouleaux,cercles de bois,"Ouvrages de bois, liège et jonc",Imports,Marseille,It
 rouleaux,papier à la piperie,Papier,Exports,Rouen,Espagne,,,
 rouleaux,papier à la piperie,Papier,Exports,Rouen,Portugal,,,
 rouleaux,papier à tapisserie,Papier,Exports,Le Havre,Amériques,,,
-rouleaux,papier de tapisserie,Papier,Exports,Le Havre,Amériques,,,
+rouleaux,papier de tapisserie,Papier,Exports,Rouen,Amériques,,,
 rouleaux,papier de tapisserie,Papier,Imports,Nantes,France,,,
 rouleaux,papier gris,Papier,Exports,Flandre,France,,,
 rouleaux,papier peint à tapisserie,Papier,Exports,Nantes,Amériques,,,
@@ -6981,9 +6980,9 @@ rouleaux,papier peint et à tapisserie,Papier,Exports,,Amériques,,,
 rouleaux,papier peint,Papier,Exports,Besançon,Suisse,,,
 rouleaux,papier peint,Papier,Exports,Bordeaux,Amériques,,,
 rouleaux,papier peint,Papier,Exports,Bordeaux,Espagne,,,
-rouleaux,papier peint,Papier,Exports,Le Havre,Amériques,,,
 rouleaux,papier peint,Papier,Exports,Marseille,Amériques,,,
 rouleaux,papier peint,Papier,Exports,Nantes,Amériques,,,
+rouleaux,papier peint,Papier,Exports,Rouen,Amériques,,,
 rouleaux,papier peint,Papier,Exports,,Suisse,,,
 rouleaux,eau de Cologne,Parfumerie et toilette,Imports,Rennes,Hollande,,,
 rouleaux,porcelaine,"Porcelaine, poterie, faïence et ouvrages de terre",Imports,Rennes,Asie,,,
@@ -7120,7 +7119,7 @@ sacs,pommes de terre,Subsistances diverses et mélangées,Imports,Bordeaux,Holla
 sacs,pommes de terre,Subsistances diverses et mélangées,Imports,Nantes,Flandre et autres états de l'Empereur,,,
 sacs,tabac,Tabac,Exports,Rennes,Asie,,,
 sacs,thé,Thé,Exports,Rennes,Angleterre,,,
-sacs,sacs de toile,Toiles diverses,Exports,Dunkerque,Amériques,,,
+sacs,sacs de toile,Toiles diverses,Exports,Flandre,Amériques,,,
 sacs,toile à 4 fils,Toiles diverses,Exports,Rennes,Amériques,,,
 sanegues,sel,Sel,Exports,Bayonne,Espagne,,,
 sannées,vin,Vins divers,Exports,Lyon,Suisse,,,
