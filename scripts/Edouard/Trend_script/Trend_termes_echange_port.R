@@ -30,7 +30,6 @@ source("./scripts/Edouard/Trend_script/Recuperation_index_value.R")
 
 
 Termes_reg_trend <- list()
-Termes_reg_trend_duree <- list()
 
 for (Port in c("Marseille", "Bordeaux", "La Rochelle", "Nantes", "Bayonne", "Rennes")) {
   
@@ -42,13 +41,9 @@ for (Port in c("Marseille", "Bordeaux", "La Rochelle", "Nantes", "Bayonne", "Ren
                           all.x = T, all.y = F)
   
   
-  trend <- lm(log(Termes_echange_value) ~ War_non_ter, data = Termes_echange)
-  
-  trend_duree <- lm(log(Termes_echange_value) ~ War_non_ter + War_duree_non_ter, data = Termes_echange)
-  
+  trend <- lm(log(Termes_echange_value) ~ year + War_non_ter, data = Termes_echange)
   
   Termes_reg_trend[[paste0("trend_", Port, "_")]] = trend
-  Termes_reg_trend_duree[[paste0("trend_duree_", Port, "_")]] = trend_duree
   
   # 
   # 
@@ -68,15 +63,8 @@ Table_trend = export_summs(Termes_reg_trend, error.pos = "right",
                            file.name = "./scripts/Edouard/Regression_results/Regression_results_termes_echange_trend.xlsx",
                            digits = 4)
 
-Table_trend_duree = export_summs(Termes_reg_trend_duree, error.pos = "right",
-                                 model.names = names(Termes_reg_trend_duree),
-                                 error_pos = "right",
-                                 to.file = "xlsx",
-                                 file.name = "./scripts/Edouard/Regression_results/Regression_results_termes_echange_trend_duree.xlsx",
-                                 digits = 4)
 
 print(Table_trend)
-print(Table_trend_duree)
 
 
 
