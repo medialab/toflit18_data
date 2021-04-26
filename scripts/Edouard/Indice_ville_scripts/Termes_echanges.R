@@ -51,7 +51,7 @@ Calcul_termes_echange <- function()
     select(c("Ville", "Exports_imports", "year", "Index_value"))
   
   ### On reshape le dataframe : c'est à dire que l'on crée deux colonnes Imports et Exports issues de la colonne Exports_imports
-  Index_res_reshape <- spread(Index_res, key = "Exports_imports", value = "Index_value")
+  Index_res_reshape <- spread_(Index_res, key = "Exports_imports", value = "Index_value")
   
   
   Termes_echange_res <- Index_res_reshape %>%
