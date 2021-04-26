@@ -30,7 +30,8 @@ Data_filtrage <- function(Ville,
                           Trans_number = 0,
                           Prod_problems = T,
                           Product_select = F,
-                          Remove_double = T) 
+                          Remove_double = T,
+                          Correction_indice_Ag = T) 
   
 {
   ### Lecture de la base de données courante et filtrage par la ville et le type (Imports ou Exports)
@@ -39,7 +40,7 @@ Data_filtrage <- function(Ville,
   ### Création d'un indice de transaction et d'un indice de produit
   ### Conservation uniquement des produits dans la meilleure unité considérée (unité la plus vendue en terme de transctions)
   ### Calcul également de la valeur totale du commerce et du flux initiale
-  Res <- Read_bdd_courante(Ville, Exports_imports)
+  Res <- Read_bdd_courante(Ville, Exports_imports, Correction_indice_Ag)
   ### Data est la base de données filtrée sans les paramètres complémentaires
   Data <- Res[[1]]
   ### Value_com_tot correspond aux valeurs de la valeur totale du flux et du commerce par année
@@ -97,9 +98,23 @@ Data_filtrage <- function(Ville,
 
 
 ### Lecture de la base de donnée courante. Conservation Exports ou Imports d'une ville
-Read_bdd_courante <- function(Ville, Exports_imports) {
+Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
+  
+  ### Correction indice Ag
+  if (Correction_indice_Ag) {
+    ### Chargement de la base de données de la valeur de l'argent
+    Ag_value <- read.csv2("./scripts/Edouard/Silver_price/Silver_equivalent_of_the_lt_and_franc_(Hoffman).csv")
+    ### On fusionne les deux bases de données
+    bdd_courante <- merge(bdd_courante, Ag_value, "year" = "year", all.x = T)
+    ### On corrige les valeurs des prix
+    bdd_courante <- bdd_courante %>%
+      mutate(unit_price_metric = unit_price_metric * Value_of_livre,
+             value = value * Value_of_livre) %>%
+      select(-c("Value_of_livre"))
+    
+  }
   
   ### Calcule de la valeur totale du flux et du commerce initiale
   Value_com_tot <- bdd_courante %>%
