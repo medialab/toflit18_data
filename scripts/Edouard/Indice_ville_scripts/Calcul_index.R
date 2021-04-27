@@ -22,7 +22,6 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 rm(list = ls())
 
 ### On charge les fonctions des scripts Filtrage.R et Ventes_repetees_ponderees.R
-source("./scripts/Edouard/Indice_ville_scripts/Filtrage.R")
 source("./scripts/Edouard/Indice_ville_scripts/Ventes_repetees_ponderees.R")
 
 

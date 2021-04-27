@@ -20,7 +20,7 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 rm(list = ls())
 
 ### On charge la fonction du script Filtrage.R
-source("./scripts/Edouard/Filtrage.R")
+source("./scripts/Edouard/Indice_ville_scripts/Filtrage.R")
 
 
 ### Cette fonction calcule l'index des ventes répétés à partir d'un objet Data retourné
