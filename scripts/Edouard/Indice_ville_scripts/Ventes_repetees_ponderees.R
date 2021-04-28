@@ -187,7 +187,8 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                 Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
                                 Remove_double = T, ### Retire-t-on les doublons
                                 Ponderation = T, ### Calcul de l'indice avec ponderation ?
-                                Pond_log = F) ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
+                                Pond_log = F, ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
+                                Product_sector = "All") ### Utile uniquement pour la construction des indices par composition
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
@@ -197,7 +198,8 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                Trans_number = Trans_number, ### On retire les produits vendus moins de Trans_number fois
                                Prod_problems = Prod_problems, ### Enleve-t-on les produits avec des différences de prix très importants
                                Product_select = Product_select, ### Selection des produits par Charles Loic
-                               Remove_double = Remove_double) ### On retire les doublons
+                               Remove_double = Remove_double, ### On retire les doublons
+                               Product_sector = Product_sector) ### Utile uniquement pour la construction des indices par composition
   
   ### Calcul de l'indice avec la fonction Calcul_index
   rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log)
@@ -216,12 +218,15 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T,
                     all.y = F)
   
+  if(Product_sector == "All") {
   ### On plot l'index avec la fonction Plot_index
-  Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
-             Outliers = Outliers, Outliers_coef = Outliers_coef,
-             Trans_number = Trans_number, Prod_problems = Prod_problems, 
-             Product_select = Product_select, Remove_double = Remove_double,
-             Ponderation = Ponderation, Pond_log = Pond_log)
+    Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
+               Outliers = Outliers, Outliers_coef = Outliers_coef,
+               Trans_number = Trans_number, Prod_problems = Prod_problems, 
+               Product_select = Product_select, Remove_double = Remove_double,
+               Ponderation = Ponderation, Pond_log = Pond_log)
+  }
+    
   ### On retourne l'indice obtenu
   return(rt_index)
   
