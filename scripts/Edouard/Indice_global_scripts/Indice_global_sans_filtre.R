@@ -23,7 +23,7 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### Cette fonction permet le filtrage de la base de données selon les paramètres suivants pour la réalisation de l'indice global 
 ### calculé à partir d'un filtre prod/ville
 
-Data_filtrage <- function(Exports_imports = "Imports", Correction_indice_Ag = T) 
+Data_filtrage <- function(Exports_imports = "Imports", Correction_indice_Ag = T, Product_sector = "All", Partner = "All") 
   
 {
   ### Lecture de la base de données courante et filtrage par la ville et le type (Imports ou Exports)
@@ -32,7 +32,7 @@ Data_filtrage <- function(Exports_imports = "Imports", Correction_indice_Ag = T)
   ### Création d'un indice de transaction et d'un indice de produit
   ### Conservation uniquement des produits dans la meilleure unité considérée (unité la plus vendue en terme de transctions)
   ### Calcul également de la valeur totale du commerce et du flux initiale
-  Res <- Read_bdd_courante(Exports_imports, Correction_indice_Ag)
+  Res <- Read_bdd_courante(Exports_imports, Correction_indice_Ag, Product_sector, Partner)
   ### Data est la base de données filtrée sans les paramètres complémentaires
   Data <- Res[[1]]
   ### Value_com_tot correspond aux valeurs de la valeur totale du flux et du commerce par année
@@ -195,15 +195,17 @@ Plot_index <- function(Index, ### Choix du port d'étude
 ### puis calcul l'indice des prix, renvoie l'indice et le plot
 ### On renvoie également pour chaque année de calcul de l'indice la part du commerce considérée et la part du flux considérée
 
-Filter_calcul_index <- function(Exports_imports = "Imports") ### On conserve les Importations ou les Exportations
+Filter_calcul_index <- function(Exports_imports = "Imports",
+                                Product_sector = "All"
+                                Partner = "All") ### On conserve les Importations ou les Exportations
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
-  Data_filter <- Data_filtrage(Exports_imports = Exports_imports) ### On conserve les Importations ou les Exportations
+  Data_filter <- Data_filtrage(Exports_imports = Exports_imports,
+                               Product_sector = Product_sector) ### On conserve les Importations ou les Exportations
   
   
   ### Calcul de l'indice avec la fonction Calcul_index
   rt_index <- Calcul_index(Data_filter)
-  
   
   
   
@@ -245,7 +247,7 @@ Filter_calcul_index <- function(Exports_imports = "Imports") ### On conserve les
 
 
 ### Lecture de la base de donnée courante. Conservation Exports ou Imports d'une ville
-Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag) {
+Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sector) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
@@ -286,7 +288,7 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag) {
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
-             "unit_price_metric", "value", "best_guess_region_prodxpart")) %>%
+             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM")) %>%
     mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
     ### On selectionne uniquement les produits rangés par régions
     filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
@@ -307,11 +309,17 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag) {
     as.data.frame() %>%
     mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
+  if(Product_sector != "All") {
+    Data <- Data %>%
+      filter(product_threesectors == Product_sector)
+  }
+  
   ### On conserve uniquement les données dans la meilleure unité
   Data <- Data %>%
     filter(best_unit_metric == T
            & export_import == Exports_imports) %>%
-    select(-c("best_unit_metric", "best_guess_region_prodxpart"))
+    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM"))
+  
   
   return(list(Data, Value_com_tot))
 } 

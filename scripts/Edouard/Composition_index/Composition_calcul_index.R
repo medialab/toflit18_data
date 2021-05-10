@@ -26,17 +26,9 @@ source("./scripts/Edouard/Indice_ville_scripts/Ventes_repetees_ponderees.R")
 
 
 
-### La fonction Update_base crée le csv Index_results.csv qui calcule l'indice des prix 
-### pour l'ensemble des parmètres par défaut :
-# Outliers = T,
-# Outliers_coef = 3.5,
-# Trans_number = 0,
-# Prod_problems = F,
-# Product_select = F,
-# Remove_double = T,
-# Ponderation = T,
-# Pond_log = F
-### ainsi que pour l'autre valeur de chaque paramètre avec les valueurs par défaut
+
+### Sector_index_calcul remplie le csv : Composition_index_results qui comprend les valeurs de l'indice
+### avec les paramètres par défaut triés par secteurs : Manufactures, Agriculture et Non-agricultural primary goods
 
 Sector_index_calcul <- function() 
   
@@ -73,7 +65,6 @@ Sector_index_calcul <- function()
 
 Add_new_sector <- function(Product_sector = "All") 
 {
-  
   ### Création des titres des lignes
   Index_pond <-  data.frame("Ville" = factor(),
                             "Exports_imports" = factor(),
@@ -125,4 +116,97 @@ Add_new_sector <- function(Product_sector = "All")
   
   
 }
+
+
+
+source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
+
+### On cree aussi un index pour l'indice global
+
+Sector_index_global_calcul <- function()
+{
+  ### Création des lignes du csv 
+  Index_pond <-  data.frame("Exports_imports" = factor(),
+                            "Product_sector" = factor(),
+                            "year" = integer(),
+                            "Index_value" = numeric(),
+                            "Part_value" = numeric(),
+                            "Part_flux" = numeric())
+
+### Ecriture des lignes du csv
+write.csv2(Index_pond,
+           "./scripts/Edouard/Composition_index_results_global.csv",
+           row.names = F)
+
+
+
+### Ajout au csv de la baseline et de la baseline + changement d'un paramètre pour chaque paramètre
+### à l'aide de la fonction Add_new_parma défini ci-dessous
+Add_new_sector_global()
+Add_new_sector_global("Manufactures")
+Add_new_sector_global("Non-agricultural primary goods")
+Add_new_sector_global("Agriculture")
+
+
+}
+
+
+
+### Ajout d'un nouveau secteur pour l'indice global
+
+Add_new_sector_global <- function(Product_sector = "All") 
+{
+  ### Création des titres des lignes
+  Index_pond <-  data.frame("Exports_imports" = factor(),
+                            "Product_sector" = factor(),
+                            "year" = integer(),
+                            "Index_value" = numeric(),
+                            "Part_value" = numeric(),
+                            "Part_flux" = numeric())
+  
+  for (Type in c("Imports", "Exports")) {
+    
+    ### Calcul de l'index pour les paramètres choisis
+    Index <- Filter_calcul_index(Exports_imports = Type, ### On conserve les Importations ou les Exportations
+                                 Product_sector = Product_sector)
+    
+    ### A jout de l'index et des parts de flux et de valeur dans le commerce total, ainsi que la valeur des paramètres 
+    ### au dataframe
+    for (i in seq(1,dim(Index)[1])) {
+      
+      Index_pond <- Index_pond %>%
+        add_row(Exports_imports = Type, 
+                Product_sector = Product_sector,
+                year = Index$year[i],
+                Index_value = Index$Index[i],
+                Part_value = Index$Part_value[i],
+                Part_flux = Index$Part_flux[i])
+      
+    
+    }
+  }
+  
+  ### On charge les valeurs actuelles du csv
+  Index_res <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+  
+  ### On ajoute le nouveau dataframe
+  Index_res <- rbind(Index_res, Index_pond)
+  ### On retire les lignes si elles sont déja présentes dans le csv
+  ### Par défaut, le nouveau résultat met à jour le précédent
+  Index_res <- Index_res[!duplicated(Index_res[ , 1:6], fromLast = T), ]
+  
+  ### On écrit le résulat dans le csv
+  write.csv2(Index_res,
+             "./scripts/Edouard/Composition_index_results_global.csv",
+             row.names = F)
+  
+  
+  
+}
+
+
+
+
+
+
 
