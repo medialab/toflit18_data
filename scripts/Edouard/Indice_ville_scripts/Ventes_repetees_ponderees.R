@@ -9,6 +9,8 @@ library(stringr)
 library(readr)
 library(pracma)
 
+library(lmtest)
+
 library(hpiR)
 
 
@@ -80,6 +82,9 @@ Calcul_index <- function(Data, Ponderation = T, Pond_log = F) {
     reg <- lm(price_diff ~ time_matrix + 0)
   }
   
+  ### Impression du résultat du test de Breusch - Pagan
+  # print(bptest(reg))
+  
   ### Construction de l'indice     
   rt_pond_index <- data.frame("year" = seq(min(Data$year), min(Data$year) + length(reg$coefficients)),
                               "Index" = 100*exp(c(0, reg$coefficients)),
@@ -95,7 +100,7 @@ Plot_index <- function(Index,
                        Ville,  ### Choix du port d'étude
                        Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
                        Outliers = T, ### Retire-t-on les outliers ? 
-                       Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
+                       Outliers_coef = 10, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
                        Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
                        Prod_problems = F, ### Enleve-t-on les produits avec des différences de prix trop importantes
                        Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
@@ -181,14 +186,16 @@ Plot_index <- function(Index,
 Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                 Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
                                 Outliers = T, ### Retire-t-on les outliers ? 
-                                Outliers_coef = 3.5, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
+                                Outliers_coef = 10, ### Quel niveau d'écart inter Q garde-t-on pour le calcul des outliers ?
                                 Trans_number = 0, ### On retire les produits vendus moins de Trans_number fois
-                                Prod_problems = T, ### Enleve-t-on les produits avec des différences de prix trop importantes
+                                Prod_problems = F, ### Enleve-t-on les produits avec des différences de prix trop importantes
                                 Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
                                 Remove_double = T, ### Retire-t-on les doublons
                                 Ponderation = T, ### Calcul de l'indice avec ponderation ?
                                 Pond_log = F, ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
-                                Product_sector = "All") ### Utile uniquement pour la construction des indices par composition
+                                Correction_indice_Ag = T, #### Correction de l'indie par la aleur de l'Ag l'année observée
+                                Product_sector = "All", ### Utile uniquement pour la construction des indices par composition
+                                Partner = "All") ### Utile uniquement pour l'indice par partenaire (All, Europe_et_Méditérannée ou Reste_du_monde)
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
@@ -199,8 +206,10 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                Prod_problems = Prod_problems, ### Enleve-t-on les produits avec des différences de prix très importants
                                Product_select = Product_select, ### Selection des produits par Charles Loic
                                Remove_double = Remove_double, ### On retire les doublons
-                               Product_sector = Product_sector) ### Utile uniquement pour la construction des indices par composition
-  
+                               Correction_indice_Ag = Correction_indice_Ag,
+                               Product_sector = Product_sector, ### Utile uniquement pour la construction des indices par composition
+                               Partner = Partner) ### Utile uniquement pour l'indice par partenaire (All, Europe_et_Méditérannée ou Reste_du_monde)
+                               
   ### Calcul de l'indice avec la fonction Calcul_index
   rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log)
   
@@ -218,7 +227,7 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   rt_index <- merge(rt_index, Data_part[ , c("year", "Part_value", "Part_flux")], "year" = "year", all.x = T,
                     all.y = F)
   
-  if(Product_sector == "All") {
+  if(Product_sector == "All" & Partner == "All") {
   ### On plot l'index avec la fonction Plot_index
     Plot_index(rt_index, Ville = Ville, Exports_imports = Exports_imports,
                Outliers = Outliers, Outliers_coef = Outliers_coef,
@@ -230,6 +239,19 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
   ### On retourne l'indice obtenu
   return(rt_index)
   
+}
+
+
+
+
+
+### Calcul du test de Breusch - Pagan
+
+for (Ville_cons in c("Nantes", "Marseille", "Bayonne", "Bordeaux", "Rennes", "La Rochelle")){
+  for (Type in c("Imports", "Exports")) {
+    print(paste(Ville_cons, Type))
+    Filter_calcul_index(Ville = Ville_cons, Exports_imports = Type)
+  }
 }
 
 

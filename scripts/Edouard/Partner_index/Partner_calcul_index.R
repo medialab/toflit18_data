@@ -26,17 +26,16 @@ source("./scripts/Edouard/Indice_ville_scripts/Ventes_repetees_ponderees.R")
 
 
 
+### Partner_index_calcul remplie le csv : Composition_index_results qui comprend les valeurs de l'indice
+### avec les paramètres par défaut triés par partenaires : Europe_et_Meditérranée ou reste du monde.
 
-### Sector_index_calcul remplie le csv : Composition_index_results qui comprend les valeurs de l'indice
-### avec les paramètres par défaut triés par secteurs : Manufactures, Agriculture et Non-agricultural primary goods
-
-Sector_index_calcul <- function() 
+Partner_index_calcul <- function() 
   
 {
   ### Création des lignes du csv 
   Index_pond <-  data.frame("Ville" = factor(),
                             "Exports_imports" = factor(),
-                            "Product_sector" = factor(),
+                            "Partner" = factor(),
                             "year" = integer(),
                             "Index_value" = numeric(),
                             "Part_value" = numeric(),
@@ -44,17 +43,16 @@ Sector_index_calcul <- function()
   
   ### Ecriture des lignes du csv
   write.csv2(Index_pond,
-             "./scripts/Edouard/Composition_index_results.csv",
+             "./scripts/Edouard/Partner_index_results.csv",
              row.names = F)
   
   
   
   ### Ajout au csv de la baseline et de la baseline + changement d'un paramètre pour chaque paramètre
   ### à l'aide de la fonction Add_new_parma défini ci-dessous
-  Add_new_sector()
-  Add_new_sector("Manufactures")
-  Add_new_sector("Non-agricultural primary goods")
-  Add_new_sector("Agriculture")
+  Add_new_partner()
+  Add_new_partner("Europe_et_Mediterranee")
+  Add_new_partner("Reste_du_monde")
   
   
 }
@@ -63,12 +61,12 @@ Sector_index_calcul <- function()
 
 ### Ajouter un nouvel index au csv en choisissant les paramètres désirés
 
-Add_new_sector <- function(Product_sector = "All") 
+Add_new_partner <- function(Partner = "All") 
 {
   ### Création des titres des lignes
   Index_pond <-  data.frame("Ville" = factor(),
                             "Exports_imports" = factor(),
-                            "Product_sector" = factor(),
+                            "Partner" = factor(),
                             "year" = integer(),
                             "Index_value" = numeric(),
                             "Part_value" = numeric(),
@@ -80,7 +78,7 @@ Add_new_sector <- function(Product_sector = "All")
       ### Calcul de l'index pour les paramètres choisis
       Index <- Filter_calcul_index(Ville = Ville,  ### Choix du port d'étude
                                    Exports_imports = Type, ### On conserve les Importations ou les Exportations
-                                   Product_sector = Product_sector)
+                                   Partner = Partner)
       
       ### A jout de l'index et des parts de flux et de valeur dans le commerce total, ainsi que la valeur des paramètres 
       ### au dataframe
@@ -89,7 +87,7 @@ Add_new_sector <- function(Product_sector = "All")
         Index_pond <- Index_pond %>%
           add_row(Ville = Ville, 
                   Exports_imports = Type, 
-                  Product_sector = Product_sector,
+                  Partner = Partner,
                   year = Index$year[i],
                   Index_value = Index$Index[i],
                   Part_value = Index$Part_value[i],
@@ -100,7 +98,7 @@ Add_new_sector <- function(Product_sector = "All")
   }
   
   ### On charge les valeurs actuelles du csv
-  Index_res <- read.csv2("./scripts/Edouard/Composition_index_results.csv", row.names = NULL)
+  Index_res <- read.csv2("./scripts/Edouard/Partner_index_results.csv", row.names = NULL)
   
   ### On ajoute le nouveau dataframe
   Index_res <- rbind(Index_res, Index_pond)
@@ -110,7 +108,7 @@ Add_new_sector <- function(Product_sector = "All")
   
   ### On écrit le résulat dans le csv
   write.csv2(Index_res,
-             "./scripts/Edouard/Composition_index_results.csv",
+             "./scripts/Edouard/Partner_index_results.csv",
              row.names = F)
   
   
@@ -123,42 +121,41 @@ source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
 
 ### On cree aussi un index pour l'indice global
 
-Sector_index_global_calcul <- function()
+Partner_index_global_calcul <- function()
 {
   ### Création des lignes du csv 
   Index_pond <-  data.frame("Exports_imports" = factor(),
-                            "Product_sector" = factor(),
+                            "Partner" = factor(),
                             "year" = integer(),
                             "Index_value" = numeric(),
                             "Part_value" = numeric(),
                             "Part_flux" = numeric())
-
-### Ecriture des lignes du csv
-write.csv2(Index_pond,
-           "./scripts/Edouard/Composition_index_results_global.csv",
-           row.names = F)
-
-
-
-### Ajout au csv de la baseline et de la baseline + changement d'un paramètre pour chaque paramètre
-### à l'aide de la fonction Add_new_parma défini ci-dessous
-Add_new_sector_global()
-Add_new_sector_global("Manufactures")
-Add_new_sector_global("Non-agricultural primary goods")
-Add_new_sector_global("Agriculture")
-
-
+  
+  ### Ecriture des lignes du csv
+  write.csv2(Index_pond,
+             "./scripts/Edouard/Partner_index_results_global.csv",
+             row.names = F)
+  
+  
+  
+  ### Ajout au csv de la baseline et de la baseline + changement d'un paramètre pour chaque paramètre
+  ### à l'aide de la fonction Add_new_parma défini ci-dessous
+  Add_new_partner_global()
+  Add_new_partner_global("Europe_et_Mediterranee")
+  Add_new_partner_global("Reste_du_monde")
+  
+  
 }
 
 
 
 ### Ajout d'un nouveau secteur pour l'indice global
 
-Add_new_sector_global <- function(Product_sector = "All") 
+Add_new_sector_global <- function(Partner = "All") 
 {
   ### Création des titres des lignes
   Index_pond <-  data.frame("Exports_imports" = factor(),
-                            "Product_sector" = factor(),
+                            "Partner" = factor(),
                             "year" = integer(),
                             "Index_value" = numeric(),
                             "Part_value" = numeric(),
@@ -168,7 +165,7 @@ Add_new_sector_global <- function(Product_sector = "All")
     
     ### Calcul de l'index pour les paramètres choisis
     Index <- Filter_calcul_index(Exports_imports = Type, ### On conserve les Importations ou les Exportations
-                                 Product_sector = Product_sector)
+                                 Partner = Partner)
     
     ### A jout de l'index et des parts de flux et de valeur dans le commerce total, ainsi que la valeur des paramètres 
     ### au dataframe
@@ -176,18 +173,18 @@ Add_new_sector_global <- function(Product_sector = "All")
       
       Index_pond <- Index_pond %>%
         add_row(Exports_imports = Type, 
-                Product_sector = Product_sector,
+                Partner = Partner,
                 year = Index$year[i],
                 Index_value = Index$Index[i],
                 Part_value = Index$Part_value[i],
                 Part_flux = Index$Part_flux[i])
       
-    
+      
     }
   }
   
   ### On charge les valeurs actuelles du csv
-  Index_res <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+  Index_res <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
   
   ### On ajoute le nouveau dataframe
   Index_res <- rbind(Index_res, Index_pond)
@@ -197,16 +194,9 @@ Add_new_sector_global <- function(Product_sector = "All")
   
   ### On écrit le résulat dans le csv
   write.csv2(Index_res,
-             "./scripts/Edouard/Composition_index_results_global.csv",
+             "./scripts/Edouard/Partner_index_results_global.csv",
              row.names = F)
   
   
   
 }
-
-
-
-
-
-
-

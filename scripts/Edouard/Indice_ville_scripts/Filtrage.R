@@ -17,22 +17,24 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 # Ville, ==> port considéré
 # Exports_imports = "Imports", ==> Type : Exports ou Imports
 # Outliers = T, ==> Retire-t-on les outliers ? T ou F, outliers d'une loi log-normale avec z-score modifié (https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm)
-# Outliers_coef = 3.5, ==> outliers_coef utilisé, nombre positif, plus il est grand plus le nombre d'outliers diminue
+# Outliers_coef = 10, ==> outliers_coef utilisé, nombre positif, plus il est grand plus le nombre d'outliers diminue
 # Trans_number = 0, ==> Retire les produits apparaissant moins de Trans_number fois dans la base filtrée, entier positif
-# Prod_problems = T, ==> Retire-t-on les produits avec un écart interquartile (3rd - 1st quartile) > 10 ? T ou F
+# Prod_problems = F, ==> Retire-t-on les produits avec un écart interquartile (3rd - 1st quartile) > 10 ? T ou F
 # Product_select = F, ==> Conserve-t-on uniquement les produits de la sélection réalisée par Loïc ? T ou F
 # Remove_double = T ==> Rassemble-t-on les produits vendus plus de deux fois dans la même année 
+# Correction_indice_Ag
 
 Data_filtrage <- function(Ville,
                           Exports_imports = "Imports",
                           Outliers = T,
-                          Outliers_coef = 3.5,
+                          Outliers_coef = 10,
                           Trans_number = 0,
-                          Prod_problems = T,
+                          Prod_problems = F,
                           Product_select = F,
                           Remove_double = T,
                           Correction_indice_Ag = T,
-                          Product_sector = "All") 
+                          Product_sector = "All",
+                          Partner = "All") 
   
 {
   ### Lecture de la base de données courante et filtrage par la ville et le type (Imports ou Exports)
@@ -41,7 +43,7 @@ Data_filtrage <- function(Ville,
   ### Création d'un indice de transaction et d'un indice de produit
   ### Conservation uniquement des produits dans la meilleure unité considérée (unité la plus vendue en terme de transctions)
   ### Calcul également de la valeur totale du commerce et du flux initiale
-  Res <- Read_bdd_courante(Ville, Exports_imports, Correction_indice_Ag, Product_sector)
+  Res <- Read_bdd_courante(Ville, Exports_imports, Correction_indice_Ag, Product_sector, Partner)
   ### Data est la base de données filtrée sans les paramètres complémentaires
   Data <- Res[[1]]
   ### Value_com_tot correspond aux valeurs de la valeur totale du flux et du commerce par année
@@ -99,7 +101,9 @@ Data_filtrage <- function(Ville,
 
 
 ### Lecture de la base de donnée courante. Conservation Exports ou Imports d'une ville
-Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Product_sector) {
+### Correction de l'indice par la valeur de l'argent
+## Tri par secteur et par partenaire possible
+Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Product_sector, Partner) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
@@ -132,7 +136,8 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
-             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM")) %>%
+             "unit_price_metric", "value", "best_guess_region_prodxpart", 
+             "product_threesectors", "product_threesectorsM", "partner_grouping")) %>%
     mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
     ### On selectionne uniquement les produits rangés par régions
     filter(best_guess_region_prodxpart == 1) %>%
@@ -155,16 +160,40 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
     as.data.frame() %>%
     mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
+  
+  
   if(Product_sector != "All") {
     Data <- Data %>%
       filter(product_threesectors == Product_sector)
   }
   
+  
+  if (Partner == "Europe_et_Mediterranee") {
+    print(Partner)
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Allemagne", "Angleterre", "Espagne",
+                                   "Flandre et autres états de l'Empereur",
+                                   "Hollande", "France", "Italie", "Levant et Barbarie",
+                                   "Nord", "Portugal", "Suisse"))
+  } 
+  
+  if (Partner == "Reste_du_monde") {
+    print(Partner)
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Afrique", "Amériques", "Asie", "Etats-Unis d'Amérique", 
+                                     "Monde", "Outre-mers"))
+  }
+  
+
+  
+
+  
   ### On conserve uniquement les données dans la meilleure unité
   Data <- Data %>%
     filter(best_unit_metric == T
             & export_import == Exports_imports) %>%
-    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM"))
+    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", 
+              "product_threesectorsM", "partner_grouping"))
   
   return(list(Data, Value_com_tot))
 } 

@@ -99,3 +99,39 @@ for (Ville_cons in c("Marseille", "Bordeaux", "La Rochelle", "Nantes", "Rennes",
     # 
   }
 }
+
+
+
+
+
+
+### Calcul regression des trends par secteur
+
+Index_composition <- read.csv2("./scripts/Edouard/Composition_index_results.csv", row.names = NULL)
+Index_composition <- Index_composition %>%
+  mutate_if(is.character, as.factor) %>%
+  mutate(Product_sector = relevel(Product_sector, "All"),
+         Exports_imports = relevel(Exports_imports, "Imports"))
+
+Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Product_sector + Product_sector*year,
+                      data = subset(Index_composition, Exports_imports == "Exports" & Product_sector != "All"))
+
+summary(Reg_trend_categ)
+
+
+
+
+
+
+
+Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+Index_composition_global <- Index_composition_global %>%
+  mutate_if(is.character, as.factor) %>%
+  mutate(Product_sector = relevel(Product_sector, "All"))
+
+
+
+Reg_trend_categ_global <- lm(log(Index_value) ~ year + Product_sector + Product_sector*year ,
+                data = Index_composition_global)
+summary(Reg_trend_categ_global)
+
