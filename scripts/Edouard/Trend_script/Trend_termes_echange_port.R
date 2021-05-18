@@ -41,7 +41,7 @@ for (Port in c("Marseille", "Bordeaux", "La Rochelle", "Nantes", "Bayonne", "Ren
                           all.x = T, all.y = F)
   
   
-  trend <- lm(log(Termes_echange_value) ~ year + War_non_ter, data = Termes_echange)
+  trend <- lm(log(Termes_echange_value) ~ War_var + War_duree, data = Termes_echange)
   
   Termes_reg_trend[[paste0("trend_", Port, "_")]] = trend
   

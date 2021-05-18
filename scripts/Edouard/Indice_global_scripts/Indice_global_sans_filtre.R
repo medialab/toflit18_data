@@ -195,13 +195,14 @@ Plot_index <- function(Index, ### Choix du port d'étude
 ### puis calcul l'indice des prix, renvoie l'indice et le plot
 ### On renvoie également pour chaque année de calcul de l'indice la part du commerce considérée et la part du flux considérée
 
-Filter_calcul_index <- function(Exports_imports = "Imports",
-                                Product_sector = "All"
-                                Partner = "All") ### On conserve les Importations ou les Exportations
+Filter_calcul_index <- function(Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
+                                Product_sector = "All",
+                                Partner = "All") 
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Exports_imports = Exports_imports,
-                               Product_sector = Product_sector) ### On conserve les Importations ou les Exportations
+                               Product_sector = Product_sector,
+                               Partner = Partner) ### On conserve les Importations ou les Exportations
   
   
   ### Calcul de l'indice avec la fonction Calcul_index
@@ -247,7 +248,7 @@ Filter_calcul_index <- function(Exports_imports = "Imports",
 
 
 ### Lecture de la base de donnée courante. Conservation Exports ou Imports d'une ville
-Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sector) {
+Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sector, Partner) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
@@ -288,7 +289,8 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sec
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
-             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM")) %>%
+             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", 
+             "product_threesectorsM", "partner_grouping")) %>%
     mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
     ### On selectionne uniquement les produits rangés par régions
     filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
@@ -314,11 +316,28 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sec
       filter(product_threesectors == Product_sector)
   }
   
+  
+  if (Partner == "Europe_et_Mediterranee") {
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Allemagne", "Angleterre", "Espagne",
+                                     "Flandre et autres états de l'Empereur",
+                                     "Hollande", "France", "Italie", "Levant et Barbarie",
+                                     "Nord", "Portugal", "Suisse"))
+  } 
+  
+  if (Partner == "Reste_du_monde") {
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Afrique", "Amériques", "Asie", "Etats-Unis d'Amérique", 
+                                     "Monde", "Outre-mers"))
+  }
+  
+  
   ### On conserve uniquement les données dans la meilleure unité
   Data <- Data %>%
     filter(best_unit_metric == T
            & export_import == Exports_imports) %>%
-    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM"))
+    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", 
+              "product_threesectorsM", "partner_grouping"))
   
   
   return(list(Data, Value_com_tot))

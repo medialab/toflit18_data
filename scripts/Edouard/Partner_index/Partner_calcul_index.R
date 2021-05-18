@@ -151,7 +151,7 @@ Partner_index_global_calcul <- function()
 
 ### Ajout d'un nouveau secteur pour l'indice global
 
-Add_new_sector_global <- function(Partner = "All") 
+Add_new_partner_global <- function(Partner = "All") 
 {
   ### Création des titres des lignes
   Index_pond <-  data.frame("Exports_imports" = factor(),

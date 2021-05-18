@@ -109,7 +109,11 @@ Index_partner <- read.csv2("./scripts/Edouard/Partner_index_results.csv", row.na
 Index_partner <- Index_partner %>%
   mutate_if(is.character, as.factor) %>%
   mutate(Partner = relevel(Partner, "All"),
-         Exports_imports = relevel(Exports_imports, "Imports"))
+         Exports_imports = relevel(Exports_imports, "Imports")) %>%
+  filter(Ville != "Rennes")
+
+
+plot(Index_partner$year, Index_partner$Index_value, type = "o")
 
 Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Partner + Partner*year,
                       data = subset(Index_partner, Exports_imports == "Imports" & Partner != "All"))
@@ -122,13 +126,14 @@ summary(Reg_trend_categ)
 
 
 
-Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
-Index_composition_global <- Index_composition_global %>%
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+Index_partner_global <- Index_partner_global %>%
   mutate_if(is.character, as.factor) %>%
-  mutate(Product_sector = relevel(Product_sector, "All"))
+  filter(Exports_imports == "Imports", Partner != "All")
+
+plot(Index_partner_global$year, Index_partner_global$Index_value, type = "o")
 
 
-
-Reg_trend_categ_global <- lm(log(Index_value) ~ year + Product_sector + Product_sector*year ,
-                             data = Index_composition_global)
-summary(Reg_trend_categ_global)
+Reg_trend_partner_global <- lm(log(Index_value) ~ year + Partner + Partner*year ,
+                             data = subset(Index_partner_global, Exports_imports == "Imports"))
+summary(Reg_trend_partner_global)

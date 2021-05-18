@@ -169,7 +169,6 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   
   
   if (Partner == "Europe_et_Mediterranee") {
-    print(Partner)
     Data <- Data %>%
       filter(partner_grouping %in% c("Allemagne", "Angleterre", "Espagne",
                                    "Flandre et autres états de l'Empereur",
@@ -178,7 +177,6 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   } 
   
   if (Partner == "Reste_du_monde") {
-    print(Partner)
     Data <- Data %>%
       filter(partner_grouping %in% c("Afrique", "Amériques", "Asie", "Etats-Unis d'Amérique", 
                                      "Monde", "Outre-mers"))

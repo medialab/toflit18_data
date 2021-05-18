@@ -9,7 +9,10 @@ library(stringr)
 library(readr)
 library(pracma)
 
+library(nlme)
 library(lmtest)
+library(caTools)
+library(skedastic)
 
 library(hpiR)
 
@@ -27,7 +30,7 @@ source("./scripts/Edouard/Indice_ville_scripts/Filtrage.R")
 
 ### Cette fonction calcule l'index des ventes répétés à partir d'un objet Data retourné
 ### par la fonction Data_filtrage du script filtrage
-Calcul_index <- function(Data, Ponderation = T, Pond_log = F) {
+Calcul_index <- function(Data, Ponderation = T, Pond_log = F, Regression_type = "OLS", Smooth = F) {
 
   ### Calcul des pondérations
   Product_pond <- Data %>%
@@ -70,25 +73,58 @@ Calcul_index <- function(Data, Ponderation = T, Pond_log = F) {
   Data_trans <- Data_trans %>%
     left_join(Product_pond, by = c("prop_id" = "id_prod_simp"))
   
+  
+  # Data_reg = cbind(data.frame("Price_diff" = price_diff, "Year" = Data_trans$period_2), as.data.frame(time_matrix[]))
+  
   ### Calcul de la régression selon que l'on est choisi de pondéré par la part dans la valeur totale 
   ### ou par le log de la valeur totale ou pas de pondération
-  if (Ponderation) {
-    if (Pond_log) {
-      reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part_log) ### + 0 permet de supprimer l'intercept
+  if (Regression_type == "OLS") {
+    if (Ponderation) {
+      if (Pond_log) {
+        reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part_log) ### + 0 permet de supprimer l'intercept
+      } else {
+        reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part)
+      }
     } else {
-      reg <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part)
+      reg <- lm(price_diff ~ time_matrix + 0)
     }
-  } else {
-    reg <- lm(price_diff ~ time_matrix + 0)
-  }
+  } 
+  
+  
+  ### Calcul de la regréssion avec la correstion de Schiller & Case
+  if (Regression_type == "WLS") {
+    if (Ponderation) {
+      if (Pond_log) {
+        reg <-gls(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part_log) ### + 0 permet de supprimer l'intercept
+      } else {
+        Data_trans$time_diff <- Data_trans$period_2 - Data_trans$period_1
+        lm_model <- lm(price_diff ~ time_matrix + 0, weights = Data_trans$Value_part)
+        err_fit <- stats::lm((stats::residuals(lm_model) ^ 2) ~ log(Data_trans$time_diff))
+        wgts <- stats::fitted(err_fit)*Data_trans$Value_part
+        reg <- stats::lm(price_diff ~ time_matrix + 0, weights = wgts)
+      }
+    } else {
+      reg <- gls(price_diff ~ time_matrix + 0)
+    }
+  } 
+  
   
   ### Impression du résultat du test de Breusch - Pagan
   # print(bptest(reg))
+  
   
   ### Construction de l'indice     
   rt_pond_index <- data.frame("year" = seq(min(Data$year), min(Data$year) + length(reg$coefficients)),
                               "Index" = 100*exp(c(0, reg$coefficients)),
                               row.names = NULL)
+  
+  ### Réalise la moyenne mobile de l'indice sur l'ensemble de la période
+  if (Smooth) {
+    rt_pond_index$Index <- runmean(na.approx(rt_pond_index$Index), k = 3, 
+                                   alg = "C", endrule = "keep", align = "right")
+  }
+  
+  
   ### On retourne l'indice
   return(rt_pond_index)
 
@@ -106,7 +142,8 @@ Plot_index <- function(Index,
                        Product_select = F, ### Conserve-t-on uniquement les produits sélectionnés par Loïc
                        Remove_double = T, ### Retire-t-on les doublons
                        Ponderation = T, ### Calcul de l'indice avec ponderation ?
-                       Pond_log = F) 
+                       Pond_log = F,
+                       Smooth = F) 
   
 {
   
@@ -136,10 +173,18 @@ Plot_index <- function(Index,
   
   
   ### Ouverture d'une fenêtre pour l'enregistrement du graphique
-  png(filename = paste0("./scripts/Edouard/Figure_index/", Title_file, ".png"),
-      width = 5000,
-      height = 2700,
-      res = 500)
+  if (!Smooth) {
+    png(filename = paste0("./scripts/Edouard/Figure_index/", Title_file, ".png"),
+        width = 5000,
+        height = 2700,
+        res = 500)
+    
+  } else {
+    png(filename = paste0("./scripts/Edouard/Figure_index_Smooth/", Title_file, ".png"),
+        width = 5000,
+        height = 2700,
+        res = 500)
+  }
   
 
         
@@ -195,7 +240,8 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                 Pond_log = F, ### Si ponderation == T, pondère-t-on par le log de la part dans la valeur totale ?
                                 Correction_indice_Ag = T, #### Correction de l'indie par la aleur de l'Ag l'année observée
                                 Product_sector = "All", ### Utile uniquement pour la construction des indices par composition
-                                Partner = "All") ### Utile uniquement pour l'indice par partenaire (All, Europe_et_Méditérannée ou Reste_du_monde)
+                                Partner = "All", ### Utile uniquement pour l'indice par partenaire (All, Europe_et_Méditérannée ou Reste_du_monde)
+                                Smooth = F) ### Réalisation de la moyenne courante de l'indice et approximation des valeurs manquantes
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Ville = Ville,  ### Choix du port d'étude
@@ -211,7 +257,7 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                                Partner = Partner) ### Utile uniquement pour l'indice par partenaire (All, Europe_et_Méditérannée ou Reste_du_monde)
                                
   ### Calcul de l'indice avec la fonction Calcul_index
-  rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log)
+  rt_index <- Calcul_index(Data_filter, Ponderation = Ponderation, Pond_log = Pond_log, Smooth = Smooth)
   
   
 
@@ -233,7 +279,7 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
                Outliers = Outliers, Outliers_coef = Outliers_coef,
                Trans_number = Trans_number, Prod_problems = Prod_problems, 
                Product_select = Product_select, Remove_double = Remove_double,
-               Ponderation = Ponderation, Pond_log = Pond_log)
+               Ponderation = Ponderation, Pond_log = Pond_log, Smooth = Smooth)
   }
     
   ### On retourne l'indice obtenu
@@ -247,13 +293,49 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
 
 ### Calcul du test de Breusch - Pagan
 
-for (Ville_cons in c("Nantes", "Marseille", "Bayonne", "Bordeaux", "Rennes", "La Rochelle")){
-  for (Type in c("Imports", "Exports")) {
-    print(paste(Ville_cons, Type))
-    Filter_calcul_index(Ville = Ville_cons, Exports_imports = Type)
-  }
-}
+# for (Ville_cons in c("Nantes", "Marseille", "Bayonne", "Bordeaux", "Rennes", "La Rochelle")){
+#   for (Type in c("Imports", "Exports")) {
+#     print(paste(Ville_cons, Type))
+#     Filter_calcul_index(Ville = Ville_cons, Exports_imports = Type)
+#   }
+# }
 
 
 
+
+### Calcul de l'indice par la méthode de Guillaume Daudin
+
+
+### Calcul des pondérations
+# Product_pond <- Data %>%
+#   group_by(id_prod_simp) %>%
+#   summarize(Value_tot_log = log(sum(value)),
+#             Value_tot = sum(value))
+# 
+# ### On 
+# Product_pond$Value_part_log <- round(10000 * Product_pond$Value_tot_log / sum(Product_pond$Value_tot_log, na.rm = T)) 
+# Product_pond$Value_part <- round(10000 * Product_pond$Value_tot / sum(Product_pond$Value_tot, na.rm = T)) 
+# 
+# Data = Data_filtrage("Marseille", Exports_imports = "Exports")
+# 
+# 
+# Data = merge(Data, Product_pond, by = "id_prod_simp",
+#              all.x = T)
+# 
+# 
+# reg_vp_guillaume = lm(log(unit_price_metric) ~ factor(year) + factor(id_prod_simp),
+#                       weights = Value_part,
+#                       data = Data)
+# 
+# 
+# ### BP test
+# reg_bptest <- lm(reg_vp_guillaume$residuals**2 ~ factor(Data$year) + factor(Data$id_prod_simp))
+# 
+# 
+# reg_vp_guillaume$coefficients[1] = 0
+# 
+# Index = data.frame("year" = as.numeric(levels(factor(Data$year))),
+#                    Index_value = 100*exp(reg_vp_guillaume$coefficients[1:length(levels(factor(Data$year)))]))
+# 
+# plot(Index, type = "o")
 
