@@ -204,10 +204,99 @@ saveWorkbook(Cor_matrix_workbook, "./scripts/Edouard/Correlation_matrix_ville.xl
 
 
 
+### Test de cointégration entre les différents indices de chaque ville
 
 
+Smooth = F
+
+if (!Smooth) {
+  ### On charge les valeurs de Index_results.csv
+  Index_res <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = NULL, dec = ",")
 
 
+  ### On conserve uniquement la baseline
+  Index_res_baseline <- Index_res %>%
+    filter(Outliers == T & Outliers_coef == 10 & Trans_number == 0 & Prod_problems == F &
+             Product_select == F & Remove_double == T & Ponderation == T & Pond_log == F)
+  
+} else {
+
+  Index_smooth <- read.csv2("./scripts/Edouard/Index_results_Smooth.csv", row.names = NULL, dec = ",")
+  
+  Index_res_baseline <- Index_smooth
+
+}
+
+Type = "Imports"
+
+Index_res_baseline <- Index_res_baseline %>%
+  filter(Exports_imports == Type)
+
+
+Index_Marseille <- Index_res_baseline %>%
+  filter (Ville == "Marseille") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_Marseille" = "Index_value")
+
+Index_Bordeaux <- Index_res_baseline %>%
+  filter (Ville == "Bordeaux") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_Bordeaux" = "Index_value")
+
+Index_Nantes <- Index_res_baseline %>%
+  filter (Ville == "Nantes") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_Nantes" = "Index_value")
+
+Index_La_Rochelle <- Index_res_baseline %>%
+  filter (Ville == "La Rochelle") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_La_Rochelle" = "Index_value")
+
+Index_Rennes <- Index_res_baseline %>%
+  filter (Ville == "Rennes") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_Rennes" = "Index_value")
+
+Index_Bayonne <- Index_res_baseline %>%
+  filter (Ville == "Bayonne") %>%
+  select(c("year", "Index_value")) %>%
+  rename("Index_Bayonne" = "Index_value")
+
+
+Index_villes <- Index_Marseille %>%
+  full_join(Index_Bordeaux, by = "year") %>%
+  full_join(Index_La_Rochelle, by = "year") %>%
+  full_join(Index_Nantes, by = "year") %>%
+  full_join(Index_Bayonne, by = "year") %>%
+  full_join(Index_Rennes, by = "year") %>%
+  arrange(year)
+  
+  
+
+
+library(urca)
+
+matrix_cointeg <- matrix(nrow = 6, ncol = 6,
+                         dimnames = list(names(Index_villes[,2:7]), names(Index_villes[,2:7])))
+
+for (i in 2:6) {
+  for (j in seq(i+1,7)) {
+    jotest = ca.jo(Index_villes[, c(i,j)], type = "trace", ecdet = "none", spec = "longrun")
+    res = summary(jotest)
+    
+    jotest_sign <- names(res@cval[2,])[c(res@teststat[2] > res@cval[2,1] & res@teststat[2] < res@cval[2,2],
+                                         res@teststat[2] > res@cval[2,2] & res@teststat[2] < res@cval[2,3],
+                                         res@teststat[2] > res@cval[2,3])]
+    
+    
+    if (length(jotest_sign) == 0){jotest_sign <- "Non Sign"}
+    
+    matrix_cointeg[i-1,j-1] = jotest_sign
+  }
+}
+
+print(matrix_cointeg)
 
 
 
