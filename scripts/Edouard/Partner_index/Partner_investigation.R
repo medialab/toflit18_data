@@ -129,11 +129,11 @@ summary(Reg_trend_categ)
 Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
 Index_partner_global <- Index_partner_global %>%
   mutate_if(is.character, as.factor) %>%
-  filter(Exports_imports == "Imports", Partner != "All")
+  filter(Exports_imports == "Exports", Partner != "All")
 
 plot(Index_partner_global$year, Index_partner_global$Index_value, type = "o")
 
 
 Reg_trend_partner_global <- lm(log(Index_value) ~ year + Partner + Partner*year ,
-                             data = subset(Index_partner_global, Exports_imports == "Imports"))
+                             data = subset(Index_partner_global, Exports_imports == "Exports"))
 summary(Reg_trend_partner_global)

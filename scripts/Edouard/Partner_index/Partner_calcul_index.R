@@ -117,7 +117,7 @@ Add_new_partner <- function(Partner = "All")
 
 
 
-source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
+source("./scripts/Edouard/Indice_global_scripts/Indice_global_filtre_ville.R")
 
 ### On cree aussi un index pour l'indice global
 

@@ -17,6 +17,8 @@ library(skedastic)
 library(hpiR)
 
 
+
+
 ### A définir: emplacement du working directory
 setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### setwd("/Users/Edouard/Dropbox (IRD)/IRD/Missions/Marchandises_18eme")
@@ -304,38 +306,55 @@ Filter_calcul_index <- function(Ville,  ### Choix du port d'étude
 
 
 ### Calcul de l'indice par la méthode de Guillaume Daudin
-
-
-### Calcul des pondérations
+# 
+# 
+# Data = Data_filtrage(Ville = "Marseille", Exports_imports = "Exports")
+# 
+# 
+# 
+# ### Calcul des pondérations
 # Product_pond <- Data %>%
 #   group_by(id_prod_simp) %>%
 #   summarize(Value_tot_log = log(sum(value)),
 #             Value_tot = sum(value))
 # 
-# ### On 
-# Product_pond$Value_part_log <- round(10000 * Product_pond$Value_tot_log / sum(Product_pond$Value_tot_log, na.rm = T)) 
-# Product_pond$Value_part <- round(10000 * Product_pond$Value_tot / sum(Product_pond$Value_tot, na.rm = T)) 
-# 
-# Data = Data_filtrage("Marseille", Exports_imports = "Exports")
+# ### On
+# Product_pond$Value_part_log <- round(10000 * Product_pond$Value_tot_log / sum(Product_pond$Value_tot_log, na.rm = T))
+# Product_pond$Value_part <- round(10000 * Product_pond$Value_tot / sum(Product_pond$Value_tot, na.rm = T))
 # 
 # 
 # Data = merge(Data, Product_pond, by = "id_prod_simp",
 #              all.x = T)
 # 
 # 
-# reg_vp_guillaume = lm(log(unit_price_metric) ~ factor(year) + factor(id_prod_simp),
-#                       weights = Value_part,
-#                       data = Data)
+# model = lm(log(unit_price_metric) ~ factor(year) + factor(id_prod_simp),
+#            weights = Part_value,
+#            data = Data)
+# 
+# reg_correction = lm(log(unit_price_metric) ~ factor(year) + factor(id_prod_simp),
+#                     weights = Data$Part_value / resid(model)**2,
+#                     data = Data)
+# 
+# plot(reg_correction$residuals)
+# 
+# white_lm(reg_correction)
 # 
 # 
 # ### BP test
 # reg_bptest <- lm(reg_vp_guillaume$residuals**2 ~ factor(Data$year) + factor(Data$id_prod_simp))
 # 
 # 
-# reg_vp_guillaume$coefficients[1] = 0
+# library(sandwich)
+# 
+# robust_reg = coeftest(model, vcov = sandwich)
+# 
+# 
+# 
+# 
+# reg_correction$coefficients[1] = 0
 # 
 # Index = data.frame("year" = as.numeric(levels(factor(Data$year))),
-#                    Index_value = 100*exp(reg_vp_guillaume$coefficients[1:length(levels(factor(Data$year)))]))
+#                    Index_value = 100*exp(reg_correction$coefficients[1:length(levels(factor(Data$year)))]))
 # 
 # plot(Index, type = "o")
 
