@@ -107,31 +107,7 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
   
-  ### Correction indice Ag
-  if (Correction_indice_Ag) {
-    ### Chargement de la base de données de la valeur de l'argent
-    Ag_value <- read.csv2("./scripts/Edouard/Silver_price/Silver_equivalent_of_the_lt_and_franc_(Hoffman).csv")
-    ### On fusionne les deux bases de données
-    bdd_courante <- merge(bdd_courante, Ag_value, "year" = "year", all.x = T)
-    ### On corrige les valeurs des prix
-    bdd_courante <- bdd_courante %>%
-      mutate(unit_price_metric = unit_price_metric * Value_of_livre,
-             value = value * Value_of_livre) %>%
-      select(-c("Value_of_livre"))
-    
-  }
-  
-  ### Calcule de la valeur totale du flux et du commerce initiale
-  Value_com_tot <- bdd_courante %>%
-    filter(best_guess_region_prodxpart == 1) %>%
-    filter(customs_region == Ville) %>%
-    filter(export_import == Exports_imports) %>%
-    group_by(year) %>%
-    summarize(Value_tot = sum(value, na.rm = T),
-              Flux_tot = n()) %>%
-    as.data.frame()
-      
-  
+
   ### Filtrage initiale de la base de données
   Data <- bdd_courante %>%
     select(c("year", "customs_region", "export_import", "partner_orthographic",
@@ -148,6 +124,8 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
     ### Création ID product_simplification et ID transaction
     mutate(id_prod_simp = as.numeric(product_simplification),
            id_trans = row_number()) %>%
+    ### Si aucun prix n'est affiché, on le complète par valeur /quantité
+    mutate(unit_price_metric = coalesce(unit_price_metric, value / quantities_metric)) %>%
     ### On enlève les transactions sans prix et les transactions avec un prix nul
     mutate(unit_price_metric = na_if(unit_price_metric, 0),
            quantities_metric = na_if(quantities_metric, 0)) %>%
@@ -162,6 +140,47 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   
   
   
+  ### Correction indice Ag
+  if (Correction_indice_Ag) {
+    ### Chargement de la base de données de la valeur de l'argent
+    Ag_value <- read.csv2("./scripts/Edouard/Silver_price/Silver_equivalent_of_the_lt_and_franc_(Hoffman).csv")
+    ### On fusionne les deux bases de données
+    bdd_courante <- merge(bdd_courante, Ag_value, "year" = "year", all.x = T)
+    ### On corrige les valeurs des prix
+    bdd_courante <- bdd_courante %>%
+      mutate(value = value * Value_of_livre) %>%
+      select(-c("Value_of_livre"))
+    
+  }
+  
+  
+  ### Calcule de la valeur totale du flux et du commerce initiale
+  Value_com_tot <- bdd_courante %>%
+    filter(best_guess_region_prodxpart == 1) %>%
+    filter(customs_region == Ville) %>%
+    filter(export_import == Exports_imports) %>%
+    group_by(year) %>%
+    summarize(Value_tot = sum(value, na.rm = T),
+              Flux_tot = n()) %>%
+    as.data.frame()
+  
+  
+  ### Correction indice Ag
+  if (Correction_indice_Ag) {
+    ### Chargement de la base de données de la valeur de l'argent
+    Ag_value <- read.csv2("./scripts/Edouard/Silver_price/Silver_equivalent_of_the_lt_and_franc_(Hoffman).csv")
+    ### On fusionne les deux bases de données
+    Data <- merge(Data, Ag_value, "year" = "year", all.x = T)
+    ### On corrige les valeurs des prix
+    Data <- Data %>%
+      mutate(unit_price_metric = unit_price_metric * Value_of_livre,
+             value = value * Value_of_livre) %>%
+      select(-c("Value_of_livre"))
+    
+  }
+  
+  
+  
   if(Product_sector != "All") {
     Data <- Data %>%
       filter(product_threesectors == Product_sector)
@@ -169,7 +188,6 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   
   
   if (Partner == "Europe_et_Mediterranee") {
-    print(Partner)
     Data <- Data %>%
       filter(partner_grouping %in% c("Allemagne", "Angleterre", "Espagne",
                                    "Flandre et autres états de l'Empereur",
@@ -178,7 +196,6 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   } 
   
   if (Partner == "Reste_du_monde") {
-    print(Partner)
     Data <- Data %>%
       filter(partner_grouping %in% c("Afrique", "Amériques", "Asie", "Etats-Unis d'Amérique", 
                                      "Monde", "Outre-mers"))

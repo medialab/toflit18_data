@@ -195,13 +195,14 @@ Plot_index <- function(Index, ### Choix du port d'étude
 ### puis calcul l'indice des prix, renvoie l'indice et le plot
 ### On renvoie également pour chaque année de calcul de l'indice la part du commerce considérée et la part du flux considérée
 
-Filter_calcul_index <- function(Exports_imports = "Imports",
-                                Product_sector = "All"
-                                Partner = "All") ### On conserve les Importations ou les Exportations
+Filter_calcul_index <- function(Exports_imports = "Imports", ### On conserve les Importations ou les Exportations
+                                Product_sector = "All",
+                                Partner = "All") 
 {
   ### Filtrage de la base de données avec la fonction du scrip Filtrage.R
   Data_filter <- Data_filtrage(Exports_imports = Exports_imports,
-                               Product_sector = Product_sector) ### On conserve les Importations ou les Exportations
+                               Product_sector = Product_sector,
+                               Partner = Partner) ### On conserve les Importations ou les Exportations
   
   
   ### Calcul de l'indice avec la fonction Calcul_index
@@ -247,9 +248,38 @@ Filter_calcul_index <- function(Exports_imports = "Imports",
 
 
 ### Lecture de la base de donnée courante. Conservation Exports ou Imports d'une ville
-Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sector) {
+Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sector, Partner) {
   ### On importe la base de données courante
   bdd_courante <- read.csv(unz("./base/bdd courante.csv.zip", "bdd courante.csv") , encoding = "UTF-8")
+  
+  
+  ### Filtrage initial de la base de données
+  Data <- bdd_courante %>%
+    select(c("year", "customs_region", "export_import", "partner_orthographic",
+             "product_simplification", "quantity_unit_metric", "quantities_metric", 
+             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", 
+             "product_threesectorsM", "partner_grouping")) %>%
+    mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
+    ### On selectionne uniquement les produits rangés par régions
+    filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
+    ### Les chaînes de charatères sont transformés en type facteur
+    mutate_if(is.character, as.factor) %>%
+    ### Si aucun prix n'est affiché, on le complète par valeur /quantité
+    mutate(unit_price_metric = coalesce(unit_price_metric, value / quantities_metric)) %>%
+    ### Création ID product_simplification et ID transaction
+    mutate(id_prod_simp = as.numeric(product_simplification),
+           id_trans = row_number()) %>%
+    ### On enlève les transactions sans prix et les transactions avec un prix nul
+    mutate(unit_price_metric = na_if(unit_price_metric, 0),
+           quantities_metric = na_if(quantities_metric, 0)) %>%
+    drop_na() %>%
+    ### On crée une dummy variable best_unit_metric qui pour chaque transaction vaut 1 
+    ### si la transacton est dans l'unité métrique la plus utilisée pour le produit
+    group_by(product_simplification) %>%
+    mutate(best_unit_metric = names(which.max(table(quantity_unit_metric)))) %>%
+    ungroup() %>%
+    as.data.frame() %>%
+    mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
   
   ### Correction indice Ag
   if (Correction_indice_Ag) {
@@ -259,8 +289,7 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sec
     bdd_courante <- merge(bdd_courante, Ag_value, "year" = "year", all.x = T)
     ### On corrige les valeurs des prix
     bdd_courante <- bdd_courante %>%
-      mutate(unit_price_metric = unit_price_metric * Value_of_livre,
-             value = value * Value_of_livre) %>%
+      mutate(value = value * Value_of_livre) %>%
       select(-c("Value_of_livre"))
     
   }
@@ -284,41 +313,50 @@ Read_bdd_courante <- function(Exports_imports, Correction_indice_Ag, Product_sec
   Value_com_tot <- merge(Value_com_tot, Value_com_tot_nat, "year" = "year", all.x = T)
   
   
-  ### Filtrage initial de la base de données
-  Data <- bdd_courante %>%
-    select(c("year", "customs_region", "export_import", "partner_orthographic",
-             "product_simplification", "quantity_unit_metric", "quantities_metric", 
-             "unit_price_metric", "value", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM")) %>%
-    mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
-    ### On selectionne uniquement les produits rangés par régions
-    filter(best_guess_region_prodxpart == 1, year >= 1718) %>%
-    ### Les chaînes de charatères sont transformés en type facteur
-    mutate_if(is.character, as.factor) %>%
-    ### Création ID product_simplification et ID transaction
-    mutate(id_prod_simp = as.numeric(product_simplification),
-           id_trans = row_number()) %>%
-    ### On enlève les transactions sans prix et les transactions avec un prix nul
-    mutate(unit_price_metric = na_if(unit_price_metric, 0),
-           quantities_metric = na_if(quantities_metric, 0)) %>%
-    drop_na() %>%
-    ### On crée une dummy variable best_unit_metric qui pour chaque transaction vaut 1 
-    ### si la transacton est dans l'unité métrique la plus utilisée pour le produit
-    group_by(product_simplification) %>%
-    mutate(best_unit_metric = names(which.max(table(quantity_unit_metric)))) %>%
-    ungroup() %>%
-    as.data.frame() %>%
-    mutate(best_unit_metric = best_unit_metric == quantity_unit_metric )
+  ### Correction indice Ag
+  if (Correction_indice_Ag) {
+    ### Chargement de la base de données de la valeur de l'argent
+    Ag_value <- read.csv2("./scripts/Edouard/Silver_price/Silver_equivalent_of_the_lt_and_franc_(Hoffman).csv")
+    ### On fusionne les deux bases de données
+    Data <- merge(Data, Ag_value, "year" = "year", all.x = T)
+    ### On corrige les valeurs des prix
+    Data <- Data %>%
+      mutate(unit_price_metric = unit_price_metric * Value_of_livre,
+             value = value * Value_of_livre) %>%
+      select(-c("Value_of_livre"))
+    
+  }
+  
+  
+
   
   if(Product_sector != "All") {
     Data <- Data %>%
       filter(product_threesectors == Product_sector)
   }
   
+  
+  if (Partner == "Europe_et_Mediterranee") {
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Allemagne", "Angleterre", "Espagne",
+                                     "Flandre et autres états de l'Empereur",
+                                     "Hollande", "France", "Italie", "Levant et Barbarie",
+                                     "Nord", "Portugal", "Suisse"))
+  } 
+  
+  if (Partner == "Reste_du_monde") {
+    Data <- Data %>%
+      filter(partner_grouping %in% c("Afrique", "Amériques", "Asie", "Etats-Unis d'Amérique", 
+                                     "Monde", "Outre-mers"))
+  }
+  
+  
   ### On conserve uniquement les données dans la meilleure unité
   Data <- Data %>%
     filter(best_unit_metric == T
            & export_import == Exports_imports) %>%
-    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", "product_threesectorsM"))
+    select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", 
+              "product_threesectorsM", "partner_grouping"))
   
   
   return(list(Data, Value_com_tot))

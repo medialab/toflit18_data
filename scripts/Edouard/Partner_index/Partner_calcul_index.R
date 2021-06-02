@@ -117,7 +117,7 @@ Add_new_partner <- function(Partner = "All")
 
 
 
-source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
+source("./scripts/Edouard/Indice_global_scripts/Indice_global_filtre_ville.R")
 
 ### On cree aussi un index pour l'indice global
 
@@ -151,7 +151,7 @@ Partner_index_global_calcul <- function()
 
 ### Ajout d'un nouveau secteur pour l'indice global
 
-Add_new_sector_global <- function(Partner = "All") 
+Add_new_partner_global <- function(Partner = "All") 
 {
   ### Création des titres des lignes
   Index_pond <-  data.frame("Exports_imports" = factor(),

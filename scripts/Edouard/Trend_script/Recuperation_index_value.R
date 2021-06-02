@@ -110,3 +110,18 @@ Recuperation_termes_echange <- function(Port = "Marseille")
   
   return(Termes_echange)
 }
+
+
+
+Recuperation_index_Smooth <- function(Port = "Marseille",
+                                      Type = "Imports")
+{
+  Index <- read.csv2("./scripts/Edouard/Index_results_Smooth.csv")
+  
+  Index <- Index %>%
+    filter(Ville == Port,
+           Exports_imports == Type) %>%
+    select("year", "Index_value", "Part_value", "Part_flux")
+  
+  return(Index)
+}

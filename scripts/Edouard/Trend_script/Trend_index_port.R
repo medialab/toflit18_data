@@ -34,7 +34,7 @@ for (Type in c("Imports", "Exports")) {
     
     for (Port in c("Marseille", "Bordeaux", "La Rochelle", "Nantes", "Bayonne", "Rennes")) {
       
-      Index <- Recuperation_Index_port(Port = Port, Type = Type)
+      Index <- Recuperation_index_Smooth(Port = Port, Type = Type)
       
       
       Index <- merge(Index, War_data_frame,
@@ -42,7 +42,7 @@ for (Type in c("Imports", "Exports")) {
                      all.x = T, all.y = F)
       
       
-      trend <- lm(log(Index_value) ~ War_non_ter + War_duree_non_ter, 
+      trend <- lm(log(Index_value) ~ year + War_var + War_duree, 
                   weight = Part_value, data = Index)
       
       
