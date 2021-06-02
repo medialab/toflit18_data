@@ -391,7 +391,7 @@ drop if _merge==2
 	
  drop _merge
  gen pour_tri = simplification+product_revolutionempire+product_simplification+export_import+customs_region+partner_grouping
- generate sortkey = ustrsortkeyex(pour_tri,  "fr",-1,2,-1,-1,-1,0,-1)
+ generate sortkey = ustrsortkeyex(pour_tri,  "fr",-1,1,-1,-1,-1,0,-1)
  sort sortkey
  drop sortkey pour_tri
  order simplification product_simplification product_revolutionempire export_import customs_region partner_grouping
