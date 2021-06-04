@@ -792,7 +792,7 @@ bandes de charrettes,1,7,,non,14055
 bandes de fer,4,6j,x,non,52401
 bandes de fer à tombereaux,1,6j,x,non,52401
 bandes de roues de fer,1,6j,x,non,52401
-bandes de tulle brodées,1,,,non,125
+bandes de tulle brodées,1,6j,,non,125
 bandes de tulles brodées,1,6j,,oui,52401
 bandes et barres de fer,4,6j,,non,52401
 bandoulières garnies d'argent,1,9a,,non,1580
@@ -5152,7 +5152,7 @@ crêpe et étoffe et passementerie et ruban de soie,11,6f,,non,16713
 crêpe et gaze et mouchoirs,6,6f,,non,16713
 crêpe et gaze et tulle,29,6f,x,non,16713
 crêpe et gaze et tulle de soie,144,6f,x,non,16713
-crêpe gaze et tulle de soie,2,,,non,125
+crêpe gaze et tulle de soie,2,6f,,non,125
 crêpe noir,1,6i,x,non,9183
 crêpe pour chapeaux,38,6i,x,non,9183
 crépine de soie,1,6f,,non,16713
@@ -6414,7 +6414,7 @@ eau de senteur de la reine de Hongrie,543,5,x,non,61950
 eau de senteur de lavande,7,5,x,non,61950
 eau de senteur de nard,1,5,x,oui,61950
 eau de senteur en flacons,1,5,x,non,61950
-eau de senteur et essence,2,,,non,125
+eau de senteur et essence,2,5,,non,125
 eau de senteur et quintessence,123,5,x,non,61950
 eau de senteur rose,2,5,x,non,61950
 eau de senteur sans alcool,3,5,,non,61950
@@ -10644,7 +10644,7 @@ jus de réglisse,815,0a,x,non,122241
 jus et sirop de cerise et de grenade,7,0a,,non,122241
 jus et sirop de cerise et de grenade avec nourritures,69,0a,,non,122241
 kalmouk,8,9c,,non,13117
-kalmouk de mauvaise qualité,1,,,non,125
+kalmouk de mauvaise qualité,1,9c,,non,125
 kichorchais,8,9c,,non,13117
 kicoutis,2,9c,,non,13117
 kirschwasser,3,1,,non,58564
@@ -10960,7 +10960,7 @@ laque sans bois,2,5,,non,61950
 lard,1091,0a,x,non,122241
 lard à larder,2,0a,x,non,122241
 lard du pays,1,0a,,non,122241
-lard et petit salé,1,,,non,125
+lard et petit salé,1,0a,,non,125
 lard et porcs salés,2,0a,,non,122241
 lard fumé,2,0a,x,non,122241
 lard grillé,2,0a,,non,122241
@@ -13694,7 +13694,7 @@ ouvrages de tabletterie,101,8,x,non,73927
 ouvrages de taillandier,6,6j,x,non,52401
 ouvrages de terre,13,6k,x,oui,22475
 ouvrages de terre cuite,213,6k,x,non,22475
-ouvrages de terre cuite et porcelaine,2,,,non,125
+ouvrages de terre cuite et porcelaine,2,6k,,non,125
 ouvrages de terre en postures,5,6k,,non,22475
 ouvrages de terre vernie,2,6k,,non,22475
 ouvrages de toile,18,6h,,non,15184
@@ -14103,8 +14103,8 @@ parfum,2,5,x,non,61950
 parfumerie,813,5,x,non,61950
 parfumerie à la valeur,1,5,,oui,61950
 parfumerie eau de senteur,70,5,x,non,61950
-parfumerie en essence,5,,,non,125
-parfumerie en pommade et poudre,4,,,non,125
+parfumerie en essence,5,5,,non,125
+parfumerie en pommade et poudre,4,5,,non,125
 parfumerie et eau spiritueuse,16,5,,non,61950
 parfumerie huile et essence,72,5,x,non,61950
 parfumerie mêlée de bois odorant ambre gris musc eau de senteur essence et huile odorante encens myrrhe poudre et pommade,13,5,x,non,61950
@@ -14245,7 +14245,7 @@ pattedrille,1,9c,,non,13117
 patterie,10,9c,,non,13117
 pattes d'ancre,6,6k,,non,22475
 pattes ou vieux chiffons,7,2,,non,131818
-paturage en gland de Chine,1,,,non,125
+paturage en gland de Chine,1,9c,,non,125
 paume,1,9c,,non,13117
 paumelle,12,6j,x,non,52401
 paumelle germée,5,2,x,non,131818
@@ -15354,9 +15354,8 @@ pipes de bois à fumer,2,8,,oui,73927
 pipes de bois pour fumer,2,8,,non,73927
 pipes de terre,7,8,,non,73927
 pipes de terre cuite,8,8,,oui,73927
-pipes de terre cuite et porcelaine,3,,,non,125
+pipes de terre cuite et porcelaine,3,8,,non,125
 pipes en bottes,6,8,,non,73927
-pipes et porcelaines,3,,,oui,125
 pipes muid,3,6b,,non,36468
 pipes sans émail à fumer de terre,1,8,,non,73927
 pipes vides,25,6b,,non,36468
@@ -16272,8 +16271,8 @@ poisson salé et frais,9,0a,x,non,122241
 poisson salé et mariné,13,0a,x,non,122241
 poisson salé morue accompagnée de ???,3,0a,x,non,122241
 poisson sec,11,0a,x,non,122241
-poissons salés,2,,,non,125
-poissons salés et secs,2,,,non,125
+poissons salés,2,0a,,non,125
+poissons salés et secs,2,0a,,non,125
 poivre,1733,0b,x,non,34420
 poivre à meules,1,0b,,non,34420
 poivre blanc,58,0b,x,non,34420
@@ -16372,7 +16371,7 @@ poopee ?,1,9c,,non,13117
 popeline,17,6f,,non,16713
 popeline de coton et soie,2,6f,,non,16713
 popeline de filoselle,1,6f,,non,16713
-popeline de laine,1,,,non,125
+popeline de laine,1,6e,,non,125
 popeline de soie,1,6f,,oui,16713
 popeline des prises,1,6f,,non,16713
 populeum,4,5,x,non,61950
@@ -16414,8 +16413,8 @@ porcs gras et maigres,1,0a,x,non,122241
 porcs maigres,20,0a,x,non,122241
 porcs maigres salés,2,0a,,non,122241
 porcs poulets,2,0a,x,non,122241
-porcs salé,1,,,non,125
-porcs salé et petit salé,1,,,non,125
+porcs salé,1,0a,,non,125
+porcs salé et petit salé,1,0a,,non,125
 porcs salés,381,0a,,non,122241
 porcs tués,1,0a,,non,122241
 porcs tués petits,1,0a,,non,122241
@@ -16641,7 +16640,7 @@ poutines,1,9c,,non,13117
 poutreaux,24,6b,x,non,36468
 poutreaux de 12 pieds,0,6b,,non,36468
 poutreaux de 9 pieds,0,6b,,non,36468
-poutreaux de bois,1,,,non,125
+poutreaux de bois,1,6b,,non,125
 poutreaux de chêne,2,6b,,non,36468
 poutreaux de sapin,12,6b,x,non,36468
 poutreaux de sapin de 10 pieds,0,6b,,non,36468
@@ -16749,7 +16748,7 @@ prunes fraîches de ???,0,0a,,non,122241
 prunes noires,2,0a,,non,122241
 prunes pêches cerises nèfles etc.,125,0a,x,non,122241
 prunes sèches,70,0a,x,non,122241
-prunes sèches et communes,1,,,non,125
+prunes sèches et communes,1,0a,,non,125
 prusses,1,9c,,non,13117
 prusses de 30 pieds,1,9c,,non,13117
 prussiate de potasse,3,5,,non,61950
@@ -16758,7 +16757,7 @@ prusus,1,9c,,non,13117
 psalterion,5,8,x,non,73927
 pupitre,1,8,x,non,73927
 pyrèthre,13,2,,non,131818
-pyrèthre racine,1,,,non,125
+pyrèthre racine,1,2,,non,125
 pyrèthre racines,1,2,,oui,131818
 pysolles,1,9c,,non,13117
 quadrilles,2,9c,,non,13117
@@ -17522,7 +17521,7 @@ salpêtre raffiné,75,2,,non,131818
 salsepareille,869,0a,x,non,122241
 salsola,1,9c,,non,13117
 sament,1,9c,,non,13117
-samoine,1,,,non,125
+samoine,1,9c,,non,125
 sanas,14,6g,x,non,16918
 sanas blanc,3,6g,,non,16918
 sanctuaire,3,8,,non,73927
@@ -17588,7 +17587,7 @@ sardines pressées et salées,5,0a,,non,122241
 sardines salées,237,0a,x,non,122241
 sareaux de toile,3,8,,non,73927
 sarrions d'espars,2,7,,non,14055
-sassafars,1,,,oui,125
+sassafars,1,2,,oui,125
 sassafras,147,2,x,non,131818
 sasses,23,6j,,non,52401
 satin,127,6f,x,non,16713
@@ -17619,7 +17618,7 @@ satin de soie,58,6f,x,non,16713
 satin des Indes,3,6f,,non,16713
 satin fil,2,6f,,non,16713
 satin gris,1,6f,x,non,16713
-satin imprimé de laine,1,,,non,125
+satin imprimé de laine,1,6e,,non,125
 satin noir,1,6f,,non,16713
 satin pur coton,2,6g,,non,16918
 satin pur soie,1,6f,,non,16713
@@ -18488,7 +18487,7 @@ sucre blanc et tabatières de bergamote,1,0b,,non,34420
 sucre blanc terré et têtes,20,0b,,non,34420
 sucre brun,83,0b,x,non,34420
 sucre brun brut,3,0b,,non,34420
-sucre brun en pain et terré,1,,,non,125
+sucre brun en pain et terré,1,0b,,non,125
 sucre brun prix bas,15,0b,x,non,34420
 sucre brut,1684,0b,x,non,34420
 sucre brut autre que blanc,6,0b,,non,34420
@@ -18598,7 +18597,7 @@ suif en poil,1,4,x,non,18465
 suif en rames,14,4,x,non,18465
 suif en vessie,1,4,,non,18465
 suif fondu,71,4,x,non,18465
-suif fondu et en chandelle,3,,,non,125
+suif fondu et en chandelle,3,4,,non,125
 suif pour faire du savon,0,4,x,non,18465
 suif pour raffiner le cuivre,4,4,x,non,18465
 suif soudes,9,9b,x,non,62011
@@ -19245,7 +19244,7 @@ thé ???,2,0b,x,non,34420
 the bou,1,0b,x,non,34420
 thé bou,43,0b,x,non,34420
 thé cambou,10,0b,,non,34420
-thé de mauvaise qualité,1,,,non,125
+thé de mauvaise qualité,1,0b,,non,125
 thé des entrepôts,0,0b,,non,34420
 thé des Indes,14,0b,x,non,34420
 thé en fleurs blanc,1,0b,,non,34420
@@ -19307,7 +19306,7 @@ tires-bouchons d'acier,1,6j,,non,52401
 tiretaine,14,6i,x,non,9183
 tiretaine de laine,2,6e,,non,20947
 tiretaine et miselaine,90,9c,,non,13117
-tiretaine grosse de fil,1,,,non,125
+tiretaine grosse de fil,1,6h,,non,125
 tissus de laine,3,6e,,non,20947
 tissus de poils,3,6e,,non,20947
 tobines,1,6f,,non,16713
@@ -19558,7 +19557,7 @@ toile corot simple,1,6g,,non,16918
 toile cotonnade,5,6g,x,non,16918
 toile cotonnade commune,4,6g,,non,16918
 toile cotonnade fine,3,6g,,non,16918
-toile cotonnade sur fil grossière,1,,,non,125
+toile cotonnade sur fil grossière,1,6h,,non,125
 toile cottray,44,6h,x,non,15184
 toile coupis,12,6g,,non,16918
 toile coupis imitant celle des Indes,1,6g,,non,16918
@@ -19835,7 +19834,7 @@ toile de Cholet à carreaux,1,6d,,non,22995
 toile de Clisson,1,6h,,non,15184
 toile de Combourg,47,6h,x,non,15184
 toile de Comté,6,6h,x,non,15184
-toile de corda,1,,,non,125
+toile de corda,1,6h,,non,125
 toile de cordat,2,6e,x,oui,20947
 toile de coton,1264,6g,x,non,16918
 toile de coton ???,1,6g,x,non,16918
@@ -20125,7 +20124,7 @@ toile de Suvignan,1,6h,,non,15184
 toile de table,2,6d,,non,22995
 toile de treillis,2,6d,,non,22995
 toile de Troyes,12,6h,,non,15184
-toile de Valeby,1,,,non,125
+toile de Valeby,1,6h,,non,125
 toile de Valenciennes,43,6h,x,non,15184
 toile de Vigery,1,6h,,non,15184
 toile de ville,1,6h,,non,15184
@@ -20202,7 +20201,7 @@ toile fine de lin,79,6d,,non,22995
 toile fine de lin de Valenciennes,6,6d,,non,22995
 toile fine et large,1,6h,,non,15184
 toile fine rousse,1,6h,,non,15184
-toile forte,1,,,non,125
+toile forte,1,6h,,non,125
 toile française,4,6h,,non,15184
 toile futaine,3,6g,,non,16918
 toile galcienne de lin,1,6d,,non,22995
@@ -20250,8 +20249,8 @@ toile guingans des Indes,2,6g,,non,16918
 toile guingans des prises,1,6g,,non,16918
 toile guingans du Bengale,8,6g,,non,16918
 toile guingans nationale,5,6g,,non,16918
-toile hamacs,7,6i,,non,9183
-toile hamacs imitant celles des Indes,1,,,non,125
+toile hamacs,7,6h,,non,9183
+toile hamacs imitant celles des Indes,1,6h,,non,125
 toile hivre,1,6h,,non,15184
 toile hollande,1,6h,,non,15184
 toile Hollande de Paris,2,6h,,non,15184
@@ -20280,8 +20279,8 @@ toile large,38,6d,,non,22995
 toile lavée,3,6h,x,non,15184
 toile lesat,1,6h,,non,15184
 toile linon,92,6h,x,non,15184
-toile linon de Saint-Quentin,1,,,non,125
-toile livée,1,,,non,125
+toile linon de Saint-Quentin,1,6h,,non,125
+toile livée,1,6h,,non,125
 toile lizat,3,6h,,non,15184
 toile lustrée,12,6h,x,non,15184
 toile manche,1,6h,x,non,15184
@@ -20423,7 +20422,7 @@ toile teinte de 13 à 20 fils,2,6h,,non,15184
 toile teinte de 20 fils et au-dessus,3,6h,,non,15184
 toile teinte de 8 à 13 fils,2,6h,,non,15184
 toile teinte de moins de 8 fils,2,6h,,non,15184
-toile tellier,1,,,non,125
+toile tellier,1,6h,,non,125
 toile tissée,1,6h,,non,15184
 toile tissée très fin,75,6h,x,non,15184
 toile treillis,121,6h,x,non,15184
@@ -20469,7 +20468,7 @@ tombereaux,18,7,,non,14055
 tombereaux et voitures,3,7,,non,14055
 tondelle,1,2,x,non,131818
 tondures de drap,4,2,x,non,131818
-tonge,1,,,non,125
+tonge,1,9c,,non,125
 tonneaux,3,6b,,non,36468
 tonneaux à l'eau cerclés de fer,2,6b,x,non,36468
 tonneaux cercles de bois,17,6b,,non,36468
@@ -20790,7 +20789,7 @@ vermillon de tasse,1,5,,non,61950
 vermillon en grabeau,1,5,,non,61950
 vernis,198,5,x,non,61950
 vernis à peindre,7,5,,non,61950
-vernis clair,1,,,non,125
+vernis clair,1,5,,non,125
 vernis de terre,2,5,,non,61950
 vernis liquide,1,5,,non,61950
 vernis massé,1,5,,non,61950
@@ -20808,7 +20807,7 @@ verrerie de Baume,1,6k,x,non,22475
 verrerie diverse,159,6k,x,oui,22475
 verrerie en boucaut,1,6k,x,non,22475
 verrerie en bouteilles,11,6k,x,non,22475
-verrerie ordinaire,75,,,non,125
+verrerie ordinaire,75,6k,,non,125
 verres,450,6k,x,non,22475
 verres ??? d'estampes,2,6k,x,non,22475
 verres à boire,520,6k,x,non,22475
