@@ -2232,8 +2232,6 @@ bouteilles et muids et pintes,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,
 bouteilles et muids et pintes,vin de Bourgogne,Vins divers,Exports,,Allemagne,,,
 bouteilles et muids et pintes,vin de Champagne,Vins divers,Exports,,Allemagne,,,
 bouteilles ou le livres,verres à boire,Verrerie,Imports,La Rochelle,Nord,,,
-bouteilles,,[vide],Export,,,,,
-bouteilles,,[vide],Export,,Asie,,,
 bouteilles,bière d'Angleterre,"Bière, cidre et vinaigre",Imports,Marseille,Hollande,,,
 bouteilles,bière en bouteille,"Bière, cidre et vinaigre",Exports,,Asie,,,
 bouteilles,bière en bouteille,"Bière, cidre et vinaigre",Exports,,Outre-mers,,,
@@ -2424,6 +2422,8 @@ bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Afrique,,,
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Amériques,,,
 bouteilles,liqueurs fines,Eaux-de-vie et liqueurs,Imports,Nantes,Amériques,,,
+bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
+bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Afrique,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Amériques,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,Bayonne,Amériques,,,
@@ -3130,6 +3130,7 @@ bouteilles,vin rouge,Vins divers,Imports,Bordeaux,Hollande,,,
 bouteilles,vin rouge,Vins divers,Imports,Marseille,Italie,,,
 bouteilles,vin rouge,Vins divers,Imports,Nantes,Hollande,,,
 bouteilles,vin Tinto,Vins divers,Imports,Marseille,Espagne,,,
+bouteilles,vin,Vins divers,Export,,,,,
 bouteilles,vin,Vins divers,Export,,Asie,,,
 bouteilles,vin,Vins divers,Exports,Amiens,Angleterre,,,
 bouteilles,vin,Vins divers,Exports,,Asie,,,
@@ -3897,8 +3898,6 @@ muids encerclés,étain des Indes,Étain,Imports,Rouen,Hollande,,,
 muids encerclés,vin de Bourgogne,Vins divers,Exports,Rouen,Espagne,,,
 muids encerclés,vin de Bourgogne,Vins divers,Exports,Rouen,Portugal,,,
 muids encerclés,vin de Champagne,Vins divers,Exports,Rouen,Espagne,,,
-muids,,[vide],Export,,,,,
-muids,,[vide],Export,,Asie,,,
 muids,argenterie,Argenterie et orfèvrerie,Exports,La Rochelle,Asie,,,
 muids,vaisselle d'argent,Argenterie et orfèvrerie,Exports,Rouen,Espagne,,,
 muids,bière en muid,"Bière, cidre et vinaigre",Exports,,Asie,litres,268.21439,D'après Portet
@@ -4458,6 +4457,8 @@ muids,liqueurs diverses,Eaux-de-vie et liqueurs,Imports,,Suisse,litres,268.21439
 muids,liqueurs et rhum,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
+muids,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
+muids,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,France,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,Nord,litres,268.21439,D'après Portet
