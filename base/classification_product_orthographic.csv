@@ -6216,7 +6216,7 @@ Bois; violet,1,1,bois violet,,non,25
 Boiseries,2,2,boiseries,,non,4
 Boisserie,1,1,boiseries,,non,4
 Boisseries,1,1,boiseries,,non,4
-Boisson bierre,11,11,,,non,675
+Boisson bierre,11,11,boissons bière,,non,675
 Boisson gazeuse à la salsepareille,0,3,boissons gazeuses à la salsepareille,,non,3
 Boissons,1,1,boissons,,non,1
 Boissons ; bierre et cidre,15,15,boissons bière et cidre,,non,15
@@ -6233,15 +6233,15 @@ Boissons cidre,0,0,boissons cidre,,oui,4
 Boissons distillées de grains,1,1,boissons distillées de grains,,non,1
 Boissons Eau de vie,4,4,boissons eau-de-vie,,non,24
 Boissons eau de vie,0,0,boissons eau-de-vie,,oui,24
-Boissons eaux de vie,7,7,,,non,675
+Boissons eaux de vie,7,7,boissons eau-de-vie,,non,675
 Boissons Liqueur,2,2,boissons liqueurs,,non,19
 Boissons liqueurs diverses,0,0,boissons liqueurs diverses,,oui,0
-Boissons liqueurs diverses et sirop,5,5,,,non,675
+Boissons liqueurs diverses et sirop,5,5,boissons liqueurs diverses et sirops,,non,675
 Boissons Vins de Bordeaux,6,6,boissons vin de Bordeaux,,non,18
-Boissons vins de Bordeaux,11,11,,,non,675
+Boissons vins de Bordeaux,11,11,boissons vin de Bordeaux,,non,675
 Boissons vins de bordeaux,0,0,boissons vin de Bordeaux,,oui,18
 Boissons Vins de Liqueurs,4,4,boissons vin de liqueurs,,non,13
-Boissons vins de liqueurs,6,6,,,non,675
+Boissons vins de liqueurs,6,6,boissons vin de liqueurs,,non,675
 Boissons vins de liqueurs et divers,0,0,boissons vin de liqueurs et divers,,oui,0
 Boissons Vins divers,4,4,boissons vin divers,,non,15
 Boissons vins divers,11,11,boissons vin divers,,non,15
@@ -12567,8 +12567,8 @@ Comestibles ; pâtes d'Italie et vermichel,4,4,comestibles pâte d'Italie et ver
 Comestibles ; ris,4,4,comestibles riz,,non,17
 Comestibles ; riz,9,9,comestibles riz,,non,17
 Comestibles ; saindoux,3,3,comestibles saindoux,,non,3
-Comestibles ais,4,4,,,non,675
-Comestibles amandes cassées et en coques,5,5,,,non,675
+Comestibles ris,4,4,comestibles ris,,non,675
+Comestibles amandes cassées et en coques,5,5,comestibles amandes cassées,,non,675
 Comestibles Beurre,2,2,comestibles beurre,,non,10
 Comestibles beurre,6,6,comestibles beurre,,non,10
 Comestibles beurre salé,8,8,comestibles beurre salé,,non,23
@@ -12578,7 +12578,7 @@ Comestibles biscuits,2,2,comestibles biscuit,,non,21
 Comestibles café,1,1,comestibles café,,non,1
 Comestibles chairs salées Boeuf,2,2,comestibles chair salée bœuf,,non,2
 Comestibles chairs salées boeuf,0,0,comestibles chair salée bœuf,,oui,2
-Comestibles chairs salées boeuf salé,6,6,,,non,675
+Comestibles chairs salées boeuf salé,6,6,comestibles chair salée bœuf salé,,non,675
 Comestibles chairs salées cochon,0,0,comestibles chair salée cochon,,oui,0
 Comestibles chairs salées Cochon et petit salé,1,1,comestibles chair salée cochon et petit salé,,non,1
 Comestibles chairs salées diverse,3,3,comestibles chair salée diverse,,non,14
@@ -12586,28 +12586,28 @@ Comestibles chairs salées diverses,5,5,comestibles chair salée diverse,,non,14
 Comestibles chairs salées Jambon,3,3,comestibles chair salée jambon,,non,9
 Comestibles chairs salées jambon,6,6,comestibles chair salée jambon,,non,9
 Comestibles chairs salées Lard,2,2,comestibles chair salée lard,,non,2
-Comestibles chairs salées lard,6,6,,,non,675
-Comestibles chairs salées porc salé et petit salé,5,5,,,non,675
+Comestibles chairs salées lard,6,6,comestibles chair salée lard,,non,675
+Comestibles chairs salées porc salé et petit salé,5,5,comestibles chair salée porc salé et petit salé,,non,675
 Comestibles Chocolat,1,1,comestibles chocolat,,non,1
 Comestibles de toutes sortes,1,1,comestibles de toute sorte,,non,1
 Comestibles divers,35,35,comestibles divers,,non,57
 Comestibles farine,7,7,comestibles farine,,non,30
 Comestibles farine de gruau,0,0,comestibles farine de gruau,,oui,0
 Comestibles Farine et Gruau,3,3,comestibles farine et gruau,,non,3
-Comestibles farine et gruau,5,5,,,non,675
+Comestibles farine et gruau,5,5,comestibles farine et gruau,,non,675
 Comestibles fromage,1,1,comestibles fromage,,non,19
 Comestibles Fromages,3,3,comestibles fromage,,non,19
 Comestibles fromages,2,2,comestibles fromage,,non,19
-Comestibles fromages de toutes sortes,6,6,,,non,675
-Comestibles grains comestibles divers,6,6,,,non,675
-Comestibles huile d'olives,6,6,,,non,675
+Comestibles fromages de toutes sortes,6,6,comestibles fromage de toutes sortes,,non,675
+Comestibles grains comestibles divers,6,6,comestibles graines comestibles diverses,,non,675
+Comestibles huile d'olives,6,6,comestibles huile d’olive,,non,675
 Comestibles Lard et petit salé,0,0,comestibles lard et petit salé,,oui,0
 Comestibles Légumes,2,2,comestibles légumes,,non,2
 Comestibles légumes divers,6,6,comestibles légumes divers,,non,6
-Comestibles morues salées,6,6,,,non,675
+Comestibles morues salées,6,6,comestibles morues salées,,non,675
 Comestibles poisson salé et sec,0,0,comestibles poissons salés et secs,,oui,0
 Comestibles Poissons salés de toutes sortes,2,2,comestibles poissons salés de toute sorte,,non,2
-Comestibles poissons salés divers,6,6,,,non,675
+Comestibles poissons salés divers,6,6,comestibles poissons salés divers,,non,675
 Comestibles ris,3,3,comestibles riz,,non,17
 Comestibles riz,1,1,comestibles riz,,non,17
 Comestibles Sel,1,1,comestibles sel,,non,1
@@ -17933,11 +17933,11 @@ Drogueries diverses pour la Peinture et la teinture,1,1,droguerie diverse pour l
 Drogueries diverses pour la peinture et teinture,2,2,droguerie diverse pour les peintures et la teinture,,non,3
 Drogueries en epiceries,2,2,droguerie en épicerie,,non,2
 Drogueries et épiceries,1,1,droguerie et épicerie,,non,2
-Drogueries et épiceries diverses,6,6,,,non,675
-Drogueries et épiceries épiceries diverses,6,6,,,non,675
-Drogueries et épiceries huiles à bruler,6,6,,,non,675
-Drogueries et épiceries suif en chandeles,6,6,,,non,675
-Drogueries et épiceries suif fondu,6,6,,,non,675
+Drogueries et épiceries diverses,6,6,droguerie et épicerie diverse,,non,675
+Drogueries et épiceries épiceries diverses,6,6,droguerie et épicerie diverse épicerie diverse,,non,675
+Drogueries et épiceries huiles à bruler,6,6,droguerie et épicerie huile à brûler,,non,675
+Drogueries et épiceries suif en chandeles,6,6,droguerie et épicerie suif en chandelle,,non,675
+Drogueries et épiceries suif fondu,6,6,droguerie et épicerie suif fondu,,non,675
 Drogueries fines,8,8,droguerie fine,,non,10
 Drogueries gomme arabique,3,3,droguerie gomme arabique,,non,14
 Drogueries gomme gutte,3,3,droguerie gomme gutte,,non,3
@@ -20090,7 +20090,7 @@ Ecorces de grenade,2,2,écorce de grenade,,non,13
 Ecorces de magellan,0,2,écorce de Magellan,,non,2
 Ecorces de Pin,1,1,écorce de pin,,non,2
 Ecorces de tilleul,0,45,écorce de tilleul,,non,52
-Écorces de tilleul pour cordages,2,2,écorce de tilleul pour cordages,,non,2
+Écorces de tilleul pour cordages,2,2,écorce de tilleul pour cordage,,non,2
 Ecorces diverses,10,10,écorce diverse,,non,10
 Ecorces doranges seches,1,1,écorce d'orange sèche,,non,115
 Ecorces par tannerie,4,4,écorce pour tannerie,,non,9
@@ -22715,7 +22715,7 @@ Etoupes de chanvre,41,41,étoupes de chanvre,,non,207
 Etoupes de chanvres,4,4,étoupes de chanvre,,non,207
 Etoupes de lin,1,1,étoupes de lin,,non,15
 Etoupes de soye,28,28,étoupes de soie,,non,84
-Etoupes de vieux cordages,1,1,étoupes de vieux cordages,,non,1
+Etoupes de vieux cordages,1,1,étoupes de vieux cordage,,non,1
 Etoupes en soye,1,1,étoupes de soie,,non,84
 Etoupes noires,4,4,étoupes noires,,non,10
 Etouppe de laine,0,3,étoupes de laine,,non,3
@@ -35516,25 +35516,25 @@ Métaux divers en fer plomb et cuivre,1,1,métal divers en fer plomb et cuivre,,
 "Métaux dorés, argenté, vernissés, etc",2,2,métal doré argenté vernissé etc,,non,2
 Métaux en plomb,1,1,métal en plomb,,non,1
 Métaux réunis,19,19,métal réuni,,non,19
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires ardoises",4,4,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois de construction",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et oziers",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois mérain",4,4,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires Bray gras goudron et résine",5,5,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires carreaux, marbres, chaux, pierre à bâtir",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires charbon de terre",8,8,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cordages",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cuivres en planches, feuilles, ouvré",5,5,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires étain",5,5,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles, ouvré",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer de fonte, brut, ouvré",11,11,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard",11,11,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer en clous",6,6,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fil à voiles",4,4,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche",5,5,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires jeux de voiles",5,5,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes",7,7,,,non,675
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires toiles à voiles",10,10,,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires ardoises",4,4,métaux matériaux à bâtir et articles propres à l'équipement des navires ardoise,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois de construction",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires bois de constuction,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et oziers",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et osiers,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois mérain",4,4,métaux matériaux à bâtir et articles propres à l'équipement des navires bois mérain,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires Bray gras goudron et résine",5,5,métaux matériaux à bâtir et articles propres à l'équipement des navires brai gras goudron et résine,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires carreaux, marbres, chaux, pierre à bâtir",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires carreaux marbre chaux pierres à bâtir,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires charbon de terre",8,8,métaux matériaux à bâtir et articles propres à l'équipement des navires charbon de terre,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cordages",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires cordage,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cuivres en planches, feuilles, ouvré",5,5,métaux matériaux à bâtir et articles propres à l'équipement des navires cuivre en planches feuilles ouvré,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires étain",5,5,métaux matériaux à bâtir et articles propres à l'équipement des navires étain,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles, ouvré",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles ouvré,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer de fonte, brut, ouvré",11,11,métaux matériaux à bâtir et articles propres à l'équipement des navires fer de fonte brut ouvré,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard",11,11,métaux matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer en clous",6,6,métaux matériaux à bâtir et articles propres à l'équipement des navires fer en clous,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fil à voiles",4,4,métaux matériaux à bâtir et articles propres à l'équipement des navires fil à voile,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche",5,5,métaux matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires jeux de voiles",5,5,métaux matériaux à bâtir et articles propres à l'équipement des navires jeux de voile,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes",7,7,métaux matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes,,non,675
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires toiles à voiles",10,10,métaux matériaux à bâtir et articles propres à l'équipement des navires toiles à voile,,non,675
 Méteil,1,1,méteil,,non,2
 Methe,1,1,methe,x,non,1
 Metier ; à faire bas,1,1,métiers à faire bas,,non,20
@@ -37554,40 +37554,40 @@ Objets d'histoire naturelle,1,1,objets d'histoire naturelle,,non,1
 Objets d'industrie,1,1,objets d'industrie,,non,1
 Objets d'industrie ; divers,3,3,objets d'industrie divers,,non,3
 Objets d'industrie : marchandises non dénommées,1,1,objets d'industrie marchandises non dénommées,,non,1
-Objets d'industrie argenterie et bijouterie,5,5,,,non,675
-"Objets d'industrie armes blanches, à feu et artillerie",5,5,,,non,675
-Objets d'industrie bougies de table,6,6,,,non,675
-Objets d'industrie cartes à jouer,4,4,,,non,675
-Objets d'industrie cauris,1,1,,,non,675
-Objets d'industrie caves et canevettes avec leurs flacons,1,1,,,non,675
-Objets d'industrie corail ouvré,1,1,,,non,675
-Objets d'industrie coutellerie,3,3,,,non,675
-Objets d'industrie cuirs divers,4,4,,,non,675
-Objets d'industrie fayence et poterie,6,6,,,non,675
-Objets d'industrie fils à coudre et autre,5,5,,,non,675
-Objets d'industrie gants de peau divers,4,4,,,non,675
-Objets d'industrie hardes diverses,6,6,,,non,675
-Objets d'industrie harnais de cuir et cellerie,4,4,,,non,675
-Objets d'industrie instruments propres aux arts libéraux,4,4,,,non,675
-Objets d'industrie librairie,4,4,,,non,675
-Objets d'industrie liège en bouchons,6,6,,,non,675
-Objets d'industrie lingerie de toutes sortes,6,6,,,non,675
-Objets d'industrie mercerie,6,6,,,non,675
-Objets d'industrie meubles divers,6,6,,,non,675
-Objets d'industrie ouvrages de modes,5,5,,,non,675
-Objets d'industrie ouvrages divers,6,6,,,non,675
-Objets d'industrie papeterie de toutes sortes,5,5,,,non,675
-Objets d'industrie parasols de soie,5,5,,,non,675
-Objets d'industrie parfumerie diverse,5,5,,,non,675
-Objets d'industrie peaux et pelleteries,5,5,,,non,675
-Objets d'industrie poudres et salpêtres,3,3,,,non,675
-Objets d'industrie quincailleries de toutes espèces,6,6,,,non,675
-Objets d'industrie rassades et verreries,4,4,,,non,675
-Objets d'industrie souliers et bottes de toutes espèces,5,5,,,non,675
-Objets d'industrie soye à coudre,4,4,,,non,675
-Objets d'industrie tabac de toutes espèces,4,4,,,non,675
-Objets d'industrie verrerie de toutes espèces,6,6,,,non,675
-Objets d'industrie voitures,4,4,,,non,675
+Objets d'industrie argenterie et bijouterie,5,5,objects d'industrie argenterie et bijouterie,,non,675
+"Objets d'industrie armes blanches, à feu et artillerie",5,5,objects d'industrie armes blanches à feu et artillerie,,non,675
+Objets d'industrie bougies de table,6,6,objects d'industrie bougies de table,,non,675
+Objets d'industrie cartes à jouer,4,4,objects d'industrie cartes à jouer,,non,675
+Objets d'industrie cauris,1,1,objects d'industrie cauris,,non,675
+Objets d'industrie caves et canevettes avec leurs flacons,1,1,objects d'industrie caves et canevettes avec leurs flacons,,non,675
+Objets d'industrie corail ouvré,1,1,objects d'industrie corail ouvré,,non,675
+Objets d'industrie coutellerie,3,3,objects d'industrie coutellerie,,non,675
+Objets d'industrie cuirs divers,4,4,objects d'industrie cuirs divers,,non,675
+Objets d'industrie fayence et poterie,6,6,objects d'industrie faïence et poterie,,non,675
+Objets d'industrie fils à coudre et autre,5,5,objects d'industrie fils à coudre et autre,,non,675
+Objets d'industrie gants de peau divers,4,4,objects d'industrie gants de peau divers,,non,675
+Objets d'industrie hardes diverses,6,6,objects d'industrie hardes diverses,,non,675
+Objets d'industrie harnais de cuir et cellerie,4,4,objects d'industrie harnais de cuir et cellerie,,non,675
+Objets d'industrie instruments propres aux arts libéraux,4,4,objects d'industrie instruments propres aux arts libéraux,,non,675
+Objets d'industrie librairie,4,4,objects d'industrie librairie,,non,675
+Objets d'industrie liège en bouchons,6,6,objects d'industrie liège en bouchons,,non,675
+Objets d'industrie lingerie de toutes sortes,6,6,objects d'industrie lingerie de toutes sortes,,non,675
+Objets d'industrie mercerie,6,6,objects d'industrie mercerie,,non,675
+Objets d'industrie meubles divers,6,6,objects d'industrie meubles divers,,non,675
+Objets d'industrie ouvrages de modes,5,5,objects d'industrie ouvrages de modes,,non,675
+Objets d'industrie ouvrages divers,6,6,objects d'industrie ouvrages divers,,non,675
+Objets d'industrie papeterie de toutes sortes,5,5,objects d'industrie papeterie de toutes sortes,,non,675
+Objets d'industrie parasols de soie,5,5,objects d'industrie parasols de soie,,non,675
+Objets d'industrie parfumerie diverse,5,5,objects d'industrie parfumerie diverse,,non,675
+Objets d'industrie peaux et pelleteries,5,5,objects d'industrie peaux et pelleterie,,non,675
+Objets d'industrie poudres et salpêtres,3,3,objects d'industrie poudre et salpêtre,,non,675
+Objets d'industrie quincailleries de toutes espèces,6,6,objects d'industrie quincaillerie de toutes espèces,,non,675
+Objets d'industrie rassades et verreries,4,4,objects d'industrie rassades et verrerie,,non,675
+Objets d'industrie souliers et bottes de toutes espèces,5,5,objects d'industrie souliers et bottes de toutes espèces,,non,675
+Objets d'industrie soye à coudre,4,4,objects d'industrie soie à coudre,,non,675
+Objets d'industrie tabac de toutes espèces,4,4,objects d'industrie tabac de toutes espèces,,non,675
+Objets d'industrie verrerie de toutes espèces,6,6,objects d'industrie verrerie de toutes espèces,,non,675
+Objets d'industrie voitures,4,4,objects d'industrie voitures,,non,675
 Objets de collection,2,2,objets de collection,,non,5
 "Objets de collection ; peinture, sculpture, gravure et histoire naturelle",18,18,objets de collection peintures sculpture gravures et histoire naturelle,,non,35
 "Objets de collection en peinture, sculpture, gravure et histoire naturelle",19,19,objets de collection en peintures sculpture gravures et histoire naturelle,,non,19
@@ -37600,7 +37600,7 @@ Objets de peu d'importance,2,2,objets de moindre valeur,,non,22
 Objets de peu de valeur,6,6,objets de peu d'importance,,non,6
 Objets divers,44,44,objets de peu de valeur,,non,44
 Objets divers a la Valeur,2,2,objets divers à la valeur,,non,2
-Objets divers à la valeur,6,6,,,non,675
+Objets divers à la valeur,6,6,objets divers à la valeur,,non,675
 Objets divers de moindre Valeur,2,2,objets divers de moindre valeur,,non,22
 Objets divers de moindre valeur,20,20,objets divers de moindre valeur,,non,22
 Objets divers dont la plus forte valeur n'excède pas 3000 livres,0,0,objets divers dont les plus forts articles n'excèdent pas 3000 livres,,oui,0
@@ -48644,7 +48644,7 @@ Sable blanc,1,1,sable blanc,,non,1
 Sable de verre,0,2,sable de verre,,non,2
 Sablerie,8,8,sablerie,,non,8
 Sables communs,1,1,sable commun,,non,1
-Sables pour les verreries,0,1,sable pour les verreries,,non,1
+Sables pour les verreries,0,1,sable pour les verrerie,,non,1
 Sablieres de cuivre,1,1,sablières de cuivre,,non,1
 Sabliers,1,1,sabliers,,non,1
 Sabliers en compas,3,3,sabliers en compas,,non,3
