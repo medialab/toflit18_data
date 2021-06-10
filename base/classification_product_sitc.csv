@@ -525,7 +525,6 @@ armes armureries,1,8,,non,73239
 armes autres que de guerre à feu,1,8,,non,73239
 armes autres que de guerre blanches,1,8,,non,73239
 armes blanches,201,8,x,non,73239
-armes blanches à feu et artillerie,5,,,non,764
 armes blanches de guerre,1,8,,non,73239
 armes blanches de guerre et de traite,1,8,,non,73239
 armes blanches de luxe,2,8,,non,73239
@@ -1639,7 +1638,6 @@ bois de clafou,1,2,x,non,131821
 bois de cleippe,1,2,x,non,131821
 bois de coco,2,2,x,non,131821
 bois de Constantine,0,2,x,non,131821
-bois de constuction,6,,,non,764
 bois de corde,1,2,,non,131821
 bois de coulette de hêtre,1,2,x,non,131821
 bois de couleur,35,2,x,non,131821
@@ -1832,7 +1830,7 @@ bois et pierre,1,2,,non,131821
 bois exotique d'ébénisterie,1,6b,,non,36475
 bois exotique de teinture,1,6b,,non,36475
 bois exotique de teinture en morceaux et Pernambouc,1,6b,,non,36475
-bois feuillard et osiers,6,,,non,764
+bois feuillard et osiers,6,6b,,non,764
 bois feuillards à barriques,5,6b,,non,36475
 bois feuillards à petits barils,1,6b,,non,36475
 bois feuillards à quarteaux,2,6b,,non,36475
@@ -1856,7 +1854,6 @@ bois lourd,359,2,x,non,131821
 bois marbré,26,2,x,non,131821
 bois marbré de 6 pieds,1,6b,,non,36475
 bois marbré en bûches,2,2,,non,131821
-bois mérain,4,,,non,764
 bois merrains à cardines,1,6b,,oui,36475
 bois merrains pour cardines,1,6b,,non,36475
 bois moulu,4,5,x,non,61968
@@ -2237,7 +2234,7 @@ bougie en suif et suif,3,8,x,non,73239
 bougie et cierges,24,8,x,non,73239
 bougie jaune,9,8,x,non,73239
 bougie verte,1,8,x,non,73239
-bougies de table,6,,,non,764
+bougies de table,6,8,,non,764
 bouguette,112,9c,,non,13121
 bouilloires de cuivre,2,8,,non,73239
 bouillotte de cuivre,1,8,x,non,73239
@@ -2538,7 +2535,7 @@ brai gras,669,2,x,non,131821
 brai gras et goudron,24,2,,non,131821
 brai gras et sec,1,2,,non,131821
 brai gras goudron,5,2,,non,131821
-brai gras goudron et résine,5,,,non,764
+brai gras goudron et résine,5,2,,non,764
 brai gras ou goudron,3,2,,non,131821
 brai gros,12,2,x,non,131821
 brai gros et goudron,2,2,x,non,131821
@@ -2903,7 +2900,7 @@ cambaye,3,6g,x,non,16935
 cambaye à grands carreaux,1,6g,,non,16935
 cambouis,1,2,x,non,131821
 camelot,419,6e,x,non,20962
-camelot à mi-soie,6,6f,x,non,16728
+camelot à mi soie,6,6f,x,non,16728
 camelot à peu de soie,15,6f,x,non,16728
 camelot au quart,3,6i,x,non,10173
 camelot au sixième de soie,3,6f,x,non,16728
@@ -3275,7 +3272,7 @@ carreaux démoulés,1,6k,,non,22558
 carreaux des prises,1,6k,x,non,22558
 carreaux en nombre,1,6k,x,non,22558
 carreaux et ouvrages de terre cuite,1,6k,,non,22558
-carreaux marbre chaux pierres à bâtir,6,,,non,764
+carreaux marbre chaux pierres à bâtir,6,6k,,non,764
 carreaux meulage de Brie,1,6k,x,non,22558
 carreaux meulage de France,2,6k,x,non,22558
 carreaux moulage,4,6k,x,non,22558
@@ -3408,7 +3405,7 @@ caves de 7 flacons,1,8,,non,73239
 caves de 8 flacons,2,8,,non,73239
 caves de 9 flacons,63,8,x,non,73239
 caves de flacons,12,8,x,non,73239
-caves et canevettes avec leurs flacons,1,,,non,764
+caves et canevettes avec leurs flacons,1,8,,non,764
 caves et canevettes de 6 flacons,3,8,x,non,73239
 caves files,1,9c,x,non,13121
 caves garnies,126,8,x,non,73239
@@ -3896,7 +3893,6 @@ chapellerie commune de laine,1,8,,non,73239
 chapellerie commune de laine ou de poil,1,8,,non,73239
 chapellerie de castor,1,8,,non,73239
 chapellerie de castor de feutre fin ou de laine,1,8,,non,73239
-chapellerie de toute sorte,6,,,non,764
 chapes de fer,1,6j,,non,52284
 chaplas,2,9c,,non,13121
 chapons,11,0a,x,non,122327
@@ -5082,7 +5078,6 @@ couvertures de soie,5,6f,x,non,16728
 couvertures de toile peinte,2,6h,,non,15163
 couvertures de ville,1,6i,,non,10173
 couvertures dites pagnes,1,6i,x,non,10173
-couvertures diverses,5,,,non,764
 couvertures du Béarn,4,6i,x,non,10173
 couvertures du Levant,1,6i,,non,10173
 couvertures et tapis de coton,2,6g,,non,16935
@@ -5359,7 +5354,6 @@ cuirs de vache lissés,16,6a,x,non,24886
 cuirs de vache passés,1,6a,x,non,24886
 cuirs de vache petits,1,6a,,non,24886
 cuirs de vache tannés,3,6a,,non,24886
-cuirs divers,4,,,non,764
 cuirs dorés,133,6a,x,non,24886
 cuirs dorés vieux,2,6a,,non,24886
 cuirs du Portugal,1,6a,,non,24886
@@ -5483,7 +5477,7 @@ cuivre en masse brut mitraille et vieux,1,6j,,non,52284
 cuivre en masse brut ou rouge,1,6j,,non,52284
 cuivre en mitraille et vieux,10,6j,x,non,52284
 cuivre en pain,25,6j,,non,52284
-cuivre en planches feuilles ouvré,5,,,non,764
+cuivre en planches feuilles ouvré,5,6j,,non,764
 cuivre en plane,1,6j,,non,52284
 cuivre en plats,1,6j,x,non,52284
 cuivre en potasse,1,2,,non,131821
@@ -5747,7 +5741,6 @@ dentelle de soie blonde,190,6f,x,non,16728
 dentelle de soie de Rouen,3,6f,x,non,16728
 dentelle de soie noire,1,6f,,non,16728
 dentelle de toute autre sorte que soie,1,6i,,non,10173
-dentelle de toute sorte,3,,,non,764
 dentelle dorure d'argent,12,6i,x,non,10173
 dentelle dorure d'argent et d'or,18,8,x,non,73239
 dentelle dorure d'or,7,8,x,non,73239
@@ -6156,10 +6149,8 @@ drap de vere,2,6e,x,non,20962
 drap de vigogne,1,6e,,non,20962
 drap de Vir,18,6e,x,non,20962
 drap demi fin de laine,1,6e,x,non,20962
-drap des prise,11,6e,x,non,20962
 drap des prises,6,6e,x,non,20962
 drap divers ???,8,6e,x,non,20962
-drap divers de laine,11,,,non,764
 drap drache,9,6e,x,non,20962
 drap drapée,4,6e,,non,20962
 drap draperie ???,1,6e,x,oui,20962
@@ -6620,8 +6611,7 @@ eau-forte huile de vitriol le dania,1,9c,,non,13121
 écorce de simarouba,1,2,,non,131821
 écorce de soie,2,2,x,non,131821
 écorce de tilleul,52,2,x,non,131821
-écorce de tilleul pour cordage,2,,,non,764
-écorce de tilleul pour cordages,2,2,,oui,131821
+écorce de tilleul pour cordage,2,2,,non,764
 écorce pour tanner,19,2,x,non,131821
 écorce rayée,1,2,,non,131821
 écorce unie,1,2,,non,131821
@@ -7386,7 +7376,6 @@ etocs de fer,13,9c,x,non,13121
 étoffe et ouvrages de soie,1,6f,,non,16728
 étoffe et ruban de fleuret,10,6f,,non,16728
 étoffe et ruban de soie,4,6f,,non,16728
-Étoffe étamine fine,4,6e,,oui,20962
 étoffe éternelle,1,6i,,non,10173
 étoffe éternelle au ? de soie,1,6f,,non,16728
 étoffe éternelle de laine,2,6e,,non,20962
@@ -7416,9 +7405,9 @@ etocs de fer,13,9c,x,non,13121
 étoffe mêlée de soie,1,6f,,non,16728
 étoffe mêlée de soie ???,2,6f,,non,16728
 étoffe mêlée de soie peluches,133,6f,,non,16728
-étoffe mêlée diverse,5,,,non,764
+étoffe mêlée,5,6i,,non,764
 étoffe mi soie,143,6f,x,non,16728
-étoffe mi-soie,1,6f,,non,16728
+étoffe mi soie,1,6f,,non,16728
 étoffe noire,1,6i,x,non,10173
 étoffe peinte,1,6i,x,non,10173
 étoffe peluches communes,1,6e,x,non,20962
@@ -7451,8 +7440,7 @@ etocs de fer,13,9c,x,non,13121
 étoupes de laine,3,2,,non,131821
 étoupes de lin,15,2,x,non,131821
 étoupes de soie,84,2,x,non,131821
-étoupes de vieux cordage,1,,,non,764
-étoupes de vieux cordages,1,2,,oui,131821
+étoupes de vieux cordage,1,2,,non,764
 étoupes et cordes de lin,106,2,,non,131821
 étoupes noires,10,2,x,non,131821
 étriers,8,7,,non,13672
@@ -7657,7 +7645,7 @@ fer battu,75,6j,x,non,52284
 fer battu et fondu,1,6j,x,non,52284
 fer battu et ouvrages de fer,145,6j,x,non,52284
 fer blanc en feuille ouvrée,1,6j,,non,52284
-fer blanc en feuilles ouvré,6,,,non,764
+fer blanc en feuilles ouvré,6,6j,,non,764
 fer bleu,1,6j,x,non,52284
 fer brut,2,6j,x,non,52284
 fer brut de fonte,5,6j,x,non,52284
@@ -7676,7 +7664,7 @@ fer d'Espagne,3,6j,,non,52284
 fer de captifs,1,6j,,non,52284
 fer de charrues,2,6j,,non,52284
 fer de fonte,68,6j,x,non,52284
-fer de fonte brut ouvré,11,,,non,764
+fer de fonte brut ouvré,11,6j,,non,764
 fer de fonte en gueuse,4,6j,,non,52284
 fer de fonte ouvert,2,6j,x,non,52284
 fer de lin cierge,1,9c,,non,13121
@@ -7687,7 +7675,7 @@ fer de toute sorte,13,6j,x,non,52284
 fer de traite,1,6j,x,non,52284
 fer de voyage,1,9c,x,non,13121
 fer dhipsium,1,6j,,non,52284
-fer divers en barres feuillard,11,,,non,764
+fer divers en barres feuillard,11,6j,,non,764
 fer en ?,9,6j,x,non,52284
 fer en balle,1,6j,,non,52284
 fer en ballon,5,6j,x,non,52284
@@ -7704,7 +7692,7 @@ fer en casse,18,6j,x,non,52284
 fer en caverge,1,6j,x,non,52284
 fer en chaudronnerie,7,6j,x,non,52284
 fer en choux,6,6j,,non,52284
-fer en clous,6,,,non,764
+fer en clous,6,6j,,non,764
 fer en crapaudines,5,6j,,non,52284
 fer en culture,1,6j,x,non,52284
 fer en écopes,9,6j,,non,52284
@@ -8018,7 +8006,7 @@ fil à tisserand de chenette,1,6d,x,non,22988
 fil à tisserand divers,2,6d,x,non,22988
 fil à toile,8,6d,x,non,22988
 fil à tricoter,147,6i,x,non,10173
-fil à voile,396,,,non,764
+fil à voile,396,6i,,non,764
 fil auville,1,6i,x,non,10173
 fil blanc,264,6d,x,non,22988
 fil blanc à corder,1,6d,,non,22988
@@ -8335,7 +8323,6 @@ filoselle et fleuret,1,2,x,non,131821
 filoselle et fleuret et bourre de soie,31,2,x,non,131821
 filoselle et gilets de coton,1,9b,x,non,61983
 filoselle et soie,170,2,x,non,131821
-fils à coudre et autre,5,,,non,764
 fine,1,9c,,non,13121
 finette,5,6i,x,non,10173
 finette de laine,2,6e,,non,20962
@@ -8801,7 +8788,7 @@ futailles et beurre,1,9b,,non,61983
 futailles petites,1,6b,,non,36475
 futailles vides,254,6b,x,non,36475
 futailles vides de tonnelier,2,6b,x,non,36475
-futailles vides ou autres ustensiles de pêche,5,,,non,764
+futailles vides ou autres ustensiles de pêche,5,9b,,non,764
 futailles vieilles,20,6b,,non,36475
 futaine,71,6g,x,non,16935
 futaine blanche,16,6i,x,non,10173
@@ -8961,7 +8948,6 @@ gants de laine,180,8,x,non,73239
 gants de peau,682,8,x,non,73239
 gants de peau de cabri,2,8,,non,73239
 gants de peau de daim,2,8,x,non,73239
-gants de peau divers,4,,,non,764
 gants de peau et autre,16,8,,non,73239
 gants de peau fins,7,8,,non,73239
 gants de peau garnis de soie,1,8,x,non,73239
@@ -9136,7 +9122,7 @@ gaze de soie pure,3,6f,,non,16728
 gaze de toute autre sorte que soie pure,2,6f,,non,16728
 gaze en crêpe,10,6f,x,non,16728
 gaze en crêpe de soie,5,6f,x,non,16728
-gaze et linon,4,,,non,764
+gaze et linon,4,6i,,non,764
 gaze et Marly,25,6i,,non,10173
 gaze et Marly de fil,53,6h,,non,15163
 gaze et Marly de soie,49,6f,,non,16728
@@ -9982,7 +9968,6 @@ hardes,98,8,,non,73239
 hardes à usage,4,8,,non,73239
 hardes capillaire,1,8,,non,73239
 hardes de gens de mer,9,8,,non,73239
-hardes diverses,6,,,non,764
 hardes et habits,4,8,,non,73239
 hardes neuves,17,8,,non,73239
 hardes perelle,1,8,,non,73239
@@ -10027,7 +10012,7 @@ harnais de chaise,23,7,x,non,13672
 harnais de chevaux,20,7,x,non,13672
 harnais de chevaux de cuir,8,7,x,non,13672
 harnais de cuir,2,7,x,non,13672
-harnais de cuir et cellerie,4,,,non,764
+harnais de cuir et sellerie,4,7,,non,764
 harnais de sellier,1,7,x,non,13672
 harnais et chaises roulantes,1,7,,non,13672
 harnais et housses de chevaux,1,7,x,non,13672
@@ -11224,7 +11209,6 @@ lingerie de tables,2,8,x,non,73239
 lingerie de toile d'étoupes,1,8,,non,73239
 lingerie de toile de lin,9,8,x,non,73239
 lingerie de toile de lin guingans,1,8,,non,73239
-lingerie de toutes sortes,6,,,non,764
 lingerie des Indes,1,8,x,non,73239
 lingerie en chanvre,1,8,x,non,73239
 lingerie ouvrée,2,8,x,non,73239
@@ -11266,7 +11250,6 @@ liqueurs en sirop fin,3,1,,non,58610
 liqueurs et rhum,10,1,x,non,58610
 liqueurs et sirop,173,1,x,non,58610
 liqueurs et sirop fin,34,1,x,non,58610
-liqueurs et sirops,5,,,non,764
 liqueurs fines,5,1,,non,58610
 liqueurs médicinales,1,5,x,non,61968
 liqueurs rhum,3,1,x,non,58610
@@ -12379,7 +12362,6 @@ meubles à moulins,2,8,x,non,73239
 meubles à taillandier,18,8,x,non,73239
 meubles affiloires,1,8,x,non,73239
 meubles de bois,9,8,x,non,73239
-meubles divers,6,,,non,764
 meubles et effets,3,8,,non,73239
 meubles et miroirs,130,8,x,non,73239
 meubles et ornements,17,8,x,non,73239
@@ -12594,7 +12576,7 @@ momie,7,5,,non,61968
 moncayard,5,6h,,non,15163
 mongette,44,0a,x,non,122327
 mongistere,7,9c,,non,13121
-monnaies,2,,,non,764
+monnaies,2,9a,,non,764
 monnaies au type étranger,95,9a,x,non,1580
 monnaies d'argent,33,9a,x,non,1580
 monnaies d'argent en espèces coursables,3,9a,x,non,1580
@@ -12757,7 +12739,6 @@ mouchoirs de coton et fil,25,6h,x,non,15163
 mouchoirs de coton et fil de coton,16,6g,,non,16935
 mouchoirs de coton et soie,16,6f,,non,16728
 mouchoirs de coton et soie de France,1,6f,x,non,16728
-mouchoirs de coton étranger,6,,,non,764
 mouchoirs de coton étrangers,3,6g,,non,16935
 mouchoirs de coton fins,5,6g,x,non,16935
 mouchoirs de coton gros,1,6g,,non,16935
@@ -12776,12 +12757,12 @@ mouchoirs de fil de lin,1,6d,,non,22988
 mouchoirs de fil de lin imprimé,1,6d,,non,22988
 mouchoirs de fil de Rouen,2,6d,,non,22988
 mouchoirs de fil du Béarn,3,6d,x,non,22988
-mouchoirs de fil en coton de France,6,,,non,764
+mouchoirs de fil en coton de France,6,6d,,non,764
 mouchoirs de fil et de batiste,1,6d,x,non,22988
 mouchoirs de fil et de coton,89,6h,x,non,15163
 mouchoirs de fil et de lin,1,6d,,non,22988
 mouchoirs de fil et de pitre,1,6i,x,non,10173
-mouchoirs de fil étranger,4,,,non,764
+mouchoirs de fil étrangers,4,6i,,non,764
 mouchoirs de fil fin,1,6d,,non,22988
 mouchoirs de fil organdi,15,6d,x,non,22988
 mouchoirs de fil peint,1,6d,,non,22988
@@ -12796,7 +12777,7 @@ mouchoirs de gaze grands,1,6f,x,non,16728
 mouchoirs de Hollande,1,6h,,non,15163
 mouchoirs de kinfin,1,6h,x,non,15163
 mouchoirs de l'hotes,2,6g,,non,16935
-mouchoirs de l'Inde,10,,,non,764
+mouchoirs de l'Inde,10,6i,,non,764
 mouchoirs de la Compagnie des Indes,3,6g,x,non,16935
 mouchoirs de laine,2,6e,,non,20962
 mouchoirs de laiton,1,9c,,non,13121
@@ -12841,7 +12822,6 @@ mouchoirs des Indes communs,1,6h,,non,15163
 mouchoirs des Indes de coton,2,6g,,non,16935
 mouchoirs des Indes de soie,3,6f,,non,16728
 mouchoirs des Indes dit bandanas,1,6g,,non,16935
-mouchoirs divers mélangés,5,,,non,764
 mouchoirs du Béarn,17,6h,x,non,15163
 mouchoirs du Levant,2,6g,,non,16935
 mouchoirs du pays,1,6h,x,non,15163
@@ -12949,11 +12929,11 @@ mousseline de coton,107,6g,,non,16935
 mousseline de coton et des Indes,3,6g,x,non,16935
 mousseline de coton et Nankin,11,6g,,non,16935
 mousseline de coton et Nankin des Indes,21,6g,,non,16935
-mousseline de coton unies et brûlées,14,6g,,non,16935
-mousseline de coton unies et peintes,17,6g,x,non,16935
+mousseline de coton unie et brûlée,14,6g,,non,16935
+mousseline de coton unie et peinte,17,6g,x,non,16935
 mousseline de France,6,6g,x,non,16935
 mousseline de l'étranger,1,6g,x,non,16935
-mousseline de l'Inde,5,,,non,764
+mousseline de l'Inde,5,6g,,non,764
 mousseline de l'Inde dite Casses,1,6g,,non,16935
 mousseline de la Compagnie,2,6g,,non,16935
 mousseline de Suisse et siamoise à ligne de soie,4,6f,x,non,16728
@@ -12965,13 +12945,13 @@ mousseline et mousselinette de coton,0,6g,x,non,16935
 mousseline et toile de coton,1,6g,x,non,16935
 mousseline et toile de coton blanc,15,6g,,non,16935
 mousseline et toile des Indes,1,6g,x,non,16935
-mousseline étrangères,7,,,non,764
-mousseline fines,6,6g,x,non,16935
+mousseline étrangère,7,6g,,non,764
+mousseline fine,6,6g,x,non,16935
 mousseline grosse,1,6g,,non,16935
-mousseline imprimées,1,6g,x,non,16935
+mousseline imprimée,1,6g,x,non,16935
 mousseline nationale,4,6g,,non,16935
-mousseline rayées,2,6g,,non,16935
-mousseline rayées à fleurs,1,6g,,non,16935
+mousseline rayée,2,6g,,non,16935
+mousseline rayée à fleurs,1,6g,,non,16935
 mousseline siamoise et de Suisse à la ligne de soie,2,6h,,non,15163
 mousseline unie,4,6g,,non,16935
 mousselinette,1,6g,x,non,16935
@@ -13914,7 +13894,7 @@ pantoufles de cuir,2,8,x,non,73239
 pantoufles de cuir et de maroquin,4,8,x,non,73239
 paons,6,0a,,non,122327
 papelias,1,9c,,non,13121
-papeterie de toutes sortes,5,,,non,764
+papeterie,5,6c,,non,764
 papier,2124,6c,x,non,7821
 papier ???,5,6c,x,non,7821
 papier à bulle,18,6c,x,non,7821
@@ -14142,7 +14122,6 @@ parement,1,8,,non,73239
 parfum,2,5,x,non,61968
 parfumerie,813,5,x,non,61968
 parfumerie à la valeur,1,5,,oui,61968
-parfumerie diverse,5,,,non,764
 parfumerie eau de senteur,70,5,x,non,61968
 parfumerie en essence,5,5,,non,61968
 parfumerie en pommade et poudre,4,5,,non,61968
@@ -14867,7 +14846,7 @@ Pékin à grande fleur,1,6f,,non,16728
 Pékin broché,1,6f,,non,16728
 Pékin broché et rayé,1,6f,x,non,16728
 Pékin brodé,2,6f,,non,16728
-Pékin mi-soie,1,6f,,non,16728
+Pékin mi soie,1,6f,,non,16728
 Pékin non peint,1,6f,,non,16728
 Pékin peint,7,6f,,non,16728
 Pékin peint et rayé,1,6f,x,non,16728
@@ -16047,8 +16026,6 @@ plomb de chasse,62,8,x,non,73239
 plomb de cuivre battu,4,8,,non,73239
 plomb de pêche,1,8,x,non,73239
 plomb de soudes,1,6j,x,non,52284
-plomb de toutes sortes,7,,,non,764
-plomb divers,30,6j,x,non,52284
 plomb en barre,19,6j,x,non,52284
 plomb en bloc,127,6j,x,non,52284
 plomb en feuilles,5,6j,,non,52284
@@ -16455,10 +16432,8 @@ porcs gras et maigres,1,0a,x,non,122327
 porcs maigres,20,0a,x,non,122327
 porcs maigres salés,2,0a,,non,122327
 porcs poulets,2,0a,x,non,122327
-porcs salé,0,0a,,oui,122327
-porcs salé et petit salé,1,0a,,oui,122327
 porcs salés,382,0a,,non,122327
-porcs salés et petit salé,6,,,non,764
+porcs salés et petit salé,6,0a,,non,764
 porcs tués,1,0a,,non,122327
 porcs tués petits,1,0a,,non,122327
 porphyre,1,2,,non,131821
@@ -16619,7 +16594,7 @@ poudre de traite,6,5,x,non,61968
 poudre de traite d'Angleterre et de Hollande,1,5,,non,61968
 poudre en grenaille,1,9c,x,non,13121
 poudre en pommade,1,5,x,non,61968
-poudre et salpêtre,3,,,non,764
+poudre et salpêtre,3,5,,non,764
 poudre et teinture verte,5,5,x,non,61968
 poudre fine,1,5,,non,61968
 poudre jaune,1,5,,non,61968
@@ -16869,7 +16844,6 @@ quincaillerie de menu fer,6,6j,x,non,52284
 quincaillerie de platine,1,6j,,non,52284
 quincaillerie de retour,1,6j,,non,52284
 quincaillerie de soie,1,9c,x,non,13121
-quincaillerie de toutes espèces,6,,,non,764
 quincaillerie en ???,2,9b,x,non,61983
 quincaillerie et mercerie,19,9b,x,non,61983
 quincaillerie étrangère,7,6j,x,non,52284
@@ -17021,7 +16995,7 @@ rassade ou verroterie,3,6k,,oui,22558
 rassades,324,6k,x,non,22558
 rassades de retour faute de vente,1,6k,,non,22558
 rassades des prises,1,6k,,non,22558
-rassades et verrerie,4,,,non,764
+rassades et verrerie,4,6k,,non,764
 rassades et vitrifications,24,6k,x,non,22558
 rassades ou verroterie,9,6k,,non,22558
 ratafia,112,1,x,non,58610
@@ -18442,7 +18416,7 @@ souliers de maroquin,3,8,x,non,73239
 souliers de soie,13,8,x,non,73239
 souliers en terre,1,8,,non,73239
 souliers enfant,1,8,,non,73239
-souliers et bottes de toutes espèces,5,,,non,764
+Soulieret soulierss et bottes de toutes espèces,5,8,,non,764
 souliers neufs,145,8,x,non,73239
 souliers pantoufles et galoches,3,8,x,non,73239
 souliers par paires,2,8,x,non,73239
@@ -18637,7 +18611,7 @@ suif à chandelle,35,4,x,non,18480
 suif brut,10,4,,non,18480
 suif de mouton,1,4,x,non,18480
 suif en branche,1,4,x,non,18480
-suif en chandelle,6,,,non,764
+suif en chandelle,6,8,,non,764
 suif en chandelle et en rames,1,4,,non,18480
 suif en masse,94,4,x,non,18480
 suif en pain,102,4,x,non,18480
@@ -18697,7 +18671,6 @@ tabac de renvoi,1,1,x,non,58610
 tabac de Séville,2,1,x,non,58610
 tabac de St. Domingue,18,1,x,non,58610
 tabac de St. Vincent,2,1,x,non,58610
-tabac de toutes espèces,4,,,non,764
 tabac de Virginie,30,1,x,non,58610
 tabac de Virginie en feuilles,10,1,x,non,58610
 tabac des Indes,1,1,x,non,58610
@@ -19446,7 +19419,6 @@ toile basin coutil croisée et autre de chanvre et de lin,2,6h,,non,15163
 toile basin coutil croisée et autres,2,6h,,non,15163
 toile basin coutil croisée et autres de chanvre et de lin,3,6h,,non,15163
 toile batiste en carreaux,5,6d,,non,22988
-toile batiste et linon,9,,,non,764
 toile beaugrain,8,6h,,non,15163
 toile blancard,124,6h,x,non,15163
 toile blancard cirée large,1,6h,,non,15163
@@ -19516,7 +19488,7 @@ toile blanche pour essuie-mains,5,6d,,non,22988
 toile blanchie,2,6d,,non,22988
 toile bleue,35,6h,x,non,15163
 toile bleue de coton,11,6g,,non,16935
-toile bleue des Indes,1,6h,,non,15163
+toile bleue des Indes,1,6g,,non,15163
 toile bleue et rouge,1,6h,,non,15163
 toile bocadillo,2,6h,,non,15163
 toile boelans,1,6h,,non,15163
@@ -19527,9 +19499,9 @@ toile bougran gommée,3,6d,,non,22988
 toile boulange,1,6h,,non,15163
 toile bourlegambis,6,6h,,non,15163
 toile branle,4,6h,,oui,15163
-toile branle des Indes,2,6h,,oui,15163
-toile branle imitant celles des Indes,1,6h,,oui,15163
-toile brantes des Indes,1,6h,,oui,15163
+toile branle des Indes,2,6g,,oui,15163
+toile branle imitant celles des Indes,1,6g,,oui,15163
+toile brantes des Indes,1,6g,,oui,15163
 toile brauls des Indes,2,6g,,oui,16935
 toile brin,2,6h,,non,15163
 toile brin de Dinant,2,6h,,non,15163
@@ -19637,7 +19609,7 @@ toile crue grise et ardoisée,4,6h,,non,15163
 toile crue large,2,6h,,non,15163
 toile cunbabis,1,6h,,non,15163
 toile custas,3,6h,,non,15163
-toile custas imitant celle des Indes,1,6h,,non,15163
+toile custas imitant celle des Indes,1,6g,,non,15163
 toile d'abas,1,6h,,non,15163
 toile d'Agen,6,6h,x,non,15163
 toile d'Alençon,1,6d,,non,22988
@@ -19897,8 +19869,8 @@ toile de coton antoine,1,6g,x,non,16935
 toile de coton basin,37,6g,x,non,16935
 toile de coton bisinette,1,6g,x,non,16935
 toile de coton blanche,4,6g,x,non,16935
-toile de coton blanche de France,7,,,non,764
-toile de coton blanche étrangère,10,,,non,764
+toile de coton blanche de France,7,6g,,non,764
+toile de coton blanche étrangère,10,6g,,non,764
 toile de coton bleu,4,6g,x,non,16935
 toile de coton brochée,2,6g,x,non,16935
 toile de coton commune,5,6g,x,non,16935
@@ -19948,8 +19920,8 @@ toile de coton nationale,5,6g,x,non,16935
 toile de coton nationale et peinte,2,6g,,non,16935
 toile de coton non ???,1,6g,x,non,16935
 toile de coton peinte,92,6g,x,non,16935
-toile de coton peinte et indienne de France,10,,,non,764
-toile de coton peinte et indienne étrangère,7,,,non,764
+toile de coton peinte et indienne de France,10,6g,,non,764
+toile de coton peinte et indienne étrangère,7,6g,,non,764
 toile de coton persiste,1,6g,x,non,16935
 toile de coton piquée,39,6g,x,non,16935
 toile de coton pointe,1,6g,,non,16935
@@ -20015,8 +19987,8 @@ toile de Hollande,60,6h,x,non,15163
 toile de Hollande blanche,2,6h,,non,15163
 toile de Hollande fine,1,6h,,non,15163
 toile de Killis,47,6h,,non,15163
-toile de l'Inde du commerce étranger,7,,,non,764
-toile de l'Inde du commerce français,8,,,non,764
+toile de l'Inde du commerce étranger,7,6g,,non,764
+toile de l'Inde du commerce français,8,6g,,non,764
 toile de laine,1,6e,,non,20962
 toile de laine dite herbage,1,6e,x,non,20962
 toile de laine pour blutoir,2,6e,,non,20962
@@ -20043,7 +20015,7 @@ toile de lin blanche de 2 sols par aune,2,6d,,non,22988
 toile de lin blanche de 20 sols par aune,3,6d,,non,22988
 toile de lin blanche de 30 sols par aune,3,6d,,non,22988
 toile de lin blanche de 8 sols par aune,2,6d,,non,22988
-toile de lin blanche fine de Lilles et Saint-Quentin,8,,,non,764
+toile de lin blanche fine de Lilles et Saint-Quentin,8,6d,,non,764
 toile de lin brochée,4,6d,x,non,22988
 toile de lin Cambrai,1,6d,x,non,22988
 toile de lin cirée,1,6d,x,non,22988
@@ -20207,14 +20179,13 @@ toile des Indes peinte,7,6g,,non,16935
 toile des Indes peinte de thille,1,6g,,non,16935
 toile des Indes Perse du commerce étranger,1,6g,,non,16935
 toile des prises,1,6a,,non,24886
-toile diverse de l'étranger,10,,,non,764
-toile diverses de chanvre blanche écrue,11,,,non,764
+toile de chanvre blanche écrue,11,6d,,non,764
 toile du ???,1,6h,,non,15163
 toile du Béarn,10,6h,,non,15163
 toile du Brabant,3,6d,,non,22988
 toile du cerf,1,6h,,non,15163
-toile du commerce de France et des Indes,17,6h,,non,15163
-toile du commerce étranger et des Indes,10,6h,,non,15163
+toile du commerce de France et des Indes,17,6g,,non,15163
+toile du commerce étranger et des Indes,10,6g,,non,15163
 toile du Levant,1,6h,,non,15163
 toile du Lyonnais,1,6h,,non,15163
 toile du Mans,1,6d,,non,22988
@@ -20298,7 +20269,7 @@ toile guingans blanc,1,6g,,non,16935
 toile guingans bleu,1,6g,,non,16935
 toile guingans de Bengale,2,6g,,non,16935
 toile guingans de Grenade,2,6g,,non,16935
-toile guingans de Lille et Rouen,9,,,non,764
+toile guingans de Lille et Rouen,9,6g,,non,764
 toile guingans de lin,6,6d,,non,22988
 toile guingans de Madras,24,6g,,non,16935
 toile guingans de Masulipatan,1,6g,,non,16935
@@ -20309,17 +20280,17 @@ toile guingans des Indes,2,6g,,non,16935
 toile guingans des prises,1,6g,,non,16935
 toile guingans du Bengale,8,6g,,non,16935
 toile guingans nationale,5,6g,,non,16935
-toile hamacs,7,6h,,non,15163
-toile hamacs imitant celles des Indes,1,6h,,non,15163
+toile hamacs,7,6g,,non,15163
+toile hamacs imitant celles des Indes,1,6g,,non,15163
 toile hivre,1,6h,,non,15163
 toile hollande,1,6h,,non,15163
 toile Hollande de Paris,2,6h,,non,15163
 toile hollandille,2,6h,,non,15163
 toile hollandille de Paris,4,6h,,non,15163
 toile humaine,3,6h,,non,15163
-toile imitant celle des Indes,2,6h,,non,15163
-toile imitant celle des Indes et de Rouen,6,6h,,non,15163
-toile imitant celle des Indes et nationale,1,6h,,non,15163
+toile imitant celle des Indes,2,6g,,non,15163
+toile imitant celle des Indes et de Rouen,6,6g,,non,15163
+toile imitant celle des Indes et nationale,1,6g,,non,15163
 toile imprimée,12,6h,x,non,15163
 toile imprimée et de fil et peinte et teinte,4,6h,x,non,15163
 toile imprimée et de lin et nationale et peinte,4,6d,x,non,22988
@@ -20354,7 +20325,7 @@ toile miennel,1,6h,,non,15163
 toile mouchoirs,4,9b,x,non,61983
 toile nationale,5,6h,,non,15163
 toile navale,16,7,,non,13672
-toile neganepeau et imitant celle des Indes,1,6h,,non,15163
+toile neganepeau et imitant celle des Indes,1,6g,,non,15163
 toile noire,1,6h,,non,15163
 toile non battue,29,6h,x,non,15163
 toile ordre et rousse,1,6h,,non,15163
@@ -20381,8 +20352,8 @@ toile peinte pour paravent,1,6h,,non,15163
 toile peinte sur enduit pour tapisserie,2,6h,,non,15163
 toile peintes guingans,2,6g,,non,16935
 toile petite,5,6h,x,non,15163
-toile photas,12,6h,,non,15163
-toile photas imitant celle des Indes,1,6h,,non,15163
+toile photas,12,6g,,non,15163
+toile photas imitant celle des Indes,1,6g,,non,15163
 toile pièces étroites,2,6h,,non,15163
 toile pièces larges,2,6h,,non,15163
 toile pignée,1,6h,,non,15163
@@ -20497,8 +20468,8 @@ toile vernie,1,6h,,non,15163
 toile verte ???,1,6h,,non,15163
 toile Vimoutiers,3,6h,,non,15163
 toile Vitré,2,6h,,non,15163
-toiles à voile,10,,,non,764
-toiles de retour,1,6h,,non,15163
+toile à voile,10,6h,,non,764
+toile de retour,1,6h,,non,15163
 toilettes,8,8,,non,73239
 toilettes blanches de lin,149,8,,non,73239
 toilettes brodées de soie,1,8,,non,73239
@@ -20865,7 +20836,6 @@ verrerie bouteilles,65,6k,x,non,22558
 verrerie cassée,3,2,x,non,131821
 verrerie d'office,2,6k,,non,22558
 verrerie de Baume,1,6k,x,non,22558
-verrerie de toutes espèces,6,,,non,764
 verrerie diverse,159,6k,x,oui,22558
 verrerie en boucaut,1,6k,x,non,22558
 verrerie en bouteilles,11,6k,x,non,22558
