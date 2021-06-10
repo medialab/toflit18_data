@@ -1069,9 +1069,9 @@ barils,fer noir,Fer,Imports,Rouen,Flandre et autres états de l'Empereur,,,
 barils,fer noir,Fer,Imports,Rouen,Hollande,,,
 barils,fer noir,Fer,Imports,Rouen,Nord,,,
 barils,fer vieux,Fer,Imports,Rennes,Hollande,,,
+barils,fil à voile,,Imports,Rennes,Hollande,,,
 barils,fil à ralingue,Fils divers,Imports,Rennes,Hollande,,,
 barils,fil de laine,Fils divers,Imports,La Rochelle,Nord,,,
-barils,fil pour voile,Fils divers,Imports,Rennes,Hollande,,,
 barils,citrons et limons,Fruits frais,Exports,Nantes,Nord,,,
 barils,figue,Fruits frais,Exports,Rennes,Angleterre,,,
 barils,figue,Fruits frais,Imports,Rennes,Espagne,,,
@@ -2239,6 +2239,7 @@ bouteilles,bière en bouteille,"Bière, cidre et vinaigre",Exports,,Outre-mers,,
 bouteilles,bière en bouteille,"Bière, cidre et vinaigre",Imports,,Divers,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Export,,,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Export,,Amériques,,,
+bouteilles,bière,"Bière, cidre et vinaigre",Export,,Asie,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,,Amériques,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,,Asie,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Exports,Bayonne,Amériques,,,
@@ -2272,6 +2273,7 @@ bouteilles,bière,"Bière, cidre et vinaigre",Imports,Rennes,Flandre et autres �
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Rouen,Angleterre,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Toulon,France,,,
 bouteilles,bière,"Bière, cidre et vinaigre",Imports,Toulon,Italie,,,
+bouteilles,cidre,"Bière, cidre et vinaigre",Export,,Asie,,,
 bouteilles,cidre,"Bière, cidre et vinaigre",Exports,,Asie,,,
 bouteilles,cidre,"Bière, cidre et vinaigre",Exports,La Rochelle,Amériques,,,
 bouteilles,cidre,"Bière, cidre et vinaigre",Exports,Nantes,Amériques,,,
@@ -2389,6 +2391,7 @@ bouteilles,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amé
 bouteilles,eau-de-vie simple,Eaux-de-vie et liqueurs,Exports,Nantes,Amériques,,,
 bouteilles,eau-de-vie simple,Eaux-de-vie et liqueurs,Imports,Saint-Malo,Hollande,,,
 bouteilles,eau-de-vie,Eaux-de-vie et liqueurs,Export,,Amériques,,,
+bouteilles,eau-de-vie,Eaux-de-vie et liqueurs,Export,,Asie,,,
 bouteilles,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Amériques,,,
 bouteilles,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Asie,,,
 bouteilles,eau-de-vie,Eaux-de-vie et liqueurs,Exports,Bayonne,Amériques,,,
@@ -2423,6 +2426,8 @@ bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Afrique,,,
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Amériques,,,
 bouteilles,liqueurs fines,Eaux-de-vie et liqueurs,Imports,Nantes,Amériques,,,
+bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
+bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Afrique,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Amériques,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,Bayonne,Amériques,,,
@@ -2614,6 +2619,7 @@ bouteilles,vin de Bordeaux en bouteilles,Vins de Bordeaux,Exports,,États-Unis d
 bouteilles,vin de Bordeaux en bouteilles,Vins de Bordeaux,Imports,,Hollande,,,
 bouteilles,vin de Bordeaux,Vins de Bordeaux,Export,,,,,
 bouteilles,vin de Bordeaux,Vins de Bordeaux,Export,,Amériques,,,
+bouteilles,vin de Bordeaux,Vins de Bordeaux,Export,,Asie,,,
 bouteilles,vin de Bordeaux,Vins de Bordeaux,Exports,,Afrique,,,
 bouteilles,vin de Bordeaux,Vins de Bordeaux,Exports,,Amériques,,,
 bouteilles,vin de Bordeaux,Vins de Bordeaux,Exports,,Angleterre,,,
@@ -2998,6 +3004,7 @@ bouteilles,vin divers,Vins divers,Exports,,Nord,,,
 bouteilles,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 bouteilles,vin divers,Vins divers,Exports,Saint-Malo,Afrique,,,
 bouteilles,vin divers,Vins divers,Exports,,Suisse,,,
+bouteilles,vin divers,Vins divers,Import,,,,,
 bouteilles,vin du Barrois,Vins divers,Imports,Châlons,Allemagne,,,
 bouteilles,vin du Cap Breton,Vins divers,Exports,La Rochelle,Amériques,,,
 bouteilles,vin du Cap Breton,Vins divers,Exports,Nantes,Afrique,,,
@@ -3132,6 +3139,7 @@ bouteilles,vin rouge,Vins divers,Imports,Nantes,Hollande,,,
 bouteilles,vin Tinto,Vins divers,Imports,Marseille,Espagne,,,
 bouteilles,vin,Vins divers,Export,,,,,
 bouteilles,vin,Vins divers,Export,,Amériques,,,
+bouteilles,vin,Vins divers,Export,,Asie,,,
 bouteilles,vin,Vins divers,Exports,Amiens,Angleterre,,,
 bouteilles,vin,Vins divers,Exports,,Asie,,,
 bouteilles,vin,Vins divers,Exports,Bayonne,Amériques,,,
@@ -3831,7 +3839,6 @@ manches,sapin à faire gaffe,"Ouvrages de bois, liège et jonc",Imports,Rouen,Ho
 ,boulettes de marbre,Marbre brut et ouvré,Imports,Bordeaux,Hollande,,,
 mare ?,argent en lingots,Monnaies et métaux précieux,Imports,Nantes,Hollande,,,
 mares,vaisselle d'argent,Argenterie et orfèvrerie,Exports,Nantes,Amériques,,,
-masses,,[vide],Export,,,,,
 masses,grenat,Bijouterie et pierres fines,Exports,Nantes,Amériques,,,
 masses,grenat,Bijouterie et pierres fines,Exports,Rouen,Afrique,,,
 masses,corail faux,"Cornes, corail, écailles, ivoire et nacre",Imports,Nantes,Hollande,,,
@@ -3848,6 +3855,7 @@ masses,rassades,Objets d'art et d'histoire naturelle,Imports,Rennes,Nord,,,
 masses,creusets,Ouvrages divers et mélangés,Imports,Rouen,Hollande,,,
 masses,ouvrages d'argent plaqué,Ouvrages divers et mélangés,Exports,Bayonne,Amériques,,,
 masses,pots de grès,"Porcelaine, poterie, faïence et ouvrages de terre",Imports,La Rochelle,Hollande,,,
+masses,rassades et verrerie,,Export,,,,,
 masses,ails,Subsistances diverses et mélangées,Exports,Marseille,Espagne,,,
 masses,ails,Subsistances diverses et mélangées,Imports,Marseille,Italie,,,
 merrain,bois rouge,Bois divers hors combustible,Exports,Rennes,Hollande,,,
@@ -3907,6 +3915,7 @@ muids,bière en muid,"Bière, cidre et vinaigre",Exports,,Outre-mers,litres,268.
 muids,bière en muid,"Bière, cidre et vinaigre",Imports,,Divers,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Export,,,,,
 muids,bière,"Bière, cidre et vinaigre",Export,,Amériques,,,
+muids,bière,"Bière, cidre et vinaigre",Export,,Asie,,,
 muids,bière,"Bière, cidre et vinaigre",Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,,Amériques,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
@@ -3983,6 +3992,8 @@ muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Hollande,litres,268.21439
 muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Nord,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,,Suisse,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Valenciennes,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
+muids,cidre,"Bière, cidre et vinaigre",Export,,,,,
+muids,cidre,"Bière, cidre et vinaigre",Export,,Asie,,,
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Amériques,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,Amiens,France,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Angleterre,litres,268.21439,D'après Portet
@@ -4352,6 +4363,7 @@ muids,eau-de-vie triple,Eaux-de-vie et liqueurs,Exports,Grenoble,Suisse,litres,2
 muids,eau-de-vie triple,Eaux-de-vie et liqueurs,Exports,,Suisse,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Export,,,,,
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Export,,Amériques,,,
+muids,eau-de-vie,Eaux-de-vie et liqueurs,Export,,Asie,,,
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exportations,Lyon,Italie,,,
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Afrique,litres,268.21439,D'après Portet
 muids,eau-de-vie,Eaux-de-vie et liqueurs,Exports,,Allemagne,litres,268.21439,D'après Portet
@@ -4456,6 +4468,8 @@ muids,liqueurs diverses,Eaux-de-vie et liqueurs,Imports,,Suisse,litres,268.21439
 muids,liqueurs et rhum,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
+muids,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
+muids,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,France,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,Nord,litres,268.21439,D'après Portet
@@ -4756,6 +4770,7 @@ muids,vin de Bordeaux de retour,Vins de Bordeaux,Imports,,Flandre et autres éta
 muids,vin de Bordeaux en muid,Vins de Bordeaux,Imports,Nantes,France,,,
 muids,vin de Bordeaux,Vins de Bordeaux,Export,,,,,
 muids,vin de Bordeaux,Vins de Bordeaux,Export,,Amériques,,,
+muids,vin de Bordeaux,Vins de Bordeaux,Export,,Asie,,,
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Afrique,litres,268.21439,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Amériques,litres,268.21439,D'après Portet
@@ -5134,6 +5149,8 @@ muids,vin divers,Vins divers,Exports,Rouen,Afrique,,,
 muids,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 muids,vin divers,Vins divers,Exports,Saint-Malo,Amériques,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,,Suisse,litres,268.21439,D'après Portet
+muids,vin divers,Vins divers,Import,,,,,
+muids,vin divers,Vins divers,Import,,Asie,,,
 muids,vin divers,Vins divers,Imports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Imports,,Italie,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Imports,,Portugal,litres,268.21439,D'après Portet
@@ -5320,6 +5337,7 @@ muids,vin rouge,Vins divers,Imports,Montpellier,France,litres,268.21439,D'après
 muids,vin rouge,Vins divers,Imports,Narbonne,Espagne,litres,268.21439,D'après Portet
 muids,vin,Vins divers,Export,,,,,
 muids,vin,Vins divers,Export,,Amériques,,,
+muids,vin,Vins divers,Export,,Asie,,,
 muids,vin,Vins divers,Exportations,Lyon,France,,,
 muids,vin,Vins divers,Exportations,Lyon,Italie,,,
 muids,vin,Vins divers,Exportations,Lyon,Suisse,,,
@@ -5533,7 +5551,6 @@ Poenion,terre à raffiner le sucre,Matières premières diverses,Exports,Nantes,
 poids,charbon de terre,Combustibles dont charbons et bois,Imports,Rennes,Angleterre,,,
 poids,fourneaux de fer,Ouvrages métalliques,Imports,La Rochelle,Hollande,,,
 poids,poids de fer,Ouvrages métalliques,Imports,La Rochelle,Hollande,,,
-poignées,,[vide],Export,,,,,
 poignées,osier,Bois divers hors combustible,Exports,La Rochelle,Amériques,,,
 poignées,osier,Bois divers hors combustible,Exports,La Rochelle,Angleterre,,,
 poignées,osier,Bois divers hors combustible,Exports,La Rochelle,Hollande,,,
@@ -5542,6 +5559,7 @@ poignées,osier,Bois divers hors combustible,Exports,Nantes,Nord,,,
 poignées,osier,Bois divers hors combustible,Exports,,Nord,,,
 poignées,fil à broder,Fils divers,Exports,Rennes,Amériques,,,
 poignées,cabillaud,Pêche et fruits de mer,Imports,Rennes,Nord,,,
+poignées,morue salée,Pêche et fruits de mer,Export,,,,,
 poignées,morue verte cap et queues,Pêche et fruits de mer,Imports,Nantes,Amériques,,,
 poignées,morue verte cap et queues,Pêche et fruits de mer,Imports,Nantes,Espagne,,,
 poignées,morue verte des Îles,Pêche et fruits de mer,Imports,Rouen,Angleterre,,,
@@ -7524,7 +7542,6 @@ torches,parchemins,"Cuirs, peaux et pelleterie",Exports,Rennes,Hollande,,,
 treilles,douelles pour tonneaux,"Ouvrages de bois, liège et jonc",Imports,Châlons,Allemagne,,,
 treilles,merrains,"Ouvrages de bois, liège et jonc",Imports,Châlons,Allemagne,,,
 urnes,porcelaine,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,Rennes,Espagne,,,
-valeur,,[vide],Exports,,Monde,,,
 valeur,tortues vivantes et volailles,Animaux,Exports,,Monde,,,
 valeur,tortues vivantes et volailles,Animaux,Imports,,Monde,,,
 valeur,orfèvrerie,Argenterie et orfèvrerie,Imports,Marseille,Italie,,,
@@ -7533,6 +7550,7 @@ valeur,épée de cuivre doré,"Armes, munitions, poudre et pierres à fusil",Exp
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Exports,,Monde,,,
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Exports,,Outre-mers,,,
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Imports,,Monde,,,
+valeur,bière,"Bière, cidre et vinaigre",Export,,,,,
 valeur,grains orge germé,Blé et autres grains comestibles,Imports,Rouen,Angleterre,,,
 valeur,bois d'olivier,Bois divers hors combustible,Imports,Nantes,Italie,,,
 valeur,bois,Bois divers hors combustible,Exports,Nantes,[vide],,,
@@ -7652,6 +7670,7 @@ valeur,passementerie de fil laine et poil,Rubanerie et passementerie diverse,Imp
 valeur,passementerie de laine écrue pure,Rubanerie et passementerie diverse,Imports,,Monde,,,
 valeur,passementerie de laine pure teinte,Rubanerie et passementerie diverse,Imports,,Monde,,,
 valeur,bas de soie vieux,Soieries diverses,Imports,Marseille,Italie,,,
+valeur,blonde de soie,Soieries diverses,Exports,,Monde,,,
 valeur,sucre,Sucre,Exports,France,Afrique,,,
 valeur,bandes de tulle brodées,Textiles manufacturés divers et mélangés,Exports,,Monde,,,
 valeur,platille,Toiles de chanvre et de lin,Exports,France,Afrique,,,
