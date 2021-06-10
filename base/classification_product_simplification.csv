@@ -4880,10 +4880,10 @@ chapelets de verre,5,chapelets de verre,5
 chapelets en bois,1,chapelets de bois,24
 chapelière de castor,2,chapelière de castor,2
 chapellerie,210,chapeaux,650
-chapellerie commune de laine,1,chapellerie commune de laine,1
-chapellerie commune de poil ou de laine,1,chapellerie commune de laine ou de poil,1
-chapellerie de castor,1,chapellerie de castor,1
-chapellerie de feutre fine de laine ou de castor,1,chapellerie de castor de feutre fin ou de laine,1
+chapellerie commune de laine,1,chapeaux communs de laine,1
+chapellerie commune de poil ou de laine,1,chapeaux communs de laine ou de poil,1
+chapellerie de castor,1,chapeaux de castor,1
+chapellerie de feutre fine de laine ou de castor,1,chapeaux de castor de feutre fin ou de laine,1
 chapellerie de toute sorte,50,chapeaux,650
 chapellerie en paille et sparterie,31,chapeaux de paille et sparterie,31
 chapellerie en poil et laine,36,chapeaux de poil et de laine,36
@@ -10517,7 +10517,7 @@ etocs de fer,4,etocs de fer,13
 étoffe mélangée soie et coton,5,étoffe de coton et de soie,316
 étoffe mélangée soie et fleuret,1,étoffe de fleuret et de soie,10
 étoffe mélangée soie et galette,1,étoffe de galette et de soie,2
-étoffe mêlée,15,Étoffe mêlée,15
+étoffe mêlée,15,étoffe mêlée,15
 étoffe melée à peu de soie,10,étoffe à peu de soie,343
 étoffe mêlée à peu de soie,28,étoffe à peu de soie,343
 étoffe mêlée au fil de soie,8,étoffe mêlée de fil de soie,8
@@ -10908,7 +10908,7 @@ fer barres,7,barres de fer,2925
 fer battu,75,fer battu,75
 fer battu en poêles à frire,1,poêles à frire de fer battu,1
 fer battu et fondu,1,fer battu et fondu,1
-fer blanc en feuilles ouvré,1,,28
+fer blanc en feuilles ouvré,1,fer blanc en feuilles ouvré,28
 fer bleu,1,fer bleu,1
 fer brut,1,fer brut,2
 fer carbonaté acier forgé battu ou laminé,1,acier battu forgé ou laminé,1
@@ -11451,7 +11451,7 @@ fiches,1,fiches,1
 fichus,5,fichus,5
 fichus brodés de soie en couleur,1,fichus brodés de soie en couleur,1
 fichus de mousseline,1,fichus de mousseline,1
-fichus de mousseline brodée de couleur,1,,28
+fichus de mousseline brodée de couleur,1,fichus de mousseline brodée de couleur,28
 fichus de soie,8,fichus de soie,8
 fichus de soie des Indes,1,fichus de soie des Indes,1
 fichus divers,1,fichus divers,1
@@ -17049,7 +17049,7 @@ métaux matériaux à bâtir et articles propres à l'équipement des navires fi
 métaux matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche,5,futailles vides ou autres ustensiles de pêche,5
 métaux matériaux à bâtir et articles propres à l'équipement des navires jeux de voile,5,jeux de voile,105
 métaux matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes,7,plomb,430
-métaux matériaux à bâtir et articles propres à l'équipement des navires toile à voile,10,,28
+métaux matériaux à bâtir et articles propres à l'équipement des navires toile à voile,10,toile à voile,28
 méteil,2,grains méteil,53
 methe,1,methe,1
 métiers,3,métiers,3
@@ -17718,7 +17718,7 @@ mousseline fine,4,mousseline fine,4
 mousseline grosse,1,mousseline grosse,1
 mousseline imprimée,1,mousseline imprimée,1
 mousseline nationale,4,mousseline nationale,4
-mousseline rayées à fleurs,1,,28
+mousseline rayée à fleurs,1,mousseline rayée à fleurs,28
 mousseline unie,1,mousseline unie,4
 mousselinette,2,mousseline,943
 mousserons,44,mousserons,44
@@ -18071,7 +18071,7 @@ objets manufacturés bonneterie diverse,38,bonneterie,466
 objets manufacturés bonneterie en fil coton et laine,15,bonneterie de coton et bonneterie de fil et bonneterie de laine,15
 objets manufacturés bonneterie ordinaire en coton et laine,5,bonneterie commune de coton et bonneterie commune de laine,5
 objets manufacturés chapellerie,45,chapeaux,650
-objets manufacturés chapellerie de toute sorte,6,chapellerie,6
+objets manufacturés chapellerie de toute sorte,6,chapeaux,6
 objets manufacturés couvertures diverses,5,couvertures,98
 objets manufacturés dentelle,40,dentelle,324
 objets manufacturés dentelle de fil,8,dentelle de fil,453
@@ -18092,7 +18092,7 @@ objets manufacturés étoffe riche,31,étoffe riche,116
 objets manufacturés gaze crêpe et mouchoirs de soie,58,gaze de soie et crêpe de soie et mouchoirs de soie,58
 objets manufacturés gaze et linon,4,gaze et linon,4
 objets manufacturés mouchoirs de coton de France,7,mouchoirs de coton de France,22
-objets manufacturés mouchoirs de coton étrangers,6,,28
+objets manufacturés mouchoirs de coton étrangers,6,mouchoirs de coton étrangers,28
 objets manufacturés mouchoirs de fil de France,7,mouchoirs de fil de France,12
 objets manufacturés mouchoirs de fil en coton de France,6,mouchoirs de fil en coton de France,6
 objets manufacturés mouchoirs de fil étrangers,4,mouchoirs de fil étrangers,4
@@ -18103,7 +18103,7 @@ objets manufacturés mouchoirs divers mélangés,5,mouchoirs,243
 objets manufacturés mousseline,24,mousseline,943
 objets manufacturés mousseline de France,3,mousseline de France,6
 objets manufacturés mousseline de l'Inde,5,mousseline de l'Inde,5
-objets manufacturés mousseline étrangère,7,,28
+objets manufacturés mousseline étrangère,7,mousseline étrangère,28
 objets manufacturés objets manufacturés réunis,27,objets manufacturés réunis,187
 objets manufacturés réunis,139,objets manufacturés réunis,187
 objets manufacturés rubanerie,7,ruban,263
@@ -18112,7 +18112,7 @@ objets manufacturés rubanerie diverse,3,ruban,263
 objets manufacturés rubanerie ordinaire,16,ruban commune,16
 objets manufacturés savon,6,savon,2208
 objets manufacturés soierie en étoffe mouchoirs gaze et ruban,40,gaze et mouchoirs et ruban de soie,40
-objets manufacturés toile batiste et linon,9,toile batiste et lino,9
+objets manufacturés toile batiste et linon,9,batiste et linon,9
 objets manufacturés toile de coton,41,toile de coton,1264
 objets manufacturés toile de coton blanche de France,7,toile de coton blanche de France,7
 objets manufacturés toile de coton blanche étrangère,10,toile de coton blanche étrangère,10
@@ -27407,7 +27407,7 @@ toile Mortagne,4,toile de Mortagne,143
 toile mousseline,53,mousseline,943
 toile mousseline brodée,1,mousseline brodée,12
 toile mousseline des Indes,1,mousseline des Indes,24
-toile mousseline fine,2,,28
+toile mousseline fine,2,mousseline fine,28
 toile mousseline unie,3,mousseline unie,4
 toile mousselinette,1,mousselinette,1
 toile moustiquaire de fil,2,moustiquaire de fil,3
