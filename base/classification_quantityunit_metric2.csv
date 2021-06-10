@@ -333,7 +333,6 @@ barils gros,noir de fumée,Matières brutes et transformées pour teinture,Impor
 barils gros,anchois,Pêche et fruits de mer,Imports,Marseille,Italie,,,
 barils ordinaires,cabillaud,Pêche et fruits de mer,Imports,Bordeaux,Hollande,,,
 barils petit modèle,fer-blanc,Fer-blanc,Imports,Bordeaux,Hollande,,,
-barils,,[vide],Export,,Amériques,,,
 barils,acier,Acier,Exports,,Asie,,,
 barils,acier,Acier,Exports,,États-Unis d'Amérique,,,
 barils,acier,Acier,Exports,Nantes,Amériques,kg,195.8,Voir fichier Métrologie
@@ -819,6 +818,7 @@ barils,charbon de bois,Combustibles dont charbons et bois,Exports,,Allemagne,,,
 barils,charbon de bois,Combustibles dont charbons et bois,Imports,Flandre,Flandre et autres états de l'Empereur,,,
 barils,charbon de terre cargo,Combustibles dont charbons et bois,Imports,Rouen,Angleterre,,,
 barils,charbon de terre grenier,Combustibles dont charbons et bois,Imports,Rouen,Angleterre,,,
+barils,charbon de terre,Combustibles dont charbons et bois,Export,,Amériques,,,
 barils,charbon de terre,Combustibles dont charbons et bois,Exports,,Afrique,,,
 barils,charbon de terre,Combustibles dont charbons et bois,Exports,,Amériques,,,
 barils,charbon de terre,Combustibles dont charbons et bois,Exports,,Asie,,,
@@ -2426,7 +2426,6 @@ bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Le Havre,Amériques
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Afrique,,,
 bouteilles,liqueurs diverses,Eaux-de-vie et liqueurs,Exports,Nantes,Amériques,,,
 bouteilles,liqueurs fines,Eaux-de-vie et liqueurs,Imports,Nantes,Amériques,,,
-bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Afrique,,,
 bouteilles,liqueurs,Eaux-de-vie et liqueurs,Exports,,Amériques,,,
@@ -3004,7 +3003,7 @@ bouteilles,vin divers,Vins divers,Exports,,Nord,,,
 bouteilles,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 bouteilles,vin divers,Vins divers,Exports,Saint-Malo,Afrique,,,
 bouteilles,vin divers,Vins divers,Exports,,Suisse,,,
-bouteilles,vin divers,Vins divers,Import,,,,,
+bouteilles,vin divers,Vins divers,Import,,Asie,,,
 bouteilles,vin du Barrois,Vins divers,Imports,Châlons,Allemagne,,,
 bouteilles,vin du Cap Breton,Vins divers,Exports,La Rochelle,Amériques,,,
 bouteilles,vin du Cap Breton,Vins divers,Exports,Nantes,Afrique,,,
@@ -3992,7 +3991,6 @@ muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Hollande,litres,268.21439
 muids,bière,"Bière, cidre et vinaigre",Imports,Rouen,Nord,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,,Suisse,litres,268.21439,D'après Portet
 muids,bière,"Bière, cidre et vinaigre",Imports,Valenciennes,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
-muids,cidre,"Bière, cidre et vinaigre",Export,,,,,
 muids,cidre,"Bière, cidre et vinaigre",Export,,Asie,,,
 muids,cidre,"Bière, cidre et vinaigre",Exports,,Amériques,litres,268.21439,D'après Portet
 muids,cidre,"Bière, cidre et vinaigre",Exports,Amiens,France,litres,268.21439,D'après Portet
@@ -4468,7 +4466,6 @@ muids,liqueurs diverses,Eaux-de-vie et liqueurs,Imports,,Suisse,litres,268.21439
 muids,liqueurs et rhum,Eaux-de-vie et liqueurs,Exports,,États-Unis d'Amérique,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Flandre et autres états de l'Empereur,litres,268.21439,D'après Portet
 muids,liqueurs rhum,Eaux-de-vie et liqueurs,Exports,,Nord,litres,268.21439,D'après Portet
-muids,liqueurs,Eaux-de-vie et liqueurs,Export,,,,,
 muids,liqueurs,Eaux-de-vie et liqueurs,Export,,Asie,,,
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,Angleterre,litres,268.21439,D'après Portet
 muids,liqueurs,Eaux-de-vie et liqueurs,Exports,Amiens,France,litres,268.21439,D'après Portet
@@ -5149,7 +5146,6 @@ muids,vin divers,Vins divers,Exports,Rouen,Afrique,,,
 muids,vin divers,Vins divers,Exports,Rouen,Amériques,,,
 muids,vin divers,Vins divers,Exports,Saint-Malo,Amériques,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Exports,,Suisse,litres,268.21439,D'après Portet
-muids,vin divers,Vins divers,Import,,,,,
 muids,vin divers,Vins divers,Import,,Asie,,,
 muids,vin divers,Vins divers,Imports,,Allemagne,litres,268.21439,D'après Portet
 muids,vin divers,Vins divers,Imports,,Italie,litres,268.21439,D'après Portet
@@ -7550,7 +7546,7 @@ valeur,épée de cuivre doré,"Armes, munitions, poudre et pierres à fusil",Exp
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Exports,,Monde,,,
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Exports,,Outre-mers,,,
 valeur,agrès apparaux de navire et embarcations,Bâtiments de mer et apparaux,Imports,,Monde,,,
-valeur,bière,"Bière, cidre et vinaigre",Export,,,,,
+valeur,bière,"Bière, cidre et vinaigre",Export,,Asie,,,
 valeur,grains orge germé,Blé et autres grains comestibles,Imports,Rouen,Angleterre,,,
 valeur,bois d'olivier,Bois divers hors combustible,Imports,Nantes,Italie,,,
 valeur,bois,Bois divers hors combustible,Exports,Nantes,[vide],,,
