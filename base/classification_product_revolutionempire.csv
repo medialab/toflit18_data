@@ -1640,7 +1640,7 @@ bois de clafou,1,Bois divers hors combustible,non,13950
 bois de cleippe,1,Bois divers hors combustible,non,13950
 bois de coco,2,Bois divers hors combustible,non,13950
 bois de Constantine,0,Bois divers hors combustible,non,13950
-bois de construction,6,,non,646
+bois de construction,6,Bois divers hors combustible,non,646
 bois de corde,1,Bois divers hors combustible,non,13950
 bois de coulette de hêtre,1,Bois divers hors combustible,non,13950
 bois de couleur,35,Bois divers hors combustible,non,13950
@@ -1834,7 +1834,7 @@ bois et pierre,1,Matières premières diverses,non,22663
 bois exotique d'ébénisterie,1,Bois divers hors combustible,non,13950
 bois exotique de teinture,1,Matières brutes et transformées pour teinture,non,19886
 bois exotique de teinture en morceaux et Pernambouc,1,Matières brutes et transformées pour teinture,non,19886
-bois feuillard et osiers,6,,non,646
+bois feuillard et osiers,6,"Ouvrages de bois, liège et jonc",non,646
 bois feuillards à barriques,5,"Ouvrages de bois, liège et jonc",non,37978
 bois feuillards à petits barils,1,"Ouvrages de bois, liège et jonc",non,37978
 bois feuillards à quarteaux,2,"Ouvrages de bois, liège et jonc",non,37978
@@ -2238,7 +2238,7 @@ bougie en suif et suif,3,"Bougies, chandelles et flambeaux",non,3473
 bougie et cierges,24,"Bougies, chandelles et flambeaux",non,3473
 bougie jaune,9,"Bougies, chandelles et flambeaux",non,3473
 bougie verte,1,"Bougies, chandelles et flambeaux",non,3473
-bougies de table,6,,non,646
+bougies de table,6,"Bougies, chandelles et flambeaux",non,646
 bouguette,112,Produits inconnus,non,15877
 bouilloires de cuivre,2,Ouvrages métalliques,non,23459
 bouillotte de cuivre,1,Ouvrages métalliques,non,23459
@@ -2539,7 +2539,7 @@ brai gras,669,"Brai, goudron et résines",non,8790
 brai gras et goudron,24,"Brai, goudron et résines",non,8790
 brai gras et sec,1,"Brai, goudron et résines",non,8790
 brai gras goudron,5,"Brai, goudron et résines",non,8790
-brai gras goudron et résine,5,,non,646
+brai gras goudron et résine,5,"Brai, goudron et résines",non,646
 brai gras ou goudron,3,"Brai, goudron et résines",non,8790
 brai gros,12,"Brai, goudron et résines",non,8790
 brai gros et goudron,2,"Brai, goudron et résines",non,8790
@@ -3233,20 +3233,20 @@ carpette,4,Textiles manufacturés divers et mélangés,non,2765
 carrabe,2,Produits inconnus,non,15877
 carré,61,Divers incertains,non,8509
 carré de fer plat,12,Ouvrages métalliques,non,23459
-carreaux,12,Matières premières diverses,non,22663
-carreaux ???,1,Matières premières diverses,non,22663
+carreaux,12,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux ???,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
 carreaux à dentelle,4,Dentelles,non,2948
-carreaux à paver,20,Matières premières diverses,non,22663
-carreaux à paver de pierre,7,Matières premières diverses,non,22663
-carreaux à paver de terre,133,Matières premières diverses,non,22663
-carreaux à vitres,1,Matières premières diverses,non,22663
-carreaux bleus,2,Matières premières diverses,non,22663
-carreaux briques et tuiles,2,Matières premières diverses,non,22663
-carreaux d'ardoise,6,Matières premières diverses,non,22663
-carreaux d'Île de France,1,Matières premières diverses,non,22663
-carreaux de Bidache,16,Matières premières diverses,non,22663
-carreaux de Bidache de pierre,9,Matières premières diverses,non,22663
-carreaux de brique,42,Matières premières diverses,non,22663
+carreaux à paver,20,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux à paver de pierre,7,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux à paver de terre,133,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux à vitres,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux bleus,2,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux briques et tuiles,2,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux d'ardoise,6,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux d'Île de France,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de Bidache,16,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de Bidache de pierre,9,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de brique,42,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
 carreaux de dentelle,1,Dentelles,non,2948
 carreaux de faïence,94,"Porcelaine, poterie, faïence et ouvrages de terre",non,8601
 carreaux de genièvre,1,Divers incertains,non,8509
@@ -3256,14 +3256,14 @@ carreaux de marbre bâtard,4,Marbre brut et ouvré,non,2094
 carreaux de marbre gros,1,Marbre brut et ouvré,non,2094
 carreaux de marbre ouvrés,4,Marbre brut et ouvré,non,2094
 carreaux de marbre pour le Roi,1,Marbre brut et ouvré,non,2094
-carreaux de moulage,1,Ouvrages divers et mélangés,non,23984
-carreaux de pierre,49,Matières premières diverses,non,22663
-carreaux de pierre de Bidache,1,Matières premières diverses,non,22663
-carreaux de pierre de terre,1,Matières premières diverses,non,22663
-carreaux de pierre noire,1,Matières premières diverses,non,22663
-carreaux de pierres bâtir,1,Matières premières diverses,non,22663
-carreaux de sera,2,Produits inconnus,non,15877
-carreaux de Suède,1,Matières premières diverses,non,22663
+carreaux de moulage,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,23984
+carreaux de pierre,49,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de pierre de Bidache,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de pierre de terre,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de pierre noire,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de pierres bâtir,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux de sera,2,"Porcelaine, poterie, faïence et ouvrages de terre",non,15877
+carreaux de Suède,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
 carreaux de terre,349,"Porcelaine, poterie, faïence et ouvrages de terre",oui,8601
 carreaux de terre cuite,366,"Porcelaine, poterie, faïence et ouvrages de terre",non,8601
 carreaux de terre d'or pied demi en carré,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,8601
@@ -3271,18 +3271,18 @@ carreaux de terre et tuiles bombées,8,"Porcelaine, poterie, faïence et ouvrage
 carreaux de terre grands,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,8601
 carreaux de verre,15,Verrerie,non,7240
 carreaux de verre à vitre,40,Verrerie,non,7240
-carreaux démoulés,1,Matières premières diverses,non,22663
-carreaux des prises,1,Matières premières diverses,non,22663
-carreaux en nombre,1,Matières premières diverses,non,22663
+carreaux démoulés,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux des prises,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux en nombre,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
 carreaux et ouvrages de terre cuite,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,8601
-carreaux marbre chaux pierres à bâtir,6,,non,646
-carreaux meulage de Brie,1,Matières premières diverses,non,22663
-carreaux meulage de France,2,Matières premières diverses,non,22663
-carreaux moulage,4,Matières premières diverses,non,22663
-carreaux moulage de Brie,7,Matières premières diverses,non,22663
-carreaux moulage de France,8,Matières premières diverses,non,22663
-carreaux noirs,3,Matières premières diverses,non,22663
-carreaux rouges,10,Matières premières diverses,non,22663
+carreaux marbre chaux pierres à bâtir,6,"Porcelaine, poterie, faïence et ouvrages de terre",non,646
+carreaux meulage de Brie,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux meulage de France,2,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux moulage,4,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux moulage de Brie,7,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux moulage de France,8,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux noirs,3,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
+carreaux rouges,10,"Porcelaine, poterie, faïence et ouvrages de terre",non,22663
 carrelet,1,Ouvrages divers et mélangés,non,23984
 carres,2,Produits inconnus,non,15877
 carriole d'enfant,1,Ouvrages divers et mélangés,non,23984
@@ -3408,7 +3408,7 @@ caves de 7 flacons,1,Ouvrages divers et mélangés,non,23984
 caves de 8 flacons,2,Ouvrages divers et mélangés,non,23984
 caves de 9 flacons,63,Ouvrages divers et mélangés,non,23984
 caves de flacons,12,Ouvrages divers et mélangés,non,23984
-caves et canevettes avec leurs flacons,1,,non,646
+caves et canevettes avec leurs flacons,1,Ouvrages divers et mélangés,non,646
 caves et canevettes de 6 flacons,3,Ouvrages divers et mélangés,non,23984
 caves files,1,Ouvrages divers et mélangés,non,23984
 caves garnies,126,Ouvrages divers et mélangés,non,23984
@@ -3804,7 +3804,7 @@ chapeaux brodés d'or,6,Chapeaux hors paille et écorce,non,4548
 chapeaux chinois et grosse caisse,1,Chapeaux hors paille et écorce,non,4548
 chapeaux cirés,1,Chapeaux hors paille et écorce,non,4548
 chapeaux communs,297,Chapeaux hors paille et écorce,non,4548
-chapeaux communs de laine,1,,non,646
+chapeaux communs de laine,1,Chapeaux hors paille et écorce,non,646
 chapeaux communs de laine ou de poil,6,Chapeaux hors paille et écorce,non,4548
 chapeaux communs de paille,197,Chapeaux hors paille et écorce,non,4548
 chapeaux d'écorce,3,Chapeaux d'écorce et de paille,non,665
@@ -3820,7 +3820,7 @@ chapeaux dauphins,4,Chapeaux hors paille et écorce,non,4548
 chapeaux de bois,11,Chapeaux d'écorce et de paille,non,665
 chapeaux de castor,642,Chapeaux hors paille et écorce,non,4548
 chapeaux de castor brodés,2,Chapeaux hors paille et écorce,non,4548
-chapeaux de castor de feutre fin ou de laine,1,,non,646
+chapeaux de castor de feutre fin ou de laine,1,Chapeaux hors paille et écorce,non,646
 chapeaux de castor et de poil,2,Chapeaux hors paille et écorce,non,4548
 chapeaux de castor fins,1,Chapeaux hors paille et écorce,non,4548
 chapeaux de castor noir,2,Chapeaux hors paille et écorce,non,4548
@@ -3895,11 +3895,6 @@ chapelets de coco,6,Chapeaux hors paille et écorce,non,4548
 chapelets de Jérusalem,1,Chapeaux hors paille et écorce,non,4548
 chapelets de verre,5,Verrerie,non,7240
 chapelière de castor,2,Chapeaux hors paille et écorce,non,4548
-chapellerie,6,,oui,646
-chapellerie commune de laine,1,Chapeaux hors paille et écorce,oui,4548
-chapellerie commune de laine ou de poil,1,Chapeaux hors paille et écorce,oui,4548
-chapellerie de castor,1,Chapeaux hors paille et écorce,oui,4548
-chapellerie de castor de feutre fin ou de laine,1,Chapeaux hors paille et écorce,oui,4548
 chapes de fer,1,Ouvrages métalliques,non,23459
 chaplas,2,Produits inconnus,non,15877
 chapons,11,Animaux,non,5595
@@ -5483,7 +5478,7 @@ cuivre en masse brut mitraille et vieux,1,Cuivre,non,3175
 cuivre en masse brut ou rouge,1,Cuivre,non,3175
 cuivre en mitraille et vieux,10,Cuivre,non,3175
 cuivre en pain,25,Cuivre,non,3175
-cuivre en planches feuilles ouvré,5,,non,646
+cuivre en planches feuilles ouvré,5,Ouvrages métalliques,non,646
 cuivre en plane,1,Cuivre,non,3175
 cuivre en plats,1,Cuivre,non,3175
 cuivre en potasse,1,Matières premières diverses,non,22663
@@ -6616,7 +6611,7 @@ eau-forte huile de vitriol le dania,1,Drogues diverses,non,11081
 écorce de simarouba,1,Drogues médicinales diverses,non,12138
 écorce de soie,2,Matières premières diverses,non,22663
 écorce de tilleul,52,Matières premières diverses,non,22663
-écorce de tilleul pour cordage,2,,non,646
+écorce de tilleul pour cordage,2,Matières premières diverses,non,646
 écorce de tilleul pour cordages,2,Matières premières diverses,oui,22663
 écorce pour tanner,19,Matières premières diverses,non,22663
 écorce rayée,1,Matières premières diverses,non,22663
@@ -7406,8 +7401,7 @@ etocs de fer,13,Ouvrages métalliques,non,23459
 étoffe impériale,2,Étoffes diverses,non,7875
 étoffe laine de soie,1,Étoffes de soie,non,9853
 étoffe manchettes,1,Étoffes diverses,non,7875
-Étoffe mêlée,15,,oui,646
-étoffe mêlée,26,,non,646
+étoffe mêlée,26,Étoffes diverses,non,646
 étoffe mêlée au ??? soie,5,Étoffes de soie,non,9853
 étoffe mêlée de bourre en molleton,1,Étoffes de soie,non,9853
 étoffe mêlée de fil de soie,8,Étoffes de soie,non,9853
@@ -7447,7 +7441,7 @@ etocs de fer,13,Ouvrages métalliques,non,23459
 étoupes de laine,3,Laines non transformées diverses,non,5507
 étoupes de lin,15,Lin,non,3326
 étoupes de soie,84,"Filoselle, fleuret et bourre de soie",non,879
-étoupes de vieux cordage,1,,non,646
+étoupes de vieux cordage,1,Cordage et filets,non,646
 étoupes de vieux cordages,1,Cordage et filets,oui,3432
 étoupes et cordes de lin,106,Lin,non,3326
 étoupes noires,10,Matières premières diverses,non,22663
@@ -7651,7 +7645,7 @@ fer battu,75,Ouvrages métalliques,non,23459
 fer battu et fondu,1,Ouvrages métalliques,non,23459
 fer battu et ouvrages de fer,145,Ouvrages métalliques,non,23459
 fer blanc en feuille ouvrée,1,Ouvrages métalliques,oui,23459
-fer blanc en feuilles ouvré,7,,non,646
+fer blanc en feuilles ouvré,7,Ouvrages métalliques,non,646
 fer bleu,1,Fer,non,6005
 fer brut,2,Fer,non,6005
 fer brut de fonte,5,Fer,non,6005
@@ -7670,7 +7664,7 @@ fer d'Espagne,3,Fer,non,6005
 fer de captifs,1,Fer,non,6005
 fer de charrues,2,Ouvrages métalliques,non,23459
 fer de fonte,68,Ouvrages métalliques,non,23459
-fer de fonte brut ouvré,11,,non,646
+fer de fonte brut ouvré,11,Ouvrages métalliques,non,646
 fer de fonte en gueuse,4,Ouvrages métalliques,non,23459
 fer de fonte ouvert,2,Ouvrages métalliques,non,23459
 fer de lin cierge,1,Divers incertains,non,8509
@@ -7681,14 +7675,14 @@ fer de toute sorte,13,Fer,non,6005
 fer de traite,1,Fer,non,6005
 fer de voyage,1,Fer,non,6005
 fer dhipsium,1,Fer,non,6005
-fer divers en barres feuillard,11,,non,646
+fer divers en barres feuillard,11,Fer,non,646
 fer en ?,9,Fer,non,6005
 fer en balle,1,Fer,non,6005
-fer en ballon,5,Ouvrages métalliques,non,23459
-fer en bandes,37,Ouvrages métalliques,non,23459
-fer en barils,2,Ouvrages métalliques,non,23459
-fer en barres,2,Ouvrages métalliques,non,23459
-fer en barres et feuillards,3,Ouvrages métalliques,non,23459
+fer en ballon,5,Fer,non,23459
+fer en bandes,37,Fer,non,23459
+fer en barils,2,Fer,non,23459
+fer en barres,2,Fer,non,23459
+fer en barres et feuillards,3,Fer,non,23459
 fer en barres et feuilles,1,Fer,non,6005
 fer en batterie,92,Ouvrages métalliques,non,23459
 fer en bocages,3,Ouvrages métalliques,non,23459
@@ -7698,7 +7692,6 @@ fer en casse,18,Ouvrages métalliques,non,23459
 fer en caverge,1,Ouvrages métalliques,non,23459
 fer en chaudronnerie,7,Ouvrages métalliques,non,23459
 fer en choux,6,Ouvrages métalliques,non,23459
-fer en clous,6,,non,646
 fer en crapaudines,5,Ouvrages métalliques,non,23459
 fer en culture,1,Ouvrages métalliques,non,23459
 fer en écopes,9,Ouvrages métalliques,non,23459
@@ -7910,7 +7903,7 @@ fichus,5,Habits et lingerie,non,9887
 fichus brodés de soie en couleur,1,Habits et lingerie,non,9887
 fichus de gaze de soie,6,Habits et lingerie,non,9887
 fichus de mousseline,1,Habits et lingerie,non,9887
-fichus de mousseline brodée de couleur,1,,non,646
+fichus de mousseline brodée de couleur,1,Habits et lingerie,non,646
 fichus de mousseline brodés de couleur,1,Habits et lingerie,oui,9887
 fichus de soie,8,Habits et lingerie,non,9887
 fichus de soie des Indes,1,Habits et lingerie,non,9887
@@ -8013,7 +8006,7 @@ fil à tisserand de chenette,1,Fils divers,non,8809
 fil à tisserand divers,2,Fils divers,non,8809
 fil à toile,8,Fils divers,non,8809
 fil à tricoter,147,Fils divers,non,8809
-fil à voile,396,,non,646
+fil à voile,396,Fils divers,non,646
 fil auville,1,Fils divers,non,8809
 fil blanc,264,Fils divers,non,8809
 fil blanc à corder,1,Fils divers,non,8809
@@ -8794,7 +8787,7 @@ futailles et beurre,1,Divers mélangés,non,41244
 futailles petites,1,"Ouvrages de bois, liège et jonc",non,37978
 futailles vides,254,"Ouvrages de bois, liège et jonc",non,37978
 futailles vides de tonnelier,2,"Ouvrages de bois, liège et jonc",non,37978
-futailles vides ou autres ustensiles de pêche,5,,non,646
+futailles vides ou autres ustensiles de pêche,5,Ouvrages divers et mélangés,non,646
 futailles vieilles,20,"Ouvrages de bois, liège et jonc",non,37978
 futaine,71,Toiles de coton,non,10175
 futaine blanche,16,Étoffes diverses,non,7875
@@ -9128,7 +9121,7 @@ gaze de soie pure,3,Étoffes de soie,non,9853
 gaze de toute autre sorte que soie pure,2,Soieries diverses,non,3992
 gaze en crêpe,10,Soieries diverses,non,3992
 gaze en crêpe de soie,5,Soieries diverses,non,3992
-gaze et linon,4,,non,646
+gaze et linon,4,Textiles manufacturés divers et mélangés,non,646
 gaze et Marly,25,Textiles manufacturés divers et mélangés,non,2765
 gaze et Marly de fil,53,Textiles manufacturés divers et mélangés,non,2765
 gaze et Marly de soie,49,Soieries diverses,non,3992
@@ -10018,7 +10011,7 @@ harnais de chaise,23,Cordonnerie et sellerie,non,2632
 harnais de chevaux,20,Cordonnerie et sellerie,non,2632
 harnais de chevaux de cuir,8,Cordonnerie et sellerie,non,2632
 harnais de cuir,2,Cordonnerie et sellerie,non,2632
-harnais de cuir et sellerie,4,,non,646
+harnais de cuir et sellerie,4,Cordonnerie et sellerie,non,646
 harnais de sellier,1,Cordonnerie et sellerie,non,2632
 harnais et chaises roulantes,1,Cordonnerie et sellerie,non,2632
 harnais et housses de chevaux,1,Cordonnerie et sellerie,non,2632
@@ -12581,7 +12574,7 @@ momie,7,Manne et médicaments,non,1496
 moncayard,5,Étoffes diverses,non,7875
 mongette,44,Subsistances diverses et mélangées,non,11384
 mongistere,7,Produits inconnus,non,15877
-monnaies,2,,non,646
+monnaies,2,Monnaies et métaux précieux,non,646
 monnaies au type étranger,95,Monnaies et métaux précieux,non,1536
 monnaies d'argent,33,Monnaies et métaux précieux,non,1536
 monnaies d'argent en espèces coursables,3,Monnaies et métaux précieux,non,1536
@@ -12762,27 +12755,27 @@ mouchoirs de fil de lin,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil de lin imprimé,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil de Rouen,2,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil du Béarn,3,Châles et mouchoirs hors soie,non,4535
-mouchoirs de fil en coton de France,6,,non,646
+mouchoirs de fil en coton de France,6,Châles et mouchoirs hors soie,non,646
 mouchoirs de fil et de batiste,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil et de coton,89,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil et de lin,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil et de pitre,1,Châles et mouchoirs hors soie,non,4535
-mouchoirs de fil étrangers,4,,non,646
+mouchoirs de fil étrangers,4,Châles et mouchoirs hors soie,non,646
 mouchoirs de fil fin,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil organdi,15,Châles et mouchoirs hors soie,non,4535
 mouchoirs de fil peint,1,Châles et mouchoirs hors soie,non,4535
-mouchoirs de filoselle,1,Châles et mouchoirs de soie,non,986
-mouchoirs de fleuret,5,Châles et mouchoirs de soie,non,986
+mouchoirs de filoselle,1,Châles et mouchoirs hors soie,non,986
+mouchoirs de fleuret,5,Châles et mouchoirs hors soie,non,986
 mouchoirs de foulard,3,Châles et mouchoirs hors soie,non,4535
 mouchoirs de France,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de gaze,68,Châles et mouchoirs hors soie,non,4535
-mouchoirs de gaze de soie,3,Châles et mouchoirs de soie,non,986
+mouchoirs de gaze de soie,3,Châles et mouchoirs hors soie,non,986
 mouchoirs de gaze divers,3,Châles et mouchoirs hors soie,non,4535
 mouchoirs de gaze grands,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de Hollande,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de kinfin,1,Châles et mouchoirs hors soie,non,4535
 mouchoirs de l'hotes,2,Châles et mouchoirs hors soie,non,4535
-mouchoirs de l'Inde,10,,non,646
+mouchoirs de l'Inde,10,Châles et mouchoirs hors soie,non,646
 mouchoirs de la Compagnie des Indes,3,Châles et mouchoirs hors soie,non,4535
 mouchoirs de laine,2,Châles et mouchoirs hors soie,non,4535
 mouchoirs de laiton,1,Châles et mouchoirs hors soie,non,4535
@@ -12938,7 +12931,7 @@ mousseline de coton unie et brûlée,14,"Mousseline, basin et nankin",non,3303
 mousseline de coton unie et peinte,17,"Mousseline, basin et nankin",non,3303
 mousseline de France,6,"Mousseline, basin et nankin",non,3303
 mousseline de l'étranger,1,"Mousseline, basin et nankin",non,3303
-mousseline de l'Inde,5,,non,646
+mousseline de l'Inde,5,"Mousseline, basin et nankin",non,646
 mousseline de l'Inde dite Casses,1,"Mousseline, basin et nankin",non,3303
 mousseline de la Compagnie,2,"Mousseline, basin et nankin",non,3303
 mousseline de Suisse et siamoise à ligne de soie,4,"Mousseline, basin et nankin",non,3303
@@ -12950,7 +12943,7 @@ mousseline et mousselinette de coton,0,"Mousseline, basin et nankin",non,3303
 mousseline et toile de coton,1,"Mousseline, basin et nankin",non,3303
 mousseline et toile de coton blanc,15,"Mousseline, basin et nankin",non,3303
 mousseline et toile des Indes,1,"Mousseline, basin et nankin",non,3303
-mousseline étrangère,7,,non,646
+mousseline étrangère,7,"Mousseline, basin et nankin",non,646
 mousseline fine,6,"Mousseline, basin et nankin",non,3303
 mousseline grosse,1,"Mousseline, basin et nankin",non,3303
 mousseline imprimée,1,"Mousseline, basin et nankin",non,3303
@@ -13901,7 +13894,7 @@ pantoufles de cuir,2,Cordonnerie et sellerie,non,2632
 pantoufles de cuir et de maroquin,4,Cordonnerie et sellerie,non,2632
 paons,6,Animaux,non,5595
 papelias,1,Produits inconnus,non,15877
-papeterie,5,,non,646
+papeterie,5,Papier,non,646
 papier,2124,Papier,non,7736
 papier ???,5,Papier,non,7736
 papier à bulle,18,Papier,non,7736
@@ -16445,7 +16438,7 @@ porcs poulets,2,Chairs et œufs,non,9051
 porcs salé,0,Chairs et œufs,oui,9051
 porcs salé et petit salé,1,Chairs et œufs,oui,9051
 porcs salés,382,Chairs et œufs,non,9051
-porcs salés et petit salé,6,,non,646
+porcs salés et petit salé,6,Chairs et œufs,non,646
 porcs tués,1,Animaux,non,5595
 porcs tués petits,1,Animaux,non,5595
 porphyre,1,Matières premières diverses,non,22663
@@ -16606,7 +16599,7 @@ poudre de traite,6,Drogues diverses,non,11081
 poudre de traite d'Angleterre et de Hollande,1,Drogues diverses,non,11081
 poudre en grenaille,1,Divers incertains,non,8509
 poudre en pommade,1,Parfumerie et toilette,non,3984
-poudre et salpêtre,3,,non,646
+poudre et salpêtre,3,Divers mélangés,non,646
 poudre et teinture verte,5,Matières brutes et transformées pour teinture,non,19886
 poudre fine,1,Drogues diverses,non,11081
 poudre jaune,1,Drogues diverses,non,11081
@@ -17006,7 +16999,7 @@ rassade ou verroterie,3,Objets d'art et d'histoire naturelle,oui,2769
 rassades,324,Objets d'art et d'histoire naturelle,non,2769
 rassades de retour faute de vente,1,Objets d'art et d'histoire naturelle,non,2769
 rassades des prises,1,Objets d'art et d'histoire naturelle,non,2769
-rassades et verrerie,4,,non,646
+rassades et verrerie,4,Verrerie,non,646
 rassades et vitrifications,24,Verrerie,non,7240
 rassades ou verroterie,9,Verrerie,non,7240
 ratafia,112,Eaux-de-vie et liqueurs,non,15297
@@ -18622,7 +18615,7 @@ suif à chandelle,35,Graisses diverses,non,3654
 suif brut,10,Graisses diverses,non,3654
 suif de mouton,1,Graisses diverses,non,3654
 suif en branche,1,Graisses diverses,non,3654
-suif en chandelle,6,,non,646
+suif en chandelle,6,"Bougies, chandelles et flambeaux",non,646
 suif en chandelle et en rames,1,Graisses diverses,non,3654
 suif en masse,94,Graisses diverses,non,3654
 suif en pain,102,Graisses diverses,non,3654
@@ -19431,7 +19424,6 @@ toile basin coutil croisée et autre de chanvre et de lin,2,Toiles de chanvre et
 toile basin coutil croisée et autres,2,Toiles de chanvre et de lin,non,14680
 toile basin coutil croisée et autres de chanvre et de lin,3,Toiles de chanvre et de lin,non,14680
 toile batiste en carreaux,5,Toiles de chanvre et de lin,non,14680
-toile batiste et lino,9,,oui,646
 toile beaugrain,8,Toiles diverses,non,12940
 toile blancard,124,Toiles diverses,non,12940
 toile blancard cirée large,1,Toiles diverses,non,12940
@@ -19807,7 +19799,7 @@ toile de chanvre 1700 lignes,1,Toiles de chanvre et de lin,non,14680
 toile de chanvre 450 lignes,1,Toiles de chanvre et de lin,non,14680
 toile de chanvre à carreaux,2,Toiles de chanvre et de lin,non,14680
 toile de chanvre blanche,77,Toiles de chanvre et de lin,non,14680
-toile de chanvre blanche écrue,11,,non,646
+toile de chanvre blanche écrue,11,Toiles de chanvre et de lin,non,646
 toile de chanvre commune et de fil,3,Toiles de chanvre et de lin,non,14680
 toile de chanvre coutil,9,Toiles de chanvre et de lin,non,14680
 toile de chanvre d'emballage,15,Toiles de chanvre et de lin,non,14680
@@ -19883,8 +19875,8 @@ toile de coton antoine,1,Toiles de coton,non,10175
 toile de coton basin,37,"Mousseline, basin et nankin",non,3303
 toile de coton bisinette,1,Toiles de coton,non,10175
 toile de coton blanche,4,Toiles de coton,non,10175
-toile de coton blanche de France,7,,non,646
-toile de coton blanche étrangère,10,,non,646
+toile de coton blanche de France,7,Toiles de coton,non,646
+toile de coton blanche étrangère,10,Toiles de coton,non,646
 toile de coton bleu,4,Toiles de coton,non,10175
 toile de coton brochée,2,Toiles de coton,non,10175
 toile de coton commune,5,Toiles de coton,non,10175
@@ -19934,8 +19926,8 @@ toile de coton nationale,5,Toiles de coton,non,10175
 toile de coton nationale et peinte,2,Toiles de coton,non,10175
 toile de coton non ???,1,Toiles de coton,non,10175
 toile de coton peinte,92,Toiles de coton,non,10175
-toile de coton peinte et indienne de France,10,,non,646
-toile de coton peinte et indienne étrangère,7,,non,646
+toile de coton peinte et indienne de France,10,Toiles de coton,non,646
+toile de coton peinte et indienne étrangère,7,Toiles de coton,non,646
 toile de coton persiste,1,Toiles de coton,non,10175
 toile de coton piquée,39,Toiles de coton,non,10175
 toile de coton pointe,1,Toiles de coton,non,10175
@@ -20001,8 +19993,8 @@ toile de Hollande,60,Toiles diverses,non,12940
 toile de Hollande blanche,2,Toiles diverses,non,12940
 toile de Hollande fine,1,Toiles diverses,non,12940
 toile de Killis,47,Toiles de chanvre et de lin,non,14680
-toile de l'Inde du commerce étranger,7,,non,646
-toile de l'Inde du commerce français,8,,non,646
+toile de l'Inde du commerce étranger,7,Toiles de coton,non,646
+toile de l'Inde du commerce français,8,Toiles de coton,non,646
 toile de laine,1,Toiles diverses,non,12940
 toile de laine dite herbage,1,Toiles diverses,non,12940
 toile de laine pour blutoir,2,Toiles diverses,non,12940
@@ -20029,7 +20021,7 @@ toile de lin blanche de 2 sols par aune,2,Toiles de chanvre et de lin,non,14680
 toile de lin blanche de 20 sols par aune,3,Toiles de chanvre et de lin,non,14680
 toile de lin blanche de 30 sols par aune,3,Toiles de chanvre et de lin,non,14680
 toile de lin blanche de 8 sols par aune,2,Toiles de chanvre et de lin,non,14680
-toile de lin blanche fine de Lilles et Saint-Quentin,8,,non,646
+toile de lin blanche fine de Lilles et Saint-Quentin,8,Toiles de chanvre et de lin,non,646
 toile de lin brochée,4,Toiles de chanvre et de lin,non,14680
 toile de lin Cambrai,1,Toiles de chanvre et de lin,non,14680
 toile de lin cirée,1,Toiles de chanvre et de lin,non,14680
@@ -20283,7 +20275,7 @@ toile guingans blanc,1,Toiles de coton,non,10175
 toile guingans bleu,1,Toiles de coton,non,10175
 toile guingans de Bengale,2,Toiles de coton,non,10175
 toile guingans de Grenade,2,Toiles de coton,non,10175
-toile guingans de Lille et Rouen,9,,non,646
+toile guingans de Lille et Rouen,9,Toiles de coton,non,646
 toile guingans de lin,6,Toiles de chanvre et de lin,non,14680
 toile guingans de Madras,24,Toiles de coton,non,10175
 toile guingans de Masulipatan,1,Toiles de coton,non,10175
