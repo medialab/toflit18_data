@@ -6217,7 +6217,7 @@ Bois; violet,bois violet,,1,1,0,0,0,0,0,0,1,1
 Boiseries,boiseries,,1,2,0,0,0,0,0,0,1,2
 Boisserie,boiseries,,1,1,0,0,0,0,0,0,1,1
 Boisseries,boiseries,,1,1,0,0,0,0,0,0,1,1
-Boisson bierre,,,1,11,0,0,0,0,0,0,1,11
+Boisson bierre,boissons bière,,1,11,0,0,0,0,0,0,1,11
 Boisson gazeuse à la salsepareille,boissons gazeuses à la salsepareille,,0,0,0,0,1,3,0,0,1,3
 Boissons,boissons,,1,1,0,0,0,0,0,0,1,1
 Boissons ; bierre et cidre,boissons bière et cidre,,1,15,0,0,0,0,0,0,1,15
@@ -6234,15 +6234,15 @@ Boissons cidre,boissons cidre,,0,0,0,0,0,0,0,0,0,0
 Boissons distillées de grains,boissons distillées de grains,,1,1,0,0,0,0,0,0,1,1
 Boissons Eau de vie,boissons eau-de-vie,,1,4,0,0,0,0,0,0,1,4
 Boissons eau de vie,boissons eau-de-vie,,0,0,0,0,0,0,0,0,0,0
-Boissons eaux de vie,,,1,7,0,0,0,0,0,0,1,7
+Boissons eaux de vie,boissons eau-de-vie,,1,7,0,0,0,0,0,0,1,7
 Boissons Liqueur,boissons liqueurs,,1,2,0,0,0,0,0,0,1,2
 Boissons liqueurs diverses,boissons liqueurs diverses,,0,0,0,0,0,0,0,0,0,0
-Boissons liqueurs diverses et sirop,,,1,5,0,0,0,0,0,0,1,5
+Boissons liqueurs diverses et sirop,boissons liqueurs diverses et sirops,,1,5,0,0,0,0,0,0,1,5
 Boissons Vins de Bordeaux,boissons vin de Bordeaux,,1,6,0,0,0,0,0,0,1,6
-Boissons vins de Bordeaux,,,1,11,0,0,0,0,0,0,1,11
+Boissons vins de Bordeaux,boissons vin de Bordeaux,,1,11,0,0,0,0,0,0,1,11
 Boissons vins de bordeaux,boissons vin de Bordeaux,,0,0,0,0,0,0,0,0,0,0
 Boissons Vins de Liqueurs,boissons vin de liqueurs,,1,4,0,0,0,0,0,0,1,4
-Boissons vins de liqueurs,,,1,6,0,0,0,0,0,0,1,6
+Boissons vins de liqueurs,boissons vin de liqueurs,,1,6,0,0,0,0,0,0,1,6
 Boissons vins de liqueurs et divers,boissons vin de liqueurs et divers,,0,0,0,0,0,0,0,0,0,0
 Boissons Vins divers,boissons vin divers,,1,4,0,0,0,0,0,0,1,4
 Boissons vins divers,boissons vin divers,,1,11,0,0,0,0,0,0,1,11
@@ -12390,9 +12390,9 @@ Coiffure de blonde,coiffures de blonde,,1,1,0,0,0,0,0,0,1,1
 Coiffure de gaze et blondes,coiffures de gaze et blonde,,1,1,0,0,0,0,0,0,1,1
 Coiffures,coiffures,,1,1,0,0,0,0,0,0,1,1
 Coiffures ; de gaze,coiffures de gaze,,1,1,0,0,0,0,0,0,1,1
-Coiffures à dantelle,coiffures à dentelles,,1,1,0,0,0,0,0,0,1,1
-Coiffures à dentelle,coiffures à dentelles,,1,2,0,0,0,0,0,0,1,2
-Coiffures à dentelles,coiffures à dentelles,,1,1,0,0,0,0,0,0,1,1
+Coiffures à dantelle,coiffures à dentelle,,1,1,0,0,0,0,0,0,1,1
+Coiffures à dentelle,coiffures à dentelle,,1,2,0,0,0,0,0,0,1,2
+Coiffures à dentelles,coiffures à dentelle,,1,1,0,0,0,0,0,0,1,1
 Coiffures Brodées,coiffures brodées,,1,1,0,0,0,0,0,0,1,1
 Coiffures de blonde,coiffures de blonde,,1,2,0,0,0,0,0,0,1,2
 Coiffures de gase,coiffures de gaze,,1,1,0,0,0,0,0,0,1,1
@@ -12569,7 +12569,7 @@ Comestibles ; ris,comestibles riz,,1,4,0,0,0,0,0,0,1,4
 Comestibles ; riz,comestibles riz,,1,9,0,0,0,0,0,0,1,9
 Comestibles ; saindoux,comestibles saindoux,,1,3,0,0,0,0,0,0,1,3
 Comestibles ais,,,1,4,0,0,0,0,0,0,1,4
-Comestibles amandes cassées et en coques,,,1,5,0,0,0,0,0,0,1,5
+Comestibles amandes cassées et en coques,comestibles amandes cassées,,1,5,0,0,0,0,0,0,1,5
 Comestibles Beurre,comestibles beurre,,1,2,0,0,0,0,0,0,1,2
 Comestibles beurre,comestibles beurre,,1,6,0,0,0,0,0,0,1,6
 Comestibles beurre salé,comestibles beurre salé,,1,8,0,0,0,0,0,0,1,8
@@ -12579,7 +12579,7 @@ Comestibles biscuits,comestibles biscuit,,1,2,0,0,0,0,0,0,1,2
 Comestibles café,comestibles café,,1,1,0,0,0,0,0,0,1,1
 Comestibles chairs salées Boeuf,comestibles chair salée bœuf,,1,2,0,0,0,0,0,0,1,2
 Comestibles chairs salées boeuf,comestibles chair salée bœuf,,0,0,0,0,0,0,0,0,0,0
-Comestibles chairs salées boeuf salé,,,1,6,0,0,0,0,0,0,1,6
+Comestibles chairs salées boeuf salé,comestibles chair salée bœuf salé,,1,6,0,0,0,0,0,0,1,6
 Comestibles chairs salées cochon,comestibles chair salée cochon,,0,0,0,0,0,0,0,0,0,0
 Comestibles chairs salées Cochon et petit salé,comestibles chair salée cochon et petit salé,,1,1,0,0,0,0,0,0,1,1
 Comestibles chairs salées diverse,comestibles chair salée diverse,,1,3,0,0,0,0,0,0,1,3
@@ -12587,29 +12587,29 @@ Comestibles chairs salées diverses,comestibles chair salée diverse,,1,5,0,0,0,
 Comestibles chairs salées Jambon,comestibles chair salée jambon,,1,3,0,0,0,0,0,0,1,3
 Comestibles chairs salées jambon,comestibles chair salée jambon,,1,6,0,0,0,0,0,0,1,6
 Comestibles chairs salées Lard,comestibles chair salée lard,,1,2,0,0,0,0,0,0,1,2
-Comestibles chairs salées lard,,,1,6,0,0,0,0,0,0,1,6
-Comestibles chairs salées porc salé et petit salé,,,1,5,0,0,0,0,0,0,1,5
+Comestibles chairs salées lard,comestibles chair salée lard,,1,6,0,0,0,0,0,0,1,6
+Comestibles chairs salées porc salé et petit salé,comestibles chair salée porc salé et petit salé,,1,5,0,0,0,0,0,0,1,5
 Comestibles Chocolat,comestibles chocolat,,1,1,0,0,0,0,0,0,1,1
 Comestibles de toutes sortes,comestibles de toute sorte,,1,1,0,0,0,0,0,0,1,1
 Comestibles divers,comestibles divers,,1,35,0,0,0,0,0,0,1,35
 Comestibles farine,comestibles farine,,1,7,0,0,0,0,0,0,1,7
 Comestibles farine de gruau,comestibles farine de gruau,,0,0,0,0,0,0,0,0,0,0
 Comestibles Farine et Gruau,comestibles farine et gruau,,1,3,0,0,0,0,0,0,1,3
-Comestibles farine et gruau,,,1,5,0,0,0,0,0,0,1,5
+Comestibles farine et gruau,comestibles farine et gruau,,1,5,0,0,0,0,0,0,1,5
 Comestibles fromage,comestibles fromage,,1,1,0,0,0,0,0,0,1,1
 Comestibles Fromages,comestibles fromage,,1,3,0,0,0,0,0,0,1,3
 Comestibles fromages,comestibles fromage,,1,2,0,0,0,0,0,0,1,2
-Comestibles fromages de toutes sortes,,,1,6,0,0,0,0,0,0,1,6
-Comestibles grains comestibles divers,,,1,6,0,0,0,0,0,0,1,6
-Comestibles huile d'olives,,,1,6,0,0,0,0,0,0,1,6
+Comestibles fromages de toutes sortes,comestibles fromage de toutes sortes,,1,6,0,0,0,0,0,0,1,6
+Comestibles grains comestibles divers,comestibles graines comestibles diverses,,1,6,0,0,0,0,0,0,1,6
+Comestibles huile d'olives,comestibles huile d'olive,,1,6,0,0,0,0,0,0,1,6
 Comestibles Lard et petit salé,comestibles lard et petit salé,,0,0,0,0,0,0,0,0,0,0
 Comestibles Légumes,comestibles légumes,,1,2,0,0,0,0,0,0,1,2
 Comestibles légumes divers,comestibles légumes divers,,1,6,0,0,0,0,0,0,1,6
-Comestibles morues salées,,,1,6,0,0,0,0,0,0,1,6
+Comestibles morues salées,comestibles morues salées,,1,6,0,0,0,0,0,0,1,6
 Comestibles poisson salé et sec,comestibles poissons salés et secs,,0,0,0,0,0,0,0,0,0,0
 Comestibles Poissons salés de toutes sortes,comestibles poissons salés de toute sorte,,1,2,0,0,0,0,0,0,1,2
-Comestibles poissons salés divers,,,1,6,0,0,0,0,0,0,1,6
-Comestibles ris,comestibles riz,,1,3,0,0,0,0,0,0,1,3
+Comestibles poissons salés divers,comestibles poissons salés divers,,1,6,0,0,0,0,0,0,1,6
+Comestibles ris,comestibles ris,,1,3,0,0,0,0,0,0,1,3
 Comestibles riz,comestibles riz,,1,1,0,0,0,0,0,0,1,1
 Comestibles Sel,comestibles sel,,1,1,0,0,0,0,0,0,1,1
 Comestibles sel,comestibles sel,,0,0,0,0,0,0,0,0,0,0
@@ -17934,11 +17934,11 @@ Drogueries diverses pour la Peinture et la teinture,droguerie diverse pour les p
 Drogueries diverses pour la peinture et teinture,droguerie diverse pour les peintures et la teinture,,1,2,0,0,0,0,0,0,1,2
 Drogueries en epiceries,droguerie en épicerie,,1,2,0,0,0,0,0,0,1,2
 Drogueries et épiceries,droguerie et épicerie,,1,1,0,0,0,0,0,0,1,1
-Drogueries et épiceries diverses,,,1,6,0,0,0,0,0,0,1,6
-Drogueries et épiceries épiceries diverses,,,1,6,0,0,0,0,0,0,1,6
-Drogueries et épiceries huiles à bruler,,,1,6,0,0,0,0,0,0,1,6
-Drogueries et épiceries suif en chandeles,,,1,6,0,0,0,0,0,0,1,6
-Drogueries et épiceries suif fondu,,,1,6,0,0,0,0,0,0,1,6
+Drogueries et épiceries diverses,droguerie et épicerie diverse,,1,6,0,0,0,0,0,0,1,6
+Drogueries et épiceries épiceries diverses,droguerie et épicerie diverse épicerie diverse,,1,6,0,0,0,0,0,0,1,6
+Drogueries et épiceries huiles à bruler,droguerie et épicerie huile à brûler,,1,6,0,0,0,0,0,0,1,6
+Drogueries et épiceries suif en chandeles,droguerie et épicerie suif en chandelle,,1,6,0,0,0,0,0,0,1,6
+Drogueries et épiceries suif fondu,droguerie et épicerie suif fondu,,1,6,0,0,0,0,0,0,1,6
 Drogueries fines,droguerie fine,,1,8,0,0,0,0,0,0,1,8
 Drogueries gomme arabique,droguerie gomme arabique,,1,3,0,0,0,0,0,0,1,3
 Drogueries gomme gutte,droguerie gomme gutte,,1,3,0,0,0,0,0,0,1,3
@@ -20091,7 +20091,7 @@ Ecorces de grenade,écorce de grenade,,1,2,0,0,0,0,0,0,1,2
 Ecorces de magellan,écorce de Magellan,,0,0,1,2,0,0,0,0,1,2
 Ecorces de Pin,écorce de pin,,1,1,0,0,0,0,0,0,1,1
 Ecorces de tilleul,écorce de tilleul,,0,0,1,45,0,0,0,0,1,45
-Écorces de tilleul pour cordages,écorce de tilleul pour cordages,,1,2,0,0,0,0,0,0,1,2
+Écorces de tilleul pour cordages,écorce de tilleul pour cordage,,1,2,0,0,0,0,0,0,1,2
 Ecorces diverses,écorce diverse,,1,10,0,0,0,0,0,0,1,10
 Ecorces doranges seches,écorce d'orange sèche,,1,1,0,0,0,0,0,0,1,1
 Ecorces par tannerie,écorce pour tannerie,,1,4,0,0,0,0,0,0,1,4
@@ -22716,7 +22716,7 @@ Etoupes de chanvre,étoupes de chanvre,,1,41,0,0,0,0,0,0,1,41
 Etoupes de chanvres,étoupes de chanvre,,1,4,0,0,0,0,0,0,1,4
 Etoupes de lin,étoupes de lin,,1,1,0,0,0,0,0,0,1,1
 Etoupes de soye,étoupes de soie,,1,28,0,0,0,0,0,0,1,28
-Etoupes de vieux cordages,étoupes de vieux cordages,,1,1,0,0,0,0,0,0,1,1
+Etoupes de vieux cordages,étoupes de vieux cordage,,1,1,0,0,0,0,0,0,1,1
 Etoupes en soye,étoupes de soie,,1,1,0,0,0,0,0,0,1,1
 Etoupes noires,étoupes noires,,1,4,0,0,0,0,0,0,1,4
 Etouppe de laine,étoupes de laine,,0,0,1,3,0,0,0,0,1,3
@@ -33036,7 +33036,7 @@ Linge en nappes,linge en nappes,,1,1,0,0,0,0,0,0,1,1
 Linge en serviettes,linge en serviettes,,1,2,0,0,0,0,0,0,1,2
 Linge ouvré,linge ouvré,,1,4,0,0,0,0,0,0,1,4
 Linge ouvré desouilles,linge ouvré de souillé,x,1,1,0,0,0,0,0,0,1,1
-Linge ouvré draps de lit,linge ouvré draps de lit,,1,1,0,0,0,0,0,0,1,1
+Linge ouvré draps de lit,linge ouvré drap de lit,,1,1,0,0,0,0,0,0,1,1
 Linge ouvré serviettes,linge ouvré serviettes,,1,1,0,0,0,0,0,0,1,1
 Linge supporté,linge supporté,,1,1,0,0,0,0,0,0,1,1
 Linge travaillé,linge travaillé,,0,0,1,135,0,0,0,0,1,135
@@ -35517,25 +35517,25 @@ Métaux divers en fer plomb et cuivre,métal divers en fer plomb et cuivre,,1,1,
 "Métaux dorés, argenté, vernissés, etc",métal doré argenté vernissé etc,,1,2,0,0,0,0,0,0,1,2
 Métaux en plomb,métal en plomb,,1,1,0,0,0,0,0,0,1,1
 Métaux réunis,métal réuni,,1,19,0,0,0,0,0,0,1,19
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires ardoises",,,1,4,0,0,0,0,0,0,1,4
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois de construction",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et oziers",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois mérain",,,1,4,0,0,0,0,0,0,1,4
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires Bray gras goudron et résine",,,1,5,0,0,0,0,0,0,1,5
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires carreaux, marbres, chaux, pierre à bâtir",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires charbon de terre",,,1,8,0,0,0,0,0,0,1,8
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cordages",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cuivres en planches, feuilles, ouvré",,,1,5,0,0,0,0,0,0,1,5
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires étain",,,1,5,0,0,0,0,0,0,1,5
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles, ouvré",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer de fonte, brut, ouvré",,,1,11,0,0,0,0,0,0,1,11
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard",,,1,11,0,0,0,0,0,0,1,11
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer en clous",,,1,6,0,0,0,0,0,0,1,6
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fil à voiles",,,1,4,0,0,0,0,0,0,1,4
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche",,,1,5,0,0,0,0,0,0,1,5
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires jeux de voiles",,,1,5,0,0,0,0,0,0,1,5
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes",,,1,7,0,0,0,0,0,0,1,7
-"Métaux, matériaux à bâtir et articles propres à l'équipement des navires toiles à voiles",,,1,10,0,0,0,0,0,0,1,10
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires ardoises",métaux matériaux à bâtir et articles propres à l'équipement des navires ardoise,,1,4,0,0,0,0,0,0,1,4
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois de construction",métaux matériaux à bâtir et articles propres à l'équipement des navires bois de constuction,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et oziers",métaux matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et osiers,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires bois mérain",métaux matériaux à bâtir et articles propres à l'équipement des navires bois mérain,,1,4,0,0,0,0,0,0,1,4
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires Bray gras goudron et résine",métaux matériaux à bâtir et articles propres à l'équipement des navires brai gras goudron et résine,,1,5,0,0,0,0,0,0,1,5
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires carreaux, marbres, chaux, pierre à bâtir",métaux matériaux à bâtir et articles propres à l'équipement des navires carreaux marbre chaux pierres à bâtir,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires charbon de terre",métaux matériaux à bâtir et articles propres à l'équipement des navires charbon de terre,,1,8,0,0,0,0,0,0,1,8
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cordages",métaux matériaux à bâtir et articles propres à l'équipement des navires cordage,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires cuivres en planches, feuilles, ouvré",métaux matériaux à bâtir et articles propres à l'équipement des navires cuivre en planches feuilles ouvré,,1,5,0,0,0,0,0,0,1,5
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires étain",métaux matériaux à bâtir et articles propres à l'équipement des navires étain,,1,5,0,0,0,0,0,0,1,5
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles, ouvré",métaux matériaux à bâtir et articles propres à l'équipement des navires fer blanc en feuilles ouvré,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer de fonte, brut, ouvré",métaux matériaux à bâtir et articles propres à l'équipement des navires fer de fonte brut ouvré,,1,11,0,0,0,0,0,0,1,11
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard",métaux matériaux à bâtir et articles propres à l'équipement des navires fer divers en barres feuillard,,1,11,0,0,0,0,0,0,1,11
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fer en clous",métaux matériaux à bâtir et articles propres à l'équipement des navires fer en clous,,1,6,0,0,0,0,0,0,1,6
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires fil à voiles",métaux matériaux à bâtir et articles propres à l'équipement des navires fil à voile,,1,4,0,0,0,0,0,0,1,4
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche",métaux matériaux à bâtir et articles propres à l'équipement des navires futailles vides ou autres ustensiles de pêche,,1,5,0,0,0,0,0,0,1,5
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires jeux de voiles",métaux matériaux à bâtir et articles propres à l'équipement des navires jeux de voile,,1,5,0,0,0,0,0,0,1,5
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes",métaux matériaux à bâtir et articles propres à l'équipement des navires plomb de toutes sortes,,1,7,0,0,0,0,0,0,1,7
+"Métaux, matériaux à bâtir et articles propres à l'équipement des navires toiles à voiles",métaux matériaux à bâtir et articles propres à l'équipement des navires toiles à voile,,1,10,0,0,0,0,0,0,1,10
 Méteil,méteil,,1,1,0,0,0,0,0,0,1,1
 Methe,methe,x,1,1,0,0,0,0,0,0,1,1
 Metier ; à faire bas,métiers à faire bas,,1,1,0,0,0,0,0,0,1,1
@@ -37555,40 +37555,40 @@ Objets d'histoire naturelle,objets d'histoire naturelle,,1,1,0,0,0,0,0,0,1,1
 Objets d'industrie,objets d'industrie,,1,1,0,0,0,0,0,0,1,1
 Objets d'industrie ; divers,objets d'industrie divers,,1,3,0,0,0,0,0,0,1,3
 Objets d'industrie : marchandises non dénommées,objets d'industrie marchandises non dénommées,,1,1,0,0,0,0,0,0,1,1
-Objets d'industrie argenterie et bijouterie,,,1,5,0,0,0,0,0,0,1,5
-"Objets d'industrie armes blanches, à feu et artillerie",,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie bougies de table,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie cartes à jouer,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie cauris,,,1,1,0,0,0,0,0,0,1,1
-Objets d'industrie caves et canevettes avec leurs flacons,,,1,1,0,0,0,0,0,0,1,1
-Objets d'industrie corail ouvré,,,1,1,0,0,0,0,0,0,1,1
-Objets d'industrie coutellerie,,,1,3,0,0,0,0,0,0,1,3
-Objets d'industrie cuirs divers,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie fayence et poterie,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie fils à coudre et autre,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie gants de peau divers,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie hardes diverses,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie harnais de cuir et cellerie,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie instruments propres aux arts libéraux,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie librairie,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie liège en bouchons,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie lingerie de toutes sortes,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie mercerie,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie meubles divers,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie ouvrages de modes,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie ouvrages divers,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie papeterie de toutes sortes,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie parasols de soie,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie parfumerie diverse,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie peaux et pelleteries,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie poudres et salpêtres,,,1,3,0,0,0,0,0,0,1,3
-Objets d'industrie quincailleries de toutes espèces,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie rassades et verreries,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie souliers et bottes de toutes espèces,,,1,5,0,0,0,0,0,0,1,5
-Objets d'industrie soye à coudre,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie tabac de toutes espèces,,,1,4,0,0,0,0,0,0,1,4
-Objets d'industrie verrerie de toutes espèces,,,1,6,0,0,0,0,0,0,1,6
-Objets d'industrie voitures,,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie argenterie et bijouterie,objects d'industrie argenterie et bijouterie,,1,5,0,0,0,0,0,0,1,5
+"Objets d'industrie armes blanches, à feu et artillerie",objects d'industrie armes blanches à feu et artillerie,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie bougies de table,objects d'industrie bougies de table,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie cartes à jouer,objects d'industrie cartes à jouer,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie cauris,objects d'industrie cauris,,1,1,0,0,0,0,0,0,1,1
+Objets d'industrie caves et canevettes avec leurs flacons,objects d'industrie caves et canevettes avec leurs flacons,,1,1,0,0,0,0,0,0,1,1
+Objets d'industrie corail ouvré,objects d'industrie corail ouvré,,1,1,0,0,0,0,0,0,1,1
+Objets d'industrie coutellerie,objects d'industrie coutellerie,,1,3,0,0,0,0,0,0,1,3
+Objets d'industrie cuirs divers,objects d'industrie cuirs divers,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie fayence et poterie,objects d'industrie faïence et poterie,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie fils à coudre et autre,objects d'industrie fils à coudre et autre,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie gants de peau divers,objects d'industrie gants de peau divers,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie hardes diverses,objects d'industrie hardes diverses,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie harnais de cuir et cellerie,objects d'industrie harnais de cuir et cellerie,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie instruments propres aux arts libéraux,objects d'industrie instruments propres aux arts libéraux,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie librairie,objects d'industrie librairie,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie liège en bouchons,objects d'industrie liège en bouchons,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie lingerie de toutes sortes,objects d'industrie lingerie de toutes sortes,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie mercerie,objects d'industrie mercerie,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie meubles divers,objects d'industrie meubles divers,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie ouvrages de modes,objects d'industrie ouvrages de modes,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie ouvrages divers,objects d'industrie ouvrages divers,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie papeterie de toutes sortes,objects d'industrie papeterie de toutes sortes,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie parasols de soie,objects d'industrie parasols de soie,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie parfumerie diverse,objects d'industrie parfumerie diverse,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie peaux et pelleteries,objects d'industrie peaux et pelleterie,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie poudres et salpêtres,objects d'industrie poudre et salpêtre,,1,3,0,0,0,0,0,0,1,3
+Objets d'industrie quincailleries de toutes espèces,objects d'industrie quincaillerie de toutes espèces,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie rassades et verreries,objects d'industrie rassades et verrerie,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie souliers et bottes de toutes espèces,objects d'industrie souliers et bottes de toutes espèces,,1,5,0,0,0,0,0,0,1,5
+Objets d'industrie soye à coudre,objects d'industrie soie à coudre,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie tabac de toutes espèces,objects d'industrie tabac de toutes espèces,,1,4,0,0,0,0,0,0,1,4
+Objets d'industrie verrerie de toutes espèces,objects d'industrie verrerie de toutes espèces,,1,6,0,0,0,0,0,0,1,6
+Objets d'industrie voitures,objects d'industrie voitures,,1,4,0,0,0,0,0,0,1,4
 Objets de collection,objets de collection,,1,2,0,0,0,0,0,0,1,2
 "Objets de collection ; peinture, sculpture, gravure et histoire naturelle",objets de collection peintures sculpture gravures et histoire naturelle,,1,18,0,0,0,0,0,0,1,18
 "Objets de collection en peinture, sculpture, gravure et histoire naturelle",objets de collection en peintures sculpture gravures et histoire naturelle,,1,19,0,0,0,0,0,0,1,19
@@ -37601,7 +37601,7 @@ Objets de peu d'importance,objets de moindre valeur,,1,2,0,0,0,0,0,0,1,2
 Objets de peu de valeur,objets de peu d'importance,,1,6,0,0,0,0,0,0,1,6
 Objets divers,objets de peu de valeur,,1,44,0,0,0,0,0,0,1,44
 Objets divers a la Valeur,objets divers à la valeur,,1,2,0,0,0,0,0,0,1,2
-Objets divers à la valeur,,,1,6,0,0,0,0,0,0,1,6
+Objets divers à la valeur,objets divers à la valeur,,1,6,0,0,0,0,0,0,1,6
 Objets divers de moindre Valeur,objets divers de moindre valeur,,1,2,0,0,0,0,0,0,1,2
 Objets divers de moindre valeur,objets divers de moindre valeur,,1,20,0,0,0,0,0,0,1,20
 Objets divers dont la plus forte valeur n'excède pas 3000 livres,objets divers dont les plus forts articles n'excèdent pas 3000 livres,,0,0,0,0,0,0,0,0,0,0
@@ -37611,47 +37611,47 @@ Objets divers dont le plus fort article n'excede pas 10000 livres,objets divers 
 Objets divers dont le plus fort article n'excède pas 2400 livres,objets divers dont le plus fort article n'excède pas 2400 livres,,1,3,0,0,0,0,0,0,1,3
 Objets divers en peaux et pelleterie,objets divers en peaux et pelleterie,,1,1,0,0,0,0,0,0,1,1
 Objets divers en petits articles,objets divers en petits articles,,1,2,0,0,0,0,0,0,1,2
-Objets manufacturés bonneterie de coton,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés bonneterie de fil,,,1,6,0,0,0,0,0,0,1,6
-Objets manufacturés bonneterie de laine,,,1,4,0,0,0,0,0,0,1,4
-Objets manufacturés bonneterie de soye,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés bonneterie diverses,,,1,2,0,0,0,0,0,0,1,2
-Objets manufacturés chapellerie de toute sorte,,,1,6,0,0,0,0,0,0,1,6
-Objets manufacturés couvertures diverses,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés dentelles de toutes sortes,,,1,3,0,0,0,0,0,0,1,3
-Objets manufacturés dorures fines,,,1,4,0,0,0,0,0,0,1,4
-Objets manufacturés drap divers de laine,,,1,11,0,0,0,0,0,0,1,11
-Objets manufacturés étoffes de coton,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés étoffes de laine,,,1,11,0,0,0,0,0,0,1,11
-Objets manufacturés étoffes de poil,,,1,2,0,0,0,0,0,0,1,2
-Objets manufacturés étoffes de soye,,,1,9,0,0,0,0,0,0,1,9
-Objets manufacturés étoffes mêlées diverses,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés gazes et linons,,,1,4,0,0,0,0,0,0,1,4
-Objets manufacturés mouchoirs de coton de France,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés mouchoirs de coton étranger,,,1,6,0,0,0,0,0,0,1,6
-Objets manufacturés mouchoirs de fil de France,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés mouchoirs de fil en coton de france,,,1,6,0,0,0,0,0,0,1,6
-Objets manufacturés mouchoirs de fil étranger,,,1,4,0,0,0,0,0,0,1,4
-Objets manufacturés mouchoirs de l'Inde,,,1,10,0,0,0,0,0,0,1,10
-Objets manufacturés mouchoirs divers mélangés,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés mousselines de France,,,1,3,0,0,0,0,0,0,1,3
-Objets manufacturés mousselines de l'Inde,,,1,5,0,0,0,0,0,0,1,5
-Objets manufacturés mousselines étrangères,,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés bonneterie de coton,objets manufacturés bonneterie de coton,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés bonneterie de fil,objets manufacturés bonneterie de fil,,1,6,0,0,0,0,0,0,1,6
+Objets manufacturés bonneterie de laine,objets manufacturés bonneterie de laine,,1,4,0,0,0,0,0,0,1,4
+Objets manufacturés bonneterie de soye,objets manufacturés bonneterie de soie,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés bonneterie diverses,objets manufacturés bonneterie diverse,,1,2,0,0,0,0,0,0,1,2
+Objets manufacturés chapellerie de toute sorte,objets manufacturés chapellerie de toute sorte,,1,6,0,0,0,0,0,0,1,6
+Objets manufacturés couvertures diverses,objets manufacturés couvertures diverses,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés dentelles de toutes sortes,objets manufacturés dentelle de toute sorte,,1,3,0,0,0,0,0,0,1,3
+Objets manufacturés dorures fines,objets manufacturés dorure fine,,1,4,0,0,0,0,0,0,1,4
+Objets manufacturés drap divers de laine,objets manufacturés drap divers de laine,,1,11,0,0,0,0,0,0,1,11
+Objets manufacturés étoffes de coton,objets manufacturés étoffe de coton,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés étoffes de laine,objets manufacturés étoffe de laine,,1,11,0,0,0,0,0,0,1,11
+Objets manufacturés étoffes de poil,objets manufacturés étoffe de poil,,1,2,0,0,0,0,0,0,1,2
+Objets manufacturés étoffes de soye,objets manufacturés étoffs de soie,,1,9,0,0,0,0,0,0,1,9
+Objets manufacturés étoffes mêlées diverses,objets manufacturés étoffe mêlée diverse,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés gazes et linons,objets manufacturés gaze et linon,,1,4,0,0,0,0,0,0,1,4
+Objets manufacturés mouchoirs de coton de France,objets manufacturés mouchoirs de coton de France,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés mouchoirs de coton étranger,objets manufacturés mouchoirs de coton étranger,,1,6,0,0,0,0,0,0,1,6
+Objets manufacturés mouchoirs de fil de France,objets manufacturés mouchoirs de fil de France,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés mouchoirs de fil en coton de france,objets manufacturés mouchoirs de fil en coton de France,,1,6,0,0,0,0,0,0,1,6
+Objets manufacturés mouchoirs de fil étranger,objets manufacturés mouchoirs de fil étranger,,1,4,0,0,0,0,0,0,1,4
+Objets manufacturés mouchoirs de l'Inde,objets manufacturés mouchoirs de l'Inde,,1,10,0,0,0,0,0,0,1,10
+Objets manufacturés mouchoirs divers mélangés,objets manufacturés mouchoirs divers mélangés,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés mousselines de France,objets manufacturés mousseline de France,,1,3,0,0,0,0,0,0,1,3
+Objets manufacturés mousselines de l'Inde,objets manufacturés mousseline de l'Inde,,1,5,0,0,0,0,0,0,1,5
+Objets manufacturés mousselines étrangères,objets manufacturés mousseline étrangères,,1,7,0,0,0,0,0,0,1,7
 Objets manufacturés réunis,objets manufacturés réunis,,1,138,0,0,1,1,0,0,2,139
-Objets manufacturés rubannerie,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés savon,,,1,6,0,0,0,0,0,0,1,6
-Objets manufacturés toilles batiste et linon,,,1,9,0,0,0,0,0,0,1,9
-Objets manufacturés toilles de coton blanches de France,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés toilles de coton blanches étrangères,,,1,10,0,0,0,0,0,0,1,10
-Objets manufacturés toilles de coton peintes et indiennes de France,,,1,10,0,0,0,0,0,0,1,10
-Objets manufacturés toilles de coton peintes et indiennes étrangères,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés toilles de l'Inde du commerce étranger,,,1,7,0,0,0,0,0,0,1,7
-Objets manufacturés toilles de l'Inde du commerce français,,,1,8,0,0,0,0,0,0,1,8
-Objets manufacturés toilles de lin blanches fines de Lilles et Saint-Quentin,,,1,8,0,0,0,0,0,0,1,8
-"Objets manufacturés toilles diverses de chanvre blanches, écrues",,,1,11,0,0,0,0,0,0,1,11
-Objets manufacturés toilles diverses de l'étranger,,,1,10,0,0,0,0,0,0,1,10
-Objets manufacturés toilles en sacs,,,1,4,0,0,0,0,0,0,1,4
-Objets manufacturés toilles gingas de Lille et Rouen,,,1,9,0,0,0,0,0,0,1,9
+Objets manufacturés rubannerie,objets manufacturés rubannerie,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés savon,objets manufacturés savon,,1,6,0,0,0,0,0,0,1,6
+Objets manufacturés toilles batiste et linon,objets manufacturés toile batiste et linon,,1,9,0,0,0,0,0,0,1,9
+Objets manufacturés toilles de coton blanches de France,objets manufacturés toile de coton blanche de France,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés toilles de coton blanches étrangères,objets manufacturés toile de coton blanche étrangère,,1,10,0,0,0,0,0,0,1,10
+Objets manufacturés toilles de coton peintes et indiennes de France,objets manufacturés toile de coton peinte et indienne de France,,1,10,0,0,0,0,0,0,1,10
+Objets manufacturés toilles de coton peintes et indiennes étrangères,objets manufacturés toile de coton peinte et indienne étrangère,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés toilles de l'Inde du commerce étranger,objets manufacturés toile de l'Inde du commerce étranger,,1,7,0,0,0,0,0,0,1,7
+Objets manufacturés toilles de l'Inde du commerce français,objets manufacturés toile de l'Inde du commerce français,,1,8,0,0,0,0,0,0,1,8
+Objets manufacturés toilles de lin blanches fines de Lilles et Saint-Quentin,objets manufacturés toile de lin blanche fine de Lilles et Saint-Quentin,,1,8,0,0,0,0,0,0,1,8
+"Objets manufacturés toilles diverses de chanvre blanches, écrues",objets manufacturés toile diverses de chanvre blanche écrue,,1,11,0,0,0,0,0,0,1,11
+Objets manufacturés toilles diverses de l'étranger,objets manufacturés toile diverse de l'étranger,,1,10,0,0,0,0,0,0,1,10
+Objets manufacturés toilles en sacs,objets manufacturés toile en sacs,,1,4,0,0,0,0,0,0,1,4
+Objets manufacturés toilles gingas de Lille et Rouen,objets manufacturés toile guingans de Lille et Rouen,,1,9,0,0,0,0,0,0,1,9
 Obliques,obliques,,1,1,0,0,0,0,0,0,1,1
 Obusiers ; de fonte,obusiers de fonte,,1,1,0,0,0,0,0,0,1,1
 Obusiers de fonte,obusiers de fonte,,1,1,0,0,0,0,0,0,1,1
@@ -42599,7 +42599,7 @@ Piastre,piastres,,1,3,0,0,0,0,0,0,1,3
 Piastrer,piastres,,1,1,0,0,0,0,0,0,1,1
 Piastres,piastres,,1,95,0,0,0,0,0,0,1,95
 Piastres ; fortes,piastres fortes,,1,1,0,0,0,0,0,0,1,1
-Piastres et monnoye,,,1,2,0,0,0,0,0,0,1,2
+Piastres et monnoye,piastres et monnaies,,1,2,0,0,0,0,0,0,1,2
 Picotte,picotte,,1,21,0,0,0,0,0,0,1,21
 Picotte ; de laine,picotte de laine,,1,1,0,0,0,0,0,0,1,1
 Picotte ; de soye,picotte de soie,,1,1,0,0,0,0,0,0,1,1
@@ -48645,7 +48645,7 @@ Sable blanc,sable blanc,,1,1,0,0,0,0,0,0,1,1
 Sable de verre,sable de verre,,0,0,1,2,0,0,0,0,1,2
 Sablerie,sablerie,,1,8,0,0,0,0,0,0,1,8
 Sables communs,sable commun,,1,1,0,0,0,0,0,0,1,1
-Sables pour les verreries,sable pour les verreries,,0,0,0,0,0,0,1,1,1,1
+Sables pour les verreries,sable pour les verrerie,,0,0,0,0,0,0,1,1,1,1
 Sablieres de cuivre,sablières de cuivre,,1,1,0,0,0,0,0,0,1,1
 Sabliers,sabliers,,1,1,0,0,0,0,0,0,1,1
 Sabliers en compas,sabliers en compas,,1,3,0,0,0,0,0,0,1,3
@@ -53091,7 +53091,7 @@ Tissus ; de lin ou de chanvre ; Batiste et linon,tissus de lin ou de chanvre bat
 Tissus ; de lin ou de chanvre ; Dentelles,tissus de lin ou de chanvre dentelle,,1,1,0,0,0,0,0,0,1,1
 Tissus ; de lin ou de chanvre ; Toiles ; blanhes,tissus de lin ou de chanvre blanches,,1,2,0,0,0,0,0,0,1,2
 "Tissus ; de lin ou de chanvre ; Toiles ; écrues, sans apprêt et apprêtées",tissus de lin ou de chanvre écrues sans apprêt et apprêtées,,1,3,0,0,0,0,0,0,1,3
-"Tissus ; de soie ; Dentelles de soie, dites blondes",tissus de soie dentelles de soie dites blondes,,1,1,0,0,0,0,0,0,1,1
+"Tissus ; de soie ; Dentelles de soie, dites blondes",tissus de soie dentelle de soie dites blonde,,1,1,0,0,0,0,0,0,1,1
 Tissus ; de soie ; étoffes pures ; brochées ; d'or ou d'argent faux,tissus de soie étoffe pures brochées d'or ou d'argent faux,,1,1,0,0,0,0,0,0,1,1
 Tissus ; de soie ; étoffes pures ; brochées ; d'or ou d'argent fin,tissus de soie étoffe pures brochées d'or ou d'argent fin,,1,1,0,0,0,0,0,0,1,1
 "Tissus ; de soie ; étoffes pures ; unies et façonnées, mouchoirs et shals",tissus de soie étoffe pures unies et façonnées mouchoirs et châles,,1,2,0,0,0,0,0,0,1,2
@@ -53194,7 +53194,7 @@ Tissus de lin et de chanvre ; Tulle,tissus de lin et de chanvre tulle,,1,1,0,0,0
 Tissus de lin et de chanvre en toile diverses,tissus de lin et de chanvre en toile diverse,,1,13,0,0,0,0,0,0,1,13
 Tissus de lin et de chanvre en toiles diverses,tissus de lin et de chanvre en toile diverse,,1,13,0,0,0,0,0,0,1,13
 Tissus de lin ou de chanvre ; Bonneterie,tissus de lin ou de chanvre bonneterie,,1,3,0,0,0,0,0,0,1,3
-Tissus de lin ou de chanvre ; Dentelles,tissus de lin ou de chanvre dentelles,,1,3,0,0,0,0,0,0,1,3
+Tissus de lin ou de chanvre ; Dentelles,tissus de lin ou de chanvre dentelle,,1,3,0,0,0,0,0,0,1,3
 "Tissus de lin ou de chanvre ; Mouchoirs ; blancs, même brodés en fil",tissus de lin ou de chanvre mouchoirs blancs même brodés en fil,,1,3,0,0,0,0,0,0,1,3
 "Tissus de lin ou de chanvre ; Mouchoirs ; teints, imprimés, rayés par le tissage",tissus de lin ou de chanvre mouchoirs teints imprimés rayés par le tissage,,1,3,0,0,0,0,0,0,1,3
 Tissus de lin ou de chanvre ; Passementerie de fil ; blanc ou mélangé de blanc,tissus de lin ou de chanvre passementerie de fil blanc ou mélangé de blanc,,1,3,0,0,0,0,0,0,1,3
