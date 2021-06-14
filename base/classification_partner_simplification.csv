@@ -1,8 +1,7 @@
 orthographic,nbr_occurences_ortho,simplification,note,nbr_occurences_simpl
-,1,,,1
 ???,196,???,,196
-[vide],2647,[vide],,2647
-3 évêchés,65,Trois Évêchés,,614
+[vide],2648,[vide],,2648
+3 évêchés,65,Trois Évêchés,,615
 Afrique,43,Afrique,,46
 Alexandrette,37,Alexandrette,,37
 Alger,46,Alger,,46
@@ -59,9 +58,9 @@ Canada,38,Canada,,38
 Candie,5,Candie,,5
 Cannée et Candie,3,Cannée et Candie,,3
 Cayenne,11,Guyane,,11
-Cayenne-Guyane,1065,Cayenne et Guyane,,1065
+Cayenne-Guyane,1166,Cayenne et Guyane,,1166
 Chili,15,Chili,,15
-Chine,42,Chine,,42
+Chine,93,Chine,,93
 Chypre,17,Chypre,,17
 Clermontois,71,Clermontois,,71
 Colonie française de Bourbon,2,Île Bourbon,,53
@@ -81,10 +80,11 @@ Colonies françaises hors Guyane et Sénégal,2,Colonies françaises hors Guyane
 Colonies françaises hors Sénégal et Cayenne,1,Colonies françaises hors Guyane et Sénégal,,3
 Colonies françaises-hollandaises,20,Colonies françaises et colonies hollandaises,,20
 Commerce de la Compagnie des Indes,133,Commerce de la Compagnie des Indes,,133
+Commerce du Sénégal et Guinée,137,Guinée et Sénégal,,3124
 Comptoirs étrangers,1,Inde étrangère,,18
 Comptoirs étrangers de l'Inde,17,Inde étrangère,,18
 Comptoirs français,1,Indes françaises,,22
-Comptoirs français et étrangers,1,Indes,,3513
+Comptoirs français et étrangers,1,Indes,,3685
 Constantinople,22,Constantinople,,22
 Corse,123,Corse,,144
 Côtes d'Afrique,1,Afrique,,46
@@ -135,11 +135,11 @@ Espagne-Portugal,1,Espagne et Portugal,,1
 États de l'Empereur en Allemagre et en Flandre,64,États de l'Empereur,,4543
 États de l'Empereur et Flandre,2,États de l'Empereur,,4543
 États de l'évêque de Rome et la république de Venise,51,États ecclésiastiques et Venise,,51
-États de l'Inde,2,Indes,,3513
+États de l'Inde,174,Indes,,3685
 États de Rome,1184,États ecclésiastiques,,1666
 États du roi,1,États du roi,,1
-États du roi de Prusse,157,Prusse,,4681
 États du Roi de Prusse,20,Prusse,,4681
+États du roi de Prusse,157,Prusse,,4681
 États du roi de Sardaigne,1725,Royaume de Sardaigne,,5856
 États du Roi de Sardaigne - par mer,2,Royaume de Sardaigne – par mer,,2
 États du Roi de Sardaigne - par terre,2,Royaume de Sardaigne – par terre,,2
@@ -155,7 +155,7 @@ Espagne-Portugal,1,Espagne et Portugal,,1
 Europe,15,Europe,,16
 "Europe (y compris le Levant, la Barbarie, et les États-Unis d'Amérique)",479,"Europe (y compris le Levant, la Barbarie, et les États-Unis d'Amérique)",,479
 Europe et Piémont,1,Europe,,16
-Évêchés,547,Trois Évêchés,,614
+Évêchés,547,Trois Évêchés,,615
 Flandre,14272,Flandre,,19140
 Flandre Autrichienne,4172,Flandre,,19140
 Flandre impériale,696,Flandre,,19140
@@ -171,7 +171,7 @@ Gibraltar,1,Gibraltar,,1
 Gothembourg,10,Gothembourg,,10
 Grand-Duché de Toscane,288,Toscane,,636
 Grèce,13,Toscane,,636
-Guadeloupe,2185,Guadeloupe,,2185
+Guadeloupe,2313,Guadeloupe,,2313
 Guatemala,2,Guatemala,,2
 Guernesey,2,Guernesey,,2
 Guernesey et Dumbarton,1,Guernesey et Dumbarton,,1
@@ -186,8 +186,8 @@ Hollande,73193,Hollande,,76320
 Île de Ré,1,Île de Ré,,1
 Île Maurice,22,Île Maurice,,22
 Îles,7108,Îles,,7108
-Îles de France et de Bourbon,204,Îles de France et de Bourbon,,206
-"Îles de France, de la Réunion et Mozambique",2,Îles de France et de Bourbon,,206
+Îles de France et de Bourbon,467,Îles de France et de Bourbon,,469
+"Îles de France, de la Réunion et Mozambique",2,Îles de France et de Bourbon,,469
 Îles de l'Amérique,136,Îles de l'Amérique,,136
 Îles et colonies françaises,16,Colonies françaises,,2198
 Îles et Guinée,2,Îles et Guinée,,2
@@ -202,13 +202,13 @@ Inde et Amérique,1,Amérique et Inde,,1
 Inde et Bourbon,3,Île Bourbon et Inde,,3
 Inde et colonies françaises,1,Colonies françaises et Inde,,1
 "Inde, colonies françaises et Amérique",1,"Amérique, colonies françaises et Inde",,1
-Indes,1870,Indes,,3513
+Indes,1870,Indes,,3685
 Indes anglaises,16,Indes anglaises,,16
 Indes et Moka,41,Indes et Moka,,41
 Indes françaises,6,Indes françaises,,22
 Indes hollandaises,6,Indes hollandaises,,6
 Indes Occidentales,50,Amériques,,50
-Indes Orientales,1640,Indes,,3513
+Indes Orientales,1640,Indes,,3685
 Irlande,62,Irlande,,62
 Italie,35476,Italie,,38729
 Italie (Naples & Sicile),1,Naples et Sicile,,5052
@@ -232,7 +232,7 @@ Louisiane,7,Louisiane,,7
 Lübeck en Norvège,1,Lübeck en Norvège,,1
 Marseille,2185,Marseille,,2687
 Marseille et Petites Îles,1,Marseille et Petites Îles,,1
-Martinique,2771,Martinique,,2771
+Martinique,2904,Martinique,,2904
 Mecklembourg-Schwerin,4,Mecklembourg-Schwerin,,4
 Mexique,9,Mexique,,9
 Middlebourg,1,Milddelbourg,,1
@@ -289,8 +289,8 @@ Petites Îles,527,Petites Îles,,558
 Petites Îles et Bayonne,3,Bayonne et Petites Îles,,4
 Petites Îles et Bayonne et Marseille,1,Bayonne et Marseille et Petites Îles,,1
 Petites Îles et Bayonne et Marseille (???),1,Bayonne et Marseille et Petites Îles (???),,1
-Petites îles et Lorient,1,Lorient et Petites Îles,,3
 Petites Îles et Lorient,1,Lorient et Petites Îles,,3
+Petites îles et Lorient,1,Lorient et Petites Îles,,3
 Petites Îles et Lorient (???),1,Lorient et Petites Îles (???),,1
 Petites Îles et Lorient et Bayonne,1,Bayonne et Lorient et Petites Îles,,2
 "Petites Îles, Bayonne et Lorient",1,"Bayonne, Lorient et Petites Îles",,1
@@ -364,7 +364,7 @@ Royaume du Portugal et ses colonies,836,Portugal,,15433
 Russie,4665,Russie,,6700
 Russie et Courlande,48,Courlande et Russie,,178
 Russie-Courlande,130,Courlande et Russie,,178
-Saint-Domingue,5557,Saint-Domingue,,5557
+Saint-Domingue,5711,Saint-Domingue,,5711
 Saint-Jean de Luz,9,Saint-Jean de Luz,,9
 Saint-Thomas,11,Saint-Thomas,,11
 Salonique,5,Salonique,,5
@@ -373,9 +373,9 @@ Sardaigne,2040,Sardaigne,,2040
 Savoie,12043,Savoie,,12043
 Savoie et Piémont,11469,Savoie et Piémont,,11469
 Sénégal,318,Sénégal,,318
-Sénégal et Cayenne,1,Sénégal français,,9
-Sénégal et Guinée,2987,Guinée et Sénégal,,2987
-Sénégal français,8,Sénégal français,,9
+Sénégal et Cayenne,1,Cayenne et Sénégal,,1
+Sénégal et Guinée,2987,Guinée et Sénégal,,3124
+Sénégal français,8,Sénégal français,,8
 Sidon,5,Sidon,,5
 Sidon et Acre,15,Sidon et Acre,,15
 Smyrne,35,Smyrne,,35
@@ -386,12 +386,12 @@ Suède,9676,Suède,,11327
 Suisse,10159,Suisse,,14273
 Suisse et alliés et Genève,105,"Genève, Suisse et ses alliés",,949
 Suisse et Genève,154,Genève et Suisse,,2539
-Tobago,739,Tobago,,739
+Tobago,802,Tobago,,802
 Tobago et Sainte-Lucie,2,Tobago et Sainte-Lucie,,2
 Toscane,335,Toscane,,636
 Traite des noirs et de la gomme,2,Afrique,,46
 Tripoli de Syrie,15,Tripoli de Syrie,,15
-Trois Évêchés,2,Trois Évêchés,,614
+Trois Évêchés,3,Trois Évêchés,,615
 Turquie,34,Turquie,,34
 "Turquie, Inde et Amérique",2,"Amérique, Inde et Turquie",,2
 Vénézuela,14,Vénézuela,,14

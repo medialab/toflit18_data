@@ -38,7 +38,7 @@ label variable nbr_occurences_orthographic "Nbr de flux avec la quantité orthog
 
 drop _merge
 
-generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(source,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_orthographic.dta", replace
@@ -71,7 +71,7 @@ order orthographic source_bdc nbr_occurences_orthographic simplification nbr_occ
 	conv_orthographic_to_simplificat remarque_unit
 	
 	
-generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_simplification.dta", replace
@@ -104,7 +104,7 @@ order simplification  nbr_occurences_simplification metric  ///
 
 	
 	
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "classification_quantityunit_metric1.dta", replace
@@ -158,7 +158,7 @@ order customs_region customs_region_simpl nbr_occurence  nbr_occurence_simpl cus
 		*/ nbr_occurence_grouping customs_region_province customs_region_hinterland remarks
 ****Le deux premières colonnes doivent être customs_region customs_region_simpl pour que le datascape marche
 save "bdd_customs_regions.dta", replace
-generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/bdd_customs_regions.csv", replace
@@ -176,7 +176,7 @@ order origin nbr_occurence origin_norm_ortho nbr_occurence_norm_ortho origin_pro
 	*/ nbr_occurence_province remarks
 
 save "bdd_origin.dta", replace
-generate sortkey = ustrsortkeyex(origin,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(origin,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/bdd_origin.csv", replace
@@ -198,7 +198,7 @@ bys source : keep if _n==1
 keep source orthographic note nbr_occurences_source nbr_occurences_ortho
 order source s nbr_occurences_source orthographic nbr_occurences_ortho note
 save "classification_partner_orthographic.dta", replace
-generate sortkey = ustrsortkeyex(source,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(source,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_orthographic.csv", replace
@@ -221,7 +221,7 @@ bys orthographic : keep if _n==1
 keep orthographic simplification nbr_occurences_ortho nbr_occurences_simpl note
 
 save "classification_partner_simplification.dta", replace
-generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_simplification.csv", replace
@@ -241,7 +241,7 @@ bys grouping : egen nbr_occurences_grouping=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification grouping nbr_occurences_simpl nbr_occurences_grouping note
 save "classification_partner_grouping.dta", replace
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_grouping.csv", replace
@@ -260,7 +260,7 @@ bys obrien : egen nbr_occurences_obrien=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification obrien nbr_occurences_simpl nbr_occurences_obrien note
 save "classification_partner_obrien.dta", replace
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_obrien.csv", replace
@@ -280,7 +280,7 @@ bys wars : egen nbr_occurences_wars=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification wars nbr_occurences_simpl nbr_occurences_wars note
 save "classification_partner_wars.dta", replace
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_wars.csv", replace
@@ -299,7 +299,7 @@ bys sourcename : egen nbr_occurences_sourcename=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification sourcename nbr_occurences_simpl nbr_occurences_sourcename note
 save "classification_partner_sourcename.dta", replace
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_sourcename.csv", replace
@@ -319,7 +319,7 @@ bys africa : egen nbr_occurences_africa=total(nbr_occurences_ortho)
 bys simplification : keep if _n==1
 keep simplification africa nbr_occurences_simpl nbr_occurences_africa note
 save "classification_partner_africa.dta", replace
-generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_partner_africa.csv", replace
@@ -353,7 +353,7 @@ order source nbr_occurences_source orthographic nbr_occurences_ortho
 
 bys source : keep if _n==1
 save "classification_product_orthographic.dta", replace
-generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey =  ustrsortkeyex(source, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_product_orthographic.csv", replace
@@ -436,7 +436,7 @@ gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
 gen nbr_occurence_ttesources = sourceBEL_nbr + sourceSUND_nbr + sourceNAVIGO_nbr + sourceFR_nbr
 
 
-generate sortkey =  ustrsortkeyex(product, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey =  ustrsortkeyex(product, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "$dir/Données Stata/product_sourcees.dta", replace
@@ -469,7 +469,7 @@ order source nb_occurence_BdCFR nbr_occurences_source
 replace obsolete = "oui" if nbr_occurences_source==0
 drop if obsolete=="oui" & orthographic==""
 sort source
-generate sortkey =  ustrsortkeyex(source, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey =  ustrsortkeyex(source, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 save "$dir/Données Stata/classification_product_orthographic.dta", replace
@@ -497,7 +497,7 @@ bys orthographic : keep if _n==1
 
 
 save "classification_product_simplification.dta", replace
-generate sortkey = ustrsortkeyex(orthographic, "fr",-1,2,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(orthographic, "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/classification_product_simplification.csv", replace
@@ -529,7 +529,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 	capture bys simplification : keep if _n==1
 
 	
-	capture generate sortkey = ustrsortkeyex(simplification,  "fr",-1,2,-1,-1,-1,0,-1)
+	capture generate sortkey = ustrsortkeyex(simplification,  "fr",-1,1,-1,-1,-1,0,-1)
 	sort sortkey
 	drop sortkey
 	
@@ -556,7 +556,7 @@ foreach file_on_RE in RE_aggregate threesectors threesectorsM reexportations {
 	drop _merge
 	drop simplification
 	
-	capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,2,-1,-1,-1,0,-1)
+	capture generate sortkey = ustrsortkeyex(revolutionempire,  "fr",-1,1,-1,-1,-1,0,-1)
 	sort sortkey
 	drop sortkey	
 	
