@@ -133,7 +133,7 @@ Calcul_correlation_matrix <- function()
 ### uniquement pour la baseline
 
 
-Calcul_correlation_matrix_ville <- function() 
+Calcul_correlation_matrix_ville <- function(year_deb = 1700, year_fin = 1900) 
   
 {
   ### On charge les valeurs de Index_results.csv
@@ -163,6 +163,7 @@ Calcul_correlation_matrix_ville <- function()
         Index1 <- Index_res_baseline %>%
           filter(Ville == liste_ville[i], Exports_imports == Type) %>%
           select(c("year", "Index_value")) %>%
+          filter(year >= year_deb & year <= year_fin) %>%
           drop_na()
         
         Index2 <- Index_res_baseline %>%
@@ -198,7 +199,8 @@ Calcul_correlation_matrix_ville <- function()
   }
   
 ### On sauvegarde le workbook dans l'excel Correlation_matrix.xlsx    
-saveWorkbook(Cor_matrix_workbook, "./scripts/Edouard/Correlation_matrix_ville.xlsx",
+saveWorkbook(Cor_matrix_workbook, paste0("./scripts/Edouard/Correlation_matrix_ville", 
+                                         year_deb, "_", year_fin,".xlsx"),
              overwrite = T)    
 }
 
