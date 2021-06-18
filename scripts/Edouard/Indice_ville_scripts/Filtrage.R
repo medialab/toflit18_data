@@ -182,8 +182,13 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   
   
   if(Product_sector != "All") {
+    if (Product_sector != "Primary goods") {
     Data <- Data %>%
       filter(product_threesectors == Product_sector)
+    } else {
+      Data <- Data %>%
+        filter(product_threesectors != "Manufactures")
+    }
   }
   
   

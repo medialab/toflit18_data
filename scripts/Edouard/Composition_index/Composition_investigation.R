@@ -114,7 +114,7 @@ Index_composition <- Index_composition %>%
          Exports_imports = relevel(Exports_imports, "Imports"))
 
 Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Product_sector + Product_sector*year,
-                      data = subset(Index_composition, Exports_imports == "Exports" & Product_sector != "All"))
+                      data = subset(Index_composition, Exports_imports == "Imports" & Product_sector %in% c("Manufactures", "Primary goods") & Ville != "Rennes"))
 
 summary(Reg_trend_categ)
 
@@ -132,6 +132,41 @@ Index_composition_global <- Index_composition_global %>%
 
 
 Reg_trend_categ_global <- lm(log(Index_value) ~ year + Product_sector + Product_sector*year ,
-                data = Index_composition_global)
+                data = subset(Index_composition_global, Product_sector %in% c("Manufactures", "Primary goods") & Exports_imports == "Exports"))
 summary(Reg_trend_categ_global)
+
+
+
+
+
+
+Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+
+Terme_echange_pg <- Index_composition_global %>%
+  filter(Product_sector == "Primary goods") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_pg = Exports / Imports)
+
+plot(drop_na(Terme_echange_pg[, c("year", "Terme_echange_pg")]), type = "o", pch = 19,
+      lwd = 2, col = "blue")
+
+
+
+Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+
+Terme_echange_pg <- Index_composition_global %>%
+  filter(Product_sector == "Manufactures") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_pg = Exports / Imports)
+
+lines(drop_na(Terme_echange_pg[, c("year", "Terme_echange_pg")]), type = "o", pch = 19,
+     lwd = 2, col = "red")
+
+
 

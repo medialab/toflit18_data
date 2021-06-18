@@ -55,6 +55,7 @@ Sector_index_calcul <- function()
   Add_new_sector("Manufactures")
   Add_new_sector("Non-agricultural primary goods")
   Add_new_sector("Agriculture")
+  Add_new_sector("Primary goods")
   
   
 }
@@ -119,7 +120,7 @@ Add_new_sector <- function(Product_sector = "All")
 
 
 
-source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
+source("./scripts/Edouard/Indice_global_scripts/Indice_global_filtre_ville.R")
 
 ### On cree aussi un index pour l'indice global
 
@@ -146,6 +147,7 @@ Add_new_sector_global()
 Add_new_sector_global("Manufactures")
 Add_new_sector_global("Non-agricultural primary goods")
 Add_new_sector_global("Agriculture")
+Add_new_sector_global("Primary goods")
 
 
 }

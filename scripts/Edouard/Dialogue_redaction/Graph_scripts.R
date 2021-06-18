@@ -111,6 +111,8 @@ mtext("Part du commerce prise en compte dans l’indice\n (en valeur)", side = 4
 
 ### Terme de l'échange - Indice global ----
 
+### Indice global
+
 Index_res_global_Imports <- read.csv2("./scripts/Edouard/Indice_global_value/Indice_global_filtre_ville_imports.csv", 
                                       row.names = NULL, dec = ",")
 
@@ -132,7 +134,128 @@ Terme_echange$Terme_echange <- Terme_echange$Index_Exports/Terme_echange$Index_I
 
 plot(drop_na(Terme_echange[ , c("year", "Terme_echange")]), type = "o", pch = 19,
      lwd = 2, ylab = "Termes de léchange", xlab = "Année", main = "Evolution des termes de l'échange",
+     panel.first = grid(), ylim = c(0.4, 3.7))
+
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+
+Terme_echange_rdm <- Index_partner_global %>%
+  filter(Partner == "Reste_du_monde") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_rdm = Exports / Imports)
+
+lines(drop_na(Terme_echange_rdm[, c("year", "Terme_echange_rdm")]), type = "o", pch = 19,
+      lwd = 2, col = "red")
+
+
+
+
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+
+Terme_echange_eem <- Index_partner_global %>%
+  filter(Partner == "Europe_et_Mediterranee") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_eem = Exports / Imports)
+
+lines(drop_na(Terme_echange_eem[, c("year", "Terme_echange_eem")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+
+legend("topright", legend = c("Total", "Europe et Méditérranée", "Reste du monde"),
+       col = c("black", "blue", "red"), lwd = 2) 
+
+
+
+### Indice sectoriel
+
+
+Composition_index <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", 
+                                      row.names = NULL, dec = ",")
+
+Index_global_agriculture_imports <- Composition_index %>%
+  filter(Exports_imports == "Imports" & Product_sector == "Agriculture") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_agriculture_imports$Index_value <- 100*Index_global_agriculture_imports$Index_value/Index_global_agriculture_imports$Index_value[Index_global_agriculture_imports$year == 1789]
+
+Index_global_agriculture_exports <- Composition_index %>%
+  filter(Exports_imports == "Exports" & Product_sector == "Agriculture") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_agriculture_exports$Index_value <- 100*Index_global_agriculture_exports$Index_value/Index_global_agriculture_exports$Index_value[Index_global_agriculture_exports$year == 1789]
+
+
+Index_global_manufactures_imports <- Composition_index %>%
+  filter(Exports_imports == "Imports" & Product_sector == "Manufactures") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_manufactures_imports$Index_value <- 100*Index_global_manufactures_imports$Index_value/Index_global_manufactures_imports$Index_value[Index_global_manufactures_imports$year == 1789]
+
+
+Index_global_manufactures_exports <- Composition_index %>%
+  filter(Exports_imports == "Exports" & Product_sector == "Manufactures") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_manufactures_exports$Index_value <- 100*Index_global_manufactures_exports$Index_value/Index_global_manufactures_exports$Index_value[Index_global_manufactures_exports$year == 1789]
+
+
+Index_global_nonagr_imports <- Composition_index %>%
+  filter(Exports_imports == "Imports" & Product_sector == "Non-agricultural primary goods") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_nonagr_imports$Index_value <- 100*Index_global_nonagr_imports$Index_value/Index_global_nonagr_imports$Index_value[Index_global_nonagr_imports$year == 1789]
+
+
+Index_global_nonagr_exports <- Composition_index %>%
+  filter(Exports_imports == "Exports" & Product_sector == "Non-agricultural primary goods") %>%
+  select(c("year", "Index_value", "Part_value"))
+
+Index_global_nonagr_exports$Index_value <- 100*Index_global_nonagr_exports$Index_value/Index_global_nonagr_exports$Index_value[Index_global_nonagr_exports$year == 1789]
+
+
+
+plot(drop_na(Index_global_agriculture_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+      lwd = 2)
+plot(drop_na(Index_global_agriculture_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+plot(drop_na(Index_global_manufactures_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+plot(drop_na(Index_global_manufactures_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+plot(drop_na(Index_global_nonagr_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+plot(drop_na(Index_global_nonagr_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+
+
+
+Terme_echange_agriculture <- merge(Index_global_agriculture_imports, Index_global_agriculture_exports,
+                                   by = "year", suffixes = c("_Imports", "_Exports"))
+Terme_echange_manufactures <- merge(Index_global_manufactures_imports, Index_global_manufactures_exports,
+                                   by = "year", suffixes = c("_Imports", "_Exports"))
+Terme_echange_nonagr <- merge(Index_global_nonagr_imports, Index_global_nonagr_exports,
+                                   by = "year", suffixes = c("_Imports", "_Exports"))
+Terme_echange_agriculture$Terme_echange <- Terme_echange_agriculture$Index_value_Exports / Terme_echange_agriculture$Index_value_Imports
+
+Terme_echange_manufactures$Terme_echange <- Terme_echange_manufactures$Index_value_Exports / Terme_echange_manufactures$Index_value_Imports
+
+Terme_echange_nonagr$Terme_echange <- Terme_echange_nonagr$Index_value_Exports / Terme_echange_nonagr$Index_value_Imports
+
+
+plot(drop_na(Terme_echange[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+     lwd = 2, ylab = "Termes de léchange", xlab = "Année", main = "Evolution des termes de l'échange",
      panel.first = grid())
+
+plot(drop_na(Terme_echange_agriculture[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+     lwd = 2, col = "blue")
+plot(drop_na(Terme_echange_manufactures[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+      lwd = 2, col = "red")
+plot(drop_na(Terme_echange_nonagr[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+      lwd = 2, col = "green")
 
 
 
@@ -178,6 +301,40 @@ lines(drop_na(Index_res_villes_Imports[c("year", "Index_value_La Rochelle")]), t
 lines(drop_na(Index_res_villes_Imports[c("year", "Index_value_Bayonne")]), type = "o", col = "orange", pch = 19, lwd = 2)
 legend("topleft", legend = c("Nantes", "Marseille", "Bordeaux", "La Rochelle", "Bayonne"),
        col = c("black", "red", "blue", "green", "orange"), lwd = 2)
+
+
+
+
+
+# 2- Programmer des marges larges pour l'ajout ultérieur des titres des axes
+par(mar=c(4,4,3,5))
+# 3- On récupère dans position la position de chaque barre
+position = barplot(Index_res_villes_Exports$Part_value_Bordeaux, 
+                   col = rgb(0.220, 0.220, 0.220, alpha = 0.2),
+                   names.arg = Index_res_villes_Exports$year,
+                   axes = F,
+                   ylab = "", xlab = "",
+                   main = "Indice Bordeaux - Exports",
+                   ylim = c(0,1), 
+                   las = 2, space = 0, cex.main = 1)
+# las = 2 : ce paramètre permet d'orienter le label de chaque barre verticalement
+# 4- Configurer la couleur de l'axe de gauche (correspondant ici aux barres)
+axis(4, col = "black", at = seq(0, 1, by = 0.2), lab = scales::percent(seq(0, 1, by = 0.2), accuracy = 1))
+# 5- Superposer la courbe
+par(new = TRUE, mar = c(4, 4, 3, 5))
+maximal = max(position) + (position[2] - position[1])
+plot(position[!is.na(Index_res_villes_Exports$Index_value_Bordeaux)], Index_res_villes_Exports$Index_value_Bordeaux[!is.na(Index_res_villes_Exports$Index_value_Bordeaux)], 
+     col = "black", type = "o", lwd = 2,
+     pch = 16, axes = F, ylab = "", xlab = "", 
+     xlim = c(0, length(Index_res_villes_Exports$Index_value_Bordeaux)),
+     ylim = c(18, 118))
+# 6- Configurer l'axe de droite, correspondant à la coube
+axis(2, col.axis = "black", col = "black")
+box();grid()
+mtext("Valeur de l'indice",side=2,line=2,cex = 1)
+mtext("Part du commerce prise en compte dans l’indice \n(en valeur)", side = 4, col = "black", line = 3, cex = 1)
+
+
 
 
 
