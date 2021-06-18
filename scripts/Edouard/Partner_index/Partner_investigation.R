@@ -116,7 +116,7 @@ Index_partner <- Index_partner %>%
 plot(Index_partner$year, Index_partner$Index_value, type = "o")
 
 Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Partner + Partner*year,
-                      data = subset(Index_partner, Exports_imports == "Exports" & Partner != "All"))
+                      data = subset(Index_partner, Exports_imports == "Imports" & Partner != "All"))
 
 summary(Reg_trend_categ)
 
