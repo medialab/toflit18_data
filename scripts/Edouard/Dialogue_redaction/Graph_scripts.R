@@ -176,17 +176,17 @@ legend("topright", legend = c("Total", "Europe et Méditérranée", "Reste du mo
 Composition_index <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", 
                                       row.names = NULL, dec = ",")
 
-Index_global_agriculture_imports <- Composition_index %>%
-  filter(Exports_imports == "Imports" & Product_sector == "Agriculture") %>%
+Index_global_col_agr_imports <- Composition_index %>%
+  filter(Exports_imports == "Imports" & Product_sector == "Primary coloniaux") %>%
   select(c("year", "Index_value", "Part_value"))
 
-Index_global_agriculture_imports$Index_value <- 100*Index_global_agriculture_imports$Index_value/Index_global_agriculture_imports$Index_value[Index_global_agriculture_imports$year == 1789]
+Index_global_col_agr_imports$Index_value <- 100*Index_global_col_agr_imports$Index_value/Index_global_col_agr_imports$Index_value[Index_global_col_agr_imports$year == 1789]
 
-Index_global_agriculture_exports <- Composition_index %>%
-  filter(Exports_imports == "Exports" & Product_sector == "Agriculture") %>%
+Index_global_col_agr_exports <- Composition_index %>%
+  filter(Exports_imports == "Exports" & Product_sector == "Primary coloniaux") %>%
   select(c("year", "Index_value", "Part_value"))
 
-Index_global_agriculture_exports$Index_value <- 100*Index_global_agriculture_exports$Index_value/Index_global_agriculture_exports$Index_value[Index_global_agriculture_exports$year == 1789]
+Index_global_col_agr_exports$Index_value <- 100*Index_global_col_agr_exports$Index_value/Index_global_col_agr_exports$Index_value[Index_global_col_agr_exports$year == 1789]
 
 
 Index_global_manufactures_imports <- Composition_index %>%
@@ -203,58 +203,60 @@ Index_global_manufactures_exports <- Composition_index %>%
 Index_global_manufactures_exports$Index_value <- 100*Index_global_manufactures_exports$Index_value/Index_global_manufactures_exports$Index_value[Index_global_manufactures_exports$year == 1789]
 
 
-Index_global_nonagr_imports <- Composition_index %>%
-  filter(Exports_imports == "Imports" & Product_sector == "Non-agricultural primary goods") %>%
+Index_global_eur_agr_imports <- Composition_index %>%
+  filter(Exports_imports == "Imports" & Product_sector == "Primary european") %>%
   select(c("year", "Index_value", "Part_value"))
 
-Index_global_nonagr_imports$Index_value <- 100*Index_global_nonagr_imports$Index_value/Index_global_nonagr_imports$Index_value[Index_global_nonagr_imports$year == 1789]
+Index_global_eur_agr_imports$Index_value <- 100*Index_global_eur_agr_imports$Index_value/Index_global_eur_agr_imports$Index_value[Index_global_eur_agr_imports$year == 1789]
 
 
-Index_global_nonagr_exports <- Composition_index %>%
-  filter(Exports_imports == "Exports" & Product_sector == "Non-agricultural primary goods") %>%
+Index_global_eur_agr_exports <- Composition_index %>%
+  filter(Exports_imports == "Exports" & Product_sector == "Primary european") %>%
   select(c("year", "Index_value", "Part_value"))
 
-Index_global_nonagr_exports$Index_value <- 100*Index_global_nonagr_exports$Index_value/Index_global_nonagr_exports$Index_value[Index_global_nonagr_exports$year == 1789]
+Index_global_eur_agr_exports$Index_value <- 100*Index_global_eur_agr_exports$Index_value/Index_global_eur_agr_exports$Index_value[Index_global_eur_agr_exports$year == 1789]
 
 
 
-plot(drop_na(Index_global_agriculture_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+plot(drop_na(Index_global_col_agr_imports[, c("year", "Index_value")]), type = "o", pch = 19,
       lwd = 2)
-plot(drop_na(Index_global_agriculture_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+lines(drop_na(Index_global_manufactures_imports[, c("year", "Index_value")]), type = "o", pch = 19,
      lwd = 2, col = "blue")
-plot(drop_na(Index_global_manufactures_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+lines(drop_na(Index_global_eur_agr_imports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "red")
+
+
+plot(drop_na(Index_global_col_agr_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2)
+lines(drop_na(Index_global_manufactures_exports[, c("year", "Index_value")]), type = "o", pch = 19,
      lwd = 2, col = "blue")
-plot(drop_na(Index_global_manufactures_exports[, c("year", "Index_value")]), type = "o", pch = 19,
-     lwd = 2, col = "blue")
-plot(drop_na(Index_global_nonagr_imports[, c("year", "Index_value")]), type = "o", pch = 19,
-     lwd = 2, col = "blue")
-plot(drop_na(Index_global_nonagr_exports[, c("year", "Index_value")]), type = "o", pch = 19,
-     lwd = 2, col = "blue")
+lines(drop_na(Index_global_eur_agr_exports[, c("year", "Index_value")]), type = "o", pch = 19,
+     lwd = 2, col = "red")
 
 
 
-Terme_echange_agriculture <- merge(Index_global_agriculture_imports, Index_global_agriculture_exports,
+Terme_echange_col_agr <- merge(Index_global_col_agr_imports, Index_global_col_agr_exports,
                                    by = "year", suffixes = c("_Imports", "_Exports"))
 Terme_echange_manufactures <- merge(Index_global_manufactures_imports, Index_global_manufactures_exports,
                                    by = "year", suffixes = c("_Imports", "_Exports"))
-Terme_echange_nonagr <- merge(Index_global_nonagr_imports, Index_global_nonagr_exports,
+Terme_echange_eur_agr <- merge(Index_global_eur_agr_imports, Index_global_eur_agr_exports,
                                    by = "year", suffixes = c("_Imports", "_Exports"))
-Terme_echange_agriculture$Terme_echange <- Terme_echange_agriculture$Index_value_Exports / Terme_echange_agriculture$Index_value_Imports
+Terme_echange_col_agr$Terme_echange <- Terme_echange_col_agr$Index_value_Exports / Terme_echange_col_agr$Index_value_Imports
 
 Terme_echange_manufactures$Terme_echange <- Terme_echange_manufactures$Index_value_Exports / Terme_echange_manufactures$Index_value_Imports
 
-Terme_echange_nonagr$Terme_echange <- Terme_echange_nonagr$Index_value_Exports / Terme_echange_nonagr$Index_value_Imports
+Terme_echange_eur_agr$Terme_echange <- Terme_echange_eur_agr$Index_value_Exports / Terme_echange_eur_agr$Index_value_Imports
 
 
 plot(drop_na(Terme_echange[ , c("year", "Terme_echange")]), type = "o", pch = 19,
      lwd = 2, ylab = "Termes de léchange", xlab = "Année", main = "Evolution des termes de l'échange",
      panel.first = grid())
 
-plot(drop_na(Terme_echange_agriculture[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+plot(drop_na(Terme_echange_col_agr[ , c("year", "Terme_echange")]), type = "o", pch = 19,
      lwd = 2, col = "blue")
-plot(drop_na(Terme_echange_manufactures[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+lines(drop_na(Terme_echange_manufactures[ , c("year", "Terme_echange")]), type = "o", pch = 19,
       lwd = 2, col = "red")
-plot(drop_na(Terme_echange_nonagr[ , c("year", "Terme_echange")]), type = "o", pch = 19,
+lines(drop_na(Terme_echange_eur_agr[ , c("year", "Terme_echange")]), type = "o", pch = 19,
       lwd = 2, col = "green")
 
 

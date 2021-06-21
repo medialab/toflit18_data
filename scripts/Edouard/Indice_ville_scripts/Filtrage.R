@@ -113,7 +113,7 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
     select(c("year", "customs_region", "export_import", "partner_orthographic",
              "product_simplification", "quantity_unit_metric", "quantities_metric", 
              "unit_price_metric", "value", "best_guess_region_prodxpart", 
-             "product_threesectors", "product_threesectorsM", "partner_grouping")) %>%
+             "product_threesectors", "product_threesectorsM", "partner_grouping", "product_reexportations")) %>%
     mutate(Date = as.Date(as.character(year), format = "%Y")) %>%
     ### On selectionne uniquement les produits rangés par régions
     filter(best_guess_region_prodxpart == 1) %>%
@@ -182,12 +182,20 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
   
   
   if(Product_sector != "All") {
-    if (Product_sector != "Primary goods") {
-    Data <- Data %>%
-      filter(product_threesectors == Product_sector)
-    } else {
+    if (Product_sector == "Primary goods") {
       Data <- Data %>%
-        filter(product_threesectors != "Manufactures")
+        filter(product_threesectors == "Agriculture" | product_threesectors == "Non-agricultural primary goods")
+    } else if (Product_sector == "Primary coloniaux") { 
+      Data <- Data %>%
+        filter((product_threesectors == "Agriculture" | product_threesectors == "Non-agricultural primary goods") 
+               & product_reexportations == "Réexportation")
+    } else if (Product_sector == "Primary european") {
+      Data <- Data %>%
+        filter((product_threesectors == "Agriculture" | product_threesectors == "Non-agricultural primary goods") 
+             & product_reexportations != "Réexportation")
+    } else if (Product_sector == "Manufactures") {
+      Data <- Data %>%
+        filter(product_threesectors == "Manufactures")
     }
   }
   
@@ -215,7 +223,7 @@ Read_bdd_courante <- function(Ville, Exports_imports, Correction_indice_Ag, Prod
     filter(best_unit_metric == T
             & export_import == Exports_imports) %>%
     select(-c("best_unit_metric", "best_guess_region_prodxpart", "product_threesectors", 
-              "product_threesectorsM", "partner_grouping"))
+              "product_threesectorsM", "partner_grouping", "product_reexportations"))
   
   return(list(Data, Value_com_tot))
 } 
