@@ -116,7 +116,7 @@ Index_partner <- Index_partner %>%
 plot(Index_partner$year, Index_partner$Index_value, type = "o")
 
 Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Partner + Partner*year,
-                      data = subset(Index_partner, Exports_imports == "Imports" & Partner != "All"))
+                      data = subset(Index_partner, Exports_imports == "Exports" & Partner != "All"))
 
 summary(Reg_trend_categ)
 
@@ -137,3 +137,37 @@ plot(Index_partner_global$year, Index_partner_global$Index_value, type = "o")
 Reg_trend_partner_global <- lm(log(Index_value) ~ year + Partner + Partner*year ,
                              data = subset(Index_partner_global, Exports_imports == "Exports"))
 summary(Reg_trend_partner_global)
+
+
+
+
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+
+Terme_echange_rdm <- Index_partner_global %>%
+  filter(Partner == "Reste_du_monde") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_rdm = Exports / Imports)
+
+plot(drop_na(Terme_echange_rdm[, c("year", "Terme_echange_rdm")]), type = "o")
+
+
+
+
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+
+Terme_echange_eem <- Index_partner_global %>%
+  filter(Partner == "Europe_et_Mediterranee") %>%
+  select(c("year", "Index_value", "Exports_imports")) %>%
+  spread(Exports_imports, Index_value) %>%
+  mutate(Exports = 100 * Exports / Exports[year == 1789],
+         Imports = 100 * Imports /Imports[year == 1789],
+         Terme_echange_eem = Exports / Imports)
+
+plot(drop_na(Terme_echange_eem[, c("year", "Terme_echange_eem")]), type = "o")
+
+
+
+
