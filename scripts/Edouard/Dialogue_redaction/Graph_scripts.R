@@ -464,13 +464,13 @@ source("./scripts/Edouard/Cor_dif.R")
 
 
 
-corrplot(Cor_ville_Imports_1750_1900, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1750_1900[1:5, 1:5], type = "upper", diag = F,
          method = "circle",
          is.corr = F,
          tl.pos = "td",
          outline = T, tl.col = "black", tl.srt = 30,
-         lowCI.mat = Cor_diff_neg,
-         uppCI.mat = Cor_diff_pos,
+         lowCI.mat = Cor_diff_neg[1:5, 1:5],
+         uppCI.mat = Cor_diff_pos[1:5, 1:5],
          plotCI = "rect",
          title = "Evolution des corrélations entre les différents indices des ports - Imports",
          mar = c(0,0,2,0))
