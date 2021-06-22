@@ -25,7 +25,7 @@ rm(list = ls())
 source("./scripts/Edouard/Indice_ville_scripts/Ventes_repetees_ponderees.R")
 
 
-
+### Index port ----
 
 ### Sector_index_calcul remplie le csv : Composition_index_results qui comprend les valeurs de l'indice
 ### avec les paramètres par défaut triés par secteurs : Manufactures, Agriculture et Non-agricultural primary goods
@@ -55,6 +55,9 @@ Sector_index_calcul <- function()
   Add_new_sector("Manufactures")
   Add_new_sector("Non-agricultural primary goods")
   Add_new_sector("Agriculture")
+  Add_new_sector("Primary goods")
+  Add_new_sector("Primary coloniaux")
+  Add_new_sector("Primary european")
   
   
 }
@@ -106,7 +109,7 @@ Add_new_sector <- function(Product_sector = "All")
   Index_res <- rbind(Index_res, Index_pond)
   ### On retire les lignes si elles sont déja présentes dans le csv
   ### Par défaut, le nouveau résultat met à jour le précédent
-  Index_res <- Index_res[!duplicated(Index_res[ , 1:7], fromLast = T), ]
+  Index_res <- Index_res[!duplicated(Index_res[ , 1:3], fromLast = T), ]
   
   ### On écrit le résulat dans le csv
   write.csv2(Index_res,
@@ -119,7 +122,11 @@ Add_new_sector <- function(Product_sector = "All")
 
 
 
-source("./scripts/Edouard/Indice_global_scripts/Indice_global_sans_filtre.R")
+
+### Index global ----
+
+
+source("./scripts/Edouard/Indice_global_scripts/Indice_global_filtre_ville.R")
 
 ### On cree aussi un index pour l'indice global
 
@@ -146,6 +153,9 @@ Add_new_sector_global()
 Add_new_sector_global("Manufactures")
 Add_new_sector_global("Non-agricultural primary goods")
 Add_new_sector_global("Agriculture")
+Add_new_sector_global("Primary goods")
+Add_new_sector_global("Primary coloniaux")
+Add_new_sector_global("Primary european")
 
 
 }
@@ -193,7 +203,7 @@ Add_new_sector_global <- function(Product_sector = "All")
   Index_res <- rbind(Index_res, Index_pond)
   ### On retire les lignes si elles sont déja présentes dans le csv
   ### Par défaut, le nouveau résultat met à jour le précédent
-  Index_res <- Index_res[!duplicated(Index_res[ , 1:6], fromLast = T), ]
+  Index_res <- Index_res[!duplicated(Index_res[ , 1:3], fromLast = T), ]
   
   ### On écrit le résulat dans le csv
   write.csv2(Index_res,
