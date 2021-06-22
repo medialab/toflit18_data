@@ -113,8 +113,8 @@ Index_composition <- Index_composition %>%
   mutate(Product_sector = relevel(Product_sector, "All"),
          Exports_imports = relevel(Exports_imports, "Imports"))
 
-Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Product_sector + Product_sector*year,
-                      data = subset(Index_composition, Exports_imports == "Imports" & Product_sector %in% c("Manufactures", "Primary goods") & Ville != "Rennes"))
+Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Product_sector + Product_sector*year + Exports_imports,
+                      data = subset(Index_composition, Product_sector %in% c("Manufactures", "Primary coloniaux", "Primary european") & Ville != "Rennes"))
 
 summary(Reg_trend_categ)
 
