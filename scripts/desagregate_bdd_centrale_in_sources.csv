@@ -462,10 +462,10 @@ sources/Local/AD64_2_ETP_105_Bayonne_Imports_1779.csv,223,223,AD64 2 ETP 105,Loc
 sources/Local/AD64_2_ETP_105_Bayonne_Imports_1780.csv,226,226,AD64 2 ETP 105,Local
 sources/Local/AD76_7F97_via_Dardel_Exports.csv,4848,4848,AD76 7F97 - via Dardel,Local
 sources/Local/AD76_7F97_via_Dardel_Imports.csv,2713,2713,AD76 7F97 - via Dardel,Local
-sources/Local/ANOM_Col_F_2B_13_Colonies_Exports_1788.csv,222,222,ANOM Col F 2B 13 (tableaux 37 et 38),Local
-sources/Local/ANOM_Col_F_2B_13_Colonies_Imports_1788.csv,148,148,ANOM Col F 2B 13 (tableaux 37 et 38),Local
-sources/Local/ANOM_Col_F_2B_14_Colonies_Exports_1787.csv,216,216,ANOM Col F 2B 14 (tableau 25),Local
-sources/Local/ANOM_Col_F_2B_14_Colonies_Imports_1787.csv,158,158,ANOM Col F 2B 14 (tableau 25),Local
+sources/Local/ANOM_Col_F2_B_13_Colonies_Exports_1788.csv,222,222,ANOM Col F2 B 13 (tableaux 37 et 38),Local
+sources/Local/ANOM_Col_F2_B_13_Colonies_Imports_1788.csv,148,148,ANOM Col F2 B 13 (tableaux 37 et 38),Local
+sources/Local/ANOM_Col_F2_B_14_Colonies_Exports_1787.csv,216,216,ANOM Col F2 B 14 (tableau 25),Local
+sources/Local/ANOM_Col_F2_B_14_Colonies_Imports_1787.csv,158,158,ANOM Col F2 B 14 (tableau 25),Local
 sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1725.csv,385,385,Archives de la CCI de Marseille - I 21,Local
 sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1726.csv,394,394,Archives de la CCI de Marseille - I 21,Local
 sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1727.csv,460,460,Archives de la CCI de Marseille - I 21,Local
@@ -598,6 +598,19 @@ sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_Rouen_Imports_1738.csv,883
 sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_Rouen_Imports_1771.csv,901,901,Archives de la CCI de Rouen Carton VIII,Local
 sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_Rouen_Imports_1776.csv,698,698,Archives de la CCI de Rouen Carton VIII,Local
 sources/Local/BM_Lyon_ms_1490_Lyon_Grenoble_et_Valence_Exports_1752.csv,407,407,BM Lyon ms 1490,Local
+sources/National partenaires manquants/ANOM_07_DFC_295_partner_Colonies_Imports_1784.csv,7,7,ANOM 07 DFC 295,National partenaires manquants
+sources/National partenaires manquants/ANOM_07_DFC_295_partner_Colonies_Imports_1785.csv,7,7,ANOM 07 DFC 295,National partenaires manquants
+sources/National partenaires manquants/ANOM_07_DFC_305_partner_Colonies_Exports_1790.csv,715,715,ANOM 07 DFC 305,National partenaires manquants
+sources/National partenaires manquants/ANOM_07_DFC_306_partner_Colonies_Imports_1790.csv,100,100,ANOM 07 DFC 306,National partenaires manquants
+sources/National partenaires manquants/ANOM_07_DFC_307_partner_Monde_Reexports_Exports_1790.csv,149,149,ANOM 07 DFC 307,National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_13_partner_Indes_Exports_1788.csv,205,205,ANOM Col F2 B 13 (tableau 32),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_13_partner_Indes_Imports_1788.csv,41,41,ANOM Col F2 B 13 (tableau 31),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Colonies_Imports_1786.csv,22,22,ANOM Col F2 B 14 (tableau 13),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Colonies_Imports_1787.csv,22,22,ANOM Col F2 B 14 (tableau 13bis),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Indes_Exports_1789.csv,202,202,ANOM Col F2 B 14 (tableau 28),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Indes_Imports_1789.csv,31,31,ANOM Col F2 B 14 (tableau 27),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Monde_Reexports_Exports_1786.csv,11,11,ANOM Col F2 B 14 (tableau 13bis),National partenaires manquants
+sources/National partenaires manquants/ANOM_Col_F2_B_14_partner_Monde_Reexports_Exports_1787.csv,10,10,ANOM Col F2 B 14 (tableau 13bis),National partenaires manquants
 sources/National partenaires manquants/AN_F12_1835_partner_Angleterre_Exports_1783.csv,38,38,AN F12 1835,National partenaires manquants
 sources/National partenaires manquants/AN_F12_1835_partner_Angleterre_Exports_1784.csv,101,101,AN F12 1835,National partenaires manquants
 sources/National partenaires manquants/AN_F12_1835_partner_Angleterre_Imports_1783.csv,23,23,AN F12 1835,National partenaires manquants
@@ -613,9 +626,10 @@ sources/National partenaires manquants/AN_F12_1835_partner_Etats-Unis_d_Amerique
 sources/National partenaires manquants/AN_F12_1835_partner_Russie_Exports_1785.csv,14,14,AN F12 1835,National partenaires manquants
 sources/National partenaires manquants/AN_F12_1835_partner_Russie_Imports_1785.csv,12,12,AN F12 1835,National partenaires manquants
 sources/National partenaires manquants/Bibliotheque_Historique_de_la_Ville_de_Paris_Fonds_Montyon_101FOSS_25_partner_Levant_Imports_1771.csv,189,189,Bibliothèque Historique de la Ville de Paris Fonds Montyon 101FOSS/25,National partenaires manquants
-sources/National toutes directions partenaires manquants/ANOM_Col_F_2B_13_Colonies_Exports_1788.csv,6439,6439,ANOM Col F 2B 13 (tableau 19);ANOM Col F 2B 13 (tableau 20);ANOM Col F 2B 13 (tableau 21);ANOM Col F 2B 13 (tableau 22);ANOM Col F 2B 13 (tableau 23);ANOM Col F 2B 13 (tableau 24);ANOM Col F 2B 13 (tableau 25);ANOM Col F 2B 13 (tableau 26);ANOM Col F 2B 13 (tableau 27),National toutes directions partenaires manquants
-sources/National toutes directions partenaires manquants/ANOM_Col_F_2B_14_Colonies_Exports_1789.csv,4858,4858,ANOM Col F 2B 14;ANOM Col F 2B 14 (tableau 17);ANOM Col F 2B 14 (tableau 18);ANOM Col F 2B 14 (tableau 19);ANOM Col F 2B 14 (tableau 20);ANOM Col F 2B 14 (tableau 21);ANOM Col F 2B 14 (tableau 22);ANOM Col F 2B 14 (tableau 23);ANOM Col F 2B 14 (tableau 24);ANOM Col F 2B 14 (tableau 25),National toutes directions partenaires manquants
-sources/National toutes directions partenaires manquants/ANOM_Col_F_2B_14_Colonies_Imports_1789.csv,255,255,ANOM Col F 2B 14,National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_13_Colonies_Exports_1788.csv,6439,6439,ANOM Col F2 B 13 (tableau 19);ANOM Col F2 B 13 (tableau 20);ANOM Col F2 B 13 (tableau 21);ANOM Col F2 B 13 (tableau 22);ANOM Col F2 B 13 (tableau 23);ANOM Col F2 B 13 (tableau 24);ANOM Col F2 B 13 (tableau 25);ANOM Col F2 B 13 (tableau 26);ANOM Col F2 B 13 (tableau 27),National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14.csv,49,49,ANOM F2 B 14,National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14_Colonies_Exports_1789.csv,4875,4875,ANOM Col F2 B 14 (tableau 17);ANOM Col F2 B 14 (tableau 18);ANOM Col F2 B 14 (tableau 19);ANOM Col F2 B 14 (tableau 20);ANOM Col F2 B 14 (tableau 21);ANOM Col F2 B 14 (tableau 22);ANOM Col F2 B 14 (tableau 23);ANOM Col F2 B 14 (tableau 24);ANOM Col F2 B 14 (tableau 25);ANOM Col F2 B 14 (tableau 28);ANOM Col F2 B 14 (tableau 5),National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14_Colonies_Imports_1789.csv,255,255,ANOM Col F2 B 14,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1655_Marseille_Imports_1787.csv,1111,1111,AN F12 1655,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Amiens_Exports_1789.csv,168,168,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Auch_Exports_1789.csv,179,179,AN F12 1666,National toutes directions partenaires manquants
@@ -627,8 +641,10 @@ sources/National toutes directions partenaires manquants/AN_F12_1666_Chalons_Exp
 sources/National toutes directions partenaires manquants/AN_F12_1666_Charleville_Exports_1789.csv,671,671,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Grenoble_Exports_1789.csv,914,914,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_La_Rochelle_Exports_1789.csv,370,370,AN F12 1666,National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/AN_F12_1666_Langres_Exports_1789.csv,112,112,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Lille_Exports_1789.csv,1217,1217,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Lorient_Exports_1789.csv,136,136,AN F12 1666,National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/AN_F12_1666_Lyon_Exports_1789.csv,422,422,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Marseille_Exports_1789.csv,1939,1939,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Montpellier_Exports_1789.csv,835,835,AN F12 1666,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_1666_Nantes_Exports_1789.csv,502,502,AN F12 1666,National toutes directions partenaires manquants
@@ -663,7 +679,7 @@ sources/National toutes directions partenaires manquants/AN_F12_1667_et_Archives
 sources/National toutes directions partenaires manquants/AN_F12_1835_Colonies_Imports_1788.csv,250,250,AN F12 1835,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_835_partner_Angleterre_Exports_1787.csv,158,158,AN F12 835,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/AN_F12_835_partner_Angleterre_Imports_1787.csv,304,304,AN F12 835,National toutes directions partenaires manquants
-sources/National toutes directions partenaires manquants/AN_Marine_B_7_514_et_ANOM_Col_F_2B_14_Colonies_Exports_1787.csv,2211,2211,AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 16);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 17);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 18);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 21);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 22);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 23);AN Marine B 7 514 et ANOM Col F 2B 14 (tableau 24),National toutes directions partenaires manquants
+sources/National toutes directions partenaires manquants/AN_Marine_B_7_514_et_ANOM_Col_F2_B_14_Colonies_Exports_1787.csv,2211,2211,AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 16);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 17);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 18);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 21);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 22);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 23);AN Marine B 7 514 et ANOM Col F2 B 14 (tableau 24),National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/BM_Saint-Brieuc_Fonds_Gournay_M85_partner_Espagne_Exports_1749.csv,993,993,BM Saint-Brieuc Fonds Gournay - M85,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/BM_Saint-Brieuc_Fonds_Gournay_M85_partner_Espagne_Imports_1749.csv,528,528,BM Saint-Brieuc Fonds Gournay - M85,National toutes directions partenaires manquants
 sources/National toutes directions partenaires manquants/BM_Saint-Brieuc_Fonds_Gournay_M85_partner_Portugal_Exports_1749.csv,246,246,BM Saint-Brieuc Fonds Gournay - M85,National toutes directions partenaires manquants
@@ -799,7 +815,7 @@ sources/Out/AD44_C706_Rennes_Imports_1714_monthly.csv,1210,1210,AD44 C706,Out
 sources/Out/AD44_C716_Rennes_Imports_1757_bis.csv,171,171,AD44 C716,Out
 sources/Out/AD76_7F97_via_Dardel_Exports.csv,260,260,AD76 7F97 - via Dardel,Out
 sources/Out/AD76_7F97_via_Dardel_Imports.csv,1,1,AD76 7F97 - via Dardel,Out
-sources/Out/ANOM_Col_F_2B_14_Colonies_Exports_1789_bis.csv,5,5,ANOM Col F 2B 14,Out
+sources/Out/ANOM_Col_F2_B_14_Colonies_Exports_1789_bis.csv,5,5,ANOM Col F2 B 14,Out
 sources/Out/AN_F12_1667_Saint-Quentin_Imports_1789_bis.csv,3,3,AN F12 1667,Out
 sources/Out/AN_F12_1834A_Exports_1671.csv,17,17,AN F12 1834A,Out
 sources/Out/AN_F12_1834A_Imports_1671.csv,1565,1565,AN F12 1834A,Out
