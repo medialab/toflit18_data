@@ -380,8 +380,7 @@ Cor_ville_Imports <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/Correlatio
                                                              sheet = "Imports", rowNames = T))
 
 
-corrplot(Cor_ville_Imports, type = "upper", diag = F,
-         method = "ellipse",
+corrplot(Cor_ville_Imports[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -391,7 +390,7 @@ Cor_ville_Exports <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/Correlatio
                                                    sheet = "Exports", rowNames = T))
 
 
-corrplot(Cor_ville_Exports, type = "upper", diag = F,
+corrplot(Cor_ville_Exports[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -404,7 +403,7 @@ Cor_ville_Imports_1700_1760 <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/
                                                    sheet = "Imports", rowNames = T))
 
 
-corrplot(Cor_ville_Imports_1700_1760, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1700_1760[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -412,7 +411,7 @@ Cor_ville_Imports_1750_1900 <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/
                                                              sheet = "Imports", rowNames = T))
 
 
-corrplot(Cor_ville_Imports_1750_1900, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1750_1900[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -423,7 +422,7 @@ Cor_ville_Imports_1700_1760 <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/
                                                              sheet = "Exports", rowNames = T))
 
 
-corrplot(Cor_ville_Imports_1700_1760, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1700_1760[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -431,7 +430,7 @@ Cor_ville_Imports_1750_1900 <- as.matrix(openxlsx::read.xlsx("./scripts/Edouard/
                                                              sheet = "Exports", rowNames = T))
 
 
-corrplot(Cor_ville_Imports_1750_1900, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1750_1900[1:5, 1:5], type = "upper", diag = F,
          outline = T, tl.col = "black", tl.srt = 45)
 
 
@@ -464,13 +463,13 @@ source("./scripts/Edouard/Cor_dif.R")
 
 
 
-corrplot(Cor_ville_Imports_1750_1900, type = "upper", diag = F,
+corrplot(Cor_ville_Imports_1750_1900[1:5, 1:5], type = "upper", diag = F,
          method = "circle",
          is.corr = F,
          tl.pos = "td",
          outline = T, tl.col = "black", tl.srt = 30,
-         lowCI.mat = Cor_diff_neg,
-         uppCI.mat = Cor_diff_pos,
+         lowCI.mat = Cor_diff_neg[1:5, 1:5],
+         uppCI.mat = Cor_diff_pos[1:5, 1:5],
          plotCI = "rect",
          title = "Evolution des corrélations entre les différents indices des ports - Imports",
          mar = c(0,0,2,0))
