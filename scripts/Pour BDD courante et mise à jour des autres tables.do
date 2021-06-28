@@ -46,7 +46,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_threesectorsM	classification_product_reexportations {
 
 	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
-			clear varname(1) stringcols(_all) case(preserve) 
+			clear varname(1) stringcols(_all) case(preserve) asdouble
 
 	foreach variable of var * {
 		capture	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -59,7 +59,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 		capture	replace `variable'  =ustrtrim(`variable')
 	}
 
-	capture destring nbr*, replace float
+	capture destring nbr*, replace 
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/`file'.dta", replace
  
@@ -95,17 +95,20 @@ save "Données Stata/Units_N1.dta", replace
 
 use "Données Stata/classification_quantityunit_simplification.dta", clear
 replace conv_orthographic_to_simplificat  =usubinstr(conv_orthographic_to_simplificat,",",".",.)
-destring conv_orthographic_to_simplificat source_bdc, replace float
+destring conv_orthographic_to_simplificat source_bdc, replace
+replace conv_orthographic_to_simplificat=round(conv_orthographic_to_simplificat,0.0001)
 save "Données Stata/classification_quantityunit_simplification.dta", replace
 
 use "Données Stata/classification_quantityunit_metric1.dta", clear
 replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
-destring conv_simplification_to_metric, replace float
+destring conv_simplification_to_metric, replace 
+replace conv_simplification_to_metric=round(conv_simplification_to_metric,0.0001)
 save "Données Stata/classification_quantityunit_metric1.dta", replace
 
 use "Données Stata/classification_quantityunit_metric2.dta", clear
 replace conv_simplification_to_metric  =usubinstr(conv_simplification_to_metric,",",".",.)
-destring conv_simplification_to_metric, replace float
+destring conv_simplification_to_metric, replace 
+replace conv_simplification_to_metric=round(conv_simplification_to_metric,0.0001)
 save "Données Stata/classification_quantityunit_metric2.dta", replace
 
 /*
@@ -126,7 +129,7 @@ foreach file in travail_sitcrev3 sitc18_simpl {
 
 		}
 
-		capture destring nbr*, replace float
+		capture destring nbr*, replace 
 		capture drop nbr_bdc* source_bdc
 		save "Données Stata/`file'.dta", replace
 }
@@ -147,7 +150,7 @@ import delimited "$dir_git/traitements_product/SITC/Définitions sitc_classifica
 		capture	replace `variable'  =ustrtrim(`variable')
 	}
 
-	capture destring nbr*, replace float
+	capture destring nbr*, replace 
 	capture drop nbr_bdc* source_bdc
 	save "Données Stata/Définitions sitc_classification.dta", replace
 */
@@ -161,8 +164,8 @@ import delimited "$dir_git/traitements_product/SITC/Définitions sitc_classifica
  *(juste parce que c'est trop long)
 
 
-import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all)  
-foreach variable of var product partner quantity_unit {
+import delimited "$dir_git/base/bdd_centrale.csv",  encoding(UTF-8) clear varname(1) stringcols(_all) asdouble
+foreach variable of var product partner quantity_unit  {
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
 	replace `variable'  =usubinstr(`variable',"  "," ",.)
@@ -191,9 +194,12 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 }
 
 
-destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace float
-destring quantity value_per_unit value, replace float
-destring line_number, replace float
+destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace 
+destring quantity value_per_unit value, replace 
+replace value_per_unit=round(value_per_unit,0.00001)
+destring line_number, replace 
+destring value_minus_unit_val_x_qty, replace 
+replace value_minus_unit_val_x_qty=round(value_minus_unit_val_x_qty,0.00001)
 
 drop if source==""
 drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
@@ -218,7 +224,7 @@ cd "$dir_git/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 
 */
-
+blif
 
 **********************Metter à jour les classifications
 if "`c(username)'"=="guillaumedaudin" do "$dir_git/scripts/Pour mise à jour des classifications"
@@ -528,9 +534,9 @@ replace quantity = value/value_per_unit  if computed_quantity ==1
 
 
 
-destring value_minus_unit_val_x_qty, replace float
+destring value_minus_unit_val_x_qty, replace 
 rename value_minus_unit_val_x_qty value_minus_un_source
-gen value_minus_unit_val_x_qty = float(value_as_reported-(value_per_unit*quantity) )
+gen value_minus_unit_val_x_qty = value_as_reported-(value_per_unit*quantity)
 
 
 
