@@ -194,37 +194,27 @@ foreach variable of var quantity value value_per_unit value_minus_unit_val_x_qty
 }
 
 
-destring value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle, replace 
-destring quantity value_per_unit value, replace 
-replace value_per_unit=round(value_per_unit,0.00001)
-destring line_number, replace 
-destring value_minus_unit_val_x_qty, replace 
-replace value_minus_unit_val_x_qty=round(value_minus_unit_val_x_qty,0.00001)
 
-drop if source==""
-drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
-drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
-replace value=. if (value==0 & quantity !=. & quantity !=0)
-replace quantity=. if quantity==0
 
 
 **Je mets des majuscules à toutes les "product" de la source
 replace product = upper(substr(product,1,1))+substr(product,2,.)
 
-
-
 capture drop v24
 
+drop if source==""
 
 
-
-save "Données Stata/bdd_centrale.dta", replace
-export delimited "$dir_git/base/bdd_centrale.csv", replace
+export delimited "$dir_git/base/bdd_centrale.csv", replace datafmt
 cd "$dir_git/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
+save "$dir/Données Stata/bdd_centrale.dta", replace
+****Important : si je fais les destring avant, je ne peux pas retrouver mes valeurs d’origine
+****Voir https://www.statalist.org/forums/forum/general-stata-discussion/general/1433867-stata-generating-garbage-decimal-places-in-float-variable
 
-*/
-blif
+
+
+
 
 **********************Metter à jour les classifications
 if "`c(username)'"=="guillaumedaudin" do "$dir_git/scripts/Pour mise à jour des classifications"
@@ -236,7 +226,36 @@ if "`c(username)'"=="Tirindelli" do "$dir_git/scripts/Pour mise à jour des clas
 
 ****************************BDD courante
 
-use "bdd_centrale.dta", clear
+use bdd_centrale.dta, clear
+
+
+drop if value=="0" & quantity=="" & value_per_unit =="" /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value=="0"|value=="") & (quantity ==""|quantity =="0"") & (value_per_unit ==""|value_per_unit =="0"") /*idem*/
+replace value="" if (value=="0" & quantity !="" & quantity !="0")
+replace quantity="" if quantity=="0"
+
+foreach variable of var value_total value_sub_total_1 value_sub_total_2 value_sub_total_3  value_part_of_bundle quantity value_per_unit value line_number value_minus_unit_val_x_qty {
+	destring `variable', replace
+	format `variable' %14.5g
+}
+
+
+drop if value==0 & quantity==. & value_per_unit ==. /*Dans tous les cas regardés le 31 mai 2016, ce sont des "vrais" 0*/
+drop if (value==0|value==.) & (quantity ==.|quantity ==0) & (value_per_unit ==.|value_per_unit ==0) /*idem*/
+replace value=. if (value==0 & quantity !=. & quantity !=0)
+replace quantity=. if quantity==0
+
+
+
+/*
+foreach variable of var value_total value_sub_total_1 value_sub_total_2 value_sub_total_3 quantity value  {
+	replace `variable' =round(`variable', 0.001)
+}
+
+replace value_per_unit=round(value_per_unit,0.00001)
+replace value_minus_unit_val_x_qty=round(value_minus_unit_val_x_qty,0.00001)
+*/
+
 
 
 merge m:1 customs_region using "bdd_customs_regions.dta"
