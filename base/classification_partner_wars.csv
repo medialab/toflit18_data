@@ -1,7 +1,7 @@
 simplification,nbr_occurences_simpl,wars,note,nbr_occurences_wars
 ?,12,???,,208
 ???,196,???,,208
-[vide],2582,[vide],,2582
+[vide],2583,[vide],,2583
 Afrique,49,Afrique,,83
 Afrique occidentale,34,Afrique,,83
 Alexandrette,37,Levant,,26030
@@ -15,10 +15,10 @@ Alsace,359,France,,6187
 Alsace et les Trois Évêchés,3,France,,6187
 Alsace et Lorraine,4,France,,6187
 "Alsace, Bayonne, Dunkerque, Lorient et Petites Îles",1,France,,6187
-Amérique et Inde,1,Amérique et Inde,,4018
-"Amérique, colonies françaises et Inde",1,Amérique et Inde,,4018
-"Amérique, Inde et Turquie",2,Amérique et Inde,,4018
-Amériques,50,Amérique et Inde,,4018
+Amérique et Inde,1,Amérique et Inde,,4023
+"Amérique, colonies françaises et Inde",1,Amérique et Inde,,4023
+"Amérique, Inde et Turquie",2,Amérique et Inde,,4023
+Amériques,50,Amérique et Inde,,4023
 Amiens,2,France,,6187
 Angleterre,26626,Angleterre et ses colonies,,26895
 Angleterre et Cologne,1,Angleterre et ses colonies,,26895
@@ -51,7 +51,7 @@ Bilbao,10,Espagne et ses colonies,,64403
 Bilbao et Cadix,3,Espagne et ses colonies,,64403
 Brême,9,Villes hanséatiques,,4989
 "Brême, Lubeck, Norvège et villes hanséatiques",1,Villes hanséatiques,,4989
-Brésil,30,Amérique et Inde,,4018
+Brésil,30,Amérique et Inde,,4023
 Bruges,16,Belgique,,83
 Cadix,6,France,,6187
 Canada,38,Colonies françaises,,29670
@@ -60,7 +60,7 @@ Cannée et Candie,3,Levant,,26030
 Cayenne et Guyane,1177,Colonies françaises,,29670
 Cayenne et Île Bourbon,1,Colonies françaises,,29670
 Cayenne et Sénégal,1,,,77
-Chili,15,Amérique et Inde,,4018
+Chili,15,Amérique et Inde,,4023
 Chine,93,Asie,,172
 Chypre,17,Levant,,26030
 Clermontois,71,France,,6187
@@ -79,11 +79,11 @@ Colonies françaises hors Guyane et Sénégal,3,Colonies françaises,,29670
 Colonies hollandaises,142,Hollande et ses colonies,,78923
 Colonies portugaises,27,Portugal et ses colonies,,15473
 Colonies suédoises,57,Suède et ses colonies,,11577
-Commerce de la Compagnie des Indes,133,Amérique et Inde,,4018
+Commerce de la Compagnie des Indes,133,Amérique et Inde,,4023
 Constantinople,22,Levant,,26030
 Corse,144,Divers,,6801
 Courlande et Russie,185,Nord,,33552
-Cuba et Porto Rico,20,Amérique et Inde,,4018
+Cuba et Porto Rico,20,Amérique et Inde,,4023
 Danemark,12444,Danemark et ses colonies,,12948
 Danemark et Norvège,414,Danemark et ses colonies,,12948
 Duché de Bouillon,108,Duché de Bouillon,,108
@@ -141,21 +141,21 @@ Hambourg,112,Villes hanséatiques,,4989
 "Hambourg, Hollande et Livourne",1,Divers,,6801
 Hollande,76329,Hollande et ses colonies,,78923
 Hollande et Villes hanséatiques,223,Divers,,6801
-Île Bourbon,53,Îles,,52307
-Île Bourbon et Inde,3,Îles,,52307
-Île de Ré,1,Îles,,52307
-Île Maurice,22,Îles,,52307
-Îles,7109,Îles,,52307
-Îles de France et de Bourbon,469,Îles,,52307
-Îles de l'Amérique,136,Îles,,52307
-Îles et Guinée,2,Îles,,52307
-Îles françaises,2011,Îles,,52307
-Îles françaises de l'Amérique,41908,Îles,,52307
+Île Bourbon,53,Îles,,52312
+Île Bourbon et Inde,3,Îles,,52312
+Île de Ré,1,Îles,,52312
+Île Maurice,22,Îles,,52312
+Îles,7109,Îles,,52312
+Îles de France et de Bourbon,473,Îles,,52312
+Îles de l'Amérique,136,Îles,,52312
+Îles et Guinée,2,Îles,,52312
+Îles françaises,2011,Îles,,52312
+Îles françaises de l'Amérique,41908,Îles,,52312
 Inconnu,209,Divers,,6801
 Inde étrangère,18,Divers,,6801
-Indes,3685,Amérique et Inde,,4018
+Indes,3690,Amérique et Inde,,4023
 Indes anglaises,16,Angleterre et ses colonies,,26895
-Indes et Moka,41,Amérique et Inde,,4018
+Indes et Moka,41,Amérique et Inde,,4023
 Indes françaises,22,Colonies françaises,,29670
 Indes hollandaises,6,Hollande et ses colonies,,78923
 Irlande,62,Angleterre et ses colonies,,26895
@@ -176,7 +176,7 @@ Marseille,2696,France,,6187
 Marseille et Petites Îles,1,France,,6187
 Martinique,2929,Colonies françaises,,29670
 Mecklembourg-Schwerin,4,Nord,,33552
-Mexique,9,Amérique et Inde,,4018
+Mexique,9,Amérique et Inde,,4023
 Milanais,4,"Milanais, Toscane et Lucques",,1835
 Milanais et Toscane,725,"Milanais, Toscane et Lucques",,1835
 "Milanais, Toscane et Lucques",1106,"Milanais, Toscane et Lucques",,1835
@@ -218,8 +218,8 @@ Pêches côtières (Maquereaux),2,Pêches,,69
 Pêches côtières (Sardines),1,Pêches,,69
 Pêches étrangères,17,Pêches,,69
 Pêches françaises,42,Pêches,,69
-Pérou,6,Amérique et Inde,,4018
-Petites Îles,593,Îles,,52307
+Pérou,6,Amérique et Inde,,4023
+Petites Îles,594,Îles,,52312
 Philippines,1,Divers,,6801
 Piémont,1590,Royaume de Piemont et Sardaigne,,33354
 Piémont et Savoie,340,Royaume de Piemont et Sardaigne,,33354
@@ -245,7 +245,7 @@ Royaume de Sardaigne – par terre,2,Royaume de Piemont et Sardaigne,,33354
 Russie,6700,Nord,,33552
 Saint-Domingue,5743,Colonies françaises,,29670
 Saint-Jean de Luz,9,Espagne et ses colonies,,64403
-Saint-Thomas,11,Amérique et Inde,,4018
+Saint-Thomas,11,Amérique et Inde,,4023
 Salonique,5,Levant,,26030
 "Salonique, Archipel et Satali",17,Levant,,26030
 Sardaigne,2040,Royaume de Piemont et Sardaigne,,33354
@@ -267,7 +267,7 @@ Toscane,636,Toscane,,636
 Tripoli de Syrie,15,Levant,,26030
 Trois Évêchés,615,France,,6187
 Turquie,34,Levant,,26030
-Vénézuela,14,Amérique et Inde,,4018
+Vénézuela,14,Amérique et Inde,,4023
 Venise,1975,Venise,,1975
 Villes hanséatiques,4866,Villes hanséatiques,,4989
 Voitures diverses,2,Divers,,6801
