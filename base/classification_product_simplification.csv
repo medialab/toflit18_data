@@ -627,12 +627,12 @@ artichauts verts,1,artichauts frais,17
 articles d'industrie réunis,240,ouvrages d'industrie,301
 articles de manufactures étrangères en toile à voile,1,toile à voile,11
 articles de pêche,1,outils de la pêche,115
-articles de peu de valeur réunis,19,divers,5749
-articles divers,2,divers,5749
-articles réunis,2410,divers,5749
-articles réunis d'une valeur moindre de 2000 francs chacun,196,divers,5749
-articles réunis de peu de valeur,379,divers,5749
-articles réunis et tissus étrangers réexportés,26,divers,5749
+articles de peu de valeur réunis,19,divers,5750
+articles divers,2,divers,5750
+articles réunis,2410,divers,5750
+articles réunis d'une valeur moindre de 2000 francs chacun,196,divers,5750
+articles réunis de peu de valeur,379,divers,5750
+articles réunis et tissus étrangers réexportés,26,divers,5750
 artifice,5,artifice,5
 artifice fusées etc.,43,artifice fusées etc.,43
 artillerie,6,artillerie,6
@@ -681,15 +681,15 @@ aurcsats étoile,1,aurcsats étoile,1
 aussière,0,aussière,0
 autel de marbre,2,autel de marbre,2
 autre droguerie,1,drogues,2710
-autres,500,divers,5749
+autres,500,divers,5750
 autres céréales farine,4,farine,2277
 autres céréales grains,5,grains,9
 autres céréales grains de la Corse,1,grains de la Corse,1
 autres comestibles,1,comestibles,82
 autres couleurs autrement préparées,2,couleurs autrement préparées,2
 autres couleurs préparées à l'huile,2,couleurs préparées à l'huile,2
-autres denrées,2,divers,5749
-autres marchandises,416,divers,5749
+autres denrées,2,divers,5750
+autres marchandises,416,divers,5750
 autres marchandises anglaises,1,marchandises anglaises,1
 autres marchandises permises,40,marchandises permises,77
 autres matériaux de construction,2,matériaux de construction,101
@@ -1501,7 +1501,7 @@ bille de bois de marbre,1,billes de bois et de marbre,1
 billes d'ivoire,8,billes d'ivoire,8
 billes de billard,1,billes de billard,1
 billes de bois,4,billes de bois,4
-billes de bois à faire meubles,1,billes de bois pour meuble,1
+billes de bois à faire meubles,1,billes de bois pour meubles,3
 billes de bois de Cayenne,0,billes de bois de Cayenne,0
 billes de bois de Cayenne de 9 pieds,1,billes de bois de Cayenne de 9 pieds,1
 billes de bois de gaïac,1,billes de bois de gaïac,1
@@ -1671,8 +1671,8 @@ bœuf taureau,2,bœuf et taureaux,105
 bœuf taureaux,5,bœuf taureau,5
 bœufs et vaches et moutons etc.,1,bœuf et moutons et vaches etc.,1
 bœuftins et génisses,120,bœuftins et génisses,120
-bois,1767,bois,6620
-bois ???,7,bois,6620
+bois,1767,bois,6624
+bois ???,7,bois,6624
 bois ??? de chêne,2,bois de chêne,124
 bois à banquière,2,bois pour banquière,2
 bois à barils,17,bois pour barils,17
@@ -1748,7 +1748,7 @@ bois à faire étuis,1,bois pour étuis,1
 bois à faire fourreaux,2,bois pour fourreau,2
 bois à faire fourreaux d'épée,3,bois pour fourreau d'épée,7
 bois à faire gainer,1,bois pour gaine,3
-bois à faire meubles,5,bois pour meubles,8
+bois à faire meubles,5,bois pour meubles,23
 bois à faire paniers,4,bois pour paniers,4
 bois à faire sommiers,5,bois pour sommier,5
 bois à faire tamis,1,bois pour tamis,27
@@ -1761,14 +1761,14 @@ bois à fourreaux d'épée,4,bois pour fourreau d'épée,7
 bois à fusils,2,bois pour fusil,18
 bois à gabares,1,bois pour gabares,4
 bois à gaine,2,bois pour gaine,3
-bois à la valeur,4,bois,6620
+bois à la valeur,4,bois,6624
 bois à lit,1,bois pour lit,1
 bois à mâts,1,bois pour mâts,2
 bois à mâture,1,bois pour mâts,2
-bois à meubler en madriers,1,madriers de bois pour meuble,2
-bois à meubles,12,bois pour meuble,12
-bois à meubles en billes,2,bois en billes pour meuble,2
-bois à meubles en madriers,1,madriers de bois pour meuble,2
+bois à meubler en madriers,1,madriers de bois pour meubles,2
+bois à meubles,12,bois pour meubles,23
+bois à meubles en billes,2,billes de bois pour meubles,3
+bois à meubles en madriers,1,madriers de bois pour meubles,2
 bois à parquet,1,bois pour parquet,1
 bois à pipes,7,merrains pour pipe,7
 bois à pipes douelles,1,douelles pour pipes,286
@@ -1822,7 +1822,7 @@ bois bresillet,1,bresillet,1
 bois brun,1,bois brun,2
 bois buis,1,bois brun,2
 bois Caliatour,1,bois de Caliatour,87
-bois Campêche,5,bois de Campêche,1114
+bois Campêche,5,bois de Campêche,1116
 bois Campêche en bûches,1,bois de Campêche en bûches,27
 bois Campêche moulu,1,bois de Campêche moulu,22
 bois cavettes,2,cavettes de bois,3
@@ -1838,7 +1838,7 @@ bois commun de pin et sapin scié et de cham,1,bois commun de pin et sapin de ch
 bois corbin,1,bois corbin,1
 bois cordayer,2,bois cordayer,2
 bois courbé,1,bois courbé,1
-bois d'acajou,145,bois d'acajou,160
+bois d'acajou,146,bois d'acajou,161
 bois d'acajou à madriers,1,bois d'acajou pour madrier,1
 bois d'acajou à planches,1,bois d'acajou pour planche,1
 bois d'acajou baignoires,1,baignoires d'acajou,1
@@ -1851,6 +1851,7 @@ bois d'acajou en chevrons,3,chevrons d'acajou,10
 bois d'acajou en madriers,79,madriers d'acajou,112
 bois d'acajou en morceaux,1,bois d'acajou en morceaux,1
 bois d'acajou en planches,14,planches d'acajou,41
+bois d'acajou et autres pour meubles,3,bois pour meubles,23
 bois d'acajou madriers,9,madriers d'acajou,112
 bois d'acajou madriers de 10 à 11 pieds,1,madriers d'acajou de 10 à 11 pieds,2
 bois d'acajou madriers de 10 pieds,1,madriers d'acajou de 10 pieds,2
@@ -1877,13 +1878,13 @@ bois d'aspatton,1,bois d'aspatton,1
 bois d'ébène,218,bois d'ébène,224
 bois d'ébène en bûches,1,bois d'ébène en bûches,1
 bois d'ébénisterie d'acajou brut,6,bois d'acajou brut,6
-bois d'ébénisterie d'acajou brut ou équarri à la hache,3,bois d'acajou,160
+bois d'ébénisterie d'acajou brut ou équarri à la hache,3,bois d'acajou,161
 bois d'ébénisterie d'acajou brut ou équarri à la hache des entrepôts français,0,bois d'acajou des entrepôts,0
 bois d'ébénisterie d'acajou scié,4,bois d'acajou scié,4
 bois d'ébénisterie de buis,6,bois de buis,232
 bois d'ébénisterie de cail-cédra,3,bois de cail-cédra,3
 bois d'ébénisterie de cèdre,4,bois de cèdre,23
-bois d'ébénisterie de gaïac,9,bois de gaïac,361
+bois d'ébénisterie de gaïac,9,bois de gaïac,363
 bois d'ébénisterie de gaïac des entrepôts,0,bois de gaïac des entrepôts,0
 bois d'ébénisterie sans désignation,9,bois d'ébénisterie,12
 bois d'ébénisterie sans désignation et des entrepôts,0,bois d'ébénisterie des entrepôts,0
@@ -1910,7 +1911,7 @@ bois de 5 pieds,0,bois de 5 pieds,0
 bois de 5 pieds en douelles,1,douelles de 5 pieds,1
 bois de barriques,2,bois pour barrique,4
 bois de bats,1,bois pour bats,4
-bois de bois,1,bois,6620
+bois de bois,1,bois,6624
 bois de bordage,4,bois de bordage,4
 bois de bordage de chêne,1,bois de bordage de chêne,1
 bois de bordage de sapin,1,bois de bordage de sapin,1
@@ -1929,7 +1930,7 @@ bois de Caliatour,83,bois de Caliatour,87
 bois de Caliatour en bûches,3,bois de Caliatour en bûche,3
 bois de Caliatour moulu,27,bois de Caliatour moulu,27
 bois de Caliatour râpé,4,bois de Caliatour râpé,4
-bois de Campêche,1064,bois de Campêche,1114
+bois de Campêche,1066,bois de Campêche,1116
 bois de Campêche en bûches,26,bois de Campêche en bûches,27
 bois de Campêche en moulu,1,bois de Campêche moulu,22
 bois de Campêche moulu,20,bois de Campêche moulu,22
@@ -2027,10 +2028,10 @@ bois de construction en planches de sapin,2,planches de sapin,2006
 bois de construction en planches pour bordage,1,planches de bois pour bordage,2
 bois de construction en poutres,1,poutres,2136
 bois de construction espars,2,espars pour construction,2
-bois de construction et autre,15,bois,6620
+bois de construction et autre,15,bois,6624
 bois de construction et en planches,1,bois pour construction et planches de bois,1
 bois de construction mâts et matériaux,2,mâts et matériaux de bois,2
-bois de construction merrains,3,merrains,819
+bois de construction merrains,3,merrains,822
 bois de construction planches sapin,5,planches de sapin,2006
 bois de construction plançons de chêne,1,plançons de chêne,2
 bois de corde,1,bois de corde,1
@@ -2066,7 +2067,7 @@ bois de fustet,45,bois de fustet,61
 bois de fustet moulu,1,bois de fustet moulu,1
 bois de futaille,2,bois pour futaille,2
 bois de gabares,3,bois pour gabares,4
-bois de gaïac,337,bois de gaïac,361
+bois de gaïac,339,bois de gaïac,363
 bois de gaïac en bûches,4,bois de gaïac en bûches,5
 bois de gaïac rapé,1,bois de gaïac râpé,2
 bois de gaïac râpé,1,bois de gaïac râpé,2
@@ -2097,21 +2098,21 @@ bois de marguerite,1,bois de marguerite,1
 bois de marine,2,bois pour mâture,4
 bois de mariombre,1,bois de mariombre,1
 bois de marqueterie,86,bois de marqueterie,86
-bois de marqueterie en acajou,1,bois d'acajou,160
+bois de marqueterie en acajou,1,bois d'acajou,161
 bois de mâture,2,bois pour mâture,4
 bois de mazembie,1,bois de mazembie,1
 bois de Melle,1,bois de melle,1
 bois de menuiserie,18,bois de menuiserie,19
 bois de merisier,1,bois de menuiserie,19
 bois de merisier en madriers,1,madriers de merisier,3
-bois de merrains,20,merrains,819
+bois de merrains,23,merrains,822
 bois de merrains à barriques,1,merrains pour barriques,238
 bois de merrains à barriques en douelles,2,douelles pour barriques,335
 bois de merrains à fonds,1,merrains pour fonds,97
 bois de merrains à pipes,1,merrains pour pipes,93
 bois de merrains à pipes en douelles,2,douelles pour pipes,286
 bois de merrains en douelles,2,douelles,195
-bois de meubles,1,bois pour meubles,8
+bois de meubles,1,bois pour meubles,23
 bois de Nantes,0,bois de Nantes,0
 bois de navire,3,bois de navire,3
 bois de noyer,75,bois de noyer,76
@@ -2148,7 +2149,7 @@ bois de rouage,12,bois de rouage,12
 bois de rouage et ouvrages de charronnerie,7,bois de rouage et ouvrages de charronnerie,7
 bois de roulage,3,bois de roulage,3
 bois de Sainte-Lucie,1,bois de Sainte-Lucie,2
-bois de Sainte-Marthe,240,bois de Sainte-Marthe,257
+bois de Sainte-Marthe,241,bois de Sainte-Marthe,258
 bois de Sainte-Marthe en bûches,4,bois de Sainte-Marthe en bûches,4
 bois de Sainte-Marthe moulu,2,bois de Sainte-Marthe moulu,2
 bois de santal,197,bois de santal,235
@@ -2211,7 +2212,7 @@ bois de tables doré,1,bois de tables doré,1
 bois de tamis,1,bois de tamis,1
 bois de teindre,1,bois de teinture,116
 bois de teinture,107,bois de teinture,116
-bois de teinture de Campêche,3,bois de Campêche,1114
+bois de teinture de Campêche,3,bois de Campêche,1116
 bois de teinture de fustet,1,bois de fustet pour teinture,1
 bois de teinture divers,1,bois de teinture,116
 bois de teinture du Honduras,1,bois du Honduras de teinture,1
@@ -2232,13 +2233,13 @@ bois de teure,0,bois de teure,0
 bois de tilleul,1,bois de tilleul,1
 bois de tilleul en madriers,1,madriers de bois de tilleul,1
 bois de toctacanot,1,bois de toctacanot,1
-bois de toute espèce,1,bois,6620
-bois de toute sorte,112,bois,6620
-bois de toute sorte déclaré par valeur,24,bois,6620
+bois de toute espèce,1,bois,6624
+bois de toute sorte,112,bois,6624
+bois de toute sorte déclaré par valeur,24,bois,6624
 bois de violette,25,bois de violette,25
 bois des Îles,12,bois des Indes,513
-bois des Îles d'acajou,1,bois d'acajou,160
-bois des Îles de Campêche,1,bois de Campêche,1114
+bois des Îles d'acajou,1,bois d'acajou,161
+bois des Îles de Campêche,1,bois de Campêche,1116
 bois des Îles de Pernambouc,1,bois de Pernambouc,237
 bois des Îles de teinture moulu,1,bois des Indes de teinture moulu,1
 bois des Îles divers,5,bois des Indes,513
@@ -2248,11 +2249,11 @@ bois des Îles et des Indes d'ébène,0,bois d'ébène,224
 bois des Îles et des Indes d'ébénisterie,32,bois d'ébénisterie et des Indes,32
 bois des Îles et des Indes de Brésil,4,bois de Brésil,607
 bois des Îles et des Indes de Caliatour,0,bois de Caliatour,87
-bois des Îles et des Indes de Campêche,0,bois de Campêche,1114
+bois des Îles et des Indes de Campêche,0,bois de Campêche,1116
 bois des Îles et des Indes de fustet,0,bois de fustet,61
-bois des Îles et des Indes de gaïac,0,bois de gaïac,361
+bois des Îles et des Indes de gaïac,0,bois de gaïac,363
 bois des Îles et des Indes de Pernambouc,2,bois de Pernambouc,237
-bois des Îles et des Indes de Sainte-Marthe,0,bois de Sainte-Marthe,257
+bois des Îles et des Indes de Sainte-Marthe,0,bois de Sainte-Marthe,258
 bois des Îles et des Indes de santal,0,bois de santal,235
 bois des Îles et des Indes de teinture,14,bois des Indes de teinture,14
 bois des Îles et des Indes divers,0,bois des Indes,513
@@ -2264,17 +2265,17 @@ bois des Îles et des Indes pour ébénisterie et marqueterie,10,bois des Indes 
 bois des Îles et des Indes pour teinture et marqueterie,3,bois des Îles et des Indes pour teinture et marqueterie,3
 bois des Îles et des Indes rouge,0,bois des Indes rouge,5
 bois des Indes,97,bois des Indes,513
-bois des Indes d'acajou,1,bois d'acajou,160
+bois des Indes d'acajou,1,bois d'acajou,161
 bois des Indes d'ébène,4,bois d'ébène,224
 bois des Indes de Caliatour,3,bois de Caliatour,87
-bois des Indes de Campêche,22,bois de Campêche,1114
+bois des Indes de Campêche,22,bois de Campêche,1116
 bois des Indes de Fondal,2,bois de Fondal,2
 bois des Indes de fustet,8,bois de fustet,61
-bois des Indes de gaïac,7,bois de gaïac,361
+bois des Indes de gaïac,7,bois de gaïac,363
 bois des Indes de marqueterie,4,bois des Indes pour marqueterie,4
 bois des Indes de Pernambouc,12,bois de Pernambouc,237
 bois des Indes de Rhodes,1,bois de Rhodes,7
-bois des Indes de Sainte-Marthe,2,bois de Sainte-Marthe,257
+bois des Indes de Sainte-Marthe,2,bois de Sainte-Marthe,258
 bois des Indes de santal,4,bois de santal,235
 bois des Indes de santal mouton,1,bois de santal mouton,1
 bois des Indes de teinture et de marqueterie,6,bois des Indes pour teinture et marqueterie,18
@@ -2286,20 +2287,20 @@ bois des Indes jaune,6,bois des Indes jaune,13
 bois des Indes moulu,9,bois des Indes moulu,10
 bois des Indes moulu en bûches,1,bois des Indes moulu en bûches,1
 bois des Indes moulu moulu,1,bois des Indes moulu,10
-bois des Indes pour peintures et marqueterie de Campêche,12,bois de Campêche,1114
+bois des Indes pour peintures et marqueterie de Campêche,12,bois de Campêche,1116
 bois des Indes pour peintures et marqueterie de fustet,1,bois de fustet,61
-bois des Indes pour peintures et marqueterie de gaïac,5,bois de gaïac,361
+bois des Indes pour peintures et marqueterie de gaïac,5,bois de gaïac,363
 bois des Indes pour peintures et marqueterie de Pernambouc,11,bois de Pernambouc,237
-bois des Indes pour peintures et marqueterie de Sainte-Marthe,15,bois de Sainte-Marthe,257
+bois des Indes pour peintures et marqueterie de Sainte-Marthe,15,bois de Sainte-Marthe,258
 bois des Indes pour peintures et marqueterie de santal,3,bois de santal,235
 bois des Indes pour peintures et marqueterie jaune,2,bois des Indes jaune,13
 bois des Indes pour peintures et marqueterie rose,1,bois des Indes rose,1
 bois des Indes pour peintures et marqueterie rouge,5,bois des Indes rouge,5
-bois des Indes pour teinture et marqueterie d'acajou,9,bois d'acajou,160
-bois des Indes pour teinture et marqueterie de Campêche,7,bois de Campêche,1114
+bois des Indes pour teinture et marqueterie d'acajou,9,bois d'acajou,161
+bois des Indes pour teinture et marqueterie de Campêche,7,bois de Campêche,1116
 bois des Indes pour teinture et marqueterie de coco,1,bois de coco,2
 bois des Indes pour teinture et marqueterie de fustet,7,bois de fustet,61
-bois des Indes pour teinture et marqueterie de gaïac,2,bois de gaïac,361
+bois des Indes pour teinture et marqueterie de gaïac,2,bois de gaïac,363
 bois des Indes pour teinture et marqueterie de palissandre,1,bois de palissandre,46
 bois des Indes pour teinture et marqueterie de Pernambouc,3,bois de Pernambouc,237
 bois des Indes pour teinture et marqueterie divers,12,bois des Indes pour teinture et marqueterie,18
@@ -2310,9 +2311,9 @@ bois dit à fonds,1,bois pour fonds,8
 bois dit ricter,5,bois dit ricter,5
 bois dit schaelen ou rebuts de bois,6,bois dit schaelen ou rebuts de bois,6
 bois dit weres,112,bois dit weres,112
-bois divers,611,bois,6620
+bois divers,615,bois,6624
 bois divers à brûler,4,bois pour brûler,991
-bois divers à la valeur,15,bois,6620
+bois divers à la valeur,15,bois,6624
 bois divers de bruyère,1,bois de bruyère,1
 bois divers de charpente,2,bois pour charpente,2
 bois divers de construction,85,bois pour construction,679
@@ -2320,7 +2321,7 @@ bois divers de construction en planches etc.,12,bois pour construction,679
 bois divers de sapin divers,1,bois de sapin,109
 bois divers des Îles,1,bois des Indes,513
 bois divers en planches,6,planches de bois,128
-bois divers et de construction,35,bois,6620
+bois divers et de construction,35,bois,6624
 bois divers planches,1,planches de bois,128
 bois divers planches de chêne,3,planches de chêne,345
 bois divers pour construction,31,bois pour construction,679
@@ -2377,7 +2378,7 @@ bois en matériaux,9,matériaux de bois,9
 bois en mâts,7,mâts,1476
 bois en mattreaux,1,mâtereaux de bois,3
 bois en mâtures,5,mâts,1476
-bois en merrains,1,merrains,819
+bois en merrains,1,merrains,822
 bois en perches,3,perches de bois,6
 bois en perches de sapin,2,perches de sapin,32
 bois en perches pour jardin,1,perches de bois pour jardin,1
@@ -2421,7 +2422,7 @@ bois exotique d'ébénisterie d'acajou scié épais de 2 à 3 décimètres,1,boi
 bois exotique d'ébénisterie d'ébène,1,bois d'ébène,224
 bois exotique d'ébénisterie de buis,1,bois de buis,232
 bois exotique d'ébénisterie de courbaril,1,bois de courbaril,5
-bois exotique d'ébénisterie de gaïac,1,bois de gaïac,361
+bois exotique d'ébénisterie de gaïac,1,bois de gaïac,363
 bois exotique de teinture en morceaux et autres,1,bois exotique de teinture,1
 bois exotique de teinture en morceaux et Pernambouc,1,bois exotique de teinture en morceaux et Pernambouc,1
 bois fagots,16,fagots de bois,19
@@ -2469,9 +2470,9 @@ bois marbré de 6 pieds,1,bois marbré de 6 pieds,1
 bois marbré en bûches,2,bois marbré en bûches,2
 bois mâtereaux,1,mâtereaux de bois,3
 bois mâts,2,mâts,1476
-bois mêlé,2,bois,6620
+bois mêlé,2,bois,6624
 bois merraing à pipes en douelles,1,douelles pour pipes,286
-bois merrains,712,merrains,819
+bois merrains,712,merrains,822
 bois merrains ???,1,merrains ???,1
 bois merrains à barils,15,merrains pour barils,17
 bois merrains à barils douelles,4,douelles pour barils,52
@@ -2514,7 +2515,7 @@ bois merrains de 4 pieds,0,merrains de 4 pieds,0
 bois merrains de 4 pieds en douelles,1,douelles de 4 pieds,1
 bois merrains de 5 pieds,1,merrains de 5 pieds,1
 bois merrains de sapin,11,merrains de sapin,14
-bois merrains divers,1,merrains,819
+bois merrains divers,1,merrains,822
 bois merrains douelles,30,douelles,195
 bois merrains en chêne,6,merrains de chêne,7
 bois merrains en douelles,117,douelles,195
@@ -2523,7 +2524,7 @@ bois merrains en feuillards,9,feuillards de bois merrains,10
 bois merrains en sapin,3,merrains de sapin,14
 bois merrains et feuillards,1,feuillards de bois merrains,10
 bois merrains fonçaille,1,merrains fonçaille,1
-bois merrains merrains,1,merrains,819
+bois merrains merrains,1,merrains,822
 bois merrains ordinaire,1,merrains communs,1
 bois merrains pipes douelles,1,douelles pour pipes,286
 bois merrains pour ferraille,1,merrains pour ferraille,1
@@ -2600,7 +2601,7 @@ bois pour instruments de musique,3,bois pour instruments de musique,3
 bois pour lattes,3,bois pour lattes,3
 bois pour les charrons,1,bois pour charrons,1
 bois pour mâtures,6,bois pour mâtures,6
-bois pour meubles,2,bois pour meubles,8
+bois pour meubles,2,bois pour meubles,23
 bois pour palissades,4,bois pour palissade,5
 bois pour peinture et teinture,3,bois pour peinture et teinture,3
 bois pour quilles de navire,1,bois pour quilles de navire,1
@@ -2670,15 +2671,15 @@ boissons cidre,7,cidre,514
 boissons distillées de grains,1,boissons de grains distillées,1
 boissons eau-de-vie,34,eau-de-vie,10940
 boissons gazeuses à la salsepareille,3,boissons gazeuses à la salsepareille,3
-boissons liqueurs,19,liqueurs,1961
-boissons liqueurs diverses,5,liqueurs,1961
+boissons liqueurs,22,liqueurs,1970
+boissons liqueurs diverses,7,liqueurs,1970
 boissons liqueurs diverses et sirop,5,liqueurs et sirop,178
-boissons vin de Bordeaux,33,vin de Bordeaux,1182
+boissons vin de Bordeaux,35,vin de Bordeaux,1184
 boissons vin de liqueurs,19,vin de liqueurs,843
 boissons vin de liqueurs et divers,2,vin,19471
 boissons vin divers,18,vin,19471
 boissons vin divers ordinaire,20,vin commun,31
-boissons vinaigre,17,vinaigre,6882
+boissons vinaigre,17,vinaigre,6883
 boîtes,12,boîtes,12
 boîtes à quadrilles,2,boîtes de quadrilles,5
 boîtes assorties,1,boîtes assorties,1
@@ -3554,7 +3555,7 @@ cabriolets velours de Prusse,1,cabriolets de velours de Prusse,1
 cabrions,1,cabrions,1
 cabrouets,5,cabrouets,5
 cabrouets complets,1,cabrouets complets,1
-cacao,2429,cacao,2519
+cacao,2457,cacao,2547
 cacao (pelure de),1,pelure de cacao,1
 cacao avarié,2,cacao avarié,2
 cacao broyé,21,cacao broyé,21
@@ -3602,7 +3603,7 @@ cadres neufs,1,cadres neufs,1
 cadres petits avec leurs verres,1,cadres petits avec leurs verres,1
 cadres pour tableaux,1,cadres pour tableaux,1
 cafas,1,cafas,1
-café,5479,café,5577
+café,5517,café,5615
 café avarié,5,café avarié,6
 café d'Amérique,33,café d'Amérique,55
 café de Bourbon,209,café de Bourbon,222
@@ -3614,7 +3615,7 @@ café de Moka avarié,2,café de Moka avarié,2
 café des entrepôts,0,café des entrepôts,0
 café des Îles,1493,café des Indes,1506
 café des Indes,12,café des Indes,1506
-café divers,6,café,5577
+café divers,6,café,5615
 café du Levant,108,café du Levant,108
 café en Bourbon,1,café de Bourbon,222
 café en parchemin,19,café en parchemin,19
@@ -3784,10 +3785,10 @@ candetas,0,candetas,0
 cane,1,cane,1
 cane garnie,2,cane garnie,2
 caneffas,1,caneffas,1
-canefice,548,canefice,622
+canefice,550,canefice,624
 canefice des prises,1,canefice des prises,1
 canefice en café,1,canefice en café,1
-canefice ou casse,6,canefice,622
+canefice ou casse,6,canefice,624
 canefice raffiné,1,canefice raffiné,1
 caneficier,1,caneficier,1
 canena,1,canena,1
@@ -4021,7 +4022,7 @@ cardines,10,cardines,10
 cardines de bois,1,cardines de bois,5
 cardines de sapin,1,cardines de sapin,1
 cardon,6,cardon,7
-caret,44,caret,44
+caret,48,caret,48
 cargaison,1,cargaison,2
 cargo et provisions,1,cargaison,2
 cari,2,caril,2
@@ -4176,13 +4177,13 @@ cassave,4,cassave,4
 casse,84,casse,103
 casse de fer,3,casse de fer,3
 casse de laiton,1,casse de laiton,1
-casse drogues,4,canefice,622
-casse en bâtons,9,canefice,622
-casse en bâtons ou fistula,33,canefice,622
+casse drogues,4,canefice,624
+casse en bâtons,9,canefice,624
+casse en bâtons ou fistula,33,canefice,624
 casse étoffe,4,casse étoffe,4
 casse garnie,1,casse garnie,1
-casse ou canefice,8,canefice,622
-casse remède,2,canefice,622
+casse ou canefice,8,canefice,624
+casse remède,2,canefice,624
 casse sans apprêt,4,casse,103
 casse sans apprêt des entrepôts,0,casse des entrepôts,0
 cassedis,1,cassedis,1
@@ -5341,7 +5342,7 @@ cire en graisse,1,graisse de cire,1
 cire en pain,5,cire en pain,5
 cire et chandelle de cire,2,cire et chandelle de cire,2
 cire grasse,1,cire grasse,1
-cire jaune,1431,cire jaune,1431
+cire jaune,1432,cire jaune,1432
 cire jaune brute,14,cire brute jaune,21
 cire jaune du Levant,1,cire jaune du levant,1
 cire jaune en bougie,1,bougie de cire jaune,3
@@ -5585,7 +5586,7 @@ comestibles biscuit,22,biscuit,281
 comestibles blé maïs,3,grains maïs,124
 comestibles blé noir,3,grains sarrasin,68
 comestibles bœuf salé,6,bœuf salé,1659
-comestibles café,1,café,5577
+comestibles café,1,café,5615
 comestibles chair salée bœuf,4,bœuf salé,1659
 comestibles chair salée bœuf salé,6,bœuf salé,1659
 comestibles chair salée cochon,1,porcs salés,382
@@ -5596,8 +5597,8 @@ comestibles chair salée lard,8,lard salé,197
 comestibles chair salée porc salé et petit salé,5,porcs salés et petit salé,6
 comestibles chocolat,1,chocolat,1183
 comestibles cochon salé et petit salé,5,cochon salé et petit salé,10
-comestibles confitures,7,confitures,2286
-comestibles confitures diverses,6,confitures,2286
+comestibles confitures,7,confitures,2291
+comestibles confitures diverses,6,confitures,2291
 comestibles cuisses d'oie,6,cuisses d'oie,221
 comestibles de toute sorte,1,comestibles,82
 comestibles divers,59,comestibles,82
@@ -5622,7 +5623,7 @@ comestibles pâte d'Italie et vermicelle,4,pâte d'Italie et vermicelle,72
 comestibles poissons salés de toute sorte,2,poissons salés,8
 comestibles poissons salés divers,6,poissons salés,8
 comestibles poissons salés et secs,2,poissons salés et secs,2
-comestibles riz,22,grains riz,2718
+comestibles riz,22,grains riz,2720
 comestibles saindoux,3,comestibles saindoux,3
 comestibles sel,4,sel,13253
 commode,49,commode,49
@@ -5660,7 +5661,7 @@ conducteur,1,conducteur,1
 confection,12,confection,12
 confection d'alkermès,3,confection d'alkermès,3
 confection d'hyacinthe,17,confection d'hyacinthe,17
-confitures,2186,confitures,2286
+confitures,2191,confitures,2291
 confitures à l'eau-de-vie,5,confitures à l'eau-de-vie,5
 confitures de cerise,1,confitures de cerise,1
 confitures de Chine,1,confitures de Chine,1
@@ -5963,7 +5964,7 @@ cotenis,1,cotenis,1
 côtes de baleine,5,côtes de baleine,5
 côtes de tabac,4,côtes de tabac,4
 cotillon de toile piquée,1,cotillon de toile piquée,1
-coton,847,coton,2625
+coton,855,coton,2648
 coton ???,1,coton ???,1
 coton à broder,2,coton à broder,2
 coton autres courte soie,1,cotons autres courte soie,1
@@ -5983,13 +5984,13 @@ coton des colonies françaises,1,coton des colonies françaises,1
 coton des Îles et des Indes,2,coton des Îles et des Indes,2
 coton des Indes,4,coton des Indes,14
 coton dit ouate,2,coton en ouate,4
-coton divers,11,coton,2625
+coton divers,11,coton,2648
 coton en bourre,1,bourre de coton,19
 coton en feuilles cardées et gommées ouates,1,coton en feuilles cardées et gommées ouates,2
 coton en feuilles gommées ou cardée (ouate),1,coton en feuilles cardées et gommées ouates,2
 coton en fil,1,coton en fil,1
 coton en grains,1,grains de coton,1
-coton en laine,1673,coton,2625
+coton en laine,1688,coton,2648
 coton en laine de l'Inde,3,coton des Indes,14
 coton en laine de retour,1,coton de retour,1
 coton en laine du Brésil,1,coton du Brésil,1
@@ -6031,7 +6032,7 @@ coton longue soie des entrepôts,0,coton longue soie des entrepôts,0
 coton ouvré,1,ouvrages de coton,2
 coton par Dunkerque,1,coton par Dunkerque,1
 coton rouge,2,coton rouge,2
-coton sans distinction,5,coton,2625
+coton sans distinction,5,coton,2648
 coton sitz et mousseline,1,coton sitz et mousseline,1
 coton sitz et mousseline en balles,1,coton sitz et mousseline en balles,1
 coton soufré,78,coton soufré,78
@@ -6074,7 +6075,7 @@ cotonnades rubanerie diverse,9,ruban de coton,9
 cotonnades toile basin et Nankin,43,basin et Nankin,99
 cotonnades toile de coton étrangère diverse,1,toile de coton,1264
 cotonnades toile diverse basin Nankin,56,basin et Nankin,99
-cotonnades toile diverse et Nankin,20,toile,1007
+cotonnades toile diverse et Nankin,20,toile,1005
 cotonnades toile mousseline,65,mousseline de coton,107
 cotonnades toile mousseline unie et brûlée,14,mousseline de coton unie et brûlée,14
 cotonnades toile mousseline unie et peinte,17,mousseline de coton unie et peinte,17
@@ -6572,8 +6573,8 @@ cuirs de vache tannés et en poil,2,cuirs tannés et en poil de vache,2
 cuirs de vache tissés,4,cuirs tissés de vache,4
 cuirs divers,24,cuirs,107
 cuirs divers apprêtés,2,cuirs apprêtés,308
-cuirs divers en poil,3,cuirs en poil,461
-cuirs divers tannés,7,cuirs tannés,355
+cuirs divers en poil,3,cuirs en poil,464
+cuirs divers tannés,7,cuirs tannés,357
 cuirs dorés,133,cuirs dorés,133
 cuirs dorés vieux,2,cuirs dorés vieux,2
 cuirs du poil de bœuf,14,cuirs de bœuf en poil,1207
@@ -6587,7 +6588,7 @@ cuirs en croûte,2,cuirs en croûte,2
 cuirs en échantillons,1,cuirs en échantillons,1
 cuirs en grains,2,cuirs en grains,2
 cuirs en lest,2,lest de cuir,2
-cuirs en poil,413,cuirs en poil,461
+cuirs en poil,416,cuirs en poil,464
 cuirs en poil apprêtés de bœuf,2,cuirs apprêtés de bœuf en poil,2
 cuirs en poil d'Amérique d'Afrique et de Barbarie,1,cuirs d'Amérique d'Afrique et de Barbarie en poil,1
 cuirs en poil de bœuf,40,cuirs de bœufs en poil,40
@@ -6634,21 +6635,21 @@ cuirs secs en poil des Îles,1,cuirs secs en poil des Îles,1
 cuirs secs et en poil,4,cuirs secs en poil,234
 cuirs secs et salés,4,cuirs secs et salés,4
 cuirs secs tannés,1,cuirs secs et tannés,1
-cuirs sur poil,1,cuirs en poil,461
+cuirs sur poil,1,cuirs en poil,464
 cuirs tannées forts,0,cuirs tannées forts,0
-cuirs tannés,334,cuirs tannés,355
+cuirs tannés,336,cuirs tannés,357
 cuirs tannés avariés,1,cuirs avariés tannés,1
 cuirs tannés de bœuf,32,cuirs de bœuf tannés,897
 cuirs tannés de cheval,1,cuirs de cheval tannés,89
 cuirs tannés de vache,26,cuirs tannés de vache,453
-cuirs tannés divers,2,cuirs tannés,355
+cuirs tannés divers,2,cuirs tannés,357
 cuirs tannés en peaux,1,cuirs tannés en peaux,1
 cuirs tannés en poil,5,cuirs en poil tannés,5
 cuirs tannés et corroyés,1,cuirs corroyés et tannés,1
 cuirs tannés forts,3,cuirs forts tannés,21
 cuirs tannés pour empeignes,239,cuirs tannés pour empeignes,239
 cuirs tannés pour semelles,158,cuirs tannés pour semelles,158
-cuirs tannés tannés,12,cuirs tannés,355
+cuirs tannés tannés,12,cuirs tannés,357
 cuirs teints fallon et en poil,1,cuirs en poil teints fallon,1
 cuirs testaux,5,cuirs testaux,5
 cuirs vache tannés,3,cuirs de vache tannés,3
@@ -7033,7 +7034,7 @@ daubes,1,daubes,1
 dauphine,45,dauphine,61
 dauphine aune,8,dauphine,61
 de haut,1,vin de haut,503
-de liqueurs,1,liqueurs,1961
+de liqueurs,1,liqueurs,1970
 de peu de valeur,2,de peu de valeur,2
 de tafia,2,de tafia,2
 de ville,1,vin de ville,733
@@ -7066,47 +7067,47 @@ demoiselle de bois,1,demoiselle de bois,1
 demoiselle de sapin,2,demoiselle de sapin,2
 denrées,1,marchandises,7816
 denrées coloniales,1,marchandises des Îles,188
-denrées coloniales cacao,14,cacao,2519
-denrées coloniales café,20,café,5577
-denrées coloniales canefice,6,canefice,622
+denrées coloniales cacao,14,cacao,2547
+denrées coloniales café,20,café,5615
+denrées coloniales canefice,6,canefice,624
 denrées coloniales diverses,5,denrées coloniales,17
 denrées coloniales écaille de tortue,1,écaille de tortue,427
 denrées coloniales en indigo et sucre,1,indigo et sucre,1
 denrées coloniales épicerie en muscade et poivre,8,muscades et poivre,8
 denrées coloniales et épicerie,22,denrées coloniales et épicerie,22
-denrées coloniales gingembre,7,gingembre,998
-denrées coloniales indigo,14,indigo,6454
+denrées coloniales gingembre,7,gingembre,1009
+denrées coloniales indigo,14,indigo,6484
 denrées coloniales réunies,11,denrées coloniales,17
-denrées coloniales rocou,12,rocou,1670
+denrées coloniales rocou,12,rocou,1695
 denrées coloniales sirop mélasse,11,sirop mélasse,23
 denrées coloniales sucre blanc terré et têtes,20,sucre blanc terré et têtes,20
-denrées coloniales sucre brut,13,sucre brut,1688
+denrées coloniales sucre brut,13,sucre brut,1694
 denrées coloniales sucre cacao café,12,cacao et café et sucre,12
-denrées coloniales sucre raffiné,4,sucre raffiné,297
+denrées coloniales sucre raffiné,4,sucre raffiné,312
 denrées coloniales tabac,3,tabac,1265
-denrées coloniales tafia,3,tafia,350
+denrées coloniales tafia,3,tafia,359
 denrées coloniales telles que sucre café thé,10,café et sucre et thé,10
 denrées des colonies,125,marchandises des Îles,188
 denrées des colonies rhum,6,rhum,49
 denrées des colonies rum,6,rhum,49
 denrées des colonies sirop,12,sirop,2209
-denrées des colonies tafia,9,tafia,350
+denrées des colonies tafia,9,tafia,359
 denrées des Îles coton,3,coton des Indes,14
-denrées des Îles françaises de l'Amérique cacao,1,cacao,2519
+denrées des Îles françaises de l'Amérique cacao,1,cacao,2547
 denrées des Îles françaises de l'Amérique café,1,café d'Amérique,55
-denrées des Îles françaises de l'Amérique coton,1,coton,2625
-denrées des Îles françaises de l'Amérique gingembre,1,gingembre,998
-denrées des Îles françaises de l'Amérique indigo,1,indigo,6454
+denrées des Îles françaises de l'Amérique coton,1,coton,2648
+denrées des Îles françaises de l'Amérique gingembre,1,gingembre,1009
+denrées des Îles françaises de l'Amérique indigo,1,indigo,6484
 denrées des Îles françaises de l'Amérique objets réunis,1,denrées coloniales,17
-denrées des Îles françaises de l'Amérique rocou,1,rocou,1670
+denrées des Îles françaises de l'Amérique rocou,1,rocou,1695
 denrées des Îles françaises de l'Amérique sirop mélasse,1,sirop mélasse,23
 denrées des Îles françaises de l'Amérique sucre blanc et terré,1,sucre blanc et sucre terré des Îles françaises de l'Amérique,1
-denrées des Îles françaises de l'Amérique sucre brut,1,sucre brut,1688
-denrées des Îles françaises de l'Amérique sucre raffiné,1,sucre raffiné,297
-denrées des Îles françaises de l'Amérique sucre têtes,1,sucre têtes,414
-denrées des Îles rocou,1,rocou,1670
-denrées des Îles sucre brun,3,sucre brun,85
-denrées diverses réunies,4,divers,5749
+denrées des Îles françaises de l'Amérique sucre brut,1,sucre brut,1694
+denrées des Îles françaises de l'Amérique sucre raffiné,1,sucre raffiné,312
+denrées des Îles françaises de l'Amérique sucre têtes,1,sucre têtes,417
+denrées des Îles rocou,1,rocou,1695
+denrées des Îles sucre brun,3,sucre brun,104
+denrées diverses réunies,4,divers,5750
 denrées du crû des Isles d'Amérique provenant de la vente aux dites Isles des nègres de Guinée,30,marchandises des Îles,188
 denrées du crû des Isles d'Amérique provenant de la vente aux dites Isles des nègres de Sénégal,30,marchandises des Îles,188
 dentelle,278,dentelle,324
@@ -7208,16 +7209,16 @@ dentelle moyenne,1,dentelle moyenne,1
 dentelle or et argent,62,dentelle d'argent et d'or,62
 dentelle or et argent faux,2,dentelle d'argent et d'or faux,2
 dentelle or et argent fin,5,dentelle d'or et d'argent fin,5
-dents à éléphant,1,dents d'éléphant,487
+dents à éléphant,1,dents d'éléphant,488
 dents cheval marin,1,dents de cheval marin,4
-dents d'éléphant,329,dents d'éléphant,487
+dents d'éléphant,329,dents d'éléphant,488
 dents d'éléphant entières,4,dents d'éléphant entières,4
 dents d'éléphant entières des entrepôts,0,dents d'éléphant entières des entrepôts,0
 dents d'éléphant sciées,4,dents d'éléphant sciées,4
 dents d'éléphants,42,ivoire,85
 dents de cheval marin,3,dents de cheval marin,4
 dents de chien marin,2,dents de chien marin,2
-dents de morphil,103,dents d'éléphant,487
+dents de morphil,103,dents d'éléphant,488
 dents de vache marine,15,dents de vache marine,15
 derle,77,derle,82
 derle ou terre à porcelaine,5,derle,82
@@ -7265,8 +7266,8 @@ dindons,19,dindons,37
 dissouchaye,38,dissouchaye,38
 distillats,2,distillats,2
 ditors,2,ditors,2
-divers,3,divers,5749
-divers articles,1,divers,5749
+divers,3,divers,5750
+divers articles,1,divers,5750
 divers effets,1,habits,544
 divers en mercerie etc.,1,mercerie,3938
 divers fruits sec tels que figue et pruneaux etc.,1,fruits secs,1097
@@ -7859,7 +7860,7 @@ droguerie au bois de réglisse,2,bois de réglisse,68
 droguerie azur,1,azur,737
 droguerie blanc de Troyes et craie,2,blanc de Troyes et craie,2
 droguerie borax,1,borax,361
-droguerie canefice,1,canefice,622
+droguerie canefice,1,canefice,624
 droguerie chimique diverse,1,drogues chimiques,15
 droguerie chimique eau-forte,1,eau-forte,514
 droguerie chimique et métallique,2,drogues chimiques et métalliques,17
@@ -7924,7 +7925,7 @@ droguerie gomme Sénégal,2,gomme du Sénégal,298
 droguerie huile d'absinthe,1,huile d'absinthe,2
 droguerie huile de térébenthine,1,huile de térébenthine,344
 droguerie huile de vitriol,1,huile de vitriol,398
-droguerie indigo,1,indigo,6454
+droguerie indigo,1,indigo,6484
 droguerie jus de réglisse,2,jus de réglisse,815
 droguerie manne,1,manne,962
 droguerie médicaments,4,médicaments,313
@@ -7994,14 +7995,14 @@ droguerie peintures galle,1,galle,806
 droguerie peintures sumac,1,sumac,763
 droguerie pour la médecine,5,médicaments,313
 droguerie pour la peinture et la teinture tartre,1,tartre,1611
-droguerie pour la teinture indigo,1,indigo,6454
+droguerie pour la teinture indigo,1,indigo,6484
 droguerie pour la teinture sumac,5,sumac,763
 droguerie pour les peintures et la teinture,15,drogues pour peintures et teinture,199
 droguerie pour les peintures et la teinture azur,1,azur,737
 droguerie pour les peintures et la teinture couperose,1,couperose,1156
 droguerie pour les peintures et la teinture galle,2,galle,806
 droguerie pour les peintures et la teinture huile de térébenthine,1,huile de térébenthine,344
-droguerie pour les peintures et la teinture indigo,1,indigo,6454
+droguerie pour les peintures et la teinture indigo,1,indigo,6484
 droguerie pour les peintures et la teinture safranum,1,safranum,586
 droguerie pour les peintures et la teinture verdet,1,verdet,2098
 droguerie pour les peintures et les coiffures,5,drogues pour peintures et coiffures,5
@@ -8017,14 +8018,14 @@ droguerie pour peintures et teinture céruse,2,céruse,899
 droguerie pour peintures et teinture cochenille,2,cochenille,1228
 droguerie pour peintures et teinture couperose,2,couperose,1156
 droguerie pour peintures et teinture curcuma,1,curcuma,199
-droguerie pour peintures et teinture diverses,4,divers,5749
+droguerie pour peintures et teinture diverses,4,divers,5750
 droguerie pour peintures et teinture galle,3,galle,806
 droguerie pour peintures et teinture garance,3,garance,1150
 droguerie pour peintures et teinture graine d'écarlate,1,graine d'écarlate,2
 droguerie pour peintures et teinture graine vermillon,1,graine vermillon,1
 droguerie pour peintures et teinture huile de térébenthine,3,huile de térébenthine,344
 droguerie pour peintures et teinture inde plate,1,inde plate,118
-droguerie pour peintures et teinture indigo,6,indigo,6454
+droguerie pour peintures et teinture indigo,6,indigo,6484
 droguerie pour peintures et teinture iris,1,iris,179
 droguerie pour peintures et teinture lakmoes,1,lakmoes,129
 droguerie pour peintures et teinture mine de plomb,1,mine de plomb,387
@@ -8074,7 +8075,7 @@ drogues blanc de plomb,1,blanc de plomb,51
 drogues bois de réglisse,1,bois de réglisse,68
 drogues borax,2,borax,361
 drogues camphre,2,camphre,314
-drogues canefice,1,canefice,622
+drogues canefice,1,canefice,624
 drogues cantharides,1,cantharides,354
 drogues capillaire,1,capillaire,29
 drogues carabé,1,carabé,37
@@ -8137,7 +8138,7 @@ drogues communes d'apothicaire,1,drogues d'apothicaire,68
 drogues communes diverses,6,drogues,2710
 drogues composées pour la médecine baume du Pérou,4,baume du Pérou,86
 drogues composées pour la médecine benjoin,1,benjoin,153
-drogues composées pour la médecine canefice,1,canefice,622
+drogues composées pour la médecine canefice,1,canefice,624
 drogues composées pour la médecine cantharides,5,cantharides,354
 drogues composées pour la médecine canyolore,3,canyolore,3
 drogues composées pour la médecine castoreum du ???,1,castoreum du ???,1
@@ -8146,7 +8147,7 @@ drogues composées pour la médecine diverses,5,médicaments,313
 drogues composées pour ma médecine aloès,3,aloès,254
 drogues composées pour ma médecine benjoin,1,benjoin,153
 drogues composées pour ma médecine camphre,2,camphre,314
-drogues composées pour ma médecine canefice,1,canefice,622
+drogues composées pour ma médecine canefice,1,canefice,624
 drogues composées pour ma médecine cantharides,4,cantharides,354
 drogues composées pour ma médecine crème de tartre,9,crème de tartre,577
 drogues composées pour ma médecine cristal de tartot,1,cristal de tartot,1
@@ -8188,13 +8189,13 @@ drogues diverses composées,2,drogues diverses composées,2
 drogues diverses drogues diverses réunies,45,drogues diverses réunies,635
 drogues diverses drogues réunies,33,drogues,2710
 drogues diverses eau-forte,3,eau-forte,514
-drogues diverses gomme,1,gomme,692
+drogues diverses gomme,1,gomme,696
 drogues diverses gomme adragant,1,gomme adragant,335
 drogues diverses gomme arabique,2,gomme arabique,619
 drogues diverses gomme d'Arabie,1,gomme arabique,619
-drogues diverses gomme diverse,43,gomme,692
+drogues diverses gomme diverse,43,gomme,696
 drogues diverses gomme du Sénégal,1,gomme du Sénégal,298
-drogues diverses gommes diverses,13,gomme,692
+drogues diverses gommes diverses,13,gomme,696
 drogues diverses huile et essence de térébenthine,24,huile et essence de térébenthine,24
 drogues diverses médicinales,4,drogues médicinales,295
 drogues diverses mêlées,2,drogues,2710
@@ -8210,7 +8211,7 @@ drogues fines,4,drogues fines,14
 drogues fleurs d'aspic,1,fleurs d'aspic,80
 drogues garance,1,garance,1150
 drogues gaude,1,gaude,31
-drogues gomme,1,gomme,692
+drogues gomme,1,gomme,696
 drogues gomme adragant,4,gomme adragant,335
 drogues gomme ammoniac,1,gomme ammoniac,109
 drogues gomme arabique,13,gomme arabique,619
@@ -8218,7 +8219,7 @@ drogues gomme commune,6,gomme commune,105
 drogues gomme copale,2,gomme copale,220
 drogues gomme couperose,1,gomme couperose,1
 drogues gomme de Barbarie,5,gomme de Barbarie,83
-drogues gomme diverse,1,gomme,692
+drogues gomme diverse,1,gomme,696
 drogues gomme du Sénégal,1,gomme du Sénégal,298
 drogues gomme élastique,1,gomme élastique,11
 drogues gomme galle,1,gomme galle,3
@@ -8234,10 +8235,10 @@ drogues gomme sandaraque,1,gomme sandaraque,148
 drogues gomme sandrack,2,gomme sandaraque,148
 drogues gomme Sénégal,7,gomme du Sénégal,298
 drogues gomme verdet,1,gomme verdet,1
-drogues gommes diverse,5,gomme,692
+drogues gommes diverse,5,gomme,696
 drogues huile de térébenthine,4,huile de térébenthine,344
 drogues huile de vitriol,8,huile de vitriol,398
-drogues indigo,7,indigo,6454
+drogues indigo,7,indigo,6484
 drogues indigo des Îles françaises,1,indigo des Îles françaises,1
 drogues jus de réglisse,2,jus de réglisse,815
 drogues litharge,3,litharge,603
@@ -8267,7 +8268,7 @@ drogues médicinales cachou,1,cachou,42
 drogues médicinales calaurure,0,calaurure,0
 drogues médicinales camphre,9,camphre,314
 drogues médicinales camphre raffiné,1,camphre raffiné,44
-drogues médicinales canefice,2,canefice,622
+drogues médicinales canefice,2,canefice,624
 drogues médicinales cantharides,7,cantharides,354
 drogues médicinales capillaire,4,capillaire,29
 drogues médicinales cardamome,1,cardamome,64
@@ -8346,7 +8347,7 @@ drogues médicinales ipécacuanha,21,ipécacuanha,308
 drogues médicinales jalap,24,jalap,475
 drogues médicinales jujubes,1,jujubes,94
 drogues médicinales jus de réglisse,34,jus de réglisse,815
-drogues médicinales liqueurs,1,liqueurs,1961
+drogues médicinales liqueurs,1,liqueurs,1970
 drogues médicinales magnésie,2,magnésie,2
 drogues médicinales manne,59,manne,962
 drogues médicinales marue,2,marue,2
@@ -8426,7 +8427,7 @@ drogues mêlées gomme de Barbarie,2,gomme de Barbarie,83
 drogues mêlées gomme de Cenzier,1,gomme de Cenzier,1
 drogues mêlées gomme de gaïac,2,gomme de gaïac,66
 drogues mêlées gomme de sandaraque,1,gomme sandaraque,148
-drogues mêlées gomme diverse,6,gomme,692
+drogues mêlées gomme diverse,6,gomme,696
 drogues mêlées gomme élastique,2,gomme élastique,11
 drogues mêlées gomme elemy,1,gomme elemy,1
 drogues mêlées gomme euphorbe,2,gomme euphorbe,2
@@ -8459,7 +8460,7 @@ drogues métalliques diverses,5,drogues métalliques,8
 drogues métalliques et chimiques antimoine,2,antimoine,282
 drogues métalliques et chimiques argent,3,argent,11
 drogues métalliques et chimiques arsenic,3,arsenic,473
-drogues métalliques et chimiques diverses,1,divers,5749
+drogues métalliques et chimiques diverses,1,divers,5750
 drogues métalliques et chimiques sel ammoniac,1,sel d'ammoniac,515
 drogues métalliques et chimiques sel d'étain,1,sel d'étain,1
 drogues métalliques et chimiques sel de tartre,1,sel de tartre,8
@@ -8482,7 +8483,7 @@ drogues ocre jaune et rouge,1,ocre jaune et rouge,1
 drogues odorantes ambre,2,ambre,43
 drogues odorantes ambre gris,1,ambre gris,38
 drogues odorantes ambre jaune,3,ambre jaune,87
-drogues odorantes diverses,3,divers,5749
+drogues odorantes diverses,3,divers,5750
 drogues odorantes encens,34,encens,626
 drogues odorantes encrin,0,encrin,0
 drogues odorantes essence,2,essence odorante,2
@@ -8495,7 +8496,7 @@ drogues pastel,1,pastel,98
 drogues peintures,1,peintures,149
 drogues peintures et teinture,2,drogues pour peintures et teinture,199
 drogues peintures et teinture cochenille,1,cochenille,1228
-drogues peintures et teinture diverses,1,divers,5749
+drogues peintures et teinture diverses,1,divers,5750
 drogues peintures et teinture galle,1,galle,806
 drogues peintures et teinture racines d'alizari,1,racines d'alizari,111
 drogues poudre d'Ailhaud,1,poudre d'Ailhaud,34
@@ -8534,7 +8535,7 @@ drogues pour la peinture et teinture couperose verte,3,couperose verte,267
 drogues pour la peinture et teinture garance,3,garance,1150
 drogues pour la peinture et teinture gomme arabique,4,gomme arabique,619
 drogues pour la peinture et teinture gomme copale,2,gomme copale,220
-drogues pour la peinture et teinture indigo,6,indigo,6454
+drogues pour la peinture et teinture indigo,6,indigo,6484
 drogues pour la peinture et teinture stil de grain,2,stil de grain,62
 drogues pour la peinture et teinture sumac,2,sumac,763
 drogues pour la peinture et teinture térébenthine,4,térébenthine,1248
@@ -8566,12 +8567,12 @@ drogues pour la teinture diverses,11,drogues pour la teinture,12
 drogues pour la teinture eau de fleurs d'oranger,3,eau de fleurs d'oranger,511
 drogues pour la teinture eau de senteur,1,eau de senteur,451
 drogues pour la teinture eau-de-vie,2,eau-de-vie,10940
-drogues pour la teinture en indigo,1,indigo,6454
+drogues pour la teinture en indigo,1,indigo,6484
 drogues pour la teinture galles,5,galle,806
 drogues pour la teinture garance,14,garance,1150
 drogues pour la teinture herbes à teindre,10,herbes à teindre,116
 drogues pour la teinture inde plate,4,inde plate,118
-drogues pour la teinture indigo,20,indigo,6454
+drogues pour la teinture indigo,20,indigo,6484
 drogues pour la teinture indigo de Guatemala,3,indigo de Guatemala,3
 drogues pour la teinture iris,4,iris,179
 drogues pour la teinture laque de Venise,1,laque de Venise,13
@@ -8581,7 +8582,7 @@ drogues pour la teinture laque plate,1,laque plate,156
 drogues pour la teinture noir de fumée,13,noir de fumée,538
 drogues pour la teinture noir de galle,18,noir de galle,18
 drogues pour la teinture orseille,2,orseille,60
-drogues pour la teinture rocou,2,rocou,1670
+drogues pour la teinture rocou,2,rocou,1695
 drogues pour la teinture safran,1,safran,1530
 drogues pour la teinture safranum,13,safran,1530
 drogues pour la teinture sassafras,1,sassafras,147
@@ -8658,7 +8659,7 @@ drogues pour les peintures et la teinture herbes à teindre,1,herbes à teindre,
 drogues pour les peintures et la teinture herbes à teindres,7,herbes à teindre,116
 drogues pour les peintures et la teinture huile de térébenthine,13,huile de térébenthine,344
 drogues pour les peintures et la teinture inde plate,1,inde plate,118
-drogues pour les peintures et la teinture indigo,26,indigo,6454
+drogues pour les peintures et la teinture indigo,26,indigo,6484
 drogues pour les peintures et la teinture indigo guatimalo,1,indigo guatimalo,8
 drogues pour les peintures et la teinture iris,2,iris,179
 drogues pour les peintures et la teinture jais,0,jais,138
@@ -8685,7 +8686,7 @@ drogues pour les peintures et la teinture pérelle,1,pérelle,1
 drogues pour les peintures et la teinture racines d' ???,0,racines d' ???,0
 drogues pour les peintures et la teinture racines d'alizari,0,racines d'alizari,111
 drogues pour les peintures et la teinture racines de ???,0,racines de ???,0
-drogues pour les peintures et la teinture rocou,2,rocou,1670
+drogues pour les peintures et la teinture rocou,2,rocou,1695
 drogues pour les peintures et la teinture rouge brun,2,rouge brun,32
 drogues pour les peintures et la teinture rouge de Venise,1,rouge de Venise,1
 drogues pour les peintures et la teinture rouge minéral,2,rouge minéral,2
@@ -8710,7 +8711,7 @@ drogues pour les peintures et teinture couperose,1,couperose,1156
 drogues pour les peintures et teinture gande,2,drogues pour les peintures et teinture gande,2
 drogues pour les peintures et teinture garance,2,garance,1150
 drogues pour les peintures et teinture gaude,6,gaude,31
-drogues pour les peintures et teinture indigo,6,indigo,6454
+drogues pour les peintures et teinture indigo,6,indigo,6484
 drogues pour les peintures et teinture litharge,1,litharge,603
 drogues pour les peintures et teinture pae ???,1,drogues pour peintures et teinture pae ???,1
 drogues pour les peintures et teinture pastel,3,pastel,98
@@ -8721,7 +8722,7 @@ drogues pour les peintures et teinture tartre térébenthine,4,tartre térébent
 drogues pour les peintures et teinture vert-de-gris,2,verdet,2098
 drogues pour les peintures Galles,1,galle,806
 drogues pour les peintures huile de térébenthine,12,huile de térébenthine,344
-drogues pour les peintures indigo,1,indigo,6454
+drogues pour les peintures indigo,1,indigo,6484
 drogues pour les peintures jas,1,jas,1
 drogues pour les peintures jaune de Naples,1,jaune de Naples,86
 drogues pour les peintures laque,1,laque,13
@@ -8759,7 +8760,7 @@ drogues pour peinture et teinture gaude,2,gaude,31
 drogues pour peinture et teinture gaude herbe,1,gaude herbe,1
 drogues pour peinture et teinture graine jaune,1,graine jaune,227
 drogues pour peinture et teinture huile de Garonne,1,huile de Garonne,1
-drogues pour peinture et teinture indigo,7,indigo,6454
+drogues pour peinture et teinture indigo,7,indigo,6484
 drogues pour peinture et teinture iris,1,iris,179
 drogues pour peinture et teinture noix de Galles,5,noix de Galle,499
 drogues pour peinture et teinture orseille,5,orseille,60
@@ -8821,7 +8822,7 @@ drogues pour peintures et teinture graine d'écarlate,1,graine d'écarlate,2
 drogues pour peintures et teinture herbes à teindre,1,herbes à teindre,116
 drogues pour peintures et teinture huile de térébenthine,1,huile de térébenthine,344
 drogues pour peintures et teinture inde plate,2,inde plate,118
-drogues pour peintures et teinture indigo,18,indigo,6454
+drogues pour peintures et teinture indigo,18,indigo,6484
 drogues pour peintures et teinture indigo de guatimalo,1,indigo guatimalo,8
 drogues pour peintures et teinture indigo du Guatemala,1,indigo guatimalo,8
 drogues pour peintures et teinture indigo en gr ???,1,indigo en gr ???,1
@@ -8849,7 +8850,7 @@ drogues pour peintures et teinture peintures,2,peintures,149
 drogues pour peintures et teinture perle bleue,1,perles bleues,1
 drogues pour peintures et teinture racines,1,racines,91
 drogues pour peintures et teinture racines d'alizari,9,racines d'alizari,111
-drogues pour peintures et teinture rocou,3,rocou,1670
+drogues pour peintures et teinture rocou,3,rocou,1695
 drogues pour peintures et teinture rouge brun,1,rouge brun,32
 drogues pour peintures et teinture safranum,12,safran,1530
 drogues pour peintures et teinture semence,2,drogues pour peintures et teinture semence,2
@@ -8867,15 +8868,15 @@ drogues pour peintures et teinture vert-de-gris,3,verdet,2098
 drogues pour peintures et teinture vitriol bleu,1,vitriol bleu,4
 drogues pour peintures et teinture vitriol de Chypre,1,vitriol de Chypre,106
 drogues pour peintures garance,2,garance,1150
-drogues pour peintures indigo,2,indigo,6454
+drogues pour peintures indigo,2,indigo,6484
 drogues pour peintures ocre,1,ocre,530
 drogues pour peintures ocre rouge,1,ocre rouge,36
 drogues pour teinture,1,drogues pour teinture,1
 drogues pour teinture azur,2,azur,737
 drogues pour teinture et peintures bleu d'azur,1,bleu d'azur,1
 drogues pour teinture et peintures couperose,1,couperose,1156
-drogues pour teinture et peintures indigo,1,indigo,6454
-drogues pour teinture et teinture indigo,1,indigo,6454
+drogues pour teinture et peintures indigo,1,indigo,6484
+drogues pour teinture et teinture indigo,1,indigo,6484
 drogues quinquina,2,quinquina,975
 drogues racines d'alizari,1,racines d'alizari,111
 drogues réunies,590,drogues diverses réunies,635
@@ -9473,7 +9474,7 @@ entenolles,1,entenolles,1
 épicerie en poivre en grains,1,poivre en grains,10
 épicerie fine,61,épicerie fine,61
 épicerie fleurs de cannelle,2,fleurs de cannelle,34
-épicerie gingembre,5,gingembre,998
+épicerie gingembre,5,gingembre,1009
 épicerie gingembre cru,1,gingembre cru,1
 épicerie girofle,45,girofle,983
 épicerie huile d'olive,11,huile d'olive,3513
@@ -11419,7 +11420,7 @@ feuilles de fer doubles,2,fer en feuilles doubles,2
 feuilles de laurier,4,feuilles de laurier,4
 feuilles de séné,27,feuilles de séné,27
 feuilles de séné entières ou en grabeau,25,feuilles de séné entières ou en grabeau,25
-feuilles de tabac,1,feuilles de tabac,834
+feuilles de tabac,1,feuilles de tabac,836
 feuilles et autres ouvrages de fer,1,ouvrages de fer,1128
 feuilles et herbes à teindre,19,feuilles et herbes à teindre,19
 feuilles et noix muscades,112,muscades feuilles et noix,112
@@ -12323,10 +12324,10 @@ fruits confits au vinaigre en câpres,2,câpres confits au vinaigre,2
 fruits confits câpres,2,câpres confits,3
 fruits confits câpres communes,1,câpres communes confits,1
 fruits confits châtaignes,1,châtaignes confites,1
-fruits confits confitures,43,confitures,2286
+fruits confits confitures,43,confitures,2291
 fruits confits divers,33,fruits confits divers,33
 fruits confits en câpres,1,câpres confits,3
-fruits confits en confitures,21,confitures,2286
+fruits confits en confitures,21,confitures,2291
 fruits confits en confitures des Îles,1,fruits confits en confitures des Îles,1
 fruits confits en olives,1,olives confites,3
 fruits confits en olives et câpres,2,câpres et olives confits,2
@@ -12334,7 +12335,7 @@ fruits confits en vinaigre,1,fruits confits en vinaigre,38
 fruits confits fins,1,fruits confits fins,1
 fruits confits olive,2,olives confites,3
 fruits confits olives,1,olives,1012
-fruits confitures,23,confitures,2286
+fruits confitures,23,confitures,2291
 fruits cornichons,3,cornichons,60
 fruits cruets bergamotes,1,bergamotes fraîches,1
 fruits cruets châtaignes et marrons,11,châtaignes et marrons frais,11
@@ -12355,16 +12356,16 @@ fruits crus divers,90,fruits frais,783
 fruits crus en barils,0,fruits frais en barils,0
 fruits crus en citrons,14,citrons frais,64
 fruits crus en marrons,1,marrons crus,1
-fruits crus en orange,5,orange,603
-fruits crus en oranges,5,orange,603
+fruits crus en orange,5,orange,606
+fruits crus en oranges,5,orange,606
 fruits crus en pommes,2,pommes,196
 fruits crus en pommes et poires,2,pommes et poires,17
 fruits crus melon,0,melon,12
 fruits crus nèfles,1,nèfles,6
-fruits crus orange,21,orange,603
+fruits crus orange,21,orange,606
 fruits crus orange aigre,1,orange aigre,72
 fruits crus orange douce,3,orange douce,91
-fruits crus oranges,6,orange,603
+fruits crus oranges,6,orange,606
 fruits crus poires,4,poires,68
 fruits crus poires et pommes,29,poires et pommes fraîches,80
 fruits crus pommes,20,pommes fraîches,37
@@ -12458,7 +12459,7 @@ fruits oléagineux autres,2,fruits oléagineux,4
 fruits oléagineux noix noisettes faînes,2,noisettes faînes,2
 fruits oléagineux olives fraîches et arachis,2,olives fraîches et arachis,2
 fruits oléagineux sans distinction,2,fruits oléagineux,4
-fruits orange,7,orange,603
+fruits orange,7,orange,606
 fruits pistaches,6,pistaches,318
 fruits poires,1,poires,68
 fruits pommes,7,pommes fraîches,37
@@ -13088,7 +13089,7 @@ gilets de soie,2,gilets de soie,5
 gilets de soie en dorure,1,gilets de soie en dorure,1
 gilets de toile,3,gilets de toile,3
 gimblette,2,gimblette,2
-gingembre,977,gingembre,998
+gingembre,988,gingembre,1009
 gingembre confit,14,gingembre confit,14
 gingembre sec,40,gingembre sec,40
 ginseng,39,ginseng,40
@@ -13167,7 +13168,7 @@ gobelets de terre,3,gobelets de terre,3
 gobelets de verre,27,gobelets de verre,50
 gobelets en verre de cristal,1,gobelets en verre de cristal,1
 gobelets peints,1,gobelets peints,1
-gomme,53,gomme,692
+gomme,53,gomme,696
 gomme à ???,1,gomme à ???,1
 gomme acacia,11,gomme d'acacia,11
 gomme adragant,323,gomme adragant,335
@@ -13216,13 +13217,14 @@ gomme de seraza,2,gomme de seraza,2
 gomme de toute espèce,113,gomme de toute espèce,113
 gomme demi,1,gomme demi,1
 gomme dite laque,13,gomme dite laque,13
-gomme diverse,556,gomme,692
+gomme diverse,556,gomme,696
 gomme diverse adragant,1,gomme adragant,335
 gomme diverse arabique,1,gomme arabique,619
-gomme diverse réunie,13,gomme,692
+gomme diverse réunie,13,gomme,696
 gomme du Levant,1,gomme du Levant,1
 gomme du pays,4,gomme du pays,4
 gomme du Sénégal,281,gomme du Sénégal,298
+gomme du Sénégal et autres,4,gomme,696
 gomme ederée,11,gomme ederée,11
 gomme élastique,7,gomme élastique,11
 gomme élémi,98,gomme élémi,102
@@ -13340,13 +13342,13 @@ graine comestible diverse,4,grains divers,618
 graine comestible diverses,1,grains comestibles,1
 graine comestible en blé froment,1,grains froment,3781
 graine comestible en orge,1,grains orge,944
-graine comestible en riz,1,grains riz,2718
+graine comestible en riz,1,grains riz,2720
 graine comestible en seigle,1,grains seigle,2102
 graine comestible en soucrillon,1,grains soucrillon,7
 graine comestible froment,6,grains froment,3781
 graine comestible méteil,5,grains méteil,53
 graine comestible orge,16,grains orge,944
-graine comestible riz,26,grains riz,2718
+graine comestible riz,26,grains riz,2720
 graine comestible sarrazin,2,grains sarrasin,68
 graine comestible seigle,17,grains seigle,2102
 graine comestible soucrillon,1,grains soucrillon,7
@@ -13472,7 +13474,7 @@ graine de prés,4,graine de pré,4
 graine de rabatte,1,graine de rabette,8
 graine de rabette,7,graine de rabette,8
 graine de Riga,2,grains de Riga,2
-graine de riz,2,grains riz,2718
+graine de riz,2,grains riz,2720
 graine de rosette,1,graine de rosette,1
 graine de safranum,1,graine de safranum,1
 graine de sagou,1,graine de sagou,1
@@ -13486,8 +13488,8 @@ graine de silvestre,1,graine de silvestre,2
 graine de soudes,2,graine de soudes,2
 graine de tabac,1,tabac en graine,1
 graine de tasse,1,graine de tasse,1
-graine de toute espèce,4,graine diverse,418
-graine de toute sorte,1,graine diverse,418
+graine de toute espèce,4,graine diverse,420
+graine de toute sorte,1,graine diverse,420
 graine de trèfle,314,graine de trèfle,463
 graine de trèfle et de luzerne,1,graine de luzerne et de trèfle,129
 graine de trèfle et luzerne,127,graine de luzerne et de trèfle,129
@@ -13507,13 +13509,13 @@ graine de zedoria,1,graine de zedoria,1
 graine des Canaries,33,graine des Canaries,33
 graine des îles,2,graine des Îles,2
 graine des Indes,1,graine des Indes,1
-graine diverse,413,graine diverse,418
+graine diverse,415,graine diverse,420
 graine diverse blé,1,grains froment,3781
 graine diverse de chanvre,1,graine de chanvre,365
 graine diverse de trèfle,1,graine de trèfle,463
 graine diverse de tremaine,1,graine de tremaine,11
 graine diverse et de jardin,1,graine diverse et de jardin,25
-graine diverse riz,2,grains riz,2718
+graine diverse riz,2,grains riz,2720
 graine douce,2,graine douce,2
 graine du jardin,1,graine du jardin,2
 graine du soucrillon,1,graine du soucrillon,1
@@ -13549,7 +13551,7 @@ graine orge,2,grains orge,944
 graine pour la teinture,1,graine pour teinture,18
 graine pour teindre,3,graine pour teinture,18
 graine pour teinture,14,graine pour teinture,18
-graine riz,4,grains riz,2718
+graine riz,4,grains riz,2720
 graine rouge,3,graine rouge,3
 graine sapotille,1,graine de sapotille,1
 graine seigle,8,grains seigle,2102
@@ -13571,7 +13573,7 @@ grains blé,29,grains froment,3781
 grains blé d'Inde,6,grains maïs,124
 grains blé froment,12,grains froment,3781
 grains blé orge,1,grains orge,944
-grains blé riz,3,grains riz,2718
+grains blé riz,3,grains riz,2720
 grains comestibles,12,grains divers,618
 grains comestibles au blé froment,5,grains froment,3781
 grains comestibles avoine,36,grains avoine,75
@@ -13590,7 +13592,7 @@ grains comestibles en blé froment,16,grains froment,3781
 grains comestibles en froment,1,grains froment,3781
 grains comestibles en gruau,1,gruau de grains comestible,7
 grains comestibles en millet,1,grains millet,422
-grains comestibles en riz,1,grains riz,2718
+grains comestibles en riz,1,grains riz,2720
 grains comestibles froment,24,grains froment,3781
 grains comestibles gruau,1,gruau,287
 grains comestibles maïs,2,grains maïs,124
@@ -13599,7 +13601,7 @@ grains comestibles orge,51,grains orge,944
 grains comestibles orge ???,1,grains orge,944
 grains comestibles orge germé,2,grains orge germé,18
 grains comestibles orge perlé,1,grains orge,944
-grains comestibles riz,90,grains riz,2718
+grains comestibles riz,90,grains riz,2720
 grains comestibles seigle,47,grains seigle,2102
 grains comestibles soucrillon,3,grains soucrillon,7
 grains comestibles soucrillon grains pour la bière,1,grains soucrillon,7
@@ -13611,7 +13613,7 @@ grains de genièvre,123,graine de genièvre,348
 grains de jardin,7,graine de jardin,1190
 grains de lin,7,grains de lin,7
 grains de millet gros,1,grains de millet gros,1
-grains de riz,2,grains riz,2718
+grains de riz,2,grains riz,2720
 grains de séné,1,grains de séné,1
 grains de toute sorte,6,grains divers,618
 grains de trèfle,1,grains de trèfle,1
@@ -13620,7 +13622,7 @@ grains de vers,2,grains de verre,29
 grains divers,8,grains divers,618
 grains divers blé,1,grains divers,618
 grains divers blé froment,1,grains froment,3781
-grains divers riz,4,grains riz,2718
+grains divers riz,4,grains riz,2720
 grains divers seigle,1,grains seigle,2102
 grains durs à tailler,2,grains dur à tailler,2
 grains en advestures de toute espèce,102,grains en advestures de toute espèce,102
@@ -13646,7 +13648,7 @@ grains orge,20,grains orge,944
 grains perlés et mondés,1,grains mondé et perlé,8
 grains perlés ou mondés,7,grains mondé et perlé,8
 grains petits,1,grains petits,1
-grains riz,26,grains riz,2718
+grains riz,26,grains riz,2720
 grains seigle,38,grains seigle,2102
 grains seigle et maïs,2,grains maïs seigle,2
 grains soucrillon,1,grains soucrillon,7
@@ -14511,10 +14513,10 @@ indienne,684,indienne,774
 indienne diverse,5,indienne,774
 indienne étrangère,1,indienne étrangère,5
 indienne française,1,indienne française,1
-indigo,6227,indigo,6454
+indigo,6257,indigo,6484
 indigo commun,2,indigo commun,2
 indigo de retour,3,indigo de retour,3
-indigo des Îles,12,indigo,6454
+indigo des Îles,12,indigo,6484
 indigo floré,13,indigo floré,13
 indigo guatimalo,5,indigo guatimalo,8
 indigo inde-plate boules de bleu,1,indigo inde-plate boules de bleu,1
@@ -14532,7 +14534,7 @@ industrie étrangère marbre,13,marbre,168
 industrie étrangère mercerie,26,mercerie,3938
 industrie étrangère meubles et miroirs,13,meubles et miroirs,130
 industrie étrangère ouvrages de jonc,17,ouvrages de jonc,108
-industrie étrangère ouvrages divers,37,ouvrages,77
+industrie étrangère ouvrages divers,37,ouvrages,79
 industrie étrangère peaux et pelleterie,52,peaux et pelleterie,620
 industrie étrangère plumes à écrire,10,plumes à écrire,746
 industrie étrangère plumes d'autruche,7,plumes d'autruche,201
@@ -14564,7 +14566,7 @@ industrie générale ouvrages de cuir en cordonnerie et sellerie,11,cordonnerie 
 industrie générale ouvrages de cuivre doré et argenté,17,ouvrages de cuivre doré et argenté,344
 industrie générale ouvrages de modes et fleurs artificielles,32,fleurs artificielles et ouvrages de modes,32
 industrie générale ouvrages de terre cuite,1,ouvrages de terre cuite,213
-industrie générale ouvrages divers,22,ouvrages,77
+industrie générale ouvrages divers,22,ouvrages,79
 industrie générale ouvrages divers en bois et futailles vides,5,ouvrages de bois,850
 industrie générale ouvrages en terre cuite,1,ouvrages de terre cuite,213
 industrie générale papier à écrire,51,papier à écrire,703
@@ -14691,19 +14693,19 @@ ivoire,37,ivoire,85
 ivoire ?,1,ivoire,85
 ivoire brûlé,2,ivoire brûlé,2
 ivoire brut,81,ivoire brut,81
-ivoire brut en dents d'éléphant,3,dents d'éléphant,487
+ivoire brut en dents d'éléphant,3,dents d'éléphant,488
 ivoire de Dieppe,1,ivoire de Dieppe,1
-ivoire dents d'éléphant,10,dents d'éléphant,487
+ivoire dents d'éléphant,10,dents d'éléphant,488
 ivoire dents d'éléphant d'hippopotame et autres,2,dents d'éléphants d'hippopotame et autres,2
 ivoire divers,5,ivoire,85
-ivoire en dents d'éléphant,3,dents d'éléphant,487
+ivoire en dents d'éléphant,3,dents d'éléphant,488
 ivoire en morceaux,2,ivoire en morceaux,2
 ivoire noir,1,ivoire noir,1
-ivoire ou morphil,1,dents d'éléphant,487
+ivoire ou morphil,1,dents d'éléphant,488
 ivoire ouvré,2,ouvrages d'ivoire,109
 ivoire râpée,1,rognures d'ivoire,26
 ivoire travaillé,101,ouvrages d'ivoire,109
-ivoires dents d'éléphant,4,dents d'éléphant,487
+ivoires dents d'éléphant,4,dents d'éléphant,488
 J ???,1,jais,138
 jai ouvré,1,ouvrages de jais,11
 jaillet,2,jaillet,2
@@ -15034,7 +15036,7 @@ laine écrue,5,laine écrue,5
 laine écrue lavée,1,laine écrue lavée,1
 laine en ???,2,laine en ???,2
 laine en côtes,6,laine en côtes,6
-laine en coton,1,coton,2625
+laine en coton,1,coton,2648
 laine en crin,1,laine en crin,2
 laine en fin,1,laine en crin,2
 laine en flotte,1,laine en flotte,1
@@ -15344,7 +15346,7 @@ leole,1,leole,1
 lessive grasse,3,lessive grasse,3
 lest,5961,lest,6372
 lest en barriques d'eau,1,barriques d'eau,1
-lest en bois,1,bois,6620
+lest en bois,1,bois,6624
 lest en briques,2,briques,386
 lest en charbon de terre,1,charbon de terre,1660
 lest en fer,3,lest en fer,3
@@ -15606,7 +15608,7 @@ lions de faïence,1,lions de faïence,1
 liqueur d'Autriche,1,liqueurs d'Autriche,1
 liqueur de côte-rôtie,1,liqueurs de côte-rôtie,1
 liqueur de légumes,1,liqueur de légumes,1
-liqueurs,1897,liqueurs,1961
+liqueurs,1901,liqueurs,1970
 liqueurs à boire,301,liqueurs à boire,301
 liqueurs anisette,14,anisette,112
 liqueurs au fiasque anisette,6,anisette au fiasque,6
@@ -15618,7 +15620,7 @@ liqueurs de Dantzig,1,liqueurs de Dantzig,1
 liqueurs de Marseille,6,liqueurs de Marseille,6
 liqueurs de sirop,2,liqueurs de sirop,2
 liqueurs de ville,28,liqueurs de ville,28
-liqueurs des Îles,2,liqueurs,1961
+liqueurs des Îles,2,liqueurs,1970
 liqueurs distillées,117,liqueurs distillées,117
 liqueurs diverses,141,liqueurs diverses,141
 liqueurs diverses et sirop fin,9,liqueurs et sirop fin,34
@@ -15627,7 +15629,7 @@ liqueurs en maroquin,1,liqueurs en maroquin,1
 liqueurs en sirop,1,liqueurs en sirop,1
 liqueurs en sirop fin,3,liqueurs en sirop fin,3
 liqueurs en sirop mélasse,1,mélasse,17
-liqueurs en tafia,1,tafia,350
+liqueurs en tafia,1,tafia,359
 liqueurs et rhum,1,liqueurs et rhum,10
 liqueurs et sirop,116,liqueurs et sirop,178
 liqueurs et sirop divers,5,liqueurs et sirop,178
@@ -15646,7 +15648,7 @@ liqueurs sirop fin,17,liqueurs sirop fin,18
 liqueurs sirop fines,1,liqueurs sirop fin,18
 liqueurs sirop mélasse,2,mélasse,17
 liqueurs sirop mélasse étranger,3,liqueurs sirop,3
-liqueurs tafia,6,tafia,350
+liqueurs tafia,6,tafia,359
 lisières,1,lisières,1
 lisières de drap,33,lisières de drap,33
 lisières de velours,4,lisières de velours,4
@@ -16011,7 +16013,7 @@ marcassin,2,marcassin,2
 marcassite,4,marcassite,4
 marchanderie,2,marchandises,7816
 marchandise estimation,2,marchandises à l'estimation,959
-marchandises,1757,divers,5749
+marchandises,1757,divers,5750
 marchandises à l'estimation,517,marchandises à l'estimation,959
 marchandises à l'estime valeur de,1,marchandises à l'estimation,959
 marchandises à la valeur,438,marchandises à l'estimation,959
@@ -16023,14 +16025,14 @@ marchandises blanches de la Compagnie des Indes,1,marchandises blanches de la Co
 marchandises blanches des Indes,1,marchandises blanches de la Compagnie des Indes,4
 marchandises coloniales,1,marchandises coloniales,1
 marchandises d'estimation,1,marchandises à l'estimation,959
-marchandises de colonies françaises de l'Amérique cacao,19,cacao,2519
+marchandises de colonies françaises de l'Amérique cacao,19,cacao,2547
 marchandises de colonies françaises de l'Amérique café,21,café d'Amérique,55
-marchandises de colonies françaises de l'Amérique coton,9,coton,2625
-marchandises de colonies françaises de l'Amérique gingembre,8,gingembre,998
-marchandises de colonies françaises de l'Amérique indigo,19,indigo,6454
-marchandises de colonies françaises de l'Amérique rocou,17,rocou,1670
-marchandises de colonies françaises de l'Amérique sirop mélasse,15,sirop de mélasse,794
-marchandises de colonies françaises de l'Amérique sucre brut,11,sucre brut,1688
+marchandises de colonies françaises de l'Amérique coton,9,coton,2648
+marchandises de colonies françaises de l'Amérique gingembre,8,gingembre,1009
+marchandises de colonies françaises de l'Amérique indigo,19,indigo,6484
+marchandises de colonies françaises de l'Amérique rocou,17,rocou,1695
+marchandises de colonies françaises de l'Amérique sirop mélasse,15,sirop de mélasse,795
+marchandises de colonies françaises de l'Amérique sucre brut,11,sucre brut,1694
 marchandises de colonies françaises de l'Amérique sucre en pain raffiné,16,sucre en pain raffiné,25
 marchandises de colonies françaises de l'Amérique sucre terré têtes,19,sucre terré têtes,19
 marchandises de détail,1,marchandises de détail,1
@@ -16367,7 +16369,7 @@ matières premières alun,34,alun,2428
 matières premières articles réunis,103,matières premières,105
 matières premières azur,10,azur,737
 matières premières bois des Îles,25,bois des Indes,513
-matières premières bois divers,94,bois,6620
+matières premières bois divers,94,bois,6624
 matières premières brai goudron et résines,25,brai et goudron et résines,546
 matières premières brai goudron poix et résines,11,brai et goudron et poix et résines,99
 matières premières brai goudron résines,20,brai et goudron et résines,546
@@ -16380,12 +16382,12 @@ matières premières cire blanche et jaune,20,cire blanche et jaune,502
 matières premières cire jaune et blanche,22,cire blanche et jaune,502
 matières premières cire jaune et blanche fondue et en bougie,7,bougie de cire blanche et jaune et cire blanche et jaune fondue,7
 matières premières cochenille,31,cochenille,1228
-matières premières coton,78,coton,2625
+matières premières coton,78,coton,2648
 matières premières cuirs appretés,11,cuirs apprêtés,308
 matières premières cuirs apprétés,14,cuirs apprêtés,308
 matières premières cuirs apprêtés,16,cuirs apprêtés,308
-matières premières cuirs en poil,44,cuirs en poil,461
-matières premières dents d'éléphant,1,dents d'éléphant,487
+matières premières cuirs en poil,44,cuirs en poil,464
+matières premières dents d'éléphant,1,dents d'éléphant,488
 matières premières diverses,1,matières premières,105
 matières premières drogues diverses réunies,31,drogues,2710
 matières premières drogues réunies,55,drogues,2710
@@ -16404,14 +16406,14 @@ matières premières huile d'olive pour fabrique,20,huile d'olive pour fabrique,
 matières premières huile de grain,4,huile de grain,4
 matières premières huile de graine,14,huile de graine,629
 matières premières huile de poisson,28,huile de poisson,1887
-matières premières indigo,70,indigo,6454
+matières premières indigo,70,indigo,6484
 matières premières laine,86,laine,1005
 matières premières lin,22,lin,1483
 matières premières noix de galle,13,noix de Galle,499
 matières premières pain de navette,2,pain de navette,285
 matières premières poil de chèvre lièvre et lapin,9,poil de chèvre et de lapin et de lièvre,193
 matières premières potasse vedasse et gravelée,32,potasse gravelée et védasse,32
-matières premières rocou,39,rocou,1670
+matières premières rocou,39,rocou,1695
 matières premières safranum,1,safran,1530
 matières premières soie,30,soie,594
 matières premières soie de porcs et sanglier,5,soie de porcs et soie de sanglier,91
@@ -16912,7 +16914,7 @@ merrain à pipes en douelles,4,douelles pour pipes,286
 merrain ganivelles en douelles,4,ganivelles,25
 merraing à barriques en douelles,3,douelles pour barriques,335
 merraing ganivelles en douelles,8,ganivelles,25
-merrains,77,merrains,819
+merrains,77,merrains,822
 merrains à barils,2,merrains pour barils,17
 merrains à barils douelles,1,douelles pour barils,52
 merrains à barils en douelles,32,douelles pour barils,52
@@ -17039,7 +17041,7 @@ métaux,1,métaux,145
 métaux matériaux à bâtir et articles propres à l'équipement des navires ardoise,4,ardoise,374
 métaux matériaux à bâtir et articles propres à l'équipement des navires bois de construction,6,bois de construction,6
 métaux matériaux à bâtir et articles propres à l'équipement des navires bois feuillard et osiers,6,bois feuillard et osiers,6
-métaux matériaux à bâtir et articles propres à l'équipement des navires bois merrains,4,merrains,819
+métaux matériaux à bâtir et articles propres à l'équipement des navires bois merrains,4,merrains,822
 métaux matériaux à bâtir et articles propres à l'équipement des navires brai gras goudron et résine,5,brai gras goudron et résine,5
 métaux matériaux à bâtir et articles propres à l'équipement des navires carreaux marbre chaux pierres à bâtir,6,carreaux marbre chaux pierres à bâtir,6
 métaux matériaux à bâtir et articles propres à l'équipement des navires charbon de terre,8,charbon de terre,1660
@@ -17359,9 +17361,9 @@ morceaux de bois,1,bois en morceaux,1
 morceaux de planches,1,morceaux de planches,1
 morilles,16,morilles,16
 morilles et champignons,2,champignons et morilles,2
-morphil,25,dents d'éléphant,487
-morphil dents d'éléphant ou ivoire,4,dents d'éléphant,487
-morphil ou dents d'éléphant,3,dents d'éléphant,487
+morphil,26,dents d'éléphant,488
+morphil dents d'éléphant ou ivoire,4,dents d'éléphant,488
+morphil ou dents d'éléphant,3,dents d'éléphant,488
 mors de brides,122,mors de brides,122
 mors de brides dorés,1,mors de brides dorés,1
 mors et brides,3,mors et brides,3
@@ -18052,18 +18054,19 @@ objets de collection,5,objets de collection,5
 objets de collection en peintures sculpture gravures et histoire naturelle,19,gravures peintures et sculptures,54
 objets de collection hors de commerce,3,objets de collection hors de commerce,3
 objets de collection peintures sculpture gravures et histoire naturelle,35,gravures peintures et sculptures,54
-objets de moindre valeur,22,objets de peu de valeur,116
-objets de peu d'importance,6,objets de peu de valeur,116
-objets de peu de valeur,46,objets de peu de valeur,116
-objets divers,13,divers,5749
-objets divers à la valeur,8,divers,5749
-objets divers de moindre valeur,22,objets de peu de valeur,116
-objets divers dont la valeur du plus fort n'excède pas 25000 livres,5,objets de peu de valeur,116
-objets divers dont le plus fort article n'excède pas 2000 livres,3,objets de peu de valeur,116
-objets divers dont le plus fort article n'excède pas 2400 livres,4,objets de peu de valeur,116
-objets divers dont les plus forts articles n'excèdent pas 10000 livres,3,objets de peu de valeur,116
-objets divers dont les plus forts articles n'excèdent pas 3000 livres,2,objets de peu de valeur,116
-objets divers dont les plus forts articles n'excèdent pas 5000 livres,3,objets de peu de valeur,116
+objets de moindre valeur,22,objets de peu de valeur,121
+objets de peu d'importance,6,objets de peu de valeur,121
+objets de peu de valeur,46,objets de peu de valeur,121
+objets divers,14,divers,5750
+objets divers à la valeur,8,divers,5750
+objets divers de moindre valeur,22,objets de peu de valeur,121
+Objets divers dont la valeur des plus forts n'excède pas 15000 livres tournois,5,objets de peu de valeur,121
+objets divers dont la valeur du plus fort n'excède pas 25000 livres,5,objets de peu de valeur,121
+objets divers dont le plus fort article n'excède pas 2000 livres,3,objets de peu de valeur,121
+objets divers dont le plus fort article n'excède pas 2400 livres,4,objets de peu de valeur,121
+objets divers dont les plus forts articles n'excèdent pas 10000 livres,3,objets de peu de valeur,121
+objets divers dont les plus forts articles n'excèdent pas 3000 livres,2,objets de peu de valeur,121
+objets divers dont les plus forts articles n'excèdent pas 5000 livres,3,objets de peu de valeur,121
 objets divers en peaux et pelleterie,1,peaux et pelleterie,620
 objets divers en petits articles,2,objets divers,2
 objets manufacturés armes,1,armes,345
@@ -18284,7 +18287,7 @@ or tiré ou laminé,3,or laminé ou tiré,3
 or travaillé,3,or travaillé,3
 or vrai filé,1,fil d'or vrai,2
 "or, ivoire et morphil",10,ivoire et or,10
-orange,559,orange,603
+orange,562,orange,606
 orange aigre,66,orange aigre,72
 orange aigres,5,orange aigre,72
 orange chinoise,7,orange chinoise,7
@@ -18480,7 +18483,7 @@ outremer,1,outremer,1
 outres vides,2,outres vides,2
 outres vieilles,1,outres vieilles,1
 ouvrage de passementerie de soie,1,passementerie de soie,144
-ouvrages,2,ouvrages,77
+ouvrages,4,ouvrages,79
 ouvrages ???,2,ouvrages ???,2
 ouvrages ??? à couvrir,1,ouvrages ??? à couvrir,1
 ouvrages argent et soie,1,ouvrages d'argent et de soie,2
@@ -18554,7 +18557,7 @@ ouvrages de bois en sabots,4,sabots de bois,6
 ouvrages de bois en selles,3,selles de bois,3
 ouvrages de bois en selles et sabots,2,sabots et selles de bois,2
 ouvrages de bois en terre cuite brique etc.,13,ouvrages de bois et ouvrages en terre cuite et ouvrages en brique,13
-ouvrages de bois et autres,14,ouvrages,77
+ouvrages de bois et autres,14,ouvrages,79
 ouvrages de bois et d'osier,10,ouvrages de bois et ouvrages d'osier,10
 ouvrages de bois futailles,23,futailles,467
 ouvrages de bois peint,1,ouvrages de bois peint,1
@@ -18803,7 +18806,8 @@ ouvrages de terre cuite en poterie,2,poterie de terre cuite,443
 ouvrages de terre cuite en tuiles,3,tuiles de terre cuite,21
 ouvrages de terre cuite en tuiles courbes,1,tuiles courbées de terre cuite,1
 ouvrages de terre cuite en tuiles plates,1,tuiles plates de terre cuite,1
-ouvrages de terre cuite et de carreaux,1,carreaux et ouvrages de terre cuite,1
+ouvrages de terre cuite et carreaux,1,,7
+ouvrages de terre cuite et de carreaux,0,carreaux et ouvrages de terre cuite,0
 ouvrages de terre cuite moules,1,moules de terre,1
 ouvrages de terre cuite pipes,1,pipes à fumer de terre cuite,35
 ouvrages de terre cuite pipes à fumer,17,pipes à fumer de terre cuite,35
@@ -18836,7 +18840,7 @@ ouvrages de tonnelier en futailles vides,2,futailles vides de tonnelier,2
 ouvrages de tonnellerie,17,ouvrages de tonnelier,55
 ouvrages de tourneur,38,ouvrages de tourneur,39
 ouvrages de tourneur etc,1,ouvrages de tourneur,39
-ouvrages de toute sorte,2,ouvrages,77
+ouvrages de toute sorte,2,ouvrages,79
 ouvrages de vanier,10,vannerie,15
 ouvrages de vannerie de bois et d'osier,19,ouvrages de vannerie de bois et d'osier,19
 ouvrages de vannier,3,vannerie,15
@@ -18979,7 +18983,7 @@ ouvrages riches étoffe en or mêlée de soie,12,étoffe en or mêlée de soie,2
 ouvrages riches étoffe riche,11,étoffe riche,116
 ouvrages riches étoffe riche en or et argent,7,étoffe riche,116
 ouvrages riches étoffe riche en or et argent mélangée de soie,18,étoffe riche,116
-ouvrages riches ouvrages divers,2,divers,5749
+ouvrages riches ouvrages divers,2,divers,5750
 ouvrages riches soierie et dorure,12,soierie et dorure,12
 ouvrages riches soierie et dorure fine,13,soierie et dorure fine,13
 ouvrages sellerie,4,sellerie,41
@@ -19435,7 +19439,7 @@ parrancens,1,parrancens,1
 parse,1,parse,1
 particuliers français,1,particuliers français,1
 Partie de son chargement pour Cherbourg,1,restant de sa cargaison pour Cherbourg,1
-parties de bois non spécifiées,3931,bois,6620
+parties de bois non spécifiées,3931,bois,6624
 parun,3,parun,3
 passagers,1732,passagers,1732
 passagers algériens,1,passagers algériens,1
@@ -19635,7 +19639,7 @@ peaux chèvre apprêtées,2,peaux de chèvre apprêtées,2
 peaux corroyées,1,peaux corroyées,2
 peaux corroyées de chèvre,2,peaux corroyées de chèvre,2
 peaux corroyées de maroquins,1,peaux corroyées de maroquin,1
-peaux corroyées de veau,5,peaux corroyées de veau,685
+peaux corroyées de veau,5,peaux corroyées de veau,686
 peaux corroyées diverses,1,peaux corroyées,2
 peaux crue,7,peaux crues,9
 peaux crues,1,peaux crues,9
@@ -19930,8 +19934,8 @@ peaux de mouton en charnois,1,peaux de mouton en chamois,126
 peaux de mouton en couleurs,11,peaux de mouton en couleur,11
 peaux de mouton en gris,40,peaux de mouton en gris,40
 peaux de mouton en laine,361,peaux de mouton en laine,369
-peaux de mouton en mégie,22,peaux de mouton en mégie,26
-peaux de mouton en mégré,4,peaux de mouton en mégie,26
+peaux de mouton en mégie,26,peaux de mouton en mégie,26
+peaux de mouton en mégré,0,peaux de mouton en mégie,26
 peaux de mouton en mesquin,1,peaux apprêtées de mouton en mesquis,10
 peaux de mouton en mesquis,9,peaux apprêtées de mouton en mesquis,10
 peaux de mouton en noir,1,peaux de mouton en noir,1
@@ -20064,7 +20068,7 @@ peaux de veau apprêtées et en couleurs,126,peaux apprêtées en couleurs et de
 peaux de veau apprêtées pour cuir doré,10,peaux apprêtées de veau pour cuir doré,10
 peaux de veau blanches,1,peaux blanches de veaux,1
 peaux de veau bronzées,20,peaux bronzées de veau,20
-peaux de veau corroyées,679,peaux corroyées de veau,685
+peaux de veau corroyées,680,peaux corroyées de veau,686
 peaux de veau corroyées en noir,3,peaux corroyées en noir de veau,3
 peaux de veau corroyées en poil,3,peaux corroyées en poil et de veau,3
 peaux de veau corroyées tannées,3,peaux corroyées et tannées de veau,3
@@ -20288,7 +20292,7 @@ peaux tannées et corroyées,1,peaux corroyées et tannées,1
 peaux tannées ou corroyées,2,peaux corroyées ou tannées,5
 peaux tapisserie,1,peaux tapisserie,1
 peaux vaches de Russie,1,peaux de vache de Russie,1
-peaux veau corroyées,1,peaux corroyées de veau,685
+peaux veau corroyées,1,peaux corroyées de veau,686
 peaux veau tannées,16,peaux tannées de veau,626
 peaux vertes,1,peaux vertes,1
 pêche,168,pêche (sortie),298
@@ -20598,6 +20602,7 @@ piano forte,1,piano forte,1
 piastres,99,piastres,126
 piastres et monnaies,2,monnaies,2
 piastres fortes,1,piastres fortes,1
+piastres par approximation,2,,7
 picotte,21,picotte,21
 picotte de laine,2,picotte de laine,2
 picotte de Lille,4,picotte de Lille,4
@@ -20665,8 +20670,8 @@ pierres à fusils et autres,1,pierres à fusils et autres,1
 pierres à hamatilles,1,pierres à hamatilles,1
 pierres à huile,13,pierres à huile,13
 pierres à manganèse,1,pierres à manganèse,1
-pierres à meuble,1,pierres à meubles,2
-pierres à meubles,1,pierres à meubles,2
+pierres à meuble,1,pierres à meubles,3
+pierres à meubles,1,pierres à meubles,3
 pierres à meuler,1,pierres à meuler,1
 pierres à meules,30,pierres à meules,30
 pierres à mordre,1,pierres à mordre,1
@@ -20779,7 +20784,7 @@ pierres de Malte,54,pierres de Malte,54
 pierres de marbre,9,pierres de marbre,9
 pierres de marbre brut,1,pierres de marbre brut,1
 pierres de matte,2,pierres de matte,2
-pierres de meubles,1,pierres de meubles,1
+pierres de meubles,1,pierres à meubles,3
 pierres de meules,3,pierres de meules,3
 pierres de Milan,3,pierres de Milan,3
 pierres de mine,1,pierres de mine,1
@@ -22621,7 +22626,7 @@ prêtes,1,prêtes,1
 pretes torches,2,pretes torches,2
 primaselle,2,primaselle,2
 primula veris,1,primula veris,1
-prises et échouements principalement en coton sucre toile de coton mousseline indigo café tabac etc.,2,divers,5749
+prises et échouements principalement en coton sucre toile de coton mousseline indigo café tabac etc.,2,divers,5750
 produits,5,marchandises,7816
 prohibé,23,marchandises prohibées,24
 prohibé ???,0,marchandises prohibées,24
@@ -23180,7 +23185,7 @@ rhum et tafia,39,rhum et tafia,40
 rhum rac anis etc.,101,anis et rac et rhum etc.,101
 rideaux de soie vieux,1,rideaux de soie vieux,1
 rivets,1,rivets,1
-riz,2489,grains riz,2718
+riz,2491,grains riz,2720
 riz autre,4,riz,4
 riz autre des entrepôts,0,riz des entrepôts,0
 riz du Levant,2,riz du Levant,2
@@ -23219,7 +23224,7 @@ rocaille de cristal,1,rocaille de cristal,1
 rocaille de verre,16,rocaille de verre,17
 roche de corne,9,roche de corne,9
 roche de diable,3,roche de diable,3
-rocou,1592,rocou,1670
+rocou,1617,rocou,1695
 rocou de Cayenne,2,rocou de Cayenne,2
 rocou des Îles,1,rocou des Îles,1
 rodon,1,rodon,1
@@ -23504,7 +23509,7 @@ sablières de cuivre,1,sablières de cuivre,3
 sabliers,1,sabliers,1
 sabliers en compas,3,sabliers en compas,3
 sablon,1,sablon,1
-sabots,80,sabots,80
+sabots,81,sabots,81
 sabots de bétail râpures de cornes de bétail etc,1,rognures de cornes de bétail sabots de bétail etc.,1
 sabres,61,sabres,106
 sabres de traite,11,sabres de traite,16
@@ -24087,7 +24092,7 @@ serge croisée,2,serge croisée,2
 serge d'Angleterre,4,serge d'Angleterre,5
 serge d'Angleterre aune,1,serge d'Angleterre,5
 serge d'Aumale,8,serge d'Aumale,30
-serge de ??? commune,1,serge de ??? commune,1
+serge de ??? commune,0,serge de ??? commune,0
 serge de Bruxelles,1,serge de Bruxelles,1
 serge de laine,106,serge de laine,785
 serge de laine croisée,1,serge croisée de laine,1
@@ -24100,6 +24105,7 @@ serge de Nîmes aune,16,serge de Nîmes,119
 serge de Poitou,1,serge de Poitou,1
 serge de Rome,3,serge de Rome,4
 serge de Rouen,1,serge de Rouen,1
+serge de Rouen commune,1,,7
 serge de Saint-Maixent,5,serge de Saint-Maixent,5
 serge de Savoie,1,serge de Savoie,1
 serge de soie,9,serge de soie,12
@@ -24214,7 +24220,7 @@ sirop de coriandre,1,sirop de coriandre,1
 sirop de framboise,1,sirop de framboise,1
 sirop de l'étranger,0,sirop de l'étranger,0
 sirop de limon,54,sirop de limon,56
-sirop de mélasse,70,sirop de mélasse,794
+sirop de mélasse,70,sirop de mélasse,795
 sirop de mûre,1,sirop de mûre,1
 sirop de raffinerie,3,sirop de raffinerie,3
 sirop de sucre,253,sirop de sucre,253
@@ -24224,12 +24230,12 @@ sirop de violette,2,sirop de violette,2
 sirop des Îles,70,sirop des Indes,70
 sirop divers,2,sirop,2209
 sirop et mélasse,1,mélasse et sirop,1
-sirop fin,47,sirop fin,47
+sirop fin,53,sirop fin,53
 sirop fin et mélasse,3,sirop fin et mélasse,3
 sirop limon,2,sirop de limon,56
 sirop médicinal,1,sirop médicinal,1
-sirop mélasse,709,sirop de mélasse,794
-sirop mélasse rhum taffia,11,mélasse rhum sirop taffia,11
+sirop mélasse,710,sirop de mélasse,795
+sirop mélasse rhum taffia,22,mélasse rhum sirop taffia,22
 sirop ou jus de cerise et de grenade,7,jus et sirop de cerise et de grenade,7
 sirop ou jus de cerise et de grenade avec drogues,1,drogues et jus et sirop de cerise et de grenade,1
 sirop ou jus de cerise et de grenade avec nourritures,69,jus et sirop de cerise et de grenade avec nourritures,69
@@ -24672,8 +24678,8 @@ subsistances biscuit de mer et pâte d'Italie,1,biscuit de mer et pâte d'Italie
 subsistances blé,15,blé,18
 subsistances blé et autres grains,17,blé et autres grains,17
 subsistances blé et autres grains comestibles,56,grains blé et autres,56
-subsistances cacao,56,cacao,2519
-subsistances café,71,café,5577
+subsistances cacao,56,cacao,2547
+subsistances café,71,café,5615
 subsistances cannelle,45,cannelle,1470
 subsistances chair fraîche et salée,15,chair fraîche et salée,15
 subsistances chair salée,44,chair salée,903
@@ -24702,7 +24708,7 @@ subsistances girofle,21,girofle,983
 subsistances huile d'olive,89,huile d'olive,3513
 subsistances légumes,62,légumes,2138
 subsistances légumes divers,15,légumes,2138
-subsistances liqueurs,36,liqueurs,1961
+subsistances liqueurs,36,liqueurs,1970
 subsistances liqueurs et sirop,15,liqueurs et sirop,178
 subsistances miel,30,miel,1374
 subsistances moutarde,13,moutarde,293
@@ -24714,15 +24720,15 @@ subsistances provisions de bouche réunies,60,provisions de bouche,640
 subsistances provisions diverses,25,provisions,1433
 subsistances provisions diverses principalement en beurre,13,provisions diverses principalement en beurre,13
 subsistances réunies,19,subsistances,27
-subsistances riz,46,grains riz,2718
+subsistances riz,46,grains riz,2720
 subsistances sel,59,sel,13253
 subsistances sirop,45,sirop,2209
 subsistances sucre,72,sucre,3059
 subsistances thé,47,thé,2018
 subsistances vin,21,vin,19471
-subsistances vin de Bordeaux,45,vin de Bordeaux,1182
+subsistances vin de Bordeaux,45,vin de Bordeaux,1184
 subsistances vin de liqueurs,23,vin de liqueurs,843
-subsistances vin divers,58,vin divers,577
+subsistances vin divers,58,vin divers,578
 substances et produits chimiques,29,substances et produits chimiques,29
 substances et produits chimiques principalement eau-forte et couperose,14,substances et produits chimiques principalement eau-forte et couperose,14
 substances et produits chimiques principalement en eau-forte et couperose bleue et blanche,12,substances et produits chimiques principalement en eau-forte et couperose bleue et blanche,12
@@ -24746,10 +24752,10 @@ sucre blanc et terré,14,sucre blanc et sucre terré,49
 sucre blanc raffiné,1,sucre blanc,1274
 sucre blanc terré,35,sucre blanc et sucre terré,49
 sucre blanc terré et têtes,7,sucre blanc et sucre terré et sucre têtes,7
-sucre brun,82,sucre brun,85
+sucre brun,101,sucre brun,104
 sucre brun bas prix,15,sucre brun prix bas,15
 sucre brun en pain et terré,1,sucre brun en pain et terré,1
-sucre brut,1663,sucre brut,1688
+sucre brut,1669,sucre brut,1694
 sucre brut autre que blanc,6,sucre brut autre que blanc,6
 sucre brut blanc,4,sucre brut blanc,4
 sucre brut blanc ou terré,5,sucre brut blanc ou terré,5
@@ -24818,14 +24824,14 @@ sucre et tabac,9,sucre et tabac,11
 sucre et vert-de-gris,5,sucre et verdet,5
 sucre ferré,3,sucre ferré,3
 sucre fin,3,sucre fin,3
-sucre mélasse,3,sucre mélasse,3
+sucre mélasse,20,sucre mélasse,20
 sucre mélisse,1,sucre mélisse,1
 sucre mes ???,1,sucre mes ???,1
 sucre moscovade,11,sucre moscovade,11
 sucre noix,1,sucre noix,1
 sucre orianne,1,sucre orianne,1
 sucre pain,2,sucre en pain,1065
-sucre raffiné,292,sucre raffiné,297
+sucre raffiné,307,sucre raffiné,312
 sucre raffiné candi,1,sucre candi raffiné,1
 sucre raffiné en pain,3,sucre en pain raffiné,25
 sucre raffiné en pain en poudre ou candi,1,sucre candi en pain et en poudre raffiné,1
@@ -24834,7 +24840,7 @@ sucre roulé,1,sucre roulé,1
 sucre royal,2,sucre royal,2
 sucre sucrerie,1,sucrerie,18
 sucre sucrerie divers,1,sucrerie,18
-sucre terré,1432,sucre terré,1432
+sucre terré,1456,sucre terré,1456
 sucre terré autre que blanc,1,sucre terré autre que blanc,1
 sucre terré blanc,1,sucre terré blanc,1
 sucre terré blanc terré ordinaire et têtes de forme,11,sucre terré blanc ordinaire et têtes de forme,11
@@ -24845,7 +24851,7 @@ sucre terré des colonies françaises en-deçà du Cap,0,sucre terré des coloni
 sucre terré des Îles,1,sucre terré des Indes,1
 sucre terré des prises,1,sucre des prises terré,1
 sucre terré en forme,1,sucre en forme terré,1
-sucre terré et têtes,26,sucre terré et sucre têtes,26
+sucre terré et têtes,36,sucre terré et sucre têtes,36
 sucre terré étranger autre que blanc,3,sucre terré autre que blanc étranger,3
 sucre terré étranger autre que blanc des entrepôts,0,sucre terré autre que blanc des entrepôts étranger,0
 sucre terré étranger blanc,7,sucre terré blanc étranger,7
@@ -24855,7 +24861,7 @@ sucre terré moyen,1,sucre terré moyen,1
 sucre terré par Bayonne Marseille et Nantes,1,sucre terré par Bayonne Marseille et Nantes,1
 sucre terré par Chapareillan,1,sucre terré par Chapareillan,1
 sucre terré têtes de forme,1,sucre terré têtes de forme,1
-sucre têtes,412,sucre têtes,414
+sucre têtes,415,sucre têtes,417
 sucre têtes de forme,132,sucre têtes de forme,136
 sucre têtes et forme,1,sucre têtes de forme,136
 sucre têtes forme,3,sucre têtes de forme,136
@@ -24914,9 +24920,9 @@ suite des matières premières céruse,2,céruse,899
 suite des matières premières cochenille,4,cochenille,1228
 suite des matières premières drogues diverses réunies,15,drogues,2710
 suite des matières premières garance,3,garance,1150
-suite des matières premières indigo,6,indigo,6454
+suite des matières premières indigo,6,indigo,6484
 suite des matières premières noix de galle,3,noix de Galle,499
-suite des matières premières rocou,1,rocou,1670
+suite des matières premières rocou,1,rocou,1695
 sulfate alun brûlé,1,alun brûlé,1
 sulfate d'alumine (alun autre que brûlé ou calciné),2,alun autre que brûlé ou calciné,2
 sulfate d'ammoniaque,1,sulfate d'ammoniaque,2
@@ -24995,7 +25001,7 @@ tabac en caisse,5,tabac en caisse,5
 tabac en cantine,1,tabac en cantine,1
 tabac en carotte,95,tabac en carotte,97
 tabac en carotte et en feuilles,1,tabac en carotte et en feuilles,1
-tabac en carotte et fabriqué,2,tabac en carotte et fabriqué,2
+tabac en carotte et fabriqué,2,tabac en carotte et fabriqué,6
 tabac en carotte et rolles,119,tabac en carotte et rolles,119
 tabac en carotte feuilles et râpé,1,tabac en carotte et en feuilles et râpé,1
 tabac en carotte par Bayonne,1,tabac en carotte par Bayonne,1
@@ -25003,7 +25009,7 @@ tabac en cordes,16,tabac en cordes,16
 tabac en coren ???,0,tabac en coren ???,0
 tabac en côtes,82,tabac en côtes,82
 tabac en en feuilles,1,tabac en feuilles,2
-tabac en feuilles,833,feuilles de tabac,834
+tabac en feuilles,835,feuilles de tabac,836
 tabac en feuilles carotte et côtes,1,tabac en carotte et en feuilles et en côtes,2
 tabac en feuilles d'Espagne,1,tabac d'Espagne en feuilles,1
 tabac en feuilles de la Louisiane,1,tabac en feuilles de la Louisiane,1
@@ -25033,6 +25039,7 @@ tabac et son d'Espagne,4,tabac et son d'Espagne,4
 tabac et sucre,2,sucre et tabac,11
 tabac fabriqué,52,tabac fabriqué,52
 tabac fabriqué cigares par autorisation,1,cigares par autorisation,1
+tabac fabriqué et en carotte,4,tabac en carotte et fabriqué,6
 tabac fabriqué ou seulement préparé,4,tabac fabriqué et préparé,4
 tabac feuilles,1,tabac en feuilles,2
 tabac ficelé,6,tabac ficelé,6
@@ -25207,7 +25214,7 @@ taffetas lustré,2,taffetas lustré,2
 taffetas noir,5,taffetas noir,5
 taffetas petit,5,taffetas petit,5
 taffetas rayé,5,taffetas rayé,5
-tafia,331,tafia,350
+tafia,340,tafia,359
 tafia et rhum,1,rhum et tafia,40
 tafia et rhum étranger,1,rhum et tafia étranger,1
 tafia étranger par Dunkerque,1,tafia par Dunkerque et étranger,1
@@ -25628,7 +25635,7 @@ têtes de girofle,8,têtes de girofle,8
 têtes de morue,4,têtes de morue,5
 têtes de morue des Îles,1,têtes de morue des Indes,1
 têtes de pavot,1,têtes de pavot,1
-têtes de sucre,1,sucre têtes,414
+têtes de sucre,1,sucre têtes,417
 thé,1898,thé,2018
 thè,2,thé,2018
 thé ???,2,thé ???,2
@@ -25885,9 +25892,9 @@ tissus en laine fabriqué à Arras,1,étoffe de laine fabriquée à Arras,1
 tissus mélangés de lin et de chanvre sans indication d'espèce,1,étoffe de chanvre ou de lin mêlés,1
 tobines,1,tobines,1
 tobines de Hollande,1,tobines de Hollande,1
-toile,313,toile,1007
+toile,313,toile,1005
 toile ???,21,toile ???,21
-toile ..ya,1,toile ..ya,1
+toile ..ya,0,toile ..ya,0
 toile 3/4 large,1,toile 3/4,1
 toile a ???,1,toile a ???,1
 toile à 4 fils,5,toile à 4 fils,5
@@ -25946,7 +25953,7 @@ toile anglaise des prises,1,toile anglaise des prises,1
 toile Antioche,3,toile Antioche,6
 toile antioche,3,toile Antioche,6
 toile ardoisée et rayonnée,57,toile ardoisée et rayonnée,57
-toile assortie,9,toile,1007
+toile assortie,9,toile,1005
 toile au killis,1,toile de Killis,47
 toile au lain,1,toile au lain,1
 toile au lait,7,toile au lait,7
@@ -26118,9 +26125,9 @@ toile choilette,1,toile choilette,1
 toile Cholet,138,toile de Cholet,207
 toile Cholet à carreaux,1,toile de Cholet à carreaux,1
 toile cholette,11,toile de Cholet,207
-toile cirée,561,toile cirée,566
+toile cirée,562,toile cirée,567
 toile cirée 3/4,1,toile cirée trois-quart,1
-toile cirée aune,3,toile cirée,566
+toile cirée aune,3,toile cirée,567
 toile cirée de 13 à 20 fils,1,toile cirée de 13 à 20 fils,1
 toile cirée de moins de 8 fils,1,toile cirée de moins de 8 fils,1
 toile cirée et de crin,7,toile de crin cirée,7
@@ -26188,8 +26195,8 @@ toile coutil de fil,1,toile coutil de fil,13
 toile coutil fil,12,toile coutil de fil,13
 toile coutil fil et laine,1,toile coutil de fil et de laine,1
 toile coutil pour lit,1,toile coutil pour lit,1
-toile craie,1,toile crée,74
-toile crée,73,toile crée,74
+toile craie,1,toile crée,73
+toile crée,72,toile crée,73
 toile crée entretarge,1,toile crée entrelarge,1
 toile crée gratienne,2,toile crée gratienne,2
 toile crée large,54,toile crée large,54
@@ -26468,7 +26475,7 @@ toile de brin,20,toile de brin,20
 toile de brin fine,2,toile de brin fine,2
 toile de Bruges,5,toile de Bruges,6
 toile de Bruges aune,1,toile de Bruges,6
-toile de C??? commun,2,toile,1007
+toile de C??? commun,0,toile,1005
 toile de caisse,1,toile de caisse,1
 toile de caladaris,1,caladaris,96
 toile de Caladric,1,toile de caladaris,1
@@ -26637,13 +26644,14 @@ toile de couleur,5,toile de couleur,12
 toile de couleur rayée,2,toile rayée de couleur,2
 toile de couleurs,6,toile de couleur,12
 toile de coutil,38,toile de coutil,53
+toile de coutil commun,2,,7
 toile de coutil et à carreaux,39,toile à carreaux et de coutil,56
 toile de Coutil rayée,2,toile de coutil rayée,2
 toile de crin,275,toile de crin,278
 toile de crin à tamis (rapatelle),2,toile de crin à tamis,4
 toile de demi large,1,toile de demi large,1
 toile de demi-Hollande,1,toile de demi-Hollande,1
-toile de différente qualité,1,toile,1007
+toile de différente qualité,1,toile,1005
 toile de Dinant,3,toile de Dinant,3
 toile de Dinant commune,2,toile commune de Dinant,2
 toile de fil,13,toile de fil,17
@@ -26730,12 +26738,13 @@ toile de Laval de renvoi,1,toile de Laval de renvoi,1
 toile de Laval en pierres,1,toile de Laval en pierres,1
 toile de Léon,37,toile de Léon,48
 toile de Lille,2,toile de Lille,2
-toile de lin,341,toile de lin,716
-toile de lin à ???,1,toile de lin à ???,1
+toile de lin,341,toile de lin,718
+toile de lin à ???,0,toile de lin à ???,0
 toile de lin à carreaux,11,toile à carreaux et de lin,11
 toile de lin à doubler,2,toile de lin à doubler,2
 toile de lin à faire drap,1,toile à faire drap de lin,1
 toile de lin à matelas,6,toile de lin à matelas,6
+toile de lin à robes,1,,7
 toile de lin au lait,14,toile de lin au lait,14
 toile de lin basin,2,basin de lin,2
 toile de lin batiste,140,batiste,565
@@ -26766,7 +26775,7 @@ toile de lin Cholet,60,toile de lin de Cholet,104
 toile de lin cirée,1,toile de lin cirée,1
 toile de lin claire,3,toile de lin claire,3
 toile de lin claire et gaze,2,toile de lin claire et gaze,2
-toile de lin commune,40,toile de lin,716
+toile de lin commune,42,toile de lin,718
 toile de lin coutel,1,toile de lin coutel,1
 toile de lin coutil,6,toile de lin coutil,6
 toile de lin crée large,1,toile crée large de lin,1
@@ -26802,14 +26811,14 @@ toile de lin de Saint-Quentin,377,toile de lin de Saint-Quentin,456
 toile de lin de Senlis,1,toile de lin de Senlis,1
 toile de lin de Servins,1,toile de lin de Servins,1
 toile de lin de Suisse,1,toile de lin de Suisse,1
-toile de lin de toute sorte,1,toile de lin,716
+toile de lin de toute sorte,1,toile de lin,718
 toile de lin de Troyes,11,toile de lin de Troyes,11
 toile de lin de Valenciennes,115,toile de lin de Valenciennes,120
 toile de lin dite batiste,15,batiste de lin,15
 toile de lin dite d'Anvers,1,toile de lin d'Anvers,1
 toile de lin dite linon,1,toile linon,92
 toile de lin dite platille,1,platille,343
-toile de lin diverse,264,toile de lin,716
+toile de lin diverse,264,toile de lin,718
 toile de lin diverse batiste et linon,10,batiste de lin et linon de lin,14
 toile de lin du pays,2,toile de lin du pays,2
 toile de lin écrue,55,toile écrue de lin,55
@@ -26855,8 +26864,8 @@ toile de lin et de chanvre teinte de moins de 8 fils,2,toile de chanvre et de li
 toile de lin étroite,5,toile étroite de lin,5
 toile de lin facon de Hollande,2,toile de lin façon de Hollande,2
 toile de lin fil d'épreuve,6,toile de lin fil d'épreuve,6
-toile de lin fin,2,toile fine de lin,79
-toile de lin fine,73,toile fine de lin,79
+toile de lin fin,2,toile fine de lin,81
+toile de lin fine,75,toile fine de lin,81
 toile de lin fine à carreaux,1,toile à carreaux fine et de lin,1
 toile de lin fine à drap,1,toile de lin fine à drap,1
 toile de lin fine de ???,0,toile de lin fine de ???,0
@@ -26881,7 +26890,7 @@ toile de lin grise en dessous de 10 sols aune,9,toile grise de lin en dessous de
 toile de lin grise et ardoisée,5,toile ardoisée et grise de lin,5
 toile de lin grise pour emballage,2,toile pour emballage grise de lin,2
 toile de lin grise pour essuie-mains,2,toile pour essuie-mains grise de lin,2
-toile de lin grosse,35,toile grosse de lin,35
+toile de lin grosse,37,toile grosse de lin,37
 toile de lin grosse écrue,1,toile écrue et grosse de lin,1
 toile de lin grosse pointe,1,toile de lin grosse pointe,1
 toile de lin grosse pour nègre,4,toile grosse de lin et pour nègre,4
@@ -26995,8 +27004,8 @@ toile de Silésie aune,3,toile de Silésie,37
 toile de soie,5,toile de soie,5
 toile de Suisse,41,toile de Suisse,41
 toile de table,2,toile de table,2
-toile de toute espèce,7,toile,1007
-toile de toute sorte,2,toile,1007
+toile de toute espèce,7,toile,1005
+toile de toute sorte,2,toile,1005
 toile de treillis,2,toile de treillis,2
 toile de Troyes,11,toile de Troyes,12
 toile de Valeby,1,toile de Valeby,1
@@ -27074,14 +27083,14 @@ toile dite drol et drouel,67,drol et drouel,67
 toile dite guinée de coton blanc,1,guinée blanche,96
 toile dite peinte et siamoise,1,toile peinte et siamoise,1
 toile dite platille,2,platille,343
-toile diverse,509,toile,1007
+toile diverse,509,toile,1005
 toile diverse à carreaux,1,toile à carreaux,261
 toile diverse à matelas et à carreaux,3,toile à matelas et à carreaux,3
 toile diverse à voile,7,toile pour voile,1505
 toile diverse basin,2,basin,886
 toile diverse batiste écrue,1,batiste écrue,2
 toile diverse batiste fine,5,batiste fine,8
-toile diverse cirée,2,toile cirée,566
+toile diverse cirée,2,toile cirée,567
 toile diverse coutil,5,coutil,788
 toile diverse d'emballage,3,toile d'emballage,725
 toile diverse de Bretagne,3,toile de Bretagne,616
@@ -27147,7 +27156,7 @@ toile en coutil,5,toile de coutil,53
 toile en crin,1,toile de crin,278
 toile en fair,2,toile en fair,2
 toile en guingans,1,toile guingans,632
-toile en lin,1,toile de lin,716
+toile en lin,1,toile de lin,718
 toile en lin et de chanvre,1,toile de chanvre et de lin,664
 toile en linge de tables,11,linge de table,516
 toile en rossière,1,rossière de toile,1
@@ -27219,7 +27228,7 @@ toile file et laine de Lille,2,toile de fil et de laine de Lille,2
 toile fine,46,toile fine,48
 toile fine à commune,1,toile commune et fine,4
 toile fine de coton,7,toile de coton fine,8
-toile fine de lin,4,toile fine de lin,79
+toile fine de lin,4,toile fine de lin,81
 toile fine et commune,3,toile commune et fine,4
 toile fine étroite,1,toile étroite et fine,1
 toile fine large,1,toile fine et large,1
@@ -27291,7 +27300,7 @@ toile imprimée,10,toile imprimée,12
 toile imprimée ou peinte,3,toile imprimée ou peinte,3
 toile indienne,85,indienne,774
 toile indienne ???,1,indienne ???,1
-toile indienne commune,4,indienne commune,4
+toile indienne commune,5,indienne commune,5
 toile indienne de coton,13,indienne de coton,21
 toile indienne de différentes qualités,1,indienne de différentes qualités,1
 toile indienne de France,6,indienne de France,6
@@ -27319,7 +27328,7 @@ toile limeneas,26,limeneas,297
 toile lin batiste,3,batiste,565
 toile lin blanche,3,toile de lin blanche,856
 toile lin de Rouen,2,toile de lin de Rouen,171
-toile lin diverse,3,toile de lin,716
+toile lin diverse,3,toile de lin,718
 toile lin Laval,1,toile de lin de Laval,187
 toile lin Rouen,2,toile de lin de Rouen,171
 toile lin teinte,2,toile de lin teinte,220
@@ -27359,7 +27368,7 @@ toile manouf,146,toile manouf,147
 toile manouf ???,1,toile manouf,147
 toile matelas,4,toile à matelas,74
 toile mélangée de couleur,1,toile de couleur,12
-toile mêlée,34,toile,1007
+toile mêlée,34,toile,1005
 toile mêlée ???,0,toile ???,21
 toile mêlée ...,0,toile ...,0
 toile mêlée à Bretagne,1,toile de Bretagne,616
@@ -27380,7 +27389,7 @@ toile mêlée de lin et de chanvre,67,toile de chanvre et de lin,664
 toile mêlée de linge de tables,6,toile de linge de tables,30
 toile mêlée de Rouen,1,toile de Rouen,77
 toile mêlée de Russie,0,toile de Russie,4
-toile mêlée diverse,53,toile,1007
+toile mêlée diverse,53,toile,1005
 toile mêlée diverse de coton,1,toile de coton,1264
 toile mêlée diverse peinte,1,toile peinte,986
 toile mêlée écrue,10,toile écrue,69
@@ -27398,7 +27407,7 @@ toile mêlée guingans,10,toile guingans,632
 toile mêlée imprimée,2,toile imprimée,12
 toile mêlée peinte,49,toile peinte,986
 toile mêlée peinte et teinte,0,toile peinte et teinte,6
-toile mêlée rayée,0,toile rayée,55
+toile mêlée rayée,0,toile rayée,56
 toile mêlée serpillière,3,toile serpillière,97
 toile mêlée teinte,10,toile teinte,97
 toile ménagé,1,toile de ménage,159
@@ -27468,7 +27477,7 @@ toile perse et indienne,1,indienne et toile perse,1
 toile petite,5,toile petite,5
 toile photas,12,toile photas,12
 toile photas imitant celle des Indes,1,toile photas imitant celle des Indes,1
-toile pièces assorties,1,toile,1007
+toile pièces assorties,1,toile,1005
 toile pièces étroites,2,toile pièces étroites,2
 toile pièces larges,2,toile pièces larges,2
 toile pignée,1,toile pignée,1
@@ -27519,7 +27528,7 @@ toile quatre fils,1,toile quatre fils,1
 toile quilly,1,toile quilly,1
 toile ralette de Hambourg,1,toile ralette de Hambourg,1
 toile ramoise,14,toile ramoise,14
-toile rayée,55,toile rayée,55
+toile rayée,56,toile rayée,56
 toile rayée ardoisée et rayonnée,85,toile ardoisée et rayée et rayonnée,85
 toile rayée pour mouchoirs,12,toile pour mouchoirs rayée,17
 toile rayée pour mouchoirs aune,5,toile pour mouchoirs rayée,17
@@ -27578,8 +27587,8 @@ toile teinte de 8 à 13 fils,2,toile teinte de 8 à 13 fils,2
 toile teinte de moins de 8 fils,2,toile teinte de moins de 8 fils,2
 toile tellier,1,toile tellier,1
 toile tissée très fin,75,toile tissée très fin,75
-toile toilerie,10,toile,1007
-toile toilerie diverse,3,toile,1007
+toile toilerie,10,toile,1005
+toile toilerie diverse,3,toile,1005
 toile tout coton,1,toile de coton,1264
 toile treillis,25,toile treillis,121
 toile treillis et gommée,3,toile gommée et treillis,3
@@ -27592,13 +27601,13 @@ toile verte ???,1,toile verte ???,1
 toile Vimoutier,3,toile Vimoutiers,3
 toile vitrée,2,toile Vitré,2
 toile voile,3,toile de voile,15
-toilerie,19,toile,1007
+toilerie,19,toile,1005
 toilerie bonneterie de fil,7,bonneterie de fil,91
 toilerie de retour,1,toile de retour,4
-toilerie de toute sorte,7,toile,1007
+toilerie de toute sorte,7,toile,1005
 toilerie des Indes du commerce étranger,2,toile des Indes du commerce étranger,2
 toilerie des Indes du commerce français,2,toile des Indes du commerce français,2
-toilerie diverse,6,toile,1007
+toilerie diverse,6,toile,1005
 toilerie du Levant,1,toile du Levant,1
 toilerie nationale,1,toile nationale,5
 toilerie nationale diverse,1,toile nationale,5
@@ -27611,9 +27620,9 @@ toilerie toile de coutil,7,toile de coutil,53
 toilerie toile de coutil à carreaux,17,toile à carreaux et de coutil,56
 toilerie toile de coutil et de basin,5,toile de basin et de coutil,5
 toilerie toile de fil peinte teinte et imprimée,4,toile imprimée et de fil et peinte et teinte,4
-toilerie toile de lin,33,toile de lin,716
+toilerie toile de lin,33,toile de lin,718
 toilerie toile de lin batiste et linon,72,toile de lin et de batiste et linon,72
-toilerie toile de lin de toute sorte,33,toile de lin,716
+toilerie toile de lin de toute sorte,33,toile de lin,718
 toilerie toile de lin et de chanvre,18,toile de chanvre et de lin,664
 toilerie toile en mouchoirs de fil,4,mouchoirs de fil,378
 toilerie toile linge de tables,22,linge de table,516
@@ -27623,7 +27632,7 @@ toilerie toile mouchoirs,4,toile mouchoirs,4
 toilerie toile mouchoirs blancs et teints,27,mouchoirs blancs et teints,27
 toilerie toile peinte et teinte,6,toile peinte et teinte,6
 toilerie toile peinte et teinte en fil,27,toile de fil peinte et teinte,27
-toileries de toute sorte,11,toile,1007
+toileries de toute sorte,11,toile,1005
 toilettes,8,toilettes,8
 toilettes brodées en soie,1,toilettes brodées de soie,1
 toilettes d'acajou,1,toilettes d'acajou,1
@@ -28023,14 +28032,14 @@ verrerie en cristaux,1,cristaux,4
 verrerie ordinaire,75,verrerie ordinaire,75
 verrerie verre en bouteilles,2,bouteilles de verre,1173
 verrerie verrerie,5,verrerie,603
-verrerie verres à boire,4,verres à boire,520
+verrerie verres à boire,4,verres à boire,522
 verrerie verres en bouteilles,4,bouteilles de verres,109
 verrerie verres en dame-jeannes,5,dame-jeannes de verre,111
 verrerie verroterie ou rassades,3,rassades ou verroterie,9
 verres,386,verres,450
 verres ??? d'estampes,2,verres ??? d'estampes,2
-verres à boire,515,verres à boire,520
-verres à boire assortiment,1,verres à boire,520
+verres à boire,517,verres à boire,522
+verres à boire assortiment,1,verres à boire,522
 verres à boire communs,39,verres à boire communs,39
 verres à boire cristallins,3,verres à boire cristallins,3
 verres à boire de Bohème,2,verres de Bohème à boire,2
@@ -28295,14 +28304,14 @@ vin anti-scorbutique,1,vin anti-scorbutique,1
 vin au muid,4,vin au muid,4
 vin Aubagne,1,vin d'Aubagne,84
 vin blanc,359,vin blanc,359
-vin blanc commun,7,vin blanc commun,7
+vin blanc commun,9,vin blanc commun,9
 vin blanc d'Espagne,1,vin blanc d'Espagne,1
 vin blanc de France,138,vin blanc de France,138
 vin blanc de Lucque,1,vin blan de Lucques,1
 vin blanc du Rhin,2,vin blanc du Rhin,2
 vin blanc en bouteilles,10,vin blanc en bouteilles,10
 vin Blaye,2,vin de Blaye,129
-vin Bordeaux,7,vin de Bordeaux,1182
+vin Bordeaux,7,vin de Bordeaux,1184
 vin Bourgogne,78,vin de Bourgogne,658
 vin bouteilles,3,vin en bouteille,3
 vin Canaries,4,vin des Canaries,179
@@ -28380,7 +28389,7 @@ vin de Béziers,2,vin de Béziers,2
 vin de Blaye,122,vin de Blaye,129
 vin de Blaye et Bourg,1,vin de Blaye et de Bourg,1
 vin de Blois,2,vin de Blois,2
-vin de Bordeaux,1078,vin de Bordeaux,1182
+vin de Bordeaux,1078,vin de Bordeaux,1184
 vin de Bordeaux de Blaye,49,vin de Bordeaux de Blaye,49
 vin de Bordeaux de Bourg,13,vin de Bourg,53
 vin de Bordeaux de Castillon,1,vin de Castillon,30
@@ -28486,7 +28495,7 @@ vin de France bouteilles,2,vin de France bouteilles,2
 vin de France commun,1,vin de France,392
 vin de France d'Anjou,6,vin de France,392
 vin de France d'Orléans,1,vin d'Orléans,44
-vin de France de Bordeaux,19,vin de Bordeaux,1182
+vin de France de Bordeaux,19,vin de Bordeaux,1184
 vin de France de Bordeaux au muid,20,vin de Bordeaux au muid,20
 vin de France de Bordeaux de retour,2,vin de Bordeaux de retour,2
 vin de France de Bordeaux en bouteilles,4,vin de Bordeaux en bouteilles,4
@@ -28653,7 +28662,7 @@ vin des ci-devant provinces d'Alsace,1,vin d'Alsace,3
 vin des grandes borderies,1,vin des grandes borderies,1
 vin des Îles,1,vin des Îles,1
 vin dit Bleckaert,5,vin dit Bleckaert,5
-vin divers,519,vin divers,577
+vin divers,520,vin divers,578
 vin divers à la valeur,10,vin,19471
 vin divers de France,36,vin de France,392
 vin divers de liqueurs,3,vin de liqueurs,843
@@ -28802,7 +28811,7 @@ vin rouge d'Espagne,2,vin rouge d'Espagne,2
 vin rouge de France,141,vin rouge de France,141
 vin rouge de Marennes,1,vin rouge de Marennes,1
 vin rouge de renvoi,3,vin rouge de renvoi,3
-vin rouge en bouteilles,5,vin rouge en bouteilles,5
+vin rouge en bouteilles,6,vin rouge en bouteilles,6
 vin rouge et blanc,1,vin rouge et blanc,1
 vin rouge gros bard,1,vin rouge gros bard,1
 vin rouge ordinaire,1,vin rouge ordinaire,1
@@ -28819,7 +28828,7 @@ vin ville,7,vin de ville,733
 vin vin de haut,1,vin de haut,503
 vin vin de liqueurs divers,5,vin et vin de liqueurs divers,5
 vin vin de ville,2,vin de ville,733
-vinaigre,6864,vinaigre,6882
+vinaigre,6865,vinaigre,6883
 vinaigre ???,3,vinaigre ???,3
 vinaigre composé,18,vinaigre de composition,23
 vinaigre de bière,122,vinaigre de bière,122
@@ -28829,7 +28838,7 @@ vinaigre de fruits,118,vinaigre de fruits,118
 vinaigre de vin,133,vinaigre de vin,133
 vinaigre de vin en bouteilles,2,vinaigre de vin en bouteille,2
 vinaigre de vin en futailles,2,vinaigre de vin en futaille,2
-vinaigre divers,1,vinaigre,6882
+vinaigre divers,1,vinaigre,6883
 vinaigre ordinaire,35,vinaigre ordinaire,35
 vinaigre parfumé,2,vinaigre parfumé,2
 vinaterie,19,vinaterie,36
@@ -28900,14 +28909,14 @@ voitures diverses,11,voitures,158
 voitures et leurs roues,1,voitures et leurs roues,1
 voitures et tombereaux,3,tombereaux et voitures,3
 voitures neuves,3,voitures neuves,3
-volailles,253,volailles,517
+volailles,254,volailles,518
 volailles canards,1,canards,16
 volailles chapons,4,chapons,11
 volailles coqs,1,coqs,4
-volailles de toute sorte,261,volailles,517
+volailles de toute sorte,261,volailles,518
 volailles dindes,1,dindes,8
 volailles dindons,18,dindons,37
-volailles diverses,3,volailles,517
+volailles diverses,3,volailles,518
 volailles et gibier,24,gibier et volailles,37
 volailles et gibier provisions de bouche,13,gibier et volailles,37
 volailles grasses,2,volailles grasses,2
