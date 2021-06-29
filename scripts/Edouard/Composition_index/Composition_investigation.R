@@ -170,3 +170,79 @@ lines(drop_na(Terme_echange_pg[, c("year", "Terme_echange_pg")]), type = "o", pc
 
 
 
+
+
+
+
+Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", row.names = NULL)
+
+Index_manufactures_imports <- Index_composition_global %>%
+  filter(Product_sector == "Manufactures" & Exports_imports == "Imports")
+
+plot(drop_na(Index_manufactures_imports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix des produits manufacturés - Imports") 
+
+
+
+Index_manufactures_exports <- Index_composition_global %>%
+  filter(Product_sector == "Manufactures" & Exports_imports == "Exports")
+
+plot(drop_na(Index_manufactures_exports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix des produits manufacturés - Exports") 
+
+
+
+Index_colonies_imports <- Index_composition_global %>%
+  filter(Product_sector == "Primary coloniaux" & Exports_imports == "Imports")
+
+plot(drop_na(Index_colonies_imports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice",
+     main = "Indices des prix des produits primaires (colonies) - Imports") 
+
+
+Index_colonies_exports <- Index_composition_global %>%
+  filter(Product_sector == "Primary coloniaux" & Exports_imports == "Exports")
+
+plot(drop_na(Index_colonies_exports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix des produits primaire (colonies) - Exports") 
+
+
+
+Index_european_imports <- Index_composition_global %>%
+  filter(Product_sector == "Primary european" & Exports_imports == "Imports")
+
+plot(drop_na(Index_european_imports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix des produits primaires (Europe) - Imports") 
+
+
+
+
+Index_european_exports <- Index_composition_global %>%
+  filter(Product_sector == "Primary european" & Exports_imports == "Exports")
+
+plot(drop_na(Index_european_exports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix des produits primaires (Europe) - Exports") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
