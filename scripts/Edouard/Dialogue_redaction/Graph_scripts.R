@@ -26,7 +26,7 @@ setwd("C:/Users/pignede/Documents/GitHub/toflit18_data")
 ### Nettoyage de l'espace de travail
 rm(list = ls())
 
-layout(matrix(1:2,2))
+# layout(matrix(1:2,2))
 
 
 
@@ -519,24 +519,89 @@ corrplot(Cor_ville_Imports_1750_1900[1:5, 1:5], type = "upper", diag = F,
 
 
 
+### Termes de l'échange par ports et composition ----
+
+
+### Par ports
+
+Index_res_villes <- read.csv2("./scripts/Edouard/Index_results.csv", row.names = NULL, dec = ",")
+
+Index_res_villes <- Index_res_villes %>%
+  filter(Outliers == T & Outliers_coef == 10 & Trans_number == 0 & Prod_problems == F & Product_select == F &
+         Remove_double == T & Ponderation == T & Pond_log == F)
+
+
+Ville_name = "Rennes"
+
+Index_ville <- Index_res_villes %>%
+  filter(Ville == Ville_name) %>%
+  select(c("Exports_imports", "year", "Index_value")) %>%
+  pivot_wider(names_from = "Exports_imports", values_from = "Index_value")
+
+Index_ville <- Index_ville %>%
+  mutate(Imports = Imports / Index_ville$Imports[Index_ville$year == 1789],
+         Exports = Exports / Index_ville$Exports[Index_ville$year == 1789]) %>%
+  mutate(Termes_echange = Exports / Imports)
+
+
+plot(drop_na(Index_ville[, c("year", "Termes_echange")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Termes de l'échange",
+     main = paste("Termes de l'échange - Port de", Ville_name)) 
 
 
 
+### Par composition
+
+Index_composition_global <- read.csv2("./scripts/Edouard/Composition_index_results_global.csv", 
+                                      row.names = NULL)
 
 
 
+Termes_echange_compo <- Index_composition_global %>%
+  filter(Product_sector == "Primary coloniaux") %>%
+  select(c("Exports_imports", "year", "Index_value")) %>%
+  pivot_wider(names_from = "Exports_imports", values_from = "Index_value")
+
+Termes_echange_all <- Termes_echange_compo %>%
+  mutate(Imports = Imports / Termes_echange_compo$Imports[Termes_echange_compo$year == 1789],
+         Exports = Exports / Termes_echange_compo$Exports[Termes_echange_compo$year == 1789]) %>%
+  mutate(Terme_echange = Exports / Imports)
+
+Termes_echange_compo <- Index_composition_global %>%
+  filter(Product_sector == "Primary european") %>%
+  select(c("Exports_imports", "year", "Index_value")) %>%
+  pivot_wider(names_from = "Exports_imports", values_from = "Index_value")
+
+Termes_echange_prgoods <- Termes_echange_compo %>%
+  mutate(Imports = Imports / Termes_echange_compo$Imports[Termes_echange_compo$year == 1789],
+         Exports = Exports / Termes_echange_compo$Exports[Termes_echange_compo$year == 1789]) %>%
+  mutate(Terme_echange = Exports / Imports)
+
+Termes_echange_compo <- Index_composition_global %>%
+  filter(Product_sector == "Manufactures") %>%
+  select(c("Exports_imports", "year", "Index_value")) %>%
+  pivot_wider(names_from = "Exports_imports", values_from = "Index_value")
+
+Termes_echange_manufactures <- Termes_echange_compo %>%
+  mutate(Imports = Imports / Termes_echange_compo$Imports[Termes_echange_compo$year == 1789],
+         Exports = Exports / Termes_echange_compo$Exports[Termes_echange_compo$year == 1789]) %>%
+  mutate(Terme_echange = Exports / Imports)
 
 
+plot(drop_na(Termes_echange_all[, c("year", "Terme_echange")]), type = "o", pch = 19, lwd = 2,
+     xlab = "Année", ylab = "Termes de l'échange",
+     main = "Termes de l'échange - Par secteur")
 
+lines(drop_na(Termes_echange_manufactures[, c("year", "Terme_echange")]), type = "o", pch = 19, lwd = 2,
+     xlab = "Année", ylab = "termes de l'échange", col = "blue",
+     main = "Termes de l'échange") 
 
-
-
-
-
-
-
-
-
+lines(drop_na(Termes_echange_prgoods[, c("year", "Terme_echange")]), type = "o", pch = 19, lwd = 2,
+     xlab = "Année", ylab = "termes de l'échange", col = "red",
+     main = "Termes de l'échange") 
+legend("topright", legend = c("Produits primaires (colonies)", "Produits primaires (Europe)",
+                              "Manufactures"),
+       col = c("black", "red", "blue"), lwd = 2) 
 
 
 

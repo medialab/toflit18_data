@@ -116,7 +116,7 @@ Index_partner <- Index_partner %>%
 plot(Index_partner$year, Index_partner$Index_value, type = "o")
 
 Reg_trend_categ <- lm(log(Index_value) ~ year + Ville + Ville*year + Partner + Partner*year,
-                      data = subset(Index_partner, Exports_imports == "Imports" & Partner != "All"))
+                      data = subset(Index_partner, Exports_imports == "Exports" & Partner != "All"))
 
 summary(Reg_trend_categ)
 
@@ -167,6 +167,45 @@ Terme_echange_eem <- Index_partner_global %>%
          Terme_echange_eem = Exports / Imports)
 
 plot(drop_na(Terme_echange_eem[, c("year", "Terme_echange_eem")]), type = "o")
+
+
+
+
+
+
+
+Index_partner_global <- read.csv2("./scripts/Edouard/Partner_index_results_global.csv", row.names = NULL)
+
+Index_eur_imports <- Index_partner_global %>%
+  filter(Partner == "Europe_et_Mediterranee" & Exports_imports == "Imports")
+
+plot(drop_na(Index_eur_imports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix d'Europe et Méditérranée - Imports") 
+
+Index_eur_exports <- Index_partner_global %>%
+  filter(Partner == "Europe_et_Mediterranee" & Exports_imports == "Exports")
+
+plot(drop_na(Index_eur_exports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix d'Europe et Méditérranée - Exports") 
+
+
+Index_rdm_imports <- Index_partner_global %>%
+  filter(Partner == "Reste_du_monde" & Exports_imports == "Imports")
+
+plot(drop_na(Index_rdm_imports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix du reste du monde - Imports") 
+
+
+Index_rdm_exports <- Index_partner_global %>%
+  filter(Partner == "Reste_du_monde" & Exports_imports == "Exports")
+
+plot(drop_na(Index_rdm_exports[, c("year", "Index_value")]), type = "o", lwd = 2, pch = 19,
+     xlab = "Année", ylab = "Valeur de l'indice", 
+     main = "Indices des prix du reste du monde - Exports") 
+
 
 
 
