@@ -268,7 +268,7 @@ drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping remarks_cus
 merge m:1 customs_office using "bdd_customs_offices.dta"
 drop if _merge==2
 rename customs_office customs_office_source
-rename customs_region_grouping customs_office
+rename customs_office_grouping customs_office
 drop _merge nbr_occurence
 
 
