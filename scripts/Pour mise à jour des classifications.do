@@ -166,10 +166,10 @@ export delimited "$dir_git/base/bdd_customs_regions.csv", replace
 
 use "bdd_centrale.dta", clear
 merge m:1 customs_office using "bdd_customs_offices.dta"
-keep customs_office customs_region_grouping
+keep customs_office customs_office_grouping
 bys customs_office : gen nbr_occurence=_N
 bys customs_office_grouping : gen nbr_occurence_grouping=_N
-bys customs_region : keep if _n==1
+bys customs_office : keep if _n==1
 order customs_office nbr_occurence customs_office_grouping /*
 		*/ nbr_occurence_grouping
 save "bdd_customs_offices.dta", replace
