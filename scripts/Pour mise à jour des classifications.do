@@ -173,7 +173,7 @@ bys customs_office : keep if _n==1
 order customs_office nbr_occurence customs_office_grouping /*
 		*/ nbr_occurence_grouping
 save "bdd_customs_offices.dta", replace
-generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,1,-1,-1,-1,0,-1)
+generate sortkey = ustrsortkeyex(customs_office,  "fr",-1,1,-1,-1,-1,0,-1)
 sort sortkey
 drop sortkey
 export delimited "$dir_git/base/bdd_customs_offices.csv", replace
