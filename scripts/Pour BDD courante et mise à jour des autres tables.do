@@ -265,7 +265,7 @@ rename customs_region customs_region_source
 rename customs_region_simpl customs_region
 drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping remarks_customs_region
 
-merge m:1 customs_region using "bdd_customs_offices.dta"
+merge m:1 customs_office using "bdd_customs_offices.dta"
 drop if _merge==2
 rename customs_office customs_office_source
 rename customs_region_grouping customs_office
