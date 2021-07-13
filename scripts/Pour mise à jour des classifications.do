@@ -165,6 +165,23 @@ export delimited "$dir_git/base/bdd_customs_regions.csv", replace
 
 
 use "bdd_centrale.dta", clear
+merge m:1 customs_office using "bdd_customs_offices.dta"
+keep customs_office customs_region_grouping
+bys customs_office : gen nbr_occurence=_N
+bys customs_office_grouping : gen nbr_occurence_grouping=_N
+bys customs_region : keep if _n==1
+order customs_office nbr_occurence customs_office_grouping /*
+		*/ nbr_occurence_grouping
+save "bdd_customs_offices.dta", replace
+generate sortkey = ustrsortkeyex(customs_region,  "fr",-1,1,-1,-1,-1,0,-1)
+sort sortkey
+drop sortkey
+export delimited "$dir_git/base/bdd_customs_offices.csv", replace
+
+
+
+
+use "bdd_centrale.dta", clear
 merge m:1 origin using "bdd_origin.dta"
 keep origin origin_norm_ortho  origin_province remarks_origin
 bys origin : gen nbr_occurence=_N

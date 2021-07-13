@@ -43,7 +43,8 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 */				 classification_product_RE_aggregate classification_product_revolutionempire /*
 */				 classification_product_type_textile  classification_product_luxe_dans_type /*
 */				 classification_product_luxe_dans_SITC	classification_product_threesectors /*
-*/				 classification_product_threesectorsM	classification_product_reexportations {
+*/				 classification_product_threesectorsM	classification_product_reexportations /*
+*/				 bdd_customs_offices {
 
 	import delimited "$dir_git/base/`file'.csv",  encoding(UTF-8) /// 
 			clear varname(1) stringcols(_all) case(preserve) asdouble
@@ -263,6 +264,15 @@ drop if _merge==2
 rename customs_region customs_region_source
 rename customs_region_simpl customs_region
 drop _merge nbr_occurence nbr_occurence_simpl nbr_occurence_grouping remarks_customs_region
+
+merge m:1 customs_region using "bdd_customs_offices.dta"
+drop if _merge==2
+rename customs_office customs_office_source
+rename customs_region_grouping customs_office
+drop _merge nbr_occurence
+
+
+
 
 merge m:1 origin using "bdd_origin.dta"
 drop if _merge==2
