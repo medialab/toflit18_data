@@ -4759,10 +4759,10 @@ muids,vin de Bordeaux,Vins de Bordeaux,Exports,Caen,Hollande,litres,268.2144,D'a
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,Châlons,Allemagne,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,Châlons,Flandre et autres états de l'Empereur,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,Châlons,France,litres,268.2144,D'après Portet
-muids,vin de Bordeaux,Vins de Bordeaux,Exports,Dunkerque,Amériques,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Espagne,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,États-Unis d'Amérique,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Flandre et autres états de l'Empereur,litres,268.2144,D'après Portet
+muids,vin de Bordeaux,Vins de Bordeaux,Exports,Flandre,Amériques,,,
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,Flandre,Flandre et autres états de l'Empereur,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Hollande,litres,268.2144,D'après Portet
 muids,vin de Bordeaux,Vins de Bordeaux,Exports,,Italie,litres,268.2144,D'après Portet
@@ -4971,7 +4971,7 @@ muids,vin de Guyenne,Vins divers,Exports,,Afrique,litres,268.2144,D'après Porte
 muids,vin de Guyenne,Vins divers,Exports,,Asie,litres,268.2144,D'après Portet
 muids,vin de Guyenne,Vins divers,Exports,Caen,France,litres,268.2144,D'après Portet
 muids,vin de Guyenne,Vins divers,Exports,,Divers,litres,268.2144,D'après Portet
-muids,vin de Guyenne,Vins divers,Exports,Dunkerque,Amériques,litres,268.2144,D'après Portet
+muids,vin de Guyenne,Vins divers,Exports,Flandre,Amériques,,,
 muids,vin de Guyenne,Vins divers,Exports,Lyon,Suisse,,,
 muids,vin de Guyenne,Vins divers,Exports,,Outre-mers,litres,268.2144,D'après Portet
 muids,vin de haut,Vins divers,Exports,Bordeaux,Afrique,litres,268.2144,D'après Portet
@@ -5323,8 +5323,8 @@ muids,vin,Vins divers,Exports,Caen,Angleterre,litres,268.2144,D'après Portet
 muids,vin,Vins divers,Exports,Charleville,Allemagne,litres,268.2144,D'après Portet
 muids,vin,Vins divers,Exports,Charleville,Flandre et autres états de l'Empereur,litres,268.2144,D'après Portet
 muids,vin,Vins divers,Exports,Charleville,Hollande,litres,268.2144,D'après Portet
-muids,vin,Vins divers,Exports,Dunkerque,Amériques,litres,268.2144,D'après Portet
 muids,vin,Vins divers,Exports,,États-Unis d'Amérique,litres,268.2144,D'après Portet
+muids,vin,Vins divers,Exports,Flandre,Amériques,,,
 muids,vin,Vins divers,Exports,France,Afrique,,,
 muids,vin,Vins divers,Exports,France,Amériques,,,
 muids,vin,Vins divers,Exports,Grenoble,Italie,litres,268.2144,D'après Portet
@@ -5866,7 +5866,7 @@ pots,huîtres à la daube,Pêche et fruits de mer,Exports,Bordeaux,Amériques,,,
 pots,sardines à l'huile,Pêche et fruits de mer,Exports,Nantes,Amériques,,,
 pots,sardines salées,Pêche et fruits de mer,Exports,Nantes,Hollande,,,
 pots,saumon d'Écosse,Pêche et fruits de mer,Imports,Flandre,Flandre et autres états de l'Empereur,,,
-pots,cruches de grès,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,Dunkerque,Amériques,,,
+pots,cruches de grès,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,Flandre,Amériques,,,
 pots,faïence,"Porcelaine, poterie, faïence et ouvrages de terre",Exports,Nantes,Afrique,,,
 pots,pot de terre,"Porcelaine, poterie, faïence et ouvrages de terre",Imports,Rennes,Espagne,,,
 pots,poterie de grès,"Porcelaine, poterie, faïence et ouvrages de terre",Imports,La Rochelle,Hollande,,,
@@ -6967,8 +6967,7 @@ rasières,grains orge,Blé et autres grains comestibles,Exports,Flandre,Amériqu
 rasières,son,Blé et autres grains comestibles,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,cendre de bois,Cendres diverses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,charbon de bois,Combustibles dont charbons et bois,Exports,Flandre,Flandre et autres états de l'Empereur,,,
-rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Dunkerque,Afrique,,,
-rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Dunkerque,Amériques,,,
+rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,Afrique,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,Amériques,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,charbon de terre,Combustibles dont charbons et bois,Exports,Flandre,France,,,
@@ -6987,7 +6986,7 @@ rasières,graine de colza,Graines grasses,Imports,Flandre,Flandre et autres éta
 rasières,graine de lin,Graines grasses,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,fèves,Légumes,Exports,Flandre,Amériques,,,
 rasières,haricots,Légumes,Exports,Flandre,Amériques,,,
-rasières,légumes pois,Légumes,Exports,Dunkerque,Amériques,,,
+rasières,légumes pois,Légumes,Exports,Flandre,Amériques,,,
 rasières,légumes,Légumes,Exports,Flandre,Amériques,,,
 rasières,lentilles,Légumes,Exports,Flandre,Flandre et autres états de l'Empereur,,,
 rasières,pois verts,Légumes,Exports,Flandre,Amériques,,,
