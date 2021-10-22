@@ -89,12 +89,12 @@ barillets,1,56,barillets,56,1,
 barils,1,7213,barils,7221,1,
 barils ???,1,2,barils ???,2,1,
 barils de 100 livres,1,2,livres,257158,100,
-barils de 20 pots,1,1,pots,1528,20,
+barils de 20 pots,1,1,pintes,1528,40,pot de 2 pintes : Doursther
 barils de 3,1,1,,164755,,
 barils de 450 feuilles,1,42,feuilles,221,450,
 barils de 500 livres,1,1,livres,257158,500,
 barils de 600 feuilles,1,4,feuilles,221,600,
-barils de 64 pots,1,2,pots,1528,64,
+barils de 64 pots,1,2,pintes,1528,128,pot de 2 pintes : Doursther
 barils de grand modèle 330,1,1,livres,257158,330,
 barils double,1,8,barils double,8,1,
 barils en saumure,1,1,barils en saumure,1,1,
@@ -112,7 +112,7 @@ barreaux,1,17,barral vin de Montpellier,17,1,p57 doursther
 barres,1,17,barres,17,1,
 barrique,1,1,barrique,1,1,nécessite le contenu et le lieu d'émission
 barriques,1,5165,barriques,5174,1,
-barriques à 30 veltes,1,1,veltes,908,30,
+barriques à 30 veltes,1,1,pintes,908,240,Doursther p. 570
 barriques à 400 L.,1,1,livres,257158,400,
 barriques à 500 L.,1,1,livres,257158,500,
 barriques d'un millier,1,1,nombre,46134,1000,
@@ -152,7 +152,7 @@ bonnets,1,7,pièces,24239,1,
 bordage,1,1,pièces,24239,1,
 botiches,1,7,botiches,7,1,
 bottes,1,324,pipe,701,1,"La même chose que Pipe d'après Dourshter, p. 70"
-bottes à 68 veltes,1,1,veltes,908,68,
+bottes à 68 veltes,1,1,pintes,908,544,
 boucaux,1,54,boucaux,54,1,
 boucs,1,173,outres de peaux de boucs,173,1,"LC : Le bouc désigne une outre faite de peau de bouc (dictionnaire de l'académie 1ère édition., 1694), pour le moment je n'ai pas trouvé d'évaluation en terme de poids/capacité. Je ne crois pas qu'il y en ait en fait car j'ai compulsé pas mal d'études métrologiques locales et je n'en ai trouvé aucune qui propose d'équivalent (en général, la mesure n'est pas évoquée d'ailleurs)."
 boules,1,4,boules,4,1,
@@ -486,18 +486,18 @@ moyenne,1,4,pièces,24239,1,
 moyenne pièces,1,1,pièces,24239,1,
 muid de 120 livres,1,8,livres,257158,120,
 "muid de 62,5 pintes",1,24,pintes,28,62.5,
-muids,1,4660,muids,4667,1,
+muids,1,4660,pintes,4667,280,
 muids + pintes et bouteilles,1,25,bouteilles et muids et pintes,27,1,nécessite le contenu et le lieu d'émission
 muids + septiers,1,1,muids + septiers,1,1,nécessite le contenu et le lieu d'émission
 muids + septiers + minots,1,4,minots et muids et septiers,4,1,nécessite le contenu et le lieu d'émission
 muids + septiers + minots + boisseau,1,1,muids + septiers + minots + boisseau,1,1,nécessite le contenu et le lieu d'émission
-muids de genièvre,1,0,,164755,,
-muids de Paris,1,6,muids,4667,1,
+muids de genièvre,1,0,pintes,164755,280,
+muids de Paris,1,6,pintes,4667,280,
 muids du Poulinguen,1,1,muids du Poulinguen,1,1,
 muids en bouteilles,1,3,muids en bouteilles,3,1,
 muids encerclés,1,4,muids encerclés,4,1,
-muids le demi,1,1,muids,4667,.5,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter)
-muids ordinaires,1,1,muids de paris,1,1,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter)
+muids le demi,1,1,pintes,4667,140,
+muids ordinaires,1,1,pintes,1,280,Muid de Paris (Wikipedia) (137-685) (mais pas cete valeur dans Dourshter)
 niasses,1,1,niasses,1,1,
 nombre,1,10634,nombre,46134,1,
 onces,1,173,onces,175,1,
@@ -559,7 +559,7 @@ pieds cubes,1,19,pieds cubes,19,1,Wikipedia
 Pieriers,1,2,Pieriers,2,1,
 pierre,1,7,pierres,7,1,
 pilan,1,1,pilan,1,1,
-pintes,1,737,pinte,737,1,
+pintes,1,737,pintes,737,1,
 pipe,1,373,pipe,701,1,
 pipe de 2 barriques,1,1,barriques,5174,2,
 pipe ordinaire,1,1,pipe,701,1,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur
@@ -581,10 +581,10 @@ poinçons,1,258,poinçons,258,1,
 pommes,1,1,pièces,24239,1,
 pommiers,1,1,pommiers,1,1,
 postes,1,1,postes,1,1,
-pot,1,1,pot,1,1,
+pot,1,1,pintes,1,2,pot de 2 pintes : Doursther
 potiches,1,18,potiches,18,1,
 potiches petites,1,1,potiches petites,1,1,
-pots,1,1525,pots,1528,1,
+pots,1,1525,pintes,1528,2,pot de 2 pintes : Doursther
 poulets,1,1,poulets,1,1,
 pour cent,1,1,nombre,46134,100,
 poutre,1,6,poutres,6,1,
@@ -687,9 +687,9 @@ valeur,1,84,valeur,181,1,
 vals,1,1,vals,1,1,
 varres,1,1,varres,1,1,
 veaux,1,1,veaux,1,1,
-veltes,1,903,veltes,908,1,
-veltes le demi,1,1,veltes,908,.5,
-verges,1,45,verges,45,1,
+veltes,1,903,pintes,908,8,
+veltes le demi,1,1,pintes,908,4,Doursther p. 570
+verges,1,45,aune,45,0.75,Doursther p. 570
 verres,1,2,verres,2,1,
 vivants,1,1,pièces,24239,1,
 vogues,1,1,vogues,1,1,
