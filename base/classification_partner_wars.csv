@@ -1,5 +1,4 @@
 simplification,nbr_occurences_simpl,wars,note,nbr_occurences_wars
-,717,,,794
 ?,12,???,,208
 ???,196,???,,208
 [vide],2592,[vide],,2592
@@ -38,18 +37,18 @@ Bayonne,593,France,,8014
 Bayonne et ?,1,France,,8014
 Bayonne et Dunkerque,3,France,,8014
 Bayonne et Lorient,3,France,,8014
-Bayonne et Lorient et Petites Îles,2,,,794
+Bayonne et Lorient et Petites Îles,2,,,83
 Bayonne et Marseille,3,France,,8014
-Bayonne et Marseille et Petites Îles,1,,,794
-Bayonne et Marseille et Petites Îles (???),1,,,794
+Bayonne et Marseille et Petites Îles,1,,,83
+Bayonne et Marseille et Petites Îles (???),1,,,83
 Bayonne et Petites Îles,4,France,,8014
 "Bayonne, Dunkerque et Marseille",11,France,,8014
 "Bayonne, Dunkerque, Lorient et Petites Îles",3,France,,8014
 "Bayonne, Lorient et Petites Îles",1,France,,8014
 Belgique,67,Belgique,,83
 Besançon,2,France,,8014
-Bilbao,10,Espagne et ses colonies,,63852
-Bilbao et Cadix,3,Espagne et ses colonies,,63852
+Bilbao,10,Espagne et ses colonies,,64553
+Bilbao et Cadix,3,Espagne et ses colonies,,64553
 Brême,9,Villes hanséatiques,,5043
 "Brême, Lubeck, Norvège et villes hanséatiques",1,Villes hanséatiques,,5043
 Brésil,30,Amérique et Inde,,4023
@@ -60,7 +59,7 @@ Candie,5,Levant,,26030
 Cannée et Candie,3,Levant,,26030
 Cayenne et Guyane,1177,Colonies françaises,,29670
 Cayenne et Île Bourbon,1,Colonies françaises,,29670
-Cayenne et Sénégal,1,,,794
+Cayenne et Sénégal,1,,,83
 Chili,15,Amérique et Inde,,4023
 Chine,93,Asie,,172
 Chypre,17,Levant,,26030
@@ -68,7 +67,7 @@ Clermontois,71,France,,8014
 Colonies anglaises,132,Angleterre et ses colonies,,27233
 Colonies danoises,90,Danemark et ses colonies,,12995
 Colonies des États-Unis d'Amérique,143,États-Unis d'Amérique et ses colonies,,6515
-Colonies espagnoles,153,Espagne et ses colonies,,63852
+Colonies espagnoles,153,Espagne et ses colonies,,64553
 Colonies françaises,2242,Colonies françaises,,29670
 Colonies françaises au-delà du Cap,4,Colonies françaises,,29670
 Colonies françaises d'Amérique,384,Colonies françaises,,29670
@@ -100,11 +99,11 @@ Empire Ottoman et Levant,214,Levant,,26030
 "entre l'étranger et les ports français de Bayonne, Saint-Jean-de-Luz, Lorient, Dunkerque et Marseille",1,Divers,,6812
 Entrepôt,87,Divers,,6812
 Épaves et échouements,56,Épaves et échouements,,56
-Espagne,60140,Espagne et ses colonies,,63852
+Espagne,60140,Espagne et ses colonies,,64553
 Espagne et Portugal,1,Divers,,6812
-Espagne et ses colonies,3516,Espagne et ses colonies,,63852
-Espagne par mer,2,Espagne et ses colonies,,63852
-Espagne par terre,2,Espagne et ses colonies,,63852
+Espagne et ses colonies,4217,Espagne et ses colonies,,64553
+Espagne par mer,2,Espagne et ses colonies,,64553
+Espagne par terre,2,Espagne et ses colonies,,64553
 États ?,8,Divers,,6812
 États de l'Empereur,4575,États de l'Empereur,,4579
 États de l'Empereur par mer,2,États de l'Empereur,,4579
@@ -142,16 +141,18 @@ Hambourg,112,Villes hanséatiques,,5043
 "Hambourg, Hollande et Livourne",1,Divers,,6812
 Hollande,76513,Hollande et ses colonies,,79107
 Hollande et Villes hanséatiques,223,Divers,,6812
-Île Bourbon,53,Îles,,52313
-Île Bourbon et Inde,3,Îles,,52313
-Île de Ré,1,Îles,,52313
-Île Maurice,22,Îles,,52313
-Îles,7109,Îles,,52313
-Îles de France et de Bourbon,473,Îles,,52313
-Îles de l'Amérique,136,Îles,,52313
-Îles et Guinée,2,Îles,,52313
-Îles françaises,2011,Îles,,52313
-Îles françaises de l'Amérique,41908,Îles,,52313
+Île Bourbon,53,Îles,,52323
+Île Bourbon et Inde,3,Îles,,52323
+Île d'Oléron,2,,,83
+Île de Noirmoutier,1,,,83
+Île de Ré,11,Îles,,52323
+Île Maurice,22,Îles,,52323
+Îles,7109,Îles,,52323
+Îles de France et de Bourbon,473,Îles,,52323
+Îles de l'Amérique,136,Îles,,52323
+Îles et Guinée,2,Îles,,52323
+Îles françaises,2011,Îles,,52323
+Îles françaises de l'Amérique,41908,Îles,,52323
 Inconnu,209,Divers,,6812
 Inde étrangère,18,Divers,,6812
 Indes,3690,Amérique et Inde,,4023
@@ -168,7 +169,7 @@ Livourne,254,Livourne,,254
 Lorient,385,France,,8014
 Lorient et Marseille,1,France,,8014
 Lorient et Petites Îles,3,France,,8014
-Lorient et Petites Îles (???),1,,,794
+Lorient et Petites Îles (???),1,,,83
 Lorraine,916,France,,8014
 Lorraine et Trois Évêchés,1,France,,8014
 Louisiane,7,Colonies françaises,,29670
@@ -194,8 +195,9 @@ Monde hors Europe et hors colonies françaises et hors Inde,1,Divers,,6812
 Monde hors Europe et hors Sénégal français,2,Divers,,6812
 Monde hors Guyanne française,2,Divers,,6812
 Monde hors Pays de Gex,1,Divers,,6812
-Monde réexports,71,,,794
+Monde réexports,71,,,83
 Monds hors Ports de la Baltique,1,Divers,,6812
+Mont-Saint-Michel,1,,,83
 Morée,11,France,,8014
 Nancy,2,France,,8014
 Nantes,1,France,,8014
@@ -205,7 +207,7 @@ Naples et Sicile,5052,Naples,,11123
 Nord,22685,Nord,,33574
 Nord (Hanse et Russie),3899,Nord,,33574
 Norvège,86,Nord,,33574
-Nouvelle-Grenade,3,Espagne et ses colonies,,63852
+Nouvelle-Grenade,3,Espagne et ses colonies,,64553
 Pays d'Aunis,1,France,,8014
 Pays de Gex,48,France,,8014
 Pays de Labour,127,France,,8014
@@ -220,7 +222,7 @@ Pêches côtières (Sardines),1,Pêches,,69
 Pêches étrangères,17,Pêches,,69
 Pêches françaises,42,Pêches,,69
 Pérou,6,Amérique et Inde,,4023
-Petites Îles,595,Îles,,52313
+Petites Îles,595,Îles,,52323
 Philippines,1,Divers,,6812
 Piémont,1590,Royaume de Piemont et Sardaigne,,33368
 Piémont et Savoie,340,Royaume de Piemont et Sardaigne,,33368
@@ -230,12 +232,14 @@ Poitou,1,France,,8014
 Pologne,305,Pologne,,306
 Pologne-Genève,1,Pologne,,306
 Ports de la Baltique,1,Pays Baltique,,4
+Ports et pays,1,,,83
+Ports et pays de France à l'instar de l'étranger,1,,,83
 Portugal,15447,Portugal et ses colonies,,15485
 Prises et saisies,1305,Prises et saisies,,1305
 Prusse,4705,Prusse,,4707
 Prusse – par mer,2,Prusse,,4707
 Riga,3,Pays Baltique,,4
-Rio de la Plata,14,Espagne et ses colonies,,63852
+Rio de la Plata,14,Espagne et ses colonies,,64553
 Rome et Venise,2,États ecclésiastiques,,1791
 Rotterdam,6,Hollande et ses colonies,,79107
 Rouen,1,France,,8014
@@ -245,7 +249,7 @@ Royaume de Sardaigne – par mer,2,Royaume de Piemont et Sardaigne,,33368
 Royaume de Sardaigne – par terre,2,Royaume de Piemont et Sardaigne,,33368
 Russie,6700,Nord,,33574
 Saint-Domingue,5743,Colonies françaises,,29670
-Saint-Jean de Luz,9,Espagne et ses colonies,,63852
+Saint-Jean de Luz,9,Espagne et ses colonies,,64553
 Saint-Thomas,11,Amérique et Inde,,4023
 Salonique,5,Levant,,26030
 "Salonique, Archipel et Satali",17,Levant,,26030
