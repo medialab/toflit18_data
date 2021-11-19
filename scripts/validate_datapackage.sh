@@ -1,0 +1,1 @@
+frictionless  validate --json --parallel  --limit-errors 5000 --type package ../datapackage.json > datapackage_validation.json
