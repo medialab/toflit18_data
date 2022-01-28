@@ -1448,12 +1448,12 @@ Armes ; blanches ; lances d'épées,armes blanches lames d'épée,,1,1,0,0,0,0,0
 Armes ; blanches ; sabres,armes blanches sabres,,1,15,0,0,0,0,0,0,1,15
 Armes ; blanches ; sabres et bayonnettes,armes blanches sabres et baïonnettes,,1,1,0,0,0,0,0,0,1,1
 Armes ; blanches en bayonettes,armes blanches en baïonnettes,,1,1,0,0,0,0,0,0,1,1
-Armes ; blanches en sabre,armes blanches en sabre,,1,1,0,0,0,0,0,0,1,1
+Armes ; blanches en sabre,armes blanches en sabres,,1,1,0,0,0,0,0,0,1,1
 Armes ; blanches en sabres,armes blanches en sabres,,1,7,0,0,0,0,0,0,1,7
 Armes ; blanches et à feu,armes blanches et à feu,,1,1,0,0,0,0,0,0,1,1
 Armes ; blanches lames d'épées,armes blanches lames d'épée,,1,1,0,0,0,0,0,0,1,1
 Armes ; blanches Lames de sabre,armes blanches lames de sabres,,1,3,0,0,0,0,0,0,1,3
-Armes ; blanches sabre,armes blanches sabre,,1,1,0,0,0,0,0,0,1,1
+Armes ; blanches sabre,armes blanches sabres,,1,1,0,0,0,0,0,0,1,1
 Armes ; blanches sabres,armes blanches sabres,,1,4,0,0,0,0,0,0,1,4
 Armes ; blanches; sabres,armes blanches sabres,,1,1,0,0,0,0,0,0,1,1
 Armes ; canons et affûts,armes canons et affûts,,1,1,0,0,0,0,0,0,1,1
@@ -2183,6 +2183,7 @@ Bancs ; de sapin,banc de sapin,,1,1,0,0,0,0,0,0,1,1
 Bandages,bandages,,1,3,0,0,0,0,0,0,1,3
 Bandages de peau,bandages de peaux,,1,5,0,0,0,0,0,0,1,5
 Bandages de soldats,bandages de soldats,,1,1,0,0,0,0,0,0,1,1
+Bandanoes,,,0,0,0,0,0,0,1,0,1,0
 Bandeaux,bandeaux,,1,3,0,0,0,0,0,0,1,3
 Bandeges,bandages,,1,1,0,0,0,0,0,0,1,1
 Banderoles,banderoles,,0,0,1,2,0,0,0,0,1,2
@@ -9490,7 +9491,7 @@ Cartes a jouer,cartes à jouer,,1,177,0,0,0,0,0,0,1,177
 Cartes a jouër,cartes à jouer,,1,1,0,0,0,0,0,0,1,1
 Cartes a joüer,cartes à jouer,,1,43,0,0,0,0,0,0,1,43
 Cartes à Jouer,cartes à jouer,,1,2,0,0,0,0,0,0,1,2
-Cartes à jouer,cartes à jouer,,1,277,1,120,0,0,0,0,2,397
+Cartes à jouer,cartes à jouer,,1,277,1,120,0,0,1,0,3,397
 Cartes à jouër,cartes à jouer,,1,1,0,0,0,0,0,0,1,1
 Cartes à joüer,cartes à jouer,,1,12,0,0,0,0,0,0,1,12
 Cartes à jouers,cartes à jouer,,1,1,0,0,0,0,0,0,1,1
@@ -13360,7 +13361,7 @@ Coriandre et riz,coriandre et riz,,0,0,0,0,1,5,0,0,1,5
 Corinte,corinthe,,1,2,0,0,0,0,0,0,1,2
 Corintes,corinthe,,0,0,0,0,0,0,1,1,1,1
 Corinthe,corinthe,,1,2,0,0,0,0,1,1,2,3
-Corinthes,corinthe,x,0,0,1,98,0,0,0,0,1,98
+Corinthes,corinthe,x,0,0,1,98,0,0,1,0,2,98
 Coris,cauris,,1,21,0,0,0,0,0,0,1,21
 Coris et antale,cauris et antale,,1,1,0,0,0,0,0,0,1,1
 Cornaline,cornalines,,1,1,0,0,0,0,0,0,1,1
@@ -14450,7 +14451,7 @@ Crepe de soye,crêpe de soie,,1,1,0,0,0,0,0,0,1,1
 Crêpe de soye,crêpe de soie,,1,2,1,2,0,0,0,0,2,4
 Crêpe pour chapeaux,crêpe pour chapeaux,,0,0,1,28,0,0,0,0,1,28
 Crêpe pour chapeaux / aune,crêpe pour chapeaux aune,,0,0,1,10,0,0,0,0,1,10
-Crêpes,crêpe,,1,1,0,0,0,0,0,0,1,1
+Crêpes,crêpe,,1,1,0,0,0,0,1,0,2,1
 Crepine de soye,crêpine de soie,,1,1,0,0,0,0,0,0,1,1
 Crépon,crépon,,1,2,0,0,0,0,0,0,1,2
 Crepon ; de laine,crépon de laine,,1,1,0,0,0,0,0,0,1,1
@@ -16693,6 +16694,7 @@ Différentes marchandises pour la traite des noirs,différentes marchandises pou
 Dimelle,dimelle,x,1,1,0,0,0,0,0,0,1,1
 Dimit,demitte,x,0,0,1,10,0,0,0,0,1,10
 Dimit / aune,demitte aune,,0,0,1,4,0,0,0,0,1,4
+Dimity (?),,,0,0,0,0,0,0,1,0,1,0
 Dindes,dindes,,1,2,1,3,0,0,0,0,2,5
 Dindoneaux,dindes,,1,2,0,0,0,0,0,0,1,2
 Dindonneaux,dindonneaux,,1,10,0,0,0,0,0,0,1,10
@@ -18279,7 +18281,7 @@ Drogueries saffran,droguerie safran,,1,1,0,0,0,0,0,0,1,1
 Drogueries; Alun,droguerie alun,,1,1,0,0,0,0,0,0,1,1
 Drogueries; diverses,droguerie diverse,,1,1,0,0,0,0,0,0,1,1
 Drogueries; Sel de nitre,droguerie sel de nitre,,1,1,0,0,0,0,0,0,1,1
-Drogues,drogues,,1,11,0,0,0,0,0,0,1,11
+Drogues,drogues,,1,11,0,0,0,0,1,0,2,11
 Drogues ; ?,drogues ???,,1,2,0,0,0,0,0,0,1,2
 Drogues ; a teindre,drogues à teindre,,1,5,0,0,0,0,0,0,1,5
 Drogues ; alquifoux,drogues alquifoux,,1,1,0,0,0,0,0,0,1,1
@@ -18518,7 +18520,7 @@ Drogues ; médecinales ; diverses,drogues médicinales diverses,,1,7,0,0,0,0,0,0
 Drogues ; Médécinales ; Diverses,drogues médicinales diverses,,1,25,0,0,0,0,0,0,1,25
 Drogues ; médécinales ; diverses,drogues médicinales diverses,,1,13,0,0,0,0,0,0,1,13
 Drogues ; Médécinales ; Eau sederale,drogues médicinales eau sederale,x,1,1,0,0,0,0,0,0,1,1
-Drogues ; Médécinales ; Eau vulneraire,drogues médicinales eau vulnéraires,,1,1,0,0,0,0,0,0,1,1
+Drogues ; Médécinales ; Eau vulneraire,drogues médicinales eaux vulnéraire,,1,1,0,0,0,0,0,0,1,1
 Drogues ; médecinales ; en camomille,drogues médicinales en camomille,,1,1,0,0,0,0,0,0,1,1
 Drogues ; Médécinales ; Extrait ***,drogues médicinales extrait ???,,0,0,0,0,0,0,0,0,0,0
 Drogues ; Médécinales ; Extrait d'absinthe,drogues médicinales extrait d'absinthe,,1,1,0,0,0,0,0,0,1,1
@@ -19987,9 +19989,9 @@ Eau ; roze,eau roze,x,1,14,0,0,0,0,0,0,1,14
 Eau ; sans pareille,eau sans pareille,,1,4,0,0,0,0,0,0,1,4
 Eau ; spa,eau Spa,,1,2,0,0,0,0,0,0,1,2
 Eau ; spiritueuse,eau spiritueuse,,1,2,0,0,0,0,0,0,1,2
-Eau ; vulnenaire,eau vulnéraires,,1,2,0,0,0,0,0,0,1,2
-Eau ; vulneraire,eau vulnéraires,,1,3,0,0,0,0,0,0,1,3
-Eau ; vulneraires,eau vulnéraires,,1,2,0,0,0,0,0,0,1,2
+Eau ; vulnenaire,eaux vulnéraire,,1,2,0,0,0,0,0,0,1,2
+Eau ; vulneraire,eaux vulnéraire,,1,3,0,0,0,0,0,0,1,3
+Eau ; vulneraires,eaux vulnéraire,,1,2,0,0,0,0,0,0,1,2
 Eau : mineralle,eau minérale,,1,1,0,0,0,0,0,0,1,1
 Eau à noirir tabac,eau à noirir tabac,x,0,0,1,7,0,0,0,0,1,7
 Eau citronelle,eau citronnelle,,1,1,0,0,0,0,0,0,1,1
@@ -20236,8 +20238,8 @@ Eau sans pareille,eau sans pareille,x,1,1,0,0,0,0,0,0,1,1
 Eau senteur,eau senteur,,1,3,0,0,0,0,0,0,1,3
 Eau spiritueuses,eau spiritueuse,,1,1,0,0,0,0,0,0,1,1
 Eau spiritueuses et essences,eau spiritueuse et essence,,1,1,0,0,0,0,0,0,1,1
-Eau vulneraire,eau vulnéraires,,1,9,0,0,0,0,0,0,1,9
-Eau vulnéraire,eau vulnéraires,,1,2,0,0,0,0,0,0,1,2
+Eau vulneraire,eaux vulnéraire,,1,9,0,0,0,0,0,0,1,9
+Eau vulnéraire,eaux vulnéraire,,1,2,0,0,0,0,0,0,1,2
 Eau-de-vie,eau-de-vie,,1,42,0,0,0,0,1,90,2,132
 Eau-de-vie ; de vin ; au dessus de 32 degrés,eau-de-vie de vin au-dessus de 32 degrés,,1,1,0,0,0,0,0,0,1,1
 Eau-de-vie ; de vin ; de 22 à 32 degrés,eau-de-vie de vin de 22 degrés à 32,,1,1,0,0,0,0,0,0,1,1
@@ -22484,7 +22486,7 @@ Etoffes ; au quart ; de soye,étoffe au quart de soie,,1,3,0,0,0,0,0,0,1,3
 Etoffes ; Au quart de soye,étoffe au quart de soie,,1,8,0,0,0,0,0,0,1,8
 Etoffes ; au quart de soye,étoffe au quart de soie,,1,1,0,0,0,0,0,0,1,1
 Etoffes ; cardilletrie,étoffe cardilletrie,x,1,3,0,0,0,0,0,0,1,3
-Etoffes ; Cirsaka,étoffe cirsaka,,0,0,0,0,0,0,0,0,0,0
+Etoffes ; Cirsaka,étoffe cirsaca,,0,0,0,0,0,0,0,0,0,0
 Etoffes ; d'or,étoffe d'or,,1,1,0,0,0,0,0,0,1,1
 Etoffes ; de beurre de soie,étoffe de bourre de soie,,1,5,0,0,0,0,0,0,1,5
 Etoffes ; De bourre de foye,étoffe de bourre de soie,,1,1,0,0,0,0,0,0,1,1
@@ -28077,6 +28079,7 @@ Gaulles de 30 pieds,gaules de trente pieds,,1,1,0,0,0,0,0,0,1,1
 Gaulles de bois,gaules de bois,,1,5,0,0,0,0,0,0,1,5
 Gauvron,goudron,x,1,1,0,0,0,0,0,0,1,1
 Gauze,gaze,,0,0,0,0,0,0,0,0,0,0
+Gauzes,,,0,0,0,0,0,0,1,0,1,0
 Gay et brut,gayet brut,x,1,1,0,0,0,0,0,0,1,1
 Gayet,gayet,x,1,1,0,0,0,0,0,0,1,1
 Gayet brut,gayet brut,x,1,2,0,0,0,0,0,0,1,2
@@ -28258,7 +28261,7 @@ Genettes,genettes,,0,0,1,3,0,0,0,0,1,3
 Genevre,genièvre,x,0,0,1,125,0,0,1,4,2,129
 Genèvre,genièvre,,0,0,0,0,0,0,1,56,1,56
 Genevre de Cologne,genièvre de Cologne,x,0,0,1,2,0,0,0,0,1,2
-Geniève,genièvre,,1,1,0,0,0,0,0,0,1,1
+Geniève,genièvre,,1,1,0,0,0,0,1,0,2,1
 Genievre,genièvre,,1,8,0,0,0,0,0,0,1,8
 Geniévre,genièvre,,0,0,0,0,0,0,1,1,1,1
 Genièvre,genièvre,,1,6,0,0,0,0,1,1263,2,1269
@@ -31936,7 +31939,7 @@ Jait travaillé en dentelles. colliers et boutons,jais travaillé en dentelle co
 Jaix,jais,,1,1,0,0,0,0,0,0,1,1
 Jaïx,jais,,1,1,0,0,0,0,0,0,1,1
 Jalab,jalap,,1,1,0,0,0,0,0,0,1,1
-Jalap,jalap,,1,405,0,0,0,0,0,0,1,405
+Jalap,jalap,,1,405,0,0,0,0,1,0,2,405
 Jalape,jalap,,1,1,0,0,0,0,0,0,1,1
 Jalappe,jalap,,0,0,1,26,0,0,0,0,1,26
 Jalaps,jalap,,1,3,0,0,0,0,0,0,1,3
@@ -34748,6 +34751,7 @@ Marchandises de Montauban,marchandises de Montauban,,1,9,0,0,0,0,0,0,1,9
 Marchandises de Paris,marchandises de Paris,,1,1,0,0,0,0,0,0,1,1
 Marchandises de retour,marchandises de retour,,1,1,0,0,0,0,1,2,2,3
 Marchandises des flandres,marchandises de Flandre,,1,1,0,0,0,0,0,0,1,1
+Marchandises des Indes,,,0,0,0,0,0,0,1,0,1,0
 Marchandises des Indes ; ...toffes diverses des Indies,marchandises des Indes étoffe diverses des Indes,,1,1,0,0,0,0,0,0,1,1
 Marchandises des Indes ; Aloës,marchandises des Indes aloès,,1,1,0,0,0,0,0,0,1,1
 Marchandises des Indes ; Arack,marchandises des Indes arak,,1,1,0,0,0,0,0,0,1,1
@@ -35946,7 +35950,7 @@ Mercerie et quincaille,mercerie et quincaille,,1,24,0,0,0,0,0,0,1,24
 Mercerie et quincaillerie,mercerie et quincaillerie,,1,2,0,0,0,0,0,0,1,2
 Mercerie etrangere,mercerie étrangère,,1,1,0,0,0,0,0,0,1,1
 Mercerie evantails,mercerie éventails,,1,1,0,0,0,0,0,0,1,1
-Mercerie fine,mercerie fine,,1,247,0,0,0,0,0,0,1,247
+Mercerie fine,mercerie fine,,1,247,0,0,0,0,1,0,2,247
 Mercerie fine aiguille,mercerie fine aiguilles,,1,2,0,0,0,0,0,0,1,2
 Mercerie fine aiguilles,mercerie fine aiguilles,,1,2,0,0,0,0,0,0,1,2
 Mercerie fine en aiguille,mercerie fine en aiguilles,,1,4,0,0,0,0,0,0,1,4
@@ -36067,7 +36071,7 @@ Merrain ; foncaille - douelles 2m 1/2,merrains fonçaille douelles 2m 1/2,,1,1,0
 Merrain ; foncailles,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merrain ; fonsaille,merrains fonçaille,,0,0,0,0,0,0,0,0,0,0
 Merrain ; fonsaille en douelles,merrains fonçaille en douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain ; futaille,merrains futaille,,1,2,0,0,0,0,0,0,1,2
+Merrain ; futaille,merrains futailles,,1,2,0,0,0,0,0,0,1,2
 Merrain à baril,merrains à barils,,0,0,0,0,0,0,0,0,0,0
 Merrain à baril en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrain a barils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
@@ -37346,6 +37350,7 @@ Mouchoirs d'Organdis,mouchoirs d'organdis,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs d'organdis,mouchoirs d'organdis,,1,2,0,0,0,0,0,0,1,2
 Mouchoirs ddivers,mouchoirs divers,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs de ?,mouchoirs de ???,,1,1,0,0,0,0,0,0,1,1
+Mouchoirs de Bandannoes,,,0,0,0,0,0,0,1,0,1,0
 Mouchoirs de Bangale,mouchoirs de Bengale,x,1,3,0,0,0,0,0,0,1,3
 Mouchoirs de batiste,mouchoirs de batiste,,1,6,0,0,0,0,0,0,1,6
 Mouchoirs de Bearn,mouchoirs du Béarn,,1,9,0,0,0,0,0,0,1,9
@@ -37432,7 +37437,8 @@ Mouchoirs de Masulipatan,mouchoirs de Masulipatan,,1,2,0,0,0,0,0,0,1,2
 Mouchoirs de masulipatan,mouchoirs de Masulipatan,,1,2,0,0,0,0,0,0,1,2
 Mouchoirs de Mazulipatan,mouchoirs de Masulipatan,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs de mazulpitan,mouchoirs de Masulipatan,,1,1,0,0,0,0,0,0,1,1
-Mouchoirs de mousseline,mouchoirs de mousseline,,1,10,1,4,0,0,0,0,2,14
+Mouchoirs de mousselin,,,0,0,0,0,0,0,1,0,1,0
+Mouchoirs de mousseline,mouchoirs de mousseline,,1,10,1,4,0,0,1,0,3,14
 Mouchoirs de mousselines,mouchoirs de mousseline,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs de mousselines brodées,mouchoirs de mousseline brodée,,1,1,0,0,0,0,0,0,1,1
 Mouchoirs de Paliacate,mouchoirs de paliacate,,1,1,0,0,0,0,0,0,1,1
@@ -37724,7 +37730,7 @@ Mousse ; de roches,mousse de roche,,1,1,0,0,0,0,0,0,1,1
 Mousse de bois,mousse de bois,,1,1,0,0,0,0,0,0,1,1
 Mousse de mer,mousse de mer,,1,7,0,0,0,0,0,0,1,7
 Mousse de mer et herbes à teindre,mousse de mer et herbes à teindre,,1,4,0,0,0,0,0,0,1,4
-Mousseline,mousseline,,1,476,0,0,0,0,0,0,1,476
+Mousseline,mousseline,,1,476,0,0,0,0,1,0,2,476
 Mousseline ; brodée,mousseline brodée,,1,2,0,0,0,0,0,0,1,2
 Mousseline ; de la Compagnie,mousseline de la Compagnie,,1,2,0,0,0,0,0,0,1,2
 Mousseline ; imprimée,mousseline imprimée,,1,1,0,0,0,0,0,0,1,1
@@ -37739,7 +37745,7 @@ Mousseline de Suisse et sciamoise à ligne de soye,mousseline de Suisse et siamo
 Mousseline de Suisse et sciamoise à ligne de soye / aune,mousseline de Suisse et siamoise à ligne de soie aune,,0,0,1,2,0,0,0,0,1,2
 Mousseline de Zuric,mousseline de Zurich,,1,2,0,0,0,0,0,0,1,2
 Mousseline de Zurick,mousseline de Zurich,,1,2,0,0,0,0,0,0,1,2
-Mousseline des Indes,mousseline des Indes,,1,4,0,0,0,0,0,0,1,4
+Mousseline des Indes,mousseline des Indes,,1,4,0,0,0,0,1,0,2,4
 Mousseline diverse,mousseline diverse,,1,3,0,0,0,0,0,0,1,3
 Mousseline en nattes,mousseline en nattes,,1,1,0,0,0,0,0,0,1,1
 Mousseline et mouchoirs,mousseline et mouchoirs,,1,1,0,0,0,0,0,0,1,1
@@ -37756,6 +37762,7 @@ Mousselines ; nationales,mousseline nationale,,1,4,0,0,0,0,0,0,1,4
 Mousselines brodées,mousseline brodée,,1,1,0,0,0,0,0,0,1,1
 Mousselines de toutes sortes ; coton,mousseline de toutes sortes coton,,1,1,0,0,0,0,0,0,1,1
 Mousselines diverses,mousseline diverse,,1,4,0,0,0,0,0,0,1,4
+Mousselines et mouchoirs,,,0,0,0,0,0,0,1,0,1,0
 Mousselinette,mousselinette,,1,2,0,0,0,0,0,0,1,2
 Mousselinne,mousseline,,1,3,1,196,0,0,0,0,2,199
 Mousselinne / aune,mousseline aune,,0,0,1,13,0,0,0,0,1,13
@@ -37923,7 +37930,7 @@ Nacre en coquille,nacre en coquilles,,1,1,0,0,0,0,0,0,1,1
 Nacre et perle,nacre et perles,,1,1,0,0,0,0,0,0,1,1
 Nacres ; de perle,nacre de perles,,1,3,0,0,0,0,0,0,1,3
 Nacres ; de perles,nacre de perles,,1,11,0,0,0,0,0,0,1,11
-Nacres de perle,nacre de perles,,1,10,0,0,0,0,0,0,1,10
+Nacres de perle,nacre de perles,,1,10,0,0,0,0,1,0,2,10
 Nacres de perles,nacre de perles,,1,37,0,0,0,0,0,0,1,37
 Nai???,nacre,,1,1,0,0,0,0,0,0,1,1
 Naire ; en coquilles,nacre en coquilles,,1,3,0,0,0,0,0,0,1,3
@@ -37934,7 +37941,7 @@ Nalle de Paille,nattes de paille,,1,1,0,0,0,0,0,0,1,1
 Namouques,namouques,x,1,1,0,0,0,0,0,0,1,1
 Nankin,Nankin,,1,68,0,0,0,0,0,0,1,68
 Nankin des Indes de coton,Nankin des Indes de coton,,1,1,0,0,0,0,0,0,1,1
-Nankins,Nankin,,1,1,0,0,0,0,0,0,1,1
+Nankins,Nankin,,1,1,0,0,0,0,1,0,2,1
 Nanquin,Nankin,,1,2,0,0,0,0,0,0,1,2
 Nansouques,namouques,x,1,1,0,0,0,0,0,0,1,1
 Napes,nappes,,1,17,0,0,0,0,0,0,1,17
@@ -43445,7 +43452,7 @@ Perruques de peau d'agneau,perruques de peau d'agneau,,1,1,0,0,0,0,0,0,1,1
 Perruques de peau de mouton,perruques de peau de mouton,,1,1,0,0,0,0,0,0,1,1
 Perruques de poil de chèvre,perruques de poil de chèvre,,1,1,0,0,0,0,0,0,1,1
 Perruques neuves,perruques neuves,,1,1,0,0,0,0,0,0,1,1
-Perses,perses,,1,1,0,0,0,0,0,0,1,1
+Perses,perses,,1,1,0,0,0,0,1,0,2,1
 Persienne,persienne,,1,3,0,0,0,0,0,0,1,3
 Personnes,personnes,,0,0,0,0,0,0,1,1,1,1
 Pertiolles,pertiolles,x,1,5,0,0,0,0,0,0,1,5
@@ -44189,7 +44196,7 @@ Pierres; fausses,pierres fausses,,1,2,0,0,0,0,0,0,1,2
 Pierres; ponce,pierres ponce,,1,3,0,0,0,0,0,0,1,3
 Pierres; Ponces,pierres ponce,,1,1,0,0,0,0,0,0,1,1
 Pierresa aiguiser,pierres à aiguiser,,1,1,0,0,0,0,0,0,1,1
-Pierrestre,pierrestre,x,1,2,0,0,0,0,0,0,1,2
+Pierrestre,pyrèthre,x,1,2,0,0,0,0,0,0,1,2
 Pierret à taillandier,pierres à taillandier,,0,0,0,0,0,0,1,1,1,1
 Pierrette,pierrette,x,1,1,0,0,0,0,0,0,1,1
 Pierrettes,pierrette,x,1,1,0,0,0,0,0,0,1,1
@@ -47085,7 +47092,7 @@ Porc salé,porcs salés,,1,59,0,0,0,0,0,0,1,59
 Porc sallé,porcs salés,,1,2,0,0,0,0,0,0,1,2
 Porc; Salé,porcs salés,,1,1,0,0,0,0,0,0,1,1
 Porcaux,pourceaux,,1,1,0,0,0,0,0,0,1,1
-Porcelaine,porcelaine,,1,1372,0,0,1,5,0,0,2,1377
+Porcelaine,porcelaine,,1,1372,0,0,1,5,1,0,3,1377
 Porcelaine ; contrefaite,porcelaine contrefaite,,1,4,0,0,0,0,0,0,1,4
 Porcelaine ; contrefaitte,porcelaine contrefaite,,1,1,0,0,0,0,0,0,1,1
 Porcelaine ; d'hollande,porcelaine de Hollande,,1,1,0,0,0,0,0,0,1,1
@@ -47351,6 +47358,7 @@ Pots de terre pour apoticaires,pots de terre pour apothicaire,,1,1,0,0,0,0,0,0,1
 Pots de terre rouge,pots de terre rouge,,1,1,0,0,0,0,0,0,1,1
 Pots de terres,pots de terre,,1,2,0,0,0,0,0,0,1,2
 Pots de Terres à Sucre,pots de terre à sucre,,1,1,0,0,0,0,0,0,1,1
+Pots de vess / potjevleesch???,,,0,0,0,0,0,0,1,0,1,0
 Pots en forme à sucre,pots en forme à sucre,,1,1,0,0,0,0,0,0,1,1
 Pots en formes à Sucre,pots en forme à sucre,,1,1,0,0,0,0,0,0,1,1
 Pots et bouteilles de pierre,pots et bouteilles de pierre,,0,0,1,3,0,0,0,0,1,3
@@ -47518,7 +47526,7 @@ Poudre à poudre,poudre à poudrer,,1,2,0,0,0,0,0,0,1,2
 Poudre A Poudrer,poudre à poudrer,,1,1,0,0,0,0,0,0,1,1
 Poudre a Poudrer,poudre à poudrer,,1,1,0,0,0,0,0,0,1,1
 Poudre a poudrer,poudre à poudrer,,1,203,0,0,0,0,0,0,1,203
-Poudre à poudrer,poudre à poudrer,,1,173,0,0,0,0,0,0,1,173
+Poudre à poudrer,poudre à poudrer,,1,173,0,0,0,0,1,0,2,173
 Poudre à poudrér,poudre à poudrer,,1,1,0,0,0,0,0,0,1,1
 Poudre à poudrer et pomade,poudre à poudrer et pommade,,1,1,0,0,0,0,0,0,1,1
 Poudre a poudres,poudre à poudrer,,1,5,0,0,0,0,0,0,1,5
@@ -48354,12 +48362,12 @@ Racine de Lizary,racines d'alizari,,1,1,0,0,0,0,0,0,1,1
 Racine de lizary,racines d'alizari,,1,13,0,0,0,0,0,0,1,13
 Racine de paruru Brana,racines de paruru brana,x,1,1,0,0,0,0,0,0,1,1
 Racine de persil,racines de persil,,1,1,0,0,0,0,0,0,1,1
-Racine de pirestre,racines de pirrestre,,1,2,0,0,0,0,0,0,1,2
-Racine de piretre,racines de pirrestre,,1,1,0,0,0,0,0,0,1,1
-Racine de pirette,racines de pirestre,,1,1,0,0,0,0,0,0,1,1
-Racine de pirettre,racines de pirrestre,,1,1,0,0,0,0,0,0,1,1
+Racine de pirestre,racines de pyrèthre,,1,2,0,0,0,0,0,0,1,2
+Racine de piretre,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
+Racine de pirette,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
+Racine de pirettre,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
 Racine de piroine,racines de pivoine,,1,1,0,0,0,0,0,0,1,1
-Racine de pirrestre,racines de pirrestre,,1,1,0,0,0,0,0,0,1,1
+Racine de pirrestre,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
 Racine de vipère,racines de vipère,,1,1,0,0,0,0,0,0,1,1
 Racine de zedoar,racines de zedoar,,0,0,1,6,0,0,0,0,1,6
 Racine médécinalle,racines médicinales,,1,1,0,0,0,0,0,0,1,1
@@ -48387,9 +48395,9 @@ Racines ; de jalap,racines de jalap,,1,2,0,0,0,0,0,0,1,2
 Racines ; de lisary,racines d'alizari,,1,1,0,0,0,0,0,0,1,1
 Racines ; de Lizarry,racines d'alizari,,1,1,0,0,0,0,0,0,1,1
 Racines ; de lizary,racines d'alizari,,1,3,0,0,0,0,0,0,1,3
-Racines ; de pierrestre,racines de pierrestre,,1,2,0,0,0,0,0,0,1,2
-Racines ; de pirrestre,racines de pierrestre,,1,2,0,0,0,0,0,0,1,2
-Racines ; de pirrestres,racines de pierrestre,,1,2,0,0,0,0,0,0,1,2
+Racines ; de pierrestre,racines de pyrèthre,,1,2,0,0,0,0,0,0,1,2
+Racines ; de pirrestre,racines de pyrèthre,,1,2,0,0,0,0,0,0,1,2
+Racines ; de pirrestres,racines de pyrèthre,,1,2,0,0,0,0,0,0,1,2
 Racines ; de ris,racines de riz,x,1,1,0,0,0,0,0,0,1,1
 Racines ; de rix,racines de riz,x,1,1,0,0,0,0,0,0,1,1
 Racines ; de riz,racines de riz,,1,2,0,0,0,0,0,0,1,2
@@ -48422,9 +48430,9 @@ Racines de lizari,racines d'alizari,,1,2,0,0,0,0,0,0,1,2
 Racines de Lizary,racines d'alizari,,1,2,0,0,0,0,0,0,1,2
 Racines de lizary,racines d'alizari,,1,7,0,0,0,0,0,0,1,7
 Racines de machoakam,racines de machoakam,,1,1,0,0,0,0,0,0,1,1
-Racines de pirestre,racines de pirrestre,,1,1,0,0,0,0,0,0,1,1
-Racines de pirrestre,racines de pirrestre,,1,2,0,0,0,0,0,0,1,2
-Racines de pirrettre,racines de pirrestre,,1,1,0,0,0,0,0,0,1,1
+Racines de pirestre,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
+Racines de pirrestre,racines de pyrèthre,,1,2,0,0,0,0,0,0,1,2
+Racines de pirrettre,racines de pyrèthre,,1,1,0,0,0,0,0,0,1,1
 Racines de rubea,racines de rubea,,1,1,0,0,0,0,0,0,1,1
 Racines de saxafrax,racines de sassafras,,1,1,0,0,0,0,0,0,1,1
 Racines de sequin,racines de sequin,,1,1,0,0,0,0,0,0,1,1
@@ -48946,6 +48954,7 @@ Rhubarbe de moscovie,rhubarbe de Moscovie,,1,3,0,0,0,0,0,0,1,3
 Rhubarbe du levant,rhubarbe du Levant,,1,1,0,0,0,0,0,0,1,1
 Rhubarbe et Méchoacan,rhubarbe et mechoacam,,1,28,0,0,0,0,0,0,1,28
 Rhubarbes,rhubarbe,,1,1,0,0,0,0,0,0,1,1
+Rhubarbre,,,0,0,0,0,0,0,1,0,1,0
 Rhubarde,rhubarbe,,1,5,0,0,0,0,0,0,1,5
 Rhum,rhum,,1,19,0,0,1,12,1,1,3,32
 Rhum de Prise,rhum des prises,,1,1,0,0,0,0,0,0,1,1
@@ -51271,11 +51280,13 @@ Soie de porc et sanglier,soie de porcs et sanglier,,1,61,0,0,0,0,0,0,1,61
 Soie de porc ouvré,soie de porcs ouvré,,1,3,0,0,0,0,0,0,1,3
 Soie de Toile,soie de toile,,1,1,0,0,0,0,0,0,1,1
 Soie de toille,soie de toile,,1,1,0,0,0,0,0,0,1,1
+Soie des Indes,,,0,0,0,0,0,0,1,0,1,0
 Soie diverse,soie diverse,,1,3,0,0,0,0,0,0,1,3
 Soie diverse ; en strasse,soie diverse en estrasse,x,1,1,0,0,0,0,0,0,1,1
 Soie diverse ; par Marseille,soie diverse par Marseille,,1,1,0,0,0,0,0,0,1,1
 Soie diverse ; par Strasbourg et Collonge,soie diverse par Srasbourg et Collonge,,1,1,0,0,0,0,0,0,1,1
 Soie et filoselle,soie et filoselle,,1,132,0,0,0,0,0,0,1,132
+Soie et mousseline,,,0,0,0,0,0,0,1,0,1,0
 Soie gaze,soie gaze,,0,0,0,0,0,0,0,0,0,0
 Soie grès,soie grège,,1,2,0,0,0,0,0,0,1,2
 Soie greze,soie grège,,0,0,0,0,0,0,0,0,0,0
@@ -51286,7 +51297,7 @@ Soie tanis,soie tani,x,1,1,0,0,0,0,0,0,1,1
 Soie torse,soie torse,,1,1,0,0,0,0,0,0,1,1
 Soie tripoline,soie tripoline,,1,1,0,0,0,0,0,0,1,1
 Soierie,soierie,,1,2,0,0,0,0,0,0,1,2
-Soieries,soierie,,1,3,0,0,0,0,0,0,1,3
+Soieries,soierie,,1,3,0,0,0,0,1,0,2,3
 Soieries ; bocau soie,soierie bocau soie,x,1,1,0,0,0,0,0,0,1,1
 Soieries ; Bonneterie,soierie bonneterie,,1,44,0,0,0,0,0,0,1,44
 Soieries ; bonneterie,soierie bonneterie,,1,102,0,0,0,0,0,0,1,102
@@ -52228,7 +52239,7 @@ Sucre brun,sucre brun,,1,51,0,0,0,0,0,0,1,51
 Sucre brun bas prix,sucre brun bas prix,,0,0,1,15,0,0,0,0,1,15
 Sucre brun en pain et terré,sucre brun en pain et terré,,1,1,0,0,0,0,0,0,1,1
 Sucre Brut,sucre brut,,1,90,0,0,0,0,0,0,1,90
-Sucre brut,sucre brut,,1,1009,0,0,0,0,0,0,1,1009
+Sucre brut,sucre brut,,1,1009,0,0,0,0,1,0,2,1009
 Sucre brut ; blanc,sucre brut blanc,,1,3,0,0,0,0,0,0,1,3
 Sucre brut ; brun,sucre brut brun,,1,3,0,0,0,0,0,0,1,3
 Sucre brut en forme,sucre brut en forme,,1,1,0,0,0,0,0,0,1,1
@@ -52268,7 +52279,7 @@ Sucre en cassonnade,sucre en cassonade,,1,1,0,0,0,0,0,0,1,1
 Sucre en dragées,sucre en dragées,,0,0,1,122,0,0,0,0,1,122
 Sucre En Pain,sucre en pain,,1,1,0,0,0,0,0,0,1,1
 Sucre en Pain,sucre en pain,,1,8,0,0,0,0,0,0,1,8
-Sucre en pain,sucre en pain,,1,478,0,0,0,0,0,0,1,478
+Sucre en pain,sucre en pain,,1,478,0,0,0,0,1,0,2,478
 Sucre en pain blanc,sucre en pain blanc,,1,1,0,0,0,0,0,0,1,1
 Sucre en pain et candi,sucre en pain et candi,,1,1,0,0,0,0,0,0,1,1
 Sucre en pain et raffiné,sucre en pain et raffiné,,1,2,0,0,0,0,0,0,1,2
@@ -52304,7 +52315,7 @@ Sucre raffiné ; candi,sucre raffiné candi,,1,1,0,0,0,0,0,0,1,1
 Sucre raffiné ; en pains ou en poudre,sucre raffiné en pain ou en poudre,,1,1,0,0,0,0,0,0,1,1
 Sucre rafine,sucre raffiné,,1,4,0,0,0,0,0,0,1,4
 Sucre Rafiné,sucre raffiné,,1,4,0,0,0,0,0,0,1,4
-Sucre rafiné,sucre raffiné,,1,158,0,0,0,0,0,0,1,158
+Sucre rafiné,sucre raffiné,,1,158,0,0,0,0,1,0,2,158
 Sucre rafiné en pain,sucre raffiné en pain,,1,1,0,0,0,0,0,0,1,1
 "Sucre rafiné en pains, en poudre ou candi",sucre raffiné en pain en poudre ou candi,,1,1,0,0,0,0,0,0,1,1
 Sucre roulé,sucre roulé,,1,1,0,0,0,0,0,0,1,1
@@ -52685,7 +52696,7 @@ Tabac en Corde,tabac en cordes,,1,1,0,0,0,0,0,0,1,1
 Tabac en corde,tabac en cordes,,1,8,0,0,0,0,0,0,1,8
 Tabac en cordes,tabac en cordes,,1,1,0,0,0,0,0,0,1,1
 Tabac en costes,tabac en côtes,,1,1,0,0,0,0,0,0,1,1
-Tabac en côtes,tabac en côtes,,1,3,0,0,0,0,0,0,1,3
+Tabac en côtes,tabac en côtes,,1,3,0,0,0,0,1,0,2,3
 Tabac en cottes,tabac en côtes,,1,2,1,63,0,0,0,0,2,65
 Tabac en en feuilles,tabac en en feuilles,,1,1,0,0,0,0,0,0,1,1
 Tabac en endouille,tabac en andouilles,,1,4,0,0,0,0,0,0,1,4
@@ -52697,7 +52708,7 @@ Tabac en Feuille de la Louisiane,tabac en feuilles de la Louisiane,,1,1,0,0,0,0,
 Tabac en feuille de Virginie,tabac en feuilles de Virginie,,1,1,0,0,0,0,0,0,1,1
 Tabac en feuille des prises,tabac en feuilles des prises,,1,1,0,0,0,0,0,0,1,1
 Tabac en Feuilles,tabac en feuilles,,1,1,0,0,0,0,0,0,1,1
-Tabac en feuilles,tabac en feuilles,,1,224,1,119,0,0,0,0,2,343
+Tabac en feuilles,tabac en feuilles,,1,224,1,119,0,0,1,0,3,343
 Tabac en feüilles,tabac en feuilles,,1,21,0,0,0,0,0,0,1,21
 Tabac en feuilles ; par Dunkerque,tabac en feuilles par Dunkerque,,1,1,0,0,0,0,0,0,1,1
 Tabac en feuilles de la Virginie,tabac en feuilles de la Virginie,,1,1,0,0,0,0,0,0,1,1
@@ -52729,7 +52740,7 @@ Tabac en virginie,tabac de Virginie,,1,1,0,0,0,0,0,0,1,1
 Tabac et savon,tabac et savon,,0,0,0,0,1,1,0,0,1,1
 Tabac et son d'Espagne,tabac et son d'Espagne,,0,0,1,4,0,0,0,0,1,4
 Tabac fabrique,tabac fabriqué,,1,1,0,0,0,0,0,0,1,1
-Tabac fabriqué,tabac fabriqué,,1,22,0,0,0,0,0,0,1,22
+Tabac fabriqué,tabac fabriqué,,1,22,0,0,0,0,1,0,2,22
 Tabac fabriqué (cigares) par autorisation,tabac fabriqué cigares par autorisation,,1,1,0,0,0,0,0,0,1,1
 Tabac fabriqué et en carote,tabac fabriqué et en carotte,,1,4,0,0,0,0,0,0,1,4
 Tabac fabriqué ou seulement préparé,tabac fabriqué ou seulement préparé,,1,4,0,0,0,0,0,0,1,4
@@ -53086,7 +53097,7 @@ Tafetas soulas,taffetas foulas,,1,1,0,0,0,0,0,0,1,1
 Taffes,tasses,,1,1,0,0,0,0,0,0,1,1
 Taffetar,taffetas,,1,1,0,0,0,0,0,0,1,1
 Taffetars bleu,taffetas bleu,,1,1,0,0,0,0,0,0,1,1
-Taffetas,taffetas,,1,62,1,12,1,1,0,0,3,75
+Taffetas,taffetas,,1,62,1,12,1,1,1,0,4,75
 Taffetas ; d'Avignon,taffetas d'Avignon,,1,2,0,0,0,0,0,0,1,2
 Taffetas ; de florence,taffetas de Florence,,1,1,0,0,0,0,0,0,1,1
 Taffetas ; de lion,taffetas de Lyon,,1,1,0,0,0,0,0,0,1,1
@@ -61156,7 +61167,7 @@ Vin étranger,vin étranger,,1,1,0,0,0,0,0,0,1,1
 Vin Etranger de Ramis,vin étrangerde de ramis,,1,1,0,0,0,0,0,0,1,1
 Vin étranger en bouteilles,vin étranger en bouteilles,,1,1,0,0,0,0,0,0,1,1
 Vin étranger en futailles,vin étranger en futailles,,1,1,0,0,0,0,0,0,1,1
-Vin fin,vin fin,,1,1,0,0,0,0,0,0,1,1
+Vin fin,vin fin,,1,1,0,0,0,0,1,0,2,1
 Vin fraçais,vin français,,0,0,0,0,0,0,0,0,0,0
 Vin Français,vin français,,0,0,0,0,0,0,0,0,0,0
 Vin français,vin français,,1,33,0,0,0,0,0,0,1,33
@@ -61639,7 +61650,7 @@ Voilles ; de batteaux,voile de bateaux,,1,1,0,0,0,0,0,0,1,1
 Voilles ; de navires,voile de navire,,1,1,0,0,0,0,0,0,1,1
 Voilures,voilures,,1,1,0,0,0,0,0,0,1,1
 Voin de Champagne,vin de Champagne,,1,1,0,0,0,0,0,0,1,1
-Voiture,voitures,,1,4,0,0,0,0,0,0,1,4
+Voiture,voitures,,1,4,0,0,0,0,1,0,2,4
 Voiture ; de Chafre,voitures de chafre,x,1,1,0,0,0,0,0,0,1,1
 Voiture (carriole),voitures carriole,,1,1,0,0,0,0,0,0,1,1
 Voiture et tombereaux,voitures et tombereaux,,0,0,1,1,0,0,0,0,1,1
