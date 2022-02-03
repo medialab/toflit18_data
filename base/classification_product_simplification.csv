@@ -688,8 +688,8 @@ aurcsats étoile,1,aurcsats étoile,1
 aussière,0,aussière,0
 autel de marbre,2,autel de marbre,2
 autre droguerie,1,drogues,2721
-autre que blé et graines,1,,786
-autre que blé et grains,1,,786
+autre que blé et graines,1,marchandises (sauf blé et grains),786
+autre que blé et grains,1,marchandises (sauf blé et grains),786
 autres,500,divers,5763
 autres céréales farine,4,farine,2285
 autres céréales grains,5,grains,9
@@ -3457,7 +3457,7 @@ brides de cheval,1,brides,4
 bridons,1,bridons,1
 bridons de cuir,1,bridons de cuir,1
 brigadis,1,brigadis,1
-brigdades,1,,786
+brigdades,1,brigadis,786
 Brignoles,104,Brignoles,104
 brins à tours,1,brins à tours,1
 brins d'osier,1,brins d'osier,1
@@ -3476,7 +3476,7 @@ briquet d'acier,2,briquet d'acier,2
 briquettes,3,briquettes,3
 bris d'espars,4,bris d'espars,4
 brises,1,brises,1
-brises de cacao,1,,786
+brises de cacao,1,cacao broyé,786
 brocante,1,brocante,1
 brocart de soie,1,brocart de soie,1
 brocatelle,1,brocatelle,1
@@ -3491,7 +3491,7 @@ bronchetaine,1,brochets,20
 bronvets,1,brochets,20
 bronze,25,bronze,25
 bronze ouvré,3,ouvrages de bronze,7
-bronze vieux,1,,786
+bronze vieux,1,bronze vieux,786
 broole,3,broole,3
 brosserie,240,brosses,268
 brosserie à goudronner,1,brosses à goudron,15
@@ -3602,7 +3602,7 @@ cabas de palme petits,2,cabas de palme petits,2
 cabestan,2,cabestan,2
 cabestan en barres,1,barres de cabestan,70
 cabillaud,360,cabillaud,360
-cabillaud en saumure,2,,786
+cabillaud en saumure,2,morue en saumure,786
 cabine de sapin,3,cabine de sapin,3
 cabine et bois de noyer,1,cabine de noyer,2
 cabine peinte,3,cabine peinte,3
@@ -3645,7 +3645,7 @@ cacao brut (fèves et coques),1,fèves et coques de cacao brut,1
 cacao brut des entrepôts,0,cacao brut des entrepôts,0
 cacao de Caracas,68,cacao de Caracas,68
 cacao de Guyaquil,3,cacao de Guyaquil,3
-cacao de Maragnon,1,,786
+cacao de Maragnon,1,cacao du Maranhão,786
 cacao des Îles,28,cacao des Îles,28
 cacao du Maranhão,16,cacao du Maranhão,16
 cacao en chocolat,1,chocolat,1187
@@ -3920,7 +3920,7 @@ cannes à pommes d'or ayant servi,1,cannes à pommes d'or ayant servi,1
 cannes bambous,3,cannes de bambous,4
 cannes de bambous,1,cannes de bambous,4
 cannes de bois,3,cannes de bois,3
-cannes de bois divers,1,,786
+cannes de bois divers,1,cannes de bois,786
 cannes de bois montées et non montées,79,cannes de bois montées et non montées,79
 cannes de bois vernis,1,cannes de bois vernis,1
 cannes de jonc,104,cannes de jonc,104
@@ -4205,7 +4205,7 @@ cartes,7,cartes,8
 cartes à chaperonier,1,cartes à chaperonier,1
 cartes à jouer,799,cartes à jouer,804
 cartes de géographie,17,cartes géographiques,96
-cartes de géographie en atlas,2,,786
+cartes de géographie en atlas,2,atlas,786
 cartes de géographie sur toile,1,cartes de géographie sur toile,1
 cartes de Martinique,1,cartes de la Martinique,1
 cartes des côtes d'Angleterre,1,cartes des côtes d'Angleterre,1
@@ -4225,8 +4225,8 @@ carton coupé et assemblé,2,carton assemblé et coupé,2
 carton en feuilles,4,feuilles de carton,4
 carton en feuilles et lustré à presser le drap,2,carton en feuilles et lustré à presser le drap,2
 carton et autres en feuilles,1,feuilles de carton et autres,1
-carton glacé,1,,786
-carton gris,1,,786
+carton glacé,1,carton gracé,786
+carton gris,1,carton gris,786
 carton lustré à presser le drap,2,carton lustré à presser le drap,2
 carton moulé,3,carton moulé,6
 carton moulé dit papier mâché,3,carton moulé,6
@@ -4574,19 +4574,19 @@ chair cuisses d'oie,4,cuisses d'oie,221
 chair cuite,1,chair cuite,1
 chair de bœuf,5,chair de bœuf,5
 chair de bœuf à la daube,3,bœuf en daube,57
-chair de bœuf en boyaux salés,1,,786
+chair de bœuf en boyaux salés,1,boyaux de bœuf salés,786
 chair de bœuf salé,17,bœuf salé,1661
 chair de bœuf salée,4,chair salée de bœufs,4
 chair de boucherie,6,chair de boucherie,6
 chair de morue,1,chair de morue,1
-chair de porc boyaux salés,1,,786
-chair de porc jambon,2,,786
-chair de porc lard,1,,786
-chair de porc saucisson,1,,786
+chair de porc boyaux salés,1,boyaux de porc salés,786
+chair de porc jambon,2,jambon,786
+chair de porc lard,1,lard,786
+chair de porc saucisson,1,saucisson,786
 chair de porcs,7,chair de porcs,7
-chair de porcs en jambon,4,jambons,8
+chair de porcs en jambon,4,jambon,8
 chair de porcs en lard,4,lard,1091
-chair de porcs jambon,4,jambons,8
+chair de porcs jambon,4,jambon,8
 chair de porcs langues,1,langues de porcs,2
 chair de porcs lard,2,lard,1091
 chair de porcs salés,4,chair salée de porcs,25
@@ -4803,16 +4803,16 @@ chanvre ouvré,1,ouvrages de chanvre,1
 chanvre ouvré en masses,1,ouvrages de chanvre en masse,1
 chanvre ouvré en rames,1,ouvrages de chanvre en rames,1
 chanvre peigné,650,chanvre peigné,650
-chanvre piqué,2,,786
+chanvre piqué,2,chanvre piqué,786
 chanvre première qualité,4,chanvre première qualité,4
 chanvre préparé,3,chanvre préparé,3
-chanvre prêt à filer,1,,786
+chanvre prêt à filer,1,chanvre pour filer,786
 chanvre rite de chanvre,1,rite de chanvre,1
 chanvre saisir,1,chanvre saisir,1
 chanvre taillé et étoupes,3,chanvre taillé et étoupes,3
 chanvre tillé,1,chanvre tillé,1
 chanvre tillé et étoupes,7,chanvre tillé et étoupes,7
-chanvre treillé,1,,786
+chanvre treillé,1,chanvre treillé ,786
 chanvreau,1,chanvreau,1
 chapeaux,204,chapeaux,657
 chapeaux ??? castor,6,chapeaux ? castor,6
@@ -5214,7 +5214,7 @@ chevaux de bas prix,13,chevaux à bas prix,16
 chevaux de bois,5,chevaux de bois,5
 chevaux de haut prix,10,chevaux à haut prix,11
 chevaux de labour,2,chevaux de labour,98
-chevaux de remontage,1,,786
+chevaux de remontage,1,cheveaux de remontage,786
 chevaux de selle,3,chevaux de selle,3
 chevaux de trois ans,1,chevaux de trois ans,1
 chevaux entiers,6,chevaux,691
@@ -5459,13 +5459,13 @@ cire rouge en flambeaux,2,flambeaux de cire rouge,2
 cire verte,12,cire verte,12
 cire vierge,6,cire vierge,6
 cirsaca,60,cirsaca,71
-cirsaca en jupes,1,,786
+cirsaca en jupes,1,jupes de cirsaca,786
 ciseaux,19,ciseaux,20
 ciseaux à élaguer,2,ciseaux à élaguer,2
 citrate de chaux,1,citrate de chaux,1
 citron,956,citron et limons,960
 citron aigre,14,citron aigre,14
-citron avariés,2,,786
+citron avarié,2,citron avarié,786
 citron confit,120,citron confit,120
 citron en saumure,1,citron en saumure,1
 citron et limons,3,citron et limons,960
@@ -5853,7 +5853,7 @@ cordage de tilleul,11,cordage de tilleul,11
 cordage de vieux,1,cordage de vieux,1
 cordage dit filin assorti,1,cordage dit filin,1
 cordage divers,72,cordage,874
-cordage divers et ficelle,1,,786
+cordage divers et ficelle,1,cordage et ficelle,786
 cordage en câbles neufs,1,cordage de câbles neufs,1
 cordage en chanvre,3,cordage de chanvre,767
 cordage en ficelle,4,ficelle,320
@@ -5909,23 +5909,23 @@ cordes en boyau,3,cordes de boyaux,249
 cordes et boyaux,2,cordes de boyaux,249
 cordes et cordage,0,cordage et cordes,0
 cordes et écorce de tilleul,94,cordes et écorce de tilleul,94
-cordes et ficelles,12,cordes et ficelles,12
-cordes ficelle,1,cordes ficelle,1
+cordes et ficelle,12,cordage et ficelle,12
+cordes ficelle,1,cordage et ficelle,1
 cordes Levant,1,cordes du Levant,1
 cordes neuves,1,cordes neuves,1
 cordes pour instruments,3,cordes pour instruments,10
 cordes pour violons,2,cordes pour violons,172
 cordes vieilles,5,cordes vieilles,5
 cordes violons,2,cordes pour violons,172
-cordesillat,109,cordeillat,227
-cordesillat d'Oléron,2,,786
-cordesillat de Colmar,13,cordeillat de Colmar,13
-cordesillat de laine,1,,786
-cordesillat de Piemont,1,,786
-cordesillat de Provence,2,,786
-cordesillaterie,43,cordeillat,227
-cordesllerie,3,,786
-cordesrie ficelle,1,,786
+cordeillat,109,cordeillat,227
+cordeillat d'Oléron,2,cordeillat d’Oléron,786
+cordeillat de Colmar,13,cordeillat de Colmar,13
+cordeillat de laine,1,cordeillat,786
+cordeillat de Piemont,1,cordeillat de Piémont,786
+cordeillat de Provence,2,cordeillat de Provence,786
+cordeillaterie,43,cordeillat,227
+cordesllerie,3,cordage,786
+cordesrie ficelle,1,ficelle,786
 cordonnes,1,cordonnet,2
 cordonnes pour cannes,1,cordonnet pour cannes,1
 cordonnet,1,cordonnet,2
@@ -6227,7 +6227,7 @@ coupes de fer-blanc,1,coupes de fer-blanc,1
 coupier,1,coupier,1
 coupis,130,coupis,130
 couplets de cuivre,1,couplets de cuivre,1
-coupons de toile,1,coupons de toile,1
+coupon de toile,1,coupon de toile,1
 coups,1,coups,1
 courbes,6,courbes,6
 courbes de bois,1,courbes de bois,1
@@ -7526,8 +7526,8 @@ drap carisé des prises,1,carisé des prises,1
 drap casimir,6,casimir de laine,11
 drap commun,26,drap commun,325
 drap commun d'Angleterre,1,drap commun d'Angleterre,1
-drap cordesillat,40,cordeillat,227
-drap cordesillat de Colmar,2,,786
+drap cordeillat,40,cordeillat,227
+drap cordeillat de Colmar,2,,786
 drap cosinis,1,drap cosinis,1
 drap crêpe,2,drap crêpe,2
 drap crêpe de Reims,4,drap crêpe de Reims,4
@@ -7570,7 +7570,7 @@ drap de castor aune,6,drap de castor,83
 drap de castor par aune,1,drap de castor,83
 drap de cave à l'homme,1,drap de cave à l'homme,1
 drap de Colmar,6,drap de Colmar,6
-drap de cordesillat,3,,786
+drap de cordeillat,3,,786
 drap de coton,4,drap de coton,21
 drap de coton de Rouen,1,drap de coton de Rouen,1
 drap de Darnétal,15,drap de Darnétal,26
@@ -7596,7 +7596,7 @@ drap de laine blanc,1,drap blanc,126
 drap de laine bleu,1,drap bleu,2
 drap de laine brodé en soie,1,drap brodé de soie,20
 drap de laine commun,9,drap commun,325
-drap de laine cordesillat,25,cordeillat,227
+drap de laine cordeillat,25,cordeillat,227
 drap de laine d'Abbeville,7,drap d'Abbeville,115
 drap de laine d'Amiens,2,drap d'Amiens,38
 drap de laine d'Andelys,9,drap d'Andelys,28
@@ -7609,7 +7609,7 @@ drap de laine de Carcassonne,28,drap de Carcassonne,218
 drap de laine de castor,1,drap de castor,83
 drap de laine de cérémonie,2,drap de cérémonie,2
 drap de laine de Cherbourg,1,drap de Cherbourg,1
-drap de laine de cordesillat,5,cordeillat,227
+drap de laine de cordeillat,5,cordeillat,227
 drap de laine de Cours,1,drap de Cours,1
 drap de laine de France,13,drap de France,92
 drap de laine de Hollande,8,drap de Hollande,12
@@ -7907,7 +7907,7 @@ draperie calmande,9,calmande,588
 draperie cammise,2,drap cammise,2
 draperie casimir,2,casimir de laine,11
 draperie commune,21,drap commun,325
-draperie cordesillat,1,,786
+draperie cordeillat,1,,786
 draperie d'Amiens,8,drap d'Amiens,38
 draperie d'Angleterre,2,drap d'Angleterre,36
 draperie d'Auvergne,1,drap d'Auvergne,1
@@ -10062,7 +10062,7 @@ etocs de fer,4,etocs de fer,13
 étoffe cartignette,1,cartignette,1
 étoffe cirsaca,1,,786
 étoffe cirsaca soie en coton,2,,786
-étoffe cordesillat,2,,786
+étoffe cordeillat,2,,786
 étoffe coton,2,étoffe de coton,403
 étoffe coton diverse,2,,786
 étoffe coton drap,1,drap de coton,21
@@ -10235,7 +10235,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine chaussetterie,1,chaussetterie de laine,1
 étoffe de laine colling,1,,786
 étoffe de laine cordat,1,toile de corda,1
-étoffe de laine cordesillat,5,cordeillat,227
+étoffe de laine cordeillat,5,cordeillat,227
 étoffe de laine coton et fil,13,étoffe de coton de fil et de laine,20
 étoffe de laine coton et fil aune,7,étoffe de coton de fil et de laine,20
 étoffe de laine coton et soie,2,étoffe de coton de laine et de soie,3
@@ -26583,7 +26583,7 @@ toile commune de 25 aunes,1,toile commune de 25 aunes,1
 toile commune de Lille,1,toile commune de Lille,1
 toile cordas,3,toile cordat,40
 toile cordat,35,toile cordat,40
-toile cordesillat,1,,786
+toile cordeillat,1,,786
 toile corne,2,,786
 toile corot,6,toile corot,165
 toile corot double,2,toile corot double,2
@@ -28291,7 +28291,7 @@ tuyaux de pipes,2,tuyaux de pipes,2
 tuyaux de plomb,1,tuyaux de plomb,5
 ufs,2,œufs,354
 urnes de terre,1,urnes de terre,1
-ustenciles de pếcheur filets pour la pêche,1,filets à pêcher,214
+ustenciles de p?cheur filets pour la pêche,1,filets à pêcher,214
 ustensiles,18,outils,208
 ustensiles d'agriculture,1,outils d'agriculture,1
 ustensiles d'imprimerie,5,outils d'imprimerie,8
