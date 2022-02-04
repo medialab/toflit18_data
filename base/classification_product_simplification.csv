@@ -1593,10 +1593,10 @@ blé de seigle,19,grains seigle,2116
 blé de toutes sortes,1,blé,18
 blé de Turquie,2,grains blé de Turquie,2
 blé en gerbes,4,blé en gerbe,4
-blé et autres graine comestible,11,grains blé et autre grain,140
-blé et autres grains comestibles,129,grains blé et autre grain,140
+blé et autres graine comestible,11,grains blé et autre grains,140
+blé et autres grains comestibles,129,grains blé et autre grains,140
 blé et froment,1,grains blé et froment,8
-blé et grains,1,grains blé et autre grain,786
+blé et grains,1,grains blé et autre grains,786
 blé et riz,9,grains blé et riz,9
 blé froment,2981,grains froment,3810
 blé froment et méteil,1,grains froment et méteil,1
@@ -5860,8 +5860,8 @@ cordage en ficelle,4,ficelle,320
 cordage en morceaux,1,cordage en morceaux,1
 cordage et cordes,0,cordage et cordes,0
 cordage et ficelle,18,cordage et ficelle,18
-cordage fable,1,,786
-cordage ficelle,1,,786
+cordage fable,1,cordage faible,786
+cordage ficelle,1,ficelle,786
 cordage filets neuf en état de servir,1,cordage filets neuf,1
 cordage filets neuf ou en état de servir,4,cordage filets neuf ou en état de servir,4
 cordage goudronné,12,cordage goudronné,12
@@ -5874,14 +5874,14 @@ cordage pourri,2,cordage pourri,2
 cordage refait,2,cordage refait,2
 cordage vieux,44,cordage vieux,46
 cordagnes,1,cordage,874
-cordes,3,cordes,4
+cordes,3,cordage,4
 cordes à arçons,3,cordes à arçons,9
 cordes à boyau,62,cordes de boyaux,249
 cordes à boyau et à violons,0,cordes de boyau et pour violons,0
 cordes à boyaux,60,cordes de boyaux,249
 cordes à carder,5,cordes pour carder,5
 cordes à carder le coton,1,cordes pour carder le coton,1
-cordes à cordesr,1,,786
+cordes à cordesr,1,cordes pour carder,786
 cordes à coude,1,cordes pour corder,1
 cordes à fouets,2,cordes pour fouets,2
 cordes à instruments,4,cordes pour instruments,10
@@ -5904,7 +5904,7 @@ cordes de jonc,3,cordes de jonc,3
 cordes de thil,2,cordes de thil,2
 cordes de tilleul,1,cordes de tilleul,1
 cordes de violons,11,cordes pour violons,172
-cordes diverses,1,cordes,4
+cordes diverses,1,cordage,4
 cordes en boyau,3,cordes de boyaux,249
 cordes et boyaux,2,cordes de boyaux,249
 cordes et cordage,0,cordage et cordes,0
@@ -6303,8 +6303,8 @@ coutil à meubles,1,coutil à meubles,1
 coutil chiné,1,coutil chiné,1
 coutil de fil,1,coutil de fil,1
 coutil de Hollande,3,coutil de Hollande,3
-coutil en coupon,1,,786
-coutil en pièces de 10 aunes,1,,786
+coutil en coupon,1,coutil en coupon,786
+coutil en pièces de 10 aunes,1,coutil en pièces de 10 aunes,786
 couvercles de fer,2,couvercles de fer,5
 couvercles de marmites en fer,1,couvercles de fer de marmites,1
 couvertes d'étoupes,133,couvertes d'étoupes,133
@@ -6396,7 +6396,7 @@ couvertures placy,3,couvertures de placy,6
 couvertures pour chevaux,3,couvertures pour chevaux,5
 couvertures pour nuque,1,couvertures pour nuque,1
 couvertures soie et coton,2,couvertures de coton et de soie,2
-couvertures vieilles,2,,786
+couvertures vieilles,2,couvertures vieilles,786
 crabes et geernaerts,11,crabes et crevettes,11
 crabes et limaçons,56,crabes et limaçons,56
 craie,179,craie,185
@@ -6484,7 +6484,7 @@ cribles petits,1,cribles petits,1
 criblon,1,criblon,1
 crics,58,crics,58
 crics de fer,30,crics de fer,32
-crics de fer de navire,1,,786
+crics de fer de navire,1,crics de fer de navire,786
 crin,851,crin,851
 crin à cordonnier,1,crin à cordonnier,1
 crin à pêcher,1,crin à pêcher,1
@@ -6583,7 +6583,7 @@ cuirs bruts,1,cuirs bruts,1
 cuirs bruts tannés,1,cuirs bruts tannés,1
 cuirs cannelés,2,cuirs cannelés,2
 cuirs cheval en poil,1,cuirs de cheval en poil,44
-cuirs cordé,1,,786
+cuirs cordé,1,cuirs cordés,786
 cuirs corroyés,11,cuirs corroyés,14
 cuirs corroyés de vache,4,cuirs corroyés de vache,129
 cuirs corroyés divers,3,cuirs corroyés,14
@@ -6606,7 +6606,7 @@ cuirs de bœuf au poil,1,cuirs de bœuf au poil,1
 cuirs de bœuf corroyés,12,cuirs de bœuf corroyés,12
 cuirs de bœuf de Russie,1,cuirs de bœuf de Russie,1
 cuirs de bœuf en poil,1191,cuirs de bœuf en poil,1212
-cuirs de bœuf en poil en têtes,2,,786
+cuirs de bœuf en poil en têtes,2,cuirs de bœuf en poil têtes,786
 cuirs de bœuf en poil têtes,8,cuirs de bœuf en poil têtes,8
 cuirs de bœuf en vert,3,cuirs de bœuf verts,5
 cuirs de bœuf et vache apprêtés,1,cuirs de bœuf et vache apprêtés,1
@@ -6619,10 +6619,10 @@ cuirs de bœuf passés en Hongrie,3,cuirs de bœuf passés en Hongrie,3
 cuirs de bœuf salé,1,cuirs de bœuf salé,3
 cuirs de bœuf salés,2,cuirs de bœuf salé,3
 cuirs de bœuf secs,8,cuirs de bœuf secs,8
-cuirs de bœuf secs au poil,3,,786
+cuirs de bœuf secs au poil,3,cuirs de bœuf en poil et secs,786
 cuirs de bœuf secs en poil,2,cuirs de bœuf en poil et secs,3
-cuirs de bœuf tanné,2,,786
-cuirs de bœuf tanné entiers,3,,786
+cuirs de bœuf tanné,2,cuirs de bœuf tannés,786
+cuirs de bœuf tanné entiers,3,cuirs de bœuf tannés entiers,786
 cuirs de bœuf tannés,843,cuirs de bœuf tannés,880
 cuirs de bœuf tannés avariés,1,cuirs de bœuf avariés tannés,1
 cuirs de bœuf tannés en poil,1,cuirs de bœuf en poil tannés,1
@@ -6712,7 +6712,7 @@ cuirs fer en poil,1,cuirs de fer et en poil,1
 cuirs fins en poil,1,cuirs fins en poil,1
 cuirs forts,6,cuirs forts,6
 cuirs forts tannés,16,cuirs forts tannés,19
-cuirs forts tannés entiers,1,,786
+cuirs forts tannés entiers,1,cuirs forts tannés entiers,786
 cuirs génisse corroyés,1,cuirs génisse corroyés,1
 cuirs gras,1,cuirs gras,1
 cuirs jaunes,8,cuirs jaunes,8
@@ -6891,7 +6891,7 @@ cuivre en feuilles et planches,4,feuilles de cuivre et planches de cuivre,18
 cuivre en feuilles et planches et ???,5,feuilles de cuivre et planches de cuivre et ???,5
 cuivre en fonds,16,fonds de cuivre,17
 cuivre en fonds et en fourrure,3,fonds et fourrure de cuivre,3
-cuivre en fonds vieux,1,,786
+cuivre en fonds vieux,1,fonds de cuivre vieux,786
 cuivre en fonte,1,fonte de cuivre,1
 cuivre en formes,1,forme de cuivre,1
 cuivre en fourrure,50,fourrure de cuivre,50
@@ -6981,7 +6981,7 @@ cuivre ouvré bouilloires,1,bouilloires de cuivre,2
 cuivre ouvré cafetière,1,cafetières de cuivre,25
 cuivre ouvré en baignoires,3,baignoires de cuivre,4
 cuivre ouvré en bassin,2,bassin de cuivre,122
-cuivre ouvré en batterie,1,,786
+cuivre ouvré en batterie,1,batterie de cuivre,786
 cuivre ouvré réchauds,1,réchauds de cuivre ouvré,1
 cuivre potier,1,cuivre potier,1
 cuivre potin,2,potin,101
@@ -7156,38 +7156,38 @@ dégras,23,dégras,23
 dégras d'huile,3,dégras d'huile,3
 dégras de peau,56,dégras de peau,56
 delimineas,1,delimineas,1
-demi Guinée,1,demi guinée,1
-demi Guinée bleue,1,demi guinée bleue,2
-demi-ancres vides,1,,786
+demi Guinée,1,demi-guinée,1
+demi Guinée bleue,1,demi-guinée bleue,2
+demi-ancres vides,1,demi-ancres vides,786
 demi-barriques cerclées de fer,1,demi-barriques cerclées de fer,1
-demi-camelot rayé,1,,786
+demi-camelot rayé,1,demi-camelot,786
 demi-cuirs de bœuf tannés,16,demi-cuirs de bœuf tannés,16
-demi-cuirs forts tannés,1,,786
+demi-cuirs forts tannés,1,demi-cuirs forts tannés,786
 demi-cuirs tannés,7,demi-cuirs tannés,7
-demi-draps de Glaster,2,,786
-demi-écarlatine,1,,786
-demi-meules de moulin,1,,786
-demi-pièce d'écarlatine,1,,786
-demi-pièce d'indienne,1,,786
-demi-pièce de drap de Glaster,1,,786
-demi-pièce de drap de Glouster,1,,786
-demi-pièce de drap de Laine,1,,786
-demi-pièce de Guinée,1,,786
-demi-pièce de Guinée bleue,2,,786
-demi-pièce de perpétuane,1,,786
-demi-pièce de picotte,1,,786
-demi-pièce de scarlatine,1,,786
-demi-planche de sapin,1,planches de sapin demies,11
-demi-planches,3,planches demies,5
-demi-planches de Prusse,3,planches de Prusse demies,6
-demi-planches de sapin,10,planches de sapin demies,11
-demi-planches de sapin de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2,planches de sapin demies de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2
-"demi-planches de sapin de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2,"planches de sapin demies de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2
-"demi-planches de sapin de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3,"planches de sapin demies de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3
-demi-serge d'Aumale,1,,786
-demi-siamoise,1,,786
+demi-draps de Glaster,2,demi drap de Glaster,786
+demi-écarlatine,1,demi-écarlatine,786
+demi-meules de moulin,1,demi-meules de moulin,786
+demi-pièce d'écarlatine,1,demi-écarlatine,786
+demi-pièce d'indienne,1,demi-indienne,786
+demi-pièce de drap de Glaster,1,demi-drap de Glaster,786
+demi-pièce de drap de Glouster,1,demi-drap de Glaster,786
+demi-pièce de drap de Laine,1,demi-drap de laine,786
+demi-pièce de Guinée,1,demi-guinée,786
+demi-pièce de Guinée bleue,2,demi-guinée bleue,786
+demi-pièce de perpétuane,1,demi-perpétuane,786
+demi-pièce de picotte,1,demi-picotte,786
+demi-pièce de scarlatine,1,demi-scarlatine,786
+demi-planche de sapin,1,demi-planches de sapin,11
+demi-planches,3,demi-planches,5
+demi-planches de Prusse,3,demi-planches de Prusse,6
+demi-planches de sapin,10,demi-planches de sapin,11
+demi-planches de sapin de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2,demi-planches de sapin de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2
+"demi-planches de sapin de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2,"demi-planches de sapin  de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2
+"demi-planches de sapin de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3,"demi-planches de sapin de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3
+demi-serge d'Aumale,1,demi-serge d’Aumale,786
+demi-siamoise,1,demi-siamoise,786
 demi-soucis,1,demi-soucis,1
-demi-taffetas,1,,786
+demi-taffetas,1,demi-taffetas,786
 demille,0,demitte,184
 demitte,180,demitte,184
 demitte aune,4,demitte,184
@@ -7422,12 +7422,12 @@ doréas,9,doréas,9
 doréas brodées en couleur,1,doréas brodées en couleur,1
 doréas de Zurich,2,doréas de Zurich,2
 doréas mega,1,doréas mega,1
-dorgues gomme copale,1,,786
+dorgues gomme copale,1,gomme copale,786
 dorpins en pierre,0,dorpins en pierre,0
 dorure,12,dorure,12
 dorure ??? en faux,0,dorure fausse,78
 dorure de Zurich,1,dorure de Zurich,1
-dorure en épaulettes,1,,786
+dorure en épaulettes,1,épaulettes d’or,786
 dorure en paillettes faux,1,dorure fausse en paillettes,1
 dorure fausse,78,dorure fausse,78
 dorure fausse en or et argent,5,dorure fausse en or et argent,5
@@ -7527,7 +7527,7 @@ drap casimir,6,casimir de laine,11
 drap commun,26,drap commun,325
 drap commun d'Angleterre,1,drap commun d'Angleterre,1
 drap cordeillat,40,cordeillat,227
-drap cordeillat de Colmar,2,,786
+drap cordeillat de Colmar,2,cordeillat de Colmar,786
 drap cosinis,1,drap cosinis,1
 drap crêpe,2,drap crêpe,2
 drap crêpe de Reims,4,drap crêpe de Reims,4
@@ -7547,7 +7547,7 @@ drap d'aucrin,1,drap d'aucrin,1
 drap d'Aumale,2,drap d'Aumale,2
 drap d'Elbeuf,395,drap d'Elbeuf,608
 drap d'Elbeuf de retour,1,drap d'Elbeuf de retour,1
-drap d'Elbeuf en retour autorisé,1,,786
+drap d'Elbeuf en retour autorisé,1,drap d'Elbeuf de retour,786
 drap d'Espagne,11,drap d'Espagne,18
 drap d'Espagne aune,4,drap d'Espagne,18
 drap d'estame,1,drap d'estames,1
@@ -7570,7 +7570,7 @@ drap de castor aune,6,drap de castor,83
 drap de castor par aune,1,drap de castor,83
 drap de cave à l'homme,1,drap de cave à l'homme,1
 drap de Colmar,6,drap de Colmar,6
-drap de cordeillat,3,,786
+drap de cordeillat,3,cordeillat,786
 drap de coton,4,drap de coton,21
 drap de coton de Rouen,1,drap de coton de Rouen,1
 drap de Darnétal,15,drap de Darnétal,26
@@ -7637,7 +7637,7 @@ drap de laine du Languedoc,9,drap de Languedoc,150
 drap de laine du Nord,1,drap du Nord,12
 drap de laine du sceau,1,drap du sceau,1
 drap de laine écarlate,68,drap écarlate,178
-drap de laine élastique,1,,786
+drap de laine élastique,1,drap de laine élastique,786
 drap de laine étranger,3,drap étranger,3
 drap de laine fin,53,drap fin,145
 drap de laine fine,2,drap fin,145
@@ -7907,7 +7907,7 @@ draperie calmande,9,calmande,588
 draperie cammise,2,drap cammise,2
 draperie casimir,2,casimir de laine,11
 draperie commune,21,drap commun,325
-draperie cordeillat,1,,786
+draperie cordeillat,1,cordeillat,786
 draperie d'Amiens,8,drap d'Amiens,38
 draperie d'Angleterre,2,drap d'Angleterre,36
 draperie d'Auvergne,1,drap d'Auvergne,1
@@ -7916,12 +7916,12 @@ draperie de Carcassonne,3,drap de Carcassonne,218
 draperie de Champagne,1,drap de Champagne,1
 draperie de dauphine,1,drap de dauphine,1
 draperie de laine,15,drap,1364
-draperie de laine commune,1,,786
+draperie de laine commune,1,drap commun,786
 draperie de laine de Sedan,0,drap de Sedan,310
 draperie de laine diverse,0,drap,1364
 draperie de laine drap,2,drap,1364
 draperie de laine londrin,0,drap londrin,307
-draperie de laine petite,1,,786
+draperie de laine petite,1,drap petit,786
 draperie de laine pour les troupes,4,drap pour les troupes,4
 draperie de Languedoc fin,1,drap de Lyon,3
 draperie de Lyon,1,drap de Lyon,3
@@ -8078,7 +8078,7 @@ droguerie médicinale ipécacuanha,5,ipécacuanha,308
 droguerie médicinale jalap,4,jalap,479
 droguerie médicinale jus de réglisse,4,jus de réglisse,820
 droguerie médicinale manne,7,manne,967
-droguerie médicinale oignons d'esquilles,1,,786
+droguerie médicinale oignons d'esquilles,1,oignons d’esquilles,786
 droguerie médicinale peury,1,peury,1
 droguerie médicinale poudre d'ailhaud,2,poudre d'Ailhaud,34
 droguerie médicinale pour peintures et teinture diverse,2,drogues,2721
@@ -8131,7 +8131,7 @@ droguerie pour les peintures et la teinture galle,2,galle,807
 droguerie pour les peintures et la teinture huile de térébenthine,1,huile de térébenthine,344
 droguerie pour les peintures et la teinture indigo,1,indigo,6494
 droguerie pour les peintures et la teinture safranum,1,safranum,580
-droguerie pour les peintures et la teinture tartre,1,,786
+droguerie pour les peintures et la teinture tartre,1,tartre,786
 droguerie pour les peintures et la teinture verdet,1,verdet,2100
 droguerie pour les peintures et les coiffures,5,drogues pour peintures et coiffures,5
 droguerie pour peintures et teinture,11,drogues pour peintures et teinture,209
@@ -8160,7 +8160,7 @@ droguerie pour peintures et teinture noix de galle,2,noix de Galle,499
 droguerie pour peintures et teinture ocre en pierres,1,ocre en pierre,3
 droguerie pour peintures et teinture racines d'alizari,1,racines d'alizari,112
 droguerie pour peintures et teinture safranum,4,safranum,580
-droguerie pour peintures et teinture stil de grain,1,stil de grain,60
+droguerie pour peintures et teinture stil de grains,1,stil de grains,60
 droguerie pour peintures et teinture sumac,2,sumac,763
 droguerie pour peintures et teinture tartre,1,tartre,1609
 droguerie pour peintures et teinture térébenthine,2,térébenthine,1249
@@ -8195,14 +8195,14 @@ drogues à peindre,1,drogues à peindre,1
 drogues à teindre,10,drogues à teindre,19
 drogues alquifoux,1,alquifoux,489
 drogues alun,1,alun,2434
-drogues antimoine,1,,786
+drogues antimoine,1,antimoine,786
 drogues azur,1,azur,742
-drogues b,2,,786
+drogues boules vulnéraires,2,boules vulnéraires,786
 drogues baie de laurier,2,baie de laurier,28
 drogues benjoin,1,benjoin,153
-drogues bitume de Judée,1,,786
-drogues blanc d'oriol,1,,786
-drogues blanc de céruse,1,,786
+drogues bitume de Judée,1,bitume de Judée,786
+drogues blanc d'oriol,1,blanc d’oriol,786
+drogues blanc de céruse,1,blanc de céruse,786
 drogues blanc de plomb,1,blanc de plomb,52
 drogues bois de réglisse,1,bois de réglisse,70
 drogues borax,3,borax,362
@@ -8224,24 +8224,23 @@ drogues chimiques et métalliques ammoniac,6,ammoniac,7
 drogues chimiques et métalliques antimoine,1,antimoine,282
 drogues chimiques et métalliques antimoine cru,2,antimoine cru,27
 drogues chimiques et métalliques argent vif,1,mercure,699
-drogues chimiques et métalliques argent-vif,1,,786
 drogues chimiques et métalliques arsenic,1,arsenic,473
 drogues chimiques et métalliques diverses,1,drogues chimiques et métalliques,17
 drogues chimiques et métalliques eau-forte,0,eau-forte,514
 drogues chimiques et métalliques esprit de sel,0,esprit de sel,13
 drogues chimiques et métalliques mercure,0,mercure,699
-drogues chimiques et métalliques mercure précipité,1,,786
-drogues chimiques et métalliques mercure sublimé,1,,786
+drogues chimiques et métalliques mercure précipité,1,mercure précipité,786
+drogues chimiques et métalliques mercure sublimé,1,mercure sublimé,786
 drogues chimiques et métalliques odorantes encres,1,encre odorante,1
 drogues chimiques et métalliques régule d'antimoine,2,régule d'antimoine,11
 drogues chimiques et métalliques sel ammoniac,5,sel d'ammoniac,518
-drogues chimiques et métalliques sel arcanum,1,,786
-drogues chimiques et métalliques sel chimique,1,,786
+drogues chimiques et métalliques sel arcanum,1,sel arcanum,786
+drogues chimiques et métalliques sel chimique,1,sel chimique,786
 drogues chimiques et métalliques sel d'antimoine,2,sel d'antimoine,2
 drogues chimiques et métalliques sel d'Epsom,2,sel d'Epsom,208
-drogues chimiques et métalliques sel d'oseille,1,,786
+drogues chimiques et métalliques sel d'oseille,1,sel d’oseille,786
 drogues chimiques et métalliques sel de Glauber,0,acétates de plomb,285
-drogues chimiques et métalliques sel de lait,1,,786
+drogues chimiques et métalliques sel de lait,1,sel de lait,786
 drogues chimiques et métalliques sel de Saturne,2,acétates de plomb,285
 drogues chimiques et métalliques sel divers,2,sel chimique,303
 drogues chimiques et métalliques sel Saturne,8,acétates de plomb,285
@@ -8250,8 +8249,8 @@ drogues chimiques et métalliques vitriol,9,vitriol,535
 drogues chimiques et métalliques vitriol bleu,1,vitriol bleu,4
 drogues chimiques et métalliques zinc,3,zinc,53
 drogues chimiques huile de vitriol,2,huile de vitriol,399
-drogues chimiques litharge,2,,786
-drogues chimiques précipité,1,,786
+drogues chimiques litharge,2,litharge,786
+drogues chimiques précipité,1,précipité,786
 drogues chimiques sel,1,sel chimique,303
 drogues chimiques sel ammoniac,24,ammoniac et sel,26
 drogues chimiques sel ammoniaque,2,ammoniac et sel,26
@@ -8270,7 +8269,7 @@ drogues chimiques sel divers,2,sel chimique,303
 drogues chimiques sel gemme,2,sel gemme,47
 drogues chimiques sel Saturne,4,acétates de plomb,285
 drogues chimiques sel sublimé,2,sel sublimé,2
-drogues chimiques stil de grains,1,,786
+drogues chimiques stil de grains,1,stil de grains,786
 drogues chimiques sublimé,2,sublimé,143
 drogues chimiques vitriol,3,vitriol,535
 drogues cochenille,2,cochenille,1226
@@ -8306,7 +8305,7 @@ drogues composées pour médecine chévaque,0,chévaque,0
 drogues composées pour médecine jus de réglisse,3,jus de réglisse,820
 drogues composées pour médecine manne,8,manne,967
 drogues composées pour médecine opium,1,opium,234
-drogues composées pour médecine précipité,2,drogues composées pour médecine précipité,2
+drogues composées pour médecine précipité,2,précipité,2
 drogues composées pour médecine résines de jalap,1,résines de jalap,21
 drogues composées pour médecine sang dragon,2,sang de dragon,106
 drogues composées pour médecine scammonée,1,scammonée,192
@@ -8835,7 +8834,7 @@ drogues pour les peintures et la teinture rouge minéral,2,rouge minéral,2
 drogues pour les peintures et la teinture safaranum,1,,786
 drogues pour les peintures et la teinture safranum,17,safran,1535
 drogues pour les peintures et la teinture sanguine,3,sanguine,90
-drogues pour les peintures et la teinture stil de grain,2,stil de grain,60
+drogues pour les peintures et la teinture stil de grains,2,stil de grains,60
 drogues pour les peintures et la teinture sumac,13,sumac,763
 drogues pour les peintures et la teinture tartre,12,tartre,1609
 drogues pour les peintures et la teinture tartre blanc,1,,786
@@ -8869,7 +8868,7 @@ drogues pour les peintures et teinture indigo,12,indigo,6494
 drogues pour les peintures et teinture litharge,1,litharge,604
 drogues pour les peintures et teinture pae ???,1,drogues pour peintures et teinture pae ???,1
 drogues pour les peintures et teinture pastel,3,pastel,97
-drogues pour les peintures et teinture stil de grain,2,,786
+drogues pour les peintures et teinture stil de grains,2,,786
 drogues pour les peintures et teinture sumac,2,,786
 drogues pour les peintures et teinture tartre,1,tartre,1609
 drogues pour les peintures et teinture tartre blanc,6,tartre blanc,7
@@ -8897,7 +8896,7 @@ drogues pour les peintures racines d'alizari,4,racines d'alizari,112
 drogues pour les peintures safranum,1,,786
 drogues pour les peintures sanguine,2,sanguine,90
 drogues pour les peintures séné,1,,786
-drogues pour les peintures stil de grain,3,stil de grain,60
+drogues pour les peintures stil de grains,3,stil de grains,60
 drogues pour les peintures sumac,1,sumac,763
 drogues pour les peintures térébenthine,21,térébenthine,1249
 drogues pour les peintures terra merita,1,terra merita,1
@@ -9157,7 +9156,7 @@ eau de fleurs de senteur,1,eau de fleurs de senteur,1
 eau de fleurs fortes,1,eau de fleurs fortes,1
 eau de garance,2,eau de garance,2
 eau de genièvre,10,eau de genièvre,11
-eau de grain,1,eau de grain,1
+eau de grains,1,eau de grains,1
 eau de Hongrie,7,eau de Hongrie,7
 eau de jasmin,1,eau de jasmin,1
 eau de la ???,1,eau de senteur de la reine de Hongrie,543
@@ -9300,7 +9299,7 @@ eau-de-vie de cidre,6,eau-de-vie de cidre,6
 eau-de-vie de Cognac,13,eau-de-vie de Cognac,13
 eau-de-vie de Dantzig,5,eau-de-vie de Dantzig,5
 eau-de-vie de genièvre,50,eau-de-vie de genièvre,61
-eau-de-vie de genièvre et de grain,0,eau-de-vie de genièvre,61
+eau-de-vie de genièvre et de grains,0,eau-de-vie de genièvre,61
 eau-de-vie de genièvre relifiée,1,,786
 eau-de-vie de genièvre simple,4,eau-de-vie de genièvre simple,5
 eau-de-vie de grains,5,eau-de-vie de grains,5
@@ -10309,7 +10308,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de laine frisarde,1,frisade de laine,1
 étoffe de laine frisette,1,frisette de laine,1
 étoffe de laine futaine,5,futaine de laine,5
-étoffe de laine grain d'orge,1,étoffe de laine grains d'orge,1
+étoffe de laine grains d'orge,1,étoffe de laine grains d'orge,1
 étoffe de laine grisette,1,grisette de laine,2
 étoffe de laine grosse,1,étoffe de laine grosse,1
 étoffe de laine impériale,1,impériale de laine,1
@@ -13545,7 +13544,7 @@ grabeau manelle,1,manelle en grabeau,1
 grabot de mine,1,mine en grabeau,1
 grai gras,1,brai gras,673
 grai rouge,1,grès rouge,1
-grain froment,1,froment,1
+grains froment,1,froment,1
 graine,17,graine,123
 graine ?,1,graine ???,2
 graine ???,1,graine ???,2
@@ -14539,7 +14538,7 @@ huile de gaïac,1,huile de gaïac,1
 huile de genièvre,17,huile de genièvre,17
 huile de girofle,47,huile de girofle,49
 huile de girofle et de sassafras,1,huile de girofle et sassafras,1
-huile de grain,1,huile de graine,632
+huile de grains,1,huile de graine,632
 huile de graine,530,huile de graine,632
 huile de graine d'anis,1,huile de graine d'anis,1
 huile de graine d'olive,1,huile de graine d'olive,1
@@ -16693,7 +16692,7 @@ matières premières graine diverse,18,graine,123
 matières premières graine diverse et de lin,10,graine et graine de lin,10
 matières premières houblon,2,houblon,438
 matières premières huile d'olive pour fabrique,20,huile d'olive pour fabrique,249
-matières premières huile de grain,4,huile de grain,4
+matières premières huile de grains,4,huile de grains,4
 matières premières huile de graine,14,huile de graine,632
 matières premières huile de poisson,28,huile de poisson,1898
 matières premières indigo,70,indigo,6494
@@ -17959,10 +17958,10 @@ moulins à café doux,1,moulins à café doux,1
 moulins à déssécher,1,moulins à dessécher,1
 moulins à dévider soie,1,moulins à dévider soie,1
 moulins à filer,5,moulins à filer,5
-moulins à grains,2,moulins à grain,2
+moulins à grains,2,moulins à grains,2
 moulins à lapidaire,1,moulins à lapidaire,1
 moulins à maïs,12,moulins à maïs,12
-moulins à moudre grains,5,moulins à moudre grain,5
+moulins à moudre grains,5,moulins à moudre grains,5
 moulins à moutarde,2,moulins à moutarde,2
 moulins à poivre,16,moulins à poivre,17
 moulins à poivre et à café,1,moulins à poivre et à café,1
@@ -18108,7 +18107,7 @@ muscades rondes,4,muscades rondes,4
 muscat,1,raisin muscat,1
 muscat à l'eau-de-vie,2,raisin muscat à l'eau-de-vie,2
 muse,3,muse,3
-muse en grain ?,1,muse en grain ?,1
+muse en grains ?,1,muse en grains ?,1
 musettes organisées,1,musettes organisées,1
 musique,21,musique,21
 musique gravée,8,musique gravée,8
@@ -20445,7 +20444,7 @@ peaux de veau en blanc,48,peaux de veau en blanc,48
 peaux de veau en chamois,9,peaux de veau en chamois,9
 peaux de veau en couleurs,8,peaux teintes de veau,8
 peaux de veau en croûte,1,peaux de veau en croûte,1
-peaux de veau en grains,1,peaux de veau en grain,1
+peaux de veau en grains,1,peaux de veau en grains,1
 peaux de veau en magie,1,peaux de veau en magie,1
 peaux de veau en mégie,2,peaux de veau en mégie,2
 peaux de veau en parchemin,3,peaux de veau en parchemin,3
@@ -21326,7 +21325,7 @@ pilules de Belloste,1,pilules de Belloste,1
 pilules et opiat,1,opiat et pilules,1
 piment,496,piment,521
 piment des entrepôts,0,piment des entrepôts,0
-piment en grain,1,piment en grain,1
+piment en grains,1,piment en grains,1
 pinasse,31,pinasse,31
 pince de fer,3,pince de fer,4
 pinceaux,144,pinceaux,144
@@ -24238,8 +24237,8 @@ seigle en gerbes,21,grains seigle en gerbes,21
 seigle et bâtons,2,marchandises,7829
 seigle et blé,1,grains seigle et blé,1
 seigle et maïs farine,5,maïs et seigle farine,5
-seigle et maïs grains,5,maïs et seigle grain,5
-seigle et maïs grains de la Corse,1,maïs et seigle de Corse grain,1
+seigle et maïs grains,5,maïs et seigle grains,5
+seigle et maïs grains de la Corse,1,maïs et seigle de Corse grains,1
 seigle maïs et autres menus grains,1,grains,9
 sel,13195,sel,13262
 sel (Sables d'Olonne),1,sel du Sable d'Olonne,1
@@ -24345,7 +24344,7 @@ sel faux,2,,786
 sel gemme,33,sel gemme,47
 sel Glauber,6,sel Glauber,6
 sel gomme,1,sel en gomme,1
-sel grains,4,sel en grain,4
+sel grains,4,sel en grains,4
 sel gris,84,sel gris,84
 sel gruau,1,sel gruau,1
 sel grum,10,sel grum,10
@@ -25059,7 +25058,7 @@ spirinck,49,spirinck,49
 spode,3,spode,3
 sprottes,1,sprottes,1
 square,1,square,1
-squille de grain,4,squille de grain,4
+squille de grains,4,squille de grains,4
 squine,148,squine,154
 squines,2,squine,154
 stafisagre,26,stafisagre,33
@@ -25070,9 +25069,9 @@ stechas arabique,1,stechas arabique,1
 stephais,1,stephais,1
 sthouchais,1,sthouchais,1
 stil de bois,1,stil de bois,1
-stil de grains,52,stil de grain,60
+stil de grains,52,stil de grains,60
 stil de grains et vermillon,1,stil de grains et vermillon,1
-stil grains,2,stil de grain,60
+stil grains,2,stil de grains,60
 stinkerque,28,stinkerque,28
 stinkerque à barre,1,stinkerque à barre,1
 stinkerque brodées,1,stinkerque brodées,1
