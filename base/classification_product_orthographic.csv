@@ -294,12 +294,12 @@ source,nb_occurence_BdCFR,nbr_occurences_source,orthographic,note,obsolete,nbr_o
 "1///Matières premières///Poil de chèvre, lièvre et lapin",8,8,matières premières poil de chèvre lièvre et lapin,,non,9
 1///Matières premières///Soie,18,18,matières premières soie,,non,30
 1///Matières premières///Soie et filoselle,35,35,matières premières soie et filoselle,,non,35
-"1///Subsistances///Bestiaux en Bœufs, vaches, porcs, moutons",6,6,subsistances bestiaux en bœuf vaches porcs moutons,,non,17
-"1///Subsistances///Bestiaux en bœufs, vaches, porcs, moutons",5,5,subsistances bestiaux en bœuf vaches porcs moutons,,non,17
-"1///Subsistances///Bestiaux en bœufs, vaches, veaux, porcs et moutons",6,6,subsistances bestiaux en bœuf vaches veaux porcs et moutons,,non,12
-"1///Subsistances///Bestiaux en bœufs,vaches, veaux, porcs et moutons",6,6,subsistances bestiaux en bœuf vaches veaux porcs et moutons,,non,12
-"1///Subsistances///Bestiaux en bœufs,vaches,porcs moutons",6,6,subsistances bestiaux en bœuf vaches porcs moutons,,non,17
-"1///Subsistances///Bestiaux en bœufs,vaches,veaux et moutons",6,6,subsistances bestiaux en bœuf vaches veaux et moutons,,non,6
+"1///Subsistances///Bestiaux en Bœufs, vaches, porcs, moutons",6,6,subsistances bestiaux en bœuf vaches porcs mouton,,non,17
+"1///Subsistances///Bestiaux en bœufs, vaches, porcs, moutons",5,5,subsistances bestiaux en bœuf vaches porcs mouton,,non,17
+"1///Subsistances///Bestiaux en bœufs, vaches, veaux, porcs et moutons",6,6,subsistances bestiaux en bœuf vaches veaux porcs et mouton,,non,12
+"1///Subsistances///Bestiaux en bœufs,vaches, veaux, porcs et moutons",6,6,subsistances bestiaux en bœuf vaches veaux porcs et mouton,,non,12
+"1///Subsistances///Bestiaux en bœufs,vaches,porcs moutons",6,6,subsistances bestiaux en bœuf vaches porcs mouton,,non,17
+"1///Subsistances///Bestiaux en bœufs,vaches,veaux et moutons",6,6,subsistances bestiaux en bœuf vaches veaux et mouton,,non,6
 1///Subsistances///Beurre,8,8,subsistances beurre,,non,25
 1///Subsistances///Bière,3,3,subsistances bière,,non,3
 "1///Subsistances///Bière, cidre et vinaigre",1,1,subsistances bière cidre et vinaigre,,non,1
@@ -3115,7 +3115,7 @@ Bestiaux ; agneaux,8,8,bestiaux agneaux,,non,16
 Bestiaux ; ânes,1,1,bestiaux ânes,,non,2
 Bestiaux ; Bœufs,12,12,bestiaux bœufs,,non,58
 Bestiaux ; bœufs,41,41,bestiaux bœufs,,non,58
-Bestiaux ; bœufs ; moutons etc,1,1,bestiaux bœuf moutons etc.,,non,1
+Bestiaux ; bœufs ; moutons etc,1,1,bestiaux bœuf mouton etc.,,non,1
 Bestiaux ; bœufs et vaches,2,2,bestiaux bœuf et vaches,,non,3
 Bestiaux ; Boucs,4,4,bestiaux boucs,,non,5
 Bestiaux ; brebis,5,5,bestiaux brebis,,non,14
@@ -3136,7 +3136,7 @@ Bestiaux ; en bœufs,4,4,bestiaux en bœuf,,non,5
 Bestiaux ; en bœufs ; gras,1,1,bestiaux en bœuf gras,,non,2
 Bestiaux ; en boucs,1,1,bestiaux en boucs,,non,3
 Bestiaux ; en genisses,2,2,bestiaux en génisses,,non,3
-Bestiaux ; en moutons,1,1,bestiaux en moutons,,non,11
+Bestiaux ; en moutons,1,1,bestiaux en mouton,,non,11
 Bestiaux ; en porc,1,1,bestiaux en porcs,,non,15
 Bestiaux ; en porcelets,1,1,bestiaux en porcelets,,non,2
 Bestiaux ; en porcs ; gras,1,1,bestiaux en porcs gras,,non,2
@@ -3151,11 +3151,11 @@ Bestiaux ; en veaux ; pour ?,1,1,bestiaux en veaux pour ???,,non,1
 Bestiaux ; Genisses,11,11,bestiaux génisses,,non,41
 Bestiaux ; genisses,18,18,bestiaux génisses,,non,41
 Bestiaux ; génisses,2,2,bestiaux génisses,,non,41
-Bestiaux ; mouton,2,2,bestiaux moutons,,non,83
-Bestiaux ; Moutons,11,11,bestiaux moutons,,non,83
-Bestiaux ; moutons,28,28,bestiaux moutons,,non,83
-Bestiaux ; moutons ; gras,1,1,bestiaux moutons gras,,non,1
-Bestiaux ; moutons et brebis,12,12,bestiaux moutons et brebis,,non,12
+Bestiaux ; mouton,2,2,bestiaux mouton,,non,83
+Bestiaux ; Moutons,11,11,bestiaux mouton,,non,83
+Bestiaux ; moutons,28,28,bestiaux mouton,,non,83
+Bestiaux ; moutons ; gras,1,1,bestiaux mouton gras,,non,1
+Bestiaux ; moutons et brebis,12,12,bestiaux mouton et brebis,,non,12
 Bestiaux ; mules et mulets,6,6,bestiaux mules et mulets,,non,7
 Bestiaux ; Porcelets,4,4,bestiaux porcelets,,non,6
 Bestiaux ; porcelets,2,2,bestiaux porcelets,,non,6
@@ -3195,20 +3195,20 @@ Bestiaux de somme chevaux pour les haras,1,1,bestiaux de somme chevaux pour le h
 Bestiaux de toutes sortes,3,3,bestiaux de toute sorte,,non,3
 Bestiaux divers,28,28,bestiaux divers,,non,66
 Bestiaux divers ; bœuf et vaches,1,1,bestiaux divers bœufs et vaches,,non,1
-Bestiaux divers ; moutons et brebis,1,1,bestiaux divers moutons et brebis,,non,2
+Bestiaux divers ; moutons et brebis,1,1,bestiaux divers mouton et brebis,,non,2
 Bestiaux divers ; mules mulets et ânes,1,1,bestiaux divers mules mulets et ânes,,non,1
 Bestiaux divers ; porcs et porcelets,1,1,bestiaux divers porcs et porcelets,,non,1
 Bestiaux divers;,5,5,bestiaux divers,,non,66
 Bestiaux divers; Agneaux,2,2,bestiaux divers agneaux,,non,2
 Bestiaux divers; Bœufs,4,4,bestiaux divers bœufs,,non,4
 Bestiaux divers; Brebis,1,1,bestiaux divers brebis,,non,1
-Bestiaux divers; Brebis et moutons,1,1,bestiaux divers brebis et moutons,,non,1
+Bestiaux divers; Brebis et moutons,1,1,bestiaux divers brebis et mouton,,non,1
 Bestiaux divers; Chevaux,2,2,bestiaux divers chevaux,,non,2
 Bestiaux divers; Chevres,1,1,bestiaux divers chèvres,,non,1
 Bestiaux divers; Cochons,1,1,bestiaux divers cochons,,non,1
 Bestiaux divers; Genisses,1,1,bestiaux divers génisses,,non,1
-Bestiaux divers; Moutons,3,3,bestiaux divers moutons,,non,3
-Bestiaux divers; Moutons et brebis,1,1,bestiaux divers moutons et brebis,,non,2
+Bestiaux divers; Moutons,3,3,bestiaux divers mouton,,non,3
+Bestiaux divers; Moutons et brebis,1,1,bestiaux divers mouton et brebis,,non,2
 Bestiaux divers; Mules et mulets,2,2,bestiaux divers mules et mulets,,non,2
 Bestiaux divers; Mulets,1,1,bestiaux divers mulets,,non,1
 Bestiaux divers; Porcs,2,2,bestiaux divers porcs,,non,2
@@ -3224,13 +3224,13 @@ Bestiaux en animaux,3,3,bestiaux en animaux,,non,3
 Bestiaux en boeufs,8,8,bestiaux en bœufs,,non,18
 Bestiaux en bœufs,10,10,bestiaux en bœufs,,non,18
 Bestiaux en bœufs ; génisses et vaches,1,1,bestiaux en bœufs génisses et vaches,,non,1
-"Bestiaux en bœufs, vaches porcs, moutons",6,6,bestiaux en bœufs vaches porcs moutons,,non,71
-"Bestiaux en bœufs, vaches, porcs et moutons",29,29,bestiaux en bœufs vaches porcs et moutons,,non,35
-"Bestiaux en bœufs, vaches, porcs moutons",5,5,bestiaux en bœufs vaches porcs moutons,,non,71
-"Bestiaux en bœufs, vaches, porcs, et moutons",6,6,bestiaux en bœufs vaches porcs et moutons,,non,35
-"Bestiaux en bœufs, vaches, porcs, moutons",60,60,bestiaux en bœufs vaches porcs moutons,,non,71
-"Bestiaux en bœufs, vaches, veaux, moutons, etc",7,7,bestiaux en bœufs vaches veaux moutons etc.,,non,7
-"Bestiaux en bœufs, vaches, veaux, porcs et moutons",55,55,bestiaux en bœufs vaches veaux porcs et moutons,,non,55
+"Bestiaux en bœufs, vaches porcs, moutons",6,6,bestiaux en bœufs vaches porcs mouton,,non,71
+"Bestiaux en bœufs, vaches, porcs et moutons",29,29,bestiaux en bœufs vaches porcs et mouton,,non,35
+"Bestiaux en bœufs, vaches, porcs moutons",5,5,bestiaux en bœufs vaches porcs mouton,,non,71
+"Bestiaux en bœufs, vaches, porcs, et moutons",6,6,bestiaux en bœufs vaches porcs et mouton,,non,35
+"Bestiaux en bœufs, vaches, porcs, moutons",60,60,bestiaux en bœufs vaches porcs mouton,,non,71
+"Bestiaux en bœufs, vaches, veaux, moutons, etc",7,7,bestiaux en bœufs vaches veaux mouton etc.,,non,7
+"Bestiaux en bœufs, vaches, veaux, porcs et moutons",55,55,bestiaux en bœufs vaches veaux porcs et mouton,,non,55
 Bestiaux en boucs,2,2,bestiaux en boucs,,non,3
 Bestiaux en brebis,1,1,bestiaux en brebis,,non,1
 Bestiaux en chevaux,3,3,bestiaux en chevaux,,non,3
@@ -3238,8 +3238,8 @@ Bestiaux en chevres,7,7,bestiaux en chèvres,,non,7
 Bestiaux en cochon de lait,1,1,bestiaux en cochons de lait,,non,1
 Bestiaux en genisses,1,1,besiaux en génisses,,non,1
 Bestiaux en génisses,1,1,bestiaux en génisses,,non,3
-Bestiaux en moutons,10,10,bestiaux en moutons,,non,11
-Bestiaux en moutons et brebis,1,1,bestiaux en moutons et brebis,,non,1
+Bestiaux en moutons,10,10,bestiaux en mouton,,non,11
+Bestiaux en moutons et brebis,1,1,bestiaux en mouton et brebis,,non,1
 Bestiaux en porcelets,1,1,bestiaux en porcelets,,non,2
 Bestiaux en porcs,14,14,bestiaux en porcs,,non,15
 Bestiaux en porcs et porcelets,1,1,bestiaux en porcs et porcelets,,non,2
@@ -3261,7 +3261,7 @@ Bestiaux et bêtes ; de somme ; cheveaux,2,2,bestiaux et bêtes de somme chevaux
 Bestiaux et bêtes ; de somme ; chevron,1,1,bestiaux et bêtes de somme chevrons,,non,1
 Bestiaux et bêtes ; de somme ; genisses,0,0,bestiaux et bêtes de somme génisses,,oui,1
 Bestiaux et bêtes ; de somme ; juments,0,0,bestiaux et bêtes de somme juments,,oui,1
-Bestiaux et bêtes ; de somme ; moutons,2,2,bestiaux et bêtes de somme moutons,,non,7
+Bestiaux et bêtes ; de somme ; moutons,2,2,bestiaux et bêtes de somme mouton,,non,7
 Bestiaux et bêtes ; de somme ; mules,2,2,bestiaux et bêtes de somme mules,,non,4
 Bestiaux et bêtes ; de somme ; mules et mulets,5,5,bestiaux et bêtes de somme mules et mulets,,non,6
 Bestiaux et bêtes ; de somme ; porcs,2,2,bestiaux et bêtes de somme porcs,,non,6
@@ -3278,7 +3278,7 @@ Bestiaux et bêtes de somme chèvres,1,1,bestiaux et bêtes de somme chèvres,,n
 Bestiaux et bêtes de somme en chevaux,1,1,bestiaux et bêtes de somme en chevaux,,non,1
 Bestiaux et bêtes de somme genisses,1,1,bestiaux et bêtes de somme génisses,,non,1
 Bestiaux et bêtes de somme juments,1,1,bestiaux et bêtes de somme juments,,non,1
-Bestiaux et bêtes de somme moutons,1,1,bestiaux et bêtes de somme moutons,,non,7
+Bestiaux et bêtes de somme moutons,1,1,bestiaux et bêtes de somme mouton,,non,7
 Bestiaux et betes de somme mules et mulets,1,1,bestiaux et bêtes de somme mules et mulets,,non,6
 Bestiaux et bêtes de somme mulets,1,1,bestiaux et bêtes de somme mulets,,non,1
 Bestiaux et bêtes de somme porcs,1,1,bestiaux et bêtes de somme porcs,,non,6
@@ -3287,23 +3287,23 @@ Bestiaux et bêtes de somme vaches,1,1,bestiaux et bêtes de somme vaches,,non,4
 Bestiaux et bêtes de somme veaux,2,2,bestiaux et bêtes de somme veaux,,non,3
 Bestiaux et bêtes de sommes ; bœufs et vaches,2,2,bestiaux et bêtes de somme bœuf et vaches,,non,2
 Bestiaux et bêtes de sommes ; chevaux,2,2,bestiaux et bêtes de somme chevaux,,non,5
-Bestiaux et bêtes de sommes ; moutons,2,2,bestiaux et bêtes de somme moutons,,non,7
+Bestiaux et bêtes de sommes ; moutons,2,2,bestiaux et bêtes de somme mouton,,non,7
 Bestiaux et bêtes de sommes ; porcs,2,2,bestiaux et bêtes de somme porcs,,non,6
 Bestiaux et bêtes de sommes ; veaux,1,1,bestiaux et bêtes de somme veaux,,non,3
 Bestiaux et bêtes de sommes bœufs,3,3,bestiaux et bêtes de somme bœufs,,non,4
 Bestiaux et bêtes de sommes divers,2,2,bestiaux et bêtes de somme divers,,non,2
-Bestiaux et bêtes de sommes moutons,2,2,bestiaux et bêtes de somme moutons,,non,7
+Bestiaux et bêtes de sommes moutons,2,2,bestiaux et bêtes de somme mouton,,non,7
 Bestiaux et bêtes de sommes mules,2,2,bestiaux et bêtes de somme mules,,non,4
 Bestiaux et bêtes de sommes porcs,1,1,bestiaux et bêtes de somme porcs,,non,6
 Bestiaux et bêtes de sommes vaches,2,2,bestiaux et bêtes de somme vaches,,non,4
-Bestiaux et betes moutons,1,1,bestiaux et bêtes moutons,,non,1
+Bestiaux et betes moutons,1,1,bestiaux et bêtes mouton,,non,1
 Bestiaux et betes vaches,1,1,bestiaux et bêtes vaches,,non,1
 Bestiaux et betes veaux,1,1,bestiaux et bêtes veaux,,non,1
 Bestiaux genisses,4,4,bestiaux génisses,,non,41
 Bestiaux génisses,6,6,bestiaux génisses,,non,41
 Bestiaux juments,2,2,bestiaux juments,,non,2
-Bestiaux Moutons,2,2,bestiaux moutons,,non,83
-Bestiaux moutons,37,37,bestiaux moutons,,non,83
+Bestiaux Moutons,2,2,bestiaux mouton,,non,83
+Bestiaux moutons,37,37,bestiaux mouton,,non,83
 Bestiaux mules,2,2,bestiaux mules,,non,2
 Bestiaux mules et mulets,1,1,bestiaux mules et mulets,,non,7
 Bestiaux mulets,1,1,bestiaux mulets,,non,1
@@ -3325,7 +3325,7 @@ Bestiaux; Chevres,3,3,bestiaux chèvres,,non,26
 Bestiaux; Cochons,2,2,bestiaux cochons,,non,18
 Bestiaux; Cochons petits,1,1,bestiaux cochons petits,,non,2
 Bestiaux; Divers,3,3,bestiaux divers,,non,66
-Bestiaux; Moutons,3,3,bestiaux moutons,,non,83
+Bestiaux; Moutons,3,3,bestiaux mouton,,non,83
 Bestiaux; Taureaux,1,1,bestiaux taureaux,,non,44
 Bestiaux; Vaches,3,3,bestiaux vaches,,non,99
 Bestiaux; Veaux,1,1,bestiaux veaux,,non,57
@@ -3434,7 +3434,7 @@ Beufs ; Salé,3,3,bœuf salé,,non,1523
 Beufs ; salé,122,122,bœuf salé,,non,1523
 Beufs ; salés,9,9,bœuf salé,,non,1523
 Beufs en vie,6,6,beurre,,non,2606
-Beufs vaches moutons &c.,1,1,bœufs et vaches et moutons etc.,,non,1
+Beufs vaches moutons &c.,1,1,bœufs et vaches et mouton etc.,,non,1
 Beujoin,1,1,benjoin,,non,143
 Beure,547,547,beurre,,non,2606
 Beure ; commun,4,4,beurre commun,,non,4
@@ -7897,8 +7897,8 @@ Brayses,1,1,brai sec,,non,658
 Bré sec,11,11,brai sec,,non,658
 Brebis,9,9,brebis,,non,9
 Brebis en vie,1,1,brebis en vie,,non,1
-"Brebis et moutons, brebis",1,1,brebis et moutons brebis,,non,1
-"Brebis et moutons, moutons",1,1,brebis et moutons moutons,,non,1
+"Brebis et moutons, brebis",1,1,brebis et mouton brebis,,non,1
+"Brebis et moutons, moutons",1,1,brebis et mouton mouton,,non,1
 Bresil,1,1,Brésil,,non,1
 Brey gras,1,1,brai gras,,non,672
 Brian,1,1,brian,,non,1
@@ -13109,7 +13109,7 @@ Cordage pourri,2,2,cordage pourri,,non,2
 Cordage refait,2,2,cordage refait,,non,2
 Cordage vieux,8,8,cordage vieux,,non,44
 Cordage; De chanvre,1,1,cordage de chanvre,,non,763
-Cordage; Herbe,1,1,cordage herbe,,non,1
+Cordage; Herbe,1,1,cordage herbes,,non,1
 Cordages,519,610,cordage,,non,792
 Cordages ; ???,3,3,cordage ???,,non,3
 Cordages ; à boyaux,1,1,cordage à boyaux,,non,1
@@ -17976,7 +17976,7 @@ Drogue chimique eau forte,2,2,drogues chimiques eau-forte,,non,18
 Drogue d'apoticaire,2,2,drogues d'apothicaire,,non,61
 Drogue d'apotiquaire,2,2,drogues d'apothicaire,,non,61
 Drogue d'appoticaire,1,1,drogues d'apothicaire,,non,61
-Drogue de peinture en ocre rouge,1,1,drogues de peinture en ocre rouge,,non,1
+Drogue de peinture en ocre rouge,1,1,drogues de peintures en ocre rouge,,non,1
 Drogue de Soye,1,1,droguet de soie,,non,17
 Drogué de soye,1,1,droguet de soie,,non,17
 Drogue médicinale en rhubarbe composée,3,3,drogues médicinales en rhubarbe composée,,non,3
@@ -18517,7 +18517,7 @@ Drogues ; médecinales ; diverses,7,7,drogues médicinales diverses,,non,128
 Drogues ; Médécinales ; Diverses,25,25,drogues médicinales diverses,,non,128
 Drogues ; médécinales ; diverses,13,13,drogues médicinales diverses,,non,128
 Drogues ; Médécinales ; Eau sederale,1,1,drogues médicinales eau sederale,x,non,1
-Drogues ; Médécinales ; Eau vulneraire,1,1,drogues médicinales eaux vulnéraires,,non,1
+Drogues ; Médécinales ; Eau vulneraire,1,1,drogues médicinales eau vulnéraire,,non,1
 Drogues ; médecinales ; en camomille,1,1,drogues médicinales en camomille,,non,1
 Drogues ; Médécinales ; Extrait ***,0,0,drogues médicinales extrait ???,,oui,0
 Drogues ; Médécinales ; Extrait d'absinthe,1,1,drogues médicinales extrait d'absinthe,,non,1
@@ -18707,8 +18707,8 @@ Drogues ; médicinales ; mouches cantharides,2,2,drogues médicinales mouches ca
 Drogues ; médicinales ; opium,1,1,drogues médicinales opium,,non,10
 Drogues ; médicinales ; orge ; perlée,1,1,drogues médicinales orge perlé,,non,3
 Drogues ; médicinales ; pignons doux,1,1,drogues médicinales pignons doux,,non,1
-Drogues ; médicinales ; pirette,1,1,drogues médicinales pirrestre,,non,1
-Drogues ; médicinales ; pirrestre,0,0,drogues médicinales pirrestre,,oui,1
+Drogues ; médicinales ; pirette,1,1,drogues médicinales pyrèthre,,non,1
+Drogues ; médicinales ; pirrestre,0,0,drogues médicinales pyrèthre,,oui,1
 Drogues ; medicinales ; quinquina,2,2,drogues médicinales quinquina,,non,50
 Drogues ; médicinales ; quinquina,8,8,drogues médicinales quinquina,,non,50
 Drogues ; médicinales ; réglisse,1,1,drogues médicinales réglisse,,non,7
@@ -19487,7 +19487,7 @@ Drogues pour la peinture et teinture ; littarge,2,2,drogues pour les peintures e
 Drogues pour la peinture et teinture ; mine de plomb,1,1,drogues pour les peintures et la teinture mine de plomb,,non,11
 Drogues pour la peinture et teinture ; noix d'yvoire,1,1,drogues pour les peintures et la teinture noix d'ivoire,,non,1
 Drogues pour la peinture et teinture ; noix de Galles,1,1,drogues pour les peintures et la teinture noix de galle,,non,21
-Drogues pour la peinture et teinture ; saffranum,1,1,drogues pour les peintures et la teinture safaranum,,non,1
+Drogues pour la peinture et teinture ; saffranum,1,1,drogues pour les peintures et la teinture safranum,,non,1
 Drogues pour la peinture et teinture ; stil de grain,2,2,drogues pour les peintures et teinture stil de grains,,non,2
 Drogues pour la peinture et teinture ; sumach,2,2,drogues pour les peintures et teinture sumac,,non,2
 Drogues pour la peinture et teinture ; terebenttine en patte,4,4,drogues pour les peintures et teinture térébenthine,,non,4
@@ -19500,7 +19500,7 @@ Drogues pour la peinture et teinture; Cerise,1,1,drogues pour les peintures et t
 Drogues pour la peinture et teinture; Couperose,1,1,drogues pour les peintures et teinture couperose,,non,1
 Drogues pour la peinture et teinture; Litharge,1,1,drogues pour les peintures et teinture litharge,,non,1
 Drogues pour la peinture galles,1,1,drogues pour les peintures galle,,non,2
-Drogues pour la peinture garance en herbes,2,2,drogues pour le peinture garance en herbes,,non,2
+Drogues pour la peinture garance en herbes,2,2,drogues pour le peintures garance en herbes,,non,2
 Drogues pour la peinture garance en racine,1,1,drogues pour les peintures garance en racines,,non,1
 Drogues pour la peinture garance moulue,1,1,drogues pour les peintures garance moulue,,non,1
 Drogues pour la peinture orseille,1,1,drogues pour les peintures orseille,,non,1
@@ -19555,7 +19555,7 @@ Drogues pour peinture et teinture ; indigo,6,6,drogues pour peintures et teintur
 Drogues pour peinture et teinture ; mine de plomb,1,1,drogues pour peintures et teinture mine de plomb,,non,4
 Drogues pour peinture et teinture ; minium,1,1,drogues pour peintures et teinture minium,,non,3
 Drogues pour peinture et teinture ; noir de fumée,1,1,drogues pour peintures et teinture noir de fumée,,non,3
-Drogues pour peinture et teinture ; peinture,1,1,drogues pour peintures et teinture peinture,,non,1
+Drogues pour peinture et teinture ; peinture,1,1,drogues pour peintures et teinture peintures,,non,1
 Drogues pour peinture et teinture ; rocou,1,1,drogues pour peintures et teinture rocou,,non,5
 Drogues pour peinture et teinture ; saffranum,1,1,drogues pour peintures et teinture safranum,,non,18
 Drogues pour peinture et teinture ; sumac,1,1,drogues pour peintures et teinture sumac,,non,16
@@ -19589,7 +19589,7 @@ Drogues pour peinture et teinture Garance,1,1,drogues pour peintures et teinture
 Drogues pour peinture et teinture garance,6,6,drogues pour peintures et teinture garance,,non,32
 Drogues pour peinture et teinture garence,3,3,drogues pour peintures et teinture garance,,non,32
 Drogues pour peinture et teinture gaude,2,2,drogues pour peintures et teinture gaude,,non,2
-Drogues pour peinture et teinture gaude (herbe),1,1,drogues pour peintures et teinture gaude herbe,,non,1
+Drogues pour peinture et teinture gaude (herbe),1,1,drogues pour peintures et teinture gaude herbes,,non,1
 Drogues pour peinture et teinture graine jaune,1,1,drogues pour peintures et teinture graine jaune,,non,1
 Drogues pour peinture et teinture huile de garonne,1,1,drogues pour peintures et teinture huile de Garonne,,non,1
 Drogues pour peinture et teinture Indigo,2,2,drogues pour peintures et teinture indigo,,non,32
@@ -19631,7 +19631,7 @@ Drogues pour teinture et peinture ; garance,1,1,drogues pour teinture et peintur
 Drogues pour teinture et peinture ; gros rouge,1,1,drogues pour teinture et peintures gros rouge,,non,1
 Drogues pour teinture et peinture ; indigo,1,1,drogues pour teinture et peintures indigo,,non,2
 Drogues pour teinture et peinture ; minium,2,2,drogues pour teinture et peintures minium,,non,2
-Drogues pour teinture et peinture ; peinture,1,1,drogues pour teinture et peintures peinture,,non,1
+Drogues pour teinture et peinture ; peinture,1,1,drogues pour teinture et peintures peintures,,non,1
 Drogues pour teinture et peinture diverses,1,1,drogues pour teinture et peintures diverses,,non,1
 Drogues pour teinture tartre,1,1,drogues pour teinture tarte,,non,1
 Drogues pour teintures et peintures ; blanc d'Espagne,1,1,drogues pour teinture et peintures blanc d'Espagne,,non,1
@@ -19986,9 +19986,9 @@ Eau ; roze,14,14,eau roze,x,non,14
 Eau ; sans pareille,4,4,eau sans pareille,,non,7
 Eau ; spa,2,2,eau Spa,,non,2
 Eau ; spiritueuse,2,2,eau spiritueuse,,non,14
-Eau ; vulnenaire,2,2,eaux vulnéraires,,non,18
-Eau ; vulneraire,3,3,eaux vulnéraires,,non,18
-Eau ; vulneraires,2,2,eaux vulnéraires,,non,18
+Eau ; vulnenaire,2,2,eau vulnéraire,,non,18
+Eau ; vulneraire,3,3,eau vulnéraire,,non,18
+Eau ; vulneraires,2,2,eau vulnéraire,,non,18
 Eau : mineralle,1,1,eau minérale,,non,205
 Eau à noirir tabac,0,7,eau à noirir tabac,x,non,7
 Eau citronelle,1,1,eau citronnelle,,non,2
@@ -20235,8 +20235,8 @@ Eau sans pareille,1,1,eau sans pareille,x,non,7
 Eau senteur,3,3,eau senteur,,non,3
 Eau spiritueuses,1,1,eau spiritueuse,,non,14
 Eau spiritueuses et essences,1,1,eau spiritueuse et essence,,non,9
-Eau vulneraire,9,9,eaux vulnéraires,,non,18
-Eau vulnéraire,2,2,eaux vulnéraires,,non,18
+Eau vulneraire,9,9,eau vulnéraire,,non,18
+Eau vulnéraire,2,2,eau vulnéraire,,non,18
 Eau-de-vie,42,132,eau-de-vie,,non,10835
 Eau-de-vie ; de vin ; au dessus de 32 degrés,1,1,eau-de-vie de vin au-dessus de 32 degrés,,non,3
 Eau-de-vie ; de vin ; de 22 à 32 degrés,1,1,eau-de-vie de vin de 22 degrés à 32,,non,3
@@ -31171,7 +31171,7 @@ Huile de palme cristi,1,1,huile de Palma Christi,,non,9
 Huile de palmes,1,1,huile de palme,,non,34
 Huile de Parfum,1,1,huile de parfum,,non,4
 Huile de parfum,1,1,huile de parfum,,non,4
-Huile de peinture,1,1,huile de peinture,,non,1
+Huile de peinture,1,1,huile de peintures,,non,1
 Huile de Perou,2,2,huile de Pérou,,non,2
 Huile de petrolle,1,1,huile de pétrole,,non,4
 Huile de pierre,0,4,huile de pierre,,non,4
@@ -31785,7 +31785,7 @@ Instruments aratoires ; Faulx,6,6,instruments aratoires faux,,non,6
 Instruments d'arts libéraux,7,7,instruments d'arts libéraux,,non,7
 Instruments d'astronomie,1,1,instruments d'astronomie,,non,3
 Instruments d'opticien lunettier,1,1,instruments d'opticien lunettier,,non,1
-Instruments d'optique,2,2,instruments d'optique,,non,2
+Instruments d'optique,2,2,instruments d'optiques,,non,2
 Instruments de chirurgie,4,4,instruments de chirurgie,,non,47
 Instruments de marine,4,4,instruments de marine,,non,15
 Instruments de mathematiques,1,1,instruments de mathématique,,non,80
@@ -37774,32 +37774,32 @@ Moutardelle,1,1,moutardelle,x,non,1
 Moutardes,2,2,moutarde,,non,273
 Moutichoux,2,2,moutichoux,,non,2
 Moutins ; à caffé,1,1,moulins à café,,non,492
-Mouton,10,10,moutons,,non,309
-Mouton en vie,1,1,moutons en vie,,non,10
-Moutons,292,299,moutons,,non,309
-Moutons ; agneaux ; communs,1,1,moutons agneaux communs,,non,1
-Moutons ; agneaux ; mérinos et métis,1,1,moutons agneaux mérinos et métis,,non,1
-Moutons ; communs,1,1,moutons communs,,non,1
-Moutons ; communs ; Agneaux,3,3,moutons communs agneaux,,non,7
-"Moutons ; communs ; Béliers, brebis et moutons",1,1,moutons communs béliers brebis et moutons,,non,5
-"Moutons ; communs ; Béliers, brebis, moutons",2,2,moutons communs béliers brebis moutons,,non,2
-Moutons ; en vie,1,1,moutons en vie,,non,10
-Moutons ; mérinos et métis ; Béliers,1,1,moutons mérinos et métis béliers,,non,7
-Moutons ; mérinos et métis ; Brebis et moutons,1,1,moutons mérinos et métis brebis et moutons,,non,7
-Moutons ; Mérinos et métis. ; Agneaux,2,2,moutons mérinos et métis agneaux,,non,6
-Moutons ; Mérinos et métis. ; Béliers,2,2,moutons mérinos et métis béliers,,non,7
-Moutons ; Mérinos et métis. ; Brebis et moutons,2,2,moutons mérinos et métis brebis et moutons,,non,7
-Moutons ; mérinos. - Bélier,2,2,moutons mérinos béliers,,non,2
-Moutons communs ; Agneaux,4,4,moutons communs agneaux,,non,7
-"Moutons communs ; Beliers, brebis et moutons",4,4,moutons communs béliers brebis et moutons,,non,5
-Moutons en vie,8,8,moutons en vie,,non,10
-Moutons et Brebis,2,2,moutons et brebis,,non,133
-Moutons et brebis,0,131,moutons et brebis,,non,133
-"Moutons mérinos, et métis ; Agneaux",4,4,moutons mérinos et métis agneaux,,non,6
-"Moutons mérinos, et métis ; Beliers",4,4,moutons mérinos et métis béliers,,non,7
-"Moutons mérinos, et métis ; Brebis et moutons",4,4,moutons mérinos et métis brebis et moutons,,non,7
-Moutons petits,1,1,moutons petits,,non,1
-Moutons vivants,0,1,moutons vivants,,non,1
+Mouton,10,10,mouton,,non,309
+Mouton en vie,1,1,mouton en vie,,non,10
+Moutons,292,299,mouton,,non,309
+Moutons ; agneaux ; communs,1,1,mouton agneaux communs,,non,1
+Moutons ; agneaux ; mérinos et métis,1,1,mouton agneaux mérinos et métis,,non,1
+Moutons ; communs,1,1,mouton communs,,non,1
+Moutons ; communs ; Agneaux,3,3,mouton communs agneaux,,non,7
+"Moutons ; communs ; Béliers, brebis et moutons",1,1,mouton communs béliers brebis et mouton,,non,5
+"Moutons ; communs ; Béliers, brebis, moutons",2,2,mouton communs béliers brebis mouton,,non,2
+Moutons ; en vie,1,1,mouton en vie,,non,10
+Moutons ; mérinos et métis ; Béliers,1,1,mouton mérinos et métis béliers,,non,7
+Moutons ; mérinos et métis ; Brebis et moutons,1,1,mouton mérinos et métis brebis et mouton,,non,7
+Moutons ; Mérinos et métis. ; Agneaux,2,2,mouton mérinos et métis agneaux,,non,6
+Moutons ; Mérinos et métis. ; Béliers,2,2,mouton mérinos et métis béliers,,non,7
+Moutons ; Mérinos et métis. ; Brebis et moutons,2,2,mouton mérinos et métis brebis et mouton,,non,7
+Moutons ; mérinos. - Bélier,2,2,mouton mérinos béliers,,non,2
+Moutons communs ; Agneaux,4,4,mouton communs agneaux,,non,7
+"Moutons communs ; Beliers, brebis et moutons",4,4,mouton communs béliers brebis et mouton,,non,5
+Moutons en vie,8,8,mouton en vie,,non,10
+Moutons et Brebis,2,2,mouton et brebis,,non,133
+Moutons et brebis,0,131,mouton et brebis,,non,133
+"Moutons mérinos, et métis ; Agneaux",4,4,mouton mérinos et métis agneaux,,non,6
+"Moutons mérinos, et métis ; Beliers",4,4,mouton mérinos et métis béliers,,non,7
+"Moutons mérinos, et métis ; Brebis et moutons",4,4,mouton mérinos et métis brebis et mouton,,non,7
+Moutons petits,1,1,mouton petit,,non,1
+Moutons vivants,0,1,mouton vivant,,non,1
 Mouvemens ; de pendulles,2,2,mouvements de pendules,,non,2
 Mouvements ; de montre,1,1,mouvements de montre,,non,1
 Mouvements ; de montres,3,3,mouvements de montres,,non,3
@@ -39186,7 +39186,7 @@ Ouvrages ; d'étain,1,1,ouvrages d'étain,,non,2
 Ouvrages ; d'horlogerie,4,4,ouvrages d'horlogerie,,non,13
 Ouvrages ; d'ivoire,1,1,ouvrages d'ivoire,,non,6
 Ouvrages ; d'opium,1,1,ouvrages d'opium,,non,1
-Ouvrages ; d'optique,3,3,ouvrages d'optique,,non,5
+Ouvrages ; d'optique,3,3,ouvrages d'optiques,,non,5
 Ouvrages ; D'ozier,4,4,ouvrages d'osier,,non,17
 Ouvrages ; d'ozier,3,3,ouvrages d'osier,,non,17
 Ouvrages ; d'ozier ; en corbeilles,1,1,ouvrages d'osier en corbeilles,,non,2
@@ -39497,10 +39497,10 @@ Ouvrages d'ausse,1,1,ouvrages d'auf,,non,13
 Ouvrages d'écaille,1,1,ouvrages d'écaille,,non,1
 Ouvrages d'horlogerie,4,4,ouvrages d'horlogerie,,non,13
 Ouvrages d'ivoire,1,1,ouvrages d'ivoire,,non,6
-Ouvrages d'optique,2,2,ouvrages d'optique,,non,5
-Ouvrages d'optique en lunette et microscope,1,1,ouvrages d'optique en lunettes et microscope,,non,1
-Ouvrages d'optique en tunales microscope,1,1,ouvrages d'optique en tunales microscopes,,non,1
-Ouvrages d'optiques (lunettes),1,1,ouvrages d'optique lunettes,,non,1
+Ouvrages d'optique,2,2,ouvrages d'optiques,,non,5
+Ouvrages d'optique en lunette et microscope,1,1,ouvrages d'optiques en lunettes et microscope,,non,1
+Ouvrages d'optique en tunales microscope,1,1,ouvrages d'optiques en tunales microscopes,,non,1
+Ouvrages d'optiques (lunettes),1,1,ouvrages d'optiques lunettes,,non,1
 Ouvrages d'or faux,2,2,ouvrages d'or faux,,non,3
 Ouvrages d'orfèvrerie,5,5,ouvrages d'orfèvrerie,,non,6
 Ouvrages d'orfèvrerie en argent,5,5,ouvrages d'orfèvrerie en argent,,non,5
@@ -42017,7 +42017,7 @@ Peaux d'Ours,48,48,peaux d'ours,,non,485
 Peaux d'ours,228,233,peaux d'ours,,non,485
 Peaux d'Ours à prestées,1,1,peaux d'ours apprêtées,,non,8
 Peaux d'ours apprêtées,1,1,peaux d'ours apprêtées,,non,8
-Peaux d'ours apprétés,2,2,peaux d'ours apprétées,,non,2
+Peaux d'ours apprétés,2,2,peaux d'ours apprêtées,,non,2
 Peaux d'ours aprêtées,1,1,peaux d'ours apprêtées,,non,8
 Peaux d'Ours Crue,1,1,peaux d'ours crue,,non,1
 Peaux d'ours en poil,1,1,peaux d'ours en poil,,non,3
@@ -42408,7 +42408,7 @@ Peaux de mouton aprêtées,36,36,peaux de mouton apprêtées,,non,612
 Peaux de mouton apretés,2,2,peaux de mouton apprêtées,,non,612
 Peaux de mouton aprêtés,3,3,peaux de mouton apprêtées,,non,612
 Peaux de mouton aprettées,4,4,peaux de mouton apprêtées,,non,612
-Peaux de mouton basanes,1,1,peaux de moutons basanes,,non,1
+Peaux de mouton basanes,1,1,peaux de mouton basanes,,non,1
 Peaux de mouton blanches,3,3,peaux de mouton blanches,,non,8
 Peaux de mouton blanchies,1,1,peaux de mouton blanchies,,non,1
 Peaux de mouton chamois,1,1,peaux de mouton chamois,,non,1
@@ -42430,14 +42430,14 @@ Peaux de mouton en couteur,1,1,peaux de mouton en couleurs,x,non,12
 Peaux de Mouton en Laine,1,1,peaux de mouton en laine,,non,368
 Peaux de mouton en laine,151,151,peaux de mouton en laine,,non,368
 Peaux de mouton en leine,1,1,peaux de mouton en laine,,non,368
-Peaux de mouton en magie,1,1,peaux de moutons en magie,,non,1
+Peaux de mouton en magie,1,1,peaux de mouton en magie,,non,1
 Peaux de mouton en megie,1,1,peaux de mouton en mégie,,non,26
 Peaux de Mouton en mégie,1,1,peaux de mouton en mégie,,non,26
 Peaux de mouton en mégie,5,5,peaux de mouton en mégie,,non,26
 Peaux de mouton en mégré,0,0,peaux de mouton en mégré,,oui,0
 Peaux de mouton en mesquin,1,1,peaux de mouton en mesquin,,non,1
 Peaux de Mouton en parchemin,1,1,peaux de mouton en parchemin,,non,1
-Peaux de mouton en poil,2,2,peaux de moutons en poil,,non,2
+Peaux de mouton en poil,2,2,peaux de mouton en poil,,non,2
 Peaux de mouton en poïl,1,1,peaux de mouton en poil,,non,3
 Peaux de mouton en tripe,1,1,peaux de mouton en tripe,,non,2
 Peaux de mouton en verd,2,2,peaux de mouton en vert,,non,2
@@ -42499,8 +42499,8 @@ Peaux de moutons et brebis. sans apprêt,0,97,peaux de mouton et brebis sans app
 Peaux de moutons laine,1,1,peaux de mountons laine,,non,1
 Peaux de moutons maroquinées,1,1,peaux de mouton maroquinées,,non,2
 Peaux de moutons megie,1,1,peaux de mouton mégie,,non,1
-Peaux de moutons megissées,2,2,peaux de moutons mégissées,,non,3
-Peaux de moutons mégissées,1,1,peaux de moutons mégissées,,non,3
+Peaux de moutons megissées,2,2,peaux de mouton mégissées,,non,3
+Peaux de moutons mégissées,1,1,peaux de mouton mégissées,,non,3
 Peaux de moutons megissées chamoisées bazannées,1,1,peaux de mouton mégissées chamoisées basanées,,non,1
 Peaux de Moutons Passées,2,2,peaux de mouton passées,,non,260
 Peaux de moutons passées,50,50,peaux de mouton passées,,non,260
@@ -43534,7 +43534,7 @@ Pieds et têtes,1,1,pieds et têtes,,non,1
 Pienne de laine,1,1,pienne de laine,x,non,2
 Pienne; de fil,1,1,pienne de fil,x,non,1
 Pienne; de laine,1,1,pienne de laine,x,non,2
-Pienture,1,1,peinture,,non,1
+Pienture,1,1,peintures,,non,1
 Piere a paver,4,4,pierres à paver,,non,96
 Piere de meules,4,4,pierres à meules,,non,31
 Piere de moulage,7,7,pierres de moulage,,non,11
@@ -47185,7 +47185,7 @@ Portraits de cours,1,1,portrait de cour,,non,5
 Portraits de familles,1,1,portrait de famille,,non,3
 Poste,0,1,poste,,non,1
 Poste royale,0,1,poste royale,,non,1
-Pot ; à peinture,1,1,pot à peinture,,non,1
+Pot ; à peinture,1,1,pot à peintures,,non,1
 Pot de terre,2,2,pot de terre,,non,2
 Pot de terre couver d'etain,2,2,pot de terre couvert d'étain,,non,2
 Pot Grez,1,1,pot grès,,non,1
@@ -52983,7 +52983,7 @@ Tableaux commun sur toile,2,2,tableaux communs sur toile,,non,7
 Tableaux commun vieux,1,1,tableaux communs vieux,,non,1
 Tableaux communs,18,18,tableaux communs,,non,21
 Tableaux communs sur toile,4,4,tableaux communs sur toile,,non,7
-Tableaux d'optique,2,2,tableaux d'optique,,non,2
+Tableaux d'optique,2,2,tableaux d'optiques,,non,2
 Tableaux de famille,2,2,tableaux de famille,,non,4
 Tableaux de papier peints,1,1,tableaux de papier peint,,non,1
 Tableaux et cadres dorés,1,1,tableaux et cadres dorés,,non,1
