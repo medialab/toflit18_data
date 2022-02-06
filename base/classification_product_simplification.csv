@@ -1,5 +1,5 @@
 orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
-,3,,3
+,3,,9
 ???,3470,???,3473
 ??? blanc,2,??? blanc,2
 ??? brun,2,??? brun,2
@@ -2265,7 +2265,7 @@ bois de teinture moulus autres de Pernambouc,2,bois de teinture autres que Perna
 bois de teinture moulus Pernambouc,6,bois de teinture moulu Pernambouc,6
 bois de teinture moulus sans désignation,4,bois de teinture moulu,16
 bois de teinture Nicaragua,1,bois de teinture Nicaragua,1
-bois de teinture Pernambouc,2,bois Pernambouc à teinture,2
+bois de teinture Pernambouc,2,bois Pernambouc à teinture,3
 bois de teinture râpé,2,bois de teinture moulu,16
 bois de teinture sans désignation,7,bois de teinture,122
 bois de teinture sans désignation et des entrepôts,0,bois de teinture des entrepôts,0
@@ -2676,7 +2676,7 @@ bois pour teinture de Sainte-Marthe,1,bois de Sainte-Marthe pour teinture,2
 bois pour teinture de santal,1,bois de santal pour teinture,1
 bois pour teinture des Indes,1,bois des Indes pour teinture,1
 bois pour teinture jaune,2,bois jaune pour teinture,2
-bois pour teinture Pernambouc,1,bois Pernambouc à teinture,1
+bois pour teinture Pernambouc,1,bois Pernambouc à teinture,3
 bois pour tonneaux,1,bois pour tonneaux,18
 bois préparé pour fusils,14,bois pour fusil,18
 bois préparé pour ouvrages,7,bois préparé pour ouvrages,7
@@ -4584,7 +4584,7 @@ chair de morue,1,chair de morue,1
 chair de porc boyaux salés,1,boyaux de porc salés,1
 chair de porc jambon,2,jambon,1372
 chair de porc lard,1,lard,1092
-chair de porc saucissons,1,saucissons,1
+chair de porc saucissons,1,saucissons,421
 chair de porcs,7,chair de porcs,7
 chair de porcs en jambon,4,jambon,1372
 chair de porcs en lard,4,lard,1092
@@ -4593,7 +4593,7 @@ chair de porcs langues,1,langues de porcs,2
 chair de porcs lard,2,lard,1092
 chair de porcs salés,4,chair salée de porcs,25
 chair de porcs salés jambon,1,chair salée de jambon de porcs,1
-chair de porcs saucissons,2,saucissons,420
+chair de porcs saucissons,2,saucissons,421
 chair diverse,6,chair,7
 chair en viande fraîche,1,chair fraîche,3
 chair et lard fraîche,133,chair et lard frais,133
@@ -4656,11 +4656,10 @@ chair salée petit salé,5,petit salé,34
 chair salée porcs,2,porcs salés,382
 chair salée porcs salés,3,porcs salés,382
 chair salée salé,3,chair salée,911
-chair salée saucissons,2,saucissons salés,17
-chair salée saucissons,15,saucissons salés,17
+chair salée saucissons,17,saucissons salés,17
 chair salée saumure,1,saumure salée,1
 chair salée tripe marinée,1,tripes marinées et salées,1
-chair saucissons,1,saucissons,420
+chair saucissons,1,saucissons,421
 chair volailles et gibier,28,chair de volaille et chair de gibier,28
 chaise garnie de cannes,2,chaise garnie de cannes,2
 chaise garnie de maroquin,2,chaise garnie de maroquin,2
@@ -7167,6 +7166,7 @@ demi-écarlatine,1,demi-écarlatine,2
 demi-Guinée,1,demi-guinée,2
 demi-Guinée bleue,1,demi-guinée bleue,3
 demi-meules de moulin,1,demi-meules de moulin,1
+demi-peaux de chevreuil,1,demi-peaux de chevreuil,1
 demi-pièce d'écarlatine,1,demi-écarlatine,2
 demi-pièce d'indienne,1,demi-indienne,1
 demi-pièce de drap de Glaster,1,demi-drap de Glaster,2
@@ -7177,13 +7177,15 @@ demi-pièce de Guinée bleue,2,demi-guinée bleue,3
 demi-pièce de perpétuane,1,demi-perpétuane,1
 demi-pièce de picotte,1,demi-picotte,1
 demi-pièce de scarlatine,1,demi-scarlatine,1
-demi-planche de sapin,1,demi-planches de sapin,11
-demi-planches,3,demi-planches,3
-demi-planches de Prusse,3,demi-planches de Prusse,3
-demi-planches de sapin,10,demi-planches de sapin,11
+demi-planche de sapin,1,demi-planches de sapin,23
+demi-planches,4,demi-planches,5
+demi-planches de Prusse,5,demi-planches de Prusse,6
+demi-planches de sapin,22,demi-planches de sapin,23
 demi-planches de sapin de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2,demi-planches de sapin de 3 à 4 pieds de long et de 1 pouce d'épaisseur,2
 "demi-planches de sapin de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2,"demi-planches de sapin de 3 à 5 pieds de long et de 1,25 pouce d'épaisseur",2
 "demi-planches de sapin de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3,"demi-planches de sapin de 3 à 5,5 pieds de long et de 1,5 à 1,35 pouce d'épaisseur",3
+demi-planches Prusse,1,demi-planches de Prusse,6
+demi-poutres,6,,9
 demi-serge d'Aumale,1,demi-serge d'Aumale,1
 demi-siamoise,1,demi-siamoise,1
 demi-soucis,1,demi-soucis,1
@@ -8082,7 +8084,7 @@ droguerie médicinale oignons d'esquilles,1,oignons d'esquilles,18
 droguerie médicinale peury,1,peury,1
 droguerie médicinale poudre d'ailhaud,2,poudre d'Ailhaud,34
 droguerie médicinale pour peintures et teinture diverse,2,drogues,2721
-droguerie médicinale pour peintures et teinture noix de galle,1,noix de galle,499
+droguerie médicinale pour peintures et teinture noix de galle,1,noix de galle,501
 droguerie médicinale quinquina,5,quinquina,981
 droguerie médicinale réglisse,1,réglisse,677
 droguerie médicinale réglisse en bois,1,réglisse en bois,10
@@ -8156,11 +8158,11 @@ droguerie pour peintures et teinture indigo,6,indigo,6494
 droguerie pour peintures et teinture iris,1,iris,180
 droguerie pour peintures et teinture lakmoes,1,lakmoes,129
 droguerie pour peintures et teinture mine de plomb,1,mine de plomb,391
-droguerie pour peintures et teinture noix de galle,2,noix de galle,499
+droguerie pour peintures et teinture noix de galle,2,noix de galle,501
 droguerie pour peintures et teinture ocre en pierres,1,ocre en pierre,3
 droguerie pour peintures et teinture racines d'alizari,1,racines d'alizari,112
 droguerie pour peintures et teinture safranum,4,safranum,599
-droguerie pour peintures et teinture stil de grains,1,stil de grains,61
+droguerie pour peintures et teinture stil de grains,1,stil de grains,63
 droguerie pour peintures et teinture sumac,2,sumac,765
 droguerie pour peintures et teinture tartre,1,tartre,1613
 droguerie pour peintures et teinture térébenthine,2,térébenthine,1249
@@ -8269,7 +8271,7 @@ drogues chimiques sel divers,2,sel chimique,304
 drogues chimiques sel gemme,2,sel gemme,47
 drogues chimiques sel Saturne,4,acétates de plomb,285
 drogues chimiques sel sublimé,2,sel sublimé,2
-drogues chimiques stil de grains,1,stil de grains,61
+drogues chimiques stil de grains,1,stil de grains,63
 drogues chimiques sublimé,2,sublimé,143
 drogues chimiques vitriol,3,vitriol,536
 drogues cochenille,2,cochenille,1230
@@ -8657,7 +8659,7 @@ drogues métalliques zinc,1,zinc,93
 drogues mine de plomb,3,mine de plomb,391
 drogues minium,1,minium,365
 drogues musc,1,musc,29
-drogues noix de galle,2,noix de galle,499
+drogues noix de galle,2,noix de galle,501
 drogues ocre,1,ocre,530
 drogues ocre jaune et rouge,1,ocre jaune et rouge,1
 drogues odorantes,1,drogues odorantes,2
@@ -8816,7 +8818,7 @@ drogues pour les peintures et la teinture miny,2,minium,365
 drogues pour les peintures et la teinture noir d'ivoire,2,noir d'ivoire,46
 drogues pour les peintures et la teinture noir de fumée,9,noir de fumée,541
 drogues pour les peintures et la teinture noix d'ivoire,1,noix d'ivoire,2
-drogues pour les peintures et la teinture noix de galle,21,noix de galle,499
+drogues pour les peintures et la teinture noix de galle,21,noix de galle,501
 drogues pour les peintures et la teinture ocre,11,ocre,530
 drogues pour les peintures et la teinture orpiment,2,orpiment,325
 drogues pour les peintures et la teinture orpin,2,orpin,80
@@ -8833,7 +8835,7 @@ drogues pour les peintures et la teinture rouge de Venise,1,rouge de Venise,1
 drogues pour les peintures et la teinture rouge minéral,2,rouge minéral,2
 drogues pour les peintures et la teinture safranum,18,safran,1519
 drogues pour les peintures et la teinture sanguine,3,sanguine,90
-drogues pour les peintures et la teinture stil de grains,2,stil de grains,61
+drogues pour les peintures et la teinture stil de grains,2,stil de grains,63
 drogues pour les peintures et la teinture sumac,13,sumac,765
 drogues pour les peintures et la teinture tartre,12,tartre,1613
 drogues pour les peintures et la teinture tartre blanc,1,tartre blanc,8
@@ -8867,7 +8869,7 @@ drogues pour les peintures et teinture indigo,12,indigo,6494
 drogues pour les peintures et teinture litharge,1,litharge,607
 drogues pour les peintures et teinture pae ???,1,drogues pour peintures et teinture pae ???,1
 drogues pour les peintures et teinture pastel,3,pastel,98
-drogues pour les peintures et teinture stil de grains,2,stil de grains,2
+drogues pour les peintures et teinture stil de grains,2,stil de grains,63
 drogues pour les peintures et teinture sumac,2,sumac,765
 drogues pour les peintures et teinture tartre,1,tartre,1613
 drogues pour les peintures et teinture tartre blanc,6,tartre blanc,8
@@ -8886,7 +8888,7 @@ drogues pour les peintures laque,1,laque,13
 drogues pour les peintures litharge,1,litharge,607
 drogues pour les peintures minium,8,minium,365
 drogues pour les peintures muce de plomb,1,muce de plomb,1
-drogues pour les peintures noix de galle,2,noix de galle,2
+drogues pour les peintures noix de galle,2,noix de galle,501
 drogues pour les peintures ocre,12,ocre,530
 drogues pour les peintures orpiment,5,orpiment,325
 drogues pour les peintures orseille,1,orseille,61
@@ -8895,7 +8897,7 @@ drogues pour les peintures racines d'alizari,4,racines d'alizari,112
 drogues pour les peintures safranum,1,safranum,599
 drogues pour les peintures sanguine,2,sanguine,90
 drogues pour les peintures séné,1,séné,648
-drogues pour les peintures stil de grains,3,stil de grains,61
+drogues pour les peintures stil de grains,3,stil de grains,63
 drogues pour les peintures sumac,1,sumac,765
 drogues pour les peintures térébenthine,21,térébenthine,1249
 drogues pour les peintures terra merita,1,terra merita,2
@@ -8992,7 +8994,7 @@ drogues pour peintures et teinture minium,3,minium,365
 drogues pour peintures et teinture noir,1,noir,5
 drogues pour peintures et teinture noir à noircir,1,noir à noircir,3
 drogues pour peintures et teinture noir de fumée,3,noir de fumée,541
-drogues pour peintures et teinture noix de galle,8,noix de galle,499
+drogues pour peintures et teinture noix de galle,8,noix de galle,501
 drogues pour peintures et teinture ocre jaune,3,ocre jaune,41
 drogues pour peintures et teinture ocre rouge,3,ocre rouge,36
 drogues pour peintures et teinture orbe,2,orbe,2
@@ -12891,7 +12893,7 @@ galette rouge,1,galette rouge,1
 galins,1,galins,1
 galipot,46,galipot,46
 galle,770,galle,809
-galle (noix de),1,noix de galle,499
+galle (noix de),1,noix de galle,501
 galle alepine,1,galle alepine,1
 galle d'Alep,37,galle d'Alep,37
 galle de toute sorte,2,galle,809
@@ -16692,7 +16694,7 @@ matières premières huile de poisson,28,huile de poisson,1898
 matières premières indigo,70,indigo,6494
 matières premières laine,86,laine,1007
 matières premières lin,22,lin,1483
-matières premières noix de galle,13,noix de galle,499
+matières premières noix de galle,13,noix de galle,501
 matières premières pain de navette,2,pain de navette,288
 matières premières poil de chèvre lièvre et lapin,9,poil de chèvre et de lapin et de lièvre,193
 matières premières potasse vedasse et gravelée,32,potasse gravelée et védasse,32
@@ -18261,8 +18263,8 @@ noix amandes noisettes arachis olives noyaux,2,amandes arachis noisettes noix no
 noix d'acajou,24,noix d'acajou,24
 noix d'ivoire,1,noix d'ivoire,2
 noix de coco,54,noix de coco,54
-noix de galle,425,noix de galle,499
-noix de galle et galle légère,23,noix de galle,499
+noix de galle,425,noix de galle,501
+noix de galle et galle légère,23,noix de galle,501
 noix de galle légère,7,noix de galle légère,7
 noix de galle pesante,9,noix de galle pesante,9
 noix de galle pesante des entrepôts,0,noix de galle pesante des entrepôts,0
@@ -20162,7 +20164,6 @@ peaux de chèvres maroquinées,2,peaux de chèvre maroquinées,3
 peaux de chevreuil,208,peaux de chevreuil,240
 peaux de chevreuil à pelleterie,6,peaux de chevreuil,240
 peaux de chevreuil apprêtées,9,peaux apprêtées de chevreuil,12
-demi-peaux de chevreuil,1,demi-peaux de chevreuil,1
 peaux de chevreuil en croûte,2,peaux de chevreuil en croûte,2
 peaux de chevreuil en parcelain,1,peaux de chevreuil en parchemin,2
 peaux de chevreuil en parchemins,1,peaux de chevreuil en parchemin,2
@@ -21594,7 +21595,6 @@ planches de Prusse de 8 pieds,1,planches de Prusse de 8 pieds,1
 planches de Prusse de 9 à 10 pieds,1,planches de Prusse de 9 à 10 pieds,1
 planches de Prusse de 9 pieds,1,planches de Prusse de 9 pieds,1
 planches de Prusse de différentes grandeurs,1,planches de Prusse,172
-demi-planches de Prusse,2,demi-planches de Prusse,3
 planches de Prusse diverses,2,planches de Prusse diverses,2
 planches de Prusse en bouts,1,planches de Prusse en bouts,1
 planches de Prusse ordinaires,6,planches de Prusse communes,7
@@ -21830,8 +21830,7 @@ planches de sapin de Prusse,0,planches de sapin de Prusse,0
 planches de sapin de rebut,6,planches de sapin de rebut,6
 planches de sapin de rebut de 75 pieds,1,planches de sapin de rebut de 75 pieds,1
 planches de sapin de tout pieds de longueur,1,planches de sapin,1997
-planches de sapin demi planches,8,planches de sapin demi planches,20
-demi-planches de sapin,12,planches de sapin demi planches,20
+planches de sapin demi planches,8,planches de sapin demi planches,8
 planches de sapin diverses,21,planches de sapin,1997
 planches de sapin duicroco,1,planches de sapin duicroco,1
 planches de sapin en bouts,6,planches de sapin en bouts,7
@@ -21859,9 +21858,7 @@ planches de sapin rouge,2,planches de sapin rouge,2
 planches de sapin rouge de 9 pieds,0,planches de sapin rouge de 9 pieds,0
 planches de sapin vieilles,1,planches de sapin vieilles,1
 planches de Suisse,1,planches de Suisse,1
-planches demi planches,1,demi-planches,2
-demi-planches,1,demi-planches,2
-demi-planches  Prusse,1,demi-planches de Prusse,3
+planches demi planches,1,demi-planches,5
 planches dites feuillet,2,planches dites feuillet,2
 planches dites feuillet et quartiers,3,planches dites feuillet et quartiers,3
 planches dites Noordschedelen de 11 à 12 pieds,2,planches dites Noordschedelen de 11 à 12 pieds,2
@@ -22978,8 +22975,6 @@ poutres de sapin de 36 pieds,2,poutres de sapin de 36 pieds,2
 poutres de sapin de 40 pieds,3,poutres de sapin de 40 pieds,3
 poutres de sapin de 45 pieds,4,poutres de sapin de 45 pieds,4
 poutres de sapin de 55 pieds,2,poutres de sapin de 55 pieds,2
-demies-poutres,3,demi-poutres,6
-demies-poutres poutres,3,demi-poutres,6
 poutres grosses,1,poutres grosses,1
 pouzzolane,9,pouzzolane,9
 prastre,2,prastre,2
@@ -24118,7 +24113,7 @@ satte,1,satte,1
 Saturne,1,acétates de plomb,285
 saucisses,20,saucisses,20
 saucisses de Boulogne,5,saucisses de Boulogne,5
-saucissons,417,saucissons,420
+saucissons,417,saucissons,421
 sauge,2,sauge,2
 saulx,2,saulx,2
 saumon,46,saumon,57
@@ -25052,9 +25047,9 @@ stechas arabique,1,stechas arabique,1
 stephais,1,stephais,1
 sthouchais,1,sthouchais,1
 stil de bois,1,stil de bois,1
-stil de grains,52,stil de grains,61
+stil de grains,52,stil de grains,63
 stil de grains et vermillon,1,stil de grains et vermillon,1
-stil grains,2,stil de grains,61
+stil grains,2,stil de grains,63
 stinkerque,28,stinkerque,28
 stinkerque à barre,1,stinkerque à barre,1
 stinkerque brodées,1,stinkerque brodées,1
@@ -25329,7 +25324,7 @@ suite des matières premières cochenille,4,cochenille,1230
 suite des matières premières drogues diverses réunies,15,drogues,2721
 suite des matières premières garance,3,garance,1162
 suite des matières premières indigo,6,indigo,6494
-suite des matières premières noix de galle,3,noix de galle,499
+suite des matières premières noix de galle,3,noix de galle,501
 suite des matières premières rocou,1,rocou,1697
 sulfate alun brûlé,1,alun brûlé,1
 sulfate d'alumine (alun autre que brûlé ou calciné),2,alun autre que brûlé ou calciné,2
