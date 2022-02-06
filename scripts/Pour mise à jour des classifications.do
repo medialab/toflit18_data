@@ -534,6 +534,7 @@ foreach file_on_simp in sitc edentreaty canada medicinales hamburg /*
 
 	capture drop nbr_occurences_`file_on_simp'
 	bys `file_on_simp' : egen nbr_occurences_`file_on_simp'=total(nbr_occurences_ortho)
+	blif
 
 
 	drop orthographic nbr_occurences_ortho
