@@ -198,8 +198,8 @@ albâtre et marbre brut et poli,21,Marbre brut et ouvré,non,2099
 albâtre moulé poli ou sculpté,6,Marbre brut et ouvré,non,2099
 alcalis autre que natron et soudes,2,Alcalis,non,1276
 alcalis salin,1,Alcalis,non,1276
-alènes à cordonnier en acier et en fer,1,Ouvrages divers et mélangés,non,341
 alènes,5,Ouvrages divers et mélangés,non,24064
+alènes à cordonnier en acier et en fer,1,Ouvrages divers et mélangés,non,341
 ali,1,Produits inconnus,non,15859
 alibanies,110,Étoffes de soie,non,9866
 alicot,1,Subsistances diverses et mélangées,non,11416
@@ -1853,11 +1853,11 @@ bois et pierre,1,Matières premières diverses,non,22410
 bois exotique d'ébénisterie,1,Bois divers hors combustible,non,13965
 bois exotique de teinture,1,Matières brutes et transformées pour teinture,non,20000
 bois exotique de teinture en morceaux et Pernambouc,1,Matières brutes et transformées pour teinture,non,20000
-bois feuillards en feuilles,1,"Ouvrages de bois, liège et jonc",non,341
-bois feuillards et osiers,6,"Ouvrages de bois, liège et jonc",non,38086
 bois feuillards à barriques,5,"Ouvrages de bois, liège et jonc",non,38086
 bois feuillards à petits barils,1,"Ouvrages de bois, liège et jonc",non,38086
 bois feuillards à quarteaux,2,"Ouvrages de bois, liège et jonc",non,38086
+bois feuillards en feuilles,1,"Ouvrages de bois, liège et jonc",non,341
+bois feuillards et osiers,6,"Ouvrages de bois, liège et jonc",non,38086
 bois feuillards pipage,6,"Ouvrages de bois, liège et jonc",non,38086
 bois flotté en étançon rond,1,"Ouvrages de bois, liège et jonc",non,38086
 bois fonçaille,1,"Ouvrages de bois, liège et jonc",non,38086
@@ -6059,6 +6059,7 @@ drap d'Elbeuf de velours,1,Étoffes de laine,non,16333
 drap d'Espagne,18,Étoffes de laine,non,16333
 drap d'Espagne teint,3,Étoffes de laine,non,16333
 drap d'estames,1,Étoffes de laine,non,16333
+drap d'étoupes,1,Étoffes de laine,non,341
 drap d'or et d'argent fin,2,Étoffes de soie,non,9866
 drap Damas,1,Étoffes de laine,non,16333
 drap dauphine,113,Étoffes de laine,non,16333
@@ -6101,8 +6102,8 @@ drap de fil rouge,1,Étoffes de laine,non,16333
 drap de fil vieux,1,Étoffes de laine,non,16333
 drap de France,92,Étoffes de laine,non,16333
 drap de Glasier,1,Étoffes de laine,oui,16333
-drap de glaster,0,Étoffes de laine,oui,16333
 drap de Glaster,4,Étoffes de laine,non,16333
+drap de glaster,0,Étoffes de laine,oui,16333
 drap de glastes,2,Étoffes de laine,oui,16333
 drap de Glates,1,Étoffes de laine,oui,16333
 drap de Glouster,0,Étoffes de laine,oui,16333
@@ -6135,6 +6136,7 @@ drap de laine de Lyon,2,Étoffes de laine,oui,16333
 drap de laine de Montauban,21,Étoffes de laine,oui,16333
 drap de laine de Nanrabais,4,Étoffes de laine,oui,16333
 drap de laine de Poitou,1,Étoffes de laine,oui,16333
+drap de laine de Reims,1,Étoffes de laine,non,16333
 drap de laine de Saint-Robert,12,Étoffes de laine,oui,16333
 drap de laine de Sedan,0,Étoffes de laine,oui,16333
 drap de laine de Van Robais,51,Étoffes de laine,oui,16333
@@ -6320,8 +6322,6 @@ drapeaux,10,Textiles manufacturés divers et mélangés,non,2782
 drapeaux vieux,116,Textiles manufacturés divers et mélangés,non,2782
 drapeaux vieux pour papeterie,1,Matières premières diverses,non,22410
 draperie et futaine,8,Étoffes diverses,oui,7904
-drap d'étoupes,1,Étoffes de laine,non,341
-drap de laine de Reims,1,Étoffes de laine,non,16333
 drêche,3,"Bière, cidre et vinaigre",non,9797
 drêche de bière,28,"Bière, cidre et vinaigre",non,9797
 drilles,3,Matières premières diverses,non,22410
@@ -6461,8 +6461,8 @@ eau de fleurs fortes,1,Drogues diverses,non,11132
 eau de garance,2,Drogues diverses,non,11132
 eau de genièvre,11,Boissons diverses et mélangées,non,743
 eau de grains,1,Drogues diverses,non,11132
-eau de hongrie,2,Parfumerie et toilette,non,4002
 eau de Hongrie,7,Parfumerie et toilette,non,4002
+eau de hongrie,2,Parfumerie et toilette,non,4002
 eau de jasmin,1,Parfumerie et toilette,non,4002
 eau de la Côte,1,Drogues diverses,non,11132
 eau de la reine de Hongrie,28,Drogues médicinales diverses,oui,12180
@@ -11823,7 +11823,7 @@ marne,11,Matières premières diverses,non,22410
 maronic,1,Produits inconnus,non,15859
 maroquin,19,"Cuirs, peaux et pelleterie",non,26716
 maroquins,19,"Cuirs, peaux et pelleterie",oui,26716
-marques,1,,non,341
+marques,1,Produits inconnus,non,341
 marquise,1,Ouvrages divers et mélangés,non,24064
 marraye,2,Produits inconnus,non,15859
 marregues,22,Produits inconnus,non,15859
@@ -11991,7 +11991,7 @@ matériaux pour la rade,168,Divers incertains,non,8518
 matériaux pour la rade du roi,5,Divers mélangés,non,41310
 matériaux pour le havre,3,Divers mélangés,non,41310
 matières de verre composées,1,Verrerie,non,7289
-matières grasses pour la fabrication du sel d'ammoniac,1,,non,341
+matières grasses pour la fabrication du sel d'ammoniac,1,Matières premières diverses,non,341
 matières minérales,2,Matières premières diverses,non,22410
 matières premières,105,Matières premières diverses,non,22410
 matis,1,Ouvrages divers et mélangés,non,24064
@@ -12273,7 +12273,7 @@ mâts et mâtereaux mâts,1,"Ouvrages de bois, liège et jonc",non,38086
 mâts et mâtereaux mâts doubles,1,"Ouvrages de bois, liège et jonc",non,38086
 mâts et matériaux de bois,2,"Ouvrages de bois, liège et jonc",non,38086
 mâts et planches de bois,0,"Ouvrages de bois, liège et jonc",non,38086
-mâts et poutres,1,,non,341
+mâts et poutres,1,"Ouvrages de bois, liège et jonc",non,341
 mâts façonnés,7,"Ouvrages de bois, liège et jonc",non,38086
 mâts grands,5,"Ouvrages de bois, liège et jonc",non,38086
 mâts gros,1,"Ouvrages de bois, liège et jonc",non,38086
@@ -12392,7 +12392,7 @@ mercure coulant,2,Mercure,non,746
 mercure doux,21,Mercure,non,746
 mercure natif,5,Mercure,non,746
 mercure précipité,8,Mercure,non,746
-mercure sublimé,1,,non,341
+mercure sublimé,1,Mercure,non,341
 meriers,12,"Ouvrages de bois, liège et jonc",non,38086
 meriers à faire échelles,1,"Ouvrages de bois, liège et jonc",non,38086
 meriers petits,1,"Ouvrages de bois, liège et jonc",non,38086
@@ -12704,10 +12704,10 @@ mode de bœuf,1,Chairs et œufs,non,9076
 modèle de château de carton,1,Librairie,non,4335
 modèle de plâtre,2,Ouvrages divers et mélangés,non,24064
 modèle de sculpture,1,Objets d'art et d'histoire naturelle,non,2785
-modes de cordonnier,1,,non,341
+modes de cordonnier,1,Ouvrages divers et mélangés,non,341
 modes de Montauban,1,Ouvrages divers et mélangés,non,24064
-modes de plâtre,1,,non,341
-modes de porcelaine,1,,non,341
+modes de plâtre,1,Ouvrages divers et mélangés,non,341
+modes de porcelaine,1,"Porcelaine, poterie, faïence et ouvrages de terre",non,341
 "modes, peaux, porcelaine, ruban 16 onces",1,Divers mélangés,non,41310
 moelle,1,Chairs et œufs,non,9076
 moelle de bœuf,10,Chairs et œufs,non,9076
@@ -12726,7 +12726,7 @@ molenaers,30,Animaux,non,5672
 molleton,214,Textiles manufacturés divers et mélangés,non,2782
 molleton de capiton,4,Textiles manufacturés divers et mélangés,non,2782
 molleton de coton,24,Textiles manufacturés divers et mélangés,non,2782
-molleton de coton et de fil,1,,non,341
+molleton de coton et de fil,1,Textiles manufacturés divers et mélangés,non,341
 molleton de laine,79,Textiles manufacturés divers et mélangés,non,2782
 molleton de laine imprimé,2,Textiles manufacturés divers et mélangés,non,2782
 molleton de soie,1,Soieries diverses,non,3994
@@ -12808,8 +12808,8 @@ mortiers de bronze,1,Ouvrages métalliques,non,23582
 mortiers de fer,6,Ouvrages métalliques,non,23582
 mortiers de fonte,6,Ouvrages métalliques,non,23582
 mortiers de marbre,134,Marbre brut et ouvré,non,2099
-mortiers de marbre ordinaires,1,,non,341
-mortiers de marbre petits,1,,non,341
+mortiers de marbre ordinaires,1,Marbre brut et ouvré,non,341
+mortiers de marbre petits,1,Marbre brut et ouvré,non,341
 mortiers de métal,1,Ouvrages métalliques,non,23582
 mortiers de métal et pilon,1,Ouvrages métalliques,non,23582
 mortiers de pierre,27,Ouvrages divers et mélangés,non,24064
@@ -12896,7 +12896,7 @@ mouchoirs de coton de France,22,Châles et mouchoirs hors soie,non,4569
 mouchoirs de coton de l'étranger,2,Châles et mouchoirs hors soie,non,4569
 mouchoirs de coton découpés,119,Châles et mouchoirs hors soie,non,4569
 mouchoirs de coton des Indes,14,Châles et mouchoirs hors soie,non,4569
-mouchoirs de coton en coupon,1,,non,341
+mouchoirs de coton en coupon,1,Châles et mouchoirs hors soie,non,341
 mouchoirs de coton et de fil,543,Châles et mouchoirs hors soie,non,4569
 mouchoirs de coton et de fil découpés,93,Châles et mouchoirs hors soie,non,4569
 mouchoirs de coton et de soie,1,Châles et mouchoirs hors soie,non,4569
@@ -13201,7 +13201,7 @@ myrrhe en larmes,1,Gommes diverses,non,4398
 myrthe en grabeau,24,Gommes diverses,non,4398
 nacelles,8,Bâtiments de mer et apparaux,non,3384
 nacre,14,"Cornes, corail, écailles, ivoire et nacre",non,3857
-nacre de coquille,1,,non,341
+nacre de coquille,1,"Cornes, corail, écailles, ivoire et nacre",non,341
 nacre de perles,139,"Cornes, corail, écailles, ivoire et nacre",non,3857
 nacre de perles argentée brute,1,"Cornes, corail, écailles, ivoire et nacre",non,3857
 nacre de perles argentée sciée,1,"Cornes, corail, écailles, ivoire et nacre",non,3857
@@ -13217,7 +13217,7 @@ namouques,2,Produits inconnus,non,15859
 Nankin,407,"Mousseline, basin et nankin",non,3320
 Nankin blanche,1,"Mousseline, basin et nankin",non,3320
 Nankin des Indes,10,"Mousseline, basin et nankin",non,3320
-Nankin jaune,1,,non,341
+Nankin jaune,1,"Mousseline, basin et nankin",non,341
 naphte,3,Huiles diverses,non,5091
 nappes,44,Habits et lingerie,non,9928
 nappes damassées,1,Habits et lingerie,non,9928
@@ -13345,8 +13345,8 @@ noix,495,Fruits secs et noix,non,14249
 noix d'acajou,24,Denrées coloniales et épiceries diverses,non,3582
 noix d'ivoire,2,Matières premières diverses,non,22410
 noix de coco,54,Denrées coloniales et épiceries diverses,non,3582
-noix de galle,2,,non,341
 noix de Galle,499,Galle,non,1480
+noix de galle,2,Galle,non,341
 noix de Galle légère,7,Galle,non,1480
 noix de Galle pesante,9,Galle,non,1480
 noix de Galle pesante des entrepôts,0,Galle,non,1480
@@ -14024,7 +14024,7 @@ paniers de femme,4,Ouvrages divers et mélangés,non,24064
 paniers de fer,1,Ouvrages métalliques,non,23582
 paniers de foudre,1,Produits inconnus,non,15859
 paniers de jonc,2,"Ouvrages de bois, liège et jonc",non,38086
-paniers de vannier,2,,non,341
+paniers de vannier,2,"Ouvrages de bois, liège et jonc",non,341
 paniers pour femme,2,Ouvrages divers et mélangés,non,24064
 panine,15,Étoffes diverses,non,7904
 panine de soie,28,Étoffes de soie,non,9866
@@ -21300,8 +21300,8 @@ vin de ???,1,Vins divers,non,33762
 vin de Bar,47,Vins divers,non,33762
 vin de Bar et de Liège et d'Hay...,9,Vins divers,non,33762
 vin de Bar et vin de Metz,49,Vins divers,non,33762
-vin de Bar-sur-Aube,1,Vins divers,non,33762
 vin de Bar-sur-aube,4,Vins divers,non,33762
+vin de Bar-sur-Aube,1,Vins divers,non,33762
 vin de Barcelone,19,Vins divers,non,33762
 vin de Bastillon,1,Vins divers,non,33762
 vin de Bayonne,10,Vins divers,non,33762
