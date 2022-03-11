@@ -533,6 +533,8 @@ replace best_guess_national_region = 1 if source_type=="National toutes directio
 replace best_guess_national_region = 1 if source_type=="National toutes directions partenaires manquants"
 egen year_CN = max(best_guess_national_region), by(year)
 replace best_guess_national_region=1 if year_CN == 1 & source_type=="Local"
+*Pour 1777, on ne garde que AN F12 245 (et pas IIHS-133 qui compare le commerce anglais)
+replace best_guess_national_region=0 if year==1777 & source!="AN F12 245"
 drop year_CN
 
 *save "$dir/Données Stata/bdd courante", replace
