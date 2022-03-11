@@ -241,7 +241,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                         line['best_guess_national_region'] = 1
                                         best_guess_year_index['best_guess_national_region'].add(
                                             year)
-                                    if year==1777 & line['source'] != "AN F12 245":
+                                    if year==1777 & line['source'] != "IIHS-133":
                                         line['best_guess_national_region'] = 0 
                                 writer.writerow(line)
     if with_calculated_values:
