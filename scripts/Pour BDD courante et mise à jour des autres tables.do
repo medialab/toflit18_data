@@ -449,8 +449,8 @@ drop  remarks_unit-_merge
 codebook conv_simplification_to_metric
  
 generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
-generate unit_price_metric=value/quantities_metric
-replace  unit_price_metric=value_per_unit /(conv_orthographic_to_simplificat * conv_simplification_to_metric)
+generate unit_price_metric=value/quantities_metric if (value_part_of_bundle==0|value_part_of_bundle==.)
+replace  unit_price_metric=value_per_unit /(conv_orthographic_to_simplificat * conv_simplification_to_metric) if (value_part_of_bundle==0|value_part_of_bundle==.)
 
 rename  simplification  quantity_unit_simplification
 
@@ -555,7 +555,7 @@ gen byte computed_value_per_unit = 0
 label var computed_value_per_unit "Was the value_per_unit computed expost based on and quantities and value ? 0 no 1 yes"
 replace computed_value_per_unit = 1 if (value_per_unit==0 | value_per_unit==.) & value!=0 & value!=. ///
 				& quantity!=0 & quantity!=. & (value_part_of_bundle ==. | value_part_of_bundle==0)
-replace value_per_unit = value/quantity  if computed_value_per_unit ==1
+replace value_per_unit = value/quantity  if computed_value_per_unit ==1 
 
 gen byte computed_quantity = 0
 label var computed_quantity "Was the quantity computed expost based on and quantities and value ? 0 no 1 yes"

@@ -97,7 +97,7 @@ def add_calculated_fields_to_line(d):
             d["computed_value"] = 0
 
         # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
-        if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]):
+        if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]) and (d["value_part_of_bundle"]=="0" | empty_value(d["value_part_of_bundle"]):
             d["computed_up"] = 1
             q = clean_float_string(d["quantity"])
             v = clean_float_string(d["value"])
