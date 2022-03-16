@@ -21,7 +21,7 @@ build_bdd_centrale:
   image: python:3.7-alpine3.9
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
-    - "ls -la ./base"
+    - "ls -la $CI_PROJECT_DIR/base"
   only:
     - dev
     - staging
