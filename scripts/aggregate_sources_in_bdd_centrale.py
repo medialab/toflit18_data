@@ -97,7 +97,7 @@ def add_calculated_fields_to_line(d):
             d["computed_value"] = 0
 
         # Was the unit price computed expost based on and quantities and value ? 0 no 1 yes
-        if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]) and (d["value_part_of_bundle"]=="0" | empty_value(d["value_part_of_bundle"]):
+        if empty_value(d["value_per_unit"]) and not empty_value(d["value"]) and not empty_value(d["quantity"]) and (d["value_part_of_bundle"]=="0" or empty_value(d["value_part_of_bundle"])):
             d["computed_up"] = 1
             q = clean_float_string(d["quantity"])
             v = clean_float_string(d["value"])
@@ -228,7 +228,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                         line['best_guess_region_prodxpart'] = 1
                                     if line['source_type'] == "National toutes directions partenaires manquants" and year == 1787 and line['customs_region'] == "Marseille":
                                         line['best_guess_region_prodxpart'] = 1
-                                    if line['customs_region'] == "Rouen" and line['export_import'] == "Imports" and (year == 1737 or (year >= 1739 & year <= 1749) or year == 1754 or (year >= 1756 & year <= 1762)):
+                                    if line['customs_region'] == "Rouen" and line['export_import'] == "Imports" and (year == 1737 or (year >= 1739 and year <= 1749) or year == 1754 or (year >= 1756 and year <= 1762)):
                                         line['best_guess_region_prodxpart'] = ""
                                     if line['customs_region'] == "Colonies Françaises de l'Amérique" and line['source_type'] == "Local":
                                         line['best_guess_region_prodxpart'] = ""
@@ -241,7 +241,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                         line['best_guess_national_region'] = 1
                                         best_guess_year_index['best_guess_national_region'].add(
                                             year)
-                                    if year==1777 & line['source_type'] != "National toutes directions sans produits":
+                                    if year==1777 and line['source_type'] != "National toutes directions sans produits":
                                         line['best_guess_national_region'] = 0 
                                 writer.writerow(line)
     if with_calculated_values:
