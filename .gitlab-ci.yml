@@ -68,7 +68,7 @@ neo4j_database:
 
 build_docker_image:
   stage: build_docker_image
-  tags:/
+  tags:
     - proxy
   dependencies:
     - neo4j_database
