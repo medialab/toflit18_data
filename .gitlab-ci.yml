@@ -21,7 +21,6 @@ build_bdd_centrale:
   image: python:3.7-alpine3.9
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
-    - "ls -la $CI_PROJECT_DIR/base"
   only:
     - dev
     - staging
@@ -40,7 +39,6 @@ neo4j_CSV:
   script:
     - mkdir -p neo4j_import
     - npm --prefix /toflit18 run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
-    - "ls -la $CI_PROJECT_DIR/base"
   only:
     - dev
     - staging
@@ -60,7 +58,6 @@ neo4j_database:
     - mkdir -p neo4j_database
     - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
     - mv /var/lib/neo4j/data/databases/graph.db $CI_PROJECT_DIR/neo4j_database/
-    - "ls -la $CI_PROJECT_DIR/base"
   only:
     - dev
     - staging
@@ -73,12 +70,11 @@ build_docker_image:
   dependencies:
     - neo4j_database
   before_script:
-    - "ls -la ${CI_PROJECT_DIR}/base"
     - chown -R 101:101 ${CI_PROJECT_DIR}/neo4j_database/
     - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.5.16
+    - cp -r ${CI_PROJECT_DIR}/base ${CI_PROJECT_DIR}/neo4j_database/base
   script:
-    - "ls -la ${CI_PROJECT_DIR}/base"
-    - docker run --volume=${CI_PROJECT_DIR}/base/:/data/base/ --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG -c "find / && npm run quantities -- -- --path /data"
+    - docker run --volume=${CI_PROJECT_DIR}:/toflit18/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG -c "npm run quantities -- -- --path /toflit18/toflit18_data/neo4j_database"
     - docker run --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" scpomedialab/toflit18-api:$CI_COMMIT_REF_SLUG -c "npm run indices"
     - docker stop neo4j
     - docker build -t $DOCKER_IMAGE_NAME -f Dockerfile .
