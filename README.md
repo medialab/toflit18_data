@@ -1,5 +1,6 @@
-README.md
-December 9th 2020 version
+# README.md
+
+*December 9th 2020 version*
 
 Welcome to the data repository of the Toflit18 project!
 More details on the project can be found on its research blog: https://toflit18.hypotheses.org/
