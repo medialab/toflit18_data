@@ -379,9 +379,9 @@ export delimited "$dir_git/base/classification_product_orthographic.csv", replac
 *****************************Pour product_sourcees.csv (et product orthographic)
 **Pour updater les classifications
 
-use "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", clear
+use "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", clear
 collapse (sum) nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5 nbr_occurrences_datasprint, by(product)
-save "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta", replace
+save "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", replace
 
 
 
@@ -431,7 +431,7 @@ keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_n
 
 
 
-merge 1:m product using "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta"
+merge 1:m product using "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta"
 drop if product=="(empty)" & _merge !=2
 sort product
 bys product : keep if _n==1

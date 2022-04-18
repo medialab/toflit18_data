@@ -70,7 +70,7 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 if "`c(username)'"=="guillaumedaudin" | "`c(username)'"=="Tirindelli" {
 
 	foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
-				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir/Données Stata/Marchandises Navigocorpus/Navigo.dta" {
+				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta" {
 		
 		use "`file'", clear
 		foreach variable of var * {
