@@ -1,6 +1,9 @@
 {
   "title": "TOFLIT18 dataset",
-  "upload_type": "dataset",
+  "resource_type": {
+    "type": "dataset",
+    "title": "Dataset"
+  },
   "license": "ODbL-1.0",
   "keywords": ["Eighteenth Century", "France", "International trade"],
   "creators": [
