@@ -1,0 +1,11 @@
+{
+  "api": {
+    "secret": "merrain"
+  },
+  "db": {
+    "host": "localhost",
+    "port": 7687,
+    "user": "neo4j",
+    "password": "neo4j"
+  }
+}

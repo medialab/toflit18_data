@@ -1,0 +1,71 @@
+{
+  "name": "toflit18-neo4j",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "import": "kotatsu run --babel -s ./import.js",
+    "quantities": "kotatsu run --babel -s ./quantities.js",
+    "indices": "kotatsu run --babel -s ./indices.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medialab/toflit18_data.git"
+  },
+  "author": "Guillaume Plique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medialab/toflit18_data/issues"
+  },
+  "homepage": "https://github.com/medialab/toflit18_data#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "config": "^3.3.7",
+    "csv": "^1.1.1",
+    "gitlog": "^4.0.4",
+    "highland": "^2.5.1",
+    "lodash": "^4.17.21",
+    "neo4j-driver": "^1.2.0",
+    "yargs": "^3.14.0",
+    "mnemonist": "^0.22.0"
+  },
+  "devDependencies": {
+    "@yomguithereal/eslint-config": "^4.0.0",
+    "babel-eslint": "^8.1.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-2": "^6.3.13",
+    "cypher-loader": "^0.3.0",
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "kotatsu": "^0.15.2",
+    "mocha": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@yomguithereal/eslint-config/es7",
+      "@yomguithereal/eslint-config/react"
+    ],
+    "globals": {
+      "sigma": true,
+      "CONFIG": true
+    },
+    "rules": {
+      "no-return-assign": 0,
+      "react/forbid-prop-types": 0,
+      "react/jsx-indent": 0,
+      "react/jsx-no-bind": 0,
+      "react/no-set-state": 0,
+      "react/no-string-refs": 0,
+      "react/prefer-stateless-function": 0,
+      "react/require-optimization": 0
+    }
+  }
+}
