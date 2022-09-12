@@ -77,7 +77,6 @@ build_docker_image:
     - neo4j_database
   script:
     - apk add --update docker openrc
-    - service docker start
     - service docker status
     - chown -R 101:101 ${CI_PROJECT_DIR}
     # start neo4j with the DB created in previous step
