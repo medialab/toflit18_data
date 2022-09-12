@@ -18,6 +18,8 @@ build_bdd_centrale:
   artifacts:
     untracked: true
     expire_in: "1 day"
+    exclude:
+      - "__pycache__*"
   image: python:3.7-alpine3.9
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
@@ -39,6 +41,7 @@ neo4j_CSV:
   script:
     - mkdir -p neo4j_import
     - cd $CI_PROJECT_DIR/scripts/neo4j && npm i
+    - ls -lah $CI_PROJECT_DIR/base/
     - cd $CI_PROJECT_DIR/scripts/neo4j && npm run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
   only:
     - new_import
