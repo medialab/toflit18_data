@@ -22,6 +22,7 @@ build_bdd_centrale:
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
   only:
+    - new_import
     - staging
     - prod
 
@@ -40,6 +41,7 @@ neo4j_CSV:
     - cd ./scripts/neo4j && npm i
     - cd ./scripts/neo4j && npm run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
   only:
+    - new_import
     - staging
     - prod
 
@@ -59,6 +61,7 @@ neo4j_database:
     - /var/lib/neo4j/bin/neo4j-admin import --database graph.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
     - mv /var/lib/neo4j/data/databases/graph.db $CI_PROJECT_DIR/neo4j_database/
   only:
+    - new_import
     - staging
     - prod
 
@@ -86,6 +89,7 @@ build_docker_image:
     - docker logs neo4j
     - docker rm neo4j
   only:
+    - new_import
     - staging
     - prod
 
