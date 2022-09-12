@@ -76,8 +76,6 @@ build_docker_image:
     - neo4j_database
   services:
     - docker:dind
-  variables:
-    FF_NETWORK_PER_BUILD: "true" 
   script:
     - export CI_BUILD_NETWORK_ID="$HOSTNAME-job-$CI_JOB_ID-network"
     - apk add --no-cache npm bash curl
@@ -103,6 +101,7 @@ build_docker_image:
     - docker logs neo4j_build
     - docker rm neo4j_build
   variables:
+    FF_NETWORK_PER_BUILD: "true"
     NEO4J_USER: "neo4j"
     NEO4J_PASSWORD: "secret"
     NEO4J_HOST: "neo4j_build"
