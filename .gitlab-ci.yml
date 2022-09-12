@@ -78,13 +78,12 @@ build_docker_image:
     - docker:dind
   script:
     - export CI_BUILD_NETWORK_ID="$HOSTNAME-job-$CI_JOB_ID-network"
-    - apk add --no-cache npm bash curl
+    - apk add --no-cache npm bash
     - npm install -g n
     - n 7.9
     - chown -R 101:101 ${CI_PROJECT_DIR}
     # start neo4j with the DB created in previous step
     - docker run --detach --name neo4j_build --rm=true --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --network=$CI_BUILD_NETWORK_ID -p 7687:7687/tcp --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.5.16
-    - curl -I  http://neo4j_build:7687
     # run quantities and indices scripts
     - ls -lah ${CI_PROJECT_DIR}
     - cd ${CI_PROJECT_DIR}/scripts/neo4j
