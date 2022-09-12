@@ -38,8 +38,8 @@ neo4j_CSV:
   image: node:7.9.0-alpine
   script:
     - mkdir -p neo4j_import
-    - cd ./scripts/neo4j && npm i
-    - cd ./scripts/neo4j && npm run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
+    - cd $CI_PROJECT_DIR/scripts/neo4j && npm i
+    - cd $CI_PROJECT_DIR/scripts/neo4j && npm run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
   only:
     - new_import
     - staging
