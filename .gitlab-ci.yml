@@ -101,6 +101,7 @@ build_docker_image:
     - docker rm neo4j_build
   variables:
     FF_NETWORK_PER_BUILD: "true"
+    DOCKER_TLS_CERTDIR: ""
     NEO4J_USER: "neo4j"
     NEO4J_PASSWORD: "secret"
     NEO4J_HOST: "neo4j_build"
