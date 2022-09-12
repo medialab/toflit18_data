@@ -83,6 +83,7 @@ build_docker_image:
     # run quantities and indices scripts
     - ls -lah ${CI_PROJECT_DIR}
     - cd ${CI_PROJECT_DIR}/scripts/neo4j
+
     - npm run quantities -- -- --path $CI_PROJECT_DIR
     - npm run indices
     # stop neo4j
@@ -95,11 +96,11 @@ build_docker_image:
     - docker push $DOCKER_IMAGE_NAME
     - docker logs neo4j_build
     - docker rm neo4j_build
-  environment:
-    NEO4J_USER: neo4j
-    NEO4J_PASSWORD: secret
-    NEO4J_HOST: neo4j_build
-    NEO4J_PORT: 7687
+  variables:
+    NEO4J_USER: "neo4j"
+    NEO4J_PASSWORD: "secret"
+    NEO4J_HOST: "neo4j_build"
+    NEO4J_PORT: "7687"
   only:
     - new_import
     - staging
