@@ -79,18 +79,18 @@ build_docker_image:
     #- cp -r ${CI_PROJECT_DIR}/base ${CI_PROJECT_DIR}/neo4j_database/
     #- ls -la ${CI_PROJECT_DIR}/neo4j_database/base
     # start neo4j with the DB created in previous step
-    - docker run --detach --name neo4j  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.5.16
+    - docker run --detach --name neo4j_build  --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --env "NEO4J_dbms_memory_heap_maxSize=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/secret" neo4j:3.5.16
     # run quantities and indices scripts
-    - docker run --volume=${CI_PROJECT_DIR}/:/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j:neo4j --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j" --env "NEO4J_PORT=7687" node:7.9.0-alpine  -c "cd /toflit18_data/scripts/neo4j/ && npm run quantities -- -- --path $CI_PROJECT_DIR && npm run indices"
+    - docker run --volume=${CI_PROJECT_DIR}/:/toflit18_data --user root --entrypoint /bin/sh --rm=true --link neo4j_build:neo4j_build --env "NEO4J_USER=neo4j" --env "NEO4J_PASSWORD=secret" --env "NEO4J_HOST=neo4j_build" --env "NEO4J_PORT=7687" node:7.9.0-alpine  -c "cd /toflit18_data/scripts/neo4j/ && npm run quantities -- -- --path $CI_PROJECT_DIR && npm run indices"
     # stop neo4j
-    - docker stop neo4j
+    - docker stop neo4j_build
     # build image
     - docker build -t $DOCKER_IMAGE_NAME -f Dockerfile .
     # push
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker push $DOCKER_IMAGE_NAME
-    - docker logs neo4j
-    - docker rm neo4j
+    - docker logs neo4j_build
+    - docker rm neo4j_build
   only:
     - new_import
     - staging
