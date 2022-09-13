@@ -114,7 +114,6 @@ build_docker_image:
     - ls -lah ${SHARED_FOLDER}/neo4j_data
     - ls -lah ${SHARED_FOLDER}/neo4j_data/databases/graph.db
     - cat neo4j_build.log
-    - cat /neo4j_logs/*.log
     - docker logs neo4j_build
     - curl -i neo4j_build:7687
     # run quantities and indices scripts
