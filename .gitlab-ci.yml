@@ -41,7 +41,7 @@ test_mount:
     - export MOUNT_NAME=$(docker inspect $CONTAINER_ID -f "{{ range .Mounts }}{{ if eq .Destination \"/builds/${CI_PROJECT_NAMESPACE}\" }}{{ .Source }}{{end}}{{end}}" | cut -d "/" -f 6)
     - echo $MOUNT_NAME
     - echo $CI_PROJECT_NAME
-    - cat "hello World" > /builds/$CI_PROJECT_NAME/coucou.txt
+    - echo "hello World" > /builds/$CI_PROJECT_NAME/coucou.txt
     - ls -la /builds/$CI_PROJECT_NAME/
     # test mount methods
     - docker run --rm -v $MOUNT_NAME:/builds -w /builds/$CI_PROJECT_NAME docker:stable ls -la
