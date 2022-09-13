@@ -88,7 +88,7 @@ build_docker_image:
     - ls -lah ${CI_PROJECT_DIR}/neo4j_database
     - ls -lah ${CI_PROJECT_DIR}/neo4j_database/graph.db
     # start neo4j with the DB created in previous step
-    - docker run --name neo4j_build --rm=true --volume=/neo4j_logs:/logs --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --network=$CI_BUILD_NETWORK_ID -p 7687:7687 --env "dbms_connectors_default_listen_address=0.0.0.0" --env "NEO4J_dbms_memory_heap_max__size=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/admin" neo4j:3.5 > neo4j_build.log &
+    - docker run --name neo4j_build --volume=/neo4j_logs:/logs --volume=${CI_PROJECT_DIR}/neo4j_database/:/data/databases/ --network=$CI_BUILD_NETWORK_ID -p 7687:7687 --env "dbms_connectors_default_listen_address=0.0.0.0" --env "NEO4J_dbms_memory_heap_max__size=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_AUTH=neo4j/admin" neo4j:3.5 > neo4j_build.log &
     - sleep 5
     - ls -lah ${CI_PROJECT_DIR}/neo4j_database
     - ls -lah ${CI_PROJECT_DIR}/neo4j_database/graph.db
