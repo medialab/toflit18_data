@@ -36,7 +36,7 @@ test_mount:
   artifacts:
     untracked: true
   script:
-    - export JOB_CONTAINER_ID=`docker ps -q -f "label=com.gitlab.gitlab-runner.job.id=$CI_JOB_ID"
+    - export JOB_CONTAINER_ID=`docker ps -q -f "label=com.gitlab.gitlab-runner.job.id=$CI_JOB_ID"`
     - echo $JOB_CONTAINER_ID
     - echo $CI_PROJECT_NAME
     - ls -la
