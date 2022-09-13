@@ -40,8 +40,8 @@ test_mount:
     - echo $JOB_CONTAINER_ID
     - echo $CI_PROJECT_NAME
     - ls -la
-    - docker run --volumes-from ${JOB_CONTAINER_ID} docker:stable -c "ls -la /builds/$CI_PROJECT_NAME"
-    - docker run --volume=${CI_PROJECT_DIR}:/data/ docker:stable -c "ls -la /data"
+    - docker run --volumes-from ${JOB_CONTAINER_ID} -w /builds/$CI_PROJECT_NAME -ti docker:stable ls -la
+    - docker run --volume=${CI_PROJECT_DIR}:/data/ -w /data -ti docker:stable ls -la
   only:
     - new_import
 
