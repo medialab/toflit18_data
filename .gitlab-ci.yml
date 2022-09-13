@@ -38,10 +38,15 @@ test_mount:
   script:
     - export JOB_CONTAINER_ID=`docker ps -q -f "label=com.gitlab.gitlab-runner.job.id=$CI_JOB_ID"`
     - echo $JOB_CONTAINER_ID
+    - export MOUNT_NAME=$(docker inspect $CONTAINER_ID -f "{{ range .Mounts }}{{ if eq .Destination \"/builds/${CI_PROJECT_NAMESPACE}\" }}{{ .Source }}{{end}}{{end}}" | cut -d "/" -f 6)
+    - echo $MOUNT_NAME
     - echo $CI_PROJECT_NAME
-    - ls -la
-    - docker run --volumes-from ${JOB_CONTAINER_ID} -w /builds/$CI_PROJECT_NAME  docker:stable ls -la
-    - docker run --volume=${CI_PROJECT_DIR}:/data/ -w /data  docker:stable ls -la
+    - ls -la /builds/$CI_PROJECT_NAME
+    - ls -la $CI_PROJECT_DIR
+    # test mount methods
+    - docker run --rm -v $MOUNT_NAME:/builds -w /builds/$CI_PROJECT_NAME docker:stable ls -la
+    - docker run --rm --volumes-from ${JOB_CONTAINER_ID} -w /builds/$CI_PROJECT_NAME  docker:stable ls -la
+    - docker run --rm --volume=${CI_PROJECT_DIR}:/data/ -w /data  docker:stable ls -la
   only:
     - new_import
 
