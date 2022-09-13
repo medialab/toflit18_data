@@ -2,6 +2,7 @@ image: docker:stable
 
 stages:
   - build_bdd_centrale
+  - test_mount
   - build_neo4j_CSV
   - build_neo4j_database
   - build_docker_image
