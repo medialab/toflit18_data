@@ -2,7 +2,6 @@ image: docker:stable
 
 stages:
   - build_bdd_centrale
-  - test_mount
   - build_neo4j_CSV
   - build_neo4j_database
   - build_docker_image
@@ -26,27 +25,8 @@ build_bdd_centrale:
   script:
     - cd ./scripts/ && python aggregate_sources_in_bdd_centrale_with_calculations.py
   only:
-    - new_import
     - staging
     - prod
-
-test_mount:
-  stage: test_mount
-  tags:
-    - proxy
-  artifacts:
-    untracked: true
-  script:
-    - export JOB_CONTAINER_ID=`docker ps -q -f "label=com.gitlab.gitlab-runner.job.id=$CI_JOB_ID"`
-    - echo $JOB_CONTAINER_ID
-    - echo $CI_PROJECT_NAME
-    - echo "hello World" > ${SHARED_FOLDER}/coucou.txt
-    - ls -la ${SHARED_FOLDER}
-    # test mount methods
-    - docker run --rm --volumes-from ${JOB_CONTAINER_ID} -w ${SHARED_FOLDER}  docker:stable cat coucou.txt
-    - docker run --rm --volume=${CI_PROJECT_DIR}:/data/ -w /data/neo4j_database  docker:stable ls -la
-  only:
-    - new_import
 
 neo4j_CSV:
   stage: build_neo4j_CSV
@@ -64,7 +44,6 @@ neo4j_CSV:
     - cd $CI_PROJECT_DIR/scripts/neo4j && npm i
     - cd $CI_PROJECT_DIR/scripts/neo4j && npm run import -- -- --path $CI_PROJECT_DIR --output $CI_PROJECT_DIR/neo4j_import/
   only:
-    - new_import
     - staging
     - prod
 
@@ -84,7 +63,6 @@ neo4j_database:
     - /var/lib/neo4j/bin/neo4j-admin import --database toflit18.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
     - mv /var/lib/neo4j/data/databases/toflit18.db $CI_PROJECT_DIR/neo4j_data/databases/graph.db
   only:
-    - new_import
     - staging
     - prod
 
@@ -134,7 +112,6 @@ build_docker_image:
     NEO4J_HOST: "neo4j_build"
     NEO4J_PORT: "7687"
   only:
-    - new_import
     - staging
     - prod
 
