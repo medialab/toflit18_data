@@ -15,7 +15,7 @@ import FuzzyMap from "mnemonist/fuzzy-map";
 import { parse as parseCSV } from "csv";
 import database from "./lib/connection";
 import { cleanText, cleanNumber } from "./lib/clean";
-import { some, values } from "lodash";
+import { chunk, some, values } from "lodash";
 
 /**
  * Reading arguments.
@@ -380,13 +380,28 @@ async.series(
       });
     },
     updateDatabase: (next) => {
-      console.log("Updating the database...");
-
-      database.cypher(
-        { query: QUERY_UPDATE_FLOWS, params: { batch: UPDATE_BATCH } },
-        next,
-        "WRITE"
+      console.log(
+        "Updating the database (" + UPDATE_BATCH.length + " flows)..."
       );
+      // chunk batch list
+      let nbProcessBatch = 0;
+      async
+        .series(
+          chunk(UPDATE_BATCH, 1000).map((batch) => (nextUpdate) => {
+            nbProcessBatch += 1;
+            if (nbProcessBatch % 100)
+              console.log("processed " + nbProcessBatch * 1000 + " flows");
+            database.cypher(
+              { query: QUERY_UPDATE_FLOWS, params: { batch } },
+              nextUpdate,
+              "WRITE"
+            );
+          })
+        )
+        .then(() => {
+          console.log("processed " + UPDATE_BATCH.length + " flows");
+          next();
+        });
     },
   },
   (err) => {
