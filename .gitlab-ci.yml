@@ -120,7 +120,7 @@ deploy:
     name: jrisp/kubehelper:latest
     entrypoint: [""]
   stage: deploy
-   tags:
+  tags:
     - proxy
   dependencies:
     - build_docker_image
