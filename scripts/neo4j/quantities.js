@@ -312,7 +312,7 @@ async.series(
             // Special values
             if (row.normalizedUnit === "kg") {
               update.properties.quantity_kg = row.quantity * metric2Data.factor;
-            } else if (row.normalizedUnit === "nombres") {
+            } else if (row.normalizedUnit === "nombre") {
               update.properties.quantity_nbr =
                 row.quantity * metric2Data.factor;
             } else if (row.normalizedUnit === "litres") {
