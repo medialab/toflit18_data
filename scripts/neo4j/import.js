@@ -17,7 +17,7 @@ import { normalizeYear } from "./lib/republican_calendar";
 import { cleanText, cleanNumber } from "./lib/clean";
 import path from "path";
 import fs from "fs";
-import _ from "lodash";
+import _, { property } from "lodash";
 import gitlog from "gitlog";
 
 /**
@@ -51,20 +51,18 @@ const POSSIBLE_NODE_PROPERTIES = [
   "year:int",
   "rawYear",
   "import:boolean",
-  "sheet",
+
   "name",
-  "path",
   "type",
   "model",
-  "note",
+
   "slug",
   "password",
   "description",
   "source:boolean",
   "region",
   "originalRegion",
-  "partner",
-  "sourceType",
+
   "product",
   "id",
   "bestGuessNationalProductXPartner:boolean",
@@ -75,10 +73,39 @@ const POSSIBLE_NODE_PROPERTIES = [
   "hash",
   "date",
   "repository",
-  "absurdObservation",
 ];
 
-const NODE_PROPERTIES_MAPPING = _(POSSIBLE_NODE_PROPERTIES)
+const AS_IS_NODE_PROPERTIES = [
+  "partner",
+  "filepath",
+  "customs_region",
+  "origin",
+  "width_in_line:int",
+  "value_part_of_bundle:float",
+  "sheet",
+  "value_total:float",
+  "value_sub_total_1:float",
+  "value_sub_total_2:float",
+  "value_sub_total_3:float",
+  "data_collector",
+  "unverified:boolean",
+  "remarks",
+  "value_minus_unit_val_x_qty:float",
+  "trade_deficit:float",
+  "trade_surplus:float",
+  "duty_quantity:float",
+  "duty_quantity_unit",
+  "duty_by_unit:float",
+  "duty_total:float",
+  "duty_part_of_bundle:float",
+  "duty_remarks",
+  "remarks",
+  "absurd_observation",
+];
+
+const NODE_PROPERTIES_MAPPING = _(
+  POSSIBLE_NODE_PROPERTIES.concat(AS_IS_NODE_PROPERTIES)
+)
   .map((p, i) => [p.split(":")[0], i])
   .fromPairs()
   .value();
@@ -390,6 +417,7 @@ function importer(csvLine) {
       csvLine.filepath
     );
   }
+  if (region) nodeData.region = region;
 
   // Import or Export
   const isImport = /(imp|sortie)/i.test(csvLine.export_import);
@@ -446,10 +474,6 @@ function importer(csvLine) {
       console.log("  !! Weird quantity:", csvLine.quantity);
   }
 
-  // absurd flags
-  if (csvLine.absurd_observation)
-    nodeData.absurdObservation = csvLine.absurd_observation;
-
   // Unit price
   if (csvLine.value_per_unit) {
     const realPrice = cleanNumber(csvLine.value_per_unit);
@@ -459,17 +483,18 @@ function importer(csvLine) {
       console.log("  !! Weird unit price:", csvLine.value_per_unit);
   }
 
-  if (csvLine.remarks) nodeData.note = csvLine.remarks;
-
   // Additional static indexed properties for convenience
-  if (csvLine.partner) nodeData.partner = csvLine.partner;
-  if (region) nodeData.region = region;
-  if (originalRegion) nodeData.originalRegion = originalRegion;
+  // absurd flags
+  AS_IS_NODE_PROPERTIES.map((p) => {
+    property = p.split(":")[0];
+    if (csvLine[property]) nodeData[property] = csvLine[property];
+  });
 
   if (csvLine.product) {
     // we want every product name to be have a capital on the first letter
     nodeData.product = capitalizeProduct(csvLine.product);
   }
+  // keep the case transformation to avoid downstream issues
   if (csvLine.source_type) nodeData.sourceType = csvLine.source_type;
   // best guess source type
   nodeData.bestGuessNationalProductXPartner =
