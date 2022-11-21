@@ -1,5 +1,5 @@
 global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
-global dir_git "~/Répertoires Git/toflit18_data"
+global dir_git "~/Répertoires Git/toflit18_data_GIT"
 
 if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
 
