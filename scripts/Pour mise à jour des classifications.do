@@ -1,3 +1,23 @@
+global dir "~/Documents/Recherche/Commerce International Français XVIIIe.xls/Balance du commerce/Retranscriptions_Commerce_France"
+global dir_git "~/Répertoires Git/toflit18_data_GIT"
+
+if "`c(username)'"=="Matthias" global dir "/Users/Matthias/"
+
+if "`c(username)'"=="Tirindelli"{
+	global dir "/Users/Tirindelli/Desktop/toflit18"
+	global dir_git "/Volumes/GoogleDrive/My Drive/Hamburg"
+}
+if "`c(username)'"=="federico.donofrio" global dir "C:\Users\federico.donofrio\Documents\GitHub"
+
+if "`c(username)'"=="pierr" global dir "/Users/pierr/Documents/Toflit/"
+
+if "`c(username)'"=="loiccharles" global dir "/Users/loiccharles/Documents/"
+
+cd "$dir"
+
+
+
+
 ********* Procédure pour les nouveaux fichiers ************
 *******************************
 
