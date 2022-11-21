@@ -3897,6 +3897,7 @@ canifs,2,canifs,2
 caniques,1,caniques,1
 cann ??,1,cann ??,1
 cannelle,1362,cannelle,1484
+cannelle à tonneaux,1,cannelle à tonneaux,1
 cannelle commune,15,cannelle commune,18
 cannelle commune d'ailleurs hors d'Europe,0,cannelle commune hors d'Europe,0
 cannelle commune des entrepôts,0,cannelle commune des entrepôts,0
@@ -3915,7 +3916,6 @@ cannelle malte,4,cannelle malte,4
 cannelle ocyrez,0,cannelle ocyrez,0
 cannelle ordinaire,3,cannelle ordinaire,3
 cannelle sauvage,6,cannelle sauvage,6
-cannelle à tonneaux,1,cannelle à tonneaux,10
 cannes,9,cannes,28
 cannes à faire chaise,1,cannes à faire chaise,1
 cannes à main,100,cannes à main,100
@@ -7412,7 +7412,7 @@ divers,3,divers,5763
 divers articles,1,divers,5763
 divers effets,1,habits,548
 divers en mercerie etc.,1,mercerie,3964
-divers fruits sec tels que figue et pruneaux etc.,1,fruits secs,1108
+divers fruits sec tels que figue et pruneaux etc.,1,fruits secs,1110
 divers grains,1,grains,9
 divers gros et menus ouvrages de bois,146,ouvrages de bois,859
 divers marchandises,5722,marchandises,7829
@@ -12575,11 +12575,11 @@ fruits cornichons,3,cornichons,60
 fruits cruets bergamotes,1,bergamotes fraîches,1
 fruits cruets châtaignes et marrons,11,châtaignes et marrons frais,11
 fruits cruets citron et orange,14,citron et orange frais,210
-fruits cruets divers,10,fruits frais,782
+fruits cruets divers,10,fruits frais,784
 fruits cruets pommes et poires,8,poires et pommes fraîches,80
 fruits cruets prunes de ???,0,prunes fraîches de ???,0
 fruits cruets vendangés,1,fruits frais vendangés,1
-fruits crus,508,fruits frais,782
+fruits crus,508,fruits frais,784
 fruits crus bigarade,0,bigarade fraîche,0
 fruits crus cédrat,0,cédrat frais,0
 fruits crus cerise,1,cerises,33
@@ -12589,7 +12589,7 @@ fruits crus châtaignes et marrons,18,châtaignes fraîches et marrons frais,18
 fruits crus citron,42,citron frais,67
 fruits crus citron et orange,1,citron et orange,365
 fruits crus des Indes dattes,1,dattes,314
-fruits crus divers,90,fruits frais,782
+fruits crus divers,90,fruits frais,784
 fruits crus en barils,0,fruits frais en barils,0
 fruits crus en citron,14,citron frais,67
 fruits crus en marrons,1,marrons crus,1
@@ -12655,7 +12655,7 @@ fruits divers figues,1,figues,1
 fruits divers prunes,1,prunes,359
 fruits divers secs noisettes,2,noisettes,650
 fruits divers secs raisin,1,raisin sec,1137
-fruits durs mêlés,110,fruits secs,1108
+fruits durs mêlés,110,fruits secs,1110
 fruits en câpres,1,câpres,937
 fruits en confitures,7,fruits en confitures,7
 fruits en cornichons,4,cornichons,60
@@ -12669,12 +12669,12 @@ fruits et légumes confits au vinaigre,33,fruits et légumes confits au vinaigre
 fruits et légumes confits et marinés,54,fruits et légumes confits et marinés,67
 fruits figue,9,figue,1057
 fruits follicule de séné,27,follicule de séné,178
-fruits frais,111,fruits frais,782
+fruits frais,111,fruits frais,784
 fruits frais amandes,0,amandes fraîches,1
 fruits frais châtaignes,1,châtaignes,808
 fruits frais citron et orange,41,citron et orange frais,210
-fruits frais divers,48,fruits frais,782
-fruits frais divers tels que pommes poires raisin etc,2,fruits frais,10
+fruits frais divers,48,fruits frais,784
+fruits frais divers tels que pommes poires raisin etc,2,fruits frais,784
 fruits frais olive,2,olives fraîches,2
 fruits frais pêches,1,pêches fraîches,1
 fruits frais poires,1,poires fraîches,3
@@ -12719,7 +12719,7 @@ fruits salés et au vinaigre olive,0,olives salées et au vinaigre,0
 fruits salés marinés,1,fruits salés marinés,1
 fruits salés olive,21,olives salées,43
 fruits sans désignation,4,fruits,856
-fruits secs,773,fruits secs,1108
+fruits secs,773,fruits secs,1110
 fruits secs amandes,63,amandes sèches,64
 fruits secs amandes cassées,1,amandes cassées,419
 fruits secs amandes en coques,1,amandes en coques,441
@@ -12728,8 +12728,8 @@ fruits secs brugnoles,1,brugnoles,3
 fruits secs châtaignes,18,châtaignes sèche,18
 fruits secs confits etc,1,fruits secs confits,1
 fruits secs dattes,11,dattes sèches,12
-fruits secs de toute sorte,32,fruits secs,1108
-fruits secs divers,174,fruits secs,1108
+fruits secs de toute sorte,32,fruits secs,1110
+fruits secs divers,174,fruits secs,1110
 fruits secs divers amandes,5,amandes,2185
 fruits secs divers en noisettes pistaches et ???,1,noisettes pistaches et ???,1
 fruits secs en amandes,1,amandes sèches,64
@@ -12751,7 +12751,7 @@ fruits secs et à l'eau-de-vie divers,4,fruits secs et à l'eau-de-vie,4
 fruits secs et confits,5,fruits secs et confits,9
 fruits secs et confits divers,4,fruits secs et confits,9
 fruits secs figue,64,figue sèche,79
-fruits secs figue raisin pruneaux et poires tapées,2,fruits secs,10
+fruits secs figue raisin pruneaux et poires tapées,2,fruits secs,1110
 fruits secs figue sèche,3,figue sèche,79
 fruits secs figues,1,figue sèche,79
 fruits secs marrons,3,marrons secs,3
@@ -23077,7 +23077,7 @@ prunes de Bordeaux,2,prunes de Bordeaux,2
 prunes de Brignoles,13,prunes Brignoles,72
 prunes de Sainte-Catherine,92,prunes de Sainte-Catherine,93
 prunes et pruneaux,3,pruneaux et prunes,4
-prunes et raisin,1,prunes et raisin,10
+prunes et raisin,1,prunes et raisin,1
 prunes fraîches,1,prunes fraîches,1
 prunes noires,2,prunes noires,2
 prunes pêches cerises nèfles etc.,125,prunes pêches cerises nèfles etc.,125
@@ -23384,7 +23384,7 @@ raisin de Provence,1,raisin de Provence,1
 raisin en barils,14,raisin en barils,14
 raisin en grappe,11,raisin en grappe,11
 raisin frais,65,raisin frais,65
-raisin jalap,4,raisin jalap,10
+raisin jalap,4,raisin jalap,4
 raisin sec,1107,raisin sec,1137
 raisin sec de Provence,2,raisin de Provence sec,2
 raisin sec et amandes,11,amandes et raisin sec,15
@@ -25130,9 +25130,9 @@ subsistances fruits confits à l'eau-de-vie,13,fruits confits à l'eau-de-vie,40
 subsistances fruits confits au sucre et confitures,17,confitures et fruits confits au sucre,17
 subsistances fruits divers,60,fruits,856
 subsistances fruits et légumes confits et marinés,13,fruits et légumes confits et marinés,67
-subsistances fruits frais divers,15,fruits frais,782
+subsistances fruits frais divers,15,fruits frais,784
 subsistances fruits secs amandes,16,amandes,2185
-subsistances fruits secs divers,18,fruits secs,1108
+subsistances fruits secs divers,18,fruits secs,1110
 subsistances fruits secs en amandes figue et ???,0,amandes sèches et figue sèche et ???,0
 subsistances fruits secs en amandes figue et raisin,33,amandes et figue et raisin,33
 subsistances fruits verts en orange et citron,20,citron et orange,365
