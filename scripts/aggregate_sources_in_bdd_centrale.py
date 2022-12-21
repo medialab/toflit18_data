@@ -243,6 +243,10 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                             year)
                                     if year==1777 and line['source_type'] != "National toutes directions sans produits":
                                         line['best_guess_national_region'] = 0 
+                                    if year==1777 and line['source_type'] == "National toutes directions sans produits" and line['partner'] == "Angleterre":
+                                        line['best_guess_national_region'] = 0
+                                    if year==1777 and line['source_type'] == "National toutes directions partenaires manquants" and line['partner'] == "Angleterre":
+                                        line['best_guess_national_region'] = 1 
                                 writer.writerow(line)
     if with_calculated_values:
         # compute best guess secondary variables
