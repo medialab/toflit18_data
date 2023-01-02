@@ -3,12 +3,10 @@
 import itertools
 import os
 from csv import DictReader, writer, DictWriter
-import re
 import json
 import collections
 import shutil
 import csv
-import unidecode
 
 WRITE = True
 VERBOSE = True

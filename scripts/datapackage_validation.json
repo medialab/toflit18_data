@@ -1,6 +1,6 @@
 {
   "version": "4.29.0",
-  "time": 74.294,
+  "time": 73.84,
   "errors": [],
   "tasks": [
     {
@@ -8,67 +8,72 @@
         "name": "classifications_index",
         "path": "base/classifications_index.csv",
         "description": "This table list the classifications available to agregate country and product. It describes the hierarchy of classification which one beeing based on another one. The index does not contain the classification data which are in dedicated files whose name are standardized as base/classification_{model}_{slug}.csv. Those files are not in the datapackage because their structure moves with scientists usage...",
-        "fields": [
-          {
-            "name": "slug",
-            "type": "string",
-            "constraints": {
-              "required": true,
-              "unique": true
+        "schema": {
+          "fields": [
+            {
+              "name": "slug",
+              "type": "string",
+              "constraints": {
+                "required": true
+              },
+              "description": "classification slug name used to uniquely identify the classification. The slug is used as variable name in classification tables."
             },
-            "description": "classification slug name used to uniquely identify the classification. The slug is used as variable name in classification tables."
-          },
-          {
-            "name": "model",
-            "type": "string",
-            "constraints": {
-              "required": true,
-              "enum": [
-                "partner",
-                "product"
-              ]
+            {
+              "name": "model",
+              "type": "string",
+              "constraints": {
+                "required": true,
+                "enum": [
+                  "partner",
+                  "product"
+                ]
+              },
+              "description": "The type of object which are classified. It's the data field in the flow resource which is targeted by the classification."
             },
-            "description": "The type of object which are classified. It's the data field in the flow resource which is targeted by the classification."
-          },
-          {
-            "name": "parentSlug",
-            "type": "string",
-            "description": "Slug of the parent classification. Left blank for the source which are the root of classification tree."
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "constraints": {
-              "required": true
+            {
+              "name": "parentSlug",
+              "type": "string",
+              "description": "Slug of the parent classification. Left blank for the source which are the root of classification tree."
             },
-            "description": "Human readable name of the classification"
-          },
-          {
-            "name": "author",
-            "type": "string",
-            "constraints": {
-              "required": true
+            {
+              "name": "name",
+              "type": "string",
+              "constraints": {
+                "required": true
+              },
+              "description": "Human readable name of the classification"
             },
-            "description": "Classification author name.s"
-          },
-          {
-            "name": "description",
-            "type": "string",
-            "constraints": {
-              "required": true
+            {
+              "name": "author",
+              "type": "string",
+              "constraints": {
+                "required": true
+              },
+              "description": "Classification author name.s"
             },
-            "description": "Classification description"
-          }
-        ],
-        "foreignKeys": [
-          {
-            "fields": "parentSlug",
-            "reference": {
-              "resource": "classifications_index",
-              "fields": "slug"
+            {
+              "name": "description",
+              "type": "string",
+              "constraints": {
+                "required": true
+              },
+              "description": "Classification description"
             }
-          }
-        ],
+          ],
+          "primaryKey": [
+            "slug",
+            "model"
+          ],
+          "foreignKeys": [
+            {
+              "fields": "parentSlug",
+              "reference": {
+                "resource": "classifications_index",
+                "fields": "slug"
+              }
+            }
+          ]
+        },
         "profile": "tabular-data-resource",
         "scheme": "file",
         "format": "csv",
@@ -79,37 +84,9 @@
           "fields": 6,
           "rows": 34
         },
-        "encoding": "utf-8",
-        "schema": {
-          "fields": [
-            {
-              "type": "string",
-              "name": "slug"
-            },
-            {
-              "type": "string",
-              "name": "model"
-            },
-            {
-              "type": "string",
-              "name": "parentSlug"
-            },
-            {
-              "type": "string",
-              "name": "name"
-            },
-            {
-              "type": "string",
-              "name": "author"
-            },
-            {
-              "type": "string",
-              "name": "description"
-            }
-          ]
-        }
+        "encoding": "utf-8"
       },
-      "time": 0.029,
+      "time": 0.051,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -944,6 +921,7 @@
           "sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1778.csv",
           "sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1779.csv",
           "sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1780.csv",
+          "sources/Local/Archives_de_la_CCI_de_Marseille_I_32_Marseille_Imports_1749.csv",
           "sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1767.csv",
           "sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1769.csv",
           "sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1774.csv",
@@ -1305,13 +1283,13 @@
         "scheme": "multipart",
         "hashing": "md5",
         "stats": {
-          "hash": "c124c026a55fd2d8fa1013380ee363dd",
-          "bytes": 123935764,
+          "hash": "a5353449672a88a7e512d06adc9c2f99",
+          "bytes": 124263766,
           "fields": 35,
-          "rows": 569548
+          "rows": 570936
         }
       },
-      "time": 74.136,
+      "time": 73.648,
       "scope": [
         "hash-count-error",
         "byte-count-error",
