@@ -403,9 +403,11 @@ import delimited "$dir_git/traitements_marchandises/Marchandises Navigocorpus et
 		clear varnames(1) encoding(utf8) delimiters(";")
 *use "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", clear
 rename source_portic_fr product
+rename commodity_standardized_fr orthographic
+replace orthographic = ustrlower(orthographic, "fr")
 rename nb_occurences_source sourceNAVIGO_nbr
 destring(sourceNAVIGO_nbr), replace ignore("  ")
-collapse (sum) sourceNAVIGO_nbr, by(product)
+collapse (sum) sourceNAVIGO_nbr, by(product orthographic)
 save "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta", replace
 
 
@@ -454,7 +456,7 @@ keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_n
 
 
 
-merge 1:m product using "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta"
+merge 1:1 product using "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta", update
 drop if product=="(empty)" & _merge !=2
 sort product
 bys product : keep if _n==1
@@ -462,6 +464,10 @@ generate sourceNAVIGO=0
 replace sourceNAVIGO=1 if _merge!=1
 replace sourceNAVIGO_nbr=0 if _merge==1
 
+preserve
+keep if _merge==4 | _merge==2
+export delimited "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Orthographic_from_Navigo_to_check.csv", replace
+restore
 
 
 keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr note
@@ -469,7 +475,6 @@ keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_n
 foreach i of varlist sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_nbr sourceSUND_nbr sourceNAVIGO sourceNAVIGO_nbr {
 	replace    `i'=0 if `i'==.
 }
-
 
 sort product
 gen nbr_source=sourceBEL+sourceFR+sourceSUND+sourceNAVIGO
