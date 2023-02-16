@@ -67,10 +67,11 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 }
 
 
+
 if "`c(username)'"=="guillaumedaudin" | "`c(username)'"=="Tirindelli" {
 
 	foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
-				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta" {
+				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta" {
 		
 		use "`file'", clear
 		foreach variable of var * {
@@ -210,9 +211,9 @@ export delimited "$dir_git/base/bdd_centrale.csv", replace datafmt
 cd "$dir_git/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 save "$dir/Données Stata/bdd_centrale.dta", replace
-****Important : si je fais les destring avant, je ne peux pas retrouver mes valeurs d’origine
+/*****Important : si je fais les destring avant, je ne peux pas retrouver mes valeurs d’origine
 ****Voir https://www.statalist.org/forums/forum/general-stata-discussion/general/1433867-stata-generating-garbage-decimal-places-in-float-variable
-
+*/
 
 
 

@@ -399,11 +399,14 @@ export delimited "$dir_git/base/classification_product_orthographic.csv", replac
 *****************************Pour product_sourcees.csv (et product orthographic)
 **Pour updater les classifications
 
-use "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", clear
-collapse (sum) nbr_occurences_navigo_marseille_ nbr_occurences_navigo_g5 nbr_occurrences_datasprint, by(product)
-save "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", replace
-
-
+import delimited "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/classification_produits_portic_toflit_16.02.2023.csv", ///
+		clear varnames(1) encoding(utf8) delimiters(";")
+*use "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta", clear
+rename source_portic_fr product
+rename nb_occurences_source sourceNAVIGO_nbr
+destring(sourceNAVIGO_nbr), replace ignore("  ")
+collapse (sum) sourceNAVIGO_nbr, by(product)
+save "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta", replace
 
 
 use "$dir/Données Stata/classification_product_orthographic.dta", replace
@@ -451,13 +454,13 @@ keep product orthographic sourceBEL sourceFR sourceSUND sourceBEL_nbr sourceFR_n
 
 
 
-merge 1:m product using "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta"
+merge 1:m product using "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta"
 drop if product=="(empty)" & _merge !=2
 sort product
 bys product : keep if _n==1
 generate sourceNAVIGO=0
-generate sourceNAVIGO_nbr=nbr_occurences_navigo_marseille_ + nbr_occurences_navigo_g5+ nbr_occurrences_datasprint
 replace sourceNAVIGO=1 if _merge!=1
+replace sourceNAVIGO_nbr=0 if _merge==1
 
 
 
@@ -490,7 +493,7 @@ merge 1:1 product using "$dir/Données Stata/product_sourcees.dta"
 
 
 
-
+use "$dir/Données Stata/product_sourcees.dta", replace
 capture drop obsolete
 generate obsolete = "non"
 if nbr_source == 0 replace obsolete="oui"
