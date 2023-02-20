@@ -57,11 +57,13 @@ neo4j_database:
   dependencies:
     - neo4j_CSV
   image: neo4j:3.5.16
+  artifacts:
+    name: toflit18.db
+    paths:
+      - /var/lib/neo4j/data/databases/toflit18.db
   script:
-    - mkdir -p neo4j_data/databases
     # import CSV to neo4j
     - /var/lib/neo4j/bin/neo4j-admin import --database toflit18.db --nodes $CI_PROJECT_DIR/neo4j_import/nodes.csv --relationships $CI_PROJECT_DIR/neo4j_import/edges.csv
-    - mv /var/lib/neo4j/data/databases/toflit18.db $CI_PROJECT_DIR/neo4j_data/databases/graph.db
   only:
     - staging
     - prod
@@ -81,7 +83,10 @@ build_docker_image:
     - npm install -g n
     - n 7.9
     # copy DB in Share Folder
-    - cp -R ${CI_PROJECT_DIR}/neo4j_data ${SHARED_FOLDER}/
+    - mkdir -p ${SHARED_FOLDER}/neo4j_data/databases
+    - ls -lah ${CI_PROJECT_DIR}
+    - ls -lah ${CI_PROJECT_DIR}/toflit18.db
+    - mv ${CI_PROJECT_DIR}/toflit18.db ${SHARED_FOLDER}/neo4j_data/databases/graph.db
     - ls -lah ${SHARED_FOLDER}/neo4j_data/databases/graph.db
     - chown -R 101:101 ${SHARED_FOLDER}/neo4j_data
     # start neo4j with the DB created in previous step
@@ -94,7 +99,8 @@ build_docker_image:
     # stop neo4j
     - docker stop neo4j_build
     # use neo4j_data modified by script
-    - rm -rf ${CI_PROJECT_DIR}/neo4j_data/*
+    - rm -rf ${CI_PROJECT_DIR}/toflit18.db
+    - mkdir -p ${CI_PROJECT_DIR}/neo4j_data/
     - cp -R ${SHARED_FOLDER}/neo4j_data/* ${CI_PROJECT_DIR}/neo4j_data/
     # build image
     - cd $CI_PROJECT_DIR
