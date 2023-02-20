@@ -83,6 +83,8 @@ build_docker_image:
     - npm install -g n
     - n 7.9
     # copy DB in Share Folder
+    # wipe
+    - rm -rf ${SHARED_FOLDER}/neo4j_data/databases/*
     - mkdir -p ${SHARED_FOLDER}/neo4j_data/databases
     - ls -lah ${CI_PROJECT_DIR}
     - mv ${CI_PROJECT_DIR}/neo4j_data/databases/graph.db ${SHARED_FOLDER}/neo4j_data/databases/
