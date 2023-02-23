@@ -3567,7 +3567,7 @@ cendre barille de soudes,4,non,,776089
 cendre blanche,1,non,,776089
 cendre bleue,77,non,,776089
 cendre bleue et verte,5,non,,776089
-cendre bourde,320,non,,776089
+cendre bourde,321,non,,776089
 cendre bourre de soudes,4,non,,776089
 cendre broyée à l'huile,1,non,,776089
 cendre calcinée,2,non,,776089
@@ -3626,7 +3626,7 @@ cendre saline,4,non,,776089
 cendre soudes,5,non,,776089
 cendre soudes d'Égypte ou Natrum,0,non,,776089
 cendre verte,9,non,,776089
-cendres bourde,1,non,,776089
+cendres bourde,1,oui,,776089
 cendres de nark,1,oui,,776089
 cendres de varech,4,oui,,776089
 censes de bâtiments,2,non,,776089
@@ -4700,7 +4700,7 @@ conducteur,1,non,,776089
 confection,12,non,,776089
 confection d'alkermès,3,non,,776089
 confection d'hyacinthe,17,non,,776089
-confiture et fruits à l'eau-de-vie,100,non,,776089
+confiture et fruits à l'eau-de-vie,100,oui,,776089
 confitures,2301,non,,776089
 confitures à l'eau-de-vie,5,non,,776089
 confitures de cerise,1,non,,776089
@@ -4708,8 +4708,9 @@ confitures de Chine,1,non,,776089
 confitures de France,1,non,,776089
 confitures de l'étranger,0,non,,776089
 confitures de miel,1,non,,776089
-confitures et fruit confit au sucre,16,non,,776089
-confitures et fruits confits au sucre,17,non,,776089
+confitures et fruit confit au sucre,16,oui,,776089
+confitures et fruits à l'eau-de-vie,100,non,,776089
+confitures et fruits confits au sucre,33,non,,776089
 confitures et succade,245,non,,776089
 confitures et sucre,1,non,,776089
 confitures fines,4,non,,776089
@@ -5976,7 +5977,8 @@ diamants taillés,6,non,,776089
 dictame,11,non,,776089
 dictionnaire du commerce,1,non,,776089
 dictionnaire hollandais,1,non,,776089
-digilence comlète,1,non,,776089
+digilence comlète,1,oui,,776089
+diligence complète,1,non,,776089
 dimelle,1,non,,776089
 dindes,8,non,,776089
 dindonneaux,10,non,,776089
@@ -8062,7 +8064,7 @@ feuillards de fer ou ???,0,non,,776089
 feuillards ou cercles,1,non,,776089
 feuillards pour barriques,2,non,,776089
 feuillards reste de,1,non,,776089
-feuilles,66,non,,776089
+feuilles,67,non,,776089
 feuilles à poing,1,non,,776089
 feuilles autres que médicinales,2,non,,776089
 feuilles d'argent,2,non,,776089
@@ -8099,7 +8101,7 @@ feuilles de séné et séné,84,non,,776089
 feuilles de tabac,876,non,,776089
 feuilles des prises de tabac,1,non,,776089
 feuilles et herbes à teindre,19,non,,776089
-feuillure,1,non,,776089
+feuillure,1,oui,,776089
 feutres pour doublage,1,non,,776089
 feutres pour filtrer semelles et autres ouvrages,2,non,,776089
 feuves,1,non,,776089
@@ -11441,8 +11443,8 @@ limes et râpes empaillées,1,non,,776089
 limes et râpes fines,7,non,,776089
 limes grosses,1,non,,776089
 limes petites,1,non,,776089
-limon,21,non,,776089
-limons,34,non,,776089
+limon,21,oui,,776089
+limons,55,non,,776089
 limons frais,7,non,,776089
 limons ou citron,5,non,,776089
 limons salés,47,non,,776089
@@ -12184,7 +12186,7 @@ matériaux moellons sable etc.,3,non,,776089
 matériaux pour la rade,168,non,,776089
 matériaux pour la rade du roi,5,non,,776089
 matériaux pour le havre,3,non,,776089
-matériel de ménage,4,non,,776089
+matériel de ménage,4,oui,,776089
 matières de verre composées,1,non,,776089
 matières grasses pour la fabrication du sel d'ammoniac,1,non,,776089
 matières minérales,2,non,,776089
@@ -12998,15 +13000,15 @@ morceaux cousus,2,non,,776089
 morceaux cousus de hamsters,2,non,,776089
 morceaux cousus de lapins et lièvres,2,non,,776089
 morceaux cousus dos et ventre de petits-gris,2,non,,776089
-morceaux d'espars,1,oui,,776089
+morceaux d'espars,1,non,,776089
 morceaux de bois,1,oui,,776089
 morceaux de bois ordinaire de 6 à 7 pieds,1,non,,776089
 morceaux de bois puant de 6 pieds,1,non,,776089
 morceaux de planches,1,non,,776089
 morceaux de sapin,4,non,,776089
-morceaux despars,1,non,,776089
+morceaux despars,1,oui,,776089
 morenine de soie,1,non,,776089
-moresque,1,non,,776089
+moresque,1,oui,,776089
 morilles,16,non,,776089
 morilles et mousserons et truffes,1,non,,776089
 morilles et mousserons frais,1,non,,776089
@@ -13877,7 +13879,7 @@ outils de labourage,3,non,,776089
 outils de lapidaire,1,non,,776089
 outils de maréchal,1,non,,776089
 outils de marine,1,non,,776089
-outils de ménage,6,non,,776089
+outils de ménage,10,non,,776089
 outils de menuiserie,18,non,,776089
 outils de menuisier,1,non,,776089
 outils de moulins,1,non,,776089
@@ -14113,7 +14115,7 @@ ouvrages de sapin,1,non,,776089
 ouvrages de sellier de toute sorte,130,non,,776089
 ouvrages de serrurerie,63,non,,776089
 ouvrages de serrurerie de fer,65,non,,776089
-ouvrages de serrurerie en ressorts de voiture,1,non,,776089
+ouvrages de serrurerie en ressorts de voiture,1,oui,,776089
 ouvrages de soie,80,non,,776089
 ouvrages de soie et dorure,3,non,,776089
 ouvrages de soulier couverts en étoffe de soie pour femme,4,non,,776089
@@ -14562,25 +14564,33 @@ parse,1,non,,776089
 particuliers,2,oui,,776089
 particuliers français,1,non,,776089
 parun,3,non,,776089
-passager anglais,1,non,,776089
-passager domestique,1,non,,776089
-passager fils du capitaine,1,non,,776089
-passager homme,2,non,,776089
-passager marin disgrâcié,1,non,,776089
-passager matelot,5,non,,776089
-passager matelot disgrâcié,1,non,,776089
-passager Moulha Cassen,1,non,,776089
+passager anglais,1,oui,,776089
+passager domestique,1,oui,,776089
+passager fils du capitaine,1,oui,,776089
+passager homme,2,oui,,776089
+passager marin disgrâcié,1,oui,,776089
+passager matelot,5,oui,,776089
+passager matelot disgrâcié,1,oui,,776089
+passager Moulha Cassen,1,oui,,776089
 passagers,6762,non,,776089
 passagers algériens,1,non,,776089
+passagers anglais,1,non,,776089
 passagers anglais prisonniers,1,non,,776089
 passagers disgrâciés,1,non,,776089
+passagers domestique,1,non,,776089
 passagers équipage disgrâciés des vaissieaux du Roi,2,non,,776089
 passagers esclaves corses rachetés,1,non,,776089
+passagers fils du capitaine,1,non,,776089
 passagers français,1,non,,776089
+passagers homme,2,non,,776089
+passagers marin disgrâcié,1,non,,776089
 passagers marins,1,non,,776089
 passagers marins disgrâciés,3,non,,776089
 passagers marins disgrâciés des vaisseaux du Roi,1,non,,776089
+passagers matelot,5,non,,776089
+passagers matelot disgrâcié,1,non,,776089
 passagers militaires,2,non,,776089
+passagers Moulha Cassen,1,non,,776089
 passagers prisonniers français,1,non,,776089
 passagers soldats,1,non,,776089
 passagers turcs,1,non,,776089
@@ -15525,7 +15535,7 @@ picotte,20,non,tissés,66162
 picotte de laine,2,non,,776089
 picotte de Lille,4,non,,776089
 picotte de soie,1,non,,776089
-pièce vide,2,non,,776089
+pièce vide,2,oui,,776089
 pièces à eau,4,non,,776089
 pièces couvertures de laine,3,non,,776089
 pièces d'argent de 28,1,non,,776089
@@ -15533,6 +15543,7 @@ pièces d'argent et d'or d'Espagne,1,non,,776089
 pièces d'or d'Espagne,1,non,,776089
 pièces de ???,0,non,,776089
 pièces de bois,0,non,,776089
+pièces vides,2,non,,776089
 pied d'huile,1,non,,776089
 pied d'huile de poisson,1,non,,776089
 piedmento,2,non,,776089
@@ -15546,10 +15557,10 @@ pieds de vide,1,non,,776089
 pieds doré,1,non,,776089
 pieds et têtes,1,non,,776089
 pienne de fil,1,non,,776089
-pierre à paver,6,non,,776089
+pierre à paver,6,oui,,776089
 pierre à plâtre ou plâtre brut,2,non,,776089
-pierre d'ailx,1,non,,776089
-pierre d'algazon,1,non,,776089
+pierre d'ailx,1,oui,,776089
+pierre d'algazon,1,oui,,776089
 pierrerie,1,non,,776089
 pierrerie fausse,1,non,,776089
 pierrerie fausse et fine,1,non,,776089
@@ -15608,7 +15619,7 @@ pierres à mordre tabac,2,non,,776089
 pierres à moules,1,non,,776089
 pierres à moutarde travaillées,15,non,,776089
 pierres à passer,1,non,,776089
-pierres à paver,139,non,,776089
+pierres à paver,145,non,,776089
 pierres à paver d'1 pied carré,55,non,,776089
 pierres à paver d'en dessus d'1 pied carré,16,non,,776089
 pierres à paver de 12 à 13 pouces,2,non,,776089
@@ -15650,7 +15661,9 @@ pierres cornaline,1,non,,776089
 pierres d'absinthe,1,non,,776089
 pierres d'agate,13,non,,776089
 pierres d'agate travaillées,1,non,,776089
+pierres d'ailx,1,non,,776089
 pierres d'aimant,15,non,,776089
+pierres d'algazon,1,non,,776089
 pierres d'architecture,119,non,,776089
 pierres d'ardoise,45,non,,776089
 pierres d'arquebuse,2,non,,776089
@@ -17450,7 +17463,7 @@ raisin de Provence sec,2,non,,776089
 raisin en barils,14,non,,776089
 raisin en grappe,11,non,,776089
 raisin en grappes,1,non,,776089
-raisin frais,65,non,,776089
+raisin frais,70,non,,776089
 raisin frais de Corinthe,4,non,,776089
 raisin frais muscat,1,non,,776089
 raisin jalap,4,non,,776089
@@ -17461,7 +17474,7 @@ raisin sec d'époque,1,non,,776089
 raisin sec d'Espagne,1,non,,776089
 raisin sec de Corinthe,24,non,,776089
 raisiné en pot,1,non,,776089
-raisins frais,5,non,,776089
+raisins frais,5,oui,,776089
 raison passe,7,non,,776089
 rames,6,non,,776089
 rames à filer,1,non,,776089
@@ -17614,7 +17627,7 @@ ressorts d'horlogerie,1,non,,776089
 ressorts de carrosses,1,non,,776089
 ressorts de montre,2,non,,776089
 ressorts de pendules,3,non,,776089
-ressorts de voiture,1,non,,776089
+ressorts de voiture,2,non,,776089
 restant de beurre,6,non,,776089
 restant de cargaison,2,non,,776089
 restant de chaux,1,oui,,776089
@@ -18739,7 +18752,7 @@ soie grège écrue doupion,1,non,,776089
 soie grège par Marseille,1,non,,776089
 soie limeneas,1,non,,776089
 soie lorce,1,non,,776089
-soie mauresque,12,non,,776089
+soie mauresque,13,non,,776089
 soie mêlée,1,non,,776089
 soie moulinée,3,non,,776089
 soie moulinée autre que doupion,1,non,,776089
@@ -21777,8 +21790,8 @@ vin de la Côte de Suisse,2,non,,776089
 vin de la Ferté,2,non,,776089
 vin de la foire de Beaucaire,1,non,,776089
 vin de la Moselle,2,non,,776089
-vin de La Rochelle,28,non,,776089
-vin de la Rochelle,28,non,,776089
+vin de La Rochelle,56,non,,776089
+vin de la Rochelle,28,oui,,776089
 vin de lamalgue,1,non,,776089
 vin de Langres,40,non,,776089
 vin de Langres ???,3,non,,776089
