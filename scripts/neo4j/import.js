@@ -17,7 +17,7 @@ import { normalizeYear } from "./lib/republican_calendar";
 import { cleanText, cleanNumber } from "./lib/clean";
 import path from "path";
 import fs from "fs";
-import _, { property } from "lodash";
+import _, { keys } from "lodash";
 import gitlog from "gitlog";
 
 /**
@@ -42,7 +42,7 @@ const ROOT_PATH = "/base",
  */
 
 // Possible properties
-const POSSIBLE_NODE_PROPERTIES = [
+const NODE_PROPERTIES_TYPES = [
   "rawUnit",
   "unit",
   "quantity:float",
@@ -73,14 +73,11 @@ const POSSIBLE_NODE_PROPERTIES = [
   "hash",
   "date",
   "repository",
-];
 
-const AS_IS_NODE_PROPERTIES = [
-  "partner",
   "filepath",
   "customs_region",
   "origin",
-  "width_in_line:int",
+  "width_in_line",
   "value_part_of_bundle:float",
   "sheet",
   "value_total:float",
@@ -99,18 +96,13 @@ const AS_IS_NODE_PROPERTIES = [
   "duty_total:float",
   "duty_part_of_bundle:float",
   "duty_remarks",
-  "remarks",
   "absurd_observation",
 ];
 
-const NODE_PROPERTIES_MAPPING = _(
-  POSSIBLE_NODE_PROPERTIES.concat(AS_IS_NODE_PROPERTIES)
-)
+const NODE_PROPERTIES_MAPPING = _(NODE_PROPERTIES_TYPES)
   .map((p, i) => [p.split(":")[0], i])
   .fromPairs()
   .value();
-
-const NODE_PROPERTIES_TYPES = POSSIBLE_NODE_PROPERTIES;
 
 /**
  * Reading arguments
@@ -159,7 +151,7 @@ class Builder {
       .pipe(edgesWriteStream);
 
     // Writing headers
-    this.nodesStream.write(NODE_PROPERTIES_TYPES.concat(":LABEL", ":ID"));
+    this.nodesStream.write([...NODE_PROPERTIES_TYPES, ":LABEL", ":ID"]);
     this.edgesStream.write([
       ":START_ID",
       ":END_ID",
@@ -171,14 +163,21 @@ class Builder {
 
   save(data, label) {
     const row = _({})
+      // init to empty string
       .assign(_.mapValues(NODE_PROPERTIES_MAPPING, () => ""))
-      .assign(data)
+      // get existing data from nodes
+      .assign(_.pick(data, keys(NODE_PROPERTIES_MAPPING)))
       .toPairs()
       .sortBy((e) => NODE_PROPERTIES_MAPPING[e[0]])
       .map((e) => e[1])
+      // add Label and Id
       .concat([[].concat(label || []).join(";"), this.nodesCount])
       .value();
-
+    if (row.length != NODE_PROPERTIES_TYPES.length + 2) {
+      console.log(row.length, NODE_PROPERTIES_TYPES.length + 2);
+      console.log(data, row);
+      throw new Error();
+    }
     this.nodesStream.write(row);
 
     return this.nodesCount++;
@@ -403,6 +402,21 @@ function importer(csvLine) {
   // filter source in Out
   if (csvLine.source_type === "Out") return;
 
+  // Import or Export
+  const isImport = /(imp|sortie)/i.test(csvLine.export_import);
+
+  // Creating a flow node
+  const nodeData = {
+    rawYear: csvLine.year,
+    import: "" + isImport,
+  };
+
+  // Init nodeData
+  NODE_PROPERTIES_TYPES.forEach((p) => {
+    const property = p.split(":")[0];
+    if (csvLine[property]) nodeData[property] = csvLine[property] || "";
+  });
+
   //Patching regions names
   const originalRegion = csvLine.customs_region;
 
@@ -418,15 +432,6 @@ function importer(csvLine) {
     );
   }
   if (region) nodeData.region = region;
-
-  // Import or Export
-  const isImport = /(imp|sortie)/i.test(csvLine.export_import);
-
-  // Creating a flow node
-  const nodeData = {
-    rawYear: csvLine.year,
-    import: "" + isImport,
-  };
 
   // Year
   if (csvLine.year) {
@@ -457,38 +462,20 @@ function importer(csvLine) {
     //   nodeData.unit = normalized;
   }
 
-  // Value
-  if (csvLine.value) {
-    const realValue = cleanNumber(csvLine.value);
-
-    if (realValue) nodeData.value = realValue;
-    else if (realValue !== 0) console.log("  !! Weird value:", csvLine.value);
-  }
-
-  // Quantity
-  if (csvLine.quantity) {
-    const realQuantity = cleanNumber(csvLine.quantity);
-
-    if (realQuantity) nodeData.quantity = realQuantity;
-    else if (realQuantity !== 0)
-      console.log("  !! Weird quantity:", csvLine.quantity);
-  }
-
-  // Unit price
-  if (csvLine.value_per_unit) {
-    const realPrice = cleanNumber(csvLine.value_per_unit);
-
-    if (realPrice) nodeData.unitPrice = realPrice;
-    else if (realPrice !== 0)
-      console.log("  !! Weird unit price:", csvLine.value_per_unit);
-  }
-
-  // Additional static indexed properties for convenience
-  // absurd flags
-  AS_IS_NODE_PROPERTIES.map((p) => {
-    property = p.split(":")[0];
-    if (csvLine[property]) nodeData[property] = csvLine[property];
-  });
+  // numbers cast
+  NODE_PROPERTIES_TYPES.filter(
+    (p) => p.includes(":float") || p.includes(":integer")
+  )
+    .map((p) => p.split(":")[0])
+    .forEach((numberProperty) => {
+      if (csvLine[numberProperty]) {
+        nodeData[numberProperty] = cleanNumber(csvLine[numberProperty]);
+        if (nodeData[numberProperty] === null)
+          console.log(
+            `  !! Weird ${numberProperty}: ${csvLine[numberProperty]}`
+          );
+      }
+    });
 
   if (csvLine.product) {
     // we want every product name to be have a capital on the first letter
@@ -507,6 +494,7 @@ function importer(csvLine) {
     csvLine.best_guess_region_prodxpart === "1" ? "true" : "false";
   nodeData.bestGuessNationalCustomsRegion =
     csvLine.best_guess_national_region === "1" ? "true" : "false";
+  nodeData.unverified = csvLine.unverified === "1" ? "true" : "false";
 
   // Here, we filter some lines deemed irrelevant
   if (!nodeData.value && !nodeData.quantity && !nodeData.unitPrice) return;
