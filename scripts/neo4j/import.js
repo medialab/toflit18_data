@@ -62,6 +62,8 @@ const NODE_PROPERTIES_TYPES = [
   "source:boolean",
   "region",
   "originalRegion",
+  "partner",
+  "sourceType",
 
   "product",
   "id",
