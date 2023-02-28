@@ -527,13 +527,10 @@ replace best_guess_region_prodxpart= 0 if customs_region=="Colonies Françaises 
 capture drop best_guess_national_region
 **Sources qui permettent de comparer le commerce des départements de fermes entre eux en valeur, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
 **Ancien nom local_geography_best_guess
-**Nouveau nom best_guess_national_region
 gen best_guess_national_region=0
 replace best_guess_national_region = 1 if source_type=="National toutes directions sans produits" | ///
 		(source_type== "National toutes directions tous partenaires")
 replace best_guess_national_region = 1 if source_type=="National toutes directions partenaires manquants"
-egen year_CN = max(best_guess_national_region), by(year)
-replace best_guess_national_region=1 if year_CN == 1 & source_type=="Local"
 *Pour 1777, on garde AN F12 245 (sauf pour le commerce anglais : on prend alors IIHS-133)
 replace best_guess_national_region=0 if year==1777 & ///
 		source_type!="National toutes directions sans produits"
@@ -543,7 +540,6 @@ replace best_guess_national_region=0 if year==1777 & ///
 replace best_guess_national_region=1 if year==1777 & ///
 		source_type=="National toutes directions partenaires manquants" ///
 		& partner =="Angleterre"
-drop year_CN
 
 *save "$dir/Données Stata/bdd courante", replace
 ***************************************************Pour les computed value_per_unit & value
