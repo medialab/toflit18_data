@@ -99,6 +99,7 @@ const NODE_PROPERTIES_TYPES = [
   "duty_part_of_bundle:float",
   "duty_remarks",
   "absurd_observation",
+  "customs_office_source",
 ];
 
 const NODE_PROPERTIES_MAPPING = _(NODE_PROPERTIES_TYPES)
