@@ -501,6 +501,7 @@ function importer(csvLine) {
 
   // Here, we filter some lines deemed irrelevant
   if (!nodeData.value && !nodeData.quantity && !nodeData.unitPrice) return;
+  if (nodeData.absurd_observation === "absurd") return;
 
   const flowNode = BUILDER.save(nodeData, "Flow");
 
