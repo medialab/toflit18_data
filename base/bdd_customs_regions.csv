@@ -9,15 +9,15 @@ Basse Normandie,Caen,22,1931,Caen,1931,Normandie,Normandie,,31718
 Bayonne,Bayonne,20312,20312,Bayonne,20312,Guyenne,Béarn,Port franc,58297
 Béarn,France,22,1000,France,798,Béarn,Béarn,,22
 Besancon,Besançon,1167,1167,Bourgogne,1930,Franche-Comté,Franche-Comté,,1167
-Besançon,,432,233915,,234603,,,,234603
+Besançon,Besançon,432,233915,Bourgogne,234603,Bourgogne,Bourgogne,,234603
 Bordeaux,Bordeaux,37730,37779,Bordeaux,37985,Guyenne,Guyenne,,58297
-"Bordeaux, Amiens, La Rochelle, Rouen, Caen, Nantes, Saint-Malo, Port-Louis",France,470,1000,,234603,,,,234603
-"Bordeaux, Saint-Malo, Rouen, Caen, La Rochelle",France,218,1000,,234603,,,,234603
+"Bordeaux, Amiens, La Rochelle, Rouen, Caen, Nantes, Saint-Malo, Port-Louis",France,470,1000,Divers,234603,Divers,Divers,,234603
+"Bordeaux, Saint-Malo, Rouen, Caen, La Rochelle",France,218,1000,Divers,234603,Divers,Divers,,234603
 Bourgogne,Bourgogne,763,763,Bourgogne,1930,Bourgogne,Bourgogne,,763
-Brest,,1,233915,,234603,,,,234603
-"Brest, Port Louis, Rochefort, Morlaix, Saint-Servan, Redon, Honfleur, Cherbourg, Dieppe et Toulon",France,122,1000,France,798,Inconnu,Inconnu,,1007
+Brest,Brest,1,233915,Rennes,234603,Bretagne,Bretagne,,234603
+"Brest, Port Louis, Rochefort, Morlaix, Saint-Servan, Redon, Honfleur, Cherbourg, Dieppe et Toulon",Divers,122,1000,Divers,798,Inconnu,Inconnu,,1007
 Bretagne,Rennes,58,24967,Rennes,26551,Bretagne,Bretagne,,75484
-Bureaux de terre,,3,233915,,234603,,,,234603
+Bureaux de terre,Divers,3,233915,Divers,234603,Divers,Divers,,234603
 Caen,Caen,1784,1931,Caen,1931,Normandie,Normandie,,31718
 Caën,Caen,125,1931,Caen,1931,Normandie,Normandie,,31718
 Chalons,Châlons,1059,3080,Châlons,3103,Champagne,Champagne,statut spécial (grand fief évêque comte,5452
@@ -25,18 +25,17 @@ Châlons,Châlons,2021,3080,Châlons,3103,Champagne,Champagne,statut spécial (g
 Charleville,Charleville,1546,1546,Charleville,1546,Champagne,Champagne,,5452
 Colonies Françaises de l'Amérique,Colonies Françaises de l'Amérique,744,744,Colonies Françaises de l'Amérique,789,Colonies Françaises,Colonies Françaises,,1050
 comNantes,Nantes,1,48933,Nantes,48933,Bretagne,Bretagne,,75484
-Dieppe,,1,233915,,234603,,,,234603
-Directions de terre,Directions de terre,3,3,France,798,Inconnu,Inconnu,,1007
+Dieppe,Rouen,1,233915,Rouen,234603,Normandie,Normandie,,234603
+Directions de terre,Directions de terre,3,3,Divers,798,Inconnu,Inconnu,,1007
 Dunkerque,Dunkerque,1,2,Flandre,7299,Flandre,Flandre,port franc,7299
 Flandre,Flandre,2827,6350,Flandre,7299,Flandre,Flandre,,7299
 Flandre Françoise,Flandre,115,6350,Flandre,7299,Flandre,Flandre,,7299
-France,,2,233915,,234603,,,,234603
+France,France,2,233915,Divers,234603,Divers,Divers,,234603
 France par la Compagnie des Indes,France par la Compagnie des Indes,261,261,Compagnie des Indes,261,Colonies Françaises,Colonies Françaises,,1050
 Grenoble,Grenoble,1349,1349,Lyon,4057,Dauphiné,Dauphiné,,1349
-"Grenoble, Marseille et Lyon","Grenoble, Lyon et Marseille",307,307,France,798,Inconnu,Inconnu,,1007
+"Grenoble, Marseille et Lyon","Grenoble, Lyon et Marseille",307,307,Divers,798,Inconnu,Inconnu,,1007
 Guyenne,Bordeaux,49,37779,Bordeaux,37985,Guyenne,Guyenne,,58297
 Haute Normandie,Rouen,74,29276,Rouen,29787,Normandie,Normandie,,31718
-Honfleur,,1,233915,,234603,,,,234603
 La Rochelle,La Rochelle,31930,31946,La Rochelle,31946,Aunis,Aunis,,31946
 Langres,Langres,803,803,Langres,803,Champagne,Champagne,status spécial (grand fief),5452
 Languedoc,Montpellier,13,4097,Montpellier,4097,Languedoc,Languedoc,,5032
@@ -57,14 +56,13 @@ Passeports,France,167,1000,France,798,Inconnu,Inconnu,,1007
 Picardie,Amiens,52,1787,Amiens,1787,Picardie,Picardie,,2699
 Provence,Marseille,33,109473,Marseille,110580,Provence,Provence,,110580
 Rennes,Rennes,24909,24967,Rennes,26551,Bretagne,Bretagne,,75484
-Rochefort,,1,233915,,234603,,,,234603
 Rouen,Rouen,28874,29276,Rouen,29787,Normandie,Normandie,,31718
 Roüen,Rouen,328,29276,Rouen,29787,Normandie,Normandie,,31718
 Roussillon,Montpellier,1,4097,Montpellier,4097,Roussillon,Roussillon,,1
-Saint Malo,Saint-Malo,1,1032,Rennes,26551,Bretagne,Bretagne,,75484
+Saint Malo,Saint-Malo,1,1032,Rennes,26551,Rennes,Bretagne,,75484
 Saint Quentin,Saint-Quentin,223,912,Saint-Quentin,912,Picardie,Picardie,,2699
-Saint Servan,,1,233915,,234603,,,,234603
-Saint-Malo,Saint-Malo,1031,1032,Rennes,26551,Bretagne,Bretagne,,75484
+Saint Servan,Saint-Malo,1,233915,Rennes,234603,Rennes,Bretagne,,234603
+Saint-Malo,Saint-Malo,1031,1032,Rennes,26551,Rennes,Bretagne,,75484
 Saint-Quentin,Saint-Quentin,689,912,Saint-Quentin,912,Picardie,Picardie,,2699
 Soissons,Soisson,23,23,Châlons,3103,Champagne,Champagne,,5452
 Toulon,Toulon,1107,1107,Marseille,110580,Provence,Provence,,110580
