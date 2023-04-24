@@ -2,7 +2,7 @@
 
 # README.md
 
-*May 23th 2022 version*
+*December 21st 2022 version*
 
 Welcome to the data repository of the Toflit18 project!
 More details on the project can be found on its research blog: https://toflit18.hypotheses.org/
@@ -12,7 +12,7 @@ There is a companion GitHub repository dealing with the software aspects of the 
 
 All the data are encoded in UTF-8, comma-separated. We recommend working with them using LibreOffice.
 
-The data will be soon released under datapackage format.
+The data are released under datapackage format.
 
 The data are released under an ODbl licence : http://opendatacommons.org/licenses/odbl/1.0/
 

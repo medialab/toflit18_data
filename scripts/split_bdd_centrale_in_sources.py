@@ -3,12 +3,10 @@
 import itertools
 import os
 from csv import DictReader, writer, DictWriter
-import re
 import json
 import collections
 import shutil
 import csv
-import unidecode
 
 WRITE = True
 VERBOSE = True
@@ -58,10 +56,11 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
     existing_files = {}
     for (dirpath, dirnames, filenames) in os.walk(os.path.join(SOURCES_ROOT_DIR, 'sources')):
         for csv_file_name in filenames:
-            filepath = os.path.join(dirpath, csv_file_name)
-            with open(filepath, 'r', encoding='utf8') as f:
-                blouf = csv.DictReader(f)
-                existing_files[filepath] = sum((1 for _ in blouf))
+            if csv_file_name.endswith('.csv'):
+                filepath = os.path.join(dirpath, csv_file_name)
+                with open(filepath, 'r', encoding='utf8') as f:
+                    blouf = csv.DictReader(f)
+                    existing_files[filepath] = sum((1 for _ in blouf))
     if WRITE:
         shutil.rmtree(os.path.join(SOURCES_ROOT_DIR, 'sources'))
     datapackage_resource_path = []

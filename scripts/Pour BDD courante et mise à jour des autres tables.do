@@ -67,10 +67,11 @@ foreach file in classification_partner_orthographic classification_partner_simpl
 }
 
 
+
 if "`c(username)'"=="guillaumedaudin" | "`c(username)'"=="Tirindelli" {
 
 	foreach file in "$dir/Données Stata/Belgique/RG_base.dta" "$dir/Données Stata/Belgique/RG_1774.dta" ///
-				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir_git/traitements_marchandises/Marchandises Navigocorpus/Navigo.dta" {
+				"$dir/Données Stata/Sound/BDD_SUND_FR.dta" "$dir_git/traitements_marchandises/Marchandises Navigocorpus et Portic/Navigo.dta" {
 		
 		use "`file'", clear
 		foreach variable of var * {
@@ -210,9 +211,9 @@ export delimited "$dir_git/base/bdd_centrale.csv", replace datafmt
 cd "$dir_git/base"
 zipfile "bdd_centrale.csv", saving("bdd_centrale.csv.zip", replace)
 save "$dir/Données Stata/bdd_centrale.dta", replace
-****Important : si je fais les destring avant, je ne peux pas retrouver mes valeurs d’origine
+/*****Important : si je fais les destring avant, je ne peux pas retrouver mes valeurs d’origine
 ****Voir https://www.statalist.org/forums/forum/general-stata-discussion/general/1433867-stata-generating-garbage-decimal-places-in-float-variable
-
+*/
 
 
 
@@ -526,16 +527,19 @@ replace best_guess_region_prodxpart= 0 if customs_region=="Colonies Françaises 
 capture drop best_guess_national_region
 **Sources qui permettent de comparer le commerce des départements de fermes entre eux en valeur, même si ce n’est peut-être pas pour l’ensemble des partenaires ni des produits
 **Ancien nom local_geography_best_guess
-**Nouveau nom best_guess_national_region
 gen best_guess_national_region=0
 replace best_guess_national_region = 1 if source_type=="National toutes directions sans produits" | ///
 		(source_type== "National toutes directions tous partenaires")
 replace best_guess_national_region = 1 if source_type=="National toutes directions partenaires manquants"
-egen year_CN = max(best_guess_national_region), by(year)
-replace best_guess_national_region=1 if year_CN == 1 & source_type=="Local"
-*Pour 1777, on ne garde que AN F12 245 (et pas IIHS-133 qui compare le commerce anglais)
-replace best_guess_national_region=0 if year==1777 & source_type!="National toutes directions sans produits"
-drop year_CN
+*Pour 1777, on garde AN F12 245 (sauf pour le commerce anglais : on prend alors IIHS-133)
+replace best_guess_national_region=0 if year==1777 & ///
+		source_type!="National toutes directions sans produits"
+replace best_guess_national_region=0 if year==1777 & ///
+		source_type=="National toutes directions sans produits" ///
+		& partner=="Angleterre"
+replace best_guess_national_region=1 if year==1777 & ///
+		source_type=="National toutes directions partenaires manquants" ///
+		& partner =="Angleterre"
 
 *save "$dir/Données Stata/bdd courante", replace
 ***************************************************Pour les computed value_per_unit & value
