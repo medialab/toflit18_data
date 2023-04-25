@@ -1,5 +1,5 @@
 origin,nbr_occurence,origin_norm_ortho,nbr_occurence_norm_ortho,origin_province,nbr_occurence_province,remarks_origin
-,548305,,548305,,548305,
+,548280,,548280,,548280,
 ?,3,?,3,Inconnu,213,
 (De renvoi),1,de renvoi,1,Inconnu,213,
 3 Evêchés,3,Trois-Évêchés,8,Lorraine,60,en simplifiant..
@@ -17,8 +17,8 @@ Alicante,1,Alicante,1,Espagne,62,
 Aligre,2,Aligre,2,Aunis,238,
 Allemagne,16,Allemagne,16,Allemagne,18,
 Alsace,28,Alsace,28,Alsace,29,
-Amérique,4,Amérique,4,Amérique,232,colonies espagnoles d'Amérique;colonies britanniques d'Amérique;colonies françaises d'Amérique
-Amérique espagnole,4,Amérique espagnole,4,Amérique,232,
+Amérique,4,Amérique,4,Amérique,244,colonies espagnoles d'Amérique;colonies britanniques d'Amérique;colonies françaises d'Amérique
+Amérique espagnole,4,Amérique espagnole,4,Amérique,244,
 Amienois,104,Amiénois,414,Picardie,900,
 amienois,1,Amiénois,414,Picardie,900,
 Amiénois,309,Amiénois,414,Picardie,900,
@@ -100,7 +100,7 @@ Bourgogne,257,Bourgogne,257,Bourgogne,264,
 Bournay,1,Bernay,3,Normandie,1703,Exports du Havre Linge de table
 Brême,10,Brême,11,Nord,238,
 Bremen,1,Brême,11,Nord,238,
-Brésil,4,Brésil,4,Amérique,232,
+Brésil,4,Brésil,4,Amérique,244,
 Bresse,1,Bresse,1,Bourgogne,264,
 Bretagne,897,Bretagne,903,Bretagne,1798,
 Bretagne et Anjou,5,Anjou et Bretagne,5,Inconnu,213,
@@ -115,11 +115,11 @@ Cambresis,1,Cambrésis,15,Flandre,1481,à priori à part ???
 Cambrésis,11,Cambrésis,15,Flandre,1481,à priori à part ???
 Cap Breton,1,Cap breton,9,Guyenne,2017,
 Cap breton,5,Cap breton,9,Guyenne,2017,"île du Cape-Breton (Canada) ou dans les Landes???? -- Beaucoup de vin, donc plutôt les Landes"
-Cap français,2,Cap français,3,Amérique,232,DOUTES St Domingue
-Cap françois,1,Cap français,3,Amérique,232,DOUTES St Domingue
+Cap français,2,Cap français,3,Amérique,244,DOUTES St Domingue
+Cap françois,1,Cap français,3,Amérique,244,DOUTES St Domingue
 Capbreton,3,Cap breton,9,Guyenne,2017,
 Carcassonne,24,Carcassonne,24,Languedoc,1541,
-Caroline,2,Caroline,2,Amérique,232,Caroline du Nord;Caroline du Sud
+Caroline,2,Caroline,2,Amérique,244,Caroline du Nord;Caroline du Sud
 Castillon,21,Castillon,21,Guyenne,2017,lequel? -- Guyenne car exportations de Bordeaux
 Castres,3,Castres,3,Languedoc,1541,
 Cette,13,Cette,13,Provence,2016,
@@ -135,7 +135,7 @@ Chatellerault,2,Chatellerault,2,Poitou,134,
 Chaumont,1,Chaumont,1,Champagne,965,Surtout dans le commerce de Langres
 Cherboug,8,Cherbourg,16,Normandie,1703,
 Cherbourg,8,Cherbourg,16,Normandie,1703,
-Chine,13,Chine,13,Asie,318,
+Chine,13,Chine,13,Asie,331,
 Choiseul,2,Choiseul,2,Champagne,965,
 Cholet,63,Cholet,63,Anjou,316,
 Clisson,5,Clisson,5,Bretagne,1798,
@@ -143,13 +143,14 @@ Cognac,3,Cognac,3,Saintonge,147,
 Colmard,1,Colmard,1,Alsace,29,
 Colonie française,16,Colonies françaises,326,Outre-Mers,327,
 Colonies,1,Colonies,1,Outre-Mers,327,
-Colonies Espagnoles,5,Colonies Espagnoles,5,Amérique,232,
+Colonies Espagnoles,5,Colonies Espagnoles,5,Amérique,244,
 Colonies francaises,4,Colonies françaises,326,Outre-Mers,327,
 Colonies françaises,306,Colonies françaises,326,Outre-Mers,327,
-Colonies françaises de l'Amérique,72,Colonies françaises de l'Amérique,72,Amérique,232,
+Colonies françaises de l'Amérique,72,Colonies françaises de l'Amérique,72,Amérique,244,
 Combourg,6,Combourg,6,Bretagne,1798,
 Commerce français,16,Commerce français,16,Inconnu,213,
-Compagnie des Indes,2,Compagnie des Indes,2,Asie,318,
+Commerce français dans l'Inde,13,Commerce français dans l'Inde,13,Asie,331,
+Compagnie des Indes,2,Compagnie des Indes,2,Asie,331,
 Comté de Foix,15,Comté de Foix,15,Foix,28,
 Comte de Nantes,11,Comté de Nantes,35,Bretagne,1798,
 Comte françois,1,Franche-comté,351,Franche-Comté,352,
@@ -225,7 +226,7 @@ Granville,4,Granville,4,Normandie,1703,
 Gravel,8,La Gravelle,8,Maine,209,"Exports de bas de fil via Bordeaux. Dans la liste, entre Laval et Landon. Donc le Maine ? ""La Gravelle"""
 Grenoble,2,Grenoble,2,Dauphiné,253,
 Gruyère,17,Gruyère,17,Suisse,28,???
-Guyanne,1,Guyanne,1,Amérique,232,doute: Guyenne ou Guyane
+Guyanne,1,Guyanne,1,Amérique,244,doute: Guyenne ou Guyane
 Guyenne,965,Guyenne,967,Guyenne,2017,
 "Guyenne, Langedoc, Lyon et Etranger",1,"Guyenne, Langedoc, Lyon et Etranger",1,Inconnu,213,
 Hainault,65,Hainaut,176,Flandre,1481,
@@ -236,38 +237,39 @@ Hairrault,2,Hainaut,176,Flandre,1481,
 Hambourg,61,Hambourg,61,Nord,238,
 Harfleur,2,Harfleur,2,Normandie,1703,
 Harlem,3,Harlem,3,Hollande,340,
-Havane,4,La Havane,4,Amérique,232,
+Havane,4,La Havane,4,Amérique,244,
 Hollande,335,Hollande,335,Hollande,340,
 Honfleur,27,Honfleur,27,Normandie,1703,
 Idem (Angleterre),2,Angleterre,456,Angleterre,533,
 Idem (Bretagne),6,Bretagne,903,Bretagne,1798,
 Ile de France,3,Île de France,1064,Île-de-France,1898,doute! colonie ou région parisienne ????
-Ile française,2,Îles françaises,76,Amérique,232,
-Iles Françaises,1,Îles françaises,76,Amérique,232,
-Inde,5,Indes,146,Asie,318,
-Inde colonie française,3,Indes colonies françaises,8,Asie,318,
-Inde commerce français,1,Indes commerce français,74,Asie,318,
-Inde Lorient,1,Inde Lorient,1,Asie,318,DOUTE
-Indes,141,Indes,146,Asie,318,
-Indes Cnie Française,5,Indes colonies françaises,8,Asie,318,
-Indes commerce français,73,Indes commerce français,74,Asie,318,
-Indes espagnoles,9,Indes étrangères,18,Asie,318,
-Indes étrangères,9,Indes étrangères,18,Asie,318,
-Indes orientales,47,Indes orientales,47,Asie,318,
+Ile française,2,Îles françaises,76,Amérique,244,
+Iles Françaises,1,Îles françaises,76,Amérique,244,
+Îles Françaises de l'Amérique,12,Îles françaises d'Amérique,12,Amérique,244,
+Inde,5,Indes,146,Asie,331,
+Inde colonie française,3,Indes colonies françaises,8,Asie,331,
+Inde commerce français,1,Indes commerce français,74,Asie,331,
+Inde Lorient,1,Inde Lorient,1,Asie,331,DOUTE
+Indes,141,Indes,146,Asie,331,
+Indes Cnie Française,5,Indes colonies françaises,8,Asie,331,
+Indes commerce français,73,Indes commerce français,74,Asie,331,
+Indes espagnoles,9,Indes étrangères,18,Asie,331,
+Indes étrangères,9,Indes étrangères,18,Asie,331,
+Indes orientales,47,Indes orientales,47,Asie,331,
 Ingrandes,6,Ingrandes,6,Poitou,134,
 Irlande,68,Irlande,68,Angleterre,533,
 Irlande et Angleterre,5,Irlande et Angleterre,5,Angleterre,533,
-Isle de Bourbon,2,Isle de Bourbon,2,Asie,318,
+Isle de Bourbon,2,Isle de Bourbon,2,Asie,331,
 "Isle de Fra,ce",1,Île de France,1064,Île-de-France,1898,
 Isle de France,943,Île de France,1064,Île-de-France,1898,colonie ou région parisienne ???
 Isle de Ré,5,Île de Ré,12,Aunis,238,
 Isle de Rhé,7,Île de Ré,12,Aunis,238,
-Isle françaises,4,Îles françaises,76,Amérique,232,
-Isles,49,Îles françaises,76,Amérique,232,
-Isles Amerique,2,îles d'Amérique,2,Amérique,232,
+Isle françaises,4,Îles françaises,76,Amérique,244,
+Isles,49,Îles françaises,76,Amérique,244,
+Isles Amerique,2,îles d'Amérique,2,Amérique,244,
 Isles de France,117,Île de France,1064,Île-de-France,1898,colonie ou région parisienne ???
-Isles francaises,1,Îles françaises,76,Amérique,232,
-Isles françaises,11,Îles françaises,76,Amérique,232,
+Isles francaises,1,Îles françaises,76,Amérique,244,
+Isles françaises,11,Îles françaises,76,Amérique,244,
 Italie,4,Italie,4,Italie,80,
 Jouy,3,Jouy,3,Île-de-France,1898,Lequel ?
 L'aigle,3,L'aigle,3,Normandie,1703,
@@ -290,7 +292,7 @@ Le Mans,7,Le Mans,30,Maine,209,
 Le Perche,3,Le Perche,4,Normandie,1703,
 Le Puy,3,Le Puy,3,Languedoc,1541,lequel ? Dentelle par Montpellier -- Languedoc à l'époque (Haute-Loire)
 Lemaine,3,Le Maine,3,Maine,209,"DOUTE: MAINE? toiles exportées à Saint-Malo, donc oui"
-Les isles francaises,8,Îles françaises,76,Amérique,232,
+Les isles francaises,8,Îles françaises,76,Amérique,244,
 Levant,91,Levant,91,Levant et Barbarie,106,
 Lille,145,Lille,146,Flandre,1481,
 Lille et Flandres,5,Lille et Flandres,5,Flandre,1481,
@@ -321,12 +323,12 @@ Marsan,2,Marsan,2,Guyenne,2017,
 Marseille,1025,Marseille,1025,Provence,2016,
 Marseille et Bordeaux,1,Bordeaux et Marseille,1,Inconnu,213,
 Marseille et Hollande,2,Hollande et Marseille,2,Inconnu,213,
-Martinique,1,La Martinique,1,Amérique,232,
+Martinique,1,La Martinique,1,Amérique,244,
 Mattre,1,Mattre,1,Inconnu,213,???
 Maubeuge,1,Maubeuge,1,Flandre,1481,
 Mayenne,7,Mayenne,7,Maine,209,
 Médoc,2,Médoc,2,Guyenne,2017,
-Miquelon,5,Miquelon,5,Amérique,232,
+Miquelon,5,Miquelon,5,Amérique,244,
 Monarque,1,Monarque,1,Inconnu,213,???
 Mont-marsan,1,Mont-marsan,1,Guyenne,2017,
 Montauban,4,Montauban,4,Guyenne,2017,
@@ -389,8 +391,8 @@ Pêches françaises,17,Pêches françaises,28,Inconnu,213,
 Perche,1,Le Perche,4,Normandie,1703,
 Perigord,2,Périgord,10,Guyenne,2017,
 Périgord,8,Périgord,10,Guyenne,2017,
-Pérou,1,Pérou,1,Amérique,232,
-Perse,7,Perse,7,Asie,318,
+Pérou,1,Pérou,1,Amérique,244,
+Perse,7,Perse,7,Asie,331,
 Petersbourg,4,Petersbourg,5,Nord,238,
 Petesbourg,1,Petersbourg,5,Nord,238,
 Petites Isles,1,Petites Isles,1,Poitou,134,attention - ports francs ?
@@ -439,7 +441,7 @@ Russie,42,Russie,42,Nord,238,
 Saint Esprit,1,Saint-Esprit,22,Inconnu,213,Exports d'eaux-de-vie de Langres
 Saint Etienne,3,Saint-Etienne,72,Lyonnais,1685,
 Saint Féréol,2,Saint-Ferréol,2,Inconnu,213,
-Saint Pierre et Miquelon,6,Saint-Pierre-et-Miquelon,6,Amérique,232,
+Saint Pierre et Miquelon,6,Saint-Pierre-et-Miquelon,6,Amérique,244,
 Saint Réal,1,Saint-Réal,1,Saint-Réal,1,Famille de Savoie ?
 Saint-Cast,1,Saint-Cast,3,Bretagne,1798,
 Saint-Mexant,1,Saint-Mexant,1,Poitou,134,
@@ -460,7 +462,7 @@ Silésie,3,Silésie,3,Nord,238,
 St Cast,2,Saint-Cast,3,Bretagne,1798,
 St Chaumont,3,Saint-Chamond,3,Lyonnais,1685,"Saint Chamont? Oui, car exportations de soie"
 St Clément,1,Saint-Clément,1,Lorraine,60,Lequel?
-St Domingue,16,Saint-Domingue,19,Amérique,232,
+St Domingue,16,Saint-Domingue,19,Amérique,244,
 St Esprit,21,Saint-Esprit,22,Guyenne,2017,
 St Esprit les Bayonne,6,Saint-Esprit les Bayonne,6,Guyenne,2017,
 St Etienne,69,Saint-Etienne,72,Lyonnais,1685,
@@ -475,13 +477,13 @@ St Servan,3,Saint-Servan,3,Bretagne,1798,
 St Valeri,1,Saint-Valéry,3,Picardie,900,St Valery sur Somme ou St Valery en Caux
 St Valery,2,Saint-Valéry,3,Picardie,900,St Valery sur Somme ou St Valery en Caux
 St. Catherine,6,Sainte-Catherine,6,Touraine,91,"Lequel?. Exports de Nantes de Prunes. ""Très ancienne variété, originaire de Touraine, déjà présente dans le"
-St. Domingue,3,Saint-Domingue,19,Amérique,232,
+St. Domingue,3,Saint-Domingue,19,Amérique,244,
 St. Quintin,1,Sainte-Quintin,1,Picardie,900,Saint Quentin ou Quintin
 Ste Foix,6,Sainte-Foix,6,Guyenne,2017,7 Sainte Foy en France? Lequel
 Suède,87,Suède,87,Nord,238,
 Suisse,8,Suisse,8,Suisse,28,
-Terre Neuve,1,Terre-Neuve,23,Amérique,232,
-Terre neuve,22,Terre-Neuve,23,Amérique,232,
+Terre Neuve,1,Terre-Neuve,23,Amérique,244,
+Terre neuve,22,Terre-Neuve,23,Amérique,244,
 Thiers,1,Thiers,1,Auvergne,73,
 Tonneins,1,Tonneins,1,Guyenne,2017,
 Tonnerre,3,Tonnerre,3,Bourgogne,264,
