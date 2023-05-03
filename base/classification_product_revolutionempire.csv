@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,obsolete,revolutionempire,nbr_occurences_revolutionempire
-,75,non,[vide],6317
+,27,non,[vide],6269
 ???,3201,non,Produits inconnus,8509
 ??? blanc,2,non,Produits inconnus,8509
 ??? brun,2,non,Produits inconnus,8509
@@ -26,7 +26,7 @@ simplification,nbr_occurences_simpl,obsolete,revolutionempire,nbr_occurences_rev
 ???sse,1,non,Produits inconnus,8509
 ?ufs,0,non,Produits inconnus,8509
 [non traité],67,oui,[non traité],0
-[vide],6242,non,[vide],6317
+[vide],6242,non,[vide],6269
 à l'aventure,46,non,Action (hors pêche),56
 à son lest,4,oui,À vide et lest inconnu,10572
 à vide,647,non,À vide et lest inconnu,10572
@@ -90,13 +90,13 @@ acorus,5,non,Matières premières diverses,24111
 acuirson,0,non,Produits inconnus,8509
 acume de cuivre,1,non,Cuivre,3203
 adatais,3,non,"Mousseline, basin et nankin",3375
-affûts,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-affûts de bois,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-affûts de canons,12,non,"Armes, munitions, poudre et pierres à fusil",6442
+affûts,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+affûts de bois,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+affûts de canons,12,non,"Armes, munitions, poudre et pierres à fusil",6441
 affûts de fer,1,non,Ouvrages métalliques,23799
-affûts de fusils,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-affûts de fûts à canons,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-affûts et canons,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+affûts de fusils,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+affûts de fûts à canons,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+affûts et canons,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 agaric,154,non,Matières premières diverses,24111
 agaric amadouvier,6,non,Matières premières diverses,24111
 agaric amadouvier brut,4,non,Matières premières diverses,24111
@@ -273,33 +273,34 @@ alun ordinaire,1,non,Alun,2501
 alvés,0,non,Produits inconnus,8509
 amadou,335,non,Matières premières diverses,24111
 amadou et agaric amadouvier,7,non,Matières premières diverses,24111
-amandes,2219,non,Fruits secs et noix,14767
-amandes à la praline,4,non,Fruits secs et noix,14767
-amandes amères,1,non,Fruits secs et noix,14767
-amandes arachis noisettes noix noyaux,2,non,Fruits secs et noix,14767
-amandes cassée,7,oui,Fruits secs et noix,14767
-amandes cassées,419,non,Fruits secs et noix,14767
-amandes cassées ou en coque,3,oui,Fruits secs et noix,14767
-amandes cassées ou en coques,3,non,Fruits secs et noix,14767
-amandes courtes,102,non,Fruits secs et noix,14767
-amandes douces,5,non,Fruits secs et noix,14767
-amandes en coque,438,oui,Fruits secs et noix,14767
-amandes en coques,441,non,Fruits secs et noix,14767
-amandes et figue et raisin,33,non,Fruits secs et noix,14767
-amandes et noix et noisettes,100,non,Fruits secs et noix,14767
-amandes et pelures et prunes et raisin,0,non,Fruits secs et noix,14767
-amandes et pruneaux,82,non,Fruits secs et noix,14767
-amandes et raisin sec,15,non,Fruits secs et noix,14767
+amandes,2219,non,Fruits secs et noix,14769
+amandes à la praline,4,non,Fruits secs et noix,14769
+amandes amères,1,non,Fruits secs et noix,14769
+amandes arachis noisettes noix noyaux,2,non,Fruits secs et noix,14769
+amandes cassée,7,oui,Fruits secs et noix,14769
+amandes cassées,419,non,Fruits secs et noix,14769
+amandes cassées ou en coque,3,oui,Fruits secs et noix,14769
+amandes cassées ou en coques,3,non,Fruits secs et noix,14769
+amandes courtes,102,non,Fruits secs et noix,14769
+amandes douces,5,non,Fruits secs et noix,14769
+amandes en coque,438,oui,Fruits secs et noix,14769
+amandes en coques,441,non,Fruits secs et noix,14769
+amandes et figue et raisin,33,non,Fruits secs et noix,14769
+amandes et noisettes et raisins secs,2,non,,45
+amandes et noix et noisettes,100,non,Fruits secs et noix,14769
+amandes et pelures et prunes et raisin,0,non,Fruits secs et noix,14769
+amandes et pruneaux,82,non,Fruits secs et noix,14769
+amandes et raisin sec,17,non,Fruits secs et noix,14769
 amandes et raisin sec et savon,1,non,Divers mélangés,12966
 amandes et savon,13,non,Divers mélangés,12966
 amandes et sucre,25,non,Subsistances diverses et mélangées,11737
 amandes et verdet,33,non,Divers mélangés,12966
-amandes fraîches,1,non,Fruits secs et noix,14767
-amandes longues,65,non,Fruits secs et noix,14767
-amandes mondées,2,non,Fruits secs et noix,14767
-amandes sèches,64,non,Fruits secs et noix,14767
-amandes sèches et figue sèche et ???,0,non,Fruits secs et noix,14767
-amandes sèches et figue sèche et raisin sec,135,non,Fruits secs et noix,14767
+amandes fraîches,1,non,Fruits secs et noix,14769
+amandes longues,65,non,Fruits secs et noix,14769
+amandes mondées,2,non,Fruits secs et noix,14769
+amandes sèches,64,non,Fruits secs et noix,14769
+amandes sèches et figue sèche et ???,0,non,Fruits secs et noix,14769
+amandes sèches et figue sèche et raisin sec,135,non,Fruits secs et noix,14769
 amarinage,10,non,Bâtiments de mer et apparaux,3408
 amarine,1,non,Matières premières diverses,24111
 ambrain à grande barrique,1,non,Produits inconnus,8509
@@ -334,7 +335,7 @@ amurca,4,non,Drogues diverses,11446
 anabasse,121,non,Toiles diverses,13088
 anabasse bajutapau,3,non,Toiles diverses,13088
 anabasse corat nicaneas platille,2,non,Toiles diverses,13088
-anacardes,2,non,Fruits secs et noix,14767
+anacardes,2,non,Fruits secs et noix,14769
 anacoste,3,non,Étoffes de laine,16423
 ananas,12,non,Fruits frais,10103
 ananas confit,2,non,Subsistances diverses et mélangées,11737
@@ -349,6 +350,7 @@ anchois câpres etc.,1,non,Subsistances diverses et mélangées,11737
 anchois câpres olives,1,non,Subsistances diverses et mélangées,11737
 anchois et boutargue,13,non,Poissons et fruits de mer,15480
 anchois et câpres,5,non,Subsistances diverses et mélangées,11737
+anchois et câpres et olives,1,non,,45
 anchois et sardes,1,non,Poissons et fruits de mer,15480
 anchois et sardines,5,non,Poissons et fruits de mer,15480
 anchois mariné,10,non,Poissons et fruits de mer,15480
@@ -428,7 +430,7 @@ apprêts,0,non,Divers incertains,12474
 arachis olives fraîches,1,non,Fruits frais,10103
 arains,6,non,Étoffes de soie,9902
 arak,17,non,Eaux-de-vie et liqueurs,15570
-arbalètes,7,non,"Armes, munitions, poudre et pierres à fusil",6442
+arbalètes,7,non,"Armes, munitions, poudre et pierres à fusil",6441
 arbalètrie et cartes marines,1,non,Divers mélangés,12966
 arbres,51,non,Matières premières diverses,24111
 arbres à fruits,2,non,Matières premières diverses,24111
@@ -455,10 +457,10 @@ arcanson,4,non,"Brai, goudron et résines",8965
 arcanum duplicatum,2,non,Produits inconnus,8509
 archets de violons,19,non,Ouvrages divers et mélangés,23631
 archets et violon,1,non,Ouvrages divers et mélangés,23631
-arçons de bas de bois,1,non,Cordonnerie et sellerie,3206
-arçons de bois,1,non,Cordonnerie et sellerie,3206
-arçons de selles,23,non,Cordonnerie et sellerie,3206
-arçons démontés,1,non,Cordonnerie et sellerie,3206
+arçons de bas de bois,1,non,Cordonnerie et sellerie,3205
+arçons de bois,1,non,Cordonnerie et sellerie,3205
+arçons de selles,23,non,Cordonnerie et sellerie,3205
+arçons démontés,1,non,Cordonnerie et sellerie,3205
 ardoise,383,non,Matières premières diverses,24111
 ardoise à piler,1,non,Matières premières diverses,24111
 ardoise commune,215,non,Matières premières diverses,24111
@@ -518,36 +520,36 @@ argile et terre pour engrais,15,non,Matières premières diverses,24111
 arins,1,non,Produits inconnus,8509
 aristoloche,68,non,Drogues médicinales diverses,12269
 armement de tables,3,non,Ouvrages divers et mélangés,23631
-armes,345,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu,350,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de guerre et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de guerre portatives,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de luxe,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de luxe ou de traite,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de munitions,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de munitions fines,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu et artillerie,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes à feu et fusils,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes armureries,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes autres que de guerre à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes autres que de guerre blanches,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches,190,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches de guerre,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches de guerre et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches de luxe,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches de luxe ou de traite,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes blanches de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes de chasse ou de luxe à feu,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes de chasse ou de luxe blanches,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes différentes,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes et artillerie artillerie en canons pierriers espingoles et mortiers,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes et munitions,9,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes lames,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armes remontrances,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+armes,345,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu,350,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de guerre et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de guerre portatives,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de luxe,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de luxe ou de traite,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de munitions,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de munitions fines,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu et artillerie,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes à feu et fusils,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes armureries,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes autres que de guerre à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes autres que de guerre blanches,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches,190,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches de guerre,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches de guerre et de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches de luxe,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches de luxe ou de traite,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes blanches de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes de chasse ou de luxe à feu,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes de chasse ou de luxe blanches,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes différentes,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes et artillerie artillerie en canons pierriers espingoles et mortiers,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes et munitions,9,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes lames,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armes remontrances,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 armoires,57,non,"Meubles, glaces et miroirs",4794
 armoires ayant servi,1,non,"Meubles, glaces et miroirs",4794
 armoires d'acajou,12,non,"Meubles, glaces et miroirs",4794
@@ -562,10 +564,10 @@ armoires de sapin,4,non,"Meubles, glaces et miroirs",4794
 armoires et commodes,1,non,"Meubles, glaces et miroirs",4794
 armoires vieilles,2,non,"Meubles, glaces et miroirs",4794
 armoisin,46,non,Étoffes de soie,9902
-armure de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-armure vieille,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+armure de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+armure vieille,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 arnas,1,non,Produits inconnus,8509
-arquebuse,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+arquebuse,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 arrangas,1,non,Produits inconnus,8509
 arrosoirs,7,non,Ouvrages divers et mélangés,23631
 arrosoirs de bois,2,non,"Ouvrages de bois, liège et jonc",38137
@@ -584,9 +586,9 @@ artichauts confits,67,non,Subsistances diverses et mélangées,11737
 artichauts frais,17,non,Subsistances diverses et mélangées,11737
 artichauts marinés,2,non,Subsistances diverses et mélangées,11737
 artichauts secs,6,non,Subsistances diverses et mélangées,11737
-artifice,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-artifice fusées etc.,44,non,"Armes, munitions, poudre et pierres à fusil",6442
-artillerie,6,non,"Armes, munitions, poudre et pierres à fusil",6442
+artifice,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+artifice fusées etc.,44,non,"Armes, munitions, poudre et pierres à fusil",6441
+artillerie,6,non,"Armes, munitions, poudre et pierres à fusil",6441
 asa fœtida,124,non,Drogues médicinales diverses,12269
 ascrile,1,non,Produits inconnus,8509
 asperges,9,non,Subsistances diverses et mélangées,11737
@@ -625,10 +627,10 @@ autel de marbre,2,non,Marbre brut et ouvré,2234
 aux travaux du Roi,6,non,Divers incertains,12474
 avelanède,62,non,Matières premières diverses,24111
 avelanèdes,59,oui,Matières premières diverses,24111
-avelines,9,non,Fruits secs et noix,14767
-avelines et noisettes sèches,22,non,Fruits secs et noix,14767
-avelines faînes noisettes noix,1,non,Fruits secs et noix,14767
-avelines noisettes noix,5,non,Fruits secs et noix,14767
+avelines,9,non,Fruits secs et noix,14769
+avelines et noisettes sèches,22,non,Fruits secs et noix,14769
+avelines faînes noisettes noix,1,non,Fruits secs et noix,14769
+avelines noisettes noix,5,non,Fruits secs et noix,14769
 avirons,663,non,Bâtiments de mer et apparaux,3408
 avirons bruts,17,non,Bâtiments de mer et apparaux,3408
 avirons de 12 pieds,1,non,Bâtiments de mer et apparaux,3408
@@ -694,8 +696,8 @@ baguettes d'étain,2,non,Ouvrages métalliques,23799
 baguettes de bois,1,non,"Ouvrages de bois, liège et jonc",38137
 baguettes de bois doré,1,non,"Ouvrages de bois, liège et jonc",38137
 baguettes de cuivre,3,non,Ouvrages métalliques,23799
-baguettes de fer à fusil,53,non,"Armes, munitions, poudre et pierres à fusil",6442
-baguettes de fusil,48,non,"Armes, munitions, poudre et pierres à fusil",6442
+baguettes de fer à fusil,53,non,"Armes, munitions, poudre et pierres à fusil",6441
+baguettes de fusil,48,non,"Armes, munitions, poudre et pierres à fusil",6441
 bahuts,24,non,"Meubles, glaces et miroirs",4794
 baie de laurier,28,non,Drogues médicinales diverses,12269
 baies de buis,1,non,Fruits frais,10103
@@ -710,7 +712,7 @@ baignoires de tôle,2,non,Ouvrages métalliques,23799
 baigots,1,non,Produits inconnus,8509
 baillarge,9,non,Blé et autres grains comestibles,14552
 bailles,1,non,"Ouvrages de bois, liège et jonc",38137
-baïonnettes,78,non,"Armes, munitions, poudre et pierres à fusil",6442
+baïonnettes,78,non,"Armes, munitions, poudre et pierres à fusil",6441
 bais de bois de chêne,2,non,Divers incertains,12474
 bajutapau,248,non,Toiles de coton,10414
 bajutapau commun,1,non,Toiles de coton,10414
@@ -771,7 +773,7 @@ baleine taillée,2,non,Matières premières diverses,24111
 balles,9,non,Divers incertains,12474
 balles à jouer,105,non,Ouvrages divers et mélangés,23631
 balles d'osier,3,non,"Ouvrages de bois, liège et jonc",38137
-balles de fer et canons de fer,51,non,"Armes, munitions, poudre et pierres à fusil",6442
+balles de fer et canons de fer,51,non,"Armes, munitions, poudre et pierres à fusil",6441
 balles de fer uni,1,non,Ouvrages métalliques,23799
 balles de jonc,1,non,"Ouvrages de bois, liège et jonc",38137
 balles de laine,1,non,Laines non transformées diverses,5665
@@ -958,13 +960,13 @@ bas de bourre de soie,7,non,Habits et lingerie,10126
 bas de Carcassone,1,non,Habits et lingerie,10126
 bas de castor,24,non,Habits et lingerie,10126
 bas de chamois,19,non,Habits et lingerie,10126
-bas de coton,703,non,Habits et lingerie,10126
+bas de coton,704,non,Habits et lingerie,10126
 bas de coton 1300 lignes,1,non,Habits et lingerie,10126
 bas de coton de femme,1,non,Habits et lingerie,10126
-bas de coton en paires,1,non,Habits et lingerie,10126
-bas de coton et bas de fil,362,non,Habits et lingerie,10126
+bas de coton en paires,0,non,Habits et lingerie,10126
+bas de coton et bas de fil,363,non,Habits et lingerie,10126
 bas de coton et bas de fil et bas de soie,1,non,Habits et lingerie,10126
-bas de coton et bas de fil par paires,1,non,Habits et lingerie,10126
+bas de coton et bas de fil par paires,0,non,Habits et lingerie,10126
 bas de coton et bas de soie,1,non,Habits et lingerie,10126
 bas de coton et bonnets de coton,31,non,Habits et lingerie,10126
 bas de coton et laine,1,non,Habits et lingerie,10126
@@ -972,21 +974,22 @@ bas de coton pour enfant,1,non,Habits et lingerie,10126
 bas de coton pour femme,1,non,Habits et lingerie,10126
 bas de coton pour homme,1,non,Habits et lingerie,10126
 bas de coutil,1,non,Habits et lingerie,10126
-bas de fil,838,non,Habits et lingerie,10126
+bas de fil,840,non,Habits et lingerie,10126
 bas de fil commun,21,non,Habits et lingerie,10126
 bas de fil d'or,2,non,Habits et lingerie,10126
 bas de fil divers,1,non,Habits et lingerie,10126
+bas de fil en paire,1,non,,45
 bas de fil et bas de laine,1,non,Habits et lingerie,10126
 bas de fil et bonnets,2,non,Habits et lingerie,10126
 bas de fil et pour femme,2,non,Habits et lingerie,10126
 bas de fil et pour homme,1,non,Habits et lingerie,10126
-bas de fil par paires,3,non,Habits et lingerie,10126
+bas de fil par paires,1,non,Habits et lingerie,10126
 bas de filoselle,379,non,Soieries diverses,4047
 bas de Flandre d'homme,1,non,Habits et lingerie,10126
 bas de Flandre de femme,1,non,Habits et lingerie,10126
 bas de flans,1,non,Habits et lingerie,10126
 bas de fleuret,85,non,Habits et lingerie,10126
-bas de laine,972,non,Habits et lingerie,10126
+bas de laine,974,non,Habits et lingerie,10126
 bas de laine 40 lignes,1,non,Habits et lingerie,10126
 bas de laine communs,10,non,Habits et lingerie,10126
 bas de laine d'homme,1,non,Habits et lingerie,10126
@@ -997,7 +1000,7 @@ bas de laine et bonnets de laine,2,non,Habits et lingerie,10126
 bas de laine et gants de laine et bonnets de laine,2,non,Habits et lingerie,10126
 bas de laine fin,18,non,Habits et lingerie,10126
 bas de laine grossière,22,non,Habits et lingerie,10126
-bas de laine par paires,2,non,Habits et lingerie,10126
+bas de laine par paires,0,non,Habits et lingerie,10126
 bas de mulet,1,non,Habits et lingerie,10126
 bas de peau,23,non,Habits et lingerie,10126
 bas de poil,8,non,Habits et lingerie,10126
@@ -1014,6 +1017,7 @@ bas de soie brodés d'or et bas de soie brodés d'argent,1,non,Soieries diverses
 bas de soie de Chine,2,non,Soieries diverses,4047
 bas de soie de Chine pour femme,2,non,Soieries diverses,4047
 bas de soie de Chine pour homme,2,non,Soieries diverses,4047
+bas de soie en paire,1,non,,45
 bas de soie et gants de soie,1,non,Soieries diverses,4047
 bas de soie pour femme,32,non,Soieries diverses,4047
 bas de soie pour homme,33,non,Soieries diverses,4047
@@ -1493,6 +1497,7 @@ bœuf du pays,3,non,Animaux,5523
 bœuf en daube,57,non,Chairs et œufs,9575
 bœuf et génisses et vaches,1,non,Animaux,5523
 bœuf et langue salée,6,non,Chairs et œufs,9575
+bœuf et lard,2,non,,45
 bœuf et mouton et porcs et vaches,123,non,Animaux,5523
 bœuf et mouton et porcs et vaches et veaux,67,non,Animaux,5523
 bœuf et mouton et porcs et vaches etc.,7,non,Animaux,5523
@@ -2106,13 +2111,13 @@ bombardes de fer,1,non,Ouvrages métalliques,23799
 bombasin,22,non,Étoffes de soie,9902
 bombasin de Troyes,1,non,Étoffes de soie,9902
 Bombay,1,non,Produits inconnus,8509
-bombes,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes de cuivre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes de cuivre à thé,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes et boulets,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes et canons,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-bombes et grenade,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+bombes,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes de cuivre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes de cuivre à thé,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes et boulets,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes et canons,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+bombes et grenade,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 bombets,1,non,Produits inconnus,8509
 bombets de demitte,2,non,Produits inconnus,8509
 bombets de demitte et corsets de demitte,1,non,Produits inconnus,8509
@@ -2233,27 +2238,28 @@ bordage de pin,1,non,Bâtiments de mer et apparaux,3408
 bordage de sapin,22,non,Bâtiments de mer et apparaux,3408
 bordage de sapin de 20 pieds,1,non,Bâtiments de mer et apparaux,3408
 bordage pour navire,1,non,Bâtiments de mer et apparaux,3408
+bordages et planches,1,non,,45
 bordures d'or et de soie,1,non,Ouvrages divers et mélangés,23631
 bordures de bois doré,2,non,"Ouvrages de bois, liège et jonc",38137
 bordures de tapisseries,2,non,Divers incertains,12474
 bordures dorées,3,non,Divers incertains,12474
 bottes,35,non,Divers incertains,12474
-bottes à matelot,1,non,Cordonnerie et sellerie,3206
+bottes à matelot,1,non,Cordonnerie et sellerie,3205
 bottes de bergamote,2,non,Ouvrages divers et mélangés,23631
-bottes de cavalier,1,non,Cordonnerie et sellerie,3206
-bottes de cuir,35,non,Cordonnerie et sellerie,3206
-bottes de cuir à matelot,1,non,Cordonnerie et sellerie,3206
-bottes de cuir fortes,1,non,Cordonnerie et sellerie,3206
-bottes de sapin,2,non,Cordonnerie et sellerie,3206
-bottes et bottines,118,non,Cordonnerie et sellerie,3206
-bottes et souliers,7,non,Cordonnerie et sellerie,3206
-bottes fortes,73,non,Cordonnerie et sellerie,3206
-bottes fourrées,1,non,Cordonnerie et sellerie,3206
-bottes molles,9,non,Cordonnerie et sellerie,3206
-bottes neuves,5,non,Cordonnerie et sellerie,3206
-bottines,65,non,Cordonnerie et sellerie,3206
-bottines de cuir,4,non,Cordonnerie et sellerie,3206
-bottines de peau,1,non,Cordonnerie et sellerie,3206
+bottes de cavalier,1,non,Cordonnerie et sellerie,3205
+bottes de cuir,35,non,Cordonnerie et sellerie,3205
+bottes de cuir à matelot,1,non,Cordonnerie et sellerie,3205
+bottes de cuir fortes,1,non,Cordonnerie et sellerie,3205
+bottes de sapin,2,non,Cordonnerie et sellerie,3205
+bottes et bottines,118,non,Cordonnerie et sellerie,3205
+bottes et souliers,7,non,Cordonnerie et sellerie,3205
+bottes fortes,73,non,Cordonnerie et sellerie,3205
+bottes fourrées,1,non,Cordonnerie et sellerie,3205
+bottes molles,9,non,Cordonnerie et sellerie,3205
+bottes neuves,5,non,Cordonnerie et sellerie,3205
+bottines,65,non,Cordonnerie et sellerie,3205
+bottines de cuir,4,non,Cordonnerie et sellerie,3205
+bottines de peau,1,non,Cordonnerie et sellerie,3205
 boucaniers,11,non,Produits inconnus,8509
 boucassin,64,non,Toiles diverses,13088
 boucassin rouge,2,non,Toiles diverses,13088
@@ -2306,7 +2312,7 @@ boules,3,non,Divers incertains,12474
 boules d'acier,11,non,Ouvrages métalliques,23799
 boules de bois,11,non,"Ouvrages de bois, liège et jonc",38137
 boules de buis,12,non,"Ouvrages de bois, liège et jonc",38137
-boules de canons,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+boules de canons,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 boules de fer,1,non,Ouvrages métalliques,23799
 boules de mail,10,non,Ouvrages divers et mélangés,23631
 boules de mais,1,non,Produits inconnus,8509
@@ -2320,17 +2326,17 @@ boules pour jouer,4,non,Ouvrages divers et mélangés,23631
 boules vulnéraires,10,non,Drogues médicinales diverses,12269
 boulets,10,non,Ouvrages divers et mélangés,23631
 boulets à têtes et queue,1,non,Ouvrages divers et mélangés,23631
-boulets de canon de fer,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-boulets de canons,199,non,"Armes, munitions, poudre et pierres à fusil",6442
-boulets de canons de 4 livre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-boulets de canons de fer,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-boulets de canons et mitraille,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+boulets de canon de fer,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+boulets de canons,199,non,"Armes, munitions, poudre et pierres à fusil",6441
+boulets de canons de 4 livre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+boulets de canons de fer,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+boulets de canons et mitraille,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 boulets de fer,8,non,Ouvrages métalliques,23799
-boulets de fer et canons de fer,8,non,"Armes, munitions, poudre et pierres à fusil",6442
+boulets de fer et canons de fer,8,non,"Armes, munitions, poudre et pierres à fusil",6441
 boulets de marbre,2,non,Marbre brut et ouvré,2234
 boulets de terre,2,non,Ouvrages divers et mélangés,23631
-boulets et canons,6,non,"Armes, munitions, poudre et pierres à fusil",6442
-boulets et canons de fer de fonte,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+boulets et canons,6,non,"Armes, munitions, poudre et pierres à fusil",6441
+boulets et canons de fer de fonte,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 boulettes de marbre,8,non,Marbre brut et ouvré,2234
 bouquets de fleurs artificielles,4,non,Fleurs artificielles et ouvrages de mode,2107
 bouquets de papier,1,non,Papier,7796
@@ -2437,6 +2443,7 @@ bouteilles de verre garnies de joncs,1,non,Verrerie,7767
 bouteilles de verre gros,13,non,Verrerie,7767
 bouteilles de verre vides,5,non,Verrerie,7767
 bouteilles de verres,118,non,Verrerie,7767
+bouteilles et verres de faïence,2,non,,45
 bouteilles lissées de retour,1,non,Ouvrages divers et mélangés,23631
 bouteilles noires,2,non,Ouvrages divers et mélangés,23631
 bouteilles peintes,1,non,Ouvrages divers et mélangés,23631
@@ -2586,6 +2593,7 @@ brai et goudron et poix,1,non,"Brai, goudron et résines",8965
 brai et goudron et poix et résines,99,non,"Brai, goudron et résines",8965
 brai et goudron et résines,546,non,"Brai, goudron et résines",8965
 brai et goudron et térébenthine,7,non,Drogues diverses,11446
+brai et groudron,1,non,,45
 brai et poix,1,non,"Brai, goudron et résines",8965
 brai et poix blanche,5,non,"Brai, goudron et résines",8965
 brai et poix blanche et poix noire,1,non,"Brai, goudron et résines",8965
@@ -2595,6 +2603,7 @@ brai et résines,26,non,"Brai, goudron et résines",8965
 brai et térébenthine,2,non,Drogues diverses,11446
 brai galipot,1,non,"Brai, goudron et résines",8965
 brai goudron ???,3,non,"Brai, goudron et résines",8965
+brai goudron et suif,1,non,,45
 brai gras,675,non,"Brai, goudron et résines",8965
 brai gras et goudron,29,non,"Brai, goudron et résines",8965
 brai gras et goudron et résine,5,non,"Brai, goudron et résines",8965
@@ -2643,12 +2652,12 @@ breloques et chaînes d'or,1,non,Bijouterie et pierres fines,1864
 Brésil,1,non,Matières brutes et transformées pour teinture,20167
 bresillet,1,non,Matières brutes et transformées pour teinture,20167
 brian,1,non,Produits inconnus,8509
-brides,4,non,Cordonnerie et sellerie,3206
-brides argentées,1,non,Cordonnerie et sellerie,3206
-bridons,1,non,Cordonnerie et sellerie,3206
-bridons de cuir,1,non,Cordonnerie et sellerie,3206
+brides,4,non,Cordonnerie et sellerie,3205
+brides argentées,1,non,Cordonnerie et sellerie,3205
+bridons,1,non,Cordonnerie et sellerie,3205
+bridons de cuir,1,non,Cordonnerie et sellerie,3205
 brigadis,2,non,Produits inconnus,8509
-Brignoles,104,non,Fruits secs et noix,14767
+Brignoles,104,non,Fruits secs et noix,14769
 brins à tours,1,non,Produits inconnus,8509
 brins d'osier,1,non,Matières premières diverses,24111
 brion,1,non,Produits inconnus,8509
@@ -2667,6 +2676,7 @@ briques en carreaux de terre et tuiles,2,non,"Porcelaine, poterie, faïence et o
 briques en lest,2,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 briques en tuiles plates,8,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 briques et briquettes,135,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
+briques et carreaux,6,non,,45
 briques pleines,1,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 briques vernisée,1,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 briquet,49,non,Ouvrages métalliques,23799
@@ -2707,7 +2717,7 @@ broule,0,non,Produits inconnus,8509
 brousse fraîche,5,non,Fromage,4533
 brousse salée,2,non,Fromage,4533
 broutes chaderdoral,1,non,Produits inconnus,8509
-brugnoles,3,non,Fruits secs et noix,14767
+brugnoles,3,non,Fruits secs et noix,14769
 bruimes d'espars,2,non,Produits inconnus,8509
 brûle-café de fer,1,non,Ouvrages métalliques,23799
 brulis,1,non,Produits inconnus,8509
@@ -2887,6 +2897,7 @@ café du Levant,109,non,Café,8113
 café en parchemin,20,non,Café,8113
 café entré par Bordeaux et Le Havre,1,non,Café,8113
 café et cacao,43,non,Denrées coloniales et épiceries diverses,3651
+café et épicerie,1,non,,45
 café et provisions,15,non,Denrées coloniales et épiceries diverses,3651
 café et sucre et thé,10,non,Denrées coloniales et épiceries diverses,3651
 café ordinaire,1,non,Café,8113
@@ -3143,43 +3154,43 @@ cannettes ocyrez,0,non,Produits inconnus,8509
 cannettes ou marbre,1,non,Divers mélangés,12966
 cannettes ou marbre pour la Compagnie des Indes,1,non,Divers mélangés,12966
 canonnières de cantil,2,non,Divers incertains,12474
-canons,85,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 12 livres,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 18 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 2 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 3 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 4 livres,6,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de 6 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de bronze,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de bronze d'une demi livre,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de différents calibres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer,316,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer avec leurs affûts,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer brisés et rompus,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 12 livres,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 18 à 24 livres,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 18 et 30 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 18 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 2 livres,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 3 à 4 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 3 livres,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 4 livres,16,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 6 livres,6,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 8 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer de 9 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer et balles de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer petits,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fer vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de feu de 4 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de filoselle,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fonte,19,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fonte petit,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fusils,29,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de fusils vieux,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de métal,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons de vieux mousquets,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons et affûts,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-canons vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+canons,85,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 12 livres,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 18 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 2 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 3 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 4 livres,6,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de 6 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de bronze,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de bronze d'une demi livre,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de différents calibres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer,316,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer avec leurs affûts,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer brisés et rompus,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 12 livres,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 18 à 24 livres,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 18 et 30 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 18 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 2 livres,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 3 à 4 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 3 livres,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 4 livres,16,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 6 livres,6,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 8 livres,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer de 9 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer et balles de fer,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer petits,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fer vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de feu de 4 livres,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de filoselle,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fonte,19,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fonte petit,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fusils,29,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de fusils vieux,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de métal,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons de vieux mousquets,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons et affûts,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+canons vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 canot neuf,1,non,Bâtiments de mer et apparaux,3408
 cantharides,355,non,Drogues médicinales diverses,12269
 cantharides et cloportes,2,non,Drogues médicinales diverses,12269
@@ -3190,8 +3201,8 @@ canules,1,non,Produits inconnus,8509
 canyolore,3,non,Produits inconnus,8509
 caoutchouc,29,non,Matières premières diverses,24111
 capalme,1,non,Matières premières diverses,24111
-caparaçons,6,non,Cordonnerie et sellerie,3206
-caparaçons de peau,3,non,Cordonnerie et sellerie,3206
+caparaçons,6,non,Cordonnerie et sellerie,3205
+caparaçons de peau,3,non,Cordonnerie et sellerie,3205
 capeabas,1,non,Produits inconnus,8509
 caperies,1,non,Habits et lingerie,10126
 capes,9,non,Habits et lingerie,10126
@@ -3241,7 +3252,7 @@ capsliattes,4,non,Produits inconnus,8509
 caput mortum,2,non,Matières brutes et transformées pour teinture,20167
 carabé,37,non,Matières brutes et transformées pour teinture,20167
 carabé jaune,1,non,Matières brutes et transformées pour teinture,20167
-carabine à air comprimé,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+carabine à air comprimé,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 caractères à imprimerie,221,non,Ouvrages divers et mélangés,23631
 caractères à imprimerie de plomb,4,non,Ouvrages divers et mélangés,23631
 caractères à imprimerie en langue allemande,2,non,Ouvrages divers et mélangés,23631
@@ -3365,7 +3376,9 @@ carrelet,1,non,Ouvrages divers et mélangés,23631
 carres,2,non,Produits inconnus,8509
 carriole d'enfant,1,non,Ouvrages divers et mélangés,23631
 carrole et crouge,1,non,Produits inconnus,8509
+carrosse et chaises roulantes,2,non,,45
 carrosses,202,non,Ouvrages divers et mélangés,23631
+carrosses et chaises et phaéton,1,non,,45
 carrosses et harnais,1,non,Ouvrages divers et mélangés,23631
 carrosses grands montés sur leur train et harnais riche,1,non,Ouvrages divers et mélangés,23631
 carrosses neufs,15,non,Ouvrages divers et mélangés,23631
@@ -3682,7 +3695,7 @@ cercocole,1,non,Produits inconnus,8509
 céréales,1,non,Blé et autres grains comestibles,14552
 cerf-volant,1,non,Ouvrages divers et mélangés,23631
 cerises,32,non,Fruits frais,10103
-cerneaux,1,non,Fruits secs et noix,14767
+cerneaux,1,non,Fruits secs et noix,14769
 céruse,912,non,Céruse et blanc de plomb,1140
 céruse et blanc de plomb,128,non,Céruse et blanc de plomb,1140
 cervelas,97,non,Chairs et œufs,9575
@@ -3791,6 +3804,7 @@ champheuv,1,non,Produits inconnus,8509
 champignons,94,non,Subsistances diverses et mélangées,11737
 champignons confits,4,non,Subsistances diverses et mélangées,11737
 champignons et morilles,2,non,Subsistances diverses et mélangées,11737
+champignons et morilles et truffes,1,non,,45
 champignons et truffes,1,non,Subsistances diverses et mélangées,11737
 champignons marinés,1,non,Subsistances diverses et mélangées,11737
 champignons secs,28,non,Subsistances diverses et mélangées,11737
@@ -4035,18 +4049,18 @@ charrues de fer,1,non,Ouvrages métalliques,23799
 chasse-mouches,1,non,Ouvrages divers et mélangés,23631
 châssis de bois,1,non,"Ouvrages de bois, liège et jonc",38137
 chasuble,8,non,Habits et lingerie,10126
-châtaignes,976,non,Fruits secs et noix,14767
+châtaignes,976,non,Fruits secs et noix,14769
 châtaignes biscuites,11,non,Subsistances diverses et mélangées,11737
-châtaignes blanches,15,non,Fruits secs et noix,14767
+châtaignes blanches,15,non,Fruits secs et noix,14769
 châtaignes confites,1,non,Subsistances diverses et mélangées,11737
-châtaignes et marrons,107,non,Fruits secs et noix,14767
-châtaignes et marrons et noix,8,non,Fruits secs et noix,14767
+châtaignes et marrons,107,non,Fruits secs et noix,14769
+châtaignes et marrons et noix,8,non,Fruits secs et noix,14769
 châtaignes et marrons frais,11,non,Fruits frais,10103
-châtaignes et noix,2,non,Fruits secs et noix,14767
+châtaignes et noix,2,non,Fruits secs et noix,14769
 châtaignes fraîches,26,non,Fruits frais,10103
 châtaignes fraîches et marrons frais,18,non,Fruits frais,10103
-châtaignes sèche,18,non,Fruits secs et noix,14767
-châtaignes sèches,39,non,Fruits secs et noix,14767
+châtaignes sèche,18,non,Fruits secs et noix,14769
+châtaignes sèches,39,non,Fruits secs et noix,14769
 châtaigniers,1,non,Matières premières diverses,24111
 chateis,1,non,Produits inconnus,8509
 chatons,1,non,Animaux,5523
@@ -4097,14 +4111,14 @@ chausseterie,1,non,Habits et lingerie,10126
 chaussetterie de laine,1,non,Habits et lingerie,10126
 chaussettes,15,non,Habits et lingerie,10126
 chaussettes de coton,2,non,Habits et lingerie,10126
-chaussettes de fil,116,non,Habits et lingerie,10126
-chaussettes de fil par paires,1,non,Habits et lingerie,10126
+chaussettes de fil,117,non,Habits et lingerie,10126
+chaussettes de fil par paires,0,non,Habits et lingerie,10126
 chaussettes de toile,3,non,Habits et lingerie,10126
 chaussons de carisee et drap à laver maison,3,non,Divers mélangés,12966
-chaussons de fil,2,non,Cordonnerie et sellerie,3206
-chaussons de laine,3,non,Cordonnerie et sellerie,3206
-chaussons de laine de Ségovie,1,non,Cordonnerie et sellerie,3206
-chaussures pour tisserand,1,non,Cordonnerie et sellerie,3206
+chaussons de fil,2,non,Cordonnerie et sellerie,3205
+chaussons de laine,3,non,Cordonnerie et sellerie,3205
+chaussons de laine de Ségovie,1,non,Cordonnerie et sellerie,3205
+chaussures pour tisserand,1,non,Cordonnerie et sellerie,3205
 chaux,688,non,Matières premières diverses,24111
 chaux à bâtir,4,non,Matières premières diverses,24111
 chaux calcinée ou cuite,2,non,Matières premières diverses,24111
@@ -4673,8 +4687,8 @@ composition de chimie,1,non,Drogues diverses,11446
 composition de verre,4,non,Verrerie,7767
 compotiers de porcelaine,1,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 compotiers de terre,1,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
-concombre et cornichons,3,non,Légumes,5629
-concombre et cornichons en adobe,3,non,Légumes,5629
+concombre et cornichons,3,non,Légumes,5630
+concombre et cornichons en adobe,3,non,Légumes,5630
 conducteur,1,non,Produits inconnus,8509
 confection,12,non,Drogues médicinales diverses,12269
 confection d'alkermès,3,non,Drogues médicinales diverses,12269
@@ -4832,8 +4846,8 @@ cordes pour violons,174,non,Ouvrages divers et mélangés,23631
 cordes pour violons ???,0,non,Ouvrages divers et mélangés,23631
 cordes vieilles,5,non,Cordage et filets,3659
 cordial,1,non,Drogues médicinales diverses,12269
-cordonnerie de cuir,34,non,Cordonnerie et sellerie,3206
-cordonnerie et sellerie de cuir,200,non,Cordonnerie et sellerie,3206
+cordonnerie de cuir,34,non,Cordonnerie et sellerie,3205
+cordonnerie et sellerie de cuir,200,non,Cordonnerie et sellerie,3205
 cordonnet,3,non,Fils divers,9302
 cordonnet de fil,3,non,Fils divers,9302
 cordonnet de poil,2,non,Fils divers,9302
@@ -5101,8 +5115,8 @@ couteaux à virole d'argent,2,non,Ouvrages métalliques,23799
 couteaux avec leurs gaines,1,non,Ouvrages métalliques,23799
 couteaux communs,250,non,Ouvrages métalliques,23799
 couteaux de Caen,1,non,Ouvrages métalliques,23799
-couteaux de chasse,10,non,"Armes, munitions, poudre et pierres à fusil",6442
-couteaux de chasse et épée et sabres,105,non,"Armes, munitions, poudre et pierres à fusil",6442
+couteaux de chasse,10,non,"Armes, munitions, poudre et pierres à fusil",6441
+couteaux de chasse et épée et sabres,105,non,"Armes, munitions, poudre et pierres à fusil",6441
 couteaux de Flandre,1,non,Ouvrages métalliques,23799
 couteaux de gaïac,2,non,"Ouvrages de bois, liège et jonc",38137
 couteaux de guerre,1,non,Ouvrages métalliques,23799
@@ -5368,7 +5382,7 @@ cuillères de fer,20,non,Ouvrages métalliques,23799
 cuillères de laiton,2,non,Ouvrages métalliques,23799
 cuillères et fourches d'argent,1,non,Argenterie et orfèvrerie,1756
 cuillères et fourchettes de cuivre argenté,3,non,Ouvrages métalliques,23799
-cuirasses,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+cuirasses,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 cuireaux de mouton à faire colle,2,non,Produits inconnus,8509
 cuirs,191,non,"Cuirs, peaux et pelleterie",27010
 cuirs ??? en poil,1,non,"Cuirs, peaux et pelleterie",27010
@@ -5756,9 +5770,9 @@ dareau de laine,1,non,Divers incertains,12474
 dariabadis,6,non,Toiles de coton,10414
 darins,23,non,Étoffes de soie,9902
 dattes,330,non,Fruits frais,10103
-dattes et pistaches,31,non,Fruits secs et noix,14767
-dattes sèches,12,non,Fruits secs et noix,14767
-dattes secs et prunes sèches,11,non,Fruits secs et noix,14767
+dattes et pistaches,31,non,Fruits secs et noix,14769
+dattes sèches,12,non,Fruits secs et noix,14769
+dattes secs et prunes sèches,11,non,Fruits secs et noix,14769
 daubes,1,non,Subsistances diverses et mélangées,11737
 dauphine,61,non,Étoffes de laine,16423
 de peu de valeur,2,non,Produits inconnus,8509
@@ -5926,7 +5940,7 @@ déserteur,1,non,Divers incertains,12474
 déshabillé,1,non,Habits et lingerie,10126
 despeigne,1,non,Produits inconnus,8509
 dessins de papier,2,non,Librairie,4429
-dessus de souliers brodés,2,non,Cordonnerie et sellerie,3206
+dessus de souliers brodés,2,non,Cordonnerie et sellerie,3205
 dessus de table de marbre,1,non,Marbre brut et ouvré,2234
 devant d'autel,1,non,Ouvrages divers et mélangés,23631
 devant de vestes,48,non,Habits et lingerie,10126
@@ -6398,6 +6412,7 @@ drêche de bière,28,non,"Bière, cidre et vinaigre",9790
 drilles,3,non,Matières premières diverses,24111
 drogue chimique et métallique diverse,1,non,Drogues diverses,11446
 drogue médicinale,32,oui,Drogues médicinales diverses,12269
+droguerie et épicerie,1,non,,45
 drogues,2885,non,Drogues diverses,11446
 drogues ???,2,non,Drogues diverses,11446
 drogues à peindre,1,non,Matières brutes et transformées pour teinture,20167
@@ -6836,16 +6851,16 @@ embarcations et voiles de navire,3,non,Bâtiments de mer et apparaux,3408
 émeri en pierre,3,non,Matières premières diverses,24111
 émeri en pierres,10,non,Matières premières diverses,24111
 émeri en poudre,14,non,Matières premières diverses,24111
-empeignes,5,non,Cordonnerie et sellerie,3206
-empeignes brodées,1,non,Cordonnerie et sellerie,3206
-empeignes brodées pour souliers,8,non,Cordonnerie et sellerie,3206
-empeignes coupées pour empeignes,3,non,Cordonnerie et sellerie,3206
-empeignes de souliers,11,non,Cordonnerie et sellerie,3206
-empeignes de souliers brodés,1,non,Cordonnerie et sellerie,3206
-empeignes de souliers imprimées,5,non,Cordonnerie et sellerie,3206
-empeignes de toile,12,non,Cordonnerie et sellerie,3206
-empeignes et talons de cuir coupés,2,non,Cordonnerie et sellerie,3206
-empeignes peintes pour souliers,67,non,Cordonnerie et sellerie,3206
+empeignes,5,non,Cordonnerie et sellerie,3205
+empeignes brodées,1,non,Cordonnerie et sellerie,3205
+empeignes brodées pour souliers,8,non,Cordonnerie et sellerie,3205
+empeignes coupées pour empeignes,3,non,Cordonnerie et sellerie,3205
+empeignes de souliers,11,non,Cordonnerie et sellerie,3205
+empeignes de souliers brodés,1,non,Cordonnerie et sellerie,3205
+empeignes de souliers imprimées,5,non,Cordonnerie et sellerie,3205
+empeignes de toile,12,non,Cordonnerie et sellerie,3205
+empeignes et talons de cuir coupés,2,non,Cordonnerie et sellerie,3205
+empeignes peintes pour souliers,67,non,Cordonnerie et sellerie,3205
 en bâtiments de mer,1,non,Bâtiments de mer et apparaux,3408
 en pain,1,non,Produits inconnus,8509
 enamitte,1,non,Produits inconnus,8509
@@ -6893,22 +6908,22 @@ entenolles,1,non,Produits inconnus,8509
 épaulettes d'or,1,non,Habits et lingerie,10126
 épeautre,118,non,Blé et autres grains comestibles,14552
 épeautre en gerbes,23,non,Blé et autres grains comestibles,14552
-épée,31,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée à garde d'argent,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée à garde de cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée argentée,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée d'acier,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée d'argent,33,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée d'argent doré,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée d'argent et de cuivre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée d'argent et de cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée de cuivre,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée de cuivre doré,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée masquinée,14,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée montée en acier,98,non,"Armes, munitions, poudre et pierres à fusil",6442
-épée montée en argent,48,non,"Armes, munitions, poudre et pierres à fusil",6442
-éperons,6,non,Cordonnerie et sellerie,3206
-éperons et étriers,84,non,Cordonnerie et sellerie,3206
+épée,31,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée à garde d'argent,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée à garde de cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée argentée,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée d'acier,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée d'argent,33,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée d'argent doré,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée d'argent et de cuivre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée d'argent et de cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée de cuivre,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée de cuivre doré,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée masquinée,14,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée montée en acier,98,non,"Armes, munitions, poudre et pierres à fusil",6441
+épée montée en argent,48,non,"Armes, munitions, poudre et pierres à fusil",6441
+éperons,6,non,Cordonnerie et sellerie,3205
+éperons et étriers,84,non,Cordonnerie et sellerie,3205
 éperviers,1,non,Divers incertains,12474
 épice,1,non,Denrées coloniales et épiceries diverses,3651
 épice de Curons,3,non,Denrées coloniales et épiceries diverses,3651
@@ -6956,8 +6971,8 @@ escarasse,29,non,Produits inconnus,8509
 escarbille,9,non,Combustibles dont charbons et bois,6458
 escargots,3,non,Subsistances diverses et mélangées,11737
 escargots et crekels,13,non,Produits inconnus,8509
-escarpins,1,non,Cordonnerie et sellerie,3206
-escarpins de chambre,1,non,Cordonnerie et sellerie,3206
+escarpins,1,non,Cordonnerie et sellerie,3205
+escarpins de chambre,1,non,Cordonnerie et sellerie,3205
 escayolles,367,non,Graines diverses et mélangées,3043
 esclapes,1,non,Produits inconnus,8509
 esclapes de bois,2,non,"Ouvrages de bois, liège et jonc",38137
@@ -6973,7 +6988,7 @@ escot de fer,6,non,Ouvrages métalliques,23799
 escot de laine,3,non,Étoffes de laine,16423
 escotins de bois,1,non,"Ouvrages de bois, liège et jonc",38137
 escoubes,1,non,Produits inconnus,8509
-espadrilles,4,non,Cordonnerie et sellerie,3206
+espadrilles,4,non,Cordonnerie et sellerie,3205
 espagnolette,264,non,Étoffes de laine,16423
 espagnolette à fleurs,1,non,Étoffes de laine,16423
 espagnolette croisée,119,non,Étoffes de laine,16423
@@ -7054,7 +7069,7 @@ espèce monnayée ???,1,non,Monnaies et métaux précieux,1583
 espèces,63,non,Monnaies et métaux précieux,1583
 espèces d'argent,4,non,Monnaies et métaux précieux,1583
 espingole,2,non,Produits inconnus,8509
-esponton,5,non,"Armes, munitions, poudre et pierres à fusil",6442
+esponton,5,non,"Armes, munitions, poudre et pierres à fusil",6441
 esprit,0,non,Drogues diverses,11446
 esprit d'absinthe,1,non,Drogues diverses,11446
 esprit de bergamote,150,non,Drogues diverses,11446
@@ -7617,7 +7632,7 @@ etocs de fer,13,non,Ouvrages métalliques,23799
 étoupes de vieux cordages,1,oui,Cordage et filets,3659
 étoupes et cordes de lin,106,non,Lin,3356
 étoupes noires,10,non,Matières premières diverses,24111
-étriers,8,non,Cordonnerie et sellerie,3206
+étriers,8,non,Cordonnerie et sellerie,3205
 étrille de fer,16,non,Ouvrages métalliques,23799
 étrilles,1,non,Ouvrages divers et mélangés,23631
 étuis,13,non,Ouvrages divers et mélangés,23631
@@ -7800,8 +7815,8 @@ faux de fer,2,non,"Faucilles, faux et limes",1323
 faux et fannelles de fer et d'acier,2,non,"Faucilles, faux et limes",1323
 faux et faucilles,243,non,"Faucilles, faux et limes",1323
 faux et ferailles,13,non,"Faucilles, faux et limes",1323
-favelottes,112,non,Légumes,5629
-favelottes en gerbe,13,non,Légumes,5629
+favelottes,112,non,Légumes,5630
+favelottes en gerbe,13,non,Légumes,5630
 fébrifuge,1,non,Manne et médicaments,1574
 fenêtre de noyer,1,non,"Ouvrages de bois, liège et jonc",38137
 fenouil,35,non,Subsistances diverses et mélangées,11737
@@ -7861,6 +7876,7 @@ fer en balle,2,non,Fer,6368
 fer en ballon,5,non,Fer,6368
 fer en bandes,37,non,Fer,6368
 fer en barils,2,non,Fer,6368
+fer en barre et fer ouvré,4,non,,45
 fer en barres,2,non,Fer,6368
 fer en barres et feuillards,3,non,Fer,6368
 fer en barres et feuilles,1,non,Fer,6368
@@ -8061,22 +8077,22 @@ feutres pour doublage,1,non,Étoffes diverses,8007
 feutres pour filtrer semelles et autres ouvrages,2,non,Étoffes diverses,8007
 feuves,1,non,Produits inconnus,8509
 fèverolles,11,oui,Subsistances diverses et mélangées,11737
-fèves,1514,non,Légumes,5629
-fèves blanches,2,non,Légumes,5629
+fèves,1514,non,Légumes,5630
+fèves blanches,2,non,Légumes,5630
 fèves de cacao,1,non,Cacao et chocolat,4152
-fèves de marais,17,non,Légumes,5629
-fèves de Rome,1,non,Légumes,5629
-fèves de Saint-Ignace,1,non,Légumes,5629
-fèves en barils,1,non,Légumes,5629
-fèves en gerbes,33,non,Légumes,5629
+fèves de marais,17,non,Légumes,5630
+fèves de Rome,1,non,Légumes,5630
+fèves de Saint-Ignace,1,non,Légumes,5630
+fèves en barils,1,non,Légumes,5630
+fèves en gerbes,33,non,Légumes,5630
 fèves et coques de cacao brut,1,non,Cacao et chocolat,4152
 fèves et grenaille,1,non,Divers incertains,12474
-fèves et pois,9,non,Légumes,5629
+fèves et pois,9,non,Légumes,5630
 fèves odorantes de Tonka,2,non,Matières premières diverses,24111
-fèves petites,2,non,Légumes,5629
-fèves plates,2,non,Légumes,5629
-fèves pour mulets,5,non,Légumes,5629
-fèves sèches,1,non,Fruits secs et noix,14767
+fèves petites,2,non,Légumes,5630
+fèves plates,2,non,Légumes,5630
+fèves pour mulets,5,non,Légumes,5630
+fèves sèches,1,non,Fruits secs et noix,14769
 fiasques,1,non,Divers incertains,12474
 fiasques de carton,1,non,Papier,7796
 ficelle,325,non,Fils divers,9302
@@ -8099,13 +8115,13 @@ fiente de pigeon,2,non,Matières premières diverses,24111
 fifres et flageolets,2,non,"Ouvrages de bois, liège et jonc",38137
 fifres flageolets et flûtes,2,non,"Ouvrages de bois, liège et jonc",38137
 figue,1091,non,Fruits frais,10103
-figue et raisin,1,non,Fruits secs et noix,14767
-figue et raisin sec pruneaux et poires tapées,2,oui,Fruits secs et noix,14767
-figue et raisin secs pruneaux et poires tapées,2,oui,Fruits secs et noix,14767
+figue et raisin,1,non,Fruits secs et noix,14769
+figue et raisin sec pruneaux et poires tapées,2,oui,Fruits secs et noix,14769
+figue et raisin secs pruneaux et poires tapées,2,oui,Fruits secs et noix,14769
 figue et sumac,2,non,Divers mélangés,12966
 figue fraîche et fruits verts,7,non,Fruits frais,10103
 figue prune et raisin,2,non,Fruits frais,10103
-figue sèche,82,non,Fruits secs et noix,14767
+figue sèche,82,non,Fruits secs et noix,14769
 figues,1,non,Fruits frais,10103
 figuier,1,non,Matières premières diverses,24111
 figures,6,non,Ouvrages divers et mélangés,23631
@@ -8735,6 +8751,7 @@ forme de terre à sucre,3,oui,"Porcelaine, poterie, faïence et ouvrages de terr
 forme de terre et fabrique de fer,3,non,Divers mélangés,12966
 forme et pots à fèves,1,non,Divers incertains,12474
 forme ou pot de terre pour sucre,2,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
+formes et post,2,non,,45
 fort en diable,8,non,Produits inconnus,8509
 forte-piano,7,non,Ouvrages divers et mélangés,23631
 forte-piano à la valeur,2,non,Ouvrages divers et mélangés,23631
@@ -8895,15 +8912,15 @@ fruits confits en vinaigre,38,non,Subsistances diverses et mélangées,11737
 fruits confits fins,1,non,Subsistances diverses et mélangées,11737
 fruits crus secs et à l'eau-de-vie,5,non,Subsistances diverses et mélangées,11737
 fruits cuits,95,non,Subsistances diverses et mélangées,11737
-fruits cuits secs,3,non,Fruits secs et noix,14767
+fruits cuits secs,3,non,Fruits secs et noix,14769
 fruits de Corinthe,1,non,Fruits frais,10103
 fruits de table confits,7,non,Subsistances diverses et mélangées,11737
 fruits de table conflits à l'eau-de-vie,2,non,Subsistances diverses et mélangées,11737
 fruits de table exotiques frais,2,non,Fruits frais,10103
 fruits de table frais autres que citron orange et leurs variétés,2,non,Fruits frais,10103
 fruits de table frais indigènes,2,non,Fruits frais,10103
-fruits de table secs et tapés,5,non,Fruits secs et noix,14767
-fruits de table secs et tapés autres que pistache,2,non,Fruits secs et noix,14767
+fruits de table secs et tapés,5,non,Fruits secs et noix,14769
+fruits de table secs et tapés autres que pistache,2,non,Fruits secs et noix,14769
 fruits des Îles et des Indes,3,non,Denrées coloniales et épiceries diverses,3651
 fruits divers et graine,1,non,Subsistances diverses et mélangées,11737
 fruits en confitures,7,non,Subsistances diverses et mélangées,11737
@@ -8922,7 +8939,7 @@ fruits prunes et pruneaux,1,non,Fruits frais,10103
 fruits rudes,11,non,Fruits frais,10103
 fruits salés,2,non,Subsistances diverses et mélangées,11737
 fruits salés marinés,1,non,Subsistances diverses et mélangées,11737
-fruits secs,1245,non,Fruits secs et noix,14767
+fruits secs,1245,non,Fruits secs et noix,14769
 fruits secs confits,1,non,Subsistances diverses et mélangées,11737
 fruits secs et à l'eau-de-vie,4,non,Subsistances diverses et mélangées,11737
 fruits secs et à l'eau-de-vie amandes cassées et en corps et prunes ???,5,non,Subsistances diverses et mélangées,11737
@@ -8940,29 +8957,29 @@ funin ou fouets,1,non,Divers incertains,12474
 furets,6,non,Cordage et filets,3659
 furgons,1,non,Produits inconnus,8509
 fuseaux,32,non,"Ouvrages de bois, liège et jonc",38137
-fusée à bombes,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+fusée à bombes,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 fusée volante,1,non,Ouvrages divers et mélangés,23631
 fusée volantes ?,0,non,Ouvrages divers et mélangés,23631
-fusils,290,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils à deux coups,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils à double canons,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils communs,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils damasquinés,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de boucaniers,71,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de boucaniers fins,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de chasse,29,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de chasse à deux coups,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de maître,11,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de munitions,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils de traite,94,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils démontés,116,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils et carabines,133,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils et leurs baïonnettes,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils et pistolets,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils neufs,4,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils ordinaires,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils pour l'entrepôt pour la Guinée,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-fusils vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+fusils,290,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils à deux coups,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils à double canons,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils communs,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils damasquinés,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de boucaniers,71,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de boucaniers fins,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de chasse,29,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de chasse à deux coups,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de maître,11,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de munitions,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils de traite,94,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils démontés,116,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils et carabines,133,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils et leurs baïonnettes,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils et pistolets,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils neufs,4,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils ordinaires,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils pour l'entrepôt pour la Guinée,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+fusils vieux,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 fustages,1,non,Produits inconnus,8509
 fustet,1,non,Matières brutes et transformées pour teinture,20167
 futaillerie,40,non,"Ouvrages de bois, liège et jonc",38137
@@ -8986,6 +9003,7 @@ futailles de tonnelier,1,non,"Ouvrages de bois, liège et jonc",38137
 futailles démontées vides,5,non,"Ouvrages de bois, liège et jonc",38137
 futailles diverses,1,non,"Ouvrages de bois, liège et jonc",38137
 futailles en barriques vieilles ???,4,oui,"Ouvrages de bois, liège et jonc",38137
+futailles en bottes,1,non,,45
 futailles en petits barils,1,non,"Ouvrages de bois, liège et jonc",38137
 futailles et beurre,0,non,Divers mélangés,12966
 futailles petites,1,non,"Ouvrages de bois, liège et jonc",38137
@@ -9048,7 +9066,7 @@ galle légère,41,non,Galle,1500
 galle romaine,4,non,Galle,1500
 gallule,1,non,Produits inconnus,8509
 gallus,1,non,Produits inconnus,8509
-galoches,15,non,Cordonnerie et sellerie,3206
+galoches,15,non,Cordonnerie et sellerie,3205
 galon,7,non,Mercerie,8743
 galon à peu de soie,3,non,Soieries diverses,4047
 galon au quart de soie,3,non,Soieries diverses,4047
@@ -9118,79 +9136,79 @@ ganses,1,non,Rubanerie et passementerie diverse,2351
 ganses d'or,3,non,Rubanerie et passementerie diverse,2351
 ganses de fleuret,11,non,Soieries diverses,4047
 ganses de laine,3,non,Rubanerie et passementerie diverse,2351
-gants,35,non,Gants,2376
-gants à large ruban,8,non,Gants,2376
-gants à petit ruban,5,non,Gants,2376
-gants blancs,1,non,Gants,2376
-gants bordés de soie par paires,6,non,Gants,2376
-gants brodés de soie,1,non,Gants,2376
-gants brodés de soie et or,1,non,Gants,2376
-gants chamois,2,non,Gants,2376
-gants communs,454,non,Gants,2376
-gants communs de peau,1,non,Gants,2376
-gants communs par paires,3,non,Gants,2376
-gants d'argent,1,non,Gants,2376
-gants d'étame,1,non,Gants,2376
-gants de bonneterie,3,non,Gants,2376
-gants de castor,26,non,Gants,2376
-gants de chamois,75,non,Gants,2376
-gants de chamois par paire,1,non,Gants,2376
-gants de chanvre,3,non,Gants,2376
-gants de coton,112,non,Gants,2376
-gants de cuir,4,non,Gants,2376
-gants de daim,1,non,Gants,2376
-gants de femme,3,non,Gants,2376
-gants de fer,1,non,Gants,2376
-gants de fil,106,non,Gants,2376
-gants de fil et coton,28,non,Gants,2376
-gants de fil et de soie,2,non,Gants,2376
-gants de fil fins,8,non,Gants,2376
-gants de fil par paires,1,non,Gants,2376
-gants de filoselle,6,non,Gants,2376
-gants de fleuret,8,non,Gants,2376
-gants de frangipane,5,non,Gants,2376
-gants de garnis de soie,5,non,Gants,2376
-gants de Grenoble,64,non,Gants,2376
-gants de Grenoble de peau,1,oui,Gants,2376
-gants de laine,180,non,Gants,2376
-gants de peau,548,non,Gants,2376
-gants de peau communs,143,non,Gants,2376
-gants de peau de cabri,2,oui,Gants,2376
-gants de peau de cabris,2,non,Gants,2376
-gants de peau de daim,2,non,Gants,2376
-gants de peau de Grenoble,1,non,Gants,2376
-gants de peau et autre,16,oui,Gants,2376
-gants de peau fins,7,non,Gants,2376
-gants de peau garnis de soie,2,non,Gants,2376
-gants de peau lisérés de soie,1,oui,Gants,2376
-gants de peau pour femme,11,non,Gants,2376
-gants de peau pour homme,1,non,Gants,2376
-gants de peaux,2,non,Gants,2376
-gants de poil,1,non,Gants,2376
-gants de poil de lapin,2,non,Gants,2376
-gants de renard,1,non,Gants,2376
-gants de Rome,3,non,Gants,2376
-gants de senteur,6,non,Gants,2376
-gants de soie,112,non,Gants,2376
-gants de veau,0,non,Gants,2376
-gants de velours,3,non,Gants,2376
-gants dits moufles,17,non,Gants,2376
-gants divers,22,non,Gants,2376
-gants en soie,1,non,Gants,2376
-gants et mitaines bordés de soie par paires,1,non,Gants,2376
-gants et mitaines de filoselle,70,non,Gants,2376
-gants et mitaines de soie,133,non,Gants,2376
-gants et mitaines garnis de soie par paires,1,non,Gants,2376
-gants et pantoufles de coton,5,non,Gants,2376
-gants et pantoufles de laine,5,non,Gants,2376
-gants garni de ruban,3,non,Gants,2376
-gants garnis de soie,6,non,Gants,2376
-gants garnis de soie et or,1,non,Gants,2376
-gants glacés,1,non,Gants,2376
-gants liserés,20,non,Gants,2376
-gants liserés de soie,50,non,Gants,2376
-gants parfumés,1,non,Gants,2376
-gants pour homme,2,non,Gants,2376
+gants,35,non,Gants,2370
+gants à large ruban,8,non,Gants,2370
+gants à petit ruban,5,non,Gants,2370
+gants blancs,1,non,Gants,2370
+gants bordés de soie par paires,5,non,Gants,2370
+gants brodés de soie,1,non,Gants,2370
+gants brodés de soie et or,1,non,Gants,2370
+gants chamois,2,non,Gants,2370
+gants communs,457,non,Gants,2370
+gants communs de peau,1,non,Gants,2370
+gants communs par paires,0,non,Gants,2370
+gants d'argent,1,non,Gants,2370
+gants d'étame,1,non,Gants,2370
+gants de bonneterie,3,non,Gants,2370
+gants de castor,26,non,Gants,2370
+gants de chamois,76,non,Gants,2370
+gants de chamois par paire,0,non,Gants,2370
+gants de chanvre,3,non,Gants,2370
+gants de coton,112,non,Gants,2370
+gants de cuir,4,non,Gants,2370
+gants de daim,1,non,Gants,2370
+gants de femme,3,non,Gants,2370
+gants de fer,1,non,Gants,2370
+gants de fil,107,non,Gants,2370
+gants de fil et coton,28,non,Gants,2370
+gants de fil et de soie,2,non,Gants,2370
+gants de fil fins,8,non,Gants,2370
+gants de fil par paires,0,non,Gants,2370
+gants de filoselle,6,non,Gants,2370
+gants de fleuret,8,non,Gants,2370
+gants de frangipane,5,non,Gants,2370
+gants de garnis de soie,5,non,Gants,2370
+gants de Grenoble,64,non,Gants,2370
+gants de Grenoble de peau,1,oui,Gants,2370
+gants de laine,180,non,Gants,2370
+gants de peau,548,non,Gants,2370
+gants de peau communs,143,non,Gants,2370
+gants de peau de cabri,2,oui,Gants,2370
+gants de peau de cabris,2,non,Gants,2370
+gants de peau de daim,2,non,Gants,2370
+gants de peau de Grenoble,1,non,Gants,2370
+gants de peau et autre,16,oui,Gants,2370
+gants de peau fins,7,non,Gants,2370
+gants de peau garnis de soie,2,non,Gants,2370
+gants de peau lisérés de soie,1,oui,Gants,2370
+gants de peau pour femme,11,non,Gants,2370
+gants de peau pour homme,1,non,Gants,2370
+gants de peaux,2,non,Gants,2370
+gants de poil,1,non,Gants,2370
+gants de poil de lapin,2,non,Gants,2370
+gants de renard,1,non,Gants,2370
+gants de Rome,3,non,Gants,2370
+gants de senteur,6,non,Gants,2370
+gants de soie,112,non,Gants,2370
+gants de veau,0,non,Gants,2370
+gants de velours,3,non,Gants,2370
+gants dits moufles,17,non,Gants,2370
+gants divers,22,non,Gants,2370
+gants en soie,1,non,Gants,2370
+gants et mitaines bordés de soie par paires,0,non,Gants,2370
+gants et mitaines de filoselle,70,non,Gants,2370
+gants et mitaines de soie,133,non,Gants,2370
+gants et mitaines garnis de soie par paires,0,non,Gants,2370
+gants et pantoufles de coton,5,non,Gants,2370
+gants et pantoufles de laine,5,non,Gants,2370
+gants garni de ruban,3,non,Gants,2370
+gants garnis de soie,6,non,Gants,2370
+gants garnis de soie et or,1,non,Gants,2370
+gants glacés,1,non,Gants,2370
+gants liserés,20,non,Gants,2370
+gants liserés de soie,50,non,Gants,2370
+gants parfumés,1,non,Gants,2370
+gants pour homme,2,non,Gants,2370
 ganuers,1,non,Produits inconnus,8509
 ganvette à faire des ancres,1,non,Produits inconnus,8509
 garage,0,non,Produits inconnus,8509
@@ -9231,7 +9249,7 @@ gardes d'épée de cuivre et de fer,7,non,Ouvrages métalliques,23799
 gardes d'épée en acier,71,non,Ouvrages métalliques,23799
 gardes d'épée et tabatières d'argent,1,non,Ouvrages métalliques,23799
 garenne,2,non,Animaux,5523
-gargousses,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+gargousses,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 garnas,1,non,Produits inconnus,8509
 garniture,2,non,Divers incertains,12474
 garniture de blonde,1,non,Dentelles,2952
@@ -9241,8 +9259,8 @@ garniture de carrosses,1,non,Ouvrages divers et mélangés,23631
 garniture de commode,4,non,Divers mélangés,12966
 garniture de dentelle,1,non,Dentelles,2952
 garniture de fauteuil,1,non,Ouvrages divers et mélangés,23631
-garniture de fusils,8,non,"Armes, munitions, poudre et pierres à fusil",6442
-garniture de fusils et platines de fusils,91,non,"Armes, munitions, poudre et pierres à fusil",6442
+garniture de fusils,8,non,"Armes, munitions, poudre et pierres à fusil",6441
+garniture de fusils et platines de fusils,91,non,"Armes, munitions, poudre et pierres à fusil",6441
 garniture de gaze,2,non,Textiles manufacturés divers et mélangés,2797
 garniture de gaze noire,1,non,Textiles manufacturés divers et mélangés,2797
 garniture de lin,1,non,Ouvrages divers et mélangés,23631
@@ -9255,11 +9273,11 @@ garniture de ragoût,2,non,Subsistances diverses et mélangées,11737
 garniture de robes,1,non,Habits et lingerie,10126
 garniture de robes de femme,1,non,Habits et lingerie,10126
 garniture de toilettes,2,non,Parfumerie et toilette,4007
-garniture des fusils,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-garniture des pistolets et platines des pistolets,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+garniture des fusils,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+garniture des pistolets et platines des pistolets,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 garniture en velours de deux fauteuils,1,non,Textiles manufacturés divers et mélangés,2797
 garniture Îles,1,non,Divers incertains,12474
-garnitures de selles,1,non,Cordonnerie et sellerie,3206
+garnitures de selles,1,non,Cordonnerie et sellerie,3205
 garonne,2,non,Produits inconnus,8509
 garos,1,non,Produits inconnus,8509
 garou et quercitron,3,non,Drogues médicinales diverses,12269
@@ -9365,7 +9383,7 @@ genêpes,1,non,Produits inconnus,8509
 genestrole,6,non,Matières brutes et transformées pour teinture,20167
 genêts,2,non,Matières premières diverses,24111
 genêts pour salade,3,non,Subsistances diverses et mélangées,11737
-genettes,3,non,Cordonnerie et sellerie,3206
+genettes,3,non,Cordonnerie et sellerie,3205
 genièvre,2404,non,Matières premières diverses,24111
 genièvre de Cologne,2,non,Matières premières diverses,24111
 genièvre en coquelerrie,1,non,Matières premières diverses,24111
@@ -9984,14 +10002,14 @@ grelots de cuivre,60,non,Ouvrages métalliques,23799
 grelots de laiton,1,non,Ouvrages métalliques,23799
 grelots et sonnettes,1,non,Ouvrages métalliques,23799
 grenade,37,non,Fruits frais,10103
-grenade à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+grenade à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 grenade de coton,1,non,Coton non transformé,3256
-grenade de fer,13,non,"Armes, munitions, poudre et pierres à fusil",6442
+grenade de fer,13,non,"Armes, munitions, poudre et pierres à fusil",6441
 grenade de Florence,1,non,Fruits frais,10103
 grenade étoffe,2,non,Étoffes diverses,8007
 grenade fruit,7,non,Fruits frais,10103
 grenade pour la Compagnie des Indes,1,non,Divers incertains,12474
-grenades de fonte,0,non,"Armes, munitions, poudre et pierres à fusil",6442
+grenades de fonte,0,non,"Armes, munitions, poudre et pierres à fusil",6441
 grenades fraîches,1,non,Fruits frais,10103
 grenadier et laurier et jasmin etc,93,non,Matières premières diverses,24111
 grenaille,7,non,Graines diverses et mélangées,3043
@@ -10028,6 +10046,8 @@ grisette de Flandre,1,non,Étoffes diverses,8007
 grisette de laine,2,non,Étoffes de laine,16423
 grisette de soie,10,non,Étoffes de soie,9902
 grison,2,non,Chairs et œufs,9575
+grison et tuffeau,1,non,,45
+grison pour sucrerie,2,non,,45
 grives,6,non,Animaux,5523
 groisil,1,non,Verrerie,7767
 groisil de verre,66,non,Verrerie,7767
@@ -10052,10 +10072,10 @@ guéridon,5,non,"Meubles, glaces et miroirs",4794
 guéridon de sapin,1,non,"Meubles, glaces et miroirs",4794
 guéridon et tables,1,non,"Meubles, glaces et miroirs",4794
 guéridon peint,2,non,"Meubles, glaces et miroirs",4794
-guêtres,18,non,Cordonnerie et sellerie,3206
-guêtres de coton,1,non,Cordonnerie et sellerie,3206
-guêtres de cuir,3,non,Cordonnerie et sellerie,3206
-guêtres de toile,7,non,Cordonnerie et sellerie,3206
+guêtres,18,non,Cordonnerie et sellerie,3205
+guêtres de coton,1,non,Cordonnerie et sellerie,3205
+guêtres de cuir,3,non,Cordonnerie et sellerie,3205
+guêtres de toile,7,non,Cordonnerie et sellerie,3205
 gueuse de fer,1,non,Ouvrages métalliques,23799
 guftas,1,non,Produits inconnus,8509
 guidive des prises,1,non,Produits inconnus,8509
@@ -10178,7 +10198,7 @@ haches et houes et serpes,76,non,Ouvrages métalliques,23799
 haches et serpes,2,non,Ouvrages métalliques,23799
 haches paille,1,non,Ouvrages métalliques,23799
 haillons de laine,2,non,Laines non transformées diverses,5665
-hallebardes,7,non,"Armes, munitions, poudre et pierres à fusil",6442
+hallebardes,7,non,"Armes, munitions, poudre et pierres à fusil",6441
 haltsays,1,non,Produits inconnus,8509
 hamacs,166,non,Ouvrages divers et mélangés,23631
 hamacs de coton,8,non,Ouvrages divers et mélangés,23631
@@ -10224,28 +10244,28 @@ harengs salés et sardines salées,4,non,Poissons et fruits de mer,15480
 harengs salés et sardines salées et saumon salé,6,non,Poissons et fruits de mer,15480
 harengs saurs,545,non,Poissons et fruits de mer,15480
 harengs secs,11,non,Poissons et fruits de mer,15480
-haricots,253,non,Légumes,5629
-haricots blancs,1,non,Légumes,5629
+haricots,253,non,Légumes,5630
+haricots blancs,1,non,Légumes,5630
 haricots confits,2,non,Subsistances diverses et mélangées,11737
-haricots en fèves,1,non,Légumes,5629
-haricots en fil,1,non,Légumes,5629
+haricots en fèves,1,non,Légumes,5630
+haricots en fil,1,non,Légumes,5630
 haricots et lentilles et pois secs,3,non,Subsistances diverses et mélangées,11737
 haricots marinés,1,non,Subsistances diverses et mélangées,11737
 harmonica et orgues portatives,2,non,Ouvrages divers et mélangés,23631
-harnais,83,non,Cordonnerie et sellerie,3206
-harnais de carrosses,1,non,Cordonnerie et sellerie,3206
-harnais de chaise,23,non,Cordonnerie et sellerie,3206
-harnais de chevaux,20,non,Cordonnerie et sellerie,3206
-harnais de chevaux de cuir,8,non,Cordonnerie et sellerie,3206
-harnais de cuir,2,non,Cordonnerie et sellerie,3206
-harnais de cuir et sellerie,4,non,Cordonnerie et sellerie,3206
-harnais de sellier,2,non,Cordonnerie et sellerie,3206
-harnais et chaises roulantes,1,non,Cordonnerie et sellerie,3206
-harnais et housses de chevaux,1,non,Cordonnerie et sellerie,3206
-harnais et housses de mulet,1,non,Cordonnerie et sellerie,3206
+harnais,83,non,Cordonnerie et sellerie,3205
+harnais de carrosses,1,non,Cordonnerie et sellerie,3205
+harnais de chaise,23,non,Cordonnerie et sellerie,3205
+harnais de chevaux,20,non,Cordonnerie et sellerie,3205
+harnais de chevaux de cuir,8,non,Cordonnerie et sellerie,3205
+harnais de cuir,2,non,Cordonnerie et sellerie,3205
+harnais de cuir et sellerie,4,non,Cordonnerie et sellerie,3205
+harnais de sellier,2,non,Cordonnerie et sellerie,3205
+harnais et chaises roulantes,1,non,Cordonnerie et sellerie,3205
+harnais et housses de chevaux,1,non,Cordonnerie et sellerie,3205
+harnais et housses de mulet,1,non,Cordonnerie et sellerie,3205
 harnais et phaéton,1,non,Ouvrages divers et mélangés,23631
-harnais et selles,11,non,Cordonnerie et sellerie,3206
-harnais pour chaise de cuir,1,non,Cordonnerie et sellerie,3206
+harnais et selles,11,non,Cordonnerie et sellerie,3205
+harnais pour chaise de cuir,1,non,Cordonnerie et sellerie,3205
 harpe,1,non,Ouvrages divers et mélangés,23631
 harpes,11,non,Ouvrages divers et mélangés,23631
 harpes et guitare,51,non,Ouvrages divers et mélangés,23631
@@ -10298,9 +10318,9 @@ hipocide,4,non,Produits inconnus,8509
 hipouditte,1,non,Produits inconnus,8509
 histoire naturelle,18,non,Objets d'art et d'histoire naturelle,2471
 histoire naturelle coquillages,1,non,Objets d'art et d'histoire naturelle,2471
-homme d'équipage,7,non,Êtres humains,6972
-homme d'équipage hollandais,2,non,Êtres humains,6972
-homme d'équipage prisonnier suédois,1,non,Êtres humains,6972
+homme d'équipage,7,non,Êtres humains,6980
+homme d'équipage hollandais,2,non,Êtres humains,6980
+homme d'équipage prisonnier suédois,1,non,Êtres humains,6980
 Hondschoote blanche,3,non,Toiles diverses,13088
 Hondschoote peinte,5,non,Toiles diverses,13088
 hôpitaux,2,non,Produits inconnus,8509
@@ -10366,24 +10386,24 @@ houille par mer à Baisieux,2,non,Combustibles dont charbons et bois,6458
 houille par terre,1,non,Combustibles dont charbons et bois,6458
 houille par terre Ardennes et autre,2,non,Combustibles dont charbons et bois,6458
 houppe de cygne,5,non,Plumes ouvrées,1500
-housses,8,non,Cordonnerie et sellerie,3206
-housses de chevaux,25,non,Cordonnerie et sellerie,3206
-housses de chevaux enrichie,1,non,Cordonnerie et sellerie,3206
+housses,8,non,Cordonnerie et sellerie,3205
+housses de chevaux,25,non,Cordonnerie et sellerie,3205
+housses de chevaux enrichie,1,non,Cordonnerie et sellerie,3205
 housses de chevaux et faux,1,non,Divers mélangés,12966
 housses de chevaux et faux et fourreaux garnis de soie,1,non,Divers mélangés,12966
-housses de chevaux garnies d'argent et d'or,1,non,Cordonnerie et sellerie,3206
+housses de chevaux garnies d'argent et d'or,1,non,Cordonnerie et sellerie,3205
 housses de drap,10,non,Habits et lingerie,10126
-housses de drap et de velours,2,non,Cordonnerie et sellerie,3206
+housses de drap et de velours,2,non,Cordonnerie et sellerie,3205
 housses de lit,2,non,Habits et lingerie,10126
-housses de selles,1,non,Cordonnerie et sellerie,3206
-housses de velours,1,non,Cordonnerie et sellerie,3206
+housses de selles,1,non,Cordonnerie et sellerie,3205
+housses de velours,1,non,Cordonnerie et sellerie,3205
 housses et faux fourreaux,3,non,Divers mélangés,12966
 housses et faux fourreaux garnis d'argent,1,non,Divers mélangés,12966
-housses et selles de chevaux,1,non,Cordonnerie et sellerie,3206
-housses galonnées,2,non,Cordonnerie et sellerie,3206
-housses galonnées d'or,4,non,Cordonnerie et sellerie,3206
-housses galonnées d'or et d'argent,1,non,Cordonnerie et sellerie,3206
-housses garnies d'or,2,non,Cordonnerie et sellerie,3206
+housses et selles de chevaux,1,non,Cordonnerie et sellerie,3205
+housses galonnées,2,non,Cordonnerie et sellerie,3205
+housses galonnées d'or,4,non,Cordonnerie et sellerie,3205
+housses galonnées d'or et d'argent,1,non,Cordonnerie et sellerie,3205
+housses garnies d'or,2,non,Cordonnerie et sellerie,3205
 hubalingue,1,non,Produits inconnus,8509
 hubellimeus,1,non,Produits inconnus,8509
 huide de codde,1,non,Produits inconnus,8509
@@ -10625,6 +10645,9 @@ huîtres en pierres,2,non,Poissons et fruits de mer,15480
 huîtres fraîches,15,non,Poissons et fruits de mer,15480
 huîtres fraîches et salées,18,non,Poissons et fruits de mer,15480
 huîtres marines,1,non,Poissons et fruits de mer,15480
+humains,24,non,Êtres humains,6980
+humains de Guinée,18,non,Êtres humains,6980
+humains de Sénégal,27,non,Êtres humains,6980
 hydromel,123,non,Boissons diverses et mélangées,840
 hypochetia,1,non,Produits inconnus,8509
 hypocristis,1,non,Drogues médicinales diverses,12269
@@ -10867,7 +10890,7 @@ jouets d'enfance,1,non,Ouvrages divers et mélangés,23631
 jouets d'enfant,12,non,Ouvrages divers et mélangés,23631
 jougs de bœuf,5,non,"Ouvrages de bois, liège et jonc",38137
 joujoux d'enfants,9,non,Ouvrages divers et mélangés,23631
-juifs qui payent le droit corporel à la sortie,64,non,Êtres humains,6972
+juifs qui payent le droit corporel à la sortie,64,non,Êtres humains,6980
 jujubes,94,non,Fruits frais,10103
 julaux,1,non,Produits inconnus,8509
 julienne,2,non,Subsistances diverses et mélangées,11737
@@ -11172,7 +11195,7 @@ lampes de verres,1,non,Verrerie,7767
 lampes économiques,1,non,Ouvrages divers et mélangés,23631
 lampions de fer,1,non,Ouvrages métalliques,23799
 lamproies,70,non,Poissons et fruits de mer,15480
-lances,865,non,"Armes, munitions, poudre et pierres à fusil",6442
+lances,865,non,"Armes, munitions, poudre et pierres à fusil",6441
 lances et beauprés,1,non,Divers mélangés,12966
 lances et mâts,2,non,Divers mélangés,12966
 lancets à arroser voile,1,non,Produits inconnus,8509
@@ -11271,19 +11294,19 @@ lèchefrite,3,non,Ouvrages divers et mélangés,23631
 lèchefrite de fer,4,non,Ouvrages métalliques,23799
 legatine sur coton,1,non,Étoffes diverses,8007
 legatine sur laine,1,non,Étoffes diverses,8007
-légumes,2456,non,Légumes,5629
-légumes confits et secs,2,non,Légumes,5629
-légumes en adobe,108,non,Légumes,5629
-légumes marinés,1,non,Légumes,5629
-légumes pois,31,non,Légumes,5629
-légumes salés ou confits,7,non,Légumes,5629
-légumes secs,58,non,Légumes,5629
-légumes secs et racines d'igname,2,non,Légumes,5629
-légumes verts,7,non,Légumes,5629
-légumes verts et secs,25,non,Légumes,5629
+légumes,2456,non,Légumes,5630
+légumes confits et secs,2,non,Légumes,5630
+légumes en adobe,108,non,Légumes,5630
+légumes marinés,1,non,Légumes,5630
+légumes pois,31,non,Légumes,5630
+légumes salés ou confits,7,non,Légumes,5630
+légumes secs,58,non,Légumes,5630
+légumes secs et racines d'igname,2,non,Légumes,5630
+légumes verts,7,non,Légumes,5630
+légumes verts et secs,25,non,Légumes,5630
 lelarge,0,non,Produits inconnus,8509
 lemeneas,1,non,Produits inconnus,8509
-lentilles,173,non,Légumes,5629
+lentilles,173,non,Légumes,5630
 leole,1,non,Produits inconnus,8509
 lerfage de laine,1,non,Étoffes de laine,16423
 lessive grasse,3,non,Drogues diverses,11446
@@ -11313,10 +11336,10 @@ lichens,2,non,Matières premières diverses,24111
 lichens autres que pour la teinture,3,non,Matières premières diverses,24111
 lichens médicinaux,42,non,Drogues médicinales diverses,12269
 lichens tinctoriaux,6,non,Matières brutes et transformées pour teinture,20167
-licols,3,non,Cordonnerie et sellerie,3206
-licols de cuirs,1,non,Cordonnerie et sellerie,3206
-licols en sangles,1,non,Cordonnerie et sellerie,3206
-licols et sangles,2,non,Cordonnerie et sellerie,3206
+licols,3,non,Cordonnerie et sellerie,3205
+licols de cuirs,1,non,Cordonnerie et sellerie,3205
+licols en sangles,1,non,Cordonnerie et sellerie,3205
+licols et sangles,2,non,Cordonnerie et sellerie,3205
 licopodes,1,non,Produits inconnus,8509
 lie d'huile,3,non,Drogues diverses,11446
 lie de bière,2,non,Matières premières diverses,24111
@@ -11956,9 +11979,9 @@ marques,1,non,Produits inconnus,8509
 marquise,1,non,Ouvrages divers et mélangés,23631
 marraye,2,non,Produits inconnus,8509
 marregues,22,non,Produits inconnus,8509
-marrons,144,non,Fruits secs et noix,14767
-marrons crus,1,non,Fruits secs et noix,14767
-marrons secs,3,non,Fruits secs et noix,14767
+marrons,144,non,Fruits secs et noix,14769
+marrons crus,1,non,Fruits secs et noix,14769
+marrons secs,3,non,Fruits secs et noix,14769
 marseille,0,non,Produits inconnus,8509
 marsouin,2,non,Animaux,5523
 marteaux,3,non,Ouvrages divers et mélangés,23631
@@ -12000,8 +12023,8 @@ matelas de laine,129,non,Ouvrages divers et mélangés,23631
 matelas de lit,1,non,Ouvrages divers et mélangés,23631
 matelas de toile de coton et de fil,1,non,Ouvrages divers et mélangés,23631
 matelas vieux,1,non,Ouvrages divers et mélangés,23631
-matelot,3,non,Êtres humains,6972
-matelot ligurien,1,non,Êtres humains,6972
+matelot,3,non,Êtres humains,6980
+matelot ligurien,1,non,Êtres humains,6980
 mâtereaux,167,non,"Ouvrages de bois, liège et jonc",38137
 mâtereaux à barques,1,non,"Ouvrages de bois, liège et jonc",38137
 mâtereaux communs de 30 pieds,1,non,"Ouvrages de bois, liège et jonc",38137
@@ -12758,10 +12781,10 @@ mignonnette,38,non,Dentelles,2952
 mignotte étoffe,4,non,Dentelles,2952
 migon,18,non,Produits inconnus,8509
 mil,3,non,Blé et autres grains comestibles,14552
-militaires,15,non,Êtres humains,6972
-militaires de la division française de Rome,1,non,Êtres humains,6972
-militaires français ou romains de la division de Rome,1,non,Êtres humains,6972
-militaires ou patriotes romains,1,non,Êtres humains,6972
+militaires,15,non,Êtres humains,6980
+militaires de la division française de Rome,1,non,Êtres humains,6980
+militaires français ou romains de la division de Rome,1,non,Êtres humains,6980
+militaires ou patriotes romains,1,non,Êtres humains,6980
 mille gants,3,non,Produits inconnus,8509
 milleret,1,non,Textiles manufacturés divers et mélangés,2797
 millet,10,non,Blé et autres grains comestibles,14552
@@ -12818,19 +12841,19 @@ miroirs petits,221,non,"Meubles, glaces et miroirs",4794
 miroirs petits sans distinction,2,non,"Meubles, glaces et miroirs",4794
 mistelle,2,non,Boissons diverses et mélangées,840
 mistre,0,non,Produits inconnus,8509
-mitaines,1,non,Gants,2376
-mitaines bordées de soie par paires,3,non,Gants,2376
-mitaines brodées,1,non,Gants,2376
-mitaines de peau,3,non,Gants,2376
-mitaines de peau garnies de soie,1,non,Gants,2376
-mitaines de peau lisérées de soie,1,oui,Gants,2376
-mitaines de soie,2,non,Gants,2376
-mitaines de taffetas,2,non,Gants,2376
-mitaines garnies de ruban,1,non,Gants,2376
-mitaines garnies de soie,9,non,Gants,2376
-mitaines liserées,1,non,Gants,2376
-mitons à pierres fausses par paires de velours,1,non,Gants,2376
-mitons de soie,3,non,Gants,2376
+mitaines,1,non,Gants,2370
+mitaines bordées de soie par paires,0,non,Gants,2370
+mitaines brodées,1,non,Gants,2370
+mitaines de peau,3,non,Gants,2370
+mitaines de peau garnies de soie,1,non,Gants,2370
+mitaines de peau lisérées de soie,1,oui,Gants,2370
+mitaines de soie,2,non,Gants,2370
+mitaines de taffetas,2,non,Gants,2370
+mitaines garnies de ruban,1,non,Gants,2370
+mitaines garnies de soie,9,non,Gants,2370
+mitaines liserées,1,non,Gants,2370
+mitons à pierres fausses par paires de velours,1,non,Gants,2370
+mitons de soie,3,non,Gants,2370
 mitraille,2,non,Métaux divers et mélangés,2263
 mitraille de cuivre,109,non,Métaux divers et mélangés,2263
 mitraille vieille en batterie de cuisine,1,non,Métaux divers et mélangés,2263
@@ -12858,7 +12881,7 @@ moellons à faire chaux,92,non,Matières premières diverses,24111
 moellons à faire des bâtiments,2,non,Matières premières diverses,24111
 moellons de brique,2,non,Ouvrages divers et mélangés,23631
 moellons pierres meulières etc.,2,non,Ouvrages divers et mélangés,23631
-mogette,2,non,Légumes,5629
+mogette,2,non,Légumes,5630
 moines ???,2,non,Produits inconnus,8509
 moines garnis de fer-blanc,1,non,Ouvrages divers et mélangés,23631
 moire,2,non,Étoffes de soie,9902
@@ -13293,12 +13316,12 @@ mufle à chandelle,0,non,Produits inconnus,8509
 mules,29,non,Divers incertains,12474
 mules à coutelier,1,non,Divers incertains,12474
 mules à moulin,2,non,Chevaux et bêtes de somme,1954
-mules brodées,3,non,Cordonnerie et sellerie,3206
-mules brodées et souliers brodées,2,non,Cordonnerie et sellerie,3206
-mules brodées pour femme,2,non,Cordonnerie et sellerie,3206
+mules brodées,3,non,Cordonnerie et sellerie,3205
+mules brodées et souliers brodées,2,non,Cordonnerie et sellerie,3205
+mules brodées pour femme,2,non,Cordonnerie et sellerie,3205
 mules de 6 mois,1,non,Chevaux et bêtes de somme,1954
-mules de femme,1,non,Cordonnerie et sellerie,3206
-mules de nattes,2,non,Cordonnerie et sellerie,3206
+mules de femme,1,non,Cordonnerie et sellerie,3205
+mules de nattes,2,non,Cordonnerie et sellerie,3205
 mules et mulets,196,non,Chevaux et bêtes de somme,1954
 mules et mulets adultes,5,non,Chevaux et bêtes de somme,1954
 mules et mulets avec dents de lait,1,non,Chevaux et bêtes de somme,1954
@@ -13306,7 +13329,7 @@ mules et mulets d'1 an,2,non,Chevaux et bêtes de somme,1954
 mules et mulets et ânes,1,non,Chevaux et bêtes de somme,1954
 mules et mulets n'ayant pas encore de dents adultes,1,non,Chevaux et bêtes de somme,1954
 mules ou mulets,1,non,Chevaux et bêtes de somme,1954
-mules pour femmes,1,non,Cordonnerie et sellerie,3206
+mules pour femmes,1,non,Cordonnerie et sellerie,3205
 mulets,120,non,Chevaux et bêtes de somme,1954
 mulets à moyen prix,1,non,Chevaux et bêtes de somme,1954
 mulets de moyenne taille,1,non,Chevaux et bêtes de somme,1954
@@ -13316,8 +13339,8 @@ mulets petits,2,non,Chevaux et bêtes de somme,1954
 mulets poulains,2,non,Chevaux et bêtes de somme,1954
 mulets vieux,2,non,Chevaux et bêtes de somme,1954
 mungistere,1,non,Produits inconnus,8509
-munitions de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-munitions de guerre et projectiles,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+munitions de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+munitions de guerre et projectiles,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 muriate d'étain et de potasse,1,non,Matières premières diverses,24111
 mûriers,1,non,Matières premières diverses,24111
 musc,29,non,Parfumerie et toilette,4007
@@ -13426,9 +13449,6 @@ nèfles frais,1,non,Fruits frais,10103
 neganepeau,181,non,Toiles de coton,10414
 neganepeau grand,1,non,Toiles de coton,10414
 neganepeau imitant celles des Indes,1,non,Toiles de coton,10414
-humains,16,non,Êtres humains,6972
-humains de Guinée,18,non,Êtres humains,6972
-humains de Sénégal,27,non,Êtres humains,6972
 nelis,39,non,Toiles de coton,10414
 nepres,8,non,Produits inconnus,8509
 neptune,1,non,Produits inconnus,8509
@@ -13483,12 +13503,12 @@ noir pour imprimer,10,non,Matières brutes et transformées pour teinture,20167
 noir pour imprimer en traille douce dit d'Allemagne,1,non,Matières brutes et transformées pour teinture,20167
 noir pour noircir,30,non,Matières brutes et transformées pour teinture,20167
 noir pour souliers,2,non,Matières brutes et transformées pour teinture,20167
-noisette sèches,13,non,Fruits secs et noix,14767
-noisettes,660,non,Fruits secs et noix,14767
-noisettes et noix,11,non,Fruits secs et noix,14767
-noisettes faînes,2,non,Fruits secs et noix,14767
-noisettes pistaches et ???,1,non,Fruits secs et noix,14767
-noix,495,non,Fruits secs et noix,14767
+noisette sèches,13,non,Fruits secs et noix,14769
+noisettes,660,non,Fruits secs et noix,14769
+noisettes et noix,11,non,Fruits secs et noix,14769
+noisettes faînes,2,non,Fruits secs et noix,14769
+noisettes pistaches et ???,1,non,Fruits secs et noix,14769
+noix,495,non,Fruits secs et noix,14769
 noix d'acajou,24,non,Denrées coloniales et épiceries diverses,3651
 noix d'ivoire,2,non,Matières premières diverses,24111
 noix de coco,54,non,Denrées coloniales et épiceries diverses,3651
@@ -13496,19 +13516,19 @@ noix de galle,503,non,Galle,1500
 noix de galle légère,7,non,Galle,1500
 noix de galle pesante,9,non,Galle,1500
 noix de galle pesante des entrepôts,0,non,Galle,1500
-noix de marrons,2,non,Fruits secs et noix,14767
+noix de marrons,2,non,Fruits secs et noix,14769
 noix de muscade,17,non,Muscades,848
 noix de pipes,25,non,Matières premières diverses,24111
 noix de ravensara,1,non,Matières premières diverses,24111
-noix en coquilles,1,non,Fruits secs et noix,14767
-noix épillées,3,non,Fruits secs et noix,14767
+noix en coquilles,1,non,Fruits secs et noix,14769
+noix épillées,3,non,Fruits secs et noix,14769
 noix et riz,2,non,Subsistances diverses et mélangées,11737
-noix grosses,125,non,Fruits secs et noix,14767
-noix mondées,3,non,Fruits secs et noix,14767
-noix moutarde,1,non,Fruits secs et noix,14767
+noix grosses,125,non,Fruits secs et noix,14769
+noix mondées,3,non,Fruits secs et noix,14769
+noix moutarde,1,non,Fruits secs et noix,14769
 noix ou noyaux,1,non,Divers incertains,12474
 noix pour peintures,6,non,Matières brutes et transformées pour teinture,20167
-noix sèches,28,non,Fruits secs et noix,14767
+noix sèches,28,non,Fruits secs et noix,14769
 noix venimeuses,4,non,Matières premières diverses,24111
 noix vomiques,61,non,Drogues médicinales diverses,12269
 noronges,1,non,Produits inconnus,8509
@@ -13541,7 +13561,7 @@ objets divers dont le plus fort article n'excède pas 2400 livres,4,oui,Divers m
 objets divers dont les plus forts articles n'excèdent pas 10000 livres,3,oui,Divers mélangés,12966
 objets manufacturés réunis,187,non,Textiles manufacturés divers et mélangés,2797
 obliques,1,non,Produits inconnus,8509
-obusiers de fonte,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+obusiers de fonte,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 ocre,532,non,Matières brutes et transformées pour teinture,20167
 ocre broyé,1,non,Matières brutes et transformées pour teinture,20167
 ocre brun,2,non,Matières brutes et transformées pour teinture,20167
@@ -13668,8 +13688,8 @@ orange et limon,2,non,Fruits frais,10103
 orange fraîche,17,non,Fruits frais,10103
 orange ordinaire,1,non,Fruits frais,10103
 orange petite,1,non,Fruits frais,10103
-orange sèche,6,non,Fruits secs et noix,14767
-orange séchée à faire chapelets,1,non,Fruits secs et noix,14767
+orange sèche,6,non,Fruits secs et noix,14769
+orange séchée à faire chapelets,1,non,Fruits secs et noix,14769
 orangelets,4,non,Produits inconnus,8509
 orangelets secs,6,non,Produits inconnus,8509
 orangers,19,non,Matières premières diverses,24111
@@ -13912,10 +13932,10 @@ ouvrages de corail,375,non,Ouvrages divers et mélangés,23631
 ouvrages de corail brut,1,non,Ouvrages divers et mélangés,23631
 ouvrages de corail fin,2,non,Ouvrages divers et mélangés,23631
 ouvrages de corail rouge,2,non,Ouvrages divers et mélangés,23631
-ouvrages de cordonnerie de peaux,1,non,Cordonnerie et sellerie,3206
-ouvrages de cordonnier,8,non,Cordonnerie et sellerie,3206
-ouvrages de cordonnier de cuir,1,non,Cordonnerie et sellerie,3206
-ouvrages de cordonnier de soie,2,non,Cordonnerie et sellerie,3206
+ouvrages de cordonnerie de peaux,1,non,Cordonnerie et sellerie,3205
+ouvrages de cordonnier,8,non,Cordonnerie et sellerie,3205
+ouvrages de cordonnier de cuir,1,non,Cordonnerie et sellerie,3205
+ouvrages de cordonnier de soie,2,non,Cordonnerie et sellerie,3205
 ouvrages de corne et d'ivoire,1,non,Ouvrages divers et mélangés,23631
 ouvrages de coton,3,non,Textiles manufacturés divers et mélangés,2797
 ouvrages de coton et de laine et de fil et de filoselle,9,non,Textiles manufacturés divers et mélangés,2797
@@ -14027,12 +14047,12 @@ ouvrages de plumes d'autruche,12,non,Plumes ouvrées,1500
 ouvrages de poterie,2,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 ouvrages de potin,1,non,Ouvrages métalliques,23799
 ouvrages de sapin,1,non,"Ouvrages de bois, liège et jonc",38137
-ouvrages de sellier de toute sorte,130,non,Cordonnerie et sellerie,3206
+ouvrages de sellier de toute sorte,130,non,Cordonnerie et sellerie,3205
 ouvrages de serrurerie,63,non,Quincaillerie,9633
 ouvrages de serrurerie de fer,65,non,Quincaillerie,9633
 ouvrages de soie,80,non,Soieries diverses,4047
 ouvrages de soie et dorure,3,non,Textiles manufacturés divers et mélangés,2797
-ouvrages de soulier couverts en étoffe de soie pour femme,4,non,Cordonnerie et sellerie,3206
+ouvrages de soulier couverts en étoffe de soie pour femme,4,non,Cordonnerie et sellerie,3205
 ouvrages de Spa,2,non,Ouvrages divers et mélangés,23631
 ouvrages de Spa en bois verni,110,non,"Ouvrages de bois, liège et jonc",38137
 ouvrages de sparterie,44,non,"Ouvrages de bois, liège et jonc",38137
@@ -14079,7 +14099,7 @@ ouvrages en dorure sur soie,1,non,Dorure,1828
 ouvrages en esparballe,1,non,Ouvrages divers et mélangés,23631
 ouvrages en fleurs artificielles,47,non,Fleurs artificielles et ouvrages de mode,2107
 ouvrages en futaillerie et de Saint-Claude,1,non,"Ouvrages de bois, liège et jonc",38137
-ouvrages en harnais et sellerie,33,non,Cordonnerie et sellerie,3206
+ouvrages en harnais et sellerie,33,non,Cordonnerie et sellerie,3205
 ouvrages en ivoire et écaille,2,non,Ouvrages divers et mélangés,23631
 ouvrages en lames à couvrir,1,non,Ouvrages divers et mélangés,23631
 ouvrages en marbre,4,non,Marbre brut et ouvré,2234
@@ -14221,11 +14241,11 @@ panneaux et carreaux rouges à paver,1,non,Matières premières diverses,24111
 pans à couvrir de terre cuite,3,non,Ouvrages divers et mélangés,23631
 pantalons,1,non,Habits et lingerie,10126
 pantalons de soie,1,non,Habits et lingerie,10126
-pantoufles,4,non,Cordonnerie et sellerie,3206
-pantoufles brodées,2,non,Cordonnerie et sellerie,3206
-pantoufles brodées pour femme,1,non,Cordonnerie et sellerie,3206
-pantoufles de cuir,2,non,Cordonnerie et sellerie,3206
-pantoufles de cuir et de maroquin,4,non,Cordonnerie et sellerie,3206
+pantoufles,4,non,Cordonnerie et sellerie,3205
+pantoufles brodées,2,non,Cordonnerie et sellerie,3205
+pantoufles brodées pour femme,1,non,Cordonnerie et sellerie,3205
+pantoufles de cuir,2,non,Cordonnerie et sellerie,3205
+pantoufles de cuir et de maroquin,4,non,Cordonnerie et sellerie,3205
 paons,6,non,Animaux,5523
 papelias,1,non,Produits inconnus,8509
 papeterie,5,oui,Papier,7796
@@ -14425,6 +14445,7 @@ papier violet,76,non,Papier,7796
 papillons,1,non,Matières premières diverses,24111
 papillons secs,1,non,Matières premières diverses,24111
 paquets,0,non,Divers incertains,12474
+paquets de feuillards,1,non,,45
 parapluies,182,non,Ouvrages divers et mélangés,23631
 parapluies autres et caracasse,2,non,Ouvrages divers et mélangés,23631
 parapluies caracasse de,2,non,Ouvrages divers et mélangés,23631
@@ -14473,31 +14494,31 @@ parfumerie rouge,4,non,Parfumerie et toilette,4007
 pariera,2,non,Drogues médicinales diverses,12269
 parrancens,1,non,Produits inconnus,8509
 parse,1,non,Produits inconnus,8509
-particuliers,2,oui,Êtres humains,6972
-particuliers français,1,non,Êtres humains,6972
+particuliers,2,oui,Êtres humains,6980
+particuliers français,1,non,Êtres humains,6980
 parun,3,non,"Cuirs, peaux et pelleterie",27010
-passagers,6762,non,Êtres humains,6972
-passagers algériens,1,non,Êtres humains,6972
-passagers anglais,1,non,Êtres humains,6972
-passagers anglais prisonniers,1,non,Êtres humains,6972
-passagers disgrâciés,1,non,Êtres humains,6972
-passagers domestique,1,non,Êtres humains,6972
-passagers équipage disgrâciés des vaissieaux du Roi,2,non,Êtres humains,6972
-passagers esclaves corses rachetés,1,non,Êtres humains,6972
-passagers fils du capitaine,1,non,Êtres humains,6972
-passagers français,1,non,Êtres humains,6972
-passagers homme,2,non,Êtres humains,6972
-passagers marin disgrâcié,1,non,Êtres humains,6972
-passagers marins,1,non,Êtres humains,6972
-passagers marins disgrâciés,3,non,Êtres humains,6972
-passagers marins disgrâciés des vaisseaux du Roi,1,non,Êtres humains,6972
-passagers matelot,5,non,Êtres humains,6972
-passagers matelot disgrâcié,1,non,Êtres humains,6972
-passagers militaires,2,non,Êtres humains,6972
-passagers Moulha Cassen,1,non,Êtres humains,6972
-passagers prisonniers français,1,non,Êtres humains,6972
-passagers soldats,1,non,Êtres humains,6972
-passagers turcs,1,non,Êtres humains,6972
+passagers,6762,non,Êtres humains,6980
+passagers algériens,1,non,Êtres humains,6980
+passagers anglais,1,non,Êtres humains,6980
+passagers anglais prisonniers,1,non,Êtres humains,6980
+passagers disgrâciés,1,non,Êtres humains,6980
+passagers domestique,1,non,Êtres humains,6980
+passagers équipage disgrâciés des vaissieaux du Roi,2,non,Êtres humains,6980
+passagers esclaves corses rachetés,1,non,Êtres humains,6980
+passagers fils du capitaine,1,non,Êtres humains,6980
+passagers français,1,non,Êtres humains,6980
+passagers homme,2,non,Êtres humains,6980
+passagers marin disgrâcié,1,non,Êtres humains,6980
+passagers marins,1,non,Êtres humains,6980
+passagers marins disgrâciés,3,non,Êtres humains,6980
+passagers marins disgrâciés des vaisseaux du Roi,1,non,Êtres humains,6980
+passagers matelot,5,non,Êtres humains,6980
+passagers matelot disgrâcié,1,non,Êtres humains,6980
+passagers militaires,2,non,Êtres humains,6980
+passagers Moulha Cassen,1,non,Êtres humains,6980
+passagers prisonniers français,1,non,Êtres humains,6980
+passagers soldats,1,non,Êtres humains,6980
+passagers turcs,1,non,Êtres humains,6980
 passementerie,297,non,Rubanerie et passementerie diverse,2351
 passementerie argent faux,1,non,Rubanerie et passementerie diverse,2351
 passementerie bise écrue ou herbée,1,non,Rubanerie et passementerie diverse,2351
@@ -14609,11 +14630,11 @@ pâtés,6,non,Chairs et œufs,9575
 pâtés de canard,1,non,Chairs et œufs,9575
 pâtés de chèvre et autre,3,non,Chairs et œufs,9575
 patine,1,non,Drogues diverses,11446
-patins,9,non,Cordonnerie et sellerie,3206
-patins ?,1,non,Cordonnerie et sellerie,3206
-patins à glisser,1,non,Cordonnerie et sellerie,3206
+patins,9,non,Cordonnerie et sellerie,3205
+patins ?,1,non,Cordonnerie et sellerie,3205
+patins à glisser,1,non,Cordonnerie et sellerie,3205
 patins de bois,6,non,"Ouvrages de bois, liège et jonc",38137
-patins pour femme,2,non,Cordonnerie et sellerie,3206
+patins pour femme,2,non,Cordonnerie et sellerie,3205
 pâtisserie,139,non,Subsistances diverses et mélangées,11737
 patissoye broché,2,non,Toiles diverses,13088
 patissoye uni,1,non,Toiles diverses,13088
@@ -15185,8 +15206,8 @@ pêchers,1,non,Matières premières diverses,24111
 pêches,11,non,Fruits frais,10103
 pêches à l'eau-de-vie,2,non,Subsistances diverses et mélangées,11737
 pêches fraîches,1,non,Fruits frais,10103
-pêches sèches,7,non,Fruits secs et noix,14767
-pêcheur,1,non,Êtres humains,6972
+pêches sèches,7,non,Fruits secs et noix,14769
+pêcheur,1,non,Êtres humains,6980
 pecuacan,1,non,Produits inconnus,8509
 peignes,13,non,Mercerie,8743
 peignes à chanvre,1,non,Mercerie,8743
@@ -15394,7 +15415,7 @@ perses,1,non,Toiles diverses,13088
 persienne,3,non,Ouvrages divers et mélangés,23631
 persil de macédoine,2,non,Subsistances diverses et mélangées,11737
 pertiolles,5,non,Produits inconnus,8509
-pertuisanes,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+pertuisanes,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 pesetas,1,non,Monnaies et métaux précieux,1583
 petit carré de fer,1,non,Ouvrages métalliques,23799
 petit raze de castor,2,non,Étoffes de laine,16423
@@ -15503,7 +15524,7 @@ pierres à filtrer l'eau,23,non,Matières premières diverses,24111
 pierres à fouler le blé,1,non,Matières premières diverses,24111
 pierres à four,4,non,Matières premières diverses,24111
 pierres à foyer,9,non,Matières premières diverses,24111
-pierres à fusils,1056,non,"Armes, munitions, poudre et pierres à fusil",6442
+pierres à fusils,1056,non,"Armes, munitions, poudre et pierres à fusil",6441
 pierres à fusils et autres,1,non,Divers mélangés,12966
 pierres à hamatilles,1,non,Produits inconnus,8509
 pierres à huile,15,non,Matières premières diverses,24111
@@ -15591,7 +15612,7 @@ pierres de faux,2,non,Matières premières diverses,24111
 pierres de fer,1,non,Produits inconnus,8509
 pierres de fonte,1,non,Produits inconnus,8509
 pierres de four,40,non,Matières premières diverses,24111
-pierres de fusils,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+pierres de fusils,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 pierres de grès,22,non,Matières premières diverses,24111
 pierres de grés à paver,5,non,Matières premières diverses,24111
 pierres de grison,40,non,Matières premières diverses,24111
@@ -15660,6 +15681,7 @@ pierres et meules à aiguiser,18,non,Ouvrages divers et mélangés,23631
 pierres et plâtre,6,non,Matières premières diverses,24111
 pierres et terres à bâtir,1,non,Matières premières diverses,24111
 pierres et terres servant aux arts et métiers,2,non,Matières premières diverses,24111
+pierres et tuffeaux,1,non,,45
 pierres façonnées d'architecte,1,non,Ouvrages divers et mélangés,23631
 pierres fausses,72,non,Bijouterie et pierres fines,1864
 pierres fausses et fines,1,non,Bijouterie et pierres fines,1864
@@ -15669,7 +15691,7 @@ pierres fausses non montées,5,non,Bijouterie et pierres fines,1864
 pierres ferrugineuses,4,non,Matières premières diverses,24111
 pierres fines,1,non,Bijouterie et pierres fines,1864
 pierres froides,67,non,Matières premières diverses,24111
-pierres fusil,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+pierres fusil,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 pierres jaunes,1,non,Matières premières diverses,24111
 pierres lithographiques,3,non,Matières premières diverses,24111
 pierres lithographiques et autres,3,non,Matières premières diverses,24111
@@ -15700,10 +15722,10 @@ pierres travaillées en banc balcon goulots etc.,125,non,Ouvrages divers et mél
 pierrestre,2,oui,Produits inconnus,8509
 pierrette,2,non,Animaux,5523
 pierreuve,1,non,Produits inconnus,8509
-pierriers,20,non,"Armes, munitions, poudre et pierres à fusil",6442
-pierriers de fer,13,non,"Armes, munitions, poudre et pierres à fusil",6442
-pierriers de fonte,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-pierriers garnis de leurs boites,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+pierriers,20,non,"Armes, munitions, poudre et pierres à fusil",6441
+pierriers de fer,13,non,"Armes, munitions, poudre et pierres à fusil",6441
+pierriers de fonte,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+pierriers garnis de leurs boites,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 pigaras,1,non,Matières premières diverses,24111
 pigeons,11,non,Animaux,5523
 pigeons sauvages,1,non,Animaux,5523
@@ -15773,23 +15795,23 @@ piphout en blocs,7,non,Produits inconnus,8509
 piques,4,non,Ouvrages métalliques,23799
 piques de fer,1,non,Ouvrages métalliques,23799
 pissuron,1,non,Produits inconnus,8509
-pistache,3,non,Fruits secs et noix,14767
-pistaches,325,non,Fruits secs et noix,14767
-pistaches cassées,2,non,Fruits secs et noix,14767
-pistaches en coques,1,non,Fruits secs et noix,14767
-pistaches non cassées,1,non,Fruits secs et noix,14767
-pistaches sèches,10,non,Fruits secs et noix,14767
-pistolets,101,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets d'arçon,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+pistache,3,non,Fruits secs et noix,14769
+pistaches,325,non,Fruits secs et noix,14769
+pistaches cassées,2,non,Fruits secs et noix,14769
+pistaches en coques,1,non,Fruits secs et noix,14769
+pistaches non cassées,1,non,Fruits secs et noix,14769
+pistaches sèches,10,non,Fruits secs et noix,14769
+pistolets,100,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets à feu,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets d'arçon,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 pistolets Damas ?,1,non,Divers incertains,12474
-pistolets de maître,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets de traite,7,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets démontés,38,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets garnis d'argent,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets montés,123,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets par paire,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-pistolets vieux,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+pistolets de maître,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets de traite,7,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets démontés,38,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets garnis d'argent,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets montés,123,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets par paire,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+pistolets vieux,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 pivoine,2,non,Matières premières diverses,24111
 pivots de fer,9,non,Ouvrages métalliques,23799
 plaids,85,non,Habits et lingerie,10126
@@ -16400,8 +16422,8 @@ pleviers,2,non,Produits inconnus,8509
 plies sèches,4,non,Poissons et fruits de mer,15480
 plocq,105,non,Poils et crin,3790
 plomb,487,non,Plomb,582
-plomb à gibier,8,non,"Armes, munitions, poudre et pierres à fusil",6442
-plomb à tirer,2,oui,"Armes, munitions, poudre et pierres à fusil",6442
+plomb à gibier,8,non,"Armes, munitions, poudre et pierres à fusil",6441
+plomb à tirer,2,oui,"Armes, munitions, poudre et pierres à fusil",6441
 plomb argenté,1,non,Plomb,582
 plomb battu ou laminé,7,non,Ouvrages métalliques,23799
 plomb brut,15,non,Plomb,582
@@ -16545,7 +16567,7 @@ poids de fer,163,non,Ouvrages métalliques,23799
 poids de fer de fonte,1,non,Ouvrages métalliques,23799
 poids de fonde,1,non,Ouvrages métalliques,23799
 poids de plomb,1,non,Ouvrages métalliques,23799
-poignards et sabres de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+poignards et sabres de traite,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 poignées d'épée d'argent,1,non,Ouvrages métalliques,23799
 poignées pour sabres,3,non,Ouvrages divers et mélangés,23631
 poignets de chemise,3,non,Habits et lingerie,10126
@@ -16614,28 +16636,28 @@ poires en pommes,3,non,Fruits frais,10103
 poires et pommes,4,non,Fruits frais,10103
 poires et pommes communes,135,non,Fruits frais,10103
 poires et pommes fraîches,80,non,Fruits frais,10103
-poires et pommes sèches,85,non,Fruits secs et noix,14767
+poires et pommes sèches,85,non,Fruits secs et noix,14769
 poires fraîches,3,non,Fruits frais,10103
-poires sèches,8,non,Fruits secs et noix,14767
-pois,249,non,Légumes,5629
-pois blancs,5,non,Légumes,5629
-pois carrés,3,non,Légumes,5629
-pois chiches,45,non,Légumes,5629
-pois communs,127,non,Légumes,5629
-pois confits,1,non,Légumes,5629
-pois crus,2,non,Légumes,5629
-pois d'Espagne,33,non,Légumes,5629
-pois de Bourgogne,106,non,Légumes,5629
-pois de Grasse,1,non,Légumes,5629
-pois en gerbe,15,non,Légumes,5629
-pois et fève et haricot,2,non,Légumes,5629
-pois et fèves,8,non,Légumes,5629
-pois fayolles,2,oui,Légumes,5629
-pois haricots,1,oui,Légumes,5629
-pois pointus,5,non,Légumes,5629
-pois secs,69,non,Légumes,5629
-pois secs et verts,1,non,Légumes,5629
-pois verts,111,non,Légumes,5629
+poires sèches,8,non,Fruits secs et noix,14769
+pois,249,non,Légumes,5630
+pois blancs,5,non,Légumes,5630
+pois carrés,3,non,Légumes,5630
+pois chiches,45,non,Légumes,5630
+pois communs,127,non,Légumes,5630
+pois confits,1,non,Légumes,5630
+pois crus,2,non,Légumes,5630
+pois d'Espagne,33,non,Légumes,5630
+pois de Bourgogne,106,non,Légumes,5630
+pois de Grasse,1,non,Légumes,5630
+pois en gerbe,15,non,Légumes,5630
+pois et fève et haricot,2,non,Légumes,5630
+pois et fèves,9,non,Légumes,5630
+pois fayolles,2,oui,Légumes,5630
+pois haricots,1,oui,Légumes,5630
+pois pointus,5,non,Légumes,5630
+pois secs,69,non,Légumes,5630
+pois secs et verts,1,non,Légumes,5630
+pois verts,111,non,Légumes,5630
 poisson,655,non,Poissons et fruits de mer,15480
 poisson ???,7,non,Poissons et fruits de mer,15480
 poisson anchois,38,non,Poissons et fruits de mer,15480
@@ -16752,7 +16774,7 @@ pommes de terre,81,non,Subsistances diverses et mélangées,11737
 pommes elemy,1,non,Fruits frais,10103
 pommes et poires,17,non,Fruits frais,10103
 pommes fraîches,38,non,Fruits frais,10103
-pommes sèches,2,non,Fruits secs et noix,14767
+pommes sèches,2,non,Fruits secs et noix,14769
 pompes,13,non,Ouvrages divers et mélangés,23631
 pompes à boire,1,non,Ouvrages divers et mélangés,23631
 pompes à éteindre le feu,1,non,Ouvrages divers et mélangés,23631
@@ -16944,24 +16966,24 @@ pou de soie,1,non,Soieries diverses,4047
 poudre,85,non,Drogues diverses,11446
 poudre ??? nationales d'après les états du département de poudre et de salpêtre,2,non,Drogues diverses,11446
 poudre à cacheter,1,non,Drogues diverses,11446
-poudre à canons,243,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à canons de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à canons et à tirer,12,non,"Armes, munitions, poudre et pierres à fusil",6442
+poudre à canons,243,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à canons de guerre,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à canons et à tirer,12,non,"Armes, munitions, poudre et pierres à fusil",6441
 poudre à cirer,1,non,Drogues diverses,11446
 poudre à encre,1,non,Drogues diverses,11446
 poudre à fers,1,non,Drogues diverses,11446
-poudre à feu,114,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à fusil,3,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à fusil et à tirer,14,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à giboyer,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+poudre à feu,114,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à fusil,3,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à fusil et à tirer,14,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à giboyer,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 poudre à liser,1,non,Produits inconnus,8509
 poudre à odeur,2,non,Parfumerie et toilette,4007
 poudre à poudrer,700,non,Drogues diverses,11446
 poudre à poudrer et de senteur,2,non,Parfumerie et toilette,4007
 poudre à poudrer et pommade,1,non,Parfumerie et toilette,4007
-poudre à tirer,347,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à tirer d'après les états fournis par le directeur des poudres et salpêtre,5,non,"Armes, munitions, poudre et pierres à fusil",6442
-poudre à tirer fine,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+poudre à tirer,347,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à tirer d'après les états fournis par le directeur des poudres et salpêtre,5,non,"Armes, munitions, poudre et pierres à fusil",6441
+poudre à tirer fine,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 poudre blanche,2,non,Drogues diverses,11446
 poudre brillant,2,non,Drogues diverses,11446
 poudre bronzante,4,non,Parfumerie et toilette,4007
@@ -16972,12 +16994,12 @@ poudre d'émeri,1,non,Drogues diverses,11446
 poudre d'iris,6,non,Drogues diverses,11446
 poudre d'or,1,non,Monnaies et métaux précieux,1583
 poudre d'oxaca,1,non,Drogues diverses,11446
-poudre de canons,1,non,"Armes, munitions, poudre et pierres à fusil",6442
+poudre de canons,1,non,"Armes, munitions, poudre et pierres à fusil",6441
 poudre de capucin,14,non,Drogues diverses,11446
 poudre de carène,1,non,Produits inconnus,8509
 poudre de chasse,1,non,Drogues diverses,11446
 poudre de gouaxaca,1,non,Drogues diverses,11446
-poudre de guerre,3,non,"Armes, munitions, poudre et pierres à fusil",6442
+poudre de guerre,3,non,"Armes, munitions, poudre et pierres à fusil",6441
 poudre de marbre,1,non,Matières premières diverses,24111
 poudre de mine,1,non,Matières premières diverses,24111
 poudre de plomb,1,non,Plomb,582
@@ -17117,11 +17139,11 @@ prêtes,1,non,Produits inconnus,8509
 pretes torches,2,non,Produits inconnus,8509
 primaselle,2,non,Produits inconnus,8509
 primula veris,1,non,Subsistances diverses et mélangées,11737
-prisonnier,2,non,Êtres humains,6972
-prisonnier anglais,15,non,Êtres humains,6972
-prisonnier échangé,1,non,Êtres humains,6972
-prisonnier français,2,non,Êtres humains,6972
-prisonnier français échangé,1,non,Êtres humains,6972
+prisonnier,2,non,Êtres humains,6980
+prisonnier anglais,15,non,Êtres humains,6980
+prisonnier échangé,1,non,Êtres humains,6980
+prisonnier français,2,non,Êtres humains,6980
+prisonnier français échangé,1,non,Êtres humains,6980
 provisions,1433,non,Provisions diverses,2134
 provisions à poudrer,1,non,Parfumerie et toilette,4007
 provisions de bouche,663,non,Provisions diverses,2134
@@ -17129,19 +17151,19 @@ provisions de Carême,5,non,Provisions diverses,2134
 provisions de caserne,20,non,Provisions diverses,2134
 provisions diverses principalement en beurre,13,non,Provisions diverses,2134
 prumerdants,1,non,Produits inconnus,8509
-pruneaux,4987,non,Fruits secs et noix,14767
-pruneaux Brignoles,1,non,Fruits secs et noix,14767
-pruneaux communs,24,non,Fruits secs et noix,14767
-pruneaux cuits,1,non,Fruits secs et noix,14767
-pruneaux d'Amont,47,non,Fruits secs et noix,14767
-pruneaux de Bordeaux,1,non,Fruits secs et noix,14767
-pruneaux de Sainte-Catherine,66,non,Fruits secs et noix,14767
-pruneaux de Tours,1,non,Fruits secs et noix,14767
-pruneaux et prunes,5,non,Fruits secs et noix,14767
-pruneaux et raisin sec,3,non,Fruits secs et noix,14767
+pruneaux,4987,non,Fruits secs et noix,14769
+pruneaux Brignoles,1,non,Fruits secs et noix,14769
+pruneaux communs,24,non,Fruits secs et noix,14769
+pruneaux cuits,1,non,Fruits secs et noix,14769
+pruneaux d'Amont,47,non,Fruits secs et noix,14769
+pruneaux de Bordeaux,1,non,Fruits secs et noix,14769
+pruneaux de Sainte-Catherine,66,non,Fruits secs et noix,14769
+pruneaux de Tours,1,non,Fruits secs et noix,14769
+pruneaux et prunes,5,non,Fruits secs et noix,14769
+pruneaux et raisin sec,3,non,Fruits secs et noix,14769
 pruneaux et sucre,40,non,Subsistances diverses et mélangées,11737
 pruneaux et verdet,15,non,Divers mélangés,12966
-pruneaux noirs,5,non,Fruits secs et noix,14767
+pruneaux noirs,5,non,Fruits secs et noix,14769
 prunelle,19,non,Étoffes diverses,8007
 prunelle buratée de laine,1,non,Étoffes de laine,16423
 prunelle de laine,18,non,Étoffes de laine,16423
@@ -17158,7 +17180,7 @@ prunes,362,non,Fruits frais,10103
 prunes ???,1,non,Fruits frais,10103
 prunes Brignoles,72,non,Fruits frais,10103
 prunes communes,135,non,Fruits frais,10103
-prunes communes sèches,13,non,Fruits secs et noix,14767
+prunes communes sèches,13,non,Fruits secs et noix,14769
 prunes d'ente,5,non,Fruits frais,10103
 prunes de Bordeaux,2,non,Fruits frais,10103
 prunes de Sainte-Catherine,93,non,Fruits frais,10103
@@ -17169,7 +17191,7 @@ prunes fraîches,1,non,Fruits frais,10103
 prunes fraîches de ???,0,non,Fruits frais,10103
 prunes noires,2,non,Fruits frais,10103
 prunes pêches cerises nèfles etc.,125,non,Fruits frais,10103
-prunes sèches,71,non,Fruits secs et noix,14767
+prunes sèches,71,non,Fruits secs et noix,14769
 prunes sèches et communes,1,non,Divers mélangés,12966
 prusses,1,non,Produits inconnus,8509
 prusses de 30 pieds,1,non,Produits inconnus,8509
@@ -17362,10 +17384,10 @@ raisin frais muscat,1,non,Fruits frais,10103
 raisin jalap,4,non,Fruits frais,10103
 raisin muscat,1,non,Fruits frais,10103
 raisin muscat à l'eau-de-vie,2,non,Subsistances diverses et mélangées,11737
-raisin sec,1174,non,Fruits secs et noix,14767
-raisin sec d'époque,1,non,Fruits secs et noix,14767
-raisin sec d'Espagne,1,non,Fruits secs et noix,14767
-raisin sec de Corinthe,24,non,Fruits secs et noix,14767
+raisin sec,1174,non,Fruits secs et noix,14769
+raisin sec d'époque,1,non,Fruits secs et noix,14769
+raisin sec d'Espagne,1,non,Fruits secs et noix,14769
+raisin sec de Corinthe,24,non,Fruits secs et noix,14769
 raisiné en pot,1,non,Subsistances diverses et mélangées,11737
 raison passe,7,non,Produits inconnus,8509
 rames,6,non,Divers incertains,12474
@@ -17640,7 +17662,7 @@ rognures de drap,21,non,Étoffes de laine,16423
 rognures de fer-blanc,22,non,Fer-blanc,2058
 rognures de forme,1,non,Produits inconnus,8509
 rognures de gaïac,2,non,Bois divers hors combustible,14908
-rognures de gants,1,non,Gants,2376
+rognures de gants,1,non,Gants,2370
 rognures de mis,3,non,Matières premières diverses,24111
 rognures de papier,12,non,Papier,7796
 rognures de parchemin,6,non,"Cuirs, peaux et pelleterie",27010
@@ -17872,15 +17894,15 @@ sablon,1,non,Matières premières diverses,24111
 sabots,82,non,Ouvrages divers et mélangés,23631
 sabots de bœuf,58,non,Matières premières diverses,24111
 sabots de bois,8,non,"Ouvrages de bois, liège et jonc",38137
-sabots et selles de bois,2,non,Cordonnerie et sellerie,3206
-sabres,115,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres de traite,16,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres de traite et autres,2,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres et baïonnettes,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres fins,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres garnis d'argent,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres montés en cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6442
-sabres ordinaires,2,non,"Armes, munitions, poudre et pierres à fusil",6442
+sabots et selles de bois,2,non,Cordonnerie et sellerie,3205
+sabres,115,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres de traite,16,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres de traite et autres,2,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres et baïonnettes,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres fins,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres garnis d'argent,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres montés en cuivre doré,1,non,"Armes, munitions, poudre et pierres à fusil",6441
+sabres ordinaires,2,non,"Armes, munitions, poudre et pierres à fusil",6441
 sachets,11,non,Ouvrages divers et mélangés,23631
 sachets d'odeur,3,non,Parfumerie et toilette,4007
 sacquin,1,non,Produits inconnus,8509
@@ -17962,7 +17984,7 @@ samoine,1,non,Produits inconnus,8509
 sanas,14,non,Toiles de coton,10414
 sanas blanc,3,non,Toiles de coton,10414
 sanctuaire,4,non,Ouvrages divers et mélangés,23631
-sandale,6,non,Cordonnerie et sellerie,3206
+sandale,6,non,Cordonnerie et sellerie,3205
 sandance,1,non,Produits inconnus,8509
 sandarac,79,oui,Gommes diverses,4437
 sandaraque,79,non,Gommes diverses,4437
@@ -17977,10 +17999,10 @@ sang de dragon commun,1,non,Gommes diverses,4437
 sang de dragon en larmes,1,non,Gommes diverses,4437
 sang de dragon fin,4,non,Gommes diverses,4437
 sangles,99,non,Divers incertains,12474
-sangles de chanvre,1,non,Cordonnerie et sellerie,3206
-sangles de cheval,1,non,Cordonnerie et sellerie,3206
-sangles de cordes,1,non,Cordonnerie et sellerie,3206
-sangles pour malets,1,non,Cordonnerie et sellerie,3206
+sangles de chanvre,1,non,Cordonnerie et sellerie,3205
+sangles de cheval,1,non,Cordonnerie et sellerie,3205
+sangles de cordes,1,non,Cordonnerie et sellerie,3205
+sangles pour malets,1,non,Cordonnerie et sellerie,3205
 sanglier,5,non,Animaux,5523
 sangsues,62,non,Animaux,5523
 sangsues et vipères,3,non,Animaux,5523
@@ -18296,28 +18318,28 @@ sel tonnes,1,non,Produits inconnus,8509
 sel végétal,3,non,Sels chimiques,1931
 sel vieux,2,non,Sel,12436
 sel volatil,5,non,Sels chimiques,1931
-sellerie,42,non,Cordonnerie et sellerie,3206
-sellerie commune,1,non,Cordonnerie et sellerie,3206
-sellerie de cuir,54,non,Cordonnerie et sellerie,3206
-sellerie en harnais,1,non,Cordonnerie et sellerie,3206
-selles,213,non,Cordonnerie et sellerie,3206
-selles avec leurs harnais,1,non,Cordonnerie et sellerie,3206
-selles communes,7,non,Cordonnerie et sellerie,3206
-selles de bois,5,non,Cordonnerie et sellerie,3206
-selles de cuir,1,non,Cordonnerie et sellerie,3206
-selles de femme,2,non,Cordonnerie et sellerie,3206
-selles de fer,1,non,Cordonnerie et sellerie,3206
-selles de maître,1,non,Cordonnerie et sellerie,3206
-selles de poste,1,non,Cordonnerie et sellerie,3206
-selles de sapin,1,non,Cordonnerie et sellerie,3206
-selles de velours,116,non,Cordonnerie et sellerie,3206
-selles garnies de velours,1,non,Cordonnerie et sellerie,3206
-selles neuves,1,non,Cordonnerie et sellerie,3206
-selles vieilles,2,non,Cordonnerie et sellerie,3206
+sellerie,42,non,Cordonnerie et sellerie,3205
+sellerie commune,1,non,Cordonnerie et sellerie,3205
+sellerie de cuir,54,non,Cordonnerie et sellerie,3205
+sellerie en harnais,1,non,Cordonnerie et sellerie,3205
+selles,213,non,Cordonnerie et sellerie,3205
+selles avec leurs harnais,1,non,Cordonnerie et sellerie,3205
+selles communes,7,non,Cordonnerie et sellerie,3205
+selles de bois,5,non,Cordonnerie et sellerie,3205
+selles de cuir,1,non,Cordonnerie et sellerie,3205
+selles de femme,2,non,Cordonnerie et sellerie,3205
+selles de fer,1,non,Cordonnerie et sellerie,3205
+selles de maître,1,non,Cordonnerie et sellerie,3205
+selles de poste,1,non,Cordonnerie et sellerie,3205
+selles de sapin,1,non,Cordonnerie et sellerie,3205
+selles de velours,116,non,Cordonnerie et sellerie,3205
+selles garnies de velours,1,non,Cordonnerie et sellerie,3205
+selles neuves,1,non,Cordonnerie et sellerie,3205
+selles vieilles,2,non,Cordonnerie et sellerie,3205
 sellet et télescope,1,non,Divers incertains,12474
 selliers,3,non,Produits inconnus,8509
 semble de moissar,1,non,Produits inconnus,8509
-semelles et talons,1,non,Cordonnerie et sellerie,3206
+semelles et talons,1,non,Cordonnerie et sellerie,3205
 semen contra,148,non,Drogues médicinales diverses,12269
 semen dacy,3,non,Matières premières diverses,24111
 semence de Caroy,1,non,Produits inconnus,8509
@@ -18817,8 +18839,8 @@ soufre épuré,7,non,Salpêtre et soufre,2314
 soufre raffiné,3,non,Salpêtre et soufre,2314
 soufre sublimé en poudre,8,non,Salpêtre et soufre,2314
 soufre vif,1,non,Salpêtre et soufre,2314
-soulassé de cordonnier,1,non,Cordonnerie et sellerie,3206
-souliers,936,non,Cordonnerie et sellerie,3206
+soulassé de cordonnier,1,non,Cordonnerie et sellerie,3205
+souliers,937,non,Cordonnerie et sellerie,3205
 souliers à dessus de soie pour femme,5,non,Ouvrages divers et mélangés,23631
 souliers anglais,1,non,Ouvrages divers et mélangés,23631
 souliers blancs,3,non,Ouvrages divers et mélangés,23631
@@ -18838,33 +18860,35 @@ souliers d'étoffe de soie,7,non,Soieries diverses,4047
 souliers d'homme,20,non,Ouvrages divers et mélangés,23631
 souliers de chanvre,1,non,Ouvrages divers et mélangés,23631
 souliers de cordes,5,non,Ouvrages divers et mélangés,23631
-souliers de cordonnier,15,non,Cordonnerie et sellerie,3206
-souliers de cordonnier pour femme,6,non,Cordonnerie et sellerie,3206
-souliers de cordonnier pour homme,12,non,Cordonnerie et sellerie,3206
-souliers de cordonnier vieux,1,non,Cordonnerie et sellerie,3206
-souliers de cuir,53,non,Cordonnerie et sellerie,3206
-souliers de cuir couverts en soie pour femme,5,non,Cordonnerie et sellerie,3206
-souliers de cuir et pour femme,3,non,Cordonnerie et sellerie,3206
-souliers de cuir et pour homme,5,non,Cordonnerie et sellerie,3206
-souliers de cuir et pour homme et femme,1,non,Cordonnerie et sellerie,3206
-souliers de cuir pour homme,6,non,Cordonnerie et sellerie,3206
-souliers de cuir pour homme et femme,5,non,Cordonnerie et sellerie,3206
-souliers de cuir surans,1,non,Cordonnerie et sellerie,3206
-souliers de cuir vieux,1,non,Cordonnerie et sellerie,3206
-souliers de dame,1,non,Cordonnerie et sellerie,3206
-souliers de maroquin,3,non,Cordonnerie et sellerie,3206
-souliers de soie,13,non,Cordonnerie et sellerie,3206
-souliers en terre,1,non,Cordonnerie et sellerie,3206
-souliers enfant,1,non,Cordonnerie et sellerie,3206
-souliers neufs,145,non,Cordonnerie et sellerie,3206
-souliers pantoufles et galoches,3,non,Cordonnerie et sellerie,3206
-souliers par paires,2,non,Cordonnerie et sellerie,3206
-souliers petits,2,non,Cordonnerie et sellerie,3206
-souliers pour enfant,12,non,Cordonnerie et sellerie,3206
-souliers pour femme,40,non,Cordonnerie et sellerie,3206
-souliers pour homme,77,non,Cordonnerie et sellerie,3206
-souliers pour homme et femme,2,non,Cordonnerie et sellerie,3206
-souliers vieux,76,non,Cordonnerie et sellerie,3206
+souliers de cordonnier,15,non,Cordonnerie et sellerie,3205
+souliers de cordonnier pour femme,6,non,Cordonnerie et sellerie,3205
+souliers de cordonnier pour homme,12,non,Cordonnerie et sellerie,3205
+souliers de cordonnier vieux,1,non,Cordonnerie et sellerie,3205
+souliers de cuir,53,non,Cordonnerie et sellerie,3205
+souliers de cuir couverts en soie pour femme,5,non,Cordonnerie et sellerie,3205
+souliers de cuir et pour femme,3,non,Cordonnerie et sellerie,3205
+souliers de cuir et pour homme,5,non,Cordonnerie et sellerie,3205
+souliers de cuir et pour homme et femme,1,non,Cordonnerie et sellerie,3205
+souliers de cuir pour homme,6,non,Cordonnerie et sellerie,3205
+souliers de cuir pour homme et femme,5,non,Cordonnerie et sellerie,3205
+souliers de cuir surans,1,non,Cordonnerie et sellerie,3205
+souliers de cuir vieux,1,non,Cordonnerie et sellerie,3205
+souliers de dame,1,non,Cordonnerie et sellerie,3205
+souliers de maroquin,3,non,Cordonnerie et sellerie,3205
+souliers de soie,13,non,Cordonnerie et sellerie,3205
+souliers en paire,1,non,,45
+souliers en terre,1,non,Cordonnerie et sellerie,3205
+souliers enfant,1,non,Cordonnerie et sellerie,3205
+souliers et mules en paire,1,non,,45
+souliers neufs,145,non,Cordonnerie et sellerie,3205
+souliers pantoufles et galoches,3,non,Cordonnerie et sellerie,3205
+souliers par paires,0,non,Cordonnerie et sellerie,3205
+souliers petits,2,non,Cordonnerie et sellerie,3205
+souliers pour enfant,12,non,Cordonnerie et sellerie,3205
+souliers pour femme,40,non,Cordonnerie et sellerie,3205
+souliers pour homme,77,non,Cordonnerie et sellerie,3205
+souliers pour homme et femme,2,non,Cordonnerie et sellerie,3205
+souliers vieux,76,non,Cordonnerie et sellerie,3205
 souline étoffe des Indes,1,non,Étoffes diverses,8007
 soupières de faïence,1,non,"Porcelaine, poterie, faïence et ouvrages de terre",10128
 souquets de mâts,2,non,"Ouvrages de bois, liège et jonc",38137
@@ -18875,7 +18899,7 @@ soux en feuilles,1,non,Produits inconnus,8509
 soyette de fil,1,non,Textiles manufacturés divers et mélangés,2797
 spalme,3,non,Drogues diverses,11446
 spalte,1,non,Produits inconnus,8509
-spardilles,7,non,Cordonnerie et sellerie,3206
+spardilles,7,non,Cordonnerie et sellerie,3205
 spart brut,3,non,Bois divers hors combustible,14908
 spart brut et presle,2,non,Bois divers hors combustible,14908
 sparterie,16,non,"Ouvrages de bois, liège et jonc",38137
@@ -21192,6 +21216,7 @@ valvorette de coton,1,non,Produits inconnus,8509
 vandes,1,non,Produits inconnus,8509
 vanille,314,non,Drogues diverses,11446
 vanille botte,6,oui,Drogues diverses,11446
+vanille en bottes,6,non,,45
 vannerie,16,non,"Ouvrages de bois, liège et jonc",38137
 vannerie 9050 lignes,0,non,"Ouvrages de bois, liège et jonc",38137
 vannerie brute,1,non,"Ouvrages de bois, liège et jonc",38137
@@ -21599,6 +21624,7 @@ vin de Chalosse,3,non,Vins divers,34633
 vin de Champagne,667,non,Vins divers,34633
 vin de Champagne en bouteilles,13,non,Vins divers,34633
 vin de Champagne en muid,10,non,Vins divers,34633
+vin de Champagne et liqueurs,1,non,,45
 vin de Charente,26,non,Vins divers,34633
 vin de Chaumont,2,non,Vins divers,34633
 vin de Chenôve,1,non,Vins divers,34633
