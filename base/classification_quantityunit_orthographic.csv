@@ -52,12 +52,12 @@ source,orthographic,source_bdc,nbr_occurences_source,nbr_occurences_orthographic
 ?ans,?ans,1,1,1
 [vide],,1,2,165565
 #,#,1,2,2
-1/4,,1,1,165565
+1/4,quart,1,1,165565
 450 Feuilles,barils de 450 feuilles,1,1,43
 6 flacons,6 flacons,1,1,1
 600 Feuilles,barils de 600 feuilles,1,1,5
 9 flacons,9 flacons,1,1,1
-A. 1/2,,1,1,165565
+A. 1/2,À demi,1,1,165565
 aimes,aimes,1,3,8
 alvrames,alvrames,1,2,2
 Ancre,ancre,1,19,106
@@ -106,7 +106,7 @@ balets,ballots,1,1,216
 Balle,balle,1,7,559
 balle,balle,1,10,559
 balle et 900 livres,balle et 900 livres,1,1,1
-balle et ballot,,1,6,165565
+balle et ballot,balle et ballot,1,6,165565
 Balles,balle,1,68,559
 balles,balle,1,468,559
 ballles,balle,1,2,559
@@ -145,10 +145,10 @@ barigaux,barriques,1,1,5200
 Baril,barils,1,185,7276
 baril,barils,1,122,7276
 baril à 450 Feuilles,barils de 450 feuilles,1,1,43
-baril et ancre,,1,1,165565
-baril et caisse,,1,7,165565
+baril et ancre,barils et ancre,1,1,165565
+baril et caisse,barils et caisse,1,7,165565
 Baril petit,barils petits,1,1,52
-"baril, caisse et ballot",,1,1,165565
+"baril, caisse et ballot",barils caisse et ballots,1,1,165565
 Barile,barils,1,2,7276
 barill,barils,1,1,7276
 barilles,barils,1,8,7276
@@ -223,8 +223,8 @@ Barrils petits,barils petits,1,5,52
 barrils petits,barils petits,1,3,52
 Barrique,barriques,1,109,5200
 barrique,barriques,1,45,5200
-barrique et coffre,,1,2,165565
-barrique et grand coffre,,1,5,165565
+barrique et coffre,barriques et coffres,1,2,165565
+barrique et grand coffre,barriques et grands coffres,1,5,165565
 Barriquels,barriques,1,1,5200
 Barriques,barriques,1,1053,5200
 barriques,barriques,1,894,5200
@@ -296,7 +296,7 @@ boîtes,boîtes,1,9,102
 Boitte,boîtes,1,1,102
 boitures,voitures,1,1,23
 Bolliches,bolliches,1,1,1
-bondades,,1,1,165565
+bondades,bondades,1,1,165565
 boneauds,boucaux,1,1,54
 Bordage,bordage,1,1,1
 borneaux,boisseau,1,1,1492
@@ -313,15 +313,15 @@ bottes,bottes,1,259,326
 bottes à 68 veltes,bottes à 68 veltes,1,1,1
 bouc,boucs,1,4,173
 Boucaud,boucaux,1,1,54
-boucaud,,1,1,165565
-boucaud et pipe,,1,5,165565
+boucaud,boucaux,1,1,165565
+boucaud et pipe,boucaux et pipes,1,5,165565
 Boucauds,boucaux,1,5,54
 boucauds,boucaux,1,33,54
 boucauls,boucaux,1,2,54
 boucault,boucaux,1,2,54
 Boucaults,boucaux,1,2,54
 boucaults,boucaux,1,2,54
-boucaut,,1,1,165565
+boucaut,boucaux,1,1,165565
 Boucautes,boucaux,1,1,54
 Boucauts,boucaux,1,1,54
 Boucaux,boucaux,1,1,54
@@ -416,7 +416,6 @@ caques,caques,1,3,5
 careaux,carreaux,1,1,33
 Cargaison,cargaisons,1,1,2
 cargaisons,cargaisons,1,1,2
-carpes,,1,1,165565
 carques,canques,1,1,1
 Carraux,carreaux,1,1,33
 carraux,carreaux,1,1,33
@@ -647,7 +646,6 @@ Douzaines de fiolles,douzaine de fioles,1,2,3
 Douzaines de Paires,douzaine de paires,1,6,84
 Douzaines de paires,douzaine de paires,1,40,84
 douzaines de paires,douzaine de paires,1,32,84
-Draps,,1,2,165565
 Droits,droits,1,13,13
 drugnes,drugnes,1,1,1
 duttes,juttes,1,1,1
@@ -783,7 +781,6 @@ gennes ?,gennes ?,1,1,1
 gerbes,gerbes,1,2,2
 Gets,jets,1,1,10
 gets,jets,1,2,10
-Goblets,,1,1,165565
 Gommes,gommes,1,5,5
 gones,gonnes,1,1,29
 Gonne,gonnes,1,5,29
@@ -897,13 +894,13 @@ lez,last,1,1,128
 li,livres,1,1,242281
 Liens,liens,1,2,2
 liivres,livres,1,2,242281
-lingots,,1,1,165565
+lingots,lingots,1,1,165565
 litre,litres,1,112,350
 litres,litres,1,238,350
 Livre,livres,1,5277,242281
 livre,livres,1,1208,242281
-Livre poids,,1,106,165565
-livre poids,,1,29,165565
+Livre poids,livres,1,106,165565
+livre poids,livres,1,29,165565
 LIvres,livres,1,50,242281
 Livres,livres,1,70957,242281
 livres,livres,1,164776,242281
@@ -1112,8 +1109,6 @@ Pattes,pattes,1,1,1
 patz,patz,1,1,1
 paumes,paumes,1,3,3
 Peau,,1,1,165565
-Peaux,peaux,0,0,0
-peaux,,1,1,165565
 peintes,peintes,1,1,1
 Pelaux,pelaux,1,1,2
 pelaux,pelaux,1,1,2
@@ -1195,7 +1190,6 @@ pipettes,pipettes,1,1,1
 pipots,pipot,1,11,11
 pites,pintes,1,1,768
 planches,planches,1,1,1
-plaques,,1,1,165565
 Plateaux,plateaux,1,1,1
 pnier,panier,1,1,1
 Pochées,pochées,1,11,11
@@ -1349,7 +1343,6 @@ stère,stères,1,16,42
 stères,stères,1,26,42
 stimées,estimé,1,1,350
 stoc,livres,1,1,242281
-Surans,,1,1,165565
 taille petit,taille petit,1,1,1
 taques ?,taques ?,1,1,1
 Tarsonde,tierçons,1,1,535
@@ -1409,7 +1402,7 @@ Tonneaux de 5250 livres,tonneaux de 5250 livres,1,1,1
 Tonneaux de haut,tonneaux de haut,1,1,1
 Tonneaux de ville,tonneaux de ville,1,1,1
 tonneaux fonds,tonneaux fonds,1,1,1
-Tonneaux?,,1,1,165565
+Tonneaux?,tonneaux,1,1,165565
 Tonnes,tonne,1,26,116
 tonnes,tonne,1,76,116
 tonneux,tonneaux,1,1,5687
@@ -1458,7 +1451,7 @@ voiture,voitures,1,1,23
 Voitures,voitures,1,1,23
 voitures,voitures,1,20,23
 vollilles,vollilles,1,1,1
-voyes,,1,2,165565
+voyes,voyes,1,2,165565
 W,w,1,2,2
 wagons,wagons,1,8,8
 yunes,yunes,1,1,1
