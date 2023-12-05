@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,obsolete,hamburg,nbr_occurences_hamburg
-,24,non,,672566
+,0,non,,672566
 ???,3201,non,,672566
 ??? blanc,2,non,,672566
 ??? brun,2,non,,672566
@@ -1029,10 +1029,10 @@ bas de chamois,19,non,,672566
 bas de coton,704,non,,672566
 bas de coton 1300 lignes,1,non,,672566
 bas de coton de femme,1,non,,672566
-bas de coton en paires,0,non,,672566
+bas de coton en paires,0,oui,,672566
 bas de coton et bas de fil,363,non,,672566
 bas de coton et bas de fil et bas de soie,1,non,,672566
-bas de coton et bas de fil par paires,0,non,,672566
+bas de coton et bas de fil par paires,0,oui,,672566
 bas de coton et bas de soie,1,non,,672566
 bas de coton et bonnets de coton,31,non,,672566
 bas de coton et laine,1,non,,672566
@@ -1040,16 +1040,16 @@ bas de coton pour enfant,1,non,,672566
 bas de coton pour femme,1,non,,672566
 bas de coton pour homme,1,non,,672566
 bas de coutil,1,non,,672566
-bas de fil,840,non,,672566
+bas de fil,842,non,,672566
 bas de fil commun,21,non,,672566
 bas de fil d'or,2,non,,672566
 bas de fil divers,1,non,,672566
-bas de fil en paire,1,non,,672566
+bas de fil en paire,1,oui,,672566
 bas de fil et bas de laine,1,non,,672566
 bas de fil et bonnets,2,non,,672566
 bas de fil et pour femme,2,non,,672566
 bas de fil et pour homme,1,non,,672566
-bas de fil par paires,1,non,,672566
+bas de fil par paires,1,oui,,672566
 bas de filoselle,379,non,,672566
 bas de Flandre d'homme,1,non,,672566
 bas de Flandre de femme,1,non,,672566
@@ -1066,14 +1066,14 @@ bas de laine et bonnets de laine,2,non,,672566
 bas de laine et gants de laine et bonnets de laine,2,non,,672566
 bas de laine fin,18,non,,672566
 bas de laine grossière,22,non,,672566
-bas de laine par paires,0,non,,672566
+bas de laine par paires,0,oui,,672566
 bas de mulet,1,non,,672566
 bas de peau,23,non,,672566
 bas de poil,8,non,,672566
 bas de poil et bas de soie,3,non,,672566
 bas de Saint-Mexant,7,non,,672566
 bas de Ségovie,2,non,,672566
-bas de soie,1634,non,,672566
+bas de soie,1635,non,,672566
 bas de soie à coins d'argent,1,non,,672566
 bas de soie à coins d'or,2,non,,672566
 bas de soie à coins d'or et bas de soie à coins d'argent,2,non,,672566
@@ -1083,7 +1083,7 @@ bas de soie brodés d'or et bas de soie brodés d'argent,1,non,,672566
 bas de soie de Chine,2,non,,672566
 bas de soie de Chine pour femme,2,non,,672566
 bas de soie de Chine pour homme,2,non,,672566
-bas de soie en paire,1,non,,672566
+bas de soie en paire,1,oui,,672566
 bas de soie et gants de soie,1,non,,672566
 bas de soie pour femme,32,non,,672566
 bas de soie pour homme,33,non,,672566
@@ -4415,7 +4415,7 @@ chaussetterie de laine,1,non,,672566
 chaussettes,15,non,,672566
 chaussettes de coton,2,non,,672566
 chaussettes de fil,117,non,,672566
-chaussettes de fil par paires,0,non,,672566
+chaussettes de fil par paires,0,oui,,672566
 chaussettes de toile,3,non,,672566
 chaussons de carisee et drap à laver maison,3,non,,672566
 chaussons de fil,2,non,,672566
@@ -6661,7 +6661,7 @@ drap d'Angleterre des prises,3,non,,672566
 drap d'Angleterre et drap d'Espagne et drap de Hollande,11,non,,672566
 drap d'Angleterre noir,1,non,,672566
 drap d'argent et d'or et de soie,1,non,,672566
-drap d'Arnetal,40,non,,672566
+drap d'Arnetal,12,non,,672566
 drap d'aucrin,1,non,,672566
 drap d'Aumale,2,non,,672566
 drap d'Auvergne,1,non,,672566
@@ -6706,7 +6706,7 @@ drap de coton et velours,1,non,,672566
 drap de coton et velours de coton,5,non,,672566
 drap de coton imprimé,4,non,,672566
 drap de Cours,1,non,,672566
-drap de Darnétal,26,non,,672566
+drap de Darnétal,54,non,,672566
 drap de dauphine,1,non,,672566
 drap de dorure et soie,1,non,,672566
 drap de douzaine,15,non,,672566
@@ -10008,19 +10008,20 @@ gants,35,non,,672566
 gants à large ruban,8,non,,672566
 gants à petit ruban,5,non,,672566
 gants blancs,1,non,,672566
-gants bordés de soie par paires,5,non,,672566
+gants bordés de soie,5,non,,672566
+gants bordés de soie par paires,5,oui,,672566
 gants brodés de soie,2,non,,672566
 gants brodés de soie et or,1,non,,672566
 gants chamois,2,non,,672566
 gants communs,457,non,,672566
 gants communs de peau,1,non,,672566
-gants communs par paires,0,non,,672566
+gants communs par paires,0,oui,,672566
 gants d'argent,1,non,,672566
 gants d'étame,1,non,,672566
 gants de bonneterie,3,non,,672566
 gants de castor,26,non,,672566
 gants de chamois,76,non,,672566
-gants de chamois par paire,0,non,,672566
+gants de chamois par paire,0,oui,,672566
 gants de chanvre,3,non,,672566
 gants de coton,112,non,,672566
 gants de cuir,4,non,,672566
@@ -10031,7 +10032,7 @@ gants de fil,107,non,,672566
 gants de fil et coton,28,non,,672566
 gants de fil et de soie,2,non,,672566
 gants de fil fins,8,non,,672566
-gants de fil par paires,0,non,,672566
+gants de fil par paires,0,oui,,672566
 gants de filoselle,6,non,,672566
 gants de fleuret,8,non,,672566
 gants de frangipane,5,non,,672566
@@ -10065,6 +10066,7 @@ gants dits moufles,17,non,,672566
 gants divers,22,non,,672566
 gants en soie,1,non,,672566
 gants et mitaines bordés de soie par paires,0,oui,,672566
+gants et mitaines brodés de soie,2,non,,672566
 gants et mitaines de filoselle,70,non,,672566
 gants et mitaines de soie,133,non,,672566
 gants et mitaines garnis de soie par paires,0,oui,,672566
@@ -13091,6 +13093,9 @@ marchandises prises à Cette,1,non,,672566
 marchandises prohibées,24,non,,672566
 marchandises provenant d'un naufrage,3,non,,672566
 marchandises sèches,29,non,,672566
+marchandises sèches comme toiles chapeaux bas souliers,2,non,,672566
+marchandises sèches et mercerie,16,non,,672566
+marchandises sèches mercerie et quincaillerie,1,non,,672566
 marchandises susceptibles,1,non,,672566
 marchandises venant de l'étranger pour être réexportées aux colonies françaises principalement en armes barres de fers toile Guinée viande salée etc.,10,non,,672566
 marche de fer blanche,1,oui,,672566
@@ -14066,6 +14071,7 @@ mistre,0,non,,672566
 mitaines,1,non,,672566
 mitaines bordées de soie par paires,0,oui,,672566
 mitaines brodées,1,non,,672566
+mitaines brodées de soie,3,non,,672566
 mitaines de peau,3,non,,672566
 mitaines de peau garnies de soie,1,non,,672566
 mitaines de peau lisérées de soie,1,oui,,672566
@@ -14074,8 +14080,9 @@ mitaines de taffetas,2,non,,672566
 mitaines garnies de ruban,1,non,,672566
 mitaines garnies de soie,9,non,,672566
 mitaines liserées,1,non,,672566
-mitons à pierres fausses par paires de velours,1,non,,672566
+mitons à pierres fausses par paires de velours,1,oui,,672566
 mitons de soie,3,non,,672566
+mitons de velours à pierres fausses,1,non,,672566
 mitraille,2,non,,672566
 mitraille de cuivre,109,non,,672566
 mitraille vieille en batterie de cuisine,1,non,,672566
@@ -15511,7 +15518,7 @@ pain de graine de lin,2,non,,672566
 pain de graine de lin et de navette,2,non,,672566
 pain de navette,288,non,,672566
 pain de navette en poudre,95,non,,672566
-paires de poulets,1,non,,672566
+paires de poulets,1,oui,,672566
 palangre,11,non,,672566
 palatine,22,non,,672566
 palatine avec argent,1,non,,672566
@@ -17300,7 +17307,7 @@ pistaches cassées,2,non,,672566
 pistaches en coques,1,non,,672566
 pistaches non cassées,1,non,,672566
 pistaches sèches,10,non,,672566
-pistolets,101,non,,672566
+pistolets,102,non,,672566
 pistolets à feu,1,non,,672566
 pistolets d'arçon,1,non,,672566
 pistolets Damas ?,1,non,,672566
@@ -17309,7 +17316,7 @@ pistolets de traite,7,non,,672566
 pistolets démontés,38,non,,672566
 pistolets garnis d'argent,1,non,,672566
 pistolets montés,123,non,,672566
-pistolets par paire,1,non,,672566
+pistolets par paire,1,oui,,672566
 pistolets vieux,1,non,,672566
 pivoine,2,non,,672566
 pivots de fer,9,non,Fer,16298
@@ -18584,7 +18591,7 @@ poules de bois,1,non,,672566
 poules des Indes,2,non,,672566
 poules en vie,1,non,,672566
 poules et poulets,1,non,,672566
-poulets,63,non,,672566
+poulets,64,non,,672566
 poulets d'Inde,4,non,,672566
 poulets de cane,1,non,,672566
 poulies,20,non,,672566
@@ -20636,7 +20643,7 @@ soufre raffiné,3,non,,672566
 soufre sublimé en poudre,8,non,,672566
 soufre vif,1,non,,672566
 soulassé de cordonnier,1,non,,672566
-souliers,938,non,,672566
+souliers,939,non,,672566
 souliers à dessus de soie pour femme,5,non,,672566
 souliers anglais,1,non,,672566
 souliers blancs,3,non,,672566
@@ -20674,14 +20681,15 @@ souliers de cuir vieux,1,non,,672566
 souliers de dame,1,non,,672566
 souliers de maroquin,3,non,,672566
 souliers de soie,13,non,,672566
-souliers en paire,1,non,,672566
+souliers en paire,1,oui,,672566
 souliers en terre,1,non,,672566
 souliers enfant,1,non,,672566
 souliers et bottes de toutes espèces,5,oui,,672566
-souliers et mules en paire,1,non,,672566
+souliers et mules,1,non,,672566
+souliers et mules en paire,1,oui,,672566
 souliers neufs,145,non,,672566
 souliers pantoufles et galoches,3,non,,672566
-souliers par paires,0,non,,672566
+souliers par paires,0,oui,,672566
 souliers petits,2,non,,672566
 souliers pour enfant,12,non,,672566
 souliers pour femme,40,non,,672566

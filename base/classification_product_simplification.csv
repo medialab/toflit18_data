@@ -527,7 +527,7 @@ armes à feu en fusils à deux coups,3,fusils à deux coups,3
 armes à feu en fusils de chasse,4,fusils de chasse,29
 armes à feu en fusils de traite,8,fusils de traite,94
 armes à feu en fusils dits boucaniers,5,boucaniers,11
-armes à feu en pistolets,3,pistolets,101
+armes à feu en pistolets,3,pistolets,102
 armes à feu et artillerie,1,armes à feu et artillerie,1
 armes à feu et de traite,1,armes à feu et de traite,1
 armes à feu et fusils,1,armes à feu et fusils,1
@@ -539,8 +539,8 @@ armes à feu fusils de traite,9,fusils de traite,94
 armes à feu fusils et leurs baïonnettes,1,fusils et leurs baïonnettes,1
 armes à feu fusils ordinaires,3,fusils ordinaires,3
 armes à feu mousquetons,1,mousquetons,1
-armes à feu paires de pistolets,1,pistolets,1
-armes à feu pistolets,33,pistolets,101
+armes à feu paires de pistolets,1,pistolets,102
+armes à feu pistolets,33,pistolets,102
 armes à feu pistolets de traite,4,pistolets de traite,7
 armes armureries,1,armes armureries,1
 armes autres que de guerre à feu,1,armes autres que de guerre à feu,1
@@ -597,7 +597,7 @@ armes et artillerie artillerie en canons pierriers espingoles et mortiers,3,arme
 armes fusils,5,fusils,290
 armes fusils de traite,5,fusils de traite,94
 armes non reprises,84,armes,345
-armes pistolets,3,pistolets,101
+armes pistolets,3,pistolets,102
 armes platines de fusils,1,platines de fusils,10
 armes remontrances,3,armes remontrances,3
 armes sabres,3,sabres,115
@@ -1004,6 +1004,7 @@ bas de castor,24,bas de castor,24
 bas de chamois,19,bas de chamois,19
 bas de coton,651,bas de coton,704
 bas de coton de femme,1,bas de coton de femme,1
+bas de coton en paires,0,,0
 bas de coton et fil,22,bas de coton et bas de fil,363
 bas de coton fil,2,bas de coton et bas de fil,363
 bas de coton fil et soie,1,bas de coton et bas de fil et bas de soie,1
@@ -1011,16 +1012,18 @@ bas de coton pour enfant,1,bas de coton pour enfant,1
 bas de coton pour femme,1,bas de coton pour femme,1
 bas de coton pour homme,1,bas de coton pour homme,1
 bas de coutil,1,bas de coutil,1
-bas de fil,775,bas de fil,840
+bas de fil,775,bas de fil,842
 bas de fil à coton,20,bas de coton et bas de fil,363
 bas de fil commun,21,bas de fil commun,21
 bas de fil d'or,2,bas de fil d'or,2
 bas de fil de coton,6,bas de coton et bas de fil,363
+bas de fil de coton par paires,0,,0
 bas de fil divers,1,bas de fil divers,1
+bas de fil en paires,0,,0
 bas de fil et bonnets,2,bas de fil et bonnets,2
 bas de fil et coton,296,bas de coton et bas de fil,363
 bas de fil et laine,1,bas de fil et bas de laine,1
-bas de fil par paires,1,bas de fil,1
+bas de fil par paires,1,bas de fil,842
 bas de fil pour femme,2,bas de fil et pour femme,2
 bas de fil pour homme,1,bas de fil et pour homme,1
 bas de filoselle,376,bas de filoselle,379
@@ -1039,12 +1042,13 @@ bas de laine fins,17,bas de laine fin,18
 bas de laine gros,1,bas de laine grossière,22
 bas de laine grossière,2,bas de laine grossière,22
 bas de laine grossiers,19,bas de laine grossière,22
+bas de laine par paires,0,,0
 bas de mulet,1,bas de mulet,1
 bas de peau,23,bas de peau,23
 bas de poil,8,bas de poil,8
 bas de Saint-Maixant,7,bas de Saint-Mexant,7
 bas de Ségovie,2,bas de Ségovie,2
-bas de soie,1540,bas de soie,1634
+bas de soie,1540,bas de soie,1635
 bas de soie à coins d'argent,1,bas de soie à coins d'argent,1
 bas de soie à coins d'or,2,bas de soie à coins d'or,2
 bas de soie à coins d'or et d'argent,2,bas de soie à coins d'or et bas de soie à coins d'argent,2
@@ -1073,12 +1077,13 @@ bas et bonnets de laine,2,bas de laine et bonnets de laine,2
 bas et bonnets en coton,1,bas de coton et bonnets de coton,31
 bas et gants de soie,1,bas de soie et gants de soie,1
 bas et mitaines de soie bas,1,mitaines de soie,2
-bas et mitaines de soie mitaines,1,bas de soie,1634
+bas et mitaines de soie mitaines,1,bas de soie,1635
 bas étrillés,1,bas étrillés,1
 bas fil et coton,14,bas de coton et bas de fil,363
 bas gants et bonnets de laine,2,bas de laine et gants de laine et bonnets de laine,2
 bas gants et bonnets de laine fil et coton,16,bas gants et bonnets de laine fil et coton,16
 bas grossiers,4,bas grossiers,4
+bas laine par paires,0,,0
 bas poil et soie,2,bas de poil et bas de soie,3
 bas pour femme,2,bas pour femme,2
 bas pour homme,2,bas pour homme,2
@@ -1908,8 +1913,8 @@ bois d'acajou planches de 8 pieds,1,planches d'acajou de 8 pieds,4
 bois d'aloès,10,bois d'aloès,13
 bois d'alois,1,bois d'aloès,13
 bois d'amarante,3,bois d'amarante,3
-bois d'angeot,1,bois d'Angeot,3
 bois d'Angeot,2,bois d'Angeot,3
+bois d'angeot,1,bois d'Angeot,3
 bois d'Angola,1,bois d'Angola,2
 bois d'ansprete,2,bois d'ansprete,2
 bois d'arc,5,bois d'arc,5
@@ -2267,7 +2272,7 @@ bois de serrure,1,bois de serrure,1
 bois de serva en planches,1,planches de serva,1
 bois de simarouba,39,bois de simarouba,39
 bois de siramouba,0,bois de simarouba,39
-bois de soie,1,bas de soie,1634
+bois de soie,1,bas de soie,1635
 bois de sommiers,2,bois de sommiers,2
 bois de tables doré,1,bois de tables doré,1
 bois de tamis,1,bois de tamis,1
@@ -2836,11 +2841,11 @@ bonneterie,33,bonneterie,468
 bonneterie ???,1,bonneterie,468
 bonneterie bas de bourre de soie,2,bas de bourre de soie,7
 bonneterie bas de coton,2,bas de coton,704
-bonneterie bas de fil,5,bas de fil,840
+bonneterie bas de fil,5,bas de fil,842
 bonneterie bas de filoselle,1,bas de filoselle,379
 bonneterie bas de fleuret,1,bas de fleuret,85
 bonneterie bas de laine,1,bas de laine,974
-bonneterie bas de soie,10,bas de soie,1634
+bonneterie bas de soie,10,bas de soie,1635
 bonneterie bas et bonnets de laine,0,bas de laine et bonnets de laine,2
 Bonneterie bas et bonnets de laine en bas,1,bas de laine,974
 Bonneterie bas et bonnets de laine en bonnets,2,bonnets de laine,734
@@ -2868,9 +2873,9 @@ bonneterie de coton et laine,1,bonneterie de coton et bonneterie de laine,1
 bonneterie de coton fil et laine,0,bonneterie de coton et bonneterie de fil et bonneterie de laine,15
 bonneterie de coton tricots,1,tricots de coton,2
 bonneterie de fil,84,bonneterie de fil,98
-bonneterie de fil bas,15,bas de fil,840
+bonneterie de fil bas,15,bas de fil,842
 bonneterie de fil diverse,1,bonneterie de fil,98
-bonneterie de fil en bas,42,bas de fil,840
+bonneterie de fil en bas,42,bas de fil,842
 bonneterie de fil en coton,1,bonneterie de fil de coton,1
 bonneterie de fil en gants,7,gants de fil,107
 bonneterie de fil et coton,22,bonneterie de coton et bonneterie de fil,65
@@ -2905,10 +2910,10 @@ bonneterie de poil d'Inde,1,bonneterie d'Inde de poil,1
 bonneterie de poil des Indes bas,1,bas des Indes de poil,1
 bonneterie de soie,353,bonneterie de soie,562
 bonneterie de soie au sixième,3,bonneterie de soie au sixième,3
-bonneterie de soie bas,35,bas de soie,1634
+bonneterie de soie bas,35,bas de soie,1635
 bonneterie de soie bourses,2,bourses de soie,27
 bonneterie de soie diverse,4,bonneterie de soie,562
-bonneterie de soie en bas,47,bas de soie,1634
+bonneterie de soie en bas,47,bas de soie,1635
 bonneterie de soie en gants,2,gants de soie,112
 bonneterie de soie et coton,1,bonneterie de coton et soie,1
 bonneterie de soie et dorure,3,bonneterie de soie et dorure,3
@@ -2924,7 +2929,7 @@ bonneterie écarlate,1,bonneterie écarlate,1
 bonneterie en ???,3,bonneterie ???,3
 bonneterie en bas,1,bas,84
 bonneterie en bas de coton,1,bas de coton,704
-bonneterie en bas de fil,3,bas de fil,840
+bonneterie en bas de fil,3,bas de fil,842
 bonneterie en bas de fleuret,1,bas de fleuret,85
 bonneterie en bas de laine,1,bas de laine,974
 bonneterie en bas de laine commune,1,bas de laine communs,10
@@ -3177,8 +3182,8 @@ bourre de cheveux,2,bourre à cheveux,4
 bourre de chèvre,2,bourre de chèvre,2
 bourre de coton,17,bourre de coton,19
 bourre de coton et fil,1,bourre de coton et fil,38
-bourre de damas,1,bourre de Damas,7
 bourre de Damas,6,bourre de Damas,7
+bourre de damas,1,bourre de Damas,7
 bourre de drap,1,bourre de drap,1
 bourre de fil,28,bourre de fil,28
 bourre de fil et coton,1,bourre de coton et fil,38
@@ -5151,6 +5156,7 @@ chausseterie,1,chausseterie,1
 chaussettes,15,chaussettes,15
 chaussettes de coton,2,chaussettes de coton,2
 chaussettes de fil,117,chaussettes de fil,117
+chaussettes de fil par paires,0,,0
 chaussettes de toile,3,chaussettes de toile,3
 chaussons,5,gants bordés de soie,5
 chaussons de carisé et drap à laver maisons,3,chaussons de carisee et drap à laver maison,3
@@ -7629,7 +7635,7 @@ drap d'Angleterre aune,3,drap d'Angleterre,36
 drap d'Angleterre des prises,3,drap d'Angleterre des prises,3
 drap d'Angleterre Hollande et Espagne,11,drap d'Angleterre et drap d'Espagne et drap de Hollande,11
 drap d'Angleterre noir,1,drap d'Angleterre noir,1
-drap d'Arnetal,40,drap d'Arnetal,40
+drap d'Arnetal,12,drap d'Arnetal,12
 drap d'aucrin,1,drap d'aucrin,1
 drap d'Aumale,2,drap d'Aumale,2
 drap d'Elbeuf,395,drap d'Elbeuf,608
@@ -7639,7 +7645,7 @@ drap d'Espagne,11,drap d'Espagne,18
 drap d'Espagne aune,4,drap d'Espagne,18
 drap d'estame,1,drap d'estames,1
 drap d'or et d'argent fin,2,drap d'or et d'argent fin,2
-drap Darnétal,11,drap de Darnétal,26
+drap Darnétal,11,drap de Darnétal,54
 drap dauphine,48,drap dauphine,113
 drap de Beauvais,6,drap de Beauvais,12
 drap de Beauvaste,1,drap de Beauvais,12
@@ -7660,7 +7666,7 @@ drap de Colmar,6,drap de Colmar,6
 drap de cordeillat,3,cordeillat,235
 drap de coton,4,drap de coton,21
 drap de coton de Rouen,1,drap de coton de Rouen,1
-drap de Darnétal,15,drap de Darnétal,26
+drap de Darnétal,43,drap de Darnétal,54
 drap de Dauphiné,1,drap de castor,83
 drap de diverses coutures,1,drap,1422
 drap de douzaine,10,drap de douzaine,15
@@ -13140,10 +13146,13 @@ gants brodés en or et soie,1,gants brodés de soie et or,1
 gants chamois,2,gants chamois,2
 gants communs,457,gants communs,457
 gants communs de peau,1,gants communs de peau,1
+gants communs en paires,0,,0
+gants communs par paires,0,,0
 gants d'argent,1,gants d'argent,1
 gants d'étame,1,gants d'étame,1
 gants de castor,26,gants de castor,26
 gants de chamois,76,gants de chamois,76
+gants de chamois par paire,0,,0
 gants de chanvre,3,gants de chanvre,3
 gants de coton,112,gants de coton,112
 gants de cuir,4,gants de cuir,4
@@ -13153,6 +13162,7 @@ gants de fer,1,gants de fer,1
 gants de fil,100,gants de fil,107
 gants de fil et coton,28,gants de fil et coton,28
 gants de fil fins,8,gants de fil fins,8
+gants de fil par paires,0,,0
 gants de filoselle,6,gants de filoselle,6
 gants de fleuret,7,gants de fleuret,8
 gants de frangipane,5,gants de frangipane,5
@@ -13182,10 +13192,10 @@ gants de velours,3,gants de velours,3
 gants dits moufles,17,gants dits moufles,17
 gants divers,22,gants divers,22
 gants divers de peau,1,gants de peau,548
-gants et mitaines bordés de soie,1,gants et mitaines brodés de soie,24
+gants et mitaines bordés de soie,1,gants et mitaines brodés de soie,2
 gants et mitaines de filoselle,70,gants et mitaines de filoselle,70
 gants et mitaines de soie,133,gants et mitaines de soie,133
-gants et mitaines garnis de soie,1,gants et mitaines brodés de soie,24
+gants et mitaines garnis de soie,1,gants et mitaines brodés de soie,2
 gants et pantoufles de coton,5,gants et pantoufles de coton,5
 gants et pantoufles de laine,5,gants et pantoufles de laine,5
 gants garnis de ruban,3,gants garni de ruban,3
@@ -13561,8 +13571,8 @@ gomme d'ambrette,2,gomme d'ambrette,2
 gomme d'ammoniac,1,gomme d'ammoniac,1
 gomme d'arabique,1,gomme arabique,629
 gomme d'élémi,2,gomme élémi,102
-gomme de barbarie,30,gomme de Barbarie,85
 gomme de Barbarie,39,gomme de Barbarie,85
+gomme de barbarie,30,gomme de Barbarie,85
 gomme de cèdre,27,gomme de cèdre,27
 gomme de cerisier,1,gomme de cerisier,1
 gomme de Copahu,1,gomme de Copahu,1
@@ -16606,9 +16616,9 @@ marchandises provenant du commerce français dans les Indes toile diverse,1,toil
 marchandises provenant du commerce français dans les Indes toile mousseline,1,mousseline et toile des Indes,1
 marchandises provenant du commerce français dans les Indes vin du cap,1,vin du Cap des Indes,1
 marchandises sèches,28,marchandises sèches,29
-marchandises sèches comme toiles chapeaux bas souliers,2,marchandises sèches comme toiles chapeaux bas souliers,24
-marchandises sèches et mercerie,16,marchandises sèches et mercerie,24
-marchandises sèches mercerie et quincaillerie,1,marchandises sèches mercerie et quincaillerie,24
+marchandises sèches comme toiles chapeaux bas souliers,2,marchandises sèches comme toiles chapeaux bas souliers,2
+marchandises sèches et mercerie,16,marchandises sèches et mercerie,16
+marchandises sèches mercerie et quincaillerie,1,marchandises sèches mercerie et quincaillerie,1
 marchandises susceptibles,1,marchandises susceptibles,1
 marche de fer-blanche,1,marche de fer-blanc,1
 marche de pierres de grison,1,marche de pierre de grison,1
@@ -17747,7 +17757,7 @@ mistelle,2,mistelle,2
 mistre,0,mistre,0
 mistule,16,mixture des céréales et de légumineuses,16
 mitaines,1,mitaines,1
-mitaines bordées de soie,3,mitaines brodées de soie,24
+mitaines bordées de soie,3,mitaines brodées de soie,3
 mitaines brodées,1,mitaines brodées,1
 mitaines de peau,3,mitaines de peau,3
 mitaines de peau lisérées de soie,1,mitaines de peau garnies de soie,1
@@ -19530,7 +19540,7 @@ ouvrages sébiles,1,sébiles,1
 ouvrages sellerie,4,sellerie,42
 ouvrages selliers,3,selliers,3
 ouvrages soie et laine,1,ouvrages de laine et soie,1
-ouvrages souliers,4,souliers,938
+ouvrages souliers,4,souliers,939
 ouvrages souliers couverts en étoffe,3,souliers couverts en étoffe,3
 ouvrages souliers couverts en étoffe de soie pour femme,4,ouvrages de soulier couverts en étoffe de soie pour femme,4
 ouvrages souliers d'étoffe de soie,2,souliers d'étoffe de soie,7
@@ -19596,9 +19606,9 @@ pain divers,1,pain,107
 pain en navette,1,pain de navette,288
 pain et biscuit de mer,7,biscuit de mer et pain,7
 pain pain,1,pain,107
-paires de bas de fil,1,bas de fil,1
-paires de bas de soie,1,bas de soie,1
-paires de souliers,1,souliers,1
+paires de bas de fil,1,bas de fil,842
+paires de bas de soie,1,bas de soie,1635
+paires de souliers,1,souliers,939
 paires de souliers et mules,1,souliers et mules,1
 palacques,1,palangre,11
 palangre,10,palangre,11
@@ -21351,8 +21361,8 @@ pierres de barriques,1,pierres de barriques,1
 pierres de bas de meule,1,pierres de bas de meule,1
 pierres de Bentem,2,pierres de Bentem,2
 pierres de bezoar,1,bezoar,7
-pierres de bidache,2,pierres de Bidache,7
 pierres de Bidache,5,pierres de Bidache,7
+pierres de bidache,2,pierres de Bidache,7
 pierres de Bidache en carreaux,2,pierres de Bidache en carreaux,2
 pierres de bleu,1,pierres de bleu,1
 pierres de Briançon,1,pierres de Briançon,1
@@ -21606,7 +21616,7 @@ pistaches cassées,2,pistaches cassées,2
 pistaches en coques,1,pistaches en coques,1
 pistaches non cassées,1,pistaches non cassées,1
 pistolet d'arçon,1,pistolets d'arçon,1
-pistolets,62,pistolets,101
+pistolets,62,pistolets,102
 pistolets à feu,1,pistolets à feu,1
 pistolets Damas ?,1,pistolets Damas ?,1
 pistolets de maître,1,pistolets de maître,1
@@ -22561,8 +22571,8 @@ pois confits,1,pois confits,1
 pois crus,2,pois crus,2
 pois d'Espagne ou Garavance,33,pois d'Espagne,33
 pois de 28 ? de Hollande,1,poids de 28 ??? de Hollande,1
-pois de bourgogne,8,pois de Bourgogne,106
 pois de Bourgogne,97,pois de Bourgogne,106
+pois de bourgogne,8,pois de Bourgogne,106
 pois de Bourgonne,1,pois de Bourgogne,106
 pois de Grasse,1,pois de Grasse,1
 pois en gerbes,15,pois en gerbe,15
@@ -23143,10 +23153,10 @@ poules de bois,1,poules de bois,1
 poules en étain,1,poules d'étain,1
 poules en vie,1,poules en vie,1
 poules et poulets,1,poules et poulets,1
-poulets,35,poulets,63
+poulets,35,poulets,64
 poulets d'Inde,3,poulets d'Inde,4
 poulets de cane,1,poulets de cane,1
-poulets ordinaires,1,poulets,63
+poulets ordinaires,1,poulets,64
 poulies,20,poulies,20
 poulies de bois,3,poulies de bois,3
 poulies de gaïac,1,poulies de gaïac,1
@@ -24986,8 +24996,8 @@ soie de sanglier,7,soie de sanglier,7
 soie de toile,4,soie de toile,4
 soie de toile vieille,2,soie de toile vieille,2
 soie de Zagora,1,soie de Zagora,1
-soie des indes,2,soie des Indes,6
 soie des Indes,3,soie des Indes,6
+soie des indes,2,soie des Indes,6
 soie des pays étrangers,1,soie des pays étrangers,1
 soie dite filoselle,1,filoselle,169
 soie dite fleuret,1,fleuret,75
@@ -25241,10 +25251,10 @@ soufre raffiné,3,soufre raffiné,3
 soufre sublimé en poudre,6,soufre sublimé en poudre,8
 soufre sublimé ou en poudre,2,soufre sublimé en poudre,8
 soufre vif,1,soufre vif,1
-souliers,932,souliers,938
+souliers,932,souliers,939
 souliers à dessus de soie pour femme,5,souliers à dessus de soie pour femme,5
 souliers anglais,1,souliers anglais,1
-souliers assortis,1,souliers,938
+souliers assortis,1,souliers,939
 souliers blancs,3,souliers blancs,3
 souliers brodés,22,souliers brodés,22
 souliers brodés argent et soie,1,souliers brodés d'argent et de soie,1
@@ -25275,7 +25285,7 @@ souliers de femme brodés,3,souliers brodés et pour femme,11
 souliers de maroquin,1,souliers de maroquin,3
 souliers de maroquins,2,souliers de maroquin,3
 souliers de soie,2,souliers de soie,13
-souliers divers,1,souliers,938
+souliers divers,1,souliers,939
 souliers divers en cuir,2,souliers de cuir,53
 souliers en cuir,2,souliers de cuir,53
 souliers en terre,1,souliers en terre,1
@@ -25287,6 +25297,7 @@ souliers homme,3,souliers pour homme,77
 souliers neufs,145,souliers neufs,145
 souliers ordinaires,21,souliers communs,23
 souliers pantoufles et galoches,3,souliers pantoufles et galoches,3
+souliers par paires,0,,0
 souliers petits,2,souliers petits,2
 souliers pour enfant,6,souliers pour enfant,12
 souliers pour femme,18,souliers pour femme,40
@@ -26828,8 +26839,8 @@ toile chapelur,1,toile chapelur,1
 toile chapilas,3,toile chapilas,3
 toile chasselas,32,toile chasselas,222
 toile chebine,2,toile chebiny,5
-toile chebiny,1,toile chebiny,5
 Toile chebiny,2,toile chebiny,5
+toile chebiny,1,toile chebiny,5
 toile chille,1,toile chille,1
 toile chitte,3,toile chitte,3
 toile choilette,1,toile choilette,1
@@ -27077,8 +27088,8 @@ toile de Bretagne de Moutier,1,toile de Moutier,1
 toile de Bretagne de Noirmoutier,1,toile de Noirmoutier,1
 toile de Bretagne de Poldavie,12,toile de Poldavie,38
 toile de Bretagne de Pontigny,1,toile de Pontigny,1
-toile de Bretagne de pontivy,1,toile de Pontivy,36
 toile de Bretagne de Pontivy,17,toile de Pontivy,36
+toile de Bretagne de pontivy,1,toile de Pontivy,36
 toile de Bretagne de Pouldavid,17,toile de Pouldavid,21
 toile de Bretagne de quatre fils,1,toile de Bretagne de 4 fils,20
 toile de Bretagne de Quintin,6,toile de Quintin,25
@@ -27984,8 +27995,8 @@ toile gommée treillis,4,toile treillis gommé,4
 toile grasse,8,toile grasse,8
 toile gratienne,26,toile gratienne,26
 toile gratienne rayée,2,toile gratienne rayée,2
-toile grenade,2,toile de Grenade,45
 toile Grenade,25,toile de Grenade,45
+toile grenade,2,toile de Grenade,45
 toile Grenade de lin,3,toile de Grenade de lin,5
 toile Grenade lin,2,toile de Grenade de lin,5
 toile grise,107,toile grise,107
@@ -28858,8 +28869,8 @@ verres de cristal en gobelets,1,gobelets de cristal,41
 verres de cristallin,2,verres de cristal,374
 verres de lampes,2,verres de lampes,2
 verres de lanternes,1,verres de lanternes,1
-verres de lorraine,1,verres de Lorraine,6
 verres de Lorraine,5,verres de Lorraine,6
+verres de lorraine,1,verres de Lorraine,6
 verres de mer,2,verres de mer,2
 verres de montres,57,verres pour montre,64
 verres de pour estampes,1,verres pour estampes,4
@@ -29212,8 +29223,8 @@ vin de Cette,7,vin de Cette,7
 vin de Chablis,1,vin de Chablis,2
 vin de Chagny,3,vin de Chagny,10
 vin de Chalosse,3,vin de Chalosse,3
-vin de champagne,1,vin de Champagne,667
 vin de Champagne,595,vin de Champagne,667
+vin de champagne,1,vin de Champagne,667
 vin de Champagne de Bar-sur-Aube,1,vin de Bar-sur-Aube,1
 vin de Champagne de Châlon,27,vin de Châlon,31
 vin de Champagne de Chaumont,2,vin de Chaumont,2
@@ -29263,8 +29274,8 @@ vin de France de Bordeaux au muid,20,vin de Bordeaux au muid,20
 vin de France de Bordeaux de retour,2,vin de Bordeaux de retour,2
 vin de France de Bordeaux en bouteilles,4,vin de Bordeaux en bouteilles,4
 vin de France de Bourgogne,5,vin de Bourgogne,659
-vin de France de Bourgogne en bouteilles,2,vin de Bourgogne en bouteilles,19
 vin de France de Bourgogne en Bouteilles,6,vin de Bourgogne en bouteilles,19
+vin de France de Bourgogne en bouteilles,2,vin de Bourgogne en bouteilles,19
 vin de France de Bourgogne en muid,14,vin de Bourgogne en muid,14
 vin de France de Champagne,3,vin de France de Champagne,3
 vin de France de Champagne en bouteilles,13,vin de Champagne en bouteilles,13
@@ -29594,8 +29605,8 @@ vin Saint-Ange,1,vin Saint-Ange,1
 vin Saint-Laurent,1,vin Saint-Laurent,1
 vin soin,1,vin soin,1
 vin Syracuse,1,vin de Syracuse,11
-vin tinto,1,vin Tinto,20
 vin Tinto,19,vin Tinto,20
+vin tinto,1,vin Tinto,20
 vin vendange,2,vin vendange,2
 vin verdé de Florence,1,vin verdé de Florence,1
 vin ville,7,vin de ville,733
@@ -29696,12 +29707,12 @@ volailles et gibier,24,gibier et volailles,37
 volailles et gibier provisions de bouche,13,gibier et volailles,37
 volailles grasses,2,volailles grasses,2
 volailles oies,1,volailles oies,1
-volailles paires poulets,1,poulets,1
+volailles paires poulets,1,poulets,64
 volailles perdrix,1,perdrix,43
 volailles poulardes,1,poulardes,7
 volailles poules,7,poules,29
 volailles poules d'inde,2,poules des Indes,2
-volailles poulets,27,poulets,63
+volailles poulets,27,poulets,64
 volailles poulets d'Inde,1,poulets d'Inde,4
 volants,5,volants,5
 volants à boutonnière d'or,1,volants à boutonnière d'or,1
