@@ -78,11 +78,11 @@ dentelle du Puy,"Filés ou tissés de fibre végétale non mélangée (lin, chan
 dentelle,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,183.54187,102.14504,227.82022,32,passementerie,haut de gamme,haut de gamme,non
 dentelle commune,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,55.022129,20.429008,56.485203,15,passementerie,haut de gamme,milieu de gamme,non
 ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,7.1051679,5.1072521,9.0065289,198,passementerie,bas de gamme,milieu de gamme,non
-ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,passementerie,bas de gamme,milieu de gamme,oui
+ruban de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,passementerie,bas de gamme,milieu de gamme,oui
 dentelle de fil et tulle,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,31,passementerie,haut de gamme,haut de gamme,non
 ruban de laine,Filés ou tissés de laine et de poil,kg,8.3077965,6.1287026,4.3572574,15,passementerie,bas de gamme,milieu de gamme,non
 galon de laine,Filés ou tissés de laine et de poil,kg,5.6651216,5.1072521,3.1213114,13,passementerie,bas de gamme,milieu de gamme,non
-prunelle de poil,Filés ou tissés de laine et de poil,pièces,,,,,passementerie,bas de gamme,milieu de gamme,oui
+prunelle de poil,Filés ou tissés de laine et de poil,nombre,,,,,passementerie,bas de gamme,milieu de gamme,oui
 dentelle de soie,Filés ou tissés de soie et soie mélangée,kg,583.49347,715.01532,257.60626,137,passementerie,haut de gamme,haut de gamme,non
 ruban d'argent et d'or et de soie,Filés ou tissés de soie et soie mélangée,kg,245.61955,245.14812,29.417698,13,passementerie,haut de gamme,haut de gamme,non
 ruban de soie,Filés ou tissés de soie et soie mélangée,kg,133.32584,122.57406,75.080017,540,passementerie,haut de gamme,milieu de gamme,non
@@ -94,7 +94,7 @@ galon de filoselle,Filés ou tissés de soie et soie mélangée,kg,31.373121,34.
 ruban de fleuret,Filés ou tissés de soie et soie mélangée,kg,31.367041,31.664963,19.484491,24,passementerie,milieu de gamme,bas de gamme,non
 galon de fleuret,Filés ou tissés de soie et soie mélangée,kg,18.977474,20.429008,12.571708,19,passementerie,milieu de gamme,bas de gamme,non
 tavelle,Filés ou tissés de soie et soie mélangée,kg,4.6792159,4.5965271,3.9944613,21,passementerie,milieu de gamme,bas de gamme,non
-ruban de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,passementerie,haut de gamme,milieu de gamme,oui
+ruban de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,passementerie,haut de gamme,milieu de gamme,oui
 dentelle et blonde,Filés ou tissés de soie et soie mélangée,unité manquante,,,,19,passementerie,haut de gamme,haut de gamme,non
 gaze crêpe et ruban de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,57,passementerie,haut de gamme,milieu de gamme,non
 dentelle de fil et soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,53,passementerie,haut de gamme,haut de gamme,non
@@ -136,18 +136,18 @@ drap de Montauban,Autres filés ou tissés,kg,,,,,tissés,milieu de gamme,milieu
 drap,Autres filés ou tissés,kg,,,,,tissés,milieu de gamme,milieu de gamme,oui
 drap molleton,Autres filés ou tissés,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
 étoffe riche en or et argent,Autres filés ou tissés,kg,,,,,tissés,haut de gamme,haut de gamme,oui
-drap de France,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-crêpe de Reims,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-tapis,Autres filés ou tissés,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-étoffe des Indes,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-allaya,Autres filés ou tissés,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-drap,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-hamacs,Autres filés ou tissés,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-tripe de velours,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-serviettes,Autres filés ou tissés,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-gaze,Autres filés ou tissés,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-boucassin,Autres filés ou tissés,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-mouchoirs,Autres filés ou tissés,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
+drap de France,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+crêpe de Reims,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+tapis,Autres filés ou tissés,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+étoffe des Indes,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+allaya,Autres filés ou tissés,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+drap,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+hamacs,Autres filés ou tissés,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+tripe de velours,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+serviettes,Autres filés ou tissés,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+gaze,Autres filés ou tissés,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+boucassin,Autres filés ou tissés,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+mouchoirs,Autres filés ou tissés,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
 étoffe,Autres filés ou tissés,unité manquante,,,,283,tissés,,,non
 mouchoirs et mouchoirs des Indes,Autres filés ou tissés,unité manquante,,,,17,tissés,milieu de gamme,milieu de gamme,non
 étoffe en dorure et galon et passementerie,Autres filés ou tissés,unité manquante,,,,24,tissés,haut de gamme,haut de gamme,non
@@ -233,43 +233,43 @@ toile serpillière,Autres filés ou tissés mélangés de fibres végétales don
 toile blanche et teinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
 toile de fil de coton siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
 toile ramoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile crue,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile à serviettes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile vernante,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile blanche,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile bleue,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile caissie,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de Levant,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-mouchoirs de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile de Killis,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-mouchoirs du Béarn,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile étroite,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-demitte,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile grise,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile cottray,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile d'antale,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de Hollande,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs peints,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile étrangère,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs de coton et fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile à bâts,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile manouf,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile coutil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile rayée,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile d'étoupes,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile abat,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile d'Antioche,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile embabis,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-cotonnine,Autres filés ou tissés mélangés de fibres végétales dont toiles,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile crue,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile à serviettes,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile vernante,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile d'emballage,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile blanche,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile bleue,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile caissie,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de Levant,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+batanomes,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs de Rouen,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile de Killis,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs du Béarn,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile étroite,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+demitte,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile grise,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile cottray,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile d'antale,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de Hollande,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile cirée,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+mouchoirs peints,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile étrangère,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+mouchoirs de coton et fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile à bâts,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+siamoise,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile manouf,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile serpillière,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile coutil,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile rayée,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs de coton et de fil,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile d'étoupes,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile abat,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile d'Antioche,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile embabis,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile commune,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+cotonnine,Autres filés ou tissés mélangés de fibres végétales dont toiles,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
 indienne peinte,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,20,tissés,milieu de gamme,milieu de gamme,non
 toile cirée et gommée,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,11,tissés,bas de gamme,bas de gamme,non
 mouchoirs de fil et de coton,Autres filés ou tissés mélangés de fibres végétales dont toiles,unité manquante,,,,82,tissés,bas de gamme,milieu de gamme,non
@@ -324,62 +324,62 @@ demitte,Filés ou tissés de coton,kg,4.0653725,2.5536261,3.3918035,10,tissés,,
 mousseline de coton unies et brûlées,Filés ou tissés de coton,kg,,,,,tissés,milieu de gamme,haut de gamme,oui
 cotonné de coton,Filés ou tissés de coton,kg,,,,,tissés,milieu de gamme,bas de gamme,oui
 mousseline de coton unies et peintes,Filés ou tissés de coton,kg,,,,,tissés,milieu de gamme,haut de gamme,oui
-limeneas,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-percale,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-guinée bleue,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-toile d'aman,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs de coton de France,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-salemporis blanc,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-basin,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-nicanéas,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-guinée,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs de Pondichéry,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-salemporis,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-mouchoirs de Bengale,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-guinée blanche,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-cotonnée,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-coupis,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-baffetas blanc,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-nicanéas petits,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-Nankin,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-mouchoirs des Indes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile guingans,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile corot,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile blanche de coton,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-sanas,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-basin des Indes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-garas bleu,Filés ou tissés de coton,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-bajutapau,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-escamitte,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-salemporis bleu,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-chillas,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile de coton des Indes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-chitte,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-ajamis,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-baffetas bleu,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-garas blanc,Filés ou tissés de coton,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs d'indienne,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs de Masulipatan,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-nicanéas grands,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mousseline,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-fottes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile chasselas,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile d'Alep,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile de coton,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs de mousseline,Filés ou tissés de coton,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-toile guingans de Madras,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-bétilles,Filés ou tissés de coton,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-mouchoirs de coton,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile de basin,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-indienne,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-neganepeau,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs de coton des Indes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-romals,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-cotonnades,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-toile guingans de Pondichéry,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-toile des Indes,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-mouchoirs Masulipatan,Filés ou tissés de coton,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-mouchoirs romals,Filés ou tissés de coton,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
+limeneas,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+percale,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+guinée bleue,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+toile d'aman,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs de coton de France,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+salemporis blanc,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+basin,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+nicanéas,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+guinée,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs de Pondichéry,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+salemporis,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+mouchoirs de Bengale,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+guinée blanche,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+cotonnée,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+coupis,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+baffetas blanc,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+nicanéas petits,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+Nankin,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+mouchoirs des Indes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile guingans,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile corot,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile blanche de coton,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+sanas,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+basin des Indes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+garas bleu,Filés ou tissés de coton,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+bajutapau,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+escamitte,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+salemporis bleu,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+chillas,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile de coton des Indes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+chitte,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+ajamis,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+baffetas bleu,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+garas blanc,Filés ou tissés de coton,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+mouchoirs d'indienne,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs de Masulipatan,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+nicanéas grands,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mousseline,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+fottes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile chasselas,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile d'Alep,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile de coton,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs de mousseline,Filés ou tissés de coton,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+toile guingans de Madras,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+bétilles,Filés ou tissés de coton,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+mouchoirs de coton,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile de basin,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+indienne,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+neganepeau,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs de coton des Indes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+romals,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+cotonnades,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+toile guingans de Pondichéry,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+toile des Indes,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+mouchoirs Masulipatan,Filés ou tissés de coton,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+mouchoirs romals,Filés ou tissés de coton,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
 étoffe de coton et de fil,Filés ou tissés de coton,unité manquante,,,,12,tissés,,,non
 mousseline de coton et Nankin des Indes,Filés ou tissés de coton,unité manquante,,,,21,tissés,milieu de gamme,haut de gamme,non
 mousseline de coton et Nankin,Filés ou tissés de coton,unité manquante,,,,11,tissés,milieu de gamme,haut de gamme,non
@@ -475,33 +475,33 @@ drap petit de Silésie,"Filés ou tissés de fibre végétale non mélangée (li
 toile de chanvre de coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,,,,,tissés,bas de gamme,milieu de gamme,oui
 drapeaux vieux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,,,,,tissés,bas de gamme,bas de gamme,oui
 toile grosse de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",kg,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile canevas,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-mouchoirs de fil organdi,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs de toile de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile grosse en faces,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-mouchoirs de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile de Saintonge,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile royale,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile de Bretagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de lin blanche,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-platille,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile de Cambrai,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile de Bretagne étroite,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile grosse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de Mortagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile crée,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-toile large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile de Bretagne large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-mouchoirs de batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-toile de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile d'Allemagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs de fil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile canevas,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile à carreaux,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs de fil organdi,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile écrue,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+mouchoirs de toile de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile grosse en faces,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+mouchoirs de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile de Saintonge,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile royale,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile de Bretagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de lin blanche,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+platille,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile de Cambrai,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile de Bretagne étroite,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile grosse,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de Mortagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile de ménage,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile crée,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+toile large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile de Bretagne large,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+mouchoirs de batiste,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+toile de Cholet,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+coutil,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile d'Allemagne,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
 batiste de lin et linon de lin,"Filés ou tissés de fibre végétale non mélangée (lin, chanvre, jute, etc.)",unité manquante,,,,10,tissés,milieu de gamme,haut de gamme,non
 drap écarlate,Filés ou tissés de laine et de poil,cm,0.18999451,0.21036687,0.067101769,19,tissés,,,non
 drap d'Abbeville,Filés ou tissés de laine et de poil,cm,0.19043738,0.18512285,0.015487632,38,tissés,haut de gamme,haut de gamme,non
@@ -615,37 +615,37 @@ baracan de poil,Filés ou tissés de laine et de poil,kg,,,,,tissés,bas de gamm
 callemande de laine,Filés ou tissés de laine et de poil,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
 drap de laine fin,Filés ou tissés de laine et de poil,kg,,,,,tissés,haut de gamme,haut de gamme,oui
 drap ordinaires de laine,Filés ou tissés de laine et de poil,kg,,,,,tissés,bas de gamme,milieu de gamme,oui
-étamine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-serge de Montauban,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-polimi,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-étamine de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-baracan,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-camelot de poil,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-bayette,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-étoffe de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-drap de Carcassonne,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-lampareille de poil,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-toile cordat,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-ratine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-callemande de poil,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,haut de gamme,oui
-perpétuane,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-drap de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-peluches,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-callemande,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-cordeillat,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-pinchinat de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-flanelle,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-tapis de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-camelot de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-drap de Languedoc,Filés ou tissés de laine et de poil,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-marègue,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-moquette,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-sempiterne,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-camelot,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,milieu de gamme,oui
-tayolles de laine,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-cadis,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
-drap de Sedan,Filés ou tissés de laine et de poil,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-picotte,Filés ou tissés de laine et de poil,pièces,,,,,tissés,bas de gamme,bas de gamme,oui
+étamine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+serge de Montauban,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+polimi,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+étamine de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+baracan,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+camelot de poil,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+bayette,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+étoffe de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+drap de Carcassonne,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+lampareille de poil,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+toile cordat,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+ratine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+callemande de poil,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,haut de gamme,oui
+perpétuane,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+drap de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+peluches,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+callemande,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+cordeillat,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+pinchinat de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+flanelle,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+tapis de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+camelot de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+drap de Languedoc,Filés ou tissés de laine et de poil,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+marègue,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+moquette,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+sempiterne,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+camelot,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,milieu de gamme,oui
+tayolles de laine,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+cadis,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
+drap de Sedan,Filés ou tissés de laine et de poil,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+picotte,Filés ou tissés de laine et de poil,nombre,,,,,tissés,bas de gamme,bas de gamme,oui
 velours,Filés ou tissés de soie et soie mélangée,cm,0.18735027,0.2019522,0.033772096,68,tissés,haut de gamme,milieu de gamme,non
 damas,Filés ou tissés de soie et soie mélangée,cm,0.086166278,0.1009761,0.031181516,10,tissés,haut de gamme,bas de gamme,non
 satin,Filés ou tissés de soie et soie mélangée,cm,0.07336545,0.073628411,0.031295683,16,tissés,haut de gamme,milieu de gamme,non
@@ -702,35 +702,35 @@ gaze mi soie,Filés ou tissés de soie et soie mélangée,kg,,,,,tissés,haut de
 étoffe mêlée de soie peluches,Filés ou tissés de soie et soie mélangée,kg,,,,,tissés,milieu de gamme,bas de gamme,oui
 tripe mêlée de soie et tripe de velours,Filés ou tissés de soie et soie mélangée,kg,,,,,tissés,milieu de gamme,bas de gamme,oui
 toile de Piémont,Filés ou tissés de soie et soie mélangée,kg,,,,,tissés,bas de gamme,bas de gamme,oui
-toile tapsel,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-caladaris,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-étoffe de velours de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-gaze de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-Pékin uni,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-damas des Indes,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,bas de gamme,oui
-nelis,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-étoffe de soie des Indes,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-mouchoirs de gaze,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-tapsel,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-alibanies,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-satin,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-tripe mêlée de soie et tripe de velours,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-velours,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-étoffe de soie et de velours d'Utrecht,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-lustrine,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-camelot de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-armoisin,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-taffetas,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-darins,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-cirsaca,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,milieu de gamme,milieu de gamme,oui
-étoffe mêlée de soie peluches,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,milieu de gamme,bas de gamme,oui
-Pékin,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,haut de gamme,oui
-mouchoirs de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-étoffe de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-satin de soie,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-dissouchaye,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
-damas,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,bas de gamme,oui
-chuquelas,Filés ou tissés de soie et soie mélangée,pièces,,,,,tissés,haut de gamme,milieu de gamme,oui
+toile tapsel,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+caladaris,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+étoffe de velours de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+gaze de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+Pékin uni,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+damas des Indes,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,bas de gamme,oui
+nelis,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+étoffe de soie des Indes,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+mouchoirs de gaze,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+tapsel,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+alibanies,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+satin,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+tripe mêlée de soie et tripe de velours,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+velours,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+étoffe de soie et de velours d'Utrecht,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+lustrine,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+camelot de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+armoisin,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+taffetas,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+darins,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+cirsaca,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,milieu de gamme,milieu de gamme,oui
+étoffe mêlée de soie peluches,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,milieu de gamme,bas de gamme,oui
+Pékin,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,haut de gamme,oui
+mouchoirs de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+étoffe de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+satin de soie,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+dissouchaye,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
+damas,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,bas de gamme,oui
+chuquelas,Filés ou tissés de soie et soie mélangée,nombre,,,,,tissés,haut de gamme,milieu de gamme,oui
 soierie et dorure,Filés ou tissés de soie et soie mélangée,unité manquante,,,,12,tissés,haut de gamme,haut de gamme,non
 crêpe et gaze et tulle,Filés ou tissés de soie et soie mélangée,unité manquante,,,,24,tissés,haut de gamme,milieu de gamme,non
 gaze crêpe et tulle de soie,Filés ou tissés de soie et soie mélangée,unité manquante,,,,12,tissés,haut de gamme,milieu de gamme,non
