@@ -47,7 +47,7 @@ const NODE_PROPERTIES_TYPES = [
   "unit",
   "quantity:float",
   "value:float",
-  "unit_price_metric:float",
+  "value_per_unit:float",
   "year:int",
   "rawYear",
   "import:boolean",
@@ -500,7 +500,7 @@ function importer(csvLine) {
   nodeData.unverified = csvLine.unverified === "1" ? "true" : "false";
 
   // Here, we filter some lines deemed irrelevant
-  if (!nodeData.value && !nodeData.quantity && !nodeData.unit_price_metric) return;
+  if (!nodeData.value && !nodeData.quantity && !nodeData.value_per_unit) return;
   if (nodeData.absurd_observation === "absurd") return;
 
   const flowNode = BUILDER.save(nodeData, "Flow");
