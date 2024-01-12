@@ -7,15 +7,15 @@
  * to process the quantities normalizations and compute some values for the
  * visualizations.
  */
-import { argv } from "yargs";
 import async from "async";
-import path from "path";
-import fs from "fs";
-import FuzzyMap from "mnemonist/fuzzy-map";
 import { parse as parseCSV } from "csv";
-import database from "./lib/connection";
-import { cleanText, cleanNumber } from "./lib/clean";
+import fs from "fs";
 import { chunk, some, values } from "lodash";
+import FuzzyMap from "mnemonist/fuzzy-map";
+import path from "path";
+import { argv } from "yargs";
+import { cleanNumber, cleanText } from "./lib/clean";
+import database from "./lib/connection";
 
 /**
  * Reading arguments.
@@ -192,7 +192,7 @@ async.series(
             });
           },
 
-          // Metric 1: unit name + product name
+          // Metric 1: unit name
           metric1: (callback) => {
             const csvString = fs.readFileSync(METRICS_FILE_METRIC1, "utf-8");
 
@@ -292,7 +292,44 @@ async.series(
           }
           row.normalizedUnit = row.unit;
 
-          // 2) We try to solve metric2
+
+           // 2) We try to solve metric 1
+           const metric1Data = INDEX_METRIC1.get(row.unit);
+
+           if (metric1Data) {
+             METRIC1_MATCHES++;
+ 
+             // Updating normalized unit
+             row.normalizedUnit = metric1Data.normalized;
+ 
+             const update = {
+               id: database.int(row.id),
+               properties: {
+                 unit: row.unit,
+                 normalizedUnit: row.normalizedUnit,
+               },
+             };
+ 
+             // Special values
+             update.properties.quantity_metric = row.quantity * metric1Data.factor;
+             update.properties.value_per_unit_metric = row.value / update.properties.quantity_metric;
+             if (row.normalizedUnit === "kg") {
+               update.properties.quantity_kg = update.properties.quantity_metric;
+             } else if (row.normalizedUnit === "nombre") {
+               update.properties.quantity_nbr =
+                 update.properties.quantity_metric;
+             } else if (row.normalizedUnit === "litres") {
+               update.properties.quantity_litre =
+                 update.properties.quantity_metric;
+             }
+ 
+             UPDATE_BATCH.push(update);
+ 
+             continue;
+           }
+
+
+          // 3) We try to solve metric3
           const metric2Data = INDEX_METRIC2.get(row);
 
           if (metric2Data) {
@@ -310,14 +347,16 @@ async.series(
             };
 
             // Special values
+            update.properties.quantity_metric = row.quantity * metric2Data.factor;
+            update.properties.value_per_unit_metric = row.value / update.properties.quantity_metric;
             if (row.normalizedUnit === "kg") {
-              update.properties.quantity_kg = row.quantity * metric2Data.factor;
+              update.properties.quantity_kg = update.properties.quantity_metric;
             } else if (row.normalizedUnit === "nombre") {
               update.properties.quantity_nbr =
-                row.quantity * metric2Data.factor;
+                update.properties.quantity_metric;
             } else if (row.normalizedUnit === "litres") {
               update.properties.quantity_litre =
-                row.quantity * metric2Data.factor;
+                update.properties.quantity_metric;
             }
 
             UPDATE_BATCH.push(update);
@@ -325,38 +364,7 @@ async.series(
             continue;
           }
 
-          // 3) We try to solve level 2
-          const metric1Data = INDEX_METRIC1.get(row.unit);
-
-          if (metric1Data) {
-            METRIC1_MATCHES++;
-
-            // Updating normalized unit
-            row.normalizedUnit = metric1Data.normalized;
-
-            const update = {
-              id: database.int(row.id),
-              properties: {
-                unit: row.unit,
-                normalizedUnit: row.normalizedUnit,
-              },
-            };
-
-            // Special values
-            if (row.normalizedUnit === "kg") {
-              update.properties.quantity_kg = row.quantity * metric1Data.factor;
-            } else if (row.normalizedUnit === "nombre") {
-              update.properties.quantity_nbr =
-                row.quantity * metric1Data.factor;
-            } else if (row.normalizedUnit === "litres") {
-              update.properties.quantity_litre =
-                row.quantity * metric1Data.factor;
-            }
-
-            UPDATE_BATCH.push(update);
-
-            continue;
-          }
+         
 
           if (
             (normalizeSimpl || normalizeOrtho) &&
