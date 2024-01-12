@@ -43,6 +43,7 @@ const QUERY_GET_FLOWS = `
   RETURN
     id(f) AS id,
     f.rawUnit AS rawUnit,
+    f.value AS value,
     f.quantity AS quantity,
     f.region AS region,
     f.import AS import,
