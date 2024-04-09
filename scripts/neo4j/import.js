@@ -6,19 +6,19 @@
  * Script aiming at importing the project's sources into a neo4j database which
  * will be used by the datascape.
  */
-import config from "config";
-import { argv } from "yargs";
 import async from "async";
+import config from "config";
 import { parse as parseCsv, stringify as stringifyCsv } from "csv";
 import parseSync from "csv-parse/lib/sync";
+import fs from "fs";
+import gitlog from "gitlog";
 import { default as h } from "highland";
+import _, { keys } from "lodash";
+import path from "path";
+import { argv } from "yargs";
+import { cleanNumber, cleanText } from "./lib/clean";
 import { hash } from "./lib/crypto";
 import { normalizeYear } from "./lib/republican_calendar";
-import { cleanText, cleanNumber } from "./lib/clean";
-import path from "path";
-import fs from "fs";
-import _, { keys } from "lodash";
-import gitlog from "gitlog";
 
 /**
  * Initialization
@@ -47,7 +47,7 @@ const NODE_PROPERTIES_TYPES = [
   "unit",
   "quantity:float",
   "value:float",
-  "unitPrice:float",
+  "value_per_unit:float",
   "year:int",
   "rawYear",
   "import:boolean",
@@ -500,7 +500,7 @@ function importer(csvLine) {
   nodeData.unverified = csvLine.unverified === "1" ? "true" : "false";
 
   // Here, we filter some lines deemed irrelevant
-  if (!nodeData.value && !nodeData.quantity && !nodeData.unitPrice) return;
+  if (!nodeData.value && !nodeData.quantity && !nodeData.value_per_unit) return;
   if (nodeData.absurd_observation === "absurd") return;
 
   const flowNode = BUILDER.save(nodeData, "Flow");

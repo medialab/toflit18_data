@@ -451,7 +451,8 @@ codebook conv_simplification_to_metric
  
 generate quantities_metric = quantity * conv_orthographic_to_simplificat * conv_simplification_to_metric
 generate unit_price_metric=value/quantities_metric if (value_part_of_bundle==0|value_part_of_bundle==.)
-replace  unit_price_metric=value_per_unit /(conv_orthographic_to_simplificat * conv_simplification_to_metric) if (value_part_of_bundle==0|value_part_of_bundle==.)
+replace  unit_price_metric=value_per_unit /(conv_orthographic_to_simplificat * conv_simplification_to_metric) /*
+	*/ if (value_part_of_bundle==0|value_part_of_bundle==.) & unit_price_metric==.
 
 rename  simplification  quantity_unit_simplification
 
