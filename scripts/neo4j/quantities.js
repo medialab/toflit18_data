@@ -10,7 +10,7 @@
 import async from "async";
 import { parse as parseCSV } from "csv";
 import fs from "fs";
-import { chunk, some, values } from "lodash";
+import { chunk, isNil, some, values } from "lodash";
 import FuzzyMap from "mnemonist/fuzzy-map";
 import path from "path";
 import { argv } from "yargs";
@@ -43,6 +43,7 @@ const QUERY_GET_FLOWS = `
   RETURN
     id(f) AS id,
     f.rawUnit AS rawUnit,
+    f.value AS value,
     f.quantity AS quantity,
     f.region AS region,
     f.import AS import,
@@ -348,7 +349,8 @@ async.series(
 
             // Special values
             update.properties.quantity_metric = row.quantity * metric2Data.factor;
-            update.properties.value_per_unit_metric = row.value / update.properties.quantity_metric;
+            if (!isNil(row.value))
+              update.properties.value_per_unit_metric = row.value / update.properties.quantity_metric;
             if (row.normalizedUnit === "kg") {
               update.properties.quantity_kg = update.properties.quantity_metric;
             } else if (row.normalizedUnit === "nombre") {
