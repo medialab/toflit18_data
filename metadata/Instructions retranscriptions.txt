@@ -1,0 +1,73 @@
+Guillaume avril 2024
+Quand la valeur est calculée par estimée ou "en valeur" il n’est pas nécessaire de remplir les colonnes sur le prix unitaire, ni la différence. 
+
+Éventuellement, il faut remplacer "Estimé" par "en nombre" dans la colonne Unité de poids / quantité quand le nombre est donné.
+
+Quand la quantité indique en faite une caractéristique de la marchandise (e.g. "vieux" ou "de 14 pieds"), il faut l’intégrer au nom de la marchandise et remplacer la quantité par... une mesure de quantité (souvent "en nombre").
+
+Le numéro de page doit être celui du pdf, pas du document (ce n’est pas systématique dans la retranscription de Narbonne)
+
+Attention à l’inversion de la colonne "Valeur en décimales de livres tournois" et "Valeur (Prix unitaire"
+
+
+
+
+Silvia Octobre 2020 :
+
+Tout d'abord, pour l'accès au document, je vous ai ouvert l'accès via dropbox. Le document s'intitule 1789 - Importations - Direction de Nantes -- AN_F12_1667 (Guillaume, Loïc, on est bien d'accord que c'est les importations et pas les exportations qu'il faut saisir ?? car avec les congés de navires on aura les sorties)
+
+À remarquer qu'il n'y à saisir, sur le document PDF dans la dropbox, que Nantes : Beauvais sur Mer et Le Croisic ont déjà été faits. Donc à saisir: clichés 3 à 10.
+
+Vous verrez que c'est un document complexe. Merci de prendre le temps nécessaire pour comprendre ce qu'il faut faire et n'hésitez pas à revenir vers moi si vous avez des questions.
+
+Je vous joins un masque de saisie avec les deux premiers produits, ce qui devrait rendre l'explication qui suit plus claire.
+
+colonne A: incrément de 1 à chaque ligne
+colonne B: page du document PDF sur la dropbox
+colonne C: data_collector: votre nom à partir de là où vous commencez
+colonne D: year: toujours 1789
+colonne E: toujours import
+colonne F et G : toujours Nantes
+colonne H: nom du produit (première colonne du document PDF)
+
+Chaque ligne du document correspond à un produit dont le document indique le pays de provenance (-> colonne I, partner), le prix unitaire par unité de mesure (colonne K et L, voir plus bas car il y a des précisions pour la saisie), la quantité et la valeur par pays (colonne J et M), puis fait le total dans la dernière colonne (colonne O, voir plus bas aussi).
+
+Dans la saisie, il faut que chaque ligne du tableau excel corresponde à un flux, donc 1 produit et 1 pays.
+Autrement dit, chaque ligne du document peut correspondre à plusieurs lignes du tableau Excel.
+
+Outre les difficultés habituelles de lire les chiffres (repérez bien comment il écrit le 3, 4, 5, 6, 7, 9), ce document présente la difficulté de fournir des prix par unité de mesure : il faut donc réussir à lire les unités de mesure et respecter un certain nombre de consignes pour la saisie sur Excel:
+
+dans le document, la livre tournois (lt) est abrégé par un symbole qui ressemble à deux petits trais parallèles à la vertical (regarder dans le doc, première ligne, sous Hollande/valeur.
+
+Pour les unités de mesure, il faut savoir que
+1 quintal = 100 livres 
+
+Dans le tableau Excel, le prix unitaire dans la colonne L doit toujours être exprimé en LIVRES TOURNOIS. 
+Quand le prix dans la première colonne est indiqué en livres par quintal, mais qu'ensuite la quantité par pays est indiqué en livres (c'est le cas par ex. pour la première ligne, voir document et tableau excel), il faut alors insérer dans la colonne L du fichier excel la valeur unitaire par livre, donc diviser le prix au quintal par 100.  Dans l'ex. de la première ligne, où à côté du nom du produit c'est indiqué un prix unitaire de 30 lt par quintal (abrégé "qal"), il faut donc insérer dans la cellule de la colonne L le chiffre 0.30
+Si le document utilise une autre mesure de monnaie, il faut convertir. En effet, parfois le prix est exprimé en sols. Dans ce cas, attention à bien faire le calcul, en sachant que pour la monnaie:
+1 livre tournois = 20 sous
+1 sou = 12 deniers
+donc pour l'amadou, dont le prix unitaire est indiqué "24 sols la livre", il faut convertir : 24 sous = 1 livre tournois et 4 sous; 4 sous = 1/5 de livre, donc 0.2 livre tournois; donc 24 sous = 1.2 livres. On insère donc "1.2"
+
+La dernière colonne du document indique le montant total par produit. Ce total est rapporté dans la colonne O autant de fois que vous créez de lignes pour le même produit.
+
+La colonne N sert à signaler les cas éventuels où plusieurs quantités font références à la même valeur. Dans ce cas, une quantité par ligne. Ici, « 1 », « 2», etc. Laisser vide si la valeur correspond à une seule quantité. Sinon, ne mettre de valeur que sur la dernière ligne de quantité.
+
+La colonne P sert à noter toute observation qui vous semble nécessaire ou à transcrire toute autre annotation présente sur le document.
+
+Vous ne touchez pas à la colonne Q, mais vous pouvez vous en servir car elle permet de repérer très vite des erreurs de saisies / de conversion d'unité de mesure, ou des erreurs du document. En clair, si la valeur est loin de 0, il y a des erreurs quelques part. 
+
+Enfin, attention cas le greffier n'est pas toujours super-rigoureux dans le respect des colonnes: par ex. pour l'amadou, dans la première colonne "port et pays de France, traites à l'instar de l'étranger", il détaille Marseille et Bayonne (ports francs) en fournissant les quantités et la valeur pour chacun, puis il  fait une accolade pour donner le total en valeur des deux ports.
+
+Pour la lecture des produits, je ne pense pas qu'il y aura des soucis majeurs, mais en cas de doute vous pouvez regarder les formes  existantes en mettant le bout de mot que vous arrivez à lire dans la case « Source » (voir ici, par exemple, pour les amandes) sur le site suivant: http://toflit18.medialab.sciences-po.fr/#/classification/browser?kind=product&selected=product_orthographic&selectedParent=product_source&queryGroup=amandes&queryItem=amandes.*co
+
+Je vous propose de vous coller 3h de saisie (au début ça sera forcément très lent) puis de m'envoyer le fichier pour que les collègues avec qui je travaille sur ce projet(ils sont en copie de ce mail) nous disent ce qu'il faut modifier. Je vous donnerai alors le OK (ou pas...) pour la poursuite du travail.
+
+Prenez svp note du temps que vous passez sur la saisie pour notre compta.
+
+Bien cordialement
+
+Silvia Marzagalli
+
+	Test saisie F12_1667 importations NANTES.xlsx	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	75.0 KiB	
+
