@@ -1,5 +1,5 @@
 orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
-,80,,417
+,79,,79
 ???,3200,???,3201
 ??? blanc,2,??? blanc,2
 ??? brun,2,??? brun,2
@@ -35,7 +35,7 @@ orthographic,nbr_occurences_ortho,simplification,nbr_occurences_simpl
 abassis,4,abassis,4
 abats,2,abats,2
 abattis de morue,1,abattis de morue,1
-abricots,1,,417
+abricots,1,abricots,1
 abricots confits,1,abricots confits,1
 acacia,5,acacia,5
 acacia germanica,1,acacia germanica,1
@@ -133,7 +133,7 @@ agrément de soie et d'argent,1,agrément de soie et d'argent,1
 agrément de soie et fil,1,agrément de fil et de soie,3
 agrément de soie or et argent faux,1,agrément de soie or et argent faux,1
 agrément or et argent,5,agrément d'or et d'argent,5
-agrément pour robes,1,,417
+agrément pour robes,1,agrément pour robes,1
 agrément soie et fil,2,agrément de fil et de soie,3
 agrès,16,agrès,29
 agrès de navire,11,agrès,29
@@ -167,8 +167,8 @@ aiguilles d'emballeur,1,aiguilles d'emballage,2
 aiguilles espars de sapin,1,aiguilles epars de sapin,1
 aiguilles grosses,1,aiguilles grosses,1
 aiguillettes,1,aiguillettes,1
-aiguillettes de cuir,1,,417
-aiguillettes de peau,1,,417
+aiguillettes de cuir,1,aiguillettes de cuir,1
+aiguillettes de peau,1,aiguillettes de peau,1
 ailes,17,ailes,17
 ailes de fléaux,3,ailes de fléaux,3
 ailes de moulins,6,ailes de moulins,6
@@ -552,7 +552,6 @@ armes autres que de guerre à feu,1,armes autres que de guerre à feu,1
 armes autres que de guerre blanches,1,armes autres que de guerre blanches,1
 armes baguettes de fusils,1,fusils,295
 armes baïonnettes,1,baïonnettes,79
-armes blances sabres et couteaux de chasse,1,,417
 armes blanches,168,armes blanches,191
 armes blanches à feu et artillerie,3,armes,347
 armes blanches baïonnettes,2,baïonnettes,79
@@ -573,6 +572,7 @@ armes blanches lames de sabres,4,lames de sabres,4
 armes blanches lances,1,lances,865
 armes blanches sabres,41,sabres,118
 armes blanches sabres et baïonnettes,1,sabres et baïonnettes,1
+armes blanches sabres et couteaux de chasse,1,couteaux de chasse et sabres,1
 armes canons de fer,11,canons de fer,318
 armes canons et affûts,1,affûts et canons,1
 armes canons et balles de fer,1,canons de fer et balles de fer,1
@@ -933,12 +933,12 @@ barilleau,8,barilleau,8
 barils,81,barils,81
 barils à poudre,5,barils à poudre,5
 barils à saler sardines,1,barils pour saler sardines,1
-barils à sardines,1,,417
+barils à sardines,1,barils vides pour sardines,1
 barils ancres,1,barils ancres,1
 barils de chêne,1,barils de chêne,1
 barils de sapin,1,barils de sapin,1
 barils de vin de ???,3,barils de vin de ???,4
-barils en bottes,1,,417
+barils en bottes,1,barils en bottes,1
 barils neufs,1,barils neufs,1
 barils petits,2,barils petits,2
 barils vides,121,barils vides,121
@@ -1002,10 +1002,10 @@ bas assortis de toute qualité,1,bas,84
 bas communs,2,bas communs,2
 bas coton,2,bas de coton,706
 bas coton et fil,2,bas de coton et bas de fil,363
-bas d'estame,69,bas d'estame,69
+bas d'estame,69,bas d'estame,70
 bas d'estame fins,2,bas d'estame fins,2
-bas d'estames gros,1,,417
-bas d'estames grossiers,1,,417
+bas d'estame gros,1,bas d'estame grossiers,2
+bas d'estame grossiers,1,bas d'estame grossiers,2
 bas d'étoffe,1,bas d'étoffe,1
 bas de bonnets de coton,1,bas et bonnets de coton,1
 bas de bourre de soie,2,bas de bourre de soie,7
@@ -1014,7 +1014,7 @@ bas de castor,24,bas de castor,24
 bas de chamois,19,bas de chamois,19
 bas de coton,653,bas de coton,706
 bas de coton de femme,1,bas de coton de femme,1
-bas de coton en paires,0,,417
+bas de coton en paires,0,,79
 bas de coton et fil,22,bas de coton et bas de fil,363
 bas de coton fil,2,bas de coton et bas de fil,363
 bas de coton fil et soie,1,bas de coton et bas de fil et bas de soie,1
@@ -1027,14 +1027,14 @@ bas de fil à coton,20,bas de coton et bas de fil,363
 bas de fil commun,21,bas de fil commun,21
 bas de fil d'or,2,bas de fil d'or,2
 bas de fil de coton,6,bas de coton et bas de fil,363
-bas de fil de coton par paires,0,,417
+bas de fil de coton par paires,0,,79
 bas de fil divers,1,bas de fil divers,1
-bas de fil en paires,0,,417
+bas de fil en paires,0,,79
 bas de fil et bonnets,2,bas de fil et bonnets,2
 bas de fil et coton,296,bas de coton et bas de fil,363
 bas de fil et laine,2,bas de fil et bas de laine,2
-bas de fil étrillés,9,,417
-bas de fil étrillés communs,1,,417
+bas de fil étrillés,9,bas de fil étrillés,9
+bas de fil étrillés communs,1,bas de fil étrillés communs,1
 bas de fil par paires,1,bas de fil,848
 bas de fil pour femme,2,bas de fil et pour femme,2
 bas de fil pour homme,1,bas de fil et pour homme,1
@@ -1053,11 +1053,11 @@ bas de laine et coton,1,bas de coton et laine,1
 bas de laine fins,17,bas de laine fin,18
 bas de laine gros,1,bas de laine grossière,25
 bas de laine grossière,4,bas de laine grossière,25
-bas de laine grossière pour enfant,2,,417
-bas de laine grossière pour homme,1,,417
+bas de laine grossière pour enfant,2,bas de laine grossière pour enfant,2
+bas de laine grossière pour homme,1,bas de laine grossière pour homme,1
 bas de laine grossiers,20,bas de laine grossière,25
-bas de laine par paires,0,,417
-bas de laine pour femme,1,,417
+bas de laine par paires,0,,79
+bas de laine pour femme,1,bas de laine pour femme,1
 bas de mulet,1,bas de mulet,1
 bas de peau,23,bas de peau,23
 bas de poil,9,bas de poil,9
@@ -1098,7 +1098,7 @@ bas fil et coton,14,bas de coton et bas de fil,363
 bas gants et bonnets de laine,2,bas de laine et gants de laine et bonnets de laine,2
 bas gants et bonnets de laine fil et coton,16,bas gants et bonnets de laine fil et coton,16
 bas grossiers,4,bas grossiers,4
-bas laine par paires,0,,417
+bas laine par paires,0,,79
 bas poil et soie,2,bas de poil et bas de soie,3
 bas pour femme,2,bas pour femme,2
 bas pour homme,2,bas pour homme,2
@@ -1170,9 +1170,9 @@ bateaux de pêche,2,bateaux à pêcher,6
 bateaux de pêcheur,1,bateaux à pêcher,6
 bateaux démontés,1,acons démontés,21
 bateaux neufs,40,bateaux neufs,40
-bateaux petits,3,,417
-bateaux petits à pêcher,1,,417
-bateaux petits démonts,3,,417
+bateaux petits,3,bateaux petits,3
+bateaux petits à pêcher,1,bateaux à pêcher petits,1
+bateaux petits démontés,3,bateaux petits démontés,3
 bâtiment de mer,1,bâtiments de mer,21
 bâtiments de mer,20,bâtiments de mer,21
 bâtiments de mer et agrès,10,agrès et bâtiments de mer,10
@@ -1226,7 +1226,7 @@ batterie de fer,14,batterie de fer,17
 batterie de fer coulé,2,batterie de fer coulé,2
 batterie en plaque,1,batterie en plaque,1
 battes à fer,1,battes à fer,1
-battes de jeu de paume,1,,417
+battes de jeu de paume,1,battes de jeu de paume,1
 battoirs,1,battoirs,1
 battoirs à lessive,1,battoirs à lessive,1
 baudands,1,baudriers,29
@@ -1351,7 +1351,7 @@ bestiaux divers mules mulets et ânes,1,mules et mulets et ânes,1
 bestiaux divers mulets,1,mulets,122
 bestiaux divers porcs,2,porcs,281
 bestiaux divers porcs de lait,1,porcs de lait,156
-bestiaux divers porcs et porcelets,1,porcs et porcelets,1
+bestiaux divers porcs et porcelets,1,porcelets et porcs,20
 bestiaux divers poulains,2,poulains,210
 bestiaux divers taureaux,4,taureaux,68
 bestiaux divers vaches,4,vaches,659
@@ -1377,7 +1377,7 @@ bestiaux en mouton,11,mouton,426
 bestiaux en mouton et brebis,1,brebis et mouton,14
 bestiaux en porcelets,2,porcelets,86
 bestiaux en porcs,15,porcs,281
-bestiaux en porcs et porcelets,2,porcelets et porcs,19
+bestiaux en porcs et porcelets,2,porcelets et porcs,20
 bestiaux en porcs gras,2,porcs gras,295
 bestiaux en porcs maigres,1,porcs maigres,20
 bestiaux en taureaux,6,taureaux,68
@@ -1428,7 +1428,7 @@ bestiaux mulets,1,mulets,122
 bestiaux mulets jeunes,1,mulets jeunes,2
 bestiaux porcelets,6,porcelets,86
 bestiaux porcs,47,porcs,281
-bestiaux porcs et porcelets,15,porcelets et porcs,19
+bestiaux porcs et porcelets,15,porcelets et porcs,20
 bestiaux porcs gras,20,porcs gras,295
 bestiaux porcs maigres,2,porcs maigres,20
 bestiaux poulains,2,poulains,210
@@ -1657,11 +1657,11 @@ blé meteil,1,grains méteil,52
 blé méteil,33,grains méteil,52
 blé méture,1,grains méteil,52
 blé millet,5,grains froment,3686
-blé noir,17,grains sarrasin,69
+blé noir,17,grains sarrasin,70
 blé orge,1,grains orge,106
 blé orge par Marseille,1,grains orge par Marseille,1
 blé roux,1,blé roux,1
-blé sarrasin,33,grains sarrasin,69
+blé sarrasin,33,grains sarrasin,70
 blé seigle,479,grains seigle,2189
 blé seigle avarié,1,grains seigle avarié,1
 blé seigle en gerbes,1,grains seigle en gerbe,1
@@ -1800,7 +1800,7 @@ bois à construire scié ayant plus de 8 centimètres d'épaisseur,1,bois pour c
 bois à corbeilles,1,bois pour corbeilles,4
 bois à corbin,2,bois pour corbin,27
 bois à cribles,4,bois pour crible,60
-bois à demi ouvré,1,,417
+bois à demi ouvré,1,ouvrages de bois,862
 bois à faire barils,0,bois pour barils,17
 bois à faire bats,3,bois pour bats,4
 bois à faire boîtes,3,bois pour boîtes,3
@@ -1832,7 +1832,7 @@ bois à la valeur,4,bois,6479
 bois à lit,1,bois pour lit,1
 bois à mâts,1,bois pour mâts,2
 bois à mâture,1,bois pour mâts,2
-bois à merrains,1,,417
+bois à merrains,1,bois à merrains,1
 bois à meubler en madriers,1,madriers de bois pour meubles,2
 bois à meubles,12,bois pour meubles,23
 bois à meubles en billes,2,billes de bois pour meubles,3
@@ -1891,9 +1891,9 @@ bois bresillet,1,bresillet,1
 bois brun,1,bois brun,2
 bois buis,1,bois brun,2
 bois Caliatour,1,bois de Caliatour,88
-bois Campêche,5,bois de Campêche,1150
+bois Campêche,5,bois de Campêche,1151
 bois Campêche en bûches,1,bois de Campêche en bûches,27
-bois Campêche moulu,1,bois de Campêche moulu,22
+bois Campêche moulu,1,bois de Campêche moulu,48
 bois cavettes,2,cavettes de bois,3
 bois cercles,4,cercles de bois,863
 bois chevrons,1,chevrons de bois,11
@@ -1906,7 +1906,7 @@ bois commun de pin et sapin scié et de cham,1,bois commun de pin et sapin de ch
 bois corbin,1,bois corbin,1
 bois cordayer,2,bois cordayer,2
 bois courbé,1,bois courbé,1
-bois d'acajou,142,bois d'acajou,157
+bois d'acajou,142,bois d'acajou,158
 bois d'acajou à madriers,1,bois d'acajou pour madrier,1
 bois d'acajou à planches,1,bois d'acajou pour planche,1
 bois d'acajou baignoires,1,baignoires d'acajou,1
@@ -1946,7 +1946,7 @@ bois d'aspatton,1,bois d'aspatton,1
 bois d'ébène,226,bois d'ébène,232
 bois d'ébène en bûches,1,bois d'ébène en bûches,1
 bois d'ébénisterie d'acajou brut,6,bois d'acajou brut,6
-bois d'ébénisterie d'acajou brut ou équarri à la hache,3,bois d'acajou,157
+bois d'ébénisterie d'acajou brut ou équarri à la hache,3,bois d'acajou,158
 bois d'ébénisterie d'acajou brut ou équarri à la hache des entrepôts français,0,bois d'acajou des entrepôts,0
 bois d'ébénisterie d'acajou scié,4,bois d'acajou scié,4
 bois d'ébénisterie de buis,6,bois de buis,233
@@ -1961,9 +1961,9 @@ bois d'ébénisterie scié,2,bois d'ébénisterie scié,2
 bois d'écarage,1,bois d'écarage,1
 bois d'érable,1,bois d'érable,1
 bois d'espars,6,bois d'espars,6
-bois d'espars de 30 à 40 pieds,1,,417
-bois d'espars de 40 pieds,1,,417
-bois d'espars de 45 pieds,1,,417
+bois d'espars de 30 à 40 pieds,1,bois d'espars de 30 à 40 pieds,1
+bois d'espars de 40 pieds,1,bois d'espars de 40 pieds,1
+bois d'espars de 45 pieds,1,bois d'espars de 45 pieds,1
 bois d'esquine,4,bois d'esquine,4
 bois d'éventails,2,bois pour éventail,2
 bois d'éventails de nacre de perles,1,bois pour éventail de nacre de perle,1
@@ -2002,11 +2002,11 @@ bois de Caliatour,84,bois de Caliatour,88
 bois de Caliatour en bûches,3,bois de Caliatour en bûche,3
 bois de Caliatour moulu,27,bois de Caliatour moulu,27
 bois de Caliatour râpé,4,bois de Caliatour râpé,4
-bois de Campêche,1096,bois de Campêche,1150
+bois de Campêche,1096,bois de Campêche,1151
 bois de Campêche en bûches,26,bois de Campêche en bûches,27
-bois de Campêche en moulu,1,bois de Campêche moulu,22
-bois de Campêche moulu,20,bois de Campêche moulu,22
-bois de Campêche râpé,26,bois de Campêche râpé,26
+bois de Campêche en moulu,1,bois de Campêche moulu,48
+bois de Campêche moulu,20,bois de Campêche moulu,48
+bois de Campêche râpé,26,bois de Campêche moulu,48
 bois de camphre,1,bois de camphre,1
 bois de canet,1,bois de canet,1
 bois de cannelle,1,bois de cannelle,1
@@ -2030,7 +2030,7 @@ bois de châtaignier en planches,1,planches de châtaignier,7
 bois de chauffage,1037,bois pour brûler,2267
 bois de chêne,121,bois de chêne,124
 bois de chêne 30 pieds,1,bois de chêne 30 pieds,1
-bois de chêne à bâtir,3,bois de chêne de construction,4
+bois de chêne à bâtir,3,bois de chêne pour construction,11
 bois de chêne à battes,1,bois pour battes de chêne,1
 bois de chêne à poutres,1,bois de chêne à poutres,1
 bois de chêne à sommiers,2,bois de chêne à sommiers,2
@@ -2046,7 +2046,7 @@ bois de chêne de 30 pieds,1,bois de chêne de 30 pieds,1
 bois de chêne de 40 pieds,1,bois de chêne de 40 pieds,1
 bois de chêne de 5 pieds morceaux,1,bois de chêne en morceaux de 5 pieds,1
 bois de chêne de charpente,1,bois de chêne de charpente,1
-bois de chêne de construction,1,bois de chêne de construction,4
+bois de chêne de construction,1,bois de chêne pour construction,11
 bois de chêne en bordages,3,bordage de chêne,117
 bois de chêne en bouts,2,bois de chêne en bouts,2
 bois de chêne en bûches,5,bois de chêne en bûches,5
@@ -2063,11 +2063,11 @@ bois de chêne merrains,1,merrains de chêne,7
 bois de chêne morceaux,1,bois de chêne en morceaux,2
 bois de chêne ouvré,1,ouvrages de chêne,1
 bois de chêne planches,2,planches de chêne,352
-bois de chêne pour bateaux,1,,417
+bois de chêne pour bateaux,1,bois de chêne pour construction navale,3
 bois de chêne pour bordage,1,bois de chêne pour bordage,2
-bois de chêne pour charpente,1,bois de chêne pour construction,7
-bois de chêne pour construction,6,bois de chêne pour construction,7
-bois de chêne pour la marine,2,,417
+bois de chêne pour charpente,1,bois de chêne pour construction,11
+bois de chêne pour construction,6,bois de chêne pour construction,11
+bois de chêne pour la marine,2,bois de chêne pour construction navale,3
 bois de chêne rond,8,bois de chêne rond,8
 bois de chêne scié,2,bois de chêne scié,2
 bois de chêne suivant la longueur,1,bois de chêne,124
@@ -2178,7 +2178,7 @@ bois de marguerite,1,bois de marguerite,1
 bois de marine,0,bois pour mâture,5
 bois de mariombre,1,bois de mariombre,1
 bois de marqueterie,86,bois de marqueterie,86
-bois de marqueterie en acajou,1,bois d'acajou,157
+bois de marqueterie en acajou,1,bois d'acajou,158
 bois de mâture,5,bois pour mâture,5
 bois de mazembie,1,bois de mazembie,1
 bois de Melle,1,bois de melle,1
@@ -2304,7 +2304,7 @@ bois de tables doré,1,bois de tables doré,1
 bois de tamis,1,bois de tamis,1
 bois de teindre,1,bois de teinture,132
 bois de teinture,119,bois de teinture,132
-bois de teinture de Campêche,4,bois de Campêche,1150
+bois de teinture de Campêche,4,bois de Campêche,1151
 bois de teinture de fustet,1,bois de fustet pour teinture,1
 bois de teinture de Sainte-Marthe en bûches,1,bois de Sainte-Marthe pour teinture,2
 bois de teinture divers,2,bois de teinture,132
@@ -2334,10 +2334,10 @@ bois de toute sorte déclaré par valeur,24,bois,6479
 bois de violette,25,bois de violette,25
 bois des fagots,1,fagots de bois,21
 bois des Îles,11,bois des Indes,514
-bois des Îles d'acajou,1,bois d'acajou,157
+bois des Îles d'acajou,1,bois d'acajou,158
 bois des Îles d'Angola,1,bois d'Angola,2
 bois des Îles de Brésil,1,bois de Brésil,618
-bois des Îles de Campêche,4,bois de Campêche,1150
+bois des Îles de Campêche,4,bois de Campêche,1151
 bois des Îles de fustet,2,bois de fustet,63
 bois des Îles de Pernambouc,2,bois de Pernambouc,239
 bois des Îles de teinture,3,bois des Indes de teinture,17
@@ -2345,13 +2345,13 @@ bois des Îles de teinture moulu,1,bois des Indes de teinture moulu,1
 bois des Îles divers,6,bois des Indes,514
 bois des Îles en bûches,2,bois des Indes en bûches,18
 bois des Îles et des Indes,371,bois des Indes,514
-bois des Îles et des Indes Campêche,1,,417
-bois des Îles et des Indes d'acajou,1,,417
+bois des Îles et des Indes Campêche,1,bois de Campêche,1151
+bois des Îles et des Indes d'acajou,1,bois d'acajou,158
 bois des Îles et des Indes d'ébène,0,bois d'ébène,232
 bois des Îles et des Indes d'ébénisterie,32,bois d'ébénisterie et des Indes,32
 bois des Îles et des Indes de Brésil,4,bois de Brésil,618
 bois des Îles et des Indes de Caliatour,0,bois de Caliatour,88
-bois des Îles et des Indes de Campêche,0,bois de Campêche,1150
+bois des Îles et des Indes de Campêche,0,bois de Campêche,1151
 bois des Îles et des Indes de fustet,0,bois de fustet,63
 bois des Îles et des Indes de gaïac,0,bois de gaïac,371
 bois des Îles et des Indes de Pernambouc,2,bois de Pernambouc,239
@@ -2373,10 +2373,10 @@ bois des Îles rouge,1,bois rouge,155
 bois des Îles Sainte-Marthe,1,bois des Sainte-Marthe,1
 bois des Îles santal,2,bois de santal,237
 bois des Indes,97,bois des Indes,514
-bois des Indes d'acajou,1,bois d'acajou,157
+bois des Indes d'acajou,1,bois d'acajou,158
 bois des Indes d'ébène,4,bois d'ébène,232
 bois des Indes de Caliatour,3,bois de Caliatour,88
-bois des Indes de Campêche,22,bois de Campêche,1150
+bois des Indes de Campêche,22,bois de Campêche,1151
 bois des Indes de Fondal,2,bois de Fondal,2
 bois des Indes de fustet,8,bois de fustet,63
 bois des Indes de gaïac,7,bois de gaïac,371
@@ -2395,7 +2395,7 @@ bois des Indes jaune,6,bois des Indes jaune,13
 bois des Indes moulu,9,bois des Indes moulu,10
 bois des Indes moulu en bûches,1,bois des Indes moulu en bûches,1
 bois des Indes moulu moulu,1,bois des Indes moulu,10
-bois des Indes pour peintures et marqueterie de Campêche,12,bois de Campêche,1150
+bois des Indes pour peintures et marqueterie de Campêche,12,bois de Campêche,1151
 bois des Indes pour peintures et marqueterie de fustet,1,bois de fustet,63
 bois des Indes pour peintures et marqueterie de gaïac,5,bois de gaïac,371
 bois des Indes pour peintures et marqueterie de Pernambouc,11,bois de Pernambouc,239
@@ -2404,8 +2404,8 @@ bois des Indes pour peintures et marqueterie de santal,3,bois de santal,237
 bois des Indes pour peintures et marqueterie jaune,2,bois des Indes jaune,13
 bois des Indes pour peintures et marqueterie rose,1,bois des Indes rose,1
 bois des Indes pour peintures et marqueterie rouge,5,bois des Indes rouge,5
-bois des Indes pour teinture et marqueterie d'acajou,9,bois d'acajou,157
-bois des Indes pour teinture et marqueterie de Campêche,7,bois de Campêche,1150
+bois des Indes pour teinture et marqueterie d'acajou,9,bois d'acajou,158
+bois des Indes pour teinture et marqueterie de Campêche,7,bois de Campêche,1151
 bois des Indes pour teinture et marqueterie de coco,1,bois de coco,2
 bois des Indes pour teinture et marqueterie de fustet,7,bois de fustet,63
 bois des Indes pour teinture et marqueterie de gaïac,2,bois de gaïac,371
@@ -2654,17 +2654,17 @@ bois odorants et autres (sassafras etc.),2,bois odorants,4
 bois odorants sans désignation,2,bois odorants,4
 bois ordinaire morceaux de 6 à 7 pieds,1,morceaux de bois ordinaire de 6 à 7 pieds,1
 bois osier,35,bois osier,35
-bois ouvrages divers,1,ouvrages de bois,861
-bois ouvré,242,ouvrages de bois,861
+bois ouvrages divers,1,ouvrages de bois,862
+bois ouvré,242,ouvrages de bois,862
 bois ouvré à bâtir,1,ouvrages de bois pour le bâtiment,1
-bois ouvré autres ouvrages,2,ouvrages de bois,861
+bois ouvré autres ouvrages,2,ouvrages de bois,862
 bois ouvré avirons et rames et brut,1,avirons et rames de bois,1
 bois ouvré avirons et rames et façonné,2,avirons et rames de bois façonné,2
 bois ouvré balais communs,2,balais de bois,39
 bois ouvré boisellerie,7,boisellerie,7
 bois ouvré boites de bois blanc,2,boites de bois blanc,2
 bois ouvré commodes,1,commodes de bois,1
-bois ouvré divers,2,ouvrages de bois,861
+bois ouvré divers,2,ouvrages de bois,862
 bois ouvré en barres de cabestan,2,barres de cabestan,72
 bois ouvré et aviron et brut,1,avirons de bois,60
 bois ouvré et aviron et façonné,1,avirons de bois façonné,1
@@ -2672,15 +2672,15 @@ bois ouvré et futailles vides montées et cerclées en bois,1,futailles de bois
 bois ouvré et futailles vides montées et cerclées en fer,1,futailles de bois cerclées de fer montées vides,1
 bois ouvré futailles vides démontées,2,futailles de bois démontées vides,2
 bois ouvré futailles vides montées,2,futailles de bois montées vides,2
-bois ouvré moules de boutons,2,moules de boutons de bois,2
+bois ouvré moules de boutons,2,moules de boutons de bois,3
 bois ouvré pour bâtir,1,ouvrages de bois pour bâtir,1
 bois ouvré pour bâts,1,bâts de bois,1
 bois ouvré pour charpente,1,ouvrages de bois pour charpente,1
-bois ouvré sans désignation,3,ouvrages de bois,861
-bois ouvré sans distinction,2,ouvrages de bois,861
+bois ouvré sans désignation,3,ouvrages de bois,862
+bois ouvré sans distinction,2,ouvrages de bois,862
 bois ouvré tables,1,tables de bois,27
-bois ouvrés,58,ouvrages de bois,861
-bois ouvrés divers,19,ouvrages de bois,861
+bois ouvrés,58,ouvrages de bois,862
+bois ouvrés divers,19,ouvrages de bois,862
 bois ouvrés divers en perches échalas échasses,9,perches de bois et échalas de bois et échasses de bois,9
 bois palissandre,1,bois palissandre,1
 bois perches à houblon,1,perches de bois pour houblon,1
@@ -2882,8 +2882,8 @@ bonneterie bonnets de fil,4,bonnets de fil,69
 bonneterie bonnets de laine,1,bonnets de laine,735
 bonneterie bourses,1,bourses,2
 bonneterie bourses de soie,1,bourses de soie,27
-bonneterie d'estam,1,bonneterie d'estam,1
-bonneterie d'estam bas,1,bas d'estam,1
+bonneterie d'estame,1,bonneterie d'estame,1
+bonneterie d'estame bas,1,bas d'estame,70
 bonneterie de bourre de fil,1,bonneterie de bourre de fil,1
 bonneterie de bourre de soie,5,bonneterie de bourre de soie,5
 bonneterie de bourre de soie bas,3,bas de bourre de soie,7
@@ -3266,26 +3266,26 @@ bouteilles de grès,9,bouteilles de grès,16
 bouteilles de gros verre,8,bouteilles de verre gros,13
 bouteilles de marbre,1,bouteilles de marbre,1
 bouteilles de terre,9,bouteilles de terre,9
-bouteilles de verre,1121,bouteilles de verre,1192
+bouteilles de verre,1121,bouteilles de verre,1311
 bouteilles de verre à virole,1,bouteilles de verre à virole,1
 bouteilles de verre à virole d'étain,3,bouteilles de verre à virole d'étain,3
 bouteilles de verre avec roseaux,4,bouteilles de verre avec roseaux,4
-bouteilles de verre clissée de quatre pots chacune,1,,417
+bouteilles de verre clissée de quatre pots chacune,1,bouteilles de verre clissée de quatre pots chacune,1
 bouteilles de verre clissées,13,bouteilles de verre clissées,13
-bouteilles de verre communes,1,,417
+bouteilles de verre communes,1,bouteilles de verre,1311
 bouteilles de verre garnies de joncs,1,bouteilles de verre garnies de joncs,1
 bouteilles de verre gros,5,bouteilles de verre gros,13
 bouteilles de verre vides,5,bouteilles de verre vides,5
 bouteilles diverses,1,bouteilles,97
 bouteilles en dame-jeannes,1,dame-jeannes,328
-bouteilles en verre,3,bouteilles de verre,1192
+bouteilles en verre,3,bouteilles de verre,1311
 bouteilles fioles,1,fioles,2
 bouteilles lissées de retour,1,bouteilles lissées de retour,1
 bouteilles noires,2,bouteilles noires,2
 bouteilles peintes,1,bouteilles peintes,1
 bouteilles petites à virole d'étain,2,bouteilles petites à virole d'étain,2
 bouteilles pleines,5,bouteilles pleines,7
-bouteilles verre,10,bouteilles de verre,1192
+bouteilles verre,10,bouteilles de verre,1311
 bouteilles vides,28,bouteilles vides,29
 boutidas,1,boutidas,1
 boutonnières d'or,3,boutonnières d'or,3
@@ -3326,7 +3326,7 @@ boutons de bois,2,boutons de bois,3
 boutons de bois de coco,3,boutons de coco,63
 boutons de coco,60,boutons de coco,63
 boutons de composition,3,boutons de composition,3
-boutons de corail,2,,417
+boutons de corail,2,boutons de corail,2
 boutons de corne,5,boutons de corne,5
 boutons de coton,1,boutons de coton,1
 boutons de crin,206,boutons de crin,213
@@ -3344,7 +3344,7 @@ boutons de cuivre dorés,1,boutons de cuivre doré,14
 boutons de cuivre et d'étain,25,boutons de cuivre et boutons d'étain,25
 boutons de cuivre et d'étain argentés,57,boutons de cuivre et boutons d'étain argenté,57
 boutons de cuivre fin,2,boutons de cuivre fin,2
-boutons de cuivre petits,1,,417
+boutons de cuivre petits,1,boutons de cuivre petits,1
 boutons de cuivre sur bois,10,boutons de cuivre sur bois,10
 boutons de cuivre sur bois et d'os de coco et de corne,7,bouton de cuivre sur bois et de coco et de corne et d'os,7
 boutons de fil,126,boutons de fil,127
@@ -3665,12 +3665,12 @@ cabas d'auf,2,cabas d'auf,2
 cabas d'espars,1,cabas d'espars,1
 cabas de jonc,23,cabas de jonc,34
 cabas de laine,1,cabas de laine,1
-cabas de mesure,3,,417
+cabas de mesure,3,cabas de mesure,3
 cabas de palme,37,cabas de palme,37
-cabas de palme mesure,1,,417
+cabas de palme mesure,1,cabas de palme mesure,1
 cabas de palme petits,3,cabas de palme petits,3
-cabas de serge,1,,417
-cabas petits,1,,417
+cabas de serge,1,cabas de serge,1
+cabas petits,1,cabas vieux,1
 cabestan,3,cabestan,3
 cabestan en barres,1,barres de cabestan,72
 cabillaud,360,cabillaud,360
@@ -3688,7 +3688,7 @@ cabinet du Japon,1,cabinet du Japon,1
 cabinet noyer,1,cabine de noyer,2
 cabinet peint,7,cabinet peint,7
 cabinet verni,3,cabinet verni,3
-cabinet vieux,1,,417
+cabinet vieux,1,cabinet vieux,1
 câble,31,câble,31
 câble assorti,1,câble assorti,1
 câble de 12 pouces de grosseur,2,câble de 12 pouces de grosseur,2
@@ -3707,9 +3707,9 @@ cabotage,5,cabotage,21
 cabriolets,49,cabriolets,49
 cabriolets velours de Prusse,1,cabriolets de velours de Prusse,1
 cabrions,1,cabrions,1
-cabrouets,5,cabrouets,5
+cabrouets,5,cabrouets,6
 cabrouets complets,1,cabrouets complets,1
-cabrouets montés,1,,417
+cabrouets montés,1,cabrouets,6
 cacao,2542,cacao,2632
 cacao (pelure de),1,pelure de cacao,1
 cacao avarié,2,cacao avarié,2
@@ -3766,7 +3766,7 @@ café d'Amérique,33,café d'Amérique,55
 café de Bourbon,211,café de Bourbon,261
 café de Bourbon et bois d'ébène,43,café de Bourbon et bois d'ébène,43
 café de Dominique,1,café de la Dominique,1
-café de l'Orient,1,,417
+café de l'Orient,1,café du Levant,110
 café de la Martinique,20,café de la Martinique,20
 café de Moka,247,café de Moka,254
 café de Moka avarié,2,café de Moka avarié,2
@@ -3776,7 +3776,7 @@ café des Îles,1497,café des Indes,1510
 café des Îles de retour,1,café des Îles de retour,1
 café des Indes,12,café des Indes,1510
 café divers,6,café,5867
-café du Levant,109,café du Levant,109
+café du Levant,109,café du Levant,110
 café en Bourbon,1,café de Bourbon,261
 café en parchemin,20,café en parchemin,20
 café et cacao,43,café et cacao,43
@@ -3814,22 +3814,20 @@ cailles,3,cailles,5
 cailloux,1,cailloux,1
 cailloux à faïence ou à porcelaine,2,cailloux à faïence ou porcelaine,2
 cailloux et sable à faïence ou à porcelaine,2,cailloux et sable à faïence ou porcelaine,2
-caise,1,,417
 caisse,5,caisse,5
 caisse à carafons,1,caisse à carafons,1
 caisse à finance,2,caisse à finance,2
+caisse à mouches à miel,1,ruches,25
 caisse de berline et train,1,caisse de berline et train,1
 caisse de bois de sapin,3,caisse de sapin,9
 caisse de carrosses,3,caisse de carrosses,3
-caisse de liège,1,caisse de liège,1
-caisse de liège à carafons,10,,417
+caisse de liège,2,caisse de liège,2
+caisse de liège à carafons,10,caisse de liège à carafons,11
 caisse de sapin,6,caisse de sapin,9
+caisse du reve de lagne,1,caisse du reve de lagne,1
+caisse et carafon de liège,1,caisse de liège à carafons,11
 caisse et têtes de carton,2,caisse et têtes de carton,2
 caisse vide,12,caisse vide,12
-caisses à mouches à miel,1,,417
-caisses de liège,1,,417
-caisses du reve de lagne,1,caisses du reve de lagne,1
-caisses et carafon de liège,1,,417
 caissettes pour balz,1,caissettes pour balz,1
 cal d'artichaut,1,cal d'artichaut,1
 caladaris,72,caladaris,101
@@ -3928,7 +3926,7 @@ camisoles à nègre,1,camisoles pour nègre,1
 camisoles de laine,3,camisoles de laine,3
 camisoles de toile,1,camisoles de toile,1
 camisoles et redingotes,7,camisoles et redingotes,7
-camisolettes,1,,417
+camisolettes,1,camisolettes,1
 Campêche,2,Campêche,2
 camphre,294,camphre,318
 camphre brut,21,camphre brut,21
@@ -4164,7 +4162,7 @@ caractères d'imprimerie neufs en langue française,2,caractères à imprimerie 
 caractères hors d'usage,1,caractères à imprimerie hors d'usage,5
 carafes de verre,1,carafes de verre,1
 carafes de verre blanc,1,carafes de verre blanc,1
-carafons,1,,417
+carafons,1,carafons,1
 caramel,1,caramel,1
 carants en lanjents,1,carants et lanjents,1
 carbonate d'ammoniaque (sel volatil),3,carbonate d'ammoniaque,4
@@ -4185,7 +4183,7 @@ cardes à drapier,1,cardes à drapier,1
 cardes carder,1,cardes à carder,331
 cardes de bois et fil de fer,117,cardes de bois et de fil de fer,117
 cardes de chanvre,1,cardes de chanvre,1
-cardes de fil à étirer,1,,417
+cardes de fil à étirer,1,cardes de fil à étirer,1
 cardes et cardons champêtres,97,cardes et cardons champêtres,97
 cardes neuves,7,cardes neuves,7
 cardes vieilles,18,cardes vieilles,18
@@ -4219,7 +4217,7 @@ carny,2,carny,2
 carols,1,carols,1
 caroos,1,carrosses,202
 caroots,2,caroots,2
-carosses et harnais,1,,417
+carosses et harnais,1,corosses et harnais,1
 carotte,13,carotte,13
 carotte d'enfant,1,carotte d'enfant,1
 carou,1,carou,1
@@ -4247,8 +4245,8 @@ carreaux de faïence,89,carreaux de faïence,94
 carreaux de genièvre,1,carreaux de genièvre,1
 carreaux de gros marbre,1,carreaux de marbre gros,1
 carreaux de marbre,191,carreaux de marbre,202
-carreaux de marbre à paver,71,carreaux de marbre à paver,71
-carreaux de marbre à poser,1,,417
+carreaux de marbre à paver,71,carreaux de marbre à paver,72
+carreaux de marbre à poser,1,carreaux de marbre à paver,72
 carreaux de marbre bâtard,1,carreaux de marbre bâtard,4
 carreaux de marbre pour le Roi,1,carreaux de marbre pour le Roi,1
 carreaux de moulage,1,carreaux de moulage,1
@@ -4273,7 +4271,7 @@ carreaux des prises,1,carreaux des prises,1
 carreaux en nombre,1,carreaux en nombre,1
 carreaux en pierre,1,carreaux de pierre,50
 carreaux et briques,6,briques et carreaux,6
-carreaux façon de marbre,1,,417
+carreaux façon de marbre,1,carreaux façon de marbre,1
 carreaux Ile de France,1,carreaux d'Île de France,1
 carreaux meulage de Brie,1,carreaux meulage de Brie,1
 carreaux meulage de France,2,carreaux meulage de France,2
@@ -4348,7 +4346,7 @@ casaques et capots,2,capot et casaques,2
 casaques pour matelot,1,casaques pour matelot,1
 casaquin,3,casaquin,3
 cascarilles,43,cascarilles,43
-case,7,casse,105
+case,8,casse,106
 casely,1,casely,1
 casimir,1,casimir,8
 casimirs,1,casimir,8
@@ -4356,7 +4354,7 @@ casimirs de laine et mérinos,1,casimir de laine et mérinos,1
 casques à nègre,1,casques à nègre,1
 casques et cuirasses,2,casques et cuirasses,2
 cassave,4,cassave,4
-casse,86,casse,105
+casse,86,casse,106
 casse de fer,3,casse de fer,3
 casse de laiton,1,casse de laiton,1
 casse drogues,4,canefice,637
@@ -4366,7 +4364,7 @@ casse étoffe,4,casse étoffe,4
 casse garnie,1,casse garnie,1
 casse ou canefice,8,canefice,637
 casse remède,2,canefice,637
-casse sans apprêt,4,casse,105
+casse sans apprêt,4,casse,106
 casse sans apprêt des entrepôts,0,casse des entrepôts,0
 cassedis,1,cassedis,1
 cassi matia,1,cassi matia,1
@@ -4491,7 +4489,7 @@ ceinturons de laine,1,ceinturons de laine,1
 ceinturons de peau,1,ceinturons de peau,1
 ceinturons de soie,8,ceinturons de soie,8
 ceinturons et bandoulières,65,ceinturons et bandoulières,65
-ceinturons et gibernes,1,,417
+ceinturons et gibernes,1,ceinturons et gibernes,1
 ceinturons piqués,1,ceinturons piqués,1
 ceinturons unis,2,ceinturons unis,2
 céleris,35,céleris,35
@@ -4908,7 +4906,7 @@ chanvre frisé,1,chanvre frisé,1
 chanvre ouvré,1,ouvrages de chanvre,1
 chanvre ouvré en masses,1,ouvrages de chanvre en masse,1
 chanvre ouvré en rames,1,ouvrages de chanvre en rames,1
-chanvre peigné,652,chanvre peigné,652
+chanvre peigné,653,chanvre peigné,653
 chanvre piqué,2,chanvre piqué,2
 chanvre première qualité,4,chanvre première qualité,4
 chanvre préparé,3,chanvre préparé,3
@@ -5102,7 +5100,7 @@ charbon de bois ou de chènevotte en hectolitres,2,charbon de bois ou de chènev
 charbon de bois ou de chènevotte en kilogrammes,2,charbon de bois ou de chènevotte en kilogrammes,2
 charbon de boulanger,1,charbon de boulanger,1
 charbon de boulanger et braisette,10,charbon de boulanger et braisette,10
-charbon de forge,1,,417
+charbon de forge,1,charbon de forge,1
 charbon de pierre,57,charbon de pierre,57
 charbon de pin,10,charbon de pin,10
 charbon de terre,1744,charbon de terre,1761
@@ -5205,7 +5203,7 @@ chausseterie,1,chausseterie,1
 chaussettes,15,chaussettes,15
 chaussettes de coton,2,chaussettes de coton,2
 chaussettes de fil,119,chaussettes de fil,119
-chaussettes de fil par paires,0,,417
+chaussettes de fil par paires,0,,79
 chaussettes de toile,3,chaussettes de toile,3
 chaussons,5,gants bordés de soie,5
 chaussons de carisé et drap à laver maisons,3,chaussons de carisee et drap à laver maison,3
@@ -5325,8 +5323,9 @@ chevaux de bas prix,13,chevaux à bas prix,20
 chevaux de bois,5,chevaux de bois,5
 chevaux de haut prix,10,chevaux à haut prix,11
 chevaux de labour,2,chevaux de labour,101
-chevaux de remontage,1,cheveaux de remontage,1
+chevaux de remontage,1,chevaux de remontage,1
 chevaux de selle,3,chevaux de selle,3
+chevaux de service,2,chevaux de service,2
 chevaux de trois ans,1,chevaux de trois ans,1
 chevaux entiers,6,chevaux,696
 chevaux et ânes,4,chevaux et ânes,4
@@ -5344,7 +5343,6 @@ chevaux poulains,39,poulains,210
 chevaux poulains de lait,1,chevaux poulains de lait,1
 chevaux pour enfant,1,chevaux pour enfant,1
 chevaux vieux,1,chevaux vieux,1
-cheveaux de service,2,,417
 cheveux,335,cheveux,335
 cheveux à faire perruques,106,cheveux à perruques,106
 cheveux apprêtés,1,cheveux apprêtés,1
@@ -5572,26 +5570,26 @@ cire verte,12,cire verte,12
 cire vierge,6,cire vierge,6
 cirsaca,60,cirsaca,72
 cirsaca en jupes,1,jupes de cirsaca,1
-ciseaux,22,ciseaux,23
+ciseaux,22,ciseaux,25
 ciseaux à élaguer,2,ciseaux à élaguer,2
-ciseaux communs,2,,417
+ciseaux communs,2,ciseaux,25
 ciseaux de sculpteur,1,ciseaux de sculpteur,1
 citrate de chaux,1,citrate de chaux,1
-citron,1013,citron et limons,1013
+citron,1013,citron et limon,1022
 citron aigre,14,citron aigre,14
 citron avarié,2,citron avarié,2
 citron confit,121,citron confit,121
 citron en saumure,1,citron en saumure,1
-citron et limon,3,,417
+citron et limon,3,citron et limon,1022
 citron et orange,326,citron et orange,365
 citron étranger,2,citron étranger,2
 citron frais,1,citron frais,67
-citron limon,1,,417
+citron limon,1,citron et limon,1022
 citron orange,1,citron et orange,365
 citron orange et leurs variétés,5,citron orange et leurs variétés,7
-citron vert,21,limons,21
+citron salé,1,citron salé,1
+citron vert,21,limon,59
 citronniers,1,citronniers,1
-citrons salés,1,,417
 citrouilles,1,citrouilles,1
 civadille,98,civadille,101
 civette,6,civette,6
@@ -5673,7 +5671,7 @@ cochon,13,porcs,281
 cochon confit,6,porcs confits,6
 cochon de lait,155,porcs de lait,156
 cochon de lait au-dessous de 3 mois,2,porcs de lait au-dessous de 3 mois,2
-cochon en vie,1,,417
+cochon en vie,1,cochon en vie,1
 cochon fumé,1,porcs fumés,1
 cochon salé,223,porcs salés,385
 coclearia,11,coclearia,11
@@ -5794,7 +5792,7 @@ comestibles beurre salé,23,beurre salé,320
 comestibles bière,21,bière,1608
 comestibles biscuit,22,biscuit,279
 comestibles blé maïs,3,grains maïs,126
-comestibles blé noir,3,grains sarrasin,69
+comestibles blé noir,3,grains sarrasin,70
 comestibles bœuf salé,6,bœuf salé,1785
 comestibles café,1,café,5867
 comestibles chair salée bœuf,4,bœuf salé,1785
@@ -5807,8 +5805,8 @@ comestibles chair salée lard,8,lard salé,197
 comestibles chair salée porc salé et petit salé,5,porcs salés et petit salé,6
 comestibles chocolat,1,chocolat,1205
 comestibles cochon salé et petit salé,5,cochon salé et petit salé,10
-comestibles confitures,7,confitures,2333
-comestibles confitures diverses,6,confitures,2333
+comestibles confitures,7,confitures,2340
+comestibles confitures diverses,6,confitures,2340
 comestibles cuisses d'oie,6,cuisses d'oie,223
 comestibles de toute sorte,1,comestibles,83
 comestibles divers,59,comestibles,83
@@ -5871,7 +5869,7 @@ conducteur,1,conducteur,1
 confection,12,confection,12
 confection d'alkermès,3,confection d'alkermès,3
 confection d'hyacinthe,17,confection d'hyacinthe,17
-confitures,2230,confitures,2333
+confitures,2230,confitures,2340
 confitures à l'eau-de-vie,5,confitures à l'eau-de-vie,5
 confitures de cerise,1,confitures de cerise,1
 confitures de Chine,1,confitures de Chine,1
@@ -5928,7 +5926,7 @@ corail de terraille,1,corail terraille,23
 corail de toutes pêches brut,1,corail brut,217
 corail de toutes pêches taillé non monté,1,corail non monté taillé,9
 corail en filières,3,corail en filières,3
-corail en grabeau,2,corail en grabeau,33
+corail en grabeau,2,corail en grabeau,34
 corail faux,12,corail faux,12
 corail fin,4,corail fin,4
 corail fin ouvré,2,ouvrages de corail fin,2
@@ -6021,7 +6019,7 @@ cordes d'arçons,6,cordes à arçons,9
 cordes d'auf,15,cordes d'auf,16
 cordes d'emballage,11,cordes d'emballage,11
 cordes d'espars,5,cordes d'espars,5
-cordes d'espars petites,1,,417
+cordes d'espars petites,1,cordes d'espars petites,1
 cordes d'instruments,3,cordes pour instruments,10
 cordes d'or,1,cordes d'or,1
 cordes de boyau,122,cordes de boyaux,249
@@ -6400,9 +6398,8 @@ couteaux de Flandre,1,couteaux de Flandre,1
 couteaux de gaïac,1,couteaux de gaïac,2
 couteaux de gazat,1,couteaux de gaïac,2
 couteaux de guerre,1,couteaux de guerre,1
-couteaux de table,1,,417
-couteaux de table communs,1,couteaux de tables communs,1
-couteaux de tables,12,couteaux de tables,12
+couteaux de tables,13,couteaux de tables,14
+couteaux de tables communs,1,couteaux de tables,14
 couteaux de traite,14,couteaux à nègre,15
 couteaux divers,2,couteaux,386
 couteaux en gaine,1,couteaux en gaine,1
@@ -6518,7 +6515,7 @@ couvertures petites,2,couvertures petites,2
 couvertures placy,3,couvertures de placy,6
 couvertures pour chevaux,3,couvertures pour chevaux,5
 couvertures pour nuque,1,couvertures pour nuque,1
-couvertures rayées,1,,417
+couvertures rayées,1,couvertures rayées,1
 couvertures soie et coton,2,couvertures de coton et de soie,2
 couvertures vieilles,2,couvertures vieilles,2
 crabes et geernaerts,11,crabes et crevettes,11
@@ -6577,7 +6574,7 @@ crayons simples en pierre,5,crayons simples de pierre,5
 crème,2,crème,2
 crème de tartre,528,crème de tartre,582
 crêpe,10,crêpe,10
-crêpe d'Alençon,1,,417
+crêpe d'Alençon,1,crêpe d'Alençon,1
 crêpe de laine,80,crêpe de laine,87
 crêpe de laine aune,3,crêpe de laine,87
 crêpe de Reims,3,crêpe de Reims,3
@@ -6756,7 +6753,7 @@ cuirs de bœuf tannés en poil,1,cuirs de bœuf en poil tannés,1
 cuirs de bœuf tannés et apprêtés,1,cuirs de bœuf apprêtés et tannés,1
 cuirs de bœuf vert en poil,1,cuirs de bœuf en poil et verts,2
 cuirs de bœuf verts en poil,1,cuirs de bœuf en poil et verts,2
-cuirs de bœufs en poils,1,,417
+cuirs de bœufs en poils,1,cuirs de bœufs en poils,1
 cuirs de bœufs en vert,2,cuirs de bœuf verts,5
 cuirs de bœufs et vaches tannés,4,cuirs de bœuf et vache tannés,4
 cuirs de buffle,2,cuirs de buffle,2
@@ -6796,7 +6793,7 @@ cuirs de vache de Sardaigne,1,cuirs de Sardaigne de vache,1
 cuirs de vache de tannés,4,cuirs tannés de vache,458
 cuirs de vache en croûte,23,cuirs en croûte de vache,23
 cuirs de vache en grains,15,cuirs en grains de vache,16
-cuirs de vache en longe,1,,417
+cuirs de vache en longe,1,cuirs de vache en longe,1
 cuirs de vache en poil,283,cuirs en poil de vache,296
 cuirs de vache grené,1,cuirs en grains de vache,16
 cuirs de vache lissés,16,cuirs de vache lissés,16
@@ -7113,7 +7110,7 @@ cuivre ouvré cafetière,1,cafetières de cuivre,29
 cuivre ouvré en baignoires,3,baignoires de cuivre,4
 cuivre ouvré en bassin,2,bassin de cuivre,124
 cuivre ouvré en batterie,1,batterie de cuivre,4
-cuivre ouvré réchaud,1,,417
+cuivre ouvré réchaud,1,réchaud de cuivre,4
 cuivre potier,1,cuivre potier,1
 cuivre potin,2,potin,101
 cuivre potin en chaudière,2,chaudière de potin,4
@@ -7258,7 +7255,7 @@ dame-jeannes,324,dame-jeannes,328
 dame-jeannes clissées,16,dame-jeannes clissées,16
 dame-jeannes de grès,4,dame-jeannes de grès,4
 dame-jeannes de verre,22,dame-jeannes de verre,113
-Dame-jeannes de verre de 10 pintes,1,,417
+Dame-jeannes de verre de 10 pintes,1,Dame-jeannes de verre de 10 pintes,1
 dame-jeannes de verre de 4 pots,1,dame-jeannes de verre de 4 pots,1
 dame-jeannes en verre,1,dame-jeannes de verre,113
 dame-jeannes et vides,1,dame-jeannes vides,15
@@ -7426,9 +7423,9 @@ dentelle de fil et tulle,31,dentelle de fil et tulle,31
 dentelle de fil et Valenciennes,3,dentelle de fil de Valenciennes,3
 dentelle de fil fin,2,dentelle de fil fine,24
 dentelle de fil fine,22,dentelle de fil fine,24
-dentelle de fil gros,1,,417
-dentelle de fil grosse,28,dentelle de fil grosse,35
-dentelle de fil grossier,3,dentelle de fil grosse,35
+dentelle de fil gros,1,dentelle de file grossière,37
+dentelle de fil grosse,28,dentelle de file grossière,37
+dentelle de fil grossier,3,dentelle de file grossière,37
 dentelle de Flandre,10,dentelle de Flandre,10
 dentelle de France,2,dentelle de France,2
 dentelle de gaze,1,dentelle de gaze,1
@@ -7466,12 +7463,12 @@ dentelle en dorure,5,dentelle dorure d'argent et d'or,18
 dentelle et blonde,19,dentelle et blonde,19
 dentelle fil blanc,2,dentelle de fil blanc,333
 dentelle fil commune,1,dentelle de fil commune,71
-dentelle fil grosse,1,dentelle de fil grosse,35
+dentelle fil grosse,1,dentelle de file grossière,37
 dentelle fine,31,dentelle fine,31
-dentelle grosse,7,dentelle grosse,22
-dentelle grosse de fil,3,dentelle de fil grosse,35
-dentelle grossière,14,dentelle grosse,22
-dentelle grossière de fil,1,,417
+dentelle grosse,7,dentelle grossière,22
+dentelle grosse de fil,3,dentelle de file grossière,37
+dentelle grossière,14,dentelle grossière,22
+dentelle grossière de fil,1,dentelle de file grossière,37
 dentelle mi soie,3,dentelle mi soie,3
 dentelle mignonette,1,mignonette,1
 dentelle moyenne,1,dentelle moyenne,1
@@ -7546,7 +7543,7 @@ divers effets militaires,1,habits militaires,4
 divers en mercerie etc.,1,mercerie,3979
 divers fruits sec tels que figue et pruneaux etc.,1,fruits secs,1250
 divers grains,1,grains,8
-divers gros et menus ouvrages de bois,146,ouvrages de bois,861
+divers gros et menus ouvrages de bois,146,ouvrages de bois,862
 divers légumes,1,légumes,2458
 divers marchandises,5722,marchandises,9175
 divers objets,8,marchandises,9175
@@ -7680,7 +7677,7 @@ drap carisé des prises,1,carisé des prises,1
 drap casimir,6,casimir de laine,11
 drap commun,27,drap commun,328
 drap commun d'Angleterre,1,drap commun d'Angleterre,1
-drap commun de Lyon,1,,417
+drap commun de Lyon,1,drap de Lyon,4
 drap cordeillat,40,cordeillat,237
 drap cordeillat de Colmar,2,cordeillat de Colmar,15
 drap cosinis,1,drap cosinis,1
@@ -7776,7 +7773,7 @@ drap de laine de Nison,1,drap de Nison,1
 drap de laine de Reims,1,draps de laine de Reims,1
 drap de laine de Rome,1,drap de Rome,1
 drap de laine de Rouen,6,drap de Rouen,28
-drap de laine de Saint-Maixant,1,,417
+drap de laine de Saint-Maixant,1,drap de laine de Saint-Maixant,1
 drap de laine de Saint-Robert,12,drap de Saint-Robert,12
 drap de laine de Sedan,61,drap de Sedan,313
 drap de laine de Silésie,108,drap de Silésie,204
@@ -7821,7 +7818,7 @@ drap de Lodève,24,drap de Lodève,24
 drap de Londrin,3,drap londrin,307
 drap de Louviers,239,drap de Louviers,394
 drap de Louviers au sixième de soie,1,drap de Louviers au sixième de soie,1
-drap de Lyon,1,drap de Lyon,3
+drap de Lyon,1,drap de Lyon,4
 drap de Maroc,1,drap de Maroc,1
 drap de montagne,6,drap de montagne,6
 drap de Montauban,12,drap de Montauban,36
@@ -7995,7 +7992,7 @@ drap naturel Sirre,2,drap naturel Sirre,2
 drap naufragé,1,drap avarié,7
 drap noir,5,drap noir,5
 drap noir de Sedan,1,drap noir de Sedan,1
-drap noir grossier,1,,417
+drap noir grossier,1,drap noir grossier,1
 drap non indiqué,5,drap,1422
 drap ordinaire,7,drap ordinaire,394
 drap palencourt,1,drap palencourt,1
@@ -8080,8 +8077,8 @@ draperie de laine drap,2,drap,1422
 draperie de laine londrin,0,drap londrin,307
 draperie de laine petite,1,drap petit,725
 draperie de laine pour les troupes,4,drap pour les troupes,4
-draperie de Languedoc fin,1,drap de Lyon,3
-draperie de Lyon,1,drap de Lyon,3
+draperie de Languedoc fin,1,drap de Lyon,4
+draperie de Lyon,1,drap de Lyon,4
 draperie de Montauban,19,drap de Montauban,36
 draperie de toute espèce,6,drap,1422
 draperie de toute sorte,17,drap,1422
@@ -8588,7 +8585,7 @@ drogues médicinales capillaire,5,capillaire,30
 drogues médicinales cardamome,1,cardamome,66
 drogues médicinales carouge,1,carouge,144
 drogues médicinales carrabe,2,carrabe,2
-drogues médicinales casse,8,casse,105
+drogues médicinales casse,8,casse,106
 drogues médicinales casse en ???,0,drogues médicinales casse en ???,0
 drogues médicinales casse en bâton,1,casse en bâton,3
 drogues médicinales cassia lignea,9,cassia lignea,157
@@ -9597,15 +9594,15 @@ eau-forte huile de vitriol le dania,1,eau-forte huile de vitriol le dania,1
 écorce de grande d'aulne de bourdaine,1,écorce de grande d'aulne et de bourdaine,5
 écorce de grande d'aulne et de bourdaine,4,écorce de grande d'aulne et de bourdaine,5
 écorce de grenade,13,écorce de grenade,13
-écorce de limon,1,écorce de limon,1
-écorce de limon sec,1,,417
+écorce de limon,1,écorce de limon,3
+écorce de limon sec,1,écorce de limon,3
 écorce de Magellan,2,écorce de Magellan,2
 écorce de mandragore,1,écorce de mandragore,1
 écorce de mélisse,1,écorce de mélisse,1
-écorce de pin,8,écorce de pin,9
-écorce de pin à peindre,1,,417
-écorce de pin moulue,6,écorce de pin moulue,7
-écorce de pin pilée,1,écorce de pin moulue,7
+écorce de pin,8,écorce de pin,10
+écorce de pin à peindre,1,écorce de pin,10
+écorce de pin moulue,6,écorce de pin moulue,8
+écorce de pin pilée,1,écorce de pin moulue,8
 écorce de quinquina,58,écorce de quinquina,58
 écorce de simarouba,1,écorce de simarouba,1
 écorce de soie,2,écorce de soie,2
@@ -9614,7 +9611,7 @@ eau-forte huile de vitriol le dania,1,eau-forte huile de vitriol le dania,1
 écorce diverse,11,écorce,63
 écorce diverse de ???,0,écorce,63
 écorce diverse de citron et d'orange,4,écorce de citron et d'orange,16
-écorce en poussière de pin,0,écorce de pin en poussière,0
+écorce en poussière de pin,0,écorce de pin moulue,8
 écorce en tan à tanner,0,écorce à tanner,62
 écorce lichens,2,lichens,2
 écorce pour la tannerie,32,écorce à tanner,62
@@ -10113,7 +10110,7 @@ etachas,2,elatches,18
 étain non ouvré,16,étain non ouvré,16
 étain ouvré,991,ouvrages d'étain,993
 étain ouvré en plats,1,plats d'étain,3
-étain ouvré fin,2,,417
+étain ouvré fin,2,étain ouvré fin,2
 étain pour glaces,1,étain pour glaces,38
 étain pour soudure,2,étain pour soudure,2
 étain rouge,1,étain rouge,1
@@ -10179,7 +10176,6 @@ etalchasse,3,etalchasse,3
 étamine virée,1,étamine virée,1
 étampes,0,étampes,0
 étampes de chanvre,1,étampes de chanvre,1
-étandards de soie,1,,417
 etatchasse,6,etatchasse,6
 étaux,2,étaux,2
 étaux de fer,4,étaux de fer,28
@@ -10188,6 +10184,7 @@ etatchasse,6,etatchasse,6
 etaya,1,etaya,1
 etc.,883,marchandises,9175
 étendards,2,étendards,2
+étendards de soie,1,étandards de soie,1
 etendelle,3,etendelle,3
 etocs,4,etocs,4
 etocs de fer,4,etocs de fer,13
@@ -10258,7 +10255,7 @@ etocs de fer,4,etocs de fer,13
 étoffe d'herbes,5,étoffe d'herbes,5
 étoffe d'or,26,étoffe dorure d'or,76
 étoffe d'or et d'argent,9,étoffe dorure d'argent et d'or,340
-étoffe d'or et d'argent faux,1,étoffe dorure d'argent et d'or faux,12
+étoffe d'or et d'argent faux,1,étoffe dorure d'argent et d'or faux,13
 étoffe d'or et d'argent fin,2,étoffe dorure d'argent et d'or fin,45
 étoffe d'or et soie,1,étoffe de soie dorure d'or,43
 étoffe de bayette,2,bayette,145
@@ -10712,7 +10709,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de soie façonnée,2,étoffe de soie façonnée,4
 étoffe de soie fil et coton,4,étoffe de coton de fil et de soie,9
 étoffe de soie fil et coton aune,1,étoffe de coton de fil et de soie,9
-étoffe de soie gros de Tours,1,,417
+étoffe de soie gros de Tours,1,étoffe de soie gros de Tours,1
 étoffe de soie laine et coton,3,étoffe de coton de fil et de soie,9
 étoffe de soie laine et coton aune,1,étoffe de coton de fil et de soie,9
 étoffe de soie lampas,1,lampas de soie,1
@@ -10732,7 +10729,7 @@ etocs de fer,4,etocs de fer,13
 étoffe de soie raz ??? cir,1,étoffe de soie raze ??? cir,1
 étoffe de soie raz ??? fin,2,étoffe de soie raze ??? fin,2
 étoffe de soie raz de Saint-Maur,2,raze de soie de Saint-Maur,2
-étoffe de soie raz de Sicile,1,,417
+étoffe de soie raz de Sicile,1,étoffe de soie raz de Sicile,1
 étoffe de soie raz de St Cyr,1,raze de soie de Saint-Cyr,5
 étoffe de soie riche,4,étoffe de soie riche,4
 étoffe de soie Sainte bours,1,étoffe de soie de Saint Bours,1
@@ -10776,7 +10773,7 @@ etocs de fer,4,etocs de fer,13
 étoffe dorure d'or faux,1,étoffe dorure d'or faux,1
 étoffe dorure de soie,1,étoffe de soie dorure d'argent et d'or,227
 étoffe dorure or et argent,138,étoffe dorure d'argent et d'or,340
-étoffe dorure or et argent faux,8,étoffe dorure d'argent et d'or faux,12
+étoffe dorure or et argent faux,8,étoffe dorure d'argent et d'or faux,13
 étoffe dorure or et argent fin,41,étoffe dorure d'argent et d'or fin,45
 étoffe drap,10,drap,1422
 étoffe droguet,1,étoffe droguet,22
@@ -10786,7 +10783,7 @@ etocs de fer,4,etocs de fer,13
 étoffe en dorure,12,étoffe dorure,24
 étoffe en dorure d'argent,2,étoffe dorure d'argent,28
 étoffe en dorure d'or,5,étoffe dorure d'or,76
-étoffe en dorure fausse,1,étoffe dorure d'argent et d'or faux,12
+étoffe en dorure fausse,1,étoffe dorure d'argent et d'or faux,13
 étoffe en dorure or et argent,9,étoffe dorure d'argent et d'or,340
 étoffe en drap de coton,1,drap de coton,21
 étoffe en étamine,1,étamine,315
@@ -10849,7 +10846,7 @@ etocs de fer,4,etocs de fer,13
 étoffe fleuret et soie,8,étoffe fleuret et soie,8
 étoffe futaine,1,futaine,71
 étoffe galon d'or,1,étoffe à galon d'or,1
-étoffe gants de peau,1,gants de peau,550
+étoffe gants de peau,1,gants de peau,551
 étoffe grosse de laine,2,étoffe grosse de laine,2
 étoffe herbage,2,étoffe herbage,85
 étoffe herbes,1,étoffe herbes,1
@@ -10946,7 +10943,7 @@ etocs de fer,4,etocs de fer,13
 étoffe or et argent,184,étoffe dorure d'argent et d'or,340
 étoffe or et argent en soie,1,étoffe de soie dorure d'argent et d'or,227
 étoffe or et argent et soie,4,étoffe de soie dorure d'argent et d'or,227
-étoffe or et argent faux,2,étoffe dorure d'argent et d'or faux,12
+étoffe or et argent faux,2,étoffe dorure d'argent et d'or faux,13
 étoffe or et argent fin,2,étoffe dorure d'argent et d'or fin,45
 étoffe or et soie,4,étoffe de soie dorure d'or,43
 étoffe or soie,1,étoffe de soie dorure d'or,43
@@ -11109,7 +11106,7 @@ euphorbe,39,euphorbe,40
 éventails de plumes,2,éventails de plume,2
 éventails de porcelaine,2,éventails de porcelaine,2
 éventails de taffetas,111,éventails de taffetas,114
-éventails des Indes,1,,417
+éventails des Indes,1,éventails des Indes,2
 éventails en ivoire nacre et écaille,1,éventails d'écaille et d'ivoire et de nacre,15
 éventails en taffetas,2,éventails de taffetas,114
 éventails et papier ditto,114,éventails et papier dito,114
@@ -11157,7 +11154,7 @@ faïence en vase de jardin,1,vases de jardin de faïence,1
 faïence en Versailles,2,faïence de Versailles,2
 faïence et poterie,263,poterie de faïence,263
 faïence gondole,1,gondole de faïence,1
-faïence noire,2,,417
+faïence noire,2,faïence noire,2
 faïence plats,1,plats de faïence,1
 faïence poterie de grès et de terre,68,faïence et poterie de grès et de terre,68
 faïence poterie et verrerie,15,faïence et poterie et verrerie,15
@@ -11292,7 +11289,7 @@ fer à lames,1,fer à lames,1
 fer à moulins,1,fer à moulins,1
 fer à mulets,1,fer à mulets,1
 fer à nègre,24,fer à nègre,24
-fer à poêles à frire,2,poêles à frire de fer,164
+fer à poêles à frire,2,poêles à frire de fer,166
 fer à repasser,14,fer à repasser,14
 fer acier,100,acier et fer,356
 fer ancres,1,ancres de fer,585
@@ -11562,7 +11559,7 @@ fer en pocle,1,fer en pocle,1
 fer en poêlerie,4,poêles de fer,65
 fer en poêles,27,poêles de fer,65
 fer en poêles à feu,2,poêles de fer à feu,4
-fer en poêles à frire,151,poêles à frire de fer,164
+fer en poêles à frire,151,poêles à frire de fer,166
 fer en poêlons,1,poêlons de fer,1
 fer en poids,72,poids de fer,166
 fer en poids à peser,3,poids de fer,166
@@ -11586,18 +11583,18 @@ fer en tacelle,0,tacelle de fer,0
 fer en taillanderie,20,fer en taillanderie,23
 fer en taillandier,3,fer en taillanderie,23
 fer en tambours,10,tambours de fer,35
-fer en taules feuilles doubles,1,,417
-fer en taules feuilles simples,1,,417
 fer en tenaille,2,tenaille de fer,2
 fer en tôle,610,tôle de fer,610
 fer en tôle double,2,tôle double de fer,2
 fer en tôle et en feuilles,0,fer en tôle et en feuilles,0
+fer en tôle feuilles doubles,1,fer en tôle feuilles doubles,1
+fer en tôle feuilles simples,1,fer en tôle feuilles simples,1
 fer en tôle simple,2,tôle de fer simple,2
 fer en trépieds,1,trépieds de fer,1
 fer en truffe,5,fer en truffe,10
 fer en truffes,4,fer en truffe,10
 fer en tuyaux,5,tuyaux en fer,5
-fer en verge et en barres,1,,417
+fer en verge et en barres,1,fer en barres et en verges,1
 fer en verges,149,verges de fer,150
 fer en verges barres et battu,17,verges de fer et barres de fer et battu de fer,17
 fer en verges et lattes,123,fer en verges et lattes,123
@@ -11702,7 +11699,7 @@ fer ouvré en essieux,2,essieux de fer,71
 fer ouvré en ferrements,4,ferrements,157
 fer ouvré en fonte,15,ouvrages de fonte,168
 fer ouvré en garde-feu,2,garde-feu de fer,2
-fer ouvré en grilles,1,,417
+fer ouvré en grilles,1,fer en grilles,1
 fer ouvré en marmites,3,marmites de fer,147
 fer ouvré en masses,2,masses de fer,11
 fer ouvré en masses et chevilles,2,chevilles et masses de fer,2
@@ -11731,7 +11728,7 @@ fer platiné ou laminé noir tôle,6,tôle de fer noir laminé ou platiné,6
 fer platiné ou laminé tôle,2,tôle de fer laminé ou platiné,2
 fer plâtre,1,fer plat,49
 fer poêlerie,2,poêles de fer,65
-fer poêles à frire,1,poêles à frire de fer,164
+fer poêles à frire,1,poêles à frire de fer,166
 fer pour foyer,2,fer pour foyer,2
 fer pour liquarer et en verge,3,fer pour liquarer et en verge,3
 fer pour moulins à sucre,1,fer pour moulins à sucre,1
@@ -11764,7 +11761,7 @@ fer-blanc en feuilles ouvré,1,feuilles de fer-blanc,1
 fer-blanc en feuilles simples,121,fer-blanc en feuilles,275
 fer-blanc en livres,4,fer-blanc,1521
 fer-blanc en quart,1,quart de fer-blanc,1
-fer-blanc en réchaud,1,,417
+fer-blanc en réchaud,1,réchaud de fer-blanc,1
 fer-blanc en tôle,2,fer-blanc en tôle,6
 fer-blanc en verge,2,verge de fer blanc,2
 fer-blanc et en tôle,1,tôle de fer-blanc,96
@@ -11864,7 +11861,7 @@ ficelle,321,ficelle,327
 fiches,1,fiches,1
 fichus,5,fichus,5
 fichus brodés de soie en couleur,1,fichus brodés de soie en couleur,1
-fichus de gaze,1,,417
+fichus de gaze,1,fichus de gaze,2
 fichus de mousseline,1,fichus de mousseline,1
 fichus de mousseline brodée de couleur,1,fichus de mousseline brodée de couleur,1
 fichus de soie,8,fichus de soie,8
@@ -11882,7 +11879,7 @@ figue sèche,7,figue sèche,82
 figuier,1,figuier,1
 figures,6,figures,6
 figures d'albâtre,2,figures d'albâtre,2
-figures d'albâtre petites,1,,417
+figures d'albâtre petites,1,figures d'albâtre petites,1
 figures d'ivoire,1,figures d'ivoire,1
 figures d'une vierge en bois,1,figures d'une vierge en bois,1
 figures de bronze,3,figures de bronze,3
@@ -11890,8 +11887,8 @@ figures de cire,2,figures de cire,74
 figures de cire habillées,5,figures de cire habillées,5
 figures de cuivre,1,figures de cuivre,1
 figures de marbre,2,figures de marbre,2
-figures de pierre,1,,417
-figures de pierre brutes,1,,417
+figures de pierre,1,figures de pierres,1
+figures de pierre brutes,1,figures de pierres brutes,1
 figures de plâtre,9,figures de plâtre,9
 figures de terre,2,figures de terre,2
 figures en plâtre,1,figures en plâtre,1
@@ -11946,7 +11943,7 @@ fil à dentelle sain,1,fil à dentelle sain,1
 fil a doyne,1,fil a doyne,1
 fil à esturgeon,2,fil à esturgeon,2
 fil à faire dentelle,1,fil à dentelle mi fin,5
-fil à faire ligne,1,,417
+fil à faire ligne,1,fil à lignes,2
 fil à faire toile cru,1,fil cru à toile,5
 fil à femme,3,fil à femme,3
 fil à fille,1,fil à fille,1
@@ -11958,7 +11955,7 @@ fil à forme,2,fil à forme,2
 fil à gants,2,fil à gants,2
 fil à gargousses,3,fil à gargousses,3
 fil à laine,4,fil à laine,4
-fil à lignes,1,fil à ligne,1
+fil à lignes,1,fil à lignes,2
 fil à loup marin,1,fil à loup marin,1
 fil à marque,4,fil à marquer,9
 fil à marquer,5,fil à marquer,9
@@ -12005,7 +12002,7 @@ fil crin,2,fil crin,2
 fil cru,152,fil cru,152
 fil cru à ??? toile,1,fil cru à toile,5
 fil cru à toile,1,fil cru à toile,5
-fil cru en masse,1,,417
+fil cru en masse,1,fil cru en masse,1
 fil cru et simple,1,fil de lin cru simple,2
 fil cru simple,1,fil cru à toile,5
 fil cru simple de lin,1,fil cru simple,1
@@ -12233,7 +12230,7 @@ fil en laiton,2,fil de laiton,757
 fil en lin,2,fil en lin,2
 fil en masses,73,fil en masse,74
 fil en peignée,1,fil en peignée,1
-fil en peloton,1,,417
+fil en peloton,1,fil en pelotte,1
 fil en poignée,4,fil en poignée,8
 fil en poignées,4,fil en poignée,8
 fil en seinne,1,fil à sennes,48
@@ -12308,11 +12305,11 @@ filets à pêcher en sennes,1,sennes,47
 filets à pêcher éperviers,1,filets à pêcher éperviers,1
 filets à pêcher par Marseille,1,filets à pêcher par Marseille,1
 filets à pêcher petit poisson,2,filets à pêcher petit poisson,2
-filets à pêcher sardines,1,,417
+filets à pêcher sardines,1,filets à sardines,8
 filets à pêcher sennes,2,sennes,47
 filets à petit poisson,1,filets à petit poisson,1
-filets à sardineaux,34,filets à sardineaux,35
-filets à sardines,6,filets à sardines,6
+filets à sardineaux,34,filets à sardineaux,36
+filets à sardines,6,filets à sardines,8
 filets à sennes,3,sennes,47
 filets d'auf,5,filets d'auf,5
 filets d'espars,260,filets d'espars,260
@@ -12321,11 +12318,11 @@ filets de la pêche,7,filets à pêcher,295
 filets de palme,6,filets de palme,6
 filets de patines,1,filets de patines,1
 filets de pêche,98,filets à pêcher,295
-filets de sardineaux,1,filets de sardineaux,1
+filets de sardineaux,1,filets à sardineaux,36
 filets pour la pêche,88,filets à pêcher,295
 filets pour la pêche au poisson frais,1,filets à pêcher le poisson frai,1
 filets pour la pêche en sennes,1,sennes,47
-filets pour la pêche sardineaux,1,filets à sardineaux,35
+filets pour la pêche sardineaux,1,filets à sardineaux,36
 filets pour la pêche vieux,1,filets à pêcher vieux,1
 filets sennes,3,filets à sennes,3
 filets vieux,3,filets vieux,4
@@ -12430,7 +12427,7 @@ fleuret à faire des armes,1,fleuret à faire des armes,2
 fleuret et filoselle,1,fleuret et filoselle,1
 fleuret et lames de fleuret,72,fleuret et lames de fleuret,72
 fleurs,2,fleurs,39
-fleurs à cailler le lait,4,,417
+fleurs à cailler le lait,4,fleurs à cailler le lait,4
 fleurs aromatiques,18,fleurs aromatiques,18
 fleurs artificielles,354,fleurs artificielles,737
 fleurs artificielles avec argent,1,fleurs artificielles avec argent,1
@@ -12555,6 +12552,7 @@ forme de chapeaux,3,forme à chapeaux,3
 forme de cordonnier,2,forme à cordonnier,4
 forme de souliers,6,forme à soulier,12
 forme de terre,3,forme de terre,3
+forme de terre à faire,1,forme de terre à faire,1
 forme de terre à sucre,53,forme à sucre de terre,61
 forme de terre de sucre,1,forme à sucre de terre,61
 forme de terre en sucre,1,forme à sucre de terre,61
@@ -12563,7 +12561,6 @@ forme en pots de terre à sucre,1,forme à sucre de terre,61
 forme et pots à fèves,1,forme et pots à fèves,1
 forme et pots à sucre,3,forme à sucre et pots,11
 forme ou pot de terre pour sucre,2,forme ou pot de terre pour sucre,2
-formes de terre à faire,1,,417
 fort en diable,8,fort en diable,8
 forte-piano,1,forte-piano,7
 forte-piano à queue,1,forte-piano à queue,1
@@ -12587,7 +12584,7 @@ fouleries,4,fouleries,4
 four,1,four,1
 fourches de fer,1,fourches de fer,1
 fourchettes d'acier,1,fourchettes d'acier,1
-fourchettes d'étain,1,,417
+fourchettes d'étain,1,fourchettes d'étain,1
 fourneaux,2,fourneaux,2
 fourneaux à pierre,1,fourneaux de pierre,5
 fourneaux de brique,20,fourneaux de brique,20
@@ -12633,7 +12630,7 @@ fourreaux de pistolets,3,fourreaux de pistolets,3
 fourrure,182,fourrure,182
 fourrure de martre,2,fourrure de martre,2
 fourrure de panthère,1,fourrure de panthère,1
-fourrure de peaux de mouton,1,,417
+fourrure de peaux de mouton,1,fourrure de peaux de mouton,1
 fourrure de petit gris,4,fourrure de petit gris,7
 fourrure de soie,110,fourrure de soie,113
 fourrure en soie,2,fourrure de soie,113
@@ -12769,10 +12766,10 @@ fruits confits au vinaigre en câpres,3,câpres confits au vinaigre,3
 fruits confits câpres,2,câpres confits,3
 fruits confits câpres communes,1,câpres communes confits,1
 fruits confits châtaignes,1,châtaignes confites,1
-fruits confits confitures,44,confitures,2333
+fruits confits confitures,44,confitures,2340
 fruits confits divers,33,fruits confits divers,33
 fruits confits en câpres,1,câpres confits,3
-fruits confits en confitures,23,confitures,2333
+fruits confits en confitures,23,confitures,2340
 fruits confits en confitures des Îles,1,fruits confits en confitures des Îles,1
 fruits confits en olives,1,olives confites,3
 fruits confits en olives et câpres,2,câpres et olives confits,2
@@ -12780,7 +12777,7 @@ fruits confits en vinaigre,1,fruits confits en vinaigre,38
 fruits confits fins,1,fruits confits fins,1
 fruits confits olive,2,olives confites,3
 fruits confits olives,1,olives,1024
-fruits confitures,23,confitures,2333
+fruits confitures,23,confitures,2340
 fruits cornichons,3,cornichons,60
 fruits cruets bergamotes,1,bergamotes fraîches,1
 fruits cruets châtaignes et marrons,11,châtaignes et marrons frais,11
@@ -12867,7 +12864,7 @@ fruits divers secs noisettes,2,noisettes,671
 fruits divers secs raisin,1,raisin sec,1187
 fruits durs mêlés,110,fruits secs,1250
 fruits en câpres,1,câpres,962
-fruits en confitures,7,fruits en confitures,7
+fruits en confitures,7,confitures,2340
 fruits en cornichons,4,cornichons,60
 fruits en figue,1,figue,1099
 fruits en olive,4,olives,1024
@@ -12971,7 +12968,7 @@ fruits secs noix et noisettes,4,noisettes et noix,11
 fruits secs orange,3,orange sèche,6
 fruits secs pistaches,10,pistaches sèches,10
 fruits secs poires,1,poires sèches,8
-fruits secs pommes,2,pommes sèches,2
+fruits secs pommes,2,pommes sèches,3
 fruits secs pruneaux,38,pruneaux,4987
 fruits secs prunes,15,prunes sèches,71
 fruits secs prunes brugnoles,2,brugnoles,3
@@ -12990,12 +12987,12 @@ fruits verts amandes,1,amandes fraîches,1
 fruits verts citron,10,citron frais,67
 fruits verts divers,1,fruits verts,48
 fruits verts en crus et châtaignes,3,fruits verts en crus et châtaignes,3
-fruits verts en limon,3,,417
+fruits verts en limon,3,limon frais,7
 fruits verts en orange et citron,114,citron et orange frais,210
 fruits verts en orange et citron fruits secs en amandes figue et raisin,29,citron frais et orange fraîche et amandes sèches et figue sèches et raisin sec,29
 fruits verts figue,7,figue fraîche et fruits verts,7
 fruits verts grenades,1,grenades fraîches,1
-fruits verts limon,1,,417
+fruits verts limon,1,limon frais,7
 fruits verts nèfles,1,nèfles frais,1
 fruits verts orange,13,orange fraîche,17
 fruits verts orange citron,5,citron et orange frais,210
@@ -13003,7 +13000,7 @@ fruits verts orange douce,1,orange douce,99
 fruits verts orange et citron,2,citron et orange frais,210
 fruits verts ou crus châtaignes,2,châtaignes fraîches,26
 fruits verts ou crus en châtaignes,1,châtaignes fraîches,26
-fruits verts ou crus limon,3,,417
+fruits verts ou crus limon,3,limon frais,7
 fruits verts ou crus orange,4,orange fraîche,17
 fruits verts ou crus poires,1,poires fraîches,3
 fruits verts ou crus pommes,3,pommes fraîches,38
@@ -13104,7 +13101,7 @@ gaine à couteaux,4,gaine à couteaux,4
 gaine bleue,1,gaine bleue,1
 gaine de couteaux,10,gaine de couteau,10
 gaine de couteaux de papier,1,gaine de couteau de papier,1
-gaine de limon,1,,417
+gaine de limon,1,écorce de limon,3
 gaine jaune,1,gaine jaune,1
 gaines de chaudière,1,gaine de chaudière,1
 galanga,68,galanga,70
@@ -13135,13 +13132,13 @@ galoches,15,galoches,15
 galon,4,galon,7
 galon à peu de soie,3,galon à peu de soie,3
 galon argent,1,galon d'argent,97
-galon argent faux,1,,417
+galon argent faux,1,galon d'argent faux,3
 galon au quart de soie,2,galon au quart de soie,3
 galon au quart soie,1,galon au quart de soie,3
 galon brûlé,22,galon brûlé,22
 galon d'argent,94,galon d'argent,97
 galon d'argent brûlé,1,galon d'argent brûlé,1
-galon d'argent faux,2,galon d'argent faux,2
+galon d'argent faux,2,galon d'argent faux,3
 galon d'argent fin,5,galon d'argent fin,5
 galon d'argent vieux,1,galon d'argent vieux,1
 galon d'or,133,galon d'or,134
@@ -13233,13 +13230,13 @@ gants brodés en or et soie,1,gants brodés de soie et or,1
 gants chamois,2,gants chamois,2
 gants communs,457,gants communs,457
 gants communs de peau,1,gants communs de peau,1
-gants communs en paires,0,,417
-gants communs par paires,0,,417
+gants communs en paires,0,,79
+gants communs par paires,0,,79
 gants d'argent,1,gants d'argent,1
 gants d'étame,1,gants d'étame,1
 gants de castor,26,gants de castor,26
 gants de chamois,77,gants de chamois,77
-gants de chamois par paire,0,,417
+gants de chamois par paire,0,,79
 gants de chanvre,3,gants de chanvre,3
 gants de coton,113,gants de coton,113
 gants de cuir,4,gants de cuir,4
@@ -13249,14 +13246,14 @@ gants de fer,1,gants de fer,1
 gants de fil,101,gants de fil,108
 gants de fil et coton,28,gants de fil et coton,28
 gants de fil fins,8,gants de fil fins,8
-gants de fil par paires,0,,417
+gants de fil par paires,0,,79
 gants de filoselle,6,gants de filoselle,6
 gants de fleuret,7,gants de fleuret,8
 gants de frangipane,5,gants de frangipane,5
 gants de garnis de soie,5,gants de garnis de soie,5
 gants de Grenoble,64,gants de Grenoble,64
 gants de laine,179,gants de laine,180
-gants de peau,470,gants de peau,550
+gants de peau,471,gants de peau,551
 gants de peau communs,143,gants de peau communs,143
 gants de peau de cabris,2,gants de peau de cabris,2
 gants de peau de daim,2,gants de peau de daim,2
@@ -13265,7 +13262,6 @@ gants de peau et autres ouvrages,16,ouvrages,95
 gants de peau fins,7,gants de peau fins,7
 gants de peau garnis de soie,1,gants de peau garnis de soie,2
 gants de peau lisérés de soie,1,gants de peau garnis de soie,2
-gants de peau par paire,1,,417
 gants de peau pour femme,11,gants de peau pour femme,11
 gants de peau pour homme,1,gants de peau pour homme,1
 gants de poil,1,gants de poil,1
@@ -13279,7 +13275,7 @@ gants de veau,0,gants de veau,0
 gants de velours,3,gants de velours,3
 gants dits moufles,17,gants dits moufles,17
 gants divers,22,gants divers,22
-gants divers de peau,1,gants de peau,550
+gants divers de peau,1,gants de peau,551
 gants et mitaines bordés de soie,1,gants et mitaines brodés de soie,2
 gants et mitaines de filoselle,70,gants et mitaines de filoselle,70
 gants et mitaines de soie,133,gants et mitaines de soie,133
@@ -13365,7 +13361,7 @@ garniture de robes de femme,1,garniture de robes de femme,1
 garniture de selles,1,garnitures de selles,1
 garniture de toilettes,2,garniture de toilettes,2
 garniture en velours de deux fauteuils,1,garniture en velours de deux fauteuils,1
-garniture Îles,1,,417
+garniture Îles,1,garniture Îles,1
 garobe,2,vesces,44
 garos,1,garos,1
 garras,5,garras,5
@@ -13454,7 +13450,7 @@ gaze diverse en mouchoirs,1,mouchoirs de gaze,73
 gaze diverse mêlée de fil en soie,4,gaze de soie,613
 gaze en argent faux,2,gaze d'argent faux,3
 gaze en crêpe,3,gaze en crêpe,10
-gaze en fichus,1,fichus de gaze,1
+gaze en fichus,1,fichus de gaze,2
 gaze en mouchoirs,6,mouchoirs de gaze,73
 gaze et crêpe,3,gaze en crêpe,10
 gaze et crêpe de soie,3,gaze en crêpe de soie,5
@@ -13576,7 +13572,7 @@ gites ou côtes de sommiers de 2 pouces,2,gites ou côtes de sommier de 2 pouces
 glacé,33,glacé,33
 glaces,145,glaces,145
 glaces ???,1,glaces ???,1
-glaces à miroirs,1,glaces de miroirs,168
+glaces à miroirs,1,glaces de miroirs,169
 glaces à miroirs de 3 pieds,1,glaces de miroirs de 3 pieds,1
 glaces au tain,2,glaces au tain,2
 glaces avec cadres dorés,5,glaces avec cadres dorés,5
@@ -13598,7 +13594,7 @@ glaces de 5/8 aune de hauteur,2,glaces de 5/8 aune de hauteur,2
 glaces de 7/8 aune de hauteur,2,glaces de 7/8 aune de hauteur,2
 glaces de carrosses,2,glaces de carrosses,2
 glaces de la manufacture de Paris de différentes grandeurs,2,glaces de la manufacture de Paris,2
-glaces de miroirs,166,glaces de miroirs,168
+glaces de miroirs,166,glaces de miroirs,169
 glaces de miroirs d'1 aune et en dessus,6,glaces de miroirs d'1 aune et en dessus,6
 glaces de miroirs de 13 pouces,1,glaces de miroirs de 13 pouces,1
 glaces de miroirs grandes,1,glaces de miroirs grandes,1
@@ -13606,9 +13602,9 @@ glaces en dessous d'1 aune,9,glaces en dessous d'1 aune,9
 glaces en dessus d'1 aune,4,glaces en dessus d'1 aune,4
 glaces en valeur,10,glaces en valeur,10
 glaces encadrées,7,glaces encadrées,7
-glaces et miroirs,295,glaces et miroirs,309
+glaces et miroirs,295,glaces et miroirs,322
 glaces faux teint,1,glaces faux teint,1
-glaces miroirs,1,glaces de miroirs,168
+glaces miroirs,1,glaces de miroirs,169
 glaces nues,7,glaces nues,7
 glaces petits miroirs,1,glaces petits miroirs,1
 glaces pour carrosses,33,glaces pour carrosses,33
@@ -13643,7 +13639,7 @@ gomme arabique par Marseille,1,gomme arabique par Marseille,1
 gomme atimaix,1,gomme atimaix,1
 gomme barbarie,4,gomme de Barbarie,85
 gomme bedelium,1,bdellium,21
-gomme blanche,1,,417
+gomme blanche,1,gomme blanche,1
 gomme brique,2,gomme brique,2
 gomme carans,2,gomme carans,2
 gomme caregne,1,gomme de caragne,1
@@ -13756,7 +13752,7 @@ grabeau de cacao,1,cacao en grabeau,1
 grabeau de canefice,10,canefice en grabeau,12
 grabeau de cire,90,cire en grabeau,108
 grabeau de cochenille,88,cochenille en grabeau,101
-grabeau de corail,31,corail en grabeau,33
+grabeau de corail,31,corail en grabeau,34
 grabeau de galipot,1,galipot en grabeau,1
 grabeau de gomme,19,gomme en grabeau,20
 grabeau de jalap,1,jalap en grabeau,1
@@ -13807,7 +13803,7 @@ graine comestible avoine,13,grains avoine,84
 graine comestible blé d'Inde et farine,1,grains et farine de maïs,1
 graine comestible blé et froment,15,grains froment,3686
 graine comestible blé froment,7,grains blé et froment,8
-graine comestible blé noir,2,grains sarrasin,69
+graine comestible blé noir,2,grains sarrasin,70
 graine comestible des Indes,2,grains maïs,126
 graine comestible diverse,4,grains divers,460
 graine comestible diverses,1,grains comestibles,1
@@ -13820,7 +13816,7 @@ graine comestible froment,9,grains froment,3686
 graine comestible méteil,5,grains méteil,52
 graine comestible orge,19,grains orge,106
 graine comestible riz,29,grains riz,247
-graine comestible sarrazin,2,grains sarrasin,69
+graine comestible sarrazin,2,grains sarrasin,70
 graine comestible seigle,22,grains seigle,2189
 graine comestible soucrillon,1,grains soucrillon,7
 graine commune,1,graine commune,1
@@ -13921,9 +13917,9 @@ graine de lupin,3,graine de lupin,4
 graine de luzerne,98,graine de luzerne,102
 graine de luzerne et de trèfle,1,graine de luzerne et de trèfle,129
 graine de melon,4,graine de melon,4
-graine de millet,111,grains millet,429
+graine de millet,111,grains millet,430
 graine de millet gros,3,millet gros,126
-graine de mitte,1,grains millet,429
+graine de mitte,1,grains millet,430
 graine de moutarde,217,graine de moutarde,395
 graine de mûriers,1,graine de mûriers,1
 graine de musc,2,graine de musc,2
@@ -13951,7 +13947,7 @@ graine de safranum,1,graine de safranum,1
 graine de sagou,1,graine de sagou,1
 graine de sainfoin,8,graine de sainfoin,48
 graine de Saint-Domingue,1,graine de Saint-Domingue,1
-graine de sarasin,1,,417
+graine de sarrasin,1,grains sarrasin,70
 graine de scammonée,1,graine de scammonée,1
 graine de seigle,1,seigle,1
 graine de semaille,1,graine de semaille,1
@@ -13978,7 +13974,7 @@ graine de vers,24,grains de verre,29
 graine de vers à soie,37,graine de vers à soie,37
 graine de vesse,4,graine de vesse,4
 graine de zedoria,1,graine de zedoria,1
-graine des Îles,2,,417
+graine des Îles,2,graine des Îles,2
 graine des Indes,1,graine des Indes,1
 graine diverse,419,graine diverse,424
 graine diverse blé,1,grains froment,3686
@@ -14016,10 +14012,10 @@ graine lin,3,graine de lin,784
 graine longue,74,graine longue,74
 graine luzerne,2,graine de luzerne,102
 graine mêlée,1,graine,125
-graine millet,7,grains millet,429
+graine millet,7,grains millet,430
 graine moutarde,3,graine de moutarde,395
 graine orge,4,grains orge,106
-graine potagère,1,,417
+graine potagère,1,graine potagère,1
 graine pour la teinture,1,graine pour teinture,21
 graine pour teindre,3,graine pour teinture,21
 graine pour teinture,17,graine pour teinture,21
@@ -14053,7 +14049,7 @@ grains comestibles blé,3,grains froment,3686
 grains comestibles blé blanc,5,grains froment,3686
 grains comestibles blé d'Inde,0,grains maïs,126
 grains comestibles blé froment,75,grains froment,3686
-grains comestibles blé millet,0,grains millet,429
+grains comestibles blé millet,0,grains millet,430
 grains comestibles blé orge,0,grains orge,106
 grains comestibles blé roux,1,grains froment,3686
 grains comestibles blé seigle,0,grains seigle,2189
@@ -14063,7 +14059,7 @@ grains comestibles en avoine,4,grains avoine,84
 grains comestibles en blé froment,16,grains froment,3686
 grains comestibles en froment,1,grains froment,3686
 grains comestibles en gruau,1,gruau de grains comestible,7
-grains comestibles en millet,1,grains millet,429
+grains comestibles en millet,1,grains millet,430
 grains comestibles en riz,1,grains riz,247
 grains comestibles froment,32,grains froment,3686
 grains comestibles gruau,1,gruau,294
@@ -14115,7 +14111,7 @@ grains mêlés de toute sorte,93,grains divers,460
 grains menus grains,1,grains menu,1
 grains méteil,4,grains méteil,52
 grains metillon,1,graine metillon,1
-grains millet,9,grains millet,429
+grains millet,9,grains millet,430
 grains orge,25,grains orge,106
 grains perlés et mondés,1,grains mondé et perlé,8
 grains perlés ou mondés,7,grains mondé et perlé,8
@@ -14166,7 +14162,7 @@ graisse salée,1,graisse salée,1
 graisse suif brut,7,suif brut,11
 graisse vieux-oint,1,vieux-oint,270
 grame de bois de Campêche,1,graine de campêche,4
-granats de corail,1,,417
+granats de corail,1,corail en grabeau,34
 grandes perches dites juffers,51,perches grandes dit juffers,51
 grands miroirs,1,miroirs grands,5
 granille de cochenille,44,granille de cochenille,47
@@ -14267,7 +14263,7 @@ groseilles noires,2,groseille,2
 grosgrain,1,grosgrain,1
 grosil,24,grosil,24
 grosse de soie,1,grosse de soie,1
-grosse dentelle,1,dentelle grosse,22
+grosse dentelle,1,dentelle grossière,22
 grosses noix,125,noix grosses,125
 gruau,284,gruau,294
 gruau d'avoine,3,gruau d'avoine,3
@@ -14429,7 +14425,7 @@ habits unis,1,habits unis,1
 habits vieux,4,habits vieux,5
 habits vieux complets,1,habits vieux,5
 haches,57,haches,58
-haches d'arme,1,,417
+haches d'arme,1,haches d'arme,1
 haches d'armes,1,haches d'armes,1
 haches de fer,24,haches de fer,25
 haches de fer et acier,5,haches de fer et d'acier,5
@@ -14448,11 +14444,10 @@ hamacs,73,hamacs,169
 hamacs de coton,8,hamacs de coton,8
 hameçons,55,hameçons,55
 hameçons cassés,1,hameçons cassés,1
-hameçons petits,1,,417
+hameçons petits,1,hameçons petits,1
 hamiracontans,1,hamiracontans,1
 hampes de plumes,1,hampes de plumes,1
-Harancades,1,,417
-harancades,34,harancades,37
+harancades,35,harancades,38
 haras,1,haras,1
 hardes,58,hardes,104
 hardes à usage,8,hardes à usage,8
@@ -14539,7 +14534,7 @@ herbes de capillaire,2,capillaire en herbes,139
 herbes de sarriette,1,herbes de sarriette,1
 herbes de violette,1,herbes de violette,1
 herbes émollientes,1,herbes émollientes,1
-herbes fleurs,1,,417
+herbes fleurs,1,herbes fleurs,1
 herbes gaude,72,herbes gaude,73
 herbes marjolaine,2,marjolaine,2
 herbes mauves,1,herbes mauves,1
@@ -14980,14 +14975,13 @@ humains,8,humains,24
 hydromel,123,hydromel,123
 hypochetia,1,hypochetia,1
 hypocristis,1,hypocristis,1
-idiennerie diverses,1,,417
 igname,5,igname,5
 illisible,0,???,3201
 images,17,images,17
 images à cadres dorés,1,images à cadres dorés,1
 images de cire,1,images de cire,1
 images de corne,1,images de corne,1
-images de livres,1,,417
+images de livres,1,images de livres,1
 images de papier,38,images de papier,38
 images de papier estampes et cartes géographiques,220,images de papier et estampes et cartes géographiques,220
 images de parchemin,71,images de parchemin,73
@@ -15012,11 +15006,12 @@ inde flottante,15,inde flottante,15
 inde Java,3,inde de Java,10
 inde plante,1,inde plate,118
 inde plate,109,inde plate,118
-indienne,754,indienne,844
-indienne diverse,5,indienne,844
+indienne,754,indienne,845
+indienne diverse,5,indienne,845
 indienne diverse en coupon,1,indienne en coupon,1
 indienne étrangère,1,indienne étrangère,5
 indienne française,1,indienne française,1
+indiennerie diverse,1,indienne,845
 indigo,6331,indigo,6568
 indigo commun,2,indigo commun,2
 indigo de retour,3,indigo de retour,3
@@ -15058,7 +15053,7 @@ industrie générale cordage,3,cordage,927
 industrie générale dorure fine,23,dorure fine,782
 industrie générale esprit-de-vin,14,esprit-de-vin,157
 industrie générale faïence et poterie,19,faïence et poterie,31
-industrie générale gants de peau,29,gants de peau,550
+industrie générale gants de peau,29,gants de peau,551
 industrie générale habillement et lingerie,29,habits et lingerie,581
 industrie générale horlogerie,21,horlogerie,809
 industrie générale jeux de voile,3,jeux de voile,105
@@ -15071,7 +15066,7 @@ industrie générale ouvrages de cuivre doré et argenté,17,ouvrages de cuivre 
 industrie générale ouvrages de modes et fleurs artificielles,32,fleurs artificielles et ouvrages de modes,32
 industrie générale ouvrages de terre cuite,1,ouvrages de terre cuite,220
 industrie générale ouvrages divers,22,ouvrages,95
-industrie générale ouvrages divers en bois et futailles vides,5,ouvrages de bois,861
+industrie générale ouvrages divers en bois et futailles vides,5,ouvrages de bois,862
 industrie générale ouvrages en terre cuite,1,ouvrages de terre cuite,220
 industrie générale papier à écrire,51,papier à écrire,707
 industrie générale papier pour tenture,28,papier pour tenture,192
@@ -15360,7 +15355,7 @@ julaux,1,julaux,1
 julienne,2,julienne,2
 juments,13,juments,41
 jupes,7,jupes,7
-jupes d'indienne,1,,417
+jupes d'indienne,1,jupes d'indiennes,1
 jupes de basin brodée en soie,1,jupes de basin brodée en soie,1
 jupes de calmande,1,jupes de calmande,1
 jupes de coton,2,jupes de coton,2
@@ -15372,7 +15367,7 @@ jupes peintes,1,jupes peintes,1
 jupes piquées,5,jupes piquées,5
 jupons,24,jupons,24
 jupons brodés,2,jupons brodés,2
-jupons d'étoffe et soie brodés,1,,417
+jupons d'étoffe et soie brodés,1,jupons d'étoffe et soie brodés,1
 jupons de basin brodés,1,jupons de basin brodés,1
 jupons de Pékin brodé en soie or et argent,1,jupons de Pékin brodé en soie or et argent,1
 jupons de satin,2,jupons de satin,2
@@ -15603,7 +15598,7 @@ laine fine mérinos en suint,10,laine fine mérinos en suint,10
 laine fine mérinos lavée,14,laine fine mérinos lavée,14
 laine fine ou de chevrons,9,laine fine et de chevron,9
 laine grasse,11,laine grasse,11
-laine grasse de Barbarie,1,laine grasse de Barbarie,1
+laine grasse de Barbarie,1,laine grasse de Barbarie,2
 laine grasse et filée,2,fil de laine grasse,2
 laine grasse ou en suin,4,laine grasse ou en suin,4
 laine gromures,1,laine gromures,1
@@ -15641,7 +15636,7 @@ laine rousse,3,laine rousse,3
 laine seconde,1,laine seconde,1
 laine Ségovie,11,laine d'Espagne,644
 laine serge,30,serge de laine,798
-laine serge de Barbarie,1,,417
+laine serge de Barbarie,1,laine grasse de Barbarie,2
 laine seuine,2,laine suin,2
 laine surfine brute,5,laine brute surfine,5
 laine surfine épurée,1,laine épurée surfine,1
@@ -15765,7 +15760,7 @@ lapis lazuli,3,lapis lazuli,6
 lapis lazuly,3,lapis lazuli,6
 laque,10,laque,13
 laque de Venise,8,laque de Venise,13
-laque en bois,4,laque en bois,4
+laque en bois,4,laque en bois,5
 laque en feuille,1,laque en feuilles,4
 laque en feuilles,3,laque en feuilles,4
 laque en graine,2,laque en graine,2
@@ -15779,7 +15774,7 @@ laque préparée (lack-lack),3,laque préparée,5
 laque ronde,7,laque ronde,7
 laque rouge,2,laque rouge,2
 laque sans bois,4,laque sans bois,4
-laque sur bois,1,,417
+laque sur bois,1,laque en bois,5
 lard,1106,lard,1115
 lard à larder,2,lard à larder,2
 lard du pays,1,lard du pays,1
@@ -15899,8 +15894,8 @@ leviers ferrés,2,leviers ferrés,2
 levure de bière,6,levure de bière,6
 Li ???,1,Li ???,1
 liagne,1,liagne,1
-liatte,12,,417
-liatte départ,1,,417
+liatte,12,liatte,12
+liatte départ,1,liatte départ,1
 libans,3,libans,3
 libar,1,libar,1
 librairie,2074,librairie,2145
@@ -16007,9 +16002,9 @@ limes et râpes empaillées de 1 à 6 au paquet,1,limes et râpes empaillées,1
 limes et râpes fines,7,limes et râpes fines,7
 limes grosses,1,limes grosses,1
 limes petites,1,limes petites,1
-limon,38,,417
-limon ou citron,5,,417
-limon salé,47,,417
+limon,38,limon,59
+limon ou citron,5,citron et limon,1022
+limon salé,47,limon salé,47
 lin,1456,lin,1495
 lin ???,2,lin ???,2
 lin à filer,1,lin à filer,1
@@ -16406,7 +16401,7 @@ malles,16,malles,16
 malles ???,1,malles ???,1
 malles d'étoffe d'or,1,malles d'étoffe or,1
 malles de cuir,3,malles de cuir,3
-malles de paille,2,,417
+malles de paille,2,mailles de paille,2
 malles travaillées,9,malles travaillées,9
 malles valises et coffres,38,malles et valises et coffres,38
 malles vides,1,malles vides,1
@@ -16503,13 +16498,13 @@ manteaux d'écarlate brodés d'or et d'argent,1,manteaux d'écarlate brodés d'o
 manteaux de drap,1,manteaux de drap,1
 manteaux galon,1,manteaux galonnés,3
 manteaux galonnés,2,manteaux galonnés,3
-manteaux unis,1,,417
+manteaux unis,1,manteaux unis,1
 manteaux vieux,2,manteaux vieux,2
 mantelets,9,mantelets,9
 mantelets courts,4,mantelets courts,4
 mantelets de drap écarlate,1,mantelets de drap écarlate,1
 mantelets de soie,3,mantelets de soie,3
-mantelets écarlates,1,,417
+mantelets écarlates,1,mantelets écarlates,1
 mantelets pour femme,1,mantelets pour femme,1
 mantes,1,mantes,1
 mantilles d'écarlate brodées d'or,1,mantilles d'écarlate brodées d'or,1
@@ -16696,7 +16691,7 @@ marchandises provenant du commerce français dans les Indes drogues,4,drogues de
 marchandises provenant du commerce français dans les Indes en étoffe gaze et toile,1,étoffe et gaze et toile des Indes,1
 marchandises provenant du commerce français dans les Indes encens,1,encens des Indes,1
 marchandises provenant du commerce français dans les Indes étoffe,3,étoffe des Indes,27
-marchandises provenant du commerce français dans les Indes éventails,1,éventails des Indes,1
+marchandises provenant du commerce français dans les Indes éventails,1,éventails des Indes,2
 marchandises provenant du commerce français dans les Indes gomme,2,gomme des Indes,2
 marchandises provenant du commerce français dans les Indes indigo,1,indigo des Indes,1
 marchandises provenant du commerce français dans les Indes lingerie,1,lingerie des Indes,1
@@ -16773,7 +16768,7 @@ marseille,0,marseille,0
 marsoin,1,marsouin,2
 marte commune et en pointe,4,peaux de martre commune et en pointe,4
 marteaux,3,marteaux,3
-marteaux d'ouvriers,1,,417
+marteaux d'ouvriers,1,marteaux d'ouvriers,1
 marteaux de forge,3,marteaux de forge,3
 martinets à tonnelier,1,martinets à tonnelier,1
 martre,0,martre,0
@@ -16849,7 +16844,7 @@ mâtereaux de 30 à 34 pieds,1,mâtereaux de 30 à 34 pieds,1
 mâtereaux de 30 à 35 pieds,1,mâtereaux de 30 à 35 pieds,1
 mâtereaux de 30 à 36 pieds,3,mâtereaux de 30 à 36 pieds,3
 mâtereaux de 30 à 40 pieds,2,mâtereaux de 30 à 40 pieds,2
-mâtereaux de 30 à 50 pieds,1,,417
+mâtereaux de 30 à 50 pieds,1,mâtereaux de 30 à 50 pieds,1
 mâtereaux de 30 ou 40 pieds,1,mâtereaux de 30 ou 40 pieds,1
 mâtereaux de 30 pieds,11,mâtereaux de 30 pieds,12
 mâtereaux de 32 à 33 pieds,1,mâtereaux de 32 à 33 pieds,1
@@ -16871,10 +16866,10 @@ mâtereaux de 36 pieds 9 pouces,1,mâtereaux de 36 pieds 9 pouces,1
 mâtereaux de 37 à 38 pieds,1,mâtereaux de 37 à 38 pieds,1
 mâtereaux de 38 à 40 pieds,1,mâtereaux de 38 à 40 pieds,1
 mâtereaux de 38 pieds,4,mâtereaux de 38 pieds,4
-mâtereaux de 4 à 50 pieds,1,,417
+mâtereaux de 4 à 50 pieds,1,mâtereaux de 40 à 50 pieds,2
 mâtereaux de 40 à 44 pieds,1,mâtereaux de 40 à 44 pieds,1
 mâtereaux de 40 à 45 pieds,2,mâtereaux de 40 à 45 pieds,2
-mâtereaux de 40 à 50 pieds,1,mâtereaux de 40 à 50 pieds,1
+mâtereaux de 40 à 50 pieds,1,mâtereaux de 40 à 50 pieds,2
 mâtereaux de 40 à 60 pieds,1,mâtereaux de 40 à 60 pieds,1
 mâtereaux de 40 ou 45 pieds,1,mâtereaux de 40 ou 45 pieds,1
 mâtereaux de 40 pieds,12,mâtereaux de 40 pieds,12
@@ -16919,7 +16914,7 @@ mâtereaux de sapin de 30 pieds,2,mâtereaux de sapin de 30 pieds,2
 mâtereaux de sapin de 44 pieds,1,mâtereaux de sapin de 44 pieds,1
 mâtereaux de sapin de 47 à 50 pieds,1,mâtereaux de sapin de 47 à 50 pieds,1
 mâtereaux divers,1,mâtereaux,168
-mâtereaux ordinaires,1,,417
+mâtereaux ordinaires,1,mâtereaux communs,1
 mâtereaux ordinaires à 30 pieds,1,mâtereaux communs de 30 pieds,1
 mâtereaux ou petits mâts,3,mâtereaux,168
 mâtereaux petits,3,mâtereaux petits,3
@@ -17015,7 +17010,7 @@ matocaux,1,matocaux,1
 mâts,1240,mâts,1489
 mâts à barque de 38 à 40 pieds,1,mâts de 38 à 40 pieds à barque,1
 mâts à bateau,2,mâts à bateau,2
-mâts à chaloupe,1,mâts à chaloupe,1
+mâts à chaloupe,1,mâts à chaloupe,13
 mâts assortis,13,mâts assortis,17
 mâts au-dessous de 6 paumes,1,mâts au-dessous de 6 paumes,1
 mâts bouts de 3 à 4 pieds,1,mâts bouts de 3 à 4 pieds,1
@@ -17057,7 +17052,7 @@ mâts de 50 à 53 pied,1,mâts de 50 à 53 pied,1
 mâts de 50 à 55 pieds,2,mâts de 50 à 55 pieds,2
 mâts de 50 à 56 pieds,1,mâts de 50 à 56 pieds,1
 mâts de 50 à 60 pieds,2,mâts de 50 à 60 pieds,2
-mâts de 50 à 80 pieds,1,,417
+mâts de 50 à 80 pieds,1,mâts de 50 à 80 pieds,1
 mâts de 50 ou 60 pieds,1,mâts de 50 ou 60 pieds,1
 mâts de 50 pieds,5,mâts de 50 pieds,5
 mâts de 52 à 55 pieds,1,mâts de 52 à 55 pieds,1
@@ -17093,8 +17088,8 @@ mâts de beauprés de 35 pieds,1,mâts de beauprés de 35 pieds,1
 mâts de beauprés de 38 pieds,1,mâts de beauprés de 38 pieds,1
 mâts de beauprés de 40 pieds,1,mâts de beauprés de 40 pieds,1
 mâts de beauprés de 42 à 45 pieds,1,mâts de beauprés de 42 à 45 pieds,1
-mâts de chaloupe,12,mâts de chaloupe,12
-mâts de chaloupe de 15 à 25 pieds,1,,417
+mâts de chaloupe,12,mâts à chaloupe,13
+mâts de chaloupe de 15 à 25 pieds,1,mâts à chaloupe de 15 à 25 pieds,1
 mâts de chêne,2,mâts de chêne,2
 mâts de différente grandeur,2,mâts,1489
 mâts de différente longueur,1,mâts,1489
@@ -17167,7 +17162,7 @@ mâts de navire moyens,1,mâts de navire moyens,1
 mâts de navire petits,1,mâts de navire petits,1
 mâts de petit navire,1,mâts de petit navire,1
 mâts de sapin,29,mâts de sapin,42
-mâts de sapin 50 pieds,1,,417
+mâts de sapin 50 pieds,1,mâts de sapin de 50 pieds,4
 mâts de sapin à bateau,0,mâts de sapin à bateau,0
 mâts de sapin assortis,1,mâts de sapin,42
 mâts de sapin de 10 à 11 pieds,0,mâts de sapin de 10 à 11 pieds,0
@@ -17238,7 +17233,7 @@ mâts de sapin de 48 pieds de long et de 9 pieds de diamètre,1,mâts de sapin d
 mâts de sapin de 5 palmes,1,mâts de sapin de 5 palmes,1
 mâts de sapin de 5 paumes,3,mâts de sapin de 5 paumes,3
 mâts de sapin de 50 à 55 pieds,1,mâts de sapin de 50 à 55 pieds,1
-mâts de sapin de 50 pieds,3,mâts de sapin de 50 pieds,3
+mâts de sapin de 50 pieds,3,mâts de sapin de 50 pieds,4
 mâts de sapin de 50 pieds de long et de 10 à 12 pieds de diamètre,1,mâts de sapin de 50 pieds de long et de 10 à 12 pieds de diamètre,1
 mâts de sapin de 50 pieds de long et de 16 pieds de diamètre,1,mâts de sapin de 50 pieds de long et de 16 pieds de diamètre,1
 mâts de sapin de 54 pieds,1,mâts de sapin de 54 pieds,1
@@ -17357,7 +17352,7 @@ mecoacan,3,mechoacam,15
 médailles,4,médailles,4
 médailles antiques,1,médailles antiques,1
 médailles d'argent,2,médailles d'argent,2
-médailles de laiton,1,,417
+médailles de laiton,1,médailles de laiton,1
 médaillons de terre,2,médaillons de terre,2
 médecine,1,médicaments,346
 médicament composés,67,médicaments composés,89
@@ -17692,7 +17687,7 @@ meubles et glaces,243,glaces et meubles,281
 meubles et habillement,3,habits et meubles,3
 meubles et miroirs,117,meubles et miroirs,130
 meubles et ornements,17,meubles et ornements,17
-meubles glaces et miroirs,13,meubles glaces et miroirs,13
+meubles glaces et miroirs,13,glaces et miroirs,322
 meubles habits et bijoux,1,meubles habits et bijoux,1
 meubles matelas,5,meubles matelas,5
 meubles miroirs de toilettes,1,meubles miroirs de toilettes,1
@@ -17801,7 +17796,6 @@ mignotte,3,mignotte étoffe,4
 mignotte étoffe,1,mignotte étoffe,4
 migon,18,migon,18
 mil,3,mil,3
-milet,1,,417
 militaires,15,militaires,15
 militaires de la division française de Rome,1,militaires de la division française de Rome,1
 militaires français ou romains de la division de Rome,1,militaires français ou romains de la division de Rome,1
@@ -17810,11 +17804,11 @@ mille gants,3,mille gants,3
 milleret,1,milleret,1
 milleret et agréments,38,agréments et milleret,38
 milleret et agréments de soie,13,agréments de soie et milleret,13
-millet,213,grains millet,429
-millet g ???,1,grains millet,429
-millet grais,2,grains millet,429
-millet gras,1,grains millet,429
-millet gros,83,grains millet,429
+millet,214,grains millet,430
+millet g ???,1,grains millet,430
+millet grais,2,grains millet,430
+millet gras,1,grains millet,430
+millet gros,83,grains millet,430
 millet ordinaire,1,grains millet ordinaire,1
 mine,3,mine,3
 mine d'alphatte,1,mine d'asphalte,1
@@ -17856,16 +17850,16 @@ miroirs d'1 pied et demi,1,miroirs d'1 pied et demi,1
 miroirs d'Allemagne,1,miroirs d'Allemagne,1
 miroirs de 2 pieds,1,miroirs de 2 pieds,1
 miroirs de 25 pieds de haut et 1 de large,1,miroirs de 25 pieds de haut et 1 de large,1
-miroirs de glace,1,,417
+miroirs de glace,1,glaces de miroirs,169
 miroirs de poche,3,miroirs de poche,3
 miroirs de toilettes,7,miroirs de toilette,7
 miroirs de traite,5,miroirs de traite,5
 miroirs de Venise,2,miroirs de Venise,2
 miroirs divers,13,miroirs,208
 miroirs encadrés,238,miroirs encadrés,238
-miroirs et glaces,7,glaces et miroirs,309
+miroirs et glaces,7,glaces et miroirs,322
 miroirs et petites glaces,13,glaces petites et miroirs,13
-miroirs glaces,7,glaces et miroirs,309
+miroirs glaces,7,glaces et miroirs,322
 miroirs grands,4,miroirs grands,5
 miroirs grands et petits,2,miroirs,208
 miroirs petits,31,miroirs petits,221
@@ -17977,7 +17971,7 @@ mors de brides,123,mors de brides,123
 mors de brides dorés,1,mors de brides dorés,1
 mors et brides,3,mors et brides,3
 mortiers,2,mortiers,2
-mortiers à bombe,1,,417
+mortiers à bombe,1,mortiers à bombe,1
 mortiers de bois,1,mortiers de bois,1
 mortiers de bronze,1,mortiers de bronze,1
 mortiers de fer,6,mortiers de fer,6
@@ -18252,12 +18246,12 @@ moufles,1,moufles,1
 moulage,4,moulage,4
 moules,119,moules,120
 moules à café,1,moulins à café,513
-moules à cercle,1,,417
+moules à cercle,1,moules à cercle,1
 moules à chandelle,1,moules à chandelle,1
 moules à faire,1,moules à faire,1
 moules à taillandier,4,meules à taillandier,199
-moules de balles,1,,417
-moules de bois pour boutons,1,,417
+moules de balles,1,moules de balles,1
+moules de bois pour boutons,1,moules de boutons de bois,3
 moules de boutons,25,moules de boutons,25
 moules de chandelle en verre,1,moules pour chandelle,2
 moules de fer à galette,1,moules de fer à galette,1
@@ -18268,7 +18262,7 @@ moules en plâtre,1,moules de plâtre,3
 moules pour chandelle,1,moules pour chandelle,2
 moules pour faire du sucre,1,moules pour sucre,1
 Moulha Cassen passagers,1,passagers Moulha Cassen,1
-moulin à confiture,1,,417
+moulin à confitures,1,moulin à confitures,1
 moulinets à chocolat,1,moulinets à chocolat,1
 moulinets à faire le lin,1,moulinets à filer,1
 moulins,1,moulins,2
@@ -18387,7 +18381,7 @@ mules brodées,3,mules brodées,3
 mules brodées pour femme,2,mules brodées pour femme,2
 mules de 6 mois,1,mules de 6 mois,1
 mules de femme,1,mules de femme,1
-mules de labour,1,,417
+mules de labour,1,mules de labour,1
 mules de moulin,0,mules à moulin,2
 mules de nattes,2,mules de nattes,2
 mules et mulets,160,mules et mulets,196
@@ -18398,16 +18392,16 @@ mules et mulets mules,2,mules,31
 mules et mulets mulets,2,mulets,122
 mules et mulets n'ayant pas encore de dents d'adultes,1,mules et mulets n'ayant pas encore de dents adultes,1
 mules et mulets poulains,1,poulains,210
-mules moyennes,1,,417
+mules moyennes,1,mules moyennes,1
 mules ou mulets,1,mules ou mulets,1
 mules pour femme,1,mules pour femmes,1
 mulets,111,mulets,122
 mulets à moyen prix,1,mulets à moyen prix,1
-mulets de moyenne taille,1,mulets de moyenne taille,1
+mulets de moyenne taille,1,mulets de moyenne taille,2
 mulets et ânes,11,ânes et mulets,11
 mulets et mules,2,mules et mulets,196
 mulets jeunes,1,mulets jeunes,2
-mulets moyens,1,,417
+mulets moyens,1,mulets de moyenne taille,2
 mulets mules,3,mules et mulets,196
 mulets mulets,3,mulets mulets,3
 mulets ou juments,1,juments ou mulets,1
@@ -18656,7 +18650,7 @@ objets d'industrie cuirs divers,4,cuirs,191
 objets d'industrie divers,3,ouvrages d'industrie,301
 objets d'industrie faïence et poterie,6,faïence et poterie,31
 objets d'industrie fil à coudre et autre,5,fil,858
-objets d'industrie gants de peau divers,4,gants de peau,550
+objets d'industrie gants de peau divers,4,gants de peau,551
 objets d'industrie hardes diverses,6,hardes,104
 objets d'industrie harnais de cuir et sellerie,4,harnais de cuir et sellerie,4
 objets d'industrie instruments propres aux arts libéraux,4,instruments propres aux arts libéraux,10
@@ -19160,10 +19154,10 @@ ouvrages d'osier en bannes et bannettes,1,bannes et bannettes d'osier,1
 ouvrages d'osier en corbeilles,2,corbeilles d'osier,121
 ouvrages d'osier en paniers,2,paniers d'osier,101
 ouvrages d'osserie,2,ouvrages d'osserie,2
-ouvrages de bois,146,ouvrages de bois,861
-ouvrages de bois ???,2,ouvrages de bois,861
+ouvrages de bois,146,ouvrages de bois,862
+ouvrages de bois ???,2,ouvrages de bois,862
 ouvrages de bois avirons,21,avirons de bois,60
-ouvrages de bois avirons balais vannerie etc.,26,ouvrages de bois,861
+ouvrages de bois avirons balais vannerie etc.,26,ouvrages de bois,862
 ouvrages de bois boissellerie,24,boissellerie,63
 ouvrages de bois boites à ???,1,boites à ??? de bois,1
 ouvrages de bois de coutellerie,12,coutellerie de bois,12
@@ -19176,15 +19170,15 @@ ouvrages de bois de passementerie,12,ouvrages de bois et ouvrages de passementer
 ouvrages de bois de peau,10,ouvrages de bois et pelleterie,10
 ouvrages de bois de Saint-Claude,1,ouvrages de bois de Saint-Claude,1
 ouvrages de bois de selles,1,selles de bois,5
-ouvrages de bois divers,27,ouvrages de bois,861
+ouvrages de bois divers,27,ouvrages de bois,862
 ouvrages de bois divers avirons,2,avirons de bois,60
 ouvrages de bois doré,16,ouvrages de bois doré,17
 ouvrages de bois échalas,1,échalas de bois,1
-ouvrages de bois en,1,ouvrages de bois,861
+ouvrages de bois en,1,ouvrages de bois,862
 ouvrages de bois en atelier de coluses,1,ouvrages de bois en atelier de coluses,1
 ouvrages de bois en aviron,1,avirons de bois,60
 ouvrages de bois en avirons,1,avirons de bois,60
-ouvrages de bois en avirons balais boissellerie futailles et vannerie en osier et autres bois,14,ouvrages de bois,861
+ouvrages de bois en avirons balais boissellerie futailles et vannerie en osier et autres bois,14,ouvrages de bois,862
 ouvrages de bois en boissellerie et futailles,12,boisselerie et futailles,12
 ouvrages de bois en boites de sapin,1,boites de sapin,1
 ouvrages de bois en boutons,1,boutons de bois,3
@@ -19393,8 +19387,8 @@ ouvrages de passmenterie,4,passementerie,297
 ouvrages de pate,1,ouvrages de pâte,1
 ouvrages de peau,99,pelleterie,559
 ouvrages de peau divers,52,pelleterie,559
-ouvrages de peau en gants,8,gants de peau,550
-ouvrages de peau gants,37,gants de peau,550
+ouvrages de peau en gants,8,gants de peau,551
+ouvrages de peau gants,37,gants de peau,551
 ouvrages de pelleterie,19,pelleterie,559
 ouvrages de physique,1,ouvrages de physique,1
 ouvrages de pierre,10,ouvrages de pierre,15
@@ -19487,7 +19481,7 @@ ouvrages de terre forme à sucre,2,forme à sucre de terre,61
 ouvrages de terre formes pour le sucre,1,forme à sucre de terre,61
 ouvrages de terre jarres,4,jarres de terre,26
 ouvrages de terre moellons de brique,1,moellons de brique,2
-ouvrages de terre pipes,11,pipes de terre,11
+ouvrages de terre pipes,11,pipes de terre,12
 ouvrages de terre pipes à fumer,2,pipes à fumer de terre cuite,39
 ouvrages de terre poterie,8,poterie de terre cuite,450
 ouvrages de terre tuiles,8,tuiles de terre,8
@@ -19522,14 +19516,14 @@ ouvrages de verre rocaille,1,rocaille de verre,18
 ouvrages devant,0,ouvrages devant,0
 ouvrages divers,299,ouvrages divers,336
 ouvrages divers à la valeur,1,ouvrages divers,336
-ouvrages divers de bois,23,ouvrages de bois,861
+ouvrages divers de bois,23,ouvrages de bois,862
 ouvrages divers de cuir,1,ouvrages de cuir,178
 ouvrages divers de sellier,1,ouvrages de sellier de toute sorte,130
 ouvrages divers de terre,1,ouvrages de terre cuite,220
 ouvrages divers de terre cuite,5,ouvrages de terre cuite,220
 ouvrages divers de tonnelier barils,1,barils de tonnelier,3
 ouvrages divers de verre,1,ouvrages de verre,11
-ouvrages divers en bois,120,ouvrages de bois,861
+ouvrages divers en bois,120,ouvrages de bois,862
 ouvrages divers en bois non doré,4,ouvrages de bois non doré,4
 ouvrages divers en cuir,24,ouvrages de cuir,178
 ouvrages divers en cuivre,2,ouvrages de cuivre,1230
@@ -19542,7 +19536,7 @@ ouvrages divers peignes,1,peignes,13
 ouvrages dorés,1,ouvrages dorés,1
 ouvrages dorés argentés et plaqués,20,ouvrages dorés argentés et plaqués,20
 ouvrages en albâtre,1,ouvrages d'albâtre,6
-ouvrages en bois,22,ouvrages de bois,861
+ouvrages en bois,22,ouvrages de bois,862
 ouvrages en bois bâtons vernis,1,bâtons de bois vernis,1
 ouvrages en bois doré,1,ouvrages de bois doré,17
 ouvrages en bois en sabots,1,sabots de bois,8
@@ -19553,7 +19547,7 @@ ouvrages en brique vernissée,1,ouvrages en brique vernissée,1
 ouvrages en caractères d'imprimerie,3,caractères à imprimerie,221
 ouvrages en caraterie,1,caraterie,1
 ouvrages en carreaux à paver,1,carreaux à paver,20
-ouvrages en ciseaux,1,ciseaux,23
+ouvrages en ciseaux,1,ciseaux,25
 ouvrages en cuir,8,ouvrages de cuir,178
 ouvrages en cuir blanc,1,ouvrages de cuir blanc,1
 ouvrages en cuir bottes,5,bottes de cuir,36
@@ -19735,9 +19729,9 @@ paires de souliers,1,souliers,946
 paires de souliers et mules,1,souliers et mules,1
 palacques,1,palangre,11
 palangre,10,palangre,11
-palatine,22,palatine,22
+palatine,22,palatine,23
 palatine avec argent,1,palatine avec argent,1
-palatine commune,1,,417
+palatine commune,1,palatine,23
 palatine de chenille,1,palatine de chenille,1
 palatine de peau de grèbe,1,palatine de peau de grèbe,1
 palatine de soie,7,palatine de soie,7
@@ -19933,7 +19927,7 @@ papier d'estrasse,41,papier d'estrasse,41
 papier d'estrasse gris,1,papier d'estrasse gris,1
 papier d'étoupes,1,papier d'étoupe,1
 papier d'éventails,16,papier à éventail,16
-papier de,1,,417
+papier de,1,papier de,1
 papier de Charente,4,papier de Charente,4
 papier de Chine,1,papier de Chine,2
 papier de couleurs,3,papier de couleur,3
@@ -19964,7 +19958,7 @@ papier divers ordre,2,papier divers ordre,2
 papier doré,32,papier doré,32
 papier doré argenté,1,papier argenté et doré,6
 papier doré et argenté,1,papier argenté et doré,6
-papier doré et marbré,1,,417
+papier doré et marbré,1,papier doré et marbré,2
 papier double lys,6,papier double lys,6
 papier drapé,1,papier drapé,1
 papier écrire,1,papier à écrire,707
@@ -20007,7 +20001,7 @@ papier jésier,1,papier jésier,1
 papier l'étoile,1,papier étoile,1
 papier lombard,6,papier lombard,6
 papier marbré,5,papier marbré,5
-papier marbré en doré,1,papier marbré doré,1
+papier marbré en doré,1,papier doré et marbré,2
 papier marbré et à meubler,14,papier marbré et à meubler,14
 papier marbré fleuragé et doré,74,papier doré et fleuragé et marbré,74
 papier métallisé,3,papier métallisé,3
@@ -20433,7 +20427,7 @@ peaux de Buenos-Aires en poil,1,peaux de Buenos-Aires en poil,1
 peaux de buffle,30,peaux de buffle,32
 peaux de buffle apprêtées,1,peaux apprêtée de buffle,1
 peaux de buffle en chamois,3,peaux de buffle chamoisées,3
-peaux de buffle passées,1,,417
+peaux de buffle passées,1,peaux de buffle passées,2
 peaux de cabri,5,peaux de cabri,6
 peaux de cacao,25,écorce de cacao,145
 peaux de carcajou,3,peaux de carcajou,4
@@ -20929,7 +20923,7 @@ peaux ouvrées ouvrages de cordonnerie,1,ouvrages de cordonnerie de peaux,1
 peaux parchemin et vélin achevés,2,parchemin et vélin achevés,2
 peaux parchemin et vélin bruts,2,parchemin et vélin bruts,2
 peaux passées,1,peaux passée,1
-peaux passées en buffle,1,peaux de buffle passées,1
+peaux passées en buffle,1,peaux de buffle passées,2
 peaux passées en chamois,3,peaux de chamois passées,4
 peaux pelisse,8,peaux pelisse,8
 peaux pelleterie,70,pelleterie,559
@@ -21060,17 +21054,16 @@ pêche fraîche,89,pêche au poisson frais,1120
 pêche fraîche annuelle,2,pêche fraîche annuelle,2
 pêche fraîche aux maquereaux,1,pêche aux maquereaux frais,6
 pêche salée,2,pêche salée,2
-pêche sèche,1,,417
 pêchers,1,pêchers,1
 pêches,11,pêches,11
 pêches à l'eau-de-vie,2,pêches à l'eau-de-vie,2
-pêches sèches,7,pêches sèches,7
+pêches sèches,8,pêches sèches,8
 pêcheur,1,pêcheur,1
 pecuacan,1,pecuacan,1
 pefotas,1,taffetas,243
 peignes,12,peignes,13
 peignes à chanvre,1,peignes à chanvre,1
-peignes à chanvre de fer,1,,417
+peignes à chanvre de fer,1,peignes à chanvre de fer,1
 peignes à tisserand,21,peignes à tisserand,21
 peignes à travailler laine,1,peignes pour travailler la laine,1
 peignes buis,1,peignes de buis,314
@@ -21082,7 +21075,7 @@ peignes de bois,22,peignes de bois,22
 peignes de buis,311,peignes de buis,314
 peignes de corne,47,peignes de corne,47
 peignes de coton,1,peignes de coton,1
-peignes de fer,2,,417
+peignes de fer,2,peignes de fer,2
 peignes de griffons,1,peignes de griffon,1
 peignes de Rouen,1,peignes de Rouen,1
 peignes de tisserand,2,peignes de tisserand,2
@@ -21110,7 +21103,7 @@ Pékin mi soie,1,Pékin mi soie,1
 Pékin non peint,1,Pékin non peint,1
 Pékin peint,7,Pékin peint,7
 Pékin petit,4,Pékin petit,4
-Pékin ramagé,1,,417
+Pékin ramagé,1,Pékin ramagé,1
 Pékin rayé,4,Pékin rayé,4
 Pékin rayé et broché,1,Pékin broché et rayé,1
 Pékin rayé et peint,1,Pékin peint et rayé,1
@@ -21120,7 +21113,7 @@ pelincuche,1,pelincuche,1
 pelisse,1,pelisse,2
 pelisse commune,13,pelisse commune,13
 pelles,1,pelles,2
-pelles à ferrées,1,,417
+pelles à ferrées,1,pelles ferrées,8
 pelles à pinceves,1,pelles à pinceves,1
 pelles à plat de bois,1,pelles à plat de bois,1
 pelles commune,1,pelles commune,1
@@ -21130,7 +21123,7 @@ pelles de bois et ailes de fléaux,84,pelles de bois et ailes de fléaux,84
 pelles de bois ferrées,10,pelles de bois ferrées,10
 pelles de fer,11,pelles de fer,30
 pelles de sapin,3,pelles de sapin,3
-pelles ferrées,7,pelles ferrées,7
+pelles ferrées,7,pelles ferrées,8
 pelles non ferrées,1,pelles non ferrées,1
 pelleterie,268,pelleterie,559
 pelleterie apprêtée,402,pelleterie apprêtée,763
@@ -21511,9 +21504,8 @@ pierres de fusils,3,pierres de fusils,3
 pierres de grès,22,pierres de grès,22
 pierres de grés à paver,5,pierres de grés à paver,5
 pierres de grès ou de chaussée,118,pierres de chaussée ou de grès,118
-pierres de grison,40,pierres de grison,40
-pierres de grisons,1,,417
-pierres de jacinthe,1,,417
+pierres de grison,41,pierres de grison,41
+pierres de jacinthe,1,pierres de jacinthe,1
 pierres de jais,5,pierres de jais,5
 pierres de jais brut,1,pierres de jais brut,1
 pierres de jais et ???,5,pierres de jais et ???,5
@@ -21689,7 +21681,7 @@ pignons d'épine,1,pignons d'épine,130
 pignons d'épines,129,pignons d'épine,130
 pignons d'Inde,42,pignons d'Inde,43
 pignons de pin,11,pignons de pin,11
-pignons en coques,1,,417
+pignons en coques,1,pignons en coques,1
 pigouilles,2,pigouilles,2
 piles de bois,1,piles de bois,1
 piliers de frêne,0,piliers de frêne,0
@@ -21735,7 +21727,7 @@ pipes cerclées de fer,1,pipes cerclées de fer,1
 pipes céréalier de fer,0,pipes céréalier de fer,0
 pipes de bois à fumer,2,pipes de bois pour fumer,2
 pipes de side,1,pipes vides,26
-pipes de terre,1,,417
+pipes de terre,1,pipes de terre,12
 pipes de vide,1,pipes vides,26
 pipes en bottes,6,pipes en bottes,6
 pipes muid,3,pipes muid,3
@@ -21933,7 +21925,7 @@ planches de plomb,1,planches de plomb,88
 planches de poirier cerisier etc,4,planches de poirier cerisier etc,4
 planches de pont de barques,1,planches de pont de barque,1
 planches de Prusse,175,planches de Prusse,176
-planches de Prusse 22 pieds,1,,417
+planches de Prusse 22 pieds,1,planches de Prusse de 22 pieds,2
 planches de Prusse 28 pieds,1,planches de Prusse 28 pieds,1
 planches de Prusse communes,1,planches de Prusse communes,7
 planches de Prusse de 10 à 12 pieds,2,planches de Prusse de 10 à 12 pieds,2
@@ -21949,7 +21941,7 @@ planches de Prusse de 18 pieds,3,planches de Prusse de 18 pieds,3
 planches de Prusse de 18 pieds à 41 pieds à 1 pouce 1/2 4 pouces d'épaisseur,1,planches de Prusse de 18 pieds à 41 pieds à 1 pouce 1/2 4 pouces d'épaisseur,1
 planches de Prusse de 20 pieds,2,planches de Prusse de 20 pieds,2
 planches de Prusse de 21 à 22 pieds,1,planches de Prusse de 21 à 22 pieds,1
-planches de Prusse de 22 pieds,1,planches de Prusse de 22 pieds,1
+planches de Prusse de 22 pieds,1,planches de Prusse de 22 pieds,2
 planches de Prusse de 24 pieds,4,planches de Prusse de 24 pieds,4
 planches de Prusse de 25 pieds,3,planches de Prusse de 25 pieds,3
 planches de Prusse de 26 à 27 pieds,1,planches de Prusse de 26 à 27 pieds,1
@@ -22377,8 +22369,8 @@ plâtre brut,1,plâtre brut,1
 plâtre brut ou calciné,2,plâtre calciné ou brut,2
 plâtre brut ou pierres à plâtre,4,pierres à plâtre ou plâtre brut,6
 plâtre chaux et ciment,13,chaux et plâtre et ciment,48
-plâtre de terre,1,,417
-plâtre en pierres,1,plâtre de pierres,1
+plâtre de terre,1,plâtre de pierres,2
+plâtre en pierres,1,plâtre de pierres,2
 plâtre et pierres ditto,118,plâtre et pierres ditto,118
 plâtre et pierres ditto par livre,10,plâtre et pierres ditto par livre,10
 plâtre gris,2,plâtre gris,2
@@ -22599,12 +22591,12 @@ poêles de faïence,4,poêles de faïence,5
 poêles de fer,32,poêles de fer,65
 poêles de fer à chaudron,1,poêles à chaudron de fer,1
 poêles de fer à feu,2,poêles de fer à feu,4
-poêles de fer à fifre,2,,417
-poêles de fer à frire,10,poêles à frire de fer,164
+poêles de fer à fifre,2,poêles à frire de fer,166
+poêles de fer à frire,10,poêles à frire de fer,166
 poêles de fer et leurs tuyaux,1,poêles de fer et leurs tuyaux,2
 poêles de fer et ses tuyaux,1,poêles de fer et leurs tuyaux,2
 poêles de fer fondu,1,poêles de fer de fonte,1
-poêles de fer pesant 600 livres,1,,417
+poêles de fer pesant 600 livres,1,poêles de fer pesant 600 livres,1
 poêles de feu à frire,1,poêles de feu à frire,1
 poêles de terre,1,poêles de terre,1
 poêlons de cuivre,2,poêlons de cuivre,2
@@ -22719,7 +22711,7 @@ pois en gerbes,15,pois en gerbe,15
 pois et fèves,10,pois et fèves,10
 pois fayolles,2,haricots,254
 pois haricots,1,haricots,254
-pois noirs,1,,417
+pois noirs,1,pois noirs,1
 pois pointus,5,pois pointus,5
 pois résines,5,poix résines,217
 pois secs,66,pois secs,71
@@ -22753,7 +22745,7 @@ poisson de mer frais,8,poisson de mer frais,10
 poisson de mer frais divers,2,poisson de mer frais,10
 poisson de mer frais sec et salé,1,poisson de mer frais salé et sec,1
 poisson de mer frais sec salé ou fumé,3,poisson de mer frais fumé salé ou sec,3
-poisson de mer harancades,2,harancades,37
+poisson de mer harancades,2,harancades,38
 poisson de mer harengs,2,harengs,157
 poisson de mer harengs blancs,4,harengs blancs,684
 poisson de mer harengs saurs,3,harengs saurs,547
@@ -22856,7 +22848,7 @@ poisson frais vendu en mer,1,poisson frais,363
 poisson frit,119,poisson frit,119
 poisson frit gros,1,poisson frit et gros,1
 poisson gros frais,1,poisson frais et gros,10
-poisson harancades,1,harancades,37
+poisson harancades,1,harancades,38
 poisson harengs,5,harengs,157
 poisson harengs blancs,10,harengs blancs,684
 poisson harengs saurs,7,harengs saurs,547
@@ -23013,7 +23005,7 @@ pommes de terre,41,pommes de terre,81
 pommes de terre pour ???,1,pommes de terre,81
 pommes elemy,1,pommes elemy,1
 pommes et poires,12,pommes et poires,17
-pommes séchées,1,,417
+pommes séchées,1,pommes sèches,3
 pommette d'acier,1,pomette d'acier,1
 pompes,12,pompes,13
 pompes à boire,1,pompes à boire,1
@@ -23064,14 +23056,14 @@ porcelaine ordinaire,127,porcelaine commune,133
 porcelaine service,1,service de porcelaine,1
 porcelaine tasses et soucoupes,1,porcelaine soucoupes et tasses,1
 porcelets,27,porcelets,86
-porcelets de 6 mois,1,,417
+porcelets de 6 mois,1,porcelets de 6 mois,1
 porcs,189,porcs,281
 porcs au-dessous de six mois,4,porcs au-dessous de 6 mois,4
 porcs au-dessus de six mois,1,porcs au-dessus de 6 mois,1
 porcs cochon de lait,1,cochon de lait,1
 porcs de six mois et au-dessus,4,porcs de 6 mois et au-dessus,4
 porcs en vie,7,porcs,281
-porcs et porcelets,2,porcelets et porcs,19
+porcs et porcelets,2,porcelets et porcs,20
 porcs frais,10,porcs frais,10
 porcs gras,273,porcs gras,295
 porcs gras en vie,1,porcs gras en vie,1
@@ -23207,7 +23199,7 @@ pots de pierre,70,poterie de pierre,70
 pots de rechange,2,pots de rechange,2
 pots de sucre,1,pots de sucre,1
 pots de terre,98,pots de terre,98
-pots de terre à faire,1,,417
+pots de terre à faire,1,pots de terre à faire,1
 pots de terre à forme à sucre,1,pots à forme à sucre de terre,4
 pots de terre à huile,1,pots à huile de terre,1
 pots de terre à sucre,9,pots à sucre de terre,9
@@ -23324,7 +23316,7 @@ pourette,1,pourette,1
 pourette de mûriers,1,pourette de mûrier,1
 pousses de houblon et vignes,3,pousses de houblon et vignes,3
 poussière,1,poussière,2
-poussière d'écorce de pin,1,poussière d'écorce de pin,1
+poussière d'écorce de pin,1,écorce de pin moulue,8
 poussière d'encens,34,poussière d'encens,34
 poussière de barille,1,cendre barille,3
 poussière de bourde,2,cendre barille,3
@@ -23820,7 +23812,7 @@ rase pour teinture,2,rase pour peintures,2
 rasoirs,36,rasoirs,36
 rasoirs communs,1,rasoirs communs,1
 rasorde,2,rasorde,2
-rasque de pin,1,écorce de pin,9
+rasque de pin,1,écorce de pin,10
 rassades,330,rassades,330
 rassades des prises,1,rassades des prises,1
 rassades et autres vitrifications,24,rassades et vitrifications,24
@@ -23879,7 +23871,7 @@ rechanges à nègre,1,rechanges à nègre,1
 rechanges de toile pour nègre,1,rechanges de toile à nègres,1
 réchaud à café de fer,1,réchauds à café de fer,1
 réchaud avec leurs pieds de fer,1,réchaud avec leurs pieds de fer,1
-réchaud de cuivre,3,réchaud de cuivre,3
+réchaud de cuivre,3,réchaud de cuivre,4
 réchaud de fer,1,réchaud de fer,1
 réchaud de terre,2,réchaud de terre,2
 rediné,1,rediné,1
@@ -23988,7 +23980,7 @@ retaille de peau,6,retaille de peau,6
 retaille de peaux de veau corroyée,1,retaille de peau de veau corroyée,1
 retaillons de drap,1,retaillons de drap,1
 rets à pêcher,29,filets à pêcher,295
-rets à sardine,1,,417
+rets à sardine,1,filets à sardines,8
 rets ou filets,2,filets,165
 rets pour la chasse et la pêche,77,filets pour la chasse et la pêche,77
 rets pour tisseurs,12,rets pour tisseurs,12
@@ -24021,7 +24013,7 @@ riz grains et légumes,89,riz grains et légumes,89
 robe de chambre de soie,4,robes de chambre de soie,4
 robes,8,robes,8
 robes brodées,1,robes brodées,1
-robes d'enfant,1,,417
+robes d'enfant,1,robes d'enfant,1
 robes d'indienne,1,robes d'indienne,1
 robes d'indienne des prises,1,robes d'indienne des prises,1
 robes de basin brodées,1,robes de basin brodées,1
@@ -24031,7 +24023,7 @@ robes de chambre d'indienne,3,robes de chambre d'indienne,3
 robes de chambre de damas,2,robes de chambre de damas,2
 robes de chambre de la Chine,2,robes de chambre de la Chine,2
 robes de chambre de Pékin brodé de soie,1,robes de chambre de Pékin brodé de soie,1
-robes de chambre des Indes,1,,417
+robes de chambre des Indes,1,robes de chambre des Indes,1
 robes de femme,1,robes de femme,1
 robes de satin brodées,2,robes de satin brodées,2
 robes de taffetas,1,robes de taffetas,1
@@ -24202,7 +24194,7 @@ rouge muscat,1,rouge muscat,1
 rouge ou rouge végétal,1,rouge végétal,1
 rouge perse et de rosse,1,rouge perse et de rosse,1
 rouge rouge,1,rouge,6
-rouleau de fer,1,,417
+rouleau de fer,1,rouleau de fer,1
 rouleau de lit,1,rouleau de lit,1
 rouleau pour chauffer le salitre,1,rouleau pour chauffer le salitre,1
 rouleau rôles,4,rouleau rôles,4
@@ -24315,11 +24307,11 @@ rubanerie passementerie diverse celle de soie exceptée,7,ruban et passementerie
 rubea,1,rubea,1
 rubea major,20,rubea major,20
 rubia tinctorum,9,rubia tinctorum,9
-ruches,13,ruches,24
-ruches à miel,10,ruches,24
+ruches,13,ruches,25
+ruches à miel,10,ruches,25
 ruches à miel (renfermant des essaims vivants),6,ruches à miel renfermant des essaims vivants,6
-ruches à miel de liège,2,,417
-ruches à mouches,1,ruches,24
+ruches à miel de liège,2,ruches de liège,2
+ruches à mouches,1,ruches,25
 ruches de pin,1,ruches de pin,1
 rudon,2,rudon,2
 rusque,5,rusque,5
@@ -24417,7 +24409,7 @@ salicore,169,salicore,169
 salicore brûlé,1,salicore brûlé,1
 salière,1,salière,1
 salière de cristal,4,salière de cristal,4
-salière de pierre luisante,1,,417
+salière de pierre luisante,1,salière de pierre luisante,1
 salins,4,salins,4
 salins pour verrerie,1,salins pour verrerie,1
 saloir,1,saloir,1
@@ -24508,7 +24500,7 @@ sardines pressées,36,sardines pressées,36
 sardines salées,227,sardines salées,244
 sareaux de toile,3,sareaux de toile,3
 sarment,19,sament,19
-sarrasin,12,grains sarrasin,69
+sarrasin,12,grains sarrasin,70
 sarrions d'espars,2,sarrions d'espars,2
 sassafras,147,sassafras,148
 sasses,23,sasses,23
@@ -24928,7 +24920,7 @@ serge à drapée,2,serge à draper,2
 serge à fleurs,1,serge à fleurs,1
 serge blanche,14,serge blanche,18
 serge blanche aune,4,serge blanche,18
-serge bleue,1,,417
+serge bleue,1,serge bleue,1
 serge commune,30,serge commune,37
 serge commune aune,7,serge commune,37
 serge commune teinte,20,serge commune teinte,23
@@ -24947,7 +24939,7 @@ serge de Londres et autres,8,serge de Londres et autres,8
 serge de Montauban,13,serge de Montauban,17
 serge de Nîmes,103,serge de Nîmes,119
 serge de Nîmes aune,16,serge de Nîmes,119
-serge de Poitou,1,serge de Poitou,1
+serge de Poitou,1,serge de Poitou,2
 serge de Rome,3,serge de Rome,4
 serge de Rouen,1,serge de Rouen,1
 serge de Rouen commune,1,serge de Rouen commune,1
@@ -24965,7 +24957,7 @@ serge drapée aune,1,serge drapée,87
 serge drapée de laine,1,serge drapée de laine,1
 serge du Languedoc,7,serge du Languedoc,7
 serge du pays,1,serge du pays,1
-serge du Poitou,1,,417
+serge du Poitou,1,serge de Poitou,2
 serge écarlate,1,serge écarlate,1
 serge écarlatine,1,serge écarlatine,2
 serge fil et laine,6,serge de fil et de laine,6
@@ -25066,7 +25058,7 @@ sirop de coriandre,1,sirop de coriandre,1
 sirop de framboise,1,sirop de framboise,1
 sirop de l'étranger,0,sirop de l'étranger,0
 sirop de limon,55,sirop de limon,57
-sirop de limon des Îles,1,,417
+sirop de limon des Îles,1,sirop de limon des Îles,1
 sirop de mélasse,70,sirop de mélasse,796
 sirop de mûre,1,sirop de mûre,1
 sirop de raffinerie,3,sirop de raffinerie,3
@@ -25339,7 +25331,7 @@ sonde ou soudes,1,sonde ou soudes,1
 sonnettes,27,sonnettes,27
 sonnettes de bronze,1,sonnettes de bronze,1
 sonnettes de fonte,1,sonnettes de fonte,1
-sonnettes de métal,1,,417
+sonnettes de métal,1,sonnettes de métal,1
 soquet,1,soquet,1
 sorbet,7,sorbet,7
 sorte d'arbres utilisés pour traiter la syphilis guajocum,7,guajocum utilisé pour traiter la syphilis,7
@@ -25447,7 +25439,7 @@ souliers homme,3,souliers pour homme,77
 souliers neufs,145,souliers neufs,145
 souliers ordinaires,21,souliers communs,23
 souliers pantoufles et galoches,3,souliers pantoufles et galoches,3
-souliers par paires,0,,417
+souliers par paires,0,,79
 souliers petits,2,souliers petits,2
 souliers pour enfant,6,souliers pour enfant,12
 souliers pour femme,18,souliers pour femme,40
@@ -25688,7 +25680,7 @@ sucre raffiné candi,1,sucre candi raffiné,1
 sucre raffiné en pain,3,sucre en pain raffiné,25
 sucre raffiné en pain en poudre ou candi,1,sucre candi en pain et en poudre raffiné,1
 sucre raffiné en pain ou en poudre,1,sucre en pain et en poudre raffiné,1
-sucre rouge,1,,417
+sucre rouge,1,sucre rouge,1
 sucre roulé,1,sucre roulé,1
 sucre royal,2,sucre royal,2
 sucre sucrerie,1,sucrerie,19
@@ -25824,7 +25816,7 @@ tabac briquet,5,tabac briquet,5
 tabac brut,1,tabac brut,1
 tabac commun,15,tabac commun,15
 tabac d'Espagne,93,tabac d'Espagne,93
-tabac d'Espagne en poudre,1,,417
+tabac d'Espagne en poudre,1,tabac en poudre d'Espagne,1
 tabac de ???,1,tabac de ???,1
 tabac de Brésil,3,tabac de Brésil,3
 tabac de caisse,1,tabac de caisse,1
@@ -26001,7 +25993,7 @@ tableaux et cadres dorés,1,cadres dorés et tableaux,1
 tableaux et estampes,319,estampes et tableaux,336
 tableaux fins toile,1,tableaux fins et sur toile,1
 tableaux grossiers,3,tableaux grossiers,3
-tableaux petits,1,,417
+tableaux petits,1,tableaux petits,1
 tableaux portraits,1,tableaux portraits,1
 tableaux sans bordures,2,tableaux sans bordures,2
 tableaux sur bois,1,tableaux sur bois,1
@@ -26051,7 +26043,7 @@ tablier,4,tablier,4
 tablier brodé,4,tablier brodé,4
 tablier de peau de chamois,1,tablier de peau de chamois,1
 tablier de quadrilles,1,tablier de quadrilles,1
-tablier de soie,1,,417
+tablier de soie,1,tablier de soie,1
 tablier de taffetas,5,tablier de taffetas,5
 tablier de taffetas brodé,1,tablier brodé et de taffetas,1
 tablier de toile peinte,3,tablier de toile peinte,3
@@ -26072,9 +26064,9 @@ taffetas d'Avignon,2,taffetas d'Avignon,2
 taffetas de Florence,2,taffetas de Florence,2
 taffetas de Léon,2,taffetas de Léon,2
 taffetas de Lyon,1,taffetas de Lyon,1
-taffetas de Naples,1,,417
+taffetas de Naples,1,taffetas de Naples,1
 taffetas de Pékin,4,taffetas de Pékin,4
-taffetas double,1,,417
+taffetas double,1,taffetas double,1
 taffetas foulard,1,taffetas foulard,1
 taffetas foulas,7,taffetas foulas,7
 taffetas lustré,2,taffetas lustré,2
@@ -26102,7 +26094,7 @@ tambours,11,tambours,14
 tambours à sucre,5,tambours à sucre,5
 tambours d'acier,2,tambours d'acier,2
 tambours d'enfant,2,tambours d'enfant,2
-tambours de cuir,1,,417
+tambours de cuir,1,tambours de cuir,1
 tambours de fer,25,tambours de fer,35
 tambours de fer pour moulins à sucre,1,tambours de fer pour moulins à sucre,1
 tambours de fonte,1,tambours de fonte,1
@@ -26505,7 +26497,7 @@ têtes de girofle,8,têtes de girofle,8
 têtes de morue,4,têtes de morue,5
 têtes de morue des Îles,1,têtes de morue des Indes,1
 têtes de pavot,1,têtes de pavot,1
-têtes de pipe,1,,417
+têtes de pipe,1,têtes de pipe,1
 têtes de sucre,1,sucre têtes,423
 thé,1975,thé,2105
 thè,2,thé,2105
@@ -26532,8 +26524,8 @@ thé ordinaire,1,thé ordinaire,1
 thé par Dunkerque,1,thé par Dunkerque,1
 thé par Saint-Louis et Pontarlier,1,thé par Pontarlier et Saint-Louis,1
 thé pays,1,thé pays,1
-thé pékan,6,thé pékan,6
-thé Pékin,1,,417
+thé pékan,6,thé pékan,7
+thé Pékin,1,thé pékan,7
 thé roux,6,thé roux,6
 thé saotchaon,2,thé saotchaon,2
 thé saoul,3,thé saoul,4
@@ -26541,9 +26533,9 @@ thé saoul vert,1,thé vert saoul,9
 thé saoulo,1,thé saoul,4
 thé souchon,7,thé souchon,7
 thé tonkay,0,thé tonkay,0
-thé vert,51,thé vert,51
-thé vert commun,2,thé vert commun,2
-thé vert foncé,1,,417
+thé vert,51,thé vert,53
+thé vert commun,2,thé vert,53
+thé vert foncé,1,thé vert foncé,1
 thé vert saoul,8,thé vert saoul,9
 théières,3,théières,3
 théières d'étain,11,théières d'étain,11
@@ -26880,7 +26872,7 @@ toile bayette bleue,4,bayette bleue,7
 toile beaugrain,8,toile beaugrain,8
 toile Beauvais,6,toile de Beauvais,29
 toile bem ???,1,toile de Bretagne,641
-toile bem à voile,3,toile de Bretagne pour voile,96
+toile bem à voile,3,toile de Bretagne pour voile,98
 toile bem de Vimoutiers,1,toile de Vimoutiers,31
 toile bétilles,3,bétilles,31
 toile beurrière,64,beurrière,64
@@ -26949,7 +26941,7 @@ toile branle,4,toile hamacs,7
 toile branle imitant celles des Indes,1,toile hamacs imitant celles des Indes,1
 toile Bretagne,31,toile de Bretagne,641
 toile Bretagne à carreaux,1,toile de Bretagne à carreaux,71
-toile Bretagne à voile,1,toile de Bretagne pour voile,96
+toile Bretagne à voile,1,toile de Bretagne pour voile,98
 toile Bretagne crée,1,toile de Bretagne crée,39
 toile Bretagne d'Olonne,1,toile d'Olonne,24
 toile Bretagne de brin,1,toile de Bretagne de brin,28
@@ -27177,7 +27169,6 @@ toile de Bézier,1,toile de Bézier,1
 toile de blancard,1,toile blancard,124
 toile de bleue,1,toile de bleue,1
 toile de bougran,1,toile bougran,112
-toile de Bretagen à voile,2,,417
 toile de Bretagne,585,toile de Bretagne,641
 toile de Bretagne ??? brin,1,toile de Bretagne ??? brin,1
 toile de Bretagne 3 aunes,1,toile de Bretagne de 3 aunes,1
@@ -27186,7 +27177,7 @@ toile de Bretagne 7/8,1,toile de Bretagne 7/8,1
 toile de Bretagne à 4 fils,1,toile de Bretagne de 4 fils,21
 toile de Bretagne à carreaux,65,toile de Bretagne à carreaux,71
 toile de Bretagne à nègre,1,toile de Bretagne à nègre,1
-toile de Bretagne à voile,87,toile de Bretagne pour voile,96
+toile de Bretagne à voile,89,toile de Bretagne pour voile,98
 toile de Bretagne bas brin,1,toile de Bretagne bas brins,13
 toile de Bretagne beurrière,1,toile de Bretagne beurrière,1
 toile de Bretagne blancard,1,toile de Bretagne blancard,1
@@ -27230,7 +27221,7 @@ toile de Bretagne de Dinant,3,toile de Dinan,6
 toile de Bretagne de fil,2,toile de Bretagne de fil,2
 toile de Bretagne de Fougères,28,toile de Fougères,54
 toile de Bretagne de gratienne,3,toile de Bretagne gratienne,106
-toile de Bretagne de halle,158,toile de Halle,283
+toile de Bretagne de halle,159,toile de Halle,284
 toile de Bretagne de haut brin,17,toile de Bretagne hauts brins,34
 toile de Bretagne de Hollande,1,toile de Hollande,60
 toile de Bretagne de Landerneau,20,toile de Landerneau,28
@@ -27269,7 +27260,7 @@ toile de Bretagne de Vitré,7,toile de Vitré,16
 toile de Bretagne de Vitrée,1,toile de Vitré,16
 toile de Bretagne diverse,41,toile de Bretagne diverse,41
 toile de Bretagne diverse à carreaux,5,toile de Bretagne à carreaux,71
-toile de Bretagne diverse à voile,5,toile de Bretagne pour voile,96
+toile de Bretagne diverse à voile,5,toile de Bretagne pour voile,98
 toile de Bretagne diverse bas brin,1,toile de Bretagne bas brins,13
 toile de Bretagne diverse blanche,2,toile de Bretagne blanche,36
 toile de Bretagne diverse blanche large,1,toile de Bretagne blanche large,1
@@ -27608,7 +27599,7 @@ toile de Grenoble,3,toile de Grenoble,3
 toile de gris,1,toile de gris,1
 toile de Guinée,3,guinée,186
 toile de guingans,8,toile guingans,642
-toile de halle,125,toile de Halle,283
+toile de halle,125,toile de Halle,284
 toile de Hanovre,1,toile de Hanovre,1
 toile de haut brin,9,toile de Bretagne hauts brins,34
 toile de Hollande,59,toile de Hollande,60
@@ -28197,8 +28188,8 @@ toile imitant celle des Indes,2,toile imitant celle des Indes,2
 toile imitant celle des Indes nationale,1,toile imitant celle des Indes et nationale,1
 toile imprimée,11,toile imprimée,13
 toile imprimée ou peinte,3,toile imprimée ou peinte,3
-toile imprimée pour tableaux,2,,417
-toile indienne,85,indienne,844
+toile imprimée pour tableaux,2,toile imprimée pour tableau,2
+toile indienne,85,indienne,845
 toile indienne ???,1,indienne ???,1
 toile indienne commune,6,indienne commune,6
 toile indienne de coton,13,indienne de coton,21
@@ -28342,7 +28333,7 @@ toile nicanéas,1,nicanéas,221
 toile nicaneas petite,1,nicanéas petite,1
 toile noire,1,toile noire,1
 toile non battue,29,toile non battue,29
-toile or et argent faux,1,,417
+toile or et argent faux,1,étoffe dorure d'argent et d'or faux,13
 toile ordinaire,28,toile commune,315
 toile ordinaire à voile,1,toile à voile commune,1
 toile ordinaire blanche,1,toile blanche commune,5
@@ -28425,7 +28416,7 @@ toile pour serviettes,11,toile pour serviettes,13
 toile pour serviettes aune,2,toile pour serviettes,13
 toile pour tabac,4,toile pour tabac,6
 toile pour tabac aune,2,toile pour tabac,6
-toile pour tableaux,1,toile pour tableaux,1
+toile pour tableaux,1,toile imprimée pour tableaux,1
 toile pour talliet,2,toile pour talliet,2
 toile pour tentes,1,toile pour tente,1
 toile presitte,1,toile presitte,1
@@ -28556,7 +28547,6 @@ toilettes de Valenciennes,2,toilettes de Valenciennes,2
 toilettes façon Chine,1,toilettes façon Chine,1
 toilettes pour femme,1,toilettes pour femme,20
 toilettes vernie de Chine,1,toilettes vernie de Chine,1
-toille de Bretagne de halle,1,,417
 tôle,2,tôle,2
 tôle en platines vernies,1,tôle en platines vernies,1
 tôle fer-blanc,95,tôle de fer-blanc,96
@@ -28604,7 +28594,7 @@ tours,1,tours,1
 tours à barriques,1,tours pour barriques,1
 tours à filer,15,tours à filer,15
 tours à guillocher,1,tours à guillocher,1
-tours à tonneliers et leurs cordes,1,,417
+tours à tonneliers et leurs cordes,1,tours à tonneliers et leurs cordes,1
 tours de col,2,tours de col,2
 tours de lit de bourre,10,tours de lit de bourre,10
 tours de pin,1,tours de pin,1
@@ -28684,7 +28674,7 @@ troupes,5,troupes,5
 trousse de fleures,1,trousse de fleures,1
 truelles,3,truelles,3
 truelles de fer,2,truelles de fer,2
-truelles de maçon,1,,417
+truelles de maçon,1,truelles de maçon,1
 truffes,316,truffes,318
 truffes ??? et culs d'artichauts,1,truffes ??? et culs d'artichauts,1
 truffes à l'huile,2,truffes à l'huile,2
@@ -28864,12 +28854,12 @@ velours de laine,1,velours de laine,2
 velours de soie,21,velours de soie,34
 velours de soie aune,12,velours de soie,34
 velours de soie pièces de 30 aunes,1,velours de soie de 30 aunes,1
-velours de Valence,1,,417
+velours de Valence,1,velours de Valence,1
 velours et futaine,1,futaine et velours,1
 velours gueuse,1,velours gueuse,1
 velours noir,8,velours noir,8
 velours noir de Gênes,1,velours de Gênes noir,1
-velours noir plein,1,,417
+velours noir plein,1,velours noir plein,1
 velours ordinaire,4,velours ordinaire,4
 velours uni,1,velours uni,1
 vendanges,3,vendange,3
@@ -28926,10 +28916,11 @@ vernis massé,1,vernis massé,1
 vernis préparés,21,vernis préparés,21
 vernoix,1,vernoix,1
 vernunes,1,vernunes,1
+verre en bouteilles,114,bouteilles de verre,1311
 verre pilé,2,verre pilé,2
 verrerie,570,verrerie,732
 verrerie à boire,3,verrerie à boire,3
-verrerie à vitre,7,verrerie à vitre,7
+verrerie à vitre,7,verrerie à vitre,8
 verrerie autres que cristaux,1,verrerie autres que cristaux,1
 verrerie bouteilles,70,verrerie bouteilles,70
 verrerie bouteilles pleines vides et dame-jeannes,41,bouteilles pleines de verres et vides et dame-jeannes de verre,41
@@ -28946,15 +28937,14 @@ verrerie de toute sorte,2,verrerie,732
 verrerie diverse,91,verrerie,732
 verrerie en Bohème,1,verrerie de Bohème,1
 verrerie en boucaut,1,verrerie en boucaut,1
-verrerie en bouteilles,14,bouteilles de verre,1192
+verrerie en bouteilles,14,bouteilles de verre,1311
 verrerie en cristaux,1,cristaux,4
 verrerie gobelets,1,gobelets de verre,54
 verrerie ordinaire,75,verrerie ordinaire,75
 verrerie ouvrée,1,verrerie ouvrée,1
-verrerie verre en bouteilles,2,bouteilles de verre,1192
+verrerie verre en bouteilles,6,bouteilles de verre,1311
 verrerie verrerie,6,verrerie,732
 verrerie verres à boire,4,verres à boire,542
-verrerie verres en bouteilles,4,bouteilles de verres,118
 verrerie verres en dame-jeannes,5,dame-jeannes de verre,113
 verrerie verroterie,1,verroterie,107
 verrerie verroterie ou rassades,3,rassades ou verroterie,9
@@ -29043,7 +29033,6 @@ verres de vessie,1,verres de vaisselle,1
 verres divers,36,verres,455
 verres du Barrois,1,verres du Barrois,1
 verres en ???,1,verres en ???,1
-verres en bouteilles,114,bouteilles de verres,118
 verres en carreaux,6,carreaux de verre,16
 verres en cloches,1,cloches de verre,7
 verres en dame-jeannes,69,dame-jeannes de verre,113
@@ -29074,7 +29063,7 @@ verres et gobelets,15,gobelets et verres,21
 verres et gobelets de cristal,2,gobelets et verres de cristal,3
 verres et gobelets en cristal,1,gobelets et verres de cristal,3
 verres et verrerie diverse,10,verres et verrerie,10
-verres et verrerie en bouteilles,3,bouteilles de verre,1192
+verres et verrerie en bouteilles,3,bouteilles de verre,1311
 verres et verrerie en dame-jeannes,4,dame-jeannes de verre,113
 verres et verrerie en lampes et gobelets,3,gobelets et lampes de verre,3
 verres étamés,1,verres étamés,1
@@ -29084,11 +29073,11 @@ verres moulein,1,verres moulein,1
 verres ou gobelets,1,gobelets et verres,21
 verres ouvragés,1,verres ouvrés,3
 verres ouvrés,2,verres ouvrés,3
-verres ouvrés bouteilles,9,bouteilles de verre,1192
+verres ouvrés bouteilles,9,bouteilles de verre,1311
 verres ouvrés d'assortiment,2,ouvrages de verres,21
 verres ouvrés dame-jeannes,12,dame-jeannes de verre,113
 verres ouvrés divers,19,ouvrages de verres,21
-verres ouvrés en bouteilles,30,bouteilles de verre,1192
+verres ouvrés en bouteilles,30,bouteilles de verre,1311
 verres ouvrés en dame-jeannes,0,dame-jeannes de verre,113
 verres ouvrés en gobeleterie ???,0,verres ouvrés en gobeleterie ???,0
 verres ouvrés en gobeleterie avec boîtes,5,verres ouvrées en gobeleterie avec boîtes,5
@@ -29807,7 +29796,7 @@ vipérine en racines,1,vipérine en racine,1
 vipres,1,vipres,1
 virez,2,virez,4
 vispapan ???,1,vispapan ???,1
-vitre à vitrer,1,,417
+vitre à vitrer,1,verrerie à vitre,8
 vitrifications émail,3,vitrifications émail,4
 vitrifications en grains percés à broder ou à tricoter,2,vitrifications en grains percés à broder ou à tricoter,2
 vitrifications en grains percés pour chapelets et colliers,2,vitrifications en grains percés pour chapelets et colliers,4
