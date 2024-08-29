@@ -1,5 +1,4 @@
 simplification,nbr_occurences_simpl,sourcename,note,nbr_occurences_sourcename
-,137,,,475
 ?,12,????,,217
 ???,196,????,,217
 [vide],2868,[vide],,2868
@@ -28,7 +27,7 @@ Angleterre et Irlande,1,Angleterre,,27379
 Antilles et Colonies Françaises,105,Colonies,,53153
 Archipel,5,Levant,,26488
 Asie,79,Outre-mers,,20443
-Autriche,2040,Flandres,,25983
+Autriche,2040,Flandres,,25984
 Barbarie,619,Levant,,26488
 Barbarie dans l'Océan,8,Levant,,26488
 Barbarie dans l'Océan et Îles françaises d'Amérique,59,Levant,,26488
@@ -38,33 +37,34 @@ Bayonne,621,France,,7966
 Bayonne et ?,1,France,,7966
 Bayonne et Dunkerque,3,France,,7966
 Bayonne et Lorient,3,France,,7966
-Bayonne et Lorient et Petites Îles,2,,,475
+Bayonne et Lorient et Petites Îles,2,,,474
 Bayonne et Marseille,3,France,,7966
-Bayonne et Marseille et Petites Îles,1,,,475
-Bayonne et Marseille et Petites Îles (???),1,,,475
+Bayonne et Marseille et Petites Îles,1,,,474
+Bayonne et Marseille et Petites Îles (???),1,,,474
 Bayonne et Petites Îles,4,France,,7966
 "Bayonne, Dunkerque et Marseille",11,France,,7966
 "Bayonne, Dunkerque, Lorient et Petites Îles",3,France,,7966
 "Bayonne, Lorient et Petites Îles",1,France,,7966
-Belgique,67,Flandres,,25983
+Belgique,67,Flandres,,25984
 Besançon,2,France,,7966
 Bilbao,10,Espagne,,66117
 Bilbao et Cadix,3,Espagne,,66117
 Brême,9,Nord,,27167
 "Brême, Lubeck, Norvège et villes hanséatiques",1,Nord,,27167
 Brésil,30,Outre-mers,,20443
-Bruges,16,Flandres,,25983
+Bruges,16,Flandres,,25984
 Cadix,6,Espagne,,66117
 Canada,38,Colonies,,53153
 Candie,5,Levant,,26488
 Cannée et Candie,3,Levant,,26488
 Cayenne et Guyane,1177,Outre-mers,,20443
 Cayenne et Île Bourbon,1,Outre-mers,,20443
-Cayenne et Sénégal,1,,,475
+Cayenne et Sénégal,1,,,474
 Chili,15,Outre-mers,,20443
 Chine,93,Outre-mers,,20443
 Chypre,17,Levant,,26488
 Clermontois,71,France,,7966
+Colonies,136,,,474
 Colonies anglaises,132,Outre-mers,,20443
 Colonies danoises,90,Outre-mers,,20443
 Colonies des États-Unis d'Amérique,143,Outre-mers,,20443
@@ -106,9 +106,9 @@ Espagne et ses colonies,4243,Espagne,,66117
 Espagne par mer,2,Espagne,,66117
 Espagne par terre,2,Espagne,,66117
 États ?,8,????,,217
-États de l'Empereur,4613,Flandres,,25983
-États de l'Empereur par mer,2,Flandres,,25983
-États de l'Empereur par terre,2,Flandres,,25983
+États de l'Empereur,4614,Flandres,,25984
+États de l'Empereur par mer,2,Flandres,,25984
+États de l'Empereur par terre,2,Flandres,,25984
 États du roi,1,????,,217
 États ecclésiastiques,1732,Italie,,108307
 États ecclésiastiques et Venise,51,Italie,,108307
@@ -116,7 +116,7 @@ Espagne par terre,2,Espagne,,66117
 États-Unis d'Amérique,6435,États-Unis d'Amérique,,6435
 Europe,414,Divers,,2748
 "Europe (y compris le Levant, la Barbarie, et les États-Unis d'Amérique)",479,Divers,,2748
-Flandre,19242,Flandres,,25983
+Flandre,19242,Flandres,,25984
 France,18,France,,7966
 Franche Comté,8,France,,7966
 Gênes,15692,Italie,,108307
@@ -144,8 +144,8 @@ Hollande,77012,Hollande,,79492
 Hollande et Villes hanséatiques,223,Divers,,2748
 Île Bourbon,53,Outre-mers,,20443
 Île Bourbon et Inde,3,Outre-mers,,20443
-Île d'Oléron,2,,,475
-Île de Noirmoutier,1,,,475
+Île d'Oléron,2,,,474
+Île de Noirmoutier,1,,,474
 Île de Ré,11,France,,7966
 Île Maurice,22,Outre-mers,,20443
 Îles,7109,Outre-mers,,20443
@@ -170,7 +170,7 @@ Livourne,254,Italie,,108307
 Lorient,392,France,,7966
 Lorient et Marseille,1,France,,7966
 Lorient et Petites Îles,3,France,,7966
-Lorient et Petites Îles (???),1,,,475
+Lorient et Petites Îles (???),1,,,474
 Lorraine,916,Allemagne,,24559
 Lorraine et Trois Évêchés,1,France,,7966
 Louisiane,7,Outre-mers,,20443
@@ -196,10 +196,10 @@ Monde hors Europe et hors colonies françaises et hors Inde,1,Monde,,5018
 Monde hors Europe et hors Sénégal français,2,Monde,,5018
 Monde hors Guyanne française,2,Monde,,5018
 Monde hors Pays de Gex,1,Monde,,5018
-Monde réexports,71,,,475
-Monde via Dunkerque,164,,,475
+Monde réexports,71,,,474
+Monde via Dunkerque,164,,,474
 Monds hors Ports de la Baltique,1,Monde,,5018
-Mont-Saint-Michel,1,,,475
+Mont-Saint-Michel,1,,,474
 Morée,11,Levant,,26488
 Nancy,2,France,,7966
 Nantes,1,France,,7966
@@ -208,7 +208,7 @@ Naples et Sicile,5068,Italie,,108307
 "Naples, Sicile et Parme",638,Italie,,108307
 Nord,22754,Nord,,27167
 Nord (Hanse et Russie),3962,Nord,,27167
-Nord (Hanse et Suède),91,,,475
+Nord (Hanse et Suède),91,,,474
 Norvège,88,Nord,,27167
 Nouvelle-Grenade,3,Outre-mers,,20443
 Pays d'Aunis,1,France,,7966
@@ -235,7 +235,7 @@ Poitou,1,France,,7966
 Pologne,305,Allemagne,,24559
 Pologne-Genève,1,Allemagne,,24559
 Ports de la Baltique,1,Nord,,27167
-Ports et pays de France à l'instar de l'étranger,2,,,475
+Ports et pays de France à l'instar de l'étranger,2,,,474
 Portugal,15596,Portugal,,15607
 Prises et saisies,1305,Divers,,2748
 Prusse,4743,Prusse,,4745
@@ -278,4 +278,4 @@ Vénézuela,14,Outre-mers,,20443
 Venise,1989,Italie,,108307
 Villes hanséatiques,4969,Villes hanséatiques,,4969
 Voitures diverses,2,Divers,,2748
-Ypres,1,Flandres,,25983
+Ypres,1,Flandres,,25984
