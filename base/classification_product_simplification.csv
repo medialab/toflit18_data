@@ -1401,7 +1401,7 @@ bestiaux et bêtes de somme boucs,1,boucs,22
 bestiaux et bêtes de somme brebis,3,brebis,29
 bestiaux et bêtes de somme chevaux,5,chevaux de labour,101
 bestiaux et bêtes de somme chèvre,1,chèvre,182
-bestiaux et bêtes de somme chevrons,1,chevrons,79
+bestiaux et bêtes de somme chevrons,1,chèvres,79
 bestiaux et bêtes de somme divers,2,bêtes de somme,165
 bestiaux et bêtes de somme en chevaux,1,chevaux de labour,101
 bestiaux et bêtes de somme génisses,1,génisses,64
@@ -3436,7 +3436,7 @@ brai à poix,1,brai de poix,3
 brai à poix noire,1,brai de poix noire,1
 brai arcanson,1,brai arcanson,1
 brai diverse,1,brai,550
-brai eau de raze,5,brai eau de raze,5
+brai eau de raze,5,brai térébenthine,5
 brai en goudron,9,brai de goudron,10
 brai en poix blanche et noire,2,brai de poix blanche et noire,2
 brai en poix résines,3,brai de poix résines,3
@@ -3451,13 +3451,13 @@ brai et résines,3,brai et résines,26
 brai galipot,1,brai galipot,1
 brai goudron,108,brai et goudron,539
 brai goudron ???,3,brai goudron ???,3
-brai goudron et eau de raze,1,brai et goudron et eau de raze,1
+brai goudron et eau de raze,1,brai et goudron et térébenthine,1
 brai goudron et poix,1,brai et goudron et poix,1
 brai goudron et résines,446,brai et goudron et résines,546
 brai goudron et térébenthine,3,brai et goudron et térébenthine,7
 brai goudron etc.,1,brai et goudron,539
 brai goudron etc. brai et goudron,0,brai et goudron,539
-brai goudron etc. eau de raze,0,eau de raze,4
+brai goudron etc. eau de raze,0,térébenthine,4
 brai goudron etc. poix noire et blanche,0,poix noire et poix blanche,0
 brai goudron etc. résines,0,résines,304
 brai goudron galipot et résines,23,brai et goudron et galipot et résines,23
@@ -9342,7 +9342,7 @@ eau de raisin,70,eau de raisin,70
 eau de raisine,73,eau de balaruc,78
 eau de raison,1,eau de raison,1
 eau de rave,2,eau de rave,2
-eau de raze,4,eau de raze,4
+eau de raze,4,térébenthine,4
 eau de reine de Hongrie,3,eau de senteur de la reine de Hongrie,547
 eau de résines,7,eau de résine,8
 eau de Rochefort,1,eau de Rochefort,1
@@ -15452,7 +15452,7 @@ laine brute,37,laine brute,520
 laine brute de mouton,404,laine brute,520
 laine brute ou non lavée,79,laine brute,520
 laine cardée,4,laine cardée,4
-laine chevron,8,laine chevron,8
+laine chevrons,8,laine de chèvres ,8
 laine commune,126,laine commune,127
 laine commune brute,6,laine commune brute,6
 laine commune d'Espagne,1,laine commune d'Espagne,2
@@ -15490,12 +15490,12 @@ laine de Brême,2,laine de Brême,2
 laine de Carmenie,40,laine de Carmenie,40
 laine de chamois,1,laine de chamois,1
 laine de chèvre,9,laine de chèvre,9
-laine de chevrons,363,laine de chevron,363
-laine de chevrons et poil de chameau,35,laine de chevrons et poil de chameau,43
-laine de chevrons et poil de lapin,5,laine de chevrons et poil de lapin,5
-laine de chevrons non filée,1,laine de chevrons non filée,1
-laine de chevrons poil de chameau,8,laine de chevrons et poil de chameau,43
-laine de chevrons poil de chameau et vigogne,24,laine de chevrons et poil de chameau et vigogne,24
+laine de chevrons,363,laine de chèvres ,363
+laine de chevrons et poil de chameau,35,laine de chèvres et poil de chameau,43
+laine de chevrons et poil de lapin,5,laine de chèvres et poil de lapin,5
+laine de chevrons non filée,1,laine de chèvres non filée,1
+laine de chevrons poil de chameau,8,laine de chèvres et poil de chameau,43
+laine de chevrons poil de chameau et vigogne,24,laine de chèvres et poil de chameau et vigogne,24
 laine de Constantinople,2,laine de Constantinople,2
 laine de farumie,2,laine de farumie,2
 laine de fer,1,laine de fer,1
@@ -15516,7 +15516,7 @@ laine de Ségovie,173,laine d'Espagne,644
 laine de Smyrne,1,laine de Smyrne,1
 laine de Suède,1,laine de Suède,1
 laine de suint,2,laine en suint,101
-laine de surge,2,laine de surge,2
+laine de surge,2,laine grasse,2
 laine de tan,1,laine de tan,1
 laine de tapisserie,1,laine pour tapisserie,2
 laine de toute sorte,17,laine,1102
@@ -15565,7 +15565,7 @@ laine en ronces,1,laine en ronces,1
 laine en soie,1,soie en laine,1
 laine en suint,96,laine en suint,101
 laine en suint ???,3,laine en suint,101
-laine en surge,4,surge de laine,4
+laine en surge,4,laine grasse,4
 laine en toile,1,toile de laine,1
 laine en toison,24,laine en toison,35
 laine en toisons,11,laine en toison,35
@@ -15596,11 +15596,11 @@ laine fine lavée à chaud,4,laine fine lavée à chaud,4
 laine fine lavée à froid,6,laine fine lavée à froid,6
 laine fine mérinos en suint,10,laine fine mérinos en suint,10
 laine fine mérinos lavée,14,laine fine mérinos lavée,14
-laine fine ou de chevrons,9,laine fine et de chevron,9
+laine fine ou de chevrons,9,laine fine et de chèvres,9
 laine grasse,11,laine grasse,11
 laine grasse de Barbarie,1,laine grasse de Barbarie,2
-laine grasse et filée,2,fil de laine grasse,2
-laine grasse ou en suin,4,laine grasse ou en suin,4
+laine grasse et filée,2,laine grasse et fil de laine,2
+laine grasse ou en suin,4,laine grasse,4
 laine gromures,1,laine gromures,1
 laine grosse,15,laine grosse,35
 laine grossière,20,laine grosse,35
@@ -15608,7 +15608,7 @@ laine l'ance,1,laine l'ance,1
 laine lavée,733,laine lavée,733
 laine lavée d'Estrémadure,2,laine d'Estrémadure lavée,2
 laine lavée non filée,5,laine non filée lavée,5
-laine lavée surge,1,laine lavée surge,1
+laine lavée surge,1,laine lavée et grasse,1
 laine mêlée,1,laine mêlée,1
 laine menue,3,laine menue,3
 laine mérinos en suint,6,laine mérinos en suint,6
@@ -15642,8 +15642,8 @@ laine surfine brute,5,laine brute surfine,5
 laine surfine épurée,1,laine épurée surfine,1
 laine surfine lavée à chaud,4,laine lavée à chaud surfine,4
 laine surfine lavée à froid,4,laine lavée à froid surfine,4
-laine surge,475,serge de laine,798
-laine surge et pelade,1,laine pelade et serge,1
+laine surge,475,laine grasse,798
+laine surge et pelade,1,laine pelade et grasse,1
 laine tannée,1,laine tannée,1
 laine tapisserie,1,laine pour tapisserie,2
 laine teinte,18,laine teinte,18
@@ -20527,8 +20527,8 @@ peaux de chevreuil en poil,1,peaux de chevreuil en poil,1
 peaux de chevreuil en vert,1,peaux de chevreuil,243
 peaux de chevreuil passées,9,peaux de chevreuil passées,9
 peaux de chevron,18,peaux de chevreuil,243
-peaux de chevron en poil,2,peaux de chevron en poil,2
-peaux de chevron passées,1,peaux de chevron passées,1
+peaux de chevrons en poil,2,peaux de chèvres en poil,2
+peaux de chevrons passées,1,peaux de chèvres passées,1
 peaux de chevrotin,3,peaux de chevrotin,3
 peaux de chien,5,peaux de chien,6
 peaux de chien d'Écosse,2,peaux de chien d'Écosse,2

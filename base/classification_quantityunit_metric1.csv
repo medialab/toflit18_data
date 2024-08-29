@@ -7,7 +7,7 @@ aimes,8,kg,148,,0,,0,Doursther : Tierce=nom donné par les allemands à Aime: de
 alvrames,2,,,,,,1,,182040
 ancre,107,kg,37,,0,1,0,p27 doursther : en usage en Allemagne et en hollande formant le quart de l'aime,289119
 andouilles,1,,,,,,1,,182040
-anée pour les liquides,14,kg,81.96000000000001,,,,0,p43 doursther : voir anée -> P28 -> prendre mesure de Lyon,289119
+anée pour les liquides,14,kg,81.96,,,,0,p43 doursther : voir anée -> P28 -> prendre mesure de Lyon,289119
 arrobe,10,kg,12.2375,,,,0,Doursther : l'arrobe représente 25 livres (page 40),289119
 arts,1,,,,,,1,,182040
 assortis,1,,,,,,1,,182040
@@ -137,7 +137,7 @@ chargées,1,,,,,,1,,182040
 charges,2888,kg,146.85,,,,0,,289119
 chariots,20,litres,1028.3101,,,,0,"Doursther : 1 chariot = 10 carreaux = 30 pieds cubes de Paris = 30*34,277 L (voir wikipédia pied cube)",15213
 charretées,221,litres,1920,,,,0,"www.genefourneau.com/mesure.html , =1,92 stères",15213
-chars,146,litres,548.4400000000001,,0,,0,"p111 doursther, mesure de genève",15213
+chars,146,litres,548.44,,0,,0,"p111 doursther, mesure de genève",15213
 charte,2,,,,,,1,,182040
 chartils,2,,,,,,1,,182040
 cheldes,2,,,,,,1,,182040
@@ -169,8 +169,8 @@ cruches,9,nombre,1,,0,,0,,74170
 da ?,1,,,,,,1,,182040
 de navire ???,1,,,,,,1,,182040
 demi charge,4,kg,73.425,,,,0,D'après Doursther (France). Aussi la valeure choisie par Werner,289119
-demi pièces,1,nombre,.5,,0,,0,,74170
-demi planches,1,nombre,.5,,,,0,,74170
+demi pièces,1,nombre,0.5,,0,,0,,74170
+demi planches,1,nombre,0.5,,,,0,,74170
 demi planches en barils,1,,,,,,1,,182040
 deniers,0,,,,,,1,,182040
 deniers ?,1,,,,,,1,,182040
@@ -277,7 +277,7 @@ leths,47,,,,,,1,,182040
 liens,2,,,,,,1,,182040
 lingot,1,,,,,,1,,182040
 litres,1259,litres,1,,,,0,,15213
-livres,261607,kg,.4895,,,,0,,289119
+livres,261607,kg,0.4895,,,,0,,289119
 livres ou pièces,1,,,,,,1,,182040
 livrets,1,,,,,,1,,182040
 lordins,16,,,,,,1,,182040
@@ -289,7 +289,7 @@ malles,40,contenant,1,,0,,0,,3216
 manades,2,,,,,,1,,182040
 manches,1,,,,,,1,,182040
 mannes,59,contenant,1,,,,0,http://books.google.fr/books?id=9HM7AQAAIAAJ&pg=PA56&lpg=PA56&dq=mannes+de+charbon&source=bl&ots=WmK7GL1a82&sig=iO8oAqn4W-S8Bhi-28ohNUZPaP8&hl=fr&sa=X&ei=ULG2U76SNaz20gWTpoCYCQ&ved=0CFIQ6AEwCQ#v=onepage&q=mannes%20de%20charbon&f=false,3216
-marcs,691,kg,.2447,,,,0,,289119
+marcs,691,kg,0.2447,,,,0,,289119
 mare ?,1,,,,,,1,,182040
 mares,1,,,,,,1,,182040
 masses,56,,,,,,1,,182040
@@ -302,7 +302,7 @@ meule,1,,,,,,1,,182040
 meules,4,,,,,,1,,182040
 migères,6,,,,,,1,,182040
 mille,3,nombre,1000,,,,0,,74170
-millerolles,2213,litres,61.4658,,,,0,"Doursther p. 280 Mesure de capacité pour liquide en usage à Marseille et Toulon dit 64. On préfère Savary qui dit que c'est 66 pintes (à 0,9313 litres la pinte)",15213
+millerolles,2213,litres,61.4658,,,,0,"Doursther p. 280 Mesure de capacité pour liquide en usage à Marseille et Toulon dit 64 litres. On préfère Savary qui dit que c'est 66 pintes (à 0,9313 litres la pinte). Il y a un exemple de conversion en muids et pintes dans les exports de Marseille 1790 (vin rouge, p. 32) 1834B qui semblent suggérer que c’est encore plus faible que Savari (61,4 litres). La différence est de moins de 5 %",15213
 milliers au grand compte,92,,,,,,1,,182040
 mines,46,litres,76.172,,0,,0,Wikipedia,15213
 minots,22,litres,38.086,,0,,0,Wikipedia,15213
@@ -327,7 +327,7 @@ muids en bouteilles,3,,,,,,1,,182040
 muids encerclés,4,,,,,,1,,182040
 niasses,1,,,,,,1,,182040
 nombre,47699,nombre,1,,,,0,,74170
-onces,177,kg,.0306,,,,0,,289119
+onces,177,kg,0.0306,,,,0,,289119
 ordinaires,0,nombre,1,,,,0,,74170
 outres,2,,,,,,1,,182040
 outres de peaux de boucs,173,,,,,,,,182040
@@ -345,7 +345,7 @@ par cube,1,,,,,,1,,182040
 pasgas,1,,,,,,1,,182040
 pattes,1,,,,,,1,,182040
 patz,1,,,,,,1,,182040
-paumes,3,cm,8.120000000000001,,,,0,Doursther page 392,10996
+paumes,3,cm,8.12,,,,0,Doursther page 392,10996
 peaux,0,nombre,1,,0,,0,,74170
 pelaux,2,,,,,,1,,182040
 perches,72,,,,,,1,,182040
@@ -371,7 +371,7 @@ pieds de roi,212,cm,32.484,,,,0,p426 doursther,10996
 Pieriers,2,,,,,,1,,182040
 pierres,6,nombre,1,,,,0,,74170
 pilan,1,,,,,,1,,182040
-pintes,8010,litres,.9521000000000001,,,,1,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,15213
+pintes,8010,litres,0.9521,,,,1,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,15213
 pipe,706,litres,411.327,,,,0,Wikipedia https://fr.wikipedia.org/wiki/Anciennes_unités_de_mesure_françaises#Unit.C3.A9s_de_longueur,15213
 pipes,0,,,,,,,,182040
 pipettes,1,contenant,1,,0,,0,,3216
@@ -396,14 +396,14 @@ poutrelles,1,nombre,1,,,,0,"vérification dans la source, il s'agit de « poutre
 poutres,2,nombre,1,,,,0,,74170
 prises,4,,,,,,1,,182040
 quart,99,,,,,,1,,182040
-quartaut,8,litres,68.55500000000001,,,,0,"1 quartaut correspond à environ 68 litres, source Wikipédia",15213
+quartaut,8,litres,68.555,,,,0,"1 quartaut correspond à environ 68 litres, source Wikipédia",15213
 quartiers,56,,,,,,1,,182040
 quartiers mesure de blaye,3,,,,,,1,,182040
 quarts,457,,,,,,1,,182040
 queue,9,litres,411.327,,,,0,"Doursther page 468, queue = pipe",15213
 quiconir,1,,,,,,1,,182040
 quinquets,1,,,,,,1,,182040
-quint,2,kg,.0038,,,,0,Doursther page 468,289119
+quint,2,kg,0.0038,,,,0,Doursther page 468,289119
 quintaux de Saint-Domingue,1,,,,,,1,,182040
 quintaux des colonies françaises,4,,,,,,1,,182040
 radeaux,1,,,,,,1,,182040
@@ -474,8 +474,8 @@ valeur,168,,,,,,1,,182040
 vals,1,,,,,,1,,182040
 varres,1,,,,,,1,,182040
 veaux,1,,,,,,1,,182040
-veltes,2,litres,7.430000000000001,,,,0,Dourshter : mesure de Paris,15213
-verges,0,litres,7.430000000000001,,0,,0,p581 : <=> veltes,15213
+veltes,2,litres,7.43,,,,0,Dourshter : mesure de Paris,15213
+verges,0,litres,7.43,,0,,0,p581 : <=> veltes,15213
 verres,2,,,,,,1,,182040
 vogues,1,,,,,,1,,182040
 voitures,23,nombre,1,,,,0,,74170
