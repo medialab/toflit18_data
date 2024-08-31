@@ -1547,7 +1547,7 @@ Armes ; sabres,armes sabres,,1,1,0,0,0,0,0,0,1,1
 Armes ; sabres ; de traitte,armes sabres de traite,,1,1,0,0,0,0,0,0,1,1
 Armes (sabres),armes sabres,,1,1,0,0,0,0,0,0,1,1
 Armes a fer,armes à feu,,0,0,0,0,0,0,0,0,0,0
-Armes a feu,armes à feu,,1,44,0,0,0,0,0,0,1,44
+Armes a feu,armes à feu,,1,43,0,0,0,0,0,0,1,43
 Armes à feu,armes à feu,,1,100,1,5,0,0,0,0,2,105
 Armes a feu ; diverses,armes à feu diverses,,1,2,0,0,0,0,0,0,1,2
 Armes a feu ; fusil,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
@@ -1577,7 +1577,7 @@ Armes à feu en pistolets,armes à feu en pistolets,,1,3,0,0,0,0,0,0,1,3
 Armes à feu et Artillerie,armes à feu et artillerie,,1,1,0,0,0,0,0,0,1,1
 Armes à feu et fusils,armes à feu et fusils,,1,1,0,0,0,0,0,0,1,1
 Armes a feu Fusils,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
-Armes a feu fusils,armes à feu fusils,,1,8,0,0,0,0,0,0,1,8
+Armes a feu fusils,armes à feu fusils,,1,9,0,0,0,0,0,0,1,9
 Armes à feu Fusils,armes à feu fusils,,1,1,0,0,0,0,0,0,1,1
 Armes à feu fusils,armes à feu fusils,,1,28,0,0,0,0,0,0,1,28
 Armes à feu fusils de chasse,armes à feu fusils de chasse,,1,2,0,0,0,0,0,0,1,2
@@ -1601,7 +1601,7 @@ Armes baguettes de fusils,armes baguettes de fusils,,1,1,0,0,0,0,0,0,1,1
 Armes bayonettes,armes baïonnettes,,1,1,0,0,0,0,0,0,1,1
 Armes blanche,armes blanches,,1,5,0,0,0,0,0,0,1,5
 Armes blanche : sabre,armes blanches sabres,,1,1,0,0,0,0,0,0,1,1
-Armes blanches,armes blanches,,1,38,0,0,0,0,0,0,1,38
+Armes blanches,armes blanches,,1,37,0,0,0,0,0,0,1,37
 Armes blanches ; sabres,armes blanches sabres,,1,1,0,0,0,0,0,0,1,1
 Armes blanches (sabres),armes blanches sabres,,1,4,0,0,0,0,0,0,1,4
 Armes blanches bayonettes,armes blanches baïonnettes,,1,1,0,0,0,0,0,0,1,1
@@ -1616,7 +1616,7 @@ Armes blanches et à feau,armes blanches et à feu,,1,1,0,0,0,0,0,0,1,1
 Armes blanches et à feu,armes blanches et à feu,,1,3,0,0,0,0,0,0,1,3
 Armes blanches Lames de sabres,armes blanches lames de sabres,,1,1,0,0,0,0,0,0,1,1
 Armes blanches lances,armes blanches lances,,1,1,0,0,0,0,0,0,1,1
-Armes blanches sabres,armes blanches sabres,,1,13,0,0,0,0,0,0,1,13
+Armes blanches sabres,armes blanches sabres,,1,14,0,0,0,0,0,0,1,14
 Armes blanches sabres et couteaux de chasse,armes blanches sabres et couteaux de chasse,,1,1,0,0,0,0,0,0,1,1
 "Armes blanches, à feu et artillerie",armes blanches à feu et artillerie,,1,2,0,0,0,0,0,0,1,2
 "Armes blanches, à feu et artilleries",armes blanches à feu et artillerie,,1,1,0,0,0,0,0,0,1,1
@@ -5469,7 +5469,8 @@ Bois a gabarres,bois à gabares,,1,1,0,0,0,0,0,0,1,1
 Bois a gorbin,bois à corbin,,1,1,0,0,0,0,0,0,1,1
 Bois à mats,bois à mâts,,1,1,0,0,0,0,0,0,1,1
 Bois à mature,bois à mâture,,0,0,0,0,0,0,1,1,1,1
-Bois a merrain,bois à merrains,,1,1,0,0,0,0,0,0,1,1
+Bois a merrain,bois à merrains,,0,0,0,0,0,0,0,0,0,0
+Bois a merrain en douelles,,,1,1,0,0,0,0,0,0,1,1
 Bois a meubles en billes,bois à meubles en billes,,1,2,0,0,0,0,0,0,1,2
 Bois a pipes,bois à pipes,,1,3,0,0,0,0,0,0,1,3
 Bois a pompes,bois à pompes,,1,1,0,0,0,0,0,0,1,1
@@ -5799,8 +5800,8 @@ Bois de chene bouts de 6 pieds,bois de chêne bouts de 6 pieds,,1,1,0,0,0,0,0,0,
 Bois de chêne carrée,bois de chêne carré,,0,0,1,1,0,0,0,0,1,1
 Bois de chêne courbé pour construction navale,bois de chêne courbé pour construction navale,,0,0,0,0,1,59,0,0,1,59
 Bois de Chene de Constructions,bois de chêne de construction,,1,1,0,0,0,0,0,0,1,1
-Bois de chene en bordage,bois de chêne en bordages,,1,1,0,0,0,0,0,0,1,1
-Bois de chêne en bordages,bois de chêne en bordages,,1,2,0,0,0,0,0,0,1,2
+Bois de chene en bordage,bois de chêne en bordage,,1,1,0,0,0,0,0,0,1,1
+Bois de chêne en bordages,bois de chêne en bordage,,1,2,0,0,0,0,0,0,1,2
 Bois de chêne en Chevron,bois de chêne en chevrons,,1,1,0,0,0,0,0,0,1,1
 Bois de chêne en douvelles,bois de chêne en douelles,,1,1,0,0,0,0,0,0,1,1
 Bois de chêne en lattes,bois de chêne en lattes,,1,3,0,0,0,0,0,0,1,3
@@ -6056,7 +6057,7 @@ Bois de sapin billots,bois de sapin billots,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin chevrons,bois de sapin chevrons,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin de 20 a 30 pieds,bois de sapin de 20 à 30 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin de 40 pieds,bois de sapin de 40 pieds,,1,2,0,0,0,0,0,0,1,2
-Bois de sapin en bordage,bois de sapin en bordages,,1,3,0,0,0,0,0,0,1,3
+Bois de sapin en bordage,bois de sapin en bordage,,1,3,0,0,0,0,0,0,1,3
 Bois de sapin en bouts,bois de sapin en bouts,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin en esparts,bois de sapin en espars,,1,5,0,0,0,0,0,0,1,5
 Bois de sapin en gaule,bois de sapin en gaules,,1,1,0,0,0,0,0,0,1,1
@@ -6718,7 +6719,7 @@ Bombay,Bombay,,1,3,0,0,0,0,0,0,1,3
 Bombazin,bombasin,,1,16,0,0,0,0,0,0,1,16
 Bombazin ; de Troyes,bombasin de Troyes,,1,1,0,0,0,0,0,0,1,1
 Bombazins,bombasin,,1,3,0,0,0,0,0,0,1,3
-Bombe,bombe,,1,1,0,0,0,0,0,0,1,1
+Bombe,bombes,,1,1,0,0,0,0,0,0,1,1
 Bombes,bombes,,1,5,0,0,0,0,0,0,1,5
 Bombes de cuivre,bombes de cuivre,,1,1,0,0,0,0,0,0,1,1
 Bombes et boulets,bombes et boulets,,1,1,0,0,0,0,0,0,1,1
@@ -13904,7 +13905,8 @@ Cordons de soye,cordons de soie,,1,2,0,0,0,0,0,0,1,2
 Cordons or et argent,cordons or et argent,,1,1,0,0,0,0,0,0,1,1
 Cordouan,cordouans,,1,7,0,0,0,0,2,1,2,9
 cordouan,cordouans,,0,0,0,0,0,0,3,1,1,3
-Cordoüan,cordouans,,1,3,0,0,0,0,0,0,1,3
+Cordoüan,cordouans,,1,2,0,0,0,0,0,0,1,2
+Cordoüan en peaux,,,1,1,0,0,0,0,0,0,1,1
 Cordouans,cordouans,,1,20,0,0,0,0,3,1,2,23
 Cordoüans,cordouans,,1,5,0,0,0,0,0,0,1,5
 Cordouans en bazanne,cordouans en basanes,,1,2,0,0,0,0,0,0,1,2
@@ -16755,7 +16757,7 @@ Damejeanne,dame-jeannes,,1,9,0,0,0,0,0,0,1,9
 Damejeannes,dame-jeannes,,1,18,0,0,0,0,0,0,1,18
 Damejeannes de grez,dame-jeannes de grès,,1,1,0,0,0,0,0,0,1,1
 Damejeannes de verre,dame-jeannes de verre,,1,4,0,0,0,0,0,0,1,4
-Damejeannes de verre de 10 pintes,Dame-jeannes de verre de 10 pintes,,1,1,0,0,0,0,0,0,1,1
+Damejeannes de verre de 10 pintes,dame-jeannes de verre de 10 pintes,,1,1,0,0,0,0,0,0,1,1
 Damejeannes vuides,dame-jeannes vides,,1,8,0,0,0,0,0,0,1,8
 Damejeaune,dame-jeannes,,1,1,0,0,0,0,0,0,1,1
 Dames Jannes,dame-jeannes,,1,4,0,0,0,0,0,0,1,4
@@ -18628,7 +18630,7 @@ Drogue ; pour la peinture et la teinture ; orpiment,drogues pour les peintures e
 Drogue ; pour la peinture et la teinture ; orseille,drogues pour les peintures et la teinture orseille,x,1,2,0,0,0,0,0,0,1,2
 Drogue ; pour la peinture et la teinture ; pastel,drogues pour les peintures et la teinture pastel,,1,2,0,0,0,0,0,0,1,2
 Drogue ; pour la peinture et la teinture ; racine d'.....,drogues pour les peintures et la teinture racines d'???,,0,0,0,0,0,0,0,0,0,0
-Drogue ; pour la peinture et la teinture ; racine d'alizary,drogue pour les peintures et la teinture racines d'alizari,,1,9,0,0,0,0,0,0,1,9
+Drogue ; pour la peinture et la teinture ; racine d'alizary,drogues pour les peintures et la teinture racines d'alizari,,1,9,0,0,0,0,0,0,1,9
 Drogue ; pour la peinture et la teinture ; racine de ...,drogues pour les peintures et la teinture racines de ???,,0,0,0,0,0,0,0,0,0,0
 Drogue ; pour la peinture et la teinture ; rocou,drogues pour les peintures et la teinture rocou,,1,1,0,0,0,0,0,0,1,1
 Drogue ; pour la peinture et la teinture ; rouge de venise,drogues pour les peintures et la teinture rouge de Venise,,1,1,0,0,0,0,0,0,1,1
@@ -18670,7 +18672,7 @@ Drogue ; pour peinture et teinture ; tournesol et d'acmail,drogues pour peinture
 Drogue ; pour peinture et teinture ; vermillon,drogues pour peintures et teinture vermillon,,1,1,0,0,0,0,0,0,1,1
 Drogue ; pour peinture et teinture ; vers ; de gris,drogues pour peintures et teinture vert-de-gris,,1,1,0,0,0,0,0,0,1,1
 Drogue ; pour peinture et teinture ; vitriol ; de Chypre,drogues pour peintures et teinture vitriol de Chypre,,1,1,0,0,0,0,0,0,1,1
-Drogue Benjoin,drogue benjoin,,1,1,0,0,0,0,0,0,1,1
+Drogue Benjoin,drogues benjoin,,1,1,0,0,0,0,0,0,1,1
 Drogue chimique eau forte,drogues chimiques eau-forte,,1,2,0,0,0,0,0,0,1,2
 Drogue d'apoticaire,drogues d'apothicaire,,1,2,0,0,0,0,0,0,1,2
 Drogue d'apotiquaire,drogues d'apothicaire,,1,2,0,0,0,0,0,0,1,2
@@ -24486,7 +24488,7 @@ Fayance soucoupes,faïence soucoupes,,1,1,0,0,0,0,0,0,1,1
 Fayance; a miette,faïence à miette,,1,1,0,0,0,0,0,0,1,1
 Fayances,faïence,,1,3,0,0,0,0,0,0,1,3
 Fayaux,faïence,,1,2,0,0,0,0,0,0,1,2
-Fayence,faïence,,1,624,0,0,0,0,2,1,2,626
+Fayence,faïence,,1,623,0,0,0,0,2,1,2,625
 fayence,faïence,,0,0,0,0,0,0,3,1,1,3
 Fayence ; de vaisselle,faïence de vaisselle,,1,2,0,0,0,0,0,0,1,2
 Fayence ; diverses,faïence diverse,,0,0,0,0,0,0,0,0,0,0
@@ -24503,6 +24505,7 @@ Fayence de Rouen,faïence de Rouen,,1,1,0,0,0,0,0,0,1,1
 Fayence de Rouën,faïence de Rouen,,1,2,0,0,0,0,0,0,1,2
 Fayence du Faubourg Saint Antoine,faïence du Faubourg Saint-Antoine,,1,1,0,0,0,0,0,0,1,1
 Fayence du faubourg Saint Antoine,faïence du Faubourg Saint-Antoine,,1,1,0,0,0,0,0,0,1,1
+Fayence en assiettes,,,1,1,0,0,0,0,0,0,1,1
 Fayence en services,faïence en service,,1,1,0,0,0,0,0,0,1,1
 Fayence en vaiselle,faïence en vaisselle,,1,2,0,0,0,0,0,0,1,2
 Fayence en vaisselle,faïence en vaisselle,,1,17,0,0,0,0,0,0,1,17
@@ -25693,7 +25696,7 @@ Feu de fonte ouvré,fer de fonte ouvré,,1,1,0,0,0,0,0,0,1,1
 Feu en Barres,fer en barres,,1,1,0,0,0,0,0,0,1,1
 Feu en Barroir,fer en barres,,1,1,0,0,0,0,0,0,1,1
 FeuilLard,feuillards,,1,1,0,0,0,0,0,0,1,1
-Feuillard,feuillards,,1,10,0,0,0,0,41,1,2,51
+Feuillard,feuillards,,1,11,0,0,0,0,41,1,2,52
 feuillard,feuillards,,0,0,0,0,0,0,50,1,1,50
 Feüillard,feuillards,,1,2,0,0,0,0,0,0,1,2
 Feuillard ; de 2 à 4 mètres exclusivement,feuillards de 2 à 4 mètres exclusivement,,1,2,0,0,0,0,0,0,1,2
@@ -31350,7 +31353,7 @@ Haches,haches,,1,56,0,0,0,0,0,0,1,56
 "Haches , hoües et serpes",haches houes et serpes,,1,2,0,0,0,0,0,0,1,2
 Haches ; houes et serpes,haches houes et serpes,,1,1,0,0,0,0,0,0,1,1
 Haches ; hoües et serpes,haches houes et serpes,,1,3,0,0,0,0,0,0,1,3
-Haches d'arme,haches d'arme,,1,1,0,0,0,0,0,0,1,1
+Haches d'arme,haches d'armes,,1,1,0,0,0,0,0,0,1,1
 Haches d'armes,haches d'armes,,1,1,0,0,0,0,0,0,1,1
 Haches de fer,haches de fer,,1,23,0,0,0,0,0,0,1,23
 Haches de fer et acier,haches de fer et acier,,1,3,0,0,0,0,0,0,1,3
@@ -37076,7 +37079,7 @@ Menus ouvrage de bois,menus ouvrages de bois,,0,0,1,86,0,0,0,0,1,86
 Menus sommiers,menus sommiers,,0,0,1,5,0,0,0,0,1,5
 Menutés,menutés,x,0,0,1,146,0,0,0,0,1,146
 Meölons de briques,moellons de brique,,1,1,0,0,0,0,0,0,1,1
-Merain,merrains,,1,3,0,0,0,0,4,1,2,7
+Merain,merrains,,1,2,0,0,0,0,4,1,2,6
 Mérain,merrains,,0,0,0,0,0,0,0,0,0,0
 Merain ; a barils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
 Merain ; a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
@@ -37107,12 +37110,12 @@ Merain a barique en douelles,merrains à barriques en douelles,,1,8,0,0,0,0,0,0,
 Merain à Barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 "Merain a barique, buches",merrains à barriques bûches,,0,0,0,0,0,0,0,0,0,0
 Merain a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
-Merain a bariques,merrains à barriques,,1,4,0,0,0,0,0,0,1,4
+Merain a bariques,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
 Merain à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Mérain a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merain a bariques ; douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Merain a Bariques en douelles,merrains à barriques en douelles,,1,22,0,0,0,0,0,0,1,22
-Merain a bariques en douelles,merrains à barriques en douelles,,1,10,0,0,0,0,0,0,1,10
+Merain a bariques en douelles,merrains à barriques en douelles,,1,11,0,0,0,0,0,0,1,11
 Merain à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Mérain a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain a barrils,merrains à barils,,1,2,0,0,0,0,0,0,1,2
@@ -37148,7 +37151,7 @@ Merain abarique,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Merain abarique en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
 Merain de pipes,merrains de pipes,,0,0,0,0,0,0,0,0,0,0
 Merain de pipes en douelles,merrains de pipes en douelles,,1,1,0,0,0,0,0,0,1,1
-Merain en douelles,merrains en douelles,,1,6,0,0,0,0,0,0,1,6
+Merain en douelles,merrains en douelles,,1,7,0,0,0,0,0,0,1,7
 Mérain en douelles,merrains en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain foncail,merrains fonçaille,,1,1,0,0,0,0,0,0,1,1
 Merain Foncaille,merrains fonçaille,,1,6,0,0,0,0,0,0,1,6
@@ -37425,12 +37428,12 @@ Merrain a Barrique,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
 Merrain a barrique,merrains à barriques,,1,8,0,0,0,0,0,0,1,8
 Merrain a Barrique en douelles,merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
 Merrain a barrique en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
-Merrain a barriques,merrains à barriques,,1,33,0,0,0,0,0,0,1,33
+Merrain a barriques,merrains à barriques,,1,32,0,0,0,0,0,0,1,32
 Merrain à Barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrain à barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Merrain a barriques douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain à Barriques en douelle,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a barriques en douelles,merrains à barriques en douelles,,1,54,0,0,0,0,0,0,1,54
+Merrain a barriques en douelles,merrains à barriques en douelles,,1,55,0,0,0,0,0,0,1,55
 Merrain à Barriques en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
 Merrain à barriques en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain a barriques en fonçailles,merrains à barriques en fonçaille,,1,1,0,0,0,0,0,0,1,1
@@ -39015,7 +39018,7 @@ Moulin A Caffé,moulins à café,,1,1,0,0,0,0,0,0,1,1
 Moulin a Caffé,moulins à café,,1,2,0,0,0,0,0,0,1,2
 Moulin a caffé,moulins à café,,1,35,0,0,0,0,0,0,1,35
 Moulin à caffé,moulins à café,,1,6,0,0,0,0,0,0,1,6
-Moulin a confitures,moulin à confitures,,1,1,0,0,0,0,0,0,1,1
+Moulin a confitures,moulins à confitures,,1,1,0,0,0,0,0,0,1,1
 Moulin a mahus,moulins à maïs,x,1,1,0,0,0,0,0,0,1,1
 Moulin a Poivre,moulins à poivre,,1,1,0,0,0,0,0,0,1,1
 Moulin a poivre,moulins à poivre,,1,3,0,0,0,0,0,0,1,3
@@ -41495,10 +41498,10 @@ Pain d'épice,pain d'épice,,1,9,0,0,0,0,0,0,1,9
 Pain d'épice et pâtisserie autre que de viande,pain d'épice et pâtisserie autre que de la viande,,1,2,0,0,0,0,0,0,1,2
 Pain d'epices,pain d'épice,,1,1,0,0,0,0,0,0,1,1
 Pain de navette,pain de navette,,1,30,0,0,0,0,0,0,1,30
-Pain de navette dit tourteau,pain de navette dit tourteau,,1,1,0,0,0,0,0,0,1,1
+Pain de navette dit tourteau,pain de navette dit tourteaux,,1,1,0,0,0,0,0,0,1,1
 Pain et biscuit de mer,pain et biscuit de mer,,1,7,0,0,0,0,0,0,1,7
-Paina et tourtaux propres à l'engrais et de terre,pain et tourteau propre à l'engrais et de terre,,1,1,0,0,0,0,0,0,1,1
-Paina ou tourraux de navette et de lin propres à l'engrais et de terre,pain ou tourteau de navette et de lin propre à l'engrais et de terre,,1,1,0,0,0,0,0,0,1,1
+Paina et tourtaux propres à l'engrais et de terre,pain et tourteaux propre à l'engrais et de terre,,1,1,0,0,0,0,0,0,1,1
+Paina ou tourraux de navette et de lin propres à l'engrais et de terre,pain ou tourteaux de navette et de lin propre à l'engrais et de terre,,1,1,0,0,0,0,0,0,1,1
 Pains,pain,,1,1,0,0,0,0,0,0,1,1
 Pains ; à cacheter,pain à cacheter,,1,4,0,0,0,0,0,0,1,4
 Pains ; a cachetter,pain à cacheter,,1,1,0,0,0,0,0,0,1,1
@@ -42189,7 +42192,6 @@ Papillons,papillons,,1,1,0,0,0,0,0,0,1,1
 Papillons secs,papillons secs,,1,1,0,0,0,0,0,0,1,1
 Papire,papier,,1,1,0,0,0,0,0,0,1,1
 Paprapluyes,parapluies,,1,1,0,0,0,0,0,0,1,1
-Paquet de feuillard,paquets de feuillards,,1,1,0,0,0,0,0,0,1,1
 Paquets,paquets,,0,0,0,0,0,0,0,0,0,0
 Parabolle,parasols,,1,1,0,0,0,0,0,0,1,1
 Parament,parement,,1,1,0,0,0,0,0,0,1,1
@@ -47106,7 +47108,7 @@ Planches en chêne net de noeud,planches en chêne net de nœuds,,0,0,0,0,1,25,0
 Planches en faux,planches en faux,,0,0,1,2,0,0,0,0,1,2
 Planches en poutres,planches en poutres,,0,0,1,2,0,0,0,0,1,2
 Planches en sapin diverses,planches en sapin diverses,,1,1,0,0,0,0,0,0,1,1
-Planches et bordages,planches et bordages,,1,1,0,0,0,0,0,0,1,1
+Planches et bordages,planches et bordage,,1,1,0,0,0,0,0,0,1,1
 Planches Laque,planches laque,,1,1,0,0,0,0,0,0,1,1
 Planches lourds,planches lourdes,,0,0,0,0,1,64,0,0,1,64
 Planches moyennes,planches moyennes,,1,1,0,0,0,0,0,0,1,1
@@ -58796,7 +58798,7 @@ Toile hollande,toile hollande,,1,1,0,0,0,0,0,0,1,1
 Toile humaine,toile humaine,x,1,3,0,0,0,0,0,0,1,3
 Toile imprimée,toile imprimée,,1,1,0,0,0,0,0,0,1,1
 Toile imprimée ou peinte,toile imprimée ou peinte,,1,1,0,0,0,0,0,0,1,1
-Toile imprimée pour tableaux,toile imprimée pour tableaux,,1,1,0,0,0,0,0,0,1,1
+Toile imprimée pour tableaux,toile imprimée pour tableau,,1,1,0,0,0,0,0,0,1,1
 Toile Indienne,toile indienne,,1,1,0,0,0,0,0,0,1,1
 Toile indienne,toile indienne,,1,77,0,0,0,0,0,0,1,77
 Toile indienne commune,toile indienne commune,,1,3,0,0,0,0,0,0,1,3
@@ -58898,7 +58900,7 @@ Toile non battüe,toile non battue,,1,2,0,0,0,0,0,0,1,2
 Toile non batue,toile non battue,,1,8,0,0,0,0,0,0,1,8
 Toile non batüe,toile non battue,,1,1,0,0,0,0,0,0,1,1
 Toile olande de Paris,toile Hollande de Paris,x,1,2,0,0,0,0,0,0,1,2
-Toile ondée,,,1,1,0,0,0,0,0,0,1,1
+Toile ondée,Toile ondée,,1,1,0,0,0,0,0,0,1,1
 Toile or et argent faux,toile or et argent faux,,1,1,0,0,0,0,0,0,1,1
 Toile ordinaire,toile ordinaire,,1,5,0,0,0,0,0,0,1,5
 Toile organdis,toile organdi,,1,1,0,0,0,0,0,0,1,1
@@ -61006,7 +61008,7 @@ Toilles du pays,toile du pays,,1,1,0,0,0,0,0,0,1,1
 Toilles ducerfs,toile du cerf,,1,1,0,0,0,0,0,0,1,1
 Toilles gingas,toile guingans,,1,1,0,0,0,0,0,0,1,1
 Toilles Guingamp,toile guingans,,1,1,0,0,0,0,0,0,1,1
-Toilles imprimées pour tableaux,toile imprimée pour tableaux,,1,1,0,0,0,0,0,0,1,1
+Toilles imprimées pour tableaux,toile imprimée pour tableau,,1,1,0,0,0,0,0,0,1,1
 Toilles limeneas,toile limeneas,,1,1,0,0,0,0,0,0,1,1
 Toilles Linge de table,toile linge de tables,,0,0,0,0,0,0,0,0,0,0
 Toilles Linge de table ; serviettes,toile linge de tables serviettes,,1,1,0,0,0,0,0,0,1,1

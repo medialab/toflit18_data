@@ -1,5 +1,5 @@
 simplification,nbr_occurences_simpl,obsolete,hamburg,nbr_occurences_hamburg
-,57,non,,676907
+,66,non,,676907
 ???,3201,non,,676907
 ??? blanc,2,non,,676907
 ??? brun,2,non,,676907
@@ -176,6 +176,7 @@ aigrettes,10,non,,676907
 aigrettes de fil d'or et d'argent,1,non,,676907
 aigrettes de soie,1,non,,676907
 aigrettes de soie et argent,1,non,,676907
+aigrettes de verre,1,non,,676907
 aigrettes et bavolets,1,non,,676907
 aiguières d'étain,1,non,,676907
 aiguilles,349,non,,676907
@@ -565,7 +566,7 @@ arins,1,non,,676907
 aristoloche,68,non,,676907
 armement de tables,3,non,,676907
 armes,349,non,,676907
-armes à feu,352,non,,676907
+armes à feu,351,non,,676907
 armes à feu de guerre,2,non,,676907
 armes à feu de guerre et de traite,1,non,,676907
 armes à feu de guerre portatives,2,non,,676907
@@ -580,7 +581,7 @@ armes à feu et fusils,1,non,,676907
 armes armureries,1,non,,676907
 armes autres que de guerre à feu,1,non,,676907
 armes autres que de guerre blanches,1,non,,676907
-armes blanches,191,non,,676907
+armes blanches,190,non,,676907
 armes blanches à feu et artillerie,5,oui,,676907
 armes blanches de guerre,1,non,,676907
 armes blanches de guerre et de traite,1,non,,676907
@@ -933,8 +934,7 @@ barils neufs,1,non,,676907
 barils petits,2,non,,676907
 barils pour saler sardines,1,non,,676907
 barils vides,121,non,,676907
-barils vides pour sardines,2,non,,676907
-barils vides pour sardines,1,non,,676907
+barils vides pour sardines,3,non,,676907
 barils vieux,1,non,,676907
 barois,8,non,,676907
 baromètre,6,non,,676907
@@ -1666,7 +1666,7 @@ bois à bâtir,7,oui,,676907
 bois à brûler,9,oui,,676907
 bois à cannes,1,oui,,676907
 bois à fusil,2,oui,,676907
-bois à merrains,1,non,,676907
+bois à merrains,0,non,,676907
 bois à quart,1,oui,,676907
 bois à teindre moulu,17,oui,Bois ; de teinture,2738
 bois à tourner,1,oui,,676907
@@ -2277,8 +2277,8 @@ bombardes de fer,1,non,,676907
 bombasin,22,non,,676907
 bombasin de Troyes,1,non,,676907
 Bombay,3,non,,676907
-bombe,1,non,,676907
-bombes,5,non,,676907
+bombe,1,oui,,676907
+bombes,6,non,,676907
 bombes de cuivre,2,non,,676907
 bombes de cuivre à thé,1,non,,676907
 bombes de fer,1,non,,676907
@@ -2410,8 +2410,9 @@ bordage de cyprès,1,non,,676907
 bordage de pin,1,non,,676907
 bordage de sapin,22,non,,676907
 bordage de sapin de 20 pieds,1,non,,676907
+bordage et planches,1,oui,,676907
 bordage pour navire,1,non,,676907
-bordage et planches,1,non,,676907
+bordages et planches,1,non,,676907
 bordures d'or et de soie,1,non,,676907
 bordures de bois doré,2,non,,676907
 bordures de tapisseries,2,non,,676907
@@ -3567,6 +3568,7 @@ carnifié,1,non,,676907
 carny,2,non,,676907
 carols,1,non,,676907
 caroots,2,non,,676907
+carosses et harnais,1,non,,676907
 carots,0,oui,,676907
 carotte,13,non,,676907
 carotte d'enfant,1,non,,676907
@@ -4013,7 +4015,6 @@ cervelas salées et cuisses d'oie salées et langues salèes,4,non,,676907
 cevadille,0,oui,,676907
 cévadille,11,non,,676907
 cha ??,1,non,,676907
-charbon de terre,2,non,,676907
 chaconas,0,oui,,676907
 chades,1,non,,676907
 chafarcani,5,non,,676907
@@ -4356,7 +4357,7 @@ charbon de boulanger et braisette,10,non,,676907
 charbon de forge,1,non,,676907
 charbon de pierre,61,non,,676907
 charbon de pin,10,non,,676907
-charbon de terre,1761,non,,676907
+charbon de terre,1763,non,,676907
 charbon de terre cargo,2,non,,676907
 charbon de terre en lest,1,non,,676907
 charbon de terre grenier,2,non,,676907
@@ -5319,7 +5320,7 @@ cordons dorure d'argent,2,non,,676907
 cordons dorure d'argent et d'or,2,non,,676907
 cordons dorure d'or,3,non,,676907
 cordons pour chapeaux,1,non,,676907
-cordouans,122,non,,676907
+cordouans,121,non,,676907
 cordouans en basane,5,non,,676907
 cordouans en bazans,0,oui,,676907
 cordouans en lest,1,non,,676907
@@ -5380,7 +5381,6 @@ coroos,0,oui,,676907
 coroot,0,oui,,676907
 coroots,0,oui,,676907
 coros,0,oui,,676907
-carosses et harnais,1,non,,676907
 corots,0,oui,,676907
 corou,0,oui,,676907
 corps d'arbre,13,non,,676907
@@ -6343,7 +6343,7 @@ déchets de laine tontisse,1,non,,676907
 déchets de laine tontisse et peine,1,non,,676907
 déchets de pierre,4,non,,676907
 déchets de poil (rognures et broissiers),1,non,,676907
-déchets et débris tourteaux de graine oléagineuse,1,non,,676907
+déchets et débris tourteaux de graine oléagineuse,1,oui,,676907
 décorations pour carrosses,3,non,,676907
 dégras,23,non,,676907
 dégras d'huile,3,non,,676907
@@ -6583,7 +6583,7 @@ doublage de bois de pin,1,non,,676907
 doublures de martre pour habits,3,non,,676907
 doublures de petis gris,1,non,,676907
 douelle de chêne,1,non,,676907
-douelles,202,non,,676907
+douelles,203,non,,676907
 douelles à barils,17,oui,,676907
 douelles à barricage,0,oui,,676907
 douelles à barricages,2,oui,,676907
@@ -6625,7 +6625,7 @@ douelles merrains pour quarts,1,oui,,676907
 douelles pour barils,52,non,,676907
 douelles pour barricages,1,non,,676907
 douelles pour barrique,2,non,,676907
-douelles pour barriques,337,non,,676907
+douelles pour barriques,339,non,,676907
 douelles pour barriques 3m 1/8,1,non,,676907
 douelles pour barriques neuves,1,non,,676907
 douelles pour barriques vieilles,3,non,,676907
@@ -7048,7 +7048,6 @@ drêche de bière,28,non,,676907
 drilles,3,non,,676907
 drogue émeri,0,oui,,676907
 drogue médicinale,32,oui,,676907
-drogues et épicerie,1,non,,676907
 drogues,2905,non,,676907
 drogues ???,2,non,,676907
 drogues à peindre,1,non,,676907
@@ -7078,7 +7077,7 @@ drogues diverses réunies,635,non,,676907
 drogues du Languedoc,1,non,,676907
 drogues émeri,0,oui,,676907
 drogues en plantes,6,non,,676907
-drogues et épicerie,11,non,,676907
+drogues et épicerie,12,non,,676907
 drogues et épiceries diverses pour peintures et teinture,2,oui,,676907
 drogues et graine diverses,5,non,,676907
 drogues et graines diverses,5,oui,,676907
@@ -7952,7 +7951,6 @@ etamette,0,oui,,676907
 étamine virée,1,non,,676907
 étampes,0,non,,676907
 étampes de chanvre,1,non,,676907
-étendards de soie,1,non,,676907
 etatchasse,6,non,,676907
 étaux,2,non,,676907
 étaux de fer,28,non,,676907
@@ -7960,6 +7958,7 @@ etatchasse,6,non,,676907
 étaux ouvragés,1,non,,676907
 etaya,1,non,,676907
 étendards,2,non,,676907
+étendards de soie,1,non,,676907
 etendelle,3,non,,676907
 éternelle de coton,1,non,,676907
 etocs,4,non,,676907
@@ -8511,7 +8510,7 @@ fagots,189,non,,676907
 fagots de bois,21,non,,676907
 fagots de bois à brûler,16,oui,,676907
 fagots de bois pour brûler,16,non,,676907
-faïence,2185,non,,676907
+faïence,2184,non,,676907
 faïence à miette,1,non,,676907
 faïence anglaise,4,non,,676907
 faïence commune,5,non,,676907
@@ -8850,7 +8849,7 @@ ferrures,0,oui,,676907
 feu,2,non,,676907
 feu argenté,2,non,,676907
 feuillard,2,non,,676907
-feuillards,234,non,,676907
+feuillards,235,non,,676907
 feuillards d'acier et de fer,1,non,,676907
 feuillards d'acier et de fer blanc,1,non,,676907
 feuillards de 2 à 4 mètres,0,oui,,676907
@@ -8939,8 +8938,7 @@ fèves en gerbes,33,non,,676907
 fèves et coques de cacao brut,1,non,Cacao,2825
 fèves et grenaille,1,non,,676907
 fèves et haricots et pois,2,non,,676907
-fèves et pois,10,non,,676907
-fèves et pois,9,non,,676907
+fèves et pois,19,non,,676907
 fèves noires et haricots,1,non,,676907
 fèves odorantes de Tonka,2,non,,676907
 fèves petites,2,non,,676907
@@ -9555,7 +9553,7 @@ fleuret à faire des armes,2,non,,676907
 fleuret et filoselle,1,non,,676907
 fleuret et lames de fleuret,72,non,,676907
 fleuret et soie,7,non,,676907
-fleurs,39,non,,676907
+fleurs,40,non,,676907
 fleurs à cailler le lait,4,non,,676907
 fleurs aromatiques,18,non,,676907
 fleurs artificielles,737,non,,676907
@@ -9926,7 +9924,7 @@ fuseaux,32,non,,676907
 fusée à bombes,1,non,,676907
 fusée volante,1,non,,676907
 fusée volantes ?,0,non,,676907
-fusils,295,non,,676907
+fusils,296,non,,676907
 fusils à deux coups,3,non,,676907
 fusils à double canons,1,non,,676907
 fusils communs,1,non,,676907
@@ -11288,8 +11286,8 @@ habits uniformes,1,non,,676907
 habits unis,1,non,,676907
 habits vieux,5,non,,676907
 haches,58,non,,676907
-haches d'arme,1,non,,676907
-haches d'armes,1,non,,676907
+haches d'arme,1,oui,,676907
+haches d'armes,2,non,,676907
 haches de fer,25,non,,676907
 haches de fer et d'acier,5,non,,676907
 haches de fer et houes de fer et serpes de fer,3,non,,676907
@@ -11413,7 +11411,7 @@ herbes émollientes,1,non,,676907
 herbes et plantes et racines,6,non,,676907
 herbes et racines,1,non,,676907
 herbes et trèfle,12,non,,676907
-herbes fleurs,1,non,,676907
+herbes fleurs,1,oui,,676907
 herbes gaude,73,non,,676907
 herbes mauves,1,non,,676907
 herbes médicinales,15,non,,676907
@@ -12760,8 +12758,8 @@ lingots de cuivre et planches de cuivre,2,non,,676907
 lingots et monnaies d'argent,2,non,,676907
 lingots et monnaies d'or,2,non,,676907
 lingots et monnaies étrangères,150,non,,676907
-lingots et monnaies étrangères d'argent et d'or,3,non,,676907
-lingots ou monnaies étrangères d'argent et d'or,14,non,,676907
+lingots et monnaies étrangères d'argent et d'or,17,non,,676907
+lingots ou monnaies étrangères d'argent et d'or,14,oui,,676907
 linnieuse,6,non,,676907
 linnieuse de poil,2,non,,676907
 linon,3,oui,,676907
@@ -13823,7 +13821,6 @@ mélasse des colonies françaises,1,non,,676907
 mélasse du Royaume,1,non,,676907
 mélasse et rhum et sirop et tafia,22,non,,676907
 mélasse et sirop,1,non,,676907
-mélasse et rhum et sirop et tafia,22,oui,,676907
 mêlées,2,non,,676907
 meles a faure,1,non,,676907
 melle,1,non,,676907
@@ -13902,7 +13899,7 @@ merluche,95,non,,676907
 merluche salée,0,non,,676907
 merlus,1,non,,676907
 merlus salés,1,non,,676907
-merrains,805,non,,676907
+merrains,804,non,,676907
 merrains ???,1,non,,676907
 merrains à barils,17,oui,,676907
 merrains à barriques,236,oui,,676907
@@ -13965,7 +13962,7 @@ merrains futaille,2,oui,,676907
 merrains ganivelles,0,non,,676907
 merrains petits,1,non,,676907
 merrains pour barils,21,non,,676907
-merrains pour barriques,239,non,,676907
+merrains pour barriques,237,non,,676907
 merrains pour barriques bûches,0,non,,676907
 merrains pour bœuf,0,non,,676907
 merrains pour bottes,9,non,,676907
@@ -14610,7 +14607,6 @@ moules de plâtre à faire figures,2,non,,676907
 moules de terre,1,non,,676907
 moules pour chandelle,2,non,,676907
 moules pour sucre,1,non,,676907
-moulins à confitures,1,non,,676907
 moulinets à chocolat,1,non,,676907
 moulinets à filer,1,non,,676907
 moulins,2,non,,676907
@@ -14620,6 +14616,7 @@ moulins à blé et à bras,1,non,,676907
 moulins à bras,12,non,,676907
 moulins à café,513,non,,676907
 moulins à café doux,1,non,,676907
+moulins à confitures,1,non,,676907
 moulins à dessécher,1,non,,676907
 moulins à dévider soie,1,non,,676907
 moulins à filer,5,non,,676907
@@ -15971,7 +15968,7 @@ papier violet,76,non,,676907
 papillons,1,non,,676907
 papillons secs,1,non,,676907
 paquets,0,non,,676907
-paquets de feuillards,1,non,,676907
+paquets de feuillards,1,oui,,676907
 parapluies,185,non,,676907
 parapluies autres et caracasse,2,non,,676907
 parapluies caracasse de,2,non,,676907
@@ -19270,13 +19267,14 @@ rebuts de corail,1,non,,676907
 rechanges à nègre,1,non,,676907
 rechanges de toile à nègres,1,non,,676907
 rechanges de toile de halle,1,non,,676907
+réchaud à café de fer,1,non,,676907
 réchaud avec leurs pieds de fer,1,non,,676907
 réchaud de cuivre,4,non,,676907
 réchaud de fer,1,non,,676907
 réchaud de fer-blanc,1,non,,676907
 réchaud de terre,2,non,,676907
 réchaud en fer,4,non,,676907
-réchauds à café de fer,1,non,,676907
+réchauds à café de fer,1,oui,,676907
 réchauds de cuivre ouvré,1,oui,,676907
 réchauds de fer-blanc,1,oui,,676907
 rediné,1,non,,676907
@@ -19739,7 +19737,7 @@ sabots,84,non,,676907
 sabots de bœuf,58,non,,676907
 sabots de bois,8,non,,676907
 sabots et selles de bois,2,non,,676907
-sabres,118,non,,676907
+sabres,119,non,,676907
 sabres de traite,16,non,,676907
 sabres de traite et autres,2,non,,676907
 sabres et baïonnettes,1,non,,676907
@@ -23343,10 +23341,10 @@ tours de lit de bourre,10,non,,676907
 tours de pin,1,non,,676907
 tours pour barriques,1,non,,676907
 tours pour tourneur,3,non,,676907
-tourteaux de navette et de lin pour engrais,1,non,,676907
-tourteaux de graine oléagineuse,6,non,,676907
+tourteaux de graine oléagineuse,6,oui,,676907
 tourteaux de graines grasses,4,oui,,676907
 tourteaux de graines oléagineuses,3,oui,,676907
+tourteaux de navette et de lin pour engrais,1,non,,676907
 toutenague,2,non,,676907
 toutenague ou zinc,1,non,,676907
 trafiquer,123,non,,676907
