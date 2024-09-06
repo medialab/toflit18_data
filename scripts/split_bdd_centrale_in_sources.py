@@ -7,6 +7,7 @@ import json
 import collections
 import shutil
 import csv
+from unidecode import unidecode
 
 WRITE = True
 VERBOSE = True
@@ -78,8 +79,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
             # let's sort
             source_data = list(data)
             real_path = os.path.join(SOURCES_ROOT_DIR, currentFilePath)
+            source_type_ss_accent=unidecode(source_type)
             newFilePath = os.path.join(
-                SOURCES_ROOT_DIR, 'sources', source_type, filename)
+                SOURCES_ROOT_DIR, 'sources', source_type_ss_accent, filename)
 
             nb_lines_bdd_centrale = len(source_data)
             nb_lines_existing_file = existing_files[real_path] if real_path in existing_files else 0
@@ -93,8 +95,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
                 # a change in source type implies a change in filepath
                 for line in source_data:
                     # TODO: in case of change in data, the filename might need to be updated too
+                    source_type_ss_accent=unidecode(source_type)
                     line["filepath"] = os.path.join(
-                        "sources", source_type, filename)
+                        "sources", source_type_ss_accent, filename)
                 print("%s:%s>%s:%s" %
                       (real_path, nb_lines_existing_file, newFilePath, nb_lines_bdd_centrale))
 
@@ -108,9 +111,9 @@ with open("../base/bdd_centrale.csv", encoding='utf-8') as bdd_centrale:
                     writer = DictWriter(output, fieldnames=flows_headers)
                     writer.writeheader()
                     writer.writerows(source_data)
+                source_type_ss_accent=unidecode(source_type)
                 datapackage_resource_path.append(
-                    os.path.join('sources', source_type, filename))
-
+                    os.path.join('sources', source_type_ss_accent, filename))
             report.writerow({
                 'filepath': newFilePath,
                 'nb_line': nb_lines_bdd_centrale,
