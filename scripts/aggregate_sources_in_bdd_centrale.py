@@ -214,7 +214,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                         best_guess_year_index['best_guess_national_prodxpart'].add(
                                             year)
                                     # best_guess_national_product
-                                    if (line['source_type'] == "Objet Général" and year <= 1780 and year >= 1754) or line['source_type'] == "Résumé" or line['source_type'] == "National toutes directions tous partenaires" or (line['source_type'] == "Tableau des quantités" and year >= 1822):
+                                    if (line['source_type'] == "Objet Général" and year <= 1780 and year >= 1754) or line['source_type'] == "Résumé" or line['source_type'] == "National toutes directions tous partenaires" or (line['source_type'] == "Tableau des quantités" and (year >= 1822 | year==1793)):
                                         line['best_guess_national_product'] = 1
                                         best_guess_year_index['best_guess_national_product'].add(
                                             year)
