@@ -24,6 +24,7 @@ const indices = [
   },
   { type: "index", label: "Flow", property: "bestGuessNationalPartner" },
   { type: "index", label: "Flow", property: "bestGuessNationalProduct" },
+    { type: "index", label: "Flow", property: "bestGuessNational" },
   { type: "index", label: "Flow", property: "bestGuesRegionProductXPartner" },
   { type: "index", label: "Flow", property: "bestGuessNationalRegion" },
   { type: "index", label: "Source", property: "type" },

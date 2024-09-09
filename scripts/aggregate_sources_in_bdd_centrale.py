@@ -160,7 +160,7 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
     # headers = [h for h in  headers if h not in ordered_headers]
     headers = [h for h in ordered_headers]  # +headers
     if with_calculated_values:
-        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national_prodxpart", "best_guess_national_partner", "best_guess_national_product", "best_guess_region_prodxpart", "best_guess_national_region"]:
+        for extra_header in ["value_as_reported", "computed_value", "computed_up", "computed_quantity", "best_guess_national", "best_guess_national_prodxpart", "best_guess_national_partner", "best_guess_national_product", "best_guess_region_prodxpart", "best_guess_national_region"]:
             if extra_header not in headers:
                 headers += [extra_header]
 
@@ -221,6 +221,9 @@ def aggregate_sources_in_bdd_centrale(with_calculated_values=False):
                                     # best_guess_national_partner
                                     if line['source_type'] == "Tableau Général" or line['source_type'] == "Résumé":
                                         line['best_guess_national_partner'] = 1
+                                    # best_guess_national
+                                    if line['source_type'] == "Tableau Général" or line['source_type'] == "Résumé" or (line['source_type'] == "Tableau des quantités" and (year >= 1822 | year==1793)) :
+                                        line['best_guess_national'] = 1
                                     # best_guess_region_prodxpart
                                     if (line['source_type'] == "Local" and year != 1750) or (line['source_type'] == "National toutes directions tous partenaires" and year == 1750):
                                         line['best_guess_region_prodxpart'] = 1

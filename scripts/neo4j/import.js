@@ -68,6 +68,7 @@ const NODE_PROPERTIES_TYPES = [
   "product",
   "id",
   "bestGuessNationalProductXPartner:boolean",
+  "bestGuessNational:boolean",
   "bestGuessNationalPartner:boolean",
   "bestGuessNationalProduct:boolean",
   "bestGuessCustomsRegionProductXPartner:boolean",
@@ -493,6 +494,8 @@ function importer(csvLine) {
     csvLine.best_guess_national_partner === "1" ? "true" : "false";
   nodeData.bestGuessNationalProduct =
     csvLine.best_guess_national_product === "1" ? "true" : "false";
+nodeData.bestGuessNational =
+    csvLine.best_guess_national === "1" ? "true" : "false";
   nodeData.bestGuessCustomsRegionProductXPartner =
     csvLine.best_guess_region_prodxpart === "1" ? "true" : "false";
   nodeData.bestGuessNationalCustomsRegion =

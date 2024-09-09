@@ -510,6 +510,9 @@ gen best_guess_national_product = 0
 **Nouveau nom  best_guess_national_partner	
 replace best_guess_national_product = 1 if best_guess_national_prodxpart == 1 | (source_type=="Tableau des quantités" & (year==1822|year==1823|year==1793))
 
+capture drop best_guess_national
+gen best_guess_national = 0
+replace best_guess_national = 1 if best_guess_national_partner == 1 | (source_type=="Tableau des quantités" & (year==1822|year==1823|year==1793))
 
 capture drop best_guess_region_prodxpart
 **Sources qui permettent d’analyser l’ensemble du commerce par produit et partenaire en valeur de chaque département de Ferme concerné
