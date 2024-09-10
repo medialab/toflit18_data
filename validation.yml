@@ -1,5 +1,5 @@
-version: 4.29.0
-time: 91.815
+version: 4.40.8
+time: 54.951
 errors: []
 tasks:
   - resource:
@@ -65,7 +65,7 @@ tasks:
         fields: 6
         rows: 34
       encoding: utf-8
-    time: 0.074
+    time: 0.029
     scope:
       - hash-count-error
       - byte-count-error
@@ -161,7 +161,7 @@ tasks:
             description: Width in line for textiles -- Largeure en lignes des tissus
           - name: value
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Value of the trade flow in livres tournois or francs -- Valeur
               du flux commercial, en livres tournois ou en francs
           - name: value_part_of_bundle
@@ -184,7 +184,7 @@ tasks:
               marchandise
           - name: value_per_unit
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Value per unit -- Valeur par unité
           - name: filepath
             type: string
@@ -203,22 +203,22 @@ tasks:
               la page ou de la photo dans la source numérisée
           - name: value_total
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Total value of some succeding flows given by the source --
               Total d'une suite de flux donné dans la source
           - name: value_sub_total_1
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Partial total given in the source (level 1) -- Total partiel
               donné dans la source (niveau 1)
           - name: value_sub_total_2
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Partial total given in the source (level 2) -- Total partiel
               donné dans la source (niveau 2)
           - name: value_sub_total_3
             type: number
-            decimalChar: ','
+            decimalChar: .
             description: Partial total given in the source (level 3) -- Total partiel
               donné dans la source (niveau 3)
           - name: data_collector
@@ -282,8 +282,8 @@ tasks:
         - title: French Bureau de la balance du commerce statistics see http://toflit18.medialab.sciences-po.fr/#/exploration/sources
             for more details
       path:
-        - sources/1792-both semester/AN_F12_252_et_F12_1843B_Exports_1792.csv
-        - sources/1792-both semester/AN_F12_252_et_F12_1843B_Imports_1792.csv
+        - sources/1792-both semester/AN_F12_252_et_F12_1834B_Exports_1792.csv
+        - sources/1792-both semester/AN_F12_252_et_F12_1834B_Imports_1792.csv
         - sources/1792-first semester/AN_F12_252_Exports_1792.csv
         - sources/1792-first semester/AN_F12_252_Imports_1792.csv
         - sources/Compagnie des Indes/BNF_MF_6431_Antilles_par_la_Compagnie_des_Indes_Imports.csv
@@ -532,8 +532,10 @@ tasks:
         - sources/Local/AD34_C5488_Montpellier_Imports_1738.csv
         - sources/Local/AD34_C5488_Montpellier_Imports_1739.csv
         - sources/Local/AD44_C706_Nantes_Exports_1728.csv
+        - sources/Local/AD44_C706_Nantes_Exports_1730.csv
         - sources/Local/AD44_C706_Nantes_Exports_1731.csv
         - sources/Local/AD44_C706_Nantes_Exports_1732.csv
+        - sources/Local/AD44_C706_Nantes_Exports_1733.csv
         - sources/Local/AD44_C706_Nantes_Exports_1734.csv
         - sources/Local/AD44_C706_Nantes_Exports_1735.csv
         - sources/Local/AD44_C706_Nantes_Exports_1736.csv
@@ -652,6 +654,7 @@ tasks:
         - sources/Local/AD44_C717_Rennes_Exports_1767.csv
         - sources/Local/AD44_C717_Rennes_Exports_1768.csv
         - sources/Local/AD44_C717_Rennes_Exports_1769.csv
+        - sources/Local/AD44_C717_Rennes_Exports_1770.csv
         - sources/Local/AD44_C717_Rennes_Exports_1771.csv
         - sources/Local/AD44_C717_Rennes_Exports_1772.csv
         - sources/Local/AD44_C717_Rennes_Exports_1773.csv
@@ -666,6 +669,7 @@ tasks:
         - sources/Local/AD44_C717_Rennes_Imports_1767.csv
         - sources/Local/AD44_C717_Rennes_Imports_1768.csv
         - sources/Local/AD44_C717_Rennes_Imports_1769.csv
+        - sources/Local/AD44_C717_Rennes_Imports_1770.csv
         - sources/Local/AD44_C717_Rennes_Imports_1771.csv
         - sources/Local/AD44_C717_Rennes_Imports_1772.csv
         - sources/Local/AD44_C717_Rennes_Imports_1773.csv
@@ -743,12 +747,32 @@ tasks:
         - sources/Local/AD64_2_ETP_105_Bayonne_Imports_1778.csv
         - sources/Local/AD64_2_ETP_105_Bayonne_Imports_1779.csv
         - sources/Local/AD64_2_ETP_105_Bayonne_Imports_1780.csv
-        - sources/Local/AD76_7F97_via_Dardel_Exports.csv
-        - sources/Local/AD76_7F97_via_Dardel_Imports.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1726.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1727.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1728.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1729.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1730.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1731.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1732.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1733.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1734.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1735.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1736.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1737.csv
+        - sources/Local/AD67_C1047_Narbonne_Imports_1738.csv
+        - sources/Local/AD76_7F97_via_Dardel_Rouen_Exports.csv
+        - sources/Local/AD76_7F97_via_Dardel_Rouen_Imports.csv
+        - sources/Local/ANOM_C9A_11_Saint-Domingue_Imports_1715.csv
+        - sources/Local/ANOM_C9A_12_Saint-Domingue_Imports_1716.csv
+        - sources/Local/ANOM_C9A_40_Saint-Domingue_Imports_1734.csv
+        - sources/Local/ANOM_C9B_01_Saint-Domingue_Imports_1709.csv
+        - sources/Local/ANOM_C9B_05_Saint-Domingue_Imports_1719.csv
         - sources/Local/ANOM_Col_F2_B_13_Colonies_Exports_1788.csv
         - sources/Local/ANOM_Col_F2_B_13_Colonies_Imports_1788.csv
         - sources/Local/ANOM_Col_F2_B_14_Colonies_Exports_1787.csv
         - sources/Local/ANOM_Col_F2_B_14_Colonies_Imports_1787.csv
+        - sources/Local/AN_F12_1655_Marseille_Imports_1787.csv
+        - sources/Local/AN_F12_1669_Marseille_Exports_1790.csv
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1725.csv
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1726.csv
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_21_Marseille_Exports_1727.csv
@@ -851,6 +875,7 @@ tasks:
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1778.csv
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1779.csv
         - sources/Local/Archives_de_la_CCI_de_Marseille_I_31_Marseille_Imports_1780.csv
+        - sources/Local/Archives_de_la_CCI_de_Marseille_I_32_Marseille_Imports_1749.csv
         - sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1767.csv
         - sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1769.csv
         - sources/Local/Archives_de_la_CCI_de_Rouen_Carton_VIII_110_Caen_Exports_1774.csv
@@ -920,7 +945,6 @@ tasks:
         - sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14_Colonies_Exports_1789.csv
         - sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14_Colonies_Imports_1789.csv
         - sources/National toutes directions partenaires manquants/ANOM_Col_F2_B_14_partner_Monde_Reexports_Exports_1786.csv
-        - sources/National toutes directions partenaires manquants/AN_F12_1655_Marseille_Imports_1787.csv
         - sources/National toutes directions partenaires manquants/AN_F12_1666_Amiens_Exports_1789.csv
         - sources/National toutes directions partenaires manquants/AN_F12_1666_Auch_Exports_1789.csv
         - sources/National toutes directions partenaires manquants/AN_F12_1666_Bayonne_Exports_1789.csv
@@ -1049,58 +1073,58 @@ tasks:
         - sources/National toutes directions tous partenaires/BM_Saint-Brieuc_Fonds_Gournay_M87_partner_Russie_Imports_1750.csv
         - sources/National toutes directions tous partenaires/BM_Saint-Brieuc_Fonds_Gournay_M87_partner_Suede_Exports_1750.csv
         - sources/National toutes directions tous partenaires/BM_Saint-Brieuc_Fonds_Gournay_M87_partner_Suede_Imports_1750.csv
-        - sources/Objet Général/AN_F12_1835_Exports_1788.csv
-        - sources/Objet Général/AN_F12_1835_Imports_1788.csv
-        - sources/Objet Général/AN_F12_242_Exports_1775.csv
-        - sources/Objet Général/AN_F12_242_Imports_1775.csv
-        - sources/Objet Général/AN_F12_243_Exports_1776.csv
-        - sources/Objet Général/AN_F12_243_Imports_1776.csv
-        - sources/Objet Général/AN_F12_245_Exports_1777.csv
-        - sources/Objet Général/AN_F12_245_Imports_1777.csv
-        - sources/Objet Général/AN_F12_246_Exports_1778.csv
-        - sources/Objet Général/AN_F12_246_Imports_1778.csv
-        - sources/Objet Général/AN_F12_247_Exports_1779.csv
-        - sources/Objet Général/AN_F12_247_Imports_1779.csv
-        - sources/Objet Général/AN_F12_248_Exports_1780.csv
-        - sources/Objet Général/AN_F12_248_Imports_1780.csv
-        - sources/Objet Général/AN_F12_249_Exports_1782.csv
-        - sources/Objet Général/AN_F12_249_Imports_1782.csv
-        - sources/Objet Général/AN_F12_250_Exports_1787.csv
-        - sources/Objet Général/AN_F12_250_Imports_1787.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_2e_partie_Exports_1756.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_2e_partie_Imports_1756.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Exports_1752.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Exports_1754.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Exports_1755.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Exports_1757.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Exports_1761.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Imports_1752.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Imports_1754.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Imports_1755.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Imports_1757.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-1_Imports_1761.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Exports_1758.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Exports_1759.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Exports_1760.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Imports_1758.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Imports_1759.csv
-        - sources/Objet Général/BM_Rouen_Montbret_155-2_Imports_1760.csv
-        - sources/Objet Général/BM_Rouen_Montbret_849_Exports_1772.csv
-        - sources/Objet Général/BM_Rouen_Montbret_849_Imports_1772.csv
-        - sources/Objet Général/IIHS-122A_Exports_1767.csv
-        - sources/Objet Général/IIHS-122A_Imports_1767.csv
-        - sources/Objet Général/IIHS-122B_Exports_1768.csv
-        - sources/Objet Général/IIHS-122B_Imports_1768.csv
-        - sources/Objet Général/IIHS-122C_Exports_1769.csv
-        - sources/Objet Général/IIHS-122C_Imports_1769.csv
-        - sources/Objet Général/IIHS-122D_Exports_1770.csv
-        - sources/Objet Général/IIHS-122D_Imports_1770.csv
-        - sources/Objet Général/IIHS-122E_Exports_1771.csv
-        - sources/Objet Général/IIHS-122E_Imports_1771.csv
-        - sources/Objet Général/IIHS-122F_Exports_1773.csv
-        - sources/Objet Général/IIHS-122F_Imports_1773.csv
-        - sources/Objet Général/IIHS-122G_Exports_1774.csv
-        - sources/Objet Général/IIHS-122G_Imports_1774.csv
+        - sources/Objet General/AN_F12_1835_Exports_1788.csv
+        - sources/Objet General/AN_F12_1835_Imports_1788.csv
+        - sources/Objet General/AN_F12_242_Exports_1775.csv
+        - sources/Objet General/AN_F12_242_Imports_1775.csv
+        - sources/Objet General/AN_F12_243_Exports_1776.csv
+        - sources/Objet General/AN_F12_243_Imports_1776.csv
+        - sources/Objet General/AN_F12_245_Exports_1777.csv
+        - sources/Objet General/AN_F12_245_Imports_1777.csv
+        - sources/Objet General/AN_F12_246_Exports_1778.csv
+        - sources/Objet General/AN_F12_246_Imports_1778.csv
+        - sources/Objet General/AN_F12_247_Exports_1779.csv
+        - sources/Objet General/AN_F12_247_Imports_1779.csv
+        - sources/Objet General/AN_F12_248_Exports_1780.csv
+        - sources/Objet General/AN_F12_248_Imports_1780.csv
+        - sources/Objet General/AN_F12_249_Exports_1782.csv
+        - sources/Objet General/AN_F12_249_Imports_1782.csv
+        - sources/Objet General/AN_F12_250_Exports_1787.csv
+        - sources/Objet General/AN_F12_250_Imports_1787.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_2e_partie_Exports_1756.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_2e_partie_Imports_1756.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Exports_1752.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Exports_1754.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Exports_1755.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Exports_1757.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Exports_1761.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Imports_1752.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Imports_1754.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Imports_1755.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Imports_1757.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-1_Imports_1761.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Exports_1758.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Exports_1759.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Exports_1760.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Imports_1758.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Imports_1759.csv
+        - sources/Objet General/BM_Rouen_Montbret_155-2_Imports_1760.csv
+        - sources/Objet General/BM_Rouen_Montbret_849_Exports_1772.csv
+        - sources/Objet General/BM_Rouen_Montbret_849_Imports_1772.csv
+        - sources/Objet General/IIHS-122A_Exports_1767.csv
+        - sources/Objet General/IIHS-122A_Imports_1767.csv
+        - sources/Objet General/IIHS-122B_Exports_1768.csv
+        - sources/Objet General/IIHS-122B_Imports_1768.csv
+        - sources/Objet General/IIHS-122C_Exports_1769.csv
+        - sources/Objet General/IIHS-122C_Imports_1769.csv
+        - sources/Objet General/IIHS-122D_Exports_1770.csv
+        - sources/Objet General/IIHS-122D_Imports_1770.csv
+        - sources/Objet General/IIHS-122E_Exports_1771.csv
+        - sources/Objet General/IIHS-122E_Imports_1771.csv
+        - sources/Objet General/IIHS-122F_Exports_1773.csv
+        - sources/Objet General/IIHS-122F_Imports_1773.csv
+        - sources/Objet General/IIHS-122G_Exports_1774.csv
+        - sources/Objet General/IIHS-122G_Imports_1774.csv
         - sources/Out/AD33_C4388_Bordeaux_Exports_1770_bis.csv
         - sources/Out/AD38_2C635_Sardaigne_Imports_1726.csv
         - sources/Out/AD38_2C635_Sardaigne_Imports_1728.csv
@@ -1109,8 +1133,8 @@ tasks:
         - sources/Out/AD44_C706_Rennes_Exports_1714_monthly.csv
         - sources/Out/AD44_C706_Rennes_Imports_1714_monthly.csv
         - sources/Out/AD44_C716_Rennes_Imports_1757_bis.csv
-        - sources/Out/AD76_7F97_via_Dardel_Exports.csv
-        - sources/Out/AD76_7F97_via_Dardel_Imports.csv
+        - sources/Out/AD76_7F97_via_Dardel_Rouen_Exports.csv
+        - sources/Out/AD76_7F97_via_Dardel_Rouen_Imports.csv
         - sources/Out/ANOM_Col_F2_B_14_Colonies_Exports_1789_bis.csv
         - sources/Out/AN_F12_1667_Saint-Quentin_Imports_1789_bis.csv
         - sources/Out/AN_F12_1834A_Exports_1671.csv
@@ -1138,84 +1162,86 @@ tasks:
         - sources/Out/Tableau_decennal_Imports_1834.csv
         - sources/Out/Tableau_decennal_Imports_1835.csv
         - sources/Out/Tableau_decennal_Imports_1836.csv
-        - sources/Résumé/AN_F12_251_Exports_1787.csv
-        - sources/Résumé/AN_F12_251_Exports_1788.csv
-        - sources/Résumé/AN_F12_251_Exports_1789.csv
-        - sources/Résumé/AN_F12_251_Exports_1806.csv
-        - sources/Résumé/AN_F12_251_Exports_1807.csv
-        - sources/Résumé/AN_F12_251_Exports_1808.csv
-        - sources/Résumé/AN_F12_251_Exports_1809.csv
-        - sources/Résumé/AN_F12_251_Exports_1810.csv
-        - sources/Résumé/AN_F12_251_Exports_1811.csv
-        - sources/Résumé/AN_F12_251_Exports_1812.csv
-        - sources/Résumé/AN_F12_251_Exports_1813.csv
-        - sources/Résumé/AN_F12_251_Exports_1814.csv
-        - sources/Résumé/AN_F12_251_Exports_1815.csv
-        - sources/Résumé/AN_F12_251_Exports_1816.csv
-        - sources/Résumé/AN_F12_251_Exports_1817.csv
-        - sources/Résumé/AN_F12_251_Exports_1818.csv
-        - sources/Résumé/AN_F12_251_Exports_1819.csv
-        - sources/Résumé/AN_F12_251_Exports_1820.csv
-        - sources/Résumé/AN_F12_251_Exports_1821.csv
-        - sources/Résumé/AN_F12_251_Exports_An_10.csv
-        - sources/Résumé/AN_F12_251_Exports_An_11.csv
-        - sources/Résumé/AN_F12_251_Exports_An_12.csv
-        - sources/Résumé/AN_F12_251_Exports_An_13.csv
-        - sources/Résumé/AN_F12_251_Exports_An_5.csv
-        - sources/Résumé/AN_F12_251_Exports_An_6.csv
-        - sources/Résumé/AN_F12_251_Exports_An_7.csv
-        - sources/Résumé/AN_F12_251_Exports_An_8.csv
-        - sources/Résumé/AN_F12_251_Exports_An_9.csv
-        - sources/Résumé/AN_F12_251_Imports_1787.csv
-        - sources/Résumé/AN_F12_251_Imports_1788.csv
-        - sources/Résumé/AN_F12_251_Imports_1789.csv
-        - sources/Résumé/AN_F12_251_Imports_1806.csv
-        - sources/Résumé/AN_F12_251_Imports_1807.csv
-        - sources/Résumé/AN_F12_251_Imports_1808.csv
-        - sources/Résumé/AN_F12_251_Imports_1809.csv
-        - sources/Résumé/AN_F12_251_Imports_1810.csv
-        - sources/Résumé/AN_F12_251_Imports_1811.csv
-        - sources/Résumé/AN_F12_251_Imports_1812.csv
-        - sources/Résumé/AN_F12_251_Imports_1813.csv
-        - sources/Résumé/AN_F12_251_Imports_1814.csv
-        - sources/Résumé/AN_F12_251_Imports_1815.csv
-        - sources/Résumé/AN_F12_251_Imports_1816.csv
-        - sources/Résumé/AN_F12_251_Imports_1817.csv
-        - sources/Résumé/AN_F12_251_Imports_1818.csv
-        - sources/Résumé/AN_F12_251_Imports_1819.csv
-        - sources/Résumé/AN_F12_251_Imports_1820.csv
-        - sources/Résumé/AN_F12_251_Imports_1821.csv
-        - sources/Résumé/AN_F12_251_Imports_An_10.csv
-        - sources/Résumé/AN_F12_251_Imports_An_11.csv
-        - sources/Résumé/AN_F12_251_Imports_An_12.csv
-        - sources/Résumé/AN_F12_251_Imports_An_13.csv
-        - sources/Résumé/AN_F12_251_Imports_An_5.csv
-        - sources/Résumé/AN_F12_251_Imports_An_6.csv
-        - sources/Résumé/AN_F12_251_Imports_An_7.csv
-        - sources/Résumé/AN_F12_251_Imports_An_8.csv
-        - sources/Résumé/AN_F12_251_Imports_An_9.csv
-        - sources/Tableau Général/AN_F12_252_et_F12_1843B_Exports_1792.csv
-        - sources/Tableau Général/AN_F12_252_et_F12_1843B_Imports_1792.csv
-        - sources/Tableau Général/Romano1957_Velde_IIHS-128_Exports.csv
-        - sources/Tableau Général/Romano1957_Velde_IIHS-128_Imports.csv
-        - sources/Tableau Général/WEBER_Commerce_de_la_compagnie_des_Indes_1904_Exports.csv
-        - sources/Tableau Général/WEBER_Commerce_de_la_compagnie_des_Indes_1904_Imports.csv
-        - sources/Tableau des quantités/AN_F12_251_Exports_1819.csv
-        - sources/Tableau des quantités/AN_F12_251_Exports_1821.csv
-        - sources/Tableau des quantités/AN_F12_251_Exports_1822.csv
-        - sources/Tableau des quantités/AN_F12_251_Exports_1823.csv
-        - sources/Tableau des quantités/AN_F12_251_Imports_1819.csv
-        - sources/Tableau des quantités/AN_F12_251_Imports_1821.csv
-        - sources/Tableau des quantités/AN_F12_251_Imports_1822.csv
-        - sources/Tableau des quantités/AN_F12_251_Imports_1823.csv
+        - sources/Resume/AN_F12_251_Exports_1787.csv
+        - sources/Resume/AN_F12_251_Exports_1788.csv
+        - sources/Resume/AN_F12_251_Exports_1789.csv
+        - sources/Resume/AN_F12_251_Exports_1806.csv
+        - sources/Resume/AN_F12_251_Exports_1807.csv
+        - sources/Resume/AN_F12_251_Exports_1808.csv
+        - sources/Resume/AN_F12_251_Exports_1809.csv
+        - sources/Resume/AN_F12_251_Exports_1810.csv
+        - sources/Resume/AN_F12_251_Exports_1811.csv
+        - sources/Resume/AN_F12_251_Exports_1812.csv
+        - sources/Resume/AN_F12_251_Exports_1813.csv
+        - sources/Resume/AN_F12_251_Exports_1814.csv
+        - sources/Resume/AN_F12_251_Exports_1815.csv
+        - sources/Resume/AN_F12_251_Exports_1816.csv
+        - sources/Resume/AN_F12_251_Exports_1817.csv
+        - sources/Resume/AN_F12_251_Exports_1818.csv
+        - sources/Resume/AN_F12_251_Exports_1819.csv
+        - sources/Resume/AN_F12_251_Exports_1820.csv
+        - sources/Resume/AN_F12_251_Exports_1821.csv
+        - sources/Resume/AN_F12_251_Exports_An_10.csv
+        - sources/Resume/AN_F12_251_Exports_An_11.csv
+        - sources/Resume/AN_F12_251_Exports_An_12.csv
+        - sources/Resume/AN_F12_251_Exports_An_13.csv
+        - sources/Resume/AN_F12_251_Exports_An_5.csv
+        - sources/Resume/AN_F12_251_Exports_An_6.csv
+        - sources/Resume/AN_F12_251_Exports_An_7.csv
+        - sources/Resume/AN_F12_251_Exports_An_8.csv
+        - sources/Resume/AN_F12_251_Exports_An_9.csv
+        - sources/Resume/AN_F12_251_Imports_1787.csv
+        - sources/Resume/AN_F12_251_Imports_1788.csv
+        - sources/Resume/AN_F12_251_Imports_1789.csv
+        - sources/Resume/AN_F12_251_Imports_1806.csv
+        - sources/Resume/AN_F12_251_Imports_1807.csv
+        - sources/Resume/AN_F12_251_Imports_1808.csv
+        - sources/Resume/AN_F12_251_Imports_1809.csv
+        - sources/Resume/AN_F12_251_Imports_1810.csv
+        - sources/Resume/AN_F12_251_Imports_1811.csv
+        - sources/Resume/AN_F12_251_Imports_1812.csv
+        - sources/Resume/AN_F12_251_Imports_1813.csv
+        - sources/Resume/AN_F12_251_Imports_1814.csv
+        - sources/Resume/AN_F12_251_Imports_1815.csv
+        - sources/Resume/AN_F12_251_Imports_1816.csv
+        - sources/Resume/AN_F12_251_Imports_1817.csv
+        - sources/Resume/AN_F12_251_Imports_1818.csv
+        - sources/Resume/AN_F12_251_Imports_1819.csv
+        - sources/Resume/AN_F12_251_Imports_1820.csv
+        - sources/Resume/AN_F12_251_Imports_1821.csv
+        - sources/Resume/AN_F12_251_Imports_An_10.csv
+        - sources/Resume/AN_F12_251_Imports_An_11.csv
+        - sources/Resume/AN_F12_251_Imports_An_12.csv
+        - sources/Resume/AN_F12_251_Imports_An_13.csv
+        - sources/Resume/AN_F12_251_Imports_An_5.csv
+        - sources/Resume/AN_F12_251_Imports_An_6.csv
+        - sources/Resume/AN_F12_251_Imports_An_7.csv
+        - sources/Resume/AN_F12_251_Imports_An_8.csv
+        - sources/Resume/AN_F12_251_Imports_An_9.csv
+        - sources/Tableau General/AN_F12_252_et_F12_1834B_Exports_1792.csv
+        - sources/Tableau General/AN_F12_252_et_F12_1834B_Imports_1792.csv
+        - sources/Tableau General/Romano1957_Velde_IIHS-128_Exports.csv
+        - sources/Tableau General/Romano1957_Velde_IIHS-128_Imports.csv
+        - sources/Tableau General/WEBER_Commerce_de_la_compagnie_des_Indes_1904_Exports.csv
+        - sources/Tableau General/WEBER_Commerce_de_la_compagnie_des_Indes_1904_Imports.csv
+        - sources/Tableau des quantites/F12_1834B_Exports_1793.csv
+        - sources/Tableau des quantites/F12_1834B_Imports_1793.csv
+        - sources/Tableau des quantites/AN_F12_251_Exports_1819.csv
+        - sources/Tableau des quantites/AN_F12_251_Exports_1821.csv
+        - sources/Tableau des quantites/AN_F12_251_Exports_1822.csv
+        - sources/Tableau des quantites/AN_F12_251_Exports_1823.csv
+        - sources/Tableau des quantites/AN_F12_251_Imports_1819.csv
+        - sources/Tableau des quantites/AN_F12_251_Imports_1821.csv
+        - sources/Tableau des quantites/AN_F12_251_Imports_1822.csv
+        - sources/Tableau des quantites/AN_F12_251_Imports_1823.csv
       scheme: multipart
       hashing: md5
       stats:
-        hash: c124c026a55fd2d8fa1013380ee363dd
-        bytes: 123935764
+        hash: 78e603d9bf5775b038e4aca4f1300b33
+        bytes: 124852502
         fields: 35
-        rows: 569548
-    time: 91.598
+        rows: 576601
+    time: 54.776
     scope:
       - hash-count-error
       - byte-count-error
