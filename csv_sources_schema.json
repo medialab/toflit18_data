@@ -80,7 +80,7 @@
     {
       "name": "value",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Value of the trade flow in livres tournois or francs -- Valeur du flux commercial, en livres tournois ou en francs"
     },
     {
@@ -101,7 +101,7 @@
     {
       "name": "value_per_unit",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Value per unit -- Valeur par unité"
     },
     {
@@ -128,25 +128,25 @@
     {
       "name": "value_total",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Total value of some succeding flows given by the source -- Total d'une suite de flux donné dans la source"
     },
     {
       "name": "value_sub_total_1",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Partial total given in the source (level 1) -- Total partiel donné dans la source (niveau 1)"
     },
     {
       "name": "value_sub_total_2",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Partial total given in the source (level 2) -- Total partiel donné dans la source (niveau 2)"
     },
     {
       "name": "value_sub_total_3",
       "type": "number",
-      "decimalChar": ",",
+      "decimalChar": ".",
       "description": "Partial total given in the source (level 3) -- Total partiel donné dans la source (niveau 3)"
     },
     {
