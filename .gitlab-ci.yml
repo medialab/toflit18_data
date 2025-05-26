@@ -114,7 +114,7 @@ build_docker_image:
     DOCKER_TLS_CERTDIR: ""
     NEO4J_USER: "neo4j"
     NEO4J_PASSWORD: "admin"
-    NEO4J_HOST: "neo4j_build"
+    NEO4J_HOST: "localhost"
     NEO4J_PORT: "7687"
   only:
     - staging
