@@ -112,11 +112,9 @@ build_docker_image:
     - docker logs neo4j_build
     - docker rm neo4j_build
   variables:
-    FF_NETWORK_PER_BUILD: "true"
     DOCKER_TLS_CERTDIR: ""
     NEO4J_USER: "neo4j"
     NEO4J_PASSWORD: "admin"
-    NEO4J_HOST: "localhost"
     NEO4J_PORT: "7687"
   only:
     - staging
