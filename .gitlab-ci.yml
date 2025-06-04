@@ -90,8 +90,10 @@ build_docker_image:
     - ls -lah ${SHARED_FOLDER}/neo4j_data/databases/graph.db
     - chown -R 101:101 ${SHARED_FOLDER}/neo4j_data
     # start neo4j with the DB created in previous step
-    - docker run --name neo4j_build --detach --volumes-from ${JOB_CONTAINER_ID} --env "NEO4J_dbms_directories_data=${SHARED_FOLDER}/neo4j_data" --network=host --env "NEO4J_dbms_connectors_default__listen__address=0.0.0.0" --env "NEO4J_dbms_memory_heap_max__size=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_dbms_security_auth__enabled=false" neo4j:3.5.16
+    - docker run --name neo4j_build --detach --volumes-from ${JOB_CONTAINER_ID} --env "NEO4J_dbms_directories_data=${SHARED_FOLDER}/neo4j_data" --env "NEO4J_dbms_connectors_default__listen__address=0.0.0.0" --env "NEO4J_dbms_memory_heap_max__size=2048M" --env "NEO4J_dbms_memory_pagecache_size=2048M" --env "NEO4J_dbms_transaction_timeout=180s" --env "NEO4J_dbms_security_auth__enabled=false" neo4j:3.5.16
     - sleep 5
+    - export NEO4J_HOST=`docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' neo4j_build`
+    - echo NEO4J_HOST=$NEO4J_HOST
     # run quantities and indices scripts
     - cd ${CI_PROJECT_DIR}/scripts/neo4j
     - npm run quantities -- -- --path $CI_PROJECT_DIR
@@ -110,11 +112,9 @@ build_docker_image:
     - docker logs neo4j_build
     - docker rm neo4j_build
   variables:
-    FF_NETWORK_PER_BUILD: "true"
     DOCKER_TLS_CERTDIR: ""
     NEO4J_USER: "neo4j"
     NEO4J_PASSWORD: "admin"
-    NEO4J_HOST: "localhost"
     NEO4J_PORT: "7687"
   only:
     - staging
