@@ -17,7 +17,7 @@ product,orthographic,note,sourceFR,sourceFR_nbr,sourceBEL,sourceBEL_nbr,sourceSU
 ??? de boutard,??? de boutard,,0,0,0,0,0,0,0,0,0,0
 ??? fer...,??? fer,,1,1,0,0,0,0,0,0,1,1
 ??? Ferre en carte,???,,0,0,0,0,0,0,0,0,0,0
-????,,,1,2,0,0,0,0,0,0,1,2
+????,,,1,1,0,0,0,0,0,0,1,1
 ???? pour faire etoffe,,,1,1,0,0,0,0,0,0,1,1
 ??????,,,1,3,0,0,0,0,0,0,1,3
 ?sse,???sse,,1,1,0,0,0,0,0,0,1,1
@@ -1482,8 +1482,8 @@ Aristoloche,aristoloche,,1,63,0,0,0,0,0,0,1,63
 Aristoloches,aristoloche,,1,5,0,0,0,0,0,0,1,5
 Aristotoche,aristoloche,,1,1,0,0,0,0,0,0,1,1
 Arme a feu,armes à feu,,1,1,0,0,0,0,0,0,1,1
-Arme a feu a feu,,,1,1,0,0,0,0,0,0,1,1
-Arme a feu blanches,,,1,1,0,0,0,0,0,0,1,1
+Arme a feu a feu fusils,,,1,1,0,0,0,0,0,0,1,1
+Arme a feu blanches bayonnettes,,,1,1,0,0,0,0,0,0,1,1
 Armement de table,armement de tables,,1,3,0,0,0,0,0,0,1,3
 Armes,armes,,1,134,0,0,0,0,3,1,2,137
 Armes ; A feu,armes à feu,,1,12,0,0,0,0,0,0,1,12
@@ -5583,7 +5583,7 @@ Bois d' ébéne,bois d'ébène,,0,0,0,0,0,0,1,1,1,1
 Bois d' ébène,bois d'ébène,,0,0,0,0,0,0,4,1,1,4
 bois d' olivier,bois d'olivier,,0,0,0,0,0,0,1,1,1,1
 bois d' ormaux,bois d'ormeau,,0,0,0,0,0,0,1,1,1,1
-Bois d'Acajou,bois d'acajou,,1,7,0,0,0,0,0,0,1,7
+Bois d'Acajou,bois d'acajou,,1,6,0,0,0,0,0,0,1,6
 Bois d'acajou,bois d'acajou,,1,29,1,2,0,0,0,0,2,31
 Bois d'acajou ; chevons ; de 8 pieds,bois d'acajou chevrons de 8 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois d'acajou ; chevrons,bois d'acajou chevrons,,1,1,0,0,0,0,0,0,1,1
@@ -5605,7 +5605,7 @@ Bois d'acajou ; planches ; de 8 pieds,bois d'acajou planches de 8 pieds,,1,1,0,0
 Bois d'acajou en chevrons,bois d'acajou en chevrons,,1,1,0,0,0,0,0,0,1,1
 Bois d'Acajou en madrier,bois d'acajou en madriers,,1,1,0,0,0,0,0,0,1,1
 Bois d'acajou en madrier,bois d'acajou en madriers,,1,5,0,0,0,0,0,0,1,5
-Bois d'Acajou en madriers,bois d'acajou en madriers,,1,11,0,0,0,0,0,0,1,11
+Bois d'Acajou en madriers,bois d'acajou en madriers,,1,12,0,0,0,0,0,0,1,12
 Bois d'acajou en madriers,bois d'acajou en madriers,,1,22,0,0,0,0,0,0,1,22
 Bois d'Acajou en morceaux,bois d'acajou en morceaux,,1,1,0,0,0,0,0,0,1,1
 Bois d'Acajou en planches,bois d'acajou en planches,,1,3,0,0,0,0,0,0,1,3
@@ -6092,7 +6092,7 @@ Bois de sapan de siam,bois de sappan de Siam,,1,1,0,0,0,0,0,0,1,1
 Bois de Sapan moulu a teindre,bois de sappan moulu à teindre,,1,1,0,0,0,0,0,0,1,1
 Bois de sape,bois de sapin,,0,0,0,0,0,0,0,0,0,0
 Bois de Sapin,bois de sapin,,1,9,0,0,0,0,0,0,1,9
-Bois de sapin,bois de sapin,,1,25,1,3,0,0,1,1,3,29
+Bois de sapin,bois de sapin,,1,24,1,3,0,0,1,1,3,28
 bois de sapin,sapin,,0,0,0,0,0,0,5,1,1,5
 Bois de sapin ; 18 pieds,bois de sapin de 18 pieds,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin ; 27 pieds,bois de sapin de 27 pieds,,1,1,0,0,0,0,0,0,1,1
@@ -6114,6 +6114,7 @@ Bois de sapin en matériaux,bois de sapin en matériaux,,1,2,0,0,0,0,0,0,1,2
 Bois de sapin en mats,bois de sapin en mats,,1,3,0,0,0,0,0,0,1,3
 Bois de sapin en morceaux,bois de sapin en morceaux,,1,3,0,0,0,0,0,0,1,3
 Bois de sapin en perches,bois de sapin en perches,,1,1,0,0,0,0,0,0,1,1
+Bois de sapin en pièce de 4 pieds,,,1,1,0,0,0,0,0,0,1,1
 Bois de sapin en planche,bois de sapin en planches,,1,2,0,0,0,0,0,0,1,2
 Bois de sapin en planches,bois de sapin en planches,,1,104,0,0,0,0,0,0,1,104
 Bois de sapin en planches communes,bois de sapin en planches communes,,1,4,0,0,0,0,0,0,1,4
@@ -9894,7 +9895,7 @@ Carreaux d'ardoise,carreaux d'ardoise,,1,2,0,0,0,0,0,0,1,2
 Carreaux d'ardoises,carreaux d'ardoise,,1,2,0,0,0,0,0,0,1,2
 Carreaux de Bidache,carreaux de Bidache,,1,4,0,0,0,0,4,1,2,8
 Carreaux de bidache,carreaux de Bidache,,1,2,0,0,0,0,0,0,1,2
-Carreaux de brique,carreaux de brique,,1,12,0,0,0,0,0,0,1,12
+Carreaux de brique,carreaux de brique,,1,13,0,0,0,0,0,0,1,13
 Carreaux de briques,carreaux de brique,,1,30,0,0,0,0,0,0,1,30
 Carreaux de Faïence,carreaux de faïence,,1,1,0,0,0,0,0,0,1,1
 Carreaux de Fayance,carreaux de faïence,,1,1,0,0,0,0,0,0,1,1
@@ -16150,7 +16151,7 @@ Cuirs Tanner,cuirs tannés,,0,0,0,0,0,0,0,0,0,0
 Cuirs tanner,cuirs tannés,,1,1,0,0,0,0,0,0,1,1
 Cuirs Tannes,cuirs tannés,,1,1,0,0,0,0,0,0,1,1
 Cuirs tannes,cuirs tannés,,1,4,0,0,0,0,0,0,1,4
-Cuirs Tannés,cuirs tannés,,1,3,0,0,0,0,0,0,1,3
+Cuirs Tannés,cuirs tannés,,1,4,0,0,0,0,0,0,1,4
 Cuirs tannés,cuirs tannés,,1,100,0,0,0,0,1,1,2,101
 Cuirs tannés de beuf,cuirs tannés de bœuf,,1,1,0,0,0,0,0,0,1,1
 Cuirs tannés de bœuf,cuirs tannés de bœuf,,1,2,0,0,0,0,0,0,1,2
@@ -16576,7 +16577,7 @@ Cuivre en serrures,cuivre en serrure,,1,1,0,0,0,0,0,0,1,1
 Cuivre en verdet,cuivre en verdet,,1,1,0,0,0,0,0,0,1,1
 Cuivre et airain ouvré,cuivre et airain ouvré,,1,1,0,0,0,0,0,0,1,1
 Cuivre et pièces de cuivre,cuivre et pièces de cuivre,,0,0,0,0,1,1,0,0,1,1
-Cuivre Fer ; en Poids,cuivre fer en poids,,1,1,0,0,0,0,0,0,1,1
+Cuivre Fer ; en Poids,cuivre fer en poids,,0,0,0,0,0,0,0,0,0,0
 Cuivre feuilles,cuivre feuilles,,1,1,0,0,0,0,0,0,1,1
 Cuivre Jaune,cuivre jaune,,1,5,0,0,0,0,0,0,1,5
 Cuivre jaune,cuivre jaune,,1,32,0,0,0,0,0,0,1,32
@@ -16598,7 +16599,7 @@ Cuivre jaune non ouvré,cuivre jaune non ouvré,,1,1,0,0,0,0,0,0,1,1
 Cuivre jaune œuvre,cuivre jaune ouvré,,1,1,0,0,0,0,0,0,1,1
 Cuivre jaune ouvré,cuivre jaune ouvré,,1,7,1,146,0,0,0,0,2,153
 Cuivre jeaune,cuivre jaune,,1,3,0,0,0,0,0,0,1,3
-Cuivre Laminé,cuivre laminé,,1,1,0,0,0,0,0,0,1,1
+Cuivre Laminé,cuivre laminé,,0,0,0,0,0,0,0,0,0,0
 Cuivre leton,cuivre laiton,,1,1,0,0,0,0,0,0,1,1
 Cuivre Mitraille,cuivre mitraille,,1,3,0,0,0,0,0,0,1,3
 Cuivre monnayé,cuivre monnayé,,1,1,0,0,0,0,0,0,1,1
@@ -16663,6 +16664,7 @@ Cuivre rouge Ouvre,cuivre rouge ouvré,,1,3,0,0,0,0,0,0,1,3
 Cuivre rouge ouvré,cuivre rouge ouvré,,1,35,1,99,0,0,0,0,2,134
 "Cuivre rouge, ouvré",cuivre rouge ouvré,,1,1,0,0,0,0,0,0,1,1
 Cuivre rozette,cuivre rosette,x,1,1,0,0,0,0,0,0,1,1
+Cuivre sec en poil,,,1,1,0,0,0,0,0,0,1,1
 Cuivre sur poil,cuivre sur poil,,1,1,0,0,0,0,0,0,1,1
 Cuivre tangou,cuivre tangoul,x,1,14,0,0,0,0,0,0,1,14
 Cuivre Tangoul,cuivre tangoul,,1,1,0,0,0,0,0,0,1,1
@@ -32118,7 +32120,7 @@ Horloge ; Timbres,horloge timbres,,1,1,0,0,0,0,0,0,1,1
 Horloge de sable,horloge de sable,,1,1,0,0,0,0,0,0,1,1
 Horloge de sables,horloge de sable,,1,1,0,0,0,0,0,0,1,1
 Horloge de table,horloge de tables,,1,1,0,0,0,0,0,0,1,1
-Horlogerie,horlogerie,,1,763,0,0,0,0,0,0,1,763
+Horlogerie,horlogerie,,1,762,0,0,0,0,0,0,1,762
 Horlogerie ; baeteo ; d'argt,horlogerie boîtes d'argent,x,1,1,0,0,0,0,0,0,1,1
 Horlogerie ; baeteo ; d'or,horlogerie boîtes d'or,x,1,1,0,0,0,0,0,0,1,1
 Horlogerie ; Boetes ; d'argent,horlogerie boîtes d'argent,,1,1,0,0,0,0,0,0,1,1
@@ -37467,16 +37469,17 @@ Merain a barique en douelles,merrains à barriques en douelles,,1,8,0,0,0,0,0,0,
 Merain à Barique en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 "Merain a barique, buches",merrains à barriques bûches,,0,0,0,0,0,0,0,0,0,0
 Merain a Bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
-Merain a bariques,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
+Merain a bariques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Merain à bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Mérain a bariques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merain a bariques ; douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Merain a Bariques en douelles,merrains à barriques en douelles,,1,22,0,0,0,0,0,0,1,22
-Merain a bariques en douelles,merrains à barriques en douelles,,1,11,0,0,0,0,0,0,1,11
+Merain a bariques en douelles,merrains à barriques en douelles,,1,12,0,0,0,0,0,0,1,12
 Merain à bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Mérain a bariques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
-Merain a barrils,merrains à barils,,1,2,0,0,0,0,0,0,1,2
+Merain a barrils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
 Merain à barrils,merrains à barils,,0,0,0,0,0,0,0,0,0,0
+Merain a barrils en douelles,,,1,1,0,0,0,0,0,0,1,1
 Merain à barrils en douelles,merrains à barils en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain a barrique,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Merain à barrique,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
@@ -37494,16 +37497,17 @@ Mérain a Pipe,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
 Merain a Pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
 Merain a pipe en douelles,merrains à pipes en douelles,,1,14,0,0,0,0,0,0,1,14
 Mérain a Pipe en douelles,merrains à pipes en douelles,,1,1,0,0,0,0,0,0,1,1
-Merain a pipes,merrains à pipes,,1,7,0,0,0,0,0,0,1,7
+Merain a pipes,merrains à pipes,,1,5,0,0,0,0,0,0,1,5
 Merain à pipes,merrains à pipes,,0,0,0,0,0,0,0,0,0,0
-Merain a pipes en douelles,merrains à pipes en douelles,,1,41,0,0,0,0,0,0,1,41
+Merain a pipes en douelles,merrains à pipes en douelles,,1,43,0,0,0,0,0,0,1,43
 Merain à pipes en douelles,merrains à pipes en douelles,,1,4,0,0,0,0,0,0,1,4
 Merain a pipes en fonçailles,merrains à pipes en fonçaille,,1,4,0,0,0,0,0,0,1,4
 "Merain a pipes, buches",merrains à pipes bûches,,0,0,0,0,0,0,0,0,0,0
 Merain a quarts,merrains à quarts,,0,0,0,0,0,0,0,0,0,0
 Merain a quarts en douelles,merrains à quarts en douelles,,1,17,0,0,0,0,0,0,1,17
 Merain a tierçons,merrains à tierçons,,1,1,0,0,0,0,0,0,1,1
-Merain a tonneau,merrains à tonneaux,,1,2,0,0,0,0,0,0,1,2
+Merain a tonneau,merrains à tonneaux,,1,1,0,0,0,0,0,0,1,1
+Merain a tonneau en douelles,,,1,1,0,0,0,0,0,0,1,1
 Merain abarique,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Merain abarique en douelles,merrains à barriques en douelles,,1,2,0,0,0,0,0,0,1,2
 Merain de pipes,merrains de pipes,,0,0,0,0,0,0,0,0,0,0
@@ -37788,12 +37792,12 @@ Merrain a Barrique,merrains à barriques,,1,3,0,0,0,0,0,0,1,3
 Merrain a barrique,merrains à barriques,,1,8,0,0,0,0,0,0,1,8
 Merrain a Barrique en douelles,merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
 Merrain a barrique en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
-Merrain a barriques,merrains à barriques,,1,32,0,0,0,0,0,0,1,32
+Merrain a barriques,merrains à barriques,,1,31,0,0,0,0,0,0,1,31
 Merrain à Barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrain à barriques,merrains à barriques,,1,2,0,0,0,0,0,0,1,2
 Merrain a barriques douelles,merrains à barriques douelles,,1,2,0,0,0,0,0,0,1,2
 Merrain à Barriques en douelle,merrains à barriques douelles,,1,1,0,0,0,0,0,0,1,1
-Merrain a barriques en douelles,merrains à barriques en douelles,,1,56,0,0,0,0,0,0,1,56
+Merrain a barriques en douelles,merrains à barriques en douelles,,1,57,0,0,0,0,0,0,1,57
 Merrain a barriques en douëlles,,,1,1,0,0,0,0,0,0,1,1
 Merrain à Barriques en douelles,merrains à barriques en douelles,,1,6,0,0,0,0,0,0,1,6
 Merrain à barriques en douelles,merrains à barriques en douelles,,1,3,0,0,0,0,0,0,1,3
@@ -37910,9 +37914,10 @@ Merrains ; foncailles,merrains fonçaille,,1,4,0,0,0,0,0,0,1,4
 Merrains a baril doüelles,merrains à barils douelles,,1,1,0,0,0,0,0,0,1,1
 Merrains à Bariques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
 Merrains à barrils,merrains à barils,,1,1,0,0,0,0,0,0,1,1
-Merrains a barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrains a barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrains à Barriques,merrains à barriques,,0,0,0,0,0,0,0,0,0,0
 Merrains à barriques,merrains à barriques,,1,1,0,0,0,0,0,0,1,1
+Merrains a barriques en douelles,,,1,1,0,0,0,0,0,0,1,1
 Merrains à Barriques en douelles,merrains à barriques en douelles,,1,1,0,0,0,0,0,0,1,1
 Merrains à bottes,merrains à bottes,,1,1,0,0,0,0,0,0,1,1
 Merrains à busses,merrains à buses,,1,1,0,0,0,0,0,0,1,1
@@ -39634,11 +39639,12 @@ Mulets poulins,mulets poulains,,1,2,0,0,0,0,0,0,1,2
 Mulets vieux,mulets vieux,,1,1,0,0,0,0,0,0,1,1
 Mulle,mules,,1,1,0,0,0,0,0,0,1,1
 Mulle et mullets,mules et mulets,,1,1,0,0,0,0,0,0,1,1
-Mulles,mules,,1,5,0,0,0,0,0,0,1,5
+Mulles,mules,,1,4,0,0,0,0,0,0,1,4
 Mulles ; de mattes,mules de nattes,,1,1,0,0,0,0,0,0,1,1
 Mulles a coutellier,mules à coutelier,,1,1,0,0,0,0,0,0,1,1
 Mulles brodées,mules brodées,,1,1,0,0,0,0,0,0,1,1
 Mulles brodées pour femme,mules brodées pour femme,,1,1,0,0,0,0,0,0,1,1
+Mulles de 4 mois,,,1,1,0,0,0,0,0,0,1,1
 Mulles de femmes,mules de femme,,1,1,0,0,0,0,0,0,1,1
 Mulles de natte,mules de nattes,,1,1,0,0,0,0,0,0,1,1
 Mulles et mulets,mules et mulets,,1,5,0,0,0,0,0,0,1,5
@@ -45358,7 +45364,7 @@ Pendants d'oreilles ; à Perles ; fausses,pendants d'oreilles à perles fausses,
 Penderie,penderie,,1,1,0,0,0,0,0,0,1,1
 Pendule,pendules,,1,7,0,0,0,0,0,0,1,7
 Pendule de cuivre doré,pendules de cuivre doré,,1,1,0,0,0,0,0,0,1,1
-Pendules,pendules,,1,17,0,0,0,0,0,0,1,17
+Pendules,pendules,,1,18,0,0,0,0,0,0,1,18
 Pendulle,pendules,,1,3,0,0,0,0,0,0,1,3
 Pendulles,pendules,,1,13,0,0,0,0,0,0,1,13
 Pendulles ; comunes,pendules communes,,1,1,0,0,0,0,0,0,1,1
@@ -46543,13 +46549,13 @@ Planche de prusse de 20 pieds,planches de Prusse de 20 pieds,,0,0,0,0,0,0,0,0,0,
 Planche de prusse de 28 pieds,planches de Prusse de 28 pieds,,0,0,0,0,0,0,0,0,0,0
 Planche de prusse de 42 pieds,planches de Prusse de 42 pieds,,0,0,0,0,0,0,0,0,0,0
 Planche de Sapin,planches de sapin,,1,2,0,0,0,0,0,0,1,2
-Planche de sapin,planches de sapin,,1,54,0,0,0,0,0,0,1,54
+Planche de sapin,planches de sapin,,1,52,0,0,0,0,0,0,1,52
 Planche de sapin ; demi planches,planches de sapin demi planches,,1,1,0,0,0,0,0,0,1,1
 Planche de Sapin commun,planches de sapin commun,,1,1,0,0,0,0,0,0,1,1
-Planche de sapin de 10 pieds,planches de sapin de 10 pieds,,0,0,0,0,0,0,0,0,0,0
+Planche de sapin de 10 pieds,planches de sapin de 10 pieds,,1,1,0,0,0,0,0,0,1,1
 Planche de sapin de 11 pieds,planches de sapin de 11 pieds,,1,1,0,0,0,0,0,0,1,1
 Planche de sapin de 12 pieds,planches de sapin de 12 pieds,,0,0,0,0,0,0,0,0,0,0
-Planche de sapin de 14 pieds,planches de sapin de 14 pieds,,0,0,0,0,0,0,0,0,0,0
+Planche de sapin de 14 pieds,planches de sapin de 14 pieds,,1,1,0,0,0,0,0,0,1,1
 Planche de sapin de 18 pieds,planches de sapin de 18 pieds,,0,0,0,0,0,0,0,0,0,0
 Planche de sapin de 20 pieds,planches de sapin de 20 pieds,,0,0,0,0,0,0,0,0,0,0
 Planche de sapin de 22 pieds,planches de sapin de 22 pieds,,0,0,0,0,0,0,0,0,0,0
