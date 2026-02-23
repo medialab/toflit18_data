@@ -334,6 +334,7 @@ foreach class_name in sitc edentreaty ///
 	drop if _merge==2
 	drop nbr_occure* _merge
 	capture drop obsolete
+	capture drop remarques
 	rename `class_name' product_`class_name'
 	if "`class_name'"=="revolutionempire" capture drop sitc sitc_FR
 	
@@ -661,6 +662,7 @@ drop _merge
 
 
 drop imprimatur obsolete nbr_occurences_revolutionempire nbr_occurences_sitc
+capture drop remarques
 
 sort simplification
 
